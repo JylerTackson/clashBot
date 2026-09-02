@@ -1,0 +1,160 @@
+{
+  "key": "vp7jP_vjxcU-m0.0",
+  "match_file": "matches/vp7jP_vjxcU-m0.0.md",
+  "video_title": "Ryley's BEST Predictions of 2026!",
+  "cards": {
+    "cannon": [
+      "clock 0:33 (t=15.0): placed at tile [9,9], deliberately offset one tile from the Musketeer he had just dropped at [8,9], so a single Rocket cannot take both — \"because he has no NATO, he can't go for the rocket plus NATO here. Okay, I'm going to cannon like this in case he has the rocket in the middle\" (t=11-16). The opponent Rockets anyway: \"I knew it. I literally knew the prediction was coming ... there's no way I predicted his rocket prediction\" (t=16-21).",
+      "clock 0:40 (t=28.9): a second Cannon at tile [8,10] played as tempo while he waits for a read to resolve — \"I think I want to cannon now. He's going to lightning\" (t=27-29).",
+      "clock 1:38 (t=100.1): Cannon at tile [9,13] alongside a Magic Archer, and he reads the opponent's mirror of it as bait — \"Cannon here to distract us\" (t=102).",
+      "Four more defensive drops across other clips (t=60.6, t=129.0, t=221.4 at 4.0->1.0 elixir, t=234.2 at [9,9]), all unnarrated."
+    ],
+    "musketeer": [
+      "clock 0:37 (t=10.7): tile [8,9], HUD 10.0->6.0, deploy label score 1.0. She is the piece the whole anti-Rocket spacing is built around — the Cannon goes beside her, not on her, because the opponent has no Tornado to drag the two together (t=11-13)."
+    ],
+    "magic-archer": [
+      "t=25-36 (clock 0:42 to 0:33): the Heroic Magic Archer's Triple Threat used purely as a dodge, called before the opponent commits — \"Let's go for the marcher here. He might go for the lightning ... we can just hit the ability backwards and we keep it alive. Let's go right now. Keep the marcher alive. Oh my god, what a beautiful magic archer ability, guys.\" The deploy itself was not captured by the pipeline; the ability press is commentary-only.",
+      "clock 1:38 (t=100.1): a plain deploy at tile [9,9], centre of his own half — \"let's go for the magic archer here. He definitely wanted to save that snowball for offense\" (t=99-102).",
+      "t=111-119 (clock 0:19 to 0:11): the opponent's Magic Archer is what he holds a Fireball for — \"He's going to go for another magic archer. I'm waiting for it, dude. I'm waiting for it. Okay, let's fireball here. Beautiful prediction.\""
+    ],
+    "knight": [
+      "clock 1:10 (t=44.0): Heroic Knight at tile [13,14], right side of his own half, chosen by lane and by threat — \"I'm going to knight on the right cuz he has a giant\" (t=44-45).",
+      "t=47-52 (clock 1:10 to 1:04): Triumphant Taunt fired before the threat exists — \"we can just tesla here and then we have the knight ability for the mini pekka cuz he's he's going to mini pekka on top. Knight ability to predict the mini pekka. Beautiful.\" The Log follows to finish it (t=52-55).",
+      "t=79-88 (clock 1:49): the ability held as a counter to the opponent's ability rather than to a card — \"Beautiful protection of our archers. If he hits the ability, I can just go for my knight ability ... he's going to run away. What a knight ability.\"",
+      "clock 2:16 to 1:50 (t=131.8 [2,14], t=142.8, t=149.1 [6,14], t=158.7, t=162.2 [7,14]): five plain defensive deploys on his own half through the bridge-spam clip, all unnarrated."
+    ],
+    "electro-spirit": [
+      "clock 1:58 (t=65.1): thrown at tile [2,14] on his own side of the left bridge BEFORE the Wall Breakers appear — \"She has the evil wall breakers in cycle. So, I'm going to try to predict the evil wall breakers here with the e-spirit. He's doing evil wall breakers now then we can go for the log. Beautiful prediction right there\" (t=61-70).",
+      "clock 0:59 (t=55.1): tile [14,15], right at the bridge, as the cheap top-up on a defence.",
+      "Three more 1-elixir drops (t=62.4, t=207.5, t=230.9, t=242.7) as the last card on top of a bigger answer; only t=78 is narrated (\"Let's go for the e-spirit and then we go for the knight as well\")."
+    ],
+    "skeletons": [
+      "clock 0:31 (t=38-40, tile [14,14]): played to protect a ranged troop rather than to defend a lane — \"just skellies as well just to keep the archers alive\" (t=38-39).",
+      "clock 1:50 (t=72.1, tile [5,14]): used as a reset on an accepted trade — \"we're just going to get a ton of damage and we can just reset by going for what skellies first\" (t=73-76).",
+      "clock 2:13 (t=250.8, tile [7,7]): the placement IS the prediction — \"I don't really want to go for the Tesla in the middle cuz he could split his stream. He might pre-zap us. Let's go for the skellies on the other side. Predicted his prediction there\" (t=248-254).",
+      "Fourteen further 1-elixir drops across the montage (t=20.0 [9,12], 54.1, 66.2, 67.7, 104.3, 107.4 [11,15], 112.1 [10,14], 128.1, 143.8 [2,14], 144.8, 155.2 [1,15], 167.2 [7,14], 198.5) make it the most-played card in the segment."
+    ],
+    "the-log": [
+      "clock 0:59 (t=52-55): the clean-up behind the Knight taunt, not the prediction itself — \"Knight ability to predict the mini pekka. Beautiful. Log here to take it out right away.\"",
+      "clock 2:01 (t=63.1, tile [2,15]): pre-loaded at the left bridge with the Electro Spirit, then cashed after the Wall Breakers land — \"He's doing evil wall breakers now then we can go for the log\" (t=66-67).",
+      "clock 0:31 (t=109-111): \"Log on top of the drill\" — thrown onto a Goblin Drill he had already called.",
+      "Two unnarrated casts at t=165.7 and t=180.3, plus tile [14,13] at t=248.2 in the final clip."
+    ],
+    "fireball": [
+      "t=111-119 (clock 0:19 to 0:11): held for eight seconds specifically for a card he predicted, not cycled — \"He's going to go for another magic archer. I'm waiting for it, dude. I'm waiting for it. I'm waiting for it. Okay, let's fireball here. Nice. Let's go. Beautiful prediction.\" HUD cast at t=110.9 (6.0->2.0) and a deploy label at tile [12,18] at t=114.1.",
+      "clock 0:55 (t=59.1, tile [12,23]): announced as a conditional range check on a unit that has not moved yet — \"that is going to be a fireball range if that jumps\" (t=59-61).",
+      "Two more casts at t=96.1 (6.0->2.0) and t=178.5 (7.0->3.0), unnarrated."
+    ],
+    "goblin-barrel": [
+      "clock 1:16 (t=235.2, tile [3,23]): thrown as deliberate spell bait on a read of the opponent's cheapest answer — \"Let's barrel here cuz he's going to try to get a zap down, then we go for the goblins. Yep, there's the zap\" (t=237-240).",
+      "clock 1:56 (t=199.2, tile [3,26]): the throw is deliberately DELAYED behind an ability press — \"I'm going to go for the goblin barrel here. Actually, no, I'm going to hit the ability cuz you might battle him kite and then we go for the barrel right now ... I predicted his kite right there\" (t=197-205).",
+      "Three more throws (t=117.0 HUD 5.0->2.0, t=148.6 HUD 8.0->5.0, t=228.2 tile [14,26]) are unnarrated."
+    ],
+    "barbarian-barrel": [
+      "clock 2:23 to 1:49 (t=119.8, 123.8, 127.1 [4,11], 144.1 [4,11], 154.2 [5,11], 162.7, 203.9): seven casts, all defensive and all on his own half around column 4-5 during the clip where he is soaking a Zappies/Valkyrie/Firecracker rotation. Never explained on camera — it is the cycle card underneath the predictions, not one of them."
+    ],
+    "miner": [
+      "clock 0:52 (t=181.2, tile [4,22]): the payoff half of a two-card prediction — he expects a Tornado king-activation, feeds the Hog Rider to it and lets the Miner land: \"let's hog rider here then we miner directly here. He's still going to activate king off the miner, but the hog rider's not going to go cuz guys, look, it blocks it. Nice ... What a beautiful miner\" (t=178-188). Enemy left tower 1354 -> 1037 -> 403 across clock 0:57 to 0:52.",
+      "clock 0:38 (t=101.6): a second HUD Miner (6.0->3.0) in a different clip, unnarrated."
+    ],
+    "hog-rider": [
+      "clock 1:34 (t=176.2, tile [1,14]): deployed knowing it will be pulled, purely so the Miner behind it connects — \"Obviously, he's going to want to go for the tornado to activate the king tower. So, let's hog rider here then we miner directly here ... the hog rider's not going to go cuz guys, look, it blocks it\" (t=174-184)."
+    ],
+    "rocket": [
+      "clock 1:39 (t=170.2): the setup half of a two-spell prediction, cast before the Tornado goes down ahead of the Firecracker — \"Wait, I'm going to rocket and then I'm going to pre-nado the firecracker. Yep, knew it\" (t=168-171). The deploy label at tile [4,16] is logged as an opponent play; the commentary attributes it to Ryley.",
+      "clock 2:12 (t=136.1, tile [7,28]): an own Rocket onto the enemy back line during the same defensive clip, unnarrated.",
+      "clock 0:47 to 0:27 (t=11-21): in the opening clip the Rocket is the OPPONENT's card, and the whole play is spacing around it — \"he can't go for the rocket plus NATO here ... I'm going to cannon like this in case he has the rocket in the middle.\""
+    ],
+    "tornado": [
+      "clock 1:37 (t=171.2, tile [3,18]): cast on the ENEMY half, ahead of where the Firecracker will be rather than onto it — \"I'm going to pre-nado the firecracker. Yep, knew it\" (t=170-171).",
+      "Counted twice in the opponent's hand instead of played: \"because he has no NATO, he can't go for the rocket plus NATO here\" (t=11-13), and \"he's going to want to go for the tornado to activate the king tower\" (t=174-176) — the read the Hog/Miner split is built on."
+    ],
+    "sparky": [
+      "clock 0:48 (t=191.2, tile [17,14]): placed as an anti-siege prediction, aimed at where a Mortar is about to be — \"let's predict the spark I mean, predict the mortar with the sparky. Nice\" (t=190-192); own elixir drops 9.0 -> 4.0 at t=192.2. The deploy label is logged as an opponent play on Ryley's half; commentary attributes it to him.",
+      "clock 1:04 (t=50.1, tile [4,22]): in a different clip Sparky is the OPPONENT's card, and his answer is to abandon that lane before it lands — \"He might sparky so let's expo opposite lane immediately\" (t=41-42)."
+    ],
+    "mighty-miner": [
+      "clock 1:32 to 1:20 (t=221.2, tile [15,15]): deployed with the ability explicitly saved for the lane switch, on an elixir count of what the opponent has left — \"We go for the mighty miner and then we hit the ability. He's going to have to use the e-wiz or the zap on this and he's going to be low on elixir. Yeah, he goes for the e-wiz, but now he has nothing for the mighty miner ... get the ability, go to the other lane, then we take the tower with the mighty miner\" (t=221-235). Enemy left tower falls 3551 -> 1974 through that window. Logged as an opponent deploy on Ryley's half; commentary attributes it to him."
+    ],
+    "princess": [
+      "clock 1:48 (t=205.2, tile [15,14]): put at the bridge to force one specific answer out of a known hand — \"we can go for the princess at the bridge cuz he's going to have to go for the bandit on this\" (t=207-209). The Bandit duly arrives at t=222.2. Logged as an opponent deploy on Ryley's half; commentary attributes it to him.",
+      "Named again in the segment's cut-off final line — \"Let's princess the bridge right\" (t=256)."
+    ],
+    "goblins": [
+      "clock 1:50 (t=203.2, tile [4,14]) and clock 1:16 (t=238.2, tile [14,11]): both drops are placed on a stated read of what the opponent must spend — \"he needs to defend the goblins on the left side cuz of the ability. So, if he goes for the bandit on the right, yep, he's kind of cooked\" (t=214-219), then \"Goblins will take out the ghost\" (t=240-242) against a Royal Ghost tracked at [15,7]."
+    ],
+    "x-bow": [
+      "clock 1:11 (t=41.0, tile [2,12]): put down in the lane away from a Sparky he has just read — \"He might sparky so let's expo opposite lane immediately\" (t=41-42).",
+      "t=89.1 (tile [9,12]): a second, centre placement on his own half in a later clip, unnarrated."
+    ],
+    "archers": [
+      "clock 1:10 (t=46.0, tile [7,11]): the unit everything else in the clip is protecting — Skeletons go down to keep them alive (\"just skellies as well just to keep the archers alive\", t=38-39) and the payoff is stated at t=56-58: \"The archers are still alive. The archers are on the tower.\" Enemy right tower drops 1556 -> 1230 -> 1067 -> 845 while they live.",
+      "t=95.1 (tile [1,8]): a defensive placement deep on the left in a later clip, tied to the Knight-ability call \"Beautiful protection of our archers\" (t=79-80)."
+    ],
+    "tesla": [
+      "clock 2:16 to 1:50 (t=131.1 tile [9,11], t=137.3 HUD 8.0->4.0, t=158.2 tile [7,8]): three defensive placements through the bridge-spam clip, plus a named-but-not-played call at t=47 (\"We can just tesla here and then we have the knight ability for the mini pekka\").",
+      "clock 2:13 (t=248-250): the one Tesla he explicitly REFUSES, and the refusal is the prediction — \"I don't really want to go for the Tesla in the middle cuz he could split his stream. He might pre-zap us.\""
+    ],
+    "ice-spirit": [
+      "clock 1:34 (t=218.2, tile [11,14]): the cheap opener on the Mighty Miner sequence — \"We go for the ice spirit here, guys. We go for the mighty miner and then we hit the ability\" (t=220-222).",
+      "Three more 1-elixir stacks on bigger commitments: t=17.7 (behind the anti-Rocket Cannon), t=44.5 (behind the right-lane Knight) and t=121.1 at tile [14,2]. None narrated."
+    ],
+    "ice-wizard": [
+      "clock 2:23 (t=123.1, tile [8,9]): dropped centre-left as the anchor against a rotation he is already calling out loud — \"Ice wizard here and then next comes the firecracker and then the Valkyrie and then the zappies. Yep, and then the healer\" (t=151-156)."
+    ],
+    "giant-snowball": [
+      "clock 1:59 (t=149.1, HUD 5.0->3.0) and t=254.3 (tile [2,8], label 'iaNtScowball'): two casts, the second on the segment's final call — \"let's snowball the mega...\" (t=254-256), cut off mid-sentence.",
+      "He also tracks the OPPONENT's snowball as a held card — \"He definitely wanted to save that snowball for offense\" (t=101-102)."
+    ],
+    "wizard": [
+      "clock 2:07 and 1:43 (t=141.1 and t=165.2, both tile [1,8]): two deep left-lane defensive placements during the bridge-spam clip. Unnarrated — a defensive anchor while the predictions happen elsewhere."
+    ],
+    "zappies": [
+      "clock 1:38 (t=100.1): one HUD cast (9.0->5.0), unnarrated.",
+      "Everything Ryley SAYS about Zappies is about the opponent's: he calls them seven times in the t=122-168 clip — \"he's probably going to continue bridge spam me with like zappies, healer, Valkyrie. Yep, there are the zappies\" (t=123-127), \"Yep, there are the zappies, by the way\" (t=143-145), \"then the zappies. Yep, and then the healer\" (t=154-156). The tracker confirms zappy(e) at [4,15] and [3,12] in that window."
+    ],
+    "valkyrie": [
+      "clock 0:37 (t=31.9): one HUD cast (6.0->2.0) during the Magic Archer clip, unnarrated.",
+      "The Valkyries he discusses are the opponent's, called twice before they land — \"he's probably just going to go for another valk. Yep\" (t=135-136) and \"then the Valkyrie and then the zappies\" (t=152-154)."
+    ],
+    "heal-spirit": [
+      "clock 0:35 (t=32.9): one HUD cast (-1 elixir), immediately after the Valkyrie in the Magic Archer clip. Unnarrated."
+    ],
+    "bomber": [
+      "clock 1:54 (t=199.4): one HUD cast (-2 elixir), alongside the Skeletons and the Goblin Barrel that open the ability-then-barrel sequence. Unnarrated."
+    ],
+    "wall-breakers": [
+      "clock 2:01 (t=61-70): mentioned, not played — the OPPONENT's Evo Wall Breakers are the card the Electro Spirit prediction is aimed at: \"She has the evil wall breakers in cycle. So, I'm going to try to predict the evil wall breakers here with the e-spirit. He's doing evil wall breakers now then we can go for the log. Beautiful prediction right there.\""
+    ],
+    "mini-p-e-k-k-a": [
+      "clock 1:10 to 1:04 (t=48-52): mentioned, not played — the opponent's Mini P.E.K.K.A. is what the Heroic Knight's taunt is fired at before it exists: \"we have the knight ability for the mini pekka cuz he's he's going to mini pekka on top. Knight ability to predict the mini pekka. Beautiful.\""
+    ],
+    "firecracker": [
+      "clock 1:39 (t=168-171): mentioned, not played — the opponent's Firecracker is the target of a pre-placed Tornado: \"then next up firecracker. Wait, I'm going to rocket and then I'm going to pre-nado the firecracker. Yep, knew it.\" Also called twice earlier in the same rotation (t=133-134, t=151-152) and confirmed on the field as firecracker(e) at [1,17] and [4,13]."
+    ],
+    "graveyard": [
+      "clock 0:37 (t=102.1, tile [9,6]): the opponent drops a Graveyard on Ryley's half; his answer is to reposition rather than spend — \"I think I need to step back here just to not get vines. Oh my god, I stepped out of the vines. I literally called it\" (t=104-109). The 2024-era detector has no Vines class, so this label may be the Vines he names."
+    ],
+    "battle-healer": [
+      "clock 1:46 (t=160.2, tile [4,15]): opponent card, called repeatedly before each appearance during the bridge-spam clip — \"he's probably going to continue bridge spam me with like zappies, healer, Valkyrie\" (t=123-125), \"then he's going to healer\" (t=136-137), \"Yep, healer and then zappies\" (t=158-160)."
+    ],
+    "bandit": [
+      "clock 1:29 (t=222.2, tile [13,13]): opponent card, forced out by a bridge Princess exactly as predicted — \"we can go for the princess at the bridge cuz he's going to have to go for the bandit on this ... if he goes for the bandit on the right, yep, he's kind of cooked\" (t=207-219).",
+      "clock 2:13 (t=252-254): a Bandit dashes the left lane in the final clip while Ryley plays around a predicted pre-Zap."
+    ],
+    "electro-wizard": [
+      "clock 1:22 (t=232-238): opponent card, named as part of a four-card hand count and then confirmed — \"he has pekka, bandit, e-wiz and then maybe a zap last card\" (t=210-212), then \"He's going to have to use the e-wiz or the zap on this and he's going to be low on elixir. Yeah, he goes for the e-wiz, but now he has nothing for the mighty miner\" (t=222-228). The tracker follows electro-wizard(e) from [3,11] to [3,4]."
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": ["musketeer", "cannon", "ice-spirit", "skeletons", "valkyrie", "heal-spirit", "magic-archer", "knight", "x-bow", "archers", "electro-spirit", "the-log", "fireball", "zappies", "miner", "barbarian-barrel", "ice-wizard", "tesla", "rocket", "wizard", "goblin-barrel", "giant-snowball", "tornado", "hog-rider", "bomber", "goblins", "sparky", "mighty-miner", "princess"],
+    "bullets": [
+      "MONTAGE CAVEAT: this is not one deck and not one match. Video segment 0 (t=0.3-255.3) is a highlight compilation — \"I am going to be showing you a compilation of my best predictions of all time\" (t=4-6) — cut from at least six different games. The match clock jumps upward at t≈39, 63, 122, 197 and 248 s (and again at t≈26 and t≈102), so the 29 cards listed span several different decks; no clip contains more than a handful of them. deck_key is null and no new deck is proposed.",
+      "The pipeline's per-game read (Skeletons / Cannon / Barbarian Barrel / Electro Spirit / Knight / Fireball / Goblin Barrel / Ice Spirit) is a blend across clips, not a hand Ryley ever held. Hand-read confidence averages 0.534 and the HUD shows Mortar, Lightning, Ronin, Bowler, Golem, Poison, Tombstone, Royal Giant and a dozen other cards in his hand at various seconds.",
+      "What is consistent across every clip is the play pattern, not the list: cards and spells committed BEFORE the opponent, on a read of what is missing from their cycle. Recurring devices are hero abilities fired pre-emptively (Heroic Knight's taunt onto a Mini P.E.K.K.A. at t=48-52, Heroic Magic Archer's dart-back to dodge a Lightning at t=25-36), cheap spirits at an empty bridge to catch Wall Breakers (t=63-70), building placements offset to deny a two-for-one Rocket (t=11-16), pre-placed spells on a path rather than on a unit (Tornado at [3,18] at t=171), and deploying a card you expect to be pulled so the second one lands (Hog Rider + Miner at t=176-188).",
+      "The longest single stretch (t=122-171) is not a prediction play at all but a cycle-counting demonstration: he names the opponent's Zappies / Battle Healer / Valkyrie / Giant / Firecracker rotation card by card, ahead of each one, while defending with Barbarian Barrel, Skeletons, Cannon, Tesla, Knight, Ice Wizard and Wizard — \"I know everything he's going to do, bro. It's so obvious\" (t=131-133).",
+      "No clip runs to a result screen; result is unknown. The visible damage is one-sided in his favour within clips (enemy left 4858->266 at t=68-76; enemy left 1354->403 at t=176-188; enemy left 4365->162 at t=198-246, with \"that is tower down on the left\" at t=244)."
+    ]
+  }
+}

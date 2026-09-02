@@ -1,0 +1,36 @@
+{
+ "video_id": "vp7jP_vjxcU",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 254.9,
+   "events": 109,
+   "own_deck": [
+    "skeletons",
+    "cannon",
+    "barbarian-barrel",
+    "electro-spirit",
+    "knight",
+    "fireball",
+    "goblin-barrel",
+    "ice-spirit"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 360.5,
+   "events": 184,
+   "own_deck": [
+    "ice-spirit",
+    "goblin-barrel",
+    "barbarian-barrel",
+    "electro-spirit",
+    "berserker",
+    "the-log",
+    "fire-spirit",
+    "knight"
+   ]
+  }
+ ]
+}

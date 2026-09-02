@@ -471,6 +471,140 @@
     "barbarian-barrel"
    ],
    "complete": true
+  },
+  "vp7jP_vjxcU": {
+   "id": "vp7jP_vjxcU",
+   "title": "Ryley's BEST Predictions of 2026!",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 3693,
+     "seconds": 1346.0,
+     "games": [
+      {
+       "match": "0.0",
+       "seconds": 254.9,
+       "events": 109,
+       "own_deck": [
+        "skeletons",
+        "cannon",
+        "barbarian-barrel",
+        "electro-spirit",
+        "knight",
+        "fireball",
+        "goblin-barrel",
+        "ice-spirit"
+       ]
+      },
+      {
+       "match": "0.1",
+       "seconds": 360.5,
+       "events": 184,
+       "own_deck": [
+        "ice-spirit",
+        "goblin-barrel",
+        "barbarian-barrel",
+        "electro-spirit",
+        "berserker",
+        "the-log",
+        "fire-spirit",
+        "knight"
+       ]
+      }
+     ]
+    }
+   ],
+   "periods": [
+    [
+     0.0,
+     616.0
+    ]
+   ],
+   "own_deck_video": [],
+   "complete": true
+  },
+  "7Fa2CsEXXSM": {
+   "id": "7Fa2CsEXXSM",
+   "title": "I COACHED Jynxzi to Reach Ultimate Champion",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 540,
+     "seconds": 35.0,
+     "games": [
+      {
+       "match": "0",
+       "seconds": 90.0,
+       "events": 0,
+       "own_deck": null
+      }
+     ]
+    },
+    {
+     "index": 1,
+     "status": "done",
+     "frames": 1847,
+     "seconds": 53.9,
+     "games": [
+      {
+       "match": "1",
+       "seconds": 308.0,
+       "events": 0,
+       "own_deck": null
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "status": "done",
+     "frames": 576,
+     "seconds": 34.7,
+     "games": [
+      {
+       "match": "2",
+       "seconds": 96.0,
+       "events": 0,
+       "own_deck": null
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "status": "done",
+     "frames": 432,
+     "seconds": 33.5,
+     "games": [
+      {
+       "match": "3",
+       "seconds": 72.0,
+       "events": 0,
+       "own_deck": null
+      }
+     ]
+    }
+   ],
+   "periods": [
+    [
+     26.0,
+     116.0
+    ],
+    [
+     206.0,
+     514.0
+    ],
+    [
+     580.0,
+     676.0
+    ],
+    [
+     708.0,
+     780.0
+    ]
+   ],
+   "own_deck_video": [],
+   "complete": true
   }
  }
 }

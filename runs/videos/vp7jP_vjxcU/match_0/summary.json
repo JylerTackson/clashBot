@@ -1,0 +1,116 @@
+{
+ "frames": 3693,
+ "seconds": 1346.0,
+ "timing": {
+  "total": {
+   "n": 3693,
+   "mean_ms": 355.0,
+   "p95_ms": 1822.5
+  },
+  "elixir": {
+   "n": 3683,
+   "mean_ms": 1.2,
+   "p95_ms": 1.6
+  },
+  "hand": {
+   "n": 3683,
+   "mean_ms": 124.0,
+   "p95_ms": 143.0
+  },
+  "clock": {
+   "n": 3683,
+   "mean_ms": 68.3,
+   "p95_ms": 426.5
+  },
+  "labels": {
+   "n": 614,
+   "mean_ms": 422.9,
+   "p95_ms": 549.4
+  },
+  "detect": {
+   "n": 307,
+   "mean_ms": 973.0,
+   "p95_ms": 1126.9
+  },
+  "loop_fps": 2.8
+ },
+ "own_elixir_drift": {
+  "n": 3523,
+  "mean": 0.179,
+  "abs_mean": 1.134,
+  "max_abs": 10.0,
+  "last": -7.319
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "elixir-golem",
+   "barbarian-barrel",
+   "skeleton-king",
+   "night-witch",
+   "skeletons",
+   "knight",
+   "sparky",
+   "the-log"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "elixir-golem",
+   "night-witch",
+   "knight",
+   "the-log"
+  ],
+  "predicted_next": "bomb-tower",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow",
+    "name": "X-Bow HeroKnight 3.0 Cycle",
+    "archetype": "siege",
+    "matched": 3,
+    "contradicted": 5,
+    "score": -6.97,
+    "remaining": [
+     "archers",
+     "electro-spirit",
+     "fireball",
+     "tesla",
+     "x-bow"
+    ]
+   },
+   {
+    "deck_key": "cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log",
+    "name": "Hog HeroMusk 2.6 Cycle",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.96,
+    "remaining": [
+     "cannon",
+     "fireball",
+     "hog-rider",
+     "ice-golem",
+     "ice-spirit",
+     "musketeer"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons",
+    "name": "EvoRG FishBoy Hunter 3.0 Cycle",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "electro-spirit",
+     "fireball",
+     "fisherman",
+     "hunter",
+     "royal-ghost",
+     "royal-giant"
+    ]
+   }
+  ],
+  "cycle_confirmed": 3,
+  "cycle_violations": 63
+ }
+}
