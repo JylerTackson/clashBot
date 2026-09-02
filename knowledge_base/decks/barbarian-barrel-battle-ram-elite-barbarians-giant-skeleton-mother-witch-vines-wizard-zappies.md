@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+This version trades the Royal Ghost for a second heavy bridge threat, so both win conditions are dropped in the opponent's face rather than built up slowly: the Battle Ram evolution bounces off its target instead of breaking, its charge damage and knockback destroy the light swarms sent in front of it, and Evolved Elite Barbarians throw rage-tipped spears that leave a Rage trail speeding them into the tower. Giant Skeleton is the tank behind them, useful because anything that kills him usually dies to a death bomb that deals double damage to Crown Towers. Hero Wizard, Mother Witch and Zappies form the support layer that covers air and swarms — the Wizard's Fiery Flight tornadoes pull tanks back down the lane, the Mother Witch converts killed swarm units into Cursed Hogs that add to the next push, and the Zappies chain-stun a single slow, high-value threat until it dies. Barbarian Barrel clears the swarms that would otherwise block the Ram, and Vines entangles the three healthiest units in a push and drags air troops down to the ground so the deck's many ground-only attackers can hit them. At 4.25 average Elixir and a 13.0 four-card cycle this is the heaviest and slowest of the two builds, and it is punished the same way: swarms and high-damage mini-tanks such as Skeleton Army or Mini P.E.K.K.A. stop the Ram and the Elite Barbarians, and one Fireball answers both the Zappies and the Mother Witch.
 
 ## Source
 

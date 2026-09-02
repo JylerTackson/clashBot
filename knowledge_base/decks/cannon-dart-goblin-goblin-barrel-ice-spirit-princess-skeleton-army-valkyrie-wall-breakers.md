@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Every threat in this deck asks for the same small spell: Goblin Barrel, Princess, Dart Goblin, Skeleton Army and Wall Breakers are all answered cheaply by The Log, Arrows or Barbarian Barrel, so once the opponent has spent it the next card in rotation connects for free. The Goblin Barrel evolution sharpens that plan by launching a near-identical Decoy Barrel into the opposite lane, forcing the defender to guess which side holds the real Goblins, while the Skeleton Army evolution adds General Gerry and untargetable shadows so a single splash answer no longer fully clears the swarm. Defence is built around the Cannon, which drags tanks and building-targeting troops away from the Crown Tower for 3 Elixir but cannot shoot air, so Dart Goblin, Princess and Ice Spirit carry the anti-air load, and the Heroic Valkyrie is the mini-tank that clears ground swarms with her 360-degree splash and Wild Whirlwind before leading a counterpush. At 2.75 average Elixir and a 9.0 four-card cycle the deck replays Wall Breakers and Goblin Barrel faster than the opponent can cycle a counter, and the Ice Spirit freeze buys the Goblins or Wall Breakers the extra second they need to connect. Its weakness is fragility: Valkyrie, Cannon and Skeleton Army are all ground-only, and an opponent holding Arrows or a splash troop such as Wizard, Bowler or Valkyrie can answer several of the bait cards with one card.
 
 ## Source
 

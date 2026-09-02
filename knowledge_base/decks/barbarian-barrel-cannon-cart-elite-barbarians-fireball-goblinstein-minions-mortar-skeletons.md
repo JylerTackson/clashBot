@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Evolved Mortar is the win condition: parked on your own side it shells the enemy Crown Tower from up to 11.5 tiles, and the evolution fires a second faster while spawning a Goblin wherever each shell lands, so even one connection is worth hundreds of damage between boulders and Goblins. The Siege plan is to place it when the opponent is low on elixir and then keep it firing — Skeletons and Minions are the cheap distractions that cover its blind spot and pull attackers off it, and Minions double as the deck's main air answer since Mortar, Cannon Cart and Elite Barbarians all target ground only. Goblinstein is the defensive anchor that never clogs the cycle: the Monster is a high-hitpoint building-targeter, every Doctor attack stuns for 0.5 seconds against charges and ramp-ups, and Lightning Link shreds any swarm that walks into the corridor between them. Cannon Cart and Evolved Elite Barbarians convert a held defence into a counter-push — the Cart's range and bulk let it kill what defends a Mortar and it leaves a 15-second building behind once it drops under half health, while the evolved pair throw Rage-tipped spears that lay a Rage trail speeding up their own advance. Fireball and Barbarian Barrel clear the swarms and glass cannons the slow-firing Mortar cannot, but at 3.75 average elixir the deck cycles slowly, air troops that ignore the ground-only core are its worst matchup, and any distraction dropped during the Mortar's 3.5 second deploy can waste the placement outright.
 
 ## Source
 

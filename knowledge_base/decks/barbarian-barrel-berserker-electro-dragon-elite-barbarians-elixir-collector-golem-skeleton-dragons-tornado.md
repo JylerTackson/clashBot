@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Elixir Collector is what makes this the purest beatdown deck of the set — 6 Elixir returns up to 8 over its lifetime, funding a Golem placed at the back of the King Tower and the stack of support that follows him in double Elixir. The Electro Dragon evolution is the ideal Golem partner: its bolt chains through the whole defence instead of only three targets, stunning the first three, and it resets the charge of the Inferno Tower, Inferno Dragon and Mighty Miner that would otherwise melt the tank. Skeleton Dragons add a second, cheaper source of flying splash for the swarms and support sent at the Golem, and Tornado clumps those defenders together so both the chain lightning and the splash hit everything at once. Barbarian Barrel and the 2 Elixir Heroic Berserker cover cheap ground defence while the push builds, and Evolved Elite Barbarians defend heavy ground threats and then counterattack with their rage-tipped spears. At 4.5 average Elixir this is the slowest deck here and it is fragile in exactly the expected way: the Collector is a free target for Fireball, Rocket or a Miner, the deck has almost no cheap answer if the Golem is met with a P.E.K.K.A. or Inferno card while its support is spelled, and the whole gameplan concedes chip damage in single Elixir.
 
 ## Source
 

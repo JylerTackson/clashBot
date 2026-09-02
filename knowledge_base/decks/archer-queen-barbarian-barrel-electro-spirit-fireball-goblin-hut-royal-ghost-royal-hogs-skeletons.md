@@ -2,9 +2,9 @@
 deck_key: archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons
 display_name: EvoRHogs AQ GobHut EvoGhost
 archetype_primary: cycle
-archetype_secondary: "none"
-classification_source: heuristic
-classification_rationale: Card composition scores highest for Cycle (electro-spirit, fireball, royal-hogs, skeletons; avg elixir 3.12).
+archetype_secondary: control
+classification_source: agent
+classification_rationale: Royal Hogs replayed off a 7-elixir four-card cycle of Skeletons and Electro Spirit keeps Cycle primary, but at 3.12 average elixir the Goblin Hut value engine, defensive Archer Queen and the Fireball plus Barbarian Barrel spell pair make the deck defence-first enough to also be Control.
 avg_elixir: 3.12
 rating: 47
 usage: "0.7%"
@@ -44,8 +44,8 @@ scraped_at: "2026-09-02T03:43:33+00:00"
 ## Classification
 
 - Primary: **Cycle** ([archetype file](../archetypes/cycle.md))
-- Secondary: none
-- Source: `heuristic` — Card composition scores highest for Cycle (electro-spirit, fireball, royal-hogs, skeletons; avg elixir 3.12).
+- Secondary: Control ([archetype file](../archetypes/control.md))
+- Source: `agent` — Royal Hogs replayed off a 7-elixir four-card cycle of Skeletons and Electro Spirit keeps Cycle primary, but at 3.12 average elixir the Goblin Hut value engine, defensive Archer Queen and the Fireball plus Barbarian Barrel spell pair make the deck defence-first enough to also be Control.
 - Heuristic scores: Beatdown 0.0, Control 1.0, Cycle 4.5, Bait 0.0, Bridge Spam 3.0, Siege 0.0
 
 ## Site statistics (as displayed)
@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Evolved Royal Hogs are the win condition: four Very Fast building-targeters that jump the river together, and whose Hog Flight keeps them airborne and untargetable by anything that only hits ground until damage or a building brings them down. Skeletons and Electro Spirit cost 1 elixir each and make the four-card cycle only 7, so the Hogs come back around quickly, while Goblin Hut works in the background — pulling ground pushes off the Crown Tower and stacking a Spear Goblin every 2.2 seconds for the counter-push that follows. Archer Queen is the defensive backbone, since her Cloaking Cape buys 3.5 seconds of untargetable shooting at 80% attack speed and answers almost any single threat, and Evolved Royal Ghost joins the Hogs at the bridge, arriving invisible and leaving persistent Souldiers that clear the swarms the Hogs are helpless against. Fireball and Barbarian Barrel carry the spell load the Royal Hogs depend on, because they cannot attack troops at all and need their support to strip the swarms and buildings placed to stop them. The weakness is area damage — one splash unit or spell shreds four Hogs and the accumulated Spear Goblins together — along with pulling buildings such as Bomb Tower or Inferno Tower, and Electro Spirit is a liability across the bridge since its chain can reach and activate the enemy King's Tower.
 
 ## Source
 

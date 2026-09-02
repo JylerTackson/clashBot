@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Hog Rider is the win condition, and at 2.62 average elixir with a 6-elixir four-card cycle the deck simply replays him faster than the opponent can rotate their building or swarm back into hand, taking chip damage every cycle instead of committing to one big push. Evolved Cannon is the defensive building that pulls the Hog Riders, Princes and tanks the deck cannot out-muscle, and its deploy barrage of nine knocking-back cannonballs — half of them landing on the opponent's side — makes the placement an offensive play as well as a defensive one. Heroic Musketeer supplies the ranged air-and-ground damage nothing else in the deck has, and her Trusty Turret drops a short-lived building three tiles ahead of her that pulls enemy win conditions or distracts troops while she shoots from behind it. Ice Golem, Ice Spirit and Evolved Skeletons are both the cheap defence and the reason the cycle is so fast: the Ice Golem tanks in front of the Hog and slows everything around him when he dies, Ice Spirit's 1.1 second freeze resets charges and ramp-ups, and the Evolved Skeletons clone themselves with every swing to stall single-target attackers almost indefinitely. Fireball and The Log clear the swarms and glass cannons the Hog Rider cannot touch — The Log is best thrown predictively ahead of a Skeleton Army so he keeps his hitpoints — but the deck only ever chips, so an opponent with a well-placed building and a splash card can answer the Hog for a positive trade every single cycle.
 
 ## Source
 

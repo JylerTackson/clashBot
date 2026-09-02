@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Evolved Goblin Barrel is the win condition and the Bait plan is to keep presenting threats that all demand the same small spell: the Barrel, Princess, Dart Goblin and Skeleton Army are each answered by The Log or Arrows, so whichever one is played while that spell is out of rotation connects — and the evolution doubles the guess by launching a second, near-identical decoy Barrel into the mirrored lane. Heroic Knight is the tank that makes the Barrel land, since his Triumphant Taunt forces every enemy troop and building within 7.5 tiles (the Crown Tower included) to attack him instead of the Goblins, and the same taunt pulls defenders off an Evolved Skeleton Army pushed into enemy territory. Defence runs on cheap positive trades — Ice Spirit's 1.1 second freeze resets charges and ramp-ups, the Evolved Skeleton Army leaves untargetable shadows behind every dead Skeleton until General Gerry falls, and Inferno Tower melts the tanks and heavy single threats nothing else in the deck can kill — with The Log clearing ground swarms and knocking charging troops back. At 2.88 average elixir and a 9-elixir four-card cycle the deck also plays as Cycle, returning to the Barrel faster than the opponent can rotate their spell back into hand. Its weakness is splash: Princess, Dart Goblin, Skeleton Army and the Barrel Goblins are all one-shot by area damage, Inferno Tower is reset by any stun and overwhelmed by swarms, and The Log cannot hit air at all.
 
 ## Source
 

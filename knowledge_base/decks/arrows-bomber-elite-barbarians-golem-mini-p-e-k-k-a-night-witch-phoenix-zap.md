@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+The Golem goes down at the back of the King Tower so Elixir regenerates while he walks, and the support stacks behind him as the opponent commits — Night Witch is a natural partner because her Bats keep spawning while he tanks, and after he dies the Golemites keep tanking for her. Phoenix adds the air presence the rest of the deck lacks and its Egg respawn makes it awkward to remove for good, while Bomber gives cheap splash behind the tank against the swarms sent to stop it. Defence is where the deck earns its push: the Heroic Mini P.E.K.K.A. deletes the tank-killers and support troops the opponent sends, and his Breakfast Boost converts a successful defence into a far stronger counterattack, charging fastest against exactly the building-targeting troops that beatdown decks otherwise struggle to punish; Evolved Elite Barbarians serve the same double duty, defending and then rushing with their rage-tipped spears. The Zap evolution pulses twice for double damage and a double charge reset, and Arrows wipe swarms and Phoenix Eggs, keeping both spell answers cheap so the bulk of the Elixir goes into the push. At 4.12 average Elixir and an 11.0 cycle the deck accepts chip damage in single Elixir and aims to win the double-Elixir phase, and its real weakness is air: only Phoenix, Arrows and the Evolved Zap can touch flyers, and Inferno Dragon or a P.E.K.K.A.-class tank killer melts the Golem if the support is cleared first.
 
 ## Source
 

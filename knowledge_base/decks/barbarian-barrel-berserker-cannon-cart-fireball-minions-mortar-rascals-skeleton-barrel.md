@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+The Mortar evolution is the win condition and it hits the enemy Crown Tower from your own half of the arena, firing a second faster than the base card and dropping a Goblin wherever each shell lands, so even one connection is worth hundreds of damage between boulders and Goblin hits. Everything else exists to keep it firing: Rascals are an ideal siege escort because the Rascal Boy meat-shields the building while the Rascal Girls cover the air targets it cannot hit, Cannon Cart contests defenders from 5.5 tiles with enough combined hitpoints to outlast them, and Minions fly the river to melt a defensive building or clear the air. Barbarian Barrel and Fireball clean the cheap troops dropped into the Mortar's blind spot, and Fireball doubles as the punish spell against the clumped support behind a push. The Skeleton Barrel evolution is the second pressure card and the spell bait — it drops one barrel at 75% health and another on death for 14 Skeletons total, so a single small spell cannot cover both, and alongside the fragile Rascal Girls it stretches the opponent's spell answers thin. The Heroic Berserker gives a 2 Elixir ground defender whose Savage Survival keeps her above 1 hitpoint for four seconds while she attacks every 0.2 seconds; the deck's main problems are that fast troops like Hog Rider or Ram Rider sit inside the Mortar's blind spot where it cannot fire, and that a 3.5 average Elixir deck full of low-hitpoint support gives heavy value to area damage spells.
 
 ## Source
 

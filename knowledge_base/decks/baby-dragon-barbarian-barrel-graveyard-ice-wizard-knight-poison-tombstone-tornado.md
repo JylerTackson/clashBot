@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Graveyard is the win condition and the deck plays the Control gameplan around it: answer each push for less elixir than it cost, then cast the spell on a weakened tower with whatever survived acting as the tank. Evolved Baby Dragon and Ice Wizard cover air and swarms on defence, and both slow what they hit — the evolution's wind gust cuts enemy movement by 30% while speeding allies up, and the Ice Wizard's 30% attack-speed slow on the Crown Tower lets far more Skeletons accumulate. Evolved Knight is the ground mini-tank whose damage-reduction shield forces heavy elixir into him, while Barbarian Barrel is the cheap alternative tank (cast Graveyard first, then roll the Barrel at the bridge so the Barbarian spawns with the Skeletons) and Tombstone stalls building-targeters and chargers before its Hero form can spend 5 more elixir on Regal Revive for a Tomb Queen as a second win condition. Poison and Tornado do the rest of the work: Tornado clumps defenders into the Ice Wizard's and Baby Dragon's splash or drags them off the Skeletons, and Poison denies the small swarms that would otherwise clear a Graveyard outright. The deck's weakness is bulky splash — Valkyrie and similar high-health area damage survive the Poison and shred the Skeletons — and at 3.38 average elixir it cycles slowly, so a Tornado or Poison spent badly on defence leaves the Graveyard push unsupported.
 
 ## Source
 

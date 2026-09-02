@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+The deck defends first and only then attacks: Bowler's piercing boulder knocks ground pushes back and resets chargers like the Battle Ram, Tornado lines those defenders up so the boulder cuts through all of them, and the Heroic Knight tanks in front while Triumphant Taunt forces nearby troops and buildings to attack him instead of the tower. The Inferno Dragon evolution is the tank answer, and its charge retention changes how it plays with the rest of the deck — it keeps its damage stage after a kill and can no longer be reset by pulls or knockback, so a Tornado that would ruin the base card is now an asset with it. What survives the defence becomes the counterpush: Balloon is the win condition and the Baby Dragon evolution is its escort, clearing the Bats and Minions that block it while its Wind Gust slows enemy troops by 30% and speeds the Balloon up by 30%, and Freeze lands as the Balloon arrives to disable the tower and its defenders long enough for several hits. Barbarian Barrel is the cheap answer to ground swarms and adds a Barbarian to distract whatever is left. The weakness is air coverage and tempo: Bowler, Knight and Barbarian Barrel are all ground-only, so the two dragons carry every anti-air duty, and at 3.75 average Elixir with a 12.0 four-card cycle a Balloon answered by Minion Horde, Mega Minion or a well-placed building cannot be sent again quickly.
 
 ## Source
 

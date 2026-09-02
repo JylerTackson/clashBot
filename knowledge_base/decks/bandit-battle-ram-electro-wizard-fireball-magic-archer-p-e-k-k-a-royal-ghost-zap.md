@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+P.E.K.K.A. is the defensive anchor — she targets all ground units and shreds the big commitments the rest of the deck cannot handle — and the Bridge Spam plan is to convert whatever survives her defence straight into a counter-push rather than building anything slowly. Evolved Battle Ram, Bandit and Evolved Royal Ghost are the threats dropped at the bridge, and each demands a different answer: the evolved ram no longer breaks on a building and knocks troops out of its path before revealing two Evolved Barbarians, the Bandit is immune to damage through her double-damage dash, and the Royal Ghost arrives invisible and leaves two persistent Souldiers behind every attack. Electro Wizard and Heroic Magic Archer are the support that covers P.E.K.K.A.'s blind spots — the Electro Wizard's stun resets Inferno Tower, Inferno Dragon and Sparky and stops enemy charges, while the Magic Archer's piercing arrow outranges and removes the defensive buildings that would otherwise stop the Battle Ram, with Triple Threat leaving a decoy to dodge a Fireball. Fireball and Zap clean up the swarms and glass cannons that stall a push, and Zap doubles as a charge reset for a threatened Battle Ram or Bandit. The deck's weakness is air: P.E.K.K.A. cannot attack it at all and Minions or Mega Minion stop the Battle Ram connecting, and at 3.88 average elixir it is slow to cycle, so a P.E.K.K.A. spent badly on defence leaves the opposite lane open.
 
 ## Source
 

@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+The deck attacks with two threats meant to land at the bridge before the opponent can set up: the Battle Ram evolution no longer breaks on contact, bouncing back to hit its target repeatedly while its charge damage and knockback wipe the light swarms placed in its path and leaves two Evolved Barbarians behind, and the Royal Ghost evolution arrives invisible, one-shots ranged support and spawns Souldiers that persist after the defence is over for a follow-up push. Giant Skeleton is the heavy body that absorbs a defence, and because his death bomb deals double damage to Crown Towers, whatever kills him usually dies and the tower still takes damage. The support covers what those ground units cannot: Hero Wizard splashes air and ground and his Fiery Flight tornadoes drag tanks back down the lane, Mother Witch turns every swarm unit she kills into a Cursed Hog that joins the push, and Zappies stagger their 0.5 second stuns to lock down a single big threat such as an Inferno Tower, Inferno Dragon or Prince. Barbarian Barrel clears the ground swarms that stop the Ram and adds a third Barbarian to it, while Vines entangles the three highest-hitpoint units in a push and pulls air troops to the ground so the ground-only Giant Skeleton and Royal Ghost can reach them. The cost is speed: at 3.88 average Elixir and a 12.0 four-card cycle the threats come back slowly, and Zappies and Mother Witch both die to a single Fireball while high-DPS mini-tanks and swarms stop the Battle Ram before it connects.
 
 ## Source
 
