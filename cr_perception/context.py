@@ -122,12 +122,27 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
     # his play the hand reader missed, not the opponent's (mirror matches are
     # rare; the level line, when both differ, already separates them)
     hud_cards = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "hud")
+    from .detect import SPELL_CLASSES as _SP
+    exempt_lbl = _SP | {"miner", "goblin-drill", "graveyard", "goblin-barrel", "wall-breakers"}
+    # cards the opponent demonstrably deploys on THEIR half (rows >= 17)
+    opp_far = Counter(e["card"] for e in events if e["player"] == "opponent" and e["detect_source"] == "deploy_label"
+                      and e.get("tile") and e["tile"][1] >= 17)
     for e in events:
-        if e["player"] == "opponent" and e["detect_source"] == "deploy_label" and hud_cards.get(e.get("card"), 0) >= 2:
+        if e["player"] != "opponent" or e["detect_source"] != "deploy_label" or not e.get("card"):
+            continue
+        row = e["tile"][1] if e.get("tile") else None
+        why = None
+        if hud_cards.get(e["card"], 0) >= 2:
+            why = "card is HUD-confirmed in his deck this game"
+        elif row is not None and row <= 11 and e["card"] not in exempt_lbl:
+            why = "troop label deep in his half (the opponent cannot deploy there)"
+        elif row is not None and row <= 14 and e["card"] not in exempt_lbl and not opp_far.get(e["card"]):
+            why = "label on his half and the opponent never deploys this card on theirs"
+        if why:
             e["player"] = "own"
             e["confidence"] = "medium"
             e["elixir_before"] = e["elixir_after"] = None
-            e["detail"] += " [reattributed to Ryley: card is HUD-confirmed in his deck this game]"
+            e["detail"] += f" [reattributed to Ryley: {why}]"
     # own deck: confirmed plays first (HUD / deploy label), then confident hand reads
     played_hud = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "hud")
     played_label = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "deploy_label")
