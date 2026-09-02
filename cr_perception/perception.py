@@ -24,7 +24,7 @@ from .elixir_sim import ElixirSimulator
 from .events import PlayDetector
 from .hud import (CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, HandReader, OcrReader, TowerHpReader,
                   crop_roi, parse_clock)
-from .screen import ContentRect, assess, detect_content_rect
+from .screen import ContentRect, MatchGate, assess, detect_content_rect
 from .sources import FrameSource
 from .state import GameState, PlayEvent, UnitObs
 
@@ -52,6 +52,8 @@ class Perception:
     config: str | Path
     source: FrameSource
     detector: object | None = None            # KataCRDetector / BuildABotDetector
+    ENTER_FRAMES: int = 3
+    EXIT_SECONDS: float = 2.0
     detect_every: int = 3
     ocr_every: int = 15
     use_ocr: bool = True
@@ -78,6 +80,7 @@ class Perception:
         self.last_good: dict = {}
         self.last_good_t: dict = {}
         self.match_started = False
+        self.gate = MatchGate(self.ENTER_FRAMES, self.EXIT_SECONDS)
         self.frame_i = 0
         self.H = None
         self.timing: dict[str, list[float]] = {}
@@ -127,15 +130,16 @@ class Perception:
             self._hsize = (cw, ch)
         ready = assess(frame, ContentRect(cx, cy, cw, ch), {"elixir_bar": tuple(self.calib.rois["elixir_bar"]),
                                                             "arena": tuple(self.calib.rois["arena"])})
-        state = GameState(t=t, frame_index=idx, readiness=ready.state)
+        readiness, entered = self.gate.update(ready.state, t)
+        if entered:
+            self.reset_match(t)
+        self.match_started = self.gate.in_match
+        state = GameState(t=t, frame_index=idx, readiness=readiness)
         state.field_confidence["readiness"] = ready.conf
-        if ready.state != "match":
-            self.match_started = False
+        state.field_confidence["readiness_raw"] = ready.state
+        if not self.match_started:
             self._tick("total", t_all)
             return state
-        if not self.match_started:
-            self.match_started = True
-            self.reset_match(t)
 
         # ---- HUD: elixir (bar + digit cross-check) ----
         t0 = time.perf_counter()

@@ -108,3 +108,40 @@ deck. Classifications are heuristic unless a reviewing agent changed them
 (`classification_source: agent`); the page shows no archetype labels of its
 own. Re-running with a newer saved page updates decks, archetype files and
 card cross-links in place.
+
+## Phase 4 — perception pipeline (`cr_perception/`)
+
+Read-only state extraction from Clash Royale footage (recorded videos now;
+a macOS emulator window via `mss` later). Nothing in this package can send
+input.
+
+```
+cr_perception/
+  sources.py     VideoFrameSource / ImageDirSource / ScreenSource (mss + Quartz window lookup,
+                 Screen-Recording-permission check that fails loudly)
+  screen.py      black-bar stripping, game-panel detection from the elixir bar (streaming layouts),
+                 per-frame readiness (match | match_weak | menu | unreadable) + MatchGate hysteresis
+  geometry.py    18x32 tile grid, perspective homography, bottom-centre rule, legal placement mask
+  config.py      calib.json: every ROI/corner as a FRACTION of the content rect
+  hud.py         elixir (bar fill + digit templates), hand/next card (template matching vs Phase 1 art),
+                 clock (digit templates, RapidOCR fallback), tower HP; every reader returns (value, conf)
+  detect.py      KataCR YOLOv8 x2 (direct inference, ally/enemy channel) and BuildABot ONNX backends
+  events.py      own plays from hand change + elixir drop; opponent plays from new arena tracks;
+                 unidentified spells from tower-HP drops -> PlayEvent(card=None, confidence=low)
+  elixir_sim.py  regen simulator; own-side drift vs HUD is the error bar on the opponent estimate
+  decktracker.py opponent deck / cycle tracking + Phase 2 KB inference (labelled as inference)
+  state.py       GameState / PlayEvent contract;  recorder.py  JSONL;  overlay.py  debug rendering
+tools/calibrate.py        frame -> calib.json (+ verification grid image); auto arena from towers
+tools/run_video.py        video -> states.jsonl + overlay.mp4 + summary.json (fps, drift, deck)
+tools/segment_transcript.py  keep only subtitle cues spoken during readable match periods
+tools/benchmark_capture.py   macOS capture fps + permission check
+scripts/download_videos.py   yt-dlp channel downloader (parallel, subtitles, --cookies)
+tests/                     15 tests: grid ground truth, homography, bottom-centre rule, legal mask,
+                           elixir sim + drift, deck cycle + KB inference, HUD readers on synthetic
+                           HUDs built from the Phase 1 art, end-to-end synthetic match
+```
+
+Status: see the Phase 4 report in the session log. Real-video validation (ROI
+tuning, detector accuracy, fps, deck-tracker replay, elixir drift) requires a
+downloaded match; YouTube currently blocks this session's IP with a bot check,
+so `scripts/download_videos.py --cookies cookies.txt` is the way in.

@@ -16,11 +16,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+EXTRA: list[str] = []
 OUT = ROOT / "data" / "videos"
 
 
 def list_channel(url: str, n: int) -> list[dict]:
-    cmd = ["yt-dlp", "--flat-playlist", "--playlist-end", str(n),
+    cmd = ["yt-dlp", *EXTRA, "--flat-playlist", "--playlist-end", str(n),
            "--print", "%(id)s\t%(duration)s\t%(title)s", url]
     out = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
     vids = []
@@ -37,7 +38,7 @@ def download(v: dict, height: int) -> dict:
     done = list(d.glob("*.mp4"))
     if done and not list(d.glob("*.part")):
         return {**v, "status": "cached", "file": done[0].name}
-    cmd = ["yt-dlp", "--no-progress", "-q",
+    cmd = ["yt-dlp", *EXTRA, "--no-progress", "-q",
            "-f", f"bv*[height<={height}][ext=mp4]/bv*[height<={height}]/b[height<={height}]",
            "--write-auto-subs", "--write-subs", "--sub-langs", "en.*,en", "--sub-format", "vtt/srt",
            "--write-info-json", "--no-playlist", "-N", "4",
@@ -61,7 +62,12 @@ def main() -> int:
     ap.add_argument("--n", type=int, default=50)
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--height", type=int, default=720)
+    ap.add_argument("--cookies", help="Netscape cookies.txt exported from a browser logged into YouTube "
+                                     "(needed when YouTube answers 'Sign in to confirm you are not a bot')")
+    ap.add_argument("--sleep", type=float, default=2.0, help="seconds between requests (be gentle: 429s otherwise)")
     a = ap.parse_args()
+    global EXTRA
+    EXTRA = ["--js-runtimes", "node", "--sleep-requests", str(a.sleep)] + (["--cookies", a.cookies] if a.cookies else [])
     vids = list_channel(a.channel, a.n)
     print(f"{len(vids)} videos listed", flush=True)
     results = []
