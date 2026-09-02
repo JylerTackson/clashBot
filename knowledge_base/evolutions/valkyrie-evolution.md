@@ -26,7 +26,12 @@ The Valkyrie's Evolution is a Rare card that is unlocked with 6 Evolution Shards
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; still 4 Elixir and requires 2 Cycles to deploy.
+- Base stats are identical to the original Valkyrie — same hitpoints, area damage and hit speed.
+- New ability (Whirlwind Axe): every attack spawns a Tornado for 0.5 seconds that pulls all units toward her and deals damage in a 5.5 tile radius.
+- The Tornado targets Air & Ground, so although her axe still cannot hit air, the Tornado ticks chip air troops (one tick kills Bats).
+- The Tornado adds a separate damage line — for example 39 damage (17 against Crown Towers) at Level 3 — on top of her normal area damage.
+- The constant pull effect keeps enemies from escaping her and repeatedly drags advancing troops backwards.
 
 ## Evolution-specific stats/behavior
 
@@ -68,7 +73,20 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Best used as a defensive wall: high health, high damage and a massive pull on every swing.
+- Very effective against all ground swarms — Skeleton Army, Barbarians, Royal Hogs, Royal Recruits — thanks to her large splash and radius.
+- Very effective against slow building-targeting troops like Giant, Elixir Golem and Golem, which the Tornado keeps yanking back from the Crown Towers.
+- Placed behind a Hog Rider she fully stops him, the Tornado pulling him back until he dies.
+- Properly placed she fully counters the Evolved Royal Giant and the Goblin Giant for a +2 Elixir trade.
+- Great counter to the Goblin Drill — her splash clears the Goblins and her health shrugs off the Drill, leaving her near full for a counterpush.
+- Never ignore her against a Tower Princess: the Tornado's repeated chip plus her health can take away most of a Crown Tower. Against a Cannoneer or Dagger Duchess their higher DPS cuts her damage, so ignoring her becomes situational.
+- High-damage air cards are the optimal counter — Minions, Bats, Mega Minion, Inferno Dragon, Phoenix — but keep ground troops away from them or the Tornado will catch them too.
+- Combos with splash troops that benefit from clumped targets: Executioner, Goblin Demolisher, Sparky, Bomber, Hunter, Firecracker and Wizard; Ice Wizard is especially good since his slow keeps enemies inside the Tornado radius.
+- Great with Evolved Bomber and Evolved Firecracker (and with the Tornado spell) since she gathers troops for them to hit at once.
+- Decent synergy with Goblin Drill on offense — she pulls its defenders into her so the Goblins get more Tower damage.
+- She can activate your own King Tower alone by pulling enemy troops like Magic Archer or Bowler in; with the Tornado spell she can drag large tanks such as a Golem into King Tower range.
+- To activate your King Tower against an enemy Evolved Valkyrie inside the bridge: play an Ice Golem 3 tiles below the river to kite her into the other lane, then Skeletons 4 tiles above the King Tower near a Crown Tower to kite her back so the Tornado hits the King Tower.
+- She can be substituted with Evolved Knight or Evolved Barbarians depending on the deck.
 
 ## Source
 

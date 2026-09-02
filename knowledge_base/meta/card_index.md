@@ -1,6 +1,6 @@
 # Card index
 
-Generated 2026-09-02T02:45:45+00:00 from [Cards](https://clashroyale.fandom.com/wiki/Cards), [Card Overviews](https://clashroyale.fandom.com/wiki/Card_Overviews), [Card Evolution](https://clashroyale.fandom.com/wiki/Card_Evolution) and [Heroes](https://clashroyale.fandom.com/wiki/Heroes).
+Generated 2026-09-02T02:46:38+00:00 from [Cards](https://clashroyale.fandom.com/wiki/Cards), [Card Overviews](https://clashroyale.fandom.com/wiki/Card_Overviews), [Card Evolution](https://clashroyale.fandom.com/wiki/Card_Evolution) and [Heroes](https://clashroyale.fandom.com/wiki/Heroes).
 
 **Cards: 126** · **Evolutions: 42** · **Heroes: 16**
 

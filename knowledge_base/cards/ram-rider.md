@@ -76,15 +76,52 @@ Has both Evolved Hunter and Evolved Battle Ram attributes.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Slow, tanky single troops — P.E.K.K.A, Mighty Miner, Valkyrie, Skeleton King and Giant Skeleton are snared to near immobility, especially when placed in the back where they cannot get back in time.
+- Building-targeting win conditions — Hog Rider, Balloon, Golem, Giant, Lava Hound and even another Ram Rider are slowed so heavily that most of their damage never lands.
+- Charge and wind-up units — the 70% snare drags out Bandit's and Prince's charges.
+- Elite Barbarians — kiting them without jumping the river keeps her in range longer and stops them for a +1 Elixir trade.
+- Cannon Cart — her attack grinds down the first form while the ram's charge does massive damage to the building form.
+- Princess at the bridge — she damages the Princess whether or not she is distracted and immediately starts a push, forcing more Elixir out of the opponent.
+- X-Bow and Mortar setups — the ram attacks the building while the Rider snares and damages the troops protecting it.
+- Any troop caught out of position — she is excellent at kiting: placed near the river as an enemy crosses the bridge, she jumps over, drags them along snared, and the Crown Tower chips them.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Buildings — the best way to stop her charge; with Crown Tower help they beat her for a neutral or positive Elixir trade.
+- Skeleton Army and Minion Horde — completely stop her with quick reaction time, provided they are placed near her rather than where she can snare and run past.
+- P.E.K.K.A. and Mega Knight — high health and damage beat her, and the Mega Knight's spawn knockback buys extra time.
+- Barbarians and Elite Barbarians — their high mass obstructs her pathing into a longer route, and the Rider's damage is split across the swarm.
+- Bowler and Zappies — the Bowler takes minimal damage from the Rider while the Zappies split it three ways, and their knockback and stuns stop her charge (both are vulnerable to Fireball and Poison).
+- Ranged troops with more than 5.5 tiles of range — they can attack her without being attacked back and keep full health for a counterpush.
+- Ranged troops with slow, stun or knockback effects such as Ice Wizard and Electro Wizard — the snare does not prevent attacking, so they still function fully.
+- Sparky and Inferno Dragon — the snare slows but does not stun, so their attacks still land on her.
+- Fast melee troops — Lumberjack, Mini P.E.K.K.A, Prince, Berserker and Fire Spirit can still inch toward her while snared.
+- Monk — his ability turns her snare against her, and his combo attack knocks her back and fully stops the charge (a slight negative Elixir trade).
+- Rocket — enough damage to fully prevent her from connecting, though a negative Elixir trade; Giant Snowball, Fireball, Lightning and Zap can stop the charge as a last resort.
+- Fisherman — pulls her toward the King's Tower for an activation, though her charge still hits the Crown Tower unless stunned or knocked back first.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir building-targeting win condition that jumps the river; the ram charges after travelling 2 tiles and deals double damage on a charged hit, while the Rider independently snares troops for 2 seconds at -70% movement speed.
+- The snare does not stun, does not stop attacks, does not affect attack speed, and does not slow the Witch's or Night Witch's spawn rate.
+- She targets the nearest valid troop but uniquely prioritizes non-snared troops over snared ones, even at low health.
+- Place her two tiles to the side of the bridge rather than in the center — she jumps the river like the Hog Rider, dodges building distractions more easily and connects faster.
+- Her sight range is shorter than the Hog Rider's, so an Elixir Collector in front of the King's Tower will not distract her; do not use her to snipe Collectors.
+- Against her, place active buildings as you would against other building-targeting troops so their ranged attacks work and she is lured deep enough for the second Crown Tower; Furnace and Goblin Hut work the same way since their ranged spawns stay in range.
+- Passive melee spawners like Tombstone and Goblin Cage should instead go in front of the Crown Tower so their troops can reach her.
+- Counters must be placed near her or at her destination — snared melee troops can still attack, but she simply charges past them otherwise. Play the Hunter like a melee troop rather than a ranged one to reduce Tower damage.
+- Very viable on defense: she nearly immobilizes single troops like Golem, Giant, Lava Hound, Prince, Monk or Mini P.E.K.K.A.; add cheap swarms (Goblins, Skeletons, Guards, Archers, Spear Goblins) to finish them and start a counterpush.
+- Deploying her in front of an enemy building-targeting unit makes her collide with it and obstruct its pathing for extra stall.
+- Her charge can shove friendly slow mini tanks like Valkyrie and Battle Healer toward the Tower — she protects them from air troops while they distract the Crown Tower and her counters.
+- Pairs with Minions or Bats, which cover her against Goblins, Skeletons, Guards, Archers and Goblin Gang.
+- Giant Snowball synergy: knocks melee defenders away while the snare keeps them out of position, and drops swarms like Minions low enough for the Rider to one-shot them.
+- Zap does slightly more damage than Giant Snowball for the same one-shot swarm threshold; Rage does similar damage, buffs both the ram and the Rider, and lets her start charging sooner.
+- Fireball synergy: she finishes off Musketeer, Little Prince, Goblinstein, Wizard or Electro Wizard, and the knockback pushes bulkier troops away to buy her time.
+- Earthquake covers her weakness to buildings by destroying them, while the Rider finishes troops that survive it like Dart Goblin, Firecracker, Bomber, Archers and Princess.
+- Freeze is a surprise option, especially against swarm-reliant opponents — Skeletons and Bats die outright and Spear Goblins, Goblins and Minions drop low enough for her to finish; against non-swarm decks it risks a large counterpush, so only use it with backup or late in the match.
+- She can be run alongside a second building-targeting card so one baits the building for the other; this works especially well with the Balloon since she also handles the air defense sent at it.
+- Pairs well with Graveyard, threatening two positions at once while she deals with Graveyard counters — expensive, so do it as a counterattack.
+- The Mortar can be used against her to lure her to the center of the river, where the Crown Tower keeps hitting her while the Mortar chips the Tower.
 
 ## Source
 

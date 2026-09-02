@@ -8,12 +8,12 @@ rarity: Rare
 elixir_cost: 5
 ability_name: Fiery Flight
 ability_cost: 2
-total_elixir_cost: 6
+total_elixir_cost: 7
 card_type: Troop
 targets: ground_and_air
 source_url: "https://clashroyale.fandom.com/wiki/Wizard/Hero"
 image_path: heroes/images/wizard-hero.png
-scraped_at: "2026-09-02T02:35:37+00:00"
+scraped_at: "2026-09-02T02:46:38+00:00"
 release_date: 5 January 2026
 ---
 
@@ -29,7 +29,7 @@ The Hero Wizard is a Rare card that is unlocked by spending 200 hero coins at on
 
 ## Ability: Fiery Flight
 
-*Launches into the air and throws fearsome fire tornadoes.* (costs 1 Elixir; 5 + 1 = 6 total)
+*Launches into the air and throws fearsome fire tornadoes.* (costs 2 Elixir; 5 + 2 = 7 total). Note: the wiki's Heroes index table lists the ability cost as 1 Elixir; the hero page's infobox (2) is used here.
 
 ### Ability: Fiery Flight
 
@@ -99,4 +99,4 @@ The Hero Wizard has a special ability accessible from whatever side of the scree
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Wizard/Hero (scraped 2026-09-02T02:35:37+00:00)
+- https://clashroyale.fandom.com/wiki/Wizard/Hero (scraped 2026-09-02T02:46:38+00:00)

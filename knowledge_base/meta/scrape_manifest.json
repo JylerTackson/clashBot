@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T02:45:45+00:00",
+  "generated_at": "2026-09-02T02:46:38+00:00",
   "items": {
     "minions": {
       "kind": "card",
@@ -3097,14 +3097,12 @@
       "url": "https://clashroyale.fandom.com/wiki/Wizard/Hero",
       "status": "pending",
       "stage": "fetched",
-      "reason": "3 agent placeholder(s) unfilled",
-      "updated_at": "2026-09-02T02:36:05+00:00",
+      "reason": null,
+      "updated_at": "2026-09-02T02:46:38+00:00",
       "image": {
         "file": "HeroWizardCard.png",
-        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/de/HeroWizardCard.png/revision/latest?cb=20260107090937",
         "bytes": 493412,
-        "width": 598,
-        "height": 730
+        "cached": true
       },
       "image_error": null,
       "n_tables": 3

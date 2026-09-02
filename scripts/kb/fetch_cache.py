@@ -509,6 +509,12 @@ def write_hero_skeleton(hero: dict, card: dict | None, page: dict, image_rel: st
     targets_raw = attribute_value(tables, r"^Targets?$|^Target\b")
     dt = page.get("displaytitle") or ""
     hero_name = dt if dt and "/" not in dt else f"Heroic {hero['base_card']}"
+    a_cost = ib.get("abilitycost", hero["ability_cost"])
+    e_cost = ib.get("cost", hero["elixir_cost"])
+    try:
+        total = str(int(e_cost) + int(a_cost))
+    except ValueError:
+        total = hero["total_elixir_cost"]
     page = dict(page, displaytitle=hero_name)
     fields = [
         ("name", hero_name), ("slug", hero["slug"]),
@@ -517,7 +523,7 @@ def write_hero_skeleton(hero: dict, card: dict | None, page: dict, image_rel: st
         ("rarity", ib.get("rarity", card["rarity"] if card else "")),
         ("elixir_cost", ib.get("cost", hero["elixir_cost"])),
         ("ability_name", hero["ability_name"]), ("ability_cost", ib.get("abilitycost", hero["ability_cost"])),
-        ("total_elixir_cost", hero["total_elixir_cost"]),
+        ("total_elixir_cost", total),
         ("card_type", ib.get("type", card["card_type"] if card else "")),
         ("targets", normalize_targets(targets_raw) if targets_raw else "n/a"),
         ("source_url", hero["url"]), ("image_path", image_rel), ("scraped_at", now_iso()),
@@ -531,8 +537,12 @@ def write_hero_skeleton(hero: dict, card: dict | None, page: dict, image_rel: st
     if card:
         body += [f"**Base card:** [{hero['base_slug']}.md](../cards/{hero['base_slug']}.md)", ""]
     body += ["## Overview", "", lead_paragraph(w) or "Not specified on source page", ""]
-    body += [f"## Ability: {hero['ability_name']}", "", f"*{hero['ability_summary']}* (costs {hero['ability_cost']} Elixir; "
-             f"{hero['elixir_cost']} + {hero['ability_cost']} = {hero['total_elixir_cost']} total)", ""]
+    note = ""
+    if a_cost != hero["ability_cost"]:
+        note = (f" Note: the wiki's Heroes index table lists the ability cost as "
+                f"{hero['ability_cost']} Elixir; the hero page's infobox ({a_cost}) is used here.")
+    body += [f"## Ability: {hero['ability_name']}", "", f"*{hero['ability_summary']}* (costs {a_cost} Elixir; "
+             f"{e_cost} + {a_cost} = {total} total).{note}", ""]
     extra = substantive_sections(w)
     for h, md in extra:
         body += [f"### {h}", "", md, ""]

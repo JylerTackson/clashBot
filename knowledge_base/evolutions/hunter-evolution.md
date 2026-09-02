@@ -26,7 +26,11 @@ The Hunter Evolution is an Epic card that is unlocked with 6 Evolution Shards. I
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- New ability "Netting Trap": every 5 seconds he throws a net at the closest unit within 4 tiles, freezing it in place so it can neither move nor attack for 3 seconds.
+- A netted air unit is brought down to the ground, which lets ground troops attack it while it is trapped.
+- All other stats are identical to the base Hunter — 4 Elixir, 2.2 sec hit speed, Medium (60) speed, 4 range (6.5 projectile range), 10 pellets per shot, air and ground targeting.
+- The net's 3 second duration versus its 5 second cooldown means a single enemy unit is re-netted before it can act meaningfully.
+- Requires 2 cycles to evolve, unlike most 1-cycle Evolutions.
 
 ## Evolution-specific stats/behavior
 
@@ -65,7 +69,9 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- If only one unit is fighting him, that unit is stun-locked indefinitely, since the net's duration and hit speed line up with its cooldown.
+- Netting the air half of a push is his headline use: combined with Evolved Skeletons, Skeleton Army, Bats, Goblin Gang or Minion Horde he fully counters a LavaLoon (Lava Hound + Balloon) push for a massive positive Elixir trade — the net grounds the air units so the ground swarm can hit them.
+- He is slightly worse than the base Hunter against Graveyard: the net does nothing extra to Skeletons, and its throw animation delays his shotgun attack, letting a few more Skeletons hit your Crown Tower.
 
 ## Source
 

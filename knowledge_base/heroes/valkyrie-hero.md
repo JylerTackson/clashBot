@@ -137,15 +137,25 @@ Dash Range
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Clumped ground troops — her normal attack is Ground-only splash with a 2 tile radius, and Wild Whirlwind widens that to a 2.5 tile radius spin.
+- Ground pushes she can chase down — the ability raises her movement speed and gives a 5.5 tile dash distance to reach targets.
+- No further matchups are specified on the source page.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops — she targets Ground only, so she cannot hit them with her axe or her ability.
+- Crown Towers — her ability deals -50% Crown Tower damage, so it is a defensive tool rather than a Tower finisher.
+- No further counters are specified on the source page.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Count her as a 7 Elixir card for trade math: 4 for the deploy plus 3 for Wild Whirlwind.
+- Base statline: 4 Elixir, 1.5 sec hit speed, a very fast 0.1 sec first hit, Medium (60) speed, Melee: Medium (1.2) range and a 2 tile splash radius, Ground targets only.
+- Wild Whirlwind makes her spin rapidly for 3.5 seconds, hitting every 0.25 sec in a 2.5 tile radius with a 5.5 tile dash distance and Medium (60) movement.
+- During the ability she takes 15% reduced damage and moves faster, but she can still be killed while spinning.
+- Ability damage is a separate, smaller per-tick value (for example 97 at Level 11 versus 266 area damage), so its strength comes from the 0.25 sec tick rate over 3.5 seconds.
+- The ability deals -50% damage to Crown Towers.
+- The source page has no Strategy section, so no further usage guidance is specified.
 
 ## Source
 
