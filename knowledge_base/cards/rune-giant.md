@@ -193,6 +193,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:18 (t=1334.0): he sequences the rest of the push around her buff, sending Elite Barbarians early — "I want to do it early so my Rune Giant has the upgrade available quicker" (t=1333-1336). In overtime (t=1432.4) a fourth Rune Giant at [8, 0] is the play he makes while behind: "let's rune giant here. We have to go for something."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 1:39: mentioned only, never played by either side — when listing what he thinks is missing from Royal API's eight highest-ranked cards he says 'there is a few cards that I do think are missing. Maybe like the Rune Giant' (t=72-75).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rune_Giant (scraped 2026-09-02T02:35:01+00:00)

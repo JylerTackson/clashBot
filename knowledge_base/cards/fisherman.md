@@ -126,6 +126,12 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, as the card he cut: "since obviously fisherman is no longer needed because I don't have royal giant, I thought I should just add a cannon as a little distraction" (t=697-703). His reasoning is that the Fisherman's pull is a Royal Giant support tool, not a Minion Giant one.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:11 (t=1353): predicted as the Royal Giant support before it appears — "he's definitely going to go for the fisherman plus skeletons"; the Fisherman is tracked at (10,19) at t=1361.4
+- clock 0:23-0:21 (t=1457-1463): plays the Heal Spirit on the Fisherman's commitment frame — "I put it right as he dropped the fisherman. So now we can't really block for the fisherman so we can get a free counter on that heal spirit"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fisherman (scraped 2026-09-02T02:35:13+00:00)

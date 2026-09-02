@@ -161,6 +161,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:58: named only as a read, not seen — after the Inferno Dragon appears he calls the opponent's list "the Golem E-Barbs deck."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- mentioned but never seen. Ryley raises it as a possibility for the opponent's deck - 'there's also like a decent chance that he just has golem as well' (t=832-836) - and retracts it eight seconds later once an Electro Spirit shows up (t=841-843).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

@@ -188,6 +188,13 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock ~2:44: he names it as part of the scouting read before it commits — 'He has the evo [E-Barbs] and the Inferno Dragon, Barb Barrel'.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card (Evolved), tracked from tile (16, 23) at clock 2:26 walking his whole right lane. It is the card Ryley plans the entire match around: "We have to watch out for his EVO Inferno Dragon. He cycled to the EVO Inferno so early" (clock 1:34-1:32).
+- clock 0:28: he states the cost of it simply sitting in the opponent's hand - "because he has that Evo Inferno Dragon just lingering the whole time, we have to be so cautious, man" - and at clock 0:17, "just the low inferno dragon, man. It's so difficult to deal with."
+- clock 2:04: he calls out a misplaced one as a free window - "Ooh, that was a bad inferno dragon" - and immediately puts a Cannon Cart down.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

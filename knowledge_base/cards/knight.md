@@ -262,6 +262,19 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:42-0:37: the Evo Knight push is beaten by Evo Dart Goblin + Ice Spirit + Berserker, with the read that the opponent's spell cannot clear the Dart Goblin: "He doesn't have an Evo zap so he is unable to take this out" (t=129-131).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:37 to 2:12: the opponent's Evo Knight walks the right lane repeatedly and is answered with Barbarian Barrel at [10, 6] and [14, 11] rather than a building.
+- clock 0:03: Ryley uses Barbarian Barrel to manipulate it — 'just to make the Knight go in front or behind the Hog Rider' (t=172-175).
+- clock 1:10: named as part of the defensive core that makes the matchup bad — 'having the Knight, Firecracker and Bomb Tower' (t=110-112).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:21: read the opponent's Knight rotation as the reason a Cannon Cart could get through — "Cuz he has no knight and cycle so he's unable to block a cannon cart on the expo."
+- overtime 1:46: predicted the Knight as the answer to his bridge Elite Barbarians and pre-loaded Mother Witch behind it — "He's probably going to go for a knight. We can just get some mother witch value on top of that."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

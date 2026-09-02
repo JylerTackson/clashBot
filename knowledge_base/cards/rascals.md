@@ -151,6 +151,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
 - Named as the first reason he cannot dodge Fireball value in this matchup: "I have to rascals near my tower, right, every single time ... So, he's always going to be fireball cycling me out" (463-477s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 0:44-0:32 (t=1035-1054): the opponent's Rascals were the recurring push, and Ryley's stock answer was small spells plus Elite Barbarians — "That's just going to start throwing out the rascals with zap and we can barbarian barrel here as well just to get that off the board instantly".
+- clock 1:37 (t=990) and 0:54 (t=1031): he judges the opponent's Rascals placements poor — "I do have to be careful though of just a set of rascals at the bridge", then "Oh, that was a bad set of rascals" before punishing it with the bridge push.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)

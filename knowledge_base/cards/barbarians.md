@@ -153,6 +153,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 2:31-2:14 (t=1259.3 at [13, 13], t=1278.3 at [3, 14]): the opponent's Barbarians walk into his lanes while his Rune Giant push is building; he accepts the tower damage rather than spending on them — "I know this is going to get a little bit of damage, but it's fine. I just want to get as many piggies as possible" (t=1268-1272) — and the Mother Witch converts the deaths.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 0:13: the opponent drops Barbarians at [3, 17] onto the left-lane Battle Ram push (t=160.2), alongside a second Bomb Tower — the pair is what stops the push Ryley had built from t=144.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

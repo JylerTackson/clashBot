@@ -400,6 +400,60 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 1:29: their absence from the opponent's cycle is what unlocks his hog split — 'I have the split pigs here cuz he has no e-barbs in cycle'.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 1:23: 'I'm going to go for the Evo E-Barbs at the bridge here. And I'm going to wait a second because he may go for a Log. Okay, he went for the barbell' (t=92-98) — he holds the drop until the opponent's spell is spent, then heals them with Heal Spirit at [14, 15]; the Barbarian Barrel answer means no tower damage.
+- OT 1:46: names them as the whole win route — 'literally the only possible way to win this is just based off of a really good set of Evo E-Barbs' (t=192-196), after his right tower has fallen 4858 -> 2345.
+- OT 1:17: the set that wins the game, played at the bridge with the opponent low on elixir — 'I'm just going to try to get the Evo E-Barbs at the bridge cuz he's going to have to overspend' (t=219); with a Mother Witch curse running, enemy right tower goes 4603 -> 1700 in eight seconds and he says 'E-Barbs are on the tower... we're actually in the damage lead' (t=225-230).
+- clock 2:33: the one deep placement, [9, 0] behind his own King Tower (elixir 9.0 -> 3.0), unnarrated.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:43: split Elite Barbarians behind his own king tower at tile (8, 0) for 6 elixir purely to reach the evolution — "I'm just going to wait for him to probably split his archers. And if he splits his archers, I'm just going to go for the split Earbs in the back here just to get to my EVO."
+- clock 1:56 (commentary): named the evolution as the deck's only real path to a win into X-Bow — "Getting to Evo Ebarbs could give us a good shot though. Like we could get maybe a nice Evo Ebarbs Goblin Stein push", repeated at overtime 0:32: "the only way to win is by getting a good evo ebarbs."
+- overtime 1:48 and 1:22: Evo Elite Barbarians thrown straight at the bridge — (3, 13) left at 1:48 ("Let's just ebarbs at the bridge here. We can even go for a nice mother witch") and (14, 13) right at 1:22 ("Let's go for the Evo Ebarbs at the bridge").
+- overtime 0:17: the winning wave, with the lane picked from where the defender was committed — "I'm going to evo ebarbs at the bridge on the right cuz he needs to go for more stuff on the left and he has to watch out for the..."; the enemy right tower went 4704 -> 4403 within two seconds.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:16: Elite Barbarians at the right bridge, tile (14, 13), elixir 9 -> 3, timed off the read that the opponent's cheap defence is already spent - "Just go for the ebarbs here at the bridge. He can't really lava right now either. Like he can't lava the bridge to protect or anything like that."
+- clock 1:32: Evo Elite Barbarians dropped straight onto the enemy King tower as a substitute for defending - "go for the evil Earbs on the king tower because I can't really defend a pusher now. And just by doing this, I'm just forcing him to go in defensively, which is good for us."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 2:45 (t=740.7): opens the game with Elite Barbarians at the right-lane bridge, tile [14, 13], elixir 10.0 -> 4.0 (HUD -6 plus deploy label) - not a defensive counterattack but a straight bridge drop on a full bar.
+- clock 1:58 (t=788.8): repeats it in the opposite lane at [3, 13], explicitly timed off the opponent's spending: 'Let's go for the Evo Ebs here at the bridge again because he did use a little bit of stuff' (t=789-791).
+- clock 1:13 (t=833.8): third bridge Ebarbs at [14, 13], alternating lanes again ('It's ebarbs the bridge again', t=836). His summary of the pattern: 'Evo Ebarbs are so good, man. I was thinking that he did use a lot of good cards for the Ebarbs, so just going them at the bridge could get us good value' (t=802-809).
+- clock 0:21 (t=883-885): names them as the held defensive answer to the opponent's Archer Queen ability - 'by later, I'll have the Ebarbs for defense'.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:22 (t=944.3): Elite Barbarians at [13, 12] answering the Skeleton King, elixir 9->3; the counter-push landed two tower hits (enemy right 4625 -> 3632 by t=960) — "These Ebs are still a threat that will get two shots on the tower".
+- clock 2:20 (t=947-951): states the restraint rule against bait decks — "I am worried about how much bait he has. I might not be able to use my Earbs too often here".
+- clock 0:44 (t=1042.0): Elite Barbarians at the bridge [14, 12] specifically to eat the Rascals — "Let's go for the ebarbs evo at the bridge as well cuz we can take out the rascals with these".
+- clock 0:20 (t=1066.1) and overtime 1:47 (t=1104.1 at [14, 1]): used on defence at [9, 8] and then cycled in the back — "Hopefully that Earb can come back and save our day"; he is chasing the Evolution all game ("get to my EVO as soon as possible", t=942).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 2:29 at tile (2, 1), the back-left corner rather than the bridge, and he says exactly why: "I can't go at the bridge cuz then he could kite with the ice golem. I just have to make sure that I'm putting them in the back here."
+- clock 1:30 at tile (3, 13), left lane at the bridge, once he had decided to race a Balloon cycle deck he could not out-defend - "Loki, I'm going to evo Ebarbs at the bridge anyway ... I just need to be really aggressive right now" - with a Heal Spirit dropped on top two seconds later.
+- clock 0:45 at tile (3, 5) as a pure defensive body onto a ground unit the threat list had at 0.3 s from his tower - "Let's just go for the ebarbs here."
+- clock 0:08-0:07: the last pair is the one he needs to close the game and it does not connect - "Maybe the Earbs could throw on the tower. Or wait, hold on. The Earb. The Eb. The Earb. Ah, rip. GG's, man." He also wanted them as the escort for his Mother Witch earlier: "I would love to get a set of ebarbs in front of this mother witch which would actually be so good for us."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:22 (t=1340): dropped in the back at tile (7,0) at 9 elixir against a Royal Giant deck — "Okay, yeah, he definitely has RG. Let's just go for the Earbs here in the back. He might go for the RG at the bridge opposite lane to be honest, but I'm fine with that"
+- clock 1:33-1:23 (t=1385-1400): names them as the only win condition in a bad matchup — "We just need to really, really abuse the Evo Ebarbs. The defense is just really easy for him... But if we just get one good sequence with the Earbs, we have a chance to win"
+- clock 1:10 (t=1411.9): Evo Elite Barbarians at the bridge, tile (14,15), with Heal Spirit on top — "Let's go for the evo Ebs here. We can go for the heal spirit as well"; the enemy right tower starts falling ten seconds later
+- clock 0:03 (t=1481): Evo Elite Barbarians in the top lane specifically to kill the opponent's Hero Berserker — "I'm going to evo Ebarbs up top cuz I'm going to snipe the Berserker"; earlier he notes Ebarbs at the bridge also deny the Royal Giant (t=1440)
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

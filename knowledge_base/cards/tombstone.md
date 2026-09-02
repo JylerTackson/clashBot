@@ -222,6 +222,22 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:26-1:23: he values killing/forcing it by what it will not be available for — "Forcing out the Tombstone is very good as well cuz if if we can kill it, then he won't have the Tombstone for the E-Barbs" (372-377s), and later times a bridge Rune Giant to its absence: "Let's Rune Giant the bridge again, though, cuz he has no Tombstone" (423-425s). His stated answer to it is Mother Witch (341-348s).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 1:37: mentioned only, never played — the second card he thinks the top-eight ranking is missing, 'maybe like the hero Tombstone or something like that' (t=75-77).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:27: opponent Tombstone at (8, 20) feeds Skeletons into Ryley's half for twenty seconds; he reads it as the reason his bridge pressure is safe - "he doesn't have the tombstone and cycle for my ebar."
+- clock ~2:02: he answers the Tombstone skeleton stream with Mother Witch rather than a spell - "I'm tempted to go for a Mother Witch on these tombstone skellies."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card, commentary only. He guesses it is their win condition - 'He might be playing that one control deck where he doesn't even have a win condition and he literally just has um a sk like a tombstone skeleton queen for a wing [win] condition' (t=819-830) - and then picks the card that beats it: 'we can go for the Evo Batter here. And he's in a lot of trouble cuz Evo Batter is really good against Tombstone' (t=845-849).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

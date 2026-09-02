@@ -143,6 +143,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 1:38 (overtime): an Evolved Hunter is the card his whole all-in is designed around — "I have to evo skelly barrel and then fireball log predict his hunter" — and the opponent played it into the spell anyway: "I didn't even need to predict it. He just played it for me" (clock 1:22).
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:35 (t=1325.3): opponent's Hunter walks in at tile (13,17); Ryley answers with Barbarian Barrel in the middle and Zap (t=1328-1333)
+- clock 0:47-0:43 (t=1436-1442): calls spending Hunter on defence a mistake — "that was a bad hunter though cuz now after using that hunter that's just a free cannon cart"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hunter (scraped 2026-09-02T02:35:02+00:00)

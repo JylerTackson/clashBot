@@ -203,6 +203,13 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - Overtime 1:15: spends a 1-elixir Electro Spirit purely to keep it alive — "Just e-spirit here to keep our Tesla alive. Beautiful."
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:09 (commentary): counted the opponent's evolution cycle out loud — "His next archers are going to be EVO, though. And he's going to be one Tesla away from EVO, too."
+- clock 0:37: celebrated the opponent spending the wrong Tesla into his Evo Elite Barbarians — "He doesn't have the Evo Tesla for our EVO battle, which is even better. Yeah, perfect. He just completely like ruined his cycle right there."
+- overtime 1:46 and 1:19: Tesla is what he aims Mother Witch chip at ("Try to damage down that Tesla"), and the barrel-plus-Ebarbs wave removes it outright — "Oh my god. Wait, we killed the Tesla instantly."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

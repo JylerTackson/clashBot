@@ -152,6 +152,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 1:11 (t=734): Giant + Vines on the King Tower is the loss condition he names - "He's just going to go Giant Vines on the King Tower, and we're just completely cooked."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- mentioned but never captured on video: Ryley expects Vines from this opponent three times — "He might have to go for like a set of vines or something" (t=972), "He might go for a vines again" (t=1075), and "Nice bad vines by him" after the overtime ram connected (t=1095).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

@@ -336,6 +336,18 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 1:21 OT and 0:11 OT: he plays to deny it, then stops caring — "because he has to defend, he can't really fireball down the middle which he was definitely hoping to do" (479-482s), "He might fireball at the bridge, but it really doesn't matter" (549-550s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:03 (commentary): expected a Fireball-plus-Log answer to his bridge Goblinstein and judged it insufficient — "He might go for the fireball log, but not really going to work in my opinion."
+- overtime 0:52: named Fireball cycling as the only remaining way the opponent could still win the tiebreaker — "he's going to need either absolutely perfect defense or he's going to need some fireball cycling, which yes, with fireball cycling, he actually has a chance to choke."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card and the spell Ryley plays around all game: he predicts it as the answer to a cheap Barbarian Barrel ("Probably has to fireball", clock 1:53), confirms it against his Battle Ram ("he went for the fireball too", clock 0:59), and commits a Mother Witch into it anyway ("I know he's probably going to fireball, but it's all right", clock 0:39).
+- clock 1:05: he counts it as one of the two spells a bridge Goblinstein forces - "if he goes for the inferno dragon you have to fireball zap as well."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

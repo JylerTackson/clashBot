@@ -146,6 +146,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:47-1:41: identified by playing a Mother Witch as bait and watching the answer — "Okay, he has Mega Minion, that's good to know. So, if I Mother Witch like this, more often than not he'll just Mega Minion on top of it, which is fine by me. I just need to know what he's able to do" (356-363s).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card, mentioned but never tracked by the detector. It is the target of his clock-1:12 Mother Witch, and he places her so the ability is unattractive - "the mother witch on the mega minion, but I want to do it to where like if he pops the ability, it just wouldn't be a good play."
+- clock 2:04 and 2:21: he watches for the ability before committing - "he might mega minion ability", "Okay, good mega minion."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

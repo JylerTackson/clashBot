@@ -357,6 +357,60 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - No evidence either way on the Hero variant in this game: every 1-elixir drop is accounted for by an Electro Spirit or Skeletons deploy label, so no Rowdy Reroll was observed.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:15 and 1:53: defensive rolls into the opponent's Evo Knight in the right lane, labels at [10, 6] (t=39) and [14, 11] (t=62.1, elixir -2 confirmed by HUD).
+- clock 0:51 and OT 1:38: added onto a push as cheap chip — 'Let's even Barbarian Barrel here' (t=124, label [3, 13]) behind the left-bridge Goblinstein, and 'I'm going to go for the Barbarian Barrel at the bridge as well' (t=199, label [14, 13]).
+- clock 0:03: uses it as a pull tool on defence — 'we can even go for the Barbarian Barrel here just to make the Knight go in front or behind the Hog Rider' (t=172-175).
+- OT 1:14: 'Let's go for the barbell down the middle as well' (t=222, label [9, 13]) in the same window as the Mother Witch curse that wins the game.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:42: rolled Barbarian Barrel from behind his own king tower at (8, 0) and immediately called it the mistake that cost him the opening — "dude, what a bad start... I guess maybe we shouldn't have went for the barbarian barrel in the back, but I just really didn't think that we would end up taking any damage" (own right tower 4858 -> 4106 in the next twenty seconds).
+- overtime 1:19: barrel down the middle at (9, 13) behind a bridge Elite Barbarians — "Let's go for a barrel down the middle, too. Oh my god. Wait, we killed the Tesla instantly."
+- overtime 0:44 and 0:12: used at the bridge as part of the multi-card overtime waves, at (12, 13) then (4, 15) — "Let's go for the barbarian barrel at the bridge as well"; "Cannon cart or the barbarian barrel or the mother witch or something. Break through."
+- clock 0:12 (commentary): declined a follow-up barrel when the value was not there — "I'm going to go for a No, it's not barbarian, bro. I think I'm just going to chill. Let this go. There's no point going in anymore cuz we're not going to get anything out of it."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:35: Barbarian Barrel at (3, 13) trailing his opening Battle Ram in the same lane - "I will barbarian barrel though."
+- clock 1:50: barrels the bridge as push support while his Mother Witch curse is live - "I'm going to barbarian barrel the bridge too just to stay tanky from my mother witch cuz that's going to spawn a piggy in a second."
+- clock 0:47 and 0:18: barrels at (8, 19) and (8, 20) to clear small defenders off his pocketed Goblinstein and his ram - "And we barb. Nice. Beautiful" / "We can go for the barb barrel."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 2:04 (t=782.3): Barbarian Barrel at [3, 9], well back on his own left, elixir 9.0 -> 7.0 (HUD -2 plus label) - the cheap defensive clear, played without commentary.
+- clock 0:47 (t=859.9): played as a prediction rather than a reaction, at [3, 10] - 'Then I'm going to go for the barb like this cuz he might try to ability again like he did the last three times' (t=860-863), and it holds: 'Come on, go back. Nice. Let's go. We keep this alive' (t=864-866).
+- clock 0:59 (t=847.8): offensive support behind the Battle Ram at [4, 13] during the push that takes the enemy tower to 376 - 'The barb though. Really good' (t=854).
+- clock 0:20 (t=886.9): at [3, 11] alongside the Cannon Cart against the opponent's last counterpush. No Hero ability was observed anywhere in this game - every 1-elixir drop empties a hand slot.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:42 (t=923.9): Barbarian Barrel at [14, 7] to kill an incoming Skeleton Barrel — "we can go for the barbarian barrel on defense just to take out the skelly barrel".
+- clock 1:30 (t=995.0): Barbarian Barrel at [3, 5] into the left-lane Dart Goblin push after deliberately waiting — "I just don't want to get caught slipping. Let's barbarian barrel here".
+- clock 0:32 (t=1054.2) and overtime 1:37 (t=1108.1 at [14, 11]): both times used to clear Rascals instantly — "we can barbarian barrel here as well just to get that off the board instantly. Ooh, that was smart" and "lowkey going to Barbarian Barrel on this too... just to get the rascal off the board".
+- clock 0:10 (t=1077.1): held it for the second Skeleton Barrel coming up the left, at [4, 6] — "I will barbarian barrel if need be".
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 2:35 at tile (14, 9) and clock 2:00 at tile (11, 7) (both HUD-confirmed 2-Elixir drops with agreeing deploy labels), plus clock 0:19 at tile (10, 13): every Barbarian Barrel this game is defensive, rolled into something already walking on his own half, never at the bridge for chip.
+- clock 2:00: he plays it partly as a spell magnet to protect the more expensive card behind it - "We can barb here. Probably has to fireball and then we can just keep this mother witch alive which is very nice."
+- The deploy labels read plain 'BaRbaRiaN BaRRel' and every 1-Elixir own drop came with a hand-slot change, so no Hero 'Rowdy Reroll' activation is evidenced in this game.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:37-2:28 (t=1326.3-1333.8): played in the middle of his own half (tile (9,4)) against the incoming Hunter — "Let's go for the barbarian barrel here in the middle"
+- clock 1:46 (t=1375.4): a placement he immediately criticises at tile (14,10) — "Wait, what the heck? We have a barrel. Um, okay. I don't like that play. It's going to get one swipe on the tower, but that's not too bad in this matchup"; the right tower loses 310 HP at t=1381
+- clock 0:53 (t=1429.4): at tile (13,15) to clear support in front of his push — "low-key barb barrel here, too. And then we could maybe go in for a stein"
+- overtime (t=1497.5): at the bridge, tile (14,15), as a 2-elixir tank for the delayed Battle Ram — "we're going to barbarian barrel at the bridge, too. Maybe could tank for the battle ram"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

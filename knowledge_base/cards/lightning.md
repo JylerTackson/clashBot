@@ -246,6 +246,11 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - Overtime 0:08: the finisher — "We can go for the lightning here and that is going to be good game. Let's go. Very nice win."
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card, commentary only. It shapes two of his plays at the end of the game: a Battle Ram at [2, 15] at clock 0:37 ('I tried a lightning block with the battle ram', t=870-872) and a Battle Ram at [2, 13] at clock 0:05 ('We're going to lightning block for the mother witch as well while the mother witch is still alive', t=905-907) - using the Ram's Barbarians to soak the strikes aimed at his fragile support.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

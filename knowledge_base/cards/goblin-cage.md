@@ -142,6 +142,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 2:32 (t=532.5, elixir 10.0 -> 6.0), clock 0:34 (t=650.6) and clock 0:03 (t=684.7): the opponent's only building, tracked at tiles [9-11, 19-21] in front of his king tower. Ryley never names it and never plays around it — all of his offence goes to the bridge or over the top with the Goblin Barrel.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card, placed on their own half three times ((9, 19) at clock 2:43, (8, 20) at 0:57, (8, 19) at 0:15). Ryley's first read is on its evolution state: "His Goblin Cage didn't look to be evolved there."
+- clock 0:03: he names the Cage plus Fireball as the combination that stopped every push he made - "this just balloon fireball with the cage. It's just so impossible to break through, man."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

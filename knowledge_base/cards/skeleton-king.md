@@ -123,6 +123,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 2:28 (opponent): tracked at (1, 18) then crossing to (5, 19). Ryley spends the Heroic Berserker's 3-elixir ability on it rather than a card — "Let's pop the ability just to make sure that we take out that Skeleton King. Just want to get that thing off the board."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:25 (t=938.9): opponent's Skeleton King crossed at [14, 15]; Ryley answered with Elite Barbarians at [13, 12] rather than a spell, and the counter-push took two tower shots (t=957-960).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_King (scraped 2026-09-02T02:35:13+00:00)

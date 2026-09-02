@@ -194,6 +194,13 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
 - t=139.1: Hog Rider at the left bridge [2, 15] the instant his Earthquake kills the Tombstone — "I just earthquake the tombstone... So then I instantly went for a hog rider, guys" (t=137-141). (Logged as an opponent play by the pipeline; the commentary overrides it.)
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:15: recognised on sight — 'it looks like we're up against a Hog Rider Earthquake player here' (t=40).
+- clock 1:29 and OT 1:30: the Hog connects twice on his right tower (tracker at [13, 3] 'tower in 0.0s' at t=88, again at t=200), taking it from 4858 to 2345 — the deck has no building, so he pre-places Cannon Cart in front of the King instead ('in case he goes for the Hog', t=171).
+- clock 0:33: reads the opponent as unwilling to commit it — 'I have a feeling he's just not going to go in for any Hog Rider pushes, though' (t=142-143).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

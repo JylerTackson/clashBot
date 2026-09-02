@@ -201,6 +201,13 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - mentioned only: at t=584 he briefly considers the opponent might be on Lava Hound before rejecting it — 'it kind of looks like a Lava Hound deck. I mean, I guess it could be a Lava Hound deck, but I swear this guy normally plays with bridge spam'.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 1:53: opponent drops Lava Hound in the back corner (17, 26); Ryley had predicted it from the card list at 2:35 - "looks like Lava Hound" and "I had a feeling there was a chance he might go for the lava hound in the back as well."
+- clock 2:16: he plays the bridge freely because a Hound cannot be used defensively - "He can't really lava right now either. Like he can't lava the bridge to protect or anything like that."
+- clock 1:14: the Hound push plus Skeleton Dragons take his right tower from 3583 to 584 and activate his King; his stated goal becomes "just to not get three crowned cuz being three crowned is actually a very big worry in this type of situation."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

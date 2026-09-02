@@ -321,6 +321,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - It shapes two of his placements: the Goblin Barrel thrown to draw it out ("Let's barrel as well to force out the log", 990s) and the Dart Goblin placed low ("we can go for the low Dark Goblin outside of the range of the log", 995-997s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:03 (commentary): mentioned only as the other half of the expected spell answer to his bridge Goblinstein — "He might go for the fireball log, but not really going to work in my opinion." Not otherwise identified in the events.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

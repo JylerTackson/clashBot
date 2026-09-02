@@ -209,6 +209,55 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 0:38 OT: the misplayed Goblin Stein is what loses the opponent the game — "Wait, I think this guy just sold with that" (499-500s) and "That was a bad goblin stein by him, to be honest" (521-523s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 0:57: the bridge drop is chosen off the opponent's cycle, not his own elixir — 'Let's just go for the Goblinstein at the bridge here because I know that he won't really have the greatest cycle to defend this' (t=118-122), label at [2, 15], elixir 8.0 -> 3.0.
+- clock 0:47: the ability is aimed at a specific card — 'I'm just going to try to get a nice Goblinstein ability on the tower cuz we can take out the Firecracker with that' (t=127-130); the enemy left tower starts taking damage immediately after (4858 -> 4570 by t=134) and he confirms 'we got out the one Firecracker'.
+- clock 2:07: talks himself out of a bridge Goblinstein when the opponent has just spent on a defender — 'Okay, never mind. After he went for that Firecracker, I don't think that it's a little bit worth it' (t=50-55).
+- OT 0:45: uses the ability defensively as a keep-alive — 'I do need to go for a Goblinstein ability here just to try to keep this all alive' (t=248); 6 labelled deployments across both bridges ([2, 15], [14, 15], [12, 1], [2, 12], [13, 13]).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:36: opened with Goblinstein in the right pocket at tile (16, 13) for 5 elixir while pitching it as the deck's centrepiece — "I personally think that Goblin Stein is the most underrated card in the game right now. Like it's literally on the list of the top like eighth rated cards in the game, but I feel like nobody talks about how good the card actually is."
+- clock 1:03: Goblinstein at the left bridge (2, 13) as a pressure play with the ability queued behind it — "Okay, we have the Goblin Stein ready. He's just going to expose me out. Let's go for the Stein at the bridge. Then we go for the immediate ability as well. He might go for the fireball log, but not really going to work in my opinion."
+- clock 0:22: placed dead centre of his own half at (7, 7) specifically to split the Doctor and the Monster into opposite lanes — "let's go for the Goblin Stein here. Like this. I'm going to split it."
+- overtime 0:48-0:38: Goblinstein at (4, 15) then the ability used as a targeted clear against the opponent's Evo Archers — "I'm going to go for the goblin sign at the bridge... Let's goblin sign ability cuz we can grab the one evo archer off of the board. Not bad. We have a chance." Earlier at overtime 1:11 he also trusts it to survive an X-Bow lock: "maybe the goblinstein could take this out."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:32: Goblinstein in his own back corner (15, 1) as the base of a spam push, specifically because a Lava Hound deck cannot punish it - "goblinstein in the back here just because if he has lava then I can get a really nice spam push right now because he doesn't have the tombstone and cycle for my ebar... he can't fireball that my scientist way either."
+- clock 2:11: 2 elixir Lightning Link used as a finisher on the enemy tower troop (own elixir 5 -> 3 with no hand change) - "let's go for the Stein ability here just to make sure that we take out that Spirit Empress."
+- clock 0:56: pockets Goblinstein at (8, 19) behind the enemy right tower, then spends Zap, Heal Spirit and Barbarian Barrel keeping it alive - "Let's go for the Stein in the pocket here" / "the zap here just to make sure our scientist stays alive."
+- clock 0:32: places it at (5, 8) and fires the ability immediately to deny the spell answer - "we can even go for the ability right now instantly cuz if we insta ability, he can't fireball right away."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 0:11 (t=896.9): one play, at [2, 13] on the left-lane bridge, as a second threat that protects the Mother Witch rather than as defence - 'I'm just going to go for the Stein at the bridge cuz now he's going to be unable to kill the mother witch. He has to watch out for the scientist' (t=897-901). No Lightning Link activation appears in the elixir trace.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 0:54 (t=1032.0): Goblinstein at [13, 13] with the Battle Ram behind it — the combination he names twice as the deck's plan, "a good Goblin Stein plus battle ram push and we're solid" (t=1025-1026).
+- clock 0:05 (t=1082.0): Goblinstein at [2, 13] in the left lane, with the ability earmarked for the opponent's Cannon — "Think the ability is worth it just to get the cannon off of the board just to clear away for our battle ram" (t=1087-1091).
+- overtime 1:22 (t=1124.1): Goblinstein at the bridge [15, 15] to close the game — "Nice stein at the bridge here. We have a connection. Zap. Good game. Let's go".
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 2:20, deploy label at tile (14, 9) in the right lane, timed off an Elixir read rather than a defence - "We can just go for a goblin[stein] at the bridge here. He has no DPS in cycle."
+- clock 1:05, deploy label at tile (2, 13) at the left bridge, played explicitly as a two-spell bait - "I'm going to [Goblin]ste[in] the bridge too to be honest cuz if he goes for the inferno dragon you have to fireball zap as well."
+- Both uses are offensive; he never used it as a defensive wall in this game, and no Lightning Link ability activation was captured.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 0:37 (t=1444-1450): Champion brought in as a blocker in front of the Cannon Cart and as the setup for the next Ebarbs cycle — "I'm going to go for the Goblin Stein like this. I think I want to block for the cannon cart and then we can go for Earbs with the scientist cuz I do want to get to the EVO Earbs again"
+- clock 0:08 (t=1473.5): deployed at tile (13,8) after being held as insurance against a bridge Royal Giant — "We have Goblin Stein ready here just to be safe. Okay, let's go for the Stein here anyways"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

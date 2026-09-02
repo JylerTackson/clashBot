@@ -356,6 +356,21 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 0:13: valued as the cheapest way to reach the next card — "We need the e-spirit quickly to get to the barbarian barrel."
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 0:25: mentioned only, never seen on the field — he places a Barbarian Barrel as a possible pre-emptive answer, 'Maybe I could predict the Electro Spirit' (t=151).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:42 and 0:20: the opponent's Electro Spirit is tracked repeatedly running down the right lane at Ryley's tower ((13, 18) at 2:42, (13, 19) at 0:20); Ryley never comments on it, and his answer each time is a Heal Spirit or Zap rather than a dedicated card.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card. One enemy-side track at [4, 21] at t=788, and the card Ryley uses to rule out a heavier list: 'I don't think he has the golem anymore because of the E spirit' (t=841-843).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

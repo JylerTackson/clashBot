@@ -325,6 +325,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:44 (t=1264.3): played at [14, 12] to open the last push alongside a Berserker — "Let's go for the dark goblin one berserker".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 1:30 (t=992-996): chose to ignore the Dart Goblin rather than over-commit — "I'm just going to let that dark goblin go and wait, see what he wants to do cuz I just don't want to get caught slipping" — then Barbarian Barrelled it at [3, 5].
+- clock 0:28 (t=1056-1058): names it as the reason his offence stalled — "Dude, we just don't have ways to kill the dark goblin"; at t=1119-1121 the opponent misses one and Ryley calls the game, "Wait, he missed his dark goblin. Yo, he's cooked".
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

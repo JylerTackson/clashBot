@@ -193,6 +193,12 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 1:53 (t=904.9): opponent Miner at [2, 6] on the already-damaged left tower during the all-in; Ryley does not answer it directly, spending Barbarian Barrel and Electro Spirit on the surrounding swarm instead (900-905s) and letting the tower settle at 3562.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card; Ryley scores forcing it out as the return on his clock-1:30 bridge push - "we forced out the miner, which is good for us" (clock 1:19).
+- clock 0:37-0:35: tracked at (0, 14) -> (0, 19), chipping his left tower alongside the Balloon in the window where that tower falls.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

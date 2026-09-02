@@ -139,6 +139,14 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
 - He kills the building rather than defending it, because of the Berserker ability behind it — "I went for the Valkyrie plus immediate ability to take out the X-Bow cuz I knew that if I didn't, then he could just pop the berserker ability" (1556-1560s). Verdict on Ian's placement: "Maybe not the greatest X-Bow by Ian, but... I was happy with this position" (1564-1568s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:48 (commentary): named the opponent's deck on sight of the player name, before a card appeared — "Zthol. I'm pretty sure this guy plays Expo if I'm not mistaken."
+- clock 2:34 and 0:58: opponent X-Bow at the right bridge (15, 16) then the left bridge (2, 16); the first one is what punished Ryley's back-line Barbarian Barrel, and he sums the matchup up at 2:05 — "in this type of matchup, it really is just dependent on if he messes up on defense because if he plays solid defense, there is zero chance for me to actually win this game."
+- clock 1:21: his answer is a card the X-Bow player's rotation cannot pull cheaply — "Cuz he has no knight and cycle so he's unable to block a cannon cart on the expo"; when the lock happens anyway he resets it with Zap at overtime 1:11 ("Zap on the expo just to grab the expo off the board").
+- clock 0:17 (commentary): dismissive of purely defensive X-Bow play — "Oh man, he's one of those guys who go for the defensive expos. Lame" — and at overtime 1:25 diagnoses the resulting rotation problem: "The way that he's cycling his cards is just not good. He's just kind of asking to choke."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

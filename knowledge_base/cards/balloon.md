@@ -189,6 +189,13 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - overtime 1:55-1:41 (t=184-197): flown down the left lane from [1, 20] and stopped by Tesla plus Berserker plus Skeletons - "let's skellies here to bring this over. Hopefully that Tesla can survive. Nice. Let's go. Perfect"; it never connected for a crown.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's win condition. Ryley flags the archetype before the first play - "this guy is one of the best balloon cycle players in Clash Royale" (clock 2:48) - and connects the deck's problem to it: "we don't really have that much air defense in these types of games."
+- clock 0:33-0:31: tracked at tiles (3, 8) then (3, 7) in his left lane; his answer is Zap alone ("we have to zap here just to not lose our tower") and his left tower HP slot jumps to a king-tower value at clock 0:31, i.e. the Princess Tower fell.
+- clock 0:03: his summary of the loss names it first - "I feel like this just balloon fireball with the cage. It's just so impossible to break through."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

@@ -124,6 +124,54 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 1:52 (t=908s, arena track at [10, 7]): the target of the Berserker's Savage Survival — "I'm going to go for the berserker ability here just to keep this alive and it should take out the cannon cart hopefully" (896-899s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 0:51: the push-protection role — 'I'm going to Cannon Cart just to keep this alive' (t=125), label at [2, 15] on top of the Goblinstein he sent to the left bridge.
+- clock 0:05: the defensive role — 'I'm going to Cannon in front of the King in case he goes for the Hog' (t=171), label at [9, 5] in the centre of his own half, with no building in the deck to hold a Hog Rider.
+- clock 0:38: he expects chip damage from it on defence — 'Wait, that Cannon Cart's going to get some damage' (t=136), and in overtime the Heal Spirit is used specifically to keep it alive ('that's going to heal up the Cannon Cart', t=214).
+- 8 labelled deployments, the most-played card of the game: [10, 14], [9, 0], [9, 8], [2, 15], [10, 7], [9, 5], [10, 8], [9, 5].
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:21: held Cannon Cart as the specific X-Bow answer because the opponent's rotation could not block it — "Do we have cannon cart? Cuz he has no knight and cycle so he's unable to block a cannon cart on the expo. He does know that we have it sadly, but we do have the evo ebarbs."
+- clock 1:05 and 0:50: played in the back at (9, 0) alongside a Battle Ram, and accepted its tanking as the consolation when the push stalled — "At least the cannon cart's going to tank for that expo. I will take that."
+- overtime 1:33: Cannon Cart at (8, 8) down the middle against a defensively-played X-Bow — "Let's cannon cart here and he's going to go for the defensive expo probably."
+- overtime 0:27-0:12: Cannon Cart at (9, 14) as the middle-lane breaker in the winning sequence — "let's even go for a cannon cart down the middle as well. I just need to break through right now", then "Cannon cart. Canon cart. Give us one. Give us one. Yes."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:52-0:36: shown repeatedly in the HUD hand and as the next card but never registers as a play, and he never mentions it in this game - the only consensus-deck slot that goes unused.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 1:23 (t=824.8): Cannon Cart at [9, 10], centre of his own half, into the Valkyrie the tracker walks from [3, 15] to [3, 11] - the only defensive building-ish card in the list.
+- clock 0:50 (t=857.9): at [8, 8] - 'Actually, I'm going to go for the cannon cart here' (t=858) - and again at [8, 8] at clock 0:20 (t=886.9, HUD -5 plus label) against the opponent's last wave.
+- clock 0:21 (t=883-885): named as the pre-planned answer to the champion ability he is expecting - 'And by later, I'll have the Ebarbs for defense, which is cannon cart here.' Every placement is on his own half, centre or centre-right; he never pushes it.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:02 (t=964.0): Cannon Cart at [8, 5], centre of his own half so it covers both lanes — "then we can go for a cannon cart in the middle here"; at t=984 he notes it rolling forward, "The canon cart will connect. Nice".
+- clock 1:02 (t=1023.7): Cannon Cart at [9, 8] for 5 elixir as the defensive body before the big push — "let's go for the cannon cart here. We just need to get a good Goblin Stein plus battle ram push and we're solid".
+- clock 0:03 (t=1084.1): third Cannon Cart at [8, 9] paired with the left-lane Goblinstein — "We can go for a cannon cart here in the middle as well".
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 2:07, deploy label at tile (9, 4) in the centre of his own half against an Ice Golem plus the Evo Inferno Dragon coming down the right lane - "I'll just go for the cannon cart here." It is the only real ground anchor in a deck he has just called light on air defence.
+- clock 0:43 at tile (9, 8) (HUD 6 -> 1 plus deploy label), placed pre-emptively rather than on top of a push, and he narrates the placement as a prediction - "I want to put it like this cuz I think he might go in. Yep, he went for the l[og]."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:17 (t=1345): played on defence at tile (10,9) against the Royal Giant push — "We'll just go for the cannon cart here on defense"
+- clock 0:47-0:43 (t=1435.4-1438): a second Cannon Cart at (9,0) once the opponent had burned Hunter — "that was a bad hunter though cuz now after using that hunter that's just a free cannon cart and he can't even go for the RG because I have Ebarbs at the bridge on it"
+- clock 0:15 (t=1467.5): placed centrally at tile (9,5) rather than in a lane — "we can just go for another cannon cart. I'm going to put in front of the king tower, though, in case he tries to time it with an RG at the bridge"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

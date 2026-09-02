@@ -226,6 +226,60 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 0:57 (t=1476.5) at [3, 13]: spent alongside the Fireball/Evo Zap finishing sequence to keep the tower push alive.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 1:17: heals a committed bridge push — 'Let's go for the Heal Spirit just to try to heal up the E-Barbs' (t=99), label at the river tile [14, 15]; the opponent's Barbarian Barrel had already cleared them, 'Oh, that's so unfortunate'.
+- OT 1:20: the play he is loudest about — 'Wait. Oh my god, that hit. Yo, Heal Spirit jump. Nice. Oh my god, that's going to heal up the Cannon Cart' (t=210-215), label at [9, 15], elixir 2.0 -> 1.0.
+- OT 0:57: used as a one-elixir distraction rather than a heal — 'I'm going to go for a high Heal Spirit here just to distract us for a second' (t=236-238).
+- 6 labelled deployments plus several 1-elixir HUD drops; the river tile [14, 15] recurs three times, i.e. he drops it where the push is crossing, not on his own troops at home.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:30-2:20: cycled three Heal Spirits in nine seconds while at 1-3 elixir, purely to keep the rotation moving after a bad opening.
+- clock 1:27: paired with Zap as pure damage prevention — "Okay, I'll go for the heal spirit here and we can go for the Zap as well cuz I just don't want to take much damage."
+- clock 0:54: dropped beside a bridge Goblinstein at tile (1, 15) and criticised for its jump — "Let's heal spirit off to the side as well. Jump, please. A heal spear, you dummy."
+- overtime 1:07: used as an actual heal on the Battle Ram push that took the enemy left tower down 725 HP — "Heal spirit too. Zap on the expo just to grab the expo off the board. Heal spirit heal up the ram. Okay, nice."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 1:34: Heal Spirit at (3, 15) behind the ram-and-barrel push that takes the enemy left tower - "I'm even going to heal spear and go for the evil Earbs on the king tower."
+- clock 0:50: Heal Spirit at (8, 18) on the pocketed Goblinstein while the opponent threatens its ability - "we can go for the heal spirit. He might go for the ability. That's fine with me."
+- clock 0:19: Heal Spirit at (8, 20) to top up the Goblinstein Monster before the final ram connects - "Let's go for the heal spear here to heal up the big guy."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 1:57 (t=790.8): Heal Spirit at [3, 15] behind the bridge Elite Barbarians is the biggest swing of the game - 'We can heal spirit here. Oh, I was hoping. Nice. Let's go. We get we get a thousand damage' (t=794-798).
+- clock 2:32 / 1:11 (t=754.8, 836.8): dropped at [9, 13] and [10, 13] to support the committed push rather than to defend - 'I'm going to heal spirit like this cuz he might drop the-' (t=836-838).
+- clock 0:34 (t=871.9): tried at [3, 13] purely to save a connection - 'Wait, could I heal Spirit and just grab a connection? Come on. Nah, that's not going to connect, unfortunately' (t=872-877).
+- clock 0:13 (t=892-894): used as a 1-elixir defensive finisher - 'Let's just go for a low heal spirit here just to take this out'.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:50 (t=916.2): opened the game with Heal Spirit at [9, 0] behind the King Tower purely to cycle — "I'm going to start off with the heal spirit here in the back just because I want to get to my ram".
+- clock 2:05 (t=960.3): Heal Spirit at [5, 7] on defence against a Rascals girl the tracker had reaching the tower in ~4 s — "It's going to heal Spirit on defense and then we can go for a cannon cart in the middle here".
+- clock 0:50 (t=1036.0) and overtime 1:50 (t=1095.1): dropped Heal Spirit at [16, 13] and [14, 14] alongside the Battle Ram both times — "this is just guaranteed to get a connection cuz the heal spirit just has so low HP that you're always guaranteed to grab that".
+- clock 1:21 (t=1003-1007): a Heal Spirit he did not mean to place turned into defensive value — "I did not mean to do that, but that was actually so satisfying... imagine that with like an ice spirit. He could counter a skelly barrel super well".
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 1:28 at tile (3, 14), dropped straight onto the Elite Barbarians he had just sent at the bridge - "I'm going to go for the heal spirit, too, because I just need to be really aggressive right now."
+- clock 2:37 at tile (9, 5) and clock 0:22 at tile (14, 9): the standard cheap cycle-and-repair drop in front of his own tower.
+- clock 0:11 to 0:07: three separate 1-Elixir Heal Spirit plays in eleven seconds while he cycles for one last Elite Barbarians - the card doubles as his cheapest cycle filler at the end of a game.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:14 (t=1348.2): dropped at tile (1,13) onto the enemy Royal Ghost while his own Elite Barbarians push the same lane — "we can go for the heal spirit on top of this Royal Ghost just to heal up our Ebarbs"
+- clock 1:10 (t=1412.7): played on the same tile (14,15) as the bridge Elite Barbarians one second after them — "Let's go for the evo Ebs here. We can go for the heal spirit as well"
+- clock 0:21 (t=1461.5): at tile (14,13), timed on the opponent's commitment — "I put it right as he dropped the fisherman. So now we can't really block for the fisherman so we can get a free counter on that heal spirit"
+- overtime (t=1490.5): at tile (16,13) behind the Mother Witch / Goblinstein push — "Heal spirit at the bridge. Yo, he's in a lot of trouble"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

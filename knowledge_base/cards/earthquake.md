@@ -147,6 +147,21 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
 - opponent card, clock 0:48 / 0:31 / 0:02 (t=944.9, t=963.0, t=993.0): the opponent's chip spell, matching two inferred hits of 238 HP each on Ryley's right tower at t=951s and t=953s. He never reacts to it on camera — the tower damage he does concede comes later, from the Phoenix at clock 0:19.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:15: identified from the deck archetype before it is played — 'a Hog Rider Earthquake player' (t=40); the spell itself is only seen once, at t=140.1 (clock 0:33), against his left-lane Goblinstein/Cannon Cart push.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 0:50: an Earthquake was tracked on the opponent's side at tile (14, 30) and persisted in the tracker for the next thirty seconds; there is no commentary on it and no matching tower damage, so it is recorded as observed-only and may be a stale detection.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 0:55-0:15 (t=1029.0, t=1057.1, t=1069.1): the opponent's Earthquakes plus unattributed spell hits did most of his tower damage (own right tower took 306+260+617 at t=1003-1005, own left 818 at t=1057.1) while Ryley kept spending on the bridge instead of answering the chip.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

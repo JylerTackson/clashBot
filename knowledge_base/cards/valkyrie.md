@@ -311,6 +311,16 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - mentioned only, never played by either side: at t=657 Ryley groups it with Berserker and Elite Barbarians as the season's 'big three' additions and says he cannot pick a favourite — 'I feel like I have a different opinion literally every single day'.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 1:07: mentioned only - he counts the opponent's Valkyrie as a misspend that takes the spell answer off the table - "that was a bad Valkyrie though because after that Valkyrie, he's not going to be able to afford a fireball on the mother witch."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card. Tracked on Ryley's left three times ([3, 15] -> [3, 11] at t=826-830, [2, 13] at t=860.9, [3, 16] at t=886.9) and named as their only answer to the bridge push - 'He has to just Valkyrie. Yep' (t=850). Ryley answers it with Cannon Cart at [9, 10] (clock 1:23) rather than a spell.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

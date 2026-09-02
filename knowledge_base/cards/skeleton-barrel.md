@@ -223,6 +223,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 2:28, opponent's card: a Skeleton Barrel reached his right tower for 405 damage; he answered with Heal Spirit and called it a positive trade anyway. Mentioned again at clock 1:10 while he was holding Heal Spirit for the counterattack.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:42 (t=923.9): the opponent's opening Skeleton Barrel is what let Ryley read the deck — "go for the barbarian barrel on defense just to take out the skelly barrel. Looks like a bait deck".
+- clock 1:21 (t=1019-1021): after an accidental Heal Spirit interaction he notes a counter he wants to practise — "imagine that with like an ice spirit. He could counter a skelly barrel super well".
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

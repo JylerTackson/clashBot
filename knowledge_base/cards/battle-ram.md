@@ -247,6 +247,61 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:55: his answer is a fresh Cannon high in the pocket — "Then we can go for another high cannon here. Make sure that we take out the battle ram. Beautiful defense right now" (455-460s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:45: opens the game with it at the right bridge tile [14, 13] off a full bar (elixir 10.0 -> 6.0, deploy label confirms) before he has even finished the intro — the deck's default first move.
+- clock 0:31 and OT 0:48: uses it as the lane-switch card, not as support — 'Let's go for the Battle Ram here on the left' (t=144, elixir 7.0 -> 3.0) and 'Let's go for the Battle Ram opposite lane here' (t=245, label at [2, 14]), each time while a Goblinstein or Cannon Cart occupies the other lane.
+- clock 0:19: the only time he comments on its damage — 'Yo, that Ram is on the tower, which is really good for us' (t=155-156), enemy left tower 4570 -> 4493.
+- 5 deployments in all, every readable tile at or past the bridge ([14, 13], [15, 13], [2, 14]); it is never played behind a tank.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:09: Evo Battle Ram sent at the right bridge (15, 14) as much to cycle as to damage — "Maybe next time I'll just go for the Goblin Stein ability. I'll battle him the bridge here just to get to the evo."
+- clock 1:05 and 0:48: built in the back at (6, 0) beside a Cannon Cart, then used as a minimum-risk chip play at (8, 8) — "we can go for a low battle damage, though, just to make sure we don't take any damage at all. And we're going to get to the EVO."
+- overtime 1:13: Battle Ram at (2, 14) with Goblinstein ahead of it and a Heal Spirit dropped on it, the push that took the enemy left tower 4781 -> 4056 — "Let's go for the Evo battle ram too low key cuz maybe the goblinstein could take this out... Heal spirit heal up the ram. Okay, nice."
+- overtime 0:48-0:02: used as the constant opposite-lane half of his bridge spam — (16, 15) at 0:48 ("Batter opposite lane"), (3, 14) at 0:23 ("Battle ram the bridge too"), (15, 15) at 0:02 — "I just have to keep on bridge spamming this guy."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:48: opens the game with Battle Ram at the left bridge, tile (2, 13), before he knows the matchup - "to start off with the battle ram here at the bridge."
+- clock 1:58: a second Battle Ram the moment the opponent commits to a back-line Lava Hound and drops to ~0 elixir - "let's go for a battle ram. Yes, let's go for a battle ram. Perfect. I had a feeling there was a chance he might go for the lava hound in the back as well."
+- clock 0:54: Evo Battle Ram aimed at the enemy King tower at tile (3, 19) alongside a pocketed Goblinstein - "then we can go for a evil ram on the king cuz he might berserker on top of this."
+- clock 0:25: last ram of the game into a defence he has already cleared - "we can even go for a battle ram here. And this is fully defended." (729s: "Battle ram. Connect the the barb. The barb the barb. Let's go.")
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 2:30 / 1:39 (t=756.8, 807.8): Battle Ram at [2, 12] then [2, 13], always the left lane opposite the bridge Elite Barbarians; the two-lane opening takes the enemy left tower 4858 -> 2885 by clock 2:11.
+- clock 1:02 (t=844.8): Battle Ram at the river tile [3, 15] chosen for the matchup - 'we can go for the Evo Batter here. And he's in a lot of trouble cuz Evo Batter is really good against Tombstone' (t=845-849). With a Barbarian Barrel and a Zap behind it the tower goes 2287 -> 376.
+- clock 0:37 (t=869.9): used as a spell shield for his support - 'I tried a lightning block with the battle ram' (t=870-872) - and again at clock 0:05 (t=900.9, [2, 13]) as a 'lightning block for the mother witch as well while the mother witch is still alive' (t=905-907).
+- clock 0:05 (t=900.9): closing ram at the bridge as the opponent concedes - 'We can just ram the bridge here. He's calling it good game' (t=901-903).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:44 (t=921.8): first play across the river, Battle Ram at the bridge tile [15, 14] for 4 elixir off a full bar — "I'm just going to go for the ram at the bridge here".
+- clock 1:52 (t=973.0): used defensively on his own half at [14, 5] to body-block for the Mother Witch — "Wait, could we battle ramp here to block for the mother witch, please? Oh, the mother witch died anyway".
+- clock 0:52 (t=1034): sent in behind Goblinstein as the paired push he had been saving for — "We just need to get a good Goblin Stein plus battle ram push and we're solid" (t=1025-1026).
+- overtime 1:52 (t=1093.1): the game-turning play, Battle Ram at [15, 14] into the lane the opponent had not defended — "I'm going to battle him opposite lane here because he has to watch out... He was hoping I would ram him on the other side"; it connected for roughly 600 damage (enemy right tower 1951 -> 1339).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 2:02 at tile (2, 13), left lane at the bridge, sent alongside a Mother Witch in the other lane so the opponent has to split - "we can go for the battle [ram] at the bridge with it as well because he has to be careful here to not let that battle [ram] get too much damage."
+- clock 1:01 at tile (14, 15), right lane at the bridge, deliberately in the lane opposite his Goblinstein push - "Look I'm going to evo ram opposite lane. I just need to apply a lot of pressure right now." The enemy left tower steps 3023 -> 2159 HP over the next six seconds.
+- He books the ram as value even when it is answered by two spells: "he went for the fireball too. We could get a little bit of connection. Oh, he zapped. All right, that's fine. I'll take that. He's forcing out all the elixir which is not bad."
+- clock 0:20 at tile (9, 11) (HUD 5 -> 1 plus deploy label) in the final aggression window - "Let's just go for the ram here."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:47 (t=1315.0): opening Battle Ram in the right lane at tile (14,11) from 10 elixir, before he had confirmed the opponent's deck
+- clock 2:02 (t=1360.4): Battle Ram at the bridge in tile (13,13), the lane opposite the Royal Giant — "I'm going to go for a battle ram at the bridge in the opposite lane... He's going to go for a hunter, which is fine"
+- overtime (t=1496-1502): a deliberately delayed ram placed further back to dodge Fireball, with Barbarian Barrel in front — "we can maybe do a delayed ram. Let's ram a little bit back so we can't fireball immediately. And we're going to barbarian barrel at the bridge, too. Maybe could tank for the battle ram"; it connects at t=1505 for the win
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

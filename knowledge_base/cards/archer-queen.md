@@ -152,6 +152,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 2:47: mentioned only, not played by either side — cited as the sort of card the evolved Zap opener lets this deck finish: "you're also just getting to your Evo right away, which will help you kill combos, you know, like Archer Queen and stuff like that that you're not normally able to kill" (295-300s).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card, commentary only (never detected). Ryley plays around her ability three separate times: 'he might try to ability again like he did the last three times' (t=861-863, playing a Barbarian Barrel for it), 'Dude, he's going to drop the queen ability. Oh no' (t=877-879), and after it lands, 'I think that was a bad queen' (t=896).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

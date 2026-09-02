@@ -119,6 +119,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - On why the self-heal had to go (407-431s): "Healer healing itself kind of just created a toxic environment where basically you would just get two Healers down, everything would be unkillable, and you would just get like the dumbest loss of your life... I'm very happy about that change."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card. Tracked at [5, 21] at t=816.8 with a 4-elixir drop on the opponent's bar; Ryley Zaps that exact tile one second earlier to keep his Elite Barbarians going - 'Let's zap here instantly. So now he has to defend the barbarians again' (t=814-817).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Healer (scraped 2026-09-02T02:34:55+00:00)

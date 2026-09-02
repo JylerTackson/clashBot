@@ -434,6 +434,16 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 2:35: played on the far side specifically to pre-empt an enemy Berserker ability — "we can go for the skellies over here on the side cuz he might try to pop that ability."
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- OT 1:52 to OT 1:14: the opponent's Skeletons are the target of Ryley's Mother Witch curse — he first hopes for them ('maybe even grab a set of skellies if we're lucky', t=185) and praises the opponent for holding them ('Doesn't go for the skellies, which is smart by him', t=187), then gets them at t=222-225 ('We grabbed the skellies. E-Barbs are on the tower'), which is the swing that wins the match.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:11 and 0:27: the opponent's Skeletons appear as cheap distraction/cycle units in both lanes ((14, 15) at 2:11, (2, 12) at 0:27); Ryley does not address them directly, and they are part of the cycle he calls out at overtime 1:25 — "The way that he's cycling his cards is just not good."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

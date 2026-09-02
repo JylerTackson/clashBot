@@ -228,6 +228,13 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
 - clock 1:02: the opponent splits them across both lanes at [3, 17] and [14, 17] on defence and Ryley calls it a mistake — "that was obviously a bad split. Probably would have been better just to eat some damage and not use his archers honestly" (t=706-709s).
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:47 (commentary): planned his own six-elixir cycle play around the opponent's Archers split — "I'm just going to wait for him to probably split his archers. And if he splits his archers, I'm just going to go for the split Earbs in the back here just to get to my EVO."
+- overtime 1:51: treated an Evo Archers split as a free trade for two of his cheap cards — "Okay, evil archers. That's a free barb barrel, though. I do not mind that. We can zap that as well."
+- overtime 1:07 and 0:38: Evo Archers are what force his Mother Witch onto defence ("We have to get mother witch on the archer sadly. So, we're not going to be able to break through") and what he spends the Goblinstein ability on ("we can grab the one evo archer off of the board").
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

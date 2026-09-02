@@ -332,6 +332,11 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - Overtime 0:37: he plays around its lane alignment rather than trying to remove it — "we're actually in a good spot and we unaligned his Evo cannon from our Evo piggies, which is huge as well."
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 0:22 (t=1064-1068): seeing the opponent's Cannon changed his read of the matchup — "this is not going to be as nice of a match up as I thought, though, now that I see that he has a cannon"; he then planned the Goblinstein ability around it (t=1087-1091) and closed the game with "still definitely a good match up, but not as good as if he didn't have a cannon" (t=1131-1133).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

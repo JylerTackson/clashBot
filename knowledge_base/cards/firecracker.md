@@ -175,6 +175,13 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:34 (opponent card): predicted and pre-answered with Evolved Zap — "He might go for an Evo Firecracker" and "we have the Evo Zap for the Firecracker."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:12: Ryley plays around the Evo Firecracker rather than answering it — he uses its shots to activate his own King Tower with a Mother Witch ('just to make sure that we activate that King Tower off of the Firecracker', t=44-47).
+- clock 0:47: the Goblinstein ability is aimed at it — 'we can take out the Firecracker with that. Yeah, nice. We got out the one Firecracker, but now we have to deal with the next Firecracker' (t=130-134).
+- OT 1:30 and OT 0:53: the card he complains about most (ten separate tracks, most-mentioned card in the game) — 'he has an Evo Firecracker in hand now' (t=207) and 'He's just going to Firecracker again. Damn, is this annoying' (t=169).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

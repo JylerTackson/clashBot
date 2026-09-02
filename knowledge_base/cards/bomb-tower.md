@@ -212,6 +212,13 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
 - overtime 1:39: he counts the opponent's elixir and knows a repeat is unaffordable — "he has to waste his bomb tower again. Oh my god, he's not going to be able to afford it" (t=795-797s).
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 1:13: the opponent's Bomb Tower at [9, 19] is the card Ryley says breaks the matchup — 'Him having Bomb Tower is really, really bad for us cuz it's going to make his defense a lot easier having the Knight, Firecracker and Bomb Tower' (t=106-112).
+- clock 0:15: he treats forcing a second one as a win in itself — 'We forced out a second Bomb Tower, which is something' (t=159-162); two enemy Bomb Towers are alive at [9, 18] and [2, 19] from t=160.
+- Five opponent deployments across the game (t=100, 148, 192, 212, 244), all in the centre-right of the opponent's half — against a building-less bridge spam deck it answers Battle Ram, Elite Barbarians and Cannon Cart alike.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

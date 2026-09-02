@@ -532,6 +532,17 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - The opponent runs one too, and Ryley treats it as a priority target: clock 2:37 "make sure that we take out this berserker", clock 1:38 "I do want to take out this berserker quickly", and overtime 1:23 "He's just spamming us with the berserkers at the bridge, which is definitely the right play, by the way... It's just getting stressful."
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:33 and 1:52: named but not seen by the tracker - he lists it in the opponent's deck ("Berserker, Evo, Zap, and Tombstone") and calls the ability activation on defence - "He's going to pop the berserker ability just to keep it alive"; at 0:54 he plays around a Berserker being dropped on his Battle Ram - "he might berserker on top of this."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 1:33 (t=1387-1389): mentioned as the reason the matchup is hard — "The defense is just really easy for him. And because he has hero Berserker, I don't really think that we're going to be able to do much" (Hero Berserker, opponent's card; not played by Ryley)
+- clock 1:17-1:13 (t=1406-1410): flags the opponent wasting it as his opening — "He did waste his Berserker, though. I don't really know about wasting the berserker like that. He's probably going to pop the ability, isn't he?", and at t=1481 he sends Evo Elite Barbarians up top to "snipe the Berserker"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

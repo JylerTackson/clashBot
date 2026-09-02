@@ -181,6 +181,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:31 and OT 1:44-1:38: forcing them out is treated as stripping the Lava Hound of support — "He has to get Skelly Dragons down. That's good cuz now if he goes for the Lava, he has no support cards for it, only a Balloon" (430-435s); in overtime they come down his left lane and he answers with Fireball at (3, 14) plus Minions and Heal Spirit (484-490s).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 1:16-0:35: opponent Skeleton Dragons cross into Ryley's right lane behind the Lava Hound (tracks at (12, 15)/(13, 15) at 1:16, a fresh pair at (5, 24) at 0:35) and are the units that finish his right tower off; he defends them with Mother Witch and Barbarian Barrel rather than trading elixir evenly - "just to not get three crowned."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

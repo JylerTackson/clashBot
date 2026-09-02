@@ -158,6 +158,12 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - Mentioned only, as the comparison for Royal Hogs' meta staying power, t=98-102 - "even if like it gets a nerf, they just somehow always survive, kind of like Royal Giant where it's always a viable option in the meta kind of no matter what".
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:33-2:25 (t=1330-1338): identified from the opponent's play pattern before committing — "I'm not still not 100% sure if he has RG, but it really does look like he has that", then "Okay, yeah, he definitely has RG"; the Royal Giant is tracked at (14,10) from t=1348 and takes his right tower from 4858 to 2588 HP
+- clock 0:43 and 0:15 (t=1440, t=1467-1471): he plays around a bridge Royal Giant rather than reacting to it — "he can't even go for the RG because I have Ebarbs at the bridge on it" and "I'm going to put [the cannon cart] in front of the king tower, though, in case he tries to time it with an RG at the bridge"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

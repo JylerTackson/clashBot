@@ -265,6 +265,57 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:27 (t~1386): Zap chained onto the Fireball on the opponent's Witch — "Okay, wait. I can fireball this. Zap as well." He repeats the pairing in overtime at 0:57 ("Evo zap here", t=1475).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 0:19: played onto the opponent's half to finish off defenders on his left push — 'Let's Zap here as well. Get the barbs on the tower' (t=157), label at [3, 22]; enemy left tower 4570 -> 4493 in the same seconds.
+- OT 1:58: misses one and treats it as the mistake of the game — 'Oh my god, I just missed my Zap. Ah, that's not great' (t=180-182), with the Evo Knight on his right tower (3866 -> 3359); at t=266 he still says 'that was beautiful gameplay outside of the Zap'.
+- OT 0:43: part of the finishing sequence — 'the Heal Spirit Zap. Oh my god, the [laughter] can go on the tower' (t=254-257), HUD elixir 4.0 -> 2.0; enemy right tower 1068 then 174 within four seconds.
+- 4 plays in all, three of them on the opponent's half ([3, 22], [10, 23], [14, 17]) — it is used as push support here more than as a defensive reset.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:23: Zap at (13, 11) on his own half together with a Heal Spirit, spent as damage prevention rather than for value — "we can go for the Zap as well cuz I just don't want to take much damage."
+- overtime 1:11: Zap at (5, 23) onto the offensive X-Bow to reset its lock while his Battle Ram connected — "Zap on the expo just to grab the expo off the board."
+- overtime 1:51 (commentary): held it for the Evo Archers he had counted into the opponent's rotation — "Okay, evil archers. That's a free barb barrel, though. I do not mind that. We can zap that as well. That's fine."
+- overtime 0:15: Zap at (7, 21) alongside the bridge Elite Barbarians in the winning wave — "he has to watch out for the Hold on. Zap here."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 1:26: Zap used purely as King-tower chip, not as a reset - "Let's even zap that here just to get some nice damage on the king tower because I know that defense is not easy for us. And we have a very good chance to win if we just get his king tower very low."
+- clock 0:50: Zap at (9, 22) to keep the pocketed Goblinstein alive - "Let's even go for the zap here just to make sure our scientist stays alive."
+- clock 0:17: Zap at (6, 27) clearing the last defenders in front of the closing Battle Ram - "Let me go for the zap here as well."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 1:33 (t=814.1): Zap at [5, 21], deep on the opponent's half onto the Battle Healer, cast the instant it lands - 'Let's zap here instantly. So now he has to defend the barbarians again. Perfect' (t=814-819). The enemy left tower reads 2593 four seconds later.
+- clock 0:57 (t=850.9): Zap at [2, 22] chasing one more kill during the tower-finishing push - 'Wait, could I zap and grab one more? I was hoping to get one more' (t=850-854).
+- clock 0:32 (t=873.9): third Zap at [4, 23]; all three casts of the game are on the opponent's half supporting a push, never on his own half on defence.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 1:44 (t=981.0): Zap at [3, 17] across the river to clear the enemy defence — "Just zap here to take that off the board. The canon cart will connect. Nice".
+- clock 0:37 (t=1048.9): Zap on the Rascals in front of his push — "That's just going to start throwing out the rascals with zap".
+- clock 2:28 (t=935-938): names Zap and Barbarian Barrel as the "double small spells" that make the deck "really solid against bait"; he calls one last Zap on the winning connection at t=1127.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 0:38 (HUD 3 -> 1) and clock 0:33 at tile (1, 6) in his left lane, held all game and spent on the Balloon that had reached (3, 8) - "Okay, we have to zap here just to not lose our tower." It was not enough: the left tower slot reports king-tower HP three seconds later.
+- clock 1:05: he names Zap as half of the mandatory answer to a Goblinstein at the bridge, which is why he sends one - "if he goes for the inferno dragon you have to fireball zap as well."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:28 (t=1333.3): early Zap at tile (2,11) while still reading the deck — "Let's just go for the Zap here, but I'm still need to figure it out though"
+- clock 1:55 (t=1367.4): Zap on the enemy side at (12,20) onto the Fisherman/Hunter support — "Just zap here. Hopefully, we can take this all out"
+- clock 0:53 (t=1429.6): used purely as a retarget tool onto a Mother Witch Cursed Hog — "I'm going to zap here to retarget that to the piggy"
+- overtime (t=1492.5): Zap at (12,15) to finish a damaged defender before the ram goes in — "Let's zap here to take this out. That's dead"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

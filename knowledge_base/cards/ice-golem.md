@@ -176,6 +176,12 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock ~1:55 and clock 0:18: seen tanking in front of the Ram Rider in the opponent's bridge pushes; Ryley answers the pair with Barbarian Barrel plus Skeletons rather than spending a building on it.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card, and the direct reason his first Elite Barbarians go in the back corner instead of at the bridge at clock 2:29 - "I can't go at the bridge cuz then he could kite with the ice golem."
+- clock 1:24: a mistimed kite is what opens his counterattack - "He messed up his ice golem kite, though. That's going to get a decent amount of damage or force out more elixir."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)
