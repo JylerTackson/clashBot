@@ -312,7 +312,7 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
     return "\n".join(L) + "\n"
 
 
-def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> dict:
+def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str], vtt_path: Path | None = None) -> dict:
     """Games in one video are almost always played with the same deck. Pool
     the per-game evidence (HUD-confirmed plays weigh 3, label-only 2, hand
     reads 1 per game), keep the top 8, stamp `own_deck_video` into every
@@ -338,7 +338,12 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
     # transcript evidence: how often Ryley names each candidate card across
     # the video. A hand-read card he never mentions is suspect when a card he
     # keeps naming has some visual evidence but was scored below the cut.
-    text = " ".join(cue.get("text", "") for _, c in ctxs for cue in c.get("transcript", [])).lower()
+    # the whole transcript (intro/outro included) when available: he names the
+    # deck up front, and the game windows cover only part of the talk
+    if vtt_path and Path(vtt_path).exists():
+        text = " ".join(c["text"] for c in parse_vtt(Path(vtt_path))).lower()
+    else:
+        text = " ".join(cue.get("text", "") for _, c in ctxs for cue in c.get("transcript", [])).lower()
     all_m = count_card_mentions(text, card_names)
     mentions = {c: all_m.get(c, 0) for c in score}
     ranked = [c for c, _ in score.most_common()]

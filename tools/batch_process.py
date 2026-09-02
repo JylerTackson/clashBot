@@ -147,7 +147,7 @@ def process_video(vid: str, vdir: Path, out_dir: Path, a, card_names: dict, det)
             print(f"  {vid} match {i}: FAILED {e}", flush=True)
     game_ctxs = [p for p in out_dir.glob("match_*/**/context.json") if "split_into" not in p.read_text()[:200]]
     if game_ctxs:
-        cons = video_deck_consensus(game_ctxs, card_names)
+        cons = video_deck_consensus(game_ctxs, card_names, next(iter(sorted(vdir.glob("*.en.vtt"))), None))
         result["own_deck_video"] = cons["deck"]
         (out_dir / "video_deck.json").write_text(json.dumps(cons, indent=1))
     return result
