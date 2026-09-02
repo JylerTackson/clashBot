@@ -252,6 +252,12 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Opponent card, targeted with the first play of the game - "go for the e-spirit skellies on the skeleton barrel" (1306-1310s) - and named as the marker of this particular log-bait variant: "He has like skeleton barrel and stuff like that" (1314-1317s). Tracked as a tower threat at 1366s (3.3s to tower), 1444s and 1514s, each time answered by Cannon plus a spirit rather than by The Log, which he keeps in hand for it.
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 1:39 (t=78.4): answered with Royal Delivery on the landing spot at [2, 9] — "Let's delivery here for that skelly barrel" (t=78-79).
+- clock 1:01 and 0:08 (t=116, 168): he plans around it twice before it lands — "if he tries to go for an Evo skelly barrel then we have the second bomb tower" (t=116-117) and "He's going to skelly barrel on the right side for sure" (t=168).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

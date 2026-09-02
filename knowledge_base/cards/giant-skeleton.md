@@ -168,6 +168,13 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - The card this cycle deck spends the most on (5 commentary mentions). Tracked at (13, 19) t=1249.2, (2, 13) t=1297.3, back-placed at (12, 21) t=1329.3. Answered three different ways: Berserker alone (t=1186), Berserker + Savage Survival + Royal Delivery (t=1297-1304, "I actually did block the giant skelly with the berserker"), and a Rocket (t=1209-1211).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:07 (opponent card, never played by Ryley): he reads the Giant Skeleton as a Balloon tank rather than a threat by itself — "That giant skelly tanking is going to get him two hits, I think" (579-582s) — and answers the pair with Fire Spirit + Royal Delivery + Ice Spirit + two Berserkers instead of one big card.
+- clock 0:27 (opponent card): treats a lane change by the Giant Skeleton as a free win — "the giant skelly changed lanes. That is so good for us, as well" (680s).
+- overtime clock 1:49 (opponent card): predicts it before it appears and pre-lays Bomb Tower plus Royal Delivery — "He's going to giant skelly for sure, yep. That's fine with me" (718-720s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

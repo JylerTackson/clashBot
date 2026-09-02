@@ -214,6 +214,11 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 1:14 (t=1960.4): the opponent Freezes at [7, 15] mid-river while Ryley's spirits and Zappies were defending; it produces no counter-push and Ryley's towers take no damage in the whole clip.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- Mentioned only — never detected. He plays around it rather than fearing it: "He could freeze, actually" before the bridge Wall Breakers at clock 1:30, "I know he was hoping to grab a finesse freeze" at overtime 1:35, and "Even if he freezes that, that's not going to connect" when spacing an Ice Spirit at overtime 0:54.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

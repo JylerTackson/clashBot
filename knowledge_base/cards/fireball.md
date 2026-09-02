@@ -467,6 +467,11 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 0:23-0:13 (t=2016.4, 2024.4): two more predictive Fireballs at [14, 19] and [13, 18] aimed at the Electro Wizard — "I'm going to fireball to predict the E-Wiz cuz he might put the E-Wiz directly on top of the Sparky", then "We did hit the E-Wiz. Let's fireball this. Take this all out."
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- He rules it out and is wrong: "I don't think he has like a fireball or anything like that. Famous last words" (t=154-156), then "He does go for the fireball" (overtime, t=196) and "He fireballed. That was bad though" (t=229). Three unidentified opponent spells register as 275-390 HP of tower damage (t=158.2, 179.2, 198.2) with no card read.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

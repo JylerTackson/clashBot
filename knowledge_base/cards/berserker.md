@@ -741,6 +741,50 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md
 - t=428.4 and t=438.4 (clock unread): two HUD casts, each a clean -2 elixir, both during the left-lane offence rather than as a narrated defensive placement; he never names her in this clip.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 1:15-1:11 (t=101.9-104): Berserker used to stall and reverse a split Royal Recruits push — "Let's berserker to push them in. Beautiful push right there" (t=102-104).
+- clock 0:17 and 1:26 overtime (t=159.7, 210-212): paired with a spirit as the cheap plug on defence — "let's ice spirit and berserker" (t=159) and "We can berserker here as well. Help take this out" (t=210-212).
+- clock 0:57 and overtime 1:26-1:10 (t=120.1, 211.2, 227.2): on offence it goes down at the bridge ([2, 15], [14, 10], [14, 15]) directly behind a Goblin Barrel as the follow-up threat — "Let's go goblin barrel with the berserker" (t=227). 8 labelled deploys, the busiest 2-elixir card after the spirits.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 1:45: dropped at (10, 8) on his own half as a kite rather than a block, explicitly because his hand had no air answer — "I think I want to go for the Berserker here just to kite this away and not take any Inferno Dragon risks with not having any like cheap air defense in hand."
+- clock 0:25: used as the tank in front of the offence — "let's berserker here to tank and then we can go for the immediate wall breakers, just apply some pressure right before defending."
+- overtime 1:37 and 0:32: the cheap lane reset in overtime, at (15, 15) and (12, 14) — "Berserker here, bring this back. Nice" and "Marcher here is spirit. Berserker, then we delivery." All seven placements this game were on his own half.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:22: paired with Wall Breakers at the bridge tile (13, 13) as the aggressive half of a 4-Elixir pressure package (563-566s).
+- clock 1:14: played not to defend a lane but to save a unit already on the field — "Oh, wait, can we berserker to keep this live, maybe? Nice. Okay, good berserker" (632-635s), Elixir 5 -> 3 at tile (13, 9).
+- clock 0:39: the cheap plug behind the Bomb Tower against an Ice Golem / Miner lane — "if he goes for the [Miner], we have the berserker. That's not tower down, yet" (669-671s), deploys at (3, 5).
+- overtime clock 1:44: bodyguard for the back-line Magic Archer — "Berserker to keep the marcher alive. Nice, great timing with that berserker" (724-725s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- clock 2:46 (t=753.4): opening centre plug at [8, 12] against a split Electro Spirit / spirit start (elixir 10 -> 8) — "was trying to play my spirit or my wall breakers, but this guy is not letting me. He's putting everything."
+- clock 1:48 (t=811.8): part of the X-Bow defence package at [13, 14] alongside Bomb Tower and Magic Archer — "Let's berserker Evo wall breakers and we can go for a magic archer to line up on his knight as well."
+- clock 0:47 (t=869.9) and 0:33 (t=886.9): deep "low" placements at [1, 7] and [16, 8] as a walking tank — "Let's go for the low berserker here. Keep tanking."
+- overtime 1:38 (t=941.9): places him low specifically to dodge the opponent's spell — "then we just go for a low berserker cuz he's going to log" (t=942-944).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 1:44 (t=1083) and 0:43 (t=1145): the 2-elixir plug behind the Royal Delivery / Bomb Tower on whichever lane is under pressure ([2, 14], [4, 12]) — "Go for the bomb tower here. Let's go for the berserker" (t=1143-1146).
+- overtime 0:45-0:15 (t=1251, 1268, 1281, 1292): four Berserkers into the right lane as cheap pressure during the overtime grind, one of them explicitly to bait the Champion ability — "I definitely have to berserker here. Force out the archer queen ability, and then I think I can go for the spirits plus lineup here" (t=1293-1298).
+- overtime 0:37 (t=1269-1274): he tries to use it as a card-matching tool against the opponent's cycle — "Wait, could I berserker and then we can match cards for this, maybe? ... No, the match cards didn't line up somehow."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:10 and 0:40: the plug behind the building on defence — [12, 13] into an Executioner push (t=1347.3, "Let's go for the berserker then bomb tower", t=1348) and [14, 5] into a Knight tracked at [14, 10] (t=1438.3, "Berserker. Ooh, good placement").
+- clock 1:28: standalone bridge pressure at [2, 14] on 9 elixir, timed off the opponent's spending — "I think I could pressure him with the berserker here. I don't want to waste it too much, but I do want to apply some pressure, especially since I feel like he committed a lot of elixir" (t=1391-1397).
+- clock 0:09 and OT 1:56: deep on the enemy half at [8, 21] both times, as the tank half of the closing Goblin Barrel + Berserker + Wall Breakers set (t=1470.6, t=1482.5) — "We can get a nice double connection here for sure. There's no way that he can prevent this one" (t=1470-1472).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

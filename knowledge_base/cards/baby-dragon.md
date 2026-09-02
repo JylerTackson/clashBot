@@ -281,6 +281,11 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 1:30 to 0:03 (t=1944.3 and 1988.4 at [11, 17], t=2020.4 at [7, 16], t=2032.4 at [1, 15]): the opponent's only reliable air answer to Zappies; it is played four times but always in front of their own tower, and Ryley never spends a card on it directly.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- Opponent card, seen at clock 2:16, 1:22 and tracked into his half repeatedly. He punishes a late one at clock 1:13 ("Ooh, bad Baby Dragon. He put it in so late that I dropped my Ice Spirit into it") and answers a good one in overtime at 1:29 with the Magic Archer ability rather than a card ("Good baby dragon, but we can once again just step back here, keep this alive").
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

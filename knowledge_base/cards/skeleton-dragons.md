@@ -205,6 +205,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1571.6: they became the Fireball target that closed the game - "I went for the ability and the fireball on the skelly drags" (1573-1576s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- One detection at [3, 16] at clock 1:05 in the opponent's left-lane push; not discussed in commentary.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

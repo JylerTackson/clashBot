@@ -158,6 +158,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 2:10: he infers the whole deck from one card — "Oh, he has a Bowler, okay. I guess that means he has E-Giant."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- Mentioned only, and ruled out as the opponent's win condition — "Either that or Electro Giant, but I haven't seen much Electro Giant this season" (clock 2:24).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Giant (scraped 2026-09-02T02:35:05+00:00)

@@ -476,6 +476,13 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=1468.5, tile [11, 11] / t=1510.5, tile [10, 11]): always the second card of a stack rather than a standalone answer - "Let's baby dragon cannon here. I don't want to log" (1467-1471s) and "Cannon here. Perfect" (1512s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 0:52 (t=1135-1138): the opponent's Evo Cannon is what he plays around before committing his Magic Archer — "I want to force out the Evo cannon now so we can't Evo cannon earthquake our magic archer."
+- clock 0:13 (t=1174-1178): a misplaced Cannon is what lets the biggest push of regular time land — "Yo, that was a bad cannon. The wall breakers, that's going to be a connection."
+- overtime 1:39 (t=1208): his Magic Archer plus Wall Breakers pressure removes it — "Oh, nice. It's going to take out the cannon though." Cannon placements are tracked at [10, 15], [9, 15-16], [8, 16-19] and [11, 20] through the game.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

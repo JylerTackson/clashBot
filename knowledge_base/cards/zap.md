@@ -359,6 +359,11 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 0:52 and 0:33 (t=1984.5, t=2003.4): Zap at tile [7, 11], mid-lane on his own half, over the units walking into his X-Bow; seven 2-elixir Zap drops in 100 s (t=1946.5, 1951.8, 1957.0, 1978.9, 1984.5, 2012.2, 2022.9) make it his cheapest cycle card. He never comments on it once.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:45: only mentioned, never seen — part of his pre-game read of the opponent's list, "This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado" (t=1314-1315). No Zap event was recorded on either side in this game.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

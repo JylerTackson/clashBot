@@ -259,6 +259,12 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.
 - clock 1:38 and 1:05: answered with The Log — "We can go for the log on the Goblin Gang."
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 2:27 (t=28.0) and clock 1:44 (t=72): the opponent's cheap bait unit, which Ryley reads as a spell-cycle tell — "He has the goblin gang cuz he's not backed arrows yet" (t=68) — and answers with Magic Archer behind plus a spirit, or with Berserker at [11, 13] plus Ice Spirit.
+- clock 1:45 (t=72): "Maybe not the greatest goblin gang placement by Talal. This guy's one of the best recruits players actually" — he treats a mis-placed Gang as free value rather than spending a spell on it.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

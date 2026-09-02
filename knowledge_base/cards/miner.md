@@ -325,6 +325,18 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=805s: opponent Miner at tile [3, 13] on Ryley's half in the last game of the window, alongside another Goblin Barrel — chip pressure from a bait-shaped deck.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 1:25 (opponent card, never played by Ryley): he times the opponent's Miner + Balloon window off his own cycle — "now that we've cycled the marcher, he's just going to go for a [Miner] balloon and try to take out my entire tower" (624-628s).
+- clock 0:39 (opponent card): keeps a 2-Elixir Berserker in hand specifically as the Miner answer — "if he goes for the [Miner], we have the berserker" (669s).
+- clock 0:17 (opponent card): calls a Miner at the bridge a mistake — "Wait, what the heck? Why did he [Miner] at the bridge?" (688-690s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:45 and 1:42: named twice as the Balloon's partner — "This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado" (t=1314) and "he can go for another [Miner] balloon very soon" (t=1379). No deploy label ever read; a Miner track appears at OT 1:58-1:52 and the repeated ~320-650 HP tower ticks at clock 1:02-0:55 are consistent with Miner chip.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

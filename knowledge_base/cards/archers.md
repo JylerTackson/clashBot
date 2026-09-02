@@ -306,6 +306,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.m
 - clock 0:19 (t=829) and overtime clock 1:17 (t=891): answered with the cheapest cards in hand — "we can go for a fire spirit on top of the archer" and "We can skellies to block the archers and then that's going to relock."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- The opponent's X-Bow support, seen in almost every push from clock 2:29 onward (several tagged as the Evolution by the detector). Ryley answers the Archers-plus-X-Bow combination with Royal Delivery at [3, 14] (clock 0:53) and with Magic Archer lined through both.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

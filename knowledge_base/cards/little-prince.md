@@ -168,6 +168,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - Opponent card, played at t=1375.4 at tile [3, 17] behind a Zappies in the left lane. Ryley answers the pair with a single Royal Delivery at [4, 14] (t=1377.9) rather than splitting his answers. No commentary on the card by name.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- Opponent card, tracked to within 2.7 s of his right tower at clock 1:59 and replayed at overtime 0:38. Answered both times without a dedicated counter: a Wall Breakers kite at (13, 13) plus the Bomb Tower / Royal Delivery / Fire Spirit stack the first time ("Let's just Wall Breakers to bring this back"), and Magic Archer + Ice Spirit + Berserker + Royal Delivery the second.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

@@ -396,6 +396,51 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4
 - Answered with Poison every time it crossed (t=809.8, t=851.9, t=994.0, t=1016.0) and pre-empted at the death: "that marcher is annoying" (t=936), "I know he's going to try to get the marcher at the bridge, man. But I'm not going to let that happen" (t=1016-1019).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 2:44 and 2:27 (t=15.0, 29.0): the deck's namesake goes down behind his own towers at [2, 13] and [2, 8], not at the bridge — he calls the list "the super cycle log bait magic archer deck" (t=13-16).
+- clock 0:29-0:27 (t=147-150.3): he explicitly cycles it rather than trading it, and wants more than one on the board — "we can just cycle the magic archer. I do want to start stacking up magic archers. That will be very very helpful because I think he only has the arrows" (t=147-153).
+- clock 1:22, 1:04, 0:11 and overtime 1:47/1:13 (t=93.1, 112.1, 166.2, 191.2, 223.2): re-laid on the centre-left tiles [8, 9] / [9, 9] / [8, 7] behind the Bomb Tower every cycle, as permanent support behind the barrels — 7 labelled deploys in one game.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 2:27: opened him at tile (8, 0) behind his own king tower right after the split Wall Breakers, elixir 9 -> 5, and never once played him at the bridge for chip in this game — every one of his nine placements is on his own half.
+- clock 0:38-0:28: the stated centre of the matchup — "Above all, I always want to keep my magic archer alive in this match up cuz if I let my magic archer die, then I will probably just lose the game... when he gets those massive double evo pushes, if I don't have a magic archer up, I usually will just lose the game."
+- Hero variant with the 2-elixir Triple Threat ability, used four times purely to retreat him out of range rather than for damage: at clock 0:47 against an Inferno Dragon ("We can pop the ability and go backwards, keep this alive against the inferno dragon"), then in overtime at 1:47 ("we hit a little James Harden step back. Nice. Perfect. And now this is going to live"), 1:29 ("Good baby dragon, but we can once again just step back here, keep this alive") and 1:05 ("Step back now. Nice. Kept this alive").
+- clock 1:03-0:54: held in hand as a specific answer rather than played on curve — "I don't want to Wall Breakers when I don't have enough Elixir to magic archer or whatever they play... now I will have time to go for the magic archer on a knight if he does it."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:38 and clock 1:25: two Magic Archers from behind his own King Tower at (9, 1) and (9, 0), framed as the deck's defensive investment — "Let's go for the magic archer here in the back... otherwise we will lose because we don't really have the greatest air defense" (548-557s).
+- clock 0:48: switches him to the bridge at (2, 15) to open the second lane — "I'm going to march at the bridge. I actually just want to keep on spamming, right now" (658-660s); the enemy left tower falls 4858 -> 1798 HP inside three seconds of that push.
+- clock 1:25: tracks the cost of cycling him — "now that we've cycled the marcher, he's just going to go for a [Miner] balloon and try to take out my entire tower" (624-628s).
+- overtime clock 1:44-1:28: keeps him alive with a Berserker ("Berserker to keep the marcher alive. Nice, great timing with that berserker", 724-725s) and finishes the game with him at the bridge — "That's a few shots on the tower with the marcher. He has to watch out for the barrel. He has nothing" (743-746s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- clock 1:46 (t=813.8): placed at [11, 13] to line one shot through troop and siege — "we can go for a magic archer to line up on his knight as well and that should take out the entire X-Bow ... Great magic archer geometry as well" (t=813-821).
+- clock 0:32 (t=888.9): bridge-side Magic Archer at [15, 7] behind the Berserker / Wall Breakers pressure — "Let's magic archer here and then we can go for the Evo wall breakers here as well."
+- overtime 1:04-0:34 (t=977.0, 993.0, 1005.0): becomes the actual win condition in the race — "Give me two. Give me two. Cuz I can still connect with the magic archer" (t=989-993), "I keep the archer on the tower" (t=997), "Archer, that's one. Give me two" (t=1004).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:38 (t=1029): first answer to the opponent's Archer Queen is a Magic Archer at [9, 13] on his own half, played for the ability rather than the kill — "Let's go for the magic archer here just to get some value out of this. Make sure he has to either pop an early ability or just, you know, let the Archer Queen die."
+- clock 2:23-2:21 (t=1044-1053): the enemy King Tower activates (first reading 7499, 7270 HP by t=1046) and he blames the Magic Archer's tile — "Sometimes you can actually prevent the king activation depending on the tile your magic archer is on, but unfortunately there I was not able to", after "this is probably game over already with him being able to activate the king."
+- clock 0:52 (t=1132), 0:03 (t=1184) and overtime 1:11 (t=1234): repeatedly re-bought behind the King Tower at [9, 0] as permanent support the opponent must spend on — "we can just go for a magic archer in the back as well" (t=1186); he plays around the answer rather than the card: "I want to force out the Evo cannon now so we can't Evo cannon earthquake our magic archer" (t=1135-1138).
+- overtime 0:45 and 0:22 (t=1261, 1285-1296): two more Magic Archers into the right lane during the losing grind — "Marcher's not going to get us anything, but we can keep up the pressure" (t=1214), then "Wait, we kept this alive. Let's go for the marcher again. And we have a chance" (t=1285-1288).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:23: bridge Magic Archer on his own half at [2, 13] played as a spell bait, not for chip — "I could go for the [Magic Archer] here at the bridge just to force him to go for the [Tornado] cuz I don't want him to go in" (t=1335-1340).
+- clock 1:56: credits that same play for the tower he kept — "I did have to go for that [Magic Archer] here, otherwise this would have basically happened, except I wouldn't have got the extra damage in return" (t=1363-1366).
+- clock 1:15, 0:45 and 0:23: back-line placements at [9, 1], [8, 10] and [10, 1] as permanent support behind the barrels once the game is a race — "I'm just going to go for the magic archer here" (t=1435).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

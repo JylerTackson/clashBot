@@ -549,6 +549,53 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=433-443s and t=522s (mentioned, never played as a card): Wall Breakers appear in this video only as the output of a Tombstone C.H.A.O.S. modifier — Jynxzi: 'Look at the wall breaker. The tombstone. The tombstone... You just get infinite wall breakers.'
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 2:44 (t=12.7): opening play of the match, Wall Breakers at [8, 13] just behind his own bridge before any defence is laid — pressure first, and it is the card he names as the other half of the split: "you can get like this wall breakers one side, the barrel berserker in the other lane" (t=87-92).
+- clock 1:22-1:16 overtime (t=216.2-221): he holds the Wall Breakers until the opponent's Arrows are spent and delays the drop on purpose — "We can wall breakers look cuz he has the arrows, and if you delay it a bit maybe we can grab a wall breakers. Come on. Wall breaker. Bang. Let's go" (t=216-221); the enemy right tower falls 1646 -> 465 across that window.
+- clock 1:58 overtime (t=181.2): barrel first at [3, 24], then Wall Breakers at [3, 14] into the same lane as the follow-up — "Let's barrel and then we're going to go for the very late wall breakers" (t=180-181).
+- Placement is invariant: every readable Wall Breakers label sits on his own rows 13-15 just behind the bridge ([8, 13], [13, 13], [3, 14], [14, 13]), never deeper.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 2:34: split at (8, 1) on his own back line as the matchup-specific opener — "I'm just going to split my Wall Breakers in the back here. His deck won't have any good responses to split Wall Breakers if he does have that Balloon deck"; the connection lands at 267s, enemy left tower 4858 -> 4527.
+- clock 1:30: bridge placement at (4, 14) valued as an elixir trade, not as damage — "the Evo Wall Breakers at the bridge since he doesn't have a good response for this... on top of getting that hit, we forced out five Elixir for two, which is very good."
+- clock 1:58 and overtime 0:24: used as a defensive kite on his own half at (13, 13) and (2, 13) to pull a push off the tower — "Let's just Wall Breakers to bring this back" and "we can wall breaker kite this one back."
+- clock 1:05: gated on having the follow-up in hand — "I don't want to Wall Breakers when I don't have enough Elixir to magic archer or whatever they play."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:22: Wall Breakers at the bridge tile (14, 13) immediately behind a Berserker, as punishment for a slow opening — "I'm going to berserker here, and I'm going to go for the wall breakers, too. I want to be really aggressive right now because of that play that he made with the balloon in the back" (563-568s).
+- clock 1:07: uses them on defence as a kite — "I'm definitely going to go for the wall breakers to kite, as well" (638s) — and gets offence out of it anyway: "we got a double wall breakers connection, as well" (645s), enemy right tower 1679 -> 559 HP over clock 1:01-0:58.
+- overtime clock 1:59: refuses to spend the evolved pair while under pressure — "Should we go for the [evo] wall breakers? Low-key, I don't want to yet. I think it's too risky to go for the wall breakers right now" (706-711s) — then plays them at clock 1:37 once the Bomb Tower and Royal Delivery are already down.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- clock 2:43-2:22 (t=756-778): opens with Wall Breakers at the left bridge tiles [2, 14] then [2, 15], paired with Berserker, while the opponent spends 6 elixir on an Elixir Collector — enemy left tower 4858 -> 3264 HP. "Going to berserker here. Going to go for the wall breakers again. I just need to try to get as much early damage as possible."
+- clock 0:43 (t=876.9): switches lanes with Wall Breakers at [13, 15] only after holding them a full rotation — "I'm not going to go for the wall breakers yet cuz I know he's going to be paranoid of it" (t=868).
+- overtime 1:54 (t=926.9): pre-places them at [4, 14] as insurance and as a body — "Then I can wall breakers ... in case he X-Bows over there, but I also just need a tank for the X-Bow anyways."
+- overtime 1:01 (t=980.0): the pair at [2, 14] is what wins the game — "Wait, hold on. Wait, if wall breakers take this out, I have a chance" (t=981); the enemy left tower drops from 1058 HP and is destroyed at t=1008.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:42 (t=1024): the standard opening is a Wall Breakers split on the centre tile [8, 14] before any read on the opponent — "Let's just go for the wall breakers here. See what he wants to do."
+- clock 0:15-0:05 (t=1172-1182): barrel plus Evo Wall Breakers in the same rotation is the biggest damage of regular time (enemy left 4695 -> 4503, right 4572 -> 3750) — "Evo barrel, Evo wall breakers here. Yo, that was a bad cannon. The wall breakers, that's going to be a connection. At least one of them. We get a double connection basically cuz we got the splash damage."
+- clock 2:10 (t=1057) and 0:40 (t=1147): used purely as a defensive body against Royal Hogs — [6, 14] in front of the hogs, and [10, 10] beside the Bomb Tower: "we need to go for the defensive wall breakers here just to tank. All good."
+- overtime 1:43 (t=1204): paired with Magic Archer as a two-card bait against the opponent's Skeletons — "Let's go for the magic archer wall breakers cuz he might skellies on this."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:18: at the left bridge tile [3, 14] while an enemy Knight walks down the same lane — "I'm definitely going to wall breakers here just to keep that lined up" (t=1342-1343); the point is lane pressure, not a guaranteed connection.
+- clock 0:55 and 0:32: deliberately split in the middle of the enemy half at [8, 18] and [8, 16] to dodge splash — "Let's wall breakers here in the middle cuz he's going to Evo Exe" (t=1424-1425).
+- clock 0:22: names them as the deck's only win path against a stacked Executioner defence — "The only way we grab him is with some like pocket wall breakers and stuff when he has no [Tornado] in cycle, but even then I feel like it's going to be extremely difficult" (t=1458-1461).
+- OT 1:56: third card of the overtime barrage at [8, 19], behind the barrel and the Berserker (t=1483.5).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

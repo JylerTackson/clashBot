@@ -167,6 +167,12 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:13 (t=395.4, tile (2, 11)): committed the Hunter only after the opponent's prediction Fireball had already been spent — "we predicted his prediction and it saves us our tower."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:24 (opponent card, never played by Ryley): a Hunter that fails to fire on his push is called out as the swing — "Ooh, that hunter not shooting is very good for us" (561-563s).
+- clock 0:34 (opponent card): he places his Goblin Barrel on the tile he expects the Hunter to be dropped on — "Let's barrel here in the hunter placement, cuz if he doesn't see it, then we'll get a bunch of damage when he goes for the hunter" (673-675s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hunter (scraped 2026-09-02T02:35:02+00:00)

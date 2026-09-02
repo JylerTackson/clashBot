@@ -257,6 +257,13 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - note: the pipeline attributed every Earthquake deploy label in this game to the opponent because they land on the enemy half, and its video-level deck consensus read the slot as Heal Spirit. The commentary places each Earthquake within ~1 s of Ryley calling the play and he names his own deck "Hog EQ" (t=1267), so Earthquake is the eighth card of this list.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 1:43 (t=1082-1085): Earthquake is why he treats the matchup as structurally against him — "he doesn't like actually have to do anything since he has earthquake to be able to fall back on for some damage."
+- clock 1:23 (t=1104-1108): and it is also his lever — "As long as I have a lead, he is forced to cycle earthquakes on our tower, which can definitely help us break through."
+- overtime 0:51 (t=1255-1257): the failure mode he names when his own pressure stops — "Otherwise, we're just going to get cycled by the earthquake." No Earthquake event was read directly; one unidentified opponent spell at t=1194 took 156 HP off his left tower with no enemy unit in range.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

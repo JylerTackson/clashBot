@@ -366,6 +366,14 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=1541.5 / 1561.6): used as a defensive blocker and then as an elixir drain - "Piggies here to block the firecracker" (1542-1544s) and "evo piggies here forces out the inferno tower. Just get elixir out of him cuz the more elixir I force out of him, he's just completely unable to go in" (1563-1570s). The chip adds up: "Little two nibbles right there, dude. Piggy nibbles do so much damage" (1436-1440s), enemy right tower 4435 -> 4199 HP at 1436s.
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:10 (t=1057-1066): the first Royal Hogs wave crosses on the left and is answered with Wall Breakers plus Ice Spirit plus Fire Spirit rather than a building — "That should be a singular connection unless he gets a spirit down, which he does."
+- clock 1:11-1:02 (t=1110-1121): he tracks the Evolution cycle as the main threat — "He has next piggies Evo though, so I have to be very, very mindful of that. Whenever he has piggies Evo, he's probably going to try to make us use the delivery on the Archer Queen and then he'll be able to get a good set of Evo piggies."
+- clock 0:43 (t=1143-1152): the standard answer package is Bomb Tower plus Berserker plus a defensive Wall Breakers, and it still costs him tower HP (own left 4858 -> 4624) — "There is the piggies right away... I think I should have just stepped back, but it's fine."
+- overtime 0:37 (t=1270-1274): Royal Hogs get through in overtime and he cannot explain it — "Dude, how are those piggies on my tower, though?" (own left 4078 -> 3450 over the next ten seconds).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

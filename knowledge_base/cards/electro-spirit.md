@@ -621,6 +621,11 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 1:31 to 0:20 (t=1947.3, 1979.4, 1996.4, 2006.4, 2017.4): five Electro Spirits, every one thrown at the river line ([2, 15], [14, 15], [12, 15], [11, 15], [13, 14]) to stun the defenders collecting in front of a newly-placed X-Bow. No commentary on the card in this clip.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- Mentioned once and it changes his offence: "he even has e-spirit instead of like a fire spirit, so he's going to be able to counter our Evo barrel super easily as well" (t=808-812) — after which the Goblin Barrels are used mainly as spell bait rather than as expected damage.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

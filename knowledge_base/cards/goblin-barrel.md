@@ -565,6 +565,53 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Mentioned, not seen: it appears once in his recital of the opponent log-bait cycle - "his cycle can get so awkward like like log or delivery NATO like like goblin barrel firecracker inferno towers" (1531-1537s) - and no Goblin Barrel event was detected in the 289s of this game. It is part of why he refuses to spend The Log on lesser targets (1469-1475s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 2:33 (t=23.0): the first barrel of the video goes on the enemy left tower at tile [3, 24] while he is still doing the intro; the 8.0 -> 5.0 elixir drop the hand read missed is that barrel.
+- clock 1:54 (t=61.1): barrel on the enemy right tower at [13, 23] timed off the opponent's spell cycle, worth ~950 HP (right tower 4858 -> 3914 by clock 1:47) — "Let's go for the goblin barrel here... He has the goblin gang cuz he's not backed arrows yet. Very good damage right there" (t=62-70).
+- clock 1:04-0:55 (t=112.9-118.1): two barrels in one rotation, the second on the other tower at [14, 25], as the double-lane burst that drops the enemy left tower 4564 -> 2268 — "Let's go evil barrel fire spirit and I want to go for the wall breakers as well just to apply a bit more pressure" (t=119-123).
+- clock 1:12-1:10 overtime (t=215.2-228.2): barrels at [14, 25] paired with a bridge Berserker to close the game — "Let's go goblin barrel with the berserker. Keep up the pressure" (t=227). 7 labelled barrels in the game, every one on a crown tile.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 2:48: the opener, thrown at (14, 24) on the enemy right tower together with an Ice Spirit at the bridge, elixir 9 -> 6 — "off with the Ice Spirit Barrel here. Try to figure out what this guy is playing... I like to be very aggressive early on with this deck."
+- clock 2:17: switched to the opposite lane at (2, 23) purely on a cycle read — "if I go for the Goblin Barrel, he has to Bowler. He has no Bar Barrel and no Knights. That's just a guaranteed Bowler from him."
+- clock 1:41 and overtime 0:08: the evolution copy is spent on chip he expects to trade — "Let's Evo Barrel as well so we can't activate the king off of that" and "we can go for the evo barrel here. We have a nice evo barrel push."
+- overtime 0:44: he declines a barrel when it would be the non-evolution copy into a live Inferno Dragon — "Actually, that's not evo barrel. I don't want to give him any more fuel for this."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:47: opens the game with a Goblin Barrel on the enemy right Crown Tower at tile (14, 24) (9 -> 6 Elixir) before any defence is laid; that tower reads 4858 -> 4282 HP nine seconds later.
+- clock 1:55: answers a Balloon that just took three hits on his own tower with barrel plus Wall Breakers in the same rotation rather than with a defensive card — "Let's just barrel wall breakers here. The thing is, even if I get in a one-to-one tower situation, it's still very winnable" (592-597s).
+- clock 0:34: places the barrel at (13, 24) as a read on the opponent's answer — "Let's barrel here in the hunter placement, cuz if he doesn't see it, then we'll get a bunch of damage when he goes for the hunter" (673-675s).
+- overtime clock 1:37: the evolved barrel plus evolved Wall Breakers is his closing combination on a 1606 HP tower — "He cannot defeat [evo] wall breakers. It's actually impossible for him to defeat [evo] wall breakers properly. We still get a connection after all that elixir" (733-738s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- clock 2:08 (t=790.8): barrels while the opponent is pump-broke, explicitly to strip the spell — "I'm going to go for the barrel here on the pump just to force him to use the log and then I can just keep on pressuring."
+- clock 1:11 (t=847.8) into clock 1:04: barrel at [3, 24] plus Berserker plus Fire Spirit takes the enemy left tower 1384 -> 1058 HP — "I think I could be able to actually grab some extra damage here. Come on, give me two ... Nice, not bad" (t=852-856).
+- clock 0:23 (t=896.9): times the barrel off the opponent's spell cycle — "he has the log, but now because he used his log, he can't really defend the barrel that well."
+- clock 0:09 (t=909.9) and overtime 0:32 (t=1008.0): barrel used as a spell-drain first and damage second — "Let's barrel here just to force out the log" (t=911).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:51 (t=1016): opens the game with the barrel before anything else is on the field, tile [3, 24] on the enemy left tower, while scouting the opponent out loud — "He's going to start off with the goblin barrel here. This guy plays piggies, earthquake, evo cannon, log, skelly spirit."
+- clock 1:32 (t=1095): Evo Goblin Barrel at [3, 23] together with Wall Breakers is the first real connection of the game (enemy left 4858 -> 4695) — "It's Evo barrel wall breakers here. This won't be too much pressure, but it's something decent. It should be like three barrel hits. Not bad."
+- clock 1:41 (t=1086) and overtime 1:17 (t=1232): two stated brakes on barrel spam — "I'm not going to Evo barrel spam him just yet cuz if he piggies at the same time then I would lose", and later "I don't want to barrel into the queen though. That's the problem."
+- overtime 1:55 onward (t=1191, 1217, 1253, 1265, 1292, 1302): he moves every barrel to the damaged right tower ([14, 24] / [14, 26] / [13, 26]) and cycles them non-stop — "I do need to keep on cycling barrels over and over again" (t=1189); the one that lands at t=1253 takes the enemy right tower 3750 -> 3558: "Yo, we got one. Nice. It's huge."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 1:56 and 1:14: two barrels on the already-damaged enemy left tower at tile [3, 24], always paired with another card in the lane — "Let's go for the barrel wall breakers here just to keep applying some pressure. He's going to be able to [Tornado] those, but that's going to be a lot of damage on the goblin barrel" (t=1367-1372); the tower fell 2924 -> 444 HP inside twelve seconds.
+- clock 0:57, 0:33 and 0:09: switches the barrel to the right tower at [14, 23]/[14, 24] once the left one is nearly dead, each time alongside Wall Breakers or Berserker so the tower is already distracted — "Maybe I could grab a connection cuz that's distracted. Come on, give me a double. Nice" (t=1427-1430).
+- OT 2:00: opens overtime with the barrel at [14, 25] as the first of three cards in five seconds — "Let's go for the barrel again. Go for the berserker, and then we go for the wall breakers, too. I want to keep being really aggressive right now" (t=1480-1485); the opponent missed the Tornado on it and the tower dropped 1425 -> 481 HP.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

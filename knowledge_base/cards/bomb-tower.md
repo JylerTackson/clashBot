@@ -394,6 +394,48 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 1:21: notes the post-buff pull range as the reason it now works — "Go for the bomb tower here. That should pull now after the change. Yeah, nice. Okay, thankfully that pulls cuz it didn't pull before, but after like it got like a massive buff, they did like lower the sight or increase the sight range so it does get followed up by buildings more easily."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 1:22 (t=94.1): the first Bomb Tower is held until the double Royal Recruits split actually arrives, then laid on the centre pocket tile [9, 9] — the rule he states at t=81: "I do want to save my bomb tower for the recruits if possible", then "Let's go for the bomb tower here" (t=96).
+- clock 0:45 (t=130.1): the second one at [7, 9] against the Recruits + Wizard + Skeleton Barrel push — "Let's go for the bomb tower here. Make sure that we take this all off of the board" (t=129-131); he had pre-announced it at t=116-117, "if he tries to go for an Evo skelly barrel then we have the second bomb tower."
+- clock 0:11 (t=164.2): in triple elixir he lays it before the push exists — "then we go for the early bomb tower in the middle" (t=164-166). All 4 deploys are on the same central pocket, tiles [7, 9] to [9, 9].
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 1:57: laid at (7, 8) in the central pocket as the first card of a three-card defensive stack — "we go for the Bomb Tower plus the the Delivery. I'm going to Fire Spirit as well so that doesn't get on top of anything."
+- Re-laid roughly once per enemy push — (7, 9) at clock 0:21, (7, 10) and (10, 9) in overtime, (9, 14) at overtime 0:19 — always in front of a tower rather than beside one; at overtime 0:23 he calls the placement out: "Go for the high bomb tower here."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:28: laid early and on cycle rather than in reaction, at the centre tile (8, 9) — "All right, let's cycle the early bomb tower here. Dude, this is kind of scary already" (558-560s).
+- clock 0:39: the card he reaches for to save a tower he thought was gone — "I'm going to lose my tower, unless I— Actually, I could bomb tower to save it" (664-667s), placed at (6, 13).
+- overtime clock 1:49: pre-placed with Royal Delivery for a push he calls in advance — "Let's bomb tower then we delivery. He's going to giant skelly for sure, yep. That's fine with me" (717-720s), at tile (10, 9).
+- All five Bomb Towers in this game go in the central pocket in front of the King Tower ((8, 9), (7, 10), (6, 13), (10, 9)), never pulled wide to a lane.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- clock 1:48 (t=811.8): Bomb Tower at [14, 10] with Berserker, Magic Archer and Royal Delivery answers the opponent's first X-Bow at [15, 16] — "very nice defense right there" (t=818).
+- clock 1:24 (t=836.8): laid pre-emptively against a pumped-out opponent — "I'm just going to bomb tower early cuz it's not like he can afford the knight instantly anyways" (t=840).
+- clock 0:58 (t=861.9) and 0:01 (t=919.9): willing to place it off its ideal tile rather than not place it — "I had to go for a low bomb tower sadly" (t=864); "Go for the low bomb tower here. That's fine. Only a little bit of damage" (t=918).
+- overtime 1:46 (t=933.9): doubles as a lane tank, not just a defence — "we can go for the bomb tower cuz this should tank for the left side X-Bow." Ten Bomb Towers in 264 s, one per cycle.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:11 (t=1056) and every cycle after ([8, 10] t=1097/1217/1264, [6, 9] t=1143, [9, 9] t=1163, [9, 12] t=1183, [9, 11] t=1239): the Bomb Tower is re-laid in the central pocket in front of his King Tower as the fixed anchor against Royal Hogs.
+- clock 0:20 (t=1163-1167): he names the defensive pairing explicitly — "we get a good delivery at the bridge. Even bomb tower on defense as well. Dude, the delivery bomb tower combo is so nice defensively."
+- clock 0:43 (t=1143) and overtime 1:07 (t=1239): dropped the moment the Royal Hogs appear rather than pre-placed — "There is the piggies right away. Go for the bomb tower here", and "Let's get the bomb tower down. We can go for the ice spirit, and we can go for the delivery as well."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:14, 1:10, 0:47 and 0:16: laid four times in the same central pocket in front of his king tower ([9, 9], [10, 10], [10, 9], [7, 9]) — it is the fixed first card of the defensive package, re-laid every rotation.
+- clock 2:14 and 1:10: he plays it knowing it will not fully hold — "Let's go for the berserker then bomb tower. I know he will get a lot of damage here, but like I said, we both can't really defend" (t=1348-1351), and "Actually, I think he's going to go all in. Let's bomb tower here" (t=1410-1411).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

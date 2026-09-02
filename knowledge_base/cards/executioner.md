@@ -154,6 +154,13 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1
 - clock 2:27-2:18: the opponent's first real threat, tracked from (5, 21) down to (3, 12) in Ryley's left lane; he answers with The Log at (3, 14) and then Berserker on the same tile rather than letting it reach the tower. No commentary on it.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:14-2:05: an Executioner tracked from [13, 14] down to [10, 3] forces the whole Bomb Tower + Berserker + Ice Spirit + Fire Spirit package, and he accepts damage rather than trying to hold cleanly (t=1343-1354).
+- clock 0:37-0:33: the Evolution Executioner plus Tornado takes his right tower from 501 to 275 HP — "that's executioner, dude" (t=1442) — and he calls it the reason he expects to lose: "He's just going to be able to stack executioners like crazy, and we're going to get cooked" (t=1453-1456).
+- OT 1:50: and the reason he expects to win once it is misused — "Dude, that Evo Exe costed him bad" (t=1490).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

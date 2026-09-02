@@ -517,6 +517,52 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 1:08 and 0:52 (t=1972.4 at [9, 14], t=1983.7 HUD 5.0 -> 4.0, t=1986.4 at [4, 12]): repeated 1-elixir freezes on the single crossers so his 4-elixir cards stay free for the siege — "Let's go for the ice spirit here" (t=1973).
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- At least 14 deploys in 233 s — the most-played card in the game. On offence it rides next to the bridge plays at [14, 10], [13, 13], [12, 13] (clock 2:47, 1:51, 0:14); on defence it freezes in front of the Bomb Tower at [10, 13], [9, 11], [9, 12] (clock 1:18, 0:14, overtime 1:32).
+- clock 0:17 (t=162.7): the named defensive combo is spirit-then-Berserker — "Well, let's ice spirit and berserker. Even though he has that we can just out cycle it" (t=159-162).
+- overtime clock 1:32-1:12 (t=206.2-229.4): spirits are the cheap way to keep the barrel pressure alive with a 2-3 elixir bar — "keep up the pressure here with the spirits" (t=225).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 1:19-1:12: dropped on the bridge tile (15, 15)/(15, 13) on cycle for free chip — "going to keep on dropping my spirits at the bridge to be annoying. Grab some free damage."
+- clock 0:11: the reset in front of the defensive stack — "I'm just going to delivery here then we can ice spirit reset this."
+- overtime 1:09: played early on purpose to deny a Tornado value moment — "I'm going to early spirit in case he tries to NATO [Tornado]. Just don't give that up possibility."
+- clock 1:13: he accepts a bad spend for information rather than holding it — "Ooh, bad Baby Dragon. He put it in so late that I dropped my Ice Spirit into it. At least it defended one of the spirits."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:07 and clock 1:41: the first card of the defensive chain in front of the Bomb Tower at (8, 12) and (8, 11) — "Let's go for the ice spirit here, and then we can go for the fire spirit" (574-576s).
+- clock 1:07: spirit before the Royal Delivery in a defence he is trying to keep cheap — "Then we can just ice spirit here... We need to spirit, and then we can go for the delivery last second" (636-641s).
+- clock 1:32 and overtime 1:45: also rides the bridge with the Wall Breakers at tiles (14, 13) and (12, 6) as 1-Elixir push support.
+- overtime clock 1:26-1:24: two Ice Spirits thrown as a prediction rather than a reaction — "We can ice spirit predicting the minions" (741s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- clock 1:46-1:19 (t=813.5, 840.3): the standard shield in front of the Bomb Tower, [2, 14] then [4, 14], one per defensive cycle.
+- clock 0:43-0:42 (t=874-877): named as the cycle filler that keeps the bridge rotation alive — "And then we can just start cycling our spirits", Ice Spirit at [8, 10].
+- overtime 1:51 (t=929.3): used as a pull rather than a stall — "let's go for the ice spirit to pull this back" (t=925), placed at [16, 13].
+- clock 0:27 (t=891.7): Ice Spirit at [15, 14] to hold the push in line for the Magic Archer — "Ice spirit to keep this lined up." Fourteen Ice Spirit events in the game, the most of any card.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:07 (t=1060): first layer against the Royal Hogs and their Skeletons — "Let's go for the wall breakers then we go for the ice spirit for the skeletons as well. That should be a singular connection unless he gets a spirit down, which he does."
+- clock 0:57 (t=1128): the cheapest way to keep the rotation moving before the next barrel — "I'm going to spirit here then we can barrel opposite lane."
+- clock 0:43 and overtime 1:07 (t=1143, 1240): dropped in front of the Bomb Tower as the freeze layer on a committed push — "We can go for the ice spirit, and we can go for the delivery as well" (t=1241).
+- overtime 0:11 (t=1289-1297): part of the final stacking attempt in both lanes — "Let's go for the low spirit, the high spirit, and then we go for the evil wall breakers evil barrel."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:07, 1:02 and 0:40: the defensive freeze in the Bomb Tower stack ([13, 9], [12, 11], [11, 14]) — "Especially if I go for the ice spirit and fire spirit. Yeah, I think I save this tower" (t=1417-1419); the right tower held at 885 HP through that push.
+- clock 1:18: a 1-elixir bridge poke at [3, 14] used purely to make the opponent respond — "Okay, let's go for the ice spirit here. Just force him to defend a little bit" (t=1400-1402).
+- clock 0:07: [10, 14] as part of the double-spirit set-up before the overtime pressure — "Okay, let's go for the spirit here. Go for another spirit" (t=1466-1469).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

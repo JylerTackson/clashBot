@@ -620,6 +620,17 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Twice held on purpose against a barrel deck: "I don't want to log. I need to save the log here. Even though it's really tempting to log the general, there's no need to be doing this" (1469-1475s) and "Not going to log just had it ready in case" (1544-1546s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- Never seen by the detector but tracked all game from commentary as the card he plays around: "he has the log, but now because he used his log, he can't really defend the barrel that well" (t=894-897), "we just go for a low berserker cuz he's going to log" (t=942-944), and in the winning overtime sequence "he has no log in cycle though, to be fair. I still have a chance to get through maybe" (t=1001).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:11 (t=1053-1058): he tracks the opponent's small-spell cycle rather than the card itself — "I will barrel. I did not cycle him. He's back to log now after going for the piggies, which is all right, not the end of the world."
+- overtime 1:51 (t=1195-1197): forcing it out is treated as a win in itself even when the barrel gets nothing — "Give me one. Oh, at least we forced out the log though." The Log is tracked on the field at t=1060 and t=1285.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

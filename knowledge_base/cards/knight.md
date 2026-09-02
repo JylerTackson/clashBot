@@ -305,6 +305,22 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=283-289, mentioned only, never played): listed as an acceptable stand-in for the Mighty Miner for players without the Champion — 'I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight, just a few cards like that cuz I know not all of you will have the mighty miner upgraded cuz champion cards are really really hard to upgrade.'
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- Mentioned only, as a card the opponent does NOT have — "He has no Bar Barrel and no Knights. That's just a guaranteed Bowler from him" (clock 2:15), which is what licenses the Goblin Barrel into the left lane. He also holds Magic Archer as the answer in case one appears: "now I will have time to go for the magic archer on a knight if he does it" (clock 0:54).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- Predicted before it was seen — "I know that he has an X-Bow and his last card is probably just a knight" (t=794-798) — and detected at [15, 26] at clock 0:43. He uses the opponent's pump spending against it: "I'm just going to bomb tower early cuz it's not like he can afford the knight instantly anyways" (t=840).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:20-2:16: the opponent's Knight walks the left lane while Ryley answers with a bridge Wall Breakers rather than a hard counter — "I'm definitely going to wall breakers here just to keep that lined up" (t=1343).
+- clock 1:16-1:04: he plans to kite it instead of killing it — "I can kite back the knight with my wall breakers" (t=1408) — and then trades it for the other tower on purpose: "I did eat a whole knight for it, but I think it's worth it" (t=1422).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

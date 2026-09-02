@@ -141,6 +141,12 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=845-856s (clock unknown): he deliberately lets every pump live because the counter-spell is committed elsewhere — "I can't lightning that elixir collector now cuz then he'll just 3M in the back and I'll lose the game... I have to let that pump go and I think that means this match he will have a stack of pumps on me and there's nothing that I can really do about that." By 977s he is "down three elixir collectors" and at 1042s "down six elixir right now after that pump", and he still wins.
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- Six-plus collectors tracked at [5, 26], [12, 26] and [15, 26] between clock 2:29 and overtime 1:25. Ryley treats the matchup as near-unwinnable because of it: "It looks like this guy has super pump cycle. Yeah, it's just pump boat" (t=760-765), "I have no chance against any elixir collector decks" (t=770-772), "he's going to keep on being able to play these elixir collectors and there's nothing that I'm going to be able to do about it" (t=824-829).
+- His counter-plan is tempo, not spells: barrel the collector to force the small spell (t=790-792) and take as much tower HP as possible before the pumps pay off — enemy left tower 4858 -> 1559 HP by clock 2:12.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Collector (scraped 2026-09-02T02:35:34+00:00)

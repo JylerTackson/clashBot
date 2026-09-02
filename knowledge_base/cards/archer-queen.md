@@ -172,6 +172,14 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=296-301, mentioned only, never played): named as the substitute for the Baby Dragon slot in this Royal Hogs cycle list — 'if you like the archer queen, you can even take out the baby dragon and put in the archer queen instead.'
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:38 (t=1031): the opponent's Champion is the first card played against him and sets the whole game plan — "Okay, he goes for the archer queen. Let's go for the magic archer here just to get some value out of this. Make sure he has to either pop an early ability or just, you know, let the Archer Queen die."
+- clock 1:52 (t=1073) and 1:02 (t=1125): he is happy to trade cheaply into her but not to let her land for free — "he had to go for the Archer Queen, which is fine for us", and "I'm trying to out cycle him and just keep up the spam so he's not able to get free Archer Queens down."
+- clock 0:17 (t=1169) and overtime 1:17 (t=1232): she is what stops the bait deck functioning — "We just have to be very careful of that archer queen cuz it can definitely cause us a lot of problems", and "I don't want to barrel into the queen though. That's the problem."
+- overtime 0:53-0:15 (t=1253-1296): repeated mid-lane Queens ground his left tower from 4390 to 2982 HP — "We can't just let him keep cycling queens. They're never going in" (t=1253-1256), and the last Berserker is thrown to "force out the archer queen ability" (t=1295).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

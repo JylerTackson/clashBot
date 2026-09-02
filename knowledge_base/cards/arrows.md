@@ -249,6 +249,11 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 0:52-0:15 (t=1983.4, 2007.4, 2021.4): three offensive Arrows on the opponent's half at [8, 18], [2, 21] and [13, 19] to keep the defenders off the X-Bow — "Arrows here. Just continue applying pressure" (t=2010), "Arrows here. Zappies. Come on" (t=2021).
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- Ryley tracks the opponent's Arrows all game and times both of his win conditions off it: "He has the goblin gang cuz he's not backed arrows yet" (t=68), "I think he only has the arrows" (t=153), and "We can wall breakers look cuz he has the arrows, and if you delay it a bit maybe we can grab a wall breakers" (t=216-219). Never observed as a deploy — mentioned only.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

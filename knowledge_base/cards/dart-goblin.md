@@ -368,6 +368,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 2:22 (t=193-197): mentioned only, as the non-hero substitute for his Magic Archer slot — "if you don't have the hero [Magic Archer], you can always use the dart goblin in this deck as well."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 1:49-1:45 (t=68-72): a Dart Goblin walks the right lane at [14, 12] -> [14, 10] and is cleared by Berserker plus Ice Spirit; detector labels for this card may be Goblin Gang Spear Goblins (see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

@@ -304,6 +304,51 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md
 - clock 0:34 (t=1513.8): Fire Spirit from the HUD for 1 (elixir 5->4), played in the same breath as Bats and an Ice Spirit while a Night Witch advanced on his half: 'Let's go for the spirits. Help us out on defense, and we can go for the expo' (1513-1515s).
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- 8 deploys, all on his own half ([8, 14], [3, 6], [14, 13], [12, 13], [14, 5], [13, 14], [3, 12]) — it is the swarm-clear half of the spirit pair, used so the Bomb Tower is not tied up by Goblin Gang or Skeleton Barrel remains.
+- clock 0:41 (t=136): added on top of an already-winning defence purely to avoid chip — "Let's fire spirit here as well just to make sure we take no damage. Very good defense right there" (t=136-137).
+- clock 0:06 and overtime 1:51 (t=170.8, 189.2): stacked with an Ice Spirit on the same threat — "I'm going to have to go for a ice spirit on this as well and fire spirit too" (t=186-188).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 1:55: the top-up on a Bomb Tower + Royal Delivery stack, placed at (9, 12) so nothing lands on the tower — "I'm going to Fire Spirit as well so that doesn't get on top of anything."
+- overtime 1:42: the cheap answer that keeps the elixir trade going rather than a full block — "let's go for the fire spirit here. That's all good though. As long as we keep on forcing out elixir, we're looking fine."
+- Eight placements this game, all defensive or behind his own towers ((9, 12), (9, 13), (8, 10), (10, 15), (8, 0), (14, 0)) — in this matchup the bridge chip job was given to Ice Spirit instead.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:11: the splash layer of the cheap defence at (9, 14), announced in the same breath as the Ice Spirit (574-576s).
+- clock 0:54: attached directly to a Goblin Barrel as a combined chip package — "Let's go for the [evo] barrel plus fire spirit, and we can wall breakers at the bridge, again" (649-652s), deployed at (14, 15).
+- clock 1:32 and clock 0:33: repeated at the bridge tile (14, 13) as a 1-Elixir top-up on an existing push.
+- overtime clock 1:44: pure chip on a low tower — "Let's go for the fire spirit here just to damage this" (722s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- clock 1:10 (t=850.9): Fire Spirit at [7, 15] on top of the barrel-plus-Berserker push — "Fire spirit up top" (t=850).
+- clock 0:42 (t=877.9): placed deep at [9, 9] on defence — "Let's fire spirit low and then we can go for the bomb tower as well just to make sure we take out this X-Bow" (t=878-881).
+- overtime 1:46 (t=931.9) at [14, 13]: bridge splash ahead of the Bomb Tower — "we can go for the fire spirit here at the bridge. Then we can go for the bomb tower."
+- overtime 1:33 (t=942.8): the Fire-Spirit-then-Bomb-Tower package is his emergency answer to a stacked push — "Let's fire spirit then bomb tower. Oh my god, we barely got that down" (t=947-950).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:28 (t=1038): Fire Spirit at [11, 14] played specifically to deny the opponent's King activation — "Let's fire a spirit here as well just to shove it a little bit so he can't activate the king. Oh, no, he was able to anyways."
+- clock 2:00 (t=1066): held until the opponent's own spirit was spent, then sent at [3, 14] into the Royal Hogs — "because he dropped the spirit, I can go for the fire spirit and he has nothing good for the fire spirit."
+- clock 1:05 to overtime 0:07 (t=1121, 1161, 1181, 1201, 1220, 1273, 1300): the recurring bridge-lane filler at [14-16, 11-13] that keeps the barrel lane alive — "Let's fire spirit again. Keep up the pressure" (t=1182).
+- overtime 1:27 (t=1220): used as a tank body in front of a push rather than as chip — "Fire spirit here to tank."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:05 and 1:02: paired with the Ice Spirit as the cheap finisher on defence ([11, 10] into the Executioner, [12, 9] into the all-in) — "Let's definitely go for the ice spirit fire spirit here" (t=1354-1355).
+- clock 1:15: used to open the other lane while the main pressure is left — "We can go for the fire spirit opposite lane" (t=1404), label at [9, 15].
+- clock 0:08: [5, 11] on his own half as the first of the two spirits before the overtime push (t=1469.1).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

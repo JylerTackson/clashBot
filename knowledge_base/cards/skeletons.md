@@ -747,6 +747,17 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=1554.6, tile [7, 10] and t=1567.6, tile [12, 15]): used to block the opponent Evo Skeleton Army chip - "just skellies here to block his cuz he's trying to get a bit of chip damage with the skarmy cuz the skeletons are blocking for it" (1556-1562s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 2:07 (t=1060-1062): he pre-empts the Skeletons with the Ice Spirit in the Royal Hogs defence — "then we go for the ice spirit for the skeletons as well."
+- overtime 1:43 (t=1205): the Skeletons read shapes his offence too — "Let's go for the magic archer wall breakers cuz he might skellies on this." Skeleton tracks appear against him at t=1070, 1200-1204 and 1262-1266.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:45: only mentioned in the same pre-game deck read (t=1314-1315); Evolved Skeleton tracks do appear on defence for the opponent at clock 0:38-0:28, but no deploy label confirmed them.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

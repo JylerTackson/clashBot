@@ -249,6 +249,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2
 - clock 1:12 and 0:48: mentioned twice, never observed on the field - it is the card that governs how he plays his Wall Breakers pushes: "I do have to be careful of the evil inferno dragon though, man. Cuz I think it's so broken" and "I can't really take out the Evo Inferno Dragon."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- Opponent card, seen at clock 1:42, 0:36 and overtime 1:18. It is the reason he kites instead of blocking — "go for the Berserker here just to kite this away and not take any Inferno Dragon risks with not having any like cheap air defense in hand" (clock 1:43) — and the reason he spends the Magic Archer Hero ability — "We can pop the ability and go backwards, keep this alive against the inferno dragon" (clock 0:47).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

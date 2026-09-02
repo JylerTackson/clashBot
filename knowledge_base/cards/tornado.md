@@ -256,6 +256,18 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t~1480): predicted onto his bridge Mighty Miner and accepted in advance - "He's going to NATO this for sure to grab some damage, but it's fine. Yep, there's the NATO" (1477-1482s). He also plays around the Firecracker plus Tornado pairing when choosing which threat to send (1507-1512s) and blocks its value with Skeletons at the bridge (1447-1450s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- Mentioned only (auto-transcribed as "NATO"), never detected. It is the spell he tracks all game: "We have to watch out for the tornado though" (clock 0:15), "I'm going to early spirit in case he tries to NATO. Just don't give that up possibility" (overtime 1:09), and he baits it deliberately at overtime 0:38 — "I'm going to make him NATO this so that I can play a second one hopefully."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:23: he plays a bridge Magic Archer specifically to pull it out of the opponent's hand — "just to force him to go for the [Tornado] cuz I don't want him to go in" (t=1339-1340).
+- clock 1:52 and 0:33: he expects it to eat his bait and plays anyway — "He's going to be able to [Tornado] those, but that's going to be a lot of damage on the goblin barrel" (t=1370-1372) — then respects it after it drags his defence: "Tornado is such a crazy card, man. I can't believe that it's able to just grab me like that" (t=1444-1446).
+- OT 1:54: the missed Tornado on his last Goblin Barrel is the moment the game swings — "He has to [Tornado] that to the king. Wait, he missed. Oh my god. Bang. Bang" (t=1485-1488).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

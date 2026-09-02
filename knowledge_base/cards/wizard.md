@@ -212,6 +212,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1
 - clock 1:36-1:32: he characterises the whole opposing deck by it — "This guy's a weird off-meta wizard hog rider deck... his wizard monk pushes get a lot of value, but I do think that if we attack properly and mess up his cycle, then we could be in a good spot."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 0:47 (t=128.1) and clock 0:49: up to three Wizard trackers behind the Royal Recruits push; Ryley never spells them, he answers with the centre Bomb Tower plus Royal Delivery plus a Fire Spirit and takes no tower damage from that wave (t=129-137).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

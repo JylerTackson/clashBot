@@ -218,6 +218,24 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.m
 - clock OT 1:22: a Balloon placed in the back is treated as harmless once the defence is cycling — "This guy can't do anything, even with the balloon in the back. It just cooked for him".
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- Mentioned only — never detected on the field. Ryley calls the opponent's deck from the first commitment at clock 2:33 ("I'm pretty sure this guy runs Balloon Freeze, actually") and shapes his opener around it ("His deck won't have any good responses to split Wall Breakers if he does have that Balloon deck"); in overtime at 1:03 the expected Balloon is why he skips a king activation — "there's no point to even try cuz the balloon is coming down."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:04 (opponent card, never played by Ryley): a Giant-Skeleton-tanked Balloon gets three connections on his left tower (4657 -> 3325 HP) and he treats it as near-fatal — "if that gets three hits, I've probably just lost. Dude, how does that get three hits? Dude, balloon is not real. Unfortunately, I didn't have anything to block him at the bridge with, either" (582-590s).
+- clock 2:38 (opponent card): the reason he calls for constant pressure with this deck — "we have to apply super good pressure to be able to defend, otherwise we will lose because we don't really have the greatest air defense" (551-557s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 2:45: named in his pre-game read of the opponent — "This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado" (t=1314-1315) — and he calls the whole matchup after it: "that's all balloon match ups where we just both kind of can't really defend, and we just have to go in over and over again" (t=1324-1329).
+- clock 2:00-1:50: never labelled by the pipeline, but his right tower fell 4858 -> 1133 HP through inferred damage ticks while he said "We get some decent damage on that balloon. I'm not going to lose my tower, which is something" (t=1357-1361).
+- OT 1:57: the opponent's Executioner spent on a Balloon that was already dying is what he calls the losing play — "that was a bad Exe cuz that balloon's dying anyways. So, that kind of just was five elixir minus for him" (t=1473-1477).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

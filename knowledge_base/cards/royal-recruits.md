@@ -121,6 +121,13 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1
 - clock 0:13-0:05: a final Recruits wave on the left is met with Savage Survival again plus The Log at (3, 12) — "we can pop the ability as well just to help take out these recruits... We take out at least two recruits. Nice. Very good value there."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 1:27-1:17 (t=88.1-98.1): the opponent's Evo Royal Recruits split both lanes twice, emptying his elixir bar to 0; Ryley's answer is Bomb Tower on the centre tile plus Magic Archer behind, then Berserker plus Ice Spirit to turn them — "Let's berserker to push them in" (t=102).
+- He holds a specific card for them all game: "I do want to save my bomb tower for the recruits if possible" (t=81-82), and says up front how much he dislikes the matchup — "We are up against recruits for our first game, which is kind of sad, man. You guys all know how much I dislike recruits" (t=63-67).
+- clock 0:49-0:37 (t=128-140): a Recruits + Wizard + Dart Goblin + Skeleton Barrel wave is answered with a second Bomb Tower, Royal Delivery and a Fire Spirit and costs him almost nothing — "Make sure that we take this all off of the board" (t=131).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Recruits (scraped 2026-09-02T02:34:44+00:00)

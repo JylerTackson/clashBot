@@ -367,6 +367,50 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Opponent defensive card. It is the answer that meets his Royal Hogs push at ~1434s - "Yeah, firecracker and delivery. Come on, two. Nice. Little two nibbles right there" (1434-1440s), two hogs still connecting for 4435 -> 4199 HP - and he rates it out loud at 1487-1491s: "He's going to delivery again. That delivery is such a save uh such a savior on defense, man. Such a savior."
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 1:39 (t=78.4): dropped at [2, 9] onto an incoming Skeleton Barrel — "Let's delivery here for that skelly barrel" (t=78-79).
+- clock 2:04 (t=52.1): used at [14, 11] on a lone Bomber crossing to his right tower (HUD 9.0 -> 6.0), i.e. spent freely on a small commitment early rather than hoarded.
+- clock 0:45 and 0:03 (t=131.0, 171.2): the answer to committed ground pushes at triple elixir, laid with the Bomb Tower and a Fire Spirit — "we can delivery and then we need to go for the fire spirit as well just to help take this out" (t=172-175).
+- overtime clock 1:30 (t=209.2): at [13, 12] to clear the right-lane Mighty Miner before re-opening pressure — "then we can go for the delivery on the right side" (t=206-208). 6 uses, all on his own half.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 1:57: paired with the Bomb Tower rather than cast alone against a committed ground push — "we go for the Bomb Tower plus the the Delivery."
+- clock 0:13: used pre-emptively while a Tornado was the threat he was counting — "We have to watch out for the tornado though. I'm just going to delivery here then we can ice spirit reset this."
+- overtime 0:32-0:25: treated as a unit worth protecting once it has landed, not just as a spell — "Berserker, then we delivery, and then we can wall breaker kite this one back" and "Keep on protecting delivery as well."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md):
+- clock 2:08: dropped at (4, 6) in front of his left tower as the last card of a five-card cheap defence against the Giant Skeleton — the sequence is called out in advance: "I need to delivery here, and then I can go for the berserker as well" (578-579s).
+- clock 1:05: held deliberately for the end of a defence — "we can go for the delivery last second, as well. And I think I should keep my tower" (641-643s).
+- clock 0:44 and 0:19: used to clear a committed ground push at (2, 15) and (5, 14) — "Okay, let's delivery here, just to take this all out" (661-663s).
+- overtime clock 1:49: always paired with the Bomb Tower in the overtime defence, laid at (9, 12) one second after the building (717s).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- clock 1:45 (t=814.5): spent on the opponent's first committed X-Bow push together with Bomb Tower and Berserker.
+- clock 0:53 (t=864.9): dropped at [3, 14] onto Evo Archers supporting an X-Bow at [2, 16] — "Let's delivery" (t=866).
+- overtime 1:21 (t=959.0) at [4, 15] and overtime 0:31 (t=1010.0): four of its five uses are on his own half against ground swarms — "Then I need to delivery this" (t=958).
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.md):
+- clock 1:51 (t=1075): Royal Delivery at [2, 13] on his own half onto the advancing Archer Queen, followed by a Berserker at [2, 14].
+- clock 1:02 (t=1116-1121): he states that the opponent is baiting it out of him — "he's probably going to try to make us use the delivery on the Archer Queen and then he'll be able to get a good set of Evo piggies", which is why he tries to out-cycle instead.
+- clock 0:42 and 0:24 (t=1144, 1162): used at the bridge tiles [15, 13] and [4, 15] rather than deep on his own half — "we get a good delivery at the bridge" — and combined with Bomb Tower: "the delivery bomb tower combo is so nice defensively."
+- overtime 1:21 (t=1218-1226): after a Royal Hogs plus Archer Queen wave he is not sure it landed in time — "Nice. Good defense. I wasn't sure if I was going to get the delivery down or not." Seven uses in the game, all on his own half or his side of the bridge.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md):
+- clock 1:04: the last card of a Bomb Tower + Berserker + spirits stack against a committed all-in, label at [12, 9] — "I think if I go for the delivery, I save my tower" (t=1415); the right tower survived at 885 HP.
+- clock 0:43: second use, into a Knight advancing on the right lane at [14, 10] — "Let me go for the delivery. Berserker. Ooh, good placement" (t=1436-1438). Both uses are on his own half and both are announced before the drop.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

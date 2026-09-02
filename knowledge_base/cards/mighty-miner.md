@@ -278,6 +278,13 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Balance note he spends 30s on (1364-1396s, no play): "they silently buffed the mighty miner, by the way. The mighty miner two-shots skeletons on ladder, but then on friendly battles, it three-shots the skeleton... it actually is like a stronger card for some reason. And it has to be a bug."
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.md):
+- clock 2:11, 0:23 and overtime 1:47 (t=46, 152.2, 192): the opponent's repeat chip threat; Ryley answers it with spirits plus Berserker rather than a building — "We can berserker here as well. Help take this out" (t=210-212).
+- clock 0:35 (t=142): a Mighty Miner played as a read on his barrel — "I'm going to go for the gob — oh, great mighty miner. He actually predicted us. That's fine though. We can just cycle the magic archer" (t=142-147).
+- overtime clock 1:12-1:06 (t=224-232): the one threat he does not fully answer, taking his left tower 3591 -> 2350 while he races the other lane.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

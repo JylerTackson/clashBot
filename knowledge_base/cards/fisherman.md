@@ -145,6 +145,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 1:24 and 0:35: the opponent's Fisherman is met with a defensive Wall Breakers rather than a swarm — "We can just go for the defensive wall breakers here. Make sure that we tank for that. Not bad" (554-557s); the Fisherman track is retreating three seconds later.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- Detected pulling into Ryley's left lane at clock 1:18 and again in overtime at [2, 16] (clock 1:41); it arrives with the Archers push that takes his left tower from 4858 to 4319 HP. Not named in commentary.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fisherman (scraped 2026-09-02T02:35:13+00:00)

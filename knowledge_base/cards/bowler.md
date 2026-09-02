@@ -256,6 +256,12 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 0:20: "he's just getting bowler hits every time he feels like it", after the opponent puts down a second one at clock 0:28.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.md):
+- clock 2:15 (opponent's card): Ryley counts it as the forced answer to his Goblin Barrel before playing it — "if I go for the Goblin Barrel, he has to Bowler. He has no Bar Barrel and no Knights. That's just a guaranteed Bowler from him."
+- clock 1:30: a mistimed Bowler is what lets his bridge Wall Breakers connect — "that Bowler was kind of bad cuz I think I get a hit. Yeah, we get a hit." In overtime at 1:03 he considers using it for a king activation and decides against it — "could I activate King off of this bowler? I think I could. Okay, actually there's no point to even try cuz the balloon is coming down."
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

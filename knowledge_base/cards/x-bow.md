@@ -250,6 +250,12 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 0:23-0:05 (t=2013.4, logged as an opponent play at [15, 13] on Ryley's half): fourth lay, 6 elixir, called on air — "we can go for another X-Bow here" — and it closes the game: "X-Bow's on the tower to finish off the game" (t=2031), enemy right tower 4091 -> 326 with his own towers untouched.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:start -->
+Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.md):
+- Opponent's win condition, placed at both bridges — [15, 16] at clock 1:43, 0:25 and overtime 1:21/1:19/1:04, [2, 16] at clock 0:53, 0:17, 0:09 and overtime 1:29/1:11. Ryley's answer is a fresh Bomb Tower plus a spirit plus Berserker every cycle, with Magic Archer lined up through it: "that should take out the entire X-Bow" (t=817).
+- clock 0:22 (t=898): he chooses to concede an X-Bow rather than spend on it — "I will let that X-Bow connect because it's in the other lane anyways", and his right tower falls 4269 -> 3027 HP over the next 20 s.
+<!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)
