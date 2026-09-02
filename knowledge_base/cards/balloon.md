@@ -149,6 +149,75 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - He names the deck after it in his first line of the game — "we are using balloon freeze" (579s) — and calls the list an "anti-meta counter deck" that "has been extremely extremely popular this season" (585-592s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 1:51 (video 344s): mentioned only, as a threat he was checking for after seeing the Evo Baby Dragon — "Could he have like a balloon in here? Maybe it's definitely possible for him to have some type of like balloon" (344-348s). It never appears.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 2:29: Ryley's pre-read is that the opponent will hold it out of fear of a card Ryley does not have - "I don't think he's going to balloon cuz he's scared of us having a Tesla."
+- overtime 1:49: he plays a Berserker in front specifically to pre-empt the Hero ability - "He might try to balloon ability. So, it's a good berserk."
+- overtime 0:31: it is what stops him counter-attacking in the losing stretch - "I think I need to go for a set of piggies immediately. N I can't though cuz I need to defend this balloon." No deploy label or track for Balloon exists in this game; it is named in commentary only.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- Mentioned, not seen in the readable window: the opponent dumped it at the bridge before the clip starts and Ryley treats that as the game-losing error - "why did he just balloon the bridge in this?" (clock 1:50) and "He used his balloon already" (clock 1:10), which is why he is willing to commit Inferno Tower and Knight to the Hound with nothing held back for a Balloon.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card. t=85-98: committed while Ryley was spending on the Skeleton Dragons; a Rage effect advances up the left lane from t=86 and his left tower loses 640 HP at t=94.1 and 240 HP at t=98.1 (2847 -> 1967). He had already priced it in — "I knew that would be at least one hit from the balloon, but I guess like it's not the end of the world" (t=85-91).
+- t=39-41: he identified the Balloon before it appeared, off the opponent's Executioner — "with the executioner, I knew for sure that he had [Mega Knight] balloon."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 1:34: anticipated as the opponent's all-in and accepted as a trade — "or just going to go all in with the loon, which is fine with me cuz I'm actually just going to let this go", choosing to keep his own pocket pressure instead of defending.
+- clock 1:48 (overtime): answered with a Fireball at [15, 10] on his own half — "we can go for a fireball here on top of this loon."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 0:27-0:03: named as the opponent's only remaining Lava Hound support once the Skeleton Dragons are spent — "if he goes for the Lava, he has no support cards for it, only a Balloon" (432-435s), then "He might go for a Balloon, though. We have to be careful" (439-442s); a Balloon is tracked at (5, 9) at t=454s during that push.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 2:02 (t=55): spotted mid-sentence and answered with Lightning - "Oh my god, he has a balloon. Okay, well, let's go for the lightning here".
+- overtime 1:55-1:41 (t=184-197): flown down the left lane from [1, 20] and stopped by Tesla plus Berserker plus Skeletons - "let's skellies here to bring this over. Hopefully that Tesla can survive. Nice. Let's go. Perfect"; it never connected for a crown.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's win condition. Ryley flags the archetype before the first play - "this guy is one of the best balloon cycle players in Clash Royale" (clock 2:48) - and connects the deck's problem to it: "we don't really have that much air defense in these types of games."
+- clock 0:33-0:31: tracked at tiles (3, 8) then (3, 7) in his left lane; his answer is Zap alone ("we have to zap here just to not lose our tower") and his left tower HP slot jumps to a king-tower value at clock 0:31, i.e. the Princess Tower fell.
+- clock 0:03: his summary of the loss names it first - "I feel like this just balloon fireball with the cage. It's just so impossible to break through."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:58 (t=269.3, tile (16, 14)): Balloon sent into the lane the opponent had just committed away from, with the Miner prediction queued behind it — "I'm going to go for the balloon opposite lane here. Then I'm going to miner where he might try to drop the inferno dragon."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card. t=1050s: inferred as the hero variant before it is seen - "he probably has the Hero Balloon. And Hero Balloon is typically pretty solid against this".
+- t=1194-1198s: answered with a fresh Bomb Tower plus a Wall Breakers kite - "Might loon here. Yep, there's the loon. Let's Bomb Tower like this. Wall breakers to kite this away".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 1:57-1:43 (t=1032-1043): mentioned only, never played by the opponent; it is the reason he holds his Firecracker — "Maybe he could even have a balloon in here... so I think I'm going to save my firecracker, but the thing is, if he had balloon I feel like he would have already used it when I cycled my firecracker".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's win condition (eight mentions). Predicted from the first exchange — "minor balloon with the Evo musketeer actually. That would be an interesting match up" (clock 2:35) — and answered every time with Tesla + Skeletons + Royal Delivery: "that's going to take out the balloon as well. Beautiful defense" (clock 0:20), "Just delivery here. Take the balloon out" (OT 1:08).
+- clock OT 1:22: a Balloon placed in the back is treated as harmless once the defence is cycling — "This guy can't do anything, even with the balloon in the back. It just cooked for him".
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

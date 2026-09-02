@@ -135,6 +135,137 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:22 (t=150): acknowledges a second one without changing plan — "good Stein but it's okay. Go for the Berserker here." The card is never labelled by the detector, only named in commentary.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:15-1:05 (opponent's card): named as the one thing that can actually beat this deck later — "something that I do have to be careful of in the future is just those Steins at the bridge, cuz while it wasn't that detrimental now because I'm up so much, it could be really really bad for us later" — with Furnace stacking and fast Cannon cycling as his two answers.
+- clock 0:03 and OT 1:55: he calls out the common misplay twice when the opponent pops the ability at the wrong moment — "Bad Stein ability. That was just really bad" and "the Stein just got taken out before the ability really got any value. I have noticed people making that mistake with Stein a lot." His counter is 1-elixir Skeletons once the ability is spent.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:48: the only thing Ryley says about his own list all game is that the nerf list is in it — "next cards that are going to be getting an emergency nerf are actually in my deck right here, and it is going to be the Goblin Stein" (t=227-234). Four clean deploy labels confirm it, all deep on his own half: [6, 8] at clock 0:54, [12, 8] at clock 0:05, [13, 9] at OT 1:35 and [11, 6] at OT 1:04 — a defensive Champion held behind the tower line, never a bridge play.
+- clock 0:54: with the Champion down at [6, 8] and his Elixir dropping 9 to 5 over the next two seconds, the only on-board remark of the whole game arrives: "Okay, this guy's being really annoying" (t=346-348).
+- clock 1:45 to 1:30 (t=289-300), on why it is hard to answer: "it is impossible to defend because the big guy, the monster has so much HP and whatever you try to defend it with, you know, just ends up getting taken out by the Goblin Stein ability because the scientist is so strong as well. They buffed the scientist. They just buffed everything about the Goblin Stein."
+- clock 1:33 to 1:07 (t=306-336), on the emergency nerf: "nerfing the hit points of the monster by 6%, making it go from 2385 HP to ... 2,240 ... because the Goblin Stein monster has so much HP, even a small percentage is just so much of the actual total health points that definitely is getting a very solid nerf. I'm not going to act like the card is going to be dead or anything." He also rates it at t=248-260: "Goblin Stein is probably the best card in competitive right now outside of ... the big three of the three broken heroes", though "not nearly as popular on ladder as it is in competitive."
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Mentioned, not played (t=617-631s and t=701-709s): he ties the Archer Queen buff to the Goblinstein nerf and says it does not explain her — 'even with the nerf to the Goblin Stein, Archer Queen would continue to be an underused card anyway. So I can't even really blame the Goblin Stein.'
+- t=701-709s: uses Goblinstein as his example of a card that was underrated until one buff landed — 'people were just underrating the card until it got that one buff that it just absolutely needed and just made the card go absolutely crazy.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 1:16: Goblinstein at [7, 8], centre of his own half, so the Doctor spawns opposite the Monster and the pair covers both lanes — the same central pattern in all five deployments ([7, 8], [13, 11] at 0:08, [11, 8] at OT 1:19, [16, 14] at OT 0:53, [2, 8] at OT 0:19).
+- clock 1:09-0:55 (t=106-121s), pointing at that unit on the arena: "See the doctor right here? It doesn't really do too much damage, but it will be doing 47% more damage next season, but to compensate for the massive buff to the doctor, they are nerfing the ability. The damage per second will be going down by 12%, which I think it's definitely fair to give a compensation nerf to a card where they gave such a big buff to." (The auto-transcript names the card "Goblin Giant" at 95s, but the Doctor, the ability and the on-screen unit are all Goblinstein.)
+- Note: the pipeline also logged two Goblinstein deploy labels as opponent plays at [8, 12] (0:34) and [11, 13] (OT 1:46); both are on Ryley's half and the opponent already fields Mighty Miner, so two Champions could not share that deck — read as his own.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock ~2:34 (t=341.3): deployed at (6, 0) behind his own left Crown Tower while that tower is being ground 4858 -> 3942 — a defensive placement, using the Monster as the body and the Doctor as the stun.
+- clock ~1:39 (t=394.4): a label at (1, 14) on the left bridge, followed 3 seconds later by an unexplained 2-elixir drop with no hand-slot change — the Lightning Link activation, which costs 2 and does not cycle a card.
+- clock 0:57 (t=436.4): a label at (12, 14) inside the biggest defence of the match; the arena tracker picks the Monster up as an ally 'goblin-brawler' at (15, 10) two seconds later, advancing the right lane as a counterpush body.
+- clock 0:38 overtime (t=573.6): back at (13, 1) behind his own right tower, followed by an unattributed 5-elixir drop at t=586.6 — the champion returning to hand after being killed.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Deployed four separate times (clock 2:33 at (6, 8), clock 1:46 at (10, 11), clock ~1:03 at (2, 14), clock 0:33 at (1, 10)) — as a Champion, that means it was killed and returned to hand three times in 120 seconds against P.E.K.K.A. bridge spam.
+- clock 2:33: goes down at (6, 8) as part of an 11-Elixir one-lane defence (Goblinstein + Tornado + Royal Delivery inside two seconds) against a Royal Ghost and a Bandit.
+- clock ~1:03 (triple Elixir): the only aggressive placement, at the bridge tile (2, 14) behind Wall Breakers — the enemy left tower falls 3351 -> 1665 HP over the next five seconds, the biggest damage burst of the game.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:23 (t=824.3): Goblinstein at [10, 8], centre-right (HUD 10.0 -> 5.0, label score 1.0) — the placement that splits the Doctor and the Monster toward different lanes.
+- clock 1:37 (t=871.0): [11, 1], right behind his own King Tower with the board empty in double elixir — building the next defence in advance rather than answering a push.
+- clock 1:11 (t=901.9): [7, 10] in the middle of his biggest defensive stack of the game (Bomb Tower, Magic Archer, Berserker, Royal Delivery, two Wall Breakers) against a Royal Ghost plus Executioner. No ability activation is readable in the events.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- Mentioned, not seen — the defensive kite he expects the opponent to use against his bridge Elite Barbarians: "I guess the worst he could do is like goblinstein kite" (t=567s), followed by "he messed up the kite, bro" (t=570s) when it fails.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 1:52-1:43: he expects it and treats Elite Barbarians as the clean answer — "I thought he was going to go for a low stein... He has to Stein anyways" (t=664-668s), then "It's going to take out the whole Goblin Stein basically. All I have to do is defend the scientist. And I'm not really too worried about that" (t=672-676s).
+- clock 0:32: the opponent spends it badly under bridge pressure — "Oh my god, he wasted a Stein" (t=742s), and the sequence that followed took the enemy right tower from 2582 to 450 HP.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Never picked up by the unit tracker but the opponent card Ryley respects most all game — first sight at clock 2:11: "Okay, he has the Goblin Stine, too" (t=1282).
+- He rates the opponent's ability timing twice: too early at clock 2:07 ("Wait, that was an early ability, I feel like. I feel like he should have waited on that ability", t=1285-1288; "That Goblin Stine ability was way too quick", t=1300, as the enemy left tower drops 4279 -> 2448), and good in overtime ("Ooh, that was a good stein ability though. Decent defense by us", t=1424-1426).
+- clock 0:40: he changes his own Elite Barbarians placement specifically to deny it — "I don't want to do them all in the same lane because if I do them in the same lane, then he can just get the crazy Goblin Stine value every time" (t=1373-1379). He also times his Minions around the opponent not being able to afford it (t=1344-1346).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:33: the card he was scouting for all game, revealed when the opponent answers his hogs — "Oh, he goes for the Stein. Okay. Interesting" (346-348s), after "if he has Goblin Stein, this could get really, really tricky" (334-341s).
+- clock 1:27 OT: a general statement about the card, not this game — "Dude, goblin stein at the bridge is one of the most pressing plays in the game right now for sure" (471-475s).
+- clock 0:38 OT: the misplayed Goblin Stein is what loses the opponent the game — "Wait, I think this guy just sold with that" (499-500s) and "That was a bad goblin stein by him, to be honest" (521-523s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 0:57: the bridge drop is chosen off the opponent's cycle, not his own elixir — 'Let's just go for the Goblinstein at the bridge here because I know that he won't really have the greatest cycle to defend this' (t=118-122), label at [2, 15], elixir 8.0 -> 3.0.
+- clock 0:47: the ability is aimed at a specific card — 'I'm just going to try to get a nice Goblinstein ability on the tower cuz we can take out the Firecracker with that' (t=127-130); the enemy left tower starts taking damage immediately after (4858 -> 4570 by t=134) and he confirms 'we got out the one Firecracker'.
+- clock 2:07: talks himself out of a bridge Goblinstein when the opponent has just spent on a defender — 'Okay, never mind. After he went for that Firecracker, I don't think that it's a little bit worth it' (t=50-55).
+- OT 0:45: uses the ability defensively as a keep-alive — 'I do need to go for a Goblinstein ability here just to try to keep this all alive' (t=248); 6 labelled deployments across both bridges ([2, 15], [14, 15], [12, 1], [2, 12], [13, 13]).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:36: opened with Goblinstein in the right pocket at tile (16, 13) for 5 elixir while pitching it as the deck's centrepiece — "I personally think that Goblin Stein is the most underrated card in the game right now. Like it's literally on the list of the top like eighth rated cards in the game, but I feel like nobody talks about how good the card actually is."
+- clock 1:03: Goblinstein at the left bridge (2, 13) as a pressure play with the ability queued behind it — "Okay, we have the Goblin Stein ready. He's just going to expose me out. Let's go for the Stein at the bridge. Then we go for the immediate ability as well. He might go for the fireball log, but not really going to work in my opinion."
+- clock 0:22: placed dead centre of his own half at (7, 7) specifically to split the Doctor and the Monster into opposite lanes — "let's go for the Goblin Stein here. Like this. I'm going to split it."
+- overtime 0:48-0:38: Goblinstein at (4, 15) then the ability used as a targeted clear against the opponent's Evo Archers — "I'm going to go for the goblin sign at the bridge... Let's goblin sign ability cuz we can grab the one evo archer off of the board. Not bad. We have a chance." Earlier at overtime 1:11 he also trusts it to survive an X-Bow lock: "maybe the goblinstein could take this out."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:32: Goblinstein in his own back corner (15, 1) as the base of a spam push, specifically because a Lava Hound deck cannot punish it - "goblinstein in the back here just because if he has lava then I can get a really nice spam push right now because he doesn't have the tombstone and cycle for my ebar... he can't fireball that my scientist way either."
+- clock 2:11: 2 elixir Lightning Link used as a finisher on the enemy tower troop (own elixir 5 -> 3 with no hand change) - "let's go for the Stein ability here just to make sure that we take out that Spirit Empress."
+- clock 0:56: pockets Goblinstein at (8, 19) behind the enemy right tower, then spends Zap, Heal Spirit and Barbarian Barrel keeping it alive - "Let's go for the Stein in the pocket here" / "the zap here just to make sure our scientist stays alive."
+- clock 0:32: places it at (5, 8) and fires the ability immediately to deny the spell answer - "we can even go for the ability right now instantly cuz if we insta ability, he can't fireball right away."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 0:11 (t=896.9): one play, at [2, 13] on the left-lane bridge, as a second threat that protects the Mother Witch rather than as defence - 'I'm just going to go for the Stein at the bridge cuz now he's going to be unable to kill the mother witch. He has to watch out for the scientist' (t=897-901). No Lightning Link activation appears in the elixir trace.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 0:54 (t=1032.0): Goblinstein at [13, 13] with the Battle Ram behind it — the combination he names twice as the deck's plan, "a good Goblin Stein plus battle ram push and we're solid" (t=1025-1026).
+- clock 0:05 (t=1082.0): Goblinstein at [2, 13] in the left lane, with the ability earmarked for the opponent's Cannon — "Think the ability is worth it just to get the cannon off of the board just to clear away for our battle ram" (t=1087-1091).
+- overtime 1:22 (t=1124.1): Goblinstein at the bridge [15, 15] to close the game — "Nice stein at the bridge here. We have a connection. Zap. Good game. Let's go".
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 2:20, deploy label at tile (14, 9) in the right lane, timed off an Elixir read rather than a defence - "We can just go for a goblin[stein] at the bridge here. He has no DPS in cycle."
+- clock 1:05, deploy label at tile (2, 13) at the left bridge, played explicitly as a two-spell bait - "I'm going to [Goblin]ste[in] the bridge too to be honest cuz if he goes for the inferno dragon you have to fireball zap as well."
+- Both uses are offensive; he never used it as a defensive wall in this game, and no Lightning Link ability activation was captured.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 0:37 (t=1444-1450): Champion brought in as a blocker in front of the Cannon Cart and as the setup for the next Ebarbs cycle — "I'm going to go for the Goblin Stein like this. I think I want to block for the cannon cart and then we can go for Earbs with the scientist cuz I do want to get to the EVO Earbs again"
+- clock 0:08 (t=1473.5): deployed at tile (13,8) after being held as insurance against a bridge Royal Giant — "We have Goblin Stein ready here just to be safe. Okay, let's go for the Stein here anyways"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=94-99 (clock unreadable all game): the card he builds the whole gameplan on in a CRL duel vs Goblin Drill — "the way that I win is just by spamming Goblin Stein and Piggies at the bridge. Just being really aggressive and not really letting him get much going." Sixteen plays in 298 s (t=15.7, 32.0, 53.1, 77.1, 99.1, 116.4, 125.1, 137.0, 178.2, 205.2, 211.5, 230.2, 249.2, 260.3, 276.3, 287.6).
+- t=86-89: he states the matchup weakness his opponent counter-drafted for — "having Goblin Drill against a Goblin Stein deck is usually pretty good cuz the Goblin Stein is really, really bad against a drill."
+- t=99.1 tile [16, 14] with split Archers already down: "I do goblin stein at the bridge with my split archers knowing he has to use poison and probably an evo snowball because otherwise I would get some pretty decent damage with the scientist... I got two nice shots on the tower putting me up 500" (t=101-115; enemy right tower 2843 -> 2587).
+- t=249.2 tile [16, 15] and t=260.3 / t=276.3 tile [15, 14]: he keeps landing it at the bridge specifically to pre-empt the next drill — "I knew he was going to go for another drill though. So, I went for the Goblin Stein at the bridge" (t=247-250), "another Stein at the bridge. I just wanted to keep up the pressure" (t=262-264), and "I even went for another Goblin Stein at the bridge. Kind of just no fear" (t=278-279). The ability is spent to force defence, not for value: "I even got a nice ability here just to take that out, making him have to defend the scientist again" (t=217-220).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

@@ -203,6 +203,297 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:36-1:32: two more Ice Spirits behind the Dart Goblin/Berserker block that wins the game — "Let's ice beard." In this game it is never played alone, always as the second half of a defensive pair.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 1:32 (t=599.6): Ice Spirit at (10, 7), well behind the Cannon, into the opponent's Firecracker at (10, 17) — the building tanks, the spirit resets.
+- clock 0:47 (t=644.3) and 0:05 (t=686.4): dropped at (8, 1) and (6, 2) behind his own towers with nothing to hit, purely to cycle back to the Hogs.
+- OT 1:51 / 0:42 (t=700.5, 770.8): also used as the cheap left-lane escort at (2, 15) and as right-lane defence at (16, 9).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 1:31: defensive freeze at tile [7, 12] (elixir 3.0 -> 2.0) as two Elite Barbarians closed on his left tower, together with Skeletons at [9, 11] — "Nice, beautiful defense right there" (84-86s).
+- clock 1:07: dropped at [14, 5], deep behind the Skeleton Barrel, as the support piece of the push — "we need to go for the Ice Spirit in the back for the Skeleton Barrel" (105-108s).
+- clock 1:49 and 0:42: paired as the cheap half of two combos — "we're going to need to go for the Ice Spirit plus Wall Breakers as well" (79-82s) and "we can go ice spirit dark goblin [Dart Goblin] here. This should be a really good defense" (131-134s).
+- clock 2:12: he flags the spirit nerf as the reason people wrote hyper bait off, and the reason the list now runs only one — "Hyper bait's probably dead, you know, the spirits got nerfed" (39-42s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 2:45: Ice Spirit at [10, 12] paired with the Evo Skeleton Army against the early Battle Ram.
+- clock 0:34: Ice Spirit at [2, 14] behind the bridge Valkyrie, cheap filler on the closing push.
+- clock 0:18: held it on purpose as a specific answer — "I'm going to save my Ice Spirit in case he goes for the Evo Battle Ram" — before spending both copies at clock 0:08 and 0:07.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:09 (t=918-921): the opponent's last-ditch save on a tower already broken by Evo E-Barbs and Minions — "Spirit's going to save him, but it's not going to save him well enough. He's already at 500 HP".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 1:47 overtime: the 1-elixir top-up on an Evo Bats defence — 'We definitely have to ice spirit this and we can go for the gang as well' (185s).
+- clock 0:31 and 0:11 overtime: dropped at [3, 10] onto incoming Evo Wall Breakers — 'Hopefully we can hit the wall breakers' (143s).
+- clock 0:57 overtime: used on the Miner at [4, 5] — 'We ice spirit here for the miner' (237s).
+- clock 0:15 overtime: deliberately held rather than cycled — 'We have to save the ice spirit so we can hit the wall breakers though' (279-281s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 0:47: Ice Spirit at (3, 12) paired with the Goblin Gang as the freeze on top of a Witch push — "we can go for the gang plus ice spirit, too."
+- clock 0:16: Ice Spirit at (16, 11) with a Goblin Gang at (14, 11) to hold the right lane while the enemy Graveyard is still spawning.
+- overtime 1:43: Ice Spirit chained straight after a defensive Log — "Let's log. Let's ice spirit here for this" — three of its four uses this game are the second card of a two-card defensive answer, never an opener.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:27 (t=545.5, [8, 15]) and clock 2:00 (t=571.6, [11, 11]): spent to keep a defensive body alive rather than as damage — "I'm going to go for the ice spirit here as well just to make sure that I keep this alive" (t=572).
+- clock 1:02 (t=631-633): used as a stall on the Mighty Miner — "I'm going to Ice Spirit here, too, just to freeze up that Mighty Miner. He's going to have the ability or Firecracker. That's fine with me though. I just want to waste elixir from him."
+- clock 0:23 (t=670-672) and overtime 1:53-1:32 (t=700.7 [15, 14], t=720.4 [14, 14]): the cheap top-up on a push — "Oh, we do get a splash at least. Ice Spirit, keep this alive."
+- overtime 0:37 (t=772-775): paired with the bridge Knight as a Hog prediction — "Knight predict the hog. Ice Spirit, beautiful prediction."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 1:05 (t=921.9, tile [4, 8]): pure distraction on a tunnelling Mighty Miner - "Let's ice Spirit here just to distract that Mighty Miner. Don't want to take that damage."
+- clock 0:38 (t=947.9, tile [2, 13]): used to push a defensive stack in ahead of the Inferno Tower and Goblin Gang - "Let's Ice Spirit to push this in. Go for the uh High Inferno here. Then we can go for the Gang as well."
+- OT 0:29 (t=1078.1, tile [5, 13]): played to protect the Inferno Tower's ramp-up - "Let's go for the ice spirit here. It's going to help keep that a little bit more healthy which is good."
+- clock 2:32 (t=834.7, tile [9, 13]) and OT 0:19 (t=1089.1, tile [3, 9]): the cheap filler in front of every big defence; he notes its absence as the reason a prediction fails - "I can't really predict the Hog cuz I don't have a Gang or I mean an Ice Spirit or anything" (t=1030-1034).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:45: at tile [2, 11] as the cheap top-off that finishes the Skeletons his Goblin Gang was already holding.
+- clock 0:37-0:24: paired with the Goblin Barrel as the offensive package - "I'm going to ice spirit barrel cuz he's going to have to eat this or go for the barbs" - the Ice Spirit freezing the tower so the goblins get an extra hit in.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 1:28, 0:42 and 0:03: three uses at [3, 10], [5, 10] and [2, 11], every one of them the freeze added on top of a defence that is already down rather than a standalone answer - "Let's Ice Spirit here as well just to freeze this up and then we can go for a low [Log,] Knight here on top of this."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=224.2 (clock unreadable): with Fire Spirit it is his answer to the opponent's Goblin Barrel — "a clean defense here on the goblin barrel with my double spirit".
+- t=302.3: dropped at (3, 14) in an empty left lane purely as insurance while ahead — "I just made sure to ice on the left just in case. I don't really want to give him any window to change lanes or anything".
+- t=216: on the other side of the match-up, forcing the opponent's Ice Spirit out was the precondition for his own barrel — "forcing out the ice spirit right there, guys, is very important".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Treats having Ice Spirit in cycle as the precondition for using the Cannon at all: "That is because I didn't have my ice spirit in cycle... And I wouldn't have my cannon or my ice spirit for anything" (1161-1170s).
+- t=1261.3-1263.3 (clock unreadable): Ice Spirit at (14, 12) into a Goblin Barrel on the enemy right tower - "I went for the ice spirit barrel here. you know, having the ice spirit counter pushing. Hopefully, I was going to get a hit and then I actually did" (1264-1270s).
+- t=1329.3: Ice Spirit used as a Miner prediction, and he says it missed - "I went for the iceir to predict the minor. He went minor on the other side. I might eat here, but for whatever reason, I didn't catch it" (1331-1335s).
+- Rations it by threat rather than spending it on the first swarm: "I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker" (1258-1263s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2097-2106: singles out one Ice Spirit as the play of the defence — "That was a very good ice spirit as well if you guys noticed cuz he didn't actually end up like splashing the ice spirit. It just ended up defending perfectly" (Ice Spirit at [9, 14], t=2096.1).
+- t=2139 (Ice Spirit at [7, 9]): used to snipe a Mother Witch's curse bomb — "I went for the ice spirit here just to grab that".
+- t=2219: part of the forced clean-up after the Cannon misplacement — "I had to log ice spirit the wizard" (The Log [15, 16] and Ice Spirit [14, 17] at t=2217-2218.5).
+- Played ~12 times (t=1956 through t=2242.6) as the cycle glue that gets him back to Cannon and Rocket.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- The most-played card of the game (ten-plus 1-elixir drops), always the top-up on a defence already in progress rather than the answer itself: (9, 14) at clock 2:35, (7, 13) at clock 1:32, (11, 13) at clock 1:05, (6, 10) at clock 0:42, (10, 10) at clock 0:31, (15, 10) at clock 0:25.
+- clock 1:05: named as the specific answer to a charging Battle Ram alongside a fresh Cannon - "Let's go for the ice spirit here just to take out the battle ram. Beautiful defense right here" (t=109-112).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 1:30: added to the four-card burst at (11, 14) to reset the defence — "Let's go for the E-Spirit here as well. Let's try to finish this off. Maybe retarget the Zappies" (249-252s). The card read is ambiguous between the two spirits here (deploy label 'SpiRit'), but the stated intent is a retarget on the Zappies.
+- clock 0:44 and 0:42: two 1-elixir spirits back to back against the Royal Recruits push, with Skeletons — "Okay, Ice Spirit Skellies here" (295s).
+- clock 0:16: at (8, 20), on the opponent's half next to the Electro Spirit during the final push rather than on defence.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- The single most-played card of the game (8 deployments in 172 s), used as filler on top of every defence rather than as a planned combo piece — (9, 13) at clock 2:24, (9, 14) at 1:08, (6, 12) at 0:50, (2, 15) at 0:21, (2, 17) at 0:05.
+- clock 0:38: named as a package with Skeletons behind the Cannon — "we can go for the skeletons plus ice spirit here as well just to make sure we take this down again" (474-477s).
+- clock 1:08: dropped with the Cannon against a Giant Skeleton right, a Little Prince left and a Graveyard on his own half — the 1-elixir freeze is what lets a 3-elixir building answer two lanes.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 0:57 (t=628.6, tile [14, 15]): used as part of the offensive package at the bridge, not as a defensive freeze — "let's go for the Barrel, Ice Spirit, and Wall Breakers" (t=629).
+- clock 0:15 (t=672.7, tile [2, 10]): defensive, into the Lava Hound lane just before the Berserker kite — "let's go for the Ice Spirit here. We can go for a Berserker to kite this to the opposite lane" (t=673-677).
+- Seven plays across the game (t=524.7, 534.2, 582.6, 628.6, 662.7, 672.7, 684.4), including the last defensive card of the match at [1, 8] on the buzzer.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 2:03: Ice Spirit at tile [14, 14] as the escort behind the Evo barrel — 'we can go for the Evo barrel ice spirit' (t=740).
+- clock 1:50: Ice Spirit at tile [3, 14] to stall the defence of his barrel — 'Let's ice spirit too, low-key' (t=758), then 'the ice spirit freezes the ice wizard. Beautiful sequence right there' (t=763-765).
+- clock 1:05 and 0:20: cheap second layer next to Skeletons and Electro Spirit at tiles [7, 13] and [5, 16] (t=800.8, t=845.8) while clearing the Baby Dragon.
+- clock 0:08: part of the final defensive stack for the expected Graveyard — 'Ice spirits up top' (t=860).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 1:39 (t≈944) as the cheap freeze on a three-Royal-Hogs split — "Yeah, let's go for the ice spirit here" (944-946s), together with Cannon at [8, 9] and Skeletons at [9, 12].
+- clock 1:27 (t=955.8, tile [5, 15]): dropped beside the Wall Breakers at the river as push support rather than on defence (956s, "the wall breakers plus e-spirit" wave).
+- clock 0:57 and 0:47 (t=987.0 tile [9, 5], t=995.8): the lead-off card of the sequence that takes the enemy left tower — "Let's go for the ice spirit here then we go for the wall breakers plus e-spirit" (986-989s).
+- clock 0:38 (t≈1004): used as a reset on an incoming unit, narrated as micro — "Jump jump jump jump. Reset it. Oh my god. Oh, we almost got one spirit here" (1004-1006s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:47 (t=1200.9): at [8, 9] onto a Bomber the threat tracker had 5 s from his tower, chosen ahead of a bigger answer — "Let's just go for the ice spirit here and then we can split our wall breakers".
+- clock 0:40 (t=1268.6): at [10, 20] on the opponent's half as push glue behind the Wall Breakers/Berserker, plus 1-elixir HUD drops at t=1249.9, 1271.3 and 1275.3 in the same two roles (freeze on defence, extend the push).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:53, 0:27 and 0:08: the 1-elixir top-up on every defensive stack — Cannon plus Ice Spirit against the Royal Giant push, Dart Goblin plus Ice Spirit against the Hunter, Skeleton Army plus Cannon plus Ice Spirit at clock 0:12. Never sent alone or as a lone offensive extension.
+- clock 0:50-0:37: his most useful finding of the game is a non-interaction — the Heroic Valkyrie's Wild Whirlwind is not reset by it: "for some reason the Valkyrie doesn't actually reset the like well it doesn't get reset by like spirits and stuff like that. So, like even if it's like frozen by the spirit it keeps swinging which is so weird. I wonder if I like froze it if it would keep swinging. That definitely has me curious" (589-603s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:38 (t=719.5) and 0:23 (t=735.5): Ice Spirit at (14, 14) and (11, 13), always attached to an existing defensive stack rather than played on its own — "Let's Ice Spirit here" (737s).
+- clock 0:17 (t=743.0, t=745.9): two more Ice Spirits inside five seconds while an evolved Royal Giant walks his right lane, framed as damage prevention rather than value — "we need to get an Ice Spirit down just to make sure that we don't take any damage" (747-748s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:00 (t=815.4): Ice Spirit at (8,13) behind his own tower, paired with Goblins, specifically for the Miner - "Let's go for the Ice Spirit here then Goblins to catch the Miner. Perfect."
+- clock 0:47 (t=889.0): Ice Spirit at (7,15) on the river to freeze the enemy Valkyrie and Bats - "Okay, let's go for the Ice Spirit here. Make sure we take this out."
+- clock 1:32 overtime (t=963.8): Ice Spirit at (11,11) behind a Tornado on Evo Bats - "let's tornado ice spirit here and we should take out the bats decently."
+- clock 0:13 overtime (t=1044.8): predictive Ice Spirit for the Miner - "I'm going to say ice spirit predict the minor, but it's fine. We got it."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- 11 deploys; the defensive pattern is spirit-then-building — "Let's go for the ice spirit and then we can go for the bomb tower here as well" (clock 2:12, t=40.0 at [3, 14]) and again at clock 1:09 (t=106.1 at [2, 8]).
+- overtime 1:31 (t=202-206): played as a prediction against cheap defence — "we ice spirit for the skeletons cuz he might try to defend for cheap", which he then scores: "Great prediction right there. That's going to get one".
+- overtime 1:34 (t=198.5, tile [9, 15]): also used as a bridge poke alongside the Fire Spirit routine.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 1:50: dropped for 1 elixir in front of the Wall Breakers push to stall the expected Bowler answer — "And then I'm going to ice spear in front of this."
+- clock 1:03: added at (12, 11) on top of Royal Delivery and Bomb Tower to freeze a stacked defence — "Let's ice spirit as well just to freeze everything hopefully."
+- clock 0:20: used at (10, 14) inside the closing defensive shell alongside Berserker and Magic Archer — "Let me go for the ice spirit."
+- clock 0:13 and 0:07: two more 1-elixir drops, functioning as the cheapest way back around to the Goblin Barrel.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:24 / 2:04: thrown at the bridge for chip as part of the constant pressure - "I'm going to go for the ice spirit here. I just like to keep bridge spamming with this man ... this deck is just complete bridge spam" (448-458s), "Let's spirit at the bridge again as well" (478s).
+- clock 0:40 / 0:08: the defensive freeze, onto the Executioner and then across the whole closing push - "go for the ice spirit here as well, just to make sure that we take out that execution[er] or fire spirit" (558-561s); "Definitely get a low ice spirit down as well. Freeze everything. Beautiful freeze right there. And that will be a clean defense" (588-594s).
+- clock 0:27: held as the reason the opponent's Lightning would be a bad play - "he's not going to lightning this. It would be a terrible play cuz then I just go for the ice spirits" (572-575s), and kept in hand as an ability answer: "He might ability. We have spirit ready in case" (635-637s).
+- clock 1:26 / 0:42 (overtime): paired with the barrel and with Wall Breakers - "we can go for the ice spirit barrel again" (631-632s), "Let's wall breaker's ice spirit here" (674-676s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:37 / 2:30 / 2:19 / 2:00 / 1:25: five Ice Spirits in 113 s, mostly around row 14 near his own bridge — stalling the left-lane push and keeping the barrel/Wall Breakers cycle short; never the whole answer on its own.
+- clock 1:25: Ice Spirit follows the barrel + Wall Breakers commit at t=773.4, the cheap filler behind the double threat.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 1:37 (t=876.9, tile [9, 10]): kept in hand specifically for the enemy Little Prince at the bridge - "Okay, I have the ice spirit ready here for the potential prince at the bridge. Nice. Beautiful timing."
+- clock 0:58 (t=914.9, tile [3, 14]): attached to the Evolved Goblin Barrel as the cheap freeze on the tower - "Let's evo barrel ice spirit here."
+- clock 0:27 (t=945.8, tile [7, 12]): last layer of the big Knight/Princess/barrel defence - "And we can go for the ice spirit as well. Beautiful defense. Very clean."
+- overtime 1:24 (t=1008, tile [15, 5]): used to cut damage down to a single hit - "we can go for the ice spirit here just to block that one and we should only take one shot. Perfect."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1122 (clock 2:25): offensive Ice Spirit at the bridge ([2,14]) purely to buy the Magic Archer more shots — "we can go for the ice spirit as well just to make sure that we grab this extra damage."
+- t=1208/t=1222/t=1258 (clock 1:03 / 0:44 / 0:08): defensive spirits at [11,15], [8,9] and [14,15] paired with Fire Spirit and Berserker on the right-lane Valkyrie — "[Ice] Spirit here."
+- t=1236 (clock 0:32): part of the scripted full-bar dump on the opened enemy half ([8,20]) — "Let's go for the barrel, fire spirit, berserker, ice spirit."
+- He credits the opponent's Ice Spirit as the play that saved the tower trade for them — "Great ice spirit prediction by him though" (t=1160-1162).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 1:41 (t=1338.8): [14, 8], timed behind the Magic Archer specifically to interrupt the opponent's Balloon ability — "And then we're going to ice spirit as well to block the ability."
+- clock 0:11 (t=1430.6): [2, 14] tacked onto a Berserker + Wall Breakers cluster as cheap harassment — "Ice spirit as well. Keep being annoying."
+- clock OT 1:07 (t=1494.5): [10, 14] as the 1-elixir filler at the end of an over-committed defence — "I believe we have to ice spirit here. We have to go for the fire spirit."
+- clock 2:45 (t=1275.1): opens the game with it at [4, 15] off full elixir, the cheapest possible probe before the Bomb Tower and split Wall Breakers.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1229.4 [9, 12] (elixir 2.0 -> 1.0): the freeze that made a 1-elixir defence hold — "That was a very good ice spirit as well if you guys noticed cuz he didn't actually end up like splashing the ice spirit. It just ended up defending perfectly".
+- t=1267.3 [8, 13]: spent to pick off a Mother Witch's curse bomb — "I went for the ice spirit here just to grab that".
+- t=1316.6 [12, 12] as the top-up on a Royal Delivery + Berserker defence — "I went for the delivery berserker and I even got a nice ice spirit as well".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:34 (t=218.2, tile [11,14]): the cheap opener on the Mighty Miner sequence — "We go for the ice spirit here, guys. We go for the mighty miner and then we hit the ability" (t=220-222).
+- Three more 1-elixir stacks on bigger commitments: t=17.7 (behind the anti-Rocket Cannon), t=44.5 (behind the right-lane Knight) and t=121.1 at tile [14,2]. None narrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:31 (t=356.4): Ice Spirit at tile (9, 14) placed to steer the opponent's lane choice rather than to kill anything — "I'm going to ice spirit to block it so he might go for it down the middle."
+- clock 1:22 (t=456.5): Ice Spirit at tile (14, 14) as the front half of "let's ice spirit princess predict the minions" — the Minion Horde followed at t=467.5.
+- clock 0:44 (t=534.5) and clock 0:25 (t=556.6): pre-placed at tiles (13, 14)/(14, 14) against a defensive Skeletons he expected — "Ice Spirit in case he tries the Skeletons on defense"; "quickly Ice Spirit in front for his Skellies."
+- clock 1:57 (t=581.6, tile (3, 8)): plays it knowing the value is fractional — "need to get an ice spirit down. It's going to block for only a quarter second."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=67.2 (clock unknown): Ice Spirit at [7, 14] as the cheap first layer while the Ronin is held back - 'Let's ice spirit here and if he goes for the ability we of course have the Ronin here on defense' (t=68-70).
+- t=120.8 and t=124.3 (clock unknown): Ice Spirits at [9, 10] and [3, 8] inside the game-winning sequence, which empties his bar to 0 elixir at t=120 - 'Let's ice spirit here. Look at the Ronin guys' (t=125-127).
+- t=8.0, 15.5, 82.9, 126.0, 132.6, 157.2 (clock unknown): the most-cycled card of the game (nine deploys in 170 s), used both to cycle back to the barrel and as the stun on defence.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=249.7, tile [1, 14]): played as an Inferno Dragon reset inside a stacked defence — 'I do want an Ice Spirit to freeze this and then we can go for the Ronin as well just to help DPS this down' (t=248-254).
+- clock unknown (t=325.3 [15, 14] and t=353.4 [9, 15]): sent in front of the Evolution Goblin Barrel as the swarm-clearing escort — 'Let's go for the Ice Spirit barrel here then Wall Breakers opposite lane' (t=326) and 'We have an Evo Barrel here with the Ice Spirit. Let's Ice Spirit like this' (t=354-356).
+- clock unknown (t=200.2, tile [8, 12]): cheapest layer behind the Magic Archer during the opening Goblin Brawler defence; seven Ice Spirit spends across a 196 s window make it his main cycle card.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 373.2s): opens the game with an Ice Spirit at the right river tile (15, 15), elixir 10 -> 9, alongside the first Goblin Barrel.
+- clock unknown (video 491.5s, 585.6s): used to shield his stacked Magic Archers — "Let's ice spirit to protect" (491s, played at (4, 4)) and "Ice Spirit here next to it. Let's run it" (585-587s, played at (5, 10)).
+- clock unknown (video 510.0s): offensive Ice Spirit hoping for a tower line-up — "Go for a spirit here cuz this could line up on the tower if we're lucky" (510-512s).
+- clock unknown (video 624.1s, 648.1s): pure defence and cycle late — "Spirit for defense" (624s) and "Spirit here to block this" (636s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=724.6s: dropped at (8, 13) as a cheap stall on the Bowler - "Let's go for the ice spirit here to block that bowler."
+- t=749.4s: played high behind a low Fire Spirit so the Fire Spirit is the one that survives to the tower - "so we can go for a high ice spirit... the fire spirit does more damage than the ice spirit."
+- t=795.8s and t=806.6s: added at (4, 10) and (8, 20) to pad defence and the final counter-push - "Let's ice spirit. Let's go for the far marcher and yeah, this is just game over, man."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=857.9s / 897.9s (clock unknown): at [3, 8] and [2, 14] as the cheap tail on his barrel waves — "Then we can go for a ice spirit here as well" (t=858) and "Let me go for the ice spirit as well. Just keep applying pressure. I think I lagged for the ice spirit. All good, though" (t=897-901).
+- t=982.0s: at [2, 11] to stall an incoming Skeleton Barrel so the Royal Delivery behind it landed as a free trade — "we ice spirit so then we can go for the delivery here for no damage" (t=983-986).
+- t=956.1s: at [10, 9] alongside a Ronin against the Dart Goblin push, elixir 8 -> 7.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1072s: the standard reset on the Evo Inferno Dragon - "Let's Ice Spirit like this, just to freeze this for a second".
+- t=1139-1143s: Ice Spirit at (1,13) then Fire Spirit at (6,15) to kill the Inferno Dragon - "Make sure we take out the Inferno Dragon. Nice, beautiful reset on that".
+- t=1178s: kept in hand explicitly for the Inferno Dragon - "He's going to Inferno Dragon, so it's Ice Spirit for it"; nine Ice Spirits in the game, nearly all in his own left-lane defensive pocket around (1-2,13-15).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1264.4s (clock unknown): Ice Spirit at [16, 14] as the last 1 elixir of a Royal Delivery + Fire Spirit defence on a Skeleton Barrel - "Let me go for the ice spirit as well just to take no damage" (1265s), then "Good defense" (1267s).
+- t=1297.3s: a single Ice Spirit at [8, 14] is his whole answer to three Minions - "Okay. Just Ice Spirit up top" (1296s).
+- t=1318.3s: Ice Spirit at [4, 14] specifically to deny a king-tower activation against the Mortar - "I'm not going to let him activate the king cuz I'm going to go for the Ice Spirit here" (1319-1322s), then "Nice. Let's go. We blocked the king activation" (1326-1327s).
+- t=1343.3s and t=1404.2s at [15, 10]: spirits spent so the building stays in hand - "we want to go for the Ice Spirit as well so you don't have to waste a Bomb Tower on defense" (1339-1342s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:47 to 0:05 (t=126.6, t=157.5, t=161.0, t=168.0): NOT in this deck. Four HUD-only 1-elixir drops in this game were read as Ice Spirit, none with a deploy label or any commentary, in a game whose hand-read confidence averages 0.505. Across the whole video "ice spirit" is never said while "earthquake" is said 30 times with 20 Earthquake deploy labels, so the eighth slot is Earthquake and these reads are misreads of the deck's other 1-elixir cards (Skeletons and Electro Spirit).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

@@ -123,6 +123,57 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.m
 - clock 2:19 and 1:02: treats the opponent's Dark Prince as the expected block against his bridge pushes and baits it with Mother Witch Cursed Hogs — "It will spawn on the left to distract the Dark Prince", "He might go for a dark prince to block for that", "he's probably going to go for the dark prince, right?" (opponent's card)
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- Opponent's card, discussed not played by Ryley: he reads it as the flexible slot in an otherwise known list — "he had a dark prince over the valkyrie, because he had already used the valkyrie so he didn't have it available anymore" (t=2502-2509).
+- t=2549-2556 and t=2574-2584: he treats forcing and then removing it as the key to the game — "he doesn't want to waste a dark prince" on the Royal Ghost, then "I was able to take out the dark prince, which was good" with the bridge Elite Barbarians; at t=2608 he suspects a misplay with it — "I think he finger slipped his dark prince or something."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=1002 (clock unreadable): faced as an opposing hero variant with an ability; his Bandit dash did not stop it — "for whatever reason, the dark prince still splashes my tower for a ton of damage and he gets the ability off" (his left tower drops 2272->1740 at t=1000).
+- t=1066 (clock unreadable): the opponent burns the ability again and Ryley reads it as a gift — "for some reason, he did the dark prince ability. I was very confused by that"; at t=1084 he dashes his Golden Knight into it and takes the tower.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2320/2323 (clock unreadable): dropped at the bridge at [2, 17] behind a Barbarian Barrel — "Here I went for the dark prince at the bridge. I wanted to be really aggressive in this matchup. And I even barb barrel'd just to have a more supported dark prince" (t=2323-2330).
+- t=2393 (clock unreadable): pre-placed defensively at [9, 11] against a card not yet on the field — "I even pre-dark Prince predicting his Valkyrie cuz I knew he had the Valkyrie and I wanted to instantly wipe it out"; he calls it "just a very good dark prince play out of me" (t=2416).
+- t=2367 (clock unreadable): bridge Dark Prince plus the Heroic Destructive Dismount on 4 elixir — "I'm going dark prince at the bridge on four elixir. I even ability here. I knew that this ability was aggressive, but I instantly went barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound".
+- t=2437-2448 (clock unreadable): the closing play — Dark Prince over the bridge in the right lane, then the ability with a Fireball on the Skeleton Dragons: "the rune giant actually pushed the rhino away and I was able to take the tower guys" (t=2445).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 0:03: named as the opposing Giant deck's key defensive card and the reason its last push failed — "he didn't have his dark prince back in cycle yet and that's like his main defense." Never labelled by the detector; identified from commentary only.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1449.4 and t=1452.5, tile (1,14) - the left bridge, as the opening aggression of the game. "Here, I went for the dark prince at the bridge. I wanted to be really aggressive in this matchup" (1453-1456s). He repeats the pattern at t=1550.4 (14,5) and around 1496s: "I'm going dark prince at the bridge on four elixir."
+- video t=1522.5, tile (9,7): placed onto empty ground purely as a prediction. "My goal right now was just trying to make sure that his Valkyrie didn't walk up to my tower. I even pre-dark Prince predicting his Valkyrie cuz I I knew he had the Valkyrie and I wanted to instantly wipe it out" (1519-1528s).
+- video t=1407.7, tile (15,7) (elixir 7 -> 3): defensive use in his own right pocket against the game's one Lava Hound push, with Goblins added at (14,10) at t=1410.1.
+- Heroic Dark Prince, Destructive Dismount used twice: a -3 elixir step at t=1495.7 ("I even ability here. I knew that this ability was aggressive", 1497-1499s) and at t=1571.2 to close the game ("I went for the ability and the fireball on the skelly drags and the rune giant actually pushed the Rhino away and I was able to take up the tower", 1573-1580s). He also declines it at 1461s: "I kind of felt like I wanted to ability, but I decided against it because I could just go for the furnace here."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Mentioned, not played by Ryley — it is the opponent's card and the axis of the whole segment. He expects the opponent to hoard it rather than spend it on a Royal Ghost (t=1683), tries to kite it with a Battle Ram (t=1691), kills it with bridge Elite Barbarians ('I was able to take out the dark prince, which was good', t=1712), commits his Mother Witch specifically 'with him not having dark prince in hand' (t=1727), and dismisses the last one: 'I don't think it actually mattered because his dark prince was going to get knocked away by my battle ram anyways' (t=1747-1750).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 0:36 (t=467-468): the Berserker ability plus Log clears it off the X-Bow — "it's going to take off the dark prince. Look, both of those troops got zero damage on my expo."
+- overtime 1:30-1:28 (t=528-536): he plays around the opponent's elixir — "if he can only afford a dark prince, we can try to make it hop over the river" and "now we ability cuz he dark prince, and we just reset."
+- overtime 0:38-0:32 (t=584-592): two different resets on it — "We can log for the Dark Prince" and "High e-spirit for the Dark Prince."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:42-2:25 (t=171-186): the opponent's opener, tracked at [12, 8] then [11, 6] with "tower in 1.4s", killed by a single Ronin — "it will never not surprise me how much value the Ronin gets on these melee units."
+- clock 0:37-0:23 (t=296-320): comes back twice more at "tower in 2.2s" and "tower in 3.6s" and is stopped both times by Ronin plus Skeletons plus Royal Delivery, with zero damage on the tower.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dark_Prince (scraped 2026-09-02T02:35:01+00:00)

@@ -142,6 +142,114 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 1:02 and overtime 0:54: "He has to [na]to that now, but it's already dead again" and "He gets a good [na]to, but I'm going to mother witch here."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 1:30 (video 904.4s, tiles (8, 6)/(8, 7), HUD 8.0 -> 5.0): pulled a left-lane Firecracker push into his King tower area, chained with a Barbarian Barrel at (4, 11) three seconds earlier and a Void straight after.
+- clock 0:37 and overtime clock 1:46 (video 958.0s, 1010.0s, both at tile (9, 7)): the same tile in front of his own King tower, used to drag Hog Riders off the princess tower - "then we can go for the tornado as well. Just make sure to yank in that hog rider. Good defense" (1010-1014s).
+- overtime clock 0:50 (video 1065.1s, tile (9, 7)): third repeat of the identical placement, part of the scripted defence he narrates - "And then we can go for a nice tornado here ability as well. And we go for the barbarian barrel. Just make sure that we take this all out" (1064-1070s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 0:31: the defensive clump — cast (elixir 5 -> 2) into a P.E.K.K.A. + Mini P.E.K.K.A. + Battle Ram Evolution wave with the Bomb Tower already down at [8, 10], the deck's core defensive pairing.
+- clock 2:24: an early deep cast at [10, 5] well inside his own half, pulling a left-lane Battle Ram push into tower range.
+- OT 0:43 and OT 0:05: two casts at [14, 20] on the OPPONENT'S half while his Wall Breakers were running — used to drag defenders off the runners rather than as a defensive spell.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 2:42 (t=331.5): cast at (9, 12) in his own half onto two Skeletons that had split down opposite lanes, immediately before a Magic Archer at (8, 11) — the clump-then-pierce pairing.
+- clock 1:52 (t=382.7): cast at (15, 14) as the opponent's Battle Healer push builds, together with a Berserker at (16, 7).
+- clock 0:52 overtime (t=559.6): cast at (15, 12) directly on top of a Bomb Tower placed at (15, 4) two seconds earlier, holding the right lane through the last minute.
+- Only one of six casts lands on the opponent's half — (4, 19) at t=585.6; in this match Tornado is purely a defensive grouping tool.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock ~2:32 at tile (4, 13), clock 1:42 and clock 0:40 (both HUD 5 -> 2): three casts, all defensive and all in the single lane he is being attacked in, against Royal Ghost, Miner and a Mini P.E.K.K.A./P.E.K.K.A. push.
+- Each Tornado is paired with a Royal Delivery or Bomb Tower within about two seconds (clock 2:32 Tornado (4, 13) + Royal Delivery (2, 8); clock 0:42-0:40 Royal Delivery + Bomb Tower (8, 10) + Tornado) — the clump-then-splash pattern the card is built for.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:36 (t=811.8): Tornado at [9, 9] in the same window as Bomb Tower and Berserker against an advancing Royal Ghost.
+- clock 0:34 and 0:22 (HUD 8.0 -> 5.0, 6.0 -> 3.0): two Tornados in the last 25 seconds of regulation while Guards and a Ram Rider converge from both lanes, each paired with the Bomb Tower or a Royal Delivery on the same tiles.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card; never captured as an event but decisive twice by Ryley's account. t=20-38: it pulls his opening Hog Rider push into the King Tower and activates it — "thinking that he could have a tornado in his deck... unfortunately he did get his king tower up." He treats Tombstone as the tell that the Tornado is there.
+- t=146-155: used on defence at the end, it drags his Lumberjack onto the opponent's own King Tower and Ryley reads it as the opponent losing the game for himself — "he NATO'd my lumberjack onto the king tower. And look at his king tower, guys. I was screaming right here... he three crowned himself."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1550.5s: Tornado at [12, 25] to drag Ian's Archers into his Golem — "And I just [torna]ed the archers into the golem again" (1551-1554s).
+- t=1623.6s: Tornado paired with the Valkyrie ability to pull the tower's defenders and let her connect — "I got up to the tower because of my tornado. Very good nado right there" (1627-1631s).
+- t=1650.6s / t=1651.7s: Tornado again on the closing push while holding a second Lightning — "So here I went for the nado, guys, and I had another lightning" (1653-1655s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- clock 1:10: the log-nado combo on a Firecracker that got past The Log — 'we can go for the log nado and then maybe the Evo skeletons as well just to make sure that we get all of this off the board. Very good defense' (t=110-116); The Log at [5, 15] then Tornado at [7, 12] then Skeletons at [5, 10].
+- clock 0:19: Tornado at [9, 7] to clump the push while the opponent's Valkyrie is out — 'Let's go for the Skellies. We can NATO this' (t=155-157).
+- overtime clock 0:53: he plans a backwards pull specifically to deny an abilitied Hero Valkyrie — 'I might have to NATO backwards instead of anything because he's going to pop the ability again and I don't want him to completely roll my tower yet' (t=239-244).
+- overtime clock 0:33 and 0:15: one offensive Tornado on the enemy half at [12, 20] after 'Let's NATO ability maybe' (t=263), and the closing defensive one at [14, 19] — 'I think log NATO will take this' (t=279).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:08 (t=804.6): Tornado at (2,18) to group a four-Bat swarm for the Executioner axe, and he declines the 3-elixir hero ability to afford it - "Could we NATO this, maybe? Yeah, let's NATO this. I want an ability, but it's not worth it."
+- clock 1:30 (t=846.6): a pre-planned King Tower activation, Tornado at (9,8) on his own half dragging two Wall Breakers into King range - "We have Nado here ready to activate the King Tower later... Make sure we activate the King Tower", then "Beautiful. Great King Tower activation. Always good to get that up." His King HP first reads 4543 four seconds later.
+- clock 0:42 (t=894.7): tried as a prediction on the opposing Hero Valkyrie and missed - "We have a Nado ready for the Valkyrie. Let's Nado predict. Oh, I tried to predict him."
+- clock 0:40 and 0:24 overtime (t=1015.8, 1031.8): two backwards Tornadoes to drag the enemy Valkyrie away from the bridge instead of pulling her forward - "I think I'm going to NATO this backwards. Let's NATO this back" and "Let's NATO this back as well."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:43-2:36: mentioned only, never played - the auto-transcript renders it as "NATO". Its absence from the opponent's deck is the read that governs Ryley's barrel placement all game: "Good thing that he didn't have [Tornado] in cycle. Maybe he's playing the boss bandit bridge spam deck though and he doesn't have [Tornado] in his deck at all. But next time I barrel, until I figure out if he has [Tornado] or not, I will not be putting it there" (436-445s), then "I don't think he has [Tornado], so I'm just going to put it in the regular spot" (462-464s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2 ("NATO" in the auto-transcript): defensively to pull archers into the Golem - t=684.5 [12, 18], "I just NATO'd the archers into the golem again" (681-684s); also t=520.0 [2, 16], t=568.6 [13, 21], t=635.6 [12, 18].
+- Offensively with the Heroic Valkyrie ability for the game's biggest damage - t=750.9 [15, 21], "look at that Valkyrie, guys. I got up to the tower because of my tornado. Very good NATO right there" (754-762s); a last one at t=780.8 [14, 21] on the winning push.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:37 (t=171.2, tile [3,18]): cast on the ENEMY half, ahead of where the Firecracker will be rather than onto it — "I'm going to pre-nado the firecracker. Yep, knew it" (t=170-171).
+- Counted twice in the opponent's hand instead of played: "because he has no NATO, he can't go for the rocket plus NATO here" (t=11-13), and "he's going to want to go for the tornado to activate the king tower" (t=174-176) — the read the Hog/Miner split is built on.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:52 (t≈276): held the Tornado rather than spending it once he judged the damage was already lethal — "I don't even think we need tornado this away. That should just hit the tower regardless. Perfect. That's tower down."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card, auto-transcribed as "NATO". t=1132-1135s: playing around it drives his Magic Archer cycle - "we can get another Archer here, though, cuz he wasted his 'nado"; t=1157-1169s "As long as we always have one for his 'nado, then we're good... He might 'nado the Wall Breakers though".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:14 and 0:35: never seen by the detector but planned around twice — a Hog Rider at [1, 14] is played purely to draw it ("I'm going to hog rider here just to force out a tornado. Just to get that off of the hand", t=724-729), and he keeps the Firecracker in hand as the answer to everything else: "We have the firecracker if he goes for anything other than NATO" (t=822-824).
+- clock 2:05: the general warning he gives about the matchup — "One thing he has to watch out is not deactivating his king tower as well. That's always something you got to be scared about whenever you have a tornado against a hog rider player" (t=729-738).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:13 (t=716) and clock 1:48 (t=741-744): he predicts it as the answer to Wall Breakers and it arrives — "He has to nado that or something" then "He probably has to go for like the Barbarian Barrel plus like a nado, I think. Okay, yeah, nado."
+- overtime clock 1:33 (t=877): accepts it against his Royal Delivery — "He might try to NATO this in. Yep, that's fine. That's not tower down at least."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, never captured as an event but played around constantly. He expects it on the Goblin Barrel — "I think he's going to [Tornado] that, but then he won't be able to..." (t=1411) — and on the Ronin — "I think he can [Tornado] the Ronin to the king tower even off to the side" (t=1418-1420).
+- clock 1:29 (t=1444-1448): the reason he places the barrel off-centre — "we can go for the evo barrel off to the side. Make it a little bit harder to activate. He might bowler on the left side which would be good to not let him activate." He also lists it in the opponent's hand at t=1429-1437.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

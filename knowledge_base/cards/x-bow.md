@@ -123,6 +123,105 @@ This card appears in 1 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Mentioned only, not played by either side (an `X-Bow` deploy label at [8, 8] at t=255 and repeated X-Bow hand reads at 264s/318s are on-screen card art picked up by OCR).
+- t=244-262s: "They are also doing a I would say a buff to the X-Bow, guys. Maybe it's a nerf, but they are making the hit speed go a little bit slower, but in return of making the hit speed a little bit slower, they are buffing the damage and they are actually buffing the projectile speed as well."
+- t=259-278s on the reason and the risk: "I think that is to fix the X-Bow where like it will shoot at a skeleton three times and it only needs two times to kill the skeleton, but it would end up like shooting a third time... which is actually I guess a nice quality of life change for the X-Bow players, but it could make X-Bow just a little bit too strong in my opinion if they're not careful."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Ian's win condition all game (the auto-transcript renders it "expo"). The bridge X-Bow at t=1423.4s [15, 19] took Ryley's right tower from 3052 to 1660 HP by t=1438s; Ryley's answer (Baby Dragon + Valkyrie) under-traded and he says so: "after the X-Bow rework, it just wasn't that great of a play. I thought it would be, but that was my mistake right there" (1455-1459s).
+- His anti-X-Bow structure, stated: Golem always in the middle so it cannot go up the free lane (1496-1498s), Tombstone pre-placed centrally to tank it (1572-1576s), Lightning + Barbarian Barrel reserved for a right-lane one (1483-1486s), and Baby Dragon + Ice Wizard as the non-spell answer (1577-1582s).
+- He kills the building rather than defending it, because of the Berserker ability behind it — "I went for the Valkyrie plus immediate ability to take out the X-Bow cuz I knew that if I didn't, then he could just pop the berserker ability" (1556-1560s). Verdict on Ian's placement: "Maybe not the greatest X-Bow by Ian, but... I was happy with this position" (1564-1568s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:48 (commentary): named the opponent's deck on sight of the player name, before a card appeared — "Zthol. I'm pretty sure this guy plays Expo if I'm not mistaken."
+- clock 2:34 and 0:58: opponent X-Bow at the right bridge (15, 16) then the left bridge (2, 16); the first one is what punished Ryley's back-line Barbarian Barrel, and he sums the matchup up at 2:05 — "in this type of matchup, it really is just dependent on if he messes up on defense because if he plays solid defense, there is zero chance for me to actually win this game."
+- clock 1:21: his answer is a card the X-Bow player's rotation cannot pull cheaply — "Cuz he has no knight and cycle so he's unable to block a cannon cart on the expo"; when the lock happens anyway he resets it with Zap at overtime 1:11 ("Zap on the expo just to grab the expo off the board").
+- clock 0:17 (commentary): dismissive of purely defensive X-Bow play — "Oh man, he's one of those guys who go for the defensive expos. Lame" — and at overtime 1:25 diagnoses the resulting rotation problem: "The way that he's cycling his cards is just not good. He's just kind of asking to choke."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- clock 2:00 (t=1145): the opponent's first X-Bow lands at [2,17], into the lane Ryley is already attacking; he answers by continuing his own push (Goblin Barrel + Wall Breakers kite) rather than defending it.
+- clock 1:28 onward (t=1177): the X-Bow relocates to [15,17] and takes his right tower from 4683 to ~1246 HP with no enemy troop ever in range — the damage the pipeline logged as four "unidentified spell" ticks. He never has an answer for it: "Man, this is pretty sad getting the tower for no reason, I feel like, cuz I still think that I'm going to get completely wrecked" (t=1191-1194).
+- He rates the whole X-Bow/Collector matchup as the worst one his bait deck can draw — "this is probably the worst possible matchup we could have gotten for our deck" (t=1100-1105) — and closes with "Well, I found the deck that can beat us, guys" (t=1265).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- Mentioned, never played: Ryley drafted this deck to beat it, because the opponent is "very popular for being the best Expo player in the world. So obviously with our first deck here we made sure to have a solid matchup against Expo" (t=65-75, transcript renders X-Bow as "Expo"). The opponent read the counter-draft and brought Goblin Drill instead (t=75-84), so no X-Bow appeared in this game.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2, Ian's win condition (the auto-transcript renders it "expo"): placed at t=550.5 [15, 16], t=646.6 [2, 16], t=686.7, t=706.7 and t=728.7. Ryley's structural answers are a central Golem so it cannot switch lanes (624-628s) and a central Tombstone to tank it (702-705s).
+- His preferred kill is the Heroic Valkyrie ability at the bridge (t=683.7) rather than a defensive stack (684-690s), with Lightning + Barbarian Barrel as the backup (610-616s). The Baby Dragon + Valkyrie answer to the first one is the play he calls a mistake: "after the expo rework, it just wasn't that great of a play" (582-590s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:11 (t=41.0, tile [2,12]): put down in the lane away from a Sparky he has just read — "He might sparky so let's expo opposite lane immediately" (t=41-42).
+- t=89.1 (tile [9,12]): a second, centre placement on his own half in a later clip, unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:31-0:25 (t=282.3/285.3, X-Bow at tile (2, 12)): the X-Bow is the payoff the prediction spell is bought for, not the opening play — he placed it and then snowballed the incoming Royal Giant so the X-Bow could lock onto the tower ("let's expo here").
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- clock 1:48 (t=58.5): X-Bow at tile (13, 12), right lane on his own half, with Electro Spirit at (15, 11) two seconds later. It locks the opponent's right crown tower for the whole lifetime — 4858 down to 1201 between clock 1:45 and 1:29, roughly 3,650 damage from one placement.
+- clock 0:59 (t=108.0): the second X-Bow goes at (15, 10), three rows further back and against the right wall rather than at the river. He explains the low placement: "if you put the card lower, then it still is pretty hard to defend that card as well because, you know, you're just giving them free value by placing your like high-expensive elixir card in the middle" (107-117s).
+- clock 0:18 (t=149.0): third X-Bow switched to the left lane at (4, 12) once the right tower is down to 261 and the opponent has committed defenders there.
+- His stated matchup case, 44-58s: "X-Bow is also kind of like an anti-meta deck right now. There's a lot of Lava Hound Rune Giant going around… a lot of them have the same problem, where they just have a really, really difficult time dealing with the X-Bow."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 0:58 (t=281.2): banks to 9 elixir at the start of triple elixir and lays the X-Bow at tile (4, 12) — three tiles back from the river in the left lane, against the tower already at 4406 — with no tank in front of it; the enemy left tower falls 4406 -> 617 in the next twenty seconds while every card he spends afterwards is defence on his own half. No commentary on the placement itself (the transcript is off-topic there).
+- clock 0:22-0:10: with the X-Bow's work done he stops committing and switches to spells only — 'All we have to do is start fireball cycling... this guy's completely wrecked' (317-318s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 2:26 (t=358): opened the X-Bow at tile [2, 12], left lane one row off the river, on 8 elixir before any real pressure existed — "Let's go for the X-Bow here super early" (t=362); the first lock chipped the enemy left tower 4858 -> 4764 at clock 2:02, and he took the tick as the goal: "All it takes is that one lock... We won cuz we got the one lock" (t=379-383).
+- clock 0:47-0:07 (t=458, 478, 497, 501): four X-Bows in a row at [4, 13] / [4, 12], each fed by a bridge Berserker and the split Archers, ran the enemy left tower 4708 -> 1964 — "the expo is officially on the tower, guys. Let's go for another expo here" (t=472-473) and "constantly just like using my old push to make a new one cuz now I can just expo here" (t=498-502).
+- clock 0:58 (t=447-450): his stated support pairing — "I think I can get a really good push, guys, with the Evo Archers. I just love going X-Bow with the Evo Archers down the middle."
+- overtime 1:24-0:52 (t=542-574): the discipline lesson — he holds the X-Bow twice while beatdown pushes build. "the biggest mistake I find people making with expo is just not knowing when to just quit attacking... if I just do a bad expo, you can sometimes instantly lose the game if you're not careful" (t=544-560), then "I think now we can go for an expo, but I won't just yet... continue splitting my archers cuz this is definitely the safe play" (t=570-574).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:36: opens with an early X-Bow at tile [2, 12] in the left lane, three tiles back from the river rather than pressed against it, into an opponent who has just started a double-Rascals split — "I may just start off with an early — oh, this is definitely an early expo here" (t=637-638). Enemy left tower goes 4858 -> 2790 by clock 2:14.
+- clock 1:42: rebuilds the X-Bow on the same tile [2, 12] on 8-9 elixir in double elixir, with Skeletons at [8, 8] and Tesla at [4, 10] around it.
+- clock 1:11: the winning cast, HUD-confirmed at -6 elixir, played instead of defending a rascal-boy that was already through — "it might be better to just eat some damage here and just go for an Expo plus Berserker push" (t=720-724). Enemy left tower falls 2734 -> 158 in eight seconds and the opponent concedes.
+- clock 2:03-1:54: on the rework, "that's where the expo rework is a buff in some ways as well, right? Where we get a nice lock and he didn't have any swarm cards. So it just does more damage to the tower and more damage to like the mortar where it's just trying to take it down" (t=669-680), hedged with "I'm like fully not sure on if it's a buff or a nerf" (t=689-691).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:34 (t=758.7): opened with X-Bow at [15, 11] on the right for 6 elixir (8->2) one second before the opponent's first Goblin Hut — "we can start off with an early Expo here, actually, especially after that Goblin Hut as well" (755-762s) — and it never connected: "The Expo won't connect, unfortunately, but it's all good. We can just start cycling back to our Evil Archers" (777-780s).
+- clock 1:31 (t=821-822): the offensive placement of the game, X-Bow at [2, 13] two tiles off the river on the left with a bridge Berserker at [4, 14] as its tank; the timing is a stated tempo judgement — "I just need to figure out the rest of his deck before we get too aggressive, but I also don't want to not go too aggressive quickly and then have him just get all of his Elixir back for defense" (818-826s).
+- clock 0:47-0:37 (t=856, 876): X-Bow at [2, 12] then [4, 12]; the first landed the only regular-time damage, enemy left 4527 -> 4433 at t=868 — "Come on, give me a bit of a log. Nice, we grabbed our one tick of the game" (865-868s) — and the second was rushed on purpose: "I need to Expo before he gets a chance to go in with that Ice Golem. I just need to Expo immediately" (875-878s).
+- overtime (t=963-1017): re-sieged on both sides ([15, 13], [3, 12], [2, 12]) through triple elixir against a Goblin Hut he says blocks the shot — "I can't believe that it actually blocks an Expo. It's kind of ridiculous" (898-901s), "not even one tick, bro. Not even one tick. Are you trolling?" (1006-1010s) — and only connected at overtime 0:05, enemy left 4433 -> 3681: "Expo on the left connected" (1029-1032s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 1:07: first X-Bow of the game at tile [2, 12] on his own left, immediately behind a Hero Berserker at [9, 14] — 'we can just go for the X-Bow here immediately. Just keep on being annoying'.
+- Every offensive X-Bow in this game is a left-lane lock at [2, 12]/[2, 13] (t=1151, 1181, 1196.3 confirmed by a HUD 9->3 elixir drop, 1218, 1233, 1277), because the plan is split-lane: 'I can just go for Expo locks on the left side and Fireball on the right side' (clock 1:59).
+- OT 1:29: the one lane switch, X-Bow at [15, 11] on the right, to overload a single defensive building — 'We can just instantly hit him opposite lane with another X-Bow, cuz now he's going to have to block the middle. He can Evo Tesla, but now he needs to defend the other one'.
+- OT 1:45: every X-Bow gets protection within seconds (Skeletons/Electro Spirit at [1-6, 13-14], or Tesla behind it) — 'let's X-Bow here, and then we Tesla again as well'; he also concludes he should just pair them, 'Next time I'm just going to go for the X-Bow Tesla, so I don't have to worry about actually protecting the X-Bow super cleanly' (clock 0:39).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

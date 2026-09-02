@@ -178,6 +178,54 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - end of video: he names the whole list after it — "We just hit 3K with mega knight log bait. There's no way."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=1031-1057): Evo Mega Knight 'will now knock back every other attack instead of every attack' and the heavy-troop knockback goes from 2.5 to 4 tiles - 'it will knock the troops back further, but it won't knock them back every hit like before, making it quite a bit less polarizing.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=42.0: Mega Knight at tile [8, 6], centre of his own half, once he has read the opponent as Mega Knight Balloon — "with the executioner, I knew for sure that he had [Mega Knight] balloon" (t=39-41). He never puts it at the bridge in this game.
+- t=119.1: Mega Knight at tile [9, 0] behind the King Tower (own elixir 8.0 -> 2.0 at t=120.6) as the anchor of the closing push, with Lumberjack and Minions added behind it (t=129-134).
+- t=143-146: on the receiving end, the opponent's Evo Mega Knight is what breaks his push apart on defence — "the [Evo] mega knight knocking everything away" (t=145).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=964 (clock unreadable): names it as his deck choice for the matchup against Assaf's bait deck — "I did feel like this Mega Knight deck might be my best chance to have a winnable matchup."
+- t=1027 (clock unreadable): states the pairing as the deck's engine — "the deck is just so broken in my opinion. Like Mega Knight Golden Knight is such a crazy combo. Then you have even more broken cards to kind of pair it up with."
+- t=986 (clock unreadable): mentioned in the dash call-out ("Getting the Mega Knight right under the tower") but the broadcast does not resolve which side the Mega Knight on the field belonged to; deploy labels exist at t=962 and t=1064-1065.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- Mentioned, never played by either side: used only as a discarded archetype read at clock 2:34 — "maybe it's mega knight bait, I guess. But I feel like no one plays mega knight bait. Oh, mortar bait" (866-871s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- Faced, not played. t=24-31 (clock unknown): identified on sight - 'I'm pretty sure we're up against a mega knight lightning player right here. This going to be a pretty interesting match up because obviously Ronin does really, really well into mega knight.'
+- t=42-43 (clock unknown): he attacks into the threat rather than holding for it - 'I think he might mega knight, but then if he mega knights then he's going to get cooked' - and holds the Ronin as the stated answer ('if he goes for a mega knight we can just go for the Ronin at the bridge', t=99-101).
+- t=126-151 (clock unknown): the opponent's Mega Knight is tracked at (9, 4) and (8, 2) in Ryley's half while Ryley's own push is running; the trade costs the opponent his left tower (4858 -> 277) - 'we took out his entire tower and we activated our king all because he wanted to go aggressive and mega knight opposite lane of the Ronin' (t=146-151).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:42 (t=130.1, tile [8, 25]): the opponent's Mega Knight lands on their own half after Ryley's left-tower kill is already inevitable ("It's going to be completely tower down", clock 0:45) and never registers as a tower threat in the tracker. Not mentioned in the commentary.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:38 (seen in the opponent's hand before it is played): "he has a Mega Knight, but I'm not worried whatsoever", with the answer already fixed — "E-Barbs will still fully counter the Mega Knight just fine" (clock 2:25).
+- clock 1:40: the whole plan hangs on where it goes — "if he goes for Mega Knight in the back, then I can actually E-Barbs at the bridge since, you know, he won't have a good counter." Tracked crossing at (10, 7) at clock 1:05 and answered with 1-elixir cards.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 0:42 (t=1105-1113): the opponent's Mega Knight is the card his whole mid-game plan is built around baiting out — "just to force him to go for the mega knight, cuz if he mega knights the bridge, right, he's just not able to build up a big push, and if he's not able to build up a big push then I don't think he'll be able to break through".
+- clock 0:31-0:03 (t=1115, opponent elixir 10.0 -> 3.0, tile [13, 15]; again at t=1146): answered with cheap cards rather than a single counter — "Okay let's firecracker. We have to e-spirit and we have to go for the skellies plus ice golem here" (1115-1119s); at clock 2:05 he also blames it for a mediocre start: "Could have been a better start though if that mega knight didn't randomly decide to go demon mode".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)

@@ -120,6 +120,64 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - overtime 0:56-0:47 at tiles [6, 14] and [8, 15]: used as a body-block in front of his Goblin Hut, not in front of the tower — "We need a barbell plus Mighty Miner here… blocking it from actually getting to our Goblin Hut."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, nine arrivals from clock 2:38 onward (video 834.8s to 1097.1s). It is the card Ryley never solves: he answers it with Goblin Hut, Tornado and Barbarian Barrel but keeps losing tower HP to the ability - "He's going to Mighty Miner here. Yep. Grab me a tick. Nice" (978-979s) and "I know he's going to go for the ability plus hog rider" (1059-1060s).
+- overtime clock 1:29 (video ~1027s): a Mighty Miner read is what stops his own Void - "That was a really good mighty minor. Nah, that that was just well played, man. Cuz since he went for that mighty miner if I went for a void, I would have just gotten completely cooked" (1026-1037s).
+- clock 0:05 (video ~990s): he burns an ability activation purely to protect the Electro Giant from it - "let's go for the ability here as well, just to make sure that the Mighty Miner doesn't completely take that out" (990-994s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:34 onward (arena track from [1, 18] at t=536.5): the card that gets his early tower chip in (own right 4858 -> 4624 by clock 2:16). He answers it with Ice Spirit stalls ("just to freeze up that Mighty Miner", t=633) and the central Inferno Tower ("We have to Inferno Tower here", t=726).
+- overtime 1:33 (t=720): he baits the ability with a Goblin Gang at the bridge — "he's going to Mighty Miner assault the gang the bridge, make him use the ability."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card, tunnels onto Ryley's half at clock 2:34 (t=830.8, tile [4, 14]), clock 0:03 (t=985.0) and again in overtime. It is his entire deck read: "I'm just confused by the mighty minor. I feel like no deck other than a hog rider right now really uses mighty minor. I guess it could be like mighty minor log, but who even uses that either?" (t=831-836).
+- clock 1:05 (t=921.9): his cheapest answer is an Ice Spirit distraction rather than a hard counter - "Let's ice Spirit here just to distract that Mighty Miner. Don't want to take that damage."
+- clock 1:19-1:15 (t=907-912): he pre-places Knight + Goblin Gang for it and notes the ability - "We can goblin gang as well cuz I think he's going to mighty minor. Yep. Does he ability? Yep."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Opponent deploys Mighty Miner at [9, 30] at OT 1:47 — in the same seconds Ryley is reviewing the card, the only real synchronisation between script and arena in the game.
+- t=186-210s: "they are actually doing a buff to the mighty miner as well. They're buffing the mighty miner by 6%. Honestly, I don't think it was necessary. I think that the mighty miner is one of the best cards in the game. And I also thought that it was the best champion in the game, you know, not counting heroes just like the regular champions."
+- t=203-209s on the size of the change: "It's going from 40 to 43 damage at tournament level, which is pretty cool though, cuz it is my favorite card, but I just didn't think that it needed a buff."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- The card he names the deck after: "I'm standing true to my words and I'm playing Mighty Miner Bait in competitive" (1153-1157s), in a Log Bait shell with Princess, Cannon, Skeletons, Goblin Barrel, Rocket and The Log.
+- t=1304.3 (clock unreadable): Mighty Miner on the bridge at tile (14, 17) purely to force the opponent's Magic Archer out - "I mighty mined the bridge knowing he had to go for the magic cartridge [Magic Archer]" (1307-1309s).
+- t=1224.2 and t=1332.3: defensive placements on his own half at (7, 11) and (5, 9); at t=1356.4 he puts him at (2, 17) one second before the opponent's Miner surfaces at (4, 18) - "I caught the miner again, just over and over again somehow" (1345-1346s).
+- t=1119.1: an early 4-elixir drop at (15, 17) at the river, with ally Mighty Miner units then tracked advancing into the opponent's half at (13, 18) and (13, 20).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:27 (opponent card): Ryley never blocks it defensively — the moment it is spent he counter-pushes the opposite way, "he cycled his Mighty Miner" being his stated trigger for Elite Barbarians at the bridge.
+- clock 1:39 (opponent card): he says the matchup suits him despite having no clean answer — "We don't really have a good card to cycle into the Mighty Miner in the back. Mighty Miners are really, really good for me." It still took two 507-HP bites out of his left tower around clock 2:16-2:14.
+- clock 2:02 (opponent card): he names Berserker's Savage Survival ability as the distraction he should have used against it — "it would have distracted the Mighty Miner really, really well."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- clock 2:22-2:04 (opponent, tracked crossing onto Ryley's left half): he plans for it a beat early — "Okay, we have to be careful here of the mighty miner" (t=39) — and still accepts chip: "that's what happens when they switch lanes with the mighty miner ability" (t=47). Own left tower 4624 -> 4390.
+- overtime 0:50-0:44 (t=242.2): answered with Magic Archer plus Berserker rather than a hard counter, with the ability expected — "He has to hit the ability, but we're going to get at least one, maybe two" (t=244).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:32 to 1:20 (t=221.2, tile [15,15]): deployed with the ability explicitly saved for the lane switch, on an elixir count of what the opponent has left — "We go for the mighty miner and then we hit the ability. He's going to have to use the e-wiz or the zap on this and he's going to be low on elixir. Yeah, he goes for the e-wiz, but now he has nothing for the mighty miner ... get the ability, go to the other lane, then we take the tower with the mighty miner" (t=221-235). Enemy left tower falls 3551 -> 1974 through that window. Logged as an opponent deploy on Ryley's half; commentary attributes it to him.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:03 (t=372.4, tile (2, 15)): the Mighty Miner is the pre-planned block for the answer to his own Princess, placed "right away" rather than after the Valkyrie appeared — "block with the mighty miner right away cuz he might valk. Nice. Let's go. We did that every time."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

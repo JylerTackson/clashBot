@@ -119,6 +119,19 @@ Every few seconds, an Elixir Blob spawns behind the Elixir Golem. This Elixir Bl
 - In 2v2 only the player who lands the killing blow gets the Elixir, so aim it at the lane of the opponent more likely to leak; it is worse if both teammates run it.
 - Excellent in Boat Battles — huge total hitpoints for the cost, and the defender's cards are not tied to Elixir, so the drawback does not apply.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 1:44 and 0:35 (video 349.3s, 418.4s, tiles [4, 13] and [2, 14]): the card he predicted for this opponent at the top of the game ("back in the day, this guy used to always play with Elixir Golem", 289-291s) and then reacted to live — "Oh my god, he has elixir golem pekka. I told you guys this guy plays E-Golem, bro. What in the world? He's playing E-Golem. Okay, E Golem with Pekka [laughter] and Bowler" (348-360s). He answers it with Cannon at [9, 8] plus Skeletons: "at least we're going to defend this easily with the skellies" (362s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:48 (opponent): the Elixir Golem is already at (3, 12) on Ryley's half with an Inferno Dragon behind it. Ryley's pre-planned answer is a kite, not a trade — "If he goes for an E-Golem at the bridge, we will have to Rune Giant kite" — and he then layers Mother Witch (1:46), Minions (1:37) and Heal Spirit (1:36) behind his tower against the split bodies.
+- clock 1:38-1:24 (opponent): the push still takes his left tower from 4786 to 1616 and activates his King Tower; he answers the leaking small form at clock 1:25 with "Let's E-Barbs kite here."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Golem (scraped 2026-09-02T02:34:58+00:00)

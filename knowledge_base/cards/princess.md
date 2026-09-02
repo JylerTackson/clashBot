@@ -182,6 +182,145 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:59: Princess at tile [8, 6] as the Minion Horde answer at the start of overtime — "Princess here for the horde." Almost every placement in this game is central (columns 8-9) on his own half so it covers both lanes.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- mentioned only, not played (t=163-167s): "I think it also means maybe it won't one-shot princess dart goblin and things like that anymore, but I'm not 100% sure. So don't quote me on that." — his hedged read on the post-nerf Evo Elite Barbarian spears.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:24 and 0:03 (opponent): deployed twice late; her locking on to his tower is what makes him spend the finishing Rocket instead of holding it — "just rocket cuz that princess locked in" (172-174s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 2:33: Princess at [8, 10], centre and set back, as the opponent committed Little Prince plus Zappies (their elixir 8.73 -> 1.73 across two plays) — a both-lanes placement rather than a bridge poke.
+- clock 0:55 and 0:24: Princess at [8, 0] behind the King Tower and later at [9, 4], both defensive placements in triple elixir; no commentary on her in this game.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:51 (t=756.8, tracked at tile [7, 22]): Ryley's stated answer to a Princess in this deck is a back-placed Sparky — "I do like to go for Sparky's into the princess cuz they're just able to get completely taken out".
+- clock 0:32 to 0:10: she is the reason he cycles for Arrows ("We have to cycle to our Arrows to take out that Princess", 835s) and eventually walks a Valkyrie into her ("Very good Valkyrie walking to the Princess", 860s).
+- clock 1:11 (t=915): rates the evolved version but caps it — "Evo Princess is good, but it's not going to be enough".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 1:14 and 0:47: placed deep and off-centre at [10, 5] / [10, 6] and held rather than cycled, specifically as the Evo Bats answer — 'we have the Princess ready in case he tries to go for the Evo Bats' (92-94s).
+- clock 0:14: 'Let's just go for the princess off to the side' (157s) — deploy label at [12, 7], wide so the opponent's Log cannot value-trade her with anything else.
+- clock 0:22 and 0:47 overtime: repeated wide Princesses at [12, 3] / [12, 8] are what forces the opponent to spend — 'Good damage though with that princess. He needs to log one side' (243-245s).
+- Ryley rates her as the matchup swing: 'with some really good Princess placements and stocking, we should actually be able to win this matchup' (79-85s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 0:52: Evo Princess at (2, 13) as bridge pressure aimed at the opponent's small spell — "Let's evo princess the bridge, too. Nice, he has to go for the arrows here" — then Goblin Gang plus Ice Spirit behind it.
+- overtime 1:51: a deliberate second Princess to block the pushed-up Bowler lane — "He might end up going for the high middle zappies or the high witches to cycle to the Evo. So I'm going to get a second one here to block it."
+- overtime 1:38: Evo Princess at (14, 2) dropped inside the enemy Graveyard, defence and chip at once — "we can go for the Evo princess all the way inside of the graveyard cuz it's going to live, but it's also going to defend."
+- The two-Princess board is what he credits the overtime win to at 501s and 516s: "He has to be really careful cuz we have double princesses down" and "we just stacked up so many princesses because of it."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:27 (t=545.5, tile [11, 3]), clock 0:57 (t=637.6, [6, 5]) and overtime 1:57 (t=696.7, [8, 0]): placed deep behind the towers whenever the Evo Firecracker is a threat — "Let's go for the Evo Princess here in the back. I know he has an Evo Firecracker that he could get a lot of value from, and I am definitely a little bit worried about that."
+- clock 0:40 (t=652.7, tile [5, 4]): a Princess played specifically to activate his own king tower — "we're going to go for the princess here to activate the king tower cuz I know he's trying to avoid using the Firecracker" (t=653-655); his king HP becomes readable (7569) five seconds later.
+- clock 1:10-1:07 (t=622-627): the bridge Princess is framed as the payoff of a Goblin Gang prediction — "That gang prediction was actually so good cuz it actually allowed me to sneak in a princess at the bridge cuz it forced him to over-commit." She is also his matchup barometer: "with the barbarian barrel, they're just unable to kill the princess. So the princess can just get a crazy amount of value" (t=565-568).
+- clock 0:20 (t=792): used as a sniper into the Evo Firecracker so The Log can finish it — "Evo Princess to snipe the cracker so then we can log it off the board. Nice." Earlier (t=726-737) an Inferno Tower leaves her on 1 HP: "That's not going to kill our Princess, is it? It's going to leave it alive on 1 HP... The one time I don't want her to keep herself alive, man."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 2:41 (t=824.8, tile [9, 0]), clock 1:31 (t=896.9, tile [8, 0]) and clock 0:08 (t=978.0, tile [9, 0]): the evolved Princess parked behind his own king tower as a two-lane presence; the first one is aimed at a specific card - "Let's go for the princess for the skellies cuz I know he's going to do them" (t=851-853).
+- OT 1:27-1:19 (t=1020-1028): takes her to the bridge instead of holding her for defence - "I can Evo Princess at the bridge actually. I was going to try to get value defensively, but I think this is more worth it, to be honest. Just getting that Firecracker out and getting that shot on the tower."
+- OT 0:23 (t=1083.1, tile [2, 5]): a low-HP Evo Princess deliberately placed outside The Log's reach - "We have a low evil princess here. I'm going to put it where he can't hit it with that a log."
+- clock 1:01 (t=926): plans her placement around the opponent's building rather than the push - "I can avoid that cannon placement with the Princess if I get a Knight in cycle."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock ~1:57: behind the king tower at tile [8, 1], the standard back-placement for chip and long-range support.
+- clock 0:51: at tile [8, 5], directly behind the freshly placed Inferno Tower, so she outranges the Lava Hound's support while the tower burns the Hound.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 0:53: single deploy of the window at tile [9, 0], behind his own king tower, at the exact moment he switches from barrels to holding the crown lead - "we just have to defend for another 50 seconds." No commentary on the card itself; she has to survive the opponent's Evo Wizard and Zap for the rest of the game.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1401-1416s: mentioned only (not played). On the Evolved Princess buff — "this is my favorite buff for sure. I love this card so much, man... I'm like one of the only people who actually upload this card and use it... I think I was actually like one of like two people who used it in the top 200 last season."
+- 1418-1432s: "The Evo princess will now slow every other attack instead of every three attacks. And the slow duration is getting a nerf because of that... from 7 seconds to 5.5 seconds, which is definitely a very big overall buff because there will just be more slows from the princess overall."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- Opponent's card in this game (tracked at [7, 24] t=2472.5, [4, 20] t=2484.5, [15, 21] t=2592.6). Ryley only mentions Princess as his own card from an earlier game of the series — "we used log and delivery in the first game with the princess as well, where this deck that he's playing is really weak against princess" (t=2471-2478).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- t=1109.9 (CRL broadcast, clock unreadable): opens the readable clip with Princess at tile (9, 9) on his own half, elixir 10 -> 7, then keeps a middle-lane Princess alive with fresh copies at (8, 11), (8, 10) and (8, 9) between t=1136 and t=1197.
+- t=1235.9-1301.8: stacks Princesses at (9, 11), (8, 12), (8, 12) and (8, 13) (three clean HUD 3-elixir steps). He places them to dodge the opponent's Log and to survive: "I just went for the Evo Princess here. Just making sure to get more value out of it going for the log" (1250-1253s); "I went for the evil princess here just to keep that princess alive. And I actually was able to keep that alive, guys. It was insane" (1302-1305s).
+- t=1223.4 and t=1324.7: Princess at (8, 2), deep in the centre behind his own King Tower, when he wants board presence without exposing her to a Log or a Miner.
+- Names the evolved Princess as the reason the deck is playable again: "this deck is back after the addition of the Evo Princess. And I wasn't kidding by the way" (1145-1150s), and credits "the princess stack just having two princess on the board" as one of the two things that made the game unloseable (1361-1363s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2007-2008 (Princess label at [15, 17]): Evo Princess snuck to the bridge behind a Royal Delivery — "I tried to sneak in a nice evo princess at the bridge at the final second".
+- t=2066 (Princess at [14, 18]): the condition he attaches to bridge Princess plays — "because I had a free cannon on the board, I also knew I could princess the bridge. He does grab it with the wizard, which was good by him, but it's still good to make these plays in my opinion. Just trying to get some, you know, slick damage on the tower here and there".
+- t=2145-2148 (Princess at [2, 17], then [2, 18] at t=2163.2): defensive Princess into Zappies — "I went princess on the zappy. I knew that I would have to protect it".
+- In this Rocket-cycle list the Princess is his only sustained chip damage: she is played ~9 times, both behind his own towers (t=1972 [11, 3], t=2044 [8, 7], t=2212 [10, 9]) and at the bridge.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- Never played by either side, but discussed at length as the card that would swing this matchup against a Log Bait cycle deck — "princess is super good against my deck, to be honest. I'm just completely unable to kill it" (916-921s), the trade-off being that she does not activate the king tower the way Firecracker does (921-924s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 2:08: opening placement is behind his own King Tower at (8, 0) for two-lane coverage, not the bridge.
+- clock 0:24 and overtime 1:39: both later Princesses go to the left bridge at (2, 14) as barrel bait — "Let's go for the princess at the bridge and I'm going to go for the skeleton army too maybe. No, let's just barrel here" (617-620s) and "Let's princess the bridge. He has no cycle cards for us" (661-663s), the second one specifically because the opponent is out of cheap answers.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:43 (t=716.5): one Princess in the whole segment, at (9, 9) — centre and well behind his own towers, dropped while the Heroic Valkyrie was already taking the enemy left tower from 827 to 414. In this game she is a safe chip/anti-swarm placement, not bridge pressure.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:30: opponent Princess tracked at tile [6, 20], the first card Ryley sees from them; he later names it in the full read — "he has princess barbs ice wiz and then freeze as his final card" (t=762).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card, present in both lanes for most of the game (arena tracks at [13, 19], [4, 21], [7, 20], [16, 15], [12, 17]). Ryley names her as a problem card for a Log-less bait deck (t=835-838) and uses the Bomb Tower's placement to shut the lane off - "us going for this bomb tower is also going to prevent him from going for any princesses on the right side, which is very good" (t=908-911). The finishing Magic Archer is aimed through her: "Just march on the princess and this is game over, man" (t=1077).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Evo. t=1136.1 [15, 14]: bridge chip squeezed in behind a Royal Delivery — "I went for the delivery on the barbarian barrel and I tried to sneak in a nice evo princess at the bridge at the final second"; the opponent's Mother Witch answered it.
+- t=1195.2 [14, 15]: states the precondition for the bridge Princess — "because I had a free cannon on the board, I also knew I could princess the bridge. He does grab it with the wizard, which was good by him, but it's still good to make these plays in my opinion. Just trying to get some, you know, slick damage on the tower here and there".
+- t=1271.3-1292.3 [2, 14] (repeated labels): defensive placement to hold a Zappies lane — "I went princess on the zappy. I knew that I would have to protect it". Also placed deep in his own corner at t=1103.1 [9, 0] and t=1246.2 [8, 0] against swarm pressure.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:48 (t=205.2, tile [15,14]): put at the bridge to force one specific answer out of a known hand — "we can go for the princess at the bridge cuz he's going to have to go for the bandit on this" (t=207-209). The Bandit duly arrives at t=222.2. Logged as an opponent deploy on Ryley's half; commentary attributes it to him.
+- Named again in the segment's cut-off final line — "Let's princess the bridge right" (t=256).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:22 (t≈457): Princess placed together with an Ice Spirit as a paired prediction on the Minion Horde — "let's ice spirit princess predict the minions. Nice. Beautiful. Very good prediction, guys."
+- clock 1:03 (t≈371): Princess played first, with a Mighty Miner reserved to block the answer — "go for the princess here then block with the mighty miner right away cuz he might valk."
+- clock 0:27 (t≈385): a second Princess used to drain the opponent's building cycle — "we go for another princess... okay, forced out the Evo Tesla."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

@@ -196,6 +196,123 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 0:51: second-lane commitment while the piggies worked the other side — "I'm going to go battle ram opposite lane. We need to continue going in here."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:31 (opponent): not seen played in the second half, but he tracks it in their hand and changes his spell plan for it — "I know he has the battle ram in his hand. So, I have to be very smart when I play with my log" (145-148s). A Battle Ram was detected advancing his right lane earlier at clock 2:22.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- clock 2:47: the Evolution Battle Ram is the opener, dropped alone at the left bridge tile (2, 13) with a full 10 elixir; it alone takes the enemy left tower 4858 -> 1048 HP by clock 2:08. Ryley introduces the list around it: "we are playing with this battle ram bridge spam deck with the hero Valkyrie and the evo elite barbarians" (186-190s).
+- clock 1:47: Battle Ram at (3, 10) on the left paired one second later with Elite Barbarians at (14, 14) on the right — a deliberate double-lane commit that finishes both crown towers by clock 1:38. "Let's go for the battle ram here. Oh, very good start. Let's go for the e-barb as well."
+- clock 0:55: with both towers gone he plays it across the river at (4, 20) as bait for the opponent's Elite Barbarians — "Let's go for the evo battle ram here as well. He's going to have to drop the e-barbs, which is good cuz then he won't be able to e-barbs on my ram."
+- Every Battle Ram in this game is on a bridge or enemy-half tile (2, 13), (3, 10), (4, 20), (14, 21); it is never used defensively or as a kite.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 1:24, 0:35, 0:14: three separate Battle Rams from a bridge-spam opponent, and Ryley names it as the deck's identity at clock 1:54 - "He even has such bridge spam, he has Battle Ram and Hog Rider."
+- clock 0:38-0:28 and 0:14: his answer pattern is Knight in front, Log on the barbarians, Goblin Gang on top, Inferno Tower behind - "let's go for the knight. We can make sure we take out this Battle Ram", then "I know he's going to get a zap down so we need to get the Inferno Tower to block." He notes the Evo version specifically: "I know he has Evo E-Barbs and Evo Battle Ram though, so that's not going to be a simple task."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2455.5 and t=2468.5 (CRL broadcast, clock unreadable): opens game three of the series with Battle Ram straight into the bridge, labels at tiles [15, 17] and [14, 17] in the right lane.
+- t=2564.2: reaches for Battle Ram as a defensive kite instead of an Elite Barbarians kite and mis-places it at [8, 13], centre-left of his own half (elixir 6.0 -> 2.0). His right tower loses 532 then 266 HP and reads 3052 -> 1613 by t=2568 — "I was debating between Ebarbs kite, but then I decided to just kite the dark prince with the batter... I misclicked at the last second, bro... I lost half of my tower just misclicking" (t=2557-2570).
+- t=2584-2588: names the Evolution as the push he wants in a bait matchup — "now I knew I could set up a really good push with the Evo Batter, because the Ebarbs aren't really that great in this match. He has Skarmy and Dark Prince."
+- t=2600.6: the Evo Battle Ram at [15, 17] is the core of the closing bridge push with Valkyrie, Heal Spirit and Arrows — "I went for the Evo Ram, guys... I took out the entire tower in one push" (t=2601-2614).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=1050-1060 (clock unreadable): evolved Battle Ram sent at the bridge with Royal Ghost purely as pressure while he was behind on tower HP — "knowing that I definitely had to apply a lot of pressure"; the tracker has the evolved ram in the enemy half at [11,25] by t=1060.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card. Answered with a deliberately central, high Cannon — "I went for the cannon in the middle just to make sure that I take out that battle ram" (Cannon at [9, 14], t=2038).
+- Its evolved version is tracked at t=2092-2098 in the push Ryley defends for zero tower damage but five elixir down, prompting his Evolution-tracking lesson at t=2115-2129.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 1:05 (opponent's card): Ryley answers a charging Battle Ram with Cannon at (9, 9) plus an Ice Spirit at (11, 13) - "Let's go for the ice spirit here just to take out the battle ram" (t=109), the Ice Spirit reset stopping the charge.
+- clock 0:37-0:25: the Evolved version costs him 2140 tower HP (own right 3569 -> 1429) before Berserker, Ice Spirit and a river-row Cannon hold it. He accepts the damage in advance: "I'm going to have to eat some damage here on the right side I think" (t=139).
+- clock 1:13: he counts the opponent's cycle to predict the evolution - "He's one battle ram away from evo, so he'll have both of his evos in cycle very shortly" (t=99-102).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. He predicts it before it appears — "Okay, he he might battle ram here" (clock 1:13, 439s) — and it is tracked at (13, 12) at clock 0:53.
+- clock 0:55: his answer is a fresh Cannon high in the pocket — "Then we can go for another high cannon here. Make sure that we take out the battle ram. Beautiful defense right now" (455-460s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:45: opens the game with it at the right bridge tile [14, 13] off a full bar (elixir 10.0 -> 6.0, deploy label confirms) before he has even finished the intro — the deck's default first move.
+- clock 0:31 and OT 0:48: uses it as the lane-switch card, not as support — 'Let's go for the Battle Ram here on the left' (t=144, elixir 7.0 -> 3.0) and 'Let's go for the Battle Ram opposite lane here' (t=245, label at [2, 14]), each time while a Goblinstein or Cannon Cart occupies the other lane.
+- clock 0:19: the only time he comments on its damage — 'Yo, that Ram is on the tower, which is really good for us' (t=155-156), enemy left tower 4570 -> 4493.
+- 5 deployments in all, every readable tile at or past the bridge ([14, 13], [15, 13], [2, 14]); it is never played behind a tank.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 2:09: Evo Battle Ram sent at the right bridge (15, 14) as much to cycle as to damage — "Maybe next time I'll just go for the Goblin Stein ability. I'll battle him the bridge here just to get to the evo."
+- clock 1:05 and 0:48: built in the back at (6, 0) beside a Cannon Cart, then used as a minimum-risk chip play at (8, 8) — "we can go for a low battle damage, though, just to make sure we don't take any damage at all. And we're going to get to the EVO."
+- overtime 1:13: Battle Ram at (2, 14) with Goblinstein ahead of it and a Heal Spirit dropped on it, the push that took the enemy left tower 4781 -> 4056 — "Let's go for the Evo battle ram too low key cuz maybe the goblinstein could take this out... Heal spirit heal up the ram. Okay, nice."
+- overtime 0:48-0:02: used as the constant opposite-lane half of his bridge spam — (16, 15) at 0:48 ("Batter opposite lane"), (3, 14) at 0:23 ("Battle ram the bridge too"), (15, 15) at 0:02 — "I just have to keep on bridge spamming this guy."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:48: opens the game with Battle Ram at the left bridge, tile (2, 13), before he knows the matchup - "to start off with the battle ram here at the bridge."
+- clock 1:58: a second Battle Ram the moment the opponent commits to a back-line Lava Hound and drops to ~0 elixir - "let's go for a battle ram. Yes, let's go for a battle ram. Perfect. I had a feeling there was a chance he might go for the lava hound in the back as well."
+- clock 0:54: Evo Battle Ram aimed at the enemy King tower at tile (3, 19) alongside a pocketed Goblinstein - "then we can go for a evil ram on the king cuz he might berserker on top of this."
+- clock 0:25: last ram of the game into a defence he has already cleared - "we can even go for a battle ram here. And this is fully defended." (729s: "Battle ram. Connect the the barb. The barb the barb. Let's go.")
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 2:30 / 1:39 (t=756.8, 807.8): Battle Ram at [2, 12] then [2, 13], always the left lane opposite the bridge Elite Barbarians; the two-lane opening takes the enemy left tower 4858 -> 2885 by clock 2:11.
+- clock 1:02 (t=844.8): Battle Ram at the river tile [3, 15] chosen for the matchup - 'we can go for the Evo Batter here. And he's in a lot of trouble cuz Evo Batter is really good against Tombstone' (t=845-849). With a Barbarian Barrel and a Zap behind it the tower goes 2287 -> 376.
+- clock 0:37 (t=869.9): used as a spell shield for his support - 'I tried a lightning block with the battle ram' (t=870-872) - and again at clock 0:05 (t=900.9, [2, 13]) as a 'lightning block for the mother witch as well while the mother witch is still alive' (t=905-907).
+- clock 0:05 (t=900.9): closing ram at the bridge as the opponent concedes - 'We can just ram the bridge here. He's calling it good game' (t=901-903).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:44 (t=921.8): first play across the river, Battle Ram at the bridge tile [15, 14] for 4 elixir off a full bar — "I'm just going to go for the ram at the bridge here".
+- clock 1:52 (t=973.0): used defensively on his own half at [14, 5] to body-block for the Mother Witch — "Wait, could we battle ramp here to block for the mother witch, please? Oh, the mother witch died anyway".
+- clock 0:52 (t=1034): sent in behind Goblinstein as the paired push he had been saving for — "We just need to get a good Goblin Stein plus battle ram push and we're solid" (t=1025-1026).
+- overtime 1:52 (t=1093.1): the game-turning play, Battle Ram at [15, 14] into the lane the opponent had not defended — "I'm going to battle him opposite lane here because he has to watch out... He was hoping I would ram him on the other side"; it connected for roughly 600 damage (enemy right tower 1951 -> 1339).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 2:02 at tile (2, 13), left lane at the bridge, sent alongside a Mother Witch in the other lane so the opponent has to split - "we can go for the battle [ram] at the bridge with it as well because he has to be careful here to not let that battle [ram] get too much damage."
+- clock 1:01 at tile (14, 15), right lane at the bridge, deliberately in the lane opposite his Goblinstein push - "Look I'm going to evo ram opposite lane. I just need to apply a lot of pressure right now." The enemy left tower steps 3023 -> 2159 HP over the next six seconds.
+- He books the ram as value even when it is answered by two spells: "he went for the fireball too. We could get a little bit of connection. Oh, he zapped. All right, that's fine. I'll take that. He's forcing out all the elixir which is not bad."
+- clock 0:20 at tile (9, 11) (HUD 5 -> 1 plus deploy label) in the final aggression window - "Let's just go for the ram here."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:47 (t=1315.0): opening Battle Ram in the right lane at tile (14,11) from 10 elixir, before he had confirmed the opponent's deck
+- clock 2:02 (t=1360.4): Battle Ram at the bridge in tile (13,13), the lane opposite the Royal Giant — "I'm going to go for a battle ram at the bridge in the opposite lane... He's going to go for a hunter, which is fine"
+- overtime (t=1496-1502): a deliberately delayed ram placed further back to dodge Fireball, with Barbarian Barrel in front — "we can maybe do a delayed ram. Let's ram a little bit back so we can't fireball immediately. And we're going to barbarian barrel at the bridge, too. Maybe could tank for the battle ram"; it connects at t=1505 for the win
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Tracked at t=1092-1098 (connects, own right tower 3052 -> 2505 HP), t=1168-1174, and as an evolved Battle Ram t=1222-1236. Ryley's stated answer is a centrally placed Cannon — "I went for the cannon in the middle just to make sure that I take out that battle ram" (t=1167).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- CRL qualifier decider, no readable clock (video t=1691.0): used as a *defensive kite* on his own half at [8, 10], elixir 9 -> 5, aimed at the Dark Prince — 'I was debating between Ebarbs and BM kite, but then I decided to just kite the dark prince with the [Battle Ram]'. He mis-placed it: 'I misclicked at the last second, bro... I lost half of my tower just misclicking' (t=1693-1698), right tower 2677 -> 1613 HP.
+- Video t=1729.7: the Evolution Battle Ram at the bridge [15, 14] as the win condition of the closing push, behind the Valkyrie — 'I went for the Evo Ram, guys' (t=1731). He also treats it as a passive Dark Prince answer: 'his dark prince was going to get knocked away by my battle ram anyways' (t=1750).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

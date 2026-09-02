@@ -120,6 +120,59 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:44 to 1:37: in overtime the cage beats him — he pre-blocks with Barbarian Barrel ("just cuz I think he might Evo cage. Maybe I could block it") and the Goblin Brawler still grabs the ram: "Oh, it still grabbed it in dude."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=1005-1023): the Evo Goblin Cage cycle goes from 1 to 2 - 'Goblin Cage was the only one cycle Evo for four elixir and I do think that it showed in how strong that it actually ended up being. Very very in agreeance with that one.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Opponent card, played at t=342.3 [8, 19] and t=438.4 [9, 18]. Ryley treats it as the hard counter to his win condition and cycles his Skeleton Barrel around it: "here I went for the skelly barrel cuz he had no goblin cage in hand and goblin cage does fully shut me down every time" (443-450s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1751.8, 1793.8, 1839.8 and 1886.9/1893.9/1909.9 (clock unreadable): repeated Goblin Cage labels — it is the deck's only building and he re-lays it every cycle rather than saving it.
+- t=1909.9 and t=1926.9 (clock unreadable): cages laid on defence while he spends everything else on the finish — "I just made sure to cage on defense once again because I knew that I only needed like two more fireballs and two zaps to finish off the game" (1911-1917s), then "I went for another cage here, guys" (1928s).
+- Note: despite the Cage he still called the deck drill-vulnerable at 1886s — "I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 2:32 (t=532.5, elixir 10.0 -> 6.0), clock 0:34 (t=650.6) and clock 0:03 (t=684.7): the opponent's only building, tracked at tiles [9-11, 19-21] in front of his king tower. Ryley never names it and never plays around it — all of his offence goes to the bridge or over the top with the Goblin Barrel.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card, placed on their own half three times ((9, 19) at clock 2:43, (8, 20) at 0:57, (8, 19) at 0:15). Ryley's first read is on its evolution state: "His Goblin Cage didn't look to be evolved there."
+- clock 0:03: he names the Cage plus Fireball as the combination that stopped every push he made - "this just balloon fireball with the cage. It's just so impossible to break through, man."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1: the most-played card of the deck - labels at t=306.3 [8, 11], t=370.4 [9, 10], t=424.3 [8, 11], t=453.3 [8, 10] plus five HUD 4-elixir spends. Central placement is the whole idea: "I just cycled my cage in the middle here knowing that his deck really doesn't have a good reply to cage in the middle. It does get really, really awkward for him whenever I go for the Goblin Cage in the middle" (372-379s).
+- t=392-401s: the released Goblin Brawler is part of his bridge push, not only defence - "I went for the Valkyrie at the bridge with the brawler and the RG because right now, if he went for the Ebarbs, it would have just instantly died to the Valkyrie, brawler, and heal spirit."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=881.9 / 923.9 / 970.0: the stabiliser of a 7-elixir beatdown list — every single Cage in the game goes on his own half ([8, 11], [9, 10], [9, 13]), never as bait or offence.
+- t=1024.0, t=1039.0 and t=1056.1: he re-lays it on the same tile [14, 10] three times in half a minute to hold the right lane against Goblin Drill and Bomber pressure while he fireball-cycles.
+- t=1041: he says why — 'I just made sure to cage on defense once again because I knew that I only needed like two more fireballs and two zaps to finish off the game.' The Cage is what buys the cycles.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (arena track t=178.2, tile [8, 19]): the opponent's main answer to his bait, and the card Ryley spends the whole game trying to drain — 'He has to get a Cage down... Just force out more elixir every single time. I don't think he has Cage in hand though' (t=278-286).
+- clock unknown (t=326-330 and t=342-346): he sequences Ice Spirit + barrel one lane and Wall Breakers the other explicitly to pull it — 'He has to Mega Minion and then he has to go for the Goblin Cage' and 'force out another Goblin Cage. I think he's one card away though'. At t=359 it is still the thing standing between him and more damage: 'He has the Cage guys, but we can get another Magic Archer down.'
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=678.7s: the opponent's Goblin Cage landed at (8, 19) and Ryley answered with Magic Archer at (8, 11) - "go for the marcher here. Help take out that Goblin Cage."
+- t=736-740s: he planned Wall Breakers as the answer to a second (Evo) Cage - "I think he's going to go for the evo cage, but then the evo cage will instantly pop from the wall breakers."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

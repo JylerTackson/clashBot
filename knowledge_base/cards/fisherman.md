@@ -126,6 +126,25 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, as the card he cut: "since obviously fisherman is no longer needed because I don't have royal giant, I thought I should just add a cannon as a little distraction" (t=697-703). His reasoning is that the Fisherman's pull is a Royal Giant support tool, not a Minion Giant one.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:11 (t=1353): predicted as the Royal Giant support before it appears — "he's definitely going to go for the fisherman plus skeletons"; the Fisherman is tracked at (10,19) at t=1361.4
+- clock 0:23-0:21 (t=1457-1463): plays the Heal Spirit on the Fisherman's commitment frame — "I put it right as he dropped the fisherman. So now we can't really block for the fisherman so we can get a free counter on that heal spirit"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- clock 2:13: Fisherman at (9, 12), mid-own-half, into the enemy Valkyrie crossing the right lane (deploy label logged as an opponent play, but the tile is Ryley's half and an own 3-elixir drop follows at t=324.5).
+- clock 1:23: Fisherman at (8, 6), in front of the King Tower, used specifically to force a King activation off the enemy hero. "I should be able to defend this anyways, and we can activate our King Tower off of the Valkyrie" (369-373s) — his King Tower HP first becomes readable four seconds later.
+- He treats the hook as the answer to an enemy Hero Valkyrie's ability: "Even the ability won't do anything cuz it's going to get put in the net again" (436-437s).
+- clock 0:47: Fisherman at (1, 8) then Barbarian Barrel two seconds later as a paired defence — "Let's Fisherman here, then we go for the Barbarian Barrel as well" (408-410s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 1:24 and 0:35: the opponent's Fisherman is met with a defensive Wall Breakers rather than a swarm — "We can just go for the defensive wall breakers here. Make sure that we tank for that. Not bad" (554-557s); the Fisherman track is retreating three seconds later.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fisherman (scraped 2026-09-02T02:35:13+00:00)

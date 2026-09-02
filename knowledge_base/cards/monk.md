@@ -124,6 +124,11 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Data caveat: the Monk ability costs 1 elixir and empties no hand slot, so activations show up only as unreadable small elixir drops; in this game they are mixed in with the Minion Giant drops the hand reader also cannot see.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Mentioned only, as the card he does not have: the reason a flying Heroic Wizard is unanswerable for his Royal Giant deck - "since I don't have a monk and log doesn't hit the air whenever he pops the wizard up, I literally cannot kill it" (423-428s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Monk (scraped 2026-09-02T02:35:14+00:00)

@@ -166,6 +166,146 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:07 into overtime (t=169-177): an Archer left on the field is what stops the opponent activating his King Tower — "Can't really activate king cuz of the Archer. Nice. Oh my god. DUDE, I WAS saying he couldn't activate because of that."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:55 and 0:45 (opponent's evolved Archers): the card he spends Barbarian Barrel on every time — "Let's barbarian barrel the bridge here just to make sure that we take out these archers."
+- clock 0:45: combined with Goblinstein they are the pairing he flags as dangerous — "This is where it gets annoying, though, is with the Evo archers and the Stein in the back."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:48: opened with a back-court split at [8, 0] (Elixir 9 to 7 on the HUD) and repeated it at clock 1:37, the standard opener for this list.
+- clock 2:19 onward: otherwise used as reactive support beside the tower or the building — [7, 10] at clock 2:19, [6, 9] at clock 0:29, [1, 7] at OT 1:14, [1, 12] at OT 0:34 and [7, 9] at OT 0:25. Nine deploy-labelled plays in total, none of them commented on.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 0:52: deploy label at [1, 1], the back-left corner behind his tower, during the Royal Ghost / Bandit / P.E.K.K.A. build-up — plus one HUD play at OT 0:40 (elixir 8 -> 5). The least-used card in his deck.
+- t=70s, on the spirit health nerf: spirits "will make them now get one-shot by cards like archers, archer queen, bomber, musketeer, Tesla, and just things like that, making them just a little bit worse defensively" — he names Archers first among the cards that gain from the change.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Three plays (t=419.9, t=434.4, t=537.0), the last labelled at (10, 9) just behind the Bomb Tower line — cheap anti-air held for the opponent's Bats waves at t=406-416 and t=574-580.
+- clock 1:14 (t=419.9): played the same second as a Bomb Tower label at (8, 9), as three Bats close on his left tower.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock ~2:01 at tile (1, 1): played as deep behind his own left tower as the arena allows while a P.E.K.K.A. walked that lane — a hold-and-outlast placement, not a support placement.
+- clock 0:45 at (1, 7): dropped next to the Magic Archer at (2, 7) as part of a four-card defence (Magic Archer, Archers, Royal Delivery, Tornado) against a Mini P.E.K.K.A. plus P.E.K.K.A. wave.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:02, 1:24 and 0:28 (HUD -3 each): cheap support played behind the Bomb Tower during defences rather than at the bridge.
+- t=931.9: label at [1, 1], the back-left corner behind his King Tower, the spell-safe placement against an opponent holding Executioner and a chip spell.
+- Mentioned as a balance topic only (t=906-923): "there is a nerf to the evolved archers. Evolved archers have been super popular so I think this is a pretty solid nerf right here... their power shot damage is going down by 17%, which I say is pretty sizable. Will change quite a few interactions."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 0:58 (t=1107.1): Archers at [9, 7] beside the Bomb Tower during the second Graveyard defence.
+- overtime 1:28 / 1:19 (t=1196.2, 1206.4): Archers at [2, 10] and [10, 10] as ranged backup once the opponent starts pushing both lanes.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 1:39: Archers for 3 alongside the Magic Archer at the left river, starting the left-lane chip that takes the enemy left tower from 4527 to 3239.
+- clock 0:38: Archers at [1,9], deep on the left of his own half — support and anti-air behind the Bomb Tower rather than a bridge play.
+- clock 0:12 and OT 1:54: two more 3-elixir Archers plays in the closing stretch of regular time and the start of overtime.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Ian's Evo Archers, the small-unit pressure Ryley had to keep answering: he puts an Ice Wizard in the back "just to go towards that one side Evo archer" (1479-1481s), clears both lanes with Tombstone + Baby Dragon — "knowing that I'd be able to take out both of the archers on each lane" (1542-1545s) — and Tornados them into his Golem (1551-1554s). He credits the pressure: "He was doing a really good job at pressuring me with these small units though. I do have to give him credit there" (1503-1507s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 2:42 onward: the opponent's Evolution Archers are the card Ryley respects most on sight — "Evil archers are actually so strong, man. They got a nerf, but I feel like it didn't affect their usage rate at all" (t=613-616s).
+- clock 1:23: he plays around the evolution cycle rather than the card — "he already has the evil archers in cycle. But sometimes I can abuse the fact that... he can't just cycle them randomly. He wants to use them at a good time" (t=691-700s).
+- clock 1:02: the opponent splits them across both lanes at [3, 17] and [14, 17] on defence and Ryley calls it a mistake — "that was obviously a bad split. Probably would have been better just to eat some damage and not use his archers honestly" (t=706-709s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:47 (commentary): planned his own six-elixir cycle play around the opponent's Archers split — "I'm just going to wait for him to probably split his archers. And if he splits his archers, I'm just going to go for the split Earbs in the back here just to get to my EVO."
+- overtime 1:51: treated an Evo Archers split as a free trade for two of his cheap cards — "Okay, evil archers. That's a free barb barrel, though. I do not mind that. We can zap that as well."
+- overtime 1:07 and 0:38: Evo Archers are what force his Mother Witch onto defence ("We have to get mother witch on the archer sadly. So, we're not going to be able to break through") and what he spends the Goblinstein ability on ("we can grab the one evo archer off of the board").
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=91-96 (Evo Archers split in the back at tile [9, 1], t=90.1): "I just split my EVO Archers in the back cuz I knew in this matchup the way that I win is just by spamming Goblin Stein and Piggies at the bridge" — the split is the setup for the bridge Goblinstein at t=99.1.
+- t=153-155 (Archers at [6, 1], t=153.2, right after Barbarian Barrel at [3, 8]): the low placement is anti-spell — "I went for the barbarian [barrel] plus low archers just to avoid the poison."
+- t=177-188 (Archers high, then Goblinstein at [15, 15], t=178.2): "Here I went for the high evo archers and then the Goblin Stein right here... I even went for the piggies here and I was actually able to protect my evo archers."
+- Ten plays split three ways: deep back splits [9, 1] / [6, 1] / [8, 2] / [3, 9] (t=90.1, 153.2, 255.3, 279.3), bridge support [8, 14] / [9, 14] / [10, 14] (t=42.9, 79.1, 222.2), mid-lane defence [8, 9] / [9, 10] / [9, 9] (t=122.1, 173.2, 195.2).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2, Ian's (Evolved) Archers: Ryley plays Ice Wizard back specifically to cover one lane's Archers (606-612s), clears both lanes with a high Baby Dragon at t=670.7 (669-676s), and pulls them into the Golem with Tornado at t=684.5 (681-684s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:10 (t=46.0, tile [7,11]): the unit everything else in the clip is protecting — Skeletons go down to keep them alive ("just skellies as well just to keep the archers alive", t=38-39) and the payoff is stated at t=56-58: "The archers are still alive. The archers are on the tower." Enemy right tower drops 1556 -> 1230 -> 1067 -> 845 while they live.
+- t=95.1 (tile [1,8]): a defensive placement deep on the left in a later clip, tied to the Knight-ability call "Beautiful protection of our archers" (t=79-80).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- The cheap opener, twice deep behind his own King Tower at (8, 0): clock 2:44 (elixir 10 -> 7) and clock 1:00, both times to start the cycle rather than to answer anything.
+- clock 1:36 (t=71.0): Evo Archers at (8, 13) as support for the locked X-Bow — "Let's go for the Evil [Evo] Archers, and we can go for the Berserker as well. Very nice offense right there."
+- clock 0:35 (t=132.0): at (11, 8) as deliberate Miner bait, covered one second later by a Berserker at (12, 8) — "Let's go for the Archers here as well. I know he's going to go for the Miner on top of it." Also used defensively at (7, 9) at clock 2:15 into the Inferno Dragon push.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 2:08 (t=212 at (8, 8)): split with a stated target — 'Let's go for the Archers here. Just make sure to split them towards the Inferno Dragon so we can take one out.'
+- clock 1:18 (t=261.7 at (8, 0)): Archers behind his own king tower at 9 elixir, a pure cycle placement during a lull with no push on the field.
+- clock 0:47-0:37 (t=303.3, HUD): played into the Lava Hound / Baby Dragon defence as a spell bait — 'Let's go for the archers here. Make him use the fireball, hopefully' (292-294s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 2:34, 1:44, 0:58 and overtime 0:52 (t=350, 398, 445, 572): Evo Archers split at the centre-back tile [8, 0]/[8, 1] every time they cycle — "I want to at least split my Archers and stuff like that so I can have a better offense later" (t=440-443) and "I'm just going to continue splitting my archers cuz this is definitely the safe play" (t=572-574).
+- clock 1:30 (t=413-415): he tracks them as a cycle liability, not just a card — "I do have to be careful though with not having the Archers in cycle. It can get very, very weird sometimes on defense if we're not very careful."
+- clock 0:47 (t=459): protecting them is part of the X-Bow push — "I want to keep this Archer on full HP."
+- overtime 1:46 (t=519, [1, 14]): used defensively alongside Fireball to finish the Electro Wizard — "Then we can go for the archers as well. That should fully take out the e-wiz" (t=518-522).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:45: splits them behind his towers purely to scout — "just going to split my archers here in the back and try to figure out what this guy is playing" (t=629-633).
+- clock 2:13: Archers at [7, 10] (HUD-confirmed, -3) as X-Bow support alongside Berserker and Electro Spirit — "let's go for the Berserker plus archers" (t=659-661).
+- clock 1:32: splits them again specifically against a two-lane Rascals push — "let's go for the split Evil Archers here. Make sure that we take out these rascals" (t=701-704).
+- clock 0:57 and 0:50: walks them over the river at [3, 16] and [4, 19] once the opponent has stopped defending.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:11 (t=782) and clock 0:59 (t=855): Archers at [8, 1] behind the King Tower as the cycle card into the win condition — "We can just start cycling back to our Evil Archers" (778-780s), "Let's go for the Archers here, then we can go for the Expo" (854-856s).
+- clock 1:03 (t=848-852): describes but does not run the two-lane version — "We have Evo Archers, though. We could split them and go for an Expo with a Berserker opposite lane, maybe".
+- overtime 1:43 (t=928): split at [8, 10] — "Let's split our Evo archers here" (930-932s) — and immediately rates the cost of losing half of them: "Damn, that one archer dying does definitely suck" (936s).
+- overtime 0:48 (t=986): Archers at [9, 15] right at the river to hold the X-Bow's lane; he calls them out as the piece he cannot afford to lose — "Evo archers low" (998s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 2:14: Evolution Archers at [7, 6], centre of his own half, covering both threats at once — 'Archers here in the middle for the Miner and also for the Berserker, you know, cuz I do know that he's going to Miner'.
+- clock 0:31 / OT 0:49 / OT 0:27: Archers at [9, 9], [10, 8] and [14, 9] dropped straight onto Miners — 'Let's put archers and we skellies predict the miner', 'Archers here on the miner. Nice. We caught another miner', 'Let's go for the archers up top so you don't take the tower damage'.
+- clock 0:08: split placements at [8, 1] behind his own king tower (also t=1138, 1228) — 'Let's split our evil [Evo] archers again. This is going to be an annoying push for him to stop'.
+- clock 1:25: he values them as a Rocket magnet — 'with my Evo Archers, maybe I could actually go for a push cuz the Evo Archers do usually force him to Rocket'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:11-2:08 (t=719-721): identified as an Evolution and treated as a surprise in this shell — "he goes for the Archers. Interesting that he has Evo Archers with this deck."
+- clock 0:19 (t=829) and overtime clock 1:17 (t=891): answered with the cheapest cards in hand — "we can go for a fire spirit on top of the archer" and "We can skellies to block the archers and then that's going to relock."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

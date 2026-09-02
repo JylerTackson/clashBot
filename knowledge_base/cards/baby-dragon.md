@@ -144,6 +144,84 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - clock 1:20 and clock 1:04 (t=780.3 at (9, 9), t=802.8 at (15, 15)): the evolution as the escort in the overtime push — "We need to go for like a Baby Dragon down the middle here and then a Balloon" (779-782s) and "I'm just going to keep bridge spamming and Baby Dragon and Inferno Dragon. Let's go!" (802-805s). It is half the deck's whole plan in his telling: "they just get to the evo inferno dragon, the evo baby dragon, and you're winning, and then they just completely take your tower in one push" (657-664s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 1:53 to 1:47 (video 340.3s, 346.3s, tiles [14, 22] and [14, 23]): the opponent's Evo Baby Dragon runs the right lane and takes Ryley's right tower from 4858 to 4051 between 356s and 362s, the only sustained damage he conceded. "He has a baby dragon evo" (342s).
+- clock 0:58 to 0:52 (video 395.4s, 401.4s): a second right-lane Baby Dragon, which he answers with Furnace plus Skeletons rather than a spell.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- opponent card, clock 2:03 / 0:19 (t=48s [15, 17], t=152.2s [4, 15]): the card that actually damaged Ryley — the right-lane Baby Dragon at t=90-100s reached "tower in 2.8s" and his right tower dropped 4858 to 4589 to 4320. His answer was a centrally placed Dart Goblin at [9, 8] (t=96.3s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:33 (video 842.8s, tile (8, 12)): dropped centre on his own half as air cover behind the Electro Giant / Goblin Hut defensive stack against Mighty Miner and Hog Rider.
+- overtime clock 1:51 (video 1003.0s, tile (9, 1)): back-line Evo Baby Dragon to start the overtime cycle - "I'm going to get the Evo baby dragon down" (1005s).
+- overtime clock 1:04 (video 1051.0s, tile (16, 2), HUD 7.0 -> 3.0): placed in the right back corner before anything was there - "Let's baby dragon preemptively in case a hog rider. Nope" (1046-1048s).
+- overtime clock 0:45 (video 1070.1s, tile (2, 14)): sent with the second Electro Giant rather than held - "Let's go for a baby dragon, too. I have another E giant already. So, we definitely have a decent chance to break through here" (1070-1076s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Opponent card, reaching his left tower around clock 1:20-1:16 alongside the Lava Hound. Ryley's stated point at clock ~0:59 is that his Mother Witch's real job in that defence was to tank it so the Zappies survived: "the mother witch would have been tanking for the baby dragon. Good defense though, very good defense."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1428.6s (5-elixir drop, hand unread): Evo Baby Dragon answering Ian's bridge X-Bow, backed by a Valkyrie — the trade he later calls a mistake: "I do get some damage back here... my baby dragon does get on the tower nicely, but I just really thought that I was going to get more damage than he did... that was my mistake right there" (1445-1459s).
+- t=1532.5s: Baby Dragon at [8, 9] behind a Tombstone to clear the Evo Archers in both lanes (1540-1546s); at 1501-1503s he calls holding it back "a nice Evo baby dragon ready".
+- The whole game plan ran through it, and Ian's Rocket took it away: "My whole like plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (1511-1516s); The Log also sniped one at 1547-1550s.
+- t~1618s: Baby Dragon on the closing Golem push, misplaced by his own account — "here I went for an evo baby dragon, but I actually messed it up, guys. Look at this baby dragon" (1618-1622s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:51 (t=576) and clock 0:08 (t=678-683): expected all game and never actually played by the opponent — "He might go for a high Baby Dragon", then "he's going to go for the Baby Dragon probably... Did this guy forget that he had a Baby Dragon in his deck entirely?".
+- clock 0:22 (t=664-667): his second Cannon is placed specifically to deny it a landing spot — "I'm going to cannon too just to keep blocking the bridge so we can't even go for a Baby Dragon".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Mentioned only, as the matchup where he thinks a centre Mortar is justified — "I know in some match ups it's better like maybe against a Baby Dragon deck" (t=1255-1257).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1: corner placement as a prediction - t=381.7 [2, 2], "I went for the baby dragon in the corner, kind of just assuming he would go for another giant skeleton" (382-386s); earlier he plays Royal Giant partly to farm value with it (348-357s).
+- Game 2 (Evolved): held for two-lane clears - t=629.6 [15, 15] "I just had a nice evo baby dragon ready" (631s), t=670.7 [9, 15] "knowing that I'd be able to take out both of the archers on each lane" (669-676s), t=706.9 [2, 14] paired with Ice Wizard onto an X-Bow (705-711s).
+- Game 2: the plan dies to Rocket - "my whole plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (640-646s); the Baby Dragon + Valkyrie trade on the first X-Bow (t=558.2) is the play he calls his own mistake (582-590s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:55 (t=118): named as the card the Evo Firecracker is meant to answer — "let's Hog Rider here anyways and then we can Evo Firecracker for the Baby Dragon." No Baby Dragon deploy is confirmed in this game (one arena track at t=72 only).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:41-2:33 (t=982-994): the target of the opening Skeletons kite and the king activation — "let's go for the skeletons here just to kite the baby dragon away. I do want to try to activate king tower here off of that baby dragon".
+- clock 1:43 (t=1043.7): kited again with Ice Golem when 6.8s from the tower — "Let's ice go on here just to kite this away"; in overtime he plans the same trade into the Firecracker — "Hopefully the Firecracker can take out the Baby Dragon too. I think we could kite the Baby Dragon over to the Firecracker" (1181-1186s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:23 (t=356.4, tracked from [16, 24] to [15, 6]): rides the right lane unanswered and the tower loses four ~269 HP chunks (4858 -> 3513) between clock 2:13 and 2:07 — Ryley spends the time scouting instead of defending.
+- clock 1:16 (t=420-427): chooses to trade his corner Magic Archer for it rather than spend more — "this one should be able to just take out the Baby Dragon nicely ... Let's just let that die."
+- clock 0:57 (t=445): flags the Evolution as the real threat — "Evo Baby Dragon too cuz his next Baby Dragon is Evo." At clock 0:16 the last one is handled with a Wall Breakers body: "Wall breakers here to tank for the baby dragon" (t=486).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:03 (t=728-731): mentioned only, never seen — the card he keeps a retreat option for when he places the Magic Archer, "I can always just step back if he goes for like a Baby Dragon or something. I know he already has Phoenix, but there's a chance he has like a Baby Dragon, too."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:51-2:26: the opponent's opening card, advancing down the left lane from tile [1, 16]; Ryley answered with Fire Spirit then Royal Delivery placed under it — "I'll delivery on the baby dragon."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

@@ -162,6 +162,47 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 2:14 (opponent): dashes down the right lane ([12, 25] -> [14, 11]) alongside an Electro Wizard; Ryley answers the pair with Skeleton Army at [14, 12] plus an Ice Spirit - "Just go for the Skarmy here to keep this alive."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 2:41 (opponent's card): the Bandit is his deck read - 'this guy has the bandit, meaning he's going to be playing some type of bridge spam deck. I guess it could be a three musketeers deck as well, but I feel like it's going to be that golden knight giant skeleton deck that's been going around that doesn't have any spells'.
+- clock 2:39-1:42 (opponent's card): answered with Skeletons, Barbarian Barrel and Berserker, and it is the reason he spends Electro Spirit on Furnace protection at 1:42.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Every Bandit in this match lands on row 14, the river row: (13, 14) at clock 2:25, (5, 14) at clock 1:10, (9, 14) at clock 0:16. She is the cheap lane-refresher, not a defensive card.
+- clock 1:10: played directly behind a high Mother Witch so the Mother Witch tanks — "let's go for a high mother witch to block the potential arrows and we can go for the bandy here" (281-284s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock ~1:08-0:57: the opponent's Bandit is answered by the Hero Knight's Triumphant Taunt rather than by a hard counter - "pop the ability here just to make that Bandit start going to the Knight... the Goblins will actually take out the bandit. Beautiful ability there... Defending the bandit through the ability was super, super clean." The taunt removes the dash-target problem entirely.
+- clock 1:10: he expects it as the follow-up to a bridge push he is barreling through - "He can get maybe like a late Bandit."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=996 (clock unreadable): used offensively as a dash onto the enemy hero Dark Prince, and he grades the trade as unclear — "I did a nice bandit here to dash on top of the dark prince, but for whatever reason, the dark prince still splashes my tower for a ton of damage and he gets the ability off. I got a bunch of damage, too ... I was definitely unsure of who got the better end of this."
+- t=1059.1 (clock unreadable): played on his own half ([7,10]) as a defender he expects to convert into offence — "I went for the bandit here on defense just kind of knowing that I would like need to break through here in the very near future."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:29 (t=222.2, tile [13,13]): opponent card, forced out by a bridge Princess exactly as predicted — "we can go for the princess at the bridge cuz he's going to have to go for the bandit on this ... if he goes for the bandit on the right, yep, he's kind of cooked" (t=207-219).
+- clock 2:13 (t=252-254): a Bandit dashes the left lane in the final clip while Ryley plays around a predicted pre-Zap.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock ~2:00: the opponent's Bandit reaches his king tower and he takes it as a gift — "We can even activate the king tower here off of that bandit... Beautiful king activation. Having that will be very, very useful for the rest of the game."
+- clock 1:14: the Bandit in the opponent's cycle is his reason to commit Evo Elite Barbarians at the bridge — "we can go for the Evo E-Barbs at the bridge cuz he has the Bandit."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:38 (t=987, opponent elixir 8.87 -> 5.87) and clock 1:33-1:29 (t=1050-1058): answered with Skeletons plus Electro Spirit both times — "we can go for the e-spirit plus skellies on defense again" (1055s); at 0:47 he keeps Skeletons in hand specifically for it.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

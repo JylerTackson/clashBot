@@ -104,6 +104,17 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.m
 - clock 1:54: Ryley predicts them as the forced substitute for a Hog Rider block against Mother Witch - "He kind of has to go for guards" - and Guards deploy at tile [16, 22] at clock 1:50.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:20: Ryley predicts it as the answer to his back-placed Berserker and calls it a second before it lands - "if not then I think he'll guards. Yeah, he goes for the guards" (guard tracks at [5, 26] then walking the left lane).
+- clock 1:51: listed with Fireball as the pair of answers a split Royal Hogs is meant to drag out - "He's going to have to fireball and maybe guards."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:38 and 0:43: Ryley treats the opponent's Guards as evidence his bait is working — "he even went for the guards at the bridge cuz he still had to defend that princess" and, twenty seconds later, "forced out the guards there, which is nice."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Guards (scraped 2026-09-02T02:34:58+00:00)

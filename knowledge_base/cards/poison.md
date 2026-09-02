@@ -134,6 +134,32 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - Mentioned, never played. Named at 350s (clock ~1:05) only as the alternative answer he expected the opponent to have for his first Minion Giant push: "So, he has to poison or fireball this. Okay, he has a fireball. That's unlucky."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=785.0s: Poison at (14, 22), elixir 8 -> 4, onto a Magic Archer placed deep rather than at the bridge — "I really didn't mind just going for these poisons every single time cuz magic archer is still most annoying when at the bridge... when he puts it low like that, I'm okay with going down, you know, one even to three elixir sometimes just to make it so I don't have to like worry about it at the bridge" (786-807s).
+- t=650.6s, 691.7s, 767.8s, 802.8s, 833.8s, 841.8s, 848.8s, 890.9s, 917.9s: nine more Poisons, almost all in the enemy half at rows 19-25 following his left-corner Goblin Drill or chasing the Magic Archer — "I just made sure to poison on the magic archer again" (849s).
+- t=673-676s: names Poison as half of why the Goblin Drill vs Log Bait matchup is winnable — "With the snowball and the poison, I knew that I could still win this matchup if I played well."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Opponent card, cast at tile [8, 1] (t=158.2, clock 0:15) and [13, 12] (t=282.3) over Ryley's defensive stack. He keeps the defence cheap under it — Skeletons, The Log and Tornado — and saves the 4-elixir Magic Archer for placements deep on his own half.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=104-105: he plays the bridge Goblinstein specifically to force it — "I do goblin stein at the bridge with my split archers knowing he has to use poison and probably an evo snowball because otherwise I would get some pretty decent damage with the scientist."
+- t=153-155: placement discipline against it — "I went for the barbarian [barrel] plus low archers just to avoid the poison" (Barbarian Barrel at [3, 8], t=152.0; Archers at [6, 1], t=153.2).
+- t=266-267: when it lands he treats it as his cue to counter-push — "He poisoned the tower, so I was just getting ready to go for the Royal Hogs" (Royal Hogs at [15, 14], t=266.3). Poison was never detected visually; it is attested only by these three commentary lines and by his left tower bleeding 2610 -> 2456 across t=258-272.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:04 (t=785-789): named as the other half of the archetype as soon as it is seen — "So, he has Ice Golem, Goblin Hut, Poison. Interesting. And Skellies... I think it's just going to be a regular Graveyard Poison deck."
+- overtime 0:44-0:30 (t=990-998): the Poison window is what decides the tiebreaker — his left tower runs 3618 -> 3250 including an inferred 164 HP spell hit at t=997 — "Okay, poison. We can go in again" (990s), "He's going to poison, but then we can get another Expo here on the left side" (1000-1001s).
+- overtime 0:20 (t=1013): he tracks the opponent's spell cycle as pressure relief — "He can't poison, bro. Okay, he's under so much pressure."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

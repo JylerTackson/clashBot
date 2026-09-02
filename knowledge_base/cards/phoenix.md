@@ -94,6 +94,30 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:31 - OT 0:56: the opponent's Phoenix flies both lanes all game and a phoenix-egg is tracked at [7,15] at OT 1:38, so it died and revived; Ryley's air answers are Bats and Magic Archer.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 1:18 / 0:42 / 0:34 / 0:24 (t=914.9 [1, 15], t=951.0 [2, 24], t=959.0 [3, 15], t=969.0 [4, 13]): the opponent's most-repeated card and the only one Ryley answers directly — Berserker at [3, 9] (t=923.9) for the first, Skeleton Barrel at [4, 8] as a blocker for the last (t=975.0, "just to distract that phoenix").
+- he flags the egg as the real cost: "I do have to defend the Phoenix Egg though, otherwise that will rehatch on my tower" (t=924-926s), and rates it as an overspend when paired with a spell — "Phoenix and a Zap is just insane. That is way too much elixir to be spending" (t=908-912s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:03 (t=48.0, tile [6, 23]), clock 1:57 (t=54.1, tile [4, 17]) and clock 0:07 (t=164.2, tile [15, 20]): the opponent's Phoenix is the one card that reaches Ryley's tower in this game — the tracker flags it as a tower threat at clock 1:53-1:47 and his left tower loses 269 HP at t=70.1. He answers with The Log + Hero Ice Golem + The Log (clock 1:52 to 1:46) rather than a hard counter, and never names the card in the commentary.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:33 (t=695): calls out a bad placement — "Okay, bad Phoenix. He can't activate King Tower from there."
+- clock 1:03 (t=785): answered for 2 elixir total — "let's go for the Fire Spirit here and then Skeletons to kite back that Phoenix" — and at clock 0:11 the Tesla finishes the reborn egg, "That should take out the Phoenix egg."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Phoenix (scraped 2026-09-02T02:35:30+00:00)

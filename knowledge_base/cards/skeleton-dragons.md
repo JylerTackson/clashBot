@@ -145,6 +145,66 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:22: a second pair at (6, 13), answered with the Evolved Cannon barrage — "the skeleton dragons and the Lava Hound."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:15: named as the opponent's likely counter to a low Royal Hogs set - "go for the immediate evo piggies cuz he might skelly drags a bit lower" - and his Barbarian Barrel at clock 1:02 is placed as "just a tank for these skeleton dragons."
+- overtime 0:55: cheap enough that defending with it gives the opponent a free Heroic Valkyrie - "He's going to just Valkyrie there cuz he gets it for free since he's skelly drag." Commentary only; no deploy label.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card, played at t=68.1 and t=72.1 into the left lane. Ryley's Minions answered them cleanly because the splash did not land on the Minions — "thankfully the skelly drags were not splashing. So my minions were able to take out the skelly drags completely" (t=69-73).
+- t=132-137: he then plays around them, delaying his own Minions to dodge a predicted Skeleton Dragon that never came.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Opponent card, played eight times from t=374.4 onward (e.g. [12, 17] at t=408.4, [5, 18] at t=474.5, [5, 19] at t=524.5). It is what Ryley holds Fireball for: "I had the fireball ready for the skelly drags, but thankfully for me, he does actually let that connect, which is going to be nice from him" (451-456s). He labels the opponent's list "RG Skelly Drags. Really aggressive" (371-374s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1748.7 and t=1766.8 (clock unreadable): two Skeleton Dragons drops against a Bomber that had been tracked walking the left lane from (4, 26) down to (3, 13). Ryley at 1782s: "here I went for the skelly drags on the bomber and then I went for the inferno dragon as well."
+- t=1868.9 (clock unreadable): label at (4, 23) used defensively while he is ahead — "So here I just made sure to keep defending and I went for the skelly drags on defense as well, just making sure to take this all out" (1844-1849s).
+- t=1913.9 and t=1928.9 (clock unreadable): two more inside the Fireball/Zap closing cycle — "I went for the skeleton dragons. He did switch it up with the... drill in the back, but it didn't really matter" (1930-1934s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2370-2382 (clock unreadable): used as a forced answer — "I knew I'd force out the skeleton dragons there cuz obviously he didn't want to play anything else" (t=2376); two `skeleton-dragon` tracks duly appear at [4, 18] and [1, 18] at t=2382.
+- t=2441 (clock unreadable): Ryley's closing Fireball at [15, 27] lands on them — "I went for the ability and the fireball on the skelly drags" (t=2443).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:18 onward: the opponent's Skeleton Dragons are his cycle clock for committing a Rune Giant — "he doesn't have the Skelly Dragons in cycle either" (353-355s) is one of the two conditions for the back-line Rune Giant at clock 1:51, and "He has the Skelly Dragons" (393s) is the caveat on the left-lane Elite Barbarians push.
+- clock 0:31 and OT 1:44-1:38: forcing them out is treated as stripping the Lava Hound of support — "He has to get Skelly Dragons down. That's good cuz now if he goes for the Lava, he has no support cards for it, only a Balloon" (430-435s); in overtime they come down his left lane and he answers with Fireball at (3, 14) plus Minions and Heal Spirit (484-490s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 1:16-0:35: opponent Skeleton Dragons cross into Ryley's right lane behind the Lava Hound (tracks at (12, 15)/(13, 15) at 1:16, a fresh pair at (5, 24) at 0:35) and are the units that finish his right tower off; he defends them with Mother Witch and Barbarian Barrel rather than trading elixir evenly - "just to not get three crowned."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 3 fragment: played at t=818.8 [14, 5] alongside the Lava Hound; the segment ends before the push resolves.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=877.9 / 895.9 / 907.9 / 976.8 / 1024.7 / 1058.1: his most-deployed card of the game (six labels), and the default answer to anything ground-based that gets past the Cage — 'I went for the skelly dragons on defense as well just making sure to take this all out' (t=977).
+- t=910: the specific defensive use he narrates is against a Bomber walking on his left tower — 'here I went for the skelly drags on the bomber' — with Rune Giant and Inferno Dragon on the same tile.
+- t=999.0 and t=1043.0: also thrown offensively onto the opponent's half at [3, 21] and [8, 20] once the left crown tower was down, as the air payload behind the Lava Hound against a deck with no anti-air.
+- t=1060: still cycling them in the closing rotation — 'I went for another cage here, guys. I went for the skeleton dragons. He did switch it up with the drill in the back, but it didn't really matter.'
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1507.5 (1,22) (opponent's card): Ryley's bridge spam forced them out as the only available answer - "I knew I'd force out the skeleton dragons there cuz obviously he didn't want to play anything else. So then I went for the evo furnace" (1504-1510s).
+- video t=1571.6: they became the Fireball target that closed the game - "I went for the ability and the fireball on the skelly drags" (1573-1576s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

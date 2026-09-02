@@ -110,6 +110,51 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - He treats them as free value for his own splash unit: "if you went for spear goblins, we could have grabbed them" (421-423s), and reads them as the opponent's cheapest way out of a pocket Minion Giant — "he had the fireball spear goblins just to not take two shots" (478-480s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:47-0:40 (opponent): chip pressure down the right lane, once spawning already on Ryley's half; he answered with The Log at clock 0:40 while narrating the wider defence — "This should be a really good defense" (133-134s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Opponent's card. Handled with a pre-emptive Log rather than a reaction — 'we can go for a pre-log on top of the spear goblins' (151s, Log at [3, 15] clock 0:20) — and he expects them as a side-lane chip finisher: 'He could spears off the side' (287s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1436-1440s: mentioned only in this game (the two 'SpearGoblins' deploy labels at t=1437.6/1440.6 coincide exactly with the commentary and are treated as suspect). "They're also buffing the spear goblins by 6%. They're making it hit quicker."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. Cycled repeatedly (clock 0:51, 0:37, 0:19 plus a large tracked cluster around rows 18-22 from t=122 on) and it is what makes his Mother Witch so valuable — "look at that Mother Witch, guys. It's still alive. Very good value right there" (t=122-126).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:48, 1:30 and 1:10 OT: the opponent's Spear Goblins arrive with the Goblin Hut (t=328.3), then repeatedly through the game (t=346.3, 488.5); Ryley handles them with Furnace Fire Spirits, Electro Spirit and Barbarian Barrel rather than a dedicated answer — "E-Spirits, Barbarian Barrel, then we have to go for the Furnace here as well" (356-358s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:29, 1:23 and 1:12 (t=868.9, 934.9, 948s): repeated cheap chip in both lanes; answered by the Tesla at [11, 14] at clock 2:28 and by the Barbarian Barrel at clock 1:10 — "Barbarian barrel here for the spears" (950s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- The opponent's Spear Goblins (t=783.6, 879.7, 1035.8) are the card he keeps The Log for: "we can log here as well. It's going to take out the spears" (clock 0:03, t=934).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 1:47 through overtime: seen only as Goblin Hut spawns rather than as a played card, but they are the match's main chip source and the X-Bow's main obstacle — repeated spear-goblin tracks reach his towers from t=804 onward while the hut placement itself "blocks an Expo" (898-901s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 0:48: opponent's card, used three times (t=524.5, t=592.6, t=652.7) as the cheap partner to the Cannon; Ryley punishes a bad one with Skeletons — 'Oh, bad spear goblins. Let's go for the skellies here' (624-626s). He also names them as the opponent's forced answer to the barrel: 'He has to go for like yep, a building plus spear goblins' (588-590s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

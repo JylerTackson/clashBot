@@ -134,6 +134,69 @@ This card appears in 2 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 2 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md), [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 1:37: Ryley identifies the opponent's whole plan and its cost — "he just like sacrificed everything to just go all in with Golem, Night Witch, Lumberjack, and E-Barbs in the other lane." His answer is not a defensive troop but lane-swapping his Royal Hogs plus stacked Furnace/Goblin Hut spawners.
+- clock 0:16: treats a late Golem crossing to his last tower as a mistake, answering with a Goblin Hut distraction and Barbarian Barrel — "I think that was just bad by him."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1409.7s (broadcast clock unreadable): opens the readable clip with Golem at tile [8, 2] in the back off a 10 -> 2 elixir dump, justified by his lead — "I thought this was a good golem because I was up so much elixir. Maybe I was up like a good three elixir with a tombstone down" (1419-1423s).
+- t=1493.8s, t=1534.4s, t=1568.6s: three Golems in the middle of his half ([9, 13], [9, 13], [8, 11]) against X-Bow, as a placement rule he states outright — "You always want to put your golem in the middle so they're not able to go for the X-Bow in the opposite lane" (1496-1498s).
+- t=1534.4s: uses Golem as a safety cycle rather than a push — "I just cycled a golem in the middle just to be safe because I didn't really want to, you know, have to worry about anything" (1535-1539s).
+- t=1635.1s: the closing Golem (label at [17, 15], 9 -> 1 elixir) once he is up a Rocket — "here is when I knew that I had probably won. I just cycled my golem here knowing that there was no way for him to really like stop this" (1635-1640s); at 1645s he adds that the Golem was never his worry, his spell cycle was.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 0:40 (t=953.0, tracked at [3, 18], opponent elixir 8.15 to 0.15, golemites splitting at [3, 17]/[4, 17] by t=956s): Ryley never defends it, he prevents it — every bridge play from clock 1:42 on is justified as Golem denial ("he might try to ignore this and just go for a golem with the witch. So, I have to apply a lot of pressure here", t=932-936s). By the time it lands the enemy left tower is at 539 HP and the push is irrelevant.
+- his general read on the card (t=886-889s): "Evo Ebarbs after just trying to defend a whole golem push can be so devastating" — the reason he is happy the opponent spent Elite Barbarians on defence.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:58: named only as a read, not seen — after the Inferno Dragon appears he calls the opponent's list "the Golem E-Barbs deck."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- mentioned but never seen. Ryley raises it as a possibility for the opponent's deck - 'there's also like a decent chance that he just has golem as well' (t=832-836) - and retracts it eight seconds later once an Electro Spirit shows up (t=841-843).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2 (t=502-796) vs Ian's X-Bow: one back Golem at t=539.2 [8, 0] (elixir 10.0 -> 2.0), then every later one dead centre (t=621.6 [9, 9], t=663.8 [8, 9], t=700.7 [8, 8], t=763.8) - "You always want to put your golem in the middle so they're not able to go for the expo [X-Bow] in the opposite lane" (624-628s).
+- Two of the central Golems are safety cycles rather than pushes - "I just cycled a golem in the middle just to be safe because I didn't really want to have to worry about anything" (663-668s).
+- t=773-781s: against siege the tank is not the thing at risk - "I wasn't worried about him actually stopping the golem. I was worried about just like him stopping my spell cycle, but I knew that I'd be able to cycle back to another lightning."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:59 (t=113-115): named, not confirmed. Ryley plays around it before it exists — "our firecracker should just be able to cook if he tries to golem" and "I'm going to ice golem preemptively cuz he might golem, and I want to have the hog rider ready" — a pre-placement, not a reaction.
+- clock 0:35-0:25 (t=136-146): an arena-detector track labelled Golem walks the opponent's left lane, but it starts the moment the Mega Knight track at [8, 25] ends and may be the same unit relabelled; no deploy label ever confirms a Golem.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 1:14-1:03 (t=102-118): he plays around the Golem before it exists, putting a Ronin near the bridge to remove the free back-tank placement — "I'm going to Ronin closer to the bridge so he can't just Golem in the back. He's going to have to defend it or give up his tower. Okay, that's fine with me." He had predicted it at t=101: "He's probably going to eat everything and go for a Golem."
+- clock 0:52-0:37 (t=122-141): when the Golem finally lands at [13, 19] with Battle Healer and Poison, he answers with Tesla, Fire Spirit, Royal Delivery on the Baby Dragon and Ronin on the Mini P.E.K.K.A., and rates the exchange as free — "that's just completely dead. Dude, this deck's defense is just so powerful, man."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:59 (t=380.4, tracked at [4, 21]) and clock 1:03 (t=438.4, [4, 24]): the opponent's win condition, dropped at the back both times. Ryley's stated answer is a high Tesla rather than a bridge punish — "Okay, he just goes for the Golem in the back. I'm going to go for the Tesla like this because it's going to pull the Golem really, really far" (t=372-376).
+- clock 1:50-1:26: the first Golem still connects — his left tower goes 4695 -> 3118 HP between clock 1:36 and 1:26 — and he still rates the defence a success because the support died: "that is a masterclass defense right there, guys ... he's used all of his cards already" (t=408-416).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 0:39: appeared in the opponent's back left at tile [4, 22], twenty seconds after Ryley predicted it from the deck's weight ("it could be a golem deck", 931s) — "There's the golem in the back that we thought that he had but weren't sure."
+- clock 0:42-0:08: he answered it with an early central Tesla plus Skeletons and Wall Breakers pressure rather than a hard counter, and it still broke his left tower at roughly clock 0:08.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

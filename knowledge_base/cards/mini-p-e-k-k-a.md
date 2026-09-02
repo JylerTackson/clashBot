@@ -147,6 +147,35 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Faced, not played: deployed by the opponent at clock 2:07 at tile (5, 27) and again at clock 0:44 at (1, 24), each time paired with a P.E.K.K.A. behind it. Ryley's answers are Royal Delivery and Tornado at clock 1:36 and the full Magic Archer/Archers/Royal Delivery/Tornado stack at clock 0:45-0:40.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 1:48-1:46 (t=578-583): the card that surprises him - "I didn't know that he had a Mini P.E.K.K.A. to be fair. It's all good. I guess I'll just go for the E-Barbs here on top of the Mini P.E.K.K.A." (Elite Barbarians at [11, 4]).
+- clock 0:42-0:38 (t=644-646): second answer is the cheap pair rather than the tank - "Let's go for the Heal Spirit here. Nice, we blocked the Mini P.E.K.K.A. Let's go for the Berserker as well."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:10 to 1:04 (t=48-52): mentioned, not played — the opponent's Mini P.E.K.K.A. is what the Heroic Knight's taunt is fired at before it exists: "we have the knight ability for the mini pekka cuz he's he's going to mini pekka on top. Knight ability to predict the mini pekka. Beautiful."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 2:22 (t=33): named as the card the Ronin's parry destroys — "look at that Ronin right there, guys. Just one shotting his Mini Pekka away. Absolutely insane."
+- clock 1:34-1:30 (t=82-86): the reason he thinks a Golem beatdown deck cannot deal with a Ronin at all — "his best DPS unit is the Mini Pekka, but of course, the Mini Pekka just one shots itself. So, what is he even supposed to do on defense?" (Mini P.E.K.K.A. is commentary-only here; no detector event for it.)
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:25 (t=354-362): named as part of his (never-confirmed) read of the opponent's list — "I think that he has the Golem Healer Mini Pekka deck" — and used to explain why the opponent could not answer his Ronin: "obviously couldn't go for the Mini Pekka there on top of the Roane cuz then it would just one shot itself." Mentioned only; no Mini P.E.K.K.A. is tracked in this game.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A. (scraped 2026-09-02T02:34:51+00:00)

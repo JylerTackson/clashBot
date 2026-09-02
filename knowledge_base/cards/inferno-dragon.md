@@ -153,6 +153,97 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:45: the Evolved version is the thing he plays around for the rest of the game — "I have to watch out for that Evo Inferno Dragon, cuz that Evo Inferno Dragon has a lot of aura. It can get really, really scary", and at clock 0:31, "I know he's going to Evo Inferno Dragon in a second, but it's okay."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:07: played as the answer to Ryley's Furnace push, which he reads as a good trade for him - "which he does actually respond with the inferno dragon, which is very nice for us actually."
+- overtime 1:57: the Evolution version forces out his Lightning - "I had to do that just to take out the evo inferno dragon. Otherwise, I think I would have just gotten completely slammed." Tracks recur at t=1094, 1106, 1130, 1135, 1141, 1144 through the overtime pushes.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1807.8 and t=1812.8 (clock unreadable): two Inferno Dragons at (8, 24) and (8, 23) behind the Lava Hound in the same push. Ryley at 1816s: "And then I went for another inferno dragon. I knew that if he really wanted to, he would be able to keep on defending."
+- t≈1859-1862 (clock unreadable): aimed at the king tower while chasing a three-crown — "I went for the inferno dragon on the king tower because like I said I did really want the three crown if possible. He was making it really hard to get it."
+- t=1887.9 and t≈1903-1905 (clock unreadable): a late one at the bridge purely as a closing play — "I went for the inferno dragon at the bridge as well, kind of just knowing that, you know, this game was over."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- opponent's card, tracked at [16, 24] (t=368.4s) and again at [11, 26] (t=432.4s); both times Ryley answered with a centre-placed Dart Goblin on his own half (t=369.2s [9, 0], t=438s) — "I'll dart goblin into the Inferno Dragon as well" (t=370s), "Let's Darth Goblin here. Yep, I literally knew it" (t=438s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:55 (opponent): tracked at (5, 22) and used by Ryley as the tell for the whole archetype — "He has an Inferno Dragon, as well. Yo, this could be the Golem E-Barbs deck."
+- clock 1:52 (opponent): the threat line reads "inferno-dragon(e) advancing left lane, tower in 7.9s"; a second one comes down the right lane at clock 1:26.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:13 OT: the opponent's Inferno Dragon appears at tile [9, 19] (t=482.5) during the overtime defence; Ryley does not name it, but the window he plays through it is the Berserker-in-front sequence — "Let's berserker in front here so that if he wants, he has to go for the e-barbs" (490-492s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- present in the opponent's list from clock 2:38 onward and handled by blocking rather than by killing it — 'Wait, block the Inferno Dragon. Nice. Okay, and now the Berserker's in front' (t=738-739).
+- clock ~2:44: he names it as part of the scouting read before it commits — 'He has the evo [E-Barbs] and the Inferno Dragon, Barb Barrel'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card (Evolved), tracked from tile (16, 23) at clock 2:26 walking his whole right lane. It is the card Ryley plans the entire match around: "We have to watch out for his EVO Inferno Dragon. He cycled to the EVO Inferno so early" (clock 1:34-1:32).
+- clock 0:28: he states the cost of it simply sitting in the opponent's hand - "because he has that Evo Inferno Dragon just lingering the whole time, we have to be so cautious, man" - and at clock 0:17, "just the low inferno dragon, man. It's so difficult to deal with."
+- clock 2:04: he calls out a misplaced one as a free window - "Ooh, that was a bad inferno dragon" - and immediately puts a Cannon Cart down.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=911.9: layered onto [3, 5] with a Rune Giant and Skeleton Dragons against a Bomber push — 'here I went for the skelly drags on the bomber and then I went for the inferno dragon as well' (t=910).
+- t=936.9 and t=941.9: two more in six seconds, one at [8, 20] on the opponent's half and one at [13, 14] defending his own — 'and then I went for another inferno dragon. I knew that if he really wanted to, he would be able to keep on defending' (t=945).
+- t=988: used as a crown-hunting damage card rather than a tank-killer — 'I went for the inferno dragon on the king tower because like I said I did really want the three crown if possible.'
+- t=1032.0: the last one at [15, 14], right on the bridge tile — 'I went for the inferno dragon at the bridge as well, kind of just knowing that, you know, this game was over.'
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- The opponent's main answer to the X-Bow, sent three times (arena tracks at (4, 16) clock 2:17, (13, 16)/(14, 13) clock 1:31, (1, 13) clock 0:08). Ryley expects it before it comes: "this guy might go for an Inferno Dragon, or he's going to ignore all of this and go Rune Giant behind or Inferno Dragon behind the Rune Giant" (60-67s).
+- He answers it every time with cheap cards instead of a spell — Berserker plus Fireball at 2:17-2:15, Tesla plus Electro Spirit plus Skeletons at 1:30-1:25, Tesla plus Skeletons plus Berserker plus Fireball at 0:13-0:03 — and calls the chain-stun explicitly: "just to chain onto that Inferno Dragon, make sure we take it out" (82-84s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=286-294, opponent's Evolution Inferno Dragon; arena tracks at t=196.2, 244.2, 260.3, 324.3): the card Ryley rates as the game's biggest threat — 'he's going to Evo Inferno Dragon though. This is where it gets really scary cuz my deck does not have a lot of air defense, man. The Evo push gets just so difficult to stop.'
+- clock unknown (t=245.2-252.6): he answers it with layers rather than one card — Royal Delivery at [2, 12], an Ice Spirit reset ('I do want an Ice Spirit to freeze this', t=248-251), the Ronin for DPS and a Bomb Tower; the same pattern (Magic Archer + Royal Delivery + Fire Spirit + Bomb Tower) repeats at t=294-303.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=682-685s: predicted before it appeared and it changed the plan - "We can go for a nice run in here, unless he has the Inferno Dragon. Yep, okay, he does actually have Inferno Dragon. Luckily, we could step back."
+- t=791.8s: killed outright by a Royal Delivery at (2, 19) after a poor placement - "that was a really bad inferno dragon placement. Let's just delivery here and there goes the inferno dragon."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card (Evolved). t=1013s: identified from the first push - "He has the Evo Inferno Dragon... I guess it's going to be lumberloon freeze"; at t=1124s "he has the Evo Inferno Dragon. That is very scary". Ryley never builds a hard counter for it, instead resetting it with Ice Spirit/Fire Spirit and chipping it with Magic Archer.
+- t=1208s: the card that ends the game - Freeze plus Evo Inferno Dragon takes his left tower from 4108 to 2222 in the last four seconds: "Oh no, he's going to get the freeze off with the Inferno Dragon. No, no, no, no, no".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:53 and OT 1:46: the opponent threat he respects most — "Another thing though that we have to be worried about, man, is that evil inferno dragon. That thing can get scary" (t=740-743). His two stated answers are stacking Firecrackers ("I'm just going to try to stack as many firecrackers as I possibly can", t=745-747) and resetting it with the Hero Ice Golem: "Let's go for the ice golem ability as well just to help reset that inferno dragon" (t=871-874).
+- clock 1:25: a 1-elixir Electro Spirit is used to pull it off target before a Hog goes in — "I'm going to e-spirit on the left here just to distract that inferno dragon" (t=771-773). It finally dies at OT 0:38 under massed Firecracker shrapnel: "the inferno dragon locked. Die. Okay, the inferno dragon died" (t=936-940).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:19-2:11 (t=1003 onward): its presence is why he refuses the opposite-lane Hog Rider and plays Elite Barbarians deep instead — "Normally I would hog rider opposite lane, but because of the inferno dragon being there and not having a good cycle for it...".
+- clock 1:25 (t=1059.1-1069.1): he notes losing the cheap answer to it — "We will have to watch out for the mega knight at the bridge though, cuz you don't have skeletons to distract the inferno dragon anymore" (1058-1062s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, mentioned but never seen on the field in this window. Ryley corrects his own card count with it at clock 1:44-1:34 — "right now he has zappies, graveyard, freeze, and [Tornado] in his hand. Or well, not freeze actually. He has the inferno dragon and not the freeze. K, bowler, inferno dragon, graveyard, and [Tornado]. Next card freeze" (t=1428-1437).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

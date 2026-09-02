@@ -169,6 +169,46 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:57 (t=117-126): mentioned only as a card the deck lacks — "I don't have like a zap or a snowball to bring them down to the ground or even a building for that matter," said about the opponent's evolved Royal Hogs.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=928-946): the evolution's roll range "is now 4.5 to 4. So the Evo snowball just won't be grabbing as many units and throwing them as far back as it was before, which I definitely think is a very good change cuz the Evo snowball was kind of just like a ridiculous card anyway in my opinion." (A HUD read also assigned him a Giant Snowball play at t=949.8; that is treated as a hand misread, not a play — see the match file's Data gaps.)
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=673-676s: Snowball is the other half of his answer to Log Bait — "normally log bait does lose to Goblin Drill Snowball or Goblin Drill normally loses to Log Bait, right? With the snowball and the poison, I knew that I could still win this matchup if I played well."
+- t=760.8s: offensive Snowball at (14, 19), on the enemy side of the right bridge, as insurance on the Magic Archer — "I snowballed because I thought that I would need to for the marcher because I thought that he might ability or try to protect it, but he didn't. So I'd rather be safe than sorry" (763-769s).
+- t=809.8s: Snowball at (3, 6) on his own half onto Wall Breakers, then Bomber at (3, 11) behind it — "So here I just went for the snowball knowing that I'd have to go for the bomber on the wall breakers hoping I only took one which I only did end up taking one which was nice" (810-816s).
+- t=918-922s: deliberately does NOT snowball a Goblin Barrel late — "I didn't even bother snowballing the barrel because I knew I wanted the extra, you know, cushion on defense in case, you know, he got a little bit overwhelming, which he almost did."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t≈1868-1872 (clock unreadable): the opponent's Snowball on a defending push is the moment Ryley gives up on the extra crowns — "right here after he snowballed, I was like, 'Okay, like I'm just never going to get the three crown.'" (No Snowball deploy label was read; this is from commentary only.)
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:12 onward: the opponent's Evo snowball is the spell Ryley baits with every barrel and Wall Breakers pair - "He has the snowball" (466s), "his snowball is also Evo. He's one snowball away from Evo" (491-495s), "He might snowball barrel these" (523s).
+- clock 1:30 (overtime): he counts forcing it out as better value than the tower damage he gave up - "we forced out snowball as well. That's honestly probably even better than just grabbing the shot that we would have gotten" (624-628s), and again "He has to snowball that forcing out Evo Snow[ball] is always good" (672-674s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:59 (t=149.1, HUD 5.0->3.0) and t=254.3 (tile [2,8], label 'iaNtScowball'): two casts, the second on the segment's final call — "let's snowball the mega..." (t=254-256), cut off mid-sentence.
+- He also tracks the OPPONENT's snowball as a held card — "He definitely wanted to save that snowball for offense" (t=101-102).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:25 (t=288.3): threw the (Evolution) Giant Snowball at tile (2, 17) onto the Royal Giant's landing tile before the RG existed, with the sole aim of buying his X-Bow a lock-on — "I want to try to get an evo snowball predict on his RG to try to get my expo to lock onto the tower. That could instantly win me the game... W prediction."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's small spell, and the reason for the closing barrel placement — "I'm going to do it one tile in the front, just so if he goes for the snowball, then it actually doesn't counter, unless he catches it" (OT 0:50). Earlier: "unless he goes for the snowball, which would be smart. Yeah, he didn't do any spells just for that" (OT 1:38).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

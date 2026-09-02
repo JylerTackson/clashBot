@@ -140,6 +140,50 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, as the card this deck is derived from: "I am playing with royal giant, but instead of the royal giant, of course, I have the [minion] giant" (t=681-686). The list is a Royal Giant cycle shell with the Royal Giant swapped for the new Minion Giant, Fisherman swapped for Cannon and Royal Ghost swapped for Monk.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Opponent card (Reuben, CRL duel). Early Royal Giant tracked on Ryley's half at 380-384s; Ryley dismisses it because it is not evolved — "since his RG isn't EVO, it doesn't actually do anything to go for those early game RGs" (376-383s) — while conceding the support was reasonable versus an unknown deck: "I guess maybe he thought I had minions or something and I could instantly minions on the RG. And if that was true, then he probably would have won right away" (387-393s).
+- Ryley's answers: Mortar + Rascals at t=370.0-372.2, then Rascals + Skeletons + Bowler at [1, 12] at t=480.5 against the RG walking his left lane (t=456.5-460.5, tracked to [2, 9] by 490s); his left tower goes 2988 -> 2203 in that window.
+- t=572.6 (clock unreadable, triple elixir): the opponent places the RG deep at [2, 24] instead of the bridge — "I had a feeling he was going to RG the bridge ... but going RG the back against a bowler in triple elixir maybe isn't always the move because then I just get a free bowler and my bowler will obviously live" (562-579s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:35 (t=1211.2): the opponent's Evolution Royal Giant at [4, 22] (elixir 10 -> 4) is the only heavy commitment in the window. Ryley pre-empted it at 1194-1197 ("I have the evo dart ready if he tries to go in for some type of RG") and then answered it with chip plus a refusal to build — Evo Dart Goblin at [9, 9], no Cannon, 490 HP of his left tower given up on purpose (own left 4781 -> 4291 at t=1230).
+- clock 0:47 (t=1261): while defending a lead he lists the RG as the expected follow-up and it never comes — "I wonder if he tries to RG the back or to spam my bridge. Or he could give up, too, low-key".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- Mentioned only, as the comparison for Royal Hogs' meta staying power, t=98-102 - "even if like it gets a nerf, they just somehow always survive, kind of like Royal Giant where it's always a viable option in the meta kind of no matter what".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 2:33-2:25 (t=1330-1338): identified from the opponent's play pattern before committing — "I'm not still not 100% sure if he has RG, but it really does look like he has that", then "Okay, yeah, he definitely has RG"; the Royal Giant is tracked at (14,10) from t=1348 and takes his right tower from 4858 to 2588 HP
+- clock 0:43 and 0:15 (t=1440, t=1467-1471): he plays around a bridge Royal Giant rather than reacting to it — "he can't even go for the RG because I have Ebarbs at the bridge on it" and "I'm going to put [the cannon cart] in front of the king tower, though, in case he tries to time it with an RG at the bridge"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- clock 2:00: first Royal Giant goes down at (9, 1), behind the King Tower, as a build-up in single elixir rather than a bridge play.
+- clock 1:33: Royal Giant at (3, 15), the left bridge, one second after the Heroic Valkyrie at (2, 14) — 10 elixir committed at once against an opponent stuck cycling. "He's in a bit of a predicament cuz he has to cycle back to the Bomb Tower." (360-365s)
+- clock 0:42: Royal Giant at (2, 14) deliberately opposite his Valkyrie so the opponent cannot answer both lanes; the tower he hits drops 2745 -> 1793 in about six seconds. "I think I could RG here cuz we have the Valkyrie in the opposite lane, and I think I could just hit the ability to grab extra damage cuz you guys look, it's going to start shooting at rapid pace. Look at all that damage in only a few seconds. Already down to 1,700 HP." (414-424s)
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:52-0:42: the opponent's Evolution Royal Giant is the push that takes Ryley's right tower 3052 -> 1959. His answer is a swarm-plus-building package, and it is conditional: "because he has no barbarian barrel skarmy is a free RG defense. If he goes yep, let's just skarmy cannon and then we go for the ice spirit as well" (626-632s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1 (t=307-500): played at the bridge every time and never behind the tower - t=326.3 [15, 15] (elixir 8.0 -> 2.0), t=389.4/393.4 [13-14, 15], t=464.8 [14, 14], t=485.5 [14, 15]. The first one is a deliberate answer-to-the-answer against a Giant Skeleton: "if I just set up a defense in the back, he's able to do the exact same thing, except he just has more elixir to push with" (341-348s).
+- t=359-366s: he cycles specifically to the Evolution against Elite Barbarians - "Evo RG is significantly better than the regular RG against cards like Earbs cuz it just knocks them back and can put you in some nice sequences."
+- t=418-428s: names its true counter in that matchup - "wizard is actually his best RG counter, believe it or not, cuz he's just able to go wizard plus ability. And since I don't have a monk and log doesn't hit the air whenever he pops the wizard up, I literally cannot kill it." The t=389-403 push works because the Wizard was spent at the bridge; enemy right tower 2710 -> 526 HP across t=404-416.
+- t=478-483s: cycle tracking, not elixir counting, decides the last push - "now with this wizard out of cycle, I knew that he would be completely unable to defend the next RG" (RG at t=485.5, tower logged at t=498.3).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

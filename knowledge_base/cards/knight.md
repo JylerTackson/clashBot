@@ -185,6 +185,115 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 1:58 (opponent): deploy label '"NigHt' at tile [4, 15], their attempt to hold the lane the Mega Knight is entering. The tower behind it falls from full to 135 HP within seven seconds - "he really just doesn't have good cards to defend."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- opponent card, clock 2:37 to 0:31 (t=14s [13, 23], t=20s [13, 16], t=140s [5, 21], t=174s [4, 19]): their most-cycled card, opened the game with it down the right lane. Ryley answered it cheaply every time — Goblin Gang at [14, 5] plus The Log at [14, 10] at t=72-74s — and never spent a heavy card on it.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:19 (t=727-729): the only ability reference in the game, implying the opponent runs the Heroic Knight — "Could get a knight ability if he does, we go for the minions, but yeah, otherwise we just take some damage".
+- clock 1:25 (t=901-905): he pre-places Valkyrie for it — "Let's Valkyrie on top as well cuz he's probably going to try to go for the Knight" — and dismisses it again at 942-944s: "He might even knight in the middle but that's not going to work".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Played in Hero form all game. clock 1:10: spends 2 elixir on Triumphant Taunt to drag the enemy Hero Berserker off its target — 'we'll just go for the Knight ability here just to bring that Berserker over. That's going to run for a while, so the Knight should live. Yeah, beautiful ability right there' (100-106s).
+- clock 1:10: immediately draws the general rule — 'Always have to be smart with the abilities, otherwise your opponent can catch you lacking' (107-111s).
+- clock 1:22, 1:43 overtime and repeatedly at [3, 5]: cycled into his own back corner as a standing body — 'I need to keep on cycling my knights in the corner though because I need to just have some preemptive units down' (189-193s).
+- clock 0:31: stacked with Ice Spirit at [3, 11] / [3, 10] on one defence against the Wall Breakers — 'knight and we can go for the ice spirit here as well... Nice, beautiful defense' (141-144s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:57: Knight at (1, 14) placed directly onto the enemy Bowler — "we can go for the knight on top of the bowler."
+- clock 1:08: Knight at the bridge as the tank half of a Knight-plus-Evo-Barrel pressure package — "let's just go for the knight at the bridge, and then we can go for the evo barrel here as well." (The HUD misread the -3 step as Tombstone; the play is confirmed by commentary and the barrel label.)
+- overtime 1:35: Knight at (13, 13) to open the winning counter-push in the lane the opponent was not defending — "We can go for a knight at the bridge opposite lane."
+- overtime 1:29: he is playing the Hero Knight and pays the 2-elixir Triumphant Taunt to push that Knight through — "I'm going to pop the ability keep this alive. Nice quick ability. Very fast ability." The enemy right tower falls six seconds later.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:04 (t=568.6, tile [9, 11]) with Ice Spirit behind it, into a Barbarian Barrel barbarian and the Mighty Miner — "I'm going to go for the knight here and then I'm going to go for the ice spirit here as well just to make sure that I keep this alive."
+- clock 1:05 (t=628) and clock 0:42 (t=650.6, tile [2, 8]): mini-tank into the bridge to start pressure — "I'm going to knight the bridge here, and then I'm going to Goblin Gang just to be really annoying" (t=627-629).
+- overtime 1:42-0:58 (t=712.7 [3, 13], t=753.8 [4, 13]): played at the bridge as a body for the Princess and as a pre-empt — "Let's go for the Knight at the bridge just to keep the Princess alive" and "we need to go for a Knight at the bridge, too, cuz I know he's going to try to get a Cannon."
+- overtime 0:37-0:20 (t=771.8 [15, 12], t=781.8 [13, 12], t=796): the Hog denial tool late — "Knight predict the hog" (t=772) and "Let's Knight the bridge again so he can't go for the hog. Perfect. He has to go for the hog down the middle" (t=796-802).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 2:08 (t=858.9, tile [10, 7]): played to activate his own king tower, not primarily to block - "we're going to have to go for the knight here to activate our king tower" (repeated at t=863: "let's go for the knight here just to activate our king tower"). The king tower HP starts being read at t=866.
+- clock 1:21 (t=905.9) and OT 1:55 (t=992.0), both at tile [15, 13]: pre-placed as the body for a predicted Mighty Miner - "Let's go for the knight here. We can goblin gang as well cuz I think he's going to mighty minor. Yep."
+- OT 1:35 (t=1011.0, tile [2, 13]): used to keep chip out of the second lane - "I'm going to Knight though cuz I don't want to take the chip in the other lane."
+- OT 0:52 (t=1055.1, tile [9, 14]): the block he cannot afford at the end - "We need a knight the bridge to block the evil cracker, please. Oh, I didn't have enough elixir man. Oh, GG's."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:47: placed at the bridge, tile [2, 15], as a pre-emptive body rather than a reaction - "I'm going to knight here cuz he might try to ability to take this."
+- clock 0:40: at tile [1, 8] in front of his own tower, purely as a pup-soak - "let's just go for the knight here just to tank for the Lava Hound pups. Good defense right there."
+- Note: two -2 elixir HUD events read as 'Suspicious Bush' (clock 1:12 and 0:27) are not deck cards; the 0:27 one lands one second after a Knight at tile [8, 21] and matches the Knight Hero's Triumphant Taunt, so a Hero Knight is plausible in this session but is not confirmed by any deploy label.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock ~1:08 (Hero variant, Triumphant Taunt for 2 elixir): the taunt is used to protect an attack, not just a defence - "We can even pop the ability here just to make that Bandit start going to the Knight, and this will be tower down. And because the tower gets taken, the Goblins will actually take out the bandit." Afterwards: "Defending the bandit through the ability was super, super clean."
+- clock 1:20: Knight deploy label at tile [14, 14], right at his side of the bridge, as the body for an incoming Battle Ram and Royal Ghost while the opponent is out of elixir - "we can go for a Knight. He has to defend the Princess, but now he has no Elixir."
+- clock 0:38 and 0:25: Knight at [16, 6] then [8, 8] as the front half of a Log-plus-Knight defensive pair against the second Battle Ram - "let's go for the knight. We can make sure we take out this Battle Ram", and "we can go for a low [Log,] Knight here on top of this."
+- clock 0:07: last Knight of the game at [3, 9], left lane, layered in front of the Inferno Tower on the final Battle Ram.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=83.1: Knight at tile [2, 9], deep in his own left half, as a defensive body during the overlapping Skeleton Dragon and Balloon pressure (deploy label, score 1.0). No commentary on the card itself in this clip.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=754.8s and 756.8s: Knight at (10, 10) and then, 2 s later, a 2-elixir drop with no hand change — this is the Hero Knight's Triumphant Taunt: "So here I went for the knight ability. And then I went for the high cannon" (756-759s).
+- t=821.7s: a second 2-elixir ability drop, this one a misclick while trying to place a Berserker — "I went for the berserker and I tried to spear it but I accidentally didn't get it down as you saw. I clicked on my knight which was okay cuz my drill did get some damage once again" (823-828s).
+- t=908.9s: Knight placed high at (8, 14) as a deliberate damage sponge — "I got a high knight down. Right now I was really worried about a marcher. So I was trying to let everything damage my knight as much as possible" (910-916s).
+- t=699.7s: Knight at (11, 14) arrived too late behind a Fire Spirit that jumped early — "obviously the knight wasn't down in time because it instantly jumped. So, the magic archer instantly targeted, which was very unfortunate" (707-712s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:37 and 1:57 (opponent's Evolved Knight): each crossing is met with 2-3 elixir of cheap ground - Berserker at (4, 9) plus Skeletons at (3, 13) at clock 1:54 - rather than a building.
+- clock 0:42-0:37: the Evo Knight push is beaten by Evo Dart Goblin + Ice Spirit + Berserker, with the read that the opponent's spell cannot clear the Dart Goblin: "He doesn't have an Evo zap so he is unable to take this out" (t=129-131).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:37 to 2:12: the opponent's Evo Knight walks the right lane repeatedly and is answered with Barbarian Barrel at [10, 6] and [14, 11] rather than a building.
+- clock 0:03: Ryley uses Barbarian Barrel to manipulate it — 'just to make the Knight go in front or behind the Hog Rider' (t=172-175).
+- clock 1:10: named as part of the defensive core that makes the matchup bad — 'having the Knight, Firecracker and Bomb Tower' (t=110-112).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 1:21: read the opponent's Knight rotation as the reason a Cannon Cart could get through — "Cuz he has no knight and cycle so he's unable to block a cannon cart on the expo."
+- overtime 1:46: predicted the Knight as the answer to his bridge Elite Barbarians and pre-loaded Mother Witch behind it — "He's probably going to go for a knight. We can just get some mother witch value on top of that."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card, the mini-tank in front of every push (arena tracks at [15, 22] -> [15, 17] at t=934-938, [3, 12] in the left lane at t=876-880, [14, 13] at t=1045). Ryley answers it with Berserker at the bridge - "we can go for the knight at the I mean the berserker to keep the knight at the bridge" (t=867) - and later uses it as an alignment target for the Magic Archer: "This should line up with the knight. Keep it in line" (t=1038-1040). He talks about the opponent's ability being paired with it ("He has to go for the ability plus knight", t=932), which suggests a Hero Knight, though the ability is never named.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:10 (t=44.0): Heroic Knight at tile [13,14], right side of his own half, chosen by lane and by threat — "I'm going to knight on the right cuz he has a giant" (t=44-45).
+- t=47-52 (clock 1:10 to 1:04): Triumphant Taunt fired before the threat exists — "we can just tesla here and then we have the knight ability for the mini pekka cuz he's he's going to mini pekka on top. Knight ability to predict the mini pekka. Beautiful." The Log follows to finish it (t=52-55).
+- t=79-88 (clock 1:49): the ability held as a counter to the opponent's ability rather than to a card — "Beautiful protection of our archers. If he hits the ability, I can just go for my knight ability ... he's going to run away. What a knight ability."
+- clock 2:16 to 1:50 (t=131.8 [2,14], t=142.8, t=149.1 [6,14], t=158.7, t=162.2 [7,14]): five plain defensive deploys on his own half through the bridge-spam clip, all unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:52 (t=261.3, tile (3, 14)): pre-placed the Knight in the lane on an elixir count, before the Bandit was played — "I'm going to try to spam the knight in front to block the bandit right when he gets three... yo, what a good block. Great elixir countering."
+- clock 1:44 (t=452.5, tile (13, 14)): Knight at the bridge as cheap pressure while the opponent was tied up — "could go for the knight the bridge here just to be annoying."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

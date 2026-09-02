@@ -166,6 +166,61 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 2:49: also used plainly as a defensive drop at tile [11, 4] in the opening rotation.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 2:45: Evo Skeleton Army at [14, 9] straight onto an incoming Battle Ram that the tracker flagged as reaching the tower in ~1.4 s, with an Ice Spirit at [10, 12] alongside (elixir 9 -> 6).
+- clock 2:15: Skeleton Army at [2, 14] on his own left half, with the caveat that it is the deck's soft spot right now — "the only thing about this deck is that there is a lot of counters to it right now in the meta, but with this deck you're able to outplay every single match up if you play perfectly".
+- clock 1:36: "Let's put the Evo Skarmy here and then we can go for the Valkyrie in front of it as well" — Skarmy at [8, 6] with the Valkyrie screening it, stacked deliberately because he believes the opponent's only spell is Vines.
+- clock 1:14-1:01: names it as the deck's correct evolution slot — "that's why you have the Evo Skeleton Army over the Evo Wall Breakers... the Evo Skeleton Army in the right matchups can just get way too much value to pass up on and it is probably the best spell bait card of all time cuz if you don't spell it nine times out of 10, you will be losing that match". At clock 0:36 he then uses it as offence, at [14, 12] "at the bridge in the opposite lane".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- Never captured as an event but named nine times as the card he plays around all game: he Rages the bridge push "just [to] make sure that we take out that skeleton army" (725-727s), and holds the Rage for it later — "we can go for the Rage once he goes for the Skeleton Army" (876s).
+- clock 1:05 (t=806-808): the specific thing he fears from a bait deck is the evolved version — "The only thing that I have to watch out for is that he has the Evo Skeleton Army", then surprise when it never appears: "I'm surprised he doesn't have Evo Skarmy... crazy to see that he doesn't have it" (836-844s).
+- clock 0:38 (t=946.8): the un-evolved Skarmy is what loses the game for the opponent, cleared by Arrows — "beautiful arrows just grabbing that skarmy army and that is good game".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1467-1473s: mentioned only (not played). Names Evolved Skeleton Army as the reason Goblin Gang fell out of use — "Evo skeleton army was kind of like overshadowing it. Maybe it helps bridge those two cards a little bit more."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- Opponent's card, discussed not played by Ryley: "he starts off with the skeleton army at the bridge" (t=2462), and later an Evolution — "he did a really nice play with the Evo Skarmy. I got a little bit scared" (t=2527-2530).
+- t=2510-2514: Ryley's answer is to drop Mother Witch on top of it for Cursed Hogs, and at t=2588-2593 he keeps it in mind when choosing the Evo Battle Ram push over Elite Barbarians — "He has Skarmy and Dark Prince."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:04: named only as the threat his Zap is reserved for when he commits the Elite Barbarians to the bridge — "We have Zap in case he has a Skeleton Army."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:12: his stated Royal Giant answer, and the condition is the opponent's small spell — "because he has no barbarian barrel skarmy is a free RG defense. If he goes yep, let's just skarmy cannon" (626-629s).
+- clock 1:50: he admits one was a reflex, not a read — "I kind of panicked Skarmy, to be honest. I got scared right there. Just like not wanting to get completely rolled by the hero Valkyrie" (540-547s).
+- clock 0:21: he explicitly declines it as an offensive/bait card in favour of the cheaper barrel — "I'm going to go for the skeleton army too maybe. No, let's just barrel here. No point for going skeleton army" (618-622s).
+- overtime 1:30: he cycles deliberately toward the Evolution copy — "Cycle to our evolution skarmy as well" (666s) — then plays it at (4, 14) and again at overtime 1:28 to block a Hunter.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:32 (t=726.5): Skeleton Army at the right bridge (14, 15) while the opponent's Valkyrie + Fisherman + Hunter push is committed on his left — opposite-lane pressure with the deck's evolved swarm.
+- clock 0:11 (t=753.6): second Skeleton Army at (9, 10) as a centre defensive drop, planned out loud at 741-742s — "then we can maybe go for a Skeleton Army as well. Make sure that we keep DPSing this all down."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Mentioned, not played by Ryley — the opponent's 'Skarmy'. It is why he rates Elite Barbarians poorly in this matchup ('If he has Skarmy and... Dark Prince', t=1719-1722) and why he is happy to have Mother Witch in the list ('Skarmy matches', t=1726).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:32 (t=479.5, tile (8, 21)): Skeleton Army placed on the opponent's half as part of the closing pressure while both enemy towers were under 300 HP — "the Evil Skarmy — okay, it's dead now, but oh my god, that was such a beautiful prediction."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

@@ -180,6 +180,194 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:24 to 0:16: named her Cursed Hogs as the deck's win condition in a spell-less list — "Getting these piggies will be our win condition since we don't have a big spell." Six Mother Witch placements in the game (clock 2:28, 1:41, 0:35 x2, overtime 1:57, 1:24, 0:54), the last at [12, 14] in the closing overtime push: "Nice, great mother witch."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:38 (video 295.3s, tile [11, 18]): arrives with the P.E.K.K.A. and is the specific target of his defensive sequencing — "just to make sure that we distract the Pekka so the Barbarian B[arre]l can take out that mother witch" (303-308s).
+- clock 0:37 (video 418s): a later Mother Witch is pulled by his Evo Cannon — "It's Evo Cannon here. Nice. Great grab on that mother witch" (418-420s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 1:29-1:23 (opponent's card): the combination Ryley fears most in this matchup - 'I'm just really scared of the mother witch golden knight combo and I feel like no matter what deck I play, the mother witch golden knight just gets so so scary'.
+- clock 1:05 (opponent's card): a central Mother Witch placement denies his Berserker ability - 'he put the mother witch in the middle so I wouldn't be able to kill it, which is smart. I like that play by him'. He answers it with Barbarian Barrel at 0:27 and confirms the kill in overtime - 'We took out the mother witch'.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- mentioned only, not played (t=151-161s): Ryley uses her as the breakpoint for the Evolved Elite Barbarians nerf — "This will now no longer take out things like mother witch and zappies when both of the spears are throwing at the exact same time."
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- He plays her at two deliberate heights. High at the river (6, 14) at clock 1:14 as a body/bait in front of the Bandit — "let's go for a high mother witch to block the potential arrows" — and low on his own half (12, 7) at clock 0:21 once the game is won — "Just go for a low mother witch here, guys, and I think that we got this one in the bag."
+- clock ~1:07-0:57: he corrects his own reasoning about her as spell protection — "The mother witch wouldn't have actually blocked the arrows by the way, guys, but what I meant by that is that like if he went to like instantly arrows to take out the zappies, then it wouldn't have worked because the mother witch would have been tanking for the baby dragon." Her value there was tanking, not spell-blocking.
+- clock 2:09: a mid-lane Mother Witch at (8, 9) behind the first Battle Ram push, as the follow-up value card rather than a defensive anchor.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2504.5 / t=2507.5 (labels at [3, 17] and [8, 12]): dropped straight onto the opponent's Skeleton Army so the curse converts it into Cursed Hogs — "right now I went for the mother witch on top of the skeleton army, kind of just knowing that I was going to get some good damage" (t=2510-2514).
+- t=2488-2493: names her as one of the reasons the deck was picked into log bait — "we even had mother witch, valky, ghost. We just really needed as many bait counters as possible in this matchup."
+- t=2588.6: a second Mother Witch from the back at [9, 2] to start a push, which he immediately second-guesses — "here guys, I went for a Mother, which — that was not the greatest" (t=2594).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=974/t=986 (clock unreadable): placed on his own half ([7,9], then [10,11]) as the answer to the opponent's Royal Hogs — "So, I went for the mother witch as well on the piggies." He immediately second-guesses it: "I'm still unsure if this was a mistake even watching this back" (t=994).
+- t=1038.4 (clock unreadable): a second Mother Witch (HUD-exact, elixir 7->3) into his Golden Knight push, but the opponent's Vines blunts it — "I thought the mother witch was going to be the one card up. So, that was a little bit unfortunate, but also well played by him kind of keeping the vine."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card. Named as one of the two cards that make this defence hard — "I knew that defense could get a little bit tricky against mother witch and wizards" (t=2044).
+- t=2136: he handles her with building placement, not spells — "I was doing a good job at lining up my evo cannons with the mother witches"; at t=2132 he adds Log plus Evo Cannon "just to make sure to take out the mother witch".
+- t=2223-2227: her surviving is his stated cause of the loss — "I think it did actually lose me the game because the mother witch didn't die".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- Played by the opponent, not by Ryley: tracked at [5, 15] around clock 1:34 and he is caught out by it — "Oh, he has a mother witch. I did not know that. Oh man, that is unlucky. Maybe not unlucky, but it's just unfortunate" (t=536-542s). His Goblin Gang at [3, 5] dies into her and two Cursed Hogs appear on his own half seconds later.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. Ryley names her as a card his 2.0 log bait cycle cannot answer with a spell (395-398s), and keeps the Berserker's Savage Survival in reserve specifically for her — "We have the ability if he goes for like a mother witch or something or even like a ghost" (clock 1:33, 420-424s).
+- clock 0:28-0:20: when she finally comes down the left lane he spends the ability plus Skeletons and Berserker on her — "Okay, that was a interesting Mother Witch. Okay, I think I should go for the ability here" (483-488s).
+- clock 1:03: the Electro Spirit chain is his tool against the ghouls she leaves behind — "just to make sure that we chain the ghost ghouls away" (452-455s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- clock 2:43 (t=11.3): opening defence at [2, 5] (elixir 8.0 -> 4.0, deploy label) against a Skeleton Barrel the tracker had 1.2 s from his left tower — cheap swarm is exactly the food her curse wants.
+- clock 1:15 (t=99.1) at [8, 10] and clock 0:48 (t=126.1) at [2, 5]: support placements behind the Rune Giant rather than reactive ones, against an opponent cycling Spear Goblins and Goblins nonstop.
+- He plays for her survival over her cycle: "Oh my god, look at that Mother Witch, guys. It's still alive. Very good value right there. We can just reset here with a low Mother Witch and — oh wait. We don't even need to kill this Mother Witch here" (t=122-130), then heals rather than replaces her at clock 0:29 — "this is really good Heal Spirit to keep the Mother Witch alive" (t=143).
+- clock 0:25 (t=150): a last one at the bridge as the enemy tower falls 2217 -> 779 — "Let's go for another Mother Witch here at the bridge, guys. And look, it's just over, man."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:46: Mother Witch at (2, 4), deep behind his own left tower and directly in the path of an Elixir Golem that then splits into big/mid/small forms — the multi-body push is exactly her curse target. "And we can go for the Mother Witch here."
+- clock 1:26: her surviving the push is what he tracks out loud during the counterattack — "Mother Witch still being alive is not — [nice]."
+- clock 1:12: calls for a second one as an offensive bridge play — "let's go for another Mother Witch here at the bridge" — but his own elixir reads 3 falling to 1 across that window, and the only Mother Witch label at (4, 19) is attributed to the opponent; treat the second cast as unconfirmed.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 1:57: pre-declared as the Tombstone answer and as a card that constrains the opponent's hand — "we do have the Mother Witch for the Tombstone, so he has to be making sure that he's saving either Fireball or like an air unit just to instantly block it every time" (341-348s).
+- clock 1:41-1:37: played at (8, 13)/(9, 13) as an information probe, expecting to lose the exchange — "if I Mother Witch like this, more often than not he'll just Mega Minion on top of it, which is fine by me. I just need to know what he's able to do. Let's go for the Mother Witch here. Force him to go for the Fireball and then we can go for the Minions" (358-367s). He then plans around the spell landing on her: "he has no Evo Zap, so he's not going to be able to take out our Minions as well after he fireballs the Mother Witch" (407-412s).
+- clock 0:28 and 0:08: used for the Cursed Hogs as blockers and as a counter-push under a Lava Hound attack — (8, 9) "Just keep this alive. Spawn a piggy to block. Perfect" (437-439s), then (8, 7) with the trade stated explicitly: "we just want to get the counter push off of the Mother Witch. Even though we are going to take some damage, I feel like getting this counter push is a little bit more important cuz we need to win the game right here, right now, or we are dead" (450-459s).
+- OT 1:44: (7, 10) to keep the pressure on in overtime — "let's Mother Witch here again. Just keep up the pressure here cuz he's going to have to watch out for these Piggies. He does a nice ability, which is fine by me. It's going to spawn a Piggy" (477-484s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 1:34 (t=592): picked in this matchup as the answer to enemy Minions - "And we do have a Mother Witch in case he goes for the Minions. We can go for like a quick Mother Witch Heal Spirit or something." Played at [15, 19] with Heal Spirit at [13, 19] at t=593.6-598.6.
+- clock 0:29 (t=655.7): plays her at his own back line [9, 0] because the opponent has no small spell for the Cursed Hogs - "Let's go for the Mother Witch though cuz he has no Evo Zap."
+- clock 0:07 (t=676) and overtime 1:51 (t=693): the Cursed Hogs are what keeps chipping while he is behind - "That Mother Witch is going to keep on spawning. Let's Zap here as well. Keep this alive" and "We get a little bit of [Piggy]'s chip damage."
+- overtime 1:29 (t=715.7): Mother Witch at [14, 15] behind the Rune Giant - "we Rune Giant here to protect the Mother Witch" (t=670-672 for the same pattern).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 2:47: opens the game with her (HUD-exact, elixir 10->6) before the opponent has committed anything.
+- clock ~2:07: willing to let her die inside a push that has already paid for itself — "if we just let the Mother Witch die, then we're just four elixir down. But at least that way we get a lot of value out of the cards that we already placed."
+- clock 0:17: played deep and central at (8, 6) as a defender in the final stand, not as a push card.
+- clock 1:35: named as the Rune Giant enchant target he used in the previous game and deliberately moved away from here — "Last time I boosted the Mother Witch first."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:33: Mother Witch at tile [12, 10], centre-right of his own half, elixir 10 -> 6, answering a ground push in the left lane and a Skeleton Barrel on the right — "Let's go for the mother witch here. He might go for a fireball if he has it."
+- clock 1:40: he reads the opponent's Fireball on her as the game-losing move — "Dude, I knew that fireball would cost him so much, man. This deck is just so good that just any tiny inconvenience and you're just completely rolled."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:41: opening back placement at tile [8, 0] behind an incoming Evolved Firecracker, seeded before any defence was needed — "Let's go for the Mother Witch in the back here", then at 2:19 "Mother Witch, please cook. Nice."
+- clock 1:37: replayed at tile [8, 9] specifically inside the Rune Giant's 8.5-tile enchant range — "Happy to have the Evo Zap here. Let's Mother Witch like this. He might go for an Evo Firecracker."
+- clock 1:26: her curse converted the opponent's Evolved Skeletons into three Cursed Hogs, which is what took the tower — "That was a bad set of skellies as well. He just gave us three piggies" and later "he just did one tiny mistake with his skeletons and just got completely punished for it."
+- clock 0:55: back placement again at tile [9, 0] while ahead, as defensive insurance rather than offence — "It's not game over yet, but let's just Mother Witch in the back here to start setting up some defenses."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 2:26 (t=1266.3): Mother Witch at [6, 6], behind the Rune Giant and into an incoming Barbarians/Elite Barbarians push, with the conversion count as the explicit goal — "I know this is going to get a little bit of damage, but it's fine. I just want to get as many piggies as possible. I think we should get like maybe two piggies if we're lucky" (t=1266-1275).
+- clock 2:00 (t=1291.6): he spends a Heal Spirit purely to protect her rather than to damage anything — "It's Heal Spirit here as well. Keep the Mother Witch on full HP. Beautiful" (t=1292-1294).
+- clock 0:32 (t=1380.5) and overtime 1:24 (t=1448.8): Mother Witch at [9, 12] and then at [7, 13] "at the bridge", each time in front of a Witch / Elite Barbarians / Electro Spirit push so the deaths convert — "Let's go for the mother witch here at the bridge. We can go for the e-barbs here as well" (t=1447-1450).
+- overtime 1:11-0:50: he tracks her survival as the win condition — "Mother witch is still alive and cooking" (t=1462), "Let's mother witch this again" (t=1466) — and the Cursed Hogs finish the game: "The piggy. The piggy. Let's go. Dude, we won" (t=1481-1483).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:12: played purely for King Tower activation against the opponent's Firecracker — 'Let's just go for the Mother Witch here just to make sure that we activate that King Tower off of the Firecracker. Beautiful King Tower activation' (t=42-47), label [10, 9], elixir 6.0 -> 2.0; his King Tower HP first reads at t=50.
+- OT 1:52: he plays her high up the field hunting a curse — 'We could go for a high Mother Witch here. Maybe even grab a set of skellies if we're lucky' — and credits the opponent for declining: 'Doesn't go for the skellies, which is smart by him' (t=182-187).
+- OT 1:14: the play that wins the game — 'Grab skellies. Oh my god. Nice. We grabbed the skellies. E-Barbs are on the tower... just like that, we're actually in the damage lead' (t=222-230); the Cursed Hogs plus Evo Elite Barbarians take the enemy right tower from 4603 to 1700.
+- OT 0:42: doubles down rather than saving her — 'go for a high Mother Witch here. I do need to get another Mother Witch down' (t=250-254), label at [9, 14]; 5 labelled deployments, all in the centre or right of his own half.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 0:13: Mother Witch dropped behind a bridge Elite Barbarians at (9, 12), deliberately offset from the lane — "You can go for a mother witch here as well. Off to the side. Make sure that we grab this."
+- overtime 1:46: Mother Witch at (8, 13) behind a bridge Ebarbs, aimed at the opponent's cheap defenders and his Tesla — "We can even go for a nice mother witch. He's probably going to go for a knight. We can just get some mother witch value on top of that. Try to damage down that Tesla."
+- overtime 1:07: forced to spend her defensively on Evo Archers instead of adding her to the push — "We have to get mother witch on the archer sadly. So, we're not going to be able to break through."
+- overtime 0:42 and 0:12: sent down the middle at (9, 11) then (3, 14) as part of the four-card overtime waves — "We can go for the mother witch down the middle too. We can try to get something going here"; "He has to perfect defend mother witch the bridge."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock ~2:02: Mother Witch onto the stream of Tombstone skeletons so the curse converts them - "I'm tempted to go for a Mother Witch on these tombstone skellies. Yeah, let's do it to be honest because we can just go for a battle ram."
+- clock 1:11: Mother Witch deep on defence at (13, 2) against Lava pups and Skeleton Dragons - "going to have to go for a mother witch here on defense. So just to not get three crowned."
+- clock 0:31: Mother Witch at (2, 7) off to the far side, hedging against a pocket Lava Hound - "I'm going to go for the mother witch off to the side cuz he might lava in the pocket."
+- clock 0:22: treats her as a card the opponent must answer with a spell - "He has to watch out for the mother witch again as well cuz it's going to spawn a bunch of piggies", and earlier reads the opponent out of the answer: "after that Valkyrie, he's not going to be able to afford a fireball on the mother witch."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- clock 0:40 (t=866.9): played defensively at [2, 12] into the opponent's swarm specifically for the Cursed Hogs - 'And we can go for a mother witch here just to start spawning some royal hogs' (t=866-869).
+- clock 0:11 (t=896.9): keeping her alive drives the rest of his game - the Goblinstein goes to the bridge 'cuz now he's going to be unable to kill the mother witch' (t=897-899), and the final Battle Ram is a 'lightning block for the mother witch as well while the mother witch is still alive' (t=905-907).
+- clock 2:23 / 0:15 (t=763.8, 892.9): two further truncated 'WitCH' deploy labels at [9, 14] and [9, 8], both on Ryley's own half; the pipeline attributed the first to the opponent.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 1:56 (t=969.8): Mother Witch placed wide rather than in the push — "Let's go for the mother witch here off to the side"; she died to the Skeleton Barrel despite a Battle Ram sent to block for her ("Oh, the mother witch died anyway. That's so unfortunate", t=976-978).
+- clock 1:26 (t=1000.0): Mother Witch at [12, 4] behind the defence — "we can go for the mother witch as well just to try to help out on some of these".
+- clock 1:32 (t=1113.1): third Mother Witch at [11, 8] during the overtime defence against Rascals.
+- clock 2:28 (t=937): counts her as part of what makes the list good into bait — "We have a decently quick cycle with the mother witch, the heal spear [Heal Spirit], and the double small spells".
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- clock 2:31 at tile (9, 0) behind his own king tower as the opening investment, then clock 2:02 at tile (9, 10) in the centre of his half paired with an opposite-lane Battle Ram.
+- clock 1:12 at tile (8, 4) (HUD 8 -> 4 plus deploy label) placed specifically against the opponent's Mega Minion, and positioned so the Mega Minion's ability is a losing option - "the mother witch on the mega minion, but I want to do it to where like if he pops the ability, it just wouldn't be a good play."
+- clock 0:42 at tile (7, 11) as offensive support, committed knowingly into a Fireball - "we need to go for a mother witch up top as well. I know he's probably going to fireball, but it's all right. I think even if he fireballs."
+- He treats keeping her alive as the plan rather than a side effect: "we can just keep this mother witch alive which is very nice" (clock 1:51).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md):
+- clock 1:07 (t=1416.4): played on his own half at tile (9,13) behind the Elite Barbarians push — "low key, I think I want to go for the mother witch [plus] heal spirit. Nice"
+- clock 0:28 (t=1454): explicitly held back rather than played on sight — "let's go for the mother witch here too low key. I want to do it late though"
+- clock 0:05 (t=1478-1480): chosen as the Fireball-proof follow-up — "He could go for a good fireball, which is fine cuz he won't be able to take out the mother witch"
+- clock 0:53 (t=1424): her Cursed Hogs become a Zap retarget target — "I'm going to zap here to retarget that to the piggy"
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent: tracked at t=344.3 [8, 17] and Fireballed at t=429.4 [4, 28] - "I just fireballed the mother witch, kind of just assuming he was going to go giant skelly in the back, but I was confident in my defense" (432-439s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1191.2 (9, 15) and t=1263.3 (7, 15): the card Ryley's Evo Cannon placement is built around — "I was doing a good job at lining up my evo cannons with the mother witches" (t=1265), and she is named with Wizard as what makes defence hard — "I knew that defense could get a little bit tricky against mother witch and wizards" (t=1173).
+- t=1143.1 (11, 19): used by the opponent as a clean answer to a bridge Evo Princess, which Ryley rates — "He got a nice mother witch, but I was just going to log this anyways. It was a smart play by him. They're just making sure to take no princess damage early on".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1720.7: placed from the back at [11, 7] as support for the counter-push against a Skeleton Army deck. He grades his own timing down: 'I went for a mother witch — that was not the greatest, Skarmy matches, with him not having dark prince in hand' (t=1724-1728), i.e. commit her on the opponent's hand state, not on elixir alone.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

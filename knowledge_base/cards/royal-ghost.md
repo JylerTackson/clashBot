@@ -140,6 +140,60 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 2:22 (opponent): walks the whole left lane from [5, 25] to the King Tower unanswered; Ryley takes the damage on purpose - "Hopefully, activate our King Tower" (clock 2:07) - and gets it, own king HP becoming readable at 7512 the next second: "Nice, beautiful King activation."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 1:55, 0:57, 0:29 and 0:19 (evolved): played at [3, 9], [8, 0] and [12, 8] — always his own half, usually the back rows, as cycle and defence rather than a lane opener. "Let's go for the ghost in the back and we can go for the furnace as well" (0:58).
+- clock 1:55: the one time he committed it under pressure it was a concession, not a counterattack — "We'll just go for the ghost here. Take a bunch of damage."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Faced, not played: tracked on Ryley's own half at tile (3, 13) at clock 2:37 and again at (13, 17) at clock 1:32, and on his right tower at (14, 6) at clock 0:13. His answer at clock 2:33-2:32 is Goblinstein (6, 8) plus Tornado (4, 13) plus Royal Delivery (2, 8), an 11-Elixir defence that still leaves the left tower at 2949 HP.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2498.5: Royal Ghost at [2, 17], left lane at the river, aimed at a card rather than the tower — "here I went for the royal ghost at the bridge, making sure to take out the dark goblin [Dart Goblin]" (t=2496-2500).
+- t=2549-2556: rates him as the card log bait cannot answer cheaply — "he didn't really have a good counter for my royal ghost, cuz right here, you know, he doesn't want to waste a dark prince. That's not really like the greatest thing to have to do."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=1050 (clock unreadable): paired with the evolved Battle Ram as bridge pressure while his own left tower sat at 132 HP — "I went for the uh the ghost here plus the evo battle ram knowing that I definitely had to apply a lot of pressure."
+- t=1090.1 (clock unreadable): HUD-exact (elixir 6->3) side-lane Royal Ghost in the closing sequence — "Then I went for the Royal Ghost here on the side."
+- t=998 (clock unreadable): an earlier bridge placement ([4,18]) during the Dark Prince trade that cost him 532 tower HP.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. The opponent's opening pressure card, tracked down Ryley's left lane at clock 2:45-2:35 and again at clock 1:53; he answers both runs with 1-elixir cards, Skeletons at (3, 12) then Berserker deep at (1, 9).
+- clock 2:02: "We can just go for the skeletons here on top of the ghost" (390-392s) — Skeletons placed directly on the Ghost rather than in front of it.
+- clock 1:33: he lists the Ghost alongside Mother Witch as a reason to keep the Berserker ability unspent (420-424s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 0:45 onward: tracked crossing at (15, 16) and (15, 13) at t=550.5-554.6 and repeatedly in the right lane through overtime; answered with Bomb Tower plus Royal Delivery - "Let's bomb tower here and we can go for the delivery as well. Is that going to walk to it? I don't think it will. Oh, it does" (496-503s).
+- clock 1:28 / 0:40 (overtime): used as a prediction target - he plays Wall Breakers specifically to draw it out - "Let's wall breaker[s] here to force him to go for the ghost" (629-631s), then "Okay, he went for the ghost" (679s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1678-1683: the bridge Royal Ghost is priced against the answer, not the tower — 'he didn't really have a good counter for my royal ghost cuz right here, you know, he doesn't want to waste a dark prince. That's not really like the greatest thing to have to do.'
+- Video t=1712.7: one deploy at [15, 6] on his own half while he was down to low elixir after the Elite Barbarians bridge play.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:47 (t≈411): planned a Royal Ghost push opposite lane and abandoned it when he read the Miner block — "I'm going to ghost here. Wait, he's going to minor to block, so let's go for the goblin hut... I literally knew he was going to minor, then I tried to block the ghost."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card, only ever seen through arena tracks — never a deploy label. Tracked into Ryley's right lane at t=844-848 (own right tower 4858 -> 4312), again at t=892-896 and t=966-982.
+- t=917s: he expects it and appears to read it as an evolution — "he's going to ghost on this evil ghost"; at t=931 he notes the Evo Wall Breakers damaged it — "good damage on the ghost too".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

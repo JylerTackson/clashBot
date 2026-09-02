@@ -125,6 +125,101 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - Not in this deck: the 'GobliN-3' deploy label at [2, 25] (t=1049.5) is two tiles and two seconds from the Goblin Barrel Ryley threw at [3, 24], i.e. the barrel's spawned goblins rather than a Goblins card. Goblins appear in the raw per-game deck read for this reason only.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — named only at 754-767s as part of the Mortar/Barbarians/Goblins balance batch: 'they are also doing a bunch of balances to the mortar, the barbarians and the goblins. It affects so many different cards and dude truthfully this is the one that I am most unsure about.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=854-873), balance changes: "they are nerfing the Hero Goblins, making it so every time you pop the ability instead of getting three Goblins, you will now get two. But it will only take one second for the Goblins to deploy now. So the Goblins, even though there's less of them, they will be coming out quicker. So you have to respond to them faster."
+- Mentioned only (t=875-880): Goblin damage across the board goes up 4%.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1446-1450s: mentioned only (not played). Counts the Goblins buff as one of two indirect buffs to Goblin Gang — "the goblin gang got two buffs with the goblins and the spear goblins."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2278 and t=2404 (clock unreadable): cheap defensive drops on his own half at [14, 12] and [15, 12] against Lava Hound support during the two Hound pushes.
+- t=2427 (clock unreadable): offensive Goblins at [15, 17] paired with a Barbarian Barrel in the far lane to punish a committed answer — "he'd have to Valkyrie on the left side and he actually Valkyrie'd, and guys look at these goblins on the right side. He didn't have anything" (t=2427-2436).
+- t=2370-2386 (clock unreadable): Goblins at the bridge alongside the barrel are what deny the Lava Hound — "barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (t=2372).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 1:25 (t=932.9) goblins at [12, 16] pushing the right lane alongside the Mortar; handled by the Tesla and the Skeletons at [8, 5] without spending a spell.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:02-2:00 (t=815.9): Goblins pre-placed at (1,7) behind his own left tower before the Miner appears - "I'm just going to chill out here then maybe have our Goblins ready for the Miner... Goblins to catch the Miner. Perfect." He repeats the same (1,7)/(1,6)/(1,5) placement six times across the game.
+- clock 0:27 (t=908.7): Goblins at (5,5) then The Log behind them as a two-card ground answer - "Go for the Goblins log here. Beautiful catch, man. I'm catching pretty much everything."
+- clock 1:48 overtime (t=945.7): Goblins at (1,6) thrown as a prediction, mistimed - "Goblins predict the minor then we hog. Oh, bad timing."
+- clock 0:13 overtime (t=1046.8): Goblins at (1,5) as a prediction that lands - "Goblins predict them. Okay, nice."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 1:38 and 0:30 (overtime): the opponent's Goblin Barrel answer, deploy-labelled at (2, 25) at t=619.6 and (2, 26) at t=681.7. Ryley calls it as part of the elixir tax he is applying - "And now he has to goblins on this" (622-624s), following "He has very good goblin barrel answers" (531-532s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card (deploy label 'GobliN3' at t=914.9, arena tracks at [11, 21], [1, 15]). Named as one of the two cards his no-Log list struggles with - "goblins, princess being low cuz we don't have like a log or anything like that" (t=835-838). He answers them by predicting: "then we fire spirit predict the goblins. Nice" (t=920-922), and calls a misplayed set from the opponent - "bad goblins by him as well" (t=1045).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1557.6, tile (15,15), paired with Barbarian Barrel on the right bridge while the Valkyrie was committed left - "guys look at these goblins on the right side. He didn't have anything" (1562-1566s). The enemy right tower read 987 -> 237 over the following six seconds.
+- video t=1410.1, tile (14,10) (elixir 4 -> 2): defensive filler behind a Dark Prince during the opponent's Lava Hound push.
+- video t=1473.5 (0,11) and t=1539.5 (17,13): the cheap half of his bridge pressure pairs - "barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (1501-1504s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:50 (t=203.2, tile [4,14]) and clock 1:16 (t=238.2, tile [14,11]): both drops are placed on a stated read of what the opponent must spend — "he needs to defend the goblins on the left side cuz of the ability. So, if he goes for the bandit on the right, yep, he's kind of cooked" (t=214-219), then "Goblins will take out the ghost" (t=240-242) against a Royal Ghost tracked at [15,7].
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:35 (t=378.4, tile (3, 14)) and clock 0:15-1:29 (t=564.6/602.6, tile (1, 25)): Goblins used as the cheap follow-up behind a barrel, and protected with a 3-elixir Vines when one survived — "let's Vine spell here just to keep that one Goblin alive."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card, used as their Goblin Barrel answer. Ryley predicts it and rates it correctly before it lands — "He's going to goblins for no damage. Maybe he logs. That'd be good for us, but goblins is just the better play" (t=861-865). Not a card in his own deck; the one HUD 'Goblins' read at t=934.8 is a mis-read (see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Mentioned only as an opponent card, never seen on the field in this game. Their absence from the opponent's cycle is what green-lights his barrel spam: "Fireball, barb barrel, and goblins. That's an interesting deck" (1237-1239s), "just barrel here because he has no barbarian barrel and no goblins in [cycle]" (1243-1245s), and "he has no Goblins to cycle either so he probably has to Fireball this" (1302-1304s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:51 (t=120.1, tile [1, 20]): played by the OPPONENT on their own left side against Ryley's Hog Rider.
+- clock 2:03 (t=54): named only as a weakness of the new Evolved Elite Barbarians spear — "it damn it doesn't have damage to take out goblins, and it rages everything in the e-barbs path."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- overtime clock ~1:49 and 1:10 (t=1164-1197): the defence he pre-empts twice with The Log — "I'm going to pre-log as well cuz he's either going to Goblins or Mega Knight" and "I'm just going to log here for the Goblins. The Skellies should block some Goblin shots and get us an extra shot".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:12 (t=201-202): mentioned only, as an alternative hero for the same slot — "you can always like replace it with the hero goblins and stuff like that. Just all these different kinds of substitutions just to whichever fits your card levels better."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:51-2:26: part of the opponent's opening alongside Baby Dragon — "Baby dragon and goblins"; Ryley kited a Goblin with Wall Breakers at clock 2:32 rather than spending a real answer.
+- clock 0:12: he tracks the enemy hero Goblins ability as a defensive risk — "He has the goblin ability. I have to be careful of that. I think we're fine though. I don't think it really matters that much."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

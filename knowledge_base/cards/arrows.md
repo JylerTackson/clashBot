@@ -124,6 +124,78 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - clock OT 1:12 (t=216-224): Ryley cycle-tracks it and only splits his Evo Archers once it is gone — "He wasted his arrows there so now we have a nice set of Evo archers able to be played... obviously he's not going to go in at the bridge with no arrows in hand."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 1:11 (t=618.6): the opponent drops Arrows at (9, 6), on Ryley's own half, onto the Skeletons-and-spirit cluster he had built in front of the Cannon.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- clock ~0:37: cast on the opponent's cloned Minion swarm immediately after a high Valkyrie — "Let's go for the high valkyrie here. I have to go for the arrows here as well. That was a little bit of a bad clone, I think" (313-317s).
+- Deck-slot note: Arrows is this list's small spell in place of the Freeze that Ryley runs in his own Mother Witch bridge spam deck. It sits in hand slot 2 for the last five HUD reads (clock 0:16-0:12), but no elixir delta cleanly isolates the cast, so the read is moderate-confidence (see the match file's Data gaps).
+- clock 1:12-1:05: he plays around the opponent's Arrows on his Zappies by putting a Mother Witch in front — "he might try to arrows last second" — and the opponent's Arrows does land at clock 1:05.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:05 (t=801.5): spent reluctantly on the Evolved Dart Goblin because nothing else in the deck answers it — "I don't even want to arrows at the evo dark goblin, but I do think that I have to".
+- clock 0:32 (t=834-837): cycling to Arrows is a stated objective in this matchup, not an afterthought — "We have to cycle to our Arrows to take out that Princess".
+- clock 0:38 (t=946.8): the game-ending play, Arrows on the Skeleton Army defending his overtime push — "Let's go for the arrows here for the skarmy. Nice beautiful arrows just grabbing that skarmy army and that is good game".
+- clock 1:51 (t=747-753): names the combo he wants with them — "if I had e-barbs right now, I'd just drop e-barbs arrows at the bridge, to be honest, and I think that it would actually end up working out".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2486-2490: Arrows is a deliberate matchup slot in this CRL deck — "so here we went for a deck with arrows just to have a good chance... we just really needed as many bait counters as possible in this matchup."
+- t=2514.5: Arrows at [6, 26], onto the Princess/Dart Goblin cluster behind the opponent's tower, for damage rather than defence — "I even went for an arrows here just to try to get an early lead. I just love early leads in this type of matchup, because you're just able to get nice sequences out of it if they have to go in overly aggressive" (t=2514-2525).
+- t=2607.6: Arrows at [14, 30] finishing the last push — "I went for the arrows, guys, and I took out the entire tower in one push" (t=2611-2614).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- mentioned, not seen: he tracks the opponent's small spell as a cycle resource on both sides of the board — "I'm going to gang on the side here because he has no arrows in cycle" (t=378-379s) and later "He's definitely going to go for the arrows here and just try to completely take my tower" (t=443-444s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- mentioned only, not played (t=969s): the spell he places around rather than baits — "He might go for the arrow. So, I'm going to go for the dart goblin off to the side here", which is why the Dart Goblin goes to [15, 6] instead of behind the tower.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:08 (opponent's spell): he spends a cheap bridge package specifically to find it — "I just want to figure out if he even has any spells. Okay, he has arrows but we do get some decent dark goblin chip" (211-216s).
+- clock 0:50: with Arrows known, the Goblin Barrel becomes bait — "Barrel here to try to force out the Arrows. Then we can go for the Dart Goblin off to the side" (289-292s); when the opponent does not use it at clock 0:38 the tower goes from 960 to 360 HP.
+- clock 0:42: he places 1-elixir spirits deep to dodge a prediction Arrows — "I'll put the E-Spirit all the way down here though just so I don't get clipped with a prediction Arrows or anything like that" (297-301s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:48 (t=576-580): spotted mid-game and treated as bad news for a bait deck — "Oh, he has Arrows, too. That's unfortunate".
+- clock 1:02 (t=626-628): he plays the Dart Goblin into it anyway rather than waiting — "I know he's going to go for the Arrows on this as soon as he can".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:42 (opponent): predicted before it exists — "He's going to arrows, right?" — and he places his Minions at (5, 5) "off to the side" for it. The Arrows are only actually tracked at (4, 22) at clock 1:05.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 1:31 (t=926.9): opponent Arrows spent at the back; Ryley immediately cycled Royal Hogs to the right bridge at clock 1:32.
+- clock 1:01-0:56: he tracks it as the opponent's only spell for the hogs — "he probably only has arrows actually now that I think about it" (960-961s) and "He might go for like the arrows" (964s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1736.7: cast at [14, 26] on the enemy tower on top of the Valkyrie + Evo Battle Ram + Heal Spirit push — 'I went for the arrows, guys. And I took out the entire tower in one push' (t=1740-1743). Enemy right tower 2954 -> 716 HP between t=1738 and t=1740.
+- Arrows is in this list as a bait counter rather than a cycle spell: every card he names on the opponent's side in this segment (Skeleton Army, Princess) is an Arrows target.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 1:26: the opponent's Arrows go out early and Ryley immediately banks the window — "Th- Those were a good but aggressive arrows cuz now he won't have the arrows for my Evo Firecracker."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

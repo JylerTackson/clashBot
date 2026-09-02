@@ -139,6 +139,214 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 1:53 (t=58-62): it is the reason he changes a placement — "maybe I should put it in the back, just because obviously with him having Bomb Tower, it can get very, very complicated."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:49 and 1:19 (opponent's card): he tracks its cycle explicitly as the thing that stops his hogs — "we won't be out cycling the bomb tower this time obviously cuz he didn't use it on the last defense" — and is happy to spend hogs just to force it out ("I know we can bomb tower, but it's just going to be nice to force this out").
+- clock 0:51: "Okay, he's back to bomb tower now. Good job, though. Forcing that out" — with the opponent's elixir estimate down to ~0.5, drawing the building out is the whole point of the hog pressure.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 1:49, 0:52 and OT 1:45: the opponent's Bomb Tower (tracked at [8, 17], [8, 18] and [3, 19]) is the counter Ryley respects most — "obviously has bomb[ tower] which is a better counter overall but of course we can just defend cheaper by not using our building at all" (t=772-776).
+- clock 0:58: he attacks its elixir cost rather than the building — "I'm just going to piggies immediately at five elixir. So if he steines the bridge ... he won't be able to afford the bomb tower" (t=785-790).
+- OT 1:55: and its cycle — "we're out cycling the bomb tower. He's back. And one more card. Okay, he's back now, but it's a little bit too late" (t=849-853), said while the enemy left tower fell from 3019 to 1727.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:43: nine deploy-labelled plays, the busiest card of the game. Two placement families — "high" at the river to meet a lane ([5, 13] at clock 2:43, [8, 14] at OT 0:20) and centred in front of the towers to pull ([9, 9] clock 1:33, [8, 9] clock 0:50 and OT 0:15, [8, 10] OT 1:49 and OT 1:18, [8, 11] OT 0:52).
+- clock 0:29: the one left-side placement, [2, 9], came after the Firecracker/Hog Rider lane had already taken his left tower from 4858 to 2998.
+- OT throughout: the detector shows a bomb-tower sitting at [8, 6] across most of overtime, i.e. he kept one alive in the middle almost continuously while the opponent's right tower was ground down. No commentary — this game's talk is entirely about the patch notes.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 2:43: opens the game with it at [8, 11] on a full bar (elixir 10 -> 6) and rebuilds it 11 times across the match (1:57, 0:47, 0:17, 0:03, OT 1:29, OT 1:25, OT 0:53, OT 0:43, OT 0:19, OT 0:07) — every readable tile is the centre column of his own half ([8, 11], [9, 10], [8, 10], [9, 9], [9, 11]), inside both crown towers' cover, so one building covers either lane against a Miner/Graveyard/P.E.K.K.A. deck.
+- clock 1:57: goes straight to Bomb Tower at [9, 10] (elixir 9 -> 5) as the opponent lays a Graveyard at [9, 3] in front of his King's Tower, then repeats the pairing at 0:03 when the second Graveyard lands at [8, 3].
+- clock 0:31: the building is the fixed half of his answer to a three-threat wave (P.E.K.K.A. at (3, 12) + Battle Ram Evolution right lane + Mini P.E.K.K.A.), with Tornado (elixir 5 -> 2) clumping into its splash — the Bomb Tower + Tornado pattern is the deck's whole defensive identity. He never comments on the card.
+- OT 1:29 and OT 1:25: two Bomb Tower plays five seconds apart (elixir 9 -> 5, then 6 -> 2) while defending Ronin pressure — both HUD-high, though the second may be a duplicate detection.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 2:12 (t=362.5): placed at tile (8, 10), dead centre of his own half and inside his Crown Tower's radius, as the first anchor of the defence.
+- Replayed roughly every 30 seconds as the lifetime expires and moved to whichever lane the opponent commits to: (8, 9) at t=419.4, (9, 9) at t=457.5, (2, 9) at t=512.5, (15, 9) at t=536.5, (15, 4) at t=557.6, (15, 12) at t=600.6 — seven placements in a five-minute game.
+- clock 1:09 overtime (t=544.0): a fresh Bomb Tower goes down as the opponent's Rune Giant push forms, with Tornado (t=533.2) and Archers at (10, 9) (t=537.0) layered on top of it.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock 1:08 at tile (8, 9) (HUD 7 -> 3, deploy label agreeing), clock ~0:42 at (8, 10) and clock ~0:13 at (8, 7): all three placements are the centre column in front of the King's Tower, covering both lanes against Evolved Battle Ram and P.E.K.K.A. traffic rather than being pulled to the threatened side.
+- clock 1:08: the placement goes down as an Evolved Battle Ram is tracked at (3, 11) closing on his left tower, i.e. he places the building before the ram commits rather than reacting to it.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:04, 1:13, 0:19 and in overtime: replays it at almost the same centred tile every rotation ([8, 10], [9, 10], [8, 10], [8, 11]), in front of his own towers where both Crown Towers cover it, as the anchor against Guards, Ram Rider and Miner pressure.
+- clock 0:51 (t=916.9): the one off-centre placement, [15, 9] on his own right, against a Ram Rider tracked at [14, 11] with a 4.5 s threat warning.
+- Every Tornado and Royal Delivery in the game lands within a couple of seconds of a Bomb Tower — the clump-then-splash pattern the card is built for.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:21 (t=1024.0): Bomb Tower at [8, 8] against the opponent's first Graveyard (tracked at [7, 0], 0.2 s from the tower); his left tower reads 4858 unchanged through the whole defence.
+- clock 1:03 (t=1102.1): Bomb Tower at [9, 9] under the second Graveyard, stacked with Archers at [9, 7] and Magic Archer at [8, 4].
+- always centre or centre-left so it covers the Graveyard radius and pulls the level-16 Miner: [12, 3] 2:36, [8, 10] 2:05 and overtime 1:50, [7, 9] 0:31 / overtime 1:28 / 1:08 / 0:21, [9, 11] 0:13.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:25, 1:03, 0:12, OT 1:47: places Bomb Tower on exactly the same tile every time — [8,10], dead centre inside his King's Tower radius — so it covers both lanes against the Electro Giant and the Miner.
+- clock 2:14: the centred Bomb Tower plus Skeletons at [16,11] holds an Electro Giant + Phoenix right-lane push to 40 HP of tower damage; the Electro Giant is tracked retreating by 2:08.
+- clock 2:25: he uses the Bomb Tower already on the board as his example for the Hero Tombstone sight-range nerf — "say I have a bomb tower here and they have the Tombstone walking right here. The ability will actually just end up going towards your tower, which is pretty good."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Opponent's card, tracked at tiles (8, 18), (6, 20) and (1, 20) across the clip. Ryley considered predicting or blocking it and judged both bad: "I wouldn't have got a good situation out of predicting the bomb tower or just even blocking it cuz the skellies did block the first shot. But it's true unfortunately" (1181-1186s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 0:52: the opponent's fifth Bomb Tower placement is exactly the trigger for Ryley's Evo Skeleton Barrel — "If he bomb towers, I can go for the evo skelly barrel. Yep, this is a free evo skelly barrel" (t=722-725s).
+- overtime 1:39: he counts the opponent's elixir and knows a repeat is unaffordable — "he has to waste his bomb tower again. Oh my god, he's not going to be able to afford it" (t=795-797s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 1:13: the opponent's Bomb Tower at [9, 19] is the card Ryley says breaks the matchup — 'Him having Bomb Tower is really, really bad for us cuz it's going to make his defense a lot easier having the Knight, Firecracker and Bomb Tower' (t=106-112).
+- clock 0:15: he treats forcing a second one as a win in itself — 'We forced out a second Bomb Tower, which is something' (t=159-162); two enemy Bomb Towers are alive at [9, 18] and [2, 19] from t=160.
+- Five opponent deployments across the game (t=100, 148, 192, 212, 244), all in the centre-right of the opponent's half — against a building-less bridge spam deck it answers Battle Ram, Elite Barbarians and Cannon Cart alike.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- The defensive anchor: seven placements, six on the same central band from tile [8, 8] to [8, 13] (t=60.1, t=77.1, t=132.1, t=180.2, t=216.2, t=238.2, t=251.3), against Graveyard, Cannon Cart and the enemy Valkyrie.
+- clock 0:45: Bomb Tower at [8, 10] behind a Valkyrie at [9, 10] as the Graveyard lands at [8, 0] (t=132.1, t=134.1) — the pattern he repeats every time the opponent commits.
+- overtime clock 1:20 and 0:27: he calls it as the reflex answer under pressure — 'Let's just go for the Bomb Tower here' (t=216), 'then we have to go for the bomb tower' (t=239), 'Let's bomb tower here. We're going to take a lot of damage here' (t=268).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Opponent's only defensive building, sitting at (8, 19) from clock 1:46 onward. Ryley uses its cycle as the trigger for his commits: "He's in a bit of a predicament cuz he has to cycle back to the Bomb Tower. Okay, he's back to the Bomb Tower now, but I should be able to defend this anyways" (362-369s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- The opponent's Bomb Tower (tracked at (9,19) for most of the game) is what Ryley plays his Hog Rider around: he counts forcing it out as the return on the Hog - "At least he has to use the bomb tower again. He's barely got any damage" (clock 1:44 overtime, t=951).
+- clock 0:48 overtime (t=1007-1011): he punishes a forward Bomb Tower placement at (9,15) - "Okay, that was a bad bomb tower. Just in general... this is going to get a free hog rider shot."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- nine placements, eight of them on the same centre tile [8, 10] (clock 2:08 t=42.0, 1:27 t=85.1, 0:38, 0:18, 0:08, overtime 1:46/1:29, 0:52 at [8, 11]), re-laid as soon as it is off cooldown — the centre-pull building of the deck.
+- clock 1:09 (t=105-108): he counts cycle against it — "we do have to be a little bit careful though cuz we are not back to the bomb tower yet", then puts the next one down at [2, 9] against the left-lane push.
+- clock 1:27 (t=85.1): paired with Berserker as the standard defensive set — "Let's go for the bomb tower here. Then we can go for the berserker as well".
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 2:17: placed early and pre-emptively at (10, 9) in the central pocket while enemy Barbarians were ~1s from his left tower — "I'm going to go for the bomb tower early here just to help take this out. And he can't really go for the loon on the left because we have the magic archer ready."
+- clock 2:08: deliberately let it die to the opponent's Bowler rather than spend on it — "I'm not even going to protect the bomb tower from the bowler. There's no point."
+- clock 1:03: replayed at (10, 10), same central pocket, as the reset against a committed Inferno Dragon + Barbarians push — "Okay, we can bomb tower to bring this back. Beautiful."
+- clock 0:31 and 0:11: two more central placements at (9, 10) and (15, 10) to close out the game against the Bowler — "That is not connecting to our tower. We have bomb tower ready."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:19 / 1:45: the anti-ground building, always on the (8-9, 8-11) block in front of the King Tower, against the Ram Rider and then the Royal Ghost - "Let's go for the bomb tower here and then we can go for the barrel" (459-460s); "Let's bomb tower here and we can go for the delivery as well" (496-498s).
+- clock 0:31: dropped early specifically because he fears the opponent's Lightning - "He definitely has lightning in his deck though, so I have to be very, very cautious of that. Let's bomb tower here. We have the delivery ready" (566-571s).
+- clock 1:14 (overtime): used as a lane reset rather than as defence - "he might ran into block the bridge. So, I'm just going to reset with a bomb tower" (643-646s); he also counts on its splash to clean up: "Bomb tower should finish off the rest of that executioner" (594-596s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:19: Bomb Tower centre at tile [8, 10] immediately after committing the Goblin Barrel, pre-empting the ground counter-push rather than reacting to it.
+- clock 2:04: second Bomb Tower at tile [8, 11] during the Ice Wizard/ground push; he calls the whole stretch "very good defense right there" (t=744).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 1:09 (t=904.9, tile [9, 9]): first Bomb Tower of the game, placed centre and justified by what it denies as much as what it kills - "We can just go for the bomb tower here. And us going for this bomb tower is also going to prevent him from going for any princesses on the right side, which is very good."
+- clock 0:31 (t=940.9, tile [9, 9], elixir 7 -> 3): the anchor of the defence against a Knight + Princess + Evo Goblin Barrel push, with Royal Delivery and Ice Spirit layered on top - "Beautiful defense. Very clean" (t=948).
+- overtime 1:48 (t=983, tile [9, 13]): pushes the placement high up the middle when he needs it to intercept earlier - "Let's high bomb tower here. Delivery on defense."
+- overtime 1:28-1:10 (t=1005 [9, 10], t=1023 [8, 10], t=1067.1 [8, 10]): re-places it in the centre every time it expires through triple-elixir overtime - "bomb tower in the middle. Bomb tower here to block" (t=1003-1005), "Okay, bomb tower here in the middle" (t=1022).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1175 (clock 1:32): Bomb Tower at the right bridge ([15,12]) as a lane brake he expects to lose — "we can go for the bomb tower here at the bridge as well. This is going to get taken out, but we can just go for the evil wall breakers at the bridge."
+- t=1211 (clock 0:55): a second Bomb Tower with the game already slipping — "let's definitely go for the bomb tower here cuz it's not like he can stop this anyways."
+- t=1245 (clock 0:20): placed specifically for splash into three evolved Skeletons plus Valkyrie coming up the right lane ([15,13]) — "Wait, could I bomb her like this to make it splash? Maybe. Come on, splash. Nice."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 0:41 (t=1399.4): [9, 9] against Barbarians plus a Wizard placed in the back, treated as a cycle card rather than a held answer — "Let's just cycle the bomb tower here."
+- clock 0:05 (t=1435.4): placed deliberately closer to his tower as regular time ends, as a cycle-count decision — "I have to bomb tower here. I have to do it closer though cuz this time I won't be able to cycle the two bomb towers if he goes in on the right immediately."
+- clock OT 1:50 (t=1451.5): [11, 13], up near the bridge, used as a puller to drag the opponent's Balloon back off his tower — "Then we can go for the bomb tower at the bridge here just to bring that backwards."
+- clock 2:40 (t=1280.3): opened with it at [7, 10] behind the split Wall Breakers; it is the deck's only building and the whole ground defence, cycled five times in 264 s.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=201-203: the designated Goblin Drill answer — "I was always trying to make sure to catch the drill with the bomb tower if I could" (Bomb Tower at t=206.0, HUD elixir 8.0->4.0).
+- t=148-151 (Bomb Tower at tile [9, 13], t=147.3, HUD 9.0->5.0): the high-middle placement is chosen against a specific card — "here I went for the high middle bomb tower just to make sure that I protect against the bomber."
+- t=253-260 (Bomb Tower at tile [3, 3], t=250.2; same tile again t=291.3): the deep-back placement is chosen against drill spawn tiles — "I bombed in the back. I really like this placement here because, as you see, like it's on top of the last spawn, so I don't have to worry about the final or the left side spawn mostly."
+- Nine plays in 298 s (t=127.1, 147.3, 155.3, 206.0, 235.2, 250.2, 268.3, 277.3, 291.3), the deck's only building and the backbone of every narrated defensive sequence.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=153.2 (clock unknown): the only Bomb Tower of the game, at tile [9, 13] in the right lane against a Ram Rider push, with a Ronin at [8, 10] and a Royal Delivery at [7, 14] on top - 'Very good defense right here' (t=162), and his towers take no further damage.
+- He held the building for the first two and a half minutes while his left tower was ground from 4858 to 2091, spending spirits and Royal Delivery instead; the Bomb Tower only came out for the deck's one heavy win condition.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=184.5, 195.4, 243.2 [7, 9], 252.6, 290.0 [7, 9], 302.3 [10, 9]): placed pre-emptively in the centre before each push arrives rather than reactively; the t=290.0 placement is his preparation for the Evolution Inferno Dragon he has just spotted ('This is where it gets really scary cuz my deck does not have a lot of air defense, man', t=289-292).
+- clock unknown (t=301-303): named as the last layer of a four-card defensive block against the Evo Inferno Dragon push — 'Go for the Fire Spirit and then we can go for the Bomb Tower as well'; the block (Magic Archer, Royal Delivery, Fire Spirit, Bomb Tower) holds and he calls it 'a very good defense right there' (t=312).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 458.5s): Bomb Tower high on his own half at (7, 13) specifically as an anti-Magic-Archer anchor — "I'll just Bomb Tower here for the Magic Archer. If he goes for the Evo bats, we have the fire spirit" (459-463s).
+- clock unknown (video 493.5s): a second Bomb Tower at (2, 12) on the left — "then we can go for the bomb tower as well. That's going to help take out his magic archer. We just need to keep mine alive" (493-497s) — immediately self-criticised at 498s: "Oh, one tile too low."
+- clock unknown (video 544.5s, 598.6s, 617.6s, 631.6s): four more placements at (9, 13), (6, 8), (7, 13) and (2, 9), alternating high/central/low — "we just have to go for a high bomb tower right now" (544s), "then we go for the low bomb tower" (599s), "Bomb tower all the way up top" (617s), "Bomb tower like this" (632s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=788.8s: placed at (8, 9) the moment the opponent dropped an Electro Giant in the back at (2, 23), well before the tank reached the bridge - "Okay, let's just early bomb tower."
+- t=801-803s: with the building down he wrote the game off for the opponent - "He is not going to be breaking through here, especially with not having any more evos." It sat unplayed in hand for the first 125 seconds of the game.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=827.0s (clock unknown): cycled proactively into an empty field, dead centre at [8, 9], elixir 9 -> 5 — "I'll cycle my bomb tower in the middle" (t=826-828), spoken while reading the opponent as hyper bait.
+- t=907.9s / 919.3s: replayed at [9, 9] and [7, 9] ahead of a threat rather than onto one — "Let's bomb tower here. Next skelly barrel will be evolved" (t=917-921).
+- t=947.9s / 958.3s: a fourth and fifth placement, again in the central row-9 band so it pulls into either lane. In a deck with no small spell, it is the primary answer to the opponent's Skeleton Barrel, Goblins and Rascals.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1071s: Bomb Tower at (12,3) as the anchor against a Lumberjack + Evo Inferno Dragon push, backed by Ice Spirit, Fire Spirit and Royal Delivery - "Let's go for the Bomb Tower here".
+- t=1128s: cycled early and centrally at (7,9) in anticipation of the Graveyard that lands at (7,2) - "Let's cycle our Bomb Tower here early, and there's the Evo E-Drag too".
+- t=1196s: replaced at (7,10) specifically for the Balloon - "Might loon here. Yep, there's the loon. Let's Bomb Tower like this".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1252.3s (clock unknown): Bomb Tower at [8, 12], dead centre of his half, after he talks himself out of a prediction placement - "I was going to bomb tower to predict him, but I guess I can just bomb tower here in the middle like this" (1252-1255s), with the opponent's Mortar landing at [6, 16] three seconds later.
+- He treats it as the card he would rather not spend: "we want to go for the Ice Spirit as well so you don't have to waste a Bomb Tower on defense" (1339-1342s).
+- t=1409.4s at [11, 14] holds the opponent's biggest push of the game while the enemy left tower drops to 376 -> 164 HP - "We have the bomb tower here. This should blow up everything. What a bomb tower placement, guys" (1411-1414s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's defensive building, and Ryley's stated target for elixir attrition — "I think I can force out the bomb tower here. If I can keep forcing out more and more elixir from him" (clock 2:02). When it lands at [8, 19] he rates it badly: "Oh, bad bomb tower. We actually have a pretty good chance to get him good in single elixir" (clock 1:59).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

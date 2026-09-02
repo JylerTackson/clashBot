@@ -153,6 +153,125 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - OT 1:48-1:44 (t=673-681): denied on the last attempt — "Please deny this hit, Hog Rider. Oh my god, we barely denied it. For a second I thought it was going to do the exact same thing I was talking about whenever I over-defend a Hog, it still grabs a hit."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:38 (video 295.3s, tile [3, 18]): tracked in with the opening P.E.K.K.A./Mother Witch push and threatening a tower within 1.5 s at clock 2:35. Not named in commentary; the detector is a 2024 model and this read is the least certain card in the opponent's list.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:40 onward: mentioned, not played by Ryley — it is a card he argues should be spared: "Maybe like the Hog Rider like I can understand even though Hog Rider is super good why maybe they'd be a little bit hesitant to nerf it" (t=403-408). On the board the 2024-era detector tracked an opposing Hog Rider reaching his left tower at t=238, again at t=336-338 (a ~1200 HP drop) and again at t=488-492, so it is probably in the opponent's deck, but no deploy label ever confirmed it.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, repeated bridge pressure in both lanes from clock 0:54 (video ~940s) through overtime. Ryley's standing answer is Tornado + Bowler at the King tower - "Going to go for the high bowler right now. And then we can go for the tornado as well. Just make sure to yank in that hog rider. Good defense" (1006-1014s).
+- he pre-places air cover for it rather than waiting - "Let's baby dragon preemptively in case a hog rider" (1046-1048s) - and expects it paired with the Mighty Miner ability (1059-1060s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- The opponent's win condition, called at clock 2:48 before it appeared ("he has a hog rider", t=524) and answered all game by pre-placed Goblin Gang plus Knight at the bridge rather than by reaction: "Knight predict the hog. Ice Spirit, beautiful prediction" (t=772-774) and "Let's Knight the bridge again so he can't go for the hog. Perfect. He has to go for the hog down the middle" (t=796-802).
+- Hog tracks reach his tower with sub-2s ETAs at clock 1:21 (t=612), 0:50 (t=642) and 0:07 (t=686), which is what pushes him into the cycle plan at t=683-688: "we could out-cycle him... I'm going to have to start cycling my cards now."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card. Ryley calls the whole deck off the Mighty Miner before the Hog ever appears - "Probably going to be a hog rider deck" (t=823) - and it lands at tile [6, 7] at clock 2:27 (t=840) through his Inferno Tower + Goblin Gang + Ice Spirit: "that was a really aggressive play... I do think bro, how is that still alive?"
+- clock 0:25-0:22 (t=959-965): he answers a Hog with a defensive Rocket on his own half, having first baited the Earthquake out - "He's definitely going to go for another Hog Rider though. I'm going to have to rocket this for sure."
+- OT 1:51 (t=996) and OT 1:17 (t=1030-1034): his standard answers are Goblin Gang or Ice Spirit, and he says so when he lacks them - "That was just such a bad Hog Rider" and "I can't really predict the Hog cuz I don't have a Gang or I mean an Ice Spirit or anything. Let's predict it now and then I can barrel instantly. Oh, I didn't get it though unfortunately."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 0:35 and 0:08: named twice as the threat behind the Battle Ram he is already defending - "We have to watch out for a Hog Rider too though" and "He's going to be able to Hog Rider too." Ahead on crowns and defending, he accepts the chip instead of over-committing: "I don't even care if the Hog grabs one shot. It doesn't even grab a shot though. Beautiful defense." (mentioned and tracked at the very end of the window, not deployed against a full defence).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=18.0: Hog Rider at tile [1, 15], left bridge, behind the Lumberjack; it reaches the tower (enemy left 3052 -> 2508 at t=32) but he calls the ordering wrong against a Tornado deck (t=20-38).
+- t=111.1: DEFENSIVE Hog Rider at tile [2, 13] on his own half while a Giant Skeleton is walking in — his stated general rule: "I do like to use defensive hog rider sometimes because if you do a defensive hog, then they still have to defend the hog rider itself. So you get a lot of value out of that type of play" (t=117-125).
+- t=139.1: Hog Rider at the left bridge [2, 15] the instant his Earthquake kills the Tombstone — "I just earthquake the tombstone... So then I instantly went for a hog rider, guys" (t=137-141). (Logged as an opponent play by the pipeline; the commentary overrides it.)
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:15: recognised on sight — 'it looks like we're up against a Hog Rider Earthquake player here' (t=40).
+- clock 1:29 and OT 1:30: the Hog connects twice on his right tower (tracker at [13, 3] 'tower in 0.0s' at t=88, again at t=200), taking it from 4858 to 2345 — the deck has no building, so he pre-places Cannon Cart in front of the King instead ('in case he goes for the Hog', t=171).
+- clock 0:33: reads the opponent as unwilling to commit it — 'I have a feeling he's just not going to go in for any Hog Rider pushes, though' (t=142-143).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:38 (t=776.6): opens the game with a bare Hog Rider at the right-bridge tile (16,15) from 9 elixir - "Let's go for the Hog Rider here at the bridge just to apply some early game pressure."
+- clock 1:54 (t=821.6): repeats the same (16,15) bridge Hog into an opponent sitting near 10 elixir - "Let's go for the Hog Rider here. Apply some pressure."
+- clock 1:09 (t=872.7): uses the Hog defensively at (8,13), behind an Ice Spirit and Goblins, to kite the enemy Hero Valkyrie - "just Hog Rider here to kite this back... Very good Hog right here. Bringing the Hero Valkyrie away. After the ability is popped as well."
+- clock 0:32 overtime (t=1025.8): Valkyrie plus Hog at the left bridge (1,15) with the hero ability saved for the follow-up takes the enemy left tower from 1654 to 847 HP - "go for the Valkyrie hog rider here. I'm going to go for the ability ice spirit here." He judges the card by the defence it forces: "At least he has to use the bomb tower again. He's barely got any damage" (clock 1:44 overtime, t=951).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- mentioned, never cleanly detected: the opponent's win condition, which Ryley says his own bridge pressure denies — "He can't hog cuz he has to defend" (t=192), "I know he's going to go for the hog now. Yep, that's obvious" (t=199), "He might try to hog in. So, we just need to be ready" (t=214).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:34 (t=176.2, tile [1,14]): deployed knowing it will be pulled, purely so the Miner behind it connects — "Obviously, he's going to want to go for the tornado to activate the king tower. So, let's hog rider here then we miner directly here ... the hog rider's not going to go cuz guys, look, it blocks it" (t=174-184).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:08 (t=324.3, tile (16, 14)): sent the Hog on a read of the opponent's answer, not the board — "we can just go for the hog here and no matter what he does unless he fireballs, we're getting at least one hit."
+- clock 0:58 (t≈405): the reverse decision — he cancelled the Hog because he read a counter-prediction coming — "we can go for the hog. Wait, actually he might predict us so I'm not going to go in with the hog. Yep. I had a feeling, man."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:35 (t=17.9), clock 1:39 (t=73.1) and clock 0:57 (t=115.1): every Hog goes to the LEFT bridge, tile [1, 14] / [1, 15] (deploy labels 'log RideR' score 0.875; the first is HUD-confirmed 9.0 -> 5.0).
+- clock 1:39 (t=73.1): used as low-commitment chip pressure at 2 elixir, not as the head of a push — "We can still go for the hog rider here just to apply some pressure." Enemy left tower 3959 -> 3452 through that window.
+- clock 0:59-0:55 (t=113-118): held deliberately while he pre-places against a possible Golem — "I'm going to ice golem preemptively cuz he might golem, and I want to have the hog rider ready," then "let's Hog Rider here anyways and then we can Evo Firecracker for the Baby Dragon."
+- clock 0:18 (t=155.5): a fourth Hog (HUD 5.0 -> 1.0) in the closing triple-elixir spam. He names the deck by this card: "The deck I'm going to be playing it with today is just this hog rider e-barbs deck. A little bit of an OG deck right here for a OG card" (clock 1:51) and signs off with "This Hog Rider deck is really, really strong, guys. I definitely recommend it" (clock 0:17).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:47: the fixed opener, alone at the left bridge tile (1, 15) for 4 elixir with 9 in the bank — "My favorite starting play with this deck is just the hog rider at the bridge. I feel like your defense is good enough to get away with pretty much anything that they could have for it."
+- clock ~2:08: used defensively on his own half at (9, 9), behind an Ice Golem, as a kite for an enemy Prince — "We can even just go for a hog rider here to kite that prince away cuz the hog rider is not actually going to get hit by the prince." It failed: "Oh, wait, it does get hit by the prince."
+- clock 1:15: the killing blow, at the right bridge (16, 14) three seconds before Evo Elite Barbarians in the same lane — "Oh oh my god, let's Hog Rider here, guys. Then we can go for the Evo E-Barbs at the bridge cuz he has the Bandit." Enemy right tower reads 4289 -> 773 over the next eight seconds.
+- The deck's stated core pairing is Hog Rider with Ice Golem: "the thing with this deck, guys, is that they just have such a hard time dealing with the Ice Golem plus hog rider combo that I'm really not worried at all" (clock 2:20).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 2:47: opens the game with Hog Rider at the left bridge tile [1, 15] on the first rotation, immediately after a 1-elixir Skeletons — "Going to skeletons here and go for the Hog Rider immediately."
+- clock 1:59: re-sends Hog Rider at [1, 13] the moment the opponent is elixir-starved, betting against a building — "We can go for an instant hog rider cuz if he has Inferno Tower then he's not going to be able to defend"; four seconds later, "he can't even afford a cannon right now."
+- clock 0:35: another Hog Rider off the back of a defence while the opponent's Bomb Tower and Goblin Gang are out of rotation — "Let's hog rider again though because he still has the gang and he needs to [answer] the bomb tower. We did out-cycle him." He keeps the same (left) lane all match, taking that tower from 4858 to 441 HP.
+- clock 0:44 overtime: the Evolved Elite Barbarians' rage trail catches his Hog Rider on the way in — "The e-barbs rage got on the hog rider" — and the enemy tower drops 1689 to 675 HP in six seconds.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:14: played as an elixir lever, not a damage attempt — deploy label at [1, 14] on his own left bridge tile while he says "I'm going to hog rider here just to force out a tornado. Just to get that off of the hand" (t=724-729).
+- clock 0:38 and OT 0:49: the same card as sustained pressure while he is defending — labels at [1, 15] and [6, 13]. "Let's go for the hog here as well just to apply some more pressure. We have the firecracker if he goes for anything other than NATO [Tornado]" (t=819-824); "Let's hog rider here to pressure while defending" (t=926-927).
+- OT 1:11: he deliberately withholds the win condition to shape the opponent's answer — "Let's go for the ice golem here. Let's not hog rider though. I'm going to bait him into going for the bowler" (t=904-907), then plays it four seconds later once the Bowler is committed (HUD -4 plus label at [6, 13], t=915.4).
+- OT 0:43: used purely as a blocker on his own half — label at [1, 14], "Hog rider to block this" (t=934). Against a Tornado deck he flags the standing risk at t=736-738: "that's always something you got to be scared about whenever you have a tornado against a hog rider player."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:19-2:11 (t=1014, tile [16, 13]): held back rather than sent opposite lane, twice explained — "Normally I would hog rider opposite lane, but because of the inferno dragon being there and not having a good cycle for it..." and "I did not want to hog rider immediately just to be safe".
+- clock 1:20-1:12 (t=1063.1, t=1074.1, tile [16, 14]): repeat bridge drops on the right lane once the Inferno Dragon had been answered; enemy right tower is worn from 2774 to 2211 HP over this window.
+- clock 0:57 (t=1088-1091): behind an Ice Golem as a counter-push off a defence — "we can go for the ice golem plus hog rider here, kind of turn this into a nice counter attack".
+- overtime clock ~1:49 (t=1160.2, tile [16, 14]): the winning attack, announced with the support around it — "Let's go for the Hog Rider in a second and then we can go for the Evo Firecracker as well. I'm going to pre-log as well cuz he's either going to Goblins or Mega Knight".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 2:16: bridge Hog Rider at (8, 15) used as a kite and a pressure play at once - "Let's go for the Hog here. Let's kite that E-Barb back and also apply some good pressure."
+- clock 1:31: Hog Rider at (15, 14) sent in behind an Ice Golem placed one second earlier at (15, 13), switching lanes after a defensive trade - "Let's go for the Ice Golem. Let's go for the Hog Rider here as well."
+- clock 1:02: Hog Rider at (16, 15) opening the triple-elixir right-lane pressure that takes the enemy right tower from 2006 HP to under 500 by clock 0:22.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

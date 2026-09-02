@@ -111,6 +111,23 @@ It is also important to note that cards that make “sub-troops” (e.g., Elixir
 - Soul collection continues even after the Skeleton King dies, and the ability's 20 sec cooldown starts after the duration ends.
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor choice for Clan Wars Defense Towers.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Uncertain read, recorded for completeness: at 190-198s Ryley complains at length about a card the auto-transcript renders as "the skeleton queen" — "the skeleton queen is so broken now ... I swear it has way too much HP. It has more HP than a giant literally." The only matching observation is a `skeleton-king-skill` ability detection on the opponent's side at clock 1:57, so this is probably the Skeleton King, but the transcript name and the HP claim do not line up cleanly and no Skeleton King body was ever detected.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:28 (opponent): tracked at (1, 18) then crossing to (5, 19). Ryley spends the Heroic Berserker's 3-elixir ability on it rather than a card — "Let's pop the ability just to make sure that we take out that Skeleton King. Just want to get that thing off the board."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:25 (t=938.9): opponent's Skeleton King crossed at [14, 15]; Ryley answered with Elite Barbarians at [13, 12] rather than a spell, and the counter-push took two tower shots (t=957-960).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_King (scraped 2026-09-02T02:35:13+00:00)

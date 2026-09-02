@@ -49,12 +49,36 @@ def split_matches(states_path: Path, min_seconds: float = 60.0) -> list[tuple[in
     series with confirmation rules (misreads and overtime do not split)."""
     from .clock import segment_by_clock
     from .hud import parse_clock
-    samples = []
+    samples, menu_gaps, resets = [], [], []
+    prev_menu, last_hp, recent_up = None, {}, []
     for rec in read_jsonl(states_path):
-        if rec.get("type") == "state" and rec["readiness"] == "match":
+        if rec.get("type") != "state":
+            continue
+        if rec["readiness"] == "match":
             c = rec.get("match_clock")
             samples.append((rec["t"], parse_clock(c) if c else None))
-    return segment_by_clock(samples, min_seconds)
+            # a new game also shows as >= 2 own towers jumping back to full HP within 10 s
+            for k, v in (rec.get("own", {}).get("towers") or {}).items():
+                if v and last_hp.get(k) and v > last_hp[k] + 1500:
+                    recent_up = [(t, kk) for t, kk in recent_up if rec["t"] - t <= 10] + [(rec["t"], k)]
+                    if len({kk for _, kk in recent_up}) >= 2 and (not resets or rec["t"] - resets[-1] > min_seconds):
+                        resets.append(recent_up[0][0])
+                if v:
+                    last_hp[k] = v
+        elif rec["readiness"] == "menu":
+            if prev_menu is None or rec["t"] - prev_menu > 2:
+                menu_gaps.append(rec["t"])
+            prev_menu = rec["t"]
+    if any(v is not None for _, v in samples):
+        return segment_by_clock(samples, min_seconds)
+    # no readable clock (other HUD layout): fall back to menu gaps and tower resets
+    if not samples:
+        return []
+    t_start, t_end = samples[0][0], samples[-1][0]
+    cuts = sorted(set(round(t, 1) for t in menu_gaps + resets if t_start + min_seconds < t < t_end - min_seconds))
+    bounds = [t_start] + cuts + [t_end]
+    segs = [(i, a, b) for i, (a, b) in enumerate(zip(bounds, bounds[1:])) if b - a >= min_seconds]
+    return [(i, a, b) for i, (_, a, b) in enumerate(segs)]
 
 
 def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_names: dict[str, str],
@@ -122,12 +146,27 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
     # his play the hand reader missed, not the opponent's (mirror matches are
     # rare; the level line, when both differ, already separates them)
     hud_cards = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "hud")
+    from .detect import SPELL_CLASSES as _SP
+    exempt_lbl = _SP | {"miner", "goblin-drill", "graveyard", "goblin-barrel", "wall-breakers"}
+    # cards the opponent demonstrably deploys on THEIR half (rows >= 17)
+    opp_far = Counter(e["card"] for e in events if e["player"] == "opponent" and e["detect_source"] == "deploy_label"
+                      and e.get("tile") and e["tile"][1] >= 17)
     for e in events:
-        if e["player"] == "opponent" and e["detect_source"] == "deploy_label" and hud_cards.get(e.get("card"), 0) >= 2:
+        if e["player"] != "opponent" or e["detect_source"] != "deploy_label" or not e.get("card"):
+            continue
+        row = e["tile"][1] if e.get("tile") else None
+        why = None
+        if hud_cards.get(e["card"], 0) >= 2:
+            why = "card is HUD-confirmed in his deck this game"
+        elif row is not None and row <= 11 and e["card"] not in exempt_lbl:
+            why = "troop label deep in his half (the opponent cannot deploy there)"
+        elif row is not None and row <= 14 and e["card"] not in exempt_lbl and not opp_far.get(e["card"]):
+            why = "label on his half and the opponent never deploys this card on theirs"
+        if why:
             e["player"] = "own"
             e["confidence"] = "medium"
             e["elixir_before"] = e["elixir_after"] = None
-            e["detail"] += " [reattributed to Ryley: card is HUD-confirmed in his deck this game]"
+            e["detail"] += f" [reattributed to Ryley: {why}]"
     # own deck: confirmed plays first (HUD / deploy label), then confident hand reads
     played_hud = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "hud")
     played_label = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "deploy_label")
@@ -184,6 +223,7 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
     # names repeatedly has some visual evidence but no slot, is a hand misread
     deck_notes = []
     visual = set(played_label) | set(hand_cards) | {e["card"] for e in events if e.get("card") and e["player"] == "own"}
+    visual |= {e["card"] for e in events if e.get("card") in SPELL_CLASSES and e["detect_source"] == "deploy_label"}
     for cand, m in mentioned_all.items():
         if m < 8 or cand in own_deck or cand not in visual:
             continue
@@ -204,7 +244,8 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
     return {**header, "start_t": round(t0, 1), "end_t": round(t1, 1),
             "cards_mentioned": mentioned,
             "own_deck_observed": own_deck, "own_deck_sources": own_deck_sources, "own_deck_notes": deck_notes,
-            "own_deck_counts": {"hud": dict(played_hud), "label": dict(played_label), "hand": {c: k for c, k in hand_cards.items() if k >= 30}},
+            "own_deck_counts": {"hud": dict(played_hud), "label": dict(played_label), "hand": {c: k for c, k in hand_cards.items() if k >= 30},
+                                "spell_labels": dict(Counter(e["card"] for e in events if e.get("card") in SPELL_CLASSES and e["detect_source"] == "deploy_label"))},
             "own_deck_key": "-".join(sorted(own_deck)) if len(own_deck) == 8 else None,
             "opponent": {"deck_known": replayed["deck_known"], "deck_complete": replayed["deck_complete"],
                          "deck_predictions": replayed["deck_predictions"], "kb_matches": replayed["kb_matches"],
@@ -271,7 +312,7 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
     return "\n".join(L) + "\n"
 
 
-def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> dict:
+def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str], vtt_path: Path | None = None) -> dict:
     """Games in one video are almost always played with the same deck. Pool
     the per-game evidence (HUD-confirmed plays weigh 3, label-only 2, hand
     reads 1 per game), keep the top 8, stamp `own_deck_video` into every
@@ -297,7 +338,12 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
     # transcript evidence: how often Ryley names each candidate card across
     # the video. A hand-read card he never mentions is suspect when a card he
     # keeps naming has some visual evidence but was scored below the cut.
-    text = " ".join(cue.get("text", "") for _, c in ctxs for cue in c.get("transcript", [])).lower()
+    # the whole transcript (intro/outro included) when available: he names the
+    # deck up front, and the game windows cover only part of the talk
+    if vtt_path and Path(vtt_path).exists():
+        text = " ".join(c["text"] for c in parse_vtt(Path(vtt_path))).lower()
+    else:
+        text = " ".join(cue.get("text", "") for _, c in ctxs for cue in c.get("transcript", [])).lower()
     all_m = count_card_mentions(text, card_names)
     mentions = {c: all_m.get(c, 0) for c in score}
     ranked = [c for c, _ in score.most_common()]
@@ -322,8 +368,25 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
         notes.append(f"games in this video use different decks (median HUD overlap {median_j:.2f}"
                      + (", title suggests a deck showcase" if title_hint else "") + "); no video-level deck")
         deck = []
-    for cand in ranked[8:]:
-        if mentions.get(cand, 0) < 20:
+    # spells seen as deploy labels (either side) are candidates too: a spell's
+    # tile cannot tell whose it was, so the commentary decides
+    label_n: Counter = Counter()
+    for _, ctx in ctxs:
+        for c, k in ctx["own_deck_counts"].get("spell_labels", {}).items():
+            label_n[c] += k
+        for c, k in ctx["own_deck_counts"].get("label", {}).items():
+            label_n[c] += k
+    for c in label_n:
+        if c not in score:
+            score[c] = 0
+            mentions[c] = all_m.get(c, 0)
+    ranked = [c for c, _ in score.most_common()]
+    if not mixed:
+        deck = ranked[:8]
+    for cand in [c for c in ranked[8:] if c not in deck]:
+        # a card he names a lot; the bar is lower when deploy labels back it
+        # (auto-captions are deduplicated, so 8 mentions is already a lot)
+        if mentions.get(cand, 0) < (8 if label_n.get(cand, 0) >= 3 else 20):
             continue
         silent = [c for c in deck if mentions.get(c, 0) == 0]
         if not silent:

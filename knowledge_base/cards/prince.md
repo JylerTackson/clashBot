@@ -126,6 +126,19 @@ Not specified on source page
 - Barbarian Barrel is ineffective against him — he OHKOs the Barbarian and simply starts charging again. Royal Delivery at least damages a charging Prince and spawns a Royal Recruit whose shield eats the charge, but needs backup like Bats.
 - The Bandit is a cheaper single-target pressure alternative — 2 Elixir less, faster and more mobile via her dash, but much less damage and frailer.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:17: opponent Prince at (4, 19) for 5 elixir, pushed into Ryley's left lane. Answered with Firecracker behind the tower, then an Ice Golem + Hog Rider kite that he expected to dodge it — "the hog rider is not actually going to get hit by the prince. Oh, wait, it does get hit by the prince."
+- clock 1:20 and 0:58: he plays around the Prince twice more, first as bait ("I'm going to try to bait him into going for a prince") and then predictively ("Evo Firecracker predicting his prince cuz he might need a prince on these to retarget it").
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:08-2:00 (t=204-214): tracked from [14, 25] down to [15, 1] with "tower in 0.1s", answered with Tesla at [8, 10] plus a Ronin at [14, 10] — "Let's Tesla here, and then we can go for the Ronin down low." Ryley's stated view is that the Ronin's Parry makes double-Prince decks a favourable matchup (233-239s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Prince (scraped 2026-09-02T02:35:00+00:00)

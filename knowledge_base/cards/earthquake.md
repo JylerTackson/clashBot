@@ -105,6 +105,112 @@ This card appears in 2 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md), [Hog MM EvoCannon 2.6 Cycle](../decks/barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:35 onward (video 298.4s and roughly every ten seconds to 442.4s): logged repeatedly against Ryley but always at the same arena-corner tile [14, 30], which marks it as a persistent detector false positive rather than eight-plus casts. He never mentions the spell, and none of his buildings visibly died to it.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 1:24 (t=607.6): first Earthquake of the game at (5, 21), the strip in front of the enemy left princess tower — used as the damage half of the Royal Hogs plan rather than as a defensive spell.
+- OT 1:22-1:17 (t=731.7 and t=734.7): doubles up, two Earthquakes five seconds apart on the same (4-5, 21) spot behind one Royal Hogs deployment — the heaviest spell spend of the match.
+- OT 0:21 (t=790.8): the only Earthquake of the game on Ryley's own half, at (4, 12) onto his Cannon and Skeletons — that one is the opponent's, and it is how they answer his defensive cluster.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 0:25 onward (arena reads at [14, 30]-[15, 31] from t=666.7): Ryley calls it before each cast ("He's going to go for the Earthquake", t=705) and plays around it by holding the Goblin Gang until it is spent — "because he went for the Earthquake, he doesn't have Earthquake for the gang" (t=762-765).
+- Named as half of the archetype in his scouting read at t=528-537: "this guy's just playing a hog EQ... I do feel like hog EQ is a winnable match up if things go our way. Mainly just because of the Evo princess."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card, cast on his Inferno Tower at clock 0:57 (t=928.9) and again at clock 0:28 (t=957.0), predicted out loud both times - "Let's Inferno Tower here. He's definitely just going to go for the Earthquake" (t=928-931) and "He's definitely going to go for the Hog Earthquake. I can just feel it. It's so obvious" (t=944-947).
+- The read he builds the defence around: once the spell is spent the win condition is cheap to stop - "It's mainly just doing that just so I could get the Earthquake out cuz obviously I was able to counter that really easily after he didn't have the Earthquake anymore" (t=953-958).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 0:55: the opponent's Earthquake, detected at tile [14, 30] on his own half - the only spell he had left for the goblin swarms; Ryley does not comment on it.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=136.1: Earthquake cast on the opponent's half at tile [12, 19] onto their Tombstone, held all game as a surprise — "I just earthquake the tombstone. I don't think he know I had earthquakes" (t=137-139).
+- t=139.1: the spell is sequenced straight into the win condition — Hog Rider at the left bridge in the same breath as the building dies: "So then I instantly went for a hog rider, guys" (t=140-141). (The cast was logged as an opponent play; the commentary overrides that.)
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 0:48 / 0:31 / 0:02 (t=944.9, t=963.0, t=993.0): the opponent's chip spell, matching two inferred hits of 238 HP each on Ryley's right tower at t=951s and t=953s. He never reacts to it on camera — the tower damage he does concede comes later, from the Phoenix at clock 0:19.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 2:15: identified from the deck archetype before it is played — 'a Hog Rider Earthquake player' (t=40); the spell itself is only seen once, at t=140.1 (clock 0:33), against his left-lane Goblinstein/Cannon Cart push.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md):
+- clock 0:50: an Earthquake was tracked on the opponent's side at tile (14, 30) and persisted in the tracker for the next thirty seconds; there is no commentary on it and no matching tower damage, so it is recorded as observed-only and may be a stale detection.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 0:55-0:15 (t=1029.0, t=1057.1, t=1069.1): the opponent's Earthquakes plus unattributed spell hits did most of his tower damage (own right tower took 306+260+617 at t=1003-1005, own left 818 at t=1057.1) while Ryley kept spending on the bridge instead of answering the chip.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:59 (t=403.4, tile (13, 21)): Earthquake onto a badly placed Tesla as the setup for a Hog follow-up he then cancelled — "wait, bad Tesla. Let's earthquake it then we can go for the hog. Wait, actually he might predict us."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- clock 0:53 (t=112.0): the opponent's only spell read by the pipeline, cast while Ryley's second X-Bow at (15, 10) is going down. It is never mentioned in the commentary and the X-Bow had already taken the right tower from 4858 to 1201 before it arrived.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:31 (t=22.0, tile [3, 21]): cast on the OPPONENT'S left tower, one beat behind the Hog Rider Ryley sent to the left bridge at clock 2:35 — the arena tracks that Hog at [3, 18] by t=24 and [2, 21] by t=26. The classic Hog + Earthquake pairing, and the cheap chip that lets him send the Hog as loosely as he does ("We can still go for the hog rider here just to apply some pressure", clock 1:39).
+- Attribution note: the pipeline filed this cast as the opponent's because a spell's deploy tile carries no owner, but it lands on their own tower and Ryley's elixir bar reads 6 at t=20 and 3 at t=22 — a 3-elixir drop. It is his. He does not name the card in this game's commentary; the video's 30 "earthquake" mentions and 20 deploy labels are spread across its six games.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 1:31: the eighth card of the deck, cast by Ryley himself over his own right-side tiles at (14, 9) onto the enemy ground push, accepting a trade rather than a clean answer — "Oh my god, I have to earthquake this actually. Okay, we still take one, but it's all good."
+- clock 2:04-2:02: two further Earthquake labels 2 s apart at (12, 21) and (10, 12), probably one cast double-counted, with no commentary attached; the deploy-label pipeline files every spell as the opponent's because a spell tile cannot identify the caster, so caster is unresolved for these.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 0:13: Earthquake onto the enemy left tower at tile [5, 21], the same lane his Hog Rider has been hitting all match — "Let's go for the earthquake here. We're fine taking that out nicely." He pairs the two the whole game and that tower falls from 4858 to 441 HP.
+- clock 1:57 overtime: re-casts it the moment the Hog goes back in at [4, 21] — "Whoops, let's earthquake again here" — after noting at 0:03 that the opponent does still have his Bomb Tower up.
+- clock 1:42 overtime: the defensive cast, on his own half at [3, 14] against the opponent's Goblin Gang swarm — "Earthquake here defensively. Good defense."
+- clock 1:04 and 0:37 overtime: two more Hog-lane casts at [5, 21] and [5, 22] — "let's go for the earthquake here again as well" — while the enemy left tower drops 1923 to 675 HP. Earthquake is also his only answer to the opponent's Bomb Tower, which he calls "the best building against E-Barbs" at clock 1:07.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:47-2:45: the deck's opening play is the Hog Rider plus Earthquake pairing — a Hog Rider deploy label at [1, 13] on his own left bridge tile (HUD -4 from 9.0), then an Earthquake label at [5, 21] on the opponent's half two seconds later (t=689.7-691.7).
+- clock 1:18, OT 1:37 and OT 0:49: played defensively on his own left tower at [2, 7] three times, exactly where the opponent's Graveyard lands, so the Ice Golem can stay on Bowler-kiting duty — "Let's earthquake then we can go for the ice golem as well. Skellies on top. E-spirit as well" (t=928-932).
+- OT 1:10: used to restart a stalled overtime, label at [13, 21] on the opponent's half followed inside six seconds by Firecracker (HUD -3), Ice Golem (HUD -2) and Hog Rider at [6, 13] (HUD -4) — "Okay, let's earthquake here. That's something that gives us a chance I guess" (t=909-911).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- In the deck but not separable in this game (t=978.1-1204.2): "earthquake" is never said in this game's commentary and no Earthquake event is logged in the window — it shows only in low-confidence HUD hand rows (t=978-986, t=1064-1066, t=1168), i.e. held in hand. The deck's eighth slot rests on video-level evidence (30 commentary mentions across the video, 20 Earthquake deploy labels, several on Ryley's own towers), not on this match.
+- Its absence shapes the game: with Earthquake unused, the Mega Knight/air-spam opponent is handled entirely with cheap troops and The Log, and Ryley's answer to a banked Mega Knight is a bait rather than a spell — "just to force him to go for the mega knight, cuz if he mega knights the bridge... he's just not able to build up a big push" (1105-1113s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 0:47: Earthquake at (13, 23) over the opponent's right-lane defenders while his own Hog/E-Barbs push was live - "We can just earthquake this away now and maybe get a shot on the flying machine. Beautiful"; used as a defender-clearing and chip spell on the enemy half, not as a defensive answer.
+- The deploy label was side-attributed to the opponent (a spell's tile cannot identify its caster), but the commentary and a matching own 3-elixir drop at t=1326.8 make it Ryley's; Earthquake is the deck's spell alongside The Log.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

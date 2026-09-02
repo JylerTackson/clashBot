@@ -200,6 +200,12 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.m
 - clock 1:08 and overtime 1:20: plays around a Three Musketeers answer twice — he downgrades from Elite Barbarians to Battle Ram ("he might 3M, so maybe I'll just go for the battle ram instead") and then predicts the 3M outright ("he might 3M so it's Battle Ram. Oh my god, I predicted his Three Musketeers"). His counter once it is down is Elite Barbarians on top of it at overtime 1:57.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- Named, not cleanly seen: "I'm pretty sure this guy has three musketeers. We have to be a little bit careful" (t=54-56) and, at clock 0:51, "he's just going to 3M you up" (t=120). His pre-emptive answer is a Cannon plus cheap swarm, plus bridge Wall Breakers to make the opponent spend before the split.
+- clock 1:33: he states the losing line and why he thinks he survives it anyway - "All this guy really has to do is go for the three musketeers plus evo knight, but I mean, I do have an evo dark goblin and stuff like that. So, there's a chance I'll be able to defend regardless" (t=76-84).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Three_Musketeers (scraped 2026-09-02T02:34:55+00:00)
