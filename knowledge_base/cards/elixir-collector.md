@@ -104,6 +104,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 1:54: the opponent answers a nearly-dead tower with a pump; Ryley reads it as a concession and keeps attacking — "that's tower down, but he's opting to ignore it and just go for a pump." (opponent's card, discussed not played)
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Collector (scraped 2026-09-02T02:35:34+00:00)

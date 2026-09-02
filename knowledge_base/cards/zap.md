@@ -126,6 +126,18 @@ This card appears in 2 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 1 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 1:56-1:53: the opponent Zapped into his Mother Witch's cursed troops and produced only one Cursed Hog rather than two — Ryley scored it as a bad trade for them: "that's going to get two cuz of the zap, I think. Oh my god, it still only got one. That was a very bad zap. That was not worth that at all". The opponent also Zapped the exact tile of his Zappies twice (clock 2:05, clock 0:29).
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 1:37: confirmed by deploy label 'Zap' on Ryley's own half at tile [9, 9]; he does not comment on it.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

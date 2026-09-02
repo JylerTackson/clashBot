@@ -136,6 +136,13 @@ This card appears in 2 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 2 deck(s): [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 1:19-1:16 (1431-1436s): opponent card, played as a hero. It is the target of Ryley's Valkyrie ability - "go right up to the tower kill the wizard" - and the opponent answers with its own ability: "Oh, he popped the ability but still on the tower for a bunch of damage. Not tower down or anything but still a good situation".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

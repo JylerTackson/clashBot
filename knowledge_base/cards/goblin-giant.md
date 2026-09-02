@@ -129,6 +129,14 @@ Spear Goblins on the back shoot out Sparky projectiles instead of spears.
 
 This card has an evolution: see [goblin-giant-evolution.md](../evolutions/goblin-giant-evolution.md). Cycles to evolve: 1. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 1:12 to 1:07 (opponent's card): anticipated the tank before it landed and pre-committed the defence — "Does he go for the goblin giant here? If he does, okay, I'm just going to go for the battle ram like this maybe."
+- clock 0:13: called it again and answered it with Mother Witch plus Freeze rather than a hard counter — "I'm going to go for a mother witch too cuz he's going to go for a Goblin Giant."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Giant (scraped 2026-09-02T02:35:02+00:00)

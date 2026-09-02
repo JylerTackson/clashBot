@@ -109,6 +109,18 @@ Not specified on source page
 
 This card has an evolution: see [barbarians-evolution.md](../evolutions/barbarians-evolution.md). Cycles to evolve: 1. Stat boosts: +10% Hitpoints.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- Opponent's swarm answer, dropped on his pushes at clock 0:33, OT 0:47 and OT 0:34. Ryley plays through them with Zappies rather than spending a spell — OT 1:50: "These Zappies are going to kill everything, and the Barbs are distracting. So, even when he goes for the constant abilities, we'll be chilling."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 1:48 to 1:43: he tracks the opponent's elixir to the card - "he can't afford the barbs yet", then "Okay, he gets the barbs down now, but we can just go for these low zappies here" - with Barbarians tracked at [14, 16] a second later.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

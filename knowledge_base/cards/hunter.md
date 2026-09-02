@@ -122,6 +122,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoRG FishBoy Hunter 3.0 Cycle](../decks/barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- Opponent card, seen defending the right lane at clock 1:50 and pushing at OT 1:27 and OT 0:37. Ryley's only comment is on trading with it at OT 0:37: "Hopefully that can take out the Hunter, though, or at least get it close. Okay, nice. I'll take that."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hunter (scraped 2026-09-02T02:35:02+00:00)

@@ -129,6 +129,13 @@ This card appears in 12 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 1:05 (1450s): opponent card. Ryley plays to force it rather than dodge it - "He still has to block this with the barb barrel though"; a barbarian-class unit is detected on his half at clock 2:00 and 0:57, consistent with the barrel.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

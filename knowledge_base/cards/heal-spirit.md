@@ -102,6 +102,57 @@ Not specified on source page
 - It is not a substitute for Skeletons as a 1 Elixir slot: it sacrifices itself on attack, while Skeletons survive behind tanks and keep defending.
 - If you want cheap persistent splash instead, Bomber costs 1 more, attacks repeatedly and survives more hits; choose Heal Spirit when the healing or the 1 Elixir cost matters more.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 2:45 (t=8.5): Heal Spirit at tile [13, 13] as the 1-elixir follow-up to the opening Battle Ram.
+- clock 1:33 (t=81): played on top of his own Valkyrie push to top it up and clear Skeletons — "We go heal spirit up top for skellies."
+- clock OT 1:15 (t=218.6): Heal Spirit at tile [4, 13] behind the overtime Battle Ram + Valkyrie stack — "let's go for the heal spirit as well."
+- clock 0:31 (t=143.3): Heal Spirit at tile [9, 0] alongside the Mother Witch play he narrates at t=144.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 1:59: 1 elixir at tile (12, 7) behind his own Zappies/Mother Witch defence — "I'm just going to go for the heal spell, and then we go for the Mother Witch as well".
+- clock 1:17: paired with Elite Barbarians on a stalled push to keep both alive — "I'm going to go for the heal spirit here as well. Try to heal up our mother witch and e-barbs. Nice. Mother witch is still alive".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 2:20: dropped "in front of our king tower" onto the opponent's incoming Skeletons, as cheap cycle plus splash — "I'm just going to heal spirit in front of our king tower."
+- clock 1:42: played on top of his Valkyrie specifically to move her out of a two-shot breakpoint — "Let's valkyrie heal spirit here so it doesn't get two shot. Nice, very good heal spirit."
+- clock 0:29: played "in the middle" behind the Battle Ram + Elite Barbarians counter-push to heal the pair as they crossed.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- clock 2:42: opening cycle play behind his own king tower at [8, 0] while scouting — "Let's just go for the Heal Spirit in the back here. Figure out what this guy is playing though, cuz he could have definitely changed his deck up."
+- clock 1:41 and clock 0:13: dropped on top of units already committed — [14, 13] on the Battle Ram push ("He'll [Heal] spirit too. Come on, jump. Nice") and [4, 15] on the bridge Mother Witch ("Let's heal spirit. Please jump. Please jump").
+- OT 1:21: healing a defensive commitment rather than cycling — "Let's Heal Spirit the E-Barbs."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 1:20: played on HUD for -1 elixir during the Firecracker exchange, at 2 elixir with nothing else affordable.
+- clock 0:40: confirmed by deploy label 'HealSpiRit' at tile [2, 2] - his own back-left corner, i.e. a top-up behind a push rather than a defensive answer - over "Let's ... battle him with the heal spirit here."
+- clock 0:05: reached for again in the final scramble, "Okay, let's heal spirit here."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:36 and 1:36: cheap cycle and repair behind the king tower (tiles [9, 5] and [9, 0]) — "heal spirit here in front of our king tower", "Let's heal spirit in the back."
+- clock 0:54: played offensively at tile [5, 19], on the enemy half on top of his own attackers, as insurance against a spell — "I'm going to heal spirit here cuz he might try to go for it ... Heal spirit jump."
+- overtime 1:50: Heal Spirit at tile [8, 6] used as a block plus heal while defending a Three Musketeers push — "Heal Spirit here. Block this."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 2:12 (1380-1386s): played behind a defending group to survive splash - "Let's go for the Heal Spirit too just to keep these healthy cuz they're going to run away from the giant skelly bomb and they're going to help take out the royal ghost".
+- clock 0:44 and 0:25 (t=1467.1, t=1486.7 tile [5, 11]): 1-elixir top-up on already-committed troops, paired with the ram and the E-Barbs - "let's go for the heal spirit and then we go for the battle ram".
+- overtime 1:31 and 1:10 (1543s, t=1566.1 tile [11, 12]): "We need to heal spirit to bring this up to the e barbs" and "Heel spirit like this bring it over" - always used on units, never as chip damage.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

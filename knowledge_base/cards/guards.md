@@ -97,6 +97,13 @@ Not specified on source page
 - Skeleton Army and Goblin Gang give far more damage for the same 3 Elixir, again at the cost of spell vulnerability.
 - Tombstone is a same-cost alternative if you do not need a counterpush, and it also distracts building-targeting troops like Giant, Battle Ram, Ram Rider, Wall Breakers, Elixir Golem and Hog Rider.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 1:54: Ryley predicts them as the forced substitute for a Hog Rider block against Mother Witch - "He kind of has to go for guards" - and Guards deploy at tile [16, 22] at clock 1:50.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Guards (scraped 2026-09-02T02:34:58+00:00)

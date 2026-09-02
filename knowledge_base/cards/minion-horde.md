@@ -110,6 +110,19 @@ Not specified on source page
 
 This card has an evolution: see [minion-horde-evolution.md](../evolutions/minion-horde-evolution.md). Cycles to evolve: see evolution file. Stat boosts: see evolution file.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 0:31: the opponent's one real attack in the readable window; Ryley answers it with the spell he had deliberately saved - "Goes for the Minion Horde. I'm going to freeze." The Minions are tracked into his left lane from tile [2, 14] and take the left tower 4670 -> 3871.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 1:53-1:41: he plans the whole match around not being able to defend an Evolution Minion Horde and races for a tower instead — "I feel like I can't defend a really good Evo minion horde push ... that's why I felt the need to get the tower cuz I'm probably going to take a ton of damage when he just goes for his minion horde push anyway." It duly takes his right tower between clock 0:45 and 0:03. (opponent's card)
+- clock 0:28: his stated answer is a layered one, Mother Witch behind the horde rather than a spell alone — "I need to get a minion horde down, a mother witch down on this minion horde."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minion_Horde (scraped 2026-09-02T02:34:48+00:00)

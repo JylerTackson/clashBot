@@ -136,6 +136,14 @@ This card appears in 2 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 1:07-0:57 (t=106-115): names the opponent's Evo Archers as the card that beats his deck — "the thing that we have to be really, really cautious of is of course the evo archers or just archers in general, cuz archers will get a lot of value against me." He answers them with Zappies splits and Bandit dashes rather than a spell (there is no small spell in the list).
+- clock OT 1:26 (t=205-209): archer placement is also what talks him out of a Freeze — "I would freeze that but because the archer's on it, I'm not going to."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

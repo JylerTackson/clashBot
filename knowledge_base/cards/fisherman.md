@@ -113,6 +113,14 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoRG FishBoy Hunter 3.0 Cycle](../decks/barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 2:26 (opponent's card): named as part of the deck read — "PEKKA golem giant with the fisherman and the skellies in here."
+- clock 0:25: a mis-timed Fisherman pull cost the opponent the crown tower during Ryley's ram + Elite Barbarians push — "Oh my god, what a fisherman. That was not the fisherman that he was looking for."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fisherman (scraped 2026-09-02T02:35:13+00:00)

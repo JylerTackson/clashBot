@@ -112,6 +112,13 @@ This card appears in 2 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 2 deck(s): [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 2:07 (1384-1385s): opponent card. Its death bomb is why he spends the Heal Spirit - "they're going to run away from the giant skelly bomb and they're going to help take out the royal ghost".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

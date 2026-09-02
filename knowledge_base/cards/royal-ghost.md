@@ -114,6 +114,13 @@ This card appears in 4 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 2 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 2:07 and 1:15 (t=1383.4, t=1435.4, detector): opponent card. Ryley answers it by kiting rather than trading - "We have to ram kite that ghost for sure. Let's ram kite this ghost cuz then it will help defend the wizard as well cuz it's distracting everything" (0:25).
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

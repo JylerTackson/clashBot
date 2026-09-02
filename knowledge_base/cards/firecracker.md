@@ -123,6 +123,15 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [Hog MM EvoCannon 2.6 Cycle](../decks/barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 1:24 to 1:19: the opponent's Firecracker (tracked at [10, 19]) is the target he spends a Heroic Valkyrie ability on - "He goes for the firecracker, we're just going to pop ... the ability" - and it survives.
+- clock 1:16: when it walks off he takes the lane change as good enough - "At least it's going to go to the other lane, though, so it's technically dead, I guess."
+- clock 0:24: still the card he most wants gone late - "We need to kill that Firecracker."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

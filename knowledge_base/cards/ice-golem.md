@@ -119,6 +119,13 @@ This card appears in 2 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md), [Hog HeroMusk 2.6 Cycle](../decks/cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 1:22: the opponent tanks with an Ice Golem and uses its ability; Ryley calls the timing a mistake — "that ice golem ability was maybe not the greatest though cuz it doesn't freeze it anymore. It just slows it down a lot ... that was a bad push in my opinion. Feel like he kind of ruined a really good opportunity to get a bunch of damage." (opponent's card)
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

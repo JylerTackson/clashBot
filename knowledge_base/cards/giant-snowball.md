@@ -129,6 +129,14 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- Opponent's evolved spell ("He has the evo snow", clock 0:17). Used on Ryley's Zappies at clock 1:47, which he rates as a bad spend: "that was a bad snowball though. I think he got a little bit too excited right there."
+- OT 1:53: a second snowball on the same target does not save the defence — "Good snowball, but not good enough. These Zappies are going to kill everything."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

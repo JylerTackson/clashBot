@@ -5,15 +5,15 @@ video_url: https://www.youtube.com/watch?v=qHWw4rM-N2I
 match_index: 0.3
 video_time: [628.3, 927.8]
 creator: ryleycr1
-own_deck: [bandit, battle-ram, elite-barbarians, freeze, heal-spirit, mother-witch, rage, zappies]
-own_deck_key: bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-rage-zappies
+own_deck: [bandit, battle-ram, elite-barbarians, freeze, heal-spirit, mother-witch, valkyrie, zappies]
+own_deck_key: bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-valkyrie-zappies
 own_archetype: bridge-spam
 opponent_deck_seen: [boss-bandit, valkyrie, ronin, executioner, hunter, barbarians, giant-snowball, barbarian-barrel, zap]
 opponent_archetype_guess: bridge-spam
 result: win
 quality: {"readable_seconds": 299.5, "match_frames": 1796, "own_elixir_drift": {"n": 3, "mean": -1.607, "abs_mean": 1.607, "max_abs": 3.0, "last": -0.881}, "events_total": 90, "events_unidentified": 29, "events_by_source": {"hud": 27, "arena": 29, "inferred": 25, "deploy_label": 9}, "hand_conf_mean": 0.232}
 links:
-  cards: [bandit, battle-ram, elite-barbarians, freeze, heal-spirit, mother-witch, rage, zappies, valkyrie, boss-bandit, ronin, executioner, hunter, barbarians, giant-snowball, barbarian-barrel, zap, little-prince, wizard, firecracker]
+  cards: [bandit, battle-ram, elite-barbarians, freeze, heal-spirit, mother-witch, valkyrie, zappies, boss-bandit, ronin, executioner, hunter, barbarians, giant-snowball, barbarian-barrel, zap, little-prince, wizard, firecracker]
   decks: []
   archetypes: [bridge-spam]
 ---
@@ -27,9 +27,8 @@ through overtime. Ryley is on the same list he announced at the top of the video
 deck in Clash Royale" (t=7-9 of the video) — i.e. the video-level consensus
 [Mother Witch](../cards/mother-witch.md), [Battle Ram](../cards/battle-ram.md) (evo),
 [Elite Barbarians](../cards/elite-barbarians.md) (evo), [Bandit](../cards/bandit.md),
-[Zappies](../cards/zappies.md), [Heal Spirit](../cards/heal-spirit.md), [Freeze](../cards/freeze.md) and
-[Rage](../cards/rage.md), plus the [Heroic Valkyrie](../heroes/valkyrie-hero.md) he plays and abilities all
-game (see Data gaps — he plays nine distinct cards here, so one consensus slot is wrong). The plan is the
+[Zappies](../cards/zappies.md), [Heal Spirit](../cards/heal-spirit.md), [Freeze](../cards/freeze.md) and the
+[Heroic Valkyrie](../heroes/valkyrie-hero.md) whose 3-elixir Wild Whirlwind ability he pops all game. The plan is the
 [bridge-spam](../archetypes/bridge-spam.md) one he stated in game 1 ("we are playing bridge spam so we can
 always counter push off of that"): defend the opponent's expensive ground troops cheaply, then answer with a
 Battle Ram / Bandit / Elite Barbarians threat on the far side. The opponent is a player he names "Gank Aslan"
@@ -198,11 +197,9 @@ pulling off these wins."
   t=757-759, and called for six more times in the commentary (t=644, 790, 822, 852, 894, 907). He uses the
   3-elixir Wild Whirlwind ability as a finisher — "we can Valkyrie and hit the ability cuz it's going to go
   right up to the tower, guys. Ability here. Come on. Nice" (t=870-873) — and holds it when the value is not
-  there: "Could pop the ability, but it's not worth it anymore" (t=855-857). See Data gaps for the
-  Valkyrie/consensus-deck conflict.
-- **[Rage](../cards/rage.md)** — one HUD event only, at OT 0:55 (elixir 5.0 -> 3.0, slot 3 emptied). He never
-  says the word "Rage" anywhere in this game (or anywhere in the video's transcript), so its use here is an
-  unverified pipeline read, not something he narrated.
+  there: "Could pop the ability, but it's not worth it anymore" (t=855-857). The ability itself never appears
+  as a card event: it costs 3 elixir and empties no hand slot, so it surfaces only as the nine 3-elixir
+  UNIDENTIFIED drops listed in Data gaps.
 
 ## Opponent
 
@@ -270,15 +267,14 @@ How he reads and counters them:
 
 ## Data gaps
 
-- **The ninth card.** Ryley plays and names nine distinct cards this game: the eight of the video-level
-  consensus plus the Heroic Valkyrie. `own_deck` follows the instruction to use the consensus (which scores
-  mother-witch 4 and valkyrie 2 across the video's seven games), but the evidence for Valkyrie in *this* game
-  is strong — a 'ValkYRie' deploy label at [4, 8] with score 1.0 explaining a 4-elixir drop at clock 0:53, a
-  matching troop tracked up the left lane at t=757-759, and seven separate commentary calls. Mother Witch is
-  equally well supported (a 'WitcH' label at the river tile at t=784.3 plus four commentary calls and the
-  Cursed Hog payoff at t=849). The consensus member with the weakest support here is Rage: one HUD event
-  (OT 0:55) and no mention anywhere in the video's transcript. Treat the 8th slot as unresolved between Rage
-  and Valkyrie.
+- **The 8th slot (resolved).** The raw per-game read listed Valkyrie, the first video-level consensus listed
+  Rage; the recomputed consensus (transcript-aware) is Bandit, Battle Ram, Elite Barbarians, Freeze, Heal
+  Spirit, Mother Witch, Valkyrie, Zappies, and that is what this file uses. Valkyrie is his Heroic Valkyrie:
+  a 'ValkYRie' deploy label at [4, 8] with score 1.0 explains the 4-elixir drop at clock 0:53, the troop is
+  tracked up the left lane at t=757-759, and he calls it seven times. Rage was a hand-read misclassification
+  (Freeze misread): the single "Rage" event at OT 0:55 (-2) has no commentary support and the word never
+  appears in the video's transcript. Mother Witch is independently confirmed by the 'WitcH' label at the river
+  tile at t=784.3, four commentary calls and the Cursed Hog payoff at t=849.
 - **The Heroic Valkyrie's ability is invisible to the pipeline.** Nine own UNIDENTIFIED events are 3-elixir
   drops with no hand change (t=690.4, 714.0, 764.1, 768.3, 803.5, 889.4, 894.1, 898.1, 904.2), which is
   exactly the cost of Wild Whirlwind; the ones at t=871 and t=904-909 line up with him saying "hit the

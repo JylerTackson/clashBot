@@ -135,6 +135,13 @@ This card appears in 7 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 1 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 2:47 to 1:09: he played the whole game around the opponent's Fireball — high-middle Mother Witch as the bait ("if they don't have the Fireball, then you just get a bunch of damage"), Zappies only when "He has no Fireball in cycle", and once it landed at clock 1:09 he counted it as a win: "Okay, he has the fireball. That's really good. I'll take that", followed by a tower-taking Bandit.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

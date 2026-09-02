@@ -114,6 +114,58 @@ This card appears in 2 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 2 deck(s): [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 1:45 (t=68.6) and clock 0:42 (t=131.6): both Zappies plays are splits behind his own towers at tile [8, 0] — "let's just split our zappies again here. He might activate king."
+- clock 1:33-1:22 (t=81-91): the split Zappies walk up the left lane as slow standing pressure while he cycles.
+- clock OT 1:52 (t=182) and OT 1:08 (t=228): dropped mid-field purely to soak defenders — "let's zappies here in the middle though just to keep distracting."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 2:04: placed deep at tile (10, 4), well behind his own towers rather than at the bridge, against Balloon and Skeleton Dragons — played on a cycle read: "He has no Fireball in cycle, so we can just go for our Zappies here". The opponent Zapped tile (9, 6) the same second.
+- clock 0:50: held them rather than spending them, anticipating the Lava Hound — "I'm going to not go for the zappies though cuz I know he's just going to go for a Lava Hound at the bridge here".
+- clock 0:31: finally spent them at (16, 3) behind the right tower against the Balloon; the opponent Zapped that exact tile at clock 0:29.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 1:56: called as the answer to the P.E.K.K.A. walking the left lane — "we can just go for a set of zappies on defense later… Let's just go for the zappies here."
+- clock 0:16 and 0:11: two sets of Zappies (one at [15, 4]) stunning the last Goblin Giant / Battle Ram / P.E.K.K.A. wave of regular time — "Let's get some zappies down too. We're getting some decent damage on the king tower."
+- In this match Zappies were used only on defence; every offensive commitment went to Battle Ram, Elite Barbarians and Bandit.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- clock 1:52: placed centrally at [9, 10] on his own half against a melee mini-tank — "[I] had Zappies here in the middle for the Ronan [Ronin]"; the opponent's Giant Snowball scattered them a second later and he called it a bad spend by the opponent.
+- clock 0:37: placed deep against the champion — "We will go for the Zappies down low here just to make sure that we take out this boss Bandit", followed by his favourite interaction of the game: "boss Bandit not one shotting Zappies — one of the best interactions to happen to the game, to be honest."
+- OT 0:32: used to finish a stalled defence alongside a kiting Battle Ram — "we can go for the Zappies here as well just help take this out. Good defense here."
+- Always deployed behind the river on his own half in this game, never at the bridge.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 1:42: his stated answer to a stacked defensive wave (Barbarians, Guards and a Bomber all on the right lane) - "we can just go for these low zappies here, and this will just take out everything."
+- clock 0:40: played again while short of a defensive card - "Okay, let's go for the Zappies here. I'm going to need to get like a good freeze or something on defense."
+- clock 0:08: last card of the closing dump, played to cycle before the opponent can reach Lightning.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:48: opens the game by splitting Zappies behind his king tower at tile [8, 0] as an information play — "Just going to start off by splitting my Zappies here. Try to figure out what this guy is playing."
+- clock 1:32: Zappies at tile [8, 6] in front of the king tower as the anchor against an incoming ram — "he goes for the battle ram. Let's just go for the zappies here in front of our king tower."
+- clock 0:48 and overtime 1:28: calls for Zappies as reset support on top of a Minion Horde / Three Musketeers push — "Okay, let's go for the zappies here", "We need to go for the Zappies as well."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 2:47 and 0:32 (t=1343.8 tile [7, 0], t=1479.6 tile [8, 0]): both Zappies go down deep on his own side, never at the bridge - they are a defensive card in this list.
+- clock 1:10-0:57 (1441-1453s): held on purpose against a bridge-spam mirror - "I'm not going to go zappies yet... I didn't want to do like a bad zappies where then he can just ram opposite lane... Then if he goes in with the ram, we can go for the zappies".
+- Opponent side: he wants theirs pulled early ("I want him to use a set of zappies if possible", 1:47) and tries to clear them with the Valkyrie ability twice; failing to kill them in overtime is what he blames for the comeback - "good damage but we didn't take out said Zappies".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

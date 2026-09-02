@@ -116,6 +116,13 @@ Not specified on source page
 
 This card has a Hero form (Destructive Dismount, ability cost 3 Elixir): see [dark-prince-hero.md](../heroes/dark-prince-hero.md).
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:19 and 1:02: treats the opponent's Dark Prince as the expected block against his bridge pushes and baits it with Mother Witch Cursed Hogs — "It will spawn on the left to distract the Dark Prince", "He might go for a dark prince to block for that", "he's probably going to go for the dark prince, right?" (opponent's card)
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dark_Prince (scraped 2026-09-02T02:35:01+00:00)

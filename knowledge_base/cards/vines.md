@@ -113,6 +113,13 @@ This card appears in 2 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 2 deck(s): [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 1:38-1:28 (1414-1429s): opponent card. He refuses a ram prediction because he expects it - "He might go for a vine so I'm just going to... let's not ram predict it" - and counts being forced into it as a win: "he has to go for the vines instead of zappies. But that's fine cuz that's going to block and we can hit our ability now".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

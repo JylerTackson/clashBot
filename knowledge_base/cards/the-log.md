@@ -115,6 +115,14 @@ This card appears in 4 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 1 deck(s): [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 2:31: a mis-spent opponent Log is what opens the game up for him - "Okay, bad log, too, cuz now he isn't able to go for a hog rider in front ... block the mother witch."
+- clock 0:47: he notes the opponent had to spend it on the Cursed Hogs - "the Mother Witch piggies are going to take his tower. He had a log because of that."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

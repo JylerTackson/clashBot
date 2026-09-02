@@ -94,6 +94,15 @@ Not specified on source page
 - Against high-damage ranged troops he must be placed on top of them to get value on defense.
 - His main weaknesses are being outranged, being swarmed, and having no answer to air.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- Opponent card (transcribed as "Ronan"). clock 1:52: he pre-places Zappies centrally for it — "[I] had Zappies here in the middle for the Ronan."
+- clock 0:43: "he gets the Ronan down but we're going to get a lot of damage here" — he accepts the Ronin landing because his bridge stack is already committed.
+- OT 1:17: he uses it as the reason to play Mother Witch — "we can go for a Mother Witch cuz he has to get some type of Ronan down... But if he gets the Ronan down, it's going to start spawning Piggies", i.e. a 5-elixir melee troop is ideal curse food.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ronin (scraped 2026-09-02T02:35:13+00:00)

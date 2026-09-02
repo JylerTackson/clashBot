@@ -104,6 +104,13 @@ Periodically spawns in 2 Lava Pups at the back when in Lava Hound form.
 - Clone on the Lava Hound is high risk, high reward: the tower fires one shot at the cloned Hound before switching, yielding twelve Pups. Bait out Zap, Arrows or Giant Snowball first with swarms like Bats, Minion Horde, Goblin Gang or Skeleton Army.
 - Compared with the Golem: cheaper, untargetable by big ground damage, Pups out-damage Golemites, and a 1-second deploy time versus 3 seconds — but less health, far lower damage, no death damage, harder to upgrade as a Legendary, and it cannot distract ground-only troops.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 2:27 and clock 0:47: he treats an opponent Lava Hound placed behind the arena tower as the cue to commit two cards to the other lane immediately — the clock 2:27 Hound was answered with a 10-elixir Valkyrie + Elite Barbarians push that took the tower to 916 HP, and at clock 0:50 he held his Zappies because "I know he's just going to go for a Lava Hound at the bridge here".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

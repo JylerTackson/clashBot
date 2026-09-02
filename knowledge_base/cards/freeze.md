@@ -115,6 +115,60 @@ This card appears in 1 of 19 scraped decks:
 - **[Control](../archetypes/control.md)** — 1 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 2:19 (t=37): names Freeze as the deck's answer to an opposing Heroic Valkyrie — "That is why we are playing freeze in this mother witch deck today," after saying the Hero is "nearly impossible to defend against."
+- clock 1:05 (t=108.4) and OT 1:38 (t=196.0): the two HUD-read Freeze casts of the game, both with the opponent's Mortar/Archers or Valkyrie on him. Freeze is the only spell in the list — the HUD's "Rage" reads in this game are Freeze misreads.
+- clock 0:11 (t=163-168): restates it as the single counter — "The only way to counter this card, guys, is just a freeze on it. That's exactly why I have it in the deck here, man."
+- clock OT 1:26 (t=205-209): declines a Freeze on purpose because the value is not there — "I would freeze that but because the archer's on it, I'm not going to."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 0:24: the only Freeze he names all game, as the emergency answer to the Lava Hound + Balloon push already sitting on his tower — "Okay, I think I need to freeze this all. I think I need to freeze this for sure. Make sure we take that mega minion out". The HUD logged that elixir step as a 2-elixir Rage, a card that is not in his deck, so the card read is the error, not the Freeze.
+- clock 2:25 and clock 1:31: two 4-elixir drops the low-confidence HUD (hand confidence 0.274) labelled Freeze are in fact Valkyrie plays — both coincide with 'ValkYRie' deploy labels on the same tiles and seconds. No Freeze cast in this match has both a clean card read and a matching elixir step.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 2:15: offensive Freeze (elixir 5 -> 1) on top of the Battle Ram + Elite Barbarians push; the enemy right tower fell from 4302 to 148 HP over the next three seconds.
+- clock 1:02 and 0:28: defensive Freeze against the Goblin Giant / P.E.K.K.A. waves — "We do have freeze on defense. Freeze could save us a lot" (1:13) and "let's go for a freeze here, cuz he's going to try to take this out" (0:11).
+- clock 0:21: declined the spell when the damage was already banked — "I'm not going to freeze though. I think that should be nearly tower down anyway."
+- post-game: the video's thesis card — "This deck is so, so strong, especially with the freeze, too. I feel like freeze is such an underrated card, as well."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- Brought specifically as the answer to the bugged Heroic Valkyrie, stated at the top of the video (t=37): "That is why we are playing freeze in this mother witch deck today."
+- OT 0:43, OT 0:22 and OT 0:03: three freezes in the last 45 seconds, every one on the opponent's Valkyrie — "I'm going to try to freeze this as well. Freeze", "I might have to freeze that Valkyrie, though. Yep, I have to freeze this. Nice. Great freeze", and "His Valkyrie is going to get to my tower. I have to freeze it. Freeze it. Freeze it. Let's go. We win."
+- OT 0:11: he treats holding it as the win condition in overtime — "We have to get back to a freeze, guys, and we win."
+- Data caveat: the HUD logs three Freezes inside 27 seconds at clock 0:47-0:19; the commentary names two of those drops as the evo Battle Ram and Elite Barbarians, so only the overtime freezes are confirmed.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 0:37: banked rather than spent on offence - "I'm going to need to get like a good freeze or something on defense. Otherwise, I'm not sure I'm supposed to defend."
+- clock 0:31: spent on the opponent's Minion Horde as it commits - "Goes for the Minion Horde. I'm going to freeze."
+- clock 0:12: called for again during the final defence (own elixir 8 -> 5) - "Okay, let's go for the freeze here."
+- Note for readers of the raw pipeline output: the hand OCR in this video misreads Freeze slots as Rage, so HUD plays labelled Rage are Freeze.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:04: offensive Freeze on the enemy left tower (his own level-16 deploy label at tile [3, 20]); that tower falls from 3942 HP to 326 HP within 15 s — "Could I freeze this? Low-key, I know it's aggressive, but I'm going to get a lot of damage and we're going to spawn a piggy that should just be tower down because of the freeze."
+- overtime 1:14: Freeze at tile [8, 29] used only to guarantee the Battle Ram connects — "Let's freeze this as well so we can get the connection on the tower."
+- clock 0:05 and overtime 1:55: two further Freezes (HUD) during the defence of the Minion Horde / Three Musketeers push — "he's going to try to three crown us though."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 0:33 (1480-1483s): held unspent as hidden information - "We do have a freeze don't I don't think he knows that cuz if I remember correctly we haven't played the freeze yet".
+- clock 0:16 (1497s): planned as a combo with the hero - "we need to go for a valkyrie plus freeze combo I think or just a Valkyrie".
+- overtime 1:31 (1540-1542s): finally spent on defence - "Let's go for the freeze here then we go for the e barbs directly on top like this". Earlier HUD reads that named Freeze (clock 2:15) or Rage (a card not in this deck) contradict his own commentary and are misreads of Freeze or of the Valkyrie ability.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

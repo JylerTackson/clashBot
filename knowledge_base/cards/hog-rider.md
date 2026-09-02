@@ -118,6 +118,14 @@ This card appears in 2 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [Hog MM EvoCannon 2.6 Cycle](../decks/barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons.md), [Hog HeroMusk 2.6 Cycle](../decks/cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 2:31: named as the opponent's ideal Mother Witch blocker, denied to them by a mis-spent Log - "normally he'd want a hog rider in front so he could ... block the mother witch."
+- clock 1:02: he thinks through the opponent's counter-attack options out loud - "He could go for a Hog ... or what he could even do is he could Hog down the middle" - and it never comes.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

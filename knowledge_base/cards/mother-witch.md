@@ -115,6 +115,63 @@ This card appears in 2 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 2 deck(s): [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 2:11-2:02 (t=43-53): his whole case for the card — "it literally just spawns a win condition. Like it spawns royal hogs and the royal hogs from the mother witch just do way too much damage, and she shoots really, really quick as well." Hog allies duly appear on the field at t=51-56.
+- clock 0:29 (t=144-147): plays her as chip-and-annoy value rather than a push anchor — "We can even go for a mother witch like this just to be annoying" — then criticises his own placement: "Ooh, we should have put it one tile back. It's fine though cuz we're just spawning some nice piggies and distracting everything."
+- clock 0:17 (t=154-156): the payoff he points at is the spawned Hogs clearing the siege building — "look at the mother witch piggies just taking out the entire mortar, basically" (enemy Evo Mortar sat at tile [8, 19] through that window).
+- clock OT 0:55 (t=238-241): explicitly rejects a high-middle Mother Witch in the closing push — "I was going to high middle Mother Witch, but thank god that we didn't." No event row in this game carries her name; the plays are known from the commentary only.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 2:47: opened the game with her high in the middle at tile (8, 13) for 4 elixir, straight after a Battle Ram at the left bridge, purely as Fireball bait — "I love these high middle Mother Witches cuz if they don't have the Fireball, then you just get a bunch of damage".
+- clock 2:40: the first Cursed Hogs chipped the enemy right tower 4858 -> 4773 while both sides traded — "We got a nice piggy nibble on the tower for an even trade"; he rates her a soft win condition, "the piggies do like nearly 100 damage a shot ... with the amount of piggies that you end up having to ignore throughout the game, it can be really, really strong".
+- clock 1:58 and 1:43: a second Mother Witch behind his own defence, then he waited for her Hogs before adding the Battle Ram at the bridge — "look at this Mother Witch, guys. It's going to give us two Royal Hogs to start with. Let's go for the Battle Ram here".
+- clock 1:09-1:02: she finally drew the opponent's Fireball, after which a Bandit into the empty lane took the tower — "that all just stems from the mother witch. We forced out a fireball, and then good things happen". He twice delayed or re-aimed a bridge push because a defensive ability card could remove her (clock 1:37, clock 0:31).
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 1:14: played into the Goblin Giant / Skeletons push for the Cursed Hogs rather than the damage — "Hopefully the mother witch piggy can spawn just to get in front of that."
+- clock 0:40: played purely to farm a spawn off a dying troop — "I'm going to mother witch this just to get some piggies down. Well, I'm going to get one piggy down but that's still going to be nice."
+- clock 0:13: pre-emptive Mother Witch against an expected Goblin Giant — "I'm going to go for a mother witch too cuz he's going to go for a Goblin Giant."
+- overtime 1:38: the closing play (label at [13, 19]) — "Let's just go for the Mother Witch here, and I think he's just three-crowned… come on, spawn a piggy, MOTHER WITCH. MOTHER WITCH CLUTCH."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- clock 0:15: played at the river rather than on defence (a 'WitcH' deploy label lands at [5, 15] the same second) — "We can mother witch the bridge here as well. Let's heal spirit." The enemy left tower falls 4646 -> 1766 over the next seven seconds.
+- OT 1:37: "Let's get a Mother Witch down, too. And then we need to get a Valkyrie."
+- OT 1:17: timed against a melee troop the opponent is forced to play, so the curse has something to convert — "Then we can go for a Mother Witch cuz he has to get some type of Ronan [Ronin] down... But if he gets the Ronan down, it's going to start spawning Piggies", paid off at OT 1:11 with "Let's go for the Zappies here. Spawn a Piggy. Nice."
+- She is the video's thesis card ("the best mother witch deck in Clash Royale", video t=7-9), but in this game she is a support/chip card behind the Bandit and Battle Ram, not the primary threat.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 2:31: with a Mother Witch already walking, Ryley reads that the opponent's spent The Log has cost them their blocker - "cuz now he isn't able to go for a hog rider in front ... block the mother witch. This is nice. He kind of has to go for guards" - i.e. she wins the exchange because the substitute answer feeds her Cursed Hogs.
+- clock 1:52: he wants a body in front of her rather than beside her - "Could I bandit in front of this cuz this is going to tank for the mother witch, and he can't afford the barbs yet."
+- clock 0:48 to 0:42: the enemy right tower falls 767 -> 342 while he narrates "the piggies the Mother Witch piggies are going to take his tower. He had a log because of that" and "Mother Witch piggies just going crazy on the tower."
+- clock 0:28: replayed as a pure pressure card while defending - "let's go for the Mother Witch here just to force him to go for something" - and his closing verdict at the result screen is "Mother Witch was putting in work that game."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:19: Mother Witch played as the support behind his bridge push, with the Cursed Hogs used as distractions rather than damage — "Let's go for the Mother Witch here like this. Let's going to spawn a piggy on the right. It will spawn on the left to distract the Dark Prince."
+- clock 0:28: his stated answer to an Evolution Minion Horde is Mother Witch behind the swarm, so the dying minions become Cursed Hogs — "I need to get a minion horde down, a mother witch down on this minion horde. That's what I need to do."
+- overtime 1:32-1:22: the Mother Witch left alive on defence carries the whole overtime while he sits at 0-3 elixir — "That Mother Witch piggy is kiting everything, dude. That's where the Mother Witch is just so clutch ... look at this card, guys. It's just distracting and we're surviving."
+- end of match: he credits the win to her — "Look at the Mother Witch, man. It just distracted forever and we won because of that. We had no Elixir but it just keeps spawning a win condition in front of his push." (No play event was captured for the card in this game; all of the above is commentary plus Cursed Hog tracks.)
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 1:38 (t=1413.6): Mother Witch at tile [9, 7], deep behind his own towers rather than as bridge support, immediately after deciding against a ram prediction - "Let's just go for our mother witch here. He might go for a vine so... let's not ram predict it".
+- clock 0:57 and 0:11 (1453-1455s, 1499-1500s): queued as the follow-up card behind a defensive stand - "Okay, let's mother witch here as well" and "just a Valkyrie then we can go for a mother witch here".
+- Opponent side: the card he fears most in the mirror - "The thing that scares me the most in this game be the Mother Witch, man" (2:23) - and he baits it out with a bridge Bandit and later hunts it with a Bandit in overtime ("Please go to the mother witch").
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

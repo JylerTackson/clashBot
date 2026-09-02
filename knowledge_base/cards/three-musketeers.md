@@ -192,6 +192,14 @@ Three independent, royal, very powerful markswomen with high burst damage, moder
 - Watch for knockback in spell counters — some spell combos miss if the timing is off — and note that Lightning can be blocked by higher-hitpoint units surrounding the trio.
 - Against a back-placed trio, a quick Fireball or Poison can be worth activating your own King Tower (siege decks especially); Rocket will not arrive in time and Lightning only strikes two of the three, so otherwise wait until they approach the Towers.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:45: reads the opponent's deck early off a split Zappies opener — "I think this guy plays three Musketeers, but I'm not 100% sure." (mentioned, not played by Ryley)
+- clock 1:08 and overtime 1:20: plays around a Three Musketeers answer twice — he downgrades from Elite Barbarians to Battle Ram ("he might 3M, so maybe I'll just go for the battle ram instead") and then predicts the 3M outright ("he might 3M so it's Battle Ram. Oh my god, I predicted his Three Musketeers"). His counter once it is down is Elite Barbarians on top of it at overtime 1:57.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Three_Musketeers (scraped 2026-09-02T02:34:55+00:00)

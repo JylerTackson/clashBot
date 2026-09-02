@@ -128,6 +128,15 @@ This card appears in 2 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 2 deck(s): [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md), [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 1:05 (t=107.1) and OT 1:57 (t=175.2): opponent bridge Mortar at tile [15, 17]; Ryley answers with Freeze and lane pressure rather than a dedicated building-killer.
+- clock 0:07-0:03 (t=171-175): tries to pre-empt the next one — "I want to bandit predict the mortar. Come on. Ooh, that was a good mortar down the middle."
+- clock 0:17 (t=154-156): when the prediction misses, the Mother Witch Hogs eat it — "look at the mother witch piggies just taking out the entire mortar, basically."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

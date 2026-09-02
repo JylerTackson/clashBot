@@ -134,6 +134,55 @@ This card appears in 4 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 1:07 (t=106): treats Evo Elite Barbarians as a cycle piece he tracks — "we do have both of our evos in cycle, evo battle ram and evo e-barbs."
+- clock OT 1:37 (t=195-197): used as opposite-lane pressure while the Hero works the other side — "I'm going to go for the e-barbs in the opposite lane and then I'm going to pop the ability as soon as I'm able to"; elite-barbarian allies appear on the field one second later.
+- clock 0:28 (t=145.3): a HUD-attributed Elite Barbarians play whose elixir delta (-3) does not match the 6 cost, so the card name there is unconfirmed.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 2:27-2:25: punished a back-line Lava Hound with a two-card commit on the left (Valkyrie plus Elite Barbarians, 10 elixir), and explicitly refused to send them alone — "I went for Valkyrie and E-Barbs together just to ensure that I end up taking the entire tower cuz if I just went for the E-Barbs, then he would have just been able to go for the ... like the Barbarians if he has them ... you have to be safe". The enemy left tower was down to 916 HP by clock 1:33.
+- clock 1:17: added them to a stalled push alongside a Heal Spirit — "Should I E-Barbs here? Yeah, I'm going to e-barbs here, guys ... Try to heal up our mother witch and e-barbs".
+- clock 0:37: 6 elixir (HUD-exact, 10 -> 4) at the king tower into an incoming Lava Hound + three Skeleton Dragons, knowingly trading his own tower — "That was really aggressive by me, but I do think this play was necessary. Otherwise, I would probably lose the game".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 2:16 and 0:30: only ever played behind a Battle Ram, never alone — the 2:16 pair (with Freeze) took the right tower, the 0:30 pair at [9, 19] took the left tower to 484 HP — "we can go for the battle ram plus e-barbs at the bridge here" and "then we're going to go for the E-Barbs as well."
+- clock 1:26: explicitly refused the solo bridge play once the opponent's Skeletons were back in cycle — "He will have skeletons this time so I can't really just go for my Evo E-Barbs at the bridge but I don't have a good cycle either."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- clock 2:14: 6 elixir spent defensively at tile [7, 7], mid-way up his own half, against the opponent's Boss Bandit — "That's going to take out the Boss Bandit. He's going to keep going for abilities and stuff, but that will eventually take it out."
+- clock 0:47: added to a Bandit bridge stack ('Elite BaRbaRiaNs' label at [14, 15]) — "Okay, let's go for the e-barbs here at the bridge as well."
+- OT 1:25: dropped pre-emptively at [3, 15] to deny a champion punish — "Let's E-Barbs over here cuz he might Boss Bandit. Nice. Okay. He has to go for the Barb Barrel."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 1:07: sent to the bridge as the follow-up to Mother Witch pressure - "I guess let's go for the e-barbs here at the bridge. Let's pull this back."
+- clock 0:58 to 0:55: he credits the Evolution's Rage-tipped spears for both denying the opponent's counter-play and chipping the tower - "actually the E-Barbs throwing their spears made that not happen and we got a spear on the tower as well. Beautiful" - with the enemy right tower dropping 1118 -> 767 at t=1044.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:36: Elite Barbarians at the bridge to kill an enemy Bandit that had crossed — "we can just go for the E-Barbs at the bridge here just to make sure that we take out that Bandit."
+- clock 1:02-0:59: Elite Barbarians dropped at tile [3, 19] beside the enemy left tower (his own level-16 deploy label); that tower is destroyed by t=1220 — "I'm definitely going to e-barbs here cuz he's probably going to go for the dark prince, right? Yep, let's e-barbs here on the king."
+- overtime 1:57: Elite Barbarians at tile [3, 15] on top of the opponent's Three Musketeers — "We can get a nice E-Barbs here on top of this Three Musketeers."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 2:18 (1374s): named as the follow-up to a Battle Ram kite - "let's Battle Ram kite this and then we can just go for the E-Barbs here"; no deploy event was captured, only hand reads.
+- clock 0:33 (1485s): "Okay, let's go for the e-barbs here and we can go for the heal spirit too" - E-Barbs plus Heal Spirit as his defensive package.
+- overtime 1:31 (1540-1542s): dropped directly onto an engaged push - "then we go for the e barbs directly on top like this. We need to heal spirit to bring this up to the e barbs".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

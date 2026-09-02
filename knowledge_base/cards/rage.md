@@ -107,6 +107,23 @@ Rage's duration after leaving the radius is increased to infinite seconds.
 - Modifier **Just Superhero Stuff** (Rare): the Rage boost itself is increased.
 - Modifier **Keep Calm & Rage On** (Epic): the buff duration after leaving the radius becomes infinite.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 1:02 (t=111.9): the HUD logged a Rage cast here, but Rage is NOT in this deck — the recomputed video-level consensus across all 7 games of the video has no Rage, and these HUD "plays" are Freeze misreads. Ryley never names Rage in the commentary; treat the hand read as a misclassification.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- Not in the deck: the single "Rage" HUD event at OT 0:55 (elixir 5.0 -> 3.0) is a hand-read misclassification (a Freeze misread), and the word never appears in this game's or the video's transcript. Recorded here only so the misread is not mistaken for a play.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- Not in this deck: the hand OCR reports a Rage slot repeatedly across this game (clock 2:31 to 0:21), but the recomputed video-level consensus classes those reads as Freeze misreads, and Rage is never played or mentioned in any of the video's 7 games.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

@@ -114,6 +114,14 @@ This card appears in 9 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 2 deck(s): [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md), [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 1:37 (opponent's card): tracked the 1-elixir swarm as the gate on his offence — with them out of cycle he went straight at the king tower: "He has no skeletons in cycle, either. I'm lucky."
+- clock 1:26: with the Skeletons back he refused the bridge play — "He will have skeletons this time so I can't really just go for my Evo E-Barbs at the bridge."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

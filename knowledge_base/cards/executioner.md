@@ -111,6 +111,15 @@ Combines the Tornado spell with its axe attack.
 
 This card has an evolution: see [executioner-evolution.md](../evolutions/executioner-evolution.md). Cycles to evolve: 1. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- clock 1:19: forced out by his Battle Ram connecting in the off lane — "That will be a connection. Forces out the executioner."
+- clock 1:07: he takes the hit rather than spending on it — "I have to let that exe hit go. Oh, it didn't even hit. Perfect."
+- OT 0:43: answered with a Bandit when it walked at his tower — "Bandit here on the Executioner so we don't lose our tower." He also calls a mis-timed one by the opponent at OT 0:58: "Okay, bad Executioner."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

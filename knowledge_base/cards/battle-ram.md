@@ -129,6 +129,58 @@ This card appears in 3 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 3 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 2:47 (t=5.7): opens the game with Battle Ram off a full 10-elixir bar, before any enemy commitment.
+- clock OT 1:16 (t=216.7): Battle Ram at the bridge on tile [2, 14] behind a Bandit, into an enemy left tower already at 1230 HP — "then we can go for a battle ram at the bridge. I really just want to keep up the pressure right now."
+- clock 1:10 (t=103-106): counts it as one of his two evolutions in cycle — "we do have both of our evos in cycle, evo battle ram and evo e-barbs."
+- clock OT 0:56 (t=236-238): repeats the Bandit-then-Battle-Ram bridge stack in the winning push — "Let's go for the Bandit, guys. Let's go for the Battle Ram."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 2:48: opening play, straight to the left bridge tile (2, 13) for 4 elixir — "[I'm] just going to start off with a Battle Ram". Every Battle Ram this game went to a bridge tile, never on defence.
+- clock 1:43: Battle Ram at the right bridge tile (14, 13) behind the Cursed Hogs the Mother Witch was already spawning, elixir 6 -> 2, with a Valkyrie following into the pocket.
+- clock 0:54: the evolved Battle Ram again at (14, 13), paired with the Valkyrie to close out the second tower — "let's go for the Evo Ram plus Valkyrie cuz I need to make sure that I take this tower. Cuz if I don't take the tower, then I could lose".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 2:17: Battle Ram at [14, 13] as the front of a ram + Elite Barbarians + Freeze push that took the opponent's right crown tower — but he graded his own play badly: "I do feel like that was definitely an over commitment. I don't like that play at all, to be honest."
+- clock 1:20 to 1:07: used Battle Ram purely as a P.E.K.K.A. kite, two rams at [7, 13] and [14, 19] — "I do have a battle ram though to kite the PEKKA to the opposite lane. Well, more so kite it to the king tower", then "I'm just going to go for the battle ram like this maybe. Bring the PEKKA back."
+- clock 0:37 and overtime 1:55: ram at [15, 19] into the right lane to finish the second crown tower and then the king tower — "Let's go for the ram here and then we're going to go for the E-Barbs as well" and "Let's batter him on to the King Tower here."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- clock 1:56 and OT 1:28: the evolution slot ("the evo ram", t=777), always dropped on a bridge tile — [14, 13] as double elixir starts and [2, 15] in overtime: "Let's Battle Ram the bridge here. Keep up the pressure."
+- clock 1:28 and OT 1:56: used as a kite, not a threat — "I have to go for a ram to pull it back maybe" and "Let's go for the valk — I mean the battle ram kite on the valk."
+- OT 0:32 and OT 0:15: a stalling tool when behind on the defence — "Let's go for the Battle Ram here just to kite this away and then we can go for the Zappies here as well", then "I'm Ramming the bridge just to keep this alive."
+- clock 1:19: a ram he could not fund landed in the off lane anyway and still traded — "that's not the end of the world. Just in the other lane anyways. That will be a connection. Forces out the executioner" (enemy right tower 4858 -> 3942).
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 0:34: a high-confidence deploy label 'BattleRaM' is read at tile [13, 15], the right bridge, in the middle of Ryley's push and in the lane he is attacking; the pipeline attributed it to the opponent and Ryley never mentions it, so ownership is unconfirmed.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:30: Battle Ram into the left lane after the opponent's Minion Horde was already committed; the enemy left tower loses 916 HP at t=1137 — "Let's go for a Battle Ram ... kite it to the right ... That's going to be a connection. Perfect."
+- clock 1:05: Battle Ram at tile [14, 13] at the bridge, chosen over Elite Barbarians because a Three Musketeers answer was likely; the enemy right tower drops 3887 -> 2885 — "he might 3M, so maybe I'll just go for the battle ram instead."
+- overtime 1:20: Battle Ram played purely as a Three Musketeers prediction and supported with Freeze; it runs from (4, 23) to (6, 31) and finishes the game — "he might 3M so it's Battle Ram. Oh my god, I predicted his Three Musketeers ... Come on, Battle Ram, Battle Ram. Yes, let's go!"
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 2:19 (t=1372.5): Battle Ram at tile [9, 10] on his own half as a pure kite, not a bridge threat - "Okay, let's Battle Ram kite this and then we can just go for the E-Barbs here".
+- clock 1:29 (t=1422.3): Battle Ram at tile [13, 14] paired with the Heroic Valkyrie and her ability; enemy right tower falls 2716 -> 529 HP over the next ten seconds - "I think I could go for a battle ram plus valkyrie here though. So now he's going to be scared to zappies".
+- clock 0:44 (t~1459): ram plus Heal Spirit to try to finish one tower - "I do just want to make sure that I take out this entire right side tower. Let's go for the ram with this now".
+- clock 0:25 (1487-1495s): he plans to spend the ram again as a kite rather than offence - "We have to ram kite that ghost for sure... cuz then it will help defend the wizard as well cuz it's distracting everything".
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

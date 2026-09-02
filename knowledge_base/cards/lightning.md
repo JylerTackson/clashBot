@@ -105,6 +105,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [Goblinstein EvoRHogs 3.4 Cycle](../decks/archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 0:08: mentioned only, never played by either side - Ryley cycles Bandit and Zappies specifically because "he's going to try to get like some type of lightning down, maybe. Actually, he can't even afford lightning just yet."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

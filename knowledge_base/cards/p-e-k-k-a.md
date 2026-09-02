@@ -140,6 +140,15 @@ This card appears in 1 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 1 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 2:26 (opponent's card): identified from the first push and treated as the deck-defining threat — "I think this guy's using PEKKA golem giant with the fisherman and the skellies in here."
+- clock 1:20: his stated answer is never to fight it — kite it away with Battle Ram — "I do have a battle ram though to kite the PEKKA to the opposite lane. Well, more so kite it to the king tower."
+- clock 1:56 and 0:16: Zappies used to stun the P.E.K.K.A. off the tower while cheaper cards blocked; the P.E.K.K.A. push at 1:50 (with Rage and Zap support) still traded his left crown tower — "Oh no, I think we're in a lot of trouble guys."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/P.E.K.K.A. (scraped 2026-09-02T02:35:00+00:00)

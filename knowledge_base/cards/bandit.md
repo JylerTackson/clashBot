@@ -104,6 +104,59 @@ This card appears in 1 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 1 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.md):
+- clock 1:11 (t=102.3) and clock 0:32 (t=141.1): back-of-court cycle placements at tile [8, 0] — "We just got a bandit in the back here."
+- clock 2:30 (t=23.0): Bandit at tile [9, 4] as the defensive dash into the opponent's Archers push at tile [10, 16].
+- clock OT 1:21 (t=212.5): Bandit at tile [0, 6] used to meet the enemy Heroic Valkyrie — "let's bandit here again on this Valkyrie."
+- clock OT 0:56 (t=237.6): Bandit at tile [2, 14] leading the final bridge stack; he also uses it as a prediction card against Mortar — "I want to bandit predict the mortar" (t=171).
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.md):
+- clock 1:08: sent her in as the finisher the moment the opponent's Fireball was spent and their ground cards were out of rotation — "we can go for a bandit in the pocket cuz he has no ground cards right now. Yep, that bandit's on the tower. Nice, beautiful damage". The enemy right tower fell from 4093 to 611 in the following seconds.
+- clock 0:28: a 3-elixir step the HUD attributed to Bandit during the final defence; the commentary over that window names a Mother Witch, and 3 elixir is also the cost of the Heroic Valkyrie's ability, so this read is uncertain.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.md):
+- clock 2:48: opened the game with Bandit at the back of his own half (tile [8, 0]) purely as an information play against an unknown deck — "Going to start off with a bandit in the back here. Try to figure out what this guy is playing."
+- clock 2:07: the moment the opponent's right crown tower fell he sent Bandit straight at the king tower (deploy label at [14, 19]) — "And then we can go for a bandit on the king tower. He has no skeletons in cycle, either."
+- clock 0:47 and 0:40: cheap defensive Bandit in the right lane ([12, 3]) during triple elixir while holding Freeze and Zappies for the Goblin Giant push.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- clock 2:25: placed at the far-left river tile [0, 14] (deploy label, score 0.909) purely to pull an enemy troop off his tower — "I'm going to Bandit like this just to bring the Valkyrie back up. Yeah, good Bandit right there. Very good play." He then generalises it: "After I learned that from that first guy, I think I'm going to have to start abusing this play, cuz I feel like people are going to start overspending a lot to try to get that under the tower."
+- clock 0:47 and OT 0:58: second card of a bridge stack, [15, 15] behind the Elite Barbarians and [14, 15] behind the Battle Ram — "Let's Bandit here. Let's Heal Spirit as well."
+- OT 0:43: used as a single-target answer to a support troop — "Bandit here on the Executioner so we don't lose our tower. Hopefully that can take out the Hunter, though, or at least get it close."
+- Most-played card of the game (eight HUD events), but the HUD logs four Bandits inside 27 seconds in overtime, which an eight-card cycle cannot do; treat individual timings as approximate.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.md):
+- clock 1:52: considered as a tank in front of the Mother Witch rather than as a standalone threat - "Could I bandit in front of this cuz this is going to tank for the mother witch."
+- clock 0:48: played at the bridge (own elixir 5 -> 3, a bandit track appears at tile [3, 12] one second later) - "Hold on, let's Bandit the bridge."
+- clock 0:10: replayed in the closing elixir dump alongside Zappies - "Let's go for the Bandit and then we can go for the Zappies, too."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.md):
+- clock 2:17: Bandit follows the Mother Witch, with a Cursed Hog placed as its tank — "We can go for a Bandit here as well. Let's going to spawn another one and tank for our Bandit."
+- clock 0:42-0:07: the HUD logs four 3-elixir "Bandit" events in the last 35 s of regulation as he throws cheap bodies into the enemy half; some of these are Heroic Valkyrie ability activations (same 3-elixir cost, no hand change), so the exact count is uncertain in this game.
+- overtime 1:45: uses a Bandit as the body in front of the Mother Witch so she keeps firing — "let's go for a Bandit here in front. Come on, keep on tanking."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.md):
+- clock 1:47 (t=1404.7): Bandit at the bridge, tile [14, 13] at 9 elixir, played purely to pull a card rather than for damage - "I'm going to bandit the bridge here as well. I want him to use a set of zappies if possible or a mother witch is good too for me. Yeah, force out the mother witch there".
+- clock 0:13 and 0:05 (t=1498.8, 1506.3): two Bandits in eight seconds as his left tower drops 2964 -> 137 HP; he accepts the trade - "we're we're just going to lose our tower here which is okay".
+- overtime 1:37 and 1:12 (t=1534.4 tile [9, 1], t=1559.4 tile [6, 11]): Bandit becomes the emergency defender and a Mother Witch sniper - "Let's bandit here towards the right. The right is definitely more pressing right now" and "Please go to the mother witch... If this takes out the mother witch I think we're alive".
+- Six HUD Bandit plays in under four minutes make her his highest-cycle card in this bridge-spam list.
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

@@ -106,6 +106,16 @@ The Boss Bandit has a special ability, accessible from the rightmost side of the
 - Watch for heftier AoE answers used after the opponent defends or during Double/Triple Elixir — Valkyrie, Wizard, Baby Dragon, Witch, Dark Prince, Sparky, Evolved Mega Knight, Goblin Demolisher, Royal Ghost, Bowler, Executioner and Skeleton King.
 - She can be set as a Boat Battles defender but cannot use her ability there, so she is a poor choice for Clan Wars Defense Towers.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:start -->
+Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.md):
+- Opponent's champion and the card the whole game is played around. Ryley never tries to burst her down: clock 2:14 "That's going to take out the Boss Bandit. He's going to keep going for abilities and stuff, but that will eventually take it out"; clock 0:37 "We will go for the Zappies down low here just to make sure that we take out this boss Bandit."
+- clock 1:44-1:36 on her survivability: "if you had like an average life expectancy on each card, I swear Boss Bandit is like expected to live the longest. It just always just stays on the map for like 40 seconds most of the time if they played in the back."
+- clock 0:33 on the Zappies matchup: "boss Bandit not one shotting Zappies — one of the best interactions to happen to the game, to be honest."
+- He counts her two ability charges and plays the punish once they are gone — OT 0:31 "he can't use the Boss Bandit ability anymore. So, let's get a Valkyrie down, too" — and rates her overall at OT 1:34: "the Boss Bandit is not an easy card to defend, though. I swear Boss Bandit is one of the scariest cards ever."
+<!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Boss_Bandit (scraped 2026-09-02T02:45:45+00:00)
