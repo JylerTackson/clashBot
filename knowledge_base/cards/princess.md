@@ -327,6 +327,20 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=270-273): the one time he does answer one, it is with the Mighty Miner ability rather than a card — 'Can we mighty miner ability that princess? Yes, we will be able to. Perfect.'
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock ~2:12 and 1:15: Princess behind the Cannon at (9, 7) and (9, 9) as the home splash answer while the Zappies and the Giant Skeleton walk the left lane.
+- clock 0:58-0:55: Princess twice at the right bridge (15, 14) during the Barrel + Wall Breakers push — "I even Princess here to snipe this down cuz I wanted to splash the Zappies and grab some tower damage."
+- clock 0:42: he counts her in the spell arithmetic that wins the game — "he's not able to kill the Dart Goblin and the next Princess. He can only kill one of those three, right? Dart Goblin, Princess, or a Skarmy with the vines."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Opponent card, deployed roughly a dozen times in both lanes and behind the towers from clock 2:35 (t=1230.8) onward; it is what identifies the deck - "here he had a log bait deck, which definitely did catch me off guard" (t=1232).
+- clock 2:02 (t=1267-1274): the match-up thesis - "the Princess and the Rascal Girls get a ton of value for him because I am literally unable to take them out. So, I knew that to win this game I would have to be very, very careful."
+- t=1384-1392: on the opponent misplaying them - "he keeps letting the princesses die. But if he was protecting them, he would stack up two to three princesses very quickly cuz as you see, like I really have no way to take them out." Ryley's only answers all game are Goblinstein on his own half (t=1250) and the Goblinstein ability (t=1448).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

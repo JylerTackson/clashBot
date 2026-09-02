@@ -217,6 +217,18 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.
 - clock 0:47 (t=128.1) and clock 0:49: up to three Wizard trackers behind the Royal Recruits push; Ryley never spells them, he answers with the centre Bomb Tower plus Royal Delivery plus a Fire Spirit and takes no tower damage from that wave (t=129-137).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 1:18-1:09: the Hero Wizard behind a Giant Skeleton produces five tower-damage events the pipeline could only log as unidentified spells, taking Ryley's left tower 2668 -> 521 — "I didn't expect the Wizard to cook that hard... look at that Wizard, guys. That Wizard was just getting so so much damage."
+- clock 1:20: his answer is to let it commit first — "I waited for the Wizard to lock on so I could go for the Ice Spirit." (Hero variant, heroes/wizard-hero.md; only the base card slug exists in the KB.)
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.5.md):
+- clock 1:48 (t=1870.5): Wizard (hero variant) at [8, 0] deep behind his own king tower, a direct answer to the opponent's Magic Archer — "He went for the marcher, so I went for the wizard in the back here". He credits it with the damage on the following push: "I got a lot of damage with the wizard and the e-barbs" (t=1899).
+- clock 0:44 (t=1938): named as the reason he can commit to a big push without fearing the Magic Archer — "I had a feeling that after I went for this, he would pressure me with the magic archer, but I wasn't scared cuz I knew that I had the hero wizard for defense".
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

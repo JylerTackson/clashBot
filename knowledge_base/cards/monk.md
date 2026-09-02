@@ -140,6 +140,23 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=600-612s (mentioned, never played in this video): Ryley names the Ronin/Monk C.H.A.O.S. modifier as the best roll he knows — 'You know how I said the Ronin Monk one is the best one? If you have a different one on the Ronin, it's good to replace' — his one stated exception to always taking a fresh modifier.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- Opponent card, seen at clock 2:12 (t=40.0, tile [13, 14]) and clock 0:55 (t=116.1, tile [2, 21]) walking both lanes in support of the Royal Giant. Ryley answers it with a Berserker on his own side of the bridge (t=119.1, tile [2, 14]) rather than a spell.
+- Clock 0:07 (t=165-171): the reason he saves the Berserker Hero ability — "I got a really nice Berserker ability as well just to be able to take out the Monk and the Fisherman."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:42 (mentioned, not played): named as the partner card in the opponent's previous-duel list — "With him using Royal Giant Monk, I did feel like that I win against most of the cycle decks that he could end up playing."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=636 (clock 0:57), mentioned before it appears: he reads the opponent's Evo Royal Giant push as premature because the champion is out of cycle — "I knew that he didn't have monk in cycle and making an RG push without monk is not really ideal, especially when I have a furnace".
+- t=708.3 / 714.3 (overtime, opp elixir 10 -> 5 and 8 -> 3): the opponent uses the ability defensively against Ryley's Skeletons and Barbarian Barrel — "I tried a barrel, but he got me good with the monk ability to be honest. I really didn't expect that. I thought he's going to try to save it for offense, but you know, it worked out and he got my furnace off the board" (t=711-719).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Monk (scraped 2026-09-02T02:35:14+00:00)

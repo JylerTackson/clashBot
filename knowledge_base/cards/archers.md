@@ -311,6 +311,19 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.
 - The opponent's X-Bow support, seen in almost every push from clock 2:29 onward (several tagged as the Evolution by the detector). Ryley answers the Archers-plus-X-Bow combination with Royal Delivery at [3, 14] (clock 0:53) and with Magic Archer lined through both.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Evolution slot, played eight times and almost always split or paired. Back-corner cycle placements at [3, 9] (clock 2:48), [9, 0] (clock 2:03 and clock 1:00) and [8, 0]; centre splits at [8, 8], [9, 8], [9, 7] and [3, 4] on defence.
+- clock 1:36 (t=1287.9): Archers at the bridge tile [10, 14] immediately before the split Royal Hogs, as the piece the hogs tank for - "I went for a nice set of Evo Archers here just taking out this Princess ... because we had that one Evo Archer protected, it was even able to damage the Rascal Boy down pretty much."
+- t=1431: "I went for the split archers here, and I just made sure to keep on protecting everything" - and at t=1437 the evolved Archer is the thing the Royal Hogs are played to shield. When two die late he says so: "Those archers dying did scare me. Like right here, I got a little bit scared if I'm being completely honest" (t=1485-1489).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- opponent card, the Evolved version. Deployed repeatedly from clock 2:14 (t=1549.2) and walked down both lanes all game; Ryley rates them above his own spawner - 'I really can't take out the Archers, and Furnace isn't as annoying as Archers' (t=1564-1568).
+- he tracks their Evolution cycle continuously and plans around it: 'I knew that he had the Evo Archers up' (t=1604), 'I knew that he had the next set of archers Evo' (t=1665), and he reserves his small spell for them - 'I didn't Barb Barrel cuz I wanted to save it for the Evo Archers' (t=1612). He also counts a defensive Evo Archers in the wrong lane as a win for his push: 'he had to use his Evo archers in the opposite lane' (t=1778).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

@@ -311,6 +311,13 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4
 - Never appears as a deploy label; he names it after absorbing a push with a defensive Miner at t=814.8 — "yeah, no damage except the heal spirit, which is nice. Happy with that" (t=817-820).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- clock 2:05 and 0:50: Heal Spirit dropped at (14, 14) directly behind an already-moving commit (Elite Barbarians the first time, Valkyrie/Battle Ram the second) — "I went for the heal spirit too with a battle ram opposite lane" and "I got a nice Heal Spirit there as well so I was getting some really good damage."
+- Overtime (t=1141.4): Heal Spirit at (8, 19) into the Battle Ram push, where its splash mattered more than its heal — "I had a really nice Heal Spirit jump taking out that um Giant Skelly for the most part and the Battle Ram guys was able to get to the tower."
+- Overtime (t=1185.8): the pairing that failed — Elite Barbarians outran it in the pocket, "the e-barbs somehow like, you know, pushed the heal spirit and the heal spirit died, but it was fine."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

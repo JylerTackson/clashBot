@@ -159,6 +159,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 2:37 (t=174-176): mentioned only, in the same incorrect early read — "It does look like a goblin giant sparky deck."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- opponent card, mentioned but never seen in this window (no deploy label or detection). Ryley names it as the card that makes the opponent's variation of the mirror the better one - 'I thought that the Goblin Giants at the bridge are really, really strong for him' (t=1561-1564), part of his overall read that 'he had the exact deck that I had in the previous game, and I do personally think that his variation has a slight advantage' (t=1549-1553). He also says he used the Goblin Giant variation himself in the previous duel (t=1533-1540).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Giant (scraped 2026-09-02T02:35:02+00:00)

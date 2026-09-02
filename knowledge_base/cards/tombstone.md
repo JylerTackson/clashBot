@@ -280,6 +280,17 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 0:56, 0:44 and 0:28 (t=1978.4, 1990.4, 2006.4): the opponent re-lays Tombstone at [8, 18]/[8, 19] three times to pull the X-Bow off the tower; Ryley Fireballs it at t=1978.4 — "Take out the tombstone. Beautiful" (t=1981) — and simply out-cycles the later two.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- Named but never captured on the field (no deploy label or detection). Clock 0:01 overtime (t=187-190): he holds The Log for it — "I had the Log ready here for the Tombstone getting a bunch of damage on that tower."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=684-688 (clock 0:09): the opponent drops it while Ryley's Evo Royal Hogs are already committed — "he played the tombstone like that not even realizing that we had the evo piggies. I knew that we were going to get a bunch of damage".
+- t=757-770 (overtime, enemy right tower at 154 HP): he treats it purely as the Lightning block and refuses to spend the spell into it — "I was just waiting for him to try to lightning block me with a tombstone cuz I knew that he could always try to block the lightning... I'd rather just wait and drop piggies at the bridge because since he went for the tombstone, I knew that I could piggies"; the opponent "missed his lightning block" and gave up (t=772-774).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

@@ -373,6 +373,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.
 - clock 1:49-1:45 (t=68-72): a Dart Goblin walks the right lane at [14, 12] -> [14, 10] and is cleared by Berserker plus Ice Spirit; detector labels for this card may be Goblin Gang Spear Goblins (see the match file's Data gaps).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 2:30: opening Dart Goblin at the bridge (7, 14) as pressure before he has read the deck — "Here I did a nice dark goblin."
+- clock 2:05 and 1:22: Dart Goblin at (8, 8) and again into the Giant Skeleton / Hero Wizard push — "I went for the Dart Goblin here, and then I waited for the Wizard to lock on so I could go for the Ice Spirit."
+- clock 1:58: named as one of the three cards the opponent's Arrows and Vines answer, which is why he sequences it after the spells are gone — "he's able to kill my Skarmy, my Dart Goblin, my Princess. Like, he's able to take out everything."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

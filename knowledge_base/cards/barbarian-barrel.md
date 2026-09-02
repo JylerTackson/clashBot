@@ -518,6 +518,29 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 2:11: names it as half of the only clean answer to split Wall Breakers — "He'll have to go for like the barrel and the ice wizard if he wants to take no damage here."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=607.7 (clock 1:24): rolled from [8, 0], his own back edge, purely as cycle — elixir 9 -> 7, "I just wanted to cycle my barbarian barrel here and I just wanted to keep on spamming my furnaces" (t=611-612).
+- t=640.6 / 658.3 / 675.3 (clocks 0:52-0:17): defensive rolls along the incoming lane — [3, 12] into the Evo Royal Giant push, then [13, 11] and [13, 10] into the right lane.
+- t=710.3 (overtime): used to block the Monk at [13, 15] and punished for it — "I tried a barrel, but he got me good with the monk ability to be honest. I really didn't expect that. I thought he's going to try to save it for offense" (t=711-716).
+- t=736.2 / 744.3 (overtime): paired with the game-winning Royal Hogs set at [14, 12] and [14, 14] — "I went for the barbarian barrel. And I knew I would just be able to get a nice Tesla on defense" (t=746-749). He also names the opponent's own Barbarian Barrel as the main threat to his Furnace (t=642-643).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Used as an opening cycle card before the readable window and immediately regretted as information: "I cycled my barbarian barrel at the bridge first play, but you know, the pick did make sense cuz I did need some good cards against log bait" (t=1237-1242).
+- clock 2:10 (t=1258): the rule he sets once he knows the match-up - "now that I knew he had log bait, of course, I wouldn't be wasting my barbarian barrel or anything like that." Every later use is defensive and on his own half: [3, 5] (clock 1:47), [4, 6] (clock 0:41), [14, 5], [14, 12], [3, 5] again.
+- t=1420: barrels the Evo Snowball play the opponent saved for defence - "I barb barreled that, and I was just looking pretty nice right now" - and t=1493, against a Berserker push: "I barb barreled the other side just to be safe."
+- clock 2:02 (t=1266): named as one of only two spells in the deck, which is why Princess and Rascals go unanswered all game.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- clock 1:16 / 1:02 (t=1609.2, 1623.2): held through the opponent's whole first defence, then spent at [3, 14] and [14, 11] on the returning Evo Archers - 'I didn't Barb Barrel cuz I wanted to save it for the Evo Archers' (t=1612-1613), and 'so I went for the barbarian barrel and the low Evo Tesla just knowing that he wouldn't be able to afford a lightning' (t=1624-1628).
+- overtime (t=1691.3, 1747.3, 1782.4, 1792.4): eight uses in total, all on his own half in the two lanes ([3, 12], [4, 9], [13, 11], [14, 10], [14, 12], [14, 14]); also used to clear the opponent's support building - 'I went for the barbarian barrel here just making sure to take this sign out' (t=1694-1695).
+- clock 0:14 (t=1792.4): the barrel immediately before the winning counter-push - 'I barbarian barreled guys, and right here is when I knew I won'.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

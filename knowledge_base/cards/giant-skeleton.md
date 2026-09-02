@@ -175,6 +175,25 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.
 - overtime clock 1:49 (opponent card): predicts it before it appears and pre-lays Bomb Tower plus Royal Delivery — "He's going to giant skelly for sure, yep. That's fine with me" (718-720s).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 1:33: Giant Skeleton at (4, 18) leads the left-lane counter-push; Ryley answers with Evo Skarmy at 1:28, Cannon at 1:24 and Dart Goblin at 1:22 — "I got a good Giant Skelly defense, but look at that Wizard, guys." The defence works but the Hero Wizard behind it takes his tower from 2668 to 521.
+- clock 0:41 and 0:07: it comes back twice more; the second return triggers his finisher — "when I saw that giant skelly back, I went for the Valkyrie plus barrel and wall breakers at the bridge."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- Opponent card. Ryley identifies the deck by it at clock 2:24 — "he ended up having a giant skeleton executioner deck" — after wrongly predicting Mortar bait.
+- clock 1:09: with the Giant Skeleton stuck beside his tower he does not try to kill it; he uses the Hero Valkyrie ability to dash past it — "the Giant Skelly is stuck next to the tower so I popped the Valkyrie ability just to go all the way up to the tower." At clock 0:55 he answers a second one with a Mother Witch curse and later with a Heal Spirit jump ("taking out that um Giant Skelly for the most part").
+- clock 0:34: he plays around it in advance rather than answering it — "I knew he was going to go for the Giant Skelly Balloon so I E-Barbs the bridge opposite lane."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.5.md):
+- clock 0:48 (t=1930.5): deploy label at [8, 0] behind his own tower (elixir 8 -> 3) to open the push he has just called — "I knew that right now I would be able to make a massive push" (t=1930).
+- clock 1:45 (t=1873-1877): mentioned as an intention he did not act on — "I wanted to go giant skelly at the bridge. I knew it's going to get a lot of mother witch damage, but my goal here was just to go giant skelly at the bridge. He did a smart play here though". No deployment or matching elixir drop is recorded in that window.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

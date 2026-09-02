@@ -420,6 +420,29 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=283-289, mentioned only, never played): listed alongside Knight and Golden Knight as a Mighty Miner replacement in this deck — 'like the knight, the valkyrie, the golden knight, just a few cards like that.'
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:05 onward: seven Valkyries, every one on his own half — (13, 14), (2, 14), (8, 14), (12, 13), (13, 13), (9, 10), (6, 14) — and never as a bridge push; she is the deck's Cannon Cart and Elite Barbarians answer, not a win condition.
+- clock ~0:21: he pays the 3-elixir Hero ability (Wild Whirlwind) to finish the Cannon Cart rather than let her die and re-defend — "here I went for the Valkyrie ability just to make sure that I take out that cannon cart cuz otherwise, obviously, his cannon cart would have taken out my Valkyrie and then I would have had to defend it again. So, I would have just rather spend elixir, take it off the board, and just keep control." The play shows in the log only as a -3 elixir step with no hand change.
+- overtime t=399.4: Valkyrie placed at (9, 0) in his own back as a stated policy when ahead — "I cycled my Valkyrie in the back into that cannon cart cuz I'm always just trying to make sure that I'm mirroring his plays, but always having him going into me. That's why it's nice that I'm up in damage cuz he has to go into me."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock ~2:18: Hero Valkyrie at (2, 8) as the left-lane defensive answer during the opening exchange.
+- clock 1:42: Valkyrie + Wall Breakers at the right bridge as pre-emptive pressure — "I went for the Valkyrie Wall Breakers here just to apply some pressure, knowing that I was going to get like hit with a mean counter push."
+- clock 0:36-0:34: Valkyrie at (7, 14) and he pays for the Wild Whirlwind ability rather than letting her walk — "I went for the Valkyrie ability here just to try to take out those E-Barbs, and I got a ton of damage, which was setting me up for a very good defense."
+- clock 0:09: Valkyrie at (14, 14) as the tank in front of the Barrel + Wall Breakers finisher — "when I saw that giant skelly back, I went for the Valkyrie plus barrel and wall breakers at the bridge... I was able to take out the e-barbs with my Valkyrie and I got a lot of barrel damage." (Hero variant, heroes/valkyrie-hero.md.)
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- Hero Valkyrie (Wild Whirlwind) in a Battle Ram bridge-spam list; he spends the 3-elixir ability five separate times (t=1068.3, 1090.5, 1122.9, 1199.5, 1205.8) and always as a dash to reach something: "the Giant Skelly is stuck next to the tower so I popped the Valkyrie ability just to go all the way up to the tower" (clock 1:09) and "I wanted to go up to the executioner before he had a chance to take out my mother witch" (overtime).
+- clock 0:48: Valkyrie at (15, 14) on the bridge specifically to set up the ability — "I went for the Valkyrie at the bridge again because I wanted to use the ability to go up to the tower" — and its failure mode named in the same breath: "unfortunately my Valkyrie just waited a second too long and I wasn't able to get the value that I wanted."
+- clock ~1:26: pure cycle placement at (9, 0), the deepest tile behind his own towers — "here I just cycled my Valkyrie in the back."
+- clock 0:15 and overtime: defensive splash at (14, 10) against a Zappy swarm — "Valkyrie here just to take [out] all the Zappies, very crazy Valkyrie there" — and again at (1, 9) against a five-Zappy left-lane push.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

@@ -336,6 +336,32 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - Mentioned only, never seen: at clock 1:33 (t=1944), with a Ronin and spirits committed on defence, he says "Please don't lightning my stuff" — the spell he fears against a siege setup that clumps Zappies, Tesla and X-Bow together.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- Held all game as a deliberate discipline. Clock 0:23 (t=150-152): "I didn't want to like overspend by ever going for like a Lightning or anything." Overtime (t=191-197): "Here I was low-key tempted to Lightning, but I'm like, 'Dude, this has been working so well. Why not just cycle more furnaces?'"
+- Overtime (t=217.2, deploy label at tile [16, 26], deep on the opponent's half): cashed once, as the finisher, after he had already counted the damage — "I knew that it would bring him down to either one or two Lightnings" (t=211-214), then "I Lightened the tower and that was good game" (t=219-221). Enemy right tower reads 247 HP at t=218.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=681.3 (clock 0:11): the only cast, at [15, 22] behind an Evo Royal Hogs set and aimed at the Skeleton Dragons defending them — "I had lightning ready for the skelly drags" (t=681). Enemy right tower falls 2164 -> 820 over the next 12 s.
+- t=757-765 (overtime, tower at 154 HP): he holds it rather than fire it into a block — "I put him in the lightning range. So, here I was just waiting for him to try to lightning block me with a tombstone cuz I knew that he could always try to block the lightning. So, I just wasn't taking any risks. There's no point, you know, for me to take that risk." He wins with Royal Hogs instead once the Tombstone is committed.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- clock 0:52 (t=1335.9): the only Lightning of the game, at tile [5, 22] on the opponent's left, dropped over their left-lane defenders while the Royal Hogs connected; enemy left tower reads 2043 -> 1969 -> 1747 across the next four seconds, matching his "a clean like 3-400 damage" (t=1342) rather than a tower Lightning.
+- clock 2:02 (t=1266): counted as one of his two spells in the log-bait match-up - "I have barbarian barrel and lightning as my spells, which means that the Princess and the Rascal Girls get a ton of value for him because I am literally unable to take them out." He never spends it on the stacked Princesses.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- t=1576-1583, held early because of the mirror-spell maths: 'I also thought that my deck just gave him more lightning value than his gave to me. So I was a little bit worried, to be honest'.
+- overtime (t=1705.3): Lightning on the opponent's half at [13, 18] into the Evo Archers threatening his Tesla - 'I even went for a lightning here guys. This is where I got a little bit scared to be honest cuz my furnace did actually die'.
+- overtime (t=1748-1750): declines a second one rather than spend badly - 'I really wanted the lightning, but sadly I had to just let it go'.
+- overtime (t=1769.4): 'the insta lightning' at [5, 22] fired alongside a Royal Hogs set; the enemy left tower reads 2180 -> 1693 over the next 10 s. His read on the spell war: 'me baiting out that lightning made it so he didn't get the lightning on my low HP tower. So I was just barely up' (t=1762-1766).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

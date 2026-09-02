@@ -193,6 +193,13 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.m
 - clock 0:18 (t=895-901): the hut's placement, not the Graveyard, is what beats his win condition — "Dude, his Goblin Hut placement is actually really good. I can't believe that it actually blocks an Expo. It's kind of ridiculous, in my opinion, that that can block the Expo." Huts land again at clock 0:53, 0:28, 0:18, 1:17, 0:50, 0:22 and 0:10, a near-permanent Spear Goblin stream over the X-Bow lane.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- clock 2:19 and 1:05 (t=35.0 and t=107.8, both tile [8, 10], HUD 10.0 -> 6.0 and 9.0 -> 5.0): both huts go in the centre of his own half between the two Crown Towers, not in a back corner — a placement that pulls the Royal Giant push off the tower line.
+- clock 1:05 (t=107.8): played as a specific read on the opponent's list — "here I went for the goblin hut because I had already realized that he was playing RG Monk, and I just wanted to always have like some nice pressure going. I always wanted to have some Spear Goblins on the board. I just knew it would make it very, very annoying for him to play this game" (t=108-122).
+- clock 0:50-0:46 (t=123-130): the hut plus a permanent Furnace is his stated anti-Royal-Giant engine — "with having the Goblin Hut here, it is actually really hard for him to be able to get a push going... and I always have Spear Goblins on the board" (t=124-132). The opponent sits at ~10 estimated elixir for most of the second half.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

@@ -538,6 +538,33 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Opponent's card (tracked at t=882.9s, 934.9s, 963.0s; clock unknown), answered with the centre Cannon plus Mighty Miner. He treats them as the thing that can punish an over-commitment — "And we have to mighty miner. I'm worried about the e-barbs though... Is he going to e-barbs? No, he doesn't. Okay, we're chilling" (1026-1030s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:27 (opponent card): the opponent's opening play at tile (12, 21) with Minions behind, answered inside four seconds with Giant Snowball at the bridge, Bomber and Goblins rather than one big card.
+- overtime t=424-462: Cannon is the reset ("I got a good cannon here as well. Just making sure to take back that e-barb") and he names the failure mode of defending them with fragile splash — "I was just making sure to block my bomber from getting taken out by the e-barb spear cuz it's really easy to choke against e-barbs."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 1:52: named as one of the two reasons the bridge-spam matchup scares him — "he has the broken Evo E-Barbs and the Hero Wizard."
+- clock 0:34: he spends the Hero Valkyrie's ability specifically on them — "I went for the Valkyrie ability here just to try to take out those E-Barbs, and I got a ton of damage." Repeated at 941s: "I was able to take out the e-barbs with my Valkyrie."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- clock 2:07: Elite Barbarians at (14, 14) on the right bridge behind a Cannon Cart that had survived defence — "here I went for the e-barbs to bridge because we had the surviving cannon cart" — with a Heal Spirit dropped on top two seconds later.
+- clock 1:20: a misdraw puts them at (7, 14), mid-lane instead of a bridge tile: "I misdrew, my finger like fell on my iPad and I dropped my E-Barbs at the bridge." His correction afterwards is the lesson — he would rather have had them "opposite lane so the Giant Skelly wouldn't help clean them up."
+- clock 0:34: Elite Barbarians at (3, 14), the opposite lane to the expected Giant Skeleton + Balloon push, purely to guarantee a tower before overtime: "just making sure that I would take his left side tower cuz if I didn't I wouldn't be able to take his tower at all and I would just get completely cooked."
+- Overtime (t=1185.8): Elite Barbarians + Heal Spirit dropped in the opponent's pocket at (8, 21); the pairing misfired because "the e-barbs somehow like, you know, pushed the heal spirit and the heal spirit died", but they still closed the game — "My e-barbs were just like taking out all of his stuff."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.5.md):
+- clock 1:30 (t=1887.5): Evo Elite Barbarians at the left bridge [3, 14] with the ability spent as a prediction, not a reaction — "I went for the Evo e-barbs at the bridge and I knew he had the Valkyrie... I went for the ability predicting him going Valkyrie and look at that, guys. I dodged the log and I dodged the Valkyrie". The enemy left tower falls 2377 -> 1435 over the next 5 s.
+- clock 0:30 (t=1947.0): second bridge deploy at [14, 14] (elixir 8 -> 2) into a known Tesla — "here I went for the e-barbs at the bridge. I knew he had the ability and right here, guys, is when I knew that I had probably won".
+- clock 0:05 (t=1972.6): third bridge deploy at [14, 14] to close it — "my Barbarians get onto the tower and I had my Zappies ready... I got the final Barbarian swing" (t=1962-1966). He never places them in the back in this segment.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

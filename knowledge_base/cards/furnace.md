@@ -263,6 +263,35 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3
 - overtime (t=703-705): the early Furnace is why he holds his Bats Evolution — "let's not evo bats at all cuz he went for the early furnace. That's good for us"; at t=726 he counts on it again: "He has to get like a furnace down."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- clock 2:46 and 2:36 (t=9.0 tile [16, 10], t=18.0 tile [9, 8]): two Furnaces inside the first twenty seconds, on different parts of his own half rather than one fixed spot — the board state he wants before the Royal Hogs even start.
+- clock 1:17 (t=96.6, tile [8, 0], HUD 9.0 -> 5.0) and clock 0:29 (t=144.1, tile [5, 6]): re-laid immediately behind each Hogs wave — "I decided to go for the furnace here just to, you know, keep up the pressure. I didn't want to like overspend by ever going for like a Lightning or anything" (t=145-152).
+- clock 0:46 and overtime (t=126.1 [9, 7], t=174.2 [9, 9], t=198.2 [9, 5]): seven Furnaces in a 224-second game, which is the point — "it is actually really hard for him to be able to get a push going cuz I'm always having a furnace down since my cycle is super quick" (t=124-129).
+- Overtime (t=194-197): he chooses another Furnace over a 6-elixir spell with the tower at 800 HP — "I was low-key tempted to Lightning, but I'm like, 'Dude, this has been working so well. Why not just cycle more furnaces?'"
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:28 (mentioned, not played): named in the same anti-bridge-spam list from an earlier duel — "I just used a spirit, Tesla Evo, furnace, log, all of that kind of stuff is really good against bridge spam."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=628.2 / 655.3 / 734.3 / 762.4: four Furnaces, one on his back edge at [8, 0] and the rest just behind the centre of his half at [9, 10], kept up continuously — "I just wanted to keep on spamming my furnaces" (t=612). At t=735 he has two on the board at once: "look at all the defensive units that I had down guys. I had already an Evo Tesla, two furnaces."
+- t=636-643 (clock 0:57-0:48): the Furnace is why he thinks the opponent's Evo Royal Giant push was a mistake — "making an RG push without monk is not really ideal, especially when I have a furnace cuz I knew that my furnace would get a crazy amount of value now as long as I protected it from the barbarian barrel"; the push at t=632-652 is absorbed for no tower damage.
+- t=693-704 (overtime): the general rule for this deck — "always good to just get as many fire spirits coming out as possible because the furnace like ever since that rework it got, it is so so strong defensively that I just always want to have a furnace on the board with this deck to be honest."
+- t=711-719 (overtime): the opponent's Monk ability is the one thing that removes it — "I tried a barrel, but he got me good with the monk ability to be honest. I really didn't expect that... he got my furnace off the board."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- clock 2:22 / 1:34 / 0:42 (t=1542.6, 1590.2, 1643.4): back-line Furnace at [9, 0] and [8, 0] on repeat - 'I was just making sure to keep cycling my Furnaces. I knew that he had the Evo Archers up' (t=1602-1605).
+- overtime (t=1725.3, 1760.4, 1776.4, 1789.4): stops playing it as a back-line spawner and starts pre-loading it into the lane the opponent wants - 'I just kept cycling my furnace into the lane that he was going into, kind of just making it awkward for him to go for Royal Hogs, cuz it's really annoying to go Royal Hogs into a guy who has stuff down' (t=1728-1735). It pays off at t=1743: 'the furnace just instantly jumped on top of the Evo piggy. So I didn't really have to worry about not having the Evo Tesla'.
+- overtime (t=1752-1758): plays it as spell bait and as Fire Spirit fuel ahead of his own push - 'furnace in the back... obviously not to give lightning value and also just get some fire spirits flowing, cuz I knew when I went for the piggies it'd be even more annoying to stop with the furnace'.
+- t=1561-1566 on the variation trade-off: against the opponent's Evo Archers build he rates his own spawner lower - 'I really can't take out the Archers, and Furnace isn't as annoying as Archers'. It is also the card the opponent finally answered: 'my furnace did actually die' (t=1709).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

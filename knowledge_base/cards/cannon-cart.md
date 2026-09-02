@@ -199,6 +199,25 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1
 - clock 1:19: he counts it as spent before committing his own push — "especially after going for that cannon cart" is his reason for tanking with the Miner.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 0:58 to overtime (opponent card): the card Ryley plans around all game. He drills to force it out — "I was about to go in for a Goblin Drill because I knew that he would have to spend a Cannon Cart" (340-343s).
+- clock ~0:21: he spends the 3-elixir Hero Valkyrie ability rather than trade her for it — "his cannon cart would have taken out my Valkyrie and then I would have had to defend it again. So, I would have just rather spend elixir, take it off the board, and just keep control."
+- overtime t=422-433: Cannon plus a Giant Snowball is the cheaper answer — "that snowball helps me get a good damage onto the cannon cart. It did pretty much take it out and we got a shot on the tower."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- clock 1:49: Cannon Cart at (3, 15) at the left bridge as a deliberate Evolution-Executioner magnet, played only after counting the opponent's cycle: "I did a really nice high IQ move. I went for the cannon cart at the bridge knowing he had no zappies, no miner, no elixir for giant skelly. So he had to evo executioner on my Cannon Cart." His reasoning for wanting that trade: "getting out the Evo Executioner is huge for me knowing that it is really impossible for me to kill ... he'd have to play two more just to get to the Evo."
+- clock 2:34 and 0:32: the same card used as a defensive back placement at (9, 2) and (9, 9), centred behind his own towers — the card is his defensive anchor as well as his bridge threat.
+- Overtime (t=1151.8): Cannon Cart at (8, 20), deep on the opponent's half — "I tried to finesse him with the cannon cart in the pocket as well."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Opponent card, mentioned only - no detection or deploy label supports it. It is the stated target of his first Bomb Tower at tile [9, 12]: "I went for the bomb tower just to take out that cannon cart" (t=1247-1249).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

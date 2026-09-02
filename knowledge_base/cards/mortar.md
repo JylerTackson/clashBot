@@ -241,6 +241,18 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=765-769s: he blames his only real tower damage on the Mortar being screened — "Whenever a Mega Knight throws something, Mortar and X-Bow lock onto the tower" (own left tower 4167 -> 3317 across t=760-772).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 1:49 onward (opponent card): the opponent's Evo Mortar, placed at (10, 16) on the river and later at (2, 17)/(2, 16) far left and (8, 16)/(15, 17). Ryley identifies the deck off it — "it right here is when I figured out he was actually playing with mortar. Mortar is another really popular CRL deck that you do always have to be careful for. I feel like every CRL mortar just always ends up popping out and being super popular" (265-277s).
+- overtime t=430-438: his preferred answer is a Bomber that outlives it, not a spell — "it also allowed the bomber to fully take out the mortar because the tower was too busy on the drill."
+- overtime t=461-498: two Cannon predictions on the Mortar's left-lane placement, one miss ("I tried to predict the mortar there. It did not work, unfortunately") and one hit after the opponent fumbles it ("there he kind of misclicked his mortar a bit, so I knew that I'd be able to get a really nice cannon at the bridge with no chance for him to block it"), plus Poison as the guaranteed removal ("It's just always good to poison that thing off the board and play it safe").
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- Mentioned only, as the deck he wrongly expected and had picked bridge spam to beat: "I also thought that he could start off with mortar bait against me and I did have a pretty high feeling that I would beat mortar bait with this bridge spam deck. And as you see right away, I was very, very wrong about him having mortar bait" (clock 2:36-2:26).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

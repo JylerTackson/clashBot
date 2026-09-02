@@ -472,6 +472,18 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.
 - He rules it out and is wrong: "I don't think he has like a fireball or anything like that. Famous last words" (t=154-156), then "He does go for the fireball" (overtime, t=196) and "He fireballed. That was bad though" (t=229). Three unidentified opponent spells register as 275-390 HP of tower damage (t=158.2, 179.2, 198.2) with no card read.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 1:22 and clock 0:48 (opponent card): the opponent's Fireball hits Ryley's left tower for 3052 -> 2880 at t=318 ("after I saw that fireball, I'm like, 'Hold on, that was bad'"), and later gets baited out by a snowball trade — "he panicked and dropped a fireball. So, I did get a pretty nice sequence out of this."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=589 (clock 1:44), pre-game read: "I did assume that he would have fireball though instead of having a void or something like that".
+- t=647 (clock 0:45): he deliberately cycles Tesla and Skeletons into it — "knowing that he could fireball, but I didn't really mind that too much cuz otherwise I was just going to continue protecting my furnace"; and when it lands at t=679 he treats the spell being spent as the trigger for his Evo Royal Hogs.
+- t=735-742 (overtime): three unattributed hits on his right tower (172 + 422 + 422 HP, 3052 -> 2286) clear his Evo Tesla and two Furnaces — "he wiped me out with the fireball. I could have panicked Tesla, but I realized that it would be probably better just to eat like 800 damage to a thousand just to have my cycle perfect" (t=737-743).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

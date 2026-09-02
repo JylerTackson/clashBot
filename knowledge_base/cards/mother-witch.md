@@ -368,6 +368,25 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Video t=1720.7: placed from the back at [11, 7] as support for the counter-push against a Skeleton Army deck. He grades his own timing down: 'I went for a mother witch — that was not the greatest, Skarmy matches, with him not having dark prince in hand' (t=1724-1728), i.e. commit her on the opponent's hand state, not on elixir alone.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- Named only, in the opponent's hand: overtime (t=198-204) he watches a mistimed cast — "I didn't cycle the furnace immediately and look right there, he missed his Mother Witch. I actually laughed out loud when that happened. I was like, 'Dude, there's no way.' Cuz I was getting pretty lucky this game."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- clock 0:55: Mother Witch at (9, 12) onto an incoming Giant Skeleton, played as a cycle card rather than a defensive answer — "here I went for a Mother Witch on the Giant Skeleton just to cycle and I knew I could go for a Battle Ram with this and I knew my piggy on the left could get some decent damage."
+- clock 0:20: defensive back placement at (15, 2) behind his own right tower, right after Arrows, against an Executioner + Giant Skeleton push that had his king tower open — "So here I went for the Arrows and the Mother Witch ... I somehow held on guys."
+- Overtime (t=1163.8, 1198.8): Mother Witch at (6, 1) then in the pocket at (8, 18), used to manufacture Cursed Hogs as a defence disruptor: "I even went for the mother witch just to get some piggies going because the piggies really disrupt the defense cuz he has an executioner and a bomb tower — like the piggies are really good at distracting that." By the end he credits her with the game: "my mother witch was going crazy."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.5.md):
+- clock 1:56 (t=1861.5): first Mother Witch at [4, 10] on his own half as a value threat against a bait deck — "here I went for a mother witch knowing that this was going to be really annoying for him to deal with".
+- clock 0:57 (t=1920.5): replayed at [10, 6] as the front half of a defence-into-counterpush with Zappies — "I went for the mother witch here and then I went for the zappies on the wall breakers. I was able to counter everything nicely. Very good counter push here".
+- clock 0:05 (t=1969.6): placed at [15, 14] purely as a screen for an expected spell-range troop — "I Mother Witch to block a potential Mother Witch. I mean a Magic Archer".
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

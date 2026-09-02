@@ -758,6 +758,39 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 2:45: only mentioned in the same pre-game deck read (t=1314-1315); Evolved Skeleton tracks do appear on defence for the opponent at clock 0:38-0:28, but no deploy label confirmed them.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- clock 2:00, 1:23, 0:50 (t=54.1 [7, 12], t=91.1 [10, 7], t=123.1 [2, 15]): 1-elixir blocks thrown in front of whatever was walking, and the cheapest way to keep the 3.1-cost cycle rolling back to Royal Hogs.
+- Overtime (t=194.2 [9, 9], t=212.2 [11, 13], plus HUD plays at t=179.0, 187.4, 220.2): used purely to buy time while the Hogs and Lightning finish — "I just went skellies here to block and right there, I got my final piggy snivel and I won the game" (t=214-217).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 0:52 and overtime t=484 (opponent card): the target of both of Ryley's prediction snowballs, both of which land — "I think I went for a prediction snowball on top of the skeletons. And yeah, I did actually hit the skeletons with the snowball and he panicked and dropped a fireball" and "I went for the snowball as well, trying to predict the skellies, and I did actually get the skellies, so I got even more damage."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=616.2 / 645.2 (clocks 1:16 and 0:47): dropped at [3, 13] twice in front of the Tesla — "So I just went for the skellies there. Just making sure to keep my Tesla live" (t=620); at t=643-647 he cycles Tesla plus Skeletons knowing they can be Fireballed, "but I didn't really mind that too much cuz otherwise I was just going to continue protecting my furnace".
+- t=710.3 (overtime): 1-elixir block on the Monk at [13, 15] — "here I'm just blocking cards like a fisherman" (t=709).
+- t=652.8 / 662.9 / 731.3 / 752.4 / 770.7: five more HUD-confirmed 1-elixir cycles (elixir -1 each) used purely to reach Royal Hogs and the Evo Tesla again; at 0 elixir at t=752 he is still cycling them.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- The 1-elixir filler, played about nine times, mostly on his own half and at the river: [8, 0], [1, 15], [3, 9], [14, 14], [16, 10], [10, 15], [13, 15], [8, 15], [3, 14], [10, 14].
+- clock 0:34 (t=1354.0): Skeletons at [14, 14], his own side of the right bridge, thrown at a Princess tracked at [14, 15] - "I went for the Skeleton here just to try to take out the Princess. I didn't actually expect him to let it die, but for some reason he did." With Barbarian Barrel and Lightning as his only spells, Skeletons are one of the few Princess answers he has.
+- t=1403: "I went for the skellies here, and he was really starting to stack up. He had two princesses, three rascal girls down, but, you know, I knew that I would be chilling."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- clock 2:47 (t=1518.1): Skeletons at [9, 12] stacked with the Tesla against the opponent's opening Royal Hogs at the bridge.
+- clock 1:03 / 0:36 (t=1622.2, 1648.7): played at [14, 1] and [8, 9] with nothing to defend, purely as the 1-elixir cycle card back to Royal Hogs.
+- clock 0:13 (t=1671.9): Skeletons at [6, 12] as part of the no-damage defence behind his own push - 'a nice low furnace plus skellies and e-spirit too, just making sure that I took no damage' (t=1670-1674). He also counts the opponent's skeletons among the elixir his hogs set forced out (t=1620).
+- nine plays in total, spread across both lanes ([16, 10], [12, 14], [12, 12], [14, 9], [13, 10], [10, 15], [14, 15], [16, 14]) - the cheapest card in the deck and the one that keeps the Evolutions aligned.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

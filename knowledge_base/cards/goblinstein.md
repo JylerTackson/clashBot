@@ -271,6 +271,20 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md
 - clock 0:28 (t=1519, mentioned only): Ryley reads the opponent's card without countering it directly - 'He got the Doctor Goblinstein on defeat one. Okay, that's fine' (1519-1522s). No Goblinstein was seen on the field by the pipeline.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- overtime t=390-399 and t=415-420 (opponent card): Ryley answers the ranged half with splash and the pair with Poison — "Here I did a nice bomber just making sure to splash that goblin stein as well, just taking that ranged unit off the board" and "I had to go for a defensive poison cuz I didn't want to have to worry about that goblin stein and the evil [evo] mortar anymore."
+- clock 1:04 (transcript 'Goblin sign'): he also cites it as the reason a spare Fire Spirit would have been wasted — "the spirit would have just jumped on the Goblin sign anyway, and it wouldn't have really done anything." The 2024-era detector never identifies it; two 'unrecognised unit' events at t=490.5 and t=492.5 are the likely sightings.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- clock 2:30 (t=1237.8): opening Goblinstein centre-back at tile [7, 10], chosen as the answer to the Princess he had just seen - "I knew that my goblin stein could take out the princess. So, that was a pretty nice interaction sequence for me" (t=1250-1255).
+- t=1409: Goblinstein at [14, 14], his own side of the right bridge, with the 2-elixir Lightning Link held for a charging Dark Prince - "He had a bad dark prince cuz I knew I could just pop the ability."
+- t=1448-1456: the ability used again as the Princess answer this deck otherwise lacks - "I got a nice ability as well to take out his princess. Finally, I was able to kill a princess, and dude, he almost actually dropped a princess into the other goblin stein link, but sadly, the link went away." He splits the Doctor and Monster on purpose: "I just split my goblin stein again" (t=1459), "I even went for a goblin stein up top as well" (t=1483, label at the river tile [9, 15]).
+- Placements across the game show the full range: back [9, 0], left [2, 14] and [2, 10], centre [6, 7] and [9, 13], bridge [14, 14], river [9, 15] - it is used as a defensive anchor and lane-splitter, never as a lone push.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

@@ -175,6 +175,14 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.m
 - clock 2:42: opponent's card, played at (0, 16) at t=510.5 in the opening exchange and answered by a Royal Delivery at (2, 7). Ryley never comments on it.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:25 to overtime: the most-played card of the game (13 deploys), almost all in a tight cluster on his own half at columns 8-9, rows 6-12 — (9, 7), (8, 8), (9, 6), (9, 12), (9, 8), (9, 9), (8, 10), (8, 12) — as the standing ground-splash answer to Skeletons, Minions and the Goblinstein.
+- overtime t=414-420: bomber used as targeted splash on a ranged threat — "Here I did a nice bomber just making sure to splash that goblin stein as well, just taking that ranged unit off the board."
+- overtime t=430-438: bomber survives to kill an Evo Mortar because the Goblin Drill is holding the tower — "it also allowed the bomber to fully take out the mortar because the tower was too busy on the drill."
+- overtime t=456-462: he deliberately body-blocks for it — "I was just making sure to block my bomber from getting taken out by the e-barb spear cuz it's really easy to choke against e-barbs." On offence it is paired with the drill at (14, 14)/(16, 14): "here I went for a drill bomber and fire spirit ready for the minions."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

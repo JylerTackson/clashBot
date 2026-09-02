@@ -240,6 +240,12 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=322s: played off the HUD (slot emptied, -3 elixir) seconds after 'Good luck, bro' opened the game. Placement was not read, and this is a hand-read-only event in a video whose mean hand confidence is 0.345, so treat the card as probable rather than confirmed.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:23, 1:07, 0:40 and overtime (opponent card): the opponent's air answer, sent six separate times, and the card Ryley usually holds the Giant Snowball for — "He did do a nice set of minions right there" (321-324s) and "I went for a drill bomber and fire spirit ready for the minions cuz I knew he would minions" (379-382s).
+- clock 0:19: waiting rather than snowballing the first Minions is what produces the game's biggest damage window — "then I realized I could just wait and snowball literally everything. I got a beautiful snowball right there getting me a crazy amount of damage on the tower."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

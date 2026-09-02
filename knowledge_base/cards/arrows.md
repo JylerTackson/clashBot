@@ -254,6 +254,25 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.
 - Ryley tracks the opponent's Arrows all game and times both of his win conditions off it: "He has the goblin gang cuz he's not backed arrows yet" (t=68), "I think he only has the arrows" (t=153), and "We can wall breakers look cuz he has the arrows, and if you delay it a bit maybe we can grab a wall breakers" (t=216-219). Never observed as a deploy — mentioned only.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- Mentioned throughout but never seen by the detector; the whole game plan is built on draining it. clock 1:32: "I did have the Evo Skarmy, so I knew he would have to arrows."
+- clock 0:46: "if I went for the Skeleton Army, he would have to arrows, which is really good for me because then he's not able to kill the Dart Goblin and the next Princess."
+- clock 0:24-0:20: he pays for it knowingly — "that's where making him use the arrows helps me defend. Even though he got a good value, it still really helped me. So, I went for the Barrel Wall Breakers here. No one knows going to force out the arrows."
+- clock 1:06: and the reason his 521-HP tower survives — "his only spells are arrows and vines, so he isn't really able to finish off my tower that well, especially when he needs to use the arrows and the vines on defense all the time."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- clock 0:22: the only Arrows of the game, cast at (14, 10) on his own half into an incoming Executioner/Zappy push, immediately before a defensive Mother Witch — "So here I went for the Arrows and the Mother Witch." In this Battle Ram bridge-spam list it is the single small spell and it was held for defence, not used to open a lane.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.5.md):
+- clock 0:07 (t=1970.6): Arrows at [3, 21] on the enemy left tower as the stated finishing pair with Vines — "all I had to do was go for the Arrows plus Vines" (t=1977).
+- clock 1:40 (t=1878.5): earlier defensive Arrows at [14, 9] on his own half (elixir 6 -> 4); nothing in the commentary explains the target.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

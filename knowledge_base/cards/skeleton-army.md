@@ -243,6 +243,14 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t~1551-1562): its chip attempt down the left is handled with Electro Spirit, Skeletons and The Log - "Evo skarmy could maybe do something, but I don't think so. We just e-spirit here take out the skeletons and then just skellies here to block his" (1551-1560s); his left tower takes its only damage of the game, 4858 -> 4468 HP at 1562-1564s.
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 1:28: Evo Skeleton Army at (9, 7) into a Giant Skeleton push, chosen because it forces the opponent's Arrows — "I did have the Evo Skarmy, so I knew he would have to arrows. And so, here I went for the Evo Skarmy. I knew he was going to arrows."
+- clock 0:51: Skarmy at (14, 14) into the right-lane Zappies, again as spell bait — "if I went for the Skeleton Army, he would have to arrows, which is really good for me because then he's not able to kill the Dart Goblin and the next Princess."
+- clock 0:30: Skarmy at (2, 14) on the left counter-push — "He can't really kill Skarmy with vines. I got a Skarmy as well."
+- overtime: Evo Skarmy defends the Evo Battle Ram and gets a bonus — "I went for the Evo skarmy here and the skarmy actually ended up pushing the ram. I Valkyrie cuz I didn't think it would, but I was happy."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

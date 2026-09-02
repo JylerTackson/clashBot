@@ -236,6 +236,12 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - OT 1:57: the opponent's Executioner spent on a Balloon that was already dying is what he calls the losing play — "that was a bad Exe cuz that balloon's dying anyways. So, that kind of just was five elixir minus for him" (t=1473-1477).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- Mentioned, never observed. Before he sees the opponent's deck he fears it: "the only deck that he could have is like balloon or a very weird hog rider deck ... I knew that a balloon deck would be extremely bad" (clock ~2:20-2:10).
+- clock 0:34: he pre-empts it as the opponent's finisher — "I knew he was going to go for the Giant Skelly Balloon so I E-Barbs the bridge opposite lane" — the play that guaranteed him the left tower before overtime.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

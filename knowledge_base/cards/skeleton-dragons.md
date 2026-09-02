@@ -210,6 +210,16 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.
 - One detection at [3, 16] at clock 1:05 in the opponent's left-lane push; not discussed in commentary.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- The opponent's most frequent field unit (t=66.1 [7, 18], 124.1 [13, 23], 128.1 [11, 16], 192.2 [12, 20], 220.2 [11, 19]), repeatedly flagged as a threat on both lanes. Ryley never spends a card specifically on them — the Furnace spirits and Goblin Hut Spear Goblins absorb them while he keeps cycling Royal Hogs.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=644.2 / 728.3 / 734.3 / 740.3 / 766.4: the opponent's main air support, tracked repeatedly in the right lane. Ryley pre-plans the answer before his own push goes in — "I had lightning ready for the skelly drags" (t=681) — and casts Lightning at [15, 22] at t=681.3 onto them behind his Evo Royal Hogs.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

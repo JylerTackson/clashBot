@@ -186,6 +186,19 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
 - OT 1:43: he spends an Evo Firecracker purely to bait it — 'let's go for the Evo Firecracker here just to start sniping this down, force out the Vines' (t=192-194). At clock 0:57 he hedges the slot: 'before he goes for the Vines. He might try to E-Wiz instead because of that' (t=114-115).
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- Mentioned only (never detected). clock 2:06-1:58: with Arrows it is what makes bridge spam hard for log bait — "especially with the arrows and the vines. If you only had barbarian barrel, it would still be a rough match-up, but with arrows and vines... he's able to take out everything."
+- clock 0:36: the exception he plays around — "He can only kill one of those three, right? Dart Goblin, Princess, or a Skarmy with the vines. He can't really kill Skarmy with vines."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.5.md):
+- clock 0:25 (t=1952.6): played offensively at [11, 20] on the opponent's half to remove the defending Tesla so the Battle Ram connects — "I went for the vines here take out that Tesla and my Battle Ram guys" (t=1957). This is the play that finishes the game.
+- clock 2:37 (t=1820.4): the only defensive use, at [3, 13] against an Ice Spirit tracked advancing down the left lane; no commentary.
+- clock 1:14 (t=1902): named as the play he deliberately declined in favour of cycling Battle Ram — "I could have went for the vines, but I preferred to just go for the battering". At clock 0:07 it is half of his stated finisher: "all I had to do was go for the Arrows plus Vines" (t=1977).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

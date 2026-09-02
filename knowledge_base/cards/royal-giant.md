@@ -184,6 +184,23 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=478-483s: cycle tracking, not elixir counting, decides the last push - "now with this wizard out of cycle, I knew that he would be completely unable to defend the next RG" (RG at t=485.5, tower logged at t=498.3).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- Opponent's win condition, back-placed at clock 2:26 and 2:22 (t=26.0 tile [12, 25], t=30.0 tile [13, 21]) and walked down the right lane; Ryley identifies the archetype instantly — "we have a piggies deck and this guy has an RG deck" (t=31-33), refined to "RG Monk" at t=112-113.
+- It never gets a second real push: with a Furnace and a Goblin Hut permanently down and Royal Hogs arriving every cycle, the opponent sits at or near 10 estimated elixir for most of the second half — "my main goal was to just always keep some pressure going so he was just unable to kind of like fix his cycle and just get some momentum" (t=152-160).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:42 (mentioned, not played): the opponent's deck from the previous duel of the set, and the input to Ryley's deck choice here — "With him using Royal Giant Monk, I did feel like that I win against most of the cycle decks that he could end up playing."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=632.2 (clock 0:58, opp elixir 10 -> 4): the opponent's evolved Royal Giant goes down at [4, 23] and walks the left lane. Ryley calls it a misplay against a Furnace deck without the Monk available — "I didn't really like that RG. I was kind of confused when he did it" (t=632-635) — and answers it with Berserker [1, 7], Barbarian Barrel [3, 12], Tesla [9, 12] and Skeletons, taking no tower damage from it.
+- t=726-729 (overtime): a second Royal Giant push is answered as soon as the opponent misplaces the support — "there he did a bad fisherman. I popped my ability just to DPS that RG as soon as possible".
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

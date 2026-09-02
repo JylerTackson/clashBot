@@ -631,6 +631,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.
 - overtime 1:51 (t=1195-1197): forcing it out is treated as a win in itself even when the barrel gets nothing — "Give me one. Oh, at least we forced out the log though." The Log is tracked on the field at t=1060 and t=1285.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- clock 1:52 (t=62.1, tile [9, 15]) and clock 1:02 (t=111.1, tile [3, 15]): cast at the river in front of his own Royal Hogs to clear the ground defenders they run into.
+- clock 0:40 and 0:35 (t=133.1 tile [3, 13], t=138.1 tile [10, 15]): two Logs in five seconds through the Monk/Barbarians/Little Prince wave on his left, the only push that damaged his left tower all game (3052 -> 2971) — "I got a nice Log there and my piggies were going absolutely crazy" (t=142-145).
+- Overtime (t=184.5 tile [13, 15], HUD 3.0 -> 1.0, and t=208.9 tile [13, 14]): held specifically for the opponent's building — "I had the Log ready here for the Tombstone getting a bunch of damage on that tower" (t=187-190), then "I knew right here I could just go for a Log and I would probably just win the game real quick" (t=207-211).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

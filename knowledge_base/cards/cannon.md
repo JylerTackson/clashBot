@@ -483,6 +483,20 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.
 - overtime 1:39 (t=1208): his Magic Archer plus Wall Breakers pressure removes it — "Oh, nice. It's going to take out the cannon though." Cannon placements are tracked at [10, 15], [9, 15-16], [8, 16-19] and [11, 20] through the game.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 1:51 onward: eight Cannons, every one defensive and every one in a narrow band on his own half — (9, 12), (8, 9), (9, 10), (8, 14), (9, 9), (8, 10) in the centre and (4, 13)/(4, 14) on the left.
+- overtime t=424: the Cannon is the Elite Barbarians and Cannon Cart answer — "I got a good cannon here as well. Just making sure to take back that e-barb."
+- overtime t=461.5: a left-lane Cannon placed as a Mortar prediction that misses, which he still rates positively because it kept his spell available — "I tried to predict the mortar there. It did not work, unfortunately... even though I didn't hit anything with the cannon, right? It just put me in a good spot to get value off of like a poison."
+- overtime t=493.8: the same prediction lands once the opponent fumbles — "there he kind of misclicked his mortar a bit, so I knew that I'd be able to get a really nice cannon at the bridge with no chance for him to block it."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 1:24: Cannon at (9, 10), central, against the Giant Skeleton walking the left lane, stacked with Evo Skarmy and Dart Goblin — "I went for the Cannon here as well. I didn't expect the Wizard to cook that hard."
+- clock 2:11, ~0:45 and overtime: the other three Cannons go down at (8, 10) and (8, 8) — always the middle placement covering both lanes, never cycled offensively, in a 2.8 bait deck whose only building it is.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

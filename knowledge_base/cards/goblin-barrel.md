@@ -612,6 +612,14 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - OT 2:00: opens overtime with the barrel at [14, 25] as the first of three cards in five seconds — "Let's go for the barrel again. Go for the berserker, and then we go for the wall breakers, too. I want to keep being really aggressive right now" (t=1480-1485); the opponent missed the Tornado on it and the tower dropped 1425 -> 481 HP.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 2:19: opening Evo Goblin Barrel at (3, 24) on the left, paired with Wall Breakers, as king-activation insurance rather than a value play (795-800s commentary).
+- clock 1:00: Barrel to the right tower at (14, 25) opening the triple-elixir swing with the tower at 1426 — "here I went for a nice Evo Barrel Evo... Evo Barrel Wall Breakers push just to apply a lot of pressure, knowing I was going to get a lot of damage."
+- clock 0:26 and 0:07: barrels at (14, 27) explicitly as spell drain — "No one knows going to force out the arrows, which was nice cuz he also had the zappies to cycle to it. So, I didn't mind giving him like a little bit of value." At 0:07 it comes with the Hero Valkyrie: "when I saw that giant skelly back, I went for the Valkyrie plus barrel and wall breakers at the bridge."
+- Note: the pipeline logged three of these barrels as opponent plays; the deploy labels land on the opponent's half at the exact seconds Ryley narrates his own barrels.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

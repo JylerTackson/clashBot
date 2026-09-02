@@ -337,6 +337,11 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 2:45 and 1:42: named twice as the Balloon's partner — "This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado" (t=1314) and "he can go for another [Miner] balloon very soon" (t=1379). No deploy label ever read; a Miner track appears at OT 1:58-1:52 and the repeated ~320-650 HP tower ticks at clock 1:02-0:55 are consistent with Miner chip.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- Mentioned, never seen in a deploy label. He counts it out of the opponent's hand before committing a bridge Cannon Cart at clock 1:49: "knowing he had no zappies, no miner, no elixir for giant skelly." A later transcript line at t=1166 also refers to a Miner being dropped during overtime, but no visual confirmation exists.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

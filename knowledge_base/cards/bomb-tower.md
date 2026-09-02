@@ -436,6 +436,25 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 2:14 and 1:10: he plays it knowing it will not fully hold — "Let's go for the berserker then bomb tower. I know he will get a lot of damage here, but like I said, we both can't really defend" (t=1348-1351), and "Actually, I think he's going to go all in. Let's bomb tower here" (t=1410-1411).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- Opponent card, placed four times at (8-10, 18-19) across the game. Ryley never spells it out beyond naming it as half of the defensive core the Cursed Hogs are meant to pull: "he has an executioner and a bomb tower — like the piggies are really good at distracting that" (overtime).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- clock 2:22 (t=1245.8): first Bomb Tower at tile [9, 12], in front of the centre of his half, for a specific target - "I went for the bomb tower just to take out that cannon cart."
+- clock 0:22 (t=1366.1): Bomb Tower at [9, 10] (HUD -4 plus deploy label) with the plan stated - "I went for the Bomb Tower here again, and I knew that the rest of this game would be a defense fest."
+- Late game he plays it as the default when nothing else is useful, and progressively closer to his own towers: [9, 9], [8, 9], [11, 9], [11, 10], [8, 10], [2, 12], [5, 9]. "I'm just going for these high bomb towers and stuff cuz I I literally have nothing to do. Like it's so awkward to play this type of game out" (t=1396-1401) and "I was just still defending, even dropping the close bomb towers" (t=1461).
+- clock 0:52 (t=1339): the reason he can afford a Royal Hogs push into a bait deck - "I knew that he would give me a lot of Bomb Tower value."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- opponent card. Tracked at [7-8, 17-19] eight times from clock 2:42 (t=1521.1) onwards; Ryley names it as the reason his win condition is awkward - 'he had a bomb tower, which did make it quite difficult' (t=1545-1548).
+- clock 0:19 (t=1666-1687): rather than break it, he times his hogs sets around its cycle - 'I knew that I would cycle his bomb tower. I knew that he would get back, but I knew that he would have to spend so much to get back that I would be in a good spot', then 'look at that guys, he had to spend everything to cycle back'.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

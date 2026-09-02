@@ -219,6 +219,20 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=244-247, mentioned before it appears): he identifies the opponent's Evolution Giant Snowball as the single card that ruins his Evolution Royal Hogs — 'Evo snowball will probably be the most annoying thing about this cuz whenever I get to the evo piggies, he's going to have the evo snowball for defense.' At t=458-460 it is used on his push: 'Um, I know why he snowballed.'
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 0:52 and overtime t=484.2: two prediction snowballs on Skeletons, both landing — "I think I went for a prediction snowball on top of the skeletons. And yeah, I did actually hit the skeletons with the snowball and he panicked and dropped a fireball" and "I went for the snowball as well, trying to predict the skellies, and I did actually get the skellies, so I got even more damage."
+- clock 0:19 (t=378.5, tile (14, 19)): the biggest swing of the game comes from holding the snowball rather than casting it on the first target — "I knew he would minions, but then I realized I could just wait and snowball literally everything. I got a beautiful snowball right there getting me a crazy amount of damage on the tower." The enemy right tower falls 2337 -> 1292 in the following six seconds.
+- overtime t=422.6, tile (14, 23): snowball as chip on a defending Cannon Cart, on top of a drill — "that snowball helps me get a good damage onto the cannon cart. It did pretty much take it out and we got a shot on the tower."
+- overtime t=507.5: the evolution slot is on the Snowball, and it is what makes him comfortable closing out — "I wasn't really worried at all knowing that I had the Evo snowball in hand. I just dropped my Evo snowball there, guys, took zero damage on defense, and I was able to secure my first duel." Twelve casts in 296 seconds; also used defensively at (14, 15) at clock 2:26 against the opening Elite Barbarians.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Opponent card (evolved, "Evo Snowball"), never detected by the pipeline - only described. Ryley plays around it twice: at t=1441-1447 he splits the Royal Hogs expecting it, "cuz I knew he'd evo snowball. And my idea was I wanted the archer to get knocked back and stay alive. It didn't work like that, but that was my idea."
+- t=1414-1418, on the opponent hoarding it: "he should have just went for the evo snowball, but for some reason, he's just never using it offensively and just trying to save it for defense." The missed snowball is his read that the game is won - "he missed a snowball, guys, and that's when I knew that I had probably won" (t=1464).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

@@ -187,6 +187,13 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=409-413): he predicts the Rascals as the answer to his own Baby Dragon and pre-places Skeletons — 'He's definitely going to go for the rascals here on the baby dragon. We can skellies here.'
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Opponent card, the most frequent unit in the tracker: waves from [5, 25], [4, 18], [13, 15] (clock 2:03-1:55), [7, 22] and [4, 17] (clock 1:23-1:17), [4, 21] (clock 0:30) and repeatedly down the left lane afterwards.
+- Named with Princess as the pair a Barbarian-Barrel-and-Lightning deck cannot clear (t=1270). His stated losing scenario is the opponent simply stacking them: "if he's just passive stacking up Princesses, stacking up Rascals, I would probably lose this game" (t=1329-1334).
+- clock 1:16 (t=1311): the Rascal Boy is chipped down by the protected evolved Archer - "because we had that one Evo Archer protected, it was even able to damage the Rascal Boy down pretty much for the most part." By t=1406 he counts "two princesses, three rascal girls down".
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)

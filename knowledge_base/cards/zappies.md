@@ -326,6 +326,26 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 0:35-0:15 (t=2002.4, 2011.4, 2022.4): rebought at [9, 12], [9, 10] and [11, 10] as the X-Bow's permanent screen — "Let's go for the low Zappies here" (t=2003), "Another set of Zappies. We can go for another X-Bow here" (t=2012).
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 2:09: the opponent's first Zappies at (2, 20) is the card that gives the deck away — "once I saw those Zappies, I'm like, 'Hold on, he's not playing Sparky.' Um I kind of figured it out that he had bridge spam."
+- clock 0:55-0:47: Zappies pairs running the right lane; Ryley answers with a bridge Princess for the splash — "I wanted to splash the Zappies and grab some tower damage."
+- clock 0:20: he notes Zappies as the opponent's cycle card, which is why draining Arrows still works — "it was nice cuz he also had the zappies to cycle to it."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- clock 2:45: Zappies at (9, 1), centred behind his own towers, as the opening 10-elixir dump in a bridge-spam deck — they are the defensive half of the list, never sent across the river in this game.
+- Overtime (t=1164.8): Zappies at (7, 6) plus a Valkyrie at (1, 9) against a multi-Zappy split push on his own half — "here I went for zappies and Valkyrie."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.5.md):
+- clock 2:45 (t=1813.9) and clock 1:00 (t=1917.5) and clock 0:12 (t=1965.6): all three deploys sit centre-right on his own half ([9, 0], [9, 8], [9, 10]) — he uses them as a defensive block, never as an opener at the bridge.
+- clock 0:56 (t=1921.4): the Wall Breakers answer inside his counterpush — "I went for the zappies on the wall breakers. I was able to counter everything nicely" (t=1924-1927).
+- clock 0:12 (t=1965): held in hand as the closing insurance — "I had my Zappies ready and look at that. I got the final Barbarian swing".
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

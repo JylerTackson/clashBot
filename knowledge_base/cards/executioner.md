@@ -161,6 +161,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - OT 1:50: and the reason he expects to win once it is misused — "Dude, that Evo Exe costed him bad" (t=1490).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- Opponent card (Evolution). Ryley calls it the reason the matchup is bad: "getting out the Evo Executioner is huge for me knowing that it is really impossible for me to kill. That's kind of the card that makes this match up so bad for me" (clock ~1:44).
+- clock 1:49: he baits it out on purpose with a bridge Cannon Cart, because forcing the Evolution out costs the opponent two cycles — "he'd have to play two more just to get to the Evo."
+- Overtime: he attacks it with the Hero Valkyrie ability rather than trading a troop — "I wanted to go up to the executioner before he had a chance to take out my mother witch" — and uses Mother Witch Cursed Hogs to distract it: "the piggies really disrupt the defense cuz he has an executioner and a bomb tower."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

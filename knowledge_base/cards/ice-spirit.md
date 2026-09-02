@@ -563,6 +563,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 0:07: [10, 14] as part of the double-spirit set-up before the overtime pressure — "Okay, let's go for the spirit here. Go for another spirit" (t=1466-1469).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 2:34 and 2:13: cheap cycle Ice Spirits at (9, 0) and (8, 14) during the opening exchange.
+- clock 1:20: held specifically for a locked-on target rather than spent on cycle — "I waited for the Wizard to lock on so I could go for the Ice Spirit."
+- clock 0:34: Ice Spirit at (6, 10) behind the Hero Valkyrie on the left defence. He states the card's job in this matchup at 835-838s: against the Evo Battle Ram, "if I don't perfectly get my Ice Spirit on it, it just rams into everything."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

@@ -150,6 +150,12 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.
 - Detected pulling into Ryley's left lane at clock 1:18 and again in overtime at [2, 16] (clock 1:41); it arrives with the Archers push that takes his left tower from 4858 to 4319 HP. Not named in commentary.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- Opponent card, three appearances (t=36.0 [9, 18], t=84.1 [10, 18], t=164.2 [6, 18]); the t=36 one hooks into his right lane and is the single largest chunk of damage his towers take (right tower 3052 -> 2508 by clock 2:10).
+- He treats it as an ability target, twice — "just to be able to take out the Monk and the Fisherman" (t=167-168) and "I could go for the Berserker ability just to take out that Fisherman" (t=184-185).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fisherman (scraped 2026-09-02T02:35:13+00:00)

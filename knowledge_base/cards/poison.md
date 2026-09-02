@@ -209,6 +209,13 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md
 - t=452.1 (clock unread): dropped on the opponent's half at tile (4, 21), in front of their damaged left tower, as offensive area denial on their defenders while that tower was already under 1100 HP — called a beat ahead at 451s, 'And then poison.'
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 0:57 (a -4 elixir step) and overtime t=390: Poison used defensively, to clear a recurring problem rather than for tower value — "here I had to go for a defensive poison cuz I didn't want to have to worry about that goblin stein and the evil [evo] mortar anymore. It's just always good to poison that thing off the board and play it safe."
+- overtime t=467-482: he treats the unspent Poison as a resource that shapes the opponent's options — "if you try to spam me on the right, then I'll just get poison value. So, like, even though I didn't hit anything with the cannon, right? It just put me in a good spot to get value off of like a poison" — and declines an available cast: "here, look, another crazy potential poison. I didn't take it this time because I didn't think that I would need it."
+- overtime t=488: the third cast, into the opponent's bridge spam — "And this time I poison [as he continues] bridge spamming." Poison is the eighth card of this list rather than the Giant the per-game read reported; see the match file's Data gaps.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

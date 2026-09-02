@@ -179,6 +179,13 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
 - clock 0:56: the opponent's answer to the warped Mighty Miner - Dark Prince tracked at (2, 19) in the left lane, arriving right as the enemy left tower bottoms out at 161 HP.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Opponent card, tracked at [5, 18] (clock 1:41), [2, 18] (clock 0:47 and 0:45), [14, 13] and [2, 18] again late.
+- t=1411: answered with the Goblinstein Lightning Link rather than a card - "I went for the goblin stein here. He had a bad dark prince cuz I knew I could just pop the ability." He also plays the split Royal Hogs at t=1437 partly "to take out that dark prince".
+- t=1365: on the opponent not using it as support - "it was still a little bit weird to not even like drop like a Dark Prince or something."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dark_Prince (scraped 2026-09-02T02:35:01+00:00)

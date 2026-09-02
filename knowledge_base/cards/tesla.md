@@ -372,6 +372,27 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 0:51 (t=1985.4): second Tesla at [8, 13], right beside the X-Bow lane — "High Tesla here that will start chaining most of the things" (t=1984-1988), immediately before the enemy right tower drops 3664 -> 2847.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:28 (mentioned, not played): Ryley lists Evo Tesla among the cards he had already spent in the set and rates it as anti-bridge-spam — "I just used a spirit, Tesla Evo, furnace, log, all of that kind of stuff is really good against bridge spam."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=614.2 / 644.2 / 667.3 / 703.3 / 720.3 (clocks 1:19 to overtime): five of six Teslas go on the same centre-of-his-half tiles [9, 9] / [9, 10] / [9, 12], the standard pull placement against a Royal Giant deck — "just went for the Tesla here in the middle. Just trying to get to my Evo as quickly as possible" (t=706-708).
+- t=621-630 (clock 1:11 to 1:03): he spends Skeletons at [3, 13] and an Electro Spirit at [7, 11] purely to keep it alive — "just making sure to keep my Tesla live. And I went for the e-spirit too. I just didn't really want my Tesla to die in this match-up. I did feel like that having the Tesla die would be really, really bad for me."
+- t=723-726 (overtime): cycles it early on purpose to bank the evolution — "I went for the early Evo Tesla here this morning to, you know, cycle nicely"; and at t=738-743, after the opponent's Fireball wipes his defence, he refuses to place it reactively: "I could have panicked Tesla, but I realized that it would be probably better just to eat like 800 damage to a thousand just to have my cycle perfect."
+- t=748.3 (overtime): the one off-centre placement, at [16, 11] on the right edge, put down with the winning Royal Hogs set to hold the Royal Giant lane — "I knew I would just be able to get a nice Tesla on defense" (t=749).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- clock 2:46 / 1:53 (t=1519.1, 1570.7): Tesla at [9, 11] then [9, 12], both times as the anti-Royal-Hogs building against a bridge set; his left tower only concedes 3052 -> 2830 through the second wave of three hogs.
+- clock 0:30 (t=1654.8): drops it at [8, 12] from 9 elixir with nothing to defend, purely to cycle - 'I cycled the high Tesla here knowing that he could get a good lightning but I kind of just need to cycle anyways, not only to get to the Evo but just in general I need to control the pace of the game'.
+- overtime (t=1696.3, 1707.6, 1712.3, 1786.7): four more Teslas centre-right at [9, 13], [10, 13], [11, 13]; he flags the risk of feeding them - 'this is where stuff gets scary, right, is when I have to use these Teslas and he has the Evo archers to snipe it down' (t=1699-1702).
+- t=1713-1723 on Evolution alignment: 'this meant that my Evo Tesla and his Evo piggies were unaligned in cycle, which is scary because then the next time he goes piggies I have to do the regular Tesla and it doesn't get as much damage on the piggies as the Evo would'.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

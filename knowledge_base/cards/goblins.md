@@ -225,6 +225,13 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0
 - opponent card, deployed at clock 1:34 and 0:44. At 1:30 Ryley spends his Evolved Bats on them purely for the trade: "Let's evo bats here on the goblins just to get a little bit of value."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:45: opens the match with Goblins in his own back at (9, 0) as a pure cycle card before the opponent has played anything.
+- clock 2:22 and clock 1:20: Goblins as the immediate cheap counter on a push — at (12, 8) onto the opening Elite Barbarians, and "I just went for the immediate Goblins here, knowing that I was going to take this out for no damage."
+- overtime t=482.5: with the lead, he places them high instead — "I went for the high goblins here" — with labels at (16, 14) and (0, 9) on the lane edges for chip. Nine deploys in the game, split between (9, 14)/(11, 13)/(14, 14) defensive drops and edge placements on offence.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

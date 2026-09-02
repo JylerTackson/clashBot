@@ -374,6 +374,38 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.4.
 - overtime 0:37 (t=1270-1274): Royal Hogs get through in overtime and he cannot explain it — "Dude, how are those piggies on my tower, though?" (own left 4078 -> 3450 over the next ten seconds).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- clock 1:58 (t=56.1): the first clearly-attributed Hogs, deploy label on his OWN half at tile [5, 12] so they walk in behind the spawners rather than being dropped cold at the bridge — "here I started out with piggies just cuz piggies is a really safe deck. And I just felt like in general that Royal Hogs is such a hard deck to counter if you are a top player" (t=52-60).
+- clock 1:20, 0:58, 0:16 and three more in overtime (t=94.1, 115.1, 134.1, 157.2, 180.2, 203.2): every subsequent Hogs goes down at the river, tiles [9, 15], [10, 15] and [15, 15], never split and never held for a bigger push — "I was just in like a permanent state of just going Royal Hogs over and over again" (t=162-164). The enemy right tower goes 2608 -> 247 HP over that stretch.
+- clock 0:39 (t=134.1): he keeps sending them once he sees the opponent's small spell is Void rather than Fireball — "I wasn't complaining either cuz that means he'd have a really hard time taking out my Royal Hogs. I got a nice Log there and my piggies were going absolutely crazy" (t=136-145).
+- Why he drafted them into a CRL best-of-three at all (t=78-87): "if you're a good player, piggies is so solid because you're more often than not, you're not really getting countered. You're not countering your opponent too hard. You're just always giving yourself a chance to win."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=579.2 / 592.2 (clock 1:53 and 1:40, double elixir): opened the readable window with two Royal Hogs sets, one at the right bridge [15, 14] and one at [9, 13], the second confirmed by elixir 9 -> 4 — "I was just trying to make sure that I was careful, always putting my piggies" (t=598). He also rates them as low-risk against king-tower activation: "you're not really able to activate king tower too easily off of royal hogs, but you know that definitely wasn't it. So I was very happy about that" (t=603-608).
+- t=676.3 (clock 0:16): Evo Royal Hogs at the right bridge [15, 14] the moment the opponent's Fireball was spent, with Lightning at [15, 22] behind them five seconds later — "because he used the fireball, guys, I did want to go for the evo piggies and I had lightning ready for the skelly drags, especially after like he played the tombstone like that not even realizing that we had the evo piggies. I knew that we were going to get a bunch of damage" (t=679-688). Enemy right tower 2164 -> 820 between t=682 and t=694.
+- t=743.3 (overtime, clock reader stuck at 0:01): third bridge set at [15, 15] played on top of a defence he was already paying for, alongside Barbarian Barrel and Tesla — "here I went for the piggies just to pressure while defending... with the furnace helping me out, I knew that he wouldn't be able to break through" (t=745-753). The push takes the enemy right tower 820 -> 154: "look at that guys, the piggies took the tower" (t=753).
+- t=771.4 (overtime): final bridge set at [15, 15], used instead of the Lightning finisher once the opponent had committed a Tombstone — "I'd rather just wait and drop piggies at the bridge because since he went for the tombstone, I knew that I could piggies" (t=765-770); the opponent concedes and Ryley wins the game, "I started off one to zero" (t=774).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- clock 1:36 (t=1291.9): split Royal Hogs from tile [10, 14] behind an evolved Archer played at the same tile four seconds earlier, spending him down to 0 elixir; enemy left tower falls 2940 -> 2043 and enemy right 2860 -> 2268 over the next six seconds. "I went with the split Royal Hogs here to tank for the right side Archer, but then I also had the split one to the left because if you see the Scientist retargets the tower, so I'm able to get a thousand Royal Hogs damage just immediately."
+- clock 0:54 (t=1333.9): Royal Hogs at the left bridge tile [2, 15], played to reach the evolution and to farm defensive value out of the opponent - "Here I even went for the Royal Hogs knowing that, um, I would get to my Evo, and I knew that he would give me a lot of Bomb Tower value." Enemy left reads 2043 -> 1747 across t=1338-1342, which he calls "a clean like 3-400 damage".
+- clock 0:40 (t=1348-1352), the cycle motive: "another reason I went for the Piggies was cuz my cycle was a little bit messed up, and I kind of wanted to fix it." The 5-elixir win condition is played partly to correct a broken rotation, not only for damage.
+- t=1436-1437: third split, at [4, 1] and [2, 14], as cover for an evolved Archer against an expected Evo Snowball - "I decided to go for the evo piggies cuz I wanted to protect my evo archer. Just to take out that dark prince cuz I knew he'd evo snowball ... I wanted the archer to get knocked back and stay alive. It didn't work like that."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- clock 1:20 (t=1605.2): sends Royal Hogs from the left-hand pocket at [2, 14] and the enemy left tower falls 2519 -> 812 by t=1616 while Evo Archers, skeletons, a Barbarian Barrel and the Bomb Tower all come down on defence - 'I went for the Evo Piggies here just knowing that I would get a guaranteed good sequence because his cycle wasn't really the greatest for it... while also forcing out like almost his entire deck worth of elixir'.
+- clock 0:19 (t=1666.3): second bridge set at [2, 14] behind a Furnace/Skeletons/Electro Spirit defence - 'I went for the royal hogs here at the bridge just to keep up the pressure', taken specifically to cycle the opponent's Bomb Tower out: 'I knew that he would have to spend so much to get back that I would be in a good spot'.
+- overtime (t=1743.3, 1769.4): keeps re-sending them at [2, 14] and [5, 17] in overtime, always paired with something already on defence; the enemy left tower reads 2180 -> 1693 across t=1774-1780.
+- clock 0:14 (t=1793-1800): the closing counter-push - 'right here is when I knew I won. I instantly Evo piggies. So when he went for his piggies I knew that he wouldn't be able to defend mine'. Every set this game is played at the bridge on the left, never from the back, and he cycles cheap cards deliberately to see the Evolution: 'I just want to get my Evo piggies down as many times as possible' (t=1636).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

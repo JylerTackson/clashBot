@@ -182,6 +182,14 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3
 - overtime (t=717-722): a Drill surfaces at (4, 6) and he dismisses it — "Yo, that was a bad drill. Let's berserker here. Yo, I think he's cooked."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 2:40: opens the game with the drill on the enemy right tower at tile (12, 26) (elixir 9 -> 5) and names it as the reason for the whole deck pick — "after that game one, I did decide to go for Goblin Drill. Not only is Goblin Drill a really comfortable deck for me, but I did think that it also would just be a solid deck choice."
+- clock 2:18: second drill straight after holding a bridge-spam push, played on cycle rather than on a window — "And then I went for the Goblin Drill here again immediately, knowing that I would have some nice support with that bomber."
+- clock 0:58: drills at (12, 24) specifically to drain the opponent's defence rather than for damage — "I was about to go in for a Goblin Drill because I knew that he would have to spend a Cannon Cart... I forced out so much elixir with that goblin drill."
+- overtime t=419.4 and t=482.5: drills at (14, 24) and (15, 22) while defending — "I went for the drill as well cuz I knew that I could probably pressure while defending" — and the drill's tower aggro is what saves his support: "it also allowed the bomber to fully take out the mortar because the tower was too busy on the drill. So, the tower wasn't able to finish off my bomber." All six drills in this game land in the enemy right corner; none is ever used defensively.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

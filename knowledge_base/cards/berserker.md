@@ -785,6 +785,33 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 0:09 and OT 1:56: deep on the enemy half at [8, 21] both times, as the tank half of the closing Goblin Barrel + Berserker + Wall Breakers set (t=1470.6, t=1482.5) — "We can get a nice double connection here for sure. There's no way that he can prevent this one" (t=1470-1472).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- clock 2:11 and 2:10 (t=42.9 tile [11, 14], then again two seconds later): two Berserkers back to back on his own side of the right bridge to meet the Royal Giant + Fisherman + Monk push; his right tower loses only ~285 HP for the whole game.
+- clock 0:54 and 0:34 (t=119.1 tile [2, 14], t=138.6 tile [3, 14]): swapped to the left bridge when the Monk, Little Prince and Barbarians came that way, always placed on his own half rather than at the bridge.
+- clock 0:07 (t=164-166): the Hero ability is spent on support troops, not on the tower — "I got a really nice Berserker ability as well just to be able to take out the Monk and the Fisherman. Berserker hero is just so strong, man. I feel like all of the new cards this season are just so good" (t=165-176).
+- Overtime (t=178.2 tile [10, 14], t=202.2 tile [13, 14]): deployed one beat ahead of each Royal Hogs so the ability is available for the defender — "I went for the immediate Royal Hogs here cuz I knew that I could go for the Berserker ability just to take out that Fisherman" (t=182-185).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=637.4 (clock 0:55): 2-elixir drop at [1, 7], deep in the left lane, as the first body against the Evo Royal Giant walking down that side (elixir 9 -> 7).
+- t=652.3 (clock 0:40): added at [8, 14] to finish the defence off — "here I just went for the berserker as well just to make sure that we take this out" (t=652-655).
+- t=667.3 / 717.3 / 736.3 / 770.4: four more silent 2-elixir drops ([14, 10], [9, 8], [14, 9], [13, 15]) onto whatever was already engaged — he never spends it as a lead card, only as clean-up behind Tesla or Furnace.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Opponent card, mentioned once during the late scare and not separately detected: "this berserker was going crazy. He had a lot of stuff down. I barb barreled the other side just to be safe" (t=1491-1495).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- clock 1:57 (t=1567.7): activates the Hero's Savage Survival on the Berserker placed at [3, 14] two shots earlier, and the enemy left tower drops 3052 -> 2724 -> 2519 within seconds - 'I did a nice ability here just to grab some nice tower damage with that Berserker ability, cuz whenever you get this early damage, it does put you in a good spot where they have to be more aggressive'. He calls the damage decisive: 'this Berserker damage, guys, is going to show to be very, very important in the game' (t=1584-1588).
+- clock 2:06 / 0:05 (t=1559.2, 1679.3): the standard placement is the left-lane defensive pocket at [3, 14] / [4, 14], directly in front of the incoming Royal Hogs.
+- overtime (t=1702.3, 1731.3, 1758.4, 1784.4): swaps to the right lane ([13, 10], [15, 15], [16, 12]) as pure insurance - 'I berserker here just to protect, just to be safe' (t=1702) and 'I went for the Evo Tesla here and berserker, just not wanting to give him value' (t=1786-1789).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

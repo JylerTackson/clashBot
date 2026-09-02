@@ -596,6 +596,14 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - OT 1:56: third card of the overtime barrage at [8, 19], behind the barrel and the Berserker (t=1483.5).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 2:21: Wall Breakers at tile (4, 14) right after a bridge Dart Goblin, while he still thinks he is facing a Giant/Sparky list — "I did a nice dark goblin. And then I went for the wall breaker as well. Just trying to prevent a king tower activation."
+- clock 1:42: Valkyrie + Wall Breakers at the right bridge (14, 15) as pre-emptive pressure into a matchup he cannot defend — "I went for the Valkyrie Wall Breakers here just to apply some pressure, knowing that I was going to get like hit with a mean counter push... just normally I can't really defend."
+- clock 1:00-0:23: from triple elixir on he never sends Wall Breakers alone, always behind an Evo Goblin Barrel at the same bridge (deploys at (9, 14) clock 0:58, (14, 14) clock 0:23, (13, 14) clock 0:04) — "I went for the Barrel Wall Breakers here. No one knows going to force out the arrows." The pair grinds the enemy right tower from 3052 to ~227.
+- clock 0:04 and overtime: he flags his own error on the timing — "I think I waited on the wall breakers, which was bad for me. I should have just instantly went" — and the game ends on the last Barrel + Wall Breakers at (14, 15): "the wall breakers somehow connected and I won the game."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

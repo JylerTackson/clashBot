@@ -122,6 +122,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5
 - clock 0:45-0:42: plays around it and loses the exchange anyway - "I have to watch out for the Void here for sure. Let's go for the Berserker here" ... "he gets a full Void on me. That sucks." Inferred spell hits then strip 533 HP from his right tower and 498 from his left.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- Named only, and it is the strategic read of the game. Clock 0:39 (t=133-142): "here I realized he had a Void instead of the Fireball, which is really confusing cuz I did not expect him to have a Void, but I wasn't complaining either cuz that means he'd have a really hard time taking out my Royal Hogs." Seeing a single-target-ish spell instead of Fireball is what licensed him to keep sending Royal Hogs every cycle for the rest of the game.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Void (scraped 2026-09-02T02:35:29+00:00)

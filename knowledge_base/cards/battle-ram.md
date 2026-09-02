@@ -318,6 +318,26 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4
 - The opponent's opening and recurring pressure card, evolved later in the game (t=750 clock 2:38, t=842, t=978). Answered with Berserker + The Log at t=750.8-751.8 ("make sure that we take out this battle ram nicely", t=753-754) and with Berserker + Bats at t=841.8-843.5 ("we could go for the berserker here, then evil bats as well", t=843).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- clock 1:46: the Evo Battle Ram is the card he says he must answer precisely — "he even has the Evo Battle Ram, where if I don't perfectly get my Ice Spirit on it, it just rams into everything."
+- overtime: the ram finally comes and the Evo Skarmy handles it better than expected — "the skarmy actually ended up pushing the ram. I Valkyrie cuz I didn't think it would, but I was happy."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.2.md):
+- clock 2:03: Battle Ram at tile (2, 15) on the left bridge in the same breath as Elite Barbarians on the right — his stated pairing rule in a CRL Monthly Finals set: "I went for the heal spirit too with a battle ram opposite lane. I knew that right now I was guaranteed to get a ton of damage because obviously everything in his deck is really, really expensive." The enemy left tower went 3052 -> 806 in the twenty seconds after.
+- clock 0:53: Battle Ram at (13, 14) layered behind a Mother Witch he had just used to cycle — "I knew I could go for a Battle Ram with this and I knew my piggy on the left could get some decent damage."
+- Overtime (t=1131.7 / 1134.7): two more Battle Rams at (16, 14) and (15, 14) as the pressure card that stops the opponent from ever banking elixir — "I knew that I had to keep up the pressure because if I just let go then he would just build up a massive push [and] win the game." One connects: enemy right tower 956 -> 347, "the Battle Ram guys was able to get to the tower. Look at all that damage."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.5.md):
+- clock 2:12 (t=1846.4): first Battle Ram at the right bridge [15, 13] purely as a probe of an unknown bait deck — "I went for the battering here, just trying to figure out, you know, his type of bait deck, his building and stuff like that... I realized that he had the log because he was scared of me playing log bait".
+- clock 1:14 (t=1902.5): second ram at the left bridge [2, 14] chosen over a Vines finish to keep the evolution cycling — "I could have went for the vines, but I preferred to just go for the battering cuz I had a feeling that if I went for the vines, I wouldn't have taken the tower and I wouldn't have cycled my Evo".
+- clock 0:30 (t=1947.5): Evo ram at [2, 14] in the same beat as Elite Barbarians in the opposite lane; the opponent's Tesla whiffs on it — "I went for the Evo ram. I just ignored the goblin barrel" (t=1951), "Look at that Battle Ram. He missed the Tesla" (t=1960).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

@@ -349,6 +349,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 0:08: [5, 11] on his own half as the first of the two spirits before the overtime push (t=1469.1).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.1.md):
+- clock 1:25 onward: eleven Fire Spirits, spent freely as the cycle card — back-of-lane at (9, 0)/(9, 1) purely to cycle, defensive at (6, 13), (11, 14), (8, 13), (1, 12), and bridge-side at (15, 14) as drill support ("ready for the minions", 380-382s).
+- clock 1:12-1:02: the one play he second-guesses is a Fire Spirit he did not cycle — "I probably should have cycled my spirit maybe on the left side... but then I'm like, 'To be fair, the spirit would have just jumped on the Goblin sign anyway, and it wouldn't have really done anything.'"
+- overtime t=440-443: cheap spirit as the whole answer to a committed push — "here I just did a good fire spirit. That was kind of a bad push by him to be honest."
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

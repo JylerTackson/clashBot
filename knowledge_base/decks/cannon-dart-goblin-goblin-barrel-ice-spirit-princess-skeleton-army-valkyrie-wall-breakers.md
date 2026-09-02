@@ -113,6 +113,18 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - Defence is the centre Cannon plus spirits: Cannon at (8, 13), a HUD Cannon at clock 0:52 and Cannon at (8, 11), all in the middle two columns, both times against a tracked evolved Royal Giant — "let's definitely Cannon here just to be safe" (697s), "Let's go for a Cannon here. Very nice defense" (744s) — with Ice Spirit spent purely to stop chip: "just to make sure that we don't take any damage" (747s).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.1.md):
+- CRL Monthly Finals day 2, period 1 game 1 (video 779.5s-968.6s): Ryley wins with WB Log Bait 2.8 (Evo Goblin Barrel, Evo Skeleton Army, Hero Valkyrie) against a bridge-spam list, clinching a 2-0 sweep of the duel — "the wall breakers somehow connected and I won the game for a very nice two to zero sweep."
+- He names the deck at 780-785s: "now we whipped out our first log bait of the CRL. I was happy to be playing log bait man cuz I hadn't played log bait in a while for CRL... When I was playing the competition in China, I was using a lot of log bait."
+- Deck-reading: he opens the game wrong, playing Dart Goblin + Wall Breakers + Barrel at clock 2:30-2:19 to "prevent a king tower activation" against a Giant/Sparky list that does not exist, then corrects off the cheap support at clock 2:09 — "once I saw those Zappies, I'm like, 'Hold on, he's not playing Sparky.'"
+- The stated matchup problem is that both opponent spells answer bait: "with arrows and vines... he's able to kill my Skarmy, my Dart Goblin, my Princess. Like, he's able to take out everything" (clock 1:58). His answer is spell arithmetic, not defence — barrel forces Arrows, Skarmy forces Arrows, Vines cannot clear Skarmy, so "He can only kill one of those three" (clock 0:38).
+- Because he cannot defend the counter-push, he pre-empts it: Valkyrie + Wall Breakers at the bridge at clock 1:42 — "just to apply some pressure, knowing that I was going to get like hit with a mean counter push... just normally I can't really defend."
+- He accepts a near-dead tower as a survivable cost: the left tower goes 2668 -> 521 to a Giant Skeleton + Hero Wizard push over clock 1:33-1:02, and he explains why that is fine — "his only spells are arrows and vines, so he isn't really able to finish off my tower that well, especially when he needs to use the arrows and the vines on defense all the time" (clock 1:06).
+- From triple elixir the win pattern is one repeated shape: Evo Goblin Barrel + Wall Breakers at the right bridge (clock 1:00, 0:26-0:23, 0:07 and again in overtime), with Princess, Hero Valkyrie or Evo Skarmy added on top; the enemy right tower falls 3052 -> ~227 and the game ends on the last pair. Self-criticism at clock 0:04: "I think I waited on the wall breakers, which was bad for me. I should have just instantly went."
+- The Hero Valkyrie ability is used as a defensive nuke, not just a body: "I went for the Valkyrie ability here just to try to take out those E-Barbs, and I got a ton of damage, which was setting me up for a very good defense" (clock 0:34).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
+
 ## Source
 
 - https://royaleapi.com/decks/popular?lang=en (scraped 2026-09-02T03:43:33+00:00)

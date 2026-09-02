@@ -626,6 +626,33 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.
 - Mentioned once and it changes his offence: "he even has e-spirit instead of like a fire spirit, so he's going to be able to counter our Evo barrel super easily as well" (t=808-812) — after which the Goblin Barrels are used mainly as spell bait rather than as expected damage.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m0.0.md):
+- clock 2:13 (t=39.0, tile [12, 7]) and clock 1:46 (t=69.1, tile [8, 10]): dropped deep on his own half alongside the Berserker so the chain stun buys her extra hits against the Royal Giant push.
+- clock 0:25 (t=148.1, tile [8, 11]) and overtime (t=176.8): part of the protect-the-counterpush package — "Here, I went for the E-Spirit and the Berserker as well just to make sure to protect that" (t=177-180).
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.0.md):
+- t=621.9 (clock 1:10): played at [7, 11] next to his Tesla, elixir 7 -> 6, explicitly to protect it — "I went for the e-spirit too. I just didn't really want my Tesla to die in this match-up. I did feel like that having the Tesla die would be really, really bad for me" (t=623-630).
+- t=664.3 / 714.3 (clock 0:28 and overtime): two more 1-elixir drops at [9, 14] and [14, 14], both into a lane his Tesla or Furnace was already holding, as cycle-and-reset filler rather than a standalone answer.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.3.md):
+- Six plays, all cheap defensive resets and cycle: [3, 4] (clock 2:47), [8, 9] (clock 1:55), [15, 6] (clock 1:15), [2, 14] and [7, 13] (clock 0:45), [15, 14] (clock 0:25), [9, 5] (t=1385) and [3, 14] (t=1438).
+- clock 0:45 (t=1344-1348): "then I just went for the E-Spirit defensively, and now my cycle is completely fixed as well" - the 1-elixir card is what puts the rotation back in order after the 5-elixir Royal Hogs.
+- t=1481: "here I went for the e-spear" (auto-transcript for E-Spirit) during the late defensive stand.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
+
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:start -->
+Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T50_dNGc-m1.4.md):
+- clock 2:29 / 2:10 (t=1536.1, 1553.2): 1-elixir spirits at [5, 6] and [9, 6] behind the Tesla to finish the opponent's first two Royal Hogs waves for free.
+- clock 0:56 (t=1628-1633): 'I did want to get the e-spirit down there just to ensure that I like counter everything for no damage, and I also just wanted to cycle to my royal hogs'.
+- clock 0:13 (t=1671.3): Electro Spirit at [5, 10] as part of the free-defence package behind his own hogs push - 'a nice low furnace plus skellies and e-spirit too, just making sure that I took no damage' (t=1670-1674).
+- overtime (t=1772-1776): uses it as a prediction against the opponent's skeletons - 'I did go for the e-spirits trying to predict the skellies. I didn't grab them, but I got some chip damage'.
+<!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)
