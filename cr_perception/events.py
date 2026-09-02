@@ -58,6 +58,7 @@ class PlayDetector:
     last_enemy_hp: dict[str, int] = field(default_factory=dict)
     recent_group: dict[str, float] = field(default_factory=dict)
     own_hold: list[PlayEvent] = field(default_factory=list)       # own plays waiting for a deploy label (tile)
+    label_tiles: dict[str, tuple] = field(default_factory=dict)  # card -> (t, tile, score, text) seen before the HUD event
     recent_labels: list[tuple[float, str, tuple[int, int]]] = field(default_factory=list)
     HOLD_SECONDS: float = 2.5
     LABEL_DEDUP_SECONDS: float = 3.0
@@ -93,16 +94,32 @@ class PlayDetector:
             err = abs(cost - total)
             if err < best_err:
                 best, best_err = p, err
+        def _tile_for(card: str) -> tuple:
+            lt = self.label_tiles.pop(card, None)
+            if lt and t0 - lt[0] <= 6.0:
+                return lt[1], f"; deploy label '{lt[3]}' at {lt[1]} (score {lt[2]})"
+            return None, ""
         if best is not None and best_err <= 0.5:
             self.pending_hand.remove(best)
             self.own_play_cards_recent.append((t0, best.before))
-            return [PlayEvent(t0, clock, "own", best.before, None, e_before, e_after, "hud", "high",
-                              f"slot {best.slot} emptied ({best.before}), elixir -{total}")]
+            tile, note = _tile_for(best.before)
+            return [PlayEvent(t0, clock, "own", best.before, tile, e_before, e_after, "hud", "high",
+                              f"slot {best.slot} emptied ({best.before}), elixir -{total}{note}")]
         if best is not None and len(self.pending_hand) == 1:
             self.pending_hand.remove(best)
             self.own_play_cards_recent.append((t0, best.before))
-            return [PlayEvent(t0, clock, "own", best.before, None, e_before, e_after, "hud", "medium",
-                              f"slot {best.slot} emptied ({best.before}) but elixir -{total} != cost {self.card_costs.get(best.before)}")]
+            tile, note = _tile_for(best.before)
+            return [PlayEvent(t0, clock, "own", best.before, tile, e_before, e_after, "hud", "medium",
+                              f"slot {best.slot} emptied ({best.before}) but elixir -{total} != cost {self.card_costs.get(best.before)}{note}")]
+        # no slot change explains it: a deploy label seen on Ryley's side with a
+        # matching cost identifies the card (the hand read was wrong or unreadable)
+        for card, (lt, tile, score, text) in list(self.label_tiles.items()):
+            if t0 - lt <= 6.0 and abs(self.card_costs.get(card, -9) - total) <= 0.5:
+                del self.label_tiles[card]
+                self.own_play_cards_recent.append((t0, card))
+                return [PlayEvent(t0, clock, "own", card, tile, e_before, e_after, "deploy_label",
+                                  "medium" if score >= 0.85 else "low",
+                                  f"deploy label '{text}' -> {card} (score {score}) at {tile} explains elixir -{total} (hand read disagreed)")]
         if total >= 2:
             return [PlayEvent(t0, clock, "own", None, None, e_before, e_after, "inferred", "low",
                               f"elixir dropped by {total} with no readable hand change")]
@@ -213,8 +230,24 @@ class PlayDetector:
                       for _, c, tt in self.recent_labels)
             if dup:
                 continue
-            # a weak fuzzy read only counts if a HUD play corroborates it
             own = next((e for e in self.own_hold if e.card == lbl.card), None)
+            # Labels also appear while a card is being DRAGGED (placement
+            # preview), and the HUD event for an own play is finalised only
+            # after the elixir drain animation, so the label can arrive first.
+            # Treat as Ryley's when: a slot emptied of this card is pending,
+            # the card is in his hand, or the label is on his half for a
+            # non-spell card (the opponent cannot deploy troops there).
+            from .detect import categorize, SPELL_CLASSES
+            pending_own = any(p.before == lbl.card for p in self.pending_hand)
+            in_hand = lbl.card in self.last_hand
+            own_half_troop = tile[1] < 15 and lbl.card not in SPELL_CLASSES and lbl.card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel", "wall-breakers")
+            if own is None and (pending_own or in_hand or own_half_troop):
+                prev = self.label_tiles.get(lbl.card)
+                if prev is None or t - prev[0] > 6.0 or lbl.match_score >= prev[2]:
+                    self.label_tiles[lbl.card] = (t, tile, lbl.match_score, lbl.text)
+                self.recent_labels.append((t, lbl.card, tile))
+                continue
+            # a weak fuzzy read only counts if a HUD play corroborates it
             if lbl.match_score < 0.85 and own is None:
                 continue
             self.recent_labels.append((t, lbl.card, tile))

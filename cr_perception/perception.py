@@ -67,6 +67,8 @@ class Perception:
     def __post_init__(self):
         self.calib = Calibration.load(self.config)
         self.costs = load_card_costs(self.kb)
+        # wiki art only: BuildABot's in-game thumbnails were measured to lower
+        # hand accuracy on real frames (style mismatch shrinks the margin)
         self.matcher = CardMatcher(self.kb / "cards" / "images")
         self.hand_reader = HandReader(self.matcher, self.calib.rois)
         self.elixir_bar = ElixirBarReader(self.calib.rois["elixir_bar"], self.calib.rois.get("elixir_bar_full"))

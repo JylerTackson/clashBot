@@ -240,14 +240,30 @@ class CardMatcher:
 
     SIZE = (24, 28)
 
-    def __init__(self, images_dir: Path, extra_dirs: list[Path] | None = None):
+    BUILDABOT_ALIAS = {"pekka": "p-e-k-k-a", "minipekka": "mini-p-e-k-k-a", "mini_pekka": "mini-p-e-k-k-a", "x_bow": "x-bow",
+                       "log": "the-log", "fire_spirits": "fire-spirit"}
+
+    def __init__(self, images_dir: Path, extra_dirs: list[Path] | None = None, valid_slugs: set[str] | None = None):
+        """images_dir: Phase 1 wiki art (slug.png). extra_dirs: additional
+        template sets (e.g. BuildABot's in-game hand thumbnails, *.jpg with
+        underscore names and _ev1 evolution variants); their names are mapped
+        onto Phase 1 slugs and unknown ones are skipped."""
         self.templates: list[CardTemplate] = []
-        for d in [Path(images_dir)] + [Path(x) for x in (extra_dirs or [])]:
-            for p in sorted(d.glob("*.png")) + sorted(d.glob("*.jpg")):
-                img = cv2.imread(str(p), cv2.IMREAD_COLOR)
-                if img is None:
-                    continue
+        base = Path(images_dir)
+        for p in sorted(base.glob("*.png")):
+            img = cv2.imread(str(p), cv2.IMREAD_COLOR)
+            if img is not None:
                 self.templates.append(CardTemplate(p.stem, self.describe(img)))
+        known = valid_slugs or {t.slug for t in self.templates}
+        for d in [Path(x) for x in (extra_dirs or [])]:
+            for p in sorted(d.glob("*.png")) + sorted(d.glob("*.jpg")):
+                stem = re.sub(r"_ev\d+$", "", p.stem)
+                slug = self.BUILDABOT_ALIAS.get(stem, stem.replace("_", "-"))
+                if slug not in known:
+                    continue
+                img = cv2.imread(str(p), cv2.IMREAD_COLOR)
+                if img is not None:
+                    self.templates.append(CardTemplate(slug, self.describe(img)))
         if not self.templates:
             raise FileNotFoundError(f"no card art in {images_dir}")
         self.F = np.stack([t.feat for t in self.templates])
