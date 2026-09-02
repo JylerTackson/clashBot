@@ -19,7 +19,7 @@ WIKI = "https://clashroyale.fandom.com"
 API = f"{WIKI}/api.php"
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-KB = REPO_ROOT / "knowledge_base"
+KB = Path(os.environ.get("KB_ROOT", REPO_ROOT / "knowledge_base"))  # tests redirect this
 CARDS_DIR = KB / "cards"
 CARD_IMG_DIR = CARDS_DIR / "images"
 EVO_DIR = KB / "evolutions"

@@ -76,3 +76,30 @@ items.
 The extraction agents follow `scripts/kb/AGENT_INSTRUCTIONS.md`: they only
 replace `<!-- AGENT:FILL -->` placeholders using the per-page source pack in
 `.kb_cache/src/`, never the mechanically generated parts.
+
+## Phase 2 — deck archetypes and meta decks
+
+```
+knowledge_base/
+  decks/<deck_key>.md            one file per scraped deck (deck_key = 8 sorted card slugs)
+  archetypes/<archetype>.md      beatdown, control, cycle, bait, bridge-spam, siege
+  meta/deck_index.md|json        every deck: archetype, classification source, site stats, avg elixir
+  cards/<slug>.md                gains an idempotent "## Deck archetypes" section
+```
+
+```
+cd scripts/kb
+python3 decks_fetch.py                    # step 0-1: policy check, fetch/render, enumerate decks
+python3 decks_fetch.py --html page.html   # ...or parse a page saved from a normal browser
+python3 decks_build.py build              # step 2-3: classify (heuristic) + write deck files
+python3 agent_batches.py                  # (phase 1 planner; phase 2 agents read AGENT_INSTRUCTIONS_DECKS.md)
+python3 decks_build.py finalize           # step 4-6: archetypes, index, card cross-links, verify, QA
+python3 tests/test_phase2.py              # end-to-end smoke test on a synthetic fixture
+```
+
+Status: the live scrape is **blocked** — royaleapi.com serves a Cloudflare
+managed challenge (interactive Turnstile) to both plain HTTP and headless
+Chromium, and its robots.txt disallows AI agents; the details are in
+`meta/qa_report.md`. The pipeline is complete and tested against a
+synthetic fixture, so a page saved from a browser session can be fed in with
+`--html` to produce the deck files, archetype syntheses and card cross-links.

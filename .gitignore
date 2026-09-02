@@ -1,3 +1,4 @@
 .kb_cache/
 __pycache__/
 *.pyc
+scripts/kb/.phase2_scratch/

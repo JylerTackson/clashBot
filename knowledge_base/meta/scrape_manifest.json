@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T02:48:56+00:00",
+  "generated_at": "2026-09-02T03:07:24+00:00",
   "items": {
     "minions": {
       "kind": "card",
@@ -8,7 +8,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MinionsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b7/MinionsCard.png/revision/latest?cb=20171212204954",
@@ -26,7 +26,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ArchersCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/a/af/ArchersCard.png/revision/latest?cb=20250906092119",
@@ -44,7 +44,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ArchersCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/03/ArchersCardEvolution.png/revision/latest?cb=20250625040735",
@@ -62,7 +62,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "KnightCard.png",
         "bytes": 400186,
@@ -78,7 +78,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "KnightCardEvolution.png",
         "bytes": 223317,
@@ -94,7 +94,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SpearGoblinsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/37/SpearGoblinsCard.png/revision/latest?cb=20171212203658",
@@ -112,7 +112,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/bd/GoblinsCard.png/revision/latest?cb=20171212204756",
@@ -130,7 +130,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BomberCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/2b/BomberCard.png/revision/latest?cb=20171212203417",
@@ -148,7 +148,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BomberCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/45/BomberCardEvolution.png/revision/latest?cb=20250625041025",
@@ -166,7 +166,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SkeletonsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/f0/SkeletonsCard.png/revision/latest?cb=20250906092644",
@@ -184,7 +184,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SkeletonsCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5c/SkeletonsCardEvolution.png/revision/latest?cb=20250625040020",
@@ -202,7 +202,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BarbariansCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/2e/BarbariansCard.png/revision/latest?cb=20250906092032",
@@ -220,7 +220,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BarbariansCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6a/BarbariansCardEvolution.png/revision/latest?cb=20250624024621",
@@ -238,7 +238,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ElectroSpiritCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/70/ElectroSpiritCard.png/revision/latest?cb=20201009185354",
@@ -256,7 +256,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SkeletonDragonsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8d/SkeletonDragonsCard.png/revision/latest?cb=20200531185819",
@@ -274,7 +274,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FireSpiritCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ea/FireSpiritCard.png/revision/latest?cb=20171212204727",
@@ -292,7 +292,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BatsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/22/BatsCard.png/revision/latest?cb=20171212210528",
@@ -310,7 +310,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BatsCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5a/BatsCardEvolution.png/revision/latest?cb=20250625040634",
@@ -328,7 +328,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalRecruitsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/77/RoyalRecruitsCard.png/revision/latest?cb=20180719221339",
@@ -346,7 +346,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalRecruitsCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/62/RoyalRecruitsCardEvolution.png/revision/latest?cb=20250625040319",
@@ -364,7 +364,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalGiantCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8b/RoyalGiantCard.png/revision/latest?cb=20260413181754",
@@ -382,7 +382,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalGiantCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/70/RoyalGiantCardEvolution.png/revision/latest?cb=20250625035910",
@@ -400,7 +400,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "IceSpiritCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/2c/IceSpiritCard.png/revision/latest?cb=20171212204920",
@@ -418,7 +418,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "IceSpiritCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/13/IceSpiritCardEvolution.png/revision/latest?cb=20250625040829",
@@ -436,7 +436,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BerserkerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8c/BerserkerCard.png/revision/latest?cb=20250301172305",
@@ -454,7 +454,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SkeletonBarrelCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/88/SkeletonBarrelCard.png/revision/latest?cb=20171212203650",
@@ -472,7 +472,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SkeletonBarrelCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6a/SkeletonBarrelCardEvolution.png/revision/latest?cb=20250721180915",
@@ -490,7 +490,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinGangCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/79/GoblinGangCard.png/revision/latest?cb=20171212204748",
@@ -508,7 +508,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "EliteBarbariansCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e8/EliteBarbariansCard.png/revision/latest?cb=20171212204714",
@@ -526,7 +526,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "EliteBarbariansCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/01/EliteBarbariansCardEvolution.png/revision/latest?cb=20260812051152",
@@ -544,7 +544,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MinionHordeCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/09/MinionHordeCard.png/revision/latest?cb=20171212204952",
@@ -562,7 +562,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MinionHordeCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b3/MinionHordeCardEvolution.png/revision/latest?cb=20260527160435",
@@ -580,7 +580,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FirecrackerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/29/FirecrackerCard.png/revision/latest?cb=20250906092239",
@@ -598,7 +598,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FirecrackerCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8a/FirecrackerCardEvolution.png/revision/latest?cb=20250625035438",
@@ -616,7 +616,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RascalsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/9e/RascalsCard.png/revision/latest?cb=20180516184359",
@@ -634,7 +634,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MiniPEKKACard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7b/MiniPEKKACard.png/revision/latest?cb=20260305213446",
@@ -652,7 +652,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MusketeerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ee/MusketeerCard.png/revision/latest?cb=20251113004421",
@@ -670,7 +670,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MusketeerCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/81/MusketeerCardEvolution.png/revision/latest?cb=20250626003819",
@@ -688,7 +688,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GiantCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b1/GiantCard.png/revision/latest?cb=20171212204740",
@@ -706,7 +706,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ValkyrieCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e2/ValkyrieCard.png/revision/latest?cb=20260305213938",
@@ -724,7 +724,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ValkyrieCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/dc/ValkyrieCardEvolution.png/revision/latest?cb=20250625040929",
@@ -742,7 +742,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MegaMinionCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/a/a8/MegaMinionCard.png/revision/latest?cb=20260208130920",
@@ -760,7 +760,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BattleRamCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/ce/BattleRamCard.png/revision/latest?cb=20171212210525",
@@ -778,7 +778,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BattleRamCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e5/BattleRamCardEvolution.png/revision/latest?cb=20250626002650",
@@ -796,7 +796,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "WizardCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/49/WizardCard.png/revision/latest?cb=20171212203722",
@@ -814,7 +814,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "WizardCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/f9/WizardCardEvolution.png/revision/latest?cb=20250626002805",
@@ -832,7 +832,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FlyingMachineCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/31/FlyingMachineCard.png/revision/latest?cb=20171212204730",
@@ -850,7 +850,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HogRiderCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/30/HogRiderCard.png/revision/latest?cb=20171212204811",
@@ -868,7 +868,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalHogsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/51/RoyalHogsCard.png/revision/latest?cb=20180618175738",
@@ -886,7 +886,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalHogsCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e1/RoyalHogsCardEvolution.png/revision/latest?cb=20251109013826",
@@ -904,7 +904,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ThreeMusketeersCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/c9/ThreeMusketeersCard.png/revision/latest?cb=20251113004450",
@@ -922,7 +922,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BattleHealerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/93/BattleHealerCard.png/revision/latest?cb=20191205172851",
@@ -940,7 +940,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "IceGolemCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5f/IceGolemCard.png/revision/latest?cb=20260305213532",
@@ -958,7 +958,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "DartGoblinCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/70/DartGoblinCard.png/revision/latest?cb=20171212203434",
@@ -976,7 +976,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "DartGoblinCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/22/DartGoblinCardEvolution.png/revision/latest?cb=20250626010351",
@@ -994,7 +994,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FurnaceCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/51/FurnaceCard.png/revision/latest?cb=20250804224859",
@@ -1012,7 +1012,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FurnaceCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ef/FurnaceCardEvolution.png/revision/latest?cb=20250817002329",
@@ -1030,7 +1030,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ZappiesCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5b/ZappiesCard.png/revision/latest?cb=20180125224858",
@@ -1048,7 +1048,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinDemolisherCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/44/GoblinDemolisherCard.png/revision/latest?cb=20260305214322",
@@ -1066,7 +1066,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HealSpiritCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/63/HealSpiritCard.png/revision/latest?cb=20210606233835",
@@ -1084,7 +1084,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SuspiciousBushCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cc/SuspiciousBushCard.png/revision/latest?cb=20260305213652",
@@ -1102,7 +1102,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ElixirGolemCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5a/ElixirGolemCard.png/revision/latest?cb=20191007151830",
@@ -1120,7 +1120,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GuardsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/51/GuardsCard.png/revision/latest?cb=20171212204806",
@@ -1138,7 +1138,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BabyDragonCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/35/BabyDragonCard.png/revision/latest?cb=20171212203300",
@@ -1156,7 +1156,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BabyDragonCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/c7/BabyDragonCardEvolution.png/revision/latest?cb=20251013111334",
@@ -1174,7 +1174,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SkeletonArmyCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d0/SkeletonArmyCard.png/revision/latest?cb=20171212203647",
@@ -1192,7 +1192,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SkeletonArmyCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/74/SkeletonArmyCardEvolution.png/revision/latest?cb=20251110212654",
@@ -1210,7 +1210,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "WitchCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7f/WitchCard.png/revision/latest?cb=20260305213728",
@@ -1228,7 +1228,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "WitchCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1a/WitchCardEvolution.png/revision/latest?cb=20250626010937",
@@ -1246,7 +1246,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "PEKKACard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/fe/PEKKACard.png/revision/latest?cb=20171212203624",
@@ -1264,7 +1264,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "PEKKACardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/ba/PEKKACardEvolution.png/revision/latest?cb=20250626003431",
@@ -1282,7 +1282,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "DarkPrinceCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/46/DarkPrinceCard.png/revision/latest?cb=20171212210526",
@@ -1300,7 +1300,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "PrinceCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/be/PrinceCard.png/revision/latest?cb=20171212203631",
@@ -1318,7 +1318,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BalloonCard.png",
         "bytes": 181111,
@@ -1334,7 +1334,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GiantSkeletonCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6f/GiantSkeletonCard.png/revision/latest?cb=20260311022225",
@@ -1352,7 +1352,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RuneGiantCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/0a/RuneGiantCard.png/revision/latest?cb=20260305214508",
@@ -1370,7 +1370,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinGiantCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/44/GoblinGiantCard.png/revision/latest?cb=20180907172932",
@@ -1388,7 +1388,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinGiantCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/87/GoblinGiantCardEvolution.png/revision/latest?cb=20250626003102",
@@ -1406,7 +1406,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HunterCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/64/HunterCard.png/revision/latest?cb=20171212204813",
@@ -1424,7 +1424,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HunterCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/22/HunterCardEvolution.png/revision/latest?cb=20250626010657",
@@ -1442,7 +1442,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GolemCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d4/GolemCard.png/revision/latest?cb=20171212204759",
@@ -1460,7 +1460,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ElectroDragonCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8a/ElectroDragonCard.png/revision/latest?cb=20181027022035",
@@ -1478,7 +1478,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ElectroDragonCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/48/ElectroDragonCardEvolution.png/revision/latest?cb=20250626003707",
@@ -1496,7 +1496,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "WallBreakersCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/2e/WallBreakersCard.png/revision/latest?cb=20220810092902",
@@ -1514,7 +1514,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "WallBreakersCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/a/ae/WallBreakersCardEvolution.png/revision/latest?cb=20250625235807",
@@ -1532,7 +1532,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ElectroGiantCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/08/ElectroGiantCard.png/revision/latest?cb=20220810091241",
@@ -1550,7 +1550,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BowlerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b8/BowlerCard.png/revision/latest?cb=20171212203424",
@@ -1568,7 +1568,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ExecutionerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/da/ExecutionerCard.png/revision/latest?cb=20171212204720",
@@ -1586,7 +1586,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ExecutionerCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/a/a9/ExecutionerCardEvolution.png/revision/latest?cb=20250626010820",
@@ -1604,7 +1604,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "CannonCartCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/62/CannonCartCard.png/revision/latest?cb=20171212210531",
@@ -1622,7 +1622,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MegaKnightCard.png",
         "bytes": 177605,
@@ -1638,7 +1638,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MegaKnightCardEvolution.png",
         "bytes": 226127,
@@ -1654,7 +1654,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RamRiderCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e0/RamRiderCard.png/revision/latest?cb=20191027212430",
@@ -1672,7 +1672,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ElectroWizardCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/12/ElectroWizardCard.png/revision/latest?cb=20171212203437",
@@ -1690,7 +1690,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "InfernoDragonCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/95/InfernoDragonCard.png/revision/latest?cb=20171212204926",
@@ -1708,7 +1708,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "InfernoDragonCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/74/InfernoDragonCardEvolution.png/revision/latest?cb=20250626011050",
@@ -1726,7 +1726,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SparkyCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/33/SparkyCard.png/revision/latest?cb=20171212203655",
@@ -1744,7 +1744,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MinerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/21/MinerCard.png/revision/latest?cb=20171212204949",
@@ -1762,7 +1762,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "PrincessCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/24/PrincessCard.png/revision/latest?cb=20171212203633",
@@ -1780,7 +1780,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "PrincessCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/4c/PrincessCardEvolution.png/revision/latest?cb=20260523211421",
@@ -1798,7 +1798,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "PhoenixCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/88/PhoenixCard.png/revision/latest?cb=20221024141258",
@@ -1816,7 +1816,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalGhostCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/3c/RoyalGhostCard.png/revision/latest?cb=20171212203643",
@@ -1834,7 +1834,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalGhostCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6f/RoyalGhostCardEvolution.png/revision/latest?cb=20251013222633",
@@ -1852,7 +1852,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "IceWizardCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d3/IceWizardCard.png/revision/latest?cb=20171212204923",
@@ -1870,7 +1870,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MagicArcherCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cb/MagicArcherCard.png/revision/latest?cb=20180212145114",
@@ -1888,7 +1888,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BanditCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/76/BanditCard.png/revision/latest?cb=20260721131114",
@@ -1906,7 +1906,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "LavaHoundCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/de/LavaHoundCard.png/revision/latest?cb=20171212204935",
@@ -1924,7 +1924,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "NightWitchCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7f/NightWitchCard.png/revision/latest?cb=20260305213819",
@@ -1942,7 +1942,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "LumberjackCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/52/LumberjackCard.png/revision/latest?cb=20171212204941",
@@ -1960,7 +1960,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "LumberjackCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1d/LumberjackCardEvolution.png/revision/latest?cb=20250626010500",
@@ -1978,7 +1978,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SpiritEmpressCard.png",
         "bytes": 432897,
@@ -1994,7 +1994,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinMachineCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/79/GoblinMachineCard.png/revision/latest?cb=20240619124012",
@@ -2012,7 +2012,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MotherWitchCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/81/MotherWitchCard.png/revision/latest?cb=20201204152613",
@@ -2030,7 +2030,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FishermanCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/11/FishermanCard.png/revision/latest?cb=20190702021335",
@@ -2048,7 +2048,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoninCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/50/RoninCard.png/revision/latest?cb=20260710230206",
@@ -2066,7 +2066,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoldenKnightCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/04/GoldenKnightCard.png/revision/latest?cb=20211030180748",
@@ -2084,7 +2084,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "SkeletonKingCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d3/SkeletonKingCard.png/revision/latest?cb=20211030180917",
@@ -2102,7 +2102,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BossBanditCard.png",
         "bytes": 547008,
@@ -2118,7 +2118,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ArcherQueenCard.png",
         "bytes": 171838,
@@ -2134,7 +2134,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MightyMinerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/c1/MightyMinerCard.png/revision/latest?cb=20260413181638",
@@ -2152,7 +2152,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinsteinCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/60/GoblinsteinCard.png/revision/latest?cb=20250113175058",
@@ -2170,7 +2170,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "LittlePrinceCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/47/LittlePrinceCard.png/revision/latest?cb=20250201145338",
@@ -2188,7 +2188,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MonkCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5d/MonkCard.png/revision/latest?cb=20221023211827",
@@ -2206,7 +2206,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ArrowsCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6e/ArrowsCard.png/revision/latest?cb=20171212203258",
@@ -2224,7 +2224,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ZapCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/52/ZapCard.png/revision/latest?cb=20171212203728",
@@ -2242,7 +2242,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ZapCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cb/ZapCardEvolution.png/revision/latest?cb=20250626000117",
@@ -2260,7 +2260,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GiantSnowballCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7e/GiantSnowballCard.png/revision/latest?cb=20180618175737",
@@ -2278,7 +2278,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GiantSnowballCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/93/GiantSnowballCardEvolution.png/revision/latest?cb=20250626004527",
@@ -2296,7 +2296,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalDeliveryCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6c/RoyalDeliveryCard.png/revision/latest?cb=20220810092859",
@@ -2314,7 +2314,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FireballCard.png",
         "bytes": 175460,
@@ -2330,7 +2330,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RocketCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/fc/RocketCard.png/revision/latest?cb=20171212203640",
@@ -2348,7 +2348,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "EarthquakeCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/64/EarthquakeCard.png/revision/latest?cb=20190416153355",
@@ -2366,7 +2366,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinBarrelCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ee/GoblinBarrelCard.png/revision/latest?cb=20171212204745",
@@ -2384,7 +2384,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinBarrelCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7d/GoblinBarrelCardEvolution.png/revision/latest?cb=20250626002934",
@@ -2402,7 +2402,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "VinesCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/75/VinesCard.png/revision/latest?cb=20260311024518",
@@ -2420,7 +2420,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "LightningCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5e/LightningCard.png/revision/latest?cb=20171212204938",
@@ -2438,7 +2438,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "FreezeCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cf/FreezeCard.png/revision/latest?cb=20171212204733",
@@ -2456,7 +2456,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BarbarianBarrelCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b5/BarbarianBarrelCard.png/revision/latest?cb=20180322174712",
@@ -2474,7 +2474,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "PoisonCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/89/PoisonCard.png/revision/latest?cb=20171212203628",
@@ -2492,7 +2492,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinCurseCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/c4/GoblinCurseCard.png/revision/latest?cb=20260311024159",
@@ -2510,7 +2510,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RageCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1c/RageCard.png/revision/latest?cb=20171212203637",
@@ -2528,7 +2528,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "CloneCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/48/CloneCard.png/revision/latest?cb=20171212210530",
@@ -2546,7 +2546,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "TornadoCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/37/TornadoCard.png/revision/latest?cb=20171212203713",
@@ -2564,7 +2564,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MirrorCard.png",
         "bytes": 125678,
@@ -2580,7 +2580,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "VoidCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/13/VoidCard.png/revision/latest?cb=20240502080204",
@@ -2598,7 +2598,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "TheLogCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/4d/TheLogCard.png/revision/latest?cb=20171212203703",
@@ -2616,7 +2616,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GraveyardCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/42/GraveyardCard.png/revision/latest?cb=20171212204803",
@@ -2634,7 +2634,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "CannonCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/70/CannonCard.png/revision/latest?cb=20171212210523",
@@ -2652,7 +2652,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "CannonCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/33/CannonCardEvolution.png/revision/latest?cb=20250626003928",
@@ -2670,7 +2670,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MortarCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1e/MortarCard.png/revision/latest?cb=20191207191730",
@@ -2688,7 +2688,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "MortarCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1e/MortarCardEvolution.png/revision/latest?cb=20250625040114",
@@ -2706,7 +2706,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "TeslaCard.png",
         "bytes": 109334,
@@ -2722,7 +2722,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "TeslaCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7b/TeslaCardEvolution.png/revision/latest?cb=20250626000003",
@@ -2740,7 +2740,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinCageCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/17/GoblinCageCard.png/revision/latest?cb=20260628163840",
@@ -2758,7 +2758,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinCageCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/56/GoblinCageCardEvolution.png/revision/latest?cb=20250626003320",
@@ -2776,7 +2776,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinHutCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/da/GoblinHutCard.png/revision/latest?cb=20250803181307",
@@ -2794,7 +2794,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "TombstoneCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/75/TombstoneCard.png/revision/latest?cb=20171212203710",
@@ -2812,7 +2812,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BombTowerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/f1/BombTowerCard.png/revision/latest?cb=20171212210521",
@@ -2830,7 +2830,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "InfernoTowerCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/34/InfernoTowerCard.png/revision/latest?cb=20171212204928",
@@ -2848,7 +2848,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "BarbarianHutCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/63/BarbarianHutCard.png/revision/latest?cb=20171212203409",
@@ -2866,7 +2866,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "ElixirCollectorCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/33/ElixirCollectorCard.png/revision/latest?cb=20171212204717",
@@ -2884,7 +2884,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "X-BowCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b5/X-BowCard.png/revision/latest?cb=20171212203726",
@@ -2902,7 +2902,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinDrillCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/76/GoblinDrillCard.png/revision/latest?cb=20210609154853",
@@ -2920,7 +2920,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "GoblinDrillCardEvolution.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cb/GoblinDrillCardEvolution.png/revision/latest?cb=20250626003146",
@@ -2938,7 +2938,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "TowerPrincessCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/88/TowerPrincessCard.png/revision/latest?cb=20250123220202",
@@ -2956,7 +2956,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "CannoneerCard.png",
         "bytes": 92906,
@@ -2972,7 +2972,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "DaggerDuchessCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/9b/DaggerDuchessCard.png/revision/latest?cb=20251102003049",
@@ -2990,7 +2990,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "RoyalChefCard.png",
         "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b5/RoyalChefCard.png/revision/latest?cb=20251019191241",
@@ -3008,7 +3008,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroKnightCard.png",
         "bytes": 489933,
@@ -3024,7 +3024,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroGiantCard.png",
         "bytes": 486534,
@@ -3040,7 +3040,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroMiniPEKKACard.png",
         "bytes": 473305,
@@ -3056,7 +3056,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroMusketeerCard.png",
         "bytes": 510698,
@@ -3072,7 +3072,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroIceGolemCard.png",
         "bytes": 530378,
@@ -3088,7 +3088,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroWizardCard.png",
         "bytes": 493412,
@@ -3104,7 +3104,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroGoblinsCard.png",
         "bytes": 619470,
@@ -3120,7 +3120,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroMegaMinionCard.png",
         "bytes": 606757,
@@ -3136,7 +3136,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroBarbarianBarrelCard.png",
         "bytes": 443426,
@@ -3152,7 +3152,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroMagicArcherCard.png",
         "bytes": 546274,
@@ -3168,7 +3168,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroBalloonCard.png",
         "bytes": 499139,
@@ -3184,7 +3184,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroBowlerCard.png",
         "bytes": 475860,
@@ -3200,7 +3200,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroDarkPrinceCard.png",
         "bytes": 488998,
@@ -3216,7 +3216,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroTombstoneCard.png",
         "bytes": 235314,
@@ -3232,7 +3232,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroBerserkerCard.png",
         "bytes": 549347,
@@ -3248,7 +3248,7 @@
       "status": "done",
       "stage": "done",
       "reason": null,
-      "updated_at": "2026-09-02T02:48:56+00:00",
+      "updated_at": "2026-09-02T03:07:24+00:00",
       "image": {
         "file": "HeroValkyrieCard.png",
         "bytes": 618630,
@@ -3262,5 +3262,56 @@
     "cards": 126,
     "evolutions": 42,
     "heroes": 16
+  },
+  "phase2": {
+    "source_url": "https://royaleapi.com/decks/popular?lang=en",
+    "policy_check": {
+      "checked_at": "2026-09-02T03:04:28+00:00",
+      "robots_url": "https://royaleapi.com/robots.txt",
+      "terms_url": "https://royaleapi.com/terms",
+      "robots_status": 200,
+      "robots_excerpt": "User-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nUser-agent: ClaudeBot\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nUser-agent: ClaudeBot\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nDisallow: /decks/random\nUser-agent: *\nDisallow: /decks/random",
+      "robots_rules_for_star_and_claudebot": [
+        "User-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /",
+        "User-agent: ClaudeBot\nDisallow: /",
+        "User-agent: ClaudeBot\nCrawl-delay: 60\nDisallow: /decks/random",
+        "User-agent: *\nCrawl-delay: 60\nDisallow: /decks/random"
+      ],
+      "decks_popular_disallowed_for_claudebot": true,
+      "decks_popular_disallowed_for_star": false,
+      "content_signal": "search=yes,ai-train=no,use=reference",
+      "crawl_delay_seconds": 60,
+      "terms_status": 403,
+      "terms_readable": false,
+      "terms_note": "terms page returned a Cloudflare challenge; could not be read"
+    },
+    "fetch_log": [
+      {
+        "method": "raw_http",
+        "status": 403,
+        "bytes": 5716,
+        "challenge": true
+      },
+      {
+        "method": "headless_chromium",
+        "ok": true,
+        "bytes": 27423,
+        "challenge": true,
+        "note": "= Just a moment... deckish= 0\nt 3 title= Just a moment... deckish= 0\nt 4 title= Just a moment... deckish= 0\nt 5 title= Just a moment... deckish= 0\nt 6 title= Just a moment... deckish= 0\nt 7 title= Just a moment... deckish= 0\nt 8 title= Just a moment... deckish= 0\nt 9 title= Just a moment... deckish= 0\nt 10 title= Just a moment... deckish= 0\nt 11 title= Just a moment... deckish= 0\nhtml bytes 27423\n"
+      }
+    ],
+    "fetched_at": "2026-09-02T03:05:01+00:00",
+    "status": "blocked",
+    "blocker": "Both the raw HTTP fetch and a headless Chromium render of the popular-decks page returned a Cloudflare managed challenge (interactive 'Verify you are human' Turnstile). Not bypassed. Re-run with --html <saved page> from a normal browser session.",
+    "verified_at": "2026-09-02T03:07:12+00:00",
+    "counts": {
+      "decks": 0,
+      "beatdown": 0,
+      "control": 0,
+      "cycle": 0,
+      "bait": 0,
+      "bridge-spam": 0,
+      "siege": 0
+    }
   }
 }
