@@ -95,7 +95,8 @@ def download(v: dict, height: int) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--channel", required=True)
+    ap.add_argument("--channel", default="https://www.youtube.com/@ryleycr1/videos")
+    ap.add_argument("--ids", nargs="*", help="download exactly these video ids (skips the channel listing and the CR filter)")
     ap.add_argument("--n", type=int, default=50)
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--height", type=int, default=720)
@@ -105,15 +106,25 @@ def main() -> int:
     a = ap.parse_args()
     global EXTRA
     EXTRA = ["--js-runtimes", "node:/opt/node22/bin/node", "--sleep-requests", str(a.sleep)] + (["--cookies", a.cookies] if a.cookies else [])
-    vids = list_channel(a.channel, a.n)
+    if a.ids:
+        vids = []
+        for i in a.ids:
+            v = {"id": i, "duration": "", "title": ""}
+            info = fetch_info(v)
+            v["title"] = (info or {}).get("title", "") or i
+            vids.append(v)
+        keep, skipped = vids, []
+    else:
+        vids = list_channel(a.channel, a.n)
     print(f"{len(vids)} videos listed", flush=True)
     # metadata-first pass: keep only Clash Royale videos
-    keep, skipped = [], []
-    for v in vids:
-        ok, why = is_clash_royale(v)
-        if not ok and "another game" not in why:
-            ok, why = is_clash_royale(v, fetch_info(v))
-        (keep if ok else skipped).append({**v, "reason": why})
+    if not a.ids:
+        keep, skipped = [], []
+        for v in vids:
+            ok, why = is_clash_royale(v)
+            if not ok and "another game" not in why:
+                ok, why = is_clash_royale(v, fetch_info(v))
+            (keep if ok else skipped).append({**v, "reason": why})
     for v in skipped:
         print(f"skip   {v['id']} {v['title'][:60]}  ({v['reason']})", flush=True)
     print(f"{len(keep)} Clash Royale videos to download, {len(skipped)} skipped", flush=True)

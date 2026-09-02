@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import time
@@ -26,7 +27,7 @@ from cr_perception.context import build_context, render_context_md, split_matche
 from cr_perception.recorder import JsonlRecorder  # noqa: E402
 from cr_perception.screen import assess, detect_content_rect, detect_game_panel  # noqa: E402
 
-SCRATCH = "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad"
+SCRATCH = os.environ.get("CR_SCRATCH", "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad")
 from cr_perception.decktracker import load_kb_decks  # noqa: E402
 KB_DECKS = load_kb_decks(ROOT / "knowledge_base")
 WEIGHTS = [f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"]

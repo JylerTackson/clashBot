@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -27,7 +28,7 @@ from cr_perception.overlay import OverlayVideoWriter, render  # noqa: E402
 from cr_perception.recorder import JsonlRecorder  # noqa: E402
 from cr_perception.screen import MatchGate, assess, detect_content_rect, detect_game_panel  # noqa: E402
 
-SCRATCH = "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad"
+SCRATCH = os.environ.get("CR_SCRATCH", "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad")
 
 
 def find_first_match(video: str, step: float = 2.0, needed: int = 3, max_t: float | None = None) -> tuple[float | None, dict]:

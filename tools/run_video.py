@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -22,7 +23,7 @@ from cr_perception import geometry as g  # noqa: E402
 from cr_perception.overlay import OverlayVideoWriter, render  # noqa: E402
 from cr_perception.recorder import JsonlRecorder  # noqa: E402
 
-SCRATCH = "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad"
+SCRATCH = os.environ.get("CR_SCRATCH", "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad")
 
 
 def build_detector(name: str, a):
