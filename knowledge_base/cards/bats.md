@@ -257,6 +257,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 0:28: used as the instant answer to an Ice Wizard / Skeletons counterpush — "Let's bats instantly."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:35 (t=1512.5): Bats from the HUD for 2 (elixir 6->4) as the cheap defensive filler immediately ahead of the Fire Spirit and Ice Spirit, with an unidentified unit and a Night Witch already tracked on his half. No commentary specific to the card.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

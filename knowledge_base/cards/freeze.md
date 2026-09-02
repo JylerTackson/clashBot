@@ -209,6 +209,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
 - clock 1:19: uses it to fingerprint the whole list — 'I think he's playing the double freeze variation. Having double freeze and E Golem is insane. I'm pretty sure that means he doesn't have the Skeleton King' (t=93-98).
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:14 (t=1960.4): the opponent Freezes at [7, 15] mid-river while Ryley's spirits and Zappies were defending; it produces no counter-push and Ryley's towers take no damage in the whole clip.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

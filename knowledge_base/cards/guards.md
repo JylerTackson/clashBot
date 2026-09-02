@@ -120,6 +120,11 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=693-704s (mentioned, never played by Ryley): Jynxzi lost his Guards modifier and Ryley explained why — 'you dropped it right before you click the modifiers, so you get it on the next thing', which is the basis for his rule about not dropping cards just before the modifier timer.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:30 and 0:56 (t=1938.3 at [2, 29], t=1978.4 at [9, 16]): the opponent's cheap shield swarm, tracked reaching Ryley's tower in 1.3 s at t=1966; answered by Zappies at [8, 10] — "Okay, let's just go for the Zappies" — and by Arrows over the top.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Guards (scraped 2026-09-02T02:34:58+00:00)

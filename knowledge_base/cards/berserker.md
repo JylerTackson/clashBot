@@ -736,6 +736,11 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=622-631s: read by deploy label (four re-reads of one label at the file's junk tile [4, 19], so its side attribution is unreliable). Discussed rather than analysed: at t=556s 'Oh my god, Berserker's in here', and when Jynxzi asked at t=563-566s whether he 'still has feelings for the Berserker after all the time away from Clash', Ryley answered 'I NEVER HAD FEELINGS FOR the Berserker, bro.'
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=428.4 and t=438.4 (clock unread): two HUD casts, each a clean -2 elixir, both during the left-lane offence rather than as a narrated defensive placement; he never names her in this clip.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

@@ -339,6 +339,26 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.
 - overtime clock ~1:28 (t=1179-1181): spell tracking on the opponent — "He had to buy Zap, but that was... He can't buy Zap for our Firecracker. That's still a shot on the tower".
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=444.2 (clock unread): one HUD cast (-2) while enemy Zappies and a Bandit were on his side and his own left-lane push was under an opponent Fireball; the commentary either side of it is about the Fireball, not the Zap.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:26, 0:13, 0:08 and 1:46 (t=1522.7, 1536.2, 1540.7, 1562.1): four Zaps (-2 each) in 40 seconds, every one of them the cheap follow-up to a bigger play - after the bridge Arrows, twice during the Mega Knight/Bandit push, and after the last Arrows in overtime. No commentary on the card itself.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m2.md):
+- clock 1:32, 1:27, 1:11, 0:54 and 0:34: five HUD -2 steps plus one deploy label at (7, 10), used purely as cheap cycle filler alongside the spirits; he never comments on it, and it is the card that keeps Fireball and Arrows coming back around.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 0:52 and 0:33 (t=1984.5, t=2003.4): Zap at tile [7, 11], mid-lane on his own half, over the units walking into his X-Bow; seven 2-elixir Zap drops in 100 s (t=1946.5, 1951.8, 1957.0, 1978.9, 1984.5, 2012.2, 2022.9) make it his cheapest cycle card. He never comments on it once.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

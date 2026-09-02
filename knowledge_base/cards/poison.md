@@ -204,6 +204,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 0:44: one deploy label over the enemy left tower at [4, 21], landing with the Miner at [1, 22] and Bats at [1, 15] — the standard Miner + Poison chip package for this list. (The elixir trace does not independently confirm the spend; see the match file's Data gaps.)
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=452.1 (clock unread): dropped on the opponent's half at tile (4, 21), in front of their damaged left tower, as offensive area denial on their defenders while that tower was already under 1100 HP — called a beat ahead at 451s, 'And then poison.'
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

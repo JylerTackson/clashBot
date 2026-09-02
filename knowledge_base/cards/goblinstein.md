@@ -266,6 +266,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=249.2 tile [16, 15] and t=260.3 / t=276.3 tile [15, 14]: he keeps landing it at the bridge specifically to pre-empt the next drill — "I knew he was going to go for another drill though. So, I went for the Goblin Stein at the bridge" (t=247-250), "another Stein at the bridge. I just wanted to keep up the pressure" (t=262-264), and "I even went for another Goblin Stein at the bridge. Kind of just no fear" (t=278-279). The ability is spent to force defence, not for value: "I even got a nice ability here just to take that out, making him have to defend the scientist again" (t=217-220).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:28 (t=1519, mentioned only): Ryley reads the opponent's card without countering it directly - 'He got the Doctor Goblinstein on defeat one. Okay, that's fine' (1519-1522s). No Goblinstein was seen on the field by the pipeline.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

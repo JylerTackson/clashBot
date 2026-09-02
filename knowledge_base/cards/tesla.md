@@ -349,6 +349,29 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
 - overtime: he treats a forced Tesla as a win either way - "if I make him Tesla then he can't really activate the king" (887-890s), and later spends a spell on it, "just to make sure we drop the Tesla. Or if he puts it on the side then that's fine, too" (912-915s).
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=414.0 (clock unread): placed at (8, 11), centre of his own half roughly four tiles back from the river — the standard central pull placement against ground pressure coming up both lanes.
+- t=456 (clock unread): named as half of a defensive pair with Zappies while an opponent Bandit was walking his left lane — 'Let's get the Zappies here in the middle. Tesla here.'
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:31 to 0:25 (t=1515.5, 1520.5, 1523.5): the opponent's Tesla is the only card confirmed for them in this clip - tracked crossing at [8,16], then deploy-labelled twice deep on their own half at [6,27] (elixir 9.22->5.22 and 5.43->1.43), and tracked again at [8,21] in overtime (t=1559.6). Ryley's only Tesla line is about one on his own half: 'Tesla. Why is it on our tower? What?' (1532-1535s).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m3.md):
+- t=1910.7s: Tesla at tile [8, 13], centre of his own half three tiles from the river, dropped behind the bridge X-Bow while a Baby Dragon [9, 17], Skeleton King [9, 18] and Guards [7, 20] were on the board - siege support rather than a pull building.
+- He calls for it far earlier than he plays it: "Let's go for the high Tesla" (1878s), i.e. a placement near the river rather than deep on his half.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:21 (t=1956.4): placed forward at [4, 14] rather than in the standard pull pocket, explicitly for the C.H.A.O.S. chain modifier — "Let's Tesla here at the bridge just to start chaining stuff."
+- clock 0:51 (t=1985.4): second Tesla at [8, 13], right beside the X-Bow lane — "High Tesla here that will start chaining most of the things" (t=1984-1988), immediately before the enemy right tower drops 3664 -> 2847.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

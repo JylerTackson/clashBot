@@ -218,6 +218,12 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Opponent's card. Early on it costs him tower HP through lag — "Oh my god, I lagged a bit on my cannon. That bandit's going to dash on my tower" (835-838s) — and later he chooses to concede the chip rather than spend: "Let's let the bandit go. Let's let the musky go. And we're in a fine spot right now" (971-974s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=440 and t=456.1 (clock unread): faced it twice from the opponent, both logged at (3, 13) on his own half in the left lane, the second flagged as reaching the tower in 7.4s; he answered that lane with repeated Electro Spirits plus Zappies and Tesla in the middle.
+- t=440 (clock unread): he says 'Let's Bandit the bridge here', but a t=424.0 Bandit deploy label attributed to him conflicts with his elixir trace and with Bandit being in the opponent's deck, so it is not counted as one of his eight cards.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

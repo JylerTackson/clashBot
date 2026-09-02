@@ -228,6 +228,28 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
 - clock 2:20 and 1:36: he argues the siege player should commit the X-Bow to force him off the bridge - "He could go for the X-Bow, but I don't think that would be too great of a play" (756-760s), then "He can't X-Bow on the left, even though I think he actually should, just to force me to go Hog Rider at the bridge" (799-802s). The opponent's X-Bow only shows at (2, 16) at clock 0:55, 0:17 and in overtime, always too late to matter.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:31 (t=1517.5): X-Bow deploy label at tile [2,11] - left lane, on his own half, the protected in-range placement rather than a bridge-side siege drop - immediately after his spirit defence stabilised. He called it two seconds earlier: 'Help us out on defense, and we can go for the expo' (1515s).
+- clock 1:55 (t=1554.6): second X-Bow at exactly the same tile [2,11], early in overtime, sandwiched between Arrows (-3, 1552.6) and a 4-elixir play (1556.2). 'Let's go for the expo here... And he can't really deflect everything' (1554-1556s) - he commits the X-Bow when he judges the opponent cannot cover every threat at once.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m3.md):
+- t=1877.7s (no match clock readable in this clip): X-Bow at tile [2, 11], four tiles back on his own left half while an Electro Wizard push was still resolving - a protected placement, not a bridge one, even though he had just said at 1878s "We can go for the X-Bow offensively as well".
+- t=1897.7s: second X-Bow at tile [9, 14], centre and one row from the river (the standard offensive placement), backed instantly by a Fireball at t=1898.0 - "X-Bow again here... Keep up the pressure" (1896-1898s).
+- t=1903.7s and t=1913.7s: he stalls in front of the bridge X-Bow with 1-elixir Ice Spirits at [15, 14] and [9, 15], and adds a Tesla at [8, 13] (t=1910.7) behind it rather than a tank; the enemy right tower falls from 4351 to 4091 across the clip.
+- Opponent's answer both times was a Tombstone in front of the besieged tower (t=1880.7 [9, 19], t=1902.7 [8, 20]); Ryley accepted it - "he'll be able to survive the time just because of the scorching fire and the tombstone, which is fine by me" (1903-1906s).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:01 (t=1975.4): first X-Bow of the clip at tile [11, 14], one row off the river on his own half, immediately backed by a Fireball at the bridge — "Let's go for the X-Bow and then we can maybe go for another fireball to try to predict the E-Wiz".
+- clock 0:48-0:45 (t=1990-1991.4): re-lays it at [14, 13] with Zappies at [14, 14] the same second; the C.H.A.O.S. modifier gives it a chain attack — "Look at that chain on that X-Bow, man. That's insane. Let's X-Bow here again."
+- clock 0:37-0:31 (t=2000.4-2006): third lay at [9, 13] screened by Zappies at [9, 12], then a Fireball to open the lane — "Let's go for the low Zappies here and then we can go for the fireball nuke to try to get the X-Bow onto the tower"; enemy right tower runs 2419 -> 1430 in that window.
+- clock 0:23-0:05 (t=2013.4, logged as an opponent play at [15, 13] on Ryley's half): fourth lay, 6 elixir, called on air — "we can go for another X-Bow here" — and it closes the game: "X-Bow's on the tower to finish off the game" (t=2031), enemy right tower 4091 -> 326 with his own towers untouched.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

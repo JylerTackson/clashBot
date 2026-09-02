@@ -435,6 +435,38 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - He sequences his own plays around the opponent's Fireball budget: "he probably has to Fireball this and then I can just go for the Evo Wall Breakers at the bridge" (1303-1306s), "if he fireballs then he can't afford defense to the wall breakers" (1394-1396s) - though at 1396-1398s it did catch them: "Oh, no, it clipped them. That's unlucky."
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=422.4 (clock unread): one clean HUD cast, elixir 6 -> 2, while enemy Zappies were threatening his tower.
+- t=415-420 (clock unread): he frames it as the deck's only projectile when judging the opponent's projectile-deflect modifier — 'we don't really have any projectiles in our deck except for the uh tower itself. And I guess the fireball.'
+- t=442-444 (clock unread): used as a prediction rather than a reaction — 'We have the NATO Fireball to predict him right here. Let's go for the NATO Fireball.' ('NATO' is the auto-transcript's rendering of a C.H.A.O.S. Fireball modifier.)
+- t=454-459 (clock unread): it is the card he cycles to in order to close — 'we didn't get it yet. We have to cycle back to the fireball', then 'we just have to fireball, guys. And that is going to be good game.'
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m2.md):
+- clock 1:32: defensive Fireball on his own half at tile (14, 13) onto an advancing ranged unit — "Let's go for the fireball ... to bring this back. Take that out. Okay, nice."
+- clock 1:08 and 0:46: chip Fireballs across the river at (15, 26) and (8, 22) while behind on elixir; the enemy right tower drops 5401 -> 4656 over the next few seconds.
+- clock 0:19-0:03: Fireball is half of the winning spell cycle — (5, 23) then (5, 25) onto the enemy left tower, which falls 2039 -> 360 in the last fifteen seconds. "I can spell cycle cuz my spells do a lot of damage on the tower. Wait, why didn't I think of this before?" and at the end "WE clutched it by spell cycling."
+- clock 0:36: he treats Fireball as the clock on the opponent's modifier — "We need the fireball before he gets the parry down."
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m3.md):
+- t=1872.7s: Fireball at tile [5, 18], just over the river, onto an Electro Wizard tracked walking down the left lane - "Make sure we get that E-wiz off the board immediately" (1873-1875s); the Electro Wizard track is gone by 1880s.
+- t=1883.7s: second Fireball deep on the opponent's right at tile [15, 24] - "Fireball this again" (1883s); the enemy right tower reads 4351 before and 4157 shortly after.
+- t=1898.0s (HUD, elixir 6->2): Fireball played immediately behind the bridge X-Bow at [9, 14] to clear whatever came to defend it - the area-spell-with-siege pattern, cast as the X-Bow landed rather than held.
+- Its C.H.A.O.S. modifier leaves burning ground, which he calls "the scorching fire" (1903s) and counts as chip that helps the opponent survive but keeps his cycle going.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:31 (t=1946.3): thrown at [3, 19] on the opponent's half purely as a prediction — "I'm going to predict his E-wiz here with the fireball maybe" — and it lands: "Oh my god, what a prediction. Yo, he's cooked. How's he supposed to defend?" (t=1949-1951), enemy left tower 5556 -> 4088 over the next four seconds.
+- clock 0:58 (t=1978.4): Fireball at [12, 17] onto the freshly-laid Tombstone and Guards — "Take out the tombstone. Beautiful" (t=1981).
+- clock 0:43-0:37 (t=1994.4-2002): bridge Fireball at [14, 19] behind the X-Bow — "I'm going to go for the fireball at the bridge another time... Great fireball. X-Bow's on the tower now. Dude, X-Bow plus the fireball nuke is such a crazy combo, too."
+- clock 0:23-0:13 (t=2016.4, 2024.4): two more predictive Fireballs at [14, 19] and [13, 18] aimed at the Electro Wizard — "I'm going to fireball to predict the E-Wiz cuz he might put the E-Wiz directly on top of the Sparky", then "We did hit the E-Wiz. Let's fireball this. Take this all out."
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

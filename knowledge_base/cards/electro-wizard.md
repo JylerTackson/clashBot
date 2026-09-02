@@ -178,6 +178,11 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=1208-1213s (clock unknown): the Electro Wizard was the only opponent counter-attack that reached his side cleanly (flagged tower in ~3 s) and was killed by Baby Dragon plus Skeletons at [11, 14] — "Take this out. Nice. Come on. Nice. Beautiful."
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- Named eight times but never recorded as a play: tracked as an enemy unit on the right lane from clock 0:20 to 0:13 (t=2012-2024). It is the card Ryley's whole Fireball plan is built around — "I'm going to predict his E-wiz here with the fireball maybe" (t=1945), "another fireball to try to predict the E-Wiz" (t=1977), "he might put the E-Wiz directly on top of the Sparky" (t=2016) — and he confirms the hit at t=2024: "We did hit the E-Wiz."
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

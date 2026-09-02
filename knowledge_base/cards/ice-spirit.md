@@ -494,6 +494,29 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.
 - clock 0:47 to 0:05 (t=126.6, t=157.5, t=161.0, t=168.0): NOT in this deck. Four HUD-only 1-elixir drops in this game were read as Ice Spirit, none with a deploy label or any commentary, in a game whose hand-read confidence averages 0.505. Across the whole video "ice spirit" is never said while "earthquake" is said 30 times with 20 Earthquake deploy labels, so the eighth slot is Earthquake and these reads are misreads of the deck's other 1-elixir cards (Skeletons and Electro Spirit).
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:34, 0:21 and 0:03 (t=1513.5 [10,10], t=1527.5 [6,10], t=1546.5 [12,9]): three Ice Spirits, all on his own half and all part of the defence he narrates as spirit cycling - 'Let's go for the spirits. Help us out on defense' (1513s), 'Let's go for the triple spirits' (1525s), 'Triple spirits. Okay, we're getting some damage' (1543-1546s).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m2.md):
+- clock 1:22 and 1:08: Ice Spirit low on his own half at (16, 7) and (8, 14), doubled up with the Electro Spirit — "E spirits here. Triple ice down low."
+- clock 0:36 and 0:24: moved up to the river at (7, 15) and (11, 14) (elixir 4 -> 3) to freeze ground pushes before they reach the tower.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m3.md):
+- t=1903.7s at tile [15, 14] (far right, at the river) and t=1913.7s at tile [9, 15] (centre river, HUD elixir 2->1) - 1-elixir stalls on the river line in front of the offensive X-Bow while the opponent's Skeleton King, Guards and Baby Dragon were coming down.
+- "Okay, nice. Let's ice spirit then we can go for the E-spirit" (1915-1916s) - the Ice Spirit is the first card of his cheap defensive chain, not an offensive freeze here.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:38-1:33 (t=1938.3 HUD 3.0 -> 2.0, label at [9, 14] later): used as the first, cheapest answer to a Skeleton King crossing lanes — "We have to be very, very cautious. Let's ice spirit here" (t=1939-1940).
+- clock 1:08 and 0:52 (t=1972.4 at [9, 14], t=1983.7 HUD 5.0 -> 4.0, t=1986.4 at [4, 12]): repeated 1-elixir freezes on the single crossers so his 4-elixir cards stay free for the siege — "Let's go for the ice spirit here" (t=1973).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

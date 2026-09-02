@@ -204,6 +204,11 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Opponent's card, and Ryley identifies it as the Evolution variant ("the evo ghost", 920-922s). His standing answer is the Mighty Miner plus an Electro Spirit reset — "we can go for the mighty miner on the evo ghost" (920-922s), "just e-spirit the ghost" (927s), "Mighty miner on the ghost" (1012s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 0:15 (t=2020.4): Royal Ghost at [11, 16] as part of the opponent's last defensive wave alongside Baby Dragon and Electro Wizard; cleared with Arrows at [13, 19] and a Fireball at [13, 18] — "Let's fireball this. Take this all out" (t=2024).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

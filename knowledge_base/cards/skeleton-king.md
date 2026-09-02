@@ -143,6 +143,11 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=283-289, mentioned only, never played): explicitly ruled out as the Mighty Miner replacement — 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight.'
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:12 to 0:05 (t=1962.4 at [8, 18], t=2026.4 at [2, 13], plus repeated tracker crossings): the opponent's main ground threat, but it only ever walks into Ice Spirit, Ronin and Arrows on Ryley's half and never produces damage — "This guy hasn't gotten any damage on us yet" (t=1971).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_King (scraped 2026-09-02T02:35:13+00:00)

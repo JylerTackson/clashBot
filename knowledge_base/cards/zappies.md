@@ -290,6 +290,42 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 1:50: first sighting at tile [0, 17], and the surprise is the point — "Okay, he has Zappies. What the heck is this?" They then appear in both lanes ([12, 24], [2, 21], [6, 15], [2, 15]) and repeatedly show as "tower in ~6-8s" threats that he answers with The Log and Skeletons.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=418.0 and t=456.1 (clock unread): defensive placements at (7, 11) and (8, 9), both beside the Tesla in the centre of his own half.
+- t=437.0 (clock unread): offensive placement at the left bridge, tile (1, 15), pre-announced at 424s — 'I do want to start applying some pressure with these Zappies.'
+- t=424-440 (clock unread): ally Zappies walk the left lane and the enemy left tower falls from roughly 3986 to 2390; at 437-439s he says 'this guy might get cooked by all the Zappies. The Zappy spam is seeming to be a bit too much.'
+- t=422 (clock unread): the opponent also had Zappies on the board in his half, flagged as reaching his tower in 3.6s — 'look at all these Zappies.'
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:38 (t=1509.8): Zappies from the HUD for 4 (elixir 10->6) as the anchor of a defence, one second after Arrows cleared the swarm in front of them.
+- clock 0:14 (t=1535.5): Zappies at [11,8] on his own half against a Mega Knight tracked crossing to the right lane and a Bandit advancing the left - the defensive, behind-the-tower use.
+- clock 1:58 (t=1551.5): Zappies at [9,7] in overtime, played specifically because the opponent's answer was gone: 'Let's go for the Zappies cuz he he did waste that' (1551s). Earlier, at 1524s, he pushed them forward instead: 'Let's just go for the Zappies here at the bridge, guys.'
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m2.md):
+- clock 1:24 to 0:38: five Zappies placed deep on his own half at (9, 8), (9, 9), (12, 8) and (8, 11), behind the towers rather than on top of attackers, as the repeat answer to a Tesla-anchored opponent.
+- clock 1:12, he states the plan: "I'm just going to keep spamming my Zappies down, guys, cuz over time I think we might actually just get through."
+- clock 0:28 and 0:23: once he is chasing damage he pushes Zappies up to (14, 15) and (16, 15) at the river instead of behind the tower — "Zappies again, please take this out."
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m3.md):
+- Three sets in 28 seconds - t=1879.3s (HUD, elixir 5->1), t=1888.7s at tile [8, 10] and t=1907.7s at tile [9, 10] - both labelled placements deep behind his own towers so they have time to charge their shots, never dropped on top of a unit.
+- In this C.H.A.O.S. game a mode modifier turns them into Sparkies, which is the whole pitch for the deck: "We have the three Sparkies" (1876s), "You guys can see just how often we're getting the Sparky, which is so annoying for him. Just applying so much pressure" (1908-1911s).
+- The repeat Zappies invited spell answers - the opponent Arrowed his own half at t=1890.7 ([3, 14], lvl 11) and again at t=1912.7 ([6, 16]), and Freeze landed at [6, 14] at t=1888.7.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:11 (t=1966.4): Zappies at [8, 10] to stop Guards that the tracker had reaching his tower in 1.3 s — "Okay, let's just go for the Zappies. All right."
+- clock 0:55-0:44 (t=1982.4, 1991.9): laid beside the siege lane at [8, 13] and then directly with the new X-Bow at [14, 14] (HUD 7.0 -> 3.0) — "Let's go for another set of Zappies, dude. And that X-Bow is locked on the tower."
+- clock 0:35-0:15 (t=2002.4, 2011.4, 2022.4): rebought at [9, 12], [9, 10] and [11, 10] as the X-Bow's permanent screen — "Let's go for the low Zappies here" (t=2003), "Another set of Zappies. We can go for another X-Bow here" (t=2012).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

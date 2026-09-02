@@ -221,6 +221,34 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=291s and t=832s: the opponent's small spell in this session, read twice by deploy label. No Ryley commentary on it.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:38 (t=1508.5): Arrows at [12,12] on his own half, right lane, as a reactive swarm clear - 'Oh my god, arrows. Fireball arrows, please... look at that. That just nuked everything' (1508-1512s).
+- clock 0:26 (t=1522.5): Arrows at [4,22] - on the opponent's half, left lane - an offensive cast paired with a Zap two tenths of a second later.
+- clock 1:49 (t=1559.6): Arrows at [6,21] on the opponent's half while their Tesla was tracked at [8,21]: 'Let's go for the arrows here on top of this' (1558s).
+- clock 0:15 and 1:56 (t=1533.9, 1552.6): two more Arrows from the HUD (-3 each) during the Mega Knight push and at the start of overtime - five casts in 57 seconds, the most-used card in the clip.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m2.md):
+- clock 1:22: Arrows thrown onto the opponent's half at tile (8, 22) (elixir 6 -> 3) against the enemy's ranged swarm — "Okay, we need the arrows. He has the triple firecrackers."
+- clock 0:49 and 0:40: Arrows again at (5, 23) and (8, 21) as pure tower chip in triple elixir; the (8, 21) cast is the one where the deploy label overrode a disagreeing hand read.
+- clock 0:15 and 0:03: Arrows fired immediately behind each Fireball at (5, 23) and (4, 23) to finish the spell cycle — "Just grab the fireball arrows. Grab the arrows. Fireball. Oh my god, come on. LET'S GO."
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m3.md):
+- t=1901.7s (HUD, elixir 4->1) and t=1906.7s at tile [5, 22] on the opponent's half, over the ground where Guards [7, 20] and the Skeleton King [9, 18] were grouping to defend the bridge X-Bow.
+- Used purely as lane-clearing for the siege building: "Arrows to take this off the board" (1892s) and "Arrows to take this out. Okay, nice" (1913-1915s).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:27 (t=1950.3): Arrows deep on his own half at [7, 2] while Guards and skeletons were on him, i.e. defensive rather than chip.
+- clock 1:08 (t=1970.4): Arrows from the HUD (5.0 -> 2.0) clearing the swarm supporting the Skeleton King push down his left lane.
+- clock 0:52-0:15 (t=1983.4, 2007.4, 2021.4): three offensive Arrows on the opponent's half at [8, 18], [2, 21] and [13, 19] to keep the defenders off the X-Bow — "Arrows here. Just continue applying pressure" (t=2010), "Arrows here. Zappies. Come on" (t=2021).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

@@ -299,6 +299,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 1:22 and 0:48 (t=1452.5 at [14, 13], t=1484.5 at [5, 7], both deploy labels score 1.0): two more Fire Spirits on defence during the Zappies and Graveyard waves, no commentary attached.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:34 (t=1513.8): Fire Spirit from the HUD for 1 (elixir 5->4), played in the same breath as Bats and an Ice Spirit while a Night Witch advanced on his half: 'Let's go for the spirits. Help us out on defense, and we can go for the expo' (1513-1515s).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

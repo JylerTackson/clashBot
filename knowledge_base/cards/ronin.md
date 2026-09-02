@@ -235,6 +235,31 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=361-387s: the Parry as a Golden Knight counter — 'he parries the dash, too. He parries everything... if the parry blocks the dash, then the Golden Knight just stops moving and it doesn't dash the stuff behind it. It's like a Golden Knight counter. Imagine you have your Witch right behind a Ronin. If the Ronin parries a Golden Knight dash, then it won't go to the Witch and the skellies. It will just stop right there.'
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=410.0 (clock unread, C.H.A.O.S. mode): deployed at tile (8, 1), all the way back beside his own King's Tower rather than at the bridge — a slow-built mini-tank body, not bridge pressure.
+- t=408-433 (clock unread): everything he says about the card is about its Parry ability under a C.H.A.O.S. modifier, not the troop — 'he got the Perry that deflects projectiles, which is honestly really broken' (408s), then 'Perry is still broken, of course, but I feel like he wasted a modifier' (427s).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:03 (t=1548.5): Ronin deploy label at [10,8], his own half in the right lane, into a Golem and Spear Goblin advancing that lane - used as a defensive mini-tank, not a bridge threat. 'Let's Ronin here again. He did waste it though' (1548-1550s).
+- clock 0:31 (t=1517.5, mentioned): 'I want to get the Ronin out of cycle' - he cycles the 5-cost deliberately so it is in hand when a push arrives; ten seconds later, 'We need to go for the Ronin. This should help take out everything' (1527-1528s).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m2.md):
+- clock 1:37 and 1:20: Ronin played twice early on his own side, at (5, 13) and at the bridge (10, 15) with the elixir bar at 0 — "We need to go for the Ronin ourselves so this dies quickly" and "We need to go for the Ronin here. Hopefully this can reflect itself, please." He plays him for the Parry reflect, not as a tank.
+- clock 1:04 and 0:49: defensive Ronin in the left pocket at (3, 14) and at (8, 10); he expects more out of the Parry than he gets — "Oh, no, no, no, no, no, no. I did not expect that to die."
+- clock 0:34: Ronin at (3, 13) as the last-chance defensive body while both lanes are under pressure — "Ronin here again. We have a chance. We have stuff on both sides."
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:35 (t=1942.3): Ronin at [3, 14] on his own half as the mini-tank answer to a Skeleton King tracked crossing into his left lane — "Let's ice spirit here. Let's go for the Ronan" (t=1940-1942).
+- clock 0:05 (t=2028.4): second and last Ronin at [9, 15] on the bridge in the final seconds as extra pressure while the X-Bow finished the tower; no commentary on this one.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ronin (scraped 2026-09-02T02:35:13+00:00)

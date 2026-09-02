@@ -233,6 +233,16 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=765-769s: a specific interaction he calls out while losing tower HP — "Whenever a Mega Knight throws something, Mortar and X-Bow lock onto the tower. That's only two shots, but you know, I was hoping to take no damage."
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=422-423 (clock unread): mentioned only — 'Let's Mega Knight the bridge here' — with no matching play event and his elixir reading 2 at the time; not treated as a deck card in this clip.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:17 (t=1532, mentioned): a Mega Knight is tracked at [14,14] crossing lanes toward him while a Bandit advances the left; Ryley reacts to it as the moment the game turns - 'Oh, no, but the jumping Mega Knight' (1530-1532s). He never plays the card himself.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)

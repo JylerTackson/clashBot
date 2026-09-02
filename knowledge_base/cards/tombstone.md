@@ -275,6 +275,11 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=433-443s (commentary only, no events in that stretch): with a C.H.A.O.S. modifier the Tombstone spawned Wall Breakers, which Jynxzi called out as 'you just get infinite wall breakers'; at t=355s a modified Log 'just like killed the whole tombstone'. Modifier behaviour, not the base card.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 0:56, 0:44 and 0:28 (t=1978.4, 1990.4, 2006.4): the opponent re-lays Tombstone at [8, 18]/[8, 19] three times to pull the X-Bow off the tower; Ryley Fireballs it at t=1978.4 — "Take out the tombstone. Beautiful" (t=1981) — and simply out-cycles the later two.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

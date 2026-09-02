@@ -597,6 +597,30 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t=1553.6, tile [6, 11]): the cheap answer to the Evo Skeleton Army skeletons - "We just e-spirit here take out the skeletons" (1553-1556s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=425.2, 430.0, 440.4, 445.2 (clock unread): four uses in twenty seconds, the deploy-labelled ones at (3, 14) and (2, 14) in his own left pocket against enemy Zappies walking that lane; the cheap glue that let him cycle back to the Fireball.
+- t=448 (clock unread): on the chain hitting more than he expected — 'it's chaining back, but it's fine.'
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m2.md):
+- clock 1:22 to 0:08: five Electro Spirits, every one of them in the column-9/10 corridor directly in front of his own towers ((9, 11), (9, 14), (10, 9), (9, 12), (9, 10)) — a defensive reset and chain-stun, never a cycle throw-away over the bridge.
+- clock 1:38 and 1:24: paired with Ice Spirit as the cheap opener to a defence — "Let's go for the spirits", "E spirits here."
+- clock 0:08: HUD-confirmed at elixir 3 -> 2 at (9, 12) while defending a Firecracker push in the last ten seconds.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m3.md):
+- t=1873.7s at tile [8, 10] (own back half) and t=1891.5s at tile [7, 15] on the river (HUD, elixir 2->1) - cheap stun/cycle plays woven into the X-Bow cycle rather than answers to a named push.
+- He sequences it explicitly with his other cheap cards at 1915-1918s: "Let's ice spirit then we can go for the E-spirit then we get another set of Zappies down."
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:31 to 0:20 (t=1947.3, 1979.4, 1996.4, 2006.4, 2017.4): five Electro Spirits, every one thrown at the river line ([2, 15], [14, 15], [12, 15], [11, 15], [13, 14]) to stun the defenders collecting in front of a newly-placed X-Bow. No commentary on the card in this clip.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

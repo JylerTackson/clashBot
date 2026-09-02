@@ -156,6 +156,11 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=1164-1167s (clock unknown): on the opponent's list — "they used to run like Sparky, Hog, and Balloon, but now he only has Hog and Sparky. Kind of crazy."
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:19 and 1:47 (t=1530, 1561, mentioned only): Ryley calls out Sparkies twice in the C.H.A.O.S. game without ever playing the card - 'Look at the Sparkies' (1530s) and 'Oh my god, the Sparky [Tor]nado combo. Dude, lock on Sparkies' (1561-1563s), the transcript's 'NATO' almost certainly being 'nado'.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Sparky (scraped 2026-09-02T02:35:08+00:00)

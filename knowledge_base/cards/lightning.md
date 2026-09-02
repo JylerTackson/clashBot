@@ -331,6 +331,11 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Against a log-bait deck with Inferno Tower he treats Lightning as a repeatable chip plan, not a one-off answer - "I can just continue lightning his inferno towers over and over again. Sometimes even like lightning his firecrackers and stuff cuz there's no reason not to" (1421-1427s). Four casts each take exactly 423 HP off the enemy right tower (4858 -> 4435, 3727 -> 3304, 3304 -> 2881, 2881 -> 2458), roughly 1700 of the 2400 damage he does all game.
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- Mentioned only, never seen: at clock 1:33 (t=1944), with a Ronin and spirits committed on defence, he says "Please don't lightning my stuff" — the spell he fears against a siege setup that clumps Zappies, Tesla and X-Bow together.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

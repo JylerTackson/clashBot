@@ -276,6 +276,11 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - clock unknown (t~1483): its Wind Gust sped his own Mighty Miner past the Tornado - "that's none cuz the baby dragon made the mighty miner walk super fast. Beautiful" (1483-1485s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:30 to 0:03 (t=1944.3 and 1988.4 at [11, 17], t=2020.4 at [7, 16], t=2032.4 at [1, 15]): the opponent's only reliable air answer to Zappies; it is played four times but always in front of their own tower, and Ryley never spends a card on it directly.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)
