@@ -59,7 +59,7 @@ class PlayDetector:
     recent_group: dict[str, float] = field(default_factory=dict)
 
     # ------------------------------------------------------------------ HUD
-    EMPTY_WINDOW = 2.5      # seconds an emptied slot stays a play candidate
+    EMPTY_WINDOW = 12.0     # a lifted card can be held for many seconds before placement
     DROP_WINDOW = 0.45      # seconds over which the bar's drain animation is summed
 
     def update_hand(self, t: float, hand: list[str | None], hand_conf: list[float], min_conf: float = 0.5) -> None:
