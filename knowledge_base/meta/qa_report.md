@@ -120,3 +120,12 @@ video commentary the Hero Ice Wizard ability costs 2 elixir (unverified against 
 wiki). Re-run `scripts/kb/enumerate_cards.py` + `fetch_cache.py` once the wiki pages
 are filled in; the enumerator only reads the `Heroes` list table, so add a probe of
 `<card>/Hero` pages if the list keeps lagging.
+
+## Card coverage gap: Minion Giant (noted 2026-09-02 during Phase 4)
+
+Ryley's video `CInrqMTlVkg` ("Minion Giant is the Most OVERPOWERED Card!!") is built
+around Minion Giant, which is not in the `Card Overviews` list and whose wiki page is a
+stub ("Coming soon..."). There is no `cards/minion-giant.md`; the hand reader reads the
+card as Giant and the unit detector cannot see it. Match files for that video name it
+in prose only. Same situation for `Spirit Empress`, `Boss Bandit`, `Ronin` and
+`Rune Giant` should be checked when the wiki catches up (pages exist; content not verified).
