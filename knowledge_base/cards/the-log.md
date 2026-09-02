@@ -227,6 +227,20 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 0:20: used again in the same triple-elixir defensive rotation - "Beautiful defense. Log here."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:42 (t=1002.3): The Log at [3, 14] over the skeleton line the Fire Spirit had already softened.
+- clock 2:00-1:54 (t=1044.5): logs the Barbarians that land at [3, 14] on his own half behind a Miner.
+- overtime 0:27 / 0:20 (t=1257.3, 1265.3): The Log at [3, 14] and [2, 13] against the left-lane skeleton and Musketeer pressure while both towers are under 2500.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 1:29: The Log at [3,11] on his own half into the left-lane ground push, not at the bridge.
+- clock 0:57 and OT 1:33: uses it again defensively at [13,9] and [14,7] to clear the ground support walking with the Electro Giant.
+- clock OT 1:51: The Log at [5,15] at the left river as part of the overtime chip cluster on the enemy left tower.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

@@ -108,6 +108,13 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:34: Ryley answers it with the building, not with troops — "we need to go for a high [Hog] cannon here as well just to make sure that we take out that Rune Giant", and again at clock 0:14, "we need to go for a high up [Hog] cannon just to distract the Rune Giant, and I think we got it, guys."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 1:17-1:11 overtime (t=535.5-541.5): the opponent's Rune Giant goes down at the back with an Archer Queen-class unit alongside; Ryley meets it with Tornado (t=533.2), Archers at (10, 9) (t=537.0) and a fresh Bomb Tower (t=544.0) rather than a heavy answer.
+- Commentary at 530-555s, as it lands: "doing a rework to the finest card in Clash Royale, the Rune Giant. And I don't know about this. Rune Giant has been buffed by 6%... The enchantment time now is instant instead of taking 1 second... and Rune Giant no longer enchants kamikaze troops. I actually have no idea what that means."
+- He flags the wording as genuinely unclear (555-570s): "I wish I could get some clarification on what kamikaze troops mean cuz that's like something that's been confusing me... maybe that means like it won't enchant like, I don't know, like the Goblin Demolisher."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rune_Giant (scraped 2026-09-02T02:35:01+00:00)

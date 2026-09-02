@@ -147,6 +147,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Faced, not played: deployed by the opponent at clock 2:07 at tile (5, 27) and again at clock 0:44 at (1, 24), each time paired with a P.E.K.K.A. behind it. Ryley's answers are Royal Delivery and Tornado at clock 1:36 and the full Magic Archer/Archers/Royal Delivery/Tornado stack at clock 0:45-0:40.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A. (scraped 2026-09-02T02:34:51+00:00)

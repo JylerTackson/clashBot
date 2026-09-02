@@ -98,6 +98,20 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2
 - Not a card in his deck this game — every Fire Spirit on the board is a Furnace spawn. He counts their chip as the payoff for holding a Furnace stack: "obviously we got more with the fire spirit, so I'm fine with taking that" (clock 0:25) and "I just want to tank for this fire spirit" (clock 0:08).
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:47 (t=997.5): Fire Spirit at [3, 13] with The Log behind it at 2:42 to wipe the enemy skeletons walking into row 13 on the left.
+- his standing answer to Graveyard skeletons and swarm chip for 1 elixir - [1, 3] 2:16, [15, 13] 1:52, [16, 13] 1:30, [8, 5] overtime 1:47, [6, 9] 0:57, [4, 12] 0:44.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 0:50 then 0:48, and OT 1:19 then 1:18: doubles Fire Spirits back to back when one is not enough to clear the support around the Electro Giant.
+- clock 2:44 / 1:17 / OT 1:54 / OT 0:58: also used offensively at the river on the left ([2,14], [3,15], [2,15], [8,15]) as one-elixir chip alongside the Wall Breakers pressure.
+- clock 0:50 and OT 1:33: defensive placements at [12,12] and [13,8] on the right, directly into the Electro Giant push.
+- 1533s: mentions them in the patch notes — "the fire spirits obviously right are getting that big nerf where they don't connect to the tower which heavily affects the furnace."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

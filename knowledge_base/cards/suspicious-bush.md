@@ -157,6 +157,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - Ryley gives no commentary on it in this game; it is one of the three cheap bait cards (with Goblin Gang and Dart Goblin) that make this an Ebarbs/Berserker bait shell.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1474-1499s: mentioned only (the single 'SuspiciousBush' own deploy label at t=1481.7 coincides with this line and is treated as suspect). "It will be getting an 11% damage buff, which is cool. I do feel like that ever since bush got that most recent nerf, it did fall out of the meta for sure... bush was like a top two most annoying card in the game outside of recruits."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Suspicious_Bush (scraped 2026-09-02T02:34:57+00:00)

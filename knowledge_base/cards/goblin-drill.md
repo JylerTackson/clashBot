@@ -120,6 +120,17 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - clock 2:33 (mentioned, not played): his comparison for how oppressive an unreleased card feels — "It really does remind me of Goblin Drill in its prime, where you really just replaced every single win condition with the Minion Giant."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=879-885): named as one of the cards that gains from the 4% Goblin damage buff, alongside Goblin Barrel and Goblin Gang.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- 'Goblin Drill' deploy labels at [9, 11] at t=1146/1149 coincide with the balance-change graphic for the card, so the play is not independently confirmed.
+- t=1144-1183: 'they're also taking away the crown tower damage from the Goblin Drill. So now there will no longer be any guaranteed damage from just dropping a Goblin Drill on the tower and I am not too sure if I agree with this... I personally think that it is just too much and maybe might need to be reverted in the future if the Goblin Drill usage rate drops too low.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

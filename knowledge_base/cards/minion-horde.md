@@ -131,6 +131,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:59: answered with Princess — "Princess here for the horde."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1380-1400s: mentioned only (not played). On the Evolved Minion Horde — "The hit speed slow down is now going from 50% to 33%... whenever the Evo minion horde gets damaged out to it, it will go invisible, but the hit points will be slowed by 50% now. That will only be 33%, so the minion horde will just do a lot more DPS while being slowed down."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minion_Horde (scraped 2026-09-02T02:34:48+00:00)

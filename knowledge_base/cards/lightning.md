@@ -201,6 +201,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
 - OT 0:46: the [15, 24] cast lands beside the opponent's right tower, which then drops from 3881 to 1460 by t=476 and to 1012 by t=484 — the sequence that decided the game. He never mentions the spell; the commentary at that moment is about Electro Spirit's chain range.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — named at 678-687s as the benchmark the buffed 5-Elixir Void is measured against: 'a lot of cards in the game that were only able to be taken out by the six Elixir spells like Rocket and Lightning and Clash Royale just wants like experiment with having a lower Elixir cost than six on the spells, but also taking out those units, but not being as effective overall.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

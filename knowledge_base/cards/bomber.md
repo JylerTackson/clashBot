@@ -122,6 +122,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 1:31, 0:47 and OT 1:20: opponent Bomber supports the pushes on both lanes; Ryley's Bats and Magic Archer, both air/ranged, sit outside its splash.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

@@ -116,6 +116,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - Mentioned, not played (clock ~2:12): used as the reference point for why a dash/splash unit belongs in bridge spam — "That's why with golden knight, it's so good with bridge spam because they always have to line their cards up. You can get good dashes." He then says the Heroic Valkyrie does the same job "probably even a little bit better".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Mentioned only, not played by either side. t=226-234s, on the Ronin bug fix: "if you had a golden knight dashing onto a ronin, it would actually get reflected and the Gold Knight would not dash onto anything. I thought that was intentional, but apparently it was a bug." — i.e. after the fix, Golden Knight's dash should behave normally into Ronin.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

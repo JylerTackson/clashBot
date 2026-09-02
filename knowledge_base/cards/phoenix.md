@@ -94,6 +94,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:31 - OT 0:56: the opponent's Phoenix flies both lanes all game and a phoenix-egg is tracked at [7,15] at OT 1:38, so it died and revived; Ryley's air answers are Bats and Magic Archer.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Phoenix (scraped 2026-09-02T02:35:30+00:00)

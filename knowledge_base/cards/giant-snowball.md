@@ -169,6 +169,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:57 (t=117-126): mentioned only as a card the deck lacks — "I don't have like a zap or a snowball to bring them down to the ground or even a building for that matter," said about the opponent's evolved Royal Hogs.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=928-946): the evolution's roll range "is now 4.5 to 4. So the Evo snowball just won't be grabbing as many units and throwing them as far back as it was before, which I definitely think is a very good change cuz the Evo snowball was kind of just like a ridiculous card anyway in my opinion." (A HUD read also assigned him a Giant Snowball play at t=949.8; that is treated as a hand misread, not a play — see the match file's Data gaps.)
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

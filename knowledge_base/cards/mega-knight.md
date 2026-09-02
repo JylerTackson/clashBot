@@ -178,6 +178,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - end of video: he names the whole list after it — "We just hit 3K with mega knight log bait. There's no way."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=1031-1057): Evo Mega Knight 'will now knock back every other attack instead of every attack' and the heavy-troop knockback goes from 2.5 to 4 tiles - 'it will knock the troops back further, but it won't knock them back every hit like before, making it quite a bit less polarizing.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)

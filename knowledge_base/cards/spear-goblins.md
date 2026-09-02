@@ -120,6 +120,11 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.m
 - Opponent's card. Handled with a pre-emptive Log rather than a reaction — 'we can go for a pre-log on top of the spear goblins' (151s, Log at [3, 15] clock 0:20) — and he expects them as a side-lane chip finisher: 'He could spears off the side' (287s).
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1436-1440s: mentioned only in this game (the two 'SpearGoblins' deploy labels at t=1437.6/1440.6 coincide exactly with the commentary and are treated as suspect). "They're also buffing the spear goblins by 6%. They're making it hit quicker."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

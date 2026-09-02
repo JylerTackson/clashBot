@@ -101,6 +101,13 @@ Not specified on source page
 
 This card has an evolution: see [royal-recruits-evolution.md](../evolutions/royal-recruits-evolution.md). Cycles to evolve: 1. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1497-1499s: mentioned only (not played). Uses Royal Recruits as his benchmark for annoyance — "bush was like a top two most annoying card in the game outside of recruits."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Recruits (scraped 2026-09-02T02:34:44+00:00)

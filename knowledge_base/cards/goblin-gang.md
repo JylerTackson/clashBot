@@ -168,6 +168,17 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 0:32 and 0:18: Goblin Gang at [16, 7] (3-elixir step) and [6, 8] as the damage layer behind the Knight/Log against the second and third Battle Rams - "We can go for the Goblin Gang and then we go for another Inferno Tower here."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=883-887): "all those types of cards that just have any type of Goblins like Goblin Gang" also pick up the 4% Goblin damage buff.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1443-1458s: mentioned only (not played). "What is happening to the goblin gang? Because the goblin gang got two buffs with the goblins and the spear goblins. So, goblin gang is going to be looking extremely strong next season... they never really like mentioned the fact that goblin gang got two like inherent buffs out of this balance change."
+- 1464-1473s: "the goblin gang itself I always thought was a solid card. Just that Evo skeleton army was kind of like overshadowing it. Maybe it helps bridge those two cards a little bit more."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

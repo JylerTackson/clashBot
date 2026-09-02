@@ -128,6 +128,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - Mentioned only (never detected): the opponent's Mega Minion in the opposite lane is what delays Ryley's Inferno Tower - "This is a good Mega Minion though. I am going to end up being in a pretty weird situation here with him having a Mega Minion in the other lane cuz I can't really defend properly until that gets taken down" (clock 1:05-0:58). He also expects its ability on the Graveyard/push at clock 0:52: "He might go for the Mega Minion ability on top of it."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — discussed at 694-712s, about the Hero variant: 'they are doing a rework to the hero mega minion. They are making the hero mega minion have a tower damage reduction from 15% to 27% which I very much agree with that. There was nothing more annoying than just having a hero mega minion just completely destroy your tower. I hated that so much man.' At 713-719s: 'the tower damage reduction is from 5 seconds to now permanent.'
+- 721-742s, on the teleport: 'they are changing the teleport damage from 373 to 399 which is a 7% buff which I think is fair cuz they did definitely hurt the mega minion all over the board... before this mega minion was not able to take out a lot of units with a mega minion plus a spell. But now it will actually be able to do that making it a lot better offensively but not like as annoying against crown towers.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

@@ -149,6 +149,33 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - overtime clock 0:50 (video 1065.1s, tile (9, 7)): third repeat of the identical placement, part of the scripted defence he narrates - "And then we can go for a nice tornado here ability as well. And we go for the barbarian barrel. Just make sure that we take this all out" (1064-1070s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 0:31: the defensive clump — cast (elixir 5 -> 2) into a P.E.K.K.A. + Mini P.E.K.K.A. + Battle Ram Evolution wave with the Bomb Tower already down at [8, 10], the deck's core defensive pairing.
+- clock 2:24: an early deep cast at [10, 5] well inside his own half, pulling a left-lane Battle Ram push into tower range.
+- OT 0:43 and OT 0:05: two casts at [14, 20] on the OPPONENT'S half while his Wall Breakers were running — used to drag defenders off the runners rather than as a defensive spell.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 2:42 (t=331.5): cast at (9, 12) in his own half onto two Skeletons that had split down opposite lanes, immediately before a Magic Archer at (8, 11) — the clump-then-pierce pairing.
+- clock 1:52 (t=382.7): cast at (15, 14) as the opponent's Battle Healer push builds, together with a Berserker at (16, 7).
+- clock 0:52 overtime (t=559.6): cast at (15, 12) directly on top of a Bomb Tower placed at (15, 4) two seconds earlier, holding the right lane through the last minute.
+- Only one of six casts lands on the opponent's half — (4, 19) at t=585.6; in this match Tornado is purely a defensive grouping tool.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock ~2:32 at tile (4, 13), clock 1:42 and clock 0:40 (both HUD 5 -> 2): three casts, all defensive and all in the single lane he is being attacked in, against Royal Ghost, Miner and a Mini P.E.K.K.A./P.E.K.K.A. push.
+- Each Tornado is paired with a Royal Delivery or Bomb Tower within about two seconds (clock 2:32 Tornado (4, 13) + Royal Delivery (2, 8); clock 0:42-0:40 Royal Delivery + Bomb Tower (8, 10) + Tornado) — the clump-then-splash pattern the card is built for.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:36 (t=811.8): Tornado at [9, 9] in the same window as Bomb Tower and Berserker against an advancing Royal Ghost.
+- clock 0:34 and 0:22 (HUD 8.0 -> 5.0, 6.0 -> 3.0): two Tornados in the last 25 seconds of regulation while Guards and a Ram Rider converge from both lanes, each paired with the Bomb Tower or a Royal Delivery on the same tiles.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

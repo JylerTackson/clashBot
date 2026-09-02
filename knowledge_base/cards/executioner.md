@@ -120,6 +120,16 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.m
 - OT 0:43: answered with a Bandit when it walked at his tower — "Bandit here on the Executioner so we don't lose our tower." He also calls a mis-timed one by the opponent at OT 0:58: "Okay, bad Executioner."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Opponent card, not his: labels at [13, 16] (t=894.9) and [8, 12] (t=981.0, on Ryley's half). It is the only enemy card he reacts to on air — "Oh my god, that executioner's going stupid" (t=948) — spoken while his left tower is being ground from 4073 down to 1900.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=1105-1140): projectile range 7.5 -> 7 alongside the Bowler - 'the Executioner and the Bowler would just end up becoming your win condition. So hopefully with this they are now more used for their purpose instead of just being extremely broken.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

@@ -153,6 +153,17 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - OT 1:55-1:52 (t=666-672): once it is spent defensively the game flips — "he wasted his Ice Golem, which is super good because now with no Ice Golem, obviously, he's not going to be able to defend the Mega Knight as well."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Mentioned only, and specifically the Hero variant, not the base card; not played in this match. t=279-296s: "they're actually doing a rework to the hero Ice Golem. Instead of having a freeze effect, you know, like the freeze spell, they are now just having it do three different slow downs and in my opinion, that is very good because I do think that the hero Ice Golem was very, very good and way too good against units that it was bad against."
+- t=297-313s on the old ability and the new damage: "If you had a deck where you couldn't really defend their Hog Rider, they popped the ability, they get like five hits, there's nothing they are able to do, but because they are taking away the freeze effect, they are actually making it do way more damage, significant more damage. It will actually be able to take out Goblins, Minions and stuff like that."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- the opponent's recurring push tank, first paired with Musketeer in the right lane at clock 2:19-2:03 and then repeatedly down the left in overtime (t=1220, 1266, 1279); Ryley answers with Bomb Tower plus The Log rather than committing a counter-push.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

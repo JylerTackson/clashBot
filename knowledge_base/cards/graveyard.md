@@ -164,6 +164,23 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - clock 0:53: a medium-confidence read of a Graveyard on Ryley's half at tile [8, 2], seconds before he places Inferno Tower at [8, 9] and Princess at [8, 5]. He never names it, so this is observation only and may be a mis-detection.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Opponent play at 1:57 ([9, 3]) and again at 0:03 ([8, 3]), both in front of Ryley's King's Tower and both inside his Bomb Tower's cover.
+- Both are answered within two seconds by a Bomb Tower rebuild (1:57, elixir 9 -> 5) or a Magic Archer, never by a spell.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:25 (t=1020) at [7, 0] and clock 1:03 (t=1101.1) at [9, 1], both on Ryley's left tower; both are beaten by Bomb Tower plus Fire Spirit and Archers, with no tower HP change recorded on the first.
+- t=1090, on the Evo Valkyrie tornado-damage nerf: 'graveyard gets a pretty big indirect buff there because of that.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:27, 0:57, 0:10 and OT 1:42: the opponent drops Graveyard on Ryley's half at [8,2]/[8,1] four times; Ryley answers with Bats deep at [16,1]/[8,5] and the splash of the centred Bomb Tower, and never loses a meaningful chunk of tower to it.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

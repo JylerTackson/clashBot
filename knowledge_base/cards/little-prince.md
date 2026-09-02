@@ -130,6 +130,13 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0
 - clock 1:43-1:12 (opponent): walked the left lane and was redeployed twice; Ryley answered with Skeletons plus tower rather than a card of his own — "Let's go for the skeletons here just to bring this up. Make sure we take this out" (74-76s).
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Mentioned only, not played by either side (a `LittlePrince` deploy label at [8, 9] at t=140 is on-screen balance-change card art picked up by OCR, not a play).
+- t=134-160s: "they are actually buffing the little prince. The little prince is getting a very strange balance that I've never actually seen in the game before... Do you know how like the little prince gets reset every single time it moves? Now it has a 0.3 second window where it can move but not be reset. It has to be moving for more than 0.3 seconds for it to be reset to lose that maximum charge."
+- t=161-175s on why it matters: "the little prince just when it would move, it would just become so bad. And more often than not, you wouldn't be able to charge it up more than one time every time you had it down. And it just would make it so it just did not get enough value simply. And it should be a lot better." He adds that the Guardian gets "a 7%" damage buff, "which I guess is cool... but I don't know if it was really necessary."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

@@ -158,6 +158,17 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:50-1:55: with no answer left he plays around it by hoping for a miss and by distracting it with a bridge Skeleton Army — "Okay, please don't lock on my tower. Mortar, miss one more time", "just to distract the bowler and the mortar."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — discussed at 769-796s: 'the hero and the evo versions of these cards were very much overshadowing the regular version. So they are nerfing the... evolved mortar hit speed from 4 seconds to 4.7 seconds but they are changing the regular mortar hit speed from 4 seconds to 4.7 seconds. So now they are equal instead of being different.'
+- 754-767s, his overall reaction to the Mortar/Barbarians/Goblins batch: 'truthfully this is the one that I am most unsure about to be honest cuz there's just so many different things that are being affected at once and I really don't know how I agree with this.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=887-891): the Evolved Mortar benefits from the Goblin damage buff too — "even the Evo Mortar Goblin as well will do a little bit more damage cuz the Evo Mortar does spawn that little Goblin."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

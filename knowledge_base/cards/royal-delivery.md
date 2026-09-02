@@ -148,6 +148,37 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - OT 1:59 / 1:10 / 0:30 (t=693.0, 745.1, 775.9): three HUD-confirmed 3-elixir Deliveries in overtime, roughly one per opponent push, in a deck whose only other air answer is the Archer Queen.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 1:54: dropped at [12, 13] straight onto the path of a Battle Ram and Electro Wizard that the tracker had 4.6 s and 6.3 s from his right tower — the tower then holds at 4160 for the next 20 s.
+- clock 2:32 and OT 1:39: reactive drops at [6, 14] and [14, 13], always in the lane of a single committed attacker and always with the Bomb Tower already placed behind it — six uses in all, entirely defensive.
+- OT 1:18: laid at [12, 14] as the opponent's second Ronin comes down at [8, 29], the answer to a bridge-crossing melee threat.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Four labelled drops, all defensive: (15, 8) twice, (2, 9) at t=464.0, (13, 15) at t=547.5 and (14, 10) at t=593.6 — never on the opponent's half.
+- clock 0:28 (t=464.0): dropped at (2, 9) onto a left-lane threat the tracker had been holding on that tile, with a Bomb Tower already at (9, 9) — the building-holds-them, drop-cleans-up pattern.
+- clock 0:50 (t=441.6): played inside the big triple-elixir defensive stack alongside Magic Archer, Archers, Berserker and Goblinstein.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Five uses, all on his own half: (2, 8) at clock ~2:32, (4, 14) at clock 1:36, a HUD 7 -> 4 at clock 0:42, (7, 13) at clock 0:34 and (15, 10) at clock 0:19 — his standing answer to whatever has already crossed the river (Royal Ghost, Miner, Mini P.E.K.K.A.).
+- clock 2:32 and clock 0:42: lands within two seconds of a Tornado both times, and at clock 0:42 also alongside a Bomb Tower — Tornado clumps, Royal Delivery and the Bomb Tower splash.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 1:09, 0:59 and 0:23 (t=897.9, 908.9, 944.9): three labels all on the same left-lane river tile [5, 14]/[5, 15], the lane the opponent's Ram Rider and Guards keep using.
+- overtime (t=968.1 HUD 4.0 -> 1.0, t=977.8 HUD 3.0 -> 0.0): spends it twice in the first ten seconds of overtime while defending a Miner at [7, 8] and an Executioner at [8, 12] on his own half, emptying his elixir bar both times.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only; the 'Royal Delivery' deploy labels at [13, 3] (t=1272/1275) coincide with the on-screen balance graphic and are not treated as a play. Commentary t=1269-1287: 'Royal Delivery has just been too good for too long now and it's kind of like the staple of all of these decks that have like crazy cycle cards and shouldn't really get away with it... making it so impossible to break through.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

@@ -137,6 +137,35 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.m
 - Opponent's card. Ryley never waits for it: Goblin Gang goes down pre-emptively at clock 0:35, 0:14 and 0:42 overtime — 'Let's Goblin Gang predict the miner again. Nice, good prediction' (138-140s), 'gang predict the miner again' (158s), 'Gang here for the miner' (255s) — with Ice Spirit as the follow-up ('We ice spirit here for the miner', 237s).
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Opponent's engine in this match: labelled deployments at 1:27, 0:51, 0:42 (at [8, 0], behind Ryley's King's Tower), 0:24 ([13, 7]), OT 1:54, OT 1:12, OT 1:10, OT 0:48 and OT 0:07 — at least eight in a 315 s window.
+- Ryley never spends a spell or a hard counter on one; the plays that line up in time are Wall Breakers into the other lane (1:27, 0:23) and simply letting the Bomb Tower and crown tower handle it.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- The opponent's chip engine: eight deploy labels between t=396.4 and t=603.6, roughly one every 25 seconds, and the likeliest source of the small unattributed tower losses (e.g. t=551.6, own right tower down 229 HP with no enemy unit in range).
+- Ryley never answers the Miner with a dedicated card — the Bomb Tower / Archers / Magic Archer core already sits in the centre of his half, so the chip is simply absorbed while he out-damages it with Wall Breakers.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Faced, not played: level 16 Miner used repeatedly for chip — clock 2:42 at tile (10, 13) on Ryley's right side, clock 1:42 at (3, 10) on his left tower, and two more labels at clock 0:58 and 0:54. Ryley answers only the left-lane ones (Tornado + Berserker + Royal Delivery at clock 1:42-1:36) and lets the right-lane Miner chip away.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- the opponent's engine, played essentially on cooldown at level 16 (t=1014, 1015, 1044, 1064, 1067, 1091, 1094, 1125, 1126, 1137, 1183, 1186, 1222, 1225, 1244, 1258, 1267, 1278), mostly at rows 23-28 behind the arena and occasionally onto Ryley's half at [13, 10] (clock 2:31).
+- Ryley never spends a big card on it: Skeletons, Bats or Fire Spirit go on top and the Bomb Tower absorbs the rest.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:40: opponent Miner at [13,4] on Ryley's half; he answers with Bats at [14,13] in front of the right tower.
+- clock 0:05 and OT 1:38: further Miners on his half at [12,5] and [11,11], both met with cheap bodies (Skeletons/Bats) rather than a spell.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

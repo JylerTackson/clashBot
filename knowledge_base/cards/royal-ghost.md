@@ -146,6 +146,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - clock 1:55: the one time he committed it under pressure it was a concession, not a counterattack — "We'll just go for the ghost here. Take a bunch of damage."
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Faced, not played: tracked on Ryley's own half at tile (3, 13) at clock 2:37 and again at (13, 17) at clock 1:32, and on his right tower at (14, 6) at clock 0:13. His answer at clock 2:33-2:32 is Goblinstein (6, 8) plus Tornado (4, 13) plus Royal Delivery (2, 8), an 11-Elixir defence that still leaves the left tower at 2949 HP.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

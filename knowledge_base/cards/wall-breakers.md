@@ -155,6 +155,51 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.m
 - Opponent's card (Evolved). Ryley's whole answer is The Log timed on the bridge plus a chip from Ice Spirit or Knight: 'I'll just go for the log here on top of the wall breakers' (67s) and 'if the wall breaker gets hit then we would obviously be able to just take it out with the log' (124s); logs land at [3, 15] at clock 0:55 and 0:52.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 2:02: sends them at [8, 15], the dead-centre river tile, which splits the pair into both lanes — the awkward-to-answer middle placement, and his first offensive commitment of the game.
+- clock 1:27: bridge pair at [3, 14] the moment the opponent commits a Miner on their own half at [2, 28] — he punishes the elixir spend in the other lane rather than answering the Miner directly, and does the same at 0:23 ([13, 12]) against a Miner at [13, 7].
+- OT 1:00 to OT 0:08: four more sends ([2, 14], [9, 11], [12, 10] and one HUD-only at OT 0:37) always unsupported — no Miner, no spirit, no Rage — which is consistent with the deck carrying no Wall Breakers support card, and with the opponent's towers only bleeding slowly all game.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- The deck's only offence: nine deployments, always sent when the opponent has just committed elixir elsewhere. clock 1:19 (t=415.4) at (4, 13), two tiles short of the left bridge, into an opponent sitting on a full 10 elixir.
+- clock 0:45-0:43 overtime (t=566.9, t=568.7): a double send at (15, 15) and (14, 15) on the right river, immediately after Berserker + Bomb Tower + Tornado had cleaned the lane; the enemy right tower falls 2677 -> 2119 -> 1825 over the next four seconds.
+- He alternates lanes rather than repeating one: (4, 13) twice and (2, 14) twice on the left, (15, 15), (14, 15) and (13, 15) on the right.
+- Net effect over the match: enemy towers end on 366 and 807 from 4858 with no tower ever destroyed, which wins the overtime tiebreaker.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock 2:47 and 2:42: opens the game with back-to-back Wall Breakers, the first at tile (4, 14) just left of the bridge (10 -> 8 then 9 -> 7 Elixir), with no tank and no spell support — in this deck they are the whole offence.
+- clock 2:20, 1:51, 1:17 and 0:55: sends them again at (8, 13), (14, 8) and (4, 15), each time immediately after a defence has absorbed a P.E.K.K.A. bridge-spam push; the enemy left tower steps down 4858 -> 3351 -> 1665 HP across those windows.
+- He pairs them with a Berserker at the river rather than a tank: Berserker deploys at (8, 13), (2, 14) and (7, 14) land within seconds of a Wall Breakers drop. No commentary — the whole game is a balance-change read-through.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:47 (t=801.5): opens the game with Wall Breakers on the left river tile [4, 14] (HUD 10.0 -> 8.0, deploy label score 1.0); the opponent spends Guards at [3, 18] six seconds later, a 3-for-2 trade in Ryley's favour.
+- clock 1:23 (t=884.9) and clock 0:27 (t=939.9): replays them at the bridge while his defence is already committed — left lane [4, 15], then switching to the right-lane bridge tile [14, 15] just as the enemy right tower starts dropping (4654 -> 3722 across t=944-950).
+- Cycled roughly once per rotation: 7 HUD reads in 190 readable seconds, always alone as chip rather than as part of a push. He gives no commentary on the card in this game (the audio is entirely balance-change narration).
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:43 (t=1001.0): opens with Wall Breakers at the bridge in the left lane, tile [5, 14], immediately followed at 2:36 by a second pair at [8, 0] behind his own king tower purely to cycle - the two-use pattern he repeats all game.
+- clock 1:38 (t=1066.1): Wall Breakers pair at [4, 15]; the enemy left tower drops 4616 -> 4056 (560 damage) at t=1074, the biggest single chunk of the match.
+- overtime 1:41 / 0:52 (t=1184.0, 1229.2): keeps cycling them at [2, 14] and [3, 15] in overtime, and twice sends them into the right lane instead ([12, 15] t=1178.2, [10, 11] t=1189.2) once the opponent's defence has committed left.
+- t=1184-1212 on the nerf while holding them: 'The Wall Breakers damage is being nerfed by 20% mainly to just make it not so punishing... they're two elixir and they take out like a fourth of your tower... they will literally lose you the game if they connect to the tower like two times. That was definitely far too strong.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:42: plays Wall Breakers for 2 while the opponent's Electro Giant push is building; the enemy right tower then drops 4858 -> 3632 over the next 15 seconds, about 1,200 damage from both breakers connecting.
+- clock 1:18 / 0:57 / 0:38: repeats the same left-bridge tile [4,14] and [3,14] three times in double elixir, taking the enemy left tower 3239 -> 2536 while the opponent is committed to the right lane.
+- clock 1:57 and OT 1:31: also uses them defensively on his own half, at the centre tile [8,12] and at [9,11] with the Electro Giant walking in, rather than sending them at the bridge.
+- clock 0:25 and OT 1:04: switches lanes to the right bridge ([13,15], [14,14]) once the left tower is nearly dead, and the enemy right tower falls 3478 -> 676 across the rest of the game.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

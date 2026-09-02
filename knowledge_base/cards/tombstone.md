@@ -185,6 +185,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - clock 1:05: the opponent's Tombstone at tile [9, 18], on his own half as the defensive spawner. Ryley names the archetype from it - "with these Lava Tombstone decks you usually don't Lava first play" (clock 1:53) - and the Skeletons it feeds are what his Goblin Gang and Logs spend the window clearing.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1336-1345s: mentioned only (not played). On the Hero Tombstone sight-range nerf — "They're also nerfing the sight range by 27%. So now the Hero Tombstone will be easier to be kited around the map because obviously right now it is very very hard to drag it around."
+- 1349-1358s: he explains the interaction with a defensive building using his own board — "say I have a bomb tower here and they have the Tombstone walking right here. The ability will actually just end up going towards your tower, which is pretty good, I would say."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

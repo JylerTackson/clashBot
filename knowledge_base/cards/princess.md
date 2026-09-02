@@ -248,6 +248,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 0:53: single deploy of the window at tile [9, 0], behind his own king tower, at the exact moment he switches from barrels to holding the crown lead - "we just have to defend for another 50 seconds." No commentary on the card itself; she has to survive the opponent's Evo Wizard and Zap for the rest of the game.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1401-1416s: mentioned only (not played). On the Evolved Princess buff — "this is my favorite buff for sure. I love this card so much, man... I'm like one of the only people who actually upload this card and use it... I think I was actually like one of like two people who used it in the top 200 last season."
+- 1418-1432s: "The Evo princess will now slow every other attack instead of every three attacks. And the slow duration is getting a nerf because of that... from 7 seconds to 5.5 seconds, which is definitely a very big overall buff because there will just be more slows from the princess overall."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

@@ -140,6 +140,13 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.m
 - clock 1:19-1:15 (t=907-912): he pre-places Knight + Goblin Gang for it and notes the ability - "We can goblin gang as well cuz I think he's going to mighty minor. Yep. Does he ability? Yep."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Opponent deploys Mighty Miner at [9, 30] at OT 1:47 — in the same seconds Ryley is reviewing the card, the only real synchronisation between script and arena in the game.
+- t=186-210s: "they are actually doing a buff to the mighty miner as well. They're buffing the mighty miner by 6%. Honestly, I don't think it was necessary. I think that the mighty miner is one of the best cards in the game. And I also thought that it was the best champion in the game, you know, not counting heroes just like the regular champions."
+- t=203-209s on the size of the change: "It's going from 40 to 43 damage at tournament level, which is pretty cool though, cuz it is my favorite card, but I just didn't think that it needed a buff."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

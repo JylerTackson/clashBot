@@ -187,6 +187,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.m
 - clock 0:35: he calls the opponent's Bowler timing a mistake — "He's going to go for the zappies or the bowler. Okay, he goes for the bowler, but he doesn't do it on time."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- listed in the opponent read with 'Bowler' deploy labels at t=1104/1107/1110, but all three fire at the identical tile [8, 25] exactly while he is discussing the Bowler nerf on screen, so the play is not confirmed (see the match file's Data gaps).
+- t=1103-1140: 'They are nerfing the Bowler and the Executioner projectile range... 7.5 range to a seven range... the Bowler and the Executioner were basically just magic archers with 7,000 HP, and I will still stand on that. Half of the time when you're against those cards, they are the things that take out your tower, not even like the win condition.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

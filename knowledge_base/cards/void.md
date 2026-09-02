@@ -97,6 +97,20 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - he spends the first 90 seconds of this game arguing against the announced Void buff while playing the card: "it is going to be a buff to the void. And this is the one that I fully disagree with the most out of everything in today's video" (827-836s); "they are buffing the void's hit frequency by 2%... from 1.2 to 1 second... it will just complete all of the void damage a lot sooner, which I definitely do think will make the card quite a decent bit better" (881-905s); "void is at the spot where like one change could just make it like absolutely gamebreaking... it will always be niche unless it's absolutely gamebreaking... I am just not an enjoyer of the void" (907-934s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 0:32-0:15 overtime (t=582.6-597.6): the opponent casts Void on Ryley's half at (7, 8), on the cluster around his Bomb Tower, and again at (6, 20) at t=608-616.
+- Commentary at 572-591s, over the top of the opponent's own Void: "they are actually doing a massive rework to the Void. I think this may be the biggest rework in the game this season... The Void Elixir cost, guys, is going from three to five, which is absolutely insane. I've never seen a card go up by two Elixir before, I don't think."
+- On the compensation (601-615s): "the Void is going to be getting some massive buffs, of course, because the hit frequency is going to be from 1 second to 1.2 seconds, which is 20% longer, which is pretty interesting. The target damage is buffed by 105%."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock 2:57-2:51: the opponent opens with Void against him (deploy label at tile (6, 20)); Ryley says nothing about the play but spends 615-670s on the card's buff: 'They buffed the Void damage by 105%. The two to four target damage is buffed by 83% and the five target damage is now buffed by 100%. So, they buffed the Void all across the board because there is the three phases of the Void, of course, like the different strikes.'
+- 647-664s, on the Crown Tower numbers: 'The Crown Tower damage will go from 48 to 97 and if there's two targets on the Crown Tower, it will do 25 to 51 damage, which is plus 100% and the five targets it'll do 17 to 35 damage, which is just absolutely crazy. Buffed by 100% all across the board.'
+- 638-642s, his verdict: 'Not that it maybe I don't agree that it needed a buff, but damn is it crazy.' And 667-691s on why it exists: 'although it does take, you know, two more Elixir to play every single time... there's never been a five Elixir spell before and there has been a lot of cards in the game that were only able to be taken out by the six Elixir spells like Rocket and Lightning.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Void (scraped 2026-09-02T02:35:29+00:00)

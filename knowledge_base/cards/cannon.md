@@ -232,6 +232,11 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.m
 - clock 1:01 (t=926): he plans around where it will go rather than reacting to it - "I can avoid that cannon placement with the Princess if I get a Knight in cycle."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- tracked on the opponent's side throughout (t=1015, 1041, 1101, 1113, 1133, 1193, 1213, 1249, 1259, 1275) as their defensive building; it is the reason his Wall Breakers pairs go to the bridge rather than straight down a lane.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

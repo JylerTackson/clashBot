@@ -126,6 +126,51 @@ This card appears in 1 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 1 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 1:37: played at [9, 0] directly behind the King's Tower (elixir 9 -> 5) — one of three deep, safe placements ([9, 0], [2, 1] at 0:52, [16, 8] at OT 0:32) where the pierce still reaches the lane but nothing can punish him.
+- OT 1:52: the river-line placement — Magic Archer label at [14, 15] on top of the Berserker already there, with Tornado cast in the same second; three of his four Tornado casts land within a few seconds of a Magic Archer, which is the clump-then-pierce pairing.
+- clock 0:32 and OT 1:46: uses him as the repeat 4-elixir answer in the busiest defensive stretches (elixir 8 -> 4, then 6 -> 2), 9 deployments in all — the deck's only long-range damage.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Eight deploy labels, all in the centre and behind his own defence: (8, 11), (8, 7), (9, 1), (8, 0), (9, 8), (8, 9), (9, 9), (4, 13), (7, 11) — he keeps a permanent centre-lane Magic Archer rather than using him as a bridge sniper.
+- clock 2:37 (t=336.7): placed at (8, 11) right behind the Tornado cast five seconds earlier, so the pierced line runs through the clumped Skeletons.
+- clock 0:55 (t=436.9): placed at (8, 7) inside the largest defensive stack of the match (Berserker, Archers, Royal Delivery, Goblinstein and Wall Breakers all within ten seconds) against a right-lane push of Bats, Fire Spirit and Skeletons.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock 0:45 at tile (2, 7), his only Magic Archer of the game: placed behind his own left tower and paired with Archers and Royal Delivery against two heavy ground units, i.e. used purely as defensive backline DPS rather than for bridge chip.
+- The deploy label reads plain 'Magic Archer' and no ability is visible, so this is the standard card rather than the Hero variant.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:28 (t=820.8) at [9, 4] and t=930.9 at [7, 0], directly behind the King Tower: both placements are deep on his own half, keeping him out of Executioner and Miner range while his pierce lines up behind the Bomb Tower.
+- clock 1:12 (t=894.9, HUD 8.0 -> 4.0): played into the Royal Ghost plus Executioner defence; the enemy left tower drops 4858 -> 3552 between t=888 and t=892 off that exchange.
+- As with the Berserker, there is no sign of the hero variant — all three plays read as the 4-elixir card.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 0:58 (t=1106.1): Magic Archer at [8, 4] behind the Bomb Tower during the Graveyard defence - his only ranged splash, used to clear the skeleton spawn from behind the building.
+- overtime 1:28 / 1:19 (t=1193.2, 1205.2): [8, 11] and [8, 9] centre placements so the pierce line covers both lanes.
+- overtime 0:52 (t=1229.2): the one offensive placement, [13, 20] on the opponent's half in the right lane, five seconds after he says he is happy about the nerf.
+- t=1224-1243: 'They're also nerfing the Magic Archer which I am very happy about... it was still clearly way too strong. It just seemed like they weren't going in the direction to nerf it which definitely had me upset about changes.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:27: Magic Archer at [8,9] right beside the centred Bomb Tower, so the two cover the same centre lane against the Electro Giant.
+- clock 1:39: Magic Archer at [5,14] at the left river opens a chip engine — the enemy left tower bleeds 4527 -> 3239 over the next 16 seconds while the opponent is busy on the right.
+- clock 2:21 (t=1360.2): a second Magic Archer for 4 with elixir at 6; five seconds later he interjects "Oh my god, this guy just missed an arrow."
+- clock OT 1:55: replays it at [3,13] on the left in overtime as part of the cluster that takes the enemy left tower 2078 -> 1106 in six seconds.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

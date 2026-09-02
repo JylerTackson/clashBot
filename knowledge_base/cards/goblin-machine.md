@@ -86,6 +86,15 @@ Not specified on source page
 - Beware the Rocket targeting a fast card while the Machine itself is distracted by a slow one, e.g. an Ice Golem + Hog Rider push — the Hog can outrun the shot.
 - In 2v2, a Machine locked onto a Crown Tower will fire its Rocket at the King's Tower. If it crosses alone toward the healthier tower it can be worth letting it connect before spending Elixir, and the King activation risk makes it a questionable 2v2 pick.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 0:08-0:03 (t=483.5-489.5): the opponent drops Goblin Machine at the back as regular time expires (three consecutive labels are one card, not three).
+- Commentary at 480-491s, while it is on screen: "Goblin Machine is kind of similar to like the Battle Healer and the Goblin Curse where like it just kind of like a gimmick card and it definitely needs like a better place in the game, otherwise it will forever remain a gimmick."
+- On the buffs (511-517s): "the melee damage of the Goblin Machine is getting a buff and the hit points are getting a buff by 5%. So, they're just buffing the card."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Machine (scraped 2026-09-02T02:35:12+00:00)

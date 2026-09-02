@@ -155,6 +155,35 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - t=701-709s: uses Goblinstein as his example of a card that was underrated until one buff landed — 'people were just underrating the card until it got that one buff that it just absolutely needed and just made the card go absolutely crazy.'
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 1:16: Goblinstein at [7, 8], centre of his own half, so the Doctor spawns opposite the Monster and the pair covers both lanes — the same central pattern in all five deployments ([7, 8], [13, 11] at 0:08, [11, 8] at OT 1:19, [16, 14] at OT 0:53, [2, 8] at OT 0:19).
+- clock 1:09-0:55 (t=106-121s), pointing at that unit on the arena: "See the doctor right here? It doesn't really do too much damage, but it will be doing 47% more damage next season, but to compensate for the massive buff to the doctor, they are nerfing the ability. The damage per second will be going down by 12%, which I think it's definitely fair to give a compensation nerf to a card where they gave such a big buff to." (The auto-transcript names the card "Goblin Giant" at 95s, but the Doctor, the ability and the on-screen unit are all Goblinstein.)
+- Note: the pipeline also logged two Goblinstein deploy labels as opponent plays at [8, 12] (0:34) and [11, 13] (OT 1:46); both are on Ryley's half and the opponent already fields Mighty Miner, so two Champions could not share that deck — read as his own.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock ~2:34 (t=341.3): deployed at (6, 0) behind his own left Crown Tower while that tower is being ground 4858 -> 3942 — a defensive placement, using the Monster as the body and the Doctor as the stun.
+- clock ~1:39 (t=394.4): a label at (1, 14) on the left bridge, followed 3 seconds later by an unexplained 2-elixir drop with no hand-slot change — the Lightning Link activation, which costs 2 and does not cycle a card.
+- clock 0:57 (t=436.4): a label at (12, 14) inside the biggest defence of the match; the arena tracker picks the Monster up as an ally 'goblin-brawler' at (15, 10) two seconds later, advancing the right lane as a counterpush body.
+- clock 0:38 overtime (t=573.6): back at (13, 1) behind his own right tower, followed by an unattributed 5-elixir drop at t=586.6 — the champion returning to hand after being killed.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Deployed four separate times (clock 2:33 at (6, 8), clock 1:46 at (10, 11), clock ~1:03 at (2, 14), clock 0:33 at (1, 10)) — as a Champion, that means it was killed and returned to hand three times in 120 seconds against P.E.K.K.A. bridge spam.
+- clock 2:33: goes down at (6, 8) as part of an 11-Elixir one-lane defence (Goblinstein + Tornado + Royal Delivery inside two seconds) against a Royal Ghost and a Bandit.
+- clock ~1:03 (triple Elixir): the only aggressive placement, at the bridge tile (2, 14) behind Wall Breakers — the enemy left tower falls 3351 -> 1665 HP over the next five seconds, the biggest damage burst of the game.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:23 (t=824.3): Goblinstein at [10, 8], centre-right (HUD 10.0 -> 5.0, label score 1.0) — the placement that splits the Doctor and the Monster toward different lanes.
+- clock 1:37 (t=871.0): [11, 1], right behind his own King Tower with the board empty in double elixir — building the next defence in advance rather than answering a push.
+- clock 1:11 (t=901.9): [7, 10] in the middle of his biggest defensive stack of the game (Bomb Tower, Magic Archer, Berserker, Royal Delivery, two Wall Breakers) against a Royal Ghost plus Executioner. No ability activation is readable in the events.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

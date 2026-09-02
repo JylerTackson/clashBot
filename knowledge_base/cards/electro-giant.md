@@ -132,6 +132,13 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - overtime clock 1:37, 0:57 and 0:39 (video 1017.0s, 1058.1s, 1076.1s, tiles (14, 14), (2, 8), (14, 14)): in overtime he alternates lanes on purpose - "Let's definitely go for the E giant here cuz we have the speedy E giant" (1018-1022s), "I'm gonna go for the Egiant here because I know he's going to go for the ability plus hog rider" (1056-1060s), "I'm going to E gi the opposite lane, though" (1076s). None of the four pushes took a tower.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:18 - OT 1:23: the opponent's main win condition, pushed down the right lane at 2:18, 0:52, 0:19 and repeatedly through overtime; Ryley's answer is the centred Bomb Tower plus Skeletons and Fire Spirit chip.
+- clock 0:48: it connects on his right tower but only takes it 4818 -> 4778; in overtime (OT 1:33 - 1:23) the same push, now supported, grinds the tower 4200 -> 1655.
+- Ryley never comments on it — his commentary through this game is entirely a balance-change review.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Giant (scraped 2026-09-02T02:35:05+00:00)

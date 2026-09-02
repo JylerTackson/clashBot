@@ -109,6 +109,16 @@ Not specified on source page
 - Her damage is low for a mini tank, so only run her over one when you specifically want the healing; never in X-Bow or Mortar decks, since her healing does not affect buildings.
 - Her healing also affects allied troops in 2v2, which makes her a strong support pick in that mode.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 2:00-1:45 (t=374.4-389.4): the opponent commits Battle Healer at the back of their half; Ryley answers with Berserker (16, 7) and Tornado (15, 14) rather than a spell — this deck carries none.
+- Commentary at 373-382s, playing against it live: "people just don't like playing against any Battle Healer deck and it's just like a kind of like a toxic card to go up against, which I definitely do agree. I'm not a fan of the Battle Healer."
+- On the rework (382-407s): "They're buffing its damage by 81%, but they are also making the hit speed 0.5% longer... the heal radius is 25% less. The hit points are buffed by 12% and the Healer can no longer heal herself."
+- On why the self-heal had to go (407-431s): "Healer healing itself kind of just created a toxic environment where basically you would just get two Healers down, everything would be unkillable, and you would just get like the dumbest loss of your life... I'm very happy about that change."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Healer (scraped 2026-09-02T02:34:55+00:00)

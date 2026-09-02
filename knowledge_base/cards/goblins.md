@@ -125,6 +125,22 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - Not in this deck: the 'GobliN-3' deploy label at [2, 25] (t=1049.5) is two tiles and two seconds from the Goblin Barrel Ryley threw at [3, 24], i.e. the barrel's spawned goblins rather than a Goblins card. Goblins appear in the raw per-game deck read for this reason only.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — named only at 754-767s as part of the Mortar/Barbarians/Goblins balance batch: 'they are also doing a bunch of balances to the mortar, the barbarians and the goblins. It affects so many different cards and dude truthfully this is the one that I am most unsure about.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=854-873), balance changes: "they are nerfing the Hero Goblins, making it so every time you pop the ability instead of getting three Goblins, you will now get two. But it will only take one second for the Goblins to deploy now. So the Goblins, even though there's less of them, they will be coming out quicker. So you have to respond to them faster."
+- Mentioned only (t=875-880): Goblin damage across the board goes up 4%.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1446-1450s: mentioned only (not played). Counts the Goblins buff as one of two indirect buffs to Goblin Gang — "the goblin gang got two buffs with the goblins and the spear goblins."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

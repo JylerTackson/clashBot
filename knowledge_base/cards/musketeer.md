@@ -213,6 +213,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - Mentioned, not played (t=551-558s and t=628-631s), and specifically the Hero Musketeer variant: he uses her as his example of a new card buffing old ones by association — 'Same with like the hero musketeer, just the musketeer in general, right? When things like that come into the game, it does just inherently make the other cards better' — and names her as the Archer Queen's competition: 'a lot of people do use the Hero Musketeer over the Queen.'
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- always behind the Ice Golem: tracked into the right lane at clock 2:14-2:03 and into the left in overtime at t=1195-1204 and t=1255; Ryley meets her with Bats, Skeletons and the Bomb Tower.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

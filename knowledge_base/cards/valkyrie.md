@@ -262,6 +262,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:21 and 0:57 (t=906.2 [3, 18], t=929.9): used pre-emptively against the opponent's Knight and then against the all-in — "Let's Valkyrie on top as well cuz he's probably going to try to go for the Knight", then "beautiful Valkyrie there kind of just knowing that he was going to go all in".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=1059-1075): Evo Valkyrie tornado damage cut 50% - 'it will no longer one shot skeletons or bats. You will have to be getting two swings to take out skeletons and bats, which I think is a fair change. Evo Valkyrie has just been way too strong for way too long now.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

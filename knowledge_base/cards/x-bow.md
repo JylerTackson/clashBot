@@ -123,6 +123,15 @@ This card appears in 1 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Mentioned only, not played by either side (an `X-Bow` deploy label at [8, 8] at t=255 and repeated X-Bow hand reads at 264s/318s are on-screen card art picked up by OCR).
+- t=244-262s: "They are also doing a I would say a buff to the X-Bow, guys. Maybe it's a nerf, but they are making the hit speed go a little bit slower, but in return of making the hit speed a little bit slower, they are buffing the damage and they are actually buffing the projectile speed as well."
+- t=259-278s on the reason and the risk: "I think that is to fix the X-Bow where like it will shoot at a skeleton three times and it only needs two times to kill the skeleton, but it would end up like shooting a third time... which is actually I guess a nice quality of life change for the X-Bow players, but it could make X-Bow just a little bit too strong in my opinion if they're not careful."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

@@ -136,6 +136,13 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.m
 - clock 1:35 and 0:25: the opponent's Evolution Witch is the card Ryley refuses to interact with normally — he answers the first one with Goblin Gang plus Ice Spirit ("he's going to try to go for the witch, but if he doesn't do it right, then we're just going to take out the whole thing") and then spends his Rocket on the next one immediately: "I do not want to play any games with an evo witch, man. That card is just way too powerful."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Mentioned only, not played by either side (316-344s): on the Evo Witch rework, "Instead of the Evo Witch healing from every skeleton that dies, it will now only heal from the first four skeletons that come out, but it will heal 186% more, which is just a crazy number to hear. And the maximum hit points has actually been buffed by 40%."
+- Mentioned only (338-348s): "It will get buffed to be able to survive a lightning if all of these skeletons do die and the Witch survives, which is just ridiculous in my opinion. I feel like Evo Witch is very frustrating to go up against."
+- Mentioned only, the counter-argument (352-369s): "it won't be able to heal over and over again after it gets the initial heal because it's only able to heal from the first four skeletons... it's a little bit more annoying to kill it, but it won't constantly heal throughout the game... I do think that it will be a massive buff, but we'll see."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

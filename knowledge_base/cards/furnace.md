@@ -189,6 +189,12 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - clock 0:57 and 0:32: with a crown banked he converted the lead into permanent defence, Furnace at [8, 1] and again at [10, 0] on the king-tower rows — "We can cycle another furnace here. I do just want to keep on stacking up my furnaces." Every one of the five placements in this game is on his own half.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1523-1547s: mentioned only in this game (the two 'Furnace' deploy labels at t=1527.7/1530.7 coincide with the commentary and are treated as suspect). "The furnace is getting a spawn speed buff... the fire spirits obviously right are getting that big nerf where they don't connect to the tower which heavily affects the furnace. So now they are giving the furnace a compensation buff of a spawn speed of 7 seconds to 5 seconds."
+- 1553-1558s: his verdict — "I don't think the furnace will be any good at all. I think that furnace will actually be one of the worst cards in the game because of this."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

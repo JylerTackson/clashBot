@@ -181,6 +181,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 0:38 (t=946.8): the un-evolved Skarmy is what loses the game for the opponent, cleared by Arrows — "beautiful arrows just grabbing that skarmy army and that is good game".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1467-1473s: mentioned only (not played). Names Evolved Skeleton Army as the reason Goblin Gang fell out of use — "Evo skeleton army was kind of like overshadowing it. Maybe it helps bridge those two cards a little bit more."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

@@ -120,6 +120,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:44 to 1:37: in overtime the cage beats him — he pre-blocks with Barbarian Barrel ("just cuz I think he might Evo cage. Maybe I could block it") and the Goblin Brawler still grabs the ram: "Oh, it still grabbed it in dude."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=1005-1023): the Evo Goblin Cage cycle goes from 1 to 2 - 'Goblin Cage was the only one cycle Evo for four elixir and I do think that it showed in how strong that it actually ended up being. Very very in agreeance with that one.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

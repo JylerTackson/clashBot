@@ -146,6 +146,19 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.m
 - Opponent's card (Evolved). Mentioned, not answered by a dedicated play: Ryley holds Princess in hand for them — 'we have the Princess ready in case he tries to go for the Evo Bats' (92-94s), 'He might Evo Bats predict' (111s) — and tops up with Ice Spirit when they come (clock 1:47 overtime, 185s).
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:28 (t=1015.7): Bats at [16, 15] answering the opponent's double Miner (6 elixir spent at t=1014-1015).
+- his only dedicated air answer and a cheap counter to a lone Miner or Musketeer - [6, 4] 2:52, [0, 10] 1:45, [0, 14] 0:48, [6, 10] and [6, 9] in overtime.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:37 and 1:58: Bats at [14,13] / [14,12] in front of the right tower answering the Miner at [13,4] and the advancing right lane, for 2 elixir.
+- clock 1:10 and OT 1:29: Bats dropped deep on his own half ([16,1], [8,5]) against Graveyard skeletons spawning around his King's Tower.
+- clock 0:48 / OT 1:51 / OT 1:13: also used at the left river ([1,15], [6,15], [1,13]) as cheap air cover for the Wall Breakers/Magic Archer chip.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

@@ -255,6 +255,35 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.m
 - Opponent's card (Hero form). Mentioned, not fought head-on: Ryley answers the Berserker ability with the Hero Knight's Triumphant Taunt at clock 1:10 — 'He might try to go for the Berserker ability. Yep, we'll just go for the Knight ability here just to bring that Berserker over. That's going to run for a while, so the Knight should live' (100-106s).
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 2:32: throws her at [10, 9] (elixir 7 -> 5) directly into a Battle Ram the tracker had 2.0 s from his left tower — with no tank in the deck she is used as a body to buy Bomb Tower time, not as a tank escort.
+- clock 2:50 and OT 0:32: also used as pure cheap filler in the back — deploy labels at [8, 0] behind the King's Tower and [2, 10] — one of 11 Berserker deployments, the most of any 2-elixir card here.
+- OT 1:55: stacks her at the river tile [14, 15] (elixir 5 -> 3) with a Magic Archer label on the same tile three seconds later, against a Royal Ghost and Mega Minion that were 0.4-2.2 s from his right tower.
+- clock 0:52: a Berserker HUD play registered elixir -3 against her 2 cost, so elixir readings around that point are soft (recorded as a data gap, not as a play).
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Used almost entirely as a defensive kite, not as a lead: (8, 1) in front of his own towers at t=326.7, then (16, 7), (15, 6), (16, 7), (15, 8) hugging the right edge of his own half and (5, 8), (2, 12) on the left.
+- clock 2:47 (t=326.7): the opening play, thrown down at 10 elixir at (8, 1) as two enemy Skeletons split down both lanes.
+- clock 1:54 overtime (t=513.0): the one aggressive placement, at (16, 14) on his own side of the right bridge, paired with a Wall Breakers send five seconds earlier.
+- Thirteen Berserker events (8 HUD, 5 labels) make her his most-played card — the cheap body that buys the Bomb Tower time.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock 2:19, 1:36 and 1:17 (HUD-confirmed 2-Elixir drops), with deploy labels at (8, 13), (2, 14) and (7, 14): every Berserker of the game goes on or just behind the river line, either escorting a Wall Breakers pair or meeting a unit that has just crossed — never leading a push.
+- The deploy labels read plain 'BeRSeRkeR', so this is the standard card and not the Hero variant, despite Hero Berserker existing.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:36 (t=812.8): Berserker at [8, 12] together with Bomb Tower and Tornado against a Royal Ghost the tracker follows from [12, 21] to [14, 3].
+- clock 1:59, 1:11 and 0:21 (tiles [6, 8], [6, 12], [6, 13]): always on his own half behind or beside the Bomb Tower as cheap melee filler; the 0:21 play comes from the deploy label because the HUD hand read disagreed.
+- t=965 (overtime): [7, 15] at the bridge, the only Berserker of the game past his own half. No hero ability is visible anywhere in the match — six plays, all at 2 elixir, no ability commentary — so this is the standard Berserker, not the Heroic variant.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

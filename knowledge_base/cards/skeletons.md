@@ -286,6 +286,20 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - clock 1:59, 1:55, 1:39 and 1:03: a constant trickle of opponent Skeletons (Tombstone-fed and hand-cycled) crossing into Ryley's left lane; he answers them with Goblin Gang at clock 1:59 and 1:16, then The Log at clock 1:43 and 1:20 rather than spending anything bigger.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:16 / 2:08 (t=1027.0, 1034.0): Skeletons at [15, 11] and [14, 13] dropped straight onto the opponent's Miner and Musketeer push on the right.
+- clock 1:50 (t=1058.4): Skeletons at [8, 0] behind his own king tower as a pure 1-elixir cycle card - the same slot Wall Breakers gets when he only needs the rotation.
+- clock 0:27 (t=1258.6, repeated t=1266.3): Skeletons at [7, 15] at the bridge to stall the Ice Golem / Musketeer stream in the closing overtime race.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:14: Skeletons at [16,11] in front of the right tower to distract the Electro Giant while the centred Bomb Tower does the damage.
+- clock OT 1:35 and OT 1:21: Skeletons at [13,9] and [7,9] into the right-lane push that is taking his tower apart — the cheapest body he has to buy Bomb Tower time.
+- clock OT 1:51 / OT 1:04: often follows one Skeletons with a second 1-2 seconds later (t=1554.8 then t=1556.4) when the first pack is eaten immediately.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

@@ -178,6 +178,44 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
 - clock 2:19 onward: otherwise used as reactive support beside the tower or the building — [7, 10] at clock 2:19, [6, 9] at clock 0:29, [1, 7] at OT 1:14, [1, 12] at OT 0:34 and [7, 9] at OT 0:25. Nine deploy-labelled plays in total, none of them commented on.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 0:52: deploy label at [1, 1], the back-left corner behind his tower, during the Royal Ghost / Bandit / P.E.K.K.A. build-up — plus one HUD play at OT 0:40 (elixir 8 -> 5). The least-used card in his deck.
+- t=70s, on the spirit health nerf: spirits "will make them now get one-shot by cards like archers, archer queen, bomber, musketeer, Tesla, and just things like that, making them just a little bit worse defensively" — he names Archers first among the cards that gain from the change.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Three plays (t=419.9, t=434.4, t=537.0), the last labelled at (10, 9) just behind the Bomb Tower line — cheap anti-air held for the opponent's Bats waves at t=406-416 and t=574-580.
+- clock 1:14 (t=419.9): played the same second as a Bomb Tower label at (8, 9), as three Bats close on his left tower.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock ~2:01 at tile (1, 1): played as deep behind his own left tower as the arena allows while a P.E.K.K.A. walked that lane — a hold-and-outlast placement, not a support placement.
+- clock 0:45 at (1, 7): dropped next to the Magic Archer at (2, 7) as part of a four-card defence (Magic Archer, Archers, Royal Delivery, Tornado) against a Mini P.E.K.K.A. plus P.E.K.K.A. wave.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:02, 1:24 and 0:28 (HUD -3 each): cheap support played behind the Bomb Tower during defences rather than at the bridge.
+- t=931.9: label at [1, 1], the back-left corner behind his King Tower, the spell-safe placement against an opponent holding Executioner and a chip spell.
+- Mentioned as a balance topic only (t=906-923): "there is a nerf to the evolved archers. Evolved archers have been super popular so I think this is a pretty solid nerf right here... their power shot damage is going down by 17%, which I say is pretty sizable. Will change quite a few interactions."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 0:58 (t=1107.1): Archers at [9, 7] beside the Bomb Tower during the second Graveyard defence.
+- overtime 1:28 / 1:19 (t=1196.2, 1206.4): Archers at [2, 10] and [10, 10] as ranged backup once the opponent starts pushing both lanes.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 1:39: Archers for 3 alongside the Magic Archer at the left river, starting the left-lane chip that takes the enemy left tower from 4527 to 3239.
+- clock 0:38: Archers at [1,9], deep on the left of his own half — support and anti-air behind the Bomb Tower rather than a bridge play.
+- clock 0:12 and OT 1:54: two more 3-elixir Archers plays in the closing stretch of regular time and the start of overtime.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

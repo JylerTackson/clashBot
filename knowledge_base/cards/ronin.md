@@ -103,6 +103,13 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.m
 - OT 1:17: he uses it as the reason to play Mother Witch — "we can go for a Mother Witch cuz he has to get some type of Ronan down... But if he gets the Ronan down, it's going to start spawning Piggies", i.e. a 5-elixir melee troop is ideal curse food.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Opponent deploys Ronin at [8, 29] at OT 1:21 and again at OT 1:18; Ryley answers the lane with Royal Delivery at [12, 14] and a second Bomb Tower.
+- t=211-223s: "they are actually nerfing the ronin, but it's a bug fix, which I thought that was interesting. Like their way of like bug fixing the ronin actually does come as a nerf. The ronin will now shoot 0.1 second slower."
+- t=226-243s on what the bug was: "it will just kind of fix the bug with the golden knight where if you had a golden knight dashing onto a ronin, it would actually get reflected and the Gold Knight would not dash onto anything. I thought that was intentional, but apparently it was a bug and it was also messing up against the Dark Prince as well where it would just one-shot the Dark Prince instead of just taking off the shield like it normally should."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ronin (scraped 2026-09-02T02:35:13+00:00)

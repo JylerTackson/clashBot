@@ -268,6 +268,17 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - This was the only offence he ran in the readable last two minutes: two barrels, then 60 seconds of defence with the crown banked.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=875-885): included in the across-the-board 4% Goblin damage buff — "that applies to Goblin Barrel, Goblin Drill, and all those types of cards that just have any type of Goblins."
+- Mentioned only (t=958-987): the evolution is nerfed — "the evolved Goblin Barrel is getting a decoy damage nerf for 26% of its damage which I think is quite a lot. But I also think that it is quite deserved especially considering that basically the Goblin Barrel got a pretty decent buff with the damage." He adds "I would be straight lying if I said it wasn't extremely extremely deserved" and jokes about boss-banning it (t=966-969).
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=992-995): 'I mess with it a lot cuz the Evo Barrel is kind of toxic but the regular barrel is kind of weak. So maybe it helps bridge the gap a little bit.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

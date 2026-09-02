@@ -173,6 +173,17 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - clock 0:47: a deploy label puts a Rocket at tile [3, 8] on his own half - on the Graveyard/Barbarians rather than on a tower - but his commentary two seconds later is "rocket here if need be. Actually, no, I don't even need a rocket," so the two signals conflict and only the label is hard evidence. Either way he treats Rocket as the held answer to the opponent's support, not as a cycle card.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Mentioned only, not played by either side (492-509s): "There is the Rocket travel speed getting a buff. It will travel 40% quicker. And the Rocket hit speed will be longer though. So, guys, the Rockets will take 5 seconds now instead of 3.5 seconds. So, you'll get the Rockets traveling quicker, but... they will be less frequent."
+- Mentioned only, why he likes it (518-529s): "I did think that it was kind of stupid that it was just all about how many Rockets that you can get, you know, and maybe some cheese plays, but not really like actually anything to do with like the card itself. You were just trying to get lucky before."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — named at 678-687s alongside Lightning as the six-Elixir spells that used to be the only answers to certain units, the role the buffed 5-Elixir Void is now meant to partly take over.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

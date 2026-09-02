@@ -206,6 +206,11 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.m
 - clock 1:14-1:07: he predicts the split-Zappies answer to his split Goblin Gang and gets it — "if he does, then he'll just split his zappies, too... Yeah, nice."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only; 'Zappies' labels at [9, 19] (t=1291/1294/1297) match the balance graphic, not a deploy. Commentary t=1288-1299: 'Very big fan of the hit speed nerf to the Zappies cuz I have felt like the Zappies were too good for a little bit too long now. I just think that the Zappies got maybe one too many buffs in a balance change.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

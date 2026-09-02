@@ -132,6 +132,22 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - clock 1:37: the opponent's Barbarians at tile [3, 19] walk Ryley's left lane for roughly 20 s and are handled with Goblin Gang plus The Log. He later uses them as the reason his barrel is unanswerable - "he's going to have to eat this or go for the barbs, but obviously he doesn't want to do either of that" (clock 0:32).
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played by him in this match (the tracker does show Evolved Barbarians on the opponent's side at clock 0:13-0:11, on his King Tower) — named at 754-756s as part of the balance batch he is least sure about, and at 797-799s, cut off by the end of the game: 'Guys now to the barbarians. The barbarians are also getting toned down.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=799-813), balance changes: "the barbarians hit points are getting buffed by 4% but in return the evolved Barbarians hit point bonus is going from 10% to 0%. So now the regular Barbs and the Evo Barbs will have the same HP. I am definitely a fan of that."
+- Mentioned only (t=823-852): the Evolved Barbarians' rage now lasts "five seconds instead of three seconds, which I think is a pretty fair buff", and on the package as a whole — "I know the goal was to buff them overall cuz Barbs are not like a very used card but still seems pretty big. I'm all right with it though."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 1:54 (t=1049): lands at [3, 14] on Ryley's own half behind a Miner; The Log at 2:00 and the Bomb Tower handle the group.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

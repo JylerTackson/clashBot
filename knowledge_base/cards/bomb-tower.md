@@ -159,6 +159,48 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
 - OT throughout: the detector shows a bomb-tower sitting at [8, 6] across most of overtime, i.e. he kept one alive in the middle almost continuously while the opponent's right tower was ground down. No commentary — this game's talk is entirely about the patch notes.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 2:43: opens the game with it at [8, 11] on a full bar (elixir 10 -> 6) and rebuilds it 11 times across the match (1:57, 0:47, 0:17, 0:03, OT 1:29, OT 1:25, OT 0:53, OT 0:43, OT 0:19, OT 0:07) — every readable tile is the centre column of his own half ([8, 11], [9, 10], [8, 10], [9, 9], [9, 11]), inside both crown towers' cover, so one building covers either lane against a Miner/Graveyard/P.E.K.K.A. deck.
+- clock 1:57: goes straight to Bomb Tower at [9, 10] (elixir 9 -> 5) as the opponent lays a Graveyard at [9, 3] in front of his King's Tower, then repeats the pairing at 0:03 when the second Graveyard lands at [8, 3].
+- clock 0:31: the building is the fixed half of his answer to a three-threat wave (P.E.K.K.A. at (3, 12) + Battle Ram Evolution right lane + Mini P.E.K.K.A.), with Tornado (elixir 5 -> 2) clumping into its splash — the Bomb Tower + Tornado pattern is the deck's whole defensive identity. He never comments on the card.
+- OT 1:29 and OT 1:25: two Bomb Tower plays five seconds apart (elixir 9 -> 5, then 6 -> 2) while defending Ronin pressure — both HUD-high, though the second may be a duplicate detection.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 2:12 (t=362.5): placed at tile (8, 10), dead centre of his own half and inside his Crown Tower's radius, as the first anchor of the defence.
+- Replayed roughly every 30 seconds as the lifetime expires and moved to whichever lane the opponent commits to: (8, 9) at t=419.4, (9, 9) at t=457.5, (2, 9) at t=512.5, (15, 9) at t=536.5, (15, 4) at t=557.6, (15, 12) at t=600.6 — seven placements in a five-minute game.
+- clock 1:09 overtime (t=544.0): a fresh Bomb Tower goes down as the opponent's Rune Giant push forms, with Tornado (t=533.2) and Archers at (10, 9) (t=537.0) layered on top of it.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock 1:08 at tile (8, 9) (HUD 7 -> 3, deploy label agreeing), clock ~0:42 at (8, 10) and clock ~0:13 at (8, 7): all three placements are the centre column in front of the King's Tower, covering both lanes against Evolved Battle Ram and P.E.K.K.A. traffic rather than being pulled to the threatened side.
+- clock 1:08: the placement goes down as an Evolved Battle Ram is tracked at (3, 11) closing on his left tower, i.e. he places the building before the ram commits rather than reacting to it.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 2:04, 1:13, 0:19 and in overtime: replays it at almost the same centred tile every rotation ([8, 10], [9, 10], [8, 10], [8, 11]), in front of his own towers where both Crown Towers cover it, as the anchor against Guards, Ram Rider and Miner pressure.
+- clock 0:51 (t=916.9): the one off-centre placement, [15, 9] on his own right, against a Ram Rider tracked at [14, 11] with a 4.5 s threat warning.
+- Every Tornado and Royal Delivery in the game lands within a couple of seconds of a Bomb Tower — the clump-then-splash pattern the card is built for.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:21 (t=1024.0): Bomb Tower at [8, 8] against the opponent's first Graveyard (tracked at [7, 0], 0.2 s from the tower); his left tower reads 4858 unchanged through the whole defence.
+- clock 1:03 (t=1102.1): Bomb Tower at [9, 9] under the second Graveyard, stacked with Archers at [9, 7] and Magic Archer at [8, 4].
+- always centre or centre-left so it covers the Graveyard radius and pulls the level-16 Miner: [12, 3] 2:36, [8, 10] 2:05 and overtime 1:50, [7, 9] 0:31 / overtime 1:28 / 1:08 / 0:21, [9, 11] 0:13.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:25, 1:03, 0:12, OT 1:47: places Bomb Tower on exactly the same tile every time — [8,10], dead centre inside his King's Tower radius — so it covers both lanes against the Electro Giant and the Miner.
+- clock 2:14: the centred Bomb Tower plus Skeletons at [16,11] holds an Electro Giant + Phoenix right-lane push to 40 HP of tower damage; the Electro Giant is tracked retreating by 2:08.
+- clock 2:25: he uses the Bomb Tower already on the board as his example for the Hero Tombstone sight-range nerf — "say I have a bomb tower here and they have the Tombstone walking right here. The ability will actually just end up going towards your tower, which is pretty good."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)
