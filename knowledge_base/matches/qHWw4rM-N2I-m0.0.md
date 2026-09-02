@@ -158,12 +158,12 @@ He calls it at t=248-250: "it's going right to the tower. Good game. Nice win."
   "look at the mother witch piggies just taking out the entire mortar, basically" (t=154-156), with the enemy
   Evo Mortar parked at tile [8, 19] through that window. He also regrets the placement once: "Ooh, we should
   have put it one tile back" (t=147).
-- **[Heroic Valkyrie](../heroes/valkyrie-hero.md)** (Hero, base card
-  [Valkyrie](../cards/valkyrie.md)) — the card that actually wins the game. Four Valkyrie deploy labels land
-  in this game (t=19.2 tile [9, 12]; t=78.6 tile [4, 13]; t=220.2 and t=242.7 tile [2, 15], the left bridge),
-  each a 4-elixir drop, and in every case he narrates a bridge placement immediately followed by "pop the
-  ability" — Wild Whirlwind costs 3, which matches the repeated unattributed 3-elixir own drops around
-  t=124.1, 133.6, 152.3, 156.7, 176.0, 182.0, 187.0, 194.4 and 220.9. His claim about it: "it is really
+- **[Valkyrie](../cards/valkyrie.md)**, played as the [Heroic Valkyrie](../heroes/valkyrie-hero.md) — the
+  deck slot that actually wins the game. Four Valkyrie deploy labels land in this game (t=19.2 tile [9, 12];
+  t=78.6 tile [4, 13]; t=220.2 and t=242.7 tile [2, 15], the left bridge), each a 4-elixir drop, and in every
+  case he narrates a bridge placement immediately followed by "pop the ability". The Hero ability Wild
+  Whirlwind costs 3 elixir and leaves no hand change, which is what the repeated unattributed 3-elixir own
+  drops at t=124.1, 133.6, 152.3, 156.7, 176.0, 182.0, 187.0, 194.4 and 220.9 are. His claim about it: "it is really
   actually nearly impossible to defend against that card. Every time your opponent pops the ability, they will
   be going right to your tower" (t=27-35), "it's just guaranteed to go up to the tower" (t=134-137), and
   "how does he stop it? It's just TOO BROKEN" (t=244-246).
@@ -220,8 +220,12 @@ How Ryley read and answered them:
 - Hand-read confidence for this game averages 0.281 and 28 of 96 events are UNIDENTIFIED, so the card behind
   many elixir drops is unknown. In particular the own drops at t=40.5 (-5), 43.0 (-3), 124.1, 133.6, 152.3,
   156.7, 158.2, 161.0, 171.8, 176.0, 182.0, 187.0, 194.4, 220.9, 228.4, 235.6, 244.6 and 250.6 (-6) carry no
-  card. Several of the -3 drops sit immediately after "pop the ability" commentary and Wild Whirlwind costs 3,
-  but that is inference, not observation.
+  card. The -3 drops in that list are Wild Whirlwind activations (the Hero ability costs 3 elixir and moves no
+  hand slot, so the HUD cannot see it); each one sits immediately after a "pop the ability" line in the
+  commentary. Which of the remaining drops (-2, -5, -6) belong to which card is still unknown.
+- Rage is not in this deck. The HUD logged a "Rage" play at t=111.9 and put Rage in the hand read at t=48-51,
+  t=116 and t=159; the recomputed video-level consensus (7 games) has no Rage, and those HUD "plays" are
+  Freeze misreads. No Rage attribution in this file should be trusted.
 - Side attribution for the Heroic Valkyrie is unreliable. Both players used the Hero: two Valkyrie deploy
   labels are recorded as Ryley's (t=19.2, t=78.6) and three as the opponent's (t=117.6, t=220.2, t=242.7),
   yet t=220.2 and t=242.7 land at tile [2, 15] on the left bridge exactly when Ryley says "let's go for the

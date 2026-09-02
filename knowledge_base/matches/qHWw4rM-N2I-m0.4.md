@@ -5,15 +5,15 @@ video_url: https://www.youtube.com/watch?v=qHWw4rM-N2I
 match_index: 0.4
 video_time: [977.0, 1107.4]
 creator: ryleycr1
-own_deck: [bandit, battle-ram, elite-barbarians, freeze, heal-spirit, mother-witch, rage, zappies]
-own_deck_key: bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-rage-zappies
+own_deck: [bandit, battle-ram, elite-barbarians, freeze, heal-spirit, mother-witch, valkyrie, zappies]
+own_deck_key: bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-valkyrie-zappies
 own_archetype: bridge-spam
 opponent_deck_seen: [hog-rider, guards, barbarians, firecracker, minion-horde, the-log, zap, earthquake]
 opponent_archetype_guess: cycle
 result: win
 quality: {"readable_seconds": 130.5, "match_frames": 783, "own_elixir_drift": {"n": 3, "mean": -1.274, "abs_mean": 1.393, "max_abs": 4.0, "last": 0.119}, "events_total": 39, "events_unidentified": 13, "events_by_source": {"arena": 19, "inferred": 12, "deploy_label": 3, "hud": 5}, "hand_conf_mean": 0.208}
 links:
-  cards: [bandit, barbarians, battle-ram, elite-barbarians, firecracker, freeze, guards, heal-spirit, hog-rider, lightning, minion-horde, mother-witch, rage, the-log, valkyrie, zap, zappies]
+  cards: [bandit, barbarians, battle-ram, elite-barbarians, firecracker, freeze, guards, heal-spirit, hog-rider, lightning, minion-horde, mother-witch, the-log, valkyrie, zap, zappies]
   decks: []
   archetypes: [bridge-spam, cycle]
 ---
@@ -22,13 +22,15 @@ links:
 
 The fifth game of this session is readable from clock 2:31 to the final seconds, so all
 but the opening ~29 s of the game is covered. Ryley is on the video-level consensus deck
-— Bandit, Battle Ram, Elite Barbarians, Freeze, Heal Spirit, Mother Witch, Rage, Zappies
-— piloted as bridge spam, and he is additionally playing a Heroic Valkyrie whose ability
-he pops twice (`> [1017s] let's just pop the ability`, `> [1074s] Let's Valkyrie the
-bridge, too, and pop the ability`); she is not in the eight-card consensus, which is
-flagged under Data gaps. The opponent is a cycle-style Hog Rider deck: Ryley names Hog
-Rider, Guards, Barbarians, Firecracker, Minion Horde and The Log as their answers, and
-they spend most of the readable window defending rather than attacking. The whole game
+— Bandit, Battle Ram, Elite Barbarians, Freeze, Heal Spirit, Mother Witch, Heroic Valkyrie
+(Valkyrie), Zappies — piloted as bridge spam. The Heroic Valkyrie is a full deck slot here,
+not an extra: he plays her at the bridge and pops her 3-elixir Wild Whirlwind ability twice
+(`> [1017s] let's just pop the ability`, `> [1074s] Let's Valkyrie the bridge, too, and pop
+the ability`), and an ability pop costs elixir while emptying no hand slot, which accounts
+for several of the unexplained own -3 drops in the event log. The opponent is a cycle-style
+Hog Rider deck: Ryley names Hog Rider, Guards, Barbarians, Firecracker, Minion Horde and
+The Log as their answers, and they spend most of the readable window defending rather than
+attacking. The whole game
 runs on one lane: the opponent's right Princess Tower falls from 3211 HP at clock 2:31
 to 188 HP by clock 0:18, driven by Mother Witch's Cursed Hogs plus Evolved Elite
 Barbarian spear damage, while Ryley's own towers only lose ~930 HP on the right and take
@@ -150,8 +152,10 @@ too, dude`).
   (the right bridge) at clock 0:34, in the middle of his push and in the lane he is
   attacking; the pipeline attributed it to the opponent. He never mentions it, and it sits
   in his hand at clock 0:11 and 0:03. Treat the ownership as unconfirmed.
-- **Rage** — cycles through his hand repeatedly across the readable window but is never
-  cast and never mentioned.
+- **Freeze / hand misreads** — the hand OCR reports a Rage slot repeatedly across the
+  readable window. Rage is not in this deck: those slots are Freeze misreads, and the HUD
+  "Rage" plays elsewhere in this video resolve to Freeze. Nothing in this game's commentary
+  mentions Rage.
 
 ## Opponent
 
@@ -215,14 +219,13 @@ just yet.`
   6708) are inconsistent with the preceding 120 s and are almost certainly the result
   screen or a scene change; hand rows there read Giant / Lightning / Fire Spirit / Flying
   Machine, none of which are in either deck. A new game begins at t=1107.
-- **Heroic Valkyrie is missing from the eight-card consensus.** He plays and names her
-  twice and praises her by name at the end, but the video-level consensus deck (used here
-  per instruction) lists Bandit, Battle Ram, Elite Barbarians, Freeze, Heal Spirit, Mother
-  Witch, Rage, Zappies with `valkyrie` scoring only 2 across 7 games. Since a Hero occupies
-  a deck slot, one of those eight is likely wrong for this game — Elite Barbarians (score
-  9) and Mother Witch (score 4) are the weakest-supported, and both are confirmed present
-  here by commentary, which leaves the discrepancy unresolved. `own_deck_key` is kept as
-  the consensus key.
+- **Deck slot 8 was corrected after the first pass.** The original consensus put Rage in the
+  eighth slot; the recomputed consensus (with transcript evidence) replaces it with Valkyrie
+  — the Heroic Valkyrie he plays at clock 1:23 and clock 0:27 and praises by name at the
+  end. Rage was a hand-read misclassification: it is never played or mentioned in any of the
+  video's 7 games, and the HUD plays attributed to it are Freeze misreads. This file uses the
+  corrected key
+  `bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-valkyrie-zappies`.
 - **Hand OCR is unreliable (mean confidence 0.208).** Hand slots repeatedly show cards from
   neither deck (Golem, Elixir Golem, Fireball, Battle Healer, Flying Machine, Giant). Two
   HUD plays conflict with the commentary spoken over them: t=1035.7 is recorded as Freeze
@@ -232,9 +235,13 @@ just yet.`
   where the two disagree; the raw HUD reads are given above so both are visible.
 - **13 of 39 events are UNIDENTIFIED**, all of them Ryley's own elixir drops
   (t=979.6, 1002.5, 1011.8, 1044.0, 1051.6, 1065.7, 1071.2, 1087.9, 1089.3, 1090.9,
-  1101.4, plus two opponent-side holes at t=1029 and t=1050). Own-elixir drift is large
-  (mean -1.27, max_abs 4.0, n=3), so a drop of -3 is not proof of a 3-cost card; no card
-  has been guessed from an elixir delta alone.
+  1101.4, plus two opponent-side holes at t=1029 and t=1050). Some of these are not plays at
+  all: the Heroic Valkyrie's Wild Whirlwind ability costs 3 elixir and empties no hand slot,
+  so the -3 drops with no hand change sitting next to the two ability pops (t=1011.8, just
+  before `> [1017s] let's just pop the ability`, and t=1071.2 alongside
+  `> [1074s] pop the ability`) are most likely ability charges rather than deployments.
+  Own-elixir drift is also large (mean -1.27, max_abs 4.0, n=3), so a drop of -3 is not proof
+  of a 3-cost card; no card has been guessed from an elixir delta alone.
 - **Side attribution from the 2024-era detector is scrambled in this game.** Several
   "opponent" arena events are on Ryley's own half and match his own cards: `Witch` at
   [14, 14] (his Mother Witch), `Zappies` at [14, 14], `Barbarians` at [14, 14], plus the
