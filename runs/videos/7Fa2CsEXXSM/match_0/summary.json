@@ -1,0 +1,29 @@
+{
+ "frames": 540,
+ "seconds": 35.0,
+ "timing": {
+  "total": {
+   "n": 540,
+   "mean_ms": 10.7,
+   "p95_ms": 12.5
+  },
+  "loop_fps": 93.5
+ },
+ "own_elixir_drift": {
+  "n": 0,
+  "mean": null,
+  "abs_mean": null,
+  "max_abs": null,
+  "last": null
+ },
+ "opponent_deck": {
+  "deck_known": [],
+  "deck_complete": false,
+  "predicted_hand": null,
+  "predicted_next": null,
+  "deck_predictions": [],
+  "kb_matches": [],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0
+ }
+}
