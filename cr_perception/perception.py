@@ -26,6 +26,7 @@ from .hud import (CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, Han
                   crop_roi, parse_clock)
 from .labels import DeployLabelReader, label_ground_point
 from .tracking import UnitTracker, load_speed_priors
+from .clock import ClockTracker
 from .screen import ContentRect, MatchGate, assess, detect_content_rect
 from .sources import FrameSource
 from .state import GameState, PlayEvent, UnitObs
@@ -95,7 +96,7 @@ class Perception:
         self.last_good_t: dict = {}
         self.match_started = False
         self.match_id = 0
-        self._last_remaining = None
+        self.clock = ClockTracker()
         self.gate = MatchGate(self.ENTER_FRAMES, self.EXIT_SECONDS)
         self.frame_i = 0
         self.H = None
@@ -151,7 +152,7 @@ class Perception:
 
     def reset_match(self, t: float) -> None:
         self.match_id += 1
-        self._last_remaining = None
+        self.clock = ClockTracker()
         self.play = PlayDetector(self.costs)
         self.own_sim.reset(t)
         self.opp_sim.reset(t)
@@ -210,7 +211,7 @@ class Perception:
         clock_s, clock_conf, remaining = "", 0.0, None
         if self.ocr is not None and idx % self.ocr_every == 0:
             s, c = self.ocr.read(crop_roi(content, self.calib.rois["clock"]))
-            if parse_clock(s) is not None and c >= 0.6:
+            if parse_clock(s) is not None and c >= 0.6 and self.clock.valid(parse_clock(s)):
                 clock_s, clock_conf, remaining = s, c, parse_clock(s)
         if remaining is None:
             s2, c2 = self.clock_digit.read_string(content)
@@ -220,14 +221,15 @@ class Perception:
                 clock_s, clock_conf, remaining = s2, min(c2, 0.7), parse_clock(s2)
         clock_v, clock_conf, stale_c = self._commit("clock", clock_s if remaining is not None else None, clock_conf, t)
         remaining = parse_clock(clock_v) if clock_v else None
-        # a clock that jumps UP by more than 20 s is a new match (3:00 again):
-        # reset per-match state (deck tracker, elixir sims, tracks, holds)
+        # clock tracker: confirmed jump to a fresh 3:00 = new game (reset
+        # per-match state); confirmed jump to ~2:00 from 0:00 = overtime
         if remaining is not None and not stale_c:
-            if self._last_remaining is not None and remaining - self._last_remaining > 20:
+            ev = self.clock.update(t, remaining)
+            if ev == "new_match":
                 self.reset_match(t)
-            self._last_remaining = remaining
-        overtime = bool(self.last_good.get("overtime", False))
-        phase = self._phase_from_clock(remaining, overtime)
+                self.clock.update(t, remaining)
+        overtime = self.clock.overtime
+        phase = self.clock.phase() if self.clock.remaining is not None else None
         self._tick("clock", t0)
 
         # ---- towers (OCR, low rate) ----
@@ -316,7 +318,7 @@ class Perception:
         units += self.last_good.get("towers_seen", [])
 
         # ---- events ----
-        phase_key = "single" if not phase else "double" if phase.startswith("double") else "triple" if phase.startswith("triple") else "single"
+        phase_key = self.clock.regen_key()
         self.own_sim.advance(t, phase_key)
         self.opp_sim.advance(t, phase_key)
         new_events: list[PlayEvent] = []

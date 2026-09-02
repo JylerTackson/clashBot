@@ -27,6 +27,8 @@ from cr_perception.recorder import JsonlRecorder  # noqa: E402
 from cr_perception.screen import assess, detect_content_rect, detect_game_panel  # noqa: E402
 
 SCRATCH = "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad"
+from cr_perception.decktracker import load_kb_decks  # noqa: E402
+KB_DECKS = load_kb_decks(ROOT / "knowledge_base")
 WEIGHTS = [f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"]
 
 
@@ -127,7 +129,8 @@ def process_video(vid: str, vdir: Path, out_dir: Path, a, card_names: dict, det)
                 sub = f"{i}" if len(segs) == 1 else f"{i}.{k}"
                 ctx = build_context(mdir / "states.jsonl", vtt, {"video_id": vid, "title": title, "match_index": sub,
                                                                     "period": [s0, s1], "calibration_method": method,
-                                                                    "url": f"https://www.youtube.com/watch?v={vid}"}, card_names, mid)
+                                                                    "url": f"https://www.youtube.com/watch?v={vid}"}, card_names,
+                                    window=(s0, s1), kb_decks=KB_DECKS)
                 cdir = mdir if len(segs) == 1 else mdir / f"game_{k}"
                 cdir.mkdir(exist_ok=True)
                 (cdir / "context.json").write_text(json.dumps(ctx, indent=1))

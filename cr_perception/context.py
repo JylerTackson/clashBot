@@ -45,22 +45,24 @@ def parse_vtt(path: Path) -> list[dict]:
 
 
 def split_matches(states_path: Path, min_seconds: float = 60.0) -> list[tuple[int, float, float]]:
-    """(match_id, t0, t1) for every match segment in a run (by the perception
-    match counter, which increments on clock resets)."""
-    segs: dict[int, list[float]] = {}
+    """(game_index, t0, t1) for every game in a run, derived from the clock
+    series with confirmation rules (misreads and overtime do not split)."""
+    from .clock import segment_by_clock
+    from .hud import parse_clock
+    samples = []
     for rec in read_jsonl(states_path):
         if rec.get("type") == "state" and rec["readiness"] == "match":
-            mid = rec.get("match_id", 0)
-            segs.setdefault(mid, [rec["t"], rec["t"]])[1] = rec["t"]
-    return [(m, a, b) for m, (a, b) in sorted(segs.items()) if b - a >= min_seconds]
+            c = rec.get("match_clock")
+            samples.append((rec["t"], parse_clock(c) if c else None))
+    return segment_by_clock(samples, min_seconds)
 
 
 def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_names: dict[str, str],
-                  match_id: int | None = None) -> dict:
+                  window: tuple[float, float] | None = None, kb_decks: list | None = None) -> dict:
     states, events = [], []
     for rec in read_jsonl(states_path):
         if rec.get("type") == "state":
-            if match_id is None or rec.get("match_id", 0) == match_id:
+            if window is None or window[0] <= rec["t"] <= window[1]:
                 states.append(rec)
         elif rec.get("type") == "play_event":
             events.append(rec)
@@ -69,6 +71,16 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
         return {**header, "empty": True, "reason": "no readable match frames"}
     t0, t1 = match_states[0]["t"], match_states[-1]["t"]
     events = [e for e in events if t0 - 1.0 <= e["timestamp"] <= t1 + 1.0]
+    # opponent deck for THIS game, replayed from its events (independent of
+    # whatever resets the live tracker did)
+    from .decktracker import OpponentDeckTracker
+    dt = OpponentDeckTracker(kb_decks or [])
+    for e in events:
+        if e["player"] == "opponent":
+            if e.get("card"):
+                dt.check_cycle(e["card"])
+            dt.observe_play(e.get("card"))
+    replayed = dt.summary()
 
     # 1 Hz timeline
     timeline, last_sec = [], None
@@ -119,9 +131,10 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
                 cues.append({"t": round(c["start"], 1), "end": round(c["end"], 1), "text": c["text"]})
     return {**header, "start_t": round(t0, 1), "end_t": round(t1, 1),
             "own_deck_observed": own_deck, "own_deck_key": "-".join(sorted(own_deck)) if len(own_deck) == 8 else None,
-            "opponent": {"deck_known": opp.get("deck_known"), "deck_complete": opp.get("deck_complete"),
-                         "deck_predictions": opp.get("deck_predictions"), "kb_matches": opp.get("kb_matches"),
-                         "cycle_confirmed": opp.get("cycle_confirmed"), "cycle_violations": opp.get("cycle_violations")},
+            "opponent": {"deck_known": replayed["deck_known"], "deck_complete": replayed["deck_complete"],
+                         "deck_predictions": replayed["deck_predictions"], "kb_matches": replayed["kb_matches"],
+                         "cycle_confirmed": replayed["cycle_confirmed"], "cycle_violations": replayed["cycle_violations"],
+                         "live_tracker_deck_known": opp.get("deck_known")},
             "events": events, "timeline": timeline, "transcript": cues, "quality": quality}
 
 
