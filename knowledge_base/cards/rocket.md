@@ -241,6 +241,11 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - OT 0:57: he plays around the Rocket rather than avoiding it — 'Let's expo predicting his rocket', and at clock 0:18 'He's going to rocket his [X-Bow] up. Okay, we can just Fireball again ... eventually there will be a point where he rockets us again, but this time we just have to protect our X-Bow well'.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=639s: opponent Rocket at tile [7, 14] on Ryley's half, 44 s after he laid the Barbarian Hut and 19 s after the Tombstone went next to it — the standard punish for stacking two spawner buildings in one pocket.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

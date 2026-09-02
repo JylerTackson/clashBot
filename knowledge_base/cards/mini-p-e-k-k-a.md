@@ -182,6 +182,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
 - clock 0:25 and clock 0:19: he treats killing it as the precondition for his defence holding — 'this Mini P.E.K.K.A. needs to get removed' (t=149), then 'we've low-key been getting lucky with the Mini P.E.K.K.A.s dying' (t=153-154); at OT 1:16 the answer is a Firecracker ('Firecracker here for the Mini P.E.K.K.A.', t=218).
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=649-652s: tracked walking down the left lane at (6, 22)-(6, 24) as the opponent's ground threat into Ryley's Tombstone-plus-Barbarian-Hut pocket — a single-target melee unit into a board full of spawned Skeletons and Barbarians.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A. (scraped 2026-09-02T02:34:51+00:00)

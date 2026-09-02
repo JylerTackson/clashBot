@@ -182,6 +182,12 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4
 - Mentioned only, never played by either side: he expects one behind the tower at clock 1:57 — "maybe get Pekka in the back, to be honest" (t=792-793) — and rules it out at t=807, "maybe he just doesn't have peek at all."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=606-608s: tracked as an ally unit at (15, 5) then (16, 5) and marked 'retreating' — she was on his own half turning onto a defensive target, not escorted up the lane.
+- t=658-660s: Jynxzi questioned the card outright — 'Yo, Riley, why would you even put down the Pekka?' — and Ryley's answer was about his Ronin, not about pushing with her. At t=778s Jynxzi calls it 'the sneaky Pekka', i.e. it was carrying a C.H.A.O.S. modifier.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/P.E.K.K.A. (scraped 2026-09-02T02:35:00+00:00)

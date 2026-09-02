@@ -320,6 +320,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 0:48 / 0:28 / 0:07 / overtime: keeps alternating lanes with him — [1, 22], [16, 24], [16, 23], [1, 21] — "we can go for the miner again" and "then we can mine our opposite lane and go for the evil wall breakers as well." He never sends him alone; a Bats, Wall Breakers or Spear Goblins lands within two seconds every time.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=805s: opponent Miner at tile [3, 13] on Ryley's half in the last game of the window, alongside another Goblin Barrel — chip pressure from a bait-shaped deck.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

@@ -357,6 +357,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 2:35 (t=1377.9): Royal Delivery at tile [4, 14] for 3 (HUD 9.0 -> 6.0, deploy label score 1.0) onto a stacked left-lane column of Zappies plus Little Prince — his only clean answer to the opponent's swarm-plus-support opening. No commentary on the card itself; it is held as pure defence all game (further 3-elixir drops at t=1478.0 and t=1483.3).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=675s: dropped onto Ryley's half at (14, 7) while his Mighty Miner was walking up the field at (13, 8) — the opponent using it as a reset on his ground push.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

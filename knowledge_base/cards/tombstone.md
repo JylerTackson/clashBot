@@ -268,6 +268,13 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 0:40: answered directly with The Log — "I do want to get a log on top of this tombstone here. Log the tombstone."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=620s: placed at tile [5, 6], one tile in front of the Barbarian Hut he had put at [5, 5] 25 s earlier — two spawners stacked in the same defensive pocket against a Goblin Barrel / Mini P.E.K.K.A. deck. The opponent Rocketed that pocket 19 s later at t=639s.
+- t=729-736s, asked whether spawners are good in C.H.A.O.S.: 'Yeah, barbarian hut's not that good, though. I really think that the Tombstone is really good' — he rates the Tombstone above the Barbarian Hut in this mode.
+- t=433-443s (commentary only, no events in that stretch): with a C.H.A.O.S. modifier the Tombstone spawned Wall Breakers, which Jynxzi called out as 'you just get infinite wall breakers'; at t=355s a modified Log 'just like killed the whole tombstone'. Modifier behaviour, not the base card.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

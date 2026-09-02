@@ -225,6 +225,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 2:36 and 0:58: the two defensive uses, at tiles [8, 12] and [6, 10] on his own half, into the Bowler/Electro Giant lane.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=578-586s: tracked as an ally unit walking up the field from (17, 3) to (13, 8) while an opponent Royal Delivery landed at (14, 7) — the only Mighty Miner activity visible in the video, and he never comments on the card.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

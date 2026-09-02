@@ -699,6 +699,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 1:25 onward: the opponent's Skeletons are the recurring cheap block on his Berserker and Wall Breakers (tracked at (11-14, 15-19) repeatedly); Ryley answers them with the Bomb Tower at 1:21 and The Log rather than spending a troop.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=592s: played off the HUD (slot emptied, -1 elixir) as the cheapest cycle card in the covered game, about 3 s before he laid the Barbarian Hut. Placement not read; hand-read-only, so lower confidence than his deploy-labelled cards.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

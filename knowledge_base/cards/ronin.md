@@ -227,6 +227,14 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 0:48 (t=1482.5, deploy label at [3, 13]): after the King activation he names the Ronin as the reason the sequence worked — "that was a beautiful sequence right there just forcing him to have to defend the Ronin and then he just wasn't able to prevent the king activation like he was able to the first time" (t=1483-1489). He never uses the Ronin as a defensive tank in this game.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=611s and t=660s (C.H.A.O.S. vs Jynxzi; the battle clock was never read in this video): two Ronin deploy labels, both on his own half — the first deep and central at tile [8, 4], the second up near the river at [7, 11] to meet the incoming push. He never bridge-pushed it in the one game with event coverage.
+- t=660s: when Jynxzi asked why he had put a P.E.K.K.A. down, Ryley answered 'I HAVE THE RONIN, BABY' — the Ronin, not the P.E.K.K.A., is the card he trusts to handle the push.
+- t=671-679s: 'Chad, I'm telling you, if you're underlevelled, just use the Ronin, bro. Like, this guy is literally the underleveled Chad. The Ronin is the definition of an underleveled [card].'
+- t=361-387s: the Parry as a Golden Knight counter — 'he parries the dash, too. He parries everything... if the parry blocks the dash, then the Golden Knight just stops moving and it doesn't dash the stuff behind it. It's like a Golden Knight counter. Imagine you have your Witch right behind a Ronin. If the Ronin parries a Golden Knight dash, then it won't go to the Witch and the skellies. It will just stop right there.'
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ronin (scraped 2026-09-02T02:35:13+00:00)

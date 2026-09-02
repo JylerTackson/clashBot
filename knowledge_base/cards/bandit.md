@@ -208,6 +208,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4
 - Charges both lanes from clock 2:33 onward. The one successful Savage Survival of the game (Berserker t=945.9 [9, 9], ability t=949.4) is played onto a Bandit charge in overtime, and the last Berserker at t=1019.0 [11, 14] holds another at 0:07 — "let's go for the high berserker here. Beautiful. He only gets one bandit shot" (t=1020-1022).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=631s: one own deploy label at tile [4, 9], on his half near the left-side river — a punish / counterpush spot, played while an opponent Berserker was on the board. Jynxzi's laughing 'Look at the bandits' (plural, t=512-518s) refers to a C.H.A.O.S. modifier that multiplied them, not to the base card.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

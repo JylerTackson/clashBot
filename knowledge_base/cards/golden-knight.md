@@ -176,6 +176,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 1:08 (t=1469-1472): it dies into the freshly activated King Tower plus Tesla — "Nice king activation. Perfect and the golden knight's literally dead. Yo, he gives up. Nice."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=361-387s (mentioned, never played in this video): Ryley names the Ronin as a Golden Knight counter — 'if the parry blocks the dash, then the Golden Knight just stops moving and it doesn't dash the stuff behind it', so a Golden Knight dash into a Ronin is stopped dead instead of chaining into the support behind him.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

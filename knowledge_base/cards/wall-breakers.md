@@ -544,6 +544,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 1:01: used purely defensively as a kite, three of them landing on the left ([4, 14], [4, 13], [3, 14]) while a Knight walks that lane — "We can wall breakers to kite that knight back." The offensive payoff comes at 0:33 when a double connection takes the enemy right tower 3699 -> 2801 HP ("that's going to be a double connection I think. Come on. One, two. Beautiful").
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=433-443s and t=522s (mentioned, never played as a card): Wall Breakers appear in this video only as the output of a Tombstone C.H.A.O.S. modifier — Jynxzi: 'Look at the wall breaker. The tombstone. The tombstone... You just get infinite wall breakers.'
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

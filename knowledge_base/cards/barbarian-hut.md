@@ -104,6 +104,15 @@ Each spawn cycle sends out 1 small Mega Knight instead of regular Barbarians.
 - Rage interaction: the hut is affected by Rage and its lifetime decays faster, so no extra wave is produced, but the final wave spawns 3 Barbarians instead of 1 — a 2 Elixir investment returning about 2 Elixir of value, worth it if you need that last wave on defense.
 - In the Rage Challenge, building lifetimes are unaffected but spawn speed is boosted, giving up to 3 waves instead of the usual 2.33.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=595s: placed at tile [5, 5], deep in his own half well behind the river, as the anchor of a two-spawner pocket (Tombstone went at [5, 6] at t=620s). The opponent answered with a Rocket at [7, 14] at t=639s — the big-spell punish the hut always invites.
+- t=729-736s: 'barbarian hut's not that good, though... I don't think that the barbarian hut is that good anymore. It used to be the best.' He is negative on it in C.H.A.O.S. even while playing it.
+- t=808s: a second Barbarian Hut deploy label at tile [1, 11] in the last game of the window — but own elixir read 3 there and a P.E.K.K.A. label followed 2 s later, so that pair is not physically consistent and the placement should not be trusted.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Hut (scraped 2026-09-02T02:35:34+00:00)

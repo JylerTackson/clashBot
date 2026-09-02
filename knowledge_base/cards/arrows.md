@@ -216,6 +216,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5
 - Opponent's card, spent before the readable window. Ryley tracks it as the trigger for his bridge pressure twice: "He did use his Arrows, so..." (clock 1:49) and "The Evo Wall Breakers are going to be annoying because he did use the Arrows" (clock 0:22).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=291s and t=832s: the opponent's small spell in this session, read twice by deploy label. No Ryley commentary on it.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

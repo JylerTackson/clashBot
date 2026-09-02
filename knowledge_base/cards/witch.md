@@ -167,6 +167,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2
 - clock 0:52 and 0:12: he names Evo Witch as one of the two cards his deck cannot remove - "I can't really take out the EVO witch, and I can't really take out the Evo Inferno Dragon" - and spends a Savage Survival on it at the death: "I had a feeling I needed that ability here just to keep this alive so we can take out the witch."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=379-387s (mentioned, never played in this video): used as the example of support that a parried Golden Knight fails to reach — 'imagine you have your Witch right behind a Ronin. If the Ronin parries a Golden Knight dash, then it won't go to the Witch and the skellies.'
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

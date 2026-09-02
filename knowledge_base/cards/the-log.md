@@ -572,6 +572,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 2:28 / 1:47 / 0:28 / 0:03 / overtime: five uses in 190 s, mostly on his own half ([13, 8], [6, 14], [9, 14]) clearing the Skeletons and Bats that stack up on his Wall Breakers and Berserker.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=294s and t=326s: played twice onto Ryley's half by the opponent ([3, 0] and [4, 8]). Ryley on the C.H.A.O.S. version at t=346-355s: 'Oh, you have the boomerang log, bro. That log's kind of like — I want to see what it does'; then 'It just like killed the whole tombstone.'
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

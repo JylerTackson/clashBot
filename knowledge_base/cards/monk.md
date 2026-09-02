@@ -135,6 +135,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1
 - clock 0:57: he plans the ability around it — "if we just pop the berserker ability, it should help take out the monk."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=600-612s (mentioned, never played in this video): Ryley names the Ronin/Monk C.H.A.O.S. modifier as the best roll he knows — 'You know how I said the Ronin Monk one is the best one? If you have a different one on the Ronin, it's good to replace' — his one stated exception to always taking a fresh modifier.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Monk (scraped 2026-09-02T02:35:14+00:00)

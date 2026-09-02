@@ -547,6 +547,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 0:55 (t=1477.5): barrel plus Wall Breakers immediately after the opponent freezes his King Tower — "He just froze the king tower. Oh my god, let's barrel wall breakers here before he has time to save the game" (t=1476-1480); enemy left tower falls 3373 -> 265 between t=1482 and t=1488.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=606s and t=666s: Jynxzi's signature card in this session, read by deploy label twice (lvl 11) and tracked repeatedly between t=581s and t=807s across three of the four games. Ryley's answer was structural rather than reactive — two stacked spawners at [5, 5] and [5, 6] whose Skeletons cover barrel drops.
+- t=685-689s: the barrel modifier is the benchmark for a broken roll — Jynxzi: 'You got the goblin b[arrel] when I lost'; Ryley: 'It's not the goblin b[arrel] one, but it's pretty broken.'
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

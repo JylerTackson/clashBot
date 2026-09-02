@@ -731,6 +731,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 1:43 and 0:28: also runs her defensively, deep on his own half at [12, 4] and [3, 12] — "Berserker. Okay, we're good" — and at 0:14 saves 5 elixir specifically to get the ability off again: "Could we get the berserker ability down? Please, please, please, please, please. Ability."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=622-631s: read by deploy label (four re-reads of one label at the file's junk tile [4, 19], so its side attribution is unreliable). Discussed rather than analysed: at t=556s 'Oh my god, Berserker's in here', and when Jynxzi asked at t=563-566s whether he 'still has feelings for the Berserker after all the time away from Clash', Ryley answered 'I NEVER HAD FEELINGS FOR the Berserker, bro.'
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

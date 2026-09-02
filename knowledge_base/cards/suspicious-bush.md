@@ -226,6 +226,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=914.2s: Ronin dropped at [12, 6] for the express purpose of popping it — "we can just go for the rowan here for the bush"; and again at t=979 — "And we pop the bush. That's huge" (enemy left tower 3837 -> 2717 right after).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=576s: the first card he put down in the covered game, deploy label at tile [5, 9] — sent up his own half rather than kept back, i.e. used as the cheap offensive building-targeter it is rather than as defence. No commentary on it.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Suspicious_Bush (scraped 2026-09-02T02:34:57+00:00)

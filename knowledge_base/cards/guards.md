@@ -115,6 +115,11 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.m
 - clock 1:38 and 0:43: Ryley treats the opponent's Guards as evidence his bait is working — "he even went for the guards at the bridge cuz he still had to defend that princess" and, twenty seconds later, "forced out the guards there, which is nice."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=693-704s (mentioned, never played by Ryley): Jynxzi lost his Guards modifier and Ryley explained why — 'you dropped it right before you click the modifiers, so you get it on the next thing', which is the basis for his rule about not dropping cards just before the modifier timer.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Guards (scraped 2026-09-02T02:34:58+00:00)

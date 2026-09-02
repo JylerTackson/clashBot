@@ -235,6 +235,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0
 - opponent card, named twice and tracked in the left lane at clock 2:00 and 0:38. Ryley plans around them both times — "Those bats will actually tank for the minions as well" (1:24) and "He might try to get the minions down, but if he doesn't, we can just go for the quick poison" (0:22).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=322s: played off the HUD (slot emptied, -3 elixir) seconds after 'Good luck, bro' opened the game. Placement was not read, and this is a hand-read-only event in a video whose mean hand confidence is 0.345, so treat the card as probable rather than confirmed.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)
