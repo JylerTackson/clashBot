@@ -47,6 +47,7 @@ class HandDiff:
 @dataclass
 class PlayDetector:
     card_costs: dict[str, float]
+    DEBOUNCE: int = 3       # consecutive frames a new elixir value must persist
     tracks: dict[int, Track] = field(default_factory=dict)
     next_id: int = 1
     last_hand: list[str | None] = field(default_factory=lambda: [None] * 4)
@@ -58,22 +59,58 @@ class PlayDetector:
     recent_group: dict[str, float] = field(default_factory=dict)
 
     # ------------------------------------------------------------------ HUD
-    def update_hand(self, t: float, hand: list[str | None], hand_conf: list[float], min_conf: float = 0.5) -> None:
-        for i, (before, after) in enumerate(zip(self.last_hand, hand)):
-            if after is not None and hand_conf[i] >= min_conf and after != before and before is not None:
-                self.pending_hand.append(HandDiff(t, i, before, after))
-            if after is not None and hand_conf[i] >= min_conf:
-                self.last_hand[i] = after
-        self.pending_hand = [p for p in self.pending_hand if t - p.t <= OWN_MATCH_WINDOW]
+    EMPTY_WINDOW = 2.5      # seconds an emptied slot stays a play candidate
+    DROP_WINDOW = 0.45      # seconds over which the bar's drain animation is summed
 
-    DEBOUNCE = 3   # consecutive frames a new elixir value must persist
+    def update_hand(self, t: float, hand: list[str | None], hand_conf: list[float], min_conf: float = 0.5) -> None:
+        """In this HUD a played card's slot goes BLANK for ~1.5 s, then the next
+        card slides in. So the play signal is card -> None (or, for a
+        direct swap, card -> other card); None -> card is the refill."""
+        for i, (before, after) in enumerate(zip(self.last_hand, hand)):
+            confident = after is not None and hand_conf[i] >= min_conf
+            if before is not None and (after is None or (confident and after != before)):
+                self.pending_hand.append(HandDiff(t, i, before, after))
+            if confident:
+                self.last_hand[i] = after
+            elif after is None:
+                self.last_hand[i] = None
+        self.pending_hand = [p for p in self.pending_hand if t - p.t <= self.EMPTY_WINDOW]
+
+    def _finalize_drop(self, t: float, clock: str | None) -> list[PlayEvent]:
+        pd = self._pending_drop
+        self._pending_drop = None
+        total, e_before, e_after, t0 = pd["total"], pd["before"], pd["after"], pd["t0"]
+        best, best_err = None, 9.0
+        for p in self.pending_hand:
+            cost = self.card_costs.get(p.before)
+            if cost is None:
+                continue
+            err = abs(cost - total)
+            if err < best_err:
+                best, best_err = p, err
+        if best is not None and best_err <= 0.5:
+            self.pending_hand.remove(best)
+            self.own_play_cards_recent.append((t0, best.before))
+            return [PlayEvent(t0, clock, "own", best.before, None, e_before, e_after, "hud", "high",
+                              f"slot {best.slot} emptied ({best.before}), elixir -{total}")]
+        if best is not None and len(self.pending_hand) == 1:
+            self.pending_hand.remove(best)
+            self.own_play_cards_recent.append((t0, best.before))
+            return [PlayEvent(t0, clock, "own", best.before, None, e_before, e_after, "hud", "medium",
+                              f"slot {best.slot} emptied ({best.before}) but elixir -{total} != cost {self.card_costs.get(best.before)}")]
+        if total >= 2:
+            return [PlayEvent(t0, clock, "own", None, None, e_before, e_after, "inferred", "low",
+                              f"elixir dropped by {total} with no readable hand change")]
+        return []   # a lone 1-elixir drop with no slot change is read noise
 
     def update_elixir(self, t: float, elixir: int | None, clock: str | None) -> list[PlayEvent]:
-        """Call after update_hand. An elixir drop matched to a pending hand
-        change (by cost) yields an own PlayEvent. Readings are debounced: a
-        value must repeat DEBOUNCE frames before it counts, so bar-edge
-        flicker never becomes a play."""
+        """Call after update_hand. Debounced elixir drops are summed over the
+        drain animation (DROP_WINDOW) and then matched to an emptied slot."""
         events: list[PlayEvent] = []
+        if not hasattr(self, "_pending_drop"):
+            self._pending_drop = None
+        if self._pending_drop is not None and t - self._pending_drop["t_last"] > self.DROP_WINDOW:
+            events += self._finalize_drop(t, clock)
         if elixir is None:
             return events
         if elixir != getattr(self, "_cand", None):
@@ -84,27 +121,10 @@ class PlayDetector:
             return events
         if self.last_elixir is not None and elixir < self.last_elixir:
             drop = self.last_elixir - elixir
-            # match against pending hand changes: the card that LEFT the slot
-            best = None
-            for p in self.pending_hand:
-                cost = self.card_costs.get(p.before)
-                if cost is None:
-                    continue
-                if abs(cost - drop) <= 0.5 or (cost <= drop and best is None):
-                    best = p
-                    if abs(cost - drop) <= 0.5:
-                        break
-            if best is not None:
-                self.pending_hand.remove(best)
-                cost = self.card_costs.get(best.before, drop)
-                events.append(PlayEvent(t, clock, "own", best.before, None, float(self.last_elixir), float(elixir),
-                                        "hud", "high" if abs(cost - drop) <= 0.5 else "medium",
-                                        f"slot {best.slot}: {best.before} -> {best.after}, drop {drop}"))
-                self.own_play_cards_recent.append((t, best.before))
-            elif drop >= 2:
-                events.append(PlayEvent(t, clock, "own", None, None, float(self.last_elixir), float(elixir),
-                                        "inferred", "low", f"elixir dropped by {drop} with no readable hand change"))
-            # a lone 1-elixir drop without a hand change is treated as read noise
+            if self._pending_drop is None:
+                self._pending_drop = {"t0": t, "t_last": t, "total": drop, "before": float(self.last_elixir), "after": float(elixir)}
+            else:
+                self._pending_drop.update(t_last=t, total=self._pending_drop["total"] + drop, after=float(elixir))
         self.last_elixir, self.last_elixir_t = elixir, t
         self.own_play_cards_recent = [(tt, c) for tt, c in self.own_play_cards_recent if t - tt <= 3.0]
         return events

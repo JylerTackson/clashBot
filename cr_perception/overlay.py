@@ -52,7 +52,10 @@ def draw_units(img: np.ndarray, h: g.Homography, units, show_bbox: bool = True) 
 
 def draw_rois(img: np.ndarray, rois: dict, color=(0, 200, 255)) -> None:
     H, W = img.shape[:2]
-    for name, (x, y, w, h) in rois.items():
+    for name, box in rois.items():
+        if len(box) != 4:
+            continue                       # e.g. elixir_bar_full = [x0, x1]
+        x, y, w, h = box
         p0 = (int(x * W), int(y * H))
         p1 = (int((x + w) * W), int((y + h) * H))
         cv2.rectangle(img, p0, p1, color, 1)
