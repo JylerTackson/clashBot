@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 scripts/kb/.phase2_scratch/
+data/
+*.pt
+*.onnx

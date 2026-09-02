@@ -1,0 +1,12 @@
+numpy
+opencv-python-headless
+pillow
+scipy
+onnxruntime
+rapidocr-onnxruntime
+mss
+torch            # CPU wheel is enough: pip install torch --index-url https://download.pytorch.org/whl/cpu
+ultralytics==8.1.24   # KataCR checkpoints unpickle against this API
+pytest
+yt-dlp
+yt-dlp-ejs
