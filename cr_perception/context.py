@@ -354,7 +354,7 @@ _ALIASES = {
     "p-e-k-k-a": ["pekka", "pecka"], "mini-p-e-k-k-a": ["mini pekka"], "goblin-barrel": ["barrel"], "royal-giant": ["rg"],
     "lava-hound": ["lava", "hound"], "x-bow": ["xbow", "x bow", "crossbow"], "inferno-tower": ["inferno"],
     "inferno-dragon": ["inferno drag"], "baby-dragon": ["baby drag"], "skeleton-army": ["skarmy", "skeleton army"],
-    "mega-minion": ["mega minion"], "giant-skeleton": ["giant skelly"], "royal-hogs": ["hogs"], "goblin-giant": ["gob giant"],
+    "mega-minion": ["mega minion"], "giant-skeleton": ["giant skelly"], "royal-hogs": ["hogs", "royal hog", "piggies", "piggy"], "goblin-giant": ["gob giant"],
     "fire-spirit": ["fire spirit"], "ice-spirit": ["ice spirit"], "dart-goblin": ["dart gob"], "spear-goblins": ["spear gobs"],
     "wall-breakers": ["wall breakers", "wb"], "heal-spirit": ["heal spirit"], "mother-witch": ["mother witch", "mw"],
     "goblin-drill": ["drill"], "little-prince": ["prince"], "archer-queen": ["aq", "queen"], "skeleton-king": ["sk"],
