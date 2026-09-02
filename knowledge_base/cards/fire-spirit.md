@@ -246,6 +246,59 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1407.7s at [14, 10] alongside the Ice Spirit on the three-Rascals push - "Fire spirit we need the ice spirit as well" (1403-1405s). Nine Fire Spirits in the game, every one of them defensive.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 1:19 (t=97.1): 1-elixir Fire Spirit at the right bridge [14, 13] to answer the opponent's 6-elixir Elixir Collector with tempo — "Okay, he goes for an Elixir Collector. Let's go for the Fire Spirit here at the bridge. Just try to keep up some pressure."
+- clock 0:50 (t=126.1): Fire Spirit at [13, 12] used as protection for his bridge Magic Archer, not as chip — "then fire spirit to keep that Magic Archer alive. Just make sure I finish off the tower." (Both of these were logged on the opponent's side by the pipeline; the commentary shows they are his.)
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:18 (t=195.2, tile [15, 14]): Fire Spirit onto a Bomber that has crossed into his half; the Bomber never gets a shot off — "And now the bomber also won't get a shot on the tower."
+- clock 0:58 (t=275.3, tile [13, 14]): "Let's go for the fire spirit here and we're just going to go for a magic archer early."
+- clock 0:33 (t=300s commentary) and clock 0:14 (t=319.3, tile [10, 14]): paired with the Tesla as the cheap splash layer of the closing defence — "We need to go for a Tesla fire spirit here on defense." (All four Fire Spirit deploy labels were sided to the opponent by the pipeline despite landing on Ryley's own half; the per-game hand read wrongly listed Archers in this slot.)
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:34 (t=407.4, tile [6, 13]): used as a 1-elixir aggro-pull to drag two different enemy troops off their path, not for damage — "Maybe a Fire Spirit as well just to bring the Berserker a little bit over and the Roane and too" (t=403).
+- clock 0:34 (t=466.8) and clock 0:18 (t=483.5, [13, 13]): the same trick twice more in the closing defence — "Fire spirit like this. Bring this over" (t=468), "Fire spirits to bring this upwards. Nice" (t=483).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 0:44: deliberately delayed at (2, 13) so it lands on the Evo Bats rather than being wasted — 'I'm going to wait a second cuz he might try to bats. Yep, there it is' (630-631s).
+- clock ~1:05: he holds it because the opponent can pre-empt it with a spell — 'He could even try like a pre-log on the fire spirit, so I think I'll rather delivery on top' (610-613s).
+- clock 0:11: at (14, 11) alongside Royal Delivery and Skeletons on a Miner — 'delivery on top of the miner, fire spirit, and skeletons' (660-664s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 1:04 (t=784.8, label at [6, 14]): first half of a two-card, 2-elixir defence — "let's go for the Fire Spirit here and then Skeletons to kite back that Phoenix."
+- clock 0:17 (t=831.8, label at [12, 14]): dropped directly onto the opponent's Evolution Archers, and explicitly framed as a bad Lightning target — "we can go for a fire spirit on top of the archer. Fire spirit bad lightning."
+- clock 1:03 (t~788): cited as an example of why the deck works — "I feel like the one elixir cards are just too strong, man. We get too many good trades out of them."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:48: first card of the match at tile [3, 14] into the opponent's Baby Dragon and Goblins opener.
+- clock 1:43: held deliberately as the answer to the opponent's hero ability rather than spent on cycle — "Then we have the fire spirit ready for the ability. Yep, fire spirit here. Beautiful fire spirit."
+- clock 0:10: thrown in with a barrel as a two-card, four-elixir chip package — "Just go for the barrel fire spirit."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- clock 2:47: opens the game with a scouting Fire Spirit at the left bridge, tile [1, 14] — "going to fire spirit here. Figure out what this guy is using".
+- clock 2:02 and 1:13: dropped at [14, 14] behind Wall Breakers as the second layer of the bridge push; the 2:02 pair is what forces the Bomb Tower out.
+- clock 0:31 and 0:11: used as glue for other cards — "fire spirit to keep this alive" behind a Goblin Barrel, and "Fire spirit in front just to keep it alive and lined up" to hold a Magic Archer's chip line.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 2:23 (t=1389.2): Fire Spirit on the river tile [8, 15] for 1 (HUD 5.0 -> 4.0), used to change what the Bowler attacks rather than to kill anything — "Let's go for the fire spirit up top just to make the bowler not target the tower and that should activate the king tower" (t=1389-1394). It over-pulls: "no because the the troops moved it too much... I think it moved it way too much" (t=1396-1409).
+- clock 1:22 and 0:48 (t=1452.5 at [14, 13], t=1484.5 at [5, 7], both deploy labels score 1.0): two more Fire Spirits on defence during the Zappies and Graveyard waves, no commentary attached.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

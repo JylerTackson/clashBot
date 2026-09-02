@@ -233,6 +233,11 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:31 (t=335.3, tile (8, 7)): Musketeer placed deep on his own half as a repeat of a play that had already worked that clip — "then we can go for another musketeer here, guys. Great prediction by us."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's Evo Musketeer, the card Ryley respects most in the matchup — "The only thing that we have problems with here, I think, is the Evo musketeer. The Evo musketeer can be so annoying sometimes, man" (clock 1:54-1:50), and he tracks its rotation into overtime ("we have to be careful, though, cuz he has a musketeer Evo coming up", clock 0:03). Answered with Skeletons on top at OT 1:10 ("block the musky").
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

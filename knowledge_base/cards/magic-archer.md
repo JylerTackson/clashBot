@@ -327,6 +327,64 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - Possible hero variant, unconfirmed: four own 2-elixir drops with no hand change (t=1263.8, 1332.3, 1399.4, 1421.8) fit the Heroic Magic Archer's 2-elixir Triple Threat ability, two of them within seconds of a Magic Archer deploy label, but Wall Breakers also cost 2 and the commentary never names the ability.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 1:56 (t=59.1): first Magic Archer at [8, 11], on his own half behind the Tesla, as defensive support against an Electro Dragon walking the left lane.
+- clock 0:56 (t=120.1): Magic Archer placed at [15, 10], right at the bridge in the right lane, as the closer — "I think I want to Magic Archer through the bridge here just to finish that tower off, so then even if I lose mine, everything will be all good." He then spends a Fire Spirit to protect it: "then fire spirit to keep that Magic Archer alive" (t=127).
+- clock 0:39 (t=136.6): 2 elixir leaves his bar with no card leaving his hand, immediately after "Let's step back here. Beautiful step back" (t=135) — the Hero variant's Triple Threat ability (teleport back plus decoy) used to pull the Magic Archer out of the Golem push rather than trade it. The commentary never says "Hero", so the variant is inferred, not stated.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:34 (t=179.2, label at [14, 12], own elixir 7 -> 3): Magic Archer placed on his own half behind the Ronin counterpush, as support rather than as an opener.
+- clock 0:55-0:45 (t=288.6, label read as 'CARCHeR' at [1, 8], elixir 8 -> 5): he explicitly cancels the early Magic Archer and puts the Ronin down first — "we're just going to go for a magic archer early. Actually, maybe let's not. Let's go for the Ronin first so it can target onto the Ronin with the mega minion and then we can go for a nice magic archer here."
+- clock 2:22-2:07 (t=192-206): this is his Hero slot, and he calls it a preference — "if you don't have the hero [Magic Archer], you can always use the dart goblin in this deck as well. I do just prefer the hero [Magic Archer] just to have a hero in the deck, but you can always like replace it with the hero goblins and stuff like that." (Transcript reads "hero match guard through"; the -3 elixir step at t=288.6 fits the 3-cost Heroic Magic Archer, the -4 steps elsewhere fit the normal card, so the variant is likely but not proven.)
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:57 (t=385.6, deploy label at [1, 1]/[2, 2]): placed in the far back corner specifically because he intends to defend for a long time — "Let's Magic Archer here in the corner as well. Probably going to support this really hard."
+- clock 1:24-1:16 (t=417-427): declines a second one and declines the Hero reposition, on the read that the first will trade with the Baby Dragon — "I can just go for a second Magic Archer if I want to. I think I'll just chill though cuz this one should be able to just take out the Baby Dragon nicely. I want to step back as well. Is there even a point to step back though? I mean, probably not. Let's just let that die."
+- clock 0:57 (t=443.8): a second corner Magic Archer for the second Golem wave, with the evolutions he is scared of named — "Let's go for the Magic Archer here. Evo Witch is going to be tough and Evo Baby Dragon too cuz his next Baby Dragon is Evo."
+- clock 0:38 (t=462.3, own elixir 6.0 -> 3.0 with no hand change): this is the Hero variant's 2-elixir 'Triple Threat' reposition, spent to save the Archer — "we need to step back here to keep the marcher alive. I need that to live" (t=463-464).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 1:50: placed at (15, 9), on the far side of his own half — 'Okay, let's just go for a magic archer here. I like to put it on the side here so they can't activate the king tower off of it. Just makes life a little bit easier' (565-571s).
+- clock 0:53: at (5, 12) pre-empting the opponent's Evo Bats — 'He might try to get a nice set of Evo bats here though, so I'm going to go for the magic archer here to take this out' (621-625s).
+- clock 0:25: the same archer is his finisher on a 142-HP tower from the bridge — 'Just magic archer the bridge here to try to finish off that tower. Come on, magic archer, lock in. One one shot, bro, please' (651-655s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:43 (t=685.5, label at [2, 13], elixir 8.0 -> 4.0): deliberately over-aggressive opening deploy after seeing Barbarian Barrel — "I'll just go for the early magic archer. I know this is really aggressive, but screw it, man. I'm feeling crazy today." Enemy left tower 4858 -> 4400 by t=690, and he accepts the shot line drifting: "it does usually walk out of line, but that's not really like the end of the world."
+- clock 2:04 (t=724.4, label at [16, 11]): a defensive placement chosen because the Hero can retreat — "I like this placement because I can always just step back if he goes for like a Baby Dragon or something." This is the Hero variant (heroes/magic-archer-hero.md); the Triple Threat teleport-and-decoy is the "step back" he keeps referring to, and two own 2-elixir drops with no hand change (t=824.0, t=828.0) sit where activations would.
+- clock 1:17 (t=771.8, label at [12, 13], -4 elixir): used as a ranged snipe on a defensive Bowler — "let's just go for the Magic Archer here to snipe that Bowler down. And then if he goes for the ability later, we can just step back."
+- clock 0:29 (t~819) he cancels a planned Magic Archer to keep it out of a spell — "Let's not even magic archer at all. I think we just want to cycle back cuz I think he's going to get a lightning down" — then holds it in overtime as the answer to a block: "we have the magic archer ready for the barbarian barrel" (t=885), signing off with "Beautiful magic archer geometry" (t=896).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:20: placed at tile [2, 8], deep behind his own left tower, against a vertical column of Zappies, a goblin-brawler and a Little Prince — "I'm just going to magic archer for the beautiful lineup right there."
+- clock 1:20: placed at tile [9, 0] directly in front of his own King Tower because a big spell was still unaccounted for — "Let's march [magic archer] here. We could give him like a good lightning or a good fireball if he has but I have a feeling he has vines."
+- clock 0:32: a "low magic archer here off to the side" at tile [1, 8], behind a Royal Delivery laid on top of it.
+- overtime (t=1087): placed at tile [13, 21] on the opponent's half as an experiment — "We magic archer like this. Wait, does this even work? I don't think that would work, but it's fine. I'm just testing."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Played as the Hero variant: at OT 1:47 he corrects a misplacement with the 2-elixir Triple Threat teleport — "Oh, no, I misclicked. Oh, I have to ability back. I meant to put it one tile further back. It's fine, though." (inferred from commentary plus unexplained 2-elixir drops; the ability button is not visible in the capture).
+- clock 1:50: placed deep in his own corner at tile [9, 1] — "Let's march her here in the corner like before cuz we don't want to give him any type of king tower activation".
+- clock 0:11: the chip line-up trick — Magic Archer at [15, 15] with a Fire Spirit dropped in front of him: "we can just go for the magic archer here on top of this. Fire spirit in front just to keep it alive and lined up. Nice. We get a few more hits before it unaligns itself".
+- clock OT 1:16: his anti-Balloon tool at [13, 11] — "let's go for the magic archer here to start sniping down the loon early"; at OT 1:22 he counts him as half the win condition: "we just need one more magic archer shot or one more barrel connection".
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 1:38 (t=1435.4, deploy label 'Magic ARcHeR' score 1.0; the matching 4-elixir HUD drop at t=1435.6 was slot-read as Skeleton Dragons): Magic Archer at tile [8, 11], centre of his own half, splitting the four Zappies coming down both lanes at once. He does not comment on the card and no Hero ability use could be identified in this game.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

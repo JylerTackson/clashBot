@@ -488,6 +488,24 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1420.4s: he finishes the game predicting it with a bridge Magic Archer - "I'm just going to magic archer the bridge predicting the barb barrel" (1422-1423s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:45 (t=684): the first opponent card he identifies, and it immediately shapes his opening — "Okay, he has barbarian barrel. I guess I'll just go for the early magic archer."
+- clock 1:43 (t=746-749): the opponent spends it on the Magic Archer instead of the Goblin Barrel, which is what lets the Wall Breakers plus barrel double connect — "Where's the Barbarian Barrel? That's way too much damage. Oh wait, I'm stupid. He used the Barbarian Barrel on the Magic Archer."
+- clock 0:57 (t=793): thereafter he plays around it explicitly — "Let's Goblin Barrel here, force him to use the Barbarian Barrel, and then we can just go for the Evo Wall Breakers."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 0:36: the opponent's Barbarian Barrel onto his push, which Ryley rated the correct answer — "He just goes for the barbarian barrel. Well, that was definitely the best play he could have made."
+- overtime: its absence from the opponent's cycle is what he counts on to close the game — "he has no barbarian barrel in cycle and he can't fully defend a barrel."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's Goblin Barrel answer; Ryley plays the whole game around its rotation. He barrels when it is absent ("he has no barbarian barrel in hand", clock 2:25), plays to force it out ("Make him use the barbarian barrel", clock 1:34), barrels once it is spent ("since he wasted the barbarian barrel", clock 0:31), and pre-empts it ("he has to go for the barbarian barrel anyways, and then that's going to line up onto the tower", OT 1:44).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

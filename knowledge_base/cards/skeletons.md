@@ -587,6 +587,64 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.
 - clock 0:40-0:38: two more Skeletons during the final defence alongside Firecracker and The Log.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 2:24, 1:50, 1:14 (t=32.0 [3, 15], t=68.1 [6, 13], t=102.3 [11, 8]): 1-elixir drops in front of advancing units on his own half, used as disposable distraction and to keep the cycle short between Goblin Barrels — no commentary on any of them.
+- clock 0:27 (t=148.8): Skeletons pushed up to [3, 19] on the enemy half while he is already far ahead on towers, as cheap chip rather than defence.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 1:16 (t=257.6, tile [7, 14], elixir 7 -> 6): one-elixir distraction dropped in front of a Dark Prince crossing the river.
+- clock 0:35 and 0:27 (t=297.8 at [8, 13], t=307.3 at [7, 10]): both layers of the closing defence, used to drag charging units off their path — "we can go for the skeletons here as well just to bring this over" and, after the Evo Wall Breakers, "then we can go for the skeletons."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:50 (t=391.4, tile [8, 13]): the standard kite against Golem-plus-Ronin — "Okay, he has a Roane. Let's go for the skeletons to kite this in."
+- clock 1:34 (t=408): Skeletons are the last card of the defensive stack he calls his best sequence of the game — "Skellies here and that is a masterclass defense right there, guys. Let's go."
+- clock 0:48 (t=453.5, [8, 9]): used to buy time for a Royal Delivery rather than to kill anything — "We can go for the Skellies to protect this delivery on top of the Witch."
+- clock 0:19 (t=482.3, [8, 11]): still kiting in the last 20 seconds — "Then we can go for the skeletons over here to kite this. And then delivery as well. And I think we're good." He plays Skeletons nine times in the readable window, never offensively after the opening.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 0:48: 'Oh, bad spear goblins. Let's go for the skellies here' (624-626s) — dropped at (14, 15) at the bridge to eat a badly placed Spear Goblins.
+- clock 0:35: the last card of his defensive stack against Evo Bats and goblins — 'and then just skeletons on defense. Very good defense' (639-641s), at (2, 5).
+- clock 0:15-0:12: two 1-elixir cycles in three seconds while at 2-3 elixir, part of 'delivery on top of the miner, fire spirit, and skeletons' (660-664s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:28-2:26 (t=699.7 at [10, 8], t=702.7 at [10, 10]): cheap early distraction while he is still reading the opponent's deck.
+- clock 1:03 (t=785.3, label at [13, 13], elixir 8.0 -> 7.0): paired with Fire Spirit as a kite — "Skeletons to kite back that Phoenix" — followed by his general rule, "the one elixir cards are just too strong, man. We get too many good trades out of them."
+- clock 0:40 (t=808.0, label at [8, 8]): the "skelly split" he calls before playing it, spreading them against a Bowler/skeleton push before barrelling for pressure.
+- overtime clock 1:18 (t=891.1, label at [15, 13]): the final defensive play of the match — "We can skellies to block the archers and then that's going to relock. And that's good game."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:38 and 1:36: cheap centre placements at tiles [9, 14] and [9, 7] to distract the opening Baby Dragon and Goblins push while he cycled.
+- clock 2:04: split beside his own King Tower at tile [9, 1], the deepest placement of the game.
+- clock 0:51: added behind the push as support — "We can go for another magic archer here plus skellies."
+- clock 0:19: part of the Golem kite at tile [8, 13] — "We have to go for a skellies wall breakers like this kite everything nice good kite on top of that."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- The most-played card of the game (eleven HUD drops plus five deploy labels in 252 s), used as a 1-elixir block on everything: on the Miner at clock 2:43 ([9, 13]) and 1:30 ([14, 12]) — "Oh, he has the minor. Okay, let's go for the skellies here".
+- clock 2:15: Skeletons at the bridge tile [4, 13] to protect a pushed-up Magic Archer — "Let's skellies here at the bridge. I do want to push this magic archer to make it harder to activate king".
+- clock 0:33-0:25: two blocks in the same defence — "Let's go for the skeletons here to block for this" then "Skellies here to block the little dude. Nice. Good block on the dude. And that's going to take out the balloon as well. Beautiful defense".
+- clock OT 1:10 and OT 0:57: used on the Evo Musketeer ("block the musky. Keep this alive") and to eat the opponent's ability ("Tesla here, skellies to block the ability. Oh, he popped it a little bit too early anyways").
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 2:27 (t=1386.4, deploy label on his own half): Skeletons used as a pull, not as damage — "We can go for the skeletons over just to yank that bowler in" (t=1386-1388), setting up the Fire Spirit retarget for the King activation.
+- clock 1:46 (t=1427.9): Skeletons at tile [14, 12] for 1 (HUD 7.0 -> 6.0) into the right-lane push while he counts the opponent's hand.
+- clock 0:42 (t=1490.5): Skeletons at tile [3, 19] on the opponent's half for 1 as the game runs out.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

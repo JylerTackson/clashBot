@@ -256,6 +256,12 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.
 - clock 0:51 and 0:13 (t=121-123, t=160-162): answered with The Log both times — "I'm going to go for the Log here as well just make sure that we take out that Tombstone," then "Oh my god, and look, it took out the entire Tombstone. Nice."
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:21 (t=707): named as soon as it appears — "Okay, he has a Tombstone" — while he is still guessing between Royal Giant, Lumberjack and Golem decks.
+- clock 0:05 (t=844): it dictates his Wall Breakers timing — "I don't want to go for them just yet though because the tombstone will take out my wall breakers."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

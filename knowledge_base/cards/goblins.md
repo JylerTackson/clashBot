@@ -209,6 +209,17 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.
 - overtime clock ~1:49 and 1:10 (t=1164-1197): the defence he pre-empts twice with The Log — "I'm going to pre-log as well cuz he's either going to Goblins or Mega Knight" and "I'm just going to log here for the Goblins. The Skellies should block some Goblin shots and get us an extra shot".
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:12 (t=201-202): mentioned only, as an alternative hero for the same slot — "you can always like replace it with the hero goblins and stuff like that. Just all these different kinds of substitutions just to whichever fits your card levels better."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:51-2:26: part of the opponent's opening alongside Baby Dragon — "Baby dragon and goblins"; Ryley kited a Goblin with Wall Breakers at clock 2:32 rather than spending a real answer.
+- clock 0:12: he tracks the enemy hero Goblins ability as a defensive risk — "He has the goblin ability. I have to be careful of that. I think we're fine though. I don't think it really matters that much."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

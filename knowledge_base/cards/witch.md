@@ -155,6 +155,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 1:55 and 1:24 (t=1417.4 at [11, 12], t=1448.4 at [9, 14]): repeat Witches into his half are met with Mother Witch plus Berserker plus Heal Spirit instead of a spell, feeding the Cursed Hog conversions that end the game.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:48 (t=394): reacts to the opponent's placement as a mistake — "Oh my god, really bad witch" — and immediately Royal Deliveries it: "Let's delivery here to make sure that we finish that off."
+- clock 0:47 (t=443-456): names the Evolution as the hardest card in the matchup — "Evo Witch is going to be tough" — and answers it with Royal Delivery protected by Skeletons: "go for the Skellies to protect this delivery on top of the Witch."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

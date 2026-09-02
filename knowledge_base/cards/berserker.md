@@ -670,6 +670,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - OT 1:31: reads the opponent's Hero Berserker ability as a bad trade — 'he [used the] berserker ability, but that's not good for him because it only tanks for a few seconds'; last-seconds placements at [14, 5] and [12, 6] are 'behind the tower' blocks.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:34 (t=403-404): mentioned as a target to be pulled off-lane rather than killed — "Maybe a Fire Spirit as well just to bring the Berserker a little bit over and the Roane and too."
+- clock 0:15 (t=489): dismissed as non-lethal in the last seconds — "The berserker on the left is not going to finish off our tower."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

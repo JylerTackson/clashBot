@@ -158,6 +158,16 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - Opponent card, one detector track crossing on the left at [2, 15] (t=1353.4). Not discussed on the transcript; it arrives during the Fire Spirit + Ronin defensive rotation at t=1353-1357.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 1:53: detected at tile [3, 13] on Ryley's half and tracked down the left lane from clock 2:16; he swept it up in the same Magic Archer line as the Zappies rather than answering it separately.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, played at t=1375.4 at tile [3, 17] behind a Zappies in the left lane. Ryley answers the pair with a single Royal Delivery at [4, 14] (t=1377.9) rather than splitting his answers. No commentary on the card by name.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

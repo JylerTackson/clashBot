@@ -378,6 +378,11 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 1:03 (t=366.4, tile (16, 8)) and clock 0:31 (t=335.3, tile (2, 12)): Cannon placed on the far side as part of the same predict-then-block pattern rather than as a reaction to a push.
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 1:29-1:23: opponent's building, and Ryley reads it as a losing answer to Goblin Barrel plus Wall Breakers before it is even played — 'The cannon here is going to sell him very hard. He has to go for like yep, a building plus spear goblins. And look at all that damage, guys. The cannon here is doing absolutely nothing for defense' (587-594s). It lands at (9, 18) at t=592.6 while the enemy right tower drops 2594 -> 1634.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

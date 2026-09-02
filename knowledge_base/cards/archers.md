@@ -300,6 +300,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - clock 1:25: he values them as a Rocket magnet — 'with my Evo Archers, maybe I could actually go for a push cuz the Evo Archers do usually force him to Rocket'.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:11-2:08 (t=719-721): identified as an Evolution and treated as a surprise in this shell — "he goes for the Archers. Interesting that he has Evo Archers with this deck."
+- clock 0:19 (t=829) and overtime clock 1:17 (t=891): answered with the cheapest cards in hand — "we can go for a fire spirit on top of the archer" and "We can skellies to block the archers and then that's going to relock."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

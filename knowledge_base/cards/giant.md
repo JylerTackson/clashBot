@@ -159,6 +159,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:03: grades the opponent's last Giant as a cycle mistake, not a placement one — "I knew that he went for a bad giant cuz he didn't have his dark prince back in cycle yet and that's like his main defense."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:02-1:52 (t=212-225): mentioned, not seen in an event, but it drives the deck's key rule — "there is a pro tip in these giant matchups. Never put your Ronin right next to the giant when you're initially trying to reflect the prince or the dark prince, cuz they can giant ability the Ronin to the opposite lane."
+- clock 1:42 (t=233): once the tank shows he reads the whole deck off it — "Okay, giant double prince should not be too much of an issue cuz the Ronin is just going to be able to reflect everything."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant (scraped 2026-09-02T02:34:51+00:00)

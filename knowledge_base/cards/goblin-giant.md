@@ -154,6 +154,11 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.m
 - overtime 1:57-1:32 (t=509-532): when it finally lands, the Hero Berserker ability answers it — "That's going to soak up the shot, but then also help take off the goblin giant" and "Oh, he did get down the goblin giant. All good."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:37 (t=174-176): mentioned only, in the same incorrect early read — "It does look like a goblin giant sparky deck."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Giant (scraped 2026-09-02T02:35:02+00:00)

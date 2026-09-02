@@ -165,6 +165,16 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
 - clock 1:54 (t=199.4): one HUD cast (-2 elixir), alongside the Skeletons and the Goblin Barrel that open the ability-then-barrel sequence. Unnarrated.
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:25 and 0:37 (t=186.2 at [12, 15], t=294.3 at [4, 15]): the opponent's splash unit, answered first with a Fire Spirit — "And now the bomber also won't get a shot on the tower" — and later inside the closing defence: "Make sure we take out the bomber. Beautiful defense right there, guys."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 2:42: opponent's card, played at (0, 16) at t=510.5 in the opening exchange and answered by a Royal Delivery at (2, 7). Ryley never comments on it.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

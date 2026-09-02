@@ -205,6 +205,23 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.
 - clock 1:43 (t=1043.7): kited again with Ice Golem when 6.8s from the tower — "Let's ice go on here just to kite this away"; in overtime he plans the same trade into the Firecracker — "Hopefully the Firecracker can take out the Baby Dragon too. I think we could kite the Baby Dragon over to the Firecracker" (1181-1186s).
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:23 (t=356.4, tracked from [16, 24] to [15, 6]): rides the right lane unanswered and the tower loses four ~269 HP chunks (4858 -> 3513) between clock 2:13 and 2:07 — Ryley spends the time scouting instead of defending.
+- clock 1:16 (t=420-427): chooses to trade his corner Magic Archer for it rather than spend more — "this one should be able to just take out the Baby Dragon nicely ... Let's just let that die."
+- clock 0:57 (t=445): flags the Evolution as the real threat — "Evo Baby Dragon too cuz his next Baby Dragon is Evo." At clock 0:16 the last one is handled with a Wall Breakers body: "Wall breakers here to tank for the baby dragon" (t=486).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:03 (t=728-731): mentioned only, never seen — the card he keeps a retreat option for when he places the Magic Archer, "I can always just step back if he goes for like a Baby Dragon or something. I know he already has Phoenix, but there's a chance he has like a Baby Dragon, too."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:51-2:26: the opponent's opening card, advancing down the left lane from tile [1, 16]; Ryley answered with Fire Spirit then Royal Delivery placed under it — "I'll delivery on the baby dragon."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

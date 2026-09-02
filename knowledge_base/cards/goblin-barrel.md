@@ -488,6 +488,65 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1399.4s and t=1417.4s: two more barrels at [3, 26] as pure tempo while the enemy left tower falls 1949 -> 164 HP - "Just barrel here again. Just keep up the pressure. Just want to keep being as aggressive as possible" (1398-1401s), "Just barrel here cuz he's spamming everything" (1418s). Seven Goblin Barrels in 200 seconds, six of them on the same tower.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 2:42, 2:07 and 1:31 (t=13.0, 47.0, 83.1): three Barrels onto the same enemy left Crown Tower (deploy labels [4, 22], [3, 25], [2, 23]) while the opponent is setting up a Golem, grinding that tower from 4,858 HP down to 301 by t=90. He does not comment on the Barrel itself — it is the background chip between his defensive cycles.
+- clock 0:27 (t=150.2): a fourth Barrel while already far ahead, thrown as free damage rather than as part of a push.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:17 (t=195.7): Goblin Barrel at tile [15, 26], enemy right tower, elixir 8 -> 5, played the moment the Ronin's counterpush has the lane clear; the tower steps 3120 -> 2891.
+- clock 1:36 and 1:14 (t=237.2 label at [3, 23], t=259.1 at [14, 26], elixir 7 -> 4): two more barrels onto the same damaged tower, taking it 1600 -> 1142 -> 684. He never plays it defensively and never comments on it — in this game it is pure follow-up chip behind the Ronin.
+- clock 2:48-2:42 (t=170.2, label at [2, 23]): a barrel label lands in the same second as the opening Ronin, inside a single -4 elixir step, so one of the two is a label artifact (see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:37 (t=343.7, HUD 9.0 -> 6.0): barrelled onto the side where the opponent had just placed his Elixir Collector — "Let's go for the barrel here, here, top of the elixir collector."
+- clock 1:09 (t=432.6, deploy label [3, 25]): the only offence of the second half, and framed as cycle rather than chip — "let's go for the Barrel plus Wall Breakers here cuz I need to cycle and apply some pressure." The enemy left tower drops 4265 -> 1801 HP over the next six seconds.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 1:57: throws the barrel at the enemy right tower (13, 24) the moment the opponent wastes a Log — 'Okay, bad log right there. We can go for a goblin barrel now as well'; enemy right tower 4164 -> 2978 within two seconds.
+- clock 1:31: barrel at (14, 26) paired one second later with Wall Breakers in the same lane — 'Let's go for the barrel plus wall breakers here. The cannon here is going to sell him very hard'; the opponent's Cannon lands but 'is doing absolutely nothing for defense' (592s).
+- clock 0:48 and 0:31: switches lanes and barrels the untouched enemy left tower twice, at (3, 24) and (3, 26) — 'He's going to eat that. Let's barrel keep up the pressure' (643-645s); that tower goes 4164 -> 526 over the same stretch.
+- clock ~1:55: names the evolution as the reason the plan works — 'having that cannoneer is very nice for us so cuz when we get to the Evo barrel, this guy's just going to be in a complete scramble to defend' (558-563s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:48 (t=679.5): opens the game with a scouting barrel at tile [2, 23] (elixir 9.0 -> 6.0) rather than waiting for value — "with the goblin barrel here. Trying to figure out what this dude is playing."
+- clock 1:50 (t=739.7, label at [2, 23]): barrel thrown together with Wall Breakers as the match-deciding double — "Let's go for the Wall Breakers and Evo Barrel. He probably has to go for like the Barbarian Barrel plus like a nado, I think." Enemy towers fall 4400/4527 to 2304/1907 within four seconds.
+- clock 0:58 (t=789.8, label at [14, 24]): used purely as spell bait ahead of the real push — "Let's Goblin Barrel here, force him to use the Barbarian Barrel, and then we can just go for the Evo Wall Breakers and then a Magic Archer at the bridge here."
+- overtime clock 1:25 (t=882.9, label at [13, 26]): places it off-centre because he expects a block — "Let's barrel here off to the side... He has to block this but I'm just going to drop it at the bridge anyway cuz what? He can just archers or tombstone."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:36: opening barrel onto the enemy right tower at tile [15, 23], thrown as much for information as damage — "goblin barrel I guess. Hmm. I want to figure out the rest of his deck real quick."
+- clock 2:04: second barrel at tile [14, 24], placed off-centre against a Tornado he had not seen — "I don't think he has NATO [Tornado], but I may as well be safe. There's no reason not to be safe right now." The enemy left tower read 4858 -> 4171 over the next four seconds.
+- clock 1:04: the Evolution barrel headlines the game-winning push alongside Evolution Wall Breakers — "we can go for the Evo barrel here. This going to be a really nice Evo barrel push cuz we can go for the Evo wall breakers with it as well"; the enemy right tower fell 4335 -> 527 within six seconds.
+- overtime (t=1096): the closing barrel at tile [3, 26], decided on a cycle count — "All we have to do is go for another goblin barrel guys and we win the game cuz he has no barbarian barrel in cycle and he can't fully defend a barrel unless he lightnings it at this point."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- clock 2:31: barrel onto the right Crown Tower at tile [14, 26] (9 -> 6 elixir) sent together with a Ronin at the bridge — "Ronin plus goblin barrel at the bridge would be pretty good right now cuz it keeps our magic archer alive and he has no barbarian barrel in hand".
+- clock 0:31: barrel at [14, 24] the moment the opponent's answer is gone — "We can go for the barrel since he wasted the barbarian barrel, and fire spirit to keep this alive".
+- clock OT 1:44: barrel at [14, 24] timed off the opponent's spell rotation — "Let's barrel here, cuz he has to go for the barbarian barrel anyways, and then that's going to line up onto the tower, unless he goes for the snowball, which would be smart".
+- clock OT 0:50: the winning offset barrel at [14, 21] — "Let's do a trick barrel. I'm going to do it one tile in the front, just so if he goes for the snowball, then it actually doesn't counter, unless he catches it. Come on. Barrel, let's go." followed immediately by "GG's".
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 2:47 (t=1365-1368): before playing it he flags how often it shows up — "Going to go for the goblin barrel, dude. I feel like I've had goblin barrel in almost every starting hand so far this game."
+- clock 2:03 (t=1409.4, deploy label 'obliNBaRRel' score 0.957): thrown while expecting the Tornado answer — "Let's go for the barrel here on the right. I think he's going to [Tornado] that, but then he won't be able to..." then "Okay, wait, we get one. Nice" (t=1410-1414); enemy right tower 4858 -> 4298 at t=1416.
+- clock 1:29 (t=1444, own 3-elixir drop; logged as an opponent play by the pipeline): placed off-centre on purpose against a Tornado deck, as the second half of the Wall Breakers pair — "then we can go for the evo barrel off to the side. Make it a little bit harder to activate" (t=1444-1446).
+- clock 0:55 (t=1477.5): barrel plus Wall Breakers immediately after the opponent freezes his King Tower — "He just froze the king tower. Oh my god, let's barrel wall breakers here before he has time to save the game" (t=1476-1480); enemy left tower falls 3373 -> 265 between t=1482 and t=1488.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

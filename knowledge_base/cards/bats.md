@@ -198,6 +198,17 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - clock unknown (video 658s): closing verdict on the game — "we took too much bats damage, guys. That was close, though."
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 0:31 (t=300.3): the only Bats track of the game, inside the opponent's two-lane push; it is one of the reasons the air-hitting Royal Delivery and Tesla carry the defence. Detector-sourced and flagged "spawned on own half", so the reading is soft.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 1:10: opponent's Evo Bats; he tracks them in hand long before they appear — 'I know he has the Evo bats in hand, so we have to be very, very mindful of that' (606-608s), and again 'I was waiting for him to go for the bats, but for some reason he seemed to never go for them' (617-620s).
+- clock 0:53-0:44: plays two cards purely to pre-empt them — Magic Archer at (5, 12) ('He might try to get a nice set of Evo bats here though, so I'm going to go for the magic archer here to take this out', 621-625s) and a held Fire Spirit ('I'm going to wait a second cuz he might try to bats. Yep, there it is', 630-631s). Evo Bats are tracked from t=636.6.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

@@ -261,6 +261,24 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.
 - clock 1:33: he calls the Zappies the correct answer to his own bridge Elite Barbarians — "He could zap these two though to be fair. Zappies is definitely a valid play by him" (t=764-766). A three-Zappy column is then tracked down his left lane from clock 0:47 through OT 1:27, and The Log is his repeated answer to it.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:16-2:12 (t=363-370): reasons about the opponent's deck from a card they did NOT play — "Maybe he doesn't have the Zappies cuz I feel like if he had Zappies, he would have played them right there. Unless he just unluckily didn't have them in cycle."
+- clock 1:28 (t=413-416): closes the question by cycle-counting — "he's used all of his cards already, so we know he doesn't have Zappies anymore." Mentioned only; no Zappies appear in the events.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:23 onward: deployed repeatedly down the left lane in threes (t=926.9, 995.0, 1001.0, 1079.1, 1105.1). Ryley used their tight column formation against them — the Magic Archer at clock 2:20 was placed for "the beautiful lineup right there."
+- clock 1:43: he counts them as one of the two known cards in the opponent's hand — "Right now he has Zappies, wizard, and two cards he hasn't shown yet in his hand."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, the most frequent one on the field: t=1371.4 [2, 21], t=1375.4, t=1431.4 [8, 19] and t=1437.4, four of them walking both lanes at clock 1:38-1:32. Ryley answers the first wave with Royal Delivery (t=1377.9) and the later one with a centred Magic Archer (t=1435.4).
+- clock 1:50 (t=1424-1428): he predicts the card before it is played — "I think he'll zappies because of this... Yeah, he'll have to get some zappies down" — and it arrives at t=1431.4.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

@@ -179,6 +179,24 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.
 - clock 0:35-0:25 (t=136-146): an arena-detector track labelled Golem walks the opponent's left lane, but it starts the moment the Mega Knight track at [8, 25] ends and may be the same unit relabelled; no deploy label ever confirms a Golem.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 1:14-1:03 (t=102-118): he plays around the Golem before it exists, putting a Ronin near the bridge to remove the free back-tank placement — "I'm going to Ronin closer to the bridge so he can't just Golem in the back. He's going to have to defend it or give up his tower. Okay, that's fine with me." He had predicted it at t=101: "He's probably going to eat everything and go for a Golem."
+- clock 0:52-0:37 (t=122-141): when the Golem finally lands at [13, 19] with Battle Healer and Poison, he answers with Tesla, Fire Spirit, Royal Delivery on the Baby Dragon and Ronin on the Mini P.E.K.K.A., and rates the exchange as free — "that's just completely dead. Dude, this deck's defense is just so powerful, man."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:59 (t=380.4, tracked at [4, 21]) and clock 1:03 (t=438.4, [4, 24]): the opponent's win condition, dropped at the back both times. Ryley's stated answer is a high Tesla rather than a bridge punish — "Okay, he just goes for the Golem in the back. I'm going to go for the Tesla like this because it's going to pull the Golem really, really far" (t=372-376).
+- clock 1:50-1:26: the first Golem still connects — his left tower goes 4695 -> 3118 HP between clock 1:36 and 1:26 — and he still rates the defence a success because the support died: "that is a masterclass defense right there, guys ... he's used all of his cards already" (t=408-416).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 0:39: appeared in the opponent's back left at tile [4, 22], twenty seconds after Ryley predicted it from the deck's weight ("it could be a golem deck", 931s) — "There's the golem in the back that we thought that he had but weren't sure."
+- clock 0:42-0:08: he answered it with an early central Tesla plus Skeletons and Wall Breakers pressure rather than a hard counter, and it still broke his left tower at roughly clock 0:08.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

@@ -220,6 +220,17 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.
 - clock 1:10: he chooses to eat the full Graveyard rather than over-defend, trading tower HP for a king activation — "I'm going to eat all of this graveyard damage, guys, just to activate the king tower off of this bowler. It's definitely worth it, I think, unless that ice golem just perfectly kites it forever" (t=787-793). His left tower goes 4858 -> 3200 in that window and the activation never lands.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 0:48 (t=450.4, tracked at [9, 4] on Ryley's side): the opponent's second win condition arrives during the triple-elixir Golem wave. Ryley does not name it in the commentary; his response is the same generic package he uses for everything else — Tesla at [9, 10], Skeletons at [8, 9] and Royal Delivery at [2, 13] between clock 0:51 and 0:47.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent win condition, and Ryley calls it off the opening before it appears — "Okay, bowler and zappies. Yo, this could be graveyard freeze, actually. Graveyard freeze would be interesting" (t=1376-1380). Cast at t=1383.4 on his right tower (which loses 60 HP) and again at t=1461.5 at [6, 0] on the left.
+- clock 1:12 (t=1461.5): the second Graveyard is answered with the late Tesla he had been saving for the King activation, so one card handles the defence and the activation together (t=1460-1465).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

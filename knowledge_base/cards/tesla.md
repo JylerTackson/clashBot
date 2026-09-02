@@ -285,6 +285,64 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - clock 0:39: his takeaway for the next game is to lead with the pair — 'Next time I'm just going to go for the X-Bow Tesla'.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 2:32 (t=24.0): opens defence with a Tesla well back at [7, 5], centre, then puts the Ronin in front of it.
+- clock 1:56-1:45 (t=60-74): names the Tesla as the fix for the list's old air weakness — "you do have the delivery and the Tesla. I made a video on a similar deck with the Cannon and without the Royal Delivery as well, but I do think that this variation is a little bit better cuz the other one was quite a bit weak to air units. But now this one, you have the Tesla and the delivery just helping out on defense so so much."
+- clock 0:54-0:50 (t=121.8-125.1): Tesla at [8, 9] / [7, 10] is the first card down against the Golem, Battle Healer and Poison push — "I'm going to Tesla here like this" (t=126).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:05-2:03 (t=207.9-210.0): Tesla at tile [8, 10], centre of his own half, against a Prince the tracker has at "tower in 4.2s" — "Let's Tesla here, and then we can go for the Ronin down low." Always reactive, never an offensive pull.
+- clock 0:58 (t=274.1, tile [4, 12], elixir 9 -> 6): pre-emptive Tesla in the opposite lane before the opponent's dual-lane push develops.
+- clock 0:33 and 0:17 (t=299.3 and t=315.3, both at tile [8, 9]): the anchor of the closing defence, paired with the cheap splash — "We need to go for a Tesla fire spirit here on defense."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:07 (t=374.5, tile [9, 9]): pre-placed high, ahead of a normal defensive spot, the moment the Golem goes down at the back — "I'm going to go for the Tesla like this because it's going to pull the Golem really, really far and it's going to start shooting it a little bit earlier than a normal Tesla placement."
+- clock 2:05 (t=382-385): names the trade-off of pre-placing after the lifetime change — "since the Tesla got that lifetime nerf, it can be a little bit sketchy to have to pre-place Teslas. But with my card cycle, I kind of had to."
+- clock 0:51 (t=450.1, [9, 10]) and clock 0:25 (t=476.5, [10, 10]): repeats the same pull placement twice more against the second Golem wave and the Ronin — "Let's Tesla here like this again just to be annoying" (t=448), "Tesla here for the Ronan" (t=476). Five Teslas go down in 173 seconds, all in the same band of tiles ([8-10], rows 9-10).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock ~2:48: opens with it dead centre of his own half at (8, 11) — 'Let's go for the Tesla here in the middle' (506-507s).
+- clock 1:17: at (8, 12) against Wall Breakers, and he flags it as a concession — 'Just Tesla here for the wall breakers. I don't want to Tesla the wall breakers too often, but I feel like recently I've been a bit forced to' (599-605s).
+- clock 0:38: at (8, 9) as the first card of a three-card stack against the Evo Bats push — 'Let's Tesla here' (636s), followed by split Wall Breakers and Royal Delivery.
+- clock 0:17: tucked at (0, 8) right beside his own Crown Tower rather than at the usual pull distance — 'I'm just going to Tesla low here next to our tower. Step back here. Keep this alive' (657-660s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 1:57 (t=732.7, label at [5, 2], elixir 7.0 -> 3.0): placed for spell safety first — "let's Tesla here and we do it up top just to make sure that he can't get any lightning value. It just really really avoids giving him value."
+- clock 0:47-0:31 (labels at [8, 11] t=801.8 and [8, 9] t=816.8): the anchor of his stated defensive stack against a Bowler push — "we can go for a magic archer plus Tesla on defense. Let's Tesla first" — leading to "Okay, perfect. We fully countered that."
+- clock 0:13 (t=836.8, label at [8, 10]): the closing piece of a defence against Electro Giant, Evolution Archers and Phoenix — "we have to go for the Tesla here. Beautiful counter. That should take out the Phoenix egg."
+- overtime clock 1:42 (t=867.9, label at [8, 9], with a -4 HUD drop at t=849.5): re-laid to pull the second Electro Giant while he waits out the enemy spell — "Let's Tesla here. Then we have to wait for the lightning and then we can go for the Ronin."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 0:42: dropped early at tile [8, 10], dead centre, the moment a Golem appeared in the back — "we have to be careful on defense now guys. Let's go for a early Tesla here in the middle."
+- clock 0:17: second Tesla at tile [0, 10], far left, sited on the enemy Wizard rather than the tank — "We have to go for a Tesla here on top of the wizard and then you have to get a delivery down as well."
+- overtime (t=1081): pre-emptive Tesla at tile [9, 9] against a possible pocket play — "Let's Tesla here in case he tries to do anything in the pocket."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- clock 1:40: he values the Tesla as hidden information before ever placing it — "He doesn't know we have Tesla yet, so there's a chance he could assume that we have the cannon, which is good for us. Always nice for them to underestimate".
+- clock 1:20-1:12: the stated double-elixir plan — "in double elixir, we'll have more elixir to spam those Teslas down. Try to get a Tesla on the left and the right side of lanes so he can never go in".
+- clock 0:52 and OT 1:32: Tesla at [9, 9] / [9, 10] pre-placed against the Balloon — "Let's go for the early Tesla here", "we can go for an early time Tesla here just to start cycling our defense. He's going to go for a balloon"; at clock 0:03 into overtime, "We just need to cycle two Teslas here on defense".
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 2:28 (t=1384.7): Tesla at tile [11, 6] for 4 (HUD 8.0 -> 4.0) against a Bowler plus Graveyard, placed for the King Tower rather than for the cleanest defence — "I'm going to go for the Tesla here to try to activate the king tower" (t=1382-1384). The attempt fails to a Freeze (t=1401).
+- clock 1:12 (t=1462.5, deploy label at [6, 6] score 1.0): the same idea played late and behind a bridge Ronin, into the second Graveyard — "then I can go for the late Tesla on defense to activate king cuz he has to go for the golden knight here and then he can't defend the Tesla... Yeah, let's Tesla like this" (t=1460-1465). Own King HP becomes readable at t=1472: "Nice king activation. Perfect and the golden knight's literally dead" (t=1469-1471).
+- Both Teslas are defensive-only placements on his own half; the card is never used as a lane blocker at the bridge.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

@@ -169,6 +169,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.
 - clock 2:03 and 0:11 (t=54-56, t=169-172): never played as a card — Ryley uses the word three times for the Evolved Elite Barbarians' spear mechanic. "it rages everything in the e-barbs path, which is actually kind of ridiculous," "it damages the e-barb, and it rages mine," and finally the judgement that the rage is not even the main upgrade: "Just makes them so much better offensively. Not even like with the rage, just with having that like Spear Goblin damage, it feels like."
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 1:57 and 0:23 (t=214.2 at [11, 8], t=308.3 at [3, 8]): cast on Ryley's half behind pushes that die anyway; he names it in his first deck read at 172s ("the dark prince zap and rage") and never has to spend anything extra for it.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

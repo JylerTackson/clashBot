@@ -170,6 +170,16 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:13 (t≈571): spent 3 elixir on Vines purely to keep one Goblin alive on a counter-push — "let's Vine spell here just to keep that one Goblin alive."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:32 (t=348-351): spotted mid-sentence while Ryley is committing his whole hand, and it changes his plan for the rest of the game — "he might have a — okay, yeah, he has the vines there. I was going to say he might have a spell and we need to pressure him very hard." Only mentioned; no Vines play is captured in the events.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 1:14 (mentioned, never seen): his guess for the opponent's unshown card, reasoned from deck weight — "I have a feeling he has vines. His deck gives kind of vines vibes since his deck is already quite a bit heavy. It wouldn't make too much sense to have an even heavier deck."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

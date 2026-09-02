@@ -227,6 +227,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1464-1470: the reason the second Hound never became a push - "he couldn't really lava hound because I had the evo piggies in cycle and he still had to deal with the furnace." He flags the one window he gave up at 1510-1513s: "here is when I knew he had an opportunity to go in for a lava, but otherwise I did a really good job at pressuring throughout the game."
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 1:12 (t=260-262): mentioned only, as the matchup where his headline card falls apart — "in a lot of the match ups like against say a Lava Hound deck, Ronin is absolutely terrible."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

@@ -112,6 +112,12 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.
 - clock 2:03 (t=48.0, tile [6, 23]), clock 1:57 (t=54.1, tile [4, 17]) and clock 0:07 (t=164.2, tile [15, 20]): the opponent's Phoenix is the one card that reaches Ryley's tower in this game — the tracker flags it as a tower threat at clock 1:53-1:47 and his left tower loses 269 HP at t=70.1. He answers with The Log + Hero Ice Golem + The Log (clock 1:52 to 1:46) rather than a hard counter, and never names the card in the commentary.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:33 (t=695): calls out a bad placement — "Okay, bad Phoenix. He can't activate King Tower from there."
+- clock 1:03 (t=785): answered for 2 elixir total — "let's go for the Fire Spirit here and then Skeletons to kite back that Phoenix" — and at clock 0:11 the Tesla finishes the reborn egg, "That should take out the Phoenix egg."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Phoenix (scraped 2026-09-02T02:35:30+00:00)

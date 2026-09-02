@@ -145,6 +145,12 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=788.8s: answered with an early Bomb Tower at (8, 9) rather than a reactive defence - "let's just early bomb tower"; the push never connected and he called it "game over" at t=800s.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:08 (t=718.7, enemy track at [15, 23]) and overtime clock 1:50 (t=856.9 at [15, 20]): the opponent's win condition, which Ryley never answers with a big card — Tesla plus Skeletons pull and stall it while Fire Spirit and Royal Delivery clear the support.
+- clock 1:37-1:31: the matchup lesson of the whole game — "I feel like early E-Giants against this type of log bait deck is just like a death wish, man. You're not able to do anything after that."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Giant (scraped 2026-09-02T02:35:05+00:00)

@@ -93,6 +93,13 @@ Not specified on source page
 - Against Goblin Barrel, do not spend Zap or Rage trying to help — he already one-shots the Goblins; use those spells for their side effects, or a spell like Barbarian Barrel that does one-shot Goblins.
 - Single-troop scouting (Dart Goblin, Spirit cards) is ineffective against him, unlike against Tower Princess.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock ~1:55: mentioned, not played — his tower troop, and the reason he thinks the barrel plan is unanswerable: 'And having that cannoneer is very nice for us so cuz when we get to the Evo barrel, this guy's just going to be in a complete scramble to defend' (558-563s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannoneer (scraped 2026-09-02T02:33:02+00:00)

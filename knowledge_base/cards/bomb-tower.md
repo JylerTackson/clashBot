@@ -342,6 +342,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1409.4s at [11, 14] holds the opponent's biggest push of the game while the enemy left tower drops to 376 -> 164 HP - "We have the bomb tower here. This should blow up everything. What a bomb tower placement, guys" (1411-1414s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's defensive building, and Ryley's stated target for elixir attrition — "I think I can force out the bomb tower here. If I can keep forcing out more and more elixir from him" (clock 2:02). When it lands at [8, 19] he rates it badly: "Oh, bad bomb tower. We actually have a pretty good chance to get him good in single elixir" (clock 1:59).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

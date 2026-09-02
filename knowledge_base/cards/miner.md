@@ -256,6 +256,17 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - clock unknown (video 465-466s): he accepts the chip rather than over-defending — "we're going to take a decent bit of minor [Miner] chip though. Not the end of the world though."
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock ~1:45: opponent's card. Ryley calls it before it lands and pre-places Royal Delivery plus Skeletons for it — 'Oh, no, it's It's to jump on the mine. Yep, I literally knew the miner was going to come in' (573-577s); the Miner appears at (1, 5) at t=578.6.
+- clock 0:15: answers a second Miner on the right with a three-card package — 'We can go for the delivery on top of the miner, fire spirit, and skeletons' (660-664s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent card. Identified at clock 2:45 ("Oh, he has the minor") and answered with 1-elixir Skeletons each time; at clock 1:30 the Ronin cleans it up — "could the Ronin take out the miner, please? Nice". At OT 1:55 he pre-blocks a Miner that never comes: "Skellies here for the miner. Okay, he didn't even go for that".
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

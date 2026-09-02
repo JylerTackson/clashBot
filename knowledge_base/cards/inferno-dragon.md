@@ -239,6 +239,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.
 - clock 1:25 (t=1059.1-1069.1): he notes losing the cheap answer to it — "We will have to watch out for the mega knight at the bridge though, cuz you don't have skeletons to distract the inferno dragon anymore" (1058-1062s).
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, mentioned but never seen on the field in this window. Ryley corrects his own card count with it at clock 1:44-1:34 — "right now he has zappies, graveyard, freeze, and [Tornado] in his hand. Or well, not freeze actually. He has the inferno dragon and not the freeze. K, bowler, inferno dragon, graveyard, and [Tornado]. Next card freeze" (t=1428-1437).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

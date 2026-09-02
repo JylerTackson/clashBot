@@ -212,6 +212,12 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.
 - clock 1:57-1:43 (t=1032-1043): mentioned only, never played by the opponent; it is the reason he holds his Firecracker — "Maybe he could even have a balloon in here... so I think I'm going to save my firecracker, but the thing is, if he had balloon I feel like he would have already used it when I cycled my firecracker".
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's win condition (eight mentions). Predicted from the first exchange — "minor balloon with the Evo musketeer actually. That would be an interesting match up" (clock 2:35) — and answered every time with Tesla + Skeletons + Royal Delivery: "that's going to take out the balloon as well. Beautiful defense" (clock 0:20), "Just delivery here. Take the balloon out" (OT 1:08).
+- clock OT 1:22: a Balloon placed in the back is treated as harmless once the defence is cycling — "This guy can't do anything, even with the balloon in the back. It just cooked for him".
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

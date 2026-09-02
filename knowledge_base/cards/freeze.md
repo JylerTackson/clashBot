@@ -197,6 +197,12 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.
 - clock 2:16 and 0:38: he reads the archetype as Graveyard Freeze on sight ("Wait, it could be graveyard freeze actually. No way, it looks like it's graveyard freeze", t=695-698) and counts forcing it out as value in itself: "we forced out a nice freeze as well" (t=722). When it is spent badly he says so — "Okay, bad freeze" (t=817).
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 2:25-2:12: the card that beats his first King Tower activation — "He okay, yeah, he goes for the freeze" (t=1388), then "Great freeze by him to prevent the activation. I thought that by pulling it like that I could still end up getting the activation" (t=1401-1407).
+- clock 0:57 (t=1476): used a second time on the King Tower itself once the game is already lost for the opponent — "He just froze the king tower. Oh my god, let's barrel wall breakers here before he has time to save the game" (t=1476-1480). Ryley also tracks it in the opponent's cycle: "Next card freeze" (t=1437).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

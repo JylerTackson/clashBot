@@ -124,6 +124,17 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md
 - clock 0:47-0:37 (t=1221-1232): a second Collector goes up at [16,27] and he gives the cheap-deck counter-argument — "one nice thing is that he can't like spam us with expos cuz if he tries to spam us with expos obviously he's going to have to put one of them in the middle and that's obviously not going to work cuz I'll be able to get at it really easily."
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 1:17 (t=98.1): the opponent's Collector at [16, 26] is treated as a pressure cue, not something to punish with a spell — he answers with a 1-elixir Fire Spirit at the bridge: "Okay, he goes for an Elixir Collector. Let's go for the Fire Spirit here at the bridge. Just try to keep up some pressure."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:35 (t=344.3, tracked at [1, 26]): Ryley's Goblin Barrel goes onto it immediately — "Let's go for the barrel here, here, top of the elixir collector" (t=343-345).
+- clock 1:12 (t=429-430): banks elixir at 8 and holds specifically to punish a second one — "I'm going to wait for him to go for a potential Elixir Collector."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Collector (scraped 2026-09-02T02:35:34+00:00)

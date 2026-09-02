@@ -136,6 +136,11 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.m
 - overtime 0:48 (t=576-580): his preferred spell answer — "we can definitely fireball here on top of that Sparky. It is always nice to fireball the Sparky."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:37 (t=174-176): mentioned only, in a first deck read that turns out to be wrong — "It does look like a goblin giant sparky deck." By 233s he has corrected it to Giant double Prince.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Sparky (scraped 2026-09-02T02:35:08+00:00)

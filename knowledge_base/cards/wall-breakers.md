@@ -430,6 +430,67 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.
 - clock 2:14: opponent Evo Wall Breakers answered on reflex with The Log — "Let's log here for the wall breakers." Detected again at (3, 4) on his half at clock ~0:55.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 2:19 (t=37.2): Wall Breakers at tile [4, 14] used as cover for a Ronin, not as standalone chip — "It looks like this guy has a Golem deck. I'm going to go for the Wall Breakers here so he can't do anything on that Ronin." The enemy left tower drops 3,759 -> 1,453 within seven seconds: "Oh my god, nice. That's two shots. Beautiful start." (t=42)
+- clock 1:39 (t=76.9): plays the Evolution copy behind the Ronin — "Let's go for the Evo Wall Breakers here in the back, and then we can go for the Ronin like this."
+- clock 1:12 (t=103.8): 2-elixir drop used purely to freeze a beatdown opponent in a second lane — "I'm going to Wall Breakers here just kind of threaten that right side tower cuz he doesn't want to sack two towers, of course. That would definitely not be the move cuz then he would just have a guaranteed loss."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:48 (t=165.2): opens the game by splitting Wall Breakers at the bridge centre tile [8, 15], elixir 9 -> 8, before he has read the opponent's deck.
+- clock 0:27 (t=306.3, label at [13, 15]): sends the Evolution pair as a counter-attack while still defending a two-lane push — "Let's Evo wall breakers to pressure him while defending and then we can go for the skeletons." (The label was sided to the opponent by the pipeline; the commentary one second earlier corrects it.)
+- clock 1:48 (t=228.2, label at [14, 12]): a Wall Breakers label on his OWN half rather than at the bridge, i.e. the defensive/kiting placement, alongside a -1 elixir step.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:48 (t=331.7): opens the game with a split Wall Breakers at tile [8, 14] off 9 elixir purely as a scout — "Just going to split my wall breakers here to try to figure out what this man is playing. Not too sure what this could be right now." A second one goes down at [14, 13] at t=347.3; by clock 2:25 the enemy right tower has fallen 4858 -> 1661 HP, the only large tower damage of the match.
+- clock 1:43 (t=399.4, deploy label [11, 14]) and clock 0:43 (t=458.5): switched entirely to a defensive kiting tank against the opponent's Ronin — "we need to go for a Wall Breakers to kite the Roane" (t=399), "I do think I want to go for the Wall Breakers to kite the Roane and backwards" (t=458).
+- clock 1:09 (t=434.1, HUD -2 mislabelled 'Tornado'): paired with the Goblin Barrel as a cycle tool rather than for damage — "let's go for the Barrel plus Wall Breakers here cuz I need to cycle and apply some pressure. Getting to the Evo Wall Breakers will be super nice as well."
+- clock 0:32 (t=470.5, [12, 10]) and clock 0:08 (t=492.0, [14, 13]): the Evolution used as a body to soak a whole push — "we need to go for the Evo wall breakers to tank for everything ... that's going to kite that back to damage baby dragon. Nice. What a kite" (t=469-476), then "Wall breakers here to tank for the baby dragon and kite the Ronan once again" (t=486).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 1:29: dropped at (13, 15) one second behind a Goblin Barrel in the same lane so the defending building has to choose — 'Let's go for the barrel plus wall breakers here. The cannon here is going to sell him very hard' (585-588s).
+- clock 0:38: used defensively, split in the middle at (9, 14) — 'We can split our wall breakers to take one of the dark prince charges, and then we can go for the delivery here as well' (636-639s).
+- clock 2:35 and 0:03: solo bridge pressure at (4, 14) and (11, 14), the second one thrown out as the buzzer runs down.
+- clock 1:17: on the receiving end he treats spending Tesla on the opponent's Wall Breakers as a loss — 'I don't want to Tesla the wall breakers too often, but I feel like recently I've been a bit forced to' (601-605s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:21 (t=707.7, label at [15, 14]): played with no push behind it, only to avoid capping elixir — "I do just have to waste my Wall Breaker sadly cuz I obviously can't just sit there with max elixir."
+- clock 1:50 (t=738.7, label at [9, 13]): the decisive play of the game, landing with the Goblin Barrel while the opponent's Barbarian Barrel had been spent on the Magic Archer — "Where's the Barbarian Barrel? That's way too much damage. Oh wait, I'm stupid. He used the Barbarian Barrel on the Magic Archer."
+- clock 0:56 and 0:42 (t=792.8 at [3, 14], t=806.8 at [2, 14]): the follow-up half of his stated bait chain, sent only after a Goblin Barrel has drawn the Barbarian Barrel.
+- clock 0:05-0:03 (t=846.8) and overtime t=883.7 / t=889.2: he holds them a cycle to dodge the opponent's building — "We have Evo barrel and Evo wall breakers. I don't want to go for them just yet though because the tombstone will take out my wall breakers."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:32: played defensively at tile [7, 13], well back from the bridge, purely to kite a Goblin — "Let's go for the wall just to kite that goblin way to take no damage. Not not even give him a little bit."
+- clock 1:47: offensive pair at the left-lane river tile [4, 15] — "Let's go for the wall breakers here."
+- clock 0:42: paired with a defensive Tesla against an incoming Golem as a pressure tax — "we wall breakers to threaten his tower or he has to give our Tesla even more value before the push even gets started."
+- overtime (t=1100): last play of the match at tile [9, 19] on the opponent's half — "Let's go for the wall breakers and that's GG's."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- clock 2:02-1:58: Wall Breakers at [14, 14] backed by a Fire Spirit forces the Bomb Tower out and takes the enemy right tower from 4858 to 3705 HP — "I think I can force out the bomb tower here. If I can keep forcing out more and more elixir from him".
+- clock 1:08: Wall Breakers at [8, 14] as pure elixir pressure — "Let's Evo wall breakers early and then go for the Evo barrel just to apply some more pressure and not give him a good opportunity to go in. He has to use a lot of elixir here".
+- clock OT 1:53: used defensively-by-proxy in overtime, to deny the opponent a commit — "Let's go for the wall breakers, though, just to apply pressure, so he can't go all in right now. He can't ability. He has to defend".
+- clock OT 1:13: Wall Breakers at [14, 14] (4 -> 2 elixir) into a board he has already locked down — "Yo, the wall breakers. Perfect."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 2:41 (t=1371.9, own 2-elixir drop, deploy label at [13, 14]): his first play of the readable window, chosen over the Ronin out loud — "I'm going to go for the ronin here, I mean, uh not the ronin. Sorry, the wall breakers here" (t=1371-1374).
+- clock 1:32-1:29 (t=1441-1443): Wall Breakers first, then Goblin Barrel, as a named pair — "We do have the nice evo barrel wall breakers push here. Let's go for the wall breakers here then we can go for the evo barrel off to the side" (t=1439-1444). Enemy right tower is down to the 2000s by t=1452 and he calls it "nice damage on the right side" (t=1450).
+- clock 0:57 (t=1477.5, deploy label at [2, 14]): repeated with the barrel to close the game out while the opponent is frozen (t=1478).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

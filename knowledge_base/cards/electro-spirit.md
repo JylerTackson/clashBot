@@ -507,6 +507,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.
 - clock 0:28: Electro Spirit into a late Mother Witch that he calls a mistake by the opponent - "bad Mother Witch as well. That Mother Witch is going to get completely taken out."
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Mentioned once, not seen: at clock 2:17 Ryley reads the opponent's cheap answers and says "He has to go like skellies plus snowball. Oh, he has e-spirit. That's annoying". No Electro Spirit event appears in the capture.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

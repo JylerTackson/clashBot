@@ -239,6 +239,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.
 - clock 0:13: last Ice Golem at (8, 13) into a Flying Machine plus Battle Healer push while the outro is already running.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's cheap tank, tracked repeatedly in the right lane in front of the Balloon. Blocked by Ronin at clock 0:47 ("Let's Ronin here. Block this... beautiful block right there") and dismissed at clock 0:03 — "Bad ice golem, too".
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

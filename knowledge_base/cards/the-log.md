@@ -478,6 +478,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.
 - clock 0:42: a 2-elixir drop with no readable hand change alongside a Firecracker at (9, 8), matching his call "Firecracker log here. We have to just make sure that we defend" - the only Log usage visible in the readable window.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 1:59: opponent's spell, known only from commentary. A wasted Log is what opens the door for his first barrel — 'Okay, bad log right there. We can go for a goblin barrel now as well' (555-557s) — and the threat of it changes his defensive card choice later: 'He could even try like a pre-log on the fire spirit, so I think I'll rather delivery on top' (610-613s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

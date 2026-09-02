@@ -150,6 +150,11 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.m
 - clock 1:47 through overtime: seen only as Goblin Hut spawns rather than as a played card, but they are the match's main chip source and the X-Bow's main obstacle — repeated spear-goblin tracks reach his towers from t=804 onward while the hut placement itself "blocks an Expo" (898-901s).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 0:48: opponent's card, used three times (t=524.5, t=592.6, t=652.7) as the cheap partner to the Cannon; Ryley punishes a bad one with Skeletons — 'Oh, bad spear goblins. Let's go for the skellies here' (624-626s). He also names them as the opponent's forced answer to the barrel: 'He has to go for like yep, a building plus spear goblins' (588-590s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

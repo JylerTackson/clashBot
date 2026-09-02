@@ -200,6 +200,12 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
 - clock 2:07 and 1:43 (t=141.1 and t=165.2, both tile [1,8]): two deep left-lane defensive placements during the bridge-spam clip. Unnarrated — a defensive anchor while the predictions happen elsewhere.
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 0:56: the opponent used the Wizard's hero ability on his Evolution barrel push — "Good wizard ability but maybe not good enough because now the Ronan is just staying far away from the wizard so it doesn't splash the barrel."
+- clock 0:17-0:05: he sited a Tesla "on top of the wizard" and then lost his left tower to it — "I didn't think that the wizard was actually on the tower"; afterwards, "I thought the wizard was on the delivery. That's why I said the game was over."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

@@ -168,6 +168,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.m
 - overtime 0:38-0:32 (t=584-592): two different resets on it — "We can log for the Dark Prince" and "High e-spirit for the Dark Prince."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:42-2:25 (t=171-186): the opponent's opener, tracked at [12, 8] then [11, 6] with "tower in 1.4s", killed by a single Ronin — "it will never not surprise me how much value the Ronin gets on these melee units."
+- clock 0:37-0:23 (t=296-320): comes back twice more at "tower in 2.2s" and "tower in 3.6s" and is stopped both times by Ronin plus Skeletons plus Royal Delivery, with zero damage on the tower.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dark_Prince (scraped 2026-09-02T02:35:01+00:00)

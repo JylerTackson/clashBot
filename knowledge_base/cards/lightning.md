@@ -270,6 +270,18 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - The spell cycle, not the Golem, is what he plays to protect - "I was worried about just like him stopping my spell cycle, but I knew that I'd be able to cycle back to another lightning as long as I didn't have to defend an expo" (776-782s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 1:57 (t=735): the spell he builds his whole placement policy around — "we do it up top just to make sure that he can't get any lightning value. It just really really avoids giving him value."
+- clock 0:27 (t=822): cycles instead of committing — "I think we just want to cycle back cuz I think he's going to get a lightning down."
+- clock 0:17 (t=833) and overtime clock 1:42 (t=871): baits it with a 1-elixir card — "Fire spirit bad lightning" — and waits it out before spending Ronin, "we have to wait for the lightning and then we can go for the Ronin."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- overtime (mentioned, never seen): the only card he thinks can still stop his closing barrel — "he can't fully defend a barrel unless he lightnings it at this point."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

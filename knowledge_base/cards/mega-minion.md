@@ -159,6 +159,12 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - clock unknown (t=314-318): it is the reason he skips a Goblin Barrel — 'I'm not going to barrel here because I do feel like I would give him too much Mega Minion value.'
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:31 (t=184): killed inside the Ronin's first defence — "That will take out the whole mega minion as well, which is great."
+- clock 0:52-0:43 (t=281-295): he manipulates its targeting rather than fighting it head on — plays the Ronin first "so it can target onto the Ronin with the mega minion", then removes it with a Royal Delivery: "now it's delivery here to make sure we take out the mega minion a little bit."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

@@ -134,6 +134,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.
 - clock 1:20 and 0:58: he plays around the Prince twice more, first as bait ("I'm going to try to bait him into going for a prince") and then predictively ("Evo Firecracker predicting his prince cuz he might need a prince on these to retarget it").
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:08-2:00 (t=204-214): tracked from [14, 25] down to [15, 1] with "tower in 0.1s", answered with Tesla at [8, 10] plus a Ronin at [14, 10] — "Let's Tesla here, and then we can go for the Ronin down low." Ryley's stated view is that the Ronin's Parry makes double-Prince decks a favourable matchup (233-239s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Prince (scraped 2026-09-02T02:35:00+00:00)

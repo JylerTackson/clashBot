@@ -238,6 +238,18 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.
 - clock 2:05: the general warning he gives about the matchup — "One thing he has to watch out is not deactivating his king tower as well. That's always something you got to be scared about whenever you have a tornado against a hog rider player" (t=729-738).
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:13 (t=716) and clock 1:48 (t=741-744): he predicts it as the answer to Wall Breakers and it arrives — "He has to nado that or something" then "He probably has to go for like the Barbarian Barrel plus like a nado, I think. Okay, yeah, nado."
+- overtime clock 1:33 (t=877): accepts it against his Royal Delivery — "He might try to NATO this in. Yep, that's fine. That's not tower down at least."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, never captured as an event but played around constantly. He expects it on the Goblin Barrel — "I think he's going to [Tornado] that, but then he won't be able to..." (t=1411) — and on the Ronin — "I think he can [Tornado] the Ronin to the king tower even off to the side" (t=1418-1420).
+- clock 1:29 (t=1444-1448): the reason he places the barrel off-centre — "we can go for the evo barrel off to the side. Make it a little bit harder to activate. He might bowler on the left side which would be good to not let him activate." He also lists it in the opponent's hand at t=1429-1437.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

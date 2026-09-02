@@ -302,6 +302,61 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1402.7s at [4, 13] against a three-unit Rascals push, elixir 5.0 -> 2.0 - "Delivery here" (1403s). Six Royal Deliveries in 200 s, all on his own half.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 0:42 (t=134.1): Royal Delivery at [10, 13] aimed specifically at the air support of a Golem push — "Let's go for the delivery on the baby dragon, and then we can go for the Ronin here on top of the mini Pekka, and that's just completely dead." (t=137-141)
+- clock 1:56-1:45 (t=60-74): pairs it with the Tesla as the reason he prefers this list to his earlier Cannon version — "the other one was quite a bit weak to air units. But now this one, you have the Tesla and the delivery just helping out on defense so so much."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 1:53 (t=220.1, elixir 4 -> 1) and clock 1:16 (t=258.3, label at [12, 11]): dropped on his own half onto committed Prince / Dark Prince pushes, each time taking him to his lowest elixir of the game.
+- clock 0:43 (t=290.3, label at [4, 14]): used specifically for the air support the Ronin cannot touch — "and now it's delivery here to make sure we take out the mega minion a little bit."
+- clock 0:17-0:13 (t=316.3 HUD -3, label at [10, 13]): the game-closing play onto a Dark Prince at "tower in 3.6s" — "Delivery here and that is going to be good game. Very nice win."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:48 (t=394.7, HUD 7.0 -> 4.0): dropped on top of an already-committed defence to close it out, not to start one — "Let's delivery here to make sure that we finish that off."
+- clock 0:47 (t=454.6, tile [2, 13]): delivered onto the Witch behind the Golem, with Skeletons placed first to protect it — "We can go for the Skellies to protect this delivery on top of the Witch. Fire Spirit too."
+- clock 0:35 (t=465.5, [4, 10]) and clock 0:22 (t=481.5, [12, 12]): two more in the final half-minute, both as the finisher of a kite — "We go for a delivery here" (t=466), "And then delivery as well. And I think we're good" (t=480).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock ~1:45: at (3, 11) timed for an incoming Miner — 'Okay, let's go for the delivery plus fire spirit here ... Yep, I literally knew the miner was going to come in' (573-577s).
+- clock ~1:05: at (5, 7), chosen over Fire Spirit specifically because the opponent holds The Log — 'He could even try like a pre-log on the fire spirit, so I think I'll rather delivery on top' (610-613s).
+- clock 1:19: rations it for cycle reasons — 'Our cycle should be a bit quicker than him as long as we don't use the royal [delivery] too often' (596-599s).
+- clock 0:15: at (14, 5) on top of a Miner as part of the closing defensive package — 'We can go for the delivery on top of the miner, fire spirit, and skeletons' (660-664s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 0:36 (t=812.8, label at [13, 15]): stated before it lands, as the answer to a defensive Bowler — "delivery here on top of the bowler. Then we can go for a magic archer plus Tesla on defense."
+- clock 0:23 (t=825.3, elixir 6.0 -> 3.0): part of the cycle-back plan while he refuses to expose the Magic Archer to Lightning — "Then we go for the delivery here. Make sure we hit this."
+- overtime clock 1:46 and 1:31 (labels at [12, 13] t=863.9 and [14, 15] t=877.9): used as the clump-clearer on a full Electro Giant push, accepting a Tornado counter — "we need to go for a royal delivery on top of everything. He might try to NATO [Tornado] this in. Yep, that's fine. That's not tower down at least."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:42: dropped at tile [2, 13] onto a descending Baby Dragon, three seconds after a Fire Spirit into the same push — "I'll delivery on the baby dragon. Baby dragon and goblins."
+- clock 1:57: at tile [4, 13] as the front half of a two-card defence — "Go for the delivery here and then we can go for the Ronan as well."
+- clock 0:20: at tile [5, 13] stacked on top of his own low Magic Archer — "we can go for a nice delivery here on top of this."
+- clock 0:15: fourth use at tile [4, 9] under the Golem push — "you have to get a delivery down as well."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- clock 1:21 and 0:27: his defensive reset against the opponent's Balloon/Musketeer packages, dropped on the right-lane approach tiles [12, 13] and [12, 10] — "We need to delivery here on defense".
+- clock OT 1:26: chained straight into offence — "Let's delivery, and then we go for the barrel, and we're already one card away from the Tesla".
+- clock OT 1:08: Royal Delivery at [13, 11] as the Balloon answer — "Perfect. Just delivery here. Take the balloon out, and there's just nothing that this guy can do, man". Seven Royal Deliveries this game, all on his own half.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 2:35 (t=1377.9): Royal Delivery at tile [4, 14] for 3 (HUD 9.0 -> 6.0, deploy label score 1.0) onto a stacked left-lane column of Zappies plus Little Prince — his only clean answer to the opponent's swarm-plus-support opening. No commentary on the card itself; it is held as pure defence all game (further 3-elixir drops at t=1478.0 and t=1483.3).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

@@ -165,6 +165,17 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
 - clock 1:10 to 1:04 (t=48-52): mentioned, not played — the opponent's Mini P.E.K.K.A. is what the Heroic Knight's taunt is fired at before it exists: "we have the knight ability for the mini pekka cuz he's he's going to mini pekka on top. Knight ability to predict the mini pekka. Beautiful."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 2:22 (t=33): named as the card the Ronin's parry destroys — "look at that Ronin right there, guys. Just one shotting his Mini Pekka away. Absolutely insane."
+- clock 1:34-1:30 (t=82-86): the reason he thinks a Golem beatdown deck cannot deal with a Ronin at all — "his best DPS unit is the Mini Pekka, but of course, the Mini Pekka just one shots itself. So, what is he even supposed to do on defense?" (Mini P.E.K.K.A. is commentary-only here; no detector event for it.)
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:25 (t=354-362): named as part of his (never-confirmed) read of the opponent's list — "I think that he has the Golem Healer Mini Pekka deck" — and used to explain why the opponent could not answer his Ronin: "obviously couldn't go for the Mini Pekka there on top of the Roane cuz then it would just one shot itself." Mentioned only; no Mini P.E.K.K.A. is tracked in this game.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A. (scraped 2026-09-02T02:34:51+00:00)

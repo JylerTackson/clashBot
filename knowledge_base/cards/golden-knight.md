@@ -170,6 +170,12 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.
 - clock 0:13 and OT 0:23: he calls out bad Golden Knight commitments — "That was a bad golden knight as well" (t=843-845) — and in overtime targets it with the evolved Firecracker and a Hog: "I think I can go for a hog rider into the golden knight cuz he has the bowler and then I can go for another evo firecracker here. Come on, evo firecracker. Get on the golden knight. Nice" (t=947-955).
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, dashed in at t=1417.4 toward his left side and again at t=1465.5-1471.5 on the right. It is the card his final plan is built to overload — "he has to go for the golden knight here and then he can't defend the Tesla" (t=1462-1465).
+- clock 1:08 (t=1469-1472): it dies into the freshly activated King Tower plus Tesla — "Nice king activation. Perfect and the golden knight's literally dead. Yo, he gives up. Nice."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

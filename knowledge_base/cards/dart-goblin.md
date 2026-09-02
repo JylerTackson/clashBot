@@ -363,6 +363,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.
 - clock 0:55 (t=117.3): NOT in this deck. The HUD reports 'slot 3 emptied (dart-goblin), elixir 7.0 -> 4.0', but Dart Goblin is never named in this game's commentary, the video-level consensus across six games has Elite Barbarians in that slot, and the line spoken one second earlier is "then we can Evo Firecracker for the Baby Dragon" — Firecracker is also 3 elixir. Hand-read confidence for this game averages 0.505; the drop is read as a Firecracker.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:22 (t=193-197): mentioned only, as the non-hero substitute for his Magic Archer slot — "if you don't have the hero [Magic Archer], you can always use the dart goblin in this deck as well."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

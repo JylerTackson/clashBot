@@ -204,6 +204,11 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:25 (t=288.3): threw the (Evolution) Giant Snowball at tile (2, 17) onto the Royal Giant's landing tile before the RG existed, with the sole aim of buying his X-Bow a lock-on — "I want to try to get an evo snowball predict on his RG to try to get my expo to lock onto the tower. That could instantly win me the game... W prediction."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's small spell, and the reason for the closing barrel placement — "I'm going to do it one tile in the front, just so if he goes for the snowball, then it actually doesn't counter, unless he catches it" (OT 0:50). Earlier: "unless he goes for the snowball, which would be smart. Yeah, he didn't do any spells just for that" (OT 1:38).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

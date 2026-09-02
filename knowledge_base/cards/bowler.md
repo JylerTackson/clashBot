@@ -231,6 +231,18 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.
 - clock 0:08: the Hero Ice Golem's Snowstorm is used specifically to lock it in place — "I'm going to pop the ability because it's going to freeze the bowler which will make the e-barbs a crazy big threat" (t=847-851). On its defensive record he says "Dude, bowler's coming back again. Dude, that bowler has like smart targeting or something" (t=824-827).
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 1:15 (t=775): the reason he commits a Magic Archer — "let's just go for the Magic Archer here to snipe that Bowler down."
+- clock 0:47 (t=801): credits the opponent for a good use of it — "That was smart by him. Great Bowler" — and answers it with Royal Delivery "on top of the bowler" plus a Skeletons split.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, played at t=1379.4 into the right lane and again at t=1451.5. It is the unit Ryley builds his first activation attempt around — Skeletons "just to yank that bowler in" (t=1386) and then a Fire Spirit "just to make the bowler not target the tower" (t=1389-1393).
+- clock 1:28 (t=1447): he wants the opponent to spend it on the wrong side — "He might bowler on the left side which would be good to not let him activate."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)
