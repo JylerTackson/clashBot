@@ -304,8 +304,10 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
     deck, notes = ranked[:8], []
     # deck-showcase videos switch decks between games: if two games with solid
     # HUD evidence barely overlap, there is no single deck to pool
-    hud_sets = [set(c["own_deck_counts"].get("hud", {})) for _, c in ctxs]
-    hud_sets = [h for h in hud_sets if len(h) >= 5]
+    # compare the per-game deck estimates (raw HUD sets carry too many misreads):
+    # measured medians are 0.75-0.78 for single-deck videos, 0.07-0.25 for showcases
+    hud_sets = [set(c.get("own_deck_observed") or []) for _, c in ctxs]
+    hud_sets = [h for h in hud_sets if len(h) >= 6]
     # hand-read noise costs 2-3 cards per game, so one deck shows a median
     # pairwise Jaccard of ~0.6-0.9 between games; deck-showcase videos sit at
     # 0.2-0.4 (measured on the first five videos). Titles like "TOP 5 decks"
@@ -315,7 +317,7 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
     median_j = pj[len(pj) // 2] if pj else 1.0
     title = next((c.get("title", "") for _, c in ctxs), "")
     title_hint = bool(_re.search(r"\btop\s*\d+\b|\bdecks\b", title, _re.I))
-    mixed = median_j < 0.5 or title_hint
+    mixed = median_j < 0.5 or (title_hint and median_j < 0.65)
     if mixed:
         notes.append(f"games in this video use different decks (median HUD overlap {median_j:.2f}"
                      + (", title suggests a deck showcase" if title_hint else "") + "); no video-level deck")
