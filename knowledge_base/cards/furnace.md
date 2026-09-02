@@ -250,6 +250,12 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1531-1543: paired with Goblin Hut so one Evo Zap cannot clear both - "since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace."
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 0:07 (t=906): appears late and surprises him — "And he has a Furnace. What in the world?"
+- overtime 1:43 and 0:56 (t=929, 977): removed twice, once with spell damage — "Okay, nice. Taking out the furnace which is really good" (929s) — and once with The Log at [15, 15] — "We log here for the furnace. Take this out" (975-978s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

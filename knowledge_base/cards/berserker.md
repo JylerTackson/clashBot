@@ -615,6 +615,61 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Placement pattern across ~11 drops (t=1074.1 [16, 10], t=1109.1 [8, 13], t=1232.2 [3, 15], t=1258.1 [9, 13], t=1279.1 [9, 1], t=1329.7 [9, 0]): dropped on top of an existing Cannon defence, or deep in his own half to reset a lane, never as a lone bridge play.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:19 (t=359.4): Berserker at tile (9, 14) added behind an Ice Spirit as a second cheap block on the same push — "Berserker here as well. Continue block, then we can barrel again."
+- clock 1:36 (t=495.5): held Berserker together with Vines specifically against a Firecracker he had called in advance — "we have Berserker ready plus Vines cuz he might try to go for a high firecracker as well... I literally called it, man."
+- clock 0:57 (t=522.5): Berserker at tile (7, 15) as the Firecracker blocker while the Goblin Barrel went the other way — "we're going to Berserker here to block the Firecracker. Barrel as well."
+- clock 1:59 (t≈580, Berserker at tile (14, 15) at t=562.6): placed high up the lane so the opponent could not use his Firecracker at all — "Berserker high so he can't firecracker us."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- The thesis of the video, 15-35s, spoken over his own defence: "Hero Berserker pairs up so nicely with X-Bow because it's like a 5-second invincibility wall right next to your X-Bow, where you are just like unable to take her out, which ends up making the Berserker the best way to support the X-Bow because anything that your opponents try to do to actually take out the X-Bow will just get cleared up by the Berserker." (The hero page lists Savage Survival at 4 s with -75% crown tower damage.)
+- clock 0:48 (t=118.0): Berserker at the right bridge tile (14, 15) with the ability popped on purpose — "Let's go for the Berserker here. I'm going to pop the abilities cuz I want to instantly eliminate the Rune Giant" (119-122s). The opponent's right tower falls 1013 -> 731 -> 261 over the next ten seconds. His general rule, 98-107s: "whenever you go Berserker at the bridge plus the ability with that X-Bow, your opponents can have a very hard time knowing what to do because anything that you put will instantly get taken out."
+- Defensive uses: (8, 9) at clock 2:17 (elixir 7 -> 5) into an Inferno Dragon, and (3, 9) at clock 0:03 (3 -> 1) alongside a Fireball onto the last Inferno Dragon.
+- clock 0:33 (t=134.0): played at (12, 8), one tile behind Archers at (11, 8), purely as a prediction — "I know he's going to go for the Miner on top of it. So, let's go for the Berserker behind to predict the Miner. Nice." He also names it as a Mortar partner at 37-40s: "It also works very nicely with Mortar for the exact same reason."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 2:07 to 0:14: the most-played card of the window (t=214, 234 at (3, 8), 255 at (9, 0), 299.7 at (8, 13), 326 at (8, 10)) and always 2 elixir on his own half — a ground body inside the Graveyard and Baby Dragon defences, a back-line cycle card at (9, 0), and a river-side body at (8, 13) once the X-Bow was already ticking.
+- clock 0:14 (t=326): named in the closing defensive cycle — 'E-spirit, berserker, fireball, and a log. Let's go.'
+- Possible Hero: four own-elixir drops of exactly 3 with no readable hand change (t=235.7, 266, 290.7, 328.3) match Savage Survival's 3-elixir ability cost and two of them follow a Berserker deploy label by 1-2 seconds, but no commentary names a hero or an ability, and Archers also cost 3 — unconfirmed.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 2:32 (t=351.8): the emergency answer when the opponent opened before he was set — "That is where the Hero Berserker does come in really, really handy though for situations like that where you get caught off guard" (t=355-360). Played as the Hero variant (heroes/berserker-hero.md, 3-elixir "Savage Survival") all game.
+- clock 1:23 (t=421.3, [11, 11]): Berserker plus ability into the first Sparky push, with Skeletons behind it — "let's Berserker here and then we can go for the ability as well. I'm going to Skeletons" (t=420-423).
+- clock 0:28 (t=476, [4, 14]) and overtime 1:57 (t=507, [2, 15]): bridge Berserkers as the X-Bow's tank, ability popped on arrival — "I'm going to berserker the bridge. We go for an expo. And then we just hit the ability as soon as we can" (t=476-479); "That's going to soak up the shot, but then also help take off the goblin giant" (t=509-511).
+- overtime 1:31 (t=532-536): he withholds the ability until it resets something — "We just berserker, but we don't ability. Okay, no, now we ability cuz he dark prince, and we just reset"; and the summary at t=602-610: "because of how strong e-barbs are, they're very difficult to defend. And just having the Berserker plus ability to clean up the e-barbs behind any type of push is just super nice."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:24 and 2:14: places Berserker at [2, 14] and [6, 12] behind his own X-Bow as its bodyguard rather than on the incoming Rascal — "I'm not going to do my Berserker though cuz if I do the Berserker, it's still going to die" (t=652-653).
+- clock 1:19: declines to spend her on a lone attacker — "Do I even want a Berserker? I don't think that I do, to be honest. They could just let this go" (t=715-718).
+- clock 1:10: the play that decides the game — Berserker at [4, 14] at -2 elixir immediately behind the X-Bow he just placed, leaving him on 2 elixir: "just go for an Expo plus Berserker push" (t=722-724).
+- clock 1:22: names "the Skellies plus Berserker" (t=712) as his cheap follow-up package after Logging the Rascals.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 1:44 (t=809.7): Berserker at [12, 6] on his own half as the defensive body in a four-card cheap stack — "Okay, let's go for the Berserker" (805s), followed by "Dude, that was so aggressive, man, but I think it's going to be fine for him. Cuz he has Ice Golem. Good defense, though, overall" (809-815s).
+- clock 1:29 (t=824): Berserker at [4, 14] at the bridge as the tank for the X-Bow going down at [2, 13] the same second — "Let's Berserker here at the bridge" (826-828s). She fills the mini-tank slot the knowledge-base X-Bow list gives to the Knight.
+- clock 1:25 (t=828): "Okay, we have an ability ready, but I don't think we're going to get the chance to pop it" — spoken over that bridge Berserker, the only sign in this game that the Hero variant (Savage Survival, 3 elixir) is the one in the deck.
+- overtime 0:53 (t=980) and 0:25 (t=1007): Berserker at [2, 14] and [4, 15] in front of the re-sieging X-Bow — "We need to get a berserker in front here. Block. Nice" (979-981s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 2:34: Hero Berserker at [2, 3], deep in his own corner, purely as a Miner catcher — 'just Berserker here for that Miner' (elixir 8->6).
+- clock 1:09 / OT 0:57: bridge placements at [9, 14] and [4, 14] as pressure while the X-Bow is down — 'let's go for the High [Hero] Berserker here', 'We berserker at the bridge as well'.
+- OT 0:57 and OT 0:35: he pays the 3 elixir for Savage Survival twice — 'Let's pop our ability here' and 'Ability, please. Nice. We got the ability off. That's huge'; two unidentified 3-elixir drops (t=1131.3, t=1203.0) are probably earlier activations.
+- OT 1:31: reads the opponent's Hero Berserker ability as a bad trade — 'he [used the] berserker ability, but that's not good for him because it only tanks for a few seconds'; last-seconds placements at [14, 5] and [12, 6] are 'behind the tower' blocks.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

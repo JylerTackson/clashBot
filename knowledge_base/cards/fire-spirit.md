@@ -188,6 +188,13 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Game 1: the deck's cheap clean-up card, played five times (t=355.4 [3, 13], t=395.4 [14, 14], t=420.4 [9, 1], t=460.3 [9, 8], t=488.0 [16, 10]) - "I went for a low fire spirit. I was able to take out everything" (460-464s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:03 (t=515.5, tile (14, 14)): one elixir at the bridge spent specifically to split a two-card combo — "just going to fire spirit the bridge here, maybe force out the Ice Golem so he can't do Ice Golem Hog together. Oh, bad Ice Golem."
+- clock 0:07 (t=306.6, tile (3, 10)): dropped in front of an advancing Royal Giant to keep a defender alive — "fire spirit here. Keep this alive."
+- clock 1:10 (t=610.6, tile (7, 14)) and clock 0:25 (t≈557): used as the trailing card of a scripted sequence, "then Fire Spirit for the Ice Spirit."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

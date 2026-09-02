@@ -406,6 +406,63 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1554-1557 (attribution caveat): the deploy label reads Electro Spirit but Ryley calls it a fire spirit - "The fire spirit jumps over the bridge which is what I was planning" - and the HUD hand reader agreed with him; the Furnace also spawns Fire Spirits, so the spoken line may describe a spawn rather than the card.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:58 (t=65.1): thrown at tile [2,14] on his own side of the left bridge BEFORE the Wall Breakers appear — "She has the evil wall breakers in cycle. So, I'm going to try to predict the evil wall breakers here with the e-spirit. He's doing evil wall breakers now then we can go for the log. Beautiful prediction right there" (t=61-70).
+- clock 0:59 (t=55.1): tile [14,15], right at the bridge, as the cheap top-up on a defence.
+- Three more 1-elixir drops (t=62.4, t=207.5, t=230.9, t=242.7) as the last card on top of a bigger answer; only t=78 is narrated ("Let's go for the e-spirit and then we go for the knight as well").
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:13 (t≈302, and HUD plays at t=322.5, t=378.7, t=424.4, t=571.9, t=593.8): kept in cycle as the one-elixir reset he checks for before committing — "we have the e-spirit. Okay, let's hit the ability backwards to keep it alive."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- Seven plays, six of them within two seconds of another card: (7, 12) at 2:24, (15, 11) behind the first X-Bow at 1:46, (13, 14) at 1:38, (10, 8) at 1:27, (14, 8) at 0:25 and (2, 14) at 0:03. It is never a stand-alone answer in this game.
+- clock 1:27 (t=80.2): played at (10, 8) at 2 elixir as the finisher on a chipped Inferno Dragon — "We can go for the E-Spear here just to chain onto that Inferno Dragon, make sure we take it out. Beautiful defense right there" (82-85s; "E-Spear"/"E-Spirit" is the auto-transcript's rendering).
+- clock 0:42 (t=126): used the same way on offence behind the bridge Berserker and Evo Tesla — "E-Spirit here as well just to fully make sure we take that out."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 0:32 (t=308 at (2, 10), and t=289.7 at (9, 6)): used as the Inferno Dragon reset in the middle of a defensive package — 'Then we can go for the E-spirit to reset the inferno dragon' (307-309s).
+- clock 1:44 (t=236.7 at (9, 9)): 1-elixir insert alongside Skeletons, Berserker and a Fireball against the Baby Dragon plus Graveyard skeletons — 'E-spirit. Aw, that's the lag right there.'
+- clock 0:13 (t=327 at (8, 11)): part of the last defensive cycle he narrates card by card — 'E-spirit, berserker, fireball, and a log. Let's go.'
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 2:13 (t=370.8, [2, 14]): part of the opening defensive stack behind the early X-Bow — "then we can go for the Electro Spirit as well. Just make sure that we take this out nicely" (t=367-371).
+- clock 1:38 (t=405): paired with The Log on the Electro Wizard — "We can go for the E-Spirit here as well. Make sure we take this out" (t=405-407).
+- overtime 1:46 (t=517-518): used purely as a block in overtime — "Let's e-spirit to block this."
+- overtime 0:38-0:32 (t=585.7 and t=592, [8, 9] and [8, 14]): high placements so the chain hits the Dark Prince and feeds the Evo Tesla — "High e-spirit for the Dark Prince" (t=592) and "Evo Tesla should get a little chain in" (t=581).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:12: Electro Spirit at [7, 12] to clear three Minions walking his left lane — "we need to go for the e-spirit here as well. Just make sure we take out these minions cuz we're not going to take out the cannon cart until we take out the minions" (t=661-666); the Minions are gone by clock 2:04 and he calls it "very good defense right there. We actually clutched up nicely".
+- clock 1:27-1:20: another Electro Spirit at [5, 13] into the Rascals push — "come on, let's e-spirit" (t=708).
+- clock 2:42 and 1:04: two more one-elixir drops at [9, 14] and [4, 14], both in front of his own X-Bow lane.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:38 (t=753-755): the card he opens the game with, purely as information — "Go for the E-Spirit here. See what this guy wants to do".
+- clock 1:47 (t=805.7): Electro Spirit at [14, 5] on his own half as the first body against a Spear Goblin push the tracker had reaching the tower in ~7 s, inside a four-card cheap defence (Skeletons, Tesla, Berserker, The Log).
+- clock 0:25 (t=888.7): played to keep a defence ticking rather than to kill — "It's E-Spirit here. It's still going to keep hitting" (893-895s).
+- overtime (t=966, 978, 982, 1007.8, 1013, 1021, 1032): the 1-elixir filler on every push, at [13, 4], [4, 12] and at the river [5, 15] — "Let's e-spirits" (937s), "E-spirit to grab this" (982s), "E-spirit log" (1021s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 2:04 / clock 1:42: Electro Spirit at [14, 2] and [15, 6] to reset right-lane pushes alongside Skeletons and The Log — 'Let's go for the E-Spirit and then we can go for the Berserker as well', 'Great catch. E-Spirit as well'.
+- clock 1:03 / clock 0:23: played beside the X-Bow at [3, 14] and [5, 14] as cheap protection — 'E-spirit off to the side. Come on'.
+- OT 0:51 / OT 0:11: used as the Miner answer at [12, 7] and [9, 9] — 'E-spirits for the miner. Yep. It was just obvious that he's going to put it right there'.
+- clock 1:37: notes the card is timing-critical — 'I wasn't able to get the E-Spirit at the perfect timing cuz of the Wi-Fi, but it's not that awful'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

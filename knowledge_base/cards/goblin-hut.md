@@ -181,6 +181,18 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1442s: the card he names the list after - "I had a nice Goblin Hut Piggies deck."
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:45 (t=413.4, tile (11, 10)): switched off a planned Royal Ghost push and spent on a Goblin Hut instead because he read the opponent's Miner block — "I'm going to ghost here. Wait, he's going to minor to block, so let's go for the goblin hut. Yep. I knew it, bro."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:31 and 1:51 (t=760, 800): the opponent's double Goblin Hut at [8, 19] and [9, 19] is what triggers Ryley's early X-Bow — "we can start off with an early Expo here, actually, especially after that Goblin Hut as well. Make sure that we take out this Goblin Hut" (755-762s).
+- clock 1:57 (t=795): he Fireballs the hut for the building-plus-tower trade — "whenever they go for this, they're just kind of just inviting you to Fireball their tower... I will eventually be up in damage" (795-803s), enemy left 4858 -> 4527.
+- clock 0:18 (t=895-901): the hut's placement, not the Graveyard, is what beats his win condition — "Dude, his Goblin Hut placement is actually really good. I can't believe that it actually blocks an Expo. It's kind of ridiculous, in my opinion, that that can block the Expo." Huts land again at clock 0:53, 0:28, 0:18, 1:17, 0:50, 0:22 and 0:10, a near-permanent Spear Goblin stream over the X-Bow lane.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

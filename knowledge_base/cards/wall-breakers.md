@@ -356,6 +356,19 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md
 - clock OT 0:31 (t=1531.2): last card of the game, [13, 14] on his final 2 elixir — "We need to go for the wall breakers for sure... We need the wall breakers." He also banks the Evolution all game as insurance against the swap card: "But I have the evo wall breaker so we're kind of prepared" (t=1448, on Minion Horde).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 2:01 (t=61-70): mentioned, not played — the OPPONENT's Evo Wall Breakers are the card the Electro Spirit prediction is aimed at: "She has the evil wall breakers in cycle. So, I'm going to try to predict the evil wall breakers here with the e-spirit. He's doing evil wall breakers now then we can go for the log. Beautiful prediction right there."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:53 (t=423.4, tile (3, 14)): deliberately delayed until his Hero ability was up — "we can go for the wall breakers here in a second. I'm going to wait though. Let's pop our ability first and now we can go for the wall breakers."
+- clock 0:47 (t=534.5, tile (14, 15)): sent to drag a specific building out — "we could go for a Wall Breakers to force out the Tesla. He's going to hog. Yep. Beautiful."
+- clock 0:31 (t≈548): played off a predicted defence — "he has to Ice Golem on top of this so we're going to Wall Breakers."
+- clock 1:55 (t=584.6, tile (14, 14)) and clock 1:31 (t=600.6): bridge Wall Breakers used as the second lane of a two-lane bait — "wall breakers here at the bridge... man, he might have to log on the right. He had to fireball."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

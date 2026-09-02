@@ -146,6 +146,18 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
 - t=1090-1096 (clock unreadable): the defensive placement that wins the game — one E-Wiz resets both enemy threats on a tower in the low hundreds of HP: "And then I went for the Ewiz here, guys. And look, I reset both of them. And I saved my tower to win the game, guys. And I beat Assath in the duel here."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:22 (t=232-238): opponent card, named as part of a four-card hand count and then confirmed — "he has pekka, bandit, e-wiz and then maybe a zap last card" (t=210-212), then "He's going to have to use the e-wiz or the zap on this and he's going to be low on elixir. Yeah, he goes for the e-wiz, but now he has nothing for the mighty miner" (t=222-228). The tracker follows electro-wizard(e) from [3,11] to [3,4].
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 1:42-1:36 (t=401-409): tracked from [11, 19] to [15, 9] with a 2.1 s tower ETA and shut down with Tesla + The Log + Electro Spirit — "I do need a Log E-Spirit here though on top of this Electro Wizard."
+- clock 0:26 and overtime 1:48 (t=479-480, t=515-517): he predicts it as the opponent's forced answer — "He might get like uh e-barbs or an e-wiz down" and "He has to get an e-wiz down."
+- overtime 1:46-1:38 (t=518-526): removed with Archers plus Fireball — "Then we can go for the archers as well. That should fully take out the e-wiz."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

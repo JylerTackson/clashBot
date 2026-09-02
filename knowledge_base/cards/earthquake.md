@@ -162,6 +162,16 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md
 - clock 0:55-0:15 (t=1029.0, t=1057.1, t=1069.1): the opponent's Earthquakes plus unattributed spell hits did most of his tower damage (own right tower took 306+260+617 at t=1003-1005, own left 818 at t=1057.1) while Ryley kept spending on the bridge instead of answering the chip.
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:59 (t=403.4, tile (13, 21)): Earthquake onto a badly placed Tesla as the setup for a Hog follow-up he then cancelled — "wait, bad Tesla. Let's earthquake it then we can go for the hog. Wait, actually he might predict us."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- clock 0:53 (t=112.0): the opponent's only spell read by the pipeline, cast while Ryley's second X-Bow at (15, 10) is going down. It is never mentioned in the commentary and the X-Bow had already taken the right tower from 4858 to 1201 before it arrived.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

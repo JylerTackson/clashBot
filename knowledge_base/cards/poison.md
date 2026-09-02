@@ -153,6 +153,13 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=266-267: when it lands he treats it as his cue to counter-push — "He poisoned the tower, so I was just getting ready to go for the Royal Hogs" (Royal Hogs at [15, 14], t=266.3). Poison was never detected visually; it is attested only by these three commentary lines and by his left tower bleeding 2610 -> 2456 across t=258-272.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:04 (t=785-789): named as the other half of the archetype as soon as it is seen — "So, he has Ice Golem, Goblin Hut, Poison. Interesting. And Skellies... I think it's just going to be a regular Graveyard Poison deck."
+- overtime 0:44-0:30 (t=990-998): the Poison window is what decides the tiebreaker — his left tower runs 3618 -> 3250 including an inferred 164 HP spell hit at t=997 — "Okay, poison. We can go in again" (990s), "He's going to poison, but then we can get another Expo here on the left side" (1000-1001s).
+- overtime 0:20 (t=1013): he tracks the opponent's spell cycle as pressure relief — "He can't poison, bro. Okay, he's under so much pressure."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

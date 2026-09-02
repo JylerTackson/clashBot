@@ -178,6 +178,16 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1473.5 (0,11) and t=1539.5 (17,13): the cheap half of his bridge pressure pairs - "barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (1501-1504s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:50 (t=203.2, tile [4,14]) and clock 1:16 (t=238.2, tile [14,11]): both drops are placed on a stated read of what the opponent must spend — "he needs to defend the goblins on the left side cuz of the ability. So, if he goes for the bandit on the right, yep, he's kind of cooked" (t=214-219), then "Goblins will take out the ghost" (t=240-242) against a Royal Ghost tracked at [15,7].
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:35 (t=378.4, tile (3, 14)) and clock 0:15-1:29 (t=564.6/602.6, tile (1, 25)): Goblins used as the cheap follow-up behind a barrel, and protected with a 3-elixir Vines when one survived — "let's Vine spell here just to keep that one Goblin alive."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

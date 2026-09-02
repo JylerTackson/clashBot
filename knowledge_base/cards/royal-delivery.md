@@ -247,6 +247,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1299.3 [12, 14]: stacked on the Berserker ability to maximise damage on a Giant Skeleton — "I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible".
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:13 (t=315.3, tile (6, 13)): Royal Delivery dropped to finish a damaged Wizard rather than to answer a tank — "let's go for the delivery here. Make sure he finish off that wizard."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

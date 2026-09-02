@@ -248,6 +248,58 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Game 2, Ian's (Evolved) Archers: Ryley plays Ice Wizard back specifically to cover one lane's Archers (606-612s), clears both lanes with a high Baby Dragon at t=670.7 (669-676s), and pulls them into the Golem with Tornado at t=684.5 (681-684s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:10 (t=46.0, tile [7,11]): the unit everything else in the clip is protecting — Skeletons go down to keep them alive ("just skellies as well just to keep the archers alive", t=38-39) and the payoff is stated at t=56-58: "The archers are still alive. The archers are on the tower." Enemy right tower drops 1556 -> 1230 -> 1067 -> 845 while they live.
+- t=95.1 (tile [1,8]): a defensive placement deep on the left in a later clip, tied to the Knight-ability call "Beautiful protection of our archers" (t=79-80).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- The cheap opener, twice deep behind his own King Tower at (8, 0): clock 2:44 (elixir 10 -> 7) and clock 1:00, both times to start the cycle rather than to answer anything.
+- clock 1:36 (t=71.0): Evo Archers at (8, 13) as support for the locked X-Bow — "Let's go for the Evil [Evo] Archers, and we can go for the Berserker as well. Very nice offense right there."
+- clock 0:35 (t=132.0): at (11, 8) as deliberate Miner bait, covered one second later by a Berserker at (12, 8) — "Let's go for the Archers here as well. I know he's going to go for the Miner on top of it." Also used defensively at (7, 9) at clock 2:15 into the Inferno Dragon push.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 2:08 (t=212 at (8, 8)): split with a stated target — 'Let's go for the Archers here. Just make sure to split them towards the Inferno Dragon so we can take one out.'
+- clock 1:18 (t=261.7 at (8, 0)): Archers behind his own king tower at 9 elixir, a pure cycle placement during a lull with no push on the field.
+- clock 0:47-0:37 (t=303.3, HUD): played into the Lava Hound / Baby Dragon defence as a spell bait — 'Let's go for the archers here. Make him use the fireball, hopefully' (292-294s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 2:34, 1:44, 0:58 and overtime 0:52 (t=350, 398, 445, 572): Evo Archers split at the centre-back tile [8, 0]/[8, 1] every time they cycle — "I want to at least split my Archers and stuff like that so I can have a better offense later" (t=440-443) and "I'm just going to continue splitting my archers cuz this is definitely the safe play" (t=572-574).
+- clock 1:30 (t=413-415): he tracks them as a cycle liability, not just a card — "I do have to be careful though with not having the Archers in cycle. It can get very, very weird sometimes on defense if we're not very careful."
+- clock 0:47 (t=459): protecting them is part of the X-Bow push — "I want to keep this Archer on full HP."
+- overtime 1:46 (t=519, [1, 14]): used defensively alongside Fireball to finish the Electro Wizard — "Then we can go for the archers as well. That should fully take out the e-wiz" (t=518-522).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:45: splits them behind his towers purely to scout — "just going to split my archers here in the back and try to figure out what this guy is playing" (t=629-633).
+- clock 2:13: Archers at [7, 10] (HUD-confirmed, -3) as X-Bow support alongside Berserker and Electro Spirit — "let's go for the Berserker plus archers" (t=659-661).
+- clock 1:32: splits them again specifically against a two-lane Rascals push — "let's go for the split Evil Archers here. Make sure that we take out these rascals" (t=701-704).
+- clock 0:57 and 0:50: walks them over the river at [3, 16] and [4, 19] once the opponent has stopped defending.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:11 (t=782) and clock 0:59 (t=855): Archers at [8, 1] behind the King Tower as the cycle card into the win condition — "We can just start cycling back to our Evil Archers" (778-780s), "Let's go for the Archers here, then we can go for the Expo" (854-856s).
+- clock 1:03 (t=848-852): describes but does not run the two-lane version — "We have Evo Archers, though. We could split them and go for an Expo with a Berserker opposite lane, maybe".
+- overtime 1:43 (t=928): split at [8, 10] — "Let's split our Evo archers here" (930-932s) — and immediately rates the cost of losing half of them: "Damn, that one archer dying does definitely suck" (936s).
+- overtime 0:48 (t=986): Archers at [9, 15] right at the river to hold the X-Bow's lane; he calls them out as the piece he cannot afford to lose — "Evo archers low" (998s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 2:14: Evolution Archers at [7, 6], centre of his own half, covering both threats at once — 'Archers here in the middle for the Miner and also for the Berserker, you know, cuz I do know that he's going to Miner'.
+- clock 0:31 / OT 0:49 / OT 0:27: Archers at [9, 9], [10, 8] and [14, 9] dropped straight onto Miners — 'Let's put archers and we skellies predict the miner', 'Archers here on the miner. Nice. We caught another miner', 'Let's go for the archers up top so you don't take the tower damage'.
+- clock 0:08: split placements at [8, 1] behind his own king tower (also t=1138, 1228) — 'Let's split our evil [Evo] archers again. This is going to be an annoying push for him to stop'.
+- clock 1:25: he values them as a Rocket magnet — 'with my Evo Archers, maybe I could actually go for a push cuz the Evo Archers do usually force him to Rocket'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

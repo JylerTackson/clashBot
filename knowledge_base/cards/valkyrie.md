@@ -393,6 +393,17 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Video t=1732-1736: Wild Whirlwind held until tower contact rather than used on the way in — 'I popped the ability, my Valkyrie, when I went up to the tower'; three own elixir drops of 3/3/2 with no readable hand change sit in that window.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:37 (t=31.9): one HUD cast (6.0->2.0) during the Magic Archer clip, unnarrated.
+- The Valkyries he discusses are the opponent's, called twice before they land — "he's probably just going to go for another valk. Yep" (t=135-136) and "then the Valkyrie and then the zappies" (t=152-154).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:44 (t=536.5, tile (2, 9)) and clock 1:37/1:23 (t≈592 and t≈607): Valkyrie used as a bridge body to open a lane while the barrels and Wall Breakers baited the other — "valk the bridge. Nice."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

@@ -470,6 +470,12 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Video t=1717-1722: he rates them badly into log bait with a Dark Prince — 'the Ebarbs aren't really that great in this match. If he has Skarmy and... Skarmy and Dark Prince' — and pivots to setting up the Evo Battle Ram push instead.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- overtime 1:01-0:52 (t=564-572): both Elite Barbarians tracked advancing in opposite lanes with 3-7 s tower ETAs; Ryley defends with Tesla, Skeletons and split Archers rather than a spell.
+- overtime 0:22-0:06 (t=602-618): he rates them the hardest card to handle and the reason the Hero Berserker is in the list — "because of how strong e-barbs are, they're very difficult to defend. And just having the Berserker plus ability to clean up the e-barbs behind any type of push is just super nice" and "these e-barbs are actually so difficult to defend tournament that we were playing. E-barbs were cooking people left and right."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

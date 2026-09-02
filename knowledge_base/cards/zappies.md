@@ -250,6 +250,12 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Video t=1719.7: started deepest of anything he played, [9, 1] just in front of his own king tower, so they trail the Valkyrie + Evo Battle Ram bridge push rather than lead it. No commentary on the card.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:38 (t=100.1): one HUD cast (9.0->5.0), unnarrated.
+- Everything Ryley SAYS about Zappies is about the opponent's: he calls them seven times in the t=122-168 clip — "he's probably going to continue bridge spam me with like zappies, healer, Valkyrie. Yep, there are the zappies" (t=123-127), "Yep, there are the zappies, by the way" (t=143-145), "then the zappies. Yep, and then the healer" (t=154-156). The tracker confirms zappy(e) at [4,15] and [3,12] in that window.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

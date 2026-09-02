@@ -365,6 +365,63 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1237.2 [3, 12] and t=1281.3 [2, 15]: used on his own half as the finisher of a Cannon-anchored defence — "I got a really good log here on defense as well" (t=1238), "I went for a really good log here" (t=1283). Across this game all ~10 casts are defensive and on his own half.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:59 (t=52-55): the clean-up behind the Knight taunt, not the prediction itself — "Knight ability to predict the mini pekka. Beautiful. Log here to take it out right away."
+- clock 2:01 (t=63.1, tile [2,15]): pre-loaded at the left bridge with the Electro Spirit, then cashed after the Wall Breakers land — "He's doing evil wall breakers now then we can go for the log" (t=66-67).
+- clock 0:31 (t=109-111): "Log on top of the drill" — thrown onto a Goblin Drill he had already called.
+- Two unnarrated casts at t=165.7 and t=180.3, plus tile [14,13] at t=248.2 in the final clip.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:08 (t=322.3, prediction montage): pre-logged a Mega Minion at tile (8, 15) before it landed and had the Fireball queued behind it — "let's pre-log the mega minion, then we fireball. Oh my god, what a log prediction."
+- clock 0:31 (t=340.3): logged tile (14, 14) in front of his own Hog Rider on a read that the answer was Skeleton Army — "once again, we pre-log the skarmy. There's no point not to go for it."
+- clock 0:33 (t=379.4): pre-logged Skeletons at tile (7, 14) on his own half after the Goblin Barrel had forced the opponent's cheap answers out — "let's pre-log the skellies. Come on. Nice."
+- clock 0:29 (t=484.5): logged Spear Goblins at tile (12, 21), on the opponent's side of the river — "it was literally on the perfect tile. Picture-perfect log here on the spears."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- Four rolls, all in the last minute (0:59, (14, 7) at 0:29, (14, 14) at 0:16 and one more at 0:12), spent freely on the ground swarm defending against his X-Bow rather than held for a specific target — "We can go for the Log here as well" (138s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 0:19 and 0:10 (t=321 at (3, 15), t=330 at (4, 14)): the cheap half of the Fireball-Log closing cycle rather than a defensive answer — 'Let's fireball log, guys. And we just need to cycle back to one more. And this is going to be GG's.'
+- clock 0:47 (t=294.8, HUD, elixir 7 -> 5): played inside the defensive package that also used Fireball and Archers against the Lava Hound / Baby Dragon push.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 1:39 (t=404.5, [14, 7]): Log plus Electro Spirit onto an Electro Wizard that the tracker had reaching his right tower in ~2 s — "I do need a Log E-Spirit here though on top of this Electro Wizard. Let's Log here... Very nice. That's what we like right there" (t=402-409).
+- clock 0:38 (t=465, [4, 14]): logged the defenders in front of his own X-Bow to deny the last chip — "Let's log here as well to make sure he gets no damage" (t=464-467); the enemy left tower then fell 4652 -> 3430 with no damage taken.
+- overtime 0:38 (t=585, [6, 9]): the Dark Prince reset — "We can log for the Dark Prince. Nice. Okay, that just completely defended" (t=584-588).
+- clock 1:15 (t=428, [3, 15]): Log next to Skeletons while a raged Sparky walked in — "I will Log too because if I keep this Tesla alive, it's kind of just stops him from going for a random Goblin Giant at the bridge" (t=428-433).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 1:24: The Log at [4, 15], reactively, on the Rascals crossing in the left lane — "dude, that was aggressive. Log here, and then we can go for the Skellies plus Berserker" (t=708-712).
+- clock 2:03: The Log at [3, 8] deep on his own half against a ground unit that had got past the X-Bow.
+- clock 0:55: The Log at [7, 20] on the opponent's half during the unopposed finish.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 0:25 (t=888): The Log at [11, 15] into a skeleton-and-spear-goblin push, with the value called before the cast — "Could we log this away, though? I think we can, but it's going to lock onto the Barbarian Barrel, anyways" (888-891s).
+- overtime 0:56 (t=977): The Log at [15, 15] specifically on the opponent's Furnace — "We log here for the furnace. Take this out" (975-978s).
+- clock 2:13 (t=780.3) and throughout: cast on his own half at [3, 15], [14, 4], [6, 14], [2, 3] as the 2-elixir sweep in a 2.9-elixir cycle, then almost every lap in overtime (t=986, 996, 1011) — "Log here. Please, bro. Take this out, bro" (1010-1013s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 2:07 / clock 1:43: Log at [13, 4] and [12, 9] to sweep right-lane ground pushes behind an Electro Spirit reset.
+- OT 1:35: chosen over Fireball on the enemy Hero Berserker specifically for the chip — 'We have to make sure we Fireball the berserker. Actually, let's log it just to get the tower damage'.
+- OT 1:09: Log at [15, 13] used as damage-over-time on whatever is attacking the X-Bow — 'Log here off to the side as well just to DPS this down. Please don't hit my expo'.
+- OT 0:13 / OT 0:05: Log at [15, 14] and [14, 14] in the closing cycle — 'Let's log here', 'Log as well, please'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

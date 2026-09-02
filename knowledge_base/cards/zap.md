@@ -329,6 +329,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1528-1535 (opponent's Evolution, commentary only): forced out by the pre-placed Dark Prince, which cost the opponent his answer to both spawners - "because he kind of saw that, he had to go for the Evo Zap. And since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut."
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:32 (t=353.4, tile (2, 25)): Zap thrown onto a Goblin Gang the moment it landed, immediately after the Miner prediction on the Princess — "then we just zap here on the goblin gang. Perfect."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

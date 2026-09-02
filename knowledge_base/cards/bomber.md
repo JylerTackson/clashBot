@@ -160,6 +160,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=134-136: he credits the opponent with a good spell/troop play in the same window — "There was a really good evo snowball spear by him" (auto-transcript, garbled) — immediately before the Lightning at t=136.1.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:54 (t=199.4): one HUD cast (-2 elixir), alongside the Skeletons and the Goblin Barrel that open the ability-then-barrel sequence. Unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

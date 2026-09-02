@@ -179,6 +179,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=707.7 [6, 15] paired with Baby Dragon to kill an X-Bow - "I could just go for a baby dragon plus ice wizard as well just to take out this xbow" (705-711s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 2:23 (t=123.1, tile [8,9]): dropped centre-left as the anchor against a rotation he is already calling out loud — "Ice wizard here and then next comes the firecracker and then the Valkyrie and then the zappies. Yep, and then the healer" (t=151-156).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

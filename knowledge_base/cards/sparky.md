@@ -123,6 +123,19 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 0:51 (t=754-756): a mis-read of the opponent's play - "Oh my god, wait, that was not the Sparky. Hold up."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:48 (t=191.2, tile [17,14]): placed as an anti-siege prediction, aimed at where a Mortar is about to be — "let's predict the spark I mean, predict the mortar with the sparky. Nice" (t=190-192); own elixir drops 9.0 -> 4.0 at t=192.2. The deploy label is logged as an opponent play on Ryley's half; commentary attributes it to him.
+- clock 1:04 (t=50.1, tile [4,22]): in a different clip Sparky is the OPPONENT's card, and his answer is to abandon that lane before it lands — "He might sparky so let's expo opposite lane immediately" (t=41-42).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 1:28-1:15 (t=414-428): the first Sparky, tracked [7, 19] -> [3, 12] down his left lane, answered with Berserker + ability + Skeletons + The Log for zero damage.
+- overtime 1:58 (t=505-507): "Okay, he goes for a sparky. That was smart. Let's go for the berserker though. Then we can pop the ability."
+- overtime 0:48 (t=576-580): his preferred spell answer — "we can definitely fireball here on top of that Sparky. It is always nice to fireball the Sparky."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Sparky (scraped 2026-09-02T02:35:08+00:00)

@@ -290,6 +290,22 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Video t=1703.7 and t=1733.7: two 1-elixir drops just behind the bridge at [14, 14] and [12, 14] — the first while rebuilding elixir after the mis-clicked Battle Ram, the second riding the final push into the tower alongside the Wild Whirlwind ability (t=1732-1734).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:35 (t=32.9): one HUD cast (-1 elixir), immediately after the Valkyrie in the Magic Archer clip. Unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:08 (t=399.9, tile (1, 10)): Heal Spirit chained onto the Hunter as the reward for eating the predicted Fireball — "and then we go for the hunter heal spirit"; his left tower reads 4424 -> 5856 at t=400.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 0:54-0:47 and overtime 1:04-0:58: enemy Heal Spirits tracked advancing on Ryley's towers as part of the beatdown pushes.
+- overtime 0:40 (t=582-584): blocked with a 1-elixir card rather than spelled — "nice skellies here to block the heal spirit."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

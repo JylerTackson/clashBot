@@ -160,6 +160,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:42-0:38 (t=644-646): second answer is the cheap pair rather than the tank - "Let's go for the Heal Spirit here. Nice, we blocked the Mini P.E.K.K.A. Let's go for the Berserker as well."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:10 to 1:04 (t=48-52): mentioned, not played — the opponent's Mini P.E.K.K.A. is what the Heroic Knight's taunt is fired at before it exists: "we have the knight ability for the mini pekka cuz he's he's going to mini pekka on top. Knight ability to predict the mini pekka. Beautiful."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A. (scraped 2026-09-02T02:34:51+00:00)

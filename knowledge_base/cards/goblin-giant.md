@@ -147,6 +147,13 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1
 - clock 2:35 (video 301s): mentioned only, as a guess at the opponent's list while the P.E.K.K.A. and Mother Witch were on the field — "What if it's like some Pekka Goblin Giant junk?" (299-301s). It never appears.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 2:20 (t=364-366): the scouting call — "looks like he has the Goblin Giant E-Barbs deck."
+- clock 1:14-1:04 (t=430-440): the deterrence logic against it — "if I keep this Tesla alive, it's kind of just stops him from going for a random Goblin Giant at the bridge on six elixir. I would be able to defend it, but I don't want to have to burn my Evo Archers and my Evo Tesla on the same Goblin Giant in an awkward way."
+- overtime 1:57-1:32 (t=509-532): when it finally lands, the Hero Berserker ability answers it — "That's going to soak up the shot, but then also help take off the goblin giant" and "Oh, he did get down the goblin giant. All good."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Giant (scraped 2026-09-02T02:35:02+00:00)

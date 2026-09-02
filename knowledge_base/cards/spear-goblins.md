@@ -145,6 +145,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - The opponent's Spear Goblins (t=783.6, 879.7, 1035.8) are the card he keeps The Log for: "we can log here as well. It's going to take out the spears" (clock 0:03, t=934).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 1:47 through overtime: seen only as Goblin Hut spawns rather than as a played card, but they are the match's main chip source and the X-Bow's main obstacle — repeated spear-goblin tracks reach his towers from t=804 onward while the hut placement itself "blocks an Expo" (898-901s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

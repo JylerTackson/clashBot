@@ -280,6 +280,20 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md
 - Opponent card, the mini-tank in front of every push (arena tracks at [15, 22] -> [15, 17] at t=934-938, [3, 12] in the left lane at t=876-880, [14, 13] at t=1045). Ryley answers it with Berserker at the bridge - "we can go for the knight at the I mean the berserker to keep the knight at the bridge" (t=867) - and later uses it as an alignment target for the Magic Archer: "This should line up with the knight. Keep it in line" (t=1038-1040). He talks about the opponent's ability being paired with it ("He has to go for the ability plus knight", t=932), which suggests a Hero Knight, though the ability is never named.
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:10 (t=44.0): Heroic Knight at tile [13,14], right side of his own half, chosen by lane and by threat — "I'm going to knight on the right cuz he has a giant" (t=44-45).
+- t=47-52 (clock 1:10 to 1:04): Triumphant Taunt fired before the threat exists — "we can just tesla here and then we have the knight ability for the mini pekka cuz he's he's going to mini pekka on top. Knight ability to predict the mini pekka. Beautiful." The Log follows to finish it (t=52-55).
+- t=79-88 (clock 1:49): the ability held as a counter to the opponent's ability rather than to a card — "Beautiful protection of our archers. If he hits the ability, I can just go for my knight ability ... he's going to run away. What a knight ability."
+- clock 2:16 to 1:50 (t=131.8 [2,14], t=142.8, t=149.1 [6,14], t=158.7, t=162.2 [7,14]): five plain defensive deploys on his own half through the bridge-spam clip, all unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:52 (t=261.3, tile (3, 14)): pre-placed the Knight in the lane on an elixir count, before the Bandit was played — "I'm going to try to spam the knight in front to block the bandit right when he gets three... yo, what a good block. Great elixir countering."
+- clock 1:44 (t=452.5, tile (13, 14)): Knight at the bridge as cheap pressure while the opponent was tied up — "could go for the knight the bridge here just to be annoying."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

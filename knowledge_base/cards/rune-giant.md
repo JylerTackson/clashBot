@@ -212,6 +212,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1574-1578: it knocked the Heroic Dark Prince's Rhino off the tower in the closing exchange without saving it - "the rune giant actually pushed the Rhino away and I was able to take up the tower guys."
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- Mentioned five times but never seen in the arena (the 2024 detector cannot label it). It is what Ryley plays around: he predicts "Rune Giant behind or Inferno Dragon behind the Rune Giant" (63-67s), names "Lava Hound Rune Giant" as the meta his X-Bow is positioned against (46-48s), and pops the Berserker ability at clock 0:48 specifically for it — "I'm going to pop the abilities cuz I want to instantly eliminate the Rune Giant."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rune_Giant (scraped 2026-09-02T02:35:01+00:00)

@@ -223,6 +223,16 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - Mentioned, not played (opponent never showed one). At 229-241s Ryley uses her to explain the limit of this spirit-heavy cycle deck: "the spirits are a decent amount worse whenever you're defending a card like Archer Queen or Musketeer because the Musketeer and the Archer Queen one-shotting spirits does actually make defense very difficult in quite a few scenarios."
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:37 (t=10.7): tile [8,9], HUD 10.0->6.0, deploy label score 1.0. She is the piece the whole anti-Rocket spacing is built around — the Cannon goes beside her, not on her, because the opponent has no Tornado to drag the two together (t=11-13).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:31 (t=335.3, tile (8, 7)): Musketeer placed deep on his own half as a repeat of a play that had already worked that clip — "then we can go for another musketeer here, guys. Great prediction by us."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

@@ -177,6 +177,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - Opponent card, deployed three times ([8, 16] t=64.1, [9, 19] t=170.2, [12, 16] t=260.3). Ryley answers it with the Bomb Tower on the central tile plus Magic Archer behind, the same stack he uses against the Graveyard.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- Mentioned but never confirmed on screen (no deploy label, no detection): he pre-places Skeletons at the bridge "in case he cannon carts" at clock 2:26 (t=649-650), then says "I mean I have nothing to defend the cannon cart" (t=654-655) and delays committing to it until the Minions are dead (t=665-666); at clock 1:09 he is still guessing at it — "he's going to Cannon Cart, maybe? Or maybe Mortar" (t=725-727).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

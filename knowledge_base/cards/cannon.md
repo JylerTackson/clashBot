@@ -364,6 +364,20 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1319 (vs bridge-spam pressure): names the Cannon being touched as his own error — "I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit".
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:33 (t=15.0): placed at tile [9,9], deliberately offset one tile from the Musketeer he had just dropped at [8,9], so a single Rocket cannot take both — "because he has no NATO, he can't go for the rocket plus NATO here. Okay, I'm going to cannon like this in case he has the rocket in the middle" (t=11-16). The opponent Rockets anyway: "I knew it. I literally knew the prediction was coming ... there's no way I predicted his rocket prediction" (t=16-21).
+- clock 0:40 (t=28.9): a second Cannon at tile [8,10] played as tempo while he waits for a read to resolve — "I think I want to cannon now. He's going to lightning" (t=27-29).
+- clock 1:38 (t=100.1): Cannon at tile [9,13] alongside a Magic Archer, and he reads the opponent's mirror of it as bait — "Cannon here to distract us" (t=102).
+- Four more defensive drops across other clips (t=60.6, t=129.0, t=221.4 at 4.0->1.0 elixir, t=234.2 at [9,9]), all unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:48 (t=447.4, tile (9, 11)): put the Cannon down before the opponent had shown a win condition, on an archetype read alone — "I'm getting like a random RG vibe right now just from this dude... okay, let's cannon here" — the Royal Giant appeared at t=450.
+- clock 1:03 (t=366.4, tile (16, 8)) and clock 0:31 (t=335.3, tile (2, 12)): Cannon placed on the far side as part of the same predict-then-block pattern rather than as a reaction to a push.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

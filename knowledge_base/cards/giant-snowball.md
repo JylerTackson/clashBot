@@ -193,6 +193,17 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md
 - clock 1:30 (overtime): he counts forcing it out as better value than the tower damage he gave up - "we forced out snowball as well. That's honestly probably even better than just grabbing the shot that we would have gotten" (624-628s), and again "He has to snowball that forcing out Evo Snow[ball] is always good" (672-674s).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:59 (t=149.1, HUD 5.0->3.0) and t=254.3 (tile [2,8], label 'iaNtScowball'): two casts, the second on the segment's final call — "let's snowball the mega..." (t=254-256), cut off mid-sentence.
+- He also tracks the OPPONENT's snowball as a held card — "He definitely wanted to save that snowball for offense" (t=101-102).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:25 (t=288.3): threw the (Evolution) Giant Snowball at tile (2, 17) onto the Royal Giant's landing tile before the RG existed, with the sole aim of buying his X-Bow a lock-on — "I want to try to get an evo snowball predict on his RG to try to get my expo to lock onto the tower. That could instantly win me the game... W prediction."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

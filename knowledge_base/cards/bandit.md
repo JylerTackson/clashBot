@@ -186,6 +186,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
 - t=1059.1 (clock unreadable): played on his own half ([7,10]) as a defender he expects to convert into offence — "I went for the bandit here on defense just kind of knowing that I would like need to break through here in the very near future."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:29 (t=222.2, tile [13,13]): opponent card, forced out by a bridge Princess exactly as predicted — "we can go for the princess at the bridge cuz he's going to have to go for the bandit on this ... if he goes for the bandit on the right, yep, he's kind of cooked" (t=207-219).
+- clock 2:13 (t=252-254): a Bandit dashes the left lane in the final clip while Ryley plays around a predicted pre-Zap.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

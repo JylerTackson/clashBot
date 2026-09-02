@@ -195,6 +195,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Mentioned twice, never on Ryley's side. Named as a defensive problem alongside Mother Witch (t=1173-1175), and used by the opponent to kill his bridge Evo Princess — "He does grab it with the wizard, which was good by him" (t=1200).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 2:07 and 1:43 (t=141.1 and t=165.2, both tile [1,8]): two deep left-lane defensive placements during the bridge-spam clip. Unnarrated — a defensive anchor while the predictions happen elsewhere.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

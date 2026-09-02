@@ -375,6 +375,60 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1457.5 (3,22), t=1463.8 (elixir 9 -> 5) and t=1478.5 (2,24): three Fireballs into the enemy left-tower area during his aggressive stretch, part of "just constantly spamming him" (1482-1486s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- t=111-119 (clock 0:19 to 0:11): held for eight seconds specifically for a card he predicted, not cycled — "He's going to go for another magic archer. I'm waiting for it, dude. I'm waiting for it. I'm waiting for it. Okay, let's fireball here. Nice. Let's go. Beautiful prediction." HUD cast at t=110.9 (6.0->2.0) and a deploy label at tile [12,18] at t=114.1.
+- clock 0:55 (t=59.1, tile [12,23]): announced as a conditional range check on a unit that has not moved yet — "that is going to be a fireball range if that jumps" (t=59-61).
+- Two more casts at t=96.1 (6.0->2.0) and t=178.5 (7.0->3.0), unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:08 (t=323.3, tile (9, 23)): Fireball held to follow immediately behind the pre-Log so the two spells covered the support that survived — "let's pre-log the mega minion, then we fireball."
+- clock 0:15-0:08 (t≈393-399): on the receiving end he waited out an enemy prediction Fireball before committing — "let's wait for the prediction fireball. I feel like he's going to predict fireball. Yep... we predicted his prediction and it saves us our tower."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- Both casts are defensive and in the lane the opponent attacked: (5, 12) at clock 2:15 into the Inferno Dragon / lava push, and (2, 11) at clock 0:05 onto the last Inferno Dragon — "Let's go for the Berserker on defense. Let's Fireball. E-Spirit as well just to touch this for a second" (161-165s). He never uses it for tower chip in this game.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 1:45 (t=235): defensive Fireball at (3, 12) on his own half into the Graveyard skeletons and the Baby Dragon — 'We can go for the fireball. Now, I just want to make sure that we hit the baby dragon, too.'
+- clock 0:48 (t=290): second Fireball at (1, 21) on the opponent's half into the Lava Hound / Baby Dragon push — 'I do think I need to double fireball that baby dragon.'
+- clock 0:22 and 0:12 (t=319, t=328): Fireball at (3, 24) then (4, 25) straight onto the enemy left tower as the closing cycle — 'All we have to do is start fireball cycling' (317s), 'Let's fireball log, guys. And we just need to cycle back to one more' (320-322s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- overtime 1:38 (t=526.3): Fireball onto the Electro Wizard sitting under a Rage — "That should fully take out the e-wiz. Yes, the rage, too" (t=520-522).
+- overtime 0:48 (t=576, [5, 23]) and overtime 0:17 (t=605, [5, 23]): thrown behind the enemy left tower onto the Sparky — "we can definitely fireball here on top of that Sparky. It is always nice to fireball the Sparky" (t=576-580).
+- the deck only cast Fireball in overtime (t=526.3, 546.5, 576, 605); through all of regular time it was held while cheaper cards did the defending.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:31: one cast, onto tile [12, 22] — on top of the opponent's stacked Rascals on the opponent's own half, used to start pressure rather than held for defence: "I'm just going to fireball here on top of all this just to get the pressure going really quickly" (t=644-646).
+- clock 1:04: names the Fireball slot as the reason the matchup is lopsided — "he knows the Expo is a hard counter against Mortar if I have the Fireball variation" (t=733-734).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 1:57 (t=795-796): Fireball at [6, 22] on the second Goblin Hut, enemy left tower 4858 -> 4527 — the stated reasoning is that spawner decks invite the trade: "whenever they go for this, they're just kind of just inviting you to Fireball their tower, which is fine, cuz with doing this, you know, I will eventually be up in damage" (795-803s).
+- clock 0:57 (t=857.3): pre-commits the spell to the opponent's mini-tank — "I will definitely start taking my Fireballs on Ice Golems and stuff like that. We have to be very smart about that" (856-862s).
+- overtime 1:35-1:28 (t=938.2, 946): Fireball out of hand and then at [15, 17] across the river onto a stacked defence — "We need to go for the fireball on top of everything. Please make sure we hit everything. Come on. Nice. Good fireball right there. We can maybe try to get a connection" (945-949s).
+- overtime 0:44-0:13 (t=989.2, 996, 1006, 1019.8, 1025): Fireball on cycle every lap trying to clear the ground in front of a sieging X-Bow — "Dude, I'm going to have to fireball the floor in hopes of grabbing a connection" (1024-1025s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 2:27: opens the Fireball cycle onto the enemy right tower at [12, 21] (elixir 9->5), enemy right tower 4858->4583 — 'I'm just going to want to Fireball cycle right off the gate if it is Miner Rocket. Even if it's not Miner Rocket, any type of Miner deck, I'm just going to be wanting to Fireball cycle really early on anyway'.
+- clock 1:28 onward: repeated Fireball deploy labels on the same enemy-tower tiles [12, 21] and [14, 23] (t=1102, 1131, 1172, 1202, 1261, 1298, 1307, 1319, 1329) — 'I'm just going to keep on Fireballing, guys. Just keep on Fireballing. There's literally no point not to'.
+- clock 1:21: he frames the chip as Rocket bait — 'after you get a lot of Fireball damage, they do usually get upset and they try to attack with the Rocket or they try to defend without the Rocket', then at clock 1:11 his tower takes 546 spell damage: 'Yep, see right there. Like I said, he tries to attack with the Rocket'.
+- OT 1:37: also used defensively on his own half at [4, 4], though he prefers the cheaper option that same second — 'We have to make sure we Fireball the berserker. Actually, let's log it just to get the tower damage'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

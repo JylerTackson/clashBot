@@ -196,6 +196,11 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md
 - clock 0:03: his summary of the loss names it first - "I feel like this just balloon fireball with the cage. It's just so impossible to break through."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:58 (t=269.3, tile (16, 14)): Balloon sent into the lane the opponent had just committed away from, with the Miner prediction queued behind it — "I'm going to go for the balloon opposite lane here. Then I'm going to miner where he might try to drop the inferno dragon."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

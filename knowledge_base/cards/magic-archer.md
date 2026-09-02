@@ -264,6 +264,13 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md
 - clock OT 0:35 (t=1526): the piercing-arrow chip finish, hunting a line through troops into the tower — "Marcher the bridge. Hold on. Wait. Can we get a lineup? Please give me a lineup. Give me a lineup. Oh my god. Marcher. Marcher. Marcher. Let's go." Enemy left tower falls 2349 -> 1229 in that window.
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- t=25-36 (clock 0:42 to 0:33): the Heroic Magic Archer's Triple Threat used purely as a dodge, called before the opponent commits — "Let's go for the marcher here. He might go for the lightning ... we can just hit the ability backwards and we keep it alive. Let's go right now. Keep the marcher alive. Oh my god, what a beautiful magic archer ability, guys." The deploy itself was not captured by the pipeline; the ability press is commentary-only.
+- clock 1:38 (t=100.1): a plain deploy at tile [9,9], centre of his own half — "let's go for the magic archer here. He definitely wanted to save that snowball for offense" (t=99-102).
+- t=111-119 (clock 0:19 to 0:11): the opponent's Magic Archer is what he holds a Fireball for — "He's going to go for another magic archer. I'm waiting for it, dude. I'm waiting for it. Okay, let's fireball here. Beautiful prediction."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

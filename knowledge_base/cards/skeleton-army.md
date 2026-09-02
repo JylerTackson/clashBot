@@ -216,6 +216,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Mentioned, not played by Ryley — the opponent's 'Skarmy'. It is why he rates Elite Barbarians poorly in this matchup ('If he has Skarmy and... Dark Prince', t=1719-1722) and why he is happy to have Mother Witch in the list ('Skarmy matches', t=1726).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:32 (t=479.5, tile (8, 21)): Skeleton Army placed on the opponent's half as part of the closing pressure while both enemy towers were under 300 HP — "the Evil Skarmy — okay, it's dead now, but oh my god, that was such a beautiful prediction."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

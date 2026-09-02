@@ -214,6 +214,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:08 (t=1402.2): Minions at [8, 14] when he thinks the game is lost, purely for chip — "Let's minions here. We have to let this lock on and deal some [damage]."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:10-2:07: three Minions walk his left lane; he sequences the defence around them explicitly — "just make sure we take out these minions cuz we're not going to take out the cannon cart until we take out the minions" (t=662-666) — and clears them with Berserker, Archers and Electro Spirit.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

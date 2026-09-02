@@ -203,6 +203,12 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1032.0: the last one at [15, 14], right on the bridge tile — 'I went for the inferno dragon at the bridge as well, kind of just knowing that, you know, this game was over.'
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- The opponent's main answer to the X-Bow, sent three times (arena tracks at (4, 16) clock 2:17, (13, 16)/(14, 13) clock 1:31, (1, 13) clock 0:08). Ryley expects it before it comes: "this guy might go for an Inferno Dragon, or he's going to ignore all of this and go Rune Giant behind or Inferno Dragon behind the Rune Giant" (60-67s).
+- He answers it every time with cheap cards instead of a spell — Berserker plus Fireball at 2:17-2:15, Tesla plus Electro Spirit plus Skeletons at 1:30-1:25, Tesla plus Skeletons plus Berserker plus Fireball at 0:13-0:03 — and calls the chain-stun explicitly: "just to chain onto that Inferno Dragon, make sure we take it out" (82-84s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

@@ -217,6 +217,32 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:10 (t=926-929): he accepts the chip rather than over-defending - "Only one minor hit, which is fine by me. I don't really mind that too much."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:52 (t=181.2, tile [4,22]): the payoff half of a two-card prediction — he expects a Tornado king-activation, feeds the Hog Rider to it and lets the Miner land: "let's hog rider here then we miner directly here. He's still going to activate king off the miner, but the hog rider's not going to go cuz guys, look, it blocks it. Nice ... What a beautiful miner" (t=178-188). Enemy left tower 1354 -> 1037 -> 403 across clock 0:57 to 0:52.
+- clock 0:38 (t=101.6): a second HUD Miner (6.0->3.0) in a different clip, unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:55 (t=272.3): Miner to tile (15, 20), placed on the spot he expected an Inferno Dragon rather than on the tower — "I'm going to miner where he might try to drop the inferno dragon. Oh my god, nice. Very good prediction."
+- clock 1:39-1:36 (t=346.3 and t=349.3): Miner to tiles (9, 19) then (8, 21) to land on a Princess before she was played; the enemy Princess appeared at (6, 22) at t=352.4 — "he might princess here in the middle. I'm low-key tempted to go for the minor to predict it... very nice prediction right there on that princess."
+- clock 0:51 (t=426.4): Miner to tile (2, 23) purely as a body on an expected Elite Barbarians landing zone; Elite Barbarians arrived at (2, 20) at t=432.4 — "minor here to block a potential E-Barbs placement. Oh my god. NICE. WHAT A GOOD MINOR PREDICTION."
+- clock 1:12 (t=470.5): Miner to tile (9, 24) again onto a Princess spot, paired with Wall Breakers behind it — "then we go for a Miner to predict the Princess... oh my god, we got it. It was perfectly positioned on top as well."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- Not detected, only predicted and pre-answered: at clock 0:35-0:33 he places Archers at (11, 8) then a Berserker at (12, 8) behind them — "I know he's going to go for the Miner on top of it. So, let's go for the Berserker behind to predict the Miner. Nice." (132-136s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- Not played by Ryley — the opponent's card, named 18 times this game and the thing his whole defence is built around: 'I do know that he's going to Miner' (clock 2:11), 'If we catch a lot of the miners, we have a good chance as well' (clock 0:43).
+- OT 1:11: an enemy Miner is tracked crossing at (12, 17)->(13, 15); his answers are always cheap and pre-placed — Archers, Skeletons or Electro Spirit on the landing spot — 'we skellies predict the miner', 'E-spirits for the miner. Yep. It was just obvious that he's going to put it right there'.
+- OT 0:13 / OT 0:03: catching the last Miners is what wins him the game — 'Oh my god, and we caught the miner. Let's go', 'I think we got the miner, TOO. LET'S GO. We barely did it'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

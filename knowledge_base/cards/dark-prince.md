@@ -161,6 +161,13 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Mentioned, not played by Ryley — it is the opponent's card and the axis of the whole segment. He expects the opponent to hoard it rather than spend it on a Royal Ghost (t=1683), tries to kite it with a Battle Ram (t=1691), kills it with bridge Elite Barbarians ('I was able to take out the dark prince, which was good', t=1712), commits his Mother Witch specifically 'with him not having dark prince in hand' (t=1727), and dismisses the last one: 'I don't think it actually mattered because his dark prince was going to get knocked away by my battle ram anyways' (t=1747-1750).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 0:36 (t=467-468): the Berserker ability plus Log clears it off the X-Bow — "it's going to take off the dark prince. Look, both of those troops got zero damage on my expo."
+- overtime 1:30-1:28 (t=528-536): he plays around the opponent's elixir — "if he can only afford a dark prince, we can try to make it hop over the river" and "now we ability cuz he dark prince, and we just reset."
+- overtime 0:38-0:32 (t=584-592): two different resets on it — "We can log for the Dark Prince" and "High e-spirit for the Dark Prince."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dark_Prince (scraped 2026-09-02T02:35:01+00:00)

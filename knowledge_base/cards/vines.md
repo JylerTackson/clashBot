@@ -162,6 +162,14 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Game 1, opponent, mentioned only: expected and played through - "I knew he was going to vines, but I was able to take out the batter anyway" (458-460s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:35 (t=498.5, tile (2, 13)): held Vines with Berserker for a Firecracker he had called out one line earlier, then spent it the moment it appeared — "Vines — oh, nice. I literally called it, man. I literally knew it."
+- clock 0:53 (t≈525): used on defence as the answer to the Firecracker rather than as a push spell — "Vines on defense take out that Firecracker."
+- clock 0:35 (t=544.5, tile (4, 21)): talked himself out of a pre-Vines and cast it reactively instead — "I'm tempted to pre-Vines low-key just to get him good, but I'm just going to barrel. There's the Firecracker. Just going to Vines on top of this."
+- clock 0:13 (t≈571): spent 3 elixir on Vines purely to keep one Goblin alive on a counter-push — "let's Vine spell here just to keep that one Goblin alive."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

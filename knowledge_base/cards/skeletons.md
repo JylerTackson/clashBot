@@ -482,6 +482,65 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1237.7 [8, 7] (elixir 3.0 -> 2.0) inside the low-elixir hold — "I went for the skelly as well and I got a really good log here on defense as well".
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:31 (t=38-40, tile [14,14]): played to protect a ranged troop rather than to defend a lane — "just skellies as well just to keep the archers alive" (t=38-39).
+- clock 1:50 (t=72.1, tile [5,14]): used as a reset on an accepted trade — "we're just going to get a ton of damage and we can just reset by going for what skellies first" (t=73-76).
+- clock 2:13 (t=250.8, tile [7,7]): the placement IS the prediction — "I don't really want to go for the Tesla in the middle cuz he could split his stream. He might pre-zap us. Let's go for the skellies on the other side. Predicted his prediction there" (t=248-254).
+- Fourteen further 1-elixir drops across the montage (t=20.0 [9,12], 54.1, 66.2, 67.7, 104.3, 107.4 [11,15], 112.1 [10,14], 128.1, 143.8 [2,14], 144.8, 155.2 [1,15], 167.2 [7,14], 198.5) make it the most-played card in the segment.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:21 (t=294.3, tile (15, 10)): Skeletons paired with the Tesla into a Royal Giant push and then left to work — "Tesla skellies here, and then we just let that go."
+- clock 0:37 (t=344.3, tile (6, 15)): cheap cycle card played straight after a successful pre-Log — "let's go for the skeletons."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- Seven plays, repeatedly at the river to drag an attacker across rather than to trade: (7, 14) at 2:29, (10, 15) at 1:25, (14, 14) at 0:47, (14, 13) at 0:27 ("Skellies up top") and (6, 15) at 0:11 ("Skellies here to bring this a little bit over").
+- clock 2:07 (t=39.3): Skeletons at (10, 8) as the last card of the opening defence against an Inferno Dragon and lava-pup crossing his half; both of his towers come out of that push untouched at 4858.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 1:48 (t=231.7 at (1, 7)) and clock 0:34 (t=307 at (4, 8)): the first card he calls out in each defence against the two Graveyards — 'let's go for the skeletons here' (231s), 'Let's go for the skellies here' (306s).
+- clock 1:08 (t=272 at (11, 14)): bridge-side Skeletons in the right lane against the Electro Wizard crossing over, no commentary.
+- clock 0:15 (t=325.2 at (9, 10)): 1-elixir body inside the closing defence while both Fireballs go to the tower.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 2:13 (t=370, [8, 14]): first defensive block of the game — "We can Skellies here as well. Good defense" (t=371-373).
+- clock 1:15 (t=428.7, [3, 15]): Skeletons behind the Berserker to hold the Sparky — "I'm going to Skeletons. Nice" (t=423).
+- overtime 1:51 (t=513, [3, 14]): stall rather than kill, against Sparky in overtime — "Let's skellies here. Make sure that we keep blocking" (t=512-515).
+- overtime 0:40-0:27 (t=569, 575.8, 598.2, tiles [8, 15] and [9, 15]): repeated cheap blocks during the long defensive turn — "nice skellies here to block the heal spirit" (t=582-584) and "We go for the skeletons and Tesla in the middle as well. We're doing very good defense right now" (t=594-597).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:26: Skeletons at [4, 14] played pre-emptively for a card he has not seen yet — "skellies here at the bridge in case he cannon carts. Okay, nice" (t=649-650).
+- clock 1:43 and 1:21: one-elixir drops at [8, 8] and [8, 14] while cycling back to the X-Bow in double elixir.
+- clock 1:22: half of his named follow-up package, "the Skellies plus Berserker" (t=712).
+- clock 0:52 and 0:47: Skeletons at [6, 17] and [5, 19] on the opponent's half after the concession.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 0:43 (t=870): Skeletons at [1, 14] as a lane distraction — "Let's go for the Skeletons up top here to make sure that we distract this" (870-871s).
+- clock 0:32 (t=880.7): Skeletons at [1, 13] against the opponent's tower troop — "Skellies here to block the Spear Empress" (881-883s).
+- overtime 1:09-1:08 (t=964.5, 966.2): played inside the Graveyard radius rather than beside it — "Skellies here inside for the graveyard" (970-971s).
+- clock 1:46 (t=807) and throughout overtime (t=936, 995.5, 1001, 1013, 1027): 1-elixir cycle to get back to X-Bow and Fireball — "We can skeleton here as well and we can go for the log" (807-809s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 2:11: Skeletons at [3, 5] behind his own tower as the cheap cycle/distraction — 'Let's Skellies here behind the tower'.
+- clock 0:35 / OT 0:19: Skeletons at [14, 4], [14, 5] and [14, 2] placed pre-emptively where the Miner will land — 'we skellies predict the miner. Come on. Nice, very good'.
+- clock 1:03 / OT 1:09: Skeletons at [1, 13] and [16, 13] as X-Bow protection and to DPS down whatever is attacking it — 'Let's skellies here after the side'.
+- OT 0:37: paired with Electro Spirit as a two-elixir double block — 'E-spirit skellies. Nice. We blocked both sides here'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

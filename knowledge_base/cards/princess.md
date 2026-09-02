@@ -308,6 +308,19 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1271.3-1292.3 [2, 14] (repeated labels): defensive placement to hold a Zappies lane — "I went princess on the zappy. I knew that I would have to protect it". Also placed deep in his own corner at t=1103.1 [9, 0] and t=1246.2 [8, 0] against swarm pressure.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:48 (t=205.2, tile [15,14]): put at the bridge to force one specific answer out of a known hand — "we can go for the princess at the bridge cuz he's going to have to go for the bandit on this" (t=207-209). The Bandit duly arrives at t=222.2. Logged as an opponent deploy on Ryley's half; commentary attributes it to him.
+- Named again in the segment's cut-off final line — "Let's princess the bridge right" (t=256).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:22 (t≈457): Princess placed together with an Ice Spirit as a paired prediction on the Minion Horde — "let's ice spirit princess predict the minions. Nice. Beautiful. Very good prediction, guys."
+- clock 1:03 (t≈371): Princess played first, with a Mighty Miner reserved to block the answer — "go for the princess here then block with the mighty miner right away cuz he might valk."
+- clock 0:27 (t≈385): a second Princess used to drain the opponent's building cycle — "we go for another princess... okay, forced out the Evo Tesla."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

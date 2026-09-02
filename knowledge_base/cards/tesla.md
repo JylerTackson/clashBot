@@ -232,6 +232,59 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Game 2, Ian's defensive building: tracked at t=566.6, 630.6, 676.7, 738.7, 746.7, 752.8 and 756.8, mostly around [7-9, 15-19], defending the central Golem lane.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 2:16 to 1:50 (t=131.1 tile [9,11], t=137.3 HUD 8.0->4.0, t=158.2 tile [7,8]): three defensive placements through the bridge-spam clip, plus a named-but-not-played call at t=47 ("We can just tesla here and then we have the knight ability for the mini pekka").
+- clock 2:13 (t=248-250): the one Tesla he explicitly REFUSES, and the refusal is the prediction — "I don't really want to go for the Tesla in the middle cuz he could split his stream. He might pre-zap us."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:21 (t=293.3, tile (8, 11)): Tesla plus Skeletons dropped together into a committed Royal Giant + Fisherman + Magic Archer push and then left alone — "Tesla skellies here, and then we just let that go. Oh my god, what a prediction, guys... and now we can match card for card at the bridge."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- clock 0:47 (t=121.0): Evo Tesla placed forward at the bridge, tile (16, 13), as an offensive sniper rather than a King-Tower guard — "Let's Evo Tesla at the bridge. Can it lock on to the Inferno Dragon? Nice. Let's go." (Logged by the pipeline as an opponent play; it is on his half and matches his commentary — see the match file's Data gaps.)
+- clock 1:30 (t=77.0): Tesla at (8, 9), dead centre, as the anchor of the defence that protects the locked X-Bow — "Let's just go for a Tesla here in the middle. That is 1 HP, sadly. I wish it was completely gone."
+- clock 0:13 (t=154.0): Tesla at (7, 13), high on his own half — "Let's go for the high Tesla here. We can take out the Inferno Dragon and Berserker with that." Other placements: (4, 10) at 2:37 and (17, 7) at 0:29.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.1.md):
+- clock 2:02 (t=218): Tesla at (7, 11), centre-right of his own half, purely to kill the Lava Hound — 'Guess we can go for the Tesla here as well just to make sure that we take out this Lava Hound.'
+- clock 2:00-1:56: he refuses to pull the Hound onto it — 'I'm not going to make the Lava Hound follow it though because not only is it unnecessary in this type of match up, but because of how much Elixir we're down, I think it's better if we just eat some damage.'
+- clock 0:36 (t=302): Tesla at (4, 9) as the anchor of the last left-lane stand against a second Graveyard plus the Lava Hound remains, while the X-Bow keeps firing.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 1:32 (t=416, [8, 10]) and overtime 1:18 (t=544, [8, 10]): Tesla goes in the middle of his half, not in a lane — "I think I need the cycle a Tesla here in the middle" (t=411-413) and "I actually think that we just set up a Tesla in the middle here, guys" (t=540-542).
+- clock 1:14 (t=430-433): keeping the Tesla alive is itself the defence — "if I keep this Tesla alive, it's kind of just stops him from going for a random Goblin Giant at the bridge on six elixir."
+- clock 0:52 (t=451, [8, 12]): a deliberately high placement to shield the X-Bow push — "let's go for a high Evo Tesla here as well. It's going to make it really, really hard for him to deal with" (t=452-455).
+- clock 0:14 (t=489, [8, 12]): re-laid straight after the ability so the next X-Bow has cover — "now we have a Tesla as well helping out on the next push" (t=493-496).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 1:40: single placement at tile [4, 10], beside and slightly behind the X-Bow he had just rebuilt at [2, 12] — the standard siege-screen slot. No commentary on it.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 1:08 (t=846): Tesla at [9, 14], 1 tile off the river rather than the usual 3-tiles-from-bridge pull, cycled deliberately toward the evolution — "We're definitely going to start getting to our Evo Tesla, though, cuz Evo Tesla is going to be really really important defensively. Let's just cycle a high Tesla now" (840-846s); the opponent's Graveyard at [8, 6] two seconds earlier did no tower damage.
+- clock 0:40 (t=872.7): Tesla at [6, 13], again high, alongside Skeletons and an X-Bow in the same lane — "we go for a high Tesla, as well" (872s). In this deck the Tesla is played as the X-Bow's bodyguard, not as a standalone pull.
+- overtime 1:51 and 0:57 (t=922, 976.2): Tesla at [12, 13] and a 4-elixir cycle out of hand during the defensive stack he narrates as "Make sure that we take this out" (924-925s) and "we log here for the furnace... We need to get a berserker in front here" (975-979s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- clock 2:45: opens the game with Evolution Tesla at [8, 10], dead centre — 'to go for the Tesla here in the middle. Trying to get to my Evo Tesla as early as possible' (elixir 9->5).
+- clock 0:19 / OT 1:45: Tesla dropped behind the X-Bow at [4, 13] and [3, 11] as its bodyguard — 'let's X-Bow here, and then we Tesla again as well. Just to instantly grab that'.
+- OT 0:39: Tesla at [6, 13] into the lane the opponent's own Evolution Tesla defends — 'He will tesla here'.
+- clock 0:39: his takeaway for the next game is to lead with the pair — 'Next time I'm just going to go for the X-Bow Tesla'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

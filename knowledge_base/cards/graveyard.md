@@ -192,6 +192,18 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - His answer is always the same pre-placed stack rather than a reaction: Bomb Tower on the central tile plus Valkyrie or Tornado, e.g. Valkyrie [9, 10] and Bomb Tower [8, 10] going down at t=130-132, two seconds before the Graveyard lands.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:37 (t=102.1, tile [9,6]): the opponent drops a Graveyard on Ryley's half; his answer is to reposition rather than spend — "I think I need to step back here just to not get vines. Oh my god, I stepped out of the vines. I literally called it" (t=104-109). The 2024-era detector has no Vines class, so this label may be the Vines he names.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:29 (t=763-771): read from the first cycle, and used as an argument for early pressure — "It looks like he has a Graveyard deck, but going in early against Graveyard is never a bad thing. You kind of get a feel for their exact variation and their cycle as well, cuz depending on their version and their cycle, it can be a very different game every single time."
+- clock 1:08 (t=844): Graveyard cast on Ryley's half at [8, 6]; he answers with a high Tesla at [9, 14] plus cheap troops and his left tower holds at 4586 through clock 1:03.
+- overtime 1:04 (t~970): second Graveyard answered with 1-elixir Skeletons placed inside the spell — "Skellies here inside for the graveyard" (970-971s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

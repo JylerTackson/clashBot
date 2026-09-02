@@ -162,6 +162,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 1:03: he names it as a bad answer to a Goblin Barrel and a good target for Wild Whirlwind — "sometimes people like to go for like the hunter or something, but then that is definitely a really good Valkyrie ability" (578-582s).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:13 (t=395.4, tile (2, 11)): committed the Hunter only after the opponent's prediction Fireball had already been spent — "we predicted his prediction and it saves us our tower."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hunter (scraped 2026-09-02T02:35:02+00:00)

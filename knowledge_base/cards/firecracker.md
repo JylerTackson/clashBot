@@ -193,6 +193,11 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md
 - opponent card, tracked at clock 0:08, 1:46, 1:24, 1:18 and 0:58 (evolved from t=162). Ryley tracks the evolution cycle out loud — "Okay, his next firecracker is evolved. So, you have to be very mindful of that" (t=146) — and treats forcing it out with a 1-elixir Fire Spirit as a win: after it is spent, "because he wasted firecracker, we can get a nice King tower activation here" (t=116-122).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:39 (t=168-171): mentioned, not played — the opponent's Firecracker is the target of a pre-placed Tornado: "then next up firecracker. Wait, I'm going to rocket and then I'm going to pre-nado the firecracker. Yep, knew it." Also called twice earlier in the same rotation (t=133-134, t=151-152) and confirmed on the field as firecracker(e) at [1,17] and [4,13].
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

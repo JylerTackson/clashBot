@@ -157,6 +157,13 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:19: the opponent plays Rage at (11, 19), elixir 10 -> 8, behind a right-lane push. Ryley does not comment on it and answers the push with Valkyrie, Cannon, Skeleton Army and Ice Spirit rather than a spell.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 1:18 (t=425-427): surviving the Rage is what he judges the defence on — "keeping this alive against the rage is actually very, very important."
+- overtime 1:38 (t=520-522): Fireball catches the raged support — "Yes, the rage, too."
+- opponent Rage spells were tracked landing on Ryley's half at clock 0:52 ([10, 7]), clock 0:30 ([6, 5]) and overtime 0:02.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

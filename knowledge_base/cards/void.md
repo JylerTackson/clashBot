@@ -111,6 +111,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 638-642s, his verdict: 'Not that it maybe I don't agree that it needed a buff, but damn is it crazy.' And 667-691s on why it exists: 'although it does take, you know, two more Elixir to play every single time... there's never been a five Elixir spell before and there has been a lot of cards in the game that were only able to be taken out by the six Elixir spells like Rocket and Lightning.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- clock 1:33 (t=75): the opponent casts it on Ryley's X-Bow push; not detected, named in commentary only — "He does get the Void down, which is definitely fine by me." His right-lane damage continues uninterrupted through it (opponent tower 2047 -> 1201 over the next four seconds).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Void (scraped 2026-09-02T02:35:29+00:00)

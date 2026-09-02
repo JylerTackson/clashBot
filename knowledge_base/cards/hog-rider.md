@@ -214,6 +214,17 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md
 - mentioned, never cleanly detected: the opponent's win condition, which Ryley says his own bridge pressure denies — "He can't hog cuz he has to defend" (t=192), "I know he's going to go for the hog now. Yep, that's obvious" (t=199), "He might try to hog in. So, we just need to be ready" (t=214).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:34 (t=176.2, tile [1,14]): deployed knowing it will be pulled, purely so the Miner behind it connects — "Obviously, he's going to want to go for the tornado to activate the king tower. So, let's hog rider here then we miner directly here ... the hog rider's not going to go cuz guys, look, it blocks it" (t=174-184).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:08 (t=324.3, tile (16, 14)): sent the Hog on a read of the opponent's answer, not the board — "we can just go for the hog here and no matter what he does unless he fireballs, we're getting at least one hit."
+- clock 0:58 (t≈405): the reverse decision — he cancelled the Hog because he read a counter-prediction coming — "we can go for the hog. Wait, actually he might predict us so I'm not going to go in with the hog. Yep. I had a feeling, man."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

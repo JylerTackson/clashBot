@@ -216,6 +216,17 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Offensively with the Heroic Valkyrie ability for the game's biggest damage - t=750.9 [15, 21], "look at that Valkyrie, guys. I got up to the tower because of my tornado. Very good NATO right there" (754-762s); a last one at t=780.8 [14, 21] on the winning push.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:37 (t=171.2, tile [3,18]): cast on the ENEMY half, ahead of where the Firecracker will be rather than onto it — "I'm going to pre-nado the firecracker. Yep, knew it" (t=170-171).
+- Counted twice in the opponent's hand instead of played: "because he has no NATO, he can't go for the rocket plus NATO here" (t=11-13), and "he's going to want to go for the tornado to activate the king tower" (t=174-176) — the read the Hog/Miner split is built on.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:52 (t≈276): held the Tornado rather than spending it once he judged the damage was already lethal — "I don't even think we need tornado this away. That should just hit the tower regardless. Perfect. That's tower down."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

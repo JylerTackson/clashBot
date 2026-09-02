@@ -418,6 +418,21 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md
 - clock OT 0:40 (t=1521.5): [14, 25] in the closing sequence, named as one item on a list he is cycling through under pressure — "Evo barrel. We need the wall breakers. We need a ice spirit as well."
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:16 (t=235.2, tile [3,23]): thrown as deliberate spell bait on a read of the opponent's cheapest answer — "Let's barrel here cuz he's going to try to get a zap down, then we go for the goblins. Yep, there's the zap" (t=237-240).
+- clock 1:56 (t=199.2, tile [3,26]): the throw is deliberately DELAYED behind an ability press — "I'm going to go for the goblin barrel here. Actually, no, I'm going to hit the ability cuz you might battle him kite and then we go for the barrel right now ... I predicted his kite right there" (t=197-205).
+- Three more throws (t=117.0 HUD 5.0->2.0, t=148.6 HUD 8.0->5.0, t=228.2 tile [14,26]) are unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:37 (t=375.4): barrelled tile (15, 24) to strip the opponent's spell rather than for damage — "let's go for the barrel here on the right side. Force out the [Log]. He has to log."
+- clock 1:30 (t=501.5): Evolution Goblin Barrel to tile (3, 26) plus Ice Spirit in the opposite lane as a pressure package — "let's Evo Barrel Ice Spirit here opposite lane. We're going to pressure him really hard right now."
+- clock 0:38 (t=543.5, tile (14, 25)): chose the barrel over a pre-emptive Vines — "I'm tempted to pre-Vines low-key just to get him good, but I'm just going to barrel."
+- clock 0:17-0:13 (t=562.6/601.6, tile (3, 25)): barrelled one corner while Wall Breakers hit the other so a single spell could not answer both — "he has to log both sides, but obviously he can't."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

@@ -168,6 +168,16 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md
 - overtime 0:50-0:44 (t=242.2): answered with Magic Archer plus Berserker rather than a hard counter, with the ability expected — "He has to hit the ability, but we're going to get at least one, maybe two" (t=244).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:32 to 1:20 (t=221.2, tile [15,15]): deployed with the ability explicitly saved for the lane switch, on an elixir count of what the opponent has left — "We go for the mighty miner and then we hit the ability. He's going to have to use the e-wiz or the zap on this and he's going to be low on elixir. Yeah, he goes for the e-wiz, but now he has nothing for the mighty miner ... get the ability, go to the other lane, then we take the tower with the mighty miner" (t=221-235). Enemy left tower falls 3551 -> 1974 through that window. Logged as an opponent deploy on Ryley's half; commentary attributes it to him.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:03 (t=372.4, tile (2, 15)): the Mighty Miner is the pre-planned block for the answer to his own Princess, placed "right away" rather than after the Valkyrie appeared — "block with the mighty miner right away cuz he might valk. Nice. Let's go. We did that every time."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

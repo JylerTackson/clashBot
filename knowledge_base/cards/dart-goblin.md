@@ -344,6 +344,13 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:33 (t=725.9): Dart Goblin added to the defensive pile against the opponent's left-lane push; he treats its survival as the payoff of a good Valkyrie — "That's going to take out his Valkyrie, and the Dark Goblin's going to live again like it did last time" (733-735s), and "Dark Goblin here as well" (746s).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:39 (t=591.6): placed the Dart Goblin early at tile (8, 11), well before anything was on the field, as a Hog Rider prediction — "let's Dark [Dart] Goblin to predict his Hog Rider."
+- clock 1:33 (t≈598): the Dart Goblin then let him bank a spell — "maybe I'll save my vines here cuz Dark Goblin should take it out anyway."
+- clock 0:25 (t=555.6, tile (14, 15)): dropped at the bridge as the lead card of a three-card sequence, "let's Dark Goblin here then quickly Ice Spirit in front for his Skellies then Fire Spirit for the Ice Spirit."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

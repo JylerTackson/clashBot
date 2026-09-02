@@ -183,6 +183,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Video t=1712.7: one deploy at [15, 6] on his own half while he was down to low elixir after the Elite Barbarians bridge play.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:47 (t≈411): planned a Royal Ghost push opposite lane and abandoned it when he read the Miner block — "I'm going to ghost here. Wait, he's going to minor to block, so let's go for the goblin hut... I literally knew he was going to minor, then I tried to block the ghost."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

@@ -182,6 +182,17 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md
 - clock 1:24: a mistimed kite is what opens his counterattack - "He messed up his ice golem kite, though. That's going to get a decent amount of damage or force out more elixir."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:08 (t≈319): Ice Golem placed as the tank in front of a push he expected to be met by Three Musketeers — "ice golem here to tank. He's probably going to go for the 3M again."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 0:55 (t=856-862): the card he reserves his spell for — "I will definitely start taking my Fireballs on Ice Golems and stuff like that. We have to be very smart about that."
+- clock 0:37 (t=875-878): the Ice Golem is the clock on every siege attempt — "I need to Expo before he gets a chance to go in with that Ice Golem. I I I I just need to Expo immediately" — and it keeps coming back: "He has to do another Ice Golem" (887s), "Another ice golem, dude. Wow. Okay, this is getting out of hand, man" (959-961s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

@@ -461,6 +461,22 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1557.6, tile (14,15) alongside Goblins at (15,15): the opposite-lane bait. "I even went for the barbar plus goblins opposite lane kind of just knowing that he'd have to Valkyrie on the left side and he actually Valkyrie[d]" (1557-1562s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 2:23 to 1:49 (t=119.8, 123.8, 127.1 [4,11], 144.1 [4,11], 154.2 [5,11], 162.7, 203.9): seven casts, all defensive and all on his own half around column 4-5 during the clip where he is soaking a Zappies/Valkyrie/Firecracker rotation. Never explained on camera — it is the cycle card underneath the predictions, not one of them.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:07 (t≈294-304): rolled as a prediction rather than a reaction, and he calls it out as one — "beautiful prediction on the barb barrel as well."
+- clock 0:48 (t=432.4, tile (3, 14)): rolled into the lane alongside the Miner prediction to clean up the Elite Barbarians support.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 0:25 (t=888-891): mentioned, not seen as a play — he expects the opponent's Barbarian Barrel to soak his own Log: "Could we log this away, though? I think we can, but it's going to lock onto the Barbarian Barrel, anyways."
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

@@ -424,6 +424,20 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1316.6 [12, 12] as the top-up on a Royal Delivery + Berserker defence — "I went for the delivery berserker and I even got a nice ice spirit as well".
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:34 (t=218.2, tile [11,14]): the cheap opener on the Mighty Miner sequence — "We go for the ice spirit here, guys. We go for the mighty miner and then we hit the ability" (t=220-222).
+- Three more 1-elixir stacks on bigger commitments: t=17.7 (behind the anti-Rocket Cannon), t=44.5 (behind the right-lane Knight) and t=121.1 at tile [14,2]. None narrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:31 (t=356.4): Ice Spirit at tile (9, 14) placed to steer the opponent's lane choice rather than to kill anything — "I'm going to ice spirit to block it so he might go for it down the middle."
+- clock 1:22 (t=456.5): Ice Spirit at tile (14, 14) as the front half of "let's ice spirit princess predict the minions" — the Minion Horde followed at t=467.5.
+- clock 0:44 (t=534.5) and clock 0:25 (t=556.6): pre-placed at tiles (13, 14)/(14, 14) against a defensive Skeletons he expected — "Ice Spirit in case he tries the Skeletons on defense"; "quickly Ice Spirit in front for his Skellies."
+- clock 1:57 (t=581.6, tile (3, 8)): plays it knowing the value is fractional — "need to get an ice spirit down. It's going to block for only a quarter second."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

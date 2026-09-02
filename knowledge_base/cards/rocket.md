@@ -227,6 +227,20 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1325.3-1338 (Rocket label fires but elixir only moves 8 -> 6, i.e. no cast) with an opponent Giant Skeleton back-placed at (12, 21): the declined Rocket that loses him the game — "I got scared of rocketing, man. I just should have rocketed and I don't know why I didn't... I thought I could just rocket at the end. Um, but you know, I couldn't take the decision back".
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:39 (t=170.2): the setup half of a two-spell prediction, cast before the Tornado goes down ahead of the Firecracker — "Wait, I'm going to rocket and then I'm going to pre-nado the firecracker. Yep, knew it" (t=168-171). The deploy label at tile [4,16] is logged as an opponent play; the commentary attributes it to Ryley.
+- clock 2:12 (t=136.1, tile [7,28]): an own Rocket onto the enemy back line during the same defensive clip, unnarrated.
+- clock 0:47 to 0:27 (t=11-21): in the opening clip the Rocket is the OPPONENT's card, and the whole play is spacing around it — "he can't go for the rocket plus NATO here ... I'm going to cannon like this in case he has the rocket in the middle."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- Not played by Ryley — the opponent's finisher, named 16 times. He treats forcing it as the win condition of the match-up: 'if I don't have a comfortable lead and make him Rocket, I have no chance to win cuz obviously he has just as quick of a cycle, if not a quicker cycle than me. But then, of course, he has the Rocket and the Miner for my tower' (clock 1:53-1:43).
+- clock 1:21-1:11: his Fireball chip is designed to provoke it — 'after you get a lot of Fireball damage, they do usually get upset and they try to attack with the Rocket or they try to defend without the Rocket ... Yep, see right there. Like I said, he tries to attack with the Rocket' (his right tower loses 546 HP to an unidentified spell at t=1148).
+- OT 0:57: he plays around the Rocket rather than avoiding it — 'Let's expo predicting his rocket', and at clock 0:18 'He's going to rocket his [X-Bow] up. Okay, we can just Fireball again ... eventually there will be a point where he rockets us again, but this time we just have to protect our X-Bow well'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

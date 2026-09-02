@@ -212,6 +212,17 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 0:35-0:12 (t=983.0 at [3, 17]): the evolved version is the whole opponent deck to him — "his really only win condition in here is the evil mortar. Regular mortar is not much of a worry" (1006-1010s), and pressure, not defence, is his answer to it (1003-1008s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- Mentioned, not played: at 37-40s he generalises the Hero Berserker synergy off the X-Bow — "It also works very nicely with Mortar for the exact same reason" (i.e. the ability clearing whatever the opponent drops on the siege building).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:28: the opponent's Mortar goes down at tile [9, 20] behind a double Rascals split; Ryley never builds a dedicated answer to it and simply out-chips it with the X-Bow.
+- clock 1:04: he reads the whole matchup as decided by it — "I think this guy just gave up cuz he knows the Expo is a hard counter against Mortar if I have the Fireball variation" (t=731-734), and on the rework, the X-Bow now "does more damage to like the mortar where it's just trying to take it down" (t=678-680).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

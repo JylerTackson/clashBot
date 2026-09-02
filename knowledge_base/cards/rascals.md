@@ -157,6 +157,13 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md
 - clock 1:37 (t=990) and 0:54 (t=1031): he judges the opponent's Rascals placements poor — "I do have to be careful though of just a set of rascals at the bridge", then "Oh, that was a bad set of rascals" before punishing it with the bridge push.
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:34-2:26: the opponent splits Rascals from the back twice ([11, 26] then [13, 23], plus a third at [14, 15]); Ryley's first reaction is alarm — "after that the rascals in the back, dude, this actually might be nearly undefendable" (t=640-642) — and his answer is a Fireball on the stack at [12, 22] rather than a building.
+- clock 1:32-1:24: against a second two-lane Rascals commitment he uses split Archers, then The Log, then Electro Spirit — "make sure that we take out these rascals" (t=702-704).
+- clock 1:19: lets the last surviving rascal-boy connect on purpose rather than spend on it — "they could just let this go... it might be better to just eat some damage here" (t=718-722). His right tower drops 4458 -> 4258.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)
