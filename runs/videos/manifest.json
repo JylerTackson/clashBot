@@ -501,6 +501,52 @@
     "heal-spirit"
    ],
    "complete": true
+  },
+  "CdlYCOppdXQ": {
+   "id": "CdlYCOppdXQ",
+   "title": "Jynxzi Challenged Me in C.H.A.O.S Mode",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 7445,
+     "seconds": 958.6,
+     "games": [
+      {
+       "match": "0",
+       "seconds": 573.9,
+       "events": 42,
+       "own_deck": [
+        "barbarian-hut",
+        "suspicious-bush",
+        "tombstone",
+        "p-e-k-k-a",
+        "minions",
+        "skeletons",
+        "mighty-miner",
+        "ronin"
+       ]
+      }
+     ]
+    }
+   ],
+   "periods": [
+    [
+     40.0,
+     1282.0
+    ]
+   ],
+   "own_deck_video": [
+    "minions",
+    "skeletons",
+    "barbarian-hut",
+    "suspicious-bush",
+    "ronin",
+    "tombstone",
+    "p-e-k-k-a",
+    "mighty-miner"
+   ],
+   "complete": true
   }
  }
 }
