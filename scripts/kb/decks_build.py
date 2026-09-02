@@ -139,8 +139,9 @@ WEIGHTS = {
                  "lumberjack": 1, "balloon": 1, "mega-minion": 1, "witch": 1, "sparky": 2, "rune-giant": 3},
     "control": {"graveyard": 3, "miner": 2, "poison": 2, "bowler": 2, "ice-wizard": 2, "tornado": 1, "valkyrie": 1,
                 "inferno-tower": 1, "bomb-tower": 1, "executioner": 1, "electro-wizard": 1, "mother-witch": 1,
-                "rocket": 1, "royal-delivery": 1, "phoenix": 1, "mighty-miner": 2, "archer-queen": 1},
-    "cycle": {"hog-rider": 3, "royal-hogs": 2, "wall-breakers": 1, "ice-spirit": 1, "skeletons": 1, "the-log": 1,
+                "rocket": 1, "royal-delivery": 1, "phoenix": 1, "mighty-miner": 2, "archer-queen": 1,
+                "fisherman": 1, "hunter": 1, "cannon-cart": 0.5},
+    "cycle": {"hog-rider": 3, "royal-hogs": 2, "royal-giant": 1.5, "miner": 1, "wall-breakers": 1, "ice-spirit": 1, "skeletons": 1, "the-log": 1,
               "ice-golem": 1, "cannon": 1, "musketeer": 1, "earthquake": 1, "fireball": 0.5, "firecracker": 0.5,
               "mortar": 0, "electro-spirit": 1, "heal-spirit": 1, "fire-spirit": 1, "bats": 0.5},
     "bait": {"goblin-barrel": 4, "princess": 2, "goblin-gang": 2, "dart-goblin": 1.5, "rocket": 1, "inferno-tower": 1,
@@ -254,6 +255,13 @@ def classify(deck: dict, cd: dict) -> dict:
         if any(s in ("x-bow", "mortar") for s in cards) and scores["siege"] >= 6:
             primary = "siege"
             rationale = "A siege building (" + ", ".join(s for s in cards if s in ("x-bow", "mortar")) + ") is the win condition."
+        elif "goblin-barrel" in cards and scores["bait"] >= 7:
+            primary = "bait"
+            rationale = (f"Goblin Barrel plus several spell-bait cards ({', '.join(evidence['bait'])}) define the deck; "
+                         f"avg elixir {avg}.")
+            if avg is not None and avg < 3.0:
+                secondary = "cycle"
+                rationale += " Under 3.0 average elixir, so it also cycles."
         elif avg is not None and avg < 3.0 and scores["cycle"] >= 5:
             primary = "cycle"
             rationale = f"Average elixir {avg} is under 3.0 with a fast win condition ({', '.join(e for e in evidence['cycle'] if not e.startswith('avg'))})."
@@ -286,12 +294,21 @@ def classify(deck: dict, cd: dict) -> dict:
 # --------------------------------------------------------------------------
 
 def stat_unit(raw: dict) -> str:
-    vals = " ".join(str(v) for v in raw.values())
-    if "%" in vals:
-        return "percentage"
-    if re.search(r"#\s*\d|\brank\b", vals, re.I):
-        return "rank"
-    return "count" if raw else "unknown"
+    """Describe the units exactly as the page showed them."""
+    if not raw:
+        return "unknown"
+    parts = []
+    if "rating" in raw:
+        parts.append("rating=RoyaleAPI rating score (higher is better, not a percentage)")
+    pct = [k for k in ("usage", "wins", "draws", "losses") if "%" in str(raw.get(k, ""))]
+    if pct:
+        parts.append(f"{'/'.join(pct)}=percentage of battles")
+    cnt = [k for k in ("usage", "wins", "draws", "losses") if raw.get(k + "_count")]
+    if cnt:
+        parts.append(f"{'/'.join(cnt)}_count=raw battle counts")
+    if "rank" in raw:
+        parts.append("site_rank=position on the popular-decks page")
+    return "; ".join(parts) or ("percentage" if "%" in " ".join(map(str, raw.values())) else "count")
 
 
 def build(args) -> int:
@@ -330,8 +347,15 @@ def build(args) -> int:
             fm_line("rating", raw.get("rating", "n/a")), fm_line("usage", raw.get("usage", "n/a")),
             fm_line("wins", raw.get("wins", "n/a")), fm_line("draws", raw.get("draws", "n/a")),
             fm_line("losses", raw.get("losses", "n/a")), fm_line("stat_unit", stat_unit(raw)),
+            fm_line("usage_count", raw.get("usage_count", "n/a")), fm_line("wins_count", raw.get("wins_count", "n/a")),
+            fm_line("draws_count", raw.get("draws_count", "n/a")), fm_line("losses_count", raw.get("losses_count", "n/a")),
+            fm_line("site_rank", raw.get("rank", "n/a")),
             fm_line("site_avg_elixir", raw.get("avg_elixir", raw.get("elixir", "n/a"))),
+            fm_line("site_four_card_cycle", raw.get("four_card_cycle", "n/a")),
+            fm_line("tower_troop", raw.get("tower_troop", "n/a")),
             fm_line("evolutions", ", ".join(d.get("evolutions", [])) or "none"),
+            fm_line("heroes", ", ".join(d.get("heroes", [])) or "none"),
+            fm_line("variants_on_page", len(d.get("variants", []))),
             fm_line("source_url", idx.get("source_url", POPULAR_URL)),
             fm_line("site_deck_url", d.get("site_deck_url") or ""),
             fm_line("scraped_at", idx.get("generated_at", now_iso())),
@@ -341,6 +365,9 @@ def build(args) -> int:
         for s in d["cards"]:
             c = cd.get(s, {})
             evo = " (evolution)" if s in d.get("evolutions", []) else ""
+            if s in d.get("heroes", []):
+                hp = KB / "heroes" / f"{s}-hero.md"
+                evo += f" ([hero variant](../heroes/{s}-hero.md))" if hp.exists() else " (hero variant)"
             body.append(f"- [{c.get('name', s)}](../cards/{s}.md){evo} — {c.get('elixir_cost', '?')} elixir, "
                         f"{c.get('rarity', '?')} {c.get('card_type', '?')}, targets {c.get('targets', '?')}")
         if cls["missing_cost_cards"]:
@@ -354,6 +381,11 @@ def build(args) -> int:
                  "## Site statistics (as displayed)", ""]
         if raw:
             body += [f"- {k}: {v}" for k, v in raw.items()]
+        if d.get("variants"):
+            body += ["", "Same 8 cards listed again on the page with different evolution/hero choices:"]
+            for v in d["variants"]:
+                body.append(f"- {v.get('display_name')}: {', '.join(v.get('royaleapi_card_keys', []))} "
+                            f"(rating {v.get('site_stats_raw', {}).get('rating', '?')}, usage {v.get('site_stats_raw', {}).get('usage', '?')})")
         else:
             body.append("Not captured from source page")
         body += ["", "## Why this deck works", "", why, "",
@@ -389,10 +421,16 @@ def write_deck_index_md(decks: list[dict], manifest: dict, p2: dict) -> None:
     lines.append(f"**Decks: {len(decks)}** · scrape status: `{st}`")
     if p2.get("blocker"):
         lines += ["", f"> **Blocker:** {p2['blocker']}"]
-    if p2.get("more_available_hint") is not None:
+    if p2.get("coverage_note"):
+        lines += ["", f"Coverage: {p2['coverage_note']}"]
+    elif p2.get("more_available_hint") is not None:
         lines += ["", f"More decks beyond this page: {'hint of pagination/infinite scroll detected' if p2['more_available_hint'] else 'no pagination hint detected'} (not automated)."]
+    for f in p2.get("fetch_log", []):
+        if f.get("method") == "local_html":
+            lines += ["", f"Source page: saved copy of the popular-decks page supplied by the user ({f.get('bytes')} bytes, sha256 {str(f.get('sha256', ''))[:16]}…), "
+                      "because the live site serves a Cloudflare challenge to automated fetches (see qa_report.md)."]
     units = sorted({d["fm"].get("stat_unit", "unknown") for d in decks}) or ["n/a"]
-    lines += ["", f"Stat units (rating/usage/W/D/L) as displayed on the page: {', '.join(units)}. "
+    lines += ["", f"Stat units as displayed on the page: {'; '.join(units)}. "
               "`avg_elixir` is computed from Phase 1 card costs; the site's own value is kept in each deck file as `site_avg_elixir`.", "",
               "| deck_key | display_name | archetype (primary / secondary) | source | rating | usage | W | D | L | avg_elixir | status |",
               "|---|---|---|---|---|---|---|---|---|---|---|"]
@@ -554,6 +592,8 @@ def qa_block(decks: list[dict], passed: list[str], failed: list[str], p2: dict) 
         lines.append("- Fetch attempt: " + ", ".join(f"{k}={v}" for k, v in f.items() if k != "note"))
     if p2.get("blocker"):
         lines.append(f"- **Blocker:** {p2['blocker']}")
+    if p2.get("coverage_note"):
+        lines.append(f"- Coverage: {p2['coverage_note']}")
     if pc:
         lines += ["", f"- robots.txt ({pc.get('robots_url')}): HTTP {pc.get('robots_status')}; "
                   f"Content-Signal `{pc.get('content_signal')}`; crawl-delay for `*`/ClaudeBot: {pc.get('crawl_delay_seconds')}s; "

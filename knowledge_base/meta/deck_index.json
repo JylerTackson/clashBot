@@ -1,0 +1,1262 @@
+{
+  "generated_at": "2026-09-02T03:43:33+00:00",
+  "source_url": "https://royaleapi.com/decks/popular?lang=en",
+  "deck_count": 19,
+  "diagnostics": {
+    "html_bytes": 484061,
+    "challenge_page": false,
+    "parser": "royaleapi_deck_segment",
+    "segments_on_page": 20,
+    "unmapped_card_keys": [],
+    "decks_found": 19,
+    "duplicates_dropped": 1,
+    "pagination_hints": [],
+    "more_available_hint": false
+  },
+  "decks": [
+    {
+      "deck_key": "cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers",
+      "display_name": "WB Log Bait 2.8 Cycle",
+      "cards": [
+        "cannon",
+        "dart-goblin",
+        "goblin-barrel",
+        "ice-spirit",
+        "princess",
+        "skeleton-army",
+        "valkyrie",
+        "wall-breakers"
+      ],
+      "evolutions": [
+        "goblin-barrel",
+        "skeleton-army"
+      ],
+      "heroes": [
+        "valkyrie"
+      ],
+      "royaleapi_card_keys": [
+        "cannon",
+        "dart-goblin",
+        "goblin-barrel-ev1",
+        "ice-spirit",
+        "princess",
+        "skeleton-army-ev1",
+        "valkyrie-hero",
+        "wall-breakers"
+      ],
+      "site_stats_raw": {
+        "rank": "1",
+        "usage_badge": "0.8%",
+        "rating": "57",
+        "usage": "0.8%",
+        "usage_count": "5,124",
+        "wins": "54.4%",
+        "wins_count": "2,785",
+        "draws": "0.2%",
+        "draws_count": "10",
+        "losses": "45.5%",
+        "losses_count": "2,329",
+        "avg_elixir": "2.8",
+        "four_card_cycle": "9.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "assassin 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/cannon,dart-goblin,goblin-barrel-ev1,ice-spirit,princess,skeleton-army-ev1,valkyrie-hero,wall-breakers",
+      "variants": [],
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "classification_source": "heuristic",
+      "classification_rationale": "Goblin Barrel plus several spell-bait cards (dart-goblin, goblin-barrel, princess, skeleton-army, wall-breakers) define the deck; avg elixir 2.75. Under 3.0 average elixir, so it also cycles.",
+      "avg_elixir": 2.75,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 1.0,
+        "cycle": 6.0,
+        "bait": 9.5,
+        "bridge-spam": 0.0,
+        "siege": 0.5
+      }
+    },
+    {
+      "deck_key": "barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies",
+      "display_name": "GS Evo Ram HeroWiz MW",
+      "cards": [
+        "barbarian-barrel",
+        "battle-ram",
+        "giant-skeleton",
+        "mother-witch",
+        "royal-ghost",
+        "vines",
+        "wizard",
+        "zappies"
+      ],
+      "evolutions": [
+        "battle-ram",
+        "royal-ghost"
+      ],
+      "heroes": [
+        "wizard"
+      ],
+      "royaleapi_card_keys": [
+        "barbarian-barrel",
+        "battle-ram-ev1",
+        "giant-skeleton",
+        "mother-witch",
+        "royal-ghost-ev1",
+        "vines",
+        "wizard-hero",
+        "zappies"
+      ],
+      "site_stats_raw": {
+        "rank": "2",
+        "usage_badge": "1.3%",
+        "rating": "56",
+        "usage": "1.3%",
+        "usage_count": "8,110",
+        "wins": "53.7%",
+        "wins_count": "4,352",
+        "draws": "0.1%",
+        "draws_count": "5",
+        "losses": "46.3%",
+        "losses_count": "3,753",
+        "avg_elixir": "3.9",
+        "four_card_cycle": "12.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "xAlpha 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/barbarian-barrel,battle-ram-ev1,giant-skeleton,mother-witch,royal-ghost-ev1,vines,wizard-hero,zappies",
+      "variants": [],
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Bridge Spam (battle-ram, royal-ghost; avg elixir 3.88).",
+      "avg_elixir": 3.88,
+      "heuristic_scores": {
+        "beatdown": 2.0,
+        "control": 1.0,
+        "cycle": 0.0,
+        "bait": 0.0,
+        "bridge-spam": 7.0,
+        "siege": 0.0
+      }
+    },
+    {
+      "deck_key": "arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap",
+      "display_name": "Golem HeroMiniPekka NW Phoenix",
+      "cards": [
+        "arrows",
+        "bomber",
+        "elite-barbarians",
+        "golem",
+        "mini-p-e-k-k-a",
+        "night-witch",
+        "phoenix",
+        "zap"
+      ],
+      "evolutions": [
+        "elite-barbarians",
+        "zap"
+      ],
+      "heroes": [
+        "mini-p-e-k-k-a"
+      ],
+      "royaleapi_card_keys": [
+        "arrows",
+        "bomber",
+        "elite-barbarians-ev1",
+        "golem",
+        "mini-pekka-hero",
+        "night-witch",
+        "phoenix",
+        "zap-ev1"
+      ],
+      "site_stats_raw": {
+        "rank": "3",
+        "usage_badge": "0.7%",
+        "rating": "54",
+        "usage": "0.7%",
+        "usage_count": "4,171",
+        "wins": "53.6%",
+        "wins_count": "2,236",
+        "draws": "0.0%",
+        "draws_count": "0",
+        "losses": "46.4%",
+        "losses_count": "1,935",
+        "avg_elixir": "4.1",
+        "four_card_cycle": "11.0",
+        "tower_troop": "royal-chef",
+        "highest_trophy_player": "JHENz 14970"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/arrows,bomber,elite-barbarians-ev1,golem,mini-pekka-hero,night-witch,phoenix,zap-ev1",
+      "variants": [],
+      "archetype_primary": "beatdown",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Beatdown (golem, night-witch, avg elixir 4.12 >= 4.0; avg elixir 4.12).",
+      "avg_elixir": 4.12,
+      "heuristic_scores": {
+        "beatdown": 7.5,
+        "control": 1.0,
+        "cycle": 0.0,
+        "bait": 0.0,
+        "bridge-spam": 2.0,
+        "siege": 0.0
+      }
+    },
+    {
+      "deck_key": "barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies",
+      "display_name": "GS Evo Ram HeroWiz MW",
+      "cards": [
+        "barbarian-barrel",
+        "battle-ram",
+        "elite-barbarians",
+        "giant-skeleton",
+        "mother-witch",
+        "vines",
+        "wizard",
+        "zappies"
+      ],
+      "evolutions": [
+        "battle-ram",
+        "elite-barbarians"
+      ],
+      "heroes": [
+        "wizard"
+      ],
+      "royaleapi_card_keys": [
+        "barbarian-barrel",
+        "battle-ram-ev1",
+        "elite-barbarians-ev1",
+        "giant-skeleton",
+        "mother-witch",
+        "vines",
+        "wizard-hero",
+        "zappies"
+      ],
+      "site_stats_raw": {
+        "rank": "4",
+        "usage_badge": "1.2%",
+        "rating": "54",
+        "usage": "1.2%",
+        "usage_count": "7,215",
+        "wins": "52.9%",
+        "wins_count": "3,818",
+        "draws": "0.0%",
+        "draws_count": "3",
+        "losses": "47.0%",
+        "losses_count": "3,394",
+        "avg_elixir": "4.3",
+        "four_card_cycle": "13.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "TacoLeeZ 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/barbarian-barrel,battle-ram-ev1,elite-barbarians-ev1,giant-skeleton,mother-witch,vines,wizard-hero,zappies",
+      "variants": [],
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Bridge Spam (battle-ram, elite-barbarians; avg elixir 4.25).",
+      "avg_elixir": 4.25,
+      "heuristic_scores": {
+        "beatdown": 3.5,
+        "control": 1.0,
+        "cycle": 0.0,
+        "bait": 0.0,
+        "bridge-spam": 6.0,
+        "siege": 0.0
+      }
+    },
+    {
+      "deck_key": "barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel",
+      "display_name": "EvoMortar Cart",
+      "cards": [
+        "barbarian-barrel",
+        "berserker",
+        "cannon-cart",
+        "fireball",
+        "minions",
+        "mortar",
+        "rascals",
+        "skeleton-barrel"
+      ],
+      "evolutions": [
+        "mortar",
+        "skeleton-barrel"
+      ],
+      "heroes": [
+        "berserker"
+      ],
+      "royaleapi_card_keys": [
+        "barbarian-barrel",
+        "berserker-hero",
+        "cannon-cart",
+        "fireball",
+        "minions",
+        "mortar-ev1",
+        "rascals",
+        "skeleton-barrel-ev1"
+      ],
+      "site_stats_raw": {
+        "rank": "5",
+        "usage_badge": "0.6%",
+        "rating": "53",
+        "usage": "0.6%",
+        "usage_count": "3,850",
+        "wins": "53.2%",
+        "wins_count": "2,050",
+        "draws": "0.1%",
+        "draws_count": "3",
+        "losses": "46.7%",
+        "losses_count": "1,797",
+        "avg_elixir": "3.5",
+        "four_card_cycle": "10.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "Hampsh_YouTube 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/barbarian-barrel,berserker-hero,cannon-cart,fireball,minions,mortar-ev1,rascals,skeleton-barrel-ev1",
+      "variants": [],
+      "archetype_primary": "siege",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "A siege building (mortar) is the win condition.",
+      "avg_elixir": 3.5,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 0.5,
+        "cycle": 0.5,
+        "bait": 2.5,
+        "bridge-spam": 0.0,
+        "siege": 6.0
+      }
+    },
+    {
+      "deck_key": "baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado",
+      "display_name": "Loon HeroKnight Double Dragon Bowler",
+      "cards": [
+        "baby-dragon",
+        "balloon",
+        "barbarian-barrel",
+        "bowler",
+        "freeze",
+        "inferno-dragon",
+        "knight",
+        "tornado"
+      ],
+      "evolutions": [
+        "baby-dragon",
+        "inferno-dragon"
+      ],
+      "heroes": [
+        "knight"
+      ],
+      "royaleapi_card_keys": [
+        "baby-dragon-ev1",
+        "balloon",
+        "barbarian-barrel",
+        "bowler",
+        "freeze",
+        "inferno-dragon-ev1",
+        "knight-hero",
+        "tornado"
+      ],
+      "site_stats_raw": {
+        "rank": "6",
+        "usage_badge": "0.6%",
+        "rating": "52",
+        "usage": "0.6%",
+        "usage_count": "3,565",
+        "wins": "52.7%",
+        "wins_count": "1,880",
+        "draws": "0.2%",
+        "draws_count": "6",
+        "losses": "47.1%",
+        "losses_count": "1,679",
+        "avg_elixir": "3.8",
+        "four_card_cycle": "12.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "Elite Reigns 14926"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/baby-dragon-ev1,balloon,barbarian-barrel,bowler,freeze,inferno-dragon-ev1,knight-hero,tornado",
+      "variants": [],
+      "archetype_primary": "control",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Control (bowler, tornado; avg elixir 3.75).",
+      "avg_elixir": 3.75,
+      "heuristic_scores": {
+        "beatdown": 2.0,
+        "control": 3.0,
+        "cycle": 0.0,
+        "bait": 0.5,
+        "bridge-spam": 0.0,
+        "siege": 0.25
+      }
+    },
+    {
+      "deck_key": "barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado",
+      "display_name": "Golem Double Dragon Nado Pump",
+      "cards": [
+        "barbarian-barrel",
+        "berserker",
+        "electro-dragon",
+        "elite-barbarians",
+        "elixir-collector",
+        "golem",
+        "skeleton-dragons",
+        "tornado"
+      ],
+      "evolutions": [
+        "electro-dragon",
+        "elite-barbarians"
+      ],
+      "heroes": [
+        "berserker"
+      ],
+      "royaleapi_card_keys": [
+        "barbarian-barrel",
+        "berserker-hero",
+        "electro-dragon-ev1",
+        "elite-barbarians-ev1",
+        "elixir-collector",
+        "golem",
+        "skeleton-dragons",
+        "tornado"
+      ],
+      "site_stats_raw": {
+        "rank": "7",
+        "usage_badge": "0.7%",
+        "rating": "50",
+        "usage": "0.7%",
+        "usage_count": "4,352",
+        "wins": "52.1%",
+        "wins_count": "2,266",
+        "draws": "0.0%",
+        "draws_count": "0",
+        "losses": "47.9%",
+        "losses_count": "2,086",
+        "avg_elixir": "4.5",
+        "four_card_cycle": "11.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "JAEL 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/barbarian-barrel,berserker-hero,electro-dragon-ev1,elite-barbarians-ev1,elixir-collector,golem,skeleton-dragons,tornado",
+      "variants": [],
+      "archetype_primary": "beatdown",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Beatdown (golem, avg elixir 4.5 >= 4.0; avg elixir 4.5).",
+      "avg_elixir": 4.5,
+      "heuristic_scores": {
+        "beatdown": 5.5,
+        "control": 1.0,
+        "cycle": 0.0,
+        "bait": 0.0,
+        "bridge-spam": 2.0,
+        "siege": 0.0
+      }
+    },
+    {
+      "deck_key": "baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado",
+      "display_name": "GY IWiz Evo BBD Nado",
+      "cards": [
+        "baby-dragon",
+        "barbarian-barrel",
+        "graveyard",
+        "ice-wizard",
+        "knight",
+        "poison",
+        "tombstone",
+        "tornado"
+      ],
+      "evolutions": [
+        "baby-dragon",
+        "knight"
+      ],
+      "heroes": [
+        "tombstone"
+      ],
+      "royaleapi_card_keys": [
+        "baby-dragon-ev1",
+        "barbarian-barrel",
+        "graveyard",
+        "ice-wizard",
+        "knight-ev1",
+        "poison",
+        "tombstone-hero",
+        "tornado"
+      ],
+      "site_stats_raw": {
+        "rank": "8",
+        "usage_badge": "0.8%",
+        "rating": "50",
+        "usage": "0.8%",
+        "usage_count": "4,948",
+        "wins": "51.6%",
+        "wins_count": "2,555",
+        "draws": "0.2%",
+        "draws_count": "8",
+        "losses": "48.2%",
+        "losses_count": "2,385",
+        "avg_elixir": "3.4",
+        "four_card_cycle": "11.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "verja 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/baby-dragon-ev1,barbarian-barrel,graveyard,ice-wizard,knight-ev1,poison,tombstone-hero,tornado",
+      "variants": [],
+      "archetype_primary": "control",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Control (graveyard, ice-wizard, poison, tornado; avg elixir 3.38).",
+      "avg_elixir": 3.38,
+      "heuristic_scores": {
+        "beatdown": 1.0,
+        "control": 8.0,
+        "cycle": 0.0,
+        "bait": 0.5,
+        "bridge-spam": 0.0,
+        "siege": 0.25
+      }
+    },
+    {
+      "deck_key": "bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap",
+      "display_name": "Pekka Bandit EWiz EvoGhost",
+      "cards": [
+        "bandit",
+        "battle-ram",
+        "electro-wizard",
+        "fireball",
+        "magic-archer",
+        "p-e-k-k-a",
+        "royal-ghost",
+        "zap"
+      ],
+      "evolutions": [
+        "battle-ram",
+        "royal-ghost"
+      ],
+      "heroes": [
+        "magic-archer"
+      ],
+      "royaleapi_card_keys": [
+        "bandit",
+        "battle-ram-ev1",
+        "electro-wizard",
+        "fireball",
+        "magic-archer-hero",
+        "pekka",
+        "royal-ghost-ev1",
+        "zap"
+      ],
+      "site_stats_raw": {
+        "rank": "9",
+        "usage_badge": "0.5%",
+        "rating": "49",
+        "usage": "0.5%",
+        "usage_count": "3,004",
+        "wins": "52.0%",
+        "wins_count": "1,561",
+        "draws": "0.1%",
+        "draws_count": "2",
+        "losses": "48.0%",
+        "losses_count": "1,441",
+        "avg_elixir": "3.9",
+        "four_card_cycle": "12.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "⭐️下囗尺几凡下囗尺凡⭐️ 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/bandit,battle-ram-ev1,electro-wizard,fireball,magic-archer-hero,pekka,royal-ghost-ev1,zap",
+      "variants": [],
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Bridge Spam (bandit, battle-ram, electro-wizard, magic-archer, p-e-k-k-a, royal-ghost; avg elixir 3.88).",
+      "avg_elixir": 3.88,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 1.0,
+        "cycle": 0.5,
+        "bait": 0.0,
+        "bridge-spam": 13.5,
+        "siege": 0.0
+      }
+    },
+    {
+      "deck_key": "dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log",
+      "display_name": "HeroKnight Log Bait 2.9 Cycle",
+      "cards": [
+        "dart-goblin",
+        "goblin-barrel",
+        "ice-spirit",
+        "inferno-tower",
+        "knight",
+        "princess",
+        "skeleton-army",
+        "the-log"
+      ],
+      "evolutions": [
+        "goblin-barrel",
+        "skeleton-army"
+      ],
+      "heroes": [
+        "knight"
+      ],
+      "royaleapi_card_keys": [
+        "dart-goblin",
+        "goblin-barrel-ev1",
+        "ice-spirit",
+        "inferno-tower",
+        "knight-hero",
+        "princess",
+        "skeleton-army-ev1",
+        "the-log"
+      ],
+      "site_stats_raw": {
+        "rank": "10",
+        "usage_badge": "0.5%",
+        "rating": "48",
+        "usage": "0.5%",
+        "usage_count": "3,324",
+        "wins": "51.5%",
+        "wins_count": "1,711",
+        "draws": "0.0%",
+        "draws_count": "0",
+        "losses": "48.5%",
+        "losses_count": "1,613",
+        "avg_elixir": "2.9",
+        "four_card_cycle": "9.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "LaughingBuddha 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/dart-goblin,goblin-barrel-ev1,ice-spirit,inferno-tower,knight-hero,princess,skeleton-army-ev1,the-log",
+      "variants": [],
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "classification_source": "heuristic",
+      "classification_rationale": "Goblin Barrel plus several spell-bait cards (dart-goblin, goblin-barrel, inferno-tower, knight, princess, skeleton-army) define the deck; avg elixir 2.88. Under 3.0 average elixir, so it also cycles.",
+      "avg_elixir": 2.88,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 1.0,
+        "cycle": 5.0,
+        "bait": 10.0,
+        "bridge-spam": 0.0,
+        "siege": 0.25
+      }
+    },
+    {
+      "deck_key": "barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons",
+      "display_name": "EvoMortar Goblinstein Cart",
+      "cards": [
+        "barbarian-barrel",
+        "cannon-cart",
+        "elite-barbarians",
+        "fireball",
+        "goblinstein",
+        "minions",
+        "mortar",
+        "skeletons"
+      ],
+      "evolutions": [
+        "elite-barbarians",
+        "mortar"
+      ],
+      "heroes": [],
+      "royaleapi_card_keys": [
+        "barbarian-barrel",
+        "cannon-cart",
+        "elite-barbarians-ev1",
+        "fireball",
+        "goblinstein",
+        "minions",
+        "mortar-ev1",
+        "skeletons"
+      ],
+      "site_stats_raw": {
+        "rank": "11",
+        "usage_badge": "0.5%",
+        "rating": "47",
+        "usage": "0.5%",
+        "usage_count": "2,963",
+        "wins": "51.3%",
+        "wins_count": "1,520",
+        "draws": "0.0%",
+        "draws_count": "0",
+        "losses": "48.7%",
+        "losses_count": "1,443",
+        "avg_elixir": "3.8",
+        "four_card_cycle": "10.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "Artur PH 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/barbarian-barrel,cannon-cart,elite-barbarians-ev1,fireball,goblinstein,minions,mortar-ev1,skeletons",
+      "variants": [],
+      "archetype_primary": "siege",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "A siege building (mortar) is the win condition.",
+      "avg_elixir": 3.75,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 0.5,
+        "cycle": 1.5,
+        "bait": 0.0,
+        "bridge-spam": 2.0,
+        "siege": 6.0
+      }
+    },
+    {
+      "deck_key": "cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log",
+      "display_name": "Hog HeroMusk 2.6 Cycle",
+      "cards": [
+        "cannon",
+        "fireball",
+        "hog-rider",
+        "ice-golem",
+        "ice-spirit",
+        "musketeer",
+        "skeletons",
+        "the-log"
+      ],
+      "evolutions": [
+        "cannon",
+        "skeletons"
+      ],
+      "heroes": [
+        "musketeer"
+      ],
+      "royaleapi_card_keys": [
+        "cannon-ev1",
+        "fireball",
+        "hog-rider",
+        "ice-golem",
+        "ice-spirit",
+        "musketeer-hero",
+        "skeletons-ev1",
+        "the-log"
+      ],
+      "site_stats_raw": {
+        "rank": "12",
+        "usage_badge": "1.4%",
+        "rating": "47",
+        "usage": "1.4%",
+        "usage_count": "8,542",
+        "wins": "50.2%",
+        "wins_count": "4,292",
+        "draws": "0.1%",
+        "draws_count": "12",
+        "losses": "49.6%",
+        "losses_count": "4,238",
+        "avg_elixir": "2.6",
+        "four_card_cycle": "6.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "⸙I AM 鶏肉入りご飯⸙ 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/cannon-ev1,fireball,hog-rider,ice-golem,ice-spirit,musketeer-hero,skeletons-ev1,the-log",
+      "variants": [],
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Average elixir 2.62 is under 3.0 with a fast win condition (cannon, fireball, hog-rider, ice-golem, ice-spirit, musketeer, skeletons, the-log).",
+      "avg_elixir": 2.62,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 0.0,
+        "cycle": 12.5,
+        "bait": 0.0,
+        "bridge-spam": 0.0,
+        "siege": 0.5
+      }
+    },
+    {
+      "deck_key": "archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons",
+      "display_name": "EvoRHogs AQ GobHut EvoGhost",
+      "cards": [
+        "archer-queen",
+        "barbarian-barrel",
+        "electro-spirit",
+        "fireball",
+        "goblin-hut",
+        "royal-ghost",
+        "royal-hogs",
+        "skeletons"
+      ],
+      "evolutions": [
+        "royal-ghost",
+        "royal-hogs"
+      ],
+      "heroes": [],
+      "royaleapi_card_keys": [
+        "archer-queen",
+        "barbarian-barrel",
+        "electro-spirit",
+        "fireball",
+        "goblin-hut",
+        "royal-ghost-ev1",
+        "royal-hogs-ev1",
+        "skeletons"
+      ],
+      "site_stats_raw": {
+        "rank": "13",
+        "usage_badge": "0.7%",
+        "rating": "47",
+        "usage": "0.7%",
+        "usage_count": "4,374",
+        "wins": "50.7%",
+        "wins_count": "2,219",
+        "draws": "0.1%",
+        "draws_count": "3",
+        "losses": "49.2%",
+        "losses_count": "2,152",
+        "avg_elixir": "3.1",
+        "four_card_cycle": "7.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "çës4rf0 14590"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/archer-queen,barbarian-barrel,electro-spirit,fireball,goblin-hut,royal-ghost-ev1,royal-hogs-ev1,skeletons",
+      "variants": [],
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Cycle (electro-spirit, fireball, royal-hogs, skeletons; avg elixir 3.12).",
+      "avg_elixir": 3.12,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 1.0,
+        "cycle": 4.5,
+        "bait": 0.0,
+        "bridge-spam": 3.0,
+        "siege": 0.0
+      }
+    },
+    {
+      "deck_key": "barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons",
+      "display_name": "EvoRG FishBoy Hunter 3.0 Cycle",
+      "cards": [
+        "barbarian-barrel",
+        "electro-spirit",
+        "fireball",
+        "fisherman",
+        "hunter",
+        "royal-ghost",
+        "royal-giant",
+        "skeletons"
+      ],
+      "evolutions": [
+        "royal-ghost",
+        "royal-giant"
+      ],
+      "heroes": [
+        "barbarian-barrel"
+      ],
+      "royaleapi_card_keys": [
+        "barbarian-barrel-hero",
+        "electro-spirit",
+        "fireball",
+        "fisherman",
+        "hunter",
+        "royal-ghost-ev1",
+        "royal-giant-ev1",
+        "skeletons"
+      ],
+      "site_stats_raw": {
+        "rank": "14",
+        "usage_badge": "1.0%",
+        "rating": "45",
+        "usage": "1.0%",
+        "usage_count": "6,043",
+        "wins": "49.5%",
+        "wins_count": "2,989",
+        "draws": "0.0%",
+        "draws_count": "2",
+        "losses": "50.5%",
+        "losses_count": "3,052",
+        "avg_elixir": "3.0",
+        "four_card_cycle": "7.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "skipper 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/barbarian-barrel-hero,electro-spirit,fireball,fisherman,hunter,royal-ghost-ev1,royal-giant-ev1,skeletons",
+      "variants": [],
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Cycle (electro-spirit, fireball, royal-giant, skeletons; avg elixir 3.0).",
+      "avg_elixir": 3.0,
+      "heuristic_scores": {
+        "beatdown": 1.0,
+        "control": 2.0,
+        "cycle": 4.0,
+        "bait": 0.0,
+        "bridge-spam": 3.0,
+        "siege": 0.0
+      }
+    },
+    {
+      "deck_key": "barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons",
+      "display_name": "Hog MM EvoCannon 2.6 Cycle",
+      "cards": [
+        "barbarian-barrel",
+        "cannon",
+        "earthquake",
+        "electro-spirit",
+        "firecracker",
+        "hog-rider",
+        "mighty-miner",
+        "skeletons"
+      ],
+      "evolutions": [
+        "cannon",
+        "firecracker"
+      ],
+      "heroes": [],
+      "royaleapi_card_keys": [
+        "barbarian-barrel",
+        "cannon-ev1",
+        "earthquake",
+        "electro-spirit",
+        "firecracker-ev1",
+        "hog-rider",
+        "mighty-miner",
+        "skeletons"
+      ],
+      "site_stats_raw": {
+        "rank": "15",
+        "usage_badge": "0.6%",
+        "rating": "45",
+        "usage": "0.6%",
+        "usage_count": "3,583",
+        "wins": "50.0%",
+        "wins_count": "1,790",
+        "draws": "0.0%",
+        "draws_count": "1",
+        "losses": "50.0%",
+        "losses_count": "1,792",
+        "avg_elixir": "2.6",
+        "four_card_cycle": "7.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "Bigshak_ 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/barbarian-barrel,cannon-ev1,earthquake,electro-spirit,firecracker-ev1,hog-rider,mighty-miner,skeletons",
+      "variants": [],
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Average elixir 2.62 is under 3.0 with a fast win condition (cannon, earthquake, electro-spirit, firecracker, hog-rider, skeletons).",
+      "avg_elixir": 2.62,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 2.0,
+        "cycle": 10.5,
+        "bait": 0.0,
+        "bridge-spam": 0.0,
+        "siege": 0.5
+      }
+    },
+    {
+      "deck_key": "archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log",
+      "display_name": "EvoRHogs AQ EvoCannon 2.9 Cycle",
+      "cards": [
+        "archer-queen",
+        "cannon",
+        "earthquake",
+        "ice-spirit",
+        "royal-delivery",
+        "royal-hogs",
+        "skeletons",
+        "the-log"
+      ],
+      "evolutions": [
+        "cannon",
+        "royal-hogs"
+      ],
+      "heroes": [],
+      "royaleapi_card_keys": [
+        "archer-queen",
+        "cannon-ev1",
+        "earthquake",
+        "ice-spirit",
+        "royal-delivery",
+        "royal-hogs-ev1",
+        "skeletons",
+        "the-log"
+      ],
+      "site_stats_raw": {
+        "rank": "16",
+        "usage_badge": "0.8%",
+        "rating": "44",
+        "usage": "0.8%",
+        "usage_count": "4,930",
+        "wins": "49.5%",
+        "wins_count": "2,438",
+        "draws": "0.3%",
+        "draws_count": "16",
+        "losses": "50.2%",
+        "losses_count": "2,476",
+        "avg_elixir": "2.9",
+        "four_card_cycle": "7.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "Drag_Mouse 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/archer-queen,cannon-ev1,earthquake,ice-spirit,royal-delivery,royal-hogs-ev1,skeletons,the-log",
+      "variants": [],
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Average elixir 2.88 is under 3.0 with a fast win condition (cannon, earthquake, ice-spirit, royal-hogs, skeletons, the-log).",
+      "avg_elixir": 2.88,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 2.0,
+        "cycle": 10.0,
+        "bait": 0.0,
+        "bridge-spam": 0.0,
+        "siege": 0.5
+      }
+    },
+    {
+      "deck_key": "balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons",
+      "display_name": "EvoMusk Miner 2.9 Cycle",
+      "cards": [
+        "balloon",
+        "barbarian-barrel",
+        "bomb-tower",
+        "giant-snowball",
+        "ice-golem",
+        "miner",
+        "musketeer",
+        "skeletons"
+      ],
+      "evolutions": [
+        "giant-snowball",
+        "musketeer"
+      ],
+      "heroes": [
+        "balloon"
+      ],
+      "royaleapi_card_keys": [
+        "balloon-hero",
+        "barbarian-barrel",
+        "bomb-tower",
+        "giant-snowball-ev1",
+        "ice-golem",
+        "miner",
+        "musketeer-ev1",
+        "skeletons"
+      ],
+      "site_stats_raw": {
+        "rank": "17",
+        "usage_badge": "0.4%",
+        "rating": "44",
+        "usage": "0.4%",
+        "usage_count": "2,595",
+        "wins": "50.0%",
+        "wins_count": "1,298",
+        "draws": "0.2%",
+        "draws_count": "4",
+        "losses": "49.8%",
+        "losses_count": "1,293",
+        "avg_elixir": "2.9",
+        "four_card_cycle": "7.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "SHUTTLE bhp 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/balloon-hero,barbarian-barrel,bomb-tower,giant-snowball-ev1,ice-golem,miner,musketeer-ev1,skeletons",
+      "variants": [
+        {
+          "display_name": "EvoMusk Miner 2.9 Cycle",
+          "royaleapi_card_keys": [
+            "balloon-hero",
+            "barbarian-barrel",
+            "bomb-tower",
+            "giant-snowball",
+            "ice-golem",
+            "miner",
+            "musketeer-ev1",
+            "skeletons-ev1"
+          ],
+          "evolutions": [
+            "musketeer",
+            "skeletons"
+          ],
+          "heroes": [
+            "balloon"
+          ],
+          "site_stats_raw": {
+            "rank": "19",
+            "usage_badge": "0.5%",
+            "rating": "42",
+            "usage": "0.5%",
+            "usage_count": "2,845",
+            "wins": "49.0%",
+            "wins_count": "1,394",
+            "draws": "0.1%",
+            "draws_count": "4",
+            "losses": "50.9%",
+            "losses_count": "1,447",
+            "avg_elixir": "2.9",
+            "four_card_cycle": "7.0",
+            "tower_troop": "tower-princess",
+            "highest_trophy_player": "Robottino_787 15030"
+          }
+        }
+      ],
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Average elixir 2.88 is under 3.0 with a fast win condition (ice-golem, miner, musketeer, skeletons).",
+      "avg_elixir": 2.88,
+      "heuristic_scores": {
+        "beatdown": 1.0,
+        "control": 3.0,
+        "cycle": 7.0,
+        "bait": 0.0,
+        "bridge-spam": 0.0,
+        "siege": 0.0
+      }
+    },
+    {
+      "deck_key": "archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons",
+      "display_name": "Goblinstein EvoRHogs 3.4 Cycle",
+      "cards": [
+        "archers",
+        "barbarian-barrel",
+        "bomb-tower",
+        "electro-spirit",
+        "goblinstein",
+        "lightning",
+        "royal-hogs",
+        "skeletons"
+      ],
+      "evolutions": [
+        "archers",
+        "royal-hogs"
+      ],
+      "heroes": [],
+      "royaleapi_card_keys": [
+        "archers-ev1",
+        "barbarian-barrel",
+        "bomb-tower",
+        "electro-spirit",
+        "goblinstein",
+        "lightning",
+        "royal-hogs-ev1",
+        "skeletons"
+      ],
+      "site_stats_raw": {
+        "rank": "18",
+        "usage_badge": "0.7%",
+        "rating": "42",
+        "usage": "0.7%",
+        "usage_count": "4,380",
+        "wins": "48.8%",
+        "wins_count": "2,137",
+        "draws": "0.1%",
+        "draws_count": "6",
+        "losses": "51.1%",
+        "losses_count": "2,237",
+        "avg_elixir": "3.4",
+        "four_card_cycle": "7.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "Amine.Gaa 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/archers-ev1,barbarian-barrel,bomb-tower,electro-spirit,goblinstein,lightning,royal-hogs-ev1,skeletons",
+      "variants": [],
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "Card composition scores highest for Cycle (electro-spirit, royal-hogs, skeletons; avg elixir 3.38).",
+      "avg_elixir": 3.38,
+      "heuristic_scores": {
+        "beatdown": 2.0,
+        "control": 1.0,
+        "cycle": 4.0,
+        "bait": 0.0,
+        "bridge-spam": 0.0,
+        "siege": 0.5
+      }
+    },
+    {
+      "deck_key": "archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow",
+      "display_name": "X-Bow HeroKnight 3.0 Cycle",
+      "cards": [
+        "archers",
+        "electro-spirit",
+        "fireball",
+        "knight",
+        "skeletons",
+        "tesla",
+        "the-log",
+        "x-bow"
+      ],
+      "evolutions": [
+        "archers",
+        "tesla"
+      ],
+      "heroes": [
+        "knight"
+      ],
+      "royaleapi_card_keys": [
+        "archers-ev1",
+        "electro-spirit",
+        "fireball",
+        "knight-hero",
+        "skeletons",
+        "tesla-ev1",
+        "the-log",
+        "x-bow"
+      ],
+      "site_stats_raw": {
+        "rank": "20",
+        "usage_badge": "0.7%",
+        "rating": "40",
+        "usage": "0.7%",
+        "usage_count": "4,299",
+        "wins": "47.9%",
+        "wins_count": "2,059",
+        "draws": "0.0%",
+        "draws_count": "1",
+        "losses": "52.1%",
+        "losses_count": "2,239",
+        "avg_elixir": "3.0",
+        "four_card_cycle": "7.0",
+        "tower_troop": "tower-princess",
+        "highest_trophy_player": "Chillguy 15030"
+      },
+      "site_label": null,
+      "site_deck_url": "https://royaleapi.com/decks/stats/archers-ev1,electro-spirit,fireball,knight-hero,skeletons,tesla-ev1,the-log,x-bow",
+      "variants": [],
+      "archetype_primary": "siege",
+      "archetype_secondary": "none",
+      "classification_source": "heuristic",
+      "classification_rationale": "A siege building (x-bow) is the win condition.",
+      "avg_elixir": 3.0,
+      "heuristic_scores": {
+        "beatdown": 0.0,
+        "control": 0.0,
+        "cycle": 3.5,
+        "bait": 0.5,
+        "bridge-spam": 0.0,
+        "siege": 7.75
+      }
+    }
+  ]
+}

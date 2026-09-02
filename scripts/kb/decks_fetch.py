@@ -44,8 +44,12 @@ BROWSER_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like G
 # --------------------------------------------------------------------------
 
 def is_challenge(html: str) -> bool:
-    return bool(re.search(r"<title>\s*Just a moment|cf_chl_opt|challenge-platform|Verify you are human",
-                          html, re.I))
+    """A Cloudflare interstitial, as opposed to a real page that merely embeds
+    Cloudflare's scripts (a page saved from a browser does)."""
+    if re.search(r"<title>\s*Just a moment", html, re.I):
+        return True
+    has_content = bool(re.search(r"deck_segment|data-card-key|/decks/stats/", html))
+    return bool(re.search(r"cf_chl_opt|Verify you are human", html, re.I)) and not has_content
 
 
 def check_policy() -> dict:
@@ -164,39 +168,144 @@ def resolve_card(name_or_href: str, by_norm: dict, by_slug: dict) -> tuple[str |
     return by_norm.get(n), evo
 
 
+def _num(t: str) -> str:
+    return " ".join(t.split())
+
+
+def parse_royaleapi_segments(soup: BeautifulSoup, by_norm: dict, by_slug: dict) -> tuple[list[dict], list[str]]:
+    """Parser for RoyaleAPI's actual markup (verified against a page saved on
+    2026-09-02): `.deck_segment[data-name]` blocks. Card keys use `-ev1` for an
+    evolution and `-hero` for a hero variant; the desktop stats table has a
+    percentage row and a raw-count row."""
+    decks, unknown = [], []
+    for seg in soup.select(".deck_segment[data-name]"):
+        keys = [k.strip() for k in seg["data-name"].split(",") if k.strip()]
+        cards, evos, heroes = [], [], []
+        for k in keys:
+            base = re.sub(r"-ev\d+$", "", k)
+            is_hero = base.endswith("-hero")
+            base = re.sub(r"-hero$", "", base)
+            slug = by_slug.get(base) or by_norm.get(re.sub(r"[^a-z0-9]", "", base))
+            if not slug:
+                unknown.append(k)
+                continue
+            cards.append(slug)
+            if k != base:
+                (heroes if is_hero else evos).append(slug)
+        if len(cards) != 8:
+            continue
+        name_el = seg.select_one(".deck_human_name-desktop, .deck_human_name-mobile, h4")
+        name = _num(name_el.get_text()) if name_el else ""
+        stats: dict[str, str] = {}
+        # rank + usage% badge
+        badge = seg.select_one(".ui.black.label")
+        if badge is not None:
+            detail = badge.select_one(".detail")
+            if detail is not None:
+                stats["rank"] = _num(detail.get_text())
+                detail.extract()
+            stats["usage_badge"] = _num(badge.get_text())
+        # desktop table: row 1 percentages, row 2 counts
+        tables = seg.select("table.stats")
+        table = tables[-1] if tables else None
+        if table is not None:
+            heads = [_num(th.get_text()).lower() for th in table.select("thead th")]
+            rows = [[_num(td.get_text()) for td in tr.select("td")] for tr in table.select("tbody tr")]
+            for i, h in enumerate(heads):
+                if rows and i < len(rows[0]) and rows[0][i]:
+                    stats[h] = rows[0][i]
+                if len(rows) > 1 and i < len(rows[1]) and rows[1][i]:
+                    stats[h + "_count"] = rows[1][i]
+        for item in seg.select(".battle_stats .item[data-content]"):
+            label = item.get("data-content", "").lower()
+            val = item.select_one(".value")
+            if val is None:
+                continue
+            nm = val.select_one(".name")
+            if nm is not None:
+                nm.extract()
+            v = _num(val.get_text())
+            if "elixir" in label:
+                stats["avg_elixir"] = v
+            elif "cycle" in label:
+                stats["four_card_cycle"] = v
+        tower = seg.select_one(".battle_stats img[src*='tower'], .battle_stats img[src*='cannoneer'], .battle_stats img[src*='duchess'], .battle_stats img[src*='chef']")
+        if tower is not None:
+            stats["tower_troop"] = re.sub(r"\.png$", "", (tower.get("src") or "").split("/")[-1].split("(")[0])
+        trophy = seg.select_one(".deck_search_results__highest_trophy")
+        if trophy is not None:
+            stats["highest_trophy_player"] = _num(trophy.get_text())
+        link = seg.select_one("a[href*='/decks/stats/']")
+        label_el = seg.select_one("[class*='archetype'], .deck_archetype, .deck_tag")
+        decks.append({
+            "deck_key": "-".join(sorted(cards)),
+            "display_name": name,
+            "cards": cards,
+            "evolutions": evos,
+            "heroes": heroes,
+            "royaleapi_card_keys": keys,
+            "site_stats_raw": stats,
+            "site_label": _num(label_el.get_text()) if label_el is not None else None,
+            "site_deck_url": link["href"] if link is not None else None,
+        })
+    return decks, unknown
+
+
 def parse_popular_decks(html: str) -> tuple[list[dict], dict]:
-    """Best-effort DOM parser. RoyaleAPI's markup could not be inspected when
-    this was written (Cloudflare challenge), so this looks for the generic
-    shape: a container holding 8 card images/links, a nearby heading, and
-    label/value stat pairs. It reports diagnostics when it finds nothing."""
+    """Try the RoyaleAPI-specific parser first, then a generic fallback that
+    looks for any container holding 8 recognised card links/images."""
     soup = BeautifulSoup(html, "lxml")
     by_norm, by_slug = _card_lookup()
     diag = {"html_bytes": len(html), "challenge_page": is_challenge(html)}
+    decks, unknown = parse_royaleapi_segments(soup, by_norm, by_slug)
+    diag["parser"] = "royaleapi_deck_segment" if decks else "generic"
+    diag["segments_on_page"] = len(soup.select(".deck_segment[data-name]"))
+    diag["unmapped_card_keys"] = sorted(set(unknown))
+    if not decks:
+        decks = parse_generic(soup, by_norm, by_slug, diag)
+    # de-duplicate by deck_key (keep first = highest ranked)
+    seen: dict[str, dict] = {}
+    uniq = []
+    for d in decks:
+        if d["deck_key"] not in seen:
+            seen[d["deck_key"]] = d
+            d["variants"] = []
+            uniq.append(d)
+        else:  # same 8 cards listed again (different evolution/hero/tower choice or rank)
+            seen[d["deck_key"]]["variants"].append({
+                "display_name": d["display_name"], "royaleapi_card_keys": d["royaleapi_card_keys"],
+                "evolutions": d["evolutions"], "heroes": d["heroes"], "site_stats_raw": d["site_stats_raw"]})
+    diag["decks_found"] = len(uniq)
+    diag["duplicates_dropped"] = len(decks) - len(uniq)
+    if not uniq:
+        diag["sample_classes"] = sorted({" ".join(e.get("class", [])) for e in soup.find_all(True) if e.get("class")})[:60]
+    # pagination / infinite-scroll hints so truncation is never silent
+    hints = []
+    for a in soup.select("a, button"):
+        t = _num(a.get_text())
+        if re.search(r"^(next|more|load more|show more|page \d+|\d+)$", t, re.I) and (a.get("href") or "").find("decks") >= 0:
+            hints.append(t + " -> " + (a.get("href") or ""))
+    diag["pagination_hints"] = hints[:10]
+    diag["more_available_hint"] = bool(hints) or bool(re.search(r"load more|infinite[- ]scroll", html, re.I))
+    return uniq, diag
+
+
+def parse_generic(soup: BeautifulSoup, by_norm: dict, by_slug: dict, diag: dict) -> list[dict]:
     decks: list[dict] = []
     seen_keys: set[str] = set()
 
     def card_refs(el) -> list[tuple[str, bool]]:
         refs = []
-        for a in el.select("a[href*='/card/']"):
-            slug, evo = resolve_card(a.get("href", ""), by_norm, by_slug)
-            if not slug:
-                img = a.find("img")
-                if img is not None:
-                    slug, evo2 = resolve_card(img.get("alt") or img.get("title") or "", by_norm, by_slug)
-                    evo = evo or evo2
+        for img in el.select("img[data-card-key], img[alt]"):
+            key = img.get("data-card-key") or img.get("alt") or ""
+            slug, evo = resolve_card(key, by_norm, by_slug)
             if slug:
-                if not evo:
-                    img = a.find("img")
-                    if img is not None and re.search(r"evo", " ".join(img.get("class", [])) + (img.get("src") or ""), re.I):
-                        evo = True
                 refs.append((slug, evo))
         if len(refs) < 8:
-            refs = []
-            for img in el.select("img[alt]"):
-                slug, evo = resolve_card(img.get("alt", ""), by_norm, by_slug)
+            for a in el.select("a[href*='/card/']"):
+                slug, evo = resolve_card(a.get("href", ""), by_norm, by_slug)
                 if slug:
                     refs.append((slug, evo))
-        # de-dup keeping order
         out, seen = [], set()
         for s, e in refs:
             if s not in seen:
@@ -204,78 +313,37 @@ def parse_popular_decks(html: str) -> tuple[list[dict], dict]:
                 out.append((s, e))
         return out
 
-    # candidate containers: smallest elements that contain exactly 8 distinct cards
     candidates = []
-    for el in soup.find_all(True):
-        if el.name in ("html", "body", "head", "script", "style"):
-            continue
-        cls = " ".join(el.get("class", []))
-        if not re.search(r"deck", cls + " " + (el.get("id") or ""), re.I):
-            continue
+    for el in soup.find_all(["div", "section", "article", "li", "tr"]):
         refs = card_refs(el)
         if len(refs) == 8:
             candidates.append((el, refs))
-    if not candidates:  # class names unknown: fall back to any element with exactly 8 cards
-        for el in soup.find_all(["div", "section", "article", "li", "tr"]):
-            refs = card_refs(el)
-            if len(refs) == 8:
-                candidates.append((el, refs))
     diag["candidate_containers"] = len(candidates)
-
     for el, refs in candidates:
         slugs = sorted(s for s, _ in refs)
         key = "-".join(slugs)
         if key in seen_keys:
             continue
-        # prefer the OUTERMOST container with exactly these 8 cards: it holds the
-        # deck's name/stats, while an inner wrapper holds only the card images
         outer = [c for c, r in candidates if c is not el and c in el.parents and sorted(s for s, _ in r) == slugs]
         if outer:
             continue
         seen_keys.add(key)
         text = el.get_text(" ", strip=True)
         name = None
-        for h in el.select("h1,h2,h3,h4,h5,.header,.deck_name,.deck-name,[class*='name'],[class*='title']"):
+        for h in el.select("h1,h2,h3,h4,h5,[class*='name'],[class*='title']"):
             t = h.get_text(" ", strip=True)
             if t and not re.search(r"^\d|rating|usage|wins|losses", t, re.I):
                 name = t
                 break
-        if not name:
-            a = el.select_one("a[href*='/decks/stats/'], a[href*='/deck/']")
-            if a is not None:
-                name = a.get_text(" ", strip=True) or None
         stats = {}
-        for lab, val in re.findall(r"(Rating|Usage|Wins|Draws|Losses|Win\s*Rate|Avg\.?\s*Elixir|Elixir)\s*:?\s*([\d][\d.,]*\s*%?)",
-                                   text, re.I):
-            k = lab.lower().replace(".", "").replace(" ", "_")
-            stats.setdefault(k, val.strip())
-        # data attributes some sites use
-        for attr, v in el.attrs.items():
-            if attr.startswith("data-") and re.search(r"rating|usage|win|loss|draw|elixir|name|archetype", attr):
-                stats.setdefault(attr[5:].replace("-", "_"), v)
-        label = None
-        for t in el.select("a[href*='archetype'], a[href*='/decks/'][href*='type'], [class*='archetype'], [class*='tag'], .label"):
-            tt = t.get_text(" ", strip=True)
-            if tt and len(tt) < 40 and not re.search(r"^\d", tt):
-                label = tt
-                break
+        for lab, val in re.findall(r"(Rating|Usage|Wins|Draws|Losses|Avg\.?\s*Elixir)\s*:?\s*([\d][\d.,]*\s*%?)", text, re.I):
+            stats.setdefault(lab.lower().replace(".", "").replace(" ", "_"), val.strip())
         link = el.select_one("a[href*='/decks/stats/'], a[href*='/deck/']")
-        decks.append({
-            "deck_key": key,
-            "display_name": name or "",
-            "cards": [s for s, _ in refs],
-            "evolutions": [s for s, e in refs if e],
-            "site_stats_raw": stats,
-            "site_label": label,
-            "site_deck_url": ("https://royaleapi.com" + link["href"]) if link is not None and link.get("href", "").startswith("/") else (link.get("href") if link is not None else None),
-        })
-    diag["decks_found"] = len(decks)
-    if not decks:
-        diag["sample_classes"] = sorted({" ".join(e.get("class", [])) for e in soup.find_all(True) if e.get("class")})[:60]
-        diag["card_links"] = len(soup.select("a[href*='/card/']"))
-    # infinite scroll / pagination hints
-    diag["more_available_hint"] = bool(re.search(r"load more|show more|infinite|next page|page=2", html, re.I))
-    return decks, diag
+        decks.append({"deck_key": key, "display_name": name or "", "cards": [s for s, _ in refs],
+                      "evolutions": [s for s, e in refs if e], "heroes": [], "royaleapi_card_keys": [],
+                      "site_stats_raw": stats, "site_label": None,
+                      "site_deck_url": link.get("href") if link is not None else None})
+    return decks
 
 
 # --------------------------------------------------------------------------
@@ -303,8 +371,12 @@ def main() -> int:
     html = None
     fetch_log = []
     if args.html:
-        html = Path(args.html).read_text(errors="replace")
-        fetch_log.append({"method": "local_html", "path": args.html, "bytes": len(html)})
+        import hashlib
+        raw = Path(args.html).read_bytes()
+        html = raw.decode("utf-8", errors="replace")
+        fetch_log.append({"method": "local_html", "path": args.html, "bytes": len(raw),
+                          "sha256": hashlib.sha256(raw).hexdigest(),
+                          "note": "page saved from the user's own browser session and supplied to the pipeline"})
     else:
         status, body = fetch_raw(args.url)
         rec = {"method": "raw_http", "status": status, "bytes": len(body), "challenge": is_challenge(body)}
@@ -345,7 +417,13 @@ def main() -> int:
 
     p2["status"] = "enumerated"
     p2["deck_count"] = len(decks)
+    p2["segments_on_page"] = diag.get("segments_on_page")
     p2["more_available_hint"] = diag.get("more_available_hint")
+    p2["coverage_note"] = (f"The page listed {diag.get('segments_on_page')} deck entries ({len(decks)} unique card sets; "
+                           f"{diag.get('duplicates_dropped', 0)} repeated with different evolution/hero picks). RoyaleAPI's "
+                           "popular-decks view exposes further decks through its filter/time-range controls and deeper "
+                           "pages, which were not captured; this run is the default view only.")
+    p2.pop("blocker", None)
     items = manifest["items"]
     for d in decks:
         items.setdefault("deck:" + d["deck_key"], {"kind": "deck", "title": d["display_name"], "url": args.url,

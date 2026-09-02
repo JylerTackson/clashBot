@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T03:07:24+00:00",
+  "generated_at": "2026-09-02T03:45:47+00:00",
   "items": {
     "minions": {
       "kind": "card",
@@ -3256,6 +3256,177 @@
       },
       "image_error": null,
       "n_tables": 3
+    },
+    "deck:cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers": {
+      "kind": "deck",
+      "title": "WB Log Bait 2.8 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies": {
+      "kind": "deck",
+      "title": "GS Evo Ram HeroWiz MW",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap": {
+      "kind": "deck",
+      "title": "Golem HeroMiniPekka NW Phoenix",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies": {
+      "kind": "deck",
+      "title": "GS Evo Ram HeroWiz MW",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel": {
+      "kind": "deck",
+      "title": "EvoMortar Cart",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado": {
+      "kind": "deck",
+      "title": "Loon HeroKnight Double Dragon Bowler",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado": {
+      "kind": "deck",
+      "title": "Golem Double Dragon Nado Pump",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado": {
+      "kind": "deck",
+      "title": "GY IWiz Evo BBD Nado",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap": {
+      "kind": "deck",
+      "title": "Pekka Bandit EWiz EvoGhost",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log": {
+      "kind": "deck",
+      "title": "HeroKnight Log Bait 2.9 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons": {
+      "kind": "deck",
+      "title": "EvoMortar Goblinstein Cart",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log": {
+      "kind": "deck",
+      "title": "Hog HeroMusk 2.6 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons": {
+      "kind": "deck",
+      "title": "EvoRHogs AQ GobHut EvoGhost",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons": {
+      "kind": "deck",
+      "title": "EvoRG FishBoy Hunter 3.0 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons": {
+      "kind": "deck",
+      "title": "Hog MM EvoCannon 2.6 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log": {
+      "kind": "deck",
+      "title": "EvoRHogs AQ EvoCannon 2.9 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons": {
+      "kind": "deck",
+      "title": "EvoMusk Miner 2.9 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons": {
+      "kind": "deck",
+      "title": "Goblinstein EvoRHogs 3.4 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
+    },
+    "deck:archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow": {
+      "kind": "deck",
+      "title": "X-Bow HeroKnight 3.0 Cycle",
+      "url": "https://royaleapi.com/decks/popular?lang=en",
+      "status": "pending",
+      "stage": "built",
+      "reason": null,
+      "updated_at": "2026-09-02T03:44:31+00:00"
     }
   },
   "counts": {
@@ -3266,7 +3437,7 @@
   "phase2": {
     "source_url": "https://royaleapi.com/decks/popular?lang=en",
     "policy_check": {
-      "checked_at": "2026-09-02T03:04:28+00:00",
+      "checked_at": "2026-09-02T03:43:32+00:00",
       "robots_url": "https://royaleapi.com/robots.txt",
       "terms_url": "https://royaleapi.com/terms",
       "robots_status": 200,
@@ -3287,22 +3458,15 @@
     },
     "fetch_log": [
       {
-        "method": "raw_http",
-        "status": 403,
-        "bytes": 5716,
-        "challenge": true
-      },
-      {
-        "method": "headless_chromium",
-        "ok": true,
-        "bytes": 27423,
-        "challenge": true,
-        "note": "= Just a moment... deckish= 0\nt 3 title= Just a moment... deckish= 0\nt 4 title= Just a moment... deckish= 0\nt 5 title= Just a moment... deckish= 0\nt 6 title= Just a moment... deckish= 0\nt 7 title= Just a moment... deckish= 0\nt 8 title= Just a moment... deckish= 0\nt 9 title= Just a moment... deckish= 0\nt 10 title= Just a moment... deckish= 0\nt 11 title= Just a moment... deckish= 0\nhtml bytes 27423\n"
+        "method": "local_html",
+        "path": "/home/user/clashBot/.kb_cache/phase2/royaleapi_popular_saved.html",
+        "bytes": 484412,
+        "sha256": "659153a7075fde78583f89169363d87adcd0d44511d80b84d7c1a2e543ad0af0",
+        "note": "page saved from the user's own browser session and supplied to the pipeline"
       }
     ],
-    "fetched_at": "2026-09-02T03:05:01+00:00",
-    "status": "blocked",
-    "blocker": "Both the raw HTTP fetch and a headless Chromium render of the popular-decks page returned a Cloudflare managed challenge (interactive 'Verify you are human' Turnstile). Not bypassed. Re-run with --html <saved page> from a normal browser session.",
+    "fetched_at": "2026-09-02T03:43:33+00:00",
+    "status": "enumerated",
     "verified_at": "2026-09-02T03:07:12+00:00",
     "counts": {
       "decks": 0,
@@ -3312,6 +3476,28 @@
       "bait": 0,
       "bridge-spam": 0,
       "siege": 0
-    }
+    },
+    "parse_diagnostics": {
+      "html_bytes": 484061,
+      "challenge_page": false,
+      "parser": "royaleapi_deck_segment",
+      "segments_on_page": 20,
+      "unmapped_card_keys": [],
+      "decks_found": 19,
+      "duplicates_dropped": 1,
+      "pagination_hints": [],
+      "more_available_hint": false
+    },
+    "deck_count": 19,
+    "more_available_hint": false,
+    "segments_on_page": 20,
+    "coverage_note": "The page listed 20 deck entries (19 unique card sets; 1 repeated with different evolution/hero picks). RoyaleAPI's popular-decks view exposes further decks through its filter/time-range controls and deeper pages, which were not captured; this run is the default view only.",
+    "history": [
+      {
+        "at": "2026-09-02T03:05:01+00:00",
+        "status": "blocked",
+        "note": "raw HTTP and headless Chromium both received a Cloudflare managed challenge (interactive Turnstile); not bypassed"
+      }
+    ]
   }
 }

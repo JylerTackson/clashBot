@@ -28,18 +28,33 @@ FIXTURE_DECKS = [
 
 
 def fixture_html(cards_by_slug: dict) -> str:
-    parts = ["<html><body><div class='deck_list'>"]
+    """Mimics RoyaleAPI's real markup (deck_segment[data-name], -ev1 suffix,
+    desktop stats table with a percentage row and a count row)."""
+    parts = ["<html><head><title>Best Clash Royale Decks - RoyaleAPI</title></head><body>"]
     for i, (name, label, cards) in enumerate(FIXTURE_DECKS):
-        parts.append(f"<div class='deck_segment'><h4 class='deck_name'><a href='/decks/stats/{i}'>{name}</a></h4>")
+        keys = [s + ("-ev1" if (i == 0 and j == 0) else "") for j, s in enumerate(cards)]
+        # RoyaleAPI spells some keys differently from the wiki slugs
+        keys = [k.replace("p-e-k-k-a", "pekka") for k in keys]
+        dn = ",".join(keys)
+        parts.append(f"<div class='ui attached segment deck_segment' data-name='{dn}'>")
+        parts.append(f"<h4 class='deck_human_name-mobile'>{name}</h4>")
+        parts.append(f"<div class='ui black label margin0'>0.{i}%<div class='detail'>{i + 1}</div></div>")
+        parts.append(f"<h4 class='deck_human_name-desktop'>{name}</h4>")
         if label:
-            parts.append(f"<a class='archetype' href='/decks/archetype/x'>{label}</a>")
-        parts.append("<div class='deck_cards'>")
-        for j, s in enumerate(cards):
-            nm = cards_by_slug[s]["name"]
-            evo = "-ev1" if (i == 0 and j == 0) else ""
-            parts.append(f"<a href='/card/{s}{evo}'><img class='deck_card' alt='{nm}'></a>")
-        parts.append("</div><div class='stats'>Rating 8{0} Usage 12,3{0}0 Wins 6,{0}00 Draws 1{0} Losses 5,{0}00 Avg Elixir 3.{0}</div></div>".format(i))
-    parts.append("</div></body></html>")
+            parts.append(f"<span class='deck_archetype'>{label}</span>")
+        parts.append(f"<a class='ui item' href='https://royaleapi.com/decks/stats/{dn}'>Deck Stats</a>")
+        for k, s in zip(keys, cards):
+            parts.append(f"<div class='deck_card__four_wide'><a href='https://royaleapi.com/decks/stats/{dn}'>"
+                         f"<img alt='{cards_by_slug[s]['name']}' class='ui image deck_card' data-card-key='{k}' src='./x/{k}.png'></a></div>")
+        parts.append("<div class='battle_stats menu'><div class='stats item'>"
+                     "<div class='item'><div class='value'><img src='./x/tower-princess.png'></div></div>"
+                     f"<div class='item button_popup' data-content='Avg Elixir'><div class='value'><span class='name'>Avg Elixir</span> 3.{i}</div></div>"
+                     f"<div class='item button_popup' data-content='4-Card Cycle'><div class='value'><span class='name'>4-Card Cycle</span> 9.0</div></div></div></div>")
+        parts.append("<table class='ui stats table'><thead><tr><th>Rating</th><th>Usage</th><th>Wins</th><th>Draws</th><th>Losses</th></tr></thead>"
+                     f"<tbody><tr><td>8{i}</td><td>0.{i}%</td><td>5{i}.0%</td><td>0.1%</td><td>4{i}.9%</td></tr>"
+                     f"<tr><td></td><td>12,3{i}0</td><td>6,{i}00</td><td>1{i}</td><td>5,{i}00</td></tr></tbody></table>")
+        parts.append("</div>")
+    parts.append("</body></html>")
     return "".join(parts)
 
 
@@ -74,7 +89,8 @@ def main() -> int:
     assert d0["display_name"] == "WB Log Bait 2.8 Cycle", d0["display_name"]
     assert d0["site_label"] == "Log Bait", d0["site_label"]
     assert d0["evolutions"] == ["goblin-barrel"], d0["evolutions"]
-    assert d0["site_stats_raw"]["rating"] == "80", d0["site_stats_raw"]
+    assert d0["site_stats_raw"]["rating"] == "80" and d0["site_stats_raw"]["usage_count"] == "12,300", d0["site_stats_raw"]
+    assert d0["site_stats_raw"]["avg_elixir"] == "3.0" and d0["site_stats_raw"]["rank"] == "1", d0["site_stats_raw"]
     assert d0["deck_key"] == "-".join(sorted(FIXTURE_DECKS[0][2]))
 
     p = run([sys.executable, "decks_build.py", "all"], env)
