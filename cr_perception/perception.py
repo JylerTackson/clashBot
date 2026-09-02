@@ -52,11 +52,11 @@ def load_card_costs(kb: Path = KB) -> dict[str, float]:
     return out
 
 
-@dataclass
 # in-game cards without a Phase 1 page (wiki stubs); slug -> display name
 EXTRA_CARD_NAMES = {"minion-giant": "Minion Giant"}
 
 
+@dataclass
 class Perception:
     config: str | Path
     source: FrameSource
