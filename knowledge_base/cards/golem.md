@@ -173,6 +173,12 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=773-781s: against siege the tank is not the thing at risk - "I wasn't worried about him actually stopping the golem. I was worried about just like him stopping my spell cycle, but I knew that I'd be able to cycle back to another lightning."
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:59 (t=113-115): named, not confirmed. Ryley plays around it before it exists — "our firecracker should just be able to cook if he tries to golem" and "I'm going to ice golem preemptively cuz he might golem, and I want to have the hog rider ready" — a pre-placement, not a reaction.
+- clock 0:35-0:25 (t=136-146): an arena-detector track labelled Golem walks the opponent's left lane, but it starts the moment the Mega Knight track at [8, 25] ends and may be the same unit relabelled; no deploy label ever confirms a Golem.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

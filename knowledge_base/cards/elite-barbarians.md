@@ -476,6 +476,53 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.m
 - overtime 0:22-0:06 (t=602-618): he rates them the hardest card to handle and the reason the Hero Berserker is in the list — "because of how strong e-barbs are, they're very difficult to defend. And just having the Berserker plus ability to clean up the e-barbs behind any type of push is just super nice" and "these e-barbs are actually so difficult to defend tournament that we were playing. E-barbs were cooking people left and right."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:07 (t=47): first Evo set at tile [14, 14], his own side of the RIGHT bridge (deploy label score 1.0; the matching HUD drop is the unattributed 9.0 -> 4.0 at t=47.9). The arena tracks them at [13, 19]/[13, 20] advancing the right lane by t=56-58. Over the top he explains the Evo: "They have this like spear that... they throw every 5 seconds, and it damn it doesn't have damage to take out goblins, and it rages everything in the e-barbs path, which is actually kind of ridiculous."
+- clock 1:21 (t=91.9): the E-Barbs mirror. The opponent drops plain Elite Barbarians at clock 1:22 and Ryley answers with his own Evo set (HUD 7.0 -> 2.0). Enemy left tower falls 2942 -> 2329 -> 1716 across the next six seconds — "let's go for the Evo e-barbs at the bridge here. His e-barbs aren't Evo, by the way, so we don't really have to worry about this... it damages the e-barb, and it rages mine, and look, his e-barbs just get absolutely destroyed... Very nice little two shots."
+- clock 0:33 (t=139.1): a third set at tile [3, 21], INSIDE the opponent's left half after their tower fell, played to escort the Evo Firecracker rather than to defend — "This is actually one of those matches where I feel like I won't use too many E-Barbs, but let's go for a set of E-Barbs here just to keep the Evo Firecracker alive." He repeats the point at clock 0:23: "then we can get a set of Evo E-Barbs. Not even defensively. I think we can just go on the offense already."
+- clock 1:37-1:23 and 0:11 (t=76-90, t=162-170): his rule for the card and his verdict on the Evo — "This card is really aggressive-based. I feel like it's not... very defensive at all, as it should... The e-barbs are known to be a super aggressive card that people like to spam at the bridge, but even more so here with the Evo not being too great defensively," then "the E-Barbs are so much harder to distract now, I feel like. Just makes them so much better offensively. Not even like with the rage, just with having that like Spear Goblin damage, it feels like." All three sets this game were offensive; none was used on defence.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock ~2:38: dropped in the back-left corner at tile (3, 1) for 6 the moment he sees a Mega Knight in the opponent's deck — "Like here, he has a Mega Knight, but I'm not worried whatsoever. I'm just going to go for the E-Barbs in the back here." He states the interaction outright at clock 2:25: "E-Barbs will still fully counter the Mega Knight just fine."
+- clock 1:40: the bridge condition is spelled out before it happens — "if he has Bats, then when he Mega Knights in the back, I'm going to go for the E-Barbs. But okay, he has Goblin Gang... if he goes for Mega Knight in the back, then I can actually E-Barbs at the bridge since, you know, he won't have a good counter." The opponent's swarm card decides bridge vs defence.
+- clock 1:12: Evo Elite Barbarians at the bridge behind a Hog Rider, called off the opponent's cycle rather than his own elixir — "Then we can go for the Evo E-Barbs at the bridge cuz he has the Bandit. Nice. Let's go." The push three-crowns the opponent about fifteen seconds later. This is the evolution slot the video is built around.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 2:20: plays the Evolution defensively at [14, 11] onto incoming Wall Breakers rather than saving it for the bridge, purely to advance the Evolution counter — "Okay, let's go for the E-Barbs here on the Wall Breakers. I just want to get to the Evo as quickly as possible."
+- clock 1:07: rates the matchup honestly — "Evo E-Barbs will still get good value, but definitely not as much if you had like a cannon or an Inferno Tower cuz bomb tower is actually the best building against E-Barbs."
+- clock 1:27 overtime: places them in the back at [10, 0] with cheap support already in hand — "Let's go for the e-barbs here. We have the e-spirit and we have the skeletons" — and at 1:19 "E-barbs will get some value here taking out this princess." At 1:01 overtime he takes the bridge play instead: "Hold on, we can get the e-barbs at the bridge here now."
+- clock 2:37-2:27: his current ranking versus the Heroes — "I thought that both of the heroes were better than the E-Barbs, but now that I'm playing with it more, I actually think that E-Barbs might be like at least on their level at the very worst, if not like better than the Berserker. I still think that the Hero Valkyrie is the best one."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:35 and 0:48: bridge placements at [3, 14] and [14, 13] with a clean 6-elixir drop (9.0 -> 3.0), played explicitly to drain the opponent's defensive cards — "We could go for the e-barbs at the bridge here though... He's probably going to have the bowler" (t=758-763), then "the e-barbs here just force him to go for the executioner or the bowler cuz I just need to keep forcing elixir" (t=811-814). It works: "Nice forcing out the bowler. That's huge" (t=768).
+- clock 2:24: sent to the opposite lane to tax an incoming king-tower activation — label at [14, 13] while the opponent's Golden Knight is on his left. "Looks like he's just going to go for a nice king activation here. I will e-barbs her just to make it a little bit more annoying to activate" (t=712-715); afterwards, "at least my e-barbs are going to help take out that executioner and we forced out a nice freeze as well" (t=718-722).
+- clock 0:15: shielded behind the Ice Golem — Ice Golem label at [15, 13] then a 6-elixir drop, "Let's go for the ice golem e-barbs though. This is a good ice golem e-barbs" (t=840-843), and at clock 0:08 he adds the Hero Ice Golem's Snowstorm on top: "I'm going to pop the ability because it's going to freeze the bowler which will make the e-barbs a crazy big threat" (t=847-851).
+- OT 0:20: the Evolution's rage trail is the stated reason for the game-winning play — label at [3, 14] with a Hog Rider behind it: "I have to e-barbs hog rider here cuz the e-barbs will rage everything up" (t=958-961). The enemy left tower reads 1665 -> 759 -> 252 over the next six seconds: "The e-barbs clutched it for us. It got the double swing" (t=973-975). He also uses them defensively at OT 0:33, label at [14, 1]: "We have to e-barbs here on the exe" (t=945).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:18 (t=1009.3, tile [7, 7], elixir 9.0 -> 3.0): played deep on his own half into the Inferno Dragon lane, explicitly instead of a bridge Hog — "Normally I would hog rider opposite lane, but because of the inferno dragon being there and not having a good cycle for it...".
+- clock 1:20-1:09 (t=1066.6, tile [10, 7]): defensive drop against the Inferno Dragon while expecting a Mega Knight — "If there's a mega knight let's go for the low e-barbs here"; the Evolution spears failed to fire, which he documents as a real limitation: "they didn't get time to throw... for some reason, you know, the e-barbs can't always throw. I mean obviously there is a range on it".
+- clock 0:25-0:03 (t=1121 [13, 14], t=1146): used twice on the Mega Knight at the bridge in the last seconds of regulation — "we can go for the e-barbs on top" (1145s), then "Oh my god, we barely got those things down, man. That was clutch" (1147-1149s).
+- overtime clock 1:20 (t=1187.2, tile [4, 13]): the only bridge play, in the opposite lane, framed as an elixir problem rather than damage — "I'm going to E-Barbs here at the bridge opposite lane cuz if he goes for the Mega Knight, then he can't defend the Hog Rider. He's one card away".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 2:30: Evo Elite Barbarians dropped at the bridge at (3, 14) with elixir bottoming out at 1, purely as annoyance pressure - "Let's go for the E-Barbs at the bridge, too, just to be annoying."
+- clock 1:50: defensive Elite Barbarians at (3, 8) onto a Battle Healer 0.4 s from his tower, accepting the retarget - "I think it's going to retarget, but it's fine cuz we're just going to take it out regardless. We take barely any damage and he has to defend this"; the enemy left tower falls 2172 -> 1266 as they counterpush.
+- clock 0:56: chose Elite Barbarians at (14, 10) over a Firecracker for the triple-elixir push - "Maybe we E-Barbs to get to the Evo matter of fact. And E-Barbs are a little bit better pressure."
+- clock 1:30: against the opponent's Evo Elite Barbarians he placed his Electro Spirit tight to his own side "so we don't get hit with the spear" - the Evo spear throw still connected.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

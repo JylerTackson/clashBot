@@ -198,6 +198,53 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
 - clock 1:39 (t=168-171): mentioned, not played — the opponent's Firecracker is the target of a pre-placed Tornado: "then next up firecracker. Wait, I'm going to rocket and then I'm going to pre-nado the firecracker. Yep, knew it." Also called twice earlier in the same rotation (t=133-134, t=151-152) and confirmed on the field as firecracker(e) at [1,17] and [4,13].
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:14 (t=38.5, tile [8, 1]), clock 1:46 (t=68.1, tile [8, 6]), clock 0:37 (t=136.1, tile [8, 1]) and clock 0:25 (t=147.1, tile [7, 9]): the Evo Firecracker is ALWAYS placed centrally behind his own towers, never at the bridge.
+- clock 1:05 (t=106-113): she is his stated answer to the opponent's beatdown — "It looks like this guy doesn't have the greatest way to take out our Evo firecracker, so our firecracker should just be able to cook if he tries to golem" — and at clock 0:55 she is the specific answer to the air card: "then we can Evo Firecracker for the Baby Dragon."
+- clock 0:37 (t=136): the cycling rule he states outright while dropping her behind the king tower — "I do want to start cycling my Firecrackers really, really early on."
+- clock 0:33 (t=139): the 6-elixir Evo Elite Barbarians set is spent purely to keep her alive — "let's go for a set of E-Barbs here just to keep the Evo Firecracker alive."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:17: placed deep behind his own left tower at (2, 8) against an enemy Prince, so the Prince has to walk the full lane into her shrapnel.
+- clock 1:26: he tracks the opponent's small spell around her — "Th- Those were a good but aggressive arrows cuz now he won't have the arrows for my Evo Firecracker."
+- clock 0:58: predictive Evo Firecracker against a Prince that has not been played yet — "I'm going to Evo Firecracker predicting his prince cuz he might need a prince on these to retarget it" — spoken as the opponent gets three-crowned.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 2:15: Evolved Firecracker at [9, 14], dead centre of his own half, as a prediction against the opponent's Goblin Gang — "He's definitely going to Goblin Gang in the middle, so let's go for a Firecracker to predict it here... Nice. Let's go."
+- clock 1:31: plays her low/deep at [12, 10] after the opponent tries to snipe her — "go for the low firecracker. Yo, he tried to predict my firecracker in the middle."
+- clock 1:15: converts a surviving defensive Firecracker into tower chip — "Let's grab a shot on the tower with that firecracker. Beautiful" — the enemy tower drops 4858 to 4348.
+- clock 1:31 overtime: adapts placement to the opponent's revealed habit, putting her at the back at [8, 0] — "I'm just going to go for the evo firecracker in the back first. I think from now on most of his princesses will be in the back"; later at 0:38 overtime, "Go for the evo firecracker defensively."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:53: stacking multiple Firecrackers is his named plan against an Inferno Dragon — "that evil inferno dragon, that thing can get scary. I'm just going to try to stack as many firecrackers as I possibly can and we should be good" (t=740-747), with labels going down at [8, 1] behind his own king tower (t=750.8) and [8, 9]/[9, 10] mid-court.
+- OT 1:51: he places the evolved Firecracker off the lane on purpose so she outlives the answer — "we have to evo firecracker off to the side for sure cuz I know he's going to drop something here. Yep, there's the inferno dragon" (t=865-869), label at [1, 11] with a -3 elixir drop.
+- OT 1:10 and 0:55: HUD-confirmed -3 plays at OT 1:10 and labels at [8, 7]/[9, 1], with partial value accepted up front — "Let's go for the evo firecracker here and then we can go for the hog rider as well cuz he's definitely going to have to NATO this but if the firecracker doesn't line up properly, we still get some damage" (t=912-920).
+- OT 0:11: the exception to his own rule about keeping her back — a bridge placement at [2, 15] as part of the winning stack, "I'm going to firecracker the bridge" (t=965-966); over the rest of the game 8 of her 11 placements are on his own half at [7-9, 1-10].
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 1:49-1:43 (t=1028-1043): deliberately held, not cycled, against a suspected Balloon — "He has double air cards for some reason. Maybe he could even have a balloon in here... so I think I'm going to save my firecracker, but the thing is, if he had balloon I feel like he would have already used it when I cycled my firecracker".
+- clock 1:35 (t=1052.1, tile [9, 4], elixir 9.0 -> 6.0, HUD + deploy label): played deep behind his tower against a Bandit closing on the right lane, then supported with Electro Spirit and Skeletons.
+- clock 0:32 and 0:05 (t=1114.1, t=1141.1, both tile [10, 8]): the anchor of the Mega Knight defence, kept splashing rather than used as a kite — "I don't think I can go for the ice golem kite cuz I need the firecracker to keep splashing"; he also frames her as his only air answer: "Pretty hard to defend against a bunch of air cards perfectly whenever I only have a firecracker for defense and he has triple air cards" (1134-1139s).
+- overtime clock ~1:49-1:28 (t=1163.2, tile [10, 10]): Evo Firecracker as Hog support, and spell-proof in this matchup — "then we can go for the Evo Firecracker as well" (1162s), "He can't buy Zap for our Firecracker. That's still a shot on the tower" (1179-1181s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 2:40-2:28: Evo Firecracker placed deep at (2, 8) behind two Skeletons to answer a Flying Machine; the stated defensive priority is "Make sure we keep the Firecracker alive and have the Flying Machine get taken care of."
+- clock 1:12: Firecracker at (9, 9) asked to do two jobs on one enemy push - "It's going to help take out the Valkyrie while also kiting it away and then it's going to kite the healer."
+- clock 1:16: rates her as an elixir win even when answered - "We have Evo Firecracker for defense as well. Him having to go freeze zap on every Firecracker is not ideal for him either."
+- clock 1:08: spent an Ice Golem at (8, 12) as a bodyguard for her - "if he has a really hard time killing it, I may as well not let him take it off the board too easily."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

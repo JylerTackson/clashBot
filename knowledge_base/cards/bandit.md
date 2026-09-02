@@ -192,6 +192,17 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
 - clock 2:13 (t=252-254): a Bandit dashes the left lane in the final clip while Ryley plays around a predicted pre-Zap.
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock ~2:00: the opponent's Bandit reaches his king tower and he takes it as a gift — "We can even activate the king tower here off of that bandit... Beautiful king activation. Having that will be very, very useful for the rest of the game."
+- clock 1:14: the Bandit in the opponent's cycle is his reason to commit Evo Elite Barbarians at the bridge — "we can go for the Evo E-Barbs at the bridge cuz he has the Bandit."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:38 (t=987, opponent elixir 8.87 -> 5.87) and clock 1:33-1:29 (t=1050-1058): answered with Skeletons plus Electro Spirit both times — "we can go for the e-spirit plus skellies on defense again" (1055s); at 0:47 he keeps Skeletons in hand specifically for it.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

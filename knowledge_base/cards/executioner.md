@@ -144,6 +144,11 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md
 - clock 0:03: answered with Bomb Tower splash rather than a dedicated counter - "Bomb tower should finish off the rest of that executioner" (594-596s); paired with the Ronin it is the push he fears most (577-580s).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:16 and OT 0:33: treated as an Elite Barbarians target on both defence and offence — "at least my e-barbs are going to help take out that executioner" (t=719-722) and, in overtime, an Elite Barbarians label at [14, 1] onto one that crossed: "We have to e-barbs here on the exe" (t=945). He also counts it as one of the two cards his bridge pressure is designed to drain (t=811-814).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

@@ -198,6 +198,17 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - Mentioned only as an opponent card, never seen on the field in this game. Their absence from the opponent's cycle is what green-lights his barrel spam: "Fireball, barb barrel, and goblins. That's an interesting deck" (1237-1239s), "just barrel here because he has no barbarian barrel and no goblins in [cycle]" (1243-1245s), and "he has no Goblins to cycle either so he probably has to Fireball this" (1302-1304s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:51 (t=120.1, tile [1, 20]): played by the OPPONENT on their own left side against Ryley's Hog Rider.
+- clock 2:03 (t=54): named only as a weakness of the new Evolved Elite Barbarians spear — "it damn it doesn't have damage to take out goblins, and it rages everything in the e-barbs path."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- overtime clock ~1:49 and 1:10 (t=1164-1197): the defence he pre-empts twice with The Log — "I'm going to pre-log as well cuz he's either going to Goblins or Mega Knight" and "I'm just going to log here for the Goblins. The Skellies should block some Goblin shots and get us an extra shot".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

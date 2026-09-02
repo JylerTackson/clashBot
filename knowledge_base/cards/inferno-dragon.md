@@ -227,6 +227,18 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1208s: the card that ends the game - Freeze plus Evo Inferno Dragon takes his left tower from 4108 to 2222 in the last four seconds: "Oh no, he's going to get the freeze off with the Inferno Dragon. No, no, no, no, no".
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:53 and OT 1:46: the opponent threat he respects most — "Another thing though that we have to be worried about, man, is that evil inferno dragon. That thing can get scary" (t=740-743). His two stated answers are stacking Firecrackers ("I'm just going to try to stack as many firecrackers as I possibly can", t=745-747) and resetting it with the Hero Ice Golem: "Let's go for the ice golem ability as well just to help reset that inferno dragon" (t=871-874).
+- clock 1:25: a 1-elixir Electro Spirit is used to pull it off target before a Hog goes in — "I'm going to e-spirit on the left here just to distract that inferno dragon" (t=771-773). It finally dies at OT 0:38 under massed Firecracker shrapnel: "the inferno dragon locked. Die. Okay, the inferno dragon died" (t=936-940).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:19-2:11 (t=1003 onward): its presence is why he refuses the opposite-lane Hog Rider and plays Elite Barbarians deep instead — "Normally I would hog rider opposite lane, but because of the inferno dragon being there and not having a good cycle for it...".
+- clock 1:25 (t=1059.1-1069.1): he notes losing the cheap answer to it — "We will have to watch out for the mega knight at the bridge though, cuz you don't have skeletons to distract the inferno dragon anymore" (1058-1062s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

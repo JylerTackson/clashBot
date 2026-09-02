@@ -191,6 +191,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Arrows is in this list as a bait counter rather than a cycle spell: every card he names on the opponent's side in this segment (Skeleton Army, Princess) is an Arrows target.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 1:26: the opponent's Arrows go out early and Ryley immediately banks the window — "Th- Those were a good but aggressive arrows cuz now he won't have the arrows for my Evo Firecracker."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

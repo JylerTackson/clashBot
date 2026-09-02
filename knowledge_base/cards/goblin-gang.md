@@ -253,6 +253,12 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 0:38 (983s): he names the answer he was holding — "if he goes for the goblin gang, we do have a berserker plus ability defensively."
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 1:40: the card he explicitly scouts for, because it changes his Elite Barbarians plan — "One thing I do need to figure out is if he has Goblin Gang or if he has Bats because if he has Bats, then when he Mega Knights in the back, I'm going to go for the E-Barbs. But okay, he has Goblin Gang. That's great to know."
+- clock 1:38 and 1:05: answered with The Log — "We can go for the log on the Goblin Gang."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

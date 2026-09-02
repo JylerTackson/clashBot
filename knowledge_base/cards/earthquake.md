@@ -172,6 +172,45 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.m
 - clock 0:53 (t=112.0): the opponent's only spell read by the pipeline, cast while Ryley's second X-Bow at (15, 10) is going down. It is never mentioned in the commentary and the X-Bow had already taken the right tower from 4858 to 1201 before it arrived.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:31 (t=22.0, tile [3, 21]): cast on the OPPONENT'S left tower, one beat behind the Hog Rider Ryley sent to the left bridge at clock 2:35 — the arena tracks that Hog at [3, 18] by t=24 and [2, 21] by t=26. The classic Hog + Earthquake pairing, and the cheap chip that lets him send the Hog as loosely as he does ("We can still go for the hog rider here just to apply some pressure", clock 1:39).
+- Attribution note: the pipeline filed this cast as the opponent's because a spell's deploy tile carries no owner, but it lands on their own tower and Ryley's elixir bar reads 6 at t=20 and 3 at t=22 — a 3-elixir drop. It is his. He does not name the card in this game's commentary; the video's 30 "earthquake" mentions and 20 deploy labels are spread across its six games.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 1:31: the eighth card of the deck, cast by Ryley himself over his own right-side tiles at (14, 9) onto the enemy ground push, accepting a trade rather than a clean answer — "Oh my god, I have to earthquake this actually. Okay, we still take one, but it's all good."
+- clock 2:04-2:02: two further Earthquake labels 2 s apart at (12, 21) and (10, 12), probably one cast double-counted, with no commentary attached; the deploy-label pipeline files every spell as the opponent's because a spell tile cannot identify the caster, so caster is unresolved for these.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 0:13: Earthquake onto the enemy left tower at tile [5, 21], the same lane his Hog Rider has been hitting all match — "Let's go for the earthquake here. We're fine taking that out nicely." He pairs the two the whole game and that tower falls from 4858 to 441 HP.
+- clock 1:57 overtime: re-casts it the moment the Hog goes back in at [4, 21] — "Whoops, let's earthquake again here" — after noting at 0:03 that the opponent does still have his Bomb Tower up.
+- clock 1:42 overtime: the defensive cast, on his own half at [3, 14] against the opponent's Goblin Gang swarm — "Earthquake here defensively. Good defense."
+- clock 1:04 and 0:37 overtime: two more Hog-lane casts at [5, 21] and [5, 22] — "let's go for the earthquake here again as well" — while the enemy left tower drops 1923 to 675 HP. Earthquake is also his only answer to the opponent's Bomb Tower, which he calls "the best building against E-Barbs" at clock 1:07.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:47-2:45: the deck's opening play is the Hog Rider plus Earthquake pairing — a Hog Rider deploy label at [1, 13] on his own left bridge tile (HUD -4 from 9.0), then an Earthquake label at [5, 21] on the opponent's half two seconds later (t=689.7-691.7).
+- clock 1:18, OT 1:37 and OT 0:49: played defensively on his own left tower at [2, 7] three times, exactly where the opponent's Graveyard lands, so the Ice Golem can stay on Bowler-kiting duty — "Let's earthquake then we can go for the ice golem as well. Skellies on top. E-spirit as well" (t=928-932).
+- OT 1:10: used to restart a stalled overtime, label at [13, 21] on the opponent's half followed inside six seconds by Firecracker (HUD -3), Ice Golem (HUD -2) and Hog Rider at [6, 13] (HUD -4) — "Okay, let's earthquake here. That's something that gives us a chance I guess" (t=909-911).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- In the deck but not separable in this game (t=978.1-1204.2): "earthquake" is never said in this game's commentary and no Earthquake event is logged in the window — it shows only in low-confidence HUD hand rows (t=978-986, t=1064-1066, t=1168), i.e. held in hand. The deck's eighth slot rests on video-level evidence (30 commentary mentions across the video, 20 Earthquake deploy labels, several on Ryley's own towers), not on this match.
+- Its absence shapes the game: with Earthquake unused, the Mega Knight/air-spam opponent is handled entirely with cheap troops and The Log, and Ryley's answer to a banked Mega Knight is a bait rather than a spell — "just to force him to go for the mega knight, cuz if he mega knights the bridge... he's just not able to build up a big push" (1105-1113s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 0:47: Earthquake at (13, 23) over the opponent's right-lane defenders while his own Hog/E-Barbs push was live - "We can just earthquake this away now and maybe get a shot on the flying machine. Beautiful"; used as a defender-clearing and chip spell on the enemy half, not as a defensive answer.
+- The deploy label was side-attributed to the opponent (a spell's tile cannot identify its caster), but the commentary and a matching own 3-elixir drop at t=1326.8 make it Ryley's; Earthquake is the deck's spell alongside The Log.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

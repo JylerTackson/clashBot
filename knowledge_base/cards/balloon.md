@@ -207,6 +207,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1194-1198s: answered with a fresh Bomb Tower plus a Wall Breakers kite - "Might loon here. Yep, there's the loon. Let's Bomb Tower like this. Wall breakers to kite this away".
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 1:57-1:43 (t=1032-1043): mentioned only, never played by the opponent; it is the reason he holds his Firecracker — "Maybe he could even have a balloon in here... so I think I'm going to save my firecracker, but the thing is, if he had balloon I feel like he would have already used it when I cycled my firecracker".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

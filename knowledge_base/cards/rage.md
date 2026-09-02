@@ -164,6 +164,11 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.m
 - opponent Rage spells were tracked landing on Ryley's half at clock 0:52 ([10, 7]), clock 0:30 ([6, 5]) and overtime 0:02.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:03 and 0:11 (t=54-56, t=169-172): never played as a card — Ryley uses the word three times for the Evolved Elite Barbarians' spear mechanic. "it rages everything in the e-barbs path, which is actually kind of ridiculous," "it damages the e-barb, and it rages mine," and finally the judgement that the rage is not even the main upgrade: "Just makes them so much better offensively. Not even like with the rage, just with having that like Spear Goblin damage, it feels like."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

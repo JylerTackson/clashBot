@@ -194,6 +194,17 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Game 2: the plan dies to Rocket - "my whole plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (640-646s); the Baby Dragon + Valkyrie trade on the first X-Bow (t=558.2) is the play he calls his own mistake (582-590s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:55 (t=118): named as the card the Evo Firecracker is meant to answer — "let's Hog Rider here anyways and then we can Evo Firecracker for the Baby Dragon." No Baby Dragon deploy is confirmed in this game (one arena track at t=72 only).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:41-2:33 (t=982-994): the target of the opening Skeletons kite and the king activation — "let's go for the skeletons here just to kite the baby dragon away. I do want to try to activate king tower here off of that baby dragon".
+- clock 1:43 (t=1043.7): kited again with Ice Golem when 6.8s from the tower — "Let's ice go on here just to kite this away"; in overtime he plans the same trade into the Firecracker — "Hopefully the Firecracker can take out the Baby Dragon too. I think we could kite the Baby Dragon over to the Firecracker" (1181-1186s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

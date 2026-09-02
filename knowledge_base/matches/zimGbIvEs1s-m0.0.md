@@ -5,15 +5,15 @@ video_url: https://www.youtube.com/watch?v=zimGbIvEs1s
 match_index: 0.0
 video_time: [4.3, 179.2]
 creator: ryleycr1
-own_deck: [hog-rider, elite-barbarians, firecracker, ice-golem, electro-spirit, skeletons, the-log, ice-spirit]
-own_deck_key: electro-spirit-elite-barbarians-firecracker-hog-rider-ice-golem-ice-spirit-skeletons-the-log
+own_deck: [hog-rider, elite-barbarians, firecracker, ice-golem, electro-spirit, skeletons, the-log, earthquake]
+own_deck_key: earthquake-electro-spirit-elite-barbarians-firecracker-hog-rider-ice-golem-skeletons-the-log
 own_archetype: cycle
-opponent_deck_seen: [elite-barbarians, tombstone, phoenix, earthquake, goblins, mega-knight, golem, baby-dragon]
+opponent_deck_seen: [elite-barbarians, tombstone, phoenix, goblins, mega-knight, golem, baby-dragon]
 opponent_archetype_guess: beatdown
 result: win
 quality: {readable_seconds: 174.8, match_frames: 1049, own_elixir_drift: {n: 300, mean: 0.309, abs_mean: 1.115, max_abs: 10.0, last: 0.179}, events_total: 64, events_unidentified: 7, events_by_source: {hud: 20, deploy_label: 25, arena: 13, inferred: 6}, hand_conf_mean: 0.505}
 links:
-  cards: [hog-rider, elite-barbarians, firecracker, ice-golem, electro-spirit, skeletons, the-log, ice-spirit, tombstone, phoenix, mega-knight, golem, baby-dragon, earthquake, goblins, rage, dart-goblin, clone]
+  cards: [hog-rider, elite-barbarians, firecracker, ice-golem, electro-spirit, skeletons, the-log, earthquake, tombstone, phoenix, mega-knight, golem, baby-dragon, goblins, rage, dart-goblin, ice-spirit, clone]
   decks: []
   archetypes: [cycle, bridge-spam, beatdown]
 ---
@@ -29,11 +29,10 @@ deck right here for a OG card" — and the eight cards he plays match the video-
 [Hog Rider](../cards/hog-rider.md), Evo [Elite Barbarians](../cards/elite-barbarians.md), Evo
 [Firecracker](../cards/firecracker.md), Hero [Ice Golem](../heroes/ice-golem-hero.md),
 [Electro Spirit](../cards/electro-spirit.md), [Skeletons](../cards/skeletons.md),
-[The Log](../cards/the-log.md) and [Ice Spirit](../cards/ice-spirit.md) — a 2.5-elixir
+[The Log](../cards/the-log.md) and [Earthquake](../cards/earthquake.md) — a 2.75-elixir
 [cycle](../archetypes/cycle.md) shell with a 6-elixir [bridge-spam](../archetypes/bridge-spam.md) threat
 bolted on. The opponent is a heavier list: their own (non-Evo) Elite Barbarians,
-[Tombstone](../cards/tombstone.md), [Phoenix](../cards/phoenix.md),
-[Earthquake](../cards/earthquake.md), [Goblins](../cards/goblins.md), a
+[Tombstone](../cards/tombstone.md), [Phoenix](../cards/phoenix.md), [Goblins](../cards/goblins.md), a
 [Mega Knight](../cards/mega-knight.md) at clock 0:42 and, on the arena detector, a
 [Golem](../cards/golem.md) in the last 40 seconds — Ryley reads them as a beatdown player and says so at
 t=113-115 ("I'm going to ice golem preemptively cuz he might golem"). The game is one-sided: the Evo E-Barbs
@@ -49,8 +48,11 @@ at t=172: "GG's. Nice win."
   tile [8, 6] in the centre of his own half (HUD 10.0 -> 8.0, deploy label 'Ice GoleM' confirms), then Hog
   Rider at tile [1, 15], the left bridge (HUD 9.0 -> 5.0). All of it unnarrated — the transcript here is his
   intro about the evolution ("we are going to be playing with the evolved elite barbarians today", t=6-8).
-- t=22.0 (clock 2:31) — the opponent answers with Earthquake (deploy label, lvl 16, opponent 9.32 -> 6.32),
-  the first sign this is not a cycle mirror.
+- t=22.0 (clock 2:31) — Earthquake at tile [3, 21], on the opponent's left tower, one beat behind the Hog
+  Rider that is walking that lane (the arena has it at [3, 18] by t=24 and [2, 21] by t=26). The pipeline
+  filed the cast as the opponent's — a spell's tile cannot tell whose it is — but the target is *their*
+  tower, it is the textbook Hog + Earthquake pairing, and Ryley's own bar reads 6 at t=20 and 3 at t=22, a
+  3-elixir drop. Read as Ryley's. Unnarrated; he is still on the intro.
 - t=46-58 (clock 2:07 to 1:55) — his first set of Evo Elite Barbarians goes down at tile [14, 14], his own
   side of the right bridge (deploy label 'Elite BaRbaRiaNs' score 1.0; the matching HUD drop is the
   unattributed 9.0 -> 4.0 at t=47.9). The arena tracks them at [13, 19] and [13, 20] advancing the right lane
@@ -101,7 +103,7 @@ at t=172: "GG's. Nice win."
   another Firecracker, guys, and then we can get a set of Evo E-Barbs. Not even defensively. I think we can
   just go on the offense already" (t=145-152).
 - t=155.5-168.0 (clock 0:18 to 0:05) — the closing spam, mostly HUD-only: Hog Rider (5.0 -> 1.0), Electro
-  Spirit at tile [9, 15], Skeletons at [8, 21], The Log at [13, 13], Ice Spirit x3 and a Hero Ice Golem at
+  Spirit at tile [9, 15], Skeletons at [8, 21], The Log at [13, 13], three further 1-elixir drops and a Hero Ice Golem at
   [14, 14] switching lanes to the right. The enemy right tower goes 4858 -> 4189 -> 2350 -> 2086 across
   t=164-176.
 - t=160-175 (clock 0:13 to end) — his verdict while the clock runs out: "it took out the entire Tombstone.
@@ -147,9 +149,12 @@ at t=172: "GG's. Nice win."
   1-elixir drop at clock 0:47 aimed at finishing the left tower: "Okay, let's E-Spirit at the bridge as well.
   I do want to make sure that I take out the entire tower" (t=126), and a deploy label puts one at tile
   [9, 15], the river, at t=157.2 with another HUD drop at t=165.3.
-- **[Ice Spirit](../cards/ice-spirit.md)** — pure late-game cycle filler. Three HUD-confirmed 1-elixir drops
-  in the last 25 seconds (t=157.5, t=161.0, t=168.0), none narrated, all while he is spamming the opponent's
-  half at 1-2 elixir.
+- **[Earthquake](../cards/earthquake.md)** — one cast in this game, t=22.0 at tile [3, 21] on the enemy left
+  tower, trailing the opening Hog Rider down the left lane. It is the deck's building answer and its chip
+  spell, and it is the reason the Hog can be sent as cheaply as he sends it ("We can still go for the hog
+  rider here just to apply some pressure", t=72-74). He does not name the card in this game's commentary —
+  the 30 "earthquake" mentions and the 20 Earthquake deploy labels are spread across the video's six games —
+  so the usage read here rests on the cast's tile and timing rather than on his words.
 - **[Skeletons](../cards/skeletons.md)** — six deploys (t=5.3, t=65.1 [9, 1], t=113.1 [3, 9], t=127.1
   [2, 15], t=134.1, t=145.1 [1, 20], t=159.2 [8, 21]). Opening cycle card, then a distraction dropped behind
   the advancing Hog/E-Barbs; the last two are inside the opponent's half after the tower falls. No commentary
@@ -158,7 +163,7 @@ at t=172: "GG's. Nice win."
 ## Opponent
 
 Their deck reads as a heavy list, not a cycle one. Confirmed by deploy label or arena track:
-[Earthquake](../cards/earthquake.md) at t=22.0 tile [3, 21] (lvl 16), a plain (non-Evo)
+a plain (non-Evo)
 [Elite Barbarians](../cards/elite-barbarians.md) at t=91.1 and again on the arena at t=146-153,
 [Phoenix](../cards/phoenix.md) at t=48.0 [6, 23], t=54.1 [4, 17] and t=164.2 [15, 20],
 [Tombstone](../cards/tombstone.md) at t=80.1 [8, 19], [Goblins](../cards/goblins.md) at t=120.1 [1, 20],
@@ -211,9 +216,17 @@ at t=136-146 walking the left lane. Ryley's reads and answers:
     is not in the video-level consensus deck and is never named in this game's commentary; the commentary one
     second earlier is "then we can Evo Firecracker for the Baby Dragon", and Firecracker is also 3 elixir.
     Read as a Firecracker.
-  - t=126.6, the HUD reports Ice Spirit while the commentary says "let's E-Spirit at the bridge". Both cost
-    1; the card played there is more likely Electro Spirit. Both are in the deck, so the deck read is
-    unaffected.
+  - t=126.6, the HUD reports Ice Spirit while the commentary says "let's E-Spirit at the bridge"; read as
+    Electro Spirit.
+  - Every [Ice Spirit](../cards/ice-spirit.md) read in this game (t=126.6, t=157.5, t=161.0, t=168.0) is a
+    HUD-only 1-elixir drop with no deploy label and no commentary. Across the whole video "ice spirit" is
+    never said, while "earthquake" is said 30 times and 20 Earthquake deploy labels exist, so the eighth
+    slot is [Earthquake](../cards/earthquake.md) and these four reads are treated as misreads of the deck's
+    other 1-elixir cards (Skeletons and Electro Spirit). They are not attributed to a card here.
+  - The one Earthquake event in this game (t=22.0, tile [3, 21]) is side-attributed to the opponent by the
+    pipeline because a spell's deploy tile carries no owner. It lands on the opponent's own left tower
+    behind Ryley's Hog Rider and matches a 3-elixir drop in his bar between t=20 and t=22, so it is
+    reattributed to Ryley. The "lvl 16" tag on that label is therefore not evidence of ownership either.
 - **Seven unidentified events** (elixir moved, no card readable): t=47.9 (-5), t=73.9 (-2), t=91.9 (-5),
   t=139.6 (-5), t=178.5 (-9, after the game ended), plus the opponent-side t=70.1 (own left tower loses
   269 HP to an unseen spell) and t=142.1 (an unrecognised enemy unit at [3, 16] — the 2024-era detector

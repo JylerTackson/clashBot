@@ -489,6 +489,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1343.3s and t=1404.2s at [15, 10]: spirits spent so the building stays in hand - "we want to go for the Ice Spirit as well so you don't have to waste a Bomb Tower on defense" (1339-1342s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:47 to 0:05 (t=126.6, t=157.5, t=161.0, t=168.0): NOT in this deck. Four HUD-only 1-elixir drops in this game were read as Ice Spirit, none with a deploy label or any commentary, in a game whose hand-read confidence averages 0.505. Across the whole video "ice spirit" is never said while "earthquake" is said 30 times with 20 Earthquake deploy labels, so the eighth slot is Earthquake and these reads are misreads of the deck's other 1-elixir cards (Skeletons and Electro Spirit).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

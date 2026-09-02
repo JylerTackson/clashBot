@@ -214,6 +214,12 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - Opponent card, seen only by the unit detector at tile (7,2) on Ryley's side at t=1127s; he answers it by cycling Bomb Tower early and centrally at (7,9) - "Let's cycle our Bomb Tower here early". Not named in the commentary, so the read is detector-only.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:17 and 0:27: Ryley predicts the card from the opponent's clan name before it appears — "this guy is in a graveyard verse clan so I'm going to go out on a limb here and say this guy has graveyard. If he's not, this guy's definitely fake" (t=688-693) — and answers each one with 3 elixir of chaff: Skeletons at [9, 12] plus an Ice Golem kite (t=779-781), "He might go for a graveyard here" (t=829-831).
+- clock 1:10: he chooses to eat the full Graveyard rather than over-defend, trading tower HP for a king activation — "I'm going to eat all of this graveyard damage, guys, just to activate the king tower off of this bowler. It's definitely worth it, I think, unless that ice golem just perfectly kites it forever" (t=787-793). His left tower goes 4858 -> 3200 in that window and the activation never lands.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

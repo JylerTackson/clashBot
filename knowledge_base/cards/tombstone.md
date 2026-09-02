@@ -250,6 +250,12 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1427.4 (9,18) and t=1577.6 (9,15) (opponent's card, arena detection only, never discussed): its skeletons are the units tracked walking into Ryley's left lane at t=1434-1443, which he answered with the spawner chip rather than a card.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 1:31 (t=80.1, tile [8, 19]): the opponent's Tombstone, which forces four skeletons at Ryley's left-lane pushes across clock 1:29-1:23.
+- clock 0:51 and 0:13 (t=121-123, t=160-162): answered with The Log both times — "I'm going to go for the Log here as well just make sure that we take out that Tombstone," then "Oh my god, and look, it took out the entire Tombstone. Nice."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

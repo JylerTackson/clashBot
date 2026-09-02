@@ -5,8 +5,8 @@ video_url: https://www.youtube.com/watch?v=zimGbIvEs1s
 match_index: 0.2
 video_time: [412.6, 684.7]
 creator: ryleycr1
-own_deck: [hog-rider, elite-barbarians, firecracker, ice-golem, electro-spirit, skeletons, the-log, ice-spirit]
-own_deck_key: electro-spirit-elite-barbarians-firecracker-hog-rider-ice-golem-ice-spirit-skeletons-the-log
+own_deck: [hog-rider, elite-barbarians, firecracker, ice-golem, electro-spirit, skeletons, the-log, earthquake]
+own_deck_key: earthquake-electro-spirit-elite-barbarians-firecracker-hog-rider-ice-golem-skeletons-the-log
 own_archetype: cycle
 opponent_deck_seen: [goblin-barrel, princess, goblin-gang, wall-breakers, bomb-tower, knight, valkyrie, the-log]
 opponent_archetype_guess: bait
@@ -20,7 +20,7 @@ quality:
   events_by_source: {hud: 43, deploy_label: 63, inferred: 15, arena: 23}
   hand_conf_mean: 0.465
 links:
-  cards: [hog-rider, elite-barbarians, firecracker, ice-golem, electro-spirit, skeletons, the-log, ice-spirit, earthquake, goblin-barrel, princess, goblin-gang, wall-breakers, bomb-tower, knight, valkyrie, cannon]
+  cards: [hog-rider, elite-barbarians, firecracker, ice-golem, electro-spirit, skeletons, the-log, earthquake, ice-spirit, goblin-barrel, princess, goblin-gang, wall-breakers, bomb-tower, knight, valkyrie, cannon]
   decks: []
   archetypes: [cycle, bait]
 ---
@@ -32,8 +32,9 @@ player he calls Ramy, run with the same cheap Hog Rider cycle shell:
 [Hog Rider](../cards/hog-rider.md), Evolved
 [Elite Barbarians](../cards/elite-barbarians.md), Evolved
 [Firecracker](../cards/firecracker.md), [Ice Golem](../cards/ice-golem.md),
-[Electro Spirit](../cards/electro-spirit.md), [Skeletons](../cards/skeletons.md)
-and [The Log](../cards/the-log.md). The opponent plays a Hero-Knight
+[Electro Spirit](../cards/electro-spirit.md), [Skeletons](../cards/skeletons.md),
+[The Log](../cards/the-log.md) and [Earthquake](../cards/earthquake.md) — a Hog EQ
+cycle list. The opponent plays a Hero-Knight
 [log-bait](../archetypes/bait.md) list — [Goblin Barrel](../cards/goblin-barrel.md),
 [Princess](../cards/princess.md), [Goblin Gang](../cards/goblin-gang.md),
 [Wall Breakers](../cards/wall-breakers.md), [Bomb Tower](../cards/bomb-tower.md),
@@ -48,11 +49,12 @@ survives — leaving enough elixir for a Hog Rider every rotation. He calls it a
 0:27 of overtime: "Let's pre-log for the goblin gang and it is going to be good
 game. Very nice win."
 
-Important caveat on the deck list: this game's commentary shows Ryley casting
-[Earthquake](../cards/earthquake.md) four separate times (see Data gaps), which
-the pipeline attributed to the opponent. The eight cards above are the
-video-level consensus; Earthquake is very likely the real eighth card here in
-place of [Ice Spirit](../cards/ice-spirit.md).
+Note on the deck list: the eighth slot is Earthquake, not
+[Ice Spirit](../cards/ice-spirit.md). Ryley casts Earthquake four times in this
+game with matching first-person commentary, the pipeline having mis-attributed
+those deploy labels to the opponent; across the whole video "earthquake" is said
+30 times and "ice spirit" never. The Ice Spirit rows in this game's context come
+from low-confidence HUD hand reads only and are a misread.
 
 ## Key moments
 
@@ -168,14 +170,18 @@ place of [Ice Spirit](../cards/ice-spirit.md).
   pre-log for the goblin gang"). He is also willing to hold it: at overtime 0:48
   with The Log in hand he says "I'm not even going to log here. I'm just going to
   wait."
-- **[Earthquake](../cards/earthquake.md)** — see the caveat below; four casts,
-  three offensive on the enemy left tower ([5, 21] at 0:13, [4, 21] at overtime
-  1:57, [5, 21] at overtime 1:04, [5, 22] at overtime 0:37) alongside the Hog
-  Rider, and one purely defensive on his own half ([3, 14] at overtime 1:42:
-  "Earthquake here defensively. Good defense").
-- **[Ice Spirit](../cards/ice-spirit.md)** — listed in the session deck but never
-  named in this game's commentary and never confirmed by a deploy label; see Data
-  gaps.
+- **[Earthquake](../cards/earthquake.md)** — his spell partner for the Hog Rider
+  and the eighth card of the deck. Four casts: three offensive into the enemy left
+  tower he has been Hogging all match ([5, 21] at 0:13 "Let's go for the earthquake
+  here. We're fine taking that out nicely"; [4, 21] at overtime 1:57 "Whoops, let's
+  earthquake again here"; [5, 21] at overtime 1:04 and [5, 22] at overtime 0:37
+  "let's go for the earthquake here again as well"), and one purely defensive on
+  his own half ([3, 14] at overtime 1:42: "Earthquake here defensively. Good
+  defense"). It doubles as his answer to the opponent's Bomb Tower, the building he
+  names at 1:07 as the best card against his Evolved Elite Barbarians.
+- **[Ice Spirit](../cards/ice-spirit.md)** — not in this deck. The three Ice Spirit
+  rows in the event log (t=433.3, 578.7, 601.3) are low-confidence HUD hand reads;
+  he never names it and it never appears on a deploy label. See Data gaps.
 
 ## Opponent
 
@@ -242,22 +248,26 @@ over-committing: "Dude, this guy is so aggressive, man. Just calm down, bro"
 
 ## Data gaps
 
-- **Earthquake attribution (deck override).** Nine `EaRtHquake` deploy labels
+- **Earthquake attribution (resolved).** Nine `EaRtHquake` deploy labels
   (t=418.4, 552.6, 569.6, 585.6, 600.6, 639.6, 651.7, 665.7, 674.7) were assigned
   to the opponent by the pipeline, but four of them line up second-for-second with
   Ryley saying "Let's go for the earthquake here" (570 s), "Whoops, let's earthquake
   again here" (588 s), "Earthquake here defensively" (601 s) and "let's go for the
   earthquake here again as well" (665 s) — his standard first-person play language.
-  The tiles also fit: [5, 21] / [4, 21] / [5, 22] / [3, 22] sit on the enemy left
-  tower he was Hogging, and [3, 14] is his own half on the defensive cast. Ice
-  Spirit, by contrast, is never named in this game and never appears on a deploy
-  label; its only support is three low-confidence HUD slot reads (t=433.3, 578.7,
-  601.3). The most likely truth is that this game's deck runs Earthquake in the Ice
-  Spirit slot, i.e. deck key
-  `earthquake-electro-spirit-elite-barbarians-firecracker-hog-rider-ice-golem-skeletons-the-log`.
-  The front-matter keeps the video-level consensus key so this game stays
-  consistent with the other five games of the session; Earthquake is still recorded
-  as a card he played.
+  The tiles fit too: [5, 21] / [4, 21] / [5, 22] / [3, 22] sit on the enemy left
+  tower he was Hogging, and [3, 14] is his own half on the defensive cast. This is
+  now confirmed at video level (30 "earthquake" mentions across the video, 20
+  Earthquake labels, several on his own towers with first-person lines), so
+  Earthquake is recorded as his eighth card and the deck key is
+  `earthquake-electro-spirit-elite-barbarians-firecracker-hog-rider-ice-golem-skeletons-the-log`
+  (Hog EQ cycle). The side attribution on those labels remains a known pipeline
+  artefact for this video.
+- **Ice Spirit is a misread.** The video-level consensus deck listed Ice Spirit in
+  the eighth slot; "ice spirit" is never said anywhere in the video and no deploy
+  label ever reads it. Its only support is three HUD slot reads (t=433.3, 578.7,
+  601.3) from a hand track with mean confidence 0.465 — the same track that produced
+  Void, Giant and Suspicious Bush. Treat every Ice Spirit row in this game's context
+  as noise.
 - **HUD hand reads are unusable here** (mean hand confidence 0.465). The HUD-sourced
   own plays include a long list of cards that are certainly not in the deck — Mega
   Minion (t=415.1), Barbarian Barrel (t=427.3), Executioner (t=441.9, 616.6), Void

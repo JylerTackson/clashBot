@@ -164,6 +164,12 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - Mentioned, not played. At 402-408s he uses the Golden Knight's dash as the reference point for what the Heroic Valkyrie's Wild Whirlwind does to a clump of mid-court support: "he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:32: 1-elixir Skeletons are his named answer to the dash — "We can go for the skeletons to block the golden knight ability" (t=704-706), with the Golden Knight tracked at [3, 11] and a 4.1s tower ETA at that moment.
+- clock 0:13 and OT 0:23: he calls out bad Golden Knight commitments — "That was a bad golden knight as well" (t=843-845) — and in overtime targets it with the evolved Firecracker and a Hog: "I think I can go for a hog rider into the golden knight cuz he has the bowler and then I can go for another evo firecracker here. Come on, evo firecracker. Get on the golden knight. Nice" (t=947-955).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

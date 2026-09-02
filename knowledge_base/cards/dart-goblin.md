@@ -358,6 +358,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=910-912s: tracked chipping his left tower ([3, 13] then [1, 9]) while he deliberately spent nothing on it. Played again by the opponent at t=987.0 at [10, 20].
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:55 (t=117.3): NOT in this deck. The HUD reports 'slot 3 emptied (dart-goblin), elixir 7.0 -> 4.0', but Dart Goblin is never named in this game's commentary, the video-level consensus across six games has Elite Barbarians in that slot, and the line spoken one second earlier is "then we can Evo Firecracker for the Baby Dragon" — Firecracker is also 3 elixir. Hand-read confidence for this game averages 0.505; the drop is read as a Firecracker.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

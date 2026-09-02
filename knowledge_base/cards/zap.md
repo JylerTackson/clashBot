@@ -334,6 +334,11 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 1:32 (t=353.4, tile (2, 25)): Zap thrown onto a Goblin Gang the moment it landed, immediately after the Miner prediction on the Princess — "then we just zap here on the goblin gang. Perfect."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- overtime clock ~1:28 (t=1179-1181): spell tracking on the opponent — "He had to buy Zap, but that was... He can't buy Zap for our Firecracker. That's still a shot on the tower".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

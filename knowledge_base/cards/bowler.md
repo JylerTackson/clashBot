@@ -224,6 +224,13 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1047s: absence of the hero version is read as information - "Him not having the Hero Bowler is a little bit scary, cuz that means he probably has the Hero Balloon".
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:47 and 1:14: named 16 times, the single card he plans around all game. His two answers are kiting ("we can go for the ice golem here to kite that bowler away", t=783-785) and using it as the king-activation trigger ("I want to activate my king tower off of the bowler if possible... usually they pressure with the bowler and it's kind of hard to pull off if they do that", t=748-758).
+- clock 1:37 and 0:48: he uses bridge Elite Barbarians to force it out of the opponent's hand — "He's probably going to have the bowler" (t=762-763) then "Nice forcing out the bowler. That's huge" (t=768); later "the e-barbs here just force him to go for the executioner or the bowler" (t=811-814) and "thankfully he went for that bowler. That was a bad bowler" (t=816-817).
+- clock 0:08: the Hero Ice Golem's Snowstorm is used specifically to lock it in place — "I'm going to pop the ability because it's going to freeze the bowler which will make the e-barbs a crazy big threat" (t=847-851). On its defensive record he says "Dude, bowler's coming back again. Dude, that bowler has like smart targeting or something" (t=824-827).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

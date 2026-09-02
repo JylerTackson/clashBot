@@ -107,6 +107,11 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
 - he flags the egg as the real cost: "I do have to defend the Phoenix Egg though, otherwise that will rehatch on my tower" (t=924-926s), and rates it as an overspend when paired with a spell — "Phoenix and a Zap is just insane. That is way too much elixir to be spending" (t=908-912s).
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:03 (t=48.0, tile [6, 23]), clock 1:57 (t=54.1, tile [4, 17]) and clock 0:07 (t=164.2, tile [15, 20]): the opponent's Phoenix is the one card that reaches Ryley's tower in this game — the tracker flags it as a tower threat at clock 1:53-1:47 and his left tower loses 269 HP at t=70.1. He answers with The Log + Hero Ice Golem + The Log (clock 1:52 to 1:46) rather than a hard counter, and never names the card in the commentary.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Phoenix (scraped 2026-09-02T02:35:30+00:00)

@@ -193,6 +193,52 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.m
 - clock 0:37 (t=875-878): the Ice Golem is the clock on every siege attempt — "I need to Expo before he gets a chance to go in with that Ice Golem. I I I I just need to Expo immediately" — and it keeps coming back: "He has to do another Ice Golem" (887s), "Another ice golem, dude. Wow. Okay, this is getting out of hand, man" (959-961s).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- HERO variant, confirmed by commentary at clock 0:38 (t=132-134): "Let's just go for the Hero Ice Golem here in the back" — deploy at tile [8, 0], his own back line (HUD 8.0 -> 6.0, deploy label 'lce GoleM').
+- clock 2:38 (t=13.3, tile [8, 6]) and clock 0:59 (t=113.9, tile [2, 14]): non-committal centre/back placements off a full bar. The second is a stated pre-placement against beatdown — "I'm going to ice golem preemptively cuz he might golem, and I want to have the hog rider ready."
+- clock 1:49 (t=64.1, tile [9, 10]): dropped mid-arena as a kite/speed bump inside a Log + Ice Golem + Log sequence against a Phoenix and enemy Elite Barbarians that the tracker had flagged as tower threats.
+- clock 2:30 (t=22.5) and clock 0:54 (t=118.3): two further 2-elixir drops the HUD attributes to Ice Golem with no placement read. Because this is the Hero, either could be a 2-elixir Snowstorm activation rather than a deploy — the commentary does not distinguish them.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock ~2:09: front half of an Ice Golem + Hog Rider kite on his own half at (9, 10), against a Prince already inside his left lane.
+- clock 1:20: a 2-elixir Ice Golem alone at the left bridge (2, 14) used purely as bait — "Hold on. I'm going to go for the Ice Golem here at the bridge. I'm going to try to bait him into going for a prince. If he goes for a prince, then I'm going to go for the..." (cut off by the opening he then takes on the other lane).
+- clock 2:20: the deck pitch names it as the reason the opener is safe — "they just have such a hard time dealing with the Ice Golem plus hog rider combo that I'm really not worried at all."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 0:57: pre-places Ice Golem at [9, 9] before the threat exists, to deny a bridge Princess — "I'm going to Ice Golem so he can't go for a princess at the bridge" — and then "Yo, nice. What a beautiful catch."
+- clock 1:50: Ice Golem at [8, 11] as the body in front of a Goblin Gang plus Wall Breakers wave, with Electro Spirit at [7, 8] behind it — "Let's Ice Golem here."
+- clock 1:53 overtime: used purely as a blocker in the centre lane — "Let's ice golem here in the middle just to block." He deploys it five times this game, always centrally on his own half ([9, 9], [8, 11], [9, 13]).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:14: used as a Bowler kite while Skeletons soak the Graveyard — label at [9, 11] one second after Skeletons at [9, 12]. "Let's go for the skellies up top though. And then they should split a little bit and then we can go for the ice golem here to kite that bowler away" (t=778-785).
+- clock 1:47: he names the Ice Golem as his route to a king-tower activation against a Bowler deck, and its limit — "I want to activate my king tower off of the bowler if possible. I know that is a thing with the ice golem, but usually they pressure with the bowler and it's kind of hard to pull off if they do that" (t=748-758). The attempt fails twice: "we've messed up two king activations" (t=890-892).
+- clock 0:15 and OT 1:53: as a 2-elixir shield in front of the Elite Barbarians (label at [15, 13], "This is a good ice golem e-barbs", t=840-843) and in front of a Hog Rider stack in overtime (label at [8, 12] plus HUD -2, "I will go for the ice golem here like this", t=863-865).
+- clock 2:28: as a cheap body into a Golden Knight plus Inferno Dragon push — label at [1, 11], "we're going to want to go for the ice golem here too just to not let that happen" (t=706-710). Nine placements in the game, all 2 elixir.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:32 (t=994.2, tile [7, 11], elixir 6.0 -> 4.0): added to the left-lane defence behind the Skeletons kite — "Let's go for the ice golem as well", with "Activating king early will be very nice here" as the reason for the whole sequence.
+- clock 1:43 (t=1043.7, tile [8, 10], elixir 8.0 -> 6.0): pure kite on a Baby Dragon that was 6.8s from his tower — "Let's ice go on here just to kite this away".
+- clock 0:57 (t=1088-1091): the front of a counter-push instead of a defensive body — "we can go for the ice golem plus hog rider here, kind of turn this into a nice counter attack".
+- clock 0:42 (t=1105): played as an elixir tax to bait the Mega Knight out at the bridge — "let's ice golem here just to force him to go for the mega knight, cuz if he mega knights the bridge, right, he's just not able to build up a big push, and if he's not able to build up a big push then I don't think he'll be able to break through".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 2:38: Ice Golem at (9, 13) as a pre-emptive kite to deny a Hero Valkyrie ability connect - "Let's go for the Ice Golem kite here just so he can't go for a Valkyrie ability and go all the way up to my Firecracker."
+- clock 1:35: Ice Golem at (15, 13) put down first, Hog Rider at (15, 14) one second later, the standard tank-in-front lane switch.
+- clock 1:07: Ice Golem at (8, 12) spent purely to keep his Evo Firecracker alive - "let's just Ice Golem just to keep the Firecracker alive though... I may as well not let him take it off the board too easily."
+- clock 0:13: last Ice Golem at (8, 13) into a Flying Machine plus Battle Healer push while the outro is already running.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

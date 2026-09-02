@@ -192,6 +192,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1208s: exactly that happens - "he's going to get the freeze off with the Inferno Dragon" - and his left tower collapses from 4108 to 2222 in the last two readings of the game.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:16 and 0:38: he reads the archetype as Graveyard Freeze on sight ("Wait, it could be graveyard freeze actually. No way, it looks like it's graveyard freeze", t=695-698) and counts forcing it out as value in itself: "we forced out a nice freeze as well" (t=722). When it is spent badly he says so — "Okay, bad freeze" (t=817).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

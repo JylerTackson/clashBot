@@ -256,6 +256,11 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
 - Everything Ryley SAYS about Zappies is about the opponent's: he calls them seven times in the t=122-168 clip — "he's probably going to continue bridge spam me with like zappies, healer, Valkyrie. Yep, there are the zappies" (t=123-127), "Yep, there are the zappies, by the way" (t=143-145), "then the zappies. Yep, and then the healer" (t=154-156). The tracker confirms zappy(e) at [4,15] and [3,12] in that window.
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:33: he calls the Zappies the correct answer to his own bridge Elite Barbarians — "He could zap these two though to be fair. Zappies is definitely a valid play by him" (t=764-766). A three-Zappy column is then tracked down his left lane from clock 0:47 through OT 1:27, and The Log is his repeated answer to it.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

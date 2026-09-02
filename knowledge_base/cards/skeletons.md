@@ -541,6 +541,52 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - OT 0:37: paired with Electro Spirit as a two-elixir double block — 'E-spirit skellies. Nice. We blocked both sides here'.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:47 (t=5.3): the opening 1-elixir cycle card off a full bar (HUD 10.0 -> 9.0), before any Ice Golem or Hog.
+- clock 0:59 (t=113.1, tile [3, 9]) and clock 0:47 (t=127.1, tile [2, 15]): dropped in the left lane behind and ahead of the Hog Rider push as a distraction while he pre-armed for the opponent's Golem.
+- clock 0:27 (t=145.1, tile [1, 20]) and clock 0:14 (t=159.2, tile [8, 21]): Skeletons placed INSIDE the opponent's half after their left tower fell, supporting the Evo Elite Barbarians at [3, 21]. Six deploys in all and no commentary on the card — it is the invisible cycle glue of this 2.5-elixir list.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:14: 1-elixir Skeletons at (9, 14) immediately behind The Log — "Let's log here for the wall breakers and we get nice skeletons down."
+- clock ~1:34: Skeletons at (14, 10) into the right lane while the opponent Earthquakes his half.
+- clock 1:05-0:57: two Skeletons drops at (9, 6) and one more, the tail of a 1-elixir chain onto a Mega Knight — "and then we can go for the skeletons. Nice. Let's go. What a good interaction."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 2:48: leads the game with 1-elixir Skeletons at [8, 11] before committing the Hog Rider — "Going to skeletons here and go for the Hog Rider immediately."
+- clock 1:23 overtime: names his default spot when placing them at [16, 5] beside a defence — "That should be in the regular position. Skellies here, nice. Only taking one. Not the worst."
+- clock 0:57 overtime: uses them as a late, off-tempo answer at [15, 9] and gets away with it — "I don't know if the skellies will counter cuz it's late. Oh my god, we did. Nice."
+- clock 1:47 overtime: sends them into the opposite lane on purpose while ignoring Wall Breakers — "I'm just going to go for the skellies up top cuz I really don't care about those wall breakers on the opposite lane."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:32: dropped at [1, 14] specifically to eat the Golden Knight's dash — "We can go for the skeletons to block the golden knight ability" (t=704-706), HUD -1 plus deploy label.
+- clock 1:17: the first answer to a Graveyard, placed up-lane so the spawns split — label at [9, 12], "Okay, he goes for the graveyard. Yeah, this is what I'm talking about. Let's go for the skellies up top though. And then they should split a little bit" (t=777-782).
+- OT 1:43 and 1:31: paired with Electro Spirit as a standing two-card defensive unit — labels at [8, 15] and [6, 15], "E-spirit skellies here as well" (t=874) and "Skellies up top then we have to go for the e-spirit as well" (t=884-886); repeated at OT 0:47 ("Skellies on top", t=930).
+- clock 0:58: the one time the placement costs him — "Oh, no! I misplayed my skellies. Aw, man, that's so bad for us... that's a big mistake right there" (t=799-807), immediately before his right tower loses 462 HP to an unreadable spell (t=802.8).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:41 (t=986): deploy label at tile [10, 8] with the enemy Baby Dragon advancing on the left lane, played specifically to pull it into king range — "let's go for the skeletons here just to kite the baby dragon away. I do want to try to activate king tower here off of that baby dragon"; the activation lands ("Beautiful king activation", 993s) and his king HP first reads at t=994.
+- clock 2:07 and 1:30 (t=1019.7 [10, 7], t=1057.1 [10, 10]): the standard block next to his own tower against Bandit and Inferno Dragon, always paired with Electro Spirit — "we can go for the e-spirit plus skellies on defense again".
+- clock 0:47 (t=1100.1, tile [11, 14]): held ready as a specific answer rather than cycled — "we have skellies ready to block his bandit or flying machine actually".
+- overtime clock 1:10 (t=1196.7, tile [14, 13]): used offensively to soak enemy Goblin shots off his Hog Rider on the winning push — "The Skellies should block some Goblin shots and get us an extra shot"; enemy right tower goes 1054 -> 547 HP and the game ends.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 2:38-2:36: two separate 1-elixir Skeletons (first at (8, 14)) to strip a Flying Machine push - "Okay, really good defense right there, actually."
+- clock 2:02: Skeletons at (9, 14) held up-lane specifically as insurance against the Hero Berserker - "If he tries to go berserk mode, it's okay cuz we have the Skellies up top."
+- clock 1:24: Skeletons at (7, 8) into the opponent's Evo Elite Barbarian after it got past the Electro Spirit.
+- clock 0:40-0:38: two more Skeletons during the final defence alongside Firecracker and The Log.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

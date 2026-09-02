@@ -232,6 +232,12 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - Opponent card, auto-transcribed as "NATO". t=1132-1135s: playing around it drives his Magic Archer cycle - "we can get another Archer here, though, cuz he wasted his 'nado"; t=1157-1169s "As long as we always have one for his 'nado, then we're good... He might 'nado the Wall Breakers though".
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:14 and 0:35: never seen by the detector but planned around twice — a Hog Rider at [1, 14] is played purely to draw it ("I'm going to hog rider here just to force out a tornado. Just to get that off of the hand", t=724-729), and he keeps the Firecracker in hand as the answer to everything else: "We have the firecracker if he goes for anything other than NATO" (t=822-824).
+- clock 2:05: the general warning he gives about the matchup — "One thing he has to watch out is not deactivating his king tower as well. That's always something you got to be scared about whenever you have a tornado against a hog rider player" (t=729-738).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

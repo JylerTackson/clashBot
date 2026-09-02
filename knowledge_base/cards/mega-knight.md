@@ -209,6 +209,23 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=126-151 (clock unknown): the opponent's Mega Knight is tracked at (9, 4) and (8, 2) in Ryley's half while Ryley's own push is running; the trade costs the opponent his left tower (4858 -> 277) - 'we took out his entire tower and we activated our king all because he wanted to go aggressive and mega knight opposite lane of the Ronin' (t=146-151).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:42 (t=130.1, tile [8, 25]): the opponent's Mega Knight lands on their own half after Ryley's left-tower kill is already inevitable ("It's going to be completely tower down", clock 0:45) and never registers as a tower threat in the tracker. Not mentioned in the commentary.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:38 (seen in the opponent's hand before it is played): "he has a Mega Knight, but I'm not worried whatsoever", with the answer already fixed — "E-Barbs will still fully counter the Mega Knight just fine" (clock 2:25).
+- clock 1:40: the whole plan hangs on where it goes — "if he goes for Mega Knight in the back, then I can actually E-Barbs at the bridge since, you know, he won't have a good counter." Tracked crossing at (10, 7) at clock 1:05 and answered with 1-elixir cards.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 0:42 (t=1105-1113): the opponent's Mega Knight is the card his whole mid-game plan is built around baiting out — "just to force him to go for the mega knight, cuz if he mega knights the bridge, right, he's just not able to build up a big push, and if he's not able to build up a big push then I don't think he'll be able to break through".
+- clock 0:31-0:03 (t=1115, opponent elixir 10.0 -> 3.0, tile [13, 15]; again at t=1146): answered with cheap cards rather than a single counter — "Okay let's firecracker. We have to e-spirit and we have to go for the skellies plus ice golem here" (1115-1119s); at clock 2:05 he also blames it for a mediocre start: "Could have been a better start though if that mega knight didn't randomly decide to go demon mode".
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)

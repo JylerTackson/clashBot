@@ -463,6 +463,50 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - clock 1:37: notes the card is timing-critical — 'I wasn't able to get the E-Spirit at the perfect timing cuz of the Wi-Fi, but it's not that awful'.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:47 (t=126.6): a 1-elixir spirit sent at the bridge purely to finish a tower, not to defend — "Okay, let's E-Spirit at the bridge as well. I do want to make sure that I take out the entire tower." The enemy left tower reads 1116 -> 261 -> 213 in the next four seconds. (The HUD labelled this drop Ice Spirit; the commentary says E-Spirit, and Ice Spirit is not in this deck.)
+- clock 0:16 (t=157.2, tile [9, 15]) and clock 0:07 (t=165.3): two more 1-elixir drops at the river in the closing spam, unnarrated, while he sits at 1-2 elixir cycling in the opponent's half.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:33: played at (7, 11) specifically to force a Mega Knight jump before it lands — "then we can go for a nice E-Spirit to bait out that jump and then we won't really have to worry anymore." It did not work: "Oh, it didn't bait out the jump, man. That E-Spirit was trolling right there."
+- clock ~1:57: cheap front of a two-card defensive pair — "We can go for a little E-Spirit firecracker play" — with an explicit worry about latency on the timing: "Hopefully, I'm not lagging at all cuz if I'm lagging, maybe I won't be able to get it down in time."
+- clock 1:05: at (8, 10) into a Mega Knight crossing at (10, 7), first of an E-Spirit / Log / Skeletons chain on 1-2 elixir each — "We can go for the E-Spirit here. We can go for the log on the Goblin Gang, and then we can go for the skeletons. Nice. Let's go. What a good interaction."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 0:40: the standard cheap defensive pair, Electro Spirit plus Skeletons on top of whatever is left alive — "Let's E-Spirit skellies"; repeated at 0:27 ("Let's skellies here. Let's go for the E-Spirit here as well") and 1:11 overtime.
+- clock 1:05 overtime: his stated reason for keeping it in a Hog cycle deck facing log bait — "Nice full counter due to the e-spirit is just so good against the goblin barrel still, man" (Electro Spirit at [9, 5] plus Skeletons at [16, 5]).
+- clock 0:40 overtime: chains it with The Log on defence — "Let's go for the e-spirit log here again as well." It is the most-played card of the match (roughly a dozen deploys), always as the finisher on a defence rather than the opener.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:24: played to pull an Inferno Dragon off its target before the Hog goes in — label at [8, 0] with HUD -1: "I'm going to e-spirit on the left here just to distract that inferno dragon and then we can go for the hog rider here" (t=769-775).
+- clock 0:21: used to try to chain a king-tower activation, which fails on cycle speed — label at [8, 13]: "Let's go for the e-spirit here. We couldn't activate off of this one because he has too good of a cycle" (t=836-839).
+- OT 1:31-1:29: the cheapest layer of a stacked defence, labels at [3, 5] and [8, 8] alongside Skeletons and The Log — "Skellies up top then we have to go for the e-spirit as well and then we're going to have to go for a log too. Okay, good e-spirit though distracting everything" (t=884-890). Ten 1-elixir plays across the match.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:38-2:35 (t=987.2 HUD -1, t=992 tile [9, 14]): opened the game with it alongside Skeletons during the Baby Dragon kite that set up the king activation.
+- clock 1:33 and 1:07 (t=1054.1 [10, 14], t=1085.1 [10, 14]): his default pairing on defence, called as one unit — "we can go for the e-spirit plus skellies on defense again" (1055s) and "We go for the e-spirit skellies" (1083s).
+- clock 0:48 (t=1098.1, tile [13, 15]): counted as a reset tool against the Inferno Dragon / Bandit push — "E-spirit two to reset, we have skellies ready to block his bandit or flying machine".
+- overtime clock ~1:32 (t=1169.2, tile [11, 14]): the chain matters against the opponent's clumped air spam — "That's going to chain. Nice, beautiful" (1177s).
+- clock 0:51 and overtime clock 1:33-1:30 (t=1095.9, 1174.3, 1177.2): three 1-elixir drops the HUD mis-read as "Ice Spirit" (not a card in this deck); the t=1174.3 one carries a partial 'SpiRit' deploy label at tile [13, 14] supporting the second Hog push — "That's going to chain. Nice, beautiful" (1177s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 1:30: placement lesson against Evo Elite Barbarians - "I'm going to E-Spirit close so we don't get hit with the spear" (Electro Spirit at (7, 13)); the spear still landed: "Oh my god, we did anyways."
+- clock 0:54: Electro Spirit at (12, 14) off to the side to finish the opponent's Hero Berserker - "Let's E-Spirit here off to the side. Okay, nice. We're going to take out the Berserker. Firecracker live."
+- clock 2:02: Electro Spirit at (8, 14) as the last 1-elixir chip on a Battle Healer push already kited by Skeletons - "Let's go for the Firecracker and then we can go for the E-Spirit."
+- clock 0:28: Electro Spirit into a late Mother Witch that he calls a mistake by the opponent - "bad Mother Witch as well. That Mother Witch is going to get completely taken out."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

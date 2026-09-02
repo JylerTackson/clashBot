@@ -436,6 +436,48 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=880s: reacted to earlier with "interesting log" as he immediately split Wall Breakers into the other lane.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 0:51 (t=121.1, tile [6, 13]): cast on the opponent's Tombstone skeletons — "Okay, I'm going to go for the Log here as well just make sure that we take out that Tombstone." He confirms the value at clock 0:13: "it took out the entire Tombstone. Nice."
+- clock 1:52 and 1:46 (t=61.4 tile [5, 13], t=68.2): two Logs inside the defensive sequence against a Phoenix push, and an attempted king activation that missed — "Oh, I tried to grab the king activation there. Unfortunate. All good, though."
+- clock 0:24 (t=149.0, tile [3, 19]) and clock 0:12 (t=160.2, tile [13, 13]): Logs cast INSIDE the opponent's half, which is only legal because their left tower had fallen at clock 0:45 — "Let's Log here."
+- clock 2:40 (t=13.0, tile [3, 15]): opening Log at the left river, unnarrated; five casts total in the game, all on ground swarm or as a lane opener.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:14: The Log on the opponent's Evo Wall Breakers — "Let's log here for the wall breakers and we get nice skeletons down."
+- clock 1:38 and 1:05: The Log kept for the Goblin Gang once he confirms the opponent has it — "We can go for the log on the Goblin Gang, and then we can go for the skeletons."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.2.md):
+- clock 0:42: pre-Logs the centre before the swarm lands — "I'm going to pre-log down the middle for the Goblin Gang" — and immediately admits it was read: "Oh, no. That was well played by him."
+- clock 0:07: Logs again at [14, 10] into the opponent's own pre-Log — "we're going to have to log here as well... pre-log by him."
+- clock 0:48 overtime: shows the discipline side, holding The Log with it in hand rather than spending it on the first target — "I'm not even going to log here. I'm just going to wait."
+- clock 0:28 overtime: the game-closing pre-Log — "Let's pre-log for the goblin gang and it is going to be good game. Very nice win."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 0:37: his only spell, and he treats every cast as forced rather than planned — HUD -2 plus deploy label 'THe Log' at [3, 15] on the river, then "Then we're going to have to go for the log here" (t=852-853) and "then we're going to have to go for a log too" (t=886-887, label at [3, 6]).
+- OT 0:54-0:27: cycled four times in 35 seconds (t=922.3, 927.4, 934.9, 949.1, all HUD -2) against Graveyard skeletons, a three-Zappy column and the Golden Knight — the cheap-spell tax of running a 2.5-elixir Hog list into a control deck.
+- OT 0:23: label at [4, 14] as part of the pre-winning-push clear alongside Skeletons and Electro Spirit (t=953.0).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 2:07 (t=1019, tile [14, 15]): follow-up to a Skeletons block, pre-called — "Skellies here and then we can go for the log as well".
+- clock 1:07 (t=1081, tile [14, 14]): rolled onto a spear goblin 2.3s from his right tower, then straight into the cycle pair — "Let's log here. We go for the e-spirit skellies".
+- overtime clock ~1:49 (t=1163.2, tile [14, 14]): played before the defence arrived rather than in reaction — "I'm going to pre-log as well cuz he's either going to Goblins or Mega Knight, but regardless that will ensure us to grab a shot unless he overspends".
+- overtime clock 1:10 (t=1195.2, tile [14, 15]): the finisher, clearing Goblins off the Hog — "I'm just going to log here for the Goblins"; enemy right tower 1054 -> 547 HP and "Good game. Beautiful win" (1201s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.md):
+- clock 0:42: a 2-elixir drop with no readable hand change alongside a Firecracker at (9, 8), matching his call "Firecracker log here. We have to just make sure that we defend" - the only Log usage visible in the readable window.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

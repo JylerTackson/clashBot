@@ -109,6 +109,13 @@ Uses the Inferno Tower's beam instead of its default attack.
 - Interchangeable with Skeleton Dragons depending on whether you want single-target or area damage; both have similar hitpoints, survive weak spells and die to Fireball, and they can bait for each other in the same deck.
 - Party modifiers: Bada Bing, Bada Boom! (+100% hit speed), Paragob Pursuit (spawns a Goblin when attacking), Beam Me Up, Barb (Inferno Tower beam attack).
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.md):
+- clock 1:02-0:07 (t=1085.1, 1119.1, 1131.1): part of the air spam that chips his right tower from 4744 to 2562 HP; he names it as a Skeletons/E-spirit target at 0:47 ("skellies ready to block his bandit or flying machine actually") and sums the matchup up as "Pretty hard to defend against a bunch of air cards perfectly whenever I only have a firecracker for defense" (1134-1139s).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Flying_Machine (scraped 2026-09-02T02:34:54+00:00)

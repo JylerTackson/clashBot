@@ -425,6 +425,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1393.4s at [2, 15] sequenced against the opponent's spell budget - "quickly evil [Evo] wall breakers cuz if he fireballs then he can't afford defense to the wall breakers" (1392-1396s); the Fireball did clip them: "Oh, no, it clipped them. That's unlucky" (1396-1398s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.md):
+- clock 2:14: opponent Evo Wall Breakers answered on reflex with The Log — "Let's log here for the wall breakers." Detected again at (3, 4) on his half at clock ~0:55.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)
