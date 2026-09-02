@@ -136,6 +136,17 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
 - t=1074-1088 (clock unreadable): bridge Golden Knight the moment the opponent spends Arrows and runs out of ground cards, then the dash into the enemy Dark Prince finishes the tower — "So I popped the ability here to go into the dark prince ... Golden Knight goes right back. And I take out the entire tower." (tracker follows him from [3,19] to [6,27] between t=1080 and t=1086)
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. Deployed at clock 1:11 (t=102.1, tracked [1, 21] -> [3, 16] in the left lane); Ryley answers it with Fireball at [3, 19] then Evolution Zap on the same tile (t=105-107).
+- It changes his Rune Giant placement: "we can go for the Rune Giant off to the side cuz he might try to get a Golden Knight ability" (t=132-133) — keeping the push out of the dash chain.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 2:00-1:23 (t=566-600.6): the Golden Knight leads the push that takes Ryley's right tower from full to ~1228 HP; he answers with Zap at [14, 17] ("I guess I'll Zap on defense here") and then the Fireball he did not want to spend ("I just don't want to lose my whole tower").
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

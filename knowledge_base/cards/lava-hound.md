@@ -190,6 +190,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:07 (t=620-623): against the Hound's swipe he prefers kiting to blocking — "I still think I need to kite this away to be honest cuz I don't want to take the swipe on the tower".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:36-2:02: read from the Tombstone before it ever appears, and it dictates his opening — "it looks like he has Lava Hound, and I typically want to wait for them to go for their Lava Hound" (305-309s); a back-line tank into it is a wasted card, "he can just Lava into it, and then he can just easily like defend from there" (324-330s).
+- clock 0:28-0:03: the actual Lava Hound push arrives at (4, 13) with Balloon and pups and takes his left tower 4781 -> 2115; he answers with Berserker, Heal Spirit, Fireball, Minions and Mother Witch rather than a big body, having already noted the support was spent — "if he goes for the Lava, he has no support cards for it, only a Balloon" (432-435s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

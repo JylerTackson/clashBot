@@ -175,6 +175,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2441 (clock unreadable): Ryley's closing Fireball at [15, 27] lands on them — "I went for the ability and the fireball on the skelly drags" (t=2443).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:18 onward: the opponent's Skeleton Dragons are his cycle clock for committing a Rune Giant — "he doesn't have the Skelly Dragons in cycle either" (353-355s) is one of the two conditions for the back-line Rune Giant at clock 1:51, and "He has the Skelly Dragons" (393s) is the caveat on the left-lane Elite Barbarians push.
+- clock 0:31 and OT 1:44-1:38: forcing them out is treated as stripping the Lava Hound of support — "He has to get Skelly Dragons down. That's good cuz now if he goes for the Lava, he has no support cards for it, only a Balloon" (430-435s); in overtime they come down his left lane and he answers with Fireball at (3, 14) plus Minions and Heal Spirit (484-490s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

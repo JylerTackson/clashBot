@@ -193,6 +193,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
 - Baits it out with a bridge Mighty Miner - "I mighty mined the bridge knowing he had to go for the magic cartridge" (1307-1309s) - and finally kills it with Evo Cannon plus The Log: "I went for the evo cannon as well, just to take out that magic archer with the help of a log" (1341-1345s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Mentioned only, in the same thought about when middle Mortar placement is correct — "I know a Magic Archer sometimes down the middle can be better, but I'm surprised that he did it without knowing my deck yet" (t=1259-1264).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

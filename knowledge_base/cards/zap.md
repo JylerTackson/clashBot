@@ -211,6 +211,60 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:18 (t=670-672): he accepts it on his evolved Dart Goblin as the price of chipping — "let's just go for the Dark Goblin Evo here. Chip this down. He's going to go for the Evo Zap, which is fine".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- clock 2:04 (t=50.1): Zap at [2, 11] to finish the Skeleton Barrel his Mother Witch was holding — "we can go for the Zap as well. I'll just make sure that we take out that Skeleton Barrel. Very nice defense" (t=50-53).
+- clock 1:08 (t=107.4): Evolution Zap at [3, 19], stacked onto the same tile as his Fireball two seconds earlier, against the Golden Knight push. He explicitly holds the Evolution cycle first: "I'm not going to Evo Zap just yet. Okay, let's Evo Zap now. Nice. Come on, take this out. Beautiful right there. Take just taking out everything" (t=105-112).
+- clock 0:29 (t=146.1) at [3, 14] during the final push — "we can go for the Zap here, guys. And look at this. Oh my god" (t=146-148).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:02: Zap at (1, 18), on the opponent's half over the Elite Barbarians that had just crossed — but he names its job before the push even goes down: "We have Zap in case he has a Skeleton Army. Yep, let's just go for the Zap here." It is held as push insurance, not spent on defence.
+- clock 1:18: calls a second one alongside the Berserker — "Let's Evo Zap this as well" — so he is on the Evolved version; the cast itself is not separable from the 2-elixir drop at clock 1:09.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:50: his stated default opener with this deck, Zap straight onto the enemy left tower at tile (3, 25) for 77 HP — "My favorite play with this deck is just zapping the tower first play. I feel like there's no risk to it, and you're also just getting to your Evo right away, which will help you kill combos, you know, like Archer Queen and stuff like that that you're not normally able to kill" (289-300s).
+- clock 1:55 and OT 1:51 / 1:27: three more tower Zaps at (14, 26), (2, 22) and (4, 23); in overtime the chip is the explicit win plan — "we just need two Zaps and a Fireball just to finish off this game. Let's Zap here as well. We need one more Zap and a Fireball, guys" (491-497s). The enemy left tower goes 400 -> 323 on the OT 1:27 Zap.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- Evolution card, and the one he cycles for: overtime 1:04 (t=742-744) he casts a Zap he says he does not need - "Actually, we don't need to We don't even need to Zap, but I guess I'll Zap just to keep the HP in cycle to the Evo."
+- clock 1:59 (t=566.1): Zap at [14, 17] on defence against the Golden Knight push - "Okay, I guess I'll Zap on defense here."
+- clock 0:21 (t=660.7): Zap at [14, 10] as the front half of his signature combo - "Let's Zap Evo E-Barbs."
+- overtime 0:28 (t=776-778): deliberately holds the Evo Zap for the opponent's Vines - "we need to Evo Zap cuz he's going to Vines isn't he? Okay, let's Evo Zap here." He also spends one at [10, 28] on the opponent's side at t=761.8: "Zap this. Nice damage."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 1:53: Evo Zap thrown deep on the opponent's half at (3, 26); the enemy left tower reads 3426->3349 — "Let's just zap here."
+- clock 0:22: the tower finisher at (14, 23), timed off the enemy tower troop's reload — "Evo zap here as well cuz the dagger doesn't have ammo. Nice! That's tower down" (enemy right tower 1557->1480->177).
+- clock 0:03: last-second Zap (HUD-exact, elixir 3->1) onto the opponent's closing Prince and Rage push.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:07: a defensive Zap in front of his own push that decided a duel — "Wait, zap here. Take this out. Yo, nice! That is huge."
+- clock 1:23: Zap at tile [14, 20] onto the defending Minion Horde, knowingly not a kill — "I know it's not going to completely take it out, but it's going to get us so much damage to the point where it doesn't really matter." The enemy right tower fell 4168 -> 2007 -> 798 in the next four seconds: "Oh my god, it took the whole tower."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:47: Evolved Zap opened the game as pure chip on the enemy left tower at tile [3, 26], 4858 -> 4781 — "We'll just start off with the zap here."
+- clock 1:39-1:28: held deliberately as the dedicated Evolved Firecracker answer — "We do have the Evo Zap too though, which is nice", "Happy to have the Evo Zap here", "then we have the Evo Zap for the Firecracker."
+- clock 1:27: fired at tile [2, 24] into the opponent's Skeletons and Firecracker, which is the play that finished off the cursed Skeletons and produced the three Cursed Hogs — "Yo, let's Evo Zap here. Nice, yo."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Run as the Evolution. clock 1:57 (t=1295.3): Zap at [3, 23] deep on the enemy half to finish something already damaged — "We can Zap here as well just to take this out immediately" (t=1296-1297).
+- clock 0:52 (t=1359.4): Evo Zap at [2, 18], directly on the opponent's Mortar at [2, 17], behind a Berserker whose ability is already active — "Take this out, please, and we can Evo Zap here as well. Nice. Let's go" (t=1358-1360).
+- clock 0:27 (t~1386): Zap chained onto the Fireball on the opponent's Witch — "Okay, wait. I can fireball this. Zap as well." He repeats the pairing in overtime at 0:57 ("Evo zap here", t=1475).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

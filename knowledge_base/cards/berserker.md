@@ -431,6 +431,68 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:44-0:38 (t=1264-1270.3): paired with the Dart Goblin to start the closing push and then tracked at [8, 20] on the opponent's half — "Let's go for the dark goblin one berserker". The Hero form (Savage Survival, 3 elixir) is possible for this deck but no 3-elixir drop with an unchanged hand appears in the readable window and he never mentions the ability.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Confirmed as the Hero variant on camera at t=35-37: "it just pairs up so nicely with the Hero Berserker. As you see right there, right? That's the Hero Berserker normally" — so Savage Survival (3 elixir) is available all game (heroes/berserker-hero.md).
+- Most-played card of the match, defensive first: [3, 9] at clock 2:36 (elixir 7.0 -> 5.0), [3, 8] at 1:57 ("we can get back to the Berserker to defend that bush", t=59), [4, 14] at 0:39 ("let's go for the Berserker here just to keep this alive and be really, really annoying", t=136).
+- clock 1:53 (t=62.1): pops Savage Survival on defence, not offence, into a stacked Battle Healer / Goblin / Spear Goblin wave — "Let's pop the ability here. This is where the Berserker just comes in so nicely. He even went for the Vines, but because we had the ability, we still cleared out everything. Very very good defense right there" (t=62-70). His own caveat at t=71-79: "That could have went very wrong if he either Vines earlier or if he just spammed that after the Berserker just got taken out."
+- Only sent to the bridge once he has a Rune Giant behind: [3, 13] at clock 1:02 ("Let's go for the Berserker at the bridge, too", t=114) and [5, 20] on the opponent's half at 0:21 during the closing push.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:32: pays the Hero's 3-elixir Savage Survival (own elixir 9 -> 6 with no hand change) purely to delete a Skeleton King that had just crossed at (1, 18) — "Let's pop the ability just to make sure that we take out that Skeleton King. Just want to get that thing off the board."
+- clock 2:27 (ability running): the general claim he makes for the Hero variant — "It's just so crazy how good the Hero Berserker is against just like any singular unit. You're able to just basically take every single singular unit out off the board just so fast. Kind of ridiculous."
+- clock 2:37: plain 2-elixir deploy at (4, 13), left lane on his own half, at 10 elixir (deploy label; the HUD misread this as Barbarian Barrel).
+- clock 1:18: Berserker at (3, 15), on the river in the left lane, at 4 elixir — the winning card, with the enemy left tower falling 3470 -> 1163 in the next six seconds. "Okay, let's go for the Berserker. Let's Evo Zap this as well. Just keep this alive."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:45 and 1:17: 2-elixir back-line cycle placements at (3, 12) and (9, 0) after explicitly rejecting the bridge option — "Can I Berserker the bridge? Okay, I'll just Berserker in the back here. We have the Evo E-Barbs and we can go for a Rune Giant as well" (381-387s).
+- clock 0:47 and OT 1:59: bridge Berserkers at (3, 15) in the attacking lane, both times alongside a Rune Giant — "Okay, let's go for the Berserker at the bridge, too" (413-414s); "Let's go for the Berserker as well" (463s).
+- clock 0:19 and OT 1:19: defensive/cycle body at (1, 7) under the Lava Hound push and at (8, 10) in the closing overtime rotation — "I needed to go for the Berserker. Let's just do our quickest cycle possible" (501-503s). No hero ability is named anywhere in this game; he is played as the normal card.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- Hero variant, confirmed by commentary: clock 2:13 (t=552.1) Berserker at his own back line [9, 0], elixir 9 -> 7 - "Let's go for the Berserker here in the back. We have the ability to keep it alive." Savage Survival then shows up as 3-elixir drops with no hand change at t=560.7 and t=630.8.
+- He fires the ability purely to keep her alive, four times across the game - "Let's ability now just to keep this alive" (clock 2:04), "let's go for the ability here and then we can go for the Fireball as well" (clock 0:57), "I'm going to ability cuz he's going to [n]ado. Nice, good ability there. That's going to keep this alive" (overtime 0:48), "Let's pop the ability as well. Keep this alive. Good ability" (overtime 0:37).
+- overtime 1:33 (t=712.7): plays her at [13, 12] specifically to pull an enemy unit off its target - "Wait, could I Berserker here to retarget? Oh my god, beautiful retarget."
+- overtime 1:17 (t=728.7): sends her at [13, 19] to kill the opponent's Evolved Wizard - "Berserker on the King. I have to take this Wizard out, dude. I have to."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 2:25: played in front of the opening Rune Giant push at (4, 14), explicitly as an ability threat he did not intend to spend — "we can go for the Berserker in front as well just to try to get the ability if we need it. I don't think we're going to need it actually." (Hero variant, Savage Survival, 3 elixir.)
+- clock 1:19: as the defensive answer to the opponent's Giant push at (5, 12) — "Okay, we're going to have to Berserker here."
+- clock 0:43-0:42: the only Savage Survival of the game — Berserker at (9, 9) (HUD-exact, elixir 9->7, deploy label score 1.0) followed 1.6 s later by a 3-elixir own drop with no hand change — "Okay, let's go for the berserker and then we can go for the ability as well."
+- clock 0:17: cheap defensive filler at (3, 10) in the closing stand after the enemy tower was already down — "I just got completely slammed. Let's berserker here."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:44: opened the game with Berserker at tile [8, 0] in the back, before knowing the opponent's deck — "We'll just go for the berserker here in the back."
+- clock 1:52: Berserker at tile [3, 15], the left-lane bridge, as the escort for the Elite Barbarians push — "Let's just go for the berserker at the bridge here… That Berserker's going to tank for the one minion and then we can pop the ability if need be, but they should just be tower down anyways."
+- Hero variant confirmed: he holds Savage Survival all game because the push is already winning, and only fires it at clock 0:53 as a flourish — "Okay, let's just go for the ability here and that is good game."
+- clock 0:59: third Berserker at [4, 19], deployed inside the opponent's half during the final spam once their left tower was down.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:35: Hero Berserker at tile [7, 8] mid-field, paired with a Heal Spirit, while letting the Evolved Firecracker connect for King activation — "Yeah, let's go for the Berserker here. If we activate king, okay, we're in a really good spot now."
+- clock 2:04: replayed at tile [4, 14] just behind the bridge against the returning Firecracker; he immediately flags the unused 3-elixir Savage Survival ability as the better line — "maybe the Berserker ability there could have been good cuz it would have distracted the Mighty Miner really, really well."
+- clock 1:16: used as a cheap bridge tank in front of the enchanted Mother Witch during the winning push — "It's Berserker the bridge to tank for our Mother Witch."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Played as the Hero variant all game and the ability is narrated every time. clock 1:01 (t=1352.4): Berserker at the left bridge [2, 15], then Savage Survival popped so she survives the trade — "Let's pop the ability just to keep this alive so we can take out that mortar. Come on. Take this out, please, and we can Evo Zap here as well" (t=1354-1360), which he then calls "Great defense" (t=1364).
+- clock 1:29 (t=1324.3): Berserker at [10, 9] behind the fresh Rune Giant, and he weighs the ability against spending 6 on Elite Barbarians — "even better, I could probably just Berserker push this ability" (t=1323-1324).
+- clock 0:23 (t=1389.2): Berserker at [12, 14] at the right bridge with the same follow-up planned — "Let's berserker at the bridge here too, then we can pop the ability."
+- overtime 1:10-1:03 (t=1464-1471): Berserkers at the tower with the ability held until it charges — "Berserkers on the tower. Can we get the ability, please? Please. Ability. Nice... Oh my god, we got the ability. That's huge"; the enemy left tower goes 2003 -> 1351 across that window and falls shortly after.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

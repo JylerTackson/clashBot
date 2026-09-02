@@ -179,6 +179,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:27: he hopes the Savage Survival burst catches the Wizard as well as the tower — "That might even take out the wizard if we're lucky" (430s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 1:18 (t=607-609): he counts forcing out the opponent's Evolved Wizard as value from his Rune Giant / Evo E-Barbs push - "Look at that damage, guys. And we forced out the Evo Wizard."
+- overtime 1:55 and 1:17 (t=691, t=729-731): the Wizard becomes the card he must remove to survive - "that was a good uh Wizard though" and "Berserker on the King. I have to take this Wizard out, dude. I have to."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

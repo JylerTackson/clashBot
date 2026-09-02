@@ -156,6 +156,11 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
 - his general read on the card (t=886-889s): "Evo Ebarbs after just trying to defend a whole golem push can be so devastating" — the reason he is happy the opponent spent Elite Barbarians on defence.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:58: named only as a read, not seen — after the Inferno Dragon appears he calls the opponent's list "the Golem E-Barbs deck."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

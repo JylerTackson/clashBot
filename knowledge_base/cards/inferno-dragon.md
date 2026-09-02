@@ -171,6 +171,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
 - opponent's card, tracked at [16, 24] (t=368.4s) and again at [11, 26] (t=432.4s); both times Ryley answered with a centre-placed Dart Goblin on his own half (t=369.2s [9, 0], t=438s) — "I'll dart goblin into the Inferno Dragon as well" (t=370s), "Let's Darth Goblin here. Yep, I literally knew it" (t=438s).
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:55 (opponent): tracked at (5, 22) and used by Ryley as the tell for the whole archetype — "He has an Inferno Dragon, as well. Yo, this could be the Golem E-Barbs deck."
+- clock 1:52 (opponent): the threat line reads "inferno-dragon(e) advancing left lane, tower in 7.9s"; a second one comes down the right lane at clock 1:26.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

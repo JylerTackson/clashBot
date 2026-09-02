@@ -141,6 +141,24 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - In this Giant/Sparky/E-Barbs list the Giant is support for the Elite Barbarians, not the win condition: four plays (t=776.1, 814.3, 824.5, 871.9) and only 4 commentary mentions against 13 for the Elite Barbarians.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. Deploy-label confirmed at clock 0:44 (t=131.1, level 16). Ryley never comments on it; his standing answer through that window is Berserker plus Mother Witch on the left lane.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- overtime 1:50 and 1:11 (t=696, t=734): the opponent's Giant is the three-crown threat he cannot answer and the reason he calls the game lost - "how are we going to stop getting three crown when he goes giant?" and "Nah, okay. We lost. He's just going to go Giant Vines on the King Tower, and we're just completely cooked." (Commentary only - no Giant was detected on the field.)
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 2:37: the opponent's Giant lands at (1, 12) and Ryley had already called it from the tower troop alone — "this guy has Dagger Duchess and Bomber ... Probably going to be Giant, I guess. Not really many other decks play with the Dagger Duchess."
+- clock ~2:03: describes the whole plan of a Giant beatdown deck and how to beat it — "He wants to go Giant whenever you play a card and just completely take it out. But if we can win the bridge battle like that, it's usually going to reward us pretty nicely."
+- clock 0:15: reads the opponent's Hero Giant ability as an elixir trap and refuses it — "He's going to go for the giant ability, but because he goes for the ability, then we can just go for the E-Barbs. He was hoping that we would ability so then we wouldn't have any elixir for defense."
+- clock 0:03: grades the opponent's last Giant as a cycle mistake, not a placement one — "I knew that he went for a bad giant cuz he didn't have his dark prince back in cycle yet and that's like his main defense."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant (scraped 2026-09-02T02:34:51+00:00)

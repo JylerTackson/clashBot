@@ -142,6 +142,16 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:15 and 0:42 (t=912.1 [8, 23], t=943.9 [9, 23]): both overtime Rages go on top of a pocket push that is already connecting — "We have the Rage ready. Yep, let's Rage here" and "Let's just rage this all up guys".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:34 (opponent): a missed Rage on the Elixir Golem push is what Ryley says decided the game — "how did he miss his rage? There's a lot of questions here for this guy, man" (clock 1:34), and again at clock 1:08, "I think this guy's going to get three-crowned just cuz he missed a rage."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- overtime 1:13 (t=1457.5): a Rage tracked at [11, 12] on the opponent's overtime push (arena detection, medium confidence, not named in commentary).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

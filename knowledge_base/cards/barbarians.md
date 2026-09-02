@@ -148,6 +148,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 1:54 (t=1049): lands at [3, 14] on Ryley's own half behind a Miner; The Log at 2:00 and the Bomb Tower handle the group.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 2:31-2:14 (t=1259.3 at [13, 13], t=1278.3 at [3, 14]): the opponent's Barbarians walk into his lanes while his Rune Giant push is building; he accepts the tower damage rather than spending on them — "I know this is going to get a little bit of damage, but it's fine. I just want to get as many piggies as possible" (t=1268-1272) — and the Mother Witch converts the deaths.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

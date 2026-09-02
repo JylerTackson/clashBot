@@ -315,6 +315,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:05 (t≈1244): his named answer to the opponent's Bats while the Dart Goblin was busy on the Royal Giant — "Let's e-spirit for the bats. Come on. Nice. It's really good, actually" (1244-1246). The deploy label at [3, 14] was attributed to the opponent by the pipeline; the commentary makes it Ryley's.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- overtime 1:19 (t=1451.5) at [13, 13]: part of the opponent's Elite Barbarians / Witch / Electro Spirit overtime push that Ryley answers with Mother Witch plus Heal Spirit — "He goes for the minions, we have heal spirit" (t=1450-1452).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

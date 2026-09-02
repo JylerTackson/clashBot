@@ -207,6 +207,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:10: rather than answer the Bowler with his building he lets it hit the tower and keeps the Cannon for the Skeleton Barrel — "I'd rather just take the Bowler shot" (275-277s), and instead chips it with the Dart Goblin: "We can get some good damage on that Bowler hopefully ... Come on, hit the Bowler. Nice" (254-261s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Mentioned only, never played: named alongside Goblin Drill as the deck he expected this opponent to bring (t=1241-1243).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

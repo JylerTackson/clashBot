@@ -125,6 +125,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 1436-1440s: mentioned only in this game (the two 'SpearGoblins' deploy labels at t=1437.6/1440.6 coincide exactly with the commentary and are treated as suspect). "They're also buffing the spear goblins by 6%. They're making it hit quicker."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. Cycled repeatedly (clock 0:51, 0:37, 0:19 plus a large tracked cluster around rows 18-22 from t=122 on) and it is what makes his Mother Witch so valuable — "look at that Mother Witch, guys. It's still alive. Very good value right there" (t=122-126).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

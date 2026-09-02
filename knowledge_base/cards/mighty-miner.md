@@ -155,6 +155,13 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
 - t=1119.1: an early 4-elixir drop at (15, 17) at the river, with ally Mighty Miner units then tracked advancing into the opponent's half at (13, 18) and (13, 20).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:27 (opponent card): Ryley never blocks it defensively — the moment it is spent he counter-pushes the opposite way, "he cycled his Mighty Miner" being his stated trigger for Elite Barbarians at the bridge.
+- clock 1:39 (opponent card): he says the matchup suits him despite having no clean answer — "We don't really have a good card to cycle into the Mighty Miner in the back. Mighty Miners are really, really good for me." It still took two 507-HP bites out of his left tower around clock 2:16-2:14.
+- clock 2:02 (opponent card): he names Berserker's Savage Survival ability as the distraction he should have used against it — "it would have distracted the Mighty Miner really, really well."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

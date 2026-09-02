@@ -193,6 +193,18 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - Mentioned, not played. His pre-match read of the ladder meta at 173-180s: "This guy's going to probably be playing mortar bait. I feel like there's just so much mortar bait going around recently that it's just hard to assume that he would be playing anything else." The opponent turned out to be an off-meta Royal Recruits/Bowler deck, and he corrects himself at 182s.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:35, mentioned before it appeared: "I think this guy usually plays with mortar… he had like this mortar ice wizard cannon cart deck, maybe." An enemy Mortar finally shows at (15, 17) at clock 1:25, by which point the enemy left tower was already at 378 — Ryley never had to answer it.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 2:45 (t=1245.2): the opponent's opening Mortar lands centre-river at tile [8, 16] and Ryley criticises it as a blind first play — "Down the middle first play is interesting. I'm kind of surprised by that. I know in some match ups it's better like maybe against a Baby Dragon deck or if you're against like... a Magic Archer sometimes down the middle can be better, but I'm surprised that he did it without knowing my deck yet" (t=1250-1264).
+- clock 0:55 (t=1355.4) at [2, 17]: he answers a lane Mortar with a bridge Berserker plus her ability plus Evo Zap rather than a spell — "Let's pop the ability just to keep this alive so we can take out that mortar" (t=1354-1357).
+- overtime 1:33 (t=1437.4) at [13, 17]: "That was a bad mortar though. We can minions here" (t=1435-1436) — a mistimed siege placement he punishes with Minions and Mother Witch.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

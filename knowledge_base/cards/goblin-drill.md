@@ -145,6 +145,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
 - t≈1882-1894 (clock unreadable): the drill is the reason Ryley stops hunting a three-crown with a Lava Hound deck — "even though lava does counter drill, no air defense really hard, I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that. So there was a real possibility that I could choke the game if I wasn't careful."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Mentioned only, never played by either side: his pre-game read on the opponent at t=1241-1243 — "against Marsh. This guy usually uses Goblin Drill Bowler. This is going to be an interesting match" — a read the actual Mortar siege list then contradicts.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

@@ -392,6 +392,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:37 (t=1273.3): at [8, 21] on the opponent's half as part of the closing push on the right tower.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 1:26 (opponent card, Evolved): the opponent's losing play in Ryley's telling — cursed by Mother Witch and converted into three Cursed Hogs, "That was a bad set of skellies as well. He just gave us three piggies" and "he just did one tiny mistake with his skeletons and just got completely punished for it."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

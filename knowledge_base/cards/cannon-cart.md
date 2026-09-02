@@ -112,6 +112,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - clock 0:48-0:40: sent down the left lane at [7, 20] as the opponent's counter to a Minion Giant push; Ryley funds the Monk ability and a Fireball to remove it — "Let's go for the ability here as well just to make sure that we can help take out this cannon cart and then he's going to have to go for his mortar here. Otherwise, it's a lot of damage. Let's fireball this as well. That's going to take it all out."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 0:47: the card he plays around before it appears — "I'm going to Rune Giant opposite cuz he might Cannon Cart the left side, so I want to go opposite lane" (t=1364-1368).
+- clock 0:19 (t=1391.4): Cannon Cart at [9, 16] plus a lane Mortar is what flips the game; his own right tower falls 4858 -> 2959 in the next twenty seconds and he calls it "GG's" (t=1394-1402).
+- overtime 1:27 (t~1445): a misplayed one is the opening he needed — "Bad cannon cart too. Very bad cannon cart. Let's go for the mother witch here at the bridge" (t=1445-1447).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

@@ -315,6 +315,11 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
 - clock 0:29 and overtime 1:58: he predicts it as the forced answer to his bridge Elite Barbarians ("He has to go for a barb barrel", t=746s) and times his own Dart Goblin replacement after it ("go for the dark goblin after he barb barrels", t=777s).
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 1:49 (opponent card, mentioned not faced on camera): named as the harder small-spell matchup for his ground troops — "Barb Barrel is a bit more annoying than Log though cuz he just does get that extra ground troop."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

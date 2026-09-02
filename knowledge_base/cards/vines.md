@@ -138,6 +138,20 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
 - t=1043-1049 (clock unreadable): faced on defence against his Golden Knight/Mother Witch push and credited to the opponent — "look at that vines hitting everything except the tower. I thought the mother witch was going to be the one card up. So, that was a little bit unfortunate, but also well played by him kind of keeping the vine."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. Named three times and treated as the main threat to his defence: "He even went for the Vines, but because we had the ability, we still cleared out everything" (t=65-68), and the counterfactual "That could have went very wrong if he either Vines earlier or if he just spammed that after the Berserker just got taken out" (t=71-79).
+- clock 1:47 (t=66.1): the pipeline logs an opponent play at [10, 0] as an unrecognised unit ("weights predate this card?"), which the commentary at t=65 identifies as this card.
+- He also plans around it in advance at t=117: "he's probably going to have to go for the Vines plus Goblin Gang."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 0:52 (t=634-636): knowing the opponent runs Vines tells him which of his own cards are safe - "He has the Vines, so you don't really have to worry about him going for like Arrows or something like that."
+- overtime 0:28 (t=776-778): he holds the Evolved Zap specifically for it - "we need to Evo Zap cuz he's going to Vines isn't he? Okay, let's Evo Zap here."
+- overtime 1:11 (t=734): Giant + Vines on the King Tower is the loss condition he names - "He's just going to go Giant Vines on the King Tower, and we're just completely cooked."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

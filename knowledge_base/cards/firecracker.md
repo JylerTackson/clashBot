@@ -169,6 +169,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - He explicitly prefers facing it over Princess — "I really am hoping he has firecracker not princess, cuz princess is super good against my deck... Firecracker is not bad, but I feel like princess is more annoying cuz it doesn't activate the king like the firecracker does" (912-924s), and confirms it at clock 1:37: "thankfully he has the firecracker not the princess. I am very happy about that" (946-949s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:39 (opponent card, Evolved): let through on purpose on the first cycle instead of spending Fireball, to activate his King Tower — the King reads active at clock 2:31.
+- clock 1:34 (opponent card): predicted and pre-answered with Evolved Zap — "He might go for an Evo Firecracker" and "we have the Evo Zap for the Firecracker."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

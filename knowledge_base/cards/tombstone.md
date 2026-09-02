@@ -216,6 +216,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:20: with both his towers under 1000 HP the opponent puts a Tombstone at his own back line, which Ryley reads as the opponent having lost track of the game — "Why is he putting his Tombstone down there? What the hell?" (320-322s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:36: the opponent's Tombstone at (8, 19) is the card that tells Ryley the whole deck — "Okay, he has a Tombstone" (302s), immediately followed by "it looks like he has Lava Hound" (305s).
+- clock 1:26-1:23: he values killing/forcing it by what it will not be available for — "Forcing out the Tombstone is very good as well cuz if if we can kill it, then he won't have the Tombstone for the E-Barbs" (372-377s), and later times a bridge Rune Giant to its absence: "Let's Rune Giant the bridge again, though, cuz he has no Tombstone" (423-425s). His stated answer to it is Mother Witch (341-348s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

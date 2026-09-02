@@ -154,6 +154,12 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Faced, not played: deployed by the opponent at clock 2:07 at tile (5, 27) and again at clock 0:44 at (1, 24), each time paired with a P.E.K.K.A. behind it. Ryley's answers are Royal Delivery and Tornado at clock 1:36 and the full Magic Archer/Archers/Royal Delivery/Tornado stack at clock 0:45-0:40.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 1:48-1:46 (t=578-583): the card that surprises him - "I didn't know that he had a Mini P.E.K.K.A. to be fair. It's all good. I guess I'll just go for the E-Barbs here on top of the Mini P.E.K.K.A." (Elite Barbarians at [11, 4]).
+- clock 0:42-0:38 (t=644-646): second answer is the cheap pair rather than the tank - "Let's go for the Heal Spirit here. Nice, we blocked the Mini P.E.K.K.A. Let's go for the Berserker as well."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A. (scraped 2026-09-02T02:34:51+00:00)

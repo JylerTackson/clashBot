@@ -136,6 +136,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 1380-1400s: mentioned only (not played). On the Evolved Minion Horde — "The hit speed slow down is now going from 50% to 33%... whenever the Evo minion horde gets damaged out to it, it will go invisible, but the hit points will be slowed by 50% now. That will only be 33%, so the minion horde will just do a lot more DPS while being slowed down."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 1:23, opponent's card: "He goes for the minion horde. I'm going to zap this." He rates it the wrong defence against an all-in — "Obviously that minion horde maybe wasn't like the greatest either, but of course he didn't know that I was just going to all in spam like that."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minion_Horde (scraped 2026-09-02T02:34:48+00:00)

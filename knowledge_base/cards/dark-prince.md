@@ -143,6 +143,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2437-2448 (clock unreadable): the closing play — Dark Prince over the bridge in the right lane, then the ability with a Fireball on the Skeleton Dragons: "the rune giant actually pushed the rhino away and I was able to take the tower guys" (t=2445).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 0:03: named as the opposing Giant deck's key defensive card and the reason its last push failed — "he didn't have his dark prince back in cycle yet and that's like his main defense." Never labelled by the detector; identified from commentary only.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dark_Prince (scraped 2026-09-02T02:35:01+00:00)

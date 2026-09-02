@@ -115,6 +115,14 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 0:15 and 1:43 (t=851.4, t=882.9): re-placed in the back twice more, both times as pure denial — "we just need to Sparky in the back again" and "Sparky in the back here and we're just not letting him attack at all. This is kind of funny. He can't go in". All four Sparky plays in this game are at tiles [7, 0]/[8, 0]; none at the bridge.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 2:32-2:18 (t=534-549): Ryley calls the Sparky before seeing it ("Or is it Sparky?", t=523; "Oh my god, I was right about the Sparky", t=534) and then wins the game's biggest swing when it whiffs on his bridge Elite Barbarians - "That was the luckiest interaction I have ever got in my life, guys. Dude, the Sparky just somehow completely whiffed. There is no way right now... Let's go. That is huge for us." Enemy right tower 4858 -> 774 HP.
+- clock 1:40 (t=586-588): he tracks his Zap cycle around it - "we're going to have a good counter push, but you don't have our Zap in cycle if he goes for another Sparky."
+- clock 0:47 (t=637) and clock 0:03 (t=683): he predicts the placement twice - "he will probably Sparky in the back" and "Let's E-Barb the bridge cuz he might Sparky the back behind the King." Sparky is re-detected at [13, 23] at t=646.6 and t=766.8.
+- overtime 0:51 (t=754-756): a mis-read of the opponent's play - "Oh my god, wait, that was not the Sparky. Hold up."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Sparky (scraped 2026-09-02T02:35:08+00:00)

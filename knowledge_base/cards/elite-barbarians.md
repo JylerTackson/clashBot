@@ -325,6 +325,67 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 0:13: Evolved Elite Barbarians dropped into the opponent's pocket at [9, 21] while behind on tower HP — "Let's Evo Ebarb's in the pocket here. We have a very good chance to still win." He treats reaching the Evo cycle as a milestone: "I'm already getting my EVO E barbs, which I definitely am happy about" (clock 2:20).
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- clock 2:14 (t=41.4): defensive Elite Barbarians at [8, 9] (elixir 9.0 -> 4.0, deploy label score 1.0) into the opponent's Knight-and-Fire-Spirit bridge pressure.
+- clock 0:34 (t=140.0, 5-elixir HUD drop): immediate counter-push the moment the opponent commits his own Elite Barbarians at [3, 13] — "now I'm going to go for my own E-Barbs. Hopefully we can boost up the E-Barbs. Come on. Okay, nice" (t=138-142), with the Rune Giant already on the field for the enchant.
+- Named as one of the four cards that make the deck: "just with just like Rune Giant, Berserker, E-Barbs, and Mother Witch" (t=90-92) and "The Mother Witch, the Berserkers, the E-Barbs, all with the Rune Giant is just so hard to stop" (t=153-158).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:07: Elite Barbarians at (3, 13), left lane at the bridge, elixir 10 -> 4 — an anti-leak play, not a read: "I don't really want to cycle my E-Barbs here ... I would rather just leak some Elixir right here. But the thing is, if I leak Elixir, he just waits till double, then we lose. So I I guess I'll just E-Barbs at the bridge." The enemy left tower goes 4858 -> 3555 over the next 15 seconds.
+- clock 2:04: he commits them only because he is holding the swarm answer — "We have Zap in case he has a Skeleton Army."
+- clock 1:25: second Elite Barbarians at (7, 10), centre of his own half, used as a kite against the splitting Elixir Golem and a second Inferno Dragon rather than as a lane push — "Let's E-Barbs kite here."
+- clock 1:56: he counts the Evolution cycle as part of the plan — "Okay, having the Evil [Evo] E-Barbs up next will be nice."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:25: evolved Elite Barbarians at the right-lane bridge tile (14, 15) with Heal Spirit attached one second later — "Let's just E-Barbs Heal Spirit here" (317s); enemy right tower 4858 -> 4583.
+- clock 1:10: the big push, released off a card-count read rather than an elixir lead — "Wait, hold on. He has no ground cards. Let's just E-Barbs at the bridge. He has the Skelly Dragons" (390-393s). The enemy left tower drops 4781 -> 3875 -> 3262 -> 2649 in the following four seconds.
+- clock 1:26: used as leverage while still in hand — he forces the opponent's Tombstone out with Mother Witch pressure specifically so it is unavailable later: "Forcing out the Tombstone is very good as well cuz if we can kill it, then he won't have the Tombstone for the E-Barbs" (372-377s).
+- OT 1:59: first card of the overtime counter-push at (3, 14), ahead of Rune Giant and Berserker into the same tile — "Okay, let's go for the Rune Giant. Let's go for the Berserker as well" (461-463s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 2:35 (t=530.5): opens with Evolved Elite Barbarians at the right bridge, tile [14, 14], elixir 7 -> 2, with an answer already in hand - "Let's just go for the E-Barbs at the bridge cuz we do have the Mother Witch pick." The opponent's Sparky whiffs on them and the enemy right tower falls 4858 -> 774 HP by clock 2:18: "That was the luckiest interaction I have ever got in my life, guys. Dude, the Sparky just somehow completely whiffed."
+- clock 1:46 (t=580.6): uses them defensively at [11, 4], dropped straight on top of a Mini P.E.K.K.A. he had not scouted - "I didn't know that he had a Mini P.E.K.K.A. to be fair. It's all good. I guess I'll just go for the E-Barbs here on top of the Mini P.E.K.K.A."
+- clock 0:21 (t=664, elixir 8 -> 2) and overtime 1:09 (t=738.6, [12, 7], elixir 8 -> 2): never plays them bare - "Let's Zap Evo E-Barbs" (t=663), "Do we need to go for the Heal Spirit as well so we don't lose our E-Barbs?" (t=665), "E-Barbs, Minions, Heal Spirit" (t=738).
+- clock 1:20 (t=602-606): names Evo Elite Barbarians plus a tank as the deck's kill condition - "with the E-Barb being upgraded and the Rune Giant tanking, that is like a real three-crown threat. Look at that damage, guys."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 1:33: placed at (7, 10) directly onto the walking Rune Giant so the enchant lands on them, and he states the target choice as a change from the previous game — "I'm going to boost my E-Barbs with the Rune Giant right away this time. Last time I boosted the Mother Witch first. Let's go for the E-Barbs here. Get the nice throw."
+- clock 0:59: pre-placed at the right bridge (14, 15) as a prediction rather than a reaction — "Low-key, he's might [going to] Giant at the back. So, I'm going to E-Barbs predicting the Giant"; the enemy right tower falls from 4406 to 2567 in the next four seconds.
+- clock 0:37: a second Evo Elite Barbarians at (14, 15) once he had checked the evolution asymmetry — "Then we can go for the Evo E-Barbs as well. Cuz he doesn't have his Evo E-Barbs, he only has the regular ones."
+- clock 0:10: held as the punish for the opponent spending his Giant Hero ability, at (3, 11) on defence — "because he goes for the ability, then we can just go for the E-Barbs. He was hoping that we would ability so then we wouldn't have any elixir for defense."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:08: Elite Barbarians at tile [3, 8] behind the Rune Giant, elixir 9 -> 3, converting a back-tank build into a committed left-lane all-in — "Okay, let's just go for the E-Barbs behind this and then I'm going to go for the minions as well."
+- clock 2:08: the commitment was archetype-driven — "If he has the mortar bait deck I'm thinking of, he's going to have a really hard time defending this push." The enemy left tower went 4781 -> 378 over the next 20 seconds.
+- clock 1:30: second pair on his own half at tile [13, 12] as a defence-into-counterattack — "Let's E-Barbs here. Nice. Great timing."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:28: sent straight to the bridge at tile [3, 13] (elixir 8 -> 2) rather than held on defence, timed off the opponent's defensive card being spent — "Low key, I think I'm just going to go for the E-Barbs at the bridge straight up because he cycled his Mighty Miner."
+- clock 1:30: same bridge placement at [3, 13] into an advancing Mighty Miner, with the spell answer pre-planned — "I'm going to E-Barbs the bridge here just to take this out and then we have the Evo Zap for the Firecracker." The opponent answered with a Cannon at [9, 18].
+- clock 0:45: at tile [14, 13] alongside Rune Giant to swing lanes and close the game; the enemy right tower dropped 4858 -> 225 in the following minute.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 2:13 (t=1279.6, a 5-elixir drop matching the bridge deploy label at [3, 15]): bridge Elite Barbarians only because support is already on the field — "we can go for our own E-Barbs at the bridge cuz we have the Mother Witch supporting as well. This is actually a good push" (t=1278-1281).
+- clock 1:18 (t=1334.0): Elite Barbarians at [3, 8] on his own half, timed around the tank rather than the opponent — "I'm going to go for the E-Barbs here. I want to do it early so my Rune Giant has the upgrade available quicker."
+- clock 0:42-0:40 (t=1370.4 at [8, 0], a second barbarian-type deploy at [11, 1]): the split, played specifically to deny a Champion double-hit — "let's go for the E-Barbs split. I don't want to do them all in the same lane because if I do them in the same lane, then he can just get the crazy Goblin Stine value every time" (t=1371-1379).
+- The opponent runs them too; Ryley never spells them, absorbing them with Minions, Heal Spirit and the Mother Witch so the deaths become Cursed Hogs.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

@@ -172,6 +172,60 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
 - t=2573.6 and t=2604.6: Heal Spirit at [14, 18] behind the bridge Elite Barbarians and at [14, 17] behind the closing Evo Battle Ram + Valkyrie push.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- clock 0:29 (t=146.1): Heal Spirit at [2, 15], right at the river (elixir 3.0 -> 2.0, HUD plus deploy label 0.95), used as a top-up on a damaged Mother Witch mid-push — "this is really good Heal Spirit to keep the Mother Witch alive" (t=143).
+- clock ~2:00 (t=56, commentary; the label at [8, 0] is t=9.0): the other use is as a Spirit-blocker so a defender survives — "Let's Heal Spirit here to block the Spirit so that we can get back to the Berserker to defend that bush."
+- He names it as the closing piece of the deck: "you pair that up with a nice Heal Spirit jump, dude, and there is nothing that your opponent can do" (t=158-162), and counts it in the Vines + Goblin Gang answer at t=120 ("if I have the Heal Spirit plus Minions with it").
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:43: Heal Spirit at (8, 0) behind the King Tower at 9 elixir — pure cycle, no threat on the board.
+- clock 1:36: Heal Spirit at (6, 8) as the last card stacked onto the Elixir Golem defence, healing the Mother Witch and Minions already committed — "then we can go for the Heal Spirit, too."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:25: attached directly behind the bridge Elite Barbarians at (14, 14), one second after them — "Let's just E-Barbs Heal Spirit here" (317s).
+- clock 0:19 and OT 1:33: played pre-emptively rather than reactively, ahead of expected burst damage — "We have to Heal Spirit preemptively cuz I feel like he's going to go for a ability" (443-446s) at (1, 6), and "in case he has an Evo Zap, I need a Heal Spirit as well. Just keep this alive" (487-490s) at (3, 12) behind Fireball and Minions.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- Played about eight times and almost always behind a 6-elixir commitment: clock 0:19 (t=665.3) at [12, 1] - "Do we need to go for the Heal Spirit as well so we don't lose our E-Barbs? Come on. Nice, okay."
+- clock 0:42 (t=643.6) at [9, 18], used as the defensive answer instead of the tank - "I don't really want to Rune Giant though. Let's go for the Heal Spirit here. Nice, we blocked the Mini P.E.K.K.A."
+- overtime 1:09 (t=739.4) and overtime 0:25 (t=779.6, [9, 5]): part of the package he recites as one unit - "Oh, man. E-Barbs, Minions, Heal Spirit" (t=738), "Rune Giant Minions here in the pocket. Heal Spirit" (t=786).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 1:25: spent to stop a committed push being erased on arrival — "I'm going to Heal Spirit here as well. Just make sure that my E-Barbs don't instantly get taken off the field."
+- clock 0:55: dropped at (14, 14) immediately behind the predictive right-bridge Elite Barbarians — "Okay, that's fine. Let's Heal Spirit here as well."
+- clock 2:13: the last card of the opening six-card push, at (2, 15) on the bridge — "So, let's go for the Heal Spirit."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:28: Heal Spirit at tile [13, 8] onto an incoming Skeleton Barrel — "Yeah, we have to go for the heal spirit here." He accepts the chip: "Just take a little bit of damage, not the worst. We did get a little bit of a positive elixir trade out of that."
+- clock 2:03 and 2:00: two more at [4, 14] and [3, 13], dripped in behind the advancing left-lane push to top it up — "Let's heal spirit here as well. Can we heal up off of these heal spirit? Nice, okay."
+- Most-played card of the game (six-plus 1-elixir drops, also at clock 1:21, 1:13 and 0:58), and his stated reason not to fear the counterattack at clock 1:07: "it's all good cuz we just have the heal spirit."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:27: chained onto the Elite Barbarians bridge push at tile [8, 13] as cheap follow-up — "let's go for the high heal spirit here as well."
+- clock 1:21: used mid-push to keep the Mother Witch alive rather than as a cycle card — "Hold on. We're overwhelming him. Heal Spirit here. Keep this alive. Nice."
+- clock 0:40: played at tile [8, 17] on the opponent's side of the river to sustain the final push; five separate 1-elixir Heal Spirit plays in the 138 s window make it his highest-frequency card.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 2:47 (t=1245.2) at [9, 6] and clock 2:00 (t=1291.6) at [2, 15]: always dropped onto his own units, not as damage — "It's Heal Spirit here as well. Keep the Mother Witch on full HP" (t=1292-1293).
+- overtime 1:51 (t=1421.4) at [8, 12] and 1:19 (t=1451.5) at [7, 13]: the reactive answer to the opponent's chip on his defenders — "He goes for the minions, we have heal spirit. Okay, well, we have heal spirit anyways here" (t=1450-1454).
+- overtime 0:57 (t=1476.5) at [3, 13]: spent alongside the Fireball/Evo Zap finishing sequence to keep the tower push alive.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

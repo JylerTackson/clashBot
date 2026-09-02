@@ -147,6 +147,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - Mentioned, not played. Same passage at 229-241s: he names the Archer Queen alongside the Musketeer as the cards that blank Ice Spirit / Electro Spirit defence because they one-shot spirits, which he calls the main weakness of this 2.0 cycle list.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:47: mentioned only, not played by either side — cited as the sort of card the evolved Zap opener lets this deck finish: "you're also just getting to your Evo right away, which will help you kill combos, you know, like Archer Queen and stuff like that that you're not normally able to kill" (295-300s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

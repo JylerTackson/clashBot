@@ -242,6 +242,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:11: he credits a fast defensive gang — "He's going to have to go for the Goblin Gang. That could be full countered. Yeah, that was a good gang by him. He was very fast with that. I have to give him credit there" (968-974s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, anticipated but never observed on the field. Ryley plays around it in advance: "he's probably going to have to go for the Vines plus Goblin Gang, but obviously that won't really work too well if I have the Heal Spirit plus Minions with it" (t=117-121).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

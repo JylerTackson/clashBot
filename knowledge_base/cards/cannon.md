@@ -316,6 +316,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:25-1:19 (t=1225-1231): explicitly declined against an Evolution Royal Giant that then took 490 HP off his left tower — "Yo, hold on. I'm not even going to go for the cannon. I'm just going to let this go because even though we take some damage here, I think it's more beneficial to eat this damage and just go in". Two HUD events label 3-elixir drops at [9, 9] as Cannon, but the commentary contradicts both, so no Cannon placement is asserted for this game.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 1:28 (opponent card): placed at tile [9, 18] to answer Ryley's second Elite Barbarians bridge push; it did not stop the counter-push and he does not comment on it.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

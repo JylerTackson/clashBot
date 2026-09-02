@@ -195,6 +195,13 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
 - clock 0:32: the opponent spends it badly under bridge pressure — "Oh my god, he wasted a Stein" (t=742s), and the sequence that followed took the enemy right tower from 2582 to 450 HP.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Never picked up by the unit tracker but the opponent card Ryley respects most all game — first sight at clock 2:11: "Okay, he has the Goblin Stine, too" (t=1282).
+- He rates the opponent's ability timing twice: too early at clock 2:07 ("Wait, that was an early ability, I feel like. I feel like he should have waited on that ability", t=1285-1288; "That Goblin Stine ability was way too quick", t=1300, as the enemy left tower drops 4279 -> 2448), and good in overtime ("Ooh, that was a good stein ability though. Decent defense by us", t=1424-1426).
+- clock 0:40: he changes his own Elite Barbarians placement specifically to deny it — "I don't want to do them all in the same lane because if I do them in the same lane, then he can just get the crazy Goblin Stine value every time" (t=1373-1379). He also times his Minions around the opponent not being able to afford it (t=1344-1346).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

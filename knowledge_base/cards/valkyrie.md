@@ -301,6 +301,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2427-2446 (clock unreadable): baited to the wrong lane by Barbarian Barrel + Goblins ("he'd have to Valkyrie on the left side and he actually Valkyrie'd", t=2431), then tracked at [3, 11] grinding Ryley's left tower from 2448 to 1916 while he closes on the other side.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 1:07-1:02 and OT 1:19: the opponent's Valkyrie is tracked crossing at (13, 21) -> (14, 16) and later at (2, 13); Ryley answers the first one with a Rune Giant placed to kite plus Mother Witch behind it — "let's go for the Rune Giant here to kite this and then we can go for the Mother Witch as well" (402-405s). He never names the card on camera.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

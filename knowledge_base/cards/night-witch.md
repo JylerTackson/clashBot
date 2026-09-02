@@ -132,6 +132,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:50: named only as a card he is holding elixir for and never sees — "I'm waiting for the Night Witch, as well, cuz we do have to kite this with the Rune Giant."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Night_Witch (scraped 2026-09-02T02:35:11+00:00)

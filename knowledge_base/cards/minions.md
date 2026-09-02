@@ -160,6 +160,60 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 1:58 (overtime): he flags a placement error in his favour — "Where where are the minions? Oh, bad minions placement, though. We're going to get a lot of bush damage."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- clock 1:13 (t=103.1) at [1, 13] and clock 1:02 (t=114.1) at [1, 14]: left-lane air cover placed behind the Rune Giant push, both a couple of tiles short of the river.
+- Played to pre-empt a known answer rather than to react: "I'm to go for the Minions here cuz he's probably going to have to go for the Vines plus Goblin Gang, but obviously that won't really work too well if I have the Heal Spirit plus Minions with it" (t=115-121).
+- clock 0:19 (t=155.2) at [1, 19], on the opponent's half alongside a bridge Berserker in the closing push.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:23: Minions at (16, 1), far-right back corner, elixir 9 -> 6, with nothing tracked in that lane.
+- clock 1:37: Minions at (5, 5) added to the Elixir Golem defence behind the Mother Witch, placed off-centre on purpose because he had already called the spell — "He's going to arrows, right? Yep, let's go for the Minions here off to the side."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 1:31, 0:50, 0:37, 0:08, OT 1:35, OT 1:17: always the announced follow-up behind another card, never the lead — "Force him to go for the Fireball and then we can go for the Minions" (365-367s) into (12, 15); "he has no Evo Zap, so he's not going to be able to take out our Minions as well after he fireballs the Mother Witch" (407-412s); "We can go for the Minions as well" (425s) into (1, 14); "Let's go for the Minions as well and then we can go for another Mother Witch" (448-450s) into (2, 11); "then we can go for the Minions as well" (486s) into (2, 13).
+- clock 0:08 - OT 1:35: doubles as the anti-air answer in the Lava Hound lane, placed at (2, 11) and (2, 13) with Fireball and Heal Spirit around them while the Lava Hound and Skeleton Dragons come down the left.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 2:07 (t=558.1): Minions at [14, 17], just over the river onto the incoming Sparky, elixir 9 -> 6 - "Okay, let's go for the Minions here and then we have the ability ready."
+- clock 0:52 (t=633.6) at [10, 6] and clock 0:12 (t=672.3) at [9, 5]: used as the defensive air answer while the Mother Witch sits behind - "All right, let's go for the Minions as well."
+- overtime 0:33 and 0:20 (t=771.8 [14, 17], t=783-786): offensive pocket Minions on top of the Rune Giant - "Let's Minions on top right now. We need to go for the E-Barbs" and "Rune Giant Minions here in the pocket."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 2:19: stacked onto the opening bridge push at (3, 11) — "we can just go for the Minions here on top of this."
+- clock 1:31: sent to the left bridge behind the Rune Giant / Elite Barbarians push — "And then we can go for the Minions at the bridge as well" (the deploy label at (1, 14) was assigned to the opponent by the pipeline; the commentary is taken as the stronger signal).
+- clock 0:21: pure defence once the enemy right tower had fallen, back at (3, 11) — "and then we just minions on defense, guys."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:08: Minions at tile [1, 14], hard against the left river edge, trailing the Elite Barbarians as push support rather than defence — "then I'm going to go for the minions as well."
+- clock 2:16: he names them as his own soft spot against this opponent — "taking care of the minions might be a little bit difficult."
+- clock 1:10 and 0:58: Minions again after the Fireball cleared the enemy Minion Horde, and then at [3, 21] inside the opponent's half during the closing spam.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:19: dropped at tile [3, 8] on his own half as the air answer to the Mighty Miner — "let's go for the minions here as well. If that takes out the Mighty Miner, that's pretty good for us."
+- clock 0:48: replayed while cleaning up an incoming Firecracker in the right lane — "Let's Minions."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 2:47 (t=1244.7): Minions plus Heal Spirit as the immediate answer to a Mortar placed centre-river at [8, 16] — "Here, let's go for the Minions and Heal Spirit. Try to figure out his exact variation of Mortar" (t=1244-1250).
+- clock 2:04 (t=1288.3) and 1:13 (t=1340.3): Minions at [1, 14], his own half behind the push, as counter-push insurance timed against the opponent's elixir — "he shouldn't be able to afford the [Goblin]Stine right away, so our Minions will just clean up any type of counter push" (t=1338-1346).
+- overtime 1:37 (t=1435.4): Minions at [13, 15] with the follow-up already planned — "We can minions here. He goes freeze minions, we have mother witch" (t=1436-1438).
+- clock 0:08 (t=1402.2): Minions at [8, 14] when he thinks the game is lost, purely for chip — "Let's minions here. We have to let this lock on and deal some [damage]."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

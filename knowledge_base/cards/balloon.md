@@ -178,6 +178,11 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 1:48 (overtime): answered with a Fireball at [15, 10] on his own half — "we can go for a fireball here on top of this loon."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 0:27-0:03: named as the opponent's only remaining Lava Hound support once the Skeleton Dragons are spent — "if he goes for the Lava, he has no support cards for it, only a Balloon" (432-435s), then "He might go for a Balloon, though. We have to be careful" (439-442s); a Balloon is tracked at (5, 9) at t=454s during that push.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

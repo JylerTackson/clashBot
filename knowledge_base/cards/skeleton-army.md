@@ -192,6 +192,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
 - t=2510-2514: Ryley's answer is to drop Mother Witch on top of it for Cursed Hogs, and at t=2588-2593 he keeps it in mind when choosing the Evo Battle Ram push over Elite Barbarians — "He has Skarmy and Dark Prince."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:04: named only as the threat his Zap is reserved for when he commits the Elite Barbarians to the bridge — "We have Zap in case he has a Skeleton Army."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

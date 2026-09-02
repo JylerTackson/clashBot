@@ -174,6 +174,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:02 (t=626-628): he plays the Dart Goblin into it anyway rather than waiting — "I know he's going to go for the Arrows on this as soon as he can".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:42 (opponent): predicted before it exists — "He's going to arrows, right?" — and he places his Minions at (5, 5) "off to the side" for it. The Arrows are only actually tracked at (4, 22) at clock 1:05.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

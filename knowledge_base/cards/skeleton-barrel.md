@@ -213,6 +213,16 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:10: it is the single card he reserves his building for — "I'm going to save my cannon because of the Skeleton Barrel. I don't want to get caught lacking by a Skelly Barrel" (271-275s), which is why the Bowler was allowed a free tower hit.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. The first threat of the game (tracked [1, 11] -> [3, 4] from t=10, 'tower in 0.0s' at t=14) and again at t=48; Ryley answers with Mother Witch at [2, 5] (clock 2:43) and later a Zap at [2, 11] (clock 2:04) — "I'll just make sure that we take out that Skeleton Barrel. Very nice defense" (t=52-53).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:28, opponent's card: a Skeleton Barrel reached his right tower for 405 damage; he answered with Heal Spirit and called it a positive trade anyway. Mentioned again at clock 1:10 while he was holding Heal Spirit for the counterattack.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

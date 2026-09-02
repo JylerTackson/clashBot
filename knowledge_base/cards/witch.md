@@ -149,6 +149,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
 - he counts forcing it out on defence as a win in itself: "Forced out the EVO witch as well, which is really good" (t=927-929s), and at t=948-950s frames his own push as conditional on it — "This dark goblin will take out literally everything as long as I eat this witch."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 0:25 (t=1385.4): the opponent's Witch lands at [11, 18] and is Fireballed plus Zapped on arrival — "Okay, wait. I can fireball this. Zap as well" (t=1384-1386).
+- overtime 1:55 and 1:24 (t=1417.4 at [11, 12], t=1448.4 at [9, 14]): repeat Witches into his half are met with Mother Witch plus Berserker plus Heal Spirit instead of a spell, feeding the Cursed Hog conversions that end the game.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

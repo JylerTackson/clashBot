@@ -141,6 +141,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:32-0:22 (t=654-667): both of his late Cannons are placed to manipulate it — "I'm going to cannon like this just to make the Mega Minion go in front of the Lava Hound so I don't have to deal with it anymore" and "that Mega Minion just goes in front".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 1:47-1:41: identified by playing a Mother Witch as bait and watching the answer — "Okay, he has Mega Minion, that's good to know. So, if I Mother Witch like this, more often than not he'll just Mega Minion on top of it, which is fine by me. I just need to know what he's able to do" (356-363s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

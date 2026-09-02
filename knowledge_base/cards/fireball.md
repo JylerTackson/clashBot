@@ -280,6 +280,55 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - He plays his Dart Goblin around it — "Don't want to give him any fireball value this time" (940s) — and treats every wasted one as free cycle: "Every time he wastes fireball, I can just cycle a free cannon to be honest" (1116-1119s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- clock 1:10 (t=105.1, deploy label 'FiRehall' at [3, 19], matching 4-elixir HUD drop 7.0 -> 3.0): his only Fireball, thrown at the Golden Knight push in the left lane and immediately followed by the Evo Zap on the same tile — "Okay, let's go for the Fireball here. I'm not going to Evo Zap just yet" (t=103-106).
+- The eighth deck slot is decided by this play: no per-game read of the video contains Skeletons, and Fireball is both label-confirmed and named here (see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- Never cast and never named in the readable window (clock 2:50-0:58); it is in the deck on the session list and sits in the HUD's fourth hand slot for nearly every timeline row, which is itself a low-confidence read (hand_conf 0.57).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:22: added to a bridge Elite Barbarians push purely as an elixir drain, not for value — "I'm going to Fireball as well, to be honest. There's no point not to. I'm just going to force out a bunch of Elixir" (319-323s), label at (12, 15).
+- clock 1:07 and 0:50: two Fireballs at (3, 21) behind the left-lane Elite Barbarians push while the enemy left tower falls 4781 -> 2649 — "this is going to be some nice damage ... We forced out the Evo Zap and we can get two shots on the tower" (395-400s).
+- clock 0:14 and OT 1:37: used defensively on his own half, at (2, 10) into the Lava Hound push ("Okay, let's Fireball this", 447s, HUD-confirmed elixir -4) and at (3, 14) onto Skeleton Dragons as the first card of a pre-announced three-card defence ("Let's go for the Fireball here and then we can go for the Minions as well. And in case he has an Evo Zap, I need a Heal Spirit as well", 484-489s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 1:55 (t=568.6): Fireball at [14, 12], over his own right tower, cast reluctantly on the Golden Knight / Mini P.E.K.K.A. push - "Is it worth the Fireball? I guess I have to Fireball, right? I just don't want to lose my whole tower." The right tower still ends up at ~1228 HP.
+- clock 0:54 (t=629.6): Fireball at [15, 10] straight after firing the Berserker ability - "let's go for the ability here and then we can go for the Fireball as well. Come on, take this out, please."
+- clock 0:03 (t=683.3): third and last cast of the game, elixir 5 -> 1. Only three Fireballs in 285 seconds - in this game it is a defensive emergency card, not a chip spell.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 0:27: the only Fireball of the game, aimed at the defenders stacked in front of the enemy right tower rather than at the tower — "Yo, I like this situation. Let's fireball here. Yo, we're going to take out the mega minion and the E-Barb"; the tower reads 2322->1832 immediately after.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 1:11: Fireball at tile [14, 15] on the right-lane bridge, finishing the Minion Horde survivors that his Zap had left — "Okay, we can just fireball here." Zap-then-Fireball on the same swarm is the pattern.
+- clock 2:31 and 1:40: he tracks the opponent's Fireball as the pivotal card of the matchup, first as a threat to his Mother Witch ("He might go for a fireball if he has it") and then as their losing play ("I knew that fireball would cost him so much").
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 2:39: deliberately NOT thrown at the first Evolved Firecracker, trading tower HP for a King Tower activation that landed at clock 2:31 — "Normally I would fireball that, but I think it's actually good to not fireball the first firecracker and try to activate our king tower if possible."
+- clock 1:14: its only deployment in the window, at tile [4, 16] on the river during the winning Berserker + Mother Witch push.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 0:27 (t=1384.4): Fireball at [11, 20] onto the opponent's Witch as she lands at [11, 18], with a Zap behind it — "Okay, wait. I can fireball this. Zap as well."
+- clock 0:05 (t=1405.4): Fireball at [2, 21] straight onto the enemy left tower (2448 -> 2173) at the moment he thinks the game is gone — "I'm going to fireball the tower though cuz this is only going to get one shot anyways. We can have the free tower damage. We're not out of it yet" (t=1406-1412). That chip is what makes the overtime finish reachable.
+- overtime 0:58 and 0:50 (t=1474.5 at [3, 24], t=1485.5 at [5, 24]): two more Fireballs on the same tower to close the match — "Go. Go. Go. Go. Go. Fireball" (t=1473), "all we have to do is get one more fireball. The piggy. The piggy. Let's go. Dude, we won" (t=1480-1483). Enemy left 1106 -> 264 -> 102.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

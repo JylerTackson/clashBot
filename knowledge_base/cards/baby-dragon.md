@@ -182,6 +182,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:22 (t=664-667): his second Cannon is placed specifically to deny it a landing spot — "I'm going to cannon too just to keep blocking the bridge so we can't even go for a Baby Dragon".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Mentioned only, as the matchup where he thinks a centre Mortar is justified — "I know in some match ups it's better like maybe against a Baby Dragon deck" (t=1255-1257).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)
