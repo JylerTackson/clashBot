@@ -1,0 +1,66 @@
+{
+ "video_id": "rTamPgdaLUs",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 161.8,
+   "events": 63,
+   "own_deck": [
+    "berserker",
+    "wall-breakers",
+    "bats",
+    "spear-goblins",
+    "miner",
+    "fireball",
+    "bomb-tower",
+    "goblins"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 278.1,
+   "events": 107,
+   "own_deck": [
+    "berserker",
+    "x-bow",
+    "electro-spirit",
+    "skeletons",
+    "tesla",
+    "fire-spirit",
+    "the-log",
+    "rocket"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 207.0,
+   "events": 84,
+   "own_deck": [
+    "ice-spirit",
+    "graveyard",
+    "knight",
+    "barbarian-barrel",
+    "berserker",
+    "furnace",
+    "goblin-hut",
+    "poison"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 230.1,
+   "events": 84,
+   "own_deck": [
+    "ice-spirit",
+    "wall-breakers",
+    "berserker",
+    "dart-goblin",
+    "royal-delivery",
+    "goblin-barrel",
+    "fire-spirit",
+    "tesla"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+  "key": "rTamPgdaLUs-m0.3",
+  "match_file": "matches/rTamPgdaLUs-m0.3.md",
+  "video_title": "Hero Berserker is INVINCIBLE!!!",
+  "cards": {
+    "berserker": [
+      "clock 2:51-0:15: the Hero Berserker (see heroes/berserker-hero.md) is his 2-elixir defensive body, dropped on his own half at (3, 12), (8, 10), (9, 8), (12, 8), (9, 10) and (14, 3) rather than as a bridge unit; he only pokes with her at the bridge (13, 15) at clock 0:27 once the tempo has flipped - \"then we can go for the Berserker at the bridge\".",
+      "clock 2:40: Savage Survival used on defence (own elixir 8 -> 5 with no card leaving hand) and it wins the exchange outright - \"Also, wall breakers don't want to hit my ability here. Oh my god, what an ability right there. Taking out his Berserker and nearly the dark goblin.\" A second activation follows at clock 1:45 - \"Think I'm going to have to ability again.\"",
+      "clock 0:04 (overtime opening): a deliberately high Berserker at (9, 14) placed to body-block an expected enemy Dart Goblin snipe on his own Dart Goblin - \"I know he's going to try to Dark Goblin my Dark Goblin so go for the high Berserker here to block it. Great prediction.\"",
+      "overtime 1:25: with 3 elixir he chooses a second Berserker over the ability - \"I might want to Berserker ability. Hold on. Let's Berserker again instead. Just keep up the pressure.\" Against a mirror Berserker he also plays around the enemy's ability: \"He might pop the ability so I have to be careful. Okay, I think next time I should maybe Berserker high just in case he abilities\" (clock 0:15-0:11)."
+    ],
+    "goblin-barrel": [
+      "clock 1:51 to overtime 1:06: the win condition, thrown eight times, alternating tower - (14, 26), (14, 25), (14, 24) twice on the right, then (3, 25), (3, 26) three times on the left in overtime. The left-lane switch is what wins it: enemy left tower 2013 -> 630 between overtime 1:52 and 1:06.",
+      "clock 1:17 and 0:56: always escorted by a spirit - \"let's go for the spirit barrel here. Spirit barrels are still worth it because spirits will actually tank for the barrel. In this case though, um the spirit is so slow it actually doesn't walk up in time\", and again at 0:56, \"go for the spirit barrel here again. Just keep up the pressure.\"",
+      "overtime 1:52 and 1:27: paired with Wall Breakers in the opposite lane as a two-lane commit - \"Barrel Wall Breakers here\" and \"Let's go for the barrel here and then we can go for the Wall Breakers opposite lane.\"",
+      "clock 1:05: on the spirit nerf changing how the card is played - \"all my muscle memory from years and years of uh playing goblin barrel has just been deleted in a single balance.\""
+    ],
+    "wall-breakers": [
+      "clock 2:51 to overtime 1:11: bridge pressure at (8, 14), (4, 14), (14, 14), (13, 14) and (3, 13), usually as the second lane of a Goblin Barrel play - \"we can go for the Evo Wall Breakers at the bridge too. I just want to keep on spamming the scouts\" (clock 0:25-0:23).",
+      "clock 1:04 and 0:42: used defensively as a cut and a kite - (3, 15) \"Good wall breakers though right there just cutting that\", and (6, 14) \"Good wall breaker kite here to keep the dark goblin alive.\"",
+      "clock 1:59-1:55: he rates the card highly in the mirror and says his cycle cannot handle it - \"We aren't really in the greatest cycle right now to defend like wall breakers and stuff like that. Wall breakers are going to be nice against us.\"",
+      "overtime 1:14-1:08: unsure whether double spirit still kills them - \"We hit the Wall Breakers with spirit spirit. Um does that not work anymore or or did I mess up? I'm actually not sure. I'm going to have to test that interaction out.\""
+    ],
+    "dart-goblin": [
+      "clock 2:27 to overtime 1:16: placed deep or centrally on his own half - (13, 8), (3, 5), (9, 10) twice, (8, 10), (8, 8) - as defensive DPS, never at the bridge in this game.",
+      "clock 1:06, 0:42 and overtime 1:59: he spends other cards to keep him alive - \"Let's fire spirit here to keep the dark goblin alive\", \"Good wall breaker kite here to keep the dark goblin alive\", \"Let's Tesla here to keep tanking for the Dark Goblin.\"",
+      "clock 0:37: when he survives he is the damage source alongside the barrel - \"Yo, the dark goblin's on the tower and the barrel, too. Nice. Really good damage\" (enemy right tower 2413 -> 1611 over the next four seconds)."
+    ],
+    "ice-spirit": [
+      "clock 1:18, 0:54, 0:31 and overtime 1:59/1:16: the barrel escort and cheap freeze, at (9, 12), (3, 14), (15, 13), (6, 14) and (14, 5); the (15, 13) drop is the one he likes - \"Ice spirit Oh, beautiful spirit just getting barely in front.\"",
+      "clock 1:29: dropped at (2, 14) behind a Fire Spirit at the bridge in the play he immediately regrets, because post-nerf spirits no longer walk up in time to connect."
+    ],
+    "fire-spirit": [
+      "clock 1:33: the habit play he calls out as a mistake under the new balance - Fire Spirit at (2, 14) at the bridge, then \"Wait, it's not going to connect. Dude, I'm an idiot... it's just such habit to me to drop the spirit at the bridge.\"",
+      "clock 1:06 and 0:19: used as a defensive save and as barrel support - \"Let's fire spirit here to keep the dark goblin alive\" and \"Let's barrel fire a spirit here too. Keep on pressuring him\" (Fire Spirit at (16, 14) and (14, 15) beside barrels at (14, 24)).",
+      "clock 2:47-2:40: the spirit nerf is his stated worry about the whole deck - \"You can't really tank for your barrels as well anymore\", and \"I'm kind of worried about how like this type of deck is just going to work in general without having the like spirit connect to the tower.\""
+    ],
+    "tesla": [
+      "clock 2:48 and 2:28: the deck's only building, placed centrally at (8, 11) and (9, 13) to pull the mirror's Berserker/Dart Goblin bridge pushes.",
+      "overtime 1:59: replayed at (9, 13) explicitly as a tank for his ranged unit rather than as a pull - \"Let's Tesla here to keep tanking for the Dark Goblin.\""
+    ],
+    "royal-delivery": [
+      "clock 2:37, 2:09, 2:02, 0:27 and overtime 1:11: strictly defensive, always in his own pocket at (14, 7) or (3, 8) - \"let's go for the delivery here on defense. Not bad.\"",
+      "clock 0:47-0:42: he talks himself through holding it - \"Think I'm going to delivery on defense this time. No, it's maybe to delivery next time\" - before spending it at 0:27 inside the big pressure cycle, \"Let's delivery here.\"",
+      "overtime 1:55: the spawned Royal Recruit is used as a free tank for the counter-push - \"and then the recruit tanks. Perfect.\""
+    ],
+    "royal-recruits": [
+      "clock 0:06 and overtime 1:37: the opponent's non-mirror card, dropped twice for an estimated 7 elixir into the right lane at (15, 17); Ryley answers with Berserker plus Dart Goblin plus double spirits rather than a spell - \"We need to go for the double spirits here to help take this out.\"",
+      "overtime 1:45: he thinks the opponent misused the lane choice while defending it - \"I feel like he delivered the wrong lane to be honest. We're in such a good position.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-dart-goblin-fire-spirit-goblin-barrel-ice-spirit-royal-delivery-tesla-wall-breakers",
+    "cards": [
+      "berserker",
+      "dart-goblin",
+      "fire-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "royal-delivery",
+      "tesla",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 4 of 4 in a Hero Berserker deck-showcase video; each game is a different deck, and this one is the bait list - \"We're in the next match here guys with this bait deck. Honestly, I was always really curious about how the Berserker would go with bait because of the nerf to the spirits\" (t=661-670s).",
+      "Piloted as log bait with constant two-lane pressure: Goblin Barrel at the enemy tower ((14, 26)/(14, 25)/(14, 24) then (3, 25)/(3, 26)), Wall Breakers at the bridge ((8, 14), (4, 14), (14, 14), (13, 14)) and a spirit escorting the barrel, while Berserker, Dart Goblin, Tesla and Royal Delivery hold his own half. His own summary of the plan at clock 0:23: \"I just want to keep on spamming the scouts.\"",
+      "Against a near-mirror bait deck he is out-cycled through regular time (\"I feel like we're going to get out-cycled though. We aren't really in the greatest cycle right now to defend like wall breakers\", clock 2:00-1:57; \"I need to get out of this cycle, man\", clock 0:42) and answers by chipping rather than defending cleanly - \"I do want to be really annoying, get as much damage as possible in return cuz we are in a bad spot\" (clock 0:52-0:48).",
+      "The hero is the defensive trump the deck otherwise lacks: two Savage Survival activations (clock 2:40 and 1:45) hold pushes a 2.4-elixir bait list could not otherwise stop - \"Oh my god, what an ability right there. Taking out his Berserker and nearly the dark goblin.\"",
+      "The spirit nerf is the recurring cost: he drops a Fire Spirit at the bridge out of habit at clock 1:33 and it never connects (\"Dude, I'm an idiot\"), and he rules that spirit barrels still work but only if the spirit is sent early - \"Spirit barrels are still worth it because spirits will actually tank for the barrel. In this case though, um the spirit is so slow it actually doesn't walk up in time\" (clock 1:17-1:09).",
+      "Result: regular time expires 0-0 on towers (own 2067/2248, enemy 2013/1611); in overtime the barrel plus Wall Breakers pressure switches to the left lane and takes the enemy left tower from 2013 to 630 before the game ends at overtime 1:05 - \"Wall Breakers the barrel. The Wall Breakers. Let's go. Good game.\""
+    ],
+    "new_deck": {
+      "display_name": "Ryley Hero Berserker Log Bait (Goblin Barrel / Wall Breakers)",
+      "archetype_primary": "bait",
+      "archetype_secondary": "bridge-spam",
+      "rationale": "Goblin Barrel, Wall Breakers, Dart Goblin and two spirits all bait the same small spells and cheap answers, and Ryley calls it \"this bait deck\" and \"log bait\" himself, but at 2.4 average elixir every deployment is bridge pressure in alternating lanes.",
+      "why_it_works_md": "The list is the standard Goblin Barrel / Wall Breakers bait shell with the Hero Berserker replacing the usual mini-tank: a 2 Elixir body that, with Savage Survival for 3 more, cannot be killed for four seconds and shreds the swarm answering a push. That gives a 2.4 Elixir bait deck a defensive trump it normally does not have, which matters because the deck's only other defensive anchors are one Tesla and one Royal Delivery. Offence is pure two-lane pressure - barrel one tower, Wall Breakers the other, a spirit tanking for the barrel and the Dart Goblin left deep to defend rather than support. The weak point in this match was cycle: Ryley says repeatedly he is being out-cycled and cannot afford to defend Wall Breakers cleanly, and the post-nerf spirits no longer walk up fast enough to tank for the barrel, so the deck has to win on volume of chip rather than on clean value trades."
+    }
+  }
+}

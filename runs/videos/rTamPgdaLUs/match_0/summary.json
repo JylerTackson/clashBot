@@ -1,0 +1,130 @@
+{
+ "frames": 5263,
+ "seconds": 2585.1,
+ "timing": {
+  "total": {
+   "n": 5263,
+   "mean_ms": 481.2,
+   "p95_ms": 2265.7
+  },
+  "elixir": {
+   "n": 5261,
+   "mean_ms": 1.6,
+   "p95_ms": 2.2
+  },
+  "hand": {
+   "n": 5261,
+   "mean_ms": 182.8,
+   "p95_ms": 214.0
+  },
+  "clock": {
+   "n": 5261,
+   "mean_ms": 104.1,
+   "p95_ms": 722.9
+  },
+  "labels": {
+   "n": 877,
+   "mean_ms": 556.3,
+   "p95_ms": 673.7
+  },
+  "detect": {
+   "n": 438,
+   "mean_ms": 1051.9,
+   "p95_ms": 1260.8
+  },
+  "loop_fps": 2.1
+ },
+ "own_elixir_drift": {
+  "n": 1371,
+  "mean": 0.132,
+  "abs_mean": 0.937,
+  "max_abs": 9.912,
+  "last": 0.715
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "berserker",
+   "royal-delivery",
+   "dart-goblin",
+   "goblin-barrel",
+   "wall-breakers",
+   "royal-recruits",
+   "fire-spirit"
+  ],
+  "deck_complete": false,
+  "predicted_hand": null,
+  "predicted_next": null,
+  "deck_predictions": [
+   {
+    "card": "magic-archer",
+    "p": 0.96,
+    "source": "kb_inference"
+   },
+   {
+    "card": "ice-spirit",
+    "p": 0.95,
+    "source": "kb_inference"
+   },
+   {
+    "card": "bomb-tower",
+    "p": 0.91,
+    "source": "kb_inference"
+   },
+   {
+    "card": "skeletons",
+    "p": 0.09,
+    "source": "kb_inference"
+   },
+   {
+    "card": "ronin",
+    "p": 0.09,
+    "source": "kb_inference"
+   }
+  ],
+  "kb_matches": [
+   {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "name": "Ryley Log Bait Bridge Spam (Goblin Barrel / Wall Breakers)",
+    "archetype": "bait",
+    "matched": 5,
+    "contradicted": 2,
+    "score": 1.03,
+    "remaining": [
+     "magic-archer",
+     "bomb-tower",
+     "ice-spirit"
+    ]
+   },
+   {
+    "deck_key": "berserker-cannon-dart-goblin-electro-spirit-goblin-barrel-ice-spirit-skeletons-wall-breakers",
+    "name": "2.0 Log Bait Cycle (Hero Berserker)",
+    "archetype": "bait",
+    "matched": 4,
+    "contradicted": 3,
+    "score": -1.97,
+    "remaining": [
+     "cannon",
+     "electro-spirit",
+     "ice-spirit",
+     "skeletons"
+    ]
+   },
+   {
+    "deck_key": "bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-royal-delivery-wall-breakers",
+    "name": "Ronin Log Bait",
+    "archetype": "bait",
+    "matched": 4,
+    "contradicted": 3,
+    "score": -1.97,
+    "remaining": [
+     "bomb-tower",
+     "ice-spirit",
+     "magic-archer",
+     "ronin"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0
+ }
+}

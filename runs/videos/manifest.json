@@ -692,6 +692,88 @@
    ],
    "own_deck_video": [],
    "complete": true
+  },
+  "rTamPgdaLUs": {
+   "id": "rTamPgdaLUs",
+   "title": "Hero Berserker is INVINCIBLE!!!",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 5263,
+     "seconds": 2585.1,
+     "games": [
+      {
+       "match": "0.0",
+       "seconds": 161.8,
+       "events": 63,
+       "own_deck": [
+        "berserker",
+        "wall-breakers",
+        "bats",
+        "spear-goblins",
+        "miner",
+        "fireball",
+        "bomb-tower",
+        "goblins"
+       ]
+      },
+      {
+       "match": "0.1",
+       "seconds": 278.1,
+       "events": 107,
+       "own_deck": [
+        "berserker",
+        "x-bow",
+        "electro-spirit",
+        "skeletons",
+        "tesla",
+        "fire-spirit",
+        "the-log",
+        "rocket"
+       ]
+      },
+      {
+       "match": "0.2",
+       "seconds": 207.0,
+       "events": 84,
+       "own_deck": [
+        "ice-spirit",
+        "graveyard",
+        "knight",
+        "barbarian-barrel",
+        "berserker",
+        "furnace",
+        "goblin-hut",
+        "poison"
+       ]
+      },
+      {
+       "match": "0.3",
+       "seconds": 230.1,
+       "events": 84,
+       "own_deck": [
+        "ice-spirit",
+        "wall-breakers",
+        "berserker",
+        "dart-goblin",
+        "royal-delivery",
+        "goblin-barrel",
+        "fire-spirit",
+        "tesla"
+       ]
+      }
+     ]
+    }
+   ],
+   "periods": [
+    [
+     14.0,
+     892.0
+    ]
+   ],
+   "own_deck_video": [],
+   "complete": true
   }
  }
 }

@@ -1,0 +1,87 @@
+{
+  "key": "rTamPgdaLUs-m0.2",
+  "match_file": "matches/rTamPgdaLUs-m0.2.md",
+  "video_title": "Hero Berserker is INVINCIBLE!!!",
+  "cards": {
+    "berserker": [
+      "clock 2:45 to OT 1:38 (Hero form, 'Savage Survival'): five deployments, all left lane — [3, 10] and [4, 10] as defensive bodies on his own half, and [3, 15], [2, 15], [2, 14] at the river as the Graveyard's tank. She is never sent alone at a tower; every river placement is within 1-2 s of a Graveyard cast.",
+      "clock 2:33: the ability is what makes the Graveyard playable for him — 'Normally I wouldn't, but because I have the ability... I can pop the ability now, keep it alive, but it's going to tank for the graveyard for a decent amount of time to get us some extra damage, maybe a shot.'",
+      "clock 1:11: pops it on defence and gets the game's biggest damage swing (enemy left tower 2809 -> 1560 across clock 1:09-1:05): 'Let's pop the ability here... look the berserker. Oh my god, it killed the spirit. Look at all that damage. Okay, maybe there isn't a reduction.' Earlier, at clock 2:03, he had read it the other way: 'It looks like it does reduce tower damage whenever it's in the ability... it would do more if there wasn't a reduction' (the hero card confirms -75% Crown Tower damage for 4 s).",
+      "OT 1:31: the winning sequence is Berserker first, then Graveyard, then the ability — 'maybe we don't graveyard at all. Maybe we need to Berserker first. Berserker graveyard here and then if we pop the ability, it should just live long enough to take the tower... GG's. Nice win.' He also declines the ability once, at clock 0:41 ('Nah, we can't ability'), and rates the 3-elixir cost as forgiving: 'you do have room to do bad abilities' (clock 0:13)."
+    ],
+    "graveyard": [
+      "clock 2:33, 1:19, 0:46, 0:15, OT 1:38 and OT 1:34: six casts, every one on the far-left column against the enemy left tower ([1, 24] to [1, 26]) — the edge-of-tower placement the card file recommends — and he never switches lanes with it.",
+      "clock 1:19: the standard package is Graveyard plus a Berserker at the river to tank, not a spell to protect it: 'let's go for the graveyard berserker here. Just be annoying as annoying as we possibly can, especially cuz he had no berserker in cycle, so it's going to force out a lot more elixir.'",
+      "clock 2:19: he grades a Graveyard by elixir drained as much as damage — 'Oh, if we got a shot that would have been great, but it did get us some nice damage and force out a lot of extra elixir.'",
+      "OT 1:41: with Poison in hand he casts the spell first and the Graveyard second — 'I do want to go for a graveyard poison again though. Let's poison first and then...' — so the small defenders are already dying when the Skeletons arrive."
+    ],
+    "poison": [
+      "clock 2:26, 0:05 and OT 1:41: three casts at [4, 22], [5, 23] and [4, 20], all on the enemy left tower behind a Graveyard, none on defence — the deck's whole spell budget goes to protecting the Skeletons.",
+      "OT 1:41: he states the ordering inside the push — 'Let's poison first and then...' — Poison down before the Graveyard rather than reactively after the defenders appear."
+    ],
+    "knight": [
+      "clock 2:18, 2:11, 1:00, 0:28 and OT 1:51 (Evolution): five plays, all on his own half in the left lane he is defending — [1, 11], [3, 11], [8, 11], [3, 9], [3, 8] — as the wall in front of the tower: 'Let's go for the Evo Knight here in front of the tower' (clock 0:37).",
+      "OT 1:51: paired with Barbarian Barrel as one defensive unit against a Battle Ram/Battle Healer push — 'We can go for the Knight plus barbarian barrel here on defense. Just take this all out. Beautiful.'",
+      "clock 0:28: he plays it expecting to be punished by a big spell and accepts it — 'Let's go for the Knight here. He might go for a rocket.'"
+    ],
+    "furnace": [
+      "clock 2:21, 1:35, 0:53 and OT 1:57: four placements, each a different job — [8, 8] centre-half, [9, 1] directly in front of the King's Tower, [2, 5] onto an already-defended left lane, and [9, 11] in overtime.",
+      "clock 2:45: he opens the game sceptical of the card after a Fire Spirit nerf — 'I'm kind of interested how furnace is going to work now after the nerf to the spirits. Like spirits won't even reach the tower. I feel like furnace is going to need like a big buff to compensate for that.'",
+      "clock 0:03: by the end of regular time he credits it for the chip that set up the overtime win — 'Furnace is on the tower. Let's go. Good damage.'"
+    ],
+    "goblin-hut": [
+      "clock 1:45, 0:32 and OT 1:55: all three at [8, 10] — the middle of his own half between the two Crown Towers — used as a cycle card as much as a defence: 'Okay, let's cycle our goblin hut here. We have kind of a weird cycle.'",
+      "clock 0:32: he sequences the hut ahead of his mini-tank when the opponent cannot remove buildings — 'Let's go for the Evo Knight here in front of the tower. Actually, let's Goblin Hut first because I think he can't really take this out, and stocking up the Goblin Huts could be pretty nice for us.'",
+      "OT 1:55: rebuilds it immediately in overtime ('Let's Goblin Hut here in the middle again'); its Spear Goblins are on the field feeding his left lane from clock 0:27 onward while the Graveyard chips."
+    ],
+    "barbarian-barrel": [
+      "clock 2:42, 1:11, 0:25, 0:05 and OT 1:50: used purely on defence in this game, twice at [3, 6] into Skeletons and Bomber runs — 'Let's barbarian barrel here, take this out. Good defense' (clock 0:25).",
+      "clock 0:58: rolled preemptively while expecting the opponent's small spell — 'Let's barb barrel here to take this out. He might get a snowball down.'",
+      "Never used as the Graveyard's bridge tank (the KB's standard Barrel + Graveyard line) — that role goes to the Hero Berserker at the river on all four Graveyard pushes."
+    ],
+    "ice-spirit": [
+      "clock 2:17 to OT 1:27: the cycle card and cheapest defensive filler, eight-plus plays ([1, 8], [8, 0], [2, 5], [1, 14], [1, 7], [3, 15] plus HUD casts), usually attached to a Knight or Furnace defence on the left lane.",
+      "clock 1:25: an explicit placement rule — 'Let's go for the ice spirit here in the back. There's no point putting it at the bridge, right? Cuz it's not going to connect to the tower anyway.'",
+      "clock 0:15: added to the Graveyard stack for survivability rather than damage — 'a graveyard plus Berserker spirit here as well. Just keep everything alive.'"
+    ],
+    "goblin-drill": [
+      "clock 2:38 and clock 0:48 (opponent): drills up at [2, 6] and [1, 2] deep on Ryley's left half. He never builds a dedicated answer, letting the Knight/Barbarian Barrel/Furnace shell that is already there handle it; his left tower still takes steady unattributed chip through both drills."
+    ],
+    "skeletons": [
+      "clock 2:42, 0:50, 0:32 and 0:04 (opponent): the recurring cycle card in both lanes; Barbarian Barrel plus Knight is Ryley's standing answer — 'Let's barbarian barrel here, take this out. Good defense' (clock 0:25)."
+    ],
+    "bomber": [
+      "clock 2:26 through OT (opponent): his main support, repeatedly walking Ryley's left lane ([7, 24], [4, 21], [7, 20], [6, 24], [4, 16], [3, 13]). The Furnace + Ice Spirit + Knight defence exists mostly to stop it: 'Good defense should take this all out' (clock 0:51)."
+    ],
+    "giant-snowball": [
+      "clock 0:58 and 0:53 (opponent, Evolution): named twice by Ryley and never cleanly detected — 'He might get a snowball down' and 'Yeah, there's the Evo snow.' He spaces his Ice Spirit and Furnace rather than stacking them into it."
+    ],
+    "rocket": [
+      "clock 0:28: mentioned, not seen — 'Let's go for the Knight here. He might go for a rocket.' No Rocket damage is recorded on his side in this game."
+    ],
+    "magic-archer": [
+      "clock 1:39: mentioned only, as the one hero he rates near the Berserker — 'I don't know if there's any hero that will be as good as this one except maybe the magic archer, but the archer might get nerfed in the final balance changes. I really hope it does.'"
+    ],
+    "goblins": [
+      "clock 0:05: mentioned only, as the reference point for a cheap hero ability — 'unlike some heroes, right, like the ability being so cheap like goblins, you can never really do a bad one.'"
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-berserker-furnace-goblin-hut-graveyard-ice-spirit-knight-poison",
+    "cards": ["barbarian-barrel", "berserker", "furnace", "goblin-hut", "graveyard", "ice-spirit", "knight", "poison"],
+    "bullets": [
+      "Game 3 of a four-deck Hero Berserker showcase; Ryley names the list himself at clock 2:47 — 'now we're going to be playing with graveyard poison' — and wins it in overtime.",
+      "One-lane plan: every offensive commitment is Graveyard on the enemy left tower ([1, 24]-[1, 26]) with the Hero Berserker landing at the river to tank and Poison behind it (clock 2:33, 1:19, 0:46, 0:15, OT 1:38). The Berserker replaces the usual Barbarian Barrel bridge tank because 'Savage Survival' keeps her alive through the tower: 'Normally I wouldn't [graveyard], but because I have the ability... it's going to tank for the graveyard for a decent amount of time.'",
+      "Defence is entirely on his own half and entirely in the lane the opponent attacks: Knight in front of the tower, Barbarian Barrel and Ice Spirit on top, Furnace and Goblin Hut in the centre ([8, 8]-[9, 11]) to drip spirits and Spear Goblins into both jobs at once.",
+      "Spawner chip decides the game as much as the Graveyard does — 'Furnace is on the tower. Let's go. Good damage' (clock 0:03) — and he stacks huts on purpose: 'let's Goblin Hut first because I think he can't really take this out, and stocking up the Goblin Huts could be pretty nice for us' (clock 0:32).",
+      "Result: enemy left tower ground 3052 -> 210 while his own left holds at 1067; the finish is Berserker, then Graveyard, then the ability in overtime (OT 1:31): 'if we pop the ability, it should just live long enough to take the tower... GG's. Nice win.'"
+    ],
+    "new_deck": {
+      "display_name": "Graveyard Poison (Hero Berserker)",
+      "archetype_primary": "control",
+      "archetype_secondary": "none",
+      "rationale": "Two spawners plus Knight/Barbarian Barrel/Ice Spirit defend and chip while a single repeatable Graveyard + Poison package is the only offence, which is the control pattern rather than cycle or bait.",
+      "why_it_works_md": "The deck plays one lane and one push: Graveyard on the enemy tower with the Hero Berserker dropped at the river to tank it, and Poison ahead of the Skeletons to clear the cheap answers. The Hero's \"Savage Survival\" (3 elixir, 4 seconds, cannot drop below 1 HP) turns a 2-elixir troop into a tank that survives the Crown Tower long enough for the Skeletons to accumulate, which is why Ryley casts Graveyards he says he otherwise would not. Behind it, Furnace and Goblin Hut sit in the centre of his own half, so the same buildings feed defensive bodies against Goblin Drill and Bomber pressure and passive chip into the tower he is attacking. Knight, Barbarian Barrel and Ice Spirit cover the ground defence cheaply enough that the 9-elixir Graveyard + Poison + ability package can be repeated every rotation. The cost is that the ability's -75% Crown Tower damage means the Berserker chips very little herself, and the deck has no air answer beyond the Furnace spirits."
+    }
+  }
+}

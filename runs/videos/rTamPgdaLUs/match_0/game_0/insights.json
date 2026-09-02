@@ -1,0 +1,90 @@
+{
+  "key": "rTamPgdaLUs-m0.0",
+  "match_file": "matches/rTamPgdaLUs-m0.0.md",
+  "video_title": "Hero Berserker is INVINCIBLE!!!",
+  "cards": {
+    "berserker": [
+      "clock 2:37, 2:07, 2:00, 1:34, 1:12, 0:51, 0:42, 0:32: eight deployments in 161 readable seconds, split between a right-lane bridge body at [14, 14] / [12, 13] leading Spear Goblins and Wall Breakers, and a left-pocket defensive body at [3, 8] / [1, 13] / [2, 8] against Lava Hound pups and Skeleton Dragons — the 2-elixir cost is what lets him replay her every cycle.",
+      "clock 2:30 and 1:07: the Hero's Savage Survival ability (3 elixir, no card leaves the hand) is spent purely for survivability, never as a damage burst — 'Let's pop our ability here right now, actually, just to keep it alive and tank for our troops for a little bit longer' (36s) and 'I'm going to ability here, guys, cuz it's going to tank for my spear goblins' (118s). A third, unnarrated 3-elixir drop lands at 2:14.",
+      "clock 1:07-1:01: with the ability running, his Berserker beats the opponent's own Berserker and the enemy right tower runs 1224 -> 109 in eight seconds — 'his berserker instantly died and we get some damage on the tower. That's tower down because of the ability' (121-124s).",
+      "clock 1:57-1:47 and 1:29-1:25, on the card in general: 'definitely very counterable, which is something that I like, but it seems super strong when your opponent is either really low on elixir or if you're like on defense'; 'The ability is three elixir, which is pretty pricey in my opinion, but you get a lot of utility out of it'; and 'you can't really just ignore Berserkers cuz the Berserker naked will deal nearly your entire tower.'"
+    ],
+    "wall-breakers": [
+      "clock 2:23, 2:17, 1:55, 1:23: bridge pairs at [14, 14] and [13, 14] / [13, 12], always sent behind a Berserker that has already pulled the defence, in a 2.6-average list where he can afford to replay them every rotation.",
+      "clock 1:21: used defensively as a kite — an enemy Valkyrie was flagged 1.8 s from his right tower and he answers with Wall Breakers at [14, 14]; the Valkyrie is logged retreating two seconds later. 'Let's go for the wall breaker kite here' (104s).",
+      "clock 0:39: dropped on the river centre tile [9, 16] to split the pair into both lanes, timed off spell tracking — 'let's bats the bridge immediately cuz he's not back to the instant zap. Let's wall breakers here' (146-148s).",
+      "clock 0:27: a last pair sent 'to kite' while he was still defending, immediately before he calls the game (166-169s)."
+    ],
+    "miner": [
+      "clock 1:39: offensive Miner at [13, 20] on the opponent's half, aimed at a building rather than the tower — 'Let's minor for the tombstone. Okay, nice' (88-89s).",
+      "clock 0:47 and 0:25: two placements on his OWN half during the Graveyard / Lava Hound defence — [6, 11] and [0, 9] — the second explicitly as a shield: 'Let's minor here defensively just to tank those skelly drags. Perfect defense' (162-163s).",
+      "clock 2:14-1:34: he calls the list a 'minor wall breakers deck' (50s) and says the Hero Berserker 'fits really, really nicely' in it — Miner is the second cheap win condition that keeps the opponent answering something every cycle."
+    ],
+    "spear-goblins": [
+      "clock 2:31, 1:49, 1:14: always the ranged half of a Berserker package — [15, 14] behind the 2:37 Berserker, [10, 7] at 1:49, and [14, 9] at 1:14, the pair he then spends the 3-elixir ability to protect ('it's going to tank for my spear goblins', 118s).",
+      "clock 0:31: a fourth set held back on purpose rather than played on sight — 'we have another set of spear goblins. I'm going to wait though' (150s)."
+    ],
+    "bats": [
+      "clock 2:07, 0:57, 0:25: defensive drops at [5, 8], [0, 10] and [2, 15] into Lava Hound pups and Skeleton Dragons in the left lane.",
+      "clock 0:51 and 0:39: treated as the deck's designated Zap bait, and he tracks the trade both ways — 'He wasted his zap though on the bats. We can go for the spear goblins here, get a lot of value' (133-136s), then 'let's bats the bridge immediately cuz he's not back to the instant zap' (146s).",
+      "clock 0:19: bridge drop with the risk stated out loud — 'Bats here. He might zap.' The opponent zaps and he calls it 'bad evo zap by him' (164-166s)."
+    ],
+    "bomb-tower": [
+      "clock 0:56: dead-centre placement at [7, 10] on his own half against a Graveyard dropped in front of his King — 'let's go for the evil bats here and then we can go for the bomb tower. I still do need to finish out this defense here if I want to win this game' (128-131s).",
+      "clock 0:33: placed off-centre at [3, 12] specifically for the death bomb against an incoming Lava Hound — 'we can just bomb tower here in the middle like this cuz the bomb tower bomb will actually blow up the lava pups' (151-155s)."
+    ],
+    "fireball": [
+      "clock 2:15 and 0:45: both casts are defensive and both land in his own left lane on Lava Hound support — [2, 11] and [2, 12]. He never spends it on a tower. 'Let's berserker here. We can go for a nice fireball on defense. And yeah, very good defense here' (140-144s)."
+    ],
+    "goblins": [
+      "clock 0:48: one readable deployment, [1, 10] in his own left pocket during the Graveyard and Lava Hound defence; he does not name the card. It is the third swarm in a list whose whole plan is making one small spell answer four things."
+    ],
+    "lava-hound": [
+      "clock 2:35, 1:09, 0:35: the opponent commits a Lava Hound three times, always at the back of Ryley's left lane ([1, 26], [1, 24]). Ryley never spends a hard counter on the Hound itself — he lets it walk and answers the pups with Bats, Spear Goblins, Berserker and Fireball in the pocket, taking the chip (left tower 3052 -> 1181) while he wins the other lane.",
+      "clock 0:33: his stated anti-Hound placement is the Bomb Tower's death bomb, not the tower's attack — 'the bomb tower bomb will actually blow up the lava pups' (155s)."
+    ],
+    "graveyard": [
+      "clock 0:55: the opponent drops a Graveyard at [7, 3] in front of Ryley's King Tower. He answers with a package rather than one card — Bats at [0, 10], Bomb Tower dead centre at [7, 10], Goblins at [1, 10] and a Miner at [6, 11] — and says he has to 'finish out this defense here if I want to win this game' (131s)."
+    ],
+    "valkyrie": [
+      "clock 1:15-1:19: the opponent's Valkyrie crosses into Ryley's right lane and is flagged 1.8 s from the tower; he answers with a 2-elixir Wall Breakers kite at [14, 14] rather than a defensive troop, and the Valkyrie is tracked retreating two seconds later — 'Let's go for the wall breaker kite here' (104s)."
+    ],
+    "skeleton-dragons": [
+      "clock 0:29-0:19: the opponent's air support behind the third Lava Hound, tracked into Ryley's left lane. He tanks them with a defensive Miner and Berserker rather than spending the Fireball — 'We need the berserker to tank for everything' (157s) and 'Let's minor here defensively just to tank those skelly drags. Perfect defense' (162-163s)."
+    ],
+    "tombstone": [
+      "clock 1:39: named only, as the target of an offensive Miner — 'Let's minor for the tombstone. Okay, nice' (88-89s). No Tombstone deploy label was read, so the card is taken from the commentary."
+    ],
+    "zap": [
+      "clock 0:51 and 0:19: the opponent's Evo Zap is the card Ryley plays the whole match around, and he punishes both misuses — 'He wasted his zap though on the bats' (133s), then he baits it again with Bats at the bridge ('Bats here. He might zap') and calls it 'bad evo zap by him' before sending Wall Breakers (164-168s). Textbook bait-deck spell tracking."
+    ]
+  },
+  "deck": {
+    "deck_key": "bats-berserker-bomb-tower-fireball-goblins-miner-spear-goblins-wall-breakers",
+    "cards": [
+      "bats",
+      "berserker",
+      "bomb-tower",
+      "fireball",
+      "goblins",
+      "miner",
+      "spear-goblins",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 1 of four in a deck-showcase video for the pre-release Hero Berserker; readable window 14.3s-176.2s (161.8s), so the first ~10 seconds of the game are missing. Ryley names the list himself at 50s: 'I'm using it here in this minor wall breakers deck because I do feel like it fits really, really nicely.'",
+      "Result: win, called at 168-169s ('that is going to be good game. Let's go. Very nice win, guys'), against Lava Hound beatdown with Skeleton Dragons, Graveyard, Valkyrie, Miner, Tombstone, Evo Zap and a mirror Hero Berserker.",
+      "The plan is one-lane trade: he concedes the left lane to repeated Lava Hounds (his left tower 3052 -> 1181, most of it lost in four seconds at 2:05-2:01 to the opponent's own Berserker ability) and chips the right lane with Berserker + Spear Goblins + Wall Breakers until the enemy right crown tower falls at about 1:01.",
+      "Savage Survival is used three times (2:30, 2:14, 1:07) and both narrated uses are survivability, not damage — 'just to keep it alive and tank for our troops for a little bit longer' (36s), 'it's going to tank for my spear goblins' (118s) — consistent with the ability's -75% Crown Tower damage. His summary: 'pretty pricey... but you get a lot of utility out of it' (85-87s).",
+      "The bait half of the deck is played by tracking one card. He spends Bats to draw the opponent's Evo Zap, then attacks the moment it is out of cycle: 'He wasted his zap though on the bats' (133s) and 'let's bats the bridge immediately cuz he's not back to the instant zap. Let's wall breakers here' (146-148s).",
+      "Defence is cheap and layered rather than hard-countering: Bomb Tower centre at [7, 10] for the Graveyard (0:56) and off-centre at [3, 12] so its death bomb catches lava pups (0:33), Fireball only ever on his own half, and Wall Breakers and Miner both repurposed as kites/shields (1:21, 0:25)."
+    ],
+    "new_deck": {
+      "display_name": "Hero Berserker Miner Wall Breakers Bait",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Bats, Goblins, Spear Goblins and Wall Breakers all demand the same small spell, and Ryley pilots the match by tracking the opponent's Zap and attacking the moment it is out of cycle; the 2.6 average elixir gives it a cycle second gear.",
+      "why_it_works_md": "Four of the eight cards — Bats, Goblins, Spear Goblins and Wall Breakers — die to the same 2-elixir spell, so one Zap can never cover the rotation, and at 2.6 average elixir the rotation comes around faster than the opponent's answers do. The Hero Berserker is what turns that bait into damage: at 2 elixir she is cheap enough to lead every push, and Savage Survival means a defender who commits to killing her simply fails for four seconds, so the Spear Goblins and Wall Breakers behind her connect. Ryley uses the ability strictly as a shield rather than a finisher — it deals -75% to Crown Towers — and says the card 'seems super strong when your opponent is either really low on elixir or if you're like on defense.' Defensively the list is complete for its cost: Bomb Tower holds ground pushes and its death bomb clears Lava Pups, Bats and Spear Goblins cover air, and Fireball stays home on support troops. The weakness is that it has no way to close quickly against a tank — the whole win here is chip in one lane while the other lane bleeds."
+    }
+  }
+}

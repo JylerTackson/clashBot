@@ -1,0 +1,76 @@
+{
+  "key": "rTamPgdaLUs-m0.1",
+  "match_file": "matches/rTamPgdaLUs-m0.1.md",
+  "video_title": "Hero Berserker is INVINCIBLE!!!",
+  "cards": {
+    "x-bow": [
+      "clock 2:19 (t=205.2): first lay at tile [13, 12], three rows off the river on his own half, with a bridge Berserker at [14, 14] two seconds later instead of a tank — \"Let's go for the X-Bow here, and I'm going to berserker the bridge cuz he might try to defend\"; the enemy right tower runs 3052 -> 2147 over the next fifteen seconds.",
+      "clock 1:24 and 0:57 (t=261.4, 288.3): re-laid at [14, 12] (9 -> 3 elixir) and [13, 12] behind a Tesla he had already put at the bridge — the stated point is the elixir tax, not the damage: \"He has to rocket that. Anything else won't really work in my opinion\" (t=298-300).",
+      "clock 0:50 and 0:28-0:25 (t=296.3, 317.3, 320.3): switches lanes with X-Bows at [2, 12], [3, 13] and [4, 11] once the right lane is saturated, each one paired with a Berserker or Tesla at the bridge on that side.",
+      "overtime 2:00 to 0:22 (t=344.3, 370.4, 398.2, 429.4): four more lays ([4, 12], [14, 14], [15, 12] at 9 -> 3, [15, 12]) as the Rocket race starts — \"just by going expo plus berserker and the ability\" is how he expects to break through (t=359-361); the last one finishes the enemy right tower at 354 HP."
+    ],
+    "berserker": [
+      "Played as the Hero Berserker throughout (heroes/berserker-hero.md, 2 elixir + 3 for Savage Survival), and the video's thesis is that she is a siege card: \"the hero berserker is pretty strong in siege decks… typically when you're trying to defend an X-Bow or a mortar you need to put cards at the bridge to be able to attack it. But when you have the hero berserker, you can pop the ability and get a few seconds of invincibility plus a crazy spurt of damage, which can usually end up getting you an X-Bow or a mortar connection\" (t=182-204).",
+      "clock 2:17-2:15 (t=207.7, 210.2): Berserker at [14, 14] at the bridge beside a fresh X-Bow, then the ability — \"let's go for the ability here, guys. And look at this. It's going to completely wipe out everything\" — which erases the opponent's defending Tesla: \"Look at that Tesla. Oh my god. It's already gone\" (t=215). His generalisation: \"you can just instantly wipe out their defenses and they just don't have enough elixir to kind of recoup\" (t=227-233).",
+      "clock 1:22 and 0:42 (t=262.3, 303.0): bridge Berserkers at [15, 14] and [5, 14], the first purely to bait the Rocket (\"Let's berserker here just to make him rocket… later in the game I can just rocket cycle him anyway\", t=263-268), the second with the ability held for the duel — \"Let's berserker, skellies, e-spirit and then we can pop the ability just to win the one-v-one. Look, that's going to take out his Evo Tesla\" (t=304-308).",
+      "overtime 1:06 to 0:38 (t=399.2, 407.4, 426.4): used defensively at [12, 7] and [14, 4] and as a blocker (\"another berserker here to block his next Tesla\", t=427), and the ability spent on the opponent's own Hero Berserker — \"Let's ability here to instantly wipe out his berserker. Yo, his berserker's going to insta-die\" (t=421-425). He also notes the cost oddity: \"the ability being three elixir is interesting, cuz the ability costs more than the actual card\" (t=363-366), and, from the defender's side, that Berserker + ability into an X-Bow is \"five whole elixir\" and probably distractable (t=321-333)."
+    ],
+    "tesla": [
+      "clock 2:38 and 0:39 (t=186.4, 306.3): defensive placements at [8, 13] and [5, 13] on his own half (10 -> 6 elixir on the first), the standard central pull spot, while Electro Spirit and Skeletons clean up behind it.",
+      "clock 1:36 and 0:57 (t=249.6, 287.3): pre-emptive bridge Teslas at [10, 13] and [11, 13] as X-Bow armour and Rocket bait — \"I'm going to Tesla the bridge here just to be a little bit annoying. Kind of just forcing him to rocket the next expo, because if there's a preemptive Tesla down, there's not really anything that he's able to do other than rocket\" (t=252-263).",
+      "overtime 1:38 to 0:34 (t=367.5, 398.4, 416.4, 431.1): four more, one of them explicitly a prediction of the opponent's building — \"I know he's going to Tesla, so let's go with Tesla to predict his Tesla. Perfect. Very good prediction by us right there\" (t=415-419)."
+    ],
+    "rocket": [
+      "Held all through regulation and spent only in overtime: Rocket at tile [12, 22] on the enemy right tower at overtime 1:55 (t=349.3) and again at 0:20 (t=446.4), each taking 342 HP off it (2112 -> 1770, then 1108 -> 760 -> 470 -> 354).",
+      "The stated plan is a Rocket-for-Rocket race that the X-Bow forces: \"he has to rocket that, and then we can just rocket his tower back. Just to grab that free damage. And then, by us doing this, he's going to have to start rocket cycling us back. And once he starts rocket cycling, I think we'll be able to break through pretty simply\" (t=347-357), foreshadowed at t=266-268 — \"later in the game I can just rocket cycle him anyway\".",
+      "Both casts were logged by the HUD as a 4-elixir Fireball and corrected from the deploy label plus the commentary; the same 342-HP signature identifies the opponent's Rocket on his own tower at overtime 1:09."
+    ],
+    "electro-spirit": [
+      "clock 2:34 (t=190.9): defensive at [2, 6] behind his own left tower, together with Skeletons at [1, 7], against Skeletons the tracker had reaching the tower in 1.0 s.",
+      "clock 2:12 (t=213.4): at [13, 15] on the river line immediately behind the first X-Bow and bridge Berserker — the 1-elixir layer that keeps small defenders off the building.",
+      "overtime 0:57 and 0:28 (t=408.4, 437.1): at [14, 15] again beside the X-Bow, and at [12, 6]/[14, 5] on his own half when something crossed. Named as part of his standard package: \"Let's berserker, skellies, e-spirit and then we can pop the ability\" (t=304)."
+    ],
+    "fire-spirit": [
+      "clock 1:10 and 0:36 (t=276.3, 311.3): dropped at [14, 15] and [4, 14] at the river beside the X-Bow, used interchangeably with the Electro Spirit as the cheap screen.",
+      "overtime 1:32 to 0:26 (t=373.4, 391.4, 412.4, 437.4): five more at [16, 7], [9, 15], [14, 5] and [14, 15], all in the siege lane.",
+      "His only comment is about the balance patch, not the placement: \"the spirit nerf is so interesting, man. Like look, it's just not going to connect to the tower… I feel like I'm going to just keep dropping spirits at the bridge not really remembering what they've done to my poor spirits\" (t=275-286)."
+    ],
+    "skeletons": [
+      "clock 2:33 and 0:41 (t=192.2, 304.0): defensive at [1, 7] and [12, 7] on his own half, the cheap distraction layer in front of the Tesla.",
+      "clock 2:05 and 1:12 (t=220.2, 273.6): at [14, 14] and [14, 8] behind the X-Bow to hold defenders off it — \"Let's skellies here as well\" (t=274).",
+      "Twice used as a Miner prediction: \"Let's skellies here in case he goes for the miner\" (t=335-337, Skeletons at [14, 9]) and \"skellies behind predicting the minor\" (t=391); the opponent's Miner does land at [13, 15] at overtime 0:47."
+    ],
+    "the-log": [
+      "Three casts, all on his own side of the river next to the X-Bow: [14, 14] at clock 2:16 (t=227.2), [14, 14] at overtime 1:16 (t=388.4, logged by the HUD as Barbarian Barrel) and [14, 15] at overtime 0:28 (t=435.4).",
+      "Used purely as X-Bow protection against the ground swarms the opponent puts in front of the building; he never mentions it on air in this game."
+    ],
+    "miner": [
+      "Not his card — the opponent's — but it shapes two of his plays: he pre-places Skeletons for it twice (\"Let's skellies here in case he goes for the miner\", t=335-337; \"skellies behind predicting the minor\", t=391) and the Miner duly arrives at [13, 15] at overtime 0:47 into the waiting Skeletons."
+    ],
+    "mortar": [
+      "Mentioned, not played: he treats X-Bow and Mortar as the same problem for the defender, and the Hero Berserker as the fix — \"typically when you're trying to defend an X-Bow or a mortar, right? You need to put cards at the bridge to be able to attack it. But when you have the hero berserker, you can pop the ability… which can usually end up getting you an X-Bow or a mortar connection\" (t=187-204)."
+    ],
+    "tombstone": [
+      "Mentioned, not played, and only as a Hero comparison while discussing Savage Survival's 3-elixir cost: \"I think there's only been one hero since that, and it's the tombstone. And the tombstone is obviously garbage\" (t=366-373)."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-electro-spirit-fire-spirit-rocket-skeletons-tesla-the-log-x-bow",
+    "cards": ["x-bow", "tesla", "berserker", "electro-spirit", "fire-spirit", "skeletons", "the-log", "rocket"],
+    "bullets": [
+      "Game 2 of 4 in a Hero-Berserker deck-showcase video (readable window 176.3-454.5s): the X-Bow 2.9 shell with Rocket in the spell slot and Fire Spirit where most lists run Archers, introduced as \"trying out the hero berserker with X-Bow… the hero berserker is pretty strong in siege decks\" (t=177-185). Won it in triple-elixir overtime with the enemy right tower at 354 HP — \"Very nice win, dude. This berserker is just ridiculously strong\" (t=449-452).",
+      "The loop is one X-Bow per elixir tier, one row or three off the river ([13, 12] at clock 2:19, [14, 12] at 1:24, [13, 12] at 0:57, [2, 12] at 0:50, [4, 12]/[14, 14]/[15, 12] in overtime), never tanked by a big unit: the Hero Berserker at the bridge plus Savage Survival is the tank, and Tesla, Electro Spirit, Fire Spirit, Skeletons and The Log are the screen.",
+      "Savage Survival is used three times as a defender-clearer, never for tower damage (it does -75% to Crown Towers): clock 2:15 to wipe the defence off the first X-Bow (\"It's going to completely wipe out everything… Look at that Tesla. Oh my god. It's already gone\"), clock 0:42 \"just to win the one-v-one\" against an Evo Tesla, and overtime 0:43 against the opponent's own Hero Berserker.",
+      "Against a Golem list whose only real X-Bow answer is the Rocket, the deck is played as an elixir tax: pre-emptive bridge Teslas at clock 1:36 and 0:57 and a 2-elixir Berserker at 1:22 to force the Rocket — \"this is basically just guaranteeing him have to defend with the rocket, which is really good for us\" (t=270-273) — then a fresh X-Bow behind it.",
+      "The Rocket slot is what the Fireball version does not have: held until overtime, then two casts at [12, 22] for 342 HP each on the enemy right tower, on the theory that \"he's going to have to start rocket cycling us back. And once he starts rocket cycling, I think we'll be able to break through pretty simply, just by going expo plus berserker and the ability\" (t=353-361).",
+      "Skeletons and Tesla are also used as predictions rather than reactions late on — Skeletons pre-placed for the Miner (t=335, 391) and a Tesla dropped to beat the opponent's Tesla (\"let's go with Tesla to predict his Tesla. Perfect\", t=415-419)."
+    ],
+    "new_deck": {
+      "display_name": "X-Bow Hero Berserker Rocket 2.9",
+      "archetype_primary": "siege",
+      "archetype_secondary": "cycle",
+      "rationale": "X-Bow is the win condition and every other slot is a 1-4 elixir answer that protects it or cycles back to it, with Rocket as the closer.",
+      "why_it_works_md": "The standard X-Bow 2.9 cycle with **Rocket** instead of Fireball and a **Fire Spirit** in the Archers slot, built around the **Hero Berserker** as the bridge tank. Because Savage Survival makes her undestroyable for four seconds, a 2-elixir card next to a fresh X-Bow clears whatever the opponent drops on the building — Ryley's pitch is that defending a siege building normally means putting cards at the bridge, and this deck punishes exactly that: \"you can just instantly wipe out their defenses and they just don't have enough elixir to kind of recoup\". Tesla doubles as a defensive pull and as pre-emptive X-Bow armour at the bridge, which leaves an opponent with only a heavy spell as a real answer. Rocket then converts that into a win condition of its own: once the enemy has to spend Rocket on every X-Bow, Ryley rockets the tower back for free damage and wins the cycle race in overtime."
+    }
+  }
+}
