@@ -53,6 +53,10 @@ def load_card_costs(kb: Path = KB) -> dict[str, float]:
 
 
 @dataclass
+# in-game cards without a Phase 1 page (wiki stubs); slug -> display name
+EXTRA_CARD_NAMES = {"minion-giant": "Minion Giant"}
+
+
 class Perception:
     config: str | Path
     source: FrameSource
@@ -88,7 +92,11 @@ class Perception:
         import json as _json
         _idx = _json.loads((self.kb / "meta" / "card_index.json").read_text())
         self.card_names = {c["slug"]: c["name"] for c in _idx["cards"]}
-        self.labels = DeployLabelReader(self.card_names, self.ocr.ocr, scale=self.label_scale) if self.ocr else None
+        # cards that exist in the game but have no knowledge-base page yet: the
+        # deploy label still reads them, so give the label matcher their names
+        # (otherwise "Minion Giant" fuzzy-matches "Giant")
+        label_names = {**self.card_names, **EXTRA_CARD_NAMES}
+        self.labels = DeployLabelReader(label_names, self.ocr.ocr, scale=self.label_scale) if self.ocr else None
         self.play = PlayDetector(self.costs)
         self.own_sim = ElixirSimulator()
         self.opp_sim = ElixirSimulator()
