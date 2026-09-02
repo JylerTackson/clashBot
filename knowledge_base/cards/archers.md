@@ -67,15 +67,59 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Low-hitpoint swarms — Minions, Goblins, Spear Goblins, Guards; they 2HKO Goblins and Spear Goblins, and 2HKO Minions when one level higher (very effective vs Minion Horde).
+- Unsupported Skeleton Army, Goblin Gang, and Graveyard when paired with a Crown Tower at a safe distance — their fast hit speed plus tower damage cuts the swarm down before it connects.
+- Balloon — as a pair they out-DPS a Musketeer for 1 less Elixir, letting only the death damage reach the Tower (place them ahead to avoid being weakened by it).
+- Mini-tanks and glass cannons with Crown Tower help — Knight, Musketeer, Mega Minion, Berserker, Hunter, Electro Wizard, Lumberjack, Golden Knight, Mighty Miner, Monk.
+- Wizard — stopped for a +2 Elixir trade, though the Archers die in the process.
+- Barbarians — with Crown Tower support they weaken or fully clear all 5 for a +2 Elixir trade; the farther Archer can pull some Barbarians into the second Crown Tower.
+- Inferno Dragon — his slow speed, short range and low initial damage stage let the Archers kill him before he reaches the Tower.
+- Flying Machine — countered for +1 Elixir with at least one Crown Tower, since it is notably frailer.
+- Skeleton Barrel — placed away from it, they kill it before it arrives and then clear the death-spawn Skeletons for a neutral Elixir trade.
+- Goblin Barrel — position them near the Goblins the Crown Tower is not targeting for a neutral Elixir trade and a surviving pair.
+- Witch and Night Witch — place far enough to clear the spawns first (split them against the Witch to dodge her splash); Archers usually survive a Night Witch when placed in the center of the player's side.
+- Siege buildings — with an Ice Golem tanking they take down an X-Bow for a +1 Elixir trade, and they beat a Mortar alone (surviving one hit) for +1 Elixir.
+- Wall Breakers — split Archers counter split Wall Breakers (negative Elixir trade but both survive) and quickly clear cheap tanks like Fire Spirit or Ice Spirit in front of them.
+- P.E.K.K.A. — a well-timed center split makes her walk between the two Archers, countering her for a +4 Elixir trade (add Skeletons to extend the distraction).
+- Split Royal Recruits, Elite Barbarians, and Royal Hogs — with a tank (Knight, Valkyrie, Golden Knight, Skeleton King) in front; no tank needed against split Royal Hogs.
+- Evolved Bats — their high hit speed strips the overheal hitpoints before the Bats can chip the Crown Tower.
+- Lava Pups — three-shot each, and with Crown Tower help quicker still, provided the Pups are distracted first.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Splash damage in general — Bomber, Valkyrie, Wizard, Witch, Dark Prince, Mega Knight, Princess, Sparky, Firecracker, Ice Wizard, Royal Ghost, Goblin Demolisher, Bowler, Magic Archer, Executioner, Skeleton King.
+- Arrows — neutral Elixir trade (but can be baited out with Archers before dropping a Minion Horde).
+- Zap, Giant Snowball, and Rage — enough damage for the Crown Tower to finish them; Evolved Zap kills them outright for +1 Elixir while stunning nearby units.
+- Fireball and Poison — kill them, though at a negative Elixir trade unless something else (or a Crown Tower) is also hit.
+- The Log and Earthquake — weaken them enough for the Crown Tower to OHKO; note the Archers survive The Log at equal level.
+- Vines — neutral Elixir trade, though one Archer survives if two healthier friendly troops take targeting priority.
+- Void — destroys both within 2 hits if they are the only troops inside it.
+- Royal Delivery — counters them for a neutral Elixir trade and leaves a Royal Recruit; best when something is tanking for the Archers.
+- Barbarian Barrel — damages them and spawns a Barbarian, but cannot kill them alone; they must be weakened first or finished by the Barbarian.
+- One-shotters placed on top — Mega Minion, Mini P.E.K.K.A., Prince, Night Witch, Spirit Empress.
+- Prince — cannot be countered by Archers alone because of his charge attack; Air Form Spirit Empress likewise beats them via range and hitpoints.
+- Royal Ghost — invisible until he attacks, so he kills them while taking no damage and stays healthy for a counterpush (neutral Elixir trade).
+- Golden Knight's Dashing Dash — chains onto tank-supported Archers and kills them, leaving him free to deal with the tank; a Goblin Machine's Rocket can similarly lock onto them.
+- Cannoneer and Dagger Duchess towers — the Cannoneer OHKOs them and the Dagger Duchess finishes them fast, negating split-Archer chip damage.
+- Electro Giant's Zap Pack, plus Arrows or Tornado, punish Archers used to defend him — poor positioning loses one or both.
+- A tanky troop sent up the middle (slightly staggered) diffuses split Archers by distracting both at once.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: cheap 3-Elixir versatile ranged support — good behind a tank, and hard to counter there since they survive The Log at equal level.
+- Splitting them behind or in front of the King's Tower covers both lanes cheaply and denies the opponent maximum spell value, with chip damage on the Tower Princesses/Royal Chefs if ignored.
+- Timing a center split just before an enemy troop arrives keeps both Archers on target while forcing the enemy to walk farther between them — especially good against area damage like Skeleton Dragons and Baby Dragon.
+- Split Archers pair with dual-lane cards (Royal Recruits, Royal Hogs, Elite Barbarians) for a strong two-lane push.
+- Split Archers in the center make Mighty Miner's Explosive Escape awkward: the Archer in the lane he re-enters pulls him while the other keeps attacking or starts a counterpush.
+- Miner + Archers deals surprising damage because the Miner tanks for them, especially when the opponent's spells are out of cycle.
+- Strong with Mortar and X-Bow: their medium range chips attackers with little risk, and either the Archers soak damage or the siege building trades lifetime to let the Archers finish the attacker.
+- Good support for building-targeting units when the opponent misplaces or is forced to play a building near the river; also useful as an Inferno Tower distraction and for clearing weak troops attacking Ram Rider, Goblin Giant, or Electro Giant.
+- Lava Hound synergy: they chip his counters and distract/chip Inferno Tower and Tesla; conversely they can counter a Lava Hound once his support and the opponent's spells are gone.
+- Electro Giant synergy: high damage and hit speed complement his Zap Pack for quick kills.
+- Cheap support for Golem, Giant, or Elixir Golem — the tank's hitpoints buy them a long window to deal damage.
+- Against one-shot units, place Archers as far away as possible so they get damage in first; against everything else, put a tank (Knight, Giant, Ice Golem, Berserker) to the side to soak splash.
+- Using Archers to help kill an Electro Giant is a last-resort play when low on Elixir — better to add support or use a building.
+- Substitutes: Spear Goblins (Archers outclass them except in speed, count, and cost), Musketeer (Archers give more pair DPS and crowd control for 1 less Elixir but far less bulk, per-hit damage, and range), Furnace, Dart Goblin (more range/speed/DoT but frailer and a single unit), Princess or Firecracker (splash and range but much slower), Bomber (cheaper, higher damage, ground-only), Minions or Bats in air-heavy decks, Archers + Knight to replicate Rascals, and Archer Queen or Little Prince as Champion alternatives.
 
 ## Evolution
 

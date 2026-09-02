@@ -70,15 +70,50 @@ Instead of a slow effect, Ice Wizard's attacks now stun the opponent for 2 secon
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Fragile swarms - Skeleton Army, Spear Goblins and Bats are cleared quickly despite his low area damage.
+- Skeletons and Bats specifically - his 360-degree spawn damage one-shots them.
+- Balloon - his damage plus the slow stop it reaching the Tower, a +2 Elixir trade.
+- Witch and Night Witch - he one-shots their Skeleton and Bat spawns and slows the Witches so they spawn less often, making him a great assist against tank plus Witch pushes.
+- Fast-attacking cards - Inferno Tower, Mighty Miner, Little Prince and Inferno Dragon take noticeably longer to reach maximum damage under his 30% slow.
+- Battle Healer - slowing her attack rate reduces the healing she generates.
+- Battle Ram - the slow makes it take longer to charge and reduces its speed once charging.
+- Barbarians - placed in the middle of your side he can counter a full squad and survive with a sliver of health.
+- Wizard - a cheap answer thanks to the slow, roughly a 2 Elixir profit (an equal-Level Wizard leaves him under half health).
+- Royal Giant - crippling the attack speed of a Royal Giant push, or being used to make an enemy Royal Giant far less threatening.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- High-damage spells - his moderate hitpoints make him vulnerable; Fireball fully kills an equal-Level Ice Wizard at a slight Elixir deficit and Poison kills him over its duration.
+- Barbarian Barrel - placed so the Barbarian pops out behind him, the Barbarian plus Crown Tower kill him for a 1 Elixir profit; Royal Delivery works similarly.
+- Void - kills a lone Ice Wizard for a neutral Elixir trade (Goblins or Barbarians deployed in time save him).
+- Skeletons after he crosses the bridge - surrounding him means he only hits one at a time while the rest, plus a tower troop, finish him.
+- Mini tanks placed on top of him - a Berserker in particular does so at a positive Elixir trade.
+- Ice Golem - tanking his attacks while the Crown Tower shoots him stops him for a +1 Elixir trade, one of the best checks to him.
+- Charging and high-mobility troops - Prince, Dark Prince, Bandit, Mega Knight, Boss Bandit, Evolved Royal Recruits and Fisherman close on him fast (the Fisherman even pulls him out of position).
+- Rage - neutralises his slow so troops can close on him without taking much damage.
+- Monk - his ability turns the Ice Wizard's own attack back onto him, damaging and slowing him and his allies.
+- Any tank or mini tank as a distraction - unlike the Ram Rider he cannot switch targets.
+- Evolved Bats - they survive his spawn damage even at full effect and immediately retaliate.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Typical role: 3 Elixir support troop - use him defensively first and convert into a counterattack, since his damage alone is negligible.
+- His attacks slow movement and attack speed by 30%, and his deploy also deals 360-degree damage with the same slow.
+- Best position is the middle of your side of the Arena: it maximises the distance melee troops must walk and puts them in range of your second Crown Tower.
+- A lone Ice Wizard on offence deals only a few hundred damage to a Tower, so weigh whether he has already earned defensive value before committing support to him; with a Cannoneer or Dagger Duchess the defender can safely ignore him.
+- Tornado is the iconic synergy - it clumps enemies so his splash damages and slows an entire group at once.
+- Ice Wizard plus Skeletons (or Goblins or Guards) counters single-target mini tanks such as Knight, Mini P.E.K.K.A, Mighty Miner, Battle Healer and Prince, with him surviving most of his hitpoints.
+- Ice Wizard plus Wizard is a powerful but risky defensive combo when the enemy push lacks ranged DPS - keep them apart so Poison or Fireball cannot hit both.
+- Pairs very well with Tombstone: he sits mid-field while the Tombstone's intermittent Skeletons and death spawn distract, together able to annihilate a pair of Elite Barbarians.
+- Synergises with Battle Healer, whose healing is safer once enemy attack rates are cut.
+- Works as a tank for Graveyard - slowing the Crown Tower's attack speed lets more Skeletons accumulate.
+- Spawn-damage techniques: dropped shortly after a centred Goblin Barrel crosses the river (about 2-3 tiles past) his spawn damage hits all three Goblins; against a Skeleton Barrel he can be dropped on the Skeletons the moment it pops for a neutral trade, though deploying earlier from a distance prevents more damage.
+- His spawn damage combined with Zap or Giant Snowball clears slightly bulkier swarms (Goblins, Minions, Rascal Girls) - a negative trade in general, but neutral against a Minion Horde.
+- Do not deploy him on top of anything bulkier than chaff (building-targeting troops aside) - he will be overwhelmed.
+- Distract chargers with cheap swarms, or a mini tank against the Mega Knight, to keep him alive.
+- His slow does not stack with Giant Snowball or Ice Golem slows, and his movement-speed debuff is overwritten by the more severe Earthquake and Ram Rider debuffs.
+- If the opponent spends their spell on him, expect a follow-up card that thrives without it, such as Flying Machine, Mother Witch, Magic Archer, Zappies, Skeleton Dragons or Barbarians.
+- Electro Wizard, Zappies and Electro Dragon can replace him in some decks with higher damage and stuns, but they cost more and lack his area damage against swarms.
 
 ## Source
 

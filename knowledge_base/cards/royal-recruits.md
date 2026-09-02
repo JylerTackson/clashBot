@@ -67,15 +67,35 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- High-damage, slow-hitting single-target units — P.E.K.K.A, Mini P.E.K.K.A., Prince, Elite Barbarians, Hunter, Giant Skeleton, Royal Ghost and Sparky — the shields and sheer numbers stall them for a long time while the Crown Towers chip them down.
+- Split-lane pushes — the horizontal deployment defends both lanes at once, each Recruit having decent health and damage.
+- Mega Knight and Dark Prince — the spread formation minimizes how many Recruits a single splash attack hits.
+- Distracted low-range splash troops such as the Valkyrie — the Recruits' slightly longer melee range lets them hit without taking damage back.
+- Big single-target spells — excess damage that breaks a shield is negated, so a Fireball (689 damage) wastes 449 of it on a 240-hitpoint shield.
+- Air troops can at least be distracted by them, buying time for a proper answer.
+- Draft matches, where the opponent is less likely to hold splash units or spells against their 4,632 combined hitpoints.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Area damage troops — Wizard, Firecracker, Witch, Ice Wizard, Goblin Demolisher and Bomber clear one or both lanes, especially the lane holding 4 Recruits.
+- Bowler placed in the middle — he knocks a shield off in 1 hit and his ranged attack pierces several Recruits at once; Executioner, Magic Archer, Evolved Bomber and Evolved Firecracker work similarly.
+- Mega Knight, after luring the Recruits together to the center with a cheap mini tank (Ice Golem, Elixir Golem or Knight) so his spawn damage hits hard.
+- Split air swarms — Bats, Minion Horde and Skeleton Dragons, since the Recruits cannot attack air.
+- Cheap kiting units such as Skeletons, which pull them into the middle and exploit their slow movement speed.
+- Cheap spells like The Log, which prevent a lot of Crown Tower damage on their own.
+- Any cheap distraction that pulls both lanes into the middle of your side, which makes splash defense far easier.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 7 Elixir defensive card that deploys six shielded melee troops in a horizontal line across the Arena and converts into a two-lane counterattack.
+- Their shields work like the Dark Prince's and Guards' — overkill damage on the shield never carries over to the unit's hitpoints.
+- Combined hitpoints including shields are 4,632, more than a Giant, so they are very hard to handle without splash.
+- The formation can be skewed by shifting the central deploy tile left or right, sending 4 Recruits into one lane and 2 into the other instead of an even split.
+- They cannot be placed in the opponent's territory after one Crown Tower falls — unlike other cards, both enemy Crown Towers must be down.
+- Never leave more than two of them unanswered: four unsupported Recruits can take a Crown Tower, three deal 1,700 damage and two deal 800.
+- They have slightly higher range than other melee troops, which lets them safely attack distracted shorter-range units.
+- Treat them as slower, bulkier Guards when using them to stall heavy hitters.
+- After surviving a defense they set up a very strong counterattack in both lanes at once.
 
 ## Evolution
 

@@ -63,15 +63,45 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Rapid-hitting melee troops — Lumberjack, Golden Knight, Monk, Phoenix and Berserker suffer badly since the reflect damage is per hit, so they take damage quickly and are stunned often, gutting their DPS.
+- Swarms — Skeleton Army and Minion Horde will mostly die to the Zap Pack while only weakening him, and opponents locked into expensive investments can often only answer with swarms.
+- Electro Wizard and Executioner — they hit twice per attack, so they reflect two hits onto themselves each time.
+- Crown Towers left alone — he can destroy a Princess Tower by himself if ignored.
+- Mighty Miner, Inferno Dragon and Ram Rider — he cripples these offensive cards, making a defense-into-counterattack play strong.
+- Any troop that must attack him inside the 3-tile radius — each hit reflects damage and a 0.5 second stun back onto the attacker.
+- Opposite-lane pressure after an opponent's own expensive investment — he threatens a whole Crown Tower if ignored.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Inferno Dragon and Inferno Tower — quickly melt him when placed correctly (Inferno Dragon far to the side, out of his path; Inferno Tower 4 tiles from the river and 3 tiles from the defending Crown Tower).
+- Freeze — he reflects no damage while frozen, so Freeze plus a swarm safely kills him with 4 seconds of free damage.
+- Slow, high-damage troops — Giant Skeleton, P.E.K.K.A, Mini P.E.K.K.A, Royal Ghost, Sparky, Elite Barbarians, Prince, Mega Minion, Night Witch and Hunter handle him alone for a positive Elixir trade because reflect damage is per hit.
+- Prince and Dark Prince charges — their attack takes priority over the stun, so the charge connects.
+- Hunter — an exception to per-hit reflection: despite 10 pellets per shot he only takes the reflection of 1 hit.
+- Sparky — her charge is not reset by the reflect damage, and 2 to 4 blasts finish him, ideally from outside the zap radius.
+- Cannon and Tesla — cheap buildings his usual support troops cannot pull away (though they are vulnerable to Lightning).
+- Barbarian Hut placed in the middle — distracts him into range of both Crown Towers while the Barbarians kill him for a neutral trade and can counterattack.
+- Fast opposite-lane win conditions — Hog Rider, Ram Rider or Battle Ram punish the 7 Elixir commitment.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 7 Elixir building-targeting tank whose Zap Pack reflects damage and a 0.5 second stun onto any enemy that damages him within 3 tiles.
+- Reflected damage is static and depends on the attacker's attack speed and hit count, not its damage — fast multi-hit attackers punish themselves, slow heavy hitters barely do.
+- Do not cast Rage on troops defending against him; the extra attack speed only increases the reflect damage they take.
+- Ranged counters like Electro Wizard and Executioner outrange his 3-tile field, so place them as far back as possible to avoid taking reflection at all.
+- Like the Golem he should rarely be played in single Elixir; without a lead or a way around the opponent's counters, a back placement hands over momentum. Unlike the Golem, though, he can defend himself with reflected damage.
+- Run Zap or Lightning in Electro Giant decks to reset Inferno Dragon and Inferno Tower, and consider Zappies, Electro Wizard, Goblinstein or Electro Dragon as extra Inferno answers.
+- Giant Snowball, Tornado or Fireball can shove an Inferno Dragon and other defenders into the stun radius; Zap or swarm distractions buy him time to reach an Inferno Tower and stun it.
+- Tornado synergy is strong — it pulls ranged troops that sit outside the zap area into it.
+- Fisherman synergy: he pulls ranged troops into the zap radius, and can drag heavy hitters (P.E.K.K.A, Mini P.E.K.K.A, Night Witch, Hunter, Prince, Royal Ghost, Sparky) away so the Electro Giant escapes their sight range — at the cost of Elixir to deal with them later, and he cannot pull air (the zaps handle that).
+- Prince or Dark Prince dashing into him pushes him forward, making him travel faster.
+- Mirror line: place an Electro Giant behind the King's Tower, build Elixir, then place the mirrored one behind as well, forcing a heavy defensive spend.
+- Do not pair him with Witch or Night Witch — the Zap Pack makes the Tower retarget onto their Skeletons and Bats, weakening the push. He is also ineffective with Tower-placed cards like Goblin Drill, Graveyard, Miner and Goblin Barrel.
+- Against an opponent's Tornado, place counter units farther back near your King's Tower so they are harder to reel in — a misplaced Tornado may even activate your King's Tower.
+- Do not use Arrows, Fireball, Rocket, Barbarian Barrel, The Log or Giant Snowball on him while he attacks the King Tower — the Tower gets stunned unnecessarily and takes longer to kill him.
+- In 2v2, Tornado plus one of those direct damage spells activates your King Tower off the reflect damage without it taking damage, since spell damage counts as an attack by the King Tower.
+- Keep cheap troops in hand for opposite-lane pressure, or be prepared to trade towers, since he commits 7 Elixir.
+- Do not leave him unanswered except when both players are racing towers, such as Sudden Death.
 
 ## Source
 

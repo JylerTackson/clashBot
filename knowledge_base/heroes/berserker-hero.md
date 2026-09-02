@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Berserker/Hero"
 image_path: heroes/images/berserker-hero.png
-scraped_at: "2026-09-02T02:35:40+00:00"
+scraped_at: "2026-09-02T02:45:45+00:00"
 release_date: 4 August 2026
 ---
 
@@ -24,68 +24,6 @@ release_date: 4 August 2026
 ## Overview
 
 The Berserker goes berserk
-
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |First Hit Speed
-Damage Speed
-! scope="col" |Speed
-Speed
-! scope="col" |Deploy Time
-Deploy Time
-! scope="col" |Range
-Range
-! scope="col" |Target
-Targets
-! scope="col" |Count
-Troop Count
-! scope="col" |Transport
-Transport
-! scope="col" |Type
-Type
-! scope="col" |Rarity
-Rarity
-|-
-|2
-|0.6 sec
-|0.2 sec
-|Fast (90)
-|1 sec
-|Melee: Short (0.8)
-|Ground
-|x1
-|Ground
-|Troop
-|Common
-|}
-
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |First Hit Speed
-Damage Speed
-! scope="col" |Speed
-Speed
-! scope="col" |Duration
-Time
-!Crown Tower Damage
-Tower Damage
-!Minimum Hitpoints
-Hitpoint
-|-
-|3
-|0.2 sec
-|0.2
-|Ultra Fast (135)
-|4 sec
-| -75%
-|1
-|}<!--this will not be shown
 
 ## Ability: Savage Survival
 
@@ -130,16 +68,21 @@ Hitpoint
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- The wiki Hero page has no Strategy section; the points below come from the ability description and attribute tables on this page.
+- Savage Survival costs 3 Elixir on top of her 2 Elixir deploy cost, for 5 Elixir total.
+- While active she attacks every 0.2 seconds (down from 0.6) and moves at Ultra Fast (135) instead of Fast (90).
+- Her hitpoints cannot drop below 1 for the ability's 4 second duration, so she cannot be killed while it is running.
+- The trade-off is -75% Crown Tower damage during the ability, so it is a troop-clearing burst rather than a way to burn down a tower.
+- Her base form is unchanged: 2 Elixir, single-target, ground-only melee with Short (0.8) range and Fast (90) speed.
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Berserker/Hero (scraped 2026-09-02T02:35:40+00:00)
+- https://clashroyale.fandom.com/wiki/Berserker/Hero (scraped 2026-09-02T02:45:45+00:00)

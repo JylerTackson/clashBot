@@ -67,15 +67,49 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Small swarms in general - the instant, no-travel-time area damage wipes them before they can damage your troops or tower (unlike Arrows, which give them time to hit).
+- Skeleton Army - a well placed Zap destroys most or all of it.
+- Minion Horde - a well timed defensive Zap lets your Crown Towers finish them off before taking damage.
+- Bats and other cheap swarms - instantly killed on arrival.
+- Goblins one Level lower and Minions two Levels lower than the Zap (it will not defeat either at equal Level).
+- Goblin Barrel - Zapped right as the barrel lands, it blocks most of the Goblins' damage; adding Skeletons prevents the damage entirely.
+- Lava Pups from a Lava Hound - with proper timing it hits all of them before they split, greatly reducing tower damage.
+- Dart Goblin - Zap plus the Crown Tower finishes it after only two of its shots land.
+- Witch and Night Witch first waves - kills their initial Skeletons/Bats, cutting their DPS and exposing them to single-target troops like the Prince.
+- Accumulated Spear Goblins from a Goblin Hut, clearing the lane for troops like a Prince.
+- Charge/charge-up cards - Inferno Tower, Inferno Dragon, Prince, Dark Prince, Ram Rider, Battle Ram, Bandit, Fisherman, Sparky and Mighty Miner all get their attack reset by the stun.
+- Nearly destroyed Crown Towers - cheap and instant, so it is serviceable as a finisher.
+- Level 15 Runners are one-shot by a Level 14 Zap.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Goblins and Minions of equal Level - Zap does not kill them.
+- Anything needing real damage - it does less damage, has a shorter spell duration and a much smaller area than Arrows.
+- Troops spread far apart - an opponent who places multiple cheap troops away from each other denies Zap its Elixir value.
+- Medium-hitpoint support troops that survive it (Night Witch, Bandit, Berserker, Mega Minion, Hunter, Wizard, Royal Hogs, Fisherman, Witch) - Zap only finishes them when paired with Fireball or Poison, usually a negative Elixir trade.
+- Protected swarm cards - against Tombstone and Skeleton Barrel the outer layer must be removed first or the spell is wasted.
+- Ungrouped Graveyard Skeletons - you must wait for a few to bunch up, taking damage in the meantime.
+- The Archer Queen's ability - the 0.5 second stun only wastes a little of it, it does not shut her down.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: cheap, instant reset/finisher spell and swarm answer; a direct alternative to Arrows that deploys instantly, stuns briefly and costs 2 Elixir instead.
+- Because it is only 2 Elixir, a wrong prediction is not very punishing - you were already at an Elixir advantage. Watch how the opponent uses their swarm on defense and Zap accordingly.
+- The 0.5 second stun lets a damaged troop get one extra hit in, or stops one of your troops taking a hit - e.g. stunning a Balloon before it reaches the Crown Tower buys time to kill it.
+- Compared to Freeze: Freeze lasts 8 times as long with a larger radius, but costs twice as much and deals less damage.
+- Tank + Zap on Inferno: let a P.E.K.K.A. or other tank soak some Inferno Tower/Inferno Dragon damage, then Zap to reset it - this can give the P.E.K.K.A. an extra swing to destroy the tower. Time the Zap just before Tier 3 damage.
+- Zap on troops standing in Poison keeps them in the radius 0.5 seconds longer, adding damage that finishes off units that would otherwise survive Poison, such as a Witch or Wizard.
+- Zapping units or the enemy Crown Tower can change targets - e.g. deploy a troop or building nearer to an X-Bow than the tower, then Zap the X-Bow to make it re-target.
+- Hog Rider + Zap: the Zap clears cheap defenders or stuns them so the Hog Rider always gets chip damage; hovering the Zap to wipe a whole Skeleton Army is especially devastating.
+- With correct timing Zap can deny a spawn wave from Barbarian Hut or Goblin Hut for a small Elixir advantage; against Goblin Hut use it right as it spawns Spear Goblins. Against Elixir Collector it denies 2 Elixir, an even trade unless it also hits something else.
+- Pairs with Fireball and Poison to finish units that survive those spells; make sure Zap lands before the Fireball, otherwise the Fireball knockback can make the Zap miss. Prefer to wait until the injured troop reaches the bridge so the Zap catches its meatshields too, but let the tower finish it if it has already crossed.
+- Spell pairings like Fireball + Zap are an alternative to Rocket and cycle the deck faster, since two cards are used for the same price.
+- Pairs with Ice Spirit or Ice Golem to counter Minions (Ice Spirit also handles Archers); with Fire Spirit it counters Wall Breakers.
+- Pairs well with Goblin Giant and Ram Rider - troops that survive one Zap are finished by their extra attacks, saving a more expensive spell, though your unit takes more damage.
+- Mirror-matchup tool: Zap flips duels between identical or similar cards - stun an enemy Prince so yours lands its charge, flip an Electro Wizard duel, and let your Firecracker, Bomber, Princess, Dart Goblin or Sparky kill their counterpart unharmed (Goblins and Minions work too, but deploy stagger may still cost you some).
+- Alternatives to consider when deck-building: The Log (more damage and knockback but ground only, limited placement, no stun), Giant Snowball (travel time, no stun, but slows and knocks back), Rage (similar damage and cost over a larger area plus a speed boost, but a slight deploy delay and wasted if used alone), and Lightning (same stun with far higher damage but single-target and 6 Elixir).
+- Bring some other card that can do Zap's defensive job in case the opponent runs a bait deck.
+- A Level 14 Zap already one-shots Level 15 Runners, so Common resources (Wild Cards, Trade Tokens) are better invested in other Common cards first.
 
 ## Evolution
 

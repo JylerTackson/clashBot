@@ -26,7 +26,13 @@ The Goblin Cage's Evolution is a Rare card that is unlocked with 6 Evolution Sha
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Cage stats are otherwise the same as the original: 4 Elixir, 1 sec deploy time, 20 second lifetime.
+- New ability (Cage Rage): the Cage itself now attacks — any ground troop that comes within 3 tiles is grabbed and pulled inside, where the Brawler punches it at a 1 sec hit speed.
+- A grabbed troop is untargetable and cannot act while inside the cage.
+- If the Cage is destroyed while a troop is still inside, that troop is freed with its remaining hitpoints and becomes targetable again.
+- The Cage now has its own damage stat that scales by level (e.g. 337 damage and 337 DPS at Level 11).
+- The Evolved Goblin Brawler keeps the base movement and attack profile (Fast 90, Melee: Short 0.8, 1.1 sec hit speed, 0.2 sec first hit) but has higher hitpoints than the regular Brawler, letting him survive one extra hit from a Prince, Mini P.E.K.K.A, P.E.K.K.A or Elite Barbarians without Crown Tower help.
+- Requires 6 Evolution Shards and 2 cycles to deploy.
 
 ## Evolution-specific stats/behavior
 
@@ -84,7 +90,17 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Pulling a unit in makes it untargetable by other units, which is excellent for separating win conditions like Giant or Golem from support such as Witch or Night Witch.
+- Deploying it next to a troop already hitting a Crown Tower pulls that troop in and cuts the damage taken significantly.
+- Against a Giant Skeleton this makes the death bomb spawn in front of the cage, leaving the Crown Tower outside its radius while the cage eats the blast — the Brawler comes out at full health for a counterpush.
+- Its 3 tile pull range is longer than every charge attack, so Ram Rider, Dark Prince, Battle Ram and Prince get pulled in mid-charge without damaging the cage, fully countered for a +1 Elixir trade with the Brawler at full health.
+- Amazing against the Electro Giant: he is pulled straight in and, if ignored, fully destroyed for a +3 Elixir trade before the cage expires; his reflection damage affects neither the cage nor the Brawler.
+- Unlike the regular Cage it works well deployed at the bridge — fragile ranged troops (Dart Goblin, Firecracker, Bomber, Magic Archer, Mother Witch, Princess) placed near the river get pulled in and killed, and mini tanks (Knight, Ice Golem, Golden Knight, Giant, Elixir Golem, Battle Healer, Golem, Valkyrie, Hog Rider) shielding a Miner, Goblin Barrel or Graveyard become untargetable so the Crown Tower stays useful.
+- Against a Mega Knight, do not kite him far — he cannot be pulled while jumping. Deploy 3 tiles to his side so the Brawler drags him in, which fully counters him if unchecked.
+- Do not waste it on kamikaze troops like Wall Breakers: that gives up the pull mechanic and the evolved Brawler is not much stronger than the regular one to justify an early release.
+- Earthquake is mostly a poor counter — it only kills the cage and leaves the Evolved Goblin Brawler free while the opponent is low on Elixir; fast-cycle decks like Hog Rider may still value it.
+- An Evolved Knight pulled inside keeps his shield, so he can be used to tank the cage's punches for higher-pressure follow-ups like Ram Rider, Prince or Evolved Battle Ram, limiting the cage's defensive value.
+- Despite the extra hitpoints, Skeletons, Goblins, Guards, Archers or Evolved Ice Spirit in the centre of the Arena plus the Crown Tower still fully counter the Evolved Goblin Brawler for a +3 Elixir trade.
 
 ## Source
 

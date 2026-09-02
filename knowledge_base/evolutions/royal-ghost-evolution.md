@@ -26,7 +26,12 @@ The Evolved Royal Ghost is a Legendary card that is unlocked from the Spooky Tow
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Still 3 Elixir, and requires 2 cycles to deploy; the base kit is unchanged (fast, area-damage, ground-targeting melee troop that spawns invisible, turns visible on attack, and re-cloaks after not fighting - 1.8 sec per the page text, listed as an Invisibility Time of 2 sec in the Evolution attributes table).
+- New ability: when he attacks he summons two Souldiers, which deal spawn damage over the same radius as his attack.
+- The spawn damage stacks with his own hit, giving an invisible attack more total damage than a full Poison and enough to one-shot units like the Musketeer and Wizard.
+- Souldiers are separate ground melee troops (x2) with 0.2 sec deploy time, Fast (90) speed, 1.8 sec hit speed, Melee: Medium (1.2) range, and they can also go invisible when idle.
+- Souldier hitpoints, area damage and spawn damage all scale with the card's Level (67 each at Level 9 up to 130 each at Level 16), with 37 to 72 damage per second.
+- The Souldiers do not despawn naturally, so they persist after a defence is over.
 
 ## Evolution-specific stats/behavior
 
@@ -68,7 +73,14 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Because the Souldiers persist, he is a great counterpush card - he can defend a push and still have Souldiers left over afterwards.
+- Excellent against the Barbarian Hut, since the accumulated Souldiers shred each wave of Barbarians.
+- Valkyrie is perhaps the best answer: her 360-degree splash and bulk let her tank the initial big hit, clear the Souldiers, and then duel him favourably.
+- With Royal Delivery, Electro Wizard or Mega Knight, first drop a distraction such as Skeletons to force him visible, then place the counter on him to wipe the Souldiers (with Royal Delivery, place the Delivery first because of its long start-up).
+- If you are low on Elixir, let him get close to your Tower - after he finishes off your counter unit he will not have time to turn invisible again.
+- Strong with tanks like Giant, Royal Giant and Golem: they tank for him and the Souldiers while he devastates their counters (Mini P.E.K.K.A., Mighty Miner) and clears swarms (Goblins, Skeleton Army). Royal Giant is especially good since being ranged gives him more time to re-cloak and renew the ability.
+- Evolved Skeleton Barrel plus Evolved Royal Ghost is an extremely deadly push - he cripples or one-shots common Barrel counters such as Cannon, Bomber, Firecracker, Dart Goblin and Archers, and the two Skeleton waves plus the Souldiers make spell timing a dilemma. Best used when you know their spell or building is out of cycle.
+- Against that push, a Valkyrie clears the first Skeleton wave, the Ghost and the Souldiers but still leaves the second wave; the Evolved Valkyrie can counter it entirely by pulling the Skeleton Barrel back and wiping the second wave.
 
 ## Source
 

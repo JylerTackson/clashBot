@@ -65,15 +65,73 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- High-hitpoint tanks — Giant, Royal Giant and Golem die quickly to his damage before they hurt the Crown Tower much.
+- Goblin Giant — he stops it dealing Tower damage and still tanks the backpack Spear Goblins, staying healthy for a counterpush.
+- Electro Giant — survives many Zap Pack hits and kills it before it reaches the Tower.
+- Elixir Golem — kills each form fast and leaves the Golemites weak enough for a Crown Tower one-shot, a +3 Elixir trade overall, and overwhelms an accompanying Battle Healer or Heal Spirit.
+- Equal-level glass cannons — one-shots Musketeer, Wizard, Electro Wizard, Ice Wizard, Goblinstein and Little Prince, and two-shots most other support troops.
+- Mini-tanks like Knight, Valkyrie, Dark Prince, Battle Healer, Royal Ghost, Bowler, Executioner, Cannon Cart, Golden Knight and Monk — a few hits each and he survives to counterattack.
+- Battle Ram — his first hits stop it connecting and he then one-shots each Barbarian.
+- Hog Rider — allows only one Tower hit (none if hovered and dropped the instant the Hog lands) for a neutral trade; Ram Rider likewise for +1.
+- Prince and Dark Prince — easily killed if the charge is broken or not completed, leaving him at about half health.
+- Giant Skeleton — a lone one is fully stopped for a +2 Elixir trade with Crown Tower help.
+- Mega Knight and Evolved Mega Knight — with a Crown Tower and a placement that avoids or pre-empts the jump, a +3 Elixir trade; Bandit, Fisherman and Golden Knight fall to the same principle.
+- Boss Bandit — placed directly above her, a +2 Elixir trade, and his speed catches her Getaway Grenade.
+- Mighty Miner — placed in the center of your side he denies the Explosive Escape ability and stops all damage for a neutral or +1 trade.
+- Lumberjack — dies in a few hits with minor Crown Tower help, which is handy against the Lumberjack + Balloon push.
+- Evolved Royal Ghost — killed before he turns invisible and spawns more Souldiers, for -1 Elixir.
+- Sparky — he survives one blast and two-shots her (unless he is a Level lower, when her blast one-shots him).
+- Royal Hogs — placed to hit the hogs the Crown Tower targets last, +1 Elixir trade and he leaves at full health.
+- Split Three Musketeers — placed on top of the lone Elite Musketeer he nearly kills her for the Tower to finish.
+- Mortar and X-Bow when defended by a single troop rather than swarms.
+- Treasure Hunt mode — high damage claims the building fast and decent hitpoints keep him alive.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Swarms in general — his slow 1.6 sec hit speed lets them kill him at a positive Elixir trade.
+- Skeletons or Goblins placed near the center of your side, with Crown Tower help — a +1 Elixir trade.
+- Archers and Spear Goblins deployed in the center — their range pulls him deeper for a +1 or +2 Elixir trade.
+- Guards — their shields let two survive him for a +1 trade, they outrange him for the first hit, and spells only strip shields.
+- Skeleton Army and Goblin Gang — more of them survive, +1 Elixir trade (but weaker to spells).
+- Barbarians, Royal Recruits, Minion Horde and Rascals — reliable but negative Elixir trades, best when they set up a counterpush.
+- Air units he cannot touch at all: Minions stop him for +1, Bats for +2 (though Bats are frailer to spells and splash).
+- Splash troops such as Bomber, Valkyrie, Wizard, Baby Dragon, Witch, Hunter, Sparky, Firecracker, Goblin Demolisher, Bowler and Executioner — they beat him and his support; Witch's Skeletons, Firecracker's recoil and Bowler/Evolved Executioner pushback add survivability.
+- Night Witch and Furnace — spawned Bats or Fire Spirits kill him for around a neutral trade.
+- Spawner buildings — Goblin Hut amasses Spear Goblins he must chew through one by one; Tombstone does the same for +1 Elixir.
+- Cannon and Tesla — weaken him for a +1 or neutral trade while pulling building-targeters.
+- Barbarian Barrel and Royal Delivery — clear his support and the spawned unit finishes him for +2 or +1 Elixir.
+- Long-ranged chip from Dart Goblin and Magic Archer, and Ice Wizard's slowdown.
+- Archer Queen with Cloaking Cape (-2 Elixir but she stays fully healthy) and Little Prince's Royal Rescue pushback (-2 Elixir).
+- Goblinstein — the Doctor stuns him while the Monster kites, countering for -1 Elixir with both surviving.
+- Golden Knight's Dashing Dash, timed to absorb one of his hits for -1 Elixir.
+- Kiting units placed in the center 1 tile from the river, slightly staggered — Battle Ram (neutral trade), Hog Rider, Ram Rider (-1), Ice Golem (+2, plus its death slowdown) and Goblin Giant (-2).
+- Firecracker — deployed on the fourth tile from the river staggered into the other lane, her recoil kites a lone Mini P.E.K.K.A. for a positive trade.
+- Evolved Royal Giant — its recoil constantly pushes him away so he never attacks.
+- Evolved Goblin Giant — constantly spawned Goblins retarget him until he dies.
+- Evolved Battle Ram — pushes him away and its Evolved Barbarians survive a hit each.
+- Heroic Giant — its ability throws him away, so bait the ability first.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: an offensive and defensive anti-tank and anti-support glass cannon, best turned into a counterpush; his moderately high hitpoints also let him tank for support troops.
+- Against a tank-plus-support push, drop him on the support troop first — he kills it and then turns on the tank with more health left.
+- His high damage makes him a defensive alternative to Poison for clearing support troops.
+- Never send him down a lane alone as a habit: many cheap counters make positive trades on him — do it only when the opponent is low on Elixir or lacks a cheap counter.
+- He works as bait, though: pair him with Battle Ram, Hog Rider or Ram Rider so he soaks the counters while the other card hits the far lane.
+- Hog Rider + Mini P.E.K.K.A. is a fast, deadly push — he distracts the troops and buildings sent at the Hog — but P.E.K.K.A., Elite Barbarians, swarms and air troops beat it.
+- If the Hog Rider is escorted by Skeletons or Goblins, he retargets onto them; spend a spell to clear them even at a negative trade.
+- Never ignore him in the opposite lane — he can destroy a Crown Tower, and against a Dagger Duchess he even lands a hit on the King Tower.
+- Against a P.E.K.K.A. or Elite Barbarians he loses alone: add Skeletons or Goblins to absorb hits and it becomes a positive trade.
+- Against a lone Golem, Skeletons plus an Ice Spirit let him keep the Golem and its death damage off the Tower; he handles the Golemites alone.
+- He cannot target air — pair with Vines to bring down Baby Dragon, Inferno Dragon, Electro Dragon, Spirit Empress or Balloon so he gets 2 hits in, or with the Evolved Hunter's net against a Lava Hound (deploy him as the second net is thrown; Lightning punishes this combo hard).
+- Light spells complement him well as predictions against Skeleton Army, Goblin Gang or Minion Horde; Zap, Giant Snowball and Rage need tight timing, The Log is slow to take effect, and Arrows and Earthquake cost more.
+- Rage amplifies his damage per second and speed and offsets his slow hit speed.
+- Bulky splash support — Valkyrie, Bowler, Executioner, Skeleton King — clears swarms and tanks for him, making him far better against P.E.K.K.A., Elite Barbarians and Goblin Machine.
+- Electro Dragon synergy: it hits up to 3 troops from the air and stuns, clearing his path.
+- He supports Sparky well by finishing units her blast does not one-shot, and one-shots an Electro Wizard dropped on her (so she is only stunned once).
+- Tornado (or Fisherman) drags ranged troops to him so he can one-shot them, and weakens Witch, Berserker, Bandit, Night Witch or Fisherman into one-shot range — costly, and still swarm-vulnerable.
+- He can be hidden underneath a Minion Horde to surprise whoever clears the Horde, for a 9 Elixir investment.
+- Card substitutes: Lumberjack (same cost, better vs swarms, worse burst); P.E.K.K.A., Prince or Elite Barbarians for more hitpoints at higher cost; Mega Minion, Berserker, Hunter or Phoenix as cheaper spell-resistant damage; Night Witch for spawned Bats; Cannon Cart or Sparky for ranged damage; Knight, Valkyrie, Battle Healer or Skeleton King for tankiness; Dark Prince, Royal Ghost or Golden Knight for splash and survivability; Bandit for cheaper pressure; Mighty Miner if a Champion anti-tank is wanted (but he takes the Hero slot).
 
 ## Hero variant
 

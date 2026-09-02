@@ -67,15 +67,46 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Lava Hound and its Lava Pups — the Tesla can take them out completely without assistance.
+- Small hordes of low-hitpoint troops — it one-shots any unit with less health than Minions at the same Level.
+- Moderate and high-hitpoint troops — Baby Dragon, Inferno Dragon, Knight, Goblin Demolisher, Valkyrie, Cannon Cart, Dark Prince, Lumberjack, Executioner, Golden Knight, Mighty Miner, Battle Healer, Skeleton King, Prince, Bowler, Monk, Sparky, Mini P.E.K.K.A., Royal Ghost and Miner all take meaningful damage from it.
+- Mighty Miner and Inferno Dragon — it distracts and eliminates them relatively easily.
+- Building-targeting troops — Giant, Lava Hound, Golem and Hog Rider are all pulled away from the Crown Towers by a mid-Arena placement.
+- Graveyard — a decent backup counter: fast attacks, enough hitpoints to survive several Skeletons, and it cannot be pulled away by Tornado.
+- Princess placed at the bridge — the underground mechanic prevents spell responses and discourages the placement entirely.
+- X-Bow and Mortar — its hitpoints tank a lot of shots while its high damage and fast hit speed shred the building or its support.
+- Long-range troops — its invulnerability while idle forces them to walk into its range before they can target it.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Sparky and Prince — either one instantly destroys it.
+- Earthquake — the only damage-dealing spell that can hit it while it is underground.
+- Freeze — stops the retreat so it can be attacked at leisure, or locks it underground so Hog Rider, Ram Rider, Battle Ram and Wall Breakers walk straight past to the Crown Tower.
+- Vines — like Freeze, they lock it into whichever state it is in.
+- Fast ranged troops — Spear Goblins, Flying Machine and Dart Goblin can land a hit before it finishes retreating.
+- Edge-placed Hog Rider or Ram Rider — they bypass a hidden Tesla placed 3 or 4 tiles from the river.
+- Ranged troops against a Tesla placed 1 tile from the river — that anti-Earthquake placement is easy to attack from range.
+- Swarm-plus-ranged sniping at the bridge — a swarm forces a 2-tile-from-river Tesla to pop up and tank while a ranged troop kills it.
+- Its 25 second lifetime — the opponent can simply wait it out and then attack.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir defensive building, 25 second lifetime, 5.5 range, 1.1 sec hit speed, hits air and ground.
+- Key mechanic: it retracts underground when nothing is in range, becoming immune to all damage and untargetable — but the retreat is not instant.
+- It does not stun despite the electric theme: it cannot reset Inferno Tower, Inferno Dragon or Mighty Miner, nor the charges of Prince, Dark Prince, Battle Ram, Ram Rider or Sparky.
+- Standard pull placement: 3 tiles from the bridge, in the middle of your side — building-targeters and regular troops both come to it.
+- Place 1 tile further from the river to pull only building-targeting troops without tanking hits for regular troops; 1 tile deeper still pulls the tank further but leaves support troops out of range.
+- Against a Hog Rider or Ram Rider jumping the edge, either place the Tesla 2 tiles from the river (which exposes it to bridge sniping) or drop a ground troop where they land so a 3-4 tile Tesla can pull them.
+- Against tanks staggered toward the centre (e.g. Golem or Giant placed behind the King's Tower), a reactive Tesla 4 tiles from the defending Crown Tower and 4 tiles from the river separates the tank from support better than the middle placement; it works on a bridge-placed Giant but not a Golem, whose sight range is lower.
+- Anti-spell placement: 1 tile from the river so an Earthquake cannot hit both the Tesla and the Crown Tower (also useful against Lightning or Poison decks).
+- Lava Hound: place 5 tiles from the river and 1 tile from the Crown Tower to distract it; shift a tile closer to the Princess Tower if the Hound came down the furthest edge.
+- LavaLoon: place 3 tiles from the river and 2 tiles from the Crown Tower to pull the Balloon but not the Hound, splitting the push. Same placement works on a lone Balloon or Skeleton Barrel.
+- After losing a Crown Tower, placing it beside the King's Tower 3 tiles from the top of the Arena pulls Giants either way and Golem/Lava Hound only reactively; 4 tiles from the top is better since the Tesla starts attacking the Golem during its deploy.
+- It takes only a 2x2 space (most buildings are 3x3), so it fits between a Crown Tower and the Arena edge to limit Miner placements and to defend the second Tower.
+- Siege support: place it beside and slightly behind an X-Bow or Mortar so the siege building shields it while it damages attackers.
+- When using long-range units against an enemy Tesla, provoke it with a cheap troop like Skeletons first so your ranged units are not drawn into its range.
+- Card choice: Cannon is 1 Elixir cheaper but ground-only; Inferno Tower is 1 more and better on tanks but is a Rare and is vulnerable to swarms and stuns — Tesla is the reliable middle option.
+- Because it cannot be killed underground, opponents often wait for it to expire; prepare for the attack that follows the expiry.
 
 ## Evolution
 

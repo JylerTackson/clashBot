@@ -73,15 +73,24 @@ The Hero Musketeer has a special ability accessible from whatever side of the sc
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Building-targeting win conditions — the Trusty Turret is a building, so it pulls them away from the Crown Tower.
+- Regular ground and air troops that can be stalled — the Turret works as a distraction while she shoots from behind it.
+- Electro Giant, but only from range: kept at her 6 tile range she can defeat him without taking Zap Pack damage.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Electro Giant when the ability is used — the Turret lures him toward her, so his Zap Pack damages her until she destroys herself; keep her at range instead.
+- Tornado and Fisherman — they pull her into the Electro Giant's Zap Pack range, undoing her range advantage.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Count her as a 7 Elixir card for trade math: 4 for the deploy plus 3 for the Trusty Turret ability.
+- The Turret appears after a 1-second delay, 3 tiles in front of the Musketeer, and targets both Air and Ground with a 4.0 tile range.
+- It only lives 10 seconds and decays at 10% of its hitpoints per second, so the ability is meant to be used reactively rather than pre-placed.
+- The Turret hits hard for its lifetime — at Level 11 it has 280 damage per second plus 204 spawn damage on landing.
+- Its two jobs are distraction for ordinary troops and acting as a building to attract win conditions.
+- Base Musketeer stats are unchanged: 4 Elixir, 1 sec hit speed, 6 tile range, Medium speed, Air & Ground.
+- Do not spend the ability against an Electro Giant — it worsens the Elixir trade and drags him toward the Turret and her.
 
 ## Source
 

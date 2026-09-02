@@ -26,7 +26,12 @@ The Goblin Drill Evolution is an Epic card that is unlocked with 6 Evolution Sha
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Costs the same 4 Elixir and spawns a Goblin Drill with stats identical to the base card; it takes 2 cycles to become available (unlocked with 6 Evolution Shards).
+- New "Whack-A-Drill" ability: at 66% and again at 33% hitpoints the Drill submerges and resurfaces nearby, leaving one Goblin behind each time — so a single Drill effectively appears three times instead of once.
+- Placement changes the resurface: away from the Crown Towers it comes back up in the same spot; deployed next to a Crown Tower it resurfaces 90 degrees around that Tower, making it much harder to pin down.
+- Each resurface repeats the base card's 360-degree spawn damage and knockback, so the knockback and area hit happen all 3 times rather than once.
+- The health thresholds can be skipped: a burst of damage that takes it from above 66% to below 33% (Lightning, for example) triggers only the second resurface.
+- No stat boosts over the base card — everything else (10-second lifetime, a Goblin every 3 seconds, 2 Goblins on death, spawn damage and Goblin stats) matches the tables above.
 
 ## Evolution-specific stats/behavior
 
@@ -71,7 +76,16 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- A very strong offensive tool: it reaches the Crown Tower and produces a lot of Goblins, best supported by a tank like Knight, Valkyrie, Monk, Battle Healer, Golden Knight, Prince or Skeleton King.
+- Never ignore it unless you run Tower Princess — she steadily kills each Goblin and finishes at about half health; the Cannoneer barely survives on a sliver, and the Dagger Duchess falls into dagger cooldown and is destroyed.
+- With Cannoneer or Dagger Duchess support, dropping it directly on top of a P.E.K.K.A. fully counters her for a +3 Elixir trade.
+- Its knockback on all 3 resurfaces stops the Evolved Battle Ram and Ram Rider charges and, with Crown Tower help, kills them for an even or +1 Elixir trade respectively.
+- High area damage is the best counter — Bowler, Bomber, Executioner, Firecracker and Wizard can one-shot the drill and the Goblins around it together.
+- Bowler is the single best counter: placed properly, the lingering ball destroys drill and Goblins simultaneously with no Tower damage, and he survives healthy enough for a threatening counterattack.
+- Skeleton Army is not reliable here (unlike against the base Drill): each resurface reinstates spawn damage that one-shots Skeletons, so Goblins eventually get through.
+- Earthquake is ineffective, since the drill soaks most of the ticks and the Goblins take little damage; pair it with The Log or Arrows if you insist on using it.
+- It is a poor tank for building-targeting troops like the Giant — each resurface makes the Crown Towers retarget the Giant — but its damage can still force the opponent to spend all their Elixir answering the drill instead.
+- Tornado combo: pull defenders such as Valkyrie, Mighty Miner, Prince, Lumberjack and Mini P.E.K.K.A off the drill and clear swarms like Goblin Gang right before the first death spawn of 2 Goblins, near-guaranteeing Tower damage and delaying the defense of the other two drills.
 
 ## Source
 

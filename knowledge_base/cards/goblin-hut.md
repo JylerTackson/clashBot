@@ -76,15 +76,42 @@ Instead of Spear Goblins, the Goblin Hut spawns Goblin Demolishers.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Other spawner buildings — Tombstone and Barbarian Hut are countered because the ranged Spear Goblins quickly kill the melee troops they produce.
+- Building-targeting pushes — Giant, Hog Rider, Elixir Golem, Lava Hound and Golem attacking into the Hut let Spear Goblins accumulate for a strong counterattack.
+- Chip damage against passive opponents — Spear Goblins deal so little damage that they are often ignored, and every one of them lands at least one hit on the Crown Tower even if it dies in a single shot.
+- Mega Knight pushes defended with a tank — with the Hut nearby, 7 or more Spear Goblins can accumulate and overwhelm the enemy defense.
+- Incoming ground pushes when placed in the middle of the field — it pulls troops away from the Crown Tower and buys time to counter.
+- Bomb Tower — it cannot kill the Hut, and the fast ranged Spear Goblins destroy it before the Hut expires.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Splash troops — Wizard, Witch, Goblin Demolisher and similar clear Spear Goblin pushes easily.
+- Bowler, Firecracker, Evolved Bomber and Executioner — their projectiles kill both the Hut and the freshly spawned Spear Goblins.
+- Rocket, Lightning and Earthquake — the most dangerous spells against a back-placed Hut, especially when they also hit a Crown Tower.
+- Poison — its long duration damages the Hut and the Spear Goblins at once and often chips the Crown Tower too.
+- Goblin Barrel and Rocket — can destroy or heavily damage the Hut outright.
+- Arrows, The Log, Zap and Giant Snowball — every damaging spell but Freeze one-shots equal-Level Spear Goblins.
+- The Log and Barbarian Barrel against a low-health Hut — they finish it and also kill the Spear Goblin spawned on its death (the Barrel cannot reach a Hut placed too deep).
+- Long-range and air attackers — Magic Archer, Dart Goblin, Musketeer, Princess, Evolved Archers and Flying Machine can snipe a centrally placed Hut without entering Crown Tower range.
+- Sparky — cannot be countered efficiently unless the Hut was already down, because of the Spear Goblins' range.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir Rare spawner, 30 second lifetime, 6 tile spawn range, one Spear Goblin every 2.2 seconds while an enemy is in range, plus one more when it dies.
+- It can spawn up to 17 Spear Goblins, a maximum profit of 2.83 Elixir.
+- Place it on one side of your territory — the Spear Goblins target the nearest enemy or Crown Tower on that side.
+- Back placement keeps it safe from troops but is exposed to Rocket, Lightning and Earthquake; putting it in front of the King Tower stops a Rocket hitting both it and a Crown Tower, though Lightning, Poison and Earthquake can still catch both.
+- Middle placement (between the river and the King's Tower, between the two Crown Towers) pulls incoming troops off the Tower and is especially useful before Double Elixir, when spawners are weaker.
+- Desperation placement in front of a Crown Tower works as a temporary shield, but nearly any damaging spell punishes it.
+- Shield the accumulated Spear Goblins with a high-hitpoint tank — Giant, Giant Skeleton, P.E.K.K.A or Golem — to build a strong counterpush.
+- Combine with Barbarian Hut, Tombstone or Furnace for a Spawner strategy that drains the opponent's Elixir on constant defense.
+- Strongest during Double Elixir, when multiple Huts can be placed quickly to overwhelm the opponent.
+- Do not let an opposing Goblin Hut player stack spawners — accumulated huts give them a passive Elixir advantage.
+- It can be used to bait Poison; a Poison spent on the Hut opens the door for Poison-vulnerable follow-ups like a Graveyard push.
+- Rage technically adds waves but also decays its lifetime faster, netting only 1 extra wave — a 2 Elixir spend for 0.66 Elixir of value, so it is not worth it.
+- In the Rage Challenge, building lifetimes are unaffected but spawn speed is, letting it produce 4 waves instead of the usual 3.
+- Clearing accumulated Spear Goblins with Zap, Giant Snowball or The Log is most valuable when it opens the lane for Prince, Mighty Miner, P.E.K.K.A, Inferno Dragon, Sparky, Elite Barbarians or Mini P.E.K.K.A. to reach better targets.
+- A Hut placed deep near the King's Tower is safe from ranged snipes, but then it distracts building-targeting troops much less, giving the opponent a window to attack.
 
 ## Source
 

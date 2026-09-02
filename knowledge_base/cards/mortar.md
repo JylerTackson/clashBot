@@ -77,15 +77,42 @@ The Mortar is invisible.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Large ground swarms — its 2-radius area damage wipes them out.
+- Medium-hitpoint troops — it assists in killing them, though its slow hit speed means it needs support.
+- Enemy Crown Towers — it can hit them from the player's own side, making it a cheap offensive siege building.
+- Elixir Collectors placed two or more tiles from the opponent's King's Tower can be destroyed with it (accept the Elixir disadvantage from its slow hit speed).
+- Troop spawners — if it locks onto the building itself, its blind spot, long range and area damage make it a good counter.
+- Support troops behind a tank — when the tank sits in the blind spot, the Mortar's shells still reach the ranged units behind it.
+- Units clustered near a Crown Tower — the splash hits both the Tower and the troops around it.
+- Giants and similar placed near it while deploying — the blind spot means it is not distracted by them.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- High-hitpoint tanks like Giant and Golem — its slow hit speed and mediocre damage make it ineffective against them.
+- Fast troops such as Hog Rider and Ram Rider — they reach it quickly and sit inside the blind spot where it cannot fire.
+- Ice Golem and Elixir Golem placed one tile into the other lane — slow, high-hitpoint building-targeters that completely distract it because of its low DPS.
+- Balloon — two-shots the Mortar at the bridge and takes no damage from it (a mini tank like Ice Golem is still needed to shield the Crown Tower).
+- Magic Archer — placed on the centre of the bridge 1 tile from the river he hits an offensive Mortar and the Crown Tower at the same time.
+- Stun cards (Zap, Electro Spirit) — force a locked-on Mortar to retarget the nearest entity, denying a lot of damage.
+- Troop spawners — quick spawn rates can outpace its fire rate and keep it distracted.
+- Area damage spells — the cheap low-hitpoint support troops usually played with the Mortar give the defender heavy spell value.
+- Any distraction unit dropped during its 3.5 second deploy time, especially at the last second so the Mortar player cannot react.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir siege building, 30 second lifetime, 3.5-11.5 range with a blind spot, 5 sec hit speed, 2 splash radius, 3.5 second deploy time.
+- Versus X-Bow: cheaper, area damage and a dead zone make it more versatile and less risky, but its DPS is far lower and with only 6 shots its total damage output is much smaller.
+- Defensive placement: centre of the player's territory, preferably closer to the King's Tower, so enemy troops cannot reach the Crown Towers unopposed.
+- Offensive placement when both players have lost opposite-lane Towers: place it in the middle and attack the Tower opposite your destroyed one, which limits where the opponent can deploy on top of it. Do not go for the King's Tower — all four sides are exposed and its hitpoints are hard to break.
+- A staggered offensive Mortar forces an enemy Magic Archer one tile closer if he wants to hit the Crown Tower alongside it.
+- Protect it with a tank, a splash unit and/or a splash building to cover the blind spot and let it keep firing at the Tower.
+- Tornado synergy: pull units closer to the Tower for maximum splash value, pull them into the Mortar, or pull them out of its range.
+- Carry an area damage spell on offense to instantly clear low and moderate-hitpoint defenders so the Mortar can lock onto a Crown Tower.
+- When attacking a Mortar player, generally push the opposite lane so the Mortar cannot hit your Crown Tower — the exception is Royal Giant decks, which should push the same lane.
+- Do not use LavaLoon against Mortar setups: the Balloon's shorter range puts it in front of the Lava Hound; destroy the buildings first.
+- Fast troops slipping into the blind spot can be an advantage for the attacker, since the Mortar then locks onto something else, such as a Crown Tower.
+- Heal Spirit, Battle Healer, Royal Chef and Rune Giant cannot apply their effects to a building, so they are poor deck partners for the Mortar.
+- Consistent spell-value defending against the Mortar will push the Mortar player to use their heavy spell for Crown Tower chip instead.
 
 ## Evolution
 

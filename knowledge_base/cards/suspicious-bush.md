@@ -76,15 +76,35 @@ Replaces Bush Goblins with 4 Goblin Brawlers.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Goblin Drill — deployed directly in front of the drill it instantly breaks on it and the revealed Bush Goblins, with Crown Tower help, kill every Goblin and the drill for a +2 Elixir trade.
+- Skeleton Barrel, alongside a Dagger Duchess — she pops the barrel, its death damage reveals the Bush, and the Bush Goblins attack and tank for you, a +1 Elixir trade.
+- Troops with moderate hitpoints and spawn damage — Ice Wizard and Electro Wizard reveal the Bush with their spawn damage and then take significant damage from the Bush Goblins, a +1 and +2 Elixir trade respectively in the Bush user's favour.
+- Any opponent forced to answer it in the far lane — because the Bush is untargetable, it demands a spell or building response while you defend elsewhere.
+- Crown Towers when ignored — it does noticeable chip damage across all tower troops, and the Bush Goblins deal heavy damage if left alone.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Small spells with any tower troop — its hitpoints are very low, so any spell plus a Crown Tower fully counters the Bush and the spawned Goblins (spell it late and they spawn closer, giving up some chip).
+- Giant Snowball and Goblin Curse — 2 Elixir answers that make it an equal Elixir trade.
+- Barbarian Barrel — the best answer: it destroys the Bush while the Barbarian distracts the Bush Goblins, and placed well the Barbarian can even survive.
+- Skeletons and Evolved Skeletons — the only reliable way to get a positive trade with no damage taken: deploy them directly on top of the Bush once it reaches the Crown Tower for a +1 Elixir trade.
+- Area damage next to another ground troop — Valkyrie, Firecracker, Bowler, Executioner and Evolved Bomber can hit the Bush indirectly and also kill the Bush Goblins.
+- Splash damage generally — Princess, Wizard, Witch, Goblin Demolisher, Baby Dragon or Zap will reveal it if it is near your own troops.
+- Defensive buildings that lure it away from the Crown Tower (at least a -1 Elixir trade, since the cheapest building costs 3).
+- Air troops and defenders that distract the Bush Goblins — the Goblins cannot touch air at all and are easily distracted.
+- Tesla, but only if placed right next to the Bush: it cannot detect the invisible Bush otherwise and stays underground while the Bush walks to the Tower.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 2 Elixir offensive building-targeting card; it is invisible and untargetable in Bush form (like the Royal Ghost) until it reaches a building or dies, then spawns two ground-only melee Bush Goblins.
+- The Bush Goblins take multiple seconds to appear after the Bush takes fatal damage, so piercing cards like The Log, Magic Archer, Barbarian Barrel and Bowler cannot hit both the Bush and the Goblins in one attack.
+- Almost worthless on defense — invisible, building-targeting, low hitpoints, no damage utility. Use it in the opposite lane to force a response, ideally drawing the opponent's small spell away from your defensive units.
+- Do not deploy it next to your Crown Tower or friendly troops: any splash aimed at them reveals the Bush Goblins early with little offensive value.
+- Miner plus Suspicious Bush is a cheap combo for very high, sometimes lethal Crown Tower damage, with the Miner tanking for the Bush Goblins; deploying the Miner too late lets the Tower kill the Goblins (the main damage) first.
+- Unlike the Royal Ghost it is slow and light, so it is poor at escorting a mini tank — play the mini tank after the Bush and slightly apart so a Zap cannot hit both it and the Bush Goblins.
+- Spell-bait loop: Goblin Barrel or Skeleton Barrel bait the opponent's small spells so they must overcommit against the Bush, and vice versa the Bush baits the spell for the barrels — a repeatable small Elixir advantage to build a big push later.
+- A good substitute for Wall Breakers — the invisibility makes it far harder to stop and the Bush Goblins do much more Tower damage when ignored at the same cost and hitpoints — but they cannot hit air, are easily distracted and deal less damage per hit.
+- Evolved Wall Breakers cover most of those weaknesses (especially raw damage), making them better than the Suspicious Bush in most cases.
 
 ## Source
 

@@ -75,15 +75,53 @@ Becomes an enlarged Barbarian Barrel that can insta-kill anything it touches whi
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Crown Towers — left undistracted he can single-handedly destroy one for only 5 Elixir, whatever tower troop is used.
+- Small enemy pushes — used as an emergency shield he absorbs damage so the Crown Tower kills the attackers for free, and dropped in front of a troop already locked on the Tower he pushes it out of range and forces a retarget.
+- Giant Skeleton that has reached the Tower — deploying the Giant in front pushes and retargets him, then lures him away so his death bomb misses the Tower.
+- Splash units — he tanks and distracts them so a fragile counter can be quick-dropped directly behind them; also works to stop a charging Dark Prince or a jumping Mega Knight.
+- Enemy troops in general when placed one tile below the river in the middle, slightly staggered away from their push — he distracts them while your support and Crown Towers chip them down.
+- Enemy spawner buildings, in reverse: he protects Barbarians from a Barbarian Hut or Goblins from a Goblin Drill so they can build a real offense.
+- Overtime stalling — a defensive Giant can burn the clock when you lead on Crown Tower hitpoints or Crowns.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- High damage single-target troops: Mini P.E.K.K.A., Prince, Elite Barbarians, Hunter and Lumberjack — Mini P.E.K.K.A. and Lumberjack are positive trades, Prince is neutral, Elite Barbarians negative but very fast.
+- High DPS swarms: Barbarians, Bats, Skeleton Army, Goblin Gang and Minion Horde — he cannot hit troops, so they kill him freely (Goblins and Bats need Crown Tower help).
+- Inferno Tower — distracts him and burns him down in seconds for a neutral Elixir trade with the building surviving; Inferno Dragon (1 Elixir cheaper, aerial, counterpushable) and Mighty Miner are alternatives.
+- Cannon and Tesla placed 3 tiles from the bridge, toward the Crown Tower opposite the push — a positive Elixir trade that also separates him from his support; the Evolved versions damage the support too.
+- Spawner buildings played nearer the center: Goblin Hut (+1 Elixir trade), Tombstone (+2), Barbarian Hut (-1 but the most durable), and Goblin Drill, whose Goblins overwhelm him.
+- Goblin Cage staggered to the opposite side — pulls him into both Crown Towers' range and frees the Goblin Brawler, a +1 Elixir trade.
+- Witch — her endless Skeletons and splash chew through him and everything behind him; Night Witch does the same for a +1 Elixir trade.
+- Glass cannons that kill his support first — Mini P.E.K.K.A., Dark Prince, Royal Ghost, Executioner and Lumberjack — then turn on him nearly unharmed.
+- Sparky plus Tornado — wait for the opponent's reset card, then Tornado at three rings so she hits the Giant and everything behind him.
+- Buildings in general, which pull him off the Crown Tower in placements that leave his support behind.
+- Touchdown mode — his slow speed and total passivity let the opponent stack troops on him.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: the original 5 Elixir tank/win condition — building-targeting, very high hitpoints, no ability to attack troops, so his job is soaking damage for whatever is behind him.
+- His health per Elixir makes him great in counterpush decks: play him right after defending so your surviving support units get a shield cheaply.
+- Placed in the middle one tile below the river, slightly staggered away from the opponent's push, he distracts and buys value even when not played optimally.
+- Defending a Giant push: wait for him to cross the river, kill the support first, then answer the Giant itself — usually with a building.
+- A lone Giant is easy to defend, so he needs support to threaten; conversely never ignore one.
+- High DPS melee support (Mini P.E.K.K.A., Lumberjack) works well behind him; Mega Minion is exceptional since it is airborne and dodges many Giant counters while shredding the tower troop.
+- Ranged support (Archers, Electro Wizard) hides behind him, and long-ranged ones (Magic Archer, Musketeer) let him break through buildings.
+- Splash support (Skeleton Dragons, Wizard) covers his weakness to Skeleton Army, Goblin Gang and Minion Horde.
+- Spawner support (Witch, Night Witch, Furnace) thrives behind his mass and slow speed, continually feeding troops and distracting Inferno cards — but Lightning punishes the pairing.
+- Fisherman pulls high-DPS melee counters off him, and Bowler clears swarms while knocking those counters back.
+- Goblin Barrel timed just after he crosses the bridge sneaks the Goblins past the Tower's targeting.
+- Graveyard behind him is devastating but costs 10 Elixir and fails to a building distraction plus a splash unit, or to Barbarians.
+- Miner with Giant is a cheap push — the Giant tanks while the Miner hits the Tower or a ranged defender.
+- Giant + Balloon (10 Elixir) is very hard to defend: play the Giant first, and play the Balloon on the outer edge of the bridge so it bypasses buildings pulling the Giant to the center. It loses to an Inferno card plus Zap (+3/+4 Elixir), to Minions/Minion Horde, or to a Mega Minion plus a second answer.
+- Prince or Dark Prince behind him speeds him up via their charge; both Princes together cost 14 Elixir and cover no air, so only with a big Elixir lead or in Double/Triple Elixir.
+- Giant + Sparky works like the Prince version but folds to air troops and repeated stuns.
+- With Three Musketeers, put the Giant in the weaker split lane and a cheap mini-tank in the stronger one.
+- Spell support: Arrows for frail swarms and Dart Goblin/Princess/Firecracker; Fireball for Barbarians, Skeleton Dragons, Zappies and Ice Wizard; Zap or Evolved Zap to reset Inferno Tower, Inferno Dragon and Sparky and to disrupt a Mini P.E.K.K.A.; Poison to grind down defenders and buildings; Earthquake to break the buildings that stop him; Lightning to delete Cannon, Tesla, Wizard, Mini P.E.K.K.A. or Archer Queen and reset Inferno Tower; Rage as arguably the most effective, clearing frail swarms and making the push far harder to stop.
+- Stun troops such as Zappies, Electro Wizard or Electro Dragon support him by repeatedly resetting Inferno cards, but they die to a Fireball.
+- He can kite troops to the opposite lane like an Ice Golem — costlier, but far more threatening on offense, at the risk of feeding a split-lane counterpush.
+- Do not answer a back-placed Giant by rushing the other lane the way you would a Golem or Lava Hound: he is cheap enough that the opponent still has Elixir to defend. Instead pressure the opposite lane with something like a Lumberjack to deny Elixir from his support.
+- Substitutes: Rune Giant (1 Elixir cheaper, enchants up to 2 troops, but frailer), Goblin Giant or Electro Giant (both hit air and can self-defend), Golem (bulkier, 8 Elixir, death damage plus Golemites), Lava Hound (air decks, 2 Elixir more, less damage), Elixir Golem (cheaper and faster but gifts the opponent Elixir), and Goblinstein if a Champion slot is free.
+- Modifiers: "2 Fast 4 You" (Common) quadruples his movement speed; "Large & In Charge" (Rare) makes him charge at the nearest building; "World's Largest Barrel" (Epic) turns him into a giant Barbarian Barrel that insta-kills what it touches and then spawns a Giant.
 
 ## Hero variant
 

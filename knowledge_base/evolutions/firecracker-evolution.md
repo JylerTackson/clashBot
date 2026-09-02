@@ -26,7 +26,14 @@ The Firecracker's Evolution is a Common card that is unlocked with 6 Evolution S
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; still 3 Elixir and requires 2 Cycles to deploy.
+- Base stats are unchanged — hitpoints, ranged damage, hit speed, range and the 1-tile recoil are identical to the original Firecracker.
+- New ability: both the initial projectile and the 5 shrapnel leave sparks on the ground behind them.
+- Sparks deal damage every 0.25 seconds and slow enemy troops standing in them by -15%, working similarly to a Poison.
+- The big spark lasts 3 seconds with a 2.5 radius; each of the 5 small sparks lasts 2.5 seconds with a 1.2 radius.
+- Spark damage is substantial and separate from her shot: at Level 11 the big spark deals 48 x12 (576) and each small spark 48 x10 (480), for 192 spark damage per second (60 against Crown Towers).
+- Spark Crown Tower damage is heavily reduced (roughly a third of troop damage), so her tower chip comes mostly from the shrapnel hits.
+- Her targeting point is the shrapnel in the center of the attack, not the outer pieces.
 
 ## Evolution-specific stats/behavior
 
@@ -70,7 +77,26 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Much stronger on defense than the base card thanks to the spark damage — she excels against groups such as Barbarians, Royal Recruits, Minion Horde, and against large tank pushes.
+- Very effective at helping stop Golem pushes: the sparks whittle down support units like Night Witch or Witch.
+- Each shrapnel is its own hit that pierces through enemies (like Magic Archer's arrow, Executioner's axe, Bowler's boulder and Evolved Bomber's bomb); units nearer the impact take more pieces.
+- The firework impact deals no damage — the 5 shrapnel just spawn clumped, so little damage is wasted on shields (4 pieces break a Dark Prince shield, the 5th damages him).
+- Recoil kiting placements: 4th tile from the bridge staggered into the other lane vs Mini P.E.K.K.A., Lumberjack or Prince; 5th tile from the bridge and 2nd tile horizontally from the Crown Tower vs P.E.K.K.A. or Giant Skeleton (which can activate your King Tower); 6th tile from the bridge and 3rd horizontally vs Battle Healer or Mega Knight.
+- Against Elite Barbarians, place her near the middle of the board; with an Ice Spirit/Electro Spirit and/or Skeletons/Goblins to finish them it is a +2 Elixir trade.
+- Counter Wall Breakers by placing her right in front of them the moment they deploy at the bridge — at range the rocket is outrun and both connect.
+- Unsupported, she is easily stopped by a high-hitpoint single-target card placed directly on top: Knight, Goblin Machine, Monk, Golden Knight, Giant Skeleton, Battle Healer, Prince, Lumberjack, Mighty Miner, P.E.K.K.A or Mini P.E.K.K.A.
+- A Cannoneer one-shots her before she connects; left alone she still deals moderate damage to a Tower Princess or Dagger Duchess.
+- Still poor against a tanked Graveyard — slow attack time and shrapnel that does not one-shot Skeletons.
+- King Tower activation: playing a troop 2 tiles up and 3 tiles over from the Crown Tower activates the King while preventing spark damage on the Crown Towers — so avoid her in decks that hate an activated King Tower, like Graveyard or Goblin Barrel.
+- Strong synergy with Hog Rider: her heavy area damage clears his path while the small sparks connect to the Crown Tower for massive damage.
+- Good with Royal Hogs: she baits a Fireball, clears the path and chips the Crown Tower.
+- Pairs with Balloon (she clears air swarms, the Balloon tanks the Tower), though the pair gives big spell value.
+- Miner behind the Crown Tower after she defends lets him tank while her shrapnel splashes swarms sent at him — predictable, and beaten by a tankier unit on the Miner plus a distraction.
+- Spelling her down is unreliable because her speed and recoil, and any other unit she may target, can make the spell miss.
+- Miner snipes on her need careful timing, since her pushback makes the Miner walk extra distance under Tower fire.
+- Do not place an Elixir Collector behind your Crown Towers against her — a leftover Firecracker chips the Tower and denies Collector Elixir.
+- Monk's ability reflects her projectiles into her own Crown Tower; the reflected projectiles can also be used to activate your King Tower, at the likely cost of the Firecracker.
+- In 2v2, a Firecracker locked onto a Crown Tower also hits the King's Tower, so soaking one hit can beat spending Elixir on a distraction — and makes her questionable in 2v2 decks.
 
 ## Source
 

@@ -244,7 +244,7 @@ def section_md(wikitext: str, heading_regex: str) -> list[tuple[str, str]]:
 
 
 def lead_paragraph(wikitext: str) -> str:
-    lead = split_sections(wikitext)[0][1]
+    lead = strip_stats_block(split_sections(wikitext)[0][1])
     lead = re.sub(r"\{\{Quote\|.*?\}\}", "", lead, flags=re.S)
     md = wikitext_to_md(lead)
     paras = [p.strip() for p in md.split("\n\n") if p.strip() and not p.strip().startswith(">")]
@@ -271,6 +271,19 @@ def other_sections_md(wikitext: str) -> list[tuple[str, str]]:
     return out
 
 
+def norm_heading(h: str) -> str:
+    """'\'\'\'Strategy\'\'\'' -> 'strategy'; 'Strategies' -> 'strategies'."""
+    return re.sub(r"[*'\s]+", " ", wikitext_to_md(h)).strip().lower()
+
+
+def strip_stats_block(body: str) -> str:
+    """The statistics div is appended to whatever section precedes it (usually
+    Strategy) without its own heading; cut it off so it never leaks as raw
+    wikitext. The tables themselves are taken from the rendered html."""
+    return re.split(r'<center>\s*<div[^>]*unit-statistics|<div[^>]*id="unit-statistics"|\{\{Statistics\b',
+                    body, maxsplit=1)[0]
+
+
 def top_level_sections(wikitext: str) -> list[tuple[str, str]]:
     """Split on level-2 headings only (keeps ===sub=== inside their parent)."""
     parts = re.split(r"^==([^=].*?)==\s*$", wikitext, flags=re.M)
@@ -285,31 +298,47 @@ def substantive_sections(wikitext: str) -> list[tuple[str, str]]:
     for h, body in top_level_sections(wikitext):
         if not h:
             continue
-        key = wikitext_to_md(h).strip().lower()
-        if any(key.startswith(s) for s in SKIP_SECTIONS):
+        key = norm_heading(h)
+        if any(key.startswith(s) for s in SKIP_SECTIONS) or key.startswith("strateg"):
             continue
-        body_md = wikitext_to_md(body)
-        # drop the statistics block that lives at the end of Strategy-less pages
-        body_md = re.sub(r"\n*#{2,5}\s*Statistics.*$", "", body_md, flags=re.S)
+        body_md = wikitext_to_md(strip_stats_block(body))
         if body_md.strip():
-            out.append((wikitext_to_md(h), body_md))
+            out.append((wikitext_to_md(h).strip("*' "), body_md))
     return out
 
 
 def strategy_block(wikitext: str) -> str:
     for h, body in top_level_sections(wikitext):
-        if h.strip().lower().startswith("strategy"):
-            # strip the trailing statistics div (it is inside the Strategy section
-            # on most pages because the wiki does not give it its own heading)
-            body = body.split("<center><div id=\"unit-statistics\"")[0]
-            body = body.split("{{Statistics")[0]
-            return wikitext_to_md(body)
+        if norm_heading(h).startswith("strateg"):
+            return wikitext_to_md(strip_stats_block(body))
     return ""
 
 
 # --------------------------------------------------------------------------
 # skeleton writers
 # --------------------------------------------------------------------------
+
+PROSE_HEADINGS = ("## Strong against", "## Weak against", "## Notes / synergies",
+                  "## What changes mechanically", "## Notes")
+
+
+def existing_prose(path: Path) -> dict[str, str]:
+    """Agent-written section bodies from a previously generated file, so a
+    mechanical regeneration does not throw away the extraction work."""
+    if not path.exists():
+        return {}
+    text = path.read_text()
+    out = {}
+    for m in re.finditer(r"^(## [^\n]+)\n(.*?)(?=^## |\Z)", text, flags=re.M | re.S):
+        h, body = m.group(1).strip(), m.group(2).strip()
+        if h in PROSE_HEADINGS and body and PLACEHOLDER not in body:
+            out[h] = body
+    return out
+
+
+def prose(kept: dict[str, str], heading: str) -> str:
+    return kept.get(heading, PLACEHOLDER)
+
 
 def fm(fields: list[tuple[str, object]]) -> str:
     lines = ["---"]
@@ -402,9 +431,10 @@ def write_card_skeleton(card: dict, page: dict, image_rel: str, tables, heroes_b
             body += [f"### {h}", "", md, ""]
     else:
         body += ["## Abilities and special mechanics", "", "Not specified on source page", ""]
-    body += ["## Strong against", "", PLACEHOLDER, ""]
-    body += ["## Weak against", "", PLACEHOLDER, ""]
-    body += ["## Notes / synergies", "", PLACEHOLDER, ""]
+    kept = existing_prose(CARDS_DIR / f"{card['slug']}.md")
+    body += ["## Strong against", "", prose(kept, "## Strong against"), ""]
+    body += ["## Weak against", "", prose(kept, "## Weak against"), ""]
+    body += ["## Notes / synergies", "", prose(kept, "## Notes / synergies"), ""]
     if card["has_evolution"]:
         ev = card["evolution"]
         body += ["## Evolution", "",
@@ -449,7 +479,8 @@ def write_evo_skeleton(card: dict, page: dict, image_rel: str, tables) -> None:
         body += [f"> *In-game description:* \"{q}\"", ""]
     body += [f"**Base card:** [{card['slug']}.md](../cards/{card['slug']}.md)", ""]
     body += ["## Overview", "", lead_paragraph(w) or "Not specified on source page", ""]
-    body += ["## What changes mechanically", "", PLACEHOLDER, ""]
+    kept = existing_prose(EVO_DIR / f"{ev['slug']}.md")
+    body += ["## What changes mechanically", "", prose(kept, "## What changes mechanically"), ""]
     body += ["## Evolution-specific stats/behavior", "",
              f"Cycles to evolve: {ib.get('cyclecost') or ev.get('cycles') or 'Not specified on source page'}. "
              f"Stat boosts vs. base card (from the Cards page evolution table): {ev.get('stat_boosts') or 'Not specified on source page'}.", "",
@@ -460,7 +491,7 @@ def write_evo_skeleton(card: dict, page: dict, image_rel: str, tables) -> None:
         body += ["## Abilities (wiki sections)", ""]
         for h, md in extra:
             body += [f"### {h}", "", md, ""]
-    body += ["## Notes", "", PLACEHOLDER, ""]
+    body += ["## Notes", "", prose(kept, "## Notes"), ""]
     body += ["## Source", "", f"- {ev['url']} (scraped {now_iso()})", ""]
     (EVO_DIR / f"{ev['slug']}.md").write_text("\n".join(body))
     src = [f"# SOURCE PACK: {ev['title']} ({ev['url']})", "", "## Lead", lead_paragraph(w), "",
@@ -507,9 +538,10 @@ def write_hero_skeleton(hero: dict, card: dict | None, page: dict, image_rel: st
         body += [f"### {h}", "", md, ""]
     body += ["## Attributes", "", tables_md(attr_tables), ""]
     body += ["## Stats by level", "", tables_md(level_tables), ""]
-    body += ["## Strong against", "", PLACEHOLDER, ""]
-    body += ["## Weak against", "", PLACEHOLDER, ""]
-    body += ["## Notes / synergies", "", PLACEHOLDER, ""]
+    kept = existing_prose(HERO_DIR / f"{hero['slug']}.md")
+    body += ["## Strong against", "", prose(kept, "## Strong against"), ""]
+    body += ["## Weak against", "", prose(kept, "## Weak against"), ""]
+    body += ["## Notes / synergies", "", prose(kept, "## Notes / synergies"), ""]
     body += ["## Source", "", f"- {hero['url']} (scraped {now_iso()})", ""]
     (HERO_DIR / f"{hero['slug']}.md").write_text("\n".join(body))
     src = [f"# SOURCE PACK: {hero['title']} ({hero['url']})", "", "## Lead", lead_paragraph(w), "",

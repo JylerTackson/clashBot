@@ -80,15 +80,31 @@ Heroic Mini P.E.K.K.A. can constantly gain progress for his pancake meters. He w
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Anti-tank cards such as P.E.K.K.A, Mighty Miner, Monk and Prince — with his ability active he beats them even more decisively than the base card.
+- An equal-level P.E.K.K.A. — wait for her first strike, then activate a full Breakfast Boost; the extra Levels and 30% heal leave him with more health than she can chew through, killing her for a +2 Elixir trade.
+- Crown Towers — boosted, he can take a Tower largely on his own while a tank protects him.
+- Building-targeting troops that go for your Crown Towers — they let him rack up pancake meters easily, so save him for those cards.
+- Otherwise he defends the same targets as the regular Mini P.E.K.K.A., just with a stronger counterattack afterwards.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Rocket — one-shots him if it lands before Breakfast Boost is used (activating the ability in response saves him, but wastes all its healing).
+- Anything that removes him before the ability is activated — the key to countering him is denying the boost.
+- All of the base Mini P.E.K.K.A.'s counters still apply, since he defends the same way as the regular card.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: an anti-tank/anti-support Hero that converts a successful defense into a much stronger counterattack.
+- Count him as a 5 Elixir card for trade math: 4 for the deploy plus 1 for Breakfast Boost.
+- Breakfast Boost activates after a 1-second delay, eats all cooked pancakes at once, grants extra Levels and heals 30% of his hitpoints.
+- Pancake meters fill in 22 seconds each, and every attack adds 10 seconds of progress — so keeping him attacking is what charges the ability.
+- Each filled meter is +1 Level, except the last which gives +2: with no meters he gains 1 Level, with the maximum 3 meters he gains 5 Levels. The golden bar above his hitpoint bar shows his meters.
+- The ability is one-time use, so timing it well matters more than using it early.
+- Best in decks with large tanks: the tank protects him while he deletes anti-tank defenders and pressures the Tower.
+- Watch the opponent's rotation and reserve him for their building-targeting troops, which feed his meters.
+- Incredible synergy with Royal Chef — the Chef's low damage and lack of burst forces him to attack more times, charging the ability faster.
+- Conversely he is ineffective with Cannoneer and Dagger Duchess, whose high burst damage cuts down the number of hits he lands and thus his meters.
+- Situationally, the Royal Chef can grant him an extra Level for safer meter accumulation, and Mirror can stack up to 7 extra Levels on him.
 
 ## Source
 

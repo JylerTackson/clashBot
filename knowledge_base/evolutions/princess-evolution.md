@@ -26,7 +26,12 @@ The Princess's Evolution is a Legendary card that is unlocked with 6 Evolution S
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; still costs 3 Elixir and requires 2 cycles to deploy.
+- Same troop profile as the base Princess: area damage, air-targeting, very long range, ground troop with low hitpoints and moderate damage.
+- New ability: her first shot after spawning slows enemies within a 3-tile radius by 30% (the same slow as the Ice Wizard) for 7 seconds.
+- After that first shot the slow is on a cycle - she fires two normal shots and then every third shot applies the slow again.
+- On death she leaves behind a 3-tile area-damaging slowdown zone that also lasts 7 seconds.
+- No stat boosts over the base card are listed on the source page.
 
 ## Evolution-specific stats/behavior
 
@@ -47,7 +52,10 @@ Once the Evolved Princess spawns, her first shot will slow down enemies within a
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Very effective on defence because she slows whole groups of troops, which is especially strong against Beatdown decks.
+- Also usable offensively alongside a win condition, where the slow blunts the defensive troops answering it.
+- She is still fragile, so protect her with a mini-tank such as Knight, Berserker, Valkyrie or Mini P.E.K.K.A.
+- Her death slow zone means she still contributes for 7 seconds after she is killed.
 
 ## Source
 

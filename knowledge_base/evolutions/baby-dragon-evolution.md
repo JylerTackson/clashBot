@@ -26,7 +26,12 @@ The Baby Dragon's Evolution is a Epic card that is unlocked with 6 Evolution Sha
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; costs 4 Elixir and requires 2 cycles to deploy.
+- Stats are identical to the base Baby Dragon — 1.5 sec hit speed, 3.5 tile range, 1.5 tile splash, Fast (90) movement, same hitpoints and damage per level.
+- New ability "Wind Gust": it produces an 8x9 square gust of wind around itself.
+- The gust slows enemy troops by 30% and speeds allied troops up by 30% within that area.
+- The wind lingers for about 2 seconds after the Evolved Baby Dragon dies.
+- Its own movement speed is unchanged — the buff applies to allies around it, not to itself as a rage effect.
 
 ## Evolution-specific stats/behavior
 
@@ -65,7 +70,10 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- The Balloon synergy is even stronger: it tanks for the Balloon and speeds it up, greatly improving its chances of reaching the tower.
+- Pairs well with building-targeting tanks — Golem, Electro Giant, Elixir Golem, Lava Hound or Giant: deploy the tank at the back, add troops behind it, then play the Evolved Baby Dragon as they reach the bridge to speed the whole push up.
+- The slow lets it defend Wall Breakers, Skeleton Barrel and Barbarians on its own, and survive to counterpush.
+- It can also stop a Battle Ram or Balloon from reaching the tower, though the Barbarians and the Balloon's death bomb will still damage it.
 
 ## Source
 

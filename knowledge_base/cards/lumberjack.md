@@ -65,15 +65,44 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Glass cannons — his speed and DPS shred Dart Goblin, Firecracker, Wizard, Ice Wizard, Goblinstein, Mother Witch, Spear Goblins, Little Prince, Magic Archer, Electro Wizard, Archers, Princess, Archer Queen, Witch, Zappies and Musketeer.
+- Small swarms up to Spear Goblins — his fast hit speed chews through them, and his death damage finishes them off (Goblins and Minions are left low enough for a Crown Tower to one-shot).
+- Sparky one level lower — he survives her area damage and grinds her down with his very fast hit speed; pair with Zap once she is fully charged.
+- Graveyard (even with Poison) — he kills Skeletons as they spawn and survives the Poison, as long as nothing is tanking for the Graveyard.
+- Goblin Drill — he takes no meaningful spawn damage and clears all the Goblins without letting through major tower damage.
+- Elite Barbarians — with an Ice Spirit he takes them out for a 1 Elixir advantage.
+- Tanks and towers, which he shreds with high damage and extremely fast attack speed.
+- Valkyrie, Mini P.E.K.K.A, Cannon Cart and Prince — his DPS and health let him screen friendly glass cannons from them.
+- Unanswered Crown Towers — left alone he deals a lot of damage on his own.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Skeleton Army — simply too many units for him to kill fast enough.
+- Swarm cards in general when he is supporting a tank; bring Zap, Giant Snowball or Arrows rather than relying on his inconsistent death damage.
+- Goblin Gang and Skeleton Army used alongside Arrows to break the Lumberjack + Minion Horde push.
+- Ice Golem + Fire Spirit against that same push — the Ice Golem distracts and its death damage sets the Minions up for the Fire Spirit, a 6 Elixir advantage.
+- Rocket, well-placed and timed, kills LumberLoon for a +3 Elixir trade; Tornado + Rocket does it risk-free for an even trade.
+- Minion Horde defends LumberLoon for a +4 trade (though Arrows or Fireball flip that trade).
+- Hunter beats the LumberLoon combo but survives with very little health; Lightning only cripples it.
+- Bowler, Monk and Evolved Mega Knight — their knockback counteracts the Rage effect and leaves them healthy for a counterattack, though they struggle if air units follow behind him.
+- Ranged troop lines like the Three Musketeers gun him down at range unless he is placed between them.
+- Ice Wizard with a tank or swarm slows a Lumberjack + Elite Barbarians push down enough to defend it.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir very fast melee bruiser, viable on offense and defense; think of him as a more expensive Rage that can also fight, at the cost of controlling where the Rage lands.
+- His death Rage (3 tile radius, 5.5 sec, +30%) makes him wasteful alone — play him near the front of a push so surviving troops get the boost.
+- Defensively, letting him die near your Crown Tower drops the Rage on it, speeding up its attacks; add buildings or troops nearby for extra value.
+- LumberLoon: Lumberjack first at the bridge, then Balloon, so the tower kills him first and the Rage boosts the Balloon's speed and hit speed. Never leave this push unsupported.
+- Lumberjack + Minion Horde: he tanks, the Minions do heavy tower damage.
+- Lumberjack + Elite Barbarians decimates a tower fast but costs 10 Elixir.
+- Works as a meatshield for X-Bow — he protects it from tanks and swarms, and his Rage greatly boosts its hit speed if he dies.
+- Behind a tank like Giant or Golem, he kills whatever attacks the tank; if he is removed instead, the Rage lets the tank land many extra hits.
+- Ice Spirit + Lumberjack can leave a Crown Tower at very low health and also clears small pushes on defense.
+- Strong punish card against an opponent who drops something like a Golem in the other lane — chip damage plus a Rage that boosts even cheap follow-ups like Miner or Goblin Barrel.
+- His DPS is similar to Mini P.E.K.K.A but his higher hit speed clears Goblins and Skeletons much faster.
+- When countering him with melee troops, do not drop them directly on top of him — his fast attacks can take them out.
+- The Rage does not affect retargeting speeds or timed animations: a Giant Skeleton's or Balloon's death bomb will not detonate any faster.
 
 ## Evolution
 

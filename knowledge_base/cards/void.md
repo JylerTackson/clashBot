@@ -57,15 +57,35 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Lone moderately-high-hitpoint troops — Electro Dragon, Bandit, Archer Queen, Goblin Brawler, Phoenix, Baby Dragon, Night Witch and Inferno Dragon are destroyed or heavily crippled when alone in the radius.
+- Bowler and cards of similar health — a good standalone counter to them now.
+- Defensive buildings — usually placed away from the Crown Tower, so they take full single-target damage and are destroyed over the 4 second duration.
+- Spawner buildings such as Barbarian Hut and Goblin Hut — place the Void away from the spawn point so it keeps hitting only the building.
+- Elixir Collector — an excellent counter, nearly destroying it for less than a Rocket costs, provided the placement catches only the Collector.
+- Lone Sparky — nearly kills her for a +1 Elixir trade (offensively she still fires once before the Crown Tower finishes her).
+- X-Bow — combined with a cheap distraction (Knight, Spear Goblins, Skeletons, Ice Golem, Guards, Minions, Bats, Goblins) blocking its chip while the Void alone targets the building.
+- Monk — its strikes do not count as projectiles, so the Monk cannot deflect them back at your Crown Tower.
+- Goblin Barrel — can fully counter it with tower troop help if timed and placed right, though at a -2 Elixir trade.
+- Troops parked behind the King's Tower — a Void placed on them without touching the Crown Tower ensures maximum damage.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Large pushes and 5+ unit groups — damage drops sharply the more targets are in the radius, so it is much worse than Fireball against big offensive pushes.
+- Distraction swarms (Goblins, Skeletons, Minions, Guards, Spear Goblins, Bats) played alongside a tank such as Goblin Giant, Ice Golem or Royal Giant — the extra targets gut the Void's output and waste the spell.
+- Buildings screened by a troop in front — the added target drops the damage drastically.
+- Crown Towers — it deals less Tower damage than Fireball, and hitting a Tower alongside a single troop badly cuts the damage on that troop.
+- Opponents who learn the Sparky trick — they simply keep units around her so she is never alone in the radius.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 5 Elixir air- and ground-targeting spell that strikes 3 times over 4 seconds in a 2.5 radius, with damage scaling inversely to how many targets are inside.
+- Damage tiers matter enormously: single-target hits far harder than the 2-4 target tier, which in turn beats the 5+ target tier — the card is best used on one, or on four, targets.
+- Placement precision is the whole card: even one extra target in the radius can negate most of the damage against an Elixir Collector or X-Bow.
+- Unlike most spells, avoid clipping the Crown Tower when a single troop is your target, since the Tower counts as an extra target and can leave the troop healthy.
+- The exception is a swarm split behind the King's Tower — with several targets already in the radius, adding the Crown Tower costs nothing and gains free damage.
+- Likewise, if you are already hitting 2-4 targets (e.g. killing a Wizard), it is worth extending the Void onto the Crown Tower for the extra chip.
+- Viable Fireball substitute: 1 more Elixir for up to 3x the damage at the same radius, but inconsistent — weak against big pushes and worse on Crown Towers.
+- Strong synergy with Goblin Curse: the Void's high damage makes it much likelier that single units die and convert into Goblins, though this pairing does nothing against buildings.
 
 ## Source
 

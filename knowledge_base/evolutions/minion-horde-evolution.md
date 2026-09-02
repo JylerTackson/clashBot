@@ -26,7 +26,11 @@ Not specified on source page
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- All 6 Minions gain the **Vanishing Point** ability: the first strike against each member makes it briefly invincible.
+- While the ability is active the Minion is protected from all sorts of damage and is granted invisibility for 3 seconds.
+- The ability only activates if the incoming attack does not instantly kill the Minion, so hard-hitting splash still wipes the Horde outright.
+- Once the ability activates, the Minions are slowed in both movement speed and attack.
+- Elixir cost is unchanged at 5; cycles to evolve are not specified on the source page.
 
 ## Evolution-specific stats/behavior
 
@@ -41,7 +45,7 @@ Not specified on source page
 
 ## Notes
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Source
 

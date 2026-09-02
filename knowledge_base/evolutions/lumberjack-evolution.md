@@ -26,7 +26,12 @@ The Lumberjack's Evolution is a Legendary card that is unlocked with 6 Evolution
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Costs 4 Elixir and requires 2 cycles; unlocked with 6 Evolution Shards.
+- The Lumberjack himself has stats identical to the base card — same 1060-2065 hitpoints, 0.8 sec hit speed and Very Fast (120) movement.
+- New ability (Raged Revenge): when he dies he drops his Rage as usual and then rises as a ghost.
+- The ghost has unlimited health and cannot be targeted by troops, buildings or towers, but spells still affect it.
+- The ghost only persists inside his own Rage pool — it disappears shortly after leaving the Rage radius (3 tiles) or once the Rage's 5.5 sec duration ends. Extra Rage Spells cannot extend it.
+- The ghost keeps the Lumberjack's attack profile (0.8 sec hit speed, 0.4 sec first hit, Very Fast, Melee: Short 0.7, ground-targeting) with the same troop damage, but reduced Crown Tower damage (e.g. 310 troop damage vs 155 crown damage at level 13).
 
 ## Evolution-specific stats/behavior
 
@@ -74,7 +79,17 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- The ghost lasts roughly 5.5 seconds, matching the Rage duration, which is long enough to do serious damage if unanswered.
+- Good with win conditions on offense: the ghost clears squishy troops and hurts mini-tanks before they can kill your win condition.
+- Extremely versatile on defense — combined with Skeletons, Goblins, Guards or an Ice Spirit it can handle Mega Knight, Giant Skeleton or even a P.E.K.K.A, so long as the Rage is involved.
+- On defense, place him directly on top of the enemy troops rather than kiting, so the ghost can make short work of them.
+- Even with the short lifetime he handles moderate pushes well: the initial Rage's bonus damage kills swarms that would otherwise distract the ghost, letting it focus on support units.
+- Although untargetable, the ghost is still classed as a troop, so it acts as a lightning rod for Electro Dragon, Mega Minion, Archer Queen, Phoenix, Witch, Night Witch, Wizard, Ice Wizard, Electro Wizard, Fisherman, Goblin Cage, Bandit, Battle Ram, Musketeer and Hunter.
+- Counterplay is to lure the ghost out of the Rage radius or waste the Rage time: Mini P.E.K.K.A or Prince kill the Lumberjack first and then kite the ghost out of the pool.
+- Freeze on the ghost makes it outlast the Rage duration, nullifying it — better still if other troops are frozen and you drop swarms.
+- For a counterpush, kite the ghost into the middle away from a Crown Tower, then play a fast win condition like Hog Rider, Dart Goblin, Firecracker or Wall Breakers to pull it away and pressure the opponent.
+- The ghost takes no damage but is still subject to knockback, slows and stuns: The Log, Fireball, Rocket, Evolved Giant Snowball, Ice Wizard's slow, Ice Golem death damage, Poison, Earthquake, Evolved Firecracker, and the stuns from Zap and Lightning. If it locks on, log it and then play a distraction.
+- Be careful pulling him to your King Tower for an activation — he does significant damage unless the ghost is pulled away after the initial Rage is dropped.
 
 ## Source
 

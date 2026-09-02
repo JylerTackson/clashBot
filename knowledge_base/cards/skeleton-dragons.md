@@ -62,15 +62,50 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Minions and Minion Horde — as a pair they shred them quickly, and can counter both if given enough distance to start attacking.
+- Graveyard — like Minions they hit the Skeletons without being hit back and their splash can catch more than one; with the Tower Princess or Dagger Duchess this stops it for a positive Elixir trade.
+- Barbarians and Royal Recruits — they weaken them enough for the Crown Towers to finish the job.
+- Goblin Barrel — deployed on the outer side of the Arena they kill the outer and bottom Goblins while the Crown Tower handles the inner one, preventing the most damage.
+- Dual-lane pushes, particularly ones built on troops that cannot target air.
+- Enemy defensive buildings — decent range plus flight lets them snipe a building without being exposed to the opposing Crown Towers.
+- Cheap ranged defenders on offense — their damage clears the small counters that would otherwise stop a partner like Wall Breakers or the Miner.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air-targeting units that outrange them, especially area damage: Wizard, Firecracker and Executioner.
+- Fireball — OHKOs both dragons; Poison fully defeats them if they stay in its radius for most of its duration.
+- Royal Delivery — lets the Tower Princess OHKO each Skeleton Dragon at equivalent levels.
+- Arrows on lone Skeleton Dragons — prevents all but one hit on the Tower Princess for a positive Elixir trade.
+- Bats — their area of effect is small, so surrounding them with Bats kills them for a positive Elixir trade.
+- Tesla — counters them easily (though it is usually better saved for building-targeting troops).
+- Tombstone — distracts them long enough for the Crown Tower to take them out.
+- Hunter — placed below a lone Skeleton Dragon he defeats both in one attack; this fails if something tanks for them.
+- Ice Golem kiting at the center of the Arena, finished off by another troop or the Crown Towers; it does not work if they are placed in the Arena corners.
+- Frailer ranged troops (Spear Goblins, Minions, Princess, Dart Goblin, Archers) once the dragons have locked onto a tanky troop or building.
+- Electro Wizard dropped directly on top of them — the spawn damage kills them faster than shooting from range.
+- Any tank plus Crown Tower support — even ground-only tanks can soak their hits while the Crown Tower shoots them down.
+- Played alone they are usually destroyed easily; the trade is only neutral because they get damage in first.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Each dragon deals the same damage per shot as a Baby Dragon at equivalent level, effectively doubling the damage for the same 4 Elixir, but with much less health and a slower attack, so they need units to tank for them on offense and defense.
+- Deck fit: they suit decks with big tanks to protect them (Golem, Giant, Lava Hound, Elixir Golem), whereas Baby Dragon suits decks where the dragon itself tanks for a frail card (Graveyard, Miner, Goblin Barrel).
+- Stagger their placement slightly on defense so they do not both take heavy damage, leaving a counterattack available.
+- Low hitpoints plus high paired DPS makes them a good spell bait; Rocket and Lightning on them are negative Elixir trades (Rocket especially, given its slow travel and their speed).
+- Pair with Prince, P.E.K.K.A, Mighty Miner or Mini P.E.K.K.A. — the dragons wipe the swarms that counter those units; the combo is beaten by separating the trio, since their speeds and ranges differ.
+- Split-lane deck staple: they can be split and fly, so they fit dual-lane pushes.
+- With Royal Hogs — the Hogs tank while the dragons clear swarms; splitting them at the river attacks both lanes and denies spell value.
+- In Three Musketeers decks, use them first to bait the opponent's spells and pre-weaken heavy air pushes before committing the Musketeers.
+- With Royal Recruits — the Recruits always split, so splitting the dragons is more effective, and the Recruits' shields discourage spells on the group.
+- With split Elite Barbarians they cover the Barbarians' weakness to swarms; unsplit, this combo is stronger than the others thanks to the Elite Barbarians' higher hitpoints and damage.
+- With Wall Breakers they form a cheap dual-lane push, killing the cheap ranged counters so the Wall Breakers connect.
+- With Balloon — they protect it from Bats and Minion Horde, and their speed and mass push the Balloon closer to the Crown Tower, arriving earlier and bypassing some building placements; an Inferno Tower or tank + anti-air still counters it, as the dragons cannot two-shot anything bulkier than swarms.
+- With Miner — the Miner tanks while they clear Goblins, Minions and Bats; sending the Miner down the center inner tile with the dragons split lets him tank for both Crown Towers, ideally toward the healthier tower.
+- Behind a Slow or Medium tank (Giant, Electro Giant, Golem), place them a good distance back or they outpace the tank and get targeted first by the Crown Tower.
+- Because of their staggered deploy, placing them closer to the center makes the far dragon get targeted, so after defending the healthier one tanks on the counterattack for more total damage.
+- Against a Mortar or X-Bow, place them further from the Arena edge so the outer dragon does not have to reposition and delay its attack.
+- A Tornado offsets their small splash radius by clumping troops, and is even better when it also drags air troops into the enemy Crown Tower.
+- Flying Machine is a substitute when single-target damage is preferred over splash; both have similar hitpoints and die to Fireball or Lightning, and they can also be run together so one baits for the other.
 
 ## Source
 

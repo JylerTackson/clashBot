@@ -66,15 +66,38 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- All ground swarms and clumped troops — its 1.5 splash radius makes it one of the best anti-ground buildings in the game.
+- Tanks like Giant, Hog Rider and Golem — as a building it stalls them far better than a Bomber could.
+- Hog Rider plus swarm pushes — it wipes the swarm while damaging and distracting the Hog Rider at the same time.
+- Hog Rider and Earthquake decks — its high hitpoints survive the Earthquake and it damages the Hog Rider enough that a cheap card like Ice Spirit or Electro Spirit prevents all damage.
+- Elite Barbarians — a positive Elixir trade (add Skeletons or Goblins if they out-level the Bomb Tower).
+- Elixir Golem — it wipes out the Elixir Golemites and blobs and tanks hits from support (pair it with a single-target unit for the Golem form).
+- Royal Giant — with correct timing its health pool lets it nearly take him out, though not against non-swarm back-end support.
+- Moderate-hitpoint troops — Mini P.E.K.K.A., Lumberjack, Executioner, Miner, Royal Ghost, Dark Prince and Goblin Demolisher can be distracted or destroyed.
+- Low to moderate hitpoint ranged troops — Witch, Ice Wizard, Archer Queen, Musketeer, Electro Wizard, Hunter and Wizard.
+- High-hitpoint troops with Crown Tower help — Knight, Valkyrie, Skeleton King, Monk, Golden Knight, Battle Healer and Bowler.
+- Mega Knight — fully countered with two or more Crown Towers when placed 4 tiles from the river and 2 tiles from a Crown Tower.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- All air troops — it is ground-targeting only.
+- Ranged air troops — Baby Dragon, Inferno Dragon, Electro Dragon, Skeleton Dragons and Flying Machine outrange the Crown Towers and are very effective against a lone Bomb Tower.
+- Long-range ground snipers — Dart Goblin, Princess and Magic Archer can outrange it while staying out of Crown Tower range.
+- Single high-hitpoint tanks — its slow 1.8 sec hit speed and moderate damage means tanky units take only light damage.
+- Air pushes are only a partial answer, though: air troops sent in alone still eat fire from one or both Crown Towers plus any counter cards.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir Rare defensive building, 30 second lifetime, 6 range, 1.8 sec hit speed, 1.5 splash radius, ground only.
+- Death bomb: on destruction it drops a bomb that explodes after 3 seconds with a 3 tile splash radius and hits air and ground.
+- Its 6 tile range means Musketeer, Firecracker, Furnace and Evolved Archers cannot snipe it from across the river.
+- Place it inside your Crown Tower's radius so it attracts enemy troops while the Tower punishes anything attacking it.
+- Against a Lava Hound push, place it directly in the Hound's path rather than pulling it aside, so the Hound and its air support are more likely to be caught by the death bomb.
+- Defensive pairings: Mighty Miner or Monk kill the high-hitpoint units (Giant, Giant Skeleton, Goblin Giant, Mega Knight, Royal Giant, Golem) while the Bomb Tower clears ground swarms, and both have the hitpoints to survive on defense. Mini P.E.K.K.A., Prince, Lumberjack, Hunter and Elite Barbarians do the same job less durably.
+- Tornado synergy: clump an incoming push so every unit takes the splash, or pull units into the death bomb.
+- Ice Wizard + Bomb Tower + Tornado is a powerful but expensive 10 Elixir defense — the Tornado groups, the Ice Wizard slows and clears air swarms, the Bomb Tower grinds the push down — but it hands the opponent spell value.
+- Rare offensive use: once a Crown Tower is down, its attack radius can hit troops touching the enemy Crown Tower and the Tower itself at the same time, an unexpected Sudden Death finisher.
+- Versus Tesla (its counterpart at the same cost): Tesla targets air, has more DPS, hides when idle and is a Common so it levels more easily; the Bomb Tower offers splash damage and more health, so choose it when the deck already has enough anti-air.
 
 ## Source
 

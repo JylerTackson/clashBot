@@ -54,15 +54,35 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Unsupported ranged troops in general - dropped directly on top of them it shuts them down before they get value.
+- Witch - deploy the Phoenix directly above her as she crosses the bridge to bypass her Skeleton spawns and chip her down, with the Crown Tower cleaning up the Skeletons.
+- Wizard, Firecracker, Executioner, Electro Wizard and Musketeer - all countered by placing the Phoenix directly over them (place at an angle versus Executioner and Firecracker to spare the Crown Tower).
+- Tanky defenders when paired with a tank - its high DPS shreds troops placed to stop an Electro Giant or Goblin Giant.
+- Most single troops - it has significant damage and good hitpoints for 4 Elixir, making it a formidable matchup for almost any individual unit.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air swarms - Bats and Minion Horde overwhelm an attacking Phoenix quickly and also destroy the Egg.
+- Hunter - guns it down quickly with his shotgun blast.
+- Ground anti-air ranged troops - Wizard, Executioner and Musketeer reliably kill an unsupported Phoenix at range and finish the Egg too.
+- Kiting with a ground-targeting troop - the Crown Towers kill the first apparition while the kiting unit destroys the Egg; this fails against chargers, very fast troops, river-jumping troops and building-targeting troops.
+- Any spell dealing Arrows-level damage or more - destroys the Egg outright.
+- Buildings plus cheap anti-air DPS - a Cannon or Tesla with Minions or Mega Minion pulls the Phoenix off its tank and separates the push.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Typical role: 4 Elixir single-target air troop with a death mechanic - on death it explodes for damage and knockback and leaves an Egg.
+- The Egg has low hitpoints and hatches after 3.8 seconds into a full-strength Phoenix; the reborn Phoenix deals no death damage and lays no Egg.
+- Always pair it with something that can tank even one Crown Tower shot for the Egg - Skeletons or Bats are enough to secure the revive.
+- If it dies to a Crown Tower, a Zap or Giant Snowball that delays a single Tower hit is usually enough for the Egg to hatch.
+- Rage speeds up the resurrection, letting it rejoin a large push in time.
+- Clone synergy: a second Phoenix means a second death explosion, useful both offensively and defensively.
+- Mirror synergy: the higher-Level Phoenix has a tougher Egg, nearly guaranteeing its own respawn, and it tanks for the original's Egg too. Both are still lost to Minion Horde, Hunter, Wizard, Executioner or Musketeer for an Elixir deficit.
+- The Egg is not a building: Earthquake applies only its troop damage and cannot kill the Egg alone, and Tornado cannot pull it - so neither spell is a good dedicated answer.
+- Spells weaker than Arrows cannot destroy the Egg alone and need help from other cards or the Crown Towers - remember this when you kill a Phoenix while attacking.
+- Electro Giant plus Phoenix is a deadly push: the Giant tanks and clears swarms while the Phoenix melts the tanky defenders; Tornado can pull defenders into both of their ranges.
+- Goblin Giant substitutes for the Electro Giant at a lower cost with longer swarm-clearing range, but fewer hitpoints and worse swarm clearing once it is locked onto a target.
+- Tornado can drag a defending Witch toward an attacking Phoenix while wiping her Skeletons in one shot.
 
 ## Source
 

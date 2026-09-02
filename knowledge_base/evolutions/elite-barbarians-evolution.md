@@ -24,7 +24,12 @@ The Elite Barbarians' Evolution is a Common card that is unlocked with 6 Evoluti
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; costs 6 Elixir and requires 1 Cycle to deploy.
+- Spawns 2 Elite Barbarians with identical stats to the originals — no stat changes over the base card.
+- New ability: when units are between 3.5 and 5 tiles away, they throw Rage-tipped spears.
+- The thrown spears leave a trail of Rage on the ground, boosting their movement speed and making them attack faster.
+- The spears target only ground troops.
+- The spear throw has a cooldown, taking 5 seconds to recharge after each use.
 
 ## Evolution-specific stats/behavior
 
@@ -39,7 +44,7 @@ Not specified on source page
 
 ## Notes
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Source
 

@@ -72,15 +72,41 @@ Hunter's attack pierces through enemies. His attack speed is also increased.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- High-hitpoint units at point-blank range — with all 10 pellets connecting he does slightly more damage than a P.E.K.K.A.
+- Swarms when placed at a distance — the spread means the pellets scatter across multiple targets, ground and air.
+- Mini tanks and building-targeting units one on one — against a Hog Rider he concedes at most one Tower hit before killing it.
+- Shielded troops — each pellet is an individual hit, so once the shield breaks the remaining pellets carry straight into the unit's health.
+- Graveyard — he one-shots each spawned Skeleton with a pellet and survives an equal-level Poison, though random spawn and pellet order make him inconsistent.
+- Goblin Barrel aimed at the centre of a Crown Tower — placed directly behind the Tower before it lands, he counters it without taking any damage (precise timing needed).
+- Balloon — played early he lands one full shot that cripples it so the Tower finishes it, and he survives for a counterpush.
+- Lava Hound — he bursts it down quickly, and placed far enough back he also clears the Lava Pups without major Tower damage.
+- P.E.K.K.A. — he survives a single strike from an equal-level P.E.K.K.A. and can take three or four hits from a mini tank.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Prince — a hard counter to a lone Hunter on offense or defense, charge or no charge, thanks to his health, damage and longer-than-normal melee range.
+- Ranged troops that stay outside his effective range: Musketeer, Electro Wizard, Baby Dragon, Executioner, Bowler, Inferno Dragon, Zappies, Goblin Demolisher, Electro Dragon and Wizard.
+- Swarms that surround him — Skeletons, Goblins or Bats beat a lone Hunter since he only shoots in one direction and attacks slowly.
+- Support troops in a push — his short range forces him to the front, so he dies fairly quickly despite slightly more health than the Musketeer, Mega Minion or Electro Wizard.
+- Knockback spells: The Log, Fireball and Giant Snowball push him away from his target so each shot deals less damage, and reset his attack windup.
+- Giant Snowball plus Crown Tower alone stops him on your side — the knockback and attack slow prevent him from ever hitting the Tower.
+- Ice Spirit — enough distraction for a Cannoneer or Dagger Duchess to finish him off.
+- High burst damage units — Sparky, P.E.K.K.A, Mini P.E.K.K.A, Elite Barbarians and Three Musketeers beat the Hunter + Fisherman combo, as do Skeleton Army and Minion Horde.
+- Lightning — punishes him when paired with a Magic Archer.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir defensive air-and-ground damage dealer; his attack fires 10 shotgun pellets with a wide random spread, so damage is very high point-blank and low at range.
+- Placement is everything: right next to a tank to melt it, far away from a swarm so the spread covers them. Too far from a tank or too close to a swarm and he is wasted.
+- He does little damage to Crown Towers since he rarely gets close to them — he is a defensive card first.
+- Distraction units (Skeletons, Archers, Minions, Bats, Goblins, Spear Goblins) and mini tanks (Ice Golem, Knight) complement him well by buying time for his burst shots at low cost.
+- Hunter plus Skeletons, Zap, The Log, Ice Spirit or Electro Spirit fully counters a Prince on your side; with Skeletons he can be deployed closer and take no damage at all, which is stronger on the counterattack.
+- Fisherman synergy: the hook pulls units toward the Hunter so he lands point-blank damage. The pair beats many single units on defense but loses to swarms and burst damage.
+- Magic Archer synergy: the Hunter handles tanks and short-range threats while the Magic Archer covers long-range threats and swarms — watch for Lightning on the duo.
+- Charging units placed directly behind him (Battle Ram, Ram Rider, Prince, Dark Prince) can push him up to the Crown Tower, though at 8 Elixir this is impractical.
+- When defending against a Hunter, avoid placing your counter close to the Tower at an angle — stray pellets can chip the Crown Tower substantially.
+- When using a melee troop against a lone Hunter, place it at a distance so the Tower chips him and his first shot spreads out; but if he is already locked onto the Tower, put the melee unit directly in front to soak all the pellets.
+- Against a Graveyard his position drifts toward the centre of the spell as it progresses, leaving him open to being surrounded.
 
 ## Evolution
 

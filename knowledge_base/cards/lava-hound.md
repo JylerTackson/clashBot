@@ -70,15 +70,39 @@ Periodically spawns in 2 Lava Pups at the back when in Lava Hound form.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- High-damage ground troops that cannot hit air — P.E.K.K.A., Mini P.E.K.K.A., Elite Barbarians, Monk, Sparky, Mighty Miner, Evolved Mega Knight, Lumberjack, Night Witch, Goblin Brawler and Prince are all unable to target it.
+- Ground-only swarms and defenders such as Barbarians, Guards, Skeleton Army, Goblins and Royal Recruits, which cannot touch it at all.
+- Defensive buildings placed to pull building-targeting troops — its sight range is lower than other building-targeters (matching a Knight's), so it can bypass placements that would catch a Golem or Balloon.
+- Opponents with no area damage for air — uncountered Lava Pups deal incredible damage once the Hound pops.
+- Crown Towers, as a 7 Elixir air tank with very high hitpoints that soaks tower fire for higher-damage support behind it.
+- Single-target defenders in general, since the six spread-out Lava Pups overwhelm units that can only hit one target at a time.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Inferno Tower — deals huge ramping damage to the Hound while taking little in return, and it retargets to the next unit (often the Balloon) afterwards; back it with a Musketeer or Arrows for the Pups.
+- Area damage air-hitting spells and troops: Arrows, Fireball, Giant Snowball, Poison, Fire Spirit, Executioner, Wizard.
+- Arrows specifically — larger area than Zap and no timing risk; they kill all Lava Pups, and on a low-health Hound the Pups die within 2 of the spell's 3 waves.
+- Zap timed exactly as the Hound dies can stun all six Pups, but the timing window is tight.
+- Tornado + Executioner — Tornado clumps the push so the Executioner hits everything at once, and hits the Pups too; Magic Archer, Wizard and Firecracker work similarly.
+- Hunter — great damage to the Hound and can hit the Pups right after, though his low health means he needs a mini tank against big pushes.
+- Going in alone is futile: an unsupported Lava Hound and its Pups can be countered with no damage taken at all.
+- Ground-targeting troops bypass it entirely when it is used to shield ground units.
+- Draft and Triple Draft Challenges — you are guaranteed one (or two) air-targeting cards against you, so it is a poor pick there.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: slow, expensive (7 Elixir) building-targeting air tank / win condition; it must be well supported.
+- Best used as a shield for high-damage, low-hitpoint air troops: Minion Horde, Bats, Mega Minion, Phoenix, Electro Dragon, Inferno Dragon. Shielding ground troops is weaker because ground-only defenders bypass the Hound.
+- Also pairs with Baby Dragon, Skeleton Dragons or Flying Machine to make up for its extremely low damage and lack of death damage.
+- Lava Pups need a tank of their own: Knight, Miner, Dark Prince, Valkyrie, Prince, Monk or Hog Rider can tank long enough for them to take a Crown Tower, and the Hound can tank for those units first.
+- LavaLoon: the Hound tanks for a Balloon. It needs support like Baby Dragon, Electro Dragon or Skeleton Dragons against swarms such as Minion Horde, which makes the combo costly.
+- Against a LavaLoon defence that has both an Inferno Tower and a spell ready, abuse the Hound's long range by dropping a distraction like Tombstone at the bridge and letting the Balloon go in front so the Crown Tower locks onto it.
+- Lightning pairs well: it cripples Inferno Tower and Inferno Dragon and kills glass cannons like Wizard, Goblinstein, Little Prince, Ice Wizard, Archer Queen, Musketeer, Electro Dragon, Witch, Hunter, Night Witch and Mega Minion.
+- Zap helps against Inferno Tower by resetting its damage and making it retarget to Minions; Minions can also be sent to kill the Inferno Tower and its support.
+- Miner synergy: send him after a tower locks onto the Hound for free chip damage, or onto ground anti-air like Musketeer, Wizard or Archer Queen; after the Hound dies he tanks for the Pups. Fireball, Lightning, Archers, Spear Goblins or Rascals counter this for a positive trade.
+- Note that Lava Pups spawn a short while after the Hound dies, so a second tank on the field draws fire and lets the Pups do more damage.
+- Clone on the Lava Hound is high risk, high reward: the tower fires one shot at the cloned Hound before switching, yielding twelve Pups. Bait out Zap, Arrows or Giant Snowball first with swarms like Bats, Minion Horde, Goblin Gang or Skeleton Army.
+- Compared with the Golem: cheaper, untargetable by big ground damage, Pups out-damage Golemites, and a 1-second deploy time versus 3 seconds — but less health, far lower damage, no death damage, harder to upgrade as a Legendary, and it cannot distract ground-only troops.
 
 ## Source
 

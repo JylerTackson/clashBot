@@ -74,15 +74,33 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- High-damage single-target ground troops — P.E.K.K.A, Mini P.E.K.K.A, Inferno Dragon, Mighty Miner and Prince are distracted long enough to finish them off; an unsupported P.E.K.K.A. can be fully defeated with the right placement plus a Crown Tower.
+- Hog Rider — placed in front of him with correct timing, the gang shuts him down completely.
+- Mega Knight — a lone Mega Knight is completely stopped with a correct placement.
+- Goblin Barrel — properly timed, the gang completely shuts it down.
+- Elite Barbarians — place the corner-most Goblin nearest both of them so they both attack the same Goblin, maximizing the stall; only one badly damaged Elite Barbarian should reach the tower.
+- Non-360-degree splash units (except Bomber and Wizard, whose splash is too large) — surround them, since they cannot kill every Goblin at once.
+- Fragile air units — Flying Machine, Bats and Minion Horde: the Goblins tank while the Spear Goblins shoot; especially good against Baby Dragon and Electro Dragon, whose damage cannot one-shot the Goblins.
+- Mortar — placed in the center it maximizes the time the Mortar stays distracted.
+- Lone Golem — placed at a distance so the Spear Goblins survive the death damage and then handle the Golemites.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- The Log — it completely counters the Goblin Gang for a positive Elixir trade, making a one-lane deployment risky.
+- Arrows, which the gang is often used to bait.
+- Splash troops in general — Valkyrie, Dark Prince, Royal Ghost and Mega Knight can wipe the whole card at once since it deploys as one clump.
+- Electro Wizard or Valkyrie dropped directly on top — they make short work of the gang and set up a counterpush.
+- Bomber and Wizard specifically, whose splash range is large enough that surrounding them does not save the Goblins.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 3 Elixir mixed ground swarm and spell bait — three Goblins deploy in front (they spawn first) and three Spear Goblins behind, in a hexagon formation.
+- The front Goblins have more health and tank for the Spear Goblins, forming a mini-push, though the Goblins actually deal the most damage of the two.
+- Running Goblins and Spear Goblins as two separate cards instead has the advantage that they can be deployed apart so one splash card cannot hit everything.
+- Ice Spirit or Electro Spirit can tank a hit or two and then freeze/stun the Crown Tower, letting the gang deal heavy damage.
+- Level matters when rushing: a higher-level Goblin Gang's Goblins take three Crown Tower shots instead of two, greatly increasing the damage they get in.
+- Mirror plus Clone on it can swarm or rush the enemy, but it is very risky unless you are sure the opponent has no splash.
+- Skeleton Army is the main alternative: more units and more total damage, but lower hitpoints per unit, more spell-vulnerable, slower and unable to hit air.
 
 ## Source
 

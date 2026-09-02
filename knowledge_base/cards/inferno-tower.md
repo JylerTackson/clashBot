@@ -70,15 +70,43 @@ Inferno Tower's attack now starts at Stage 3 instead of Stage 1.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- High-hitpoint tanks — Giant, Golem, Lava Hound, Giant Skeleton, P.E.K.K.A., Mega Knight, Royal Giant and Electro Giant, all melted by its damage that intensifies the longer it stays on one target.
+- Balloon and Hog Rider — single-target win conditions get burned down before they land much damage, especially placed to pull them early.
+- Prince, Ram Rider, Bowler, Mighty Miner, Goblin Machine, Skeleton King, Monk and Battle Healer — beefy single units it roasts for a neutral or positive Elixir trade.
+- Wizard + P.E.K.K.A. pushes — it deletes the P.E.K.K.A. quickly, leaving a Knight, Valkyrie, Prince, Monk, Battle Healer, Skeleton King, Goblin Machine, Mighty Miner or Golden Knight to clean up the support.
+- Electro Giant — its 6-tile range and ramping damage burn most of the Electro Giant's health before he closes into stun radius; add Ice Spirit or Zap on the Electro Giant to kill him outright.
+- Royal Hogs — despite being single-target, its huge hitpoints distract the Hogs long enough for the Crown Towers to finish them.
+- Lava Hound + Balloon — placed near the bridge, the longer-ranged Lava Hound stays untargeted by the Crown Tower so the Balloon is pulled instead and both burn down, leaving only Lava Pups.
+- X-Bow or Mortar at the bridge — its high hitpoints and damage burn through the building and its support troops, and a survivor discourages further attacks.
+- Air troops in a pinch — Baby Dragon, Flying Machine, Mega Minion, Phoenix, Skeleton Dragons and Skeleton Barrel, when better anti-air is out of rotation.
+- Treasure Hunt mode — its enormous DPS claims the treasure building faster than most cards, and its health makes it hard to remove first.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Cheap swarms — Spear Goblins, Bats, Goblins, Skeletons, Skeleton Army, Minion Horde and Goblin Gang overwhelm it because it burns only one target and re-targets slowly.
+- Stun and reset cards — Zap, Freeze, Ice Spirit, Electro Spirit, Electro Dragon, Zappies, Electro Wizard, Electro Giant, Goblinstein and Lightning all reset its damage charge; constant-stun troops are worst since it never ramps up.
+- Lightning and Rocket — high-damage spells that cripple or destroy it outright (Rocket is a negative trade unless it also hits other cards).
+- Earthquake + Zap — the pair can severely cripple or fully take out the tower for 1 less Elixir than Lightning.
+- Shield units — Dark Prince, Guards and Royal Recruits reset its charge when their shield breaks, so tanks behind them survive far better.
+- Distraction spells and burrowers — Barbarian Barrel, Graveyard, Goblin Barrel, Miner and Goblin Drill pull it off the real threat (though The Log can punish this).
+- Outranging ranged troops — Dart Goblin, Magic Archer and Princess sit outside its 6-tile range and chip it down for the push behind them.
+- Minions and Bats sent across the river specifically to bait it off a tank; vary your placement to avoid this.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: defensive building, 5 Elixir, 30-second lifetime, 6-tile range, hits air and ground, one target at a time.
+- Damage ramp: 5% of max damage for the first two seconds, 18.75% for the next two, full damage after that — so it needs about four uninterrupted seconds on a target.
+- Because of that ramp plus roughly 1 second of server delay, Zap or Lightning aimed at it should be dropped on the fourth second to reset the charge.
+- Pair it with stun or control cards on your side: Ice Spirit, knockback cards or Tornado hold attackers in place long enough for the beam to reach full damage.
+- Back it with splash — Wizard, Bomber, Princess, Executioner, Bowler, Witch, Goblin Demolisher, Magic Archer, Ice Wizard or Firecracker — to cover its swarm weakness, but that stack is vulnerable to Rocket, Lightning or Earthquake.
+- Bait out the opponent's big spell first, or place the tower where a spell cannot hit both it and your Crown Tower.
+- Placing it next to your X-Bow or Mortar protects that building from tanks like the Giant; the 11-Elixir combo is expensive and can be nullified by Lightning, and you need Arrows, The Log, Evolved Zap or a splash troop ready for swarms.
+- Works as Zap bait — it lets you run combos like Ice Spirit + Goblins that are devastating if the Zap is spent elsewhere.
+- Works as Lightning bait too, protecting one-shot-vulnerable cards like Witch, Wizard, Hunter, Fisherman, Archer Queen, Phoenix, Bandit, Night Witch or Electro Dragon.
+- Against Lava Hound + Balloon, place near the bridge; clean up Lava Pups with Arrows or a backup anti-air unit like Musketeer, Wizard, Electro Wizard or Hunter. It will not stop the push alone if the opponent holds Zap or Ice Spirit.
+- If it survives a push with health left, drop a Mortar or Princess at the bridge — the opponent's answer walks into the tower and its 30-second lifetime gets used up productively.
+- Vary placement between games so opponents cannot pre-plan Minion/Bat distractions.
+- Deck slot choice: Cannon costs 2 less but is ground-only; Tesla costs 1 less, is worse into tanks but more reliable against swarms and stuns; both are Commons and cheaper to level for ladder.
 
 ## Source
 

@@ -59,15 +59,45 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ranged support troops near the river - invisibility plus hover means he always strikes first; he one-shots Princess, Dart Goblin, Goblins and Spear Goblins.
+- Archers, Bomber, Wall Breakers and Firecracker - killed in 2 hits.
+- Magic Archer, Ice Wizard, Electro Wizard, Musketeer and Wizard - killed in 3 hits, often replacing a Fireball or Poison for 3 Elixir.
+- Small swarms such as Goblin Gang - his area damage clears them.
+- Goblin Drill Goblins next to your Crown Tower - his splash wipes them out.
+- Spirit cards - stealth guarantees the first hit and a one-shot kill, notably denying the Heal Spirit's heal.
+- Charging troops - Mega Knight, Bandit and Fisherman can be engaged without taking their charge, so he counters or stalls them alone.
+- Defensive buildings across the river such as a Bomb Tower - he hovers over the river to snipe them.
+- Princess at the bridge - a predictive Royal Ghost kills her in one hit before she fires.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- High-hitpoint mini tanks - Knight, Valkyrie, Mini P.E.K.K.A, Lumberjack and Prince stop him without taking much damage, given his unimpressive DPS.
+- Skeleton Army - his slow attack speed makes him very weak to it; he needs Crown Tower help.
+- Swarms that surround him - Goblins and Guards only lose one unit per swing while the rest kill him, at worst a neutral Elixir trade.
+- Area damage and spells - invisibility does not protect him from them.
+- Electro Dragon and Electro Spirit - their attacks chain onto him even while invisible.
+- Hunter - his bullets hit the Royal Ghost even when the Hunter is targeting a troop behind him; already-fired projectiles also still connect.
+- Spirit cards used as kite - a Spirit pulls him into the other lane, separating him from the push he is supporting.
+- Rocket - one-shots him, but for a negative Elixir trade and risky given his speed.
+- Heavy defenders - P.E.K.K.A, Three Musketeers, Sparky and Evolved Mega Knight break up the fast pushes he supports.
+- Large single targets - against a Giant or Golem his splash rarely hits anything else.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Typical role: 3 Elixir fast, splash-damage mini tank and offensive support that opens invisible and re-cloaks after 1.8 seconds without fighting.
+- He is invisible only to troops and buildings, not to the opposing player - expect prepared counters.
+- Because Crown Towers target the troop behind him, he is a poor tank but excellent for surprise attacks; deploy follow-up cards after he becomes visible.
+- A mini tank behind him still tanks for him unless he is distracted, but placing the mini tank (for example Ice Golem) in front is usually better since his speed and mass shove it forward.
+- On defence against ranged troops he can be placed early - the guaranteed first strike preserves his hitpoints for a counterpush.
+- He is a situational defender: he cannot kite (he spawns invisible and re-cloaks whenever he stops attacking, so enemies stop chasing him) and is hard to use reactively.
+- Air troops alone cannot kill him - he re-cloaks and becomes untargetable and never turns visible since he cannot hit them; pair air units with a ground distraction.
+- He ignores and walks past an opposing Royal Ghost, Suspicious Bush, hidden Tesla or invisible Archer Queen - drop a cheap troop to force them visible so your unit strikes first.
+- To bank Elixir behind him, place him in the back corner rather than behind the King's Tower, making him harder to kite to the centre or Tornado into a King activation.
+- Strong synergy with fast offensive cards - Hog Rider, Ram Rider, Prince and Battle Ram - since he keeps pace and clears the swarms sent at them.
+- Pairs with a building-targeting tank such as a Giant: the Giant is lured by a defensive building while the Royal Ghost crosses the river to destroy it.
+- Against an Electro Giant, pair him with an Electro Wizard so the stun lands in the same window as his attack, avoiding reflection damage.
+- When defending against him, keep your counter unit close to but not touching the Tower so his splash does not chip it.
+- Dark Prince is a possible replacement in some decks - bigger splash area, a shield and a charge - while the Royal Ghost has higher immediate speed and damage and a better matchup versus ranged units.
 
 ## Evolution
 

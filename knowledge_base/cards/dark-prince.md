@@ -68,15 +68,49 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ground swarms — his splash normal attack and 360° charge attack wipe Goblin Gang, Skeleton Army and similar; cheap swarms with tight deployment are especially poorly suited against him.
+- Goblins, Dart Goblin, Rascal Girls and Princess — his normal attack damage is similar to The Log, killing each in one hit.
+- Support units behind a tank — Musketeer, Wizard, Witch, Archer Queen and Ice Wizard all fall to his splash.
+- High single-damage units like Sparky, Mini P.E.K.K.A. and P.E.K.K.A. — his shield absorbs one big hit entirely, since excess damage past the shield is negated.
+- Unsupported Elite Barbarians — with Crown Tower help he fully counters them for a positive Elixir trade.
+- Goblin Barrel — played behind your King Tower as the barrel lands, his 360° splash kills all three Goblins while taking zero damage.
+- Inferno Tower and Inferno Dragon — his shield breaking resets their ramp-up, and his river jump lets him reach an Inferno Tower and deal heavy damage to it.
+- Other mini tanks on defense — his total health is comparable to Sparky's for 2 less Elixir, making him a great disposable defensive tank.
+- Most cards around 5 Elixir — well placed on defense he beats them and counterattacks.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- High-hitpoint single-target troops that can tank his charge: Knight, Valkyrie, Mini P.E.K.K.A., Lumberjack, Battle Healer, Cannon Cart, Golden Knight — high hitpoints beat him far better than low-hitpoint swarms.
+- P.E.K.K.A. and Mega Knight — hard counters to him and to the Double Prince push, keeping health for a counterpush.
+- Electro Wizard — his stun attacks slow the Dark Prince and prevent him from charging at all.
+- Zap and other stun cards — reset his charge and chip him.
+- The Log — one of the few knockback sources that affects him; it strips his shield for a +1 Elixir trade when followed by a cheap kite.
+- Monk and the Little Prince's ability — the other knockback effects he is not immune to.
+- Barbarians and Rascals — staggered deployment means his charge only catches one or a fraction of them, though it is a negative Elixir trade.
+- Kiting with cheap moderately-healthy troops (Ice Golem, Elixir Golem, Skeletons, Goblins) after his shield is gone.
+- Air units of any kind — he cannot target air, so Minion Horde or Evolved Electro Dragon punish him and his pushes.
+- Sparky paired with The Log — The Log first to remove the shield, then Sparky finishes him.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: flexible 4 Elixir defensive/counterattack troop and bridge-spam threat, filling several roles at once thanks to moderate-high hitpoints, splash attack and shield.
+- He begins charging after travelling 3 tiles and deals double damage on the charge hit; the charge hits all enemies in a 360° area, so surrounding him does not work.
+- His shield negates all excess damage — e.g. a Lightning doing 1,056 against a 240-hitpoint shield wastes 816 damage — so big spells are poor answers to him.
+- He is immune to all knockback except The Log, Monk and the Little Prince's ability, so Fireball, Giant Snowball and Bowler are bad choices to reset his charge.
+- He can jump over the river, letting him reach buildings like an Inferno Tower quickly.
+- When facing an enemy Dark Prince, feed a cheap unit (Skeletons, Goblins) to absorb his charge before placing your tank counter, preserving its health for a counterpush.
+- Place him a short distance from his target so he isn't hit during deploy time and can build up a charge for the double-damage hit.
+- Double Prince combo: he clears low-hitpoint troops while the Prince kills big single targets; often run with a tank such as Giant. Weak to air (Minion Horde, Evolved Electro Dragon), so bring spells.
+- Counters to the Double Prince push: Inferno Dragon or Minion Horde plus a distraction tank, luring with an Ice Golem so they stop charging, or The Log into Sparky. Attacking the other lane also denies the expensive setup.
+- Adding P.E.K.K.A., Mega Knight or Giant Skeleton to the Double Prince push amplifies both its strengths and its weaknesses; Rocket or Minion Horde punish it. Only commit when the opponent is low on Elixir, or use one card defensively first.
+- Pairs with fast building-targeting troops (Hog Rider, Battle Ram) — his charge speed keeps him aligned with them and he clears the swarms while they hit the Tower. Vulnerable to air swarms.
+- Bridge spam pair with the Bandit: on the same lane they keep pace without colliding, his splash clears Goblin Gang or Skeleton Army, and combined with the Bandit's dash they take out glass cannons like Lumberjack, Executioner, Royal Ghost, Goblin Demolisher and Mini P.E.K.K.A.
+- He is a "noisy" distraction — force the opponent to defend him, then punish an overcommitment with a Bandit, Battle Ram, Wall Breakers, Hog Rider, Ram Rider or Royal Ghost on the opposite side.
+- Electro Giant works as a tank for him; they support each other on offense and defense.
+- His high mass plus fast charge speed pushes a friendly unit in front of him closer to its target — very effective with the Giant Skeleton, placing its death bomb nearer a Crown Tower.
+- If the opponent puts a Golem behind their King's Tower, send him down the other lane: most cheap defensive cards die instantly to his charge, so he connects with little resistance.
+- Deal with an approaching Dark Prince before he reaches the Crown Tower; despite lower damage than the Prince he still does considerable tower damage.
+- Cannot kill Firecracker, Bomber, Wall Breakers or Archers in one hit, unlike Goblins and Princess.
 
 ## Hero variant
 

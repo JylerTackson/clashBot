@@ -75,15 +75,51 @@ The Archer Queen has a special ability, accessible from the rightmost side of th
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Any single unit — her high DPS and range make her a very good answer to lone troops; placed 5 tiles from the defending Crown Tower and 3 from the river with the ability, she stops almost anything.
+- Tanky single targets up to Elixir Golem or Sparky hitpoints — her 7 shots during the ability are enough to safely defeat them.
+- Small to medium pushes on defense; with a building such as Tesla or Cannon she can even defend a Golem, Giant or Lava Hound push.
+- Dual-lane pushes such as Royal Hogs — her range lets her kill them quickly and counterattack with the ability recharged.
+- Goblins and Spear Goblins at equal level — she destroys them outright, so Goblin Gang is a poor counter to her.
+- Goblin Barrel Goblins — invisible with boosted attack speed and range, she kills them for no damage.
+- Air troops threatening a Lava Hound push — her damage and range clear them easily.
+- Tesla — with her ability active and alone, she bypasses it entirely and hits the Tower, since Tesla will not reveal itself against invisible targets.
+- A lone remaining Crown Tower — placed in the center of enemy territory with an immediate Cloaking Cape she deals massive damage after the first Tower falls.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Lightning — OHKOes her at equal Level, and works through her invisibility since it is a spell; she is a reliable target because of her relatively high hitpoints.
+- Rocket, or Poison plus The Log — also fully counter her (slightly negative Elixir, equal if she activated the ability); note Poison plus any other 2 Elixir spell is not enough, and Fireball needs Arrows, Evolved Zap or Royal Delivery to finish her.
+- Large swarms — Skeleton Army survives her 7 ability shots with enough Skeletons left to kill her; Barbarians counter her well since she 3HKOes each but cannot handle all 5.
+- Guards or Skeleton Army over Goblin Gang; weaker swarms like Skeletons and Bats also work when assisted by the Tower.
+- Stunning troops — Electro Wizard, Electro Dragon and Zappies prevent her from using the ability.
+- Knockback and stun spells — Giant Snowball or The Log during the ability wastes seconds of her boosted shots, and Zap or Freeze do the same.
+- Barbarian Barrel placed so the Barbarian pops out behind her (a +4 Elixir trade) or a lone Royal Delivery, but only after she has used her ability.
+- Mighty Miner — fully counters an offensive Archer Queen for a positive Elixir trade thanks to his health and damage, even through the ability.
+- High-damage rushers — Mini P.E.K.K.A, Prince, Monk, Sparky, Elite Barbarians, Mighty Miner, P.E.K.K.A or Lumberjack negate her damage because her ability takes time to activate.
+- Prince and Dark Prince counter a lone proactive Archer Queen if their charge connects.
+- Furnace — a +1 Elixir counter; she cannot OHKO the spawned Fire Spirits, so they accumulate damage on her.
+- Reflect effects — a reactive Electro Giant near her, or a Monk with Pensive Protection active, turn her own ability against her.
+- Dagger Duchess — do not activate the ability against her, as it lets her charge her daggers again and unload on the Archer Queen anyway.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: ranged glass-cannon support / defensive DPS Champion; count her plus an ability activation as 6 Elixir for trades.
+- Cloaking Cape: 1 second delay, then 3.5 seconds of untargetable invisibility with an 80% attack speed increase but a massive movement speed decrease; 17 second cooldown, 1 Elixir.
+- She fires exactly 7 shots over the full ability duration assuming no shots are wasted.
+- Time the activation slightly after she starts attacking so no pre-ability shots are wasted; against an approaching unit, activate roughly 1 second before it reaches her.
+- Even at a sliver of health she is deadly with the ability, so opponents should finish her with Zap, Log or Giant Snowball.
+- While she is invisible you can place a mini-tank (Knight, Valkyrie, Golden Knight, Battle Healer, Prince) to distract the Crown Tower — though this backfires against area damage that can splash onto her.
+- If you cannot afford another defensive unit, spend the 1 Elixir on the ability instead; the extra DPS compensates and it recharges for the counterpush.
+- The ability can divert troops to the other lane: e.g. against a Giant-Lumberjack dual push, P.E.K.K.A. on the Giant, Archer Queen in the center to pull the Lumberjack, then cloak so the Lumberjack walks into the P.E.K.K.A.
+- Do not cloak 3.5-5 tiles from your Tower against a Mega Knight or Bandit — they will immediately jump/dash onto something else, possibly your Tower. Same caution against Giant Skeleton (bomb risk) and against an X-Bow or Mortar targeting her.
+- Add a cheap distraction (Skeletons, Goblins, Guards, Knight, Ice Golem) when extra stalling is needed instead of the ability.
+- Avoid activating the ability when other friendly troops are already killing the enemies — shots get wasted and she is left slowed, making it a wasted Elixir.
+- In Archer Queen mirror duels, activate your ability after the opposing one activates hers to win the fight.
+- Pairs well with Battle Healer (she is kept alive while covering the Healer against air), though a big tank like P.E.K.K.A. still beats the pair.
+- Effective Lava Hound support, since she handles the air troops that counter it — but ground troops can distract her unless she cloaks.
+- Opponents who spend their spells on her may then play cards that thrive spell-free: Electro Dragon, Witch, Night Witch, Bandit, Fisherman, Wizard, Mega Minion, Hunter, Berserker, Battle Ram.
+- Substitutes: Little Prince (2 Elixir cheaper, more range, Guardienne mini tank, but less damage and HP), Musketeer or Electro Wizard (1 Elixir cheaper, similar damage, less HP), or Wizard / Witch / Electro Dragon / Cannon Cart / Bowler / Executioner if the deck needs anti-swarm instead of single-target damage.
+- She can be set as a Boat Battles defender but cannot use her ability there, so she is a poor Clan Wars Defense Tower choice.
 
 ## Source
 

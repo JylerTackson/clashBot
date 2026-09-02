@@ -26,7 +26,11 @@ The Mortar's Evolution is a Common card that is unlocked with 6 Evolution Shards
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Hit speed is 1 second faster than the base Mortar (4 sec instead of 5 sec), raising its damage per second at every level.
+- Every shot also spawns a Goblin where the shell lands (Green Siege) — a Very Fast (120) ground melee unit with 0.2 sec deploy time, 1.1 sec hit speed and Melee: Short (0.5) range, one per attack.
+- Everything else matches the base card: 4 Elixir, 3.5 second deploy time, 30 second lifetime, 3.5-11.5 range with the same blind spot, 2 splash radius and 300 projectile speed.
+- Goblins scale with card level alongside the Mortar (e.g. Level 11: 266 area damage plus a Goblin with 202 hitpoints and 120 damage).
+- Requires 6 Evolution Shards and 2 cycles before it can be deployed.
 
 ## Evolution-specific stats/behavior
 
@@ -76,7 +80,16 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- It takes a long time to cycle to, but its very high damage means it can take a Crown Tower down on its own if ignored.
+- Against the Tower Princess, the spawned Goblin always lands 2 hits, so even a single connection deals hundreds of damage between boulders and Goblins.
+- Against a Cannoneer or Dagger Duchess the Goblin only gets 1 hit, sharply reducing damage over time.
+- It is slightly weaker than the regular Mortar to an activated King Tower, since the Goblins take fire from both Towers — so activating your own King Tower cuts incoming damage from 2 Goblin hits to 1 on the Tower Princess (Cannoneer and Dagger Duchess are unaffected).
+- Fisherman synergy: pull single-target defenders (Mini P.E.K.K.A, Knight, Mighty Miner, Goblin Machine, Cannon Cart, P.E.K.K.A, Giant Skeleton, Golden Knight, Monk, Battle Healer, Lumberjack, Boss Bandit, Miner, Prince) into the blind spot so the Mortar connects to the Crown Tower.
+- Goblin Drill synergy: the Mortar clears the swarms and heavy units sent at the Drill (Goblin Gang, Skeleton Army, Prince, Lumberjack, Skeleton King, Mini P.E.K.K.A, Golden Knight, Goblin Machine, Cannon Cart, Mega Knight, Valkyrie, Elite Barbarians, Monk, Sparky, Mighty Miner, P.E.K.K.A, Boss Bandit, Battle Healer, Royal Ghost, Giant Skeleton, Miner, Knight) while the Drill does the damage, and the extra Goblins force a spell response.
+- Counters: a defensive Goblin Drill (its Goblins attack the Mortar while it shoots the drill, an equal Elixir trade), Tesla and Bomb Tower (equal Elixir trades with the health and damage to fully stop it), and Earthquake for its high building damage — pairing Earthquake with a well-placed Fire Spirit or Ice Spirit mostly counters it for an equal trade.
+- Do not counter it with lone low-health ranged cards (Dart Goblin, Princess, Spear Goblins) — its shots one-shot them, and placing them next to its target means the splash hits them too; even survivors get finished by the spawned Goblins.
+- Instead, tank its shots with an Ice Golem, Knight, Battle Healer, Elixir Golem, Valkyrie, Skeleton King, Hog Rider or Miner and let ranged cards kill it unharmed.
+- Bulky ranged cards — Evolved Royal Giant, Cannon Cart, Executioner and Bowler — are the best counters: they stay outside the blind radius, absorb the shots and kill it before it locks onto the Crown Tower.
 
 ## Source
 

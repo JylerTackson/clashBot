@@ -66,15 +66,41 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Split Archers — with Tower Princess help it stops the pair for a +2 Elixir trade by distracting them long enough for the Tower to finish them (unsplit Archers still get one hit in, since it has no stun).
+- Skeleton Barrel — dropped behind the Tower when the barrel's shadow is one tile away, it deploys as the barrel pops and jumps on all the Skeletons, preventing everything but the Death Damage.
+- Skeletons and any Skeleton card — it one-shots them.
+- Guards, in combination with The Log or Barbarian Barrel — its damage does not break their shields but does finish off the Guards themselves, a neutral Elixir trade with precise timing.
+- Medium-sized single-target troops that need more than one hit to kill it, so it has time to jump on them — Musketeer, Executioner, Baby Dragon, Witch, Magic Archer, Archer Queen, Princess, Flying Machine, Fisherman, Cannon Cart, Goblin Demolisher, Ice Wizard, Electro Dragon, Firecracker, Bomber and Dart Goblin.
+- Other Spirit cards — it survives any other Spirit's attack, a neutral Elixir trade that keeps it alive for more defense.
+- Royal Ghost — used as a kite to drag him into the other lane, separating him from a bigger push.
+- Chip finishers alongside a spell — Heal Spirit plus Fireball fully kills Musketeer, Electro Wizard or Wizard; plus Zap, Rage or Giant Snowball it finishes Goblins, Minions or Rascal Girls.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- The Log and Barbarian Barrel — cheap answers that also get splash value on the cards played alongside it.
+- Royal Delivery — same idea, though the barrel/delivery must kill the Heal Spirit before its unit spawns, or the Spirit jumps on that unit and heals the push anyway.
+- Cannoneer and Dagger Duchess — they stop it tanking to the Tower, and the Duchess's daggers finish crippled swarms before the Spirit can jump.
+- Mother Witch — she spawns a Cursed Hog from it unless you place it close enough that it dies as part of its own attack.
+- Cheap side placements that pull it away from the push it supports — Skeletons, Bats, Goblins, Spear Goblins, Ice Golem or another Spirit, especially when its targeting differs from the troop it escorts (e.g. an Elixir Golem).
+- Long-ranged troops it is meant to heal — Musketeer, Flying Machine and Magic Archer are hard to reach with the small 2.5 tile heal radius.
+- Buildings — its healing has no effect on them, so it is dead weight in X-Bow and Mortar decks.
+- Anything that outranges or one-shots it, given its low hitpoints and low damage.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 1 Elixir Spirit that jumps at its target, dealing 1.5 tile splash and destroying itself, then leaves a 2.5 tile healing field (4 pulses per second) for nearby allies; it has the highest health but the lowest damage of the Spirits.
+- Place it behind the troop you want healed — in front of any non-fast troop it will usually detonate with the ally outside the heal radius, wasting the value.
+- The heal radius spawns around the enemy it jumps on, so place it to draw the enemy troop toward your defenders, or use Tornado to pull enemies close to your own troops first.
+- It can tank for a small push: it has enough hitpoints to reach a Tower Princess or Royal Chef, letting all Goblin cards, all Minion cards, Wall Breakers, Bats and Guards arrive unscathed — but not at a lower Level, nor against Cannoneer or Dagger Duchess.
+- Pairs with swarms that survive a spell on a sliver of health, forcing the opponent to spend more Elixir instead of letting the Tower clean up: Royal Hogs after a Fireball, Minion Horde after Zap/Rage/Giant Snowball, Barbarians after Arrows or Royal Delivery, and unshielded Royal Recruits. Does not work against Dagger Duchess.
+- Excellent with Elite Barbarians — they are bulky, come as a pair for double heal value, and the Spirit one-shots the Skeleton cards commonly used against them.
+- Works in Sparky and Balloon decks: a few hundred hitpoints at the right moment buys the single deadly connection.
+- Pairs well with Royal Giant — reliable against swarms, and the Royal Giant's position near the bridge leaves the opponent few placements that do not help him.
+- Very helpful in Electro Giant and Elixir Golem pushes (more Zap Pack procs, delayed Elixir gift respectively), and usable with Giant, Goblin Giant, Rune Giant, Lava Hound and Golem though the heal is negligible for those tanks.
+- Anticipating a Poison, drop it to counteract the spell's damage, saving troops or at least keeping them defending longer.
+- Compared with the other Spirits it is weaker on defense (no status effect, lower damage) — most of its value is the healing.
+- It is not a substitute for Skeletons as a 1 Elixir slot: it sacrifices itself on attack, while Skeletons survive behind tanks and keep defending.
+- If you want cheap persistent splash instead, Bomber costs 1 more, attacks repeatedly and survives more hits; choose Heal Spirit when the healing or the 1 Elixir cost matters more.
 
 ## Source
 

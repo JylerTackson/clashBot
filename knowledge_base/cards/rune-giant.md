@@ -73,15 +73,32 @@ Automatically buffs everything on the player's side.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Buildings — she is a building-targeting troop with high hitpoints (3221 at level 13), so she walks past troops straight to the tower.
+- Defenders placed close to the opponent's Crown Towers — she tanks while enchanted ranged chip cards like Magic Archer, Princess, Evolved Firecracker or Evolved Bomber punish them from a distance.
+- Enemy troops facing your fast-hitting units — Lumberjack, Dart Goblin, Monk, Mighty Miner, Inferno Dragon, Magic Archer, Little Prince, Bandit, Golden Knight, Phoenix, Goblin Machine and Berserker all reach the every-third-attack bonus quickly, so she massively raises their effective damage.
+- Groups of enemy troops when the enchant lands on an area-damage or piercing attacker — the bonus damage applies to every enemy hit, and the Executioner gets it on both the "send" and "return" phases of his third throw.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir building-targeting tank and buff support — the cheapest of the Giants, with low damage of her own (145 per hit at level 13) but a large enchant payoff.
+- Enchant mechanic: after a slight delay she buffs up to 2 allied troops within 8.5 tiles, adding bonus damage (266 at level 13) on every 3rd attack; the enchant lasts 5 seconds after she dies, and she re-enchants a new troop when a buffed one dies.
+- Unlike the Royal Chef she does not prioritize any particular troop — she simply enchants the two closest troops within 8.5 tiles, so control which units are nearest her.
+- Do not run her in X-Bow or Mortar decks: her buff ignores buildings entirely.
+- Her bonus damage is static, so slow high-damage hitters (P.E.K.K.A., Mini P.E.K.K.A., Sparky, Prince, Mega Minion, Golem, Bowler, Evolved Battle Ram, Elite Barbarians, Electro Giant, Night Witch, Balloon) gain little; fast attackers gain a lot.
+- Rage is especially good on troops she has enchanted, since the faster attack rate cycles the every-third-hit bonus sooner.
+- Electro Wizard interaction: his attack counts as two hits, so the bonus triggers every third hit rather than every third full attack — more often against a single target.
+- Electro Dragon interaction: the bonus applies on every third full attack, but that effectively boosts all three chain hits at once.
+- Attached-troop cards like Goblin Giant and Goblin Machine only buff the primary troop, not the secondary units.
+- Hunter and Firecracker split the bonus across all projectiles on their third shot, so place them close to their target for full value.
+- Charging, dashing and jumping troops can be enchanted; even when the special attack itself is not boosted it still counts toward the cycle, so their second regular attack gets the bonus instead of the third.
+- The enchant works with the Golden Knight's Dashing Dash ability, boosting damage on every third troop in the chain.
+- Lava Hound synergy: she boosts the Lava Hound's otherwise very low damage, then tanks for the Lava Pups and enchants two of them. Expensive at 11 Elixir total, so save it for Double or Triple Elixir.
+- Do not pair her with self-destructing units like any Spirit or Wall Breakers — they never live to deal the bonus damage.
+- Keep her alive as long as possible, since the enchantments only persist 5 seconds past her death.
 
 ## Source
 

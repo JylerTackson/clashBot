@@ -76,15 +76,33 @@ Each spawn cycle sends out 1 small Mega Knight instead of regular Barbarians.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Lone Mega Knight — the hut plus its waves stop him for a +1 Elixir trade (the death-spawn Barbarian survives but does little).
+- Single-target ground tanks and win conditions in general, since each wave of three Barbarians surrounds and chews through them.
+- Opponents who ignore chip damage — even at its slow spawn rate the accumulated Barbarians can heavily damage or destroy a Crown Tower.
+- Defensive placement in front of your own Crown Tower shields it from ground pushes with a high-hitpoint body.
+- Goblin Barrel — a poor answer to the hut, especially if a Barbarian wave spawns just in time to clean it up.
+- Miner chip — only a slightly effective counter; the hut still spawns two waves (6 Barbarians) and can leave the Miner player at a 4 Elixir disadvantage.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops — Minions, Bats, Baby Dragon, Skeleton Dragons, Mega Minion, Electro Dragon and Flying Machine attack it unhindered because Barbarians cannot hit air (only safe if placed outside Crown Tower range).
+- High-damage spells — Poison and Fireball punish the spawner strategy; a Rocket completely destroys the hut, though it cannot stop the first wave or the death spawn.
+- Bowler — his damage plus knockback on each Barbarian wave stalls them, letting him survive longer and defend multiple waves.
+- Splash troops and buildings — Barbarians arrive in groups of 3, so area damage wipes wave after wave.
+- Fast, high-health troops that blow past the waves — Dark Prince, Prince, Ram Rider, Boss Bandit, Golden Knight, Lumberjack, Mini P.E.K.K.A and Hog Rider soak damage and keep going.
+- Balloon — in rare cases it can snipe a hut placed centrally on the opponent's side for a +1 Elixir trade, never getting distracted by the Barbarians.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 6 Elixir defensive spawner building, 30-second lifetime, spawns 3 Barbarians every 15 seconds (0.5 sec apart) plus 1 Barbarian on death.
+- Elixir math: up to 8 Barbarians total, worth 8 Elixir, for a maximum profit of 2 Elixir — so it must be protected and allowed to run its full lifetime to pay off.
+- The slow payoff makes it easy for the opponent to erase the value with one big spell; expect Fireball, Poison or Rocket.
+- Core of the Spawner strategy alongside Tombstone and Goblin Hut — stacked huts can overwhelm opponents at any level if left unanswered.
+- At 6 Elixir it can leave you defenseless, so keep cheap troops in hand after playing it.
+- When defending with it in front of your Crown Tower, remember the opponent can get spell value on both the hut and the tower at once.
+- As the hut player, prioritize removing the opponent's area-damage cards, since splash undoes each wave of 3.
+- Rage interaction: the hut is affected by Rage and its lifetime decays faster, so no extra wave is produced, but the final wave spawns 3 Barbarians instead of 1 — a 2 Elixir investment returning about 2 Elixir of value, worth it if you need that last wave on defense.
+- In the Rage Challenge, building lifetimes are unaffected but spawn speed is boosted, giving up to 3 waves instead of the usual 2.33.
 
 ## Source
 

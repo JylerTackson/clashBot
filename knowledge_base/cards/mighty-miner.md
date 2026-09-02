@@ -64,15 +64,41 @@ The Mighty Miner has a special ability, accessible from the rightmost side of th
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Tanks — his Inferno Tower-like ramping attack shreds Golem, Giant Skeleton, Royal Giant, Giant, Goblin Giant and Mega Knight, and he has more health and mass than other anti-tank cards.
+- Archer Queen — he fully counters an offensive one for a positive Elixir trade thanks to his health and damage.
+- Boss Bandit and similar dashers — his hitpoints withstand their dashes while his ramp-up damage depletes them.
+- Wall Breakers — Explosive Escape's bomb OHKOes them.
+- Battle Ram — the bomb's 1.8 tile knockback resets its charge.
+- Goblin Barrel — the ability can completely counter it if timed correctly.
+- Swarms, but only via the ability — the bomb annihilates them and knocks lighter units back 1.8 tiles (both ground and air).
+- Split-lane ground pushes — high main-attack damage plus the lane-swap lets him deal with both halves.
+- Tanky low-damage melee counters played against him — Mega Knight, Miner, Dark Prince, Battle Healer, Golden Knight, Skeleton King, Goblin Machine, Boss Bandit, Giant Skeleton, Valkyrie and Knight all lose to him while Explosive Escape is ready.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Swarms without his ability up — he has no area damage and cannot even one-shot Skeletons, so swarms stall and beat him.
+- Ranged troops placed in the center — Musketeer, Electro Wizard or Wizard defend well against an offensive Mighty Miner whether or not he uses Explosive Escape.
+- Center-placed Tombstone — he struggles to shred the Skeletons, and even after the ability he still heads for the Tombstone.
+- Center-placed Inferno Tower — pulls him on either lane regardless of the ability (a 1 Elixir negative trade if he does not use it).
+- Stun cards — Electro Wizard, Electro Dragon, Goblinstein, Electro Giant and Zappies reset his ramp-up like they do the Inferno Dragon; bait out Explosive Escape with a Skeleton Army or Goblin Gang first.
+- Fisherman — dragging him to the center minimizes the lane-swap value and still counters him (risky if he survives with high health near the King Tower).
+- Royal Recruits — block both lanes and swarm him, though it is a negative Elixir trade even when he uses the ability.
+- Building-targeting rushers (Hog Rider, Ram Rider, Wall Breakers, Battle Ram) — his melee range makes him less reliable than the Inferno Dragon, as they can run out of range if he is not next to the building they target.
+- A mini tank baiting the ability followed by a center swarm card kills both him and his push partner for a positive trade.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: defensive anti-tank / dual-threat Champion; count him plus his activated ability as 5 Elixir (4 to deploy, 1 for Explosive Escape).
+- His damage ramps up the longer he stays on one target, like the Inferno Dragon, so stuns and target switches hurt him badly.
+- Explosive Escape: after a 1 second delay he becomes intangible and reappears at the horizontally mirrored position, leaving a bomb that explodes 1 second later for medium area damage plus 1.8 tile knockback on ground and air; 13 second cooldown.
+- Use the ability to cover his swarm weakness and to lane-swap against reactive melee troops.
+- Signature play: send him alone at the bridge, let the opponent commit defenders, then activate the ability and drop a threat like Graveyard or Goblin Barrel in the lane he surfaces in — the defenders are weakened by the bomb and are out of position.
+- When using the ability to tank for an opposite-lane Graveyard, place the Graveyard first and then activate, so the Skeletons spawn before the Tower targets him.
+- Deployed on the enemy side opposite their Crown Tower, the ability lets him jump to their other Crown Tower with minimal reaction time (predictable, so it can cost you Elixir).
+- Do not drag him toward your King Tower with Tornado unless you have a stun, as he can do heavy damage to it.
+- When he approaches your Tower, prepare answers for the other lane too if a center placement is not possible.
+- Pairs well with P.E.K.K.A.: push together, then activate the ability once they reach the opponent's side to threaten both lanes at once.
+- He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor Clan Wars Defense Tower choice.
 
 ## Source
 

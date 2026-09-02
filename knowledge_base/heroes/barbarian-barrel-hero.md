@@ -13,7 +13,7 @@ card_type: Spell
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero"
 image_path: heroes/images/barbarian-barrel-hero.png
-scraped_at: "2026-09-02T02:35:53+00:00"
+scraped_at: "2026-09-02T02:45:45+00:00"
 release_date: 2 March 2026
 ---
 
@@ -31,177 +31,10 @@ The Heroic Barbarian is a Epic card that is unlocked with 200 Hero Shards. It is
 
 *Barrels down the lane a second time for maximum impact.* (costs 1 Elixir; 2 + 1 = 3 total)
 
-### **Ability: Rowdy Reroll**
+### Ability: Rowdy Reroll
 
 > "Barrels down the lane a second time for maximum impact."
 The Hero Knight has a special ability accessible from whatever side of the screen was put in, just above the player's card slots in battle. When activatet, the Barbarian Barrel will roll for a second time, while healling the barbarian for 50% of the damage. The Rowdy Reroll ability costs 1 Elixir to activate.
-
-### **Strategy**
-
-- The ability can get the barbarian closer to the crown tower while healing some hp, forcing more elixir on defense.
-- The roll can also kill more swarms, or get behind troops.
-
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Range
-Range
-! scope="col" |Width
-Radius
-! scope="col" |Target
-Targets
-! scope="col" |Type
-Type
-! scope="col" |Rarity
-Rarity
-|-
-|2
-|4.5
-|2.6
-|Ground
-|Spell
-|Epic
-|}
-
-{| class="wikitable" id="unit-attributes-table-secondary" style="width:100%;text-align:center;"
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |First Hit Speed
-Damage Speed
-! scope="col" |Speed
-Speed
-! scope="col" |Deploy Time
-Deploy Time
-! scope="col" |Range
-Range
-! scope="col" |Target
-Targets
-! scope="col" |Count
-Troop Count
-! scope="col" |Transport
-Transport
-|-
-|1.3 sec
-|0.4 sec
-|Medium (60)
-|0.5 sec
-|Melee: Short (0.5)
-|Ground
-|x1
-|Ground
-|}
-
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Range
-Range
-! scope="col" |Width
-Radius
-!Damage Healed
-Activation
-! scope="col" |Target
-Targets
-|-
-|1
-|3
-|2.6
-|50%
-|Ground
-|}
- 232 716 192 1.4 116
-{| class="wikitable" id="unit-statistics-table" style="width:100%; text-align:center;"
-! scope="col" |Level
-Level
-! scope="col" |Barbarian Barrel Area Damage
-Area Damage
-! scope="col" |Hitpoints
-Hitpoint
-! scope="col" |Damage
-Damage
-! scope="col" |Damage Per Second
-DPS
-!Crown Tower Damage
-Tower Damage
-|-
-|6
-|
-|
-|
-|/s
-|
-|-
-|7
-|
-|
-|
-|/s
-|
-|-
-|8
-|
-|
-|
-|/s
-|
-|-
-|9
-|
-|
-|
-|/s
-|
-|-
-|10
-|
-|
-|
-|/s
-|
-|-
-|11
-|
-|
-|
-|/s
-|
-|-
-|12
-|
-|
-|
-|/s
-|
-|-
-|13
-|
-|
-|
-|/s
-|
-|-
-|14
-|
-|
-|
-|/s
-|
-|-
-|15
-|
-|
-|
-|/s
-|
-|-
-|16
-|
-|
-|
-|/s
-|
-|}
-There will be rounding mistakes, .as we have stats from level 11
 
 ## Attributes
 
@@ -243,16 +76,20 @@ There will be rounding mistakes, .as we have stats from level 11
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ground swarms — the extra Rowdy Reroll roll can clean up additional swarm units that the first roll missed.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: the Hero form of the 2 Elixir Barbarian Barrel — same ground-targeting rolling spell (4.5 range, 2.6 width) that spawns one Barbarian, only deployable on your own side.
+- Ability **Rowdy Reroll** (1 Elixir, 3 total): the Barbarian rolls a second time over a shorter 3 range, 2.6 width, healing himself for 50% of the damage dealt.
+- The ability is activated from the side of the screen just above the card slots during the battle.
+- Use the reroll to push the Barbarian closer to the Crown Tower while healing him, forcing the opponent to spend more Elixir on defence.
+- The second roll can also be used to get behind enemy troops rather than purely for damage.
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero (scraped 2026-09-02T02:35:53+00:00)
+- https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero (scraped 2026-09-02T02:45:45+00:00)

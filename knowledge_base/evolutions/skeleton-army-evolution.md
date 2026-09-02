@@ -26,7 +26,14 @@ The Skeleton Army's Evolution is an Epic Card that is unlocked with 6 Evolution 
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; costs 3 Elixir and requires 2 cycles to deploy.
+- Spawns 15 Skeletons in a scatter formation plus General Gerry at the back (the evolution table lists this as +1 Skeleton over the base card).
+- New ability "Un-Undead": when a Skeleton is defeated it leaves a shadow instead of vanishing.
+- Shadows have unlimited hitpoints and cannot be targeted by troops, buildings or tower troops, but they can still be hit by spells, and they still deal damage.
+- Shadows move at Medium (60) speed rather than the Skeletons' Fast (90), and there can be up to 15 of them.
+- Defeating General Gerry instantly destroys all shadows; Skeletons still alive survive, but can no longer turn into shadows when they die.
+- General Gerry is stronger than a normal Skeleton: 1 sec hit speed instead of 1.1 sec and Melee: Long (1.6) range instead of Melee: Short (0.5).
+- Gerry also carries a shield (equal hitpoints to a Skeleton) like the Guards, which absorbs a hit's excess damage.
 
 ## Evolution-specific stats/behavior
 
@@ -77,7 +84,14 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- To fully clear the Evolved Skeleton Army you must kill General Gerry first, otherwise the shadows stay alive and destroy whatever is attacking them.
+- Gerry's extra range and faster hit speed make him noticeably better on defense against building-targeting troops.
+- Arrows are a neutral Elixir trade answer: the first wave breaks Gerry's shield, the second finishes him, and the large radius catches most or all of the Army so allied units can push through unimpeded.
+- Poison, Earthquake and Vines can defeat Gerry the same way but more slowly; Poison is a negative Elixir trade.
+- Goblin Curse is a positive Elixir trade but needs 3 hits for the shield and 3 for Gerry, so all 6 hits must land; its smaller radius may miss part of the Army, and shadows cannot be cursed.
+- Void at Stage 3 cannot break the shield in one hit and so fails to kill Gerry — isolate him and use Stage 1 or 2 instead.
+- A well-timed Barbarian Barrel destroys the shield instantly and the Barbarian's swing finishes the unshielded Gerry, provided the shadows do not walk back and overwhelm the Barbarian.
+- Evolved Zap beats regular Zap here: its two pulses defeat Gerry and the remaining Army; since both cards cost the same cycle, save it for when the opponent's Skeleton Army is evolved.
 
 ## Source
 

@@ -62,15 +62,39 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Undefended Crown Towers — if ignored they take around 20% of a Crown Tower's health for only 2 Elixir, forcing a response.
+- Goblin Cage — their damage is enough to destroy it and release the Goblin Brawler.
+- Defensive buildings — placed in the opposite lane they cripple or destroy the building put down to block a building-targeting push.
+- Fast and Very Fast melee troops such as Lumberjack — their high movement speed lets them kite the attacker ineffectively while Crown Towers chip it.
+- Bandit — her dash often misses because of their speed, though she still has to be defended afterwards.
+- Grouped enemy troops — they deal area damage, so a Tornado that bunches defenders up as they explode can be a large Elixir profit.
+- Opponents with an empty or mistimed cycle — repeated 2 Elixir deployments in a fast deck often catch the best counter out of rotation.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Arrows and Royal Delivery — completely destroy both Wall Breakers (a negative Elixir trade, but often worth it), and Royal Delivery leaves a Royal Recruit behind to defend.
+- The Log, Zap, Barbarian Barrel and Giant Snowball — chip them enough that the Crown Tower finishes them before they connect, as long as they are not tank-supported.
+- 360-degree attackers such as Valkyrie, Dark Prince and Mega Knight — hit both Wall Breakers at once.
+- An activated King's Tower — the King plus Crown Tower kill one Wall Breaker, so only the second connects; this is an enormous problem for the Wall Breakers user.
+- Crown Tower shots alone at a level deficit — a Wall Breaker at least 1 level below the Tower always dies in 3 hits, meaning one fails to connect (Levels 6 to 8 die in 3 hits to an equal-level Tower, otherwise 4).
+- Ice Spirit as a follow-up — played second it finishes off both Wall Breakers after a small spell, played first it stalls them for the rest of the defense.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 2 Elixir cheap win condition and spell bait — two building-targeting runners that explode on impact for very high area damage and destroy themselves.
+- Deployed as a horizontal pair, so placing them in the middle of the Arena splits them into separate lanes, which is awkward to answer Elixir-efficiently.
+- Stagger them 1 tile to either side of the bridge rather than directly in front — the outer Wall Breaker nudges the inner one forward, connecting slightly sooner.
+- Strong in cheap, fast-cycle decks: repeated deployments outpace the opponent's counter rotation and force inefficient defense.
+- Bait out The Log, Barbarian Barrel, Arrows and 360-degree attackers before committing; with Clone and Mirror, 8 Wall Breakers for 8 Elixir can instantly destroy a Crown Tower one level higher.
+- Defensive use is surprisingly good: place them two tiles into the opposite lane and three tiles from the bridge to kite a fast melee attacker — either they connect for damage or the opponent overcommits, both good for the defender. A variant is to wait until the attacker is halfway between bridge and Tower Troop, then drop them at the bridge.
+- Pair with the Miner: the Crown Tower targets the Miner first, letting the Wall Breakers land, and even a stopped pair still leaves Miner chip damage.
+- Pair with a cheap tank like Ice Spirit — it soaks for them and can freeze the troops sent to stop them.
+- Behind a Giant or Golem they run to the Crown Tower while the tank absorbs Tower fire.
+- Zap alongside a Wall Breakers push is especially good against swarms: splash value plus a 0.5 second stun and instant deploy can let them connect with a sliver of health.
+- Rage makes them hard to react to at the bridge and can get both to connect against decks without area damage or buildings, but it does not increase their damage since their hit is instant and Rage only raises attack speed.
+- Never use them with the Rune Giant — her buff never activates because they destroy themselves on their first attack.
+- After taking a Crown Tower, placing them in the middle of the opponent's side leaves very little reaction time, though only one will connect unless a tank is placed first.
+- Avoid deck cards that hand the opponent King Tower activations (Electro Spirit, Magic Archer, Evolved Bomber, Firecracker), since an active King's Tower halves their damage output.
 
 ## Evolution
 

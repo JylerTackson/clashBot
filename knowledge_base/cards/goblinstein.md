@@ -77,15 +77,31 @@ The Goblinstein has a special ability, accessible from the rightmost side of the
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Fragile swarms — Lightning Link hits infinite targets within a 2 tile radius, quickly wiping Skeleton Army, Minion Horde, Evolved Bats and Goblin Gang that walk into it.
+- Bulkier swarms — Evolved Barbarians, Evolved Royal Recruits, Three Musketeers, Zappies and Royal Hogs withstand a few Lightning Link hits before being obliterated.
+- Miner and similar target-switchers — the Doctor's 0.5 sec stun can force a retarget onto the Monster, saving Tower hitpoints.
+- Air troops — the Doctor targets Air & Ground at 5.5 range, and Lightning Link also hits both.
+- Buildings — the Monster is a high-hitpoint, building-targeting troop that walks straight for them.
+- Troops that must stand next to the Monster or Doctor, since the 4 sec link punishes anything in the 2 tile corridor between them.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Tank killers — the Monster is vulnerable to them when the Doctor is not covering him.
+- Targeting the Doctor — killing him removes both the 3 card cycle and the ability entirely.
+- Fisherman — pulls the Monster quickly away so the link cannot deal much damage (for example to your Tower).
+- Tornado — same idea, dragging the Monster out of position to stretch or break the link's coverage.
+- Crown Towers shrug off the ability, since Lightning Link deals heavily reduced damage to them.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir dual-unit Champion — a ranged, air-targeting, stunning Doctor plus a high-hitpoint building-targeting Monster; count Goblinstein plus the activated ability as 7 Elixir.
+- Every Doctor attack stuns the target for 0.5 seconds, so he interrupts ramp-up and charge mechanics.
+- The Doctor always spawns 1 tile in the opposite direction from the side the Monster is placed on, so a middle placement splits the two into both lanes.
+- The pair can attack and/or defend one or two lanes at once for a single 5 Elixir card.
+- Lightning Link: 1 second delay, then an electric link between the Doctor and the Monster that shocks everything within 2 tiles every 0.5 seconds for 4 seconds; 17 second cooldown, 2 Elixir.
+- If the Monster is already defeated, it leaves an antenna on the ground that the link connects to, so the ability still works afterwards — but if the Doctor dies, the ability is gone.
+- Like area damage, the link has no target cap, making it strong against clumped pushes.
+- He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor Clan Wars Defense Tower choice.
 
 ## Source
 

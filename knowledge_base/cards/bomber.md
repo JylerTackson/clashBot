@@ -67,15 +67,46 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ground swarms in general — Barbarians, Skeleton Army, Goblin Gang, Archers, Royal Recruits, Guards — his splash radius, high damage, decent range and 2-Elixir cost beat them more efficiently than most similar-cost cards.
+- Barbarians specifically — one of the cheapest counters, killing same-level Barbarians in just 3 throws thanks to his range.
+- Royal Hogs — they cannot attack him while his splash hits all of them, a +3 Elixir trade.
+- Wall Breakers, even when split — neutral Elixir trade; he weakens them enough for any tower troop to finish, and stays at full health for a counterattack.
+- Goblin Drill — he OHKOs the Goblins, and attacking just before the drill expires lets him clean up the death Goblins for a +2 Elixir trade.
+- Barbarian Hut and Furnace — he cannot deny every wave but prevents a lot of damage for only 2 Elixir.
+- Princess at the bridge — he survives one of her attacks and 2HKOs her back.
+- Mini-tanks when protected by an Ice Golem — Elite Barbarians, Golden Knight, Lumberjack, Valkyrie, Bowler, Skeleton King, Dark Prince, Knight, Mini P.E.K.K.A., Bandit, Battle Healer, Executioner, Prince, Mighty Miner, Cannon Cart, Monk — his DPS plus the Crown Tower handles them.
+- Any 2-Elixir spell at similar level — he survives them, so Fireball or Arrows on a lone Bomber is an Elixir loss for the opponent.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops — he cannot target air at all, so Minions, Bats and other flyers beat him freely.
+- Zap, Giant Snowball, Rage, or The Log with Crown Tower support — timed as he enters tower range, the stun plus tower damage kills him before he throws a bomb, for a neutral Elixir trade.
+- Barbarian Barrel — the best 2-Elixir spell against him behind a tank or on the opponent's side; it leaves him at critical health for the spawned Barbarian to finish.
+- Void — kills a lone Bomber in one strike (add Goblins, Bats, or Barbarians to split the damage and save him).
+- Spirit cards — Ice Spirit, Electro Spirit, or Fire Spirit, since he needs two hits to kill them and the Crown Tower finishes him, a positive Elixir trade.
+- Mini-tanks dropped on top of him — Knight, Royal Ghost, Valkyrie, Miner, Mini P.E.K.K.A., Lumberjack, Skeleton King, Prince, Monk, Dark Prince, Goblin Machine, Golden Knight, Mighty Miner, Battle Healer, Ram Rider.
+- Bandit — she dashes over the thrown bomb and OHKOs him with the dash, staying at full health; Mega Knight and Golden Knight's Dashing Dash do the same at a negative Elixir trade.
+- Miner — 2HKOs him and can be dropped anywhere around him; pairing Miner with Poison baits swarm protection for extra spell value.
+- Longer-ranged splash — Wizard, Witch, Goblin Demolisher, Sparky — outrange him and kill him behind a tank.
+- Dart Goblin — much longer range lets him kill a lone Bomber easily, even from the other lane.
+- Princess placed at a distance, with a tower troop — stops a lone Bomber without taking damage.
+- Two staggered cheap units (e.g. Skeletons or Ice Spirit, then Goblins) — the first distracts, the second kills him; negative Elixir but sets up a counterpush.
+- Cannoneer and Dagger Duchess — kill him quickly enough that he never connects to the tower.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 2-Elixir defensive splash troop, also strong damage behind a tank like Giant or Golem.
+- Left alone he connects for only one hit of chip damage on a Tower Princess, so heavy decks can safely ignore him.
+- His slow hit speed means Barbarians often kill him first — place him in the center or staggered to the opposite side to lengthen their travel, add protection (Ice Golem, Elixir Golem, Valkyrie, Knight), or push them back with The Log or Monk.
+- Because he is very light, almost any troop can push him forward; fast units like Goblins give him a big speed boost.
+- Spear Goblins + Bomber gives a cheap combined point-target and splash package that engages at a similar range, good as backup or a small push.
+- Space him away from the tank he supports so enemy splash cannot hit both at once.
+- Add anti-air protection when using him — Goblin Giant, Hunter, Electro Wizard, Electro Dragon, or Baby Dragon.
+- Tornado synergy: it groups enemies for his splash while keeping him away from melee attackers.
+- Tornado can also rescue him from a badly placed Miner by dragging the Miner to the King Tower, activating it early.
+- Bomber + Prince is high-risk, high-reward — the Prince kills mini-tanks while the Bomber clears swarms — but separating the two (different speeds and ranges) counters it.
+- Electro Giant synergy: he weakens defending swarms and mini-tanks enough for the Zap Pack to finish them, saving the Electro Giant's hitpoints.
+- Substitutes: Spirit cards (cheaper but cannot handle bulky swarms like Barbarians), Wizard (air-targeting and bulkier, 5 Elixir), Firecracker (+1 Elixir, air, longer range, spread and recoil), Princess (larger splash, longer range, air, but frailer and lower damage), pricier splash options (Valkyrie, Bowler, Baby Dragon, Sparky, Mega Knight, Royal Ghost, Dark Prince, Skeleton Dragons, Magic Archer, Executioner, Witch, Skeleton King, Goblin Demolisher, Ice Wizard), or cheap ranged troops (Archers, Spear Goblins, Dart Goblin) if the deck already covers swarms.
 
 ## Evolution
 

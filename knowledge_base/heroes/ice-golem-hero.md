@@ -73,15 +73,24 @@ The Hero Ice Golem has a special ability accessible from whatever side of the sc
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Goblins — all 3 Snowstorm blasts together are enough to kill them.
+- Defensive cards clustered at the Tower — popping the ability once he arrives slows everything inside the 4 tile aura for 2 seconds per pulse.
+- Enemy pushes generally — the ability is a cheap way to stall a push on defense.
+- Both air and ground attackers, since the Snowstorm targets Air & Ground even though his own attack hits buildings only.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- 2 Elixir to deploy plus 2 Elixir to activate Snowstorm (4 total); unlocked with 200 Hero Shards.
+- Snowstorm has a 1 second delay, then a 4 tile aura with 3 pulses, each dealing damage and applying a 30% slow for 2 seconds to Air & Ground.
+- Blizzard pulse damage is listed per level as 3 hits (32 x3 = 96 at level 3, up to 111 x3 = 333 at level 16), which is far more than his own 135 death damage at max level.
+- Standard offensive line: let him distract enemy troops, then activate the ability once he is at the Tower to freeze the defenders around him.
+- He keeps the base Ice Golem role otherwise: Slow (45), 2.5 sec hit speed, buildings-only targeting, high hitpoints, very low damage, plus death damage on his explosion.
+- His melee range is Melee: Medium (1.2) with a 1.5 sec first hit speed, slightly different from the base card.
+- The ability is triggered from the button just above the card slots, on whichever side of the screen he was deployed.
 
 ## Source
 

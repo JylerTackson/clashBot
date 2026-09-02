@@ -9,7 +9,7 @@ has_evolution: false
 has_hero_variant: false
 source_url: "https://clashroyale.fandom.com/wiki/Spirit_Empress"
 image_path: cards/images/spirit-empress.png
-scraped_at: "2026-09-02T02:35:12+00:00"
+scraped_at: "2026-09-02T02:45:45+00:00"
 arena: "Miner's Mine"
 release_date: 7 July 2025
 ---
@@ -62,154 +62,31 @@ The Spirit Empress comes into the arena obeying your desires. If the player has 
 
 ## Abilities and special mechanics
 
-### Strategies
-
-- Like the Mega Minion, the Spirit Empress deals high damage per attack in both forms, while having slightly higher hitpoints in both forms. This allows her to have a great matchup against the vast majority of troops in the game, while also being mostly resistant to spells.
-- Using Mirror on the Spirit Empress will copy the form which the previous Spirit Empress was used. For example: if the player used the 3-Elixir version of the Spirit Empress prior to using the Mirror, then the mirrored version will cost 4 Elixir and will have the attributes of the 3-Elixir form at one Level higher. The cost of the mirrored version will not increase even if it reaches the threshold required to play the more expensive form.
-- Since she only targets one troop at a time, swarms such as Goblins, Barbarians, Royal Recruits, Guards, and Evolved Skeletons make great counters to the ground form of the Spirit Empress. For her flying form, swarms that can target air troops like Spear Goblins, Minions, Bats, and Archers are more recommended to stop her.
-- A Rocket can OHKO the Spirit Empress in both of her forms, making it a good counter to her. In the case of her flying form, it is also a neutral Elixir trade.
-  - Lightning does not deal enough damage to OHKO the Spirit Empress, so it should not be used against her
-  - Unlike other cards with similar hitpoints, she has enough hitpoints to survive any combination of Fireball or Poison with any 2-Elixir spell, so they should not be used against her.
-- The Spirit Empress works best with cards like Golem, Giant, Royal Giant, and Lava Hound. Using the cheap ground version for emergency defense, while using the air card for offense.
-
-{|class="wikitable" id="unit-attributes-table" style="width: 100%; text-align: center;"
-!scope="col" |Deploy Time
-Deploy Time
-!scope="col" |Count
-Troop Count
-!scope="col" |Type
-Type
-!scope="col" |Rarity
-Rarity
-|-
-|1 sec||1||Troop||Legendary
-|}
-
-{|class="wikitable" id="unit-attributes-table-secondary" style="width:100%;text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |First Hit Speed
-Damage Speed
-!scope="col" |Speed
-Speed
-! scope="col" |Range
-Range
-! scope="col" |Target
-Targets
-! scope="col" |Transport
-Transport
-|-
-|6||1.6 sec||0.6 sec||Medium (60)||5||Air & Ground||Air
-|}
-
-{|class="wikitable" id="unit-attributes-table-tertiary" style="width:100%;text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |First Hit Speed
-Damage Speed
-!scope="col" |Speed
-Speed
-! scope="col" |Range
-Range
-! scope="col" |Target
-Targets
-! scope="col" |Transport
-Transport
-|-
-|3||1.2 sec||0.3 sec||Fast (90)||Melee: Medium (1.2)||Ground||Ground
-|}
-
-1798
-309
-1.6
-1.2
-
-{|class="wikitable" id="unit-statistics-table" style="width:100%; text-align:center;"
-!scope="col"|Level
-Level
-!scope="col"|Hitpoints
-Hitpoint
-!scope="col"|Damage
-Damage
-!scope="col"|Air Form Damage per second
-DPS
-!scope="col"|Ground Form Damage per second
-DPS
-|-
-| 9 ||  ||  || /s || /s
-|-
-| 10 ||  ||  || /s || /s
-|-
-| 11 ||  ||  || /s || /s
-|-
-| 12 ||  ||  || /s || /s
-|-
-| 13 ||  ||  || /s || /s
-|-
-| 14 ||  ||  || /s || /s
-|-
-| 15 ||  ||  || /s || /s
-|-
-| 16 ||  ||  || /s || /s
-|}
-There will be rounding mistakes, as we have stats from level 11
-
-{| class="wikitable" style="width:100%; text-align:center;"
-! width="25%" |Type
-! width="10%" |Level/Tier
-! width="40%" |Objective
-! width="25%" |Rewards
-|-
-| rowspan="3" |Damage Dealer
-
-|1
-|Deal a total of 205,000 Damage to enemy Troops or buildings
-|2  cards
-100 XP
-|-
-|2
-|Deal a total of 610,000 Damage to enemy Troops or buildings
-|8,000 Gold
-100 XP
-|-
-|3
-|Deal a total of 1,020,000 Damage to enemy Troops or buildings
-|100 Gems
-100 XP
-|-
-| rowspan="3" |Troop Destroyer
-|1
-|Destroy 700 enemy Troops
-|12,000 Gold
-150 XP
-|-
-|2
-|Destroy 2,000 enemy Troops
-|2 Legendary Wild Card
-150 XP
-|-
-|3
-|Destroy 3,500 enemy Troops
-|18,000 Gold
-150 XP
-|}
+Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- The vast majority of single troops — like the Mega Minion she deals high damage per attack in both forms, but with higher hitpoints in each.
+- Fireball and Poison decks, since she survives either spell combined with any 2 Elixir spell.
+- Lightning, which does not deal enough damage to one-shot her.
+- Air pushes when deployed in her 6 Elixir flying form, thanks to 5 tile range and Air & Ground targeting.
+- Ground pushes needing an emergency answer, where the 3 Elixir walking form gives Fast (90) movement and high melee damage cheaply.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Swarms in general — she only targets one troop at a time.
+- Ground form specifically: Goblins, Barbarians, Royal Recruits, Guards and Evolved Skeletons.
+- Air form specifically: air-targeting swarms such as Spear Goblins, Minions, Bats and Archers.
+- Rocket, which one-shots her in both forms and is a neutral Elixir trade against the flying form.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Dual-cost card: she costs 6 Elixir and arrives as a ranged air troop (5 range, 1.6 sec hit speed, Medium speed) if you have 6 or more Elixir stored, and 3 Elixir as a fast ground melee troop (Melee: Medium 1.2, 1.2 sec hit speed, Fast) otherwise.
+- Play the cheap ground form for emergency defense and the air form for offense.
+- Mostly resistant to spells because of her hitpoint pool in both forms.
+- Mirror copies whichever form was played last — e.g. mirroring the 3 Elixir version costs 4 Elixir and gives the ground form one level higher, and the mirrored cost does not rise even if you cross the 6 Elixir threshold.
+- Works best alongside big win conditions such as Golem, Giant, Royal Giant and Lava Hound.
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Spirit_Empress (scraped 2026-09-02T02:35:12+00:00)
+- https://clashroyale.fandom.com/wiki/Spirit_Empress (scraped 2026-09-02T02:45:45+00:00)

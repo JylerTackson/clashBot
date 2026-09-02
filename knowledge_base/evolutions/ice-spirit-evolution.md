@@ -26,7 +26,11 @@ The Ice Spirit's Evolution is a Common card that is unlocked with 6 Evolution Sh
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Spawns an Ice Spirit with the same hitpoints and damage but a splash radius 0.5 tiles larger than the base card (2 tiles instead of 1.5).
+- New ability, Frost Blast / Ice Blast: 3 seconds after it hits an enemy, that enemy takes the same damage and a second 1.1 second stun.
+- Effectively two freezes and double the damage from a single 1 Elixir card, at the same 1 Elixir cost, requiring 2 cycles to activate.
+- The delayed blast spreads to nearby troops, so units standing next to an already-hit target also take damage.
+- Damage output after both blasts kills Princess, Dart Goblin, Rascal Girls, Minions and all Spirits up to 1 level higher, plus Firecracker, Bomber and Archers of the same level, and Spear Goblins and Goblins; the initial hit alone kills Skeletons and Bats.
 
 ## Evolution-specific stats/behavior
 
@@ -70,7 +74,19 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Very effective against Inferno Dragon, Mighty Miner, Prince, Dark Prince, Ram Rider, Battle Ram, Mega Knight and Sparky, since the repeated Ice Blast keeps interrupting attacks and charges.
+- Great with Hog Rider and Ram Rider — it cripples and repeatedly stuns defensive buildings such as the Inferno Tower and stalls support units so the win condition lands extra hits.
+- It has enough hitpoints to reach a Tower Princess, letting Goblins, Spear Goblins, Archers, Goblin Gang, Minions, Minion Horde, Skeleton Army, Evolved Bats or Evolved Skeletons connect while it tanks and repeatedly freezes the tower.
+- Its chip damage is higher than other 1-Elixir cards, so the Tower Princess should not ignore it at low hitpoints; against the Cannoneer or Dagger Duchess it never connects and can always be ignored.
+- Placed well it fully counters lone swarms — Minion Horde, Skeleton Army, Goblin Gang, Guards and Minions — for a large positive Elixir trade.
+- Medium units that need more than one hit to kill it (Musketeer, Executioner, Baby Dragon, Witch, Archer Queen, Firecracker, Bomber, Dart Goblin, Minions, Goblin Demolisher, Electro Wizard, Princess, Ice Wizard, Miner, Electro Dragon, Magic Archer, Zappies, Phoenix, Bandit, Fisherman) can even be fully countered with Crown Tower help thanks to the Ice Blast.
+- Great with your own Inferno Tower, stunning its target until it dies while keeping support troops behind it away; conversely it is brutal against an enemy Inferno Tower, holding its ramp-up down — distract it with Skeletons, Goblins, Bats or a Fire Spirit.
+- Decent with Goblin Drill: it tanks a couple of Tower Princess shots and stalls whatever is sent to defend the drill.
+- It still has the base card's hitpoints, so The Log and Barbarian Barrel fully counter it despite the slight negative Elixir trade.
+- The cleanest answer is another 1-Elixir troop dropped directly on top to soak it — Skeletons are best, dying instantly to the initial jump so the Ice Blast never spreads to other troops; Bats and Goblins do the same for a slight negative trade.
+- The Ice Blast stun has no effect on the Goblin Cage, making it a usable (if Elixir-negative) response within a larger push.
+- As the defender, do not place troops next to units already hit by it, or they take the Ice Blast damage too.
+- It cannot break the Guards' shields with the initial hit but does strip them after both Ice Blasts, so pairing it with any other Spirit counters Guards for a slight positive Elixir trade with precise timing.
 
 ## Source
 

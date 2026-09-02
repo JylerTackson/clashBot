@@ -86,15 +86,49 @@ Royal Delivery is randomly substituted for another troop.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Air and ground swarms alike inside its radius - high area damage plus a Royal Recruit to mop up.
+- Goblin Barrel - drop it on your Crown Tower the moment you see the Barrel coming to prevent all damage (account for the 3 second delay).
+- Graveyard - same pre-emptive drop on the Crown Tower.
+- Ranged glass cannons right after they cross the bridge - Musketeer, Ice Wizard, Electro Wizard, Little Prince, Goblinstein, Magic Archer, Mother Witch and Wizard are countered for a positive Elixir trade.
+- Witch - drop it as soon as her Skeletons spawn so they cannot shield her, positioned so the Royal Recruit lands beside her.
+- Miner + swarm combos - the splash obliterates the swarm while the Royal Recruit handles the Miner.
+- Goblin Drill - deployed as the Drill approaches your tower it kills the first Goblin instantly, damages the Drill, and the Recruit finishes the rest with tower help.
+- Skeleton Barrel Skeletons - destroys them all for a neutral Elixir trade, or hit the Barrel itself so the Recruit distracts the Skeletons and even the death damage is denied.
+- Sparky - fully countered with Crown Tower help if dropped anywhere on your side after she crosses the bridge but before she locks onto the tower.
+- Elixir Golem's Elixir Blobs - one-shot by the spell (the earlier phases survive with hitpoints to spare); similar logic applies to Lava Hound.
+- Melee troops approaching the tower - deploy when they are already weakened by the Crown Tower so the Recruit takes less damage and can counterattack.
+- Troops standing directly at the river - the radius reaches past the bridge even though the spell cannot be cast there, e.g. a Princess at the bridge.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Anything on the opponent's side - it can only be deployed on your own half, so it is purely defensive.
+- Crown Towers - its range cannot reach them, so it needs a partner spell like Arrows, Giant Snowball or Poison for chip damage.
+- Fast threats that punish its 3 second delay - late timing means the damage lands after the enemy has already connected.
+- Shielded units such as Guards - the single burst of damage only knocks their shields off regardless of level, whereas higher-level Arrows fully counter them.
+- X-Bow and Mortar - the spell itself lacks the range to hit them; only the Royal Recruit can distract, and Mortar's blind spot means damage still gets through.
+- Skeleton Barrel timing traps - during the roughly 0.5 second animation where neither the Barrel nor the Skeletons count as entities, the spell affects nothing.
+- Goblin Drill that surfaces unpredictably - the counter relies on guessing the surfacing spot correctly.
+- Cannoneer or Dagger Duchess tower troops - with these, the spawned Royal Recruit will not connect to the enemy Crown Tower on its own.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: purely defensive 3 Elixir spell - it drops from the sky after a 3 second delay, deals area damage to air and ground, and spawns one Royal Recruit (with shield) to finish survivors.
+- Compared to Arrows: worse offensively, stronger defensively - more damage plus a distracting Royal Recruit, but Arrows handle shielded units better and can hit towers.
+- Compared to Barbarian Barrel: more expensive but hits air and deals more initial damage; the spawned troop is weaker in damage and there is no rectangular radius.
+- Tornado synergy: the Tornado clumps the push so the Royal Delivery hits everything at once, which also saves the Royal Recruit from walking between separate ranged troops.
+- Pairs extremely well with Bomb Tower or Goblin Cage - the building buys time for the drop and clumps enemies, and the Recruit distracts long enough for the bomb or Goblin Brawler to finish the job.
+- The Log synergy: The Log softens Three Musketeers, Zappies or Barbarians enough for the Royal Delivery to kill them outright.
+- Miner synergy: the Royal Recruit can tank for a Miner (tower shoots the Recruit while the Miner hits freely), or the Miner can tank for the Recruit, though less consistently; Goblin Drill works similarly.
+- With a Tower Princess, a healthy Royal Recruit gets one hit on the enemy Crown Tower after crossing, and can lead a small counter-push - his shield may force the opponent to spend a spell early.
+- Placement tip vs ranged troops: make sure the target is in your Crown Tower's range when the spell lands, and avoid letting it lock onto the tower; if you are late, drop it right in front of the troop to push it back and force it to re-target the Royal Recruit.
+- Because it spawns a troop, it can split a building-targeting unit from its partner (e.g. pull a Giant Skeleton away from a Balloon), but this wastes the deploy damage so use it rarely.
+- Good alongside X-Bow and Mortar on defense: it wipes melee swarms and badly weakens bulky melee attackers coming for the siege building, and the Recruit keeps defending it.
+- In desperation it can distract an enemy X-Bow or Mortar like a melee troop - account for the 3 second delay so the siege building does not lock onto a Crown Tower first.
+- After you have taken a Crown Tower, use it on defenders placed in the center (such as buildings distracting your building-targeter) - the damage cripples them and the Recruit finishes them off.
+- Against Elixir Golem with escorts, dropping it in the Golemite phase kills the escorts and heavily damages the Golemites while the Recruit deals with the Blobs.
+- Modifier - Common: Evo Delivery, sends 1 Evolved Royal Recruit instead of a normal Recruit.
+- Modifier - Rare: Here, There, Anywhere!, lets the Royal Delivery be dropped anywhere.
+- Modifier - Epic: Random Delivery, substitutes a random troop for the Royal Recruit.
 
 ## Source
 

@@ -77,15 +77,39 @@ It is also important to note that cards that make “sub-troops” (e.g., Elixir
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Slow, single-target heavy hitters — P.E.K.K.A., Prince, Elite Barbarians, Mighty Miner, Giant Skeleton, Boss Bandit and Mini P.E.K.K.A. are fully countered with the ability active, as the Skeletons constantly distract them while the Crown Tower and Skeleton King chip them down (regardless of soul count).
+- Mega Knight up to 1 Level higher — placed near the center so both Towers chip it, he has enough health to tank the jump attack and the follow-up hits.
+- Graveyard — he can answer it and then summon a full flock of up to 16 Skeletons as a threatening counterpush.
+- Ground swarms and small troops in general — his melee splash attack (1.3 tile radius) hits multiple units at once.
+- Hog Rider — his suspiciously large hitbox lets him bodyblock it more easily than other tanks.
+- Enemy pushes where units keep dying — every troop defeated while he is on the field feeds his soul counter, so grinding fights make his Soul Summoning stronger.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops — both he and his Skeletons are ground-only and cannot touch them.
+- Small spells — a cheap spell wipes the 1-hitpoint summoned Skeletons instantly, leaving him alone.
+- Bowler and Valkyrie — high enough health to tank his low attack damage while their large splash radius clears the Skeletons, a positive Elixir trade either way.
+- Tough splash in general (Valkyrie, Sparky, Bowler) plus a ranged or air troop is the straightforward counter.
+- Cheap splash plus single-target combos — Firecracker, Princess, Ice Wizard or Bomber with a Knight, Berserker, Fisherman, Bandit, Miner or Mega Minion; any combination up to 6 Elixir gets a neutral or positive trade against the King with his ability.
+- Mother Witch — clears his Skeletons easily and distracts him with a flow of Cursed Hogs while you bank Elixir for a better answer (note she turns the Skeletons into 1-hitpoint Cursed Hogs).
+- Ranged troops generally, since his damage is low and he must walk into melee range.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: defensive splash mini tank / support Champion; count the Skeleton King plus his activated ability as 6 Elixir for trade math (4 to deploy, 2 for Soul Summoning).
+- Excellent defensive card thanks to splash damage, good HP and the ability to grow stronger as units fall.
+- Place him behind friendly units on defense (preferably a swarm), then cast Soul Summoning once those units die to create a second defensive layer out of nowhere.
+- This is strongest when enemy units lock onto him — he naturally tanks for the summoned Skeletons and any other defenders you have out.
+- Friendly troops count as souls, so in swarm-heavy decks you can play something like a Skeleton Army near him and punish when the opponent answers it with a small spell.
+- Do not activate the ability unless something is tanking for the leftover Skeletons in the lane they walk toward, or the 2 Elixir is wasted.
+- Pairs really well with Graveyard: he tanks for it so the Skeletons chew the Crown Tower, or the Graveyard tanks for him and feeds him souls; after the opponent clears the Graveyard you can summon a second "graveyard" with the ability for 2 Elixir.
+- He has very high mass and can push large troops such as Giant, Electro Giant or Golem — usable deliberately with ranged win conditions like Royal Giant to shove them away from buildings.
+- Beware anti-air spells and support troops paired with him, since he and his Skeletons cannot hit air.
+- Summoned Skeletons behave like cloned Skeletons: 1 hitpoint, cannot be cloned again, and do not themselves count as souls.
+- Sub-troop spawners (Elixir Golem, Golem, Lava Hound, Battle Ram) only give a soul for their final forms, with Goblin Giant as an exception; buildings never give souls, making Cannon Cart the only troop that cannot count.
+- Kamikaze cards (Spirits, Wall Breakers, Goblin Demolisher) do count as souls when they defeat themselves.
+- Soul collection continues even after the Skeleton King dies, and the ability's 20 sec cooldown starts after the duration ends.
+- He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor choice for Clan Wars Defense Towers.
 
 ## Source
 

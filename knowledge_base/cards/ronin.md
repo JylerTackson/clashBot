@@ -71,15 +71,28 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ground melee attackers in general, thanks to his parry blocking their hit and deflecting 200% damage back.
+- P.E.K.K.A, Mega Knight, Giant Skeleton, Prince, Mini P.E.K.K.A and Boss Bandit — strong melee attackers he counters directly.
+- Slow, high-damage-per-hit troops (Giant Skeleton, P.E.K.K.A, Mini P.E.K.K.A, Royal Ghost, Elite Barbarians, Prince, Night Witch), which the parry decimates because it scales off their damage.
+- High-damage ranged troops like Musketeer, Bowler, Wizard and Sparky if he is placed directly on top of them on defense.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Ranged troops, since the parry does nothing against them — Musketeer, Bowler, Wizard and Sparky beat him with little resistance at range.
+- All defensive buildings, which are ranged and so bypass the parry; the Cannon is even a positive Elixir trade.
+- Air troops such as Minions, Mega Minion and Flying Machine — neither he nor the parry can hit air.
+- Bats and Phoenix, which are immune to his parry despite being melee, and counter him unharmed for a positive Elixir trade.
+- Swarms, because the parry only fires every 3.5 seconds and affects one unit at a time; a ranged swarm nullifies it completely.
+- Rapid-hitting melee troops like Lumberjack, Golden Knight, Monk and Berserker, which take little parry damage while chewing through his health.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir fast mini-tank with high hitpoints and high damage (Fast 90 movement, 1.4 sec hit speed, Melee: Medium 1.2 range).
+- Parry ability: the next melee attack he takes is blocked and deflected for 200% damage, with a 3.5 second cooldown.
+- The parry only triggers on melee attackers, so his value swings heavily on what the opponent defends with.
+- Parry damage scales with the attacker's own damage — best against slow heavy hitters, weakest against fast, low-damage-per-hit attackers.
+- Against high-damage ranged troops he must be placed on top of them to get value on defense.
+- His main weaknesses are being outranged, being swarmed, and having no answer to air.
 
 ## Source
 

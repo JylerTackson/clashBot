@@ -70,15 +70,25 @@ The Hero Bowler has a special ability accessible from whatever side of the scree
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Defensive buildings — the Stone Swish ability snipes them from 11.5 tiles, clearing the way for cards like the Electro Giant.
+- Crown Towers — the ability works like a 3 shot Mortar, dealing good chip damage (409 Ability Crown Tower Damage per shot at Level 16).
+- Grouped ground troops — like the base card he throws a piercing boulder with a large area of effect that travels its full range and knocks enemies back.
+- Slow ground troops caught inside the ability's range — they cannot walk out of the 7.3 second, 3 shot barrage.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Fast and Very Fast units such as Berserker and Ice Spirit — placed correctly they dodge all 3 ability shots.
+- Air troops — he is ground-targeting only and cannot answer them at all.
+- Anything that closes the distance during the 2.5 second cast time — he plants his feet before the ability's first shot lands.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir ground splash troop with high hitpoints, high area damage and knockback, plus a 2 Elixir activated ability.
+- Ability "Stone Swish": he plants his feet and switches to a long-ranged mortar-style attack; the cast takes 2.5 seconds, the ability lasts 7.3 seconds and gets a total of 3 shots at 1.9 second hit speed.
+- Ability range is 11.5 tiles, far beyond his normal 4 tile range and 7 tile projectile range.
+- Ability shots hit much harder than his normal attack (818 versus 465 area damage at Level 16) but deal half damage to Crown Towers (409 at Level 16).
+- Total ability cost is 7 Elixir for the card plus activation, so it is worth saving for a building snipe or a guaranteed Tower connection.
+- Unlocked with 200 Hero Coins; his knockback and piercing projectile behave the same as the regular Bowler's while the ability is not active.
 
 ## Source
 

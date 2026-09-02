@@ -26,7 +26,12 @@ The Skeleton Barrel's Evolution is a Common card unlocked with 6 Evolution Shard
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Hitpoints are 25% higher and death damage 64% higher than the base Skeleton Barrel.
+- New ability, Double Trouble: it carries 2 barrels, each holding 7 Skeletons, for 14 Skeletons total.
+- The first barrel is dropped early, at 75% hitpoints, instead of only on death; the second drops when the barrel is defeated.
+- Because the drops are split, one small spell can no longer clean up everything — the defender must choose which barrel's Skeletons to answer.
+- The combined death damage of both barrels is more than a Rocket's damage.
+- Costs the same 3 Elixir and requires 2 cycles to activate.
 
 ## Evolution-specific stats/behavior
 
@@ -84,7 +89,18 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Against a single small spell the opponent is forced into a bad choice: spend it on the first barrel's Skeletons and eat the second barrel's chip, or wait for the second drop and take damage from both the barrel and the first Skeletons.
+- Tower Princess, Cannoneer and Royal Chef trigger the early first drop but then let the second barrel connect; the Dagger Duchess kills it fast enough that all the Skeletons clump for a small spell.
+- Best answers: a well-timed Giant Snowball avoids much of the damage, an Evolved Giant Snowball prevents almost all of it for a +1 Elixir trade, and Tornado does the same for a neutral trade.
+- A 2-Elixir spell plus a Spirit can prevent all damage when timed — Electro Spirit clears the first barrel's Skeletons and stuns/damages the remaining barrel so the spell covers the second, while with other Spirits the spell should take the remaining barrel plus the first Skeletons.
+- A well-timed Earthquake prevents all Skeleton damage, leaving only the second barrel's death damage, and fully prevents damage alongside the Dagger Duchess for a neutral trade.
+- Bomb Tower is the most reliable counter at -1 Elixir: tanky enough for the death damage and the Skeletons, with AoE that clears the death spawns, and it survives an Earthquake with enough health to still defend.
+- Evolved Cannon and Evolved Tesla, timed right, clear the first barrel's Skeletons with their abilities, cripple the second barrel and handle its Skeletons — the Cannon a neutral trade, the Tesla effective even from a normal center placement.
+- A well-timed Evolved Furnace can stop everything but the second barrel's death damage: place it so the first Fire Spirit clears the first barrel's Skeletons and the second spawns as the second barrel opens.
+- Fast-hitting anti-air placed outside the death damage — Archers, Musketeer, Phoenix, Little Prince, Dart Goblin — strips the barrels and picks off Skeletons one by one; AoE anti-air such as Firecracker, Wizard, Princess and Executioner clears the Skeletons all at once.
+- Ground-only splash (Valkyrie, Skeleton King, Bomber, Dark Prince, Goblin Demolisher, Bowler) kills the Skeletons but leaves the Crown Tower exposed to one or both barrels' death damage.
+- On offense, back it with a push so both barrels connect while other cards absorb buildings and anti-air; unanswered Skeletons take the Crown Tower, and even a failed connection leaves it heavily damaged.
+- It is also a strong defensive card: dropped on clumped units it unloads one or both barrels — a single barrel's death damage kills up to Minions and the combined damage kills Elixir Blobs, with the Skeletons finishing off survivors or distracting.
 
 ## Source
 

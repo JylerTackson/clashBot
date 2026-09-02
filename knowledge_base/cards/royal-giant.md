@@ -77,15 +77,47 @@ Shoots out a Royal Hog with every shot.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Siege buildings — X-Bow and Mortar; his range, high health and building-only targeting let him tank and destroy them from your own side, staying outside the Mortar's blind spot and keeping over half his health for a counterpush.
+- Buildings placed too close to the river, which he can snipe from your side — especially spawner buildings, before they accumulate troops.
+- Crown Towers themselves — he can take one down single-handedly, and placed at the end of the bridge he starts hitting after a few steps.
+- Slow melee troops such as the P.E.K.K.A, which he can kite into the other lane while still threatening the Crown Tower.
+- The Giant in a Giant vs. Royal Giant race — placed in the same lane he gets more Crown Tower damage than the Giant despite his lower hitpoints.
+- Overtime pressure — the mere threat of him deters the opponent from spending all their Elixir on offense.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Inferno Tower — the best counter, distracting him while melting him with ramped-up DPS (a Zap or Lightning from his owner resets it).
+- Swarms with high combined damage — Minion Horde, Skeleton Army, Goblin Gang, Royal Recruits and Barbarians.
+- High-damage single units — Mini P.E.K.K.A, Elite Barbarians, Sparky, P.E.K.K.A, Prince and Hunter, plus fast attackers like Lumberjack, Inferno Dragon, Three Musketeers, Monk, Phoenix, Golden Knight and Mighty Miner, which are more reliable than swarms thanks to their hitpoints.
+- P.E.K.K.A or Mighty Miner dropped on top of him and in his path — their mass pushes him back, costing him one shot on the Crown Tower.
+- Bats or Minions combined with a Cannon, which fully counter him for a slight positive Elixir trade.
+- The Cannoneer tower — his higher damage handles the Royal Giant better than the Tower Princess or Dagger Duchess, and the Royal Giant will not survive to touch the King Tower after taking a Crown Tower.
+- Retarget tools once he has locked on — a stun card, Fisherman, Tornado, a knockback spell, or troops/buildings placed on top of him.
+- Tombstone or Goblin Cage placed directly on top of him, so the Skeletons or Goblin Brawler engage immediately.
+- Ice Wizard, whose slow blunts his damage output.
+- Spells against his ranged support — The Log, Fireball, Lightning and Rocket nullify the cards hiding behind him.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 6 Elixir building-targeting win condition with medium range, able to attack a Crown Tower from outside its reach.
+- Being ranged, he does not shield melee or short-range support the way a Giant does — his hitpoints are nearly worthless as a meat shield unless melee troops are added after the Crown Tower has already targeted him.
+- Longer-ranged support (Princess, Magic Archer, Dart Goblin, Firecracker, Wizard, Evolved Archers, Musketeer, Cannon Cart, Witch, Flying Machine) can sit safely behind him; place them slightly apart so they shoot troops dropped on top of him while still on your side.
+- Splash support (Wizard, Bomber, Bowler, Executioner, Princess, Ice Wizard, Witch, Firecracker, Goblin Demolisher) or spells (Arrows, Fireball, Evolved Zap) clear the swarms sent to stop him.
+- Since he cannot hit troops at all, spells carry much of his defense: Lightning resets Sparky and Inferno Dragon and usually pulls multiple cards out of the opponent's hand; Zap is the cheaper reset that also handles Skeleton Army.
+- Barbarian Barrel is a strong partner — it kills ground swarms on top of him, and the spawned Barbarian handles single defenders while the Royal Giant tanks for him.
+- Dark Prince works well: the Royal Giant tanks while the Dark Prince clears defenders and nudges him toward the Crown Tower, though a P.E.K.K.A. or Evolved Mega Knight still breaks the combo.
+- Fisherman pulls high-DPS defenders off him and can be placed mid-river to snipe a weakened Inferno Tower; a distraction card can beat the pull.
+- Minions and Bats handle enemy swarms and Mega Minions while he tanks, and can distract an Inferno Tower long enough for him to destroy it; Skeleton Barrel does the same job.
+- Witch supports him from your side — she shoots air counters while her Skeletons distract heavy hitters; a melee splash troop (Valkyrie, Mega Knight, Royal Ghost, Dark Prince, Skeleton King) dropped on both beats it.
+- Spawner buildings such as Furnace and Goblin Hut chip enemy swarms, discourage swarm defenses, and can be pre-placed before a King-Tower-back Royal Giant push.
+- Stun support — Electro Dragon, Zappies, Electro Spirit and Electro Wizard — resets Inferno Towers and clears swarms; Zappies beside the tower line up vertically and stagger their stuns to nearly immobilize an enemy Royal Giant, at the cost of Fireball/Poison value.
+- Ice Wizard also works as his support, crippling the attack speed of his counters and killing swarms.
+- Spirits are a cheap, reliable way to support him near the bridge, where the opponent has few blocking placements that do not help him.
+- Timing: push from behind the King Tower during Single Elixir so a lone Royal Giant cannot be punished; go to the bridge in Double Elixir.
+- After a Crown Tower falls, place him in the middle of the opponent's side, 1 tile down from the center so he is out of King Tower range while deploying, to hit the second tower almost immediately.
+- He cannot reach a Crown Tower from the river, so he cannot be used to activate the King Tower with Tornado or Fisherman — sometimes worth activating it yourself for positive spell trades.
+- Giant Skeleton + Royal Giant costs 12 Elixir but is very hard to defend: the Giant Skeleton tanks and his death bomb wrecks melee defenders such as Barbarians, Elite Barbarians, Skeleton Army and Mini P.E.K.K.A.; an Inferno Tower plus a troop that pulls the Giant Skeleton away shreds it.
+- Bait his hard counters with pressure cards like Dark Prince or Bandit first, then send him into the other lane against less resistance.
 
 ## Evolution
 

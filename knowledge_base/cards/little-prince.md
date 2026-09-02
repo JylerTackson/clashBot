@@ -71,15 +71,45 @@ The Little Prince has a special ability, accessible from the rightmost side of t
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Large tanks in general — Royal Rescue's knockback affects all ground troops (like The Log and Monk), preventing a lot of Crown Tower damage.
+- Giant, Rune Giant and Electro Giant — the knockback can stop them connecting to the Crown Tower entirely, leaving him and Guardienne healthy for a counterattack (a +1 Elixir trade against the Electro Giant).
+- Mega Knight — Guardienne's charge can interrupt his jump mid-air, then tank his hits; together they stop him for a +1 Elixir trade.
+- Giant Skeleton already locked on the Tower — the knockback pushes him out of range so he retargets to Guardienne (mind the death bomb afterwards); the same tactic works on P.E.K.K.A. and Mega Knight.
+- Golem — placed early enough, the ability can largely stop a lone Golem, leaving only Golemite damage to clean up.
+- Mighty Miner — the knockback resets his ramp-up attack, saving a tank and putting him in a worse position for his own ability.
+- Skeleton King with his ability active — pushing him further from the Crown Tower forces his Skeletons to walk longer.
+- Goblin Giant's Spear Goblins — the knockback pushes them out of range so they retarget onto Guardienne.
+- Goblin Barrel — with correct timing and position, Guardienne's charge takes out all three Goblins at once (a big negative Elixir trade, but both of yours survive at full health for a counterattack).
+- Ranged troops just out of reach — Royal Rescue reaches 4 tiles plus Guardienne's 0.8 tile collision radius, letting her clip units like the Bowler.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Knockback and stun cards — The Log, Zap, Fireball and Giant Snowball reset his attack-speed ramp-up.
+- Bowler — exceptionally good, since one line-up hits both the Little Prince and Guardienne, and his knockback resets the ramp-up so he survives.
+- Strong spells — he has only moderate hitpoints; Poison alone finishes him over its duration for a -1 Elixir trade, and Fireball kills him with any extra damage (or alone if it out-levels him).
+- Lightning and Rocket instantly kill him, though at a large negative trade unless they also hit a Crown Tower or support (they are a poor choice against Guardienne).
+- Void — destroys him entirely in 3 hits if he is the only troop inside, a neutral Elixir trade.
+- Barbarian Barrel and Royal Delivery, but only after the ability has been used — otherwise Guardienne saves him from the spawned Barbarian or Royal Recruit.
+- Mini P.E.K.K.A. played directly at the bridge as he steps on — kills him before the ability can be activated; after the ability, place the Mini P.E.K.K.A. on top of him for a net +2 Elixir trade.
+- Knight (1 Elixir cheaper than the Mini P.E.K.K.A. play, takes more damage) or Evolved Skeletons on top of him after the ability — the cheapest answer at a net +5 Elixir trade.
+- Cheap swarms against a lone Little Prince without his ability — Goblins, Spear Goblins, Minions, Archers, Bats, Skeletons; he cannot 2HKO most of them (3HKO for Archers and Firecracker).
+- Minions specifically work even through the ability, since they are immune to Guardienne's damage and cannot be targeted by her.
+- Dart Goblin — fully counters him from across the map if the ability is not used.
+- A properly placed Ice Golem with the Cannoneer prevents most damage from the Little Prince and Guardienne.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: cheap long-ranged glass cannon that converts into a tank-plus-glass-cannon package; count him plus Royal Rescue as 6 Elixir (3 to deploy, 3 for the ability).
+- His crossbow ramps up DPS the longer he stands still and, unlike the Inferno Dragon, does not reset when it kills a target — but it does reset the moment he moves, so knockback and stuns hurt him most.
+- Royal Rescue: after a 1 second delay Guardienne charges in front of him, dealing moderate damage and knocking ground troops back 0-2 tiles depending on proximity to the sweet spot; she then stays until killed.
+- Guardienne's stats are comparable to a Knight — slightly less health and slightly less damage, everything else identical.
+- The ability's 30 second cooldown is the longest of any Champion, so an opponent who baits it out has a long window to punish.
+- Alone he can be situationally ignored (5 shots on the Tower Princess, 2 on Cannoneer and Dagger Duchess), but with Guardienne the pair will take a Crown Tower if left alone.
+- Even at very low health, activating the ability just before he crosses the bridge lets Guardienne tank for him and can take a Crown Tower outright.
+- Expensive swarms (Skeleton Army, Goblin Gang, Barbarians) are a poor answer before the ability is used, since Guardienne can wipe or maul them.
+- Cheap swarm counters are themselves weak to Zap and Arrows, so use them once he has committed the ability and those spells are out of rotation.
+- He is useful spell bait: force out medium spells with him, then play cards that thrive without them such as Barbarians or Royal Hogs.
+- He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor Clan Wars Defense Tower choice.
 
 ## Source
 

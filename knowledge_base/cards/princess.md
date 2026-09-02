@@ -69,15 +69,49 @@ Princess shoots three volleys per attack instead of one.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Swarms - her area damage makes her a strong counter to any swarm, and she one-shots fragile units such as Bats, Skeletons and Spear Goblins.
+- Minion Horde and Goblin Gang - instantly wiped when paired with a Zap.
+- Skeleton Barrel - placed behind the King's Tower staggered toward its lane and timed so her volley lands as the barrel pops (shadow about one and a half tiles from the Crown Tower), she denies everything but the death damage.
+- Buildings and Crown Towers - her very long range lets her outrange buildings and chip Crown Towers safely from behind cover.
+- Enemy pushes generally - she safely engages duels from long range and swings them, so long as she is protected.
+- Ground and air alike - she targets both, so she covers a push against most support swarms.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Area damage spells - The Log, Arrows, Fireball and Poison are the most reliable counters and cannot be defended against; they also clip the Crown Tower for extra value.
+- The Log - one-shots a Princess up to its own Level (one Level higher barely survives) and costs 1 less Elixir than she does.
+- Arrows - fully defeat a Princess up to 3 Levels higher; preferred when she is deep in enemy territory behind the Crown Tower.
+- Barbarian Barrel - can kill her, especially if the Barbarian spawns right next to her; a Barrel 1 Level higher kills her without the Barbarian.
+- Miner - two-shots her and can be dropped anywhere around her.
+- Mini P.E.K.K.A. and Prince - placed in front of her at the bridge they one-shot her while surviving her first attack, a negative Elixir trade but a strong counterpush.
+- Magic Archer - damages her whether or not she distracts him, chips the Tower and counterattacks.
+- Dart Goblin - survives one of her attacks, kills her, and then chips the Tower.
+- Goblins, Bomber, Minions and Archers - cheap troop answers, though vulnerable to predictive defence or spells.
+- Skeletons - the cheapest counter to a Princess distracted at the bridge, at just 1 Elixir.
+- Giant Snowball - with perfect timing it knocks her forward from the river into Crown Tower range.
+- Tornado - pulls her next to the Crown Tower to kill her.
+- Anything with real DPS - she has low hitpoints and a very slow attack rate, so she is a weak solo counter to anything but swarms.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Typical role: 3 Elixir long-range splash support / siege chip unit, not a standalone defensive answer.
+- Zap is an excellent partner - together they instantly clear Minion Horde and Goblin Gang.
+- Opening play options: behind the King Tower for a defensive presence covering both lanes, or at the bridge to force a response, reveal the opponent's deck and chip the Tower.
+- Her first attack is faster than subsequent ones, so a bridge placement on the opening hand is very hard to react to.
+- Protect her with cheap troops - Knight, Skeletons, Bats, Ice Wizard, Elixir Golem, Minions, Guards, Ice Golem or Goblins - so that even if the push dies she keeps chipping the Tower.
+- Place her on the opposite side of the enemy push to force a response.
+- Do not let an enemy Princess sit on a Tower: her chip adds up fast and another Princess may be cycled in right after.
+- Deliberately pair her with other spell-vulnerable cards (for example a Goblin Barrel) so the opponent's Log or Arrows cannot cover everything.
+- Bait play: drop her near the bridge during a push to waste an opponent's spell.
+- Track the opponent's spells and play her when they are out of hand to maximise her time on the map.
+- If they answer her with Skeletons, spelling the Skeletons is a negative trade for them and can bait out further cards.
+- If the opponent answers with a Miner in a bad position, Tornado can drag him to the King Tower, activating it and saving her.
+- Princess mirror: Zap the enemy Princess so yours kills her for free, or Tornado hers next to their Crown Tower.
+- Stack multiple Princesses for map control - they protect each other from swarms - but keep them far apart to deny spell value.
+- With an Inferno Tower still alive and healthy, a Princess at the bridge baits a troop into the Inferno Tower, making better use of its 30 second lifetime.
+- With one enemy Crown Tower already down, placing her on the centre of the opposing side one tile from the river locks onto the next Tower faster than a bridge placement, at the cost of being exposed.
+- Fragile units like Bats, Skeletons or Spear Goblins should only be dropped on her once she is already targeting something else (a Tower, Lava Hound, Golem or Giant), separated from the tank.
+- When defending against her, cycle cards in the centre of the Arena so a unit is more likely to catch her sight the moment she is deployed.
 
 ## Evolution
 

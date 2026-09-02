@@ -26,7 +26,14 @@ The Dart Goblin Evolution is a Rare card that is unlocked with 6 Evolution shard
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; still 3 Elixir and requires 2 cycles to deploy.
+- Spawns a Dart Goblin with stats identical to the original — 0.8 sec hit speed, 0.35 sec first hit speed, Very Fast (120), 6.5 range, Air & Ground, same hitpoints and damage per level.
+- New ability, Ob-noxious Darts: every dart leaves an area-of-effect poison cloud on the target, 1.5 tile radius, lasting 1 second.
+- The poison ramps in three stages as he keeps hitting the same target — stage 1 on the 1st dart, stage 2 on the 4th and stage 3 on the 7th (i.e. after 3 darts, then 3 more).
+- Damage scales steeply between stages: at level 16 the poison does 82 DPS at stage 1, 185 at stage 2 and 494 at stage 3.
+- Against Crown Towers the poison is reduced to 25% of its damage (21 / 47 / 124 DPS at level 16) and only lingers for 1 second.
+- Switching targets resets the ramp, but the poison already applied stays on the poisoned unit until it dies — even if the Evolved Dart Goblin himself is destroyed.
+- Poison does not stack: two Evolved Dart Goblins hitting the same troop apply two separate poison effects rather than one stronger one.
 
 ## Evolution-specific stats/behavior
 
@@ -68,7 +75,11 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Shoot high-hitpoint targets — Golem, Giant, P.E.K.K.A, Giant Skeleton, Electro Giant, Mega Knight, Goblin Giant, Royal Giant or Lava Hound — so the ramped poison keeps generating clouds for a long time and wipes the troops around them.
+- Because the poison outlives him, getting a few darts into a tank before dying still pays off.
+- Do not count on him for tower chip through the poison: it only sits for 1 second on a Crown Tower and deals a quarter of its damage.
+- Troops that spawn sub-troops on death do not pass the poison on to what they spawn.
+- Running two Evolved Dart Goblins on the same target gains nothing from stacking — spread them across targets instead.
 
 ## Source
 

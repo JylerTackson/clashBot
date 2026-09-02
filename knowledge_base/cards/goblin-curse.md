@@ -63,15 +63,31 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Graveyard — one of its best counters; with a Tower Princess, Dagger Duchess or Royal Chef it almost always fully answers it for a +3 Elixir trade, and the dying Skeletons become Goblins for a counterattack.
+- Witch — with the Tower Princess attacking her Skeletons first, they turn into Goblins and overwhelm her before she chips the Crown Tower, a +3 Elixir trade.
+- Enemy swarm units (Bats, Spear Goblins, Skeleton Army, Goblin Gang) — low health means they die inside the curse and convert into Goblins that fight for you.
+- Fragile light swarms used to stop a Goblin Giant — the backpack Spear Goblins plus the curse turn them into Goblins that add to your push.
+- Single units generally, when paired with Void — Void's higher damage makes it much likelier that one of the two spells finishes them and produces a Goblin.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Buildings, especially defensive buildings — they cannot be turned into Goblins, so the Void synergy and the whole conversion payoff do nothing against them.
+- Crown Towers — its damage over the duration is very low, so cycling it onto a Tower usually wastes 2 Elixir.
+- Splash and knockback answers to the spawned Goblins — The Log and Barbarian Barrel one-shot them, and Executioner, Bowler, Wizard, Sparky, Firecracker and Evolved Bomber clear them permanently.
+- High-health troops — the very low damage per tick means they simply walk out of the radius alive and unconverted.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 2 Elixir area-denial/conversion spell — very low damage each second for 6 seconds over a 3 tile radius, slowing troops and turning any enemy it kills into a Goblin.
+- Very high value for its cost on both offence and defence, especially in decks built around one large high-damage push.
+- Do not place your own swarm units (Bats, Spear Goblins, Skeleton Army) behind your Crown Tower against a Goblin Curse deck — given time, or with a small spell, they convert into Goblins that attack your own Tower.
+- If your own troops do get converted, The Log or Barbarian Barrel are quick fixes; Executioner, Bowler, Wizard, Sparky, Firecracker or Evolved Bomber are more permanent since they stay on the field.
+- Damage from two Goblin Curses stacks, but the curse effect itself does not.
+- The curse does stack with the Mother Witch's curse, so one troop can produce both a Goblin and a Cursed Hog.
+- Goblin Giant + Goblin Curse is a strong offensive combo thanks to the two Spear Goblins in the backpack finishing off cursed swarms.
+- Tornado + Goblin Curse holds enemies inside the radius longer and raises the conversion odds, but the combined cost makes it best in Overtime.
+- Rage + Goblin Curse against swarms: curse first, then Rage, so every converted Goblin spawns already boosted and can overwhelm a Crown Tower.
+- The Goblins it spawns are Very Fast (120) ground melee units with a 1.1 second hit speed, so they close on defenders quickly.
 
 ## Source
 

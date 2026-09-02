@@ -65,15 +65,41 @@ The Golden Knight has a special ability, accessible from the rightmost side of t
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ground swarms — the Dashing Dash chains onto up to 10 enemies in sequence, clearing swarms for a positive Elixir trade (though the 12 sec cooldown makes it situational).
+- Goblin Barrel Goblins — he dashes fast enough to defeat them for no Tower damage.
+- Wall Breakers and Bombers — his dash damage one-shots equivalently levelled ones.
+- Squishy ranged support near the river (Musketeer, Electro Wizard, Goblinstein, Little Prince, Ice Wizard, Wizard) — the dash crosses the river and takes them to half health, needing only two more regular hits.
+- Sparky — with good timing his dash invulnerability absorbs one hit, and his high hitpoints let him survive a second; with any tower troop he stops her for a positive Elixir trade.
+- Bandit, Prince and Dark Prince — his dash absorbs their dash/charge and damages them, fully destroying the Dark Prince's shield and weakening the Prince.
+- Inferno Tower and Inferno Dragon — dashing resets their ramp-up damage, making him an extended distraction (though he still gets incinerated eventually).
+- Bodyblock-style defences — because he can dash onto a blocker like a Knight and still reach the Crown Tower, defenders placed close to the Tower are far less effective against him than against a Valkyrie, Mini P.E.K.K.A, Lumberjack, Royal Ghost, Bandit or Prince.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Mini tanks with real damage — Mini P.E.K.K.A, Battle Healer, Valkyrie, Cannon Cart, Dark Prince, Bowler, Monk, Mighty Miner or Prince take him out easily because his own damage output is low.
+- Air troops — he cannot attack air at all, so Minions or Bats paired with any ground distraction counter him for at worst a neutral Elixir trade.
+- Skeleton Army — his 10 dashes are not enough to clear the whole army, and the survivors are sufficient to finish him; a spell is the better answer to swarms like it.
+- Surrounding swarms such as Guards — Dashing Dash only chains to troops he can see, so units behind him are ignored and the swarm neutralizes his dash and beats him.
+- Cheap 1 Elixir cards (Skeletons, Ice Spirit, Electro Spirit) on the side or middle bait and cancel the dash — keep them at most 5 tiles from the river so he cannot connect to the Crown Tower.
+- Buildings placed 3 tiles from the river and 2 tiles from the Crown Tower pull him without letting the dash reach the Tower.
+- Ice Golem or another cheap unit pulling him into the middle so both Crown Towers can defend against him.
+- Mega Knight stops him, but must not be dropped directly on top of him — the spawn damage is wasted and he gets free damage in.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: fast, high-hitpoint melee mini tank / push support; count him and his activated ability as 5 Elixir for trades (4 to deploy plus 1 for the ability).
+- Unlike the Electro Spirit, he cannot be forced to activate the King Tower with his ability.
+- His movement speed boost cannot be reset or cancelled by The Log, Zap, Freeze or anything else that normally stops a charge.
+- He is immune to all damage while dashing (like the Bandit), and chaining multiple dashes extends that immunity window.
+- A Fisherman pull does not stop the dash — he still finishes it, so Fisherman is a poor answer to him.
+- Pairs well with other fast, swarm-weak troops — Hog Rider, Battle Ram, Elite Barbarians, Boss Bandit (in 2v2), Mini P.E.K.K.A, Lumberjack, Prince, Bandit — since his dash covers the swarms they fear.
+- None of those partners hit air, so pack anti-air support (Wizard, Musketeer, Firecracker, Hunter, Executioner, Electro Wizard) or spells (Arrows, Lightning, Rocket) against Minion Horde, Mega Minion, Phoenix and Inferno Dragon.
+- Dash-plus-spell combos fully eliminate defenders: with The Log up to Mother Witch, Magic Archer and Zappies; with Arrows up to Little Prince; with Fireball up to Archer Queen — use these so he keeps walking toward the Crown Tower.
+- The ability's extra momentum pushes friendly troops forward — especially useful with Giant Skeleton so his bomb lands on a more valuable target, and with Electro Giant, where he can also dash onto the buildings and ranged troops defending it.
+- Great synergy with Tornado: group enemy troops so a single dash chain hits everything and may even damage the opponent's Tower.
+- To protect a unit from an enemy Golden Knight, play more expendable ground units as far from it as possible to bait his dash elsewhere.
+- Substitutes: Bandit (2 Elixir cheaper and higher damage, but less HP and a single-target dash), Royal Ghost / Baby Dragon / Dark Prince when splash is wanted, or Knight / Prince / Valkyrie when tanking matters more (all notably less mobile).
+- He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor choice for Clan Wars Defense Towers.
 
 ## Source
 

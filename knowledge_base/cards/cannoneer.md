@@ -57,15 +57,41 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Low- to medium-health single units — Archers, Bomber, Wizard, Musketeer, Phoenix, Firecracker, Berserker, Archer Queen, Ice Wizard, Mother Witch, Dart Goblin, Little Prince, Fisherman, Baby Dragon, Hunter, Goblinstein, Electro Dragon, Magic Archer, Electro Wizard, Skeleton Dragons, Mega Minion and Flying Machine all fold to his single-target burst.
+- Dart Goblin and Firecracker specifically die in one hit — his damage is comparable to a Bandit dash.
+- High-hitpoint units — Golem, Giant, Mega Knight, P.E.K.K.A., Goblin Giant, Giant Skeleton, Royal Giant, Lava Hound and Evolved Knight take heavy chunks per shot.
+- Electro Giant — his slow hit speed means he eats the reflect far less often while dealing more per shot than other Tower Troops.
+- Balloon — an ignored Balloon only lands a single hit before he kills it.
+- Furnace — its Fire Spirits come one per wave and are instantly deleted, so the Furnace does no damage at all and you can focus the other lane.
+- Goblin Barrel Goblins, which he one-shots on landing.
+- Troops kited into the opposite lane or hitting the King's Tower on the other side, which his 7.5-tile range still reaches.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Skeleton Army and other large swarms, which his 2.2-second hit speed cannot keep up with; left alone they destroy him.
+- Small swarms — Bats, Minions, Archers, Spear Goblins, Skeletons and Goblins accumulate a lot of chip damage if ignored.
+- Graveyard — Skeletons spawn faster than he can shoot; ignore the tank and spend your counters on the Graveyard instead.
+- Witch — her Skeletons respawn faster than he clears them and can distract him indefinitely; Night Witch does the same slightly less effectively with Bats.
+- Tombstone placed anywhere on the opponent's side, which will always take him out if left alone.
+- Evolved Skeletons dropped at the bridge, which reach him and destroy him outright if ignored, then go on to threaten the King's Tower.
+- Outranging siege — X-Bow and Mortar, which need fewer attacks than usual because of his lower hitpoints.
+- Magic Archer, Firecracker and Evolved Bomber lined up with an incoming troop, chipping him and the troop at once.
+- Cheap swarm scouting like Goblins and Bats works far better against him than against Tower Princess.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: high-damage, slow Tower Troop — 2.2-second hit speed, 0.8-second first hit, 7.5-tile range, single target, hits air and ground; lower hitpoints than other Tower Troops.
+- Run multiple splash cards with him to cover the swarm weakness.
+- Electro Spirit is an excellent cheap partner, cleanly handling light swarms like Skeletons and Bats.
+- Pairs well with stun and slow effects — Ice Wizard, Electro Wizard, Electro Dragon, Goblinstein, Ice Spirit, Electro Spirit and Zappies buy time between his slow shots.
+- Pull enemies toward the center of your side so one or both Cannoneers can fire on them.
+- Ranged troops like Archers and Spear Goblins placed centrally work well while he shoots, best against slow melee like Valkyrie, Mighty Miner and Battle Healer; less effective against P.E.K.K.A. and Giant Skeleton because of their shorter sight range.
+- Kiting with Ice Golem or Goblin Giant lures attackers into the other lane under his fire, often letting the kiter survive for a counterattack.
+- Against building-targeting troops you need a defensive building like Cannon or Tesla, placed to drag them deep enough for the second Cannoneer to reach.
+- Tornado and the Fisherman's pull bring targets into range of both Cannoneers; the Fisherman also adds his own damage and keeps more health for the counterpush thanks to the Cannoneer's burst.
+- A well-placed Tombstone (or Goblin Hut / Barbarian Hut) on your side amplifies him against tanks: the building distracts and adds Skeleton damage while both units focus the tank.
+- Against Goblin Barrel, do not spend Zap or Rage trying to help — he already one-shots the Goblins; use those spells for their side effects, or a spell like Barbarian Barrel that does one-shot Goblins.
+- Single-troop scouting (Dart Goblin, Spirit cards) is ineffective against him, unlike against Tower Princess.
 
 ## Source
 

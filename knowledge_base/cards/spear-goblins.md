@@ -62,15 +62,32 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Small single-target ground and air pushes such as Minions — their 5-tile range and air targeting handle these cheaply.
+- Prince — placed in the center of the player's side they block his charge and, with both Crown Towers hitting him while he attacks them, kill him outright.
+- Balloon — combined with a Crown Tower they stop it before it lands a melee hit, letting only the death damage through, at a +3 Elixir profit.
+- Graveyard — one Spear Goblin one-shots a Skeleton, preventing major damage.
+- Valkyrie — they tank three of her hits; placed almost horizontal to her, the triangle formation makes her kill only one at a time while the tower finishes her.
+- Any single-target attacker that needs distracting — their range lets them stall longer than Goblins, Bats, Minions, Archers, Guards, or Skeletons, since they stay put instead of walking in.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Any damaging spell except Freeze — their low hitpoints mean everything else kills them.
+- Zap, Giant Snowball, Rage, Barbarian Barrel, and The Log — all cost-efficient answers at equivalent Elixir.
+- Poison — commonly paired with Graveyard, it removes them despite their good Skeleton clearing.
+- Distractible splash troops — Skeleton Dragons, Wizard, Ice Wizard, Magic Archer, Firecracker, Princess, Heal Spirit, Witch, Ice Spirit, Fire Spirit, Bomber.
+- Bulkier splash troops — Baby Dragon, Executioner, Sparky, Dark Prince, Skeleton King, Bowler, Valkyrie, Goblin Demolisher, Royal Ghost, Mega Knight.
+- A predicted spell — relying on them to defend or distract backfires when the opponent spells them on sight, so track when they can be removed quickly.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 2-Elixir cheap anti-air and ground distraction / chip support.
+- Mini-tanks pair well with them: the tank absorbs hits and shields them from splash while the Spear Goblins deal damage from range.
+- Decent support behind high-hitpoint tanks — Giant, Lava Hound, Giant Skeleton, Royal Giant, P.E.K.K.A., Mega Knight, Electro Giant, Golem — where their range keeps them safer from splash.
+- Their slow 1.6 sec hit speed can cause stutter against Graveyard, letting a few Skeleton hits land on the Crown Tower.
+- At the bridge for chip damage, use the ground-troop bypass placement so the second Spear Goblin throws an extra spear before dying; the trade-off is more reaction time for the opponent, though it still scouts their counter.
+- Miner + Spear Goblins is a strong counterattack: his health pool lets them rack up major damage, and it is awkward to answer without a cheap spell.
+- Being an easy Zap/Log target can be turned around — the opponent's lack of an efficient counter can be punished with Minion Horde or Goblin Barrel.
+- Spear Goblins + Goblins replicate the Goblin Gang for slightly more Elixir, but with one extra Goblin and the flexibility of two cheap cards instead of a single 3-Elixir commitment.
 
 ## Source
 

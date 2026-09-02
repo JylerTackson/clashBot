@@ -26,7 +26,11 @@ The Inferno Dragon's Evolution is a Legendary card unlocked with 6 Evolution Sha
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Costs 4 Elixir and requires 2 cycles; spawns an Inferno Dragon with stats identical to the original (same hitpoints, 0.4 sec hit speed, 3.5 range, Medium speed).
+- Charge retention: once it defeats a troop it stays at whatever damage stage it had reached, holding that state for 9 seconds without hitting anything before it decays.
+- Its charge is no longer reset by knockback or pulls - only a stun attack resets it.
+- Adds a 4th damage stage after 20 seconds of damage, dealing twice the 3rd stage damage (for example 680 to 1359 damage per hit at Level 16, 1700 to 3397 damage per second).
+- Cosmetically it gains a gold-spiked helmet, team-colored goggles, a transparent fuel tank, magenta wings and a magenta beam.
 
 ## Evolution-specific stats/behavior
 
@@ -62,7 +66,20 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Unlike the base card it is *better* with pull and pushback cards - Tornado, Fisherman, Evolved Valkyrie, Monk and Evolved Mega Knight - because moving the target out of range no longer resets its charge.
+- Fireball, Giant Snowball, Tornado, Evolved Valkyrie and Evolved Executioner will not stop it; they only delay the value it gets, buying time for other units to kill it.
+- To actually reset it, use a cheap stun (Zap, Ice Spirit, Electro Spirit) or continuous stunners (Electro Wizard, Electro Dragon, Goblinstein, Zappies); an Electro Giant placed on top works the same way. Otherwise you must wait out the 9 seconds.
+- Evolved Zap delays its charge for longer than a normal Zap.
+- Guards, Royal Recruits and Dark Prince cannot reset its charge when their shields break.
+- Evolved Hunter's net resets its charge and kills it quickly if it is close; at range it will already be very low on health.
+- Evolved Giant Snowball does reset its charge when it absorbs the troop.
+- Extremely effective against the Evolved Knight - as an air troop it takes little damage back while it fully charges and maintains that state.
+- Excels in decks with heavy cards: after melting a Lava Hound it still melts the Balloon or Lumberjack behind it; after a Giant or Golem it melts the Prince or Sparky. Carry Arrows, Zap or Giant Snowball for the death troops (Lava Pups, Goblin Giant's Spear Goblins).
+- Good against Golem and Elixir Golem's multiple stages, bypassing their health pools; use a spell for the Elixir Blobs.
+- Bait out the opponent's stun spells and stun troops (Lightning, Electro Wizard, Electro Dragon) before committing it for maximum value.
+- Rocket one-shots it for a -2 Elixir trade - check first whether a more valuable Rocket target (Mini P.E.K.K.A., Elixir Collector, Sparky, Elite Barbarians) is present. Lightning also works but leaves it with a sliver of health.
+- Ranged units still counter it: Archers, Musketeer, Wizard, Flying Machine, Hunter, Firecracker, Magic Archer, Archer Queen and Executioner outrange it and deplete it even when charged.
+- Minions and Bats stall it long enough for a Crown Tower to finish it; Minion Horde works at a -1 Elixir trade; Skeleton Army, Goblins, Royal Recruits, Barbarians and Guards work if you can distract it.
 
 ## Source
 

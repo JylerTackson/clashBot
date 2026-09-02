@@ -26,7 +26,11 @@ The Royal Recruits' Evolution is a Common card that is unlocked with 6 Evolution
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Spawns the same 6 Royal Recruits with stats identical to the base card — the evolution adds an ability rather than raw stats.
+- New ability, Ordenated Charge: once a Recruit's shield is destroyed, it can charge at its target after travelling 2 tiles, dealing 2x damage on a charged hit.
+- They cannot charge while their shields are still up, so knocking the shields off (including with your own opponent's spells) is what switches them on.
+- Costs the same 7 Elixir and requires only 1 cycle to activate.
+- Practical effect: any splash or spell that strips shields converts the Recruits from a defensive wall into a double-damage charging threat.
 
 ## Evolution-specific stats/behavior
 
@@ -70,7 +74,19 @@ Cycles to evolve: 1. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Best used on defense: they cover both lanes and turn into a threatening counterpush the moment their shields are knocked off.
+- Never ignore them — left alone they will destroy both Crown Towers, as with any tower-threatening troop.
+- The deploy line can be skewed by shifting the central tile left or right for a 4/2 lane split, which makes them a good split-lane push.
+- They cannot be deployed in the opponent's territory until both enemy Crown Towers are destroyed, unlike other cards.
+- Strong with Royal Hogs: the Hogs bait a Fireball that knocks the shields off and starts the charge, then the Recruits tank for the Hogs to get Crown Tower damage.
+- Arrows pair well with them, clearing the fragile swarms (Skeleton Army, Bats, Goblin Gang) and ranged units (Firecracker, Princess, Bomber, Archers, Spear Goblins, Dart Goblin) sent to stop them.
+- Very good at eating a Giant Skeleton's Giant Bomb, since the shields absorb it and the resulting charge puts the opponent in a bind.
+- Their horizontal formation still limits splash, especially from the Mega Knight and Dark Prince.
+- Their slightly longer melee range lets them safely attack distracted shorter-range units, splash or not (Evolved Skeletons, Valkyrie).
+- Countered best by area damage (Executioner, Wizard, Skeleton King, Sparky, Bomber, Valkyrie, Ice Wizard, Baby Dragon, Mega Knight, Magic Archer, Princess, Firecracker, Royal Ghost, Goblin Demolisher, Dark Prince, Witch, Bowler) plus a tank (Prince, Ice Golem, Monk, Valkyrie, Miner, Golden Knight, Knight) placed between the Crown Towers to group them up; Bomb Tower + Valkyrie does the same.
+- Spells are situational counters — the shields soak the damage harmlessly; save a strong spell like Fireball for after the shields break, while they charge.
+- Split air swarms (Bats, Minion Horde, Skeleton Dragons) weaken them since they cannot hit air, but breaking the shields starts their charge, so only do this with a ground distraction supporting the swarm.
+- A lone Bowler aligned with a lane stops that lane despite the charge; placed centrally with a card like an Ice Golem he can stop both lanes.
 
 ## Source
 

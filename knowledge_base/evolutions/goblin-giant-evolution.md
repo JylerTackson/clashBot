@@ -26,7 +26,12 @@ The Goblin Giant's Evolution is an Epic card that is unlocked with 6 Evolution S
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- New ability "Tricky Sack": once his hitpoints drop below 50%, he passively summons a Goblin from his backpack every 2.2 seconds, on top of the two Spear Goblins he already carries.
+- All base stats are identical to the normal Goblin Giant — 6 Elixir, 1.5 sec hit speed, Medium (60) speed, melee medium (1.2) range, buildings-only targeting.
+- The spawned Goblins are full Goblins: Very Fast (120), 1.1 sec hit speed, melee short (0.5) range, ground-targeting, 244 hitpoints and 145 damage at level 13.
+- The two backpack Spear Goblins are unchanged — 1.7 sec hit speed, 5 range, air and ground, and they still spawn as normal Spear Goblins when he dies.
+- Because the spawn is health-gated, damaging him actually turns on his ability, so chip damage feeds the Goblin stream.
+- Requires 1 cycle to evolve.
 
 ## Evolution-specific stats/behavior
 
@@ -83,7 +88,24 @@ Cycles to evolve: 1. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Great on offense: he stacks up massive numbers of Goblins once at 50% hitpoints while his hitpoints and Spear Goblins tank for support troops and cripple defenses.
+- Never ignore him — he destroys a Crown Tower regardless of tower troop and will even take the King Tower if left alone.
+- Inferno Tower is by far the best building counter to an unsupported Evolved Goblin Giant: ramp-up damage kills him while its hitpoints buy the Crown Towers time to clear the Goblins, for a +1 Elixir trade. Beware of stun cards (Zap, Electro Spirit, Electro Dragon, Lightning, Zappies, Goblinstein, Electro Wizard) resetting the ramp-up.
+- Best troop counters are high single- or multi-target damage cards: Evolved Valkyrie, Night Witch, Mega Minion, Mighty Miner, Monk, Barbarians, Evolved Hunter, Three Musketeers, Prince, Evolved Mega Knight, Elite Barbarians, Phoenix, Bowler, Evolved Wizard, Sparky, Evolved Executioner, Inferno Dragon, Minion Horde, Skeleton Army and P.E.K.K.A.
+- P.E.K.K.A. kills him fast with her damage per hit but gets overwhelmed by the leftover Goblins, taking moderate damage before the counterattack.
+- Barbarians swarm him and the spawned Goblins for a +1 Elixir trade, but they fold to Fireball or Poison support, making them effective yet unreliable.
+- Evolved Valkyrie is one of the cleanest answers — her area damage OHKOs the Goblins while damaging him, and her tornado effect pulls him away from the Crown Tower for a +2 Elixir trade.
+- Unlike against the regular Goblin Giant, Mini P.E.K.K.A. is a poor answer: after killing the Goblin Giant he is swarmed by the spawned Goblins and the 2 Spear Goblins and dies.
+- He is a reliable Graveyard counter — the Spear Goblins rapidly clear Skeletons and, with Dagger Duchess or Tower Princess help, he survives to counterattack; he cannot handle a Graveyard alone if something is distracting the Crown Tower.
+- Zap and Giant Snowball let the Spear Goblins OHKO defending Minions or Goblins and briefly slow the defense, buying time for more Goblins to spawn.
+- Rage hits the same OHKO threshold as Zap and also speeds up the Goblin spawn rate, the Goblin Giant himself and his Spear Goblins.
+- Fireball softens Musketeer, Electro Wizard, Wizard or Evolved Barbarians so the Spear Goblins and Goblins finish them, greatly increasing pressure.
+- Earthquake covers his weakness to buildings, and the Spear Goblins and Goblins finish troops that survive it such as Dart Goblin, Firecracker, Archers, Bomber or Princess.
+- Lightning is for the high-damage answers to him: Inferno Dragon, Barbarian Hut, Bomb Tower, Mighty Miner, Inferno Tower, Mini P.E.K.K.A., Phoenix, Sparky, Tesla or Lumberjack.
+- Freeze is a situational combo — its 4 second duration lets the Spear Goblins work and buys spawn time, and single-target attackers (Prince, Phoenix, Mighty Miner, Inferno Dragon, P.E.K.K.A., Monk, Mega Minion, Lumberjack) get overwhelmed by the Goblin influx.
+- P.E.K.K.A. + Evolved Goblin Giant is expensive but potent: he clears Bats and Skeletons while she wins duels against Prince, Mighty Miner and Mini P.E.K.K.A. Spell support is crucial against Skeleton Army, Goblin Gang and Minion Horde; Rage makes it far more threatening.
+- Elite Barbarians are a cheaper alternative to P.E.K.K.A. in that push — frailer and splash-vulnerable, but faster, harder to distract and quicker at clearing small swarms.
+- Fisherman pairs well with him to pull away single-target counters like Mini P.E.K.K.A., Mighty Miner and Prince.
 
 ## Source
 

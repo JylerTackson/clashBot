@@ -62,15 +62,34 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Swarms of weak, small troops — Goblins, Spear Goblins, Bats and Minions all die to its area damage.
+- Glass cannons and medium units that need more than one hit to kill it — Musketeer, Executioner, Baby Dragon, Witch, Minions, Archers, Princess, Ice Wizard, Miner, Fisherman, Archer Queen, Phoenix, Electro Dragon, Magic Archer, Firecracker, Zappies, Bomber, Electro Wizard and Bandit, giving it time to land its high damage.
+- Lava Pups — a well-timed Fire Spirit hits them all as they pop out of the Lava Hound, leaving them weak enough for the Crown Tower.
+- Goblin Barrel aimed at the Tower — with the drag-and-double-tap placement it reaches all three Goblins for a +1 Elixir trade while saving your spell.
+- Guards' bodies — it cannot break the shields but does finish the Guards themselves, so Fire Spirit + The Log or Barbarian Barrel counters them for a neutral trade with precise timing.
+- Crown Towers — it connects at equivalent levels and does the same tower damage as a Fireball for 1 Elixir.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- The Log — defeats it immediately; avoid pairing it with other Log-weak troops or the opponent gets big spell value.
+- Cannoneer and Dagger Duchess — they kill it before it can connect, making the chip attempt a -1 Elixir trade.
+- Cheap soak units — Skeletons or another Spirit absorb it for a neutral Elixir trade.
+- Swarms it is deployed right next to — with its low hitpoints it dies before it can attack, so it must be placed at a distance.
+- Mother Witch — if she kills it before it attacks she spawns a Cursed Hog from it, so it must be placed close enough to die as part of its own attack.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 1 Elixir splash cycle card, good for chip damage, swarm clearing and adding a second layer of damage to small pushes.
+- Place it at a distance from its target so it finishes deploying and gets its attack off; place it close only against the Mother Witch.
+- Its cheap cost lures out cheap spells and can make opponents over-commit Elixir on defenders.
+- Used at the start of a match it scouts the opponent's deck by revealing what they use to stop it.
+- It is harder to ignore than the other Spirits because of its much higher damage.
+- Pair with high single-hit damage troops that swarms stop — Mini P.E.K.K.A and Prince — so the Fire Spirit clears the swarm for them.
+- Works best behind fast troops (Hog Rider, Mini P.E.K.K.A, Ram Rider, Prince, Dark Prince, Lumberjack) since they collide with each other less during the attack.
+- On a push it softens counters: behind a P.E.K.K.A it drops defending Minions low enough for a Zap or a cheap ranged troop to finish, so the P.E.K.K.A keeps walking.
+- Spell combos: with Zap it kills up to Wall Breakers, with Arrows up to Skeleton Dragons, with Fireball up to a Night Witch, and with Lightning up to an Inferno Dragon — useful when you lack a better counter or want a better trade than two spells.
+- Fire Spirit + Electro Spirit for 2 Elixir total kills Princess, Minions, Archers, Bomber and Firecracker, and can fully stop a Goblin Barrel with Crown Tower help; strong in Log/Arrows bait decks, and better than The Log on offense since it hits air.
+- Furnace (4 Elixir) spawns up to 7 Fire Spirits for more total value and consistent chip, but they arrive one at a time and cost more upfront, so it is far less versatile when you need immediate splash.
 
 ## Source
 

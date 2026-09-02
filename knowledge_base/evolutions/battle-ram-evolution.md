@@ -26,7 +26,13 @@ The Battle Ram's Evolution is a Rare card that is unlocked with 6 Evolution Shar
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; still costs 4 Elixir and requires 2 cycles to deploy.
+- The ram itself spawns with stats identical to the original Battle Ram (same hitpoints, damage and charge damage per level).
+- New ability: once it starts charging it damages every troop in its path and knocks them back, with a separate charge pushback damage value (341 at level 16 versus 923 charge damage) and 2 tiles of self pushback listed in the Charge Attributes.
+- It no longer breaks on contact with a building — it bounces back and repeatedly deals damage to its target until it dies, so it can only be stopped by reducing its hitpoints to 0.
+- On death it reveals 2 Evolved Barbarians instead of normal ones: +10% hitpoints and a 3 second +30% damage boost (e.g. 237 DPS rising to 318 while boosted at level 16).
+- The knockback behaves like Fireball pushback: it moves pushback-capable units such as Hog Rider, Ram Rider, Executioner, Valkyrie and Knight, but does nothing to immune units like Giant, P.E.K.K.A, Golem, Skeleton King, Goblin Machine, Mighty Miner or Prince.
+- Everything else is unchanged: Medium (60) speed, 1 sec deploy, Melee: Short (0.5) range, ground-only, building-targeting, and it still cannot hit air.
 
 ## Evolution-specific stats/behavior
 
@@ -81,7 +87,19 @@ Barbarians: +10% Hitpoints.
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Extremely strong on offense — it will take out a Crown Tower if ignored, regardless of which tower troop the opponent uses.
+- Never defend it with light ground swarms such as Skeleton Army or Goblin Gang placed in front or to the upper sides: the charge damage instantly destroys them.
+- Spawner buildings like Tombstone and Goblin Hut are also bad answers; it one-shots their swarms and destroys the building, leaving only the death spawn to defend.
+- Air answers work well: Minion Horde, Mega Minion, Phoenix, Evolved Electro Dragon and Evolved Bats paired with the Crown Tower cut its tower damage for a positive Elixir trade and set up a counterattack.
+- Any stun or pushback resets its charge — Zap, The Log, Giant Snowball, Ice Spirit and Electro Spirit are cheap support so that a Mini P.E.K.K.A. or Lumberjack can do the damage without being knocked back.
+- Best single-card counter is the Bowler for 1 more Elixir: high hitpoints, good damage and constant pushback stop it getting value; place him far away to use his range and avoid being knocked back during his 1 second deploy, then counterattack with a healthy Bowler.
+- Ice Wizard's constant slow makes it take longer to charge and slows it once charging.
+- Full counters: Evolved Ice Spirit plus Skeletons with Cannoneer help (+2 Elixir trade) — drop the Evolved Ice Spirit away from its front as it crosses the bridge, then Skeletons near the upper middle to kite the Evolved Barbarians; or Giant Snowball plus Evolved Skeletons (+1 Elixir trade), the Snowball cancelling the charge.
+- P.E.K.K.A counters it (with Crown Tower support she kills the ram, one-shots the Evolved Barbarians and is immune to knockback) but the initial trade is -3 Elixir, so only use her when a counterattack is affordable.
+- P.E.K.K.A is also its best partner: she tanks and kills tank-killers and buildings, the ram's charge damage decimates the swarms that would kill her, and the charge pushes her forward toward defending Inferno Tower, Bomb Tower or Evolved Tesla.
+- Great synergy with Earthquake (7 Elixir commitment): the spell weakens or destroys defensive troops and buildings so the ram and Evolved Barbarians connect.
+- Defensively it can push a group of troops away from the Crown Tower and onto a distraction like Goblins or Guards — especially useful against Lumberjack, Mini P.E.K.K.A., Sparky, Mighty Miner, Three Musketeers, Elite Barbarians, P.E.K.K.A., Hunter or Little Prince.
+- Strong distraction for an offensive X-Bow: the charge knocks back the defenders and chunks the X-Bow or buildings on each connection, but once the ram breaks the Barbarians will not distract an X-Bow, so add a cheap Fire Spirit, Ice Spirit or Skeletons for that gap.
 
 ## Source
 

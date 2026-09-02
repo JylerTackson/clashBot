@@ -67,15 +67,45 @@ Rage's duration after leaving the radius is increased to infinite seconds.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Weak swarms — its own small damage defeats anything up to Spear Goblins, letting a push break through while still getting the speed boost.
+- Skeleton Army and similar swarms defended against by ranged troops — the faster first attack lets Musketeer, Dart Goblin, Archers, Cannon Cart and Electro Wizard retarget and kill more Skeletons.
+- Goblin Gang and other swarms answering a Goblin Barrel — Rage can be dropped straight on the Barrel to weaken or kill them while boosting the Goblins.
+- Slow-moving spells such as Rocket — Rage lets Three Musketeers, Baby Dragon or Balloon speed out of the blast radius.
+- Poison and Goblin Curse — the speed boost helps troops escape the radius and neutralises Poison's slow, though at a heavy Elixir cost.
+- Ice Wizard's slow — Rage cancels it out, letting troops close on him without taking much damage.
+- Tanks that outlast defensive answers — an Inferno Tower, Inferno Dragon or Mighty Miner under Rage ramps to its next damage tier faster and can also kill the support behind the tank.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Cards that die to their own attack — Ice Spirit, Fire Spirit and Wall Breakers gain nothing, so raging them wastes 2 Elixir (Battle Ram and Skeleton Barrel are exceptions because of their death spawns).
+- Timed animations — Executioner's axe flight, the King's Tower activation, and the Giant Skeleton's and Balloon's death bombs are unaffected, so raging those units gives little value.
+- Goblin Cage — never rage it; the Goblin Brawler only spawns once the Cage is destroyed.
+- Low-health buildings — lifetime still ticks down at the normal rate under Rage.
+- Short-ranged cards like the Balloon — the boost falls off 1 second after leaving the radius, so placement is restrictive and they cannot use the full duration.
+- Other Rage sources — it does not stack with a second Rage, the Lumberjack's dropped Rage, built-in raged-troop buffs or Evolved Barbarians' Rage (it does stack with the Rage Battles environment boost).
+- Elixir Collector — the production speed-up is far too small; three Rages would be needed for one extra Elixir, a 5 Elixir deficit.
+- A mistimed cast — as a high-risk, high-reward card it leaves the player Elixir-starved against a counterattack, and its 0.5 second deploy time gives spells time to land first.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 2 Elixir support spell — +30% movement and attack speed to friendly troops and buildings in a 3 tile radius for 4.5 seconds, plus a little area damage.
+- Boosts slow tanks (Golem, P.E.K.K.A., Giant, Giant Skeleton, Electro Giant, Elixir Golem, Valkyrie, Mighty Miner, Lava Hound) so they reach the Tower sooner.
+- Boosts fast attackers (Mini P.E.K.K.A., Prince, Hog Rider, Ram Rider, Elite Barbarians) to close out a Crown Tower, and is best when the opponent's main counter is out of hand.
+- Speeds up spawner buildings (Barbarian Hut, Furnace, Witch, Night Witch), defensive building fire rate and Elixir Collector production.
+- On Barbarian Hut the last wave spawns 3 Barbarians instead of 1, plus the death-spawn Barbarian — roughly a break-even 2 Elixir investment worth making for defence.
+- Goblin Curse + Rage: Rage instantly converts the low-health troops in the curse into Goblins that spawn already boosted and can overwhelm a Crown Tower.
+- Goblin Giant decks like Rage because he is faster than other tanks and brings three attackers that all benefit; Ram Rider and Goblin Machine gain similarly.
+- Goblin Barrel + Rage is strong because Rage deploys instantly (unlike Giant Snowball) and does not force the Tower to retarget (unlike Zap) — only do it when opposing spells are out of rotation.
+- Good on defence too, since it boosts both defending troops and defensive buildings at once.
+- A raged X-Bow fires 4 projectiles per second for huge Crown Tower damage; only commit if the opponent has failed to answer it.
+- Cards with on-hit effects gain a lot: Electro Wizard stuns more often, Evolved Valkyrie/Evolved Mega Knight pull and push (and reset attacks) more often, as do Bowler and Evolved Executioner.
+- Battle Healer and Evolved Bats heal more often under Rage, extending their time on the field; Evolved Mortar spawns more Goblins.
+- The only timed animation Rage does speed up is the Phoenix's Egg revive, though the Egg still dies to a lone Tower Princess without a tank.
+- The Lumberjack is the alternative to running Rage: more damage and a tank body, but 2 more Elixir and far less control over where the Rage lands.
+- Levelling is low priority since duration is level-independent and damage is low; at equal levels it only one-shots Spear Goblins, though level 15 is worth reaching to one-shot Mirrored level 16 Spear Goblins.
+- Modifier **Raging Rage** (Common): +200% radius, for 9 tiles total, with increased damage.
+- Modifier **Just Superhero Stuff** (Rare): the Rage boost itself is increased.
+- Modifier **Keep Calm & Rage On** (Epic): the buff duration after leaving the radius becomes infinite.
 
 ## Source
 

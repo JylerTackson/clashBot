@@ -229,15 +229,42 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Opponents with only one answer to a card — Mirroring it (a Goblin Barrel against a Log player, for example) leaves them with no counter in hand.
+- Crown Towers on low hitpoints — a Mirrored offensive spell finishes them, and the level boost adds damage.
+- Goblins — a Mirrored Zap or Rage kills them outright.
+- Princess, Dart Goblin and Rascal Girls — a Mirrored Earthquake kills them immediately, as does a Mirrored Lumberjack.
+- Musketeer, Wizard, Little Prince, Goblinstein and Electro Wizard — a Mirrored Fireball defeats them immediately.
+- Baby Dragon — a Mirrored Lightning defeats it immediately.
+- Elixir Golem — a Mirrored Rocket defeats it immediately.
+- Defences that have already been spent — Mirroring a unit (ideally in the opposite lane) after the opponent used several cards on the first one can force Tower damage or heavy overspending.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Area-damage troops — a single Wizard, Baby Dragon, Executioner or Bomber can answer both the original and the Mirrored copy.
+- Opponents holding two spells or two sequential counters — they can answer the pair one after the other.
+- Any opponent with an Elixir advantage — Mirrored cards are much easier to counter when they can afford the response, and an easily-countered Mirror widens their lead further.
+- Cards that rely on a surprise placement (Miner, Goblin Barrel) — the Mirror's visual indicator reveals the location, making the second one easier to counter.
+- Splash damage against a Mirror + Clone push of low-health troops — it wipes them out easily.
+- Cards with a cheaper mass version — Mirroring Minions, Skeletons, Goblins/Spear Goblins or Musketeer is worse than just playing Minion Horde, Skeleton Army, Goblin Gang or Three Musketeers.
+- Elixir Golem — Mirroring it costs 4 Elixir and hands the opponent 4 Elixir back on death.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a high-risk, high-reward utility spell that replays your last card for +1 Elixir, at one level above the Mirror's own level; its cost shows as "?".
+- Mirror never appears in the starting hand, shrinking the pool to 7 cards (6 if the deck also runs an Elixir Collector), which lets you nudge your opening hand.
+- The level boost changes key interactions: Mirrored Fire/Ice/Heal/Electro Spirits and Dark Prince and Royal Recruits shields survive a Barbarian Barrel and an Earthquake, and take an extra Arrows hit.
+- Mirrored Dart Goblin, Princess and Rascal Girls survive The Log, Royal Ghost, a Dark Prince non-charge hit, Valkyrie, Mortar, a Mega Knight melee hit or a Boss Bandit hit — as do Guards' shields.
+- Mirrored Barbarians, Ice Wizard and Cursed Hogs survive a Fireball; Golemites, Phoenix and Goblin Brawler survive a Lightning; Mini P.E.K.K.A., Elixir Golem and Sparky survive a Rocket.
+- Mirrored Witch survives a point-blank Hunter meatshot; Mirrored Skeletons, Bats and Suspicious Bushes survive a Tornado; Mirrored Elixir Blobs survive Arrows entirely.
+- Many cards (Princess, Dart Goblin, Rascal Girls, Bomber, Archers, Elixir Blobs, Zappies, Firecracker, Royal Recruits, Mother Witch, Magic Archer, Skeleton Barrel, Skeleton Dragons, Flying Machine, Cursed Hogs, Barbarians, Ice Wizard, Musketeer, Electro Wizard) survive an extra Poison tick, and the last seven survive the whole spell.
+- Mirroring an Elixir Collector boosts production but nets only 1 Elixir of profit.
+- Mirroring heavy cards (Giant Skeleton, P.E.K.K.A., Prince, Mighty Miner, Mini P.E.K.K.A., Elite Barbarians, Mega Knight) can snowball a push, and is much easier during double Elixir.
+- Useful as a recovery tool when a card was played too early or in the wrong spot — just replay it for 1 more Elixir.
+- Mirror + Clone can overwhelm an opponent: mirroring then cloning costs more but leaves half the units at full hitpoints, while cloning then mirroring is cheaper with fewer units and only a third at full hitpoints.
+- Can also be used to cycle — pairing it with cheap utility cards like Skeletons rotates back to your offensive spells faster.
+- In uncapped modes at max level, a Mirrored Bandit, Night Witch, Miner, Royal Ghost, Giant Skeleton, Lava Hound or Mega Knight dies one Tower shot sooner than at tournament standard (the Miner gets one less hit), Mirrored Poison deals a lower percentage of Tower damage, and Mirrored Rocket a higher percentage.
+- Opponents can spot a Mirror easily — it is the only way to play a card twice in a row or field two of the same card at different levels — and it has its own sound effect. Spawner-produced Spear Goblins, Fire Spirits, Skeletons, Barbarians, Goblins, Minions, Musketeers, Bats and Royal Recruits are the exception.
+- Before slotting Mirror in, check whether a second anti-tank (Evolved Mega Knight, Prince, Hunter, Three Musketeers, Sparky) would give the same surprise more cheaply; successful Mirror decks tend to pair it with a unique-purpose card like the Furnace.
 
 ## Source
 

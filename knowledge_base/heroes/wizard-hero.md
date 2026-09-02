@@ -73,15 +73,29 @@ The Hero Wizard has a special ability accessible from whatever side of the scree
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Heavy win conditions such as Golem, Giant and Elixir Golem — the Fiery Flight tornadoes pull them back down the lane.
+- Support units travelling with those tanks — Night Witch, Lumberjack, Witch and Musketeer are crippled or taken out by the tornado damage on top of his normal splash.
+- Ground-targeting troops that cannot hit air, most commonly Mini P.E.K.K.A — he simply flies over their attacks for the 5 second flight.
+- Clumped groups — his base 1.5 tile splash plus 3 tile radius fire tornadoes hit Air & Ground at once.
+- Pushes he is already engaged with — activating the ability mid-fight converts his fireballs into tornadoes without wasting ability time on movement.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Cards that decrease attack speed, such as the Ice Wizard — they negate much of the value the ability would otherwise give.
+- Vines — immobilization plus the drag effect pulls him back to the ground, cancelling the flight entirely.
+- High-health chasers left alive after the ability ends — he needs a distraction card, otherwise he and the Crown Tower take the damage once he lands.
+- Hero Mini P.E.K.K.A and similar threats — flying only dodges them for 5 seconds, so they still need to be distracted.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- 5 Elixir to deploy plus 2 Elixir to activate Fiery Flight; unlocked by spending 200 hero coins at once.
+- Fiery Flight has a 1 second delay, then 5 seconds of flight with a +50% movement speed increase (classified as fast) and fireballs that create 3 tile radius tornadoes dealing their own damage (reduced against Crown Towers), similar to the Evolved Valkyrie.
+- Tornado damage is small on its own (20 at level 3 up to 69 at level 16) — the value is the pull, not the direct damage.
+- Activate the ability while he is already attacking enemy troops so none of the limited ability time is spent moving.
+- Use the pull offensively to drag a tank backwards while chewing through its support in the same tornado.
+- Use the flight defensively to evade ground-only attackers, but pair it with a distraction so the attacker does not simply switch to the Crown Tower.
+- Base statline is unchanged from the Wizard: 1.4 sec hit speed, 0.4 sec first hit speed, 5.5 range, 1.5 splash radius, Air & Ground targeting, Medium (60) ground speed outside the ability.
+- The ability is triggered from the button just above the card slots, on whichever side of the screen he was deployed.
 
 ## Source
 

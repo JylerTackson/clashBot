@@ -54,15 +54,52 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Squishy high-value ranged troops behind a tank - Princess, Firecracker, Dart Goblin, Bomber, Magic Archer, Ice Wizard, Wizard and Musketeer are all killed by a well-placed Miner.
+- Enemy buildings - his damage reduction only applies to Crown Towers, so spawners and other buildings take full damage.
+- Elixir Collector - particularly vulnerable to him, allowing large positive Elixir trades.
+- Early-placed defenders - he surfaces on top of them by surprise and then tanks for the player's main push.
+- Crown Towers as a chip threat - even alone an ignored Miner deals damage comparable to a Rocket for half the price, reliably if not spectacularly.
+- Support troops behind a push - he acts as a surprise mini-tank so high-DPS units behind him survive longer.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Small swarms - Skeletons, Archers, Goblins, Guards and Spear Goblins distract the single-target Miner and stop him reaching a building.
+- High-damage troops - Mini P.E.K.K.A, Prince, Hunter, Elite Barbarians, Three Musketeers, Mighty Miner, P.E.K.K.A, Sparky, Inferno Dragon, Monk and Lumberjack all destroy him easily.
+- Bowler and Sparky - too strong to attack with the Miner; he dies or retargets instead of killing them.
+- Archer Queen and Little Prince - their abilities make a Miner attempt on them fail unless the ability is already used.
+- Tornado - drags him into King's Tower range from most common placements, activating the King for an equal Elixir trade and very little Tower damage.
+- Ice Spirit - deployed behind the defending Crown Tower it lets at most one Miner hit through before freezing him, buying time to place a real counter.
+- Ice Golem placed in front of the Tower - pushes the Miner and forces him to change target.
+- Tombstone - never worth mining: constant Skeleton spawns block him and its death spawn denies all his damage even if he connects.
+- Splash units and forward-placed defenders - if he is deployed in front of the Tower, one unit can handle both him and the support behind.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Typical role: 3 Elixir mini-tank / chip win condition that can be deployed anywhere in the Arena.
+- He deals only 25% of his normal damage to Crown Towers, so mining the Tower alone is only worthwhile in a chip-damage deck.
+- Rush placement: the inner front corner tile is closest to your King Tower (he travels from it), so he starts attacking soonest and is less likely to be blocked.
+- Placing him on the centre tile of the inner side pulls both Crown Towers onto him, useful for splitting attention with fast backup like Wall Breakers, or for a surprise finish - but a lone Miner there dies fast and risks a King activation.
+- Against a Princess shooting from the bridge, outside-tile placements will not make her retarget; deploy on the inside or centre tile.
+- To hit the King's Tower without a Crown Tower reaching him, place on the left corner of the King's Tower or 1 tile beside it (mirrored on the other side); to hit a Crown Tower without the King's Tower reaching him, use the bottom right corner of the right Crown Tower (mirrored).
+- The two Tornado-safe tiles are the bottom-most tile on the non-King-Tower side and the tile directly above it - safe but very predictable; a Tesla placed there denies them. Alternatively, place him in a Tornado-vulnerable spot with fast support (Goblins, Minions, Guards, Bats) so a King activation costs the opponent more than ignoring him.
+- He always attacks the left corner of the targeted building; do not place him directly above and 1 tile left of the Crown Tower or he will target the Tower instead.
+- Against a building tucked beside the King's Tower, attacking it from behind is a high-risk, high-reward line: ignored, he activates the King after killing it; answered, the defender wastes time walking to him.
+- Vary his placement constantly - repeating the same spot is easily read; placing him just outside aggro range of a unit near the Tower is an effective bluff.
+- Do not Tornado him to the King's Tower at low health; he may die mid-spell and waste 3 Elixir.
+- Mirroring him reveals his location, so avoid mirroring him on offence.
+- On defence he is situational - his deploy delay makes him worse than mini tanks like Knight or Bandit; use him as a last resort or with cheap support.
+- Spell synergies: Poison clears the swarms answering him while both chip the Tower (Earthquake is similar but weaker and misses air); Zap clears Bats/Skeletons and makes the Tower retarget onto him; Arrows wipe swarms and strip Guards' shields so he one-shots them; Giant Snowball knocks defenders away and slows them; Goblin Curse is the best partner, cursing swarms into Goblins that he then tanks for.
+- Deploy Poison or Earthquake at the exact moment he resurfaces, or place spell and Miner on different tiles to disguise him.
+- Miner Rocket is a Double Elixir combo: the opponent's answer clumps near the Miner and the Rocket cripples it while both chip the Tower.
+- Sending the Miner ahead of a Tower spell baits a defending troop into the spell for a better trade.
+- Skeleton Barrel synergy: the Barrel tanks for him, then he tanks for the Skeletons - back it with bait such as Skeleton Army, Dart Goblin, Minions or Bats.
+- The same works with death-spawn troops (Goblin Giant, Golem, Elixir Golem, Battle Ram, Lava Hound), which tank first and leave fragile spawns for him to tank for; against Lava Hound no ground spell can hit both him and the Pups.
+- Electro Wizard (or Zappies / Electro Dragon) plus Miner: once the Tower locks onto the Electro Wizard, the Miner's arrival plus the stun makes the Tower retarget to him.
+- Hog Rider plus Miner: place the Miner as a prediction on the defending building so he soaks it while the Hog connects - vulnerable to Minions, Bats, Barbarians, Goblin Gang, Evolved Skeletons or Skeleton Army, so keep a spell ready.
+- Goblin Barrel plus Miner: each tanks for the other, but the pair is spell-vulnerable; splitting them across the two Crown Towers is an alternative.
+- Graveyard plus Miner: he tanks the Tower and counters while Skeletons pour in - beaten by Minion Horde, Goblin Gang or Poison, and very poor against Tornado decks that activate the King.
+- Digging under standing troops pushes them aside and can re-aggro them, though his path is hard to predict.
+- Opponents commonly block him by keeping a unit behind the Crown Tower; wait until that card is out of hand, or answer their swarm with a spell on reaction.
 
 ## Source
 

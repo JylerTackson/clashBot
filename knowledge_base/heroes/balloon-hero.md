@@ -76,15 +76,26 @@ The Hero Knight has a special ability accessible from whatever side of the scree
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Frail ground anti-air defenders — the Coffin Cadet ability is designed to kill units like the Musketeer and Wizard that would otherwise shoot the Balloon down.
+- Enemy buildings — both the Balloon itself (building-targeting, 774 damage per hit at level 13) and the Skeletrooper ability can be used to take them out.
+- Crown Towers — the Balloon's very high damage and 0.2 sec first hit speed devastate a Tower if it connects.
+- Clustered troops near a dying Balloon — the death bomb has a 3 tile splash radius and hits both air and ground for 290 damage at level 13.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops — neither the Balloon (buildings only) nor the Skeletrooper (ground only) can touch them.
+- Cheap ground bait placed close to the Balloon — Skeletons and similar soak the Skeletrooper's aggro, since it flies at the closest ground unit within 6 tiles.
+- Crown Towers as an ability target — the Skeletrooper does 90% reduced Crown Tower damage (only 33 landing damage at level 13), so the ability is nearly worthless aimed at a Tower.
+- Elixir-hungry answers: the Balloon plus its ability totals 7 Elixir (5 + 2), so a cheap counter to either half wins the trade.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir building-targeting air win condition with a 2 Elixir Coffin Cadet ability, 7 Elixir total if the ability is used.
+- Ability: pressing Coffin Cadet sends a Skeletrooper flying to the closest ground unit within 6 tiles, dealing landing (spawn) damage on impact, then attacking normally with a 1.1 sec hit speed.
+- The Skeletrooper is a full ground unit afterwards — 572 hitpoints and 247 damage at level 13, moving at Very Fast (120) — so it keeps fighting after the landing hit.
+- Best ability use is clearing the ground anti-air (Musketeer, Wizard) or buildings blocking the Balloon's path, not chipping a Crown Tower.
+- When defending against the Heroic Balloon, place troops such as Skeletons closer to the front so they absorb the ability's aggro instead of your real defenders.
+- Base Balloon behavior is unchanged: 2 sec hit speed, 0.2 sec first hit, Medium (60) speed, buildings-only targeting, and a death bomb that explodes after 3 seconds over a 3 tile radius hitting air and ground.
 
 ## Source
 

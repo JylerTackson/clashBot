@@ -253,15 +253,54 @@ There will be rounding mistakes, as we have stats from level 11
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Crown Towers — extremely high damage per strike plus a 0.2 sec first hit speed means an unanswered Balloon destroys any Tower.
+- X-Bow and Mortar placed at the bridge — it two-shots both buildings in a few seconds and cannot be damaged by them (bring a mini tank like Ice Golem to soak their tower damage).
+- Barbarian Hut placed in the centre of the opponent's side — it destroys the hut for a +1 Elixir trade without being distracted by the spawned Barbarians.
+- Low-health Crown Towers and clustered support troops — the death bomb (3 tile splash radius, hits air and ground) finishes them off.
+- Any unit with as much health as Minions — the death bomb defeats them outright, so it doubles as bait against ranged anti-air.
+- Buildings placed 3 or more tiles from the river — placed at the leftmost or rightmost edge of the Arena, the Balloon bypasses them entirely.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Minions, Bats and Minion Horde — large numbers and high DPS block it, and since the death bomb takes 3 seconds they usually escape it for a positive or neutral Elixir trade.
+- Wizard, Electro Wizard and Musketeer — similar damage output but higher health, and the Wizards also hit the Balloon's support.
+- Ice Wizard — impedes its progress enough that it does not reach the tower.
+- Archers — as a pair they match the Musketeer's DPS for 1 less Elixir, conceding only the death damage (place them ahead or they get hurt badly by it).
+- Mega Minion — a positive Elixir trade; survives a Fireball 3 levels higher, kills the Balloon before it connects and counterpushes.
+- Hunter — his close-range damage destroys the Balloon in two shots for a 1 Elixir positive trade despite eating the death damage.
+- Rocket — one of the most powerful answers, conceding only death damage, though it is a negative trade and cannot finish a Balloon alone if something is tanking.
+- Inferno Tower and Evolved Tesla — burn it down and also stop LumberLoon and LavaLoon pushes.
+- Most buildings placed in the middle — Tesla is a great, positive-trade counter that survives; even buildings that cannot hit air stall while the Tower chips it.
+- Ram Rider and Zappies — their stalling keeps it from reaching its goal, and the Ram Rider survives Fireball, Lightning and Rocket.
+- Air-targeting area damage combined with Tornado — extremely effective against Balloon-based pushes.
+- Freeze — a decent but less reliable counter than a bait building like Tesla.
+- Pressure in the other lane — forces the Balloon player to spend Elixir on defense so the Balloon arrives unsupported; the Balloon is slow with low hitpoints per Elixir. Do not overcommit, as one hit is deadly.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir building-targeting air win condition, Medium (60) speed, 2 sec hit speed with a 0.2 sec first hit; drops a bomb on death that explodes after 3 seconds for moderate area damage to air and ground.
+- Placement: on the opponent's side, the third tile from the river is the standard placement — fast enough to reach the second Crown Tower while taking less King's Tower damage; the fourth tile connects faster at the cost of hitpoints.
+- Corner placements let it bypass buildings placed at least 3 tiles from the river; on the side only 2 tiles from the Crown Tower it must go at the farthest edge.
+- Watch the opponent's card rotation — only air-targeting cards can touch it, so bait out their anti-air before committing.
+- Troops and buildings cannot be placed on top of its death bomb, which can make the defender's follow-up placements awkward — factor that in when choosing where to pull the Balloon.
+- LumberLoon: the Lumberjack tanks and drops Rage on death, letting the Balloon land multiple tower hits. Counters are Minion Horde, Hunter, Three Musketeers, Inferno Tower and Evolved Tesla, so keep a Fireball or Baby Dragon as backup and prefer running it as a counterattack.
+- LavaLoon (12 Elixir): the Lava Hound absorbs hits, then the Balloon becomes the primary tank once Lava Pups spawn. Must be started from the back; both units only hit buildings, so swarms shred it without spell support, and Inferno Tower burns both.
+- Against a LavaLoon setup, put a distraction like a Tombstone on the bridge to abuse the Lava Hound's long range and get the Balloon out front, where the Crown Tower targets it first.
+- Do not run LavaLoon into X-Bow or Mortar setups — the Balloon's shorter range puts it in front of the Lava Hound and exposes it; destroy the buildings first.
+- Baby Dragon support: area damage clears Minions, Bats, Archers and Spear Goblins while tanking; placed behind, its faster speed shoves the Balloon forward for a possible extra hit. Countered by Inferno Tower or a tank + anti-air combo.
+- Skeleton Dragons work similarly, or can be split so one defends alongside the Balloon while the other sneaks damage onto the weaker Crown Tower.
+- Minions or Minion Horde placed behind the Balloon dramatically increase its speed — bait out splash cards first.
+- SkellyLoon: a Skeleton Barrel behind the Balloon turbo-boosts it while the Balloon tanks for the spawned Skeletons. Countered by pulling both with a Tesla and spelling the Skeletons, or by Lightning (safer than Rocket, whose slow travel can miss).
+- Giant + Balloon (10 Elixir) is hard to defend thanks to combined health pools; start it in the bridge corners so the Balloon skips some defenses. Same weaknesses as LavaLoon since both units are slow and building-only.
+- Prince + Balloon (10 Elixir): the Prince OHKOs frail grounded anti-air like the Musketeer while the Balloon hits the tower. Beaten by a ground swarm plus an air swarm, or an immediate Rocket before the Prince charges away.
+- Spells are essential since most Balloon counters are swarms or low-health: Arrows for Minions and Minion Horde, Fireball as an alternative that also beats Zappies and Skeleton Dragons.
+- Zap resets Inferno Dragon and Inferno Tower channels — stun them right at the four second mark for maximum value; Zap the Crown Tower to make the Balloon the primary tank when your tank is nearly dead.
+- Giant Snowball kills Bats and Spear Goblins and knocks back/slows the Crown Tower and defenders, often buying an extra Balloon hit.
+- Tornado drags sturdy defenders out of range of the Balloon, either to the other lane or back toward your side, and finishes off Bats or Spear Goblins.
+- Rage makes a built-up Balloon push nearly unstoppable; Lightning is reserved for Inferno Towers and medium-hitpoint ranged units (clip a building, troop and Tower for value), usually only in double Elixir; Void removes isolated damage dealers like Wizard or Tesla.
+- Freeze and Clone both work as surprise finishers — Clone also pushes the Balloon closer to the Tower and can bypass defensive building setups. Against a Freeze combo, space your defenders away from the tower.
+- Kill an enemy Balloon as fast as possible: with its 0.2 sec first hit speed, even a moment of freedom is massive damage.
+- Baby Dragon alone does not stop a lone Balloon from connecting — only use it when the Balloon has other support to clear.
 
 ## Hero variant
 

@@ -60,15 +60,31 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ranged cards with less than 6 tiles of range — Hunter, Executioner, Bowler, Baby Dragon, Goblin Demolisher, Witch, Archer Queen, Electro Dragon, Cannon Cart, Skeleton Dragons and Wizard — the Rocket locks on and destroys them, giving their user almost no defensive value.
+- Air swarms such as Minion Horde and Evolved Bats used against him on offense: unless they are dropped directly on top of him, the Rocket's 1.5 radius area damage wipes out a large part of them in one hit.
+- Ground swarms like Goblin Gang and Skeleton Army, which the Rocket instantly destroys.
+- Smaller pushes on defense, where his high hitpoints plus the high-damage Rocket do the work.
+- Tower Troops, especially Royal Chef and Dagger Duchess — ignoring him easily costs over half a Crown Tower.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- High damage, high health single-target melee troops: P.E.K.K.A, Mighty Miner, Elite Barbarians, Prince, Monk, Lumberjack, Giant Skeleton and Mini P.E.K.K.A. With Crown Tower help they out-DPS him, stay inside the Rocket's blind spot and survive to counterattack.
+- Anything placed inside the 2.5 tile dead zone in front of him, since the Rocket cannot target enemies closer than that.
+- Void with Dagger Duchess plus an Ice Spirit or Electro Spirit fully counters him for a +1 Elixir trade — Void 1 tile in front of him so all 3 hits land, Ice Spirit about 4 tiles horizontally from the bridge to buy the Duchess time.
+- Building-targeting kiting troops such as Ice Golem or Goblin Giant pull him into the other lane, though dropping them too far from the bridge lets a Rocket chip the Crown Tower.
+- Very Fast troops, which can outrun the Rocket's slow 250 projectile speed under most circumstances.
+- Fisherman can activate the King Tower against him: let the Machine get close, then place the Fisherman 2 tiles in front of the King Tower so the Rocket hits it.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir mini-tank/tank with high hitpoints and moderate melee damage, plus an independently firing rocket launcher — good on defense against small pushes and as support for larger offensive pushes.
+- The Rocket is area damage, hits air and ground, has 2.5-5 tile range with a blind spot under 2.5 tiles, and deals only about a third of its damage to Crown Towers.
+- When defending him with melee troops, deploy them at least 5 tiles from your Crown Tower so the Rocket cannot get free chip damage on the tower.
+- Strong synergy with Goblin Drill: the Rockets lock onto whatever defends the Drill and can splash the Crown Tower, while his hitpoints tank tower fire for the Drill's whole duration.
+- The same play is even stronger with the Evolved Goblin Drill, which reappears elsewhere and disorients the defender.
+- Goblin Curse synergy: the damage amplification lets the Rocket one-shot Magic Archer, Mother Witch, Zappies, Flying Machine and Skeleton Dragons instead of needing two hits, and the Machine tanks for the spawned Goblins.
+- Beware the Rocket targeting a fast card while the Machine itself is distracted by a slow one, e.g. an Ice Golem + Hog Rider push — the Hog can outrun the shot.
+- In 2v2, a Machine locked onto a Crown Tower will fire its Rocket at the King's Tower. If it crosses alone toward the healthier tower it can be worth letting it connect before spending Elixir, and the King activation risk makes it a questionable 2v2 pick.
 
 ## Source
 

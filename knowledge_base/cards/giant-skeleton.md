@@ -63,15 +63,44 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Clumped support troops — the death bomb alone defeats any unit up to a Magic Archer, Zappies or Mother Witch.
+- Large pushes — he groups enemies up and his death bomb cripples the whole push so other cards can clean up.
+- Mega Knight — despite low damage he stops one on his own thanks to higher attack speed and high hitpoints, keeping about half his health with tower troop help.
+- Crown Towers on death — his bomb deals double damage against Crown Towers and knocks back lighter troops.
+- Anything that kills him — whatever defeats the Giant Skeleton is usually killed by the bomb afterwards, which makes him a great buffer for spawner buildings.
+- Enemy air troops as a distraction (situational) — his hitpoints let him tank many shots from Baby Dragon, Electro Dragon, Phoenix, Skeleton Dragons or Flying Machine.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Swarms — he is easily countered by them and struggles badly against numbers.
+- P.E.K.K.A. — a negative Elixir trade but she defeats him without letting the Crown Tower take death damage and survives with plenty of hitpoints.
+- Inferno Tower — costs 1 less Elixir, is less spell-vulnerable, and burns him down; pair with cheap Skeletons to pull him away.
+- Mini tanks on defense with tower troop help: Knight, Lumberjack, Valkyrie, Mini P.E.K.K.A, Battle Healer, Prince, Royal Ghost, Golden Knight and Dark Prince all counter a lone Giant Skeleton and keep health for a counterattack.
+- Mighty Miner and Monk — counter him for a positive Elixir trade; the Mighty Miner's ability can even escape the death bomb if he was misplaced.
+- Giant — deployed in front of the Crown Tower he pushes the Giant Skeleton, forces a retarget, and slowly lures him away from the Tower so the bomb lands harmlessly.
+- Fisherman — used as a reaction when the Giant Skeleton is low, his hook drags him away so the bomb detonates away from the Tower.
+- Any single ground unit as a distraction — unlike the Giant he targets troops, so anything on the ground can pull him.
+- Splash troops and spells against his Skeleton Army escort — Wizard, Bomber, Valkyrie, Baby Dragon, Executioner, Bowler and Mega Knight all break that combo.
+- Air units such as Inferno Dragon or Minion Horde — they punish him and any push built around him.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 6 Elixir ground tank/meat shield whose main payoff is the death bomb — it explodes 3 seconds after he dies, deals double damage to Crown Towers and knocks back lighter troops.
+- He is not interchangeable with the Giant: he can be distracted by any ground unit, has fewer hitpoints and costs 1 more Elixir.
+- Bait the opponent into overcommitting on defense against him — his hitpoints plus the bomb threat let quick troops like the Lumberjack and Berserker slip past unharmed for a large positive Elixir trade.
+- Excellent buffer in front of spawner buildings: whatever kills him dies to the bomb while the spawner keeps producing troops that walk on unopposed.
+- Back him with splash support (Witch, Princess, Firecracker, Bomber, Wizard) since he is slow with low DPS and needs help connecting.
+- Spells with unrestricted placement support him well once he crosses the bridge, wiping the swarms sent to kill him.
+- Death bomb combos: The Log or Barbarian Barrel finishes off Musketeer, Wizard, Electro Wizard and the like after the blast; Tornado clumps units for both the bomb and your support, letting Zap or Giant Snowball mop up.
+- Tornado trick: if an enemy Giant Skeleton or Mega Knight is behind your Giant Skeleton, a Tornado near the Tower pushes yours closer — he will not connect, but his bomb will.
+- Clone shoves an allied Giant Skeleton forward so his death damage reliably hits the Crown Tower, and the cloned bomb cleans up the defenders; if he was already attacking the Tower when cloned, the clone's bomb almost certainly detonates on the Tower for 3 extra Elixir.
+- Fast troops can push him forward to reach the Tower sooner, but Mini P.E.K.K.A., Elite Barbarians or Prince combos are still weak to swarms and air, so plan more than one layer of offense.
+- He can also bodyblock friendly units — e.g. blocking a friendly Hog Rider from walking toward a building so he connects with the Tower instead.
+- Skeleton Army escort: they surround him and clear the swarms sent to stop him, add tower damage and sometimes reach the King Tower — but the whole package folds to spells and splash troops.
+- Pairing him with another threat (e.g. Balloon) splits the opponent's defenses; he blocks air units for the Balloon and the defenders almost certainly die to one or both death bombs, denying a counterpush. Very weak to air, so bring anti-air cards or spells.
+- On defense, combine him with distraction troops like Skeletons so the bomb detonates right on top of his targets.
+- In Rage Battles his increased speed makes him a strong tank that forces the opponent to focus him, but he is worse on defense there since enemies can leave the bomb's radius before it detonates.
+- Do not play a Fisherman behind the King Tower against him — the pull can land the Giant Skeleton right next to your Crown Tower.
 
 ## Source
 

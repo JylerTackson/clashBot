@@ -67,15 +67,37 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Medium-to-high-hitpoint single-target troops needing a distraction — Prince, Inferno Dragon, P.E.K.K.A., Mighty Miner, Sparky, Mini P.E.K.K.A. — they stall them and stop charged-up abilities for 1 Elixir.
+- Building-targeting troops that cannot fight back — they deliver a high damage-per-second for their cost.
+- Sparky — a 1-Elixir distraction, or surrounded directly on top of her for a +5 Elixir counter with Crown Tower help.
+- Bandit — fully countered by placing them on the third tile vertically from the King's Tower and third horizontally from the Crown Tower before her dash, so she lands in range of both Crown Towers and gets no tower hits.
+- Lone Princess — played just after she fires, they kill her quickly.
+- Medium-health troops with Crown Tower support — Musketeer, Night Witch, Hunter, Miner, Bandit, Executioner, Goblin Brawler, Mini P.E.K.K.A.
+- Inferno Tower and Inferno Dragon — they stall the damage ramp-up, buying time to answer or reset it.
+- High-damage single-target attackers when paired with a follow-up card — Elite Barbarians, Mighty Miner, P.E.K.K.A., Prince; pull them to the center with Skeletons then finish with Knight, Valkyrie, or Mini P.E.K.K.A.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Ranged area damage — Wizard, Bowler, Executioner, Witch, Bomber wipe them instantly, so deal with or distract those first.
+- Any Crown Tower — even a level 1 Crown Tower kills all three without taking damage.
+- Zap and other quick spells when the opponent is relying on them defensively — a well-timed Zap lets a Prince or similar connect anyway.
+- A Princess who gets a shot off first — bad timing means she kills them with one hit; she (or her player's spell) can also react and resume firing at the tower.
+- A Sparky player who preemptively Zaps on top of their own Sparky at the bridge — the surround fails and the tower takes major damage.
+- Large-radius area attacks such as Mega Knight's jump and Dark Prince's charge — the spread-out deploy trick does not help against them.
+- Flying Machine — its sight range equals its attack range, so kiting fails; place Skeletons in front of it to distract instead.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 1-Elixir disposable distraction and cycle card; they rarely counter anything alone, but the time and support they buy other cards is the value.
+- Spelling them is usually a negative Elixir trade, so most opponents will not spend a card purely to remove them.
+- Split behind the King Tower while cycling to slightly discourage the opponent from committing to a lane.
+- Placement rules: on top of single-target ranged troops to negate their range; in the center against melee troops so they walk farther and the Crown Tower chips them longer.
+- They boost small attacks cheaply thanks to Fast speed and high combined damage — a Miner plus Skeletons is far more threatening than a lone Miner.
+- Very high DPS-per-Elixir: distract a troop with an Ice Golem and drop Skeletons behind it to cripple or kill it.
+- King's Tower activation vs a back-placed Goblin Barrel: split them behind the King's Tower a few tiles before the barrel's shadow crosses the river, one Skeleton in the barrel's lane and two in the other; the Goblins kill them and one heads for the King's Tower.
+- King's Tower activation vs a bridge Mortar: meet it vertically and play the Skeletons on the first tile in front of the King's Tower slightly before the Mortar's deploy timer is three-quarters done, so the shell's splash clips the King's Tower.
+- Kiting air troops: split them so one goes into the air unit's staggered lane and two into the other — the lone Skeleton tanks a hit while the pair gains distance (does not work on Flying Machine).
+- Spread-out deploy trick: place Skeletons, then a single ground unit on the same tile immediately after, so area attackers like Baby Dragon and Skeleton Dragons must target them one at a time; most effective when that unit is a ranged attacker.
 
 ## Evolution
 

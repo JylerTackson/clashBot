@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T02:36:05+00:00",
+  "generated_at": "2026-09-02T02:45:45+00:00",
   "items": {
     "minions": {
       "kind": "card",
@@ -1979,14 +1979,12 @@
       "url": "https://clashroyale.fandom.com/wiki/Spirit_Empress",
       "status": "pending",
       "stage": "fetched",
-      "reason": "3 agent placeholder(s) unfilled",
-      "updated_at": "2026-09-02T02:36:05+00:00",
+      "reason": null,
+      "updated_at": "2026-09-02T02:45:45+00:00",
       "image": {
         "file": "SpiritEmpressCard.png",
-        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7e/SpiritEmpressCard.png/revision/latest?cb=20250708193121",
         "bytes": 432897,
-        "width": 510,
-        "height": 668
+        "cached": true
       },
       "image_error": null,
       "n_tables": 4
@@ -2105,14 +2103,12 @@
       "url": "https://clashroyale.fandom.com/wiki/Boss_Bandit",
       "status": "pending",
       "stage": "fetched",
-      "reason": "3 agent placeholder(s) unfilled",
-      "updated_at": "2026-09-02T02:36:05+00:00",
+      "reason": null,
+      "updated_at": "2026-09-02T02:45:45+00:00",
       "image": {
         "file": "BossBanditCard.png",
-        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b8/BossBanditCard.png/revision/latest?cb=20250406053048",
         "bytes": 547008,
-        "width": 508,
-        "height": 745
+        "cached": true
       },
       "image_error": null,
       "n_tables": 4
@@ -3153,14 +3149,12 @@
       "url": "https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero",
       "status": "pending",
       "stage": "fetched",
-      "reason": "3 agent placeholder(s) unfilled",
-      "updated_at": "2026-09-02T02:36:05+00:00",
+      "reason": null,
+      "updated_at": "2026-09-02T02:45:45+00:00",
       "image": {
         "file": "HeroBarbarianBarrelCard.png",
-        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/3b/HeroBarbarianBarrelCard.png/revision/latest?cb=20260401163727",
         "bytes": 443426,
-        "width": 598,
-        "height": 730
+        "cached": true
       },
       "image_error": null,
       "n_tables": 4
@@ -3261,14 +3255,12 @@
       "url": "https://clashroyale.fandom.com/wiki/Berserker/Hero",
       "status": "pending",
       "stage": "fetched",
-      "reason": "3 agent placeholder(s) unfilled",
-      "updated_at": "2026-09-02T02:36:05+00:00",
+      "reason": null,
+      "updated_at": "2026-09-02T02:45:45+00:00",
       "image": {
         "file": "HeroBerserkerCard.png",
-        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ec/HeroBerserkerCard.png/revision/latest?cb=20260816173828",
         "bytes": 549347,
-        "width": 598,
-        "height": 730
+        "cached": true
       },
       "image_error": null,
       "n_tables": 3

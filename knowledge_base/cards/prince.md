@@ -72,15 +72,59 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Building-targeting troops like Hog Rider, Battle Ram and Ram Rider — his high damage shuts them down on defense; place him closer to the Tower against slow ones so he can charge for double damage.
+- Frail single units — his charge OHKOs every unit with as much health as an Elixir Golemite, including Musketeer-class troops.
+- Elixir Golem + Battle Healer — one of the most effective counters; he kills the Battle Healer easily, shreds every Elixir Golem form and OHKOs each Elixir Blob (kill the Battle Healer first to save hitpoints).
+- Evolved Royal Giant and Evolved Battle Ram — his knockback immunity plus high damage defeats them quickly, especially with a charge.
+- Tanky counters to a Mega Knight — Valkyrie, Knight, Monk, Giant Skeleton all take heavy charge damage.
+- Distracted Valkyrie — his slightly longer melee range lets him attack her from a distance without taking damage.
+- Lone proactive Archer Queen (and similarly the Little Prince) — his charge hit counters her, unless the opponent resets his charge.
+- Ranged units and buildings attacking your tank — he jumps the river to reach them.
+- All tower troops — he fares evenly against every one of them and deals similar damage to the King's Tower afterwards, so he can never be ignored.
+- Opponents low on Elixir or with counters out of rotation — his charge speed gets him to the Crown Tower fast.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Swarms — Skeleton Army, Goblin Gang and Barbarians are the simplest, most cost-effective counters to a single-target troop with his slow attack speed.
+- Evolved Skeletons — the cheapest counter to a lone Prince; they keep multiplying and distract him until he dies.
+- Witch — constantly spawns Skeletons that prevent him from charging, and resists spells better than a swarm card does.
+- Tombstone — withstands multiple Prince attacks, stops his charge and is a positive Elixir trade; Goblin Hut and Barbarian Hut work similarly but less well.
+- Evolved Goblin Giant — the spawned Goblins and 2 Spear Goblins overwhelm him after he kills it.
+- Shielded troops, especially Guards, Royal Recruits and Evolved Knight — the shield absorbs the charge and they distract him in numbers.
+- Strong durable single-card answers: P.E.K.K.A., Mega Knight, Boss Bandit, Giant Skeleton and Mighty Miner, particularly with Crown Tower support.
+- Mini P.E.K.K.A. — beats him for a positive Elixir trade if he does not charge in time; adding a cheap distraction (Skeletons, Goblins, Electro Spirit, Ice Spirit) guarantees it.
+- Electro Wizard — his stun stops the charge and, with a Crown Tower, finishes the Prince.
+- Fisherman — his hook pulls the Prince toward the center and resets the charge; pair with a cheap distraction for at worst a neutral trade.
+- Zap and The Log — reset his charge (the only knockback sources that affect him, along with Little Prince and Monk).
+- Freeze — disables the charge and lets you deploy units against him safely.
+- Spear Goblins placed in the center of your side — they lure him into range of the second Crown Tower, which finishes him.
+- Evolved Goblin Cage — its longer range absorbs him and prevents him from hitting it at all (the normal Goblin Cage survives 2 hits).
+- Skeleton King's ability — the summoned Skeletons distract him, though it is a negative Elixir trade.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir counterattacker with very high damage; he charges after travelling 2 tiles and deals double damage on the charge hit, and can jump over the river.
+- Best used on the counterattack, punishing an opponent's Elixir investment or attacking early when their counters are out of rotation; harder to land during double Elixir when they can afford answers.
+- Opposite-lane pressure: with a medium push in one lane, dropping the Prince in the other forces the opponent to split defenses and spread thin counters (e.g. one swarm card for two pushes).
+- He is immune to all knockback except The Log, Little Prince and Monk, so Fireball, Giant Snowball, Bowler and Evolved Executioner are poor answers.
+- Tornado does not reset his charge and he resists its pull much better while charging — use Zap, Lightning or The Log instead.
+- Cheap area damage spells pair naturally with him to clear the swarms that stop his charge; light spells played as a prediction also force the opponent into bad Elixir trades. Zap, Giant Snowball and Rage need tight timing, The Log takes time to land, and Arrows and Earthquake cost more.
+- Rage amplifies his damage per second and lets him charge up faster.
+- Great spell bait — because Zap and The Log reset his charge, he pulls those spells out of decks that also run Goblin Barrel or Skeleton Barrel.
+- Double Prince combo: he kills powerful single targets while the Dark Prince clears swarms with his 360° splash charge, often with a Giant that both Princes shove forward. Weak to air (Minion Horde), so bring spells.
+- Counters to the Double Prince push to be aware of: P.E.K.K.A. or Mega Knight, Inferno Dragon or Minion Horde behind a tank, Ice Golem luring, The Log into Sparky, Electro Dragon (untargetable by both and resets charges), or simply attacking the other lane.
+- Mega Knight + Prince is especially strong: the Mega Knight tanks and splashes swarms while the Prince's charge punishes the tanky troops used to answer him, and their jump/charge keep them together.
+- Cheaper Double Prince alternatives: Royal Ghost (area damage but slower and easily separated) or Golden Knight (similar bulk, ability clears swarms, but slower).
+- Push mechanic: a troop placed in front of him is shoved forward and sped up by his charge, working best with bulky melee troops like the Valkyrie who tanks and clears swarms for him. Small light troops just get shoved aside.
+- Miner combo: use the Miner to pull support troops (e.g. a Bandit meant to soak the charge) behind the Tower so the Prince connects. Weak to swarms.
+- Prince + Balloon (10 Elixir) is deadly — he OHKOs frail grounded anti-air like the Musketeer while the Balloon hits the Tower; answered by a ground swarm plus an air swarm, or an immediate Rocket before the charge separates them.
+- Executioner + Prince is high risk, high reward — he handles Mini P.E.K.K.A. and Lumberjack while the Executioner clears Goblin Gang, Minion Horde and Skeleton Army. Bomber, Baby Dragon, Bowler, Firecracker, Goblin Demolisher, Sparky, Princess and Wizard fill the same role; all are countered by separating the duo.
+- Giant Snowball can knock back and slow an Electro Wizard or Hunter so the Prince lands his charge and kills them instantly.
+- In Prince vs Prince duels, Zap the opposing Prince so yours lands its charge without taking one back.
+- His longer melee range and large hitbox occasionally let him hit a Sparky, Golden Knight or Skeleton King from across the river.
+- Cloning him retains and does not interrupt his charge, but the clone does not inherit the charging status.
+- Barbarian Barrel is ineffective against him — he OHKOs the Barbarian and simply starts charging again. Royal Delivery at least damages a charging Prince and spawns a Royal Recruit whose shield eats the charge, but needs backup like Bats.
+- The Bandit is a cheaper single-target pressure alternative — 2 Elixir less, faster and more mobile via her dash, but much less damage and frailer.
 
 ## Source
 

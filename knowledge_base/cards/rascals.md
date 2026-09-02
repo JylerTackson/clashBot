@@ -84,15 +84,41 @@ Rascal girls are replaced by Magic Archers and Rascal boy is replaced by Boss Ba
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Tanks such as P.E.K.K.A, Mega Knight, Giant Skeleton, Boss Bandit and Mighty Miner — the Rascal Boy absorbs all the damage while the Rascal Girls keep hitting, a positive Elixir trade with Crown Tower help.
+- Royal Recruits — splitting the Rascals at the center counters them for a +2 Elixir trade, often leaving a Rascal Girl alive to counterpush.
+- Graveyard — the Rascal Girls hit 2 Skeletons at a time alongside the Tower Princess while the Rascal Boy tanks; a neutral trade that sets up a counterpush.
+- Two of the split Three Musketeers, with a tower troop — the Boy tanks while tower and Girls burn them down.
+- Air troops in general — the Rascal Girls target air like Archers, and 2-shot Minions (better than Archers do).
+- An undefended Crown Tower — left alone the trio can deal massive damage or destroy it outright, whatever tower troop is used.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- The Log, Arrows and Royal Delivery — each one-shots the Rascal Girls, removing most of the card's damage.
+- Barbarian Barrel — cripples the Girls and the Barbarian finishes them and the Boy with Crown Tower help, for a positive Elixir trade (less reliable when support troops are around).
+- Poison — three-shots the Rascal Girls and does notable damage to the Boy; their 5 Elixir cost makes them a good Poison target.
+- Fireball — one-shots the Girls, damages the Boy, and its knockback can even make the Boy retarget.
+- Lightning and Rocket — leave the Boy alive but too weak to matter, though both are negative Elixir trades.
+- Valkyrie — one spin kills both Girls, then she finishes the Boy and counterpushes with most of her health.
+- Executioner and Bowler — splash all 3 Rascals and survive to counterpush.
+- Mega Knight — his spawn damage instantly kills the Girls and he then kills the Boy with almost no health lost.
+- Area damage generally, including Golem/Balloon death damage and the Electro Giant's Zap Pack, which wipe the fragile Girls.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 5 Elixir mini-tank-plus-ranged-support package, playable like a Knight and Archers combo for 1 less Elixir — more fragile but harder-hitting "Archers" and a weaker but bulkier "Knight".
+- Always kill the Rascal Girls first: they deal more damage per second than the Rascal Boy.
+- Like Archers, they can be split by placing them in the middle of the Arena — one Rascal Girl peels off to the other lane and gets a hit on the Crown Tower.
+- A lone split Rascal Girl is worth backing with a cheap tank like Ice Golem, Elixir Golem, Knight or Miner to force a response.
+- Keep the Rascal Boy separated from the Girls so area damage cannot hit all three — e.g. deploy a large tank such as the Electro Giant between them, or place the Rascals slightly earlier on defense so the Boy walks ahead.
+- When defending a Golem, Balloon or Electro Giant, place the Rascals off the enemy's path so the Girls avoid death damage and the Zap Pack.
+- They are weak to a wide range of spells, so pair them with other spell-vulnerable cards to spread the opponent's spells thin.
+- Goblin Barrel synergy: after a spell clears the Girls, the Boy survives with most of his health and tanks for the Goblins.
+- Skeleton Barrel synergy: both bait spells, and their different ranges force the opponent to spell one swarm while the Boy protects the other.
+- Pair with X-Bow or Mortar — the Boy meat-shields the building while the Girls cover the air targets it cannot hit.
+- Pair with Balloon — the Boy tanks and the Girls handle air defenders, two-shotting the Minions usually sent at the Balloon.
+- Dark Prince synergy: he adds splash to improve their swarm matchup and his charge pushes the Rascal Boy toward the target faster.
+- On defense you can angle the placement so a Bowler or Executioner locks onto the Rascal Boy, letting the Girls survive and damage them.
+- Modifier "Just a Giggle of Girls" (Common) adds 2 more ranged Rascal Girls; "Gorgeous Groupies" (Rare) replaces the Boy with a Giant; "Callin' in the Bosses" (Epic) replaces the Boy with Boss Bandit and the Girls with Magic Archers.
 
 ## Source
 

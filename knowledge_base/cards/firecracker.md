@@ -67,15 +67,47 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Air swarms — her piercing shrapnel clears them, which is why she pairs with Balloon.
+- Ground melee pushers she can kite with her recoil — Mini P.E.K.K.A., Lumberjack and Prince (place her on the 4th tile from the bridge, staggered slightly into the other lane).
+- P.E.K.K.A. and Giant Skeleton — 5th tile from the bridge, 3rd tile horizontally from the Crown Tower; the P.E.K.K.A. may even activate your King Tower.
+- Battle Healer and Mega Knight — 6th tile from the bridge, 3rd tile horizontally from the Crown Tower.
+- Elite Barbarians — considerable damage from near the middle of the board; with an Ice Spirit or Skeletons to finish them it is a +2 Elixir trade.
+- Wall Breakers — placed right in front of them the instant they deploy at the bridge (place her at range and the rocket is outrun, letting both connect).
+- Goblin Barrel — best placed when the barrel's shadow is 4 tiles from the river, angled so she hits the bottom Goblin and the shrapnel catches the outer one.
+- Shielded units like Dark Prince — each shrapnel is a separate hit, so 4 pieces break the shield and the 5th damages him, wasting very little damage.
+- Supported tank pushes — placed right in front of the tank, Executioner-style, her area damage heavily damages the back-end support.
+- Mortar or X-Bow staggered 1 tile from the bridge — she hits the building, the Crown Tower and any support troops at once.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Arrows and Royal Delivery — she has exactly one Archer's hitpoints, so anything that one-shots an Archer one-shots her.
+- Cannoneer tower troop — one-shots her before she even gets an attack off.
+- Tanked Graveyard — her slow attack time and shrapnel that does not one-shot Skeletons make her a poor answer.
+- Fast troops deployed to bait her shot — Spirit cards and other quick units dodge her attack entirely while the Crown Tower chips her low hitpoints down.
+- Monk with his ability active — reflected projectiles make her damage her own Crown Tower.
+- Bandit — a 6-tile/2-tile placement makes her dodge the dash so the Bandit only lands one Tower hit, but the Firecracker still dies in the process.
+- Any tanky unit placed on a Miner tanking for her, plus a distraction that turns her to a different angle, breaks the Miner + Firecracker tactic.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a defensive powerhouse, not an offensive card — deploying her on offense makes King Tower activation too easy for the opponent.
+- Her attack splits into 5 shrapnel that pierce straight through enemies (like Magic Archer's arrow, Bowler's boulder, Evolved Bomber's bomb and Executioner's axe); targets nearer the impact point get hit by more pieces and take more damage.
+- The firework impact itself deals no damage — all 5 shrapnel simply spawn clumped together, which is why shielded units waste little of her damage.
+- She recoils 1 tile backwards after every shot; repeated recoil can push her into the other lane, but it also lets her kite grounded troops and, with Crown Tower help, fully counter some of them as they cross the bridge.
+- King Tower activation risk: a card played 4 tiles in front of the King Tower and 2 tiles from the Crown Tower makes her shrapnel activate the King Tower with most units; a standard 4-2 building deployment does the same.
+- Spawner buildings are less reliable for that activation trick, since she may lock onto the spawned troops first.
+- Avoid her in decks that suffer badly against an activated King Tower, such as Graveyard or Goblin Barrel decks.
+- Alone she connects to the Tower Princess, Dagger Duchess and Royal Chef and lands all 5 shrapnel for notable chip damage — heavy decks may simply ignore her.
+- Chip trick: angle her at another unit so the shrapnel carries into the tower, Magic Archer style; the closer that unit is to the Crown Tower, the more shrapnel land on it.
+- Against a Bowler inside the Arena, place her 5 tiles from the bridge and 2 horizontally from the Crown Tower — his second attack after chasing her recoil activates your King Tower.
+- Pairs with Balloon: she clears air swarms while the Balloon tanks the Tower, though the pair offers big spell value.
+- Miner behind the Crown Tower after she defends is a good follow-up — the Miner tanks and her shrapnel splashes onto swarms sent at him; it is predictable, though.
+- Stacking multiple Firecrackers controls the Arena (they protect each other from swarms), but keep them far apart to deny spell value.
+- Spelling her down is unreliable — her speed and recoil, plus any other unit she might target, can make spells miss.
+- Sniping her with a Miner needs careful timing, since her pushback makes the Miner walk extra distance under Tower fire.
+- Do not put an Elixir Collector behind your Crown Towers against her — a leftover Firecracker chips the Tower and denies Collector Elixir.
+- Reflected Monk projectiles can be used deliberately to activate your own King Tower, at the likely cost of the Firecracker.
+- In 2v2, a Firecracker locked onto a Crown Tower also hits the King's Tower, so soaking one hit can be cheaper than a distraction — and it makes her questionable in 2v2 decks since a King activation cripples later pushes.
 
 ## Evolution
 

@@ -67,15 +67,33 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Melee ground troops in general — placed behind or beside the Crown Towers it defends against them cheaply.
+- Barbarians, Royal Recruits, Dark Prince, Skeleton Army, Goblin Gang and Hog Rider — all can be taken down for an Elixir advantage when the Cannon is placed in the centre of the player's side.
+- Dangerous single high-damage troops — Prince, Elite Barbarians, P.E.K.K.A, Mega Knight, Royal Giant, Sparky, Giant Skeleton, Golem and Balloon can be pulled and distracted for only 3 Elixir.
+- Tanks generally — its best use; a well-placed Cannon drags them the maximum distance away from the Tower.
+- Building-targeting troops — it aggros them off the Crown Tower, including after they cross the bridge if they have travelled no more than 2 tiles from it.
+- Air troops as a stall — although it cannot shoot them, its 3 Elixir cost makes it a cheap distraction that buys the Tower time.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- All air troops — the Cannon cannot attack air at all.
+- Ranged air attackers — Flying Machine, Skeleton Dragons, Electro Dragon, Inferno Dragon and Baby Dragon can destroy it fairly safely.
+- Minions, Bats, Phoenix and Mega Minion — free to kill a Cannon placed outside the Crown Towers' range.
+- Long-range ground units — Magic Archer, Dart Goblin, Princess, Evolved Archers, Furnace and Musketeer can outrange it and destroy it, then hit the Tower, for both an Elixir and damage advantage, if it is played proactively.
+- Edge jumps from Hog Rider, Royal Hogs, Prince, Dark Prince or Ram Rider — beat the standard building placement unless the Cannon is moved 1 tile closer to the Tower.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 3 Elixir defensive building, 30 second lifetime, 5.5 range, single-target ground only.
+- Do not play it proactively — react instead, or place it while the enemy ranged troop is already inside the Cannon's range so it cannot be outranged.
+- Keep it inside the Crown Towers' radius so enemy air troops cannot pick it off unpunished.
+- Standard anti-tank placement: 4 tiles from the river and 2 tiles from the Crown Tower for maximum pull distance.
+- Against building-targeting troops (except Battle Ram): 4 tiles from the river and 3 tiles from the Crown Tower.
+- Against edge jumps (Hog Rider, Royal Hogs, Prince, Dark Prince, Ram Rider): 4 tiles from the river and 2 tiles from the Crown Tower.
+- Balloon placements: on the very edge, 4 from river / 1 from Tower; on the very edge in front, 3 from river / 2 from Tower; right on the path, the usual 4 from river / 3 from Tower.
+- Lava Hound placements differ: on the very edge, 3 from river / 1 from Tower; on the path, 4 from river / 2 from Tower.
+- These placement rules apply to all buildings — the Tesla's smaller footprint does not change them.
+- Defensive combos: Cannon plus Mini P.E.K.K.A., Lumberjack, Mighty Miner, Monk, Night Witch, Hunter or Inferno Dragon shreds high-hitpoint troops while the Cannon holds their attention.
 
 ## Evolution
 

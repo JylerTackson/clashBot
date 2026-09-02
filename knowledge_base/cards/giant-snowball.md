@@ -77,15 +77,43 @@ Instead of a Giant Snowball, 5 Evolved Giant Snowballs are launched.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Low-hitpoint troops generally - it is an effective finisher for anything frail.
+- Lone center-placed Goblin Barrel - a correctly placed Snowball fully counters it (hover over the Crown Tower and release when the Barrel's shadow is 0-2 tiles above it).
+- Frail lone support troops such as Musketeer or Wizard - it mitigates most or all of their stray tower damage for a positive Elixir trade.
+- Ram Rider - timed so the knockback lands just as her charge is about to connect, it resets the charge and cuts tower damage.
+- Offensive Dart Goblin - fully countered when timed and placed properly.
+- Evolved Wall Breakers - fully countered with the help of a Dart Goblin (a -2 trade, but the Dart Goblin counterattacks for chip damage).
+- Inferno Dragon - the knockback resets its ramp-up attack.
+- Battle Ram and Evolved Royal Recruits - their charges are reset by the knockback.
+- Slow heavy pushes - Balloon, Giant, Sparky, Elixir Golem, P.E.K.K.A, Giant Skeleton, Electro Giant, Valkyrie, Skeleton King, Mighty Miner, Battle Healer and Golem all struggle to connect when slowed (especially alongside a Ram Rider snare).
+- Hog Rider - the knockback can shove it off your Crown Tower and onto a Cannon, Tesla, X-Bow, Bomb Tower or Mortar.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Cards whose charge-up needs a true stun - it will NOT reset an Inferno Tower, Mighty Miner, Prince, Dark Prince, Mega Knight or Sparky.
+- The heaviest troops, which are not knocked back at all (only small and medium units get pushed).
+- Anything needing burst damage - its damage is low, so it only finishes low-hitpoint units.
+- Targets it must travel to - it has travel time, unlike the instantly deploying Zap.
+- Situations where knockback hurts you - it can prevent your Skeleton Army or Goblin Gang from surrounding Goblin Barrel Goblins, letting them connect to your tower instead.
+- Poorly judged casts near your own Crown Tower - a Snowball on a badly placed Miner or Goblin Barrel can activate your King Tower (the Miner case only if the opponent placed him on the King-side corner of the Crown Tower).
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 2 Elixir utility/disruption spell - a cheap, versatile disrupter that slows enemies 30% for 3 seconds, knocks back small and medium troops, and finishes low-hitpoint units.
+- Its knockback is the same as Fireball's: a true stun that resets the attack animations of small to medium troops, unlike Zap's stun which only stalls animations without resetting them.
+- Time it to land right as an enemy support troop is about to attack, to cut the damage taken as much as possible.
+- Since it can be deployed anywhere and travels fairly fast, it can shove a troop near the center of the Arena into the other lane, disrupting the opponent's plans.
+- Use the knockback to reposition enemies into your favor - e.g. push a Hog Rider off the tower and into range of a defensive building.
+- Works on offense too: it kills low-hitpoint defenders and knocks back plus slows the rest so your push keeps moving.
+- Ram Rider synergy: on offense, the Snowball knocks defenders away while the Ram Rider snares them, leaving them nearly immobile and weakened enough for her snare attack to finish; on defense, snare plus knockback plus slow makes it very hard for slow tanks to connect.
+- P.E.K.K.A. synergy: Snowball an Ice Golem further away so the P.E.K.K.A. is not kited to the other lane - this needs precise timing and some prediction.
+- Compared to Zap: Snowball gives large knockback and a long slow, while Zap gives instant damage, slightly more damage and a stun that resets charges - but Zap cannot fully counter a Goblin Barrel. A prediction Snowball on offense is often better than a prediction Zap, since its travel time matters little there.
+- Compared to Rage: Rage applies its damage faster on offense, deals slightly more damage and boosts allied attack/movement speed, but cannot fully counter a Goblin Barrel. Snowball is usually the better defensive spell and Rage the better offensive one.
+- It is better than Zap at keeping troops inside a Poison, thanks to the knockback and slow.
+- Awkward with Fireball: knockback from either spell can make the other miss because of the circular area of effect. Hold both in hand and cast them well apart in time.
+- Modifier - Common: Practically Glacial, "+300% slow duration", raising the slow to 12 seconds total.
+- Modifier - Rare: Get Outta Here!, "+300% knockback", raising pushback range to 6 tiles total.
+- Modifier - Epic: Snowball Fight!, launches 5 Evolved Giant Snowballs instead of one Giant Snowball.
 
 ## Evolution
 

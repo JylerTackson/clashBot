@@ -75,15 +75,40 @@ Dart Goblin's attacks deal area damage, identically to a Sparky.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Small swarms — his 0.8 sec hit speed clears them quickly.
+- Graveyard — with a Tower Princess or Dagger Duchess he counters it (he cannot survive or clear it alone).
+- Spawner buildings, especially the Furnace — placed 4 tiles from the river he snipes it and 2-shots the spawned Fire Spirit.
+- Bomb Tower, Inferno Tower and Cannon — his 6.5 tile range outranges them, letting him kill any building placed 4 tiles or fewer from the river from his own side.
+- Tanks such as Giant, Royal Giant, Lava Hound and Golem — fast attack speed makes him excellent chip damage against them.
+- Balloon — he kills one at the bridge by himself (the death bomb still lands); with another air defender he handles a raged Balloon, and he is indispensable against Lava Hound.
+- Medium-range troops like Wizard, Executioner, Bomber, Sparky, Hunter and Bowler — placed by the river 2 tiles into the opposite lane he shoots them from about 7 tiles, outside their 5.5 tile sight range.
+- Ram Rider — same trick: he attacks her continuously without her ever fighting back.
+- Melee units generally — his very long range pulls them toward the middle of your side while he chips them on approach.
+- Crown Towers on low health — his range and Very Fast (120) speed let him run in and finish them; even under Tower fire he lands 2 shots (4 at full health).
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- The Log and Barbarian Barrel — kill him for a positive Elixir trade thanks to his very low hitpoints.
+- Arrows — a neutral Elixir trade that removes him instantly.
+- Zap — enough to threaten him and his cheap support pairings.
+- Royal Ghost — his invisibility negates the range advantage entirely, and he one-shots an equal-level Dart Goblin for a neutral trade while taking no damage.
+- Skeletons — 2 Elixir cheaper, they distract and completely deny him, though it takes timing.
+- Cannoneer and Dagger Duchess tower troops — they kill him before he lands more than one shot, so heavy decks can usually ignore him.
+- Tesla — it cannot be outranged because it is only vulnerable while popped up to attack.
+- Moderate-damage troops in general — a few shots defeat him, so he must be protected.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Cheap ranged support at 3 Elixir: 6.5 range, 0.8 sec hit speed, 0.35 sec first hit speed, Very Fast (120), hits Air & Ground, but only 420 hitpoints even at level 16.
+- Best used behind a tank — Knight, Valkyrie, Golden Knight, Skeleton King, Prince, Battle Healer, Mighty Miner, Executioner, Dark Prince, Mini P.E.K.K.A, Bowler, Monk, Lumberjack, Goblin Machine or Ice Golem — where his fast hit speed and high DPS can quickly take a Crown Tower.
+- Pair him with any distraction card, even Skeletons, to counter Elite Barbarians, Mini P.E.K.K.A., Mega Minion, Inferno Dragon, Mighty Miner and Prince; with Guards he can stop a P.E.K.K.A., Boss Bandit or Giant Skeleton.
+- With a cheap unit like Ice Spirit he deals real Crown Tower damage or forms a quick defensive combo — the Ice Spirit is also what prevents a Balloon's death damage from landing.
+- With a second air defender (Electro Wizard, Hunter, Archer Queen, Zappies, Little Prince or Musketeer) he fully handles a raged Balloon.
+- Because he draws The Log and Arrows, he fits spell-bait decks — and conversely, think twice before spending those spells on him against a bait deck.
+- Tesla trick: if a Tesla sits 4 tiles from the river and 2 tiles from the Crown Tower, place him at the very edge of the bridge and he ignores it and targets the Crown Tower instead.
+- Placing him at the bridge from your starting hand is strong early chip damage — his range and speed make him hard to react to, and even a fast answer scouts the opponent's deck.
+- He works as a distraction card, but it is an expensive way to use him; his main value is cheap, effective air defense.
+- Party modifiers: Speedy Goblinez (+100% attack speed, 0.4 sec), Call Him Darcher (piercing darts like a Magic Archer), Shocking Gum (area damage darts like a Sparky).
 
 ## Evolution
 

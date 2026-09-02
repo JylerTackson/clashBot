@@ -67,15 +67,49 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ground-attacking troops — Knight, Valkyrie, Mini P.E.K.K.A and Bowler die to the Bats' high DPS if no spell or splash unit answers them.
+- Air-targeting support troops — Executioner, Musketeer, Electro Wizard and Hunter can be fully countered by dropping the Bats on top of them as they enter tower range (surround the splash ones so more Bats survive).
+- Melee air-targeting troops such as Mega Minion and Phoenix — the Bats can pull them for a positive Elixir trade.
+- Graveyard — countering it with Bats is a 3 Elixir profit.
+- Big building-targeting tanks — Giant and Royal Giant are countered for a positive Elixir trade, allowing few or no hits on the Tower Princess.
+- Lava Hound — no death damage, so the Bats stop a lone Hound and then distract the Lava Pups (bring another cheap swarm, as Pups OHKO Bats).
+- Elixir Golem — his lower hitpoints and split into smaller troops suit the Bats, which can spread their damage over the Elixir Blobs.
+- Balloon — a very effective counter, though some bomb chip damage gets through.
+- A Cannoneer tower — he attacks very slowly, so attacking Bats should never be ignored when playing him.
+- Monk — the Bats are resistant to his ability.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Zap — kills them for a neutral Elixir trade; Giant Snowball does slightly less damage but still wipes them.
+- Arrows and Tornado — one-shot them, but only worth it as a negative trade when the Bats are backed by another card.
+- Rage — used alongside an attacking unit it destroys the Bats for a neutral trade.
+- Void — kills the whole quintet in 2 hits for a slight negative Elixir trade.
+- Any Spirit — an immediate kill and a positive Elixir trade; the Electro Spirit is best since it beats them in any formation.
+- Ice Golem — a reliable neutral trade: its death damage wipes the Bats.
+- Barbarian Barrel — neither the barrel nor the Barbarian can hit them, but the Barbarian distracts them long enough for the Tower Princess to finish them.
+- Single-hit air-targeting killers — Witch, Dart Goblin, Firecracker, Spear Goblins and the Tower Princess OHKO them.
+- Dagger Duchess — destroys all 5 Bats regardless of formation, though it costs her 5 daggers and leaves her weaker to a follow-up.
+- Golem — his death damage kills the Bats, so they cannot fully counter him even though they damage him heavily.
+- Lava Pups — they OHKO Bats.
+- Freeze — dangerous when Bats are used against a Graveyard.
+- Splash units generally, since the Bats have very low hitpoints.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 2 Elixir air swarm — cheap defensive filler and cycle card that also serves as spell bait.
+- They act like faster, aerial Skeletons, but cannot pull ground-only troops; they can still pull melee air-targeting troops.
+- The lone 5 Bats are usually picked off by a Tower Princess before connecting, though a flat formation sometimes lets one hit through — the chip is not guaranteed.
+- They can replace Minions: more units, less Elixir and resistance to the Monk's ability, but much lower hitpoints, slightly lower damage and far less offensive threat.
+- Good spell bait, especially in Skeleton King decks, since the large number of Bats charges his ability bar faster than other swarms.
+- Very Fast speed pairs them with fast attackers such as Hog Rider and Royal Hogs; they catch up easily and punish a Fisherman pull meant to activate the King Tower. With Royal Hogs both cards can be split to attack both lanes.
+- Indirect synergy with Balloon decks: the Balloon drags out the opponent's air answers, leaving the skies clear for Bats.
+- Balloon placement trick: place the Balloon on the outer edge as far forward as possible, wait exactly one second, then drop the Bats on the bridge staggered one tile toward it — the spawn push moves the Balloon outward past buildings placed one tile from the Crown Tower and four from the bridge, and speeds up its connection.
+- Miner + leftover Bats after a defense is a strong surprise attack; place the Miner behind the Crown Tower so one spell cannot hit both.
+- Alternatively send the Miner on the inner tiles to distract both Crown Towers while the Bats split down the middle — but not against a Tornado deck, which kills the Bats and activates the King Tower.
+- Skeletons + Bats stops a lone Sparky (Skeletons surround and stall, Bats damage her down) and works against most ground troops; avoid it when the opponent holds Arrows, Giant Snowball or Zap.
+- Skeletons and Bats also work separately, each baiting spells so the other can survive.
+- Bats make an excellent distraction for tanks — placed like an Electro Wizard against a high-placed Inferno Tower or Tesla, they stall while your Golem or Giant destroys the building; a small spell or a deeper building placement beats this.
+- The same trick supports Giant Skeleton or Mega Knight pushes: once the opponent's small spell is spent, Bats break through Valkyrie, Mighty Miner and P.E.K.K.A., hit air and distract Inferno Dragon and Inferno Tower.
 
 ## Evolution
 

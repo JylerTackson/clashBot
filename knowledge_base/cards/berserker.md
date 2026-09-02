@@ -77,15 +77,27 @@ Berserker heals herself when she attacks.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Small ground swarms — her very fast hit speed shreds them, especially with Tower Princess support, for only 2 Elixir.
+- Medium-sized ground units, which her moderate hitpoints let her trade with while hitting rapidly.
+- Unsupported Goblin Drill — placed so she tanks the first spawned Goblin and then the death-spawn Goblins, she fully counters it for a +2 Elixir trade.
+- Swarms placed around a Rune Giant, which she clears while the Giant tanks.
+- Spells — she is noted as spell-resistant, so cheap removal is a poor answer to her.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops — she is ground-targeting only (Target: Ground) and cannot hit them at all.
+- High-hitpoint troops when she is unsupported, since her damage per hit is low despite the fast attack rate.
+- Any situation where she is used alone: the source stresses she must be supported to be effective.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 2 Elixir fast melee support troop, meant to accompany tanks rather than lead a push.
+- Her profile is moderate hitpoints, high hit speed and low damage, so she scales with anything that keeps her alive or multiplies her hits.
+- Excellent with the Rune Giant: her fast attack speed and average hitpoints make her gain a lot of bonus damage, and she clears the swarms that gather around the Giant while still hurting bigger troops.
+- Berserker + Ice Spirit is a 3 Elixir defensive combo — the Ice Spirit distracts and freezes a target, letting her land 3-5 extra hits.
+- Good general defensive pairing with the Crown Tower against weak ground swarms thanks to her low cost and attack rate.
+- Modifier note (from her card's modifiers): +200% hit speed brings her to a 0.2 second attack, a Bandit-style charge attack, or healing on each attack.
+- Her Hero variant, Savage Survival, costs 3 more Elixir and makes her faster and undestroyable for a short burst.
 
 ## Hero variant
 

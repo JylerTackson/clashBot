@@ -62,15 +62,41 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Single-target ground troops — P.E.K.K.A., Mighty Miner, Prince, Lumberjack, Mini P.E.K.K.A., Elite Barbarians, Knight, Golden Knight, Monk and Boss Bandit are melted by 15 Skeletons' combined DPS.
+- Building-targeting troops — Hog Rider, Miner, Goblin Giant, Giant Skeleton, Ram Rider, Battle Ram, Wall Breakers, Elixir Golem, Rune Giant, Royal Giant and Giant.
+- Siege buildings and most pushes, simply by blocking them with sheer numbers.
+- Air troops indirectly — they cannot hit air, but they stall and pull Inferno Dragon, Phoenix, Electro Dragon, Flying Machine and Mega Minion away from the Tower so the Tower Princess can finish them.
+- Directional area damage troops — Wizard, Witch, Princess, Ice Wizard and Bomber, if the Army is dropped directly on top to surround them and a Crown Tower helps chip the target.
+- Goblin Barrel — played behind the Crown Tower it covers every position except the front tiles, negating the damage when you have no spell.
+- Goblin Drill and Skeleton Barrel Skeletons — deploy after the Drill surfaces or the barrel pops, otherwise the spawn damage one-shots most Skeletons.
+- Electro Giant — a last-resort answer: the Army will all die but leaves him meaningfully weakened.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Splash damage of any kind — most area damage units wipe the entire swarm without losing health.
+- Cheap spells — low-cost spells clear the Army quickly and efficiently, including Arrows against an offensive Army.
+- Barbarian Barrel — a positive Elixir trade that can also force a response, and played at the river the Barbarian gets a hit on an unattended Tower Princess; Royal Delivery works similarly.
+- Poison and Fireball — negative Elixir trades but effective counters, worth it when they also hit other troops.
+- Cheap ranged swarms — Archers and Spear Goblins kill each Skeleton from a safe distance and, with the Tower Princess, survive for a small counterattack.
+- Cheap air swarms — Minions and Bats, since the Army cannot target air at all.
+- Air splash — Baby Dragon and Skeleton Dragons.
+- Ice Golem — his death damage wipes the whole Army at equal level for a positive Elixir trade.
+- Goblin Curse — a serious threat, producing 60 goblins for 2 Elixir.
+- Enemy Skeleton King — playing the Army into him fully charges his ability for a devastating push.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 3 Elixir defensive swarm — 15 Skeletons in scatter formation with very high combined DPS but 1-hit-kill hitpoints; best used on defense with caution.
+- Its low cost makes it versatile and usually an Elixir advantage in almost any matchup.
+- Poor pairing with other melee troops — they take up space and reduce how many Skeletons can actually reach the target; allied ranged troops have no such problem.
+- Witch works well with it, spawning extra Skeletons, but the stacked swarm invites a spell that may also kill the Witch for an Elixir loss.
+- Not recommended offensively, since Arrows wipe it — but if the opponent's cheap spell is out of rotation it can force inefficient answers, and locked onto a Crown Tower it deals extreme or lethal damage.
+- Play it in the centre or behind the King Tower to cover both lanes; that often deters an attack entirely, since one spell only catches half the swarm.
+- Spell bait: it can draw out an area damage spell so other high-DPS swarms like Goblin Gang can work safely, though a wider range of spells fully counters it, making it a less reliable bait for a specific spell like The Log.
+- Barbarians, Royal Recruits and Minion Horde are tankier swarm substitutes; they cost more and are more committal, but that also tempts the opponent into a Fireball, freeing your other spell-vulnerable cards.
+- Rage on the Army makes it a huge threat given its Fast speed and high DPS; Mirror or Clone give a big numbers advantage — all of these are risky, as one splash unit or spell wipes it for a positive trade.
+- Freeze plus Skeleton Army destroys ground troops that would otherwise obliterate it — Valkyrie, Mega Knight, Dark Prince, Electro Giant — but the combo is volatile against spells.
+- With a friendly Skeleton King alive, deliberately feeding the Army fully charges his ability for a threatening push; conversely never play it while an enemy Skeleton King is alive.
 
 ## Evolution
 

@@ -75,15 +75,29 @@ The Hero Knight has a special ability accessible from whatever side of the scree
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Spells of all kinds — his shield absorbs an equal-level Fireball and he survives any lone spell including Rocket; multi-hit spells like Poison and Void are also ineffective (Poison cannot even break the shield).
+- Goblin Barrel — Triumphant Taunt pulls the Goblins away from the Crown Tower on defense.
+- Evolved Goblin Barrel — with good timing the taunt pulls away both barrels, for a slight negative Elixir trade.
+- P.E.K.K.A. and similar single big threats — the taunt forces her to retarget onto him while a Mini P.E.K.K.A., Prince, or Mighty Miner finishes her off.
+- Centrally placed defending buildings and ranged troops — the taunt drags their attention into his lane, letting a push in the other lane break through.
+- He otherwise defends against most of the same things the regular Knight does (high hitpoints, moderate single-target ground damage for 3 Elixir).
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Barbarian Barrel and Royal Delivery — slightly more effective than other spells because the spawned Barbarian or Royal Recruit keeps attacking him, though neither can kill him unless he is also distracted by something else.
+- Ranged troops — unlike the Evolution, he has no damage reduction while not attacking, so he defends noticeably worse against ranged attackers.
+- Air troops — he is ground-targeting only, so he cannot hit them at all.
+- Anything that simply out-damages him after the 5-second shield and taunt expire: once the shield breaks or the duration ends, taunted units keep attacking him until he dies.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 3-Elixir mini-tank with an on-demand taunt; for Elixir-trade purposes count him and an activated ability as 5 Elixir (3 to play + 2 to activate).
+- Triumphant Taunt has a 1-second delay (0.933 sec cast time), then forces every enemy troop and building within 7.5 tiles to attack him; both the shield and the taunt last 5 seconds, and taunted units keep targeting him afterwards until he is defeated.
+- Strong in Goblin Barrel decks: the taunt makes the tower troop refocus onto him so the Goblins get large chip damage, provided the opponent has no spell answer.
+- Great with cards that badly need a tank, such as Graveyard and Skeleton Army (preferably the Evolution). With Graveyard the timing is forgiving — playing him within the same few-second window is enough.
+- With Evolved Skeleton Army he can be placed anywhere on the opponent's side; hold the ability until the General is close to dying. Put him at the front so he absorbs damage even without the ability, and after taking the first tower, activate when the range covers both the King Tower and the remaining Crown Tower.
+- Pairs with Mini P.E.K.K.A., Prince, or Mighty Miner to lock down and kill big single targets via the retarget.
+- Offensive use in the opposite lane: drop him and activate once the defenders are in range to yank them off your main push.
 
 ## Source
 

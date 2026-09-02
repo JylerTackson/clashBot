@@ -78,15 +78,36 @@ Behaves as an Evolved Goblin Drill with several drills coming out at the same ti
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Charging troops — Battle Ram, Prince, Dark Prince, Ram Rider and Evolved Royal Recruits, whose charge is stopped by the resurface knockback; the Drill then absorbs their damage for an even or positive trade.
+- Building-targeting troops — Giant, Goblin Giant, Royal Giant, Hog Rider, Ram Rider, Ice Golem, Elixir Golem and Golem are pulled by its high hitpoints (best placed directly on top of them so the Goblins engage immediately).
+- Spawner buildings behind the enemy Crown Towers — the Goblins chew through them and force a response; especially good versus Furnace, since the Drill absorbs a Fire Spirit.
+- Sparky — it survives one shot at equal levels if sent directly at her, and the spawned Goblins finish her off.
+- Skeletons — the resurface spawn damage one-shots them.
+- Crown Towers — its unrestricted placement puts Goblins straight on the Tower, and two more spawn on its death to keep the damage going.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Poison — the only spell that fully answers it, lasting the Drill's whole lifetime, crippling the building and killing every Goblin for an even Elixir trade (expect minor chip anyway).
+- Splash troops and Goblin one-shotters — Bomber, Bowler, Executioner, Firecracker, Princess, Goblin Demolisher, Witch, Baby Dragon, Ice Wizard, Skeleton Dragons and Wizard are the most reliable counters.
+- Mini tanks — Knight, Valkyrie, Royal Ghost, Lumberjack, Golden Knight, Monk, Skeleton King and Dark Prince prevent most or all of the damage.
+- The Log, Barbarian Barrel and Arrows as soft counters, since their area hits both the Drill and the Goblins spawned on its death.
+- Royal Delivery, which can hit either the Drill or one-shot the Goblins, but not both.
+- Air swarms, which avoid both the resurface damage and the Goblins entirely and are the most reliable swarm answer.
+- Ground swarms dropped with precise timing right after the Drill resurfaces, so the spawn damage misses them.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir Epic building and offensive win condition, deployable anywhere in the Arena, 10-second lifetime, spawns a Goblin every 3 seconds (first at 0.8 seconds) and 2 more on death.
+- On resurfacing it deals 360-degree area damage plus knockback to nearby enemy units.
+- Goblins emerge at the top of the Drill for you and at the bottom for the opponent, so a Drill placed in front of a Crown Tower does more damage than one behind it — the Goblins walk less.
+- Its lifetime is extremely short, so as a tank for building-targeting troops it only pulls briefly; place it directly on top of them instead.
+- Its burrowing is 33% slower than the Miner's and has a different sound cue — use both to tell which card is being played and when it will surface.
+- Tornado combo: pull defenders like Valkyrie away and clear Skeleton Army or Goblin Gang just before the death spawn of 2 Goblins, similar to the Tornado + X-Bow technique — usually guarantees Tower damage unless the opponent has a spell or long-range troop.
+- Pair with Giant Snowball or Zap on offense: the Drill's spawn damage plus either spell one-shots swarms like the Goblin Gang.
+- Spells alone cannot fully counter it — cast early to cut its lifetime and catch spawning Goblins, or cast on its death; either way some damage gets through.
+- Earthquake is a poor answer: the Drill's very high decay rate wastes the spell's building damage multiplier; save it for swarms.
+- Single-target ranged units are generally ineffective against it — at range they let a lot of damage through, and placed on top of the Drill they die to the Goblins.
+- Has an Evolution (2 cycles) that adds the Whack-A-Drill submerge behavior; see the evolution page.
 
 ## Evolution
 

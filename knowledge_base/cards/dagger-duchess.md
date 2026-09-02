@@ -59,15 +59,44 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Small swarms and small pushes, which her burst of up to 8 fast daggers cleans up before they connect.
+- Fast-cycle decks generally — small pushes rarely drain her daggers, so she is at her best there and in decks that struggle against cycle.
+- Frail support troops — Little Prince, Magic Archer, Goblinstein, Ice Wizard, Fisherman, Evolved Firecracker, Witch, Electro Wizard, Berserker, Evolved Bomber, Electro Dragon, Mega Minion, Hunter, Evolved Dart Goblin, Musketeer, Wizard, Princess, Flying Machine, Skeleton Dragons and Evolved Archers die in roughly 8 daggers with little damage done to her.
+- Furnace — Fire Spirits die in 3 daggers each and she reloads between waves, so nothing connects.
+- Goblin Hut — Spear Goblins die in 2 daggers, so few connect per wave.
+- Hog Rider and Ram Rider, fully countered with well-placed Goblins or Guards for a +2 and +3 Elixir trade respectively.
+- Battle Ram and Evolved Battle Ram, which she cripples alone and kills with almost any help (at the cost of all her daggers).
+- Miner and Goblin Barrel attacks on your passive buildings or frail ranged cards — her quick unload means those attackers do very little damage.
+- Dual-lane pushes, which are weaker split up and easier for her to handle (less true once a Crown Tower is gone).
+- Evolved Goblin Barrel — the Decoy Goblins land only one hit on her, and even an ignored regular-Goblin side only hits three times.
+- Scouting attempts, which she usually kills or heavily cripples — an exception for outranging cards like Princess or high-hitpoint scouts.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- High-hitpoint troops — Giant, Golem, Lava Hound, Giant Skeleton, Mega Knight, Goblin Giant, Electro Giant and P.E.K.K.A. outlast her 8 daggers and then face her much lower reload DPS.
+- Very large pushes, which drain the dagger bar and leave her nearly defenseless.
+- Lava Hound decks — they keep pushing her into dagger cooldown and each Lava Pup takes three daggers.
+- Wall Breakers — unlike the Cannoneer she cannot fully stop them; one connects for good damage (an ignored Evolved Wall Breakers set lands one Wall Breaker and one Runner).
+- Evolved Knight, whose damage reduction while moving nullifies her daggers and forces the cooldown without him taking much damage.
+- Bandit, who is invisible and immune during her dash, soaking daggers and then attacking during the cooldown.
+- X-Bow and Mortar, which outrange her and need fewer attacks because of her lower hitpoints than the Tower Princess.
+- Magic Archer, Firecracker, Bowler and Evolved Bomber lined up with an incoming troop, chipping her while damaging the troop.
+- Repeated same-lane rushes in Double Elixir and Overtime, which never let her reload.
+- High-hitpoint scouting cards — Prince, Mini P.E.K.K.A., Dark Prince, Hog Rider, Elite Barbarians, Ram Rider, Baby Dragon and Lumberjack survive her burst.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: burst-damage Tower Troop, 7.5-tile range, 0.5-second hit speed, single target, air and ground; holds 8 daggers charged at 0.9 seconds each and reloads one at a time afterwards.
+- Her key number: a full 8-dagger burst kills any unit up to about Fisherman hitpoints — use that to decide when to let her tank and when to drop a defender.
+- Kiting into the other lane (Ice Golem, Ram Rider, Goblin Giant) is especially strong, since the second Duchess usually has a full dagger bar and both Towers fire, while the original lane reloads for the next push.
+- Deploy tanks or mini tanks aggressively at the bridge to stop enemy tanks from crossing and burning her ammunition, saving it for a higher-priority target like a Hog Rider; even a dead tank buys the time.
+- She is good at protecting Elixir Collector and spawner buildings, letting them get full value out of their deployment.
+- Against a Bandit, place distractions close enough that she cannot dash through and absorb daggers for free.
+- Battle Ram note: killing it uses all her daggers, so the spawned Barbarians can do significant damage during the cooldown if ignored.
+- In Double Elixir and Overtime, bring strong defensive cards and avoid falling behind on Tower damage, because the extra Elixir lets opponents re-rush the same lane before she can reload.
+- Time the Monk's ability so his reflect does not land during her dagger cooldown — hitting her while she is firing does more damage.
+- Do not scout against her the way you would against other Tower Troops; use outranging or high-hitpoint cards if you must.
+- Compared to Cannoneer she has faster but lower-damage output and lower hitpoints than the Tower Princess.
 
 ## Source
 

@@ -72,15 +72,42 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Mega Knight — she has the hitpoints to survive multiple hits while he does comparatively little damage; with any tower troop she stops him for a +3 Elixir trade.
+- Dagger Duchess — left alone she destroys the Duchess by herself and still has hitpoints left for chip damage on the King Tower.
+- Tower Princess — ignored, her healing and high hitpoints let her take out slightly over half a Tower Princess's health.
+- Ice Golem — he cannot attack units, so he cannot counter her at all.
+- Defensive buildings across the river — she hovers over the river and can snipe a Bomb Tower, X-Bow, Cannon or Tesla (slowly, given her low damage).
+- Spells landing on your own troops — her spawn heal negates damage up to a Barbarian Barrel, restoring anything that survives it or a weaker spell to full.
+- Enemy pushes when several Battle Healers are stacked — constant mutual healing lets them break through even a P.E.K.K.A, Sparky or Three Musketeers without losses.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops such as Minions or Bats — she cannot attack air at all and they out-damage her healing (watch for the opponent's Zap or Arrows on them).
+- Mini tanks — they out-damage her healing effect and survive with most of their health for a counterpush.
+- Swarms — her 2 sec hit speed and low damage per hit let them overwhelm her.
+- Almost any defensive building — luring her to the center puts her under both Crown Towers, negating most of her healing; Tombstone is also a positive Elixir trade.
+- Cannoneer — the most effective tower troop against her, losing only a third of his hitpoints thanks to his high damage.
+- Ice Wizard — his slow cuts her attack rate and therefore her healing.
+- Stun cards — Zappies, Electro Dragon, Electro Wizard, Goblinstein and Electro Giant interrupt her attacks and healing the same way.
+- Freeze — as a last resort it stops her attacking, which also stops her healing, though it is a heavy Elixir investment.
+- Ice Golem kiting in a big push — he can drag her and other support into the other lane, splitting them from the tank and exposing them to the second Crown Tower.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- 4 Elixir hovering mini tank: Melee: Long (1.6), 2 sec hit speed, 0.3 sec first hit speed, Medium (60) speed, targets ground only, but travels like an air unit and can cross the river.
+- Two heals: a spawn heal on deploy (2.5 tile radius, 4 pulses every 1 sec, 81 per pulse at level 16) and an active heal whenever she attacks (3 tile radius, 4 pulses at 0.25 sec intervals, 40 per pulse at level 16), both affecting friendly troops only.
+- Best placed at the front of a push because her area heal only fires while she is in combat; placing her behind a tank delays the aura but greatly extends how long she survives and heals.
+- On defense she works best with troops that survive most spells — Hunter, Wizard, Archer Queen, Witch — since her healing gradually erases the spell chip and sets up a counterpush.
+- Same logic offensively with Royal Hogs: a Fireball does not kill them, and she heals them back, forcing more Elixir out of the opponent. Avoid pairing her with cards a spell wipes outright, like Graveyard.
+- Great with Elixir Golem — it tanks for her, then she tanks for and heals the Golemites and Blobs, denying the opponent Elixir.
+- Good with Electro Giant, whose restored hitpoints let his Zap Pack punish more melee attackers.
+- Pairs well with any Champion, keeping them alive for extra ability uses; Archer Queen, Little Prince and Goblinstein additionally cover her against air.
+- Pairs with Phoenix, which covers air for her while she heals both — her healing even works on the Phoenix Egg, improving the revive chance.
+- Ice Wizard supports her by lowering enemy attack rate so she heals more safely; Rage lets her attack (and therefore heal) more often.
+- Mind her Medium speed when counterattacking with faster air units like Minion Horde — they will outpace her and lose the benefit of the aura.
+- Her river crossing pairs with a building-lured tank such as Giant, Hog Rider, Lava Hound or Golem, letting her chip the luring building.
+- Her damage is low for a mini tank, so only run her over one when you specifically want the healing; never in X-Bow or Mortar decks, since her healing does not affect buildings.
+- Her healing also affects allied troops in 2v2, which makes her a strong support pick in that mode.
 
 ## Source
 

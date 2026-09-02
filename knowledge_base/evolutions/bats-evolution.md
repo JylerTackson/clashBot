@@ -26,7 +26,11 @@ The Bats' Evolution is a Common card that is unlocked with 6 Evolution Shards. I
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Spawns the same 5 Bats but with 50% more hitpoints than the base card.
+- New ability, Life Leech: every attack heals them, in two healing pulses 0.5 seconds apart (2 pulses every 1 sec).
+- The healing overheals — their hitpoints can climb to double their initial value, so an evolved Bat at full overheal has roughly triple a normal Bat's health.
+- Costs the same 2 Elixir and requires 2 cycles to become active.
+- Practical effect: their starting hitpoints survive one hit from anything as strong as Minions, and once overhealed they survive Zap and Giant Snowball, which kill the base Bats.
 
 ## Evolution-specific stats/behavior
 
@@ -70,7 +74,21 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Do not ignore them when using the Tower Princess: she needs 2 hits per Bat, so several get attacks in and overheal, eventually dealing over half the Crown Tower's health for 2 Elixir. The Cannoneer has the same problem.
+- The Dagger Duchess can wipe all of them with 10 daggers, so she can usually ignore them.
+- Zap and Giant Snowball still counter them at base hitpoints, but once they have healed to full, Arrows or Evolved Zap is needed.
+- Drop them directly on troops no stronger than Minions; against anything stronger, distract the troop first.
+- Deploying them on lone ground-only troops such as the Knight or Valkyrie lets them heal to full, setting up a stronger defense or counterattack.
+- Best counters are fast-attacking or splash air-targeting ranged units — Firecracker, Princess, Magic Archer, Ice Wizard, Wizard, Executioner, Witch, Musketeer, Flying Machine, Hunter, Skeleton Dragons and Dart Goblin — because their range denies the overheal.
+- Air-hitting spawn damage such as the Electro Wizard's wipes them instantly before they overheal; the Mega Knight's and Ice Wizard's spawn damage cannot (too weak or ground-only).
+- Great with large tanks — Giant Skeleton, P.E.K.K.A, Golem, Lava Hound, Electro Giant, Mega Knight — which soak hits while the Bats clear defenders; building-targeting tanks also live longer with their help.
+- Great with the Miner: he distracts the Crown Tower while the Bats do the damage and keep their overheal active.
+- They make a better Inferno Tower distraction than base Bats during a Giant or Golem push, since the extra health makes each Bat take longer to burn.
+- A much better counter to the Skeleton Barrel than base Bats — they survive its death damage and still kill the Skeletons.
+- At maximum hitpoints they survive the Balloon's death damage.
+- Their high DPS plus their ability to live through the small spells usually paired with tanks makes them strong at bringing down P.E.K.K.A, Giant and Elixir Golem.
+- Rage synergizes strongly, letting them reach and hold overheal much faster; unanswered, the combo takes a Crown Tower.
+- With an Ice Spirit or Evolved Ice Spirit they mostly or fully counter a Goblin Giant — play the Ice Spirit first to tank for the Spear Goblins, otherwise one Bat dies during the 1-second deploy and DPS and counterpush potential drop.
 
 ## Source
 

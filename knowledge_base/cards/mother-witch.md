@@ -70,15 +70,40 @@ Curses a troop to spawn in another Mother Witch instead of a cursed Hog.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Swarm units in general — her fairly fast attack speed lets her kill and curse the whole group, turning defense into a huge Cursed Hog army.
+- Skeletons, Bats and Spear Goblins, which she one-shots, instantly creating Cursed Hogs.
+- Minions and Goblins, which take two shots (the Hogs may end up damaged since the swarm survives longer).
+- Graveyard — a perfect counter: she helps the tower clear Skeletons, curses many of them, and the Skeletons spawn too slowly to kill the resulting Cursed Hogs.
+- Goblin Giant, an exception to the sub-troop rule: both he and his 2 Spear Goblins can become Cursed Hogs.
+- Phoenix, another exception: both the deployed Phoenix and the one respawned from an egg can turn into Cursed Hogs.
+- Fragile support troops sent to kill your tank, since killing them just hands you Cursed Hogs on top of the existing push.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Mini-tanks she cannot damage fast enough: Knight, Mighty Miner, Lumberjack, Mini P.E.K.K.A, Monk, Executioner, Royal Ghost, Dark Prince, Prince, Golden Knight, Skeleton King and Valkyrie.
+- Tanks generally — it takes her far too long to get a single Cursed Hog out of them.
+- Fireball or Poison at equal level fully defeats her.
+- Bomb Tower — as a building it cannot be cursed, and its splash makes short work of Cursed Hogs; other buildings work similarly but fall off once many Hogs have accumulated.
+- Tanks and mini-tanks used as distractions, since unlike the Ram Rider she cannot switch her attack to another troop.
+- Large or bulky swarms dropped on top of her — Skeleton Army, Minion Horde, Royal Recruits or Barbarians prevent more damage than they give away, since the Cursed Hogs die quickly too.
+- Swarms deployed only after she has locked onto the Crown Tower, placed behind her so she does not retarget — this denies her curses entirely.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Her attack applies a 5 second curse; if the target dies within that window it becomes a Cursed Hog (Very Fast, building-targeting, moderate hitpoints, very low damage).
+- Troops that spawn sub-troops on death do not become Cursed Hogs — Elixir Golem, Elixir Golemite, Lava Hound and Golem never turn (they do not even show the curse tint), but Elixir Blobs and Golemites do. Only a troop's final stage converts.
+- Cannon Cart can never be cursed because its final form is a building; Battle Ram and Skeleton Barrel cannot convert, but the Barbarians and Skeletons they leave behind can.
+- Sub-troops are not cursed automatically when their parent dies — she must hit them herself after they spawn.
+- Cloned troops she kills become Cloned Cursed Hogs; a cloned Mother Witch produces normal Cursed Hogs against non-cloned troops.
+- Cursed Hogs themselves cannot be cursed, but the Mother Witch can be.
+- The curse does not stack — two Mother Witches on one unit still yield one Hog — but it does stack with Goblin Curse, giving both a Cursed Hog and a Goblin.
+- Ice Spirit-type troops and Wall Breakers that die as part of their own attack do not convert even while cursed.
+- Death effects still trigger on conversion: an Ice Golem still deals full death damage and slows nearby units including its own Cursed Hog, so she is slightly weaker against them.
+- Already-fired ranged attacks still land: a Hunter's bullets or an Executioner's axe will keep travelling and can immediately destroy the Cursed Hog that spawns.
+- Good support behind a tank like Giant or Golem, denying the opponent cheap fragile troops to kill the tank.
+- Electro Giant synergy: his reflected damage helps her curse take effect, though the pair costs 11 Elixir.
+- Poor with area damage units, which kill swarms before she can curse more than one or two — but Zap or Giant Snowball help her one-shot Minions or Goblins.
+- Spell bait: pair her with other Fireball/Poison-vulnerable cards (Barbarians, Skeleton Dragons, Royal Recruits, Musketeer, Wizard, Flying Machine, Zappies, Electro Wizard, Ice Wizard, Magic Archer, Little Prince, Goblinstein) to draw the spell first, or use her as the bait when the matchup favours the others.
 
 ## Source
 

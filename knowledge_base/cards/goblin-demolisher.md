@@ -76,15 +76,36 @@ Rapidly drops bombs when under half health.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ground swarms — his 1.5 tile splash from 5 tiles away clears Skeleton Army and Goblin Gang while he is still above 50% hitpoints.
+- Grouped air pushes — although he cannot attack air, his death explosion can, and it instantly destroys clustered Minion Horde or Evolved Bats.
+- Evolved Barbarians — placed properly with Crown Tower help (preferably Cannoneer) he fully counters them for a +1 Elixir trade.
+- Royal Recruits — same setup fully counters them for a +3 Elixir trade.
+- Defending troops on a counterattack — the death explosion's knockback punishes most defenders while pushing lighter enemies back.
+- Frail troops around a Goblin Drill — his charge destroys them on connection and shoves tankier troops away from the Drill.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Fireball — an equal Elixir trade that fully counters him: it does just enough to push him into his charging phase, so the Crown Tower and the 10 sec charge lifetime finish him before the blast connects.
+- Void — an even better answer to a lone Goblin Demolisher, since its single-target strikes leave him low enough for the Crown Tower to finish, a +1 Elixir trade.
+- Dagger Duchess plus an Ice Spirit or Electro Spirit and Skeletons — a full counter for a +2 Elixir trade (deploy the Skeletons only after he starts charging, or they are wiped instantly and his death damage reaches the Crown Tower).
+- Ice Golem played in his lane — it tanks the dynamite for a +2 Elixir trade (his low sight range means he cannot be kited into the other lane, and the death blast still reaches the Crown Tower).
+- Defensive buildings placed centrally — Cannon, Tesla and Bomb Tower kite him over and, with the Crown Tower, swiftly defeat him.
+- Goblin Cage and Tombstone dropped directly on top of him once he is in Crown Tower range — the Goblin Brawler and Skeletons chew him down, and the Brawler stays healthy for a counterattack.
+- Mini tanks such as Mini P.E.K.K.A. and Lumberjack, which deal with him quickly.
+- Air troops he simply cannot hit — Baby Dragon, Electro Dragon, Flying Machine, Phoenix, Mega Minion and Skeleton Dragons (only his death explosion touches them).
+- Simply ignoring him at times: deployed at the bridge he only does about a quarter of a Tower Princess, a quarter of a Dagger Duchess or a third of a Cannoneer's hitpoints.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 4 Elixir hybrid defensive/offensive troop — think Bomber for his first 50% hitpoints and Wall Breaker for the last 50%.
+- Below 50% hitpoints he transforms into a very fast, building-targeting charger with a 10 sec lifetime, then explodes for high death damage in a 2.5 tile radius with knockback.
+- Use the top half of his health to clear swarms on defense, and the bottom half to add pressure on the counterattack.
+- His death explosion is a cheaper, instant, more reliable version of the Giant Skeleton's death bomb (less damage, slightly smaller radius), which makes him a good reactionary answer to oncoming pushes.
+- Strong Prince synergy — he handles swarm cards and punishes defenders with splash and death knockback, while the Prince supplies pressure and kills the mini tanks (Mini P.E.K.K.A., Lumberjack) that would otherwise deal with him.
+- Strong Goblin Drill synergy — his hitpoints tank the Crown Tower and poorly placed troops while the Drill does the damage, and his eventual charge pushes tanky defenders off the Drill; handled poorly this deals very heavy Crown Tower damage against any tower troop.
+- Keep him for grouped air pushes when needed: the death explosion is his only answer to air.
+- Any building counters him if placed properly, so play around the opponent's building placement.
+- Spawner buildings other than Tombstone (Goblin Hut, Barbarian Hut) are poor answers to him because of his area damage and their high Elixir cost.
 
 ## Source
 

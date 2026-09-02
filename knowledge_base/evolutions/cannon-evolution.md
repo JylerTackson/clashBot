@@ -26,7 +26,12 @@ The Cannon's Evolution is a Common card that is unlocked with 6 Evolution Shards
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Base stats are unchanged — same 3 Elixir cost, hitpoints, damage, 1 sec hit speed, 5.5 range and 30 sec lifetime as the regular Cannon.
+- New ability (Barrage Carnage, borrowed from the Eagle Artillery): on deployment it fires 9 cannonballs in 2 rows — 5 on the top (most distant) row and 4 on the bottom (closest) row.
+- The barrage deals area damage with a Barrage Radius of 2 and inflicts knockback on everything it hits.
+- Half of the barrage shots land on the opponent's side of the Arena, so the deploy itself is an offensive tool as well as a defensive one.
+- Barrage damage is tracked separately from the Cannon's normal attack (e.g. 251 barrage damage at Level 9 versus 175 normal damage) and does reduced Crown Tower damage (74 at Level 9).
+- Requires 6 Evolution Shards and 2 cycles before the evolved version deploys.
 
 ## Evolution-specific stats/behavior
 
@@ -70,7 +75,10 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Offensive use: the deploy barrage can snipe buildings and troops on the opponent's side of the Arena.
+- Defensive use: the knockback pushes enemy units back towards the Cannon, keeping them in its range longer.
+- When a Tower is down, placing the Cannon on the opponent's side lets the barrage reach the remaining Towers; damage to them is reduced but still worthwhile, especially in Sudden Death.
+- Against the Evolved Goblin Barrel it can prevent all but one hit on either Crown Tower alongside the Tower Princess, but only when placed in front of the King Tower — which means it cannot distract anything else from that push or from follow-ups.
 
 ## Source
 

@@ -26,7 +26,12 @@ The Royal Giant Evolution is a Common card that is unlocked with 6 Evolution Sha
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Spawns a Royal Giant with stats identical to the base card — the evolution adds an ability, not a stat boost.
+- New ability, Royal Shockwave / recoil: every attack also deals damage in a 2.5 tile radius around him.
+- The recoil knocks enemy ground troops back by 1 tile with each shot.
+- The knockback does not affect air units, so air troops are untouched by the recoil.
+- Costs the same 6 Elixir and needs only 1 cycle to evolve, so he can often be evolved more than once in a battle.
+- Practical effect: unlike the base card he defends himself against ground swarms, wiping Skeleton Army and Goblin Gang and repeatedly shoving back bulkier swarms.
 
 ## Evolution-specific stats/behavior
 
@@ -70,7 +75,23 @@ Cycles to evolve: 1. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Ground swarms are no longer a reliable counter: Skeleton Army and Goblin Gang are obliterated, and Barbarians or Royal Recruits are knocked back constantly, taking far longer to kill him.
+- Use knockback-immune units against him instead — Prince, Mighty Miner, Evolved Mega Knight or P.E.K.K.A.; a P.E.K.K.A dropped on top and in his path even pushes him back, costing him a shot.
+- Air troops are the cleanest counter, being immune to the recoil: Minion Horde, Bats, Mega Minion and Inferno Dragon survive at full health for a counterattack and a positive Elixir trade; Night Witch works similarly via her Bats.
+- Bats plus a Cannon, placed properly, fully counter him for a slight positive Elixir trade.
+- Ranged troops placed far from him beat him down safely — high-damage ones like Sparky especially.
+- Do not place buildings directly on top of him: the recoil destroys them faster than if placed at a distance, and a Tombstone is especially bad since its Skeletons die instantly.
+- Inferno Tower remains one of the best answers (watch for a Zap or Lightning reset); the Cannoneer handles him better than Tower Princess or Dagger Duchess, and he cannot reach the King Tower after taking a Crown Tower.
+- Ice Wizard support lets a melee counter attack before it gets knocked back; Zappies lined up vertically beside the tower stagger their stuns to nearly immobilize him, at the cost of Fireball/Poison value.
+- Freeze is a last-resort answer, stopping his attacks and therefore his recoil so swarms can kill him, but it is a heavy Elixir investment.
+- Rage is a strong partner: the attack speed boost lets him knock back low-range melee counters like Mini P.E.K.K.A. and Monk continuously, leaving him unscathed for the duration.
+- Fisherman, Tornado or Evolved Valkyrie can drag enemy troops into his recoil radius; the Fisherman also pulls high-DPS defenders off him and can snipe a weakened Inferno Tower from mid-river.
+- Still ranged, so he does not shield melee support; long-range support (Princess, Magic Archer, Dart Goblin, Firecracker, Wizard, Evolved Archers, Musketeer, Cannon Cart, Witch, Flying Machine) sits safely behind him unless The Log, Fireball or Lightning answers them.
+- Barbarian Barrel, Minions/Bats and the Skeleton Barrel all support him well, the swarms distracting an Inferno Tower long enough for him to destroy it.
+- The Witch push is stopped by a well-placed Bowler — he hits the Royal Giant and the Witch, clears her Skeletons, and is immune to the recoil knockback so his shot does not miss.
+- Furnace pairs well, its Fire Spirits chipping enemy swarms, and can be pre-placed before starting him from behind the King Tower.
+- Same placement rules as the base card: at the bridge he connects after a few steps; after opening a lane, place him in the middle of the opponent's side 1 tile down from the center to stay out of King Tower range while deploying.
+- He still cannot reach a Crown Tower from the river, so Tornado or Fisherman cannot use him to activate the King Tower.
 
 ## Source
 

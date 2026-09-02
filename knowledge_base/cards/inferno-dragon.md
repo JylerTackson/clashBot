@@ -59,15 +59,48 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- High-hitpoint tanks such as Giant and Golem - its third damage stage melts them, and surviving it can start a counterpush.
+- Balloon - the Balloon cannot target it and is slow, so it is countered faster than a tank and for a positive Elixir trade; placed correctly the Inferno Dragon even avoids the death bomb and keeps full hitpoints.
+- P.E.K.K.A., Mini P.E.K.K.A., Mighty Miner, Golden Knight, Prince and Monk - troops that survive a Mega Knight are melted by the Inferno Dragon.
+- Monk - its attack is not a projectile, so Pensive Protection cannot deflect it; the charge keeps building through the ability, countering the Monk for a positive Elixir trade.
+- Ground units generally - being air, it can kill ground troops without being damaged back (though it also cannot distract ground or building-targeting troops).
+- Electro Giant - when placed to the side at maximum range (its 3.5 range exceeds the Zap Pack radius) it kills him safely.
+- Crown Towers - never let it lock on; it can threaten to take a Tower down very quickly if undefended.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Continuous stunners - Zappies, Electro Wizard, Goblinstein and Electro Dragon prevent it from ever reaching maximum damage while taking minimal damage themselves.
+- Swarms - it retargets very slowly, so even Skeletons and Goblins stall it; Minions or Bats are the cheapest counters to a lone one crossing the river.
+- Minion Horde - a negative Elixir trade, but the high DPS means the Inferno Dragon will not reach or meaningfully damage a Tower even if the Horde is spelled.
+- Archers and Spear Goblins - they outrange it and come as a pair, distracting it for a long time for a positive Elixir trade.
+- High-damage ranged units - Musketeer, Wizard, Electro Wizard, Executioner, Firecracker and Flying Machine damage it heavily before it closes its short 3.5 range, leaving them healthy for a counterattack.
+- Guards and Dark Prince - their shields reset the Inferno Dragon when broken; with a tower troop the Guards check it for a +1 Elixir trade.
+- Spawners - Tombstone, Goblin Hut (its troops attack the Dragon directly), Witch and Night Witch continuously distract it and stay healthy for a counterpush.
+- Knockback and displacement - Giant Snowball, Fireball and Tornado reset its charge or drag it off target, unlike an Inferno Tower which cannot be moved.
+- Freeze, Ice Spirit and Zap - stall its beam for a few seconds if it locks onto a Tower; Arrows also chip it enough for a Tower to finish it before stage 3.
+- Rocket - one-shots it, though for a negative Elixir trade.
+- Inferno Tower - higher hitpoints, higher damage and longer range beat it, but at a negative Elixir trade.
+- Tesla - cannot reset its attack despite the electric theme, but distracts and eliminates it with Tower help for a neutral Elixir trade.
+- Ice Wizard and other slowdown - stretches the time needed to reach higher damage stages.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Typical role: 4 Elixir single-target air defender / tank-killer whose damage ramps every 2 seconds up to stage 3.
+- Damage curve matches the Inferno Tower: the first four hits deal about 8.5% of full damage, the next five about 28.5%, then 100%. The optimal moment to stun it is at 4 seconds, just before stage 3.
+- Against a moving target, deploy it at most 3.5 tiles from where the target will be - if the target leaves range the damage stage resets. Place it near your Crown Towers or in front of troops to maximise uptime.
+- Rage lets it reach higher damage stages sooner; slow effects delay them.
+- Compared to the Inferno Tower it is cheaper and can counterattack, but it has much less health, slightly less damage, and can be knocked around by Giant Snowball, Fireball or Tornado.
+- It is a poor answer to low-hitpoint troops - they die before it ramps up, and it cannot one-shot Spear Goblins or Skeletons; a splash card like Baby Dragon is better there.
+- Pair it with high-hitpoint troops such as Balloon and Lava Hound, which tank while it burns down defences.
+- Mega Knight is a strong partner: he shields it from ranged troops and clears swarms while it melts what he cannot.
+- Never pair it with the Evolved Mega Knight - his constant pushing stops the Dragon holding a full charge; the same applies to pulling cards like Fisherman and Evolved Valkyrie (air targets excepted).
+- Double Dragon combo with the Baby Dragon covers both weaknesses (splash plus single-target burst), but a Rocket can kill both at once if their differing speeds line them up.
+- Works well with the Rune Giant, which tanks for it and buffs its attack - its fast 0.4 sec hit speed exploits the enhancement better than most cards.
+- Bait out the opponent's stun unit first, for example by threatening the other lane with a Dark Prince, Prince, Mighty Miner or Sparky, before committing the Inferno Dragon.
+- Because its DPS collapses when stunned or knocked back, carry a second high-damage unit; the Hunter works well since he also clears the swarms that counter it.
+- Carry stun/knockback bait such as Bats, Skeleton Barrel, Flying Machine or Witch so the opponent's reset spell is spent elsewhere.
+- Against Electro Giant, attack from the side at maximum range rather than standing in his path, or it will repeatedly stun itself; expect the opponent's Tornado to undo this, and answer with your own.
+- It can neutralise ranged units by being dropped directly beside them or with Crown Tower help, but this is a last resort since it takes your high-damage card out of rotation.
 
 ## Evolution
 

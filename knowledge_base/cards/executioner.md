@@ -72,15 +72,40 @@ Combines the Tornado spell with its axe attack.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Swarms of all kinds — a single axe throw defeats most low-cost units, and one pass alone OHKOs Skeletons, Bats and Spear Goblins.
+- Goblins, Minions, every Spirit card, Princess and Dart Goblin up to 2 Levels higher; Archers and Firecracker up to 1 Level higher; Wall Breakers and Bomber of the same Level — all die to a full axe throw.
+- Goblin Barrel — an Executioner placed directly behind the Crown Tower targets the rear Goblin aligned to the center and damages all three at once.
+- Goblin Drill — high hitpoints to tank the Goblins, and the axe hits the spawned Goblins with the return swing finishing them; a negative trade but a good counterpush setup.
+- Death-spawn buildings like Goblin Hut and Tombstone — the axe denies the area it occupies, so a single attack can wipe the building and its spawns together.
+- Balloon — with Tower Princess help he stops all its damage except the death bomb, for a neutral Elixir trade.
+- Lava Hound — his damage kills the Hound and, timed right, the fatal hit lets him splash every Lava Pup at once.
+- Support troops behind a tank — aligned with an enemy Giant, the axe pierces through and hits the units behind it.
+- Low to medium health troops generally — he is spell-resistant with good damage per swing.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Mini tanks — Mini P.E.K.K.A., Lumberjack, Valkyrie, Knight, Dark Prince, Royal Ghost, Battle Healer and Prince easily beat him because his damage per second is low for 5 Elixir.
+- High-damage ranged troops — Musketeer, Wizard, Inferno Dragon and Electro Wizard out-DPS and outrange a lone Executioner, stopping him for a positive trade with any tower troop's help.
+- Being surrounded — his slow hit speed and directional attack lose to Barbarians, Minion Horde, Bats, Skeleton Army, Royal Recruits or Goblin Gang once he is across the river.
+- Rocket — instantly destroys him for a -1 Elixir trade, especially valuable when he is placed in the back next to the Crown Tower.
+- Tornado — placed staggered one tile toward the approaching Executioner and one tile toward the nearest Arena wall on the Crown Tower, it pulls him diagonally beside the Tower so his axe hits the King Tower and activates it.
+- Fisherman — placed in the middle of the defender's side, staggered 2 tiles diagonally toward the Crown Tower in his lane as he crosses the bridge, the hook makes his axe pierce through and activate the King Tower.
+- Monk under Pensive Protection — the axe is returned instantly, making the Executioner throw faster and take heavy damage or die to his own attack.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir ranged splash support that hits air and ground, filling similar defensive duties to Wizard, Bowler, Witch, Baby Dragon or Bomber.
+- Effective reach far exceeds his 4.5 tile range: the axe travels 7.5 tiles with a 1 tile radius, roughly 8.5 tiles of threat, so defenders should spread out and never deploy directly in front of their Crown Tower.
+- Hit speed is in two parts — 0.9 seconds to throw and 1.5 seconds for the axe to return, 2.4 seconds total. Rage and slow effects only change the return time and are evened out by a slower throw, so his DPS is unchanged; even a Tornado pulling him backwards does not change the 1.5 second return.
+- The axe pierces on both the outward and return trip, so lining troops up doubles its value.
+- Tornado is his best partner — grouping enemy troops lets one axe pass hit them all.
+- Pairs well with P.E.K.K.A.: he clears swarms while she deletes tanks with her high DPS.
+- Executioner plus Prince is high-risk, high-reward — the Prince charges down mini tanks while the axe clears Bats, Minion Horde, Goblin Gang or Skeleton Army — but the pair is beaten by separating them, since their speeds and ranges differ.
+- If he dies while the axe is out, the axe still flies back to where he fell and deals damage normally; account for this when adding defenders.
+- Left alone he throws his axe 3 times at any tower troop for the same damage; a cheap distraction first reduces the Crown Tower damage.
+- The axe denies the ground it occupies — troops dropped onto it are damaged instantly.
+- If the opponent has no Rocket, punish the gap with a card that thrives on its absence, such as Sparky.
+- Magic Archer is a similar card that attacks faster from further with less health, damage and splash, but costs 1 less Elixir, giving more flexibility per push.
 
 ## Evolution
 

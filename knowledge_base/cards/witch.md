@@ -78,15 +78,45 @@ Witch spawns Evolved Skeletons instead of normal Skeletons.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Lone Mini P.E.K.K.A, Prince, Mega Minion and P.E.K.K.A. — she summons Skeletons fast enough to distract them indefinitely and is often left undamaged for a counterattack.
+- Single-target units with slow attack speeds in general (Prince, Mini P.E.K.K.A, Elite Barbarians, Giant Skeleton, P.E.K.K.A.) — her Skeleton spawns plus her higher hitpoints make her more reliable as a lone defender than the Wizard.
+- Lone Sparky — placed far enough back that her first Skeleton wave spawns just as Sparky rolls into range, the Skeletons distract it repeatedly while she and other troops finish it off.
+- Ground pushes without splash support — even a low-health Witch stays threatening because her Skeletons keep distracting and damaging while she pellets with beams.
+- Crown Towers when supporting a tank — behind a Golem, Giant Skeleton or Giant she adds continuous Skeleton pressure and beam damage.
+- Opponents without a spell or proper area damage unit — a cloned Witch spawns cloned Skeletons too and can overwhelm them and take a Crown Tower in seconds.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Area damage units in general — they make quick work of her and her spawns and can counterattack afterwards; they are the most reliable class of counter to her.
+- Valkyrie — 1 Elixir cheaper, and her health pool plus 360° area attack handle the Witch inside a larger push.
+- Area denial units: Bowler, Firecracker, Evolved Bomber, Magic Archer and Executioner — they defeat the Skeletons as they spawn and keep attacking the Witch with little issue.
+- Electro Dragon — its chain attack damages the Witch and clears her Skeletons, and the stun delays her next spawn; Electro Spirit does the same once for 1 Elixir.
+- Electro Wizard — his spawn damage kills all surrounding Skeletons and his higher damage defeats her quickly.
+- Mother Witch — one-shots each Skeleton into Cursed Hogs that distract the Witch long enough for her to be cursed and turned into a Cursed Hog herself.
+- Barbarian Barrel — by far the cheapest counter; the barrel destroys the Skeletons in front of it and the Barbarian then targets the Witch directly. Royal Delivery works similarly.
+- Fireball (3+ levels higher) or Poison (2+ levels higher) kills her outright; otherwise they leave her with a sliver of health for 4 Elixir. Fireball or Poison plus any 2 Elixir spell also finishes her.
+- Rocket and Lightning — punishing if she is placed next to the player's Crown Tower, hitting both for just 1 extra Elixir.
+- Tornado — soft counters her by one-shotting her Skeletons and nullifying her range advantage, letting P.E.K.K.A., Prince, Mega Minion or Mini P.E.K.K.A instantly defeat her and Phoenix, Monk, Golden Knight or Lumberjack kill her with little damage taken.
+- Fast-moving troops such as Mini P.E.K.K.A, Berserker, Bandit and Lumberjack — her 1-second first-spawn delay means the Skeletons may not arrive in time when she is played on reaction.
+- Air units — her Skeletons are largely ineffective against them.
+- Cheap spells aimed at her spawned Skeletons — nullifies her distraction potential and leaves her exposed.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Support/defensive role: low health-to-Elixir ratio and low damage output, so place her far behind high-hitpoint troops like Golem, Giant Skeleton or Giant to give her time to summon Skeletons and support the push.
+- Against such a push, kill the Witch first with a spell or area damage troop — the tank is then unsupported and much easier to handle.
+- Place her at a distance when countering any troop so she has more time to spawn Skeletons and can use her 5.5-tile range advantage.
+- Placing the Witch behind the King Tower makes 1 Skeleton spawn in the other lane, discouraging the opponent from attacking there.
+- Synergy with Skeleton Army — she keeps adding Skeletons to the swarm.
+- Synergy with Miner — he tanks for her and her Skeletons so she can spawn safely and deal considerable Crown Tower damage; strongest when the opponent is low on Elixir. Still weak to swarms and spells, and once she targets the Tower she ignores everything around her.
+- Synergy with Rage — she moves, attacks and spawns Skeletons faster, and the Skeletons are raged too, which can snowball a counterattack.
+- Synergy with Clone — the clone spawns cloned Skeletons as well.
+- Synergy with Tornado — clump enemies so her splash hits them all, or pull troops further away from her so she has time to spawn.
+- Tornado also pulls a defending Witch out of the lane, useful when sending a swarm or big push down that side.
+- Avoid deploying her next to your own Crown Tower against Rocket/Lightning decks; play her in the other lane to split spell value, or closer to the river to deny tower damage.
+- Excellent spell bait: baits Zap/The Log for her Skeletons or Lightning/Poison for herself, opening the way for cards like Dart Goblin and Flying Machine respectively.
+- Sparky timing is unforgiving — a mistimed Witch dies in one shot without spawning anything, leaving a healthy Sparky and a big Elixir deficit; the opponent can also spell the Skeletons right before Sparky fires.
+- Keep a cheap troop or spell ready for immediate defensive placement in case the opponent clears her Skeletons.
 
 ## Evolution
 

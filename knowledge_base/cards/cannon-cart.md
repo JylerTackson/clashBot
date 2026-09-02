@@ -63,15 +63,37 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Goblins and other small single units — it one-shots an equivalent-level Goblin, clearing units one by one so the rest of a push can follow.
+- Goblin Barrel — one-shots each Goblin so they get no more than three hits total (a negative Elixir trade, so counterpush with it afterwards).
+- Mortar and X-Bow placed at the bridge — its combined troop plus building hitpoints exceed a Battle Healer's, and breaking the shield does not make the siege building retarget, so it tanks shots for longer.
+- Mega Knight, P.E.K.K.A. and Giant Skeleton — it can stop even these with the help of at least two Crown Towers, despite the Mega Knight's jump attack.
+- Undefended Crown Towers — its 5.5 tile range and Medium speed let it lock on quickly and deal heavy damage if ignored.
+- Knockback effects — it is immune to knockback apart from The Log, so it is hard to redirect.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops — it is ground-targeting only and cannot fight back.
+- Swarms — Skeleton Army, Barbarians, Royal Recruits and Guards overwhelm a single-target attacker; its damage cannot break the Guards' or Recruits' shields in one hit, so they stall it even longer.
+- Mini tanks and high-damage units — Knight, Dark Prince, Lumberjack, Elite Barbarians, Monk, Goblin Brawler, Sparky, Battle Healer, Executioner, Valkyrie, Bowler, Prince, P.E.K.K.A, Skeleton King and Mini P.E.K.K.A. survive several shots while killing it.
+- Ice Golem — the cheapest single-card counter with Crown Tower help, timed so he distracts the Cart as the Tower locks on, with his death damage chipping and slowing it.
+- Ice Spirit or Electro Spirit plus Skeletons or Goblins — the cheapest combo against a lone Cart crossing the river, a +3 or +2 Elixir trade, though it can be broken by a spell.
+- Ram Rider — her attack grinds down the first form and her charge does massive damage to the building form.
+- Lightning, Rocket, or Fireball plus The Log — any of these kills the first form outright and forces the Cart to start decaying.
+- Mini P.E.K.K.A. — fully counters the troop form, though he ends too low on health to threaten a counterpush.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 5 Elixir ranged single-target ground troop that becomes a 15 second building once its hitpoints drop below 50%.
+- The building form is not a reliable Cannon substitute — the first form is a troop, and the moment it converts is hard to control, so it cannot consistently pull building-targeting troops to a good spot.
+- Once immobile it stops contributing to a push, so play it behind a tank like Giant, P.E.K.K.A, Giant Skeleton, Electro Giant, Goblin Giant or Golem, glass-cannon style: the tank soaks damage while the Cart clears the defenders.
+- That tank-plus-Cart combo is very vulnerable to swarms, so bring an area damage spell or splash troop with it.
+- At equivalent levels, both forms at full health survive one hit from a Fireball, Mini P.E.K.K.A., P.E.K.K.A, Elite Barbarians or a charging Prince.
+- Placed in the middle of the opponent's side after a Crown Tower falls, it locks on to the remaining Tower quickly — but it will be in range of both the King's Tower and the Crown Tower if pushed as far forward as possible.
+- Placing it on the second tile from the river closest to the enemy Crown Tower keeps it out of the King's Tower's range while still connecting, at the cost of a slower lock-on and more reaction time for the opponent.
+- Its long range and knockback immunity make it a good surprise play at the start of a match or when the opponent has little Elixir, especially with a spell ready for the swarms sent to stop it.
+- Pairs well with Graveyard — fast movement and high combined hitpoints distract the Crown Tower long enough for the Graveyard to work.
+- Against an opponent's Cart, varying which card you use to counter it (e.g. a Knight or Valkyrie that is not spell-vulnerable) can bait a wasted spell.
+- If you do not need to attack, spelling down its first form while it sits in the back next to their Crown Tower is a slight negative Elixir trade that the Tower damage offsets.
 
 ## Source
 

@@ -81,15 +81,27 @@ Vines duration is heavily extended.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Any unit up to Wall Breakers or Bomber - the damage over its duration is enough to kill them outright.
+- Evolved Skeleton Army - Vines and Arrows are the only two cards that fully counter it for an equal Elixir trade, though Vines needs perfect placement and timing.
+- Shielded troops such as Guards - the multi-hit duration strips shields with 4 hits and chips the troop with the last one.
+- Air troops in general - they are dragged down to the ground and held there, exposing them to your ground-only units.
+- The three highest-hitpoint troops or buildings in its radius - it always picks the healthiest targets, so it locks down the biggest threats in a push.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Large groups - it can only entangle up to 3 targets at once, so extra units in the push are untouched.
+- Spread-out pushes - its radius is small (2.5 tiles), so targets outside it are unaffected.
+- Low-hitpoint swarms mixed with a tank - the vines prioritize the highest-hitpoint units, so the small troops are left free.
+- Anything above the Wall Breakers / Bomber damage threshold - it deals slightly less damage than Arrows, so tougher troops survive it.
+- Situations needing a long lockdown - its duration is shorter than Freeze's.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 3 Elixir control spell - it entangles the 3 highest-hitpoint troops or buildings in a 2.5 tile radius so they can neither move nor attack, damages them over the duration, and pulls air units to the ground (Attributes list a 2 second duration; the page's lead describes the trapped unit being hittable for 2.5 seconds).
+- Deals slightly less damage than Arrows for the same 3 Elixir.
+- Acts as a cheaper Freeze: 1 Elixir less, but it only holds 3 targets, has a smaller radius and a shorter duration. In exchange it drags air troops to the ground and deals more damage over time, just at a slower rate.
+- Because it grounds air units, it pairs well with any ground-targeting unit, letting them attack air troops without dedicated anti-air support - very valuable in decks light on anti-air.
+- Against Evolved Skeleton Army, Arrows is the more reliable choice since Vines demands exact placement and timing.
 
 ## Source
 

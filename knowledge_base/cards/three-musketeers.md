@@ -153,15 +153,44 @@ Three independent, royal, very powerful markswomen with high burst damage, moder
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Large ground pushes — they work like Barbarians but with far more damage per second.
+- Air pushes such as Lava Hound + Balloon, which Barbarians cannot touch — their 6 tile ranged attack hits Air & Ground.
+- Sparky — two Musketeers plus a Zap stun have enough DPS to kill her without dying in return.
+- Small, low-hitpoint swarms placed against them undistracted — Spear Goblins, Goblins, Guards, Archers, Skeleton Dragons and Skeletons are wiped in a single burst by three units at once.
+- Enemy troops that get close — they switch to a Melee: Long bayonet attack with much higher damage (506 melee versus 329 ranged at level 16).
+- Crown Towers — with a Rage they demolish a Tower in a few seconds, and a split trio threatens both lanes at once.
+- Buildings used to lure a win condition — their 6 tile range lets them outrange things like the Cannon while supporting a push.
+- Tornado — it cannot pull them into King Tower range or force them to attack the King Tower.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Fireball, Poison, Rocket and Lightning — every one of them counters the trio for a positive Elixir trade anywhere in the Arena.
+- Fireball + Royal Delivery, or Zap / Giant Snowball / The Log combos — cheap spell pairs that wipe all three.
+- Bulky swarms placed on top of them — Skeleton Army, Goblin Gang, Minion Horde, Evolved Bats, Royal Recruits and Barbarians overwhelm them, provided the trio's owner lacks a clearing spell.
+- Royal Recruits especially — they stop the trio even when split, and the leftover Recruits in the other lane defend and attack simultaneously.
+- Ice Spirit plus Guards, well placed — a huge 5 Elixir advantage.
+- Giant Skeleton's death damage — not a one-shot, but it leaves them below half health, which compounds when other units defend alongside it.
+- Magic Archer with The Log, timed right — stops 2 of the 3 when split and still chips the Crown Tower, leaving 3 Elixir for the lone Musketeer.
+- Rocket plus Tornado against a Royal Hogs pairing — a 5 Elixir profit for the defender.
+- A quick Tornado on a split attempt — it denies the split if they are placed on the tiles closest to the center (though it usually activates the King's Tower).
+- Fast-cycle decks and decks that answer bait cards with other spells (Earthquake or Rocket on an Elixir Collector, or a Mirror) — they get their spell back in time regardless.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- 9 Elixir for three units deployed in a triangle: 6 tile ranged attack against Air & Ground, switching to a Melee: Long ground attack with very high damage when enemies get close, then back to ranged when they move away.
+- Huge risk card — the cost can hand the opponent a big Elixir profit and leaves almost nothing for follow-up plays.
+- Deploy them near the back of the Arena, and split them: the opponent gets less spell value, one Musketeer usually walks into the other lane untouched, and the defensive presence in both lanes discourages attacks.
+- When split, support the weaker lane more so both pushes are close to equally threatening and the opponent cannot decide where to spend.
+- Pair with spell-bait cards — Skeleton Dragons, Princess, Bats, Skeleton Army, Archers, Battle Ram, Firecracker, Minion Horde, Elixir Collector, Zappies, Little Prince, Goblinstein, Goblin Gang, Barbarians, Sparky, Goblin Barrel, Dart Goblin, Magic Archer.
+- Elixir Collector is the best partner: it baits the spell and generates an Elixir advantage just by being placed.
+- Royal Hogs pair very well — split at the bridge they tank in both lanes, bait Fireball, and act as Lightning rods that absorb all 3 strikes with one Hog left over; split both groups if the opponent holds a Rocket.
+- Rage makes them lethal (and moves them faster, which can dodge small-radius spells like Rocket); Rage plus Lumberjack is effective but a 13 Elixir commitment.
+- Never play a fourth Musketeer unless the opponent has no area damage — 13 Elixir that a Poison or Fireball can wipe for a 9 Elixir profit; if you must, split the trio in the middle and add the fourth to the single-Musketeer lane.
+- Planting them mid-Arena on the opponent's side after taking a Crown Tower is high risk, high reward: hard to react to, but telegraphed if a tank goes down first, predictable if repeated, and beaten outright by an instant Lightning.
+- When defending a big push with them, use their range so they take little damage and give up less spell value.
+- If they lock onto your Crown Tower, force a re-target by pushing them away with a large troop, or place troops in front of them and Zap.
+- Watch for knockback in spell counters — some spell combos miss if the timing is off — and note that Lightning can be blocked by higher-hitpoint units surrounding the trio.
+- Against a back-placed trio, a quick Fireball or Poison can be worth activating your own King Tower (siege decks especially); Rocket will not arrive in time and Lightning only strikes two of the three, so otherwise wait until they approach the Towers.
 
 ## Source
 

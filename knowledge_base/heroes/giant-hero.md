@@ -73,15 +73,29 @@ The Hero Giant has a special ability accessible from whatever side of the screen
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Single big defenders — Heroic Hurl grabs the highest-hitpoint enemy troop within 2 tiles and throws it across the Arena, removing it from the defense.
+- Knockback units such as Evolved Mega Knight and Monk — hurling them stops them pushing him out of Crown Tower range.
+- Any lone high-hitpoint counter placed on him, since the throw also stuns for 2 seconds and deals landing damage to ground troops.
+- Pushes in the lane he is attacking: hurling the opponent's offensive card into the other lane leaves it unsupported and easy to kill.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Swarms — he cannot attack troops at all, and the ability launches only one unit.
+- Buildings — the ability does nothing against them, so any defensive building still shuts him down.
+- Barbarian Hut — at worst one Barbarian is thrown away while the rest take him down.
+- Fisherman placed near the edge of the Arena rather than the center — the Heroic Giant throws him to the other lane, but he is still in range to pull the Giant across too.
+- Air troops are affected by the hurl but take no landing damage, so throwing them accomplishes less.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Count him as 7 Elixir for trade math: 5 for the deploy plus 2 for Heroic Hurl.
+- Heroic Hurl activates after a 1-second delay once a unit is in range, grabbing the highest-hitpoint enemy troop within 2 tiles and throwing it horizontally with a 9 tile throwback range and a 0.933 sec cast time.
+- Thrown units are stunned for 2 seconds, take damage on landing (ground only), and while airborne are untargetable by ground-targeting troops and by Earthquake, though other spells still hit them.
+- Only 1 unit is affected per activation, and both Air and Ground units can be targeted.
+- Base stats are Giant-like: 5 Elixir, building-targeting, Slow (45) movement, 1.5 sec hit speed, Melee: Medium range.
+- Strong in Giant Graveyard decks — the ability keeps knockback units like Evolved Mega Knight and Monk from pushing him out of Crown Tower range while the Graveyard Skeletons work.
+- Strong in Giant Double Prince decks — he tanks while the Princes add damage, and the ability throws a major threat into the other lane so it cannot slow the push.
+- Always attack the same lane the opponent is attacking, so the hurl sends their offensive card into the empty lane while your support cleans up theirs.
 
 ## Source
 

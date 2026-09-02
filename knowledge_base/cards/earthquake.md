@@ -60,15 +60,40 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Buildings in general - it deals 3.5x damage to them, making it more cost-effective than Fireball or Rocket.
+- Elixir Collector and spawner buildings such as the Goblin Hut - a good Elixir trade.
+- Tombstone - a lone Earthquake fully stops it for a neutral trade: the first two ticks destroy the building and the third kills the death-spawn Skeletons.
+- Tesla - it damages the Tesla even while concealed, one of the most efficient ways to remove it at a positive Elixir trade.
+- Goblin Cage - destroyed outright by the spell alone (releasing the Goblin Brawler).
+- X-Bow and Mortar - a great blanket counter, though you still need something else to finish or distract them.
+- Skeletons - one tick is enough to kill them.
+- Spear Goblins - killed by two ticks.
+- Goblins up to 1 Level higher, and all Spirit cards of the same Level - eliminated by a full Earthquake.
+- Goblin Barrel - place it when the Barrel's shadow is 4 tiles from the river to prevent the most damage for a neutral Elixir trade.
+- Graveyard - a semi-decent counter if placed after two waves of Skeletons have spawned, so all three ticks land.
+- Cannon Cart, once its shield is gone - full damage then applies.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Air troops - it is ground-targeting only, so Bats, Minions and other flyers are untouched.
+- Troops generally - its troop damage is low, so it is a poor defensive card except for the slow.
+- Tougher small troops that Poison would kill - it cannot fully defeat Dart Goblin, Princess, Archers, Firecracker, Bomber or the Rascal Girls.
+- A lone Inferno Tower - not worth it alone, since the Inferno Tower will kill an incoming tank before the Earthquake finishes it (pair it with Zap).
+- Cannon Cart with its shield still up - the shield eats the damage, so wait for it to break.
+- Stacking slows - its 50% slowdown does not stack with the slow from Ice Wizard, Ice Golem or Giant Snowball.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 3 Elixir building-breaker and area-denial spell - damage ticks every second for 3 seconds over a 3.5 tile radius, with a 50% movement slow on ground troops.
+- Deals slightly less Crown Tower damage than a Rocket and the same as Poison, at a lower cost, which makes it good in spell cycle decks - it still chips towers even when the opponent has no buildings.
+- Generally avoid it on defense because of the low troop damage, but in a pinch the 50% slow can stop a push from wrecking your tower.
+- Earthquake + Zap severely cripples or destroys an Inferno Tower - a good alternative to Lightning for 1 less Elixir.
+- Earthquake + The Log together kill anything up to an Elixir Blob; a negative Elixir trade unless you catch other troops too.
+- Running both Earthquake and Fireball is useful against bait decks: Earthquake handles the buildings while Fireball is saved for troops like Three Musketeers or Wizard.
+- Best partners are Hog Rider and Royal Hogs - fast building-targeting troops that benefit from buildings dying quickly, while the ticks make cheap follow-up support (Skeletons die in one tick, Goblins in three) hard to use.
+- Miner synergy: the 3 second duration denies area, clearing the swarms usually used against a Miner while chipping the Crown Tower. Compared with Poison it kills fewer support troops and cannot touch air.
+- Miner mind-game: when attacking a passive building, feign the attack by aiming at the Crown Tower instead, baiting the opponent into spending Elixir so the Earthquake hits their unit, the Crown Tower and the building at once.
+- Works well with large building-vulnerable tanks - Giant, Electro Giant, Goblin Giant, Elixir Golem and Golem - by clearing the defensive building blocking their path to the Crown Tower.
 
 ## Source
 

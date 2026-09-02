@@ -26,7 +26,11 @@ The Skeletons' Evolution is a Common card that is unlocked with 6 Evolution Shar
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; still 1 Elixir and requires 2 Cycles to deploy.
+- Spawns the same 3 Skeletons in a triangle formation with stats identical to the originals (same hitpoints, damage and DPS per level).
+- New ability **Skele-Cloning**: every time an Evolved Skeleton attacks, another Evolved Skeleton is summoned.
+- The horde caps at 8 Skeletons on the field at once (an individual Evolved Skeleton can summon up to 8 more).
+- The multiplication only happens on attacks, so anything that kills them before they swing — or that they cannot damage — shuts the mechanic down; notably they do not spawn replacements when they die attacking an Electro Giant.
 
 ## Evolution-specific stats/behavior
 
@@ -70,7 +74,21 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Best used on defense against tanks like Giant, Royal Giant, and Elixir Golem, where they get immense value if left alone; if you need them urgently, cycle spam cheap cards to reach the evolution sooner.
+- Their cloning makes them devastating against slow or single-target troops — P.E.K.K.A., Mini P.E.K.K.A., Boss Bandit, Prince, Mighty Miner, Giant Skeleton — stalling them essentially forever for a +3 to +6 Elixir trade (requires having cycled the Skeletons twice already).
+- On defense they behave like a perpetual Tombstone, infinitely stalling most units.
+- Placement: drop them on top of ranged troops such as the Musketeer to negate range; against ranged splash troops, place so they surround the target rather than clump.
+- Placed early under the bottom Goblin, they fully stop a centered Goblin Barrel — the two Skeletons attacking multiply and the new ones distract the top Goblins.
+- They fully counter a Bandit (and similarly a Prince): before her dash, place them on the third tile vertically from the King's Tower and third horizontally from the Crown Tower; she kills one, the rest multiply and finish her. This beats placing them directly on top because she ends up farther from ranged support.
+- Alone they will not connect to a Tower Princess and are meant for defense — but against a Cannoneer, or once all 8 have spawned, they will connect to any Crown Tower and must be answered.
+- Great with other swarms as spell bait in both directions: every spell is a negative Elixir trade against a 1-Elixir card, so the opponent either wastes a spell on the other swarm or lets the Skeletons run.
+- Pair with Royal Hogs and split both — the opponent can only spell one lane, letting the Skeletons multiply freely in the other.
+- Stun effects give them more chances to attack and accumulate: Ice Spirit, Electro Dragon, Goblinstein, Zap, Electro Spirit, Zappies, Electro Wizard, Freeze.
+- Very high DPS per Elixir — distract a troop with an Ice Golem and place them behind it to cripple or destroy it.
+- Split behind the King Tower to cycle the deck while strongly discouraging the opponent from attacking either lane.
+- Counters to them: quick weak spells (Zap, Giant Snowball, The Log), 360-degree splash such as a jumping Mega Knight, a charging Dark Prince, or a Valkyrie, and an Ice Golem whose death damage wipes the Skeletons surrounding it.
+- The Electro Spirit is the single best counter — 1 Elixir and its chain hits all of them even when multiplied; splitting the Evolved Skeletons mitigates this.
+- Avoid using them against a Mother Witch: each Skeleton she kills becomes a Cursed Hog, and the cycle feeds itself until the Hogs break through and keep damaging the towers.
 
 ## Source
 

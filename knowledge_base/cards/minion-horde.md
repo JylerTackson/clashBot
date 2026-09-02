@@ -67,15 +67,44 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Slow, high-hitpoint single-target troops — P.E.K.K.A., Golem, Sparky, Bowler and Giant are fully destroyed by the Horde's damage per second.
+- Tanks and pushes in general — ridiculously high combined DPS melts them very quickly.
+- Balloon — their numbers block its path and their DPS kills it fast; since the death bomb takes 3 seconds they usually escape and counterpush, and it is a neutral Elixir trade at equal cost.
+- Air area-damage troops like Baby Dragon and Skeleton Dragons — the deployment spread lets the Minions surround them and kill them with minimal losses.
+- Graveyard — quick attack speed and no Crown Tower hindrance negates a great portion of its damage.
+- Air-targeting charge cards such as Inferno Tower and Inferno Dragon — the Horde distracts and resets their targeting.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Area damage troops that hit air: Wizard, Baby Dragon, Witch, Executioner, Firecracker, Skeleton Dragons — most kill them for a positive or neutral Elixir trade.
+- Arrows — large area, fast travel time and cheap cost make it the most reliable counter by far.
+- Evolved Zap, Fireball and Poison — all kill the Horde, though Evolved Zap deals damage in turns, Fireball has a smaller radius, and Poison deals damage over time.
+- Rocket — works, but slow travel, tiny area and high cost make it unreliable and a negative trade unless other troops are caught.
+- Zap, Giant Snowball or Rage — weaken the Minions enough for the Tower Princess to one-shot them (a Zap 2 Levels higher kills them outright).
+- Royal Delivery — positive Elixir trade and spawns a Royal Recruit for extra defense, best used when the Horde supports another card.
+- Hunter — his spread bullets decimate the whole Horde in two shots if played well; Magic Archer, Princess, Ice Wizard and Firecracker work similarly.
+- Witch — fast attack speed plus spawned Skeletons to stall them.
+- Electro Wizard placed on top of the Horde, with the Tower Princess, stops it for a positive Elixir trade (he dies in the process).
+- Cannoneer tower troop — the most effective tower troop, one-shotting every Minion.
+- Tower Princess at 1 Level higher — two-shots the Minions, so keeping the Horde leveled is a high priority.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a high risk, high reward defensive card that turns into a threatening counterpush; do not place it alone at the bridge.
+- Extremely vulnerable to splash damage of all kinds — that fragility is the card's defining limitation.
+- Excellent bait card for Fireball, Arrows and sometimes Zap or Giant Snowball, so it is common in Fireball and Zap bait decks.
+- Their DPS cannot always kill a threat before it connects — Giant Skeleton, or Mega Knight with Hog Rider, still reach the Tower; add a ground distraction like Evolved Skeletons, Skeleton Army, Barbarians, Royal Recruits or a building.
+- Against a tank plus air-targeting support (Evolved Archers, Electro Dragon, Musketeer, Mega Minion, Phoenix, Electro Wizard, Archer Queen, Flying Machine, Little Prince, Dart Goblin, Hunter), place the Horde so it targets the support first to save Minions for the tank.
+- Supports high-hitpoint troops well: Giant, Golem, Royal Giant and Lava Hound.
+- Synergizes with Balloon — the Minions deny defenders like Bats, Musketeer, Electro Wizard, Phoenix, Dart Goblin and Mega Minion, and their fast speed pushes the Balloon toward the Tower faster.
+- Miner pairs well with leftover Minions: tanking for even one survivor forces the opponent to answer both; also usable as a fast lethal push at an Elixir advantage or when their counter is out of hand.
+- Freeze on a connected Minion Horde deals severe Tower damage, especially punishing when the opponent answers with a Zap — but the surprise factor is what makes it work, so repeats are weaker.
+- Clone on a Minion Horde is deadly but risky, and best once spells and splash troops are baited out.
+- Cheap ranged cards like Archers, Spear Goblins and Dart Goblin cannot stop the Horde alone — pair them with Spirit cards, Giant Snowball or Zap.
+- Zap/Snowball/Rage combos with an Ice Golem or a Spirit card kill the Horde on offense for a positive Elixir trade.
+- Adds troop count against Void, spreading the spell so a single other troop survives.
+- A fast troop such as Mini P.E.K.K.A. or Bandit can be hidden underneath the Horde to surprise the opponent after they clear it.
+- Minions cost 2 less for a cheaper, more flexible defense with 3 fewer units — Mirroring Minions costs 2 more than just playing Minion Horde, so it is not worth it.
 
 ## Evolution
 

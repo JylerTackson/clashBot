@@ -93,15 +93,65 @@ Instead of a Musketeer, two Elite Musketeers are spawned.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Medium and low hitpoint troops generally — her high damage per second and 6 tile range beat them with or without Crown Tower help.
+- Other ranged troops: Wizard, Baby Dragon, Witch, Furnace, Zappies, Hunter, Electro Wizard, Goblin Demolisher, Bowler and Executioner (though she takes notable damage back).
+- Evolved Wizard, Evolved Royal Giant and Evolved Executioner — her range keeps her clear of the fire shield, the recoil and Axe Smash entirely.
+- Ground swarms on defense — she one-shots Goblins, so Spear Goblins, Evolved Skeletons, Skeleton Army and Goblin Gang fall to her hit speed.
+- Spawner troops such as Witch, Night Witch and Mother Witch; she also outpaces an Evolved Witch's healing and kills the Cursed Hogs then the Mother Witch herself with barely any damage taken.
+- Mini-tanks on defense: Knight, Valkyrie, Battle Ram, Hog Rider, Baby Dragon, Battle Healer, Berserker, Miner, Lumberjack, Spirit Empress, Golden Knight, Skeleton King and Mighty Miner — sometimes needing support.
+- With support she can also take down P.E.K.K.A., Dark Prince, Prince, Giant Skeleton, Mega Knight, Sparky and Bandit.
+- Building-targeting win conditions: Giant, Hog Rider, Royal Giant, Balloon, Goblin Giant, Golem, Electro Giant, Lava Hound and Elixir Golem.
+- Balloon specifically — a quick placement near the bridge prevents all Crown Tower damage (but exposes her to its support).
+- Electro Giant — her range keeps her safe from the Zap Pack unless Evolved Valkyrie, Tornado or Fisherman pull her in.
+- Lava Hound — she instantly kills anything with Lava Pup hitpoints or less, so she is excellent once the Hound is softened.
+- Cannon — she outranges it and destroys it without being hit back.
+- Mortar and X-Bow — she kills them quickly for a neutral or +2 Elixir trade.
+- Crown Towers — attacking a Crown Tower from range keeps her out of the King's Tower's reach.
+- Dragon Hunt sub-mode of Treasure Hunt — great against Skeleton Dragons, Baby Dragon, Inferno Dragon and Electro Dragon.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Mini-tanks and high damage troops: Knight, Mini P.E.K.K.A., Valkyrie, P.E.K.K.A., Dark Prince, Prince, Lumberjack, Goblin Machine, Golden Knight, Skeleton King, Mighty Miner and Monk — they kill her and keep plenty of health to counterpush.
+- Sparky — one-shots her with almost nothing taken in return (a stun card can save the Musketeer).
+- Mega Knight, Bandit, Fisherman and Boss Bandit — dashes and jumps negate her range and deal big damage at once; Mega Knight can also be dropped on top of her.
+- Royal Ghost — deployed invisible, he gets the first hit, three-shots her and stays very healthy.
+- Night Witch dropped on top of her — high damage plus spawned Bats kill her fast.
+- Electro Wizard — spawn damage plus stun weakens her enough for the Crown Tower and keeps him alive to counterpush.
+- Swarms such as Goblins, Guards, Skeleton Army and Goblin Gang (Guards are the toughest for her, needing three hits each).
+- Well-timed Skeletons around her, with Crown Tower help, deny all Tower damage for a +3 Elixir trade.
+- Ice Spirit or Electro Spirit placed at a distance — prevents all but one of her Tower hits.
+- Goblin Cage or Tombstone placed directly on top of her, so the spawned Goblin Brawler/Skeletons attack immediately.
+- Goblin Hut — activates as she locks onto it, tanking while Spear Goblins spawn for a counterpush.
+- Spells: Fireball (kills her outright if she is a Level lower, otherwise leaves her unable to reach the Tower), Poison, Lightning and Rocket fully destroy an equal-level Musketeer, with Lightning/Rocket at -2 Elixir.
+- Giant Snowball — knockback interrupts her attack and the slow stops her connecting, a positive Elixir trade.
+- Barbarian Barrel and Royal Delivery with Crown Tower help — the spell weakens her and the spawned troop finishes her.
+- Void — two hits destroy her if she is the only troop inside, a +1 Elixir trade.
+- Minions, Mega Minion, Bats and Phoenix placed directly on top of her.
+- Minion Horde — she does not one-shot Minions, so she needs help.
+- Cannoneer and Dagger Duchess tower troops — she only lands two hits before dying.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a reliable 4 Elixir air-and-ground support and defensive troop with 6 tile range; fairly fragile for the cost and vulnerable to spells.
+- Make her range work: force melee troops to walk to her, and place her in the center of your side slightly into the other lane so a counterattack develops in the opposite lane.
+- Mini-tanks and distraction units complement her by keeping her alive; stuns and slows from Zap, Ice Spirit or Ice Wizard buy her more time.
+- Against death-damage cards (Goblin Demolisher, Evolved Battle Ram, Skeleton Barrel, Evolved Wall Breakers) keep her off their path.
+- She backs building-targeting win conditions well, covering their inability to hit troops and sniping buildings from range.
+- The Tesla hides underground, so she must walk into range — a cheap distraction like Skeletons makes it pop up and lets her use her range advantage.
+- She can be played on the river to snipe a defending building and clear the way for building-targeting units.
+- Building placement math: she bypasses an attacking building placed 4 tiles from the river and 3 from the Crown Tower, and a 5-2 placement; move it 1 tile closer to the Tower to stop that. Against passive buildings she bypasses a 5-2 placement unless she is on the inner side of the Arena.
+- In a one-Tower-each match she can be deployed in the pocket — further from the river for quicker damage, closer for more damage; valuable near Tiebreaker.
+- Leveling her up matters: a Mini P.E.K.K.A. or a charging Prince cannot one-shot her if she is one Level higher.
+- Never leave an enemy Musketeer unattended — she deals high Crown Tower damage despite her modest hitpoints.
+- Trifecta combo (Musketeer + Valkyrie + Hog Rider): she covers air at range, the Valkyrie shields her with hitpoints and splash, and the Hog Rider pushes and threatens the Tower.
+- The Trifecta is countered by Lightning, by Minion Horde (though Zap then lets her one-shot them all), hard-countered by a P.E.K.K.A. for +5 Elixir, by Rocket for up to +6 (or Tornado into Rocket for +3), and crippled by a Bowler's knockback.
+- Her small mass means a Hog Rider placed behind her pushes her to the Tower faster, at the cost of more damage taken and a weaker push overall.
+- Kiting troops such as Battle Ram, Ice Golem, Goblin Giant and Wall Breakers let her and both Crown Towers whittle a target down while she stays untouched.
+- Musketeer + Cannon is a strong 7 Elixir defense with heavy per-hit damage, but weak to swarms and to Fireball, Poison and Lightning; an Evolved Cannon fixes the swarm problem.
+- Spending a big spell on her lets the opponent play a card that thrives on its absence, such as Barbarians.
+- Substitutes: Archers (cheaper), Cannon (-1 Elixir, no air), Mega Minion or Phoenix (similar DPS but melee), Wizard (+1 Elixir, splash), Flying Machine (air decks, dies to Fireball), Baby Dragon (splash and survivability, less damage), Tesla, Furnace, Hunter, Electro Wizard, Magic Archer, and Archer Queen or Little Prince if a Champion slot is free.
+- Three Musketeers costs 5 more for two extra Musketeers, so Mirroring the Musketeer is not worthwhile; never field 4 or more Musketeers against a deck with area damage — 4 Musketeers costs 13 Elixir and dies to a single big spell.
+- Modifiers: "Shots Fired!" (Common) gives her a Hunter-style 5 projectile spread shot; "Realllllllllllly Long Range" (Rare) doubles her range to 12 tiles; "#Girlbosses" (Epic) spawns two Elite Musketeers instead.
 
 ## Evolution
 

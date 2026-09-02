@@ -26,7 +26,13 @@ The Witch's Evolution is an Epic card unlocked with 6 Evolution Shards. It spawn
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- New ability "Boned-aid": whenever a Skeleton the Evolved Witch spawned is defeated, its soul heals her.
+- All base stats are identical to the normal Witch — 5 Elixir, 1.1 sec hit speed, Medium (60) speed, 5.5 range, 1.5 splash radius, Skeletons every 7 seconds.
+- The healing can overheal, raising her up to 24% more hitpoints than her base maximum (e.g. 1015 -> 1257 at level 13, 1351 -> 1673 at level 16).
+- Skeleton Death Heal scales with level (47 HP at level 6 up to 122 HP at level 16); the Stats by level table lists both base Hitpoints and Max Hitpoints.
+- 3 Skeleton deaths take her from full base health to full overheal — achievable off her first wave alone.
+- From 1 hitpoint to full overheal hitpoints takes 14 Skeleton deaths, roughly 4 waves, assuming no healing is wasted.
+- Requires only 1 cycle to evolve, so she can be evolved multiple times in a single match.
 
 ## Evolution-specific stats/behavior
 
@@ -71,7 +77,13 @@ Cycles to evolve: 1. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Played behind the King's Tower, her Skeletons outrun her and die at the bridge, healing her before she engages — she arrives with an advantage.
+- Light spells are now poor answers: Zap or similar spells that clear her Skeletons just heal her. Poison is worse still, wiping two waves and healing her twice over.
+- Rocket and Lightning are the effective answers, even at a -1 Elixir trade, because they defeat her even at maximum overheal hitpoints.
+- Splash units still wipe her Skeletons and surrounding troops, but struggle to finish the Witch herself, since each Skeleton death heals her while she chips them down.
+- Valkyrie is slightly more effective than other splash options, as her hitpoints are high enough to survive the Evolved Witch's attacks.
+- Play her behind slow-moving tanks — Giant, P.E.K.K.A., Giant Skeleton, Golem, Elixir Golem — so her faster Skeletons run ahead, support the push, and heal her when they die.
+- Fits Balloon and Lava Hound decks: she either baits the Rocket or Lightning meant for the Balloon, or supports a Lava Hound + Balloon push with herself and her Skeletons.
 
 ## Source
 

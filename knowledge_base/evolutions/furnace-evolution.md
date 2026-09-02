@@ -26,7 +26,12 @@ The Furnace's Evolution is a Rare card that is unlocked with 6 Evolution Shards.
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Unlocked with 6 Evolution Shards; costs 4 Elixir and requires 2 cycles to deploy.
+- Spawns a Furnace with stats identical to the original — hitpoints, damage, hit speed (1.8 sec), 6 tile range and the Fire Spirit stats are unchanged.
+- New ability "Hot Spawn": while the Furnace is attacking, its spawn speed drops from 7 sec to 2.4 sec, producing Fire Spirits far more frequently.
+- The faster spawning only applies when it is attacking; when idle it keeps the base 7 sec spawn cycle.
+- Fire Spirits now appear to the side of the Furnace instead of in front of it.
+- The side spawns alternate: first to the left, then to the right, then left again, and so on.
 
 ## Evolution-specific stats/behavior
 
@@ -74,7 +79,9 @@ Cycles to evolve: 2. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Keep the Furnace attacking as much as possible — the Hot Spawn rate only applies while it is attacking, so more attacks means more Fire Spirits.
+- The alternating left/right spawn pattern can be used deliberately to lure units from the other side of the arena.
+- Rage works really well on it, spawning even more Fire Spirits on top of the faster attacks.
 
 ## Source
 

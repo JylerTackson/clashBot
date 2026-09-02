@@ -66,15 +66,18 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Elixir accounting: the Heroic Tombstone plus its activated Ability counts as 8 Elixir — 3 for the building and 5 more for Regal Revive — when judging Elixir trades.
+- Do not place a Heroic Tombstone anywhere you would not place a regular Tombstone; an unusual placement telegraphs that the Ability is coming and encourages the opponent to destroy it first.
+- Regal Revive raises the Tomb Queen, a building-targeting unit with far higher hitpoints and damage than the Tombstone itself (e.g. 4224 hitpoints and 422 damage at Level 11).
+- The Tombstone half is unchanged from the base card: 3 Elixir, 1 sec deploy time, 30 second lifetime, spawning Fast (90) melee Skeletons.
 
 ## Source
 

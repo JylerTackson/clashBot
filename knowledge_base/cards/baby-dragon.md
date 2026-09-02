@@ -72,15 +72,40 @@ When defeated, Baby Dragon spawns an Egg, which will spawn an Evolved Baby Drago
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Small swarms — its 1.5 tile splash from the air clears the cheap swarms that would otherwise stop a tank.
+- Barbarians and Royal Recruits — it weakens them enough for the Crown Towers to finish them off.
+- The usual counters to Prince, Elite Barbarians, P.E.K.K.A., Mighty Miner and Mini P.E.K.K.A., which it decimates while they push.
+- Bats and other air swarms threatening a Balloon it is escorting.
+- Ground troops and Crown Towers as chip damage — a lone Baby Dragon on a Tower should not be ignored, since the chip adds up.
+- Defensive buildings it can snipe: it has decent range and flies, so it can attack a building without exposing itself to the opposing Crown Towers.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Any air-targeting troop once it is distracted by another unit.
+- Troops it cannot one-shot that surround it — Minions, Archers or Minion Horde take it down very quickly since it needs multiple hits each.
+- High DPS 4 Elixir answers — Musketeer, Electro Wizard, Phoenix and Mega Minion are the most efficient counters to a lone Baby Dragon.
+- Hunter placed directly below it — that placement lets him two-shot a same-level Baby Dragon.
+- Frail ranged troops once it has locked onto a tank or building — Spear Goblins, Minions, Archers, Dart Goblin or Firecracker can chip it down safely.
+- Split Archers — the splash will not carry to the second Archer (the same works with Spear Goblins, but needs very precise timing and usually another card, a negative Elixir trade).
+- Inferno Tower and Inferno Dragon — their ramping damage burns it down with little damage taken, and an Inferno card even burns through a tank placed in front of it for a major Elixir advantage.
+- Tesla — an easy counter, though it is better saved for dangerous building-targeting troops.
+- Tombstone — distracts it long enough for the Crown Tower to kill it.
+- Tanks that cannot hit air, with Crown Tower support — they soak its hits while the Tower shoots it down.
+- Large swarms such as Skeleton Army, which its slow 1.5 sec hit speed and small splash radius cannot clear fast enough.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: a 4 Elixir flying splash support troop and decent mini tank; effective at killing swarms and chipping ground troops and towers, but slow to kill anything substantial.
+- Excellent tank protection — supports Giant, Lava Hound, Golem, P.E.K.K.A., Mighty Miner, Royal Giant, Boss Bandit, Evolved Knight, Elixir Golem, Monk and Giant Skeleton from swarms, and being airborne keeps it safe from many cards.
+- Its damage per attack is low, so pair it with high-DPS troops: Wizard, Executioner, Lumberjack, Prince, Mini P.E.K.K.A., Bomber, Musketeer, Golden Knight, Hunter, Monk, Cannon Cart, Berserker or Bowler.
+- Pairs well with Prince, Elite Barbarians, P.E.K.K.A., Mighty Miner or Mini P.E.K.K.A., since it clears their common counters — but the pairing is beaten by big swarms and by separating the two, which have different speeds and ranges.
+- Double Dragon combo with the Inferno Dragon: the Baby Dragon handles small swarms while the Inferno Dragon melts high-health units. Vulnerable to Wizard, Minion Horde, Executioner, Electro Wizard, Evolved Electro Dragon, Three Musketeers, Evolved Hunter or a Rocket.
+- Pairs well with Spear Goblins — its health and speed let it tank the Crown Tower while they deal damage.
+- Good with Balloon: it clears air swarms like Bats, and its speed and mass shove the Balloon closer to the Tower so it arrives sooner. Beaten by an Inferno Tower or a tank plus anti-air, and it cannot protect a lone Balloon on its own, so add Minions, Bats, Archers or Dart Goblin.
+- Placement: deploy at the leftmost or rightmost side of the Arena so it ignores centrally placed buildings and cannot be kited effectively.
+- When supporting a Slow or Medium speed tank such as a Giant, place it a good distance behind, or its Fast speed will outpace the tank and draw the Crown Tower's fire first.
+- Can tank for fragile units such as Graveyard Skeletons, best used after it has already defended and is heading into a counterattack.
+- Tornado mitigates its limited splash area by grouping troops — even better when it also drags them toward the enemy Crown Tower.
 
 ## Evolution
 

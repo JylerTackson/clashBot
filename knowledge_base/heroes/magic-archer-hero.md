@@ -67,15 +67,26 @@ The Hero Magic Archer has a special ability accessible from whatever side of the
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Lines of enemies - his attack pierces through everything in its path and travels its full 11-tile projectile range, well beyond his 7-tile targeting range.
+- Crown Towers - his arrows deal good chip damage to Towers.
+- Air and ground troops alike - he is an area-damage, air-targeting troop.
+- Targets even further out once Triple Threat is used, since the three arrows travel 13.5 tiles.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Fireball - the source only notes that the ability's teleport and decoy are used to dodge it.
+- Mini P.E.K.K.A. and Prince - likewise named as threats that the teleport and decoy are meant to avoid.
+- Nothing else is specified on the source page.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Typical role: long-ranged piercing support troop with a defensive escape ability.
+- Triple Threat costs 2 Elixir on top of his deploy cost (4 + 2 = 6 total) and is activated from the button above the card slots in battle.
+- Activating it teleports him back 3.5 tiles and leaves a decoy in his place; the decoy lasts 7 seconds and has substantial hitpoints (224 at Level 9 up to 436 at Level 16 - about half his own hitpoints).
+- Use the teleport plus decoy to dodge a Fireball, or to escape a Mini P.E.K.K.A. or Prince that has closed on him.
+- His next attack after activating fires 3 arrows that travel 13.5 tiles instead of 11, but each deals much less damage than a normal shot (for example 77 x3 versus 217 area damage at Level 16).
+- Base profile: 1.1 sec hit speed, 0.7 sec first hit speed, Medium (60) movement, 1 sec deploy, projectile width 0.5 and speed 1000.
+- Note a discrepancy on the source page: the lead text says he costs 3 Elixir to deploy, while the attributes table lists 4.
 
 ## Source
 

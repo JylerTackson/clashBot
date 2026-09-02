@@ -65,15 +65,49 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Single-target tank killers — Mini P.E.K.K.A, Mighty Miner, Inferno Dragon, Prince and P.E.K.K.A. are far less effective than against a Hog Rider because there are four separate hogs.
+- Ground attackers during the river jump — they cannot be targeted mid-jump, so The Log and Earthquake do nothing to them then.
+- Crown Towers left unanswered — their combined health lets them tank for each other and deal extremely high damage, potentially destroying a Tower outright.
+- Lightning — it kills only 3 of the 4 hogs, so they can even be played predictively to soak it and save a Wizard, Little Prince or Goblinstein.
+- Elixir Collector in front of the King's Tower — placed in the middle, two go one lane, one the other and one hits the Collector, denying Elixir and chipping both Towers.
+- Very Fast melee troops in an emergency — they can kite them into the opposite lane when placed on the fourth tile from the bridge and third tile horizontally into the other lane.
+- Slow or Elixir-starved opponents — a lane rush is hard to react to given their hitpoints and speed.
+- Touchdown mode — very fast speed and combined hitpoints beat many single-target troops and even defensive buildings.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Area damage of any kind — the most effective way to eliminate them quickly.
+- Bowler and Evolved Executioner — knockback plus splash clears them fast and delays them from connecting, both a neutral Elixir trade.
+- Bomb Tower — hard counter with high health, lower cost, high splash and the ability to distract them as a building.
+- Tombstone and Barbarian Hut — the spawned Skeletons and Barbarians kill them while the building tanks, since the hogs cannot hit troops at all (both die easily to The Log or Poison).
+- Goblin Hut — weaker because of low-damage spawns, but its higher hitpoints generate a lot of Spear Goblins for a counterattack.
+- Inferno Tower — despite being single-target, its high hitpoints distract them long enough for the Towers to finish them.
+- Fireball — leaves them on a sliver of health with only minor Tower damage, a positive Elixir trade.
+- Royal Delivery — heavy damage plus an extra Royal Recruit to keep defending, best when the Hogs have support.
+- The Log and Barbarian Barrel — not counters alone, but 2 Elixir of damage and pushback that buys the Crown Tower time.
+- Rocket — kills them outright at a negative Elixir trade, and their speed versus its slow travel makes it risky.
+- Large swarms and buildings generally, plus Fisherman, who can pull a full-health hog into the King Tower to activate it.
+- P.E.K.K.A and Mega Knight — they break the popular Royal Hogs plus Royal Ghost / Dark Prince pushes.
+- Dagger Duchess — she handles them much better when they are split.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Win condition at 5 Elixir: four hogs, Very Fast (120), 1.2 sec hit speed, 0.4 sec first hit speed, Melee: Short (0.7), buildings only, deployed in a horizontal formation and able to jump the river.
+- Against melee area damage, splitting them across lanes cuts the splash value each attack gets and spreads damage over both Towers; this is less effective against ranged splash.
+- Do not split them without support — each hog tanks for fewer hogs and both Crown Towers fire at once, so total damage drops sharply (especially against a Dagger Duchess).
+- Placing them one tile off center splits 3 in one lane and 1 in the other, useful to reinforce the stronger lane after a split Zappies or Royal Recruits.
+- Pair with Skeleton Dragons: the Hogs tank while the Dragons handle attacking troops and swarms; splitting both at the river attacks two lanes and denies spell value.
+- Three Musketeers are strong ranged support and can outrange buildings like the Cannon; Zappies are the cheaper version, with a stun that can save the Hogs from a Sparky blast or a charging Dark Prince.
+- Royal Recruits tank in both lanes, their shields discourage spells, and placing the Hogs after the Recruits cross the bridge can push Recruits forward into their targets.
+- Cheap fast swarms — Goblins, Spear Goblins, Bats, Goblin Gang — keep pace and punish responses, but are fragile to splash and spells.
+- Flying Machine, with the longest range of any flier, supports both lanes from the center and is especially good against buildings used to lure the Hogs.
+- They pair well with mobile splash such as Royal Ghost and Dark Prince, which clear the swarms while the Hogs keep hitting the Tower.
+- Spell support is key since they cannot hit troops: Arrows and The Log clear most swarm counters (sometimes positively), Poison holds bulky swarms like Barbarians in its area thanks to the Hogs' large total hitpoints, Rage multiplies the whole swarm's damage, and Earthquake removes the buildings they are weak to.
+- Royal Hogs + Freeze surprises swarm-reliant defenders (Skeletons and Bats die outright, Spear Goblins, Goblins and Minions are left finishable), but against non-swarm defenses it invites a counterpush, so save it for when you have backup or the match is ending.
+- Heal Spirit shares their move speed and heals more total hitpoints because they are a bulky swarm; the pair is weak to Arrows and the Heal Spirit is easily lured by a mini tank such as Ice Golem, Valkyrie, Prince, Skeleton King, Monk, Mighty Miner, Battle Healer, Dark Prince, Golden Knight or Knight.
+- Deploying them at the bridge at match start or at 10 Elixir is a risky scout play that punishes a bad starting hand.
+- With one Crown Tower down, placing them on the third tile from the center of the opponent's side sends all 4 at the remaining Tower for maximum damage; placing further forward is harder to react to but loses damage to King Tower range.
+- When using Mirror on them, play the second wave in the other lane so one card cannot answer both and build a counterpush.
 
 ## Evolution
 

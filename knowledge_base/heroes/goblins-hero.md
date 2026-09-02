@@ -295,15 +295,20 @@ There will be rounding mistakes, as we have stats from level 11
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+Not specified on source page
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 2-Elixir ground swarm (four very fast, single-target melee Goblins) with a 1-Elixir follow-up ability, so a fully used play costs 3 Elixir.
+- Banner Brigade is locked until the last Goblin of the group dies; that Goblin drops a banner lasting 5 seconds, and pressing the ability within that window spawns 2 Brigade Goblins slightly behind the banner.
+- Brigade Goblins have exactly the same stats as the original Goblins (1.1 sec hit speed, 0.6 sec first hit, Very Fast, 0.5 melee range, ground-only).
+- The ability makes them harder to spell out, since a spell that clears the group just enables the banner and the Goblins can come back.
+- If the banner drops next to the opponent's Crown Tower, activating works like a mini Goblin Barrel for good damage at just 1 Elixir.
+- Do not press the ability if the reinforcements will simply die on arrival — save the Elixir.
 
 ## Source
 

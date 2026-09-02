@@ -26,7 +26,13 @@ The Electro Dragon's Evolution is a Epic card that is unlocked with 6 Evolution 
 
 ## What changes mechanically
 
-<!-- AGENT:FILL -->
+- Costs 5 Elixir and requires 1 cycle to evolve (6 Evolution Shards to unlock).
+- Base behavior is unchanged for the first 3 targets: the attack arcs to up to 2 other troops within 4 tiles of each other and stuns each for 0.5 seconds.
+- New ability: after those first 3 targets, the bolt keeps bouncing infinitely between all troops until only one is left alive, and can hit the same target more than once.
+- The infinite-chain portion deals 33% less damage than the initial bolts.
+- The chaining bolt travels 80% slower once it enters the infinite phase.
+- The infinite-chain bounces no longer stun the troops they hit — only the first 3 targets are stunned.
+- The card statistics table reflects this with a separate "Damage after 5 chains" column, well below the initial hit (e.g. 103 versus 430 x3 at Level 16), while the source lead states the Evolution otherwise spawns an Electro Dragon with stats identical to the original.
 
 ## Evolution-specific stats/behavior
 
@@ -65,7 +71,19 @@ Cycles to evolve: 1. Stat boosts vs. base card (from the Cards page evolution ta
 
 ## Notes
 
-<!-- AGENT:FILL -->
+- Excellent against large pushes: anything within 4 tiles of another troop is continually damaged, and the chip stacks as it keeps attacking, shredding both high-hitpoint units and swarms.
+- Against a single unit (a lone Giant, Lava Hound, P.E.K.K.A, Giant Skeleton, Mega Knight or Golem) there is nothing to chain onto, so its firepower is identical to the regular Electro Dragon and far less threatening.
+- Destroys Witch and Night Witch along with their Skeletons and Bats, chaining repeatedly off the spawns and stunning to delay further spawning.
+- Fantastic against Elixir Golem — the chain ravages the Golemites and then the Blobs after each split; the same principle applies to Lava Hound and Golem.
+- Great counter to the Skeleton Barrel: with Crown Tower help it kills the Barrel while the chaining bolts wipe out every spawned Skeleton, fully negating it if done early.
+- Small swarm distractions like Goblins and Minions are mostly wasted Elixir — the lightning keeps hitting the group after the first 3 bolts and kills them quickly.
+- Mini tanks are the effective distraction: Knight, Valkyrie, Golden Knight, Bowler, Battle Healer, Monk, Prince, Dark Prince, Ice Golem, Mighty Miner, Cannon Cart and Skeleton King absorb the bolts without letting them chain, giving the Crown Towers time to shoot it down for a positive Elixir trade.
+- Best counters are long-ranged high-DPS troops — Musketeer, Flying Machine, Evolved Archers, Electro Wizard, Archer Queen, Firecracker and Wizard — which exploit its slow movement to whittle it down from afar for a positive trade.
+- Never place a counter next to your Crown Tower: within chain range the bolt bounces off the Tower back onto the troop, so the Tower gets hit twice and the counter takes damage.
+- Lightning and Rocket fully counter it for a slight negative Elixir trade, as with the base card.
+- Letting it connect can be deliberate: place a lone cheap troop (Ice Spirit or Electro Spirit) 1 tile behind and 2 tiles to the side of the Crown Tower so the bolt hits it and then chains into the King Tower, activating it for the rest of the match.
+- Ignoring it is safe as long as no other units are near the Crown Tower — chip damage is moderate under Tower Princess and Dagger Duchess and minor under the Cannoneer, so conserving Elixir can be worth it.
+- It is fragile for 5 Elixir, so it is best used alongside other units — behind a Giant Skeleton, P.E.K.K.A or Golem its bolts interrupt counters such as Inferno Tower, Inferno Dragon, Mighty Miner, Minion Horde and Skeleton Army while the tank soaks the damage.
 
 ## Source
 

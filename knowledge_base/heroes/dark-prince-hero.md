@@ -76,15 +76,29 @@ The Hero Dark Prince has a special ability accessible from whatever side of the 
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ground swarms such as Skeleton Army and Goblin Gang — the ability's dismount spawn damage wipes them out and leaves you with a counterpush.
+- Clumped ground troops in general — his 1.1 splash radius normal attack and his 360° charge hit everything around him.
+- Enemy buildings — the Rhino targets buildings only and charges into them at Very Fast (120) speed after 2.5 tiles, adding 433 charge damage at level 13 on top of the 371 spawn damage.
+- Ground defenders that must be cleared before a push connects — after dismounting he keeps dealing splash damage to troops while the Rhino goes for the tower, pressuring two places at once.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Knockback effects — they stop the Rhino.
+- Stuns — they also counter the Rhino.
+- Buildings — they pull and absorb the Rhino's charge.
+- Air troops — he and the Rhino are both ground-targeting only.
+- Elixir-heavy trades in general: he plus his activated ability counts as 7 Elixir (4 for the card, 3 for the ability), so a cheap answer to either half wins the trade.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 4 Elixir ground splash troop with a shield, plus a 3 Elixir Destructive Dismount ability that splits him into two threats.
+- Ability: pressing Destructive Dismount makes the Dark Prince jump off the Rhino, dealing spawn damage on impact; the Rhino then charges at buildings while the Dark Prince attacks troops on foot.
+- Cost accounting: for Elixir trade purposes treat the Heroic Dark Prince plus his ability as 7 Elixir, since you pay 4 for the card and 3 more to activate.
+- Using the ability costs him his charge — he loses the charge attack once dismounted, so time it after you have gotten value from the charge or when you need the splash immediately.
+- Use the dismount spawn damage as a swarm-clearing tool: it kills Skeleton Army or Goblin Gang outright and leaves you with a counterpush.
+- Mounted, he still begins charging after travelling 3 tiles, deals double damage on the charge (644 vs 322 at level 13), hits a 360° area, and can jump over the river.
+- His shield (310 hitpoints at level 13) absorbs damage on top of his normal hitpoints.
+- The Rhino is a separate unit with its own hitpoints (1641 at level 13) that only targets buildings, so it ignores troops entirely once released.
 
 ## Source
 

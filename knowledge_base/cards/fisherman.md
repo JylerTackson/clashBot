@@ -70,15 +70,38 @@ Is able to hook to the nearest enemy or Crown Tower in the arena.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Hog Rider — he can counter it completely with or without a King activation: hover him on the third tile from the river and second tile horizontally in the opposite lane, then drop him when the Hog's deploy timer is halfway done.
+- Ranged troops pulled onto your side — Wizard, Electro Wizard, Musketeer, Archer Queen and Hunter all die for a positive Elixir trade.
+- Valkyrie placed near the centre by your King Tower, where both Crown Towers plus his slow and damage finish her.
+- Mega Knight — with correct timing, hooking a same-level lone Mega Knight toward the King Tower puts both Crown Towers on him (add Mini P.E.K.K.A, Prince, Mighty Miner, Hunter, Inferno Dragon, Elite Barbarians or Mega Minion to be safe), and the hook can also deny his jump.
+- Giant Skeleton — pulling it away from your tower means the death bomb does not detonate on top of the tower.
+- Charging troops: the hook resets Battle Ram, Ram Rider, Prince and Dark Prince charges, and it even cancels a Bandit mid-dash despite her usual invulnerability.
+- Building-targeting units, which he can hook away from your buildings before they connect.
+- Enemy heavy hitters dropped in response to your push — pulling them away leaves your push mostly unharmed.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- High close-range damage troops in a 1-on-1: Hunter, Mini P.E.K.K.A., Elite Barbarians, Prince, Mighty Miner and P.E.K.K.A — avoid reeling them in alone unless you must drag them off your tower.
+- Goblins, when he is deployed with no support — his damage does not one-shot a Goblin.
+- Continual stun cards, which lock him permanently into his hook charge until he dies; Electro Dragon (chain lightning) and Electro Wizard (split attack) are the most reliable.
+- Cheap swarms used to bait his hook, letting a building chaser reach the tower uninterrupted.
+- Tanks and swarms generally, as noted in the card overview.
+- He is not invulnerable while hooking (unlike the Bandit's dash) and can be defeated mid-hook.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 3 Elixir defensive support card, best used to separate a tank from its support, especially building-targeting units.
+- The hook charges for 1.3 seconds, works on ground units at 3.5-7 tiles, pulls troops toward him (or pulls him toward buildings), and slows movement and attack speed by 35% for 1.5 seconds.
+- Do not cycle him in the back — the opponent can bait an unfavourable hook that drags a Giant Skeleton, Mighty Miner, P.E.K.K.A, Golem, Monk, Sparky, Goblin Giant, Electro Giant, Mega Knight or Hog Rider toward your tower.
+- King Tower activation: place him in front of the King Tower, slightly into the opposite lane, against most building chasers or melee splash troops. Your Crown Tower usually takes some damage first, so only do this while healthy.
+- Against continuous ranged splashers like Magic Archer and Evolved Bomber, place him on the fourth tile vertically from the King Tower and the third tile horizontally from the Crown Tower as they walk into range to force the activation.
+- Deploying slightly earlier against a building chaser hooks it right before it hits the tower for zero damage, but missing the timing fails the activation entirely.
+- After an activation all three Crown Towers stay distracted by the hooked troop briefly, which the opponent can punish with frail high-damage troops; do not pull something like a Giant Skeleton to the King Tower more than twice, or you risk a back-door three crown.
+- Miner counter: if you expect a Miner behind your Crown Tower, drop the Fisherman behind the King Tower in the Miner's lane so the Miner retargets and activates the King.
+- Pairs well with short-range melee troops, since he drags enemies into their reach; Fisherman + Hunter is especially strong, as he tanks for the frail Hunter and hooks units into range so every shot lands.
+- Pair him with Skeletons, Goblins or Guards to distract dangerous troops so he survives for a counterpush.
+- Royal Giant synergy: he pulls high-DPS defenders off the Royal Giant and can snipe buildings such as an Inferno Tower by standing mid-river; The Log helps clear distraction cards aimed at him.
+- Mortar synergy: troops sent to distract the Mortar (Mini P.E.K.K.A., Lumberjack) get pulled into its dead zone, and he can weaken distracting buildings. The pair gives spell value — a Rocket fully counters it for a +1 trade if he stands too close to the Mortar.
 
 ## Source
 

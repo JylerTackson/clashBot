@@ -78,15 +78,60 @@ Instead of Goblins, the Goblin Barrel spawns Goblin Brawlers.
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Undefended Crown Towers - if left ignored it deals nearly twice the Crown Tower damage of an equal-Level Rocket for half the Elixir.
+- Decks without a small spell or splash card - the three Goblins have high DPS and will connect repeatedly.
+- Opponents distracted by a tank - behind an Ice Golem, Knight, Hog Rider, Lumberjack or Valkyrie, the Goblins can deal extremely high damage in a short time.
+- Buildings out of your troops' reach - it can be thrown anywhere in the Arena to finish them off.
+- Back-corner Elixir Collector - a corner-Arena Barrel denies at least 3 Elixir if the opponent only has swarms to answer it (they cannot place them on top of the Goblins).
+- Spawner buildings like a Goblin Hut, as long as the Goblins do not land while a spawned wave is out.
+- Sparky, on defense - a well placed Barrel surrounds her, and with Crown Tower help she dies because she needs three shots to clear all 3 Goblins.
+- Spell-reliant defenses - it baits out the opponent's spell so you can follow with Skeleton Army or Minion Horde.
+- Low-health King Towers - thrown in front of the Tower the Goblins arrive sooner and the opponent tends to answer behind the Tower.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Damaging spells and area-damage troops in general - the Goblins have very low hitpoints.
+- The Log - the best counter: instant kill on all three plus chip damage on any tank accompanying the Barrel.
+- Arrows - the most reliable counter thanks to the large area; 2 of the 3 waves kill the Goblins, and the third finishes even higher-Level ones.
+- Barbarian Barrel - fully counters it for a neutral or positive trade, though its narrower width can miss staggered placements and Goblins 2 Levels above it survive.
+- Royal Delivery - fully counters it, but its long deploy time means you must react the instant the Barrel is launched.
+- Fireball - kills the Goblins at any Level, but a negative Elixir trade.
+- Giant Snowball - fully counters a lone center-placed Barrel when released as the Barrel's shadow is 2 tiles above the Crown Tower.
+- Tornado - placed 2 tiles to the side of the middle of the King's Tower about 1 second before the Barrel lands, it prevents all damage and activates the King's Tower.
+- Swarms - Skeleton Army, Goblin Gang, Barbarians, Goblins or a Witch's Skeletons placed behind the Crown Tower cover everything but the front tiles.
+- Splash and one-shot troops - Valkyrie, Dark Prince (his instant 360-degree charge hit), Bowler, Executioner, Hunter, Magic Archer, Mega Knight spawn damage, Lumberjack and Fire Spirit all shut it down with correct timing.
+- Ranged units - Archers, Musketeer, Wizard, Cannon Cart and similar hold it to two hits; a Dart Goblin to three.
+- Champion abilities - Archer Queen (invisible, boosted attack speed), Golden Knight and Mighty Miner can all counter it for no damage.
+- Air swarms - Bats or Minions dropped directly over the landing spot kill the Goblins without being counterattacked.
+- An activated King's Tower - combined targeting with a Crown Tower kills the Goblins far faster and cripples the whole push.
+- Dagger Duchess - she attacks fast enough that even spells which do not outright kill the Goblins prevent all tower damage.
+- Rocket and Lightning technically clear it but are negative Elixir trades that may not hit all three Goblins.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: 3 Elixir win-condition / spell-bait card - a spell that lands anywhere in the Arena and spawns 3 Goblins (very fast, melee short range, 1.1 second deploy time).
+- Pair it with a tank or mini-tank in the same lane (Ice Golem, Knight, Hog Rider, Lumberjack, Valkyrie) so the Crown Tower locks onto the tank and all three Goblins connect - but this combo folds to a spell or splash card that kills the Goblins first.
+- Default placement is the center of the Crown Tower: the Goblins split to all sides, making them harder for splash troops to catch. From that split the Crown Tower first targets the Goblin horizontally closest to the King's Tower, so place your own counter on the Goblin nearer the Arena edge to prevent more damage.
+- "Tricky barrel" placement 3 tiles above the Crown Tower looks nearly identical to a center Barrel and can make a forward Barbarian Barrel or The Log miss Goblins; it does not work in 2v2 because the wider King Tower pulls the Goblins.
+- A tricky barrel in the top corner can also dodge Arrows or force an extra card, but the Goblins have to walk in so total damage is lower.
+- Placing it 1 tile to the side of the Tower makes a center-placed Barbarian Barrel miss one Goblin, and punishes the opponent hard if they guess the wrong side; it does not work against The Log, which always hits all 3.
+- Placing it directly in front of the Tower beats opponents who answer from further back - the Goblins spawn sooner and get a round of stabs in before swarms like Skeleton Army or Goblin Gang arrive.
+- Placing it in the outer corner of the Crown Tower denies a Tornado King Tower activation; use it when Tornado is the opponent's only answer.
+- When attacking the King's Tower, distract the remaining Crown Towers with another unit, or the low-hitpoint Goblins die immediately.
+- Add Giant Snowball, Arrows or Rage alongside the Barrel to kill or weaken the defensive swarm so the Goblins connect.
+- Freeze combos well - the Tower is frozen while the Goblins hit - but the push is risky against area damage; Rage and Clone do a similar job slightly cheaper.
+- Mirror makes it deadlier: a Mirrored Goblin Barrel with Goblins at least one Level above the Tower Princess forces three tower shots to clear them, though the Mirror's visual effect reveals the location.
+- Princess at the bridge right after the Barrel is a strong follow-up - the opponent cannot hit both with one spell and must choose; with a tricky barrel they may miss both.
+- Avoid cards that hand the opponent easy King Tower activations, such as Electro Spirit and Firecracker, since an activated King's Tower guts the Barrel.
+- Defending against it, do not overreact with an expensive card unless you can turn it into a counterpush - the Barrel is only 3 Elixir.
+- Note that Zap and Earthquake at equal Level do not instantly kill the Goblins, so some tower chip gets through every time.
+- Fire Spirit trick: drag a card like Skeletons behind the Tower, then select Fire Spirit while still holding it and double tap the same tile to push the Fire Spirit forward far enough to kill all 3 Goblins - a +1 Elixir trade that saves your spell. A Furnace directly behind the Crown Tower works similarly for a negative trade.
+- Bowler timing: release him as the Barrel's shadow passes the Crown Tower so his deploy finishes just as the Goblins spawn; he kills all three even against mixed-up placements and sets up a counterpush. Hunter works but fails against varied placements.
+- Mega Knight timing: deploy on the middle tile of any side of the Crown Tower right as the Barrel's shadow crosses the river to kill all three - but an adept opponent will stagger the Barrel one tile opposite and make him miss, and he costs 7 Elixir to the Barrel's 3.
+- Electro Wizard and Ice Wizard can catch all three with spawn damage if dropped 2-3 tiles past the river, which matters mainly when the Goblins are being tanked for.
+- Modifier - Common: Cannonball!, the Barrel deals Fireball-like impact damage on landing and has an increased radius.
+- Modifier - Rare: Double Barrel, shoots two waves of Goblins instead of one.
+- Modifier - Epic: Muscle Mates, spawns 3 Goblin Brawlers instead of Goblins.
 
 ## Evolution
 
