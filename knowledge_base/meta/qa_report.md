@@ -127,5 +127,5 @@ Ryley's video `CInrqMTlVkg` ("Minion Giant is the Most OVERPOWERED Card!!") is b
 around Minion Giant, which is not in the `Card Overviews` list and whose wiki page is a
 stub ("Coming soon..."). There is no `cards/minion-giant.md`; the hand reader reads the
 card as Giant and the unit detector cannot see it. Match files for that video name it
-in prose only. Same situation for `Spirit Empress`, `Boss Bandit`, `Ronin` and
-`Rune Giant` should be checked when the wiki catches up (pages exist; content not verified).
+in prose only. (Boss Bandit, Ronin, Rune Giant and Spirit Empress do have card files;
+only Minion Giant is missing as of this note.)
