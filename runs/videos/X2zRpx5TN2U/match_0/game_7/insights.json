@@ -1,0 +1,121 @@
+{
+  "key": "X2zRpx5TN2U-m0.7",
+  "match_file": "matches/X2zRpx5TN2U-m0.7.md",
+  "video_title": "This Rune Giant Deck is TOTALLY OVERPOWERED!!",
+  "cards": {
+    "rune-giant": [
+      "clock 2:30 (t=1261.4): opens the push with Rune Giant at tile [8, 0], the centre of his own back line (HUD 10.0 -> 6.0), then adds Berserker at [7, 5] and Mother Witch at [6, 6] in front of it — the enemy left tower is down to 2448 of 4858 HP by clock 1:51.",
+      "clock 1:30 (t=1321.8): Rune Giant at [8, 0] again as a bait/answer setup — \"I guess I'm just going to go for a Rune Giant in the back here again cuz if he tries to go for a set of E-Barbs, then I can just go for my E-Barbs, or even better, I could probably just Berserker push this ability\" (t=1317-1324).",
+      "clock 0:47 (t=1364.4): places her at [10, 0], the opposite lane, purely to dodge the opponent's defensive card — \"I'm going to Rune Giant opposite cuz he might Cannon Cart the left side, so I want to go opposite lane\" (t=1364-1368).",
+      "clock 1:18 (t=1334.0): he sequences the rest of the push around her buff, sending Elite Barbarians early — \"I want to do it early so my Rune Giant has the upgrade available quicker\" (t=1333-1336). In overtime (t=1432.4) a fourth Rune Giant at [8, 0] is the play he makes while behind: \"let's rune giant here. We have to go for something.\""
+    ],
+    "berserker": [
+      "Played as the Hero variant all game and the ability is narrated every time. clock 1:01 (t=1352.4): Berserker at the left bridge [2, 15], then Savage Survival popped so she survives the trade — \"Let's pop the ability just to keep this alive so we can take out that mortar. Come on. Take this out, please, and we can Evo Zap here as well\" (t=1354-1360), which he then calls \"Great defense\" (t=1364).",
+      "clock 1:29 (t=1324.3): Berserker at [10, 9] behind the fresh Rune Giant, and he weighs the ability against spending 6 on Elite Barbarians — \"even better, I could probably just Berserker push this ability\" (t=1323-1324).",
+      "clock 0:23 (t=1389.2): Berserker at [12, 14] at the right bridge with the same follow-up planned — \"Let's berserker at the bridge here too, then we can pop the ability.\"",
+      "overtime 1:10-1:03 (t=1464-1471): Berserkers at the tower with the ability held until it charges — \"Berserkers on the tower. Can we get the ability, please? Please. Ability. Nice... Oh my god, we got the ability. That's huge\"; the enemy left tower goes 2003 -> 1351 across that window and falls shortly after."
+    ],
+    "mother-witch": [
+      "clock 2:26 (t=1266.3): Mother Witch at [6, 6], behind the Rune Giant and into an incoming Barbarians/Elite Barbarians push, with the conversion count as the explicit goal — \"I know this is going to get a little bit of damage, but it's fine. I just want to get as many piggies as possible. I think we should get like maybe two piggies if we're lucky\" (t=1266-1275).",
+      "clock 2:00 (t=1291.6): he spends a Heal Spirit purely to protect her rather than to damage anything — \"It's Heal Spirit here as well. Keep the Mother Witch on full HP. Beautiful\" (t=1292-1294).",
+      "clock 0:32 (t=1380.5) and overtime 1:24 (t=1448.8): Mother Witch at [9, 12] and then at [7, 13] \"at the bridge\", each time in front of a Witch / Elite Barbarians / Electro Spirit push so the deaths convert — \"Let's go for the mother witch here at the bridge. We can go for the e-barbs here as well\" (t=1447-1450).",
+      "overtime 1:11-0:50: he tracks her survival as the win condition — \"Mother witch is still alive and cooking\" (t=1462), \"Let's mother witch this again\" (t=1466) — and the Cursed Hogs finish the game: \"The piggy. The piggy. Let's go. Dude, we won\" (t=1481-1483)."
+    ],
+    "elite-barbarians": [
+      "clock 2:13 (t=1279.6, a 5-elixir drop matching the bridge deploy label at [3, 15]): bridge Elite Barbarians only because support is already on the field — \"we can go for our own E-Barbs at the bridge cuz we have the Mother Witch supporting as well. This is actually a good push\" (t=1278-1281).",
+      "clock 1:18 (t=1334.0): Elite Barbarians at [3, 8] on his own half, timed around the tank rather than the opponent — \"I'm going to go for the E-Barbs here. I want to do it early so my Rune Giant has the upgrade available quicker.\"",
+      "clock 0:42-0:40 (t=1370.4 at [8, 0], a second barbarian-type deploy at [11, 1]): the split, played specifically to deny a Champion double-hit — \"let's go for the E-Barbs split. I don't want to do them all in the same lane because if I do them in the same lane, then he can just get the crazy Goblin Stine value every time\" (t=1371-1379).",
+      "The opponent runs them too; Ryley never spells them, absorbing them with Minions, Heal Spirit and the Mother Witch so the deaths become Cursed Hogs."
+    ],
+    "minions": [
+      "clock 2:47 (t=1244.7): Minions plus Heal Spirit as the immediate answer to a Mortar placed centre-river at [8, 16] — \"Here, let's go for the Minions and Heal Spirit. Try to figure out his exact variation of Mortar\" (t=1244-1250).",
+      "clock 2:04 (t=1288.3) and 1:13 (t=1340.3): Minions at [1, 14], his own half behind the push, as counter-push insurance timed against the opponent's elixir — \"he shouldn't be able to afford the [Goblin]Stine right away, so our Minions will just clean up any type of counter push\" (t=1338-1346).",
+      "overtime 1:37 (t=1435.4): Minions at [13, 15] with the follow-up already planned — \"We can minions here. He goes freeze minions, we have mother witch\" (t=1436-1438).",
+      "clock 0:08 (t=1402.2): Minions at [8, 14] when he thinks the game is lost, purely for chip — \"Let's minions here. We have to let this lock on and deal some [damage].\""
+    ],
+    "heal-spirit": [
+      "clock 2:47 (t=1245.2) at [9, 6] and clock 2:00 (t=1291.6) at [2, 15]: always dropped onto his own units, not as damage — \"It's Heal Spirit here as well. Keep the Mother Witch on full HP\" (t=1292-1293).",
+      "overtime 1:51 (t=1421.4) at [8, 12] and 1:19 (t=1451.5) at [7, 13]: the reactive answer to the opponent's chip on his defenders — \"He goes for the minions, we have heal spirit. Okay, well, we have heal spirit anyways here\" (t=1450-1454).",
+      "overtime 0:57 (t=1476.5) at [3, 13]: spent alongside the Fireball/Evo Zap finishing sequence to keep the tower push alive."
+    ],
+    "zap": [
+      "Run as the Evolution. clock 1:57 (t=1295.3): Zap at [3, 23] deep on the enemy half to finish something already damaged — \"We can Zap here as well just to take this out immediately\" (t=1296-1297).",
+      "clock 0:52 (t=1359.4): Evo Zap at [2, 18], directly on the opponent's Mortar at [2, 17], behind a Berserker whose ability is already active — \"Take this out, please, and we can Evo Zap here as well. Nice. Let's go\" (t=1358-1360).",
+      "clock 0:27 (t~1386): Zap chained onto the Fireball on the opponent's Witch — \"Okay, wait. I can fireball this. Zap as well.\" He repeats the pairing in overtime at 0:57 (\"Evo zap here\", t=1475)."
+    ],
+    "fireball": [
+      "clock 0:27 (t=1384.4): Fireball at [11, 20] onto the opponent's Witch as she lands at [11, 18], with a Zap behind it — \"Okay, wait. I can fireball this. Zap as well.\"",
+      "clock 0:05 (t=1405.4): Fireball at [2, 21] straight onto the enemy left tower (2448 -> 2173) at the moment he thinks the game is gone — \"I'm going to fireball the tower though cuz this is only going to get one shot anyways. We can have the free tower damage. We're not out of it yet\" (t=1406-1412). That chip is what makes the overtime finish reachable.",
+      "overtime 0:58 and 0:50 (t=1474.5 at [3, 24], t=1485.5 at [5, 24]): two more Fireballs on the same tower to close the match — \"Go. Go. Go. Go. Go. Fireball\" (t=1473), \"all we have to do is get one more fireball. The piggy. The piggy. Let's go. Dude, we won\" (t=1480-1483). Enemy left 1106 -> 264 -> 102."
+    ],
+    "mortar": [
+      "clock 2:45 (t=1245.2): the opponent's opening Mortar lands centre-river at tile [8, 16] and Ryley criticises it as a blind first play — \"Down the middle first play is interesting. I'm kind of surprised by that. I know in some match ups it's better like maybe against a Baby Dragon deck or if you're against like... a Magic Archer sometimes down the middle can be better, but I'm surprised that he did it without knowing my deck yet\" (t=1250-1264).",
+      "clock 0:55 (t=1355.4) at [2, 17]: he answers a lane Mortar with a bridge Berserker plus her ability plus Evo Zap rather than a spell — \"Let's pop the ability just to keep this alive so we can take out that mortar\" (t=1354-1357).",
+      "overtime 1:33 (t=1437.4) at [13, 17]: \"That was a bad mortar though. We can minions here\" (t=1435-1436) — a mistimed siege placement he punishes with Minions and Mother Witch."
+    ],
+    "cannon-cart": [
+      "clock 0:47: the card he plays around before it appears — \"I'm going to Rune Giant opposite cuz he might Cannon Cart the left side, so I want to go opposite lane\" (t=1364-1368).",
+      "clock 0:19 (t=1391.4): Cannon Cart at [9, 16] plus a lane Mortar is what flips the game; his own right tower falls 4858 -> 2959 in the next twenty seconds and he calls it \"GG's\" (t=1394-1402).",
+      "overtime 1:27 (t~1445): a misplayed one is the opening he needed — \"Bad cannon cart too. Very bad cannon cart. Let's go for the mother witch here at the bridge\" (t=1445-1447)."
+    ],
+    "goblinstein": [
+      "Never picked up by the unit tracker but the opponent card Ryley respects most all game — first sight at clock 2:11: \"Okay, he has the Goblin Stine, too\" (t=1282).",
+      "He rates the opponent's ability timing twice: too early at clock 2:07 (\"Wait, that was an early ability, I feel like. I feel like he should have waited on that ability\", t=1285-1288; \"That Goblin Stine ability was way too quick\", t=1300, as the enemy left tower drops 4279 -> 2448), and good in overtime (\"Ooh, that was a good stein ability though. Decent defense by us\", t=1424-1426).",
+      "clock 0:40: he changes his own Elite Barbarians placement specifically to deny it — \"I don't want to do them all in the same lane because if I do them in the same lane, then he can just get the crazy Goblin Stine value every time\" (t=1373-1379). He also times his Minions around the opponent not being able to afford it (t=1344-1346)."
+    ],
+    "witch": [
+      "clock 0:25 (t=1385.4): the opponent's Witch lands at [11, 18] and is Fireballed plus Zapped on arrival — \"Okay, wait. I can fireball this. Zap as well\" (t=1384-1386).",
+      "overtime 1:55 and 1:24 (t=1417.4 at [11, 12], t=1448.4 at [9, 14]): repeat Witches into his half are met with Mother Witch plus Berserker plus Heal Spirit instead of a spell, feeding the Cursed Hog conversions that end the game."
+    ],
+    "barbarians": [
+      "clock 2:31-2:14 (t=1259.3 at [13, 13], t=1278.3 at [3, 14]): the opponent's Barbarians walk into his lanes while his Rune Giant push is building; he accepts the tower damage rather than spending on them — \"I know this is going to get a little bit of damage, but it's fine. I just want to get as many piggies as possible\" (t=1268-1272) — and the Mother Witch converts the deaths."
+    ],
+    "electro-spirit": [
+      "overtime 1:19 (t=1451.5) at [13, 13]: part of the opponent's Elite Barbarians / Witch / Electro Spirit overtime push that Ryley answers with Mother Witch plus Heal Spirit — \"He goes for the minions, we have heal spirit\" (t=1450-1452)."
+    ],
+    "rage": [
+      "overtime 1:13 (t=1457.5): a Rage tracked at [11, 12] on the opponent's overtime push (arena detection, medium confidence, not named in commentary)."
+    ],
+    "goblin-drill": [
+      "Mentioned only, never played by either side: his pre-game read on the opponent at t=1241-1243 — \"against Marsh. This guy usually uses Goblin Drill Bowler. This is going to be an interesting match\" — a read the actual Mortar siege list then contradicts."
+    ],
+    "bowler": [
+      "Mentioned only, never played: named alongside Goblin Drill as the deck he expected this opponent to bring (t=1241-1243)."
+    ],
+    "baby-dragon": [
+      "Mentioned only, as the matchup where he thinks a centre Mortar is justified — \"I know in some match ups it's better like maybe against a Baby Dragon deck\" (t=1255-1257)."
+    ],
+    "magic-archer": [
+      "Mentioned only, in the same thought about when middle Mortar placement is correct — \"I know a Magic Archer sometimes down the middle can be better, but I'm surprised that he did it without knowing my deck yet\" (t=1259-1264)."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-elite-barbarians-fireball-heal-spirit-minions-mother-witch-rune-giant-zap",
+    "cards": [
+      "rune-giant",
+      "berserker",
+      "elite-barbarians",
+      "mother-witch",
+      "minions",
+      "heal-spirit",
+      "zap",
+      "fireball"
+    ],
+    "bullets": [
+      "Game 8 of 8 in the video, and a win from behind: he takes the enemy left tower to 2448 of 4858 HP by clock 1:51, loses the initiative to a Cannon Cart / Mortar counter-push (own right tower to 2959, \"Yeah, we're dead. Okay, well, this is GG's, I think\", t=1400-1402), then wins in overtime on the same tower — \"The piggy. The piggy. Let's go. Dude, we won. We just have to cycle back. What a win, man\" (t=1481-1485).",
+      "The pattern is Rune Giant from his own back line (tiles [8, 0], [8, 0], [10, 0], [8, 0]) with Berserker and Mother Witch walked in front of it, never the tank at the bridge; the bridge pressure comes from Berserker and Elite Barbarians instead.",
+      "Mother Witch is the real win condition: he plays her into crowded pushes for the Cursed Hog conversions (\"I just want to get as many piggies as possible... maybe two piggies if we're lucky\", t=1271-1275), spends Heal Spirit to keep her alive (\"Keep the Mother Witch on full HP\", t=1293), and it is the Cursed Hogs that finish the game in overtime.",
+      "Berserker is the Hero: Savage Survival is popped for survival (\"Let's pop the ability just to keep this alive so we can take out that mortar\", t=1355), weighed against spending 6 elixir (\"I could probably just Berserker push this ability\", t=1324), and held for the final tower push (\"we got the ability. That's huge\", t=1471).",
+      "Elite Barbarians are placed by threat, not by habit: at the bridge only with Mother Witch already supporting (t=1278-1281), early on his own half to line up the Rune Giant buff (\"I want to do it early so my Rune Giant has the upgrade available quicker\", t=1336), and split across lanes against a Champion (\"if I do them in the same lane, then he can just get the crazy Goblin Stine value every time\", t=1376).",
+      "Minions and Heal Spirit are cheap insurance rather than offence — Minions behind the push to \"clean up any type of counter push\" (t=1345), Heal Spirit onto his own units — while Evo Zap and Fireball do the finishing, including a Fireball on the tower purely for free chip when he thought the game was lost (t=1406-1412), which is what put the overtime win in range.",
+      "His stated verdict on the deck, twice: \"This deck is just so punishing, man. Any slight mistake and you're just cooked\" (t=1305-1308), tempered by \"Obviously, if he defends like this every single time, I think he'll be chilling, but... it's going to be very hard to defend like that every time\" (t=1348-1353)."
+    ],
+    "new_deck": {
+      "display_name": "Rune Giant Ryley",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "beatdown",
+      "rationale": "The pressure comes from cheap fast units placed at the bridge (Berserker, Elite Barbarians, Mother Witch) rather than from a slow back-line build-up, with the 4-elixir Rune Giant acting as a cheap tank and damage buff rather than a beatdown centrepiece.",
+      "why_it_works_md": "The Rune Giant costs only 4, so she can go down in the back without conceding the tempo a real beatdown tank would, and her enchant turns the deck's fast, low-damage hitters — Berserker above all — into real threats on every third attack. Mother Witch supplies the second win condition: she is played into whatever the opponent commits to the push, and the Cursed Hogs she leaves behind convert a successful defence directly into tower damage, which is exactly how this match was won from behind in overtime. Berserker's Hero ability (Savage Survival, 3 elixir) makes her survivable enough to lead a bridge push or to hold a lane on defence, and Heal Spirit plus Minions keep the counter-push cheap so the Fireball and Evo Zap slots are free for finishing. The weakness Ryley names himself is that a disciplined defender can hold it: \"if he defends like this every single time, I think he'll be chilling\"."
+    }
+  }
+}

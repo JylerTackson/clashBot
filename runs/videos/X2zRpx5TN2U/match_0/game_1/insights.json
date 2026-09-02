@@ -1,0 +1,86 @@
+{
+  "key": "X2zRpx5TN2U-m0.1",
+  "match_file": "matches/X2zRpx5TN2U-m0.1.md",
+  "video_title": "This Rune Giant Deck is TOTALLY OVERPOWERED!!",
+  "cards": {
+    "berserker": [
+      "clock 2:32: pays the Hero's 3-elixir Savage Survival (own elixir 9 -> 6 with no hand change) purely to delete a Skeleton King that had just crossed at (1, 18) — \"Let's pop the ability just to make sure that we take out that Skeleton King. Just want to get that thing off the board.\"",
+      "clock 2:27 (ability running): the general claim he makes for the Hero variant — \"It's just so crazy how good the Hero Berserker is against just like any singular unit. You're able to just basically take every single singular unit out off the board just so fast. Kind of ridiculous.\"",
+      "clock 2:37: plain 2-elixir deploy at (4, 13), left lane on his own half, at 10 elixir (deploy label; the HUD misread this as Barbarian Barrel).",
+      "clock 1:18: Berserker at (3, 15), on the river in the left lane, at 4 elixir — the winning card, with the enemy left tower falling 3470 -> 1163 in the next six seconds. \"Okay, let's go for the Berserker. Let's Evo Zap this as well. Just keep this alive.\""
+    ],
+    "rune-giant": [
+      "clock 1:48: played once and defensively, at (9, 12) centre-map on his own half while the opponent's Elixir Golem sat at (3, 12) and an Inferno Dragon at (5, 16) in the left lane — a kite with a building-targeting 4-elixir troop rather than a lane trade. Pre-announced twice: \"If he goes for an E-Golem at the bridge, we will have to Rune Giant kite\" (clock 1:52) and \"we do have to kite this with the Rune Giant\" (clock 1:48).",
+      "clock 2:47: the frame for the whole session — he is not sure the card carries itself: \"there's a possibility that's not even all that good and it's just really good with these cards ... sometimes I get a little bit overexcited and maybe think the card is a little bit better than it is, but it was just super good in one deck, which makes it just look extremely strong.\""
+    ],
+    "elite-barbarians": [
+      "clock 2:07: Elite Barbarians at (3, 13), left lane at the bridge, elixir 10 -> 4 — an anti-leak play, not a read: \"I don't really want to cycle my E-Barbs here ... I would rather just leak some Elixir right here. But the thing is, if I leak Elixir, he just waits till double, then we lose. So I I guess I'll just E-Barbs at the bridge.\" The enemy left tower goes 4858 -> 3555 over the next 15 seconds.",
+      "clock 2:04: he commits them only because he is holding the swarm answer — \"We have Zap in case he has a Skeleton Army.\"",
+      "clock 1:25: second Elite Barbarians at (7, 10), centre of his own half, used as a kite against the splitting Elixir Golem and a second Inferno Dragon rather than as a lane push — \"Let's E-Barbs kite here.\"",
+      "clock 1:56: he counts the Evolution cycle as part of the plan — \"Okay, having the Evil [Evo] E-Barbs up next will be nice.\""
+    ],
+    "mother-witch": [
+      "clock 1:46: Mother Witch at (2, 4), deep behind his own left tower and directly in the path of an Elixir Golem that then splits into big/mid/small forms — the multi-body push is exactly her curse target. \"And we can go for the Mother Witch here.\"",
+      "clock 1:26: her surviving the push is what he tracks out loud during the counterattack — \"Mother Witch still being alive is not — [nice].\"",
+      "clock 1:12: calls for a second one as an offensive bridge play — \"let's go for another Mother Witch here at the bridge\" — but his own elixir reads 3 falling to 1 across that window, and the only Mother Witch label at (4, 19) is attributed to the opponent; treat the second cast as unconfirmed."
+    ],
+    "minions": [
+      "clock 2:23: Minions at (16, 1), far-right back corner, elixir 9 -> 6, with nothing tracked in that lane.",
+      "clock 1:37: Minions at (5, 5) added to the Elixir Golem defence behind the Mother Witch, placed off-centre on purpose because he had already called the spell — \"He's going to arrows, right? Yep, let's go for the Minions here off to the side.\""
+    ],
+    "heal-spirit": [
+      "clock 2:43: Heal Spirit at (8, 0) behind the King Tower at 9 elixir — pure cycle, no threat on the board.",
+      "clock 1:36: Heal Spirit at (6, 8) as the last card stacked onto the Elixir Golem defence, healing the Mother Witch and Minions already committed — \"then we can go for the Heal Spirit, too.\""
+    ],
+    "zap": [
+      "clock 2:02: Zap at (1, 18), on the opponent's half over the Elite Barbarians that had just crossed — but he names its job before the push even goes down: \"We have Zap in case he has a Skeleton Army. Yep, let's just go for the Zap here.\" It is held as push insurance, not spent on defence.",
+      "clock 1:18: calls a second one alongside the Berserker — \"Let's Evo Zap this as well\" — so he is on the Evolved version; the cast itself is not separable from the 2-elixir drop at clock 1:09."
+    ],
+    "fireball": [
+      "Never cast and never named in the readable window (clock 2:50-0:58); it is in the deck on the session list and sits in the HUD's fourth hand slot for nearly every timeline row, which is itself a low-confidence read (hand_conf 0.57)."
+    ],
+    "elixir-golem": [
+      "clock 1:48 (opponent): the Elixir Golem is already at (3, 12) on Ryley's half with an Inferno Dragon behind it. Ryley's pre-planned answer is a kite, not a trade — \"If he goes for an E-Golem at the bridge, we will have to Rune Giant kite\" — and he then layers Mother Witch (1:46), Minions (1:37) and Heal Spirit (1:36) behind his tower against the split bodies.",
+      "clock 1:38-1:24 (opponent): the push still takes his left tower from 4786 to 1616 and activates his King Tower; he answers the leaking small form at clock 1:25 with \"Let's E-Barbs kite here.\""
+    ],
+    "inferno-dragon": [
+      "clock 1:55 (opponent): tracked at (5, 22) and used by Ryley as the tell for the whole archetype — \"He has an Inferno Dragon, as well. Yo, this could be the Golem E-Barbs deck.\"",
+      "clock 1:52 (opponent): the threat line reads \"inferno-dragon(e) advancing left lane, tower in 7.9s\"; a second one comes down the right lane at clock 1:26."
+    ],
+    "skeleton-king": [
+      "clock 2:28 (opponent): tracked at (1, 18) then crossing to (5, 19). Ryley spends the Heroic Berserker's 3-elixir ability on it rather than a card — \"Let's pop the ability just to make sure that we take out that Skeleton King. Just want to get that thing off the board.\""
+    ],
+    "arrows": [
+      "clock 1:42 (opponent): predicted before it exists — \"He's going to arrows, right?\" — and he places his Minions at (5, 5) \"off to the side\" for it. The Arrows are only actually tracked at (4, 22) at clock 1:05."
+    ],
+    "rage": [
+      "clock 1:34 (opponent): a missed Rage on the Elixir Golem push is what Ryley says decided the game — \"how did he miss his rage? There's a lot of questions here for this guy, man\" (clock 1:34), and again at clock 1:08, \"I think this guy's going to get three-crowned just cuz he missed a rage.\""
+    ],
+    "golem": [
+      "clock 1:58: named only as a read, not seen — after the Inferno Dragon appears he calls the opponent's list \"the Golem E-Barbs deck.\""
+    ],
+    "night-witch": [
+      "clock 1:50: named only as a card he is holding elixir for and never sees — \"I'm waiting for the Night Witch, as well, cuz we do have to kite this with the Rune Giant.\""
+    ],
+    "skeleton-army": [
+      "clock 2:04: named only as the threat his Zap is reserved for when he commits the Elite Barbarians to the bridge — \"We have Zap in case he has a Skeleton Army.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-elite-barbarians-fireball-heal-spirit-minions-mother-witch-rune-giant-zap",
+    "cards": ["rune-giant", "berserker", "elite-barbarians", "mother-witch", "minions", "heal-spirit", "zap", "fireball"],
+    "bullets": [
+      "X2zRpx5TN2U game 1 (clock 2:50-0:58, win): a 119-second readable slice against Elixir Golem beatdown (Skeleton King, Inferno Dragon, Arrows, Zap, a missed Rage). The deck's two cheap bodies do the work — Heroic Berserker's Savage Survival at clock 2:32 removes a Skeleton King for 3 elixir, and a 2-elixir Berserker at the bridge at clock 1:18 takes the enemy left tower from 3470 to 1163.",
+      "clock 2:16-2:07: the deck's answer to being capped at 10 elixir against beatdown is Elite Barbarians at the bridge with Zap held — \"if I leak Elixir, he just waits till double, then we lose. So I I guess I'll just E-Barbs at the bridge ... We have Zap in case he has a Skeleton Army.\" That push takes ~1300 off the enemy left tower.",
+      "clock 1:48-1:36: the stated Elixir Golem plan is a Rune Giant kite at (9, 12) centre-map plus Mother Witch (2, 4), Minions (5, 5) and Heal Spirit (6, 8) layered behind the tower — a four-card defence that still concedes the left tower down to 1616 and an activated King Tower, so the deck defends a big push by out-cycling it rather than stopping it.",
+      "clock 2:47: Ryley's own caveat on the archetype — the Rune Giant may be carried by the shell rather than the reverse: \"there's a possibility that's not even all that good and it's just really good with these cards.\""
+    ],
+    "new_deck": {
+      "display_name": "Rune Giant Berserker Ryley",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "beatdown",
+      "rationale": "Its offence is cheap fast bodies dropped at the bridge off a defensive cycle — Elite Barbarians at (3, 13) at clock 2:07 and a 2-elixir Berserker at (3, 15) at clock 1:18 — with the 4-elixir Rune Giant as a tank-and-buff option rather than a beatdown win condition.",
+      "why_it_works_md": "The shell is eight cards with no building and no big tank: Rune Giant, Heroic Berserker, Elite Barbarians, Mother Witch, Minions, Heal Spirit, Zap and Fireball. Its damage comes from fast attackers the Rune Giant enchants — Berserker's 0.6 s hit speed reaches her every-third-attack bonus almost immediately — so a 2-elixir troop at the bridge behind a 4-elixir tank threatens a tower on its own. The Heroic Berserker's Savage Survival (3 elixir, 4 s of unkillable ultra-fast attacks at -75% tower damage) gives the deck a spell-free answer to any single big unit, which is how Ryley removes a Skeleton King at clock 2:32 without spending a card. Defensively it has no building, so heavy pushes are kited (Rune Giant centre-map at clock 1:48, Elite Barbarians at clock 1:25) and out-cycled with Mother Witch, Minions and Heal Spirit — in this match that still cost the left tower down to 1616 hitpoints before the counterattack won it."
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+ "frames": 8932,
+ "seconds": 3290.1,
+ "timing": {
+  "total": {
+   "n": 8932,
+   "mean_ms": 361.4,
+   "p95_ms": 1834.3
+  },
+  "elixir": {
+   "n": 8918,
+   "mean_ms": 1.2,
+   "p95_ms": 1.7
+  },
+  "hand": {
+   "n": 8918,
+   "mean_ms": 125.0,
+   "p95_ms": 147.1
+  },
+  "clock": {
+   "n": 8918,
+   "mean_ms": 73.3,
+   "p95_ms": 464.2
+  },
+  "labels": {
+   "n": 1486,
+   "mean_ms": 409.2,
+   "p95_ms": 517.1
+  },
+  "detect": {
+   "n": 743,
+   "mean_ms": 999.9,
+   "p95_ms": 1143.3
+  },
+  "loop_fps": 2.8
+ },
+ "own_elixir_drift": {
+  "n": 1493,
+  "mean": 0.18,
+  "abs_mean": 0.926,
+  "max_abs": 5.912,
+  "last": 0.715
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "mortar",
+   "minions",
+   "barbarians",
+   "elite-barbarians",
+   "witch",
+   "cannon-cart",
+   "electro-spirit",
+   "rune-giant"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "barbarians",
+   "cannon-cart",
+   "mortar",
+   "witch"
+  ],
+  "predicted_next": "electro-spirit",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons",
+    "name": "EvoMortar Goblinstein Cart",
+    "archetype": "siege",
+    "matched": 4,
+    "contradicted": 4,
+    "score": -3.98,
+    "remaining": [
+     "barbarian-barrel",
+     "fireball",
+     "goblinstein",
+     "skeletons"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel",
+    "name": "EvoMortar Cart",
+    "archetype": "siege",
+    "matched": 3,
+    "contradicted": 5,
+    "score": -6.98,
+    "remaining": [
+     "barbarian-barrel",
+     "berserker",
+     "fireball",
+     "rascals",
+     "skeleton-barrel"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies",
+    "name": "GS Evo Ram HeroWiz MW",
+    "archetype": "bridge-spam",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.96,
+    "remaining": [
+     "barbarian-barrel",
+     "battle-ram",
+     "giant-skeleton",
+     "mother-witch",
+     "vines",
+     "wizard",
+     "zappies"
+    ]
+   }
+  ],
+  "cycle_confirmed": 1,
+  "cycle_violations": 3
+ }
+}

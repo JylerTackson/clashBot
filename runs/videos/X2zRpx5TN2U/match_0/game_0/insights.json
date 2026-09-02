@@ -1,0 +1,99 @@
+{
+  "key": "X2zRpx5TN2U-m0.0",
+  "match_file": "matches/X2zRpx5TN2U-m0.0.md",
+  "video_title": "This Rune Giant Deck is TOTALLY OVERPOWERED!!",
+  "cards": {
+    "rune-giant": [
+      "clock 1:27 (t=88.3): the only confirmed Rune Giant of the game goes at tile [8, 0], behind his own king tower (elixir 9.0 -> 5.0, HUD slot plus deploy label score 1.0), with Mother Witch at [8, 10] and Minions at [1, 13] added over the next 15 s — a build-from-the-back beatdown placement, not a bridge drop.",
+      "clock 0:43 (t=132, commentary): a second one is called deliberately off-lane — \"we can go for the Rune Giant off to the side cuz he might try to get a Golden Knight ability\" — keeping the enchanted push out of a Golden Knight dash chain.",
+      "The whole video is the buff pitch, stated in the first 20 s: \"Rune Giant has gotten a massive buff in the most recent balance changes, making it extremely powerful. And now everyone is just wanting to use the Rune Giant. Rune Giant has actually become so popular on ladder\" (t=8-21).",
+      "He values her purely for the enchant, never for her own damage: \"Everything paired up with the Rune Giant is just so difficult to defend now. It just gets way way too much value and it just pairs up so nicely with the Hero Berserker\" (t=26-35), and at t=141 \"hopefully we can boost up the E-Barbs\" as he plays Elite Barbarians next to her."
+    ],
+    "berserker": [
+      "Confirmed as the Hero variant on camera at t=35-37: \"it just pairs up so nicely with the Hero Berserker. As you see right there, right? That's the Hero Berserker normally\" — so Savage Survival (3 elixir) is available all game (heroes/berserker-hero.md).",
+      "Most-played card of the match, defensive first: [3, 9] at clock 2:36 (elixir 7.0 -> 5.0), [3, 8] at 1:57 (\"we can get back to the Berserker to defend that bush\", t=59), [4, 14] at 0:39 (\"let's go for the Berserker here just to keep this alive and be really, really annoying\", t=136).",
+      "clock 1:53 (t=62.1): pops Savage Survival on defence, not offence, into a stacked Battle Healer / Goblin / Spear Goblin wave — \"Let's pop the ability here. This is where the Berserker just comes in so nicely. He even went for the Vines, but because we had the ability, we still cleared out everything. Very very good defense right there\" (t=62-70). His own caveat at t=71-79: \"That could have went very wrong if he either Vines earlier or if he just spammed that after the Berserker just got taken out.\"",
+      "Only sent to the bridge once he has a Rune Giant behind: [3, 13] at clock 1:02 (\"Let's go for the Berserker at the bridge, too\", t=114) and [5, 20] on the opponent's half at 0:21 during the closing push."
+    ],
+    "mother-witch": [
+      "clock 2:43 (t=11.3): opening defence at [2, 5] (elixir 8.0 -> 4.0, deploy label) against a Skeleton Barrel the tracker had 1.2 s from his left tower — cheap swarm is exactly the food her curse wants.",
+      "clock 1:15 (t=99.1) at [8, 10] and clock 0:48 (t=126.1) at [2, 5]: support placements behind the Rune Giant rather than reactive ones, against an opponent cycling Spear Goblins and Goblins nonstop.",
+      "He plays for her survival over her cycle: \"Oh my god, look at that Mother Witch, guys. It's still alive. Very good value right there. We can just reset here with a low Mother Witch and — oh wait. We don't even need to kill this Mother Witch here\" (t=122-130), then heals rather than replaces her at clock 0:29 — \"this is really good Heal Spirit to keep the Mother Witch alive\" (t=143).",
+      "clock 0:25 (t=150): a last one at the bridge as the enemy tower falls 2217 -> 779 — \"Let's go for another Mother Witch here at the bridge, guys. And look, it's just over, man.\""
+    ],
+    "elite-barbarians": [
+      "clock 2:14 (t=41.4): defensive Elite Barbarians at [8, 9] (elixir 9.0 -> 4.0, deploy label score 1.0) into the opponent's Knight-and-Fire-Spirit bridge pressure.",
+      "clock 0:34 (t=140.0, 5-elixir HUD drop): immediate counter-push the moment the opponent commits his own Elite Barbarians at [3, 13] — \"now I'm going to go for my own E-Barbs. Hopefully we can boost up the E-Barbs. Come on. Okay, nice\" (t=138-142), with the Rune Giant already on the field for the enchant.",
+      "Named as one of the four cards that make the deck: \"just with just like Rune Giant, Berserker, E-Barbs, and Mother Witch\" (t=90-92) and \"The Mother Witch, the Berserkers, the E-Barbs, all with the Rune Giant is just so hard to stop\" (t=153-158)."
+    ],
+    "minions": [
+      "clock 1:13 (t=103.1) at [1, 13] and clock 1:02 (t=114.1) at [1, 14]: left-lane air cover placed behind the Rune Giant push, both a couple of tiles short of the river.",
+      "Played to pre-empt a known answer rather than to react: \"I'm to go for the Minions here cuz he's probably going to have to go for the Vines plus Goblin Gang, but obviously that won't really work too well if I have the Heal Spirit plus Minions with it\" (t=115-121).",
+      "clock 0:19 (t=155.2) at [1, 19], on the opponent's half alongside a bridge Berserker in the closing push."
+    ],
+    "heal-spirit": [
+      "clock 0:29 (t=146.1): Heal Spirit at [2, 15], right at the river (elixir 3.0 -> 2.0, HUD plus deploy label 0.95), used as a top-up on a damaged Mother Witch mid-push — \"this is really good Heal Spirit to keep the Mother Witch alive\" (t=143).",
+      "clock ~2:00 (t=56, commentary; the label at [8, 0] is t=9.0): the other use is as a Spirit-blocker so a defender survives — \"Let's Heal Spirit here to block the Spirit so that we can get back to the Berserker to defend that bush.\"",
+      "He names it as the closing piece of the deck: \"you pair that up with a nice Heal Spirit jump, dude, and there is nothing that your opponent can do\" (t=158-162), and counts it in the Vines + Goblin Gang answer at t=120 (\"if I have the Heal Spirit plus Minions with it\")."
+    ],
+    "zap": [
+      "clock 2:04 (t=50.1): Zap at [2, 11] to finish the Skeleton Barrel his Mother Witch was holding — \"we can go for the Zap as well. I'll just make sure that we take out that Skeleton Barrel. Very nice defense\" (t=50-53).",
+      "clock 1:08 (t=107.4): Evolution Zap at [3, 19], stacked onto the same tile as his Fireball two seconds earlier, against the Golden Knight push. He explicitly holds the Evolution cycle first: \"I'm not going to Evo Zap just yet. Okay, let's Evo Zap now. Nice. Come on, take this out. Beautiful right there. Take just taking out everything\" (t=105-112).",
+      "clock 0:29 (t=146.1) at [3, 14] during the final push — \"we can go for the Zap here, guys. And look at this. Oh my god\" (t=146-148)."
+    ],
+    "fireball": [
+      "clock 1:10 (t=105.1, deploy label 'FiRehall' at [3, 19], matching 4-elixir HUD drop 7.0 -> 3.0): his only Fireball, thrown at the Golden Knight push in the left lane and immediately followed by the Evo Zap on the same tile — \"Okay, let's go for the Fireball here. I'm not going to Evo Zap just yet\" (t=103-106).",
+      "The eighth deck slot is decided by this play: no per-game read of the video contains Skeletons, and Fireball is both label-confirmed and named here (see the match file's Data gaps)."
+    ],
+    "vines": [
+      "Opponent's card, not played by Ryley. Named three times and treated as the main threat to his defence: \"He even went for the Vines, but because we had the ability, we still cleared out everything\" (t=65-68), and the counterfactual \"That could have went very wrong if he either Vines earlier or if he just spammed that after the Berserker just got taken out\" (t=71-79).",
+      "clock 1:47 (t=66.1): the pipeline logs an opponent play at [10, 0] as an unrecognised unit (\"weights predate this card?\"), which the commentary at t=65 identifies as this card.",
+      "He also plans around it in advance at t=117: \"he's probably going to have to go for the Vines plus Goblin Gang.\""
+    ],
+    "golden-knight": [
+      "Opponent's card, not played by Ryley. Deployed at clock 1:11 (t=102.1, tracked [1, 21] -> [3, 16] in the left lane); Ryley answers it with Fireball at [3, 19] then Evolution Zap on the same tile (t=105-107).",
+      "It changes his Rune Giant placement: \"we can go for the Rune Giant off to the side cuz he might try to get a Golden Knight ability\" (t=132-133) — keeping the push out of the dash chain."
+    ],
+    "skeleton-barrel": [
+      "Opponent's card, not played by Ryley. The first threat of the game (tracked [1, 11] -> [3, 4] from t=10, 'tower in 0.0s' at t=14) and again at t=48; Ryley answers with Mother Witch at [2, 5] (clock 2:43) and later a Zap at [2, 11] (clock 2:04) — \"I'll just make sure that we take out that Skeleton Barrel. Very nice defense\" (t=52-53)."
+    ],
+    "giant": [
+      "Opponent's card, not played by Ryley. Deploy-label confirmed at clock 0:44 (t=131.1, level 16). Ryley never comments on it; his standing answer through that window is Berserker plus Mother Witch on the left lane."
+    ],
+    "spear-goblins": [
+      "Opponent's card, not played by Ryley. Cycled repeatedly (clock 0:51, 0:37, 0:19 plus a large tracked cluster around rows 18-22 from t=122 on) and it is what makes his Mother Witch so valuable — \"look at that Mother Witch, guys. It's still alive. Very good value right there\" (t=122-126)."
+    ],
+    "goblin-gang": [
+      "Opponent's card, anticipated but never observed on the field. Ryley plays around it in advance: \"he's probably going to have to go for the Vines plus Goblin Gang, but obviously that won't really work too well if I have the Heal Spirit plus Minions with it\" (t=117-121)."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-elite-barbarians-fireball-heal-spirit-minions-mother-witch-rune-giant-zap",
+    "cards": [
+      "berserker",
+      "elite-barbarians",
+      "fireball",
+      "heal-spirit",
+      "minions",
+      "mother-witch",
+      "rune-giant",
+      "zap"
+    ],
+    "bullets": [
+      "Game 1 of a single-deck video (video t=4-169) built to show off the post-buff Rune Giant: \"we are going to be playing the newly buffed Rune Giant... Rune Giant has gotten a massive buff in the most recent balance changes, making it extremely powerful\" (t=6-14). Berserker is the Hero variant, confirmed on camera at t=35-37, and Zap is the Evolution (t=105-107).",
+      "Ryley names the core and admits the shape is odd: \"it looks really strange because you don't really have what seems to be a win condition, but you just have so many strong cards in here that it is actually really hard to defend... just with just like Rune Giant, Berserker, E-Barbs, and Mother Witch\" (t=80-92). He goes further at t=96-103: \"whenever they are viable in the game, it does show that there is a little bit of a gap in the balancing at the moment because decks like these should really never work, to be honest.\"",
+      "First 90 s are pure defence in the left lane — Mother Witch at [2, 5] (clock 2:43), Berserker at [3, 9] and [3, 8] (2:36, 1:57), Elite Barbarians at [8, 9] (2:14), Zap at [2, 11] (2:04) — against an opponent Ryley reads as impatient: \"this guy's just spamming the bridge every time he can\" (t=55). Own left tower gives up 4858 -> 3549 HP over that stretch and nothing else.",
+      "The push only starts at clock 1:27: Rune Giant from the back at [8, 0], then Mother Witch at [8, 10], Minions at [1, 13] and a bridge Berserker at [3, 13] stacked on top, with Fireball + Evo Zap on the same tile [3, 19] clearing the Golden Knight answer (clock 1:10 and 1:08). The opponent's left tower goes 4858 -> 2897 -> 2472 -> 779, with the last ~1700 HP in the final 20 s.",
+      "Savage Survival is spent on defence, not offence: the ability at clock 1:53 clears a Battle Healer / Goblin / Spear Goblin stack — \"because we had the ability, we still cleared out everything\" (t=67) — and Ryley immediately flags the risk of not having it: \"That could have went very wrong if he either Vines earlier\" (t=71-75).",
+      "Closing summary in his own words at t=153-162: \"The Mother Witch, the Berserkers, the E-Barbs, all with the Rune Giant is just so hard to stop. And then you pair that up with a nice Heal Spirit jump, dude, and there is nothing that your opponent can do.\" Result: win (\"Very nice win to start off the video\", t=163).",
+      "Deck-list caveat: the video-level consensus printed by the pipeline lists Skeletons in the eighth slot, but Fireball is deploy-label confirmed and named at t=103, and Skeletons appears in no per-game read. See the match file's Data gaps for the full override list (hand confidence 0.562)."
+    ],
+    "new_deck": {
+      "display_name": "Rune Giant Hero Berserker Ryley",
+      "archetype_primary": "beatdown",
+      "archetype_secondary": "bridge-spam",
+      "rationale": "The Rune Giant is played from behind the king tower at clock 1:27 and everything else is stacked on top of her for one escalating push, which is beatdown shape — but the support cards (Berserker, Elite Barbarians, Mother Witch) are also dropped straight at the bridge for tempo, which is why bridge-spam is the secondary.",
+      "why_it_works_md": "A 3.25-elixir list with no conventional win condition — Ryley says so himself: \"you don't really have what seems to be a win condition, but you just have so many strong cards in here that it is actually really hard to defend.\" The Rune Giant is a 4-elixir tank whose enchant adds bonus damage on every third attack, so the deck is built out of fast attackers that convert that buff: the Hero Berserker (0.6 s hit speed) and Elite Barbarians, with Mother Witch turning the cheap swarm the opponent throws at the push into Cursed Hogs. Because the tank is only 4 elixir, the deck can defend cheaply for a minute and a half and still afford a full push in double or triple elixir; Heal Spirit keeps the Mother Witch and Berserker alive through the spell chip, and Fireball plus Evolution Zap stacked on one tile clears the ranged answer. Its weak point, which Ryley names in this game, is the Berserker's 3-elixir Savage Survival: spend it early and a follow-up Vines or a swarm spam gets through with nothing left to hold."
+    }
+  }
+}

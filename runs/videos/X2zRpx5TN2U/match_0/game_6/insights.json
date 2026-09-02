@@ -1,0 +1,83 @@
+{
+  "key": "X2zRpx5TN2U-m0.6",
+  "match_file": "matches/X2zRpx5TN2U-m0.6.md",
+  "video_title": "This Rune Giant Deck is TOTALLY OVERPOWERED!!",
+  "cards": {
+    "rune-giant": [
+      "clock 1:46: dropped in the back at tile [8, 0] with 10 elixir in double elixir, purely to enchant the Mother Witch behind it — \"Okay, I guess I'll go for the Rune Giant in the back here. We don't really have a good card to cycle into the Mighty Miner in the back.\"",
+      "clock 1:14: with the enchant live on Mother Witch the enemy left tower fell 4127 -> 368 in about eight seconds — \"This Rune Giant affected Mother Witch is so good\" and \"the Rune Giant Mother Witch combo is actually just so insane.\"",
+      "clock 0:44: replayed at tile [13, 12] to open the opposite lane alongside Elite Barbarians at [14, 13] for the closing push on the enemy right tower."
+    ],
+    "mother-witch": [
+      "clock 2:41: opening back placement at tile [8, 0] behind an incoming Evolved Firecracker, seeded before any defence was needed — \"Let's go for the Mother Witch in the back here\", then at 2:19 \"Mother Witch, please cook. Nice.\"",
+      "clock 1:37: replayed at tile [8, 9] specifically inside the Rune Giant's 8.5-tile enchant range — \"Happy to have the Evo Zap here. Let's Mother Witch like this. He might go for an Evo Firecracker.\"",
+      "clock 1:26: her curse converted the opponent's Evolved Skeletons into three Cursed Hogs, which is what took the tower — \"That was a bad set of skellies as well. He just gave us three piggies\" and later \"he just did one tiny mistake with his skeletons and just got completely punished for it.\"",
+      "clock 0:55: back placement again at tile [9, 0] while ahead, as defensive insurance rather than offence — \"It's not game over yet, but let's just Mother Witch in the back here to start setting up some defenses.\""
+    ],
+    "berserker": [
+      "clock 2:35: Hero Berserker at tile [7, 8] mid-field, paired with a Heal Spirit, while letting the Evolved Firecracker connect for King activation — \"Yeah, let's go for the Berserker here. If we activate king, okay, we're in a really good spot now.\"",
+      "clock 2:04: replayed at tile [4, 14] just behind the bridge against the returning Firecracker; he immediately flags the unused 3-elixir Savage Survival ability as the better line — \"maybe the Berserker ability there could have been good cuz it would have distracted the Mighty Miner really, really well.\"",
+      "clock 1:16: used as a cheap bridge tank in front of the enchanted Mother Witch during the winning push — \"It's Berserker the bridge to tank for our Mother Witch.\""
+    ],
+    "elite-barbarians": [
+      "clock 2:28: sent straight to the bridge at tile [3, 13] (elixir 8 -> 2) rather than held on defence, timed off the opponent's defensive card being spent — \"Low key, I think I'm just going to go for the E-Barbs at the bridge straight up because he cycled his Mighty Miner.\"",
+      "clock 1:30: same bridge placement at [3, 13] into an advancing Mighty Miner, with the spell answer pre-planned — \"I'm going to E-Barbs the bridge here just to take this out and then we have the Evo Zap for the Firecracker.\" The opponent answered with a Cannon at [9, 18].",
+      "clock 0:45: at tile [14, 13] alongside Rune Giant to swing lanes and close the game; the enemy right tower dropped 4858 -> 225 in the following minute."
+    ],
+    "heal-spirit": [
+      "clock 2:27: chained onto the Elite Barbarians bridge push at tile [8, 13] as cheap follow-up — \"let's go for the high heal spirit here as well.\"",
+      "clock 1:21: used mid-push to keep the Mother Witch alive rather than as a cycle card — \"Hold on. We're overwhelming him. Heal Spirit here. Keep this alive. Nice.\"",
+      "clock 0:40: played at tile [8, 17] on the opponent's side of the river to sustain the final push; five separate 1-elixir Heal Spirit plays in the 138 s window make it his highest-frequency card."
+    ],
+    "zap": [
+      "clock 2:47: Evolved Zap opened the game as pure chip on the enemy left tower at tile [3, 26], 4858 -> 4781 — \"We'll just start off with the zap here.\"",
+      "clock 1:39-1:28: held deliberately as the dedicated Evolved Firecracker answer — \"We do have the Evo Zap too though, which is nice\", \"Happy to have the Evo Zap here\", \"then we have the Evo Zap for the Firecracker.\"",
+      "clock 1:27: fired at tile [2, 24] into the opponent's Skeletons and Firecracker, which is the play that finished off the cursed Skeletons and produced the three Cursed Hogs — \"Yo, let's Evo Zap here. Nice, yo.\""
+    ],
+    "fireball": [
+      "clock 2:39: deliberately NOT thrown at the first Evolved Firecracker, trading tower HP for a King Tower activation that landed at clock 2:31 — \"Normally I would fireball that, but I think it's actually good to not fireball the first firecracker and try to activate our king tower if possible.\"",
+      "clock 1:14: its only deployment in the window, at tile [4, 16] on the river during the winning Berserker + Mother Witch push."
+    ],
+    "minions": [
+      "clock 2:19: dropped at tile [3, 8] on his own half as the air answer to the Mighty Miner — \"let's go for the minions here as well. If that takes out the Mighty Miner, that's pretty good for us.\"",
+      "clock 0:48: replayed while cleaning up an incoming Firecracker in the right lane — \"Let's Minions.\""
+    ],
+    "mighty-miner": [
+      "clock 2:27 (opponent card): Ryley never blocks it defensively — the moment it is spent he counter-pushes the opposite way, \"he cycled his Mighty Miner\" being his stated trigger for Elite Barbarians at the bridge.",
+      "clock 1:39 (opponent card): he says the matchup suits him despite having no clean answer — \"We don't really have a good card to cycle into the Mighty Miner in the back. Mighty Miners are really, really good for me.\" It still took two 507-HP bites out of his left tower around clock 2:16-2:14.",
+      "clock 2:02 (opponent card): he names Berserker's Savage Survival ability as the distraction he should have used against it — \"it would have distracted the Mighty Miner really, really well.\""
+    ],
+    "firecracker": [
+      "clock 2:39 (opponent card, Evolved): let through on purpose on the first cycle instead of spending Fireball, to activate his King Tower — the King reads active at clock 2:31.",
+      "clock 1:34 (opponent card): predicted and pre-answered with Evolved Zap — \"He might go for an Evo Firecracker\" and \"we have the Evo Zap for the Firecracker.\""
+    ],
+    "skeletons": [
+      "clock 1:26 (opponent card, Evolved): the opponent's losing play in Ryley's telling — cursed by Mother Witch and converted into three Cursed Hogs, \"That was a bad set of skellies as well. He just gave us three piggies\" and \"he just did one tiny mistake with his skeletons and just got completely punished for it.\""
+    ],
+    "cannon": [
+      "clock 1:28 (opponent card): placed at tile [9, 18] to answer Ryley's second Elite Barbarians bridge push; it did not stop the counter-push and he does not comment on it."
+    ],
+    "barbarian-barrel": [
+      "clock 1:49 (opponent card, mentioned not faced on camera): named as the harder small-spell matchup for his ground troops — \"Barb Barrel is a bit more annoying than Log though cuz he just does get that extra ground troop.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-elite-barbarians-fireball-heal-spirit-minions-mother-witch-rune-giant-zap",
+    "cards": ["berserker", "elite-barbarians", "fireball", "heal-spirit", "minions", "mother-witch", "rune-giant", "zap"],
+    "bullets": [
+      "clock 2:39-2:31: opening line is to refuse the Fireball on the first Evolved Firecracker and take tower damage to activate the King Tower — \"Normally I would fireball that, but I think it's actually good to not fireball the first firecracker and try to activate our king tower if possible.\"",
+      "clock 2:28 and 1:30: the deck's pressure valve is Elite Barbarians straight to the bridge at tile [3, 13], both times keyed on the opponent's Mighty Miner being out of cycle rather than on a defensive read.",
+      "clock 1:46-1:07: the win condition is Rune Giant in the back enchanting a Mother Witch with a cheap Berserker tanking at the bridge; the opponent's Evolved Skeletons died cursed, became three Cursed Hogs, and the left tower fell 4127 -> 368 in roughly eight seconds — \"the Rune Giant Mother Witch combo is actually just so insane.\"",
+      "clock 1:39: he names the deck's hole himself — \"We don't really have a good card to cycle into the Mighty Miner in the back\" — and leans on Minions and bridge counter-pressure instead.",
+      "clock 1:57-1:51 and 0:35: his own verdict — \"with this deck, you can really win anything just cuz of like the cheese factor\" and \"If you're looking for a new deck to push with, man, this is definitely the one right here.\"",
+      "Deck-list note: the video-level consensus printed by the pipeline substitutes Skeletons for Fireball; no per-game read contains Skeletons and Fireball is both named and played here, so Fireball is used as the eighth card."
+    ],
+    "new_deck": {
+      "display_name": "Rune Giant Mother Witch Ryley",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "beatdown",
+      "rationale": "At 3.25 average elixir it wins through repeated Elite Barbarians and Berserker placements at the bridge, with the Rune Giant played behind as a 4-elixir support tank rather than as a slow beatdown lead.",
+      "why_it_works_md": "The Rune Giant is not the damage dealer here — she is a 4 Elixir enchant battery. Placed in the back she buffs up to two nearby troops with bonus damage on every third attack, and the deck's payoff target is Mother Witch: an enchanted Mother Witch kills fragile troops fast enough to land her 5 second curse on the whole swarm, and each one that dies becomes a Cursed Hog charging the tower. Berserker at 2 Elixir is the natural tank for that pairing, cheap enough to spam at the bridge and fast-hitting enough to gain heavily from the enchant. Elite Barbarians provide the punish whenever the opponent's main defensive card is out of cycle, while Evolved Zap and Fireball are held for the ranged support (Firecracker, Skeletons) that would otherwise pick the Mother Witch apart, and Heal Spirit keeps her alive through chip. Its stated weakness is having no cheap dedicated answer to a Mighty Miner cycled in the back."
+    }
+  }
+}

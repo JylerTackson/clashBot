@@ -1,0 +1,73 @@
+{
+  "key": "X2zRpx5TN2U-m0.5",
+  "match_file": "matches/X2zRpx5TN2U-m0.5.md",
+  "video_title": "This Rune Giant Deck is TOTALLY OVERPOWERED!!",
+  "cards": {
+    "rune-giant": [
+      "clock 2:21: Rune Giant at tile [8, 0], the back edge of his own half, elixir 9 -> 5 — the opening tank of the push that ends the game. \"So I'm just going to go for the rune giant in the back here. I want to get some early aggression going whenever I'm up in elixir.\"",
+      "clock 1:27: second Rune Giant at tile [8, 19], in the opponent's half after their left tower had fallen — \"Let's Rune Giant in the middle here.\" He never uses her defensively in this game; both plays are pure push-building.",
+      "Piloted with fast attackers around her (Hero Berserker at the bridge, Minions trailing the Elite Barbarians), which is the pairing her enchant rewards; her own damage never mattered here."
+    ],
+    "berserker": [
+      "clock 2:44: opened the game with Berserker at tile [8, 0] in the back, before knowing the opponent's deck — \"We'll just go for the berserker here in the back.\"",
+      "clock 1:52: Berserker at tile [3, 15], the left-lane bridge, as the escort for the Elite Barbarians push — \"Let's just go for the berserker at the bridge here… That Berserker's going to tank for the one minion and then we can pop the ability if need be, but they should just be tower down anyways.\"",
+      "Hero variant confirmed: he holds Savage Survival all game because the push is already winning, and only fires it at clock 0:53 as a flourish — \"Okay, let's just go for the ability here and that is good game.\"",
+      "clock 0:59: third Berserker at [4, 19], deployed inside the opponent's half during the final spam once their left tower was down."
+    ],
+    "elite-barbarians": [
+      "clock 2:08: Elite Barbarians at tile [3, 8] behind the Rune Giant, elixir 9 -> 3, converting a back-tank build into a committed left-lane all-in — \"Okay, let's just go for the E-Barbs behind this and then I'm going to go for the minions as well.\"",
+      "clock 2:08: the commitment was archetype-driven — \"If he has the mortar bait deck I'm thinking of, he's going to have a really hard time defending this push.\" The enemy left tower went 4781 -> 378 over the next 20 seconds.",
+      "clock 1:30: second pair on his own half at tile [13, 12] as a defence-into-counterattack — \"Let's E-Barbs here. Nice. Great timing.\""
+    ],
+    "mother-witch": [
+      "clock 2:33: Mother Witch at tile [12, 10], centre-right of his own half, elixir 10 -> 6, answering a ground push in the left lane and a Skeleton Barrel on the right — \"Let's go for the mother witch here. He might go for a fireball if he has it.\"",
+      "clock 1:40: he reads the opponent's Fireball on her as the game-losing move — \"Dude, I knew that fireball would cost him so much, man. This deck is just so good that just any tiny inconvenience and you're just completely rolled.\""
+    ],
+    "minions": [
+      "clock 2:08: Minions at tile [1, 14], hard against the left river edge, trailing the Elite Barbarians as push support rather than defence — \"then I'm going to go for the minions as well.\"",
+      "clock 2:16: he names them as his own soft spot against this opponent — \"taking care of the minions might be a little bit difficult.\"",
+      "clock 1:10 and 0:58: Minions again after the Fireball cleared the enemy Minion Horde, and then at [3, 21] inside the opponent's half during the closing spam."
+    ],
+    "heal-spirit": [
+      "clock 2:28: Heal Spirit at tile [13, 8] onto an incoming Skeleton Barrel — \"Yeah, we have to go for the heal spirit here.\" He accepts the chip: \"Just take a little bit of damage, not the worst. We did get a little bit of a positive elixir trade out of that.\"",
+      "clock 2:03 and 2:00: two more at [4, 14] and [3, 13], dripped in behind the advancing left-lane push to top it up — \"Let's heal spirit here as well. Can we heal up off of these heal spirit? Nice, okay.\"",
+      "Most-played card of the game (six-plus 1-elixir drops, also at clock 1:21, 1:13 and 0:58), and his stated reason not to fear the counterattack at clock 1:07: \"it's all good cuz we just have the heal spirit.\""
+    ],
+    "zap": [
+      "clock 2:07: a defensive Zap in front of his own push that decided a duel — \"Wait, zap here. Take this out. Yo, nice! That is huge.\"",
+      "clock 1:23: Zap at tile [14, 20] onto the defending Minion Horde, knowingly not a kill — \"I know it's not going to completely take it out, but it's going to get us so much damage to the point where it doesn't really matter.\" The enemy right tower fell 4168 -> 2007 -> 798 in the next four seconds: \"Oh my god, it took the whole tower.\""
+    ],
+    "fireball": [
+      "clock 1:11: Fireball at tile [14, 15] on the right-lane bridge, finishing the Minion Horde survivors that his Zap had left — \"Okay, we can just fireball here.\" Zap-then-Fireball on the same swarm is the pattern.",
+      "clock 2:31 and 1:40: he tracks the opponent's Fireball as the pivotal card of the matchup, first as a threat to his Mother Witch (\"He might go for a fireball if he has it\") and then as their losing play (\"I knew that fireball would cost him so much\")."
+    ],
+    "mortar": [
+      "clock 2:35, mentioned before it appeared: \"I think this guy usually plays with mortar… he had like this mortar ice wizard cannon cart deck, maybe.\" An enemy Mortar finally shows at (15, 17) at clock 1:25, by which point the enemy left tower was already at 378 — Ryley never had to answer it."
+    ],
+    "minion-horde": [
+      "clock 1:23, opponent's card: \"He goes for the minion horde. I'm going to zap this.\" He rates it the wrong defence against an all-in — \"Obviously that minion horde maybe wasn't like the greatest either, but of course he didn't know that I was just going to all in spam like that.\""
+    ],
+    "skeleton-barrel": [
+      "clock 2:28, opponent's card: a Skeleton Barrel reached his right tower for 405 damage; he answered with Heal Spirit and called it a positive trade anyway. Mentioned again at clock 1:10 while he was holding Heal Spirit for the counterattack."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-elite-barbarians-fireball-heal-spirit-minions-mother-witch-rune-giant-zap",
+    "cards": ["berserker", "elite-barbarians", "fireball", "heal-spirit", "minions", "mother-witch", "rune-giant", "zap"],
+    "bullets": [
+      "X2zRpx5TN2U game 5 of 8 (125 s, won by concession at clock ~0:51) against a Mortar bait deck he identified before seeing it: \"I think this guy usually plays with mortar… this mortar ice wizard cannon cart deck, maybe\" (clock 2:35).",
+      "The whole game is one plan: Rune Giant in the back at clock 2:21 while up on elixir, Elite Barbarians behind at 2:08, Minions at the river, Zap and two Heal Spirits to carry it — the enemy left tower went 4781 -> 378 between clock 1:54 and 1:40.",
+      "Hero Berserker is played as an escort, not an opener-finisher: bridge Berserker at clock 1:52 to \"tank for the one minion\", with Savage Survival deliberately held (\"we can pop the ability if need be, but they should just be tower down anyways\") and only fired at 0:53 to close.",
+      "Defence is cheap and interim — Mother Witch plus Heal Spirit against a split Skeleton Barrel push at clock 2:33-2:28, accepting 405 tower damage for \"a little bit of a positive elixir trade\".",
+      "Zap-then-Fireball on the defending Minion Horde (clock 1:23 and 1:11) is what converted the left-lane win into the right lane: \"I know it's not going to completely take it out, but it's going to get us so much damage to the point where it doesn't really matter.\"",
+      "His own verdict on the list: \"This deck is just so good that just any tiny inconvenience and you're just completely rolled\" (clock 1:40) and \"This has to be like the number one most toxic deck in the game right now\" (clock 0:55)."
+    ],
+    "new_deck": {
+      "display_name": "Rune Giant Hero Berserker Ryley",
+      "archetype_primary": "beatdown",
+      "archetype_secondary": "bridge-spam",
+      "rationale": "Every push in this game starts with a 4-elixir Rune Giant placed at the back edge of his own half and is built up behind her with Elite Barbarians and Minions, which is beatdown pacing, while the Hero Berserker and the second Elite Barbarians pair go straight to the bridge for immediate pressure.",
+      "why_it_works_md": "The Rune Giant is a cheap 4-elixir tank whose enchant multiplies fast attackers, and this list is built entirely out of them: the Hero Berserker, the Elite Barbarians pair and the Minions all reach her every-third-hit bonus quickly. That makes a back-placed Giant plus one support card into a push most decks cannot trade evenly against, especially a siege or bait deck whose answers are cheap and fragile — Ryley commits precisely on that read at clock 2:08 (\"If he has the mortar bait deck I'm thinking of, he's going to have a really hard time defending this push\"). Heal Spirit at 1 elixir keeps the push alive for almost nothing and doubles as the answer to chip cards like Skeleton Barrel, while Zap and Fireball cover the swarm defences (Minion Horde here) that would otherwise stall it. The Hero Berserker's Savage Survival is a held finisher rather than an opener — in this game he never needed it until the concession."
+    }
+  }
+}

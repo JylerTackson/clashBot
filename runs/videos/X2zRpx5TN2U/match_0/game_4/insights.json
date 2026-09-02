@@ -1,0 +1,86 @@
+{
+  "key": "X2zRpx5TN2U-m0.4",
+  "match_file": "matches/X2zRpx5TN2U-m0.4.md",
+  "video_title": "This Rune Giant Deck is TOTALLY OVERPOWERED!!",
+  "cards": {
+    "rune-giant": [
+      "clock 2:37: sent straight to the left bridge at (1, 14) seconds after the opponent dropped a Giant behind his own tower, instead of defending it — \"Let's go for the Rune Giant at the bridge here. And then we can go for the E-Barbs as well. I do want to be really aggressive right now cuz I just need to take this Giant out.\"",
+      "clock 1:45: the one back-line Rune Giant of the game, at (8, 0) behind his own King Tower (HUD-exact, elixir 9->5), so he could choose the enchant target on purpose — \"Let's Rune Giant in the back here.\"",
+      "clock 0:39: used as a shield for a push already crossing in the right lane, at (15, 13) on the bridge — \"But wait, could I ruin [Rune] giant the bridge here low-key just to keep this all alive?\"",
+      "clock 1:19: names her hitpoints as the deck's weakness in a Giant mirror-race — \"It looks like he has a little bit more DPS than me just cuz his Giant has more HP than the Rune Giant, which is scary.\""
+    ],
+    "elite-barbarians": [
+      "clock 1:33: placed at (7, 10) directly onto the walking Rune Giant so the enchant lands on them, and he states the target choice as a change from the previous game — \"I'm going to boost my E-Barbs with the Rune Giant right away this time. Last time I boosted the Mother Witch first. Let's go for the E-Barbs here. Get the nice throw.\"",
+      "clock 0:59: pre-placed at the right bridge (14, 15) as a prediction rather than a reaction — \"Low-key, he's might [going to] Giant at the back. So, I'm going to E-Barbs predicting the Giant\"; the enemy right tower falls from 4406 to 2567 in the next four seconds.",
+      "clock 0:37: a second Evo Elite Barbarians at (14, 15) once he had checked the evolution asymmetry — \"Then we can go for the Evo E-Barbs as well. Cuz he doesn't have his Evo E-Barbs, he only has the regular ones.\"",
+      "clock 0:10: held as the punish for the opponent spending his Giant Hero ability, at (3, 11) on defence — \"because he goes for the ability, then we can just go for the E-Barbs. He was hoping that we would ability so then we wouldn't have any elixir for defense.\""
+    ],
+    "berserker": [
+      "clock 2:25: played in front of the opening Rune Giant push at (4, 14), explicitly as an ability threat he did not intend to spend — \"we can go for the Berserker in front as well just to try to get the ability if we need it. I don't think we're going to need it actually.\" (Hero variant, Savage Survival, 3 elixir.)",
+      "clock 1:19: as the defensive answer to the opponent's Giant push at (5, 12) — \"Okay, we're going to have to Berserker here.\"",
+      "clock 0:43-0:42: the only Savage Survival of the game — Berserker at (9, 9) (HUD-exact, elixir 9->7, deploy label score 1.0) followed 1.6 s later by a 3-elixir own drop with no hand change — \"Okay, let's go for the berserker and then we can go for the ability as well.\"",
+      "clock 0:17: cheap defensive filler at (3, 10) in the closing stand after the enemy tower was already down — \"I just got completely slammed. Let's berserker here.\""
+    ],
+    "mother-witch": [
+      "clock 2:47: opens the game with her (HUD-exact, elixir 10->6) before the opponent has committed anything.",
+      "clock ~2:07: willing to let her die inside a push that has already paid for itself — \"if we just let the Mother Witch die, then we're just four elixir down. But at least that way we get a lot of value out of the cards that we already placed.\"",
+      "clock 0:17: played deep and central at (8, 6) as a defender in the final stand, not as a push card.",
+      "clock 1:35: named as the Rune Giant enchant target he used in the previous game and deliberately moved away from here — \"Last time I boosted the Mother Witch first.\""
+    ],
+    "minions": [
+      "clock 2:19: stacked onto the opening bridge push at (3, 11) — \"we can just go for the Minions here on top of this.\"",
+      "clock 1:31: sent to the left bridge behind the Rune Giant / Elite Barbarians push — \"And then we can go for the Minions at the bridge as well\" (the deploy label at (1, 14) was assigned to the opponent by the pipeline; the commentary is taken as the stronger signal).",
+      "clock 0:21: pure defence once the enemy right tower had fallen, back at (3, 11) — \"and then we just minions on defense, guys.\""
+    ],
+    "heal-spirit": [
+      "clock 1:25: spent to stop a committed push being erased on arrival — \"I'm going to Heal Spirit here as well. Just make sure that my E-Barbs don't instantly get taken off the field.\"",
+      "clock 0:55: dropped at (14, 14) immediately behind the predictive right-bridge Elite Barbarians — \"Okay, that's fine. Let's Heal Spirit here as well.\"",
+      "clock 2:13: the last card of the opening six-card push, at (2, 15) on the bridge — \"So, let's go for the Heal Spirit.\""
+    ],
+    "zap": [
+      "clock 1:53: Evo Zap thrown deep on the opponent's half at (3, 26); the enemy left tower reads 3426->3349 — \"Let's just zap here.\"",
+      "clock 0:22: the tower finisher at (14, 23), timed off the enemy tower troop's reload — \"Evo zap here as well cuz the dagger doesn't have ammo. Nice! That's tower down\" (enemy right tower 1557->1480->177).",
+      "clock 0:03: last-second Zap (HUD-exact, elixir 3->1) onto the opponent's closing Prince and Rage push."
+    ],
+    "fireball": [
+      "clock 0:27: the only Fireball of the game, aimed at the defenders stacked in front of the enemy right tower rather than at the tower — \"Yo, I like this situation. Let's fireball here. Yo, we're going to take out the mega minion and the E-Barb\"; the tower reads 2322->1832 immediately after."
+    ],
+    "giant": [
+      "clock 2:37: the opponent's Giant lands at (1, 12) and Ryley had already called it from the tower troop alone — \"this guy has Dagger Duchess and Bomber ... Probably going to be Giant, I guess. Not really many other decks play with the Dagger Duchess.\"",
+      "clock ~2:03: describes the whole plan of a Giant beatdown deck and how to beat it — \"He wants to go Giant whenever you play a card and just completely take it out. But if we can win the bridge battle like that, it's usually going to reward us pretty nicely.\"",
+      "clock 0:15: reads the opponent's Hero Giant ability as an elixir trap and refuses it — \"He's going to go for the giant ability, but because he goes for the ability, then we can just go for the E-Barbs. He was hoping that we would ability so then we wouldn't have any elixir for defense.\"",
+      "clock 0:03: grades the opponent's last Giant as a cycle mistake, not a placement one — \"I knew that he went for a bad giant cuz he didn't have his dark prince back in cycle yet and that's like his main defense.\""
+    ],
+    "dark-prince": [
+      "clock 0:03: named as the opposing Giant deck's key defensive card and the reason its last push failed — \"he didn't have his dark prince back in cycle yet and that's like his main defense.\" Never labelled by the detector; identified from commentary only."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-elite-barbarians-fireball-heal-spirit-minions-mother-witch-rune-giant-zap",
+    "cards": [
+      "berserker",
+      "elite-barbarians",
+      "fireball",
+      "heal-spirit",
+      "minions",
+      "mother-witch",
+      "rune-giant",
+      "zap"
+    ],
+    "bullets": [
+      "Game 5 of 8 in a single-deck session; a win against a Hero Giant / Prince / Dark Prince beatdown deck, taking the enemy right tower at clock 0:21 and holding his own left tower at 2667 HP — \"GG's. A very nice win\" (clock 0:03).",
+      "The deck is piloted as bridge pressure, not as beatdown: two of three Rune Giants go straight to a bridge tile ((1, 14) at clock 2:37, (15, 13) at clock 0:39) and only one is built from the back ((8, 0) at clock 1:45). His stated rule is \"if we can win the bridge battle like that, it's usually going to reward us pretty nicely\" (clock ~1:57).",
+      "Rune Giant + Evo Elite Barbarians is the core interaction, and the enchant target is chosen deliberately — \"I'm going to boost my E-Barbs with the Rune Giant right away this time. Last time I boosted the Mother Witch first\" (clock 1:35), with the Elite Barbarians dropped onto the walking Rune Giant at (7, 10) rather than behind it.",
+      "Berserker (Hero) is treated as an elixir resource: deployed four times but Savage Survival fired only once, at clock 0:42 on a defensive Berserker at (9, 9). He explicitly declines it at clock 2:25 (\"I don't think we're going to need it actually\") and wins the game by refusing to trade abilities with the opponent's Hero Giant at clock 0:15.",
+      "Heal Spirit and Minions are the push sustainers, Zap and Fireball the finishers: the enemy right tower is taken from 4406 to zero between clock 0:59 and clock 0:21 by Elite Barbarians + Rune Giant pressure, a Fireball on the defenders (clock 0:27) and an Evo Zap timed off the enemy tower troop's ammo (clock 0:22).",
+      "He is explicit that the list loses a straight defensive fight to a real Giant deck and plans around it — \"his Giant has more HP than the Rune Giant, which is scary ... We're just going to have to get like one or two good counter pushes that end up taking his whole tower cuz we're probably not going to be able to hold on for the entire game\" (clock 1:19-1:07)."
+    ],
+    "new_deck": {
+      "display_name": "Rune Giant EBarbs Berserker",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "beatdown",
+      "rationale": "A 3.25 average-elixir list with no support building whose Rune Giant and Evo Elite Barbarians are placed at the bridge as punishes far more often than they are built from the back, which is bridge-spam behaviour with a beatdown tank.",
+      "why_it_works_md": "The Rune Giant is only 4 Elixir, so this list can lead with a tank at the bridge instead of saving up behind the King Tower, and her enchant turns the fast-hitting cards around her into real damage. Evolved Elite Barbarians are the intended enchant target and Ryley places them onto the walking Rune Giant so the throw lands immediately (\"I'm going to boost my E-Barbs with the Rune Giant right away this time\", clock 1:35). Berserker as a Hero gives the deck a 2 Elixir defender that doubles as a 5 Elixir burst when Savage Survival is worth spending, and Ryley's discipline about *not* spending it is what wins this match. Heal Spirit and Minions keep a committed push alive, while Evo Zap and Fireball convert the surviving pressure into tower HP. The weakness he states himself is defence: a real Giant out-tanks the Rune Giant, so the deck has to race rather than hold."
+    }
+  }
+}
