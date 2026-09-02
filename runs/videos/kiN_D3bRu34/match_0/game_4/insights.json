@@ -1,0 +1,111 @@
+{
+  "key": "kiN_D3bRu34-m0.4",
+  "match_file": "matches/kiN_D3bRu34-m0.4.md",
+  "video_title": "#1 BEST Ronin Deck in Clash Royale",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:48 (t=723.7): the first card of the game, thrown at [15, 23] on the enemy right tower before any read on the opponent — \"Going to start off with the Goblin Barrel here\" (t=724).",
+      "Seven more throws in 190 seconds (t=755.8 [3, 24], 791.8 [4, 25], 822.8 [3, 26], 843.8 [13, 24], 863.9 [13, 25], 876.9 [3, 24], 898.9 [3, 23]), alternating corners and always inside a Wall Breakers or Fire Spirit window rather than held as bait: \"Let's go for the barrel plus spirit here\" (clock 2:17), \"Kill it barrel plus wall breakers again here cuz I know he's going to go for the guards\" (clock 0:47).",
+      "He names it as the Evolution slot — \"Let's go for the Fire Spirit Evo Barrel\" (clock 1:44) and \"Go for the evil [Evo] barrel spirit and wall breakers here\" (clock 0:28).",
+      "The stated licence to throw it on cooldown is the opponent having no building: \"He can't really defend the wall breakers unless he has a building\" (clock 1:09), said of the barrel + Wall Breakers pair that took the enemy left tower 3914 -> 2794."
+    ],
+    "wall-breakers": [
+      "The other half of his offensive loop, deployed at his own river row in the lane opposite the last barrel: clock 2:28 [5, 14], clock 2:00 [13, 15] — \"then Wall Breakers opposite lane\" (t=772) — clock 1:09 [3, 14] and again in overtime [3, 14].",
+      "clock 1:51: they connected on the enemy right tower (4858 -> 4298) straight through a Barbarians push, which surprised him — \"how did those Wall Breakers connect? What the heck? ... how the heck did it connect through Barbs?\" (t=782-789).",
+      "clock 1:31: deliberately held rather than thrown, as the defensive answer kept in hand against a Goblin Drill deck — \"I'd rather just Ronin here and I have the Evo Wall Breakers still ready for defense in case he wants to do anything\" (t=803).",
+      "clock 0:08 (t=883.9): actually spent on defence, deep at [15, 5] against Barbarians in the right lane with an Ice Spirit behind — \"Evil [Evo] wall breakers here on defense and then we can go for the ice spirit here as well. Perfect\"; his right tower lost only 41 HP all game."
+    ],
+    "magic-archer": [
+      "Three deployments (clock 1:51 [9, 11], clock 0:40 [9, 9], overtime [8, 8]), all -4 elixir and all low in his own half in the central rows 8-11 — never bridged — so it covers both lanes, pierces across the river and still chips the tower.",
+      "clock 2:05: he talked himself out of an aggressive placement on the opponent's Bomber — \"I could try to get a nice magic archer here on top of that bomber. Might be a little bit aggressive though, so I think I'll just chill with an ice spirit here in the back\" (t=765-770) — and played Ice Spirit at [8, 1] instead.",
+      "He rates it the matchup-defining card and names its only answer: \"Magic archer just seems extremely powerful against him. I'm just not sure how he deals with the magic archer with having vines plus snowball cuz vine snowball does actually leave the magic archer on I think like 10 HP or something\" (clock 0:58-0:48).",
+      "Overtime: \"Beautiful magic archer piercing right there. Magic archer is just so solid still. This is what I'm saying. Even after the nerf, it's still so good, man\" (t=895-902)."
+    ],
+    "ronin": [
+      "clock 2:35 (t=736.7): played at [12, 1], behind his own King Tower, purely to scout — \"I'll Ronin here just to kind of figure out the rest of his deck. Sometimes Ronin can completely starting hand people cuz if they have a bad cycle, then the card is just going to like deflect itself and end up dying\" (t=739-745).",
+      "clock 2:26: the opponent answered it with Guards and he was openly unsure about the Parry interaction — \"Oh, it reflects guards, too. Interesting. Wait, does Ronin not one-hit guards? I don't think it does. Or is that like the deflection attack? I'm not fully sure\" (t=746-753) — concluding at t=774: \"I do think guards actually might be a really good counter to Ronin and Evo Barbs.\"",
+      "clock 1:24 (t=808.5, -5): used as the mini-tank that absorbs the Goblin Drill push on his own half at [4, 14], followed up with Skeletons and a Fire Spirit — \"Okay, there's the drill. Go for the Ronin here and then we can go for the skeletons plus fire spirit to finish off that drill\" (t=805-812).",
+      "clock 0:17 (t=876.9): the only bridge placement of the game, at [14, 14] behind a Goblin Barrel — \"Let's barrel it then we can Ronin here on the right side. Apply some more pressure. Force out the barbs maybe\" (t=877-881)."
+    ],
+    "cannon": [
+      "Purely reactive and placed for the specific threat, not to one template: clock 2:00 central at [7, 10]; clock 1:17 hard against the left edge at [1, 12] — \"then we can cannon for the wall breakers. Good defense\" (t=814-816); clock 0:35 high at [9, 13] to pull the Evo Barbarians before they reached the tower.",
+      "Overtime: he pre-places it forward against a card he knows is coming — \"I know he's going to try to wall breaker so we go for the high cannon here. Bring this over\" (t=892-894)."
+    ],
+    "skeletons": [
+      "The cycle filler, down roughly every 20 seconds (clock 2:48 [8, 10], 2:20 [8, 14], 1:46 [15, 15], 0:45 [9, 9], 0:32 [11, 15], 0:19 [4, 14], overtime [8, 14]).",
+      "clock 1:23: paired with a Fire Spirit to finish the Goblin Drill after the Ronin tanked it — \"then we can go for the skeletons plus fire spirit to finish off that drill\" (t=810-812).",
+      "clock 0:19 (t=872.7 at [4, 14]): the cheap block on the opponent's Guards so his own push survived — \"He has to block this. Skellies here to keep this alive\" (t=872-874)."
+    ],
+    "fire-spirit": [
+      "Almost always deployed on his own river row (row 14) as the second layer behind a Goblin Barrel or Wall Breakers: clock 2:17 [2, 14], 1:44 [4, 14], 0:54 [3, 14], 0:17 [5, 14], overtime [2, 14] — \"Let's go for the barrel plus spirit here\" (t=756), \"Fire spirit as well. Nice double connection there\" (t=875).",
+      "clock 1:19 (t=813.5): the defensive use, on the Goblin Drill's goblins together with Skeletons — \"Fire spirit here as well\" (t=814).",
+      "clock 1:44: named as part of the Evo package on offence — \"Let's go for the Fire Spirit Evo Barrel and then we go for the Ice Spirit here as well\" (t=791-793)."
+    ],
+    "ice-spirit": [
+      "clock 2:02 (t=770.8 at [8, 1]): the do-nothing cycle card played deep in his own half when he wanted to stay high on elixir instead of committing — \"I think I'll just chill with an ice spirit here in the back and then Wall Breakers opposite lane\" (t=769-773).",
+      "clock 1:39: used as a tank in front of a push rather than for the freeze — \"then we go for the Ice Spirit here as well on the right side just to tank as well\" (t=793-795).",
+      "clock 0:07 (t=885.9 at [16, 5]): backing up the defensive Evo Wall Breakers against Barbarians — \"and then we can go for the ice spirit here as well. Perfect\" (t=885-887). Also played at clock 2:42 [14, 14], 0:55 [8, 9] and twice in overtime."
+    ],
+    "guards": [
+      "Opponent card, played twice (clock 2:26 at [11, 18], clock 0:17 at [2, 19]). Ryley treats them as the opponent's answer to his Ronin and is unsure how the Parry resolves against them — \"Oh, it reflects guards, too... does Ronin not one-hit guards? I don't think it does\" (t=746-753) — then states the read: \"I do think guards actually might be a really good counter to Ronin and Evo Barbs\" (t=774-778).",
+      "He never spends a big card on them: at clock 0:19 they get Skeletons plus a Fire Spirit only (t=872-875), and at clock 0:47 he throws Goblin Barrel plus Wall Breakers pre-emptively because he expects them — \"cuz I know he's going to go for the guards\" (t=848)."
+    ],
+    "goblin-drill": [
+      "Opponent card. Ryley predicted it from the Guards before seeing it — \"Looks like he could be playing drill actually with the guards, maybe\" (t=758-760) — and identified it at clock 1:27: \"Okay, there's the drill.\"",
+      "His answer (clock 1:24-1:19) was Ronin on top of it plus Skeletons and a Fire Spirit, no spell: \"Go for the Ronin here and then we can go for the skeletons plus fire spirit to finish off that drill\" (t=808-812). Its existence is also why he held the Evo Wall Breakers in hand (t=803)."
+    ],
+    "vines": [
+      "Opponent card, never picked up by the detector — identified by Ryley alone at clock 2:42: \"Okay, he has the vines\" (t=728-730).",
+      "He names Vines plus Giant Snowball as the only combination in the opponent's deck that answers his Magic Archer — \"vine snowball does actually leave the magic archer on I think like 10 HP or something. Kind of gross\" (clock 0:54-0:48).",
+      "clock 0:35-0:31: called the Vines before they landed and still got caught — \"I think I need to step back here just to not get vines. So oh my god, I stepped out of the vines. I literally called it. Dude, I called it. I needed to get away from the vines\" (t=857-864)."
+    ],
+    "giant-snowball": [
+      "Opponent card (an Evolution — \"evil snowball\" in the auto-transcript), used on defence twice and wasted both times in Ryley's reading: \"Ooh, bad snowball by him actually. Good defense though, overall\" (clock 1:35) and \"Oh wait, bad evil snowball. Perfect\" (clock 0:42).",
+      "\"He definitely wanted to save that snowball for offense\" (clock 0:38) — forcing a bait opponent to spend it defensively is treated as the win in the exchange."
+    ],
+    "barbarians": [
+      "Opponent card (tracked at clock 1:52 [13, 18] and as Evo Barbarians from clock 0:37 to 0:25). His Wall Breakers connected on the enemy right tower straight through them at clock 1:51 — \"how the heck did it connect through Barbs?\" (t=787-789).",
+      "clock 0:15: bridge Ronin plus Goblin Barrel played specifically to drag them out — \"Apply some more pressure. Force out the barbs maybe\" (t=879-881). At clock 0:08 they were answered with defensive Evo Wall Breakers at [15, 5] plus an Ice Spirit."
+    ],
+    "bomber": [
+      "Opponent card, tracked pushing the left lane at clock 2:02, 0:58 and 0:11. Ryley considered a Magic Archer on top of it and decided against it — \"I could try to get a nice magic archer here on top of that bomber. Might be a little bit aggressive though\" (t=765-769) — playing an Ice Spirit in the back instead."
+    ],
+    "electro-wizard": [
+      "Opponent card, single detector track at clock 0:42 moving into the left lane; Ryley never names it and never plays a card specifically for it."
+    ],
+    "little-prince": [
+      "Detected once on the opponent's side at clock 1:27 [4, 15], in the same second Ryley says \"Okay, there's the drill\" — low-confidence, and possibly the Goblin Drill push mislabelled. He never names the card."
+    ],
+    "giant-skeleton": [
+      "Mentioned only, and as a wrong guess about the opponent's deck at clock 2:38 — \"I guess this could be that bridge spam deck with the giant skelly. Oh, no, he has Wall Breakers, too\" (t=732-737). It was never played."
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-skeletons-wall-breakers",
+    "cards": [
+      "cannon",
+      "fire-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "magic-archer",
+      "ronin",
+      "skeletons",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 4 of an eight-game session on this list (video 720.9s-911.9s, clock 2:52 to overtime 1:46). Won it without ever being under real pressure: own Princess Towers finished at 4817/4817 (41 HP lost) against 1277 and 2252, and the opponent stopped playing in overtime — \"I think he gave up. Good game, dude. Half of the people I'm playing can't even hit my tower. This deck is way too strong\" (t=904).",
+      "The whole game plan is one loop: Goblin Barrel plus Wall Breakers, alternating lanes, every time elixir approaches full — seven barrels and six-plus Wall Breakers sets in 190 seconds. The stated licence is the opponent's lack of a building: \"He can't really defend the wall breakers unless he has a building\" (clock 1:09), and the loop took the enemy left tower 4858 -> 2794 by clock 1:01.",
+      "The deck carries no spell, so Cannon, Skeletons, Fire Spirit and Ice Spirit do all the defending and every placement is reactive: Cannon at [1, 12] \"for the wall breakers\" (clock 1:17) and high at [9, 13] against Evo Barbarians (clock 0:35), Skeletons plus Fire Spirit on the Goblin Drill (clock 1:23) and on the Guards (clock 0:19).",
+      "Magic Archer is the value engine and is never bridged — three placements at [9, 11], [9, 9] and [8, 8], all in the central rows of his own half, which is where most of the chip came from: \"Magic archer just seems extremely powerful against him\" (clock 0:58) and \"Even after the nerf, it's still so good, man\" (overtime).",
+      "Ronin is used three different ways in one game — a back-placed scout at clock 2:35 (\"Sometimes Ronin can completely starting hand people\"), a mini-tank on his own half against the Goblin Drill at clock 1:24, and a single bridge push at clock 0:17 to force out the Barbarians. Against this Guards deck he keeps it defensive: \"I do think guards actually might be a really good counter to Ronin and Evo Barbs\" (clock 1:57).",
+      "The two Evolution slots are Goblin Barrel and Wall Breakers (\"Fire Spirit Evo Barrel\", clock 1:44; \"Evo wall breakers here on defense\", clock 0:08), and the Evo Wall Breakers are consciously held as a defensive option rather than auto-thrown: \"I have the Evo Wall Breakers still ready for defense in case he wants to do anything\" (clock 1:31)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Bait 2.5 Cycle",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel and Wall Breakers are two cheap win conditions that die to the same small spells and are thrown in overlapping two-lane waves at 2.5 average elixir, with Cannon and three 1-elixir cards — not a spell — doing the defending.",
+      "why_it_works_md": "Log bait without a log: the eight cards contain no spell at all, so Cannon, Skeletons, Fire Spirit and Ice Spirit have to cover every swarm, and in exchange both bait threats can be thrown on cooldown instead of held for a bait sequence. At 2.5 average elixir the Goblin Barrel / Wall Breakers pair comes back around faster than a cheap ground deck can double-answer, which is the read Ryley states out loud against a Guards + Goblin Drill opponent: \"He can't really defend the wall breakers unless he has a building\" (clock 1:09). Magic Archer is the value engine and is never bridged — placed at rows 8-11 in his own half it defends both lanes, pierces across the river and chips the tower, and he says the only answer in the opponent's deck is Vines plus Snowball, which \"leaves the magic archer on I think like 10 HP\". Ronin is the flexible fifth gear: a back-placed scout on the opening, a mini-tank that eats a Goblin Drill push on his own half, and an occasional bridge commitment to force out Barbarians — though he warns that Guards may be a genuine counter to it."
+    }
+  }
+}

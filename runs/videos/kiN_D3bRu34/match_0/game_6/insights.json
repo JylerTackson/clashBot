@@ -1,0 +1,95 @@
+{
+  "key": "kiN_D3bRu34-m0.6",
+  "match_file": "matches/kiN_D3bRu34-m0.6.md",
+  "video_title": "#1 BEST Ronin Deck in Clash Royale",
+  "cards": {
+    "ronin": [
+      "clock 1:53: Ronin at tile [5, 14] on the left bridge as the defensive block against a committed Sparky push — \"Oh, no. We have to Ronin here. That's going to take out the mini Pekka... The Ronin should take out the Sparky. Give me one. Give me one on it.\"",
+      "clock 1:15: offensive Ronin at the right bridge, tile [15, 14], as a prediction rather than a defence — \"I'm going to go for the Ronin barrel cuz he might Sparky the back again\"; the opponent did start Sparky in the back at 1:03 and the right tower fell from ~3,700 to ~870.",
+      "clock 0:48-0:34: the defensive Ronin at [5, 14] survives Sparky, Graveyard and a Mini P.E.K.K.A. and converts straight into the tower — \"Ronin, please stay. Okay, the Ronin stayed, that's huge... Oh my dude, the Ronin is too strong... The Ronin just hard carried that defense so hard\", and at 0:31 \"The Ronin and spirit for the tower, huge\" (enemy left tower 2395 -> 298).",
+      "clock 0:23: he offsets the Ronin to tile [1, 18] specifically to dodge the opponent's Hero Giant ability — \"Let's go for the Ronin like this so he can't predict me with the ability. Yep, he tried to predict me with the ability.\""
+    ],
+    "goblin-barrel": [
+      "clock 2:48: opens the game with Goblin Barrel at tile [2, 25] on the enemy left tower — \"off with a barrel here.\"",
+      "clock 2:24: re-barrels the same tower at [3, 24] right after the Wall Breakers connected, tracking the Evo copy in cycle — \"Going to go for a barrel again here, and now we already have the Evo barrel up next\"; left tower 3722 -> 2954 by 2:17.",
+      "clock 2:15: on barrelling into an activated King Tower — \"Evo barrel isn't as effective with the king activated, but of course, it's still a great pressure regardless.\"",
+      "clock 1:15 and 0:34: barrel paired with the bridge Ronin (\"the Ronin barrel\") and again behind the Ronin counter-push at [3, 24]."
+    ],
+    "wall-breakers": [
+      "clock 2:31: Wall Breakers at tile [2, 14], left bridge, as the follow-up to the opening barrel — \"Let's go for the wall breakers here.\" The opponent's Vines missed and they connected: \"Oh, he missed the vines. That's huge. That's a connection\" (enemy left tower 4282 -> 3722, King activated).",
+      "clock 0:38: Wall Breakers at tile [9, 18] added behind the surviving Ronin during the winning push — \"Spirit wall breaker is here.\""
+    ],
+    "cannon": [
+      "clock 2:17: Cannon at tile [8, 7] the moment the opponent invested a Sparky behind the tower — \"well, P just goes for the Sparky. Let's go for the cannon here.\"",
+      "clock 0:55: Cannon at tile [8, 10] as the anchor of the Sparky + Graveyard defence — \"Okay, let's go for the cannon here. We need to go for the ice spirit.\"",
+      "clock 0:27: Cannon at tile [8, 9] placed deliberately wide of the bridge against an expected Giant + Mini P.E.K.K.A. — \"He might go for the giant plus mini pekka at the bridge. Let's cannon here, all the way's away.\""
+    ],
+    "ice-spirit": [
+      "clock 2:02: Ice Spirit at tile [6, 10] used as a splash/freeze directly on the Sparky, not as cycle — \"let's go for the ice spirit here as well, just to be able to splash on top of the Sparky like we did against the last guy. Oh, that didn't splash, unfortunately.\"",
+      "clock 1:37: he blames the whole 2,100-damage tower loss on that miss — \"All because I missed the ice spirit.\"",
+      "clock 0:54: retries the same idea at tile [6, 8] behind the Cannon — \"We need to go for the ice spirit. Hopefully this time it can actually splash.\"",
+      "clock 0:21: a spirit thrown at the Wizard push to block the opponent's Hero Giant ability read — \"he tried to predict me with the ability with spirit here to block this.\""
+    ],
+    "fire-spirit": [
+      "clock 1:11: Fire Spirit at tile [14, 15] added to the Ronin + barrel counter-push on the right — \"we can fire spirit dude, he literally can't defend this. What a good prediction by us right there.\"",
+      "clock 0:44: Fire Spirit at tile [3, 14] on defence as the Mini P.E.K.K.A. answer — \"Fire spirit here, that's going to one shot the mini pekka as well.\"",
+      "clock 0:35: Fire Spirit at tile [9, 21] with Skeletons behind the Wall Breakers during the winning push."
+    ],
+    "skeletons": [
+      "clock 1:52: Skeletons at tile [4, 13] dropped with the Ronin to help strip the Sparky push.",
+      "clock 0:35: Skeletons at tile [9, 21] added to the Ronin/Wall Breakers push on the enemy left tower (2779 -> 298 across the next few seconds).",
+      "clock 0:17: Skeletons at tile [6, 12] as the last defensive cycle card of the game — \"And we can go for the skeletons. Let's go! Very nice win.\""
+    ],
+    "magic-archer": [
+      "clock 2:08: placed deep-left around tiles [2, 5] / [1, 8], deliberately further up the board than usual as a Tornado bait — \"I have to cycle my magic archer here. Like, I want to put it a little bit higher than normal, just to force him to use the NATO [Tornado].\"",
+      "clock 0:50: Magic Archer at tile [1, 7] against the Sparky + Graveyard, and he immediately dislikes it — \"I think the magic archer maybe messed up my defense a bit.\"",
+      "No sign of the Hero variant here: no 2-elixir Triple Threat activation matches any elixir drop and every \"ability\" mention in this game is about the opponent's Hero Giant."
+    ],
+    "sparky": [
+      "clock 2:28: he identifies the archetype off one back-line placement — \"Looks like we're against another Sparky player.\" The opponent started Sparky at tile [4, 22] (2:08) and again at [4, 23] (1:03).",
+      "clock 2:02-1:53: his layered answer is Cannon + Ice Spirit splash + Ronin on top — \"just to be able to splash on top of the Sparky... The Ronin should take out the Sparky.\"",
+      "clock 1:15: rather than match the second Sparky he counter-pushes the opposite lane — \"go for the Ronin barrel cuz he might Sparky the back again.\""
+    ],
+    "tornado": [
+      "clock 1:45 (mentioned, never detected visually): the opponent Tornadoes a Sparky blast into Ryley's left tower for ~2,100 damage — \"YO, YO, YO. OKAY, TORNADO. OKAY, BRO... He just did like a 180 trick shot for 2,000 tower damage. [laughter] They need to nerf that.\" He also plays around it earlier by baiting it with a high Magic Archer at 2:07."
+    ],
+    "vines": [
+      "clock 2:27 (mentioned only): the opponent misses Vines on Ryley's Wall Breakers at the left bridge and they connect — \"Oh, he missed the vines. That's huge. That's a connection.\""
+    ],
+    "giant": [
+      "clock 0:27-0:23 (mentioned only, Hero Giant): Ryley expects a Giant + Mini P.E.K.K.A. bridge push and pre-places Cannon wide for it — \"He might go for the giant plus mini pekka at the bridge. Let's cannon here, all the way's away\" — then offsets his Ronin so the Hero ability cannot grab it: \"so he can't predict me with the ability.\"",
+      "post-game (t=1355): \"a crazy prediction by him with that giant ability and a crazy NATO.\""
+    ],
+    "mini-p-e-k-k-a": [
+      "clock 1:53 (mentioned): the melee threat he wants Ronin's parry on — \"That's going to take out the mini Pekka.\"",
+      "clock 0:44: Fire Spirit is his chip answer for it — \"Fire spirit here, that's going to one shot the mini pekka as well.\""
+    ],
+    "graveyard": [
+      "clock 0:53 and 0:23: the opponent casts Graveyard on Ryley's side at tiles [8, 3] and [10, 2]; Ryley answers with the Cannon at [8, 10], Ice Spirit and Skeletons rather than a spell."
+    ],
+    "wizard": [
+      "clock 0:23: the opponent's Wizard arrives at tile [4, 15] with the final push; Ryley blocks it with a spirit and the Ronin instead of trading a card for it."
+    ],
+    "goblins": [
+      "clock 1:13: the opponent drops Goblins at tile [12, 25] into Ryley's right-lane Ronin + barrel push; the push goes through anyway and the right tower falls to ~870."
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-skeletons-wall-breakers",
+    "cards": ["cannon", "fire-spirit", "goblin-barrel", "ice-spirit", "magic-archer", "ronin", "skeletons", "wall-breakers"],
+    "bullets": [
+      "clock 2:48-2:24: standard opening pattern for the deck — Goblin Barrel first, Wall Breakers at the bridge behind it, then a second barrel; the Wall Breakers connection activated the enemy King and the pair took the left tower 4858 -> 2954 inside 30 seconds.",
+      "clock 2:17-1:53: the defensive core is Cannon at [8, 7] plus a spirit plus Ronin on top of the heavy melee threat; Ryley layers rather than committing one card, which is what the 2.5-elixir average buys him.",
+      "clock 1:45: the deck's fragility is the flip side — one missed Ice Spirit on a Sparky cost ~2,100 tower damage through a Tornado, and there is no second building or reset to fall back on. \"All because I missed the ice spirit.\"",
+      "clock 1:15-1:03: the two-lane threat is the win pattern — with the opponent investing behind the tower, Ronin + Goblin Barrel + Fire Spirit in the opposite lane took the enemy right tower from ~3,700 to ~870. \"He literally can't defend this.\"",
+      "clock 0:48-0:17: defence into offence — the Ronin that stopped the last Sparky push walked back with spirits, Skeletons and Wall Breakers to close the game out in the 3x-elixir minute. \"The Ronin just hard carried that defense so hard.\""
+    ],
+    "new_deck": {
+      "display_name": "Ronin Goblin Barrel Wall Breakers cycle",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "bait",
+      "rationale": "A 2.5-elixir list built on three 1-cost spirits and Skeletons to cycle back to Goblin Barrel and Wall Breakers for chip, with Ronin, Cannon and Magic Archer holding defence rather than any tank.",
+      "why_it_works_md": "The deck never spends more than it has to: Cannon, a spirit and Skeletons hold most single-threat pushes, and Ronin's parry punishes exactly the heavy melee cards (Mini P.E.K.K.A., Sparky's escort) that a cheap list normally struggles with. Because the cycle is so fast, both Goblin Barrel and Wall Breakers come back constantly and threaten either lane, which forces the opponent to answer chip in two places at once. Ronin is the piece that ties it together — he defends for 5 elixir and then keeps walking, so a successful defence becomes a tower push without extra investment. Its weaknesses show when a spirit misses: with no second building and no reset spell, one bad splash on a Sparky can cost half a tower."
+    }
+  }
+}

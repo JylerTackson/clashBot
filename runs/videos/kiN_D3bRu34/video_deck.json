@@ -1,0 +1,57 @@
+{
+ "games": 8,
+ "deck": [
+  "ice-spirit",
+  "fire-spirit",
+  "skeletons",
+  "ronin",
+  "cannon",
+  "goblin-barrel",
+  "wall-breakers",
+  "magic-archer"
+ ],
+ "deck_key": "cannon-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-skeletons-wall-breakers",
+ "mixed": false,
+ "scores": {
+  "ice-spirit": 48,
+  "fire-spirit": 47,
+  "skeletons": 46,
+  "ronin": 42,
+  "cannon": 36,
+  "goblin-barrel": 36,
+  "royal-delivery": 32,
+  "archers": 32,
+  "wall-breakers": 27,
+  "electro-spirit": 26,
+  "magic-archer": 25,
+  "barbarian-barrel": 13,
+  "bomb-tower": 12,
+  "royal-ghost": 9,
+  "goblins": 6,
+  "the-log": 6,
+  "rage": 3,
+  "fireball": 3,
+  "giant-snowball": 3,
+  "musketeer": 3,
+  "berserker": 3,
+  "zappies": 3
+ },
+ "transcript_mentions": {
+  "ice-spirit": 18,
+  "ronin": 86,
+  "wall-breakers": 48,
+  "skeletons": 8,
+  "royal-ghost": 1,
+  "fire-spirit": 27,
+  "cannon": 23,
+  "goblin-barrel": 38,
+  "magic-archer": 58,
+  "barbarian-barrel": 4,
+  "musketeer": 3,
+  "the-log": 2
+ },
+ "notes": [
+  "swapped royal-delivery (score 32, never mentioned) for wall-breakers (score 27, 48 mentions)",
+  "swapped archers (score 32, never mentioned) for magic-archer (score 25, 58 mentions)"
+ ]
+}

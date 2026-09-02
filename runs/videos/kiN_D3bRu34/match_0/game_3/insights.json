@@ -1,0 +1,96 @@
+{
+  "key": "kiN_D3bRu34-m0.3",
+  "match_file": "matches/kiN_D3bRu34-m0.3.md",
+  "video_title": "#1 BEST Ronin Deck in Clash Royale",
+  "cards": {
+    "ronin": [
+      "clock 2:16 (t=579.6): played reluctantly at tile [2, 14] behind the left bridge as the answer he is forced into — \"I have to Ronin here even though I don't want to. He's going to Sparky into this, which is not the end of the world because at least he played the Wizard there\" (t=580-586).",
+      "clock 2:03 (t=590-599): he rates the parry as an offensive stat, not just a block — \"Ronin deflecting the skellies is just so funny too. Look at that damage. Ronin does so much damage under the tower too. Does like 600 a shot. Very, very crazy card here\"; the enemy left tower goes 4106 -> 3321 HP while he is on the field.",
+      "clock 1:03 (t=653.7, tile [6, 14]): the third leg of the anti-Sparky defence, after Cannon and Ice Spirit — \"We can go for the Ronin here cuz it's going to... take out the Sparky and deflect the Mini P.E.K.K.A. Perfect\" (t=654-659), then \"I don't know a single other card in the game that could defend that right there for just five elixir. That's insane\" (t=661-665).",
+      "clock 1:38 (t=617-619) and clock 0:40 (t=678): holding Ronin is what frees his Wall Breakers for offence — \"It's not like I exactly need them, especially if I have the Ronin for the Mini P.E.K.K.A\" — and his summary of the game is \"Ronin is just so good on defense\" / \"the Ronin needs an emergency nerf. That was just a ridiculous defense\" (t=715-717). Only one of his five Ronins is offensive (t=700.7 at [8, 19], after the tower falls)."
+    ],
+    "wall-breakers": [
+      "clock 2:49 (t=546.0): opens the game with them split down the middle at tile [8, 14] as a scouting play — \"Going to split my wall breakers. Try to figure out what this man is playing\" (t=545-549).",
+      "clock 1:50-1:45 (t=609.6 [3, 15], t=612.6 [4, 14]): spends the evolved pair offensively against his own preference — \"I do have the Evil [Evo] Wall Breakers. I would like to save them for defense, but I don't really think that's possible. I guess I'll just Evil Wall Breakers here\" (t=610-614).",
+      "clock 1:24 (t=631.6, tile [14, 15]) and clock 1:22 (t=634-637): played as a shield for the ranged support as much as for damage — \"if these Wall Breakers could tank for the Marcher for a bit, that would be beautiful\".",
+      "clock 0:51 (t=664.7, tile [7, 13]) and clock 0:23 (t=692.7, tile [2, 14]): both are half of a Barrel + Wall Breakers package in the opposite lane to his defence — \"It's Barrel Wall Breakers here opposite lane... Wall Breaker, bang\" (t=666-674) and \"Let's go for the barrel and then Evo Wall Breakers. This should be tower down or at least very close\" (t=692-699)."
+    ],
+    "goblin-barrel": [
+      "clock 2:31 (t=564.6, tile [3, 24]): first throw of the game onto the enemy left tower, before he has identified the matchup and with no bait sequence first — in this list the barrel is a cycle-rate chip tool.",
+      "clock 1:54 (t=601.6, tile [14, 26]): the deliberate lane switch — \"Let's go for the barrel on the opposite lane. I can't get locked into one lane too early. If that happens, then I'm just completely cooked\" (t=599-607).",
+      "clock 1:28 (t=628.6) and clock 0:47 (t=667.7), both at [3, 24]: paired with Fire Spirit and Wall Breakers as one package — \"We can go for the Evil Barrel plus Fire Spirit and we'll Wall Breakers too cuz I knew he's going to try to go in for a push here\" (t=629-632).",
+      "clock 0:25 (t=690.7, tile [3, 24]): the tower-taking throw — \"Let's go for the barrel and then Evo Wall Breakers... He could [Tornado] that. But bang and bang. Let's go. Tower down\" (t=692-700). Five throws in 177 s, four of them at the same enemy left-tower tile."
+    ],
+    "magic-archer": [
+      "clock 1:34 (t=621.8, tile [9, 8]): placed deep on his own half as a sniper, with the protection planned in the same breath — \"Let's go for the Magic Archer here just to snipe that down and then we can go for the Ice Spirit here just to freeze that and keep the Magic Archer alive\" (t=622-628).",
+      "clock 0:40 (t=675.7, tile [8, 12]): re-played as soon as it is affordable while the opponent commits a Wizard — \"We can Magic Archer here again as well\" (t=676).",
+      "clock 0:25 (t=685-691): keeping him alive is treated as the win condition of the defence — \"He might try to spirit or zap, so let's go for the spirit of our own. Spirit again. And look at that, we keep the Marcher alive. Crazy protection here\", backed by Wall Breakers as a body earlier (\"if these Wall Breakers could tank for the Marcher for a bit\", t=634-637).",
+      "Played as the Heroic Magic Archer in this session: no ability is ever named, but there are seven 2-elixir spends against six Wall Breakers deploy labels, so at least one unidentified -2 (t=666.8 / t=668.5 / t=679.7) is most likely a Triple Threat activation."
+    ],
+    "ice-spirit": [
+      "clock 1:09 (t=650.6, tile [1, 9]): the freeze that anchors the anti-Sparky defence — \"I'm going to go for the Ice Spirit down here just to freeze the Sparky. Jumped directly on top. Freeze everything\" (t=650-654).",
+      "clock 1:28 (t=629.3, tile [2, 14]) and clock 1:34 (t=626-628): used to buy the Magic Archer time — \"we can go for the Ice Spirit here just to freeze that and keep the Magic Archer alive\".",
+      "clock 0:32-0:23 (t=684.7 [4, 12], t=692.7): spent pre-emptively against the opponent's own small spell — \"He might try to spirit or zap, so let's go for the spirit of our own. Spirit again\" (t=685-688).",
+      "Seven Ice Spirits in 177 s (t=600.1, 629.3, 650.6, 669.5, 684.7, 692.7, 706.7) — in a 2.5 list it is both the freeze and the cycle card, placed either on top of a threat or directly beside the card it is protecting."
+    ],
+    "fire-spirit": [
+      "clock 1:56-1:28 (t=599.6 [14, 14], t=628.6 [13, 14]): always deployed at the bridge next to a Goblin Barrel or Wall Breakers as splash escort — \"the Evil Barrel plus Fire Spirit\" (t=629).",
+      "clock 0:38 (t=677.7, tile [4, 14]) and clock 0:12 (t=704.7, tile [8, 20]): the same role on the other side of the board, once behind the post-tower-down Ronin push.",
+      "Six Fire Spirits (t=559.2, 599.6, 609.1, 628.6, 677.7, 704.7), all at or beside the bridge; he never uses it as a standalone defensive answer in this game."
+    ],
+    "skeletons": [
+      "clock 0:33 (t=681.7, tile [3, 14]): named support for the building and the sniper — \"Let's cannon here skellies to keep this alive and then we can go for the Ronin as well just to make sure we take this out\" (t=680-684).",
+      "clock 2:44 (t=560.6 [7, 9]), clock 1:50 (t=608.6 [8, 9]), clock 1:03 (t=656.7 [6, 9]): a repeated centre-of-own-half placement in front of the towers as distraction plus cycle during the Sparky build-up.",
+      "clock 0:13 (t=703.0, tile [8, 21]): pushed across the river with the Ronin counter-attack rather than kept home, once the enemy tower is down.",
+      "clock 2:03 (t=592): the opponent's skeletons are what the Ronin parry feeds on — \"Ronin deflecting the skellies is just so funny too.\""
+    ],
+    "cannon": [
+      "clock 1:09 (t=649.6, tile [8, 10]): the first building of the game, held over 100 s and then placed centrally against the Sparky push — \"I'm going to cannon like this and then I'm going to go for the Ice Spirit down here just to freeze the Sparky\" (t=648-651). It is the first leg of the Cannon + Ice Spirit + Ronin answer he calls \"just five elixir\" of troop follow-up (t=661-665).",
+      "clock 0:32 (t=682.8, 3-elixir drop): a second Cannon behind the Skeletons to hold the lane while the Magic Archer chips — \"Let's cannon here skellies to keep this alive\" (t=680-681).",
+      "Both Cannons come after clock 1:10; for the first 100 s he answers everything with spirits, Skeletons and Ronin and keeps the building for the Sparky."
+    ],
+    "sparky": [
+      "clock 2:24-1:38 (t=571-621): he plays around it from memory long before it appears — \"I thought this guy had Sparky. Oh, wait. I'm stupid. He definitely still has Sparky\" and \"The main problem is I guess the Sparky\", which is also why he refuses to spend Ronin cheaply.",
+      "clock 1:15 (t=638.6, tile [4, 23]): it lands and he immediately writes off the tower rather than panic-defending — \"that is a lot of damage, but it's going to be very difficult to be able to defend this... Even if we lose our tower, I know we'll be fine, but I think I see a way on how I could keep my tower\" (t=637-646).",
+      "clock 1:09-1:03 (t=649.6-655.5): beaten by Cannon at [8, 10] + Ice Spirit dropped on top of it + Ronin at [6, 14], with the Ice Spirit freeze timed so the Sparky never fires — \"Jumped directly on top. Freeze everything\" (t=652-654). His towers take no damage from the push."
+    ],
+    "mini-p-e-k-k-a": [
+      "Mentioned only, never seen deployed in this game (clock 2:20, t=576-578): it is his deck-identification tell — \"probably the one with the Wizard and the Mini P.E.K.K.A.\"",
+      "clock 1:38 (t=617-619) and clock 1:03 (t=656-659): the card Ronin is being saved for — \"It's not like I exactly need them [Wall Breakers], especially if I have the Ronin for the Mini P.E.K.K.A\" and \"it's going to take out the Sparky and deflect the Mini P.E.K.K.A.\""
+    ],
+    "wizard": [
+      "clock 2:20-2:08 (t=576-586): used to read the opponent's list and to justify committing Ronin — \"probably the one with the Wizard and the Mini P.E.K.K.A\", then \"which is not the end of the world because at least he played the Wizard there\", i.e. the splash answer was already spent.",
+      "clock 0:37 (t=676.7, tile [11, 18]): the opponent's Wizard is tracked on their own half while Ryley's second Magic Archer and Ronin are on the board; it does not stop the chip."
+    ],
+    "golden-knight": [
+      "clock 1:05 (t=648.6, tile [2, 15]): follows the Sparky into the left lane on the opponent's only big push of the game. Ryley never names it; it walks into the same Cannon + Ice Spirit + Ronin defence (t=649.6-656.7) and the towers survive untouched."
+    ],
+    "barbarians": [
+      "clock 0:13 (t=700.7, tile [7, 18], evolved — barbarian-evolution tracked t=702-704): the opponent's answer to Ryley's post-tower-down Ronin counter-push at [8, 19]. No commentary; he is already reviewing the game (\"I just realized I took zero damage on my tower except for a zap\", t=702-703)."
+    ],
+    "tornado": [
+      "Mentioned only (clock 0:07, t=707): his post-hoc explanation for the single chip of damage on his own tower — \"I think that's a tornado and not a zap\", correcting his own read from five seconds earlier. No Tornado cast was detected in this game."
+    ],
+    "zap": [
+      "Mentioned only (clock 0:32, t=685 and clock 0:15, t=703): the spell he pre-empts with his own Ice Spirit — \"He might try to spirit or zap, so let's go for the spirit of our own\" — and his first (later retracted) explanation for his tower damage: \"I took zero damage on my tower except for a zap.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-skeletons-wall-breakers",
+    "cards": ["cannon", "fire-spirit", "goblin-barrel", "ice-spirit", "magic-archer", "ronin", "skeletons", "wall-breakers"],
+    "bullets": [
+      "Game 4 of 8 in this single-deck session (video 543.7s-720.7s), a win against a Sparky / Golden Knight / Wizard / Mini P.E.K.K.A. control deck: tower down at clock 0:17 (\"bang and bang. Let's go. Tower down\", t=696-700) with only ~40 HP conceded on his own left tower — \"I just realized I took zero damage on my tower except for a zap\" (t=702).",
+      "The offence is two-lane chip on cycle, never a committed push: five Goblin Barrels (t=564.6, 601.6, 628.6, 667.7, 690.7) and six Wall Breakers deploys (t=546.0, 571.6, 609.6, 612.6, 664.7, 692.7), usually thrown as a Barrel + Wall Breakers pair in opposite lanes, with Fire Spirit as escort. The stated rule is \"I can't get locked into one lane too early. If that happens, then I'm just completely cooked\" (t=604-607).",
+      "Ronin is the deck's whole defence and the reason the cheap cards can be spent on offence — \"It's not like I exactly need them [Wall Breakers] ... especially if I have the Ronin for the Mini P.E.K.K.A\" (t=617-619). The signature sequence against the opponent's one big push is Cannon at [8, 10] + Ice Spirit on top + Ronin at [6, 14] (t=649.6-655.5): \"I don't know a single other card in the game that could defend that right there for just five elixir\" (t=661-665).",
+      "Magic Archer (played as the Hero variant this session) is the deck's only ranged damage, and Ryley spends real elixir keeping it alive — Ice Spirit freezes for it (t=626-628), Wall Breakers tank for it (\"if these Wall Breakers could tank for the Marcher for a bit, that would be beautiful\", t=634-637) and Skeletons plus a Cannon hold the lane in front of it (t=680-684).",
+      "Cycle discipline: the Cannon is not placed until clock 1:09, the spirits and Skeletons carry everything before that, and the 2.5-elixir average lets him re-throw the barrel roughly every rotation while still holding 5 elixir for Ronin."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel plus evolved Wall Breakers, Skeletons and two spirits bait small spells and swarm answers in every rotation, and the 2.5 average lets him re-throw them at cycle speed behind a single 5-elixir defensive card.",
+      "why_it_works_md": "The deck splits the board: Goblin Barrel and Wall Breakers chip alternating lanes every rotation while Ronin, Cannon and a spirit answer whatever the opponent builds. Because Ronin parries and kills melee win conditions on his own (Sparky and Mini P.E.K.K.A. here — \"I don't know a single other card in the game that could defend that right there for just five elixir\", t=661-665), the cheap cards never have to be held back for defence. Magic Archer is the only ranged damage and is treated as an investment to protect with Ice Spirit, Wall Breakers and Skeletons rather than a card to trade. The failure mode Ryley names himself is lane tunnel vision: \"I can't get locked into one lane too early. If that happens, then I'm just completely cooked\" (t=604-607)."
+    }
+  }
+}

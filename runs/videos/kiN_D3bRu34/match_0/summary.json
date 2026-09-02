@@ -1,0 +1,116 @@
+{
+ "frames": 9411,
+ "seconds": 4425.0,
+ "timing": {
+  "total": {
+   "n": 9411,
+   "mean_ms": 461.8,
+   "p95_ms": 2213.5
+  },
+  "elixir": {
+   "n": 9404,
+   "mean_ms": 1.6,
+   "p95_ms": 2.2
+  },
+  "hand": {
+   "n": 9404,
+   "mean_ms": 181.9,
+   "p95_ms": 215.8
+  },
+  "clock": {
+   "n": 9404,
+   "mean_ms": 85.2,
+   "p95_ms": 516.0
+  },
+  "labels": {
+   "n": 1567,
+   "mean_ms": 564.6,
+   "p95_ms": 697.6
+  },
+  "detect": {
+   "n": 784,
+   "mean_ms": 1039.0,
+   "p95_ms": 1260.0
+  },
+  "loop_fps": 2.2
+ },
+ "own_elixir_drift": {
+  "n": 1271,
+  "mean": 0.18,
+  "abs_mean": 1.017,
+  "max_abs": 9.316,
+  "last": 0.477
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "wall-breakers",
+   "goblins",
+   "baby-dragon",
+   "knight",
+   "graveyard",
+   "skeletons",
+   "rage",
+   "goblin-barrel"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "graveyard",
+   "rage",
+   "goblin-barrel",
+   "wall-breakers"
+  ],
+  "predicted_next": "barbarians",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado",
+    "name": "GY IWiz Evo BBD Nado",
+    "archetype": "control",
+    "matched": 3,
+    "contradicted": 5,
+    "score": -6.97,
+    "remaining": [
+     "barbarian-barrel",
+     "ice-wizard",
+     "poison",
+     "tombstone",
+     "tornado"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-goblin-hut-ice-wizard-mighty-miner-miner-poison-skeletons-wall-breakers",
+    "name": "Miner Wall Breakers HeroIceWiz",
+    "archetype": "control",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "mighty-miner",
+     "miner",
+     "poison"
+    ]
+   },
+   {
+    "deck_key": "cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers",
+    "name": "WB Log Bait 2.8 Cycle",
+    "archetype": "bait",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "cannon",
+     "dart-goblin",
+     "ice-spirit",
+     "princess",
+     "skeleton-army",
+     "valkyrie"
+    ]
+   }
+  ],
+  "cycle_confirmed": 9,
+  "cycle_violations": 11
+ }
+}

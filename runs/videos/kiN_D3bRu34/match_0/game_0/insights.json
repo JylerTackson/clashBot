@@ -1,0 +1,84 @@
+{
+  "key": "kiN_D3bRu34-m0.0",
+  "match_file": "matches/kiN_D3bRu34-m0.0.md",
+  "video_title": "#1 BEST Ronin Deck in Clash Royale",
+  "cards": {
+    "ronin": [
+      "clock 2:19: with an Elixir Golem walking the left lane he drops Ronin at tile [4, 11] behind Skeletons, Ice Spirit and Fire Spirit, then explains the card over the defence — \"the Ronin like reflects melee units. It's like a melee version of the Monk\" (46-49s).",
+      "clock 1:17: Ronin at [8, 5] plus Cannon at [9, 10] against a P.E.K.K.A. push — \"Let's go for the cannon here to bring this over, and as you guys will see here, the P.E.K.K.A. is going to damage itself a ton\", then \"Look at that, guys. Look at the Ronin there just damaging the P.E.K.K.A.\" (101-109s). At 0:39 he calls the payoff: \"the PEKKA almost one shot itself\" (136-140s).",
+      "clock 0:43 and 0:11: Ronin at [6, 2] holds against a Golden Knight and is still alive at the end — \"look at that Ronin surviving against the golden knight\" (130-132s) and \"it's still surviving against the golden knight cuz every second shot it's just reflecting it. Absolutely broken\" (161-164s).",
+      "clock 0:19: 5-elixir Ronin at [4, 12] to finish the P.E.K.K.A. — \"we can go for the Ronin here as well just to take care of that PEKKA cuz look, oh my god, it completely destroyed that PEKKA guys\" (154-158s). He rates the parry above Monk's: \"instead of it being like a 5-second period, it's like the entire time that it's down\" (94-99s), and flags Electro Dragon as the counterplay — \"E Drake can get really annoying whenever you have the Ronin because of the resets\" (123-127s)."
+    ],
+    "cannon": [
+      "clock 2:33 and 1:13: both Cannons go on the identical tile [9, 10], the standard anti-tank spot, the second one to drag the P.E.K.K.A. off its lane into the Ronin — \"Let's go for the cannon here to bring this over\" (101-102s).",
+      "clock 0:31: a third defensive Cannon while he is ahead on both towers — \"Let's go for the cannon here on defense then we can go for a low magic archer\" (144-145s). In this deck the Cannon covers what Ronin cannot: it is his only building and the answer to anything the parry does not punish."
+    ],
+    "goblin-barrel": [
+      "clock 2:48: opens the game with the barrel at [2, 25] on the enemy left tower from 9 elixir, before any opponent card is on the board.",
+      "clock 1:59 and 1:35: two more barrels at [3, 24], the 1:59 one paired with a Wall Breakers pair at the bridge; the enemy left tower falls from 4352 to 1312 HP over that window.",
+      "clock 0:14: switches lanes with a barrel at [14, 26] once the enemy right tower is nearly dead. He never comments on a barrel placement in this game — it is the automatic pressure card while he narrates Ronin."
+    ],
+    "wall-breakers": [
+      "clock 1:59: Wall Breakers at [4, 15] immediately behind a Goblin Barrel on the same tower, so the Crown Tower has to choose between the goblins and the runners.",
+      "clock 0:14: second pair at [15, 14] in the opposite lane during the closing push, again barrel-first. Both pairs are bridge placements at double/triple elixir, never used on defence here."
+    ],
+    "ice-spirit": [
+      "clock 2:31, 2:19, 1:44, 1:10: four one-elixir Ice Spirits ([3, 14], [5, 8], [10, 11], [1, 14]), every one of them added onto a defence already committed with Cannon, Ronin or Skeletons rather than being the answer itself.",
+      "clock 0:27: places it deliberately deep beside the Magic Archer — \"Ice spirit down low here and I have the ability ready in case he tries to do anything\" (147-149s)."
+    ],
+    "fire-spirit": [
+      "clock 2:43 and 2:11: Fire Spirit at [3, 14] and [3, 9] as chip on the Elixir Golem lane defence, one elixir at a time.",
+      "clock 0:53: used as a lane-puller right after a misclicked Ronin — \"we can go for the fire spirit to bring this over too\" (122-123s). Six Fire Spirits in 170 seconds; it is pure cycle glue in this list."
+    ],
+    "skeletons": [
+      "clock 2:39 to 0:19: eight Skeletons placements ([4, 1], [4, 9], [9, 14] twice, [9, 15], [8, 14], [5, 7]) — the most-played card of the game, always a one-elixir distraction layered onto a Ronin or Cannon defence.",
+      "clock 0:43: \"Easy defense right here. Let's go for the skellies. And look at that Ronin surviving against the golden knight\" (129-133s) — Skeletons buy the Ronin the extra parry cycles against a fast melee attacker he does not beat cleanly alone."
+    ],
+    "magic-archer": [
+      "This slot is the Hero Magic Archer (heroes/magic-archer-hero.md): at 149-151s he says \"I have the ability ready in case he tries to do anything. I'm going to have ability preemptively\", and the elixir trace shows a ~2-elixir spend with no hand change right after, matching Triple Threat's 2-elixir cost.",
+      "clock 2:31, 1:50, 0:58: deployed at [2, 5], [2, 8] and [8, 11], all deep on his own half behind the Cannon rather than at the bridge.",
+      "clock 0:31: \"we can go for a low magic archer just to not give him too much value\" (145-147s) — placed low on purpose against a deck with Skeleton Dragons and Electro Dragon, then the ability held for the reset rather than used on offence."
+    ],
+    "p-e-k-k-a": [
+      "Opponent card, clock 1:25 at tile [5, 25]. Ryley treats it as the demo he wanted: \"Oh, yes, P.E.K.K.A. here. Okay. That's actually going to be very, very nice to showcase this off for you guys\" (84-89s).",
+      "clock 1:10-0:35: answered with Cannon at [9, 10] plus Ronin at [8, 5] — \"the P.E.K.K.A. is going to damage itself a ton\" (104-105s), then \"look at that guys, the PEKKA almost one shot itself\" (138-140s) and finally \"it completely destroyed that PEKKA guys\" (156-158s) after a 5-elixir Ronin at [4, 12] at clock 0:19."
+    ],
+    "golden-knight": [
+      "Opponent card, clock 1:46 and still on the field at 0:11. Named before it arrived as an ideal Ronin target — \"even like a Gold Knight here, it would be really, really good against\" (58-61s).",
+      "clock 1:53: \"Look at that Gold Knight dash. Oh my, wow. It does a lot of damage in the reflection\" (62-64s). At 0:13 the Ronin is still alive against it: \"every second shot it's just reflecting it\" (161-164s) — a fast melee attacker that survives the parry longer than a P.E.K.K.A. does."
+    ],
+    "electro-dragon": [
+      "Opponent card, clock 1:08 at tile [1, 16]. It is the card he names as the Ronin's real problem: \"The E-Drag did stun it, which made it only reflect once, which is fine though cuz one reflection is usually enough to get like a really clean defense\" (111-116s), then \"E Drake can get really annoying whenever you have the Ronin because of the resets\" (123-127s)."
+    ],
+    "elixir-golem": [
+      "Opponent card, clock 2:33 at tile [5, 25] and again around 1:13 and 0:29 — the opponent's main beatdown lead in this game. Ryley answers each one with cheap cycle only (Skeletons, Ice Spirit, Fire Spirit behind Cannon and Ronin) and never spends a heavy card on it; his left tower drops from 4858 to about 3430 HP across the first two pushes but holds."
+    ],
+    "skeleton-dragons": [
+      "Opponent card, clock 2:19 at tile [9, 15] and again at 0:25. It is the air support the Ronin cannot touch; Ryley's response both times is to hold the lane with Cannon and spirits and to keep the Magic Archer deep — \"a low magic archer just to not give him too much value\" (145-147s)."
+    ],
+    "graveyard": [
+      "Opponent card, clock 1:13 at tile [9, 3], dropped while a P.E.K.K.A. and Elixir Golem were already walking the other lane. Ryley does not comment on it; he answers with the Cannon at [9, 10] and Ice Spirit at [1, 14] already in rotation and loses no tower to it."
+    ],
+    "monk": [
+      "Mentioned only, never played by either player. It is Ryley's reference point for Ronin's parry — \"It's like a melee version of the Monk\" (47-49s), \"I wonder how a Ronin plus Monk combo could do\" (51-54s), and he rates Ronin above it: \"kind of like the Monk, but a little bit better in my opinion because instead of it being like a 5-second period, it's like the entire time that it's down\" (94-99s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-skeletons-wall-breakers",
+    "cards": ["cannon", "fire-spirit", "goblin-barrel", "ice-spirit", "magic-archer", "ronin", "skeletons", "wall-breakers"],
+    "bullets": [
+      "Win vs an Elixir Golem / P.E.K.K.A. beatdown deck (Golden Knight, Skeleton Dragons, Electro Dragon, Graveyard, Wall Breakers), recorded the morning Ronin released — \"Ronin released this morning about 2 hours ago\" (10-12s).",
+      "He names the shell himself at 21-27s: \"I have made this new Log Bait deck here with the Ronin cuz I feel like the Ronin synergizes really, really nicely with these quick cycle Log Bait decks.\"",
+      "Pilot pattern: Cannon on [9, 10] plus Ronin on top of whatever the Cannon pulls, one-elixir spirits and Skeletons as the only support, and a Goblin Barrel every rotation (clock 2:48, 1:59, 1:35, 0:31) with Wall Breakers layered behind it at 1:59 and 0:14.",
+      "The Magic Archer slot is the Hero variant and is played as a deep defensive support with the 2-elixir Triple Threat held in reserve — \"a low magic archer just to not give him too much value... I have the ability ready in case he tries to do anything\" (145-151s).",
+      "The deck's stated weakness in this game is the parry reset: \"E Drake can get really annoying whenever you have the Ronin because of the resets\" (123-127s)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Log Bait Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Ryley calls it a \"Log Bait deck... with these quick cycle Log Bait decks\" (21-27s): Goblin Barrel, Wall Breakers, Skeletons and the spirits all bait the same small spells, and the deck cycles back to them constantly.",
+      "why_it_works_md": "The bait half is standard — Goblin Barrel, Wall Breakers, Skeletons, Ice Spirit and Fire Spirit all die to The Log or Arrows, so the opponent's one small spell can never cover everything, and at roughly 2.6 average elixir the barrel comes back before their answer does. What Ronin adds is a defensive anchor the archetype normally lacks: for 5 elixir a fast mini-tank whose parry deflects 200% of a melee attacker's own damage, which turns the mid-ladder heavies these decks fear (P.E.K.K.A., Mega Knight, Mini P.E.K.K.A., Golden Knight, Bandit, Royal Ghost) into the deck's best matchups — in this match the P.E.K.K.A. \"almost one shot itself\" (138-140s) into a Cannon-plus-Ronin defence. The Cannon covers the ranged and building-targeting threats the parry does nothing about, and the Hero Magic Archer supplies the air coverage and long-range chip that Ronin cannot, with Triple Threat held back to dodge spells and dashes. The recurring cost is that resets and stuns cancel the parry — Electro Dragon is called out by name — and that a swarm or anything ranged simply walks around the mechanic."
+    }
+  }
+}

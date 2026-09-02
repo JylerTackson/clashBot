@@ -600,6 +600,157 @@
     "the-log"
    ],
    "complete": true
+  },
+  "kiN_D3bRu34": {
+   "id": "kiN_D3bRu34",
+   "title": "#1 BEST Ronin Deck in Clash Royale",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 9411,
+     "seconds": 4425.0,
+     "games": [
+      {
+       "match": "0.0",
+       "seconds": 168.8,
+       "events": 68,
+       "own_deck": [
+        "skeletons",
+        "fire-spirit",
+        "goblin-barrel",
+        "ice-spirit",
+        "ronin",
+        "magic-archer",
+        "cannon",
+        "archers"
+       ]
+      },
+      {
+       "match": "0.1",
+       "seconds": 195.0,
+       "events": 78,
+       "own_deck": [
+        "wall-breakers",
+        "ice-spirit",
+        "fire-spirit",
+        "skeletons",
+        "ronin",
+        "goblin-barrel",
+        "magic-archer",
+        "cannon"
+       ]
+      },
+      {
+       "match": "0.2",
+       "seconds": 175.0,
+       "events": 73,
+       "own_deck": [
+        "fire-spirit",
+        "ice-spirit",
+        "skeletons",
+        "ronin",
+        "cannon",
+        "electro-spirit",
+        "royal-delivery",
+        "archers"
+       ]
+      },
+      {
+       "match": "0.3",
+       "seconds": 177.0,
+       "events": 63,
+       "own_deck": [
+        "ice-spirit",
+        "skeletons",
+        "fire-spirit",
+        "ronin",
+        "goblin-barrel",
+        "cannon",
+        "royal-delivery",
+        "wall-breakers"
+       ]
+      },
+      {
+       "match": "0.4",
+       "seconds": 191.0,
+       "events": 81,
+       "own_deck": [
+        "skeletons",
+        "wall-breakers",
+        "fire-spirit",
+        "ice-spirit",
+        "goblin-barrel",
+        "ronin",
+        "cannon",
+        "magic-archer"
+       ]
+      },
+      {
+       "match": "0.5",
+       "seconds": 277.1,
+       "events": 122,
+       "own_deck": [
+        "skeletons",
+        "fire-spirit",
+        "wall-breakers",
+        "ice-spirit",
+        "magic-archer",
+        "ronin",
+        "cannon",
+        "goblin-barrel"
+       ]
+      },
+      {
+       "match": "0.6",
+       "seconds": 169.0,
+       "events": 62,
+       "own_deck": [
+        "ice-spirit",
+        "skeletons",
+        "goblin-barrel",
+        "fire-spirit",
+        "cannon",
+        "ronin",
+        "archers",
+        "magic-archer"
+       ]
+      },
+      {
+       "match": "0.7",
+       "seconds": 215.4,
+       "events": 97,
+       "own_deck": [
+        "fire-spirit",
+        "ice-spirit",
+        "skeletons",
+        "ronin",
+        "goblin-barrel",
+        "magic-archer",
+        "cannon",
+        "archers"
+       ]
+      }
+     ]
+    }
+   ],
+   "periods": [
+    [
+     4.0,
+     1574.0
+    ]
+   ],
+   "own_deck_video": [
+    "ice-spirit",
+    "fire-spirit",
+    "skeletons",
+    "ronin",
+    "cannon",
+    "goblin-barrel",
+    "wall-breakers",
+    "magic-archer"
+   ],
+   "complete": true
   }
  }
 }

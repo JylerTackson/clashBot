@@ -1,0 +1,102 @@
+{
+  "key": "kiN_D3bRu34-m0.1",
+  "match_file": "matches/kiN_D3bRu34-m0.1.md",
+  "video_title": "#1 BEST Ronin Deck in Clash Royale",
+  "cards": {
+    "ronin": [
+      "clock 2:21: placed at tile [14, 14] directly on top of the opponent's Bowler (HUD elixir 8 -> 3, deploy label confirms) with the parry rule spelled out — \"Ronin is interesting against Bowler guys, cuz even though it looks like Bowler might be a melee unit, it's not actually a melee unit, so it does not reflect the Bowler... it won't reflect things like, you know, Sparky, Bowler, and things like that, cuz those are still projectiles even if they do kind of look like melee units\" (194-213s). He also stacks it on top so it cannot be displaced: \"directly on top of that so he can't use the giant ability to knock it away\" (203-206s).",
+      "clock 1:23 and 0:31: offensive Ronin at tiles [14, 13] (elixir 6 -> 1) and [4, 14] (10 -> 5), each with a Fire Spirit dropped on top of it a second later — \"I can just go for a Ronin plus Fire Spirit on top of the witch\" (261-263s), \"Let's go for the Ronin plus Fire Spirit\" (315s).",
+      "overtime 1:52 and 1:44: the game-winning interaction. He pre-calls it twice — \"He might have Mini P.E.K.K.A. though. If he has Mini P.E.K.K.A., the Ronin's going to be absolutely insane against that\" (228-230s) and \"the Mini P.E.K.K.A. does actually like one-tap itself, which is kind of funny\" (280-284s) — then a Mini P.E.K.K.A. walks into the Ronin at tile [1, 18]: \"look, it's going to get one shot. OH MY GOD! I told you he can't use the Mini P.E.K.K.A. Good game. Very nice win\" (357-365s).",
+      "clock 2:42: on the recent buff, spoken while barrelling — \"what do you think about the Ronin man? Especially after the buffs that it got. It now hits quicker and its first attack is also quicker. Just like overall across the board, just a massive buff to the damage and the damage per second\" (180-192s)."
+    ],
+    "wall-breakers": [
+      "clock 2:50: opening Evo Wall Breakers split at tile [8, 14], centre of his own half, used as a deck scout — \"I'm just going to go for the wall breaker split here. Try to figure out what this man is playing\" (175-178s).",
+      "clock 1:58 to 0:25: the every-cycle chip threat at the bridge — tiles [5, 14] (HUD 7 -> 5), [4, 15], [4, 14], plus HUD-only pairs at 312.6s (10 -> 8) and 320.3s (5 -> 3). The first one takes the enemy right tower 4474 -> 3914: \"We're going to get a nice wall breaker connection. I don't know why he defended the right side one when the right side had a lot of low HP\" (233-237s).",
+      "clock 2:07: names a king-activation trick with them — \"Maybe later in the game I'll be able to activate my king tower off of the Bowler with my Wall Breakers. There's like a really cool interaction with the Wall Breakers that you can do to activate your king tower\" (218-226s).",
+      "overtime 1:56 to 1:44: used on defence at tile [4, 14] and then offensively at [9, 17] behind the Ronin — \"Then we go for the Evo Wall Breakers just to splash this, and then we can go for the Ronin as well\" (350-354s)."
+    ],
+    "goblin-barrel": [
+      "clock 2:43 to 0:15: six Evo Goblin Barrels (tiles [15, 24], [3, 24], [14, 24], [3, 24], [3, 23], [3, 24]) thrown on cooldown at whichever tower was softer, paired with the Wall Breakers as the deck's second win condition — \"I'm going to Evo Barrel plus Evo Wall Breakers here. Go for both my evos\" (255-258s).",
+      "clock 0:50: a predictive centre barrel at tile [3, 23] aimed at a back-line placement before it happened — \"He's probably going to go for the Bowler in the back. So I'm going to predict that with a barrel in the centre here\" (294-297s).",
+      "overtime 1:52: the finishing barrel at tile [3, 24] as part of a spirit-and-barrel pile onto the last enemy tower (reads 136 HP at 356s) — \"Let's go for the Fire Spirit, Barrel and Ice Spirit\" (355s)."
+    ],
+    "cannon": [
+      "clock 2:26 and 1:38: reactive placements at tiles [9, 10] and [9, 9], roughly centre and four tiles up from his own towers, both after the opponent had committed (first elixir 10 -> 7).",
+      "clock 1:38: states the cycle rule for this deck — \"I prefer to cycle a Cannon instead of the Magic Archer, because I feel like the Magic Archer is a lot easier to block and it doesn't guarantee to get value every single time\" (247-253s).",
+      "clock 0:25 to 0:19: a predicted Cannon against the Giant, placed to pull it off the tower — \"let's predict the giant here with the Cannon. Nice. Beautiful prediction. Now the giant's going to walk out of range of the tower, so our towers can help out on defense. Very good Cannon\" (320-327s)."
+    ],
+    "fire-spirit": [
+      "clock 1:50 onwards: bridge chip on repeat, tiles [15, 14], [14, 8], [13, 9], [4, 15], [9, 19] — \"Keep up the pressure. I just want to keep being annoying here with the spirits at the bridge, is grabbing some free chip damage\" (241-246s).",
+      "clock 1:26 and 0:31: the splash layer stacked on a Ronin — \"Ronin plus Fire Spirit on top of the witch\" (261-263s) and \"Let's go for the Ronin plus Fire Spirit\" (315s, HUD elixir 5 -> 4 immediately after the Ronin).",
+      "clock 2:36: first defensive spirit of the game at tile [7, 13] against the Witch push (elixir 8 -> 7) — \"Going to spirit here as well\" (192s)."
+    ],
+    "ice-spirit": [
+      "clock 2:13: paired with split Skeletons against Minions crossing at tile [15, 14] (HUD elixir 6 -> 5) — \"Just going to split my skellies here to deal with those minions. Very nice defense right there\" (213-216s).",
+      "clock 1:50 to 0:24: interchangeable with the Fire Spirit in the bridge-chip routine, tiles [14, 14], [2, 15], [3, 5], [5, 14], [9, 17] — part of \"being annoying here with the spirits at the bridge\" (243-246s).",
+      "overtime 1:50: added to the finishing barrel push at tile [9, 17] — \"Let's go for the Fire Spirit, Barrel and Ice Spirit\" (355s)."
+    ],
+    "skeletons": [
+      "clock 2:13: split at tile [8, 14] against two Minions, alongside an Ice Spirit — \"Just going to split my skellies here to deal with those minions. Very nice defense right there\" (213-216s).",
+      "clock 1:20: dropped at tile [11, 9] into the Graveyard-plus-Rage push he had already decided to trade away — \"We can just go for the skeletons here. He ended up ignoring everything. Could never really predict that\" (267-270s).",
+      "clock 1:50 and overtime 1:52-1:48: pure cycle bodies in the back at tile [8, 1] and three plays in the last ten seconds ([7, 11] plus two HUD -1 drops) — \"Let's go for the skellies here\" (349s)."
+    ],
+    "magic-archer": [
+      "clock 0:43: he runs the Hero Magic Archer this game and places it away from the fight, on his own half at tile [2, 13] — \"I would love to Magic Archer this, but I think I'd rather Magic Archer off to the side here\" (303-305s).",
+      "clock 1:38: deliberately not a cycle card in this deck — \"I prefer to cycle a Cannon instead of the Magic Archer, because I feel like the Magic Archer is a lot easier to block and it doesn't guarantee to get value every single time\" (247-253s).",
+      "clock 0:16 to overtime: his verdict after the nerf — \"the Magic Archer did get a nerf, but I still think that the Hero Magic Archer is extremely powerful regardless of the nerf that it got. It's not as good as it was before, but I still think that it's still a very solid choice. But if you guys don't want, or don't have the Hero Magic Archer... you can always use the Dark Goblin\" (329-347s).",
+      "clock 2:07 to 0:22: four own-elixir drops of exactly 2 with no hand change (219.4s, 248.2s, 295.6s, 323.2s) match the Hero's 2-elixir Triple Threat, and \"Step back. Oh, I tried to get a step back here\" (313-315s) matches its teleport — inferred from the elixir signature plus commentary, not a read play."
+    ],
+    "bowler": [
+      "clock 2:31 to 2:21: the opponent's Bowler pushes the right lane from tile [15, 19]; Ryley answers by placing a Ronin directly on top of it and uses it to teach the parry's limit — \"even though it looks like Bowler might be a melee unit, it's not actually a melee unit, so it does not reflect the Bowler\" (196-201s).",
+      "clock 2:07: he plans to farm it for a king-tower activation — \"Maybe later in the game I'll be able to activate my king tower off of the Bowler with my Wall Breakers\" (218-222s).",
+      "clock 0:50 and overtime 1:58: he predicts a back-placed Bowler and pre-throws a barrel at it (294-297s); the Bowler that does arrive at tile [3, 13] in overtime is met with Skeletons, Wall Breakers and Ronin — \"Beautiful defense\" (354s)."
+    ],
+    "mini-p-e-k-k-a": [
+      "clock 1:58: called before it ever appeared — \"He might have Mini P.E.K.K.A. though. If he has Mini P.E.K.K.A., the Ronin's going to be absolutely insane against that\" (228-230s).",
+      "clock 1:08: uses it to choose which of his own towers to give up — \"if he has like a Mini P.E.K.K.A., I might just end up taking the right side, cuz the Mini P.E.K.K.A. does actually like one-tap itself, which is kind of funny\" (278-284s).",
+      "overtime 1:44: it is the opponent's last unseen card and it walks into the Ronin at tile [1, 18] — \"look, it's going to get one shot. OH MY GOD! I told you he can't use the Mini P.E.K.K.A. Good game. Very nice win\" (357-365s)."
+    ],
+    "sparky": [
+      "clock 2:28: mentioned only, never played by either side — used as an example of a card the Ronin's parry does not reflect: \"it won't reflect things like, you know, Sparky, Bowler, and things like that, cuz those are still projectiles even if they do kind of look like melee units\" (208-213s)."
+    ],
+    "witch": [
+      "clock 2:37 and 1:26: the opponent's Witch is the first card revealed (tile [3, 16], their elixir 7.3 -> 2.3) and their main support; Ryley answers the second one with a stacked Ronin and Fire Spirit — \"I can just go for a Ronin plus Fire Spirit on top of the witch\" (261-263s).",
+      "clock 0:45: a Witch timed against his push draws only a compliment for the timing, not a change of plan — \"nice timing with that witch. It's going to be a nice spirit connection\" (299-301s)."
+    ],
+    "graveyard": [
+      "clock 2:25 and 1:20: the opponent drops a Graveyard on Ryley's half at tile [8, 3] (their elixir 5.0 -> 0.0) and later Rages the follow-up; Ryley answers with Skeletons and then accepts the tower trade — \"We're going to lose our tower here guys, but he's going to lose most of his tower as well. That's fine with me. We can just go for the skeletons here\" (264-269s)."
+    ],
+    "rage": [
+      "clock 1:19 and 0:21: two opponent Rages dropped on Ryley's half (tiles [15, 1] and [3, 2]) over Graveyard/Bowler pushes; he never spends a card specifically on them, choosing instead to keep chipping — \"He ended up ignoring everything. Could never really predict that\" (269-271s)."
+    ],
+    "minions": [
+      "clock 2:13: two Minions cross at tile [15, 14] and are answered for 2 elixir with split Skeletons plus an Ice Spirit — \"Just going to split my skellies here to deal with those minions. Very nice defense right there\" (213-216s)."
+    ],
+    "arrows": [
+      "clock 1:14: the opponent's Arrows are spent badly during the trade window and Ryley calls it out immediately — \"Okay, bad arrows by him though. He's definitely going to lose his left or right side tower here\" (272-275s). The spell itself was never read as an event; it is inferred from the commentary and from tower damage with no enemy unit in range."
+    ],
+    "giant": [
+      "clock 0:25 to 0:19: the opponent's Giant is answered with a predicted Cannon rather than a reaction — \"let's predict the giant here with the Cannon. Nice. Beautiful prediction. Now the giant's going to walk out of range of the tower, so our towers can help out on defense. Very good Cannon\" (320-327s).",
+      "clock 2:21: he places the Ronin on top of its target partly to deny a displacement ability — \"directly on top of that so he can't use the giant ability to knock it away\" (203-206s); read as the Hero Giant's Heroic Hurl, though the auto-transcript could also be mangling 'Giant Snowball'."
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-skeletons-wall-breakers",
+    "cards": ["cannon", "fire-spirit", "goblin-barrel", "ice-spirit", "magic-archer", "ronin", "skeletons", "wall-breakers"],
+    "bullets": [
+      "Game 2 of the session (video 173.3-368.4s), a win in overtime against a Giant/Bowler/Witch/Graveyard beatdown list. The deck is piloted as pure chip: Wall Breakers or a Goblin Barrel almost every cycle, a Fire Spirit or Ice Spirit at the bridge in between — \"I just want to keep being annoying here with the spirits at the bridge, is grabbing some free chip damage. Then we can cycle our Cannon\" (243-247s).",
+      "Cycle discipline: the Cannon is the card he rotates back to, not the Magic Archer — \"I prefer to cycle a Cannon instead of the Magic Archer, because I feel like the Magic Archer is a lot easier to block and it doesn't guarantee to get value every single time\" (247-253s).",
+      "Defence is Ronin-on-top plus a 1-elixir body: Ronin onto the Bowler at tile [14, 14] (clock 2:21) and onto the Witch at [14, 13] with a Fire Spirit stacked (clock 1:26), Skeletons and Ice Spirit for Minions (clock 2:13), Cannon for anything that walks (clock 2:26, 1:38, 0:22).",
+      "Both evolutions go into the same push: \"I'm going to Evo Barrel plus Evo Wall Breakers here. Go for both my evos, cuz I can just go for a Ronin plus Fire Spirit on top of the witch\" (255-263s).",
+      "It happily trades towers because it out-chips: his right tower drops to 182 HP by clock 1:14 while both enemy towers fall below 2100 — \"We're going to lose our tower here guys, but he's going to lose most of his tower as well. That's fine with me\" (264-267s) — and he prefers the resulting race, \"I do prefer to be in this one-to-one situation with having most of his left side tower taken\" (290-294s).",
+      "Hero slot: he runs the Hero Magic Archer and names the budget swap — \"if you guys don't want, or don't have the Hero Magic Archer... you can always use the Dark Goblin. Dark Goblin's a very good alternative as well\" (341-347s)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Wall Breakers Cycle",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "bait",
+      "rationale": "Eight cards averaging 2.5 elixir with three 1-elixir cycle cards and a defensive building, replayed faster than the opponent can rotate answers; the two cheap win conditions (Goblin Barrel and Wall Breakers) also bait small spells, which is the secondary.",
+      "why_it_works_md": "The deck wins by never letting the opponent bank elixir: Wall Breakers and Evo Goblin Barrel go in almost every rotation, with a Fire Spirit or Ice Spirit at the bridge in between for free chip, and the Cannon is the card cycled back to on defence rather than the Magic Archer (\"the Magic Archer is a lot easier to block and it doesn't guarantee to get value every single time\", 247-253s). The Ronin is the answer to everything the cheap cards cannot handle, but only when placed on top of its target — the parry does not reflect ranged attackers like Bowler or Sparky, and against a Mini P.E.K.K.A. it kills the attacker outright, which is how this game ended. Because the chip is continuous, the deck can afford to trade a Crown Tower for two heavily damaged ones and win the race in overtime. The Hero Magic Archer is the flex slot; Ryley names the Dark Goblin as the non-hero substitute."
+    }
+  }
+}
