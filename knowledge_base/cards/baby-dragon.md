@@ -121,6 +121,15 @@ This card appears in 2 of 19 scraped decks:
 - **[Control](../archetypes/control.md)** — 2 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md), [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- clock 1:17 (t=374.5): Baby Dragon on defence after cycling with Tornado — "Anyways, now we can just go for the baby dragon here on defense" (381-383s). He tracks its evolution cycle at 384-386s: "We're going to get to our Evo Baby Dragon."
+- clock ~1:39 (t=472.8, deploy label at (15, 2)): the air half of a planned three-card push — "We could go for a baby dragon evo knight graveyard push" (470-474s).
+- clock 0:45 (t=526.2, tile (3, 5)): played behind the Poison as the splash that the Tornado feeds — "NATO this back into the skelly so that baby dragon can get more damage on everything. Beautiful NATO there" (532-537s). Earlier he spends a Tornado purely to protect it: "just to make sure that we keep our baby dragon alive. We're really, really going to need that" (322-326s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

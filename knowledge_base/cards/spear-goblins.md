@@ -89,6 +89,13 @@ Not specified on source page
 - Being an easy Zap/Log target can be turned around — the opponent's lack of an efficient counter can be punished with Minion Horde or Goblin Barrel.
 - Spear Goblins + Goblins replicate the Goblin Gang for slightly more Elixir, but with one extra Goblin and the flexibility of two cheap cards instead of a single 3-Elixir commitment.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 0:47 and overtime 1:00: mentioned only as the Goblin Hut's output, and the reason he keeps replacing the hut mid-field — "I just want to keep on stacking up my spear goblins and skellies" and "start up our spear goblins."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

@@ -171,6 +171,15 @@ This card appears in 2 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md), [Hog HeroMusk 2.6 Cycle](../decks/cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 1:41 (opponent's Evolution): "Evo musketeer is so annoying in this" — flagged before it appeared, alongside Evo Bats.
+- clock 0:16: answered by dropping Skeletons directly on it while the Ice Wizard ability froze the rest of the push — "I do need to go for the skeletons to block the musky."
+- overtime 0:47: it sniped his mid-field spawner — "Good musky there to snipe down our Goblin Hut."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

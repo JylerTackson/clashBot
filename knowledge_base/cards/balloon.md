@@ -132,6 +132,15 @@ This card appears in 2 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 2:10 (opponent's card): identified from the first push — "it looks like Aragon's playing a minor balloon deck. And Ice Wizard will definitely be very very useful here."
+- clock 1:27 to 1:10: Ryley's stated counter is Hero Ice Wizard plus ability, nothing else — "I can just use my ice wizard plus ability to fully counter the balloon and there's like nothing that he can do about it… what is he even supposed to do about that? Yeah, that just frozen in place."
+- overtime 0:45: the opponent runs the hero variant too — "He's going to maybe balloon ability himself" — and the one freeze Ryley was late on took his right crown tower from 2656 to 1131.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

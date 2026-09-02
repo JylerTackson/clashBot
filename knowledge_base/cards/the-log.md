@@ -123,6 +123,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.m
 - clock 0:47: he notes the opponent had to spend it on the Cursed Hogs - "the Mother Witch piggies are going to take his tower. He had a log because of that."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:22 (mentioned, not played — the opponent never showed it either): named as one of only two spells that kill the Hero Ice Wizard's snowman — "it does actually end up dying to the log and the arrows."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

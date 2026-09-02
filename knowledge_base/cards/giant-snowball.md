@@ -137,6 +137,17 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.m
 - OT 1:53: a second snowball on the same target does not save the defence — "Good snowball, but not good enough. These Zappies are going to kill everything."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:27 (mentioned as "snowball", not played): does not remove the Hero Ice Wizard's snowman — "it survives like zap, rage, tornado, snowball, all of those kinds of spells."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 0:23 (opponent's card, mentioned): dismissed as an answer to Royal Hogs already on the tower — "He has to really watch out here. Snowball won't be enough. Royal hogs are on the tower."
+- overtime 1:14: he predicts it as part of the opponent's only affordable response — "He's going to have to go for like a snowball plus bats or something."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

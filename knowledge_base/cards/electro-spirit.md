@@ -122,6 +122,16 @@ This card appears in 5 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 2:38 and 2:41: the follow-up to a Barbarian Barrel + Skeletons defence (label at [4, 8]) — "the Skelly's just making sure that we take this out. Okay, let's go for the Espirit, too."
+- clock 0:12: used to finish a defence that his Ice Wizard ability had already frozen — "East [Electro Spirit] to keep this alive. Yo, that is so good."
+- overtime 1:13: played as a chain answer to Evo Bats and he called the odds out loud — "let's Espirit here. Try to chain to the bats. It probably won't cuz of the nerf. Oh my god, it did. Nice."
+- overtime 0:48 to 0:19: three more 1-elixir drops (labels at [9, 0] and twice at [12, 8]) as cheap cycle and stuns while defending the last Balloon wave.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

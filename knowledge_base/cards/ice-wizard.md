@@ -125,6 +125,32 @@ This card appears in 1 of 19 scraped decks:
 - **[Control](../archetypes/control.md)** — 1 deck(s): [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:44-1:22 (no plays on screen): the full Hero explanation — "basically what it does is it spawns a snowman for two elixir and everything near that snowman is completely frozen until the snowman is taken out. It does slowly decay over time, but it does last quite a while. It has a little bit of HP as well… it survives like zap, rage, tornado, snowball, all of those kinds of spells, but it does actually end up dying to the log and the arrows."
+- clock 1:19 and overtime 1:52: played in the back to cycle, never as front-line support — "Let's go for the ice wizard in the back here" and "Let's just go for the ice wizard here in the back." He also cycles toward it on purpose at 1:03: "we definitely need to cycle back to another ice wizard so we can have it for the battery" (auto-transcript for Battle Ram).
+- clock 0:50: the marquee defence — an own 2-elixir drop with no hand change while an Evo Battle Ram sat 3.9 s from the tower alongside Evo Wall Breakers, an Evo Valkyrie and a Musketeer. "I think I have the ability here. Let's pop the ability. And look at this guys. Everything in the area is just completely frozen." After the snowman was bombed out: "that was a really really solid defense right there. Without that ice wizard ability, that could have actually been very scary."
+- clock 0:16-0:13 and overtime 1:30: the ability as the back half of a two-card answer behind Poison — "We need to go for the poison. And then we need to go for a ice wizard ability here just to freeze everything. Beautiful defense right there" and "Let's poison first and pop the ability just to make sure that we're safe." It also works as offensive insurance ("we can always pop the ability and kind of threaten him with another push", 0:29) and is cheap enough to hold: at overtime 0:38 he declines it — "I think we could even pop the ability if need be, but I don't think we're going to need be." Closing verdict: "Ice wizard hard carried us this game."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- clock 2:27 (t=304.1): opened by putting the Hero Ice Wizard behind his king tower at tile (8, 1) for 3 elixir, straight after a Knight in the same spot, against a Lava Hound going down at the back. He had just explained the slot: "obviously tombstone hero is really good, but I do feel like it's not the best fit for Splashards. We're going to be trying out the hero ice wizard here" (292-299s).
+- clock 1:38 (t=353.7) and clock 0:50 (t=401.6): both times he plays it in the back before committing to a push rather than as a reaction — "I guess we could go for a knight at the bridge. Now, let's ice the back first" (352-355s), and "Let's ice here. Then we can maybe go in. Dude, that card is so broken, by the way" (401-405s). Neither shows in the hand read: hero card art is unrecognised, so his Ice Wizard only ever appears as a deploy label or a bare 3-elixir drop.
+- clock ~1:49 (t=465.0): played high in the left lane at tile (1, 14), his own elixir dropping 6 -> 3, specifically to stop an Inferno Dragon reaching the tower — "Let's go for the ice wiz up top here. I don't really want the inferno dragon to get anywhere close to this tower" (465-470s). He justifies the whole slot on that matchup: "Evo Inferno Dragon has always been really, really annoying for Splasher as well. But now with the Hero Ice Wizard, maybe we could try to reset it" (393-401s).
+- clock ~0:53 (t=515.7-521): the ability. He wanted it once earlier and could not pay — "Maybe I could pop the ability to freeze it. No, I can't" (488-491s) — and midway through he was unconvinced: "Haven't really gotten any good ice wizard usages yet ... It just seems kind of skeptical sometimes" (496-503s). Then it landed on a minion during a Lava Hound push: "I have to pop the ability just to freeze it ... Yo, look at that ability. That is broken. Dude, that just completely saved our lives" (518-528s), and his closing verdict after losing was "Hero ice wiz actually gave us a chance, though" (563-567s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 2:40 (Hero variant): opened with a deploy label 'Ice WizaRd' at tile [7, 8], dead centre of his own half, elixir 10 -> 7 (3 elixir, the base card's cost). The hand reader never sees the hero art, so every Ice Wizard play in this game is visible only as a deploy label or an elixir drop.
+- clock 1:27: chose the 4-elixir Goblin Hut over committing the hero, explicitly saving it for the Balloon — "I think I will actually [Goblin Hut] instead of going for the ice wizard because I can just use my ice wizard plus ability to fully counter the balloon and there's like nothing that he can do about it."
+- clock 1:11, 0:20, overtime 1:28 and overtime 0:11: four defensive Ice Wizard + ability freezes against the Miner Balloon deck's Balloon and Evo Bats waves — deploy label at [2, 14] on his own half, then a 2-elixir drop within ~2 s. "That just frozen in place and there's nothing that he can do"; "It just stayed there frozen the whole time"; "Dude, this is not a real card."
+- clock overtime 1:44 and overtime 0:33: he treats the hero as licence to spend elsewhere — "I'm even comfortable going for the lightning here because I just know that we have the hero ice wizard defensively" — but also grades a lazy back placement badly: "I think this ice wizard was kind of bad by us," and the one ability he was late on ("Pop the ability now cuz the barrel is tanking for it") cost him most of a crown tower.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

@@ -111,6 +111,21 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:37, 0:37, overtime 1:51/1:37/1:20/1:15/1:10/0:53/0:45: the chip win condition, played every cycle and always paired with Wall Breakers rather than sent as a lone tank — "Think we can go in here with a minor plus wall breakers", "we can just go for the minor plus evil wall breakers here."
+- clock 1:37: first placement at tile [15, 13], right-hand bridge tile, immediately followed by Wall Breakers at [14, 15] — the package he repeats all game.
+- overtime 0:52: he frames Miner as defence by other means — "I would say that's minor here. Keep up the pressure. Make him have to spend some elixir on defense… Pressure while defending."
+- overtime 1:10 and 0:51: deploy labels at [12, 22] and [12, 23] show him switching to king-tower placements once the crown tower was nearly dead.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 0:28 (opponent's card): caught alongside the Bomb Tower by a single Lightning at [5, 22] — "we can get a really nice lightning actually on the miner plus a bomb tower probably. Nice. Good lightning right there."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

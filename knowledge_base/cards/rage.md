@@ -124,6 +124,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.m
 - Not in this deck: the hand OCR reports a Rage slot repeatedly across this game (clock 2:31 to 0:21), but the recomputed video-level consensus classes those reads as Freeze misreads, and Rage is never played or mentioned in any of the video's 7 games.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:27 (mentioned, not played): another spell the Hero Ice Wizard's snowman survives — "it survives like zap, rage, tornado, snowball."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

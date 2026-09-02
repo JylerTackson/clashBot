@@ -123,6 +123,22 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoRHogs AQ GobHut EvoGhost](../decks/archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:10 and overtime 1:47: placed twice at exactly tile (9, 9), central so the Spear Goblins reach both lanes — "Let's go for the goblin hut here" and "we can go for a goblin hut in the middle as well. I just want to keep up the defense. We're defending perfectly right now."
+- clock 0:20: he counts on the hut to answer the opponent's Elite Barbarians for free — "since he had to waste his Ebarbs, his Earbs will now get taken out by our goblin hut."
+- overtime 0:59-0:51: with a Giant Skeleton walking in, he defended the building rather than the tower — "We need a barbell plus Mighty Miner here… I just have to make sure that I'm blocking it from actually getting to our Goblin Hut cuz keeping the Goblin Hut is our number one priority right now."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 1:27 and 0:57: placed in the middle of his own half (deploy label [8, 10], allied hut tracked at [8, 7]) and replaced roughly every 30 s — "Let's just go for the goblin hat here in the middle again. I just want to keep on stacking up my spear goblins and skellies."
+- clock 1:27: used as the cheap substitute for his hero so the hero stays available — "I think I will actually [Goblin Hut] instead of going for the ice wizard because I can just use my ice wizard plus ability to fully counter the balloon."
+- overtime 1:31 and overtime 1:00: a "very low" hut when he was short on elixir, then one split to the other lane for a specific job — "we can go for a Goblin Hut towards the right side lane just to make sure that we take out that barbarian barrel, but also start up our spear goblins." He loses one to the Evo Musketeer: "Good musky there to snipe down our Goblin Hut."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

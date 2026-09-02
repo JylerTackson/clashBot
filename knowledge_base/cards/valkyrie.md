@@ -190,6 +190,12 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - overtime 1:53 (1517-1525s): kept back as a defensive anchor - "I need the Valkyrie in the pocket then pop the ability that's what I need to do. Valkyrie ability here that's going to go right to the tower and then it's going to go to the Zappies as well"; at the very end "the Valkyrie helped us though" (1567s) but it was not enough.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- Opponent card, seen at t=414.4 at tile (14, 21) and referenced five times in commentary. Ryley plays around it rather than through it: he commits a Knight when it is out of cycle ("Okay, cycles the Valkyrie. I'm going to go for the knight here", 359-364s), Barbarian Barrels to drag it away ("Let's barbell here to bring that Valkyrie over", 426-429s), and Tornados to pull it back off his push ("I think we are going to have to NATO this just to bring the Valkyrie back", 447-449s).
+- It is the card that ends the game: "Good Valkil [Valkyrie] to clean up the skellies. And yeah, we just lost this game" (553-557s) — the standard bulky-splash answer to a Graveyard.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

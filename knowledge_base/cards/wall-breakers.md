@@ -110,6 +110,16 @@ This card appears in 1 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 1 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:33 and 0:31: Evo Wall Breakers at [14, 15] and [14, 14] behind a Miner, the standing chip package of the deck.
+- overtime 1:28-1:24: the game-deciding play — the opponent's right tower fell 2128 → 1528 as they connected. "And we're going to get a double connection here. 1,000%. Oh my god, he missed a wizard. Perfect… Very nice connection right there."
+- overtime 1:12/0:47/0:34: kept running them into the same tile ([14, 15]) through triple elixir while defending on the other half — "Barbar wall breakers here. Pressure while defending" and, on the last one, "we can just go for the minor plus evil wall breakers. And this is going to be game over."
+- clock 0:29: he plays them knowing he has a follow-up — "we can always pop the ability and kind of threaten him with another push."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

@@ -115,6 +115,15 @@ Not specified on source page
 
 This card has an evolution: see [bats-evolution.md](../evolutions/bats-evolution.md). Cycles to evolve: 2. Stat boosts: +50% Hitpoints.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 1:41 (opponent's Evolution): named as one of the two cards he genuinely fears in the matchup — "We definitely have to watch out for the Evo bats and the Evo musketeer… Evo bats are really annoying, too, cuz I don't really have the greatest answers for bats having lightning barbaric."
+- overtime 1:13 and overtime 0:24: answered with a chained Electro Spirit ("Try to chain to the bats… Oh my god, it did") and, when that failed in the last 20 seconds, with Ice Wizard deploy splash plus the ability — "The evil bats are on our tower, dude. He has a million things down."
+- clock 0:04: he predicts the opponent's only route back into the game is a Bats swarm — "his best chance of breaking through is getting some like crazy evil bats pressure or something."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

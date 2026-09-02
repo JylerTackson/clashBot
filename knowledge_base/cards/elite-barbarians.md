@@ -183,6 +183,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - overtime 1:31 (1540-1542s): dropped directly onto an engaged push - "then we go for the e barbs directly on top like this. We need to heal spirit to bring this up to the e barbs".
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 0:20 and overtime 1:00 (opponent's, mentioned as "Ebarbs"/"Earbs" — the detector logged the 5-elixir plays as Barbarians, so the slot is not resolved): treated as an elixir problem rather than a defensive one. "Since he had to waste his Ebarbs, his Earbs will now get taken out by our goblin hut", then "Mighty Miner is dealing with those Ebarbs nicely."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

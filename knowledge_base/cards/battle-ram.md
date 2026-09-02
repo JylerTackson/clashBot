@@ -181,6 +181,13 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - clock 0:25 (1487-1495s): he plans to spend the ram again as a kite rather than offence - "We have to ram kite that ghost for sure... cuz then it will help defend the wizard as well cuz it's distracting everything".
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 2:00, 0:50, 0:17 and overtime 1:47 (opponent's, Evolved): the card the whole deck choice was built around answering — "now we actually have a reset to the evo battle ram cuz the ice wizard…" (2:00) and, after surviving the biggest wave, "normally that push would be really really scary not having a reset for the Evo Ram, but we were able to manage cuz of the ice wiz ability" (0:03).
+- clock 1:03: he cycles specifically to have the answer ready for it — "we definitely need to cycle back to another ice wizard so we can have it for the battery."
+- overtime 1:47 (opponent's): he grades a bad one — "Oh my god, that was a really bad battery. Let's going to go right into the goblin hut."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

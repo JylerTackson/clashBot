@@ -143,6 +143,16 @@ This card appears in 4 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 1 deck(s): [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- clock 2:35 (t=296.5) and clock 2:02 (t=329.0): Knight at (8, 0) behind the king tower to start the cycle, then at (2, 11) to hold the left lane against Skeleton Dragons.
+- clock 1:29 (t=362.0): Knight at (13, 10) played on a cycle read before the Graveyard — "Okay, cycles the Valkyrie. I'm going to go for the knight here. He doesn't have Zap and Cycle" (359-364s); the Graveyard followed 4 s later.
+- clock ~1:06 (t=504.8, tile (2, 13)): used as a kite for the Inferno Dragon in front of a Graveyard — "Then we go for the night [Knight] graveyard cuz going to kite the inferno dragon back anyways" (506-509s).
+- clock 0:22 (t=429): he talks himself out of the Knight in favour of the building when his Ice Wizard has drifted — "Let's go for the knight. No, we have to tombstone because the Ice Wiz walks away" (429-432s). He confirms the evolution is on this slot: "We already do have our Evo Knight, which is really good" (385-388s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

@@ -126,6 +126,16 @@ This card appears in 1 of 19 scraped decks:
 - **[Control](../archetypes/control.md)** — 1 deck(s): [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- clock 1:25 (t=366.5): Graveyard behind a Knight in the right lane, elixir 7 -> 3, as a punish while the opponent was low — "This can be a kind of annoying graveyard push. Let's go for the graveyard here" (364-368s). The opponent answered with two Tornados on the skeletons at clock 1:21 and 1:18 plus Skeleton Dragons.
+- clock 0:47 (t=404.4): cast at tile (16, 26) with the Evo Knight tanking in front — "Let's go for the graveyard evo knight here. Just have to apply some pressure" (405-409s).
+- clock ~1:37 onwards (t=475.0, 505.0, 525.5, 543.5, 546.5): four more casts at (1, 25)/(2, 26) on the enemy left tower, which he chose on what the opponent had at the back rather than on tower HP — "we have to go on the left, though, cuz of that tombstone in the back preemptively. Let's graveyard here" (474-478s). Late on he casts it as an obligation even with his own defence unsettled: "but that guy's going to walk to our tower though. I still have to graveyard anyways, I think" (543-548s).
+- The Graveyard is what loses the game for him here: the opponent's Valkyrie clears the last one — "Good Valkil [Valkyrie] to clean up the skellies. And yeah, we just lost this game" (553-557s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

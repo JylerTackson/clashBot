@@ -138,6 +138,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.m
 - clock 1:37: confirmed by deploy label 'Zap' on Ryley's own half at tile [9, 9]; he does not comment on it.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:27 (mentioned in the snowman survivability list, and later seen once from the opponent at 0:12): "it survives like zap, rage, tornado, snowball, all of those kinds of spells."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

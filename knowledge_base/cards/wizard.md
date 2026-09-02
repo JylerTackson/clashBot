@@ -143,6 +143,16 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - clock 1:19-1:16 (1431-1436s): opponent card, played as a hero. It is the target of Ryley's Valkyrie ability - "go right up to the tower kill the wizard" - and the opponent answers with its own ability: "Oh, he popped the ability but still on the tower for a bunch of damage. Not tower down or anything but still a good situation".
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- overtime 1:25 (opponent's, deploy label on Ryley's half at 0:50 and again at 0:43): a missed Wizard is what let the Miner + Wall Breakers double connection through — "Oh my god, he missed a wizard. Perfect. Let's go."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 2:24 (mentioned, not played): named as the reason the Royal Hogs / Goblin Hut cycle deck fell out of the meta — "the main reason it kind of fell out of the meta was because you had to replace the ice wizard with the wizard, but then you would just lose most of the cycle versus cycle matchups. But with the cheap ice wizard, you do have a better chance."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

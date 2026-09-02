@@ -111,6 +111,12 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.m
 - clock 2:27 and clock 0:47: he treats an opponent Lava Hound placed behind the arena tower as the cue to commit two cards to the other lane immediately — the clock 2:27 Hound was answered with a 10-elixir Valkyrie + Elite Barbarians push that took the tower to 916 HP, and at clock 0:50 he held his Zappies because "I know he's just going to go for a Lava Hound at the bridge here".
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- Opponent card, seen three times (t=301.3 at tile (0, 26) behind the left tower, t=394.4 at (0, 24), and crossing at (1, 16)/(3, 16) at t=500.5 and t=540.5). Ryley names it as the reason he expects to lose: "Lava Hound is always a really hard match up for Splasher, though. Not really too sure how I'm going to be able to win this" (344-350s).
+- clock ~0:55 (t=515.7): he answers the Pups with Tornado into Baby Dragon splash — "We're going to need to get a really good NATO on these lava hound pups. Let's NATO it back now" (512-516s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

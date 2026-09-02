@@ -117,6 +117,14 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- Opponent card, the most frequent thing on the field against him (arena tracks at t=329.3, 376.4, 433.4, 440.4, 444.4, 477.5, 482.5, 493.5, 497.5, 510.5, 560.6). Early on they are what breaks his defence: "Maybe I'll take a skelly drag hit or something, but Oh, a damn. I thought we took none, but then we took that last one. That was such a pump fake, man" (333-343s).
+- He answers them with Tornado into splash rather than with a hard counter — "let's NATO here just to make sure we take up these skelly drags" (480-483s) and "NATO this back into the skelly so that baby dragon can get more damage on everything" (532-537s); once a minion tanked the Tornado for them: "that minion's going to keep the skelly drags alive. That's so bad cuz I'm going to have to defend those again" (483-487s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

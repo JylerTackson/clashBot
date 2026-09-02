@@ -116,6 +116,14 @@ This card appears in 1 of 19 scraped decks:
 - **[Control](../archetypes/control.md)** — 1 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- Opponent card, seen at t=327.3, t=456.5 (tile (1, 17)) and t=508.5, with the evolution called out by Ryley at 388-393s: "he also has the Evo Inferno Dragon coming up, which is definitely not ideal." He treats it as the card the deck cannot beat — "Splasher just doesn't have the DPS to take that thing out" (417-419s), "what are we even supposed to do against that thing?" (409-410s).
+- His answers to it in this game: the Hero Ice Wizard as a reset ("maybe we could try to reset it", 397-401s; "I don't really want the inferno dragon to get anywhere close to this tower", 467-470s), kiting it with Knight plus Graveyard ("going to kite the inferno dragon back anyways", 506-509s), Barbarian Barrel to drag it (426-431s), and stacking Poison on it ("Make sure we get the inferno dragon", 528-532s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

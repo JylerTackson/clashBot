@@ -121,6 +121,12 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - clock 2:07 and 1:15 (t=1383.4, t=1435.4, detector): opponent card. Ryley answers it by kiting rather than trading - "We have to ram kite that ghost for sure. Let's ram kite this ghost cuz then it will help defend the wizard as well cuz it's distracting everything" (0:25).
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 2:16, 1:42 and overtime 0:52 (Evolution): three back-placements for cycle and slow pressure, each announced — "Let's go for the Royal Ghost here in the back"; "I guess we can just go for the Royal Ghost in the back again." Each read as a 3-elixir drop that the hand reader mislabelled.
+- clock 0:47: his stated reason for the pattern — "keep going for the ghost in the back because ghost in the back is actually really really annoying."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

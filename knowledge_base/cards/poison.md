@@ -113,6 +113,22 @@ This card appears in 1 of 19 scraped decks:
 - **[Control](../archetypes/control.md)** — 1 deck(s): [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 0:50, 0:21, overtime 1:30 and 0:50: his only spell, used purely on defence in this match, never on the tower.
+- clock 0:16: front half of a two-card answer with the Ice Wizard ability behind it — "We need to go for the poison. And then we need to go for a ice wizard ability here just to freeze everything. Beautiful defense right there."
+- overtime 1:38: same pairing, stated as a rule — "Let's poison first and pop the ability just to make sure that we're safe cuz I'm always confident in our defense here."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- clock 2:11 (around t=323-330): cast defensively on the opponent's first push — "That's just poison here defensively. Should be a perfect defense, actually" (330-332s).
+- clock 0:44 and 0:40 (t=406.6, 411.2) and clock ~1:06 (t=445.4): three more casts during the Lava Hound pressure, one of which he admits missing — "Okay, I'm gonna poison here. Oh my god, I just missed. Dude, why do I miss all my spells?" (435-441s).
+- clock 0:44 (t=528.0, deploy label 'PoisON' at (3, 22)): aimed at the Inferno Dragon rather than the swarm — "let's go for the poisoner. Make sure we get the inferno dragon. We need to get as much damage on that as possible" (528-532s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

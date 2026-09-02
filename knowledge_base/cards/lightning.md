@@ -112,6 +112,14 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.m
 - clock 0:08: mentioned only, never played by either side - Ryley cycles Bandit and Zappies specifically because "he's going to try to get like some type of lightning down, maybe. Actually, he can't even afford lightning just yet."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 0:28: cast with a deploy label at tile [5, 22] on the opponent's half, behind a bridge Royal Hogs, aimed at two targets at once — "we can get a really nice lightning actually on the miner plus a bomb tower probably. Nice. Good lightning right there. Beautiful. He has to spend extra elixir on defense."
+- overtime 1:19: second Lightning saved for the replacement building — "we can go for a lightning here on top of this bomb tower. And then we can just go for the immediate evo piggy… He has to get another bomb tower down. That's going to be a lot of damage."
+- overtime 0:07: final Lightning with a label at [3, 24] purely as finishing chip on the enemy left tower, which ended the game at 264 HP.
+- clock 1:44: he says the 6-elixir spell is only affordable because his defence is guaranteed — "I'm even comfortable going for the lightning here because I just know that we have the hero ice wizard defensively."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

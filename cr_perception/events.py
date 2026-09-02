@@ -325,14 +325,29 @@ class PlayDetector:
         """Sudden own-tower HP drop with no enemy unit near that tower -> an
         unidentified opponent spell."""
         events: list[PlayEvent] = []
+        if not hasattr(self, "_hp_pending"):
+            self._hp_pending = {}
         for name, hp in own_hp.items():
             if hp is None:
                 continue
             prev = self.last_enemy_hp.get(name)
+            pend = self._hp_pending.pop(name, None)
+            if pend is not None:
+                # a drop counts only if the next reading stays down (the OCR
+                # can oscillate between two values and fake a spell each time)
+                p_t, p_prev, p_hp, p_clock = pend
+                if abs(hp - p_hp) <= 100 and hp < p_prev - 100:
+                    near = any(u.side == "enemy" and u.tile is not None and u.tile[1] <= 8 for u in units)
+                    if not near:
+                        events.append(PlayEvent(p_t, p_clock, "opponent", None, None, None, None, "inferred", "low",
+                                                f"{name} lost {p_prev - p_hp} HP with no enemy unit in range: unidentified spell"))
+                    self.last_enemy_hp[name] = hp
+                    continue
+                if abs(hp - p_prev) <= 100:      # bounced back: OCR flicker
+                    self.last_enemy_hp[name] = hp
+                    continue
             if prev is not None and hp > 0 and 150 <= prev - hp <= 1500:
-                near = any(u.side == "enemy" and u.tile is not None and u.tile[1] <= 8 for u in units)
-                if not near:
-                    events.append(PlayEvent(t, clock, "opponent", None, None, None, None, "inferred", "low",
-                                            f"{name} lost {prev - hp} HP with no enemy unit in range: unidentified spell"))
+                self._hp_pending[name] = (t, prev, hp, clock)
+                continue                          # do not move last_enemy_hp until confirmed
             self.last_enemy_hp[name] = hp
         return events

@@ -142,6 +142,16 @@ This card appears in 1 of 19 scraped decks:
 - **[Control](../archetypes/control.md)** — 1 deck(s): [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- clock 2:12 (t=319.0): Tombstone at tile (7, 9), elixir 7 -> 4, against a Lava Hound crossing on the left — he values the spawned skeletons as kiters first: "That tombstone skeleton was kiting nicely" (326-329s).
+- clock 0:55 (t=396.4): Tombstone at (8, 11) into a second Lava Hound plus Bats and Skeletons; cycled roughly eight times across the game (clock 1:10, 0:55, ~1:34, ~1:14, ~1:06, 0:33, 0:25, 0:11).
+- clock ~1:06 (t=477): played specifically to body-block an air unit — "we need to get a tombstone just to block that giant minion" (451-453s), and chosen over the Knight when the Ice Wizard had walked out of position (429-432s).
+- He ran the Hero on the Ice Wizard instead of on the Tombstone this game, while conceding "obviously tombstone hero is really good, but I do feel like it's not the best fit for Splashards" (292-299s); Regal Revive was never used.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

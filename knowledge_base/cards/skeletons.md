@@ -122,6 +122,20 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.m
 - clock 1:26: with the Skeletons back he refused the bridge play — "He will have skeletons this time so I can't really just go for my Evo E-Barbs at the bridge."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 0:52 at tile [14, 15] and overtime 1:11 at [16, 10]: bridge-side Skeletons used as part of the offence/cycle — "We can continue going in with skellies here."
+- clock 0:52: second card in his stated defensive order — "Let's barb barrel first and we can go for the skellies."
+- overtime 1:39 at [11, 7], 0:47 at [6, 9] and 0:36 at [5, 13]: tower-side body-blocks against the Giant Skeleton and Mother Witch pushes — "Go for the skellies", played six times in the window as the deck's 1-elixir cycle card.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 0:16: dropped straight onto the Evo Musketeer (label at [11, 13]) as the block that buys the Ice Wizard ability its window — "I do need to go for the skeletons to block the musky and then ice wizard ability as well."
+- overtime 1:34: placed at [7, 10] as the screen in front of a low-elixir Goblin Hut — "Let's skellies in front. We can go for a very low goblin hat."
+- clock 2:48, 1:23, 0:44 and overtime 0:19 / 0:03: cheapest cycle card in a 3.1-elixir deck, used to open the game ("Just going to go for the skellies here") and to keep cycling back to the Evo Royal Hogs.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

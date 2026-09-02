@@ -109,6 +109,14 @@ This card appears in 2 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [Goblinstein EvoRHogs 3.4 Cycle](../decks/archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons.md), [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 2:00 (opponent's card): treated as the expected answer to his first Royal Hogs and accepted as a cycle cost — "Let's make him go for the bomb tower late or something. I don't really mind that at all."
+- clock 0:28 and overtime 1:19: the designated Lightning target both times, once together with the Miner — "a really nice lightning actually on the miner plus a bomb tower probably" — and once alone, which forced a replacement: "He has to get another bomb tower down. That's going to be a lot of damage."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

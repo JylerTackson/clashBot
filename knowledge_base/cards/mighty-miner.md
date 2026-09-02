@@ -110,6 +110,16 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [Hog MM EvoCannon 2.6 Cycle](../decks/barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 0:59 at tile [9, 5] and 0:18 at [15, 12]: his tank answer, dropped on his own half directly on the tile the push is walking to (Giant Skeleton and Evo Battle Ram waves) — "We'll just go for the mighty miner here as well. Just continue being annoying."
+- clock 0:15: part of the three-card answer to the biggest wave of regular time — "let's go for the mighty miner here. We need to go for the poison. And then we need to go for a ice wizard ability here just to freeze everything."
+- overtime 1:00: credited by name against the opponent's Elite Barbarians — "Mighty Miner is dealing with those Ebarbs nicely."
+- overtime 0:56-0:47 at tiles [6, 14] and [8, 15]: used as a body-block in front of his Goblin Hut, not in front of the tower — "We need a barbell plus Mighty Miner here… blocking it from actually getting to our Goblin Hut."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

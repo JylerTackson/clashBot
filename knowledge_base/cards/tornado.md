@@ -114,6 +114,21 @@ This card appears in 3 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:27 (mentioned, not played): listed among the spells the Hero Ice Wizard's snowman survives — "it survives like zap, rage, tornado, snowball, all of those kinds of spells."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- clock 2:08 (t=323.0): 3 elixir with Tornado leaving the hand, cast as cover for his own air unit — "Let's just go for the NATO here as well, just to make sure that we keep our baby dragon alive. We're really, really going to need that" (322-326s). ("NATO" is the auto-transcript's rendering of Tornado throughout this game.)
+- clock 1:18 (t=374): cast purely to fix his hand — "I'm just going to NATO here just to cycle a little bit cuz our hand was really, really bad right there. I would have had to use something" (376-381s).
+- clock ~1:06 (t=448.8) and clock ~1:33 (t=477.3): used to reposition the defender rather than for damage — "I think we are going to have to NATO this just to bring the Valkyrie back" (447-449s) and "let's NATO here just to make sure we take up these skelly drags" (480-483s).
+- clock ~0:55 (t=515.7) and clock 0:42 (t=530): used to clump the Lava Pups and Skeleton Dragons into the Baby Dragon's splash — "We're going to need to get a really good NATO on these lava hound pups. Let's NATO it back now" (512-516s), then "NATO this back into the skelly so that baby dragon can get more damage on everything. Beautiful NATO there" (532-537s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

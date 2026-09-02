@@ -153,6 +153,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - overtime 1:31 and 1:10 (1543s, t=1566.1 tile [11, 12]): "We need to heal spirit to bring this up to the e barbs" and "Heel spirit like this bring it over" - always used on units, never as chip damage.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 0:51 and overtime 1:55 (opponent's, mentioned): Ryley gives credit for it twice — "Oo, good heal" and "Good barb barrel by Aragon and good heal spirit too."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

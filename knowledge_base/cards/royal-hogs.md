@@ -123,6 +123,16 @@ This card appears in 3 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 3 deck(s): [EvoRHogs AQ GobHut EvoGhost](../decks/archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons.md), [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md), [Goblinstein EvoRHogs 3.4 Cycle](../decks/archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 2:00, 1:03, 0:32 and overtime 1:50 / 1:16 (Evolution): every wave went to the bridge in the left lane, deploy label 'Royal Hogs' at tile [2, 15], with no support behind it — a pure cycle-to-the-Evo plan.
+- clock 2:00: he writes off the first wave in advance — "Let's make him go for the bomb tower late or something. I don't really mind that at all. I'm just trying to get to my evolved Royal Hogs anyway. I really don't mind him full countering that for no damage. As long as I get to my Evo, I'm cool with everything."
+- clock 0:32: hogs at the bridge first, then Lightning on the defence behind them — "we can go for the royal hogs here and we can get a really nice lightning actually on the miner plus a bomb tower probably… Royal hogs are on the tower"; the enemy left tower fell 3052 -> 2075 over the next 17 seconds.
+- overtime 1:16: Lightning on the Bomb Tower and then "the immediate evo piggy" straight after, which drove the tower from 1327 to 692.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

@@ -126,6 +126,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.m
 - clock 1:22: the opponent tanks with an Ice Golem and uses its ability; Ryley calls the timing a mistake — "that ice golem ability was maybe not the greatest though cuz it doesn't freeze it anymore. It just slows it down a lot ... that was a bad push in my opinion. Feel like he kind of ruined a really good opportunity to get a bunch of damage." (opponent's card)
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 1:04 onward (opponent's card): tracked repeatedly on Ryley's half through the Miner Balloon pushes, but never named in the commentary — its presence is what makes the opponent's list match the popular EvoMusk Miner 2.9 Cycle deck.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

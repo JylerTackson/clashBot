@@ -136,6 +136,30 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - clock 1:05 (1450s): opponent card. Ryley plays to force it rather than dodge it - "He still has to block this with the barb barrel though"; a barbarian-class unit is detected on his half at clock 2:00 and 0:57, consistent with the barrel.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.md):
+- clock 1:44 at tile [10, 8]: rolled into two Evo Barbarians walking his right lane, his first defensive card of the readable window.
+- clock 0:52 at tile [4, 10]: played first in a defensive sequence rather than saved — he states the ordering out loud: "Let's barb barrel first and we can go for the skellies."
+- overtime 0:59 at [9, 13] and 0:47 at [13, 15]: paired with Mighty Miner specifically to protect the Goblin Hut from the Giant Skeleton — "We need a barbell plus Mighty Miner here."
+- overtime 0:34 at [8, 13]: last defensive card before the winning push — "Let's go for the barbarian barrel here. He might pop the ability, but we can just go for the minor plus evil wall breakers."
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.md):
+- clock 2:42 (t=289.3): first play of the readable window, rolled to tile (14, 14) for 2 elixir at a skeleton walking the right lane.
+- clock 0:22 (t=429.3): used as a pull, to drag a defender across the lane — "Let's barbell here to bring that Valkyrie over. Maybe could bring the inferno dragon, too" (426-431s).
+- clock ~1:10 (t=501.0, tile (10, 7)): used to shift a unit off his tower — "let's go for the barbell here just to move that" (503-506s).
+- clock ~1:54 (t=458): taken as the cheap substitute when the Ice Wizard was unaffordable — "Let's ice wizard. Actually, let's barrel. I don't think we can ice wizard. Oh, we should have" (456-462s).
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:start -->
+Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.md):
+- clock 2:09: rolled at tile [3, 10] on his own half against the opponent's opening pressure, and he rated the placement himself — "He almost predicted us with the Barbarian Barrel, but we were definitely uh very very uh slick there with that placement."
+- overtime 0:33: used as cover for the hero ability rather than as a spell — "Pop the ability now cuz the barrel is tanking for it."
+- clock 1:30: he lists it (with Lightning) as the reason Evo Bats are awkward for this deck — "I don't really have the greatest answers for bats having lightning barbaric [Barbarian Barrel]."
+- overtime 0:43 to 0:15: three more barrels ([14, 2], [14, 7], [12, 5]) during the near-collapse defence of his right tower.
+<!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)
