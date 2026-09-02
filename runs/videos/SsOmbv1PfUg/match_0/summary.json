@@ -1,0 +1,152 @@
+{
+ "frames": 8077,
+ "seconds": 4034.4,
+ "timing": {
+  "total": {
+   "n": 8077,
+   "mean_ms": 490.5,
+   "p95_ms": 2302.9
+  },
+  "elixir": {
+   "n": 8071,
+   "mean_ms": 2.0,
+   "p95_ms": 2.9
+  },
+  "hand": {
+   "n": 8071,
+   "mean_ms": 190.0,
+   "p95_ms": 238.7
+  },
+  "clock": {
+   "n": 8071,
+   "mean_ms": 96.6,
+   "p95_ms": 544.4
+  },
+  "labels": {
+   "n": 1345,
+   "mean_ms": 571.4,
+   "p95_ms": 771.5
+  },
+  "detect": {
+   "n": 672,
+   "mean_ms": 1125.5,
+   "p95_ms": 1444.2
+  },
+  "loop_fps": 2.0
+ },
+ "own_elixir_drift": {
+  "n": 1760,
+  "mean": -0.219,
+  "abs_mean": 1.084,
+  "max_abs": 10.0,
+  "last": 3.893
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "skeletons",
+   "tesla",
+   "electro-spirit"
+  ],
+  "deck_complete": false,
+  "predicted_hand": null,
+  "predicted_next": null,
+  "deck_predictions": [
+   {
+    "card": "fireball",
+    "p": 0.92,
+    "source": "kb_inference"
+   },
+   {
+    "card": "archers",
+    "p": 0.88,
+    "source": "kb_inference"
+   },
+   {
+    "card": "knight",
+    "p": 0.83,
+    "source": "kb_inference"
+   },
+   {
+    "card": "the-log",
+    "p": 0.83,
+    "source": "kb_inference"
+   },
+   {
+    "card": "x-bow",
+    "p": 0.83,
+    "source": "kb_inference"
+   },
+   {
+    "card": "barbarian-barrel",
+    "p": 0.17,
+    "source": "kb_inference"
+   },
+   {
+    "card": "royal-ghost",
+    "p": 0.12,
+    "source": "kb_inference"
+   },
+   {
+    "card": "royal-hogs",
+    "p": 0.12,
+    "source": "kb_inference"
+   },
+   {
+    "card": "goblin-hut",
+    "p": 0.08,
+    "source": "kb_inference"
+   }
+  ],
+  "kb_matches": [
+   {
+    "deck_key": "archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow",
+    "name": "X-Bow HeroKnight 3.0 Cycle",
+    "archetype": "siege",
+    "matched": 3,
+    "contradicted": 0,
+    "score": 3.03,
+    "remaining": [
+     "archers",
+     "fireball",
+     "knight",
+     "the-log",
+     "x-bow"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons",
+    "name": "EvoRG FishBoy Hunter 3.0 Cycle",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 1,
+    "score": 0.03,
+    "remaining": [
+     "barbarian-barrel",
+     "fireball",
+     "fisherman",
+     "hunter",
+     "royal-ghost",
+     "royal-giant"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-electro-spirit-goblin-hut-ice-wizard-lightning-royal-ghost-royal-hogs-skeletons",
+    "name": "Hero IWiz EvoRHogs GobHut",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 1,
+    "score": 0.03,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "lightning",
+     "royal-ghost",
+     "royal-hogs"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0
+ }
+}

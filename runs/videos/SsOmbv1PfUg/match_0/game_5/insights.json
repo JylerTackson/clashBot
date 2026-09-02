@@ -1,0 +1,84 @@
+{
+  "key": "SsOmbv1PfUg-m0.5",
+  "match_file": "matches/SsOmbv1PfUg-m0.5.md",
+  "video_title": "This NEW Xbow Deck is TAKING OVER the Meta",
+  "cards": {
+    "x-bow": [
+      "clock 1:07: first X-Bow of the game at tile [2, 12] on his own left, immediately behind a Hero Berserker at [9, 14] — 'we can just go for the X-Bow here immediately. Just keep on being annoying'.",
+      "Every offensive X-Bow in this game is a left-lane lock at [2, 12]/[2, 13] (t=1151, 1181, 1196.3 confirmed by a HUD 9->3 elixir drop, 1218, 1233, 1277), because the plan is split-lane: 'I can just go for Expo locks on the left side and Fireball on the right side' (clock 1:59).",
+      "OT 1:29: the one lane switch, X-Bow at [15, 11] on the right, to overload a single defensive building — 'We can just instantly hit him opposite lane with another X-Bow, cuz now he's going to have to block the middle. He can Evo Tesla, but now he needs to defend the other one'.",
+      "OT 1:45: every X-Bow gets protection within seconds (Skeletons/Electro Spirit at [1-6, 13-14], or Tesla behind it) — 'let's X-Bow here, and then we Tesla again as well'; he also concludes he should just pair them, 'Next time I'm just going to go for the X-Bow Tesla, so I don't have to worry about actually protecting the X-Bow super cleanly' (clock 0:39)."
+    ],
+    "fireball": [
+      "clock 2:27: opens the Fireball cycle onto the enemy right tower at [12, 21] (elixir 9->5), enemy right tower 4858->4583 — 'I'm just going to want to Fireball cycle right off the gate if it is Miner Rocket. Even if it's not Miner Rocket, any type of Miner deck, I'm just going to be wanting to Fireball cycle really early on anyway'.",
+      "clock 1:28 onward: repeated Fireball deploy labels on the same enemy-tower tiles [12, 21] and [14, 23] (t=1102, 1131, 1172, 1202, 1261, 1298, 1307, 1319, 1329) — 'I'm just going to keep on Fireballing, guys. Just keep on Fireballing. There's literally no point not to'.",
+      "clock 1:21: he frames the chip as Rocket bait — 'after you get a lot of Fireball damage, they do usually get upset and they try to attack with the Rocket or they try to defend without the Rocket', then at clock 1:11 his tower takes 546 spell damage: 'Yep, see right there. Like I said, he tries to attack with the Rocket'.",
+      "OT 1:37: also used defensively on his own half at [4, 4], though he prefers the cheaper option that same second — 'We have to make sure we Fireball the berserker. Actually, let's log it just to get the tower damage'."
+    ],
+    "berserker": [
+      "clock 2:34: Hero Berserker at [2, 3], deep in his own corner, purely as a Miner catcher — 'just Berserker here for that Miner' (elixir 8->6).",
+      "clock 1:09 / OT 0:57: bridge placements at [9, 14] and [4, 14] as pressure while the X-Bow is down — 'let's go for the High [Hero] Berserker here', 'We berserker at the bridge as well'.",
+      "OT 0:57 and OT 0:35: he pays the 3 elixir for Savage Survival twice — 'Let's pop our ability here' and 'Ability, please. Nice. We got the ability off. That's huge'; two unidentified 3-elixir drops (t=1131.3, t=1203.0) are probably earlier activations.",
+      "OT 1:31: reads the opponent's Hero Berserker ability as a bad trade — 'he [used the] berserker ability, but that's not good for him because it only tanks for a few seconds'; last-seconds placements at [14, 5] and [12, 6] are 'behind the tower' blocks."
+    ],
+    "archers": [
+      "clock 2:14: Evolution Archers at [7, 6], centre of his own half, covering both threats at once — 'Archers here in the middle for the Miner and also for the Berserker, you know, cuz I do know that he's going to Miner'.",
+      "clock 0:31 / OT 0:49 / OT 0:27: Archers at [9, 9], [10, 8] and [14, 9] dropped straight onto Miners — 'Let's put archers and we skellies predict the miner', 'Archers here on the miner. Nice. We caught another miner', 'Let's go for the archers up top so you don't take the tower damage'.",
+      "clock 0:08: split placements at [8, 1] behind his own king tower (also t=1138, 1228) — 'Let's split our evil [Evo] archers again. This is going to be an annoying push for him to stop'.",
+      "clock 1:25: he values them as a Rocket magnet — 'with my Evo Archers, maybe I could actually go for a push cuz the Evo Archers do usually force him to Rocket'."
+    ],
+    "tesla": [
+      "clock 2:45: opens the game with Evolution Tesla at [8, 10], dead centre — 'to go for the Tesla here in the middle. Trying to get to my Evo Tesla as early as possible' (elixir 9->5).",
+      "clock 0:19 / OT 1:45: Tesla dropped behind the X-Bow at [4, 13] and [3, 11] as its bodyguard — 'let's X-Bow here, and then we Tesla again as well. Just to instantly grab that'.",
+      "OT 0:39: Tesla at [6, 13] into the lane the opponent's own Evolution Tesla defends — 'He will tesla here'.",
+      "clock 0:39: his takeaway for the next game is to lead with the pair — 'Next time I'm just going to go for the X-Bow Tesla'."
+    ],
+    "electro-spirit": [
+      "clock 2:04 / clock 1:42: Electro Spirit at [14, 2] and [15, 6] to reset right-lane pushes alongside Skeletons and The Log — 'Let's go for the E-Spirit and then we can go for the Berserker as well', 'Great catch. E-Spirit as well'.",
+      "clock 1:03 / clock 0:23: played beside the X-Bow at [3, 14] and [5, 14] as cheap protection — 'E-spirit off to the side. Come on'.",
+      "OT 0:51 / OT 0:11: used as the Miner answer at [12, 7] and [9, 9] — 'E-spirits for the miner. Yep. It was just obvious that he's going to put it right there'.",
+      "clock 1:37: notes the card is timing-critical — 'I wasn't able to get the E-Spirit at the perfect timing cuz of the Wi-Fi, but it's not that awful'."
+    ],
+    "skeletons": [
+      "clock 2:11: Skeletons at [3, 5] behind his own tower as the cheap cycle/distraction — 'Let's Skellies here behind the tower'.",
+      "clock 0:35 / OT 0:19: Skeletons at [14, 4], [14, 5] and [14, 2] placed pre-emptively where the Miner will land — 'we skellies predict the miner. Come on. Nice, very good'.",
+      "clock 1:03 / OT 1:09: Skeletons at [1, 13] and [16, 13] as X-Bow protection and to DPS down whatever is attacking it — 'Let's skellies here after the side'.",
+      "OT 0:37: paired with Electro Spirit as a two-elixir double block — 'E-spirit skellies. Nice. We blocked both sides here'."
+    ],
+    "the-log": [
+      "clock 2:07 / clock 1:43: Log at [13, 4] and [12, 9] to sweep right-lane ground pushes behind an Electro Spirit reset.",
+      "OT 1:35: chosen over Fireball on the enemy Hero Berserker specifically for the chip — 'We have to make sure we Fireball the berserker. Actually, let's log it just to get the tower damage'.",
+      "OT 1:09: Log at [15, 13] used as damage-over-time on whatever is attacking the X-Bow — 'Log here off to the side as well just to DPS this down. Please don't hit my expo'.",
+      "OT 0:13 / OT 0:05: Log at [15, 14] and [14, 14] in the closing cycle — 'Let's log here', 'Log as well, please'."
+    ],
+    "miner": [
+      "Not played by Ryley — the opponent's card, named 18 times this game and the thing his whole defence is built around: 'I do know that he's going to Miner' (clock 2:11), 'If we catch a lot of the miners, we have a good chance as well' (clock 0:43).",
+      "OT 1:11: an enemy Miner is tracked crossing at (12, 17)->(13, 15); his answers are always cheap and pre-placed — Archers, Skeletons or Electro Spirit on the landing spot — 'we skellies predict the miner', 'E-spirits for the miner. Yep. It was just obvious that he's going to put it right there'.",
+      "OT 0:13 / OT 0:03: catching the last Miners is what wins him the game — 'Oh my god, and we caught the miner. Let's go', 'I think we got the miner, TOO. LET'S GO. We barely did it'."
+    ],
+    "rocket": [
+      "Not played by Ryley — the opponent's finisher, named 16 times. He treats forcing it as the win condition of the match-up: 'if I don't have a comfortable lead and make him Rocket, I have no chance to win cuz obviously he has just as quick of a cycle, if not a quicker cycle than me. But then, of course, he has the Rocket and the Miner for my tower' (clock 1:53-1:43).",
+      "clock 1:21-1:11: his Fireball chip is designed to provoke it — 'after you get a lot of Fireball damage, they do usually get upset and they try to attack with the Rocket or they try to defend without the Rocket ... Yep, see right there. Like I said, he tries to attack with the Rocket' (his right tower loses 546 HP to an unidentified spell at t=1148).",
+      "OT 0:57: he plays around the Rocket rather than avoiding it — 'Let's expo predicting his rocket', and at clock 0:18 'He's going to rocket his [X-Bow] up. Okay, we can just Fireball again ... eventually there will be a point where he rockets us again, but this time we just have to protect our X-Bow well'."
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-electro-spirit-fireball-skeletons-tesla-the-log-x-bow",
+    "cards": ["archers", "berserker", "electro-spirit", "fireball", "skeletons", "tesla", "the-log", "x-bow"],
+    "bullets": [
+      "Game 6 of 6 of the session, against a Miner/Rocket cycle opponent; won on the overtime chip tiebreak (enemy right tower ~165 HP vs his ~446 at t=1346) — 'I think we got the miner, TOO. LET'S GO. We barely did it'.",
+      "The deck is piloted as a split-lane siege: X-Bow locks always on the left at [2, 12]/[2, 13] and the Fireball cycle always on the enemy right tower at [12, 21]/[14, 23] — 'I can just go for Expo locks on the left side and Fireball on the right side' (clock 1:59).",
+      "Against Miner/Rocket he never holds the Fireball for value: he starts the cycle at clock 2:27 and repeats it roughly every 20-30 s, both for chip and to bait the Rocket — 'There's literally no point not to' (clock 1:29); the Evolution Archers do the same job ('the Evo Archers do usually force him to Rocket').",
+      "Defence is entirely 1-3 elixir cards placed pre-emptively on the Miner: Archers at [9, 9]/[10, 8]/[14, 9], Skeletons at [14, 4]/[14, 5], Electro Spirit at [12, 7]/[9, 9], Hero Berserker in the corner at [2, 3] — 'If we catch a lot of the miners, we have a good chance as well' (clock 0:43).",
+      "Evolution Tesla is both the opener (t=1053.5 at [8, 10], 'Trying to get to my Evo Tesla as early as possible') and the X-Bow's bodyguard ([4, 13], [3, 11], [6, 13]); his own conclusion is to commit to the pair — 'Next time I'm just going to go for the X-Bow Tesla, so I don't have to worry about actually protecting the X-Bow super cleanly'.",
+      "Hero Berserker adds a 2-elixir bridge threat and a 3-elixir Savage Survival button he spends in overtime ('Let's pop our ability here', 'We got the ability off. That's huge'), while the opponent's use of the same ability is called a mistake: 'it only tanks for a few seconds'."
+    ],
+    "new_deck": {
+      "display_name": "Hero Berserker X-Bow 2.9",
+      "archetype_primary": "siege",
+      "archetype_secondary": "cycle",
+      "rationale": "X-Bow is the win condition and every other card is a cheap defensive or cycle piece protecting it.",
+      "why_it_works_md": "The deck wins by making the opponent defend two places at once: X-Bow locks go down on one side while Fireball cycles onto the opposite tower, so a single defensive building or spell cannot answer both (\"We can just instantly hit him opposite lane with another X-Bow, cuz now he's going to have to block the middle\"). Everything else is 1-3 elixir, so the cycle is fast enough to re-place the X-Bow and still keep Skeletons, Electro Spirit and Evolution Archers available for the Miner-style chip decks it is built to beat. Evolution Tesla doubles as the opener and the X-Bow's bodyguard, and Hero Berserker replaces the usual Knight with a 2-elixir blocker that also threatens the bridge and carries a 3-elixir survival ability for overtime. The weakness Ryley names is the mirror-speed match-up: against an equally fast cycle with Rocket and Miner he must build a chip lead early, because 'if I don't have a comfortable lead and make him Rocket, I have no chance to win'."
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "key": "SsOmbv1PfUg-m0.2",
+  "match_file": "matches/SsOmbv1PfUg-m0.2.md",
+  "video_title": "This NEW Xbow Deck is TAKING OVER the Meta",
+  "cards": {
+    "x-bow": [
+      "clock 2:26 (t=358): opened the X-Bow at tile [2, 12], left lane one row off the river, on 8 elixir before any real pressure existed — \"Let's go for the X-Bow here super early\" (t=362); the first lock chipped the enemy left tower 4858 -> 4764 at clock 2:02, and he took the tick as the goal: \"All it takes is that one lock... We won cuz we got the one lock\" (t=379-383).",
+      "clock 0:47-0:07 (t=458, 478, 497, 501): four X-Bows in a row at [4, 13] / [4, 12], each fed by a bridge Berserker and the split Archers, ran the enemy left tower 4708 -> 1964 — \"the expo is officially on the tower, guys. Let's go for another expo here\" (t=472-473) and \"constantly just like using my old push to make a new one cuz now I can just expo here\" (t=498-502).",
+      "clock 0:58 (t=447-450): his stated support pairing — \"I think I can get a really good push, guys, with the Evo Archers. I just love going X-Bow with the Evo Archers down the middle.\"",
+      "overtime 1:24-0:52 (t=542-574): the discipline lesson — he holds the X-Bow twice while beatdown pushes build. \"the biggest mistake I find people making with expo is just not knowing when to just quit attacking... if I just do a bad expo, you can sometimes instantly lose the game if you're not careful\" (t=544-560), then \"I think now we can go for an expo, but I won't just yet... continue splitting my archers cuz this is definitely the safe play\" (t=570-574)."
+    ],
+    "tesla": [
+      "clock 1:32 (t=416, [8, 10]) and overtime 1:18 (t=544, [8, 10]): Tesla goes in the middle of his half, not in a lane — \"I think I need the cycle a Tesla here in the middle\" (t=411-413) and \"I actually think that we just set up a Tesla in the middle here, guys\" (t=540-542).",
+      "clock 1:14 (t=430-433): keeping the Tesla alive is itself the defence — \"if I keep this Tesla alive, it's kind of just stops him from going for a random Goblin Giant at the bridge on six elixir.\"",
+      "clock 0:52 (t=451, [8, 12]): a deliberately high placement to shield the X-Bow push — \"let's go for a high Evo Tesla here as well. It's going to make it really, really hard for him to deal with\" (t=452-455).",
+      "clock 0:14 (t=489, [8, 12]): re-laid straight after the ability so the next X-Bow has cover — \"now we have a Tesla as well helping out on the next push\" (t=493-496)."
+    ],
+    "archers": [
+      "clock 2:34, 1:44, 0:58 and overtime 0:52 (t=350, 398, 445, 572): Evo Archers split at the centre-back tile [8, 0]/[8, 1] every time they cycle — \"I want to at least split my Archers and stuff like that so I can have a better offense later\" (t=440-443) and \"I'm just going to continue splitting my archers cuz this is definitely the safe play\" (t=572-574).",
+      "clock 1:30 (t=413-415): he tracks them as a cycle liability, not just a card — \"I do have to be careful though with not having the Archers in cycle. It can get very, very weird sometimes on defense if we're not very careful.\"",
+      "clock 0:47 (t=459): protecting them is part of the X-Bow push — \"I want to keep this Archer on full HP.\"",
+      "overtime 1:46 (t=519, [1, 14]): used defensively alongside Fireball to finish the Electro Wizard — \"Then we can go for the archers as well. That should fully take out the e-wiz\" (t=518-522)."
+    ],
+    "berserker": [
+      "clock 2:32 (t=351.8): the emergency answer when the opponent opened before he was set — \"That is where the Hero Berserker does come in really, really handy though for situations like that where you get caught off guard\" (t=355-360). Played as the Hero variant (heroes/berserker-hero.md, 3-elixir \"Savage Survival\") all game.",
+      "clock 1:23 (t=421.3, [11, 11]): Berserker plus ability into the first Sparky push, with Skeletons behind it — \"let's Berserker here and then we can go for the ability as well. I'm going to Skeletons\" (t=420-423).",
+      "clock 0:28 (t=476, [4, 14]) and overtime 1:57 (t=507, [2, 15]): bridge Berserkers as the X-Bow's tank, ability popped on arrival — \"I'm going to berserker the bridge. We go for an expo. And then we just hit the ability as soon as we can\" (t=476-479); \"That's going to soak up the shot, but then also help take off the goblin giant\" (t=509-511).",
+      "overtime 1:31 (t=532-536): he withholds the ability until it resets something — \"We just berserker, but we don't ability. Okay, no, now we ability cuz he dark prince, and we just reset\"; and the summary at t=602-610: \"because of how strong e-barbs are, they're very difficult to defend. And just having the Berserker plus ability to clean up the e-barbs behind any type of push is just super nice.\""
+    ],
+    "the-log": [
+      "clock 1:39 (t=404.5, [14, 7]): Log plus Electro Spirit onto an Electro Wizard that the tracker had reaching his right tower in ~2 s — \"I do need a Log E-Spirit here though on top of this Electro Wizard. Let's Log here... Very nice. That's what we like right there\" (t=402-409).",
+      "clock 0:38 (t=465, [4, 14]): logged the defenders in front of his own X-Bow to deny the last chip — \"Let's log here as well to make sure he gets no damage\" (t=464-467); the enemy left tower then fell 4652 -> 3430 with no damage taken.",
+      "overtime 0:38 (t=585, [6, 9]): the Dark Prince reset — \"We can log for the Dark Prince. Nice. Okay, that just completely defended\" (t=584-588).",
+      "clock 1:15 (t=428, [3, 15]): Log next to Skeletons while a raged Sparky walked in — \"I will Log too because if I keep this Tesla alive, it's kind of just stops him from going for a random Goblin Giant at the bridge\" (t=428-433)."
+    ],
+    "electro-spirit": [
+      "clock 2:13 (t=370.8, [2, 14]): part of the opening defensive stack behind the early X-Bow — \"then we can go for the Electro Spirit as well. Just make sure that we take this out nicely\" (t=367-371).",
+      "clock 1:38 (t=405): paired with The Log on the Electro Wizard — \"We can go for the E-Spirit here as well. Make sure we take this out\" (t=405-407).",
+      "overtime 1:46 (t=517-518): used purely as a block in overtime — \"Let's e-spirit to block this.\"",
+      "overtime 0:38-0:32 (t=585.7 and t=592, [8, 9] and [8, 14]): high placements so the chain hits the Dark Prince and feeds the Evo Tesla — \"High e-spirit for the Dark Prince\" (t=592) and \"Evo Tesla should get a little chain in\" (t=581)."
+    ],
+    "skeletons": [
+      "clock 2:13 (t=370, [8, 14]): first defensive block of the game — \"We can Skellies here as well. Good defense\" (t=371-373).",
+      "clock 1:15 (t=428.7, [3, 15]): Skeletons behind the Berserker to hold the Sparky — \"I'm going to Skeletons. Nice\" (t=423).",
+      "overtime 1:51 (t=513, [3, 14]): stall rather than kill, against Sparky in overtime — \"Let's skellies here. Make sure that we keep blocking\" (t=512-515).",
+      "overtime 0:40-0:27 (t=569, 575.8, 598.2, tiles [8, 15] and [9, 15]): repeated cheap blocks during the long defensive turn — \"nice skellies here to block the heal spirit\" (t=582-584) and \"We go for the skeletons and Tesla in the middle as well. We're doing very good defense right now\" (t=594-597)."
+    ],
+    "fireball": [
+      "overtime 1:38 (t=526.3): Fireball onto the Electro Wizard sitting under a Rage — \"That should fully take out the e-wiz. Yes, the rage, too\" (t=520-522).",
+      "overtime 0:48 (t=576, [5, 23]) and overtime 0:17 (t=605, [5, 23]): thrown behind the enemy left tower onto the Sparky — \"we can definitely fireball here on top of that Sparky. It is always nice to fireball the Sparky\" (t=576-580).",
+      "the deck only cast Fireball in overtime (t=526.3, 546.5, 576, 605); through all of regular time it was held while cheaper cards did the defending."
+    ],
+    "goblin-giant": [
+      "clock 2:20 (t=364-366): the scouting call — \"looks like he has the Goblin Giant E-Barbs deck.\"",
+      "clock 1:14-1:04 (t=430-440): the deterrence logic against it — \"if I keep this Tesla alive, it's kind of just stops him from going for a random Goblin Giant at the bridge on six elixir. I would be able to defend it, but I don't want to have to burn my Evo Archers and my Evo Tesla on the same Goblin Giant in an awkward way.\"",
+      "overtime 1:57-1:32 (t=509-532): when it finally lands, the Hero Berserker ability answers it — \"That's going to soak up the shot, but then also help take off the goblin giant\" and \"Oh, he did get down the goblin giant. All good.\""
+    ],
+    "elite-barbarians": [
+      "overtime 1:01-0:52 (t=564-572): both Elite Barbarians tracked advancing in opposite lanes with 3-7 s tower ETAs; Ryley defends with Tesla, Skeletons and split Archers rather than a spell.",
+      "overtime 0:22-0:06 (t=602-618): he rates them the hardest card to handle and the reason the Hero Berserker is in the list — \"because of how strong e-barbs are, they're very difficult to defend. And just having the Berserker plus ability to clean up the e-barbs behind any type of push is just super nice\" and \"these e-barbs are actually so difficult to defend tournament that we were playing. E-barbs were cooking people left and right.\""
+    ],
+    "sparky": [
+      "clock 1:28-1:15 (t=414-428): the first Sparky, tracked [7, 19] -> [3, 12] down his left lane, answered with Berserker + ability + Skeletons + The Log for zero damage.",
+      "overtime 1:58 (t=505-507): \"Okay, he goes for a sparky. That was smart. Let's go for the berserker though. Then we can pop the ability.\"",
+      "overtime 0:48 (t=576-580): his preferred spell answer — \"we can definitely fireball here on top of that Sparky. It is always nice to fireball the Sparky.\""
+    ],
+    "electro-wizard": [
+      "clock 1:42-1:36 (t=401-409): tracked from [11, 19] to [15, 9] with a 2.1 s tower ETA and shut down with Tesla + The Log + Electro Spirit — \"I do need a Log E-Spirit here though on top of this Electro Wizard.\"",
+      "clock 0:26 and overtime 1:48 (t=479-480, t=515-517): he predicts it as the opponent's forced answer — \"He might get like uh e-barbs or an e-wiz down\" and \"He has to get an e-wiz down.\"",
+      "overtime 1:46-1:38 (t=518-526): removed with Archers plus Fireball — \"Then we can go for the archers as well. That should fully take out the e-wiz.\""
+    ],
+    "dark-prince": [
+      "clock 0:36 (t=467-468): the Berserker ability plus Log clears it off the X-Bow — \"it's going to take off the dark prince. Look, both of those troops got zero damage on my expo.\"",
+      "overtime 1:30-1:28 (t=528-536): he plays around the opponent's elixir — \"if he can only afford a dark prince, we can try to make it hop over the river\" and \"now we ability cuz he dark prince, and we just reset.\"",
+      "overtime 0:38-0:32 (t=584-592): two different resets on it — \"We can log for the Dark Prince\" and \"High e-spirit for the Dark Prince.\""
+    ],
+    "rage": [
+      "clock 1:18 (t=425-427): surviving the Rage is what he judges the defence on — \"keeping this alive against the rage is actually very, very important.\"",
+      "overtime 1:38 (t=520-522): Fireball catches the raged support — \"Yes, the rage, too.\"",
+      "opponent Rage spells were tracked landing on Ryley's half at clock 0:52 ([10, 7]), clock 0:30 ([6, 5]) and overtime 0:02."
+    ],
+    "heal-spirit": [
+      "clock 0:54-0:47 and overtime 1:04-0:58: enemy Heal Spirits tracked advancing on Ryley's towers as part of the beatdown pushes.",
+      "overtime 0:40 (t=582-584): blocked with a 1-elixir card rather than spelled — \"nice skellies here to block the heal spirit.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-electro-spirit-fireball-skeletons-tesla-the-log-x-bow",
+    "cards": [
+      "archers",
+      "berserker",
+      "electro-spirit",
+      "fireball",
+      "skeletons",
+      "tesla",
+      "the-log",
+      "x-bow"
+    ],
+    "bullets": [
+      "Game 3 of 6 of this single-deck session (video 339.2s-629.0s); won against a Goblin Giant / Elite Barbarians / Sparky beatdown deck with a Skeleton King tower troop — \"GG's. Very nice win\" (t=622-624). Enemy left tower 4858 -> 682; his own towers finished 4632 and 4858.",
+      "Same shell as X-Bow HeroKnight 3.0 Cycle (decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md) with the Hero Berserker in the Knight slot; Evolutions in play are Archers and Tesla.",
+      "Stated game plan against beatdown (t=389-400): \"all we have to do is just keep on doing light pressure, defend, and just keep going in and he's never really able to build up a proper attack. It is really complicated for him to actually go in for a really big push as long as I play it right.\"",
+      "Standard offensive unit: split Evo Archers at [8, 0] (t=350, 398, 445, 572) plus a bridge Berserker (with ability) in front of an X-Bow at [4, 12]/[4, 13] — \"I just love going X-Bow with the Evo Archers down the middle\" (t=447-450). That loop took the enemy left tower 4708 -> 1964 between clock 0:34 and 0:08.",
+      "Defence is Evo Tesla in the middle of his own half ([8, 10]/[8, 12], t=416, 451, 489, 544) supported by 1-elixir Electro Spirit and Skeletons, with The Log for resets; Fireball was held for overtime only and spent on Electro Wizard, Rage and Sparky.",
+      "The Hero Berserker is the flex slot: emergency defence when caught off guard (t=355-360), X-Bow tank at the bridge (t=476-479), and Elite Barbarians cleanup — \"just having the Berserker plus ability to clean up the e-barbs behind any type of push is just super nice\" (t=608-610).",
+      "The named failure mode of the deck is over-attacking: \"the biggest mistake I find people making with expo is just not knowing when to just quit attacking... You have to have some really, really good defense to save doing a bad expo against these types of beatdown decks\" (t=544-565). He acts on it at overtime 0:52 by cycling Archers instead of laying another X-Bow."
+    ],
+    "new_deck": {
+      "display_name": "X-Bow HeroBerserker 3.0 Cycle (Ryley)",
+      "archetype_primary": "siege",
+      "archetype_secondary": "cycle",
+      "rationale": "The X-Bow is the only win condition and every other card is a cheap defensive or cycle piece that exists to get back to it.",
+      "why_it_works_md": "It is the standard 3.0 X-Bow cycle shell — Evo Archers, Evo Tesla, Electro Spirit, Skeletons, The Log, Fireball — with the Hero Berserker replacing the Knight as the 2-elixir tank. The Berserker is cheaper than a Knight, so the cycle back to the X-Bow is faster, and its 3-elixir \"Savage Survival\" ability turns it into a burst troop-clearer that answers the cards this shell normally struggles with: Elite Barbarians behind a tank, a Goblin Giant at the bridge, and a Sparky shot it can soak without dying. On offence the pattern is split Evo Archers at the back, a bridge Berserker, then the X-Bow one row off the river, recycling each defence into the next attack. The deck wins by chip, not by a single push — \"all it takes is that one lock\" — so the discipline is knowing when to hold the X-Bow and set up an Evo Tesla in the middle instead."
+    }
+  }
+}

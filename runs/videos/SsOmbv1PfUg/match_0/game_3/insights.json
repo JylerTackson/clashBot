@@ -1,0 +1,91 @@
+{
+  "key": "SsOmbv1PfUg-m0.3",
+  "match_file": "matches/SsOmbv1PfUg-m0.3.md",
+  "video_title": "This NEW Xbow Deck is TAKING OVER the Meta",
+  "cards": {
+    "x-bow": [
+      "clock 2:36: opens with an early X-Bow at tile [2, 12] in the left lane, three tiles back from the river rather than pressed against it, into an opponent who has just started a double-Rascals split — \"I may just start off with an early — oh, this is definitely an early expo here\" (t=637-638). Enemy left tower goes 4858 -> 2790 by clock 2:14.",
+      "clock 1:42: rebuilds the X-Bow on the same tile [2, 12] on 8-9 elixir in double elixir, with Skeletons at [8, 8] and Tesla at [4, 10] around it.",
+      "clock 1:11: the winning cast, HUD-confirmed at -6 elixir, played instead of defending a rascal-boy that was already through — \"it might be better to just eat some damage here and just go for an Expo plus Berserker push\" (t=720-724). Enemy left tower falls 2734 -> 158 in eight seconds and the opponent concedes.",
+      "clock 2:03-1:54: on the rework, \"that's where the expo rework is a buff in some ways as well, right? Where we get a nice lock and he didn't have any swarm cards. So it just does more damage to the tower and more damage to like the mortar where it's just trying to take it down\" (t=669-680), hedged with \"I'm like fully not sure on if it's a buff or a nerf\" (t=689-691)."
+    ],
+    "berserker": [
+      "clock 2:24 and 2:14: places Berserker at [2, 14] and [6, 12] behind his own X-Bow as its bodyguard rather than on the incoming Rascal — \"I'm not going to do my Berserker though cuz if I do the Berserker, it's still going to die\" (t=652-653).",
+      "clock 1:19: declines to spend her on a lone attacker — \"Do I even want a Berserker? I don't think that I do, to be honest. They could just let this go\" (t=715-718).",
+      "clock 1:10: the play that decides the game — Berserker at [4, 14] at -2 elixir immediately behind the X-Bow he just placed, leaving him on 2 elixir: \"just go for an Expo plus Berserker push\" (t=722-724).",
+      "clock 1:22: names \"the Skellies plus Berserker\" (t=712) as his cheap follow-up package after Logging the Rascals."
+    ],
+    "archers": [
+      "clock 2:45: splits them behind his towers purely to scout — \"just going to split my archers here in the back and try to figure out what this guy is playing\" (t=629-633).",
+      "clock 2:13: Archers at [7, 10] (HUD-confirmed, -3) as X-Bow support alongside Berserker and Electro Spirit — \"let's go for the Berserker plus archers\" (t=659-661).",
+      "clock 1:32: splits them again specifically against a two-lane Rascals push — \"let's go for the split Evil Archers here. Make sure that we take out these rascals\" (t=701-704).",
+      "clock 0:57 and 0:50: walks them over the river at [3, 16] and [4, 19] once the opponent has stopped defending."
+    ],
+    "fireball": [
+      "clock 2:31: one cast, onto tile [12, 22] — on top of the opponent's stacked Rascals on the opponent's own half, used to start pressure rather than held for defence: \"I'm just going to fireball here on top of all this just to get the pressure going really quickly\" (t=644-646).",
+      "clock 1:04: names the Fireball slot as the reason the matchup is lopsided — \"he knows the Expo is a hard counter against Mortar if I have the Fireball variation\" (t=733-734)."
+    ],
+    "tesla": [
+      "clock 1:40: single placement at tile [4, 10], beside and slightly behind the X-Bow he had just rebuilt at [2, 12] — the standard siege-screen slot. No commentary on it."
+    ],
+    "skeletons": [
+      "clock 2:26: Skeletons at [4, 14] played pre-emptively for a card he has not seen yet — \"skellies here at the bridge in case he cannon carts. Okay, nice\" (t=649-650).",
+      "clock 1:43 and 1:21: one-elixir drops at [8, 8] and [8, 14] while cycling back to the X-Bow in double elixir.",
+      "clock 1:22: half of his named follow-up package, \"the Skellies plus Berserker\" (t=712).",
+      "clock 0:52 and 0:47: Skeletons at [6, 17] and [5, 19] on the opponent's half after the concession."
+    ],
+    "electro-spirit": [
+      "clock 2:12: Electro Spirit at [7, 12] to clear three Minions walking his left lane — \"we need to go for the e-spirit here as well. Just make sure we take out these minions cuz we're not going to take out the cannon cart until we take out the minions\" (t=661-666); the Minions are gone by clock 2:04 and he calls it \"very good defense right there. We actually clutched up nicely\".",
+      "clock 1:27-1:20: another Electro Spirit at [5, 13] into the Rascals push — \"come on, let's e-spirit\" (t=708).",
+      "clock 2:42 and 1:04: two more one-elixir drops at [9, 14] and [4, 14], both in front of his own X-Bow lane."
+    ],
+    "the-log": [
+      "clock 1:24: The Log at [4, 15], reactively, on the Rascals crossing in the left lane — \"dude, that was aggressive. Log here, and then we can go for the Skellies plus Berserker\" (t=708-712).",
+      "clock 2:03: The Log at [3, 8] deep on his own half against a ground unit that had got past the X-Bow.",
+      "clock 0:55: The Log at [7, 20] on the opponent's half during the unopposed finish."
+    ],
+    "mortar": [
+      "clock 2:28: the opponent's Mortar goes down at tile [9, 20] behind a double Rascals split; Ryley never builds a dedicated answer to it and simply out-chips it with the X-Bow.",
+      "clock 1:04: he reads the whole matchup as decided by it — \"I think this guy just gave up cuz he knows the Expo is a hard counter against Mortar if I have the Fireball variation\" (t=731-734), and on the rework, the X-Bow now \"does more damage to like the mortar where it's just trying to take it down\" (t=678-680)."
+    ],
+    "rascals": [
+      "clock 2:34-2:26: the opponent splits Rascals from the back twice ([11, 26] then [13, 23], plus a third at [14, 15]); Ryley's first reaction is alarm — \"after that the rascals in the back, dude, this actually might be nearly undefendable\" (t=640-642) — and his answer is a Fireball on the stack at [12, 22] rather than a building.",
+      "clock 1:32-1:24: against a second two-lane Rascals commitment he uses split Archers, then The Log, then Electro Spirit — \"make sure that we take out these rascals\" (t=702-704).",
+      "clock 1:19: lets the last surviving rascal-boy connect on purpose rather than spend on it — \"they could just let this go... it might be better to just eat some damage here\" (t=718-722). His right tower drops 4458 -> 4258."
+    ],
+    "minions": [
+      "clock 2:10-2:07: three Minions walk his left lane; he sequences the defence around them explicitly — \"just make sure we take out these minions cuz we're not going to take out the cannon cart until we take out the minions\" (t=662-666) — and clears them with Berserker, Archers and Electro Spirit."
+    ],
+    "cannon-cart": [
+      "Mentioned but never confirmed on screen (no deploy label, no detection): he pre-places Skeletons at the bridge \"in case he cannon carts\" at clock 2:26 (t=649-650), then says \"I mean I have nothing to defend the cannon cart\" (t=654-655) and delays committing to it until the Minions are dead (t=665-666); at clock 1:09 he is still guessing at it — \"he's going to Cannon Cart, maybe? Or maybe Mortar\" (t=725-727)."
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-electro-spirit-fireball-skeletons-tesla-the-log-x-bow",
+    "cards": [
+      "archers",
+      "berserker",
+      "electro-spirit",
+      "fireball",
+      "skeletons",
+      "tesla",
+      "the-log",
+      "x-bow"
+    ],
+    "bullets": [
+      "Game 4 of a six-game single-deck session; only 124.8s readable (video 629.2-754.0), picked up at clock 2:45 against a Mortar/Rascals siege deck. Won by concession at clock 1:04.",
+      "The plan is X-Bow first, defend with the cheap cards: an early X-Bow at clock 2:36 on tile [2, 12] (left lane, three tiles off the river) took the enemy left tower from 4858 to 2790 by clock 2:14 while Berserker, Skeletons, Archers and Electro Spirit handled everything that came back.",
+      "Fireball is used offensively, not saved — clock 2:31 onto stacked Rascals at [12, 22] \"just to get the pressure going really quickly\" (t=644-646). Ryley calls the Fireball slot the reason the deck hard-counters Mortar (t=733-734).",
+      "Tesla appears once (clock 1:40, tile [4, 10]) purely as the screen beside a rebuilt X-Bow at [2, 12]; the deck defends mostly with troops and spends its building slot on the win condition.",
+      "The decisive habit is refusing to over-defend: at clock 1:12, with a rascal-boy already through, he takes 200 HP of chip and buys X-Bow (-6) plus Berserker (-2) instead — \"it might be better to just eat some damage here and just go for an Expo plus Berserker push\" (t=720-724). Enemy left tower goes 2734 -> 158 in eight seconds and the opponent quits.",
+      "Recurring theme across his commentary here: the X-Bow rework rewards a clean lock against decks without swarm cards and hits enemy siege buildings harder, though he is openly unsure whether it is a net buff (t=669-696)."
+    ],
+    "new_deck": {
+      "display_name": "X-Bow Ryley",
+      "archetype_primary": "siege",
+      "archetype_secondary": "none",
+      "rationale": "The X-Bow is the win condition and every other slot is cheap defence or cycle around it.",
+      "why_it_works_md": "The list is X-Bow plus seven cards that are all 4 elixir or less, so the X-Bow can go down early and be rebuilt on cycle — Ryley plays it three times inside 90 readable seconds, always on tile [2, 12]. Defence is troop-based (Berserker, Skeletons, Archers, Electro Spirit) with Tesla reserved as a screen next to the siege building rather than as the primary answer, which keeps the elixir free to reload the win condition. Fireball is the swing card: cast offensively onto grouped support it both protects the lock and, as Ryley puts it, makes the deck \"a hard counter against Mortar if I have the Fireball variation\" (t=733-734). Because everything is cheap, the deck can afford to ignore a leaking attacker and answer with a fresh X-Bow plus Berserker instead — the exact trade that won this game."
+    }
+  }
+}

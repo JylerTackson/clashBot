@@ -1,0 +1,72 @@
+{
+  "key": "SsOmbv1PfUg-m0.1",
+  "match_file": "matches/SsOmbv1PfUg-m0.1.md",
+  "video_title": "This NEW Xbow Deck is TAKING OVER the Meta",
+  "cards": {
+    "x-bow": [
+      "clock 0:58 (t=281.2): banks to 9 elixir at the start of triple elixir and lays the X-Bow at tile (4, 12) — three tiles back from the river in the left lane, against the tower already at 4406 — with no tank in front of it; the enemy left tower falls 4406 -> 617 in the next twenty seconds while every card he spends afterwards is defence on his own half. No commentary on the placement itself (the transcript is off-topic there).",
+      "clock 0:22-0:10: with the X-Bow's work done he stops committing and switches to spells only — 'All we have to do is start fireball cycling... this guy's completely wrecked' (317-318s)."
+    ],
+    "fireball": [
+      "clock 1:45 (t=235): defensive Fireball at (3, 12) on his own half into the Graveyard skeletons and the Baby Dragon — 'We can go for the fireball. Now, I just want to make sure that we hit the baby dragon, too.'",
+      "clock 0:48 (t=290): second Fireball at (1, 21) on the opponent's half into the Lava Hound / Baby Dragon push — 'I do think I need to double fireball that baby dragon.'",
+      "clock 0:22 and 0:12 (t=319, t=328): Fireball at (3, 24) then (4, 25) straight onto the enemy left tower as the closing cycle — 'All we have to do is start fireball cycling' (317s), 'Let's fireball log, guys. And we just need to cycle back to one more' (320-322s)."
+    ],
+    "the-log": [
+      "clock 0:19 and 0:10 (t=321 at (3, 15), t=330 at (4, 14)): the cheap half of the Fireball-Log closing cycle rather than a defensive answer — 'Let's fireball log, guys. And we just need to cycle back to one more. And this is going to be GG's.'",
+      "clock 0:47 (t=294.8, HUD, elixir 7 -> 5): played inside the defensive package that also used Fireball and Archers against the Lava Hound / Baby Dragon push."
+    ],
+    "tesla": [
+      "clock 2:02 (t=218): Tesla at (7, 11), centre-right of his own half, purely to kill the Lava Hound — 'Guess we can go for the Tesla here as well just to make sure that we take out this Lava Hound.'",
+      "clock 2:00-1:56: he refuses to pull the Hound onto it — 'I'm not going to make the Lava Hound follow it though because not only is it unnecessary in this type of match up, but because of how much Elixir we're down, I think it's better if we just eat some damage.'",
+      "clock 0:36 (t=302): Tesla at (4, 9) as the anchor of the last left-lane stand against a second Graveyard plus the Lava Hound remains, while the X-Bow keeps firing."
+    ],
+    "electro-spirit": [
+      "clock 0:32 (t=308 at (2, 10), and t=289.7 at (9, 6)): used as the Inferno Dragon reset in the middle of a defensive package — 'Then we can go for the E-spirit to reset the inferno dragon' (307-309s).",
+      "clock 1:44 (t=236.7 at (9, 9)): 1-elixir insert alongside Skeletons, Berserker and a Fireball against the Baby Dragon plus Graveyard skeletons — 'E-spirit. Aw, that's the lag right there.'",
+      "clock 0:13 (t=327 at (8, 11)): part of the last defensive cycle he narrates card by card — 'E-spirit, berserker, fireball, and a log. Let's go.'"
+    ],
+    "skeletons": [
+      "clock 1:48 (t=231.7 at (1, 7)) and clock 0:34 (t=307 at (4, 8)): the first card he calls out in each defence against the two Graveyards — 'let's go for the skeletons here' (231s), 'Let's go for the skellies here' (306s).",
+      "clock 1:08 (t=272 at (11, 14)): bridge-side Skeletons in the right lane against the Electro Wizard crossing over, no commentary.",
+      "clock 0:15 (t=325.2 at (9, 10)): 1-elixir body inside the closing defence while both Fireballs go to the tower."
+    ],
+    "archers": [
+      "clock 2:08 (t=212 at (8, 8)): split with a stated target — 'Let's go for the Archers here. Just make sure to split them towards the Inferno Dragon so we can take one out.'",
+      "clock 1:18 (t=261.7 at (8, 0)): Archers behind his own king tower at 9 elixir, a pure cycle placement during a lull with no push on the field.",
+      "clock 0:47-0:37 (t=303.3, HUD): played into the Lava Hound / Baby Dragon defence as a spell bait — 'Let's go for the archers here. Make him use the fireball, hopefully' (292-294s)."
+    ],
+    "berserker": [
+      "clock 2:07 to 0:14: the most-played card of the window (t=214, 234 at (3, 8), 255 at (9, 0), 299.7 at (8, 13), 326 at (8, 10)) and always 2 elixir on his own half — a ground body inside the Graveyard and Baby Dragon defences, a back-line cycle card at (9, 0), and a river-side body at (8, 13) once the X-Bow was already ticking.",
+      "clock 0:14 (t=326): named in the closing defensive cycle — 'E-spirit, berserker, fireball, and a log. Let's go.'",
+      "Possible Hero: four own-elixir drops of exactly 3 with no readable hand change (t=235.7, 266, 290.7, 328.3) match Savage Survival's 3-elixir ability cost and two of them follow a Berserker deploy label by 1-2 seconds, but no commentary names a hero or an ability, and Archers also cost 3 — unconfirmed."
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-electro-spirit-fireball-skeletons-tesla-the-log-x-bow",
+    "cards": [
+      "archers",
+      "berserker",
+      "electro-spirit",
+      "fireball",
+      "skeletons",
+      "tesla",
+      "the-log",
+      "x-bow"
+    ],
+    "bullets": [
+      "Game 2 of 6 vs Lava Hound / Graveyard beatdown; only clock 2:07 to 0:00 is readable. Won it, ending with the enemy left tower on 286 HP and both of his own towers alive — 'Very nice win... Easiest win of our lives, guys' (329-335s).",
+      "The deck was piloted as pure defence-first siege: from 2:07 to 1:00 he spends nothing across the river, accepts chip on the left tower ('because of how much Elixir we're down, I think it's better if we just eat some damage', 228-231s), and cycles Berserker and Archers behind his own king tower at (9, 0) and (8, 0) while at 7-9 elixir.",
+      "The single offensive commitment is the X-Bow at clock 0:58 (t=281.2, tile (4, 12), elixir 9 -> 3) at the start of triple elixir, defended with Tesla, Skeletons, Electro Spirit, Berserker and Archers rather than tanked; it takes the enemy left tower from 4406 to 617 in twenty seconds.",
+      "The close-out is spell cycling, not another building: Fireball at (3, 24) and (4, 25) with a Log behind each — 'All we have to do is start fireball cycling. Now, this guy's completely wrecked' (317-318s).",
+      "Against the Lava Hound the plan is Tesla plus Archers plus Electro Spirit resets on the Inferno Dragon, and explicitly not pulling the Hound with the building; against the two Graveyards it is Skeletons plus Berserker plus the building, never a spell."
+    ],
+    "new_deck": {
+      "display_name": "X-Bow Ryley",
+      "archetype_primary": "siege",
+      "archetype_secondary": "cycle",
+      "rationale": "X-Bow is the only win condition and every other slot is a cheap defensive or cycle card (2.9 average elixir), so it wins by protecting one siege placement.",
+      "why_it_works_md": "The eight cards are the standard X-Bow 3.0 shell with Berserker in the Knight slot: a 2-elixir fast melee body that defends, cycles and tanks for almost nothing. That leaves Tesla, Skeletons, Electro Spirit and Archers to hold everything on the defending half, so the deck can sit at 7-9 elixir and pay for one X-Bow the moment double or triple elixir arrives. In this match that was a single placement at clock 0:58 that took a tower from 4406 to 617; the rest of the game was Fireball and The Log cycling for the finish. Its weakness shows early: against a Lava Hound beatdown push while behind on elixir, Ryley's own answer is to concede tower chip rather than spend, so the deck lives on getting one clean siege window."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+ "video_id": "SsOmbv1PfUg",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 172.7,
+   "events": 56,
+   "own_deck": [
+    "skeletons",
+    "electro-spirit",
+    "archers",
+    "berserker",
+    "the-log",
+    "x-bow",
+    "tesla",
+    "fireball"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 127.8,
+   "events": 45,
+   "own_deck": [
+    "berserker",
+    "skeletons",
+    "electro-spirit",
+    "fireball",
+    "the-log",
+    "archers",
+    "tesla",
+    "battle-ram"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 289.8,
+   "events": 111,
+   "own_deck": [
+    "berserker",
+    "the-log",
+    "skeletons",
+    "archers",
+    "electro-spirit",
+    "tesla",
+    "fireball",
+    "heal-spirit"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 124.8,
+   "events": 47,
+   "own_deck": [
+    "skeletons",
+    "berserker",
+    "electro-spirit",
+    "archers",
+    "x-bow",
+    "the-log",
+    "fireball",
+    "tesla"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 296.8,
+   "events": 129,
+   "own_deck": [
+    "electro-spirit",
+    "x-bow",
+    "skeletons",
+    "the-log",
+    "fireball",
+    "berserker",
+    "archers",
+    "tesla"
+   ]
+  },
+  {
+   "match": "0.5",
+   "seconds": 294.8,
+   "events": 111,
+   "own_deck": [
+    "skeletons",
+    "fireball",
+    "archers",
+    "berserker",
+    "the-log",
+    "electro-spirit",
+    "x-bow",
+    "tesla"
+   ]
+  }
+ ]
+}

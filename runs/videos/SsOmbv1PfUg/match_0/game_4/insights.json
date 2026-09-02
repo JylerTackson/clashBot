@@ -1,0 +1,111 @@
+{
+  "key": "SsOmbv1PfUg-m0.4",
+  "match_file": "matches/SsOmbv1PfUg-m0.4.md",
+  "video_title": "This NEW Xbow Deck is TAKING OVER the Meta",
+  "cards": {
+    "x-bow": [
+      "clock 2:34 (t=758.7): opened with X-Bow at [15, 11] on the right for 6 elixir (8->2) one second before the opponent's first Goblin Hut — \"we can start off with an early Expo here, actually, especially after that Goblin Hut as well\" (755-762s) — and it never connected: \"The Expo won't connect, unfortunately, but it's all good. We can just start cycling back to our Evil Archers\" (777-780s).",
+      "clock 1:31 (t=821-822): the offensive placement of the game, X-Bow at [2, 13] two tiles off the river on the left with a bridge Berserker at [4, 14] as its tank; the timing is a stated tempo judgement — \"I just need to figure out the rest of his deck before we get too aggressive, but I also don't want to not go too aggressive quickly and then have him just get all of his Elixir back for defense\" (818-826s).",
+      "clock 0:47-0:37 (t=856, 876): X-Bow at [2, 12] then [4, 12]; the first landed the only regular-time damage, enemy left 4527 -> 4433 at t=868 — \"Come on, give me a bit of a log. Nice, we grabbed our one tick of the game\" (865-868s) — and the second was rushed on purpose: \"I need to Expo before he gets a chance to go in with that Ice Golem. I just need to Expo immediately\" (875-878s).",
+      "overtime (t=963-1017): re-sieged on both sides ([15, 13], [3, 12], [2, 12]) through triple elixir against a Goblin Hut he says blocks the shot — \"I can't believe that it actually blocks an Expo. It's kind of ridiculous\" (898-901s), \"not even one tick, bro. Not even one tick. Are you trolling?\" (1006-1010s) — and only connected at overtime 0:05, enemy left 4433 -> 3681: \"Expo on the left connected\" (1029-1032s)."
+    ],
+    "tesla": [
+      "clock 1:08 (t=846): Tesla at [9, 14], 1 tile off the river rather than the usual 3-tiles-from-bridge pull, cycled deliberately toward the evolution — \"We're definitely going to start getting to our Evo Tesla, though, cuz Evo Tesla is going to be really really important defensively. Let's just cycle a high Tesla now\" (840-846s); the opponent's Graveyard at [8, 6] two seconds earlier did no tower damage.",
+      "clock 0:40 (t=872.7): Tesla at [6, 13], again high, alongside Skeletons and an X-Bow in the same lane — \"we go for a high Tesla, as well\" (872s). In this deck the Tesla is played as the X-Bow's bodyguard, not as a standalone pull.",
+      "overtime 1:51 and 0:57 (t=922, 976.2): Tesla at [12, 13] and a 4-elixir cycle out of hand during the defensive stack he narrates as \"Make sure that we take this out\" (924-925s) and \"we log here for the furnace... We need to get a berserker in front here\" (975-979s)."
+    ],
+    "fireball": [
+      "clock 1:57 (t=795-796): Fireball at [6, 22] on the second Goblin Hut, enemy left tower 4858 -> 4527 — the stated reasoning is that spawner decks invite the trade: \"whenever they go for this, they're just kind of just inviting you to Fireball their tower, which is fine, cuz with doing this, you know, I will eventually be up in damage\" (795-803s).",
+      "clock 0:57 (t=857.3): pre-commits the spell to the opponent's mini-tank — \"I will definitely start taking my Fireballs on Ice Golems and stuff like that. We have to be very smart about that\" (856-862s).",
+      "overtime 1:35-1:28 (t=938.2, 946): Fireball out of hand and then at [15, 17] across the river onto a stacked defence — \"We need to go for the fireball on top of everything. Please make sure we hit everything. Come on. Nice. Good fireball right there. We can maybe try to get a connection\" (945-949s).",
+      "overtime 0:44-0:13 (t=989.2, 996, 1006, 1019.8, 1025): Fireball on cycle every lap trying to clear the ground in front of a sieging X-Bow — \"Dude, I'm going to have to fireball the floor in hopes of grabbing a connection\" (1024-1025s)."
+    ],
+    "the-log": [
+      "clock 0:25 (t=888): The Log at [11, 15] into a skeleton-and-spear-goblin push, with the value called before the cast — \"Could we log this away, though? I think we can, but it's going to lock onto the Barbarian Barrel, anyways\" (888-891s).",
+      "overtime 0:56 (t=977): The Log at [15, 15] specifically on the opponent's Furnace — \"We log here for the furnace. Take this out\" (975-978s).",
+      "clock 2:13 (t=780.3) and throughout: cast on his own half at [3, 15], [14, 4], [6, 14], [2, 3] as the 2-elixir sweep in a 2.9-elixir cycle, then almost every lap in overtime (t=986, 996, 1011) — \"Log here. Please, bro. Take this out, bro\" (1010-1013s)."
+    ],
+    "electro-spirit": [
+      "clock 2:38 (t=753-755): the card he opens the game with, purely as information — \"Go for the E-Spirit here. See what this guy wants to do\".",
+      "clock 1:47 (t=805.7): Electro Spirit at [14, 5] on his own half as the first body against a Spear Goblin push the tracker had reaching the tower in ~7 s, inside a four-card cheap defence (Skeletons, Tesla, Berserker, The Log).",
+      "clock 0:25 (t=888.7): played to keep a defence ticking rather than to kill — \"It's E-Spirit here. It's still going to keep hitting\" (893-895s).",
+      "overtime (t=966, 978, 982, 1007.8, 1013, 1021, 1032): the 1-elixir filler on every push, at [13, 4], [4, 12] and at the river [5, 15] — \"Let's e-spirits\" (937s), \"E-spirit to grab this\" (982s), \"E-spirit log\" (1021s)."
+    ],
+    "skeletons": [
+      "clock 0:43 (t=870): Skeletons at [1, 14] as a lane distraction — \"Let's go for the Skeletons up top here to make sure that we distract this\" (870-871s).",
+      "clock 0:32 (t=880.7): Skeletons at [1, 13] against the opponent's tower troop — \"Skellies here to block the Spear Empress\" (881-883s).",
+      "overtime 1:09-1:08 (t=964.5, 966.2): played inside the Graveyard radius rather than beside it — \"Skellies here inside for the graveyard\" (970-971s).",
+      "clock 1:46 (t=807) and throughout overtime (t=936, 995.5, 1001, 1013, 1027): 1-elixir cycle to get back to X-Bow and Fireball — \"We can skeleton here as well and we can go for the log\" (807-809s)."
+    ],
+    "archers": [
+      "clock 2:11 (t=782) and clock 0:59 (t=855): Archers at [8, 1] behind the King Tower as the cycle card into the win condition — \"We can just start cycling back to our Evil Archers\" (778-780s), \"Let's go for the Archers here, then we can go for the Expo\" (854-856s).",
+      "clock 1:03 (t=848-852): describes but does not run the two-lane version — \"We have Evo Archers, though. We could split them and go for an Expo with a Berserker opposite lane, maybe\".",
+      "overtime 1:43 (t=928): split at [8, 10] — \"Let's split our Evo archers here\" (930-932s) — and immediately rates the cost of losing half of them: \"Damn, that one archer dying does definitely suck\" (936s).",
+      "overtime 0:48 (t=986): Archers at [9, 15] right at the river to hold the X-Bow's lane; he calls them out as the piece he cannot afford to lose — \"Evo archers low\" (998s)."
+    ],
+    "berserker": [
+      "clock 1:44 (t=809.7): Berserker at [12, 6] on his own half as the defensive body in a four-card cheap stack — \"Okay, let's go for the Berserker\" (805s), followed by \"Dude, that was so aggressive, man, but I think it's going to be fine for him. Cuz he has Ice Golem. Good defense, though, overall\" (809-815s).",
+      "clock 1:29 (t=824): Berserker at [4, 14] at the bridge as the tank for the X-Bow going down at [2, 13] the same second — \"Let's Berserker here at the bridge\" (826-828s). She fills the mini-tank slot the knowledge-base X-Bow list gives to the Knight.",
+      "clock 1:25 (t=828): \"Okay, we have an ability ready, but I don't think we're going to get the chance to pop it\" — spoken over that bridge Berserker, the only sign in this game that the Hero variant (Savage Survival, 3 elixir) is the one in the deck.",
+      "overtime 0:53 (t=980) and 0:25 (t=1007): Berserker at [2, 14] and [4, 15] in front of the re-sieging X-Bow — \"We need to get a berserker in front here. Block. Nice\" (979-981s)."
+    ],
+    "goblin-hut": [
+      "clock 2:31 and 1:51 (t=760, 800): the opponent's double Goblin Hut at [8, 19] and [9, 19] is what triggers Ryley's early X-Bow — \"we can start off with an early Expo here, actually, especially after that Goblin Hut as well. Make sure that we take out this Goblin Hut\" (755-762s).",
+      "clock 1:57 (t=795): he Fireballs the hut for the building-plus-tower trade — \"whenever they go for this, they're just kind of just inviting you to Fireball their tower... I will eventually be up in damage\" (795-803s), enemy left 4858 -> 4527.",
+      "clock 0:18 (t=895-901): the hut's placement, not the Graveyard, is what beats his win condition — \"Dude, his Goblin Hut placement is actually really good. I can't believe that it actually blocks an Expo. It's kind of ridiculous, in my opinion, that that can block the Expo.\" Huts land again at clock 0:53, 0:28, 0:18, 1:17, 0:50, 0:22 and 0:10, a near-permanent Spear Goblin stream over the X-Bow lane."
+    ],
+    "graveyard": [
+      "clock 2:29 (t=763-771): read from the first cycle, and used as an argument for early pressure — \"It looks like he has a Graveyard deck, but going in early against Graveyard is never a bad thing. You kind of get a feel for their exact variation and their cycle as well, cuz depending on their version and their cycle, it can be a very different game every single time.\"",
+      "clock 1:08 (t=844): Graveyard cast on Ryley's half at [8, 6]; he answers with a high Tesla at [9, 14] plus cheap troops and his left tower holds at 4586 through clock 1:03.",
+      "overtime 1:04 (t~970): second Graveyard answered with 1-elixir Skeletons placed inside the spell — \"Skellies here inside for the graveyard\" (970-971s)."
+    ],
+    "poison": [
+      "clock 2:04 (t=785-789): named as the other half of the archetype as soon as it is seen — \"So, he has Ice Golem, Goblin Hut, Poison. Interesting. And Skellies... I think it's just going to be a regular Graveyard Poison deck.\"",
+      "overtime 0:44-0:30 (t=990-998): the Poison window is what decides the tiebreaker — his left tower runs 3618 -> 3250 including an inferred 164 HP spell hit at t=997 — \"Okay, poison. We can go in again\" (990s), \"He's going to poison, but then we can get another Expo here on the left side\" (1000-1001s).",
+      "overtime 0:20 (t=1013): he tracks the opponent's spell cycle as pressure relief — \"He can't poison, bro. Okay, he's under so much pressure.\""
+    ],
+    "ice-golem": [
+      "clock 0:55 (t=856-862): the card he reserves his spell for — \"I will definitely start taking my Fireballs on Ice Golems and stuff like that. We have to be very smart about that.\"",
+      "clock 0:37 (t=875-878): the Ice Golem is the clock on every siege attempt — \"I need to Expo before he gets a chance to go in with that Ice Golem. I I I I just need to Expo immediately\" — and it keeps coming back: \"He has to do another Ice Golem\" (887s), \"Another ice golem, dude. Wow. Okay, this is getting out of hand, man\" (959-961s)."
+    ],
+    "furnace": [
+      "clock 0:07 (t=906): appears late and surprises him — \"And he has a Furnace. What in the world?\"",
+      "overtime 1:43 and 0:56 (t=929, 977): removed twice, once with spell damage — \"Okay, nice. Taking out the furnace which is really good\" (929s) — and once with The Log at [15, 15] — \"We log here for the furnace. Take this out\" (975-978s)."
+    ],
+    "barbarian-barrel": [
+      "clock 0:25 (t=888-891): mentioned, not seen as a play — he expects the opponent's Barbarian Barrel to soak his own Log: \"Could we log this away, though? I think we can, but it's going to lock onto the Barbarian Barrel, anyways.\""
+    ],
+    "spear-goblins": [
+      "clock 1:47 through overtime: seen only as Goblin Hut spawns rather than as a played card, but they are the match's main chip source and the X-Bow's main obstacle — repeated spear-goblin tracks reach his towers from t=804 onward while the hut placement itself \"blocks an Expo\" (898-901s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-electro-spirit-fireball-skeletons-tesla-the-log-x-bow",
+    "cards": [
+      "archers",
+      "berserker",
+      "electro-spirit",
+      "fireball",
+      "skeletons",
+      "tesla",
+      "the-log",
+      "x-bow"
+    ],
+    "bullets": [
+      "Game 5 of 6 of a single-deck X-Bow session (video 754.2s-1051.0s); lost on the overtime lowest-tower tiebreaker to Graveyard Poison with double Goblin Hut, Ice Golem and Furnace — \"we took a million more damage on the left. I thought we lost by 10 HP on the right. Okay, whatever. GG's, bro\" (1042-1047s).",
+      "The X-Bow goes down early and often — [15, 11] right at clock 2:34, then [2, 13]/[2, 12]/[4, 12] on the left, two tiles off the river, from clock 1:31 onward — always with a bridge Berserker in front of it (t=824, 905, 980, 1007) rather than bare.",
+      "Berserker fills the mini-tank slot the knowledge-base list gives to the Knight, and this game points at the Hero variant: \"Let's Berserker here at the bridge. Okay, we have an ability ready, but I don't think we're going to get the chance to pop it\" (826-828s).",
+      "Evo Tesla is played 'high', 1-2 tiles from the river ([9, 14], [6, 13], [12, 13]), as an X-Bow bodyguard rather than a 3-tiles-from-bridge pull — \"Evo Tesla is going to be really really important defensively. Let's just cycle a high Tesla now\" (840-846s).",
+      "Against spawners the Fireball is spent on the building plus the tower on purpose: \"whenever they go for this, they're just kind of just inviting you to Fireball their tower... I will eventually be up in damage\" (795-803s); enemy left 4858 -> 4527 at t=798.",
+      "Defence is four 1-2 elixir cards in sequence — Electro Spirit, Skeletons, The Log, Berserker plus a Tesla — with Skeletons doing three distinct jobs: distraction (\"Skeletons up top here to make sure that we distract this\", 870s), blocking the enemy tower troop (881-883s), and going inside a Graveyard (970-971s).",
+      "Weakness exposed: a well-placed Goblin Hut plus a cycled Ice Golem shuts the win condition off completely. Twelve X-Bow deploy labels across 5 minutes produced one tick in regular time and one connection at overtime 0:05 — \"Dude, is it even possible to connect with Expo in this match up? Like He has so many defensive options\" (953-956s) and \"I can't believe that it actually blocks an Expo\" (898-901s)."
+    ],
+    "new_deck": {
+      "display_name": "X-Bow Berserker 2.9 Cycle (Ryley)",
+      "archetype_primary": "siege",
+      "archetype_secondary": "cycle",
+      "rationale": "The X-Bow is the win condition and every other card is a 1-4 elixir defensive or cycle piece at 2.9 average elixir.",
+      "why_it_works_md": "The X-Bow outranges the Crown Towers, so the deck's whole job is buying it the 3.5 seconds it needs and then keeping it alive; here that means a bridge Berserker in front of it on every siege (t=824, 905, 980, 1007) and an Evo Tesla cycled 1-2 tiles from the river as a bodyguard rather than as a standard pull building (\"Evo Tesla is going to be really really important defensively\", 840-846s). Swapping the Knight for the 2-elixir Berserker drops the average cost to 2.9 and gives the mini-tank a Hero ability, but it also gives up the Knight's bulk in front of the building. Fireball is the value engine against defensive buildings and spawners — Ryley takes the hut-plus-tower trade on principle (\"they're just kind of just inviting you to Fireball their tower... I will eventually be up in damage\", 795-803s) — while Electro Spirit, Skeletons and The Log handle everything cheap enough to leave the 6-elixir building affordable. The exposure this match shows is the classic siege one: a spawner placed where it physically blocks the X-Bow's line, plus a recycled Ice Golem, can hold the win condition off for a whole game (\"I can't believe that it actually blocks an Expo\", 898-901s)."
+    }
+  }
+}

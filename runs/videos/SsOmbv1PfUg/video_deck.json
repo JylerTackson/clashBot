@@ -1,0 +1,50 @@
+{
+ "games": 6,
+ "deck": [
+  "skeletons",
+  "the-log",
+  "electro-spirit",
+  "archers",
+  "berserker",
+  "x-bow",
+  "tesla",
+  "fireball"
+ ],
+ "deck_key": "archers-berserker-electro-spirit-fireball-skeletons-tesla-the-log-x-bow",
+ "mixed": false,
+ "scores": {
+  "skeletons": 36,
+  "the-log": 33,
+  "electro-spirit": 32,
+  "archers": 32,
+  "berserker": 30,
+  "x-bow": 29,
+  "tesla": 27,
+  "fireball": 27,
+  "zap": 23,
+  "heal-spirit": 20,
+  "fire-spirit": 12,
+  "battle-ram": 12,
+  "mother-witch": 10,
+  "barbarian-barrel": 6,
+  "miner": 3,
+  "tornado": 3,
+  "giant": 2
+ },
+ "transcript_mentions": {
+  "x-bow": 24,
+  "the-log": 25,
+  "berserker": 47,
+  "electro-spirit": 30,
+  "tesla": 30,
+  "fireball": 34,
+  "heal-spirit": 1,
+  "skeletons": 6,
+  "archers": 34,
+  "giant": 1,
+  "barbarian-barrel": 1,
+  "miner": 20,
+  "tornado": 1
+ },
+ "notes": []
+}

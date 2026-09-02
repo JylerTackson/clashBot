@@ -1,0 +1,90 @@
+{
+  "key": "SsOmbv1PfUg-m0.0",
+  "match_file": "matches/SsOmbv1PfUg-m0.0.md",
+  "video_title": "This NEW Xbow Deck is TAKING OVER the Meta",
+  "cards": {
+    "x-bow": [
+      "clock 1:48 (t=58.5): X-Bow at tile (13, 12), right lane on his own half, with Electro Spirit at (15, 11) two seconds later. It locks the opponent's right crown tower for the whole lifetime — 4858 down to 1201 between clock 1:45 and 1:29, roughly 3,650 damage from one placement.",
+      "clock 0:59 (t=108.0): the second X-Bow goes at (15, 10), three rows further back and against the right wall rather than at the river. He explains the low placement: \"if you put the card lower, then it still is pretty hard to defend that card as well because, you know, you're just giving them free value by placing your like high-expensive elixir card in the middle\" (107-117s).",
+      "clock 0:18 (t=149.0): third X-Bow switched to the left lane at (4, 12) once the right tower is down to 261 and the opponent has committed defenders there.",
+      "His stated matchup case, 44-58s: \"X-Bow is also kind of like an anti-meta deck right now. There's a lot of Lava Hound Rune Giant going around… a lot of them have the same problem, where they just have a really, really difficult time dealing with the X-Bow.\""
+    ],
+    "berserker": [
+      "The thesis of the video, 15-35s, spoken over his own defence: \"Hero Berserker pairs up so nicely with X-Bow because it's like a 5-second invincibility wall right next to your X-Bow, where you are just like unable to take her out, which ends up making the Berserker the best way to support the X-Bow because anything that your opponents try to do to actually take out the X-Bow will just get cleared up by the Berserker.\" (The hero page lists Savage Survival at 4 s with -75% crown tower damage.)",
+      "clock 0:48 (t=118.0): Berserker at the right bridge tile (14, 15) with the ability popped on purpose — \"Let's go for the Berserker here. I'm going to pop the abilities cuz I want to instantly eliminate the Rune Giant\" (119-122s). The opponent's right tower falls 1013 -> 731 -> 261 over the next ten seconds. His general rule, 98-107s: \"whenever you go Berserker at the bridge plus the ability with that X-Bow, your opponents can have a very hard time knowing what to do because anything that you put will instantly get taken out.\"",
+      "Defensive uses: (8, 9) at clock 2:17 (elixir 7 -> 5) into an Inferno Dragon, and (3, 9) at clock 0:03 (3 -> 1) alongside a Fireball onto the last Inferno Dragon.",
+      "clock 0:33 (t=134.0): played at (12, 8), one tile behind Archers at (11, 8), purely as a prediction — \"I know he's going to go for the Miner on top of it. So, let's go for the Berserker behind to predict the Miner. Nice.\" He also names it as a Mortar partner at 37-40s: \"It also works very nicely with Mortar for the exact same reason.\""
+    ],
+    "tesla": [
+      "clock 0:47 (t=121.0): Evo Tesla placed forward at the bridge, tile (16, 13), as an offensive sniper rather than a King-Tower guard — \"Let's Evo Tesla at the bridge. Can it lock on to the Inferno Dragon? Nice. Let's go.\" (Logged by the pipeline as an opponent play; it is on his half and matches his commentary — see the match file's Data gaps.)",
+      "clock 1:30 (t=77.0): Tesla at (8, 9), dead centre, as the anchor of the defence that protects the locked X-Bow — \"Let's just go for a Tesla here in the middle. That is 1 HP, sadly. I wish it was completely gone.\"",
+      "clock 0:13 (t=154.0): Tesla at (7, 13), high on his own half — \"Let's go for the high Tesla here. We can take out the Inferno Dragon and Berserker with that.\" Other placements: (4, 10) at 2:37 and (17, 7) at 0:29."
+    ],
+    "electro-spirit": [
+      "Seven plays, six of them within two seconds of another card: (7, 12) at 2:24, (15, 11) behind the first X-Bow at 1:46, (13, 14) at 1:38, (10, 8) at 1:27, (14, 8) at 0:25 and (2, 14) at 0:03. It is never a stand-alone answer in this game.",
+      "clock 1:27 (t=80.2): played at (10, 8) at 2 elixir as the finisher on a chipped Inferno Dragon — \"We can go for the E-Spear here just to chain onto that Inferno Dragon, make sure we take it out. Beautiful defense right there\" (82-85s; \"E-Spear\"/\"E-Spirit\" is the auto-transcript's rendering).",
+      "clock 0:42 (t=126): used the same way on offence behind the bridge Berserker and Evo Tesla — \"E-Spirit here as well just to fully make sure we take that out.\""
+    ],
+    "skeletons": [
+      "Seven plays, repeatedly at the river to drag an attacker across rather than to trade: (7, 14) at 2:29, (10, 15) at 1:25, (14, 14) at 0:47, (14, 13) at 0:27 (\"Skellies up top\") and (6, 15) at 0:11 (\"Skellies here to bring this a little bit over\").",
+      "clock 2:07 (t=39.3): Skeletons at (10, 8) as the last card of the opening defence against an Inferno Dragon and lava-pup crossing his half; both of his towers come out of that push untouched at 4858."
+    ],
+    "archers": [
+      "The cheap opener, twice deep behind his own King Tower at (8, 0): clock 2:44 (elixir 10 -> 7) and clock 1:00, both times to start the cycle rather than to answer anything.",
+      "clock 1:36 (t=71.0): Evo Archers at (8, 13) as support for the locked X-Bow — \"Let's go for the Evil [Evo] Archers, and we can go for the Berserker as well. Very nice offense right there.\"",
+      "clock 0:35 (t=132.0): at (11, 8) as deliberate Miner bait, covered one second later by a Berserker at (12, 8) — \"Let's go for the Archers here as well. I know he's going to go for the Miner on top of it.\" Also used defensively at (7, 9) at clock 2:15 into the Inferno Dragon push."
+    ],
+    "the-log": [
+      "Four rolls, all in the last minute (0:59, (14, 7) at 0:29, (14, 14) at 0:16 and one more at 0:12), spent freely on the ground swarm defending against his X-Bow rather than held for a specific target — \"We can go for the Log here as well\" (138s)."
+    ],
+    "fireball": [
+      "Both casts are defensive and in the lane the opponent attacked: (5, 12) at clock 2:15 into the Inferno Dragon / lava push, and (2, 11) at clock 0:05 onto the last Inferno Dragon — \"Let's go for the Berserker on defense. Let's Fireball. E-Spirit as well just to touch this for a second\" (161-165s). He never uses it for tower chip in this game."
+    ],
+    "inferno-dragon": [
+      "The opponent's main answer to the X-Bow, sent three times (arena tracks at (4, 16) clock 2:17, (13, 16)/(14, 13) clock 1:31, (1, 13) clock 0:08). Ryley expects it before it comes: \"this guy might go for an Inferno Dragon, or he's going to ignore all of this and go Rune Giant behind or Inferno Dragon behind the Rune Giant\" (60-67s).",
+      "He answers it every time with cheap cards instead of a spell — Berserker plus Fireball at 2:17-2:15, Tesla plus Electro Spirit plus Skeletons at 1:30-1:25, Tesla plus Skeletons plus Berserker plus Fireball at 0:13-0:03 — and calls the chain-stun explicitly: \"just to chain onto that Inferno Dragon, make sure we take it out\" (82-84s)."
+    ],
+    "earthquake": [
+      "clock 0:53 (t=112.0): the opponent's only spell read by the pipeline, cast while Ryley's second X-Bow at (15, 10) is going down. It is never mentioned in the commentary and the X-Bow had already taken the right tower from 4858 to 1201 before it arrived."
+    ],
+    "rune-giant": [
+      "Mentioned five times but never seen in the arena (the 2024 detector cannot label it). It is what Ryley plays around: he predicts \"Rune Giant behind or Inferno Dragon behind the Rune Giant\" (63-67s), names \"Lava Hound Rune Giant\" as the meta his X-Bow is positioned against (46-48s), and pops the Berserker ability at clock 0:48 specifically for it — \"I'm going to pop the abilities cuz I want to instantly eliminate the Rune Giant.\""
+    ],
+    "miner": [
+      "Not detected, only predicted and pre-answered: at clock 0:35-0:33 he places Archers at (11, 8) then a Berserker at (12, 8) behind them — \"I know he's going to go for the Miner on top of it. So, let's go for the Berserker behind to predict the Miner. Nice.\" (132-136s)."
+    ],
+    "void": [
+      "clock 1:33 (t=75): the opponent casts it on Ryley's X-Bow push; not detected, named in commentary only — \"He does get the Void down, which is definitely fine by me.\" His right-lane damage continues uninterrupted through it (opponent tower 2047 -> 1201 over the next four seconds)."
+    ],
+    "mortar": [
+      "Mentioned, not played: at 37-40s he generalises the Hero Berserker synergy off the X-Bow — \"It also works very nicely with Mortar for the exact same reason\" (i.e. the ability clearing whatever the opponent drops on the siege building)."
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-electro-spirit-fireball-skeletons-tesla-the-log-x-bow",
+    "cards": [
+      "x-bow",
+      "tesla",
+      "archers",
+      "berserker",
+      "electro-spirit",
+      "skeletons",
+      "the-log",
+      "fireball"
+    ],
+    "bullets": [
+      "Game 1 of 6 in a single-deck showcase (video window 0.3-173.0s). Ryley states the build in the first 20 seconds: \"we are going to be playing the new best X-Bow deck in Clash Royale… ever since the Hero Berserker came out, it has been absolutely insane what you are able to do with this card.\" It is the standard X-Bow 2.9 cycle shell with the Hero Berserker in the mini-tank slot (the knowledge base's closest neighbour is the Knight version, archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow, 7 cards shared).",
+      "The pattern is one X-Bow per elixir tier, always supported before it is defended: X-Bow at (13, 12) at clock 1:48 with Electro Spirit at (15, 11) and then Electro Spirit / Evo Archers / Berserker at 1:38-1:36; X-Bow at (15, 10) at 0:59 followed by a bridge Berserker with the ability at 0:48 and Evo Tesla at the bridge at 0:47; X-Bow at (4, 12) at 0:18 to switch lanes.",
+      "That first lock is the whole game: the opponent's right crown tower goes 4858 -> 1201 between clock 1:45 and 1:29, then 1013 -> 261 during the Berserker-ability push at 0:39-0:37. Ryley's own towers finish at 4781 and 4270 and he calls it a win at 167s (\"GG's. Very nice win\").",
+      "Defence is cheap and layered, never a single card: Tesla plus Electro Spirit plus Skeletons at 1:30-1:25 against an Inferno Dragon and Battle Ram while he sits on 1-2 elixir; The Log, Tesla, Skeletons and Electro Spirit inside five seconds at 0:29-0:25. His summary at 147-151s: \"This guy pretty much had no chance, man. Our cycle is way too quick for him to really do anything about us.\"",
+      "Two placement rules he states outright: Berserker at the bridge with the ability alongside the X-Bow so \"anything that you put will instantly get taken out\" (98-107s), and putting the X-Bow low rather than mid so the opponent's expensive answer gets no value (107-117s)."
+    ],
+    "new_deck": {
+      "display_name": "X-Bow Hero Berserker 2.9",
+      "archetype_primary": "siege",
+      "archetype_secondary": "cycle",
+      "rationale": "X-Bow is the win condition and every other card is a cheap answer that protects it, so it sieges on a 2.9-elixir cycle.",
+      "why_it_works_md": "The list is the familiar X-Bow 2.9 cycle — Evo Tesla, Evo Archers, Electro Spirit, Skeletons, The Log and Fireball — with the **Hero Berserker** in the mini-tank slot. Her Savage Survival ability makes her briefly undestroyable, so a 2-elixir card placed next to a defended X-Bow clears whatever the opponent drops on it: \"it's like a 5-second invincibility wall right next to your X-Bow… anything that your opponents try to do to actually take out the X-Bow will just get cleared up by the Berserker.\" In this match one X-Bow at (13, 12) plus Electro Spirit, Evo Archers and a bridge Berserker took a crown tower from 4858 to 1201 in a single lifetime, and a second X-Bow with the ability popped finished it to 261. The defensive half is all 1-4 elixir, so the deck can answer an Inferno Dragon three separate times and still be first to the next X-Bow — Ryley's own summary is \"our cycle is way too quick for him to really do anything about us.\" He positions it as an anti-meta pick against Lava Hound / Rune Giant beatdown and other cycle decks that \"have a really, really difficult time dealing with the X-Bow.\""
+    }
+  }
+}
