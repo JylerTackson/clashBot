@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Bowler/Hero"
 image_path: heroes/images/bowler-hero.png
-scraped_at: "2026-09-02T02:35:39+00:00"
+scraped_at: "2026-09-02T02:47:16+00:00"
 release_date: ""
 ---
 
@@ -29,7 +29,7 @@ The Heroic Bowler is a **Epic** card that is unlocked by using 200 Hero Coins on
 
 ## Ability: Stone Swish
 
-*Plants his feet and throws boulders with increased range.* (costs 2 Elixir; 5 + 2 = 7 total)
+*Plants his feet and throws boulders with increased range.* (costs 2 Elixir; 5 + 2 = 7 total).
 
 ### Ability: Stone Swish
 
@@ -92,4 +92,4 @@ The Hero Bowler has a special ability accessible from whatever side of the scree
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Bowler/Hero (scraped 2026-09-02T02:35:39+00:00)
+- https://clashroyale.fandom.com/wiki/Bowler/Hero (scraped 2026-09-02T02:47:16+00:00)

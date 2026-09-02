@@ -13,7 +13,7 @@ card_type: Building
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Tombstone/Hero"
 image_path: heroes/images/tombstone-hero.png
-scraped_at: "2026-09-02T02:35:39+00:00"
+scraped_at: "2026-09-02T02:47:16+00:00"
 release_date: 1 June 2026
 ---
 
@@ -27,7 +27,7 @@ Not specified on source page
 
 ## Ability: Regal Revive
 
-*Tomb Queen rises from the earth, targeting buildings.* (costs 5 Elixir; 3 + 5 = 8 total)
+*Tomb Queen rises from the earth, targeting buildings.* (costs 5 Elixir; 3 + 5 = 8 total).
 
 ## Attributes
 
@@ -81,4 +81,4 @@ Not specified on source page
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Tombstone/Hero (scraped 2026-09-02T02:35:39+00:00)
+- https://clashroyale.fandom.com/wiki/Tombstone/Hero (scraped 2026-09-02T02:47:16+00:00)

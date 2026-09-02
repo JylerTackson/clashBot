@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground_and_air
 source_url: "https://clashroyale.fandom.com/wiki/Magic_Archer/Hero"
 image_path: heroes/images/magic-archer-hero.png
-scraped_at: "2026-09-02T02:35:38+00:00"
+scraped_at: "2026-09-02T02:47:16+00:00"
 release_date: ""
 ---
 
@@ -29,7 +29,7 @@ The Heroic Magic Archer is a Common card that is unlocked with 200 Hero Shards. 
 
 ## Ability: Triple Threat
 
-*Summons a decoy while darting back and fires a triple shot on his next attack.* (costs 2 Elixir; 4 + 2 = 6 total)
+*Summons a decoy while darting back and fires a triple shot on his next attack.* (costs 2 Elixir; 4 + 2 = 6 total).
 
 ### Ability: Triple Threat
 
@@ -90,4 +90,4 @@ The Hero Magic Archer has a special ability accessible from whatever side of the
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Magic_Archer/Hero (scraped 2026-09-02T02:35:38+00:00)
+- https://clashroyale.fandom.com/wiki/Magic_Archer/Hero (scraped 2026-09-02T02:47:16+00:00)

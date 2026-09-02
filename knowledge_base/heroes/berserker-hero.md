@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Berserker/Hero"
 image_path: heroes/images/berserker-hero.png
-scraped_at: "2026-09-02T02:45:45+00:00"
+scraped_at: "2026-09-02T02:47:16+00:00"
 release_date: 4 August 2026
 ---
 
@@ -27,7 +27,7 @@ The Berserker goes berserk
 
 ## Ability: Savage Survival
 
-*A Bear spirit emerges through her, making her attacks go rapid and preventing her health from going below 1 HP while dealing reduced damage to Crown Towers.* (costs 3 Elixir; 2 + 3 = 5 total)
+*A Bear spirit emerges through her, making her attacks go rapid and preventing her health from going below 1 HP while dealing reduced damage to Crown Towers.* (costs 3 Elixir; 2 + 3 = 5 total).
 
 ## Attributes
 
@@ -85,4 +85,4 @@ Not specified on source page
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Berserker/Hero (scraped 2026-09-02T02:45:45+00:00)
+- https://clashroyale.fandom.com/wiki/Berserker/Hero (scraped 2026-09-02T02:47:16+00:00)

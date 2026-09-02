@@ -207,7 +207,7 @@ def main() -> int:
     report.append("")
     for kind in ("card", "evolution", "hero"):
         d = by_kind[(kind, "done")]; p = by_kind[(kind, "pending")]; f = by_kind[(kind, "failed")]
-        report.append(f"- {kind}s: {d} done, {p} pending, {f} failed")
+        report.append(f"- {'heroes' if kind == 'hero' else kind + 's'}: {d} done, {p} pending, {f} failed")
     report.append("")
     report.append("## Checks")
     report.append("")
@@ -224,6 +224,21 @@ def main() -> int:
     else:
         for s, p in sorted(problems.items()):
             report.append(f"- `{s}`: " + "; ".join(p))
+    # sections the wiki did not cover (explicit sentinel, not an error)
+    sentinel = "Not specified on source page"
+    gaps = []
+    for d in (CARDS_DIR, EVO_DIR, HERO_DIR):
+        for path in sorted(d.glob("*.md")):
+            text = path.read_text()
+            secs = [m.group(1) for m in re.finditer(r"^## ([^\n]+)\n+" + re.escape(sentinel), text, flags=re.M)]
+            if secs:
+                gaps.append(f"- `{d.name}/{path.name}`: " + ", ".join(secs))
+    report.append("")
+    report.append(f"## Sections marked \"{sentinel}\" ({len(gaps)} files)")
+    report.append("")
+    report.append("These are expected outcomes (the wiki page has no such content), listed so they are visible.")
+    report.append("")
+    report.extend(gaps or ["None."])
     (META_DIR / "qa_report.md").write_text("\n".join(report) + "\n")
     print("\n".join(report))
 

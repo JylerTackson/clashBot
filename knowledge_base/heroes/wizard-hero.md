@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground_and_air
 source_url: "https://clashroyale.fandom.com/wiki/Wizard/Hero"
 image_path: heroes/images/wizard-hero.png
-scraped_at: "2026-09-02T02:46:38+00:00"
+scraped_at: "2026-09-02T02:48:37+00:00"
 release_date: 5 January 2026
 ---
 
@@ -99,4 +99,4 @@ The Hero Wizard has a special ability accessible from whatever side of the scree
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Wizard/Hero (scraped 2026-09-02T02:46:38+00:00)
+- https://clashroyale.fandom.com/wiki/Wizard/Hero (scraped 2026-09-02T02:48:37+00:00)

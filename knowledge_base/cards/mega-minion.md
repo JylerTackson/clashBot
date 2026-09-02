@@ -65,15 +65,39 @@ Not specified on source page
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Area damage troops that Minions lose to: Witch, Wizard, Baby Dragon, Skeleton Dragons, Magic Archer, Princess, Firecracker, Ice Wizard and Executioner — its hitpoints let it survive their splash.
+- Ranged air-targeting troops (Musketeer, Electro Dragon, Mother Witch, Flying Machine, Archer Queen, Electro Wizard) when placed directly on top of them to negate their range.
+- Balloon — cheap, survives Zap through Poison, and kills it quickly; place it on the Balloon's path.
+- Lava Hound — high damage kills the Hound quickly and one-shots each Lava Pup.
+- Ground-based pushes generally — high damage plus spell resistance make it a strong defensive answer.
+- Princess at or walking toward the bridge — a neutral Elixir trade, and better than other cheap answers thanks to its higher hitpoints.
+- Little Prince and Guardienne, when combined with Skeletons and timed well, for a +2 Elixir trade; the same duo handles most ground troops.
+- Minion Horde, partially — placed in the center it pulls them off course and kills 2 or 3 while the Crown Tower fires.
+- Musketeer or Wizard threatening a Double Dragon push, which Baby Dragon and Inferno Dragon cannot handle.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Swarms — its slow hit speed means it cannot deal with them effectively.
+- Cheap air-targeting troops: Archers, Dart Goblin, Firecracker and Spear Goblins, placed far enough away that none get one-shot.
+- Inferno Dragon — the ramp-up damage beats its relatively low health.
+- Any distraction at all, even Skeletons or Bats, or a spawner building, holds it long enough for a tower troop to finish it.
+- Dagger Duchess tower troop — kills it fast enough that it lands no Crown Tower damage, making her a good pick against Mega Minion decks.
+- Zap or Giant Snowball plus a Crown Tower — a positive Elixir trade once it commits to the Tower.
+- Void — the only spell that reliably answers it, destroying it in 2 hits for a neutral trade (deploying any troop inside the Void's radius saves it).
+- Alone on offense it is vulnerable, unlike Mini P.E.K.K.A, Lumberjack or Prince.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Role: primarily a defensive card that doubles as offensive support, clearing low- to medium-hitpoint units and chipping everything else.
+- Its headline trait is spell resistance — unlike Minions and Minion Horde, no lone Fireball removes it, which raises its defensive value a lot.
+- It is slower than Minions, so account for the travel time when supporting a push.
+- Against ranged air-targeting defenders, place it on top of them so it keeps its hitpoints for a follow-up counterattack behind a tank.
+- If ignored it reaches the Crown Tower and lands one hit against a Tower Princess or Cannoneer for fair chip damage.
+- Excellent with Lava Hound: it kills the moderate-health defenders while the Hound tanks, and after the Hound pops its own hitpoints soak Crown Tower fire while the Lava Pups do damage.
+- Fits the Double Dragon strategy, covering the Baby Dragon and Inferno Dragon's inability to handle a Musketeer or Wizard.
+- Pairs with Miner: defend with the Mega Minion first, then send the Miner to distract the Crown Tower — place the Miner further back so defenders do not intercept the slower Mega Minion.
+- Against a Minion Horde, expect to still take some damage; splash troops or spells are the cleaner answer.
+- Phoenix is a substitute with more hitpoints, faster attacks, death damage, a respawn and Monk-ability resistance, while the Mega Minion is 1 Elixir cheaper with significantly higher damage.
 
 ## Hero variant
 

@@ -13,7 +13,7 @@ card_type: Troop
 targets: buildings
 source_url: "https://clashroyale.fandom.com/wiki/Giant/Hero"
 image_path: heroes/images/giant-hero.png
-scraped_at: "2026-09-02T02:35:36+00:00"
+scraped_at: "2026-09-02T02:47:14+00:00"
 release_date: December 1 2025
 ---
 
@@ -29,7 +29,7 @@ The Hero Giant is a Rare card that is unlocked with 200 hero fragments. It spawn
 
 ## Ability: Heroic Hurl
 
-*Throws the highest-hitpoint enemy troop in reach across the Arena.* (costs 2 Elixir; 5 + 2 = 7 total)
+*Throws the highest-hitpoint enemy troop in reach across the Arena.* (costs 2 Elixir; 5 + 2 = 7 total).
 
 ### Ability: Heroic Hurl
 
@@ -99,4 +99,4 @@ The Hero Giant has a special ability accessible from whatever side of the screen
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Giant/Hero (scraped 2026-09-02T02:35:36+00:00)
+- https://clashroyale.fandom.com/wiki/Giant/Hero (scraped 2026-09-02T02:47:14+00:00)

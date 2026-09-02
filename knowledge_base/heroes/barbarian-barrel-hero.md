@@ -13,7 +13,7 @@ card_type: Spell
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero"
 image_path: heroes/images/barbarian-barrel-hero.png
-scraped_at: "2026-09-02T02:45:45+00:00"
+scraped_at: "2026-09-02T02:47:16+00:00"
 release_date: 2 March 2026
 ---
 
@@ -29,7 +29,7 @@ The Heroic Barbarian is a Epic card that is unlocked with 200 Hero Shards. It is
 
 ## Ability: Rowdy Reroll
 
-*Barrels down the lane a second time for maximum impact.* (costs 1 Elixir; 2 + 1 = 3 total)
+*Barrels down the lane a second time for maximum impact.* (costs 1 Elixir; 2 + 1 = 3 total).
 
 ### Ability: Rowdy Reroll
 
@@ -92,4 +92,4 @@ Not specified on source page
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero (scraped 2026-09-02T02:45:45+00:00)
+- https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero (scraped 2026-09-02T02:47:16+00:00)

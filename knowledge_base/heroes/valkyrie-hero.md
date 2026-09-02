@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Valkyrie/Hero"
 image_path: heroes/images/valkyrie-hero.png
-scraped_at: "2026-09-02T02:35:40+00:00"
+scraped_at: "2026-09-02T02:48:37+00:00"
 release_date: August 3 2026
 ---
 
@@ -29,76 +29,9 @@ The Heroic Valkyrie is a Rare card that is unlocked with 200 hero fragments.
 
 - m.
 
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |First Hit Speed
-Damage Speed
-! scope="col" |Speed
-Speed
-! scope="col" |Deploy Time
-Deploy Time
-! scope="col" |Range
-Range
-! scope="col" |Splash Radius
-Radius
-! scope="col" |Target
-Targets
-! scope="col" |Count
-Troop Count
-! scope="col" |Transport
-Transport
-! scope="col" |Type
-Type
-! scope="col" |Rarity
-Rarity
-|-
-|4
-|1.5 sec
-|0.1 sec
-|Medium (60)
-|1 sec
-|Melee: Medium (1.2)
-|2
-|Ground
-|x1
-|Ground
-|Troop
-|Rare
-|}
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |Crown Tower Damage
-Tower Damage
-! scope="col" |Speed
-Speed
-! scope="col" |Duration
-Time
-! scope="col" |Radius
-Radius
-!Damage reduction
-Shield Hitpoints
-!Dash Distance
-Dash Range
-|-
-|3
-|0.25 sec
-| -50%
-|Medium (60)
-|3.5 sec
-|2.5
-|15%
-|5.5
-|}<!--this will not be shown
-
 ## Ability: Wild Whirlwind
 
-*Spins rapidly, dealing damage and increasing her movement speed while taking less damage.* (costs 3 Elixir; 4 + 3 = 7 total)
+*Spins rapidly, dealing damage and increasing her movement speed while taking less damage.* (costs 3 Elixir; 4 + 3 = 7 total).
 
 ## Attributes
 
@@ -159,4 +92,4 @@ Dash Range
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Valkyrie/Hero (scraped 2026-09-02T02:35:40+00:00)
+- https://clashroyale.fandom.com/wiki/Valkyrie/Hero (scraped 2026-09-02T02:48:37+00:00)

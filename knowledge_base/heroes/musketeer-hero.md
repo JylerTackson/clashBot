@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground_and_air
 source_url: "https://clashroyale.fandom.com/wiki/Musketeer/Hero"
 image_path: heroes/images/musketeer-hero.png
-scraped_at: "2026-09-02T02:35:36+00:00"
+scraped_at: "2026-09-02T02:47:14+00:00"
 release_date: December 1 2025
 ---
 
@@ -29,7 +29,7 @@ The Musketeer is a Rare card that is unlocked in the Training Camp. It spawns on
 
 ## Ability: Trusty Turret
 
-*Spawns a short-range, rapid-firing auto-turret that deals landing damage in front of the Musketeer.* (costs 3 Elixir; 4 + 3 = 7 total)
+*Spawns a short-range, rapid-firing auto-turret that deals landing damage in front of the Musketeer.* (costs 3 Elixir; 4 + 3 = 7 total).
 
 ### Ability: Trusty Turret
 
@@ -94,4 +94,4 @@ The Hero Musketeer has a special ability accessible from whatever side of the sc
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Musketeer/Hero (scraped 2026-09-02T02:35:36+00:00)
+- https://clashroyale.fandom.com/wiki/Musketeer/Hero (scraped 2026-09-02T02:47:14+00:00)

@@ -13,7 +13,7 @@ card_type: Troop
 targets: buildings
 source_url: "https://clashroyale.fandom.com/wiki/Balloon/Hero"
 image_path: heroes/images/balloon-hero.png
-scraped_at: "2026-09-02T02:35:38+00:00"
+scraped_at: "2026-09-02T02:47:16+00:00"
 release_date: ""
 ---
 
@@ -29,7 +29,7 @@ The Heroic Balloon is a Epic card that is unlocked with 200 Hero Shards. It spaw
 
 ## Ability: Coffin Cadet
 
-*A Skeletrooper soars to the nearest enemy on the ground, dealing landing damage.* (costs 2 Elixir; 5 + 2 = 7 total)
+*A Skeletrooper soars to the nearest enemy on the ground, dealing landing damage.* (costs 2 Elixir; 5 + 2 = 7 total).
 
 ### Ability: Coffin Cadets
 
@@ -99,4 +99,4 @@ The Hero Knight has a special ability accessible from whatever side of the scree
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Balloon/Hero (scraped 2026-09-02T02:35:38+00:00)
+- https://clashroyale.fandom.com/wiki/Balloon/Hero (scraped 2026-09-02T02:47:16+00:00)

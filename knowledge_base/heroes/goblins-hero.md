@@ -1,5 +1,5 @@
 ---
-name: Goblins/Hero
+name: Heroic Goblins
 slug: goblins-hero
 base_card: Goblins
 base_card_slug: goblins
@@ -13,11 +13,11 @@ card_type: Troop
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Goblins/Hero"
 image_path: heroes/images/goblins-hero.png
-scraped_at: "2026-09-02T02:33:02+00:00"
+scraped_at: "2026-09-02T02:47:16+00:00"
 release_date: ""
 ---
 
-# Goblins/Hero
+# Heroic Goblins
 
 > *In-game description:* "A single gobble of Goblins is never enough! Hero Goblins are far too clever to go into battle without backup, so the final one to fall drops an unassuming banner that signals the second wave."
 
@@ -29,232 +29,12 @@ The Heroic Knight is a Common card that is unlocked with 200 Hero Shards. It spa
 
 ## Ability: Banner Brigade
 
-*The last Goblin standing drops a banner that calls in reinforcements.* (costs 1 Elixir; 2 + 1 = 3 total)
+*The last Goblin standing drops a banner that calls in reinforcements.* (costs 1 Elixir; 2 + 1 = 3 total).
 
-### **Ability: Banner Brigade**
+### Ability: Banner Brigade
 
 > "The last Goblin standing drops a banner that calls in reinforcements."
 The Hero Knight has a special ability accessible from whatever side of the screen was put in, just above the player's card slots in battle. The ability will be disabeld until the last goblin is killed. When the last goblin dies, a banner will be deployed that last 5sec. When the ability is pressed during that time, 2 Brigade Goblins will spawn a little behind. Brigade Goblins has the exact stats as the original goblins. The Banner Brigade ability costs 1 Elixir to activate.
-
-### **Strategy**
-
-- The ability can make it more difficult to spell them out, since they just can spawn again.
-- If the banner is at the tower, it can act like a mini Goblin Barrel. Getting good damage for just 1 elixir.
-- Dont press the ability, if the goblins will just die anyway.
-
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |First Hit Speed
-Damage Speed
-! scope="col" |Speed
-Speed
-! scope="col" |Deploy Time
-Deploy Time
-! scope="col" |Range
-Range
-! scope="col" |Target
-Targets
-! scope="col" |Count
-Troop Count
-! scope="col" |Transport
-Transport
-! scope="col" |Type
-Type
-! scope="col" |Rarity
-Rarity
-|-
-|2
-|1.1 sec
-|0.6 sec
-|Very Fast (120)
-|1 sec
-|Melee: Short (0.5)
-|Ground
-|x4
-|Ground
-|Troop
-|Common
-|}
-
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Cost
-Elixir
-! scope="col" |Hit Speed
-Damage Speed
-! scope="col" |First Hit Speed
-Damage Speed
-! scope="col" |Speed
-Speed
-! scope="col" |Deploy Time
-Deploy Time
-! scope="col" |Range
-Range
-! scope="col" |Target
-Targets
-! scope="col" |Brigade Count
-Troop Count
-! scope="col" |Banner Lifetime
-Time
-|-
-|1
-|1.1 sec
-|0.6 sec
-|Very Fast (120)
-|1 sec
-|Melee: Short (0.5)
-|Ground
-|x2
-|5 sec
-|}
-202 125 1.1
-{| class="wikitable" id="unit-attributes-table" style="width:100%; text-align:center;"
-! scope="col" |Level
-Level
-! scope="col" |Hitpoints
-Hitpoint
-! scope="col" |Damage
-Damage
-! scope="col" |Damage Per Second
-DPS
-!Brigade Hitpoints
-Hitpoint
-!Brigade Damage
-Damage
-!Brigade Damage Per Second
-DPS
-|-
-|1
-|
-|
-|/s
-|
-|
-|/s
-|-
-|2
-|
-|
-|/s
-|
-|
-|/s
-|-
-|3
-|
-|
-|/s
-|
-|
-|/s
-|-
-|4
-|
-|
-|/s
-|
-|
-|/s
-|-
-|5
-|
-|
-|/s
-|
-|
-|/s
-|-
-|6
-|
-|
-|/s
-|
-|
-|/s
-|-
-|7
-|
-|
-|/s
-|
-|
-|/s
-|-
-|8
-|
-|
-|/s
-|
-|
-|/s
-|-
-|9
-|
-|
-|/s
-|
-|
-|/s
-|-
-|10
-|
-|
-|/s
-|
-|
-|/s
-|-
-|11
-|
-|
-|/s
-|
-|
-|/s
-|-
-|12
-|
-|
-|/s
-|
-|
-|/s
-|-
-|13
-|
-|
-|/s
-|
-|
-|/s
-|-
-|14
-|
-|
-|/s
-|
-|
-|/s
-|-
-|15
-|
-|
-|/s
-|
-|
-|/s
-|-
-|16
-|
-|
-|/s
-|
-|
-|/s
-|}
-There will be rounding mistakes, as we have stats from level 11
 
 ## Attributes
 
@@ -272,7 +52,7 @@ There will be rounding mistakes, as we have stats from level 11
 
 ## Stats by level
 
-**Banner Brigade Attributes**
+**Card Statistics (per level)**
 
 | Level | Hitpoints | Damage | Damage Per Second | Brigade Hitpoints | Brigade Damage | Brigade Damage Per Second |
 |---|---|---|---|---|---|---|
@@ -312,4 +92,4 @@ Not specified on source page
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Goblins/Hero (scraped 2026-09-02T02:33:02+00:00)
+- https://clashroyale.fandom.com/wiki/Goblins/Hero (scraped 2026-09-02T02:47:16+00:00)

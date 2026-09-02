@@ -1,208 +1,106 @@
 # QA report
 
-Generated 2026-09-02T02:36:05+00:00
+Generated 2026-09-02T02:48:56+00:00
 
 ## Summary
 
-- cards: 0 done, 126 pending, 0 failed
-- evolutions: 0 done, 42 pending, 0 failed
-- heros: 0 done, 16 pending, 0 failed
+- cards: 126 done, 0 pending, 0 failed
+- evolutions: 42 done, 0 pending, 0 failed
+- heroes: 16 done, 0 pending, 0 failed
 
 ## Checks
 
 - PASS: Card file count: 126 files in cards/ vs 126 cards in card_index.md
 - PASS: Card frontmatter: 126/126 cards have all required fields non-empty
 - PASS: Card images: 126/126 image_path files exist, are PNG and > 1KB
+- PASS: Card prose: 126/126 cards have Strong/Weak/Notes sections filled
 - PASS: Evolutions: 42/42 cards with has_evolution:true have an evolutions/ file
+- PASS: Evolution files: 42/42 pass frontmatter/image/placeholder/link checks
 - PASS: Heroes: 16/16 heroes in the Heroes index have a heroes/ file
+- PASS: Hero files: 16/16 pass frontmatter/image/placeholder/link checks
 - PASS: Cross-links: every card<->evolution and card<->hero pair links both ways
-- FAIL: Card prose: 0/126 cards have Strong/Weak/Notes sections filled
-- FAIL: Evolution files: 0/42 pass frontmatter/image/placeholder/link checks
-- FAIL: Hero files: 0/16 pass frontmatter/image/placeholder/link checks
 
 ## Per-item problems
 
-- `archer-queen`: 3 agent placeholder(s) unfilled
-- `archers`: 3 agent placeholder(s) unfilled
-- `archers-evolution`: 2 agent placeholder(s) unfilled
-- `arrows`: 3 agent placeholder(s) unfilled
-- `baby-dragon`: 3 agent placeholder(s) unfilled
-- `baby-dragon-evolution`: 2 agent placeholder(s) unfilled
-- `balloon`: 3 agent placeholder(s) unfilled
-- `balloon-hero`: 3 agent placeholder(s) unfilled
-- `bandit`: 3 agent placeholder(s) unfilled
-- `barbarian-barrel`: 3 agent placeholder(s) unfilled
-- `barbarian-barrel-hero`: 3 agent placeholder(s) unfilled
-- `barbarian-hut`: 3 agent placeholder(s) unfilled
-- `barbarians`: 3 agent placeholder(s) unfilled
-- `barbarians-evolution`: 2 agent placeholder(s) unfilled
-- `bats`: 3 agent placeholder(s) unfilled
-- `bats-evolution`: 2 agent placeholder(s) unfilled
-- `battle-healer`: 3 agent placeholder(s) unfilled
-- `battle-ram`: 3 agent placeholder(s) unfilled
-- `battle-ram-evolution`: 2 agent placeholder(s) unfilled
-- `berserker`: 3 agent placeholder(s) unfilled
-- `berserker-hero`: 3 agent placeholder(s) unfilled
-- `bomb-tower`: 3 agent placeholder(s) unfilled
-- `bomber`: 3 agent placeholder(s) unfilled
-- `bomber-evolution`: 2 agent placeholder(s) unfilled
-- `boss-bandit`: 3 agent placeholder(s) unfilled
-- `bowler`: 3 agent placeholder(s) unfilled
-- `bowler-hero`: 3 agent placeholder(s) unfilled
-- `cannon`: 3 agent placeholder(s) unfilled
-- `cannon-cart`: 3 agent placeholder(s) unfilled
-- `cannon-evolution`: 2 agent placeholder(s) unfilled
-- `cannoneer`: 3 agent placeholder(s) unfilled
-- `clone`: 3 agent placeholder(s) unfilled
-- `dagger-duchess`: 3 agent placeholder(s) unfilled
-- `dark-prince`: 3 agent placeholder(s) unfilled
-- `dark-prince-hero`: 3 agent placeholder(s) unfilled
-- `dart-goblin`: 3 agent placeholder(s) unfilled
-- `dart-goblin-evolution`: 2 agent placeholder(s) unfilled
-- `earthquake`: 3 agent placeholder(s) unfilled
-- `electro-dragon`: 3 agent placeholder(s) unfilled
-- `electro-dragon-evolution`: 2 agent placeholder(s) unfilled
-- `electro-giant`: 3 agent placeholder(s) unfilled
-- `electro-spirit`: 3 agent placeholder(s) unfilled
-- `electro-wizard`: 3 agent placeholder(s) unfilled
-- `elite-barbarians`: 3 agent placeholder(s) unfilled
-- `elite-barbarians-evolution`: 2 agent placeholder(s) unfilled
-- `elixir-collector`: 3 agent placeholder(s) unfilled
-- `elixir-golem`: 3 agent placeholder(s) unfilled
-- `executioner`: 3 agent placeholder(s) unfilled
-- `executioner-evolution`: 2 agent placeholder(s) unfilled
-- `fire-spirit`: 3 agent placeholder(s) unfilled
-- `fireball`: 3 agent placeholder(s) unfilled
-- `firecracker`: 3 agent placeholder(s) unfilled
-- `firecracker-evolution`: 2 agent placeholder(s) unfilled
-- `fisherman`: 3 agent placeholder(s) unfilled
-- `flying-machine`: 3 agent placeholder(s) unfilled
-- `freeze`: 3 agent placeholder(s) unfilled
-- `furnace`: 3 agent placeholder(s) unfilled
-- `furnace-evolution`: 2 agent placeholder(s) unfilled
-- `giant`: 3 agent placeholder(s) unfilled
-- `giant-hero`: 3 agent placeholder(s) unfilled
-- `giant-skeleton`: 3 agent placeholder(s) unfilled
-- `giant-snowball`: 3 agent placeholder(s) unfilled
-- `giant-snowball-evolution`: 2 agent placeholder(s) unfilled
-- `goblin-barrel`: 3 agent placeholder(s) unfilled
-- `goblin-barrel-evolution`: 2 agent placeholder(s) unfilled
-- `goblin-cage`: 3 agent placeholder(s) unfilled
-- `goblin-cage-evolution`: 2 agent placeholder(s) unfilled
-- `goblin-curse`: 3 agent placeholder(s) unfilled
-- `goblin-demolisher`: 3 agent placeholder(s) unfilled
-- `goblin-drill`: 3 agent placeholder(s) unfilled
-- `goblin-drill-evolution`: 2 agent placeholder(s) unfilled
-- `goblin-gang`: 3 agent placeholder(s) unfilled
-- `goblin-giant`: 3 agent placeholder(s) unfilled
-- `goblin-giant-evolution`: 2 agent placeholder(s) unfilled
-- `goblin-hut`: 3 agent placeholder(s) unfilled
-- `goblin-machine`: 3 agent placeholder(s) unfilled
-- `goblins`: 3 agent placeholder(s) unfilled
-- `goblins-hero`: 3 agent placeholder(s) unfilled
-- `goblinstein`: 3 agent placeholder(s) unfilled
-- `golden-knight`: 3 agent placeholder(s) unfilled
-- `golem`: 3 agent placeholder(s) unfilled
-- `graveyard`: 3 agent placeholder(s) unfilled
-- `guards`: 3 agent placeholder(s) unfilled
-- `heal-spirit`: 3 agent placeholder(s) unfilled
-- `hog-rider`: 3 agent placeholder(s) unfilled
-- `hunter`: 3 agent placeholder(s) unfilled
-- `hunter-evolution`: 2 agent placeholder(s) unfilled
-- `ice-golem`: 3 agent placeholder(s) unfilled
-- `ice-golem-hero`: 3 agent placeholder(s) unfilled
-- `ice-spirit`: 3 agent placeholder(s) unfilled
-- `ice-spirit-evolution`: 2 agent placeholder(s) unfilled
-- `ice-wizard`: 3 agent placeholder(s) unfilled
-- `inferno-dragon`: 3 agent placeholder(s) unfilled
-- `inferno-dragon-evolution`: 2 agent placeholder(s) unfilled
-- `inferno-tower`: 3 agent placeholder(s) unfilled
-- `knight`: 3 agent placeholder(s) unfilled
-- `knight-evolution`: 2 agent placeholder(s) unfilled
-- `knight-hero`: 3 agent placeholder(s) unfilled
-- `lava-hound`: 3 agent placeholder(s) unfilled
-- `lightning`: 3 agent placeholder(s) unfilled
-- `little-prince`: 3 agent placeholder(s) unfilled
-- `lumberjack`: 3 agent placeholder(s) unfilled
-- `lumberjack-evolution`: 2 agent placeholder(s) unfilled
-- `magic-archer`: 3 agent placeholder(s) unfilled
-- `magic-archer-hero`: 3 agent placeholder(s) unfilled
-- `mega-knight`: 3 agent placeholder(s) unfilled
-- `mega-knight-evolution`: 2 agent placeholder(s) unfilled
-- `mega-minion`: 3 agent placeholder(s) unfilled
-- `mega-minion-hero`: 3 agent placeholder(s) unfilled
-- `mighty-miner`: 3 agent placeholder(s) unfilled
-- `miner`: 3 agent placeholder(s) unfilled
-- `mini-p-e-k-k-a`: 3 agent placeholder(s) unfilled
-- `mini-p-e-k-k-a-hero`: 3 agent placeholder(s) unfilled
-- `minion-horde`: 3 agent placeholder(s) unfilled
-- `minion-horde-evolution`: 2 agent placeholder(s) unfilled
-- `minions`: 3 agent placeholder(s) unfilled
-- `mirror`: 3 agent placeholder(s) unfilled
-- `monk`: 3 agent placeholder(s) unfilled
-- `mortar`: 3 agent placeholder(s) unfilled
-- `mortar-evolution`: 2 agent placeholder(s) unfilled
-- `mother-witch`: 3 agent placeholder(s) unfilled
-- `musketeer`: 3 agent placeholder(s) unfilled
-- `musketeer-evolution`: 2 agent placeholder(s) unfilled
-- `musketeer-hero`: 3 agent placeholder(s) unfilled
-- `night-witch`: 3 agent placeholder(s) unfilled
-- `p-e-k-k-a`: 3 agent placeholder(s) unfilled
-- `p-e-k-k-a-evolution`: 2 agent placeholder(s) unfilled
-- `phoenix`: 3 agent placeholder(s) unfilled
-- `poison`: 3 agent placeholder(s) unfilled
-- `prince`: 3 agent placeholder(s) unfilled
-- `princess`: 3 agent placeholder(s) unfilled
-- `princess-evolution`: 2 agent placeholder(s) unfilled
-- `rage`: 3 agent placeholder(s) unfilled
-- `ram-rider`: 3 agent placeholder(s) unfilled
-- `rascals`: 3 agent placeholder(s) unfilled
-- `rocket`: 3 agent placeholder(s) unfilled
-- `ronin`: 3 agent placeholder(s) unfilled
-- `royal-chef`: 3 agent placeholder(s) unfilled
-- `royal-delivery`: 3 agent placeholder(s) unfilled
-- `royal-ghost`: 3 agent placeholder(s) unfilled
-- `royal-ghost-evolution`: 2 agent placeholder(s) unfilled
-- `royal-giant`: 3 agent placeholder(s) unfilled
-- `royal-giant-evolution`: 2 agent placeholder(s) unfilled
-- `royal-hogs`: 3 agent placeholder(s) unfilled
-- `royal-hogs-evolution`: 2 agent placeholder(s) unfilled
-- `royal-recruits`: 3 agent placeholder(s) unfilled
-- `royal-recruits-evolution`: 2 agent placeholder(s) unfilled
-- `rune-giant`: 3 agent placeholder(s) unfilled
-- `skeleton-army`: 3 agent placeholder(s) unfilled
-- `skeleton-army-evolution`: 2 agent placeholder(s) unfilled
-- `skeleton-barrel`: 3 agent placeholder(s) unfilled
-- `skeleton-barrel-evolution`: 2 agent placeholder(s) unfilled
-- `skeleton-dragons`: 3 agent placeholder(s) unfilled
-- `skeleton-king`: 3 agent placeholder(s) unfilled
-- `skeletons`: 3 agent placeholder(s) unfilled
-- `skeletons-evolution`: 2 agent placeholder(s) unfilled
-- `sparky`: 3 agent placeholder(s) unfilled
-- `spear-goblins`: 3 agent placeholder(s) unfilled
-- `spirit-empress`: 3 agent placeholder(s) unfilled
-- `suspicious-bush`: 3 agent placeholder(s) unfilled
-- `tesla`: 3 agent placeholder(s) unfilled
-- `tesla-evolution`: 2 agent placeholder(s) unfilled
-- `the-log`: 3 agent placeholder(s) unfilled
-- `three-musketeers`: 3 agent placeholder(s) unfilled
-- `tombstone`: 3 agent placeholder(s) unfilled
-- `tombstone-hero`: 3 agent placeholder(s) unfilled
-- `tornado`: 3 agent placeholder(s) unfilled
-- `tower-princess`: 3 agent placeholder(s) unfilled
-- `valkyrie`: 3 agent placeholder(s) unfilled
-- `valkyrie-evolution`: 2 agent placeholder(s) unfilled
-- `valkyrie-hero`: 3 agent placeholder(s) unfilled
-- `vines`: 3 agent placeholder(s) unfilled
-- `void`: 3 agent placeholder(s) unfilled
-- `wall-breakers`: 3 agent placeholder(s) unfilled
-- `wall-breakers-evolution`: 2 agent placeholder(s) unfilled
-- `witch`: 3 agent placeholder(s) unfilled
-- `witch-evolution`: 2 agent placeholder(s) unfilled
-- `wizard`: 3 agent placeholder(s) unfilled
-- `wizard-evolution`: 2 agent placeholder(s) unfilled
-- `wizard-hero`: 3 agent placeholder(s) unfilled
-- `x-bow`: 3 agent placeholder(s) unfilled
-- `zap`: 3 agent placeholder(s) unfilled
-- `zap-evolution`: 2 agent placeholder(s) unfilled
-- `zappies`: 3 agent placeholder(s) unfilled
+None.
+
+## Sections marked "Not specified on source page" (76 files)
+
+These are expected outcomes (the wiki page has no such content), listed so they are visible.
+
+- `cards/archers.md`: Abilities and special mechanics
+- `cards/arrows.md`: Abilities and special mechanics
+- `cards/balloon.md`: Abilities and special mechanics
+- `cards/bandit.md`: Abilities and special mechanics
+- `cards/barbarian-barrel.md`: Abilities and special mechanics
+- `cards/barbarians.md`: Abilities and special mechanics
+- `cards/bats.md`: Abilities and special mechanics
+- `cards/battle-healer.md`: Abilities and special mechanics
+- `cards/battle-ram.md`: Abilities and special mechanics
+- `cards/bomb-tower.md`: Abilities and special mechanics
+- `cards/bomber.md`: Abilities and special mechanics
+- `cards/bowler.md`: Abilities and special mechanics
+- `cards/cannon-cart.md`: Abilities and special mechanics
+- `cards/cannon.md`: Abilities and special mechanics
+- `cards/cannoneer.md`: Abilities and special mechanics
+- `cards/clone.md`: Abilities and special mechanics
+- `cards/dagger-duchess.md`: Abilities and special mechanics
+- `cards/dark-prince.md`: Abilities and special mechanics
+- `cards/earthquake.md`: Abilities and special mechanics
+- `cards/electro-dragon.md`: Abilities and special mechanics
+- `cards/electro-giant.md`: Abilities and special mechanics
+- `cards/elite-barbarians.md`: Abilities and special mechanics
+- `cards/elixir-collector.md`: Abilities and special mechanics
+- `cards/fire-spirit.md`: Abilities and special mechanics
+- `cards/firecracker.md`: Abilities and special mechanics
+- `cards/freeze.md`: Abilities and special mechanics
+- `cards/giant-skeleton.md`: Abilities and special mechanics
+- `cards/goblin-cage.md`: Abilities and special mechanics
+- `cards/goblin-curse.md`: Abilities and special mechanics
+- `cards/goblin-gang.md`: Abilities and special mechanics
+- `cards/goblin-machine.md`: Abilities and special mechanics
+- `cards/goblins.md`: Abilities and special mechanics
+- `cards/guards.md`: Abilities and special mechanics
+- `cards/heal-spirit.md`: Abilities and special mechanics
+- `cards/hog-rider.md`: Abilities and special mechanics
+- `cards/ice-golem.md`: Abilities and special mechanics
+- `cards/inferno-dragon.md`: Abilities and special mechanics
+- `cards/lightning.md`: Attributes, Abilities and special mechanics
+- `cards/lumberjack.md`: Abilities and special mechanics
+- `cards/magic-archer.md`: Abilities and special mechanics
+- `cards/mega-minion.md`: Abilities and special mechanics
+- `cards/miner.md`: Abilities and special mechanics
+- `cards/mini-p-e-k-k-a.md`: Abilities and special mechanics
+- `cards/minion-horde.md`: Abilities and special mechanics
+- `cards/minions.md`: Abilities and special mechanics
+- `cards/mirror.md`: Abilities and special mechanics
+- `cards/phoenix.md`: Abilities and special mechanics
+- `cards/poison.md`: Attributes
+- `cards/prince.md`: Abilities and special mechanics
+- `cards/ronin.md`: Abilities and special mechanics
+- `cards/royal-chef.md`: Abilities and special mechanics
+- `cards/royal-ghost.md`: Abilities and special mechanics
+- `cards/royal-hogs.md`: Abilities and special mechanics
+- `cards/royal-recruits.md`: Abilities and special mechanics
+- `cards/rune-giant.md`: Weak against
+- `cards/skeleton-army.md`: Abilities and special mechanics
+- `cards/skeleton-barrel.md`: Abilities and special mechanics
+- `cards/skeleton-dragons.md`: Abilities and special mechanics
+- `cards/skeletons.md`: Abilities and special mechanics
+- `cards/sparky.md`: Abilities and special mechanics
+- `cards/spear-goblins.md`: Abilities and special mechanics
+- `cards/spirit-empress.md`: Abilities and special mechanics
+- `cards/tesla.md`: Abilities and special mechanics
+- `cards/tornado.md`: Abilities and special mechanics
+- `cards/tower-princess.md`: Abilities and special mechanics
+- `cards/valkyrie.md`: Abilities and special mechanics
+- `cards/void.md`: Abilities and special mechanics
+- `cards/wall-breakers.md`: Abilities and special mechanics
+- `cards/zap.md`: Abilities and special mechanics
+- `evolutions/elite-barbarians-evolution.md`: Notes
+- `evolutions/minion-horde-evolution.md`: Overview, Notes
+- `heroes/barbarian-barrel-hero.md`: Weak against
+- `heroes/berserker-hero.md`: Strong against, Weak against
+- `heroes/goblins-hero.md`: Strong against, Weak against
+- `heroes/ice-golem-hero.md`: Weak against
+- `heroes/tombstone-hero.md`: Overview, Strong against, Weak against

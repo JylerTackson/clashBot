@@ -13,7 +13,7 @@ card_type: Troop
 targets: buildings
 source_url: "https://clashroyale.fandom.com/wiki/Ice_Golem/Hero"
 image_path: heroes/images/ice-golem-hero.png
-scraped_at: "2026-09-02T02:35:36+00:00"
+scraped_at: "2026-09-02T02:47:14+00:00"
 release_date: 5 January 2026
 ---
 
@@ -29,7 +29,7 @@ The Hero Ice Golem is a Rare card that is unlocked by unlocking 200 Hero Shards 
 
 ## Ability: Snowstorm
 
-*Conjures a blizzard that damages and slows nearby enemies.* (costs 2 Elixir; 2 + 2 = 4 total)
+*Conjures a blizzard that damages and slows nearby enemies.* (costs 2 Elixir; 2 + 2 = 4 total).
 
 ### Ability: Snowstorm
 
@@ -94,4 +94,4 @@ Not specified on source page
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Ice_Golem/Hero (scraped 2026-09-02T02:35:36+00:00)
+- https://clashroyale.fandom.com/wiki/Ice_Golem/Hero (scraped 2026-09-02T02:47:14+00:00)

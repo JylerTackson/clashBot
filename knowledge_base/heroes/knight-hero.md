@@ -1,5 +1,5 @@
 ---
-name: Knight/Hero
+name: Heroic Knight
 slug: knight-hero
 base_card: Knight
 base_card_slug: knight
@@ -13,11 +13,11 @@ card_type: Troop
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Knight/Hero"
 image_path: heroes/images/knight-hero.png
-scraped_at: "2026-09-02T02:33:02+00:00"
+scraped_at: "2026-09-02T02:47:14+00:00"
 release_date: December 1 2025
 ---
 
-# Knight/Hero
+# Heroic Knight
 
 > *In-game description:* "Imagine a mustache so magnificent it lures enemies to their doom! Hero Knight takes great care to wax his shield and mustache in equal measure, so as to always twist the tide of battle in his favor."
 
@@ -29,7 +29,7 @@ The Heroic Knight is a Common card that is unlocked with 200 Hero Shards. It spa
 
 ## Ability: Triumphant Taunt
 
-*Gains a shield and taunts nearby enemies, forcing them to attack him.* (costs 2 Elixir; 3 + 2 = 5 total)
+*Gains a shield and taunts nearby enemies, forcing them to attack him.* (costs 2 Elixir; 3 + 2 = 5 total).
 
 ### Ability: Triumphant Taunt
 
@@ -52,7 +52,7 @@ The Hero Knight has a special ability accessible from whatever side of the scree
 
 ## Stats by level
 
-**Triumphant Taunt Attributes**
+**Card Statistics (per level)**
 
 | Level | Hitpoints | Damage | Damage Per Second | Shield Hitpoints |
 |---|---|---|---|---|
@@ -101,4 +101,4 @@ The Hero Knight has a special ability accessible from whatever side of the scree
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Knight/Hero (scraped 2026-09-02T02:33:02+00:00)
+- https://clashroyale.fandom.com/wiki/Knight/Hero (scraped 2026-09-02T02:47:14+00:00)

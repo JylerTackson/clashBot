@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A./Hero"
 image_path: heroes/images/mini-p-e-k-k-a-hero.png
-scraped_at: "2026-09-02T02:35:36+00:00"
+scraped_at: "2026-09-02T02:47:14+00:00"
 release_date: December 1 2025
 ---
 
@@ -29,7 +29,7 @@ The Heroic Mini P.E.K.K.A. is a Rare card that is unlocked with 200 hero fragmen
 
 ## Ability: Breakfast Boost
 
-*Eats pancakes to level up. The longer you wait, the more pancakes he cooks!* (costs 1 Elixir; 4 + 1 = 5 total)
+*Eats pancakes to level up. The longer you wait, the more pancakes he cooks!* (costs 1 Elixir; 4 + 1 = 5 total).
 
 ### Ability: Breakfast Boost
 
@@ -108,4 +108,4 @@ Heroic Mini P.E.K.K.A. can constantly gain progress for his pancake meters. He w
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A./Hero (scraped 2026-09-02T02:35:36+00:00)
+- https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A./Hero (scraped 2026-09-02T02:47:14+00:00)

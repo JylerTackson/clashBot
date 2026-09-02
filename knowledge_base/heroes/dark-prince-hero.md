@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground
 source_url: "https://clashroyale.fandom.com/wiki/Dark_Prince/Hero"
 image_path: heroes/images/dark-prince-hero.png
-scraped_at: "2026-09-02T02:35:39+00:00"
+scraped_at: "2026-09-02T02:47:16+00:00"
 release_date: ""
 ---
 
@@ -29,7 +29,7 @@ The Heroic Dark Prince is an Epic card that is unlocked from the Royal Arena (Ar
 
 ## Ability: Destructive Dismount
 
-*Dismount doing damage, attacking on foot while Rhino charges buildings.* (costs 3 Elixir; 4 + 3 = 7 total)
+*Dismount doing damage, attacking on foot while Rhino charges buildings.* (costs 3 Elixir; 4 + 3 = 7 total).
 
 ### Ability: Destructive Dismount
 
@@ -102,4 +102,4 @@ The Hero Dark Prince has a special ability accessible from whatever side of the 
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Dark_Prince/Hero (scraped 2026-09-02T02:35:39+00:00)
+- https://clashroyale.fandom.com/wiki/Dark_Prince/Hero (scraped 2026-09-02T02:47:16+00:00)

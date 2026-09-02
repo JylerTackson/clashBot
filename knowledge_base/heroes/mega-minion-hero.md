@@ -13,7 +13,7 @@ card_type: Troop
 targets: ground_and_air
 source_url: "https://clashroyale.fandom.com/wiki/Mega_Minion/Hero"
 image_path: heroes/images/mega-minion-hero.png
-scraped_at: "2026-09-02T02:35:47+00:00"
+scraped_at: "2026-09-02T02:48:37+00:00"
 release_date: ""
 ---
 
@@ -29,7 +29,7 @@ The Heroic Mega Minion is a Rare card that is unlocked with 200 Hero Shards. It 
 
 ## Ability: Wounding Warp
 
-*Warps to the lowest-hitpoint enemy, dealing damage on arrival.* (costs 2 Elixir; 3 + 2 = 5 total)
+*Warps to the lowest-hitpoint enemy, dealing damage on arrival.* (costs 2 Elixir; 3 + 2 = 5 total).
 
 ### Ability: Wounding Warp
 
@@ -73,16 +73,23 @@ The Hero Mega Minion has a special ability accessible from whatever side of the 
 
 ## Strong against
 
-<!-- AGENT:FILL -->
+- Ranged support units far from him — Wizard and Musketeer are the named targets, sniped by warping straight onto them and killing them.
+- Low-hitpoint enemies generally, since the ability's marker always sits on the lowest-hitpoint target and the warp deals damage on arrival.
 
 ## Weak against
 
-<!-- AGENT:FILL -->
+- Swarms such as Skeletons — they take the marker's aggro so he cannot warp to the unit you actually want.
+- Anything that makes the 2 Elixir ability a waste, since a mistimed warp both loses the Elixir and cuts his Crown Tower damage.
 
 ## Notes / synergies
 
-<!-- AGENT:FILL -->
+- Count him as a 5 Elixir card when the ability is used: 3 for the deploy plus 2 for Wounding Warp.
+- On deployment a marker is placed on the lowest-hitpoint enemy; when that unit dies the marker moves to the next one.
+- Activating the ability teleports him to the marked tile at infinite range, dealing damage on arrival, after which he behaves normally.
+- The trade-off is permanent for that unit: after warping he does only 25% Crown Tower damage (-75%).
+- Base statline: 3 Elixir, 1.5 sec hit speed, Medium (60) speed, Melee: Long (1.6) range, Air transport, targets Air & Ground.
+- Use the ability deliberately — it is easy to waste 2 Elixir on it, and it lowers your overall Crown Tower damage.
 
 ## Source
 
-- https://clashroyale.fandom.com/wiki/Mega_Minion/Hero (scraped 2026-09-02T02:35:47+00:00)
+- https://clashroyale.fandom.com/wiki/Mega_Minion/Hero (scraped 2026-09-02T02:48:37+00:00)
