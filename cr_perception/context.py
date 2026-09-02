@@ -100,6 +100,16 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
     exempt = SPELL_CLASSES | {"miner", "goblin-drill", "graveyard", "goblin-barrel"}
     events = [e for e in events if not (e["player"] == "opponent" and e["detect_source"] == "arena" and e.get("card")
                                         and e.get("tile") and e["tile"][1] < 13 and e["card"] not in exempt)]
+    # a deploy label for a card Ryley has HUD-confirmed twice in this game is
+    # his play the hand reader missed, not the opponent's (mirror matches are
+    # rare; the level line, when both differ, already separates them)
+    hud_cards = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "hud")
+    for e in events:
+        if e["player"] == "opponent" and e["detect_source"] == "deploy_label" and hud_cards.get(e.get("card"), 0) >= 2:
+            e["player"] = "own"
+            e["confidence"] = "medium"
+            e["elixir_before"] = e["elixir_after"] = None
+            e["detail"] += " [reattributed to Ryley: card is HUD-confirmed in his deck this game]"
     # own deck: confirmed plays first (HUD / deploy label), then confident hand reads
     played_hud = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "hud")
     played_label = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "deploy_label")
@@ -147,8 +157,33 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
             mid = (c["start"] + c["end"]) / 2
             if t0 - 2 <= mid <= t1 + 2:
                 cues.append({"t": round(c["start"], 1), "end": round(c["end"], 1), "text": c["text"]})
+    text = " ".join(c["text"] for c in cues).lower()
+    mentioned_all = count_card_mentions(text, card_names)
+    mentioned = dict(list(mentioned_all.items())[:15])
+    # per-game sanity: a HUD-read deck card he never names, when a card he
+    # names repeatedly has some visual evidence but no slot, is a hand misread
+    deck_notes = []
+    visual = set(played_label) | set(hand_cards) | {e["card"] for e in events if e.get("card") and e["player"] == "own"}
+    for cand, m in mentioned_all.items():
+        if m < 8 or cand in own_deck or cand not in visual:
+            continue
+        if len(own_deck) < 8:
+            own_deck.append(cand)
+            own_deck_sources[cand] = "transcript+visual"
+            deck_notes.append(f"added {cand} ({m} mentions, visual evidence but no confident slot read)")
+            continue
+        # only weakly supported cards (<= 2 HUD plays, or hand-read only) can be displaced
+        silent = [c for c in own_deck if mentioned_all.get(c, 0) == 0 and played_hud.get(c, 0) <= 2]
+        if not silent:
+            continue
+        drop = min(silent, key=lambda c: played.get(c, 0))
+        deck_notes.append(f"swapped {drop} (never named in this game's commentary, weak evidence) for {cand} ({m} mentions, visual evidence)")
+        own_deck[own_deck.index(drop)] = cand
+        own_deck_sources[cand] = "transcript+visual"
+        own_deck_sources.pop(drop, None)
     return {**header, "start_t": round(t0, 1), "end_t": round(t1, 1),
-            "own_deck_observed": own_deck, "own_deck_sources": own_deck_sources,
+            "cards_mentioned": mentioned,
+            "own_deck_observed": own_deck, "own_deck_sources": own_deck_sources, "own_deck_notes": deck_notes,
             "own_deck_counts": {"hud": dict(played_hud), "label": dict(played_label), "hand": {c: k for c, k in hand_cards.items() if k >= 30}},
             "own_deck_key": "-".join(sorted(own_deck)) if len(own_deck) == 8 else None,
             "opponent": {"deck_known": replayed["deck_known"], "deck_complete": replayed["deck_complete"],
@@ -160,19 +195,27 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
 
 def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
     n = lambda slug: card_names.get(slug, slug) if slug else "?"
+    def src_tag(c: str) -> str:
+        src = ctx.get("own_deck_sources", {}).get(c)
+        return {"played": "", "hand": " (hand read only)", None: ""}.get(src, f" ({src})")
     if ctx.get("empty"):
         return f"# {ctx.get('video_id')} match {ctx.get('match_index')}: no readable match\n"
     L = [f"# Match context: {ctx.get('title', '')} (video {ctx.get('video_id')}, match {ctx.get('match_index')})", "",
          f"- Video time {ctx['start_t']}s to {ctx['end_t']}s ({ctx['quality']['readable_seconds']}s readable). "
          f"Calibration: {ctx.get('calibration_method')}.",
-         f"- Own deck observed (Ryley): {', '.join(n(c) + ('' if ctx.get('own_deck_sources', {}).get(c) == 'played' else ' (hand read only)') for c in ctx['own_deck_observed']) or 'unknown'}"
-         + (f" (deck_key `{ctx['own_deck_key']}`)" if ctx.get('own_deck_key') else " (incomplete)"),
+         f"- Own deck observed (Ryley): {', '.join(n(c) + src_tag(c) for c in ctx['own_deck_observed']) or 'unknown'}"
+         + (f" (deck_key `{ctx['own_deck_key']}`)" if ctx.get('own_deck_key') else " (incomplete)")
+         + (("; " + "; ".join(ctx["own_deck_notes"])) if ctx.get("own_deck_notes") else ""),
+         *([f"- Own deck, video level: this video's games use DIFFERENT decks (deck-showcase format); rely on the per-game read above and the commentary"]
+           if ctx.get("own_deck_video", {}).get("mixed") else []),
          *([f"- Own deck, video-level consensus across {ctx['own_deck_video']['games']} game(s) of this video: "
             f"{', '.join(n(c) for c in ctx['own_deck_video']['deck'])}"
             + (f" (deck_key `{ctx['own_deck_video']['deck_key']}`)" if ctx['own_deck_video'].get('deck_key') else " (incomplete)")
             + ("; use this when the per-game read above is incomplete unless the commentary says he switched decks" )]
-           if ctx.get("own_deck_video") else []),
+           if ctx.get("own_deck_video") and not ctx["own_deck_video"].get("mixed") else []),
          *([f"- Hero variants possible: {ctx['hero_note']}"] if ctx.get("hero_note") else []),
+         *([f"- Cards named in this game's commentary (mentions): " + ", ".join(f"{n(c)} {k}" for c, k in ctx["cards_mentioned"].items())]
+           if ctx.get("cards_mentioned") else []),
          f"- Opponent cards seen: {', '.join(n(c) for c in (ctx['opponent']['deck_known'] or []))}"
          + (" (complete)" if ctx['opponent'].get('deck_complete') else ""),
          f"- Quality: events {ctx['quality']['events_total']} ({ctx['quality']['events_unidentified']} unidentified), "
@@ -235,9 +278,18 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
     # the video. A hand-read card he never mentions is suspect when a card he
     # keeps naming has some visual evidence but was scored below the cut.
     text = " ".join(cue.get("text", "") for _, c in ctxs for cue in c.get("transcript", [])).lower()
-    mentions = {c: transcript_mentions(text, c, card_names.get(c, c)) for c in score}
+    all_m = count_card_mentions(text, card_names)
+    mentions = {c: all_m.get(c, 0) for c in score}
     ranked = [c for c, _ in score.most_common()]
     deck, notes = ranked[:8], []
+    # deck-showcase videos switch decks between games: if two games with solid
+    # HUD evidence barely overlap, there is no single deck to pool
+    hud_sets = [set(c["own_deck_counts"].get("hud", {})) for _, c in ctxs]
+    hud_sets = [h for h in hud_sets if len(h) >= 5]
+    mixed = any(len(a & b) / len(a | b) < 0.4 for i, a in enumerate(hud_sets) for b in hud_sets[i + 1:])
+    if mixed:
+        notes.append("games in this video use different decks (low overlap of HUD-confirmed cards); no video-level deck")
+        deck = []
     for cand in ranked[8:]:
         if mentions.get(cand, 0) < 20:
             continue
@@ -248,7 +300,7 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
         notes.append(f"swapped {drop} (score {score[drop]}, never mentioned) for {cand} (score {score[cand]}, {mentions[cand]} mentions)")
         deck[deck.index(drop)] = cand
     consensus = {"games": len(ctxs), "deck": deck, "deck_key": "-".join(sorted(deck)) if len(deck) == 8 else None,
-                 "scores": dict(score.most_common()), "transcript_mentions": {c: m for c, m in mentions.items() if m},
+                 "mixed": mixed, "scores": dict(score.most_common()), "transcript_mentions": {c: m for c, m in mentions.items() if m},
                  "notes": notes}
     heroes = _hero_abilities()
     hero_note = "; ".join(f"{card_names.get(c, c)} as a Hero has the ability '{heroes[c]['name']}' costing {heroes[c]['cost']} elixir "
@@ -307,3 +359,24 @@ def _hero_abilities() -> dict[str, dict]:
         except (TypeError, ValueError, KeyError):
             continue
     return out
+
+
+def count_card_mentions(text: str, card_names: dict[str, str]) -> dict[str, int]:
+    """Mentions per card; longer names are matched first and blanked so
+    'ice wizard' does not also count as 'wizard'."""
+    import re as _re
+    work = text.lower()
+    out: dict[str, int] = {}
+    order = sorted(card_names.items(), key=lambda kv: -len(kv[1]))
+    for slug, name in order:
+        terms = {name.lower(), name.lower().replace("-", " "), slug.replace("-", " ")} | set(_ALIASES.get(slug, []))
+        n = 0
+        for t in sorted(terms, key=len, reverse=True):
+            if len(t) < 2:
+                continue
+            pat = _re.compile(rf"(?<![a-z]){_re.escape(t)}s?(?![a-z])")
+            n += len(pat.findall(work))
+            work = pat.sub(" ", work)
+        if n:
+            out[slug] = n
+    return dict(sorted(out.items(), key=lambda kv: -kv[1]))

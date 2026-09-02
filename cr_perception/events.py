@@ -61,6 +61,7 @@ class PlayDetector:
     recent_group: dict[str, float] = field(default_factory=dict)
     own_hold: list[PlayEvent] = field(default_factory=list)       # own plays waiting for a deploy label (tile)
     label_tiles: dict[str, tuple] = field(default_factory=dict)  # card -> (t, tile, score, text) seen before the HUD event
+    own_deck_seen: Counter = field(default_factory=Counter)   # HUD-confirmed own cards this match
     own_levels: Counter = field(default_factory=Counter)   # deploy-label levels of confirmed own plays
     opp_levels: Counter = field(default_factory=Counter)   # deploy-label levels of confident opponent plays
     recent_labels: list[tuple[float, str, tuple[int, int]]] = field(default_factory=list)
@@ -110,6 +111,7 @@ class PlayDetector:
             ev = PlayEvent(t0, clock, "own", best.before, tile, e_before, e_after, "hud", "high",
                            f"slot {best.slot} emptied ({best.before}), elixir -{total}{note}")
             ev.slot = best.slot
+            self.own_deck_seen[best.before] += 1
             return [ev]
         if best is not None and len(self.pending_hand) == 1:
             self.pending_hand.remove(best)
@@ -233,6 +235,16 @@ class PlayDetector:
     def release_holds(self, t: float) -> list[PlayEvent]:
         out = [e for e in self.own_hold if t - e.timestamp > self.HOLD_SECONDS]
         self.own_hold = [e for e in self.own_hold if t - e.timestamp <= self.HOLD_SECONDS]
+        # a label credited to Ryley (his half / his deck / his level) that no HUD
+        # event claimed within the window is still his play: the hand reader
+        # missed the slot change. Emit it rather than lose the play.
+        for card, (lt, tile, score, text) in list(self.label_tiles.items()):
+            if t - lt > 6.0:
+                del self.label_tiles[card]
+                if score >= 0.85 and not any(c == card and abs(tt - lt) <= 6.0 for tt, c in self.own_play_cards_recent):
+                    self.own_play_cards_recent.append((lt, card))
+                    out.append(PlayEvent(lt, None, "own", card, tile, None, None, "deploy_label", "medium",
+                                         f"deploy label '{text}' at {tile} (score {score}); no HUD slot change read (hand read missed it)"))
         return out
 
     def update_labels(self, t: float, labels, tiles: list[tuple[int, int] | None], clock: str | None) -> list[PlayEvent]:
@@ -270,7 +282,8 @@ class PlayDetector:
             # rows 12-14 are excluded: an opponent bridge deployment's label
             # sits above the unit and its ground point can land there
             own_half_troop = tile[1] <= 11 and lbl.card not in SPELL_CLASSES and lbl.card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel", "wall-breakers")
-            if own is None and (pending_own or in_hand or (own_half_troop and not lvl_opp) or lvl_own):
+            deck_card = self.own_deck_seen.get(lbl.card, 0) >= 2 and not lvl_opp
+            if own is None and (pending_own or in_hand or (own_half_troop and not lvl_opp) or lvl_own or deck_card):
                 prev = self.label_tiles.get(lbl.card)
                 if prev is None or t - prev[0] > 6.0 or lbl.match_score >= prev[2]:
                     self.label_tiles[lbl.card] = (t, tile, lbl.match_score, lbl.text)
