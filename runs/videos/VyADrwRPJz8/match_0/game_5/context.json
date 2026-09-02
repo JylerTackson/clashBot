@@ -1,0 +1,7821 @@
+{
+ "video_id": "VyADrwRPJz8",
+ "title": "#1 TOP Ladder Push with Log Bait \ud83c\udf0e\ud83c\udfc6",
+ "match_index": "0.5",
+ "period": [
+  1096.262,
+  1273.272
+ ],
+ "calibration_method": "towers",
+ "url": "https://www.youtube.com/watch?v=VyADrwRPJz8",
+ "start_t": 1096.3,
+ "end_t": 1273.3,
+ "cards_mentioned": {
+  "wall-breakers": 6,
+  "berserker": 6,
+  "valkyrie": 5,
+  "magic-archer": 4,
+  "goblin-barrel": 3,
+  "ice-spirit": 3,
+  "fire-spirit": 2,
+  "bomb-tower": 2
+ },
+ "own_deck_observed": [
+  "wall-breakers",
+  "goblin-barrel",
+  "fire-spirit",
+  "ice-spirit",
+  "berserker",
+  "bomb-tower",
+  "royal-delivery",
+  "skeletons"
+ ],
+ "own_deck_sources": {
+  "wall-breakers": "played",
+  "goblin-barrel": "played",
+  "fire-spirit": "played",
+  "ice-spirit": "played",
+  "berserker": "played",
+  "bomb-tower": "played",
+  "royal-delivery": "played",
+  "skeletons": "played"
+ },
+ "own_deck_notes": [],
+ "own_deck_counts": {
+  "hud": {
+   "wall-breakers": 3,
+   "dart-goblin": 1,
+   "skeletons": 4,
+   "goblin-barrel": 3,
+   "barbarian-barrel": 2,
+   "fire-spirit": 2,
+   "berserker": 1,
+   "zap": 1,
+   "heal-spirit": 2,
+   "archers": 1,
+   "fireball": 1
+  },
+  "label": {
+   "goblin-barrel": 3,
+   "ice-spirit": 6,
+   "fire-spirit": 4,
+   "wall-breakers": 3,
+   "berserker": 2,
+   "bomb-tower": 3,
+   "magic-archer": 3,
+   "royal-delivery": 1
+  },
+  "hand": {
+   "wall-breakers": 222,
+   "ice-spirit": 249,
+   "goblin-barrel": 248,
+   "goblin-drill": 125,
+   "royal-delivery": 494,
+   "fire-spirit": 100,
+   "bomb-tower": 184,
+   "skeletons": 35,
+   "zap": 50,
+   "magic-archer": 84,
+   "fireball": 132,
+   "berserker": 80,
+   "barbarian-barrel": 33,
+   "executioner": 64,
+   "poison": 35
+  }
+ },
+ "own_deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-royal-delivery-skeletons-wall-breakers",
+ "opponent": {
+  "deck_known": [
+   "berserker",
+   "elixir-collector",
+   "magic-archer",
+   "valkyrie",
+   "x-bow",
+   "ice-spirit"
+  ],
+  "deck_complete": false,
+  "deck_predictions": [
+   {
+    "card": "goblin-barrel",
+    "p": 0.65,
+    "source": "kb_inference"
+   },
+   {
+    "card": "princess",
+    "p": 0.65,
+    "source": "kb_inference"
+   },
+   {
+    "card": "dart-goblin",
+    "p": 0.65,
+    "source": "kb_inference"
+   },
+   {
+    "card": "skeleton-army",
+    "p": 0.65,
+    "source": "kb_inference"
+   },
+   {
+    "card": "cannon",
+    "p": 0.34,
+    "source": "kb_inference"
+   },
+   {
+    "card": "elite-barbarians",
+    "p": 0.34,
+    "source": "kb_inference"
+   }
+  ],
+  "kb_matches": [
+   {
+    "deck_key": "berserker-dart-goblin-goblin-barrel-ice-spirit-mega-knight-princess-skeleton-army-suspicious-bush",
+    "name": "Mega Knight Log Bait",
+    "archetype": "bait",
+    "matched": 2,
+    "contradicted": 4,
+    "score": -5.97,
+    "remaining": [
+     "mega-knight",
+     "goblin-barrel",
+     "princess",
+     "dart-goblin",
+     "suspicious-bush",
+     "skeleton-army"
+    ]
+   },
+   {
+    "deck_key": "cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers",
+    "name": "WB Log Bait 2.8 Cycle",
+    "archetype": "bait",
+    "matched": 2,
+    "contradicted": 4,
+    "score": -5.97,
+    "remaining": [
+     "cannon",
+     "dart-goblin",
+     "goblin-barrel",
+     "princess",
+     "skeleton-army",
+     "wall-breakers"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado",
+    "name": "Golem Double Dragon Nado Pump",
+    "archetype": "beatdown",
+    "matched": 2,
+    "contradicted": 4,
+    "score": -5.97,
+    "remaining": [
+     "barbarian-barrel",
+     "electro-dragon",
+     "elite-barbarians",
+     "golem",
+     "skeleton-dragons",
+     "tornado"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0,
+  "live_tracker_deck_known": [
+   "skeletons",
+   "berserker",
+   "goblin-barrel",
+   "elixir-collector",
+   "magic-archer",
+   "fire-spirit",
+   "valkyrie",
+   "x-bow"
+  ]
+ },
+ "events": [
+  {
+   "timestamp": 1098.4306666666666,
+   "match_clock": "2:48",
+   "player": "own",
+   "card": "wall-breakers",
+   "tile": [
+    4,
+    15
+   ],
+   "elixir_before": 9.0,
+   "elixir_after": 7.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (wall-breakers), elixir -2; deploy label at (4, 15) (score 1.0)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1099.098,
+   "match_clock": "2:48",
+   "player": "own",
+   "card": null,
+   "tile": null,
+   "elixir_before": 7.0,
+   "elixir_after": 5.0,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "elixir dropped by 2 with no readable hand change",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1097.096,
+   "match_clock": null,
+   "player": "own",
+   "card": "goblin-barrel",
+   "tile": [
+    3,
+    25
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'GobliN BaRRel' at (3, 25) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1109.108,
+   "match_clock": "2:38",
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 175 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1112.111,
+   "match_clock": "2:35",
+   "player": "opponent",
+   "card": "berserker",
+   "tile": [
+    2,
+    15
+   ],
+   "elixir_before": 9.48,
+   "elixir_after": 7.48,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'BeRseRkeR'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1112.2778333333333,
+   "match_clock": "2:34",
+   "player": "own",
+   "card": null,
+   "tile": null,
+   "elixir_before": 7.0,
+   "elixir_after": 5.0,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "elixir dropped by 2 with no readable hand change",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1113.112,
+   "match_clock": "2:34",
+   "player": "own",
+   "card": "goblin-barrel",
+   "tile": [
+    3,
+    26
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'GobliN BaRRel' [reattributed to Ryley: card is HUD-confirmed in his deck this game]",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1113.6125,
+   "match_clock": "2:33",
+   "player": "own",
+   "card": null,
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 3.0,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "elixir dropped by 2 with no readable hand change",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1108.107,
+   "match_clock": null,
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": [
+    8,
+    7
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'Ice SniRit' at (8, 7) (score 0.889); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1113.112,
+   "match_clock": "2:32",
+   "player": "opponent",
+   "card": "elixir-collector",
+   "tile": [
+    9,
+    22
+   ],
+   "elixir_before": 6.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1116.115,
+   "match_clock": "2:31",
+   "player": "opponent",
+   "card": "magic-archer",
+   "tile": [
+    2,
+    14
+   ],
+   "elixir_before": 4.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'AagicARcHeR' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1110.109,
+   "match_clock": null,
+   "player": "own",
+   "card": "fire-spirit",
+   "tile": [
+    3,
+    14
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'FiRe SpiRit' at (3, 14) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1119.118,
+   "match_clock": "2:28",
+   "player": "opponent",
+   "card": "magic-archer",
+   "tile": [
+    2,
+    14
+   ],
+   "elixir_before": 4.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'Aagic ARcHeR' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1120.7863333333335,
+   "match_clock": "2:26",
+   "player": "own",
+   "card": "dart-goblin",
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (dart-goblin), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1126.125,
+   "match_clock": "2:21",
+   "player": "own",
+   "card": "fire-spirit",
+   "tile": [
+    2,
+    14
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'FiRe SpiRit' on own half, lvl 16 [reattributed to Ryley: card is HUD-confirmed in his deck this game]",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1128.127,
+   "match_clock": "2:19",
+   "player": "opponent",
+   "card": "berserker",
+   "tile": [
+    2,
+    15
+   ],
+   "elixir_before": 2.22,
+   "elixir_after": 0.22,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'BeRS.RkeR'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1122.121,
+   "match_clock": null,
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": [
+    2,
+    14
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'lce SpiRit' at (2, 14) (score 0.889); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1127.9601666666667,
+   "match_clock": "2:19",
+   "player": "own",
+   "card": "skeletons",
+   "tile": null,
+   "elixir_before": 2.0,
+   "elixir_after": 1.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (skeletons), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1129.128,
+   "match_clock": "2:16",
+   "player": "opponent",
+   "card": "valkyrie",
+   "tile": [
+    2,
+    13
+   ],
+   "elixir_before": 4.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "medium",
+   "detail": "enemy-side track but spawned on own half (miner/barrel/spell?)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1145.144,
+   "match_clock": "2:00",
+   "player": "opponent",
+   "card": "x-bow",
+   "tile": [
+    2,
+    17
+   ],
+   "elixir_before": 6.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1149.3148333333334,
+   "match_clock": "1:58",
+   "player": "own",
+   "card": "goblin-barrel",
+   "tile": [
+    3,
+    25
+   ],
+   "elixir_before": 7.0,
+   "elixir_after": 4.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (goblin-barrel), elixir -3; deploy label 'GobliN BaRRel' at (3, 25) (score 1.0)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1154.153,
+   "match_clock": "1:53",
+   "player": "opponent",
+   "card": "magic-archer",
+   "tile": [
+    2,
+    14
+   ],
+   "elixir_before": 5.01,
+   "elixir_after": 1.01,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'gicARCHeR' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1150.1490000000001,
+   "match_clock": null,
+   "player": "own",
+   "card": "wall-breakers",
+   "tile": [
+    3,
+    15
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'WallBReakeRS' at (3, 15) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1155.8213333333333,
+   "match_clock": "1:51",
+   "player": "own",
+   "card": "wall-breakers",
+   "tile": null,
+   "elixir_before": 3.0,
+   "elixir_after": 1.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (wall-breakers), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1171.17,
+   "match_clock": "1:37",
+   "player": "own",
+   "card": "skeletons",
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 4.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (skeletons), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1174.6735,
+   "match_clock": "1:32",
+   "player": "own",
+   "card": "barbarian-barrel",
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 3.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (barbarian-barrel), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1178.1770000000001,
+   "match_clock": "1:29",
+   "player": "opponent",
+   "card": "ice-spirit",
+   "tile": [
+    12,
+    13
+   ],
+   "elixir_before": 10.0,
+   "elixir_after": 9.0,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'lce SpiRit' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1175.6745,
+   "match_clock": "1:31",
+   "player": "own",
+   "card": "barbarian-barrel",
+   "tile": null,
+   "elixir_before": 3.0,
+   "elixir_after": 1.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (barbarian-barrel), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1173.172,
+   "match_clock": null,
+   "player": "own",
+   "card": "goblin-barrel",
+   "tile": [
+    13,
+    22
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'GobliN BaRRel' at (13, 22) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1177.176,
+   "match_clock": "1:28",
+   "player": "opponent",
+   "card": "x-bow",
+   "tile": [
+    15,
+    17
+   ],
+   "elixir_before": 9.71,
+   "elixir_after": 3.71,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1174.173,
+   "match_clock": null,
+   "player": "own",
+   "card": "berserker",
+   "tile": [
+    13,
+    14
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'BeRseRkeR' at (13, 14) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1175.174,
+   "match_clock": null,
+   "player": "own",
+   "card": "bomb-tower",
+   "tile": [
+    15,
+    12
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'BoMb Tow' at (15, 12) (score 0.875); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1179.0111666666667,
+   "match_clock": "1:28",
+   "player": "own",
+   "card": "skeletons",
+   "tile": null,
+   "elixir_before": 2.0,
+   "elixir_after": 1.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (skeletons), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1184.183,
+   "match_clock": "1:23",
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 207 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1183.182,
+   "match_clock": null,
+   "player": "own",
+   "card": "wall-breakers",
+   "tile": [
+    12,
+    1
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'Wall BReakeRS' at (12, 1) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1190.189,
+   "match_clock": "1:17",
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 414 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1191.19,
+   "match_clock": "1:16",
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 276 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1193.192,
+   "match_clock": "1:14",
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 414 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1203.202,
+   "match_clock": "1:03",
+   "player": "opponent",
+   "card": "x-bow",
+   "tile": [
+    15,
+    16
+   ],
+   "elixir_before": 10.0,
+   "elixir_after": 4.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1203.7025,
+   "match_clock": "1:03",
+   "player": "own",
+   "card": "fire-spirit",
+   "tile": [
+    16,
+    9
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 4.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (fire-spirit), elixir -1; deploy label 'FiRe Sp' at (16, 9) (score 0.75)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1206.5386666666666,
+   "match_clock": "1:03",
+   "player": "own",
+   "card": "berserker",
+   "tile": [
+    16,
+    8
+   ],
+   "elixir_before": 4.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (berserker), elixir -2; deploy label 'BeRSeR' at (16, 8) (score 0.8)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1205.204,
+   "match_clock": null,
+   "player": "own",
+   "card": "magic-archer",
+   "tile": [
+    13,
+    9
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'Magic ARcHeR' at (13, 9) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1208.207,
+   "match_clock": null,
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": [
+    11,
+    15
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'lce SpiRit' at (11, 15) (score 0.889); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1212.5446666666667,
+   "match_clock": "0:54",
+   "player": "own",
+   "card": "zap",
+   "tile": null,
+   "elixir_before": 3.0,
+   "elixir_after": 1.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (zap), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1211.21,
+   "match_clock": null,
+   "player": "own",
+   "card": "bomb-tower",
+   "tile": [
+    12,
+    2
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'BoMb ToweR' at (12, 2) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1217.0491666666667,
+   "match_clock": "0:50",
+   "player": "own",
+   "card": "skeletons",
+   "tile": null,
+   "elixir_before": 3.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (skeletons), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1218.7175,
+   "match_clock": "0:48",
+   "player": "own",
+   "card": "fire-spirit",
+   "tile": [
+    9,
+    9
+   ],
+   "elixir_before": 3.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (fire-spirit), elixir -1; deploy label 'FiRe SpiRit' at (9, 9) (score 1.0)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1218.217,
+   "match_clock": null,
+   "player": "own",
+   "card": "berserker",
+   "tile": [
+    11,
+    8
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'BeRseRkeR' at (11, 8) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1222.7215,
+   "match_clock": "0:44",
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": [
+    8,
+    9
+   ],
+   "elixir_before": 2.0,
+   "elixir_after": 1.0,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'Ice SpiRit' -> ice-spirit (score 1.0) at (8, 9) explains elixir -1 (hand read disagreed)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1220.219,
+   "match_clock": null,
+   "player": "own",
+   "card": "royal-delivery",
+   "tile": [
+    15,
+    15
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'RoYal DeliveR' at (15, 15) (score 0.96); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1227.0591666666667,
+   "match_clock": "0:40",
+   "player": "own",
+   "card": "heal-spirit",
+   "tile": null,
+   "elixir_before": 3.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (heal-spirit), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1235.234,
+   "match_clock": "0:32",
+   "player": "opponent",
+   "card": "berserker",
+   "tile": [
+    8,
+    21
+   ],
+   "elixir_before": 10.0,
+   "elixir_after": 8.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'BeRSRkeR'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1233.5656666666666,
+   "match_clock": "0:33",
+   "player": "own",
+   "card": "goblin-barrel",
+   "tile": [
+    14,
+    26
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (goblin-barrel), elixir -3; deploy label 'GobliN BaRRel' at (14, 26) (score 1.0)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1235.234,
+   "match_clock": "0:31",
+   "player": "opponent",
+   "card": "elixir-collector",
+   "tile": [
+    16,
+    27
+   ],
+   "elixir_before": 10.0,
+   "elixir_after": 4.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1233.232,
+   "match_clock": null,
+   "player": "own",
+   "card": "fire-spirit",
+   "tile": [
+    14,
+    14
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'FiRe SpiRit' at (14, 14) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1236.2350000000001,
+   "match_clock": null,
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": [
+    8,
+    20
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'lce SpiRit' at (8, 20) (score 0.889); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1243.5756666666666,
+   "match_clock": "0:23",
+   "player": "own",
+   "card": "goblin-barrel",
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (goblin-barrel), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1245.244,
+   "match_clock": "0:20",
+   "player": "opponent",
+   "card": "valkyrie",
+   "tile": [
+    14,
+    14
+   ],
+   "elixir_before": 10.0,
+   "elixir_after": 6.0,
+   "detect_source": "arena",
+   "confidence": "medium",
+   "detail": "enemy-side track but spawned on own half (miner/barrel/spell?)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1246.5786666666668,
+   "match_clock": "0:21",
+   "player": "own",
+   "card": "archers",
+   "tile": null,
+   "elixir_before": 4.0,
+   "elixir_after": 1.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (archers), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1243.242,
+   "match_clock": null,
+   "player": "own",
+   "card": "magic-archer",
+   "tile": [
+    13,
+    9
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'Magic ARcHeR' at (13, 9) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1247.246,
+   "match_clock": "0:19",
+   "player": "opponent",
+   "card": "x-bow",
+   "tile": [
+    15,
+    17
+   ],
+   "elixir_before": 8.14,
+   "elixir_after": 2.14,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1251.25,
+   "match_clock": "0:17",
+   "player": "opponent",
+   "card": "berserker",
+   "tile": [
+    16,
+    14
+   ],
+   "elixir_before": 4.29,
+   "elixir_after": 2.29,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'BeRseRke' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1245.244,
+   "match_clock": null,
+   "player": "own",
+   "card": "bomb-tower",
+   "tile": [
+    15,
+    13
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'BoMb Tow' at (15, 13) (score 0.875); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1254.253,
+   "match_clock": null,
+   "player": "own",
+   "card": "wall-breakers",
+   "tile": [
+    8,
+    17
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'Wall BReakeRS' at (8, 17) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1260.259,
+   "match_clock": "0:07",
+   "player": "own",
+   "card": "wall-breakers",
+   "tile": null,
+   "elixir_before": 3.0,
+   "elixir_after": 1.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (wall-breakers), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1258.257,
+   "match_clock": null,
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": [
+    14,
+    15
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'eSpiRit' at (14, 15) (score 0.875); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1262.0941666666668,
+   "match_clock": "0:05",
+   "player": "own",
+   "card": "heal-spirit",
+   "tile": null,
+   "elixir_before": 2.0,
+   "elixir_after": 1.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (heal-spirit), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1259.258,
+   "match_clock": null,
+   "player": "own",
+   "card": "magic-archer",
+   "tile": [
+    13,
+    11
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'Magic AkcHeR' at (13, 11) (score 0.909); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1266.265,
+   "match_clock": "0:03",
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 276 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1261.26,
+   "match_clock": null,
+   "player": "own",
+   "card": "fire-spirit",
+   "tile": [
+    14,
+    10
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'FiRe SpiRit' at (14, 10) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1269.4348333333332,
+   "match_clock": "1:59",
+   "player": "own",
+   "card": "fireball",
+   "tile": null,
+   "elixir_before": 4.0,
+   "elixir_after": 0.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (fireball), elixir -4",
+   "type": "play_event"
+  }
+ ],
+ "timeline": [
+  {
+   "t": 1096.3,
+   "clock": "2:51",
+   "phase": "triple_elixir_overtime",
+   "own_elixir": 9,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "wall-breakers",
+    "ice-spirit",
+    "goblin-barrel",
+    "goblin-drill"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1098.1,
+   "clock": "2:49",
+   "phase": "single_elixir",
+   "own_elixir": 7,
+   "opp_elixir_est": 5.48,
+   "hand": [
+    "wall-breakers",
+    "ice-spirit",
+    "heal-spirit",
+    "goblin-drill"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1100.1,
+   "clock": "2:47",
+   "phase": "single_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 6.19,
+   "hand": [
+    "rune-giant",
+    "ice-spirit",
+    "royal-delivery",
+    "fire-spirit"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1102.1,
+   "clock": "2:45",
+   "phase": "single_elixir",
+   "own_elixir": 6,
+   "opp_elixir_est": 6.91,
+   "hand": [
+    "ice-spirit",
+    "ice-spirit",
+    "royal-delivery",
+    "goblin-drill"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "ice-spirit",
+     "side": "enemy",
+     "tile": [
+      13,
+      22
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.21,
+     "pred_2s": [
+      15.8,
+      18.9
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 7.7
+     }
+    }
+   ],
+   "threats": [
+    "ice-spirit(e) advancing right lane, tower in 7.7s"
+   ]
+  },
+  {
+   "t": 1104.1,
+   "clock": "2:43",
+   "phase": "single_elixir",
+   "own_elixir": 6,
+   "opp_elixir_est": 7.62,
+   "hand": [
+    "ice-spirit",
+    "ice-spirit",
+    "royal-delivery",
+    "goblin-drill"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4474,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "ice-spirit",
+     "side": "enemy",
+     "tile": [
+      14,
+      18
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.21,
+     "pred_2s": [
+      15.3,
+      14.0
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 5.7
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      3,
+      18
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.88,
+     "pred_2s": [
+      3.0,
+      14.7
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 6.7
+     }
+    }
+   ],
+   "threats": [
+    "ice-spirit(e) advancing right lane, tower in 5.7s",
+    "skeleton(e) advancing left lane, tower in 6.7s"
+   ]
+  },
+  {
+   "t": 1106.1,
+   "clock": "2:41",
+   "phase": "single_elixir",
+   "own_elixir": 7,
+   "opp_elixir_est": 8.34,
+   "hand": [
+    "ice-spirit",
+    "ice-spirit",
+    "royal-delivery",
+    "fire-spirit"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "ice-spirit",
+     "side": "enemy",
+     "tile": [
+      14,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.23,
+     "pred_2s": [
+      14.5,
+      9.3
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.6
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      3,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.88,
+     "pred_2s": [
+      2.2,
+      11.0
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 4.7
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      22
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.44,
+     "pred_2s": [
+      4.2,
+      25.1
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    }
+   ],
+   "threats": [
+    "ice-spirit(e) advancing right lane, tower in 3.6s",
+    "skeleton(e) advancing left lane, tower in 4.7s"
+   ]
+  },
+  {
+   "t": 1108.1,
+   "clock": "2:39",
+   "phase": "single_elixir",
+   "own_elixir": 7,
+   "opp_elixir_est": 8.05,
+   "hand": [
+    "rune-giant",
+    "ice-spirit",
+    "royal-delivery",
+    "fire-spirit"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "ice-spirit",
+     "side": "enemy",
+     "tile": [
+      14,
+      9
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.23,
+     "pred_2s": [
+      14.8,
+      4.8
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.6
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      2,
+      18
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.35,
+     "pred_2s": [
+      2.5,
+      17.6
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 35.5
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      4,
+      25
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.44,
+     "pred_2s": [
+      4.7,
+      28.0
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      4,
+      18
+     ],
+     "heading": "retreating",
+     "speed": 0.33,
+     "pred_2s": [
+      4.5,
+      18.2
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 9.3
+     }
+    }
+   ],
+   "threats": [
+    "ice-spirit(e) advancing right lane, tower in 1.6s"
+   ]
+  },
+  {
+   "t": 1110.1,
+   "clock": "2:37",
+   "phase": "single_elixir",
+   "own_elixir": 7,
+   "opp_elixir_est": 8.77,
+   "hand": [
+    "bomb-tower",
+    "ice-spirit",
+    "royal-delivery",
+    "fire-spirit"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      4,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.18,
+     "pred_2s": [
+      4.6,
+      12.5
+     ],
+     "pos_std": 0.61,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 7.6
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      4,
+      18
+     ],
+     "heading": "retreating",
+     "speed": 0.33,
+     "pred_2s": [
+      4.7,
+      17.5
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 11.2
+     }
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing left lane, tower in 7.6s"
+   ]
+  },
+  {
+   "t": 1112.1,
+   "clock": "2:35",
+   "phase": "single_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 7.48,
+   "hand": [
+    "bomb-tower",
+    "ice-spirit",
+    "royal-delivery",
+    "dart-goblin"
+   ],
+   "next": "zap",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      4,
+      12
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.18,
+     "pred_2s": [
+      5.2,
+      10.2
+     ],
+     "pos_std": 1.55,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 5.8
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      10
+     ],
+     "heading": "retreating",
+     "speed": 1.95,
+     "pred_2s": [
+      3.3,
+      6.4
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 5.9
+     }
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing left lane, tower in 5.8s"
+   ]
+  },
+  {
+   "t": 1114.1,
+   "clock": "2:33",
+   "phase": "single_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 5.2,
+   "hand": [
+    "skeletons",
+    "ice-spirit",
+    "royal-delivery",
+    "dart-goblin"
+   ],
+   "next": "the-log",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      6
+     ],
+     "heading": "retreating",
+     "speed": 1.95,
+     "pred_2s": [
+      3.0,
+      2.5
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 7.9
+     }
+    },
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.0
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      4,
+      13
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.66,
+     "pred_2s": [
+      5.0,
+      14.6
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 12.8
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1116.1,
+   "clock": "2:31",
+   "phase": "single_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 0.0,
+   "hand": [
+    "bomb-tower",
+    "rune-giant",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "ice-spirit",
+     "side": "ally",
+     "tile": [
+      1,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.45,
+     "pred_2s": [
+      -0.2,
+      16.2
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 5.4
+     }
+    },
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      4,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.66,
+     "pred_2s": [
+      5.5,
+      15.9
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 11.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1118.1,
+   "clock": "2:29",
+   "phase": "single_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 0.71,
+   "hand": [
+    "bomb-tower",
+    "mother-witch",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "ice-spirit",
+     "side": "ally",
+     "tile": [
+      0,
+      16
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.45,
+     "pred_2s": [
+      -2.2,
+      18.3
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 4.5
+     }
+    },
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1120.1,
+   "clock": "2:27",
+   "phase": "single_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 0.36,
+   "hand": [
+    "bomb-tower",
+    "rune-giant",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.16,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1122.1,
+   "clock": "2:25",
+   "phase": "single_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 1.07,
+   "hand": [
+    "goblin-barrel",
+    "mother-witch",
+    "magic-archer",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3530,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.15,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1124.1,
+   "clock": "2:23",
+   "phase": "single_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 1.79,
+   "hand": [
+    "zap",
+    "rune-giant",
+    "magic-archer",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3301,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1126.1,
+   "clock": "2:21",
+   "phase": "single_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 1.5,
+   "hand": [
+    "goblin-barrel",
+    "minions",
+    "skeletons",
+    "wall-breakers"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2843,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1128.1,
+   "clock": "2:19",
+   "phase": "single_elixir",
+   "own_elixir": 1,
+   "opp_elixir_est": 0.22,
+   "hand": [
+    "fireball",
+    "bomb-tower",
+    "fireball",
+    "fireball"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 5852,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "ice-golem",
+     "side": "ally",
+     "tile": [
+      2,
+      11
+     ],
+     "heading": "stationary",
+     "speed": 0.04,
+     "pred_2s": [
+      2.4,
+      11.8
+     ],
+     "pos_std": 0.62,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1130.1,
+   "clock": "2:17",
+   "phase": "single_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 0.93,
+   "hand": [
+    "poison",
+    "goblin-barrel",
+    "zap",
+    "goblin-barrel"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1927,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "ice-golem",
+     "side": "ally",
+     "tile": [
+      2,
+      11
+     ],
+     "heading": "stationary",
+     "speed": 0.04,
+     "pred_2s": [
+      2.4,
+      11.7
+     ],
+     "pos_std": 1.58,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      2,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.78,
+     "pred_2s": [
+      2.4,
+      12.7
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 11.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1132.1,
+   "clock": "2:15",
+   "phase": "single_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 0.36,
+   "hand": [
+    "zap",
+    "magic-archer",
+    "magic-archer",
+    "mother-witch"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1469,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      2,
+      12
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.78,
+     "pred_2s": [
+      2.2,
+      11.2
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 9.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1134.1,
+   "clock": "2:13",
+   "phase": "single_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 1.07,
+   "hand": [
+    "goblin-barrel",
+    "executioner",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1469,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1136.1,
+   "clock": "2:11",
+   "phase": "single_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 1.79,
+   "hand": [
+    "skeletons",
+    "goblin-barrel",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1469,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1138.1,
+   "clock": "2:09",
+   "phase": "single_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 2.5,
+   "hand": [
+    "bomb-tower",
+    "goblin-barrel",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1240,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1140.1,
+   "clock": "2:07",
+   "phase": "single_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 3.22,
+   "hand": [
+    "bomb-tower",
+    "goblin-barrel",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1011,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "lava-pup",
+     "side": "ally",
+     "tile": [
+      0,
+      16
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.45,
+     "pred_2s": [
+      -1.9,
+      15.6
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 4.2
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      1,
+      15
+     ],
+     "heading": "retreating",
+     "speed": 0.8,
+     "pred_2s": [
+      0.6,
+      14.5
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 7.8
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1142.1,
+   "clock": "2:05",
+   "phase": "single_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 3.93,
+   "hand": [
+    "bomb-tower",
+    "bomber",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1011,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "lava-pup",
+     "side": "ally",
+     "tile": [
+      0,
+      15
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.45,
+     "pred_2s": [
+      -4.7,
+      15.2
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 5.4
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      3,
+      11
+     ],
+     "heading": "retreating",
+     "speed": 1.7,
+     "pred_2s": [
+      4.3,
+      8.2
+     ],
+     "pos_std": 0.61,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 6.1
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      3,
+      11
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.34,
+     "pred_2s": [
+      4.5,
+      9.0
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 4.3
+     }
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing left lane, tower in 4.3s"
+   ]
+  },
+  {
+   "t": 1144.1,
+   "clock": "2:03",
+   "phase": "single_elixir",
+   "own_elixir": 6,
+   "opp_elixir_est": 4.65,
+   "hand": [
+    "bomb-tower",
+    "mother-witch",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1011,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      4,
+      8
+     ],
+     "heading": "retreating",
+     "speed": 1.7,
+     "pred_2s": [
+      5.2,
+      4.9
+     ],
+     "pos_std": 1.55,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 8.0
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      4,
+      9
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.34,
+     "pred_2s": [
+      5.6,
+      6.6
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 2.5
+     }
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing left lane, tower in 2.5s"
+   ]
+  },
+  {
+   "t": 1146.1,
+   "clock": "2:02",
+   "phase": "single_elixir",
+   "own_elixir": 6,
+   "opp_elixir_est": 5.36,
+   "hand": [
+    "bomb-tower",
+    "archers",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1011,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      16
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.0
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1148.1,
+   "clock": "1:59",
+   "phase": "double_elixir",
+   "own_elixir": 7,
+   "opp_elixir_est": 0.71,
+   "hand": [
+    "bomb-tower",
+    "bowler",
+    "royal-delivery",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 4444,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1011,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.1
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1150.1,
+   "clock": "1:57",
+   "phase": "double_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 2.15,
+   "hand": [
+    "bomb-tower",
+    "bomb-tower",
+    "royal-delivery",
+    "minions"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 3961,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1011,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.2
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      3,
+      11
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.13,
+     "pred_2s": [
+      3.4,
+      8.9
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 4.8
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie(e) advancing left lane, tower in 4.8s"
+   ]
+  },
+  {
+   "t": 1152.2,
+   "clock": "1:55",
+   "phase": "double_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 3.58,
+   "hand": [
+    "skeletons",
+    "ice-spirit",
+    "royal-delivery",
+    "ice-spirit"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": null,
+    "left": 3547,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1011,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.3
+     ],
+     "pos_std": 0.16,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      3,
+      8
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.13,
+     "pred_2s": [
+      3.4,
+      6.7
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 2.8
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie(e) advancing left lane, tower in 2.8s"
+   ]
+  },
+  {
+   "t": 1154.2,
+   "clock": "1:53",
+   "phase": "double_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 1.01,
+   "hand": [
+    "skeletons",
+    "bomb-tower",
+    "royal-delivery",
+    "goblin-drill"
+   ],
+   "next": "bowler",
+   "towers_own": {
+    "king": null,
+    "left": 3271,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1011,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.3
+     ],
+     "pos_std": 0.15,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      3,
+      9
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.55,
+     "pred_2s": [
+      3.2,
+      8.2
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 6.3
+     }
+    },
+    {
+     "class": "ice-spirit",
+     "side": "enemy",
+     "tile": [
+      1,
+      7
+     ],
+     "heading": "advancing left lane",
+     "speed": 2.89,
+     "pred_2s": [
+      0.4,
+      2.1
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 0.9
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie(e) advancing left lane, tower in 6.3s",
+    "ice-spirit(e) advancing left lane, tower in 0.9s"
+   ]
+  },
+  {
+   "t": 1156.2,
+   "clock": "1:51",
+   "phase": "double_elixir",
+   "own_elixir": 1,
+   "opp_elixir_est": 2.44,
+   "hand": [
+    "fireball",
+    "bomb-tower",
+    "fireball",
+    "fireball"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": null,
+    "left": 3271,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 627,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.3
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      3,
+      8
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.55,
+     "pred_2s": [
+      3.2,
+      7.0
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 4.3
+     }
+    },
+    {
+     "class": "ice-spirit",
+     "side": "enemy",
+     "tile": [
+      0,
+      2
+     ],
+     "heading": "advancing left lane",
+     "speed": 2.89,
+     "pred_2s": [
+      -0.4,
+      -3.6
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 0.8
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie(e) advancing left lane, tower in 4.3s",
+    "ice-spirit(e) advancing left lane, tower in 0.8s"
+   ]
+  },
+  {
+   "t": 1158.2,
+   "clock": "1:50",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 3.86,
+   "hand": [
+    "bomb-tower",
+    "skeletons",
+    "zap",
+    "goblin-drill"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": null,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 627,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.3
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      3,
+      7
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.45,
+     "pred_2s": [
+      2.9,
+      6.6
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 3.8
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie(e) advancing left lane, tower in 3.8s"
+   ]
+  },
+  {
+   "t": 1160.2,
+   "clock": "1:47",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 5.3,
+   "hand": [
+    "zap",
+    "bomber",
+    "magic-archer",
+    "goblin-drill"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": null,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.3
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      2,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.14,
+     "pred_2s": [
+      2.9,
+      7.3
+     ],
+     "pos_std": 0.61,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 13.1
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1162.2,
+   "clock": "1:46",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 6.73,
+   "hand": [
+    "goblin-barrel",
+    "berserker",
+    "lightning",
+    "goblin-drill"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.4
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      2,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.14,
+     "pred_2s": [
+      2.8,
+      7.0
+     ],
+     "pos_std": 1.55,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 11.3
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1164.2,
+   "clock": "1:46",
+   "phase": "double_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 8.16,
+   "hand": [
+    "skeletons",
+    "berserker",
+    "royal-delivery",
+    "goblin-drill"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      2.4,
+      17.4
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "bomb",
+     "side": "ally",
+     "tile": [
+      11,
+      9
+     ],
+     "heading": "stationary",
+     "speed": 0.07,
+     "pred_2s": [
+      11.3,
+      9.9
+     ],
+     "pos_std": 0.62,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1166.2,
+   "clock": "1:46",
+   "phase": "double_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 9.58,
+   "hand": [
+    "barbarian-barrel",
+    "berserker",
+    "royal-delivery",
+    "goblin-drill"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "bomb",
+     "side": "ally",
+     "tile": [
+      11,
+      9
+     ],
+     "heading": "stationary",
+     "speed": 0.07,
+     "pred_2s": [
+      11.3,
+      10.1
+     ],
+     "pos_std": 1.58,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1168.0,
+   "clock": "1:46",
+   "phase": "double_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "bomb-tower",
+    "berserker",
+    "royal-delivery",
+    "goblin-drill"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      4,
+      6
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.16,
+     "pred_2s": [
+      5.7,
+      4.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 0.8
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie(e) advancing left lane, tower in 0.8s"
+   ]
+  },
+  {
+   "t": 1170.0,
+   "clock": "1:38",
+   "phase": "double_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "bomb-tower",
+    "berserker",
+    "royal-delivery",
+    "goblin-drill"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      5,
+      4
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.16,
+     "pred_2s": [
+      6.6,
+      2.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 0.6
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "enemy",
+     "tile": [
+      13,
+      4
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.34,
+     "pred_2s": [
+      12.2,
+      1.7
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 0.0
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie(e) advancing left lane, tower in 0.6s",
+    "unknown_unit(e) advancing right lane, tower in 0.0s"
+   ]
+  },
+  {
+   "t": 1172.0,
+   "clock": "1:37",
+   "phase": "double_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "bomb-tower",
+    "berserker",
+    "royal-delivery",
+    "bomb-tower"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "enemy",
+     "tile": [
+      12,
+      1
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.34,
+     "pred_2s": [
+      11.2,
+      -0.8
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_king",
+      "s": 1.4
+     }
+    }
+   ],
+   "threats": [
+    "unknown_unit(e) advancing right lane, tower in 1.4s"
+   ]
+  },
+  {
+   "t": 1174.0,
+   "clock": "1:34",
+   "phase": "double_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "bomb-tower",
+    "berserker",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      12,
+      20
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.0,
+     "pred_2s": [
+      10.9,
+      22.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 1.7
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1176.0,
+   "clock": "1:32",
+   "phase": "double_elixir",
+   "own_elixir": 1,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "wall-breakers",
+    "fireball",
+    "fireball",
+    "fireball"
+   ],
+   "next": "fireball",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      10,
+      22
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.0,
+     "pred_2s": [
+      9.4,
+      23.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.3
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1178.0,
+   "clock": "1:30",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "skeletons",
+    "executioner",
+    "fireball",
+    "executioner"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.5,
+      17.0
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1180.0,
+   "clock": "1:28",
+   "phase": "double_elixir",
+   "own_elixir": 1,
+   "opp_elixir_est": 4.31,
+   "hand": [
+    "fireball",
+    "zap",
+    "fireball",
+    "executioner"
+   ],
+   "next": "zap",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.5,
+      17.1
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1182.0,
+   "clock": "1:26",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 5.74,
+   "hand": [
+    "fireball",
+    "magic-archer",
+    "magic-archer",
+    "executioner"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.5,
+      17.2
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      16,
+      10
+     ],
+     "heading": "stationary",
+     "speed": 0.08,
+     "pred_2s": [
+      16.4,
+      10.4
+     ],
+     "pos_std": 0.56,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1184.0,
+   "clock": "1:24",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 7.17,
+   "hand": [
+    "fireball",
+    "rune-giant",
+    "magic-archer",
+    "executioner"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4683
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.5,
+      17.2
+     ],
+     "pos_std": 0.16,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      16,
+      10
+     ],
+     "heading": "stationary",
+     "speed": 0.08,
+     "pred_2s": [
+      16.3,
+      10.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie-evolution",
+     "side": "enemy",
+     "tile": [
+      15,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.84,
+     "pred_2s": [
+      15.5,
+      9.0
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 5.7
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie-evolution(e) advancing right lane, tower in 5.7s"
+   ]
+  },
+  {
+   "t": 1186.0,
+   "clock": "1:22",
+   "phase": "double_elixir",
+   "own_elixir": 1,
+   "opp_elixir_est": 8.6,
+   "hand": [
+    "fireball",
+    "goblin-drill",
+    "fireball",
+    "executioner"
+   ],
+   "next": "bowler",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 4200
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.5,
+      17.2
+     ],
+     "pos_std": 0.15,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      16,
+      11
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.19,
+     "pred_2s": [
+      16.5,
+      11.4
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 57.4
+     }
+    },
+    {
+     "class": "valkyrie-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      7
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.22,
+     "pred_2s": [
+      14.3,
+      5.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.6
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie-evolution(e) advancing right lane, tower in 1.6s"
+   ]
+  },
+  {
+   "t": 1188.0,
+   "clock": "1:20",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "fireball",
+    "fire-spirit",
+    "magic-archer",
+    "executioner"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 3786
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.5,
+      17.2
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      16,
+      11
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.19,
+     "pred_2s": [
+      16.6,
+      11.8
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 55.4
+     }
+    },
+    {
+     "class": "valkyrie-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      5
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.22,
+     "pred_2s": [
+      14.1,
+      2.9
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 0.0
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie-evolution(e) advancing right lane, tower in 0.0s"
+   ]
+  },
+  {
+   "t": 1190.0,
+   "clock": "1:18",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "fireball",
+    "fire-spirit",
+    "magic-archer",
+    "executioner"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 3510
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "rage",
+     "side": "ally",
+     "tile": [
+      13,
+      19
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.98,
+     "pred_2s": [
+      12.7,
+      22.8
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 1.4
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1192.0,
+   "clock": "1:16",
+   "phase": "double_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "fireball",
+    "fire-spirit",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2820
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "rage",
+     "side": "ally",
+     "tile": [
+      12,
+      22
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.98,
+     "pred_2s": [
+      11.5,
+      26.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 0.2
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1194.0,
+   "clock": "1:14",
+   "phase": "double_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "ice-spirit",
+    "fire-spirit",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2406
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1196.0,
+   "clock": "1:12",
+   "phase": "double_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "ice-spirit",
+    "fire-spirit",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2406
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-spirit",
+     "side": "enemy",
+     "tile": [
+      14,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.7,
+     "pred_2s": [
+      13.9,
+      8.8
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.7
+     }
+    }
+   ],
+   "threats": [
+    "electro-spirit(e) advancing right lane, tower in 3.7s"
+   ]
+  },
+  {
+   "t": 1198.0,
+   "clock": "1:10",
+   "phase": "double_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "ice-spirit",
+    "fire-spirit",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2406
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-spirit",
+     "side": "enemy",
+     "tile": [
+      13,
+      8
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.7,
+     "pred_2s": [
+      13.2,
+      5.5
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.8
+     }
+    }
+   ],
+   "threats": [
+    "electro-spirit(e) advancing right lane, tower in 1.8s"
+   ]
+  },
+  {
+   "t": 1200.0,
+   "clock": "1:08",
+   "phase": "double_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "ice-spirit",
+    "giant",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1202.0,
+   "clock": "1:06",
+   "phase": "double_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "ice-spirit",
+    "berserker",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "fire-spirit",
+     "side": "enemy",
+     "tile": [
+      14,
+      11
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.77,
+     "pred_2s": [
+      13.9,
+      8.3
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.4
+     }
+    }
+   ],
+   "threats": [
+    "fire-spirit(e) advancing right lane, tower in 3.4s"
+   ]
+  },
+  {
+   "t": 1204.0,
+   "clock": "1:06",
+   "phase": "double_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "ice-spirit",
+    "royal-delivery",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.11,
+     "eta_tower": null
+    },
+    {
+     "class": "fire-spirit",
+     "side": "enemy",
+     "tile": [
+      13,
+      8
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.77,
+     "pred_2s": [
+      13.2,
+      4.9
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.5
+     }
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      16
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.3,
+      16.9
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": [
+    "fire-spirit(e) advancing right lane, tower in 1.5s"
+   ]
+  },
+  {
+   "t": 1206.0,
+   "clock": "1:03",
+   "phase": "double_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 4.6,
+   "hand": [
+    "barbarian-barrel",
+    "bomb-tower",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      9,
+      22
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      22.1
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      16
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.3,
+      16.9
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1208.0,
+   "clock": "1:03",
+   "phase": "double_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 6.03,
+   "hand": [
+    "barbarian-barrel",
+    "poison",
+    "magic-archer",
+    "executioner"
+   ],
+   "next": "the-log",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.1
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1210.0,
+   "clock": "0:57",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 8.17,
+   "hand": [
+    "wall-breakers",
+    "poison",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.1
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1212.0,
+   "clock": "0:55",
+   "phase": "triple_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "wall-breakers",
+    "royal-delivery",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.16,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1214.0,
+   "clock": "0:53",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "goblin-barrel",
+    "fire-spirit",
+    "zap",
+    "executioner"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.15,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1216.0,
+   "clock": "0:52",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "wall-breakers",
+    "rune-giant",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1218.0,
+   "clock": "0:48",
+   "phase": "triple_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "wall-breakers",
+    "wall-breakers",
+    "royal-delivery",
+    "goblin-barrel"
+   ],
+   "next": "zap",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "tesla-evolution",
+     "side": "ally",
+     "tile": [
+      16,
+      10
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      16.4,
+      10.1
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1220.1,
+   "clock": "0:47",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "wall-breakers",
+    "fireball",
+    "heal-spirit",
+    "goblin-barrel"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "tesla-evolution",
+     "side": "ally",
+     "tile": [
+      16,
+      10
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      16.4,
+      10.1
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1222.1,
+   "clock": "0:45",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "zap",
+    "fireball",
+    "ice-spirit",
+    "executioner"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2247
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      12,
+      8
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.99,
+     "pred_2s": [
+      13.5,
+      10.6
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 13.2
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1224.1,
+   "clock": "0:43",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "goblin-barrel",
+    "fireball",
+    "poison",
+    "executioner"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2178
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      12,
+      7
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.11,
+     "pred_2s": [
+      10.5,
+      7.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 12.5
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      13,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.96,
+     "pred_2s": [
+      14.9,
+      11.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 12.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1226.1,
+   "clock": "0:42",
+   "phase": "triple_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "wall-breakers",
+    "fireball",
+    "bomber",
+    "goblin-barrel"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2109
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      10,
+      7
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.11,
+     "pred_2s": [
+      8.4,
+      6.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 13.5
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      14,
+      11
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.96,
+     "pred_2s": [
+      16.0,
+      13.5
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 10.4
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1228.1,
+   "clock": "0:40",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "goblin-drill",
+    "fireball",
+    "poison",
+    "goblin-barrel"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2109
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1230.1,
+   "clock": "0:37",
+   "phase": "triple_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "fire-spirit",
+    "mega-knight",
+    "bomber",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2109
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1232.1,
+   "clock": "0:35",
+   "phase": "triple_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "goblin-drill",
+    "ice-spirit",
+    "bomb-tower",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2109
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "bomber-evolution",
+     "side": "ally",
+     "tile": [
+      14,
+      18
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 1.43,
+     "pred_2s": [
+      17.3,
+      19.1
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.6
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1234.1,
+   "clock": "0:33",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "archers",
+    "fireball",
+    "bomber",
+    "dart-goblin"
+   ],
+   "next": "rocket",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "bomber-evolution",
+     "side": "ally",
+     "tile": [
+      17,
+      19
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 1.43,
+     "pred_2s": [
+      20.0,
+      20.1
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.4
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1236.1,
+   "clock": "0:32",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 8.89,
+   "hand": [
+    "magic-archer",
+    "fireball",
+    "zap",
+    "dart-goblin"
+   ],
+   "next": "the-log",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      26
+     ],
+     "heading": "stationary",
+     "speed": 0.03,
+     "pred_2s": [
+      16.6,
+      27.0
+     ],
+     "pos_std": 0.56,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1238.1,
+   "clock": "0:28",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 4.89,
+   "hand": [
+    "lightning",
+    "fireball",
+    "poison",
+    "wall-breakers"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.07,
+     "pred_2s": [
+      16.6,
+      27.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1240.1,
+   "clock": "0:27",
+   "phase": "triple_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 7.04,
+   "hand": [
+    "royal-delivery",
+    "mega-knight",
+    "bomb-tower",
+    "wall-breakers"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.02,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "goblin",
+     "side": "ally",
+     "tile": [
+      17,
+      30
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.5,
+     "pred_2s": [
+      18.8,
+      35.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.5
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1242.1,
+   "clock": "0:25",
+   "phase": "triple_elixir",
+   "own_elixir": 5,
+   "opp_elixir_est": 9.18,
+   "hand": [
+    "royal-delivery",
+    "archers",
+    "bomb-tower",
+    "wall-breakers"
+   ],
+   "next": "knight",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.03,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "goblin",
+     "side": "ally",
+     "tile": [
+      17,
+      31
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.5,
+     "pred_2s": [
+      19.9,
+      40.1
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 4.5
+     }
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      15,
+      22
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.78,
+     "pred_2s": [
+      14.8,
+      20.8
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 21.0
+     }
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.44,
+     "pred_2s": [
+      15.8,
+      14.8
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 8.2
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1244.1,
+   "clock": "0:23",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 9.89,
+   "hand": [
+    "lightning",
+    "archers",
+    "poison",
+    "wall-breakers"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.02,
+     "pred_2s": [
+      16.5,
+      27.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      19
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.22,
+     "pred_2s": [
+      14.2,
+      17.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 11.1
+     }
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      15,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.44,
+     "pred_2s": [
+      16.3,
+      11.9
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 6.3
+     }
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.92,
+     "pred_2s": [
+      14.7,
+      8.6
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.5
+     }
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      14,
+      17
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.26,
+     "pred_2s": [
+      15.3,
+      15.5
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 9.6
+     }
+    }
+   ],
+   "threats": [
+    "skeleton-evolution(e) advancing right lane, tower in 6.3s",
+    "skeleton-evolution(e) advancing right lane, tower in 3.5s"
+   ]
+  },
+  {
+   "t": 1246.1,
+   "clock": "0:22",
+   "phase": "triple_elixir",
+   "own_elixir": 4,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "royal-delivery",
+    "goblin-barrel",
+    "dart-goblin",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.01,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      16
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.22,
+     "pred_2s": [
+      13.4,
+      14.7
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 9.2
+     }
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.87,
+     "pred_2s": [
+      14.5,
+      6.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 2.3
+     }
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      8
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.92,
+     "pred_2s": [
+      14.8,
+      4.8
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.5
+     }
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      15,
+      15
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.26,
+     "pred_2s": [
+      16.2,
+      13.2
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 7.7
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      13,
+      9
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.84,
+     "pred_2s": [
+      13.4,
+      11.0
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 14.9
+     }
+    }
+   ],
+   "threats": [
+    "skeleton-evolution(e) advancing right lane, tower in 2.3s",
+    "skeleton-evolution(e) advancing right lane, tower in 1.5s",
+    "valkyrie(e) advancing right lane, tower in 7.7s"
+   ]
+  },
+  {
+   "t": 1248.1,
+   "clock": "0:20",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 6.89,
+   "hand": [
+    "magic-archer",
+    "executioner",
+    "fire-spirit",
+    "goblin-barrel"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "skeleton-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      6
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.87,
+     "pred_2s": [
+      14.3,
+      2.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 0.3
+     }
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      14,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.16,
+     "pred_2s": [
+      14.5,
+      10.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 6.4
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      15,
+      9
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.93,
+     "pred_2s": [
+      17.6,
+      10.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 13.0
+     }
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.2,
+      17.1
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": [
+    "skeleton-evolution(e) advancing right lane, tower in 0.3s",
+    "valkyrie(e) advancing right lane, tower in 6.4s"
+   ]
+  },
+  {
+   "t": 1250.1,
+   "clock": "0:19",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 3.04,
+   "hand": [
+    "magic-archer",
+    "goblin-barrel",
+    "heal-spirit",
+    "wall-breakers"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.01,
+     "pred_2s": [
+      16.6,
+      27.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie",
+     "side": "enemy",
+     "tile": [
+      14,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.16,
+     "pred_2s": [
+      14.7,
+      8.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 4.4
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      17,
+      10
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.93,
+     "pred_2s": [
+      19.3,
+      11.4
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 12.5
+     }
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.2,
+      17.1
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    },
+    {
+     "class": "bomb-tower",
+     "side": "enemy",
+     "tile": [
+      15,
+      9
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.9,
+      9.9
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": [
+    "valkyrie(e) advancing right lane, tower in 4.4s"
+   ]
+  },
+  {
+   "t": 1252.1,
+   "clock": "0:17",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 3.18,
+   "hand": [
+    "magic-archer",
+    "executioner",
+    "archers",
+    "goblin-barrel"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.03,
+     "pred_2s": [
+      16.7,
+      27.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.3,
+      17.1
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    },
+    {
+     "class": "bomb-tower",
+     "side": "enemy",
+     "tile": [
+      15,
+      9
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.9,
+      9.9
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1254.1,
+   "clock": "0:14",
+   "phase": "triple_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 5.33,
+   "hand": [
+    "royal-delivery",
+    "goblin-barrel",
+    "ice-spirit",
+    "wall-breakers"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.03,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1256.1,
+   "clock": "0:12",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 7.47,
+   "hand": [
+    "lightning",
+    "goblin-barrel",
+    "ice-spirit",
+    "fireball"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.01,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.16,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1258.1,
+   "clock": "0:08",
+   "phase": "triple_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 9.62,
+   "hand": [
+    "royal-delivery",
+    "goblin-barrel",
+    "ice-spirit",
+    "mega-knight"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.01,
+     "pred_2s": [
+      16.6,
+      27.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.1
+     ],
+     "pos_std": 0.15,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1260.1,
+   "clock": "0:07",
+   "phase": "triple_elixir",
+   "own_elixir": 1,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "fireball",
+    "fireball",
+    "bomb-tower",
+    "heal-spirit"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.01,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1262.1,
+   "clock": "0:05",
+   "phase": "triple_elixir",
+   "own_elixir": 1,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "fireball",
+    "executioner",
+    "poison",
+    "heal-spirit"
+   ],
+   "next": "berserker",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 2040
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.01,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1264.1,
+   "clock": "0:03",
+   "phase": "triple_elixir",
+   "own_elixir": 2,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "magic-archer",
+    "executioner",
+    "poison",
+    "berserker"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 1419
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.01,
+     "pred_2s": [
+      16.6,
+      27.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1266.1,
+   "clock": "0:03",
+   "phase": "triple_elixir",
+   "own_elixir": 3,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "royal-delivery",
+    "goblin-barrel",
+    "skeletons",
+    "berserker"
+   ],
+   "next": "magic-archer",
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 6729
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.01,
+     "pred_2s": [
+      16.6,
+      27.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1268.1,
+   "clock": "0:03",
+   "phase": "triple_elixir",
+   "own_elixir": 0,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "royal-delivery",
+    "goblin-barrel",
+    "bomb-tower",
+    "berserker"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 1246
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      27
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      16.6,
+      27.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": null
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie-evolution",
+     "side": "enemy",
+     "tile": [
+      14,
+      7
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.09,
+     "pred_2s": [
+      14.4,
+      5.4
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.6
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie-evolution(e) advancing right lane, tower in 1.6s"
+   ]
+  },
+  {
+   "t": 1270.1,
+   "clock": "1:59",
+   "phase": "double_elixir_overtime",
+   "own_elixir": 0,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    "flying-machine",
+    "royal-delivery",
+    "golem",
+    "giant"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 1246
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      16,
+      26
+     ],
+     "heading": "stationary",
+     "speed": 0.11,
+     "pred_2s": [
+      16.3,
+      26.7
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 186.5
+     }
+    },
+    {
+     "class": "x-bow",
+     "side": "enemy",
+     "tile": [
+      15,
+      17
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      15.4,
+      17.2
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "valkyrie-evolution",
+     "side": "enemy",
+     "tile": [
+      12,
+      5
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.18,
+     "pred_2s": [
+      12.0,
+      3.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 0.4
+     }
+    },
+    {
+     "class": "electro-spirit",
+     "side": "enemy",
+     "tile": [
+      13,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.28,
+     "pred_2s": [
+      13.5,
+      5.8
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 2.0
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie-evolution(e) advancing right lane, tower in 0.4s",
+    "electro-spirit(e) advancing right lane, tower in 2.0s"
+   ]
+  },
+  {
+   "t": 1272.1,
+   "clock": "1:59",
+   "phase": "double_elixir_overtime",
+   "own_elixir": 0,
+   "opp_elixir_est": 10.0,
+   "hand": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "next": null,
+   "towers_own": {
+    "king": 7728,
+    "left": 6892,
+    "right": 1246
+   },
+   "towers_enemy": {
+    "king": 7728,
+    "left": 169,
+    "right": 4572
+   },
+   "units": [
+    {
+     "class": "elixir-collector",
+     "side": "enemy",
+     "tile": [
+      15,
+      25
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.41,
+     "pred_2s": [
+      15.3,
+      25.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 49.3
+     }
+    },
+    {
+     "class": "valkyrie-evolution",
+     "side": "enemy",
+     "tile": [
+      10,
+      4
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.21,
+     "pred_2s": [
+      8.3,
+      2.8
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_king",
+      "s": 2.0
+     }
+    },
+    {
+     "class": "electro-spirit",
+     "side": "enemy",
+     "tile": [
+      13,
+      6
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.17,
+     "pred_2s": [
+      12.4,
+      1.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 0.4
+     }
+    }
+   ],
+   "threats": [
+    "valkyrie-evolution(e) moving left (crossing lanes), tower in 2.0s",
+    "electro-spirit(e) advancing right lane, tower in 0.4s"
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "t": 1093.4,
+   "end": 1095.3,
+   "text": "next match."
+  },
+  {
+   "t": 1097.0,
+   "end": 1100.1,
+   "text": "against Clouse. Oh no, guys. This guy"
+  },
+  {
+   "t": 1100.1,
+   "end": 1103.1,
+   "text": "has expo pump, man. This is probably the"
+  },
+  {
+   "t": 1103.1,
+   "end": 1104.8,
+   "text": "worst possible matchup we could have"
+  },
+  {
+   "t": 1104.8,
+   "end": 1106.4,
+   "text": "gotten for our deck, but we did beat"
+  },
+  {
+   "t": 1106.4,
+   "end": 1108.6,
+   "text": "this matchup yesterday. So, I'm going to"
+  },
+  {
+   "t": 1108.6,
+   "end": 1110.7,
+   "text": "remain hopeful and try my best. Okay,"
+  },
+  {
+   "t": 1110.7,
+   "end": 1112.0,
+   "text": "let's go for the fire spear here at the"
+  },
+  {
+   "t": 1112.0,
+   "end": 1113.3,
+   "text": "bridge. Let's go for the berserker."
+  },
+  {
+   "t": 1113.4,
+   "end": 1114.5,
+   "text": "Let's go for the barrel. And I'm not"
+  },
+  {
+   "t": 1114.6,
+   "end": 1115.9,
+   "text": "going to wall breakers cuz I want to be"
+  },
+  {
+   "t": 1115.9,
+   "end": 1119.0,
+   "text": "able to magic archer his Valkyrie. Wa."
+  },
+  {
+   "t": 1119.0,
+   "end": 1120.7,
+   "text": "That is a little bit of a problem. Let's"
+  },
+  {
+   "t": 1120.7,
+   "end": 1122.2,
+   "text": "marcher here at the bridge. We can go"
+  },
+  {
+   "t": 1122.2,
+   "end": 1123.9,
+   "text": "for the fire I mean we can go for the"
+  },
+  {
+   "t": 1123.9,
+   "end": 1125.0,
+   "text": "ice spirit as well just to make sure"
+  },
+  {
+   "t": 1125.0,
+   "end": 1126.8,
+   "text": "that we grab this extra damage. Go for"
+  },
+  {
+   "t": 1126.8,
+   "end": 1128.0,
+   "text": "the fire spear and then we can go for"
+  },
+  {
+   "t": 1128.0,
+   "end": 1129.7,
+   "text": "the berserker as well. just grab every"
+  },
+  {
+   "t": 1129.7,
+   "end": 1131.4,
+   "text": "single possible lick of magic archer"
+  },
+  {
+   "t": 1131.4,
+   "end": 1133.7,
+   "text": "damage that we can and just try our best"
+  },
+  {
+   "t": 1133.7,
+   "end": 1135.3,
+   "text": "cuz in this match up if we don't take an"
+  },
+  {
+   "t": 1135.3,
+   "end": 1137.3,
+   "text": "entire tower we are going to lose the"
+  },
+  {
+   "t": 1137.4,
+   "end": 1138.8,
+   "text": "game. So we have to try our best to get"
+  },
+  {
+   "t": 1138.8,
+   "end": 1141.0,
+   "text": "as much damage as we can. Low key this"
+  },
+  {
+   "t": 1141.0,
+   "end": 1142.9,
+   "text": "is already looking very good for us to"
+  },
+  {
+   "t": 1142.9,
+   "end": 1144.7,
+   "text": "be honest. He goes for the expo. Okay,"
+  },
+  {
+   "t": 1144.7,
+   "end": 1146.6,
+   "text": "I'm just going to go for the goblin"
+  },
+  {
+   "t": 1146.6,
+   "end": 1147.8,
+   "text": "barrel and then I'm going to kite the"
+  },
+  {
+   "t": 1147.8,
+   "end": 1149.8,
+   "text": "Valkyrie back with my wall breaker or"
+  },
+  {
+   "t": 1149.8,
+   "end": 1152.0,
+   "text": "yeah cut the kite the Valkyrie back with"
+  },
+  {
+   "t": 1152.0,
+   "end": 1154.3,
+   "text": "my wall breakers. Nice Valkyrie by him,"
+  },
+  {
+   "t": 1154.3,
+   "end": 1155.5,
+   "text": "but we can just go for the magic crunch"
+  },
+  {
+   "t": 1155.5,
+   "end": 1156.6,
+   "text": "here just to ensure that we trade"
+  },
+  {
+   "t": 1156.6,
+   "end": 1158.8,
+   "text": "towers. And I think we are going to be"
+  },
+  {
+   "t": 1158.8,
+   "end": 1160.2,
+   "text": "fine in this situation because we just"
+  },
+  {
+   "t": 1160.2,
+   "end": 1162.0,
+   "text": "tower trade him. Great ice spirit"
+  },
+  {
+   "t": 1162.0,
+   "end": 1164.2,
+   "text": "prediction by him though. I can't lie"
+  },
+  {
+   "t": 1164.2,
+   "end": 1165.4,
+   "text": "because now that we're in this one to"
+  },
+  {
+   "t": 1165.4,
+   "end": 1167.5,
+   "text": "one situation, we have a chance, but at"
+  },
+  {
+   "t": 1167.5,
+   "end": 1170.7,
+   "text": "the same time, right in a one one, I"
+  },
+  {
+   "t": 1170.7,
+   "end": 1172.6,
+   "text": "can't even drop the cards on the expo"
+  },
+  {
+   "t": 1172.6,
+   "end": 1174.6,
+   "text": "right now, which is not ideal. Let's go"
+  },
+  {
+   "t": 1174.6,
+   "end": 1175.8,
+   "text": "for the berserker. And then we can go"
+  },
+  {
+   "t": 1175.8,
+   "end": 1177.3,
+   "text": "for the bomb tower here at the bridge as"
+  },
+  {
+   "t": 1177.4,
+   "end": 1179.0,
+   "text": "well. This is going to get taken out,"
+  },
+  {
+   "t": 1179.0,
+   "end": 1181.4,
+   "text": "but we can just go for the evil wall"
+  },
+  {
+   "t": 1181.4,
+   "end": 1183.0,
+   "text": "breakers at the bridge, I guess. and"
+  },
+  {
+   "t": 1183.0,
+   "end": 1185.0,
+   "text": "just not lose our tower. It's all good."
+  },
+  {
+   "t": 1185.0,
+   "end": 1187.3,
+   "text": "Let's wall breakers here and just take"
+  },
+  {
+   "t": 1187.4,
+   "end": 1190.6,
+   "text": "some damage. Man, this is this is pretty"
+  },
+  {
+   "t": 1190.6,
+   "end": 1193.0,
+   "text": "sad getting the tower for no reason, I"
+  },
+  {
+   "t": 1193.0,
+   "end": 1194.2,
+   "text": "feel like, cuz I still think that I'm"
+  },
+  {
+   "t": 1194.2,
+   "end": 1196.7,
+   "text": "going to get completely wrecked."
+  },
+  {
+   "t": 1196.7,
+   "end": 1198.3,
+   "text": "I'm still somewhat faithful, though,"
+  },
+  {
+   "t": 1198.3,
+   "end": 1200.2,
+   "text": "that I could maybe get like a crazy"
+  },
+  {
+   "t": 1200.2,
+   "end": 1202.1,
+   "text": "magic archer lineup and finesse the game"
+  },
+  {
+   "t": 1202.1,
+   "end": 1203.3,
+   "text": "or something. Okay, he's definitely just"
+  },
+  {
+   "t": 1203.4,
+   "end": 1204.9,
+   "text": "going to go for the Valkyrie again."
+  },
+  {
+   "t": 1204.9,
+   "end": 1207.0,
+   "text": "Yeah. Okay, this is so no skill. Maybe"
+  },
+  {
+   "t": 1207.0,
+   "end": 1208.5,
+   "text": "not no skill, but this is no skill"
+  },
+  {
+   "t": 1208.6,
+   "end": 1210.8,
+   "text": "against me, if that makes sense. Like,"
+  },
+  {
+   "t": 1210.8,
+   "end": 1212.8,
+   "text": "what can I do? Okay, let's definitely go"
+  },
+  {
+   "t": 1212.8,
+   "end": 1214.0,
+   "text": "for the bomb tower here cuz it's not"
+  },
+  {
+   "t": 1214.0,
+   "end": 1216.5,
+   "text": "like he can stop this anyways. Okay,"
+  },
+  {
+   "t": 1216.6,
+   "end": 1218.5,
+   "text": "let's go for the low fire spirit. We can"
+  },
+  {
+   "t": 1218.5,
+   "end": 1220.0,
+   "text": "go for the low berserker and then we"
+  },
+  {
+   "t": 1220.0,
+   "end": 1221.4,
+   "text": "need to delivery at the re. Bro, he's"
+  },
+  {
+   "t": 1221.4,
+   "end": 1223.1,
+   "text": "going to expo. Actually, I guess one"
+  },
+  {
+   "t": 1223.1,
+   "end": 1224.9,
+   "text": "nice thing is that he can't like spam us"
+  },
+  {
+   "t": 1224.9,
+   "end": 1227.0,
+   "text": "with expos cuz if he tries to spam us"
+  },
+  {
+   "t": 1227.0,
+   "end": 1228.6,
+   "text": "with expos obviously he's going to have"
+  },
+  {
+   "t": 1228.6,
+   "end": 1230.4,
+   "text": "to put one of them in the middle and"
+  },
+  {
+   "t": 1230.4,
+   "end": 1231.8,
+   "text": "that's obviously not going to work cuz"
+  },
+  {
+   "t": 1231.8,
+   "end": 1233.8,
+   "text": "I'll be able to get at it really easily."
+  },
+  {
+   "t": 1233.8,
+   "end": 1235.8,
+   "text": "Let's go for the barrel, fire spirit,"
+  },
+  {
+   "t": 1235.8,
+   "end": 1237.1,
+   "text": "berserker, ice spirit, and then we need"
+  },
+  {
+   "t": 1237.1,
+   "end": 1238.8,
+   "text": "to go for the wall breaker. Okay, we"
+  },
+  {
+   "t": 1238.8,
+   "end": 1241.0,
+   "text": "can't wall breakers. Yeah, we just we"
+  },
+  {
+   "t": 1241.0,
+   "end": 1242.5,
+   "text": "just simply lost, dude. I'm going just"
+  },
+  {
+   "t": 1242.5,
+   "end": 1244.1,
+   "text": "keep it real. We just simply lost. Like"
+  },
+  {
+   "t": 1244.1,
+   "end": 1246.2,
+   "text": "there's nothing that [music] we can do."
+  },
+  {
+   "t": 1246.2,
+   "end": 1247.6,
+   "text": "Wait, could I bomb her like this to make"
+  },
+  {
+   "t": 1247.6,
+   "end": 1250.3,
+   "text": "it splash? Maybe. Come on, splash. Nice."
+  },
+  {
+   "t": 1250.3,
+   "end": 1252.5,
+   "text": "Okay, very good. Actually, Berserker as"
+  },
+  {
+   "t": 1252.5,
+   "end": 1254.1,
+   "text": "well. Oh, I was trying to keep that"
+  },
+  {
+   "t": 1254.1,
+   "end": 1256.2,
+   "text": "alive, man. That's bad for us. Okay,"
+  },
+  {
+   "t": 1256.2,
+   "end": 1259.3,
+   "text": "let's wall breakers again."
+  },
+  {
+   "t": 1259.4,
+   "end": 1261.5,
+   "text": "Spirit here. Oh my. Dude, this is so"
+  },
+  {
+   "t": 1261.5,
+   "end": 1265.1,
+   "text": "stupid. We can't do anything, bro. Well,"
+  },
+  {
+   "t": 1265.1,
+   "end": 1266.7,
+   "text": "okay. Well, I found the deck that can"
+  },
+  {
+   "t": 1266.7,
+   "end": 1269.0,
+   "text": "beat us, guys. Whatever, dude. That is"
+  },
+  {
+   "t": 1269.0,
+   "end": 1270.5,
+   "text": "the dumbest thing that I have ever"
+  },
+  {
+   "t": 1270.6,
+   "end": 1273.0,
+   "text": "played in my life. We're in the next"
+  },
+  {
+   "t": 1273.0,
+   "end": 1275.0,
+   "text": "matchup here, guys, against this guy."
+  }
+ ],
+ "quality": {
+  "readable_seconds": 177.0,
+  "match_frames": 1062,
+  "own_elixir_drift": {
+   "n": 300,
+   "mean": 0.347,
+   "abs_mean": 0.928,
+   "max_abs": 8.57,
+   "last": 0.0
+  },
+  "events_total": 71,
+  "events_unidentified": 9,
+  "events_by_source": {
+   "hud": 21,
+   "inferred": 9,
+   "deploy_label": 33,
+   "arena": 8
+  },
+  "hand_conf_mean": 0.564
+ },
+ "own_deck_video": {
+  "games": 7,
+  "deck": [
+   "wall-breakers",
+   "goblin-barrel",
+   "berserker",
+   "royal-delivery",
+   "ice-spirit",
+   "fire-spirit",
+   "bomb-tower",
+   "barbarian-barrel"
+  ],
+  "deck_key": "barbarian-barrel-berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-royal-delivery-wall-breakers",
+  "mixed": false,
+  "scores": {
+   "wall-breakers": 42,
+   "goblin-barrel": 42,
+   "berserker": 42,
+   "royal-delivery": 39,
+   "ice-spirit": 39,
+   "fire-spirit": 36,
+   "bomb-tower": 36,
+   "barbarian-barrel": 24,
+   "dart-goblin": 21,
+   "goblin-drill": 19,
+   "heal-spirit": 18,
+   "skeletons": 17,
+   "fireball": 17,
+   "zap": 13,
+   "archers": 12,
+   "magic-archer": 11,
+   "rune-giant": 6,
+   "skeleton-dragons": 5,
+   "bomber": 3,
+   "minions": 3,
+   "poison": 2,
+   "executioner": 1
+  },
+  "transcript_mentions": {
+   "barbarian-barrel": 3,
+   "skeletons": 2,
+   "royal-delivery": 1,
+   "fire-spirit": 35,
+   "ice-spirit": 27,
+   "wall-breakers": 46,
+   "goblin-barrel": 51,
+   "bomb-tower": 29,
+   "berserker": 38,
+   "fireball": 2,
+   "magic-archer": 52,
+   "executioner": 4
+  },
+  "notes": []
+ },
+ "hero_note": "Berserker as a Hero has the ability 'Savage Survival' costing 3 elixir (an own elixir drop of 3 with no hand change is usually this ability, not a play); Barbarian Barrel as a Hero has the ability 'Rowdy Reroll' costing 1 elixir (an own elixir drop of 1 with no hand change is usually this ability, not a play)"
+}

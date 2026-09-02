@@ -335,6 +335,142 @@
     "mother-witch"
    ],
    "complete": true
+  },
+  "VyADrwRPJz8": {
+   "id": "VyADrwRPJz8",
+   "title": "#1 TOP Ladder Push with Log Bait \ud83c\udf0e\ud83c\udfc6",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 9195,
+     "seconds": 3359.8,
+     "games": [
+      {
+       "match": "0.0",
+       "seconds": 250.9,
+       "events": 115,
+       "own_deck": [
+        "goblin-barrel",
+        "wall-breakers",
+        "ice-spirit",
+        "fire-spirit",
+        "berserker",
+        "bomb-tower",
+        "royal-delivery",
+        "magic-archer"
+       ]
+      },
+      {
+       "match": "0.1",
+       "seconds": 171.0,
+       "events": 65,
+       "own_deck": [
+        "ice-spirit",
+        "wall-breakers",
+        "magic-archer",
+        "bomb-tower",
+        "royal-delivery",
+        "goblin-barrel",
+        "fire-spirit",
+        "berserker"
+       ]
+      },
+      {
+       "match": "0.2",
+       "seconds": 261.1,
+       "events": 113,
+       "own_deck": [
+        "ice-spirit",
+        "goblin-barrel",
+        "berserker",
+        "wall-breakers",
+        "fire-spirit",
+        "royal-delivery",
+        "bomb-tower",
+        "magic-archer"
+       ]
+      },
+      {
+       "match": "0.3",
+       "seconds": 112.9,
+       "events": 39,
+       "own_deck": [
+        "ice-spirit",
+        "wall-breakers",
+        "royal-delivery",
+        "goblin-barrel",
+        "berserker",
+        "fire-spirit",
+        "bomb-tower",
+        "dart-goblin"
+       ]
+      },
+      {
+       "match": "0.4",
+       "seconds": 295.1,
+       "events": 166,
+       "own_deck": [
+        "ice-spirit",
+        "berserker",
+        "royal-delivery",
+        "wall-breakers",
+        "goblin-barrel",
+        "fire-spirit",
+        "bomb-tower",
+        "magic-archer"
+       ]
+      },
+      {
+       "match": "0.5",
+       "seconds": 177.0,
+       "events": 71,
+       "own_deck": [
+        "wall-breakers",
+        "goblin-barrel",
+        "fire-spirit",
+        "ice-spirit",
+        "berserker",
+        "bomb-tower",
+        "royal-delivery",
+        "skeletons"
+       ]
+      },
+      {
+       "match": "0.6",
+       "seconds": 264.4,
+       "events": 114,
+       "own_deck": [
+        "ice-spirit",
+        "wall-breakers",
+        "berserker",
+        "fire-spirit",
+        "goblin-barrel",
+        "bomb-tower",
+        "magic-archer",
+        "royal-delivery"
+       ]
+      }
+     ]
+    }
+   ],
+   "periods": [
+    [
+     4.0,
+     1538.0
+    ]
+   ],
+   "own_deck_video": [
+    "wall-breakers",
+    "goblin-barrel",
+    "berserker",
+    "royal-delivery",
+    "ice-spirit",
+    "fire-spirit",
+    "bomb-tower",
+    "barbarian-barrel"
+   ],
+   "complete": true
   }
  }
 }

@@ -1,0 +1,74 @@
+{
+  "key": "VyADrwRPJz8-m0.3",
+  "match_file": "matches/VyADrwRPJz8-m0.3.md",
+  "video_title": "#1 TOP Ladder Push with Log Bait 🌎🏆",
+  "cards": {
+    "wall-breakers": [
+      "clock 2:40: opens with Wall Breakers from the back (deploy label tile [9, 0], elixir 8->6) rather than at the bridge; the enemy left tower first chips at t=712 and he reacts \"oh my value. Dude, that card is something else\".",
+      "clock 2:07: Wall Breakers straight over the bridge into the empty right lane (tile [12, 14]) — the enemy right princess tower drops 4858 -> 3738 at t=738, a clean 1120-damage connection.",
+      "clock 1:26: pairs Wall Breakers (Evolution) with a Goblin Barrel into the same left lane — \"let's go for the barrel plus evo wall breakers. He has to probably go for the barbs. Oh, he just gave up\" (t=774-776); the opponent concedes with the left tower at 115 hp.",
+      "clock 1:23: credits the pairing itself for the concession — \"not only does this make your opponent rage and get mad, it makes your opponent literally just quit the game. He saw that I just went barrel wall breakers and left the game\" (t=780-788)."
+    ],
+    "goblin-barrel": [
+      "clock 2:20: barrel onto the enemy left princess tower (tile [3, 25]) alongside a Fire Spirit — \"it's barrel, fire spirit here to apply some pressure\" (t=718); the opponent answers late with Ice Wizard and the tower falls 4858 -> 2762 by t=728.",
+      "clock 1:26: second barrel to the same tower (tile [3, 26]) as half of a barrel + Evolution Wall Breakers double threat; he had planned to time it with his Magic Archer instead — \"I was going to line that up with the magart here, but he messed up\" (t=771).",
+      "clock 1:31: reads the barrel as free once he knows the opponent's spells — \"he only has freeze as a spell, which is very nice for us, actually\" (t=767)."
+    ],
+    "magic-archer": [
+      "clock 2:34: Magic Archer placed centrally on his own half (deploy label tile [8, 14], own elixir 9->5) behind the opening Wall Breakers, so the pierce covers either lane. (The pipeline attributed the label to the opponent; the -4 own elixir drop and the opponent's known list say it is his.)",
+      "clock 1:29: plans a barrel around him and abandons it — \"I'm definitely going to line this up with the... oh, I was going to line that up with the magart here, but he messed up\" (t=770-773)."
+    ],
+    "bomb-tower": [
+      "clock 2:19: Bomb Tower centre at tile [8, 10] immediately after committing the Goblin Barrel, pre-empting the ground counter-push rather than reacting to it.",
+      "clock 2:04: second Bomb Tower at tile [8, 11] during the Ice Wizard/ground push; he calls the whole stretch \"very good defense right there\" (t=744)."
+    ],
+    "royal-delivery": [
+      "clock 2:04: Royal Delivery at tile [5, 15] onto the left-lane Ice Wizard that the threat tracker had reaching his tower in ~8 s.",
+      "clock 1:44: Royal Delivery at tile [5, 11] onto three left-lane Minions, justified by cycle rather than value — \"then we can just get the royal delivery down as well cuz we did cycle back which is very nice\" (t=757)."
+    ],
+    "ice-spirit": [
+      "clock 2:37 / 2:30 / 2:19 / 2:00 / 1:25: five Ice Spirits in 113 s, mostly around row 14 near his own bridge — stalling the left-lane push and keeping the barrel/Wall Breakers cycle short; never the whole answer on its own.",
+      "clock 1:25: Ice Spirit follows the barrel + Wall Breakers commit at t=773.4, the cheap filler behind the double threat."
+    ],
+    "fire-spirit": [
+      "clock 2:20: Fire Spirit alongside the Goblin Barrel — \"it's barrel, fire spirit here to apply some pressure\" (t=718).",
+      "clock 1:45: Fire Spirit at tile [6, 15] as the first half of the anti-Minions package, before the Royal Delivery — \"we can just go for the fire spirit here\" (t=755)."
+    ],
+    "berserker": [
+      "clock ~2:03: Berserker deployed deep on his own half at tile [5, 10] into the left-lane ground push, behind the Bomb Tower.",
+      "clock 1:09: second Berserker at tile [1, 12] (elixir 9->7, i.e. the plain 2-elixir card) after the opponent had already conceded. No commentary on the card this game and no evidence of the hero variant."
+    ],
+    "princess": [
+      "clock 2:30: opponent Princess tracked at tile [6, 20], the first card Ryley sees from them; he later names it in the full read — \"he has princess barbs ice wiz and then freeze as his final card\" (t=762)."
+    ],
+    "ice-wizard": [
+      "clock 2:20-2:04: the opponent's answer to the Goblin Barrel, arriving late — \"yeah, he goes for the ice wizard, but that's going to be a ton of damage\" (t=724-726); Ryley then kills it with Royal Delivery at tile [5, 15] (clock 2:04)."
+    ],
+    "barbarians": [
+      "clock 2:26: opponent Barbarians tracked at tile [11, 13] on Ryley's half; he answers the lane with Bomb Tower and expects them again on defence at the end — \"he has to probably go for the barbs\" (t=775) just before the concession."
+    ],
+    "minion-horde": [
+      "clock 1:51-1:50: mentioned, not seen as a full horde — \"okay, he has minion horde as well. Not evo though. Interesting to not run the evo minion horde\" (t=748-752); three Minions are tracked down the left lane at clock 1:44 and answered with Fire Spirit plus Royal Delivery."
+    ],
+    "freeze": [
+      "clock 1:31: named as the opponent's only spell and treated as the reason his bait plan is safe — \"he only has freeze as a spell, which is very nice for us, actually\" (t=767); he had framed the whole list at t=693 as \"a homemade Hog Rider [Miner] Freeze deck\". Never actually cast in the readable window."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": ["goblin-barrel", "wall-breakers", "magic-archer", "berserker", "bomb-tower", "royal-delivery", "ice-spirit", "fire-spirit"],
+    "bullets": [
+      "clock 2:40-2:07: the deck's offence is two cheap threats in different lanes — Wall Breakers from the back at 2:40, Goblin Barrel on the left tower at 2:20 (4858 -> 2762), Wall Breakers over the right bridge at 2:07 (right tower 4858 -> 3738) — with Magic Archer parked centrally at 2:34 to cover both.",
+      "clock 2:19-1:44: defence is Bomb Tower in the centre (2:19 and 2:04) plus Royal Delivery for whatever the tower does not cover — Ice Wizard at 2:04, three Minions at 1:44 — with Ice Spirit and Fire Spirit as the one-elixir filler that keeps the cycle back to the barrel.",
+      "clock 1:31: the plan hinges on the opponent's spell read — \"he only has freeze as a spell, which is very nice for us\" (t=767) — after which he commits barrel plus Evolution Wall Breakers into the same lane at 1:26 and the opponent quits at 1:23.",
+      "This is a bait list without the classic Princess/Rocket shell: Magic Archer replaces the ranged bait card and Bomb Tower is the defensive building, so the spell bait is Goblin Barrel plus Wall Breakers plus the two spirits."
+    ],
+    "new_deck": {
+      "display_name": "Goblin Barrel Log Bait (Ryley)",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel, Wall Breakers and two spirits all demand the same small spell, and whichever one the opponent cannot answer connects — Ryley calls the deck Log Bait in the video title.",
+      "why_it_works_md": "Four cheap threats — Goblin Barrel, Wall Breakers and the Ice/Fire Spirit pair — all ask for the same small spell, so an opponent with only one answer (here, only Freeze) is choosing which one to let through. Magic Archer covers both lanes from the centre of the own half and punishes the swarms that would otherwise clear the barrel, while Bomb Tower plus Royal Delivery gives a ground-heavy defence that survives without spending the bait cards. Average cost is low enough to cycle back to the barrel every push, which is exactly how Ryley justifies spending Royal Delivery on defence at clock 1:44 — \"we did cycle back which is very nice\". The finish is the barrel and Wall Breakers into the same lane at once, a double threat that in this match made the opponent concede outright."
+    }
+  }
+}

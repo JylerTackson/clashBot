@@ -1,0 +1,83 @@
+{
+  "key": "VyADrwRPJz8-m0.5",
+  "match_file": "matches/VyADrwRPJz8-m0.5.md",
+  "video_title": "#1 TOP Ladder Push with Log Bait 🌎🏆",
+  "cards": {
+    "goblin-barrel": [
+      "t=1097 (clock 2:49): opens the game with a barrel on the enemy left tower ([3,25]) at the same moment as bridge Wall Breakers, before he has said a word about the matchup — barrel first is his damage floor here.",
+      "t=1149 (clock 1:58): barrel again into the same tower ([3,25], HUD 7.0->4.0) as the pre-planned half of a defence — \"I'm just going to go for the Goblin Barrel and then I'm going to kite the Valkyrie back with my Wall Breakers.\"",
+      "t=1173/t=1233 (clock 1:34 / 0:33): after the left towers trade he moves the barrel to the right lane ([13,22], then [14,26] HUD 5.0->2.0) and calls the whole dump in advance — \"Let's go for the barrel, Fire Spirit, Berserker, Ice Spirit, and then we need to go for the Wall Breaker.\"",
+      "Against X-Bow/Elixir Collector he treats barrel chip as mandatory, not opportunistic: \"in this matchup if we don't take an entire tower we are going to lose the game. So we have to try our best to get as much damage as we can\" (t=1134-1139)."
+    ],
+    "wall-breakers": [
+      "t=1098 (clock 2:48): bridge Wall Breakers at [4,15] (HUD 9.0->7.0) as the opening pressure alongside a Goblin Barrel.",
+      "t=1115 (clock 2:32): declines a Wall Breakers on purpose to keep the elixir for a ranged answer — \"I'm not going to Wall Breakers cuz I want to be able to Magic Archer his Valkyrie.\"",
+      "t=1150-1156 (clock 1:57-1:51): uses them defensively as a kite, two drops ([3,15], then HUD 3.0->1.0) — \"I'm going to kite the Valkyrie back with my Wall Breakers.\"",
+      "t=1183/t=1254 (clock 1:26 / 0:14): pure chip when he is behind and out of options — \"Let's Wall Breakers here and just take some damage\" and later \"let's Wall Breakers again.\""
+    ],
+    "magic-archer": [
+      "t=1116-1121 (clock 2:31-2:27): two Magic Archers at the left bridge ([2,14]) as the answer to a Valkyrie he has not seen yet — \"I want to be able to Magic Archer his Valkyrie\", then \"let's Magic Archer here at the bridge.\"",
+      "t=1122-1131 (clock 2:25-2:17): stacks Ice Spirit, Fire Spirit and Berserker behind the archer purely to extend his shooting window — \"just grab every single possible lick of Magic Archer damage that we can.\" Enemy left tower goes 4858 -> 1469 over that stretch.",
+      "t=1154 (clock 1:53): a third bridge Magic Archer to force the tower trade — \"we can just go for the Magic Archer here just to ensure that we trade towers.\"",
+      "t=1205/t=1243/t=1259 (clock 1:06 / 0:23 / 0:08): defensive placements far behind the front line ([13,9], [13,11]) against an Evo Valkyrie push, and he still calls him the out — \"I'm still somewhat faithful that I could maybe get like a crazy Magic Archer lineup and finesse the game\" (t=1200)."
+    ],
+    "berserker": [
+      "t=1112/t=1128 (clock 2:35 / 2:19): two bridge Berserkers at [2,15] as the cheap body behind spirit-and-archer chip — \"Let's go for the berserker\", then \"we can go for the berserker as well.\"",
+      "t=1174 (clock 1:34): opens the right lane with Berserker at the bridge ([13,14]) followed by a Bomb Tower — \"Let's go for the berserker. And then we can go for the bomb tower here at the bridge as well.\"",
+      "t=1206/t=1218/t=1251 (clock 1:03 / 0:48 / 0:17): defensive Berserkers at [16,8], [11,8] and [16,14] against the Evo Valkyrie — \"we can go for the low berserker\", and later \"Actually, Berserker as well. Oh, I was trying to keep that alive, man.\"",
+      "t=1235 (clock 0:32): drops a Berserker on the enemy half at [8,21], legal only because the enemy left tower had already fallen. No hero ability was observed this game (no unexplained 3-elixir own drop)."
+    ],
+    "bomb-tower": [
+      "t=1175 (clock 1:32): Bomb Tower at the right bridge ([15,12]) as a lane brake he expects to lose — \"we can go for the bomb tower here at the bridge as well. This is going to get taken out, but we can just go for the evil wall breakers at the bridge.\"",
+      "t=1211 (clock 0:55): a second Bomb Tower with the game already slipping — \"let's definitely go for the bomb tower here cuz it's not like he can stop this anyways.\"",
+      "t=1245 (clock 0:20): placed specifically for splash into three evolved Skeletons plus Valkyrie coming up the right lane ([15,13]) — \"Wait, could I bomb her like this to make it splash? Maybe. Come on, splash. Nice.\""
+    ],
+    "royal-delivery": [
+      "t=1220 (clock 0:47): one use all game, at [15,15] by the right bridge, as the closer after Fire Spirit and Berserker on an X-Bow/Valkyrie push — \"we need to delivery at the [bridge].\" Against a siege deck he keeps it for the swarm-and-Valkyrie package rather than cycling it."
+    ],
+    "ice-spirit": [
+      "t=1122 (clock 2:25): offensive Ice Spirit at the bridge ([2,14]) purely to buy the Magic Archer more shots — \"we can go for the ice spirit as well just to make sure that we grab this extra damage.\"",
+      "t=1208/t=1222/t=1258 (clock 1:03 / 0:44 / 0:08): defensive spirits at [11,15], [8,9] and [14,15] paired with Fire Spirit and Berserker on the right-lane Valkyrie — \"[Ice] Spirit here.\"",
+      "t=1236 (clock 0:32): part of the scripted full-bar dump on the opened enemy half ([8,20]) — \"Let's go for the barrel, fire spirit, berserker, ice spirit.\"",
+      "He credits the opponent's Ice Spirit as the play that saved the tower trade for them — \"Great ice spirit prediction by him though\" (t=1160-1162)."
+    ],
+    "fire-spirit": [
+      "t=1110/t=1126 (clock 2:37 / 2:21): bridge Fire Spirits at [3,14] and [2,14] as the first and third card of the chip package — \"let's go for the fire spear here at the bridge\", then \"go for the fire spear and then we can go for the berserker as well.\"",
+      "t=1203 (clock 1:03): leads his right-lane defence with Fire Spirit at [16,9] (HUD 5.0->4.0) ahead of the Berserker, against a Valkyrie he predicted — \"he's definitely just going to go for the Valkyrie again.\"",
+      "t=1218 (clock 0:48): the cheap first layer again — \"let's go for the low fire spirit. We can go for the low berserker.\" Further drops at [14,14] (t=1233) and [14,10] (t=1261)."
+    ],
+    "x-bow": [
+      "clock 2:00 (t=1145): the opponent's first X-Bow lands at [2,17], into the lane Ryley is already attacking; he answers by continuing his own push (Goblin Barrel + Wall Breakers kite) rather than defending it.",
+      "clock 1:28 onward (t=1177): the X-Bow relocates to [15,17] and takes his right tower from 4683 to ~1246 HP with no enemy troop ever in range — the damage the pipeline logged as four \"unidentified spell\" ticks. He never has an answer for it: \"Man, this is pretty sad getting the tower for no reason, I feel like, cuz I still think that I'm going to get completely wrecked\" (t=1191-1194).",
+      "He rates the whole X-Bow/Collector matchup as the worst one his bait deck can draw — \"this is probably the worst possible matchup we could have gotten for our deck\" (t=1100-1105) — and closes with \"Well, I found the deck that can beat us, guys\" (t=1265)."
+    ],
+    "elixir-collector": [
+      "clock 2:32 (t=1113): the opponent's Collector at [9,22] is the first thing he reacts to, before any play of his own — \"Oh no, guys. This guy has expo pump, man\" (t=1097-1100), then \"He goes for the expo\" (t=1143).",
+      "clock 1:37 (t=1171): explains why a one-crown-each game is bad for him against a pump — \"in a one one, I can't even drop the cards on the expo right now, which is not ideal.\"",
+      "clock 0:47-0:37 (t=1221-1232): a second Collector goes up at [16,27] and he gives the cheap-deck counter-argument — \"one nice thing is that he can't like spam us with expos cuz if he tries to spam us with expos obviously he's going to have to put one of them in the middle and that's obviously not going to work cuz I'll be able to get at it really easily.\""
+    ],
+    "valkyrie": [
+      "clock 2:32 (t=1115): plans around the Evo Valkyrie before it appears, holding Wall Breakers so he can answer it at range — \"I'm not going to wall breakers cuz I want to be able to magic archer his Valkyrie.\"",
+      "clock 2:16-1:51 (t=1129-1152): the opponent's Valkyrie walks down his left lane and he kites it back with Wall Breakers instead of trading a defensive card — \"I'm going to kite the Valkyrie back with my wall breakers\", and he gives credit: \"Nice Valkyrie by him.\"",
+      "clock 1:24 onward: the tracker reports the Evolution variant escorting the X-Bow damage in the right lane; he calls the repeat before it lands (\"he's definitely just going to go for the Valkyrie again\", t=1203) and answers it with Fire Spirit + Berserker + Magic Archer + Royal Delivery rather than a single card."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": ["goblin-barrel", "wall-breakers", "magic-archer", "berserker", "bomb-tower", "royal-delivery", "ice-spirit", "fire-spirit"],
+    "bullets": [
+      "Game 6 of a single-deck #1-ladder session, into X-Bow / Elixir Collector / Evo Valkyrie siege — the matchup he calls the deck's worst: \"This guy has expo pump, man. This is probably the worst possible matchup we could have gotten for our deck, but we did beat this matchup yesterday\" (t=1097-1106). Recorded as a loss.",
+      "The gameplan is one-lane damage racing rather than defence: barrel on the tower plus Magic Archer at the bridge with Ice Spirit, Fire Spirit and Berserker stacked behind him to extend his shooting window (clock 2:49-2:17), which takes the enemy left tower from 4858 to 169 HP. \"In this matchup if we don't take an entire tower we are going to lose the game\" (t=1134-1139).",
+      "Wall Breakers do double duty: bridge chip (clock 2:48, 1:26, 0:14) and a Valkyrie kite on defence (clock 1:57-1:51) — \"I'm going to kite the Valkyrie back with my wall breakers.\"",
+      "Defence against the X-Bow push is layered cheap cards, not one big answer: Fire Spirit then Berserker in front, Magic Archer behind, Bomb Tower at the bridge and Royal Delivery last (clock 1:06-0:44). \"Let's go for the low fire spirit. We can go for the low berserker and then we need to delivery at the [bridge].\"",
+      "The structural weakness he names himself is elixir, not cards: at 2.5 average he can defend but cannot both defend and punish an Elixir Collector — \"in a one one, I can't even drop the cards on the expo right now, which is not ideal\" (t=1171). The X-Bow at [15,17] then takes his right tower from 4683 to ~1246 unanswered."
+    ],
+    "new_deck": {
+      "display_name": "Magic Archer WB Log Bait 2.5",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel and Wall Breakers force small-spell answers while Magic Archer, Bomb Tower and Royal Delivery punish whatever is left, and at 2.5 average elixir it recycles the bait faster than an opponent can hold the counters.",
+      "why_it_works_md": "The deck wins by making the opponent choose which cheap threat to answer. Goblin Barrel goes onto a tower on cycle and Wall Breakers hit the bridge for 2, so a spell held for one is spent on the other; Ryley barrels five times in under three minutes here and takes a princess tower with barrel-plus-spirit chip alone. Magic Archer is the reason the chip converts — placed at the bridge he pierces past the defending Valkyrie into the tower, and Ryley deliberately holds elixir for him (\"I'm not going to Wall Breakers cuz I want to be able to Magic Archer his Valkyrie\"). Defence is layered rather than heavy: Fire Spirit and Berserker in front, Magic Archer behind, Bomb Tower for ground pushes and Royal Delivery as the closer, which at 2.5 average elixir means he is rarely priced out of a defence. The matchup it struggles with is exactly the one shown here — a siege deck with an Elixir Collector, where there is no cheap way to both hold the X-Bow lane and punish the pump."
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "key": "VyADrwRPJz8-m0.0",
+  "match_file": "matches/VyADrwRPJz8-m0.0.md",
+  "video_title": "#1 TOP Ladder Push with Log Bait 🌎🏆",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:35 to 0:44 (t=16.9-243.2): 12 barrels in one game, every one onto a crown tower ([13-15, 24-26] right, [2-3, 25-26] left) and never on defence — the first goes down before he has finished the intro.",
+      "clock 0:48 (t=123.1-123.3): barrel plus Wall Breakers thrown deliberately apart — \"I like to place them a little bit separate like this. So, it's hard to get barbarian barrel value and hit like the wall breakers and the goblin barrel at the same time\".",
+      "clock 1:09 (t=228.6): he switches the barrel to the enemy LEFT tower once the opponent's small spell is out of cycle — \"because he has no barbarian barrel, we can go for the barrel... if he mighty miners this, we can go for the second magic archer\"; that tower goes 2231 -> 237 HP over the next 20 s.",
+      "clock 1:50 (t=182.2): thrown purely to keep the cycle turning — \"Let's barrel again. Keep up the pressure. I want to keep on spamming this guy\"."
+    ],
+    "wall-breakers": [
+      "clock 2:28 to 0:57 (t=22.2-236.2): 11 deploys, all on his own half at the river row ([2-5, 14-15] left, [13-15, 13-15] right) — run-up bridge placements, never behind a tank.",
+      "clock 1:20 (t=92.1): he sends them knowing they die — \"We can go for the Evo wall breakers... cuz he has a cannon which will take out the wall breakers. But it's fine cuz we get a lot of damage here on the left and on the right side as well\".",
+      "clock 1:46 (t=190.2): used as an elixir lock on the opponent's win condition — \"Let's wall breakers too cuz he has to go cannon. He can't hog cuz he has to defend\".",
+      "clock 0:57 (t=236.2): lane discipline in the closing push — \"Let's wall breakers opposite lane\", into the side the enemy Cannon does not cover."
+    ],
+    "magic-archer": [
+      "clock 2:28 (t=24.0, tile [14, 15]): opening Magic Archer at the bridge against a spent hand — \"Just going to go for the Magic Archer here at the bridge early on because I realized that he kind of wasted all of his blockers\"; enemy right tower 4858 -> 3713 in the next 8 s, and he adds \"Magic Archer is so strong, man... it is way too good\" (t=32-37).",
+      "clock 0:38 and 0:12 (t=133.1 tile [14, 2], t=160.2 tile [9, 1]): back-line placements on purpose — \"it's sometimes good to start stacking up the magic archers in this matchup... Even though it is a very big threat at the bridge, I do like to place it in the back sometimes just to start being really annoying\".",
+      "overtime 1:46-1:09 (t=188.2, 212.2, 230.2): in overtime the Magic Archers walk behind the bait rather than in front of it — \"the barrels tank for by the magic archer\" (t=234), and \"we can go for the magic archer plus berserker here to block this\" (t=242) is his Mighty Miner answer."
+    ],
+    "berserker": [
+      "10 deploys at 2 elixir (clock 2:18 to 1:09, t=34.0-223.2), split between defensive plugs on his own half ([6, 9], [10, 8], [2, 14]) and bridge follow-ups behind a barrel ([9, 14], [15, 15], [14, 14]).",
+      "clock 0:17 (t=154.2): played to start a push, not to defend — \"Let's go for the berserker here. And then we need to start applying some pressure because he has a full HP cannon down\".",
+      "clock 0:44 (t=242): half of his Mighty Miner block, with the ability priced in — \"we can go for the magic archer plus berserker here to block this. He has to hit the ability, but we're going to get at least one, maybe two\". No hero ability was used in this game (no 3-elixir drop without a hand change)."
+    ],
+    "bomb-tower": [
+      "nine placements, eight of them on the same centre tile [8, 10] (clock 2:08 t=42.0, 1:27 t=85.1, 0:38, 0:18, 0:08, overtime 1:46/1:29, 0:52 at [8, 11]), re-laid as soon as it is off cooldown — the centre-pull building of the deck.",
+      "clock 1:09 (t=105-108): he counts cycle against it — \"we do have to be a little bit careful though cuz we are not back to the bomb tower yet\", then puts the next one down at [2, 9] against the left-lane push.",
+      "clock 1:27 (t=85.1): paired with Berserker as the standard defensive set — \"Let's go for the bomb tower here. Then we can go for the berserker as well\"."
+    ],
+    "royal-delivery": [
+      "four uses, all defensive and all on his own half (clock 2:04 t=45.0 at [4, 8], 0:37 t=134.3, overtime 1:19 t=212.9, 0:44 t=251.1) — each onto a committed ground push (lane-switching Mighty Miner, the Cannon push, the Firecracker/Barbarians left lane, the final Mighty Miner).",
+      "clock 2:04 (t=44-52): he plays it knowing it will not save the tower — \"We are definitely going to take a decent bit of damage here, but that's what happens when they switch lanes with the mighty miner ability. But we got a lot of damage with the magic archers, so it shouldn't be the end of the world\"."
+    ],
+    "ice-spirit": [
+      "11 deploys; the defensive pattern is spirit-then-building — \"Let's go for the ice spirit and then we can go for the bomb tower here as well\" (clock 2:12, t=40.0 at [3, 14]) and again at clock 1:09 (t=106.1 at [2, 8]).",
+      "overtime 1:31 (t=202-206): played as a prediction against cheap defence — \"we ice spirit for the skeletons cuz he might try to defend for cheap\", which he then scores: \"Great prediction right there. That's going to get one\".",
+      "overtime 1:34 (t=198.5, tile [9, 15]): also used as a bridge poke alongside the Fire Spirit routine."
+    ],
+    "fire-spirit": [
+      "11 deploys, the signature one being the enemy-side bridge tile [14, 14]/[14, 15] (t=25.0, 72.1, 110.1, 139.1, 179.2, 216.2) and its mirror [1-2, 13-15] late (t=158.8, 235.2, 246.2).",
+      "clock 1:03 (t=110.1): the stated purpose is draining an expensive answer with a 1-elixir card — \"I'm going to quickly fire spirit at the bridge cuz he has no [E-]spirit and no skeletons in cycle. So he's going to have to waste either firecracker or mighty miner\"; the Firecracker it forces out then gives him a King tower activation (t=116-122).",
+      "overtime 1:35 and 0:57: repeated as a habit — \"Let's fire spirit the bridge and try to get some extra pressure\" (t=197), \"Let's fire spirit the bridge here\" (t=236)."
+    ],
+    "mighty-miner": [
+      "clock 2:22-2:04 (opponent, tracked crossing onto Ryley's left half): he plans for it a beat early — \"Okay, we have to be careful here of the mighty miner\" (t=39) — and still accepts chip: \"that's what happens when they switch lanes with the mighty miner ability\" (t=47). Own left tower 4624 -> 4390.",
+      "overtime 0:50-0:44 (t=242.2): answered with Magic Archer plus Berserker rather than a hard counter, with the ability expected — \"He has to hit the ability, but we're going to get at least one, maybe two\" (t=244)."
+    ],
+    "cannon": [
+      "clock 0:38 (opponent Cannon at tile [16, 20]) and again in overtime, evolved — \"There's the evo cannon\" (t=195). Ryley treats a Cannon spent on defence as a Hog Rider denied: \"Let's wall breakers too cuz he has to go cannon. He can't hog cuz he has to defend\" (t=190).",
+      "he pre-accepts that it eats his Wall Breakers rather than holding them back — \"he has a cannon which will take out the wall breakers. But it's fine cuz we get a lot of damage here on the left and on the right side as well\" (t=95-101)."
+    ],
+    "firecracker": [
+      "opponent card, tracked at clock 0:08, 1:46, 1:24, 1:18 and 0:58 (evolved from t=162). Ryley tracks the evolution cycle out loud — \"Okay, his next firecracker is evolved. So, you have to be very mindful of that\" (t=146) — and treats forcing it out with a 1-elixir Fire Spirit as a win: after it is spent, \"because he wasted firecracker, we can get a nice King tower activation here\" (t=116-122)."
+    ],
+    "hog-rider": [
+      "mentioned, never cleanly detected: the opponent's win condition, which Ryley says his own bridge pressure denies — \"He can't hog cuz he has to defend\" (t=192), \"I know he's going to go for the hog now. Yep, that's obvious\" (t=199), \"He might try to hog in. So, we just need to be ready\" (t=214)."
+    ],
+    "electro-spirit": [
+      "mentioned throughout as the opponent's cheap answer he counts before every barrel or Fire Spirit — \"he has no [E-]spirit and no skeletons in cycle\" (t=112), \"[E-]spirit skellies here. Great. Grab one\" when it finally lands at clock 0:18 (t=151), \"now he has no [E-]spirit. Oh my god. And no barb[arian barrel]. Hold on. This guy's messing up a lot on defense\" (t=178)."
+    ],
+    "skeletons": [
+      "mentioned as the other half of the opponent's cheap defence, and as the trigger condition for his own bridge plays — \"he has no [E-]spirit and no skeletons in cycle. So he's going to have to waste either firecracker or mighty miner\" (t=112); at overtime 1:31 he pre-empts them with an Ice Spirit, \"we ice spirit for the skeletons cuz he might try to defend for cheap\" (t=203)."
+    ],
+    "barbarian-barrel": [
+      "the opponent's card in this game, and the spell Ryley's whole placement pattern is built around — \"I like to place them a little bit separate like this. So, it's hard to get barbarian barrel value and hit like the wall breakers and the goblin barrel at the same time\" (clock 0:48, t=127).",
+      "clock 1:09 overtime (t=228): once it is out of cycle it is his cue to commit — \"because he has no barbarian barrel, we can go for the barrel\", and that barrel sequence takes the game."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": [
+      "goblin-barrel",
+      "wall-breakers",
+      "magic-archer",
+      "berserker",
+      "bomb-tower",
+      "royal-delivery",
+      "ice-spirit",
+      "fire-spirit"
+    ],
+    "bullets": [
+      "Game 1 of a 7-game top-ladder session, vs a Hog Rider / Mighty Miner 2.6 cycle deck with Evo Cannon and Evo Firecracker: win in overtime, enemy left tower 2231 -> 237 HP between t=224 and t=248 (\"that's going to just take the tower. Come on, let's go. Good game\", t=247).",
+      "Piloting rule he states at t=55-72: \"the pressure is just relentless. It never stops... you always got four cards in your hand, guys, which means you do not stop placing them at the bridge. That's like the whole theme of this deck.\" In practice: 12 Goblin Barrels, 11 Wall Breakers and 11 Fire Spirits in 250 s, almost all at the bridge or on a crown tower.",
+      "He names the archetype himself at t=75-80: \"a lot of people like to call these types of decks log bait, but in reality, they're more like bridge spam\".",
+      "Defence is a fixed, cheap package: Bomb Tower on the centre tile [8, 10] re-laid every cycle, spirit first (\"Let's go for the ice spirit and then we can go for the bomb tower here as well\", t=41), Berserker as the plug, and Royal Delivery held for committed ground pushes (4 uses, all on his own half).",
+      "Magic Archer is played two ways in the same game: bridge Magic Archer early for chip when the opponent's hand is spent (t=24), then back-line Magic Archers stacked behind the bait from t=133 on — \"the barrels tank for by the magic archer\" (t=234).",
+      "Bait timing is gated on the opponent's small-spell cycle: he barrels the right lane through regular time and switches to the left the moment \"he has no barbarian barrel\" (t=228), and spends 1-elixir spirits at the bridge to drain Firecracker / Mighty Miner (t=111-116)."
+    ],
+    "new_deck": {
+      "display_name": "Ryley Log Bait Bridge Spam (Goblin Barrel / Wall Breakers)",
+      "archetype_primary": "bait",
+      "archetype_secondary": "bridge-spam",
+      "rationale": "Goblin Barrel plus Wall Breakers plus two spirits bait the opponent's small spell and cheap answers, but every deployment is a bridge-lane pressure play, which is how Ryley describes it himself: \"people like to call these types of decks log bait, but in reality, they're more like bridge spam\" (t=75-80).",
+      "why_it_works_md": "At 2.4 average elixir the deck always has four playable cards, so pressure never pauses: in this game Ryley threw 12 Goblin Barrels, 11 Wall Breakers and 11 spirits in a little over four minutes, forcing the opponent to answer with Cannon, Firecracker or Mighty Miner instead of playing his own Hog Rider. The two win conditions bait different answers and are placed apart on purpose, so one Barbarian Barrel or Log cannot cover both, and the lane is switched as soon as the relevant spell leaves the opponent's cycle. Defence is deliberately cheap and repeatable — Bomb Tower on the centre tile, a spirit in front of it, Berserker as the plug and Royal Delivery for a committed ground push — so the elixir saved goes straight back into bridge plays. Magic Archer is the swing card: at the bridge it chips a spent hand, and from the back line it stacks up behind the barrels as permanent support (\"the barrels tank for by the magic archer\")."
+    }
+  }
+}

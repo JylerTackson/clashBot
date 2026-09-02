@@ -1,0 +1,143 @@
+{
+ "frames": 9195,
+ "seconds": 3359.8,
+ "timing": {
+  "total": {
+   "n": 9195,
+   "mean_ms": 358.3,
+   "p95_ms": 1829.1
+  },
+  "elixir": {
+   "n": 9193,
+   "mean_ms": 1.2,
+   "p95_ms": 1.7
+  },
+  "hand": {
+   "n": 9193,
+   "mean_ms": 123.0,
+   "p95_ms": 143.2
+  },
+  "clock": {
+   "n": 9193,
+   "mean_ms": 71.3,
+   "p95_ms": 453.2
+  },
+  "labels": {
+   "n": 1532,
+   "mean_ms": 429.1,
+   "p95_ms": 544.7
+  },
+  "detect": {
+   "n": 766,
+   "mean_ms": 969.5,
+   "p95_ms": 1101.1
+  },
+  "loop_fps": 2.8
+ },
+ "own_elixir_drift": {
+  "n": 1566,
+  "mean": -0.081,
+  "abs_mean": 1.085,
+  "max_abs": 9.536,
+  "last": 1.43
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "electro-wizard",
+   "magic-archer",
+   "fire-spirit",
+   "barbarians",
+   "graveyard",
+   "wizard"
+  ],
+  "deck_complete": false,
+  "predicted_hand": null,
+  "predicted_next": null,
+  "deck_predictions": [
+   {
+    "card": "battle-ram",
+    "p": 0.95,
+    "source": "kb_inference"
+   },
+   {
+    "card": "royal-ghost",
+    "p": 0.91,
+    "source": "kb_inference"
+   },
+   {
+    "card": "fireball",
+    "p": 0.87,
+    "source": "kb_inference"
+   },
+   {
+    "card": "bandit",
+    "p": 0.87,
+    "source": "kb_inference"
+   },
+   {
+    "card": "p-e-k-k-a",
+    "p": 0.87,
+    "source": "kb_inference"
+   },
+   {
+    "card": "zap",
+    "p": 0.87,
+    "source": "kb_inference"
+   }
+  ],
+  "kb_matches": [
+   {
+    "deck_key": "bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap",
+    "name": "Pekka Bandit EWiz EvoGhost",
+    "archetype": "bridge-spam",
+    "matched": 2,
+    "contradicted": 4,
+    "score": -5.98,
+    "remaining": [
+     "bandit",
+     "battle-ram",
+     "fireball",
+     "p-e-k-k-a",
+     "royal-ghost",
+     "zap"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies",
+    "name": "GS Evo Ram HeroWiz MW",
+    "archetype": "bridge-spam",
+    "matched": 1,
+    "contradicted": 5,
+    "score": -8.96,
+    "remaining": [
+     "barbarian-barrel",
+     "battle-ram",
+     "giant-skeleton",
+     "mother-witch",
+     "royal-ghost",
+     "vines",
+     "zappies"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies",
+    "name": "GS Evo Ram HeroWiz MW",
+    "archetype": "bridge-spam",
+    "matched": 1,
+    "contradicted": 5,
+    "score": -8.96,
+    "remaining": [
+     "barbarian-barrel",
+     "battle-ram",
+     "elite-barbarians",
+     "giant-skeleton",
+     "mother-witch",
+     "vines",
+     "zappies"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0
+ }
+}

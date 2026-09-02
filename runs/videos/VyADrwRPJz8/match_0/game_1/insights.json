@@ -1,0 +1,80 @@
+{
+  "key": "VyADrwRPJz8-m0.1",
+  "match_file": "matches/VyADrwRPJz8-m0.1.md",
+  "video_title": "#1 TOP Ladder Push with Log Bait 🌎🏆",
+  "cards": {
+    "magic-archer": [
+      "clock 2:43: opened the match by placing him at tile (9, 0), fully behind his own king tower, elixir 9 -> 5, against a Bowler/Balloon/Freeze control deck — \"make sure that we keep this magic archer completely healthy because now he's going to have to block for the magic archer, otherwise it will line up on that bowler. That's where the magic archer can get so annoying.\"",
+      "clock 1:35: replayed at (9, 9) mid-own-half behind an active push instead of at the bridge, and left down for the rest of double elixir because he had counted the opponent's cycle — \"because he has no [Tornado], he's not going to be able to take out our magic archer.\"",
+      "clock 1:03: cast at (9, 8) as the first layer of the defence against the Balloon/Inferno commitment he had predicted, before Royal Delivery and Ice Spirit — \"let's go for the marcher here. He's going to Yeah, he's definitely going to go in.\"",
+      "clock 0:38: cycled back to (9, 0) behind his own king tower after the opponent conceded a tower — \"he does give up the tower and cycle the magic [archer] here.\""
+    ],
+    "goblin-barrel": [
+      "clock 2:34: thrown at (2, 24) while the opponent's Inferno Dragon was already walking into his half and the opponent was down to 0 elixir; the enemy tower fell 4298 -> 2924 HP over the next ten seconds — \"He messed up. That's huge. Actually, that's going to be a lot of damage.\"",
+      "clock 1:50: thrown at (15, 24) in the same rotation as Wall Breakers to overload a single answer — \"he's one card off of the barbarian brill [Barbarian Barrel]. So, I'm just going to go for the wall breakers plus [goblin barrel].\"",
+      "clock 1:18: barrel + Fire Spirit + Wall Breakers all in one cycle at (15, 25), immediately before both enemy towers collapsed (left 3032 -> 580, right 2172 -> 1788 within six seconds) — \"Let's go for the barrel, fire spirit, and wall breakers here. He has to be very careful.\""
+    ],
+    "wall-breakers": [
+      "clock 2:48: opened the game with a deliberate centre split at tile (8, 14) so the pair takes both lanes — \"Gonna start with the split wall breakers here.\"",
+      "clock 1:51 and 1:17: single-lane bridge pressure at (13, 14) and (4, 15) stacked on top of a Goblin Barrel and a Fire Spirit in the same rotation, rather than played alone.",
+      "clock 0:47: played purely as an answer-drain while already far ahead — \"Just keep up the pressure cuz he's going to have to spend at least a spell on this, if not a bowler.\"",
+      "clock 0:07: last-cycle Wall Breakers at (8, 18), elixir 4 -> 2, with both enemy towers under 600 HP."
+    ],
+    "bomb-tower": [
+      "clock 2:17: placed early and pre-emptively at (10, 9) in the central pocket while enemy Barbarians were ~1s from his left tower — \"I'm going to go for the bomb tower early here just to help take this out. And he can't really go for the loon on the left because we have the magic archer ready.\"",
+      "clock 2:08: deliberately let it die to the opponent's Bowler rather than spend on it — \"I'm not even going to protect the bomb tower from the bowler. There's no point.\"",
+      "clock 1:03: replayed at (10, 10), same central pocket, as the reset against a committed Inferno Dragon + Barbarians push — \"Okay, we can bomb tower to bring this back. Beautiful.\"",
+      "clock 0:31 and 0:11: two more central placements at (9, 10) and (15, 10) to close out the game against the Bowler — \"That is not connecting to our tower. We have bomb tower ready.\""
+    ],
+    "royal-delivery": [
+      "clock 2:03: cast at (2, 13) as the third layer of a defence that already had Berserker at the bridge and Magic Archer behind it — \"then we go for the magic arch and we go for the delivery as well. This will be a very clean defense.\"",
+      "clock 1:03: his designated answer to the Balloon Freeze all-in, at (15, 12) alongside Ice Spirit and Bomb Tower — \"Let's go for the delivery here ... And even if he freezes, yeah, he's not going to take out our tower.\"",
+      "clock 0:23 and 0:15: cast twice more at (13, 14) and (14, 13) against the last Bowler push — \"Let's go for the delivery here\" / \"We can go for a delivery.\""
+    ],
+    "ice-spirit": [
+      "clock 1:50: dropped for 1 elixir in front of the Wall Breakers push to stall the expected Bowler answer — \"And then I'm going to ice spear in front of this.\"",
+      "clock 1:03: added at (12, 11) on top of Royal Delivery and Bomb Tower to freeze a stacked defence — \"Let's ice spirit as well just to freeze everything hopefully.\"",
+      "clock 0:20: used at (10, 14) inside the closing defensive shell alongside Berserker and Magic Archer — \"Let me go for the ice spirit.\"",
+      "clock 0:13 and 0:07: two more 1-elixir drops, functioning as the cheapest way back around to the Goblin Barrel."
+    ],
+    "fire-spirit": [
+      "clock 1:17: part of his signature offensive triple at tile (8, 13), thrown in the same rotation as Goblin Barrel and Wall Breakers — \"Let's go for the barrel, fire spirit, and wall breakers here.\"",
+      "clock 0:52: paired with the Berserker as cheap splash on a committed push at (13, 9) — \"Fire spirit berserker here. Yeah, that's not even a hit.\"",
+      "clock 0:27 and 0:19: two defensive 1-elixir uses at (9, 5) and behind the Magic Archer — \"let's go for the fire spirit here\" and \"we can go for a low magic archer, fire spirit just to take this out.\""
+    ],
+    "berserker": [
+      "clock 2:07: used as a 2-elixir bridge block rather than as offence, ahead of Magic Archer and Royal Delivery — \"Let's block the bridge here.\"",
+      "clock 1:28: placed at (15, 13) on his own half behind the bridge as walk-in support for the Goblin Barrel / Wall Breakers cycle, not as a lead unit.",
+      "clock 0:47: dropped at (16, 9) next to a Fire Spirit against the opponent's Inferno Dragon push — \"Fire spirit berserker here.\"",
+      "clock 0:23: played at (16, 15) explicitly as a blocker in the closing defence — \"We can go for the berserker to block.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": [
+      "berserker",
+      "bomb-tower",
+      "fire-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "magic-archer",
+      "royal-delivery",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "clock 2:48-2:34 (t=257-272): the standard opening is split Wall Breakers at centre (8, 14), then Magic Archer behind the king tower at (9, 0), then a Goblin Barrel the moment the opponent commits — pressure first, defence assembled behind it.",
+      "clock 2:17-2:03 (t=290-302): the defensive shell is Bomb Tower in the central pocket plus Berserker at the bridge plus Royal Delivery, with the Magic Archer never traded — \"This will be a very clean defense.\" He is willing to let the Bomb Tower die to the Bowler rather than protect it.",
+      "clock 1:51-1:17 (t=315-351): in double elixir the deck's engine is Goblin Barrel + Wall Breakers + Fire Spirit in a single rotation, timed off the opponent's cycle (\"he's one card off of the barbarian brill\"); both enemy towers fell from ~3000/2200 to 580/1788 HP inside forty seconds.",
+      "clock 1:03-0:47 (t=363-380): against the Balloon Freeze all-in he stacks Bomb Tower + Magic Archer + Royal Delivery + Ice Spirit before the push arrives — \"even if he freezes, yeah, he's not going to take out our tower\" — and immediately re-opens with Fire Spirit + Berserker + Wall Breakers.",
+      "clock 1:35 (t=332): the deck's win rate against this opponent hinged on spell tracking, not damage — \"because he has no [Tornado], he's not going to be able to take out our magic archer.\"",
+      "Match won against the knowledge base's Loon HeroKnight Double Dragon Bowler control deck (Baby Dragon / Balloon / Barbarian Barrel / Bowler / Freeze / Inferno Dragon / Knight Hero / Tornado); Ryley's sign-off at 418-424s: \"That was a perfectly played game ... Just a master class right there.\""
+    ],
+    "new_deck": {
+      "display_name": "Goblin Barrel Log Bait Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel, Wall Breakers, Ice Spirit and Fire Spirit all demand the same small spell, so whichever the opponent cannot answer connects; the 2.5 average elixir makes it a cycle deck as well.",
+      "why_it_works_md": "Three cheap threats — Goblin Barrel, split Wall Breakers and the spirits — each ask for the opponent's small spell, and at 2.5 average elixir the deck comes back around to them faster than the answers do. The defence is a Bomb Tower in the central pocket backed by Royal Delivery and Ice Spirit, which together blank the Balloon Freeze and Bowler pushes this deck's control matchups rely on. The Magic Archer is the piece that makes it more than a chip deck: placed behind the king tower he pierces through a push into the tower behind it, and Ryley treats keeping him alive as the game plan — \"make sure that we keep this magic archer completely healthy\" (277s), and once the opponent's Tornado is out of cycle he simply leaves him down. Played this way the deck wins by counting the opponent's rotation rather than by out-damaging them: cheap pressure drains the answers, then the barrel and Wall Breakers land in the rotation where none is available."
+    }
+  }
+}
