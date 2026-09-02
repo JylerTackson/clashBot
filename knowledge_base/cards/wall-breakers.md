@@ -620,6 +620,66 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
 - overtime 1:14-1:08: unsure whether double spirit still kills them - "We hit the Wall Breakers with spirit spirit. Um does that not work anymore or or did I mess up? I'm actually not sure. I'm going to have to test that interaction out."
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- clock 1:59: Wall Breakers at [4, 15] immediately behind a Goblin Barrel on the same tower, so the Crown Tower has to choose between the goblins and the runners.
+- clock 0:14: second pair at [15, 14] in the opposite lane during the closing push, again barrel-first. Both pairs are bridge placements at double/triple elixir, never used on defence here.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:50: opening Evo Wall Breakers split at tile [8, 14], centre of his own half, used as a deck scout — "I'm just going to go for the wall breaker split here. Try to figure out what this man is playing" (175-178s).
+- clock 1:58 to 0:25: the every-cycle chip threat at the bridge — tiles [5, 14] (HUD 7 -> 5), [4, 15], [4, 14], plus HUD-only pairs at 312.6s (10 -> 8) and 320.3s (5 -> 3). The first one takes the enemy right tower 4474 -> 3914: "We're going to get a nice wall breaker connection. I don't know why he defended the right side one when the right side had a lot of low HP" (233-237s).
+- clock 2:07: names a king-activation trick with them — "Maybe later in the game I'll be able to activate my king tower off of the Bowler with my Wall Breakers. There's like a really cool interaction with the Wall Breakers that you can do to activate your king tower" (218-226s).
+- overtime 1:56 to 1:44: used on defence at tile [4, 14] and then offensively at [9, 17] behind the Ronin — "Then we go for the Evo Wall Breakers just to splash this, and then we can go for the Ronin as well" (350-354s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 2:49: he opens the game with a split Wall Breakers on the centre river tile (8, 15), and repeats it at (8, 14) at clock 2:23. His reason is cycle, not damage: "I do think that with this deck split Wall Breakers is probably the most ideal thing to do just to get to the Evo Wall Breakers for defense cuz they're extremely powerful on defense still" (371-379s).
+- clock 1:23: pure defensive kite at (14, 14) — "Okay, let's Wall Breakers to kite this back and apply some pressure" (457-459s).
+- clock 0:47: played at the river tile (15, 15) as pre-emptive bait for a known counter — "we can go for the wall breakers as well cuz he's probably going to go for a bowler or an inferno dragon. Nice" (493-496s).
+- clock 1:15: he credits a Wall Breaker body with denying a King-tower activation — "Letting that knight hit the one wall breaker was huge as well because then he wasn't able to activate the king tower" (466-470s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 2:49 (t=546.0): opens the game with them split down the middle at tile [8, 14] as a scouting play — "Going to split my wall breakers. Try to figure out what this man is playing" (t=545-549).
+- clock 1:50-1:45 (t=609.6 [3, 15], t=612.6 [4, 14]): spends the evolved pair offensively against his own preference — "I do have the Evil [Evo] Wall Breakers. I would like to save them for defense, but I don't really think that's possible. I guess I'll just Evil Wall Breakers here" (t=610-614).
+- clock 1:24 (t=631.6, tile [14, 15]) and clock 1:22 (t=634-637): played as a shield for the ranged support as much as for damage — "if these Wall Breakers could tank for the Marcher for a bit, that would be beautiful".
+- clock 0:51 (t=664.7, tile [7, 13]) and clock 0:23 (t=692.7, tile [2, 14]): both are half of a Barrel + Wall Breakers package in the opposite lane to his defence — "It's Barrel Wall Breakers here opposite lane... Wall Breaker, bang" (t=666-674) and "Let's go for the barrel and then Evo Wall Breakers. This should be tower down or at least very close" (t=692-699).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- The other half of his offensive loop, deployed at his own river row in the lane opposite the last barrel: clock 2:28 [5, 14], clock 2:00 [13, 15] — "then Wall Breakers opposite lane" (t=772) — clock 1:09 [3, 14] and again in overtime [3, 14].
+- clock 1:51: they connected on the enemy right tower (4858 -> 4298) straight through a Barbarians push, which surprised him — "how did those Wall Breakers connect? What the heck? ... how the heck did it connect through Barbs?" (t=782-789).
+- clock 1:31: deliberately held rather than thrown, as the defensive answer kept in hand against a Goblin Drill deck — "I'd rather just Ronin here and I have the Evo Wall Breakers still ready for defense in case he wants to do anything" (t=803).
+- clock 0:08 (t=883.9): actually spent on defence, deep at [15, 5] against Barbarians in the right lane with an Ice Spirit behind — "Evil [Evo] wall breakers here on defense and then we can go for the ice spirit here as well. Perfect"; his right tower lost only 41 HP all game.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- clock 2:10 and 0:27: played on his own half purely to deny the opponent a King Tower activation, not for damage — tile [5, 14] then [14, 14]: "He might try to activate King Tower, so I think I want to go for the Wall Breakers with it here just to not give him that good opportunity to activate the King Tower" (950-955s), "I think I want to Evo wall breakers in front just so he doesn't get the king activation so easily" (1057s).
+- clock 1:20-1:17 and OT 0:38: used as a kite/distraction against a Battle Ram's Barbarians and against the Bandit — tile [6, 14] plus a second pair 5 s later: "Okay. Let's just Wall Breakers to kite this away, so we don't have to defend the barbarian" (1002-1005s); "Wall breakers here to distract the bandit" (1167s).
+- clock 2:19, 0:56, OT 1:20 and OT 0:28: bridge deployments at [11, 15], [13, 15], [14, 15] and [14, 15], always sequenced with something else rather than alone — "Let's go for the wall breakers behind after it takes out the musketeer" then "Okay, let's wall breakers in front" (1120-1124s); "He's not going to be able to defend this goblin barrel plus wall breakers" (1174-1176s). His read on the OT 1:55 pair: "Hopefully those wall breakers can connect. Come on, wall breakers. Nice, we got one connection at least. I'll take that. Definitely needed that one" (1089-1096s).
+- he is running the evolved version: "we have the Evo Wall Breakers offensively, cuz he has no Tombstone in cycle now" (1026-1029s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 2:31: Wall Breakers at tile [2, 14], left bridge, as the follow-up to the opening barrel — "Let's go for the wall breakers here." The opponent's Vines missed and they connected: "Oh, he missed the vines. That's huge. That's a connection" (enemy left tower 4282 -> 3722, King activated).
+- clock 0:38: Wall Breakers at tile [9, 18] added behind the surviving Ronin during the winning push — "Spirit wall breaker is here."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:50: the opening play of the game is a split - "Just going to split the wall breakers here, try to figure out what he's playing" (1359-1364s), deploy label at tile [8, 14].
+- clock 2:23, 1:30, 0:55, 0:13 and overtime: five more bridge deployments at [2, 14] (t=1386.4, 1439.4, 1474.5, 1516.5) and [13, 14] (t=1535.5), each one in the lane opposite whatever he just defended - "let's spirit barrel here then we wall breakers opposite lane. I think he's just cooked" (1533-1537s).
+- clock 0:32: one placement on his own half at [7, 9] (t=1497.5) as part of the same pressure rotation rather than a defence - "Let's barrel wall breakers again. Keep up the pressure" (1500-1503s).
+- Against this Graveyard control deck he treats them as a chip threat that must keep coming rather than a finisher; the Baby Dragon is why - "Baby dragon is super annoying for me" (1408-1410s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

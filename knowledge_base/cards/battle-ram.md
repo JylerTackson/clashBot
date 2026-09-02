@@ -338,6 +338,12 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:30 (t=1947.5): Evo ram at [2, 14] in the same beat as Elite Barbarians in the opposite lane; the opponent's Tesla whiffs on it — "I went for the Evo ram. I just ignored the goblin barrel" (t=1951), "Look at that Battle Ram. He missed the Tesla" (t=1960).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- opponent card, evolved. Tracked crossing at t=954 (clock 2:10), t=1000, t=1087 and t=1162; he holds an Ice Spirit specifically for it — "I need to get back to another ice spirit though before he goes for the Evo ram" (1042-1046s).
+- clock 1:20: he kites the death-spawn Barbarians with Wall Breakers instead of spending a real defensive card — "Okay. Let's just Wall Breakers to kite this away, so we don't have to defend the barbarian" (1002-1005s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

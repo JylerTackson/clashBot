@@ -262,6 +262,19 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.
 - clock 1:30: a mistimed Bowler is what lets his bridge Wall Breakers connect — "that Bowler was kind of bad cuz I think I get a hit. Yeah, we get a hit." In overtime at 1:03 he considers using it for a king activation and decides against it — "could I activate King off of this bowler? I think I could. Okay, actually there's no point to even try cuz the balloon is coming down."
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:31 to 2:21: the opponent's Bowler pushes the right lane from tile [15, 19]; Ryley answers by placing a Ronin directly on top of it and uses it to teach the parry's limit — "even though it looks like Bowler might be a melee unit, it's not actually a melee unit, so it does not reflect the Bowler" (196-201s).
+- clock 2:07: he plans to farm it for a king-tower activation — "Maybe later in the game I'll be able to activate my king tower off of the Bowler with my Wall Breakers" (218-222s).
+- clock 0:50 and overtime 1:58: he predicts a back-placed Bowler and pre-throws a barrel at it (294-297s); the Bowler that does arrive at tile [3, 13] in overtime is met with Skeletons, Wall Breakers and Ronin — "Beautiful defense" (354s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 2:02: the opponent places the Bowler down the middle and Ryley treats it as a free tempo gift — "Wait, this is a free lineup. Why did he put it down the middle? It's a very very good lineup for us" (420-424s) — then answers it with 1-elixir Skeletons at (3, 12) to surround it.
+- clock 0:47: he expects the Bowler as the answer to Wall Breakers and baits it deliberately (493-496s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

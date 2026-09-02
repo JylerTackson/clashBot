@@ -173,6 +173,11 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.
 - Opponent card, tracked to within 2.7 s of his right tower at clock 1:59 and replayed at overtime 0:38. Answered both times without a dedicated counter: a Wall Breakers kite at (13, 13) plus the Bomb Tower / Royal Delivery / Fire Spirit stack the first time ("Let's just Wall Breakers to bring this back"), and Magic Archer + Ice Spirit + Berserker + Royal Delivery the second.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Detected once on the opponent's side at clock 1:27 [4, 15], in the same second Ryley says "Okay, there's the drill" — low-confidence, and possibly the Goblin Drill push mislabelled. He never names the card.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

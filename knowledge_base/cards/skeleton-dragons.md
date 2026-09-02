@@ -225,6 +225,17 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
 - clock 0:29-0:19: the opponent's air support behind the third Lava Hound, tracked into Ryley's left lane. He tanks them with a defensive Miner and Berserker rather than spending the Fireball — 'We need the berserker to tank for everything' (157s) and 'Let's minor here defensively just to tank those skelly drags. Perfect defense' (162-163s).
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- Opponent card, clock 2:19 at tile [9, 15] and again at 0:25. It is the air support the Ronin cannot touch; Ryley's response both times is to hold the lane with Cannon and spirits and to keep the Magic Archer deep — "a low magic archer just to not give him too much value" (145-147s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- opponent card, identified while he guesses the last slot at clock 0:48 — "I wonder if he has a Magic Archer. This deck looks like it could use one. Oh, yeah, Skelly drags instead" (1034-1037s).
+- clock 0:45 and OT 1:47: answered with a Cannon at [9, 10] plus a Fire Spirit, and later a Fire Spirit alone — "Then we go for the fire spirit just to make sure we take out that skeleton dragon" (1099-1100s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

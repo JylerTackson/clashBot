@@ -222,6 +222,12 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - OT 1:41: he states the ordering inside the push — 'Let's poison first and then...' — Poison down before the Graveyard rather than reactively after the defenders appear.
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 1:50 and 0:18: he plays the Magic Archer's step-back as the Poison dodge - "If he poisons, we could hit a step back" (1420s), "I know he's going to poison it, but that's fine cuz we also got the barbarian barrel" (1512-1513s). The spell itself is never detected; it registers as four unattributed tower-damage events (269, 511, 303 and 269 HP at t=1421.4, 1463.5, 1498.5, 1552.6).
+- clock 1:46: he credits the opponent for timing it against a retreat - "He waited for it to walk so if it steps back then it'll stay in the poison radius. Smart by him" (1425-1430s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

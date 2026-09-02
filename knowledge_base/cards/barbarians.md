@@ -175,6 +175,17 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=1261-1276s (clock unknown): a second Barbarians group crossed on his left (tracked to [3, 7]) and was held by Baby Dragon at [14, 9] and Skeletons at [12, 8] while he counted out his finishing spells.
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 0:13 (t=700.7, tile [7, 18], evolved — barbarian-evolution tracked t=702-704): the opponent's answer to Ryley's post-tower-down Ronin counter-push at [8, 19]. No commentary; he is already reviewing the game ("I just realized I took zero damage on my tower except for a zap", t=702-703).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Opponent card (tracked at clock 1:52 [13, 18] and as Evo Barbarians from clock 0:37 to 0:25). His Wall Breakers connected on the enemy right tower straight through them at clock 1:51 — "how the heck did it connect through Barbs?" (t=787-789).
+- clock 0:15: bridge Ronin plus Goblin Barrel played specifically to drag them out — "Apply some more pressure. Force out the barbs maybe" (t=879-881). At clock 0:08 they were answered with defensive Evo Wall Breakers at [15, 5] plus an Ice Spirit.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

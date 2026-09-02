@@ -446,6 +446,68 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - clock 1:39: mentioned only, as the one hero he rates near the Berserker — 'I don't know if there's any hero that will be as good as this one except maybe the magic archer, but the archer might get nerfed in the final balance changes. I really hope it does.'
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- This slot is the Hero Magic Archer (heroes/magic-archer-hero.md): at 149-151s he says "I have the ability ready in case he tries to do anything. I'm going to have ability preemptively", and the elixir trace shows a ~2-elixir spend with no hand change right after, matching Triple Threat's 2-elixir cost.
+- clock 2:31, 1:50, 0:58: deployed at [2, 5], [2, 8] and [8, 11], all deep on his own half behind the Cannon rather than at the bridge.
+- clock 0:31: "we can go for a low magic archer just to not give him too much value" (145-147s) — placed low on purpose against a deck with Skeleton Dragons and Electro Dragon, then the ability held for the reset rather than used on offence.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 0:43: he runs the Hero Magic Archer this game and places it away from the fight, on his own half at tile [2, 13] — "I would love to Magic Archer this, but I think I'd rather Magic Archer off to the side here" (303-305s).
+- clock 1:38: deliberately not a cycle card in this deck — "I prefer to cycle a Cannon instead of the Magic Archer, because I feel like the Magic Archer is a lot easier to block and it doesn't guarantee to get value every single time" (247-253s).
+- clock 0:16 to overtime: his verdict after the nerf — "the Magic Archer did get a nerf, but I still think that the Hero Magic Archer is extremely powerful regardless of the nerf that it got. It's not as good as it was before, but I still think that it's still a very solid choice. But if you guys don't want, or don't have the Hero Magic Archer... you can always use the Dark Goblin" (329-347s).
+- clock 2:07 to 0:22: four own-elixir drops of exactly 2 with no hand change (219.4s, 248.2s, 295.6s, 323.2s) match the Hero's 2-elixir Triple Threat, and "Step back. Oh, I tried to get a step back here" (313-315s) matches its teleport — inferred from the elixir signature plus commentary, not a read play.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- This is the Heroic Magic Archer: each play costs 3 elixir and is dropped behind his own crown towers — (9, 0) and (10, 1) at clock 0:55-0:48, (9, 9) at clock 0:29. "Let's go for the magic archer here in the back" (491s). The 2-elixir Triple Threat ability is never mentioned in this game.
+- clock 0:29: in triple elixir he deliberately accumulates copies rather than pushing harder — "we can go for the skellies with another magic archer. I want to start stacking up these magic archers cuz that's the best way for us to win here" (511-515s), and at 524-526s, "Look at the magic archer is still over there helping us out."
+- clock 1:51: he refuses to spend elixir protecting a lone Magic Archer's chip — "I'm not even going to bother stepping back. I feel like it's just a waste of elixir since my Magic Archer will only get a bit of damage on the tower anyway" (426-431s).
+- clock 0:13: the stacked Magic Archers plus a bridge Ronin are what he thinks the opponent cannot answer — "he won't be able to defend the Ronin and the magic archer coming in on the left side lane" (530-532s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 1:34 (t=621.8, tile [9, 8]): placed deep on his own half as a sniper, with the protection planned in the same breath — "Let's go for the Magic Archer here just to snipe that down and then we can go for the Ice Spirit here just to freeze that and keep the Magic Archer alive" (t=622-628).
+- clock 0:40 (t=675.7, tile [8, 12]): re-played as soon as it is affordable while the opponent commits a Wizard — "We can Magic Archer here again as well" (t=676).
+- clock 0:25 (t=685-691): keeping him alive is treated as the win condition of the defence — "He might try to spirit or zap, so let's go for the spirit of our own. Spirit again. And look at that, we keep the Marcher alive. Crazy protection here", backed by Wall Breakers as a body earlier ("if these Wall Breakers could tank for the Marcher for a bit", t=634-637).
+- Played as the Heroic Magic Archer in this session: no ability is ever named, but there are seven 2-elixir spends against six Wall Breakers deploy labels, so at least one unidentified -2 (t=666.8 / t=668.5 / t=679.7) is most likely a Triple Threat activation.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Three deployments (clock 1:51 [9, 11], clock 0:40 [9, 9], overtime [8, 8]), all -4 elixir and all low in his own half in the central rows 8-11 — never bridged — so it covers both lanes, pierces across the river and still chips the tower.
+- clock 2:05: he talked himself out of an aggressive placement on the opponent's Bomber — "I could try to get a nice magic archer here on top of that bomber. Might be a little bit aggressive though, so I think I'll just chill with an ice spirit here in the back" (t=765-770) — and played Ice Spirit at [8, 1] instead.
+- He rates it the matchup-defining card and names its only answer: "Magic archer just seems extremely powerful against him. I'm just not sure how he deals with the magic archer with having vines plus snowball cuz vine snowball does actually leave the magic archer on I think like 10 HP or something" (clock 0:58-0:48).
+- Overtime: "Beautiful magic archer piercing right there. Magic archer is just so solid still. This is what I'm saying. Even after the nerf, it's still so good, man" (t=895-902).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- clock 2:27: first play at tile [8, 14], dead centre one row off the river, elixir 8 -> 4, aimed at the opponent's Tombstone — "I'll go for the Magic Archer as well just to try to help take out that Tombstone" (936-939s).
+- eight plays in 277 s (t=936.6 [8, 14], t≈1032 back corner, t=1045.0 [9, 8], t=1066.1 [8, 6], t=1115.1 [9, 11], t=1140.1 [9, 8], t=1157.2 [9, 8], t=1177.2 [14, 14]): almost every placement is on his own half at rows 6-11, far behind the fight, so the piercing arrow covers the lane while he stays untouched — "Okay, let's just magic archer low here. I'm not going to risk anything" (OT 1:07, 1141s).
+- OT 1:28: the anti-Bandit answer, and the card he says the game rests on — "I need to keep cycling my magic archers, man. These magic archers like my saving grace. It's going to one shot the bandit. Beautiful" (1113-1117s).
+- OT 0:42: his summary of the card after a full match of value — "Look at this magic archer, guys. He's just absolutely untouchable. Magic archer is getting so much value, showing why it's still so strong" (1161-1167s); earlier at 1023s, "Magic Archer seems kind of unkillable for us so far."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 2:08: placed deep-left around tiles [2, 5] / [1, 8], deliberately further up the board than usual as a Tornado bait — "I have to cycle my magic archer here. Like, I want to put it a little bit higher than normal, just to force him to use the NATO [Tornado]."
+- clock 0:50: Magic Archer at tile [1, 7] against the Sparky + Graveyard, and he immediately dislikes it — "I think the magic archer maybe messed up my defense a bit."
+- No sign of the Hero variant here: no 2-elixir Triple Threat activation matches any elixir drop and every "ability" mention in this game is about the opponent's Hero Giant.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 1:53, 1:20, 0:43, 0:22 and overtime: six placements this game ([9, 9] t=1416.7 at 9.0 -> 5.0, [9, 5] t=1449.4, [10, 1] t=1486.5, [9, 10] t=1508.5, [2, 13]/[3, 14] t=1519.5-1527.5, [12, 14] t=1551.5) - the Graveyard answer first and foremost: "Okay, we have the magic archer ready though. Okay, let's magic archer here for the graveyard" (1448-1451s).
+- Ryley is on the Hero Magic Archer here and uses Triple Threat twice as a Poison dodge and twice to aim the triple shot: "If he poisons, we could hit a step back" (1420s), "Let's step back here just to make sure that we can take out that baby dragon" (1542-1545s), "could I magic archer line up on the one skelly maybe? Not walked over" (1552-1553s). Three own 2-elixir drops the hand reader could not attribute (t=1488.0, 1550.2, 1563.1) sit beside those lines.
+- clock 0:22: he places it where a predicted spell is not - "Let's magic archer here again. He tried to predict our magic archer over there so we can just do it low on defense" (1508-1512s).
+- overtime, t=1561-1565: the game-winning use is the step-back lining the arrows up on the opponent's Knight - "We just step back here and we win. Just step back now. That's going to line up on the knight and that's game. That's tower" (1561-1566s). He also uses the mere threat of it to freeze the opponent: "I'm just going to wait for him to tombstone and then can threaten a magic archer on top of that knight cuz he has to be really careful" (1520-1525s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

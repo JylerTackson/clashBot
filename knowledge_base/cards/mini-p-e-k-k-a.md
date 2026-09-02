@@ -187,6 +187,25 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=649-652s: tracked walking down the left lane at (6, 22)-(6, 24) as the opponent's ground threat into Ryley's Tombstone-plus-Barbarian-Hut pocket — a single-target melee unit into a board full of spawned Skeletons and Barbarians.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 1:58: called before it ever appeared — "He might have Mini P.E.K.K.A. though. If he has Mini P.E.K.K.A., the Ronin's going to be absolutely insane against that" (228-230s).
+- clock 1:08: uses it to choose which of his own towers to give up — "if he has like a Mini P.E.K.K.A., I might just end up taking the right side, cuz the Mini P.E.K.K.A. does actually like one-tap itself, which is kind of funny" (278-284s).
+- overtime 1:44: it is the opponent's last unseen card and it walks into the Ronin at tile [1, 18] — "look, it's going to get one shot. OH MY GOD! I told you he can't use the Mini P.E.K.K.A. Good game. Very nice win" (357-365s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- Mentioned only, never seen deployed in this game (clock 2:20, t=576-578): it is his deck-identification tell — "probably the one with the Wizard and the Mini P.E.K.K.A."
+- clock 1:38 (t=617-619) and clock 1:03 (t=656-659): the card Ronin is being saved for — "It's not like I exactly need them [Wall Breakers], especially if I have the Ronin for the Mini P.E.K.K.A" and "it's going to take out the Sparky and deflect the Mini P.E.K.K.A."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 1:53 (mentioned): the melee threat he wants Ronin's parry on — "That's going to take out the mini Pekka."
+- clock 0:44: Fire Spirit is his chip answer for it — "Fire spirit here, that's going to one shot the mini pekka as well."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A. (scraped 2026-09-02T02:34:51+00:00)

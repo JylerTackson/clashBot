@@ -260,6 +260,29 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - OT 1:41: with Poison in hand he casts the spell first and the Graveyard second — 'I do want to go for a graveyard poison again though. Let's poison first and then...' — so the small defenders are already dying when the Skeletons arrive.
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- Opponent card, clock 1:13 at tile [9, 3], dropped while a P.E.K.K.A. and Elixir Golem were already walking the other lane. Ryley does not comment on it; he answers with the Cannon at [9, 10] and Ice Spirit at [1, 14] already in rotation and loses no tower to it.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:25 and 1:20: the opponent drops a Graveyard on Ryley's half at tile [8, 3] (their elixir 5.0 -> 0.0) and later Rages the follow-up; Ryley answers with Skeletons and then accepts the tower trade — "We're going to lose our tower here guys, but he's going to lose most of his tower as well. That's fine with me. We can just go for the skeletons here" (264-269s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 0:53 and 0:23: the opponent casts Graveyard on Ryley's side at tiles [8, 3] and [10, 2]; Ryley answers with the Cannon at [8, 10], Ice Spirit and Skeletons rather than a spell.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:16: the opponent's Graveyard lands at tile (8, 3) at t=1393.4 and Ryley names the archetype off it - "I think he might have just classic splash yard" (1395-1396s).
+- clock 1:20: his answer package is Magic Archer plus a spirit, played in that order - "Okay, we have the magic archer ready though. Okay, let's magic archer here for the graveyard. Let's ice spirit to freeze" (1448-1452s).
+- clock 0:40: he judges a Fire Spirit not strictly needed on it and spends it anyway for cycle - "I don't think we need a fire spirit on the graveyard. I think I will anyways just to cycle" (1490-1493s).
+- overtime, clock 1:42: against a bridge Graveyard he pre-blocks instead of reacting - "He might try to get a graveyard at the bridge here. So, I'm going to preemptively skellies to block and then barrel" (1546-1550s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

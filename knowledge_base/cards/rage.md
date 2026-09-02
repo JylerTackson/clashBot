@@ -179,6 +179,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2
 - clock 1:44-1:36: the opponent's Rage is aimed at Ryley's Evo Bats and arrives late - "Wait, he didn't get the rage down in time. That's huge" (419-421s), then "Okay, he tries to rage it. That's fine. That's a lot of damage. We definitely take that" (426-427s). The Bats heal through the boosted tower fire and take the tower from 4409 to 2589.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 1:19 and 0:21: two opponent Rages dropped on Ryley's half (tiles [15, 1] and [3, 2]) over Graveyard/Bowler pushes; he never spends a card specifically on them, choosing instead to keep chipping — "He ended up ignoring everything. Could never really predict that" (269-271s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

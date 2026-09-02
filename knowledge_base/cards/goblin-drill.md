@@ -195,6 +195,12 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - clock 2:38 and clock 0:48 (opponent): drills up at [2, 6] and [1, 2] deep on Ryley's left half. He never builds a dedicated answer, letting the Knight/Barbarian Barrel/Furnace shell that is already there handle it; his left tower still takes steady unattributed chip through both drills.
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Opponent card. Ryley predicted it from the Guards before seeing it — "Looks like he could be playing drill actually with the guards, maybe" (t=758-760) — and identified it at clock 1:27: "Okay, there's the drill."
+- His answer (clock 1:24-1:19) was Ronin on top of it plus Skeletons and a Fire Spirit, no spell: "Go for the Ronin here and then we can go for the skeletons plus fire spirit to finish off that drill" (t=808-812). Its existence is also why he held the Evo Wall Breakers in hand (t=803).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

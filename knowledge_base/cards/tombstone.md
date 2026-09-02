@@ -301,6 +301,21 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
 - Mentioned, not played, and only as a Hero comparison while discussing Savage Survival's 3-elixir cost: "I think there's only been one hero since that, and it's the tombstone. And the tombstone is obviously garbage" (t=366-373).
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- opponent card. clock 1:34: he identifies the Hero variant on sight — "I wonder what the rest of this deck is. This guy's playing Hero Tombstone, which is weird. I guess the Hero Tombstone did get a buff" (990-994s).
+- clock 2:27 and 1:45: his answers are the Magic Archer and a Fire Spirit rather than a spell — "I'll go for the Magic Archer as well just to try to help take out that Tombstone" (936-939s), "Fire spirit for the Tombstone. Nice. Could I grab one shot? That's like 600 damage" (983-986s).
+- clock 0:56: tracking the building's cycle drives his offence — "we have the Evo Wall Breakers offensively, cuz he has no Tombstone in cycle now. I think he messed up a bit by cycling it" (1026-1031s).
+- clock 0:24-0:15: he narrates the Hero version's current behaviour live — "Okay, he doesn't spawn Skelly's anymore, it seems like. What the heck? I think it's five elixir now if I'm not mistaken as well... so that's Skelly's on death now instead of just Skelly's as it was" (1060-1070s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 1:36-1:22: the opponent runs the Hero Tombstone and Ryley rates it as the matchup problem before he even sees the ability - "the tombstone is really good against me but I don't know about the ability" (1434-1436s), then "He goes for the ability as well" (1442s), then "The ability is just I don't think it's that good still" (1446-1448s).
+- clock 1:17-1:08: the Regal Revive spawn genuinely confuses him - "Wait, why the heck does it take no damage? Wait, why does this card have a million HP? Hold up... Uh why does the tombstone Wait, why does the tombstone guy have a thousand health?" (1452-1463s). The 2024-era detector labels it `little-prince(e)` at (15, 0).
+- clock 0:12: his practical answer is to refuse to spend a cheap card on it and force the commitment instead - "Not going to fire spirit for the tombstone. I'm just going to wait for him to tombstone and then can threaten a magic archer on top of that knight cuz he has to be really careful" (1518-1525s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

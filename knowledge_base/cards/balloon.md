@@ -242,6 +242,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:34: he pre-empts it as the opponent's finisher — "I knew he was going to go for the Giant Skelly Balloon so I E-Barbs the bridge opposite lane" — the play that guaranteed him the left tower before overtime.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 0:15: the opponent's Balloon arrives only in the last seconds and runs into his stacked Magic Archers and a late Cannon at (8, 12) — "he went balloon into a magic archer" (519-521s, transcript ambiguous).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

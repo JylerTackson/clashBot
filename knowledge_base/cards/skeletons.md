@@ -803,6 +803,63 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - clock 2:42, 0:50, 0:32 and 0:04 (opponent): the recurring cycle card in both lanes; Barbarian Barrel plus Knight is Ryley's standing answer — 'Let's barbarian barrel here, take this out. Good defense' (clock 0:25).
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- clock 2:39 to 0:19: eight Skeletons placements ([4, 1], [4, 9], [9, 14] twice, [9, 15], [8, 14], [5, 7]) — the most-played card of the game, always a one-elixir distraction layered onto a Ronin or Cannon defence.
+- clock 0:43: "Easy defense right here. Let's go for the skellies. And look at that Ronin surviving against the golden knight" (129-133s) — Skeletons buy the Ronin the extra parry cycles against a fast melee attacker he does not beat cleanly alone.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:13: split at tile [8, 14] against two Minions, alongside an Ice Spirit — "Just going to split my skellies here to deal with those minions. Very nice defense right there" (213-216s).
+- clock 1:20: dropped at tile [11, 9] into the Graveyard-plus-Rage push he had already decided to trade away — "We can just go for the skeletons here. He ended up ignoring everything. Could never really predict that" (267-270s).
+- clock 1:50 and overtime 1:52-1:48: pure cycle bodies in the back at tile [8, 1] and three plays in the last ten seconds ([7, 11] plus two HUD -1 drops) — "Let's go for the skellies here" (349s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 1:55: Skeletons at (3, 12) to surround a Bowler placed down the middle — "Okay, let's just go for the skeletons here to surround this. I'm not even going to bother stepping back" (424-427s), a 1-for-5 elixir answer.
+- clock 1:29: spent as insurance against the opponent's Freeze rather than for defence — "Then we can go for the skellies too just to make sure that he doesn't get like a last second freeze on us. I don't want to risk anything" (442-447s).
+- clock 0:58 and 0:31: cycle Skeletons behind his own towers at (9, 8) and (14, 12), the second one announced with the Magic Archer — "we can go for the skellies with another magic archer" (511s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 0:33 (t=681.7, tile [3, 14]): named support for the building and the sniper — "Let's cannon here skellies to keep this alive and then we can go for the Ronin as well just to make sure we take this out" (t=680-684).
+- clock 2:44 (t=560.6 [7, 9]), clock 1:50 (t=608.6 [8, 9]), clock 1:03 (t=656.7 [6, 9]): a repeated centre-of-own-half placement in front of the towers as distraction plus cycle during the Sparky build-up.
+- clock 0:13 (t=703.0, tile [8, 21]): pushed across the river with the Ronin counter-attack rather than kept home, once the enemy tower is down.
+- clock 2:03 (t=592): the opponent's skeletons are what the Ronin parry feeds on — "Ronin deflecting the skellies is just so funny too."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- The cycle filler, down roughly every 20 seconds (clock 2:48 [8, 10], 2:20 [8, 14], 1:46 [15, 15], 0:45 [9, 9], 0:32 [11, 15], 0:19 [4, 14], overtime [8, 14]).
+- clock 1:23: paired with a Fire Spirit to finish the Goblin Drill after the Ronin tanked it — "then we can go for the skeletons plus fire spirit to finish off that drill" (t=810-812).
+- clock 0:19 (t=872.7 at [4, 14]): the cheap block on the opponent's Guards so his own push survived — "He has to block this. Skellies here to keep this alive" (t=872-874).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- clock 2:48-2:38: two sets at tiles [1, 5] and [1, 11] to surround the opponent's Ronin so his parry is spent on a Skeleton — "I think the way that I want to defend the Ronin is by surrounding his with skeletons, so then the skeletons get reflected for the most part, cuz now here the skeletons will reflect, I think. Perfect. Okay, good defense right there" (924-932s).
+- clock ~1:50: the technique refined into a rule — "surrounding the Ronin with skellies is a pretty good idea, but you have to drop them a little bit early, it seems like, because if you don't drop them early, then obviously the Ronin will just hit [them] too quickly" (974-982s).
+- clock 1:58, OT 1:07 and OT 0:48: always dropped behind or on top of a bigger unit rather than alone — [6, 10] behind his own Ronin ("then we can go for the skeletons here", 965s), [10, 8] with the Magic Archer, [9, 11] with the Ronin ("Ronin skellies here bring this over. Okay, nice", 1153-1155s).
+- OT 0:38-0:28: [16, 11] and [11, 14] as part of the final defensive stack he calls "just a clean defense, man" (1171-1173s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 1:52: Skeletons at tile [4, 13] dropped with the Ronin to help strip the Sparky push.
+- clock 0:35: Skeletons at tile [9, 21] added to the Ronin/Wall Breakers push on the enemy left tower (2779 -> 298 across the next few seconds).
+- clock 0:17: Skeletons at tile [6, 12] as the last defensive cycle card of the game — "And we can go for the skeletons. Let's go! Very nice win."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:16, 1:36, 1:14, 0:43, 0:37: distraction and cycle placements at [10, 14] (t=1393.4), [9, 1] (t=1433.4), [15, 8] (t=1453.5), [8, 6] (t=1485.5) and [7, 10] (t=1492.5), usually right behind a Cannon - "Go for the cannon then skellies" (1392s).
+- overtime, clock 1:42: pre-placed at [14, 14] before the threat exists, specifically to blunt a bridge Graveyard - "He might try to get a graveyard at the bridge here. So, I'm going to preemptively skellies to block and then barrel" (1546-1550s).
+- overtime, clock 1:23: a last Skeletons at [16, 14] (t=1565.6) alongside the winning Magic Archer step-back and a 5-elixir Ronin.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

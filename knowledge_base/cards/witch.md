@@ -177,6 +177,12 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=26.0s (clock unknown — the clock OCR failed for this whole video): the opponent's evolved Witch at [13, 19] is what took his right tower from 4208 to 2174 across t=44-52; Ryley's answer is to spend a 6-elixir Lightning on it on sight — "the Evo can be super, super annoying if we don't take that off the board with the lightning" (t=97-100), and later he tracks not having it: "we don't have lightning for the Evo witch which is all right" (t=179-181).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:37 and 1:26: the opponent's Witch is the first card revealed (tile [3, 16], their elixir 7.3 -> 2.3) and their main support; Ryley answers the second one with a stacked Ronin and Fire Spirit — "I can just go for a Ronin plus Fire Spirit on top of the witch" (261-263s).
+- clock 0:45: a Witch timed against his push draws only a compliment for the timing, not a change of plan — "nice timing with that witch. It's going to be a nice spirit connection" (299-301s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

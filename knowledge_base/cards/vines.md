@@ -199,6 +199,18 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 1:14 (t=1902): named as the play he deliberately declined in favour of cycling Battle Ram — "I could have went for the vines, but I preferred to just go for the battering". At clock 0:07 it is half of his stated finisher: "all I had to do was go for the Arrows plus Vines" (t=1977).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Opponent card, never picked up by the detector — identified by Ryley alone at clock 2:42: "Okay, he has the vines" (t=728-730).
+- He names Vines plus Giant Snowball as the only combination in the opponent's deck that answers his Magic Archer — "vine snowball does actually leave the magic archer on I think like 10 HP or something. Kind of gross" (clock 0:54-0:48).
+- clock 0:35-0:31: called the Vines before they landed and still got caught — "I think I need to step back here just to not get vines. So oh my god, I stepped out of the vines. I literally called it. Dude, I called it. I needed to get away from the vines" (t=857-864).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 2:27 (mentioned only): the opponent misses Vines on Ryley's Wall Breakers at the left bridge and they connect — "Oh, he missed the vines. That's huge. That's a connection."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

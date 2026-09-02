@@ -194,6 +194,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 1:45 (t=1873-1877): mentioned as an intention he did not act on — "I wanted to go giant skelly at the bridge. I knew it's going to get a lot of mother witch damage, but my goal here was just to go giant skelly at the bridge. He did a smart play here though". No deployment or matching elixir drop is recorded in that window.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Mentioned only, and as a wrong guess about the opponent's deck at clock 2:38 — "I guess this could be that bridge spam deck with the giant skelly. Oh, no, he has Wall Breakers, too" (t=732-737). It was never played.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

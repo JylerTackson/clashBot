@@ -238,6 +238,12 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - clock 0:58 and 0:53 (opponent, Evolution): named twice by Ryley and never cleanly detected — 'He might get a snowball down' and 'Yeah, there's the Evo snow.' He spaces his Ice Spirit and Furnace rather than stacking them into it.
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Opponent card (an Evolution — "evil snowball" in the auto-transcript), used on defence twice and wasted both times in Ryley's reading: "Ooh, bad snowball by him actually. Good defense though, overall" (clock 1:35) and "Oh wait, bad evil snowball. Perfect" (clock 0:42).
+- "He definitely wanted to save that snowball for offense" (clock 0:38) — forcing a bait opponent to spend it defensively is treated as the win in the exchange.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

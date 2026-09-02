@@ -268,6 +268,22 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - OT 1:54: the missed Tornado on his last Goblin Barrel is the moment the game swings — "He has to [Tornado] that to the king. Wait, he missed. Oh my god. Bang. Bang" (t=1485-1488).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- Mentioned only (clock 0:07, t=707): his post-hoc explanation for the single chip of damage on his own tower — "I think that's a tornado and not a zap", correcting his own read from five seconds earlier. No Tornado cast was detected in this game.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 1:45 (mentioned, never detected visually): the opponent Tornadoes a Sparky blast into Ryley's left tower for ~2,100 damage — "YO, YO, YO. OKAY, TORNADO. OKAY, BRO... He just did like a 180 trick shot for 2,000 tower damage. [laughter] They need to nerf that." He also plays around it earlier by baiting it with a high Magic Archer at 2:07.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:37-2:25: the opponent's Tornado is the card he plays around before it exists. On his Ronin build-up: "I think you can activate king tower off the Ronin, so I'm hoping he doesn't have [Tornado]... cuz that would be really bad" (1375-1381s). It lands at t=1382 and drags the Ronin into the opponent's king tower: "Oh, no, I think he's going to do it. Yep, that was a beautiful [Tornado]. I just had a feeling he had [Tornado], man. So, I started to mention it and then he just activates. Well played though for sure" (1381-1388s).
+- clock 0:23: he keeps tracking it by the opponent's cycle rather than by sight - "I think he's going to get a [Tornado] down cuz he doesn't have barbarian barrel" (1503-1506s). ("NATO" throughout the auto-transcript is Tornado.)
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

@@ -188,6 +188,12 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=658-660s: Jynxzi questioned the card outright — 'Yo, Riley, why would you even put down the Pekka?' — and Ryley's answer was about his Ronin, not about pushing with her. At t=778s Jynxzi calls it 'the sneaky Pekka', i.e. it was carrying a C.H.A.O.S. modifier.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- Opponent card, clock 1:25 at tile [5, 25]. Ryley treats it as the demo he wanted: "Oh, yes, P.E.K.K.A. here. Okay. That's actually going to be very, very nice to showcase this off for you guys" (84-89s).
+- clock 1:10-0:35: answered with Cannon at [9, 10] plus Ronin at [8, 5] — "the P.E.K.K.A. is going to damage itself a ton" (104-105s), then "look at that guys, the PEKKA almost one shot itself" (138-140s) and finally "it completely destroyed that PEKKA guys" (156-158s) after a 5-elixir Ronin at [4, 12] at clock 0:19.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/P.E.K.K.A. (scraped 2026-09-02T02:35:00+00:00)

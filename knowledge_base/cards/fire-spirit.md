@@ -370,6 +370,63 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
 - clock 2:47-2:40: the spirit nerf is his stated worry about the whole deck - "You can't really tank for your barrels as well anymore", and "I'm kind of worried about how like this type of deck is just going to work in general without having the like spirit connect to the tower."
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- clock 2:43 and 2:11: Fire Spirit at [3, 14] and [3, 9] as chip on the Elixir Golem lane defence, one elixir at a time.
+- clock 0:53: used as a lane-puller right after a misclicked Ronin — "we can go for the fire spirit to bring this over too" (122-123s). Six Fire Spirits in 170 seconds; it is pure cycle glue in this list.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 1:50 onwards: bridge chip on repeat, tiles [15, 14], [14, 8], [13, 9], [4, 15], [9, 19] — "Keep up the pressure. I just want to keep being annoying here with the spirits at the bridge, is grabbing some free chip damage" (241-246s).
+- clock 1:26 and 0:31: the splash layer stacked on a Ronin — "Ronin plus Fire Spirit on top of the witch" (261-263s) and "Let's go for the Ronin plus Fire Spirit" (315s, HUD elixir 5 -> 4 immediately after the Ronin).
+- clock 2:36: first defensive spirit of the game at tile [7, 13] against the Witch push (elixir 8 -> 7) — "Going to spirit here as well" (192s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- Eight deployments, the most of any card alongside Wall Breakers, nearly all on his own half between rows 9 and 15 — (2, 14), (9, 14), (15, 14), (8, 9), (12, 12) — used as cheap splash on defence and as the second layer of every barrel push.
+- clock 1:33 and 0:33: it is the fixed partner of the Goblin Barrel; he names the pair as one unit, "another Fire Spirit Barrel as well" (448s) and "let's go for the fire spirit barrel here" (508-509s).
+- clock 0:12: a last-second Fire Spirit at (12, 12) on his own half while a Balloon crosses at (10, 13), i.e. spent on defence even while three towers are in the balance.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 1:56-1:28 (t=599.6 [14, 14], t=628.6 [13, 14]): always deployed at the bridge next to a Goblin Barrel or Wall Breakers as splash escort — "the Evil Barrel plus Fire Spirit" (t=629).
+- clock 0:38 (t=677.7, tile [4, 14]) and clock 0:12 (t=704.7, tile [8, 20]): the same role on the other side of the board, once behind the post-tower-down Ronin push.
+- Six Fire Spirits (t=559.2, 599.6, 609.1, 628.6, 677.7, 704.7), all at or beside the bridge; he never uses it as a standalone defensive answer in this game.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Almost always deployed on his own river row (row 14) as the second layer behind a Goblin Barrel or Wall Breakers: clock 2:17 [2, 14], 1:44 [4, 14], 0:54 [3, 14], 0:17 [5, 14], overtime [2, 14] — "Let's go for the barrel plus spirit here" (t=756), "Fire spirit as well. Nice double connection there" (t=875).
+- clock 1:19 (t=813.5): the defensive use, on the Goblin Drill's goblins together with Skeletons — "Fire spirit here as well" (t=814).
+- clock 1:44: named as part of the Evo package on offence — "Let's go for the Fire Spirit Evo Barrel and then we go for the Ice Spirit here as well" (t=791-793).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- clock 1:45: chip on the opponent's Tombstone, and he counts the damage out loud — tile [4, 15] at the river: "Fire spirit for the Tombstone. Nice. Could I grab one shot? That's like 600 damage. Come on. Give me one. Nice" (983-986s).
+- clock 1:10: the second half of a deliberate own-King-Tower activation at tile [9, 6] in front of his King against a crossing Bandit — "I think we'll be able to get our fire spirit in hand in time... Let's go for the fire spirit. Beautiful King activation" (1011-1016s). His king tower reads 7418 HP from t=1020 on.
+- OT 1:47 and OT 1:23: anti-air duty against Skeleton Dragons and support behind an Ice Spirit at the river — tiles [9, 15] and [15, 14]: "Then we go for the fire spirit just to make sure we take out that skeleton dragon" (1099-1100s).
+- clock 0:38: used as a pull into his own building — "Fire spirit to bring that to the cannon" (1047s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 1:11: Fire Spirit at tile [14, 15] added to the Ronin + barrel counter-push on the right — "we can fire spirit dude, he literally can't defend this. What a good prediction by us right there."
+- clock 0:44: Fire Spirit at tile [3, 14] on defence as the Mini P.E.K.K.A. answer — "Fire spirit here, that's going to one shot the mini pekka as well."
+- clock 0:35: Fire Spirit at tile [9, 21] with Skeletons behind the Wall Breakers during the winning push.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:05: bridge-blocking as the aggressive default - "Okay, let's fire spirit here. I need to be really aggressive in this match if I want to have a chance" (1404-1406s), deploy label at [14, 15].
+- clock 1:30: same job in the other lane against a ground unit crossing - "Let's fire spirit here at the bridge" (1441s), deploy label at [1, 14].
+- clock 0:40: he states the cost/benefit of spending it for cycle rather than value - "I don't think we need a fire spirit on the graveyard. I think I will anyways just to cycle and help out a little bit" (1490-1494s).
+- clock 0:12: and the reverse - holding it rather than spending it on a Tombstone: "Not going to fire spirit for the tombstone. I'm just going to wait for him to tombstone" (1518-1521s). Eight plays overall (t=1365.4, 1404.4, 1413.6, 1440.4, 1455.5, 1493.3, 1511.7, 1513.0, 1536.2, 1558.6).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

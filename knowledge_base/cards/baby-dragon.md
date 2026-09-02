@@ -286,6 +286,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.
 - Opponent card, seen at clock 2:16, 1:22 and tracked into his half repeatedly. He punishes a late one at clock 1:13 ("Ooh, bad Baby Dragon. He put it in so late that I dropped my Ice Spirit into it") and answers a good one in overtime at 1:29 with the Magic Archer ability rather than a card ("Good baby dragon, but we can once again just step back here, keep this alive").
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:02: names it as the card that blunts his whole plan - "I need to be really aggressive in this match if I want to have a chance. Baby dragon is super annoying for me" (1406-1410s).
+- clock 1:53 and 0:33: he answers it with Magic Archer at [9, 9] (t=1416.7, 9.0 -> 5.0) and later an Ice Spirit on top - "then we can go for the ice spirit here on top of the baby dragon" (1494-1497s).
+- overtime, clock 1:48: spends a Magic Archer Triple Threat step-back specifically to line up on it - "Let's step back here just to make sure that we can take out that baby dragon" (1542-1545s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

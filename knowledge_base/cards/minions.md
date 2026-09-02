@@ -246,6 +246,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:19: waiting rather than snowballing the first Minions is what produces the game's biggest damage window — "then I realized I could just wait and snowball literally everything. I got a beautiful snowball right there getting me a crazy amount of damage on the tower."
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:13: two Minions cross at tile [15, 14] and are answered for 2 elixir with split Skeletons plus an Ice Spirit — "Just going to split my skellies here to deal with those minions. Very nice defense right there" (213-216s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

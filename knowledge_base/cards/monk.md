@@ -157,6 +157,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - t=708.3 / 714.3 (overtime, opp elixir 10 -> 5 and 8 -> 3): the opponent uses the ability defensively against Ryley's Skeletons and Barbarian Barrel — "I tried a barrel, but he got me good with the monk ability to be honest. I really didn't expect that. I thought he's going to try to save it for offense, but you know, it worked out and he got my furnace off the board" (t=711-719).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- Mentioned only, never played by either player. It is Ryley's reference point for Ronin's parry — "It's like a melee version of the Monk" (47-49s), "I wonder how a Ronin plus Monk combo could do" (51-54s), and he rates Ronin above it: "kind of like the Monk, but a little bit better in my opinion because instead of it being like a 5-second period, it's like the entire time that it's down" (94-99s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Monk (scraped 2026-09-02T02:35:14+00:00)

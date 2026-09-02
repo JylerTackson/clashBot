@@ -125,6 +125,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - Opponent card (Evolved). t=1129s: noted while he pre-builds against the Graveyard - "there's the Evo E-Drag, too. All right. Um, I am worried"; tracked crossing the right lane at t=1027s, 1168-1177s.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- Opponent card, clock 1:08 at tile [1, 16]. It is the card he names as the Ronin's real problem: "The E-Drag did stun it, which made it only reflect once, which is fine though cuz one reflection is usually enough to get like a really clean defense" (111-116s), then "E Drake can get really annoying whenever you have the Ronin because of the resets" (123-127s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Dragon (scraped 2026-09-02T02:35:03+00:00)

@@ -125,6 +125,12 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 1:30 and 0:56 (t=1938.3 at [2, 29], t=1978.4 at [9, 16]): the opponent's cheap shield swarm, tracked reaching Ryley's tower in 1.3 s at t=1966; answered by Zappies at [8, 10] — "Okay, let's just go for the Zappies" — and by Arrows over the top.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Opponent card, played twice (clock 2:26 at [11, 18], clock 0:17 at [2, 19]). Ryley treats them as the opponent's answer to his Ronin and is unsure how the Parry resolves against them — "Oh, it reflects guards, too... does Ronin not one-hit guards? I don't think it does" (t=746-753) — then states the read: "I do think guards actually might be a really good counter to Ronin and Evo Barbs" (t=774-778).
+- He never spends a big card on them: at clock 0:19 they get Skeletons plus a Fire Spirit only (t=872-875), and at clock 0:47 he throws Goblin Barrel plus Wall Breakers pre-emptively because he expects them — "cuz I know he's going to go for the guards" (t=848).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Guards (scraped 2026-09-02T02:34:58+00:00)

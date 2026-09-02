@@ -628,6 +628,68 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
 - clock 1:05: on the spirit nerf changing how the card is played - "all my muscle memory from years and years of uh playing goblin barrel has just been deleted in a single balance."
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- clock 2:48: opens the game with the barrel at [2, 25] on the enemy left tower from 9 elixir, before any opponent card is on the board.
+- clock 1:59 and 1:35: two more barrels at [3, 24], the 1:59 one paired with a Wall Breakers pair at the bridge; the enemy left tower falls from 4352 to 1312 HP over that window.
+- clock 0:14: switches lanes with a barrel at [14, 26] once the enemy right tower is nearly dead. He never comments on a barrel placement in this game — it is the automatic pressure card while he narrates Ronin.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:43 to 0:15: six Evo Goblin Barrels (tiles [15, 24], [3, 24], [14, 24], [3, 24], [3, 23], [3, 24]) thrown on cooldown at whichever tower was softer, paired with the Wall Breakers as the deck's second win condition — "I'm going to Evo Barrel plus Evo Wall Breakers here. Go for both my evos" (255-258s).
+- clock 0:50: a predictive centre barrel at tile [3, 23] aimed at a back-line placement before it happened — "He's probably going to go for the Bowler in the back. So I'm going to predict that with a barrel in the centre here" (294-297s).
+- overtime 1:52: the finishing barrel at tile [3, 24] as part of a spirit-and-barrel pile onto the last enemy tower (reads 136 HP at 356s) — "Let's go for the Fire Spirit, Barrel and Ice Spirit" (355s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- Every Goblin Barrel in this match lands on a crown tower — (4, 23) and (14, 24) at clock ~2:49-2:42, (14, 24) again at 1:49, (14, 26) at 1:30, (3, 24) at 0:17 — and it is never used defensively.
+- clock 1:53: the barrel is his answer to over-defending rather than a counterpush follow-up — "I think I'd rather just save my elixir and go for a Evo Barrel Evo Wall Breakers push here just to apply some good pressure" (431-436s). The enemy right tower falls 4858 -> 2672 in the twelve seconds after.
+- clock 1:33 and 0:33: he always pairs it with a Fire Spirit, naming the package twice — "we can go for another Fire Spirit Barrel as well" (448s) and "let's go for the fire spirit barrel here" (508-509s).
+- clock 0:17: once the enemy right tower is nearly dead he switches the barrel to the left tower at (3, 24) — "Let's go for the barrel here. Then we have an ice spirit" (523-524s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 2:31 (t=564.6, tile [3, 24]): first throw of the game onto the enemy left tower, before he has identified the matchup and with no bait sequence first — in this list the barrel is a cycle-rate chip tool.
+- clock 1:54 (t=601.6, tile [14, 26]): the deliberate lane switch — "Let's go for the barrel on the opposite lane. I can't get locked into one lane too early. If that happens, then I'm just completely cooked" (t=599-607).
+- clock 1:28 (t=628.6) and clock 0:47 (t=667.7), both at [3, 24]: paired with Fire Spirit and Wall Breakers as one package — "We can go for the Evil Barrel plus Fire Spirit and we'll Wall Breakers too cuz I knew he's going to try to go in for a push here" (t=629-632).
+- clock 0:25 (t=690.7, tile [3, 24]): the tower-taking throw — "Let's go for the barrel and then Evo Wall Breakers... He could [Tornado] that. But bang and bang. Let's go. Tower down" (t=692-700). Five throws in 177 s, four of them at the same enemy left-tower tile.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- clock 2:48 (t=723.7): the first card of the game, thrown at [15, 23] on the enemy right tower before any read on the opponent — "Going to start off with the Goblin Barrel here" (t=724).
+- Seven more throws in 190 seconds (t=755.8 [3, 24], 791.8 [4, 25], 822.8 [3, 26], 843.8 [13, 24], 863.9 [13, 25], 876.9 [3, 24], 898.9 [3, 23]), alternating corners and always inside a Wall Breakers or Fire Spirit window rather than held as bait: "Let's go for the barrel plus spirit here" (clock 2:17), "Kill it barrel plus wall breakers again here cuz I know he's going to go for the guards" (clock 0:47).
+- He names it as the Evolution slot — "Let's go for the Fire Spirit Evo Barrel" (clock 1:44) and "Go for the evil [Evo] barrel spirit and wall breakers here" (clock 0:28).
+- The stated licence to throw it on cooldown is the opponent having no building: "He can't really defend the wall breakers unless he has a building" (clock 1:09), said of the barrel + Wall Breakers pair that took the enemy left tower 3914 -> 2794.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- six throws, all at tile [14, 26] on the enemy right Crown Tower (t=1008.0, 1101.1, 1128.1, 1152.2, 1164.2, 1174.2) — he never varies the placement in this game.
+- OT 1:43: lane choice comes from reading where the opponent is about to spend, not from cycle — "Probably going to tombstone on the left so I'll go for the barrel on the right. Ooh, bad timing. Especially with the bandit coming over there" (1101-1104s).
+- OT 1:18: thrown as a spell bait ahead of an expected Arrows — "He's probably going to go for the arrows here. So, I'm just going to go for the barrel now" (1126-1129s), landing behind the bridge Ronin for the push that takes the enemy right tower to 330 HP.
+- OT 0:31: stacked with Wall Breakers as the closing pair — "He's not going to be able to defend this goblin barrel plus wall breakers" (1174-1176s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 2:48: opens the game with Goblin Barrel at tile [2, 25] on the enemy left tower — "off with a barrel here."
+- clock 2:24: re-barrels the same tower at [3, 24] right after the Wall Breakers connected, tracking the Evo copy in cycle — "Going to go for a barrel again here, and now we already have the Evo barrel up next"; left tower 3722 -> 2954 by 2:17.
+- clock 2:15: on barrelling into an activated King Tower — "Evo barrel isn't as effective with the king activated, but of course, it's still a great pressure regardless."
+- clock 1:15 and 0:34: barrel paired with the bridge Ronin ("the Ronin barrel") and again behind the Ronin counter-push at [3, 24].
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:32, 1:49, 1:03, 0:32 and overtime: five throws, every one on an enemy tower - [15, 23] (t=1376.4), [2, 21] (t=1422.4), [3, 24] (t=1471.5), [3, 26] twice (t=1499.5, t=1515.5) and [3, 23] (t=1532.5). It is the evolution slot by his own words: "Let's go for the evo barrel here" (1470s, auto-transcribed as "evil barrel").
+- clock 1:49: he barrels the opposite lane the moment a defence resolves, as a matter of policy - "I will barrel on the left side cuz I still need to continue pressuring" (1424-1425s).
+- clock 0:27 and 0:15: paired with Wall Breakers so one spell cannot cover both - "Let's barrel wall breakers again. Keep up the pressure" (1500-1503s), "let's go for the barrel plus wall breakers here. Keep up the pressure" (1515-1518s).
+- clock 2:32: also used as cover for a Ronin already walking, to make the Tornado answer more expensive - "Let's actually barrel here just so we can[not] [Tornado] the Ronin to the king tower" (1377-1381s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

@@ -242,6 +242,11 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - clock 0:05: mentioned only, as the reference point for a cheap hero ability — 'unlike some heroes, right, like the ability being so cheap like goblins, you can never really do a bad one.'
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 1:13: the opponent drops Goblins at tile [12, 25] into Ryley's right-lane Ronin + barrel push; the push goes through anyway and the right tower falls to ~870.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

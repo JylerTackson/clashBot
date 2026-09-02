@@ -161,6 +161,25 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md
 - clock 0:19 and 1:47 (t=1530, 1561, mentioned only): Ryley calls out Sparkies twice in the C.H.A.O.S. game without ever playing the card - 'Look at the Sparkies' (1530s) and 'Oh my god, the Sparky [Tor]nado combo. Dude, lock on Sparkies' (1561-1563s), the transcript's 'NATO' almost certainly being 'nado'.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:28: mentioned only, never played by either side — used as an example of a card the Ronin's parry does not reflect: "it won't reflect things like, you know, Sparky, Bowler, and things like that, cuz those are still projectiles even if they do kind of look like melee units" (208-213s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 2:24-1:38 (t=571-621): he plays around it from memory long before it appears — "I thought this guy had Sparky. Oh, wait. I'm stupid. He definitely still has Sparky" and "The main problem is I guess the Sparky", which is also why he refuses to spend Ronin cheaply.
+- clock 1:15 (t=638.6, tile [4, 23]): it lands and he immediately writes off the tower rather than panic-defending — "that is a lot of damage, but it's going to be very difficult to be able to defend this... Even if we lose our tower, I know we'll be fine, but I think I see a way on how I could keep my tower" (t=637-646).
+- clock 1:09-1:03 (t=649.6-655.5): beaten by Cannon at [8, 10] + Ice Spirit dropped on top of it + Ronin at [6, 14], with the Ice Spirit freeze timed so the Sparky never fires — "Jumped directly on top. Freeze everything" (t=652-654). His towers take no damage from the push.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 2:28: he identifies the archetype off one back-line placement — "Looks like we're against another Sparky player." The opponent started Sparky at tile [4, 22] (2:08) and again at [4, 23] (1:03).
+- clock 2:02-1:53: his layered answer is Cannon + Ice Spirit splash + Ronin on top — "just to be able to splash on top of the Sparky... The Ronin should take out the Sparky."
+- clock 1:15: rather than match the second Sparky he counter-pushes the opposite lane — "go for the Ronin barrel cuz he might Sparky the back again."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Sparky (scraped 2026-09-02T02:35:08+00:00)

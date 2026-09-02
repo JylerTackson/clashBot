@@ -318,6 +318,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - Overtime (t=1185.8): the pairing that failed — Elite Barbarians outran it in the pocket, "the e-barbs somehow like, you know, pushed the heal spirit and the heal spirit died, but it was fine."
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- opponent card, tracked alongside the Battle Ram at clock 2:10 and again at OT 0:50; noted only in passing at clock 0:44 — "Skelly's good heal spirit" (1040s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

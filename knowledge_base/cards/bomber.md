@@ -188,6 +188,11 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - clock 2:26 through OT (opponent): his main support, repeatedly walking Ryley's left lane ([7, 24], [4, 21], [7, 20], [6, 24], [4, 16], [3, 13]). The Furnace + Ice Spirit + Knight defence exists mostly to stop it: 'Good defense should take this all out' (clock 0:51).
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Opponent card, tracked pushing the left lane at clock 2:02, 0:58 and 0:11. Ryley considered a Magic Archer on top of it and decided against it — "I could try to get a nice magic archer here on top of that bomber. Might be a little bit aggressive though" (t=765-769) — playing an Ice Spirit in the back instead.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

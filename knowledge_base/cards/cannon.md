@@ -497,6 +497,58 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 2:11, ~0:45 and overtime: the other three Cannons go down at (8, 10) and (8, 8) — always the middle placement covering both lanes, never cycled offensively, in a 2.8 bait deck whose only building it is.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- clock 2:33 and 1:13: both Cannons go on the identical tile [9, 10], the standard anti-tank spot, the second one to drag the P.E.K.K.A. off its lane into the Ronin — "Let's go for the cannon here to bring this over" (101-102s).
+- clock 0:31: a third defensive Cannon while he is ahead on both towers — "Let's go for the cannon here on defense then we can go for a low magic archer" (144-145s). In this deck the Cannon covers what Ronin cannot: it is his only building and the answer to anything the parry does not punish.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:26 and 1:38: reactive placements at tiles [9, 10] and [9, 9], roughly centre and four tiles up from his own towers, both after the opponent had committed (first elixir 10 -> 7).
+- clock 1:38: states the cycle rule for this deck — "I prefer to cycle a Cannon instead of the Magic Archer, because I feel like the Magic Archer is a lot easier to block and it doesn't guarantee to get value every single time" (247-253s).
+- clock 0:25 to 0:19: a predicted Cannon against the Giant, placed to pull it off the tower — "let's predict the giant here with the Cannon. Nice. Beautiful prediction. Now the giant's going to walk out of range of the tower, so our towers can help out on defense. Very good Cannon" (320-327s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 0:21: the only Cannon of the match, at (8, 12) in the centre in front of his own towers, as the opponent's Balloon finally comes down. He never mentions it — in this matchup his defence is spirits, Skeletons and the Ronin, and the building sits in hand for almost the whole game.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 1:09 (t=649.6, tile [8, 10]): the first building of the game, held over 100 s and then placed centrally against the Sparky push — "I'm going to cannon like this and then I'm going to go for the Ice Spirit down here just to freeze the Sparky" (t=648-651). It is the first leg of the Cannon + Ice Spirit + Ronin answer he calls "just five elixir" of troop follow-up (t=661-665).
+- clock 0:32 (t=682.8, 3-elixir drop): a second Cannon behind the Skeletons to hold the lane while the Magic Archer chips — "Let's cannon here skellies to keep this alive" (t=680-681).
+- Both Cannons come after clock 1:10; for the first 100 s he answers everything with spirits, Skeletons and Ronin and keeps the building for the Sparky.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- Purely reactive and placed for the specific threat, not to one template: clock 2:00 central at [7, 10]; clock 1:17 hard against the left edge at [1, 12] — "then we can cannon for the wall breakers. Good defense" (t=814-816); clock 0:35 high at [9, 13] to pull the Evo Barbarians before they reached the tower.
+- Overtime: he pre-places it forward against a card he knows is coming — "I know he's going to try to wall breaker so we go for the high cannon here. Bring this over" (t=892-894).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- seven placements in 277 s (clock 2:07 [8, 11], 1:26 [8, 12], 0:45 [9, 10], 0:25 [9, 10], 0:03 [9, 10], OT 1:01 [9, 11], OT 0:44 [10, 13]) — he replays it on rotation against bridge spam rather than holding it, and keeps it centre at rows 10-13 so it can pull either lane.
+- clock 1:26 and 0:45: called out loud as the answer to the next wave — "Go for the cannon here again, and then we can just go for the Wall Breakers in a second" (997-999s); "Oh, yeah, Skelly drags instead. Let's just go for the cannon here" (1037-1039s).
+- clock 0:38 and OT 1:01: used with a Fire Spirit as a pull, and as a body-block for a Musketeer shot — "Fire spirit to bring that to the cannon" (1047s); "We can go for the cannon. Make sure we block that magic archer shot. I mean, the musketeer shot. Sorry, misspoke" (1142-1145s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 2:17: Cannon at tile [8, 7] the moment the opponent invested a Sparky behind the tower — "well, P just goes for the Sparky. Let's go for the cannon here."
+- clock 0:55: Cannon at tile [8, 10] as the anchor of the Sparky + Graveyard defence — "Okay, let's go for the cannon here. We need to go for the ice spirit."
+- clock 0:27: Cannon at tile [8, 9] placed deliberately wide of the bridge against an expected Giant + Mini P.E.K.K.A. — "He might go for the giant plus mini pekka at the bridge. Let's cannon here, all the way's away."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:18, 1:32 and 0:43: three placements in the standard pocket behind the river - [8, 10] (t=1391.4), [8, 8] (t=1437.4), [11, 7] (t=1487.5) - always against a committed ground push (a Knight at 1391s, a Knight/Barbarian wave at 1487s).
+- clock 2:18: paired immediately with Skeletons rather than played alone - "Go for the cannon then skellies" (1392s).
+- clock 0:43: dropped as the second half of a defensive package with the Magic Archer against a Graveyard - "Okay, we have the magic archer cannon here" (1486s). It is the deck's only building and he never spends it offensively in this game.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

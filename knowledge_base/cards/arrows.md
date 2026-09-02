@@ -273,6 +273,16 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 1:40 (t=1878.5): earlier defensive Arrows at [14, 9] on his own half (elixir 6 -> 4); nothing in the commentary explains the target.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 1:14: the opponent's Arrows are spent badly during the trade window and Ryley calls it out immediately — "Okay, bad arrows by him though. He's definitely going to lose his left or right side tower here" (272-275s). The spell itself was never read as an event; it is inferred from the commentary and from tower damage with no enemy unit in range.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- mentioned only, never seen: he plays his Goblin Barrel timing around a predicted Arrows in overtime — "He's probably going to go for the arrows here. So, I'm just going to go for the barrel now" (1126-1129s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

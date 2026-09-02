@@ -328,6 +328,19 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - clock 0:28: he plays it expecting to be punished by a big spell and accepts it — 'Let's go for the Knight here. He might go for a rocket.'
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 2:17: the opponent's is the Hero Knight, and Ryley treats it as the easier version of the matchup — "he has the Hero Knight instead of the Lumberjack, which is fine by me. I don't really mind that too much ... the Ronin will like completely wreck this Knight" (404-416s).
+- clock 1:27 and 1:15: he twice calls out the Knight attacking a Wall Breaker instead of pushing damage — "Oh my god, bad Knight. What is this guy doing? He had to go for the freeze" (453-455s) and "Letting that knight hit the one wall breaker was huge as well because then he wasn't able to activate the king tower" (466-470s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:18: the opponent's Knight walking the right lane is what pulls out his Cannon - "Go for the cannon then skellies" (1392s), Cannon at [8, 10] and Skeletons at [10, 14].
+- clock 1:03: he answers an evolved Knight with a bridge Ronin and cites Parry - "I can Ronin again at the bridge actually. How is he supposed to defend this? Cuz that's going to deflect his knight and take it out" (1466-1470s).
+- overtime, t=1564: the Knight is the target of the winning Magic Archer line-up - "That's going to line up on the knight and that's game. That's tower" (1564-1566s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

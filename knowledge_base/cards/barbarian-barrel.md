@@ -548,6 +548,11 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
 - Never used as the Graveyard's bridge tank (the KB's standard Barrel + Graveyard line) — that role goes to the Hero Berserker at the river on all four Graveyard pushes.
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 0:23 and 0:16: mentioned only, and both times as a cycle read rather than a sighting - "I think he's going to get a [Tornado] down cuz he doesn't have barbarian barrel" (1503-1506s), "I know he's going to poison it, but that's fine cuz we also got the barbarian barrel" (1512-1515s). The detector picks one up at (14, 13) at t=1549.5.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

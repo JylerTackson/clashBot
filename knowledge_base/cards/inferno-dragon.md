@@ -254,6 +254,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.
 - Opponent card, seen at clock 1:42, 0:36 and overtime 1:18. It is the reason he kites instead of blocking — "go for the Berserker here just to kite this away and not take any Inferno Dragon risks with not having any like cheap air defense in hand" (clock 1:43) — and the reason he spends the Magic Archer Hero ability — "We can pop the ability and go backwards, keep this alive against the inferno dragon" (clock 0:47).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 2:02: named as one of the two cards that keep Ronin honest in this matchup — "obviously the Inferno Dragon and the Baby Dragon do solid against it" (418-420s).
+- clock 1:44: the opponent commits it to the wrong lane and Ryley immediately reads the game as decided on that side — "Yo, bad Inferno Dragon. He can't defend the right side now. That's huge" (436-440s). The enemy right tower goes 4858 -> 2672 across the next ten seconds.
+- clock 0:47: he plays around it before it appears, baiting with Wall Breakers — "he's probably going to go for a bowler or an inferno dragon" (494-496s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

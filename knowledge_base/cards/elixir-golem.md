@@ -139,6 +139,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
 - OT 0:52: calls the deploy before it happens — 'we have to be careful here cuz he's going to e-golem' (t=241-242). His overall read: 'we're up against a mid-ladder menace E Golem variation. I mean, I guess E Golem in general is just a mid-ladder stuff' (t=68-72).
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- Opponent card, clock 2:33 at tile [5, 25] and again around 1:13 and 0:29 — the opponent's main beatdown lead in this game. Ryley answers each one with cheap cycle only (Skeletons, Ice Spirit, Fire Spirit behind Cannon and Ronin) and never spends a heavy card on it; his left tower drops from 4858 to about 3430 HP across the first two pushes but holds.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Golem (scraped 2026-09-02T02:34:58+00:00)

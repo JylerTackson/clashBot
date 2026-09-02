@@ -190,6 +190,12 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 2:07: the Ice Wizard is tracked crossing at (10-14, 14-19) and arrives after the Wall Breakers have connected — "Ice was just a little bit too slow."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 1:10 overtime: called as it goes down behind the opponent's push - "He went ice wizard into the run and let's spirit barrel here then we wall breakers opposite lane. I think he's just cooked" (1533-1537s).
+- overtime, clock 1:32: he pre-reads it as one of two likely follow-ups - "He's going to baby dragon down the middle or ice wizard" (1558-1560s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

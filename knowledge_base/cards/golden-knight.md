@@ -193,6 +193,17 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - Ryley rates it as a card that gets the opponent nothing in this matchup - "obviously golden knight is kind of a stupid card, but other than that, like he's just basically getting no damage" (1415-1421s) - and reads a back-placed one as a symptom of a stuck cycle: "there's the golden knight cuz his cycle can get so awkward" (1528-1531s).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- Opponent card, clock 1:46 and still on the field at 0:11. Named before it arrived as an ideal Ronin target — "even like a Gold Knight here, it would be really, really good against" (58-61s).
+- clock 1:53: "Look at that Gold Knight dash. Oh my, wow. It does a lot of damage in the reflection" (62-64s). At 0:13 the Ronin is still alive against it: "every second shot it's just reflecting it" (161-164s) — a fast melee attacker that survives the parry longer than a P.E.K.K.A. does.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 1:05 (t=648.6, tile [2, 15]): follows the Sparky into the left lane on the opponent's only big push of the game. Ryley never names it; it walks into the same Cannon + Ice Spirit + Ronin defence (t=649.6-656.7) and the towers survive untouched.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

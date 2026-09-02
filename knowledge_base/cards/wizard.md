@@ -229,6 +229,17 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:44 (t=1938): named as the reason he can commit to a big push without fearing the Magic Archer — "I had a feeling that after I went for this, he would pressure me with the magic archer, but I wasn't scared cuz I knew that I had the hero wizard for defense".
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.5:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 2:20-2:08 (t=576-586): used to read the opponent's list and to justify committing Ronin — "probably the one with the Wizard and the Mini P.E.K.K.A", then "which is not the end of the world because at least he played the Wizard there", i.e. the splash answer was already spent.
+- clock 0:37 (t=676.7, tile [11, 18]): the opponent's Wizard is tracked on their own half while Ryley's second Magic Archer and Ronin are on the board; it does not stop the chip.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 0:23: the opponent's Wizard arrives at tile [4, 15] with the final push; Ryley blocks it with a spirit and the Ronin instead of trading a card for it.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

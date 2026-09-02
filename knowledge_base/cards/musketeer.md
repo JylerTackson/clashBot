@@ -245,6 +245,13 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
 - clock 1:29 to 0:50 (t=1022.5 - 1184): his standing answer was Firecracker ('I hope that the firecracker can take out that musketeer'; 'Beautiful shot on the musketeer right there'), and at clock 1:23 he sent a back Hog Rider partly at her - 'Just need to try to deal some damage to that musketeer'.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- opponent card. clock 0:19 and through overtime, tracked at (0, 15) and (13, 14-23). Answered with the Magic Archer — "Let's go for the wall breakers behind after it takes out the musketeer" (1120-1121s).
+- OT 1:01: he uses a Cannon as a body-block for its shot — "We can go for the cannon. Make sure we block that magic archer shot. I mean, the musketeer shot. Sorry, misspoke" (1142-1145s).
+- OT 1:10: he counts it as spent elixir before committing his Ronin push — "He has no elixir cuz he used the musky and the Skelly drags" (1133-1135s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

@@ -219,6 +219,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.1.
 - Mentioned only — never detected. He plays around it rather than fearing it: "He could freeze, actually" before the bridge Wall Breakers at clock 1:30, "I know he was hoping to grab a finesse freeze" at overtime 1:35, and "Even if he freezes that, that's not going to connect" when spacing an Ice Spirit at overtime 0:54.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 1:37: he pays elixir specifically to insure against it — "we can go for the skellies too just to make sure that he doesn't get like a last second freeze on us. I don't want to risk anything" (442-447s).
+- clock 1:27: he thinks the opponent should have used it on defence instead of the Knight — "He had to go for the freeze" (454-455s).
+- clock 0:38: when the Freeze finally lands it costs him 60 tower HP (own left 4858 -> 4798) — "Horrible freeze. That was not that great" (501-503s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

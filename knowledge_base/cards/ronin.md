@@ -260,6 +260,70 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md
 - clock 0:05 (t=2028.4): second and last Ronin at [9, 15] on the bridge in the final seconds as extra pressure while the X-Bow finished the tower; no commentary on this one.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- clock 2:19: with an Elixir Golem walking the left lane he drops Ronin at tile [4, 11] behind Skeletons, Ice Spirit and Fire Spirit, then explains the card over the defence — "the Ronin like reflects melee units. It's like a melee version of the Monk" (46-49s).
+- clock 1:17: Ronin at [8, 5] plus Cannon at [9, 10] against a P.E.K.K.A. push — "Let's go for the cannon here to bring this over, and as you guys will see here, the P.E.K.K.A. is going to damage itself a ton", then "Look at that, guys. Look at the Ronin there just damaging the P.E.K.K.A." (101-109s). At 0:39 he calls the payoff: "the PEKKA almost one shot itself" (136-140s).
+- clock 0:43 and 0:11: Ronin at [6, 2] holds against a Golden Knight and is still alive at the end — "look at that Ronin surviving against the golden knight" (130-132s) and "it's still surviving against the golden knight cuz every second shot it's just reflecting it. Absolutely broken" (161-164s).
+- clock 0:19: 5-elixir Ronin at [4, 12] to finish the P.E.K.K.A. — "we can go for the Ronin here as well just to take care of that PEKKA cuz look, oh my god, it completely destroyed that PEKKA guys" (154-158s). He rates the parry above Monk's: "instead of it being like a 5-second period, it's like the entire time that it's down" (94-99s), and flags Electro Dragon as the counterplay — "E Drake can get really annoying whenever you have the Ronin because of the resets" (123-127s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:21: placed at tile [14, 14] directly on top of the opponent's Bowler (HUD elixir 8 -> 3, deploy label confirms) with the parry rule spelled out — "Ronin is interesting against Bowler guys, cuz even though it looks like Bowler might be a melee unit, it's not actually a melee unit, so it does not reflect the Bowler... it won't reflect things like, you know, Sparky, Bowler, and things like that, cuz those are still projectiles even if they do kind of look like melee units" (194-213s). He also stacks it on top so it cannot be displaced: "directly on top of that so he can't use the giant ability to knock it away" (203-206s).
+- clock 1:23 and 0:31: offensive Ronin at tiles [14, 13] (elixir 6 -> 1) and [4, 14] (10 -> 5), each with a Fire Spirit dropped on top of it a second later — "I can just go for a Ronin plus Fire Spirit on top of the witch" (261-263s), "Let's go for the Ronin plus Fire Spirit" (315s).
+- overtime 1:52 and 1:44: the game-winning interaction. He pre-calls it twice — "He might have Mini P.E.K.K.A. though. If he has Mini P.E.K.K.A., the Ronin's going to be absolutely insane against that" (228-230s) and "the Mini P.E.K.K.A. does actually like one-tap itself, which is kind of funny" (280-284s) — then a Mini P.E.K.K.A. walks into the Ronin at tile [1, 18]: "look, it's going to get one shot. OH MY GOD! I told you he can't use the Mini P.E.K.K.A. Good game. Very nice win" (357-365s).
+- clock 2:42: on the recent buff, spoken while barrelling — "what do you think about the Ronin man? Especially after the buffs that it got. It now hits quicker and its first attack is also quicker. Just like overall across the board, just a massive buff to the damage and the damage per second" (180-192s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- clock 2:07: the only defensive Ronin of the game, at (16, 7) deep on his own right side (elixir 9 -> 4, HUD plus a score-1.0 'RONiN' deploy label). His matchup read just before: "the Ronin will like completely wreck this Knight, but then obviously the Inferno Dragon and the Baby Dragon do solid against it" (409-418s).
+- clock 1:11, 0:40 and 0:23: three offensive Ronin at (14, 14), (0, 11) and (16, 11) once he is ahead, each after a cheap cycle — "Good cycle for us. Let's go for the Ronin here" (499-501s) and "Go for another Ronin here" (517-519s).
+- clock 1:05, his overall verdict on the card the whole video is built around: "I actually think Ronin might be one of the craziest cards they've released in terms of like countering specific cards. Like it's just so strong against all of like the melee cards. Dude, it's like actually ridiculous" (476-486s).
+- He is explicit that Ronin is matchup-dependent, not a blanket win condition: "Ronin is all right in this match up, but it's nothing crazy in my opinion" (409-413s) — against a deck with Inferno Dragon and Baby Dragon it does not carry the game, the barrels and Wall Breakers do.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 2:16 (t=579.6): played reluctantly at tile [2, 14] behind the left bridge as the answer he is forced into — "I have to Ronin here even though I don't want to. He's going to Sparky into this, which is not the end of the world because at least he played the Wizard there" (t=580-586).
+- clock 2:03 (t=590-599): he rates the parry as an offensive stat, not just a block — "Ronin deflecting the skellies is just so funny too. Look at that damage. Ronin does so much damage under the tower too. Does like 600 a shot. Very, very crazy card here"; the enemy left tower goes 4106 -> 3321 HP while he is on the field.
+- clock 1:03 (t=653.7, tile [6, 14]): the third leg of the anti-Sparky defence, after Cannon and Ice Spirit — "We can go for the Ronin here cuz it's going to... take out the Sparky and deflect the Mini P.E.K.K.A. Perfect" (t=654-659), then "I don't know a single other card in the game that could defend that right there for just five elixir. That's insane" (t=661-665).
+- clock 1:38 (t=617-619) and clock 0:40 (t=678): holding Ronin is what frees his Wall Breakers for offence — "It's not like I exactly need them, especially if I have the Ronin for the Mini P.E.K.K.A" — and his summary of the game is "Ronin is just so good on defense" / "the Ronin needs an emergency nerf. That was just a ridiculous defense" (t=715-717). Only one of his five Ronins is offensive (t=700.7 at [8, 19], after the tower falls).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- clock 2:35 (t=736.7): played at [12, 1], behind his own King Tower, purely to scout — "I'll Ronin here just to kind of figure out the rest of his deck. Sometimes Ronin can completely starting hand people cuz if they have a bad cycle, then the card is just going to like deflect itself and end up dying" (t=739-745).
+- clock 2:26: the opponent answered it with Guards and he was openly unsure about the Parry interaction — "Oh, it reflects guards, too. Interesting. Wait, does Ronin not one-hit guards? I don't think it does. Or is that like the deflection attack? I'm not fully sure" (t=746-753) — concluding at t=774: "I do think guards actually might be a really good counter to Ronin and Evo Barbs."
+- clock 1:24 (t=808.5, -5): used as the mini-tank that absorbs the Goblin Drill push on his own half at [4, 14], followed up with Skeletons and a Fire Spirit — "Okay, there's the drill. Go for the Ronin here and then we can go for the skeletons plus fire spirit to finish off that drill" (t=805-812).
+- clock 0:17 (t=876.9): the only bridge placement of the game, at [14, 14] behind a Goblin Barrel — "Let's barrel it then we can Ronin here on the right side. Apply some more pressure. Force out the barbs maybe" (t=877-881).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- clock 2:42: opens with him as a straight mirror answer once he sees the opponent has the same card (HUD, elixir 9 -> 4) — "He seems to have the Ronin as well. I'll go for my Ronin now."
+- clock 2:02, 0:29, OT 1:35 and OT 0:48: four defensive placements deep on his own half at tiles [8, 9], [8, 5], [9, 0] and [8, 10], each against a Bandit or a Battle Ram rather than as a push starter — "We're going to need to go for our own Ronin here as well. Let's Ronin down low, then we can go for the skeletons here" (963-967s), "Just Ronin here. Ronin will take care of the bandit really, really easily" (1109-1112s). Result at 969s: "Very good defense. Ronin's full HP, too."
+- OT 1:18: the one bridge Ronin of the game, at tile [13, 14] immediately followed by a Goblin Barrel, played only after the opponent had spent his answers — "Yep, beautiful Ronin barrel here... The Ronin's going to be on the tower. He has no elixir cuz he used the musky and the Skelly drags" (1129-1135s). The enemy right tower falls 3665 -> 3089 -> 2476 -> 923 -> 330 HP between OT 1:12 and OT 1:07.
+- clock 2:40-1:42: his stated way to beat an enemy Ronin is to waste the parry with Skeletons, dropped early — "I think the way that I want to defend the Ronin is by surrounding his with skeletons, so then the skeletons get reflected for the most part" (924-929s), "you have to drop them a little bit early, it seems like, because if you don't drop them early, then obviously the Ronin will just hit [them] too quickly" (974-982s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 1:53: Ronin at tile [5, 14] on the left bridge as the defensive block against a committed Sparky push — "Oh, no. We have to Ronin here. That's going to take out the mini Pekka... The Ronin should take out the Sparky. Give me one. Give me one on it."
+- clock 1:15: offensive Ronin at the right bridge, tile [15, 14], as a prediction rather than a defence — "I'm going to go for the Ronin barrel cuz he might Sparky the back again"; the opponent did start Sparky in the back at 1:03 and the right tower fell from ~3,700 to ~870.
+- clock 0:48-0:34: the defensive Ronin at [5, 14] survives Sparky, Graveyard and a Mini P.E.K.K.A. and converts straight into the tower — "Ronin, please stay. Okay, the Ronin stayed, that's huge... Oh my dude, the Ronin is too strong... The Ronin just hard carried that defense so hard", and at 0:31 "The Ronin and spirit for the tower, huge" (enemy left tower 2395 -> 298).
+- clock 0:23: he offsets the Ronin to tile [1, 18] specifically to dodge the opponent's Hero Giant ability — "Let's go for the Ronin like this so he can't predict me with the ability. Yep, he tried to predict me with the ability."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 2:37: build-up Ronin behind the tower at tile [9, 9] (elixir 9.0 -> 4.0), covered by a Goblin Barrel four seconds later - and he calls the risk before it happens: "I think you can activate king tower off the Ronin, so I'm hoping he doesn't have [Tornado]. Let's actually barrel here just so we can[not] [Tornado] the Ronin to the king tower, cuz that would be really bad" (1375-1381s). The opponent Tornadoes it into their king tower at 1382s: "Yep, that was a beautiful [Tornado]. I just had a feeling he had [Tornado]" (1383-1385s).
+- clock 1:03 and overtime: two straight bridge runs at [13, 15] (t=1469.5) and [3, 14] (t=1524.5), both aimed at a Knight, both justified by Parry - "I can Ronin again at the bridge actually. How is he supposed to defend this? Cuz that's going to deflect his knight and take it out" (1466-1470s), "I'm going to run in the bridge here" (1525s).
+- clock 1:52 and 1:27: also used defensively deep on his own half at [17, 8] (t=1417.4) and [16, 7] (t=1444.4) while a Baby Dragon and Graveyard skeletons were on him - "Okay, well, I guess I'll Ronin here" (1444s).
+- clock 0:52: when it connects he rates the damage rather than the hits - "Aw, I was hoping to get a few hits there. But that's good anyways. That's very good damage" (1481-1484s); the enemy left tower drops from 4527 to 2607 across the next six seconds.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ronin (scraped 2026-09-02T02:35:13+00:00)

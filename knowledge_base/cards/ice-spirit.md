@@ -583,6 +583,65 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
 - clock 1:29: dropped at (2, 14) behind a Fire Spirit at the bridge in the play he immediately regrets, because post-nerf spirits no longer walk up in time to connect.
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.0.md):
+- clock 2:31, 2:19, 1:44, 1:10: four one-elixir Ice Spirits ([3, 14], [5, 8], [10, 11], [1, 14]), every one of them added onto a defence already committed with Cannon, Ronin or Skeletons rather than being the answer itself.
+- clock 0:27: places it deliberately deep beside the Magic Archer — "Ice spirit down low here and I have the ability ready in case he tries to do anything" (147-149s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 2:13: paired with split Skeletons against Minions crossing at tile [15, 14] (HUD elixir 6 -> 5) — "Just going to split my skellies here to deal with those minions. Very nice defense right there" (213-216s).
+- clock 1:50 to 0:24: interchangeable with the Fire Spirit in the bridge-chip routine, tiles [14, 14], [2, 15], [3, 5], [5, 14], [9, 17] — part of "being annoying here with the spirits at the bridge" (243-246s).
+- overtime 1:50: added to the finishing barrel push at tile [9, 17] — "Let's go for the Fire Spirit, Barrel and Ice Spirit" (355s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.2.md):
+- Eight deployments, all mid-map on his own side of the river — (14, 14), (10, 14), (11, 14), (9, 11), (10, 11) — the deck's cycle card back to Goblin Barrel and Wall Breakers.
+- clock 0:17: used as the follow-up behind a Goblin Barrel to extend the chip — "Let's go for the barrel here. Then we have an ice spirit" (523-524s).
+- clock 1:36: dropped at (10, 14) inside the barrel-plus-Wall-Breakers pressure sequence in which he is also holding elixir for anti-Freeze insurance (442-448s).
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- clock 1:09 (t=650.6, tile [1, 9]): the freeze that anchors the anti-Sparky defence — "I'm going to go for the Ice Spirit down here just to freeze the Sparky. Jumped directly on top. Freeze everything" (t=650-654).
+- clock 1:28 (t=629.3, tile [2, 14]) and clock 1:34 (t=626-628): used to buy the Magic Archer time — "we can go for the Ice Spirit here just to freeze that and keep the Magic Archer alive".
+- clock 0:32-0:23 (t=684.7 [4, 12], t=692.7): spent pre-emptively against the opponent's own small spell — "He might try to spirit or zap, so let's go for the spirit of our own. Spirit again" (t=685-688).
+- Seven Ice Spirits in 177 s (t=600.1, 629.3, 650.6, 669.5, 684.7, 692.7, 706.7) — in a 2.5 list it is both the freeze and the cycle card, placed either on top of a threat or directly beside the card it is protecting.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.4.md):
+- clock 2:02 (t=770.8 at [8, 1]): the do-nothing cycle card played deep in his own half when he wanted to stay high on elixir instead of committing — "I think I'll just chill with an ice spirit here in the back and then Wall Breakers opposite lane" (t=769-773).
+- clock 1:39: used as a tank in front of a push rather than for the freeze — "then we go for the Ice Spirit here as well on the right side just to tank as well" (t=793-795).
+- clock 0:07 (t=885.9 at [16, 5]): backing up the defensive Evo Wall Breakers against Barbarians — "and then we can go for the ice spirit here as well. Perfect" (t=885-887). Also played at clock 2:42 [14, 14], 0:55 [8, 9] and twice in overtime.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- clock 1:10: paired with the Fire Spirit at tile [8, 10] to activate his own King Tower against a Bandit — "We can maybe activate King Tower with the double spirits... Let's ice spirit here" (1008-1014s), and he rates the outcome "That's going to make defense a lot easier for the rest of the match" (1018s).
+- clock 0:45: he plans his cycle explicitly around holding one for the evolved Battle Ram — "Let's ice spirit. I need to get back to another ice spirit though before he goes for the Evo ram" (1040-1046s).
+- OT 1:47 and OT 1:25: defensive freezes at tiles [1, 10] and [16, 14], the second at the river to slow a Musketeer before his Wall Breakers ran — "Spirit here" (1097s, 1117s).
+- played eight times in the game (tiles [9, 15], [4, 14], [8, 10], [16, 14], [1, 10], [9, 14], [14, 14], [10, 8]), always as a 1-elixir reset or cycle rather than as offence.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 2:02: Ice Spirit at tile [6, 10] used as a splash/freeze directly on the Sparky, not as cycle — "let's go for the ice spirit here as well, just to be able to splash on top of the Sparky like we did against the last guy. Oh, that didn't splash, unfortunately."
+- clock 1:37: he blames the whole 2,100-damage tower loss on that miss — "All because I missed the ice spirit."
+- clock 0:54: retries the same idea at tile [6, 8] behind the Cannon — "We need to go for the ice spirit. Hopefully this time it can actually splash."
+- clock 0:21: a spirit thrown at the Wizard push to block the opponent's Hero Giant ability read — "he tried to predict me with the ability with spirit here to block this."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.7.md):
+- clock 1:18: dropped for the freeze on a connecting threat - "Let's ice spirit to freeze" (1451-1452s), deploy label at [12, 11].
+- clock 1:56: used to deny the bridge when he read a Graveyard coming - "I think I need to block the bridge here cuz I think he's going to graveyard. Let's spirit here to block the bridge" (1411-1413s).
+- clock 0:33: placed on top of an air threat as the cheap half of a defence - "then we can go for the ice spirit here on top of the baby dragon" (1494-1497s), deploy label at [9, 8] (elixir 5.0 -> 4.0).
+- Seven uses in a 215-second game (t=1367.4, 1451.5, 1475.1, 1491.7, 1496.2, 1531.2, 1533.7, 1556.6) - in this 2.5-elixir list it is as much a cycle card as a defensive one.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

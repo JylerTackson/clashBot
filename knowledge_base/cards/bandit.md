@@ -224,6 +224,13 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md
 - t=440 (clock unread): he says 'Let's Bandit the bridge here', but a t=424.0 Bandit deploy label attributed to him conflicts with his elixir trace and with Bandit being in the opponent's deck, so it is not counted as one of his eight cards.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.5.md):
+- opponent card, and the threat he respects most. clock 2:19: "Okay, he's going to dash and pop back. Perfect. Okay, at least it stays alive" (944-948s).
+- clock 0:12-0:07: a Bandit dash from the bridge takes his right tower 4683 -> 3132 and his left 4858 -> 3817 in six seconds — "What the bandit? Oh my god. Bro, the bandit just dashed from the bridge. What in the world?" (1072-1078s), then "we need to watch out for that bandit, dude" (1083s).
+- OT 1:35-1:28: his two settled answers, stated plainly — "Just Ronin here. Ronin will take care of the bandit really, really easily" (1109-1112s) and "These magic archers like my saving grace. It's going to one shot the bandit" (1115-1117s). At OT 0:38 he also uses Wall Breakers as a distraction: "Wall breakers here to distract the bandit."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

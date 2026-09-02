@@ -369,6 +369,11 @@ Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
 - clock 0:51 and 0:19: the opponent's Evo Zap is the card Ryley plays the whole match around, and he punishes both misuses — 'He wasted his zap though on the bats' (133s), then he baits it again with Bats at the bridge ('Bats here. He might zap') and calls it 'bad evo zap by him' before sending Wall Breakers (164-168s). Textbook bait-deck spell tracking.
 <!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.3.md):
+- Mentioned only (clock 0:32, t=685 and clock 0:15, t=703): the spell he pre-empts with his own Ice Spirit — "He might try to spirit or zap, so let's go for the spirit of our own" — and his first (later retracted) explanation for his tower damage: "I took zero damage on my tower except for a zap."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

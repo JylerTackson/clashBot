@@ -181,6 +181,18 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=106-165s (clock unknown — the clock OCR failed for this whole video): Ryley predicts the Giant three times before it lands ("He might end up just going Giant Graveyard at the bridge", t=106; "Does he giant? Okay, yep", t=111; "He's going to giant. Yep", t=161) and never spells it — the Cannon pulls it and Mighty Miner plus Skeletons kill it, while Lightning is saved for the support. He rates the matchup class outright: this deck "absolutely destroys like Giant, Golem, you know, Giant Skeleton" (t=87-90).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.1.md):
+- clock 0:25 to 0:19: the opponent's Giant is answered with a predicted Cannon rather than a reaction — "let's predict the giant here with the Cannon. Nice. Beautiful prediction. Now the giant's going to walk out of range of the tower, so our towers can help out on defense. Very good Cannon" (320-327s).
+- clock 2:21: he places the Ronin on top of its target partly to deny a displacement ability — "directly on top of that so he can't use the giant ability to knock it away" (203-206s); read as the Hero Giant's Heroic Hurl, though the auto-transcript could also be mangling 'Giant Snowball'.
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:start -->
+Match [#1 BEST Ronin Deck in Clash Royale](../matches/kiN_D3bRu34-m0.6.md):
+- clock 0:27-0:23 (mentioned only, Hero Giant): Ryley expects a Giant + Mini P.E.K.K.A. bridge push and pre-places Cannon wide for it — "He might go for the giant plus mini pekka at the bridge. Let's cannon here, all the way's away" — then offsets his Ronin so the Hero ability cannot grab it: "so he can't predict me with the ability."
+- post-game (t=1355): "a crazy prediction by him with that giant ability and a crazy NATO."
+<!-- creator-insights:ryleycr1:kiN_D3bRu34-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant (scraped 2026-09-02T02:34:51+00:00)
