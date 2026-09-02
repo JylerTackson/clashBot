@@ -190,6 +190,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - overtime t=419.4 and t=482.5: drills at (14, 24) and (15, 22) while defending — "I went for the drill as well cuz I knew that I could probably pressure while defending" — and the drill's tower aggro is what saves his support: "it also allowed the bomber to fully take out the mortar because the tower was too busy on the drill. So, the tower wasn't able to finish off my bomber." All six drills in this game land in the enemy right corner; none is ever used defensively.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:38 and clock 0:48 (opponent): drills up at [2, 6] and [1, 2] deep on Ryley's left half. He never builds a dedicated answer, letting the Knight/Barbarian Barrel/Furnace shell that is already there handle it; his left tower still takes steady unattributed chip through both drills.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

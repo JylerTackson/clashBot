@@ -393,6 +393,19 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - t=1713-1723 on Evolution alignment: 'this meant that my Evo Tesla and his Evo piggies were unaligned in cycle, which is scary because then the next time he goes piggies I have to do the regular Tesla and it doesn't get as much damage on the piggies as the Evo would'.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- clock 2:38 and 0:39 (t=186.4, 306.3): defensive placements at [8, 13] and [5, 13] on his own half (10 -> 6 elixir on the first), the standard central pull spot, while Electro Spirit and Skeletons clean up behind it.
+- clock 1:36 and 0:57 (t=249.6, 287.3): pre-emptive bridge Teslas at [10, 13] and [11, 13] as X-Bow armour and Rocket bait — "I'm going to Tesla the bridge here just to be a little bit annoying. Kind of just forcing him to rocket the next expo, because if there's a preemptive Tesla down, there's not really anything that he's able to do other than rocket" (t=252-263).
+- overtime 1:38 to 0:34 (t=367.5, 398.4, 416.4, 431.1): four more, one of them explicitly a prediction of the opponent's building — "I know he's going to Tesla, so let's go with Tesla to predict his Tesla. Perfect. Very good prediction by us right there" (t=415-419).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
+- clock 2:48 and 2:28: the deck's only building, placed centrally at (8, 11) and (9, 13) to pull the mirror's Berserker/Dart Goblin bridge pushes.
+- overtime 1:59: replayed at (9, 13) explicitly as a tank for his ranged unit rather than as a pull - "Let's Tesla here to keep tanking for the Dark Goblin."
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

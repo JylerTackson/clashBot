@@ -247,6 +247,19 @@ Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/kl
 - t=24.0s [8, 3] (clock unknown — the clock OCR failed for this whole video) and again around t=114 ("Okay, graveyards, too"): the one thing this deck never solved in the game — his right tower went 4858 → 787 and his king tower was opened and ground to 1650 while he accepted the chip on purpose: "Just making sure that we're minimizing damage, but not also like defending poorly" (t=196-200).
 <!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 0:55: the opponent drops a Graveyard at [7, 3] in front of Ryley's King Tower. He answers with a package rather than one card — Bats at [0, 10], Bomb Tower dead centre at [7, 10], Goblins at [1, 10] and a Miner at [6, 11] — and says he has to 'finish out this defense here if I want to win this game' (131s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:33, 1:19, 0:46, 0:15, OT 1:38 and OT 1:34: six casts, every one on the far-left column against the enemy left tower ([1, 24] to [1, 26]) — the edge-of-tower placement the card file recommends — and he never switches lanes with it.
+- clock 1:19: the standard package is Graveyard plus a Berserker at the river to tank, not a spell to protect it: 'let's go for the graveyard berserker here. Just be annoying as annoying as we possibly can, especially cuz he had no berserker in cycle, so it's going to force out a lot more elixir.'
+- clock 2:19: he grades a Graveyard by elixir drained as much as damage — 'Oh, if we got a shot that would have been great, but it did get us some nice damage and force out a lot of extra elixir.'
+- OT 1:41: with Poison in hand he casts the spell first and the Graveyard second — 'I do want to go for a graveyard poison again though. Let's poison first and then...' — so the small defenders are already dying when the Skeletons arrive.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

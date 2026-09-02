@@ -253,6 +253,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - Mentioned only, as the deck he wrongly expected and had picked bridge spam to beat: "I also thought that he could start off with mortar bait against me and I did have a pretty high feeling that I would beat mortar bait with this bridge spam deck. And as you see right away, I was very, very wrong about him having mortar bait" (clock 2:36-2:26).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- Mentioned, not played: he treats X-Bow and Mortar as the same problem for the defender, and the Hero Berserker as the fix — "typically when you're trying to defend an X-Bow or a mortar, right? You need to put cards at the bridge to be able to attack it. But when you have the hero berserker, you can pop the ability… which can usually end up getting you an X-Bow or a mortar connection" (t=187-204).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

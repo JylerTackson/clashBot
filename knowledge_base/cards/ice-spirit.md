@@ -570,6 +570,19 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:34: Ice Spirit at (6, 10) behind the Hero Valkyrie on the left defence. He states the card's job in this matchup at 835-838s: against the Evo Battle Ram, "if I don't perfectly get my Ice Spirit on it, it just rams into everything."
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:17 to OT 1:27: the cycle card and cheapest defensive filler, eight-plus plays ([1, 8], [8, 0], [2, 5], [1, 14], [1, 7], [3, 15] plus HUD casts), usually attached to a Knight or Furnace defence on the left lane.
+- clock 1:25: an explicit placement rule — 'Let's go for the ice spirit here in the back. There's no point putting it at the bridge, right? Cuz it's not going to connect to the tower anyway.'
+- clock 0:15: added to the Graveyard stack for survivability rather than damage — 'a graveyard plus Berserker spirit here as well. Just keep everything alive.'
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
+- clock 1:18, 0:54, 0:31 and overtime 1:59/1:16: the barrel escort and cheap freeze, at (9, 12), (3, 14), (15, 13), (6, 14) and (14, 5); the (15, 13) drop is the one he likes - "Ice spirit Oh, beautiful spirit just getting barely in front."
+- clock 1:29: dropped at (2, 14) behind a Fire Spirit at the bridge in the play he immediately regrets, because post-nerf spirits no longer walk up in time to connect.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

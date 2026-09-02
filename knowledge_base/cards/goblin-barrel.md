@@ -620,6 +620,14 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - Note: the pipeline logged three of these barrels as opponent plays; the deploy labels land on the opponent's half at the exact seconds Ryley narrates his own barrels.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
+- clock 1:51 to overtime 1:06: the win condition, thrown eight times, alternating tower - (14, 26), (14, 25), (14, 24) twice on the right, then (3, 25), (3, 26) three times on the left in overtime. The left-lane switch is what wins it: enemy left tower 2013 -> 630 between overtime 1:52 and 1:06.
+- clock 1:17 and 0:56: always escorted by a spirit - "let's go for the spirit barrel here. Spirit barrels are still worth it because spirits will actually tank for the barrel. In this case though, um the spirit is so slow it actually doesn't walk up in time", and again at 0:56, "go for the spirit barrel here again. Just keep up the pressure."
+- overtime 1:52 and 1:27: paired with Wall Breakers in the opposite lane as a two-lane commit - "Barrel Wall Breakers here" and "Let's go for the barrel here and then we can go for the Wall Breakers opposite lane."
+- clock 1:05: on the spirit nerf changing how the card is played - "all my muscle memory from years and years of uh playing goblin barrel has just been deleted in a single balance."
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

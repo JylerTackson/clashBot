@@ -216,6 +216,12 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - overtime t=488: the third cast, into the opponent's bridge spam — "And this time I poison [as he continues] bridge spamming." Poison is the eighth card of this list rather than the Giant the per-game read reported; see the match file's Data gaps.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:26, 0:05 and OT 1:41: three casts at [4, 22], [5, 23] and [4, 20], all on the enemy left tower behind a Graveyard, none on defence — the deck's whole spell budget goes to protecting the Skeletons.
+- OT 1:41: he states the ordering inside the push — 'Let's poison first and then...' — Poison down before the Graveyard rather than reactively after the defenders appear.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

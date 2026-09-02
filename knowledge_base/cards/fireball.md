@@ -484,6 +484,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - t=735-742 (overtime): three unattributed hits on his right tower (172 + 422 + 422 HP, 3052 -> 2286) clear his Evo Tesla and two Furnaces — "he wiped me out with the fireball. I could have panicked Tesla, but I realized that it would be probably better just to eat like 800 damage to a thousand just to have my cycle perfect" (t=737-743).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 2:15 and 0:45: both casts are defensive and both land in his own left lane on Lava Hound support — [2, 11] and [2, 12]. He never spends it on a tower. 'Let's berserker here. We can go for a nice fireball on defense. And yeah, very good defense here' (140-144s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

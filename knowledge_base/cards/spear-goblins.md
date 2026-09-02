@@ -208,6 +208,12 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - Not a deck slot in this game — they are the Goblin Hut's output, and the reason he runs the hut. Detections trickle into both lanes from clock 2:06 onward ([10, 9], [9, 8], [2, 12], [3, 16], [4, 15], [12, 20]). "I always wanted to have some Spear Goblins on the board. I just knew it would make it very, very annoying for him to play this game" (t=117-122) and "I always have Spear Goblins on the board" (t=132).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 2:31, 1:49, 1:14: always the ranged half of a Berserker package — [15, 14] behind the 2:37 Berserker, [10, 7] at 1:49, and [14, 9] at 1:14, the pair he then spends the 3-elixir ability to protect ('it's going to tank for my spear goblins', 118s).
+- clock 0:31: a fourth set held back on purpose rather than played on sight — 'we have another set of spear goblins. I'm going to wait though' (150s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

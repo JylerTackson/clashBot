@@ -200,6 +200,13 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:50-0:46 (t=123-130): the hut plus a permanent Furnace is his stated anti-Royal-Giant engine — "with having the Goblin Hut here, it is actually really hard for him to be able to get a push going... and I always have Spear Goblins on the board" (t=124-132). The opponent sits at ~10 estimated elixir for most of the second half.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 1:45, 0:32 and OT 1:55: all three at [8, 10] — the middle of his own half between the two Crown Towers — used as a cycle card as much as a defence: 'Okay, let's cycle our goblin hut here. We have kind of a weird cycle.'
+- clock 0:32: he sequences the hut ahead of his mini-tank when the opponent cannot remove buildings — 'Let's go for the Evo Knight here in front of the tower. Actually, let's Goblin Hut first because I think he can't really take this out, and stocking up the Goblin Huts could be pretty nice for us.'
+- OT 1:55: rebuilds it immediately in overtime ('Let's Goblin Hut here in the middle again'); its Spear Goblins are on the field feeding his left lane from clock 0:27 onward while the Graveyard chips.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

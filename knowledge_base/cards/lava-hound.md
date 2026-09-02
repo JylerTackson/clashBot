@@ -232,6 +232,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 1:12 (t=260-262): mentioned only, as the matchup where his headline card falls apart — "in a lot of the match ups like against say a Lava Hound deck, Ronin is absolutely terrible."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 2:35, 1:09, 0:35: the opponent commits a Lava Hound three times, always at the back of Ryley's left lane ([1, 26], [1, 24]). Ryley never spends a hard counter on the Hound itself — he lets it walk and answers the pups with Bats, Spear Goblins, Berserker and Fireball in the pocket, taking the chip (left tower 3052 -> 1181) while he wins the other lane.
+- clock 0:33: his stated anti-Hound placement is the Bomb Tower's death bomb, not the tower's attack — 'the bomb tower bomb will actually blow up the lava pups' (155s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

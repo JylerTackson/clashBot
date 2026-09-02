@@ -128,6 +128,12 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.0.
 - clock 0:49-0:37 (t=128-140): a Recruits + Wizard + Dart Goblin + Skeleton Barrel wave is answered with a second Bomb Tower, Royal Delivery and a Fire Spirit and costs him almost nothing — "Make sure that we take this all off of the board" (t=131).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
+- clock 0:06 and overtime 1:37: the opponent's non-mirror card, dropped twice for an estimated 7 elixir into the right lane at (15, 17); Ryley answers with Berserker plus Dart Goblin plus double spirits rather than a spell - "We need to go for the double spirits here to help take this out."
+- overtime 1:45: he thinks the opponent misused the lane choice while defending it - "I feel like he delivered the wrong lane to be honest. We're in such a good position."
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Recruits (scraped 2026-09-02T02:34:44+00:00)

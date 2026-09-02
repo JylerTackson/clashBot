@@ -455,6 +455,12 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:19 (t=1666-1687): rather than break it, he times his hogs sets around its cycle - 'I knew that I would cycle his bomb tower. I knew that he would get back, but I knew that he would have to spend so much to get back that I would be in a good spot', then 'look at that guys, he had to spend everything to cycle back'.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 0:56: dead-centre placement at [7, 10] on his own half against a Graveyard dropped in front of his King — 'let's go for the evil bats here and then we can go for the bomb tower. I still do need to finish out this defense here if I want to win this game' (128-131s).
+- clock 0:33: placed off-centre at [3, 12] specifically for the death bomb against an incoming Lava Hound — 'we can just bomb tower here in the middle like this cuz the bomb tower bomb will actually blow up the lava pups' (151-155s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

@@ -443,6 +443,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:15 and overtime: defensive splash at (14, 10) against a Zappy swarm — "Valkyrie here just to take [out] all the Zappies, very crazy Valkyrie there" — and again at (1, 9) against a five-Zappy left-lane push.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 1:15-1:19: the opponent's Valkyrie crosses into Ryley's right lane and is flagged 1.8 s from the tower; he answers with a 2-elixir Wall Breakers kite at [14, 14] rather than a defensive troop, and the Valkyrie is tracked retreating two seconds later — 'Let's go for the wall breaker kite here' (104s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

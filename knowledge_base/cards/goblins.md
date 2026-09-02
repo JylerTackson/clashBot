@@ -232,6 +232,16 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - overtime t=482.5: with the lead, he places them high instead — "I went for the high goblins here" — with labels at (16, 14) and (0, 9) on the lane edges for chip. Nine deploys in the game, split between (9, 14)/(11, 13)/(14, 14) defensive drops and edge placements on offence.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 0:48: one readable deployment, [1, 10] in his own left pocket during the Graveyard and Lava Hound defence; he does not name the card. It is the third swarm in a list whose whole plan is making one small spell answer four things.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 0:05: mentioned only, as the reference point for a cheap hero ability — 'unlike some heroes, right, like the ability being so cheap like goblins, you can never really do a bad one.'
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

@@ -220,6 +220,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - t=644.2 / 728.3 / 734.3 / 740.3 / 766.4: the opponent's main air support, tracked repeatedly in the right lane. Ryley pre-plans the answer before his own push goes in — "I had lightning ready for the skelly drags" (t=681) — and casts Lightning at [15, 22] at t=681.3 onto them behind his Evo Royal Hogs.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 0:29-0:19: the opponent's air support behind the third Lava Hound, tracked into Ryley's left lane. He tanks them with a defensive Miner and Berserker rather than spending the Fireball — 'We need the berserker to tank for everything' (157s) and 'Let's minor here defensively just to tank those skelly drags. Perfect defense' (162-163s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

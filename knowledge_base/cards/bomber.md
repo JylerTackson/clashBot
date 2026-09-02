@@ -183,6 +183,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - overtime t=456-462: he deliberately body-blocks for it — "I was just making sure to block my bomber from getting taken out by the e-barb spear cuz it's really easy to choke against e-barbs." On offence it is paired with the drill at (14, 14)/(16, 14): "here I went for a drill bomber and fire spirit ready for the minions."
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:26 through OT (opponent): his main support, repeatedly walking Ryley's left lane ([7, 24], [4, 21], [7, 20], [6, 24], [4, 16], [3, 13]). The Furnace + Ice Spirit + Knight defence exists mostly to stop it: 'Good defense should take this all out' (clock 0:51).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

@@ -411,6 +411,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 0:43: second use, into a Knight advancing on the right lane at [14, 10] — "Let me go for the delivery. Berserker. Ooh, good placement" (t=1436-1438). Both uses are on his own half and both are announced before the drop.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
+- clock 2:37, 2:09, 2:02, 0:27 and overtime 1:11: strictly defensive, always in his own pocket at (14, 7) or (3, 8) - "let's go for the delivery here on defense. Not bad."
+- clock 0:47-0:42: he talks himself through holding it - "Think I'm going to delivery on defense this time. No, it's maybe to delivery next time" - before spending it at 0:27 inside the big pressure cycle, "Let's delivery here."
+- overtime 1:55: the spawned Royal Recruit is used as a free tank for the counter-push - "and then the recruit tanks. Perfect."
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

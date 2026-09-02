@@ -342,6 +342,18 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - Mentioned, never seen in a deploy label. He counts it out of the opponent's hand before committing a bridge Cannon Cart at clock 1:49: "knowing he had no zappies, no miner, no elixir for giant skelly." A later transcript line at t=1166 also refers to a Miner being dropped during overtime, but no visual confirmation exists.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.2:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 1:39: offensive Miner at [13, 20] on the opponent's half, aimed at a building rather than the tower — 'Let's minor for the tombstone. Okay, nice' (88-89s).
+- clock 0:47 and 0:25: two placements on his OWN half during the Graveyard / Lava Hound defence — [6, 11] and [0, 9] — the second explicitly as a shield: 'Let's minor here defensively just to tank those skelly drags. Perfect defense' (162-163s).
+- clock 2:14-1:34: he calls the list a 'minor wall breakers deck' (50s) and says the Hero Berserker 'fits really, really nicely' in it — Miner is the second cheap win condition that keeps the opponent answering something every cycle.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- Not his card — the opponent's — but it shapes two of his plays: he pre-places Skeletons for it twice ("Let's skellies here in case he goes for the miner", t=335-337; "skellies behind predicting the minor", t=391) and the Miner duly arrives at [13, 15] at overtime 0:47 into the waiting Skeletons.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

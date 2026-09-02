@@ -256,6 +256,14 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.3.
 - clock 0:22 (t=898): he chooses to concede an X-Bow rather than spend on it — "I will let that X-Bow connect because it's in the other lane anyways", and his right tower falls 4269 -> 3027 HP over the next 20 s.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- clock 2:19 (t=205.2): first lay at tile [13, 12], three rows off the river on his own half, with a bridge Berserker at [14, 14] two seconds later instead of a tank — "Let's go for the X-Bow here, and I'm going to berserker the bridge cuz he might try to defend"; the enemy right tower runs 3052 -> 2147 over the next fifteen seconds.
+- clock 1:24 and 0:57 (t=261.4, 288.3): re-laid at [14, 12] (9 -> 3 elixir) and [13, 12] behind a Tesla he had already put at the bridge — the stated point is the elixir tax, not the damage: "He has to rocket that. Anything else won't really work in my opinion" (t=298-300).
+- clock 0:50 and 0:28-0:25 (t=296.3, 317.3, 320.3): switches lanes with X-Bows at [2, 12], [3, 13] and [4, 11] once the right lane is saturated, each one paired with a Berserker or Tesla at the bridge on that side.
+- overtime 2:00 to 0:22 (t=344.3, 370.4, 398.2, 429.4): four more lays ([4, 12], [14, 14], [15, 12] at 9 -> 3, [15, 12]) as the Rocket race starts — "just by going expo plus berserker and the ability" is how he expects to break through (t=359-361); the last one finishes the enemy right tower at 354 HP.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

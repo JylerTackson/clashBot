@@ -364,6 +364,11 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 2:45: only mentioned, never seen — part of his pre-game read of the opponent's list, "This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado" (t=1314-1315). No Zap event was recorded on either side in this game.
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 0:51 and 0:19: the opponent's Evo Zap is the card Ryley plays the whole match around, and he punishes both misuses — 'He wasted his zap though on the bats' (133s), then he baits it again with Bats at the bridge ('Bats here. He might zap') and calls it 'bad evo zap by him' before sending Wall Breakers (164-168s). Textbook bait-deck spell tracking.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

@@ -604,6 +604,22 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:04 and overtime: he flags his own error on the timing — "I think I waited on the wall breakers, which was bad for me. I should have just instantly went" — and the game ends on the last Barrel + Wall Breakers at (14, 15): "the wall breakers somehow connected and I won the game."
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 2:23, 2:17, 1:55, 1:23: bridge pairs at [14, 14] and [13, 14] / [13, 12], always sent behind a Berserker that has already pulled the defence, in a 2.6-average list where he can afford to replay them every rotation.
+- clock 1:21: used defensively as a kite — an enemy Valkyrie was flagged 1.8 s from his right tower and he answers with Wall Breakers at [14, 14]; the Valkyrie is logged retreating two seconds later. 'Let's go for the wall breaker kite here' (104s).
+- clock 0:39: dropped on the river centre tile [9, 16] to split the pair into both lanes, timed off spell tracking — 'let's bats the bridge immediately cuz he's not back to the instant zap. Let's wall breakers here' (146-148s).
+- clock 0:27: a last pair sent 'to kite' while he was still defending, immediately before he calls the game (166-169s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
+- clock 2:51 to overtime 1:11: bridge pressure at (8, 14), (4, 14), (14, 14), (13, 14) and (3, 13), usually as the second lane of a Goblin Barrel play - "we can go for the Evo Wall Breakers at the bridge too. I just want to keep on spamming the scouts" (clock 0:25-0:23).
+- clock 1:04 and 0:42: used defensively as a cut and a kite - (3, 15) "Good wall breakers though right there just cutting that", and (6, 14) "Good wall breaker kite here to keep the dark goblin alive."
+- clock 1:59-1:55: he rates the card highly in the mirror and says his cycle cannot handle it - "We aren't really in the greatest cycle right now to defend like wall breakers and stuff like that. Wall breakers are going to be nice against us."
+- overtime 1:14-1:08: unsure whether double spirit still kills them - "We hit the Wall Breakers with spirit spirit. Um does that not work anymore or or did I mess up? I'm actually not sure. I'm going to have to test that interaction out."
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

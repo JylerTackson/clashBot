@@ -292,6 +292,13 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - t=1561-1566 on the variation trade-off: against the opponent's Evo Archers build he rates his own spawner lower - 'I really can't take out the Archers, and Furnace isn't as annoying as Archers'. It is also the card the opponent finally answered: 'my furnace did actually die' (t=1709).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:21, 1:35, 0:53 and OT 1:57: four placements, each a different job — [8, 8] centre-half, [9, 1] directly in front of the King's Tower, [2, 5] onto an already-defended left lane, and [9, 11] in overtime.
+- clock 2:45: he opens the game sceptical of the card after a Fire Spirit nerf — 'I'm kind of interested how furnace is going to work now after the nerf to the spirits. Like spirits won't even reach the tower. I feel like furnace is going to need like a big buff to compensate for that.'
+- clock 0:03: by the end of regular time he credits it for the chip that set up the overtime win — 'Furnace is on the tower. Let's go. Good damage.'
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

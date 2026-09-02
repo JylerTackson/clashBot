@@ -291,6 +291,16 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - t=757-770 (overtime, enemy right tower at 154 HP): he treats it purely as the Lightning block and refuses to spend the spell into it — "I was just waiting for him to try to lightning block me with a tombstone cuz I knew that he could always try to block the lightning... I'd rather just wait and drop piggies at the bridge because since he went for the tombstone, I knew that I could piggies"; the opponent "missed his lightning block" and gave up (t=772-774).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 1:39: named only, as the target of an offensive Miner — 'Let's minor for the tombstone. Okay, nice' (88-89s). No Tombstone deploy label was read, so the card is taken from the commentary.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- Mentioned, not played, and only as a Hero comparison while discussing Savage Survival's 3-elixir cost: "I think there's only been one hero since that, and it's the tombstone. And the tombstone is obviously garbage" (t=366-373).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

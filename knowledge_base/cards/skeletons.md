@@ -791,6 +791,18 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - nine plays in total, spread across both lanes ([16, 10], [12, 14], [12, 12], [14, 9], [13, 10], [10, 15], [14, 15], [16, 14]) - the cheapest card in the deck and the one that keeps the Evolutions aligned.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- clock 2:33 and 0:41 (t=192.2, 304.0): defensive at [1, 7] and [12, 7] on his own half, the cheap distraction layer in front of the Tesla.
+- clock 2:05 and 1:12 (t=220.2, 273.6): at [14, 14] and [14, 8] behind the X-Bow to hold defenders off it — "Let's skellies here as well" (t=274).
+- Twice used as a Miner prediction: "Let's skellies here in case he goes for the miner" (t=335-337, Skeletons at [14, 9]) and "skellies behind predicting the minor" (t=391); the opponent's Miner does land at [13, 15] at overtime 0:47.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:42, 0:50, 0:32 and 0:04 (opponent): the recurring cycle card in both lanes; Barbarian Barrel plus Knight is Ryley's standing answer — 'Let's barbarian barrel here, take this out. Good defense' (clock 0:25).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

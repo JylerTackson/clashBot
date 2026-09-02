@@ -321,6 +321,13 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 1:16-1:04: he plans to kite it instead of killing it — "I can kite back the knight with my wall breakers" (t=1408) — and then trades it for the other tower on purpose: "I did eat a whole knight for it, but I think it's worth it" (t=1422).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:18, 2:11, 1:00, 0:28 and OT 1:51 (Evolution): five plays, all on his own half in the left lane he is defending — [1, 11], [3, 11], [8, 11], [3, 9], [3, 8] — as the wall in front of the tower: 'Let's go for the Evo Knight here in front of the tower' (clock 0:37).
+- OT 1:51: paired with Barbarian Barrel as one defensive unit against a Battle Ram/Battle Healer push — 'We can go for the Knight plus barbarian barrel here on defense. Just take this all out. Beautiful.'
+- clock 0:28: he plays it expecting to be punished by a big spell and accepts it — 'Let's go for the Knight here. He might go for a rocket.'
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

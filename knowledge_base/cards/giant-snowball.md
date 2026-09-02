@@ -233,6 +233,11 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - t=1414-1418, on the opponent hoarding it: "he should have just went for the evo snowball, but for some reason, he's just never using it offensively and just trying to save it for defense." The missed snowball is his read that the game is won - "he missed a snowball, guys, and that's when I knew that I had probably won" (t=1464).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.3:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 0:58 and 0:53 (opponent, Evolution): named twice by Ryley and never cleanly detected — 'He might get a snowball down' and 'Yeah, there's the Evo snow.' He spaces his Ice Spirit and Furnace rather than stacking them into it.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

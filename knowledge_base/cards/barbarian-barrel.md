@@ -541,6 +541,13 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 0:14 (t=1792.4): the barrel immediately before the winning counter-push - 'I barbarian barreled guys, and right here is when I knew I won'.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 2:42, 1:11, 0:25, 0:05 and OT 1:50: used purely on defence in this game, twice at [3, 6] into Skeletons and Bomber runs — 'Let's barbarian barrel here, take this out. Good defense' (clock 0:25).
+- clock 0:58: rolled preemptively while expecting the opponent's small spell — 'Let's barb barrel here to take this out. He might get a snowball down.'
+- Never used as the Graveyard's bridge tank (the KB's standard Barrel + Graveyard line) — that role goes to the Hero Berserker at the river on all four Graveyard pushes.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

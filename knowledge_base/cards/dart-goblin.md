@@ -380,6 +380,13 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - clock 1:58: named as one of the three cards the opponent's Arrows and Vines answer, which is why he sequences it after the spells are gone — "he's able to kill my Skarmy, my Dart Goblin, my Princess. Like, he's able to take out everything."
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
+- clock 2:27 to overtime 1:16: placed deep or centrally on his own half - (13, 8), (3, 5), (9, 10) twice, (8, 10), (8, 8) - as defensive DPS, never at the bridge in this game.
+- clock 1:06, 0:42 and overtime 1:59: he spends other cards to keep him alive - "Let's fire spirit here to keep the dark goblin alive", "Good wall breaker kite here to keep the dark goblin alive", "Let's Tesla here to keep tanking for the Dark Goblin."
+- clock 0:37: when he survives he is the damage source alongside the barrel - "Yo, the dark goblin's on the tower and the barrel, too. Nice. Really good damage" (enemy right tower 2413 -> 1611 over the next four seconds).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

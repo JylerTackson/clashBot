@@ -653,6 +653,13 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - overtime (t=1772-1776): uses it as a prediction against the opponent's skeletons - 'I did go for the e-spirits trying to predict the skellies. I didn't grab them, but I got some chip damage'.
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m1.4:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- clock 2:34 (t=190.9): defensive at [2, 6] behind his own left tower, together with Skeletons at [1, 7], against Skeletons the tracker had reaching the tower in 1.0 s.
+- clock 2:12 (t=213.4): at [13, 15] on the river line immediately behind the first X-Bow and bridge Berserker — the 1-elixir layer that keeps small defenders off the building.
+- overtime 0:57 and 0:28 (t=408.4, 437.1): at [14, 15] again beside the X-Bow, and at [12, 6]/[14, 5] on his own half when something crossed. Named as part of his standard package: "Let's berserker, skellies, e-spirit and then we can pop the ability" (t=304).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

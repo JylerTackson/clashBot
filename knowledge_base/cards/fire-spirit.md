@@ -356,6 +356,20 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - overtime t=440-443: cheap spirit as the whole answer to a committed push — "here I just did a good fire spirit. That was kind of a bad push by him to be honest."
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- clock 1:10 and 0:36 (t=276.3, 311.3): dropped at [14, 15] and [4, 14] at the river beside the X-Bow, used interchangeably with the Electro Spirit as the cheap screen.
+- overtime 1:32 to 0:26 (t=373.4, 391.4, 412.4, 437.4): five more at [16, 7], [9, 15], [14, 5] and [14, 15], all in the siege lane.
+- His only comment is about the balance patch, not the placement: "the spirit nerf is so interesting, man. Like look, it's just not going to connect to the tower… I feel like I'm going to just keep dropping spirits at the bridge not really remembering what they've done to my poor spirits" (t=275-286).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.3.md):
+- clock 1:33: the habit play he calls out as a mistake under the new balance - Fire Spirit at (2, 14) at the bridge, then "Wait, it's not going to connect. Dude, I'm an idiot... it's just such habit to me to drop the spirit at the bridge."
+- clock 1:06 and 0:19: used as a defensive save and as barrel support - "Let's fire spirit here to keep the dark goblin alive" and "Let's barrel fire a spirit here too. Keep on pressuring him" (Fire Spirit at (16, 14) and (14, 15) beside barrels at (14, 24)).
+- clock 2:47-2:40: the spirit nerf is his stated worry about the whole deck - "You can't really tank for your barrels as well anymore", and "I'm kind of worried about how like this type of deck is just going to work in general without having the like spirit connect to the tower."
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

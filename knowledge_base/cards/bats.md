@@ -262,6 +262,13 @@ Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md
 - clock 0:35 (t=1512.5): Bats from the HUD for 2 (elixir 6->4) as the cheap defensive filler immediately ahead of the Fire Spirit and Ice Spirit, with an unidentified unit and a Night Witch already tracked on his half. No commentary specific to the card.
 <!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.0.md):
+- clock 2:07, 0:57, 0:25: defensive drops at [5, 8], [0, 10] and [2, 15] into Lava Hound pups and Skeleton Dragons in the left lane.
+- clock 0:51 and 0:39: treated as the deck's designated Zap bait, and he tracks the trade both ways — 'He wasted his zap though on the bats. We can go for the spear goblins here, get a lot of value' (133-136s), then 'let's bats the bridge immediately cuz he's not back to the instant zap' (146s).
+- clock 0:19: bridge drop with the risk stated out loud — 'Bats here. He might zap.' The opponent zaps and he calls it 'bad evo zap by him' (164-166s).
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

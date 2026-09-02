@@ -246,6 +246,18 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=639s: opponent Rocket at tile [7, 14] on Ryley's half, 44 s after he laid the Barbarian Hut and 19 s after the Tombstone went next to it — the standard punish for stacking two spawner buildings in one pocket.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- Held all through regulation and spent only in overtime: Rocket at tile [12, 22] on the enemy right tower at overtime 1:55 (t=349.3) and again at 0:20 (t=446.4), each taking 342 HP off it (2112 -> 1770, then 1108 -> 760 -> 470 -> 354).
+- The stated plan is a Rocket-for-Rocket race that the X-Bow forces: "he has to rocket that, and then we can just rocket his tower back. Just to grab that free damage. And then, by us doing this, he's going to have to start rocket cycling us back. And once he starts rocket cycling, I think we'll be able to break through pretty simply" (t=347-357), foreshadowed at t=266-268 — "later in the game I can just rocket cycle him anyway".
+- Both casts were logged by the HUD as a 4-elixir Fireball and corrected from the deploy label plus the commentary; the same 342-HP signature identifies the opponent's Rocket on his own tower at overtime 1:09.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 0:28: mentioned, not seen — 'Let's go for the Knight here. He might go for a rocket.' No Rocket damage is recorded on his side in this game.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

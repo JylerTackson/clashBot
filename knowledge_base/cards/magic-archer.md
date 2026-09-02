@@ -441,6 +441,11 @@ Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.
 - clock 1:15, 0:45 and 0:23: back-line placements at [9, 1], [8, 10] and [10, 1] as permanent support behind the barrels once the game is a race — "I'm just going to go for the magic archer here" (t=1435).
 <!-- creator-insights:ryleycr1:B7SW-i94v8s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.2.md):
+- clock 1:39: mentioned only, as the one hero he rates near the Berserker — 'I don't know if there's any hero that will be as good as this one except maybe the magic archer, but the archer might get nerfed in the final balance changes. I really hope it does.'
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

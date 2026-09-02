@@ -638,6 +638,12 @@ Match [I Made it to DAY 2 of Clash Royale League Monthly Finals](../matches/O97T
 - Overtime (t=184.5 tile [13, 15], HUD 3.0 -> 1.0, and t=208.9 tile [13, 14]): held specifically for the opponent's building — "I had the Log ready here for the Tombstone getting a bunch of damage on that tower" (t=187-190), then "I knew right here I could just go for a Log and I would probably just win the game real quick" (t=207-211).
 <!-- creator-insights:ryleycr1:O97T50_dNGc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:start -->
+Match [Hero Berserker is INVINCIBLE!!!](../matches/rTamPgdaLUs-m0.1.md):
+- Three casts, all on his own side of the river next to the X-Bow: [14, 14] at clock 2:16 (t=227.2), [14, 14] at overtime 1:16 (t=388.4, logged by the HUD as Barbarian Barrel) and [14, 15] at overtime 0:28 (t=435.4).
+- Used purely as X-Bow protection against the ground swarms the opponent puts in front of the building; he never mentions it on air in this game.
+<!-- creator-insights:ryleycr1:rTamPgdaLUs-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)
