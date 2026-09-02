@@ -24,6 +24,7 @@ from .elixir_sim import ElixirSimulator
 from .events import PlayDetector
 from .hud import (CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, HandReader, OcrReader, TowerHpReader,
                   crop_roi, parse_clock)
+from .labels import DeployLabelReader, label_ground_point
 from .screen import ContentRect, MatchGate, assess, detect_content_rect
 from .sources import FrameSource
 from .state import GameState, PlayEvent, UnitObs
@@ -54,6 +55,8 @@ class Perception:
     detector: object | None = None            # KataCRDetector / BuildABotDetector
     ENTER_FRAMES: int = 3
     EXIT_SECONDS: float = 2.0
+    label_every: int = 15                     # frames between deploy-label OCR passes
+    label_scale: float = 0.7
     detect_every: int = 3
     ocr_every: int = 10
     use_ocr: bool = True
@@ -72,6 +75,10 @@ class Perception:
         self.clock_digit = DigitReader(self.calib.rois["clock"], self.digits)
         self.ocr = OcrReader() if self.use_ocr else None
         self.tower_reader = TowerHpReader(self.calib.rois, self.ocr)
+        import json as _json
+        _idx = _json.loads((self.kb / "meta" / "card_index.json").read_text())
+        self.card_names = {c["slug"]: c["name"] for c in _idx["cards"]}
+        self.labels = DeployLabelReader(self.card_names, self.ocr.ocr, scale=self.label_scale) if self.ocr else None
         self.play = PlayDetector(self.costs)
         self.own_sim = ElixirSimulator()
         self.opp_sim = ElixirSimulator()
@@ -226,6 +233,41 @@ class Perception:
         self.towers.own_left = towers_own["left"] != 0
         self.towers.own_right = towers_own["right"] != 0
 
+        # ---- deploy labels + tower HP numbers (arena OCR, low rate) ----
+        label_events_input = ([], [])
+        if self.labels is not None and self.H is not None and idx % self.label_every == 0:
+            t0 = time.perf_counter()
+            labels, numbers = self.labels.read(content, self.calib.arena_crop(cw, ch))
+            tiles = []
+            for lbl in labels:
+                gx, gy = label_ground_point(lbl)
+                tiles.append(g.clamp_tile(*self.H.pixel_to_tile(gx, gy)) if self.H.in_arena(gx, gy, margin=1.0) else None)
+            label_events_input = (labels, tiles)
+            for num in numbers:
+                if not 100 <= num.value <= 9999:
+                    continue
+                c, r = self.H.pixel_to_tile((num.bbox[0] + num.bbox[2]) / 2, num.bbox[3])
+                name = None
+                if 24 <= r <= 29 and c < 7:
+                    name = "enemy_left"
+                elif 24 <= r <= 29 and c > 10:
+                    name = "enemy_right"
+                elif r >= 27 and 6 <= c <= 11:
+                    name = "enemy_king"
+                elif 2 <= r <= 8 and c < 7:
+                    name = "own_left"
+                elif 2 <= r <= 8 and c > 10:
+                    name = "own_right"
+                elif r <= 3 and 6 <= c <= 11:
+                    name = "own_king"
+                if name:
+                    self.last_good[name] = num.value
+                    self.last_good_t[name] = t
+            for k in ("king", "left", "right"):
+                towers_own[k] = self.last_good.get(f"own_{k}")
+                towers_enemy[k] = self.last_good.get(f"enemy_{k}")
+            self._tick("labels", t0)
+
         # ---- units ----
         units: list[UnitObs] = []
         units_conf = None
@@ -251,13 +293,23 @@ class Perception:
         new_events: list[PlayEvent] = []
         self.play.update_hand(t, hand["hand"], hand["hand_conf"])
         if not stale_e:
-            new_events += self.play.update_elixir(t, elixir, clock_v)
+            for ev in self.play.update_elixir(t, elixir, clock_v):
+                if ev.player == "own" and ev.card:
+                    if ev.card in self.costs:
+                        self.own_sim.spend(self.costs[ev.card])
+                        ev._charged = True
+                    self.play.hold_own(ev)       # wait briefly for a deploy label to attach the tile
+                else:
+                    new_events.append(ev)
+        if label_events_input[0]:
+            new_events += self.play.update_labels(t, label_events_input[0], label_events_input[1], clock_v)
+        new_events += self.play.release_holds(t)
         if idx % self.detect_every == 0 and self.detector is not None:
             new_events += self.play.update_units(t, units, clock_v)
         new_events += self.play.update_tower_hp(t, {"own_king": towers_own["king"], "own_left": towers_own["left"],
                                                     "own_right": towers_own["right"]}, units, clock_v)
         for ev in new_events:
-            if ev.player == "own" and ev.card and ev.card in self.costs:
+            if ev.player == "own" and ev.card and ev.card in self.costs and not getattr(ev, "_charged", False):
                 self.own_sim.spend(self.costs[ev.card])
             if ev.player == "opponent":
                 if ev.card and ev.card in self.costs:

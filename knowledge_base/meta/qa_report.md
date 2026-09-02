@@ -104,3 +104,7 @@ These are expected outcomes (the wiki page has no such content), listed so they 
 - `heroes/goblins-hero.md`: Strong against, Weak against
 - `heroes/ice-golem-hero.md`: Weak against
 - `heroes/tombstone-hero.md`: Overview, Strong against, Weak against
+
+## Tower troop coverage check (2026-09-02)
+
+The wiki category "Tower Troop Cards" lists five pages: Tower Princess, Cannoneer, Dagger Duchess, Royal Chef and Baby Goblins. The first four are live cards and are in `cards/` with `card_type: Tower Troop` (Tower Princess Common, Cannoneer Epic, Dagger Duchess and Royal Chef Legendary; tower troops have no elixir cost, so `elixir_cost: n/a`). Baby Goblins is tagged `RemovedContent` on the wiki: a temporary tower troop from the June 2024 Goblin Queen's Journey event, not in the live game, so it is intentionally excluded (Card Overviews, the ground-truth list, omits it too). Tower troop rules from the wiki: chosen before battle, rarities as above, upgradable to level 16 but never past the player's King Tower level.

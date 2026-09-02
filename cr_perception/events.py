@@ -57,6 +57,11 @@ class PlayDetector:
     own_play_cards_recent: list[tuple[float, str]] = field(default_factory=list)
     last_enemy_hp: dict[str, int] = field(default_factory=dict)
     recent_group: dict[str, float] = field(default_factory=dict)
+    own_hold: list[PlayEvent] = field(default_factory=list)       # own plays waiting for a deploy label (tile)
+    recent_labels: list[tuple[float, str, tuple[int, int]]] = field(default_factory=list)
+    HOLD_SECONDS: float = 2.5
+    LABEL_DEDUP_SECONDS: float = 3.0
+    LABEL_DEDUP_TILES: int = 4
 
     # ------------------------------------------------------------------ HUD
     EMPTY_WINDOW = 12.0     # a lifted card can be held for many seconds before placement
@@ -173,14 +178,60 @@ class PlayDetector:
             card = to_card_slug(tr.cls)
             # spawned sub-units of a card that was already reported are not plays
             key = f"{card}"
-            if key in self.recent_group and tr.first_t - self.recent_group[key] <= GROUP_WINDOW:
-                continue
+            if key in self.recent_group and tr.first_t - self.recent_group[key] <= 3.0:
+                continue   # already reported (deploy label, or a swarm's first unit)
             self.recent_group[key] = tr.first_t
             conf = "high" if categorize(tr.cls) == "spell" or tr.side == "enemy" else "medium"
             own_half = tr.tile is not None and tr.tile[1] < 15
             detail = "enemy-side track" + (" but spawned on own half (miner/barrel/spell?)" if own_half else "")
             events.append(PlayEvent(tr.first_t, clock, "opponent", card, tr.tile, None, None, "arena",
                                     "medium" if own_half else conf, detail))
+        return events
+
+    # ---------------------------------------------------------- deploy labels
+    def hold_own(self, ev: PlayEvent) -> None:
+        """Keep an own HUD play for a short time so a deploy label can attach
+        its tile; release() returns the ones that timed out."""
+        self.own_hold.append(ev)
+
+    def release_holds(self, t: float) -> list[PlayEvent]:
+        out = [e for e in self.own_hold if t - e.timestamp > self.HOLD_SECONDS]
+        self.own_hold = [e for e in self.own_hold if t - e.timestamp <= self.HOLD_SECONDS]
+        return out
+
+    def update_labels(self, t: float, labels, tiles: list[tuple[int, int] | None], clock: str | None) -> list[PlayEvent]:
+        """labels: DeployLabel list; tiles: the ground tile per label. A label
+        that matches a held own play attaches the tile to it; otherwise it is
+        an opponent play (the opponent's hand is invisible, so this is the
+        most reliable opponent signal we have)."""
+        events: list[PlayEvent] = []
+        self.recent_labels = [r for r in self.recent_labels if t - r[0] <= self.LABEL_DEDUP_SECONDS]
+        for lbl, tile in zip(labels, tiles):
+            if tile is None:
+                continue
+            dup = any(c == lbl.card and abs(tt[0] - tile[0]) + abs(tt[1] - tile[1]) <= self.LABEL_DEDUP_TILES
+                      for _, c, tt in self.recent_labels)
+            if dup:
+                continue
+            # a weak fuzzy read only counts if a HUD play corroborates it
+            own = next((e for e in self.own_hold if e.card == lbl.card), None)
+            if lbl.match_score < 0.85 and own is None:
+                continue
+            self.recent_labels.append((t, lbl.card, tile))
+            if own is not None:
+                own.tile = tile
+                own.detail += f"; deploy label at {tile} (score {lbl.match_score})"
+                self.own_hold.remove(own)
+                events.append(own)
+                continue
+            # own play whose HUD event already left the hold window (long drain etc.)
+            if any(c == lbl.card and t - tt <= 4.0 for tt, c in self.own_play_cards_recent):
+                continue
+            self.recent_group[lbl.card] = t
+            side_note = " on own half" if tile[1] < 15 else ""
+            events.append(PlayEvent(t, clock, "opponent", lbl.card, tile, None, None, "deploy_label",
+                                    "high" if lbl.match_score >= 0.9 else "medium",
+                                    f"deploy label '{lbl.text}'{side_note}" + (f", lvl {lbl.level}" if lbl.level else "")))
         return events
 
     def update_tower_hp(self, t: float, own_hp: dict[str, int | None], units: list[UnitObs], clock: str | None) -> list[PlayEvent]:

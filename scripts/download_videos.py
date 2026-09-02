@@ -104,7 +104,7 @@ def main() -> int:
     ap.add_argument("--sleep", type=float, default=2.0, help="seconds between requests (be gentle: 429s otherwise)")
     a = ap.parse_args()
     global EXTRA
-    EXTRA = ["--js-runtimes", "node", "--sleep-requests", str(a.sleep)] + (["--cookies", a.cookies] if a.cookies else [])
+    EXTRA = ["--js-runtimes", "node:/opt/node22/bin/node", "--sleep-requests", str(a.sleep)] + (["--cookies", a.cookies] if a.cookies else [])
     vids = list_channel(a.channel, a.n)
     print(f"{len(vids)} videos listed", flush=True)
     # metadata-first pass: keep only Clash Royale videos
