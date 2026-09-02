@@ -1,0 +1,91 @@
+{
+  "key": "B7SW-i94v8s-m0.3",
+  "match_file": "matches/B7SW-i94v8s-m0.3.md",
+  "video_title": "My MAIN Deck for Season End in Clash Royale",
+  "cards": {
+    "wall-breakers": [
+      "clock 2:43-2:22 (t=756-778): opens with Wall Breakers at the left bridge tiles [2, 14] then [2, 15], paired with Berserker, while the opponent spends 6 elixir on an Elixir Collector — enemy left tower 4858 -> 3264 HP. \"Going to berserker here. Going to go for the wall breakers again. I just need to try to get as much early damage as possible.\"",
+      "clock 0:43 (t=876.9): switches lanes with Wall Breakers at [13, 15] only after holding them a full rotation — \"I'm not going to go for the wall breakers yet cuz I know he's going to be paranoid of it\" (t=868).",
+      "overtime 1:54 (t=926.9): pre-places them at [4, 14] as insurance and as a body — \"Then I can wall breakers ... in case he X-Bows over there, but I also just need a tank for the X-Bow anyways.\"",
+      "overtime 1:01 (t=980.0): the pair at [2, 14] is what wins the game — \"Wait, hold on. Wait, if wall breakers take this out, I have a chance\" (t=981); the enemy left tower drops from 1058 HP and is destroyed at t=1008."
+    ],
+    "goblin-barrel": [
+      "clock 2:08 (t=790.8): barrels while the opponent is pump-broke, explicitly to strip the spell — \"I'm going to go for the barrel here on the pump just to force him to use the log and then I can just keep on pressuring.\"",
+      "clock 1:11 (t=847.8) into clock 1:04: barrel at [3, 24] plus Berserker plus Fire Spirit takes the enemy left tower 1384 -> 1058 HP — \"I think I could be able to actually grab some extra damage here. Come on, give me two ... Nice, not bad\" (t=852-856).",
+      "clock 0:23 (t=896.9): times the barrel off the opponent's spell cycle — \"he has the log, but now because he used his log, he can't really defend the barrel that well.\"",
+      "clock 0:09 (t=909.9) and overtime 0:32 (t=1008.0): barrel used as a spell-drain first and damage second — \"Let's barrel here just to force out the log\" (t=911)."
+    ],
+    "bomb-tower": [
+      "clock 1:48 (t=811.8): Bomb Tower at [14, 10] with Berserker, Magic Archer and Royal Delivery answers the opponent's first X-Bow at [15, 16] — \"very nice defense right there\" (t=818).",
+      "clock 1:24 (t=836.8): laid pre-emptively against a pumped-out opponent — \"I'm just going to bomb tower early cuz it's not like he can afford the knight instantly anyways\" (t=840).",
+      "clock 0:58 (t=861.9) and 0:01 (t=919.9): willing to place it off its ideal tile rather than not place it — \"I had to go for a low bomb tower sadly\" (t=864); \"Go for the low bomb tower here. That's fine. Only a little bit of damage\" (t=918).",
+      "overtime 1:46 (t=933.9): doubles as a lane tank, not just a defence — \"we can go for the bomb tower cuz this should tank for the left side X-Bow.\" Ten Bomb Towers in 264 s, one per cycle."
+    ],
+    "berserker": [
+      "clock 2:46 (t=753.4): opening centre plug at [8, 12] against a split Electro Spirit / spirit start (elixir 10 -> 8) — \"was trying to play my spirit or my wall breakers, but this guy is not letting me. He's putting everything.\"",
+      "clock 1:48 (t=811.8): part of the X-Bow defence package at [13, 14] alongside Bomb Tower and Magic Archer — \"Let's berserker Evo wall breakers and we can go for a magic archer to line up on his knight as well.\"",
+      "clock 0:47 (t=869.9) and 0:33 (t=886.9): deep \"low\" placements at [1, 7] and [16, 8] as a walking tank — \"Let's go for the low berserker here. Keep tanking.\"",
+      "overtime 1:38 (t=941.9): places him low specifically to dodge the opponent's spell — \"then we just go for a low berserker cuz he's going to log\" (t=942-944)."
+    ],
+    "magic-archer": [
+      "clock 1:46 (t=813.8): placed at [11, 13] to line one shot through troop and siege — \"we can go for a magic archer to line up on his knight as well and that should take out the entire X-Bow ... Great magic archer geometry as well\" (t=813-821).",
+      "clock 0:32 (t=888.9): bridge-side Magic Archer at [15, 7] behind the Berserker / Wall Breakers pressure — \"Let's magic archer here and then we can go for the Evo wall breakers here as well.\"",
+      "overtime 1:04-0:34 (t=977.0, 993.0, 1005.0): becomes the actual win condition in the race — \"Give me two. Give me two. Cuz I can still connect with the magic archer\" (t=989-993), \"I keep the archer on the tower\" (t=997), \"Archer, that's one. Give me two\" (t=1004)."
+    ],
+    "royal-delivery": [
+      "clock 1:45 (t=814.5): spent on the opponent's first committed X-Bow push together with Bomb Tower and Berserker.",
+      "clock 0:53 (t=864.9): dropped at [3, 14] onto Evo Archers supporting an X-Bow at [2, 16] — \"Let's delivery\" (t=866).",
+      "overtime 1:21 (t=959.0) at [4, 15] and overtime 0:31 (t=1010.0): four of its five uses are on his own half against ground swarms — \"Then I need to delivery this\" (t=958)."
+    ],
+    "ice-spirit": [
+      "clock 1:46-1:19 (t=813.5, 840.3): the standard shield in front of the Bomb Tower, [2, 14] then [4, 14], one per defensive cycle.",
+      "clock 0:43-0:42 (t=874-877): named as the cycle filler that keeps the bridge rotation alive — \"And then we can just start cycling our spirits\", Ice Spirit at [8, 10].",
+      "overtime 1:51 (t=929.3): used as a pull rather than a stall — \"let's go for the ice spirit to pull this back\" (t=925), placed at [16, 13].",
+      "clock 0:27 (t=891.7): Ice Spirit at [15, 14] to hold the push in line for the Magic Archer — \"Ice spirit to keep this lined up.\" Fourteen Ice Spirit events in the game, the most of any card."
+    ],
+    "fire-spirit": [
+      "clock 1:10 (t=850.9): Fire Spirit at [7, 15] on top of the barrel-plus-Berserker push — \"Fire spirit up top\" (t=850).",
+      "clock 0:42 (t=877.9): placed deep at [9, 9] on defence — \"Let's fire spirit low and then we can go for the bomb tower as well just to make sure we take out this X-Bow\" (t=878-881).",
+      "overtime 1:46 (t=931.9) at [14, 13]: bridge splash ahead of the Bomb Tower — \"we can go for the fire spirit here at the bridge. Then we can go for the bomb tower.\"",
+      "overtime 1:33 (t=942.8): the Fire-Spirit-then-Bomb-Tower package is his emergency answer to a stacked push — \"Let's fire spirit then bomb tower. Oh my god, we barely got that down\" (t=947-950)."
+    ],
+    "x-bow": [
+      "Opponent's win condition, placed at both bridges — [15, 16] at clock 1:43, 0:25 and overtime 1:21/1:19/1:04, [2, 16] at clock 0:53, 0:17, 0:09 and overtime 1:29/1:11. Ryley's answer is a fresh Bomb Tower plus a spirit plus Berserker every cycle, with Magic Archer lined up through it: \"that should take out the entire X-Bow\" (t=817).",
+      "clock 0:22 (t=898): he chooses to concede an X-Bow rather than spend on it — \"I will let that X-Bow connect because it's in the other lane anyways\", and his right tower falls 4269 -> 3027 HP over the next 20 s."
+    ],
+    "elixir-collector": [
+      "Six-plus collectors tracked at [5, 26], [12, 26] and [15, 26] between clock 2:29 and overtime 1:25. Ryley treats the matchup as near-unwinnable because of it: \"It looks like this guy has super pump cycle. Yeah, it's just pump boat\" (t=760-765), \"I have no chance against any elixir collector decks\" (t=770-772), \"he's going to keep on being able to play these elixir collectors and there's nothing that I'm going to be able to do about it\" (t=824-829).",
+      "His counter-plan is tempo, not spells: barrel the collector to force the small spell (t=790-792) and take as much tower HP as possible before the pumps pay off — enemy left tower 4858 -> 1559 HP by clock 2:12."
+    ],
+    "electro-spirit": [
+      "Mentioned once and it changes his offence: \"he even has e-spirit instead of like a fire spirit, so he's going to be able to counter our Evo barrel super easily as well\" (t=808-812) — after which the Goblin Barrels are used mainly as spell bait rather than as expected damage."
+    ],
+    "the-log": [
+      "Never seen by the detector but tracked all game from commentary as the card he plays around: \"he has the log, but now because he used his log, he can't really defend the barrel that well\" (t=894-897), \"we just go for a low berserker cuz he's going to log\" (t=942-944), and in the winning overtime sequence \"he has no log in cycle though, to be fair. I still have a chance to get through maybe\" (t=1001)."
+    ],
+    "knight": [
+      "Predicted before it was seen — \"I know that he has an X-Bow and his last card is probably just a knight\" (t=794-798) — and detected at [15, 26] at clock 0:43. He uses the opponent's pump spending against it: \"I'm just going to bomb tower early cuz it's not like he can afford the knight instantly anyways\" (t=840)."
+    ],
+    "archers": [
+      "The opponent's X-Bow support, seen in almost every push from clock 2:29 onward (several tagged as the Evolution by the detector). Ryley answers the Archers-plus-X-Bow combination with Royal Delivery at [3, 14] (clock 0:53) and with Magic Archer lined through both."
+    ],
+    "skeleton-dragons": [
+      "One detection at [3, 16] at clock 1:05 in the opponent's left-lane push; not discussed in commentary."
+    ],
+    "fisherman": [
+      "Detected pulling into Ryley's left lane at clock 1:18 and again in overtime at [2, 16] (clock 1:41); it arrives with the Archers push that takes his left tower from 4858 to 4319 HP. Not named in commentary."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": ["berserker", "bomb-tower", "fire-spirit", "goblin-barrel", "ice-spirit", "magic-archer", "royal-delivery", "wall-breakers"],
+    "bullets": [
+      "Game 4 of a six-game season-end session, vs an X-Bow / Elixir Collector siege deck (Archers, Knight, Electro Spirit, The Log, plus Skeleton Dragons and Fisherman detections): win in triple-elixir overtime at t=1008, with his own towers down to roughly 253 / 791 HP — \"No way. How did I win this match up? Let's go\" (t=1010-1013).",
+      "The deck's answer to a collector deck is front-loaded damage: Wall Breakers, Berserker, Goblin Barrel and Magic Archer into the left lane between clock 2:43 and 2:12 took the enemy left tower 4858 -> 1559 HP while the opponent spent 12 elixir on two pumps. \"I just need to try to get as much early damage as possible. If I don't basically like outright win the game in the start, I just can't really do anything against this guy\" (t=778-784).",
+      "Defence is the same four-card package repeated every cycle for four minutes: Bomb Tower (ten placements, t=811-972), a spirit in front of it, Berserker as the plug, Royal Delivery for committed ground pushes. He accepts a bad Bomb Tower tile over no Bomb Tower — \"I had to go for a low bomb tower sadly\" (t=864), \"Go for the low bomb tower here. That's fine\" (t=918).",
+      "Both win conditions are gated on the opponent's small spell rather than on elixir: barrel the pump \"just to force him to use the log\" (t=790), hold the Wall Breakers while \"he's going to be paranoid of it\" (t=868), then barrel again once \"he used his log\" (t=895) and once \"he has no log in cycle\" (t=1001).",
+      "Against siege the deck plays a HP race, not an elixir race: he concedes a whole lane on purpose — \"I will let that X-Bow connect because it's in the other lane anyways\" (t=898), \"I'm going to need to definitely give up some damage here if I want to win this game. There's no other way around it\" (t=902-905) — and keeps every offensive card pointed at the one tower he cracked in the opening.",
+      "Magic Archer is the card that closes it out: geometry on defence at clock 1:46 (\"that should take out the entire X-Bow ... great magic archer geometry\") and, in overtime, the chip that finishes the tower after the Wall Breakers connect — \"I can still connect with the magic archer\" (t=990-993)."
+    ]
+  }
+}

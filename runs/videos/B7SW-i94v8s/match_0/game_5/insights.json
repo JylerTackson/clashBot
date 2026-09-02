@@ -1,0 +1,87 @@
+{
+  "key": "B7SW-i94v8s-m0.5",
+  "match_file": "matches/B7SW-i94v8s-m0.5.md",
+  "video_title": "My MAIN Deck for Season End in Clash Royale",
+  "cards": {
+    "goblin-barrel": [
+      "clock 1:56 and 1:14: two barrels on the already-damaged enemy left tower at tile [3, 24], always paired with another card in the lane — \"Let's go for the barrel wall breakers here just to keep applying some pressure. He's going to be able to [Tornado] those, but that's going to be a lot of damage on the goblin barrel\" (t=1367-1372); the tower fell 2924 -> 444 HP inside twelve seconds.",
+      "clock 0:57, 0:33 and 0:09: switches the barrel to the right tower at [14, 23]/[14, 24] once the left one is nearly dead, each time alongside Wall Breakers or Berserker so the tower is already distracted — \"Maybe I could grab a connection cuz that's distracted. Come on, give me a double. Nice\" (t=1427-1430).",
+      "OT 2:00: opens overtime with the barrel at [14, 25] as the first of three cards in five seconds — \"Let's go for the barrel again. Go for the berserker, and then we go for the wall breakers, too. I want to keep being really aggressive right now\" (t=1480-1485); the opponent missed the Tornado on it and the tower dropped 1425 -> 481 HP."
+    ],
+    "wall-breakers": [
+      "clock 2:18: at the left bridge tile [3, 14] while an enemy Knight walks down the same lane — \"I'm definitely going to wall breakers here just to keep that lined up\" (t=1342-1343); the point is lane pressure, not a guaranteed connection.",
+      "clock 0:55 and 0:32: deliberately split in the middle of the enemy half at [8, 18] and [8, 16] to dodge splash — \"Let's wall breakers here in the middle cuz he's going to Evo Exe\" (t=1424-1425).",
+      "clock 0:22: names them as the deck's only win path against a stacked Executioner defence — \"The only way we grab him is with some like pocket wall breakers and stuff when he has no [Tornado] in cycle, but even then I feel like it's going to be extremely difficult\" (t=1458-1461).",
+      "OT 1:56: third card of the overtime barrage at [8, 19], behind the barrel and the Berserker (t=1483.5)."
+    ],
+    "berserker": [
+      "clock 2:10 and 0:40: the plug behind the building on defence — [12, 13] into an Executioner push (t=1347.3, \"Let's go for the berserker then bomb tower\", t=1348) and [14, 5] into a Knight tracked at [14, 10] (t=1438.3, \"Berserker. Ooh, good placement\").",
+      "clock 1:28: standalone bridge pressure at [2, 14] on 9 elixir, timed off the opponent's spending — \"I think I could pressure him with the berserker here. I don't want to waste it too much, but I do want to apply some pressure, especially since I feel like he committed a lot of elixir\" (t=1391-1397).",
+      "clock 0:09 and OT 1:56: deep on the enemy half at [8, 21] both times, as the tank half of the closing Goblin Barrel + Berserker + Wall Breakers set (t=1470.6, t=1482.5) — \"We can get a nice double connection here for sure. There's no way that he can prevent this one\" (t=1470-1472)."
+    ],
+    "bomb-tower": [
+      "clock 2:14, 1:10, 0:47 and 0:16: laid four times in the same central pocket in front of his king tower ([9, 9], [10, 10], [10, 9], [7, 9]) — it is the fixed first card of the defensive package, re-laid every rotation.",
+      "clock 2:14 and 1:10: he plays it knowing it will not fully hold — \"Let's go for the berserker then bomb tower. I know he will get a lot of damage here, but like I said, we both can't really defend\" (t=1348-1351), and \"Actually, I think he's going to go all in. Let's bomb tower here\" (t=1410-1411)."
+    ],
+    "ice-spirit": [
+      "clock 2:07, 1:02 and 0:40: the defensive freeze in the Bomb Tower stack ([13, 9], [12, 11], [11, 14]) — \"Especially if I go for the ice spirit and fire spirit. Yeah, I think I save this tower\" (t=1417-1419); the right tower held at 885 HP through that push.",
+      "clock 1:18: a 1-elixir bridge poke at [3, 14] used purely to make the opponent respond — \"Okay, let's go for the ice spirit here. Just force him to defend a little bit\" (t=1400-1402).",
+      "clock 0:07: [10, 14] as part of the double-spirit set-up before the overtime pressure — \"Okay, let's go for the spirit here. Go for another spirit\" (t=1466-1469)."
+    ],
+    "fire-spirit": [
+      "clock 2:05 and 1:02: paired with the Ice Spirit as the cheap finisher on defence ([11, 10] into the Executioner, [12, 9] into the all-in) — \"Let's definitely go for the ice spirit fire spirit here\" (t=1354-1355).",
+      "clock 1:15: used to open the other lane while the main pressure is left — \"We can go for the fire spirit opposite lane\" (t=1404), label at [9, 15].",
+      "clock 0:08: [5, 11] on his own half as the first of the two spirits before the overtime push (t=1469.1)."
+    ],
+    "magic-archer": [
+      "clock 2:23: bridge Magic Archer on his own half at [2, 13] played as a spell bait, not for chip — \"I could go for the [Magic Archer] here at the bridge just to force him to go for the [Tornado] cuz I don't want him to go in\" (t=1335-1340).",
+      "clock 1:56: credits that same play for the tower he kept — \"I did have to go for that [Magic Archer] here, otherwise this would have basically happened, except I wouldn't have got the extra damage in return\" (t=1363-1366).",
+      "clock 1:15, 0:45 and 0:23: back-line placements at [9, 1], [8, 10] and [10, 1] as permanent support behind the barrels once the game is a race — \"I'm just going to go for the magic archer here\" (t=1435)."
+    ],
+    "royal-delivery": [
+      "clock 1:04: the last card of a Bomb Tower + Berserker + spirits stack against a committed all-in, label at [12, 9] — \"I think if I go for the delivery, I save my tower\" (t=1415); the right tower survived at 885 HP.",
+      "clock 0:43: second use, into a Knight advancing on the right lane at [14, 10] — \"Let me go for the delivery. Berserker. Ooh, good placement\" (t=1436-1438). Both uses are on his own half and both are announced before the drop."
+    ],
+    "balloon": [
+      "clock 2:45: named in his pre-game read of the opponent — \"This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado\" (t=1314-1315) — and he calls the whole matchup after it: \"that's all balloon match ups where we just both kind of can't really defend, and we just have to go in over and over again\" (t=1324-1329).",
+      "clock 2:00-1:50: never labelled by the pipeline, but his right tower fell 4858 -> 1133 HP through inferred damage ticks while he said \"We get some decent damage on that balloon. I'm not going to lose my tower, which is something\" (t=1357-1361).",
+      "OT 1:57: the opponent's Executioner spent on a Balloon that was already dying is what he calls the losing play — \"that was a bad Exe cuz that balloon's dying anyways. So, that kind of just was five elixir minus for him\" (t=1473-1477)."
+    ],
+    "miner": [
+      "clock 2:45 and 1:42: named twice as the Balloon's partner — \"This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado\" (t=1314) and \"he can go for another [Miner] balloon very soon\" (t=1379). No deploy label ever read; a Miner track appears at OT 1:58-1:52 and the repeated ~320-650 HP tower ticks at clock 1:02-0:55 are consistent with Miner chip."
+    ],
+    "executioner": [
+      "clock 2:14-2:05: an Executioner tracked from [13, 14] down to [10, 3] forces the whole Bomb Tower + Berserker + Ice Spirit + Fire Spirit package, and he accepts damage rather than trying to hold cleanly (t=1343-1354).",
+      "clock 0:37-0:33: the Evolution Executioner plus Tornado takes his right tower from 501 to 275 HP — \"that's executioner, dude\" (t=1442) — and he calls it the reason he expects to lose: \"He's just going to be able to stack executioners like crazy, and we're going to get cooked\" (t=1453-1456).",
+      "OT 1:50: and the reason he expects to win once it is misused — \"Dude, that Evo Exe costed him bad\" (t=1490)."
+    ],
+    "tornado": [
+      "clock 2:23: he plays a bridge Magic Archer specifically to pull it out of the opponent's hand — \"just to force him to go for the [Tornado] cuz I don't want him to go in\" (t=1339-1340).",
+      "clock 1:52 and 0:33: he expects it to eat his bait and plays anyway — \"He's going to be able to [Tornado] those, but that's going to be a lot of damage on the goblin barrel\" (t=1370-1372) — then respects it after it drags his defence: \"Tornado is such a crazy card, man. I can't believe that it's able to just grab me like that\" (t=1444-1446).",
+      "OT 1:54: the missed Tornado on his last Goblin Barrel is the moment the game swings — \"He has to [Tornado] that to the king. Wait, he missed. Oh my god. Bang. Bang\" (t=1485-1488)."
+    ],
+    "knight": [
+      "clock 2:20-2:16: the opponent's Knight walks the left lane while Ryley answers with a bridge Wall Breakers rather than a hard counter — \"I'm definitely going to wall breakers here just to keep that lined up\" (t=1343).",
+      "clock 1:16-1:04: he plans to kite it instead of killing it — \"I can kite back the knight with my wall breakers\" (t=1408) — and then trades it for the other tower on purpose: \"I did eat a whole knight for it, but I think it's worth it\" (t=1422)."
+    ],
+    "zap": [
+      "clock 2:45: only mentioned, never seen — part of his pre-game read of the opponent's list, \"This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado\" (t=1314-1315). No Zap event was recorded on either side in this game."
+    ],
+    "skeletons": [
+      "clock 2:45: only mentioned in the same pre-game deck read (t=1314-1315); Evolved Skeleton tracks do appear on defence for the opponent at clock 0:38-0:28, but no deploy label confirmed them."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": ["berserker", "bomb-tower", "fire-spirit", "goblin-barrel", "ice-spirit", "magic-archer", "royal-delivery", "wall-breakers"],
+    "bullets": [
+      "Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.5.md), game 6 of 6 (the season-end closer), vs a Miner / Balloon / Evolution Executioner / Tornado / Knight control list he recognises on sight: \"This guy always plays [Miner] Balloon Evo Exe Zap Skeletons Tornado\" (clock 2:45, t=1314).",
+      "He states the deck's plan for this matchup up front: neither side can defend, so both must keep going in — \"that's all balloon match ups where we just both kind of can't really defend, and we just have to go in over and over again\" (clock 2:35, t=1324-1329). Regulation ends 0-0 on crowns with all four towers alive and heavily chipped (his 1641/275, the opponent's 444/1425).",
+      "The offensive engine is a fixed two- or three-card bridge unit rather than single cards: Goblin Barrel + Wall Breakers at clock 1:56 (enemy left tower 2924 -> 444 HP), Goblin Barrel + middle Wall Breakers at 0:57 and 0:33, Goblin Barrel + Berserker + Ice Spirit at 0:09, and Goblin Barrel + Berserker + Wall Breakers at OT 2:00 (enemy right tower 1425 -> 481 HP).",
+      "The defensive package is equally fixed and repeated four times in three minutes — Bomb Tower in the central pocket ([9, 9], [10, 10], [10, 9], [7, 9]), Berserker as the plug, then Ice Spirit and Fire Spirit, with Royal Delivery held for a committed ground push (clock 1:10 and 0:43, both announced: \"if I go for the delivery, I save my tower\", t=1415).",
+      "Tower triage is explicit: he lets the right tower drop to 1133 HP against the Miner/Balloon at clock 1:50 (\"I'm not going to lose my tower, which is something\"), then spends five cards at clock 1:10 to save it and gives up the left instead — \"I did eat a whole knight for it, but I think it's worth it\" (t=1422). He is comfortable with the outcome: \"I honestly would not mind the one-to-one tower situation too much... definitely better than just losing\" (t=1381-1388).",
+      "Placement is chosen around the opponent's splash: Wall Breakers go in the middle of the enemy half specifically because \"he's going to Evo Exe\" (t=1425), and he tracks the Tornado cycle as the gate on the win condition — \"The only way we grab him is with some like pocket wall breakers and stuff when he has no [Tornado] in cycle\" (t=1458).",
+      "Ending: at OT 2:00-1:56 he triples down (barrel, Berserker, Wall Breakers) after two opponent errors — an Executioner wasted on a dying Balloon (\"five elixir minus for him\", t=1477) and a missed Tornado — and signs the video off with \"Bang. Bang. Let's go. Good game. Dude, that Evo Exe costed him bad\" (t=1488-1490). The recording stops before a result screen, so the match is filed as result unknown."
+    ]
+  }
+}

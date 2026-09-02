@@ -1,0 +1,102 @@
+{
+  "key": "B7SW-i94v8s-m0.0",
+  "match_file": "matches/B7SW-i94v8s-m0.0.md",
+  "video_title": "My MAIN Deck for Season End in Clash Royale",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:33 (t=23.0): the first barrel of the video goes on the enemy left tower at tile [3, 24] while he is still doing the intro; the 8.0 -> 5.0 elixir drop the hand read missed is that barrel.",
+      "clock 1:54 (t=61.1): barrel on the enemy right tower at [13, 23] timed off the opponent's spell cycle, worth ~950 HP (right tower 4858 -> 3914 by clock 1:47) — \"Let's go for the goblin barrel here... He has the goblin gang cuz he's not backed arrows yet. Very good damage right there\" (t=62-70).",
+      "clock 1:04-0:55 (t=112.9-118.1): two barrels in one rotation, the second on the other tower at [14, 25], as the double-lane burst that drops the enemy left tower 4564 -> 2268 — \"Let's go evil barrel fire spirit and I want to go for the wall breakers as well just to apply a bit more pressure\" (t=119-123).",
+      "clock 1:12-1:10 overtime (t=215.2-228.2): barrels at [14, 25] paired with a bridge Berserker to close the game — \"Let's go goblin barrel with the berserker. Keep up the pressure\" (t=227). 7 labelled barrels in the game, every one on a crown tile."
+    ],
+    "wall-breakers": [
+      "clock 2:44 (t=12.7): opening play of the match, Wall Breakers at [8, 13] just behind his own bridge before any defence is laid — pressure first, and it is the card he names as the other half of the split: \"you can get like this wall breakers one side, the barrel berserker in the other lane\" (t=87-92).",
+      "clock 1:22-1:16 overtime (t=216.2-221): he holds the Wall Breakers until the opponent's Arrows are spent and delays the drop on purpose — \"We can wall breakers look cuz he has the arrows, and if you delay it a bit maybe we can grab a wall breakers. Come on. Wall breaker. Bang. Let's go\" (t=216-221); the enemy right tower falls 1646 -> 465 across that window.",
+      "clock 1:58 overtime (t=181.2): barrel first at [3, 24], then Wall Breakers at [3, 14] into the same lane as the follow-up — \"Let's barrel and then we're going to go for the very late wall breakers\" (t=180-181).",
+      "Placement is invariant: every readable Wall Breakers label sits on his own rows 13-15 just behind the bridge ([8, 13], [13, 13], [3, 14], [14, 13]), never deeper."
+    ],
+    "magic-archer": [
+      "clock 2:44 and 2:27 (t=15.0, 29.0): the deck's namesake goes down behind his own towers at [2, 13] and [2, 8], not at the bridge — he calls the list \"the super cycle log bait magic archer deck\" (t=13-16).",
+      "clock 0:29-0:27 (t=147-150.3): he explicitly cycles it rather than trading it, and wants more than one on the board — \"we can just cycle the magic archer. I do want to start stacking up magic archers. That will be very very helpful because I think he only has the arrows\" (t=147-153).",
+      "clock 1:22, 1:04, 0:11 and overtime 1:47/1:13 (t=93.1, 112.1, 166.2, 191.2, 223.2): re-laid on the centre-left tiles [8, 9] / [9, 9] / [8, 7] behind the Bomb Tower every cycle, as permanent support behind the barrels — 7 labelled deploys in one game."
+    ],
+    "berserker": [
+      "clock 1:15-1:11 (t=101.9-104): Berserker used to stall and reverse a split Royal Recruits push — \"Let's berserker to push them in. Beautiful push right there\" (t=102-104).",
+      "clock 0:17 and 1:26 overtime (t=159.7, 210-212): paired with a spirit as the cheap plug on defence — \"let's ice spirit and berserker\" (t=159) and \"We can berserker here as well. Help take this out\" (t=210-212).",
+      "clock 0:57 and overtime 1:26-1:10 (t=120.1, 211.2, 227.2): on offence it goes down at the bridge ([2, 15], [14, 10], [14, 15]) directly behind a Goblin Barrel as the follow-up threat — \"Let's go goblin barrel with the berserker\" (t=227). 8 labelled deploys, the busiest 2-elixir card after the spirits."
+    ],
+    "bomb-tower": [
+      "clock 1:22 (t=94.1): the first Bomb Tower is held until the double Royal Recruits split actually arrives, then laid on the centre pocket tile [9, 9] — the rule he states at t=81: \"I do want to save my bomb tower for the recruits if possible\", then \"Let's go for the bomb tower here\" (t=96).",
+      "clock 0:45 (t=130.1): the second one at [7, 9] against the Recruits + Wizard + Skeleton Barrel push — \"Let's go for the bomb tower here. Make sure that we take this all off of the board\" (t=129-131); he had pre-announced it at t=116-117, \"if he tries to go for an Evo skelly barrel then we have the second bomb tower.\"",
+      "clock 0:11 (t=164.2): in triple elixir he lays it before the push exists — \"then we go for the early bomb tower in the middle\" (t=164-166). All 4 deploys are on the same central pocket, tiles [7, 9] to [9, 9]."
+    ],
+    "royal-delivery": [
+      "clock 1:39 (t=78.4): dropped at [2, 9] onto an incoming Skeleton Barrel — \"Let's delivery here for that skelly barrel\" (t=78-79).",
+      "clock 2:04 (t=52.1): used at [14, 11] on a lone Bomber crossing to his right tower (HUD 9.0 -> 6.0), i.e. spent freely on a small commitment early rather than hoarded.",
+      "clock 0:45 and 0:03 (t=131.0, 171.2): the answer to committed ground pushes at triple elixir, laid with the Bomb Tower and a Fire Spirit — \"we can delivery and then we need to go for the fire spirit as well just to help take this out\" (t=172-175).",
+      "overtime clock 1:30 (t=209.2): at [13, 12] to clear the right-lane Mighty Miner before re-opening pressure — \"then we can go for the delivery on the right side\" (t=206-208). 6 uses, all on his own half."
+    ],
+    "ice-spirit": [
+      "At least 14 deploys in 233 s — the most-played card in the game. On offence it rides next to the bridge plays at [14, 10], [13, 13], [12, 13] (clock 2:47, 1:51, 0:14); on defence it freezes in front of the Bomb Tower at [10, 13], [9, 11], [9, 12] (clock 1:18, 0:14, overtime 1:32).",
+      "clock 0:17 (t=162.7): the named defensive combo is spirit-then-Berserker — \"Well, let's ice spirit and berserker. Even though he has that we can just out cycle it\" (t=159-162).",
+      "overtime clock 1:32-1:12 (t=206.2-229.4): spirits are the cheap way to keep the barrel pressure alive with a 2-3 elixir bar — \"keep up the pressure here with the spirits\" (t=225)."
+    ],
+    "fire-spirit": [
+      "8 deploys, all on his own half ([8, 14], [3, 6], [14, 13], [12, 13], [14, 5], [13, 14], [3, 12]) — it is the swarm-clear half of the spirit pair, used so the Bomb Tower is not tied up by Goblin Gang or Skeleton Barrel remains.",
+      "clock 0:41 (t=136): added on top of an already-winning defence purely to avoid chip — \"Let's fire spirit here as well just to make sure we take no damage. Very good defense right there\" (t=136-137).",
+      "clock 0:06 and overtime 1:51 (t=170.8, 189.2): stacked with an Ice Spirit on the same threat — \"I'm going to have to go for a ice spirit on this as well and fire spirit too\" (t=186-188)."
+    ],
+    "royal-recruits": [
+      "clock 1:27-1:17 (t=88.1-98.1): the opponent's Evo Royal Recruits split both lanes twice, emptying his elixir bar to 0; Ryley's answer is Bomb Tower on the centre tile plus Magic Archer behind, then Berserker plus Ice Spirit to turn them — \"Let's berserker to push them in\" (t=102).",
+      "He holds a specific card for them all game: \"I do want to save my bomb tower for the recruits if possible\" (t=81-82), and says up front how much he dislikes the matchup — \"We are up against recruits for our first game, which is kind of sad, man. You guys all know how much I dislike recruits\" (t=63-67).",
+      "clock 0:49-0:37 (t=128-140): a Recruits + Wizard + Dart Goblin + Skeleton Barrel wave is answered with a second Bomb Tower, Royal Delivery and a Fire Spirit and costs him almost nothing — \"Make sure that we take this all off of the board\" (t=131)."
+    ],
+    "wizard": [
+      "clock 0:47 (t=128.1) and clock 0:49: up to three Wizard trackers behind the Royal Recruits push; Ryley never spells them, he answers with the centre Bomb Tower plus Royal Delivery plus a Fire Spirit and takes no tower damage from that wave (t=129-137)."
+    ],
+    "mighty-miner": [
+      "clock 2:11, 0:23 and overtime 1:47 (t=46, 152.2, 192): the opponent's repeat chip threat; Ryley answers it with spirits plus Berserker rather than a building — \"We can berserker here as well. Help take this out\" (t=210-212).",
+      "clock 0:35 (t=142): a Mighty Miner played as a read on his barrel — \"I'm going to go for the gob — oh, great mighty miner. He actually predicted us. That's fine though. We can just cycle the magic archer\" (t=142-147).",
+      "overtime clock 1:12-1:06 (t=224-232): the one threat he does not fully answer, taking his left tower 3591 -> 2350 while he races the other lane."
+    ],
+    "goblin-gang": [
+      "clock 2:27 (t=28.0) and clock 1:44 (t=72): the opponent's cheap bait unit, which Ryley reads as a spell-cycle tell — \"He has the goblin gang cuz he's not backed arrows yet\" (t=68) — and answers with Magic Archer behind plus a spirit, or with Berserker at [11, 13] plus Ice Spirit.",
+      "clock 1:45 (t=72): \"Maybe not the greatest goblin gang placement by Talal. This guy's one of the best recruits players actually\" — he treats a mis-placed Gang as free value rather than spending a spell on it."
+    ],
+    "skeleton-barrel": [
+      "clock 1:39 (t=78.4): answered with Royal Delivery on the landing spot at [2, 9] — \"Let's delivery here for that skelly barrel\" (t=78-79).",
+      "clock 1:01 and 0:08 (t=116, 168): he plans around it twice before it lands — \"if he tries to go for an Evo skelly barrel then we have the second bomb tower\" (t=116-117) and \"He's going to skelly barrel on the right side for sure\" (t=168)."
+    ],
+    "dart-goblin": [
+      "clock 1:49-1:45 (t=68-72): a Dart Goblin walks the right lane at [14, 12] -> [14, 10] and is cleared by Berserker plus Ice Spirit; detector labels for this card may be Goblin Gang Spear Goblins (see the match file's Data gaps)."
+    ],
+    "arrows": [
+      "Ryley tracks the opponent's Arrows all game and times both of his win conditions off it: \"He has the goblin gang cuz he's not backed arrows yet\" (t=68), \"I think he only has the arrows\" (t=153), and \"We can wall breakers look cuz he has the arrows, and if you delay it a bit maybe we can grab a wall breakers\" (t=216-219). Never observed as a deploy — mentioned only."
+    ],
+    "fireball": [
+      "He rules it out and is wrong: \"I don't think he has like a fireball or anything like that. Famous last words\" (t=154-156), then \"He does go for the fireball\" (overtime, t=196) and \"He fireballed. That was bad though\" (t=229). Three unidentified opponent spells register as 275-390 HP of tower damage (t=158.2, 179.2, 198.2) with no card read."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": [
+      "goblin-barrel",
+      "wall-breakers",
+      "magic-archer",
+      "berserker",
+      "bomb-tower",
+      "royal-delivery",
+      "ice-spirit",
+      "fire-spirit"
+    ],
+    "bullets": [
+      "Game 1 of a six-game single-deck video, vs an Evo Royal Recruits bait deck (Wizard / Mighty Miner / Goblin Gang / Skeleton Barrel / Arrows / Fireball): win in overtime, enemy right tower 1646 -> 465 HP between clock 1:26 and 1:10 — \"that should be good game. Come on. Let's go. GG's. Nice win\" (t=233-234).",
+      "He names and rates the deck in the intro: \"my main deck for the season end is going to be the super cycle log bait magic archer deck and I think that this is one of the strongest decks in the game right now. Definitely one of the strongest competitive decks\" (t=11-22).",
+      "The engine is volume, not size: at least 14 Ice Spirits, 8 Fire Spirits, 7 Goblin Barrels, 8 Berserkers and 4+ Wall Breakers in 233 s — \"the pressure on this deck guys gets so crazy most of the time because you can get like this wall breakers one side, the barrel berserker in the other lane. You just have so many cheap offenses with this deck, which make it so hard to deal with\" (t=85-94).",
+      "Defence is a fixed, cheap package re-laid every cycle: Bomb Tower on the centre pocket ([7, 9]-[9, 9], 4 deploys), a spirit in front, Berserker as the plug and Royal Delivery for committed ground pushes (6 uses, all on his own half). The building is deliberately held for the Royal Recruits: \"I do want to save my bomb tower for the recruits if possible\" (t=81).",
+      "Magic Archer is played from the back, not the bridge (7 deploys on [8, 9]/[9, 9]/[8, 7]/[2, 8]) and is meant to accumulate: \"we can just cycle the magic archer. I do want to start stacking up magic archers. That will be very very helpful because I think he only has the arrows\" (t=147-153).",
+      "Both win conditions are gated on the opponent's small-spell cycle and split across lanes so one spell cannot cover them — right-lane barrel at clock 1:54 when the Arrows are out of cycle, left-lane barrel + Wall Breakers at clock 0:55, and a deliberately delayed Wall Breakers in overtime (t=216-221).",
+      "Skill warning he attaches to the list: \"It also helps you improve as a player a lot as well cuz you have to be very accurate in how you play it. If you make one or two mistakes, you will probably just lose the game\" (t=52-60)."
+    ]
+  }
+}

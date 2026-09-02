@@ -1,0 +1,96 @@
+{
+ "video_id": "B7SW-i94v8s",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 232.9,
+   "events": 103,
+   "own_deck": [
+    "ice-spirit",
+    "berserker",
+    "goblin-barrel",
+    "fire-spirit",
+    "magic-archer",
+    "royal-delivery",
+    "wall-breakers",
+    "bomb-tower"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 298.1,
+   "events": 128,
+   "own_deck": [
+    "ice-spirit",
+    "berserker",
+    "wall-breakers",
+    "goblin-barrel",
+    "fire-spirit",
+    "magic-archer",
+    "royal-delivery",
+    "bomb-tower"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 216.0,
+   "events": 90,
+   "own_deck": [
+    "ice-spirit",
+    "berserker",
+    "goblin-barrel",
+    "fire-spirit",
+    "bomb-tower",
+    "magic-archer",
+    "royal-delivery",
+    "wall-breakers"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 264.1,
+   "events": 157,
+   "own_deck": [
+    "ice-spirit",
+    "berserker",
+    "fire-spirit",
+    "bomb-tower",
+    "magic-archer",
+    "royal-delivery",
+    "goblin-barrel",
+    "wall-breakers"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 295.1,
+   "events": 138,
+   "own_deck": [
+    "ice-spirit",
+    "wall-breakers",
+    "goblin-barrel",
+    "fire-spirit",
+    "berserker",
+    "royal-delivery",
+    "magic-archer",
+    "bomb-tower"
+   ]
+  },
+  {
+   "match": "0.5",
+   "seconds": 180.5,
+   "events": 80,
+   "own_deck": [
+    "ice-spirit",
+    "fire-spirit",
+    "berserker",
+    "goblin-barrel",
+    "wall-breakers",
+    "magic-archer",
+    "bomb-tower",
+    "archers"
+   ]
+  }
+ ]
+}

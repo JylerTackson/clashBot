@@ -1,0 +1,103 @@
+{
+  "key": "B7SW-i94v8s-m0.4",
+  "match_file": "matches/B7SW-i94v8s-m0.4.md",
+  "video_title": "My MAIN Deck for Season End in Clash Royale",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:51 (t=1016): opens the game with the barrel before anything else is on the field, tile [3, 24] on the enemy left tower, while scouting the opponent out loud — \"He's going to start off with the goblin barrel here. This guy plays piggies, earthquake, evo cannon, log, skelly spirit.\"",
+      "clock 1:32 (t=1095): Evo Goblin Barrel at [3, 23] together with Wall Breakers is the first real connection of the game (enemy left 4858 -> 4695) — \"It's Evo barrel wall breakers here. This won't be too much pressure, but it's something decent. It should be like three barrel hits. Not bad.\"",
+      "clock 1:41 (t=1086) and overtime 1:17 (t=1232): two stated brakes on barrel spam — \"I'm not going to Evo barrel spam him just yet cuz if he piggies at the same time then I would lose\", and later \"I don't want to barrel into the queen though. That's the problem.\"",
+      "overtime 1:55 onward (t=1191, 1217, 1253, 1265, 1292, 1302): he moves every barrel to the damaged right tower ([14, 24] / [14, 26] / [13, 26]) and cycles them non-stop — \"I do need to keep on cycling barrels over and over again\" (t=1189); the one that lands at t=1253 takes the enemy right tower 3750 -> 3558: \"Yo, we got one. Nice. It's huge.\""
+    ],
+    "wall-breakers": [
+      "clock 2:42 (t=1024): the standard opening is a Wall Breakers split on the centre tile [8, 14] before any read on the opponent — \"Let's just go for the wall breakers here. See what he wants to do.\"",
+      "clock 0:15-0:05 (t=1172-1182): barrel plus Evo Wall Breakers in the same rotation is the biggest damage of regular time (enemy left 4695 -> 4503, right 4572 -> 3750) — \"Evo barrel, Evo wall breakers here. Yo, that was a bad cannon. The wall breakers, that's going to be a connection. At least one of them. We get a double connection basically cuz we got the splash damage.\"",
+      "clock 2:10 (t=1057) and 0:40 (t=1147): used purely as a defensive body against Royal Hogs — [6, 14] in front of the hogs, and [10, 10] beside the Bomb Tower: \"we need to go for the defensive wall breakers here just to tank. All good.\"",
+      "overtime 1:43 (t=1204): paired with Magic Archer as a two-card bait against the opponent's Skeletons — \"Let's go for the magic archer wall breakers cuz he might skellies on this.\""
+    ],
+    "magic-archer": [
+      "clock 2:38 (t=1029): first answer to the opponent's Archer Queen is a Magic Archer at [9, 13] on his own half, played for the ability rather than the kill — \"Let's go for the magic archer here just to get some value out of this. Make sure he has to either pop an early ability or just, you know, let the Archer Queen die.\"",
+      "clock 2:23-2:21 (t=1044-1053): the enemy King Tower activates (first reading 7499, 7270 HP by t=1046) and he blames the Magic Archer's tile — \"Sometimes you can actually prevent the king activation depending on the tile your magic archer is on, but unfortunately there I was not able to\", after \"this is probably game over already with him being able to activate the king.\"",
+      "clock 0:52 (t=1132), 0:03 (t=1184) and overtime 1:11 (t=1234): repeatedly re-bought behind the King Tower at [9, 0] as permanent support the opponent must spend on — \"we can just go for a magic archer in the back as well\" (t=1186); he plays around the answer rather than the card: \"I want to force out the Evo cannon now so we can't Evo cannon earthquake our magic archer\" (t=1135-1138).",
+      "overtime 0:45 and 0:22 (t=1261, 1285-1296): two more Magic Archers into the right lane during the losing grind — \"Marcher's not going to get us anything, but we can keep up the pressure\" (t=1214), then \"Wait, we kept this alive. Let's go for the marcher again. And we have a chance\" (t=1285-1288)."
+    ],
+    "bomb-tower": [
+      "clock 2:11 (t=1056) and every cycle after ([8, 10] t=1097/1217/1264, [6, 9] t=1143, [9, 9] t=1163, [9, 12] t=1183, [9, 11] t=1239): the Bomb Tower is re-laid in the central pocket in front of his King Tower as the fixed anchor against Royal Hogs.",
+      "clock 0:20 (t=1163-1167): he names the defensive pairing explicitly — \"we get a good delivery at the bridge. Even bomb tower on defense as well. Dude, the delivery bomb tower combo is so nice defensively.\"",
+      "clock 0:43 (t=1143) and overtime 1:07 (t=1239): dropped the moment the Royal Hogs appear rather than pre-placed — \"There is the piggies right away. Go for the bomb tower here\", and \"Let's get the bomb tower down. We can go for the ice spirit, and we can go for the delivery as well.\""
+    ],
+    "royal-delivery": [
+      "clock 1:51 (t=1075): Royal Delivery at [2, 13] on his own half onto the advancing Archer Queen, followed by a Berserker at [2, 14].",
+      "clock 1:02 (t=1116-1121): he states that the opponent is baiting it out of him — \"he's probably going to try to make us use the delivery on the Archer Queen and then he'll be able to get a good set of Evo piggies\", which is why he tries to out-cycle instead.",
+      "clock 0:42 and 0:24 (t=1144, 1162): used at the bridge tiles [15, 13] and [4, 15] rather than deep on his own half — \"we get a good delivery at the bridge\" — and combined with Bomb Tower: \"the delivery bomb tower combo is so nice defensively.\"",
+      "overtime 1:21 (t=1218-1226): after a Royal Hogs plus Archer Queen wave he is not sure it landed in time — \"Nice. Good defense. I wasn't sure if I was going to get the delivery down or not.\" Seven uses in the game, all on his own half or his side of the bridge."
+    ],
+    "berserker": [
+      "clock 1:44 (t=1083) and 0:43 (t=1145): the 2-elixir plug behind the Royal Delivery / Bomb Tower on whichever lane is under pressure ([2, 14], [4, 12]) — \"Go for the bomb tower here. Let's go for the berserker\" (t=1143-1146).",
+      "overtime 0:45-0:15 (t=1251, 1268, 1281, 1292): four Berserkers into the right lane as cheap pressure during the overtime grind, one of them explicitly to bait the Champion ability — \"I definitely have to berserker here. Force out the archer queen ability, and then I think I can go for the spirits plus lineup here\" (t=1293-1298).",
+      "overtime 0:37 (t=1269-1274): he tries to use it as a card-matching tool against the opponent's cycle — \"Wait, could I berserker and then we can match cards for this, maybe? ... No, the match cards didn't line up somehow.\""
+    ],
+    "fire-spirit": [
+      "clock 2:28 (t=1038): Fire Spirit at [11, 14] played specifically to deny the opponent's King activation — \"Let's fire a spirit here as well just to shove it a little bit so he can't activate the king. Oh, no, he was able to anyways.\"",
+      "clock 2:00 (t=1066): held until the opponent's own spirit was spent, then sent at [3, 14] into the Royal Hogs — \"because he dropped the spirit, I can go for the fire spirit and he has nothing good for the fire spirit.\"",
+      "clock 1:05 to overtime 0:07 (t=1121, 1161, 1181, 1201, 1220, 1273, 1300): the recurring bridge-lane filler at [14-16, 11-13] that keeps the barrel lane alive — \"Let's fire spirit again. Keep up the pressure\" (t=1182).",
+      "overtime 1:27 (t=1220): used as a tank body in front of a push rather than as chip — \"Fire spirit here to tank.\""
+    ],
+    "ice-spirit": [
+      "clock 2:07 (t=1060): first layer against the Royal Hogs and their Skeletons — \"Let's go for the wall breakers then we go for the ice spirit for the skeletons as well. That should be a singular connection unless he gets a spirit down, which he does.\"",
+      "clock 0:57 (t=1128): the cheapest way to keep the rotation moving before the next barrel — \"I'm going to spirit here then we can barrel opposite lane.\"",
+      "clock 0:43 and overtime 1:07 (t=1143, 1240): dropped in front of the Bomb Tower as the freeze layer on a committed push — \"We can go for the ice spirit, and we can go for the delivery as well\" (t=1241).",
+      "overtime 0:11 (t=1289-1297): part of the final stacking attempt in both lanes — \"Let's go for the low spirit, the high spirit, and then we go for the evil wall breakers evil barrel.\""
+    ],
+    "archer-queen": [
+      "clock 2:38 (t=1031): the opponent's Champion is the first card played against him and sets the whole game plan — \"Okay, he goes for the archer queen. Let's go for the magic archer here just to get some value out of this. Make sure he has to either pop an early ability or just, you know, let the Archer Queen die.\"",
+      "clock 1:52 (t=1073) and 1:02 (t=1125): he is happy to trade cheaply into her but not to let her land for free — \"he had to go for the Archer Queen, which is fine for us\", and \"I'm trying to out cycle him and just keep up the spam so he's not able to get free Archer Queens down.\"",
+      "clock 0:17 (t=1169) and overtime 1:17 (t=1232): she is what stops the bait deck functioning — \"We just have to be very careful of that archer queen cuz it can definitely cause us a lot of problems\", and \"I don't want to barrel into the queen though. That's the problem.\"",
+      "overtime 0:53-0:15 (t=1253-1296): repeated mid-lane Queens ground his left tower from 4390 to 2982 HP — \"We can't just let him keep cycling queens. They're never going in\" (t=1253-1256), and the last Berserker is thrown to \"force out the archer queen ability\" (t=1295)."
+    ],
+    "royal-hogs": [
+      "clock 2:10 (t=1057-1066): the first Royal Hogs wave crosses on the left and is answered with Wall Breakers plus Ice Spirit plus Fire Spirit rather than a building — \"That should be a singular connection unless he gets a spirit down, which he does.\"",
+      "clock 1:11-1:02 (t=1110-1121): he tracks the Evolution cycle as the main threat — \"He has next piggies Evo though, so I have to be very, very mindful of that. Whenever he has piggies Evo, he's probably going to try to make us use the delivery on the Archer Queen and then he'll be able to get a good set of Evo piggies.\"",
+      "clock 0:43 (t=1143-1152): the standard answer package is Bomb Tower plus Berserker plus a defensive Wall Breakers, and it still costs him tower HP (own left 4858 -> 4624) — \"There is the piggies right away... I think I should have just stepped back, but it's fine.\"",
+      "overtime 0:37 (t=1270-1274): Royal Hogs get through in overtime and he cannot explain it — \"Dude, how are those piggies on my tower, though?\" (own left 4078 -> 3450 over the next ten seconds)."
+    ],
+    "cannon": [
+      "clock 0:52 (t=1135-1138): the opponent's Evo Cannon is what he plays around before committing his Magic Archer — \"I want to force out the Evo cannon now so we can't Evo cannon earthquake our magic archer.\"",
+      "clock 0:13 (t=1174-1178): a misplaced Cannon is what lets the biggest push of regular time land — \"Yo, that was a bad cannon. The wall breakers, that's going to be a connection.\"",
+      "overtime 1:39 (t=1208): his Magic Archer plus Wall Breakers pressure removes it — \"Oh, nice. It's going to take out the cannon though.\" Cannon placements are tracked at [10, 15], [9, 15-16], [8, 16-19] and [11, 20] through the game."
+    ],
+    "earthquake": [
+      "clock 1:43 (t=1082-1085): Earthquake is why he treats the matchup as structurally against him — \"he doesn't like actually have to do anything since he has earthquake to be able to fall back on for some damage.\"",
+      "clock 1:23 (t=1104-1108): and it is also his lever — \"As long as I have a lead, he is forced to cycle earthquakes on our tower, which can definitely help us break through.\"",
+      "overtime 0:51 (t=1255-1257): the failure mode he names when his own pressure stops — \"Otherwise, we're just going to get cycled by the earthquake.\" No Earthquake event was read directly; one unidentified opponent spell at t=1194 took 156 HP off his left tower with no enemy unit in range."
+    ],
+    "the-log": [
+      "clock 2:11 (t=1053-1058): he tracks the opponent's small-spell cycle rather than the card itself — \"I will barrel. I did not cycle him. He's back to log now after going for the piggies, which is all right, not the end of the world.\"",
+      "overtime 1:51 (t=1195-1197): forcing it out is treated as a win in itself even when the barrel gets nothing — \"Give me one. Oh, at least we forced out the log though.\" The Log is tracked on the field at t=1060 and t=1285."
+    ],
+    "skeletons": [
+      "clock 2:07 (t=1060-1062): he pre-empts the Skeletons with the Ice Spirit in the Royal Hogs defence — \"then we go for the ice spirit for the skeletons as well.\"",
+      "overtime 1:43 (t=1205): the Skeletons read shapes his offence too — \"Let's go for the magic archer wall breakers cuz he might skellies on this.\" Skeleton tracks appear against him at t=1070, 1200-1204 and 1262-1266."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": [
+      "goblin-barrel",
+      "wall-breakers",
+      "magic-archer",
+      "berserker",
+      "bomb-tower",
+      "royal-delivery",
+      "ice-spirit",
+      "fire-spirit"
+    ],
+    "bullets": [
+      "B7SW-i94v8s game 5 of 6 (video time 1016.2-1311.3 s), season-end ladder, LOST in overtime on the lowest-tower tiebreak (own 2982 / 4499 against enemy 4503 / 3174) — \"Oh, I didn't even get one. We lost. Man, if I got one, I would have won the game\" (t=1304-1307). The rare documented loss for this list, against the knowledge base's EvoRHogs AQ EvoCannon 2.9 Cycle deck (Royal Hogs / Archer Queen / Evo Cannon / Earthquake / The Log / Skeletons / Ice Spirit), scouted before a card was played: \"This guy plays piggies, earthquake, evo cannon, log, skelly spirit\" (t=1019-1022).",
+      "The game is decided at clock 2:23-2:21, when the enemy King Tower is activated by his own opening (first reading 7499, 7270 HP by t=1046): \"this is probably game over already with him being able to activate the king. Sometimes you can actually prevent the king activation depending on the tile your magic archer is on, but unfortunately there I was not able to\" (t=1044-1053). Every later barrel and Wall Breakers pair is then answered by three towers instead of two.",
+      "Offence is the usual engine — about twelve Goblin Barrels and nine Wall Breakers in 295 s — but lane-switched on tower HP rather than on the opponent's spell cycle: [3, 23-26] on the enemy left through regular time, then wholesale to [13-14, 24-26] on the damaged right tower once overtime starts (\"I do need to keep on cycling barrels over and over again\", t=1189). Best window is clock 0:15-0:05: barrel plus Evo Wall Breakers plus Fire Spirit for enemy left 4695 -> 4503 and right 4572 -> 3750 — \"We get a double connection basically cuz we got the splash damage.\"",
+      "Defence is the same fixed shell as the deck's other games — Bomb Tower re-laid on the [6-9, 9-12] block every cycle, a spirit in front, Berserker as the plug, Royal Delivery for the committed Royal Hogs wave — and he names the pairing: \"Even bomb tower on defense as well. Dude, the delivery bomb tower combo is so nice defensively\" (t=1163-1167). It holds regular time to 0-0 on crowns but leaks steadily in overtime (own left 4624 -> 2982).",
+      "Stated weakness of the list in this matchup: a mid-lane Champion the bait cannot go around. \"We just have to be very careful of that archer queen cuz it can definitely cause us a lot of problems\" (t=1169), \"I don't want to barrel into the queen though. That's the problem\" (t=1232), and \"We can't just let him keep cycling queens. They're never going in. Otherwise, we're just going to get cycled by the earthquake\" (t=1253-1257). Against a cycle deck with a spell finisher he treats holding a damage lead as the win condition: \"As long as I have a lead, he is forced to cycle earthquakes on our tower, which can definitely help us break through\" (t=1104-1108)."
+    ]
+  }
+}

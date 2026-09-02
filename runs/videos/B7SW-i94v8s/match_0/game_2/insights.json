@@ -1,0 +1,94 @@
+{
+  "key": "B7SW-i94v8s-m0.2",
+  "match_file": "matches/B7SW-i94v8s-m0.2.md",
+  "video_title": "My MAIN Deck for Season End in Clash Royale",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:47: opens the game with a Goblin Barrel on the enemy right Crown Tower at tile (14, 24) (9 -> 6 Elixir) before any defence is laid; that tower reads 4858 -> 4282 HP nine seconds later.",
+      "clock 1:55: answers a Balloon that just took three hits on his own tower with barrel plus Wall Breakers in the same rotation rather than with a defensive card — \"Let's just barrel wall breakers here. The thing is, even if I get in a one-to-one tower situation, it's still very winnable\" (592-597s).",
+      "clock 0:34: places the barrel at (13, 24) as a read on the opponent's answer — \"Let's barrel here in the hunter placement, cuz if he doesn't see it, then we'll get a bunch of damage when he goes for the hunter\" (673-675s).",
+      "overtime clock 1:37: the evolved barrel plus evolved Wall Breakers is his closing combination on a 1606 HP tower — \"He cannot defeat [evo] wall breakers. It's actually impossible for him to defeat [evo] wall breakers properly. We still get a connection after all that elixir\" (733-738s)."
+    ],
+    "wall-breakers": [
+      "clock 2:22: Wall Breakers at the bridge tile (14, 13) immediately behind a Berserker, as punishment for a slow opening — \"I'm going to berserker here, and I'm going to go for the wall breakers, too. I want to be really aggressive right now because of that play that he made with the balloon in the back\" (563-568s).",
+      "clock 1:07: uses them on defence as a kite — \"I'm definitely going to go for the wall breakers to kite, as well\" (638s) — and gets offence out of it anyway: \"we got a double wall breakers connection, as well\" (645s), enemy right tower 1679 -> 559 HP over clock 1:01-0:58.",
+      "overtime clock 1:59: refuses to spend the evolved pair while under pressure — \"Should we go for the [evo] wall breakers? Low-key, I don't want to yet. I think it's too risky to go for the wall breakers right now\" (706-711s) — then plays them at clock 1:37 once the Bomb Tower and Royal Delivery are already down."
+    ],
+    "magic-archer": [
+      "clock 2:38 and clock 1:25: two Magic Archers from behind his own King Tower at (9, 1) and (9, 0), framed as the deck's defensive investment — \"Let's go for the magic archer here in the back... otherwise we will lose because we don't really have the greatest air defense\" (548-557s).",
+      "clock 0:48: switches him to the bridge at (2, 15) to open the second lane — \"I'm going to march at the bridge. I actually just want to keep on spamming, right now\" (658-660s); the enemy left tower falls 4858 -> 1798 HP inside three seconds of that push.",
+      "clock 1:25: tracks the cost of cycling him — \"now that we've cycled the marcher, he's just going to go for a [Miner] balloon and try to take out my entire tower\" (624-628s).",
+      "overtime clock 1:44-1:28: keeps him alive with a Berserker (\"Berserker to keep the marcher alive. Nice, great timing with that berserker\", 724-725s) and finishes the game with him at the bridge — \"That's a few shots on the tower with the marcher. He has to watch out for the barrel. He has nothing\" (743-746s)."
+    ],
+    "berserker": [
+      "clock 2:22: paired with Wall Breakers at the bridge tile (13, 13) as the aggressive half of a 4-Elixir pressure package (563-566s).",
+      "clock 1:14: played not to defend a lane but to save a unit already on the field — \"Oh, wait, can we berserker to keep this live, maybe? Nice. Okay, good berserker\" (632-635s), Elixir 5 -> 3 at tile (13, 9).",
+      "clock 0:39: the cheap plug behind the Bomb Tower against an Ice Golem / Miner lane — \"if he goes for the [Miner], we have the berserker. That's not tower down, yet\" (669-671s), deploys at (3, 5).",
+      "overtime clock 1:44: bodyguard for the back-line Magic Archer — \"Berserker to keep the marcher alive. Nice, great timing with that berserker\" (724-725s)."
+    ],
+    "bomb-tower": [
+      "clock 2:28: laid early and on cycle rather than in reaction, at the centre tile (8, 9) — \"All right, let's cycle the early bomb tower here. Dude, this is kind of scary already\" (558-560s).",
+      "clock 0:39: the card he reaches for to save a tower he thought was gone — \"I'm going to lose my tower, unless I— Actually, I could bomb tower to save it\" (664-667s), placed at (6, 13).",
+      "overtime clock 1:49: pre-placed with Royal Delivery for a push he calls in advance — \"Let's bomb tower then we delivery. He's going to giant skelly for sure, yep. That's fine with me\" (717-720s), at tile (10, 9).",
+      "All five Bomb Towers in this game go in the central pocket in front of the King Tower ((8, 9), (7, 10), (6, 13), (10, 9)), never pulled wide to a lane."
+    ],
+    "royal-delivery": [
+      "clock 2:08: dropped at (4, 6) in front of his left tower as the last card of a five-card cheap defence against the Giant Skeleton — the sequence is called out in advance: \"I need to delivery here, and then I can go for the berserker as well\" (578-579s).",
+      "clock 1:05: held deliberately for the end of a defence — \"we can go for the delivery last second, as well. And I think I should keep my tower\" (641-643s).",
+      "clock 0:44 and 0:19: used to clear a committed ground push at (2, 15) and (5, 14) — \"Okay, let's delivery here, just to take this all out\" (661-663s).",
+      "overtime clock 1:49: always paired with the Bomb Tower in the overtime defence, laid at (9, 12) one second after the building (717s)."
+    ],
+    "ice-spirit": [
+      "clock 2:07 and clock 1:41: the first card of the defensive chain in front of the Bomb Tower at (8, 12) and (8, 11) — \"Let's go for the ice spirit here, and then we can go for the fire spirit\" (574-576s).",
+      "clock 1:07: spirit before the Royal Delivery in a defence he is trying to keep cheap — \"Then we can just ice spirit here... We need to spirit, and then we can go for the delivery last second\" (636-641s).",
+      "clock 1:32 and overtime 1:45: also rides the bridge with the Wall Breakers at tiles (14, 13) and (12, 6) as 1-Elixir push support.",
+      "overtime clock 1:26-1:24: two Ice Spirits thrown as a prediction rather than a reaction — \"We can ice spirit predicting the minions\" (741s)."
+    ],
+    "fire-spirit": [
+      "clock 2:11: the splash layer of the cheap defence at (9, 14), announced in the same breath as the Ice Spirit (574-576s).",
+      "clock 0:54: attached directly to a Goblin Barrel as a combined chip package — \"Let's go for the [evo] barrel plus fire spirit, and we can wall breakers at the bridge, again\" (649-652s), deployed at (14, 15).",
+      "clock 1:32 and clock 0:33: repeated at the bridge tile (14, 13) as a 1-Elixir top-up on an existing push.",
+      "overtime clock 1:44: pure chip on a low tower — \"Let's go for the fire spirit here just to damage this\" (722s)."
+    ],
+    "balloon": [
+      "clock 2:04 (opponent card, never played by Ryley): a Giant-Skeleton-tanked Balloon gets three connections on his left tower (4657 -> 3325 HP) and he treats it as near-fatal — \"if that gets three hits, I've probably just lost. Dude, how does that get three hits? Dude, balloon is not real. Unfortunately, I didn't have anything to block him at the bridge with, either\" (582-590s).",
+      "clock 2:38 (opponent card): the reason he calls for constant pressure with this deck — \"we have to apply super good pressure to be able to defend, otherwise we will lose because we don't really have the greatest air defense\" (551-557s)."
+    ],
+    "giant-skeleton": [
+      "clock 2:07 (opponent card, never played by Ryley): he reads the Giant Skeleton as a Balloon tank rather than a threat by itself — \"That giant skelly tanking is going to get him two hits, I think\" (579-582s) — and answers the pair with Fire Spirit + Royal Delivery + Ice Spirit + two Berserkers instead of one big card.",
+      "clock 0:27 (opponent card): treats a lane change by the Giant Skeleton as a free win — \"the giant skelly changed lanes. That is so good for us, as well\" (680s).",
+      "overtime clock 1:49 (opponent card): predicts it before it appears and pre-lays Bomb Tower plus Royal Delivery — \"He's going to giant skelly for sure, yep. That's fine with me\" (718-720s)."
+    ],
+    "miner": [
+      "clock 1:25 (opponent card, never played by Ryley): he times the opponent's Miner + Balloon window off his own cycle — \"now that we've cycled the marcher, he's just going to go for a [Miner] balloon and try to take out my entire tower\" (624-628s).",
+      "clock 0:39 (opponent card): keeps a 2-Elixir Berserker in hand specifically as the Miner answer — \"if he goes for the [Miner], we have the berserker\" (669s).",
+      "clock 0:17 (opponent card): calls a Miner at the bridge a mistake — \"Wait, what the heck? Why did he [Miner] at the bridge?\" (688-690s)."
+    ],
+    "hunter": [
+      "clock 2:24 (opponent card, never played by Ryley): a Hunter that fails to fire on his push is called out as the swing — \"Ooh, that hunter not shooting is very good for us\" (561-563s).",
+      "clock 0:34 (opponent card): he places his Goblin Barrel on the tile he expects the Hunter to be dropped on — \"Let's barrel here in the hunter placement, cuz if he doesn't see it, then we'll get a bunch of damage when he goes for the hunter\" (673-675s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-royal-delivery-wall-breakers",
+    "cards": [
+      "goblin-barrel",
+      "wall-breakers",
+      "magic-archer",
+      "berserker",
+      "bomb-tower",
+      "royal-delivery",
+      "ice-spirit",
+      "fire-spirit"
+    ],
+    "bullets": [
+      "Match [My MAIN Deck for Season End in Clash Royale](../matches/B7SW-i94v8s-m0.2.md), game 3 of 6 (t=535.7-751.8): win over a Giant Skeleton / Balloon / Miner beatdown deck, both enemy towers taken to 359 and 175 HP by overtime clock 1:21 — \"Let's go. Good game. Great pressure\" (748s).",
+      "The deck's thesis, stated at 600-610s while he cycles spirits: \"we both can't really defend. It's just that he is able to make like more powerful pushes. My pushes are just kind of like consistent and cheap, but he makes fewer attacks that just do so much damage.\" He accepts the trade in advance — \"even if I get in a one-to-one tower situation, it's still very winnable\" (593-597s) — and at clock 0:15 gives up his left tower on purpose: \"that just saves me from losing both sides, actually.\"",
+      "Against a heavy air deck the pressure is the air defence: \"we have to apply super good pressure to be able to defend, otherwise we will lose because we don't really have the greatest air defense\" (551-557s). Even after losing 1300 tower HP to a tanked Balloon at clock 2:04 the answer at clock 1:55 is Goblin Barrel + Wall Breakers, not a defensive card.",
+      "The defensive shell is fixed and cheap and always laid in the same order: Bomb Tower in the central pocket ((8, 9), (7, 10), (6, 13), (10, 9)), a spirit in front of it, Berserker as the plug, Royal Delivery last (\"we can go for the delivery last second, as well\", 641s; \"Let's bomb tower then we delivery\", 717s).",
+      "Magic Archer is used in both roles inside one game: from behind the King Tower at (9, 1) and (9, 0) while he needs air coverage (clock 2:38, 1:25), then at the bridge at (2, 15) and (9, 18) once he is closing a tower (\"I actually just want to keep on spamming\", 658s; \"That's a few shots on the tower with the marcher\", 743s). A 2-Elixir Berserker is spent to keep him alive (724-725s).",
+      "Evolution discipline: the evolved Goblin Barrel and Wall Breakers are described as unanswerable for this opponent (\"He cannot defeat [evo] wall breakers... It's actually impossible for him to defeat [evo] wall breakers properly\", 733-736s), but he still withholds them under pressure in overtime — \"it's too risky to go for the wall breakers right now\" (710s) — and spends them only behind a Bomb Tower and Royal Delivery.",
+      "Placement is used as a read on the opponent's answer, not just for damage: barrel \"in the hunter placement, cuz if he doesn't see it, then we'll get a bunch of damage when he goes for the hunter\" (673-675s), and Ice Spirits thrown \"predicting the minions\" in overtime (741s)."
+    ]
+  }
+}
