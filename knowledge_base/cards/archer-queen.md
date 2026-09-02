@@ -157,6 +157,11 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md
 - opponent card, commentary only (never detected). Ryley plays around her ability three separate times: 'he might try to ability again like he did the last three times' (t=861-863, playing a Barbarian Barrel for it), 'Dude, he's going to drop the queen ability. Oh no' (t=877-879), and after it lands, 'I think that was a bad queen' (t=896).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 0:59 (opponent Archer Queen tracked at (14, 14)): never named in the commentary; Ryley answers the right lane in that window with Cannon at (8, 10) and a Mighty Miner block rather than a spell.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

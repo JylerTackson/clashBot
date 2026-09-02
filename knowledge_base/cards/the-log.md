@@ -483,6 +483,49 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.m
 - clock 1:59: opponent's spell, known only from commentary. A wasted Log is what opens the door for his first barrel — 'Okay, bad log right there. We can go for a goblin barrel now as well' (555-557s) — and the threat of it changes his defensive card choice later: 'He could even try like a pre-log on the fire spirit, so I think I'll rather delivery on top' (610-613s).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:04 onward: ten casts across the game at [13, 13], [3, 14], [13, 14], [13, 15], [12, 9], [11, 9], [13, 6], [12, 14], [12, 1], [14, 4] and [14, 15] — he does not hold it for value, it comes out every wave against golemites and skeleton clutter ('we have to Log here', t=130 and t=140).
+- clock 0:47: paired directly behind the Evo Cannon as the standard defensive two-card answer — 'let's go for the Evo Cannon here and then we can go for the Log as well' (t=120-122).
+- OT 1:20: aimed at a specific support troop rather than the swarm — 'we have to Log, too. Make sure that we hit the Night Witch' (t=213-214).
+- OT 0:43: part of the late three-card clear with Firecracker — 'Log here, firecracker as well' (t=251).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 2:07: logged the Giant's ground support at (3, 7) while criticising the opponent's timing — "Okay, let's log this. I feel like he could have done that way earlier. I'm not a fan of that play, to be honest" (325-328s).
+- clock 0:34: Log at (10, 15) behind the middle Hog Rider, aimed at the Zappies rather than the tower — "we go for the log as well. Make sure to grab those zappies. Nice, we grabbed one of them" (417-420s).
+- overtime 0:57: pre-logged at (12, 15) as a prediction on the answers he expected — "We need to pre-log here for the barbs or the bowler" (516s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:02: Log under the Sparky push, deploy labels at (5, 12) and (3, 10), as the last layer of a Skeletons + Electro Spirit + Log defence.
+- clock 1:05: a speculative Log at (2, 14) rolled up the left lane behind his warped Mighty Miner - "Wait, can I try to log here? I don't think it will reach in time, but imagine if it does. Oh my god, wait. Oh my god, what a reaction time. Yo, that was so fast." It is tracked at (2, 19) on the opponent's half by clock 0:58.
+- clock 0:36: the Log that saves the game, at (4, 9) as the last card of the Graveyard defence - "We can go for the log, and I think we just saved our tower here. Nice, what a defense" - and he is still praising it at 0:17: "That was such a great log from us. Dude, that timing was just impeccable."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock 2:32: he names The Log as the reason the Hog matchup works - "I do think that with perfect game play, Hog Rider should be winning, especially with the log. Having log to keep up with the tower damage, for the most part, is very, very nice" (749-754s).
+- clock 1:48, 1:16, ~0:24, 0:07: five casts at (14, 14), (12, 15), (14, 15) and (15, 14) - all right-lane, under or behind his own Hog Rider push - plus one at (2, 15) on the left at clock ~0:54. "Okay, let's just log here. We got some nice Firecracker chip damage" (820-822s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- clock 1:11 (t=1040.4): rolled at [15, 14] to clear the way before re-cycling the Hog - 'Let's log here and then we can go for the hog rider again cuz we do have a cycle him'.
+- clock 0:48 (t=1062.4): defensive Log at [3, 13] into the lane the opponent's Musketeer and Evolved Skeletons were walking, immediately before the Evo Cannon - 'Let's log here then we have to go for the Evo cannon'.
+- clock 1:41 (t=1129.6) and clock 0:23 (t=1214): Log as the standing answer to the opponent's swarm - 'log as well. Make sure we take this out' / 'We have to go for the log. We have to go for another Cannon'. He cast it about fifteen times, the most of any card in the window.
+- clock 0:07 (t=1105): he also predicted the opponent's Log on his own Firecracker and accepted the trade - 'Evo firecracker here. Log. I know he's going to go for his log, which is fine'.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 2:26 and 1:50: The Log at tiles [3, 15] and [2, 14] into the ground push (Heroic Bowler plus support) coming down his left lane.
+- clock 1:04 and overtime 1:29: layered directly on top of his Cannon at tiles [4, 13] and [4, 12] as part of the Electro Giant answer.
+- clock 0:25 onwards: in the finish he uses it as chip damage, not defence — "Then we can just go for the log. I I I need the tower damage for sure", and again in the last cycle at tile [3, 14]: "we need to earthquake and then we need a log and I think ... by the hair of our chinny chin chin, we win."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

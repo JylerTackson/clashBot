@@ -279,6 +279,17 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 1:50 (t=1424-1428): he predicts the card before it is played — "I think he'll zappies because of this... Yeah, he'll have to get some zappies down" — and it arrives at t=1431.4.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 1:23: the opponent's Zappies are the precondition on his bridge Mighty Miner — "We'll take it out very nicely cuz he has no zappies, and so I don't have to worry about those" (369-371s).
+- clock 0:34 and overtime 1:44: answered twice with cheap spells and a second building rather than a troop — "we go for the log as well. Make sure to grab those zappies. Nice, we grabbed one of them" (417-420s) and "we need to go for the cannon up top as well to block those zappies. Beautiful zappies block it. We'll block two of them" (466-470s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:50: first sighting at tile [0, 17], and the surprise is the point — "Okay, he has Zappies. What the heck is this?" They then appear in both lanes ([12, 24], [2, 21], [6, 15], [2, 15]) and repeatedly show as "tower in ~6-8s" threats that he answers with The Log and Skeletons.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

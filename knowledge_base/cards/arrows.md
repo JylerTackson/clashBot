@@ -196,6 +196,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.1.
 - clock 1:26: the opponent's Arrows go out early and Ryley immediately banks the window — "Th- Those were a good but aggressive arrows cuz now he won't have the arrows for my Evo Firecracker."
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- overtime 0:38: mentioned only as a miss that saved him — "Skellies down low. Oh my god, he missed the arrows. E-spirit. We're alive" (536-538s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

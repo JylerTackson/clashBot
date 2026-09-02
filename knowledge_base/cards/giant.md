@@ -165,6 +165,17 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 1:42 (t=233): once the tank shows he reads the whole deck off it — "Okay, giant double prince should not be too much of an issue cuz the Ronin is just going to be able to reflect everything."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 2:23-2:07: against the opponent's Heroic Giant he tried a forward Cannon at (11, 14) as a cross-lane pull and Skeletons at (3, 14) as a kite, and read the ability out loud — "I was trying to bring the giant back to the other lane" (310s), "He's going to a giant ability, isn't he? I mean, maybe he doesn't cuz then he has to defend the mighty miner. Oh no, he does anyways" (320-325s).
+- overtime 1:28: by overtime he treats the Giant as a race he wins — "He can't really giant cuz if he giants I'm just going to hog rider" (482-485s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:32: named only, as the read that resolves his guessing - "Oh, he does have giant" (578s), after cycling through Lava Hound and Golem, and confirmed at 1:45: "I assume then he just has the regular giant Sparky deck." No Giant deploy label or unit track appears in the readable window.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant (scraped 2026-09-02T02:34:51+00:00)

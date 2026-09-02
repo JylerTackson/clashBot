@@ -116,6 +116,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - Tracked twice on the opponent's side near the right bridge (t=1059.1 tile [14, 15] at clock 1:43, t=1107.1 tile [14, 17] at clock 0:54). Ryley never names the card; at the second one he reacts to an animation he cannot place — "He's going to use ability, bro. What? I mean, I guess it worked, but that was still interesting" (1107-1112s), so the Clone reads come from the detector rather than from commentary.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- overtime 0:47 (opponent Clone at (12, 16), over the right-lane push): Ryley calls the ability behind it a mistake and then reverses himself as the push lands — "That was a bad ability, I feel like" (529s), "Maybe it wasn't a bad ability. Let's go for the cannon here" (532-534s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Clone (scraped 2026-09-02T02:35:29+00:00)

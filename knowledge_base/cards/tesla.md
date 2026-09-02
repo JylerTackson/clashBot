@@ -343,6 +343,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - Both Teslas are defensive-only placements on his own half; the card is never used as a lane blocker at the bridge.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock 2:39 onward: the opponent's Tesla, not the X-Bow, is what Ryley plays around - "I'm going to make sure that I play all of my cheapest cards that I can, so I can cycle back quickly, and try to out-cycle that Tesla, cuz forcing him to go for a defensive X-Bow would be really, really good" (773-783s). At clock ~1:04 he declares the plan complete: "We did outcycle him" (836s).
+- overtime: he treats a forced Tesla as a win either way - "if I make him Tesla then he can't really activate the king" (887-890s), and later spends a spell on it, "just to make sure we drop the Tesla. Or if he puts it on the side then that's fine, too" (912-915s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

@@ -165,6 +165,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 0:52-0:43 (t=281-295): he manipulates its targeting rather than fighting it head on — plays the Ronin first "so it can target onto the Ronin with the mega minion", then removes it with a Royal Delivery: "now it's delivery here to make sure we take out the mega minion a little bit."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:22: mentioned, not seen - the opponent runs the Heroic Mega Minion and Ryley calls it the reason this game will be harder than his last one: "feel like this one will probably be a little bit more difficult with him having the hero mega minion. Hero mega minion is just such a annoying card to go up against."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

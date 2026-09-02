@@ -225,6 +225,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - The second wave (t=1363.4-1369.4) is handled by the Royal Delivery Recruit: "That Recruit grabs one and if it grabs one then that takes it out" (1368-1371s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 1:44 and 0:52: unseen Minions are the reason he holds Skeletons and pre-places Firecracker — "I won't skellies though, cuz he might have like minions or something, and I want to be able to counter it for cheap" (350-354s), "We need to firecracker here in case he goes for the minions" (426s). The opponent's Minions do appear at clock 0:57 and 0:51.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

@@ -163,6 +163,12 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md
 - clock 2:26: opponent Barbarians tracked at tile [11, 13] on Ryley's half; he answers the lane with Bomb Tower and expects them again on defence at the end — "he has to probably go for the barbs" (t=775) just before the concession.
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 0:15: the opponent's Barbarians are the answer he fears most on the Hog lane, evolved or not — "We took a lot of damage, but it's still winnable. I know he has the evo barbs though. Well, maybe not the evo, but just like the barbs in general, which is not very great for us" (434-440s).
+- overtime 1:22 and 0:57: he sends the Hog Rider expecting them and pre-Logs for them — "Let's hog rider evo firecracker and he might barbs" (490-492s), "We need to pre-log here for the barbs or the bowler" (516s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

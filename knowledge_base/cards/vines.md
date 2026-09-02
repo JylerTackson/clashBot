@@ -180,6 +180,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.m
 - clock 1:14 (mentioned, never seen): his guess for the opponent's unshown card, reasoned from deck weight — "I have a feeling he has vines. His deck gives kind of vines vibes since his deck is already quite a bit heavy. It wouldn't make too much sense to have an even heavier deck."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 1:23: predicted from the archetype before it is ever played — 'I think he's going to have Vines as well' (t=89) — and then played around all match as a card to drain: 'I need to get the Vines out of him. At least the elixir of it' (t=176-179).
+- OT 1:43: he spends an Evo Firecracker purely to bait it — 'let's go for the Evo Firecracker here just to start sniping this down, force out the Vines' (t=192-194). At clock 0:57 he hedges the slot: 'before he goes for the Vines. He might try to E-Wiz instead because of that' (t=114-115).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

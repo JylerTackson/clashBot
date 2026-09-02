@@ -506,6 +506,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.m
 - Opponent's Goblin Barrel answer; Ryley plays the whole game around its rotation. He barrels when it is absent ("he has no barbarian barrel in hand", clock 2:25), plays to force it out ("Make him use the barbarian barrel", clock 1:34), barrels once it is spent ("since he wasted the barbarian barrel", clock 0:31), and pre-empts it ("he has to go for the barbarian barrel anyways, and then that's going to line up onto the tower", OT 1:44).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 2:14: mentioned only, as the answer he expects the opponent to have for his second Hog Rider — "He's going to NATO this to the King's Tower and then Barbarian Barrel, probably." No Barbarian Barrel was ever observed in this game.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

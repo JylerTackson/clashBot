@@ -176,6 +176,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.m
 - clock 2:25 (t=354-362): named as part of his (never-confirmed) read of the opponent's list — "I think that he has the Golem Healer Mini Pekka deck" — and used to explain why the opponent could not answer his Ronin: "obviously couldn't go for the Mini Pekka there on top of the Roane cuz then it would just one shot itself." Mentioned only; no Mini P.E.K.K.A. is tracked in this game.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 1:31: no clean detection, but Ryley references it four times as the opponent's Hog answer, and the point is the video's thesis — 'Hog Rider grabbing shots against these Mini P.E.K.K.A.s is insane. I know he's not placing it perfectly' (t=79-84).
+- clock 0:25 and clock 0:19: he treats killing it as the precondition for his defence holding — 'this Mini P.E.K.K.A. needs to get removed' (t=149), then 'we've low-key been getting lucky with the Mini P.E.K.K.A.s dying' (t=153-154); at OT 1:16 the answer is a Firecracker ('Firecracker here for the Mini P.E.K.K.A.', t=218).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A. (scraped 2026-09-02T02:34:51+00:00)

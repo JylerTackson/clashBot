@@ -222,6 +222,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.m
 - clock 2:51-2:26: the opponent's opening card, advancing down the left lane from tile [1, 16]; Ryley answered with Fire Spirit then Royal Delivery placed under it — "I'll delivery on the baby dragon."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 2:38 onwards: the opponent's evolved Baby Dragon is tracked at tiles [1, 19], [3, 12], [7, 14], [1, 16]; Ryley plans two specific answers to it — "Go for the Evo Cannon here. Make sure we hit the Baby Dragon" (clock 0:15) and "E-spirit to block the baby dragon. Nice" (clock 0:34).
+- clock 2:30: he names it as one of the two cards that make Electro Giant playable into Hog EQ — "having the Evo Baby Dragon and the Evo Goblin Cage as well."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

@@ -231,6 +231,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 1:12 (t=1461.5): the second Graveyard is answered with the late Tesla he had been saving for the King activation, so one card handles the defence and the activation together (t=1460-1465).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:12 and 0:54: the opponent drops Graveyard on Ryley's half (tracked at (9, 2) then (8, 3)) behind the Sparky, twice; Ryley answers the second one by stacking cheap cards - Cannon at (8, 10), Skeletons at (11, 14) and (6, 10), Firecracker at (9, 6) in front of the King tower and finally The Log - rather than with one big answer: "I think we just saved our tower here. Nice, what a defense."
+- clock 2:24: he frames the matchup against his previous game - "We just beat a giant graveyard player, but feel like this one will probably be a little bit more difficult with him having the hero mega minion."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

@@ -244,6 +244,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.m
 - Opponent's cheap tank, tracked repeatedly in the right lane in front of the Balloon. Blocked by Ronin at clock 0:47 ("Let's Ronin here. Block this... beautiful block right there") and dismissed at clock 0:03 — "Bad ice golem, too".
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- Opponent's card (not played by Ryley). clock 2:32 (t=958): part of his pre-game read on why he would rather be on the 2.6 side - 'with the hero ice golem being as broken as it is, I definitely rather be on that side'.
+- clock 0:23 (t=1207): he calls the Ice-Golem-first Hog push by name - 'he does the forbidden tech of the ice golem in the back with the hog rider first'; the detector tracked ice-golem(e) advancing on his right lane at 1082s, 1104s, 1134s, 1174s and 1210s during the pushes that took that tower from 4858 to about 3048.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

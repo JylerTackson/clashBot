@@ -282,6 +282,13 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.m
 - overtime (mentioned, never seen): the only card he thinks can still stop his closing barrel — "he can't fully defend a barrel unless he lightnings it at this point."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- overtime clock 1:01: never confirmed on screen but he plays the whole endgame around it — "We're only down 500, but with him having the lightning, that does seem like a pretty hard thing to get through."
+- clock 0:37: the game turns on the opponent not casting it — "I knew he was going to go for the — oh my god, what? He didn't go for the lightning? Okay, that's a crazy play to not go for the lightning."
+- clock 0:19 to 0:03: he counts the requirement out loud and wins because it never lands twice — "He needs two lightnings. He's going to be able to get the second one, I believe" ... "we win. Yes, let's go. He didn't get the lightning."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

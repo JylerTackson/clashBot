@@ -163,6 +163,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - Opponent card, one detector track at [14, 15] (t=1417.4) during their final scramble, which Ryley reads as panic: "Just barrel here cuz he's spamming everything" (1418-1419s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 0:57: named once as an alternative the opponent might hold instead of Vines — 'he might try to E-Wiz instead because of that' (t=115). Never appears in the game.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

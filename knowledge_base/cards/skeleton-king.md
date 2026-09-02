@@ -128,6 +128,11 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md
 - clock 2:25 (t=938.9): opponent's Skeleton King crossed at [14, 15]; Ryley answered with Elite Barbarians at [13, 12] rather than a spell, and the counter-push took two tower shots (t=957-960).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 1:15: mentioned only as a card the opponent does NOT have — 'I'm pretty sure that means he doesn't have the Skeleton King' (t=98) — which is how Ryley narrows the last slot to Goblin Machine. Never played by either side.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_King (scraped 2026-09-02T02:35:13+00:00)

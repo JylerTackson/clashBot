@@ -222,6 +222,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - OT 1:45: every X-Bow gets protection within seconds (Skeletons/Electro Spirit at [1-6, 13-14], or Tesla behind it) — 'let's X-Bow here, and then we Tesla again as well'; he also concludes he should just pair them, 'Next time I'm just going to go for the X-Bow Tesla, so I don't have to worry about actually protecting the X-Bow super cleanly' (clock 0:39).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock 2:44: he identifies the archetype instantly and rates the matchup - "dude, this guy is X-Bow... X-Bow's going to be a pretty solid match-up for us. I do feel like that if he plays perfectly, he can make the match a little bit tight" (730-747s).
+- clock 2:20 and 1:36: he argues the siege player should commit the X-Bow to force him off the bridge - "He could go for the X-Bow, but I don't think that would be too great of a play" (756-760s), then "He can't X-Bow on the left, even though I think he actually should, just to force me to go Hog Rider at the bridge" (799-802s). The opponent's X-Bow only shows at (2, 16) at clock 0:55, 0:17 and in overtime, always too late to matter.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

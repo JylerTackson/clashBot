@@ -174,6 +174,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 0:37-0:23 (t=296-320): comes back twice more at "tower in 2.2s" and "tower in 3.6s" and is stopped both times by Ronin plus Skeletons plus Royal Delivery, with zero damage on the tower.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 0:56: the opponent's answer to the warped Mighty Miner - Dark Prince tracked at (2, 19) in the left lane, arriving right as the enemy left tower bottoms out at 161 HP.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dark_Prince (scraped 2026-09-02T02:35:01+00:00)

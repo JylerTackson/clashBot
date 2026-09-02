@@ -272,6 +272,54 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.
 - clock 1:02: Hog Rider at (16, 15) opening the triple-elixir right-lane pressure that takes the enemy right tower from 2006 HP to under 500 by clock 0:22.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:46: opens with it in the LEFT lane at [1, 14] (the unexplained elixir 9 -> 5 at t=8.8 is this deploy; an allied hog is tracked at [2, 16] -> [2, 24] from t=12 and the enemy left tower drops 4858 -> 4351 by t=16), then never returns to that lane — every later Hog goes right at [16, 15], [16, 14] and [10, 14], into the tower the opponent is already committed against.
+- clock 1:45: Hog at the right bridge backed by Firecracker (elixir 4 -> 1), Heal Spirit and The Log at [13, 14] takes enemy right 4858 -> 4091 — 'we're going to get a nice Hog Rider shot here. Two if we're lucky... Hog Rider grabbing shots against these Mini P.E.K.K.A.s is insane. I know he's not placing it perfectly, but damn, that's still a little bit crazy to think about' (t=76-84).
+- OT 1:38 and OT 1:04: holds the card twice rather than feed an Evo Skeleton Army — 'I really want to go Hog Rider here, but I know it's not worth it, man' (t=196-199) and 'I'm going to wait a second though cuz I don't want to have him be able to go skeleton army' (t=229-232); when he does send it at OT 1:00 he lays an Earthquake behind it as the Skarmy answer.
+- OT 0:29: last Hog at [10, 14] as a pressure play while still defending — 'we have to hog rider here to pressure while defending' (t=262) — and the enemy right tower goes 929 -> 129 before he calls the win at t=272. The whole video is an argument that the card is over-tuned: 'Hog Rider is broken and needs a nerf' (t=37-39).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 2:24: opened the match with Hog Rider at the right bridge (16, 14), 9 -> 6 elixir, next to a Mighty Miner ability in the back, as a probe rather than a commitment — "I'm going to go for the mighty miner ability here just to force him to have to go for something and I'm going to go for the hog rider here as well just to apply some pressure" (302-306s).
+- clock 1:34 (commentary over the Hog sent at 1:46, enemy right tower 4351 -> 3844): the thesis of the whole video — "Dude, hog rider gets so many hits throughout the game if you really think about it. Against most of these decks, you're almost always able to get damage."
+- clock 0:38: placed down the middle at (10, 14) instead of the edge so Cannon and The Log could follow into the same defence — "Yeah, I'm going to hog rider down the middle like this. We can go for the evo cannon, and then we go for the log as well" (412-417s).
+- overtime 1:24: held him until he could afford the Evo Firecracker with him, then sent both at (16, 14) / (13, 14); enemy right tower 1622 -> 788 — "I should hog rider anyways. I'm going to wait till I have seven though so I can go for the evo firecracker with it... Bang. The hog rider is so good, man" (486-499s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:48: opens the game with Hog Rider at the right bridge, tile (16, 15), elixir 10 -> 6, before he has any read on the opponent - "Just going to go for the hog rider here on the right side." The opponent answers with an Earthquake on their own half a second later.
+- clock 2:11: refuses the counter-push behind his Cannon and takes the defensive building instead - "Let's go for the cannon here. I don't want a hog rider. Actually, I kind of do, but at the same time I think it could be bad."
+- clock 1:49: second Hog at (16, 15) as an immediate punish the moment the opponent commits elixir - "so it's hog rider immediately"; it connects for 4351 -> 3844 on the enemy right tower, which he still calls insufficient: "definitely not going to make up for that Sparky hit."
+- clock 0:07: the video's thesis, delivered over his last Hog push - "there's no way to say that Hog Rider doesn't need a little bit of a nerf."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock 2:48: opens the game with Hog Rider at the left bridge tile (1, 15) rather than any defensive card - "just going to go for the Hog Rider here" (729-730s). The pipeline booked this deploy label to the opponent, but the tracker follows it as his own unit into the enemy half.
+- clock 2:12, 1:28, ~1:07, ~0:48, ~0:11 and twice in overtime: every later Hog Rider goes to the right bridge at (16, 15) or (16, 14), always paired with a trailing Firecracker or Skeletons rather than a tank - "I'm just going to go for the firecracker here. Then we can just go for the Hog Rider again, right away" (762-764s).
+- clock ~1:07: used purely as a cycle-forcing tool against X-Bow siege - "I could Hog Rider, too, just to outcycle him. Yeah, I'm going to hog here now since we have enough for the cannon. We did outcycle him" (831-836s). His success bar is connection, not a kill: "as long as we get the Hog Rider shots on the tower, man, that's all I really care about" (858-861s).
+- clock ~0:11: Hog Rider at (16, 14) used to deny the opponent's King Tower activation - "I know he's going to go for the Tesla, but if I make him Tesla then he can't really activate the king" (887-890s); the following Electro Spirit stun kept it alive ("That E-Spirit stunned his E-Spirit making the hog not die", 896-898s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- clock 2:25 (t=965): opened his push with Hog Rider at the left bridge tile [1, 15] and immediately followed with an Earthquake into the middle of the opponent's half - 'I'm going to hog rider here guys, and then I'm going to go for the earthquake in the middle here trying to grab the cannon'.
+- clock 1:37 and 1:09 (t=1014.8, 1042.4): repeated the same [1, 15] bridge Hog on cycle against 2.6 - 'we can go for the hog rider again cuz we do have a cycle him, which is good' - but the second one was answered by Evolved Skeletons plus a Log ('that was just a perfectly timed log by him').
+- clock 1:23 (t=1147): switched to a back placement at tile [1, 2] instead of the bridge after deciding the naked cycle was losing - 'I can't just go naked hog rider over and over again or I will just lose this game' / 'I think I want a hog rider in the back this time though'.
+- clock 0:08 (t=1222): last-gasp Hog Rider at the right bridge tile [16, 14] in overtime after refusing the lane switch earlier - 'Hog rider on the other side'. He lost the game and closed with 'his hog just got too many random shots. Like just one or two shots and it's just cooked' (the opponent's Hog, in a video titled 'NERF the Hog Rider NOW!!!').
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 2:50: opens the match with Hog Rider at tile [1, 15], the left bridge, before he knows anything about the opponent's deck — "Just going to start off with the hog rider here. Trying to figure out what this man is playing."
+- clock 1:17: the Electro Giant appears at tile [4, 23] and he answers by sending Hog Rider to the *opposite* bridge at tile [16, 14] (HUD 9 -> 5) rather than defending, then repeats the pattern at clock 0:22 from tile [1, 15].
+- clock 0:47: down roughly 1600 tower HP he commits to racing — Hog at [1, 15] plus Earthquake and a bridge Firecracker: "We have to just try something really aggressive to make it come back now to be honest cuz we just got completely finessed for like a thousand damage."
+- clock 0:44: a Hog connection takes the enemy left tower from 1450 to 943 HP and gets the line the video is named after — "Oh my god, Hog Rider is so good. Dude, that getting a hit is just insane to be honest."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

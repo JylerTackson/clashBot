@@ -383,6 +383,53 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.m
 - clock 1:29-1:23: opponent's building, and Ryley reads it as a losing answer to Goblin Barrel plus Wall Breakers before it is even played — 'The cannon here is going to sell him very hard. He has to go for like yep, a building plus spear goblins. And look at all that damage, guys. The cannon here is doing absolutely nothing for defense' (587-594s). It lands at (9, 18) at t=592.6 while the enemy right tower drops 2594 -> 1634.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:33 onward: the most-replayed card of the match, eight readable placements and every one in the middle columns of his own half — [8, 10], [7, 13], [8, 13], [8, 9], [8, 11], [9, 10], [8, 10], [9, 10] — so one building covers both lanes against an Elixir Golem push. 'Let's go for the Evo Cannon here and then we can go for the Log as well' (t=120-122).
+- clock 0:27: he counts them out loud during the triple-elixir defence — 'we can go for another Cannon dude. Cannon number three of the defense' (t=143-145) — replacing it every time rather than saving elixir.
+- OT 1:48 vs OT 0:42: depth is deliberate against golemites, high to intercept ('we have to Cannon up top just to keep these E-Golemites at bay', t=185-187) and deep at [12, 2] to pull the big golem off the tower ('Cannon down low for the e-golem', t=253).
+- OT 0:23: uses the Evo Cannon's barrage as damage, not just defence — 'Evo cannon here, grab a second' (t=269) with the enemy right tower under 1000 HP.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 2:23: Cannon forward at (11, 14), 6 -> 3 elixir, used as a lane-pull on the Giant rather than as a standard anti-tank placement — "Wait, can I cannon like this to bring the giant back? Oh, I was trying to bring the giant back to the other lane. At least the bowler goes in front" (308-313s).
+- clock 1:14: Cannon at (10, 13) into the second tank push, with the pull still not landing — "could we cannon now? Bro, it's not working... At least this time it's going to end up getting pulled though" (378-383s).
+- overtime 1:56-1:47: two Cannons live at once, one "low next to our tower" at (6, 7) and one "up top" at (9, 13), the second aimed at Zappies rather than at the tank — "we need to go for the cannon up top as well to block those zappies. Beautiful zappies block it. We'll block two of them, which will be enough to end up taking this off the board" (466-472s).
+- overtime 1:32: cycled on purpose to reach the evolved copy before a defence he saw coming — "we have to cycle to our evo cannon if we want to be able to defend this. Let's evo cannon here. Nice. Good defense" (477-482s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:11: Cannon at (9, 10), elixir 9 -> 6, against a Sparky-and-Graveyard push, explicitly preferred over a counter-attacking Hog Rider - "Let's go for the cannon here. I don't want a hog rider."
+- clock 1:17: kept in hand as the insurance behind a bridge Mighty Miner rather than pre-placed - "We have cannon ready here in case."
+- clock 0:57: Cannon at (8, 10) as the centre of the last defence, placed mid-map to pull both lanes - "then we can just go for the cannon in the middle."
+- clock 0:40: Evo Cannon at (7, 8) placed for the Evolution cycle - "we have to go for the Evo cannon. That's going to activate" - followed immediately by an Electro Spirit on top of it.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock ~1:49: the placement rule he states out loud - "let's go for the log here, or the one I cannon. I think cannon high could be better, actually, cuz if I cannon high, then I also have something where he can't do like a high defense. He'd have to put everything low" (785-794s), playing it at (8, 10).
+- clock 2:47 through overtime: seven Evolved Cannon deployments, every readable tile in the centre column of his own half - (4, 13), (9, 11), (8, 10), (4, 13), (8, 11) - so one building covers both lanes against an X-Bow/Tesla/Miner deck. He calls it out as "Evo Cannon" at 836-838s.
+- overtime: pre-played against the siege rather than reacted with - "let's cannon here predicting the expo" (898-900s), Cannon down at elixir 8 -> 5 before the X-Bow appeared.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- clock 1:50 (t=1008): held it in hand as insurance and only played it when the opponent's Hog was expected, at tile [9, 8] - 'I have the cannon ready though just in case he wants to hog rider' / 'Let's cannon here for the hog rider'.
+- clock 1:14 (t=1156-1157): played a Cannon and then spent his last elixir on Skeletons to protect it - 'the reason I'm going skellies too is cuz I want the Cannon to live cuz if the Cannon lives then I at least like have a thing that's on the board so he has to either spell it away or wait for it to die. Either one is good for me'.
+- clock 1:04 (t=1168): treated a surviving Cannon as tempo for the next one - 'this Cannon being alive will help out a lot cuz we can just go for another Cannon here and just take out this other hog rider'. He cycled Cannon roughly ten times in 306 s, always centrally in front of the tower under attack ([8, 10], [9, 10], [9, 11], [9, 12], [10, 9], [11, 9]).
+- clock 1:19 (t=1152): he also tracked the opponent's Evolved Cannon cycle - 'Does he go Evo Cannon though cuz I know he's coming up on the Evo Cannon' - and read its placement as the thing his Earthquake has to punish ('he does it in the middle once again').
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:09: evolved Cannon high on his own half at tile [9, 13] against an Electro Giant the tracker had at "tower in 7.8s", supported by Electro Spirit at [4, 12] and The Log — "let's go for the high cannon here and then we have to cycle back."
+- clock 0:23: Cannon at tile [9, 8], centre of his half (HUD 9 -> 6) — "go for the cannon here in the middle" — and he names the defensive priority two plays later: "Go for the Evo Cannon here. Make sure we hit the Baby Dragon."
+- overtime clock 1:50: uses it as a cycle card, not an answer — Cannon at tile [8, 10] with nothing pressuring him: "we can just cycle that early cannon here in the middle."
+- clock 0:48: high Cannon at tile [9, 14] as part of the closing sequence while the enemy left tower steps 1606 -> 1450 HP.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

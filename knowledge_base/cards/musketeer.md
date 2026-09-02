@@ -238,6 +238,13 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.m
 - Opponent's Evo Musketeer, the card Ryley respects most in the matchup — "The only thing that we have problems with here, I think, is the Evo musketeer. The Evo musketeer can be so annoying sometimes, man" (clock 1:54-1:50), and he tracks its rotation into overtime ("we have to be careful, though, cuz he has a musketeer Evo coming up", clock 0:03). Answered with Skeletons on top at OT 1:10 ("block the musky").
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- Opponent's card (not played by Ryley). clock 0:53 (t=1058): named as the reason the matchup is bad for him - 'He can start spam cycling the muskies though, that's the biggest problem. Musketeers get so much value'.
+- clock 1:53 (t=998): she shapes his back placements - 'I just have to be careful to not give the musketeer too much value' when putting Mighty Miner behind his towers.
+- clock 1:29 to 0:50 (t=1022.5 - 1184): his standing answer was Firecracker ('I hope that the firecracker can take out that musketeer'; 'Beautiful shot on the musketeer right there'), and at clock 1:23 he sent a back Hog Rider partly at her - 'Just need to try to deal some damage to that musketeer'.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

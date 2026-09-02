@@ -512,6 +512,49 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.m
 - Mentioned once, not seen: at clock 2:17 Ryley reads the opponent's cheap answers and says "He has to go like skellies plus snowball. Oh, he has e-spirit. That's annoying". No Electro Spirit event appears in the capture.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:28 onward: his default 1-elixir reset, called out eight times ('go for the E-Spirit here' t=128, 'we have to E-Spirit here' t=147, 'then we can go for the E-Spirit as well' t=174, 'let's E-Spirit here as well' t=187, 'we have to go for the E-Spirit here as well' t=203, 'let's go for the e-spirit' t=255).
+- clock 2:28 / 1:57 / 0:25 / OT 1:57: readable tiles are all on his own half directly in front of the tower under attack — [8, 14], [10, 11], [13, 11], [10, 15] — i.e. dropped into a clumped golem + Night Witch + bats wave so the chain hits several units, not aimed at one target.
+- clock 0:55: tries to use it as a pre-emptive block on the opponent's spell and misses — 'I was hoping to block that, but it's all good' (t=117-119); at OT 1:20 he plays it knowing it does nothing offensively, 'E-Spirit for no damage' (t=214).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 1:46: Electro Spirit at (8, 10) immediately before the Hog Rider, as the cheap reset that clears the way — "E-spirit here, and then we can go for the hog rider as well" (347-350s).
+- clock 1:04: sent late and deep at (3, 5) specifically for the chain, not the stun — "we just go for a late e-spirit in the back cuz it's going to be able to chain onto all of these skeletons. Nice, beautiful" (387-391s).
+- overtime 1:44, 1:08 and 0:34: three more one-elixir resets at (10, 11), (8, 9) and in the last defence, the final one keeping a sub-1000 HP tower alive — "E-spirit. We're alive" (538s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:04: the Sparky reset, and he states the timing rule - "We go for the e-spirit at the very last second" - at (3, 11); it misses and the Sparky takes his left tower from 4360 to 1275: "Oh my god, I tried to perfect time it, but it's fine."
+- clock 1:33: held as an anti-spell answer rather than spent on the push - "then we have the e-spirit ready if he tries to go for like a zap. Let's e-spirit here" at (8, 11).
+- clock 0:52 and 0:39: two resets inside one defence, on the Mighty Miner and then on the Evo Cannon - "We can go for the mighty miner e-spirit here to reset this" / "We go for Evo cannon e-spirit here as well."
+- clock 0:13: used as push support instead, at (8, 20) on the opponent's half behind the closing Evo Firecracker.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock ~0:07: the stun that saves the win condition - Electro Spirit played as the Hog Rider connects, "Let's E-Spirit here. Nice, he messed up the king activation again... That E-Spirit stunned his E-Spirit making the hog not die" (891-898s).
+- clock 1:57, 0:57 and overtime: 1-elixir plays at (8, 14), (2, 15) and (13, 14) used as cycle filler and cheap clears in an explicit out-cycle plan against Tesla - "E-Spirit here to take this out" (916-917s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- clock 1:22 (t=1028.7): used as a cheap block ahead of a bigger answer - 'Let's go E spirit here just to make sure we block for this, then we can go for the skelly as well' (deploy label tile [13, 14]).
+- clock 0:48 (t=1183.2): defensive Electro Spirit at [5, 13] into the lane the opponent's push was walking down, played at 4 elixir alongside a Log and a Cannon.
+- clock 0:42 (t=1189): played purely for chip on an off-lane Hog rather than on defense - 'that hog rider going off lane is good. Let's e-spirit here on the right side just to try to grab some extra damage, maybe' (tile [15, 14]); the enemy right tower fell 4239 -> 3573 over the next minute.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:07 and 1:04: Electro Spirit at tile [4, 12] with The Log at [4, 13] on top of a high Cannon, as the reset layer against an Electro Giant walking his left lane.
+- overtime clock 1:41: Electro Spirit at tile [5, 15] to let a push die rather than to save it — "Let's go for the E-Spirit here. Okay, we should let this go now. Don't want to protect that at any more, I think."
+- clock 0:34: used as the specific answer to the opponent's Evo Baby Dragon — "E-spirit to block the baby dragon. Nice."
+- the most-played card of the game (nine or more deploys at tiles [7, 14], [8, 0], [4, 12], [3, 8], [8, 14], [5, 11], [5, 15], [6, 14], [5, 12], [2, 14]) — the default 1-Elixir answer in this cycle deck.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

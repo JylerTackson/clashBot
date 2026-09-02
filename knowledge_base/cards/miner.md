@@ -267,6 +267,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.m
 - Opponent card. Identified at clock 2:45 ("Oh, he has the minor") and answered with 1-elixir Skeletons each time; at clock 1:30 the Ronin cleans it up — "could the Ronin take out the miner, please? Nice". At OT 1:55 he pre-blocks a Miner that never comes: "Skellies here for the miner. Okay, he didn't even go for that".
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:27 and 0:19: two opponent Miner deploy labels (the second at (2, 20)); the first coincides with 498 HP coming off Ryley's left tower from an unreadable spell, and neither gets a named reaction in the commentary.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

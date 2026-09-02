@@ -178,6 +178,53 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 1:03 (t=372.4, tile (2, 15)): the Mighty Miner is the pre-planned block for the answer to his own Princess, placed "right away" rather than after the Valkyrie appeared — "block with the mighty miner right away cuz he might valk. Nice. Let's go. We did that every time."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:23 and clock 1:10: deployed behind the King's Tower at [9, 0] and [9, 1] (elixir 9 -> 5, 8 -> 4) purely as a back-line pressure/cycle body, which he flags as a tech idea: 'let's go for the Mighty Miner in the back here again. Mighty Miner opposite lane could actually be meta' (t=106-109).
+- clock 0:47: on defence he plays it for the Explosive Escape bomb rather than the drill — 'go for the Mighty Miner ability' (t=125) and then 'oh, the ability didn't go off' (t=127) when it fails; the pattern repeats at OT 1:54 ('we need to pop the ability', t=181) and OT 1:26 ('we have to Mighty Miner and ability to take this all out', t=207-209).
+- OT 0:45: times the ability against the unit's death timer for extra value — 'so we can go for the ability as well before this dies so we can get some damage on top of everything' (t=248-250).
+- clock 0:11: declines the ability as a Skeleton Army prediction when Earthquake does the job cheaper — 'I want to ability predict the Skarmy, but it's not worth it' (t=164-165).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 2:43: opened behind his own king tower at (8, 0) and popped the ability straight away as a forcing move — "I'm going to go for the mighty miner ability here just to force him to have to go for something" (302s).
+- clock 1:25: Mighty Miner at the bridge (15, 15), 7 -> 4 elixir, as a Bowler assassin, with the opponent's Zappies being off the board as the stated condition — "we can go for the mighty miner at the bridge to take out that bowler. We'll take it out very nicely cuz he has no zappies, and so I don't have to worry about those" (367-371s).
+- clock 0:44: the same bridge placement used purely as a bait to open the Hog lane — "I'm going to mighty miner the bridge here, guys. Just try to force him to go for the bowler, and then we can go for the hog rider" (408-412s).
+- overtime 1:50 and 1:08: also used defensively deep on his own half at (15, 13) and (7, 14), the second as a body block on the left lane — "then we go for the high mighty miner to block this" (505s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:28: Mighty Miner in his own back at tile (8, 0) as a cycle/defensive placement while he is still reading the deck - "I guess we'll go for the mighty miner in the back."
+- clock 1:14: bridged at (15, 12)/(15, 14) purely on a prediction about the opponent's back line, with the building held as insurance - "I'm going to mighty the bridge assuming he's going to Sparky in the back. We have cannon ready here in case" (and at 1:11: "Oh my god, he Sparky that lane, okay").
+- clock 1:10: Explosive Escape used as a lane swap on the opponent's half - "Let's go for the mighty miner ability here in a second. Dude, he's in a really bad spot after that." The track moves from (14, 19) in the right lane to (2, 19) in the left lane, and the enemy left tower falls 4663 -> 161 between clock 1:03 and 0:57.
+- clock 1:31 and 0:52: he names the play he declines - "I would mighty miner, but there's no point cuz we already took so much damage that we may as well just let that go" - then uses him defensively at (7, 11) with an Electro Spirit reset: "We can go for the mighty miner e-spirit here to reset this."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock 2:27 and 1:38: deployed at (9, 0) behind his own King Tower and (7, 8) in the centre as anti-siege defence, not as a bridge threat - "I'm just going to go for the mighty miner in the middle here, in front of my king tower. He can't X-Bow on the left, even though I think he actually should, just to force me to go Hog Rider at the bridge" (795-802s).
+- clock 0:18: places him deliberately high at (2, 11) to split him from the tower against a spell - "I know that he wants to fireball my Mighty Miner. So, if I put it higher then he's not able to actually hit the tower with the fireball and the Mighty Miner at the same time" (877-885s).
+- clock ~1:07: sent at (2, 4) into Evolved Archers walking his left lane - "we have the Mighty Miner for defense" (826-828s).
+- overtime: only at the end does he pair the Champion with the win condition - "we can just go for the Mighty Miner plus hog rider at the bridge once again" (921-922s), Mighty Miner at (12, 15) then Hog Rider at (16, 15).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- clock 1:53 (t=998): placed in the back at tile [8, 0] to build a push instead of sending a naked Hog - 'In this match up, mighty miners in the back are actually pretty solid. I just have to be careful to not give the musketeer too much value'.
+- clock 0:31 (t=1080.7): used defensively at [14, 11] as the anchor of a multi-card hold - 'Let's go for the mighty miner here. Let's e-spirit. We need to log. We need to cannon as well'.
+- clock 1:51 (t~1120): went hunting for ability damage on the Crown Tower - 'could I grab the mighty miner ability off on the tower though? Come on, give me one. Nice. All right, we're back in it low-key' - the enemy left tower dropped 4351 -> 3820 seconds later.
+- clock 0:43 (t=1066-1070): explained the lane choice while a back Mighty Miner walked up - 'maybe not actually cuz of the mighty miner. That's why going mighty miner same lane is good'.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:58: Mighty Miner at the left bridge (tiles [4, 14]/[3, 15], HUD 8 -> 4) as an offensive follow-up, played specifically to punish a Goblin Cage ability — "He might ability, but if he goes for the ability, then we just have a free Mighty Miner. I think he might ability anyways, so let's just Mighty the bridge here."
+- clock 1:04: in overtime, down about 500 HP, he sends it to the bridge again rather than saving it for the Electro Giant — "All right, let's go for the high mighty miner here. We still have a shot."
+- clock 2:36 and 0:58: the two defensive uses, at tiles [8, 12] and [6, 10] on his own half, into the Bowler/Electro Giant lane.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

@@ -245,6 +245,52 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.
 - clock 1:08: spent an Ice Golem at (8, 12) as a bodyguard for her - "if he has a really hard time killing it, I may as well not let him take it off the board too easily."
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:10 and clock 0:42: defensive anchor placed behind the Cannon at [16, 10] and [15, 9] (elixir 9 -> 6, 6 -> 3) against the Elixir Golem / Night Witch waves.
+- clock 1:03: bridge sniper at [13, 14] set up before the opponent's spell is available — 'I do want to make sure that we get a nice Firecracker shot off at the bridge here before he goes for the Vines' (t=111-114).
+- OT 1:43: played specifically to drain a card rather than for damage — 'let's go for the Evo Firecracker here just to start sniping this down, force out the Vines' (t=192-194).
+- OT 1:16: used as single-target clean-up on a tank-buster — 'Firecracker here for the Mini P.E.K.K.A. Nice' (t=218-220); at OT 1:12 the follow-up shot lands ('we got a Firecracker shot', t=222).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 1:52: Firecracker at (9, 9) behind the defence into the Zappies wave, with a note that the Firecracker/Cannon combination has to come out sooner — "Okay, let's go for the firecracker here. I'm going to try that play later on in this game with the cannon. I think I just had to drop it quicker" (336-341s).
+- clock 0:52: pre-placed at (10, 8) against air that had not arrived yet — "We need to firecracker here in case he goes for the minions" (426s).
+- overtime 1:22: sent at (13, 14) behind the Hog Rider as the winning push's support; enemy right tower 1622 -> 788 — "Let's hog rider evo firecracker and he might barbs... Oh my god, the firecracker guys. One. Nice" (490-495s).
+- overtime 0:28: last-ditch chip on the tower in the closing seconds — "we have to just go evo firecracker here. Come on, firecracker splash the tower" (543-546s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:37: Firecracker at (8, 10) behind an Electro Spirit as his second card of the game - "Go for the e-spirit then firecracker."
+- clock 0:44: Firecracker at (9, 6) placed directly in front of his own King tower as the ranged anchor of the Sparky/Graveyard defence - "then we go for the firecracker in front of the king tower."
+- clock 0:22: played early on purpose to be ready for the last push rather than held - "all we have to do is save our tower for another 20 seconds from a Sparky push. Let's firecracker early" (tile (2, 9), elixir 9 -> 6).
+- clock 0:13: Evo Firecracker at (8, 19) on the opponent's half is his closing play - "Let's go for the Evo firecracker here, and I will see you all in the next match."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock 1:28 and ~0:43: Evolved Firecracker sent to the bridge behind the Hog Rider at (13, 15) and (15, 14) - "I'm going to Evo Firecracker the bridge right now" (851-853s) - and he credits it for the tower chip: "We got some nice Firecracker chip damage" (822s).
+- clock 2:14: also used as the hang-back defensive unit at (12, 14) that survives the opponent's answer - "He might try to E-Spirit log, but the firecracker will hang back" (765-766s).
+- overtime: played at (9, 12) as a prediction against Evolved Archers crossing the middle - "He might Evo archers down the middle. Oh my, what a prediction. Take those out. Beautiful play" (902-907s); the last Firecracker at (14, 14) closes the match, "just Evo firecracker that breaks you guys" (929-931s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- clock 1:29 (t=1022.5): placed at tile [9, 9] behind the Cannon specifically to out-range the opponent's Musketeer - 'I hope that the firecracker can take out that musketeer. He might activate the king tower, which is all right'.
+- clock 0:42 (t=1070): same job again - 'Let's firecracker make sure that we take out this musketeer' - but the Musketeer traded first ('it grabbed the final shot, man. That sucks', his left tower 4295 -> 4239).
+- clock 0:50 (t=1179): the shot that finally landed - 'Let's go for the firecracker. Maybe hit the musky. Come on. Nice. Beautiful shot on the musketeer right there'.
+- clock 0:19 (t=1213.5): late defensive Firecracker at [8, 8] behind the Cannon during the final Hog + Ice Golem push - 'e-spirit firecracker here'.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 2:04: evolved Firecracker at tile [2, 13] behind a bridge Hog purely for chip — "we can just Firecracker here and grab some chip damage."
+- clock 1:27: places it in the back-right at tile [8, 0] and immediately regrets the lane against an incoming Electro Giant — "Imagine if I just Firecrackered on the left like I had it hovered over there before. I could have just gotten a super nice Firecracker into the E-Giant, but instead, my Firecracker will be sacrificial."
+- clock 0:52: Firecracker at tile [2, 14] on top of a Log to clear the lane before a finishing high Cannon — "Oh my god, firecracker, please. Nice. Okay, wait, that's going to take this out. Then we can go for the high cannon here."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

@@ -173,6 +173,13 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=736-740s: he planned Wall Breakers as the answer to a second (Evo) Cage - "I think he's going to go for the evo cage, but then the evo cage will instantly pop from the wall breakers."
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 2:22-2:16: his main balance complaint of the game — "Do you think that the Evo Goblin Cage needs a nerf? I feel like the Evo Goblin Cage just gets way too much value, honestly. Especially like on defense, man, it's super hard to play into."
+- clock 1:22: it changes how he times his win condition — "Now, if I go for the Hog Rider, he can Evo Cage" — and he Earthquakes at clock 1:34 partly to see whether the opponent will cycle it.
+- clock 1:12 (overtime): by the endgame he accepts it — "He can go for a goblin cage, too, for all I really care."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

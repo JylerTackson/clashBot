@@ -385,6 +385,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 1:38 (t=1435.4, deploy label 'Magic ARcHeR' score 1.0; the matching 4-elixir HUD drop at t=1435.6 was slot-read as Skeleton Dragons): Magic Archer at tile [8, 11], centre of his own half, splitting the four Zappies coming down both lanes at once. He does not comment on the card and no Hero ability use could be identified in this game.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:18: mentioned only, as the benchmark for how the Heroic Bowler feels to play against — "It's just like a magic archer with 6,000 HP."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

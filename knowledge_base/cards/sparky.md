@@ -141,6 +141,14 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 2:37 (t=174-176): mentioned only, in a first deck read that turns out to be wrong — "It does look like a goblin giant sparky deck." By 233s he has corrected it to Giant double Prince.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:12: the opponent's Sparky is the card that decides the first half - Ryley welcomes it ("Oh, Sparky, too. That's great. I love going up against Sparky. I I wonder if he has a tornado then") and answers it with Skeletons, a last-second Electro Spirit and The Log.
+- clock 1:57: the reset misses by a fraction and one Sparky shot takes his left tower from 4360 to 1275 - "Oh my god, I tried to perfect time it, but it's fine. Honestly, when we get surprise factored like that, just not losing the game straight up is honestly enough to ask for."
+- clock 1:17: he plays his Mighty Miner at the bridge specifically on the read that a Sparky is going down in the back - "I'm going to mighty the bridge assuming he's going to Sparky in the back" - and is proved right at 1:11: "Oh my god, he Sparky that lane, okay."
+- clock 0:25: with the game already won on tower HP, the whole plan becomes surviving the last Sparky - "all we have to do is save our tower for another 20 seconds from a Sparky push."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Sparky (scraped 2026-09-02T02:35:08+00:00)

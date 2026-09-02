@@ -139,6 +139,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:50: named only as a card he is holding elixir for and never sees — "I'm waiting for the Night Witch, as well, cuz we do have to kite this with the Rune Giant."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:05 onward: five tracked deploys behind the golem at [15, 19], [15, 15], [13, 18], [14, 14] and [14, 16]. The wave at clock 1:53 is what costs Ryley 2300 HP off his right tower (4858 -> 2536 between t=48 and t=68).
+- OT 1:20: he treats her as the priority target for The Log — 'we have to Log, too. Make sure that we hit the Night Witch' (t=213-214).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Night_Witch (scraped 2026-09-02T02:35:11+00:00)

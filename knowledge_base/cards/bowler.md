@@ -243,6 +243,19 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 1:28 (t=1447): he wants the opponent to spend it on the wrong side — "He might bowler on the left side which would be good to not let him activate."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 1:25 and 0:44: the opponent's Heroic Bowler is the card he spends Mighty Miner on twice, once to kill it and once to bait it — "we can go for the mighty miner at the bridge to take out that bowler. We'll take it out very nicely cuz he has no zappies" (367-371s), "Just try to force him to go for the bowler, and then we can go for the hog rider" (410-412s).
+- overtime 1:56 and 1:10: he plays around the ability rather than the body, calling it before it happens — "I'm going to cannon here low next to our tower. He's going to bowler ability" (454-456s) and "If he goes for the bowler ability, he's probably going to go for the giant and then zappies" (500-502s). Over the two windows his right tower took repeated 307 HP hits with no enemy unit in range.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:49 onwards: the opponent's Heroic Bowler is the card that actually beats him down, taking his left tower from 2007 to 1545 HP around t=1456-1464 — "Please take out the Bowler. Ah, it's going to get one, isn't it?"
+- clock 1:18: his summary of the Hero variant — "God, I hate that bowler, man. It's just like a magic archer with 6,000 HP", and earlier "Dude, when Hero Bowler came out, man, that was a a time in the game, dude."
+- clock 0:20: "he's just getting bowler hits every time he feels like it", after the opponent puts down a second one at clock 0:28.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

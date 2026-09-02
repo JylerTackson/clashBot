@@ -645,6 +645,50 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 0:42 (t=1490.5): Skeletons at tile [3, 19] on the opponent's half for 1 as the game runs out.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:47: first card of the game (elixir 10 -> 9) before the Hog, and used again from the back at [8, 0] (clock 1:11) and [8, 0] (OT 1:53) purely to cycle.
+- clock 1:53 onward: eleven deploys in total, most of them distraction bodies dropped on top of the incoming unit at [6, 9], [11, 14], [9, 14], [10, 13], [14, 14], [11, 9], [9, 10] and [14, 10].
+- clock 0:29: always chained into the next card in a defensive sequence — 'we have to go for the Skellies and then we can go for another Cannon dude' (t=142-143), 'let's Skellies here and then we can go for the Mighty Miner as well' (t=156-157), 'then we can go for the Skellies' (t=211).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 2:17: Skeletons at (3, 14) tried as a kite on the Giant rather than as a defensive block — "Can I skellies here to push that giant, maybe?" (313-315s).
+- clock 1:44: deliberately not spent, to keep the cheapest answer in hand against unseen air — "I won't skellies though, cuz he might have like minions or something, and I want to be able to counter it for cheap" (350-354s).
+- clock 1:10 and 0:48: the block in front of the Cannon at (4, 14) and (10, 6), accepting that they get pulled — "He lets skellies here. At least this time it's going to end up getting pulled though" (380-383s).
+- overtime 1:54 and 1:04: "Let's just skellies to block one" (458s) into the right-lane push, then inside the tower against the ranged support — "Skellies on the inside to block his firecracker will deal with the rest. Good defense only taking one shot" (509-512s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:02: Skeletons at (3, 14) as the first block on the Sparky push while he waits for the reset window - "let's skellies here, and then we wait for him to spark else."
+- clock 1:38: Skeletons at (8, 14) as cheap chip/cycle while holding Electro Spirit - "Let's just go for the skeletons up top."
+- clock 0:52 and 0:42: two Skeletons packs inside the Sparky/Graveyard/Dark Prince defence, at (11, 14) and (6, 10) - "Let's skellies here to block this" and "Let's skellies here as well."
+- clock 0:21 and 0:11: Skeletons at (3, 14) then (8, 21) on the opponent's half, cycling out the clock behind the final push.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock ~0:28: Evolved Skeletons at (8, 15) onto incoming Archers he is counting toward their evolution - "he has one archer away from Evo... next archer is Evo. Let's skellies here" (863-867s).
+- clock ~0:48: played at (13, 11) alongside the Hog Rider to force answers - "let's go for the skellies and Hog Rider here again. I just want to pressure him very hard" (848-849s).
+- clock 2:37 to overtime: seven deployments at (9, 9), (7, 10), (3, 14), (13, 11), (8, 15), (9, 14), (9, 9) - the 1-elixir card that carries the cycle plan ("I'm going to make sure that I play all of my cheapest cards that I can, so I can cycle back quickly", 773-778s), and insurance behind a push ("skellies just in case", 917-919s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- clock 1:14 (t=1157.3): dropped at tile [11, 9] in front of a fresh Cannon, down to 1 elixir, to keep the building alive rather than to kill anything - 'the reason I'm going skellies too is cuz I want the Cannon to live... he has to either spell it away or wait for it to die'.
+- clock 0:17 (t=1216.4): same use in overtime at [12, 11] under a Hog + Ice Golem push - 'Cannon here skellies'.
+- clock 1:59 (t=1110): cheap cycle card in front of the Hog Rider push - 'Let's Skellies and we go for the hog rider here and then we go for the earthquake here'. Across the game he cycled Skeletons a dozen times, mostly at the river tiles ([9, 15], [10, 15], [11, 15], [14, 13], [15, 13], [16, 11]).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:44: Skeletons at tile [5, 14] into a left-lane push alongside The Log while Zappies advance; used as the cheap distraction rather than a hard answer.
+- clock 0:12: "Skellies are to knock this back" — Skeletons at tile [9, 15] for the knockback on a unit already on his half.
+- clock 0:17: in the last twenty seconds they are purely a cycle card — "Skellies, I need to do my fastest possible cycle."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

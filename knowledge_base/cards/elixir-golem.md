@@ -132,6 +132,13 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:38-1:24 (opponent): the push still takes his left tower from 4786 to 1616 and activates his King Tower; he answers the leaking small form at clock 1:25 with "Let's E-Barbs kite here."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:17 and clock 1:03: the opponent's win condition, laid from the back at [13, 23] both times and supported by Night Witch. Ryley's fixed answer is a building plus a cheap body — Cannon in the middle column, Skeletons/Electro Spirit into the golemites.
+- OT 1:48: he adjusts Cannon depth specifically for the split — 'we have to Cannon up top just to keep these E-Golemites at bay' (t=185-187) versus 'Cannon down low for the e-golem' (t=253).
+- OT 0:52: calls the deploy before it happens — 'we have to be careful here cuz he's going to e-golem' (t=241-242). His overall read: 'we're up against a mid-ladder menace E Golem variation. I mean, I guess E Golem in general is just a mid-ladder stuff' (t=68-72).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Golem (scraped 2026-09-02T02:34:58+00:00)

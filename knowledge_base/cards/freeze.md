@@ -203,6 +203,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 0:57 (t=1476): used a second time on the King Tower itself once the game is already lost for the opponent — "He just froze the king tower. Oh my god, let's barrel wall breakers here before he has time to save the game" (t=1476-1480). Ryley also tracks it in the opponent's cycle: "Next card freeze" (t=1437).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 1:49: never detected as an event, but Ryley diagnoses it from the tower damage mid-push — 'wait, why does he have a freeze? Okay, I guess this guy is Elixir Golem freeze' (t=65-67); his right tower drops 4858 -> 2536 across that push.
+- clock 1:19: uses it to fingerprint the whole list — 'I think he's playing the double freeze variation. Having double freeze and E Golem is insane. I'm pretty sure that means he doesn't have the Skeleton King' (t=93-98).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

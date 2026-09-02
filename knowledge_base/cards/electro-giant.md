@@ -151,6 +151,13 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.m
 - clock 1:37-1:31: the matchup lesson of the whole game — "I feel like early E-Giants against this type of log bait deck is just like a death wish, man. You're not able to do anything after that."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:16 onwards: the opponent's win condition, pushed down Ryley's left lane at tiles [4, 23], [4, 18], [4, 22], [3, 13], [2, 13] at least five times, twice reaching "tower in 0.8s"; Ryley never spends a dedicated counter, answering with a high Cannon plus Electro Spirit and The Log and otherwise racing the opposite lane.
+- clock 2:34-2:26: his read on the archetype before seeing it — "I feel like e-giant really is not the greatest deck, but ... e-giant actually nowadays has decent chances against Hog EQ with having the Evo Baby Dragon and the Evo Goblin Cage as well."
+- clock 2:10: he infers the whole deck from one card — "Oh, he has a Bowler, okay. I guess that means he has E-Giant."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Giant (scraped 2026-09-02T02:35:05+00:00)

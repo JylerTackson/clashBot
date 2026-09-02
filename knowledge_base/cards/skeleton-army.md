@@ -221,6 +221,12 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:32 (t=479.5, tile (8, 21)): Skeleton Army placed on the opponent's half as part of the closing pressure while both enemy towers were under 300 HP — "the Evil Skarmy — okay, it's dead now, but oh my god, that was such a beautiful prediction."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- OT 1:47: the card that dictates his Hog Rider timing for the entire second half — 'I know he has the Evo Skarmy up now, which is fine with me' (t=189-190), then he sits on the Hog at OT 1:38 and again at OT 1:04 ('I don't want to have him be able to go skeleton army', t=232).
+- OT 0:57 and OT 0:29: both late Earthquakes are cast as Skarmy predictions rather than chip — 'so [he] can't skeleton army' (t=238) and 'earthquake here for the skeleton army. Nice. Oh my god, great prediction' (t=264-267). He also considers, then rejects, using the Mighty Miner ability for the same prediction at clock 0:08.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)
