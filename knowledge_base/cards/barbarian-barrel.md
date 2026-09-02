@@ -423,6 +423,18 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - Not in Ryley's deck this game — it is the opponent's, and Ryley tracks its rotation as the gate on both his offence and his defence: "whenever he goes for like the Barbarian Barrels on defense, we could always use the ability to try to skirt up to the tower" (567-571s), "because he has no barbarian barrel skarmy is a free RG defense" (626-628s), and, when it comes back, "Oh, damn he got back with the barb barrel. Very well played by Aragon" (640-643s).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- the opponent's card in this game, and the spell Ryley's whole placement pattern is built around — "I like to place them a little bit separate like this. So, it's hard to get barbarian barrel value and hit like the wall breakers and the goblin barrel at the same time" (clock 0:48, t=127).
+- clock 1:09 overtime (t=228): once it is out of cycle it is his cue to commit — "because he has no barbarian barrel, we can go for the barrel", and that barrel sequence takes the game.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 1:38 (overtime): the opponent's answer to Wall Breakers, named before it is played - "We can barrel wall breakers cuz he has to barbarian barrel that. Yep, perfect" (618-620s).
+- clock 0:42 (overtime): the stated goal of the last Wall Breakers - "We're going to force him to go for the barb barrel" (676-677s). (Ryley's own deck does not run it this game; every mention here is about the opponent's card.)
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

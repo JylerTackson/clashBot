@@ -543,6 +543,59 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - clock 1:17-1:13 (t=1406-1410): flags the opponent wasting it as his opening — "He did waste his Berserker, though. I don't really know about wasting the berserker like that. He's probably going to pop the ability, isn't he?", and at t=1481 he sends Evo Elite Barbarians up top to "snipe the Berserker"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- 10 deploys at 2 elixir (clock 2:18 to 1:09, t=34.0-223.2), split between defensive plugs on his own half ([6, 9], [10, 8], [2, 14]) and bridge follow-ups behind a barrel ([9, 14], [15, 15], [14, 14]).
+- clock 0:17 (t=154.2): played to start a push, not to defend — "Let's go for the berserker here. And then we need to start applying some pressure because he has a full HP cannon down".
+- clock 0:44 (t=242): half of his Mighty Miner block, with the ability priced in — "we can go for the magic archer plus berserker here to block this. He has to hit the ability, but we're going to get at least one, maybe two". No hero ability was used in this game (no 3-elixir drop without a hand change).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 2:07: used as a 2-elixir bridge block rather than as offence, ahead of Magic Archer and Royal Delivery — "Let's block the bridge here."
+- clock 1:28: placed at (15, 13) on his own half behind the bridge as walk-in support for the Goblin Barrel / Wall Breakers cycle, not as a lead unit.
+- clock 0:47: dropped at (16, 9) next to a Fire Spirit against the opponent's Inferno Dragon push — "Fire spirit berserker here."
+- clock 0:23: played at (16, 15) explicitly as a blocker in the closing defence — "We can go for the berserker to block."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 1:54: back-line Berserker at tile (1, 1) to start a cycle as double elixir begins - "Berserker here in the back" (485s).
+- clock 1:30: pre-committed with an Ice Spirit as the whole answer to the Ram Rider - "if he goes for the ram rider, we have the berserker plus ice spirit here just to help take this out. There's no point to drop anything else" (509-513s).
+- clock 0:56 / 1:57 (overtime) / 1:40 (overtime): sent to the bridge in the opposite lane at (15, 15), (13, 14) and (15, 14) as the cheap half of the bridge spam - "Berserker here opposite lane" (540s), "Just berserker here on the right. We're up a lot of damage now" (611-613s).
+- clock ~0:48: Hero variant - a Berserker slot drops 3 elixir against a cost of 2 at t=545.2 and he says "Pop the abilities to keep it alive. Make sure it's more annoying to apply pressure with" (552-555s), which matches Savage Survival; he skips it when it would not pay: "Ability won't really do much. Let's spirit anyways" (615-616s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock ~2:03: Berserker deployed deep on his own half at tile [5, 10] into the left-lane ground push, behind the Bomb Tower.
+- clock 1:09: second Berserker at tile [1, 12] (elixir 9->7, i.e. the plain 2-elixir card) after the opponent had already conceded. No commentary on the card this game and no evidence of the hero variant.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 2:46-1:46 (t=806.8 [7, 10], t=842.5 [8, 11] elixir 6 -> 4): his standing middle defence, dropped to meet whatever crosses - "Let's go for the Berserker here in the middle. Try to figure out what he wants to do here" (t=810), "Berserker here. Nice" (t=843), and against the enemy Knight: "we can go for the knight at the I mean the berserker to keep the knight at the bridge" (t=867).
+- clock 0:47 (t=926.9, tile [15, 14]): Berserker at the bridge behind the Goblin Barrel as the pressure follow-up - "We can barrel plus berserker as well. Keep up the pressure."
+- overtime 1:30 (t=1000 [8, 10], t=1019 [7, 9]): plays her in front of the Bomb Tower rather than instead of it - "let's get a berserker here and then we can go for a bomb tower in the middle."
+- overtime 0:43-0:20 (t=1058.6 [14, 8], t=1072.1 [5, 6]): uses her to try to bait a tower lineup for the Magic Archer - "It's Marcher. Berserker at the bridge to get the lineup onto the tower maybe. Come on, give me one. Oh, that's unfortunate" (t=1047-1051). No confirmation in this game that it is the Hero variant; he never mentions his own ability.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1112/t=1128 (clock 2:35 / 2:19): two bridge Berserkers at [2,15] as the cheap body behind spirit-and-archer chip — "Let's go for the berserker", then "we can go for the berserker as well."
+- t=1174 (clock 1:34): opens the right lane with Berserker at the bridge ([13,14]) followed by a Bomb Tower — "Let's go for the berserker. And then we can go for the bomb tower here at the bridge as well."
+- t=1206/t=1218/t=1251 (clock 1:03 / 0:48 / 0:17): defensive Berserkers at [16,8], [11,8] and [16,14] against the Evo Valkyrie — "we can go for the low berserker", and later "Actually, Berserker as well. Oh, I was trying to keep that alive, man."
+- t=1235 (clock 0:32): drops a Berserker on the enemy half at [8,21], legal only because the enemy left tower had already fallen. No hero ability was observed this game (no unexplained 3-elixir own drop).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 1:15 (t=1365.2): [9, 9] as the cheap defensive body while the 3-elixir spell stays in hand — "Let's berserker here on defense. We have the [royal] delivery ready in case he goes for an e-wiz."
+- clock 0:47 (t=1394.1): [2, 14] at the bridge as the third card of a stated sequence — "Let's wall breakers now. Force him to go for the log. Berserker. Then fire spirit."
+- clock OT 0:51 (t=1510.5): [13, 14] at the bridge expecting it to eat a defensive Balloon — "Let's go for the berserker here. He's going to try to block this with a balloon, I think. Okay, he went for the wizard. That's good for us."
+- clock 2:44 through OT 0:35: nine casts in all, every one a 2-elixir drop with a hand change and no 3-elixir ability drop anywhere in the game — in this match he is running the plain card, not the Heroic Berserker; all four "ability" lines in the commentary are about the opponent's Balloon.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

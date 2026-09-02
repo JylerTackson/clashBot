@@ -209,6 +209,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:32 overtime (t=1025.8): Valkyrie plus Hog at the left bridge (1,15) with the hero ability saved for the follow-up takes the enemy left tower from 1654 to 847 HP - "go for the Valkyrie hog rider here. I'm going to go for the ability ice spirit here." He judges the card by the defence it forces: "At least he has to use the bomb tower again. He's barely got any damage" (clock 1:44 overtime, t=951).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- mentioned, never cleanly detected: the opponent's win condition, which Ryley says his own bridge pressure denies — "He can't hog cuz he has to defend" (t=192), "I know he's going to go for the hog now. Yep, that's obvious" (t=199), "He might try to hog in. So, we just need to be ready" (t=214).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

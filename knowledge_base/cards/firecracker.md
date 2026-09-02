@@ -188,6 +188,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - overtime clock 1:37: killed by the Hero Valkyrie's Wild Whirlwind on the way to the tower — 'look, it's going to take out the Firecracker. Nice, and it's on the tower' (t=199-203); at clock 0:23 he blocks the next one with Skeletons ('we skellies to block the evil firecracker', t=271).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- opponent card, tracked at clock 0:08, 1:46, 1:24, 1:18 and 0:58 (evolved from t=162). Ryley tracks the evolution cycle out loud — "Okay, his next firecracker is evolved. So, you have to be very mindful of that" (t=146) — and treats forcing it out with a 1-elixir Fire Spirit as a win: after it is spent, "because he wasted firecracker, we can get a nice King tower activation here" (t=116-122).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

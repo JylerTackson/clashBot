@@ -205,6 +205,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:40 and 0:24 overtime (t=1015.8, 1031.8): two backwards Tornadoes to drag the enemy Valkyrie away from the bridge instead of pulling her forward - "I think I'm going to NATO this backwards. Let's NATO this back" and "Let's NATO this back as well."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:43-2:36: mentioned only, never played - the auto-transcript renders it as "NATO". Its absence from the opponent's deck is the read that governs Ryley's barrel placement all game: "Good thing that he didn't have [Tornado] in cycle. Maybe he's playing the boss bandit bridge spam deck though and he doesn't have [Tornado] in his deck at all. But next time I barrel, until I figure out if he has [Tornado] or not, I will not be putting it there" (436-445s), then "I don't think he has [Tornado], so I'm just going to put it in the regular spot" (462-464s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

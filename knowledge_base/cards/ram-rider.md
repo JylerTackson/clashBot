@@ -137,6 +137,12 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 0:15: answered with a stacked Furnace/Electro Spirit/Tesla sequence when it is 1.2s from the tower — 'Just make sure that we take this Ram Rider out. Not bad. Good defense', followed by 'Could get to another Ram Rider though, so we have to be careful about that'.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:21 onward: the opponent's main win condition, tracked into the left lane at (2, 19) at t=454.5 and running again at t=570 and t=660-670. Ryley answers it with Bomb Tower plus a cheap unit and refuses to spend more - "if he goes for the ram rider, we have the berserker plus ice spirit here just to help take this out. There's no point to drop anything else" (509-513s).
+- clock 2:08: he plays a Fire Spirit into it on the assumption the Ram Rider ability may be popped - "I'm going to fire spirit preemptively in case he pops the ability ... we'll get tower damage if he doesn't pop the ability or he'll have to defend it" (469-477s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ram_Rider (scraped 2026-09-02T02:35:07+00:00)

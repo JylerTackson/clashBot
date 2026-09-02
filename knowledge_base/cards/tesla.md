@@ -215,6 +215,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - Opponent card (Evolved), placed at tiles [11, 15] (t=132.1, clock 0:42) and [11, 20] (t=250.2, overtime clock 0:43) — the building that absorbs Ryley's Miner and Wall Breakers, which is why his chip on the enemy right tower comes in small increments until the Valkyrie ability pushes go through.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card, all game (arena tracks at [7, 19], [8, 20], [2, 16], [9, 16], [8, 16]; tesla-evolution detected at t=874). Ryley names the archetype off it at t=802-806: "This guy's actually a log bait Tesla player... he's actually very good at log bait Tesla." He tracks the Evo Tesla's timing as an elixir tell - "he goes for the Evo Tesla late cuz he didn't have the elixir right away. And we just get a bunch of damage, man" (t=871-876) - and plays his Magic Archer low to dodge it: "He might go for a high middle evo Tesla to predict my magic archer" (t=967-971).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

@@ -147,6 +147,13 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md
 - clock 0:17 (commentary): dismissive of purely defensive X-Bow play — "Oh man, he's one of those guys who go for the defensive expos. Lame" — and at overtime 1:25 diagnoses the resulting rotation problem: "The way that he's cycling his cards is just not good. He's just kind of asking to choke."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- clock 2:00 (t=1145): the opponent's first X-Bow lands at [2,17], into the lane Ryley is already attacking; he answers by continuing his own push (Goblin Barrel + Wall Breakers kite) rather than defending it.
+- clock 1:28 onward (t=1177): the X-Bow relocates to [15,17] and takes his right tower from 4683 to ~1246 HP with no enemy troop ever in range — the damage the pipeline logged as four "unidentified spell" ticks. He never has an answer for it: "Man, this is pretty sad getting the tower for no reason, I feel like, cuz I still think that I'm going to get completely wrecked" (t=1191-1194).
+- He rates the whole X-Bow/Collector matchup as the worst one his bait deck can draw — "this is probably the worst possible matchup we could have gotten for our deck" (t=1100-1105) — and closes with "Well, I found the deck that can beat us, guys" (t=1265).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

@@ -210,6 +210,60 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - Opponent's card, seen at (0, 17) at clock 0:10. Ryley plans around it two full minutes early, both as the reason to keep Fireball in hand ("we have the Fireball ready for the Magic Archer", 434s) and as the reason his Heroic Valkyrie should be good in the matchup: "he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight" (402-408s).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- clock 2:28 (t=24.0, tile [14, 15]): opening Magic Archer at the bridge against a spent hand — "Just going to go for the Magic Archer here at the bridge early on because I realized that he kind of wasted all of his blockers"; enemy right tower 4858 -> 3713 in the next 8 s, and he adds "Magic Archer is so strong, man... it is way too good" (t=32-37).
+- clock 0:38 and 0:12 (t=133.1 tile [14, 2], t=160.2 tile [9, 1]): back-line placements on purpose — "it's sometimes good to start stacking up the magic archers in this matchup... Even though it is a very big threat at the bridge, I do like to place it in the back sometimes just to start being really annoying".
+- overtime 1:46-1:09 (t=188.2, 212.2, 230.2): in overtime the Magic Archers walk behind the bait rather than in front of it — "the barrels tank for by the magic archer" (t=234), and "we can go for the magic archer plus berserker here to block this" (t=242) is his Mighty Miner answer.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 2:43: opened the match by placing him at tile (9, 0), fully behind his own king tower, elixir 9 -> 5, against a Bowler/Balloon/Freeze control deck — "make sure that we keep this magic archer completely healthy because now he's going to have to block for the magic archer, otherwise it will line up on that bowler. That's where the magic archer can get so annoying."
+- clock 1:35: replayed at (9, 9) mid-own-half behind an active push instead of at the bridge, and left down for the rest of double elixir because he had counted the opponent's cycle — "because he has no [Tornado], he's not going to be able to take out our magic archer."
+- clock 1:03: cast at (9, 8) as the first layer of the defence against the Balloon/Inferno commitment he had predicted, before Royal Delivery and Ice Spirit — "let's go for the marcher here. He's going to Yeah, he's definitely going to go in."
+- clock 0:38: cycled back to (9, 0) behind his own king tower after the opponent conceded a tower — "he does give up the tower and cycle the magic [archer] here."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 1:03: names the bridge Magic Archer as what makes the deck impossible to hold long-term - "He has very good goblin barrel answers. But it's not going to be easy to defend the entire game long obviously especially when we start going for things like magic archer at the bridge" (532-540s).
+- clock 0:22 / 1:53 (overtime): placed at (9, 0) behind his own tower to walk up behind the spam - "We can just get a marcher in the back here. And then we can go for a evo barrel. Fire spirits push. This is looking so good for us right now" (604-610s).
+- clock 1:18 (overtime): declines the bridge placement for a positional reason - "I'm not going to march for that cuz he might ran into block the bridge" (640-644s) - and treats its survival as the sign the push has won: "He does get a nice connection, but our marcher lives. Let's pop the ability" (669-670s).
+- clock 0:38 (overtime): the closing play at the bridge in front of the last barrel - "Let's just go for the marcher at the bridge here and then we can barrel and that's going to be good game" (680-682s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:34: Magic Archer placed centrally on his own half (deploy label tile [8, 14], own elixir 9->5) behind the opening Wall Breakers, so the pierce covers either lane. (The pipeline attributed the label to the opponent; the -4 own elixir drop and the opponent's known list say it is his.)
+- clock 1:29: plans a barrel around him and abandons it — "I'm definitely going to line this up with the... oh, I was going to line that up with the magart here, but he messed up" (t=770-773).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 2:40-2:37 (t=811.8, t=814.8): opens with Magic Archer on his own bank in the left lane, tiles [2, 12] then [2, 14], so the piercing arrow reaches the enemy left tower from his side of the river; the tower reads 4858 -> 4400 HP by t=820 and the opponent's Little Prince dies - "Oh, nice magic archer timing, actually. Grabbing our two shots and fully taking out that prince."
+- clock 2:24 (t=827): names him as the whole matchup plan against a Log Bait Tesla opponent - "we have to try to abuse the fact that he has a hard time dealing with magic archer."
+- clock 2:02-1:57 (t=847-856): refuses a Magic Archer placement that would have given him free chip, because of the enemy Electro Spirit - "it might have even been better let it get a hit and just get our two shots, but I didn't want to give him an opportunity to activate the king tower... if I marcher here, then he can activate king with the E spirit."
+- overtime 1:56 and 1:18 (t=971-974, t=1014-1018): places him against the opponent's predicted answer rather than for maximum value - "He might go for a high middle evo Tesla to predict my magic archer. So I'm not going to go for the magic archer high. I'm just going to put it low", then "I'm going to march her off to the side though cuz he's going to try to predict it. Yep. I had a feeling he was going to try to predict that."
+- overtime 0:54-0:03 (t=1037.9 onward, tiles [2, 14], [4, 14], [15, 13]): wins the game with repeated Magic Archers lined up through a troop into the tower - "This should line up with the knight. Keep it in line" (t=1038), "Dude, the magic archer is so broken" (t=1065), "Just march on the princess and this is game over, man" (t=1077). Enemy left tower 2121 -> 208 HP and down.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1116-1121 (clock 2:31-2:27): two Magic Archers at the left bridge ([2,14]) as the answer to a Valkyrie he has not seen yet — "I want to be able to Magic Archer his Valkyrie", then "let's Magic Archer here at the bridge."
+- t=1122-1131 (clock 2:25-2:17): stacks Ice Spirit, Fire Spirit and Berserker behind the archer purely to extend his shooting window — "just grab every single possible lick of Magic Archer damage that we can." Enemy left tower goes 4858 -> 1469 over that stretch.
+- t=1154 (clock 1:53): a third bridge Magic Archer to force the tower trade — "we can just go for the Magic Archer here just to ensure that we trade towers."
+- t=1205/t=1243/t=1259 (clock 1:06 / 0:23 / 0:08): defensive placements far behind the front line ([13,9], [13,11]) against an Evo Valkyrie push, and he still calls him the out — "I'm still somewhat faithful that I could maybe get like a crazy Magic Archer lineup and finesse the game" (t=1200).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 1:44 (t=1336.3): [10, 11] as pre-emptive Balloon defence with a deliberately delayed follow-up — "I'm going to marcher here. I'm going to wait for the balloon to get a tile closer. And then we're going to ice spirit as well to block the ability."
+- clock 0:35 (t=1405.4): rejects the aggressive placement out loud and plays him deep at [2, 9] instead — "I want to marcher the bridge, but I know it's not worth it. Let's just go for a low marcher."
+- clock OT 1:02 (t=1499.5): [8, 7] as the answer to the opponent's Wizard while his right tower is being ground down — "We just need to get that wizard off the board by any means necessary... we need to get a magic archer down as well, just to not lose our entire tower."
+- clock OT 0:35 (t=1526): the piercing-arrow chip finish, hunting a line through troops into the tower — "Marcher the bridge. Hold on. Wait. Can we get a lineup? Please give me a lineup. Give me a lineup. Oh my god. Marcher. Marcher. Marcher. Let's go." Enemy left tower falls 2349 -> 1229 in that window.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

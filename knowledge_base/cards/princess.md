@@ -291,6 +291,16 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:43 (t=716.5): one Princess in the whole segment, at (9, 9) — centre and well behind his own towers, dropped while the Heroic Valkyrie was already taking the enemy left tower from 827 to 414. In this game she is a safe chip/anti-swarm placement, not bridge pressure.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:30: opponent Princess tracked at tile [6, 20], the first card Ryley sees from them; he later names it in the full read — "he has princess barbs ice wiz and then freeze as his final card" (t=762).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card, present in both lanes for most of the game (arena tracks at [13, 19], [4, 21], [7, 20], [16, 15], [12, 17]). Ryley names her as a problem card for a Log-less bait deck (t=835-838) and uses the Bomb Tower's placement to shut the lane off - "us going for this bomb tower is also going to prevent him from going for any princesses on the right side, which is very good" (t=908-911). The finishing Magic Archer is aimed through her: "Just march on the princess and this is game over, man" (t=1077).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

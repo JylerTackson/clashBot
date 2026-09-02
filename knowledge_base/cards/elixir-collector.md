@@ -117,6 +117,13 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:47: he does use the pump as a reason to spend early - "let's cannon here early hit the pump. Nice. Okay, at least we got some elixir out of him" (t=122-126).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- clock 2:32 (t=1113): the opponent's Collector at [9,22] is the first thing he reacts to, before any play of his own — "Oh no, guys. This guy has expo pump, man" (t=1097-1100), then "He goes for the expo" (t=1143).
+- clock 1:37 (t=1171): explains why a one-crown-each game is bad for him against a pump — "in a one one, I can't even drop the cards on the expo right now, which is not ideal."
+- clock 0:47-0:37 (t=1221-1232): a second Collector goes up at [16,27] and he gives the cheap-deck counter-argument — "one nice thing is that he can't like spam us with expos cuz if he tries to spam us with expos obviously he's going to have to put one of them in the middle and that's obviously not going to work cuz I'll be able to get at it really easily."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Collector (scraped 2026-09-02T02:35:34+00:00)

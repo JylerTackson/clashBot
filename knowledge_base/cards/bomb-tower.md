@@ -237,6 +237,57 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:48 overtime (t=1007-1011): he punishes a forward Bomb Tower placement at (9,15) - "Okay, that was a bad bomb tower. Just in general... this is going to get a free hog rider shot."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- nine placements, eight of them on the same centre tile [8, 10] (clock 2:08 t=42.0, 1:27 t=85.1, 0:38, 0:18, 0:08, overtime 1:46/1:29, 0:52 at [8, 11]), re-laid as soon as it is off cooldown — the centre-pull building of the deck.
+- clock 1:09 (t=105-108): he counts cycle against it — "we do have to be a little bit careful though cuz we are not back to the bomb tower yet", then puts the next one down at [2, 9] against the left-lane push.
+- clock 1:27 (t=85.1): paired with Berserker as the standard defensive set — "Let's go for the bomb tower here. Then we can go for the berserker as well".
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 2:17: placed early and pre-emptively at (10, 9) in the central pocket while enemy Barbarians were ~1s from his left tower — "I'm going to go for the bomb tower early here just to help take this out. And he can't really go for the loon on the left because we have the magic archer ready."
+- clock 2:08: deliberately let it die to the opponent's Bowler rather than spend on it — "I'm not even going to protect the bomb tower from the bowler. There's no point."
+- clock 1:03: replayed at (10, 10), same central pocket, as the reset against a committed Inferno Dragon + Barbarians push — "Okay, we can bomb tower to bring this back. Beautiful."
+- clock 0:31 and 0:11: two more central placements at (9, 10) and (15, 10) to close out the game against the Bowler — "That is not connecting to our tower. We have bomb tower ready."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:19 / 1:45: the anti-ground building, always on the (8-9, 8-11) block in front of the King Tower, against the Ram Rider and then the Royal Ghost - "Let's go for the bomb tower here and then we can go for the barrel" (459-460s); "Let's bomb tower here and we can go for the delivery as well" (496-498s).
+- clock 0:31: dropped early specifically because he fears the opponent's Lightning - "He definitely has lightning in his deck though, so I have to be very, very cautious of that. Let's bomb tower here. We have the delivery ready" (566-571s).
+- clock 1:14 (overtime): used as a lane reset rather than as defence - "he might ran into block the bridge. So, I'm just going to reset with a bomb tower" (643-646s); he also counts on its splash to clean up: "Bomb tower should finish off the rest of that executioner" (594-596s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:19: Bomb Tower centre at tile [8, 10] immediately after committing the Goblin Barrel, pre-empting the ground counter-push rather than reacting to it.
+- clock 2:04: second Bomb Tower at tile [8, 11] during the Ice Wizard/ground push; he calls the whole stretch "very good defense right there" (t=744).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 1:09 (t=904.9, tile [9, 9]): first Bomb Tower of the game, placed centre and justified by what it denies as much as what it kills - "We can just go for the bomb tower here. And us going for this bomb tower is also going to prevent him from going for any princesses on the right side, which is very good."
+- clock 0:31 (t=940.9, tile [9, 9], elixir 7 -> 3): the anchor of the defence against a Knight + Princess + Evo Goblin Barrel push, with Royal Delivery and Ice Spirit layered on top - "Beautiful defense. Very clean" (t=948).
+- overtime 1:48 (t=983, tile [9, 13]): pushes the placement high up the middle when he needs it to intercept earlier - "Let's high bomb tower here. Delivery on defense."
+- overtime 1:28-1:10 (t=1005 [9, 10], t=1023 [8, 10], t=1067.1 [8, 10]): re-places it in the centre every time it expires through triple-elixir overtime - "bomb tower in the middle. Bomb tower here to block" (t=1003-1005), "Okay, bomb tower here in the middle" (t=1022).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1175 (clock 1:32): Bomb Tower at the right bridge ([15,12]) as a lane brake he expects to lose — "we can go for the bomb tower here at the bridge as well. This is going to get taken out, but we can just go for the evil wall breakers at the bridge."
+- t=1211 (clock 0:55): a second Bomb Tower with the game already slipping — "let's definitely go for the bomb tower here cuz it's not like he can stop this anyways."
+- t=1245 (clock 0:20): placed specifically for splash into three evolved Skeletons plus Valkyrie coming up the right lane ([15,13]) — "Wait, could I bomb her like this to make it splash? Maybe. Come on, splash. Nice."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 0:41 (t=1399.4): [9, 9] against Barbarians plus a Wizard placed in the back, treated as a cycle card rather than a held answer — "Let's just cycle the bomb tower here."
+- clock 0:05 (t=1435.4): placed deliberately closer to his tower as regular time ends, as a cycle-count decision — "I have to bomb tower here. I have to do it closer though cuz this time I won't be able to cycle the two bomb towers if he goes in on the right immediately."
+- clock OT 1:50 (t=1451.5): [11, 13], up near the bridge, used as a puller to drag the opponent's Balloon back off his tower — "Then we can go for the bomb tower at the bridge here just to bring that backwards."
+- clock 2:40 (t=1280.3): opened with it at [7, 10] behind the split Wall Breakers; it is the deck's only building and the whole ground defence, cycled five times in 264 s.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

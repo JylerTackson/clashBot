@@ -364,6 +364,59 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:13 overtime (t=1044.8): predictive Ice Spirit for the Miner - "I'm going to say ice spirit predict the minor, but it's fine. We got it."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- 11 deploys; the defensive pattern is spirit-then-building — "Let's go for the ice spirit and then we can go for the bomb tower here as well" (clock 2:12, t=40.0 at [3, 14]) and again at clock 1:09 (t=106.1 at [2, 8]).
+- overtime 1:31 (t=202-206): played as a prediction against cheap defence — "we ice spirit for the skeletons cuz he might try to defend for cheap", which he then scores: "Great prediction right there. That's going to get one".
+- overtime 1:34 (t=198.5, tile [9, 15]): also used as a bridge poke alongside the Fire Spirit routine.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 1:50: dropped for 1 elixir in front of the Wall Breakers push to stall the expected Bowler answer — "And then I'm going to ice spear in front of this."
+- clock 1:03: added at (12, 11) on top of Royal Delivery and Bomb Tower to freeze a stacked defence — "Let's ice spirit as well just to freeze everything hopefully."
+- clock 0:20: used at (10, 14) inside the closing defensive shell alongside Berserker and Magic Archer — "Let me go for the ice spirit."
+- clock 0:13 and 0:07: two more 1-elixir drops, functioning as the cheapest way back around to the Goblin Barrel.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:24 / 2:04: thrown at the bridge for chip as part of the constant pressure - "I'm going to go for the ice spirit here. I just like to keep bridge spamming with this man ... this deck is just complete bridge spam" (448-458s), "Let's spirit at the bridge again as well" (478s).
+- clock 0:40 / 0:08: the defensive freeze, onto the Executioner and then across the whole closing push - "go for the ice spirit here as well, just to make sure that we take out that execution[er] or fire spirit" (558-561s); "Definitely get a low ice spirit down as well. Freeze everything. Beautiful freeze right there. And that will be a clean defense" (588-594s).
+- clock 0:27: held as the reason the opponent's Lightning would be a bad play - "he's not going to lightning this. It would be a terrible play cuz then I just go for the ice spirits" (572-575s), and kept in hand as an ability answer: "He might ability. We have spirit ready in case" (635-637s).
+- clock 1:26 / 0:42 (overtime): paired with the barrel and with Wall Breakers - "we can go for the ice spirit barrel again" (631-632s), "Let's wall breaker's ice spirit here" (674-676s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:37 / 2:30 / 2:19 / 2:00 / 1:25: five Ice Spirits in 113 s, mostly around row 14 near his own bridge — stalling the left-lane push and keeping the barrel/Wall Breakers cycle short; never the whole answer on its own.
+- clock 1:25: Ice Spirit follows the barrel + Wall Breakers commit at t=773.4, the cheap filler behind the double threat.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 1:37 (t=876.9, tile [9, 10]): kept in hand specifically for the enemy Little Prince at the bridge - "Okay, I have the ice spirit ready here for the potential prince at the bridge. Nice. Beautiful timing."
+- clock 0:58 (t=914.9, tile [3, 14]): attached to the Evolved Goblin Barrel as the cheap freeze on the tower - "Let's evo barrel ice spirit here."
+- clock 0:27 (t=945.8, tile [7, 12]): last layer of the big Knight/Princess/barrel defence - "And we can go for the ice spirit as well. Beautiful defense. Very clean."
+- overtime 1:24 (t=1008, tile [15, 5]): used to cut damage down to a single hit - "we can go for the ice spirit here just to block that one and we should only take one shot. Perfect."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1122 (clock 2:25): offensive Ice Spirit at the bridge ([2,14]) purely to buy the Magic Archer more shots — "we can go for the ice spirit as well just to make sure that we grab this extra damage."
+- t=1208/t=1222/t=1258 (clock 1:03 / 0:44 / 0:08): defensive spirits at [11,15], [8,9] and [14,15] paired with Fire Spirit and Berserker on the right-lane Valkyrie — "[Ice] Spirit here."
+- t=1236 (clock 0:32): part of the scripted full-bar dump on the opened enemy half ([8,20]) — "Let's go for the barrel, fire spirit, berserker, ice spirit."
+- He credits the opponent's Ice Spirit as the play that saved the tower trade for them — "Great ice spirit prediction by him though" (t=1160-1162).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 1:41 (t=1338.8): [14, 8], timed behind the Magic Archer specifically to interrupt the opponent's Balloon ability — "And then we're going to ice spirit as well to block the ability."
+- clock 0:11 (t=1430.6): [2, 14] tacked onto a Berserker + Wall Breakers cluster as cheap harassment — "Ice spirit as well. Keep being annoying."
+- clock OT 1:07 (t=1494.5): [10, 14] as the 1-elixir filler at the end of an over-committed defence — "I believe we have to ice spirit here. We have to go for the fire spirit."
+- clock 2:45 (t=1275.1): opens the game with it at [4, 15] off full elixir, the cheapest possible probe before the Bomb Tower and split Wall Breakers.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

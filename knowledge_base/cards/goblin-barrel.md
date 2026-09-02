@@ -364,6 +364,60 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:35 (724s): the barrel is thrown partly as ability bait — "with him going for the Fisherman in the middle, I knew he's going to have to drop something on the barrel, and whatever he puts, I get the ability" — i.e. it manufactures a ground target for the Heroic Valkyrie's Wild Whirlwind.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- clock 2:35 to 0:44 (t=16.9-243.2): 12 barrels in one game, every one onto a crown tower ([13-15, 24-26] right, [2-3, 25-26] left) and never on defence — the first goes down before he has finished the intro.
+- clock 0:48 (t=123.1-123.3): barrel plus Wall Breakers thrown deliberately apart — "I like to place them a little bit separate like this. So, it's hard to get barbarian barrel value and hit like the wall breakers and the goblin barrel at the same time".
+- clock 1:09 (t=228.6): he switches the barrel to the enemy LEFT tower once the opponent's small spell is out of cycle — "because he has no barbarian barrel, we can go for the barrel... if he mighty miners this, we can go for the second magic archer"; that tower goes 2231 -> 237 HP over the next 20 s.
+- clock 1:50 (t=182.2): thrown purely to keep the cycle turning — "Let's barrel again. Keep up the pressure. I want to keep on spamming this guy".
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 2:34: thrown at (2, 24) while the opponent's Inferno Dragon was already walking into his half and the opponent was down to 0 elixir; the enemy tower fell 4298 -> 2924 HP over the next ten seconds — "He messed up. That's huge. Actually, that's going to be a lot of damage."
+- clock 1:50: thrown at (15, 24) in the same rotation as Wall Breakers to overload a single answer — "he's one card off of the barbarian brill [Barbarian Barrel]. So, I'm just going to go for the wall breakers plus [goblin barrel]."
+- clock 1:18: barrel + Fire Spirit + Wall Breakers all in one cycle at (15, 25), immediately before both enemy towers collapsed (left 3032 -> 580, right 2172 -> 1788 within six seconds) — "Let's go for the barrel, fire spirit, and wall breakers here. He has to be very careful."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:47 / 2:17: opens blind with the Evo Goblin Barrel on the enemy left tower at tile (3, 25) and repeats it there all game once he has scouted the opponent's spells - "Let's go for the Goblin Barrel Fire Spirit here. Try to figure out what he is playing" (430-433s), then "I don't think he has [Tornado], so I'm just going to put it in the regular spot. All good if he has [Tornado] anyways, but I don't think that he does yet" (462-466s).
+- clock ~2:36: his stated placement rule when the opponent's spell is unknown - "next time I barrel, until I figure out if he has [Tornado] or not, I will not be putting it there" (441-445s).
+- clock 0:56 / 1:50 (overtime): switches the barrel to the enemy right tower at (14, 26) when he spams the opposite lane - "we can go for the goblin barrel as well and wall breakers cuz he has no spells in the hand" (542-545s).
+- clock 0:58 (overtime): deliberately one tile deeper at (3, 28) as part of a barrel + Wall Breakers pair - "Let's evo barrel. Now I'm going to do one tile in the back and then we wall breakers" (659-661s); he values the forced answer over the damage: "we forced out snowball as well. That's honestly probably even better than just grabbing the shot that we would have gotten" (624-628s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:20: barrel onto the enemy left princess tower (tile [3, 25]) alongside a Fire Spirit — "it's barrel, fire spirit here to apply some pressure" (t=718); the opponent answers late with Ice Wizard and the tower falls 4858 -> 2762 by t=728.
+- clock 1:26: second barrel to the same tower (tile [3, 26]) as half of a barrel + Evolution Wall Breakers double threat; he had planned to time it with his Magic Archer instead — "I was going to line that up with the magart here, but he messed up" (t=771).
+- clock 1:31: reads the barrel as free once he knows the opponent's spells — "he only has freeze as a spell, which is very nice for us, actually" (t=767).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 2:24 and 1:53 (t=828.8, t=858.9, tile [3, 26]): his default is the enemy left tower, thrown as part of a package rather than alone - "I'm going to go for the goblin barrel as well. And I'm going to evo wall breakers. I'm going to be really aggressive right now because I feel like he's just not going to be able to do anything about it" (t=859-864). Enemy left tower 4400 -> 2697 HP over the next fifteen seconds.
+- clock 0:56 (t=915.4, tile [14, 26]): switches the Evolved Barrel to the other lane with an Ice Spirit attached, accepting the trade - "Let's evo barrel ice spirit here. And he's going to e spirit plus log, but that's all right with me."
+- overtime 1:41 (t=989, tile [3, 26]): uses the barrel as an elixir tax paired with Evo Wall Breakers in the opposite lane - "we can go for the evo barrel plus evo wall breakers and he's going to have to use extra elixir on the Tesla but he's also going to have to defend the opposite lane."
+- overtime 0:48-0:20 (t=1043 [14, 25], t=1056.1 [3, 25], t=1064.1 [3, 26], t=1078.1 [3, 25]): barrels every rotation through overtime to keep the opponent from ever building - "we go for the barrel as well. Just want to keep on applying non-stop pressure right now."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1097 (clock 2:49): opens the game with a barrel on the enemy left tower ([3,25]) at the same moment as bridge Wall Breakers, before he has said a word about the matchup — barrel first is his damage floor here.
+- t=1149 (clock 1:58): barrel again into the same tower ([3,25], HUD 7.0->4.0) as the pre-planned half of a defence — "I'm just going to go for the Goblin Barrel and then I'm going to kite the Valkyrie back with my Wall Breakers."
+- t=1173/t=1233 (clock 1:34 / 0:33): after the left towers trade he moves the barrel to the right lane ([13,22], then [14,26] HUD 5.0->2.0) and calls the whole dump in advance — "Let's go for the barrel, Fire Spirit, Berserker, Ice Spirit, and then we need to go for the Wall Breaker."
+- Against X-Bow/Elixir Collector he treats barrel chip as mandatory, not opportunistic: "in this matchup if we don't take an entire tower we are going to lose the game. So we have to try our best to get as much damage as we can" (t=1134-1139).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 2:24 (t=1296.3): [15, 24] on the enemy right tower purely to strip an answer — "Let's go for the barrel here just to apply some extra pressure. He's going to have to go for a log or a NATO." He accepts the downside: "Okay, he does get a king activation, but we got 800 damage. Definitely worth it for us."
+- clock 0:22 (t=1418.4): [3, 26], corner of the enemy left tower, as a spell-drain — "Just goblin barrel here again. Only get one please. Nice. Force out the log again. Oh, force out the e-wiz."
+- clock 0:59 (t=1380.9) and OT 1:41 (t=1460.5): barrel-then-spirit as a fixed pattern, [14, 25] then Ice Spirit at [3, 15], and [3, 25] with Fire Spirit at [2, 14] — "Evo barrel spirit"; the second one is what forces the opponent's Balloon ability.
+- clock OT 0:40 (t=1521.5): [14, 25] in the closing sequence, named as one item on a list he is cycling through under pressure — "Evo barrel. We need the wall breakers. We need a ice spirit as well."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

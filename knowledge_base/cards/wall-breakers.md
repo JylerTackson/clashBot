@@ -300,6 +300,62 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:22 (t=912-915): a 1-elixir Ice Spirit onto a Wall Breakers pair at the right bridge - "Let's Ice Spirit here. Nice. Good defense."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- clock 2:28 to 0:57 (t=22.2-236.2): 11 deploys, all on his own half at the river row ([2-5, 14-15] left, [13-15, 13-15] right) — run-up bridge placements, never behind a tank.
+- clock 1:20 (t=92.1): he sends them knowing they die — "We can go for the Evo wall breakers... cuz he has a cannon which will take out the wall breakers. But it's fine cuz we get a lot of damage here on the left and on the right side as well".
+- clock 1:46 (t=190.2): used as an elixir lock on the opponent's win condition — "Let's wall breakers too cuz he has to go cannon. He can't hog cuz he has to defend".
+- clock 0:57 (t=236.2): lane discipline in the closing push — "Let's wall breakers opposite lane", into the side the enemy Cannon does not cover.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 2:48: opened the game with a deliberate centre split at tile (8, 14) so the pair takes both lanes — "Gonna start with the split wall breakers here."
+- clock 1:51 and 1:17: single-lane bridge pressure at (13, 14) and (4, 15) stacked on top of a Goblin Barrel and a Fire Spirit in the same rotation, rather than played alone.
+- clock 0:47: played purely as an answer-drain while already far ahead — "Just keep up the pressure cuz he's going to have to spend at least a spell on this, if not a bowler."
+- clock 0:07: last-cycle Wall Breakers at (8, 18), elixir 4 -> 2, with both enemy towers under 600 HP.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 1:18: first double-barrel of the game, Evo Wall Breakers at the same time as the Goblin Barrel - "Evo barrel. Then we can go for the Evo wall breakers as well. Just want to apply a lot of pressure. He might snowball barrel these" (518-523s).
+- clock 1:58 (overtime): sent to the opposite lane at (4, 15) purely as an elixir tax - "A wall breaker's opposite lane. Forcing a lot of elixir. He has to snowball that" (599-604s).
+- clock 1:38 / 1:26 (overtime): used to name the answer he wants out of the opponent's hand - "We can barrel wall breakers cuz he has to barbarian barrel that. Yep, perfect" (618-620s); "Let's wall breaker[s] here to force him to go for the ghost and then we can go for the ice spirit barrel again" (629-632s); "We're going to force him to go for the barb barrel" (676-677s).
+- clock 0:36: played on his own half at (9, 12) to avoid taking chip rather than for damage - "And then I do want to wall breakers here. I don't want to take that extra damage" (562-564s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:40: opens with Wall Breakers from the back (deploy label tile [9, 0], elixir 8->6) rather than at the bridge; the enemy left tower first chips at t=712 and he reacts "oh my value. Dude, that card is something else".
+- clock 2:07: Wall Breakers straight over the bridge into the empty right lane (tile [12, 14]) — the enemy right princess tower drops 4858 -> 3738 at t=738, a clean 1120-damage connection.
+- clock 1:26: pairs Wall Breakers (Evolution) with a Goblin Barrel into the same left lane — "let's go for the barrel plus evo wall breakers. He has to probably go for the barbs. Oh, he just gave up" (t=774-776); the opponent concedes with the left tower at 115 hp.
+- clock 1:23: credits the pairing itself for the concession — "not only does this make your opponent rage and get mad, it makes your opponent literally just quit the game. He saw that I just went barrel wall breakers and left the game" (t=780-788).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 2:51 (t=800.8, tile [8, 14]): opens the game with the pair split dead centre on his own side of the river, so they run into both lanes and are awkward to answer with one card.
+- clock 1:51 (t=860.9, tile [4, 14]): Evolved Wall Breakers as the follow-up to a Fire Spirit + Goblin Barrel package in the left lane - "I'm going to evo wall breakers. I'm going to be really aggressive right now." Enemy left tower falls to 2697 HP.
+- clock 0:52 and overtime 1:41 (t=919.9 [14, 14], t=990 [13, 14]): pairs them with the barrel in the opposite lane to force a two-lane defence - "Let's go for the wall breakers. And then we fire spirit predict the goblins" (t=920), "the evo barrel plus evo wall breakers" (t=989).
+- overtime 0:48-0:36 (t=1043.4, t=1056.1 [13, 14]): never sent alone in overtime - "Fire spirit wall breakers here. And then we go for the barrel as well" (t=1040-1043), "the evo barrel plus wall breakers" (t=1057).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1098 (clock 2:48): bridge Wall Breakers at [4,15] (HUD 9.0->7.0) as the opening pressure alongside a Goblin Barrel.
+- t=1115 (clock 2:32): declines a Wall Breakers on purpose to keep the elixir for a ranged answer — "I'm not going to Wall Breakers cuz I want to be able to Magic Archer his Valkyrie."
+- t=1150-1156 (clock 1:57-1:51): uses them defensively as a kite, two drops ([3,15], then HUD 3.0->1.0) — "I'm going to kite the Valkyrie back with my Wall Breakers."
+- t=1183/t=1254 (clock 1:26 / 0:14): pure chip when he is behind and out of options — "Let's Wall Breakers here and just take some damage" and later "let's Wall Breakers again."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 2:28 (t=1291.6): opens with the pair on the centre tile [8, 14] so they split into both lanes, purely as a scouting tool against a deck he has not confirmed — "Let's go for the split wall breakers here. Try to figure out which variation he has."
+- clock 1:22 (t=1358.4): after eight seconds of deliberation he sends them into the lane he has NOT been pressuring, [2, 14], rather than spend the Evolution — "Could evo wall breakers. But if I evo wall breakers then he can get some nice value on defense with an e-wiz or a giant skelly. Let's wall breakers opposite lane though and just grab some free damage or force out some elixir." Both connect: enemy left tower 4858 -> 3738.
+- clock OT 1:40 (t=1461.5): [14, 14] behind a Goblin Barrel + Fire Spirit that forced the opponent's Balloon ability, giving the double hit — "He had to pop the ability cuz of that barrel fire spirit and then evo wall breakers as well. Nice. That's going to be a double connection on the right... Oh, nice. It is a double." Enemy right tower 2677 -> 1890 in the next four seconds.
+- clock OT 0:31 (t=1531.2): last card of the game, [13, 14] on his final 2 elixir — "We need to go for the wall breakers for sure... We need the wall breakers." He also banks the Evolution all game as insurance against the swap card: "But I have the evo wall breaker so we're kind of prepared" (t=1448, on Minion Horde).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

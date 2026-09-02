@@ -158,6 +158,11 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md
 - clock 0:13: the opponent drops Barbarians at [3, 17] onto the left-lane Battle Ram push (t=160.2), alongside a second Bomb Tower — the pair is what stops the push Ryley had built from t=144.
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:26: opponent Barbarians tracked at tile [11, 13] on Ryley's half; he answers the lane with Bomb Tower and expects them again on defence at the end — "he has to probably go for the barbs" (t=775) just before the concession.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

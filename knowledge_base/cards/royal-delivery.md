@@ -194,6 +194,52 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - Played ~6 times in 306 s of readable footage, i.e. treated as a rotating defensive card in a cycle deck, not as a held answer.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- four uses, all defensive and all on his own half (clock 2:04 t=45.0 at [4, 8], 0:37 t=134.3, overtime 1:19 t=212.9, 0:44 t=251.1) — each onto a committed ground push (lane-switching Mighty Miner, the Cannon push, the Firecracker/Barbarians left lane, the final Mighty Miner).
+- clock 2:04 (t=44-52): he plays it knowing it will not save the tower — "We are definitely going to take a decent bit of damage here, but that's what happens when they switch lanes with the mighty miner ability. But we got a lot of damage with the magic archers, so it shouldn't be the end of the world".
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 2:03: cast at (2, 13) as the third layer of a defence that already had Berserker at the bridge and Magic Archer behind it — "then we go for the magic arch and we go for the delivery as well. This will be a very clean defense."
+- clock 1:03: his designated answer to the Balloon Freeze all-in, at (15, 12) alongside Ice Spirit and Bomb Tower — "Let's go for the delivery here ... And even if he freezes, yeah, he's not going to take out our tower."
+- clock 0:23 and 0:15: cast twice more at (13, 14) and (14, 13) against the last Bowler push — "Let's go for the delivery here" / "We can go for a delivery."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:37 / 1:38: pure defence on his own half - at (2, 14) into the opponent's first bridge push ("That was maybe a little bit risky", 446-448s) and at (10, 11) onto the Royal Ghost ("we can go for the delivery as well. Is that going to walk to it? I don't think it will. Oh, it does", 498-503s).
+- clock 0:25 and 1:11/0:58 (overtime): held as the stated backup behind the Bomb Tower and spent on the big pushes - "We have the delivery ready" (571s), "Then we need to delivery as well" (586s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:04: Royal Delivery at tile [5, 15] onto the left-lane Ice Wizard that the threat tracker had reaching his tower in ~8 s.
+- clock 1:44: Royal Delivery at tile [5, 11] onto three left-lane Minions, justified by cycle rather than value — "then we can just get the royal delivery down as well cuz we did cycle back which is very nice" (t=757).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 1:32 (t=875.9, tile [3, 14]): dropped on an Evo Tesla + Knight push that had reached row 7 in his left lane, right after an Ice Spirit - "Nice. Beautiful timing. And we get a delivery down as well. Looking really good for us."
+- clock 0:31-0:27 (t=945.1, tile [14, 7]): explicitly held in hand for the opponent's Evolved Goblin Barrel - "I do have to be careful though of the evo barrel. We have the delivery ready. Let's delivery" (t=940-945), "we have the delivery ready for the goblin barrel" (t=962).
+- overtime 1:48 and 1:09 (t=985 [14, 8], t=1024 [14, 7]): part of his standing overtime defensive rotation alongside the Bomb Tower - "Let's high bomb tower here. Delivery on defense" (t=984), "We delivery again" (t=1024).
+- overtime 0:23 (t=1071.1, tile [14, 8]): "Okay, we have the delivery ready here. Yep. Let's delivery here." In this game it is used purely defensively, always on his own half around tiles [13-14, 6-8].
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1220 (clock 0:47): one use all game, at [15,15] by the right bridge, as the closer after Fire Spirit and Berserker on an X-Bow/Valkyrie push — "we need to delivery at the [bridge]." Against a siege deck he keeps it for the swarm-and-Valkyrie package rather than cycling it.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 1:14 (t=1366.4): [10, 14] — he names it as the card kept in reserve for the opponent's support troop rather than a defensive commitment: "We have the delivery ready in case he goes for an e-wiz."
+- clock 1:55 (t=1326): mentioned as the reason he can ignore an entire variant of the opponent's deck — "We have delivery anyway, so I'm not really worried about the minion horde. I just don't want them to get like crazy barbarians on me."
+- clock 0:32 (t=1408.4): [15, 12] onto the incoming Balloon after rejecting a Magic Archer — "Actually, do I even want to marcher at all, though? Let's delivery here."
+- clock OT 1:14 (t=1487.5) and OT 0:45 (t=1516.5): [15, 15] and [14, 15], both into the overtime Balloon/Wizard pushes on his right — "And then we delivery as well", "So, it's delivery here. Fire spirit."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

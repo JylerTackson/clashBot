@@ -458,6 +458,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:23: stacked behind the Evolution Hunter against the enemy Heroic Valkyrie while the Fireball is held back — "We can Skellies and we have the Fireball ready for the Magic Archer" (433-434s).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- mentioned as the other half of the opponent's cheap defence, and as the trigger condition for his own bridge plays — "he has no [E-]spirit and no skeletons in cycle. So he's going to have to waste either firecracker or mighty miner" (t=112); at overtime 1:31 he pre-empts them with an Ice Spirit, "we ice spirit for the skeletons cuz he might try to defend for cheap" (t=203).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

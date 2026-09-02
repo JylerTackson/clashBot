@@ -383,6 +383,16 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:54: tracked with the opponent's Valkyrie and Royal Giant on the right-lane push that costs Ryley a third of his right tower. Not named directly; Ryley's spirit commentary at 595-598s ("it doesn't get reset by like spirits and stuff like that") is about his own Ice Spirit failing to reset the enemy hero ability.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- mentioned throughout as the opponent's cheap answer he counts before every barrel or Fire Spirit — "he has no [E-]spirit and no skeletons in cycle" (t=112), "[E-]spirit skellies here. Great. Grab one" when it finally lands at clock 0:18 (t=151), "now he has no [E-]spirit. Oh my god. And no barb[arian barrel]. Hold on. This guy's messing up a lot on defense" (t=178).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card (arena track at [6, 4] at t=1020). It shapes Ryley's biggest decision of the first half: he passes on Magic Archer chip damage rather than let the opponent activate his own King Tower - "I didn't want to give him an opportunity to activate the king tower. That's why I think that he put it on that tile cuz if I marcher here, then he can activate king with the E spirit" (t=850-856). He also predicts the Evo Tesla defence pairing - "he's going to e spirit plus log, but that's all right with me" (t=917-918) - and calls a wasted one in overtime: "bad e spirit" (t=987).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

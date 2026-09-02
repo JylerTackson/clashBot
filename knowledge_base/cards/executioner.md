@@ -138,6 +138,12 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:26 overtime (t=1030): a second Executioner used purely as bridge denial - "Let's XE again just to make it so he can't ever cross the bridge."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:43: identified with its Evolution on the opponent's first cycle - "Okay, he has the Evo Executioner" (435s) - and treated as the reason to keep a spirit spare: "Just make sure that we distract that one shot from the executioner" (505-508s).
+- clock 0:03: answered with Bomb Tower splash rather than a dedicated counter - "Bomb tower should finish off the rest of that executioner" (594-596s); paired with the Ronin it is the push he fears most (577-580s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

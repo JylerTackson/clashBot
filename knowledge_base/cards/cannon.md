@@ -350,6 +350,12 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:20 (t=739.0): second Cannon at (8, 11), again column 8, while he stacks Ice Spirit and Dart Goblin behind it — "Let's go for a Cannon here. Very nice defense" (744s). Three Cannons in 76 seconds, every one of them in the middle two columns of his own half.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- clock 0:38 (opponent Cannon at tile [16, 20]) and again in overtime, evolved — "There's the evo cannon" (t=195). Ryley treats a Cannon spent on defence as a Hog Rider denied: "Let's wall breakers too cuz he has to go cannon. He can't hog cuz he has to defend" (t=190).
+- he pre-accepts that it eats his Wall Breakers rather than holding them back — "he has a cannon which will take out the wall breakers. But it's fine cuz we get a lot of damage here on the left and on the right side as well" (t=95-101).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

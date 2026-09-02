@@ -275,6 +275,11 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md
 - overtime 1:46: predicted the Knight as the answer to his bridge Elite Barbarians and pre-loaded Mother Witch behind it — "He's probably going to go for a knight. We can just get some mother witch value on top of that."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card, the mini-tank in front of every push (arena tracks at [15, 22] -> [15, 17] at t=934-938, [3, 12] in the left lane at t=876-880, [14, 13] at t=1045). Ryley answers it with Berserker at the bridge - "we can go for the knight at the I mean the berserker to keep the knight at the bridge" (t=867) - and later uses it as an alignment target for the Magic Archer: "This should line up with the knight. Keep it in line" (t=1038-1040). He talks about the opponent's ability being paired with it ("He has to go for the ability plus knight", t=932), which suggests a Hero Knight, though the ability is never named.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

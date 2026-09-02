@@ -161,6 +161,16 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:13 overtime (t=1046.8): Goblins at (1,5) as a prediction that lands - "Goblins predict them. Okay, nice."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 1:38 and 0:30 (overtime): the opponent's Goblin Barrel answer, deploy-labelled at (2, 25) at t=619.6 and (2, 26) at t=681.7. Ryley calls it as part of the elixir tax he is applying - "And now he has to goblins on this" (622-624s), following "He has very good goblin barrel answers" (531-532s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card (deploy label 'GobliN3' at t=914.9, arena tracks at [11, 21], [1, 15]). Named as one of the two cards his no-Log list struggles with - "goblins, princess being low cuz we don't have like a log or anything like that" (t=835-838). He answers them by predicting: "then we fire spirit predict the goblins. Nice" (t=920-922), and calls a misplayed set from the opponent - "bad goblins by him as well" (t=1045).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

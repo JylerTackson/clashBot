@@ -346,6 +346,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:15 overtime (t=1040.5): The Log at (3,10) as insurance on an already-won defence - "We can go for our own log. Oh, we didn't even need it, but it's fine. It's better to be safe than sorry."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card. Ryley frames his own deck's weakness around not having one: "we do have a very difficult time dealing with uh some of his stuff like, you know, goblins, princess being low cuz we don't have like a log or anything like that. So, we have to be very very cautious" (t=833-840). He also plays his spirits around a predicted Log - "He might log predict us. No, he doesn't. That's good, dude" (t=1027-1031) - and reads a wasted one in overtime: "Bad log as well" (t=986).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

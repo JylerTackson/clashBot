@@ -162,6 +162,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 2:02 (opponent card): he names Berserker's Savage Survival ability as the distraction he should have used against it — "it would have distracted the Mighty Miner really, really well."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- clock 2:22-2:04 (opponent, tracked crossing onto Ryley's left half): he plans for it a beat early — "Okay, we have to be careful here of the mighty miner" (t=39) — and still accepts chip: "that's what happens when they switch lanes with the mighty miner ability" (t=47). Own left tower 4624 -> 4390.
+- overtime 0:50-0:44 (t=242.2): answered with Magic Archer plus Berserker rather than a hard counter, with the ability expected — "He has to hit the ability, but we're going to get at least one, maybe two" (t=244).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

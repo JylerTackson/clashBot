@@ -181,6 +181,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:16 (t=1085.1, tile [11, 6]): the opponent freezes his defence and kills the Cannon. Ryley writes it off immediately because the Evo Dart Goblin survives — "He did get our cannon, but it's fine. Our Dark Elixir is just putting in so much work" (1084-1090s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 1:31: named as the opponent's only spell and treated as the reason his bait plan is safe — "he only has freeze as a spell, which is very nice for us, actually" (t=767); he had framed the whole list at t=693 as "a homemade Hog Rider [Miner] Freeze deck". Never actually cast in the readable window.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

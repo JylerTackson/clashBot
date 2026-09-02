@@ -361,6 +361,13 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:52 (t=881.7-887): on her reach - "Oh, Valkyrie got a swipe. Valkyrie always gets those super far range swipes, man. The range is so underrated on that thing."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- clock 2:32 (t=1115): plans around the Evo Valkyrie before it appears, holding Wall Breakers so he can answer it at range — "I'm not going to wall breakers cuz I want to be able to magic archer his Valkyrie."
+- clock 2:16-1:51 (t=1129-1152): the opponent's Valkyrie walks down his left lane and he kites it back with Wall Breakers instead of trading a defensive card — "I'm going to kite the Valkyrie back with my wall breakers", and he gives credit: "Nice Valkyrie by him."
+- clock 1:24 onward: the tracker reports the Evolution variant escorting the X-Bow damage in the right lane; he calls the repeat before it lands ("he's definitely just going to go for the Valkyrie again", t=1203) and answers it with Fire Spirit + Berserker + Magic Archer + Royal Delivery rather than a single card.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

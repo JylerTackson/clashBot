@@ -132,6 +132,57 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - Mentioned only as the Furnace's spawn at clock 0:44 — "Let's just furnace here with this e-spirit. That's going to spawn a set of fire spirits" (975-976s); those spawns carried the last of the chip on the enemy right tower.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- 11 deploys, the signature one being the enemy-side bridge tile [14, 14]/[14, 15] (t=25.0, 72.1, 110.1, 139.1, 179.2, 216.2) and its mirror [1-2, 13-15] late (t=158.8, 235.2, 246.2).
+- clock 1:03 (t=110.1): the stated purpose is draining an expensive answer with a 1-elixir card — "I'm going to quickly fire spirit at the bridge cuz he has no [E-]spirit and no skeletons in cycle. So he's going to have to waste either firecracker or mighty miner"; the Firecracker it forces out then gives him a King tower activation (t=116-122).
+- overtime 1:35 and 0:57: repeated as a habit — "Let's fire spirit the bridge and try to get some extra pressure" (t=197), "Let's fire spirit the bridge here" (t=236).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 1:17: part of his signature offensive triple at tile (8, 13), thrown in the same rotation as Goblin Barrel and Wall Breakers — "Let's go for the barrel, fire spirit, and wall breakers here."
+- clock 0:52: paired with the Berserker as cheap splash on a committed push at (13, 9) — "Fire spirit berserker here. Yeah, that's not even a hit."
+- clock 0:27 and 0:19: two defensive 1-elixir uses at (9, 5) and behind the Magic Archer — "let's go for the fire spirit here" and "we can go for a low magic archer, fire spirit just to take this out."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:47: the opening pair with the Goblin Barrel - "Let's go for the Goblin Barrel Fire Spirit here. Try to figure out what he is playing" (430-433s).
+- clock 2:08: played preemptively at (12, 7) against a Hero ability because it cannot lose value - "I'm going to fire spirit preemptively in case he pops the ability. There's no point not to play anyways cuz we'll get tower damage if he doesn't pop the ability or he'll have to defend it. Regardless, it's good for me" (469-477s).
+- clock 1:34 / 1:08: used as the distraction against the Evo Executioner's shot - "Let's go for the fire spirit here as well. Just make sure that we distract that one shot from the executioner" (505-508s), then "I think we got one[,] this fire spirit here" (528-531s).
+- clock 1:09 (overtime): the splash reset that drags the push back to his tower - "Let's fire spirit here to bring this back and then we can keep splashing everything. Beautiful splashing" (650-654s). He also flags the archetype's exposure to a balance change: "this deck is going to get so heavily affected by the nerf to the spirits, man. But it's all good" (479-485s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:20: Fire Spirit alongside the Goblin Barrel — "it's barrel, fire spirit here to apply some pressure" (t=718).
+- clock 1:45: Fire Spirit at tile [6, 15] as the first half of the anti-Minions package, before the Royal Delivery — "we can just go for the fire spirit here" (t=755).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 1:57 (t=856.9, tile [1, 14]): leads the big double-elixir push in the left lane ahead of the Goblin Barrel and Evo Wall Breakers - "Let's go for the fire spirit here. And then I'm going to go for the goblin barrel as well."
+- clock 0:51 (t=920.9, tile [14, 15]): thrown as a prediction on the opponent's Goblins rather than a reaction - "And then we fire spirit predict the goblins. Nice."
+- overtime 1:54 and 1:09 (t=1027 [3, 15], t=1041 [3, 14]): his cheap defensive answer when he cannot afford anything bigger - "I need a fire spear here to block this as well. And that should take that out. Beautiful. Good defense" (t=977-980), "we can just fire spear to take this one out. Just fire spirit here. He might log predict us. No, he doesn't" (t=1025-1029).
+- overtime 0:52 (t=1036.4): the standard package partner - "Fire spirit wall breakers here. And then we go for the barrel as well."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1110/t=1126 (clock 2:37 / 2:21): bridge Fire Spirits at [3,14] and [2,14] as the first and third card of the chip package — "let's go for the fire spear here at the bridge", then "go for the fire spear and then we can go for the berserker as well."
+- t=1203 (clock 1:03): leads his right-lane defence with Fire Spirit at [16,9] (HUD 5.0->4.0) ahead of the Berserker, against a Valkyrie he predicted — "he's definitely just going to go for the Valkyrie again."
+- t=1218 (clock 0:48): the cheap first layer again — "let's go for the low fire spirit. We can go for the low berserker." Further drops at [14,14] (t=1233) and [14,10] (t=1261).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 2:16 (t=1304.3): [14, 14] straight after the Goblin Barrel, stated as pure nuisance value — "Let's fire spirit, too, just to be annoying."
+- clock 1:50 (t=1330.3): [15, 14] at the bridge to keep the opponent spending — "We can even fire spirit at the bridge here. Just keep applying pressure."
+- clock OT 1:41 (t=1460.5): [2, 14] alongside a Goblin Barrel; the combination is what makes the opponent burn the Balloon ability — "He had to pop the ability cuz of that barrel fire spirit and then evo wall breakers as well."
+- clock OT 1:15 (t=1485.0) and OT 1:04 (t=1496.3): [10, 15] and [9, 11] inside the collapsing right-lane defence — "Go for the fire spirit. And then we delivery as well", "We have to go for the fire spirit."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

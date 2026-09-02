@@ -116,6 +116,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.m
 - He counts her two ability charges and plays the punish once they are gone — OT 0:31 "he can't use the Boss Bandit ability anymore. So, let's get a Valkyrie down, too" — and rates her overall at OT 1:34: "the Boss Bandit is not an easy card to defend, though. I swear Boss Bandit is one of the scariest cards ever."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:37: mentioned only, never confirmed on the field - used as the label for the opponent's archetype after his first bridge push: "Maybe he's playing the boss bandit bridge spam deck though" (438-440s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Boss_Bandit (scraped 2026-09-02T02:45:45+00:00)

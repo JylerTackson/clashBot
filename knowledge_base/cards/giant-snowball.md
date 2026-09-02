@@ -187,6 +187,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
 - t≈1868-1872 (clock unreadable): the opponent's Snowball on a defending push is the moment Ryley gives up on the extra crowns — "right here after he snowballed, I was like, 'Okay, like I'm just never going to get the three crown.'" (No Snowball deploy label was read; this is from commentary only.)
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:12 onward: the opponent's Evo snowball is the spell Ryley baits with every barrel and Wall Breakers pair - "He has the snowball" (466s), "his snowball is also Evo. He's one snowball away from Evo" (491-495s), "He might snowball barrel these" (523s).
+- clock 1:30 (overtime): he counts forcing it out as better value than the tower damage he gave up - "we forced out snowball as well. That's honestly probably even better than just grabbing the shot that we would have gotten" (624-628s), and again "He has to snowball that forcing out Evo Snow[ball] is always good" (672-674s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

@@ -110,6 +110,12 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - t=226-243s on what the bug was: "it will just kind of fix the bug with the golden knight where if you had a golden knight dashing onto a ronin, it would actually get reflected and the Gold Knight would not dash onto anything. I thought that was intentional, but apparently it was a bug and it was also messing up against the Dark Prince as well where it would just one-shot the Dark Prince instead of just taking off the shield like it normally should."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 1:45: named but never cleanly detected (the 2024-era detector logs the opponent's 5-elixir bridge drops as 'Barbarians'). "Okay, he has the Ronin. Interesting" (495-496s).
+- clock 0:20: the card he most respects in the matchup, for its HP rather than its damage - "the thing though that I have to be careful of is the Ronin executioner pushes cuz the Ronin has a weirdly high amount of HP" (577-580s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ronin (scraped 2026-09-02T02:35:13+00:00)

@@ -168,6 +168,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
 - t=1578.6s: half of his non-spell answer to a placed X-Bow — "I knew I could just go for a baby dragon plus ice wizard as well, just to take out this X-Bow here" (1577-1582s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:20-2:04: the opponent's answer to the Goblin Barrel, arriving late — "yeah, he goes for the ice wizard, but that's going to be a ton of damage" (t=724-726); Ryley then kills it with Royal Delivery at tile [5, 15] (clock 2:04).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

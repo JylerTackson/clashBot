@@ -171,6 +171,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:33: he lists the Ghost alongside Mother Witch as a reason to keep the Berserker ability unspent (420-424s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 0:45 onward: tracked crossing at (15, 16) and (15, 13) at t=550.5-554.6 and repeatedly in the right lane through overtime; answered with Bomb Tower plus Royal Delivery - "Let's bomb tower here and we can go for the delivery as well. Is that going to walk to it? I don't think it will. Oh, it does" (496-503s).
+- clock 1:28 / 0:40 (overtime): used as a prediction target - he plays Wall Breakers specifically to draw it out - "Let's wall breaker[s] here to force him to go for the ghost" (629-631s), then "Okay, he went for the ghost" (679s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)
