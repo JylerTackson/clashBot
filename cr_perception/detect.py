@@ -154,9 +154,14 @@ class BuildABotDetector:
         self.side = ort.InferenceSession(str(root / "models" / "side.onnx"), providers=["CPUExecutionProvider"])
         self.inp = self.sess.get_inputs()[0].name
         self.H, self.W = self.sess.get_inputs()[0].shape[2:]
-        sys.path.insert(0, str(repo_root))
-        from clashroyalebuildabot.constants import DETECTOR_UNITS  # noqa: E402
-        self.names = [u.name.replace("_", "-") for u in DETECTOR_UNITS]
+        # Read the class list from constants.py textually: importing the
+        # package would pull in its bot/keyboard (input) code, which this
+        # read-only pipeline must not depend on.
+        import re
+        const = (root / "constants.py").read_text()
+        block = const[const.index("DETECTOR_UNITS = ["):]
+        block = block[:block.index("]")]
+        self.names = [n.lower().replace("_", "-") for n in re.findall(r"Units\.([A-Z_0-9]+)", block)]
         self.conf, self.unknown_conf = conf, unknown_conf
         self.last_ms = 0.0
 

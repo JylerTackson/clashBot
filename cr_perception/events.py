@@ -66,11 +66,21 @@ class PlayDetector:
                 self.last_hand[i] = after
         self.pending_hand = [p for p in self.pending_hand if t - p.t <= OWN_MATCH_WINDOW]
 
+    DEBOUNCE = 3   # consecutive frames a new elixir value must persist
+
     def update_elixir(self, t: float, elixir: int | None, clock: str | None) -> list[PlayEvent]:
         """Call after update_hand. An elixir drop matched to a pending hand
-        change (by cost) yields an own PlayEvent."""
+        change (by cost) yields an own PlayEvent. Readings are debounced: a
+        value must repeat DEBOUNCE frames before it counts, so bar-edge
+        flicker never becomes a play."""
         events: list[PlayEvent] = []
         if elixir is None:
+            return events
+        if elixir != getattr(self, "_cand", None):
+            self._cand, self._cand_n = elixir, 1
+            return events
+        self._cand_n += 1
+        if self._cand_n < self.DEBOUNCE:
             return events
         if self.last_elixir is not None and elixir < self.last_elixir:
             drop = self.last_elixir - elixir
@@ -91,9 +101,10 @@ class PlayDetector:
                                         "hud", "high" if abs(cost - drop) <= 0.5 else "medium",
                                         f"slot {best.slot}: {best.before} -> {best.after}, drop {drop}"))
                 self.own_play_cards_recent.append((t, best.before))
-            elif drop >= 1:
+            elif drop >= 2:
                 events.append(PlayEvent(t, clock, "own", None, None, float(self.last_elixir), float(elixir),
                                         "inferred", "low", f"elixir dropped by {drop} with no readable hand change"))
+            # a lone 1-elixir drop without a hand change is treated as read noise
         self.last_elixir, self.last_elixir_t = elixir, t
         self.own_play_cards_recent = [(tt, c) for tt, c in self.own_play_cards_recent if t - tt <= 3.0]
         return events
@@ -160,7 +171,7 @@ class PlayDetector:
             if hp is None:
                 continue
             prev = self.last_enemy_hp.get(name)
-            if prev is not None and prev - hp >= 150:
+            if prev is not None and hp > 0 and 150 <= prev - hp <= 1500:
                 near = any(u.side == "enemy" and u.tile is not None and u.tile[1] <= 8 for u in units)
                 if not near:
                     events.append(PlayEvent(t, clock, "opponent", None, None, None, None, "inferred", "low",

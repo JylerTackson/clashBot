@@ -55,7 +55,7 @@ class Perception:
     ENTER_FRAMES: int = 3
     EXIT_SECONDS: float = 2.0
     detect_every: int = 3
-    ocr_every: int = 15
+    ocr_every: int = 10
     use_ocr: bool = True
     kb: Path = KB
     calib: Calibration = field(init=False)
@@ -66,7 +66,7 @@ class Perception:
         self.costs = load_card_costs(self.kb)
         self.matcher = CardMatcher(self.kb / "cards" / "images")
         self.hand_reader = HandReader(self.matcher, self.calib.rois)
-        self.elixir_bar = ElixirBarReader(self.calib.rois["elixir_bar"])
+        self.elixir_bar = ElixirBarReader(self.calib.rois["elixir_bar"], self.calib.rois.get("elixir_bar_full"))
         self.digits = DigitTemplates()
         self.elixir_digit = DigitReader(self.calib.rois["elixir_num"], self.digits)
         self.clock_digit = DigitReader(self.calib.rois["clock"], self.digits)
@@ -108,6 +108,30 @@ class Perception:
             self.last_good_t[field_name] = t
             return value, conf, False
         return self.last_good.get(field_name), conf, True
+
+    def _smooth_hand(self, hand: dict, window: int = 5) -> dict:
+        """Majority vote per slot over the last `window` reads; a slot's
+        value only changes when the new card wins the vote, which removes
+        single-frame flicker (e.g. a raised/greyed card)."""
+        hist = self.__dict__.setdefault("_hand_hist", [])
+        hist.append((list(hand["hand"]), list(hand["hand_conf"])))
+        del hist[:-window]
+        out = dict(hand)
+        sm, smc = [], []
+        for i in range(4):
+            votes = {}
+            for h, c in hist:
+                if h[i] is not None:
+                    votes[h[i]] = votes.get(h[i], 0) + c[i]
+            if votes:
+                best = max(votes, key=votes.get)
+                sm.append(best)
+                smc.append(round(votes[best] / len(hist), 3))
+            else:
+                sm.append(None)
+                smc.append(0.0)
+        out["hand"], out["hand_conf"] = sm, smc
+        return out
 
     def reset_match(self, t: float) -> None:
         self.play = PlayDetector(self.costs)
@@ -158,16 +182,22 @@ class Perception:
         # ---- HUD: hand ----
         t0 = time.perf_counter()
         hand = self.hand_reader.read(content)
+        hand = self._smooth_hand(hand)
         self._tick("hand", t0)
 
         # ---- clock / phase (template digits every frame, OCR fallback at low rate) ----
         t0 = time.perf_counter()
-        clock_s, clock_conf = self.clock_digit.read_string(content)
-        remaining = parse_clock(clock_s)
-        if remaining is None and self.ocr is not None and idx % self.ocr_every == 0:
+        clock_s, clock_conf, remaining = "", 0.0, None
+        if self.ocr is not None and idx % self.ocr_every == 0:
             s, c = self.ocr.read(crop_roi(content, self.calib.rois["clock"]))
-            if parse_clock(s) is not None:
+            if parse_clock(s) is not None and c >= 0.6:
                 clock_s, clock_conf, remaining = s, c, parse_clock(s)
+        if remaining is None:
+            s2, c2 = self.clock_digit.read_string(content)
+            prev = parse_clock(self.last_good.get("clock") or "")
+            # template digits are trusted only when they continue the previous read
+            if parse_clock(s2) is not None and prev is not None and 0 <= prev - parse_clock(s2) <= 3:
+                clock_s, clock_conf, remaining = s2, min(c2, 0.7), parse_clock(s2)
         clock_v, clock_conf, stale_c = self._commit("clock", clock_s if remaining is not None else None, clock_conf, t)
         remaining = parse_clock(clock_v) if clock_v else None
         overtime = bool(self.last_good.get("overtime", False))
@@ -182,10 +212,10 @@ class Perception:
             hp = self.tower_reader.read(content)
             for k in ("king", "left", "right"):
                 v, c = hp[f"own_{k}"]
-                if v is not None and c >= 0.5:
+                if v is not None and c >= 0.8:
                     self.last_good[f"own_{k}"] = v
                 v, c = hp[f"enemy_{k}"]
-                if v is not None and c >= 0.5:
+                if v is not None and c >= 0.8:
                     self.last_good[f"enemy_{k}"] = v
             self._tick("towers", t0)
         for k in ("king", "left", "right"):

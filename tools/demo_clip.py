@@ -63,6 +63,7 @@ def main() -> int:
     ap.add_argument("--start", type=float, default=None, help="override the auto-found match start")
     ap.add_argument("--detector", default="katacr")
     ap.add_argument("--detect-every", type=int, default=6)
+    ap.add_argument("--imgsz", type=int, default=896, help="KataCR inference size (640 is ~2x faster, less precise)")
     ap.add_argument("--katacr-root", default="/home/user/wty-yy/katacr")
     ap.add_argument("--buildabot-root", default="/home/user/pbatch/clashroyalebuildabot")
     a = ap.parse_args()
@@ -105,7 +106,7 @@ def main() -> int:
     det = None
     if a.detector == "katacr":
         from cr_perception.detect import KataCRDetector
-        det = KataCRDetector([f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"], a.katacr_root)
+        det = KataCRDetector([f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"], a.katacr_root, imgsz=a.imgsz)
     elif a.detector == "buildabot":
         from cr_perception.detect import BuildABotDetector
         det = BuildABotDetector(a.buildabot_root)

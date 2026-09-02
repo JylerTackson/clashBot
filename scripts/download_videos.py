@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import subprocess
 import sys
 import time
@@ -32,14 +33,50 @@ def list_channel(url: str, n: int) -> list[dict]:
     return vids
 
 
+NON_CR = re.compile(r"marvel snap|plants on fire|brawl stars|clash of clans|squad busters|clash mini|fortnite|minecraft|"
+                    r"valorant|roblox|among us|hay day|boom beach|mario|pokemon|chess|overwatch|apex", re.I)
+CR = re.compile(r"clash royale|\bcr\b|crl|log bait|hog rider|royal hogs|x-?bow|mortar|golem|graveyard|miner|mega knight|"
+                r"pekka|evolution|\bevo\b|elixir|arena|ultimate champion|trophies|\bdeck\b|\bcard\b|hero (knight|valkyrie|"
+                r"ice wizard|berserker|giant|musketeer|wizard|goblins|mega minion|balloon|bowler|dark prince|tombstone|barbarian)", re.I)
+
+
+def is_clash_royale(v: dict, info: dict | None = None) -> tuple[bool, str]:
+    """Title says another game -> no. Otherwise title/tags/description must
+    mention Clash Royale (or its vocabulary). The perception pipeline's
+    readiness scan is the final check: no match periods -> not usable."""
+    title = v.get("title", "")
+    if NON_CR.search(title):
+        return False, f"title names another game: {title}"
+    if CR.search(title):
+        return True, "title"
+    if info:
+        blob = " ".join([info.get("description", ""), " ".join(info.get("tags", []) or []), " ".join(info.get("categories", []) or [])])
+        if re.search(r"clash royale", blob, re.I) and not NON_CR.search(blob[:400]):
+            return True, "tags/description"
+    return False, "no Clash Royale reference in title/tags/description"
+
+
+def fetch_info(v: dict) -> dict | None:
+    d = OUT / v["id"]
+    d.mkdir(parents=True, exist_ok=True)
+    existing = list(d.glob("*.info.json"))
+    if existing:
+        return json.loads(existing[0].read_text())
+    cmd = ["yt-dlp", *EXTRA, "-q", "--skip-download", "--write-info-json", "--no-playlist",
+           "-o", str(d / "%(id)s.%(ext)s"), f"https://www.youtube.com/watch?v={v['id']}"]
+    subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+    existing = list(d.glob("*.info.json"))
+    return json.loads(existing[0].read_text()) if existing else None
+
+
 def download(v: dict, height: int) -> dict:
     d = OUT / v["id"]
     d.mkdir(parents=True, exist_ok=True)
-    done = list(d.glob("*.mp4"))
+    done = [f for f in d.iterdir() if f.suffix in (".mp4", ".webm", ".mkv")]
     if done and not list(d.glob("*.part")):
         return {**v, "status": "cached", "file": done[0].name}
     cmd = ["yt-dlp", *EXTRA, "--no-progress", "-q",
-           "-f", f"bv*[height<={height}][ext=mp4]/bv*[height<={height}]/b[height<={height}]",
+           "-f", "bv*", "-S", f"res:{height},vcodec:h264,ext:mp4",   # short side = {height}; H.264 so OpenCV can decode (no AV1)
            "--write-auto-subs", "--write-subs", "--sub-langs", "en.*,en", "--sub-format", "vtt/srt",
            "--write-info-json", "--no-playlist", "-N", "4",
            "-o", str(d / "%(id)s.%(ext)s"),
@@ -70,6 +107,17 @@ def main() -> int:
     EXTRA = ["--js-runtimes", "node", "--sleep-requests", str(a.sleep)] + (["--cookies", a.cookies] if a.cookies else [])
     vids = list_channel(a.channel, a.n)
     print(f"{len(vids)} videos listed", flush=True)
+    # metadata-first pass: keep only Clash Royale videos
+    keep, skipped = [], []
+    for v in vids:
+        ok, why = is_clash_royale(v)
+        if not ok and "another game" not in why:
+            ok, why = is_clash_royale(v, fetch_info(v))
+        (keep if ok else skipped).append({**v, "reason": why})
+    for v in skipped:
+        print(f"skip   {v['id']} {v['title'][:60]}  ({v['reason']})", flush=True)
+    print(f"{len(keep)} Clash Royale videos to download, {len(skipped)} skipped", flush=True)
+    vids = keep
     results = []
     with ThreadPoolExecutor(max_workers=a.workers) as ex:
         futs = {ex.submit(download, v, a.height): v for v in vids}
@@ -82,6 +130,7 @@ def main() -> int:
     order = {v["id"]: i for i, v in enumerate(vids)}
     results.sort(key=lambda r: order[r["id"]])
     (OUT / "manifest.json").write_text(json.dumps({"channel": a.channel, "requested": a.n,
+                                                    "skipped_non_clash_royale": skipped,
                                                     "videos": results}, indent=1))
     n_ok = sum(r["status"] in ("ok", "cached") for r in results)
     print(f"done: {n_ok}/{len(vids)} downloaded, total {sum(r.get('bytes', 0) for r in results)//1_000_000} MB")

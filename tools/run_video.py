@@ -28,7 +28,7 @@ SCRATCH = "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a08
 def build_detector(name: str, a):
     if name == "katacr":
         from cr_perception.detect import KataCRDetector
-        return KataCRDetector(a.katacr_weights or [f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"], a.katacr_root)
+        return KataCRDetector(a.katacr_weights or [f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"], a.katacr_root, imgsz=a.imgsz)
     if name == "buildabot":
         from cr_perception.detect import BuildABotDetector
         return BuildABotDetector(a.buildabot_root)
@@ -48,6 +48,7 @@ def main() -> int:
     ap.add_argument("--end", type=float, default=None)
     ap.add_argument("--stride", type=int, default=1)
     ap.add_argument("--detect-every", type=int, default=3)
+    ap.add_argument("--imgsz", type=int, default=896)
     ap.add_argument("--overlay", action="store_true")
     ap.add_argument("--frames-every", type=int, default=0, help="dump every Nth frame as jpg for labelling")
     ap.add_argument("--no-ocr", action="store_true")

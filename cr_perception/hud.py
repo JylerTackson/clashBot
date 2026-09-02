@@ -19,21 +19,23 @@ import numpy as np
 # Default fractional ROIs for the portrait 9:16-ish game layout. Calibration
 # overrides these; they are only starting points.
 DEFAULT_ROIS = {
-    "arena":       [0.02, 0.10, 0.96, 0.68],
-    "clock":       [0.72, 0.03, 0.26, 0.07],
-    "elixir_bar":  [0.29, 0.955, 0.69, 0.028],
-    "elixir_num":  [0.235, 0.935, 0.075, 0.06],
-    "hand_0":      [0.245, 0.815, 0.145, 0.125],
-    "hand_1":      [0.415, 0.815, 0.145, 0.125],
-    "hand_2":      [0.585, 0.815, 0.145, 0.125],
-    "hand_3":      [0.755, 0.815, 0.145, 0.125],
-    "next_card":   [0.05, 0.86, 0.10, 0.08],
-    "own_king_hp":    [0.42, 0.72, 0.16, 0.035],
-    "own_left_hp":    [0.14, 0.60, 0.14, 0.03],
-    "own_right_hp":   [0.72, 0.60, 0.14, 0.03],
-    "enemy_king_hp":  [0.42, 0.115, 0.16, 0.035],
-    "enemy_left_hp":  [0.14, 0.235, 0.14, 0.03],
-    "enemy_right_hp": [0.72, 0.235, 0.14, 0.03],
+    # measured on a 596x1280 phone recording (aspect 2.148); calib.json overrides
+    "arena":       [0.02, 0.12, 0.96, 0.66],
+    "clock":       [0.83, 0.083, 0.16, 0.035],     # digits under the "Time left:" label
+    "elixir_bar":  [0.29, 0.958, 0.69, 0.024],     # part of the bar not covered by the badge
+    "elixir_bar_full": [0.25, 0.972],              # true x-extent of the bar (fill is measured against this)
+    "elixir_num":  [0.262, 0.947, 0.065, 0.042],   # the numeral right of the droplet icon
+    "hand_0":      [0.235, 0.848, 0.160, 0.095],
+    "hand_1":      [0.418, 0.848, 0.160, 0.095],
+    "hand_2":      [0.598, 0.848, 0.160, 0.095],
+    "hand_3":      [0.790, 0.848, 0.160, 0.095],
+    "next_card":   [0.040, 0.928, 0.095, 0.048],
+    "own_king_hp":    [0.40, 0.700, 0.20, 0.025],
+    "own_left_hp":    [0.155, 0.640, 0.12, 0.020],
+    "own_right_hp":   [0.735, 0.640, 0.12, 0.020],
+    "enemy_king_hp":  [0.40, 0.108, 0.20, 0.025],
+    "enemy_left_hp":  [0.155, 0.190, 0.12, 0.020],
+    "enemy_right_hp": [0.735, 0.190, 0.12, 0.020],
 }
 
 
@@ -60,8 +62,9 @@ class ElixirBarReader:
     segments; fill fraction * 10, rounded down, is the integer elixir. The
     digit read (ElixirDigitReader) is cross-checked when available."""
 
-    def __init__(self, roi):
+    def __init__(self, roi, full_extent: list[float] | None = None):
         self.roi = roi
+        self.full = full_extent   # [x0, x1] fractions of the content width for the whole bar
 
     def read(self, content: np.ndarray) -> tuple[int | None, float]:
         img = crop_roi(content, self.roi)
@@ -70,18 +73,23 @@ class ElixirBarReader:
         m = _purple_mask(img)
         col = m.mean(axis=0)              # per-column purple fraction
         filled = col > 0.35
+        W = content.shape[1]
+        if self.full:
+            x0_px = self.roi[0] * W
+            full_px = (self.full[1] - self.full[0]) * W
+            lead_px = x0_px - self.full[0] * W        # bar length hidden under the badge
+        else:
+            full_px, lead_px = float(len(col)), 0.0
         if not filled.any():
             return 0, 0.4
-        # contiguous run from the left
-        idx = np.where(filled)[0]
-        run_end = idx[0]
-        for i in idx:
-            if i <= run_end + 2:
-                run_end = i
-            else:
-                break
-        frac = (run_end + 1) / len(col)
-        elixir = int(np.floor(frac * 10 + 0.15))
+        # fill end = rightmost purple column while the cumulative purple density
+        # from the left stays high (tolerates separator lines and flashes)
+        n = len(col)
+        cum = np.cumsum(filled) / np.arange(1, n + 1)
+        ok_idx = np.where(filled & (cum >= 0.7))[0]
+        run_end = int(ok_idx[-1]) if len(ok_idx) else int(np.where(filled)[0][0])
+        frac = (lead_px + run_end + 1) / full_px
+        elixir = int(np.clip(round(frac * 10), 0, 10))   # the fill is quantised in tenths
         elixir = max(0, min(10, elixir))
         # confidence: how clean the edge is (few purple columns after the run)
         noise = float(filled[run_end + 3:].mean()) if run_end + 3 < len(filled) else 0.0
@@ -279,6 +287,15 @@ class HandReader:
         self.m, self.rois, self.thr, self.margin = matcher, rois, threshold, margin
 
     def _slot(self, content: np.ndarray, roi) -> tuple[str | None, float, list]:
+        # a selected card is drawn raised: try the nominal box and one shifted up
+        best = (None, 0.0, [])
+        for dy in (0.0, -0.018):
+            r = self._slot_at(content, [roi[0], roi[1] + dy, roi[2], roi[3]])
+            if r[1] > best[1]:
+                best = r
+        return best
+
+    def _slot_at(self, content: np.ndarray, roi) -> tuple[str | None, float, list]:
         crop = crop_roi(content, roi)
         if crop.size == 0:
             return None, 0.0, []
