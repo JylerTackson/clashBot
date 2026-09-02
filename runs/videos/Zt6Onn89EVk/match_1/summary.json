@@ -1,0 +1,119 @@
+{
+ "frames": 2218,
+ "seconds": 1234.0,
+ "timing": {
+  "total": {
+   "n": 2218,
+   "mean_ms": 539.6,
+   "p95_ms": 2471.3
+  },
+  "elixir": {
+   "n": 2216,
+   "mean_ms": 1.8,
+   "p95_ms": 2.6
+  },
+  "hand": {
+   "n": 2216,
+   "mean_ms": 198.6,
+   "p95_ms": 252.4
+  },
+  "clock": {
+   "n": 2216,
+   "mean_ms": 132.3,
+   "p95_ms": 863.6
+  },
+  "labels": {
+   "n": 370,
+   "mean_ms": 576.6,
+   "p95_ms": 719.9
+  },
+  "detect": {
+   "n": 185,
+   "mean_ms": 1172.2,
+   "p95_ms": 1427.1
+  },
+  "loop_fps": 1.9
+ },
+ "own_elixir_drift": {
+  "n": 1756,
+  "mean": 0.08,
+  "abs_mean": 1.065,
+  "max_abs": 10.0,
+  "last": 1.15
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "bomb-tower",
+   "spear-goblins",
+   "bats",
+   "skeleton-king-skill",
+   "tornado",
+   "poison",
+   "bomb",
+   "witch"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "poison",
+   "skeleton-king-skill",
+   "bats",
+   "witch"
+  ],
+  "predicted_next": "miner",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado",
+    "name": "GY IWiz Evo BBD Nado",
+    "archetype": "control",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "baby-dragon",
+     "barbarian-barrel",
+     "graveyard",
+     "ice-wizard",
+     "knight",
+     "tombstone"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-goblin-hut-ice-wizard-mighty-miner-miner-poison-skeletons-wall-breakers",
+    "name": "Miner Wall Breakers HeroIceWiz",
+    "archetype": "control",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.97,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "mighty-miner",
+     "miner",
+     "skeletons",
+     "wall-breakers"
+    ]
+   },
+   {
+    "deck_key": "archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons",
+    "name": "Goblinstein EvoRHogs 3.4 Cycle",
+    "archetype": "cycle",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.97,
+    "remaining": [
+     "archers",
+     "barbarian-barrel",
+     "electro-spirit",
+     "goblinstein",
+     "lightning",
+     "royal-hogs",
+     "skeletons"
+    ]
+   }
+  ],
+  "cycle_confirmed": 1,
+  "cycle_violations": 6
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "key": "Zt6Onn89EVk-m0.1",
+ "match_file": "matches/Zt6Onn89EVk-m0.1.md",
+ "video_title": "Hero Valkyrie is the Most BROKEN Hero of All Time",
+ "cards": {
+  "valkyrie": [
+   "This is the Heroic Valkyrie (4 elixir card + 3 elixir Wild Whirlwind). Every one of her five deploys is a back-of-court cycle or a bridge commit, never a mid-court defence: (1, 5) at clock 2:47, (9, 1) behind the King at 2:23, (2, 14) at the bridge at 1:35, (10, 0) at 0:50, (2, 15) at the bridge at 0:17. \"Let's [we're] going to Valkyrie in the back here. He mirrors it with his own Valkyrie\" (314-318s).",
+   "clock 1:35: Valkyrie at the left bridge for 4 elixir immediately followed by the Royal Giant at (3, 15) for 6 — his standard commit when the opponent has overspent. \"And if he overspends, I'm just going to go for the Valkyrie at the bridge. Okay, I think I just go Valkyrie plus RG at the bridge right now.\" (356-360s)",
+   "clock 0:17-0:13: the game-winning play. Valkyrie at (2, 15), then a bare 3-elixir step (6 -> 3) for Wild Whirlwind instead of the Fireball he had ready; the tower goes 1517 -> 222 HP in about 15 seconds. \"I'm not going to Fireball that. I'm going to ability instead, guys. Look, it's going to go to the tower. That was literally unstoppable. What could he have even done there? That was guaranteed on tower 100.\" (441-449s)",
+   "His framing for judging her, said over a Valkyrie mirror at 320-348s: \"a lot of the times the card doesn't seem as strong when they keep facing each other cuz in a lot of scenarios they end up canceling each other out. You need to kind of think about the card on how strong it would be against people who aren't using the Valkyrie... imagine the Valkyrie hero against your regular average player who plays like og barbs mega knight.\" He also names the matchup shape that makes her good: \"he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight\" (402-408s)."
+  ],
+  "royal-giant": [
+   "clock 2:00: first Royal Giant goes down at (9, 1), behind the King Tower, as a build-up in single elixir rather than a bridge play.",
+   "clock 1:33: Royal Giant at (3, 15), the left bridge, one second after the Heroic Valkyrie at (2, 14) — 10 elixir committed at once against an opponent stuck cycling. \"He's in a bit of a predicament cuz he has to cycle back to the Bomb Tower.\" (360-365s)",
+   "clock 0:42: Royal Giant at (2, 14) deliberately opposite his Valkyrie so the opponent cannot answer both lanes; the tower he hits drops 2745 -> 1793 in about six seconds. \"I think I could RG here cuz we have the Valkyrie in the opposite lane, and I think I could just hit the ability to grab extra damage cuz you guys look, it's going to start shooting at rapid pace. Look at all that damage in only a few seconds. Already down to 1,700 HP.\" (414-424s)"
+  ],
+  "hunter": [
+   "Evolution Hunter, and purely defensive: all four deploys are deep in his own half — (3, 11) at clock 2:38, (8, 15), (0, 12) at 0:27, (1, 6) at 0:03. The first was not intended: \"Let's go for the hunter here. Oh my god, I misclicked.\" (298-299s)",
+   "clock 0:27: pre-placed against the enemy Heroic Valkyrie before she can spin, rather than reacting to the ability. \"Okay, let's Evo Hunter here for the Hero Valkyrie before he gets a chance to pop the ability. I just don't want to deal with that thing.\" (428-432s)",
+   "clock 0:03: Hunter at (1, 6) is played off to the side while the Fireball does the damage — \"Fireball number one, Hunter on the side\" (452s)."
+  ],
+  "fisherman": [
+   "clock 2:13: Fisherman at (9, 12), mid-own-half, into the enemy Valkyrie crossing the right lane (deploy label logged as an opponent play, but the tile is Ryley's half and an own 3-elixir drop follows at t=324.5).",
+   "clock 1:23: Fisherman at (8, 6), in front of the King Tower, used specifically to force a King activation off the enemy hero. \"I should be able to defend this anyways, and we can activate our King Tower off of the Valkyrie\" (369-373s) — his King Tower HP first becomes readable four seconds later.",
+   "He treats the hook as the answer to an enemy Hero Valkyrie's ability: \"Even the ability won't do anything cuz it's going to get put in the net again\" (436-437s).",
+   "clock 0:47: Fisherman at (1, 8) then Barbarian Barrel two seconds later as a paired defence — \"Let's Fisherman here, then we go for the Barbarian Barrel as well\" (408-410s)."
+  ],
+  "barbarian-barrel": [
+   "Five uses, all on the left column near the river — (3, 13), (3, 14), (3, 13), one at t=407.7 and (3, 10) — never rolled at the enemy tower for chip.",
+   "clock 1:21: rolled to finish a Miner that had already been chipping the tower, with the opponent's follow-up spell already predicted. \"I want a Barbarian Barrel that Miner just to finish it off cuz he's going to maybe go for a NATO ['a 'Nado']\" (373-377s).",
+   "He tracks it as a rotation resource, not a free answer: \"we can E-Spirit predict the Evo Skellies since we just wasted our Barb Barrel\" (378-380s)."
+  ],
+  "electro-spirit": [
+   "Five uses at (2, 8), (2, 14) twice, (13, 14), (3, 15) and (3, 9) — every one a prediction rather than a reaction to something already on the field.",
+   "clock 1:43: \"I'm going to go for the Barb Barrel, and I'm going to go for the E-Spirit here to try to predict the Skeletons. Nice, good timing right there.\" (351-354s)",
+   "clock 1:17: Electro Spirit at (3, 15) timed for the opponent's Evolution Skeletons because the Barbarian Barrel was already spent: \"then we can E-Spirit predict the Evo Skellies since we just wasted our Barb Barrel. Nice, let's go. Very good sequence right there. One Skelly lives, but that's going to be at least two shots, maybe three.\" (378-385s)"
+  ],
+  "skeletons": [
+   "Five uses at (3, 5), (3, 9), (1, 9), (9, 15) and one unlabelled, all cheap distraction and cycle inside his own half.",
+   "clock 0:23: stacked behind the Evolution Hunter against the enemy Heroic Valkyrie while the Fireball is held back — \"We can Skellies and we have the Fireball ready for the Magic Archer\" (433-434s)."
+  ],
+  "fireball": [
+   "Held all game as the designated Magic Archer answer: \"we have the Fireball ready for the Magic Archer\" (434s), and explicitly declined at clock 0:15 when the ability was the better spend — \"I'm not going to Fireball that. I'm going to ability instead\" (440-441s).",
+   "clock 0:03 into overtime: spent twice on the same tower at (3, 23) and (3, 24) as a pure finisher after the Valkyrie ability left it at 222 HP. \"We just need two Fireballs. Fireball number one... Then we just go for a second Fireball. Let's go.\" (452-459s)"
+  ],
+  "miner": [
+   "Opponent's card. Tracked on Ryley's half at (2, 7) at clock 2:41 and again at (7, 16) at clock 1:25; Ryley answers the second one with a Barbarian Barrel rather than a troop — \"I want a Barbarian Barrel that Miner just to finish it off\" (375s)."
+  ],
+  "magic-archer": [
+   "Opponent's card, seen at (0, 17) at clock 0:10. Ryley plans around it two full minutes early, both as the reason to keep Fireball in hand (\"we have the Fireball ready for the Magic Archer\", 434s) and as the reason his Heroic Valkyrie should be good in the matchup: \"he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight\" (402-408s)."
+  ],
+  "bomb-tower": [
+   "Opponent's only defensive building, sitting at (8, 19) from clock 1:46 onward. Ryley uses its cycle as the trigger for his commits: \"He's in a bit of a predicament cuz he has to cycle back to the Bomb Tower. Okay, he's back to the Bomb Tower now, but I should be able to defend this anyways\" (362-369s)."
+  ],
+  "golden-knight": [
+   "Mentioned, not played. At 402-408s he uses the Golden Knight's dash as the reference point for what the Heroic Valkyrie's Wild Whirlwind does to a clump of mid-court support: \"he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight.\""
+  ]
+ },
+ "deck": {
+  "deck_key": "barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-giant-skeletons-valkyrie",
+  "cards": [
+   "barbarian-barrel",
+   "electro-spirit",
+   "fireball",
+   "fisherman",
+   "hunter",
+   "royal-giant",
+   "skeletons",
+   "valkyrie"
+  ],
+  "bullets": [
+   "Game 2 of a five-deck showcase (video 286.5s-466.5s): the RoyaleAPI 'EvoRG FishBoy Hunter 3.0 Cycle' shell with Royal Ghost replaced by the Heroic Valkyrie, ~3.1 average elixir. Won in overtime with all three of his own towers standing.",
+   "Single elixir is spent almost entirely on cheap defence and back-of-court cycle — Valkyrie at (9, 1) at clock 2:23 and Royal Giant at (9, 1) at clock 2:00 are built from behind the King Tower, not at the bridge.",
+   "The offensive pattern is Valkyrie plus Royal Giant on the same bridge tile, played when the opponent's defensive building is out of rotation: clock 1:35 \"I think I just go Valkyrie plus RG at the bridge right now. He's in a bit of a predicament cuz he has to cycle back to the Bomb Tower.\"",
+   "In triple elixir he splits lanes on purpose — Royal Giant at (2, 14) at clock 0:42 while the Valkyrie occupies the other side: \"I think I could RG here cuz we have the Valkyrie in the opposite lane, and I think I could just hit the ability to grab extra damage.\"",
+   "Defence is cheap-and-stacked: Fisherman hooks and King-activates ((8, 6), clock 1:23), Evolution Hunter and Skeletons pre-empt the enemy hero ((0, 12) and (1, 9), clock 0:27-0:23), and Electro Spirit is spent on predictions rather than reactions (clock 1:43 and 1:17).",
+   "The tower is closed out by the 3-elixir Wild Whirlwind at clock 0:15 (1517 -> 222 HP) and two Fireballs in overtime, not by the Royal Giant."
+  ],
+  "new_deck": {
+   "display_name": "Royal Giant Ryley",
+   "archetype_primary": "cycle",
+   "archetype_secondary": "none",
+   "rationale": "A 6-elixir Royal Giant win condition supported by a ~3.1-elixir list whose bottom half (Skeletons, Electro Spirit, Barbarian Barrel) exists to bring him and the Fireball back to hand faster than the opponent's answer.",
+   "why_it_works_md": "This is the popular EvoRG FishBoy Hunter cycle list with Royal Ghost cut for the Heroic Valkyrie, and the swap changes what the deck does with a completed defence. Royal Giant still does the chip work from outside tower range while Fisherman hooks the high-DPS defender off him and Evolution Hunter melts anything that walks into point-blank range, and the 1-elixir Skeletons and Electro Spirit keep the cycle short enough that Ryley can spend the spirit on predictions (\"E-Spirit here to try to predict the Skeletons\", 353s) rather than saving it. The Valkyrie adds a second, independent threat: at 4 elixir she can be dropped at the bridge in the opposite lane to the Royal Giant, and her 3-elixir Wild Whirlwind converts that presence into a tower kill on its own — at clock 0:15 it took the tower from 1517 to 222 HP with the Fireball still in hand. Against a control deck full of mid-court support the ability is also the deck's best value spell, which is how Ryley frames it: \"he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight.\" The cost is the same one the base list has — the anti-air is only Hunter, Electro Spirit and Fireball, and the Valkyrie cannot touch air at all."
+  }
+ }
+}

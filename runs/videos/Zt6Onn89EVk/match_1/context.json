@@ -1,0 +1,36 @@
+{
+ "video_id": "Zt6Onn89EVk",
+ "match_index": 1,
+ "split_into": [
+  {
+   "match": "1.0",
+   "seconds": 76.2,
+   "events": 42,
+   "own_deck": [
+    "wall-breakers",
+    "ice-spirit",
+    "cannon",
+    "goblins",
+    "dart-goblin",
+    "valkyrie",
+    "skeleton-army",
+    "princess"
+   ]
+  },
+  {
+   "match": "1.1",
+   "seconds": 293.1,
+   "events": 115,
+   "own_deck": [
+    "ice-spirit",
+    "goblins",
+    "hog-rider",
+    "the-log",
+    "valkyrie",
+    "executioner",
+    "bomb-tower",
+    "miner"
+   ]
+  }
+ ]
+}

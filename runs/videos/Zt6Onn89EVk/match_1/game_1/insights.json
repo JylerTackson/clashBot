@@ -1,0 +1,99 @@
+{
+  "key": "Zt6Onn89EVk-m1.1",
+  "match_file": "matches/Zt6Onn89EVk-m1.1.md",
+  "video_title": "Hero Valkyrie is the Most BROKEN Hero of All Time",
+  "cards": {
+    "hog-rider": [
+      "clock 2:38 (t=776.6): opens the game with a bare Hog Rider at the right-bridge tile (16,15) from 9 elixir - \"Let's go for the Hog Rider here at the bridge just to apply some early game pressure.\"",
+      "clock 1:54 (t=821.6): repeats the same (16,15) bridge Hog into an opponent sitting near 10 elixir - \"Let's go for the Hog Rider here. Apply some pressure.\"",
+      "clock 1:09 (t=872.7): uses the Hog defensively at (8,13), behind an Ice Spirit and Goblins, to kite the enemy Hero Valkyrie - \"just Hog Rider here to kite this back... Very good Hog right here. Bringing the Hero Valkyrie away. After the ability is popped as well.\"",
+      "clock 0:32 overtime (t=1025.8): Valkyrie plus Hog at the left bridge (1,15) with the hero ability saved for the follow-up takes the enemy left tower from 1654 to 847 HP - \"go for the Valkyrie hog rider here. I'm going to go for the ability ice spirit here.\" He judges the card by the defence it forces: \"At least he has to use the bomb tower again. He's barely got any damage\" (clock 1:44 overtime, t=951)."
+    ],
+    "executioner": [
+      "clock 2:12 (t=803.6): pushes the Executioner up to (2,15) against a four-Bat swarm after saying the trigger out loud at t=800 - \"we could go for the Executioner at the bridge if he goes for the Bats.\"",
+      "clock 1:22 (t=853.7): Executioner at (3,14) into Evo Bats - \"Axe here. Make sure we take these out. Never really risking anything.\"",
+      "clock 1:19 overtime (t=970.8): Executioner at (2,8) as the anti-Valkyrie card - \"Forced out the Valkyrie with the XE. Then we can go for another executioner here. Let's take out the Valkyrie then we can go for the goblins plus log.\"",
+      "clock 0:26 overtime (t=1030): a second Executioner used purely as bridge denial - \"Let's XE again just to make it so he can't ever cross the bridge.\""
+    ],
+    "tornado": [
+      "clock 2:08 (t=804.6): Tornado at (2,18) to group a four-Bat swarm for the Executioner axe, and he declines the 3-elixir hero ability to afford it - \"Could we NATO this, maybe? Yeah, let's NATO this. I want an ability, but it's not worth it.\"",
+      "clock 1:30 (t=846.6): a pre-planned King Tower activation, Tornado at (9,8) on his own half dragging two Wall Breakers into King range - \"We have Nado here ready to activate the King Tower later... Make sure we activate the King Tower\", then \"Beautiful. Great King Tower activation. Always good to get that up.\" His King HP first reads 4543 four seconds later.",
+      "clock 0:42 (t=894.7): tried as a prediction on the opposing Hero Valkyrie and missed - \"We have a Nado ready for the Valkyrie. Let's Nado predict. Oh, I tried to predict him.\"",
+      "clock 0:40 and 0:24 overtime (t=1015.8, 1031.8): two backwards Tornadoes to drag the enemy Valkyrie away from the bridge instead of pulling her forward - \"I think I'm going to NATO this backwards. Let's NATO this back\" and \"Let's NATO this back as well.\""
+    ],
+    "valkyrie": [
+      "Deck rationale (t=770-776), playing the Hero variant with Wild Whirlwind: \"this is probably the first deck that I thought of when I thought of the Hero Valkyrie. I feel like the Valkyrie works nicely with Tornado anyway\", and at clock 1:36 (t=839.8), dropping her deep at (1,3): \"I think with the Hero Valkyrie, I should definitely have the advantage.\"",
+      "clock 0:44 (t=891.7): Valkyrie alone at the right bridge (14,15) as an elixir-forcer rather than a damage attempt - \"It's Valkyrie the bridge just to force out a lot of elixir from him.\"",
+      "Ability discipline: he refuses Wild Whirlwind at clock 2:08 (t=806) - \"I want an ability, but it's not worth it\" - and spends its 3 elixir only in decisive fights at t=898, t=937 (\"Let's go for the Valkyrie ability to make sure our Valkyrie wins\") and t=1029. On the opponent's mirror ability: \"Very good ability, man. Getting so much value. It's kind of ridiculous how it just shredded every single thing on the board that we had\" (t=942-946).",
+      "clock 0:52 (t=881.7-887): on her reach - \"Oh, Valkyrie got a swipe. Valkyrie always gets those super far range swipes, man. The range is so underrated on that thing.\""
+    ],
+    "ice-spirit": [
+      "clock 2:00 (t=815.4): Ice Spirit at (8,13) behind his own tower, paired with Goblins, specifically for the Miner - \"Let's go for the Ice Spirit here then Goblins to catch the Miner. Perfect.\"",
+      "clock 0:47 (t=889.0): Ice Spirit at (7,15) on the river to freeze the enemy Valkyrie and Bats - \"Okay, let's go for the Ice Spirit here. Make sure we take this out.\"",
+      "clock 1:32 overtime (t=963.8): Ice Spirit at (11,11) behind a Tornado on Evo Bats - \"let's tornado ice spirit here and we should take out the bats decently.\"",
+      "clock 0:13 overtime (t=1044.8): predictive Ice Spirit for the Miner - \"I'm going to say ice spirit predict the minor, but it's fine. We got it.\""
+    ],
+    "goblins": [
+      "clock 2:02-2:00 (t=815.9): Goblins pre-placed at (1,7) behind his own left tower before the Miner appears - \"I'm just going to chill out here then maybe have our Goblins ready for the Miner... Goblins to catch the Miner. Perfect.\" He repeats the same (1,7)/(1,6)/(1,5) placement six times across the game.",
+      "clock 0:27 (t=908.7): Goblins at (5,5) then The Log behind them as a two-card ground answer - \"Go for the Goblins log here. Beautiful catch, man. I'm catching pretty much everything.\"",
+      "clock 1:48 overtime (t=945.7): Goblins at (1,6) thrown as a prediction, mistimed - \"Goblins predict the minor then we hog. Oh, bad timing.\"",
+      "clock 0:13 overtime (t=1046.8): Goblins at (1,5) as a prediction that lands - \"Goblins predict them. Okay, nice.\""
+    ],
+    "the-log": [
+      "clock 0:27 (t=909.0): The Log at (3,14) immediately behind his Goblins - \"Go for the Goblins log here. Beautiful catch, man.\"",
+      "clock 1:36 overtime (t=964.3): The Log at (14,12) into the opposite lane he had just predicted - \"He's going to spam me opposite lane now, I believe. Yep, let's go for the log.\"",
+      "clock 0:03 (t=933.8): held for the Spear Goblins rather than spent early - \"we can log here as well. It's going to take out the spears.\"",
+      "clock 0:15 overtime (t=1040.5): The Log at (3,10) as insurance on an already-won defence - \"We can go for our own log. Oh, we didn't even need it, but it's fine. It's better to be safe than sorry.\""
+    ],
+    "rocket": [
+      "Named but never played in this game: at clock 0:52 overtime (t=1005), with the ground defence stalemated and the opposing Hero Valkyrie surviving everything, he states the plan - \"It's fine. I think I'm going to start rocket cycling.\" The game ended (t=1051, \"Very nice win\") before he cast one."
+    ],
+    "miner": [
+      "As the opponent's win condition in a Miner Wall Breakers deck (identified at clock 2:33, t=782 - \"Aragon's playing Miner Wall Breakers, actually\"), Ryley answers it by pre-placing Goblins behind his own tower rather than reacting - \"maybe have our Goblins ready for the Miner... Ice Spirit here then Goblins to catch the Miner\" (t=813-817), repeated as predictions at t=946 and t=1049.",
+      "clock 0:10 (t=926-929): he accepts the chip rather than over-defending - \"Only one minor hit, which is fine by me. I don't really mind that too much.\""
+    ],
+    "wall-breakers": [
+      "clock 1:30-1:26 (t=846-852): instead of spending a defensive card on the opponent's Wall Breakers, he Tornadoes them at (9,8) into King Tower range - \"let's just go for the Nado here. Make sure we activate the King Tower\", then \"Beautiful. Great King Tower activation. Always good to get that up.\"",
+      "clock 0:22 (t=912-915): a 1-elixir Ice Spirit onto a Wall Breakers pair at the right bridge - \"Let's Ice Spirit here. Nice. Good defense.\""
+    ],
+    "bats": [
+      "The opponent's Evo Bats are why his Executioner is held rather than cycled: \"we could go for the Executioner at the bridge if he goes for the Bats\" (clock 2:16, t=800) and \"Axe here. Make sure we take these out. Never really risking anything\" (clock 1:22, t=854).",
+      "clock 1:16 (t=858-862): on how hard the evolved version is to clear even after a full Executioner axe - \"Damn, those Bats are like on a mission to survive, honestly. That's kind of crazy.\"",
+      "clock 1:32 overtime (t=964-969): Tornado plus Ice Spirit is his cheap answer, and it is only partial - \"let's tornado ice spirit here and we should take out the bats decently\", then \"He's going to have two bats alive.\""
+    ],
+    "bomb-tower": [
+      "The opponent's Bomb Tower (tracked at (9,19) for most of the game) is what Ryley plays his Hog Rider around: he counts forcing it out as the return on the Hog - \"At least he has to use the bomb tower again. He's barely got any damage\" (clock 1:44 overtime, t=951).",
+      "clock 0:48 overtime (t=1007-1011): he punishes a forward Bomb Tower placement at (9,15) - \"Okay, that was a bad bomb tower. Just in general... this is going to get a free hog rider shot.\""
+    ],
+    "spear-goblins": [
+      "The opponent's Spear Goblins (t=783.6, 879.7, 1035.8) are the card he keeps The Log for: \"we can log here as well. It's going to take out the spears\" (clock 0:03, t=934)."
+    ]
+  },
+  "deck": {
+    "deck_key": "executioner-goblins-hog-rider-ice-spirit-rocket-the-log-tornado-valkyrie",
+    "cards": [
+      "hog-rider",
+      "executioner",
+      "tornado",
+      "valkyrie",
+      "ice-spirit",
+      "goblins",
+      "the-log",
+      "rocket"
+    ],
+    "bullets": [
+      "Ryley names the deck in the video's first line (t=766-767): \"With the final deck here, we have Hog Executioner Tornado\", and frames it as heritage - \"this deck is kind of iconic, honestly. This is the deck that um a lot of pro players kind of came up using\" (t=793-798). This game is the fifth and last deck of a Hero Valkyrie showcase video.",
+      "The hero slot is the point of the build: \"this is probably the first deck that I thought of when I thought of the Hero Valkyrie. I feel like the Valkyrie works nicely with Tornado anyway\" (t=773-776). Counting Wild Whirlwind, the Valkyrie is a 4 + 3 elixir card and he treats the ability as an optional spend - declined at t=806 (\"I want an ability, but it's not worth it\"), used at t=898, t=937 and t=1029.",
+      "Piloted as pure defence-into-chip against Miner Wall Breakers: Goblins pre-placed at (1,7)/(1,6)/(1,5) for the Miner, Executioner behind at (2,7)/(2,8) for the Evo Bats, Tornado at (9,8) to activate his King Tower off the Wall Breakers (t=846, \"Great King Tower activation\"), and bare bridge Hogs at (16,15) whenever the opponent had committed elixir. Regulation ended 0-0 on crowns - \"we haven't really got any damage outside of like one hog rider shot\" (t=954).",
+      "It won in triple-elixir overtime on the damage tiebreak: a Valkyrie plus Hog Rider at the left bridge at t=1024.8-1027.8 with the ability held for the tower fight (\"go for the Valkyrie hog rider here. I'm going to go for the ability ice spirit here\") drove the enemy left tower from 1654 to 822 HP while his own lowest tower sat at 1749. \"Let's go. Very nice win\" (t=1051).",
+      "Deck note: Tornado and Rocket are agent corrections to the automatic read, which had listed the opponent's Miner and Bomb Tower instead - Tornado is confirmed by own-side deploy labels and by the deck name he speaks aloud; Rocket is inferred from a continuous fourth hand slot and \"I think I'm going to start rocket cycling\" (t=1005) and was never deployed. See the match file's Data gaps."
+    ],
+    "new_deck": {
+      "display_name": "Hog Exenado HeroValk",
+      "archetype_primary": "control",
+      "archetype_secondary": "cycle",
+      "rationale": "Every card except the Hog Rider is a defensive answer - Executioner and Tornado for swarms, Valkyrie for ground pushes, Goblins and Ice Spirit as cheap resets - and the win condition is repeated bridge Hog chip plus Rocket cycling rather than a build-up push.",
+      "why_it_works_md": "The Executioner + Tornado core answers everything the deck is otherwise weak to: the Tornado groups swarms into a single axe pass and doubles as a King Tower activator against Wall Breakers and other cheap ground threats. The Hero Valkyrie replaces the usual mini-tank with a card that both survives on defence and threatens the tower on the counterattack, and her Wild Whirlwind is an optional 3 elixir you spend only to win a specific fight - Ryley declines it as often as he uses it. Ice Spirit, Goblins and The Log give the deck a cheap enough cycle to keep the Executioner and Tornado available every push, and Goblins pre-placed behind the tower is a standing answer to Miner-style chip. Offence is deliberately thin: bare Hog Riders at the bridge to force out a building, with Rocket as the overtime finisher when the ground stalls."
+    }
+  }
+}

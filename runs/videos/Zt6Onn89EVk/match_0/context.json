@@ -1,0 +1,51 @@
+{
+ "video_id": "Zt6Onn89EVk",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 271.9,
+   "events": 121,
+   "own_deck": [
+    "miner",
+    "skeletons",
+    "magic-archer",
+    "bomb-tower",
+    "the-log",
+    "tornado",
+    "valkyrie",
+    "goblins"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 180.0,
+   "events": 62,
+   "own_deck": [
+    "skeletons",
+    "barbarian-barrel",
+    "hunter",
+    "valkyrie",
+    "fireball",
+    "royal-giant",
+    "fisherman",
+    "ice-spirit"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 213.2,
+   "events": 77,
+   "own_deck": [
+    "goblins",
+    "valkyrie",
+    "goblin-barrel",
+    "ice-spirit",
+    "cannon",
+    "dart-goblin",
+    "skeleton-army",
+    "skeletons"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "frames": 3992,
+ "seconds": 2034.9,
+ "timing": {
+  "total": {
+   "n": 3992,
+   "mean_ms": 498.0,
+   "p95_ms": 2406.9
+  },
+  "elixir": {
+   "n": 3990,
+   "mean_ms": 1.7,
+   "p95_ms": 2.5
+  },
+  "hand": {
+   "n": 3990,
+   "mean_ms": 186.0,
+   "p95_ms": 242.5
+  },
+  "clock": {
+   "n": 3990,
+   "mean_ms": 105.3,
+   "p95_ms": 640.6
+  },
+  "labels": {
+   "n": 665,
+   "mean_ms": 579.2,
+   "p95_ms": 724.5
+  },
+  "detect": {
+   "n": 332,
+   "mean_ms": 1146.7,
+   "p95_ms": 1455.9
+  },
+  "loop_fps": 2.0
+ },
+ "own_elixir_drift": {
+  "n": 1274,
+  "mean": 0.192,
+  "abs_mean": 0.955,
+  "max_abs": 8.622,
+  "last": -1.829
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "valkyrie",
+   "hunter",
+   "fisherman",
+   "rage",
+   "princess",
+   "wall-breakers"
+  ],
+  "deck_complete": false,
+  "predicted_hand": null,
+  "predicted_next": null,
+  "deck_predictions": [
+   {
+    "card": "dart-goblin",
+    "p": 0.95,
+    "source": "kb_inference"
+   },
+   {
+    "card": "goblin-barrel",
+    "p": 0.95,
+    "source": "kb_inference"
+   },
+   {
+    "card": "ice-spirit",
+    "p": 0.95,
+    "source": "kb_inference"
+   },
+   {
+    "card": "skeleton-army",
+    "p": 0.95,
+    "source": "kb_inference"
+   },
+   {
+    "card": "cannon",
+    "p": 0.95,
+    "source": "kb_inference"
+   },
+   {
+    "card": "barbarian-barrel",
+    "p": 0.05,
+    "source": "kb_inference"
+   }
+  ],
+  "kb_matches": [
+   {
+    "deck_key": "cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers",
+    "name": "WB Log Bait 2.8 Cycle",
+    "archetype": "bait",
+    "matched": 3,
+    "contradicted": 3,
+    "score": -2.97,
+    "remaining": [
+     "cannon",
+     "dart-goblin",
+     "goblin-barrel",
+     "ice-spirit",
+     "skeleton-army"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons",
+    "name": "EvoRG FishBoy Hunter 3.0 Cycle",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 4,
+    "score": -5.97,
+    "remaining": [
+     "barbarian-barrel",
+     "electro-spirit",
+     "fireball",
+     "royal-ghost",
+     "royal-giant",
+     "skeletons"
+    ]
+   },
+   {
+    "deck_key": "bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-valkyrie-zappies",
+    "name": "Mother Witch Bridge Spam HeroValk",
+    "archetype": "bridge-spam",
+    "matched": 1,
+    "contradicted": 5,
+    "score": -8.97,
+    "remaining": [
+     "bandit",
+     "battle-ram",
+     "elite-barbarians",
+     "freeze",
+     "heal-spirit",
+     "mother-witch",
+     "zappies"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0
+ }
+}

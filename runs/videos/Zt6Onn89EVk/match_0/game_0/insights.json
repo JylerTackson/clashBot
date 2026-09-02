@@ -1,0 +1,90 @@
+{
+  "key": "Zt6Onn89EVk-m0.0",
+  "match_file": "matches/Zt6Onn89EVk-m0.0.md",
+  "video_title": "Hero Valkyrie is the Most BROKEN Hero of All Time",
+  "cards": {
+    "valkyrie": [
+      "Played as the Hero Valkyrie (ability 'Wild Whirlwind', 3 elixir on top of the 4-elixir card). He states the cost twice because it matters: 'how the Valkyrie works is whenever you pop the ability, which is three elixir, by the way, that is really important' (t=37-46), and describes the behaviour as 'it will just go towards every single unit on the board... every single forward unit in the board that is in front of it' (t=54-59).",
+      "clock 1:58 and 0:45: defensive placements in front of his own tower at tiles [8, 10] (t=56.1) and [9, 10] (t=130.1), the second one alongside a Bomb Tower at [8, 10] against a Graveyard landing at [8, 0]. He compares her to the Golden Knight — 'except that the Valkyrie like doesn't stop until the ability is over. It's actually kind of ridiculous' (t=73-77).",
+      "clock 0:51-0:33: refuses the bridge ability twice on purpose — 'right here, I could have Valkyrie the bridge with the ability, and I think my Valkyrie would have walked all the way up to the tower, but I don't want to do that just yet' (t=124-129) and 'I'm not going to ability again cuz the Valkyrie is not getting tanked for' (t=145). His rule is that the ability needs a Miner or another body tanking for her: 'it would have been way more damage if the Valkyrie was actually tanked for by the Miner' (t=183-187).",
+      "overtime clock 1:46-1:22: the game-winning use — bridge Valkyrie at tile [15, 14] (t=191.2) behind Wall Breakers and Miner, ability popped at t=197: 'Let's just go again with the Valkyrie plus Miner... Let's pop the ability here. Oh my god, look, it's going to take out the Firecracker. Nice, and it's on the tower. Dude, what is this card? This is actually so insane' (t=192-206). The enemy right tower falls 2124 -> 518 in that window. The opponent runs the same hero and abilities it at clock 0:13, taking Ryley's King from 3824 to 3092; his prepared answer is 'Wall Breaker kite that Valkyrie' plus Skeletons and Tornado (t=155-162)."
+    ],
+    "miner": [
+      "clock 2:24 and 1:41: opening chip on the enemy right tower at tile [14, 27] (t=31.2, t=73.6), elixir 9 -> 6 and 8 -> 5.",
+      "clock 0:57: 'Let's go for the Evo Wall Breakers Miner here, guys. And I think this Miner Wall Breakers deck will be back, man' (t=118-121) — Miner at [16, 26] with the Evolved Wall Breakers behind it, the deck's core pairing.",
+      "clock 0:33 onward he switches the Miner from tower-chip to tank, dropping him at [12, 22] / [16, 23] in front of the Wall Breakers and the abilitied Valkyrie (t=142.1, t=171.2, t=194.2, t=232.2, t=248.2): 'It gives Miner Golden Knight vibes where like they just can't defend properly' (t=195). He also plays the opponent's answer in advance — 'He has to drop Skellies, right?' (t=169)."
+    ],
+    "wall-breakers": [
+      "Evolved, and the eighth card of the deck (the HUD misreads it as Goblins all game). He names the deck after it: 'I think this Miner Wall Breakers deck will be back, man' (t=121).",
+      "clock 1:25, 0:35 and overtime 1:52: bridge placements at tiles [9, 13] and [15, 14] twice (t=90.1, t=140.1, t=184.2), always with a Miner in front — 'let's go for the Wall Breakers here, and then we can go for the Miner as well' (t=139-143); 'Very good damage with the Wall Breakers' (t=192).",
+      "clock 0:15: used defensively as a kite against the opponent's abilitied Hero Valkyrie — 'I think we can just Wall Breaker kite that Valkyrie. If he abilities, that'd be very bad. Go for the Wall Breakers here to kite this' (t=157-162).",
+      "overtime clock 0:45-0:22: two more Miner + Wall Breakers pushes into a tower already at 258 HP, one that whiffs ('Come on, wall breaker. Oh, man, we didn't get any damage', t=254-256) and one that lands ('Beautiful wall breakers as well', t=273)."
+    ],
+    "bomb-tower": [
+      "The defensive anchor: seven placements, six on the same central band from tile [8, 8] to [8, 13] (t=60.1, t=77.1, t=132.1, t=180.2, t=216.2, t=238.2, t=251.3), against Graveyard, Cannon Cart and the enemy Valkyrie.",
+      "clock 0:45: Bomb Tower at [8, 10] behind a Valkyrie at [9, 10] as the Graveyard lands at [8, 0] (t=132.1, t=134.1) — the pattern he repeats every time the opponent commits.",
+      "overtime clock 1:20 and 0:27: he calls it as the reflex answer under pressure — 'Let's just go for the Bomb Tower here' (t=216), 'then we have to go for the bomb tower' (t=239), 'Let's bomb tower here. We're going to take a lot of damage here' (t=268)."
+    ],
+    "tornado": [
+      "clock 1:10: the log-nado combo on a Firecracker that got past The Log — 'we can go for the log nado and then maybe the Evo skeletons as well just to make sure that we get all of this off the board. Very good defense' (t=110-116); The Log at [5, 15] then Tornado at [7, 12] then Skeletons at [5, 10].",
+      "clock 0:19: Tornado at [9, 7] to clump the push while the opponent's Valkyrie is out — 'Let's go for the Skellies. We can NATO this' (t=155-157).",
+      "overtime clock 0:53: he plans a backwards pull specifically to deny an abilitied Hero Valkyrie — 'I might have to NATO backwards instead of anything because he's going to pop the ability again and I don't want him to completely roll my tower yet' (t=239-244).",
+      "overtime clock 0:33 and 0:15: one offensive Tornado on the enemy half at [12, 20] after 'Let's NATO ability maybe' (t=263), and the closing defensive one at [14, 19] — 'I think log NATO will take this' (t=279)."
+    ],
+    "skeletons": [
+      "Evolved. Six cheap blocks, all at rows 10-15 on his own half ([5, 10] t=112.9, [9, 14] t=155.7, [8, 14] t=179.5, [2, 11] t=212.2, [8, 15] t=236.2, [7, 14] t=271.3).",
+      "clock 1:03: the third card of the log-nado clean-up — 'maybe the Evo skeletons as well just to make sure that we get all of this off the board' (t=112-116).",
+      "clock 0:19: dropped in front of the opponent's Hero Valkyrie both as a block and as an ability target — 'he goes for his Valkyrie. Let's go for the Skellies' (t=153-157); earlier he explains the interaction, 'if there is, say, a Valkyrie and a set of skeletons, it will start spinning and go towards the skeletons, which in my opinion is really good' (t=59-67).",
+      "overtime clock 0:23: body-block on the Evolved Firecracker — 'we skellies to block the evil firecracker' (t=271)."
+    ],
+    "the-log": [
+      "Five placements, all defensive on his own half ([3, 6] t=68.1, [5, 15] t=110.3, [6, 8] t=223.2, [6, 12] t=244.2, [2, 5] t=265.3, [14, 15] t=278.3).",
+      "clock 1:10: used on the opponent's Firecracker and missed — 'I'm just going to go for the log here to try to take out that Firecracker. Oh man, it didn't get shot' (t=105-108) — which is what forces the log-nado follow-up.",
+      "overtime clock 0:19: the last defensive cast, paired with Tornado to close the game — 'I think log NATO will take this. Let's go. Nice win, guys' (t=279-281)."
+    ],
+    "magic-archer": [
+      "Six placements, mostly deep on his own half ([4, 15] t=56.6 elixir 9 -> 5, [15, 13] t=84.1, [9, 14] t=99.1 and t=167.2, [15, 2] t=150.2, [9, 5] t=178.2, [13, 13] t=235.2 elixir 6 -> 2) as the ranged support behind the Bomb Tower.",
+      "clock 0:25: played from the back as an investment while ahead — 'We're still in a pretty decent position right now. Up a little bit of damage, guys. Let's go for the Magic Archer in the back' (t=149-153).",
+      "overtime clock 1:30: he credits it as part of the winning push alongside the abilitied Valkyrie — 'Nice Magic Archer lineup as well' (t=206)."
+    ],
+    "golden-knight": [
+      "Mentioned only, never played — his reference point for how the Hero Valkyrie's ability behaves: 'You can kind of compare it to the Golden Knight, I feel like. The Golden Knight is similar to the Valkyrie, except that the Valkyrie like doesn't stop until the ability is over' (t=69-77), and again on the Valkyrie targeting the tower, 'kind of like how it just starts dashing towards everything like the gold knight. I think the tower also counts, I guess' (t=233-237). He also frames the Valkyrie + Miner push as 'Miner Golden Knight vibes where like they just can't defend properly' (t=195)."
+    ],
+    "graveyard": [
+      "Opponent card. Three casts on Ryley's left tower at tiles [8, 0] and [8, 2] (t=134.1 clock 0:39, t=182.2 and t=218.2 in overtime); it is the main reason his left tower is ground from 3052 to 1023.",
+      "His answer is always the same pre-placed stack rather than a reaction: Bomb Tower on the central tile plus Valkyrie or Tornado, e.g. Valkyrie [9, 10] and Bomb Tower [8, 10] going down at t=130-132, two seconds before the Graveyard lands."
+    ],
+    "poison": [
+      "Opponent card, cast at tile [8, 1] (t=158.2, clock 0:15) and [13, 12] (t=282.3) over Ryley's defensive stack. He keeps the defence cheap under it — Skeletons, The Log and Tornado — and saves the 4-elixir Magic Archer for placements deep on his own half."
+    ],
+    "firecracker": [
+      "Opponent card (Evolved), the recurring problem for Ryley's ground defence. clock 1:10: 'I'm just going to go for the log here to try to take out that Firecracker. Oh man, it didn't get shot' (t=105-108), forcing a log-nado plus Evo Skeletons clean-up.",
+      "overtime clock 1:37: killed by the Hero Valkyrie's Wild Whirlwind on the way to the tower — 'look, it's going to take out the Firecracker. Nice, and it's on the tower' (t=199-203); at clock 0:23 he blocks the next one with Skeletons ('we skellies to block the evil firecracker', t=271)."
+    ],
+    "tesla": [
+      "Opponent card (Evolved), placed at tiles [11, 15] (t=132.1, clock 0:42) and [11, 20] (t=250.2, overtime clock 0:43) — the building that absorbs Ryley's Miner and Wall Breakers, which is why his chip on the enemy right tower comes in small increments until the Valkyrie ability pushes go through."
+    ],
+    "cannon-cart": [
+      "Opponent card, deployed three times ([8, 16] t=64.1, [9, 19] t=170.2, [12, 16] t=260.3). Ryley answers it with the Bomb Tower on the central tile plus Magic Archer behind, the same stack he uses against the Graveyard."
+    ]
+  },
+  "deck": {
+    "deck_key": "bomb-tower-magic-archer-miner-skeletons-the-log-tornado-valkyrie-wall-breakers",
+    "cards": ["bomb-tower", "magic-archer", "miner", "skeletons", "the-log", "tornado", "valkyrie", "wall-breakers"],
+    "bullets": [
+      "Game 1 of 5 in a deck-showcase video built around the new Hero Valkyrie ('we are going to be trying out the new hero Valkyrie that is coming to Clash Royale... maybe the best hero, maybe of all time', t=17-27). Win, video time 14.3-286.3s, against a Graveyard/Poison control deck that runs the same hero: 'Let's go. Nice win, guys' (t=281). The enemy right tower ends on 116 HP, Ryley's left on 657 after a full overtime.",
+      "He names the deck himself: 'Let's go for the Evo Wall Breakers Miner here, guys. And I think this Miner Wall Breakers deck will be back, man' (t=118-121). Evolution slots are Wall Breakers and Skeletons (t=112, t=118).",
+      "The offence is one repeated package: Miner as the tank at tile [12, 22]/[16, 23], Wall Breakers at the bridge tile [15, 14], and the Hero Valkyrie behind them with Wild Whirlwind — 'It gives Miner Golden Knight vibes where like they just can't defend properly. Let's pop the ability here' (t=195-197). That push at overtime clock 1:46-1:22 takes the enemy right tower from 2124 to 518.",
+      "Defence is a fixed stack: Bomb Tower on the central tile band [8, 8]-[8, 13] (seven placements), Evo Skeletons and The Log for the small stuff, and Tornado to clump — 'we can go for the log nado and then maybe the Evo skeletons as well just to make sure that we get all of this off the board. Very good defense' (t=110-116). The Valkyrie is used defensively in front of his own tower four times out of six.",
+      "The ability is rationed, not spammed: he passes on it twice ('I don't want to do that just yet. I want to do it in a maybe a little bit of a better situation', t=127-131; 'I'm not going to ability again cuz the Valkyrie is not getting tanked for', t=145) and spends it only behind a Miner. His stated failure mode after the big push is exactly that: 'it would have been way more damage if the Valkyrie was actually tanked for by the Miner' (t=183-187).",
+      "In the mirror he treats the enemy Hero Valkyrie as the thing to play around — Wall Breakers as a kite ('I think we can just Wall Breaker kite that Valkyrie. If he abilities, that'd be very bad', t=157-160) and a backwards Tornado as the emergency ('I might have to NATO backwards... because he's going to pop the ability again', t=239-244). It still cost him roughly 730 King tower HP at clock 0:13-0:11."
+    ],
+    "new_deck": {
+      "display_name": "Miner Wall Breakers Hero Valkyrie",
+      "archetype_primary": "control",
+      "archetype_secondary": "cycle",
+      "rationale": "Two cheap chip win conditions (Miner, Evo Wall Breakers) behind a fixed Bomb Tower / Tornado / Log / Evo Skeletons defensive core that answers pushes elixir-positively and wins on accumulated tower damage rather than one big hit.",
+      "why_it_works_md": "At 2.875 average elixir the deck defends with a repeatable four-card stack — Bomb Tower on the central tile, Evo Skeletons, The Log and Tornado — and converts every saved elixir into Miner plus Evolved Wall Breakers at the bridge. The Hero Valkyrie is what turns that chip plan into a real threat: at 4 + 3 elixir she splashes the ground swarms the Bomb Tower cannot reach, and Wild Whirlwind lets her walk through a defence and spin on the tower, which Ryley calls \"extremely broken because your opponent has such a hard time reacting to it cuz of the moving speed\" (t=85-93). The pairing that matters is Valkyrie plus Miner: the Crown Tower targets the Miner, the Valkyrie survives to connect, and the Wall Breakers follow behind — \"Miner Golden Knight vibes where like they just can't defend properly\" (t=195). The cost is that the ability is 3 elixir on top of the card and needs a tank in front, so it can only be spent when the defence is already stable, and nothing in the deck kills a tower quickly: this game went to overtime with the enemy tower on 116 HP."
+    }
+  }
+}

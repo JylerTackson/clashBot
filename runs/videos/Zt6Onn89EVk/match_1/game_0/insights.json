@@ -1,0 +1,60 @@
+{
+  "key": "Zt6Onn89EVk-m1.0",
+  "match_file": "matches/Zt6Onn89EVk-m1.0.md",
+  "video_title": "Hero Valkyrie is the Most BROKEN Hero of All Time",
+  "cards": {
+    "valkyrie": [
+      "clock 0:53 (t=706.5): Heroic Valkyrie dropped at the left bridge (4, 15) with an opposing Fisherman tracked at (6, 17) — played deliberately to be hooked: \"Can I Valkyrie the bridge too cuz that's going to get pulled up? And then I can pop the ability for the Skeleton\" (707-710s).",
+      "clock 0:47-0:43: that same Valkyrie ends up past the enemy left tower and the tower falls 1072 -> 827 -> 414 — \"Come on, Valkyrie. Oh my god. Bro, it's behind the tower on the Hunter... It literally got behind the tower. Dude, that was such a nice Valkyrie\" (712-720s).",
+      "clock 0:33 (t=725.5): defensive Valkyrie at (2, 13) into an opposing Valkyrie + Fisherman + Hunter push, with Wild Whirlwind held for whatever the opponent commits — \"whatever he puts, I get the ability, and then he split his Skeletons. So, my Valkyrie is able to just chain up to the Skelly\" (724-728s).",
+      "clock 0:23 (t=737.5): third Valkyrie of the segment at the right bridge (14, 15) — \"Let's go for the Valkyrie here, then we can maybe go for a Skeleton Army as well\" (739-741s). He credits the win to her at 754-761s: \"mainly just one good Hero Valkyrie up to the tower, and we just won the game so easily. This card is just so broken.\""
+    ],
+    "goblin-barrel": [
+      "clock 0:55, 0:39 and the frozen 0:11 (t=705.5, 720.5, 750.5): all three barrels go into the same enemy left pocket, tiles (3, 24) and (3, 26), and that tower goes 1072 -> 194 over the segment. He calls the first one early: \"I'm going to go for the Goblin Barrel here, guys, in a second\" (702-704s).",
+      "clock 0:35 (724s): the barrel is thrown partly as ability bait — \"with him going for the Fisherman in the middle, I knew he's going to have to drop something on the barrel, and whatever he puts, I get the ability\" — i.e. it manufactures a ground target for the Heroic Valkyrie's Wild Whirlwind."
+    ],
+    "cannon": [
+      "clock 1:04 (t=696.5): Cannon at (8, 13), dead centre, against a Royal Giant tracked advancing his right lane (tower in 3.2s) — \"I think I'm going to have to go for the Cannon as well. Yeah, let's definitely Cannon here just to be safe\" (696-698s), then \"Beautiful, very good defense\" (700s).",
+      "clock 0:20 (t=739.0): second Cannon at (8, 11), again column 8, while he stacks Ice Spirit and Dart Goblin behind it — \"Let's go for a Cannon here. Very nice defense\" (744s). Three Cannons in 76 seconds, every one of them in the middle two columns of his own half."
+    ],
+    "wall-breakers": [
+      "clock 0:52-0:11: six Wall Breakers deploys in 76 seconds (HUD at t=706.3 and t=714.8; labels at (13, 13), (3, 15), (4, 14) and (14, 15)), alternating lanes against the Goblin Barrel's left-side pressure, and never announced in the commentary — pure cycle-and-pressure filler in overtime triple elixir.",
+      "clock 0:37 (t=721.4): Wall Breakers at (13, 13) one second after the Goblin Barrel label at (3, 26) — the barrel-left / Wall-Breakers-right split that keeps a single spell from covering both threats."
+    ],
+    "ice-spirit": [
+      "clock 0:38 (t=719.5) and 0:23 (t=735.5): Ice Spirit at (14, 14) and (11, 13), always attached to an existing defensive stack rather than played on its own — \"Let's Ice Spirit here\" (737s).",
+      "clock 0:17 (t=743.0, t=745.9): two more Ice Spirits inside five seconds while an evolved Royal Giant walks his right lane, framed as damage prevention rather than value — \"we need to get an Ice Spirit down just to make sure that we don't take any damage\" (747-748s)."
+    ],
+    "dart-goblin": [
+      "clock 1:07 and 0:52 (t=690.5, t=708.5): Dart Goblin at (9, 11) and (3, 13), both behind his own defensive line rather than at the bridge, covering the air/ranged hole left by Cannon and Valkyrie.",
+      "clock 0:33 (t=725.9): Dart Goblin added to the defensive pile against the opponent's left-lane push; he treats its survival as the payoff of a good Valkyrie — \"That's going to take out his Valkyrie, and the Dark Goblin's going to live again like it did last time\" (733-735s), and \"Dark Goblin here as well\" (746s)."
+    ],
+    "princess": [
+      "clock 0:43 (t=716.5): one Princess in the whole segment, at (9, 9) — centre and well behind his own towers, dropped while the Heroic Valkyrie was already taking the enemy left tower from 827 to 414. In this game she is a safe chip/anti-swarm placement, not bridge pressure."
+    ],
+    "skeleton-army": [
+      "clock 0:32 (t=726.5): Skeleton Army at the right bridge (14, 15) while the opponent's Valkyrie + Fisherman + Hunter push is committed on his left — opposite-lane pressure with the deck's evolved swarm.",
+      "clock 0:11 (t=753.6): second Skeleton Army at (9, 10) as a centre defensive drop, planned out loud at 741-742s — \"then we can maybe go for a Skeleton Army as well. Make sure that we keep DPSing this all down.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers",
+    "cards": [
+      "cannon",
+      "dart-goblin",
+      "goblin-barrel",
+      "ice-spirit",
+      "princess",
+      "skeleton-army",
+      "valkyrie",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Ending segment only (video 690.3-766.6s), and almost certainly the tail of the previous capture `Zt6Onn89EVk-m0.2` rather than a separate game: the first readable clock is 1:07 in double elixir, the next 0:58 in triple elixir (the overtime 2x -> 3x switch), and towers are already at 1072-2244 of a ~4858 bar in the first frame. Result: a win, stated at 750-761s.",
+      "The whole win is one Heroic Valkyrie played into a Fisherman hook. At clock 0:53 he drops her at the left bridge (4, 15) precisely because he expects to be pulled — \"Can I Valkyrie the bridge too cuz that's going to get pulled up? And then I can pop the ability for the Skeleton\" (707-710s) — and by clock 0:43 she is behind the enemy left tower on their Hunter, taking it 1072 -> 827 -> 414. \"Mainly just one good Hero Valkyrie up to the tower, and we just won the game so easily. This card is just so broken\" (756-761s).",
+      "The Goblin Barrel is used as ability bait as much as chip: all three casts land in the enemy left pocket ((3, 24), (3, 26), (3, 26)) and at 724s he explains \"I knew he's going to have to drop something on the barrel, and whatever he puts, I get the ability\" — the forced ground answer is the target Wild Whirlwind chains through.",
+      "Lane split holds even in triple elixir: barrel and defensive Valkyrie on the left, Wall Breakers ((13, 13), (14, 15)) and a bridge Skeleton Army ((14, 15) at clock 0:32) on the right, six Wall Breakers deploys in 76 seconds.",
+      "Defence is the centre Cannon plus spirits: Cannon at (8, 13), a HUD Cannon at clock 0:52 and Cannon at (8, 11), all in the middle two columns, both times against a tracked evolved Royal Giant — \"let's definitely Cannon here just to be safe\" (697s), \"Let's go for a Cannon here. Very nice defense\" (744s) — with Ice Spirit spent purely to stop chip: \"just to make sure that we don't take any damage\" (747s)."
+    ]
+  }
+}
