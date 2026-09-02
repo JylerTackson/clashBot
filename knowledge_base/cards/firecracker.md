@@ -144,6 +144,19 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - he treats the evolved version as a no-go zone for his own spells - "Can we maybe get a void? Nah, but he has the Evo Firecracker. I'll avoid the evo firecracker" (1083-1087s); his answers to it were Barbarian Barrel at (4, 11) (video 901.2s) and Tornado into Bowler.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- An Evolution Firecracker (firecracker-evolution tracked t=708-798) that he treats as the reason to keep the Princess deep: "I know he has an Evo Firecracker that he could get a lot of value from, and I am definitely a little bit worried about that" (t=696-703).
+- overtime 0:28-0:20 (t=784-794): he removes it with Princess plus The Log — "now we can take out the Firecracker with the Princess" and "Evo Princess to snipe the cracker so then we can log it off the board." Earlier (t=653) he plays a Princess to activate his king tower precisely because "he's trying to avoid using the Firecracker."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card (evolved), the chip engine of the Hog deck - arena tracks at clock 2:08 (t=856.9), 0:42 (t=942.9), OT 1:38 (t=1007) and OT 0:48 (t=1057.1). Ryley accepts one shot as roughly equal to a Hog hit: "I know that firecracker is going to get a shot, but because firecracker and hog do almost exactly the same damage, I think it's one damage different, maybe just two damage" (t=869-877).
+- OT 1:43-1:27 (t=1005-1028): he plays to drain it rather than to kill it - "we're forcing out more defense from the Firecracker" and, choosing a bridge Evo Princess over a defensive one, "Just getting that Firecracker out and getting that shot on the tower."
+- clock 0:22 (t=965.0): logs it after Rocketing the push behind it - "Go for the log on the Firecracker just in case I missed it."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

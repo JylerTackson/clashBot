@@ -153,6 +153,17 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - opponent card, one arrival at clock 1:20 of overtime (video 1033.0s, tile (11, 10), arena detection at medium confidence); his right tower fell from 4048 to 2685 in the four seconds that followed. Ryley does not name it - his commentary in that window is about the Mighty Miner instead.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:39 and 0:31: two Graveyards land on Ryley's half, both answered with a low Inferno Tower plus Log rather than a spell; the second is met with "Let's go for the inferno tower down low. This inferno will take out literally everything."
+- overtime 1:38: he drops his Evo Princess inside the Graveyard as a two-in-one — "the Evo princess all the way inside of the graveyard cuz it's going to live, but it's also going to defend" — and criticises the opponent for sending it untanked at 458s: "he didn't even tank his graveyard, I mean, what the heck?"
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 0:53: a medium-confidence read of a Graveyard on Ryley's half at tile [8, 2], seconds before he places Inferno Tower at [8, 9] and Princess at [8, 5]. He never names it, so this is observation only and may be a mis-detection.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

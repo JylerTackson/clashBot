@@ -155,6 +155,14 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - clock 1:15: with a two-tower lead he answers the Hound push with Zappies alone rather than a full defence — "there's no need to be greedy and try to like get a bunch of extra value out of this". His left tower is ground 4738 -> 150 HP over the rest of the game but never falls.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:11: the opponent's Lava Hound at tile [1, 25]. Ryley called it one play early - "I wouldn't be surprised if he Lava's the back" (clock 1:19) - and he answers it with a centred Inferno Tower at clock 0:53, then Goblin Gang and a Knight for the pups.
+- clock 1:53: his standing read on the archetype - "I don't even know why he went Lava first play as well because I feel like with these Lava Tombstone decks you usually don't Lava first play."
+- clock 1:29: "Dude, Lava Hound players are so funny sometimes, man. I try not to be toxic, but like that was just way too funny to not laugh at."
+- clock 1:13-1:10: the reason the Hound is harmless here - "he doesn't even have any support cards. He used his balloon already."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

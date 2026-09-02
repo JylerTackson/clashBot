@@ -127,6 +127,19 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - clock 0:05 (video ~990s): he burns an ability activation purely to protect the Electro Giant from it - "let's go for the ability here as well, just to make sure that the Mighty Miner doesn't completely take that out" (990-994s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:34 onward (arena track from [1, 18] at t=536.5): the card that gets his early tower chip in (own right 4858 -> 4624 by clock 2:16). He answers it with Ice Spirit stalls ("just to freeze up that Mighty Miner", t=633) and the central Inferno Tower ("We have to Inferno Tower here", t=726).
+- overtime 1:33 (t=720): he baits the ability with a Goblin Gang at the bridge — "he's going to Mighty Miner assault the gang the bridge, make him use the ability."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card, tunnels onto Ryley's half at clock 2:34 (t=830.8, tile [4, 14]), clock 0:03 (t=985.0) and again in overtime. It is his entire deck read: "I'm just confused by the mighty minor. I feel like no deck other than a hog rider right now really uses mighty minor. I guess it could be like mighty minor log, but who even uses that either?" (t=831-836).
+- clock 1:05 (t=921.9): his cheapest answer is an Ice Spirit distraction rather than a hard counter - "Let's ice Spirit here just to distract that Mighty Miner. Don't want to take that damage."
+- clock 1:19-1:15 (t=907-912): he pre-places Knight + Goblin Gang for it and notes the ability - "We can goblin gang as well cuz I think he's going to mighty minor. Yep. Does he ability? Yep."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

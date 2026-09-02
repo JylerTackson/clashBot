@@ -271,6 +271,21 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - Never mentioned by name in this game; the slot is the least certain in the deck read (HUD-only, no deploy label) — see the match file's Data gaps.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- The opponent's cheapest cycle card (skeleton tracks from t=650 onward). Ryley plays a Princess off to the side for them in overtime — "then we can go for a Princess off the side just to take out these Skellies" (t=715-719) — and complains when she retargets instead: "Oh, no, it's not the Skellies, bro. What are you doing?" (t=734).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card. The reason his first Princess goes down behind the king tower at clock 2:41 - "Let's go for the princess for the skellies cuz I know he's going to do them. Splash tower. Nice, good splash right there" (t=851-855). Enemy Skeletons are tracked at OT 1:04 (t=1045) and repeatedly in the closing minute, answered with The Log.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:59, 1:55, 1:39 and 1:03: a constant trickle of opponent Skeletons (Tombstone-fed and hand-cycled) crossing into Ryley's left lane; he answers them with Goblin Gang at clock 1:59 and 1:16, then The Log at clock 1:43 and 1:20 rather than spending anything bigger.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

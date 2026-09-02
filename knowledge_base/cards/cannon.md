@@ -220,6 +220,18 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3
 - clock 0:50: Cannon at [9, 11] played early against incoming Zappies, and counted as a spell draw — "Let's cannon here early just to make sure that we take this out and we forced out the Vines, which is really good".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- An Evolution Cannon he rates highly against his own push — "Oh, the Evo Cannon just so good" (t=723) — tracked at [9, 19], [3, 15], [6, 20], [8, 15] and [2, 15] through the match.
+- overtime 0:58 (t=753.8): he pre-empts it with a Knight at the bridge — "we need to go for a Knight at the bridge, too, cuz I know he's going to try to get a Cannon."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card, seen at tiles [9, 19], [8, 17], [8, 19] and once at the bridge at [2, 15] (clock 0:07, t=979.0). Ryley grades the bridge placement harshly: "Bad cannon at the bridge. So, I I don't like that cannon. There's no point to be doing things like that, sir" (t=976-981).
+- clock 1:01 (t=926): he plans around where it will go rather than reacting to it - "I can avoid that cannon placement with the Princess if I get a Knight in cycle."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

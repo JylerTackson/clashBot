@@ -161,6 +161,11 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - overtime 0:31: it is what stops him counter-attacking in the losing stretch - "I think I need to go for a set of piggies immediately. N I can't though cuz I need to defend this balloon." No deploy label or track for Balloon exists in this game; it is named in commentary only.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- Mentioned, not seen in the readable window: the opponent dumped it at the bridge before the clip starts and Ryley treats that as the game-losing error - "why did he just balloon the bridge in this?" (clock 1:50) and "He used his balloon already" (clock 1:10), which is why he is willing to commit Inferno Tower and Knight to the Hound with nothing held back for a Balloon.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

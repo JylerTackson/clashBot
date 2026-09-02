@@ -132,6 +132,11 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - clock 0:54 of overtime (video 480.0s): he answers a telegraphed Miner with an Inferno Dragon rather than a spell — "Let's go for the inferno dragon here. Make sure that he can't go and he has the miner in the back" (482-485s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Opponent's card. Ryley never waits for it: Goblin Gang goes down pre-emptively at clock 0:35, 0:14 and 0:42 overtime — 'Let's Goblin Gang predict the miner again. Nice, good prediction' (138-140s), 'gang predict the miner again' (158s), 'Gang here for the miner' (255s) — with Ice Spirit as the follow-up ('We ice spirit here for the miner', 237s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

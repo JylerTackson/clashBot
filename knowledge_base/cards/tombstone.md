@@ -180,6 +180,11 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - clock 1:51 and 1:25: mentioned only as a card he is guessing about in the opponent's deck - "I don't think he plays with tombstone. I mean, maybe he started, but I don't think so" and "He may go for a tombstone if he has it, but if not then I think he'll guards." It never appears; the HUD hand reads that name Tombstone in Ryley's own hand are misreads.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:05: the opponent's Tombstone at tile [9, 18], on his own half as the defensive spawner. Ryley names the archetype from it - "with these Lava Tombstone decks you usually don't Lava first play" (clock 1:53) - and the Skeletons it feeds are what his Goblin Gang and Logs spend the window clearing.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

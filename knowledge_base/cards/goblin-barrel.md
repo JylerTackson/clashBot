@@ -224,6 +224,50 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 0:47 (t=819-823): the combo he holds Valkyrie for is Barrel plus Skarmy played beside the tower — "We have the Valkyrie ready here if he tries to go for any type of Goblin Barrel Skarmy playing the pocket".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 2:32 and 2:27: opens with back-to-back Goblin Barrels, the second landed at tile [3, 26] on the opponent's left tower, before any defence has been tested — chip on cycle, not a read.
+- clock 0:44: switches barrel lane on cycle information rather than on the board — 'we out cycled his log so I could barrel on the left as well' (132s).
+- clock 0:05 and 0:20 overtime: barrels the opposite (right) tower at [14, 24] / [13, 26] to open a second damage lane — 'Let's go for the Evo Barrel off to the side... We get some nice damage on the right' (170-178s).
+- clock 0:11 overtime: keeps throwing it even with no spell backup — 'Barrel here as well cuz we're not going to be able to rocket again. We just need to apply some pressure' (282-285s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:08: Evo Goblin Barrel at tile (3, 25) played together with a Knight at the bridge as an early-aggression package, not as a cycle card — "let's just go for the knight at the bridge, and then we can go for the evo barrel here as well. I just want to apply some nice pressure here and be really, really annoying." Enemy left tower 4072 -> 2672 over the next fifteen seconds: "Yo, good damage there with the Goblin Barrel on the left side."
+- clock 0:42: second barrel at (3, 26) only once the follow-up defence is in hand — "Let's go for the Goblin Barrel here as well, and then we have an inferno tower ready."
+- overtime 1:59: barrel played purely as spell bait to protect a Princess stack — "Let's barrel here just to force out the arrows. Just to keep our princess stack going. We can get a second princess here."
+- All four barrels this game (clock 1:08, 0:42, 0:03, overtime 1:33) go to the same enemy left tower at tiles (3-4, 21-26); he never switches the barrel lane even while counter-attacking on the right.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:50 (t=522.0): opens the game with the Evo Barrel at tile [3, 26] off 9 elixir (HUD 9.0 -> 6.0, deploy label confirms) before the opponent has shown anything; enemy left tower 4858 -> 4258. "Just going to start off with the goblin barrel here" and then "nice start though getting that 600 damage. Always good to get those early damage leads" (t=523-534).
+- clock 1:54-1:50 (t=578.6-581.6): a deliberately greedy Evo Barrel at [4, 25] escorted by The Log at [2, 15] while his elixir bottoms out at 1 — the read was that the opponent's Electro Spirit was out of cycle. "I'm going to Evo Barrel over on this side like this. We can log as well keep this alive, and he doesn't have an e-spirit in cycle just yet... That's why just went really aggressive right there because I knew that I'd be able to out-cycle him." Enemy right tower 4858 -> 4222 by t=586.
+- clock 1:20 (t=612.6, tile [2, 24]) with the rule he states over it: "you need to be able to make your Evo Barrel be a threat cuz if they don't have to defend your Evo Barrel, then there's no point of even having it in your deck" (t=613-618).
+- clock 0:48 (t=644.6) he re-aims it centrally rather than pairing it with Princess — "Actually, I'm just going to barrel it in the middle. I'm not going to princess though cuz he is back now to the Barbarian Barrel" — and in overtime he simply cycles it: [14, 26] t=662.7, [3, 25] t=710.7, [4, 22] t=743.4, [13, 23] t=749.7, [3, 26] t=764.8 and t=788.8. "Let's barrel here again. We do outcycle him a bit" (t=766).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 2:48 (t=818.2): opens the game with it at tile [2, 23], the far corner of the enemy left tower, before he has seen a single opponent card - "Just going to start off with a goblin barrel here in the corner."
+- clock 2:21 (t=846.8, tile [14, 26]) and OT 1:33 (t=1014.0, tile [14, 26]): thrown into the lane that is NOT being defended, with the answer already priced in - "let's go for the barrel here as well. I know he's going to go for the e-spirit, but there's nothing I can really do about that, unfortunately."
+- clock 1:13 (t=911.9, tile [3, 26]): Evo barrel played knowing it gets answered, because the trade is still positive - "now we can go for the evo barrel here. He's going to be able to e-spirit log, but I mean it's still good to just get extra elixir. And we do grab a shot. I'm happy with that sequence." Enemy left tower 4338 -> 4282.
+- OT 0:08 (t=1097.1, tile [13, 20]): the last barrel is pure spell bait for the finisher - "I'm going to barrel here just to force him to use his log and then I can rocket him maybe."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 0:37 and 0:27: two barrels onto the enemy right tower (deploy labels at tiles [14, 25] and [14, 26]) timed to the moment the opponent's Lava Hound was committed - "He's going to have to Lava again, so I'm going to ice spirit barrel cuz he's going to have to eat this or go for the barbs, but obviously he doesn't want to do either of that." The enemy right tower falls from ~2458 at clock 0:28 to 530 at clock 0:21.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 1:30: barrel onto the enemy right tower at tile [14, 25] (HUD elixir 7 -> 4, deploy label score 1.0) thrown the moment the opponent's bridge-spam push is committed and his elixir estimate has dropped - "Let's Evo Barrel here. Okay, we can go for the Ice Spirit here as well." The tower reads 4245 -> 3202 over the next eight seconds.
+- clock 1:16: second barrel at [14, 26] on the same tower, again off a spell read rather than an elixir read - "He can just eat the Berserker and go for the Goblin Barrel. He can get maybe like a late Bandit, or if he has no Arrows, I'm just going to cry, but I think he shouldn't have any Arrows." That tower's reading falls to 202 by clock 1:05 and the game becomes a pure hold.
+- This was the only offence he ran in the readable last two minutes: two barrels, then 60 seconds of defence with the crown banked.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

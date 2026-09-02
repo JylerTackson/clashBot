@@ -181,6 +181,12 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - overtime clock 1:37 and 0:39 (video 1018.7s, 1076.2s, both HUD 6.0 -> 1.0): each overtime Electro Giant gets a Bowler placed behind it in the same elixir window.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:57: he places his Knight straight onto the Bowler — "we can go for the knight on top of the bowler." At 391-395s he had the Bowler wrong in his hand-read ("Maybe he has the bowler, but I don't think so") and it shows up at (13, 17) at clock 0:57.
+- clock 0:35: he calls the opponent's Bowler timing a mistake — "He's going to go for the zappies or the bowler. Okay, he goes for the bowler, but he doesn't do it on time."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

@@ -174,6 +174,12 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - clock 1:10: played directly behind a high Mother Witch so the Mother Witch tanks — "let's go for a high mother witch to block the potential arrows and we can go for the bandy here" (281-284s).
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock ~1:08-0:57: the opponent's Bandit is answered by the Hero Knight's Triumphant Taunt rather than by a hard counter - "pop the ability here just to make that Bandit start going to the Knight... the Goblins will actually take out the bandit. Beautiful ability there... Defending the bandit through the ability was super, super clean." The taunt removes the dash-target problem entirely.
+- clock 1:10: he expects it as the follow-up to a bridge push he is barreling through - "He can get maybe like a late Bandit."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

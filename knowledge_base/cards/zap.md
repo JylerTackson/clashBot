@@ -178,6 +178,11 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - clock 1:14: also the forced answer to his Royal Hogs set - "He has to zap here, but that's going to get taken out." Note: the per-game deck read wrongly put Zap in Ryley's own deck; every Zap mention in this game is about the opponent's.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:47: the opponent Zaps and misses Ryley's Goblin Gang, which is the pivot of the whole readable window - "Oh, he just missed his zap" and "He went loon the bridge and did a princess just to miss his zap on the Goblin Gang." At clock 0:44 he plays Goblin Gang expecting the Zap again: "He might go for the zap and then we can just go for the knight here."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

@@ -127,6 +127,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:34: a committed Barbarians is his cue that the Mega Knight plus Evolution Goblin Barrel will not be answered — "cuz he has the barbs down and he won't be able to barbs on the right side."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:37: the opponent's Barbarians at tile [3, 19] walk Ryley's left lane for roughly 20 s and are handled with Goblin Gang plus The Log. He later uses them as the reason his barrel is unanswerable - "he's going to have to eat this or go for the barbs, but obviously he doesn't want to do either of that" (clock 0:32).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

@@ -142,6 +142,37 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0
 - clock 2:10: named as one of the two spell win conditions that replaced the spirits in the post-nerf hyper bait list (42-46s).
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 1:26 overtime: first Rocket (deploy label [5, 21]) only after troop pressure stalls — 'I think I just have to rocket instead to be honest. I can't really break through much anymore' (207-209s).
+- clock 0:42 and 0:17 overtime: two more Rockets at [12, 24] onto the enemy right tower — 'we can start rocket cycling on the right side. I would rather rocket cycle the opposite lane anyways' (248-251s); that lane is the one that ends the game.
+- clock 0:11 overtime: he plans around not having it — 'Barrel here as well cuz we're not going to be able to rocket again' (282-285s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 0:25: Rocket at tile (13, 27) fired on sight at the opponent's Evolution Witch rather than saved for the tower — "I will just rocket that witch immediately. I do not want to play any games with an evo witch, man. That card is just way too powerful." It is the only Rocket of the game and the only card he spends more than 5 elixir on.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- Held all game (visible in the HUD hand from clock 2:52 through the middle game) and cast exactly once, overtime 0:03 (t=805.8) at tile [12, 24] as the closer — "then we can go for a rocket, guys, and we actually won this game. That was such good offense, man." Enemy right tower 1868 -> 1322 across the next frames.
+- He explicitly contrasts this with how the deck usually wins: "I didn't even have to like do really good defense in rocket cycle. I just made really nice offense" (t=808-812).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 0:23 (t=963.0, tile [3, 10]): used defensively on his OWN half to erase a Hog Rider + Firecracker push - "He's definitely going to go for another Hog Rider though. I'm going to have to rocket this for sure. Yep, let's just go for the rocket here." He follows it with The Log as insurance: "Go for the log on the Firecracker just in case I missed it. Yep, great protection right there."
+- OT 0:59 (t=1048.0, tile [12, 17]): the first Rocket at the tower, deliberately sequenced behind one more defence - "I think I'm going to rocket the tower here. Let's go for the inferno tower. Now not yet. I think I need to do one more defensive sequence first. Okay, let's rocket here."
+- OT 0:37 (t=1069.1, tile [16, 24]): forced tower Rocket once the barrels stop connecting - "We can get a bit of damage on the tower. Now we get nothing. I have to rocket though anyways otherwise we lose."
+- OT 0:22-0:05 (t=1085.1, 1098.1, 1099.1, 1102.1 at [12, 22], [11, 18], [12, 24], [12, 23]): the closing sequence, paired with a barrel to strip the opponent's Log first - "Sorry, the rocket. Let's log this" and "I'm going to barrel here just to force him to use his log and then I can rocket him maybe. Rocket and then we log on defense."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 0:47: a deploy label puts a Rocket at tile [3, 8] on his own half - on the Graveyard/Barbarians rather than on a tower - but his commentary two seconds later is "rocket here if need be. Actually, no, I don't even need a rocket," so the two signals conflict and only the label is hard evidence. Either way he treats Rocket as the held answer to the opponent's support, not as a cycle card.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

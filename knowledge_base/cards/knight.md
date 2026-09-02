@@ -196,6 +196,53 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:25 (t=901-905): he pre-places Valkyrie for it — "Let's Valkyrie on top as well cuz he's probably going to try to go for the Knight" — and dismisses it again at 942-944s: "He might even knight in the middle but that's not going to work".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Played in Hero form all game. clock 1:10: spends 2 elixir on Triumphant Taunt to drag the enemy Hero Berserker off its target — 'we'll just go for the Knight ability here just to bring that Berserker over. That's going to run for a while, so the Knight should live. Yeah, beautiful ability right there' (100-106s).
+- clock 1:10: immediately draws the general rule — 'Always have to be smart with the abilities, otherwise your opponent can catch you lacking' (107-111s).
+- clock 1:22, 1:43 overtime and repeatedly at [3, 5]: cycled into his own back corner as a standing body — 'I need to keep on cycling my knights in the corner though because I need to just have some preemptive units down' (189-193s).
+- clock 0:31: stacked with Ice Spirit at [3, 11] / [3, 10] on one defence against the Wall Breakers — 'knight and we can go for the ice spirit here as well... Nice, beautiful defense' (141-144s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:57: Knight at (1, 14) placed directly onto the enemy Bowler — "we can go for the knight on top of the bowler."
+- clock 1:08: Knight at the bridge as the tank half of a Knight-plus-Evo-Barrel pressure package — "let's just go for the knight at the bridge, and then we can go for the evo barrel here as well." (The HUD misread the -3 step as Tombstone; the play is confirmed by commentary and the barrel label.)
+- overtime 1:35: Knight at (13, 13) to open the winning counter-push in the lane the opponent was not defending — "We can go for a knight at the bridge opposite lane."
+- overtime 1:29: he is playing the Hero Knight and pays the 2-elixir Triumphant Taunt to push that Knight through — "I'm going to pop the ability keep this alive. Nice quick ability. Very fast ability." The enemy right tower falls six seconds later.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:04 (t=568.6, tile [9, 11]) with Ice Spirit behind it, into a Barbarian Barrel barbarian and the Mighty Miner — "I'm going to go for the knight here and then I'm going to go for the ice spirit here as well just to make sure that I keep this alive."
+- clock 1:05 (t=628) and clock 0:42 (t=650.6, tile [2, 8]): mini-tank into the bridge to start pressure — "I'm going to knight the bridge here, and then I'm going to Goblin Gang just to be really annoying" (t=627-629).
+- overtime 1:42-0:58 (t=712.7 [3, 13], t=753.8 [4, 13]): played at the bridge as a body for the Princess and as a pre-empt — "Let's go for the Knight at the bridge just to keep the Princess alive" and "we need to go for a Knight at the bridge, too, cuz I know he's going to try to get a Cannon."
+- overtime 0:37-0:20 (t=771.8 [15, 12], t=781.8 [13, 12], t=796): the Hog denial tool late — "Knight predict the hog" (t=772) and "Let's Knight the bridge again so he can't go for the hog. Perfect. He has to go for the hog down the middle" (t=796-802).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 2:08 (t=858.9, tile [10, 7]): played to activate his own king tower, not primarily to block - "we're going to have to go for the knight here to activate our king tower" (repeated at t=863: "let's go for the knight here just to activate our king tower"). The king tower HP starts being read at t=866.
+- clock 1:21 (t=905.9) and OT 1:55 (t=992.0), both at tile [15, 13]: pre-placed as the body for a predicted Mighty Miner - "Let's go for the knight here. We can goblin gang as well cuz I think he's going to mighty minor. Yep."
+- OT 1:35 (t=1011.0, tile [2, 13]): used to keep chip out of the second lane - "I'm going to Knight though cuz I don't want to take the chip in the other lane."
+- OT 0:52 (t=1055.1, tile [9, 14]): the block he cannot afford at the end - "We need a knight the bridge to block the evil cracker, please. Oh, I didn't have enough elixir man. Oh, GG's."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:47: placed at the bridge, tile [2, 15], as a pre-emptive body rather than a reaction - "I'm going to knight here cuz he might try to ability to take this."
+- clock 0:40: at tile [1, 8] in front of his own tower, purely as a pup-soak - "let's just go for the knight here just to tank for the Lava Hound pups. Good defense right there."
+- Note: two -2 elixir HUD events read as 'Suspicious Bush' (clock 1:12 and 0:27) are not deck cards; the 0:27 one lands one second after a Knight at tile [8, 21] and matches the Knight Hero's Triumphant Taunt, so a Hero Knight is plausible in this session but is not confirmed by any deploy label.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock ~1:08 (Hero variant, Triumphant Taunt for 2 elixir): the taunt is used to protect an attack, not just a defence - "We can even pop the ability here just to make that Bandit start going to the Knight, and this will be tower down. And because the tower gets taken, the Goblins will actually take out the bandit." Afterwards: "Defending the bandit through the ability was super, super clean."
+- clock 1:20: Knight deploy label at tile [14, 14], right at his side of the bridge, as the body for an incoming Battle Ram and Royal Ghost while the opponent is out of elixir - "we can go for a Knight. He has to defend the Princess, but now he has no Elixir."
+- clock 0:38 and 0:25: Knight at [16, 6] then [8, 8] as the front half of a Log-plus-Knight defensive pair against the second Battle Ram - "let's go for the knight. We can make sure we take out this Battle Ram", and "we can go for a low [Log,] Knight here on top of this."
+- clock 0:07: last Knight of the game at [3, 9], left lane, layered in front of the Inferno Tower on the final Battle Ram.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

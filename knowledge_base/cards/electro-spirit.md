@@ -243,6 +243,16 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - clock 0:50: deploy label at [12, 11] as pre-emption against a Night Witch and Bats package — "let's go for the e-spirit over here just to not have to be careful. It's ability as well."
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- Cycle-tracked, not seen: at clock 1:51-1:49 (t=581-585) he goes all-in on an Evo Barrel specifically because "he doesn't have an e-spirit in cycle just yet. He has it in cycle now, but we're going to get good damage, of course."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card, the answer to his Goblin Barrel that he plays around all game. Called before the first barrel lands - "I know he's going to go for the e-spirit, but there's nothing I can really do about that, unfortunately" (t=848-850) - and again before the Evo barrel - "He's going to be able to e-spirit log, but I mean it's still good to just get extra elixir" (t=915-918). Detected as an enemy unit at OT 0:53 (t=1054).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

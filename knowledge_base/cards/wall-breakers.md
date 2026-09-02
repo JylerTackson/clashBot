@@ -150,6 +150,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3
 - clock 0:17: Wall Breakers at [15, 13] as the closing pressure while he holds Ice Spirit for the opponent's Evo Battle Ram.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Opponent's card (Evolved). Ryley's whole answer is The Log timed on the bridge plus a chip from Ice Spirit or Knight: 'I'll just go for the log here on top of the wall breakers' (67s) and 'if the wall breaker gets hit then we would obviously be able to just take it out with the log' (124s); logs land at [3, 15] at clock 0:55 and 0:52.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

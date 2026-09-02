@@ -169,6 +169,24 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - he pre-places air cover for it rather than waiting - "Let's baby dragon preemptively in case a hog rider" (1046-1048s) - and expects it paired with the Mighty Miner ability (1059-1060s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- The opponent's win condition, called at clock 2:48 before it appeared ("he has a hog rider", t=524) and answered all game by pre-placed Goblin Gang plus Knight at the bridge rather than by reaction: "Knight predict the hog. Ice Spirit, beautiful prediction" (t=772-774) and "Let's Knight the bridge again so he can't go for the hog. Perfect. He has to go for the hog down the middle" (t=796-802).
+- Hog tracks reach his tower with sub-2s ETAs at clock 1:21 (t=612), 0:50 (t=642) and 0:07 (t=686), which is what pushes him into the cycle plan at t=683-688: "we could out-cycle him... I'm going to have to start cycling my cards now."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card. Ryley calls the whole deck off the Mighty Miner before the Hog ever appears - "Probably going to be a hog rider deck" (t=823) - and it lands at tile [6, 7] at clock 2:27 (t=840) through his Inferno Tower + Goblin Gang + Ice Spirit: "that was a really aggressive play... I do think bro, how is that still alive?"
+- clock 0:25-0:22 (t=959-965): he answers a Hog with a defensive Rocket on his own half, having first baited the Earthquake out - "He's definitely going to go for another Hog Rider though. I'm going to have to rocket this for sure."
+- OT 1:51 (t=996) and OT 1:17 (t=1030-1034): his standard answers are Goblin Gang or Ice Spirit, and he says so when he lacks them - "That was just such a bad Hog Rider" and "I can't really predict the Hog cuz I don't have a Gang or I mean an Ice Spirit or anything. Let's predict it now and then I can barrel instantly. Oh, I didn't get it though unfortunately."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 0:35 and 0:08: named twice as the threat behind the Battle Ram he is already defending - "We have to watch out for a Hog Rider too though" and "He's going to be able to Hog Rider too." Ahead on crowns and defending, he accepts the chip instead of over-committing: "I don't even care if the Hog grabs one shot. It doesn't even grab a shot though. Beautiful defense." (mentioned and tracked at the very end of the window, not deployed against a full defence).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

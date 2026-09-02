@@ -200,6 +200,12 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - clock 1:12: he is aware they are Arrows-bait and puts a Mother Witch body up first — "he might try to arrows last second" (280s).
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:43: the presence of Zappies is what dictates his Inferno Tower placement all game — "I can't go for a high inferno because he does have zappies, so I have to be a little bit more cautious."
+- clock 1:14-1:07: he predicts the split-Zappies answer to his split Goblin Gang and gets it — "if he does, then he'll just split his zappies, too... Yeah, nice."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

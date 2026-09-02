@@ -138,6 +138,47 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 0:40 (t=824.8) and clock 1:18 (t=906.9): the opponent places it early at tile [10, 20] twice and Ryley rates both placements badly — "These early Inferno Towers are not going to work" and "Bad Inferno Tower. That's not really doing what he wants it to".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Never placed in the first two minutes; all three placements (elixir 7->2) come at clock 0:14 of regular time and 0:42 / 0:17 of overtime, as the heavy anchor once he switches to Rocket cycling.
+- Named as the deck's insurance rather than its default defence — 'you have Inferno Tower for all of the beatdown decks' (46s); this opponent (Miner Wall Breakers cycle) gave it almost nothing to burn.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:43: Inferno Tower at (8, 9), placed low on purpose because of the opponent's Zappies — "I can't go for a high inferno because he does have zappies, so I have to be a little bit more cautious."
+- clock 0:57: Inferno Tower at (9, 8) into a Bowler-plus-Zappies push in the right lane, again central and behind the tower line.
+- clock 0:32: Inferno Tower at (6, 9) onto the second Graveyard — "Let's go for the inferno tower down low. This inferno will take out literally everything, which is great, but we have to watch out for an opposite lane push."
+- clock 0:05: he calls it specifically as a retarget tool behind The Log — "I'm just going to go for a log here and then we can go for an inferno tower cuz that will retarget. Perfect... Good defense right there."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- Every placement is the same central block, tiles [9, 7] to [9, 9] (t=595.6, 675.7, 703.7, 725.7, 800.8), pulling both lanes and sitting in front of the king tower.
+- clock 0:15 (t=675.7): played as elixir denial as much as defence — "Just go for the Inferno Tower here just to be annoying. Take this out" (t=677-681).
+- overtime 1:27 (t=725.7): the designated Mighty Miner answer — "We have to Inferno Tower here" (t=726), after he had baited the ability at the bridge ("make him use the ability", t=721).
+- overtime 0:13 (t=800.8): the last one goes down to free the Rocket — "We can just go for an Inferno Tower, and then we can go for a rocket, guys, and we actually won this game."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 2:28 (t=837.5, tile [8, 10]): his Hog Rider answer, placed 1-3 tiles in front of the tower rather than dead centre - "Let's go for the inferno tower here. Make sure that we take out this hog rider."
+- clock 0:57 (t=928.9, tile [9, 10]): dropped with the counter-spell already called, accepting the chip to force it out - "Let's Inferno Tower here. He's definitely just going to go for the Earthquake." The Earthquake lands the same second.
+- OT 0:32 (t=1075.1, tile [8, 8]): the card that keeps him alive in triple elixir - "we have the inferno tower ready again though. We haven't lost yet. Let's inferno tower here."
+- OT 1:09-0:57 (t=1042.0 tile [7, 11], t=1049.2): he holds it for one more defensive cycle before committing his Rocket - "Let's go for the inferno tower. Now not yet. I think I need to do one more defensive sequence first."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 0:53: one placement only, at tile [8, 9] - centred between the lanes rather than lane-side, and held back until the Lava Hound was committed. He explains the delay first: "I am going to end up being in a pretty weird situation here with him having a Mega Minion in the other lane cuz I can't really defend properly until that gets taken down."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 0:47: placed dead centre of his own half at tile [7, 8] (HUD elixir 9 -> 4) with a Battle Ram in the right lane and a Wizard walking the left - "I will go for the Inferno Tower here in the middle... That's going to bring over both units." Stated reason for the centre placement is two-lane coverage, and he calls the matchup out first: "I know he has Evo E-Barbs and Evo Battle Ram though, so that's not going to be a simple task."
+- clock 0:14: second Inferno Tower at [3, 9] in the left lane, put down as a Battle Ram block he expects to be Zapped - "I know he's going to get a zap down so we need to get the Inferno Tower to block. Okay, nice."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Tower (scraped 2026-09-02T02:35:33+00:00)

@@ -184,6 +184,49 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0
 - clock 2:10: counts it as one of the deck's win conditions, not just an answer — "instead of having a lot of spirits in hyper bait, now you just have a bunch of win conditions with a rocket and a log" (42-46s).
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 1:45: pre-logged at [3, 11] before the units arrive — 'I'll just go for the log here on top of the wall breakers' (67s).
+- clock 0:55 and 0:52: two Logs at his own bridge tile [3, 15] as the Wall Breakers cross — 'if the wall breaker gets hit then we would obviously be able to just take it out with the log' (122-127s).
+- clock 0:20: pre-log on the chip troops — 'we can go for a pre-log on top of the spear goblins' (151s).
+- He counts the opponent's copy rather than watching for it — 'We out cycled his log so I could barrel on the left as well' (132s), 'Oh, he got back to the log' (153s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:32: The Log at (2, 13) rolled into his own Inferno Tower's lane to clear the Witch's skeletons before they connect — "I'm going to log this over into the inferno tower just to not take any damage." His left tower takes no damage from the wave.
+- overtime 1:44: The Log at (14, 4) deep on his own half against the Graveyard/Bowler push — "Then we have to go for a log on defense here. Let's log." — and immediately paired with an Inferno Tower for the retarget.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:48 (t=524.5, tile [3, 7]): with the Goblin Gang on the opening Hog Rider — "I'm going to go for the goblin gang and the log here."
+- clock 1:50 (t=581.6, tile [2, 15]): played offensively behind the Evo Barrel to protect the goblins — "We can log as well keep this alive" (t=580).
+- clock 0:33 (t=658.3, tile [14, 4], HUD 4.0 -> 2.0): the last card of a defensive sequence — "go for the log here as well. This should be a full counter" (t=658-660); same role at overtime 1:23 (t=729.7, [12, 9]): "We have to log here."
+- overtime 0:15 (t=798.0, tile [11, 12], the deploy label explaining a 2-elixir drop the hand read disagreed with): sweeping the Evo Firecracker the Princess had just softened — "Evo Princess to snipe the cracker so then we can log it off the board. Nice."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 1:33 (t=893.6, tile [4, 15]): chosen over an Evo Goblin Barrel because his cycle was bad - "We could go for a nice evo barrel here, even though I don't really think it will do too much. My cycle is cooked. I think I'll try to save it here. Let's log. I would rather get at least one tank or something."
+- clock 0:22 (t=965.0, tile [3, 14]): spent as insurance behind a Rocket he had already thrown - "Go for the log on the Firecracker just in case I missed it. Yep, great protection right there... Just making sure that I was playing it safe."
+- OT 0:48 (t=1058.1, tile [2, 8]), OT 0:17 (t=1090.6, tile [5, 9]) and OT 0:03 (t=1103.1, tile [2, 8]): the standard defensive logs on Skeletons and Goblins under Mighty Miner / Firecracker pressure - "we have to go for the low gang then we go for the log as well. Log here."
+- His verdict on the slot, twice: "I think it was the first game where log is much harder than the barbarian barrel" (t=900-902) and, on losing, "Oh guys, with the log it's so bad man. It's just so hard to break through" (t=1111-1114).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:43 and 1:35: two Logs (label at tile [2, 12]) sweeping Skeletons and the front of a Barbarians push off his own left half.
+- clock 1:20: pre-announced defensive Log - "Okay, I'm going to log here" - and he immediately reads the opponent's follow-up: "I wouldn't be surprised if he Lava's the back." The Lava Hound lands at clock 1:11.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 0:37 and 0:32: Log (HUD -2) then a Log deploy label at [14, 11] onto the Battle Ram and its support in the right lane - "Let's go for the log here."
+- clock 0:03: the game-winning Log at [2, 7] on the last left-lane Battle Ram with 2 elixir in hand - "We can just log here and we will be able to save our tower. Let's go. Beautiful win."
+- clock 0:20: used again in the same triple-elixir defensive rotation - "Beautiful defense. Log here."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

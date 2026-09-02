@@ -123,6 +123,51 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - clock 1:42 (t=72.1s [14, 5]): deep-right defensive placement against the Knight advancing the right lane (tracked [14, 12] to [14, 10], "tower in 5.5s"), backed a second later by The Log at [14, 10].
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 0:35, 0:14 and 0:42 overtime: dropped at [3, 5] / [3, 9] before the Miner lands, as a prediction rather than a reaction — 'Let's Goblin Gang predict the miner again. Nice, good prediction' (138-140s), 'Gang here for the miner' (255s).
+- clock 2:05: stocked at [9, 1] behind his own King Tower with nothing on the field, purely to have a body pre-placed and keep the cycle moving.
+- clock 1:27 overtime: layered behind the mini-tank — 'Then we can go for a Goblin Gang behind our knight as well' (203s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:14: split in his own back at (8, 1) specifically to bait a split answer — "Let's just split our Goblin Gang in the back because if he does, then he'll just split his zappies, too." The opponent splits Zappies seven seconds later: "Yeah, nice."
+- clock 0:47: Goblin Gang at (3, 13) with an Ice Spirit at (3, 12) as the Witch answer instead of a spell — "we can go for the gang plus ice spirit, too, cuz he's going to try to go for the witch, but if he doesn't do it right, then we're just going to take out the whole thing."
+- overtime 1:25: Goblin Gang at (14, 14) is the last card of the tower-taking push — "GOOD GANG TO BLOCK THE CARDS AND THAT'S tower down, man."
+- Also used at (3, 2) back placement (clock 2:00), (14, 11) on the right-lane defence (0:16) and (11, 7) in overtime — six deploys in 172 readable seconds, the most-played card of the game.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:48 (t=523.5, tile [2, 10]) with The Log at [3, 7]: the standing answer to the opening Hog Rider — "he has a hog rider. I'm going to go for the goblin gang and the log here."
+- clock 1:42 (t=591.6, [15, 9]) and clock 1:25 (t=607.6, [15, 11]): pre-placed as a prediction rather than a reaction — "ooh, nice gang prediction" (t=608) — and he credits it for the whole tempo swing at t=622-627.
+- overtime 1:48 (t=706.7, [11, 7]): held back until the opponent's Earthquake was spent — "He's going to go for the Earthquake, but after he goes for the Earthquake, I can just go for the Goblin Gang now" (t=705-710), restated at t=762-765: "because he went for the Earthquake, he doesn't have Earthquake for the gang."
+- overtime 1:11-0:37 (t=744.7 [14, 10], t=774.8 [15, 12]): cycled onto the bridge to deny Hog Rider timing — "Let's gang again as well" (t=775) and "we need to go for the gang. Nice, we predicted the hog again" (t=784-788).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 2:31 (t=835.8, tile [9, 9]) and clock 2:02 (t=865.9, tile [2, 10]): the reactive answer to the Hog Rider / Mighty Miner traffic, dropped alongside Inferno Tower and Ice Spirit - "Let's go for the gang, and then we can go for the ice spirit here as well."
+- clock 1:19 (t=907.9, tile [14, 14]) and clock 0:03 (t=983.0, tile [15, 14]): pre-placed at the bridge before the win condition arrives - "We can goblin gang as well cuz I think he's going to mighty minor. Yep" and "Let's Gang the bridge as well in case he tries to go for any type of Hog Rider so I can just apply some pressure."
+- OT 1:46 (t=1002) and OT 0:17 (t=1090.1, tile [5, 8]): played for partial value on purpose, and deep on his own side to stay out of spell range - "we just get a bit of Gang value" and "Go for the gang low."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:59: dropped at tile [3, 13] onto Skeletons already crossing into his left lane - the first of three purely defensive Goblin Gangs in a 75 s window.
+- clock 1:47: it doubles as Zap bait without being played for that - the opponent Zaps it and misses, which Ryley calls out twice: "Oh, he just missed his zap. Dude, what?" and later "He went loon the bridge and did a princess just to miss his zap on the Goblin Gang."
+- clock 1:16: replayed at the same tile [3, 13] against the opponent's Barbarians.
+- clock 0:44: at tile [2, 7], deep on his own half, as the first layer against the Lava Hound - "Okay, let's Goblin Gang you're up to the side. He might go for the zap and then we can just go for the knight here."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 1:28: deploy label at [14, 5], deep in his own right lane, added as the last layer once the tank was already committed - "I'm going to let that Berserker go, and then we can just go for the Goblin Gang on top of everything."
+- clock 1:02: credited with the Bandit kill after the Hero Knight taunt pulled it off the tower - "because the tower gets taken, the Goblins will actually take out the bandit."
+- clock 0:32 and 0:18: Goblin Gang at [16, 7] (3-elixir step) and [6, 8] as the damage layer behind the Knight/Log against the second and third Battle Rams - "We can go for the Goblin Gang and then we go for another Inferno Tower here."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

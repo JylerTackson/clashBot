@@ -205,6 +205,49 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:11 (t=915): rates the evolved version but caps it — "Evo Princess is good, but it's not going to be enough".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 1:14 and 0:47: placed deep and off-centre at [10, 5] / [10, 6] and held rather than cycled, specifically as the Evo Bats answer — 'we have the Princess ready in case he tries to go for the Evo Bats' (92-94s).
+- clock 0:14: 'Let's just go for the princess off to the side' (157s) — deploy label at [12, 7], wide so the opponent's Log cannot value-trade her with anything else.
+- clock 0:22 and 0:47 overtime: repeated wide Princesses at [12, 3] / [12, 8] are what forces the opponent to spend — 'Good damage though with that princess. He needs to log one side' (243-245s).
+- Ryley rates her as the matchup swing: 'with some really good Princess placements and stocking, we should actually be able to win this matchup' (79-85s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 0:52: Evo Princess at (2, 13) as bridge pressure aimed at the opponent's small spell — "Let's evo princess the bridge, too. Nice, he has to go for the arrows here" — then Goblin Gang plus Ice Spirit behind it.
+- overtime 1:51: a deliberate second Princess to block the pushed-up Bowler lane — "He might end up going for the high middle zappies or the high witches to cycle to the Evo. So I'm going to get a second one here to block it."
+- overtime 1:38: Evo Princess at (14, 2) dropped inside the enemy Graveyard, defence and chip at once — "we can go for the Evo princess all the way inside of the graveyard cuz it's going to live, but it's also going to defend."
+- The two-Princess board is what he credits the overtime win to at 501s and 516s: "He has to be really careful cuz we have double princesses down" and "we just stacked up so many princesses because of it."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:27 (t=545.5, tile [11, 3]), clock 0:57 (t=637.6, [6, 5]) and overtime 1:57 (t=696.7, [8, 0]): placed deep behind the towers whenever the Evo Firecracker is a threat — "Let's go for the Evo Princess here in the back. I know he has an Evo Firecracker that he could get a lot of value from, and I am definitely a little bit worried about that."
+- clock 0:40 (t=652.7, tile [5, 4]): a Princess played specifically to activate his own king tower — "we're going to go for the princess here to activate the king tower cuz I know he's trying to avoid using the Firecracker" (t=653-655); his king HP becomes readable (7569) five seconds later.
+- clock 1:10-1:07 (t=622-627): the bridge Princess is framed as the payoff of a Goblin Gang prediction — "That gang prediction was actually so good cuz it actually allowed me to sneak in a princess at the bridge cuz it forced him to over-commit." She is also his matchup barometer: "with the barbarian barrel, they're just unable to kill the princess. So the princess can just get a crazy amount of value" (t=565-568).
+- clock 0:20 (t=792): used as a sniper into the Evo Firecracker so The Log can finish it — "Evo Princess to snipe the cracker so then we can log it off the board. Nice." Earlier (t=726-737) an Inferno Tower leaves her on 1 HP: "That's not going to kill our Princess, is it? It's going to leave it alive on 1 HP... The one time I don't want her to keep herself alive, man."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 2:41 (t=824.8, tile [9, 0]), clock 1:31 (t=896.9, tile [8, 0]) and clock 0:08 (t=978.0, tile [9, 0]): the evolved Princess parked behind his own king tower as a two-lane presence; the first one is aimed at a specific card - "Let's go for the princess for the skellies cuz I know he's going to do them" (t=851-853).
+- OT 1:27-1:19 (t=1020-1028): takes her to the bridge instead of holding her for defence - "I can Evo Princess at the bridge actually. I was going to try to get value defensively, but I think this is more worth it, to be honest. Just getting that Firecracker out and getting that shot on the tower."
+- OT 0:23 (t=1083.1, tile [2, 5]): a low-HP Evo Princess deliberately placed outside The Log's reach - "We have a low evil princess here. I'm going to put it where he can't hit it with that a log."
+- clock 1:01 (t=926): plans her placement around the opponent's building rather than the push - "I can avoid that cannon placement with the Princess if I get a Knight in cycle."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock ~1:57: behind the king tower at tile [8, 1], the standard back-placement for chip and long-range support.
+- clock 0:51: at tile [8, 5], directly behind the freshly placed Inferno Tower, so she outranges the Lava Hound's support while the tower burns the Hound.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 0:53: single deploy of the window at tile [9, 0], behind his own king tower, at the exact moment he switches from barrels to holding the crown lead - "we just have to defend for another 50 seconds." No commentary on the card itself; she has to survive the opponent's Evo Wizard and Zap for the rest of the game.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

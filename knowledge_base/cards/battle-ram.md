@@ -209,6 +209,12 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - Every Battle Ram in this game is on a bridge or enemy-half tile (2, 13), (3, 10), (4, 20), (14, 21); it is never used defensively or as a kite.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 1:24, 0:35, 0:14: three separate Battle Rams from a bridge-spam opponent, and Ryley names it as the deck's identity at clock 1:54 - "He even has such bridge spam, he has Battle Ram and Hog Rider."
+- clock 0:38-0:28 and 0:14: his answer pattern is Knight in front, Log on the barbarians, Goblin Gang on top, Inferno Tower behind - "let's go for the knight. We can make sure we take out this Battle Ram", then "I know he's going to get a zap down so we need to get the Inferno Tower to block." He notes the Evo version specifically: "I know he has Evo E-Barbs and Evo Battle Ram though, so that's not going to be a simple task."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

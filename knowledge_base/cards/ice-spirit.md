@@ -230,6 +230,48 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:09 (t=918-921): the opponent's last-ditch save on a tower already broken by Evo E-Barbs and Minions — "Spirit's going to save him, but it's not going to save him well enough. He's already at 500 HP".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 1:47 overtime: the 1-elixir top-up on an Evo Bats defence — 'We definitely have to ice spirit this and we can go for the gang as well' (185s).
+- clock 0:31 and 0:11 overtime: dropped at [3, 10] onto incoming Evo Wall Breakers — 'Hopefully we can hit the wall breakers' (143s).
+- clock 0:57 overtime: used on the Miner at [4, 5] — 'We ice spirit here for the miner' (237s).
+- clock 0:15 overtime: deliberately held rather than cycled — 'We have to save the ice spirit so we can hit the wall breakers though' (279-281s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 0:47: Ice Spirit at (3, 12) paired with the Goblin Gang as the freeze on top of a Witch push — "we can go for the gang plus ice spirit, too."
+- clock 0:16: Ice Spirit at (16, 11) with a Goblin Gang at (14, 11) to hold the right lane while the enemy Graveyard is still spawning.
+- overtime 1:43: Ice Spirit chained straight after a defensive Log — "Let's log. Let's ice spirit here for this" — three of its four uses this game are the second card of a two-card defensive answer, never an opener.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 2:27 (t=545.5, [8, 15]) and clock 2:00 (t=571.6, [11, 11]): spent to keep a defensive body alive rather than as damage — "I'm going to go for the ice spirit here as well just to make sure that I keep this alive" (t=572).
+- clock 1:02 (t=631-633): used as a stall on the Mighty Miner — "I'm going to Ice Spirit here, too, just to freeze up that Mighty Miner. He's going to have the ability or Firecracker. That's fine with me though. I just want to waste elixir from him."
+- clock 0:23 (t=670-672) and overtime 1:53-1:32 (t=700.7 [15, 14], t=720.4 [14, 14]): the cheap top-up on a push — "Oh, we do get a splash at least. Ice Spirit, keep this alive."
+- overtime 0:37 (t=772-775): paired with the bridge Knight as a Hog prediction — "Knight predict the hog. Ice Spirit, beautiful prediction."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 1:05 (t=921.9, tile [4, 8]): pure distraction on a tunnelling Mighty Miner - "Let's ice Spirit here just to distract that Mighty Miner. Don't want to take that damage."
+- clock 0:38 (t=947.9, tile [2, 13]): used to push a defensive stack in ahead of the Inferno Tower and Goblin Gang - "Let's Ice Spirit to push this in. Go for the uh High Inferno here. Then we can go for the Gang as well."
+- OT 0:29 (t=1078.1, tile [5, 13]): played to protect the Inferno Tower's ramp-up - "Let's go for the ice spirit here. It's going to help keep that a little bit more healthy which is good."
+- clock 2:32 (t=834.7, tile [9, 13]) and OT 0:19 (t=1089.1, tile [3, 9]): the cheap filler in front of every big defence; he notes its absence as the reason a prediction fails - "I can't really predict the Hog cuz I don't have a Gang or I mean an Ice Spirit or anything" (t=1030-1034).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:45: at tile [2, 11] as the cheap top-off that finishes the Skeletons his Goblin Gang was already holding.
+- clock 0:37-0:24: paired with the Goblin Barrel as the offensive package - "I'm going to ice spirit barrel cuz he's going to have to eat this or go for the barbs" - the Ice Spirit freezing the tower so the goblins get an extra hit in.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.md):
+- clock 1:28, 0:42 and 0:03: three uses at [3, 10], [5, 10] and [2, 11], every one of them the freeze added on top of a defence that is already down rather than a standalone answer - "Let's Ice Spirit here as well just to freeze this up and then we can go for a low [Log,] Knight here on top of this."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

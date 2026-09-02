@@ -141,6 +141,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - clock 0:35 (t=654.7): Bats at (5, 15) into the left-lane Royal Hogs follow-up — the opponent's cheap air answer, in a game where Ryley's only air coverage is Archer Queen and Royal Delivery.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Opponent's card (Evolved). Mentioned, not answered by a dedicated play: Ryley holds Princess in hand for them — 'we have the Princess ready in case he tries to go for the Evo Bats' (92-94s), 'He might Evo Bats predict' (111s) — and tops up with Ice Spirit when they come (clock 1:47 overtime, 185s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

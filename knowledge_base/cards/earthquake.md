@@ -119,6 +119,23 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - OT 0:21 (t=790.8): the only Earthquake of the game on Ryley's own half, at (4, 12) onto his Cannon and Skeletons — that one is the opponent's, and it is how they answer his defensive cluster.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- clock 0:25 onward (arena reads at [14, 30]-[15, 31] from t=666.7): Ryley calls it before each cast ("He's going to go for the Earthquake", t=705) and plays around it by holding the Goblin Gang until it is spent — "because he went for the Earthquake, he doesn't have Earthquake for the gang" (t=762-765).
+- Named as half of the archetype in his scouting read at t=528-537: "this guy's just playing a hog EQ... I do feel like hog EQ is a winnable match up if things go our way. Mainly just because of the Evo princess."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card, cast on his Inferno Tower at clock 0:57 (t=928.9) and again at clock 0:28 (t=957.0), predicted out loud both times - "Let's Inferno Tower here. He's definitely just going to go for the Earthquake" (t=928-931) and "He's definitely going to go for the Hog Earthquake. I can just feel it. It's so obvious" (t=944-947).
+- The read he builds the defence around: once the spell is spent the win condition is cheap to stop - "It's mainly just doing that just so I could get the Earthquake out cuz obviously I was able to counter that really easily after he didn't have the Earthquake anymore" (t=953-958).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 0:55: the opponent's Earthquake, detected at tile [14, 30] on his own half - the only spell he had left for the goblin swarms; Ryley does not comment on it.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

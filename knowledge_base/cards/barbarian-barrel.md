@@ -273,6 +273,12 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - clock 0:52 and 0:16: used as the second half of a two-card block, immediately after the Berserker or the Goblin Hut distraction, rather than as an opening answer.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- The single card his whole matchup read hinges on: "it does depend on if he has log or if he has the uh barbarian barrel cuz if he has the log, I do think that it's just a bad match up. But if they have the barbarian barrel, I do think that I have a pretty decent shot at winning... with the barbarian barrel, they're just unable to kill the princess. So the princess can just get a crazy amount of value" (t=543-568).
+- Its barbarian is what the 2024 detector reports as "barbarian(e)" throughout; the casts themselves are confirmed by commentary at clock 0:47 ("he is back now to the Barbarian Barrel", t=650) and overtime 0:42-0:37 ("he barb rolled anyway, and we get damage", t=771; "he just used the Barbarian Barrel", t=776), each time freeing Ryley to barrel again.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

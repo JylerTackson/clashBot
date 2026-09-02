@@ -131,6 +131,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - clock OT 1:42 (t=191-193) and OT 0:53 (t=240-244): he classifies her as a Lightning target — "I do have to watch out for that Evo witch cuz it is actually above the max HP" — and spends the Lightning on her pre-emptively at tile [13, 18].
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:35 and 0:25: the opponent's Evolution Witch is the card Ryley refuses to interact with normally — he answers the first one with Goblin Gang plus Ice Spirit ("he's going to try to go for the witch, but if he doesn't do it right, then we're just going to take out the whole thing") and then spends his Rocket on the next one immediately: "I do not want to play any games with an evo witch, man. That card is just way too powerful."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

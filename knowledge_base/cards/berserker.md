@@ -250,6 +250,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - clock 2:49: the card is one of the three Ryley names the deck after — "this Royal Hogs Hero Berserker Evo Ghost deck."
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Opponent's card (Hero form). Mentioned, not fought head-on: Ryley answers the Berserker ability with the Hero Knight's Triumphant Taunt at clock 1:10 — 'He might try to go for the Berserker ability. Yep, we'll just go for the Knight ability here just to bring that Berserker over. That's going to run for a while, so the Knight should live' (100-106s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

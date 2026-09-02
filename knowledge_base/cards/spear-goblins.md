@@ -115,6 +115,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0
 - clock 0:47-0:40 (opponent): chip pressure down the right lane, once spawning already on Ryley's half; he answered with The Log at clock 0:40 while narrating the wider defence — "This should be a really good defense" (133-134s).
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Opponent's card. Handled with a pre-emptive Log rather than a reaction — 'we can go for a pre-log on top of the spear goblins' (151s, Log at [3, 15] clock 0:20) — and he expects them as a side-lane chip finisher: 'He could spears off the side' (287s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

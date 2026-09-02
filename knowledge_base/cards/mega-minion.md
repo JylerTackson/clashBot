@@ -123,6 +123,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - clock ~0:28: once it locks onto his tower he accepts the damage rather than over-spending — "Oh my god, he basically did. Okay, that mega minion locked in."
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- Mentioned only (never detected): the opponent's Mega Minion in the opposite lane is what delays Ryley's Inferno Tower - "This is a good Mega Minion though. I am going to end up being in a pretty weird situation here with him having a Mega Minion in the other lane cuz I can't really defend properly until that gets taken down" (clock 1:05-0:58). He also expects its ability on the Graveyard/push at clock 0:52: "He might go for the Mega Minion ability on top of it."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)
