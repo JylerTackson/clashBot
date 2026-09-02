@@ -106,3 +106,8 @@ commentary says he changed decks; if fewer than 8 cards are known, set
 
 Style: concrete, timestamps everywhere, card names as in the knowledge
 base, no speculation presented as observation.
+
+Cost discipline: read `context.md` once, in large chunks; for card files read
+only the `## Overview`, `## Notes / synergies` and `## Deck archetypes`
+sections of the cards you will actually cite (`grep -n "^## "` first), and
+skip archetype files you already know. Do not re-read files. Reply briefly.

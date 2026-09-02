@@ -74,9 +74,11 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
 
 
     # 1 Hz timeline
+    # one row every 2 s (the second-by-second version doubled the agents'
+    # reading cost for little extra information; plays are listed separately)
     timeline, last_sec = [], None
     for s in match_states:
-        sec = int(s["t"])
+        sec = int(s["t"]) // 2 * 2
         if sec == last_sec:
             continue
         last_sec = sec
@@ -249,7 +251,7 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
         L.append(f"- t={e['timestamp']:.1f} clock {e.get('match_clock')} **{e['player']}** {n(e.get('card')) if e.get('card') else 'UNIDENTIFIED'}"
                  f" at tile {e.get('tile')} (elixir {e.get('elixir_before')}->{e.get('elixir_after')}) [{e['detect_source']}/{e['confidence']}] {e.get('detail', '')}")
     L += ["", "## Timeline with commentary", "",
-          "Each second: clock, Ryley's elixir / opponent estimate, hand, units on the field (class, side, tile). "
+          "Every 2 s: clock, Ryley's elixir / opponent estimate, hand, units on the field (class, side, tile). "
           "Commentary lines (from the auto-transcript) are placed at the time they were spoken.", ""]
     cue_ts = [c["t"] for c in ctx["transcript"]]
     ci = 0
