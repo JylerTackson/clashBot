@@ -37,8 +37,9 @@ def main() -> int:
         info = json.loads(next(vdir.glob("*.info.json")).read_text()) if list(vdir.glob("*.info.json")) else {}
         vtt = next(iter(sorted(vdir.glob("*.en.vtt"))), None)
         method = json.loads((mdir / "calib.json").read_text()).get("notes", {}).get("arena_method", "?") if (mdir / "calib.json").exists() else "?"
-        for old in mdir.glob("game_*"):
-            shutil.rmtree(old)
+        for old in mdir.glob("game_*"):   # keep agent outputs (insights.json etc.), drop only generated context
+            for f in ("context.json", "context.md"):
+                (old / f).unlink(missing_ok=True)
         segs = split_matches(states)
         written = []
         for k, (gi, s0, s1) in enumerate(segs):
