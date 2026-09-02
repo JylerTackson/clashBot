@@ -94,6 +94,22 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
         row["threats"] = [f"{u['class']}({u['side'][0]}) {u['heading']}, tower in {u['eta_tower']['s']}s"
                           for u in row["units"] if u.get("eta_tower") and u["eta_tower"]["s"] <= 8 and u["side"] == "enemy"]
 
+    # tower-HP "unidentified spell" inferences: a real hit is monotonic; if the
+    # tower's reading later climbs back above the pre-drop value the drop was
+    # OCR flicker between two readings
+    def _flicker(e) -> bool:
+        m = re.search(r"(own_\w+) lost (\d+) HP", e.get("detail", ""))
+        if not m or e["detect_source"] != "inferred":
+            return False
+        name, drop = m.group(1).split("_", 1)[1], int(m.group(2))
+        later = [s["own"].get("towers", {}).get(name) for s in match_states
+                 if s["t"] > e["timestamp"] and s["t"] <= e["timestamp"] + 20]
+        later = [v for v in later if v is not None]
+        if not later:
+            return True
+        base = later[0]
+        return any(v > base + drop - 100 for v in later[1:])
+    events = [e for e in events if not _flicker(e)]
     # implausible opponent events: detector-side troops starting deep in Ryley's
     # half are his own units (side channel wrong), not opponent plays
     from .detect import SPELL_CLASSES
