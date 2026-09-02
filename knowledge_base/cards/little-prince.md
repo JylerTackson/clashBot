@@ -147,6 +147,17 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1433.4 (8,19) and t=1489.5 (3,19) (opponent's card, arena detection only): present in the Lava Hound / Rune Giant list but never named in this game's commentary.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- Faced, not played. Deployed by the opponent at t=26, 30, 56.1 and 104.1 and tracked walking the left lane repeatedly from t=24 to t=118; Ryley plays around the Champion ability rather than the troop - 'if he goes for the ability we of course have the Ronin here on defense. He might pop it. Okay, he doesn't bother going for the ability' (t=69-74).
+- t=135 (clock unknown): once Ryley's counter-push lands the Little Prince dies immediately - 'Oh my god we took out the LP so fast'.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent card, one detector track crossing on the left at [2, 15] (t=1353.4). Not discussed on the transcript; it arrives during the Fire Spirit + Ronin defensive rotation at t=1353-1357.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

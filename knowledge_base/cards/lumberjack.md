@@ -123,6 +123,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
 - t=139.3-152: the Lumberjack behind the last Mega Knight push survives the opponent's Evo Mega Knight knockback and gets tornado'd onto the King Tower; the enemy left tower falls 2265 -> 684 HP between t=146 and t=152 — "the lumberjack ran to the tower because of the [Evo] mega knight knocking everything away and then he [Tornado'd] my lumberjack onto the king tower... he three crowned himself" (t=143-155).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card. t=1016s: predicted from the Inferno Dragon opening - "I guess it's going to be lumberloon freeze", confirmed at t=1024s "he definitely has lumberloon".
+- t=1120s: a mis-placed Lumberjack is punished with Ronin - "Okay, that was a bad Lumberjack. Let's just go for the Ronin in here".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lumberjack (scraped 2026-09-02T02:35:11+00:00)

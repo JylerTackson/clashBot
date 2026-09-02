@@ -188,6 +188,16 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:35 (t=378.4, tile (3, 14)) and clock 0:15-1:29 (t=564.6/602.6, tile (1, 25)): Goblins used as the cheap follow-up behind a barrel, and protected with a 3-elixir Vines when one survived — "let's Vine spell here just to keep that one Goblin alive."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card, used as their Goblin Barrel answer. Ryley predicts it and rates it correctly before it lands — "He's going to goblins for no damage. Maybe he logs. That'd be good for us, but goblins is just the better play" (t=861-865). Not a card in his own deck; the one HUD 'Goblins' read at t=934.8 is a mis-read (see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Mentioned only as an opponent card, never seen on the field in this game. Their absence from the opponent's cycle is what green-lights his barrel spam: "Fireball, barb barrel, and goblins. That's an interesting deck" (1237-1239s), "just barrel here because he has no barbarian barrel and no goblins in [cycle]" (1243-1245s), and "he has no Goblins to cycle either so he probably has to Fireball this" (1302-1304s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

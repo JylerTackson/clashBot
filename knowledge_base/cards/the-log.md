@@ -422,6 +422,20 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - OT 0:13 / OT 0:05: Log at [15, 14] and [14, 14] in the closing cycle — 'Let's log here', 'Log as well, please'.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- Opponent card. clock unknown: Ryley baits it out with Wall Breakers so his Barrel lands clean — "we can just go for the Wall Breakers just to force him to log so he can't go for the Marcher immediately" (430-432s), and at 435s "Yeah, he goes for the late log."
+- clock unknown (video 522-528s): the split-lane answer to a single Log — Goblin Barrel one lane, Wall Breakers the other: "He has to log the left and then the right side." Repeated at 643-646s: "He's going to log on one lane, but it's fine... Wait, we we out-cycle this log."
+- clock unknown (video 394s): he names it as the reason the match-up is hard — "he's going to be able to really defend easily with having the Log and a bunch of quick cycle cards."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card, named in the deck read at t=824-832 ("Bush and log... Goblins and log").
+- t=926-929s: it fails to stop the Evo Wall Breakers, which is the swing of the game — "It's going to be a double connection even with the log. That was not worth it, guys. Very good damage on the tower and good damage on the ghost too"; enemy right tower 4666 -> 3046.
+- t=880s: reacted to earlier with "interesting log" as he immediately split Wall Breakers into the other lane.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

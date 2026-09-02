@@ -243,6 +243,19 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - OT 0:13 / OT 0:03: catching the last Miners is what wins him the game — 'Oh my god, and we caught the miner. Let's go', 'I think we got the miner, TOO. LET'S GO. We barely did it'.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=210.2, tile [1, 6]): Ryley lets the opponent's Miner chip his left tower (4335 -> 4025 HP over ten seconds) because of what it costs the opponent — 'He's going to get a lot of Miner chip damage, but he still has to defend this with the Zap' (t=209-212).
+- clock unknown (t=295-298 and t=320): he plays his glass cannons early to stay ahead of it — 'Let's early Magic Archer here. I know he's going to try to get a Miner or a Fireball' and 'He might try to Miner Zap this. Let's Fire Spirit. Okay, that's fine. That's just a dead push.'
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- Opponent card. clock unknown (video 426-428s): Ryley pre-answers it with Royal Delivery — "He's going to Miner with this I think. Yep, let's do delivery" — and a Miner track appears at t=466.5 (opponent elixir 10 -> 7) and again at 572s.
+- clock unknown (video 387s): one of the three cards he names on the opponent's reveal — "He has Miner, Wall Breakers, Magic Archer."
+- clock unknown (video 465-466s): he accepts the chip rather than over-defending — "we're going to take a decent bit of minor [Miner] chip though. Not the end of the world though."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

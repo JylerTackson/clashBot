@@ -139,6 +139,12 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Ryley never comments on it — his commentary through this game is entirely a balance-change review.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=782.8s: the opponent placed it in the back at (2, 23) (opponent elixir estimate 10 to 3); Ryley treated the investment as free chip time - "I think I will marcher the bridge cuz he went e-giant in the back" (t=778-781s).
+- t=788.8s: answered with an early Bomb Tower at (8, 9) rather than a reactive defence - "let's just early bomb tower"; the push never connected and he called it "game over" at t=800s.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Giant (scraped 2026-09-02T02:35:05+00:00)

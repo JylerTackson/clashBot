@@ -202,6 +202,13 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - Mentioned, never played by either side: used only as a discarded archetype read at clock 2:34 — "maybe it's mega knight bait, I guess. But I feel like no one plays mega knight bait. Oh, mortar bait" (866-871s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- Faced, not played. t=24-31 (clock unknown): identified on sight - 'I'm pretty sure we're up against a mega knight lightning player right here. This going to be a pretty interesting match up because obviously Ronin does really, really well into mega knight.'
+- t=42-43 (clock unknown): he attacks into the threat rather than holding for it - 'I think he might mega knight, but then if he mega knights then he's going to get cooked' - and holds the Ronin as the stated answer ('if he goes for a mega knight we can just go for the Ronin at the bridge', t=99-101).
+- t=126-151 (clock unknown): the opponent's Mega Knight is tracked at (9, 4) and (8, 2) in Ryley's half while Ryley's own push is running; the trade costs the opponent his left tower (4858 -> 277) - 'we took out his entire tower and we activated our king all because he wanted to go aggressive and mega knight opposite lane of the Ronin' (t=146-151).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)

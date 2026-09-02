@@ -158,6 +158,11 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.m
 - overtime 1:46-1:38 (t=518-526): removed with Archers plus Fireball — "Then we can go for the archers as well. That should fully take out the e-wiz."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent card, one detector track at [14, 15] (t=1417.4) during their final scramble, which Ryley reads as panic: "Just barrel here cuz he's spamming everything" (1418-1419s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

@@ -188,6 +188,12 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 1:47 (t≈411): planned a Royal Ghost push opposite lane and abandoned it when he read the Miner block — "I'm going to ghost here. Wait, he's going to minor to block, so let's go for the goblin hut... I literally knew he was going to minor, then I tried to block the ghost."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card, only ever seen through arena tracks — never a deploy label. Tracked into Ryley's right lane at t=844-848 (own right tower 4858 -> 4312), again at t=892-896 and t=966-982.
+- t=917s: he expects it and appears to read it as an evolution — "he's going to ghost on this evil ghost"; at t=931 he notes the Evo Wall Breakers damaged it — "good damage on the ghost too".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

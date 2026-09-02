@@ -351,6 +351,13 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:25 (t=555.6, tile (14, 15)): dropped at the bridge as the lead card of a three-card sequence, "let's Dark Goblin here then quickly Ice Spirit in front for his Skellies then Fire Spirit for the Ice Spirit."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card (the auto-transcript's "dark goblin"). Answered at t=867.0 with a Magic Archer placed low at [9, 9] so it could pierce from safety — "let's magic archer low here to take out the dark goblin" (t=865-868).
+- t=957.0s: blocked with a Ronin at [10, 6] rather than spelled — "we can go for the royal knight here to block the dark goblin" (t=957-958).
+- t=910-912s: tracked chipping his left tower ([3, 13] then [1, 9]) while he deliberately spent nothing on it. Played again by the opponent at t=987.0 at [10, 20].
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

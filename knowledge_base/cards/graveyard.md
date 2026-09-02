@@ -204,6 +204,16 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.m
 - overtime 1:04 (t~970): second Graveyard answered with 1-elixir Skeletons placed inside the spell — "Skellies here inside for the graveyard" (970-971s).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=790.8s: the opponent's Graveyard was tracked on Ryley's half at (8, 2) and his right tower lost roughly 1400 HP over t=796-800s; he made no separate answer for it and no commentary line mentions it, staying focused on the Electro Giant lane.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card, seen only by the unit detector at tile (7,2) on Ryley's side at t=1127s; he answers it by cycling Bomb Tower early and centrally at (7,9) - "Let's cycle our Bomb Tower here early". Not named in the commentary, so the read is detector-only.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

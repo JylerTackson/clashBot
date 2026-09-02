@@ -116,6 +116,59 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md
 - clock 0:20: the card he most respects in the matchup, for its HP rather than its damage - "the thing though that I have to be careful of is the Ronin executioner pushes cuz the Ronin has a weirdly high amount of HP" (577-580s).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=72.1 (clock unknown): Ronin at [2, 8] on his own half, held in hand specifically for a Champion ability - 'if he goes for the ability we of course have the Ronin here on defense. He might pop it. Okay, he doesn't bother going for the ability' (t=69-74).
+- t=29-37 (clock unknown): the matchup claim, stated before any Ronin play - 'obviously Ronin does really, really well into mega knight' - with the cost named in the same breath: 'One thing I am scared of with the Ronin though is that it does kind of mess up your card cycle a lot with a lot of different decks.'
+- t=108.1 and t=150.2 (clock unknown): two more Ronins on his own half ([6, 7], then [8, 10] alongside Bomb Tower against a Ram Rider) - all three deploys in this game were defensive, even though he twice said he wanted it at the bridge ('I think a Ronin at the bridge could be good regardless', t=100-103).
+- t=148-160 (clock unknown): his strategic reading of the card after the opponent Mega Knights the opposite lane - 'we activated our king all because he wanted to go aggressive and mega knight opposite lane of the Ronin... The Ronin scares people so hard that they will literally spam their entire bar opposite lane of it whenever they see a quote unquote opportunity.'
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=183.2, tile [8, 0]): deployed deep in his own back as a defensive mini-tank against a Goblin Cage / Goblin Brawler opening, justified by the parry — 'Goblin Brawler is pretty bad against the Ronin so I'm happy to see that I guess' (t=191-193).
+- clock unknown (t=251.3, tile [2, 5]): second and last Ronin, again on his own half, as extra DPS on a stacked defence — 'then we can go for the Ronin as well just to help DPS this down' (t=251-254). He never sends it to the bridge in this game.
+- clock unknown (t=225-243): his verdict on the card the video is named after — 'How do you feel about the Ronin? I feel like after the Ronin nerf it's not really a crazy card on top ladder, but it's a really good card for people who are either under-levelled or face a lot of Mega Knights and maybe a lot of mid-ladder decks as well, but as far as the top ladder meta goes, I do feel like it's nothing insane, honestly.'
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 413.4s): Ronin at (2, 11) on defence, with his reasoning stated straight away — "Having the Ronan would be nice to clear out Wall Breakers, but outside of that, they won't really do too much" (415-418s).
+- clock unknown (video 499.5s): Ronin at the left river tile (1, 15) to deny a follow-up — "Let's just go for the rone in here so we can't drop a second archer. He might step back on us" (500-503s).
+- clock unknown (video 517.5s, 542.5s, 585.6s): more blocking placements at (1, 14) and (3, 5) — "I'm going to rone in here to block this" (519s) and "We have the rone in here for defense" (543s).
+- All six Ronin placements in this game are on his own half or the river row; against this Miner/Wall-Breakers/Log cycle deck he never sends it over the bridge.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=707-709s: named it the weak card of the matchup while it was still in hand - "the Ronin is going to be a really weak card in this matchup, but it's not the end of the world."
+- t=734.1s: dropped at (2, 14) as a last-second defender and it paid off immediately - "The Ronin just took out the brawler instantly and we got so much damage. Very good sequence right there" (t=742-745s).
+- t=764.8s: explicitly refused the greedy bridge play and sent it to the empty lane at (15, 14) - "Dude, I want a Ronin wall breakers to bridge so bad, but it's just not a great play. Let's Ronin opposite lane."
+- Every deployment this game (t=680.7, 722.7, 734.1, 764.8) was at row 14 on his own half, never as a lone bridge rush.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=837.7s (clock unknown): first Ronin of the game placed deep in his own back at [9, 1], elixir 9 -> 4 — "Let's just run in here in the back" (t=837-838).
+- t=870-872s: declined a bridge Ronin on a read, which is the clearest statement of how he rates the card into swarm decks — "I kind of want to rowan at the bridge, but I feel like he has rascals. It wouldn't be that great of a play" ("rowan" is the auto-transcript's spelling of Ronin).
+- t=914.2s: Ronin at [12, 6] for 5 specifically to trigger a Suspicious Bush — "we can just go for the rowan here for the bush" (t=912-914).
+- t=957.0s: Ronin at [10, 6] used as a Parry blocker against a Dart Goblin — "we can go for the royal knight here to block the dark goblin" (t=957-958). All three deploys are in his own half; he never commits it across the river. His general verdict on the card at t=843-854: "there's a lot of just bait in the meta just making sure that the rowan never becomes solid".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1032s: Ronin at the right bridge (17,11) for 5 elixir while the opponent commits elsewhere, immediately followed by a Fire Spirit king activation.
+- t=1120s: Ronin at (0,9) as the answer to a badly placed Lumberjack - "Okay, that was a bad Lumberjack. Let's just go for the Ronin in here. Nice double connection. We take those"; enemy right tower 3869 -> 2749.
+- t=1172s: runs Ronin at (1,14) instead of holding for defence - "I'm just going to run in here. I'm not even going to bother going for the Magic Archer. I'm just going to march her in the middle again and get a second one down".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1289.1s (clock unknown): Ronin at [12, 13], elixir 7.0 -> 2.0, behind a Fire Spirit as the defensive mini-tank - "Can just Okay, Fire Spirit and then Ronan" (1287s), then "Very good defense. Ability wouldn't really do too much. Ronan's still going to live regardless" (1291-1294s).
+- t=1356.5s at [8, 10], chosen by lane rather than by target - "Let's Fire Spirit here or for the low Ronan opposite because he might Cannon Cart at the bridge" (1354-1358s), with Rascals and a Little Prince crossing.
+- t=1385.4s deploy label at [4, 14] on the left, alongside "Still want a royal knight at the bridge. Help take this out" (1386-1388s) - the transcript's "royal knight" most likely being the Ronin. In this log-bait list he is the only card above 4 elixir and is used purely as the defensive anchor that then walks forward.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ronin (scraped 2026-09-02T02:35:13+00:00)

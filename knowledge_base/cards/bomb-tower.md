@@ -296,6 +296,52 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Nine plays in 298 s (t=127.1, 147.3, 155.3, 206.0, 235.2, 250.2, 268.3, 277.3, 291.3), the deck's only building and the backbone of every narrated defensive sequence.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=153.2 (clock unknown): the only Bomb Tower of the game, at tile [9, 13] in the right lane against a Ram Rider push, with a Ronin at [8, 10] and a Royal Delivery at [7, 14] on top - 'Very good defense right here' (t=162), and his towers take no further damage.
+- He held the building for the first two and a half minutes while his left tower was ground from 4858 to 2091, spending spirits and Royal Delivery instead; the Bomb Tower only came out for the deck's one heavy win condition.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=184.5, 195.4, 243.2 [7, 9], 252.6, 290.0 [7, 9], 302.3 [10, 9]): placed pre-emptively in the centre before each push arrives rather than reactively; the t=290.0 placement is his preparation for the Evolution Inferno Dragon he has just spotted ('This is where it gets really scary cuz my deck does not have a lot of air defense, man', t=289-292).
+- clock unknown (t=301-303): named as the last layer of a four-card defensive block against the Evo Inferno Dragon push — 'Go for the Fire Spirit and then we can go for the Bomb Tower as well'; the block (Magic Archer, Royal Delivery, Fire Spirit, Bomb Tower) holds and he calls it 'a very good defense right there' (t=312).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 458.5s): Bomb Tower high on his own half at (7, 13) specifically as an anti-Magic-Archer anchor — "I'll just Bomb Tower here for the Magic Archer. If he goes for the Evo bats, we have the fire spirit" (459-463s).
+- clock unknown (video 493.5s): a second Bomb Tower at (2, 12) on the left — "then we can go for the bomb tower as well. That's going to help take out his magic archer. We just need to keep mine alive" (493-497s) — immediately self-criticised at 498s: "Oh, one tile too low."
+- clock unknown (video 544.5s, 598.6s, 617.6s, 631.6s): four more placements at (9, 13), (6, 8), (7, 13) and (2, 9), alternating high/central/low — "we just have to go for a high bomb tower right now" (544s), "then we go for the low bomb tower" (599s), "Bomb tower all the way up top" (617s), "Bomb tower like this" (632s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=788.8s: placed at (8, 9) the moment the opponent dropped an Electro Giant in the back at (2, 23), well before the tank reached the bridge - "Okay, let's just early bomb tower."
+- t=801-803s: with the building down he wrote the game off for the opponent - "He is not going to be breaking through here, especially with not having any more evos." It sat unplayed in hand for the first 125 seconds of the game.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=827.0s (clock unknown): cycled proactively into an empty field, dead centre at [8, 9], elixir 9 -> 5 — "I'll cycle my bomb tower in the middle" (t=826-828), spoken while reading the opponent as hyper bait.
+- t=907.9s / 919.3s: replayed at [9, 9] and [7, 9] ahead of a threat rather than onto one — "Let's bomb tower here. Next skelly barrel will be evolved" (t=917-921).
+- t=947.9s / 958.3s: a fourth and fifth placement, again in the central row-9 band so it pulls into either lane. In a deck with no small spell, it is the primary answer to the opponent's Skeleton Barrel, Goblins and Rascals.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1071s: Bomb Tower at (12,3) as the anchor against a Lumberjack + Evo Inferno Dragon push, backed by Ice Spirit, Fire Spirit and Royal Delivery - "Let's go for the Bomb Tower here".
+- t=1128s: cycled early and centrally at (7,9) in anticipation of the Graveyard that lands at (7,2) - "Let's cycle our Bomb Tower here early, and there's the Evo E-Drag too".
+- t=1196s: replaced at (7,10) specifically for the Balloon - "Might loon here. Yep, there's the loon. Let's Bomb Tower like this".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1252.3s (clock unknown): Bomb Tower at [8, 12], dead centre of his half, after he talks himself out of a prediction placement - "I was going to bomb tower to predict him, but I guess I can just bomb tower here in the middle like this" (1252-1255s), with the opponent's Mortar landing at [6, 16] three seconds later.
+- He treats it as the card he would rather not spend: "we want to go for the Ice Spirit as well so you don't have to waste a Bomb Tower on defense" (1339-1342s).
+- t=1409.4s at [11, 14] holds the opponent's biggest push of the game while the enemy left tower drops to 376 -> 164 HP - "We have the bomb tower here. This should blow up everything. What a bomb tower placement, guys" (1411-1414s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

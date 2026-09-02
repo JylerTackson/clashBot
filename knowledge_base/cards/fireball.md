@@ -429,6 +429,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.m
 - OT 1:37: also used defensively on his own half at [4, 4], though he prefers the cheaper option that same second — 'We have to make sure we Fireball the berserker. Actually, let's log it just to get the tower damage'.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent's spell, never captured as an event but named repeatedly. Used on his bridge Magic Archer at 1225s, which he counts as a win: "he fireballs and we get a free 400 damage on the tower" (1225-1227s).
+- He sequences his own plays around the opponent's Fireball budget: "he probably has to Fireball this and then I can just go for the Evo Wall Breakers at the bridge" (1303-1306s), "if he fireballs then he can't afford defense to the wall breakers" (1394-1396s) - though at 1396-1398s it did catch them: "Oh, no, it clipped them. That's unlucky."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

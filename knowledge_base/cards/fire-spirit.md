@@ -195,6 +195,57 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 1:10 (t=610.6, tile (7, 14)) and clock 0:25 (t≈557): used as the trailing card of a scripted sequence, "then Fire Spirit for the Ice Spirit."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=48.2 (clock unknown): Fire Spirit at [7, 14], centre of his own half, used as the swarm/glass-cannon answer - 'Fire spirit here on defense just make sure that we take out that berserker' (t=49-50).
+- t=119.1 (clock unknown): Fire Spirit at [8, 5] as one layer of the barrel sequence he plans out loud - 'ice spirit fire spirit... barrel wall breakers here and then we can go for the fire spirit as well' (t=116-120).
+- t=15.0 and t=82.1 (clock unknown): opening Fire Spirit at [2, 9] and a mid-game one at [9, 12], both defensive; in this game he never throws it for chip.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=213.2 and t=262.3, both tile [15, 14]): played in the same second as a Goblin Barrel as the splash that clears whatever answers the barrel — 'We can go for the Fire Spirit plus barrel here to get some of this damage back' (t=212-215) and 'I'm going to barrel like this and we go for the Fire Spirit as well' (t=262-263).
+- clock unknown (t=254-259): cancels the Fire Spirit when the defence no longer needs it — 'We definitely have to — Oh, wait, we don't even have to Fire Spirit, which is good. I'm going to let this go, I think. That's going to get two.'
+- clock unknown (t=301.3 [14, 5] and t=339.3 [8, 15]): also used defensively inside the anti-Inferno-Dragon block ('Go for the Fire Spirit and then we can go for the Bomb Tower as well', t=301-303) and against a Miner-Zap attempt ('He might try to Miner Zap this. Let's Fire Spirit. Okay, that's fine. That's just a dead push', t=320-324).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 402.2s): Fire Spirit at (7, 8), elixir 9 -> 8, as the dedicated Bats answer — "I'm going to go for the Fire Spirit here just to grab those bats" (401-402s); it under-delivers, "Oh no, he gets one bat alive, bro. That is so insane" (405-408s).
+- clock unknown (video 421.4s): again at (3, 14) into a bat pack — "Let's Fire Spirit here for bats. Come on, maybe splash them. Come on. Uh, we only got two of them" (420-424s).
+- clock unknown (video 513.5s): offensive Fire Spirit at (7, 14) behind a Barrel — "Fire spirit, too. Okay, nice. That gets two shots off. We'll take that" (513-516s); at 540s he uses one at the bridge, "finally going to fire spirit the bridge here. Keep up the pressure."
+- clock unknown (video 640-649s): in the endgame he pairs it with every Barrel — "we have to fire spirit barrel here" (640s) and, on the last exchange, "Fire Spirit, jump. No, bro" (654s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=712.7s: placed at (9, 10) to absorb a Bowler ability - "He's going to bowler ability probably. We could go for the fire spirit here just to block that. Make sure that we deal with the bowler."
+- t=747.7s: placed low at (8, 6) ahead of a high Ice Spirit against an advancing Bomber, with the ordering rule stated outright - "Let's fire spirit low so we can go for a high ice spirit. So then the fire spirit is the spirit that will damage his tower cuz the fire spirit does more damage than the ice spirit" (t=748-754s).
+- t=783.8s: used offensively at (4, 14) alongside the Magic Archer while the opponent was committed to a back Electro Giant - "we can go for the fire spirit here to threaten to finish off that tower."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=874.5s (clock unknown): dropped at [13, 11] purely as insurance against an opposing ability rather than as a counter to anything on the field — "Let's fire spirit in case he tries to ability just to keep this alive. Okay, perfect" (t=873-876).
+- The most-played card of the game: nine deploy labels ([14, 2], [2, 14], [13, 11], [7, 10], [14, 11], [12, 10], [14, 15], [2, 14] and one untiled) between t=835.8 and t=999.0, almost always the one-elixir tail on the end of a Goblin Barrel or Wall Breakers wave — "Let's go for the fire spirit" (t=934-936), "we go for the fire spirit here" (t=975-976).
+- t=990-998s: the last card he plays, on a 144 HP tower as the opponent concedes — "Let's fire spirit here... Come on. Fire spirit. GG's. Perfect game".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1033s: Fire Spirit at (5,4) to activate his own king tower while the opponent commits a tank - "we can go for the Fire Spirit to activate our king as well. Very good activation".
+- t=1076s: added to a defensive stack to guarantee the kill - "I definitely want to Fire Spirit, too, just so I don't lose this".
+- t=1115s and t=1141s: paired with Wall Breakers and Ice Spirit for chip and resets - "We can Fire Spirit the bridge, and then Wall Breakers opposite lane. Just keep being annoying".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1262.8s (clock unknown): Fire Spirit at [15, 14] with Royal Delivery and Ice Spirit against a Skeleton Barrel for zero tower damage - "Let's go for the fire spirit. Let's delivery here" (1263-1264s).
+- t=1288.3s: Fire Spirit at [10, 13] laid in front of the Ronin as the cheap second layer - "Can just Okay, Fire Spirit and then Ronan" (1287s), then "Very good defense" (1291s).
+- t=1308.3s at [8, 5] and t=1353.4s at [7, 15] on defence against the Mortar push and the bridge Rascals - "Just Fire Spirit here on defense" (1311-1312s); against the Cannon Cart he wants it for speed: "Let's Fire Spirit as well. Take out the Cannon Cart quickly" (1334-1337s).
+- t=1407.7s at [14, 10] alongside the Ice Spirit on the three-Rascals push - "Fire spirit we need the ice spirit as well" (1403-1405s). Nine Fire Spirits in the game, every one of them defensive.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

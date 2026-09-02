@@ -433,6 +433,61 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:17-0:13 (t=562.6/601.6, tile (3, 25)): barrelled one corner while Wall Breakers hit the other so a single spell could not answer both — "he has to log both sides, but obviously he can't."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=7.3 (clock unknown, the whole video's clock OCR failed): opens the game with the barrel on the enemy left tower at tile [3, 25] off a full 10 elixir, before any commentary on the play.
+- t=38.0 (clock unknown): barrel onto the enemy RIGHT tower at [14, 27] paired with bridge Wall Breakers - 'I'm going to go for the wall breakers barrel push here. I think he might mega knight, but then if he mega knights then he's going to get cooked' (t=38-43); the enemy right tower drops 4858 -> 4474 by t=46, 'that's going to be some nice damage with the barrel' (t=46).
+- t=75.2 (clock unknown): barrel at [3, 24] as pure pressure - 'Let's go for the wall breaker split and then Evo barrel. We want to apply a lot of pressure early early on in the game' (t=74-79); the Evolution slot is on this card.
+- t=118.1 and t=129.1 (clock unknown): two barrels at [3, 25] inside the sequence that takes the tower - 'I can just go for the ice spirit fire spirit... barrel wall breakers here' (t=116-119), then 'Let's go for the barrel here as well' (t=129). Enemy left tower falls 4858 -> 277 between t=126 and t=142.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=175.0): opens the game by barrelling the enemy left tower at tile [3, 26] straight off 9 elixir; the tower reads 4858 -> 4474 HP seven seconds later.
+- clock unknown (t=212.2): barrel at [14, 23] paired with a Fire Spirit at the bridge as the punish for Miner chip — 'We can go for the Fire Spirit plus barrel here to get some of this damage back. Mega Minion we're going to get about three shots maybe four. Come on four. Nice' (t=212-220); enemy right tower 4858 -> 3759 HP.
+- clock unknown (t=261.3): Evolution barrel at [3, 26] with the Fire Spirit sent to the opposite lane specifically to dodge the spell — 'We can go for a nice Evo Barrel push. I'm going to barrel like this and we go for the Fire Spirit as well. It's going to be a lot of damage on the left side cuz I think he's going to Zap on the right' (t=260-267). Enemy left tower 3301 -> 2537 HP.
+- clock unknown (t=314-318): declines a barrel on purpose — 'I'm not going to barrel here because I do feel like I would give him too much Mega Minion value'; he barrels again at t=325.3, t=338.3 and t=355.4 once the Mega Minion is committed elsewhere, always alternating lanes.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 440.4s): barrels the *left* tower at (3, 26) while sending an Ice Spirit right — "I want to fake Barrel on the left just to try to trick him a bit. Let's go for the Evo Barrel Ice Spirit here." Enemy towers read 4858/4858 at 444s and 3514/3857 by 450s: "Look at that left side damage, guys. We're already back in the lead."
+- clock unknown (video 522.5s): Barrel on the enemy left tower paired with Wall Breakers at (13, 13) on the right two seconds later — "Let's go for the Evo barrel then wall breakers opposite lane just to keep up the pressure. He has to log the left and then the right side." Enemy right falls 4298 -> 3011 across 526-532s.
+- clock unknown (video 606.6s, 623.6s, 640.6s, 647.6s): late-game he barrels on cycle at (14, 24)/(14, 25) — "we have to go for another Goblin Barrel, as well. Just keeping up the pressure" (607s) and "Wait, we we out-cycle this log" (646s).
+- Nine Goblin Barrel deploy labels in the 292s segment, split between (14, 26)/(14, 25)/(13, 25)/(14, 24) on the right and (3, 26) on the left — lane choice is used as a bait tool against the opponent's single Log.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=730s: deliberately withheld the barrel mid-push - "we can go for a goblin barrel at the - oh, and maybe let's not goblin barrel just yet, actually" - and only threw it at t=735.7s onto (2, 25) behind a Ronin.
+- t=768.8s: threw it at (3, 26) timed around the opponent's splash - "we go for the evo barrel cuz he has to bowler, but then the bowler won't be able to take out the goblin barrel now because on the side he fully messed it up, too, cuz the Ronin's also on the tower."
+- t=695.5s: barrel at (2, 24) layered with Wall Breakers; the enemy left tower fell from 4858 to 2999 HP over the next 10 seconds.
+- t=803.8s and t=811.1s: closing barrels at (14, 21) and (8, 29) while the opponent was out of answers - enemy right tower dropped to 644 HP by t=812s and Ryley called it "very nice win... Perfect game" (t=812-815s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=818.8s (clock unknown — the clock OCR failed for this whole video): opened the game with it, first card down, at [14, 25] on the enemy right tower — "start off with the goblin barrel here" (t=820).
+- t=858.9s / 895.9s / 933.9s / 964.8s: thrown onto the same enemy right corner ([14, 25]/[14, 26]) four more times without varying the placement, always paired with a Wall Breakers or Fire Spirit in the same window — he treats it as guaranteed spell bait rather than a surprise: "He's going to goblins for no damage. Maybe he logs. That'd be good for us, but goblins is just the better play" (t=861-865).
+- t=980.0s: the only cross-lane throw, at [3, 23] on the enemy left tower, alongside "we pop the bush. That's huge" (t=979-981); he names the card as an evolution at t=981 — "Let's barrel here Evo".
+- t=890-892s: sequenced behind a Royal Delivery so the Royal Recruit screens it — "Let's delivery here cuz then we'll have a tank for the evil barrel".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1009s (clock unknown, OCR failed all video): opens with a Goblin Barrel on the enemy left tower at tile (2,23) purely as a scouting probe - "let's just barrel here, try to figure out what he's playing".
+- t=1036-1043s: barrels the left lane again at (3,25) and says why - "I'm definitely going to go for the Goblin Barrel here on the left side lane, cuz he has the Bowler on the right, unless he has a Knight... We're just going to get a free Barrel off on the tower"; the enemy left tower drops 4282 -> 3514.
+- t=1088s / 1146s / 1166s / 1182s: barrels the same tile (3,25) every cycle, always opposite the Wall Breakers lane - "we Barrel opposite lane, because we obviously don't want to give him any value with the Barbarian Barrel" (t=1149s). Enemy left tower ends the game around 611-1190 HP.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1242.6s (clock unknown, OCR failed all video): evolved Goblin Barrel at tile [3, 25] on the left tower, elixir 8.0 -> 5.0, played off a cycle count rather than the board - "just barrel here because he has no barbarian barrel and no goblins in [cycle]" (1243-1245s); enemy left tower 4400 -> 4225 HP.
+- t=1271.3s: barrel at [14, 25] into the OTHER lane paired with Wall Breakers at [2, 15] - "Let's Evo Barrel like this then Wall Breakers" (1272-1274s); the pair takes enemy left 3457 -> 2754 and right 4858 -> 3706 HP. He rates the evolution itself: "We already have the Evo Barrel. Cycling to it already is actually just absurd" (1267-1270s).
+- t=1368.4s: barrel used to force a specific answer so the follow-up lands - "Barrel on this side here cuz he's going to Barbarian and then he has to block for the Magic Archer" (1371-1374s).
+- t=1399.4s and t=1417.4s: two more barrels at [3, 26] as pure tempo while the enemy left tower falls 1949 -> 164 HP - "Just barrel here again. Just keep up the pressure. Just want to keep being as aggressive as possible" (1398-1401s), "Just barrel here cuz he's spamming everything" (1418s). Seven Goblin Barrels in 200 seconds, six of them on the same tower.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

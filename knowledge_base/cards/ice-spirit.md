@@ -438,6 +438,57 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 1:57 (t=581.6, tile (3, 8)): plays it knowing the value is fractional — "need to get an ice spirit down. It's going to block for only a quarter second."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=67.2 (clock unknown): Ice Spirit at [7, 14] as the cheap first layer while the Ronin is held back - 'Let's ice spirit here and if he goes for the ability we of course have the Ronin here on defense' (t=68-70).
+- t=120.8 and t=124.3 (clock unknown): Ice Spirits at [9, 10] and [3, 8] inside the game-winning sequence, which empties his bar to 0 elixir at t=120 - 'Let's ice spirit here. Look at the Ronin guys' (t=125-127).
+- t=8.0, 15.5, 82.9, 126.0, 132.6, 157.2 (clock unknown): the most-cycled card of the game (nine deploys in 170 s), used both to cycle back to the barrel and as the stun on defence.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=249.7, tile [1, 14]): played as an Inferno Dragon reset inside a stacked defence — 'I do want an Ice Spirit to freeze this and then we can go for the Ronin as well just to help DPS this down' (t=248-254).
+- clock unknown (t=325.3 [15, 14] and t=353.4 [9, 15]): sent in front of the Evolution Goblin Barrel as the swarm-clearing escort — 'Let's go for the Ice Spirit barrel here then Wall Breakers opposite lane' (t=326) and 'We have an Evo Barrel here with the Ice Spirit. Let's Ice Spirit like this' (t=354-356).
+- clock unknown (t=200.2, tile [8, 12]): cheapest layer behind the Magic Archer during the opening Goblin Brawler defence; seven Ice Spirit spends across a 196 s window make it his main cycle card.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 373.2s): opens the game with an Ice Spirit at the right river tile (15, 15), elixir 10 -> 9, alongside the first Goblin Barrel.
+- clock unknown (video 491.5s, 585.6s): used to shield his stacked Magic Archers — "Let's ice spirit to protect" (491s, played at (4, 4)) and "Ice Spirit here next to it. Let's run it" (585-587s, played at (5, 10)).
+- clock unknown (video 510.0s): offensive Ice Spirit hoping for a tower line-up — "Go for a spirit here cuz this could line up on the tower if we're lucky" (510-512s).
+- clock unknown (video 624.1s, 648.1s): pure defence and cycle late — "Spirit for defense" (624s) and "Spirit here to block this" (636s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=724.6s: dropped at (8, 13) as a cheap stall on the Bowler - "Let's go for the ice spirit here to block that bowler."
+- t=749.4s: played high behind a low Fire Spirit so the Fire Spirit is the one that survives to the tower - "so we can go for a high ice spirit... the fire spirit does more damage than the ice spirit."
+- t=795.8s and t=806.6s: added at (4, 10) and (8, 20) to pad defence and the final counter-push - "Let's ice spirit. Let's go for the far marcher and yeah, this is just game over, man."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=857.9s / 897.9s (clock unknown): at [3, 8] and [2, 14] as the cheap tail on his barrel waves — "Then we can go for a ice spirit here as well" (t=858) and "Let me go for the ice spirit as well. Just keep applying pressure. I think I lagged for the ice spirit. All good, though" (t=897-901).
+- t=982.0s: at [2, 11] to stall an incoming Skeleton Barrel so the Royal Delivery behind it landed as a free trade — "we ice spirit so then we can go for the delivery here for no damage" (t=983-986).
+- t=956.1s: at [10, 9] alongside a Ronin against the Dart Goblin push, elixir 8 -> 7.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1072s: the standard reset on the Evo Inferno Dragon - "Let's Ice Spirit like this, just to freeze this for a second".
+- t=1139-1143s: Ice Spirit at (1,13) then Fire Spirit at (6,15) to kill the Inferno Dragon - "Make sure we take out the Inferno Dragon. Nice, beautiful reset on that".
+- t=1178s: kept in hand explicitly for the Inferno Dragon - "He's going to Inferno Dragon, so it's Ice Spirit for it"; nine Ice Spirits in the game, nearly all in his own left-lane defensive pocket around (1-2,13-15).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1264.4s (clock unknown): Ice Spirit at [16, 14] as the last 1 elixir of a Royal Delivery + Fire Spirit defence on a Skeleton Barrel - "Let me go for the ice spirit as well just to take no damage" (1265s), then "Good defense" (1267s).
+- t=1297.3s: a single Ice Spirit at [8, 14] is his whole answer to three Minions - "Okay. Just Ice Spirit up top" (1296s).
+- t=1318.3s: Ice Spirit at [4, 14] specifically to deny a king-tower activation against the Mortar - "I'm not going to let him activate the king cuz I'm going to go for the Ice Spirit here" (1319-1322s), then "Nice. Let's go. We blocked the king activation" (1326-1327s).
+- t=1343.3s and t=1404.2s at [15, 10]: spirits spent so the building stays in hand - "we want to go for the Ice Spirit as well so you don't have to waste a Bomb Tower on defense" (1339-1342s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

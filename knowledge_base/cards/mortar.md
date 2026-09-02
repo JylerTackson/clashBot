@@ -223,6 +223,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.m
 - clock 1:04: he reads the whole matchup as decided by it — "I think this guy just gave up cuz he knows the Expo is a hard counter against Mortar if I have the Fireball variation" (t=731-734), and on the rework, the X-Bow now "does more damage to like the mortar where it's just trying to take it down" (t=678-680).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent's win condition (Evolved). Tracked at [6, 16] t=1255.3, [9, 16] t=1311.3 and t=1383.4, [15, 17] t=1357.4, [14, 16] t=1421.4. Ryley identifies the archetype from it at 1246s: "Okay, he has mortar bait. That's going to be some damage."
+- He answers it with a Magic Archer pierce rather than a building or a walk-in - "I think I want to Magic Archer this. Just to take this out for no hits" (1314-1316s) - and respects the evolution: "He has Evo Mortar in hand though. Have to be really cautious of the Evo Mortar" (1349-1353s). He also plays around it activating his king tower (1319-1327s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

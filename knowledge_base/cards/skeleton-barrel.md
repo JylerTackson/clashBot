@@ -229,6 +229,19 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md
 - clock 1:21 (t=1019-1021): after an accidental Heal Spirit interaction he notes a counter he wants to practise — "imagine that with like an ice spirit. He could counter a skelly barrel super well".
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card (evolved), and the one Ryley respects most in the matchup. Predicted before it appeared — "I would assume he has skeleton barrel, but I'm not 100% sure" (t=828-832) — and then feared out loud: "The thing that's annoying though, that scares me is the Evo skeleton barrel though. That ability" (t=949-953).
+- t=906-912s: he chooses to take the damage rather than answer it — "I know he has the evil skelly barrel coming up. That card is so annoying. I think I want to eat that, to be honest, cuz it's on my low lane tower anyways"; own left tower fell 4858 -> 4135 and never dropped again.
+- t=982-986s: the answer he does use is Ice Spirit into Royal Delivery for a free trade, plus a pre-cycled Bomb Tower at t=919.3 ("Next skelly barrel will be evolved").
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent card, called before it lands twice - "He could skelly barrel on the right side though" (1255-1256s), "Yep, there's the skeleton barrel" (1258s), "Skelly Barrel again" (1298s) - and tracked at [15, 7] at t=1264 and [15, 9] at t=1342.
+- Answered for zero damage with Royal Delivery at [15, 14] (t=1256.3), Fire Spirit (t=1262.8) and Ice Spirit at [16, 14] (t=1264.4): "Let me go for the ice spirit as well just to take no damage" (1265s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

@@ -212,6 +212,18 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - Mentioned only, never played: named alongside Goblin Drill as the deck he expected this opponent to bring (t=1241-1243).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=699s: identified in the opponent's deck ("Oh, he has bowler") and thereafter answered with cheap blockers rather than a commitment - Fire Spirit at t=712.7s and Ice Spirit at t=724.6s, "Make sure that we deal with the bowler."
+- t=769-772s: used the Bowler's forced defensive use as barrel timing - "we go for the evo barrel cuz he has to bowler, but then the bowler won't be able to take out the goblin barrel now."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card. t=1040-1043s: Ryley picks his Goblin Barrel lane around it - "cuz he has the Bowler on the right, unless he has a Knight. Yeah, he's Bowlers. We're just going to get a free Barrel off on the tower".
+- t=1047s: absence of the hero version is read as information - "Him not having the Hero Bowler is a little bit scary, cuz that means he probably has the Hero Balloon".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

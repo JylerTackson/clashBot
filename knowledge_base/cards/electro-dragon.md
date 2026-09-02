@@ -118,6 +118,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card (Evolved). t=1129s: noted while he pre-builds against the Graveyard - "there's the Evo E-Drag, too. All right. Um, I am worried"; tracked crossing the right lane at t=1027s, 1168-1177s.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Dragon (scraped 2026-09-02T02:35:03+00:00)

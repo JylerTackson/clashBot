@@ -186,6 +186,12 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md
 - clock 1:31: named as the opponent's only spell and treated as the reason his bait plan is safe — "he only has freeze as a spell, which is very nice for us, actually" (t=767); he had framed the whole list at t=693 as "a homemade Hog Rider [Miner] Freeze deck". Never actually cast in the readable window.
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card. t=1016-1022s: named as the thing his list handles worst - "we don't really have the greatest defence for a balloon freeze push".
+- t=1208s: exactly that happens - "he's going to get the freeze off with the Inferno Dragon" - and his left tower collapses from 4108 to 2222 in the last two readings of the game.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

@@ -209,6 +209,24 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.m
 - He answers it every time with cheap cards instead of a spell — Berserker plus Fireball at 2:17-2:15, Tesla plus Electro Spirit plus Skeletons at 1:30-1:25, Tesla plus Skeletons plus Berserker plus Fireball at 0:13-0:03 — and calls the chain-stun explicitly: "just to chain onto that Inferno Dragon, make sure we take it out" (82-84s).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=286-294, opponent's Evolution Inferno Dragon; arena tracks at t=196.2, 244.2, 260.3, 324.3): the card Ryley rates as the game's biggest threat — 'he's going to Evo Inferno Dragon though. This is where it gets really scary cuz my deck does not have a lot of air defense, man. The Evo push gets just so difficult to stop.'
+- clock unknown (t=245.2-252.6): he answers it with layers rather than one card — Royal Delivery at [2, 12], an Ice Spirit reset ('I do want an Ice Spirit to freeze this', t=248-251), the Ronin for DPS and a Bomb Tower; the same pattern (Magic Archer + Royal Delivery + Fire Spirit + Bomb Tower) repeats at t=294-303.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=682-685s: predicted before it appeared and it changed the plan - "We can go for a nice run in here, unless he has the Inferno Dragon. Yep, okay, he does actually have Inferno Dragon. Luckily, we could step back."
+- t=791.8s: killed outright by a Royal Delivery at (2, 19) after a poor placement - "that was a really bad inferno dragon placement. Let's just delivery here and there goes the inferno dragon."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card (Evolved). t=1013s: identified from the first push - "He has the Evo Inferno Dragon... I guess it's going to be lumberloon freeze"; at t=1124s "he has the Evo Inferno Dragon. That is very scary". Ryley never builds a hard counter for it, instead resetting it with Ice Spirit/Fire Spirit and chipping it with Magic Archer.
+- t=1208s: the card that ends the game - Freeze plus Evo Inferno Dragon takes his left tower from 4108 to 2222 in the last four seconds: "Oh no, he's going to get the freeze off with the Inferno Dragon. No, no, no, no, no".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

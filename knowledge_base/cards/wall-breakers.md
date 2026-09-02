@@ -369,6 +369,62 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 1:55 (t=584.6, tile (14, 14)) and clock 1:31 (t=600.6): bridge Wall Breakers used as the second lane of a two-lane bait — "wall breakers here at the bridge... man, he might have to log on the right. He had to fireball."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=39.7 (clock unknown): Wall Breakers at [13, 14], his own side of the right bridge, always paired with a barrel rather than sent alone - 'I'm going to go for the wall breakers barrel push here' (t=38).
+- t=131.1 (clock unknown): Wall Breakers at [3, 14] repeated into the same lane during the winning push - 'We can just wall breakers again. Just really keep being aggressive' (t=131-133).
+- t=166.2 (clock unknown): closing Wall Breakers at [15, 15] with a barrel - 'Let's wall breakers barrel just to solidify the game and I will see you all in the next match' (t=165-168).
+- t=74-76 (clock unknown): he calls a 'wall breaker split' that the pipeline did not capture; every captured placement is on his own side of a bridge, never deep in his half.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=205.7 tile [10, 11] and t=279.3 tile [3, 14]): used as a defensive kite on his own half, not as chip — 'Then we can just Wall Breaker kite. He might try to Zap so let's just Wall Breakers here. We had to kite the brawler away' (t=204-208), and 'Okay, we can go for the Wall Breakers to kite as well. He has to get a Cage down' (t=277-280).
+- clock unknown (t=247.9 [13, 14], t=304.3 [15, 15], t=343.3 and t=363.9 [3, 15]): offensive Wall Breakers are always sent into the lane opposite the Goblin Barrel — 'Let's go for the Ice Spirit barrel here then Wall Breakers opposite lane' (t=326) and 'we Fire Spirit Wall Breakers opposite lane' (t=357).
+- clock unknown (t=342-350): he grades them by elixir drained rather than damage — 'We can Wall Breakers again just to pull that back and force out another Goblin Cage. I think he's one card away though'; then 'Yo, Wall Breakers, nice. He spent all that elixir and we got damage' (t=347-351), with the enemy left tower going 1561 -> 565 HP.
+- clock unknown (t=302-307): he skips the kite when the opponent has spell value available — 'I do not think I need a Wall Breaker kite this Mega Minion though. Otherwise, he's going to just get a good Fireball here'.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 428.6s/430.4s): a pair at (13, 10) and (13, 15), elixir 4 -> 2, played purely to drag out the Log — "we can just go for the Wall Breakers just to force him to log so he can't go for the Marcher immediately" (430-432s); at 435s "Yeah, he goes for the late log."
+- clock unknown (video 524.4s): Wall Breakers at (13, 13) into the lane opposite a Goblin Barrel; one connects — "Yo, the wall breakers the wall breakers give me one. Oh, nice. Let's go. We got it. We needed that" (528-532s), enemy right 4298 -> 3011.
+- clock unknown (video 575.6s): a pair at (3, 14) that deals no damage, which he still counts as a win — "We didn't get any damage, but we forced out a lot of elixir, and we can try to protect our Magic Archer" (580-583s).
+- clock unknown (video 619.6s): defensive use at (10, 13) as bat kiting — "We have to Wallbreaker kite these bats" (619s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=662.7s (clock unknown, OCR failed all video): opened the game with a split Wall Breakers at the centre tile (8, 14) purely as a scouting play - "Just going to split my Wallbreakers here, try to figure out what this guy is playing."
+- t=695.7s: dropped them at (3, 14) one second behind a Goblin Barrel at (2, 24) so the opponent could not answer both - "Let's barrel and then we last second wall breakers sticking in front of him."
+- t=735-740s: held them specifically as a building answer against an expected Evo Goblin Cage - "I think he's going to go for the evo cage, but then the evo cage will instantly pop from the wall breakers."
+- t=767.9s: split them at the bridge tile (8, 15) after sending Ronin into the opposite lane at (15, 14) - "Let's Ronin opposite lane and then we can go for the split wall breakers."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=855.5s / 879.9s (clock unknown): played at [9, 15] and then the opposite lane at [4, 15] — "Let's just split wall breakers again" (t=880-882). Never used defensively at any point in this game.
+- t=886-890s: framed as an elixir trap against a bait opponent who is short on defence — "he has to double drop on defense or give us a wall breakers connection. Which he gives us the connection"; enemy left tower 4858 -> 4298 immediately after.
+- t=921.9s: Evo Wall Breakers at the bridge [14, 14], played pre-emptively against a card he had not seen yet — "I'm going to evil wall breakers, too, cuz I know he's going to go for the rascals if he has them. Yep" (t=921-924). They double-connect through The Log: "It's going to be a double connection even with the log. That was not worth it, guys" (t=926-929), enemy right 4666 -> 3046.
+- t=973.1s: opposite lane again at [4, 14] as maintenance pressure while the Magic Archer works the other tower — "Let's go for the wall breakers opposite lane. Just keep up the pressure".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1025s: Wall Breakers at the right bridge (15,14) as an elixir tax rather than for damage - "let's Wall Breakers here just to force out some elixir".
+- t=1061s: deliberately delayed behind the Magic Archer - "I will wait a second... go for the Wall Breakers late, and then the Archer can get as much damage as possible on that Inferno Dragon. That's going to be one Wall Breaker connection"; enemy right tower 4858 -> 4298.
+- t=1086s: split Wall Breakers at (8,14) alongside a Goblin Barrel - "we can just go for the split Wall Breakers, plus Evo Barrel... just going to apply as much pressure as possible".
+- t=1145s and t=1198s: used defensively as a kite - "Let's Wall Breakers the kite, and then we Barrel opposite lane" and "Wall breakers to kite this away" against the Balloon.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1239.2s (clock unknown): evolved Wall Breakers split in his own back line at tile [7, 0] as a bait/cycle play, not a push - "Let's wall breaker split in the back and then just barrel here" (1239-1243s).
+- t=1273.3s: Wall Breakers at [2, 15] in the opposite lane to the barrel, placed for spell geometry - "I like to do it over here so it's a bit harder to line up the Barbarian Barrel" (1274-1277s); "Bang, let's go. Very good damage" (1278-1280s).
+- t=1361.7s at [15, 14] behind a Royal Delivery: "Let's go for the Delivery here and then we can go for the Wall Breakers as well and this is just going to be a guaranteed double connection even Barbarian won't stop it" (1360-1365s).
+- t=1393.4s at [2, 15] sequenced against the opponent's spell budget - "quickly evil [Evo] wall breakers cuz if he fireballs then he can't afford defense to the wall breakers" (1392-1396s); the Fireball did clip them: "Oh, no, it clipped them. That's unlucky" (1396-1398s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

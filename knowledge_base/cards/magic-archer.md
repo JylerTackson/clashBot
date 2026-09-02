@@ -271,6 +271,62 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
 - t=111-119 (clock 0:19 to 0:11): the opponent's Magic Archer is what he holds a Fireball for — "He's going to go for another magic archer. I'm waiting for it, dude. I'm waiting for it. Okay, let's fireball here. Beautiful prediction."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=97.6 (clock unknown): back placement at tile [9, 0] as spell-value denial - 'we have to make sure that we don't give him a lot of lightning value either. I'm just going to go for the magic archer in the back here' (t=92-98).
+- t=137.1 (clock unknown): Magic Archer at [2, 13] chosen so the pierce line crosses the target - 'we can marcher here to line up on the ghost' (t=138), i.e. lined up on the opponent's Evo Royal Ghost.
+- t=16.0, 60.2, 89.1 (clock unknown): three more deploys, all on his own half ([5, 4], [2, 1] behind the King Tower, [2, 12]) supporting defence in the lane the opponent kept attacking; he names it as one of the deck's two headline cards in the intro - 'this log bait Ronin deck here with the wall breakers and with the magic archer' (t=13-17).
+- Hero variant unresolved in this game: two own elixir drops of 2 with no hand change (t=40.7, t=138.5) are consistent with the Hero's 2-elixir Triple Threat but equally with an unread Wall Breakers, and he never mentions an ability of his own.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=195.2, tile [8, 11]): early defensive Magic Archer against a Goblin Brawler push — 'Let's go for the Magic Archer here early. That's not going to get any damage on the brawler so — Oh, nice. We actually got one. Never mind. I stand corrected' (t=194-200); the pierce hit more than he expected.
+- clock unknown (t=222-225): passes on it for tempo reasons — 'Magic Archer would have been an overspend, but it is definitely very very tempting to go for that' — and plays it 14 s later at t=236.4 from his own back corner (tile [16, 2], elixir 10 -> 6) into a Mega Minion that had walked the whole right lane.
+- clock unknown (t=294.3-295.3): played early on purpose so a spell cannot catch it with anything else — 'Let's early Magic Archer here. I know he's going to try to get a Miner or a Fireball' (t=295-298). Same deep-placement pattern at t=315.3 [4, 14] ('let's Marcher here on the defense again', t=318) and t=351.2 [1, 9] ('Magic Archer here on defense', t=352).
+- clock unknown (t=331.3, tile [14, 2]): the one aggressive use gets punished — 'I'm going to Marcher the bridge here. This is actually going to be — Ooh, good prediction. He actually finally got me with one of those' (t=333-337). In a deck he says has almost no air defence, the Magic Archer is his main answer to Mega Minion and the Evo Inferno Dragon.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 483.5s, 509.5s, 533.5s, 572.6s): repeated deep placements at (8, 0) and (8, 4), behind or beside his own King Tower — "go for the magic archer in the back right now. I need to start stacking up magic archers" (483-487s); "Let's go for a low archer here to take out these bats" (508s, 533s); "we can go for the low magic archer. I'm not going to put it all the way low" (569-573s).
+- clock unknown (video 551.6s): archer at (2, 14) placed to punish an expected retreat — "He might step back and we're going to grab even more damage" (554s), then "Look at that archer. Beautiful knowing he was going to step back so we could grab some extra damage" (556-559s). Enemy left drops 3514 -> 2598 across 556-560s.
+- clock unknown (video 604.6s, 642.6s, 651.7s): switches to bridge placements at (15, 15) and (13, 15) when he needs damage rather than defence — "We can march on the bridge right now" (604s), "we have to Magic Archer the right side" (642s).
+- clock unknown: the opponent also runs a Magic Archer and Ryley treats it as his main defensive problem — "you don't have a good cycle to defend that Magic Archer" (452s) and "his archer is going to get more value than mine right now" (548-549s). Whether either archer is the Hero variant could not be confirmed (see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=676.7s: placed at (8, 11) to break the opponent's Goblin Cage that had just landed at (8, 19) - "go for the marcher here. Help take out that Goblin Cage. We can go for a nice run in here, unless he has the Inferno Dragon."
+- t=702-706s: with nothing else on the field the enemy left tower lost about 1700 HP to arrow chip - "we get the marcher damage. Look at all that magic archer chip. Beautiful."
+- t=777.8s: played at the river tile (4, 14) as a chip threat the moment the opponent invested in a back Electro Giant - "I want to marcher the bridge. Low key, I think I will marcher the bridge cuz he went e-giant in the back... All we need is another hit with the marcher."
+- t=685-686s: likely used the Hero's 2-elixir Triple Threat - a 2-elixir drop with no hand change coincides with "Luckily, we could step back... Keep the marcher a little healthy" (Hero variant probable but not confirmed; see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=867.0s (clock unknown): placed low and behind his own towers at [9, 9], elixir 7 -> 3, to shoot across the river at a Dart Goblin — "let's magic archer low here to take out the dark goblin" (t=865-868).
+- t=946.1s: at [9, 7], with the plan for the rest of the game stated out loud — "We can just get the magic archer low here. I do want to start abusing my magic archer really, really hard in this match" (t=942-948).
+- t=964.0s: a second copy at [9, 8] behind a Goblin Barrel, used as the barrel's cover — "Let's barrel here on the right. That marcher will take it out though. Let's go for another magic archer too. Come on, marcher lock in" (t=960-966). It then reaches the tower: "Oh my god, the marcher's on the tower somehow. Three little three hits right there" (t=968-972), enemy right 2662 -> 1975, and "Look at the magic archer's cooking" (t=986-988).
+- Placement pattern across all four deploys ([9, 9], [9, 7], [9, 8], [13, 14]): always row 7-9 in his own half, never at the bridge. Note: this may be the Hero Magic Archer (Triple Threat, 2 elixir) — every deploy cost 4, which fits either version, and two unexplained 2-elixir drops (t=859.5, t=985.7) plus the "three little three hits" line hint at the ability, but he never says "hero" in this game.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1103-1109s: names it the matchup card against a Lumberloon/Evo Inferno Dragon deck - "We have to lock in on defence... We need to stock up our Magic Archers, like crazy, cuz Magic Archer is good against him"; plays them in the back at (6,0) and (8,0).
+- t=1062-1070s: Magic Archer at (9,11) held in front of a late Wall Breakers so it keeps piercing the Evo Inferno Dragon - "the Archer can get as much damage as possible on that Inferno Dragon... from stalling it out".
+- t=1157-1161s: states the cycling rule against Tornado - "As long as we always have one for his 'nado, then we're good. Cuz by the time he 'nados, of course, we have another one down"; six Magic Archers go down in ~210 s.
+- t=1133s and t=1208s: two more in the back at (1,8) and (1,13) against the Graveyard and the final Freeze push - "we can get another Archer here, though, cuz he wasted his 'nado". (Deploy labels read these as 'Archers'; overridden by cost and commentary - see the match file's Data gaps.)
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1219.2s (clock unknown): Magic Archer at the bridge, tile [3, 15], elixir 7 -> 3 on the opening exchange - "I'm going to magic archer the bridge. Even though this is really aggressive, I just don't think that I can get punished for it" (1219-1224s). The Fireball answer still lost the opponent value: "he fireballs and we get a free 400 damage on the tower" (1225-1227s), enemy left tower 4858 -> 4400 HP.
+- t=1314.3s at [2, 12]: the piercing shot kills a Mortar sitting at [9, 16] without walking into it - "I think I want to Magic Archer this. Just to take this out for no hits. Perfect" (1314-1318s).
+- t=1389.4s and t=1420.4s: bridge Magic Archers as an un-defendable finisher while the opponent is out of cycle - "he still has to defend the Magic Archer. I'm still being so annoying with the Marcher, man" (1376-1379s), and "I just don't think he can defend the magic archer. I'm just going to magic archer the bridge predicting the barb barrel" (1420-1423s), immediately before "that's going to be good game" (1424s).
+- Possible hero variant, unconfirmed: four own 2-elixir drops with no hand change (t=1263.8, 1332.3, 1399.4, 1421.8) fit the Heroic Magic Archer's 2-elixir Triple Threat ability, two of them within seconds of a Magic Archer deploy label, but Wall Breakers also cost 2 and the commentary never names the ability.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

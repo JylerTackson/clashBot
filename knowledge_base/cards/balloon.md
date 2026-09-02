@@ -201,6 +201,12 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:58 (t=269.3, tile (16, 14)): Balloon sent into the lane the opponent had just committed away from, with the Miner prediction queued behind it — "I'm going to go for the balloon opposite lane here. Then I'm going to miner where he might try to drop the inferno dragon."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card. t=1050s: inferred as the hero variant before it is seen - "he probably has the Hero Balloon. And Hero Balloon is typically pretty solid against this".
+- t=1194-1198s: answered with a fresh Bomb Tower plus a Wall Breakers kite - "Might loon here. Yep, there's the loon. Let's Bomb Tower like this. Wall breakers to kite this away".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

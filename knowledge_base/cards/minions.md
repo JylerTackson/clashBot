@@ -219,6 +219,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.m
 - clock 2:10-2:07: three Minions walk his left lane; he sequences the defence around them explicitly — "just make sure we take out these minions cuz we're not going to take out the cannon cart until we take out the minions" (t=662-666) — and clears them with Berserker, Archers and Electro Spirit.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent card, predicted twice before it lands - "He's going to Minions" (1294s, three minion tracks t=1295.3-1299.3) and "he might Minions" (1334s) - and answered with a single Ice Spirit at [8, 14] (t=1297.3): "Okay. Just Ice Spirit up top" (1296s).
+- The second wave (t=1363.4-1369.4) is handled by the Royal Delivery Recruit: "That Recruit grabs one and if it grabs one then that takes it out" (1368-1371s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

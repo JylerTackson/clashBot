@@ -152,6 +152,13 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md
 - clock 2:04 and 2:21: he watches for the ability before committing - "he might mega minion ability", "Okay, good mega minion."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=216-219): he counts its shots on his tower rather than answering it — 'Mega Minion we're going to get about three shots maybe four. Come on four. Nice. Let's go' — while his Goblin Barrel takes the enemy right tower to 3759 HP.
+- clock unknown (t=277-280): kited with Wall Breakers on his own half instead of spending a real answer — 'we can go for the Wall Breakers to kite as well'; the same Mega Minion had been advancing since t=266.
+- clock unknown (t=314-318): it is the reason he skips a Goblin Barrel — 'I'm not going to barrel here because I do feel like I would give him too much Mega Minion value.'
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

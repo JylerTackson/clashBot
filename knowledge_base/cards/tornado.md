@@ -227,6 +227,11 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:52 (t≈276): held the Tornado rather than spending it once he judged the damage was already lethal — "I don't even think we need tornado this away. That should just hit the tower regardless. Perfect. That's tower down."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card, auto-transcribed as "NATO". t=1132-1135s: playing around it drives his Magic Archer cycle - "we can get another Archer here, though, cuz he wasted his 'nado"; t=1157-1169s "As long as we always have one for his 'nado, then we're good... He might 'nado the Wall Breakers though".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

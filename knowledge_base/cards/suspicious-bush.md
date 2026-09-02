@@ -220,6 +220,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 0:55 (overtime): also used in the opponent's pocket at [9, 20] as part of the final stacked push — "Blush here in the pocket. Skelly barrel, too."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card, and the first one Ryley identified — "Looks like this guy's playing a hyper bait. Bush and log" (t=822-826).
+- t=914.2s: Ronin dropped at [12, 6] for the express purpose of popping it — "we can just go for the rowan here for the bush"; and again at t=979 — "And we pop the bush. That's huge" (enemy left tower 3837 -> 2717 right after).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Suspicious_Bush (scraped 2026-09-02T02:34:57+00:00)

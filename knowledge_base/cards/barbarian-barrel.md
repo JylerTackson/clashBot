@@ -477,6 +477,17 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.m
 - clock 0:25 (t=888-891): mentioned, not seen as a play — he expects the opponent's Barbarian Barrel to soak his own Log: "Could we log this away, though? I think we can, but it's going to lock onto the Barbarian Barrel, anyways."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Mentioned only, never played by either side in this game: at t=1149s Ryley picks the Goblin Barrel lane to dodge it - "we obviously don't want to give him any value with the Barbarian Barrel".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- The opponent's answer to his Goblin Barrel, and the card the whole game is measured against. He scouts it first: "Okay, he has the barbarian barrel" (1217-1219s); offsets his Wall Breakers for it - "I like to do it over here so it's a bit harder to line up the Barbarian Barrel" (1274-1277s); and declares the turning point at 1300-1301s: "I did out-cycle his Barbarian Barrel."
+- t=1420.4s: he finishes the game predicting it with a bridge Magic Archer - "I'm just going to magic archer the bridge predicting the barb barrel" (1422-1423s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

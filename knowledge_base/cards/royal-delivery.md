@@ -252,6 +252,56 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:13 (t=315.3, tile (6, 13)): Royal Delivery dropped to finish a damaged Wizard rather than to answer a tank — "let's go for the delivery here. Make sure he finish off that wizard."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=30.9 (clock unknown): Royal Delivery at [2, 8] onto a Royal Ghost the tracker had flagged as 3.3 s from the tower; four of his five deliveries land in the left lane, the lane the opponent attacked all game.
+- t=123.1 and t=156.2 (clock unknown): deliveries at [3, 8] and [7, 14] as part of defences that hold - the second, alongside Bomb Tower and Ronin against a Ram Rider, draws 'Very good defense right here' (t=162).
+- Five deploys in this game (t=30.9, 60.1, 112.6, 123.1, 156.2) and he never narrates the card itself - it is the silent defensive spell of the list.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=245.2, tile [2, 12]): the pre-called answer to an Inferno Dragon walking the left lane — 'Okay, I'm going to delivery here and then we can go for the Wall Breakers here as well' (t=246-248), stacked with an Ice Spirit reset and the Ronin.
+- clock unknown (t=297.3, tile [2, 14]): second delivery in the same lane as part of the anti-Evo-Inferno-Dragon block.
+- clock unknown (t=306.3, tile [12, 10]): used as damage on top of an already-committed push rather than as a reset — 'Let's delivery on top of the [balloon] just to help damage it. Take out the Mega Minion as well. And that's a very good defense right there' (t=308-312).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 428.4s): pre-emptive Royal Delivery at (3, 8) against an expected Miner — "He's going to Miner with this I think. Yep, let's do delivery" (426-427s).
+- clock unknown (video 609.6s): delivery at (5, 15) on defence — "It's delivery here on defense. He has no marches, so he can't land that up" (609-611s).
+- clock unknown (video 618.1s): delivery at (5, 14), elixir 6 -> 3, aimed at the opponent's Magic Archer — "We need to go for a delivery here on this Magic Archer. Come on, take this out" (621-622s).
+- Six uses in 292s, every one on his own half at (4, 15), (3, 8), (5, 15) or (5, 14) — it is his only air-hitting reset against the Evolved Bats and the enemy archer.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=685.7s: dropped on (5, 14) on top of his own committed Ronin to clear the whole exchange - "then we go for the delivery, as well, just to take this all out."
+- t=791.8s: used it as a pure counter to a misplaced Inferno Dragon at (2, 19) - "that was a really bad inferno dragon placement. Let's just delivery here and there goes the inferno dragon. This is very good for us."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=888.9s (clock unknown): dropped at [15, 11] as offensive prep, not defence — the Royal Recruit is wanted as a screen for the next barrel: "Let's delivery here cuz then we'll have a tank for the evil barrel" (t=890-892).
+- t=932.4s: onto the Rascals at [13, 15] as they cross — "delivery here on defense and then we can go for the barrel as well" (t=933-934).
+- t=985.0s: at [3, 8] onto an incoming Skeleton Barrel after an Ice Spirit stalled it, explicitly for a free trade — "we ice spirit so then we can go for the delivery here for no damage" (t=983-986).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1076s: dropped at (13,13) to finish a right-lane Lumberjack/Inferno Dragon push after Bomb Tower and Ice Spirit - "and then we can go for the delivery as well".
+- t=1136s and t=1188s: at (2,15) on the left bridge against the Bowler push - "let's go for the delivery here" and "let's Fire Spirit and then delivery".
+- t=1205s: last-ditch delivery at (4,11) into the Evo Inferno Dragon that ends the game - "Delivery here. Oh no, he's going to get the freeze off with the Inferno Dragon".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1256.3s (clock unknown): Royal Delivery at [15, 14] pre-empting the Skeleton Barrel he called two seconds earlier ("He could skelly barrel on the right side though", 1255s).
+- He states the card's role in the deck at 1229-1237s: "Usually these aggressive magic archers will go unpunished with the royal delivery in your deck. Royal delivery is just such a broken and strong defensive unit" - it is why he is willing to play a bridge Magic Archer at t=1219.2.
+- t=1359.4s: holding it is itself defence - "He could go for an aggressive Rascals but we have Delivery one card away so I'm not really too scared" (1281-1285s); when it goes down he counts the spawned Recruit as part of the answer: "That Recruit grabs one and if it grabs one then that takes it out" (1368-1371s), with Minions on the field at t=1363.4.
+- t=1402.7s at [4, 13] against a three-unit Rascals push, elixir 5.0 -> 2.0 - "Delivery here" (1403s). Six Royal Deliveries in 200 s, all on his own half.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

@@ -161,6 +161,18 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1041: he says why — 'I just made sure to cage on defense once again because I knew that I only needed like two more fireballs and two zaps to finish off the game.' The Cage is what buys the cycles.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (arena track t=178.2, tile [8, 19]): the opponent's main answer to his bait, and the card Ryley spends the whole game trying to drain — 'He has to get a Cage down... Just force out more elixir every single time. I don't think he has Cage in hand though' (t=278-286).
+- clock unknown (t=326-330 and t=342-346): he sequences Ice Spirit + barrel one lane and Wall Breakers the other explicitly to pull it — 'He has to Mega Minion and then he has to go for the Goblin Cage' and 'force out another Goblin Cage. I think he's one card away though'. At t=359 it is still the thing standing between him and more damage: 'He has the Cage guys, but we can get another Magic Archer down.'
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=678.7s: the opponent's Goblin Cage landed at (8, 19) and Ryley answered with Magic Archer at (8, 11) - "go for the marcher here. Help take out that Goblin Cage."
+- t=736-740s: he planned Wall Breakers as the answer to a second (Evo) Cage - "I think he's going to go for the evo cage, but then the evo cage will instantly pop from the wall breakers."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

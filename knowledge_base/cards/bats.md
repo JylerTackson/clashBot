@@ -191,6 +191,13 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 1:32 overtime (t=964-969): Tornado plus Ice Spirit is his cheap answer, and it is only partial - "let's tornado ice spirit here and we should take out the bats decently", then "He's going to have two bats alive."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- Opponent card (Evolution). clock unknown: Ryley builds three layers against it — Fire Spirit ("just to grab those bats", 402s), Bomb Tower ("If he goes for the Evo bats, we have the fire spirit", 462s) and low Magic Archers ("We need to take out these bats", 594s) — and still loses the tower race to it.
+- clock unknown (video 632-636s): the losing read, stated by him — "I think we're going to lose our tower to the bats in the opposite lane, to be honest. We can[not] really stop them." His right tower falls 2862 (630s) -> 1562 (634s) -> 652 (640s).
+- clock unknown (video 658s): closing verdict on the game — "we took too much bats damage, guys. That was close, though."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

@@ -182,6 +182,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.m
 - Mentioned but never confirmed on screen (no deploy label, no detection): he pre-places Skeletons at the bridge "in case he cannon carts" at clock 2:26 (t=649-650), then says "I mean I have nothing to defend the cannon cart" (t=654-655) and delays committing to it until the Minions are dead (t=665-666); at clock 1:09 he is still guessing at it — "he's going to Cannon Cart, maybe? Or maybe Mortar" (t=725-727).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent card, named four times but never confirmed by a detector track. He plays around it activating his king tower ("He might try to Cannon Cart but that won't activate the king tower, I don't think", 1320-1323s), wants a Fire Spirit on it ("Take out the Cannon Cart quickly", 1336-1337s), and picks his Ronin lane for it ("for the low Ronan opposite because he might Cannon Cart at the bridge", 1354-1358s).
+- At 1375-1377s the opponent spends it instead of the expected Barbarian Barrel: "He decides to Cannon Cart instead cuz that but he still has to defend the Magic Archer."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

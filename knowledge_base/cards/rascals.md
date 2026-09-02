@@ -164,6 +164,18 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.m
 - clock 1:19: lets the last surviving rascal-boy connect on purpose rather than spend on it — "they could just let this go... it might be better to just eat some damage here" (t=718-722). His right tower drops 4458 -> 4258.
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card. Called twice before it was played — "I feel like he has rascals. It wouldn't be that great of a play" (t=870-872, declining a bridge Ronin because of it) and "I know he's going to go for the rascals if he has them. Yep" (t=921-924).
+- Played by the opponent at t=926.9 at [9, 17] and again at t=951.0, 5 elixir each. Ryley's answer at t=932.4 is Royal Delivery at [13, 15] — "delivery here on defense and then we can go for the barrel as well".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent card, tracked at t=1251.2, 1255.3, 1259.3, 1393.4 and as a three-unit push t=1394-1406. Ryley holds Royal Delivery for them rather than reacting: "He could go for an aggressive Rascals but we have Delivery one card away so I'm not really too scared" (1281-1285s).
+- t=1358s and t=1391s: "Okay, Rascals at the bridge" (1358s) and "He's going to rascals" (1391s) - both answered with spirits plus Royal Delivery at [4, 13] (t=1402.7) so the Bomb Tower stayed in hand.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)
