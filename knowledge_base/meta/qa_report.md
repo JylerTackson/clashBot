@@ -108,3 +108,15 @@ These are expected outcomes (the wiki page has no such content), listed so they 
 ## Tower troop coverage check (2026-09-02)
 
 The wiki category "Tower Troop Cards" lists five pages: Tower Princess, Cannoneer, Dagger Duchess, Royal Chef and Baby Goblins. The first four are live cards and are in `cards/` with `card_type: Tower Troop` (Tower Princess Common, Cannoneer Epic, Dagger Duchess and Royal Chef Legendary; tower troops have no elixir cost, so `elixir_cost: n/a`). Baby Goblins is tagged `RemovedContent` on the wiki: a temporary tower troop from the June 2024 Goblin Queen's Journey event, not in the live game, so it is intentionally excluded (Card Overviews, the ground-truth list, omits it too). Tower troop rules from the wiki: chosen before battle, rarities as above, upgradable to level 16 but never past the player's King Tower level.
+
+## Hero coverage gap (noted 2026-09-02 during Phase 4)
+
+Ryley's video `nSXIs16M7Ag` ("Hero Ice Wizard is SKILL and OVERPOWERED!!") plays a
+Hero Ice Wizard, and `Ice Wizard/Hero`, `Mega Knight/Hero` and `Battle Healer/Hero`
+pages exist on the wiki, but none is listed on the `Heroes` page and their content is
+a stub ("Coming soon...") or a deletion placeholder. No hero file could be written for
+them; `cards/ice-wizard.md` therefore still says `has_hero_variant: false`. From the
+video commentary the Hero Ice Wizard ability costs 2 elixir (unverified against the
+wiki). Re-run `scripts/kb/enumerate_cards.py` + `fetch_cache.py` once the wiki pages
+are filled in; the enumerator only reads the `Heroes` list table, so add a probe of
+`<card>/Hero` pages if the list keeps lagging.
