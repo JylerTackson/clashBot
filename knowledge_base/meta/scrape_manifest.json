@@ -1,0 +1,3300 @@
+{
+  "generated_at": "2026-09-02T02:36:05+00:00",
+  "items": {
+    "minions": {
+      "kind": "card",
+      "title": "Minions",
+      "url": "https://clashroyale.fandom.com/wiki/Minions",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MinionsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b7/MinionsCard.png/revision/latest?cb=20171212204954",
+        "bytes": 169158,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "archers": {
+      "kind": "card",
+      "title": "Archers",
+      "url": "https://clashroyale.fandom.com/wiki/Archers",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ArchersCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/a/af/ArchersCard.png/revision/latest?cb=20250906092119",
+        "bytes": 404806,
+        "width": 460,
+        "height": 567
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "archers-evolution": {
+      "kind": "evolution",
+      "title": "Archers/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Archers/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ArchersCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/03/ArchersCardEvolution.png/revision/latest?cb=20250625040735",
+        "bytes": 219304,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "knight": {
+      "kind": "card",
+      "title": "Knight",
+      "url": "https://clashroyale.fandom.com/wiki/Knight",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "KnightCard.png",
+        "bytes": 400186,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "knight-evolution": {
+      "kind": "evolution",
+      "title": "Knight/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Knight/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "KnightCardEvolution.png",
+        "bytes": 223317,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "spear-goblins": {
+      "kind": "card",
+      "title": "Spear Goblins",
+      "url": "https://clashroyale.fandom.com/wiki/Spear_Goblins",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SpearGoblinsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/37/SpearGoblinsCard.png/revision/latest?cb=20171212203658",
+        "bytes": 189568,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "goblins": {
+      "kind": "card",
+      "title": "Goblins",
+      "url": "https://clashroyale.fandom.com/wiki/Goblins",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/bd/GoblinsCard.png/revision/latest?cb=20171212204756",
+        "bytes": 159466,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "bomber": {
+      "kind": "card",
+      "title": "Bomber",
+      "url": "https://clashroyale.fandom.com/wiki/Bomber",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BomberCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/2b/BomberCard.png/revision/latest?cb=20171212203417",
+        "bytes": 171654,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "bomber-evolution": {
+      "kind": "evolution",
+      "title": "Bomber/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Bomber/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BomberCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/45/BomberCardEvolution.png/revision/latest?cb=20250625041025",
+        "bytes": 219695,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "skeletons": {
+      "kind": "card",
+      "title": "Skeletons",
+      "url": "https://clashroyale.fandom.com/wiki/Skeletons",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SkeletonsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/f0/SkeletonsCard.png/revision/latest?cb=20250906092644",
+        "bytes": 361175,
+        "width": 460,
+        "height": 567
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "skeletons-evolution": {
+      "kind": "evolution",
+      "title": "Skeletons/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Skeletons/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SkeletonsCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5c/SkeletonsCardEvolution.png/revision/latest?cb=20250625040020",
+        "bytes": 207215,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "barbarians": {
+      "kind": "card",
+      "title": "Barbarians",
+      "url": "https://clashroyale.fandom.com/wiki/Barbarians",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BarbariansCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/2e/BarbariansCard.png/revision/latest?cb=20250906092032",
+        "bytes": 320329,
+        "width": 460,
+        "height": 567
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "barbarians-evolution": {
+      "kind": "evolution",
+      "title": "Barbarians/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Barbarians/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BarbariansCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6a/BarbariansCardEvolution.png/revision/latest?cb=20250624024621",
+        "bytes": 206332,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "electro-spirit": {
+      "kind": "card",
+      "title": "Electro Spirit",
+      "url": "https://clashroyale.fandom.com/wiki/Electro_Spirit",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ElectroSpiritCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/70/ElectroSpiritCard.png/revision/latest?cb=20201009185354",
+        "bytes": 104647,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "skeleton-dragons": {
+      "kind": "card",
+      "title": "Skeleton Dragons",
+      "url": "https://clashroyale.fandom.com/wiki/Skeleton_Dragons",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SkeletonDragonsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8d/SkeletonDragonsCard.png/revision/latest?cb=20200531185819",
+        "bytes": 136606,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "fire-spirit": {
+      "kind": "card",
+      "title": "Fire Spirit",
+      "url": "https://clashroyale.fandom.com/wiki/Fire_Spirit",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FireSpiritCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ea/FireSpiritCard.png/revision/latest?cb=20171212204727",
+        "bytes": 176530,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "bats": {
+      "kind": "card",
+      "title": "Bats",
+      "url": "https://clashroyale.fandom.com/wiki/Bats",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BatsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/22/BatsCard.png/revision/latest?cb=20171212210528",
+        "bytes": 104745,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "bats-evolution": {
+      "kind": "evolution",
+      "title": "Bats/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Bats/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BatsCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5a/BatsCardEvolution.png/revision/latest?cb=20250625040634",
+        "bytes": 218877,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "royal-recruits": {
+      "kind": "card",
+      "title": "Royal Recruits",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Recruits",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalRecruitsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/77/RoyalRecruitsCard.png/revision/latest?cb=20180719221339",
+        "bytes": 147591,
+        "width": 277,
+        "height": 329
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "royal-recruits-evolution": {
+      "kind": "evolution",
+      "title": "Royal Recruits/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Recruits/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalRecruitsCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/62/RoyalRecruitsCardEvolution.png/revision/latest?cb=20250625040319",
+        "bytes": 209192,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "royal-giant": {
+      "kind": "card",
+      "title": "Royal Giant",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Giant",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalGiantCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8b/RoyalGiantCard.png/revision/latest?cb=20260413181754",
+        "bytes": 395107,
+        "width": 460,
+        "height": 567
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "royal-giant-evolution": {
+      "kind": "evolution",
+      "title": "Royal Giant/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Giant/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalGiantCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/70/RoyalGiantCardEvolution.png/revision/latest?cb=20250625035910",
+        "bytes": 201360,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "ice-spirit": {
+      "kind": "card",
+      "title": "Ice Spirit",
+      "url": "https://clashroyale.fandom.com/wiki/Ice_Spirit",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "IceSpiritCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/2c/IceSpiritCard.png/revision/latest?cb=20171212204920",
+        "bytes": 168567,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "ice-spirit-evolution": {
+      "kind": "evolution",
+      "title": "Ice Spirit/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Ice_Spirit/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "IceSpiritCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/13/IceSpiritCardEvolution.png/revision/latest?cb=20250625040829",
+        "bytes": 207830,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "berserker": {
+      "kind": "card",
+      "title": "Berserker",
+      "url": "https://clashroyale.fandom.com/wiki/Berserker",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BerserkerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8c/BerserkerCard.png/revision/latest?cb=20250301172305",
+        "bytes": 385809,
+        "width": 460,
+        "height": 567
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "skeleton-barrel": {
+      "kind": "card",
+      "title": "Skeleton Barrel",
+      "url": "https://clashroyale.fandom.com/wiki/Skeleton_Barrel",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SkeletonBarrelCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/88/SkeletonBarrelCard.png/revision/latest?cb=20171212203650",
+        "bytes": 148892,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "skeleton-barrel-evolution": {
+      "kind": "evolution",
+      "title": "Skeleton Barrel/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Skeleton_Barrel/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SkeletonBarrelCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6a/SkeletonBarrelCardEvolution.png/revision/latest?cb=20250721180915",
+        "bytes": 223588,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 5
+    },
+    "goblin-gang": {
+      "kind": "card",
+      "title": "Goblin Gang",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Gang",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinGangCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/79/GoblinGangCard.png/revision/latest?cb=20171212204748",
+        "bytes": 198349,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "elite-barbarians": {
+      "kind": "card",
+      "title": "Elite Barbarians",
+      "url": "https://clashroyale.fandom.com/wiki/Elite_Barbarians",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "EliteBarbariansCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e8/EliteBarbariansCard.png/revision/latest?cb=20171212204714",
+        "bytes": 169459,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "elite-barbarians-evolution": {
+      "kind": "evolution",
+      "title": "Elite Barbarians/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Elite_Barbarians/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "EliteBarbariansCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/01/EliteBarbariansCardEvolution.png/revision/latest?cb=20260812051152",
+        "bytes": 220255,
+        "width": 315,
+        "height": 399
+      },
+      "image_error": null,
+      "n_tables": 0
+    },
+    "minion-horde": {
+      "kind": "card",
+      "title": "Minion Horde",
+      "url": "https://clashroyale.fandom.com/wiki/Minion_Horde",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MinionHordeCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/09/MinionHordeCard.png/revision/latest?cb=20171212204952",
+        "bytes": 175132,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "minion-horde-evolution": {
+      "kind": "evolution",
+      "title": "Minion Horde/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Minion_Horde/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MinionHordeCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b3/MinionHordeCardEvolution.png/revision/latest?cb=20260527160435",
+        "bytes": 618922,
+        "width": 569,
+        "height": 721
+      },
+      "image_error": null,
+      "n_tables": 0
+    },
+    "firecracker": {
+      "kind": "card",
+      "title": "Firecracker",
+      "url": "https://clashroyale.fandom.com/wiki/Firecracker",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FirecrackerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/29/FirecrackerCard.png/revision/latest?cb=20250906092239",
+        "bytes": 430140,
+        "width": 460,
+        "height": 567
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "firecracker-evolution": {
+      "kind": "evolution",
+      "title": "Firecracker/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Firecracker/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FirecrackerCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8a/FirecrackerCardEvolution.png/revision/latest?cb=20250625035438",
+        "bytes": 205452,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "rascals": {
+      "kind": "card",
+      "title": "Rascals",
+      "url": "https://clashroyale.fandom.com/wiki/Rascals",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RascalsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/9e/RascalsCard.png/revision/latest?cb=20180516184359",
+        "bytes": 113469,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "mini-p-e-k-k-a": {
+      "kind": "card",
+      "title": "Mini P.E.K.K.A.",
+      "url": "https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A.",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MiniPEKKACard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7b/MiniPEKKACard.png/revision/latest?cb=20260305213446",
+        "bytes": 44164,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "musketeer": {
+      "kind": "card",
+      "title": "Musketeer",
+      "url": "https://clashroyale.fandom.com/wiki/Musketeer",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MusketeerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ee/MusketeerCard.png/revision/latest?cb=20251113004421",
+        "bytes": 518226,
+        "width": 500,
+        "height": 600
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "musketeer-evolution": {
+      "kind": "evolution",
+      "title": "Musketeer/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Musketeer/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MusketeerCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/81/MusketeerCardEvolution.png/revision/latest?cb=20250626003819",
+        "bytes": 220284,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "giant": {
+      "kind": "card",
+      "title": "Giant",
+      "url": "https://clashroyale.fandom.com/wiki/Giant",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GiantCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b1/GiantCard.png/revision/latest?cb=20171212204740",
+        "bytes": 195477,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "valkyrie": {
+      "kind": "card",
+      "title": "Valkyrie",
+      "url": "https://clashroyale.fandom.com/wiki/Valkyrie",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ValkyrieCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e2/ValkyrieCard.png/revision/latest?cb=20260305213938",
+        "bytes": 42778,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "valkyrie-evolution": {
+      "kind": "evolution",
+      "title": "Valkyrie/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Valkyrie/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ValkyrieCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/dc/ValkyrieCardEvolution.png/revision/latest?cb=20250625040929",
+        "bytes": 206477,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "mega-minion": {
+      "kind": "card",
+      "title": "Mega Minion",
+      "url": "https://clashroyale.fandom.com/wiki/Mega_Minion",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MegaMinionCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/a/a8/MegaMinionCard.png/revision/latest?cb=20260208130920",
+        "bytes": 192337,
+        "width": 295,
+        "height": 357
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "battle-ram": {
+      "kind": "card",
+      "title": "Battle Ram",
+      "url": "https://clashroyale.fandom.com/wiki/Battle_Ram",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BattleRamCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/ce/BattleRamCard.png/revision/latest?cb=20171212210525",
+        "bytes": 127139,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "battle-ram-evolution": {
+      "kind": "evolution",
+      "title": "Battle Ram/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Battle_Ram/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BattleRamCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e5/BattleRamCardEvolution.png/revision/latest?cb=20250626002650",
+        "bytes": 212493,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 5
+    },
+    "wizard": {
+      "kind": "card",
+      "title": "Wizard",
+      "url": "https://clashroyale.fandom.com/wiki/Wizard",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "WizardCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/49/WizardCard.png/revision/latest?cb=20171212203722",
+        "bytes": 170411,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "wizard-evolution": {
+      "kind": "evolution",
+      "title": "Wizard/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Wizard/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "WizardCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/f9/WizardCardEvolution.png/revision/latest?cb=20250626002805",
+        "bytes": 218573,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "flying-machine": {
+      "kind": "card",
+      "title": "Flying Machine",
+      "url": "https://clashroyale.fandom.com/wiki/Flying_Machine",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FlyingMachineCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/31/FlyingMachineCard.png/revision/latest?cb=20171212204730",
+        "bytes": 194023,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "hog-rider": {
+      "kind": "card",
+      "title": "Hog Rider",
+      "url": "https://clashroyale.fandom.com/wiki/Hog_Rider",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HogRiderCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/30/HogRiderCard.png/revision/latest?cb=20171212204811",
+        "bytes": 160213,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "royal-hogs": {
+      "kind": "card",
+      "title": "Royal Hogs",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Hogs",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalHogsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/51/RoyalHogsCard.png/revision/latest?cb=20180618175738",
+        "bytes": 130736,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "royal-hogs-evolution": {
+      "kind": "evolution",
+      "title": "Royal Hogs/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Hogs/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalHogsCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e1/RoyalHogsCardEvolution.png/revision/latest?cb=20251109013826",
+        "bytes": 126458,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "three-musketeers": {
+      "kind": "card",
+      "title": "Three Musketeers",
+      "url": "https://clashroyale.fandom.com/wiki/Three_Musketeers",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ThreeMusketeersCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/c9/ThreeMusketeersCard.png/revision/latest?cb=20251113004450",
+        "bytes": 549393,
+        "width": 500,
+        "height": 600
+      },
+      "image_error": null,
+      "n_tables": 7
+    },
+    "battle-healer": {
+      "kind": "card",
+      "title": "Battle Healer",
+      "url": "https://clashroyale.fandom.com/wiki/Battle_Healer",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BattleHealerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/93/BattleHealerCard.png/revision/latest?cb=20191205172851",
+        "bytes": 117140,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "ice-golem": {
+      "kind": "card",
+      "title": "Ice Golem",
+      "url": "https://clashroyale.fandom.com/wiki/Ice_Golem",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "IceGolemCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5f/IceGolemCard.png/revision/latest?cb=20260305213532",
+        "bytes": 35998,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "dart-goblin": {
+      "kind": "card",
+      "title": "Dart Goblin",
+      "url": "https://clashroyale.fandom.com/wiki/Dart_Goblin",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "DartGoblinCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/70/DartGoblinCard.png/revision/latest?cb=20171212203434",
+        "bytes": 165786,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "dart-goblin-evolution": {
+      "kind": "evolution",
+      "title": "Dart Goblin/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Dart_Goblin/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "DartGoblinCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/22/DartGoblinCardEvolution.png/revision/latest?cb=20250626010351",
+        "bytes": 213410,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "furnace": {
+      "kind": "card",
+      "title": "Furnace",
+      "url": "https://clashroyale.fandom.com/wiki/Furnace",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FurnaceCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/51/FurnaceCard.png/revision/latest?cb=20250804224859",
+        "bytes": 483652,
+        "width": 500,
+        "height": 600
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "furnace-evolution": {
+      "kind": "evolution",
+      "title": "Furnace/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Furnace/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FurnaceCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ef/FurnaceCardEvolution.png/revision/latest?cb=20250817002329",
+        "bytes": 218779,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "zappies": {
+      "kind": "card",
+      "title": "Zappies",
+      "url": "https://clashroyale.fandom.com/wiki/Zappies",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ZappiesCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5b/ZappiesCard.png/revision/latest?cb=20180125224858",
+        "bytes": 109126,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "goblin-demolisher": {
+      "kind": "card",
+      "title": "Goblin Demolisher",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Demolisher",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinDemolisherCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/44/GoblinDemolisherCard.png/revision/latest?cb=20260305214322",
+        "bytes": 37624,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "heal-spirit": {
+      "kind": "card",
+      "title": "Heal Spirit",
+      "url": "https://clashroyale.fandom.com/wiki/Heal_Spirit",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HealSpiritCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/63/HealSpiritCard.png/revision/latest?cb=20210606233835",
+        "bytes": 67491,
+        "width": 230,
+        "height": 280
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "suspicious-bush": {
+      "kind": "card",
+      "title": "Suspicious Bush",
+      "url": "https://clashroyale.fandom.com/wiki/Suspicious_Bush",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SuspiciousBushCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cc/SuspiciousBushCard.png/revision/latest?cb=20260305213652",
+        "bytes": 166802,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "elixir-golem": {
+      "kind": "card",
+      "title": "Elixir Golem",
+      "url": "https://clashroyale.fandom.com/wiki/Elixir_Golem",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ElixirGolemCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5a/ElixirGolemCard.png/revision/latest?cb=20191007151830",
+        "bytes": 89747,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "guards": {
+      "kind": "card",
+      "title": "Guards",
+      "url": "https://clashroyale.fandom.com/wiki/Guards",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GuardsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/51/GuardsCard.png/revision/latest?cb=20171212204806",
+        "bytes": 148471,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "baby-dragon": {
+      "kind": "card",
+      "title": "Baby Dragon",
+      "url": "https://clashroyale.fandom.com/wiki/Baby_Dragon",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BabyDragonCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/35/BabyDragonCard.png/revision/latest?cb=20171212203300",
+        "bytes": 163598,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "baby-dragon-evolution": {
+      "kind": "evolution",
+      "title": "Baby Dragon/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Baby_Dragon/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BabyDragonCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/c7/BabyDragonCardEvolution.png/revision/latest?cb=20251013111334",
+        "bytes": 24873,
+        "width": 253,
+        "height": 312
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "skeleton-army": {
+      "kind": "card",
+      "title": "Skeleton Army",
+      "url": "https://clashroyale.fandom.com/wiki/Skeleton_Army",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SkeletonArmyCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d0/SkeletonArmyCard.png/revision/latest?cb=20171212203647",
+        "bytes": 189254,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "skeleton-army-evolution": {
+      "kind": "evolution",
+      "title": "Skeleton Army/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Skeleton_Army/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SkeletonArmyCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/74/SkeletonArmyCardEvolution.png/revision/latest?cb=20251110212654",
+        "bytes": 139539,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 5
+    },
+    "witch": {
+      "kind": "card",
+      "title": "Witch",
+      "url": "https://clashroyale.fandom.com/wiki/Witch",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "WitchCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7f/WitchCard.png/revision/latest?cb=20260305213728",
+        "bytes": 42077,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "witch-evolution": {
+      "kind": "evolution",
+      "title": "Witch/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Witch/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "WitchCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1a/WitchCardEvolution.png/revision/latest?cb=20250626010937",
+        "bytes": 219654,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "p-e-k-k-a": {
+      "kind": "card",
+      "title": "P.E.K.K.A.",
+      "url": "https://clashroyale.fandom.com/wiki/P.E.K.K.A.",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "PEKKACard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/fe/PEKKACard.png/revision/latest?cb=20171212203624",
+        "bytes": 169955,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "p-e-k-k-a-evolution": {
+      "kind": "evolution",
+      "title": "P.E.K.K.A./Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/P.E.K.K.A./Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "PEKKACardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/ba/PEKKACardEvolution.png/revision/latest?cb=20250626003431",
+        "bytes": 217308,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "dark-prince": {
+      "kind": "card",
+      "title": "Dark Prince",
+      "url": "https://clashroyale.fandom.com/wiki/Dark_Prince",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "DarkPrinceCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/46/DarkPrinceCard.png/revision/latest?cb=20171212210526",
+        "bytes": 120154,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "prince": {
+      "kind": "card",
+      "title": "Prince",
+      "url": "https://clashroyale.fandom.com/wiki/Prince",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "PrinceCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/be/PrinceCard.png/revision/latest?cb=20171212203631",
+        "bytes": 191478,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "balloon": {
+      "kind": "card",
+      "title": "Balloon",
+      "url": "https://clashroyale.fandom.com/wiki/Balloon",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BalloonCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5b/BalloonCard.png/revision/latest?cb=20171212203306",
+        "bytes": 181111,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "giant-skeleton": {
+      "kind": "card",
+      "title": "Giant Skeleton",
+      "url": "https://clashroyale.fandom.com/wiki/Giant_Skeleton",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GiantSkeletonCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6f/GiantSkeletonCard.png/revision/latest?cb=20260311022225",
+        "bytes": 157539,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "rune-giant": {
+      "kind": "card",
+      "title": "Rune Giant",
+      "url": "https://clashroyale.fandom.com/wiki/Rune_Giant",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RuneGiantCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/0a/RuneGiantCard.png/revision/latest?cb=20260305214508",
+        "bytes": 36460,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "goblin-giant": {
+      "kind": "card",
+      "title": "Goblin Giant",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Giant",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinGiantCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/44/GoblinGiantCard.png/revision/latest?cb=20180907172932",
+        "bytes": 133149,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "goblin-giant-evolution": {
+      "kind": "evolution",
+      "title": "Goblin Giant/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Giant/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinGiantCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/87/GoblinGiantCardEvolution.png/revision/latest?cb=20250626003102",
+        "bytes": 225090,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 6
+    },
+    "hunter": {
+      "kind": "card",
+      "title": "Hunter",
+      "url": "https://clashroyale.fandom.com/wiki/Hunter",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HunterCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/64/HunterCard.png/revision/latest?cb=20171212204813",
+        "bytes": 152522,
+        "width": 277,
+        "height": 329
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "hunter-evolution": {
+      "kind": "evolution",
+      "title": "Hunter/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Hunter/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HunterCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/22/HunterCardEvolution.png/revision/latest?cb=20250626010657",
+        "bytes": 226190,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "golem": {
+      "kind": "card",
+      "title": "Golem",
+      "url": "https://clashroyale.fandom.com/wiki/Golem",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GolemCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d4/GolemCard.png/revision/latest?cb=20171212204759",
+        "bytes": 168323,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "electro-dragon": {
+      "kind": "card",
+      "title": "Electro Dragon",
+      "url": "https://clashroyale.fandom.com/wiki/Electro_Dragon",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ElectroDragonCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/8a/ElectroDragonCard.png/revision/latest?cb=20181027022035",
+        "bytes": 110065,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "electro-dragon-evolution": {
+      "kind": "evolution",
+      "title": "Electro Dragon/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Electro_Dragon/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ElectroDragonCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/48/ElectroDragonCardEvolution.png/revision/latest?cb=20250626003707",
+        "bytes": 196808,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "wall-breakers": {
+      "kind": "card",
+      "title": "Wall Breakers",
+      "url": "https://clashroyale.fandom.com/wiki/Wall_Breakers",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "WallBreakersCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/2e/WallBreakersCard.png/revision/latest?cb=20220810092902",
+        "bytes": 126980,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "wall-breakers-evolution": {
+      "kind": "evolution",
+      "title": "Wall Breakers/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Wall_Breakers/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "WallBreakersCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/a/ae/WallBreakersCardEvolution.png/revision/latest?cb=20250625235807",
+        "bytes": 222315,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "electro-giant": {
+      "kind": "card",
+      "title": "Electro Giant",
+      "url": "https://clashroyale.fandom.com/wiki/Electro_Giant",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ElectroGiantCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/08/ElectroGiantCard.png/revision/latest?cb=20220810091241",
+        "bytes": 145268,
+        "width": 299,
+        "height": 359
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "bowler": {
+      "kind": "card",
+      "title": "Bowler",
+      "url": "https://clashroyale.fandom.com/wiki/Bowler",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BowlerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b8/BowlerCard.png/revision/latest?cb=20171212203424",
+        "bytes": 177511,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "executioner": {
+      "kind": "card",
+      "title": "Executioner",
+      "url": "https://clashroyale.fandom.com/wiki/Executioner",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ExecutionerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/da/ExecutionerCard.png/revision/latest?cb=20171212204720",
+        "bytes": 162189,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "executioner-evolution": {
+      "kind": "evolution",
+      "title": "Executioner/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Executioner/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ExecutionerCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/a/a9/ExecutionerCardEvolution.png/revision/latest?cb=20250626010820",
+        "bytes": 215375,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "cannon-cart": {
+      "kind": "card",
+      "title": "Cannon Cart",
+      "url": "https://clashroyale.fandom.com/wiki/Cannon_Cart",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "CannonCartCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/62/CannonCartCard.png/revision/latest?cb=20171212210531",
+        "bytes": 126282,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "mega-knight": {
+      "kind": "card",
+      "title": "Mega Knight",
+      "url": "https://clashroyale.fandom.com/wiki/Mega_Knight",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MegaKnightCard.png",
+        "bytes": 177605,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "mega-knight-evolution": {
+      "kind": "evolution",
+      "title": "Mega Knight/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Mega_Knight/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MegaKnightCardEvolution.png",
+        "bytes": 226127,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "ram-rider": {
+      "kind": "card",
+      "title": "Ram Rider",
+      "url": "https://clashroyale.fandom.com/wiki/Ram_Rider",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RamRiderCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/e0/RamRiderCard.png/revision/latest?cb=20191027212430",
+        "bytes": 144755,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "electro-wizard": {
+      "kind": "card",
+      "title": "Electro Wizard",
+      "url": "https://clashroyale.fandom.com/wiki/Electro_Wizard",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ElectroWizardCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/12/ElectroWizardCard.png/revision/latest?cb=20171212203437",
+        "bytes": 191386,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "inferno-dragon": {
+      "kind": "card",
+      "title": "Inferno Dragon",
+      "url": "https://clashroyale.fandom.com/wiki/Inferno_Dragon",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "InfernoDragonCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/95/InfernoDragonCard.png/revision/latest?cb=20171212204926",
+        "bytes": 190840,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "inferno-dragon-evolution": {
+      "kind": "evolution",
+      "title": "Inferno Dragon/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Inferno_Dragon/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "InfernoDragonCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/74/InfernoDragonCardEvolution.png/revision/latest?cb=20250626011050",
+        "bytes": 241901,
+        "width": 345,
+        "height": 440
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "sparky": {
+      "kind": "card",
+      "title": "Sparky",
+      "url": "https://clashroyale.fandom.com/wiki/Sparky",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SparkyCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/33/SparkyCard.png/revision/latest?cb=20171212203655",
+        "bytes": 189993,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "miner": {
+      "kind": "card",
+      "title": "Miner",
+      "url": "https://clashroyale.fandom.com/wiki/Miner",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MinerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/21/MinerCard.png/revision/latest?cb=20171212204949",
+        "bytes": 188355,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "princess": {
+      "kind": "card",
+      "title": "Princess",
+      "url": "https://clashroyale.fandom.com/wiki/Princess",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "PrincessCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/2/24/PrincessCard.png/revision/latest?cb=20171212203633",
+        "bytes": 189022,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "princess-evolution": {
+      "kind": "evolution",
+      "title": "Princess/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Princess/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "PrincessCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/4c/PrincessCardEvolution.png/revision/latest?cb=20260523211421",
+        "bytes": 230376,
+        "width": 301,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 0
+    },
+    "phoenix": {
+      "kind": "card",
+      "title": "Phoenix",
+      "url": "https://clashroyale.fandom.com/wiki/Phoenix",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "PhoenixCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/88/PhoenixCard.png/revision/latest?cb=20221024141258",
+        "bytes": 32070,
+        "width": 358,
+        "height": 400
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "royal-ghost": {
+      "kind": "card",
+      "title": "Royal Ghost",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Ghost",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalGhostCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/3c/RoyalGhostCard.png/revision/latest?cb=20171212203643",
+        "bytes": 183629,
+        "width": 277,
+        "height": 329
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "royal-ghost-evolution": {
+      "kind": "evolution",
+      "title": "Royal Ghost/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Ghost/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalGhostCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6f/RoyalGhostCardEvolution.png/revision/latest?cb=20251013222633",
+        "bytes": 763828,
+        "width": 850,
+        "height": 850
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "ice-wizard": {
+      "kind": "card",
+      "title": "Ice Wizard",
+      "url": "https://clashroyale.fandom.com/wiki/Ice_Wizard",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "IceWizardCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d3/IceWizardCard.png/revision/latest?cb=20171212204923",
+        "bytes": 191324,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "magic-archer": {
+      "kind": "card",
+      "title": "Magic Archer",
+      "url": "https://clashroyale.fandom.com/wiki/Magic_Archer",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MagicArcherCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cb/MagicArcherCard.png/revision/latest?cb=20180212145114",
+        "bytes": 122872,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "bandit": {
+      "kind": "card",
+      "title": "Bandit",
+      "url": "https://clashroyale.fandom.com/wiki/Bandit",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BanditCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/76/BanditCard.png/revision/latest?cb=20260721131114",
+        "bytes": 516993,
+        "width": 457,
+        "height": 624
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "lava-hound": {
+      "kind": "card",
+      "title": "Lava Hound",
+      "url": "https://clashroyale.fandom.com/wiki/Lava_Hound",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "LavaHoundCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/de/LavaHoundCard.png/revision/latest?cb=20171212204935",
+        "bytes": 175254,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "night-witch": {
+      "kind": "card",
+      "title": "Night Witch",
+      "url": "https://clashroyale.fandom.com/wiki/Night_Witch",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "NightWitchCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7f/NightWitchCard.png/revision/latest?cb=20260305213819",
+        "bytes": 153542,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "lumberjack": {
+      "kind": "card",
+      "title": "Lumberjack",
+      "url": "https://clashroyale.fandom.com/wiki/Lumberjack",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "LumberjackCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/52/LumberjackCard.png/revision/latest?cb=20171212204941",
+        "bytes": 186133,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "lumberjack-evolution": {
+      "kind": "evolution",
+      "title": "Lumberjack/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Lumberjack/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "LumberjackCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1d/LumberjackCardEvolution.png/revision/latest?cb=20250626010500",
+        "bytes": 248129,
+        "width": 345,
+        "height": 440
+      },
+      "image_error": null,
+      "n_tables": 5
+    },
+    "spirit-empress": {
+      "kind": "card",
+      "title": "Spirit Empress",
+      "url": "https://clashroyale.fandom.com/wiki/Spirit_Empress",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SpiritEmpressCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7e/SpiritEmpressCard.png/revision/latest?cb=20250708193121",
+        "bytes": 432897,
+        "width": 510,
+        "height": 668
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "goblin-machine": {
+      "kind": "card",
+      "title": "Goblin Machine",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Machine",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinMachineCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/79/GoblinMachineCard.png/revision/latest?cb=20240619124012",
+        "bytes": 589753,
+        "width": 465,
+        "height": 634
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "mother-witch": {
+      "kind": "card",
+      "title": "Mother Witch",
+      "url": "https://clashroyale.fandom.com/wiki/Mother_Witch",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MotherWitchCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/81/MotherWitchCard.png/revision/latest?cb=20201204152613",
+        "bytes": 115262,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "fisherman": {
+      "kind": "card",
+      "title": "Fisherman",
+      "url": "https://clashroyale.fandom.com/wiki/Fisherman",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FishermanCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/11/FishermanCard.png/revision/latest?cb=20190702021335",
+        "bytes": 139359,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "ronin": {
+      "kind": "card",
+      "title": "Ronin",
+      "url": "https://clashroyale.fandom.com/wiki/Ronin",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoninCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/50/RoninCard.png/revision/latest?cb=20260710230206",
+        "bytes": 550848,
+        "width": 459,
+        "height": 625
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "golden-knight": {
+      "kind": "card",
+      "title": "Golden Knight",
+      "url": "https://clashroyale.fandom.com/wiki/Golden_Knight",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoldenKnightCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/0/04/GoldenKnightCard.png/revision/latest?cb=20211030180748",
+        "bytes": 157182,
+        "width": 292,
+        "height": 410
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "skeleton-king": {
+      "kind": "card",
+      "title": "Skeleton King",
+      "url": "https://clashroyale.fandom.com/wiki/Skeleton_King",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "SkeletonKingCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d3/SkeletonKingCard.png/revision/latest?cb=20211030180917",
+        "bytes": 158539,
+        "width": 292,
+        "height": 410
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "boss-bandit": {
+      "kind": "card",
+      "title": "Boss Bandit",
+      "url": "https://clashroyale.fandom.com/wiki/Boss_Bandit",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BossBanditCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b8/BossBanditCard.png/revision/latest?cb=20250406053048",
+        "bytes": 547008,
+        "width": 508,
+        "height": 745
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "archer-queen": {
+      "kind": "card",
+      "title": "Archer Queen",
+      "url": "https://clashroyale.fandom.com/wiki/Archer_Queen",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ArcherQueenCard.png",
+        "bytes": 171838,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "mighty-miner": {
+      "kind": "card",
+      "title": "Mighty Miner",
+      "url": "https://clashroyale.fandom.com/wiki/Mighty_Miner",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MightyMinerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/c1/MightyMinerCard.png/revision/latest?cb=20260413181638",
+        "bytes": 641340,
+        "width": 508,
+        "height": 745
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "goblinstein": {
+      "kind": "card",
+      "title": "Goblinstein",
+      "url": "https://clashroyale.fandom.com/wiki/Goblinstein",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinsteinCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/60/GoblinsteinCard.png/revision/latest?cb=20250113175058",
+        "bytes": 531927,
+        "width": 508,
+        "height": 745
+      },
+      "image_error": null,
+      "n_tables": 5
+    },
+    "little-prince": {
+      "kind": "card",
+      "title": "Little Prince",
+      "url": "https://clashroyale.fandom.com/wiki/Little_Prince",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "LittlePrinceCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/47/LittlePrinceCard.png/revision/latest?cb=20250201145338",
+        "bytes": 494093,
+        "width": 508,
+        "height": 745
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "monk": {
+      "kind": "card",
+      "title": "Monk",
+      "url": "https://clashroyale.fandom.com/wiki/Monk",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MonkCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5d/MonkCard.png/revision/latest?cb=20221023211827",
+        "bytes": 33961,
+        "width": 292,
+        "height": 410
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "arrows": {
+      "kind": "card",
+      "title": "Arrows",
+      "url": "https://clashroyale.fandom.com/wiki/Arrows",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ArrowsCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6e/ArrowsCard.png/revision/latest?cb=20171212203258",
+        "bytes": 111358,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "zap": {
+      "kind": "card",
+      "title": "Zap",
+      "url": "https://clashroyale.fandom.com/wiki/Zap",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ZapCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/52/ZapCard.png/revision/latest?cb=20171212203728",
+        "bytes": 164668,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "zap-evolution": {
+      "kind": "evolution",
+      "title": "Zap/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Zap/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ZapCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cb/ZapCardEvolution.png/revision/latest?cb=20250626000117",
+        "bytes": 199326,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "giant-snowball": {
+      "kind": "card",
+      "title": "Giant Snowball",
+      "url": "https://clashroyale.fandom.com/wiki/Giant_Snowball",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GiantSnowballCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7e/GiantSnowballCard.png/revision/latest?cb=20180618175737",
+        "bytes": 77105,
+        "width": 277,
+        "height": 329
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "giant-snowball-evolution": {
+      "kind": "evolution",
+      "title": "Giant Snowball/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Giant_Snowball/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GiantSnowballCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/93/GiantSnowballCardEvolution.png/revision/latest?cb=20250626004527",
+        "bytes": 200453,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "royal-delivery": {
+      "kind": "card",
+      "title": "Royal Delivery",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Delivery",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalDeliveryCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/6c/RoyalDeliveryCard.png/revision/latest?cb=20220810092859",
+        "bytes": 121390,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "fireball": {
+      "kind": "card",
+      "title": "Fireball",
+      "url": "https://clashroyale.fandom.com/wiki/Fireball",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FireballCard.png",
+        "bytes": 175460,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "rocket": {
+      "kind": "card",
+      "title": "Rocket",
+      "url": "https://clashroyale.fandom.com/wiki/Rocket",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RocketCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/fc/RocketCard.png/revision/latest?cb=20171212203640",
+        "bytes": 165716,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "earthquake": {
+      "kind": "card",
+      "title": "Earthquake",
+      "url": "https://clashroyale.fandom.com/wiki/Earthquake",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "EarthquakeCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/64/EarthquakeCard.png/revision/latest?cb=20190416153355",
+        "bytes": 124855,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "goblin-barrel": {
+      "kind": "card",
+      "title": "Goblin Barrel",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Barrel",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinBarrelCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ee/GoblinBarrelCard.png/revision/latest?cb=20171212204745",
+        "bytes": 170096,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "goblin-barrel-evolution": {
+      "kind": "evolution",
+      "title": "Goblin Barrel/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Barrel/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinBarrelCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7d/GoblinBarrelCardEvolution.png/revision/latest?cb=20250626002934",
+        "bytes": 229223,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 5
+    },
+    "vines": {
+      "kind": "card",
+      "title": "Vines",
+      "url": "https://clashroyale.fandom.com/wiki/Vines",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "VinesCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/75/VinesCard.png/revision/latest?cb=20260311024518",
+        "bytes": 110663,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "lightning": {
+      "kind": "card",
+      "title": "Lightning",
+      "url": "https://clashroyale.fandom.com/wiki/Lightning",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "LightningCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/5e/LightningCard.png/revision/latest?cb=20171212204938",
+        "bytes": 189605,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 1
+    },
+    "freeze": {
+      "kind": "card",
+      "title": "Freeze",
+      "url": "https://clashroyale.fandom.com/wiki/Freeze",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "FreezeCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cf/FreezeCard.png/revision/latest?cb=20171212204733",
+        "bytes": 183663,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "barbarian-barrel": {
+      "kind": "card",
+      "title": "Barbarian Barrel",
+      "url": "https://clashroyale.fandom.com/wiki/Barbarian_Barrel",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BarbarianBarrelCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b5/BarbarianBarrelCard.png/revision/latest?cb=20180322174712",
+        "bytes": 124885,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "poison": {
+      "kind": "card",
+      "title": "Poison",
+      "url": "https://clashroyale.fandom.com/wiki/Poison",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "PoisonCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/89/PoisonCard.png/revision/latest?cb=20171212203628",
+        "bytes": 174529,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 1
+    },
+    "goblin-curse": {
+      "kind": "card",
+      "title": "Goblin Curse",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Curse",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinCurseCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/c4/GoblinCurseCard.png/revision/latest?cb=20260311024159",
+        "bytes": 112373,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "rage": {
+      "kind": "card",
+      "title": "Rage",
+      "url": "https://clashroyale.fandom.com/wiki/Rage",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RageCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1c/RageCard.png/revision/latest?cb=20171212203637",
+        "bytes": 177112,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "clone": {
+      "kind": "card",
+      "title": "Clone",
+      "url": "https://clashroyale.fandom.com/wiki/Clone",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "CloneCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/48/CloneCard.png/revision/latest?cb=20171212210530",
+        "bytes": 104856,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "tornado": {
+      "kind": "card",
+      "title": "Tornado",
+      "url": "https://clashroyale.fandom.com/wiki/Tornado",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "TornadoCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/37/TornadoCard.png/revision/latest?cb=20171212203713",
+        "bytes": 176942,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "mirror": {
+      "kind": "card",
+      "title": "Mirror",
+      "url": "https://clashroyale.fandom.com/wiki/Mirror",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MirrorCard.png",
+        "bytes": 125678,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 6
+    },
+    "void": {
+      "kind": "card",
+      "title": "Void",
+      "url": "https://clashroyale.fandom.com/wiki/Void",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "VoidCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/13/VoidCard.png/revision/latest?cb=20240502080204",
+        "bytes": 314834,
+        "width": 447,
+        "height": 558
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "the-log": {
+      "kind": "card",
+      "title": "The Log",
+      "url": "https://clashroyale.fandom.com/wiki/The_Log",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "TheLogCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/4d/TheLogCard.png/revision/latest?cb=20171212203703",
+        "bytes": 180911,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "graveyard": {
+      "kind": "card",
+      "title": "Graveyard",
+      "url": "https://clashroyale.fandom.com/wiki/Graveyard",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GraveyardCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/42/GraveyardCard.png/revision/latest?cb=20171212204803",
+        "bytes": 188860,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "cannon": {
+      "kind": "card",
+      "title": "Cannon",
+      "url": "https://clashroyale.fandom.com/wiki/Cannon",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "CannonCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/70/CannonCard.png/revision/latest?cb=20171212210523",
+        "bytes": 111443,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "cannon-evolution": {
+      "kind": "evolution",
+      "title": "Cannon/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Cannon/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "CannonCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/33/CannonCardEvolution.png/revision/latest?cb=20250626003928",
+        "bytes": 203900,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "mortar": {
+      "kind": "card",
+      "title": "Mortar",
+      "url": "https://clashroyale.fandom.com/wiki/Mortar",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MortarCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1e/MortarCard.png/revision/latest?cb=20191207191730",
+        "bytes": 129667,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "mortar-evolution": {
+      "kind": "evolution",
+      "title": "Mortar/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Mortar/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "MortarCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/1e/MortarCardEvolution.png/revision/latest?cb=20250625040114",
+        "bytes": 224175,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "tesla": {
+      "kind": "card",
+      "title": "Tesla",
+      "url": "https://clashroyale.fandom.com/wiki/Tesla",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "TeslaCard.png",
+        "bytes": 109334,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "tesla-evolution": {
+      "kind": "evolution",
+      "title": "Tesla/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Tesla/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "TeslaCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7b/TeslaCardEvolution.png/revision/latest?cb=20250626000003",
+        "bytes": 202676,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "goblin-cage": {
+      "kind": "card",
+      "title": "Goblin Cage",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Cage",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinCageCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/1/17/GoblinCageCard.png/revision/latest?cb=20260628163840",
+        "bytes": 140840,
+        "width": 302,
+        "height": 363
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "goblin-cage-evolution": {
+      "kind": "evolution",
+      "title": "Goblin Cage/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Cage/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinCageCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/56/GoblinCageCardEvolution.png/revision/latest?cb=20250626003320",
+        "bytes": 208948,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 5
+    },
+    "goblin-hut": {
+      "kind": "card",
+      "title": "Goblin Hut",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Hut",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinHutCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/da/GoblinHutCard.png/revision/latest?cb=20250803181307",
+        "bytes": 174578,
+        "width": 302,
+        "height": 364
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "tombstone": {
+      "kind": "card",
+      "title": "Tombstone",
+      "url": "https://clashroyale.fandom.com/wiki/Tombstone",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "TombstoneCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/75/TombstoneCard.png/revision/latest?cb=20171212203710",
+        "bytes": 154342,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "bomb-tower": {
+      "kind": "card",
+      "title": "Bomb Tower",
+      "url": "https://clashroyale.fandom.com/wiki/Bomb_Tower",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BombTowerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/f/f1/BombTowerCard.png/revision/latest?cb=20171212210521",
+        "bytes": 108516,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "inferno-tower": {
+      "kind": "card",
+      "title": "Inferno Tower",
+      "url": "https://clashroyale.fandom.com/wiki/Inferno_Tower",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "InfernoTowerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/34/InfernoTowerCard.png/revision/latest?cb=20171212204928",
+        "bytes": 158103,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "barbarian-hut": {
+      "kind": "card",
+      "title": "Barbarian Hut",
+      "url": "https://clashroyale.fandom.com/wiki/Barbarian_Hut",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "BarbarianHutCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/63/BarbarianHutCard.png/revision/latest?cb=20171212203409",
+        "bytes": 182525,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "elixir-collector": {
+      "kind": "card",
+      "title": "Elixir Collector",
+      "url": "https://clashroyale.fandom.com/wiki/Elixir_Collector",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "ElixirCollectorCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/33/ElixirCollectorCard.png/revision/latest?cb=20171212204717",
+        "bytes": 163690,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "x-bow": {
+      "kind": "card",
+      "title": "X-Bow",
+      "url": "https://clashroyale.fandom.com/wiki/X-Bow",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "X-BowCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b5/X-BowCard.png/revision/latest?cb=20171212203726",
+        "bytes": 159457,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "goblin-drill": {
+      "kind": "card",
+      "title": "Goblin Drill",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Drill",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinDrillCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/76/GoblinDrillCard.png/revision/latest?cb=20210609154853",
+        "bytes": 124050,
+        "width": 277,
+        "height": 330
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "goblin-drill-evolution": {
+      "kind": "evolution",
+      "title": "Goblin Drill/Evolution",
+      "url": "https://clashroyale.fandom.com/wiki/Goblin_Drill/Evolution",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "2 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "GoblinDrillCardEvolution.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/c/cb/GoblinDrillCardEvolution.png/revision/latest?cb=20250626003146",
+        "bytes": 216466,
+        "width": 364,
+        "height": 431
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "tower-princess": {
+      "kind": "card",
+      "title": "Tower Princess",
+      "url": "https://clashroyale.fandom.com/wiki/Tower_Princess",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "TowerPrincessCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/88/TowerPrincessCard.png/revision/latest?cb=20250123220202",
+        "bytes": 406650,
+        "width": 481,
+        "height": 681
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "cannoneer": {
+      "kind": "card",
+      "title": "Cannoneer",
+      "url": "https://clashroyale.fandom.com/wiki/Cannoneer",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "CannoneerCard.png",
+        "bytes": 92906,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 2
+    },
+    "dagger-duchess": {
+      "kind": "card",
+      "title": "Dagger Duchess",
+      "url": "https://clashroyale.fandom.com/wiki/Dagger_Duchess",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "DaggerDuchessCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/9b/DaggerDuchessCard.png/revision/latest?cb=20251102003049",
+        "bytes": 87751,
+        "width": 500,
+        "height": 700
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "royal-chef": {
+      "kind": "card",
+      "title": "Royal Chef",
+      "url": "https://clashroyale.fandom.com/wiki/Royal_Chef",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "RoyalChefCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/b5/RoyalChefCard.png/revision/latest?cb=20251019191241",
+        "bytes": 568048,
+        "width": 486,
+        "height": 687
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "knight-hero": {
+      "kind": "hero",
+      "title": "Knight/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Knight/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroKnightCard.png",
+        "bytes": 489933,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "giant-hero": {
+      "kind": "hero",
+      "title": "Giant/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Giant/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroGiantCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d2/HeroGiantCard.png/revision/latest?cb=20251202004339",
+        "bytes": 486534,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "mini-p-e-k-k-a-hero": {
+      "kind": "hero",
+      "title": "Mini P.E.K.K.A./Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Mini_P.E.K.K.A./Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroMiniPEKKACard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/b/bc/HeroMiniPEKKACard.png/revision/latest?cb=20251202004431",
+        "bytes": 473305,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "musketeer-hero": {
+      "kind": "hero",
+      "title": "Musketeer/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Musketeer/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroMusketeerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/76/HeroMusketeerCard.png/revision/latest?cb=20251202004500",
+        "bytes": 510698,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "ice-golem-hero": {
+      "kind": "hero",
+      "title": "Ice Golem/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Ice_Golem/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroIceGolemCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/8/84/HeroIceGolemCard.png/revision/latest?cb=20260107090951",
+        "bytes": 530378,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "wizard-hero": {
+      "kind": "hero",
+      "title": "Wizard/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Wizard/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroWizardCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/de/HeroWizardCard.png/revision/latest?cb=20260107090937",
+        "bytes": 493412,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "goblins-hero": {
+      "kind": "hero",
+      "title": "Goblins/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Goblins/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroGoblinsCard.png",
+        "bytes": 619470,
+        "cached": true
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "mega-minion-hero": {
+      "kind": "hero",
+      "title": "Mega Minion/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Mega_Minion/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroMegaMinionCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/6/64/HeroMegaMinionCard.png/revision/latest?cb=20260208035757",
+        "bytes": 606757,
+        "width": 597,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "barbarian-barrel-hero": {
+      "kind": "hero",
+      "title": "Barbarian Barrel/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Barbarian_Barrel/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroBarbarianBarrelCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/3/3b/HeroBarbarianBarrelCard.png/revision/latest?cb=20260401163727",
+        "bytes": 443426,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "magic-archer-hero": {
+      "kind": "hero",
+      "title": "Magic Archer/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Magic_Archer/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroMagicArcherCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/7/7b/HeroMagicArcherCard.png/revision/latest?cb=20260401163803",
+        "bytes": 546274,
+        "width": 615,
+        "height": 782
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "balloon-hero": {
+      "kind": "hero",
+      "title": "Balloon/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Balloon/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroBalloonCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/d/d0/HeroBalloonCard.png/revision/latest?cb=20260407212646",
+        "bytes": 499139,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "bowler-hero": {
+      "kind": "hero",
+      "title": "Bowler/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Bowler/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroBowlerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/90/HeroBowlerCard.png/revision/latest?cb=20260508055206",
+        "bytes": 475860,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "dark-prince-hero": {
+      "kind": "hero",
+      "title": "Dark Prince/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Dark_Prince/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroDarkPrinceCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/4/43/HeroDarkPrinceCard.png/revision/latest?cb=20260508200527",
+        "bytes": 488998,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 4
+    },
+    "tombstone-hero": {
+      "kind": "hero",
+      "title": "Tombstone/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Tombstone/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroTombstoneCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/5/56/HeroTombstoneCard.png/revision/latest?cb=20260523211507",
+        "bytes": 235314,
+        "width": 339,
+        "height": 415
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "berserker-hero": {
+      "kind": "hero",
+      "title": "Berserker/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Berserker/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroBerserkerCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/e/ec/HeroBerserkerCard.png/revision/latest?cb=20260816173828",
+        "bytes": 549347,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    },
+    "valkyrie-hero": {
+      "kind": "hero",
+      "title": "Valkyrie/Hero",
+      "url": "https://clashroyale.fandom.com/wiki/Valkyrie/Hero",
+      "status": "pending",
+      "stage": "fetched",
+      "reason": "3 agent placeholder(s) unfilled",
+      "updated_at": "2026-09-02T02:36:05+00:00",
+      "image": {
+        "file": "HeroValkyrieCard.png",
+        "source_url": "https://static.wikia.nocookie.net/clashroyale/images/9/99/HeroValkyrieCard.png/revision/latest?cb=20260816173855",
+        "bytes": 618630,
+        "width": 598,
+        "height": 730
+      },
+      "image_error": null,
+      "n_tables": 3
+    }
+  },
+  "counts": {
+    "cards": 126,
+    "evolutions": 42,
+    "heroes": 16
+  }
+}
