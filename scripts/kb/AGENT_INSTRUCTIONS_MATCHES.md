@@ -62,31 +62,47 @@ Sections:
 - `## Data gaps`: unidentified events, low-confidence stretches, transcript
   segments with no visual context.
 
-## Deliverable 2: card and deck updates (graph links)
+## Deliverable 2: card and deck insights (graph links)
 
-For each card Ryley played or discussed, append or update ONE block in
-`knowledge_base/cards/<slug>.md`, placed before `## Source`, with these
-markers so re-runs replace rather than duplicate:
+Do NOT edit card or deck files yourself: several agents work on the same
+cards at once. Write `insights.json` next to the match `context.json`
+(same directory) and `tools/merge_insights.py` merges it into
+`knowledge_base/cards/<slug>.md` (section `## Creator insights (ryleycr1)`)
+and `knowledge_base/decks/<deck_key>.md` (section
+`## Creator matches (ryleycr1)`) as marked blocks; re-runs replace blocks.
 
 ```
-## Creator insights (ryleycr1)
-
-<!-- creator-insights:ryleycr1:<video_id>-m<match_index>:start -->
-- Match [<video_title>](../matches/<video_id>-m<n>.md), clock <m:ss>: <how he used it / what he said>
-<!-- creator-insights:ryleycr1:<video_id>-m<match_index>:end -->
+{
+  "key": "<video_id>-m<match_index>",
+  "match_file": "matches/<video_id>-m<match_index>.md",
+  "video_title": "<title>",
+  "cards": {
+    "<slug>": ["clock 2:34: <how he used it, from the events> — <what he said>", "..."]
+  },
+  "deck": {
+    "deck_key": "<sorted-8-slugs or null>",
+    "cards": ["<8 slugs>"],
+    "bullets": ["<how the deck was piloted in this match, with timestamps>"],
+    "new_deck": {                       # only when knowledge_base/decks/<deck_key>.md does not exist
+      "display_name": "<Ryley's name for it if given, else '<win condition> Ryley'>",
+      "archetype_primary": "<one of: bait beatdown bridge-spam control cycle siege>",
+      "archetype_secondary": "<archetype or \"none\">",
+      "rationale": "<one sentence: why that archetype>",
+      "why_it_works_md": "<2-5 sentences, markdown, from the match and commentary>"
+    }
+  }
+}
 ```
-If the `## Creator insights (ryleycr1)` heading already exists, add your
-block inside that section (after existing blocks); if a block with your
-exact marker exists, replace it. Never edit anything else in the card file.
+Rules for the bullets: one to four per card, each grounded in an event or
+timeline row (give the clock) and, where he talked about it, his words
+(quote or close paraphrase). A card he only *mentioned* (not played) gets a
+bullet that says so. Cards not in the knowledge base (unknown slug) go in
+the match file's Data gaps, not in `cards`.
 
-For the deck: if `own_deck_key` matches a file in `knowledge_base/decks/`,
-add the same kind of marked block under a `## Creator matches (ryleycr1)`
-section in that deck file. If it does not match and the 8 cards are known,
-create `knowledge_base/decks/<own_deck_key>.md` with the Phase 2 frontmatter
-fields (display_name = Ryley's name for it if he gives one, otherwise the
-win condition + "Ryley"), `classification_source: agent`,
-`source_url` = the video URL, stats `n/a`, and the standard sections
-(Cards, Classification, Why this deck works) written from the match.
+Own deck: `context.md` gives a per-game read and a video-level consensus
+("Own deck, video-level consensus"). Use the consensus unless the
+commentary says he changed decks; if fewer than 8 cards are known, set
+`deck_key` to null and list the known cards.
 
 Style: concrete, timestamps everywhere, card names as in the knowledge
 base, no speculation presented as observation.
