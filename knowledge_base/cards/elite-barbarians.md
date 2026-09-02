@@ -249,6 +249,19 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:21 (t=905.9): in overtime he plays them deep beside the tower rather than at the bridge, tile [8, 19] — "we can go for the Evo E Barbs here in the pocket"; that push plus Rage and Minions takes the enemy right tower from 3122 to 588 HP by clock 1:03.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2557.6 / t=2560.6: Elite Barbarians into the right lane at [14, 15] and [14, 14] while he weighs how to answer the Dark Prince — "I was debating between Ebarbs kite" (t=2559).
+- t=2570.6: Elite Barbarians at the bridge [14, 18] with Heal Spirit behind them, played for tempo rather than damage — "I just went in with the Ebarbs here. Not because I knew that I was going to get through, and not because I was upset, but because I wanted to mess up his cycle. I was able to take out the dark prince, which was good" (t=2574-2584).
+- t=2588-2593: rates them poorly into bait — "the Ebarbs aren't really that great in this match. He has Skarmy and Dark Prince" — and switches to the Evo Battle Ram push instead.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card, spoken only as "the ebar" / "the Ebarb" in the auto-transcript, so the mapping is inferred. Ryley names them in both of his self-criticisms: "I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit" (t=2190) and "The Ebarb stayed alive" (t=2227).
+- t=2239: listed alongside the Cannon misclick as the reason he lost — "me missing the cannon, me missing the ebar protection".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

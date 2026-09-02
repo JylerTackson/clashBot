@@ -183,6 +183,20 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only, not played (t=1031-1057): Evo Mega Knight 'will now knock back every other attack instead of every attack' and the heavy-troop knockback goes from 2.5 to 4 tiles - 'it will knock the troops back further, but it won't knock them back every hit like before, making it quite a bit less polarizing.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=42.0: Mega Knight at tile [8, 6], centre of his own half, once he has read the opponent as Mega Knight Balloon — "with the executioner, I knew for sure that he had [Mega Knight] balloon" (t=39-41). He never puts it at the bridge in this game.
+- t=119.1: Mega Knight at tile [9, 0] behind the King Tower (own elixir 8.0 -> 2.0 at t=120.6) as the anchor of the closing push, with Lumberjack and Minions added behind it (t=129-134).
+- t=143-146: on the receiving end, the opponent's Evo Mega Knight is what breaks his push apart on defence — "the [Evo] mega knight knocking everything away" (t=145).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=964 (clock unreadable): names it as his deck choice for the matchup against Assaf's bait deck — "I did feel like this Mega Knight deck might be my best chance to have a winnable matchup."
+- t=1027 (clock unreadable): states the pairing as the deck's engine — "the deck is just so broken in my opinion. Like Mega Knight Golden Knight is such a crazy combo. Then you have even more broken cards to kind of pair it up with."
+- t=986 (clock unreadable): mentioned in the dash call-out ("Getting the Mega Knight right under the tower") but the broadcast does not resolve which side the Mega Knight on the field belonged to; deploy labels exist at t=962 and t=1064-1065.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)

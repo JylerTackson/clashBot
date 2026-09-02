@@ -127,6 +127,17 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:59 to 0:44: played the death bomb as the real payload, and it doubled as the Bowler answer — "Just try to sneak a giant skelly bomb on the tower" and "the giant skelly bomb actually hits the bowler as well, which is so so good for us." His summary of its role at clock 0:20: "We just need the giant skelly like to kind of tank for our mother witch piggies and slowly chip him down."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card, the threat Ryley defends from t=100 to t=115. First he tries a Golden Knight dash on it hoping the chain carries to the tower ("hoping that the giant skelly would walk a bit more to the right", t=102-106), then he answers it with a defensive Hog Rider at tile [2, 13] so the opponent also has to spend (t=111.1, quote at t=109-125).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card (Sandbox, bridge spam). Ryley's most-spent-on threat in this game: Berserker at t=2058 ("just to make sure to counter that giant skelly"), Rocket at t=2081.6 ("I rocketed the giant skelly as well"), Berserker plus Savage Survival plus Royal Delivery at t=2165-2175 ("I actually did block the giant skelly with the berserker, which is very nice").
+- t=2195-2207: a back-placed Giant Skeleton (tracked at (13, 23), t=2202) is what he should have Rocketed and did not — "here we went for the giant skelly in the back... I got scared of rocketing, man. I just should have rocketed".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

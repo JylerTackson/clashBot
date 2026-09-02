@@ -133,6 +133,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3
 - Mentioned only, never played (it is the opponent's card). clock 1:32: he stacks Evo Skeleton Army plus Valkyrie precisely because of it — "I think that he only has Vines in his deck and Vines in this would only be solid for me". clock 0:50: forcing it out is treated as the win condition of the exchange — "we forced out the Vines, which is really good".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=1043-1049 (clock unreadable): faced on defence against his Golden Knight/Mother Witch push and credited to the opponent — "look at that vines hitting everything except the tower. I thought the mother witch was going to be the one card up. So, that was a little bit unfortunate, but also well played by him kind of keeping the vine."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

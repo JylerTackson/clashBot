@@ -144,6 +144,13 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:51 (t=747-753): names the combo he wants with them — "if I had e-barbs right now, I'd just drop e-barbs arrows at the bridge, to be honest, and I think that it would actually end up working out".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2486-2490: Arrows is a deliberate matchup slot in this CRL deck — "so here we went for a deck with arrows just to have a good chance... we just really needed as many bait counters as possible in this matchup."
+- t=2514.5: Arrows at [6, 26], onto the Princess/Dart Goblin cluster behind the opponent's tower, for damage rather than defence — "I even went for an arrows here just to try to get an early lead. I just love early leads in this type of matchup, because you're just able to get nice sequences out of it if they have to go in overly aggressive" (t=2514-2525).
+- t=2607.6: Arrows at [14, 30] finishing the last push — "I went for the arrows, guys, and I took out the entire tower in one push" (t=2611-2614).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

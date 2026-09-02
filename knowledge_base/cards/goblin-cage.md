@@ -125,6 +125,18 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only, not played (t=1005-1023): the Evo Goblin Cage cycle goes from 1 to 2 - 'Goblin Cage was the only one cycle Evo for four elixir and I do think that it showed in how strong that it actually ended up being. Very very in agreeance with that one.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Opponent card, played at t=342.3 [8, 19] and t=438.4 [9, 18]. Ryley treats it as the hard counter to his win condition and cycles his Skeleton Barrel around it: "here I went for the skelly barrel cuz he had no goblin cage in hand and goblin cage does fully shut me down every time" (443-450s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1751.8, 1793.8, 1839.8 and 1886.9/1893.9/1909.9 (clock unreadable): repeated Goblin Cage labels — it is the deck's only building and he re-lays it every cycle rather than saving it.
+- t=1909.9 and t=1926.9 (clock unreadable): cages laid on defence while he spends everything else on the finish — "I just made sure to cage on defense once again because I knew that I only needed like two more fireballs and two zaps to finish off the game" (1911-1917s), then "I went for another cage here, guys" (1928s).
+- Note: despite the Cage he still called the deck drill-vulnerable at 1886s — "I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

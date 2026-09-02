@@ -129,6 +129,14 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 1:31, 0:47 and OT 1:20: opponent Bomber supports the pushes on both lanes; Ryley's Bats and Magic Archer, both air/ranged, sit outside its splash.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=751.3s: Bomber at (9, 0), behind his own king tower, after a good Fire Spirit trade — "there I got a nice fire spirit jump. So I just went for the bomber here in the back" (750-754s).
+- t=811.8s: Bomber at (3, 11) onto Wall Breakers coming down his left lane — "I'd have to go for the bomber on the wall breakers hoping I only took one which I only did end up taking one" (813-816s).
+- t=846.5s and 888.9s: Bomber used as double-duty cover — "I dropped the bomber for that spear, but I'm like, 'Wait, it's going to counter the barrel, too'" (842-845s), and "I bombed in case he marched. He didn't" (888-890s).
+- t=744-750s: Bomber is his substitute for a real bait spell — "I don't really have that great of a traditional goblin barrel counter, you know, being like a log, a barbarian barrel, or an arrows or something like that."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

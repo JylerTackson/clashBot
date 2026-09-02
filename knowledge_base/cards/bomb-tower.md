@@ -201,6 +201,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 2:25: he uses the Bomb Tower already on the board as his example for the Hero Tombstone sight-range nerf — "say I have a bomb tower here and they have the Tombstone walking right here. The ability will actually just end up going towards your tower, which is pretty good."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Opponent's card, tracked at tiles (8, 18), (6, 20) and (1, 20) across the clip. Ryley considered predicting or blocking it and judged both bad: "I wouldn't have got a good situation out of predicting the bomb tower or just even blocking it cuz the skellies did block the first shot. But it's true unfortunately" (1181-1186s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

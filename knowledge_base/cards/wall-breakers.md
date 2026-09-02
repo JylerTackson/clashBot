@@ -200,6 +200,24 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 0:25 and OT 1:04: switches lanes to the right bridge ([13,15], [14,14]) once the left tower is nearly dead, and the enemy right tower falls 3478 -> 676 across the rest of the game.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=222.2 and t=269.6 (clock unreadable): he pairs Wall Breakers with the Goblin Barrel in the same window rather than sending them alone — "the evil goblin barrel plus evil wall breakers" (t=221-224) — so one cheap answer cannot cover both.
+- t=212-214: on the receiving end he chose to let the opponent's Wall Breakers connect (own right tower 2332 -> 1632) to spend elixir elsewhere: "I decided to ignore the wall breakers and skellies to predict the cannon".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=730-737s (opponent's card): the opponent spends Wall Breakers defending, and Ryley says that is the mistake — "there he did a good defense with the wall breakers. But one thing that I noticed is that in this log bait matchup here, you don't really want to use your wall breakers on defense unless you absolutely have to because the wall breakers are such good pressure for him to tank for the goblin barrels."
+- t=809-816s (opponent's card): answers a Wall Breakers run with Giant Snowball at (3, 6) plus Bomber at (3, 11) — "hoping I only took one which I only did end up taking one which was nice. And as you guys see I was only down 110 damage at this point. So I was actually making a comeback."
+- t=855-862s (opponent's card): a lone Wall Breakers push is what convinces him he has won — "after he dropped those wall breakers, I'm like, 'Hold up. I probably got this.' Because I knew that those wall breakers were going to kind of ruin his pressure for a while and not allow him to get his cycle proper."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Mentioned, not faced on camera in the readable window: Ryley describes them as the opponent's Miner follow-up and as the reason he keeps his Cannon and Ice Spirit in hand - "he would just go for the bat split and then he'd minor wall breakers with it. And I wouldn't have my cannon or my ice spirit for anything" (1165-1170s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

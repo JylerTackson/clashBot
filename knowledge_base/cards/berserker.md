@@ -284,6 +284,39 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - t=965 (overtime): [7, 15] at the bridge, the only Berserker of the game past his own half. No hero ability is visible anywhere in the match — six plays, all at 2 elixir, no ability commentary — so this is the standard Berserker, not the Heroic variant.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=778.8s: Berserker at (11, 14), at the bridge, purely to body-block a Magic Archer — "I was worried of a mager, so I went for the berserker to block it" (778-782s).
+- t=863.9s: Berserker at (12, 14) again on the Magic Archer, stacked with a second Bomber — "here I just went for the berserker to continue blocking the magic archer just to get a second bomber on top of that just to take it out" (865-869s).
+- t=881-884s: a Berserker held as opposite-lane insurance — "Here I went for the berserker on the spirit just in case he went for a barrel opposite lane" (880-884s).
+- t=658.7s, 689.7s, 699.7s, 745.7s, 747.9s, 807.8s, 820.8s, 845.8s, 906.1s: twelve Berserkers in a 290 s window at 2 elixir each, part of how fast he cycles — "I was getting the cards down so quickly to not get out cycled by this deck" (877-880s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Mentioned only, as the opponent's card he was saving his 1-elixir answer for: "I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker" (1258-1263s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Ian's card, in its Heroic form. Ryley answers it with Barbarian Barrel early — "I barbarian barreled on the berserker" (1415s) — and times his Valkyrie-ability X-Bow kill so the ability never matters: "I knew that if I didn't, then he could just pop the berserker ability" (1557-1560s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1677.7 (clock unreadable): the opponent (Ian) opened with a `BeRseRkeR` deploy label at (8, 12) plus Skeletons. Ryley at 1687s: "he dropped a berserker at the bridge and he dropped skeletons."
+- t≈1699 (clock unreadable): in CRL duel format the same card cannot appear in both of a player's decks, and this Berserker decided the match — "Ian not only repeated Berserker, but he also repeated skeleton. So no matter what happened in this game as a result, I was guaranteed to win the game."
+- t=1919.9 (clock unreadable): Ryley's answer to a Berserker in front of his Lava Hound was simply Fireball — "I fireballed that berserker just trying to get some lava pu[p] spits on the tower" (1921s). (A 2-elixir Berserker drop with a label at (10, 15) is also logged at t=1904.6 with the line "here I went for the berserker here, just making sure to take out his berserker" — the transcript is ambiguous about whose it is, and no commentary indicates the Hero variant or a Savage Survival ability cast.)
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Hero variant (Savage Survival). t=2058: Berserker as the dedicated Giant Skeleton answer — "So here I went for the berserker as well just to make sure to counter that giant skelly".
+- t=2165-2175 (Berserker at [3, 18], elixir 8.0 -> 6.0, plus a Royal Delivery label at [12, 15]): ability used purely to maximise defensive damage — "I actually did block the giant skelly with the berserker, which is very nice. I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible".
+- t=2211: second stated ability use, again on defence — "I just went for the berserker ability". Both ability calls come with a Giant Skeleton as the tracked threat, never as tower damage.
+- Played ~12 times across the clip (t=1963.8 through t=2222.6) at 2 elixir as the cheap tank-killer of a 2.6-elixir cycle list.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

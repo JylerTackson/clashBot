@@ -171,6 +171,28 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock OT 1:55: replays it at [3,13] on the left in overtime as part of the cluster that takes the enemy left tower 2078 -> 1106 in six seconds.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=200.2-203.4: Magic Archer at (3, 14) plus Valkyrie at the bridge for a full 8-elixir dump, timed so the opponent's Cannon could not be placed — "I knew that even though he had cannon in cycle and elixir for it, he couldn't really place it down in time if I just waited till the very last second".
+- t=287.3: in a Magic Archer mirror he cycled his own from the very back of his half at tile (9, 1) while ahead on elixir — "I know that he wants to cycle his magic archer. But if I cycle it first and protect mine because I have the elixir advantage, my magic archer will win the 1v1 because obviously I have more elixir to support it with".
+- t=257-259 and t=309-312: against the enemy Magic Archer he answers with cheap predictive spirits and Skeletons rather than a real counter — "I would just be able to predict the magic arch with my spirits", "I went for the spirit here to keep blocking his magic archer".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=699-712s (opponent's card): a Magic Archer punishes his mistimed Fire Spirit and Knight — "the magic archer instantly targeted, which was very unfortunate", and costs him his right tower down to 2033.
+- t=785-807s (opponent's card): he pays Poison for it every time it appears deep, and explains why the negative trade is correct — "magic archer is still most annoying when at the bridge because I can't like not deal with it at the bridge. Not only do I have to predict it, but if he just has it in cycle, I'll have to keep wasting elixir, but when he puts it low like that, I'm okay with going down, you know, one even to three elixir sometimes."
+- t=778-782s and 865-869s (opponent's card): Berserker plus Bomber is his cheap physical answer — "I was worried of a mager, so I went for the berserker to block it" and "I just went for the berserker to continue blocking the magic archer just to get a second bomber on top of that."
+- t=892-899s (opponent's card): criticises how the opponent used it — "For some reason this game, he dropped like literally zero magic archer at the bridge. And that's definitely not what you want to be doing. He definitely wants to be dropping magic archers at the bridge."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Opponent's card in this match. Ryley's default answer is a quick forward Log: "I went for the quick log here on top of the magic archer and I was already able to get a really nice situation out of this here" (1130-1134s).
+- Declines a King Tower activation because the Magic Archer would not be dragged into it: "I was thinking about trying to activate the Kingar, but I felt like the march was just going to lock to the cannon anyway. So, I didn't really go for it" (1226-1231s).
+- Baits it out with a bridge Mighty Miner - "I mighty mined the bridge knowing he had to go for the magic cartridge" (1307-1309s) - and finally kills it with Evo Cannon plus The Log: "I went for the evo cannon as well, just to take out that magic archer with the help of a log" (1341-1345s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

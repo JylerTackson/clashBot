@@ -279,6 +279,27 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only, not played (t=992-995): 'I mess with it a lot cuz the Evo Barrel is kind of toxic but the regular barrel is kind of weak. So maybe it helps bridge the gap a little bit.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=171.2/194.2/219.2/233.2 (clock unreadable, CRL broadcast): in a log-bait mirror vs Mugi he threw six barrels in 110s, five of them onto the same enemy left Crown Tower at tile (3, 24)-(3, 26), and never spent it on defence — the t=219.2 barrel plus Wall Breakers took that tower from 2074 to 174 HP by t=244.
+- t=216-224: he only barrels after the cheap answer is gone — "forcing out the ice spirit right there, guys, is very important because now it allowed me to go for the evil goblin barrel plus evil wall breakers".
+- t=267.4: re-barrelled the moment the opponent misplayed his Skeletons — "Mugi messed up the skellies which also led him to mess up the wall breaker... and then I barreled here to take out the entire left side tower" (the tower survived at 174 HP).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=713-920s (opponent's card): the Log Bait player's barrel is the thing Ryley cannot cleanly answer — "I don't really have that great of a traditional goblin barrel counter, you know, being like a log, a barbarian barrel, or an arrows or something like that" (744-750s), so he covers it with Bomber, Fire Spirit and Giant Snowball instead: "making sure to keep on taking out the barrel over and over again" (887-888s).
+- t=760-763s (opponent's card): reads an untanked barrel as ignorable — "ignoring the left side barrel because for some reason um he didn't tank it", and at 899-903s spots a back-placed one early: "I saw that the barrel was in the back. So I fire spirited in the back knowing that I would be all right."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Four throws in the readable clip, all cycle-counted against the opponent's Royal Delivery: t=1129.1 and t=1263.3 at (14, 30) on the enemy right tower, then t=1319.3 and t=1341.8/1361.4 at (3, 30)/(3, 28) on the enemy left tower.
+- t=1319.3 (clock unreadable): throws it when he believes the answer is out of hand and gives the opponent credit when it is not - "I went for the barrel as well, just knowing that he didn't have the delivery right away, but he actually did manage to get it down, which is really good by him" (1322-1328s).
+- t=1341.8: the same rule stated as a rule - "I went for the barrel cuz I outcycled the delivery" (1349-1350s).
+- t=1263.3: sends it behind an Ice Spirit as a counterpush rather than as a lone chip play, and it connects (1264-1270s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

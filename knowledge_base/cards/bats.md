@@ -159,6 +159,12 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 0:48 / OT 1:51 / OT 1:13: also used at the left river ([1,15], [6,15], [1,13]) as cheap air cover for the Wall Breakers/Magic Archer chip.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Opponent's card. Ryley plays around a Bats split before it happens: "princess in the middle just thinking that there was a chance that he could go for the bats on top of this guys" (1137-1141s) and "after he let the princess lock, he would just go for the bat split" (1163-1167s); the tracker sees a five-Bat right-lane wave at 1174-1178s, which he answers with an Ice Spirit at tile (15, 10) (t=1177.5).
+- Deliberately does not spend the Ice Spirit on a later Bats wave: "I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker" (1258-1263s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

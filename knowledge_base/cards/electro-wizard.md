@@ -141,6 +141,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 2:09 (opponent): played behind the Bandit at [14, 16] as the support half of their right-lane push; Skeleton Army and Ice Spirit are enough to hold it, and it never reaches the tower.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=1090-1096 (clock unreadable): the defensive placement that wins the game — one E-Wiz resets both enemy threats on a tower in the low hundreds of HP: "And then I went for the Ewiz here, guys. And look, I reset both of them. And I saved my tower to win the game, guys. And I beat Assath in the duel here."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

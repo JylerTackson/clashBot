@@ -115,6 +115,19 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - He flags the wording as genuinely unclear (555-570s): "I wish I could get some clarification on what kamikaze troops mean cuz that's like something that's been confusing me... maybe that means like it won't enchant like, I don't know, like the Goblin Demolisher."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1707.7 / 1710.7 (clock unreadable): first Rune Giant of the clip, labels at tiles (4, 17)-(4, 18), left lane, ahead of any tank — used as a support/buff body, not as the win condition.
+- t=1809.8 (clock unreadable): Rune Giant at (8, 23) sandwiched between two Inferno Dragons behind the Lava Hound. Ryley at 1813s: "Here I went for a rune giant in the pocket just to boost up all my cards again."
+- t=1853.9 and t=1905.9 (clock unreadable): two more at (8, 23); the second opens his closing sequence — "I went for a rune giant here, and I just started fireball cycling in a second" (1908-1910s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2310 (clock unreadable): named as part of the opponent's list — "here he had a lava hound rune giant deck with the Valkyrie".
+- t=2445 (clock unreadable): mentioned in play only, no detector track — its knockback shoves the Heroic Dark Prince's Rhino off the tower on the final push: "the rune giant actually pushed the rhino away and I was able to take the tower guys".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rune_Giant (scraped 2026-09-02T02:35:01+00:00)

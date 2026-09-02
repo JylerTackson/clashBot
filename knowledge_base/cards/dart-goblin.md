@@ -206,6 +206,17 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:05 (t=799-802): the card that forces his Arrows out — "I don't even want to arrows at the evo dark goblin, but I do think that I have to".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- Opponent's card, discussed not played by Ryley: tracked at [6, 25] (t=2492.5), [6, 26] (t=2522.5) and [14, 22] (t=2604.6). It is the specific target of his bridge Royal Ghost — "I went for the royal ghost at the bridge, making sure to take out the dark goblin" (t=2496-2500).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Ten Dart Goblin plays (t=339.3 [8, 13], 407.4 [9, 11], 476.5 [8, 8], 495.5 [9, 13], 515.5 [7, 12], 525.5 [7, 11], 576.2, 585.3, 603.8, 622.6 [10, 11]) — always on his own half, close to the Mortar and the tower, as ranged support rather than a bridge play.
+- He names it in the list of cards that force him into Fireball range: "I have to put my dark goblins near the tower. So, he's always going to be fireball cycling me out, which was scary because I know that he has a way quicker cycle than me" (472-480s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

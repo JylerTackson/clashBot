@@ -144,6 +144,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Played repeatedly by the opponent as the Mortar deck's support (arena detections at clock 1:38, 1:35, 1:30, 0:20 and through overtime at OT 1:51, 1:15, 1:12, 0:48, 0:32).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- t=372.2 (clock unreadable): Rascals at [1, 11] for -5 straight after a Mortar, as the Royal Giant answer — "So, I went for my mortar plus rascals on defense" (374-376s). Rascal units are tracked around his left tower again at 464-490s while the opponent's RG walks the lane (the deploy itself was not logged): "I went for the rascals plus skellies here knowing that I was going to take at least one shot, but I did get a bowler roll, so it kind of made up for it" (483-490s).
+- He plays them spread against the opponent's Fireball: "I went for the rascals up top trying to space them out from the fireball which I actually did very well" (517-522s); a later Rascals label lands at [14, 14] at t=602.6.
+- Named as the first reason he cannot dodge Fireball value in this matchup: "I have to rascals near my tower, right, every single time ... So, he's always going to be fireball cycling me out" (463-477s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)

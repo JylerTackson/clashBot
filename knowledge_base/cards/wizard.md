@@ -167,6 +167,12 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 0:44 (t=940.9): only once ahead in overtime does he put the Evolved Wizard on the opponent's half at tile [8, 21] — "We can get a nice evo wizard in the pocket".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card. Credited with killing Ryley's bridge Princess — "He does grab it with the wizard, which was good by him" (t=2069).
+- Named with Mother Witch as the pair that makes his cheap-swarm defence awkward (t=2044), and he is the unit Ryley is forced to answer with Log plus Ice Spirit after misplacing his Cannon at t=2217-2219.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

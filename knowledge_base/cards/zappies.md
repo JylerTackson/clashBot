@@ -211,6 +211,18 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only; 'Zappies' labels at [9, 19] (t=1291/1294/1297) match the balance graphic, not a deploy. Commentary t=1288-1299: 'Very big fan of the hit speed nerf to the Zappies cuz I have felt like the Zappies were too good for a little bit too long now. I just think that the Zappies got maybe one too many buffs in a balance change.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2458.5: Zappies at [8, 13] on his own half in the opening exchange, immediately after the first bridge Battle Ram.
+- t=2590.6: Zappies at [9, 3], deep behind his towers next to a Mother Witch, as the support that walks up the right lane behind the closing Evo Battle Ram push (tracked at [14, 6] -> [12, 24], t=2598-2608). He never names them in the commentary.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card. The constant chip threat in both lanes (tracked t=1952-1958, t=2022-2034, t=2072-2090, t=2150-2156). Ryley answers cheaply rather than with spells — "I just went for the skellies just to make sure to distract the zappies" (t=2079).
+- t=2148: also answered with a defensive Princess — "I went princess on the zappy. I knew that I would have to protect it".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

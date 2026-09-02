@@ -279,6 +279,31 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.m
 - Its barbarian is what the 2024 detector reports as "barbarian(e)" throughout; the casts themselves are confirmed by commentary at clock 0:47 ("he is back now to the Barbarian Barrel", t=650) and overtime 0:42-0:37 ("he barb rolled anyway, and we get damage", t=771; "he just used the Barbarian Barrel", t=776), each time freeing Ryley to barrel again.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Twelve drops between t=348.3 and t=612.6, most of them rolled through the river lane on the left (repeated [4, 14] / [4, 15] / [3, 15] at t=468.5, 493.5, 536.4, 563.6, 581.6, plus [6, 15] at t=609.4 and [10, 14] at t=593.6).
+- Stated purpose alongside his win condition: "I went for a barbarian barrel as well, just so there would be more skellies on the map when the skelly barrel explodes so the firecracker doesn't go over there" (495-501s).
+- Spell counting: he treats it as one of only two spells either player holds — "I'm up a fireball cuz we both only have fireball and barbarian barrel. So, he needs more damage or else I'm just going to win" (599-605s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1483.5s: label at [9, 8] on his own half; earlier he narrates using it on Ian's Berserker — "I barbarian barreled on the berserker" (1415s), though no event is logged at that time.
+- Named as the Lightning follow-up against a defended X-Bow — "I could just go for the lightning plus barbarian barrel" (1483-1486s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card, mentioned once. Ryley spends Royal Delivery on it rather than holding the spell — "Here I went for the delivery on the barbarian barrel" (t=2004-2006).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2317 (clock unreadable): rolled at [4, 17] as cover for the bridge Dark Prince — "I even barb barrel'd just to have a more supported dark prince" (t=2328).
+- t=2370 (clock unreadable): Barbarian Barrel at [4, 17] with Goblins immediately after the Dark Prince ability — "I instantly went barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound. I knew I'd force out the skeleton dragons there" (t=2372).
+- t=2424 (clock unreadable): the same pair in the opposite lane at [12, 17] with Goblins at [15, 17] — "I even went for the barb barrel plus goblins opposite lane kind of just knowing that he'd have to Valkyrie on the left side" (t=2427).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

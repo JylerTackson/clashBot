@@ -162,6 +162,12 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - opponent card, clock 1:07 to 0:39 (t=104.1s [12, 23], 108.1s, 112.1s, 128.1s, 132.1s): walked down the right lane repeatedly as their splash/slow answer to his Goblin Gang and split Elite Barbarians; Ryley kept meeting it with Dart Goblin plus a spirit rather than a dedicated counter.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1475.5s: Ice Wizard at [8, 2] in the back specifically to walk into the Evo Archers on one side — "Here I went for an ice wizard in the back just to go towards that one side Evo archer" (1477-1481s).
+- t=1578.6s: half of his non-spell answer to a placed X-Bow — "I knew I could just go for a baby dragon plus ice wizard as well, just to take out this X-Bow here" (1577-1582s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

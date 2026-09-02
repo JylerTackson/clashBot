@@ -142,6 +142,14 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - clock 0:16: treats a late Golem crossing to his last tower as a mistake, answering with a Goblin Hut distraction and Barbarian Barrel — "I think that was just bad by him."
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1409.7s (broadcast clock unreadable): opens the readable clip with Golem at tile [8, 2] in the back off a 10 -> 2 elixir dump, justified by his lead — "I thought this was a good golem because I was up so much elixir. Maybe I was up like a good three elixir with a tombstone down" (1419-1423s).
+- t=1493.8s, t=1534.4s, t=1568.6s: three Golems in the middle of his half ([9, 13], [9, 13], [8, 11]) against X-Bow, as a placement rule he states outright — "You always want to put your golem in the middle so they're not able to go for the X-Bow in the opposite lane" (1496-1498s).
+- t=1534.4s: uses Golem as a safety cycle rather than a push — "I just cycled a golem in the middle just to be safe because I didn't really want to, you know, have to worry about anything" (1535-1539s).
+- t=1635.1s: the closing Golem (label at [17, 15], 9 -> 1 elixir) once he is up a Rocket — "here is when I knew that I had probably won. I just cycled my golem here knowing that there was no way for him to really like stop this" (1635-1640s); at 1645s he adds that the Golem was never his worry, his spell cycle was.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

@@ -253,6 +253,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.m
 - Opponent card, the answer to his Goblin Barrel that he plays around all game. Called before the first barrel lands - "I know he's going to go for the e-spirit, but there's nothing I can really do about that, unfortunately" (t=848-850) - and again before the Evo barrel - "He's going to be able to e-spirit log, but I mean it's still good to just get extra elixir" (t=915-918). Detected as an enemy unit at OT 0:53 (t=1054).
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2290 (clock unreadable): 1-elixir defensive reset at [6, 14] during the first Lava Hound push.
+- t=2363/2395/2412/2436 (clock unreadable): thrown in at the river ([14, 18], [10, 17], [10, 16], [8, 16]) as filler alongside the Royal Hogs and Dark Prince pressure rather than held — no commentary on it.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

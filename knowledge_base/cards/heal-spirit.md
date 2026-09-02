@@ -165,6 +165,13 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - Reliability note for this match: four HUD plays read as "Skeletons" (-1 elixir each) sit within 2 s of score-1.0 'Heal SpiRit' deploy labels and are Heal Spirit.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2529.5 (label at [8, 18], behind his Valkyrie): the play he credits with the whole left-side defence — "then I went for the heal spirit. And look at that heal spirit, guys. Just a beautiful, absolutely perfect heal spirit, just completely saving me, making it so I took zero damage on the left side" (t=2531-2540).
+- t=2497.3: 1-elixir Heal Spirit at [4, 8] behind his own defence (elixir 10.0 -> 9.0) while the Royal Ghost worked at the bridge.
+- t=2573.6 and t=2604.6: Heal Spirit at [14, 18] behind the bridge Elite Barbarians and at [14, 17] behind the closing Evo Battle Ram + Valkyrie push.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

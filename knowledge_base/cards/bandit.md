@@ -180,6 +180,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 1:10: he expects it as the follow-up to a bridge push he is barreling through - "He can get maybe like a late Bandit."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=996 (clock unreadable): used offensively as a dash onto the enemy hero Dark Prince, and he grades the trade as unclear — "I did a nice bandit here to dash on top of the dark prince, but for whatever reason, the dark prince still splashes my tower for a ton of damage and he gets the ability off. I got a bunch of damage, too ... I was definitely unsure of who got the better end of this."
+- t=1059.1 (clock unreadable): played on his own half ([7,10]) as a defender he expects to convert into offence — "I went for the bandit here on defense just kind of knowing that I would like need to break through here in the very near future."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

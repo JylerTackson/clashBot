@@ -157,6 +157,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.m
 - clock 0:22 (t=965.0): logs it after Rocketing the push behind it - "Go for the log on the Firecracker just in case I missed it."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Opponent card and the most persistent threat in the game (thirteen tracked appearances from t=348.3 to t=624.6). Ryley answers it with the Bowler and its ability — Bowler at [6, 12] at t=534.0, "I went for the bowler as well just to make sure that I could take out the firecracker. I lined it up pretty well right there" (534-539s), and "I had the bowler ability just to get the firecracker off the board" (546-549s).
+- He also plays around it without spending: Barbarian Barrel skeletons to block the lane before a Skeleton Barrel lands (495-501s), keeping the Bowler unsplashed (581-585s), and refusing a bridge Mortar late — "I damn near morted at the bridge so the firecracker couldn't splash me, bro. I was not taking that risk" (619-624s). It is also the one card that could still cost him the win: "I win the game as long as he doesn't get any firecracker chip" (612-616s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

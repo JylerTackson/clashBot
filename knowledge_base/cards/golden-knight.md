@@ -121,6 +121,21 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only, not played by either side. t=226-234s, on the Ronin bug fix: "if you had a golden knight dashing onto a ronin, it would actually get reflected and the Gold Knight would not dash onto anything. I thought that was intentional, but apparently it was a bug." — i.e. after the fix, Golden Knight's dash should behave normally into Ronin.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=61.1: Golden Knight at tile [8, 9], centre of his own half, into an incoming charge unit alongside Minions at the river (t=63.1).
+- t=82.9: second Golden Knight (HUD 8.0 -> 4.0) as a body against the Skeleton Dragons on the same beat the opponent committed a Balloon — "I went for a card to block the skelly drags and at the same time he went for the balloon" (t=80-85).
+- t=102-106: uses the dash ability on defence against a Giant Skeleton, hoping the chain carries into the tower — "I went for the ability hoping that the giant skelly would walk a bit more to the right and then I could get a nice dash on the tower. Didn't work out that way."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=978 (clock unreadable): dropped at the bridge ([3,17]) against a tank-less enemy push — "right here is when I'm like, hold up. I can just Golden Knight because he didn't have really a good tank for anything."
+- t=986 (clock unreadable): pops the dash on that push and calls it the surprise, not the value — "look at that golden knight dash, guys ... I don't think he expected me to use the ability right there."
+- t=1040 (clock unreadable): plays him defensively on his own half ([3,12]) while his left tower is at 492 HP — "I knew that if he pulled off like a miracle defense, I would lose the game. So here I went for the gold knight."
+- t=1074-1088 (clock unreadable): bridge Golden Knight the moment the opponent spends Arrows and runs out of ground cards, then the dash into the enemy Dark Prince finishes the tower — "So I popped the ability here to go into the dark prince ... Golden Knight goes right back. And I take out the entire tower." (tracker follows him from [3,19] to [6,27] between t=1080 and t=1086)
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

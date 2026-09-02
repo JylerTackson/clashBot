@@ -144,6 +144,14 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0
 - clock 1:07: supports the barrel with an Ice Spirit dropped behind it — "we need to go for the Ice Spirit in the back for the Skeleton Barrel" (105-108s) — and credits the opponent when they answer it exactly: "They did actually fix the perfect Ice Spirit timing on the Skeleton Barrel, if I'm not mistaken" (113-116s).
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Evolved in this list ("the Evo skelly barrel", 490-493s) and used only offensively: the arena tracker follows one of his barrels from [17, 14] to [14, 27] at 378-386s, and unattributed 3-elixir steps at t=471.3, 498.2 and 590.6 line up with the throws he narrates (the HUD icon reader logs it as "goblin-barrel" — the two barrels share a silhouette and cost).
+- He times it against the opponent's hard counter's cycle: "here I went for the skelly barrel cuz he had no goblin cage in hand and goblin cage does fully shut me down every time" (443-450s).
+- Used as pressure to stop the opponent settling into a spell-cycle plan: "Then, I went for the Evo skelly barrel at the bridge, just trying to keep up the pressure" (490-493s), and he counts the Evo explosion as damage — "I got a skelly barrel death bomb on the tower as well" (523-524s).
+- He is explicit about its ceiling as a win condition: "I only have skelly barrel and mortar ... they're no like minor or anything like that. They're not like a hog rider where you can comfortably always get them to the tower" (435-443s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

@@ -148,6 +148,12 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4
 - clock 1:13 (t=913.9): Minions into the pocket behind Evo E-Barbs and Rage, and they are what finishes the tower — "Evo Barbs are on the tower. Minions are on the tower... He's already at 500 HP".
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=63.1: Minions at tile [6, 14], just behind the river, timed onto the opponent's Skeleton Dragons — "that was a crazy timing with the minions and the skelly drags. But thankfully the skelly drags were not splashing. So my minions were able to take out the skelly drags completely" (t=65-73).
+- t=130.0 and t=134.1: holds the Minions a long time in the left lane ([1, 12] then [1, 11]) specifically to dodge a predicted Skeleton Dragon — "I was waiting for him to predict my minions with the skelly drags, but then it never happened. That's why it took so long on the minions" (t=132-137). They are the units tracked on the enemy tower during the closing damage at t=146-148.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

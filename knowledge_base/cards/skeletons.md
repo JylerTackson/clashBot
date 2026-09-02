@@ -300,6 +300,41 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock OT 1:51 / OT 1:04: often follows one Skeletons with a second 1-2 seconds later (t=1554.8 then t=1556.4) when the first pack is eaten immediately.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=184.2-310.3 (clock unreadable): seven deploys, mostly at (14-15, 10-15) on his defended side or at the river, as cycle and chip-blocking rather than as a real counter.
+- t=243-245: named as his fallback defensive pairing when only one spirit is up — "typically I want to have double spirit or spirit plus skellies".
+- t=263-268: he attributes a big swing to the opponent misplaying the same card — "Mugi messed up the skellies which also led him to mess up the wall breaker".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Fifteen Skeletons drops between t=348.0 and t=613.1 — the cheapest cycle card in the list, played both at the bridge ([15, 13] at t=375.4/494.0/543.0/594.9, [15, 14] at t=445.4) and defensively ([7, 7] at t=348.0, [4, 15] at t=402.9, [2, 15] at t=468.6, [7, 0] at t=509.5).
+- Used to get the Heroic Bowler locked on: t=398.9 and t=402.9, immediately after the Bowler at t=391.7 — "I went for the quick skellies here to make that, you know, jump and then my bowler got both the skellies because of that" (402-408s), generalised at 421-427s as "if you can quickly drop your spirit or something like that, then you can quickly get a lock on the tower."
+- Defensive filler behind Rascals in the late brick-wall phase: "my skellies were putting in work as well. So I was kind of making like a brick wall on defense" (539-543s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- t=1188.0 (clock unreadable): Skeletons at tile (14, 8) alongside The Log onto an incoming Miner - "I went for the Skellis Plus log here on top of the minor" (1186-1189s).
+- t=1254.3: Skeletons at (6, 11) purely as a body in front of his Princess - "I did a nice skelea block for that princess as well. Just getting a bunch of value" (1255-1258s).
+- t=1296.3: Skeletons at (14, 3) as a Miner prediction that lands - "I went for the skellies to predict the minor here" (1290-1292s), "and then I actually did get it" (1301s).
+- Accepts them failing as a cheap loss: against a Bomb Tower, "the skellies did block the first shot. But it's true unfortunately" (1183-1186s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t≈1689 (clock unreadable): played by the opponent alongside the opening Berserker — "he dropped a berserker at the bridge and he dropped skeletons" (1687-1691s) — and it was the second illegal repeat: "but he also repeated skeleton" (1701s). Ryley did not play Skeletons himself in this clip.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2079 (Skeletons at [7, 10]): one-elixir screen against Zappies chip — "I just went for the skellies just to make sure to distract the zappies".
+- t=2106 and t=2131: part of the cheap defensive chain in a hold that cost him no tower damage — "So I went for the skelly as well", "here I went for the skellies".
+- t=2151 (Skeletons at [4, 17]): used to bodyguard his own bridge Princess — "I went princess on the zappy. I knew that I would have to protect it. So, I went for the skellies".
+- t=2213 (Skeletons at [8, 17]): paired with the Evo Princess in the endgame defence — "I even went for the skellies plus evo princess here".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

@@ -254,6 +254,27 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 1418-1432s: "The Evo princess will now slow every other attack instead of every three attacks. And the slow duration is getting a nerf because of that... from 7 seconds to 5.5 seconds, which is definitely a very big overall buff because there will just be more slows from the princess overall."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- Opponent's card in this game (tracked at [7, 24] t=2472.5, [4, 20] t=2484.5, [15, 21] t=2592.6). Ryley only mentions Princess as his own card from an earlier game of the series — "we used log and delivery in the first game with the princess as well, where this deck that he's playing is really weak against princess" (t=2471-2478).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- t=1109.9 (CRL broadcast, clock unreadable): opens the readable clip with Princess at tile (9, 9) on his own half, elixir 10 -> 7, then keeps a middle-lane Princess alive with fresh copies at (8, 11), (8, 10) and (8, 9) between t=1136 and t=1197.
+- t=1235.9-1301.8: stacks Princesses at (9, 11), (8, 12), (8, 12) and (8, 13) (three clean HUD 3-elixir steps). He places them to dodge the opponent's Log and to survive: "I just went for the Evo Princess here. Just making sure to get more value out of it going for the log" (1250-1253s); "I went for the evil princess here just to keep that princess alive. And I actually was able to keep that alive, guys. It was insane" (1302-1305s).
+- t=1223.4 and t=1324.7: Princess at (8, 2), deep in the centre behind his own King Tower, when he wants board presence without exposing her to a Log or a Miner.
+- Names the evolved Princess as the reason the deck is playable again: "this deck is back after the addition of the Evo Princess. And I wasn't kidding by the way" (1145-1150s), and credits "the princess stack just having two princess on the board" as one of the two things that made the game unloseable (1361-1363s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2007-2008 (Princess label at [15, 17]): Evo Princess snuck to the bridge behind a Royal Delivery — "I tried to sneak in a nice evo princess at the bridge at the final second".
+- t=2066 (Princess at [14, 18]): the condition he attaches to bridge Princess plays — "because I had a free cannon on the board, I also knew I could princess the bridge. He does grab it with the wizard, which was good by him, but it's still good to make these plays in my opinion. Just trying to get some, you know, slick damage on the tower here and there".
+- t=2145-2148 (Princess at [2, 17], then [2, 18] at t=2163.2): defensive Princess into Zappies — "I went princess on the zappy. I knew that I would have to protect it".
+- In this Rocket-cycle list the Princess is his only sustained chip damage: she is played ~9 times, both behind his own towers (t=1972 [11, 3], t=2044 [8, 7], t=2212 [10, 9]) and at the bridge.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

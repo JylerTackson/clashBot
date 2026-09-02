@@ -179,6 +179,21 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only; the 'Royal Delivery' deploy labels at [13, 3] (t=1272/1275) coincide with the on-screen balance graphic and are not treated as a play. Commentary t=1269-1287: 'Royal Delivery has just been too good for too long now and it's kind of like the staple of all of these decks that have like crazy cycle cards and shouldn't really get away with it... making it so impossible to break through.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Opponent's card and the single card Ryley's Goblin Barrel plan revolves around; the auto-transcript renders it "the delivery" and the arena tracker logs the lone Royal Recruit it leaves behind at tiles (14, 20), (14, 15), (3, 18) and (4, 22) (see the match file's Data gaps).
+- His stated bait-deck plan against it is to outcycle it: "I was just playing very passive, kind of trusting my defense, and knowing that I can outcycle him with the delivery throughout the game, just kind of get some nice damage" (1231-1238s).
+- He throws the Goblin Barrel only when he counts it out of hand: "just knowing that he didn't have the delivery right away, but he actually did manage to get it down, which is really good by him" (1322-1328s) and "I went for the barrel cuz I outcycled the delivery" (1349-1350s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2004-2009 (Royal Delivery at [15, 15], elixir 9.0 -> 6.0): used as the answer to the opponent's small spell rather than saving it — "Here I went for the delivery on the barbarian barrel".
+- t=2170 (Royal Delivery label at [12, 15]): stacked with the Berserker Hero ability to burst a Giant Skeleton — "I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible".
+- t=2184 (Royal Delivery at [5, 17]): the same Berserker pairing on the other lane — "So I went for the delivery berserker and I even got a nice ice spirit as well".
+- Played ~6 times in 306 s of readable footage, i.e. treated as a rotating defensive card in a cycle deck, not as a held answer.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

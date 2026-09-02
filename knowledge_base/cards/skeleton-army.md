@@ -186,6 +186,12 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 1467-1473s: mentioned only (not played). Names Evolved Skeleton Army as the reason Goblin Gang fell out of use — "Evo skeleton army was kind of like overshadowing it. Maybe it helps bridge those two cards a little bit more."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- Opponent's card, discussed not played by Ryley: "he starts off with the skeleton army at the bridge" (t=2462), and later an Evolution — "he did a really nice play with the Evo Skarmy. I got a little bit scared" (t=2527-2530).
+- t=2510-2514: Ryley's answer is to drop Mother Witch on top of it for Cursed Hogs, and at t=2588-2593 he keeps it in mind when choosing the Evo Battle Ram push over Elite Barbarians — "He has Skarmy and Dark Prince."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

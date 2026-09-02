@@ -136,6 +136,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - clock 0:55: the opponent's Earthquake, detected at tile [14, 30] on his own half - the only spell he had left for the goblin swarms; Ryley does not comment on it.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=136.1: Earthquake cast on the opponent's half at tile [12, 19] onto their Tombstone, held all game as a surprise — "I just earthquake the tombstone. I don't think he know I had earthquakes" (t=137-139).
+- t=139.1: the spell is sequenced straight into the win condition — Hog Rider at the left bridge in the same breath as the building dies: "So then I instantly went for a hog rider, guys" (t=140-141). (The cast was logged as an opponent play; the commentary overrides that.)
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

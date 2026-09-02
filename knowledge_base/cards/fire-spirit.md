@@ -112,6 +112,21 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 1533s: mentions them in the patch notes — "the fire spirits obviously right are getting that big nerf where they don't connect to the tower which heavily affects the furnace."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=170.2-317.5 (clock unreadable): his most-played card of the game (nine deploys), used as the holding answer while his cycle was awkward — "I just made sure to keep doing fire spirit until my cycle was a bit better cuz typically I want to have double spirit or spirit plus skellies" (t=239-245).
+- t=225.1 with an Ice Spirit at t=224.2: half of the "double spirit" that cleanly answers an incoming Goblin Barrel — "just get a clean defense here on the goblin barrel with my double spirit".
+- t=278.3: added to a Cannon on defence for the "perfect defense" he calls out at t=281.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=699.7s: Fire Spirit at (10, 7) went off early and cost him the exchange — "I went for the fire spirit here. And the fire spirit annoyingly jumped immediately. And I actually noticed it just a second too late that it was going to jump on top. So, I went for the knight and obviously the knight wasn't down in time" (699-710s).
+- t=745.2s and 775.1s: Fire Spirit at (2, 14) then (14, 6) paired with a Bomber — "there I got a nice fire spirit jump. So I just went for the bomber here in the back" (750-754s) and "I went for the fire spirit bomber here and then just cannon on defense" (773-776s).
+- t=899.9s: Fire Spirit at (14, 4), deep behind his own tower, against a Goblin Barrel he had already spotted — "I saw that the barrel was in the back. So I fire spirited in the back knowing that I would be all right" (899-903s).
+- t=858-871s and 908.7s: the standing defensive package is Cannon plus Fire Spirit plus Snowball — "get a cannon plus uh fire spirit snowball on defense" (869-871s), "I went for the fire spirit plus snowball again" (908s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

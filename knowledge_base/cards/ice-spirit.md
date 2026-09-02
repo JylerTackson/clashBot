@@ -272,6 +272,29 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 1:28, 0:42 and 0:03: three uses at [3, 10], [5, 10] and [2, 11], every one of them the freeze added on top of a defence that is already down rather than a standalone answer - "Let's Ice Spirit here as well just to freeze this up and then we can go for a low [Log,] Knight here on top of this."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=224.2 (clock unreadable): with Fire Spirit it is his answer to the opponent's Goblin Barrel — "a clean defense here on the goblin barrel with my double spirit".
+- t=302.3: dropped at (3, 14) in an empty left lane purely as insurance while ahead — "I just made sure to ice on the left just in case. I don't really want to give him any window to change lanes or anything".
+- t=216: on the other side of the match-up, forcing the opponent's Ice Spirit out was the precondition for his own barrel — "forcing out the ice spirit right there, guys, is very important".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Treats having Ice Spirit in cycle as the precondition for using the Cannon at all: "That is because I didn't have my ice spirit in cycle... And I wouldn't have my cannon or my ice spirit for anything" (1161-1170s).
+- t=1261.3-1263.3 (clock unreadable): Ice Spirit at (14, 12) into a Goblin Barrel on the enemy right tower - "I went for the ice spirit barrel here. you know, having the ice spirit counter pushing. Hopefully, I was going to get a hit and then I actually did" (1264-1270s).
+- t=1329.3: Ice Spirit used as a Miner prediction, and he says it missed - "I went for the iceir to predict the minor. He went minor on the other side. I might eat here, but for whatever reason, I didn't catch it" (1331-1335s).
+- Rations it by threat rather than spending it on the first swarm: "I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker" (1258-1263s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2097-2106: singles out one Ice Spirit as the play of the defence — "That was a very good ice spirit as well if you guys noticed cuz he didn't actually end up like splashing the ice spirit. It just ended up defending perfectly" (Ice Spirit at [9, 14], t=2096.1).
+- t=2139 (Ice Spirit at [7, 9]): used to snipe a Mother Witch's curse bomb — "I went for the ice spirit here just to grab that".
+- t=2219: part of the forced clean-up after the Cannon misplacement — "I had to log ice spirit the wizard" (The Log [15, 16] and Ice Spirit [14, 17] at t=2217-2218.5).
+- Played ~12 times (t=1956 through t=2242.6) as the cycle glue that gets him back to Cannon and Rocket.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

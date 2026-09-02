@@ -195,6 +195,14 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 1553-1558s: his verdict — "I don't think the furnace will be any good at all. I think that furnace will actually be one of the worst cards in the game because of this."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2256/2263/2270/2315/2334/2377/2400 (clock unreadable): cycled roughly every 20 s at every depth — [9, 2] and [8, 2] behind the towers while the Lava Hound is out, [9, 10]/[9, 12]/[11, 10] mid-half when he needs the Fire Spirits on defence.
+- t=2420 (clock unreadable): placed high, near the river (deploy label [8, 18]), as an offensive spawner while the opponent is pinned — "I even went for a high furnace here because I knew that he would have to continue defending the piggies, so the fire spirit jumps over the bridge, which is what I was planning" (t=2422).
+- t=2334 (clock unreadable): chosen over spending 3 elixir on the Dark Prince ability — "I kind of felt like I wanted to ability, but I decided against it because I could just go for the furnace here. Get to my Evo furnace" (t=2333).
+- t=2404 (clock unreadable): paired with Goblin Hut so one spell cannot answer both — "since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

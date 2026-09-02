@@ -163,6 +163,21 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - clock 1:13-1:10: the reason the Hound is harmless here - "he doesn't even have any support cards. He used his balloon already."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1799.8 (clock unreadable, CRL broadcast has no readable clock): one Lava Hound, deploy label at tile (8, 23), elixir 8.1 -> 1.1 — the whole game plan rather than a push piece, into an opponent with no anti-air. Ryley at 1669-1683s: "I decided to go for Lava Hound because I did feel like Lava Hound would be pretty like unpredictable for me. I hadn't used a single Lava Hound deck in all of CRL this month... I didn't think that he would end up countering it."
+- t≈1789 (clock unreadable): with the Hound push running he stops defending seriously — "I wasn't trying like crazy hard to defend this because I wanted to get the three crown cuz I knew that Ian's deck had no air defense, which was very like lucky by me."
+- t≈1882-1894 (clock unreadable): he names the Lava deck's blind spot while a Goblin Drill sits in his back — "in this lava deck, even though lava does counter drill, no air defense really hard, I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that. So there was a real possibility that I could choke the game if I wasn't careful."
+- t=1919.9-1921 (clock unreadable): he Fireballs a Berserker specifically so the Hound's death-spawn can connect — "I fireballed that berserker just trying to get some lava pu[p] spits on the tower."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2264-2288 (clock unreadable): the opponent's only clean Hound push, tracked from [17, 25] down to [16, 10] with lava pups at t=2294; Ryley's right tower goes 3052 -> ~1720 while he answers with a second Furnace and Goblins.
+- t=2337-2372 (clock unreadable): his whole plan is to make the Hound unaffordable — "he couldn't really lava hound because I had the evo piggies in cycle", "I don't want to let him get many lava hound pushes, mainly lava pushes with the Valkyrie behind it" (t=2357), "barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (t=2372).
+- t=2390 (clock unreadable): second Hound at [16, 26] -> [16, 21], which he defends with Goblin Hut, Furnace and the pre-placed Dark Prince — "here is when I knew he had an opportunity to go in for a lava, but otherwise I did a really good job at pressuring throughout the game" (t=2380).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

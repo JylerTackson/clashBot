@@ -132,6 +132,13 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - t=259-278s on the reason and the risk: "I think that is to fix the X-Bow where like it will shoot at a skeleton three times and it only needs two times to kill the skeleton, but it would end up like shooting a third time... which is actually I guess a nice quality of life change for the X-Bow players, but it could make X-Bow just a little bit too strong in my opinion if they're not careful."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Ian's win condition all game (the auto-transcript renders it "expo"). The bridge X-Bow at t=1423.4s [15, 19] took Ryley's right tower from 3052 to 1660 HP by t=1438s; Ryley's answer (Baby Dragon + Valkyrie) under-traded and he says so: "after the X-Bow rework, it just wasn't that great of a play. I thought it would be, but that was my mistake right there" (1455-1459s).
+- His anti-X-Bow structure, stated: Golem always in the middle so it cannot go up the free lane (1496-1498s), Tombstone pre-placed centrally to tank it (1572-1576s), Lightning + Barbarian Barrel reserved for a right-lane one (1483-1486s), and Baby Dragon + Ice Wizard as the non-spell answer (1577-1582s).
+- He kills the building rather than defending it, because of the Berserker ability behind it — "I went for the Valkyrie plus immediate ability to take out the X-Bow cuz I knew that if I didn't, then he could just pop the berserker ability" (1556-1560s). Verdict on Ian's placement: "Maybe not the greatest X-Bow by Ian, but... I was happy with this position" (1564-1568s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

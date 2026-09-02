@@ -134,6 +134,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - Mentioned, never played. Named at 350s (clock ~1:05) only as the alternative answer he expected the opponent to have for his first Minion Giant push: "So, he has to poison or fireball this. Okay, he has a fireball. That's unlucky."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=785.0s: Poison at (14, 22), elixir 8 -> 4, onto a Magic Archer placed deep rather than at the bridge — "I really didn't mind just going for these poisons every single time cuz magic archer is still most annoying when at the bridge... when he puts it low like that, I'm okay with going down, you know, one even to three elixir sometimes just to make it so I don't have to like worry about it at the bridge" (786-807s).
+- t=650.6s, 691.7s, 767.8s, 802.8s, 833.8s, 841.8s, 848.8s, 890.9s, 917.9s: nine more Poisons, almost all in the enemy half at rows 19-25 following his left-corner Goblin Drill or chasing the Magic Archer — "I just made sure to poison on the magic archer again" (849s).
+- t=673-676s: names Poison as half of why the Goblin Drill vs Log Bait matchup is winnable — "With the snowball and the poison, I knew that I could still win this matchup if I played well."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

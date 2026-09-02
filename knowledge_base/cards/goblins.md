@@ -141,6 +141,13 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 1446-1450s: mentioned only (not played). Counts the Goblins buff as one of two indirect buffs to Goblin Gang — "the goblin gang got two buffs with the goblins and the spear goblins."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2278 and t=2404 (clock unreadable): cheap defensive drops on his own half at [14, 12] and [15, 12] against Lava Hound support during the two Hound pushes.
+- t=2427 (clock unreadable): offensive Goblins at [15, 17] paired with a Barbarian Barrel in the far lane to punish a committed answer — "he'd have to Valkyrie on the left side and he actually Valkyrie'd, and guys look at these goblins on the right side. He didn't have anything" (t=2427-2436).
+- t=2370-2386 (clock unreadable): Goblins at the bridge alongside the barrel are what deny the Lava Hound — "barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (t=2372).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

@@ -140,6 +140,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, as the card this deck is derived from: "I am playing with royal giant, but instead of the royal giant, of course, I have the [minion] giant" (t=681-686). The list is a Royal Giant cycle shell with the Royal Giant swapped for the new Minion Giant, Fisherman swapped for Cannon and Royal Ghost swapped for Monk.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Opponent card (Reuben, CRL duel). Early Royal Giant tracked on Ryley's half at 380-384s; Ryley dismisses it because it is not evolved — "since his RG isn't EVO, it doesn't actually do anything to go for those early game RGs" (376-383s) — while conceding the support was reasonable versus an unknown deck: "I guess maybe he thought I had minions or something and I could instantly minions on the RG. And if that was true, then he probably would have won right away" (387-393s).
+- Ryley's answers: Mortar + Rascals at t=370.0-372.2, then Rascals + Skeletons + Bowler at [1, 12] at t=480.5 against the RG walking his left lane (t=456.5-460.5, tracked to [2, 9] by 490s); his left tower goes 2988 -> 2203 in that window.
+- t=572.6 (clock unreadable, triple elixir): the opponent places the RG deep at [2, 24] instead of the bridge — "I had a feeling he was going to RG the bridge ... but going RG the back against a bowler in triple elixir maybe isn't always the move because then I just get a free bowler and my bowler will obviously live" (562-579s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

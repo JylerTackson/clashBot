@@ -243,6 +243,19 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 0:07: last Knight of the game at [3, 9], left lane, layered in front of the Inferno Tower on the final Battle Ram.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=83.1: Knight at tile [2, 9], deep in his own left half, as a defensive body during the overlapping Skeleton Dragon and Balloon pressure (deploy label, score 1.0). No commentary on the card itself in this clip.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=754.8s and 756.8s: Knight at (10, 10) and then, 2 s later, a 2-elixir drop with no hand change — this is the Hero Knight's Triumphant Taunt: "So here I went for the knight ability. And then I went for the high cannon" (756-759s).
+- t=821.7s: a second 2-elixir ability drop, this one a misclick while trying to place a Berserker — "I went for the berserker and I tried to spear it but I accidentally didn't get it down as you saw. I clicked on my knight which was okay cuz my drill did get some damage once again" (823-828s).
+- t=908.9s: Knight placed high at (8, 14) as a deliberate damage sponge — "I got a high knight down. Right now I was really worried about a marcher. So I was trying to let everything damage my knight as much as possible" (910-916s).
+- t=699.7s: Knight at (11, 14) arrived too late behind a Fire Spirit that jumped early — "obviously the knight wasn't down in time because it instantly jumped. So, the magic archer instantly targeted, which was very unfortunate" (707-712s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

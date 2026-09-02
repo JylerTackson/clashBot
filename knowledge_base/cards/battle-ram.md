@@ -215,6 +215,25 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 0:38-0:28 and 0:14: his answer pattern is Knight in front, Log on the barbarians, Goblin Gang on top, Inferno Tower behind - "let's go for the knight. We can make sure we take out this Battle Ram", then "I know he's going to get a zap down so we need to get the Inferno Tower to block." He notes the Evo version specifically: "I know he has Evo E-Barbs and Evo Battle Ram though, so that's not going to be a simple task."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2455.5 and t=2468.5 (CRL broadcast, clock unreadable): opens game three of the series with Battle Ram straight into the bridge, labels at tiles [15, 17] and [14, 17] in the right lane.
+- t=2564.2: reaches for Battle Ram as a defensive kite instead of an Elite Barbarians kite and mis-places it at [8, 13], centre-left of his own half (elixir 6.0 -> 2.0). His right tower loses 532 then 266 HP and reads 3052 -> 1613 by t=2568 — "I was debating between Ebarbs kite, but then I decided to just kite the dark prince with the batter... I misclicked at the last second, bro... I lost half of my tower just misclicking" (t=2557-2570).
+- t=2584-2588: names the Evolution as the push he wants in a bait matchup — "now I knew I could set up a really good push with the Evo Batter, because the Ebarbs aren't really that great in this match. He has Skarmy and Dark Prince."
+- t=2600.6: the Evo Battle Ram at [15, 17] is the core of the closing bridge push with Valkyrie, Heal Spirit and Arrows — "I went for the Evo Ram, guys... I took out the entire tower in one push" (t=2601-2614).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=1050-1060 (clock unreadable): evolved Battle Ram sent at the bridge with Royal Ghost purely as pressure while he was behind on tower HP — "knowing that I definitely had to apply a lot of pressure"; the tracker has the evolved ram in the enemy half at [11,25] by t=1060.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card. Answered with a deliberately central, high Cannon — "I went for the cannon in the middle just to make sure that I take out that battle ram" (Cannon at [9, 14], t=2038).
+- Its evolved version is tracked at t=2092-2098 in the push Ryley defends for zero tower damage but five elixir down, prompting his Evolution-tracking lesson at t=2115-2129.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

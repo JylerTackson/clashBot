@@ -201,6 +201,33 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - clock 0:16 (t=156.2s, deploy label at [3, 22]): held all game and finally spent on the enemy left tower and its defenders once that tower was already under 900 HP — it read 482 by t=160s. (A second Fireball label at [3, 21], t=176.2s, falls inside the balance-graphic overlay and is not trustworthy.)
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Eight confirmed Fireballs (t=451.5 [15, 22], 459.3, 513.5, 549.2 [16, 22], 559.2, 584.6 [2, 16], 605.6 [11, 24], 619.6 [13, 25]) — he alternates between holding it for the opponent's Skeleton Dragons ("I had the fireball ready for the skelly drags, but thankfully for me, he does actually let that connect", 451-456s) and taking free tower chip.
+- His rule for the free spell: "I grabbed my free fireball on the tower as well cuz if I ever get a chance to fireball, I do need to be taking it since I don't think that I could have got many other opportunities to spell cycle the tower here" (549-562s); the enemy right tower reads 1944 at 550s and 1737 at 552s.
+- t=584.6 (clock unreadable): Fireball at [2, 16] on a Firecracker at the same tile — a defensive spend he calls a loss on the exchange: "I did have to fireball here which was good by him. So now he is one fireball closer cuz he got a fireball on my tower and I had to fireball on defense which is never all that good" (585-594s).
+- The whole endgame is a Fireball race he tracks by hand: "I take my opportunity to fireball his tower here after he fireballs mine ... So, I win the game as long as he doesn't get any firecracker chip" (605-616s). He wins on tower HP by 52 (622-624s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Mentioned only, as Ian's card: the reason for his scattered Tombstone placements — "the whole reasoning behind that was because of the like potential fireball cycle" (1523-1526s) — and a worry that lifted once the Rocket appeared: "that also meant I didn't have to worry about him going for fireball on the tombstone" (1517-1518s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1919.9 (clock unreadable): Fireball label at (14, 27) onto a Berserker, cast to clear the way for Lava Pups rather than for tower damage — "I fireballed that berserker just trying to get some lava pu[p] spits on the tower" (1921-1922s).
+- t=1933.9 (clock unreadable): the game-ending Fireball, label at (12, 25), with the surviving tower dropping 1925 -> 1188 by t=1938 — "I went for the fireball here, and that was a good game, guys" (1935s).
+- t≈1908-1917 (clock unreadable): he counts the finish out loud before playing it — "I just started fireball cycling in a second... I knew that I only needed like two more fireballs and two zaps to finish off the game."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2329 (clock unreadable): defensive Fireball on his own half at [4, 10] to clear the left-lane answer while the bridge Dark Prince is walking in.
+- t=2349 (clock unreadable): offensive Fireball at [2, 27] on the enemy left immediately behind the split Royal Hogs.
+- t=2441 (clock unreadable): Fireball at [15, 27] on the Skeleton Dragons to finish the game, after counting the tower — "His tower was in a two fireball range so I knew that the odds of me winning this game were very high" (t=2439) and "I went for the ability and the fireball on the skelly drags" (t=2443).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

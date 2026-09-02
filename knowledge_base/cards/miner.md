@@ -166,6 +166,18 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 0:05 and OT 1:38: further Miners on his half at [12,5] and [11,11], both met with cheap bodies (Skeletons/Bats) rather than a spell.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card, a chip attempt on Ryley's half around t=76 (the detector logged it as a Skeleton Dragon 'spawned on own half'). Ryley answered it with a Lumberjack placed on top of it, using the defence as a cycle play — "the lumberjack on top of the miner just to get to my EVO" (t=74-77).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Opponent's card in this match (a Miner deploy label lands at tile (4, 18) at t=1357.4). Ryley expected a Miner onto his Princess early and read that it would not come: "I had a feeling that he wouldn't go for the minor on the princess cuz I know he likes to make these kind of plays. And from just playing against him for years now, I just had a feeling" (1122-1130s).
+- Answers a landed Miner with Skeletons plus The Log - "I went for the Skellis Plus log here on top of the minor" (1186-1189s) - and pre-empts him with Skeletons at t=1296.3 ("I went for the skellies to predict the minor here... and then I actually did get it", 1290-1301s).
+- An Ice Spirit Miner-prediction at t=1329.3 misses because the Miner goes to the other lane: "He went minor on the other side. I might eat here, but for whatever reason, I didn't catch it" (1332-1335s); his Mighty Miner catches it instead, "I caught the miner again, just over and over again somehow" (1345-1346s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

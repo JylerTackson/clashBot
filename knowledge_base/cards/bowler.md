@@ -193,6 +193,14 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - t=1103-1140: 'They are nerfing the Bowler and the Executioner projectile range... 7.5 range to a seven range... the Bowler and the Executioner were basically just magic archers with 7,000 HP, and I will still stand on that. Half of the time when you're against those cards, they are the things that take out your tower, not even like the win condition.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Played as the Heroic Bowler (he says "the bowler ability", i.e. Stone Swish). t=391.7 (clock unreadable): Bowler at [9, 11], elixir 5 -> 0, then two 1-elixir Skeletons at t=398.9 and t=402.9; the enemy right tower reads 2907 at 398s and 2523 at 414s. "I went for the bowler ability because I do know that in this matchup, the only thing that gives him trouble is the bowler ... my bowler got two shots on the tower. So, that was a 500 damage play for me right there" (397-412s).
+- Technique he states for the ability: cheap fast units let you get a lock before the opponent's spirits pull the throws — "I always try to finesse people with the quick spirits cuz people do always use the spirits to, you know, outrun the bowler throws and then fully counter it. So, if you can quickly drop your spirit or something like that, then you can quickly get a lock on the tower" (415-427s).
+- Defensive drops deep on his own half: t=480.5 [1, 12] into the left-lane Royal Giant ("I did get a bowler roll, so it kind of made up for it", 488-490s), t=504.3 [9, 0] and t=569.6 [8, 0] behind the king tower, t=534.0 [6, 12] specifically against splash — "I went for the bowler as well just to make sure that I could take out the firecracker. I lined it up pretty well right there" (534-539s). Second ability use at 546-549s: "I had the bowler ability just to get the firecracker off the board."
+- His rule for facing a back-line Royal Giant with a Bowler in hand: "going RG the back against a bowler in triple elixir maybe isn't always the move because then I just get a free bowler and my bowler will obviously live" (572-579s) — with the caveat that he then plays around the Firecracker, "just trying to make sure that my bowler didn't get splashed" (581-585s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

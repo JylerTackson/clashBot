@@ -191,6 +191,19 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 1349-1358s: he explains the interaction with a defensive building using his own board — "say I have a bomb tower here and they have the Tombstone walking right here. The ability will actually just end up going towards your tower, which is pretty good, I would say."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=22.0: the opponent's Tombstone (tracked around tile [8, 20], replayed at t=92.1 and t=138.1) is what Ryley reads the rest of their deck off — "the second I saw that tombstone, I knew that he had the [Tornado], but it was too late" (t=25-27).
+- t=136.1: he removes it with an Earthquake and immediately sends a Hog Rider into the gap (t=137-141).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1513.5s and t=1537.5s: deliberately varied central placements ([8, 11] then [8, 10]) as spell insurance — "If you noticed, I was doing these weird tombstone placements. And the whole reasoning behind that was because of the like potential fireball cycle" (1520-1526s); he drops the habit once he learns Ian holds Rocket, not a Fireball cycle, for the Baby Dragon (1516-1518s).
+- t=1572.6s and t=1604.6s: Tombstone in the middle as pre-placed siege insurance — "I just went for the tombstone in the middle just to make sure that I tank for a future X-Bow" (1572-1576s), and again late when he judged there was no time for another Golem (1602-1612s).
+- t=1537.5s: paired with the Evo Baby Dragon as a two-lane sweep — "I went for the tombstone and then the [evo] baby dragon here, knowing that I'd be able to take out both of the archers on each lane, which was very nice by me" (1540-1546s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

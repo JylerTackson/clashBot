@@ -151,6 +151,19 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Faced, not played: tracked on Ryley's own half at tile (3, 13) at clock 2:37 and again at (13, 17) at clock 1:32, and on his right tower at (14, 6) at clock 0:13. His answer at clock 2:33-2:32 is Goblinstein (6, 8) plus Tornado (4, 13) plus Royal Delivery (2, 8), an 11-Elixir defence that still leaves the left tower at 2949 HP.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2498.5: Royal Ghost at [2, 17], left lane at the river, aimed at a card rather than the tower — "here I went for the royal ghost at the bridge, making sure to take out the dark goblin [Dart Goblin]" (t=2496-2500).
+- t=2549-2556: rates him as the card log bait cannot answer cheaply — "he didn't really have a good counter for my royal ghost, cuz right here, you know, he doesn't want to waste a dark prince. That's not really like the greatest thing to have to do."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=1050 (clock unreadable): paired with the evolved Battle Ram as bridge pressure while his own left tower sat at 132 HP — "I went for the uh the ghost here plus the evo battle ram knowing that I definitely had to apply a lot of pressure."
+- t=1090.1 (clock unreadable): HUD-exact (elixir 6->3) side-lane Royal Ghost in the closing sequence — "Then I went for the Royal Ghost here on the side."
+- t=998 (clock unreadable): an earlier bridge placement ([4,18]) during the Dark Prince trade that cost him 532 tower HP.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

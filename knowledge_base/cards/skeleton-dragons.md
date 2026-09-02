@@ -151,6 +151,30 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - overtime 0:55: cheap enough that defending with it gives the opponent a free Heroic Valkyrie - "He's going to just Valkyrie there cuz he gets it for free since he's skelly drag." Commentary only; no deploy label.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card, played at t=68.1 and t=72.1 into the left lane. Ryley's Minions answered them cleanly because the splash did not land on the Minions — "thankfully the skelly drags were not splashing. So my minions were able to take out the skelly drags completely" (t=69-73).
+- t=132-137: he then plays around them, delaying his own Minions to dodge a predicted Skeleton Dragon that never came.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Opponent card, played eight times from t=374.4 onward (e.g. [12, 17] at t=408.4, [5, 18] at t=474.5, [5, 19] at t=524.5). It is what Ryley holds Fireball for: "I had the fireball ready for the skelly drags, but thankfully for me, he does actually let that connect, which is going to be nice from him" (451-456s). He labels the opponent's list "RG Skelly Drags. Really aggressive" (371-374s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1748.7 and t=1766.8 (clock unreadable): two Skeleton Dragons drops against a Bomber that had been tracked walking the left lane from (4, 26) down to (3, 13). Ryley at 1782s: "here I went for the skelly drags on the bomber and then I went for the inferno dragon as well."
+- t=1868.9 (clock unreadable): label at (4, 23) used defensively while he is ahead — "So here I just made sure to keep defending and I went for the skelly drags on defense as well, just making sure to take this all out" (1844-1849s).
+- t=1913.9 and t=1928.9 (clock unreadable): two more inside the Fireball/Zap closing cycle — "I went for the skeleton dragons. He did switch it up with the... drill in the back, but it didn't really matter" (1930-1934s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2370-2382 (clock unreadable): used as a forced answer — "I knew I'd force out the skeleton dragons there cuz obviously he didn't want to play anything else" (t=2376); two `skeleton-dragon` tracks duly appear at [4, 18] and [1, 18] at t=2382.
+- t=2441 (clock unreadable): Ryley's closing Fireball at [15, 27] lands on them — "I went for the ability and the fireball on the skelly drags" (t=2443).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

@@ -231,6 +231,20 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - clock 0:07: called for a third set as the closer — "We can just go for the evil piggies and this should just be good game." Only two Royal Hogs commitments in a 176-second window: this is a slow, spawner-led Royal Hogs deck, not a bridge-spam one.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card, referred to as "piggies" in the auto-transcript. Their chip flips the damage lead: Ryley's right tower falls 2842 -> 2683 HP at t=2138-2144 — "here I took some piggies damage, which actually did give him the lead".
+- t=2146-2148: he treats them as the card you must not get lazy against once ahead — "that was kind of the thing that I was talking about with the piggies. You have to be really careful here".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2257/2292/2391/2415 (clock unreadable): five bridge deploys in ~160 s of CRL footage, four into the left bridge at [2, 17]/[2, 18] — used as constant denial against Lava Hound beatdown: "I was being really aggressive in this game just over and over again. I was just constantly spamming him because I don't want to let him get many lava hound pushes, mainly lava pushes with the Valkyrie behind it" (t=2351).
+- t=2346 (clock unreadable): split piggies to the right bridge at [10, 18] after four left-lane deploys — "Here I went for the split piggies" (t=2348).
+- t=2337 (clock unreadable): keeping the Evo cycle available is itself the defence — "he couldn't really lava hound because I had the evo piggies in cycle and he still had to deal with the furnace", and it protects his spawners too: "he couldn't really spell my furnace away because he had to watch out for the evo piggies" (t=2342).
+- t=2415 (clock unreadable): hogs deployed at [2, 18] into the opponent's Fireball rather than before it — "He fireballed and I timed it with the piggies very nicely" (t=2418).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

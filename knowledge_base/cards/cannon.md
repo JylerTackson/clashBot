@@ -237,6 +237,36 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - tracked on the opponent's side throughout (t=1015, 1041, 1101, 1113, 1133, 1193, 1213, 1249, 1259, 1275) as their defensive building; it is the reason his Wall Breakers pairs go to the bridge rather than straight down a lane.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=276.3 and t=296.5 (clock unreadable): placed reactively in the middle-right of his own half at (10, 10) and (10, 9), always backed by spirits — "I just dropped my double spirit with the cannon and I got a perfect defense there. That was kind of nasty" (t=281).
+- t=203-208: he plays around the opponent's Cannon by timing his bridge push to the last second, on the read that a Cannon dropped late arrives too late to matter.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=767.9s: Cannon placed high on his half, elixir 7 -> 4, to clear a whole push at once — "then I went for the high cannon. Just making sure to take that all out and ignoring the left side barrel because for some reason um he didn't tank it" (757-763s).
+- t=913.9s: Cannon at (11, 9), low, while at 0 elixir under heavy pressure — "I did the cannon really low" (917s), part of the sequence he calls "it actually got very scary for a second" (904s).
+- t=662.2s, 730.7s, 804.0s, 820.0s, 831.8s, 857.9s, 867.9s, 881.9s, 892.9s, 896.9s, 905.9s: a Cannon roughly every 20-30 s at (8-11, 8-14), the backbone of the defence — "just cannon on defense, making sure to get those wall breakers off the board" (775-778s).
+- t=683-689s (mentioned, not played): the Evolved Cannon is the evolution he actually wants in this matchup — "I do like the Evo Cannon for defense... Whereas the Evo cannon, I just have to play really, really good defense and I'll be able to take it that way."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Holds the Cannon rather than cycling it, and states the rule at 1159-1172s: "you guys may be wondering why I deny cannon. You always see me do that on ladder. That is because I didn't have my ice spirit in cycle. And after he let the princess lock, he would just go for the bat split and then he'd minor wall breakers with it. And I wouldn't have my cannon or my ice spirit for anything."
+- t=1157.2-1168.3 and t=1210.2-1219.1 (clock unreadable): places it at tile (9, 11) and (9, 12), the standard pocket 3-4 tiles from the river, as a clean HUD 3-elixir step each time.
+- t=1240.2: plays the evolved Cannon immediately instead of reactively so the deploy barrage catches the whole push - "I got a really good EVO cannon right there. That was just absolutely gorgeous. I hit everything right there with that cannon. I guess he didn't expect me to play it right away or something" (1243-1250s).
+- t=1340.3: Cannon at (9, 15) as his Magic Archer answer, paired with The Log - "I went for the evo cannon as well, just to take out that magic archer with the help of a log" (1341-1345s); earlier he simply keeps it in hand as insurance, "I had the Evo Cannon ready, just chilling here" (1328-1330s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2038 (broadcast clock unreadable): Cannon at tile [9, 14], high and central instead of the usual pocket, to stop a Battle Ram crossing — "I went for the cannon in the middle just to make sure that I take out that battle ram".
+- t=2062 and t=2093: Cannon re-placed at [9, 11] then [8, 10] as the anchor of a two-lane hold against an evolved Battle Ram and a Giant Skeleton; he cycles it purely to always have one down — "I went for a cannon as well, just to make sure I kept everything alive" (t=2155), "then I could just cycle my cannon here in the middle" (t=2176).
+- t=2136: his placement rule against the opponent's splash — "I was doing a good job at lining up my evo cannons with the mother witches".
+- t=2190 and t=2217: both of his stated game-losing errors are Cannon errors — "I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit", then "I misclicked my cannon and I had to log ice spirit the wizard" (Cannon label at [9, 11], t=2216.2).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

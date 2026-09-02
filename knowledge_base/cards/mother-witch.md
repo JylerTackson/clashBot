@@ -204,6 +204,26 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - clock 2:09: a mid-lane Mother Witch at (8, 9) behind the first Battle Ram push, as the follow-up value card rather than a defensive anchor.
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2504.5 / t=2507.5 (labels at [3, 17] and [8, 12]): dropped straight onto the opponent's Skeleton Army so the curse converts it into Cursed Hogs — "right now I went for the mother witch on top of the skeleton army, kind of just knowing that I was going to get some good damage" (t=2510-2514).
+- t=2488-2493: names her as one of the reasons the deck was picked into log bait — "we even had mother witch, valky, ghost. We just really needed as many bait counters as possible in this matchup."
+- t=2588.6: a second Mother Witch from the back at [9, 2] to start a push, which he immediately second-guesses — "here guys, I went for a Mother, which — that was not the greatest" (t=2594).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=974/t=986 (clock unreadable): placed on his own half ([7,9], then [10,11]) as the answer to the opponent's Royal Hogs — "So, I went for the mother witch as well on the piggies." He immediately second-guesses it: "I'm still unsure if this was a mistake even watching this back" (t=994).
+- t=1038.4 (clock unreadable): a second Mother Witch (HUD-exact, elixir 7->3) into his Golden Knight push, but the opponent's Vines blunts it — "I thought the mother witch was going to be the one card up. So, that was a little bit unfortunate, but also well played by him kind of keeping the vine."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card. Named as one of the two cards that make this defence hard — "I knew that defense could get a little bit tricky against mother witch and wizards" (t=2044).
+- t=2136: he handles her with building placement, not spells — "I was doing a good job at lining up my evo cannons with the mother witches"; at t=2132 he adds Log plus Evo Cannon "just to make sure to take out the mother witch".
+- t=2223-2227: her surviving is his stated cause of the loss — "I think it did actually lose me the game because the mother witch didn't die".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

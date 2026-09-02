@@ -267,6 +267,40 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only, not played (t=1059-1075): Evo Valkyrie tornado damage cut 50% - 'it will no longer one shot skeletons or bats. You will have to be getting two swings to take out skeletons and bats, which I think is a fair change. Evo Valkyrie has just been way too strong for way too long now.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=236-247 (clock unreadable): he deliberately held Valkyrie through heavy chip on his own right tower because she is the enabler for his bridge push — "I don't want to be dropping my Valkyrie because of the magic archer lineup... I just made sure to keep doing fire spirit until my cycle was a bit better".
+- t=248.2: broke that rule for a defensive Valkyrie at tile (16, 5) only after counting the opponent's elixir — "you just broke the rule. But I knew that because he wouldn't be able to afford a Valkyrie in front, I would just be able to predict the magic arch with my spirits... he ended up not getting a single hit on my tower".
+- t≈202: used as the front half of a Magic Archer + Valkyrie bridge push (8 elixir in one burst) in the left lane.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2528.4: Valkyrie at [4, 18] on the left (elixir 10.0 -> 6.0) as a deliberate trade-down against an Evolution Skeleton Army — "He did a really nice play with the Evo Skarmy... I went for the Valkyrie here knowing I was going to lose it, and then I went for the heal spirit" (t=2527-2532).
+- t=2563.6: Valkyrie at [14, 11] on his own half covering the right lane during the Dark Prince/Battle-Ram-kite sequence.
+- t=2598.6 with the ability at ~t=2606: bridge Valkyrie at [13, 18] leading the final push, with the Heroic Valkyrie's 3-elixir Wild Whirlwind fired on arrival — "I went for the Valkyrie... I popped the ability my Valkyrie when I went up to the tower" (t=2601-2607). This is the Hero variant (heroes/valkyrie-hero.md).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Played as the Heroic Valkyrie with the ability popped on landing; it is his dedicated X-Bow killer — t=1554.6s label at [3, 18] beside Ian's X-Bow at [1, 19]: "I went for the Valkyrie plus immediate ability to take out the X-Bow cuz I knew that if I didn't, then he could just pop the berserker ability. So, that was a very good defense by me" (1556-1562s).
+- t=1429.4s / t=1432.4s: Valkyrie sent over the river at [14, 17]/[14, 18] onto the bridge X-Bow behind a Baby Dragon; he rates the pair badly afterwards — "it kind of shows that this was not the greatest play in my opinion" (1433-1436s).
+- t=1486.5s and t~1583s: Valkyrie used as a deterrent while he builds — "I even went for a Valkyrie cuz having all this stuff down did mean he couldn't really go in for an X-Bow here" (1488-1492s), "I even went for a Valkyrie at the bridge just to continue protecting. And I went for the Valkyrie ability as well" (1583-1588s).
+- t=1612.6s / t=1623.6s: on offence in triple elixir, the ability plus a Tornado pull is his damage source — "I do a super nice Valkyrie ability plus [tor]nado. And look at that Valkyrie, guys. I got up to the tower because of my tornado... I get some very, very nice damage" (1624-1633s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t≈1887 (clock unreadable): mentioned only, never played — Ryley names Valkyrie as the kind of card his Lava Hound list was missing against Goblin Drill: "I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2389-2398 (clock unreadable): respected before it appeared — "my goal right now was just trying to make sure that his Valkyrie didn't walk up to my tower. I even pre-dark Prince predicting his Valkyrie cuz I knew he had the Valkyrie and I wanted to instantly wipe it out".
+- t=2361 (clock unreadable): the Heroic ability is why he refuses to let a Lava push start — "mainly lava pushes with the Valkyrie behind it because I know that the Valkyrie ability can be crazy".
+- t=2427-2446 (clock unreadable): baited to the wrong lane by Barbarian Barrel + Goblins ("he'd have to Valkyrie on the left side and he actually Valkyrie'd", t=2431), then tracked at [3, 11] grinding Ryley's left tower from 2448 to 1916 while he closes on the other side.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

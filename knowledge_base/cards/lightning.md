@@ -206,6 +206,12 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Not played in this match — named at 678-687s as the benchmark the buffed 5-Elixir Void is measured against: 'a lot of cards in the game that were only able to be taken out by the six Elixir spells like Rocket and Lightning and Clash Royale just wants like experiment with having a lower Elixir cost than six on the spells, but also taking out those units, but not being as effective overall.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Held as the pre-planned X-Bow answer before it was ever cast — "if he went for the X-Bow on the right I could just go for the lightning plus barbarian barrel" (1483-1486s).
+- t=1638.6s label at [14, 25] plus a 6-elixir unattributed drop at t=1641.1s: Lightning on the closing Golem push, with the spell cycle as his real concern — "I wasn't worried about him actually stopping the golem. I was worried about just like him stopping my spell cycle, but I knew that I'd be able to cycle back to another lightning as long as I didn't have to defend an X-Bow" (1642-1652s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

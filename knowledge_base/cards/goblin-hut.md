@@ -162,6 +162,13 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2
 - clock 0:16: used as a pure body-block rather than a value building, in front of a Golem crossing to his last tower — "Okay, he could go to our tower right now. I have to go for the goblin hut here just to distract and we can go for the barbarian barrel."
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2387-2392 (clock unreadable): the hut goes down early in the defensive rotation (tracked as an ally building at [16, 9] from t=2392) — "right here, I went for the early hut. And my goal right now was just trying to make sure that his Valkyrie didn't walk up to my tower".
+- t=2406-2412 (clock unreadable): run as a pair with the Furnace so the opponent's single spell rotation always falls behind — "he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace. So I was able to defend this push very very easily because of that".
+- t=2310 (clock unreadable): he names the deck by it — "I had a nice Goblin Hut Piggies deck".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

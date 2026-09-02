@@ -131,6 +131,20 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - t=1144-1183: 'they're also taking away the crown tower damage from the Goblin Drill. So now there will no longer be any guaranteed damage from just dropping a Goblin Drill on the tower and I am not too sure if I agree with this... I personally think that it is just too much and maybe might need to be reverted in the future if the Goblin Drill usage rate drops too low.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=645s (clock unreadable, CRL broadcast overlay): opens the segment with Goblin Drill in the enemy left corner at tile (2, 22), elixir 8 -> 4, with a Knight at (4, 15) behind it — "this was the first time in the entire tournament that I actually whipped out Goblin Drill... I felt like I could beat any matchup that I got with it. I'm always very, very confident in my drill gameplay. I've been a drill player for a very long time."
+- t=645-891s: every one of his seven drills goes to the same enemy left corner, (2, 22)-(2, 24), never the right lane; the enemy left tower falls 2085 -> 1096 between 816s and 894s off that chip. On the placement: "I went for the drill on the left side cuz I wanted to activate the king tower off of the magic archer" (693-697s), and later "my drill did get some damage once again and I was still only behind about 200 damage" (826-831s).
+- t=713.7s: a second drill at (2, 24) immediately after losing his right tower from 2725 to 2033 — "I also knew that I'd be able to get my damage back just like this with the Evo drill. Evo drill does allow me to be a lot more aggressive and maybe like make up for a mistake here and there. Whereas the Evo cannon, I just have to play really, really good defense."
+- t=679-689s (no play): he would rather have had the other evolution in this matchup — "I was a little bit upset that I had the Evo drill instead of the Evo Cannon. I do like the Evo Cannon for defense... the way that I like to play the matchup, I don't really use drill that often anyways."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1829.8 (clock unreadable): opponent Goblin Drill logged on the bottom half at tile (2, 8); a second drill shows up in the closing minute — "He did switch it up with the... drill in the back, but it didn't really matter" (1930-1934s).
+- t≈1882-1894 (clock unreadable): the drill is the reason Ryley stops hunting a three-crown with a Lava Hound deck — "even though lava does counter drill, no air defense really hard, I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that. So there was a real possibility that I could choke the game if I wasn't careful."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

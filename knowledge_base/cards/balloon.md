@@ -166,6 +166,12 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - Mentioned, not seen in the readable window: the opponent dumped it at the bridge before the clip starts and Ryley treats that as the game-losing error - "why did he just balloon the bridge in this?" (clock 1:50) and "He used his balloon already" (clock 1:10), which is why he is willing to commit Inferno Tower and Knight to the Hound with nothing held back for a Balloon.
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card. t=85-98: committed while Ryley was spending on the Skeleton Dragons; a Rage effect advances up the left lane from t=86 and his left tower loses 640 HP at t=94.1 and 240 HP at t=98.1 (2847 -> 1967). He had already priced it in — "I knew that would be at least one hit from the balloon, but I guess like it's not the end of the world" (t=85-91).
+- t=39-41: he identified the Balloon before it appeared, off the opponent's Executioner — "with the executioner, I knew for sure that he had [Mega Knight] balloon."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

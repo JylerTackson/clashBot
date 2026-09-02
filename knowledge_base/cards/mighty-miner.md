@@ -147,6 +147,14 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - t=203-209s on the size of the change: "It's going from 40 to 43 damage at tournament level, which is pretty cool though, cuz it is my favorite card, but I just didn't think that it needed a buff."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- The card he names the deck after: "I'm standing true to my words and I'm playing Mighty Miner Bait in competitive" (1153-1157s), in a Log Bait shell with Princess, Cannon, Skeletons, Goblin Barrel, Rocket and The Log.
+- t=1304.3 (clock unreadable): Mighty Miner on the bridge at tile (14, 17) purely to force the opponent's Magic Archer out - "I mighty mined the bridge knowing he had to go for the magic cartridge [Magic Archer]" (1307-1309s).
+- t=1224.2 and t=1332.3: defensive placements on his own half at (7, 11) and (5, 9); at t=1356.4 he puts him at (2, 17) one second before the opponent's Miner surfaces at (4, 18) - "I caught the miner again, just over and over again somehow" (1345-1346s).
+- t=1119.1: an early 4-elixir drop at (15, 17) at the river, with ally Mighty Miner units then tracked advancing into the opponent's half at (13, 18) and (13, 20).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

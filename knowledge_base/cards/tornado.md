@@ -176,6 +176,19 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 0:34 and 0:22 (HUD 8.0 -> 5.0, 6.0 -> 3.0): two Tornados in the last 25 seconds of regulation while Guards and a Ram Rider converge from both lanes, each paired with the Bomb Tower or a Royal Delivery on the same tiles.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card; never captured as an event but decisive twice by Ryley's account. t=20-38: it pulls his opening Hog Rider push into the King Tower and activates it — "thinking that he could have a tornado in his deck... unfortunately he did get his king tower up." He treats Tombstone as the tell that the Tornado is there.
+- t=146-155: used on defence at the end, it drags his Lumberjack onto the opponent's own King Tower and Ryley reads it as the opponent losing the game for himself — "he NATO'd my lumberjack onto the king tower. And look at his king tower, guys. I was screaming right here... he three crowned himself."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1550.5s: Tornado at [12, 25] to drag Ian's Archers into his Golem — "And I just [torna]ed the archers into the golem again" (1551-1554s).
+- t=1623.6s: Tornado paired with the Valkyrie ability to pull the tower's defenders and let her connect — "I got up to the tower because of my tornado. Very good nado right there" (1627-1631s).
+- t=1650.6s / t=1651.7s: Tornado again on the closing push while holding a second Lightning — "So here I went for the nado, guys, and I had another lightning" (1653-1655s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

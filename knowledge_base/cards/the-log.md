@@ -241,6 +241,27 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock OT 1:51: The Log at [5,15] at the left river as part of the overtime chip cluster on the enemy left tower.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Uses it forward and pre-emptively on the opponent's Magic Archer rather than saving it for a swarm - "I went for the quick log here on top of the magic archer and I was already able to get a really nice situation out of this here" (1130-1134s), deploy label at tile (14, 17), t=1127.1.
+- t=1188.0 (clock unreadable): The Log plus Skeletons together onto a Miner - "I went for the Skellis Plus log here on top of the minor" (1186-1189s).
+- t=1344.0: The Log as the finisher on a Magic Archer the Evo Cannon had already chipped - "just to take out that magic archer with the help of a log" (1343-1345s).
+- Places his own Evo Princess specifically so the opponent's Log cannot get full value on her: "Just making sure to get more value out of it going for the log" (1250-1253s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Mentioned only, as Ian's card and as good play by the opponent: "He did get a nice log there, though, to make sure he takes out my baby dragon. He was playing really well at this point" (1547-1551s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2013 (The Log at [13, 18]/[13, 17]): pre-committed to Logging a bridge Mother Witch regardless of the opponent's read — "He got a nice mother witch, but I was just going to log this anyways".
+- t=2063 (The Log at [12, 18]): Log plus Evo Cannon as a package to clear the board — "I just went for the log and the evo cannon just to make sure to take that off the board".
+- t=2108 (The Log at [3, 14]) and t=2154 (The Log at [2, 18]): both praised as defensive value — "I got a really good log here on defense as well", "I went for a really good log here".
+- t=2132 (The Log at [6, 14], elixir 4.0 -> 2.0): Log plus Evo Cannon aimed at the Mother Witch — "I went for the evo cannon and the log as well just to make sure to take out the mother witch".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

@@ -183,6 +183,17 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.m
 - clock 1:47: the opponent Zaps and misses Ryley's Goblin Gang, which is the pivot of the whole readable window - "Oh, he just missed his zap" and "He went loon the bridge and did a princess just to miss his zap on the Goblin Gang." At clock 0:44 he plays Goblin Gang expecting the Zap again: "He might go for the zap and then we can just go for the knight here."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1916.9 and t=1935.4 (clock unreadable): Zap labels at (13, 26) and (12, 26), each a 2-elixir drop, always played immediately before the Fireball in the closing rotation.
+- t≈1919 (clock unreadable): the Zap is spent for cycle, not damage — "I did zap first just to help get to the EVO."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2402 (clock unreadable): mentioned, not seen — Ryley says his double-spawner pressure forced the opponent's Evolved Zap out of position: "he had to go for the Evo Zap. And since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

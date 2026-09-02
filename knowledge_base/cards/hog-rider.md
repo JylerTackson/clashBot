@@ -187,6 +187,13 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 0:35 and 0:08: named twice as the threat behind the Battle Ram he is already defending - "We have to watch out for a Hog Rider too though" and "He's going to be able to Hog Rider too." Ahead on crowns and defending, he accepts the chip instead of over-committing: "I don't even care if the Hog grabs one shot. It doesn't even grab a shot though. Beautiful defense." (mentioned and tracked at the very end of the window, not deployed against a full defence).
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=18.0: Hog Rider at tile [1, 15], left bridge, behind the Lumberjack; it reaches the tower (enemy left 3052 -> 2508 at t=32) but he calls the ordering wrong against a Tornado deck (t=20-38).
+- t=111.1: DEFENSIVE Hog Rider at tile [2, 13] on his own half while a Giant Skeleton is walking in — his stated general rule: "I do like to use defensive hog rider sometimes because if you do a defensive hog, then they still have to defend the hog rider itself. So you get a lot of value out of that type of play" (t=117-125).
+- t=139.1: Hog Rider at the left bridge [2, 15] the instant his Earthquake kills the Tombstone — "I just earthquake the tombstone... So then I instantly went for a hog rider, guys" (t=137-141). (Logged as an opponent play by the pipeline; the commentary overrides it.)
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

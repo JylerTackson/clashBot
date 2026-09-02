@@ -169,6 +169,14 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only (t=887-891): the Evolved Mortar benefits from the Goblin damage buff too — "even the Evo Mortar Goblin as well will do a little bit more damage cuz the Evo Mortar does spawn that little Goblin."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- t=370.0 (broadcast footage, clock unreadable): Mortar at tile [9, 10], elixir 10 -> 6, as the answer to an early Royal Giant, immediately followed by Rascals at [1, 11] — "Here he go for RG Skelly Drags. Really aggressive. So, I went for my mortar plus rascals on defense" (371-376s).
+- Fifteen Mortar drops between t=338.3 and t=617.6, thirteen of them at column 7-9 on his own half (e.g. [9, 10] at t=437.3/470.5/578.1, [9, 11] at t=497.5/557.6, [9, 9] at t=532.4): he uses it as a defensive building he re-cycles the moment it expires. He counts it as one of only two damage sources in the list — "I only have skelly barrel and mortar, which are both good, of course, but they're no like minor or anything like that" (435-440s).
+- t=617.6 (clock unreadable): the one forward Mortar at [7, 13] is deliberately NOT at the bridge, to stay out of Firecracker splash while he is ahead on HP — "Honestly, I wasn't taking any risks, man. I damn near morted at the bridge so the firecracker couldn't splash me, bro" (619-622s).
+- Cost he names for the card: it has to sit near his own tower, which feeds the opponent's Fireball cycle — "I also have to like put my mortars near the tower ... he's always going to be fireball cycling me out" (469-477s). Holding a second one in cycle is his insurance against a repeat Royal Giant: "since I had another mortar in cycle I wasn't like super scared" (528-532s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

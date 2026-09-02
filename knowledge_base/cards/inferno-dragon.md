@@ -159,6 +159,13 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - overtime 1:57: the Evolution version forces out his Lightning - "I had to do that just to take out the evo inferno dragon. Otherwise, I think I would have just gotten completely slammed." Tracks recur at t=1094, 1106, 1130, 1135, 1141, 1144 through the overtime pushes.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1807.8 and t=1812.8 (clock unreadable): two Inferno Dragons at (8, 24) and (8, 23) behind the Lava Hound in the same push. Ryley at 1816s: "And then I went for another inferno dragon. I knew that if he really wanted to, he would be able to keep on defending."
+- t≈1859-1862 (clock unreadable): aimed at the king tower while chasing a three-crown — "I went for the inferno dragon on the king tower because like I said I did really want the three crown if possible. He was making it really hard to get it."
+- t=1887.9 and t≈1903-1905 (clock unreadable): a late one at the bridge purely as a closing play — "I went for the inferno dragon at the bridge as well, kind of just knowing that, you know, this game was over."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

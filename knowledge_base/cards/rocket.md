@@ -184,6 +184,27 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Not played in this match — named at 678-687s alongside Lightning as the six-Elixir spells that used to be the only answers to certain units, the role the buffed 5-Elixir Void is now meant to partly take over.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- t=1332.5 (clock unreadable): one confirmed cast, a clean HUD 10 -> 4 step (a 'Rocke' deploy label at tile (16, 28) was also read around t=1308.3).
+- Hovers the Rocket as a bluff while not actually holding it: "That's why I had my rocket hovered for a second. It looked stupid cuz why would I have a rocket? Which I didn't. But, you know, it's just to... have it in my head that I didn't know what he was going to do. just like a little mind trick to tell myself that I got this" (1310-1320s).
+- Names "the rocket cycle" alongside his Princess stack as the reason the opponent could not come back (1358-1363s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Mentioned, not played by Ryley — the card that broke his game plan when he spotted it: "there is when I realized he had a rocket, which was kind of unfortunate. My whole like plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (1509-1516s).
+- Being up a Rocket is his win signal — "right now, I was up rocket. So, here is when I knew that I had probably won" (1633-1637s) — and he counts the Rocket-on-tower as elixir he made Ian spend: "not only did he have to defend and distract, but he also had to rocket my tower" (1656-1660s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2081.6 (elixir 10.0 -> 4.0): Rockets a Giant Skeleton on defence and defends the risk out loud — "I knew that this might be a little bit risky, but I did think that I would be able to defend, but I also knew that like sometimes I need to do plays like that otherwise my hand is just going to be way too awkward to try and defend here".
+- t=2196-2207: declines the Rocket on a back-placed Giant Skeleton (no 6-elixir drop in the window) and calls it the losing decision — "I got scared of rocketing, man. I just should have rocketed. And I don't know why I didn't... I chose not to because of the like I thought I could just rocket at the end".
+- t=1950-1957: names the whole list after this card — "I started off here with this rocket cycle deck... I just felt like any matchup I trust my defense, I can win".
+- t=2228-2232: forced into it far too late — "I had to rocket, but on top of having to rocket, I still had to defend everything".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

@@ -168,6 +168,14 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - Opponent card, reaching his left tower around clock 1:20-1:16 alongside the Lava Hound. Ryley's stated point at clock ~0:59 is that his Mother Witch's real job in that defence was to tank it so the Zappies survived: "the mother witch would have been tanking for the baby dragon. Good defense though, very good defense."
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1428.6s (5-elixir drop, hand unread): Evo Baby Dragon answering Ian's bridge X-Bow, backed by a Valkyrie — the trade he later calls a mistake: "I do get some damage back here... my baby dragon does get on the tower nicely, but I just really thought that I was going to get more damage than he did... that was my mistake right there" (1445-1459s).
+- t=1532.5s: Baby Dragon at [8, 9] behind a Tombstone to clear the Evo Archers in both lanes (1540-1546s); at 1501-1503s he calls holding it back "a nice Evo baby dragon ready".
+- The whole game plan ran through it, and Ian's Rocket took it away: "My whole like plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (1511-1516s); The Log also sniped one at 1547-1550s.
+- t~1618s: Baby Dragon on the closing Golem push, misplaced by his own account — "here I went for an evo baby dragon, but I actually messed it up, guys. Look at this baby dragon" (1618-1622s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)
