@@ -126,7 +126,9 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
         for c, cf in zip(s["own"].get("hand") or [], s["own"].get("hand_conf") or []):
             if c and cf >= 0.6:
                 hand_cards[c] += 1
-    own_deck = [c for c, _ in played.most_common()]
+    # deploy labels are far more reliable than hand reads: label-confirmed
+    # cards rank first, then HUD plays by count
+    own_deck = sorted(played, key=lambda c: (-(played_label.get(c, 0) > 0), -played[c]))
     for c, n in hand_cards.most_common():
         if c not in own_deck and n >= 30 and len(own_deck) < 8:
             own_deck.append(c)
