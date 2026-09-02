@@ -145,3 +145,24 @@ Status: see the Phase 4 report in the session log. Real-video validation (ROI
 tuning, detector accuracy, fps, deck-tracker replay, elixir drift) requires a
 downloaded match; YouTube currently blocks this session's IP with a bot check,
 so `scripts/download_videos.py --cookies cookies.txt` is the way in.
+
+### Video pipeline (Ryley videos -> match context -> knowledge base)
+
+```
+scripts/download_videos.py --cookies data/cookies.txt   # CR-only, H.264, subtitles, resumable
+tools/batch_process.py                                   # per video: match scan -> tower calibration ->
+                                                         # perception (HUD 10 fps, deploy-label OCR 2 Hz,
+                                                         # KataCR units ~0.7 Hz) -> runs/videos/<id>/match_<n>/
+                                                         #   states.jsonl, summary.json, context.json, context.md
+tools/dispatch_matches.py list|assign|done|status        # hand finished contexts to agents
+scripts/kb/AGENT_INSTRUCTIONS_MATCHES.md                 # what the agents write: knowledge_base/matches/<id>-m<n>.md,
+                                                         # marked "Creator insights" blocks in cards/ and decks/
+```
+
+Deployment identity does not depend on the unit detector: the game draws a
+"<Card> lvl N" label at every deployment (both players) and `cr_perception/labels.py`
+OCRs it, so cards newer than the 2024 detector weights still reach the agents
+with a tile. Own plays are attributed from the HUD (slot emptied + elixir
+drain) and get their tile from that label; a label that contradicts a hand
+read (e.g. Berserker read as Fire Spirit) wins when its cost explains the
+elixir drop.
