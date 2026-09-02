@@ -5,7 +5,7 @@ archetype_primary: bridge-spam
 archetype_secondary: none
 classification_source: agent
 classification_rationale: Bandit, Battle Ram and the Heroic Valkyrie are dropped at the bridge off counter-pushes with no tank and no slow build-up, and Ryley states the plan outright at t=98: "we are playing bridge spam so we can always counter push off of that".
-avg_elixir: n/a
+avg_elixir: 3.75
 rating: n/a
 usage: n/a
 wins: n/a

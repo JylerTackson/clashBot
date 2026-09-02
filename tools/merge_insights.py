@@ -73,8 +73,12 @@ def new_deck_file(deck_key: str, ins: dict, names: dict, cards_idx: dict) -> str
     slugs = ins["deck"].get("cards") or []
     if len(slugs) != 8:
         raise ValueError(f"{ins['key']}: new_deck needs deck.cards (8 slugs)")
-    costs = [cards_idx.get(s, {}).get("elixir_cost") for s in slugs]
-    known = [c for c in costs if isinstance(c, (int, float))]
+    known = []
+    for s in slugs:
+        try:
+            known.append(float(cards_idx.get(s, {}).get("elixir_cost")))
+        except (TypeError, ValueError):
+            pass
     avg = round(sum(known) / len(known), 2) if len(known) == 8 else "n/a"
     fm = {
         "deck_key": deck_key, "display_name": nd.get("display_name", "Ryley deck"),
