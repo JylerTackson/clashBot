@@ -1,0 +1,117 @@
+{
+  "key": "eEwTOkVPoFM-m0.6",
+  "match_file": "matches/eEwTOkVPoFM-m0.6.md",
+  "video_title": "Ronin Made This Log Bait Deck 100X MORE BROKEN",
+  "cards": {
+    "goblin-barrel": [
+      "t=1242.6s (clock unknown, OCR failed all video): evolved Goblin Barrel at tile [3, 25] on the left tower, elixir 8.0 -> 5.0, played off a cycle count rather than the board - \"just barrel here because he has no barbarian barrel and no goblins in [cycle]\" (1243-1245s); enemy left tower 4400 -> 4225 HP.",
+      "t=1271.3s: barrel at [14, 25] into the OTHER lane paired with Wall Breakers at [2, 15] - \"Let's Evo Barrel like this then Wall Breakers\" (1272-1274s); the pair takes enemy left 3457 -> 2754 and right 4858 -> 3706 HP. He rates the evolution itself: \"We already have the Evo Barrel. Cycling to it already is actually just absurd\" (1267-1270s).",
+      "t=1368.4s: barrel used to force a specific answer so the follow-up lands - \"Barrel on this side here cuz he's going to Barbarian and then he has to block for the Magic Archer\" (1371-1374s).",
+      "t=1399.4s and t=1417.4s: two more barrels at [3, 26] as pure tempo while the enemy left tower falls 1949 -> 164 HP - \"Just barrel here again. Just keep up the pressure. Just want to keep being as aggressive as possible\" (1398-1401s), \"Just barrel here cuz he's spamming everything\" (1418s). Seven Goblin Barrels in 200 seconds, six of them on the same tower."
+    ],
+    "wall-breakers": [
+      "t=1239.2s (clock unknown): evolved Wall Breakers split in his own back line at tile [7, 0] as a bait/cycle play, not a push - \"Let's wall breaker split in the back and then just barrel here\" (1239-1243s).",
+      "t=1273.3s: Wall Breakers at [2, 15] in the opposite lane to the barrel, placed for spell geometry - \"I like to do it over here so it's a bit harder to line up the Barbarian Barrel\" (1274-1277s); \"Bang, let's go. Very good damage\" (1278-1280s).",
+      "t=1361.7s at [15, 14] behind a Royal Delivery: \"Let's go for the Delivery here and then we can go for the Wall Breakers as well and this is just going to be a guaranteed double connection even Barbarian won't stop it\" (1360-1365s).",
+      "t=1393.4s at [2, 15] sequenced against the opponent's spell budget - \"quickly evil [Evo] wall breakers cuz if he fireballs then he can't afford defense to the wall breakers\" (1392-1396s); the Fireball did clip them: \"Oh, no, it clipped them. That's unlucky\" (1396-1398s)."
+    ],
+    "ice-spirit": [
+      "t=1264.4s (clock unknown): Ice Spirit at [16, 14] as the last 1 elixir of a Royal Delivery + Fire Spirit defence on a Skeleton Barrel - \"Let me go for the ice spirit as well just to take no damage\" (1265s), then \"Good defense\" (1267s).",
+      "t=1297.3s: a single Ice Spirit at [8, 14] is his whole answer to three Minions - \"Okay. Just Ice Spirit up top\" (1296s).",
+      "t=1318.3s: Ice Spirit at [4, 14] specifically to deny a king-tower activation against the Mortar - \"I'm not going to let him activate the king cuz I'm going to go for the Ice Spirit here\" (1319-1322s), then \"Nice. Let's go. We blocked the king activation\" (1326-1327s).",
+      "t=1343.3s and t=1404.2s at [15, 10]: spirits spent so the building stays in hand - \"we want to go for the Ice Spirit as well so you don't have to waste a Bomb Tower on defense\" (1339-1342s)."
+    ],
+    "fire-spirit": [
+      "t=1262.8s (clock unknown): Fire Spirit at [15, 14] with Royal Delivery and Ice Spirit against a Skeleton Barrel for zero tower damage - \"Let's go for the fire spirit. Let's delivery here\" (1263-1264s).",
+      "t=1288.3s: Fire Spirit at [10, 13] laid in front of the Ronin as the cheap second layer - \"Can just Okay, Fire Spirit and then Ronan\" (1287s), then \"Very good defense\" (1291s).",
+      "t=1308.3s at [8, 5] and t=1353.4s at [7, 15] on defence against the Mortar push and the bridge Rascals - \"Just Fire Spirit here on defense\" (1311-1312s); against the Cannon Cart he wants it for speed: \"Let's Fire Spirit as well. Take out the Cannon Cart quickly\" (1334-1337s).",
+      "t=1407.7s at [14, 10] alongside the Ice Spirit on the three-Rascals push - \"Fire spirit we need the ice spirit as well\" (1403-1405s). Nine Fire Spirits in the game, every one of them defensive."
+    ],
+    "royal-delivery": [
+      "t=1256.3s (clock unknown): Royal Delivery at [15, 14] pre-empting the Skeleton Barrel he called two seconds earlier (\"He could skelly barrel on the right side though\", 1255s).",
+      "He states the card's role in the deck at 1229-1237s: \"Usually these aggressive magic archers will go unpunished with the royal delivery in your deck. Royal delivery is just such a broken and strong defensive unit\" - it is why he is willing to play a bridge Magic Archer at t=1219.2.",
+      "t=1359.4s: holding it is itself defence - \"He could go for an aggressive Rascals but we have Delivery one card away so I'm not really too scared\" (1281-1285s); when it goes down he counts the spawned Recruit as part of the answer: \"That Recruit grabs one and if it grabs one then that takes it out\" (1368-1371s), with Minions on the field at t=1363.4.",
+      "t=1402.7s at [4, 13] against a three-unit Rascals push, elixir 5.0 -> 2.0 - \"Delivery here\" (1403s). Six Royal Deliveries in 200 s, all on his own half."
+    ],
+    "magic-archer": [
+      "t=1219.2s (clock unknown): Magic Archer at the bridge, tile [3, 15], elixir 7 -> 3 on the opening exchange - \"I'm going to magic archer the bridge. Even though this is really aggressive, I just don't think that I can get punished for it\" (1219-1224s). The Fireball answer still lost the opponent value: \"he fireballs and we get a free 400 damage on the tower\" (1225-1227s), enemy left tower 4858 -> 4400 HP.",
+      "t=1314.3s at [2, 12]: the piercing shot kills a Mortar sitting at [9, 16] without walking into it - \"I think I want to Magic Archer this. Just to take this out for no hits. Perfect\" (1314-1318s).",
+      "t=1389.4s and t=1420.4s: bridge Magic Archers as an un-defendable finisher while the opponent is out of cycle - \"he still has to defend the Magic Archer. I'm still being so annoying with the Marcher, man\" (1376-1379s), and \"I just don't think he can defend the magic archer. I'm just going to magic archer the bridge predicting the barb barrel\" (1420-1423s), immediately before \"that's going to be good game\" (1424s).",
+      "Possible hero variant, unconfirmed: four own 2-elixir drops with no hand change (t=1263.8, 1332.3, 1399.4, 1421.8) fit the Heroic Magic Archer's 2-elixir Triple Threat ability, two of them within seconds of a Magic Archer deploy label, but Wall Breakers also cost 2 and the commentary never names the ability."
+    ],
+    "bomb-tower": [
+      "t=1252.3s (clock unknown): Bomb Tower at [8, 12], dead centre of his half, after he talks himself out of a prediction placement - \"I was going to bomb tower to predict him, but I guess I can just bomb tower here in the middle like this\" (1252-1255s), with the opponent's Mortar landing at [6, 16] three seconds later.",
+      "He treats it as the card he would rather not spend: \"we want to go for the Ice Spirit as well so you don't have to waste a Bomb Tower on defense\" (1339-1342s).",
+      "t=1409.4s at [11, 14] holds the opponent's biggest push of the game while the enemy left tower drops to 376 -> 164 HP - \"We have the bomb tower here. This should blow up everything. What a bomb tower placement, guys\" (1411-1414s)."
+    ],
+    "ronin": [
+      "t=1289.1s (clock unknown): Ronin at [12, 13], elixir 7.0 -> 2.0, behind a Fire Spirit as the defensive mini-tank - \"Can just Okay, Fire Spirit and then Ronan\" (1287s), then \"Very good defense. Ability wouldn't really do too much. Ronan's still going to live regardless\" (1291-1294s).",
+      "t=1356.5s at [8, 10], chosen by lane rather than by target - \"Let's Fire Spirit here or for the low Ronan opposite because he might Cannon Cart at the bridge\" (1354-1358s), with Rascals and a Little Prince crossing.",
+      "t=1385.4s deploy label at [4, 14] on the left, alongside \"Still want a royal knight at the bridge. Help take this out\" (1386-1388s) - the transcript's \"royal knight\" most likely being the Ronin. In this log-bait list he is the only card above 4 elixir and is used purely as the defensive anchor that then walks forward."
+    ],
+    "mortar": [
+      "Opponent's win condition (Evolved). Tracked at [6, 16] t=1255.3, [9, 16] t=1311.3 and t=1383.4, [15, 17] t=1357.4, [14, 16] t=1421.4. Ryley identifies the archetype from it at 1246s: \"Okay, he has mortar bait. That's going to be some damage.\"",
+      "He answers it with a Magic Archer pierce rather than a building or a walk-in - \"I think I want to Magic Archer this. Just to take this out for no hits\" (1314-1316s) - and respects the evolution: \"He has Evo Mortar in hand though. Have to be really cautious of the Evo Mortar\" (1349-1353s). He also plays around it activating his king tower (1319-1327s)."
+    ],
+    "barbarian-barrel": [
+      "The opponent's answer to his Goblin Barrel, and the card the whole game is measured against. He scouts it first: \"Okay, he has the barbarian barrel\" (1217-1219s); offsets his Wall Breakers for it - \"I like to do it over here so it's a bit harder to line up the Barbarian Barrel\" (1274-1277s); and declares the turning point at 1300-1301s: \"I did out-cycle his Barbarian Barrel.\"",
+      "t=1420.4s: he finishes the game predicting it with a bridge Magic Archer - \"I'm just going to magic archer the bridge predicting the barb barrel\" (1422-1423s)."
+    ],
+    "goblins": [
+      "Mentioned only as an opponent card, never seen on the field in this game. Their absence from the opponent's cycle is what green-lights his barrel spam: \"Fireball, barb barrel, and goblins. That's an interesting deck\" (1237-1239s), \"just barrel here because he has no barbarian barrel and no goblins in [cycle]\" (1243-1245s), and \"he has no Goblins to cycle either so he probably has to Fireball this\" (1302-1304s)."
+    ],
+    "fireball": [
+      "Opponent's spell, never captured as an event but named repeatedly. Used on his bridge Magic Archer at 1225s, which he counts as a win: \"he fireballs and we get a free 400 damage on the tower\" (1225-1227s).",
+      "He sequences his own plays around the opponent's Fireball budget: \"he probably has to Fireball this and then I can just go for the Evo Wall Breakers at the bridge\" (1303-1306s), \"if he fireballs then he can't afford defense to the wall breakers\" (1394-1396s) - though at 1396-1398s it did catch them: \"Oh, no, it clipped them. That's unlucky.\""
+    ],
+    "skeleton-barrel": [
+      "Opponent card, called before it lands twice - \"He could skelly barrel on the right side though\" (1255-1256s), \"Yep, there's the skeleton barrel\" (1258s), \"Skelly Barrel again\" (1298s) - and tracked at [15, 7] at t=1264 and [15, 9] at t=1342.",
+      "Answered for zero damage with Royal Delivery at [15, 14] (t=1256.3), Fire Spirit (t=1262.8) and Ice Spirit at [16, 14] (t=1264.4): \"Let me go for the ice spirit as well just to take no damage\" (1265s)."
+    ],
+    "rascals": [
+      "Opponent card, tracked at t=1251.2, 1255.3, 1259.3, 1393.4 and as a three-unit push t=1394-1406. Ryley holds Royal Delivery for them rather than reacting: \"He could go for an aggressive Rascals but we have Delivery one card away so I'm not really too scared\" (1281-1285s).",
+      "t=1358s and t=1391s: \"Okay, Rascals at the bridge\" (1358s) and \"He's going to rascals\" (1391s) - both answered with spirits plus Royal Delivery at [4, 13] (t=1402.7) so the Bomb Tower stayed in hand."
+    ],
+    "minions": [
+      "Opponent card, predicted twice before it lands - \"He's going to Minions\" (1294s, three minion tracks t=1295.3-1299.3) and \"he might Minions\" (1334s) - and answered with a single Ice Spirit at [8, 14] (t=1297.3): \"Okay. Just Ice Spirit up top\" (1296s).",
+      "The second wave (t=1363.4-1369.4) is handled by the Royal Delivery Recruit: \"That Recruit grabs one and if it grabs one then that takes it out\" (1368-1371s)."
+    ],
+    "cannon-cart": [
+      "Opponent card, named four times but never confirmed by a detector track. He plays around it activating his king tower (\"He might try to Cannon Cart but that won't activate the king tower, I don't think\", 1320-1323s), wants a Fire Spirit on it (\"Take out the Cannon Cart quickly\", 1336-1337s), and picks his Ronin lane for it (\"for the low Ronan opposite because he might Cannon Cart at the bridge\", 1354-1358s).",
+      "At 1375-1377s the opponent spends it instead of the expected Barbarian Barrel: \"He decides to Cannon Cart instead cuz that but he still has to defend the Magic Archer.\""
+    ],
+    "little-prince": [
+      "Opponent card, one detector track crossing on the left at [2, 15] (t=1353.4). Not discussed on the transcript; it arrives during the Fire Spirit + Ronin defensive rotation at t=1353-1357."
+    ],
+    "electro-wizard": [
+      "Opponent card, one detector track at [14, 15] (t=1417.4) during their final scramble, which Ryley reads as panic: \"Just barrel here cuz he's spamming everything\" (1418-1419s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-royal-delivery-wall-breakers",
+    "cards": [
+      "bomb-tower",
+      "fire-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "magic-archer",
+      "ronin",
+      "royal-delivery",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Video title and framing: \"Ronin Made This Log Bait Deck 100X MORE BROKEN\" - classic log bait (Goblin Barrel + Wall Breakers double win condition, Ice Spirit/Fire Spirit cycle) with Ronin as the mini-tank and Royal Delivery + Bomb Tower as the defensive core. Goblin Barrel and Wall Breakers are the two evolution slots (\"We already have the Evo Barrel\", 1267-1270s; \"the Evo Wall Breakers at the bridge\", 1305s).",
+      "Piloting pattern in this game (video seconds; the clock OCR failed all video): every defensive rotation is immediately converted into a barrel. Goblin Barrel at t=1242.6, 1271.3, 1300.3, 1329.3, 1343.3, 1368.4, 1399.4, 1417.4 - seven of the eight on the left tower - with Wall Breakers in the opposite lane at t=1273.3, 1304.3, 1343.3, 1361.7, 1393.4, 1410.6. Enemy left tower 4858 -> 164 HP; his own towers only reach 4583/4070.",
+      "Defence is done entirely with the four cheap cards so the win conditions stay free: Royal Delivery six times, Fire Spirit nine times, Ice Spirit seven-plus times, Bomb Tower only three times - \"we want to go for the Ice Spirit as well so you don't have to waste a Bomb Tower on defense\" (1339-1342s). Ryley names Royal Delivery as the card that makes the aggressive Magic Archer safe: \"Usually these aggressive magic archers will go unpunished with the royal delivery in your deck\" (1229-1233s).",
+      "The deck wins by cycle arithmetic against another bait deck: \"I did out-cycle his Barbarian Barrel and he has no Goblins to cycle either so he probably has to Fireball this and then I can just go for the Evo Wall Breakers at the bridge and if he mortars he's just completely in a terrible cycle I think for the rest of the game\" (1300-1310s). From that point the barrels are unanswerable and he never stops: \"Just keep up the pressure. Just want to keep being as aggressive as possible\" (1398-1401s).",
+      "Ronin's job in the list is narrow: two to three plays (t=1289.1 [12, 13], t=1356.5 [8, 10], t=1385.4 [4, 14]), always as the defensive mini-tank on his own half that then walks forward, and chosen by lane against the expected Cannon Cart (1354-1358s). The Magic Archer slot may be the Heroic Magic Archer - four unattributed 2-elixir drops match Triple Threat - but the commentary never confirms it."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Log Bait",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel and Wall Breakers are twin cheap win conditions whose whole purpose is to overload the opponent's small-spell and swarm answers, with a 1-elixir spirit pair to cycle back to them.",
+      "why_it_works_md": "The two evolved bait cards (Goblin Barrel, Wall Breakers) attack the same tower on rotation, so the opponent must hold a small spell and a swarm answer at all times or lose the tower in pieces. Because Royal Delivery, Fire Spirit, Ice Spirit and Bomb Tower cover air, ground swarms and buildings between them, Ryley almost never has to spend a win condition on defence - which is why he can play a Magic Archer at the bridge as early as t=1219 and treat a Fireball answer as a profit (\"he fireballs and we get a free 400 damage on the tower\", 1225-1227s). Ronin replaces the traditional Knight as the mini-tank: 5 elixir buys a much stronger defensive body whose parry punishes the melee answers bait decks lean on, at the cost of a heavier cycle. Against another bait deck the plan is explicitly a cycle race - out-cycle the Barbarian Barrel and the Goblins, then barrel every rotation (1300-1310s)."
+    }
+  }
+}

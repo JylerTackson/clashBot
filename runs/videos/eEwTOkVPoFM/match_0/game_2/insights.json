@@ -1,0 +1,96 @@
+{
+  "key": "eEwTOkVPoFM-m0.2",
+  "match_file": "matches/eEwTOkVPoFM-m0.2.md",
+  "video_title": "Ronin Made This Log Bait Deck 100X MORE BROKEN",
+  "cards": {
+    "goblin-barrel": [
+      "clock unknown (video 440.4s): barrels the *left* tower at (3, 26) while sending an Ice Spirit right — \"I want to fake Barrel on the left just to try to trick him a bit. Let's go for the Evo Barrel Ice Spirit here.\" Enemy towers read 4858/4858 at 444s and 3514/3857 by 450s: \"Look at that left side damage, guys. We're already back in the lead.\"",
+      "clock unknown (video 522.5s): Barrel on the enemy left tower paired with Wall Breakers at (13, 13) on the right two seconds later — \"Let's go for the Evo barrel then wall breakers opposite lane just to keep up the pressure. He has to log the left and then the right side.\" Enemy right falls 4298 -> 3011 across 526-532s.",
+      "clock unknown (video 606.6s, 623.6s, 640.6s, 647.6s): late-game he barrels on cycle at (14, 24)/(14, 25) — \"we have to go for another Goblin Barrel, as well. Just keeping up the pressure\" (607s) and \"Wait, we we out-cycle this log\" (646s).",
+      "Nine Goblin Barrel deploy labels in the 292s segment, split between (14, 26)/(14, 25)/(13, 25)/(14, 24) on the right and (3, 26) on the left — lane choice is used as a bait tool against the opponent's single Log."
+    ],
+    "wall-breakers": [
+      "clock unknown (video 428.6s/430.4s): a pair at (13, 10) and (13, 15), elixir 4 -> 2, played purely to drag out the Log — \"we can just go for the Wall Breakers just to force him to log so he can't go for the Marcher immediately\" (430-432s); at 435s \"Yeah, he goes for the late log.\"",
+      "clock unknown (video 524.4s): Wall Breakers at (13, 13) into the lane opposite a Goblin Barrel; one connects — \"Yo, the wall breakers the wall breakers give me one. Oh, nice. Let's go. We got it. We needed that\" (528-532s), enemy right 4298 -> 3011.",
+      "clock unknown (video 575.6s): a pair at (3, 14) that deals no damage, which he still counts as a win — \"We didn't get any damage, but we forced out a lot of elixir, and we can try to protect our Magic Archer\" (580-583s).",
+      "clock unknown (video 619.6s): defensive use at (10, 13) as bat kiting — \"We have to Wallbreaker kite these bats\" (619s)."
+    ],
+    "magic-archer": [
+      "clock unknown (video 483.5s, 509.5s, 533.5s, 572.6s): repeated deep placements at (8, 0) and (8, 4), behind or beside his own King Tower — \"go for the magic archer in the back right now. I need to start stacking up magic archers\" (483-487s); \"Let's go for a low archer here to take out these bats\" (508s, 533s); \"we can go for the low magic archer. I'm not going to put it all the way low\" (569-573s).",
+      "clock unknown (video 551.6s): archer at (2, 14) placed to punish an expected retreat — \"He might step back and we're going to grab even more damage\" (554s), then \"Look at that archer. Beautiful knowing he was going to step back so we could grab some extra damage\" (556-559s). Enemy left drops 3514 -> 2598 across 556-560s.",
+      "clock unknown (video 604.6s, 642.6s, 651.7s): switches to bridge placements at (15, 15) and (13, 15) when he needs damage rather than defence — \"We can march on the bridge right now\" (604s), \"we have to Magic Archer the right side\" (642s).",
+      "clock unknown: the opponent also runs a Magic Archer and Ryley treats it as his main defensive problem — \"you don't have a good cycle to defend that Magic Archer\" (452s) and \"his archer is going to get more value than mine right now\" (548-549s). Whether either archer is the Hero variant could not be confirmed (see the match file's Data gaps)."
+    ],
+    "bomb-tower": [
+      "clock unknown (video 458.5s): Bomb Tower high on his own half at (7, 13) specifically as an anti-Magic-Archer anchor — \"I'll just Bomb Tower here for the Magic Archer. If he goes for the Evo bats, we have the fire spirit\" (459-463s).",
+      "clock unknown (video 493.5s): a second Bomb Tower at (2, 12) on the left — \"then we can go for the bomb tower as well. That's going to help take out his magic archer. We just need to keep mine alive\" (493-497s) — immediately self-criticised at 498s: \"Oh, one tile too low.\"",
+      "clock unknown (video 544.5s, 598.6s, 617.6s, 631.6s): four more placements at (9, 13), (6, 8), (7, 13) and (2, 9), alternating high/central/low — \"we just have to go for a high bomb tower right now\" (544s), \"then we go for the low bomb tower\" (599s), \"Bomb tower all the way up top\" (617s), \"Bomb tower like this\" (632s)."
+    ],
+    "fire-spirit": [
+      "clock unknown (video 402.2s): Fire Spirit at (7, 8), elixir 9 -> 8, as the dedicated Bats answer — \"I'm going to go for the Fire Spirit here just to grab those bats\" (401-402s); it under-delivers, \"Oh no, he gets one bat alive, bro. That is so insane\" (405-408s).",
+      "clock unknown (video 421.4s): again at (3, 14) into a bat pack — \"Let's Fire Spirit here for bats. Come on, maybe splash them. Come on. Uh, we only got two of them\" (420-424s).",
+      "clock unknown (video 513.5s): offensive Fire Spirit at (7, 14) behind a Barrel — \"Fire spirit, too. Okay, nice. That gets two shots off. We'll take that\" (513-516s); at 540s he uses one at the bridge, \"finally going to fire spirit the bridge here. Keep up the pressure.\"",
+      "clock unknown (video 640-649s): in the endgame he pairs it with every Barrel — \"we have to fire spirit barrel here\" (640s) and, on the last exchange, \"Fire Spirit, jump. No, bro\" (654s)."
+    ],
+    "ice-spirit": [
+      "clock unknown (video 373.2s): opens the game with an Ice Spirit at the right river tile (15, 15), elixir 10 -> 9, alongside the first Goblin Barrel.",
+      "clock unknown (video 491.5s, 585.6s): used to shield his stacked Magic Archers — \"Let's ice spirit to protect\" (491s, played at (4, 4)) and \"Ice Spirit here next to it. Let's run it\" (585-587s, played at (5, 10)).",
+      "clock unknown (video 510.0s): offensive Ice Spirit hoping for a tower line-up — \"Go for a spirit here cuz this could line up on the tower if we're lucky\" (510-512s).",
+      "clock unknown (video 624.1s, 648.1s): pure defence and cycle late — \"Spirit for defense\" (624s) and \"Spirit here to block this\" (636s)."
+    ],
+    "royal-delivery": [
+      "clock unknown (video 428.4s): pre-emptive Royal Delivery at (3, 8) against an expected Miner — \"He's going to Miner with this I think. Yep, let's do delivery\" (426-427s).",
+      "clock unknown (video 609.6s): delivery at (5, 15) on defence — \"It's delivery here on defense. He has no marches, so he can't land that up\" (609-611s).",
+      "clock unknown (video 618.1s): delivery at (5, 14), elixir 6 -> 3, aimed at the opponent's Magic Archer — \"We need to go for a delivery here on this Magic Archer. Come on, take this out\" (621-622s).",
+      "Six uses in 292s, every one on his own half at (4, 15), (3, 8), (5, 15) or (5, 14) — it is his only air-hitting reset against the Evolved Bats and the enemy archer."
+    ],
+    "ronin": [
+      "clock unknown (video 413.4s): Ronin at (2, 11) on defence, with his reasoning stated straight away — \"Having the Ronan would be nice to clear out Wall Breakers, but outside of that, they won't really do too much\" (415-418s).",
+      "clock unknown (video 499.5s): Ronin at the left river tile (1, 15) to deny a follow-up — \"Let's just go for the rone in here so we can't drop a second archer. He might step back on us\" (500-503s).",
+      "clock unknown (video 517.5s, 542.5s, 585.6s): more blocking placements at (1, 14) and (3, 5) — \"I'm going to rone in here to block this\" (519s) and \"We have the rone in here for defense\" (543s).",
+      "All six Ronin placements in this game are on his own half or the river row; against this Miner/Wall-Breakers/Log cycle deck he never sends it over the bridge."
+    ],
+    "bats": [
+      "Opponent card (Evolution). clock unknown: Ryley builds three layers against it — Fire Spirit (\"just to grab those bats\", 402s), Bomb Tower (\"If he goes for the Evo bats, we have the fire spirit\", 462s) and low Magic Archers (\"We need to take out these bats\", 594s) — and still loses the tower race to it.",
+      "clock unknown (video 632-636s): the losing read, stated by him — \"I think we're going to lose our tower to the bats in the opposite lane, to be honest. We can[not] really stop them.\" His right tower falls 2862 (630s) -> 1562 (634s) -> 652 (640s).",
+      "clock unknown (video 658s): closing verdict on the game — \"we took too much bats damage, guys. That was close, though.\""
+    ],
+    "the-log": [
+      "Opponent card. clock unknown: Ryley baits it out with Wall Breakers so his Barrel lands clean — \"we can just go for the Wall Breakers just to force him to log so he can't go for the Marcher immediately\" (430-432s), and at 435s \"Yeah, he goes for the late log.\"",
+      "clock unknown (video 522-528s): the split-lane answer to a single Log — Goblin Barrel one lane, Wall Breakers the other: \"He has to log the left and then the right side.\" Repeated at 643-646s: \"He's going to log on one lane, but it's fine... Wait, we we out-cycle this log.\"",
+      "clock unknown (video 394s): he names it as the reason the match-up is hard — \"he's going to be able to really defend easily with having the Log and a bunch of quick cycle cards.\""
+    ],
+    "miner": [
+      "Opponent card. clock unknown (video 426-428s): Ryley pre-answers it with Royal Delivery — \"He's going to Miner with this I think. Yep, let's do delivery\" — and a Miner track appears at t=466.5 (opponent elixir 10 -> 7) and again at 572s.",
+      "clock unknown (video 387s): one of the three cards he names on the opponent's reveal — \"He has Miner, Wall Breakers, Magic Archer.\"",
+      "clock unknown (video 465-466s): he accepts the chip rather than over-defending — \"we're going to take a decent bit of minor [Miner] chip though. Not the end of the world though.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-royal-delivery-wall-breakers",
+    "cards": [
+      "bomb-tower",
+      "fire-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "magic-archer",
+      "ronin",
+      "royal-delivery",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 3 of a seven-game single-deck session (video 370.5-662.5s), against a Miner / Wall Breakers / Magic Archer / Log cycle-bait opponent with Evolved Bats. Recorded as a loss on the lowest-tower tiebreaker (own {left 1423, right 652} vs enemy {left 1809, right 702} at 656-658s); no explicit result call in the transcript, and the in-game clock OCR failed for the whole video, so all timestamps are video seconds.",
+      "The engine is dual-lane cheap pressure: nine Goblin Barrels and six Wall Breakers pairs, deliberately split into opposite lanes so one Log cannot cover both — \"Let's go for the Evo barrel then wall breakers opposite lane just to keep up the pressure. He has to log the left and then the right side\" (523-527s), and later \"we out-cycle this log\" (646s).",
+      "Wall Breakers are used as a Log magnet before the Barrel, not just as damage — \"just to force him to log so he can't go for the Marcher immediately\" (430-432s) — and a whiffed pair is still counted a success: \"We didn't get any damage, but we forced out a lot of elixir\" (580-582s).",
+      "Defence is Bomb Tower plus Royal Delivery with Fire Spirit and Ice Spirit as the cheap resets, while Magic Archers are stacked deep behind the King Tower for chip — \"I need to start stacking up magic archers\" (486s). Ronin is a defence-only body here: all six placements are on his own half or the river row, and he states the limit himself — \"Having the Ronan would be nice to clear out Wall Breakers, but outside of that, they won't really do too much\" (415-418s).",
+      "The weakness the game exposes: the deck's only air answers are Fire Spirit, Royal Delivery and the Magic Archers, and Evolved Bats in the lane opposite his committed defence took the right tower from 4858 (526s) to 652 (640s). \"I think we're going to lose our tower to the bats in the opposite lane, to be honest\" (632s)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Goblin Barrel Log Bait",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel and Wall Breakers are both cheap spell-bait win conditions played into opposite lanes to overload a single Log, with Fire Spirit and Ice Spirit as 1-elixir cycle cards behind them.",
+      "why_it_works_md": "Two 2-3 elixir win conditions that bait the same small spell force the opponent to answer both lanes with one Log. Ryley plays them on a deliberate alternation — Goblin Barrel one tower, Wall Breakers the other a second or two later — so a Log spent on one side leaves the other free, and the Fire Spirit / Ice Spirit pair keeps the rotation fast enough to out-cycle it. Bomb Tower and Royal Delivery cover the ground and air the cheap cards cannot, and Ronin adds a 5-elixir mini-tank whose parry punishes melee defenders, though in this match he uses it purely defensively. The stacked Magic Archers behind the King Tower turn the deck's spare elixir into piercing chip damage without exposing anything to a counterpush. The list's soft spot is massed air: with only Fire Spirit, Royal Delivery and Magic Archer answering flyers, Evolved Bats in the lane opposite the committed defence can out-trade it."
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "key": "eEwTOkVPoFM-m0.5",
+  "match_file": "matches/eEwTOkVPoFM-m0.5.md",
+  "video_title": "Ronin Made This Log Bait Deck 100X MORE BROKEN",
+  "cards": {
+    "goblin-barrel": [
+      "t=1009s (clock unknown, OCR failed all video): opens with a Goblin Barrel on the enemy left tower at tile (2,23) purely as a scouting probe - \"let's just barrel here, try to figure out what he's playing\".",
+      "t=1036-1043s: barrels the left lane again at (3,25) and says why - \"I'm definitely going to go for the Goblin Barrel here on the left side lane, cuz he has the Bowler on the right, unless he has a Knight... We're just going to get a free Barrel off on the tower\"; the enemy left tower drops 4282 -> 3514.",
+      "t=1088s / 1146s / 1166s / 1182s: barrels the same tile (3,25) every cycle, always opposite the Wall Breakers lane - \"we Barrel opposite lane, because we obviously don't want to give him any value with the Barbarian Barrel\" (t=1149s). Enemy left tower ends the game around 611-1190 HP."
+    ],
+    "wall-breakers": [
+      "t=1025s: Wall Breakers at the right bridge (15,14) as an elixir tax rather than for damage - \"let's Wall Breakers here just to force out some elixir\".",
+      "t=1061s: deliberately delayed behind the Magic Archer - \"I will wait a second... go for the Wall Breakers late, and then the Archer can get as much damage as possible on that Inferno Dragon. That's going to be one Wall Breaker connection\"; enemy right tower 4858 -> 4298.",
+      "t=1086s: split Wall Breakers at (8,14) alongside a Goblin Barrel - \"we can just go for the split Wall Breakers, plus Evo Barrel... just going to apply as much pressure as possible\".",
+      "t=1145s and t=1198s: used defensively as a kite - \"Let's Wall Breakers the kite, and then we Barrel opposite lane\" and \"Wall breakers to kite this away\" against the Balloon."
+    ],
+    "magic-archer": [
+      "t=1103-1109s: names it the matchup card against a Lumberloon/Evo Inferno Dragon deck - \"We have to lock in on defence... We need to stock up our Magic Archers, like crazy, cuz Magic Archer is good against him\"; plays them in the back at (6,0) and (8,0).",
+      "t=1062-1070s: Magic Archer at (9,11) held in front of a late Wall Breakers so it keeps piercing the Evo Inferno Dragon - \"the Archer can get as much damage as possible on that Inferno Dragon... from stalling it out\".",
+      "t=1157-1161s: states the cycling rule against Tornado - \"As long as we always have one for his 'nado, then we're good. Cuz by the time he 'nados, of course, we have another one down\"; six Magic Archers go down in ~210 s.",
+      "t=1133s and t=1208s: two more in the back at (1,8) and (1,13) against the Graveyard and the final Freeze push - \"we can get another Archer here, though, cuz he wasted his 'nado\". (Deploy labels read these as 'Archers'; overridden by cost and commentary - see the match file's Data gaps.)"
+    ],
+    "ronin": [
+      "t=1032s: Ronin at the right bridge (17,11) for 5 elixir while the opponent commits elsewhere, immediately followed by a Fire Spirit king activation.",
+      "t=1120s: Ronin at (0,9) as the answer to a badly placed Lumberjack - \"Okay, that was a bad Lumberjack. Let's just go for the Ronin in here. Nice double connection. We take those\"; enemy right tower 3869 -> 2749.",
+      "t=1172s: runs Ronin at (1,14) instead of holding for defence - \"I'm just going to run in here. I'm not even going to bother going for the Magic Archer. I'm just going to march her in the middle again and get a second one down\"."
+    ],
+    "bomb-tower": [
+      "t=1071s: Bomb Tower at (12,3) as the anchor against a Lumberjack + Evo Inferno Dragon push, backed by Ice Spirit, Fire Spirit and Royal Delivery - \"Let's go for the Bomb Tower here\".",
+      "t=1128s: cycled early and centrally at (7,9) in anticipation of the Graveyard that lands at (7,2) - \"Let's cycle our Bomb Tower here early, and there's the Evo E-Drag too\".",
+      "t=1196s: replaced at (7,10) specifically for the Balloon - \"Might loon here. Yep, there's the loon. Let's Bomb Tower like this\"."
+    ],
+    "royal-delivery": [
+      "t=1076s: dropped at (13,13) to finish a right-lane Lumberjack/Inferno Dragon push after Bomb Tower and Ice Spirit - \"and then we can go for the delivery as well\".",
+      "t=1136s and t=1188s: at (2,15) on the left bridge against the Bowler push - \"let's go for the delivery here\" and \"let's Fire Spirit and then delivery\".",
+      "t=1205s: last-ditch delivery at (4,11) into the Evo Inferno Dragon that ends the game - \"Delivery here. Oh no, he's going to get the freeze off with the Inferno Dragon\"."
+    ],
+    "ice-spirit": [
+      "t=1072s: the standard reset on the Evo Inferno Dragon - \"Let's Ice Spirit like this, just to freeze this for a second\".",
+      "t=1139-1143s: Ice Spirit at (1,13) then Fire Spirit at (6,15) to kill the Inferno Dragon - \"Make sure we take out the Inferno Dragon. Nice, beautiful reset on that\".",
+      "t=1178s: kept in hand explicitly for the Inferno Dragon - \"He's going to Inferno Dragon, so it's Ice Spirit for it\"; nine Ice Spirits in the game, nearly all in his own left-lane defensive pocket around (1-2,13-15)."
+    ],
+    "fire-spirit": [
+      "t=1033s: Fire Spirit at (5,4) to activate his own king tower while the opponent commits a tank - \"we can go for the Fire Spirit to activate our king as well. Very good activation\".",
+      "t=1076s: added to a defensive stack to guarantee the kill - \"I definitely want to Fire Spirit, too, just so I don't lose this\".",
+      "t=1115s and t=1141s: paired with Wall Breakers and Ice Spirit for chip and resets - \"We can Fire Spirit the bridge, and then Wall Breakers opposite lane. Just keep being annoying\"."
+    ],
+    "inferno-dragon": [
+      "Opponent card (Evolved). t=1013s: identified from the first push - \"He has the Evo Inferno Dragon... I guess it's going to be lumberloon freeze\"; at t=1124s \"he has the Evo Inferno Dragon. That is very scary\". Ryley never builds a hard counter for it, instead resetting it with Ice Spirit/Fire Spirit and chipping it with Magic Archer.",
+      "t=1208s: the card that ends the game - Freeze plus Evo Inferno Dragon takes his left tower from 4108 to 2222 in the last four seconds: \"Oh no, he's going to get the freeze off with the Inferno Dragon. No, no, no, no, no\"."
+    ],
+    "bowler": [
+      "Opponent card. t=1040-1043s: Ryley picks his Goblin Barrel lane around it - \"cuz he has the Bowler on the right, unless he has a Knight. Yeah, he's Bowlers. We're just going to get a free Barrel off on the tower\".",
+      "t=1047s: absence of the hero version is read as information - \"Him not having the Hero Bowler is a little bit scary, cuz that means he probably has the Hero Balloon\"."
+    ],
+    "lumberjack": [
+      "Opponent card. t=1016s: predicted from the Inferno Dragon opening - \"I guess it's going to be lumberloon freeze\", confirmed at t=1024s \"he definitely has lumberloon\".",
+      "t=1120s: a mis-placed Lumberjack is punished with Ronin - \"Okay, that was a bad Lumberjack. Let's just go for the Ronin in here\"."
+    ],
+    "balloon": [
+      "Opponent card. t=1050s: inferred as the hero variant before it is seen - \"he probably has the Hero Balloon. And Hero Balloon is typically pretty solid against this\".",
+      "t=1194-1198s: answered with a fresh Bomb Tower plus a Wall Breakers kite - \"Might loon here. Yep, there's the loon. Let's Bomb Tower like this. Wall breakers to kite this away\"."
+    ],
+    "freeze": [
+      "Opponent card. t=1016-1022s: named as the thing his list handles worst - \"we don't really have the greatest defence for a balloon freeze push\".",
+      "t=1208s: exactly that happens - \"he's going to get the freeze off with the Inferno Dragon\" - and his left tower collapses from 4108 to 2222 in the last two readings of the game."
+    ],
+    "tornado": [
+      "Opponent card, auto-transcribed as \"NATO\". t=1132-1135s: playing around it drives his Magic Archer cycle - \"we can get another Archer here, though, cuz he wasted his 'nado\"; t=1157-1169s \"As long as we always have one for his 'nado, then we're good... He might 'nado the Wall Breakers though\"."
+    ],
+    "electro-dragon": [
+      "Opponent card (Evolved). t=1129s: noted while he pre-builds against the Graveyard - \"there's the Evo E-Drag, too. All right. Um, I am worried\"; tracked crossing the right lane at t=1027s, 1168-1177s."
+    ],
+    "graveyard": [
+      "Opponent card, seen only by the unit detector at tile (7,2) on Ryley's side at t=1127s; he answers it by cycling Bomb Tower early and centrally at (7,9) - \"Let's cycle our Bomb Tower here early\". Not named in the commentary, so the read is detector-only."
+    ],
+    "barbarian-barrel": [
+      "Mentioned only, never played by either side in this game: at t=1149s Ryley picks the Goblin Barrel lane to dodge it - \"we obviously don't want to give him any value with the Barbarian Barrel\"."
+    ]
+  },
+  "deck": {
+    "deck_key": "bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-royal-delivery-wall-breakers",
+    "cards": [
+      "bomb-tower",
+      "fire-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "magic-archer",
+      "ronin",
+      "royal-delivery",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 6 of 7 in a single-deck session (video t=999-1217 s; the in-game clock OCR failed for the whole video, so all times are video seconds). Opponent played a Lumberloon Freeze list with Evo Inferno Dragon, Evo Electro Dragon, Bowler and Tornado.",
+      "Core loop: Goblin Barrel on the enemy left tower almost every cycle (t=1009, 1036, 1088, 1146, 1166, 1182 s, five of six on tile (3,25)) with Wall Breakers in the opposite lane (t=1025, 1061, 1086, 1115, 1164, 1180 s) - \"Evo Wall Breakers on the right side and then we can barrel on the left here... Just keep being annoying\".",
+      "Lane selection is driven by the opponent's splash: \"cuz he has the Bowler on the right\" (t=1040 s) and \"we obviously don't want to give him any value with the Barbarian Barrel\" (t=1149 s).",
+      "Defence is Bomb Tower plus cheap resets rather than a hard counter: Bomb Tower at (12,3)/(7,9)/(7,10) against Lumberjack, Graveyard and Balloon, with Ice Spirit and Fire Spirit resetting the Evo Inferno Dragon and Royal Delivery cleaning up (t=1071-1076, 1139-1143, 1196-1205 s).",
+      "The deck's stated engine in this matchup is Magic Archer volume - \"We need to stock up our Magic Archers, like crazy\" (t=1109 s) and \"As long as we always have one for his 'nado, then we're good\" (t=1157 s) - six Magic Archers in ~210 s, mostly placed in the back of his own half.",
+      "Ronin is used as a punish/bridge unit rather than the win condition: bridge at (17,11) t=1032 s and (1,14) t=1172 s, defensively at (0,9) against a bad Lumberjack t=1120 s.",
+      "Outcome: chip took the opponent's towers to roughly 611-1190 and 1359 HP versus his own 2222 and 4474, but no tower is ever read at 0 and no result is called; his left tower was collapsing under Freeze + Evo Inferno Dragon as the game ended (t=1208-1213 s), so the match file records the result as unknown with the evidence leaning loss."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Log Bait (Ryley)",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Two bait win conditions (Goblin Barrel and Wall Breakers) played on opposite lanes every cycle, with a cheap 1-elixir spirit shell and no heavy tank.",
+      "why_it_works_md": "The deck wins by never letting the opponent hold a small spell: Goblin Barrel and Wall Breakers are alternated into opposite lanes on nearly every cycle, so whichever answer the opponent keeps, the other half connects. Ryley picks the barrel lane off their splash card - \"cuz he has the Bowler on the right\" and \"we obviously don't want to give him any value with the Barbarian Barrel\" - which turns lane choice into a read rather than a habit. Defensively it is a Bomb Tower shell: the building anchors tanks, Balloons and Graveyards while Ice Spirit and Fire Spirit reset an Inferno Dragon and Royal Delivery clears the leftovers, and Ronin is held as a bridge punish or as a parry answer to a mis-placed melee tank. Against heavy-support decks the stated engine is Magic Archer volume - a fresh one down in the back on nearly every rotation so there is always one available after the opponent's Tornado."
+    }
+  }
+}

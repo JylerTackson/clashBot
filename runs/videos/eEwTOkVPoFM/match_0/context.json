@@ -1,0 +1,112 @@
+{
+ "video_id": "eEwTOkVPoFM",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 170.0,
+   "events": 64,
+   "own_deck": [
+    "goblin-barrel",
+    "royal-delivery",
+    "magic-archer",
+    "fire-spirit",
+    "wall-breakers",
+    "ronin",
+    "bomb-tower",
+    "ice-spirit"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 196.0,
+   "events": 78,
+   "own_deck": [
+    "magic-archer",
+    "ice-spirit",
+    "bomb-tower",
+    "wall-breakers",
+    "goblin-barrel",
+    "royal-delivery",
+    "fire-spirit",
+    "archers"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 292.1,
+   "events": 127,
+   "own_deck": [
+    "fire-spirit",
+    "wall-breakers",
+    "goblin-barrel",
+    "ice-spirit",
+    "magic-archer",
+    "royal-delivery",
+    "bomb-tower",
+    "ronin"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 155.9,
+   "events": 56,
+   "own_deck": [
+    "ice-spirit",
+    "goblin-barrel",
+    "magic-archer",
+    "fire-spirit",
+    "ronin",
+    "goblins",
+    "royal-delivery",
+    "wall-breakers"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 180.0,
+   "events": 60,
+   "own_deck": [
+    "fire-spirit",
+    "royal-delivery",
+    "wall-breakers",
+    "bomb-tower",
+    "magic-archer",
+    "goblin-barrel",
+    "ice-spirit",
+    "ronin"
+   ]
+  },
+  {
+   "match": "0.5",
+   "seconds": 218.0,
+   "events": 92,
+   "own_deck": [
+    "ice-spirit",
+    "royal-delivery",
+    "goblin-barrel",
+    "magic-archer",
+    "fire-spirit",
+    "wall-breakers",
+    "bomb-tower",
+    "ronin"
+   ]
+  },
+  {
+   "match": "0.6",
+   "seconds": 210.8,
+   "events": 87,
+   "own_deck": [
+    "ice-spirit",
+    "goblin-barrel",
+    "fire-spirit",
+    "royal-delivery",
+    "magic-archer",
+    "wall-breakers",
+    "bomb-tower",
+    "ronin"
+   ]
+  }
+ ],
+ "split_method": "tower_hp_reset (clock OCR unavailable)"
+}

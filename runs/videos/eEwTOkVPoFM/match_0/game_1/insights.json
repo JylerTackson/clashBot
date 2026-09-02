@@ -1,0 +1,95 @@
+{
+ "key": "eEwTOkVPoFM-m0.1",
+ "match_file": "matches/eEwTOkVPoFM-m0.1.md",
+ "video_title": "Ronin Made This Log Bait Deck 100X MORE BROKEN",
+ "cards": {
+  "goblin-barrel": [
+   "clock unknown (t=175.0): opens the game by barrelling the enemy left tower at tile [3, 26] straight off 9 elixir; the tower reads 4858 -> 4474 HP seven seconds later.",
+   "clock unknown (t=212.2): barrel at [14, 23] paired with a Fire Spirit at the bridge as the punish for Miner chip — 'We can go for the Fire Spirit plus barrel here to get some of this damage back. Mega Minion we're going to get about three shots maybe four. Come on four. Nice' (t=212-220); enemy right tower 4858 -> 3759 HP.",
+   "clock unknown (t=261.3): Evolution barrel at [3, 26] with the Fire Spirit sent to the opposite lane specifically to dodge the spell — 'We can go for a nice Evo Barrel push. I'm going to barrel like this and we go for the Fire Spirit as well. It's going to be a lot of damage on the left side cuz I think he's going to Zap on the right' (t=260-267). Enemy left tower 3301 -> 2537 HP.",
+   "clock unknown (t=314-318): declines a barrel on purpose — 'I'm not going to barrel here because I do feel like I would give him too much Mega Minion value'; he barrels again at t=325.3, t=338.3 and t=355.4 once the Mega Minion is committed elsewhere, always alternating lanes."
+  ],
+  "wall-breakers": [
+   "clock unknown (t=205.7 tile [10, 11] and t=279.3 tile [3, 14]): used as a defensive kite on his own half, not as chip — 'Then we can just Wall Breaker kite. He might try to Zap so let's just Wall Breakers here. We had to kite the brawler away' (t=204-208), and 'Okay, we can go for the Wall Breakers to kite as well. He has to get a Cage down' (t=277-280).",
+   "clock unknown (t=247.9 [13, 14], t=304.3 [15, 15], t=343.3 and t=363.9 [3, 15]): offensive Wall Breakers are always sent into the lane opposite the Goblin Barrel — 'Let's go for the Ice Spirit barrel here then Wall Breakers opposite lane' (t=326) and 'we Fire Spirit Wall Breakers opposite lane' (t=357).",
+   "clock unknown (t=342-350): he grades them by elixir drained rather than damage — 'We can Wall Breakers again just to pull that back and force out another Goblin Cage. I think he's one card away though'; then 'Yo, Wall Breakers, nice. He spent all that elixir and we got damage' (t=347-351), with the enemy left tower going 1561 -> 565 HP.",
+   "clock unknown (t=302-307): he skips the kite when the opponent has spell value available — 'I do not think I need a Wall Breaker kite this Mega Minion though. Otherwise, he's going to just get a good Fireball here'."
+  ],
+  "magic-archer": [
+   "clock unknown (t=195.2, tile [8, 11]): early defensive Magic Archer against a Goblin Brawler push — 'Let's go for the Magic Archer here early. That's not going to get any damage on the brawler so — Oh, nice. We actually got one. Never mind. I stand corrected' (t=194-200); the pierce hit more than he expected.",
+   "clock unknown (t=222-225): passes on it for tempo reasons — 'Magic Archer would have been an overspend, but it is definitely very very tempting to go for that' — and plays it 14 s later at t=236.4 from his own back corner (tile [16, 2], elixir 10 -> 6) into a Mega Minion that had walked the whole right lane.",
+   "clock unknown (t=294.3-295.3): played early on purpose so a spell cannot catch it with anything else — 'Let's early Magic Archer here. I know he's going to try to get a Miner or a Fireball' (t=295-298). Same deep-placement pattern at t=315.3 [4, 14] ('let's Marcher here on the defense again', t=318) and t=351.2 [1, 9] ('Magic Archer here on defense', t=352).",
+   "clock unknown (t=331.3, tile [14, 2]): the one aggressive use gets punished — 'I'm going to Marcher the bridge here. This is actually going to be — Ooh, good prediction. He actually finally got me with one of those' (t=333-337). In a deck he says has almost no air defence, the Magic Archer is his main answer to Mega Minion and the Evo Inferno Dragon."
+  ],
+  "bomb-tower": [
+   "clock unknown (t=184.5, 195.4, 243.2 [7, 9], 252.6, 290.0 [7, 9], 302.3 [10, 9]): placed pre-emptively in the centre before each push arrives rather than reactively; the t=290.0 placement is his preparation for the Evolution Inferno Dragon he has just spotted ('This is where it gets really scary cuz my deck does not have a lot of air defense, man', t=289-292).",
+   "clock unknown (t=301-303): named as the last layer of a four-card defensive block against the Evo Inferno Dragon push — 'Go for the Fire Spirit and then we can go for the Bomb Tower as well'; the block (Magic Archer, Royal Delivery, Fire Spirit, Bomb Tower) holds and he calls it 'a very good defense right there' (t=312)."
+  ],
+  "royal-delivery": [
+   "clock unknown (t=245.2, tile [2, 12]): the pre-called answer to an Inferno Dragon walking the left lane — 'Okay, I'm going to delivery here and then we can go for the Wall Breakers here as well' (t=246-248), stacked with an Ice Spirit reset and the Ronin.",
+   "clock unknown (t=297.3, tile [2, 14]): second delivery in the same lane as part of the anti-Evo-Inferno-Dragon block.",
+   "clock unknown (t=306.3, tile [12, 10]): used as damage on top of an already-committed push rather than as a reset — 'Let's delivery on top of the [balloon] just to help damage it. Take out the Mega Minion as well. And that's a very good defense right there' (t=308-312)."
+  ],
+  "ice-spirit": [
+   "clock unknown (t=249.7, tile [1, 14]): played as an Inferno Dragon reset inside a stacked defence — 'I do want an Ice Spirit to freeze this and then we can go for the Ronin as well just to help DPS this down' (t=248-254).",
+   "clock unknown (t=325.3 [15, 14] and t=353.4 [9, 15]): sent in front of the Evolution Goblin Barrel as the swarm-clearing escort — 'Let's go for the Ice Spirit barrel here then Wall Breakers opposite lane' (t=326) and 'We have an Evo Barrel here with the Ice Spirit. Let's Ice Spirit like this' (t=354-356).",
+   "clock unknown (t=200.2, tile [8, 12]): cheapest layer behind the Magic Archer during the opening Goblin Brawler defence; seven Ice Spirit spends across a 196 s window make it his main cycle card."
+  ],
+  "fire-spirit": [
+   "clock unknown (t=213.2 and t=262.3, both tile [15, 14]): played in the same second as a Goblin Barrel as the splash that clears whatever answers the barrel — 'We can go for the Fire Spirit plus barrel here to get some of this damage back' (t=212-215) and 'I'm going to barrel like this and we go for the Fire Spirit as well' (t=262-263).",
+   "clock unknown (t=254-259): cancels the Fire Spirit when the defence no longer needs it — 'We definitely have to — Oh, wait, we don't even have to Fire Spirit, which is good. I'm going to let this go, I think. That's going to get two.'",
+   "clock unknown (t=301.3 [14, 5] and t=339.3 [8, 15]): also used defensively inside the anti-Inferno-Dragon block ('Go for the Fire Spirit and then we can go for the Bomb Tower as well', t=301-303) and against a Miner-Zap attempt ('He might try to Miner Zap this. Let's Fire Spirit. Okay, that's fine. That's just a dead push', t=320-324)."
+  ],
+  "ronin": [
+   "clock unknown (t=183.2, tile [8, 0]): deployed deep in his own back as a defensive mini-tank against a Goblin Cage / Goblin Brawler opening, justified by the parry — 'Goblin Brawler is pretty bad against the Ronin so I'm happy to see that I guess' (t=191-193).",
+   "clock unknown (t=251.3, tile [2, 5]): second and last Ronin, again on his own half, as extra DPS on a stacked defence — 'then we can go for the Ronin as well just to help DPS this down' (t=251-254). He never sends it to the bridge in this game.",
+   "clock unknown (t=225-243): his verdict on the card the video is named after — 'How do you feel about the Ronin? I feel like after the Ronin nerf it's not really a crazy card on top ladder, but it's a really good card for people who are either under-levelled or face a lot of Mega Knights and maybe a lot of mid-ladder decks as well, but as far as the top ladder meta goes, I do feel like it's nothing insane, honestly.'"
+  ],
+  "inferno-dragon": [
+   "clock unknown (t=286-294, opponent's Evolution Inferno Dragon; arena tracks at t=196.2, 244.2, 260.3, 324.3): the card Ryley rates as the game's biggest threat — 'he's going to Evo Inferno Dragon though. This is where it gets really scary cuz my deck does not have a lot of air defense, man. The Evo push gets just so difficult to stop.'",
+   "clock unknown (t=245.2-252.6): he answers it with layers rather than one card — Royal Delivery at [2, 12], an Ice Spirit reset ('I do want an Ice Spirit to freeze this', t=248-251), the Ronin for DPS and a Bomb Tower; the same pattern (Magic Archer + Royal Delivery + Fire Spirit + Bomb Tower) repeats at t=294-303."
+  ],
+  "mega-minion": [
+   "clock unknown (t=216-219): he counts its shots on his tower rather than answering it — 'Mega Minion we're going to get about three shots maybe four. Come on four. Nice. Let's go' — while his Goblin Barrel takes the enemy right tower to 3759 HP.",
+   "clock unknown (t=277-280): kited with Wall Breakers on his own half instead of spending a real answer — 'we can go for the Wall Breakers to kite as well'; the same Mega Minion had been advancing since t=266.",
+   "clock unknown (t=314-318): it is the reason he skips a Goblin Barrel — 'I'm not going to barrel here because I do feel like I would give him too much Mega Minion value.'"
+  ],
+  "miner": [
+   "clock unknown (t=210.2, tile [1, 6]): Ryley lets the opponent's Miner chip his left tower (4335 -> 4025 HP over ten seconds) because of what it costs the opponent — 'He's going to get a lot of Miner chip damage, but he still has to defend this with the Zap' (t=209-212).",
+   "clock unknown (t=295-298 and t=320): he plays his glass cannons early to stay ahead of it — 'Let's early Magic Archer here. I know he's going to try to get a Miner or a Fireball' and 'He might try to Miner Zap this. Let's Fire Spirit. Okay, that's fine. That's just a dead push.'"
+  ],
+  "goblin-cage": [
+   "clock unknown (arena track t=178.2, tile [8, 19]): the opponent's main answer to his bait, and the card Ryley spends the whole game trying to drain — 'He has to get a Cage down... Just force out more elixir every single time. I don't think he has Cage in hand though' (t=278-286).",
+   "clock unknown (t=326-330 and t=342-346): he sequences Ice Spirit + barrel one lane and Wall Breakers the other explicitly to pull it — 'He has to Mega Minion and then he has to go for the Goblin Cage' and 'force out another Goblin Cage. I think he's one card away though'. At t=359 it is still the thing standing between him and more damage: 'He has the Cage guys, but we can get another Magic Archer down.'"
+  ]
+ },
+ "deck": {
+  "deck_key": "bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-royal-delivery-wall-breakers",
+  "cards": [
+   "bomb-tower",
+   "fire-spirit",
+   "goblin-barrel",
+   "ice-spirit",
+   "magic-archer",
+   "ronin",
+   "royal-delivery",
+   "wall-breakers"
+  ],
+  "bullets": [
+   "Game 2 of 7 in a single-deck video; a win over a Miner / Evolution Inferno Dragon control deck (Goblin Cage, Goblin Brawler, Mega Minion, Ice Golem, Zap, Fireball), video time 174.3-370.0s. 'Good game. Nice win. I'll see you all in the next match' (t=362), with both enemy princess towers ground to 565 and 586 HP against his own 2927 and 3746 — no tower fell on either side. The in-game clock OCR failed for the whole video, so all timings are video seconds.",
+   "He states the deck's weakness and its edge in the first ten seconds: 'we don't have a lot of air defense, but he also doesn't have much bait defense. So it's going to be kind of difficult for both of us on the defensive end' (t=178-185). The air hole is real — the Evolution Inferno Dragon forces four-card defensive stacks at t=245-252 and t=294-303.",
+   "Core offensive loop: Goblin Barrel plus Fire Spirit in one lane, Wall Breakers in the other, repeated roughly every 25 seconds (t=212, 247, 261, 279, 304, 325, 338, 343, 355, 363), with the lane split chosen against the opponent's spell — 'It's going to be a lot of damage on the left side cuz I think he's going to Zap on the right' (t=264-267).",
+   "Success is measured in elixir drained, not damage: 'Just force out more elixir every single time' (t=283), 'force out another Goblin Cage. I think he's one card away though' (t=344-347), 'He spent all that elixir and we got damage' (t=349-350).",
+   "Wall Breakers double as the deck's kiting tool on defence (t=205.7 tile [10, 11], t=279.3 tile [3, 14]) so the real answers stay in hand, and he will skip the kite when it invites a spell — 'I do not think I need a Wall Breaker kite this Mega Minion though. Otherwise, he's going to just get a good Fireball here' (t=302-307).",
+   "The Ronin is played strictly as a defensive mini-tank on his own half (t=183.2 tile [8, 0], t=251.3 tile [2, 5]), never at the bridge, and he tempers the video's title in commentary: 'after the Ronin nerf it's not really a crazy card on top ladder, but it's a really good card for people who are either under-levelled or face a lot of Mega Knights and maybe a lot of mid-ladder decks... nothing insane, honestly' (t=225-243).",
+   "Bomb Tower is pre-placed centrally before pushes arrive (six placements) and Royal Delivery is the emergency air button (t=245.2, 297.3, 306.3); Magic Archer is played deep and early rather than at the bridge, and the one bridge Magic Archer is spell-predicted: 'Ooh, good prediction. He actually finally got me with one of those' (t=334-337)."
+  ],
+  "new_deck": {
+   "display_name": "Ronin Log Bait",
+   "archetype_primary": "bait",
+   "archetype_secondary": "control",
+   "rationale": "Goblin Barrel is the win condition with Wall Breakers, Ice Spirit and Fire Spirit baiting the small spell that answers it, while Bomb Tower, Royal Delivery and a defensive Ronin hold the ground until the barrel comes back around.",
+   "why_it_works_md": "The list is standard log bait with the Ronin taking the ground-defence slot: Goblin Barrel is the only real damage card, and Wall Breakers, Ice Spirit and Fire Spirit exist to make the opponent spend a spell or a building answer every cycle. Ryley plays it as an attrition deck rather than a burst one — he alternates barrel and Wall Breakers between lanes so a single Zap can never cover both, and grades every push by what it drained rather than what it hit: \"Just force out more elixir every single time\" (t=283). Defence is deliberately layered and cheap — Bomb Tower pre-placed centrally, Ice Spirit for resets, Fire Spirit for swarms, Royal Delivery as the panic button, and the Ronin parked on his own half as a mini-tank whose parry punishes single-target melee (\"Goblin Brawler is pretty bad against the Ronin\", t=191). The obvious hole is air: he says so out loud (\"we don't have a lot of air defense\", t=180) and an Evolution Inferno Dragon forces him to spend four cards on one push twice in this game. Wall Breakers pulling double duty as a defensive kite is what keeps that affordable."
+  }
+ }
+}

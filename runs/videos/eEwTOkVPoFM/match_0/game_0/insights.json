@@ -1,0 +1,87 @@
+{
+  "key": "eEwTOkVPoFM-m0.0",
+  "match_file": "matches/eEwTOkVPoFM-m0.0.md",
+  "video_title": "Ronin Made This Log Bait Deck 100X MORE BROKEN",
+  "cards": {
+    "goblin-barrel": [
+      "t=7.3 (clock unknown, the whole video's clock OCR failed): opens the game with the barrel on the enemy left tower at tile [3, 25] off a full 10 elixir, before any commentary on the play.",
+      "t=38.0 (clock unknown): barrel onto the enemy RIGHT tower at [14, 27] paired with bridge Wall Breakers - 'I'm going to go for the wall breakers barrel push here. I think he might mega knight, but then if he mega knights then he's going to get cooked' (t=38-43); the enemy right tower drops 4858 -> 4474 by t=46, 'that's going to be some nice damage with the barrel' (t=46).",
+      "t=75.2 (clock unknown): barrel at [3, 24] as pure pressure - 'Let's go for the wall breaker split and then Evo barrel. We want to apply a lot of pressure early early on in the game' (t=74-79); the Evolution slot is on this card.",
+      "t=118.1 and t=129.1 (clock unknown): two barrels at [3, 25] inside the sequence that takes the tower - 'I can just go for the ice spirit fire spirit... barrel wall breakers here' (t=116-119), then 'Let's go for the barrel here as well' (t=129). Enemy left tower falls 4858 -> 277 between t=126 and t=142."
+    ],
+    "wall-breakers": [
+      "t=39.7 (clock unknown): Wall Breakers at [13, 14], his own side of the right bridge, always paired with a barrel rather than sent alone - 'I'm going to go for the wall breakers barrel push here' (t=38).",
+      "t=131.1 (clock unknown): Wall Breakers at [3, 14] repeated into the same lane during the winning push - 'We can just wall breakers again. Just really keep being aggressive' (t=131-133).",
+      "t=166.2 (clock unknown): closing Wall Breakers at [15, 15] with a barrel - 'Let's wall breakers barrel just to solidify the game and I will see you all in the next match' (t=165-168).",
+      "t=74-76 (clock unknown): he calls a 'wall breaker split' that the pipeline did not capture; every captured placement is on his own side of a bridge, never deep in his half."
+    ],
+    "ronin": [
+      "t=72.1 (clock unknown): Ronin at [2, 8] on his own half, held in hand specifically for a Champion ability - 'if he goes for the ability we of course have the Ronin here on defense. He might pop it. Okay, he doesn't bother going for the ability' (t=69-74).",
+      "t=29-37 (clock unknown): the matchup claim, stated before any Ronin play - 'obviously Ronin does really, really well into mega knight' - with the cost named in the same breath: 'One thing I am scared of with the Ronin though is that it does kind of mess up your card cycle a lot with a lot of different decks.'",
+      "t=108.1 and t=150.2 (clock unknown): two more Ronins on his own half ([6, 7], then [8, 10] alongside Bomb Tower against a Ram Rider) - all three deploys in this game were defensive, even though he twice said he wanted it at the bridge ('I think a Ronin at the bridge could be good regardless', t=100-103).",
+      "t=148-160 (clock unknown): his strategic reading of the card after the opponent Mega Knights the opposite lane - 'we activated our king all because he wanted to go aggressive and mega knight opposite lane of the Ronin... The Ronin scares people so hard that they will literally spam their entire bar opposite lane of it whenever they see a quote unquote opportunity.'"
+    ],
+    "magic-archer": [
+      "t=97.6 (clock unknown): back placement at tile [9, 0] as spell-value denial - 'we have to make sure that we don't give him a lot of lightning value either. I'm just going to go for the magic archer in the back here' (t=92-98).",
+      "t=137.1 (clock unknown): Magic Archer at [2, 13] chosen so the pierce line crosses the target - 'we can marcher here to line up on the ghost' (t=138), i.e. lined up on the opponent's Evo Royal Ghost.",
+      "t=16.0, 60.2, 89.1 (clock unknown): three more deploys, all on his own half ([5, 4], [2, 1] behind the King Tower, [2, 12]) supporting defence in the lane the opponent kept attacking; he names it as one of the deck's two headline cards in the intro - 'this log bait Ronin deck here with the wall breakers and with the magic archer' (t=13-17).",
+      "Hero variant unresolved in this game: two own elixir drops of 2 with no hand change (t=40.7, t=138.5) are consistent with the Hero's 2-elixir Triple Threat but equally with an unread Wall Breakers, and he never mentions an ability of his own."
+    ],
+    "fire-spirit": [
+      "t=48.2 (clock unknown): Fire Spirit at [7, 14], centre of his own half, used as the swarm/glass-cannon answer - 'Fire spirit here on defense just make sure that we take out that berserker' (t=49-50).",
+      "t=119.1 (clock unknown): Fire Spirit at [8, 5] as one layer of the barrel sequence he plans out loud - 'ice spirit fire spirit... barrel wall breakers here and then we can go for the fire spirit as well' (t=116-120).",
+      "t=15.0 and t=82.1 (clock unknown): opening Fire Spirit at [2, 9] and a mid-game one at [9, 12], both defensive; in this game he never throws it for chip."
+    ],
+    "ice-spirit": [
+      "t=67.2 (clock unknown): Ice Spirit at [7, 14] as the cheap first layer while the Ronin is held back - 'Let's ice spirit here and if he goes for the ability we of course have the Ronin here on defense' (t=68-70).",
+      "t=120.8 and t=124.3 (clock unknown): Ice Spirits at [9, 10] and [3, 8] inside the game-winning sequence, which empties his bar to 0 elixir at t=120 - 'Let's ice spirit here. Look at the Ronin guys' (t=125-127).",
+      "t=8.0, 15.5, 82.9, 126.0, 132.6, 157.2 (clock unknown): the most-cycled card of the game (nine deploys in 170 s), used both to cycle back to the barrel and as the stun on defence."
+    ],
+    "royal-delivery": [
+      "t=30.9 (clock unknown): Royal Delivery at [2, 8] onto a Royal Ghost the tracker had flagged as 3.3 s from the tower; four of his five deliveries land in the left lane, the lane the opponent attacked all game.",
+      "t=123.1 and t=156.2 (clock unknown): deliveries at [3, 8] and [7, 14] as part of defences that hold - the second, alongside Bomb Tower and Ronin against a Ram Rider, draws 'Very good defense right here' (t=162).",
+      "Five deploys in this game (t=30.9, 60.1, 112.6, 123.1, 156.2) and he never narrates the card itself - it is the silent defensive spell of the list."
+    ],
+    "bomb-tower": [
+      "t=153.2 (clock unknown): the only Bomb Tower of the game, at tile [9, 13] in the right lane against a Ram Rider push, with a Ronin at [8, 10] and a Royal Delivery at [7, 14] on top - 'Very good defense right here' (t=162), and his towers take no further damage.",
+      "He held the building for the first two and a half minutes while his left tower was ground from 4858 to 2091, spending spirits and Royal Delivery instead; the Bomb Tower only came out for the deck's one heavy win condition."
+    ],
+    "mega-knight": [
+      "Faced, not played. t=24-31 (clock unknown): identified on sight - 'I'm pretty sure we're up against a mega knight lightning player right here. This going to be a pretty interesting match up because obviously Ronin does really, really well into mega knight.'",
+      "t=42-43 (clock unknown): he attacks into the threat rather than holding for it - 'I think he might mega knight, but then if he mega knights then he's going to get cooked' - and holds the Ronin as the stated answer ('if he goes for a mega knight we can just go for the Ronin at the bridge', t=99-101).",
+      "t=126-151 (clock unknown): the opponent's Mega Knight is tracked at (9, 4) and (8, 2) in Ryley's half while Ryley's own push is running; the trade costs the opponent his left tower (4858 -> 277) - 'we took out his entire tower and we activated our king all because he wanted to go aggressive and mega knight opposite lane of the Ronin' (t=146-151)."
+    ],
+    "little-prince": [
+      "Faced, not played. Deployed by the opponent at t=26, 30, 56.1 and 104.1 and tracked walking the left lane repeatedly from t=24 to t=118; Ryley plays around the Champion ability rather than the troop - 'if he goes for the ability we of course have the Ronin here on defense. He might pop it. Okay, he doesn't bother going for the ability' (t=69-74).",
+      "t=135 (clock unknown): once Ryley's counter-push lands the Little Prince dies immediately - 'Oh my god we took out the LP so fast'."
+    ]
+  },
+  "deck": {
+    "deck_key": "bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-royal-delivery-wall-breakers",
+    "cards": [
+      "bomb-tower",
+      "fire-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "magic-archer",
+      "ronin",
+      "royal-delivery",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 1 of 7 in a single-deck video (video time 4.3-173.8 s); a win over a Mega Knight / Lightning bridge-spam list (Little Prince, Evo Royal Ghost, Ram Rider, Electro Spirit, Goblins, Evo Giant Snowball). 'Let's go. Beautiful win' (t=171). NOTE: the in-game clock OCR failed for this entire video, so all timestamps are video seconds and no clock times exist.",
+      "Ryley names the deck himself: 'we are going to be playing the best Ronin log bait deck in Clash Royale... here we have this log bait Ronin deck here with the wall breakers and with the magic archer. I really enjoy this log bait Ronin deck' (t=6-17).",
+      "Offence is always a pair, never a single card: Goblin Barrel plus Wall Breakers at t=38-40, t=75 (called as 'wall breaker split and then Evo barrel'), t=118-131 and t=165-166. The Evolution slot is on the Goblin Barrel ('then Evo barrel', t=76).",
+      "Defence is spirits plus Royal Delivery for the first two minutes - the Bomb Tower was held until t=153 and the Ronin was kept in hand for the Little Prince ability (t=69-70) and the Mega Knight (t=99-101) rather than sent at the bridge.",
+      "The game swings in one 25-second window (t=118-142): the opponent commits a Mega Knight in the lane opposite the Ronin, Ryley empties his bar to 0 on barrel + Wall Breakers + spirits, his King Tower is activated by the incoming damage and the enemy left tower goes 4858 -> 277. 'What a clean sequence man' (t=143).",
+      "Stated cost of the archetype: 'One thing I am scared of with the Ronin though is that it does kind of mess up your card cycle a lot with a lot of different decks' (t=33-37) - the 5-elixir slot is the price of the Mega Knight answer."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Log Bait",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel and Wall Breakers are the win conditions and the spirits, barrel and Wall Breakers all bait the small spells that answer each other, while the 2.9 average cost keeps the barrel coming back around.",
+      "why_it_works_md": "The bait core is unchanged from any Log Bait list - Goblin Barrel plus Wall Breakers, thrown as a pair so one spell cannot answer both, backed by 1-elixir spirits for cycle. What Ronin adds is the one thing bait decks normally lack: a 5-elixir mini-tank that beats the heavy melee cards those decks fold to, which is how Ryley frames the matchup here (\"obviously Ronin does really, really well into mega knight\", t=29-31). Magic Archer and Bomb Tower cover the ranged and swarm defence the Ronin cannot, and Royal Delivery is the catch-all for anything that gets past them. The deck's damage comes from repetition rather than one big push: in this game the enemy left tower fell from 4858 to 277 across a single 25-second barrel-and-Wall-Breakers sequence played while the opponent committed a Mega Knight in the other lane. The stated weakness is cycle - \"it does kind of mess up your card cycle a lot\" (t=33-37) - and Ryley's own left tower was ground to 2091 before the swing, so the list can be out-chipped while the expensive cards are stuck in hand."
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "key": "eEwTOkVPoFM-m0.3",
+  "match_file": "matches/eEwTOkVPoFM-m0.3.md",
+  "video_title": "Ronin Made This Log Bait Deck 100X MORE BROKEN",
+  "cards": {
+    "wall-breakers": [
+      "t=662.7s (clock unknown, OCR failed all video): opened the game with a split Wall Breakers at the centre tile (8, 14) purely as a scouting play - \"Just going to split my Wallbreakers here, try to figure out what this guy is playing.\"",
+      "t=695.7s: dropped them at (3, 14) one second behind a Goblin Barrel at (2, 24) so the opponent could not answer both - \"Let's barrel and then we last second wall breakers sticking in front of him.\"",
+      "t=735-740s: held them specifically as a building answer against an expected Evo Goblin Cage - \"I think he's going to go for the evo cage, but then the evo cage will instantly pop from the wall breakers.\"",
+      "t=767.9s: split them at the bridge tile (8, 15) after sending Ronin into the opposite lane at (15, 14) - \"Let's Ronin opposite lane and then we can go for the split wall breakers.\""
+    ],
+    "goblin-barrel": [
+      "t=730s: deliberately withheld the barrel mid-push - \"we can go for a goblin barrel at the - oh, and maybe let's not goblin barrel just yet, actually\" - and only threw it at t=735.7s onto (2, 25) behind a Ronin.",
+      "t=768.8s: threw it at (3, 26) timed around the opponent's splash - \"we go for the evo barrel cuz he has to bowler, but then the bowler won't be able to take out the goblin barrel now because on the side he fully messed it up, too, cuz the Ronin's also on the tower.\"",
+      "t=695.5s: barrel at (2, 24) layered with Wall Breakers; the enemy left tower fell from 4858 to 2999 HP over the next 10 seconds.",
+      "t=803.8s and t=811.1s: closing barrels at (14, 21) and (8, 29) while the opponent was out of answers - enemy right tower dropped to 644 HP by t=812s and Ryley called it \"very nice win... Perfect game\" (t=812-815s)."
+    ],
+    "magic-archer": [
+      "t=676.7s: placed at (8, 11) to break the opponent's Goblin Cage that had just landed at (8, 19) - \"go for the marcher here. Help take out that Goblin Cage. We can go for a nice run in here, unless he has the Inferno Dragon.\"",
+      "t=702-706s: with nothing else on the field the enemy left tower lost about 1700 HP to arrow chip - \"we get the marcher damage. Look at all that magic archer chip. Beautiful.\"",
+      "t=777.8s: played at the river tile (4, 14) as a chip threat the moment the opponent invested in a back Electro Giant - \"I want to marcher the bridge. Low key, I think I will marcher the bridge cuz he went e-giant in the back... All we need is another hit with the marcher.\"",
+      "t=685-686s: likely used the Hero's 2-elixir Triple Threat - a 2-elixir drop with no hand change coincides with \"Luckily, we could step back... Keep the marcher a little healthy\" (Hero variant probable but not confirmed; see the match file's Data gaps)."
+    ],
+    "royal-delivery": [
+      "t=685.7s: dropped on (5, 14) on top of his own committed Ronin to clear the whole exchange - \"then we go for the delivery, as well, just to take this all out.\"",
+      "t=791.8s: used it as a pure counter to a misplaced Inferno Dragon at (2, 19) - \"that was a really bad inferno dragon placement. Let's just delivery here and there goes the inferno dragon. This is very good for us.\""
+    ],
+    "fire-spirit": [
+      "t=712.7s: placed at (9, 10) to absorb a Bowler ability - \"He's going to bowler ability probably. We could go for the fire spirit here just to block that. Make sure that we deal with the bowler.\"",
+      "t=747.7s: placed low at (8, 6) ahead of a high Ice Spirit against an advancing Bomber, with the ordering rule stated outright - \"Let's fire spirit low so we can go for a high ice spirit. So then the fire spirit is the spirit that will damage his tower cuz the fire spirit does more damage than the ice spirit\" (t=748-754s).",
+      "t=783.8s: used offensively at (4, 14) alongside the Magic Archer while the opponent was committed to a back Electro Giant - \"we can go for the fire spirit here to threaten to finish off that tower.\""
+    ],
+    "ice-spirit": [
+      "t=724.6s: dropped at (8, 13) as a cheap stall on the Bowler - \"Let's go for the ice spirit here to block that bowler.\"",
+      "t=749.4s: played high behind a low Fire Spirit so the Fire Spirit is the one that survives to the tower - \"so we can go for a high ice spirit... the fire spirit does more damage than the ice spirit.\"",
+      "t=795.8s and t=806.6s: added at (4, 10) and (8, 20) to pad defence and the final counter-push - \"Let's ice spirit. Let's go for the far marcher and yeah, this is just game over, man.\""
+    ],
+    "bomb-tower": [
+      "t=788.8s: placed at (8, 9) the moment the opponent dropped an Electro Giant in the back at (2, 23), well before the tank reached the bridge - \"Okay, let's just early bomb tower.\"",
+      "t=801-803s: with the building down he wrote the game off for the opponent - \"He is not going to be breaking through here, especially with not having any more evos.\" It sat unplayed in hand for the first 125 seconds of the game."
+    ],
+    "ronin": [
+      "t=707-709s: named it the weak card of the matchup while it was still in hand - \"the Ronin is going to be a really weak card in this matchup, but it's not the end of the world.\"",
+      "t=734.1s: dropped at (2, 14) as a last-second defender and it paid off immediately - \"The Ronin just took out the brawler instantly and we got so much damage. Very good sequence right there\" (t=742-745s).",
+      "t=764.8s: explicitly refused the greedy bridge play and sent it to the empty lane at (15, 14) - \"Dude, I want a Ronin wall breakers to bridge so bad, but it's just not a great play. Let's Ronin opposite lane.\"",
+      "Every deployment this game (t=680.7, 722.7, 734.1, 764.8) was at row 14 on his own half, never as a lone bridge rush."
+    ],
+    "bowler": [
+      "t=699s: identified in the opponent's deck (\"Oh, he has bowler\") and thereafter answered with cheap blockers rather than a commitment - Fire Spirit at t=712.7s and Ice Spirit at t=724.6s, \"Make sure that we deal with the bowler.\"",
+      "t=769-772s: used the Bowler's forced defensive use as barrel timing - \"we go for the evo barrel cuz he has to bowler, but then the bowler won't be able to take out the goblin barrel now.\""
+    ],
+    "inferno-dragon": [
+      "t=682-685s: predicted before it appeared and it changed the plan - \"We can go for a nice run in here, unless he has the Inferno Dragon. Yep, okay, he does actually have Inferno Dragon. Luckily, we could step back.\"",
+      "t=791.8s: killed outright by a Royal Delivery at (2, 19) after a poor placement - \"that was a really bad inferno dragon placement. Let's just delivery here and there goes the inferno dragon.\""
+    ],
+    "goblin-cage": [
+      "t=678.7s: the opponent's Goblin Cage landed at (8, 19) and Ryley answered with Magic Archer at (8, 11) - \"go for the marcher here. Help take out that Goblin Cage.\"",
+      "t=736-740s: he planned Wall Breakers as the answer to a second (Evo) Cage - \"I think he's going to go for the evo cage, but then the evo cage will instantly pop from the wall breakers.\""
+    ],
+    "electro-giant": [
+      "t=782.8s: the opponent placed it in the back at (2, 23) (opponent elixir estimate 10 to 3); Ryley treated the investment as free chip time - \"I think I will marcher the bridge cuz he went e-giant in the back\" (t=778-781s).",
+      "t=788.8s: answered with an early Bomb Tower at (8, 9) rather than a reactive defence - \"let's just early bomb tower\"; the push never connected and he called it \"game over\" at t=800s."
+    ],
+    "graveyard": [
+      "t=790.8s: the opponent's Graveyard was tracked on Ryley's half at (8, 2) and his right tower lost roughly 1400 HP over t=796-800s; he made no separate answer for it and no commentary line mentions it, staying focused on the Electro Giant lane."
+    ]
+  },
+  "deck": {
+    "deck_key": "bomb-tower-fire-spirit-goblin-barrel-ice-spirit-magic-archer-ronin-royal-delivery-wall-breakers",
+    "cards": [
+      "bomb-tower",
+      "fire-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "magic-archer",
+      "ronin",
+      "royal-delivery",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "eEwTOkVPoFM game 3 of 7 (video t=662.8-818.5s, in-game clock unreadable all video): a win over an Electro Giant / Graveyard beatdown deck with Goblin Cage, Inferno Dragon, Bowler and Baby Dragon. Both enemy Princess Towers were ground down (left 4858 to 768 HP by t=778s, right 4858 to 644 HP by t=812s) with no tower lost - \"Very nice win... Perfect game\" (t=812-815s).",
+      "The damage came entirely from stacked cheap threats, never one big push: Goblin Barrel plus Wall Breakers layered one second apart (t=695.5/695.7s), and Magic Archer chip from the river that took about 1700 HP off the left tower by itself at t=702-706s - \"Look at all that magic archer chip. Beautiful.\"",
+      "Ronin is the flex slot, not the win condition. Ryley called it \"a really weak card in this matchup\" (t=707s), used it only as a defensive mini-tank at row 14, and refused the Ronin-plus-Wall-Breakers bridge rush at t=762-765s in favour of an opposite-lane Ronin with split Wall Breakers.",
+      "Defence is spirits first, spells second, building last: Fire Spirit and Ice Spirit blocked the Bowler (t=712.7s, t=724.6s), Royal Delivery answered a misplaced Inferno Dragon (t=791.8s), and the Bomb Tower stayed in hand for 125 seconds until the Electro Giant appeared - \"let's just early bomb tower\" (t=790s).",
+      "Spirit ordering is a stated technique in this deck: \"Let's fire spirit low so we can go for a high ice spirit. So then the fire spirit is the spirit that will damage his tower cuz the fire spirit does more damage than the ice spirit\" (t=748-754s)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Log Bait",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel and Wall Breakers are the win conditions and both exist to bait the opponent's small spell and splash, backed by 1-elixir spirits and a defensive building rather than a tank.",
+      "why_it_works_md": "The deck runs two cheap, spell-baiting win conditions - Goblin Barrel and Wall Breakers - and layers them so a single Log, Bowler or Cage answer can never cover both; in this match Ryley threw them one second apart at t=695.5s and again split them across lanes at t=764-769s. Magic Archer provides the deck's real damage engine, chipping from the river through anything in the arrow's line while the opponent invests behind (about 1700 HP of tower at t=702-706s). Defence is deliberately cheap and reactive: Ice Spirit and Fire Spirit block heavy hitters like the Bowler for 1 elixir, Royal Delivery erases misplaced support such as an Inferno Dragon, and the Bomb Tower is saved for the one card that actually needs it - a heavy tank like the Electro Giant. Ronin is the deck's swing slot, an excellent parry mini-tank against slow melee heavy hitters but, as Ryley says at t=707s, \"a really weak card in this matchup\" when the opponent defends with ranged and air units."
+    }
+  }
+}
