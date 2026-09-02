@@ -223,6 +223,7 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
     # names repeatedly has some visual evidence but no slot, is a hand misread
     deck_notes = []
     visual = set(played_label) | set(hand_cards) | {e["card"] for e in events if e.get("card") and e["player"] == "own"}
+    visual |= {e["card"] for e in events if e.get("card") in SPELL_CLASSES and e["detect_source"] == "deploy_label"}
     for cand, m in mentioned_all.items():
         if m < 8 or cand in own_deck or cand not in visual:
             continue
@@ -243,7 +244,8 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
     return {**header, "start_t": round(t0, 1), "end_t": round(t1, 1),
             "cards_mentioned": mentioned,
             "own_deck_observed": own_deck, "own_deck_sources": own_deck_sources, "own_deck_notes": deck_notes,
-            "own_deck_counts": {"hud": dict(played_hud), "label": dict(played_label), "hand": {c: k for c, k in hand_cards.items() if k >= 30}},
+            "own_deck_counts": {"hud": dict(played_hud), "label": dict(played_label), "hand": {c: k for c, k in hand_cards.items() if k >= 30},
+                                "spell_labels": dict(Counter(e["card"] for e in events if e.get("card") in SPELL_CLASSES and e["detect_source"] == "deploy_label"))},
             "own_deck_key": "-".join(sorted(own_deck)) if len(own_deck) == 8 else None,
             "opponent": {"deck_known": replayed["deck_known"], "deck_complete": replayed["deck_complete"],
                          "deck_predictions": replayed["deck_predictions"], "kb_matches": replayed["kb_matches"],
@@ -361,7 +363,16 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
         notes.append(f"games in this video use different decks (median HUD overlap {median_j:.2f}"
                      + (", title suggests a deck showcase" if title_hint else "") + "); no video-level deck")
         deck = []
-    for cand in ranked[8:]:
+    # spells seen as deploy labels (either side) are candidates too: a spell's
+    # tile cannot tell whose it was, so the commentary decides
+    spell_cands = {c for _, ctx in ctxs for c in ctx["own_deck_counts"].get("spell_labels", {})}
+    for c in spell_cands:
+        if c not in score:
+            score[c] = 0
+            mentions[c] = all_m.get(c, 0)
+    ranked = [c for c, _ in score.most_common()]
+    deck = ranked[:8]
+    for cand in [c for c in ranked[8:] if c not in deck]:
         if mentions.get(cand, 0) < 20:
             continue
         silent = [c for c in deck if mentions.get(c, 0) == 0]
