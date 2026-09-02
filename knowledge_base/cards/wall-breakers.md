@@ -135,6 +135,21 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - overtime 1:04 (t=526.0) at (13, 14): the opposite-lane half of his pressure pair — "Let's Valkyrie then Wall Breakers other lane, just to keep up the pressure in the opposite lane."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 1:50, 1:10, 0:55, 0:38 and 0:24: five bridge deployments (tiles [4, 13], [4, 14], [13, 15], [15, 14], [13, 14]) in the same windows as a Skeleton Barrel or Berserker, never alone — "Let's go for the wall breaker skelly barrel here. Just keep up the pressure" (118-121s).
+- clock 1:28: a defensive pair placed deep on his own half at [11, 3] while two Elite Barbarians ran the left lane — no commentary on the placement itself, but he rates the sequence "Nice, beautiful defense right there" (84-86s).
+- clock 0:16: still a win condition after the nerf, in his view — "Look at those wall breakers. Even after the nerf that the wall breakers got, they're so powerful" (158-163s). He plays the evolved version ("the evo wall breakers here", 150s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 1:55 and 1:47: back-to-back Wall Breakers at [10, 12] and then right at the bridge [13, 14] as double elixir starts, alongside Dart Goblin [8, 9] and Cannon [15, 13] — pure two-elixir pressure, never used on defence in this game.
+- clock 0:58: Wall Breakers at [4, 14] into the weakened lane, called before it landed — "That's going to be a connection unless that Zappie locks in. Nice. Let's go. We got one connection"; enemy left tower 1477 -> 1028 HP.
+- clock 1:07: he explicitly ranks it below the swarm for the evolution slot — "that's why you have the Evo Skeleton Army over the Evo Wall Breakers" (Wall Breakers are run un-evolved here).
+- clock 0:17: Wall Breakers at [15, 13] as the closing pressure while he holds Ice Spirit for the opponent's Evo Battle Ram.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

@@ -186,6 +186,26 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - mentioned in the balance talk (t=163-167s): he is unsure whether the nerfed Evo Elite Barbarian spears will still one-shot him — "maybe it won't one-shot princess dart goblin and things like that anymore, but I'm not 100% sure."
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 2:39-0:16: six placements, all behind his own towers at columns 7-9 ([9, 9], [8, 8], [9, 9], [9, 9], [7, 9], [8, 7]), never at the bridge.
+- clock 1:35 and 0:42: the ranged half of a defensive pair, named in advance both times — "then we can go for the Dart Goblin Berserker" (77-79s) and "we can go ice spirit dark goblin [Dart Goblin] here. This should be a really good defense" (131-134s).
+- clock 0:16: dropped at [8, 7] against the last Elite Barbarians wave — "we can go for a nice dark goblin [Dart Goblin] here on the left. This will get a lot of value" (156-158s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 1:52: Dart Goblin at [8, 9] as the support half of the double-elixir Wall Breakers push.
+- clock 0:50: Dart Goblin at [8, 8] next to the Cannon against two Zappies pushing both lanes.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- Referred to throughout as "dark goblin" (auto-transcript). clock 1:43 (t=764-768): the Evolved Dart Goblin is why Minions stay in hand — "I'm not going to minions yet cuz he could have dark goblin".
+- clock 1:51 (t=760-762): names Sparky as the clean answer — "Like even like dark goblin stuff, you can just take it out very nicely".
+- clock 1:05 (t=799-802): the card that forces his Arrows out — "I don't even want to arrows at the evo dark goblin, but I do think that I have to".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

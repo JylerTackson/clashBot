@@ -237,6 +237,12 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
 - OT 1:04 to 0:48 (t=457-472), why he wanted it gone: "it's actually such an annoying card to go up against when you know you have graveyard even bait ... it's just so much better than all of the spirits that there's no really reason to use the other ones unless you have like a very direct weakness to like a certain play style." He also says he doesn't know "why they've been waiting on the E-Spirit for so long" (t=411-413).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 1:23: a targeted 1-elixir answer, not cycle filler — "let's go for the E-Spirit here just to make sure that we take out that bomber" with the Bomber reading "tower in 4.8s" on the threat list.
+- clock 0:50: deploy label at [12, 11] as pre-emption against a Night Witch and Bats package — "let's go for the e-spirit over here just to not have to be careful. It's ability as well."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

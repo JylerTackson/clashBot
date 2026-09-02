@@ -197,6 +197,13 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - mentioned only, not played (t=151-161s): Ryley uses her as the breakpoint for the Evolved Elite Barbarians nerf — "This will now no longer take out things like mother witch and zappies when both of the spears are throwing at the exact same time."
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- He plays her at two deliberate heights. High at the river (6, 14) at clock 1:14 as a body/bait in front of the Bandit — "let's go for a high mother witch to block the potential arrows" — and low on his own half (12, 7) at clock 0:21 once the game is won — "Just go for a low mother witch here, guys, and I think that we got this one in the bag."
+- clock ~1:07-0:57: he corrects his own reasoning about her as spell protection — "The mother witch wouldn't have actually blocked the arrows by the way, guys, but what I meant by that is that like if he went to like instantly arrows to take out the zappies, then it wouldn't have worked because the mother witch would have been tanking for the baby dragon." Her value there was tanking, not spell-blocking.
+- clock 2:09: a mid-lane Mother Witch at (8, 9) behind the first Battle Ram push, as the follow-up value card rather than a defensive anchor.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

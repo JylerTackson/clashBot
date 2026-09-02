@@ -192,6 +192,14 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - mentioned only, not played (t=151-161s): named alongside Mother Witch as a unit the nerfed Evo Elite Barbarian spears (284 to 220 damage) will no longer kill outright with a simultaneous double throw.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- The most-played card in this game (five deployments) and used entirely on his own half: (8, 6) at clock 2:33, (9, 6) at clock 1:15, (8, 8) at clock 0:40, (10, 10) at clock 0:27 — always column 8-10, behind or beside the tower, never at the bridge.
+- clock 1:15: chosen as the cheap answer to a Lava Hound + Baby Dragon push specifically because he is already far ahead — "since we got a lot of damage anyway, there's no need to be greedy and try to like get a bunch of extra value out of this. Let's go for the zappies here."
+- clock 0:27: used as a kiting tool against the locked-on Heroic Mega Minion — "Let's zappies here as well. Make sure that we kite this nicely. Beautiful."
+- clock 1:12: he is aware they are Arrows-bait and puts a Mother Witch body up first — "he might try to arrows last second" (280s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

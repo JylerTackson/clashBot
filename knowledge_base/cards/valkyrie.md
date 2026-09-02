@@ -239,6 +239,29 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - mentioned only, not played by either side: the second half of the same complaint - "with the ebarbs, the Valk, so many, you know, crazy things. And the void was already looking pretty strong" (855-860s). (An HUD hand read logged 'Valkyrie' at video 834.2s; that drop was his Golden Knight.)
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- This is the Heroic Valkyrie: "we are playing with this battle ram bridge spam deck with the hero Valkyrie" (188s) and "And hero Valkyrie is the same, but probably even a little bit better in this way" (228s). Her 3-elixir Wild Whirlwind empties no hand slot, so it only shows up as unexplained own elixir drops.
+- clock 2:25-2:02, on why she belongs in bridge spam: bridge-spam defenders are forced to bunch up, so a splash/dash unit is disproportionately strong — "That's why with golden knight, it's so good with bridge spam because they always have to line their cards up. You can get good dashes. And hero Valkyrie is the same ... It's such a stressful card to go up against and it just makes your offensive life so much easier."
+- Used in all three positions in one game: deep behind his own right tower at (12, 3) (clock ~2:35), defensively in front of his left tower at (6, 12) against a Minions + Bats wave (clock 2:02), and pushed "high" at the river at (8, 14) into a cloned Minion swarm (clock 0:40, "Let's go for the high valkyrie here").
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 2:38: played for 4 elixir (9->4 overall in the cycle) as an enemy Royal Ghost closed on his left tower, while introducing the deck as "a log bait spam deck with the hero Valkyrie" — "this is the first deck that I think everyone thought of when the hero Valkyrie was announced... The Valkyrie just fits this deck so so much better".
+- clock 1:36: placed at tile [6, 8] directly in front of an Evo Skeleton Army at [8, 6] to trap a Royal Ghost — he only stacks the two because of the opponent's spell list: "Just to try to trap it here because I think that he only has Vines in his deck and Vines in this would only be solid for me".
+- clock 1:28-1:20: holds the Hero Valkyrie's Wild Whirlwind ability, then spends it: "I have the Valkyrie ability ready. I don't see a point to use it", and eight seconds later "we can pop the ability as well just to go up to the tower and block the bomb" — the enemy left tower fell 4329 -> 1477 HP in the next four seconds.
+- clock 0:36-0:28: Valkyrie at the left bridge [2, 14] with Ice Spirit behind, ability popped to walk into the tower — "I can pop the ability and I think I'm going to get my way all the way up to the tower and to that Wizard"; verdict at clock 0:20: "that card is just so insane if you use it properly... whenever they try to defend without their like spells, they just get completely demolished".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:03 (t=742.6): 4-elixir play at the exact second he calls it as a Goblin Barrel answer — "Let's definitely go for the Valkyrie here. Take out this goblin barrel".
+- clock 0:47 (t=820.8): held at tile [2, 10] on his own half for a specific combo, stated before it arrives — "We have the Valkyrie ready here if he tries to go for any type of Goblin Barrel Skarmy playing the pocket".
+- clock 0:10 (t=856.9): played at tile [4, 18] on top of a whole cluster on the opponent's half — "let's just go for the Valkyrie on top of everything... Very good Valkyrie walking to the Princess. Perfect".
+- clock 1:21 and 0:57 (t=906.2 [3, 18], t=929.9): used pre-emptively against the opponent's Knight and then against the all-in — "Let's Valkyrie on top as well cuz he's probably going to try to go for the Knight", then "beautiful Valkyrie there kind of just knowing that he was going to go all in".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

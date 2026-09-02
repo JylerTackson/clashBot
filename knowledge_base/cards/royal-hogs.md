@@ -224,6 +224,13 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - clock 0:44 -> 0:42 (t=647.6 -> 649.6) and OT 0:13 (t=800.8 -> 801.8): Royal Hogs at (2, 15) then Earthquake in front of the enemy left tower 1-2 s later; eight Hogs deployments plus twelve Earthquakes take the enemy left tower from 4858 to about 2120 across the readable window.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 1:16: the play that won the game — Royal Hogs at the right-hand bridge tile [15, 14] while the opponent's Golem was committed to the other lane. "Okay, let's just Royal Hogs opposite lane cuz, obviously, he can't go for the Golem on the left." The enemy right tower fell from 3830 to ~290 over the next nine seconds.
+- clock 1:28: also used them defensively/parked at [11, 2] on his own half while the Golem push was landing, rather than trading in the busy lane.
+- clock 0:07: called for a third set as the closer — "We can just go for the evil piggies and this should just be good game." Only two Royal Hogs commitments in a 176-second window: this is a slow, spawner-led Royal Hogs deck, not a bridge-spam one.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

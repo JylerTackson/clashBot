@@ -106,6 +106,15 @@ Not specified on source page
 - Keep her at a distance from an Electro Giant so she avoids his reflected damage and extra stuns.
 - Beware baiting out Zap/Freeze/Lightning too readily - their absence lets cards like Skeleton Barrel thrive.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:51 (t=752.8): Sparky in the back at tile [7, 0] specifically to punish the opponent's Princess — "we can Sparky into that princess. I do like to go for Sparky's into the princess cuz they're just able to get completely taken out. Like even like dark goblin stuff, you can just take it out very nicely".
+- clock 0:52 (t=813.8): back placement chosen by which tower is weak, not by which lane he is attacking — "Let's Sparky in the back towards the left just to defend my weak side tower" (his right tower was on 125 HP).
+- clock 0:15 and 1:43 (t=851.4, t=882.9): re-placed in the back twice more, both times as pure denial — "we just need to Sparky in the back again" and "Sparky in the back here and we're just not letting him attack at all. This is kind of funny. He can't go in". All four Sparky plays in this game are at tiles [7, 0]/[8, 0]; none at the bridge.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Sparky (scraped 2026-09-02T02:35:08+00:00)

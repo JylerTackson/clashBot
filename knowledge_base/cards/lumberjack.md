@@ -108,6 +108,13 @@ Not specified on source page
 
 This card has an evolution: see [lumberjack-evolution.md](../evolutions/lumberjack-evolution.md). Cycles to evolve: 2. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Mentioned only, never seen (clock ~0:22): "He might go for a lumberjack as well" — a prediction of the opponent's next card that does not arrive in the readable window.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lumberjack (scraped 2026-09-02T02:35:11+00:00)

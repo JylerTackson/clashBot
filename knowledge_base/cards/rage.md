@@ -134,6 +134,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - one opponent play at clock 0:30 (tile [9, 8], on Ryley's half) during the last push of regular time; Ryley does not mention it and the push produced no tower damage — his towers read 2799/2728 at the end of regular time.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:22 (t=723.7): dropped on the bridge Elite Barbarians already committed at tile [14, 14] — "Okay, let's go for the rage here. Just make sure that we take out that skeleton army".
+- clock 1:19 (t=787.8): cast on the opponent's half at tile [3, 18] for extra chip once the tower was already falling — "let's just rage this up here. Get some extra damage onto his king tower, maybe"; the enemy left tower goes 4738 -> 640 HP over t=782-790.
+- clock 1:53-1:47 (t=875-878): deliberately withheld as the answer to the defence rather than as a speed-up — "let's go for the Giant here and then we can go for the Rage once he goes for the Skeleton Army".
+- clock 1:15 and 0:42 (t=912.1 [8, 23], t=943.9 [9, 23]): both overtime Rages go on top of a pocket push that is already connecting — "We have the Rage ready. Yep, let's Rage here" and "Let's just rage this all up guys".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

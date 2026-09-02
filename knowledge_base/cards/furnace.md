@@ -181,6 +181,14 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - overtime 1:19-1:13: keeps units funnelling into it rather than protecting its HP - 'I need these to keep coming towards the furnace so my furnace can stay active and well, not not even really stay healthy, just stay active, man. Just stay dealing damage'.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 2:44 and 2:18: opened the game with two Furnaces on his own half, at tiles [2, 9] and then deep behind the left tower at [1, 1] (elixir 8 -> 4), while arguing the nerf made it better — "I really thought that it would be dead after the nerf because the spirits no longer connect to the towers, and to be honest, I couldn't have been more wrong."
+- clock 2:31-2:03: states the usage rule the placements follow — "the furnace is dead in some decks where they rely off of the damage like graveyard, but for decks that were using it only for its defensive potential, I actually was so wrong because it's so much better defensively now. So, as long as you're not using the furnace as like an offensive tool, it's completely fine to still have in your deck."
+- clock 1:46: dropped it at [8, 14] as an emergency block while the Golem push was killing his left tower — "I mean, I guess I'll furnace here. I think I'm just cooked though, right? Like, how the heck do I even stop this?"
+- clock 0:57 and 0:32: with a crown banked he converted the lead into permanent defence, Furnace at [8, 1] and again at [10, 0] on the king-tower rows — "We can cycle another furnace here. I do just want to keep on stacking up my furnaces." Every one of the five placements in this game is on his own half.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

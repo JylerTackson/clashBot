@@ -267,6 +267,12 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - overtime clock 0:43, 0:27 and 0:20 (video 1070.7s, 1088.3s, 1095.9s, tiles (14, 11), centre, (9, 15)): kept as the cheap cycle card to the very end - "Wait, barbell down the middle. Then we go for the ability" (1091-1093s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 2:13, 1:42, 0:52, 0:26 and 0:12: five placements ([7, 5], [14, 4], [6, 2], [4, 11], [6, 3]) as the deck's only on-demand ground clear against Night Witch skeletons, Bats and Bomber. Called as a reflex each time — "Let's barbarian barrel here" (1:42), "let's barbarian barrel" (0:26), "we can go for the barbarian barrel… We can barb barrel" (0:14-0:12).
+- clock 0:52 and 0:16: used as the second half of a two-card block, immediately after the Berserker or the Goblin Hut distraction, rather than as an opening answer.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

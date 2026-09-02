@@ -134,6 +134,14 @@ This card appears in 2 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 2 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md), [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 1:37: Ryley identifies the opponent's whole plan and its cost — "he just like sacrificed everything to just go all in with Golem, Night Witch, Lumberjack, and E-Barbs in the other lane." His answer is not a defensive troop but lane-swapping his Royal Hogs plus stacked Furnace/Goblin Hut spawners.
+- clock 0:16: treats a late Golem crossing to his last tower as a mistake, answering with a Goblin Hut distraction and Barbarian Barrel — "I think that was just bad by him."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

@@ -190,6 +190,12 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - opponent card, clock 2:37 to 0:31 (t=14s [13, 23], t=20s [13, 16], t=140s [5, 21], t=174s [4, 19]): their most-cycled card, opened the game with it down the right lane. Ryley answered it cheaply every time — Goblin Gang at [14, 5] plus The Log at [14, 10] at t=72-74s — and never spent a heavy card on it.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:19 (t=727-729): the only ability reference in the game, implying the opponent runs the Heroic Knight — "Could get a knight ability if he does, we go for the minions, but yeah, otherwise we just take some damage".
+- clock 1:25 (t=901-905): he pre-places Valkyrie for it — "Let's Valkyrie on top as well cuz he's probably going to try to go for the Knight" — and dismisses it again at 942-944s: "He might even knight in the middle but that's not going to work".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

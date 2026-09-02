@@ -134,6 +134,13 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - Opponent win condition, named rather than cleanly detected: "I really just didn't think that he would go for a graveyard into a goblin stein but you know, giant graveyard players do be surprising us" (t=129-134). Two medium-confidence tracker hits at t=112.1 tile [15, 14] and t=275.3 tile [3, 13]; Ryley never has to answer a committed Giant push in the readable window.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:12 (t=795): played as the pocket tank for extra king-tower damage rather than as the lane opener — "I think we just giant the pocket. Try to grab extra king" (the push then lost value to a lag spike: "Bro, the lag. Oh my god. Okay, at least we grabbed a Sparky shot").
+- clock 0:03-1:53 (t=866-874): the overtime plan is Giant first, Evo E-Barbs behind — "we can just go for a Giant Evo E Barbs in the pocket", then "Okay, let's go for the Giant here and then we can go for the Rage once he goes for the Skeleton Army".
+- In this Giant/Sparky/E-Barbs list the Giant is support for the Elite Barbarians, not the win condition: four plays (t=776.1, 814.3, 824.5, 871.9) and only 4 commentary mentions against 13 for the Elite Barbarians.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant (scraped 2026-09-02T02:34:51+00:00)

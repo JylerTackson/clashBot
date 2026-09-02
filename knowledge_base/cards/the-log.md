@@ -176,6 +176,14 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - OT 0:42 / 0:20 / 0:17 (t=769.4, 782.8, 796.5): the defensive half of its use — (14, 10), (5, 12) and (4, 9) on his own half against the opponent's ground units; HUD-confirmed at 2 elixir at t=697.9, 756.9 and 789.3.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:40: cast at tile [12, 1] (elixir 4.0 -> 2.0) on Spear Goblins running the right lane.
+- clock 0:24: cast at [14, 15] at the bridge as part of the final pressure wave.
+- clock 0:31: held deliberately against a card he knows is in the opponent's hand — "I know he has the battle ram in his hand. So, I have to be very smart when I play with my log" (145-148s).
+- clock 2:10: counts it as one of the deck's win conditions, not just an answer — "instead of having a lot of spirits in hyper bait, now you just have a bunch of win conditions with a rocket and a log" (42-46s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

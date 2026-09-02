@@ -111,6 +111,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - overtime clock 0:27 (video ~1088s): the Dashing Dash is his stated last hope - "we have to get through with the golden knight, guys. If we don't get through with the golden knight, then we're completely wrecked" (1088-1090s). It did not get through; he was three-crowned.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Mentioned, not played (clock ~2:12): used as the reference point for why a dash/splash unit belongs in bridge spam — "That's why with golden knight, it's so good with bridge spam because they always have to line their cards up. You can get good dashes." He then says the Heroic Valkyrie does the same job "probably even a little bit better".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

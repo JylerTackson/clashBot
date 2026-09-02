@@ -135,6 +135,19 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 2:36-2:33 (opponent): three Minions sent into the right lane, tracked from [16, 25] down to [13, 8]; Ryley spends nothing but an Ice Spirit on them and lets the right tower take the chip (4858 -> 4174 over the game).
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Opponent's recurring air pressure (clock 2:02, 0:48, 0:42, then a cloned swarm of five tracks at clock 0:40-0:33). Ryley answers the first wave with a Valkyrie at (6, 12) plus already-placed Zappies, and the cloned wave with a high Valkyrie plus Arrows.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:19 (t=727.7): Minions at tile [14, 13] held back as the answer to a possible Knight ability rather than played on schedule — "Could get a knight ability if he does, we go for the minions, but yeah, otherwise we just take some damage".
+- clock 1:41 (t=765.8): explicitly delayed because of the opponent's Evolved Dart Goblin — "I'm not going to minions yet cuz he could have dark goblin. Okay, let's minions now".
+- clock 1:29 (t=888-890): spent on the Princess while accepting the chip damage — "Let's Minions here for the Princess. He is going to get I think two. Yeah, he's going to get two. All good though".
+- clock 1:13 (t=913.9): Minions into the pocket behind Evo E-Barbs and Rage, and they are what finishes the tower — "Evo Barbs are on the tower. Minions are on the tower... He's already at 500 HP".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

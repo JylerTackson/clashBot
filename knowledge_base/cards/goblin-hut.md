@@ -156,6 +156,12 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - overtime clock 0:35 (video 1080.1s, tile (12, 13)): pushed the hut forward on the right to support the second Electro Giant - "we need to go for a Goblin Hut up top here. Hold on a second. He has a Tesla" (1079-1081s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 2:40, 2:11 and 0:38: placed at [7, 9], [9, 9] and [9, 10] — the centre of his own half, so the Spear Goblins cover both lanes against a Golem beatdown deck. Paired with the Furnace as the deck's whole defensive engine.
+- clock 0:16: used as a pure body-block rather than a value building, in front of a Golem crossing to his last tower — "Okay, he could go to our tower right now. I have to go for the goblin hut here just to distract and we can go for the barbarian barrel."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

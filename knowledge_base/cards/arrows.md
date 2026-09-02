@@ -129,6 +129,21 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - clock 1:11 (t=618.6): the opponent drops Arrows at (9, 6), on Ryley's own half, onto the Skeletons-and-spirit cluster he had built in front of the Cannon.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- clock ~0:37: cast on the opponent's cloned Minion swarm immediately after a high Valkyrie — "Let's go for the high valkyrie here. I have to go for the arrows here as well. That was a little bit of a bad clone, I think" (313-317s).
+- Deck-slot note: Arrows is this list's small spell in place of the Freeze that Ryley runs in his own Mother Witch bridge spam deck. It sits in hand slot 2 for the last five HUD reads (clock 0:16-0:12), but no elixir delta cleanly isolates the cast, so the read is moderate-confidence (see the match file's Data gaps).
+- clock 1:12-1:05: he plays around the opponent's Arrows on his Zappies by putting a Mother Witch in front — "he might try to arrows last second" — and the opponent's Arrows does land at clock 1:05.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:05 (t=801.5): spent reluctantly on the Evolved Dart Goblin because nothing else in the deck answers it — "I don't even want to arrows at the evo dark goblin, but I do think that I have to".
+- clock 0:32 (t=834-837): cycling to Arrows is a stated objective in this matchup, not an afterthought — "We have to cycle to our Arrows to take out that Princess".
+- clock 0:38 (t=946.8): the game-ending play, Arrows on the Skeleton Army defending his overtime push — "Let's go for the arrows here for the skarmy. Nice beautiful arrows just grabbing that skarmy army and that is good game".
+- clock 1:51 (t=747-753): names the combo he wants with them — "if I had e-barbs right now, I'd just drop e-barbs arrows at the bridge, to be honest, and I think that it would actually end up working out".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

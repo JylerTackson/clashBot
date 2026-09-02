@@ -187,6 +187,24 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - mentioned only, not played (t=163-167s): "I think it also means maybe it won't one-shot princess dart goblin and things like that anymore, but I'm not 100% sure. So don't quote me on that." — his hedged read on the post-nerf Evo Elite Barbarian spears.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:24 and 0:03 (opponent): deployed twice late; her locking on to his tower is what makes him spend the finishing Rocket instead of holding it — "just rocket cuz that princess locked in" (172-174s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 2:33: Princess at [8, 10], centre and set back, as the opponent committed Little Prince plus Zappies (their elixir 8.73 -> 1.73 across two plays) — a both-lanes placement rather than a bridge poke.
+- clock 0:55 and 0:24: Princess at [8, 0] behind the King Tower and later at [9, 4], both defensive placements in triple elixir; no commentary on her in this game.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:51 (t=756.8, tracked at tile [7, 22]): Ryley's stated answer to a Princess in this deck is a back-placed Sparky — "I do like to go for Sparky's into the princess cuz they're just able to get completely taken out".
+- clock 0:32 to 0:10: she is the reason he cycles for Arrows ("We have to cycle to our Arrows to take out that Princess", 835s) and eventually walks a Valkyrie into her ("Very good Valkyrie walking to the Princess", 860s).
+- clock 1:11 (t=915): rates the evolved version but caps it — "Evo Princess is good, but it's not going to be enough".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

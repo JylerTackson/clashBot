@@ -110,6 +110,11 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - He treats them as free value for his own splash unit: "if you went for spear goblins, we could have grabbed them" (421-423s), and reads them as the opponent's cheapest way out of a pocket Minion Giant — "he had the fireball spear goblins just to not take two shots" (478-480s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:47-0:40 (opponent): chip pressure down the right lane, once spawning already on Ryley's half; he answered with The Log at clock 0:40 while narrating the wider defence — "This should be a really good defense" (133-134s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

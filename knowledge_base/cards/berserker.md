@@ -234,6 +234,22 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - how the nerf changes matchups (t=121-129s): "I think the Hero Berserker will definitely be worse, but it just won't be like unstoppable anymore. Like I think now it won't fully counter something like elite barbarians and stuff like that." He also floats at t=205-215s that "maybe the Berserker could have got some of this treatment as well" (the double nerf the Ebarbs got).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 1:58-1:43: the Hero Berserker is this deck's defensive anchor — "The Hero Berserker is like the defensive tool that you always wanted, but never had. Also, it's very good offensively, too, but it's mainly just super good on defense in this deck right here because you're able to just abuse the fact that it cannot be taken off of the board to just get some super nice defenses and kind of get away with just spamming your opponent like crazy" (56-72s).
+- clock 1:35 and 0:16: defensive placements on his own half at tiles [15, 12] (elixir 5.0 -> 3.0) and [9, 4] (8.0 -> 6.0) against Little Prince and split Elite Barbarians, each paired with a Dart Goblin dropped a second earlier — "then we can go for the Dart Goblin Berserker" (77-79s).
+- clock 1:25, 0:42 and 0:07: bridge placements at [13, 14], [16, 15] and [4, 14] used purely to deny the opponent time — "I think I should even drop a Berserker at the bridge, to be honest. Just make sure I keep on applying a crazy amount of pressure" (89-93s), "Let's berserker wall breakers just so he has no time to pressure us" (165-168s).
+- clock 0:24: picks the Berserker's lane off the opponent's elixir rather than the board — "Go for the berserker towards the right, I think, cuz he's going to put more elixir on the right" (152-156s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 2:35, 2:02, 0:48 and 0:26 (Hero variant): a 2-elixir defensive troop, never a win condition — deploy labels at [9, 12], [6, 8], [8, 14] and [11, 10], all on his own half or the bridge. He names two placement heights: "let's go for the Berserker here low" (2:02) when he wants it in front of his tower, "let's go for the high berserker here" (0:52) when he wants it to meet the push early.
+- clock 2:02-1:57: tried and failed to get Savage Survival off — "I want an ability if I can. Yeah, I couldn't get the ability off. It's fine."
+- clock 0:48-0:44: the ability play that decided the game, used as a prediction rather than a rescue — "He might e-barb, so let's pop our ability as well just to make sure that it stays alive… Beautiful ability right there just predicting that he'd go all in like a dummy," followed by "Okay, very good defense here actually. We defended that push really well."
+- clock 2:49: the card is one of the three Ryley names the deck after — "this Royal Hogs Hero Berserker Evo Ghost deck."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

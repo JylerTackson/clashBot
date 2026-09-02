@@ -132,6 +132,12 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - OT 1:04-0:52: with no spell and no reset card in the deck, his only try is the Berserker's Savage Survival — "Wait, Berserker ability. Come on, take out the Inferno Tower. Wait, this can take out the Inferno Tower" (t=933-936) — and it fails: "dude, this Inferno is just unresettable" (t=942-943).
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:11 (t=738-742): assumed in the opponent's deck before it was seen, and it shapes his whole game plan because this list has no stun — "I assume he has inferno tower, and I'm not actually going to be able to reset that inferno tower", so he plays for elixir volume instead.
+- clock 0:40 (t=824.8) and clock 1:18 (t=906.9): the opponent places it early at tile [10, 20] twice and Ryley rates both placements badly — "These early Inferno Towers are not going to work" and "Bad Inferno Tower. That's not really doing what he wants it to".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Tower (scraped 2026-09-02T02:35:33+00:00)

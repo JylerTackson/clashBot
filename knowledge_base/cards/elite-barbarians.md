@@ -221,6 +221,34 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - mentioned only, not played by either side: named as an example of what he thinks is wrong with the meta while arguing against the Void buff - "there is so many toxic, you know, cards in the game right now, with the ebarbs, the Valk, so many crazy things" (851-858s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 1:31 (opponent): a pair arrived in the left lane at tiles (3, 10) and (4, 10) roughly 2.7s from his tower; he answered with Ice Spirit [7, 12] + Skeletons [9, 11] + a deep Wall Breakers pair and called it "Nice, beautiful defense right there" (82-86s).
+- clock 0:50 (opponent): rather than defend a second pair with troops he spent a 6-elixir Rocket on them — "Man, they're way too scary to actually think about dealing with in any other way" (124-128s).
+- clock 0:16 (opponent): a 10.0 -> 4.0 elixir commitment split across both lanes in the last 20 seconds, which he answered with Dart Goblin plus Berserker while his own Wall Breakers finished the right tower (156-163s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- clock 1:46: one use, and it decides the game — Evolution Elite Barbarians at the right-lane bridge tile (14, 14) as the opposite half of a Battle Ram double-lane commit; enemy right tower 4858 -> 1180 within 12 seconds. "Let's go for the e-barb as well and we can go for the heal spirit" (249-251s).
+- He names them as one of the two cards that make the deck at 190s: "the evo elite barbarians. This deck is so broken right now, guys."
+- clock 0:52-0:43: the opponent also runs Elite Barbarians, and Ryley treats holding them as a losing position — "He dropped all three of his air cards instead to not get three crown, but to also like not use his e-barbs cuz I think he knows if he uses e-barbs and he's just cooked."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 1:54-1:46: names them as the emblem of the meta this deck is built for — "one thing that I'm noticing about this meta, man, is that it's such an aggressive low-skill meta. Like, it's constantly just like… E-Barbs at the bridge and stuff like that."
+- clock 0:48: pre-empted them with the Hero Berserker's ability rather than a hard counter — "He might e-barb, so let's pop our ability as well just to make sure that it stays alive."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:34 (t=711.7): Evolved Elite Barbarians at the bridge, tile [14, 14], with the punish spell ruled out first — "I will go for my e-barbs here at the bridge cuz I don't think that he has a rocket in his deck".
+- clock 2:15-2:11 (t=731-740): states the whole matchup plan around them against a Log Bait deck with an Inferno Tower he cannot stun — "I just need to get a lot of elixir up and just spam my e-barbs cuz I assume he has inferno tower, and I'm not actually going to be able to reset that inferno tower".
+- clock 1:35-1:32 (t=771.8, 774.8): two bridge drops at tile [3, 14] followed by Rage — "I think I just e-barbs at the bridge here on the right side, and then we go for the rage... We just eat the barrel, and we just go for the rage on offense".
+- clock 1:21 (t=905.9): in overtime he plays them deep beside the tower rather than at the bridge, tile [8, 19] — "we can go for the Evo E Barbs here in the pocket"; that push plus Rage and Minions takes the enemy right tower from 3122 to 588 HP by clock 1:03.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

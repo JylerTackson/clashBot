@@ -258,6 +258,19 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - opponent card, named not seen: Ryley predicts the cheap answer to his Electro Giant push and pre-rolls a Barbarian Barrel at the bridge for it - "He has to go for a skeletons, which is nice" (969s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 1:39: played at tile [8, 14] (elixir 9.0 -> 8.0) to pull the Little Prince walking the left lane — "Let's go for the skeletons here just to bring this up. Make sure we take this out" (74-76s).
+- clock 1:31-1:27: a second set at [9, 11] to drag the Elite Barbarians off their lane — "Wait, skellies over here. Bring this over. Come on" (82-84s).
+- clock 0:42-0:07: the cycle card of the deck, dropped roughly every ten seconds in the last minute (tiles [8, 14], [14, 14] plus five 1-elixir HUD drops between 0:25 and 0:07) to keep Wall Breakers and Skeleton Barrel coming — "Okay, let's go for the skellies here" (130-131s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 2:33, 1:59, 1:57, 0:51, 0:47, 0:25 and 0:23: seven 1-elixir drops, always back-to-back with another defensive card (Skeletons -> Berserker at 1:59-1:55, Barbarian Barrel -> Skeletons -> Berserker at 0:52-0:48). The cheapest cycle card in a 2.75-elixir shell trying to get back to Royal Hogs and Furnace.
+- Never mentioned by name in this game; the slot is the least certain in the deck read (HUD-only, no deploy label) — see the match file's Data gaps.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

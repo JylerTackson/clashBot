@@ -196,6 +196,19 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 0:51: second-lane commitment while the piggies worked the other side — "I'm going to go battle ram opposite lane. We need to continue going in here."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:31 (opponent): not seen played in the second half, but he tracks it in their hand and changes his spell plan for it — "I know he has the battle ram in his hand. So, I have to be very smart when I play with my log" (145-148s). A Battle Ram was detected advancing his right lane earlier at clock 2:22.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- clock 2:47: the Evolution Battle Ram is the opener, dropped alone at the left bridge tile (2, 13) with a full 10 elixir; it alone takes the enemy left tower 4858 -> 1048 HP by clock 2:08. Ryley introduces the list around it: "we are playing with this battle ram bridge spam deck with the hero Valkyrie and the evo elite barbarians" (186-190s).
+- clock 1:47: Battle Ram at (3, 10) on the left paired one second later with Elite Barbarians at (14, 14) on the right — a deliberate double-lane commit that finishes both crown towers by clock 1:38. "Let's go for the battle ram here. Oh, very good start. Let's go for the e-barb as well."
+- clock 0:55: with both towers gone he plays it across the river at (4, 20) as bait for the opponent's Elite Barbarians — "Let's go for the evo battle ram here as well. He's going to have to drop the e-barbs, which is good cuz then he won't be able to e-barbs on my ram."
+- Every Battle Ram in this game is on a bridge or enemy-half tile (2, 13), (3, 10), (4, 20), (14, 21); it is never used defensively or as a kite.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

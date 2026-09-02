@@ -158,6 +158,13 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - clock 0:51 and overtime 1:55 (opponent's, mentioned): Ryley gives credit for it twice — "Oo, good heal" and "Good barb barrel by Aragon and good heal spirit too."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- clock 1:43: doubled on the same push — two Heal Spirits back to back on the Battle Ram / Elite Barbarians commit, explicitly to out-heal chip damage: "we can go for the heal spirit. Very good situation. Let's heal spirit too. Nice. It's going to heal up off of the mega minion as well" (251-255s).
+- Used on both halves of the field in the same game: defensively at (6, 9) and (9, 14) (clock ~1:01 and 0:32) to save Zappies and a Valkyrie under a Lava Hound push, and offensively at (4, 17) in the opponent's half at clock ~0:13.
+- Reliability note for this match: four HUD plays read as "Skeletons" (-1 elixir each) sit within 2 s of score-1.0 'Heal SpiRit' deploy labels and are Heal Spirit.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

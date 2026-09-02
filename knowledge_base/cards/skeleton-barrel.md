@@ -137,6 +137,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - opponent plays at clock 2:01 [16, 14], 0:32 [17, 15], 0:03 [0, 13] and overtime 1:17 [1, 15] — the opponent's only air pressure. Ryley's answer at 2:00-1:51 was Evo Cannon at [9, 14] plus Ice Golem and Ice Spirit; the tracker had it 1.1 s from the tower at 1:53 and the right tower still finished the wave at 2890/3052.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 2:39: opening bait play at tile [2, 14] (elixir 6.0 -> 3.0) alongside a Dart Goblin behind it.
+- clock 0:56 and 0:38: barrels at [14, 8] and [14, 13] stacked with Wall Breakers so one spell cannot cover both — "Let's go for the wall breaker skelly barrel here" (118-121s), "Let's go for another skelly barrel, guys" (138-140s), "Let's evo skelly barrel here at the bridge" (163-165s).
+- clock 1:07: supports the barrel with an Ice Spirit dropped behind it — "we need to go for the Ice Spirit in the back for the Skeleton Barrel" (105-108s) — and credits the opponent when they answer it exactly: "They did actually fix the perfect Ice Spirit timing on the Skeleton Barrel, if I'm not mistaken" (113-116s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

@@ -125,6 +125,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - t=693-742s: thinks he is one meta shift from breaking out — 'with all of the buffs it has been receiving recently, all it needs is like that one breakthrough meta' — and flags his own bias: 'I'm a really big fan of the card. That's where like the personal bias comes in ... Personally, just don't like the queen, but I really do like the little prince.'
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 1:43-1:12 (opponent): walked the left lane and was redeployed twice; Ryley answered with Skeletons plus tower rather than a card of his own — "Let's go for the skeletons here just to bring this up. Make sure we take this out" (74-76s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

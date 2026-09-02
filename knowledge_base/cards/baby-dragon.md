@@ -163,6 +163,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - overtime clock 0:45 (video 1070.1s, tile (2, 14)): sent with the second Electro Giant rather than held - "Let's go for a baby dragon, too. I have another E giant already. So, we definitely have a decent chance to break through here" (1070-1076s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Opponent card, reaching his left tower around clock 1:20-1:16 alongside the Lava Hound. Ryley's stated point at clock ~0:59 is that his Mother Witch's real job in that defence was to tank it so the Zappies survived: "the mother witch would have been tanking for the baby dragon. Good defense though, very good defense."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

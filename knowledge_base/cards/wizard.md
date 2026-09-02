@@ -159,6 +159,14 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:03: deliberately held the Fiery Flight ability because the opponent had Tornado — "I'm not going to pop the ability cuz he might just [na]do opposite lane." The ability is never activated in the readable window.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:40 (t=706.2): Evolved Wizard at tile [16, 6] played to tax the opponent and to cycle, not to defend — "just doing this will force him to spend extra elixir on my wizard, which is good cuz I'm also cycling to my evo e-barbs at the exact same time".
+- clock 0:32 (t=833.5): back placement at tile [8, 0] with the next card already planned — "Let's Wizard in the back here. We have to cycle to our Arrows to take out that Princess".
+- clock 1:03 (t=922.9): centre of his own half at tile [8, 5] as pre-cover against the bait deck's ground answers — "Let's go for the wizard here in the middle in case he has to go for like a knight skarmy barrel".
+- clock 0:44 (t=940.9): only once ahead in overtime does he put the Evolved Wizard on the opponent's half at tile [8, 21] — "We can get a nice evo wizard in the pocket".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

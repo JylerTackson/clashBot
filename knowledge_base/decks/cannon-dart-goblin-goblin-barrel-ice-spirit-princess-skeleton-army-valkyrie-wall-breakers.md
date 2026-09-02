@@ -83,6 +83,17 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - He also spends a cheap card to buy a king activation and accepts chip damage for it: Wall Breakers centre at (10, 11) at t=378.2 to kite a ground unit into the king tower — "just to kite this barbarian... then we can get a nice maybe a nice king activation" (376-383s) — and then "I know I'm eating a lot of damage, but I think it's worth it to get a king activation" (405-409s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- Game 4 of a five-deck showcase (video 527.7-694.7 s), won by concession at clock 0:16. Ryley names the list himself at t=531-533: "here, guys, we have this a log bait spam deck with the hero Valkyrie", run with Evo Goblin Barrel, Evo Skeleton Army and the Hero Valkyrie.
+- Single-elixir play is all defence and cycle: Evo Skeleton Army plus Ice Spirit on an early Battle Ram (clock 2:45), Valkyrie on a Royal Ghost (clock 2:38), Princess centre-back against Little Prince plus Zappies (clock 2:33).
+- From double elixir he runs a two-lane bait loop rather than one big push — Wall Breakers [10, 12] then the bridge [13, 14] with Dart Goblin and Cannon behind (clock 1:55-1:47), Evo Goblin Barrel in the other lane (clock 1:26), Wall Breakers again at clock 0:58 and 0:17.
+- The deck's damage all comes from the Hero Valkyrie's Wild Whirlwind: held at clock 1:28 ("I have the Valkyrie ability ready. I don't see a point to use it"), popped at clock 1:22 to "go up to the tower and block the bomb" (enemy left tower 4329 -> 1477 HP in four seconds), popped again at clock 0:34 to walk through the Wizard onto the tower (1028 -> 247 HP).
+- He plays the whole match around the opponent having only one spell: stacking swarm plus splash at clock 1:36 ("I think that he only has Vines in his deck"), spending the Evo Goblin Barrel to draw the Barbarian Barrel (clock 1:26), and treating "we forced out the Vines" (clock 0:50) as the moment the game is safe.
+- Deck-choice advice at t=581-599: "this type of deck definitely also just helps you improve at the game in general... you want to not be switching your deck around every single season. You want to be able to kind of commit to one deck and this deck definitely would be a very good deck to choose because it's just been around for so long." Caveat at t=566-575: "there is a lot of counters to it right now in the meta, but with this deck you're able to outplay every single match up if you play perfectly."
+- Evolution guidance at t=628-643: "that's why you have the Evo Skeleton Army over the Evo Wall Breakers... the Evo Skeleton Army in the right matchups can just get way too much value to pass up on and it is probably the best spell bait card of all time."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
 ## Source
 
 - https://royaleapi.com/decks/popular?lang=en (scraped 2026-09-02T03:43:33+00:00)

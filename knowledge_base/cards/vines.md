@@ -128,6 +128,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:24: emergency use on the Electro Giant push — "Let's definitely go for the vines here" (five Vines placements in the game: clock 2:17, 0:59, 0:47, overtime 1:31 and 1:24).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- Mentioned only, never played (it is the opponent's card). clock 1:32: he stacks Evo Skeleton Army plus Valkyrie precisely because of it — "I think that he only has Vines in his deck and Vines in this would only be solid for me". clock 0:50: forcing it out is treated as the win condition of the exchange — "we forced out the Vines, which is really good".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

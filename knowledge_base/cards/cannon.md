@@ -214,6 +214,12 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - OT 0:42 (t=770.8): Cannon at (16, 13) — the only right-lane placement, part of the one cycle where he abandons the left rail to defend.
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 1:52: Cannon at [15, 13] behind the double-elixir push, on the lane the opponent had been pressuring with Royal Ghost and Barbarians.
+- clock 0:50: Cannon at [9, 11] played early against incoming Zappies, and counted as a spell draw — "Let's cannon here early just to make sure that we take this out and we forced out the Vines, which is really good".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

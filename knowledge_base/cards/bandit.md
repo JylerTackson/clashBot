@@ -168,6 +168,12 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - clock 2:39-1:42 (opponent's card): answered with Skeletons, Barbarian Barrel and Berserker, and it is the reason he spends Electro Spirit on Furnace protection at 1:42.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Every Bandit in this match lands on row 14, the river row: (13, 14) at clock 2:25, (5, 14) at clock 1:10, (9, 14) at clock 0:16. She is the cheap lane-refresher, not a defensive card.
+- clock 1:10: played directly behind a high Mother Witch so the Mother Witch tanks — "let's go for a high mother witch to block the potential arrows and we can go for the bandy here" (281-284s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

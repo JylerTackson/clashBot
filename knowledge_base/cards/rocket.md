@@ -135,6 +135,13 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - Mentioned, not played (the opponent's big spell). At overtime clock 1:04 he factors it into a bridge push — "I have to watch out for a rocket barrel" (415-419s) — and at overtime clock 0:16 he discounts it as a losing condition: "He needs more than one rocket, guys, so he can't just rocket us away. As long as we save up for defense" (463-468s).
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:50: spent defensively on his own half at tile [14, 11] rather than saved for a tower — "I think I'm going to just rocket here on top of these e-barbs. Man, they're way too scary to actually think about dealing with in any other way" (122-128s).
+- clock 0:03: the closer, cast at [12, 23] on the opponent's half with the enemy left tower dropping 3686 -> 2547 HP over the next four seconds — "we can just rocket to finish him off. Unless he spells his way... Okay, well, just rocket cuz that princess locked in" (168-174s).
+- clock 2:10: named as one of the two spell win conditions that replaced the spirits in the post-nerf hyper bait list (42-46s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

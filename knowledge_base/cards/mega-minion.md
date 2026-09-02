@@ -116,6 +116,13 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:24: he blames it for nearly losing the game — "I think we actually might just still get cooked because of the mega minion... Dude, the mega minion is so broken against us."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Opponent's card here is the Heroic Mega Minion, and Ryley treats its Wounding Warp teleport as the reason to delay defending (clock ~1:26): "I don't really want to defend this push until the hero mega minion gets taken out though because otherwise he'll just be able to teleport onto everything."
+- clock 1:43: he counters its chip damage with a doubled Heal Spirit on his own push — "It's going to heal up off of the mega minion as well."
+- clock ~0:28: once it locks onto his tower he accepts the damage rather than over-spending — "Oh my god, he basically did. Okay, that mega minion locked in."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

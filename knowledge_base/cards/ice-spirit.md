@@ -210,6 +210,26 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - OT 1:51 / 0:42 (t=700.5, 770.8): also used as the cheap left-lane escort at (2, 15) and as right-lane defence at (16, 9).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 1:31: defensive freeze at tile [7, 12] (elixir 3.0 -> 2.0) as two Elite Barbarians closed on his left tower, together with Skeletons at [9, 11] — "Nice, beautiful defense right there" (84-86s).
+- clock 1:07: dropped at [14, 5], deep behind the Skeleton Barrel, as the support piece of the push — "we need to go for the Ice Spirit in the back for the Skeleton Barrel" (105-108s).
+- clock 1:49 and 0:42: paired as the cheap half of two combos — "we're going to need to go for the Ice Spirit plus Wall Breakers as well" (79-82s) and "we can go ice spirit dark goblin [Dart Goblin] here. This should be a really good defense" (131-134s).
+- clock 2:12: he flags the spirit nerf as the reason people wrote hyper bait off, and the reason the list now runs only one — "Hyper bait's probably dead, you know, the spirits got nerfed" (39-42s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 2:45: Ice Spirit at [10, 12] paired with the Evo Skeleton Army against the early Battle Ram.
+- clock 0:34: Ice Spirit at [2, 14] behind the bridge Valkyrie, cheap filler on the closing push.
+- clock 0:18: held it on purpose as a specific answer — "I'm going to save my Ice Spirit in case he goes for the Evo Battle Ram" — before spending both copies at clock 0:08 and 0:07.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:09 (t=918-921): the opponent's last-ditch save on a tower already broken by Evo E-Barbs and Minions — "Spirit's going to save him, but it's not going to save him well enough. He's already at 500 HP".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

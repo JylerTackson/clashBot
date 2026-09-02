@@ -210,6 +210,20 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2
 - clock 0:51 (opponent's card): thrown at [11, 11] together with Arrows while the opponent is nearly out of elixir; Ryley reads the whole exchange as him having successfully drained them — "Good job, though. Forcing that out. We have to be really careful."
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock ~2:16 and 1:26: Evo Goblin Barrel onto the far tower at [14, 24] and then the near-left tower at [2, 24], alternating lanes with his Wall Breakers pressure.
+- clock 1:26: thrown as a spell draw rather than for damage — "Let's go for the Barbarian Barrel, I mean, the Goblin Barrel to force out the Barbarian Barrel, sorry".
+- clock 0:40: the last one at [3, 27], announced as part of a three-card close-out — "we want to go for the Evolved Goblin Barrel here and I'm going to Valkyrie the bridge too cuz if he drops anything, yeah, I can pop the ability".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:03 (t=742.6): answered with Valkyrie — "Let's definitely go for the Valkyrie here. Take out this goblin barrel".
+- clock 1:05 (t=802-805): he uses the opponent's Goblin Barrel as the trigger for giving up a tower he has already written off — "I'll let my tower go when he goes for a goblin barrel".
+- clock 0:47 (t=819-823): the combo he holds Valkyrie for is Barrel plus Skarmy played beside the tower — "We have the Valkyrie ready here if he tries to go for any type of Goblin Barrel Skarmy playing the pocket".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

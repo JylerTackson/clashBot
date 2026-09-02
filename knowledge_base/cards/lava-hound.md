@@ -149,6 +149,12 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
 - opponent card, clock 1:45 (t=66.1s at [2, 16], elixir 10.0 to 3.0): their one big commit of the game. Ryley built no dedicated air defence around it — Dart Goblin plus the Goblin Gang spear goblins were the whole answer — and used the elixir window it opened to keep his Berserker/Elite Barbarians pressure going (Goblin Gang [14, 5] and The Log [14, 10] at t=72-74s were spent on the ground follow-up instead).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Opponent's win condition in this match (clock 1:33, tile (2, 19), then tracked down the left lane through clock 1:10). Ryley refuses to defend it properly while the opponent's Heroic Mega Minion is alive — "I don't really want to defend this push until the hero mega minion gets taken out" (clock ~1:26).
+- clock 1:15: with a two-tower lead he answers the Hound push with Zappies alone rather than a full defence — "there's no need to be greedy and try to like get a bunch of extra value out of this". His left tower is ground 4738 -> 150 HP over the rest of the game but never falls.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

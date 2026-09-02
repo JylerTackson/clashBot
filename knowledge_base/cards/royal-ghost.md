@@ -140,6 +140,12 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 2:22 (opponent): walks the whole left lane from [5, 25] to the King Tower unanswered; Ryley takes the damage on purpose - "Hopefully, activate our King Tower" (clock 2:07) - and gets it, own king HP becoming readable at 7512 the next second: "Nice, beautiful King activation."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 1:55, 0:57, 0:29 and 0:19 (evolved): played at [3, 9], [8, 0] and [12, 8] — always his own half, usually the back rows, as cycle and defence rather than a lane opener. "Let's go for the ghost in the back and we can go for the furnace as well" (0:58).
+- clock 1:55: the one time he committed it under pressure it was a concession, not a counterattack — "We'll just go for the ghost here. Take a bunch of damage."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)
