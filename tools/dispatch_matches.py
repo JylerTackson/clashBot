@@ -28,9 +28,9 @@ def save(m):
 
 def ready() -> list[dict]:
     out = []
-    for ctx in sorted(RUNS.glob("*/match_*/context.json")):
+    for ctx in sorted(list(RUNS.glob("*/match_*/context.json")) + list(RUNS.glob("*/match_*/game_*/context.json"))):
         c = json.loads(ctx.read_text())
-        if c.get("empty"):
+        if c.get("empty") or c.get("split_into"):
             continue
         key = f"{c['video_id']}-m{c['match_index']}"
         q = c.get("quality", {})

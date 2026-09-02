@@ -51,6 +51,7 @@ class GameState:
     t: float
     frame_index: int
     readiness: str                 # "match" | "menu" | "unreadable" | "loading"
+    match_id: int = 0              # increments on every detected new match (clock reset / re-entry)
     match_clock: str | None = None
     match_seconds: float | None = None
     phase: str | None = None       # "single_elixir" | "double_elixir" | "triple_elixir" (+ "_overtime")
@@ -62,7 +63,7 @@ class GameState:
     stale: dict = field(default_factory=dict)   # field -> seconds since last confident read
 
     def to_json(self) -> dict:
-        return {"type": "state", "t": round(self.t, 3), "frame": self.frame_index, "readiness": self.readiness,
+        return {"type": "state", "t": round(self.t, 3), "frame": self.frame_index, "readiness": self.readiness, "match_id": self.match_id,
                 "match_clock": self.match_clock, "match_seconds": self.match_seconds, "phase": self.phase,
                 "own": self.own, "opponent": self.opponent, "units": [u.to_json() for u in self.units],
                 "legal_mask_hash": self.legal_mask_hash, "field_confidence": self.field_confidence,

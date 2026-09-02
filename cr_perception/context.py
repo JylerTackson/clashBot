@@ -44,17 +44,31 @@ def parse_vtt(path: Path) -> list[dict]:
     return cues
 
 
-def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_names: dict[str, str]) -> dict:
+def split_matches(states_path: Path, min_seconds: float = 60.0) -> list[tuple[int, float, float]]:
+    """(match_id, t0, t1) for every match segment in a run (by the perception
+    match counter, which increments on clock resets)."""
+    segs: dict[int, list[float]] = {}
+    for rec in read_jsonl(states_path):
+        if rec.get("type") == "state" and rec["readiness"] == "match":
+            mid = rec.get("match_id", 0)
+            segs.setdefault(mid, [rec["t"], rec["t"]])[1] = rec["t"]
+    return [(m, a, b) for m, (a, b) in sorted(segs.items()) if b - a >= min_seconds]
+
+
+def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_names: dict[str, str],
+                  match_id: int | None = None) -> dict:
     states, events = [], []
     for rec in read_jsonl(states_path):
         if rec.get("type") == "state":
-            states.append(rec)
+            if match_id is None or rec.get("match_id", 0) == match_id:
+                states.append(rec)
         elif rec.get("type") == "play_event":
             events.append(rec)
     match_states = [s for s in states if s["readiness"] == "match"]
     if not match_states:
         return {**header, "empty": True, "reason": "no readable match frames"}
     t0, t1 = match_states[0]["t"], match_states[-1]["t"]
+    events = [e for e in events if t0 - 1.0 <= e["timestamp"] <= t1 + 1.0]
 
     # 1 Hz timeline
     timeline, last_sec = [], None

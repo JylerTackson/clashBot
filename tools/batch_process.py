@@ -22,7 +22,7 @@ import cv2
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from cr_perception import Perception, VideoFrameSource  # noqa: E402
-from cr_perception.context import build_context, render_context_md  # noqa: E402
+from cr_perception.context import build_context, render_context_md, split_matches  # noqa: E402
 from cr_perception.recorder import JsonlRecorder  # noqa: E402
 from cr_perception.screen import assess, detect_content_rect, detect_game_panel  # noqa: E402
 
@@ -119,14 +119,24 @@ def process_video(vid: str, vdir: Path, out_dir: Path, a, card_names: dict, det)
             summary = {"frames": n, "seconds": round(time.perf_counter() - t_start, 1), "timing": p.timing_report(),
                        "own_elixir_drift": p.own_sim.drift_stats(), "opponent_deck": p.deck.summary()}
             (mdir / "summary.json").write_text(json.dumps(summary, indent=1))
-            ctx = build_context(mdir / "states.jsonl", vtt, {"video_id": vid, "title": title, "match_index": i,
-                                                                "period": [p0, p1], "calibration_method": method,
-                                                                "url": f"https://www.youtube.com/watch?v={vid}"}, card_names)
-            (mdir / "context.json").write_text(json.dumps(ctx, indent=1))
-            (mdir / "context.md").write_text(render_context_md(ctx, card_names))
-            result["matches"].append({"index": i, "status": "done", "frames": n, "seconds": summary["seconds"],
-                                      "events": len(ctx.get("events", [])), "own_deck": ctx.get("own_deck_observed")})
-            print(f"  {vid} match {i}: {n} frames in {summary['seconds']}s, {len(ctx.get('events', []))} events, deck {ctx.get('own_deck_observed')}", flush=True)
+            # one context per actual game: a readiness period can span several
+            # back-to-back games, the clock reset splits them
+            segs = split_matches(mdir / "states.jsonl") or [(None, p0, p1)]
+            written = []
+            for k, (mid, s0, s1) in enumerate(segs):
+                sub = f"{i}" if len(segs) == 1 else f"{i}.{k}"
+                ctx = build_context(mdir / "states.jsonl", vtt, {"video_id": vid, "title": title, "match_index": sub,
+                                                                    "period": [s0, s1], "calibration_method": method,
+                                                                    "url": f"https://www.youtube.com/watch?v={vid}"}, card_names, mid)
+                cdir = mdir if len(segs) == 1 else mdir / f"game_{k}"
+                cdir.mkdir(exist_ok=True)
+                (cdir / "context.json").write_text(json.dumps(ctx, indent=1))
+                (cdir / "context.md").write_text(render_context_md(ctx, card_names))
+                written.append({"match": sub, "seconds": round(s1 - s0, 1), "events": len(ctx.get("events", [])), "own_deck": ctx.get("own_deck_observed")})
+            if len(segs) > 1:
+                (mdir / "context.json").write_text(json.dumps({"video_id": vid, "match_index": i, "split_into": written}, indent=1))
+            result["matches"].append({"index": i, "status": "done", "frames": n, "seconds": summary["seconds"], "games": written})
+            print(f"  {vid} period {i}: {n} frames in {summary['seconds']}s -> {len(written)} game(s): {written}", flush=True)
         except Exception as e:  # noqa: BLE001
             (mdir / "error.log").write_text(traceback.format_exc())
             result["matches"].append({"index": i, "status": "failed", "reason": str(e)[:300]})
@@ -139,9 +149,9 @@ def main() -> int:
     ap.add_argument("--videos", default=str(ROOT / "data" / "videos"))
     ap.add_argument("--out", default=str(ROOT / "runs" / "videos"))
     ap.add_argument("--only", nargs="*")
-    ap.add_argument("--stride", type=int, default=3)
-    ap.add_argument("--detect-every", type=int, default=10)
-    ap.add_argument("--label-every", type=int, default=5)
+    ap.add_argument("--stride", type=int, default=5)        # 6 fps HUD at 30 fps source
+    ap.add_argument("--detect-every", type=int, default=6)  # ~1 Hz unit detection
+    ap.add_argument("--label-every", type=int, default=3)   # 2 Hz deploy-label OCR
     ap.add_argument("--imgsz", type=int, default=640)
     ap.add_argument("--no-detector", action="store_true")
     a = ap.parse_args()

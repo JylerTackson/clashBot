@@ -58,6 +58,7 @@ class Perception:
     EXIT_SECONDS: float = 2.0
     label_every: int = 15                     # frames between deploy-label OCR passes
     label_scale: float = 0.7
+    tower_ocr: bool = False                   # per-tower OCR is slow; the arena label pass reads HP numbers
     detect_every: int = 3
     ocr_every: int = 10
     use_ocr: bool = True
@@ -93,6 +94,8 @@ class Perception:
         self.last_good: dict = {}
         self.last_good_t: dict = {}
         self.match_started = False
+        self.match_id = 0
+        self._last_remaining = None
         self.gate = MatchGate(self.ENTER_FRAMES, self.EXIT_SECONDS)
         self.frame_i = 0
         self.H = None
@@ -147,6 +150,8 @@ class Perception:
         return out
 
     def reset_match(self, t: float) -> None:
+        self.match_id += 1
+        self._last_remaining = None
         self.play = PlayDetector(self.costs)
         self.own_sim.reset(t)
         self.opp_sim.reset(t)
@@ -173,6 +178,7 @@ class Perception:
             self.reset_match(t)
         self.match_started = self.gate.in_match
         state = GameState(t=t, frame_index=idx, readiness=readiness)
+        state.match_id = self.match_id
         state.field_confidence["readiness"] = ready.conf
         state.field_confidence["readiness_raw"] = ready.state
         if not self.match_started:
@@ -214,6 +220,12 @@ class Perception:
                 clock_s, clock_conf, remaining = s2, min(c2, 0.7), parse_clock(s2)
         clock_v, clock_conf, stale_c = self._commit("clock", clock_s if remaining is not None else None, clock_conf, t)
         remaining = parse_clock(clock_v) if clock_v else None
+        # a clock that jumps UP by more than 20 s is a new match (3:00 again):
+        # reset per-match state (deck tracker, elixir sims, tracks, holds)
+        if remaining is not None and not stale_c:
+            if self._last_remaining is not None and remaining - self._last_remaining > 20:
+                self.reset_match(t)
+            self._last_remaining = remaining
         overtime = bool(self.last_good.get("overtime", False))
         phase = self._phase_from_clock(remaining, overtime)
         self._tick("clock", t0)
@@ -221,7 +233,7 @@ class Perception:
         # ---- towers (OCR, low rate) ----
         towers_own = {"king": None, "left": None, "right": None}
         towers_enemy = {"king": None, "left": None, "right": None}
-        if self.ocr is not None and idx % self.ocr_every == 0:
+        if self.tower_ocr and self.ocr is not None and idx % self.ocr_every == 0:
             t0 = time.perf_counter()
             hp = self.tower_reader.read(content)
             for k in ("king", "left", "right"):
