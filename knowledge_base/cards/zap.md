@@ -205,6 +205,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 0:47: he builds his pocket stack specifically to force it out — "he has the evo hunter, right? And then he's going to have to zap, too."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:21 (t=605-607): named as part of the opponent's spell coverage — "he has a Evo Zap and Arrows and Hero Mega Minion. But, with perfect play, I still think I can win this".
+- clock 0:18 (t=670-672): he accepts it on his evolved Dart Goblin as the price of chipping — "let's just go for the Dark Goblin Evo here. Chip this down. He's going to go for the Evo Zap, which is fine".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

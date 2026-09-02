@@ -183,6 +183,13 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
 - mentioned, not seen (t=375s): ruled out while reading the opponent's deck — "I don't even think that he has a lava hound. I think he just straight up has that stupid spam deck."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 2:04 (t=560.6) onward: the opponent's win condition, entering the left lane at tiles [0-1, 17-24] five separate times (t=560.6, 608.6, 612.6, 648.6, 652.7). Ryley never answers it with a building for the first two and a half minutes and simply accepts the chip — his left tower goes 4858 -> 1868 HP over the game.
+- clock 1:54 (t=573): his stated answer is long-range chip on the tank plus swarm on the payload — "Just go for the Dark Goblin here to start chipping down this Lava", then "Let's just go for the Berserker here to distract those Lava Pups. We'll fully counter those nicely" (t=591-595).
+- clock 1:07 (t=620-623): against the Hound's swipe he prefers kiting to blocking — "I still think I need to kite this away to be honest cuz I don't want to take the swipe on the tower".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

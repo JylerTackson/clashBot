@@ -207,6 +207,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 1:10 (overtime): he states its limitation while adding the Suspicious Bush on top — "I have to bush as well because obviously he's going to be able to defend just the skelly barrel."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:47-2:32 (opponent, Evolution): identified early — "Evo skelly barrel here a tombstone and zappies. I guess it's just some off meta deck" (184-188s) — and answered with a deep Electro Spirit at (9, 1).
+- clock 1:10: it is the single card he reserves his building for — "I'm going to save my cannon because of the Skeleton Barrel. I don't want to get caught lacking by a Skelly Barrel" (271-275s), which is why the Bowler was allowed a free tower hit.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

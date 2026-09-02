@@ -163,6 +163,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
 - He also plays around it without spending: Barbarian Barrel skeletons to block the lane before a Skeleton Barrel lands (495-501s), keeping the Bowler unsplashed (581-585s), and refusing a bridge Mortar late — "I damn near morted at the bridge so the firecracker couldn't splash me, bro. I was not taking that risk" (619-624s). It is also the one card that could still cost him the win: "I win the game as long as he doesn't get any firecracker chip" (612-616s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- The opponent's small ranged unit, tracked at [3, 16] at clock 0:24 (chipping his left tower 4728 -> 4218 HP) and at [13, 17] at clock 0:42 in overtime.
+- He explicitly prefers facing it over Princess — "I really am hoping he has firecracker not princess, cuz princess is super good against my deck... Firecracker is not bad, but I feel like princess is more annoying cuz it doesn't activate the king like the firecracker does" (912-924s), and confirms it at clock 1:37: "thankfully he has the firecracker not the princess. I am very happy about that" (946-949s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

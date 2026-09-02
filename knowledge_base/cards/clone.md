@@ -111,6 +111,11 @@ Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1
 - Opponent card, spotted mid-push at clock ~1:08 — "Oh my god, he has a clone" — and used on a Minion swarm around clock 0:40. Ryley answers the cloned Minions with a high Valkyrie plus Arrows and judges the timing poor: "That was a little bit of a bad clone, I think" (317s).
 <!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- Tracked twice on the opponent's side near the right bridge (t=1059.1 tile [14, 15] at clock 1:43, t=1107.1 tile [14, 17] at clock 0:54). Ryley never names the card; at the second one he reacts to an animation he cannot place — "He's going to use ability, bro. What? I mean, I guess it worked, but that was still interesting" (1107-1112s), so the Clone reads come from the detector rather than from commentary.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Clone (scraped 2026-09-02T02:35:29+00:00)

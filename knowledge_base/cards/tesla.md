@@ -162,6 +162,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
 - opponent card, parked at tiles (8, 19)/(8, 20) four times (video 884.9s, 965.0s, 1071.1s, 1085.1s) and the main reason his Electro Giants never reached a tower in overtime - "Hold on a second. He has a Tesla" (1081s).
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:18 onwards (opponent): the building sat at (8, 19) covering the middle; Ryley targets it with the pair that beats buildings — "let's Wall Breakers here with this cuz I want to make sure that I take the Tesla off the board" (303-306s), and at clock 0:15 he drops Electro Spirit and Ice Spirit on it at (8, 19)/(8, 20) during the finishing push.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

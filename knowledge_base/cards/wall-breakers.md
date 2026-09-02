@@ -218,6 +218,60 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
 - Mentioned, not faced on camera in the readable window: Ryley describes them as the opponent's Miner follow-up and as the reason he keeps his Cannon and Ice Spirit in hand - "he would just go for the bat split and then he'd minor wall breakers with it. And I wouldn't have my cannon or my ice spirit for anything" (1165-1170s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:07, 1:43, 1:23, 0:54: four bridge deploys, all in the same left lane at (4, 15), (3, 14), (3, 13), (4, 14). It is the follow-up behind the Goblin Barrel, timed for when the opponent's answer is out of cycle - "cuz I'm going to get the miner out of him, then maybe a zap, but this should just take out the whole tower" (t=89-92).
+- clock 0:54: used purely to tax elixir rather than to kill - "I'm going to wall breakers at the bridge just to try to finish off this tower at least force out some elixir maybe like the minions" (t=115-119).
+- clock 1:15: he prices in the nerf after the push lands - "Maybe not the whole tower after the wall breakers nerf, but close enough. I'll take it" (t=94-97).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:12 and 2:04: played immediately behind the Berserker + Goblin Barrel package, the second pair at (13, 14) — "Oh, wall breakers at the bridge too just cuz he shouldn't really have anything good for this. Come on, that's going to get a double. Bang bang. Aw" (216-220s); enemy right tower 4458 -> 3494. He judged the timing greedy afterwards: "Got a little uh got a little too excited right there" (223-225s).
+- clock 1:35: at (3, 13) on the left as part of the four-card aggression burst with the Evo Goblin Barrel; enemy left tower 4858 -> 1160.
+- clock 0:36: used as a building-remover rather than tower damage — "let's Wall Breakers here with this cuz I want to make sure that I take the Tesla off the board" (303-306s).
+- In this match they are never played alone: every deploy (clock 2:12, 2:04, 1:35, 0:36, 0:18) follows a Berserker, a barrel or both into a lane that already has a target.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- clock 2:30: first damage card of the game at (13, 13), one tile off the right bridge, played before the opponent has shown a counter — "Okay, let's go for the wall breakers here" (362s). Enemy right tower drops to 3258 by clock 2:15.
+- clock 1:55: at (8, 14), the middle of the river, so the pair splits toward whichever lane is less defended; part of the Goblin Barrel + Dart Goblin burst that halves the enemy left tower.
+- clock 1:05: a defensive Wall Breakers at (12, 6), deep on his own half, into a Giant Skeleton advancing the right lane (tower in 3.7s) — the only non-offensive placement of the five in this game.
+- clock 0:48: at (15, 14) on the right bridge while already ahead, casually announced — "We can go for the wall breakers well" (462s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:19 (t=607.6): the decisive play of the match, paired with Berserker at the bridge — "Let's go for the Wall Breakers plus Berserker here at the bridge. That Mega Minion could get kited to the other lane, which is great" (t=610-614), then "That's going to be a double connection. Bang and bang. Beautiful" (t=615-616). Enemy left tower 1258 -> 658 HP.
+- clock 2:42 (t=525.5), 2:13 (t=553.6), 0:57 (t=629.6), 0:43 (t=643.6): every placement is at or just behind the bridge on his own half (tiles [13-15, 9-15]), always alongside a Berserker or a Goblin Barrel — never sent alone into a fresh defence.
+- clock 0:43 (t=644): shows the restraint side — with the enemy right tower nearly dead he skips them: "I'm not even going to Wall Breakers. I think that should just be tower down on one of the lanes... cuz he can't defend both of them".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 2:40: opening bridge Wall Breakers at tile [14, 14], elixir 9->7, as the alternative to the opening barrel — 'split wall breakers or goblin barrel on the tower just to get to my Evo right away' (t=701-707).
+- clock 2:17: 'Let's wall breakers the bridge again here' (t=728-730), tile [13, 15].
+- clock 2:03: splits them into the left lane at tile [4, 15] behind a bridge Berserker and an Evo barrel, specifically 'because he doesn't have a tombstone in cycle' (t=742-746); right after, 'we forced out a lot of elixir right there. Good connection' (t=747-748).
+- clock 1:12: back-placed Wall Breakers at tile [16, 2] as a pressure lock rather than chip — 'Dude, in the back are so annoying, to be honest, because now he just has to sit there and wait to defend. He can't even really go in' (t=792-799), set up by 'if he wastes his tombstone, then we can maybe get a good set of wall breakers shortly' (t=782-786).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 1:58 (t=924.9, tile [9, 14]): split across lanes alongside the Evo Goblin Barrel as the opening damage package — "I guess I'll split my wall breakers and then Evo Barrel as well" (924-927s).
+- clock 0:54-0:48 (t=988.3 tile [4, 14], t=994.5 tile [3, 13]): two back-to-back sets behind a Log-baiting barrel; "he's going to have to eat those wall breakers" (992-994s) and the enemy left tower falls 4858 -> 1085 HP.
+- clock 0:12 (t=1031.4, tile [13, 15]) with Berserker as cover against the swarm answer — "Let's go for the berserker plus wall breakers cuz he could gang so I want to have berserker down" (1033-1036s); "It's going to be a connection double no matter what he does" (1036-1038s).
+- overtime (t=1052.1, 1068.1, 1088.1, 1102.1, 1108.9, tiles [14, 14], [4, 13], [4, 14], [13, 15]): run with Electro Spirit on repeat until the opponent cannot keep pace — "the E-Spirit plus wall breakers again for like the millionth time" (1103-1107s), "this guy's just struggling to keep up with our cycle" (1077-1080s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:45 (t=1204.2): cancels a split and sends them at tile [3, 14] into the same lane as the opponent's back-line Royal Giant — "Okay, actually, let me go wall breakers same lane cuz he's going for these back RGs. I want to put in more pressure".
+- clock 1:17-0:59 (t=1232.2 [4, 15], 1243.4, 1249.2 [3, 14]): three more sets into the same left lane while the enemy left tower falls 3086 -> 895 HP; he plays them as bait as much as damage — "Maybe we force out the bats, but even if I don't, I don't really care" (1237-1240).
+- clock 0:59 (t=1249.2): timed off the opponent's cycle rather than his own elixir — "let's go for the wall breakers again as well. Perfect. He used his bomber, so he's not back to the bomber yet".
+- clock 0:42-0:34 (t=1267.3 [8, 18], 1274.3 [9, 19]): played deep on the opponent's half in the closing push once the opponent stopped defending; the enemy right tower reads ~4499 -> 128 HP over t=1272-1274.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

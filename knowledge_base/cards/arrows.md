@@ -161,6 +161,19 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
 - mentioned only, not played (t=969s): the spell he places around rather than baits — "He might go for the arrow. So, I'm going to go for the dart goblin off to the side here", which is why the Dart Goblin goes to [15, 6] instead of behind the tower.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:08 (opponent's spell): he spends a cheap bridge package specifically to find it — "I just want to figure out if he even has any spells. Okay, he has arrows but we do get some decent dark goblin chip" (211-216s).
+- clock 0:50: with Arrows known, the Goblin Barrel becomes bait — "Barrel here to try to force out the Arrows. Then we can go for the Dart Goblin off to the side" (289-292s); when the opponent does not use it at clock 0:38 the tower goes from 960 to 360 HP.
+- clock 0:42: he places 1-elixir spirits deep to dodge a prediction Arrows — "I'll put the E-Spirit all the way down here though just so I don't get clipped with a prediction Arrows or anything like that" (297-301s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:48 (t=576-580): spotted mid-game and treated as bad news for a bait deck — "Oh, he has Arrows, too. That's unfortunate".
+- clock 1:02 (t=626-628): he plays the Dart Goblin into it anyway rather than waiting — "I know he's going to go for the Arrows on this as soon as he can".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

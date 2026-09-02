@@ -267,6 +267,55 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - t=2190 and t=2217: both of his stated game-losing errors are Cannon errors — "I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit", then "I misclicked my cannon and I had to log ice spirit the wizard" (Cannon label at [9, 11], t=2216.2).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:38 and 1:05: both times at exactly tile (9, 9) - the standard 4-from-river anti-tank pull for the right lane - first against the opening Knight/Battle Ram/Minions push, then against the second Battle Ram wave ("This is definitely very scary to defend, but I think I'll be able to get it", t=105-107).
+- clock 0:25: a deliberately forward Cannon at (9, 14), on the river row, to meet the Evolved Battle Ram before it reaches the tower - "Let's go for a high cannon here ice spirit as well" (t=145-147).
+- clock 0:47: played into an empty lane purely as elixir pressure while the opponent builds a Three Musketeers push - "he's just going to 3M you up. Okay, let's cannon here early hit the pump. Nice. Okay, at least we got some elixir out of him" (t=120-126).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock ~2:47: the opening play, deploy label at (8, 10); he leads with the building before knowing the matchup — "Just going to start off with my cannon here. This guy's going to probably be playing mortar bait" (173-178s).
+- clock 2:23 and ~1:57: middle-of-his-own-half placements at (8, 9) and (9, 9) against the Zappies push. The clock 2:23 play is the 3-elixir HUD step misread as Skeleton Army; the Cannon leaves his hand in the same two seconds.
+- clock 1:12-1:10: he refuses to spend it against a Bowler counter-push because the building is reserved for a different card — "Not going to cannon just yet. I'm going to wait on that ... I'm going to save my cannon because of the Skeleton Barrel. I don't want to get caught lacking by a Skelly Barrel. I'd rather just take the Bowler shot" (268-277s). He holds it again at 296s: "I'm not going to cannon again. I think I'd rather just go for the E-Spirit."
+- clock 0:28: pre-placed at (9, 9) on a read rather than a reaction — "He's probably going to Recruits the bridge then. Let's cannon here early" (312-314s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- clock 1:10, 0:40, 0:25 and 0:13: four Cannons in the last 90 seconds, every one reactive and every one in the same column-9 pocket between his own towers (9, 9), (9, 11), (9, 8) — never pre-placed.
+- clock 0:55: he names the target before placing — "Then we can go for another high cannon here. Make sure that we take out the battle ram" (455-459s), and calls the result "Beautiful defense right now. We're playing this very nicely."
+- The Cannon is the anchor of the two-card defence he repeats all game: Cannon plus Skeletons or Ice Spirit against Giant Skeleton and Battle Ram, at clock 1:10 and again at 0:40 ("Let's cannon here and then we can go for the skeletons plus ice spirit here as well", 472-477s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 0:32 (t=652.7): first Cannon at tile [1, 13] is placed for pathing, not for the tank — "I'm going to cannon like this just to make the Mega Minion go in front of the Lava Hound so I don't have to deal with it anymore" (t=654-658), with two Lava Hounds already in the left lane.
+- clock 0:22 (t=664.7): a second Cannon at [1, 12] as pure area denial — "These cannons are super nice cuz it just makes it super awkward cuz look, that Mega Minion just goes in front. I'm going to cannon too just to keep blocking the bridge so we can't even go for a Baby Dragon" (t=660-667).
+- clock 0:03 (t=683.7 [1, 11], t=684.4): the last Cannon of the game is a distraction against the final Lava Hound — "let's go for the Cannon here to distract and let's go. Beautiful win" (t=684-685). All four Cannons come after clock 0:35; for the first two and a half minutes he defends the Lava Hound with spirits and swarm and never places the building.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 0:39-0:14: the only confirmed Cannon of the readable window, at tile [9, 13] (t=852.9), placed purely to survive the last stretch — 'I have to defend for another 15 seconds, but I think I'm chilling' (t=848-852).
+- The building otherwise stays in hand all game (HUD reads it in hand through most of clock 2:51-0:40, low confidence): every earlier defence is Skeletons, Ice Spirit, Electro Spirit and Dart Goblin instead, which is what keeps him cycling to the Evo Goblin Barrel.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 2:36 and 1:43 (t=886.4 tile [8, 10], t=939.9 tile [8, 9]): central placement to pull the Royal Hogs, paired with Skeletons and a spirit — "Let's go for the cannon then skellies" (941-943s).
+- clock 0:48 (t=994.0, tile [9, 11]) as the defensive half of a double play with a low Dart Goblin — "Let's go for the cannon here then we can go for the low Dark Goblin outside of the range of the log" (994-997s).
+- overtime, clock 1:25 (t=1078.9, tile [9, 10]): played before the push arrives — "Let's cannon here early" (1078-1080s). It is then taken out by a Freeze at 1085s, which he shrugs off: "He did get our cannon, but it's fine" (1084-1087s).
+- overtime, clock 0:47 (t≈1114): the clearest statement of the 2.0 cycle's economy — "let's go for the cannon here in the middle because he wasted the fireball. Every time he wastes fireball, I can just cycle a free cannon to be honest" (1113-1119s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:29 (t=1219): announced as held in reserve behind the Evo Dart Goblin — "We have a cannon ready as well".
+- clock 1:25-1:19 (t=1225-1231): explicitly declined against an Evolution Royal Giant that then took 490 HP off his left tower — "Yo, hold on. I'm not even going to go for the cannon. I'm just going to let this go because even though we take some damage here, I think it's more beneficial to eat this damage and just go in". Two HUD events label 3-elixir drops at [9, 9] as Cannon, but the commentary contradicts both, so no Cannon placement is asserted for this game.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

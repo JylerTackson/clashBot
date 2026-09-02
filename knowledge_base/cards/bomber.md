@@ -142,6 +142,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
 - opponent card, clock 1:24 / 0:52 (t=908.9 [14, 13], t=940.9 [4, 19]): the answer his bait pulled out early, which he counts as a small win — "Anyways, yeah, got the bomber out of him. We get a little bit of chip damage on the tower" (t=898-902s, enemy right tower 3009 to 2749).
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:53-1:50 (t=1193.2, 1197.2): the opponent's Evolution Bomber walks the left lane alone; Ryley treats it as a placement constraint rather than a threat — "Bomber will be a little bit annoying cuz it can one-shot all of my spirits, but it just means I have to be a little bit more precise and smart with my placements" (1189-1194).
+- clock 1:09 and 0:57 (t=1240, 1252): he uses the Bomber's rotation as his timing signal for more Wall Breakers — "Okay, we force out the bomber" and "He used his bomber, so he's not back to the bomber yet".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

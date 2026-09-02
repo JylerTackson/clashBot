@@ -223,6 +223,18 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - t=2148: also answered with a defensive Princess — "I went princess on the zappy. I knew that I would have to protect it".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:34-2:20 (opponent): the opening push he answers with Skeletons on the river row and a Cannon rather than a spirit — the Zappies are named in his first deck read, "Evo skelly barrel here a tombstone and zappies" (184-188s).
+- clock 1:30: during his big commit he wants a spirit specifically to reset them — "Maybe retarget the Zappies" (251-252s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- The opponent's most-played card (six casts, clock 1:46 through 0:03). Ryley names them as one of the two cards his deck has no spell for — "I don't really have a spell to take out the mother witch or the zappies but because of how crazy our spam is in this deck, we could actually have just a really good sequence randomly" (395-400s).
+- clock 1:43: his answer is a mid-board Dart Goblin rather than a spell — "let's go for the dark goblin here just make sure that we take out the zappies" (409-411s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

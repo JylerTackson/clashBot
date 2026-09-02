@@ -315,6 +315,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - Eight Log plays across 250 s of a 3.1-elixir bait deck: it is his default answer to every ground swarm so that his elixir goes on bridge pressure instead of his own half.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 1:25: taken as the answer to the Wall Breakers instead of Goblin Gang — "He can't even really gang. It would be too late... he had the log instead" (958-961s).
+- It shapes two of his placements: the Goblin Barrel thrown to draw it out ("Let's barrel as well to force out the log", 990s) and the Dart Goblin placed low ("we can go for the low Dark Goblin outside of the range of the log", 995-997s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

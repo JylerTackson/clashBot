@@ -210,6 +210,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
 - his working-around is a timing play rather than a spell (t=364-367s): The Log on top of the Tombstone so the Suspicious Bush arrives after it is dead and the opponent "has to respond to it again". At t=456s he expects one more of them on defence — "cuz if he tombstones then obviously, yep, he gave up."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 1:14 (opponent): he plays around the ability, not just the building — "He could even pop the Tombstone ability" (265-266s), as a reason not to commit the Cannon into the Bowler push.
+- clock 0:20: with both his towers under 1000 HP the opponent puts a Tombstone at his own back line, which Ryley reads as the opponent having lost track of the game — "Why is he putting his Tombstone down there? What the hell?" (320-322s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

@@ -134,6 +134,13 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - 721-742s, on the teleport: 'they are changing the teleport damage from 373 to 399 which is a 7% buff which I think is fair cuz they did definitely hurt the mega minion all over the board... before this mega minion was not able to take out a lot of units with a mega minion plus a spell. But now it will actually be able to do that making it a lot better offensively but not like as annoying against crown towers.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 2:04 (t=562-571): the opponent's Heroic Mega Minion, and Ryley values the information over the interaction — "First thing about the Hero Mega Mini is good. To be honest, it's more so just good knowing that he has it than anything, cuz a Hero Mega Minion coming out as a surprise can be so devastating".
+- clock 1:17 (t=612-614): he plans his bridge push around pulling it off-lane — "That Mega Minion could get kited to the other lane, which is great".
+- clock 0:32-0:22 (t=654-667): both of his late Cannons are placed to manipulate it — "I'm going to cannon like this just to make the Mega Minion go in front of the Lava Hound so I don't have to deal with it anymore" and "that Mega Minion just goes in front".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

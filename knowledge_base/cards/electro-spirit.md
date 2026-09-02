@@ -266,6 +266,55 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 0:38: it is what punished his mistimed Hero Berserker ability — "I didn't think he'd be able to hit the dark ob with the e spirit. That was such a horrible ability."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 1:29, 0:54 and 0:16: three located deploys, all on his own half - (7, 7) into a three-Minion group, (2, 10), and (14, 9) during the final stand. He calls it as the last card of a stacked defence twice: "Let's e-spirit here please" (t=131-133) and "Let's go for the berserker here. Let's e-spirit" (t=140-142).
+- In this list it is the deck's only stun/reset - there is no spell at all in the eight - which is why it is spent on defence rather than on chip.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:32: deep at (9, 1) to clear the skeletons of an Evolution Skeleton Barrel that had already crossed — "let's e-spirit here just to take this out" (203-205s).
+- clock 0:42: placed as far back as possible on purpose, at (10, 5), against the Royal Recruits — "I think I'd rather just go for the E-Spirit. I'll put the E-Spirit all the way down here though just so I don't get clipped with a prediction Arrows or anything like that" (296-301s). This is his stated rule for 1-elixir spirits against an Arrows deck.
+- clock 1:48 and 0:15: at (10, 14) on the river row, and at (8, 19) on the opponent's half on top of the Tesla in the last push.
+- clock 1:49-1:39: he names the deck's spirit-heavy defence as its weakness — "you can tell the spirits are a decent amount worse whenever you're defending a card like Archer Queen or Musketeer because the Musketeer and the Archer Queen one-shotting spirits does actually make defense very difficult in quite a few scenarios" (229-241s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- clock 1:03: used specifically for its chain against a Royal Ghost / Mother Witch cluster — "we can go for the e-spirit too just to make sure that we chain the ghost ghouls away" (452-455s).
+- clock 1:19 and 0:33: both placements are on his own half at (7, 9) and (7, 13), never sent across the bridge — consistent with keeping it away from the enemy King Tower while he is barreling.
+- clock 0:07: a final 1-elixir spend during the overtime spam while he is already narrating the win.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 2:24 (t=541.4, tile [8, 14]) and clock 1:49 (t=577.6, tile [6, 14]): placed at the bridge line, using the 1-elixir chain stun on whatever crosses rather than holding it for a specific card.
+- clock 0:07 (t=677.7, tile [2, 6]): paired with Skeletons in the closing defence — "Let's go for the E-Spirit Skellies" (t=681), the only time he names it.
+- Seven plays (t=541.4, 554.2, 577.6, 602.6, 609.8, 630.3, 666.7, 677.7) with the chain aimed at the Lava Pup swarm; it is the cheapest cycle filler in the 2.0 list.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 2:31 and 2:11: 1-elixir resets on the opponent's Knight walking into his half, tiles [8, 14] and [8, 11] (t=714.2, t=734.4).
+- clock 1:55: paired with the Dart Goblin as a two-card answer — 'now we can go for the dart goblin plus e-spirit' (t=750), tile [7, 13].
+- clock 1:05: closes out the Baby Dragon defence for 1 elixir (t=802.0), after which 'he forced out NATO [Tornado], which is good' (t=804-806).
+- clock 0:08: 'e-spirit all the way in the back' (t=858) as part of the closing defensive set-up.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 2:25 (t=897.6, tile [14, 7]) as the paired spirit behind a Goblin Barrel — "Let's go for the barrel here. We can go for the e-spirit plus ice spirit" (896-899s).
+- clock 1:26 (t=956.6) on top of Wall Breakers as a prediction against the Goblin Gang answer — "Let's go for the wall breakers plus e-spirit. Oh, good prediction. Let's go. He can't even really gang. It would be too late" (956-961s).
+- clock 0:27-0:17 (t=1016.0 tile [3, 14], t=1026.2) held specifically for the opponent's Bats — "We can e-spirit here for the bats again as well" (1016s); by overtime the threat is neutralised outright: "Wall breakers, E-Spirit again. So, he just can't go for the bats" (1090-1092s).
+- overtime, clock 0:38 (t=1118.1/1124.3, tile [6, 9]): the one-elixir chain stun into an Evolved Bats plus Goblin Gang counter-push, alongside Berserker, Ice Spirit and Skeletons (1119-1123s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:05 (t≈1244): his named answer to the opponent's Bats while the Dart Goblin was busy on the Royal Giant — "Let's e-spirit for the bats. Come on. Nice. It's really good, actually" (1244-1246). The deploy label at [3, 14] was attributed to the opponent by the pipeline; the commentary makes it Ryley's.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

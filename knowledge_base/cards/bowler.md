@@ -201,6 +201,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
 - His rule for facing a back-line Royal Giant with a Bowler in hand: "going RG the back against a bowler in triple elixir maybe isn't always the move because then I just get a free bowler and my bowler will obviously live" (572-579s) — with the caveat that he then plays around the Firecracker, "just trying to make sure that my bowler didn't get splashed" (581-585s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 1:19 (opponent): treated as a counter-push threat rather than a defensive problem — "I have to be careful though cuz he does have the counter pushing Bowler. He could even pop the Tombstone ability" (262-266s).
+- clock 1:10: rather than answer the Bowler with his building he lets it hit the tower and keeps the Cannon for the Skeleton Barrel — "I'd rather just take the Bowler shot" (275-277s), and instead chips it with the Dart Goblin: "We can get some good damage on that Bowler hopefully ... Come on, hit the Bowler. Nice" (254-261s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

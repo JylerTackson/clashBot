@@ -275,6 +275,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - In this Rocket-cycle list the Princess is his only sustained chip damage: she is played ~9 times, both behind his own towers (t=1972 [11, 3], t=2044 [8, 7], t=2212 [10, 9]) and at the bridge.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- Never played by either side, but discussed at length as the card that would swing this matchup against a Log Bait cycle deck — "princess is super good against my deck, to be honest. I'm just completely unable to kill it" (916-921s), the trade-off being that she does not activate the king tower the way Firecracker does (921-924s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

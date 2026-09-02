@@ -300,6 +300,57 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
 - t=1263.3: sends it behind an Ice Spirit as a counterpush rather than as a lone chip play, and it connects (1264-1270s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:23, 1:45 and 1:25: three Evolved Goblin Barrels, every one on the enemy LEFT tower at (3, 25), (3, 24), (3, 25). He never splits lanes with it - "I only really want to attack one lane because I know that this is going to be a one tower game. Like if I end up losing my tower, I'm just going to lose the game anyway" (t=68-76).
+- clock 1:26-1:23: barrel as the middle card of a Berserker -> Barrel -> Wall Breakers stack, all called in advance ("Let's go for the berserker plus barrel here. Then we can go for the wall breakers, as well", t=84-88). Enemy left tower falls 2653 -> 155 HP inside eight seconds.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:41: the first offensive card of the game, thrown alone at (14, 25) on the enemy right tower with 9 elixir in hand (elixir 9 -> 6); the tower drops 4858 -> 4458, and he uses it purely as a probe while reading the opponent's deck.
+- clock 1:35: the Evolution Goblin Barrel on the enemy LEFT tower at (3, 25) is the centre of his one big commit — "We can berserker and then Evo Barrel plus Wall Breakers well. I just want to be really aggressive" (244-248s); the left tower falls 4858 -> 1160 in the next six seconds.
+- clock 0:50 and 0:38: two barrels into the lane the Royal Recruits are NOT in, explicitly as spell bait — "Barrel here to try to force out the Arrows. Then we can go for the Dark Goblin off to the side" (289-292s). The second one goes un-Arrowed and finishes the tower: "he has to Arrows that which is good. Yo, that's damage. Oh my god, he let it go" (307-309s), enemy left 960 -> 360.
+- clock 1:02: he cancels a planned Berserker + Barrel when the opponent commits Royal Recruits — "We can go for the Berserker plus Barrel here. Oh my god. Good thing we didn't go for the Barrel" (277-282s). All five barrels in this match are at a tower; none is defensive.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- clock 2:48 and 2:23: two Goblin Barrels on the same enemy right tower at tile (14, 25) inside 26 seconds, both as pure opening chip with no tank and no follow-up spell; the second is an afterthought on top of a Wall Breakers cycle — "Let's go for the barrel here as well" (370s).
+- clock 1:54: he switches lanes and barrels the enemy left tower at (3, 26) in the same 5 seconds as Wall Breakers at the river and a Dart Goblin; that burst takes the left tower 4858 -> 2609. "Yo, that's going to be a lot of damage on the left. Beautiful" (402-405s).
+- clock 0:55: a fourth Barrel while defending a Battle Ram push, showing he never holds it for a combo in this deck — it is a cycle card that happens to chip.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 2:50 (t=516.5): opens the game with it on the enemy left tower, tile [2, 25] (HUD + deploy label, elixir 9.0 -> 6.0) before any defensive read — in this 2.0 list the barrel is the metronome, thrown roughly every cycle rather than saved for a spell-bait window.
+- clock 1:45 (t=581.6) and clock 0:43 (t=641.6): the evolved barrel is the opener for the bridge package — "we can go for the Evo Barrel here and we're going to Wall Breakers" (t=581-583) and "we already have the Evo Barrel back, so we can go for the Evo Barrel plus Berserker here at the bridge" (t=638-640).
+- clock 0:57 (t=628.6): switches lanes with it, tile [14, 26] on the enemy right — "let's go for the Barrel, Ice Spirit, and Wall Breakers"; the enemy right tower goes 3185 -> 1287 HP over the next ten seconds.
+- Six throws in 180 s (t=516.5, 547.5, 581.6, 601.6, 628.6, 693.0), four of them at tiles [2-3, 24-26] on the enemy left; against a Lava Hound deck holding Arrows and Evo Zap he throws through the answers rather than baiting them out first.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 2:50: opens the game by barrelling the enemy left tower (tile [3, 25]) — 'my favorite starting play with this deck is just split wall breakers or goblin barrel on the tower just to get to my Evo right away' (t=701-707).
+- clock 2:26: immediately barrels the same tower again, 'you know, it's barrel here again' (t=720); the enemy left tower drops from 4858 to 3858 between clock 2:42 and 2:16.
+- clock 1:52: places the barrel deliberately short at tile [3, 26] — 'I'm going to barrel one tile in the back cuz he might knight in front of his tower for the dart goblin' (t=754-757) — and it works: 'he knights over there, and the dart goblin's on the tower. Nice' (t=760).
+- clock 0:54 and 0:28: barrel paired with a bridge Berserker as a standing two-threat, timed off the opponent's missing answer — 'I'm going to berserker plus barrel again cuz he has no barb barrel in cycle' (t=836-838); the whole cycle plan is 'all we need is to get to the next evo barrel and we'll be completely chilling' (t=832-834).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 1:57 (t=926.8): the Evolution barrel goes down with split Wall Breakers into a hand gap he had counted — "I guess I'll split my wall breakers and then Evo Barrel as well cuz he doesn't have the Goblin Gang in cycle so he can just get a nice push off" (924-932s); the enemy right tower drops 4724 -> 3255 HP over 932-936s.
+- clock 0:53 (t=990.0, tile [14, 26]): thrown purely as a Log bait so the Wall Breakers behind it connect — "Let's barrel as well to force out the log. Come on, hit the bats" (989-992s); the enemy left tower goes 4858 -> 1085 HP by clock 0:47.
+- clock 1:17 (t=966.0/974.6, tile [14, 26]) against a Royal Hogs bait deck holding Goblin Gang: "Let's go for that Goblin Barrel here... He's going to have to go for the Goblin Gang. That could be full countered. Yeah, that was a good gang by him" (966-974s).
+- overtime, clock 1:53 and 0:35 (t=1050.0 tile [14, 23], t=1111.1/1121.1 tiles [4, 26]/[3, 25]): the barrel is the closing card of every overtime wave and takes the game — "the wall breaker. Oh my god. The barrel and that is good game. Let's go. Beautiful win, man" (1126-1130s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:22 (t=1227.2): thrown at [3, 25], centre of the enemy left tower, in the same rotation in which he refuses to spend elixir on defence — "I think it's more beneficial to eat this damage and just go in" (1228-1231).
+- clock 1:05-1:03 (t≈1243-1247): a second throw called and then graded against the opponent's empty elixir bar — "we can go for the barrel, too ... That's going to be a full barrel on the tower. He has no elixir".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

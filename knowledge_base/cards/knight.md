@@ -256,6 +256,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
 - t=699.7s: Knight at (11, 14) arrived too late behind a Fire Spirit that jumped early — "obviously the knight wasn't down in time because it instantly jumped. So, the magic archer instantly targeted, which was very unfortunate" (707-712s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:37 and 1:57 (opponent's Evolved Knight): each crossing is met with 2-3 elixir of cheap ground - Berserker at (4, 9) plus Skeletons at (3, 13) at clock 1:54 - rather than a building.
+- clock 0:42-0:37: the Evo Knight push is beaten by Evo Dart Goblin + Ice Spirit + Berserker, with the read that the opponent's spell cannot clear the Dart Goblin: "He doesn't have an Evo zap so he is unable to take this out" (t=129-131).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

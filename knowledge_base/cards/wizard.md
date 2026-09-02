@@ -173,6 +173,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - Named with Mother Witch as the pair that makes his cheap-swarm defence awkward (t=2044), and he is the unit Ryley is forced to answer with Log plus Ice Spirit after misplacing his Cannon at t=2217-2219.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. At clock 2:15 the Berserker's job is explicitly to hold him — "mine just needs to be there to keep the wizard distracted" (380-383s).
+- clock 1:27: he hopes the Savage Survival burst catches the Wizard as well as the tower — "That might even take out the wizard if we're lucky" (430s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

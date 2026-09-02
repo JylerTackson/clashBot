@@ -111,6 +111,12 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.m
 - clock 1:54: the opponent answers a nearly-dead tower with a pump; Ryley reads it as a concession and keeps attacking — "that's tower down, but he's opting to ignore it and just go for a pump." (opponent's card, discussed not played)
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:04 and 1:23 (opponent's card): two pumps, at (9, 22) and (16, 27). Against a 2.0 cycle deck with no spell, Ryley's answer is not to punish the pump directly but to keep a card at the bridge - the second collector is never touched and is still standing at the end of the game.
+- clock 0:47: he does use the pump as a reason to spend early - "let's cannon here early hit the pump. Nice. Okay, at least we got some elixir out of him" (t=122-126).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Collector (scraped 2026-09-02T02:35:34+00:00)

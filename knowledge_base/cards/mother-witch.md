@@ -229,6 +229,13 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
 - Played by the opponent, not by Ryley: tracked at [5, 15] around clock 1:34 and he is caught out by it — "Oh, he has a mother witch. I did not know that. Oh man, that is unlucky. Maybe not unlucky, but it's just unfortunate" (t=536-542s). His Goblin Gang at [3, 5] dies into her and two Cursed Hogs appear on his own half seconds later.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. Ryley names her as a card his 2.0 log bait cycle cannot answer with a spell (395-398s), and keeps the Berserker's Savage Survival in reserve specifically for her — "We have the ability if he goes for like a mother witch or something or even like a ghost" (clock 1:33, 420-424s).
+- clock 0:28-0:20: when she finally comes down the left lane he spends the ability plus Skeletons and Berserker on her — "Okay, that was a interesting Mother Witch. Okay, I think I should go for the ability here" (483-488s).
+- clock 1:03: the Electro Spirit chain is his tool against the ghouls she leaves behind — "just to make sure that we chain the ghost ghouls away" (452-455s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

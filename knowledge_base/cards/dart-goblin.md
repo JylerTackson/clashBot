@@ -271,6 +271,60 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 0:47: treated as the card that must eat the opponent's small spell — "we can go for the dark ob cuz he has the evo hunter, right? And then he's going to have to zap, too." It was instead killed by an Electro Spirit after his mistimed Berserker ability at clock 0:43.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:34-0:35: four Evolved Dart Goblins, all placed deep on his own half - (8, 6), (8, 8), (9, 5) plus one unlocated 3-elixir drop at clock 2:02. He never bridges it; it is the deck's defensive backbone.
+- clock 0:42: Dart Goblin at (8, 8) with Ice Spirit at (6, 10) into the Evo Knight - "Let's go for the dark goblin plus ice spirit. He doesn't have an Evo zap so he is unable to take this out" (t=126-131). It survives: "our dark goblin lived. Hold on a second guys. That is actually huge for us" (t=134-137).
+- clock 0:24-0:15: with two Evo Dart Goblins alive behind Skeletons they grind down the Battle Ram push and save the tower - "Look at these dark goblins just cooking this guy... That's just the power of the Evo dark goblin right there. It was just shooting at everything constantly" (t=147-159). Earlier: "Ever since the dark goblin evo got the buff, I feel like it's been like a sneakily underrated card" (t=43-47).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 1:38: opens the aggression burst from his own half at (9, 13) — "Let's go for the Dark Goblin here" (241-243s); keeping him alive behind the push is the point, "Nice, we kept the Dark Goblin alive. Beautiful. We can get some good damage on that Bowler hopefully" (252-256s).
+- clock 1:10: at (10, 7), deliberately deep, as the value half of a cheap defensive pair — "Let's go for the Dark Goblin and Skellies" (270-271s).
+- clock 0:27 and 0:07: (16, 9) and (15, 7), hard against the arena edge — "then we can go for a Dark Goblin off to the side" (292s and 314-316s), i.e. out of the way of splash and spells.
+- clock 2:07: he accepts eating the opponent's Arrows because the Dart Goblin pays for it over time — "he has arrows but we do get some decent dark goblin chip" (212-216s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- clock 1:43: mid-board at (8, 10) as the answer to a three-Zappy plus Barbarians split push, chosen instead of a spell — "let's go for the dark goblin here just make sure that we take out the zappies. We'll defend both lanes which is nice. Hopefully our dark goblin can survive too" (409-415s).
+- clock 0:48: the Evolution copy is explicitly held in cycle rather than spent — "I'm just saving my Evo Dark Goblin in cycle so I don't waste it here cuz it would be really good to get like a shot off on the giant skeleton before it gets vine-stopped" (464-472s).
+- clock 2:19: played "low" at (8, 8) on his own half against a Giant Skeleton push, and he immediately flags the risk of it giving the opponent a King Tower activation — "we could have got a king activation if that shot at our dark goblin but it's all good" (385-388s).
+- clock 0:11: with the game won he sends one to (1, 17) inside the opponent's half as free chip.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:54 (t=572.6): dropped at tile [8, 6], deep on his own half and behind the Lava Hound's line, as long-range chip on the tank itself — "Just go for the Dark Goblin here to start chipping down this Lava" (t=573).
+- clock 0:57 (t=630-636): states the evolution's value in the Lava matchup — "because the Dark Goblin was Evo, it's just going to keep chipping down that Lava the whole time. There's nothing that he can really do about that".
+- clock 1:38 (t=589-590): withholds it rather than trade it into nothing — "I'm not going to Evo Dark Goblin if he doesn't do anything. There's no point"; then plays it anyway knowing the answer is coming — "I know he's going to go for the Arrows on this as soon as he can" (t=626-628) and "He's going to go for the Evo Zap, which is fine" (t=670-672).
+- Five placements (t=527.5 [8, 9], 572.6 [8, 6], 625.0, 657.7 [8, 10], 679.7 [3, 2]) all on his own half at columns 3-8 — it is used as a back-line air chipper in this deck, not as a front-line defender.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- He runs the Evolution slot on Dart Goblin over Wall Breakers: 'you guys can use the Evo wall breakers in here over the Evo dart goblin if you would like, but I just think that the Evo dart goblin just helps you out so much on defense that there's no point really to not use it' (t=707-718; the auto-transcript renders it 'dark goblin').
+- clock 2:14: holds it on purpose as cycle information — 'I don't really want to use my dart goblin too early until I figure out his cycle here cuz I don't want to give him a free graveyard' (t=732-738).
+- clock 1:09 and 0:36: defensive placements at tiles [8, 9] and [8, 12] anchoring the answer to the Baby Dragon push — 'Let's just dart goblin here. We can go for the ice spirit as well. Just make sure that we take that baby dragon off the board' (t=800-804).
+- clock 0:50: offensive Dart Goblin at the bridge at tile [14, 15] — 'Let's go for the evo dart goblin at the bridge, too. Nice. That's going to take out the baby dragon' (t=815-820).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 1:43 (t=939.4, tile [15, 4]): placed deep in his own half specifically to deny spell value — "We can go for a Dark Goblin here. Don't want to give him any fireball value this time" (937-941s).
+- clock 0:47 (t=995.0, tile [9, 5]): the Evolution placed out of Log range on purpose — "we can go for the low Dark Goblin outside of the range of the log" (995-997s).
+- overtime, clock 1:23 and 1:10 (t=1095.1 tile [2, 7], t=1114.9): kept wide and cheap-to-protect — "We can go for the Dark Elixir [Evo Dart Goblin] off to the side" (1080s), "Evo Dart off to the side" (1095s).
+- overtime, clock 1:15: credited as the card carrying the game — "Our Dark Elixir is just putting in so much work" (1087-1090s); at 1027-1030s the opponent's spell hits the Cannon but misses it: "he had our cannon but missed our Dark Goblin".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:53-1:50 (t=1194-1197): named as the pre-held Royal Giant answer before the RG appears — "I have the evo dart ready if he tries to go in for some type of RG".
+- clock 1:31 (t=1218.2): the Evolution Dart Goblin goes down at [9, 9], centre of his own half, purely for chip on the tank — "I'll just go for the evo dark goblin here just to start getting some damage on the RG"; he is defending the Royal Giant with damage rather than with a building.
+- clock 0:44 (t=1264.3): played at [14, 12] to open the last push alongside a Berserker — "Let's go for the dark goblin one berserker".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

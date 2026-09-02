@@ -236,6 +236,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 0:35 and 1:54 (overtime): defensive placements deep on his own half at [10, 5] and [14, 5] against Minions and ground swarm — "let's go for the goblin gang up top here", "Block gang here for the minor."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- The opponent's swarm answer to the Goblin Barrel, and the card Ryley times his pushes around: he attacks when it is out of cycle ("he doesn't have the Goblin Gang in cycle so he can just get a nice push off", 927-932s) and puts a Berserker down first when it is available ("he could gang so I want to have berserker down", 1033-1036s).
+- clock 1:11: he credits a fast defensive gang — "He's going to have to go for the Goblin Gang. That could be full countered. Yeah, that was a good gang by him. He was very fast with that. I have to give him credit there" (968-974s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

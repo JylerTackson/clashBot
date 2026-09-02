@@ -376,6 +376,61 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 0:43: Savage Survival used at the wrong moment and the opponent's Electro Spirit finished his Dart Goblin — "Oh no, that was a bad ability, bro. I didn't think he'd be able to hit the dark ob with the e spirit. That was such a horrible ability"; in the outro he blames this for the loss. A later defensive ability at clock 0:07 did work: "my berserker caught it. No way."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:22-0:31: six deploys in the game, all on his own half and all defensive - (7, 9) at clock 2:33, (4, 9) into a crossing Knight at clock 1:54, (2, 14) in front of the barrel push at clock 1:26, (6, 10) into the Evo Knight at clock 0:38 and (10, 10) into the Evo Battle Ram at clock 0:31. This is the Hero Berserker: "the hero berserker just works so, so nicely in this type of deck" (t=21-24).
+- clock 1:54: Berserker at (4, 9) plus Skeletons at (3, 13) is his answer to a lone Knight - "Let's go for the berserker here to keep this alive, hopefully" (t=57). The opponent zaps her off and Ryley grades it: "bad zap by him... I guess it wasn't that bad cuz it does take out our berserker, which was well played by him" (t=60-65).
+- He names her as the reason the 2.0 shell can hold ground: "You're just able to defend pretty much anything with hero berserker plus evo dark goblin cycle" (t=38-40) and "the berserker is just so good for all of the different ground pushes that your opponent can make" (t=49-54).
+- No Savage Survival activation appears in the elixir trace - every Berserker event in this game is a clean -2 with a hand change, so the ability is never confirmed used.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:13: the 2-elixir front of his first bridge package at (15, 15) — "then we can maybe go for a berserker plus goblin barrel at the bridge. Just see what this guy wants to do" (205-209s); the package plus Wall Breakers takes the enemy right tower 4858 -> 3494.
+- clock 1:33 and 1:02: bridge tiles (15, 14) and (15, 12) as the body in front of his barrel/Wall Breaker damage — "We can berserker and then Evo Barrel plus Wall Breakers" (244-246s).
+- clock ~1:57 and 0:42: also used defensively on his own half at (9, 9) and (10, 9), so she is not exclusively an offensive card in this list.
+- clock 0:20 and 0:07: (14, 14) and (13, 15) to close out an undefended right tower alongside Wall Breakers. Note: this is very likely the Hero Berserker, but no Savage Survival activation could be confirmed in this game — every play reads as a clean 2-elixir step and he never mentions the ability.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- clock 1:27: the game-deciding play. With the Berserker locked on the enemy left tower he spends 3 elixir on Savage Survival — "Hold on, I'm going to pop my ability here cuz this will be tower down. Yeah, that's tower down. Beautiful. That might even take out the wizard if we're lucky. That's going to bring it really low. Come on, one HP" (425-432s). Enemy left tower reads 2127 -> 1241 -> 670 HP in six seconds.
+- clock 2:15: used as a pure distraction body against a Giant Skeleton and Wizard, with the ability planned in the same breath — "we have to get a berserker down on top of this and we have to get an immediate ability cuz I know he's going to pop his ability so mine just needs to be there to keep the wizard distracted" (376-383s).
+- clock 1:33: placed at (4, 13) in front of his own left tower with the ability deliberately unspent — "let's berserker here in front as well. We have the ability if he goes for like a mother witch or something or even like a ghost" (418-424s).
+- clock 0:45 and 0:35: two back placements at (9, 1) and (9, 0) to start cycles while he saves the Evolution Dart Goblin — "we can go for the berserker in the back to just making sure that we save out our Dark Goblin for the right moment" (478-483s). A second ability cast follows at clock 0:28 against a Mother Witch.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:17 (t=609.6) and clock 0:43 (t=641.6): the Wall Breakers' escort at the bridge, tiles [14, 14] and [13, 14]; he explicitly wants her to pull the air defence — "That Mega Minion could get kited to the other lane, which is great" (t=612-614).
+- clock 1:37 (t=591-595): her defensive job against Lava Hound is anti-payload distraction, not damage — "Let's just go for the Berserker here to distract those Lava Pups. We'll fully counter those nicely."
+- clock 0:07 (t=679.7): played at tile [9, 11], mid-lane on his own half, purely as a kite — "We can go for a Berserker to kite this to the opposite lane" (t=675-677), following "I still think I need to kite this away to be honest cuz I don't want to take the swipe on the tower" (t=620-623).
+- Heroic Berserker is the session variant, but no Savage Survival activation is visible in this game: every unidentified own elixir drop is exactly 2, never the 3 the ability costs, and he never mentions it.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 2:07: Berserker at the bridge at tile [4, 13] as the front of a stacked push — 'Let's go for the berserker at the bridge here, and then we can go for the Evo barrel ice spirit, and we can wall breakers on the left side as well because he doesn't have a tombstone in cycle' (t=738-746).
+- clock 1:32: refuses the bridge and plays a 'low berserker' from his own corner at tile [1, 8] — 'I don't want to just like go for a berserker and have it die at the bridge and let him go in for a graveyard' (t=769-774) — then adds Skeletons 'to keep the berserker alive to force out a response' (t=775-777).
+- clock 1:19: weighs the Hero's Savage Survival ability and passes on it — 'Do you want an ability here? Maybe if that berserker gets on, I won't have to' (t=787-789); no clean 3-elixir ability spend shows up in the elixir trace.
+- clock 0:54 and 0:30: Berserker at tiles [4, 15] and [4, 14] as the ground half of the Berserker-plus-barrel pattern (t=810-812, t=835-838).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 2:17 and 1:33 (t=906.2 tile [10, 9], t=949.4 tile [7, 8]): the melee body that finishes defensive stacks, played with king activation in mind — "Let's go for the berserker here. Just make sure we activate the king and beautiful defense taking almost no damage outside of the fireball" (949-956s).
+- clock 0:12 (t=1012.0/1031, tile [14, 14]): put down before the Wall Breakers so a Goblin Gang answer has something to fight — "Let's go for the berserker plus wall breakers cuz he could gang so I want to have berserker down" (1033-1036s).
+- overtime, clock 1:51-1:19 (t=1051.0, 1066.1, 1083.1, tiles [14, 14], [14, 13]): the bridge body in every overtime wave — "we can go for the barrel Berserker and wall breakers and maybe E-Spirit too" (1050-1052s), "Let me go for the skellies plus Berserker here at the bridge" (1081-1084s).
+- Hero variant (Savage Survival, 3 elixir): the ability is attempted exactly once and does not fire — "Can I ability here? Aw, the ability didn't get off. But, that's fine. It's still a connection" (1091-1095s), with his elixir reading 2-3 at that moment.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:37 (t≈1212): dropped in the back as the answer to the opponent committing an Evolution Royal Giant — "just berserker here in the back and we have the evo dark goblin ready here".
+- clock 1:07 (t=1241.2): at [3, 13] as part of the Berserker + Goblin Barrel + Wall Breakers rotation — "Let's go for the berserker here and we can go for the barrel, too".
+- clock 0:44-0:38 (t=1264-1270.3): paired with the Dart Goblin to start the closing push and then tracked at [8, 20] on the opponent's half — "Let's go for the dark goblin one berserker". The Hero form (Savage Survival, 3 elixir) is possible for this deck but no 3-elixir drop with an unchanged hand appears in the readable window and he never mentions the ability.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

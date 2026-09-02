@@ -218,6 +218,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - always behind the Ice Golem: tracked into the right lane at clock 2:14-2:03 and into the left in overtime at t=1195-1204 and t=1255; Ryley meets her with Bats, Skeletons and the Bomb Tower.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Mentioned, not played (opponent never showed one). At 229-241s Ryley uses her to explain the limit of this spirit-heavy cycle deck: "the spirits are a decent amount worse whenever you're defending a card like Archer Queen or Musketeer because the Musketeer and the Archer Queen one-shotting spirits does actually make defense very difficult in quite a few scenarios."
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

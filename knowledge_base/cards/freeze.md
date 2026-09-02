@@ -176,6 +176,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - He sells the slot as the deck's answer to the new melee heroes: "you have the bowler, you know, you can always freeze the berserker and the Valkyrie" (613-618s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 1:16 (t=1085.1, tile [11, 6]): the opponent freezes his defence and kills the Cannon. Ryley writes it off immediately because the Evo Dart Goblin survives — "He did get our cannon, but it's fine. Our Dark Elixir is just putting in so much work" (1084-1090s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

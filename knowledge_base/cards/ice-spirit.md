@@ -295,6 +295,55 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - Played ~12 times (t=1956 through t=2242.6) as the cycle glue that gets him back to Cannon and Rocket.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- The most-played card of the game (ten-plus 1-elixir drops), always the top-up on a defence already in progress rather than the answer itself: (9, 14) at clock 2:35, (7, 13) at clock 1:32, (11, 13) at clock 1:05, (6, 10) at clock 0:42, (10, 10) at clock 0:31, (15, 10) at clock 0:25.
+- clock 1:05: named as the specific answer to a charging Battle Ram alongside a fresh Cannon - "Let's go for the ice spirit here just to take out the battle ram. Beautiful defense right here" (t=109-112).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 1:30: added to the four-card burst at (11, 14) to reset the defence — "Let's go for the E-Spirit here as well. Let's try to finish this off. Maybe retarget the Zappies" (249-252s). The card read is ambiguous between the two spirits here (deploy label 'SpiRit'), but the stated intent is a retarget on the Zappies.
+- clock 0:44 and 0:42: two 1-elixir spirits back to back against the Royal Recruits push, with Skeletons — "Okay, Ice Spirit Skellies here" (295s).
+- clock 0:16: at (8, 20), on the opponent's half next to the Electro Spirit during the final push rather than on defence.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- The single most-played card of the game (8 deployments in 172 s), used as filler on top of every defence rather than as a planned combo piece — (9, 13) at clock 2:24, (9, 14) at 1:08, (6, 12) at 0:50, (2, 15) at 0:21, (2, 17) at 0:05.
+- clock 0:38: named as a package with Skeletons behind the Cannon — "we can go for the skeletons plus ice spirit here as well just to make sure we take this down again" (474-477s).
+- clock 1:08: dropped with the Cannon against a Giant Skeleton right, a Little Prince left and a Graveyard on his own half — the 1-elixir freeze is what lets a 3-elixir building answer two lanes.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 0:57 (t=628.6, tile [14, 15]): used as part of the offensive package at the bridge, not as a defensive freeze — "let's go for the Barrel, Ice Spirit, and Wall Breakers" (t=629).
+- clock 0:15 (t=672.7, tile [2, 10]): defensive, into the Lava Hound lane just before the Berserker kite — "let's go for the Ice Spirit here. We can go for a Berserker to kite this to the opposite lane" (t=673-677).
+- Seven plays across the game (t=524.7, 534.2, 582.6, 628.6, 662.7, 672.7, 684.4), including the last defensive card of the match at [1, 8] on the buzzer.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 2:03: Ice Spirit at tile [14, 14] as the escort behind the Evo barrel — 'we can go for the Evo barrel ice spirit' (t=740).
+- clock 1:50: Ice Spirit at tile [3, 14] to stall the defence of his barrel — 'Let's ice spirit too, low-key' (t=758), then 'the ice spirit freezes the ice wizard. Beautiful sequence right there' (t=763-765).
+- clock 1:05 and 0:20: cheap second layer next to Skeletons and Electro Spirit at tiles [7, 13] and [5, 16] (t=800.8, t=845.8) while clearing the Baby Dragon.
+- clock 0:08: part of the final defensive stack for the expected Graveyard — 'Ice spirits up top' (t=860).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 1:39 (t≈944) as the cheap freeze on a three-Royal-Hogs split — "Yeah, let's go for the ice spirit here" (944-946s), together with Cannon at [8, 9] and Skeletons at [9, 12].
+- clock 1:27 (t=955.8, tile [5, 15]): dropped beside the Wall Breakers at the river as push support rather than on defence (956s, "the wall breakers plus e-spirit" wave).
+- clock 0:57 and 0:47 (t=987.0 tile [9, 5], t=995.8): the lead-off card of the sequence that takes the enemy left tower — "Let's go for the ice spirit here then we go for the wall breakers plus e-spirit" (986-989s).
+- clock 0:38 (t≈1004): used as a reset on an incoming unit, narrated as micro — "Jump jump jump jump. Reset it. Oh my god. Oh, we almost got one spirit here" (1004-1006s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:47 (t=1200.9): at [8, 9] onto a Bomber the threat tracker had 5 s from his tower, chosen ahead of a bigger answer — "Let's just go for the ice spirit here and then we can split our wall breakers".
+- clock 0:40 (t=1268.6): at [10, 20] on the opponent's half as push glue behind the Wall Breakers/Berserker, plus 1-elixir HUD drops at t=1249.9, 1271.3 and 1275.3 in the same two roles (freeze on defence, extend the push).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

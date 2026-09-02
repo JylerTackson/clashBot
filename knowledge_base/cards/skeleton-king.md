@@ -111,6 +111,13 @@ It is also important to note that cards that make “sub-troops” (e.g., Elixir
 - Soul collection continues even after the Skeleton King dies, and the ability's 20 sec cooldown starts after the duration ends.
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor choice for Clan Wars Defense Towers.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Uncertain read, recorded for completeness: at 190-198s Ryley complains at length about a card the auto-transcript renders as "the skeleton queen" — "the skeleton queen is so broken now ... I swear it has way too much HP. It has more HP than a giant literally." The only matching observation is a `skeleton-king-skill` ability detection on the opponent's side at clock 1:57, so this is probably the Skeleton King, but the transcript name and the HP claim do not line up cleanly and no Skeleton King body was ever detected.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_King (scraped 2026-09-02T02:35:13+00:00)

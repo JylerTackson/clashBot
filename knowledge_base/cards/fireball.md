@@ -274,6 +274,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 1:07 (overtime): the finisher he needed and missed, on an opponent tower stuck at 427 HP — "I just need one hit. Come on. One hit... No, I didn't get the one hit fireball here. No, I lost."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- The opponent's spell, inferred twice from 275-HP tower hits with no unit in range (t=944.9 clock 1:38 and t=1066.1 clock 1:37). Ryley calls the first use of it greedy — "good try on that fireball, man, but that was a little bit aggressive" (893-896s).
+- He plays his Dart Goblin around it — "Don't want to give him any fireball value this time" (940s) — and treats every wasted one as free cycle: "Every time he wastes fireball, I can just cycle a free cannon to be honest" (1116-1119s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

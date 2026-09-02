@@ -142,6 +142,11 @@ Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
 - t=617-631s: on why the buff exists — 'obviously Archer Queen is very underused. And I do think that even with the nerf to the Goblin Stein, Archer Queen would continue to be an underused card anyway ... a lot of people do use the Hero Musketeer over the Queen. So I guess that's just super soft trying to find the queen some usage.'
 <!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Mentioned, not played. Same passage at 229-241s: he names the Archer Queen alongside the Musketeer as the cards that blank Ice Spirit / Electro Spirit defence because they one-shot spirits, which he calls the main weakness of this 2.0 cycle list.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

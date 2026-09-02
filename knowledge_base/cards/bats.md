@@ -165,6 +165,18 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
 - Deliberately does not spend the Ice Spirit on a later Bats wave: "I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker" (1258-1263s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- The opponent holds Evolved Bats and Ryley shuts them down with Electro Spirit on repeat — "I have to watch out for Evo Bats cuz he does have Evo Bats coming up" (977-980s), then "this guy is terrified of using his bats" (1007-1010s) and "Wall breakers, E-Spirit again. So, he just can't go for the bats" (1090-1092s).
+- Confirmed in the deck at clock 0:19 after he had talked himself out of it — "I don't think he has them in his deck actually" (983s) followed by "we took out the Evo Bats too. It's good to know that he has them" (1022-1024s); the Evolution tracks appear at clock 0:19 and 0:42.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:39-1:33 (t=1210-1216): four Bats cross the left lane with three of them within 2 s of his tower and he deliberately spends nothing — "Okay, good bats by him, but at least I won't have to worry about them".
+- clock 1:11-1:05 (t=1239-1244): Bats are what he is trying to bait with Wall Breakers ("Maybe we force out the bats, but even if I don't, I don't really care") and, when they do come, Electro Spirit is the answer he names ("Let's e-spirit for the bats").
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

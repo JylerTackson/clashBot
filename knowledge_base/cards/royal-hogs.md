@@ -251,6 +251,12 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
 - clock 0:58: he thinks the Royal Hogs are unaffordable and the opponent plays them anyway — "Can't go for royal hogs or goblinstein here. Okay, he goes for the royal hogs anyways. He just doesn't care about his elixir bar" (t=713-718s) — and answers with Elite Barbarians + Berserker + Goblin Gang layered in the left lane.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- The opponent's win condition, split down both lanes at clock 2:35, 1:43-1:35 and 0:17. Ryley's standing answer is Cannon centrally plus Skeletons plus a spirit — "Let's go for the cannon then skellies. He might fireball that. Yeah, let's go for the ice spirit here" (941-946s), and the clock 1:33 version costs him almost nothing: "beautiful defense taking almost no damage outside of the fireball" (952-956s).
+- He keeps expecting them in overtime and plays around them rather than pre-empting — "He might go for the piggies" (1061s), "He might go for a piggies though, so I have to be very very cautious" (1042-1046s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

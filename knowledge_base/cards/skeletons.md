@@ -340,6 +340,58 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
 - opponent card, clock 0:56 onwards (t=936.9 [12, 25], further spawns tracked in both lanes t=942-948s with four simultaneous "tower in <5s" threats): the swarm that forces his one Log of the game at t=945.4, and the escort for the Witch in the final 10 seconds.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:30-0:24: five drops - (7, 10), (3, 13) beside the Berserker, (8, 12), (10, 15), (11, 7) - always a cheap extra body next to something else, never a standalone counter.
+- clock 0:58: placed off-lane as pure damage prevention - "We can even just skellies here off to the side just to make sure we don't take any damage" (t=112-114); again at clock 0:24, "Skellies here to protect" (t=148), shielding the Evo Dart Goblins that end up winning the defence.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Played seven times in 170 seconds (clock 2:30, 2:27, 2:19, 2:04, 1:49, 1:08, 1:16, 0:44, 0:11) — the cycle card that keeps the 2.0 deck on its cheap loop; most land on or just in front of the river row, e.g. (12, 14) at clock 2:27 and (14, 14) at clock 1:49.
+- clock 1:08: paired with the Dart Goblin as the cheap answer that lets him keep the Cannon in hand — "Let's go for the Dark Goblin and Skellies. I'm going to save my cannon because of the Skeleton Barrel" (270-275s).
+- clock 0:44: Skeletons at (9, 15) plus an Ice Spirit against six Royal Recruits — "Okay, Ice Spirit Skellies here. I'm not going to cannon again" (295-296s).
+- clock 0:11: at (8, 20) on the opponent's half with the spirits, mopping up around the Tesla during the finishing push.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- clock 2:02: dropped straight on top of a Royal Ghost that had already crossed — "We can just go for the skeletons here on top of the ghost" (390-392s); the same answer at clock 2:41 at (3, 12) had already handled the Ghost's first run for 1 elixir.
+- clock 1:02 and 0:37: right-lane placements at (13, 12) and (14, 14) into an incoming Battle Ram / Giant Skeleton push, always paired with a spirit — "Nice, go for the skellies here as well and we can go for the e-spirit too" (450-452s).
+- clock 0:22: last-minute Skeletons plus Berserker into a Mother Witch coming down the left — "Let's go for the skellies berserker and this is going to be a good game" (490-494s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:46 (t=580.2): placed at tile [3, 1], right beside his own king tower — "let's just Skellies in the back here" (t=580) — as a cycle card while he waits out the Hound.
+- clock 1:31 (t=595.6, tile [9, 14]): part of the anti-payload package — "We can get some Skeletons down as well. Maybe grab one of the Lava Pups over" (t=595-598).
+- clock 0:07 (t=677.0, t=680.7): the closing defensive pairing — "Let's go for the E-Spirit Skellies" (t=681).
+- Eight placements in 180 s (t=541.5, 580.2, 595.6, 622.0, 635.6, 658.7, 670.7, 680.7), all on his own half — in a 2.0 list they are the cheapest way to get back to the Goblin Barrel.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 2:04: Skeletons at tile [9, 10] as the cheap distraction while his bridge push runs (t=740.9).
+- clock 1:32: Skeletons at tile [3, 10] behind the low Berserker — 'We can even skellies to keep the berserker alive to force out a response' (t=774-777).
+- clock 0:56: pre-emptive Skeletons at tile [9, 13] — 'Let's go for the skellies in case he tries to ice wiz' (t=809).
+- clock 0:13: pre-placed for a Graveyard that never comes, tiles [3, 5] and [9, 8] — 'Let's skellies behind for the graveyard' (t=853) and 'we can go for the skeletons as well just to pull this over' (t=862-864).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 2:35 and 1:42 (t=887.1 tile [6, 9], t=942.8 tile [9, 12]): the one-elixir block in front of the Cannon against Royal Hogs — "Let's go for the cannon then skellies. He might fireball that" (941-944s).
+- clock 1:07 (t=977.0, tile [16, 15]) behind an Evo Dart Goblin — "Let's go for the Evo Dart. Go for the skellies" (974-977s).
+- overtime, clock 1:53 and 1:39 (t=1066.1 tile [16, 12], t=1081.9 tile [11, 8]): always described as a block, never as damage — "let's go for the skellies here to block this" (1049s) and "let's go for the skellies here to block and we go for the Berserker" (1064-1067s).
+- overtime, clock 1:10-1:00 (t=1097.1, tile [12, 13]): placed deep and low with the Evo Dart Goblin — "Evo Dart off to the side. Let me go for the skellies low. Nice. Good skellies" (1095-1099s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:13 (t=1236.4) and clock 0:40 (t=1267.8): 1-elixir HUD drops used purely to keep the 2.0 cycle rolling between Wall Breakers sets.
+- clock 0:48 (t=1260.3): placed at [8, 0] behind his own tower while sitting on a tower lead — "Now we just have to defend for another 48 seconds" (1257-1258).
+- clock 0:37 (t=1273.3): at [8, 21] on the opponent's half as part of the closing push on the right tower.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

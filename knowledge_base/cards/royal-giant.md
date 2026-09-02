@@ -147,6 +147,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
 - t=572.6 (clock unreadable, triple elixir): the opponent places the RG deep at [2, 24] instead of the bridge — "I had a feeling he was going to RG the bridge ... but going RG the back against a bowler in triple elixir maybe isn't always the move because then I just get a free bowler and my bowler will obviously live" (562-579s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:35 (t=1211.2): the opponent's Evolution Royal Giant at [4, 22] (elixir 10 -> 4) is the only heavy commitment in the window. Ryley pre-empted it at 1194-1197 ("I have the evo dart ready if he tries to go in for some type of RG") and then answered it with chip plus a refusal to build — Evo Dart Goblin at [9, 9], no Cannon, 490 HP of his left tower given up on purpose (own left 4781 -> 4291 at t=1230).
+- clock 0:47 (t=1261): while defending a lead he lists the RG as the expected follow-up and it never comes — "I wonder if he tries to RG the back or to spam my bridge. Or he could give up, too, low-key".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

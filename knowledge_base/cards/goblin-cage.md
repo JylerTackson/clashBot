@@ -137,6 +137,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
 - Note: despite the Cage he still called the deck drill-vulnerable at 1886s — "I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 2:32 (t=532.5, elixir 10.0 -> 6.0), clock 0:34 (t=650.6) and clock 0:03 (t=684.7): the opponent's only building, tracked at tiles [9-11, 19-21] in front of his king tower. Ryley never names it and never plays around it — all of his offence goes to the bridge or over the top with the Goblin Barrel.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

@@ -234,6 +234,19 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - Its evolved version is tracked at t=2092-2098 in the push Ryley defends for zero tower damage but five elixir down, prompting his Evolution-tracking lesson at t=2115-2129.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 1:05 (opponent's card): Ryley answers a charging Battle Ram with Cannon at (9, 9) plus an Ice Spirit at (11, 13) - "Let's go for the ice spirit here just to take out the battle ram" (t=109), the Ice Spirit reset stopping the charge.
+- clock 0:37-0:25: the Evolved version costs him 2140 tower HP (own right 3569 -> 1429) before Berserker, Ice Spirit and a river-row Cannon hold it. He accepts the damage in advance: "I'm going to have to eat some damage here on the right side I think" (t=139).
+- clock 1:13: he counts the opponent's cycle to predict the evolution - "He's one battle ram away from evo, so he'll have both of his evos in cycle very shortly" (t=99-102).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. He predicts it before it appears — "Okay, he he might battle ram here" (clock 1:13, 439s) — and it is tracked at (13, 12) at clock 0:53.
+- clock 0:55: his answer is a fresh Cannon high in the pocket — "Then we can go for another high cannon here. Make sure that we take out the battle ram. Beautiful defense right now" (455-460s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

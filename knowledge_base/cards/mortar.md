@@ -188,6 +188,11 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
 - Mentioned, not played — Ryley names it as the opponent's deck and mocks the matchup twice: "Dude, mortar players when they have to defend, man. [laughter] Mortar players when they have to defend" (t=570-574s). The Mortar itself is never detected on the field; his left tower does take five unattributed 204 HP ticks between clock 1:57 and 1:50 with no enemy unit in range.
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Mentioned, not played. His pre-match read of the ladder meta at 173-180s: "This guy's going to probably be playing mortar bait. I feel like there's just so much mortar bait going around recently that it's just hard to assume that he would be playing anything else." The opponent turned out to be an off-meta Royal Recruits/Bowler deck, and he corrects himself at 182s.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

@@ -145,6 +145,13 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 1:44: he criticises the opponent for not committing to it as the push — "I feel like he should just went for the giant skelly. Maybe he was scared that he wouldn't have like defended though."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. His answer at clock 2:19-2:15 is Dart Goblin low plus Berserker on top plus the hero ability rather than a building — "we have to go for a low dark goblin here and then we have to get a berserker down on top of this" (375-378s).
+- clock 0:48: he holds the Evolution Dart Goblin in cycle for it — "it would be really good to get like a shot off on the giant skeleton before it gets vine-stopped" (468-472s).
+- clock 1:10 and 1:05: repeat pushes are met with Cannon at (9, 9) plus Ice Spirit, and once with a defensive Wall Breakers pair at (12, 6).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

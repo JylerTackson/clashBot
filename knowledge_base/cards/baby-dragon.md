@@ -176,6 +176,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
 - t~1618s: Baby Dragon on the closing Golem push, misplaced by his own account — "here I went for an evo baby dragon, but I actually messed it up, guys. Look at this baby dragon" (1618-1622s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 1:51 (t=576) and clock 0:08 (t=678-683): expected all game and never actually played by the opponent — "He might go for a high Baby Dragon", then "he's going to go for the Baby Dragon probably... Did this guy forget that he had a Baby Dragon in his deck entirely?".
+- clock 0:22 (t=664-667): his second Cannon is placed specifically to deny it a landing spot — "I'm going to cannon too just to keep blocking the bridge so we can't even go for a Baby Dragon".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

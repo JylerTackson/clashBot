@@ -164,6 +164,13 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
 - t=998 (clock unreadable): an earlier bridge placement ([4,18]) during the Dark Prince trade that cost him 532 tower HP.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. The opponent's opening pressure card, tracked down Ryley's left lane at clock 2:45-2:35 and again at clock 1:53; he answers both runs with 1-elixir cards, Skeletons at (3, 12) then Berserker deep at (1, 9).
+- clock 2:02: "We can just go for the skeletons here on top of the ghost" (390-392s) — Skeletons placed directly on the Ghost rather than in front of it.
+- clock 1:33: he lists the Ghost alongside Mother Witch as a reason to keep the Berserker ability unspent (420-424s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)
