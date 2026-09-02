@@ -1,0 +1,123 @@
+{
+  "key": "-V4H_YeMGGk-m0.4",
+  "match_file": "matches/-V4H_YeMGGk-m0.4.md",
+  "video_title": "My Opinion on the BIGGEST Balance Changes EVER!!",
+  "cards": {
+    "wall-breakers": [
+      "clock 2:43 (t=1001.0): opens with Wall Breakers at the bridge in the left lane, tile [5, 14], immediately followed at 2:36 by a second pair at [8, 0] behind his own king tower purely to cycle - the two-use pattern he repeats all game.",
+      "clock 1:38 (t=1066.1): Wall Breakers pair at [4, 15]; the enemy left tower drops 4616 -> 4056 (560 damage) at t=1074, the biggest single chunk of the match.",
+      "overtime 1:41 / 0:52 (t=1184.0, 1229.2): keeps cycling them at [2, 14] and [3, 15] in overtime, and twice sends them into the right lane instead ([12, 15] t=1178.2, [10, 11] t=1189.2) once the opponent's defence has committed left.",
+      "t=1184-1212 on the nerf while holding them: 'The Wall Breakers damage is being nerfed by 20% mainly to just make it not so punishing... they're two elixir and they take out like a fourth of your tower... they will literally lose you the game if they connect to the tower like two times. That was definitely far too strong.'"
+    ],
+    "bomb-tower": [
+      "clock 2:21 (t=1024.0): Bomb Tower at [8, 8] against the opponent's first Graveyard (tracked at [7, 0], 0.2 s from the tower); his left tower reads 4858 unchanged through the whole defence.",
+      "clock 1:03 (t=1102.1): Bomb Tower at [9, 9] under the second Graveyard, stacked with Archers at [9, 7] and Magic Archer at [8, 4].",
+      "always centre or centre-left so it covers the Graveyard radius and pulls the level-16 Miner: [12, 3] 2:36, [8, 10] 2:05 and overtime 1:50, [7, 9] 0:31 / overtime 1:28 / 1:08 / 0:21, [9, 11] 0:13."
+    ],
+    "fire-spirit": [
+      "clock 2:47 (t=997.5): Fire Spirit at [3, 13] with The Log behind it at 2:42 to wipe the enemy skeletons walking into row 13 on the left.",
+      "his standing answer to Graveyard skeletons and swarm chip for 1 elixir - [1, 3] 2:16, [15, 13] 1:52, [16, 13] 1:30, [8, 5] overtime 1:47, [6, 9] 0:57, [4, 12] 0:44."
+    ],
+    "skeletons": [
+      "clock 2:16 / 2:08 (t=1027.0, 1034.0): Skeletons at [15, 11] and [14, 13] dropped straight onto the opponent's Miner and Musketeer push on the right.",
+      "clock 1:50 (t=1058.4): Skeletons at [8, 0] behind his own king tower as a pure 1-elixir cycle card - the same slot Wall Breakers gets when he only needs the rotation.",
+      "clock 0:27 (t=1258.6, repeated t=1266.3): Skeletons at [7, 15] at the bridge to stall the Ice Golem / Musketeer stream in the closing overtime race."
+    ],
+    "the-log": [
+      "clock 2:42 (t=1002.3): The Log at [3, 14] over the skeleton line the Fire Spirit had already softened.",
+      "clock 2:00-1:54 (t=1044.5): logs the Barbarians that land at [3, 14] on his own half behind a Miner.",
+      "overtime 0:27 / 0:20 (t=1257.3, 1265.3): The Log at [3, 14] and [2, 13] against the left-lane skeleton and Musketeer pressure while both towers are under 2500."
+    ],
+    "bats": [
+      "clock 2:28 (t=1015.7): Bats at [16, 15] answering the opponent's double Miner (6 elixir spent at t=1014-1015).",
+      "his only dedicated air answer and a cheap counter to a lone Miner or Musketeer - [6, 4] 2:52, [0, 10] 1:45, [0, 14] 0:48, [6, 10] and [6, 9] in overtime."
+    ],
+    "archers": [
+      "clock 0:58 (t=1107.1): Archers at [9, 7] beside the Bomb Tower during the second Graveyard defence.",
+      "overtime 1:28 / 1:19 (t=1196.2, 1206.4): Archers at [2, 10] and [10, 10] as ranged backup once the opponent starts pushing both lanes."
+    ],
+    "magic-archer": [
+      "clock 0:58 (t=1106.1): Magic Archer at [8, 4] behind the Bomb Tower during the Graveyard defence - his only ranged splash, used to clear the skeleton spawn from behind the building.",
+      "overtime 1:28 / 1:19 (t=1193.2, 1205.2): [8, 11] and [8, 9] centre placements so the pierce line covers both lanes.",
+      "overtime 0:52 (t=1229.2): the one offensive placement, [13, 20] on the opponent's half in the right lane, five seconds after he says he is happy about the nerf.",
+      "t=1224-1243: 'They're also nerfing the Magic Archer which I am very happy about... it was still clearly way too strong. It just seemed like they weren't going in the direction to nerf it which definitely had me upset about changes.'"
+    ],
+    "miner": [
+      "the opponent's engine, played essentially on cooldown at level 16 (t=1014, 1015, 1044, 1064, 1067, 1091, 1094, 1125, 1126, 1137, 1183, 1186, 1222, 1225, 1244, 1258, 1267, 1278), mostly at rows 23-28 behind the arena and occasionally onto Ryley's half at [13, 10] (clock 2:31).",
+      "Ryley never spends a big card on it: Skeletons, Bats or Fire Spirit go on top and the Bomb Tower absorbs the rest."
+    ],
+    "graveyard": [
+      "clock 2:25 (t=1020) at [7, 0] and clock 1:03 (t=1101.1) at [9, 1], both on Ryley's left tower; both are beaten by Bomb Tower plus Fire Spirit and Archers, with no tower HP change recorded on the first.",
+      "t=1090, on the Evo Valkyrie tornado-damage nerf: 'graveyard gets a pretty big indirect buff there because of that.'"
+    ],
+    "ice-golem": [
+      "the opponent's recurring push tank, first paired with Musketeer in the right lane at clock 2:19-2:03 and then repeatedly down the left in overtime (t=1220, 1266, 1279); Ryley answers with Bomb Tower plus The Log rather than committing a counter-push."
+    ],
+    "musketeer": [
+      "always behind the Ice Golem: tracked into the right lane at clock 2:14-2:03 and into the left in overtime at t=1195-1204 and t=1255; Ryley meets her with Bats, Skeletons and the Bomb Tower."
+    ],
+    "barbarians": [
+      "clock 1:54 (t=1049): lands at [3, 14] on Ryley's own half behind a Miner; The Log at 2:00 and the Bomb Tower handle the group."
+    ],
+    "cannon": [
+      "tracked on the opponent's side throughout (t=1015, 1041, 1101, 1113, 1133, 1193, 1213, 1249, 1259, 1275) as their defensive building; it is the reason his Wall Breakers pairs go to the bridge rather than straight down a lane."
+    ],
+    "bowler": [
+      "listed in the opponent read with 'Bowler' deploy labels at t=1104/1107/1110, but all three fire at the identical tile [8, 25] exactly while he is discussing the Bowler nerf on screen, so the play is not confirmed (see the match file's Data gaps).",
+      "t=1103-1140: 'They are nerfing the Bowler and the Executioner projectile range... 7.5 range to a seven range... the Bowler and the Executioner were basically just magic archers with 7,000 HP, and I will still stand on that. Half of the time when you're against those cards, they are the things that take out your tower, not even like the win condition.'"
+    ],
+    "goblin-drill": [
+      "'Goblin Drill' deploy labels at [9, 11] at t=1146/1149 coincide with the balance-change graphic for the card, so the play is not independently confirmed.",
+      "t=1144-1183: 'they're also taking away the crown tower damage from the Goblin Drill. So now there will no longer be any guaranteed damage from just dropping a Goblin Drill on the tower and I am not too sure if I agree with this... I personally think that it is just too much and maybe might need to be reverted in the future if the Goblin Drill usage rate drops too low.'"
+    ],
+    "goblin-cage": [
+      "Mentioned only, not played (t=1005-1023): the Evo Goblin Cage cycle goes from 1 to 2 - 'Goblin Cage was the only one cycle Evo for four elixir and I do think that it showed in how strong that it actually ended up being. Very very in agreeance with that one.'"
+    ],
+    "mega-knight": [
+      "Mentioned only, not played (t=1031-1057): Evo Mega Knight 'will now knock back every other attack instead of every attack' and the heavy-troop knockback goes from 2.5 to 4 tiles - 'it will knock the troops back further, but it won't knock them back every hit like before, making it quite a bit less polarizing.'"
+    ],
+    "valkyrie": [
+      "Mentioned only, not played (t=1059-1075): Evo Valkyrie tornado damage cut 50% - 'it will no longer one shot skeletons or bats. You will have to be getting two swings to take out skeletons and bats, which I think is a fair change. Evo Valkyrie has just been way too strong for way too long now.'"
+    ],
+    "executioner": [
+      "Mentioned only, not played (t=1105-1140): projectile range 7.5 -> 7 alongside the Bowler - 'the Executioner and the Bowler would just end up becoming your win condition. So hopefully with this they are now more used for their purpose instead of just being extremely broken.'"
+    ],
+    "royal-delivery": [
+      "Mentioned only; the 'Royal Delivery' deploy labels at [13, 3] (t=1272/1275) coincide with the on-screen balance graphic and are not treated as a play. Commentary t=1269-1287: 'Royal Delivery has just been too good for too long now and it's kind of like the staple of all of these decks that have like crazy cycle cards and shouldn't really get away with it... making it so impossible to break through.'"
+    ],
+    "zappies": [
+      "Mentioned only; 'Zappies' labels at [9, 19] (t=1291/1294/1297) match the balance graphic, not a deploy. Commentary t=1288-1299: 'Very big fan of the hit speed nerf to the Zappies cuz I have felt like the Zappies were too good for a little bit too long now. I just think that the Zappies got maybe one too many buffs in a balance change.'"
+    ],
+    "goblin-barrel": [
+      "Mentioned only, not played (t=992-995): 'I mess with it a lot cuz the Evo Barrel is kind of toxic but the regular barrel is kind of weak. So maybe it helps bridge the gap a little bit.'"
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-bats-bomb-tower-fire-spirit-magic-archer-skeletons-the-log-wall-breakers",
+    "cards": [
+      "archers",
+      "bats",
+      "bomb-tower",
+      "fire-spirit",
+      "magic-archer",
+      "skeletons",
+      "the-log",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 5 of a six-game deck-showcase video (video 989.2s-1300.0s); a fresh 2.4-elixir Wall Breakers cycle list, different from the decks in the earlier games.",
+      "Wall Breakers do double duty: real pairs at the left-lane bridge ([5, 14] clock 2:43, [4, 15] 1:38, [2, 14] overtime 1:41) and pure cycle drops behind the king tower ([8, 0] 2:36). The bridge pair at t=1066 produced the game's biggest chunk, enemy left 4616 -> 4056.",
+      "Defence is a fixed package: Bomb Tower centre-left, then Fire Spirit / Skeletons / The Log on whatever the opponent added. Both opponent Graveyards (clock 2:25 and 1:03) were beaten this way, the first with no tower HP lost.",
+      "Against a level-16 Miner played almost every cycle, he never traded up - Skeletons, Bats or Fire Spirit on the Miner and the Bomb Tower doing the work, which let him keep cycling Wall Breakers.",
+      "Magic Archer is the only splash and sits behind the Bomb Tower ([8, 4], [8, 11], [8, 9]) except one offensive [13, 20] in overtime.",
+      "Regular time ended level; the game went to double- then triple-elixir overtime with both left towers under 2500 when the readable window closed at t=1300, so the result is unknown."
+    ],
+    "new_deck": {
+      "display_name": "Wall Breakers Ryley",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "rationale": "An eight-card list averaging 2.4 elixir whose win condition, Wall Breakers, is also its cycle card, with Bomb Tower plus 1-2 elixir troops doing all the defending.",
+      "why_it_works_md": "Every defensive answer is cheap enough that the deck out-cycles what it is defending: Fire Spirit, Skeletons and The Log clear swarms and Graveyard skeletons for 1-2 elixir while Bomb Tower, placed centre-left, absorbs the Miner and covers the Graveyard radius. Because nothing on defence costs more than four, Wall Breakers come back around faster than the opponent's building, and Ryley alternates a genuine bridge pair with a cycle pair behind the king tower to control which one the opponent has to answer. Archers and Magic Archer supply the only ranged damage, so the deck has no real counter-push - the plan is chip damage from Wall Breakers plus defensive value, which in this match traded evenly with a Miner/Graveyard control deck into triple-elixir overtime."
+    }
+  }
+}

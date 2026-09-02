@@ -1,0 +1,108 @@
+{
+  "key": "-V4H_YeMGGk-m0.1",
+  "match_file": "matches/-V4H_YeMGGk-m0.1.md",
+  "video_title": "My Opinion on the BIGGEST Balance Changes EVER!!",
+  "cards": {
+    "bomb-tower": [
+      "clock 2:12 (t=362.5): placed at tile (8, 10), dead centre of his own half and inside his Crown Tower's radius, as the first anchor of the defence.",
+      "Replayed roughly every 30 seconds as the lifetime expires and moved to whichever lane the opponent commits to: (8, 9) at t=419.4, (9, 9) at t=457.5, (2, 9) at t=512.5, (15, 9) at t=536.5, (15, 4) at t=557.6, (15, 12) at t=600.6 — seven placements in a five-minute game.",
+      "clock 1:09 overtime (t=544.0): a fresh Bomb Tower goes down as the opponent's Rune Giant push forms, with Tornado (t=533.2) and Archers at (10, 9) (t=537.0) layered on top of it."
+    ],
+    "tornado": [
+      "clock 2:42 (t=331.5): cast at (9, 12) in his own half onto two Skeletons that had split down opposite lanes, immediately before a Magic Archer at (8, 11) — the clump-then-pierce pairing.",
+      "clock 1:52 (t=382.7): cast at (15, 14) as the opponent's Battle Healer push builds, together with a Berserker at (16, 7).",
+      "clock 0:52 overtime (t=559.6): cast at (15, 12) directly on top of a Bomb Tower placed at (15, 4) two seconds earlier, holding the right lane through the last minute.",
+      "Only one of six casts lands on the opponent's half — (4, 19) at t=585.6; in this match Tornado is purely a defensive grouping tool."
+    ],
+    "magic-archer": [
+      "Eight deploy labels, all in the centre and behind his own defence: (8, 11), (8, 7), (9, 1), (8, 0), (9, 8), (8, 9), (9, 9), (4, 13), (7, 11) — he keeps a permanent centre-lane Magic Archer rather than using him as a bridge sniper.",
+      "clock 2:37 (t=336.7): placed at (8, 11) right behind the Tornado cast five seconds earlier, so the pierced line runs through the clumped Skeletons.",
+      "clock 0:55 (t=436.9): placed at (8, 7) inside the largest defensive stack of the match (Berserker, Archers, Royal Delivery, Goblinstein and Wall Breakers all within ten seconds) against a right-lane push of Bats, Fire Spirit and Skeletons."
+    ],
+    "wall-breakers": [
+      "The deck's only offence: nine deployments, always sent when the opponent has just committed elixir elsewhere. clock 1:19 (t=415.4) at (4, 13), two tiles short of the left bridge, into an opponent sitting on a full 10 elixir.",
+      "clock 0:45-0:43 overtime (t=566.9, t=568.7): a double send at (15, 15) and (14, 15) on the right river, immediately after Berserker + Bomb Tower + Tornado had cleaned the lane; the enemy right tower falls 2677 -> 2119 -> 1825 over the next four seconds.",
+      "He alternates lanes rather than repeating one: (4, 13) twice and (2, 14) twice on the left, (15, 15), (14, 15) and (13, 15) on the right.",
+      "Net effect over the match: enemy towers end on 366 and 807 from 4858 with no tower ever destroyed, which wins the overtime tiebreaker."
+    ],
+    "berserker": [
+      "Used almost entirely as a defensive kite, not as a lead: (8, 1) in front of his own towers at t=326.7, then (16, 7), (15, 6), (16, 7), (15, 8) hugging the right edge of his own half and (5, 8), (2, 12) on the left.",
+      "clock 2:47 (t=326.7): the opening play, thrown down at 10 elixir at (8, 1) as two enemy Skeletons split down both lanes.",
+      "clock 1:54 overtime (t=513.0): the one aggressive placement, at (16, 14) on his own side of the right bridge, paired with a Wall Breakers send five seconds earlier.",
+      "Thirteen Berserker events (8 HUD, 5 labels) make her his most-played card — the cheap body that buys the Bomb Tower time."
+    ],
+    "royal-delivery": [
+      "Four labelled drops, all defensive: (15, 8) twice, (2, 9) at t=464.0, (13, 15) at t=547.5 and (14, 10) at t=593.6 — never on the opponent's half.",
+      "clock 0:28 (t=464.0): dropped at (2, 9) onto a left-lane threat the tracker had been holding on that tile, with a Bomb Tower already at (9, 9) — the building-holds-them, drop-cleans-up pattern.",
+      "clock 0:50 (t=441.6): played inside the big triple-elixir defensive stack alongside Magic Archer, Archers, Berserker and Goblinstein."
+    ],
+    "archers": [
+      "Three plays (t=419.9, t=434.4, t=537.0), the last labelled at (10, 9) just behind the Bomb Tower line — cheap anti-air held for the opponent's Bats waves at t=406-416 and t=574-580.",
+      "clock 1:14 (t=419.9): played the same second as a Bomb Tower label at (8, 9), as three Bats close on his left tower."
+    ],
+    "goblinstein": [
+      "clock ~2:34 (t=341.3): deployed at (6, 0) behind his own left Crown Tower while that tower is being ground 4858 -> 3942 — a defensive placement, using the Monster as the body and the Doctor as the stun.",
+      "clock ~1:39 (t=394.4): a label at (1, 14) on the left bridge, followed 3 seconds later by an unexplained 2-elixir drop with no hand-slot change — the Lightning Link activation, which costs 2 and does not cycle a card.",
+      "clock 0:57 (t=436.4): a label at (12, 14) inside the biggest defence of the match; the arena tracker picks the Monster up as an ally 'goblin-brawler' at (15, 10) two seconds later, advancing the right lane as a counterpush body.",
+      "clock 0:38 overtime (t=573.6): back at (13, 1) behind his own right tower, followed by an unattributed 5-elixir drop at t=586.6 — the champion returning to hand after being killed."
+    ],
+    "battle-healer": [
+      "clock 2:00-1:45 (t=374.4-389.4): the opponent commits Battle Healer at the back of their half; Ryley answers with Berserker (16, 7) and Tornado (15, 14) rather than a spell — this deck carries none.",
+      "Commentary at 373-382s, playing against it live: \"people just don't like playing against any Battle Healer deck and it's just like a kind of like a toxic card to go up against, which I definitely do agree. I'm not a fan of the Battle Healer.\"",
+      "On the rework (382-407s): \"They're buffing its damage by 81%, but they are also making the hit speed 0.5% longer... the heal radius is 25% less. The hit points are buffed by 12% and the Healer can no longer heal herself.\"",
+      "On why the self-heal had to go (407-431s): \"Healer healing itself kind of just created a toxic environment where basically you would just get two Healers down, everything would be unkillable, and you would just get like the dumbest loss of your life... I'm very happy about that change.\""
+    ],
+    "miner": [
+      "The opponent's chip engine: eight deploy labels between t=396.4 and t=603.6, roughly one every 25 seconds, and the likeliest source of the small unattributed tower losses (e.g. t=551.6, own right tower down 229 HP with no enemy unit in range).",
+      "Ryley never answers the Miner with a dedicated card — the Bomb Tower / Archers / Magic Archer core already sits in the centre of his half, so the chip is simply absorbed while he out-damages it with Wall Breakers."
+    ],
+    "goblin-curse": [
+      "clock 0:44-0:42 (t=448.4, t=451.5): the opponent casts Goblin Curse on Ryley's half at (9, 7), on top of the defensive cluster around his Bomb Tower.",
+      "Commentary at 447-453s, as it lands: \"There is now a slow down to the enemies, so Goblin Curse will now slow down enemies kind of like a poison, I guess, which is kind of cool.\"",
+      "Verdict at 454-470s: \"Goblin Curse definitely does suck, so it did need a buff, but I don't see how it's a rework though because, you know, I don't see like where it got nerfed in any way. So, to me it just looks like an outright buff... it just got a buff labeled as a rework for some reason.\""
+    ],
+    "goblin-machine": [
+      "clock 0:08-0:03 (t=483.5-489.5): the opponent drops Goblin Machine at the back as regular time expires (three consecutive labels are one card, not three).",
+      "Commentary at 480-491s, while it is on screen: \"Goblin Machine is kind of similar to like the Battle Healer and the Goblin Curse where like it just kind of like a gimmick card and it definitely needs like a better place in the game, otherwise it will forever remain a gimmick.\"",
+      "On the buffs (511-517s): \"the melee damage of the Goblin Machine is getting a buff and the hit points are getting a buff by 5%. So, they're just buffing the card.\""
+    ],
+    "rune-giant": [
+      "clock 1:17-1:11 overtime (t=535.5-541.5): the opponent's Rune Giant goes down at the back with an Archer Queen-class unit alongside; Ryley meets it with Tornado (t=533.2), Archers at (10, 9) (t=537.0) and a fresh Bomb Tower (t=544.0) rather than a heavy answer.",
+      "Commentary at 530-555s, as it lands: \"doing a rework to the finest card in Clash Royale, the Rune Giant. And I don't know about this. Rune Giant has been buffed by 6%... The enchantment time now is instant instead of taking 1 second... and Rune Giant no longer enchants kamikaze troops. I actually have no idea what that means.\"",
+      "He flags the wording as genuinely unclear (555-570s): \"I wish I could get some clarification on what kamikaze troops mean cuz that's like something that's been confusing me... maybe that means like it won't enchant like, I don't know, like the Goblin Demolisher.\""
+    ],
+    "void": [
+      "clock 0:32-0:15 overtime (t=582.6-597.6): the opponent casts Void on Ryley's half at (7, 8), on the cluster around his Bomb Tower, and again at (6, 20) at t=608-616.",
+      "Commentary at 572-591s, over the top of the opponent's own Void: \"they are actually doing a massive rework to the Void. I think this may be the biggest rework in the game this season... The Void Elixir cost, guys, is going from three to five, which is absolutely insane. I've never seen a card go up by two Elixir before, I don't think.\"",
+      "On the compensation (601-615s): \"the Void is going to be getting some massive buffs, of course, because the hit frequency is going to be from 1 second to 1.2 seconds, which is 20% longer, which is pretty interesting. The target damage is buffed by 105%.\""
+    ],
+    "witch": [
+      "Mentioned only, not played by either side (316-344s): on the Evo Witch rework, \"Instead of the Evo Witch healing from every skeleton that dies, it will now only heal from the first four skeletons that come out, but it will heal 186% more, which is just a crazy number to hear. And the maximum hit points has actually been buffed by 40%.\"",
+      "Mentioned only (338-348s): \"It will get buffed to be able to survive a lightning if all of these skeletons do die and the Witch survives, which is just ridiculous in my opinion. I feel like Evo Witch is very frustrating to go up against.\"",
+      "Mentioned only, the counter-argument (352-369s): \"it won't be able to heal over and over again after it gets the initial heal because it's only able to heal from the first four skeletons... it's a little bit more annoying to kill it, but it won't constantly heal throughout the game... I do think that it will be a massive buff, but we'll see.\""
+    ],
+    "rocket": [
+      "Mentioned only, not played by either side (492-509s): \"There is the Rocket travel speed getting a buff. It will travel 40% quicker. And the Rocket hit speed will be longer though. So, guys, the Rockets will take 5 seconds now instead of 3.5 seconds. So, you'll get the Rockets traveling quicker, but... they will be less frequent.\"",
+      "Mentioned only, why he likes it (518-529s): \"I did think that it was kind of stupid that it was just all about how many Rockets that you can get, you know, and maybe some cheese plays, but not really like actually anything to do with like the card itself. You were just trying to get lucky before.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-bomb-tower-goblinstein-magic-archer-royal-delivery-tornado-wall-breakers",
+    "cards": ["wall-breakers", "berserker", "archers", "magic-archer", "bomb-tower", "tornado", "royal-delivery", "goblinstein"],
+    "bullets": [
+      "Game 2 of 6 in a deck-showcase balance-change video (t=319.5-616.6). Ryley never discusses the deck — the whole audio track is his balance-change reaction — so this match is a pure record of how the list is piloted.",
+      "The shape never changes: a Bomb Tower inside his own Crown Tower's radius (seven placements between t=362.5 and t=600.6, moved lane to lane), Tornado to clump on top of it, Royal Delivery or Magic Archer to finish the clump, Archers for the Bats, and Berserker as a cheap kite. He holds the centre of his own half and answers reactively.",
+      "Goblinstein is the defensive anchor rather than an offensive champion: labelled at (6, 0), (1, 14), (12, 14) and (13, 1), always in his own half, with a Lightning Link activation on the left bridge at t=397 and the Monster picked up as a counterpush body at (15, 10) at t=436.",
+      "All the damage comes from Wall Breakers — nine sends, always the moment the opponent commits, alternating lanes ((4, 13) and (2, 14) on the left, (15, 15)/(14, 15)/(13, 15) on the right). The double send at t=566.9/568.7 takes the enemy right tower 2677 -> 1825.",
+      "Against a Battle Healer / Rune Giant / Goblin Machine push deck with Miner chip, the spell-less defensive core holds both towers above 1600 while the opponent's fall to 366 and 807; neither side ever destroys a tower and the two-minute overtime expires on a tiebreaker Ryley wins.",
+      "Caveat carried into this record: the per-game HUD read named Fireball as the eighth card. Deploy labels (Goblinstein x4, Fireball x0), the two unattributed 2- and 5-elixir drops matching Lightning Link and a Goblinstein deploy, and the same slot reading Goblinstein in games 0.0/0.2/0.3 all point to Goblinstein; see the match file's Data gaps."
+    ],
+    "new_deck": {
+      "display_name": "Wall Breakers Goblinstein Bomb Tower Control",
+      "archetype_primary": "control",
+      "archetype_secondary": "cycle",
+      "rationale": "Seven of the eight cards are defensive (Bomb Tower, Tornado, Royal Delivery, Magic Archer, Archers, Berserker, Goblinstein) and the deck wins by grinding pushes down in its own half while cheap Wall Breakers chip, rather than by building a push of its own.",
+      "why_it_works_md": "The deck answers everything with one reusable engine: a Bomb Tower placed inside the Crown Tower's radius collects the push, Tornado clumps it, and Royal Delivery or the Magic Archer's piercing shot finishes the clump — the Bomb Tower + Royal Delivery and Tornado + Magic Archer pairings the card files both recommend, stacked on the same tiles. Goblinstein supplies what a 3.25-elixir list normally lacks: a 5-elixir dual body that defends two lanes at once, stuns on every Doctor attack, and returns to hand as a champion instead of clogging the cycle, with the 2-elixir Lightning Link as extra damage against clumped pushes. Offence is deliberately thin — Wall Breakers sent at the river whenever the opponent has committed, backed by a Berserker counterpush — so the deck accepts a long chip war and wins it on tower HP. The weakness is visible in this match: with no damage spell at all, a Battle Healer or a back-line Rune Giant simply has to be out-defended, and Ryley's own towers take steady Miner and swarm chip he never contests."
+    }
+  }
+}

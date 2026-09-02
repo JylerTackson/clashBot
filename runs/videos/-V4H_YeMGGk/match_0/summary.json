@@ -1,0 +1,113 @@
+{
+ "frames": 7769,
+ "seconds": 3713.4,
+ "timing": {
+  "total": {
+   "n": 7769,
+   "mean_ms": 468.0,
+   "p95_ms": 2313.6
+  },
+  "elixir": {
+   "n": 7688,
+   "mean_ms": 1.6,
+   "p95_ms": 2.3
+  },
+  "hand": {
+   "n": 7688,
+   "mean_ms": 174.3,
+   "p95_ms": 220.7
+  },
+  "clock": {
+   "n": 7688,
+   "mean_ms": 90.0,
+   "p95_ms": 537.5
+  },
+  "labels": {
+   "n": 1280,
+   "mean_ms": 620.4,
+   "p95_ms": 889.6
+  },
+  "detect": {
+   "n": 641,
+   "mean_ms": 1084.2,
+   "p95_ms": 1365.2
+  },
+  "loop_fps": 2.1
+ },
+ "own_elixir_drift": {
+  "n": 1847,
+  "mean": -0.015,
+  "abs_mean": 1.012,
+  "max_abs": 7.238,
+  "last": 1.787
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "skeletons",
+   "miner",
+   "cannon",
+   "ice-golem",
+   "musketeer",
+   "barbarians",
+   "graveyard",
+   "bowler"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "barbarians",
+   "bowler",
+   "goblin-drill",
+   "magic-archer"
+  ],
+  "predicted_next": "mini-p-e-k-k-a",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log",
+    "name": "Hog HeroMusk 2.6 Cycle",
+    "archetype": "cycle",
+    "matched": 4,
+    "contradicted": 4,
+    "score": -3.96,
+    "remaining": [
+     "fireball",
+     "hog-rider",
+     "ice-spirit",
+     "the-log"
+    ]
+   },
+   {
+    "deck_key": "balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons",
+    "name": "EvoMusk Miner 2.9 Cycle",
+    "archetype": "cycle",
+    "matched": 4,
+    "contradicted": 4,
+    "score": -3.98,
+    "remaining": [
+     "balloon",
+     "barbarian-barrel",
+     "bomb-tower",
+     "giant-snowball"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-goblin-hut-ice-wizard-mighty-miner-miner-poison-skeletons-wall-breakers",
+    "name": "Miner Wall Breakers HeroIceWiz",
+    "archetype": "control",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "mighty-miner",
+     "poison",
+     "wall-breakers"
+    ]
+   }
+  ],
+  "cycle_confirmed": 6,
+  "cycle_violations": 41
+ }
+}

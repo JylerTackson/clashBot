@@ -1,0 +1,50 @@
+{
+ "games": 6,
+ "deck": [],
+ "deck_key": null,
+ "mixed": true,
+ "scores": {
+  "wall-breakers": 36,
+  "bomb-tower": 33,
+  "tornado": 32,
+  "berserker": 32,
+  "archers": 30,
+  "magic-archer": 27,
+  "royal-delivery": 24,
+  "bats": 12,
+  "fire-spirit": 12,
+  "the-log": 12,
+  "skeletons": 12,
+  "goblinstein": 10,
+  "fireball": 9,
+  "rage": 9,
+  "ice-wizard": 6,
+  "giant-snowball": 6,
+  "cannon": 3,
+  "mega-minion": 3,
+  "giant": 3,
+  "x-bow": 2,
+  "miner": 0,
+  "little-prince": 0,
+  "suspicious-bush": 0
+ },
+ "transcript_mentions": {
+  "bats": 2,
+  "fire-spirit": 1,
+  "wall-breakers": 4,
+  "skeletons": 5,
+  "tornado": 1,
+  "archers": 3,
+  "bomb-tower": 1,
+  "magic-archer": 4,
+  "royal-delivery": 3,
+  "rage": 2,
+  "x-bow": 4,
+  "mega-minion": 6,
+  "little-prince": 6,
+  "suspicious-bush": 1
+ },
+ "notes": [
+  "games in this video use different decks (median HUD overlap 0.33); no video-level deck"
+ ]
+}

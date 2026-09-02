@@ -1,0 +1,97 @@
+{
+  "key": "-V4H_YeMGGk-m0.2",
+  "match_file": "matches/-V4H_YeMGGk-m0.2.md",
+  "video_title": "My Opinion on the BIGGEST Balance Changes EVER!!",
+  "cards": {
+    "wall-breakers": [
+      "clock 2:47 and 2:42: opens the game with back-to-back Wall Breakers, the first at tile (4, 14) just left of the bridge (10 -> 8 then 9 -> 7 Elixir), with no tank and no spell support — in this deck they are the whole offence.",
+      "clock 2:20, 1:51, 1:17 and 0:55: sends them again at (8, 13), (14, 8) and (4, 15), each time immediately after a defence has absorbed a P.E.K.K.A. bridge-spam push; the enemy left tower steps down 4858 -> 3351 -> 1665 HP across those windows.",
+      "He pairs them with a Berserker at the river rather than a tank: Berserker deploys at (8, 13), (2, 14) and (7, 14) land within seconds of a Wall Breakers drop. No commentary — the whole game is a balance-change read-through."
+    ],
+    "berserker": [
+      "clock 2:19, 1:36 and 1:17 (HUD-confirmed 2-Elixir drops), with deploy labels at (8, 13), (2, 14) and (7, 14): every Berserker of the game goes on or just behind the river line, either escorting a Wall Breakers pair or meeting a unit that has just crossed — never leading a push.",
+      "The deploy labels read plain 'BeRSeRkeR', so this is the standard card and not the Hero variant, despite Hero Berserker existing."
+    ],
+    "tornado": [
+      "clock ~2:32 at tile (4, 13), clock 1:42 and clock 0:40 (both HUD 5 -> 2): three casts, all defensive and all in the single lane he is being attacked in, against Royal Ghost, Miner and a Mini P.E.K.K.A./P.E.K.K.A. push.",
+      "Each Tornado is paired with a Royal Delivery or Bomb Tower within about two seconds (clock 2:32 Tornado (4, 13) + Royal Delivery (2, 8); clock 0:42-0:40 Royal Delivery + Bomb Tower (8, 10) + Tornado) — the clump-then-splash pattern the card is built for."
+    ],
+    "royal-delivery": [
+      "Five uses, all on his own half: (2, 8) at clock ~2:32, (4, 14) at clock 1:36, a HUD 7 -> 4 at clock 0:42, (7, 13) at clock 0:34 and (15, 10) at clock 0:19 — his standing answer to whatever has already crossed the river (Royal Ghost, Miner, Mini P.E.K.K.A.).",
+      "clock 2:32 and clock 0:42: lands within two seconds of a Tornado both times, and at clock 0:42 also alongside a Bomb Tower — Tornado clumps, Royal Delivery and the Bomb Tower splash."
+    ],
+    "bomb-tower": [
+      "clock 1:08 at tile (8, 9) (HUD 7 -> 3, deploy label agreeing), clock ~0:42 at (8, 10) and clock ~0:13 at (8, 7): all three placements are the centre column in front of the King's Tower, covering both lanes against Evolved Battle Ram and P.E.K.K.A. traffic rather than being pulled to the threatened side.",
+      "clock 1:08: the placement goes down as an Evolved Battle Ram is tracked at (3, 11) closing on his left tower, i.e. he places the building before the ram commits rather than reacting to it."
+    ],
+    "goblinstein": [
+      "Deployed four separate times (clock 2:33 at (6, 8), clock 1:46 at (10, 11), clock ~1:03 at (2, 14), clock 0:33 at (1, 10)) — as a Champion, that means it was killed and returned to hand three times in 120 seconds against P.E.K.K.A. bridge spam.",
+      "clock 2:33: goes down at (6, 8) as part of an 11-Elixir one-lane defence (Goblinstein + Tornado + Royal Delivery inside two seconds) against a Royal Ghost and a Bandit.",
+      "clock ~1:03 (triple Elixir): the only aggressive placement, at the bridge tile (2, 14) behind Wall Breakers — the enemy left tower falls 3351 -> 1665 HP over the next five seconds, the biggest damage burst of the game."
+    ],
+    "archers": [
+      "clock ~2:01 at tile (1, 1): played as deep behind his own left tower as the arena allows while a P.E.K.K.A. walked that lane — a hold-and-outlast placement, not a support placement.",
+      "clock 0:45 at (1, 7): dropped next to the Magic Archer at (2, 7) as part of a four-card defence (Magic Archer, Archers, Royal Delivery, Tornado) against a Mini P.E.K.K.A. plus P.E.K.K.A. wave."
+    ],
+    "magic-archer": [
+      "clock 0:45 at tile (2, 7), his only Magic Archer of the game: placed behind his own left tower and paired with Archers and Royal Delivery against two heavy ground units, i.e. used purely as defensive backline DPS rather than for bridge chip.",
+      "The deploy label reads plain 'Magic Archer' and no ability is visible, so this is the standard card rather than the Hero variant."
+    ],
+    "void": [
+      "clock 2:57-2:51: the opponent opens with Void against him (deploy label at tile (6, 20)); Ryley says nothing about the play but spends 615-670s on the card's buff: 'They buffed the Void damage by 105%. The two to four target damage is buffed by 83% and the five target damage is now buffed by 100%. So, they buffed the Void all across the board because there is the three phases of the Void, of course, like the different strikes.'",
+      "647-664s, on the Crown Tower numbers: 'The Crown Tower damage will go from 48 to 97 and if there's two targets on the Crown Tower, it will do 25 to 51 damage, which is plus 100% and the five targets it'll do 17 to 35 damage, which is just absolutely crazy. Buffed by 100% all across the board.'",
+      "638-642s, his verdict: 'Not that it maybe I don't agree that it needed a buff, but damn is it crazy.' And 667-691s on why it exists: 'although it does take, you know, two more Elixir to play every single time... there's never been a five Elixir spell before and there has been a lot of cards in the game that were only able to be taken out by the six Elixir spells like Rocket and Lightning.'"
+    ],
+    "mega-minion": [
+      "Not played in this match — discussed at 694-712s, about the Hero variant: 'they are doing a rework to the hero mega minion. They are making the hero mega minion have a tower damage reduction from 15% to 27% which I very much agree with that. There was nothing more annoying than just having a hero mega minion just completely destroy your tower. I hated that so much man.' At 713-719s: 'the tower damage reduction is from 5 seconds to now permanent.'",
+      "721-742s, on the teleport: 'they are changing the teleport damage from 373 to 399 which is a 7% buff which I think is fair cuz they did definitely hurt the mega minion all over the board... before this mega minion was not able to take out a lot of units with a mega minion plus a spell. But now it will actually be able to do that making it a lot better offensively but not like as annoying against crown towers.'"
+    ],
+    "mortar": [
+      "Not played in this match — discussed at 769-796s: 'the hero and the evo versions of these cards were very much overshadowing the regular version. So they are nerfing the... evolved mortar hit speed from 4 seconds to 4.7 seconds but they are changing the regular mortar hit speed from 4 seconds to 4.7 seconds. So now they are equal instead of being different.'",
+      "754-767s, his overall reaction to the Mortar/Barbarians/Goblins batch: 'truthfully this is the one that I am most unsure about to be honest cuz there's just so many different things that are being affected at once and I really don't know how I agree with this.'"
+    ],
+    "barbarians": [
+      "Not played by him in this match (the tracker does show Evolved Barbarians on the opponent's side at clock 0:13-0:11, on his King Tower) — named at 754-756s as part of the balance batch he is least sure about, and at 797-799s, cut off by the end of the game: 'Guys now to the barbarians. The barbarians are also getting toned down.'"
+    ],
+    "goblins": [
+      "Not played in this match — named only at 754-767s as part of the Mortar/Barbarians/Goblins balance batch: 'they are also doing a bunch of balances to the mortar, the barbarians and the goblins. It affects so many different cards and dude truthfully this is the one that I am most unsure about.'"
+    ],
+    "lightning": [
+      "Not played in this match — named at 678-687s as the benchmark the buffed 5-Elixir Void is measured against: 'a lot of cards in the game that were only able to be taken out by the six Elixir spells like Rocket and Lightning and Clash Royale just wants like experiment with having a lower Elixir cost than six on the spells, but also taking out those units, but not being as effective overall.'"
+    ],
+    "rocket": [
+      "Not played in this match — named at 678-687s alongside Lightning as the six-Elixir spells that used to be the only answers to certain units, the role the buffed 5-Elixir Void is now meant to partly take over."
+    ],
+    "p-e-k-k-a": [
+      "Faced, not played: the opponent drops P.E.K.K.A. at tile (4, 24) behind their own tower at clock 2:04, one second after a Mini P.E.K.K.A. — an 11-Elixir double-heavy commitment as double Elixir starts. Ryley answers by stacking Archers at (1, 1) deep behind his tower and letting it walk; his left tower goes 2949 -> 2674 HP.",
+      "clock 0:40: a second P.E.K.K.A. arrives while a Mini P.E.K.K.A. is already down the left lane; his answer is Magic Archer (2, 7) + Archers (1, 7) + Royal Delivery + Tornado + Bomb Tower (8, 10) inside five seconds, and the P.E.K.K.A. is on his King Tower by clock 0:13."
+    ],
+    "mini-p-e-k-k-a": [
+      "Faced, not played: deployed by the opponent at clock 2:07 at tile (5, 27) and again at clock 0:44 at (1, 24), each time paired with a P.E.K.K.A. behind it. Ryley's answers are Royal Delivery and Tornado at clock 1:36 and the full Magic Archer/Archers/Royal Delivery/Tornado stack at clock 0:45-0:40."
+    ],
+    "miner": [
+      "Faced, not played: level 16 Miner used repeatedly for chip — clock 2:42 at tile (10, 13) on Ryley's right side, clock 1:42 at (3, 10) on his left tower, and two more labels at clock 0:58 and 0:54. Ryley answers only the left-lane ones (Tornado + Berserker + Royal Delivery at clock 1:42-1:36) and lets the right-lane Miner chip away."
+    ],
+    "royal-ghost": [
+      "Faced, not played: tracked on Ryley's own half at tile (3, 13) at clock 2:37 and again at (13, 17) at clock 1:32, and on his right tower at (14, 6) at clock 0:13. His answer at clock 2:33-2:32 is Goblinstein (6, 8) plus Tornado (4, 13) plus Royal Delivery (2, 8), an 11-Elixir defence that still leaves the left tower at 2949 HP."
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-bomb-tower-goblinstein-magic-archer-royal-delivery-tornado-wall-breakers",
+    "cards": ["archers", "berserker", "bomb-tower", "goblinstein", "magic-archer", "royal-delivery", "tornado", "wall-breakers"],
+    "bullets": [
+      "Game 3 of 6 in a deck-showcase video (video 616.8s-798.8s); Ryley never discusses the deck — the whole 182 s of commentary is a balance-change read-through — so the piloting below is read from the events and tower HP only.",
+      "Offence is Wall Breakers alone, sent unsupported and repeatedly (clock 2:47, 2:42, 2:20, 1:51, 1:17, 0:55), almost always in the left lane and almost always right after a defence has finished absorbing a push; the enemy left tower steps down 4858 -> 3351 -> 1665 HP across those windows but never falls.",
+      "Defence is layered rather than single-card: Tornado clumps and Royal Delivery or Bomb Tower splashes within about two seconds (clock 2:32, clock 0:42-0:40), with Bomb Tower always in the centre column at (8, 9)/(8, 10)/(8, 7) so it covers both lanes.",
+      "Goblinstein is played four times in 120 seconds (clock 2:33, 1:46, 1:03, 0:33) — as a Champion, that means it kept dying to the opponent's P.E.K.K.A. bridge spam; its one aggressive use, at bridge tile (2, 14) at triple Elixir behind Wall Breakers, produced the game's biggest damage burst.",
+      "Against P.E.K.K.A. bridge spam plus a level 16 Miner the deck committed everything to one lane: at clock 0:45-0:40 he spent Magic Archer, Archers, Royal Delivery, Tornado, Bomb Tower and Berserker in five seconds, and the unanswered right lane plus a permanent Miner/Royal Ghost chip took his left tower to 437 HP and his King Tower to 612 HP by clock 0:11 (outcome not stated in the video)."
+    ],
+    "new_deck": {
+      "display_name": "Wall Breakers Ryley",
+      "archetype_primary": "control",
+      "archetype_secondary": "cycle",
+      "rationale": "Four dedicated defensive cards (Bomb Tower, Tornado, Royal Delivery, Magic Archer) plus a Champion carry the deck, with Wall Breakers as the only win condition, chipping between defences at 3.25 average Elixir.",
+      "why_it_works_md": "The deck is built to survive a push and then send two Elixir at the tower. Tornado clumps whatever crosses the river and Royal Delivery or the centrally placed Bomb Tower splashes it, with Archers and Magic Archer behind the tower for the heavy single-target threats and Berserker as a 2-Elixir stopgap at the river. Goblinstein doubles as a defensive wall and, at the bridge, as a second threat — its Monster targets buildings while the Doctor's stunning attacks cover air. Offence is one card: Wall Breakers, dropped alone and often, so each defensive cycle converts into 2-Elixir chip. In this match that plan out-damaged the opponent early (enemy left tower 4858 -> 1665 HP) but the deck had no way to close a lane, and a P.E.K.K.A. bridge-spam deck with a level 16 Miner ground both of Ryley's left-side towers down while he answered only one lane."
+    }
+  }
+}

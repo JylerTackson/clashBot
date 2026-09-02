@@ -1,0 +1,119 @@
+{
+ "frames": 1559,
+ "seconds": 807.0,
+ "timing": {
+  "total": {
+   "n": 1559,
+   "mean_ms": 486.7,
+   "p95_ms": 2372.1
+  },
+  "elixir": {
+   "n": 1469,
+   "mean_ms": 1.8,
+   "p95_ms": 2.6
+  },
+  "hand": {
+   "n": 1469,
+   "mean_ms": 188.1,
+   "p95_ms": 236.8
+  },
+  "clock": {
+   "n": 1469,
+   "mean_ms": 120.7,
+   "p95_ms": 799.8
+  },
+  "labels": {
+   "n": 245,
+   "mean_ms": 592.1,
+   "p95_ms": 750.5
+  },
+  "detect": {
+   "n": 122,
+   "mean_ms": 1119.3,
+   "p95_ms": 1352.3
+  },
+  "loop_fps": 2.1
+ },
+ "own_elixir_drift": {
+  "n": 1449,
+  "mean": -0.081,
+  "abs_mean": 0.987,
+  "max_abs": 8.958,
+  "last": 2.145
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "miner",
+   "phoenix",
+   "graveyard",
+   "bomber",
+   "spear-goblins",
+   "magic-archer",
+   "electro-giant",
+   "phoenix-egg"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "spear-goblins",
+   "electro-giant",
+   "graveyard",
+   "phoenix-egg"
+  ],
+  "predicted_next": "furnace",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap",
+    "name": "Golem HeroMiniPekka NW Phoenix",
+    "archetype": "beatdown",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "arrows",
+     "elite-barbarians",
+     "golem",
+     "mini-p-e-k-k-a",
+     "night-witch",
+     "zap"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-goblin-hut-ice-wizard-mighty-miner-miner-poison-skeletons-wall-breakers",
+    "name": "Miner Wall Breakers HeroIceWiz",
+    "archetype": "control",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.97,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "mighty-miner",
+     "poison",
+     "skeletons",
+     "wall-breakers"
+    ]
+   },
+   {
+    "deck_key": "baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado",
+    "name": "GY IWiz Evo BBD Nado",
+    "archetype": "control",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.97,
+    "remaining": [
+     "baby-dragon",
+     "barbarian-barrel",
+     "ice-wizard",
+     "knight",
+     "poison",
+     "tombstone",
+     "tornado"
+    ]
+   }
+  ],
+  "cycle_confirmed": 3,
+  "cycle_violations": 7
+ }
+}

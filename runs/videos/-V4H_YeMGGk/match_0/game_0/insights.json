@@ -1,0 +1,106 @@
+{
+  "key": "-V4H_YeMGGk-m0.0",
+  "match_file": "matches/-V4H_YeMGGk-m0.0.md",
+  "video_title": "My Opinion on the BIGGEST Balance Changes EVER!!",
+  "cards": {
+    "bomb-tower": [
+      "clock 2:43: opens the game with it at [8, 11] on a full bar (elixir 10 -> 6) and rebuilds it 11 times across the match (1:57, 0:47, 0:17, 0:03, OT 1:29, OT 1:25, OT 0:53, OT 0:43, OT 0:19, OT 0:07) — every readable tile is the centre column of his own half ([8, 11], [9, 10], [8, 10], [9, 9], [9, 11]), inside both crown towers' cover, so one building covers either lane against a Miner/Graveyard/P.E.K.K.A. deck.",
+      "clock 1:57: goes straight to Bomb Tower at [9, 10] (elixir 9 -> 5) as the opponent lays a Graveyard at [9, 3] in front of his King's Tower, then repeats the pairing at 0:03 when the second Graveyard lands at [8, 3].",
+      "clock 0:31: the building is the fixed half of his answer to a three-threat wave (P.E.K.K.A. at (3, 12) + Battle Ram Evolution right lane + Mini P.E.K.K.A.), with Tornado (elixir 5 -> 2) clumping into its splash — the Bomb Tower + Tornado pattern is the deck's whole defensive identity. He never comments on the card.",
+      "OT 1:29 and OT 1:25: two Bomb Tower plays five seconds apart (elixir 9 -> 5, then 6 -> 2) while defending Ronin pressure — both HUD-high, though the second may be a duplicate detection."
+    ],
+    "berserker": [
+      "clock 2:32: throws her at [10, 9] (elixir 7 -> 5) directly into a Battle Ram the tracker had 2.0 s from his left tower — with no tank in the deck she is used as a body to buy Bomb Tower time, not as a tank escort.",
+      "clock 2:50 and OT 0:32: also used as pure cheap filler in the back — deploy labels at [8, 0] behind the King's Tower and [2, 10] — one of 11 Berserker deployments, the most of any 2-elixir card here.",
+      "OT 1:55: stacks her at the river tile [14, 15] (elixir 5 -> 3) with a Magic Archer label on the same tile three seconds later, against a Royal Ghost and Mega Minion that were 0.4-2.2 s from his right tower.",
+      "clock 0:52: a Berserker HUD play registered elixir -3 against her 2 cost, so elixir readings around that point are soft (recorded as a data gap, not as a play)."
+    ],
+    "magic-archer": [
+      "clock 1:37: played at [9, 0] directly behind the King's Tower (elixir 9 -> 5) — one of three deep, safe placements ([9, 0], [2, 1] at 0:52, [16, 8] at OT 0:32) where the pierce still reaches the lane but nothing can punish him.",
+      "OT 1:52: the river-line placement — Magic Archer label at [14, 15] on top of the Berserker already there, with Tornado cast in the same second; three of his four Tornado casts land within a few seconds of a Magic Archer, which is the clump-then-pierce pairing.",
+      "clock 0:32 and OT 1:46: uses him as the repeat 4-elixir answer in the busiest defensive stretches (elixir 8 -> 4, then 6 -> 2), 9 deployments in all — the deck's only long-range damage."
+    ],
+    "wall-breakers": [
+      "clock 2:02: sends them at [8, 15], the dead-centre river tile, which splits the pair into both lanes — the awkward-to-answer middle placement, and his first offensive commitment of the game.",
+      "clock 1:27: bridge pair at [3, 14] the moment the opponent commits a Miner on their own half at [2, 28] — he punishes the elixir spend in the other lane rather than answering the Miner directly, and does the same at 0:23 ([13, 12]) against a Miner at [13, 7].",
+      "OT 1:00 to OT 0:08: four more sends ([2, 14], [9, 11], [12, 10] and one HUD-only at OT 0:37) always unsupported — no Miner, no spirit, no Rage — which is consistent with the deck carrying no Wall Breakers support card, and with the opponent's towers only bleeding slowly all game."
+    ],
+    "tornado": [
+      "clock 0:31: the defensive clump — cast (elixir 5 -> 2) into a P.E.K.K.A. + Mini P.E.K.K.A. + Battle Ram Evolution wave with the Bomb Tower already down at [8, 10], the deck's core defensive pairing.",
+      "clock 2:24: an early deep cast at [10, 5] well inside his own half, pulling a left-lane Battle Ram push into tower range.",
+      "OT 0:43 and OT 0:05: two casts at [14, 20] on the OPPONENT'S half while his Wall Breakers were running — used to drag defenders off the runners rather than as a defensive spell."
+    ],
+    "royal-delivery": [
+      "clock 1:54: dropped at [12, 13] straight onto the path of a Battle Ram and Electro Wizard that the tracker had 4.6 s and 6.3 s from his right tower — the tower then holds at 4160 for the next 20 s.",
+      "clock 2:32 and OT 1:39: reactive drops at [6, 14] and [14, 13], always in the lane of a single committed attacker and always with the Bomb Tower already placed behind it — six uses in all, entirely defensive.",
+      "OT 1:18: laid at [12, 14] as the opponent's second Ronin comes down at [8, 29], the answer to a bridge-crossing melee threat."
+    ],
+    "goblinstein": [
+      "clock 1:16: Goblinstein at [7, 8], centre of his own half, so the Doctor spawns opposite the Monster and the pair covers both lanes — the same central pattern in all five deployments ([7, 8], [13, 11] at 0:08, [11, 8] at OT 1:19, [16, 14] at OT 0:53, [2, 8] at OT 0:19).",
+      "clock 1:09-0:55 (t=106-121s), pointing at that unit on the arena: \"See the doctor right here? It doesn't really do too much damage, but it will be doing 47% more damage next season, but to compensate for the massive buff to the doctor, they are nerfing the ability. The damage per second will be going down by 12%, which I think it's definitely fair to give a compensation nerf to a card where they gave such a big buff to.\" (The auto-transcript names the card \"Goblin Giant\" at 95s, but the Doctor, the ability and the on-screen unit are all Goblinstein.)",
+      "Note: the pipeline also logged two Goblinstein deploy labels as opponent plays at [8, 12] (0:34) and [11, 13] (OT 1:46); both are on Ryley's half and the opponent already fields Mighty Miner, so two Champions could not share that deck — read as his own."
+    ],
+    "archers": [
+      "clock 0:52: deploy label at [1, 1], the back-left corner behind his tower, during the Royal Ghost / Bandit / P.E.K.K.A. build-up — plus one HUD play at OT 0:40 (elixir 8 -> 5). The least-used card in his deck.",
+      "t=70s, on the spirit health nerf: spirits \"will make them now get one-shot by cards like archers, archer queen, bomber, musketeer, Tesla, and just things like that, making them just a little bit worse defensively\" — he names Archers first among the cards that gain from the change."
+    ],
+    "miner": [
+      "Opponent's engine in this match: labelled deployments at 1:27, 0:51, 0:42 (at [8, 0], behind Ryley's King's Tower), 0:24 ([13, 7]), OT 1:54, OT 1:12, OT 1:10, OT 0:48 and OT 0:07 — at least eight in a 315 s window.",
+      "Ryley never spends a spell or a hard counter on one; the plays that line up in time are Wall Breakers into the other lane (1:27, 0:23) and simply letting the Bomb Tower and crown tower handle it."
+    ],
+    "graveyard": [
+      "Opponent play at 1:57 ([9, 3]) and again at 0:03 ([8, 3]), both in front of Ryley's King's Tower and both inside his Bomb Tower's cover.",
+      "Both are answered within two seconds by a Bomb Tower rebuild (1:57, elixir 9 -> 5) or a Magic Archer, never by a spell."
+    ],
+    "p-e-k-k-a": [
+      "Opponent walks a P.E.K.K.A. down the left lane twice — 0:42 (tracked at [4, 22]) and OT 0:43 ([4, 19]) — each time as the anchor of a multi-card push.",
+      "Ryley's answer at 0:31 is Tornado (elixir 5 -> 2) plus the standing Bomb Tower and a Magic Archer, i.e. clump-and-grind rather than a dedicated tank killer, which the deck does not have."
+    ],
+    "mighty-miner": [
+      "Opponent deploys Mighty Miner at [9, 30] at OT 1:47 — in the same seconds Ryley is reviewing the card, the only real synchronisation between script and arena in the game.",
+      "t=186-210s: \"they are actually doing a buff to the mighty miner as well. They're buffing the mighty miner by 6%. Honestly, I don't think it was necessary. I think that the mighty miner is one of the best cards in the game. And I also thought that it was the best champion in the game, you know, not counting heroes just like the regular champions.\"",
+      "t=203-209s on the size of the change: \"It's going from 40 to 43 damage at tournament level, which is pretty cool though, cuz it is my favorite card, but I just didn't think that it needed a buff.\""
+    ],
+    "ronin": [
+      "Opponent deploys Ronin at [8, 29] at OT 1:21 and again at OT 1:18; Ryley answers the lane with Royal Delivery at [12, 14] and a second Bomb Tower.",
+      "t=211-223s: \"they are actually nerfing the ronin, but it's a bug fix, which I thought that was interesting. Like their way of like bug fixing the ronin actually does come as a nerf. The ronin will now shoot 0.1 second slower.\"",
+      "t=226-243s on what the bug was: \"it will just kind of fix the bug with the golden knight where if you had a golden knight dashing onto a ronin, it would actually get reflected and the Gold Knight would not dash onto anything. I thought that was intentional, but apparently it was a bug and it was also messing up against the Dark Prince as well where it would just one-shot the Dark Prince instead of just taking off the shield like it normally should.\""
+    ],
+    "golden-knight": [
+      "Mentioned only, not played by either side. t=226-234s, on the Ronin bug fix: \"if you had a golden knight dashing onto a ronin, it would actually get reflected and the Gold Knight would not dash onto anything. I thought that was intentional, but apparently it was a bug.\" — i.e. after the fix, Golden Knight's dash should behave normally into Ronin."
+    ],
+    "little-prince": [
+      "Mentioned only, not played by either side (a `LittlePrince` deploy label at [8, 9] at t=140 is on-screen balance-change card art picked up by OCR, not a play).",
+      "t=134-160s: \"they are actually buffing the little prince. The little prince is getting a very strange balance that I've never actually seen in the game before... Do you know how like the little prince gets reset every single time it moves? Now it has a 0.3 second window where it can move but not be reset. It has to be moving for more than 0.3 seconds for it to be reset to lose that maximum charge.\"",
+      "t=161-175s on why it matters: \"the little prince just when it would move, it would just become so bad. And more often than not, you wouldn't be able to charge it up more than one time every time you had it down. And it just would make it so it just did not get enough value simply. And it should be a lot better.\" He adds that the Guardian gets \"a 7%\" damage buff, \"which I guess is cool... but I don't know if it was really necessary.\""
+    ],
+    "x-bow": [
+      "Mentioned only, not played by either side (an `X-Bow` deploy label at [8, 8] at t=255 and repeated X-Bow hand reads at 264s/318s are on-screen card art picked up by OCR).",
+      "t=244-262s: \"They are also doing a I would say a buff to the X-Bow, guys. Maybe it's a nerf, but they are making the hit speed go a little bit slower, but in return of making the hit speed a little bit slower, they are buffing the damage and they are actually buffing the projectile speed as well.\"",
+      "t=259-278s on the reason and the risk: \"I think that is to fix the X-Bow where like it will shoot at a skeleton three times and it only needs two times to kill the skeleton, but it would end up like shooting a third time... which is actually I guess a nice quality of life change for the X-Bow players, but it could make X-Bow just a little bit too strong in my opinion if they're not careful.\""
+    ],
+    "ice-golem": [
+      "Mentioned only, and specifically the Hero variant, not the base card; not played in this match. t=279-296s: \"they're actually doing a rework to the hero Ice Golem. Instead of having a freeze effect, you know, like the freeze spell, they are now just having it do three different slow downs and in my opinion, that is very good because I do think that the hero Ice Golem was very, very good and way too good against units that it was bad against.\"",
+      "t=297-313s on the old ability and the new damage: \"If you had a deck where you couldn't really defend their Hog Rider, they popped the ability, they get like five hits, there's nothing they are able to do, but because they are taking away the freeze effect, they are actually making it do way more damage, significant more damage. It will actually be able to take out Goblins, Minions and stuff like that.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-bomb-tower-goblinstein-magic-archer-royal-delivery-tornado-wall-breakers",
+    "cards": ["archers", "berserker", "bomb-tower", "goblinstein", "magic-archer", "royal-delivery", "tornado", "wall-breakers"],
+    "bullets": [
+      "Game 1 of a six-game deck-showcase video (each game a different deck); the commentary is a scripted balance-change review and never discusses the match, so this entry is observation-led.",
+      "Piloted as pure defence with a chip threat: Bomb Tower rebuilt 11 times in the centre column of his own half ([8, 11] at 2:43, [9, 10] at 1:57, [8, 10] at 0:47, [9, 9] at OT 1:29), Tornado clumping into its splash (0:31 against P.E.K.K.A. + Mini P.E.K.K.A. + Battle Ram Evolution), Royal Delivery for single bridge-crossers ([12, 13] at 1:54, [12, 14] at OT 1:18) and Berserker/Magic Archer thrown at whatever crosses ([14, 15] twice at OT 1:55-1:52).",
+      "Wall Breakers is the only offence and is always sent alone — [8, 15] centre river split at 2:02, [3, 14] at 1:27, [13, 12] at 0:23, [2, 14] at OT 1:00, [12, 10] at OT 0:08 — usually timed against an opponent Miner commitment in the other lane rather than as a scheduled cycle push.",
+      "Goblinstein sits centrally on his own half so the Doctor and Monster split lanes ([7, 8] at 1:16, [11, 8] at OT 1:19, [2, 8] at OT 0:19); his only in-game line is pointing at it for the balance note at 107s: \"See the doctor right here?\"",
+      "Result of the grind: regular time ended 0-0 on crowns (his towers 4583/3808 vs 3691/3691), and the game was still undecided in triple-elixir overtime when the footage cut at t=319 with the opponent's towers at 168 and 376 and his own at 1661 and 622.",
+      "Opponent was a Miner/Graveyard chip-control deck with P.E.K.K.A., Electro Wizard, Royal Ghost, Mighty Miner and Ronin; the deck's splash-plus-building core held it, but with no tank killer the P.E.K.K.A. pushes had to be ground down rather than answered."
+    ],
+    "new_deck": {
+      "display_name": "WB Goblinstein Bomb Tower Nado Control",
+      "archetype_primary": "control",
+      "archetype_secondary": "cycle",
+      "rationale": "Four defensive answers (Bomb Tower, Tornado, Royal Delivery, Magic Archer) built to trade up against every push, with only cheap Wall Breakers chip as a win condition — defence-first, with a 3.25 average cost that is too high for a true cycle deck.",
+      "why_it_works_md": "Bomb Tower plus Tornado is the engine: the building holds the centre of the half inside both crown towers' cover, and the Tornado drags a push into its splash, with Magic Archer piercing the clump from behind and Royal Delivery covering the single bridge-crosser the building cannot reach. Berserker is the 2-elixir plug that buys the building a second against anything that gets past it, and Goblinstein placed centrally splits the Doctor and Monster into both lanes for one 5-elixir card. Damage comes almost entirely from Wall Breakers sent unsupported whenever the opponent commits elixir in the other lane, which makes the deck a slow grinder rather than a race — in this match it never lost a tower and never took one either, going the full distance into triple-elixir overtime. The obvious hole is heavy single-target beef: with no tank killer, a P.E.K.K.A. has to be ground down by the building and splash instead of answered outright."
+    }
+  }
+}

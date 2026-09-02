@@ -1,0 +1,91 @@
+{
+  "key": "-V4H_YeMGGk-m0.3",
+  "match_file": "matches/-V4H_YeMGGk-m0.3.md",
+  "video_title": "My Opinion on the BIGGEST Balance Changes EVER!!",
+  "cards": {
+    "wall-breakers": [
+      "clock 2:47 (t=801.5): opens the game with Wall Breakers on the left river tile [4, 14] (HUD 10.0 -> 8.0, deploy label score 1.0); the opponent spends Guards at [3, 18] six seconds later, a 3-for-2 trade in Ryley's favour.",
+      "clock 1:23 (t=884.9) and clock 0:27 (t=939.9): replays them at the bridge while his defence is already committed — left lane [4, 15], then switching to the right-lane bridge tile [14, 15] just as the enemy right tower starts dropping (4654 -> 3722 across t=944-950).",
+      "Cycled roughly once per rotation: 7 HUD reads in 190 readable seconds, always alone as chip rather than as part of a push. He gives no commentary on the card in this game (the audio is entirely balance-change narration)."
+    ],
+    "bomb-tower": [
+      "clock 2:04, 1:13, 0:19 and in overtime: replays it at almost the same centred tile every rotation ([8, 10], [9, 10], [8, 10], [8, 11]), in front of his own towers where both Crown Towers cover it, as the anchor against Guards, Ram Rider and Miner pressure.",
+      "clock 0:51 (t=916.9): the one off-centre placement, [15, 9] on his own right, against a Ram Rider tracked at [14, 11] with a 4.5 s threat warning.",
+      "Every Tornado and Royal Delivery in the game lands within a couple of seconds of a Bomb Tower — the clump-then-splash pattern the card is built for."
+    ],
+    "berserker": [
+      "clock 2:36 (t=812.8): Berserker at [8, 12] together with Bomb Tower and Tornado against a Royal Ghost the tracker follows from [12, 21] to [14, 3].",
+      "clock 1:59, 1:11 and 0:21 (tiles [6, 8], [6, 12], [6, 13]): always on his own half behind or beside the Bomb Tower as cheap melee filler; the 0:21 play comes from the deploy label because the HUD hand read disagreed.",
+      "t=965 (overtime): [7, 15] at the bridge, the only Berserker of the game past his own half. No hero ability is visible anywhere in the match — six plays, all at 2 elixir, no ability commentary — so this is the standard Berserker, not the Heroic variant."
+    ],
+    "royal-delivery": [
+      "clock 1:09, 0:59 and 0:23 (t=897.9, 908.9, 944.9): three labels all on the same left-lane river tile [5, 14]/[5, 15], the lane the opponent's Ram Rider and Guards keep using.",
+      "overtime (t=968.1 HUD 4.0 -> 1.0, t=977.8 HUD 3.0 -> 0.0): spends it twice in the first ten seconds of overtime while defending a Miner at [7, 8] and an Executioner at [8, 12] on his own half, emptying his elixir bar both times."
+    ],
+    "archers": [
+      "clock 2:02, 1:24 and 0:28 (HUD -3 each): cheap support played behind the Bomb Tower during defences rather than at the bridge.",
+      "t=931.9: label at [1, 1], the back-left corner behind his King Tower, the spell-safe placement against an opponent holding Executioner and a chip spell.",
+      "Mentioned as a balance topic only (t=906-923): \"there is a nerf to the evolved archers. Evolved archers have been super popular so I think this is a pretty solid nerf right here... their power shot damage is going down by 17%, which I say is pretty sizable. Will change quite a few interactions.\""
+    ],
+    "goblinstein": [
+      "clock 2:23 (t=824.3): Goblinstein at [10, 8], centre-right (HUD 10.0 -> 5.0, label score 1.0) — the placement that splits the Doctor and the Monster toward different lanes.",
+      "clock 1:37 (t=871.0): [11, 1], right behind his own King Tower with the board empty in double elixir — building the next defence in advance rather than answering a push.",
+      "clock 1:11 (t=901.9): [7, 10] in the middle of his biggest defensive stack of the game (Bomb Tower, Magic Archer, Berserker, Royal Delivery, two Wall Breakers) against a Royal Ghost plus Executioner. No ability activation is readable in the events."
+    ],
+    "magic-archer": [
+      "clock 2:28 (t=820.8) at [9, 4] and t=930.9 at [7, 0], directly behind the King Tower: both placements are deep on his own half, keeping him out of Executioner and Miner range while his pierce lines up behind the Bomb Tower.",
+      "clock 1:12 (t=894.9, HUD 8.0 -> 4.0): played into the Royal Ghost plus Executioner defence; the enemy left tower drops 4858 -> 3552 between t=888 and t=892 off that exchange.",
+      "As with the Berserker, there is no sign of the hero variant — all three plays read as the 4-elixir card."
+    ],
+    "tornado": [
+      "clock 2:36 (t=811.8): Tornado at [9, 9] in the same window as Bomb Tower and Berserker against an advancing Royal Ghost.",
+      "clock 0:34 and 0:22 (HUD 8.0 -> 5.0, 6.0 -> 3.0): two Tornados in the last 25 seconds of regulation while Guards and a Ram Rider converge from both lanes, each paired with the Bomb Tower or a Royal Delivery on the same tiles."
+    ],
+    "executioner": [
+      "Opponent card, not his: labels at [13, 16] (t=894.9) and [8, 12] (t=981.0, on Ryley's half). It is the only enemy card he reacts to on air — \"Oh my god, that executioner's going stupid\" (t=948) — spoken while his left tower is being ground from 4073 down to 1900."
+    ],
+    "barbarians": [
+      "Mentioned only (t=799-813), balance changes: \"the barbarians hit points are getting buffed by 4% but in return the evolved Barbarians hit point bonus is going from 10% to 0%. So now the regular Barbs and the Evo Barbs will have the same HP. I am definitely a fan of that.\"",
+      "Mentioned only (t=823-852): the Evolved Barbarians' rage now lasts \"five seconds instead of three seconds, which I think is a pretty fair buff\", and on the package as a whole — \"I know the goal was to buff them overall cuz Barbs are not like a very used card but still seems pretty big. I'm all right with it though.\""
+    ],
+    "goblins": [
+      "Mentioned only (t=854-873), balance changes: \"they are nerfing the Hero Goblins, making it so every time you pop the ability instead of getting three Goblins, you will now get two. But it will only take one second for the Goblins to deploy now. So the Goblins, even though there's less of them, they will be coming out quicker. So you have to respond to them faster.\"",
+      "Mentioned only (t=875-880): Goblin damage across the board goes up 4%."
+    ],
+    "goblin-barrel": [
+      "Mentioned only (t=875-885): included in the across-the-board 4% Goblin damage buff — \"that applies to Goblin Barrel, Goblin Drill, and all those types of cards that just have any type of Goblins.\"",
+      "Mentioned only (t=958-987): the evolution is nerfed — \"the evolved Goblin Barrel is getting a decoy damage nerf for 26% of its damage which I think is quite a lot. But I also think that it is quite deserved especially considering that basically the Goblin Barrel got a pretty decent buff with the damage.\" He adds \"I would be straight lying if I said it wasn't extremely extremely deserved\" and jokes about boss-banning it (t=966-969)."
+    ],
+    "goblin-drill": [
+      "Mentioned only (t=879-885): named as one of the cards that gains from the 4% Goblin damage buff, alongside Goblin Barrel and Goblin Gang."
+    ],
+    "goblin-gang": [
+      "Mentioned only (t=883-887): \"all those types of cards that just have any type of Goblins like Goblin Gang\" also pick up the 4% Goblin damage buff."
+    ],
+    "mortar": [
+      "Mentioned only (t=887-891): the Evolved Mortar benefits from the Goblin damage buff too — \"even the Evo Mortar Goblin as well will do a little bit more damage cuz the Evo Mortar does spawn that little Goblin.\""
+    ],
+    "giant-snowball": [
+      "Mentioned only (t=928-946): the evolution's roll range \"is now 4.5 to 4. So the Evo snowball just won't be grabbing as many units and throwing them as far back as it was before, which I definitely think is a very good change cuz the Evo snowball was kind of just like a ridiculous card anyway in my opinion.\" (A HUD read also assigned him a Giant Snowball play at t=949.8; that is treated as a hand misread, not a play — see the match file's Data gaps.)"
+    ]
+  },
+  "deck": {
+    "deck_key": "archers-berserker-bomb-tower-goblinstein-magic-archer-royal-delivery-tornado-wall-breakers",
+    "cards": ["archers", "berserker", "bomb-tower", "goblinstein", "magic-archer", "royal-delivery", "tornado", "wall-breakers"],
+    "bullets": [
+      "Game 4 of a six-game balance-change video (deck-showcase format: every game uses a different list, so this deck comes from the per-game read, not a video consensus). Readable window t=799-989, clock 2:50 to the first seconds of overtime.",
+      "Piloted as a defence-first chip deck: Bomb Tower re-anchored at the same centred tile every rotation ([8, 10], [9, 10], [8, 10], [8, 11]), Berserker and Archers behind it, Magic Archer parked deep at [9, 4] and [7, 0], Tornado and Royal Delivery to clump and clear, and Wall Breakers sent alone almost every cycle (7 plays in 190 s).",
+      "Wall Breakers switch lanes to follow the opponent's commitment — left river tile [4, 14] at clock 2:47, left bridge [4, 15] at clock 1:23, right bridge [14, 15] at clock 0:27, the last of which coincides with the enemy right tower falling 4654 -> 3722 (t=944-950).",
+      "Goblinstein is used three ways in one game: split-lane at [10, 8] (clock 2:23), pre-built behind the king at [11, 1] with the board empty (clock 1:37), and inside the big defensive stack at [7, 10] (clock 1:11) — no ability activation readable.",
+      "Against the opponent's Miner / Ram Rider / Royal Ghost / Guards / Executioner bridge spam it traded roughly evenly: enemy left 4858 -> 3552 and enemy right 4858 -> 3722, against his own left 4858 -> ~1900 and right 4858 -> 4059, going into overtime with no result readable.",
+      "The commentary is balance-change narration throughout, not piloting advice; his one in-match line is \"I'm actually having trouble yapping about the balance changes while defending here\" (t=953-956), spoken at 0 elixir with three simultaneous threat warnings."
+    ],
+    "new_deck": {
+      "display_name": "Wall Breakers Goblinstein Control Ryley",
+      "archetype_primary": "control",
+      "archetype_secondary": "cycle",
+      "rationale": "Five of eight slots are defensive value cards (Bomb Tower, Tornado, Royal Delivery, Magic Archer, Goblinstein) feeding a 2-elixir chip win condition, which is control's defend-then-punish plan rather than a push deck's.",
+      "why_it_works_md": "The deck answers pushes with a centred Bomb Tower plus a clumping Tornado and Royal Delivery, so almost every defence is elixir-positive, and it converts that lead into repeated 2-elixir Wall Breakers rather than into a counter-push. At 3.25 average elixir it cycles fast enough to send Wall Breakers roughly once per rotation and to switch lanes as soon as the opponent commits, which is how the enemy right tower was chipped from 4654 to 3722 in this match while Ryley defended in the other lane. Goblinstein is the flexible piece: split across both lanes as a defensive anchor, or pre-placed behind the king to be ready for the next push. Its weakness shows up here too — a single spell and sustained Miner chip took his own left tower from 4858 to about 1900, because nothing in the list punishes an opponent who keeps trading at the bridge."
+    }
+  }
+}

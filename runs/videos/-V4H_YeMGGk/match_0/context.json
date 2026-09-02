@@ -1,0 +1,81 @@
+{
+ "video_id": "-V4H_YeMGGk",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 315.0,
+   "events": 111,
+   "own_deck": [
+    "bomb-tower",
+    "berserker",
+    "magic-archer",
+    "wall-breakers",
+    "royal-delivery",
+    "tornado",
+    "goblinstein",
+    "archers"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 297.1,
+   "events": 123,
+   "own_deck": [
+    "magic-archer",
+    "berserker",
+    "bomb-tower",
+    "wall-breakers",
+    "tornado",
+    "royal-delivery",
+    "archers",
+    "fireball"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 182.0,
+   "events": 57,
+   "own_deck": [
+    "wall-breakers",
+    "berserker",
+    "royal-delivery",
+    "goblinstein",
+    "tornado",
+    "bomb-tower",
+    "archers",
+    "magic-archer"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 190.0,
+   "events": 59,
+   "own_deck": [
+    "wall-breakers",
+    "bomb-tower",
+    "berserker",
+    "royal-delivery",
+    "archers",
+    "goblinstein",
+    "magic-archer",
+    "tornado"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 310.8,
+   "events": 174,
+   "own_deck": [
+    "bats",
+    "wall-breakers",
+    "skeletons",
+    "fire-spirit",
+    "bomb-tower",
+    "the-log",
+    "archers",
+    "magic-archer"
+   ]
+  }
+ ]
+}
