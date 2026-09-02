@@ -67,7 +67,7 @@ def test_blank_slot_is_none_not_a_guess():
     H, W = img.shape[:2]
     img[int(y * H):int((y + h) * H), int(x * W):int((x + w) * W)] = (70, 70, 70)  # greyed-out slot
     out = HandReader(CardMatcher(IMAGES), DEFAULT_ROIS).read(img)
-    assert out["hand"][1] is None and out["hand_conf"][1] == 0.0
+    assert out["hand"][1] is None and out["hand_conf"][1] < 0.45
     assert out["hand"][0] == "knight"
 
 

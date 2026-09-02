@@ -245,7 +245,7 @@ class CardMatcher:
                        "log": "the-log", "fire_spirits": "fire-spirit"}
 
     def __init__(self, images_dir: Path, extra_dirs: list[Path] | None = None, valid_slugs: set[str] | None = None,
-                 learned_dir: Path | None = None):
+                 learned_dir: Path | None = None, hero_images_dir: Path | None = None, costs: dict[str, int] | None = None):
         """images_dir: Phase 1 wiki art (slug.png). extra_dirs: additional
         template sets (e.g. BuildABot's in-game hand thumbnails, *.jpg with
         underscore names and _ev1 evolution variants); their names are mapped
@@ -257,6 +257,14 @@ class CardMatcher:
             if img is not None:
                 self.templates.append(CardTemplate(p.stem, self.describe(img)))
         known = valid_slugs or {t.slug for t in self.templates}
+        self.costs = costs or {}
+        # hero variants use different card art but occupy the base card's slot
+        if hero_images_dir and Path(hero_images_dir).exists():
+            for p in sorted(Path(hero_images_dir).glob("*-hero.png")):
+                slug = p.stem[:-5]
+                img = cv2.imread(str(p), cv2.IMREAD_COLOR)
+                if img is not None and slug in known:
+                    self.templates.append(CardTemplate(slug, self.describe(img)))
         # self-labelled in-game templates: <learned_dir>/<slug>/*.png (written by
         # Perception when a deploy label confirms which card left a hand slot)
         self.learned_dir = learned_dir
@@ -305,14 +313,32 @@ class CardMatcher:
         hist = hist / (hist.sum() + 1e-6)
         return np.concatenate([g.ravel() / np.sqrt(g.size), hist * 3.0]).astype(np.float32)
 
-    def match(self, crop: np.ndarray, top: int = 3) -> list[tuple[str, float]]:
+    @staticmethod
+    def is_greyed(crop: np.ndarray) -> bool:
+        """An unaffordable card is drawn desaturated: its colour histogram is
+        meaningless, only the grayscale shape survives."""
+        h, w = crop.shape[:2]
+        art = crop[int(0.15 * h):int(0.85 * h), int(0.1 * w):int(0.9 * w)]
+        sat = cv2.cvtColor(art, cv2.COLOR_BGR2HSV)[..., 1]
+        return float(np.mean(sat)) < 45
+
+    def match(self, crop: np.ndarray, top: int = 3, cost: int | None = None) -> list[tuple[str, float]]:
+        """cost: elixir cost read from the slot badge; when given, cards of a
+        different cost are dropped (only if any template has that cost)."""
         if crop is None or crop.size == 0 or min(crop.shape[:2]) < 8:
             return []
         f = self.describe(crop)
         n = self.F.shape[1] - 48
         gcorr = self.F[:, :n] @ f[:n]                      # ~ [-1, 1]
         hdist = np.abs(self.F[:, n:] - f[n:]).sum(axis=1) / 3.0  # [0, 2]
-        score = 0.75 * gcorr + 0.25 * (1.0 - hdist / 2.0)
+        if self.is_greyed(crop):
+            score = gcorr
+        else:
+            score = 0.75 * gcorr + 0.25 * (1.0 - hdist / 2.0)
+        if cost is not None and self.costs:
+            ok = np.array([self.costs.get(sl) == cost for sl in self.slugs])
+            if ok.any():
+                score = np.where(ok, score, -9.0)
         order = np.argsort(-score)
         out: list[tuple[str, float]] = []
         for i in order:
@@ -328,14 +354,32 @@ class HandReader:
     the runner-up is close (ambiguous). Empty/greyed slots (card just played)
     are reported as None with the reason."""
 
-    def __init__(self, matcher: CardMatcher, rois: dict, threshold: float = 0.45, margin: float = 0.04):
+    # the elixir-cost badge sits over the slot's bottom centre (fractions of the slot box)
+    BADGE = (0.28, 0.70, 0.44, 0.32)
+    # alignment search: the calibrated box can be off by a few % (different
+    # phones/streaming layouts), and a selected card is drawn raised and larger
+    SHIFTS = [(dx, dy, sc) for sc in (1.0, 1.12) for dy in (0.0, -0.018, -0.032) for dx in (-0.02, 0.0, 0.02, 0.04)]
+
+    def __init__(self, matcher: CardMatcher, rois: dict, threshold: float = 0.45, margin: float = 0.04,
+                 digits: "DigitTemplates | None" = None):
         self.m, self.rois, self.thr, self.margin = matcher, rois, threshold, margin
+        self.digits = digits
+
+    def _badge_cost(self, content: np.ndarray, roi) -> int | None:
+        if self.digits is None:
+            return None
+        bx, by, bw, bh = self.BADGE
+        sub = [roi[0] + bx * roi[2], roi[1] + by * roi[3], bw * roi[2], bh * roi[3]]
+        txt, conf = DigitReader(sub, self.digits, white_text=True).read_string(content)
+        if len(txt) == 1 and txt.isdigit() and conf >= 0.75:
+            return int(txt)
+        return None
 
     def _slot(self, content: np.ndarray, roi) -> tuple[str | None, float, list]:
-        # a selected card is drawn raised: try the nominal box and one shifted up
         best = (None, 0.0, [])
-        for dy in (0.0, -0.018):
-            r = self._slot_at(content, [roi[0], roi[1] + dy, roi[2], roi[3]])
+        for dx, dy, sc in self.SHIFTS:
+            w, h = roi[2] * sc, roi[3] * sc
+            r = self._slot_at(content, [roi[0] + dx, roi[1] + dy - (h - roi[3]), w, h])
             if r[1] > best[1]:
                 best = r
         return best
@@ -345,9 +389,9 @@ class HandReader:
         if crop.size == 0:
             return None, 0.0, []
         gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
-        if gray.std() < 12:                      # blank / greyed-out slot
+        if gray.std() < 12:                      # blank slot
             return None, 0.0, []
-        cands = self.m.match(crop)
+        cands = self.m.match(crop, cost=self._badge_cost(content, roi))
         if not cands:
             return None, 0.0, []
         slug, s = cands[0]

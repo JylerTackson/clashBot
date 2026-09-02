@@ -75,11 +75,12 @@ class Perception:
         # wiki art only: BuildABot's in-game thumbnails were measured to lower
         # hand accuracy on real frames (style mismatch shrinks the margin)
         self.learned_dir = REPO / "data" / "templates"
-        self.matcher = CardMatcher(self.kb / "cards" / "images", learned_dir=self.learned_dir)
+        self.matcher = CardMatcher(self.kb / "cards" / "images", learned_dir=self.learned_dir,
+                                   hero_images_dir=self.kb / "heroes" / "images", costs=self.costs)
         self._slot_crops: list[tuple[float, list]] = []   # (t, [4 slot crops]) ring buffer, ~3 s
-        self.hand_reader = HandReader(self.matcher, self.calib.rois)
-        self.elixir_bar = ElixirBarReader(self.calib.rois["elixir_bar"], self.calib.rois.get("elixir_bar_full"))
         self.digits = DigitTemplates()
+        self.hand_reader = HandReader(self.matcher, self.calib.rois, digits=self.digits)
+        self.elixir_bar = ElixirBarReader(self.calib.rois["elixir_bar"], self.calib.rois.get("elixir_bar_full"))
         self.elixir_digit = DigitReader(self.calib.rois["elixir_num"], self.digits)
         self.clock_digit = DigitReader(self.calib.rois["clock"], self.digits)
         self.ocr = OcrReader() if self.use_ocr else None
@@ -208,8 +209,9 @@ class Perception:
         t0 = time.perf_counter()
         hand = self.hand_reader.read(content)
         if idx % 3 == 0:
-            self._slot_crops.append((t, [crop_roi(content, self.calib.rois[f"hand_{i}"]).copy() for i in range(4)]))
-            self._slot_crops = [c for c in self._slot_crops if t - c[0] <= 3.0]
+            # enlarged boxes so a raised (selected) card is still fully inside
+            self._slot_crops.append((t, [crop_roi(content, self._wide_slot(i)).copy() for i in range(4)]))
+            self._slot_crops = [c for c in self._slot_crops if t - c[0] <= 9.0]
         hand = self._smooth_hand(hand)
         self._tick("hand", t0)
 
@@ -348,7 +350,7 @@ class Perception:
         new_events += self.play.update_tower_hp(t, {"own_king": towers_own["king"], "own_left": towers_own["left"],
                                                     "own_right": towers_own["right"]}, units, clock_v)
         for ev in new_events:
-            if (ev.player == "own" and ev.card and "deploy label" in ev.detail and getattr(ev, "slot", None) is not None
+            if (ev.player == "own" and ev.card and "deploy label" in ev.detail
                     and (ev.confidence == "high" or ev.detect_source == "deploy_label")):
                 self._learn_template(ev)
             if ev.player == "own" and ev.card and ev.card in self.costs and not getattr(ev, "_charged", False):
@@ -391,13 +393,43 @@ class Perception:
         self._tick("total", t_all)
         return state
 
+    def _wide_slot(self, i: int) -> list:
+        x, y, w, h = self.calib.rois[f"hand_{i}"]
+        return [x - 0.01, y - 0.035, w * 1.14, h * 1.14 + 0.035]
+
+    def _slot_from_change(self, t: float) -> int | None:
+        """Which hand slot changed around t (a card left it)? The slot with the
+        largest before/after difference, provided it held a coloured card."""
+        before = [c for c in self._slot_crops if 0.6 <= t - c[0] <= 1.8]
+        after = [c for c in self._slot_crops if 0.8 <= c[0] - t <= 2.5]
+        if not before or not after:
+            return None
+        def th(img):
+            return cv2.cvtColor(cv2.resize(img, (24, 28), interpolation=cv2.INTER_AREA), cv2.COLOR_BGR2GRAY).astype(np.float32)
+        best, best_d = None, 0.0
+        for i in range(4):
+            b, a = before[-1][1][i], after[0][1][i]
+            if b.size == 0 or a.size == 0 or th(b).std() < 15 or self.matcher.is_greyed(b):
+                continue
+            d = float(np.abs(th(b) - th(a)).mean())
+            if d > best_d:
+                best, best_d = i, d
+        return best if best_d >= 18.0 else None
+
     def _learn_template(self, ev) -> None:
         """The slot crop from ~0.5-1.5 s before the play is the in-game art of
-        the confirmed card: store it as a template (self-labelling)."""
-        cands = [c for c in self._slot_crops if 0.5 <= ev.timestamp - c[0] <= 1.5]
+        the confirmed card: store it as a template (self-labelling). For a
+        play known only from its deploy label the slot is inferred from the
+        hand change."""
+        slot = getattr(ev, "slot", None)
+        if slot is None:
+            slot = self._slot_from_change(ev.timestamp)
+            if slot is None:
+                return
+        cands = [c for c in self._slot_crops if 0.6 <= ev.timestamp - c[0] <= 1.8]
         if not cands:
             return
-        crop = cands[0][1][ev.slot]
+        crop = cands[-1][1][slot]
         gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY) if crop.size else None
         if gray is None or gray.std() < 15:
             return
