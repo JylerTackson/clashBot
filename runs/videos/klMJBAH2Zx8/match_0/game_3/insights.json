@@ -1,0 +1,96 @@
+{
+  "key": "klMJBAH2Zx8-m0.3",
+  "match_file": "matches/klMJBAH2Zx8-m0.3.md",
+  "video_title": "I Am #1 in the World with this GAME BREAKING Deck 🌎🏆",
+  "cards": {
+    "royal-hogs": [
+      "t=873.9s (clock unknown; the in-game clock OCR failed for this whole video): first Royal Hogs set at the right river tile (15, 13) purely as a pump punish — \"I'm definitely going to piggies though right now cuz he might pump. Trying to predict it\" (872-876s).",
+      "t=924.9s (clock unknown): second set at (14, 14) while simultaneously defending a Royal Ghost — \"I'm just going to Evo piggies here actually and just e-spirit the ghost... this is still damage and I think it's getting nearly enough damage where I can just defend for the rest of the game\" (926-934s). He treats the Hogs as chip, not as a kill attempt.",
+      "t=945.9s (clock unknown): third set at the bridge (15, 15) immediately before a Lightning at (15, 19); the enemy right tower falls 2734 -> 1485 HP over the next six seconds.",
+      "t=1078.1s (clock unknown): the game-winning set at (15, 15), thrown on a read of the opponent's Three Musketeers — \"We can piggies now cuz he might try to go for the 3M and then he's cooked\" (1077-1079s). The enemy right tower reads 1373 -> 311 across 1084-1090s and he calls \"that's going to be tower down\" (1086s)."
+    ],
+    "cannon": [
+      "t=906.9s / 956.0s / 981.0s / 1016.0s / 1033.0s / 1061.1s (clock unknown): he returns to the same centre tile (9, 8)-(9, 10) nine times this game and names it \"cannon in the middle\" (1062s, 1073s) — it is his default answer to Elite Barbarians, Bandit and the Royal Ghost.",
+      "t=1033.0s (clock unknown): played as a pure cycle card to get back to Lightning — \"Okay, bad zap. That doesn't do anything at all. Let's just cycle our cannon here\" (1032-1035s).",
+      "t=994.7s (8, 13) and t=1072.1s (16, 8) (clock unknown): the two off-centre placements, both to pull a threat away from the tower — \"we can go for the cannon off to the side again\" (1072s).",
+      "t=994.7s (clock unknown): used as the anchor of a stacked defence while conceding chip — \"Let's go for the cannon here. We're taking some damage, but then once again like it really doesn't matter if it's in the opposite lanes\" (996-1001s)."
+    ],
+    "mighty-miner": [
+      "t=843.8s (clock unknown): opening placement at (8, 1), deep behind his own King Tower — \"let's go for the mighty miner in the back\" (843-845s).",
+      "t=1013.0s (10, 8) and t=1028.0s (13, 14) (clock unknown): his dedicated answer to the opponent's Evolution Royal Ghost — \"we can go for the mighty miner on the evo ghost\" (920-922s), \"Mighty miner on the ghost\" (1012s).",
+      "t=956.0-964.0s (clock unknown): Explosive Escape used to finish a defence — \"we definitely want a mighty miner ability. We're going to hit everything\" (957-959s) — and again at 996s to clear a swarm, \"We have to pop the bomb\".",
+      "t=963-970s (clock unknown): he states the ability's limitation and the combo that fixes it — \"that one musketeer in the back will stay alive on one HP cuz the mighty miner of course didn't like actually damage it, but it's going to know that mighty miner log plus e-spirit leaves musky's on basically one HP\"."
+    ],
+    "lightning": [
+      "t=848.8s onward (clock unknown): he refuses to Lightning the opponent's Elixir Collector all game because it is his only Three Musketeers answer — \"I can't lightning that elixir collector now cuz then he'll just 3M in the back and I'll lose the game because the ice golem will distract the mighty miner for too long. Um I have to let that pump go\" (845-856s).",
+      "t=951.0s (clock unknown): cast at (15, 19), the enemy-side right lane, onto a Three Musketeers push behind his own Royal Hogs; the enemy right tower reads 2734 -> 1839 -> 1485 across 950-956s. \"Let's lightning here to make sure that we hit these... Look at that damage\" (952-956s).",
+      "t=1020.0s (clock unknown): he counts targets before casting — \"Let's lightning these. Yeah, I think I can just lightning it in the back and we hit two of them\" (1020-1022s) — the card's rule that fewer than three targets wastes value, applied in the moment.",
+      "t=1045.5s (clock unknown): cast at the left river tile (4, 16), and he explains why lane shape matters — \"now that he's trying to split lane, it's a lot easier. When it's in one lane, it's harder because obviously there we were able to get a massive lightning huge value\" (1049-1055s). General verdict at 885-891s: \"Lightning is just really good against three musketeers in general\"."
+    ],
+    "skeletons": [
+      "Eleven sets across the game, all on his own half (t=832.8s (3, 12), 877.9s (7, 7), 918.1s (11, 7), 941.8s (14, 13), 987.0s (12, 9), 1003.0s (10, 7), 1023.0s (9, 12), 1051.9s (11, 15), 1059.1s (14, 11), 1070.1s (8, 14), 1081.1s (7, 8); clock unknown) — his cheapest cycle card and the glue of every defence.",
+      "t=941.8s (clock unknown): placed at (14, 13) specifically to keep the Mighty Miner alive — \"Let's skellies here to keep the mighty live cuz this could be another set of piggies even though we are down a lot of elixir\" (942-946s).",
+      "t=987.0s (clock unknown): used as a Three Musketeers distraction — \"skellies just to distract some of the musky's. Hopefully that can take them out\" (987-990s)."
+    ],
+    "electro-spirit": [
+      "t=924.9s window (clock unknown): the reset tool for the opponent's Royal Ghost — \"I'm just going to Evo piggies here actually and just e-spirit the ghost\" (926-928s).",
+      "t=962.0s (11, 10) and t=964.0s (13, 11) (clock unknown): Electro Spirit plus The Log behind a Mighty Miner as the standard Musketeer-finishing package — \"we can go for the e-spirit plus log... mighty miner log plus e-spirit leaves musky's on basically one HP\" (961-970s).",
+      "t=1068.1s (clock unknown): played at (9, 12) into a grouped push, with his verdict on the card — \"We can go for the e-spirits here. Dude, these e-spirit chains are so nice\" (1066-1070s)."
+    ],
+    "the-log": [
+      "t=930.9s (12, 10), 949.9s (12, 9), 964.0s (13, 11), 1052.1s (15, 14), 1063.1s (13, 9), 1086.1s (3, 13) (clock unknown): every cast is defensive and on his own half, never a bridge or tower roll.",
+      "t=964.0s (clock unknown): he prices it as part of a combo rather than a standalone answer — \"we can go for the e-spirit plus log\" (961s) and \"baby dragon e-spirit and then log here and then skellies just to distract some of the musky's\" (985-990s)."
+    ],
+    "baby-dragon": [
+      "t=856.9s (1, 10) and t=938.9s (15, 1) (clock unknown): played on both flanks purely as defensive splash; it never crosses the bridge in this game.",
+      "t=937-940s (clock unknown): the Evolution is his stated reason for being willing to turtle the whole match — \"I definitely do trust my defense guys on just defending the whole match, especially having like Evo baby dragon and stuff\" — and he tracks the cycle to it at 1017-1019s: \"We're almost at Evo baby dragon. This will help out on defense.\""
+    ],
+    "three-musketeers": [
+      "Mentioned, not played by Ryley — it is the opponent's card and the axis of the whole game. He never gets a clean detector label on it but names it (\"3M\", \"musky's\") from 845s to 1084s.",
+      "t=897-916s (clock unknown): he describes the strongest Three Musketeers line against a Lightning deck — \"He can go for like the ice golem in the back, the e-barbs to back, and then like a 3M at the bridge... he's just making it impossible for us to lightning the 3M cuz it's going to get soaked up by like the ice golem, the e-barbs, but they're going to live on low HP and then he's going to have three full musketeers that I have to deal with, which is super hard.\"",
+      "t=1078-1084s (clock unknown): the opponent plays it at the bridge instead, which is the mistake that loses him the tower — \"I thought he was going to 3M in the middle, not at the bridge\" (1082-1084s)."
+    ],
+    "elixir-collector": [
+      "Opponent's card, not played by Ryley. Three separate pumps are tracked (t=848.8s at (16, 27), 888.9s at (1, 27), 926.9s at (12, 27); clock unknown) and a fourth around 979.0s.",
+      "t=845-856s (clock unknown): he deliberately lets every pump live because the counter-spell is committed elsewhere — \"I can't lightning that elixir collector now cuz then he'll just 3M in the back and I'll lose the game... I have to let that pump go and I think that means this match he will have a stack of pumps on me and there's nothing that I can really do about that.\" By 977s he is \"down three elixir collectors\" and at 1042s \"down six elixir right now after that pump\", and he still wins."
+    ],
+    "ice-golem": [
+      "Mentioned, not played by Ryley — the opponent's spell-blocker. He cites it twice as the reason he cannot answer their pushes cleanly: \"the ice golem will distract the mighty miner for too long\" (852-854s) and \"He's going to 3M the bridge again. Maybe ice golem first to block the lightning\" (1013-1015s)."
+    ],
+    "elite-barbarians": [
+      "Opponent's card (tracked at t=882.9s, 934.9s, 963.0s; clock unknown), answered with the centre Cannon plus Mighty Miner. He treats them as the thing that can punish an over-commitment — \"And we have to mighty miner. I'm worried about the e-barbs though... Is he going to e-barbs? No, he doesn't. Okay, we're chilling\" (1026-1030s)."
+    ],
+    "royal-ghost": [
+      "Opponent's card, and Ryley identifies it as the Evolution variant (\"the evo ghost\", 920-922s). His standing answer is the Mighty Miner plus an Electro Spirit reset — \"we can go for the mighty miner on the evo ghost\" (920-922s), \"just e-spirit the ghost\" (927s), \"Mighty miner on the ghost\" (1012s)."
+    ],
+    "bandit": [
+      "Opponent's card. Early on it costs him tower HP through lag — \"Oh my god, I lagged a bit on my cannon. That bandit's going to dash on my tower\" (835-838s) — and later he chooses to concede the chip rather than spend: \"Let's let the bandit go. Let's let the musky go. And we're in a fine spot right now\" (971-974s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "baby-dragon-cannon-electro-spirit-lightning-mighty-miner-royal-hogs-skeletons-the-log",
+    "cards": [
+      "baby-dragon",
+      "cannon",
+      "electro-spirit",
+      "lightning",
+      "mighty-miner",
+      "royal-hogs",
+      "skeletons",
+      "the-log"
+    ],
+    "bullets": [
+      "Piloted as a defensive cycle deck that wins on chip: across 279 seconds (video 815.8-1094.8s; the in-game clock OCR failed for this video, so all times are video seconds) Ryley plays Cannon nine times, Skeletons eleven times and Electro Spirit eight times, and commits offence only in four Royal Hogs sets at the right-hand bridge tile (873.9s, 924.9s, 945.9s, 1078.1s).",
+      "The deck's whole plan against a Three Musketeers pump deck is to hold Lightning: \"I can't lightning that elixir collector now cuz then he'll just 3M in the back and I'll lose the game\" (845-852s) and \"Lightning is just really good against three musketeers in general\" (885-891s). He concedes three Elixir Collectors and a six-elixir deficit to keep the spell available.",
+      "Defensive stack of choice is Cannon in the middle plus Skeletons plus Electro Spirit, with the Mighty Miner as the anti-tank and The Log as the finisher: \"mighty miner log plus e-spirit leaves musky's on basically one HP\" (968-970s). He states the deck can simply turtle — \"I definitely do trust my defense guys on just defending the whole match, especially having like Evo baby dragon and stuff\" (937-940s).",
+      "Two Lightnings decided the game: t=951.0s at (15, 19) behind a Royal Hogs set took the enemy right tower from 2734 to 1485 HP, and t=1020.0s at (14, 17) caught two more Musketeers. The final Royal Hogs set at 1078.1s finished the tower (1373 -> 311 HP across 1084-1090s) for the win — \"There's no way that he can save this. Let's go. GG's\" (1086-1088s)."
+    ],
+    "new_deck": {
+      "display_name": "Royal Hogs Mighty Miner Lightning Cycle",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "control",
+      "rationale": "Average elixir 3.25 with a 7-elixir four-card cycle (Skeletons, Electro Spirit, The Log, Cannon) feeding a fast 5-elixir win condition thrown as a punish, but it defends first and chips second, which is why control is the secondary read.",
+      "why_it_works_md": "The cheap defensive core — Cannon in the middle, Skeletons, Electro Spirit and The Log — answers bridge spam and swarm pushes for one to three elixir at a time, which lets the deck survive a large elixir deficit against pump decks. Mighty Miner covers the tanks and charge units that cheap cards cannot, and his Explosive Escape bomb plus Log plus Electro Spirit is a repeatable package that leaves ranged support on almost no hit points. Lightning is held as a single-purpose answer to Three Musketeers and to grouped support behind a push, and because the deck spends so little on defence it can afford the 6-elixir cast at the moment it lands on three targets. Royal Hogs is the only offence: four hogs at the bridge thrown on a read of a pump or a Musketeers commitment, deliberately as chip rather than as a kill attempt. In this match that combination — turtle, refuse to spend Lightning on pumps, punish with Hogs — beat a Three Musketeers Elixir Collector deck that was up six elixir for most of the game."
+    }
+  }
+}

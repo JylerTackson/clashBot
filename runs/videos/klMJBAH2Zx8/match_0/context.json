@@ -1,0 +1,97 @@
+{
+ "video_id": "klMJBAH2Zx8",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 216.0,
+   "events": 73,
+   "own_deck": [
+    "skeletons",
+    "mighty-miner",
+    "cannon",
+    "the-log",
+    "baby-dragon",
+    "electro-spirit",
+    "lightning",
+    "royal-delivery"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 292.1,
+   "events": 156,
+   "own_deck": [
+    "skeletons",
+    "cannon",
+    "mighty-miner",
+    "the-log",
+    "electro-spirit",
+    "baby-dragon",
+    "ice-spirit",
+    "royal-delivery"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 297.1,
+   "events": 137,
+   "own_deck": [
+    "skeletons",
+    "cannon",
+    "mighty-miner",
+    "the-log",
+    "electro-spirit",
+    "ice-spirit",
+    "baby-dragon",
+    "lightning"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 279.1,
+   "events": 117,
+   "own_deck": [
+    "skeletons",
+    "cannon",
+    "mighty-miner",
+    "the-log",
+    "baby-dragon",
+    "lightning",
+    "ice-spirit",
+    "rage"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 210.0,
+   "events": 82,
+   "own_deck": [
+    "cannon",
+    "skeletons",
+    "baby-dragon",
+    "mighty-miner",
+    "royal-delivery",
+    "lightning",
+    "ice-spirit",
+    "fireball"
+   ]
+  },
+  {
+   "match": "0.5",
+   "seconds": 288.7,
+   "events": 129,
+   "own_deck": [
+    "skeletons",
+    "cannon",
+    "mighty-miner",
+    "baby-dragon",
+    "electro-spirit",
+    "lightning",
+    "rage",
+    "royal-delivery"
+   ]
+  }
+ ],
+ "split_method": "tower_hp_reset (clock OCR unavailable)"
+}

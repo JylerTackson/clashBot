@@ -478,6 +478,128 @@
     "ronin"
    ],
    "complete": true
+  },
+  "klMJBAH2Zx8": {
+   "id": "klMJBAH2Zx8",
+   "title": "I Am #1 in the World with this GAME BREAKING Deck \ud83c\udf0e\ud83c\udfc6",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 9495,
+     "seconds": 4404.9,
+     "games": [
+      {
+       "match": "0.0",
+       "seconds": 216.0,
+       "events": 73,
+       "own_deck": [
+        "skeletons",
+        "mighty-miner",
+        "cannon",
+        "the-log",
+        "baby-dragon",
+        "electro-spirit",
+        "lightning",
+        "royal-delivery"
+       ]
+      },
+      {
+       "match": "0.1",
+       "seconds": 292.1,
+       "events": 156,
+       "own_deck": [
+        "skeletons",
+        "cannon",
+        "mighty-miner",
+        "the-log",
+        "electro-spirit",
+        "baby-dragon",
+        "ice-spirit",
+        "royal-delivery"
+       ]
+      },
+      {
+       "match": "0.2",
+       "seconds": 297.1,
+       "events": 137,
+       "own_deck": [
+        "skeletons",
+        "cannon",
+        "mighty-miner",
+        "the-log",
+        "electro-spirit",
+        "ice-spirit",
+        "baby-dragon",
+        "lightning"
+       ]
+      },
+      {
+       "match": "0.3",
+       "seconds": 279.1,
+       "events": 117,
+       "own_deck": [
+        "skeletons",
+        "cannon",
+        "mighty-miner",
+        "the-log",
+        "baby-dragon",
+        "lightning",
+        "ice-spirit",
+        "rage"
+       ]
+      },
+      {
+       "match": "0.4",
+       "seconds": 210.0,
+       "events": 82,
+       "own_deck": [
+        "cannon",
+        "skeletons",
+        "baby-dragon",
+        "mighty-miner",
+        "royal-delivery",
+        "lightning",
+        "ice-spirit",
+        "fireball"
+       ]
+      },
+      {
+       "match": "0.5",
+       "seconds": 288.7,
+       "events": 129,
+       "own_deck": [
+        "skeletons",
+        "cannon",
+        "mighty-miner",
+        "baby-dragon",
+        "electro-spirit",
+        "lightning",
+        "rage",
+        "royal-delivery"
+       ]
+      }
+     ],
+     "split_method": "tower_hp_reset"
+    }
+   ],
+   "periods": [
+    [
+     10.0,
+     1594.0
+    ]
+   ],
+   "own_deck_video": [
+    "mighty-miner",
+    "cannon",
+    "skeletons",
+    "baby-dragon",
+    "lightning",
+    "electro-spirit",
+    "royal-hogs",
+    "the-log"
+   ],
+   "complete": true
   }
  }
 }

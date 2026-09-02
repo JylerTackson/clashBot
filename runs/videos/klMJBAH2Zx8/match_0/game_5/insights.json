@@ -1,0 +1,108 @@
+{
+  "key": "klMJBAH2Zx8-m0.5",
+  "match_file": "matches/klMJBAH2Zx8-m0.5.md",
+  "video_title": "I Am #1 in the World with this GAME BREAKING Deck 🌎🏆",
+  "cards": {
+    "lightning": [
+      "clock unknown (t~1326-1330, tile [12, 22]): cast on an Inferno Tower and the defence behind it, with the tower chip stated as the real payment - \"if he infernos, we can just lightning... I know he's going to NATO this to the king anyways, but at least like that we get the nice lightning damage on the tower\" (1330-1336s); enemy right tower 4858 -> 4435 HP by 1332s.",
+      "clock unknown (t=1500.5, tile [13, 23]): a deliberate 6-for-3 on a Firecracker, justified only by the elixir lead - \"He's just going to go for the firecracker again, but we can just go for a lightning on it... I think I just want to lightning this firecracker this time cuz we're in elixir\" (1494-1502s); enemy right tower 3727 -> 3304 HP by 1504s.",
+      "clock unknown (t=1569.6, tile [13, 22]): the closing loop of the deck - Evo Royal Hogs force the Inferno Tower (tracked at [11, 15] at 1567.6), Lightning takes both: \"evo piggies here forces out the inferno tower\" (1563-1565s), \"Free lightning here\" (1572s); enemy right tower 2881 -> 2458 HP at 1572s.",
+      "Against a log-bait deck with Inferno Tower he treats Lightning as a repeatable chip plan, not a one-off answer - \"I can just continue lightning his inferno towers over and over again. Sometimes even like lightning his firecrackers and stuff cuz there's no reason not to\" (1421-1427s). Four casts each take exactly 423 HP off the enemy right tower (4858 -> 4435, 3727 -> 3304, 3304 -> 2881, 2881 -> 2458), roughly 1700 of the 2400 damage he does all game."
+    ],
+    "royal-hogs": [
+      "clock unknown (t=1320.3, tile [2, 2]): back-placed behind the King Tower against a bait deck with no punish card, with both answers pre-assigned - \"I'm going for the piggies in the back here cuz I know that he can't really punish it. If he scar armies, then we can have the log. And yeah, if he infernos, we can just lightning\" (1324-1331s).",
+      "clock unknown (t=1455.5, tile [12, 3]): played straight into a Skeleton Army he knows is in hand, because forcing it out is the point - \"We have piggies again here. We can wait a second cuz I know he has the skeleton army in hand, but it's fine. We have to force it out anyways and we have the Evo baby dragon for defense\" (1455-1463s); enemy right tower 4450 -> 4081 -> 3727 HP at 1466-1468s.",
+      "clock unknown (t=1508.5, tile [14, 9]): chosen over the Mighty Miner mid-thought so the opponent cannot get a Firecracker plus Tornado answer - \"Let's go for the mighty miner. Actually, it's piggies we can't firecracker NATO as actually. I think that's smarter\" (1507-1512s).",
+      "clock unknown (t=1541.5 / 1561.6): used as a defensive blocker and then as an elixir drain - \"Piggies here to block the firecracker\" (1542-1544s) and \"evo piggies here forces out the inferno tower. Just get elixir out of him cuz the more elixir I force out of him, he's just completely unable to go in\" (1563-1570s). The chip adds up: \"Little two nibbles right there, dude. Piggy nibbles do so much damage\" (1436-1440s), enemy right tower 4435 -> 4199 HP at 1436s."
+    ],
+    "cannon": [
+      "clock unknown (t=1311.3, tile [10, 8], elixir 9.0 -> 6.0) as the opening defensive building against a log-bait list with Skeleton Barrel and Golden Knight; replayed roughly every 30s at [9, 10], [10, 12], [11, 11], [10, 11], [8, 10], [11, 13] (t=1362.4, 1440.4, 1468.5, 1510.5, 1535.0, 1564.6).",
+      "clock unknown (t=1440.4, tile [10, 12]): the default placement, named as such - \"That's regular position. Let's cannon here\" (1440-1442s), followed by Skeletons and Electro Spirit on the same defence.",
+      "clock unknown (t=1468.5, tile [11, 11] / t=1510.5, tile [10, 11]): always the second card of a stack rather than a standalone answer - \"Let's baby dragon cannon here. I don't want to log\" (1467-1471s) and \"Cannon here. Perfect\" (1512s)."
+    ],
+    "skeletons": [
+      "clock unknown (t=1349.2, tile [8, 15] and t=1391.1, tile [8, 14]): dropped in front of a Golden Knight that the tracker had 5s from the tower - \"the skelly just clutched up. Sometimes the skellies just want to trip, man, and give him free ways to dash on the tower\" (1354-1360s).",
+      "clock unknown (t=1426.4, tile [12, 10] and t=1446.4, tile [14, 13]): played at the bridge as a body to eat a Firecracker and to deny Tornado value - \"Let's skellies to bridge here just to block a potential firecracker\" (1427-1430s), \"Oh, he could get a good NATO now. Skellies here. Okay, perfect. He doesn't get anything from that\" (1447-1450s).",
+      "clock unknown (t=1554.6, tile [7, 10] and t=1567.6, tile [12, 15]): used to block the opponent Evo Skeleton Army chip - \"just skellies here to block his cuz he's trying to get a bit of chip damage with the skarmy cuz the skeletons are blocking for it\" (1556-1562s)."
+    ],
+    "electro-spirit": [
+      "clock unknown (t=1305.3, tile [12, 5]): the one-elixir opener onto a Skeleton Barrel - \"Let's just go for the e-spirit skellies on the skeleton barrel\" (1305-1310s).",
+      "clock unknown (t=1360.4, tile [14, 15]): played at the bridge as tempo alongside a Cannon - \"Let's e-spirit at the bridge here. Okay, we can cannon as well\" (1361-1363s).",
+      "clock unknown (t=1446.8, tile [10, 8]): added to a Cannon plus Skeletons defence aiming at the Firecracker - \"Okay, let us e-spirit as well. Make sure we take this out. Hopefully kill the firecracker\" (1442-1446s).",
+      "clock unknown (t=1553.6, tile [6, 11]): the cheap answer to the Evo Skeleton Army skeletons - \"We just e-spirit here take out the skeletons\" (1553-1556s)."
+    ],
+    "mighty-miner": [
+      "clock unknown (t=1398.4, tile [15, 15]): sent at the bridge as the threat that is NOT the win condition, while the Royal Hogs are held back - \"Let's go for the mighty miner here. We have Evo piggies, but they do not want to play them just yet cuz I know that he has skeleton army in hand\" (1396-1404s).",
+      "clock unknown (t=1474.5, tile [15, 15]): played with the Tornado answer predicted and accepted - \"Let's go for the mighty here at the bridge... He's going to NATO this for sure to grab some damage, but it's fine. Yep, there's the NATO\" (1475-1481s); his right tower 4552 -> 4348 -> 4308 HP at 1480-1482s, and the Evo Baby Dragon wind gust changed the outcome: \"that's none cuz the baby dragon made the mighty miner walk super fast\" (1483-1485s).",
+      "clock unknown (t=1450.4 and t=1575.6): the Explosive Escape ability graded both ways in one game - \"Let's mighty miner the bridge here. Bad ability. Didn't do anything\" (1452-1455s) versus \"then we pop the ability. We want to pop the ability here just to free up all of the skellies. Perfect\" (1577-1582s).",
+      "Balance note he spends 30s on (1364-1396s, no play): \"they silently buffed the mighty miner, by the way. The mighty miner two-shots skeletons on ladder, but then on friendly battles, it three-shots the skeleton... it actually is like a stronger card for some reason. And it has to be a bug.\""
+    ],
+    "baby-dragon": [
+      "clock unknown (t=1379.4, tile [15, 5]): the Evolution answers the Golden Knight plus skeleton wave on the right (eight skeleton tracks on the field at 1382s).",
+      "clock unknown (t=1465.5, tile [14, 1] / t=1491.5, tile [9, 1]): held as the defensive insurance that lets him commit Royal Hogs into a known Skeleton Army - \"we have the Evo baby dragon for defense. Maybe we can grab like a nibble or two off of this\" (1460-1464s).",
+      "clock unknown (t=1546.5, tile [15, 13]): the splash answer to the opponent Evo Skeleton Army push - \"We go for the evo baby dragon here to take this out\" (1546-1550s).",
+      "clock unknown (t~1483): its Wind Gust sped his own Mighty Miner past the Tornado - \"that's none cuz the baby dragon made the mighty miner walk super fast. Beautiful\" (1483-1485s)."
+    ],
+    "the-log": [
+      "clock unknown (t=1348.3, tile [14, 5]): logged the Golden Knight on his own half, valued for the answer it forces rather than the kill - \"We just log here and also it just forces out an overspend from him most of the time\" (1349-1352s).",
+      "clock unknown (t=1502.5 and t=1519.5): part of the cheap defensive rotation against skeleton waves while he stays ahead on cycle - \"Let's log here. We don't get out cycled by him either\" (1502-1505s) and \"as long as I keep defending while it's logged and we go for the skeletons and that's another perfect defense\" (1519-1524s).",
+      "Twice held on purpose against a barrel deck: \"I don't want to log. I need to save the log here. Even though it's really tempting to log the general, there's no need to be doing this\" (1469-1475s) and \"Not going to log just had it ready in case\" (1544-1546s)."
+    ],
+    "firecracker": [
+      "Opponent card, the one he names most in this game (11 mentions). Recognised in the first ten seconds - \"like there he has the firecracker. That's such a strange version of the deck, man\" (1312-1315s) - and priced as the only damage the opponent will get: \"maybe he'll get like a few firecracker chips here and there cuz he has NATO to pair up\" (1412-1415s).",
+      "clock unknown (t=1500.5): he answers it with a 6-elixir Lightning on purpose when ahead on elixir - \"I think I just want to lightning this firecracker this time cuz we're in elixir\" (1499-1502s). Earlier answers are Skeletons at the bridge (1427-1430s) and Royal Hogs as a blocker (1542-1544s)."
+    ],
+    "inferno-tower": [
+      "Opponent building, tracked at [8, 18] (t=1331.3), [11, 17] (t=1419.4), [10, 17] (t=1489.5) and [11, 15] (t=1567.6). Against a Royal Hogs / Lightning deck it is a repeatable Lightning target rather than a problem - \"if he infernos, we can just lightning\" (1330-1332s), \"I can just continue lightning his inferno towers over and over again\" (1421-1424s).",
+      "clock unknown (t=1567.6): forced out by Evo Royal Hogs and immediately Lightninged with the tower behind it - \"evo piggies here forces out the inferno tower. Just get elixir out of him\" (1563-1566s); enemy right tower 2881 -> 2458 HP at 1572s."
+    ],
+    "golden-knight": [
+      "Opponent Champion, tracked repeatedly down the right lane from [15, 23] (t=1325.3, 1333.3, 1345.3, 1379.4, 1507.5, 1529.5). Answered cheaply with The Log plus Skeletons - \"We just log here\" (1349s) - and his dash is survived by a single Skeletons pack: \"He's going to try to ability maybe Okay, no, the skelly just clutched up. Sometimes the skellies just want to trip, man, and give him free ways to dash on the tower\" (1353-1360s).",
+      "Ryley rates it as a card that gets the opponent nothing in this matchup - \"obviously golden knight is kind of a stupid card, but other than that, like he's just basically getting no damage\" (1415-1421s) - and reads a back-placed one as a symptom of a stuck cycle: \"there's the golden knight cuz his cycle can get so awkward\" (1528-1531s)."
+    ],
+    "tornado": [
+      "Opponent spell (mangled to \"NATO\" in the auto-transcript). Used for king-tower activation early, which Ryley gives up deliberately - \"good king tower activation by him, but not much that we could have done about that. I kind of just want to give him the king tower activation instantly in the game anyways so we don't have to like worry about trying to prevent it\" (1338-1348s).",
+      "clock unknown (t~1480): predicted onto his bridge Mighty Miner and accepted in advance - \"He's going to NATO this for sure to grab some damage, but it's fine. Yep, there's the NATO\" (1477-1482s). He also plays around the Firecracker plus Tornado pairing when choosing which threat to send (1507-1512s) and blocks its value with Skeletons at the bridge (1447-1450s)."
+    ],
+    "skeleton-army": [
+      "Opponent Evolution and the card that shapes his whole offence: he holds Royal Hogs while it is in hand - \"we have Evo piggies, but they do not want to play them just yet cuz I know that he has skeleton army in hand and we aren't really able to take it out. Him having Evo skarmy is kind of annoying\" (1398-1407s) - then commits specifically to drag it out: \"We have to force it out anyways and we have the Evo baby dragon for defense\" (1458-1463s).",
+      "clock unknown (t~1551-1562): its chip attempt down the left is handled with Electro Spirit, Skeletons and The Log - \"Evo skarmy could maybe do something, but I don't think so. We just e-spirit here take out the skeletons and then just skellies here to block his\" (1551-1560s); his left tower takes its only damage of the game, 4858 -> 4468 HP at 1562-1564s."
+    ],
+    "skeleton-barrel": [
+      "Opponent card, targeted with the first play of the game - \"go for the e-spirit skellies on the skeleton barrel\" (1306-1310s) - and named as the marker of this particular log-bait variant: \"He has like skeleton barrel and stuff like that\" (1314-1317s). Tracked as a tower threat at 1366s (3.3s to tower), 1444s and 1514s, each time answered by Cannon plus a spirit rather than by The Log, which he keeps in hand for it."
+    ],
+    "royal-delivery": [
+      "Opponent defensive card. It is the answer that meets his Royal Hogs push at ~1434s - \"Yeah, firecracker and delivery. Come on, two. Nice. Little two nibbles right there\" (1434-1440s), two hogs still connecting for 4435 -> 4199 HP - and he rates it out loud at 1487-1491s: \"He's going to delivery again. That delivery is such a save uh such a savior on defense, man. Such a savior.\""
+    ],
+    "goblin-barrel": [
+      "Mentioned, not seen: it appears once in his recital of the opponent log-bait cycle - \"his cycle can get so awkward like like log or delivery NATO like like goblin barrel firecracker inferno towers\" (1531-1537s) - and no Goblin Barrel event was detected in the 289s of this game. It is part of why he refuses to spend The Log on lesser targets (1469-1475s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "baby-dragon-cannon-electro-spirit-lightning-mighty-miner-royal-hogs-skeletons-the-log",
+    "cards": [
+      "baby-dragon",
+      "cannon",
+      "electro-spirit",
+      "lightning",
+      "mighty-miner",
+      "royal-hogs",
+      "skeletons",
+      "the-log"
+    ],
+    "bullets": [
+      "Game 6 of 6 in a single-deck session (video 1305.3-1593.9s): Mighty Miner, Cannon, Skeletons, Evo Baby Dragon, Lightning, Electro Spirit, Evo Royal Hogs, The Log (3.25 average elixir) against a log-bait variant with Firecracker, Golden Knight, Inferno Tower, Tornado, Evo Skeleton Army, Skeleton Barrel, Royal Delivery and The Log. He sight-reads the list before it appears: \"I know this guy plays like a weird log bait variation... I think he has like golden knight and inferno tower, too\" (1310-1320s).",
+      "The deck wins on spell chip, not on a push. Four Lightnings each take exactly 423 HP off the enemy right tower (4858 -> 4435 at 1332s, 3727 -> 3304 at 1504s, 3304 -> 2881 at 1560s, 2881 -> 2458 at 1572s), about 1700 of the 2400 total damage; Royal Hogs nibbles supply the rest (4435 -> 4199 at 1436s, 4450 -> 3727 at 1466-1468s). Stated plan: \"I can just continue lightning his inferno towers over and over again. Sometimes even like lightning his firecrackers and stuff cuz there's no reason not to\" (1421-1427s).",
+      "Royal Hogs are used three ways in one game: back-placed at [2, 2] when the opponent cannot punish (1320.3s), pushed at the bridge purely to drag out the Skeleton Army or Inferno Tower (\"We have to force it out anyways\", 1458-1460s; \"evo piggies here forces out the inferno tower. Just get elixir out of him\", 1563-1566s), and once as a defensive blocker (\"Piggies here to block the firecracker\", 1542-1544s).",
+      "Defence is a cheap rotation - Cannon at [10, 8] / [10, 12] / [11, 11] / [10, 11] / [8, 10] roughly every 30s, plus Skeletons, Electro Spirit, The Log and the Evo Baby Dragon - and Mighty Miner is used as a bridge threat rather than a defender (labels at [15, 15] at t=1398.4, 1474.5, 1551.5). He keeps The Log unspent against a barrel deck: \"I don't want to log. I need to save the log here\" (1469-1471s).",
+      "Cycle advantage is stated twice and never contested: \"We did outcycle him\" (1431s) and \"Let's log here. We don't get out cycled by him either\" (1502-1505s). No crown falls on either side in the readable window (final towers own 4468 / 4024, enemy 4740 / 2458); he calls it at 1583s (\"Okay, yep. It's just over\") and closes the video at 1586s: \"Very nice win. Thank you all for watching.\" Win."
+    ],
+    "new_deck": {
+      "display_name": "EvoRHogs MM Lightning Cycle Ryley",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "control",
+      "rationale": "A 3.25-elixir list built on a fast win condition (Evo Royal Hogs) plus one-elixir cycle cards (Skeletons, Electro Spirit) and The Log, but it wins by defending with Cannon, Mighty Miner and Evo Baby Dragon and chipping with repeated Lightning rather than by out-pushing.",
+      "why_it_works_md": "Every card in the list answers something in a bait or small-troop deck for less elixir than it costs the opponent: Cannon and Skeletons hold ground win conditions, Electro Spirit and Evo Baby Dragon clear swarms and Firecrackers, and Mighty Miner is a bridge threat that also deletes tanks. That leaves Lightning free to be used as a chip spell on whatever defensive building or ranged troop the opponent commits - four casts in this game each took 423 HP off the same tower. Royal Hogs are rarely a kill attempt; they are an elixir pump that forces the Skeleton Army or Inferno Tower out and takes a nibble or two while doing it, which is exactly how Ryley states the plan: \"the more elixir I force out of him, he's just completely unable to go in or just able to build up any type of pressure\" (1566-1572s). The weakness the game never tests is a heavy beatdown push: the deck has no big ground answer other than Mighty Miner plus Cannon."
+    }
+  }
+}

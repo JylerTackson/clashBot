@@ -1,0 +1,87 @@
+{
+  "key": "klMJBAH2Zx8-m0.4",
+  "match_file": "matches/klMJBAH2Zx8-m0.4.md",
+  "video_title": "I Am #1 in the World with this GAME BREAKING Deck 🌎🏆",
+  "cards": {
+    "royal-hogs": [
+      "t=1143s (clock unknown): split Royal Hogs at the bridge centre, tile [8, 15], elixir 10 -> 5 — \"Let's split piggies here. I have my log ready for a Skeleton Army\"; the split alone chipped the enemy left tower ~500 (4435 -> 3963 by t=1154) and he called it: \"It was smart to split it, but it did get us 500 damage.\"",
+      "t=1187-1191s (clock unknown): second wave, deploy labels at [2, 15], [3, 15] and [7, 13] — \"Let's split Piggies three to one, and then we have Log ready\"; against this opponent he splits on purpose because \"this guy can't really defend split piggies that well\" (t=1132).",
+      "t=1196-1206s (clock unknown): the hogs tank for a following Mighty Miner on the right lane (Miner tracked [14, 12] -> [17, 27]) — \"we had the Piggy tank for the Mighty Miner on the right, if you notice. So, then it forced out an extra response from him, which is super good.\"",
+      "t=1216s and t=1255s (clock unknown): two more Evo Royal Hogs at [2, 15], each immediately followed by The Log at [3, 15] — \"we can Evo Piggies here. We have the Log ready for the Skeleton Army once again\" and \"Let's go for the Piggies here. Let's pre-log for the Skeleton Army this time.\""
+    ],
+    "the-log": [
+      "t=1122-1143s (clock unknown): he refuses to pre-log all game because the opponent runs Skeleton Army — \"I'm not going to log though because I know that he has the Skeleton Army. So, I don't really want to give him that um opportunity to abuse the Skeleton Army\" and \"since I want to go for piggies often, I need to have my log for the Skeleton Army.\"",
+      "t=1155s and t=1196s (clock unknown): reactive Logs at the bridge behind the split hogs, tiles [3, 15] and [4, 15] — \"I don't really need to log right away. I'm going to wait to see if we get more value\" (t=1147) and \"I didn't want to just have him go for the Fireball, though. So, that's why I didn't log right away\" (t=1197).",
+      "t=1218-1221s (clock unknown): Log at [3, 15] then [3, 14] after the third Royal Hogs — \"I'm just never going for the random pre-logs in this matchup because I know that the only way that I could actually lose this, in my opinion, is if I go for some prediction and then miss it.\"",
+      "t=1256s (clock unknown): the one pre-log of the game, at [3, 15] straight after the fourth Royal Hogs — \"Let's pre-log for the Skeleton Army this time. There we go. The prediction for the game.\""
+    ],
+    "baby-dragon": [
+      "t=1178-1192s (clock unknown): Evo Baby Dragon sitting on the enemy left tower, chipping it 3907 -> 2831 in 269 HP steps while he ignores a Hog Rider in the other lane — \"Baby Dragon's on the tower, and look at that damage buff, man. You can just notice the amount of damage he's doing. 269 a shot. That's insane.\"",
+      "t=1209-1213s (clock unknown): Baby Dragon (elixir 7 -> 3) plus Skeletons at [11, 14] to kill an Electro Wizard counter-attack — \"Okay, let's go for the Baby Dragon here again. Dude, Baby Dragon is just so good. Let's Skellies here. Take this out. Nice. Beautiful.\"",
+      "t=1134s (clock unknown): named as the reason he can afford to concede the Hog Rider damage — \"Baby Dragon's good against him. So, I'm just going to eat the damage.\" Back placements at [8, 1] (t=1161), [9, 6] (t=1243, \"This Evo Baby Dragon's going to cook\") and [12, 1] (t=1286)."
+    ],
+    "mighty-miner": [
+      "t=1099s (clock unknown): opened the match with Mighty Miner at the bridge, tile [15, 15], elixir 10 -> 6.",
+      "t=1178s (clock unknown): defensive drop at [15, 7] into a Hog Rider plus Barbarians push on his right lane.",
+      "t=1236s (clock unknown): back placement at [9, 1], elixir 9 -> 5, to lead the next hog push — \"That's Mighty in the back. We have our Skellies ready if he tries to go for the Hog at the bridge into this.\"",
+      "t=1248s (clock unknown): used the Champion ability defensively to dodge a Sparky shot with the Sparky tracked one tile behind him — \"I'm going to Mighty ability away from this. Oh my god, he missed. Nice.\""
+    ],
+    "lightning": [
+      "t=1107s (clock unknown): Lightning at [6, 23] onto a Sparky the opponent had just placed in the back left, elixir 8 -> 2; the enemy left tower took 423 (4858 -> 4435) — the same 423 figure he quotes at t=1279.",
+      "t=1170s (clock unknown): held as the emergency answer while an enemy Sparky walked down the lane — \"We have Lightning ready here to protect for anything.\"",
+      "t=1262-1281s (clock unknown): counted into the finishing sequence on a 514 HP tower — \"It might put him into Lightning range... Okay, two Logs and a Lightning, I think. I'm going to double check though because they keep changing the spell damages so often\", then \"423, okay. Yeah, that's two logs and the lightning. Let's lightning here.\" Final cast at t=1304 (elixir 6 -> 0)."
+    ],
+    "cannon": [
+      "t=1098s, t=1118s, t=1172s, t=1251s, t=1284s (clock unknown): reactive Cannons, all in the [7-9, 8-11] pocket in front of his towers — announced as the Hog answer at t=1173: \"I'm going to Cannon here, and then we can go for the E-Spirit to push the Hog in unless the Barbs.\"",
+      "t=1180s (clock unknown): the Cannon sat centre-left while the Hog Rider came down the far right and connected for ~2100 over four hits (right tower 4858 -> 2753) — \"look at the Hog. He just started like moonwalking, dude.\""
+    ],
+    "skeletons": [
+      "t=1121s (clock unknown): Skeletons at [5, 11] as the cheap plug instead of a Log — \"Okay, let's skellies here. I'm not going to log though because I know that he has the Skeleton Army.\"",
+      "t=1211s (clock unknown): Skeletons at [11, 14] behind a Baby Dragon to finish an Electro Wizard — \"Let's Skellies here. Take this out. Nice. Beautiful.\"",
+      "t=1241s (clock unknown): Skeletons at [15, 12], elixir 8 -> 7, on a Hog Rider dropped at the bridge — \"Yep, let's just Skellies here. Perfect. Very bad Hog Rider. Just not really doing anything at all.\"",
+      "t=1287s (clock unknown): Skeletons at [2, 14] into the opponent's last Hog plus Sparky attempt — \"It's like a last ditch effort though. Let's just go for the skeletons here.\""
+    ],
+    "electro-spirit": [
+      "t=1174s (clock unknown): planned as the stun that walks a Hog through a defence — \"I'm going to Cannon here, and then we can go for the E-Spirit to push the Hog in unless the Barbs.\"",
+      "t=1257s and t=1283s (clock unknown): cast at the far bridge [15, 15] and at [2, 14] — \"We can go for the e-spirit and cannon\" (t=1283); a final Electro Spirit label lands at [12, 5] at t=1305."
+    ],
+    "skeleton-army": [
+      "t=1122-1256s (clock unknown): never appeared on the field, but it is the card the whole game is played around — Ryley kept The Log in hand for it for three minutes: \"I'm not going to log though because I know that he has the Skeleton Army\" (t=1123), \"I need to have my log for the Skeleton Army\" (t=1141), \"We have the Log ready for the Skeleton Army once again\" (t=1219), \"Let's pre-log for the Skeleton Army this time\" (t=1256)."
+    ],
+    "hog-rider": [
+      "t=1130-1137s (clock unknown): he chose to concede Hog Rider tower damage rather than spend his Log — \"I'd rather just take the Hog Rider shot knowing that this guy can't really defend split piggies that well... I'm just going to eat the damage. I think it's a better play.\"",
+      "t=1180-1188s (clock unknown): the Hog connected four times on his right tower (4858 -> 2753 in ~507 HP steps) after walking around a centre-left Cannon — \"look at the Hog. He just started like moonwalking, dude.\"",
+      "t=1241-1246s (clock unknown): a later bridge Hog was answered by 1-elixir Skeletons at [15, 12] — \"Very bad Hog Rider. Just not really doing anything at all.\""
+    ],
+    "sparky": [
+      "t=1101-1107s (clock unknown): the opponent placed Sparky in the back left ([5, 25] -> [4, 22]) and Ryley answered with Lightning at [6, 23], clipping the tower for 423; the Sparky track survived and walked the lane for another ~70 s.",
+      "t=1248s (clock unknown): with the Sparky lined up on his Mighty Miner he used the Miner's ability to dodge — \"I'm going to Mighty ability away from this. Oh my god, he missed.\"",
+      "t=1164-1167s (clock unknown): on the opponent's list — \"they used to run like Sparky, Hog, and Balloon, but now he only has Hog and Sparky. Kind of crazy.\""
+    ],
+    "barbarians": [
+      "t=1172-1176s (clock unknown): Barbarians came down the right with the Hog and he read the placement as sloppy — \"Okay, those are just weird Barbs. I'm going to Cannon here.\"",
+      "t=1261-1276s (clock unknown): a second Barbarians group crossed on his left (tracked to [3, 7]) and was held by Baby Dragon at [14, 9] and Skeletons at [12, 8] while he counted out his finishing spells."
+    ],
+    "electro-wizard": [
+      "t=1208-1213s (clock unknown): the Electro Wizard was the only opponent counter-attack that reached his side cleanly (flagged tower in ~3 s) and was killed by Baby Dragon plus Skeletons at [11, 14] — \"Take this out. Nice. Come on. Nice. Beautiful.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "baby-dragon-cannon-electro-spirit-lightning-mighty-miner-royal-hogs-skeletons-the-log",
+    "cards": ["baby-dragon", "cannon", "electro-spirit", "lightning", "mighty-miner", "royal-hogs", "skeletons", "the-log"],
+    "bullets": [
+      "t=1095-1305s (clock unknown, clock OCR failed for this video): game 5 of 6 in the single-deck session, against a Sparky/Hog Rider list Ryley names himself — \"Sparky, Hog Rider, Witch, Barbs, Skeleton Army, E-Wiz, like Zap, Fireball\" (t=1105-1110). Enemy left tower 4858 -> 458 HP; his own right tower 4858 -> 2203. Result read as a win from \"this is going to be good game\" (t=1291) and the clip being cut short, not from a victory screen.",
+      "The core loop: split Royal Hogs at the bridge every 20-25 s (t=1143 [8, 15], t=1187-1191 3-1 offset, t=1216 [2, 15], t=1255 [2, 15]) with The Log held in hand for the Skeleton Army answer, and an Evo Baby Dragon left on the tower doing 269 a shot (t=1178-1192).",
+      "Defence is all cheap and reactive: Cannon in the [7-9, 8-11] pocket (five times), 1-elixir Skeletons on the Electro Wizard (t=1211) and the bridge Hog (t=1241), Mighty Miner into the Hog plus Barbarians (t=1178), and the Mighty Miner ability used to dodge a Sparky shot (t=1248).",
+      "The deck's discipline lesson from this game: \"I'm just never going for the random pre-logs in this matchup because I know that the only way that I could actually lose this, in my opinion, is if I go for some prediction and then miss it\" (t=1220-1227), and \"I'd rather just take the Hog Rider shot knowing that this guy can't really defend split piggies that well\" (t=1130-1132).",
+      "Lightning is both the opener (onto a back Sparky at t=1107, 423 to the tower) and the closer: \"two Logs and a Lightning, I think\" (t=1266) for the last 514 HP of the enemy left tower."
+    ],
+    "new_deck": {
+      "display_name": "EvoRHogs Mighty Miner Lightning Cycle",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "bridge-spam",
+      "rationale": "3.25 average elixir with four one-to-three-elixir cards lets him replay split Royal Hogs at the bridge every 20-25 seconds while Cannon, Skeletons and Electro Spirit answer defensively for almost nothing.",
+      "why_it_works_md": "The deck wins by repetition rather than by any single big push: Royal Hogs go to the bridge again and again (four times in under two minutes at t=1143-1255) and every cheap defensive card — Cannon, Skeletons, Electro Spirit — cycles straight back to them. The Evo Baby Dragon is the reason the chip sticks; parked behind the hogs it took the enemy tower from 3907 to 2831 on its own at 269 damage a shot, and it doubles as the anti-swarm cover that lets Ryley hold The Log. That held Log is the whole skill of the deck in this matchup: against a Skeleton Army list he never pre-logs, accepts Hog Rider damage on the other tower instead, and only spends the two elixir once the Skarmy is on the board. Mighty Miner supplies the second threat that drags out extra answers when it walks in behind the hogs, and Lightning both opens (onto a back-placed Sparky) and closes, counted precisely with the Log damage for the last few hundred tower HP."
+    }
+  }
+}

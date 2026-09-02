@@ -1,0 +1,86 @@
+{
+  "key": "klMJBAH2Zx8-m0.0",
+  "match_file": "matches/klMJBAH2Zx8-m0.0.md",
+  "video_title": "I Am #1 in the World with this GAME BREAKING Deck 🌎🏆",
+  "cards": {
+    "royal-hogs": [
+      "t=52.1s (clock unknown — the clock OCR failed for this whole video): first Royal Hogs of the game at the left bridge tile [2, 15], played as a punish on a cycle read — \"I think I'm going to go for the piggies here immediately cuz he has no Skeleton Army in cycle, and he's going to have to end up ignoring the entire Baby Dragon\" (t=51-56). The enemy left tower then bled 2963 → 2373 between t=58 and t=64.",
+      "t=109-112s (clock unknown — the clock OCR failed for this whole video): Electro Spirit in the back at [9, 1], then Royal Hogs again at [2, 15] the moment the opponent committed a Giant — \"He might end up just going Giant Graveyard at the bridge, so I'm just going to go for the piggies at the bridge... Does he giant? Okay, yep, let's piggies right away\" (t=106-113). Enemy left tower 2373 → 665 by t=126.",
+      "t=138.1s (clock unknown — the clock OCR failed for this whole video): \"Evo piggies\" placed on his own right half at [15, 13], with the lane chosen for what his spell can follow — \"I think I want to Evo piggies here on the right side because I can just lightning cycle the left\" (t=136-140).",
+      "t=205.2s (clock unknown — the clock OCR failed for this whole video): late-game hogs used purely as an elixir sink against a nearly-full opponent — \"Let's piggies to waste all of his elixir and then we mighty miner here. He has to [Skarmy] me at some point\" (t=206-209); at t=212 he confirms it worked: \"Yo, he has no elixir. He has nothing.\""
+    ],
+    "mighty-miner": [
+      "t=38-40s (clock unknown — the clock OCR failed for this whole video): a Mighty Miner sent before the readable window walked the right lane, crossed to the left and cut the enemy left tower 4858 → 2963 in two seconds — \"Look at that Mighty Miner getting a lot of damage right there. Very nice damage.\"",
+      "t=63.1s / 143.8s [14, 11] and t=161.2s [4, 13] (clock unknown — the clock OCR failed for this whole video): placed on the opponent's ranged support rather than on the tank — \"go for the mighty miner on top of the witch I think. I can't put it on the bowler\" (t=158-161).",
+      "t=82.1s [9, 1] (clock unknown — the clock OCR failed for this whole video, elixir 9 → 5): dropped in the back purely to cycle while he had nothing to defend, during the deck-talk stretch.",
+      "t=191.2-223s (clock unknown — the clock OCR failed for this whole video): the closing threat, paired with Electro Spirit (\"we can go for the E spirit plus mighty miner\", t=188-190) and with the Champion ability used twice — \"pop the ability guys\" (t=206) and \"Okay, log and then we ability\" (t=211). He finishes on the enemy right tower at t=216-223: \"Nice, it's on the tower. Mighty miner. Mighty miner. Come on. One more... Oh my god. There's no way. It took the whole tower.\""
+    ],
+    "cannon": [
+      "t=23.4s / 28.9s [8, 9], t=128.1s [10, 11], t=193.2s [12, 14] (clock unknown — the clock OCR failed for this whole video): the anchor building, always in the central column band, used to pull the Giant and to kill the support walking behind it — \"Let's cannon here as well. Make sure you take the musky out\" (t=129-132), \"Let's go for the cannon. Bring the giant back up\" (t=163-165).",
+      "Deck note: in this game the pipeline's HUD read listed Royal Delivery in his eighth slot; the five −3-elixir \"royal-delivery\" plays (t=42.9, 128.6, 161.7, 185.0, 192.0) each coincide with a Cannon (or Baby Dragon) deploy label and a matching call, so they are read as Cannon cycles, not a separate card."
+    ],
+    "the-log": [
+      "t=118.6s [3, 15] and t=174.5s [11, 3] (clock unknown — the clock OCR failed for this whole video): held specifically for the opponent's Skeleton Army, with the elixir counted out loud first — \"he predicted my prediction by going for the snowball, but I was just counting the elixir out loud there cuz I needed to be sure that I went log right as he was able to [Skarmy] me\" (t=122-129) and \"I have to log here on the [Skarmy] again as well. Dude, this is scary\" (t=174-178).",
+      "t=32.0s [14, 4], t=132.1s [3, 8], t=211.2s [13, 13] (clock unknown — the clock OCR failed for this whole video): the rest of his Log usage is defensive sequencing inside a stack — \"Let's go for the log here, and then we can go for the Electro Spirit just to help out on defense\" (t=34-35) and \"then we have to go for the log here on the skeleton army\" (t=132-133)."
+    ],
+    "skeletons": [
+      "t=30.7s [12, 6], 67.1s [7, 5], 75.6s [3, 12], 123.1s [14, 9], 132.3s, 167.7s [6, 8], 195.2s [11, 1] (clock unknown — the clock OCR failed for this whole video): played seven times as 1-elixir cycle and body-block on his own half, mostly against the Golden Knight and Giant.",
+      "t=167.7s (clock unknown — the clock OCR failed for this whole video): the one bad one, and he blames timing rather than the card — \"I'm going to skellies. Oh, bad timing. Nice arrows by him\" (t=168)."
+    ],
+    "electro-spirit": [
+      "t=35.4s [14, 5] (clock unknown — the clock OCR failed for this whole video): added on top of a Log to finish a defensive stack — \"we can go for the Electro Spirit just to help out on defense\" (t=35-38).",
+      "t=109.1s [9, 1] (clock unknown — the clock OCR failed for this whole video): played in the back as the cycle half of a bridge punish — \"I'm just going to go for the piggies at the bridge. If he does look cycle the E-Spirit in the back\" (t=107-109).",
+      "t=127.1s [12, 11] and t=197.2s [6, 2] (clock unknown — the clock OCR failed for this whole video): reset/chip inside larger defensive packages, the last one bundled with the Champion — \"we can go for the E spirit plus mighty miner\" (t=188-190)."
+    ],
+    "baby-dragon": [
+      "t=42.0s [9, 12] (clock unknown — the clock OCR failed for this whole video): played straight onto the push to clear the Skeleton Army and then trade with the Witch — \"Let's Baby Dragon here. Make sure we take out the Skeleton Army. Hopefully, the Baby Dragon can turn around and go for that witch a little bit\" (t=43-47). He is unhappy with the ramp-up: \"Bro, the Baby Dragon took so long to shoot\" (t=49).",
+      "t=118.1s [9, 0] and t=184.2s [9, 1] (clock unknown — the clock OCR failed for this whole video): played in the back purely to cycle toward the evolution — \"We're one baby dragon away from Evo. I do definitely want to cycle towards that. Let's baby D in the back here\" (t=182-186).",
+      "Deck origin, t=15-25: \"I made this piggies deck a bit ago, maybe like a year ago when the Evo Baby Dragon first came out, but ever since Baby Dragon got buffed in the balance changes, I've been playing it again.\""
+    ],
+    "lightning": [
+      "t=93.1s [13, 18] (clock unknown — the clock OCR failed for this whole video, elixir 9 → 3): first Lightning spent on the evolved Witch, target chosen out loud — \"Let's go for the lightning here on top of the witch just to make sure to get the Evo Witch off the board cuz the Evo can be super, super annoying if we don't take that off the board with the lightning\" (t=94-100). Enemy right tower 3513 → 3090 in the same window.",
+      "t=143.1s [3, 22] and t=169.2s [3, 21] (clock unknown — the clock OCR failed for this whole video): both cycled into the left lane as the finisher for a tower he had already chipped with the hogs — \"I'm going to lightning that musketeer here because I need to get two lightning spells\" (t=141-143); the enemy left tower ends at 242 HP.",
+      "t=218.2s [13, 22] (clock unknown — the clock OCR failed for this whole video): the closing spell on the enemy right tower (labelled to the opponent by the pipeline, but matching his own −6 elixir drop at t=221.7); tower reads 2656 → 1021 between t=218 and t=220."
+    ],
+    "witch": [
+      "t=26.0s (clock unknown — the clock OCR failed for this whole video): the opponent's evolved Witch at [13, 19] is what took his right tower from 4208 to 2174 across t=44-52; Ryley's answer is to spend a 6-elixir Lightning on it on sight — \"the Evo can be super, super annoying if we don't take that off the board with the lightning\" (t=97-100), and later he tracks not having it: \"we don't have lightning for the Evo witch which is all right\" (t=179-181)."
+    ],
+    "skeleton-army": [
+      "t=118.6s and t=174.5s (clock unknown — the clock OCR failed for this whole video): against a Giant Graveyard opponent he treats Skeleton Army as the card The Log is reserved for, and counts elixir out loud to be sure the Log goes down after it, not before — \"I needed to be sure that I went log right as he was able to [Skarmy] me\" (t=125-129). He also plays the win condition off its absence: \"I'm going to go for the piggies here immediately cuz he has no Skeleton Army in cycle\" (t=51-54)."
+    ],
+    "graveyard": [
+      "t=24.0s [8, 3] (clock unknown — the clock OCR failed for this whole video) and again around t=114 (\"Okay, graveyards, too\"): the one thing this deck never solved in the game — his right tower went 4858 → 787 and his king tower was opened and ground to 1650 while he accepted the chip on purpose: \"Just making sure that we're minimizing damage, but not also like defending poorly\" (t=196-200)."
+    ],
+    "giant": [
+      "t=106-165s (clock unknown — the clock OCR failed for this whole video): Ryley predicts the Giant three times before it lands (\"He might end up just going Giant Graveyard at the bridge\", t=106; \"Does he giant? Okay, yep\", t=111; \"He's going to giant. Yep\", t=161) and never spells it — the Cannon pulls it and Mighty Miner plus Skeletons kill it, while Lightning is saved for the support. He rates the matchup class outright: this deck \"absolutely destroys like Giant, Golem, you know, Giant Skeleton\" (t=87-90)."
+    ]
+  },
+  "deck": {
+    "deck_key": "baby-dragon-cannon-electro-spirit-lightning-mighty-miner-royal-hogs-skeletons-the-log",
+    "cards": [
+      "baby-dragon",
+      "cannon",
+      "electro-spirit",
+      "lightning",
+      "mighty-miner",
+      "royal-hogs",
+      "skeletons",
+      "the-log"
+    ],
+    "bullets": [
+      "Game 1 of a six-game single-deck session (video 10.3s-225.9s) in which Ryley pushes for world #1 with what he calls \"my new piggies deck\". The in-game clock OCR failed for the entire video, so every timestamp is a video second and clock times are unknown.",
+      "Piloted as defend-then-punish, not as a build-up deck: Cannon at [8, 9]/[10, 11]/[12, 14] with Skeletons, Electro Spirit, Baby Dragon and Mighty Miner on top of the push, then Royal Hogs at the bridge the moment the opponent commits (t=52.1 on a Skeleton-Army-out-of-cycle read, t=112.1 as the Giant lands, t=205.2 as an elixir sink).",
+      "Lightning is the deck's plan for a tower, not a defensive tool: first one on the evolved Witch (t=93.1, \"the Evo can be super, super annoying if we don't take that off the board\"), then two more cycled into the left lane he had already chipped with the hogs (t=143.1, t=169.2) — \"I'm going to lightning that musketeer here because I need to get two lightning spells\" (t=141-143). Lane choice is explicitly driven by the spell: \"I want to Evo piggies here on the right side because I can just lightning cycle the left\" (t=136-140).",
+      "Mighty Miner does triple duty — chip on offence (enemy left tower 4858 → 2963 at t=38-40), anti-support on defence (placed on the Witch, never on the Bowler, t=158-161), and the closer, with Explosive Escape called out twice at t=206 and t=211 before it takes the enemy right tower at t=216-223.",
+      "Ryley's own claims for the list: \"I almost never actually lose with this deck\" and it is a modified version of an older Tesla variant (t=25-31); \"this piggies deck may literally just be the best deck in Clash Royale right now... if you play it extremely well, then you always have a chance\" (t=67-75); \"it kind of destroys all of the beatdown decks as well minus Lava. You do actually have a chance to beat Lava Hound, but it absolutely destroys like Giant, Golem, you know, Giant Skeleton\" (t=77-90).",
+      "Cost of the win: the Graveyard chip is never answered — his right tower ends at 787 and his king tower at 1650, which he treats as acceptable (\"minimizing damage, but not also like defending poorly\", t=196-200). Result read as a win from the commentary at t=216-223 plus the enemy king tower HP becoming readable at t=224; no result banner was OCR'd."
+    ],
+    "new_deck": {
+      "display_name": "Piggies Mighty Miner Ryley",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "control",
+      "rationale": "A 3.25-elixir list whose Skeletons / Electro Spirit / The Log / Cannon shell cycles Royal Hogs back faster than the opponent can re-answer them, while Mighty Miner, Baby Dragon and Lightning make it defence-first enough for Control as a genuine secondary.",
+      "why_it_works_md": "Every card except Lightning is a defensive answer first: Cannon pulls the tank, Skeletons and Electro Spirit body-block and reset, Baby Dragon covers air and swarms, and Mighty Miner melts whatever the Cannon has pulled — so the Royal Hogs go in only when the opponent has just spent, and never as a committed push. The Log is held almost exclusively for Skeleton Army, the standard hogs counter, which is why Ryley counts elixir out loud before throwing it (t=122-129). Lightning is not a defensive spell here but the deck's finisher: it removes the one card the deck genuinely fears (an evolved Witch) and is then cycled twice into a lane the hogs have already chipped. Ryley's own framing is that the shell beats ground beatdown outright — \"it absolutely destroys like Giant, Golem, you know, Giant Skeleton\" — and struggles only against Lava Hound (t=77-90)."
+    }
+  }
+}

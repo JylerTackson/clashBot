@@ -1,0 +1,57 @@
+{
+ "games": 6,
+ "deck": [
+  "mighty-miner",
+  "cannon",
+  "skeletons",
+  "baby-dragon",
+  "lightning",
+  "electro-spirit",
+  "royal-hogs",
+  "the-log"
+ ],
+ "deck_key": "baby-dragon-cannon-electro-spirit-lightning-mighty-miner-royal-hogs-skeletons-the-log",
+ "mixed": false,
+ "scores": {
+  "mighty-miner": 36,
+  "cannon": 36,
+  "skeletons": 36,
+  "baby-dragon": 33,
+  "lightning": 26,
+  "ice-spirit": 26,
+  "rage": 26,
+  "royal-delivery": 24,
+  "fireball": 20,
+  "the-log": 19,
+  "goblins": 18,
+  "zappies": 12,
+  "royal-ghost": 9,
+  "electro-spirit": 8,
+  "tornado": 6,
+  "hog-rider": 6,
+  "mega-minion": 6,
+  "skeleton-barrel": 6,
+  "barbarian-barrel": 5,
+  "bomb-tower": 3,
+  "royal-hogs": 0
+ },
+ "transcript_mentions": {
+  "mighty-miner": 47,
+  "lightning": 40,
+  "cannon": 32,
+  "fireball": 2,
+  "skeletons": 14,
+  "baby-dragon": 54,
+  "electro-spirit": 31,
+  "hog-rider": 9,
+  "royal-ghost": 1,
+  "the-log": 59,
+  "royal-hogs": 53,
+  "skeleton-barrel": 2
+ },
+ "notes": [
+  "swapped royal-delivery (score 24, never mentioned) for the-log (score 19, 59 mentions)",
+  "swapped ice-spirit (score 26, never mentioned) for electro-spirit (score 8, 31 mentions)",
+  "swapped rage (score 26, never mentioned) for royal-hogs (score 0, 53 mentions)"
+ ]
+}

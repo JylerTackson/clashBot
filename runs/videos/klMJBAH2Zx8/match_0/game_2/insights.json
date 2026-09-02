@@ -1,0 +1,76 @@
+{
+  "key": "klMJBAH2Zx8-m0.2",
+  "match_file": "matches/klMJBAH2Zx8-m0.2.md",
+  "video_title": "I Am #1 in the World with this GAME BREAKING Deck 🌎🏆",
+  "cards": {
+    "royal-hogs": [
+      "t=526.7s (clock unknown — the clock OCR failed for this whole video): opened with a split Royal Hogs off a full bar, elixir 10 -> 5, deploy label on his own half at [8, 14] — the split is explicitly Mega Knight insurance: \"I don't really want to go for piggies in the same lane knowing that he probably has a Mega Knight. So, just going to split them here\" (t=526-531). Enemy left 4858 -> 4504 and right 4858 -> 4150 over the next eight seconds.",
+      "t=634-641s: talks himself out of a second split and states the general rule — \"Do I even want to split them though? I feel like same lane might just be better... I think it depends on the situation.\" From t=651 onward every hog play is same-lane.",
+      "t=693.7s: the game-deciding play — Royal Hogs at the left bridge [2, 15] behind an Evo Baby Dragon placed at [4, 1], timed to a Mega Knight committed in the other lane: \"Can I piggies on the left here with the Evo Baby Dragon? I think I should cuz I mean the piggies are going to be speedy piggies\" (t=692-697), then \"It's on the tower and of course, you know, when he Mega Knights, it's good to pressure just to force him to spend some Elixir in the opposite lane\" (t=699-705). Enemy left tower 4032 -> 2281.",
+      "t=792.8s: used as a defensive lever rather than for damage, hogs to the bridge at [2, 15] to pull the Mega Knight — \"could I piggies to bridge to block the Mega Knight? Then if I block the Mega Knight, the Ram Rider is not a threat. Yeah, he has to defend these piggies.\""
+    ],
+    "mighty-miner": [
+      "t=567.2s (clock unknown): the primary answer to a bridge Ram Rider, played at [15, 7] in the threatened lane behind an Electro Spirit, elixir 6 -> 2 — \"let's E-spirit and then we can go for the mighty miner here to make sure that we take it\" (t=563-566).",
+      "t=656-662s: Explosive Escape used pre-emptively, not reactively, and a second Mighty Miner committed straight after to bait the Mega Knight — \"Ability cuz he might Mega Knight. Okay, good ability regardless. Let's get a second Mighty Miner down. He has to Mega Knight that, yep. Knew it.\"",
+      "t=677-691s: after the Mighty Miner grinds down a Royal Ghost, he gives the card thesis of the video — \"And that Mighty's going to take out the whole Ghost, dude. That's why I love the Mighty Miner, man. If you use him properly, he can really get so much value, dude. Definitely one of the most valuable cards in the game, in my opinion. Like, it's almost always getting more Elixir out and taking out more than you're spending on him.\"",
+      "t=544.5 / 609.6 / 637.6 / 689.2 / 710.7 / 730.7 / 743.7 / 757.8 / 788.8s: ten deploy labels in one game, nearly all defensive placements in the central band (rows 8-12) or on his own King Tower tile [9, 0], then allowed to walk out as the counter-push. He plays him on cooldown rather than saving him for tanks."
+    ],
+    "cannon": [
+      "t=548.5 / 618.6 / 643.6 / 664.7 / 682.7 / 703.7 / 714.7 / 740.7s (clock unknown): ten placements in the game, the great majority in the middle at [8-9, 9-12] so it pulls into either lane. He states the placement intent at t=739-741: \"We need a cannon in the middle again and then we can get another Baby Dragon on the Mortar if need be.\"",
+      "t=548.5s: first Cannon played while still reading the opponent's deck — \"Okay, why does he have a mortar? Guess I'll just cannon here\" (t=549-551).",
+      "t=761.8 / 803.8s: the two off-centre placements ([4, 13] and [1, 10]) come only when the Mega Knight / Ram Rider pushes are locked into the left lane, paired with Skeletons for DPS — \"Cannon low skellies\" (t=754), \"Let's cannon\" (t=804)."
+    ],
+    "skeletons": [
+      "t=647.6s (clock unknown): played at [6, 10] to surround a single-target attacker — \"we can go for the Skeletons to surround the Ghost\" (t=647-649).",
+      "t=738.6 / 753.8s: dropped behind the Cannon as cheap added DPS against a Mega Knight + Firecracker pile — \"then we can go for a set of skellies\" (t=739), \"Cannon low skellies. We need the E-Spirit for this\" (t=754-755).",
+      "t=805.8s: pure cycle at elixir 2 -> 1 in the closing seconds while under an incoming Lightning — \"Let's E-Spirit. Let's skellies. Let's cannon\" (t=803-804). Nine Skeletons plays in one game, the most-cycled card after the Cannon."
+    ],
+    "electro-spirit": [
+      "t=606.6s (clock unknown): the standard anti-Minions reset, at [9, 11] four tiles in front of the tower, always as the first card of a two-card sequence — \"Let's E-Spirit here for the Minions and then we can go for the Mighty Miner as well\" (t=607-610). Same pattern at t=561.7 before the Mighty Miner answer to the Ram Rider (t=563-566).",
+      "t=653.7s: played at [9, 0] on his own King Tower tile during the King-activation window — \"Nice E-Spirit connection. Thankfully, it didn't activate\" (t=649-650), i.e. he wanted the connection without chaining into his own King Tower.",
+      "t=699.7 / 706.7s: doubled up at [9, 10] and [9, 11] to stall a Firecracker + Royal Ghost while his hogs worked the opposite tower."
+    ],
+    "the-log": [
+      "t=627.6s (clock unknown): played at [8, 11] and allowed to roll up the middle into a Mortar placed at the bridge tile [8, 16] — \"Okay, that's going to take out the Mortar\" (t=631). He repeats the answer at t=736.7 with a Log at [3, 15] into the Evo Mortar sitting at (2, 17): \"let's go for the log here then we can go for a set of skellies\" (t=737-739).",
+      "t=569.6s: defensive roll at [14, 9] under a Ram Rider that had already reached his tower — \"Okay, let's log here\" (t=571).",
+      "t=758.8s: during the game's worst defensive stretch he calls it \"the Mighty Mighty Mighty log here\" (t=758); at t=804-806, under an incoming enemy Lightning, it is his panic answer — \"Log log log. Okay, I think we're good.\"",
+      "Eight Log plays in the game, all on his own half and all defensive or Mortar-clearing; he never used it to open or to finish a tower."
+    ],
+    "baby-dragon": [
+      "t=655.3s (clock unknown): played at [2, 9] into a three-Minion pack, elixir 9 -> 5 — \"Let's Baby Dragon for the Minions\" (t=654-656).",
+      "t=683.7 / 725.1s: twice placed in the back at [4, 1] and [9, 1] to lead a hog push and to cycle safely — \"let's go for the Baby Dragon here in the back\" (t=724).",
+      "t=773-784s: his stated reason for running it in this meta — \"Let's Evo Baby Dragon in the back though cuz he does have a really hard time dealing with the Evo Baby Dragon. And all like the arrow decks, one of the reasons that Baby Dragon is so good is cuz everyone's using arrows and bar barrel and log cuz of the bait decks, which just makes Baby Dragon so strong.\" He notes at t=790 that he has \"double Baby Dragons down.\""
+    ],
+    "lightning": [
+      "t=798.8s (clock unknown): the only Lightning of the game, held for roughly 280 seconds and then cast at [5, 22] on the enemy left side with that tower already at 2169 HP — \"I'm going to lightning here. Then we just go for a cannon\" (t=799-800). Enemy left drops to 1510 within six seconds and to 913 by the end.",
+      "The card is otherwise a pure threat: he never spends it on defence in a 297-second game, even through the Mega Knight + Mortar + Firecracker pile-up at t=745-772."
+    ],
+    "mega-knight": [
+      "Opponent card, 16 commentary mentions — the most-named card in the game. Ryley predicts it before seeing it (\"definitely going to be a Mega Knight deck here\", t=533), splits his Royal Hogs because of it (t=526-531), calls it wasted when it lands behind a Ram Rider (\"he just wasted his Mega Knight\", t=579), and baits it with a second Mighty Miner (\"He has to Mega Knight that, yep. Knew it.\", t=661-662).",
+      "t=701-705s: his rule for playing against it — \"when he Mega Knights, it's good to pressure just to force him to spend some Elixir in the opposite lane\"; the hogs he sends at t=693.7 take the enemy left tower 4032 -> 2281.",
+      "t=765-769s: a specific interaction he calls out while losing tower HP — \"Whenever a Mega Knight throws something, Mortar and X-Bow lock onto the tower. That's only two shots, but you know, I was hoping to take no damage.\""
+    ],
+    "mortar": [
+      "Opponent card (nine mentions), and a surprise to him — \"Okay, why does he have a mortar?\" (t=549), \"I lucky forgot that he had Mortar. I can't lie. It's been too long\" (t=732-735). He never spends a big card on it: The Log answers it at t=627.6 (bridge Mortar at [8, 16], \"that's going to take out the Mortar\", t=631) and again at t=736.7 against the Evo Mortar at (2, 17), with \"another Baby Dragon on the Mortar if need be\" (t=742) held in reserve.",
+      "t=765-769s: he blames his only real tower damage on the Mortar being screened — \"Whenever a Mega Knight throws something, Mortar and X-Bow lock onto the tower\" (own left tower 4167 -> 3317 across t=760-772)."
+    ]
+  },
+  "deck": {
+    "deck_key": "baby-dragon-cannon-electro-spirit-lightning-mighty-miner-royal-hogs-skeletons-the-log",
+    "cards": ["baby-dragon", "cannon", "electro-spirit", "lightning", "mighty-miner", "royal-hogs", "skeletons", "the-log"],
+    "bullets": [
+      "klMJBAH2Zx8 game 3 of 6 (video t=518.5-815.5, clock unreadable all video): win against a Mega Knight / Mortar / Firecracker deck with Ram Rider, Royal Ghost, Minions, Miner and Lightning — \"Okay, we won on both sides anyway. Very nice win\" (t=808-812), final towers 4682/3511 his vs 913/1040 the opponent's.",
+      "The deck is piloted defence-first: Cannon in the central band plus Mighty Miner and Electro Spirit answer everything, and Royal Hogs only go in when the opponent's Mega Knight is spent or committed to the other lane (t=526.7, 594.3, 651.7, 668.7, 693.7, 792.8).",
+      "Split hogs early, same-lane hogs later — he states both sides of the rule: \"I don't really want to go for piggies in the same lane knowing that he probably has a Mega Knight\" (t=526-531) and then \"I feel like same lane might just be better... I think it depends on the situation\" (t=634-641).",
+      "Its damage output is almost entirely counter-push: Mighty Miner walking out after a defence (t=668-691, \"it's almost always getting more Elixir out and taking out more than you're spending on him\") and one Evo-Baby-Dragon-led hog push at t=693-706 that took the enemy left tower 4032 -> 2281. Lightning was held ~280 s and cast once at t=798.8 to finish the chip.",
+      "Weak spot shown in this game: a Mega Knight landing on top of a Mortar screened it long enough for two shots on his left tower (4167 -> 3317, t=760-772), the only meaningful damage he took."
+    ],
+    "new_deck": {
+      "display_name": "Royal Hogs Ryley",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "control",
+      "rationale": "A 3.25-average-elixir shell of Skeletons, Electro Spirit, The Log and Cannon cycling back to Evolved Royal Hogs, with Mighty Miner, Baby Dragon and a held Lightning giving it a control-style defence and finish.",
+      "why_it_works_md": "The deck defends with three cheap, repeatable pieces — Cannon placed centrally so it pulls into either lane, Electro Spirit to reset swarms, and Skeletons or The Log to clean up — so the expensive cards stay free. Mighty Miner is the engine: he answers a bridge threat for 4 elixir, survives, and walks out as the counter-push, which is exactly the value Ryley claims for him (\"it's almost always getting more Elixir out and taking out more than you're spending on him\", t=677-691 of game 3). Royal Hogs then convert opponent commitments into chip, split against likely Mega Knight decks and same-lane once the Mega Knight is spent or mislaned. Baby Dragon covers the swarm and Firecracker traffic that the arrow-and-log-heavy bait meta cannot punish efficiently, and Lightning is held as a single late lever on an already-damaged tower rather than as a defensive spell."
+    }
+  }
+}

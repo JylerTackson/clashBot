@@ -1,0 +1,113 @@
+{
+ "key": "klMJBAH2Zx8-m0.1",
+ "match_file": "matches/klMJBAH2Zx8-m0.1.md",
+ "video_title": "I Am #1 in the World with this GAME BREAKING Deck 🌎🏆",
+ "cards": {
+  "mighty-miner": [
+   "clock unknown (t=263.3, 338.3, 375.4, 416.4, 434.4, 453.5, 476.5): his default use is as a bridge blocker on his own half at tiles (2, 14) / (2, 15) / (15, 15) / (15, 5) against a Golden Knight bait deck — 'we can go for a mighty miner to block the bridge here... at least if we're blocking the bridge and killing the golden knight then he can't really get a good barrel off' (t=373-381).",
+   "clock unknown (t=350.4, tile (3, 5)): places him on his own left tower as a Goblin Barrel prediction one second after logging the Rascals, so the ability bomb catches the barrel — 'mighty miner predict a goblin barrel cuz then we can pop off the ability... Perfect prediction right there just knowing that if I log he'll probably barrel' (t=350-358).",
+   "clock unknown (t=400-405): uses the 1-elixir Explosive Escape purely as an elixir trade to keep a 3-elixir Cannon alive — 'We need to go for the cannon plus ability cuz I want to keep the cannon alive at least force him to spend more elixir. He forced out the ability there'; earlier uses are a Princess snipe (t=270-273, 'Can we mighty miner ability that princess? Yes, we will be able to') and a distraction (t=382-384).",
+   "clock unknown (t=464.5-494.5): in overtime he re-deploys him every few seconds as the screen for a double Baby Dragon push — 'We just need to keep on spamming mighty miner' (t=475-477) and 'The baby dragons are still alive cuz the mighty miner walked in front' (t=479-482). He also calls it his favourite Champion and names the replacements for players without it: 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight' (t=276-289)."
+  ],
+  "cannon": [
+   "clock unknown (t=246.2, 286.8, 315.0, 344.3, 363.4, 400.4, 417.4, 438.4, 455.5, 493.5): placed almost every time in column 8-9 on his own half so it pulls both lanes, and cycled on a timer rather than saved — 'Okay, let's cycle our cannon here in the middle' (t=362-364). First use is reactive: 'Let's go for our cannon here then we can go for the skeletons as well' (t=247-250).",
+   "clock unknown (t=275.3, tile (2, 12)): the one off-centre placement, in his left pocket against a Golden Knight that had crossed on that side.",
+   "clock unknown (t=400-405): he spends a Champion ability to protect it, valuing the building as an elixir sink — 'I want to keep the cannon alive at least force him to spend more elixir.'"
+  ],
+  "skeletons": [
+   "clock unknown (t=227.4, tile (4, 11)): opening play, paired with Electro Spirit against Wall Breakers — 'Just going to go for the E spirit skeletons here on the wall breakers' (t=227-230). The pairing repeats at t=385.4 with the same verdict: 'A spirit skeletons. Come on. Nice, beautiful spirit skeletons. Wow. Perfect placement for absolutely zero damage' (t=386-391).",
+   "clock unknown (t=307-317): he holds them rather than trading The Log, because they are his Goblin Barrel answer — 'I can't really log the rascals or the princess because he'll just go golden knight goblin barrel and chain up to my skeletons cuz if I do that then I'd have to skeletons.'",
+   "clock unknown (t=410.4, 421.6): used as a retarget tool inside a defensive chain — 'Let's log then baby dragon then skellies to retarget these' (t=422-424).",
+   "clock unknown (t=294.3, tile (9, 0)): played on his own back line purely to cycle toward the Baby Dragon evolution."
+  ],
+  "the-log": [
+   "clock unknown (t=234.2, 264.3, 420.4, 497.5, 510.5 at tile (3, 5) or (14, 5)): most of his Logs land on his own tower as a Goblin Barrel prediction, not at the bridge — 'that is one tile in the back so let's go for the log here. I always like to just try to read the barrels. It's good practice. There's no reason not to in my opinion' (t=264-268).",
+   "clock unknown (t=307-317): states the discipline of not spending it on bait — 'I can't really log the rascals or the princess because he'll just go golden knight goblin barrel and chain up to my skeletons.'",
+   "clock unknown (t=350.4, on the Rascals): he only spends it when the follow-up is already covered — 'let's go for the log here on the rascals and mighty miner predict a goblin barrel cuz then we can pop off the ability' (t=349-352).",
+   "clock unknown (t=497.5-510.5): closing an overtime lead, it is the defensive-only card — 'We don't even need to log. We just log on defense' (t=507-510)."
+  ],
+  "electro-spirit": [
+   "clock unknown (t=227.2, 309.1, 320.3, 355.4, 385.4, 443.4, 451.5, 496.5, 506.5): spent freely as a one-elixir cycle-and-reset card, always on his own half and never held — 'I'm going to cycle the e-spirit here and then we can just go for the mighty miner' (t=259-262).",
+   "clock unknown (t=385.4): the standing defensive pair with Skeletons — 'A spirit skeletons. Come on. Nice, beautiful spirit skeletons' (t=386-388).",
+   "clock unknown (t=451.5-506.5): it is the filler card in both the winning push and the closing defence — 'Okay, E-spirit then skellies here as well. Make sure we block this' (t=462-466) and 'Block the bridge cuz Evo barrel. E-spirit. Log' (t=495-497)."
+  ],
+  "baby-dragon": [
+   "clock unknown (t=297.3 and t=447.4, tile (8, 0)): played on his own back line to advance the evolution cycle rather than as an answer — 'We are almost at the evo baby dragon' (t=303) and 'We have the baby dragon evo coming up as well' (t=334-337).",
+   "clock unknown (t=436-443): the whole overtime plan is stacking two of them, chosen off the opponent's spell list — 'I just have to get a really big counter push, guys, cuz he doesn't have a big spell so I can try to stack up baby dragons if the moment presents itself.'",
+   "clock unknown (t=447.4-461): executes it — 'Let's baby dragon again, guys. We have double baby dragons' (t=461-462); the pair survives because the Mighty Miner screens them ('The baby dragons are still alive cuz the mighty miner walked in front', t=479-482) and the enemy left tower drops 4097 -> 1038 HP between t=464 and t=492.",
+   "clock unknown (t=296-301): he names it as the flex slot — 'if you like the archer queen, you can even take out the baby dragon and put in the archer queen instead.'"
+  ],
+  "royal-hogs": [
+   "clock unknown (t=337.3, deploy labels at (10, 11) and (9, 15)): first commitment is a lane split, played for cycle progress and small chip rather than for a break — 'Let's go for the split piggies here. I do need to start getting to the evo and this will be a little bit of chip damage. It's so not like a lot but I mean it's something to work with. We get one piggy nibble on the left' (t=337-346).",
+   "clock unknown (t=367-386, right lane): second commitment behind a Baby Dragon, graded the same way — 'Good piggies too. We're getting a little bit of damage, not anything crazy but it's something' (t=391-395); enemy right tower 4448 -> 4038 HP over t=384-396.",
+   "clock unknown (t=468.5 and t=479.5, both into the left lane at (2, 13) and (2, 15)): the evolved Hogs sent twice behind two Baby Dragons and a Mighty Miner win the game — 'we can go for the Evo piggies, guys. We have double baby dragons. Piggies are protecting' (t=467-470) and 'The piggies are on the tower. All of them are on the tower. We have the damage lead' (t=486-488).",
+   "clock unknown (t=244-247): he names the matchup problem for the card before playing it — 'whenever I get to the evo piggies, he's going to have the evo snowball for defense', and at t=460 confirms it: 'Um, I know why he snowballed.'"
+  ],
+  "lightning": [
+   "clock unknown (t=364-369): refuses to spend it on the opponent's back-line Princesses even though they chip him all game — 'these back princesses are so annoying and I don't even really want to lightning them cuz then he'll just pressure super hard.'",
+   "clock unknown (t=432-436): repeats the decision under pressure in overtime — 'I want to lightning that but I know it's not worth it, bro. Can I lightning that one? No, I can't. I just have to continue chilling like this.' No Lightning cast by Ryley could be confirmed in this game (three deploy labels at t=430.4, 432.4 and 489.5 are attributed to the opponent by the pipeline and contradict each other; see the match file's Data gaps)."
+  ],
+  "golden-knight": [
+   "clock unknown (t=260.3-262, t=372.4-396.4): the opponent's Golden Knight is what Ryley's Mighty Miner bridge blocks are aimed at — 'at least if we're blocking the bridge and killing the golden knight then he can't really get a good barrel off' (t=377-382), and he grades a misplayed one at t=454-456: 'Wait, that was a bad golden knight. Hold up, I have a chance.'",
+   "clock unknown (t=283-289): names it as the budget replacement for the Mighty Miner in this deck — 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight, just a few cards like that cuz I know not all of you will have the mighty miner upgraded.'"
+  ],
+  "princess": [
+   "clock unknown (t=264.3-306.3, opponent Princesses tracked at (4, 19), (13, 20), (12, 24)): Ryley deliberately never answers the back-line Princesses — 'these back princesses are so annoying and I don't even really want to lightning them cuz then he'll just pressure super hard' (t=364-369) and 'I can't really log the rascals or the princess because he'll just go golden knight goblin barrel' (t=307-312). Six unidentified 269 HP hits on his right tower across the game are consistent with them.",
+   "clock unknown (t=270-273): the one time he does answer one, it is with the Mighty Miner ability rather than a card — 'Can we mighty miner ability that princess? Yes, we will be able to. Perfect.'"
+  ],
+  "rascals": [
+   "clock unknown (t=312.3-350.4): the opponent's Rascals are the card that finally pulls The Log out of him, and only once the punish is pre-loaded — 'let's go for the log here on the rascals and mighty miner predict a goblin barrel... So we're able to clean up the rascals nicely. Those are very good sequence' (t=349-359).",
+   "clock unknown (t=409-413): he predicts the Rascals as the answer to his own Baby Dragon and pre-places Skeletons — 'He's definitely going to go for the rascals here on the baby dragon. We can skellies here.'"
+  ],
+  "goblin-barrel": [
+   "clock unknown (t=264-268): the opponent's Goblin Barrel drives Ryley's whole defensive routine — he Logs his own tower on read ('I always like to just try to read the barrels. It's good practice') and keeps Skeletons in hand for it.",
+   "clock unknown (t=350-358): the barrel is predicted off his own play, not guessed — 'mighty miner predict a goblin barrel cuz then we can pop off the ability... just knowing that if I log he'll probably barrel.'",
+   "clock unknown (t=495-497): the evolved barrel is the only thing he still fears while closing out — 'Block the bridge cuz Evo barrel.'"
+  ],
+  "giant-snowball": [
+   "clock unknown (t=244-247, mentioned before it appears): he identifies the opponent's Evolution Giant Snowball as the single card that ruins his Evolution Royal Hogs — 'Evo snowball will probably be the most annoying thing about this cuz whenever I get to the evo piggies, he's going to have the evo snowball for defense.' At t=458-460 it is used on his push: 'Um, I know why he snowballed.'"
+  ],
+  "archer-queen": [
+   "clock unknown (t=296-301, mentioned only, never played): named as the substitute for the Baby Dragon slot in this Royal Hogs cycle list — 'if you like the archer queen, you can even take out the baby dragon and put in the archer queen instead.'"
+  ],
+  "knight": [
+   "clock unknown (t=283-289, mentioned only, never played): listed as an acceptable stand-in for the Mighty Miner for players without the Champion — 'I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight, just a few cards like that cuz I know not all of you will have the mighty miner upgraded cuz champion cards are really really hard to upgrade.'"
+  ],
+  "valkyrie": [
+   "clock unknown (t=283-289, mentioned only, never played): listed alongside Knight and Golden Knight as a Mighty Miner replacement in this deck — 'like the knight, the valkyrie, the golden knight, just a few cards like that.'"
+  ],
+  "skeleton-king": [
+   "clock unknown (t=283-289, mentioned only, never played): explicitly ruled out as the Mighty Miner replacement — 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight.'"
+  ]
+ },
+ "deck": {
+  "deck_key": "baby-dragon-cannon-electro-spirit-lightning-mighty-miner-royal-hogs-skeletons-the-log",
+  "cards": [
+   "baby-dragon",
+   "cannon",
+   "electro-spirit",
+   "lightning",
+   "mighty-miner",
+   "royal-hogs",
+   "skeletons",
+   "the-log"
+  ],
+  "bullets": [
+   "Game 2 of 6 in a single-deck video (video time 226.2-518.2s); a win on the overtime damage lead over 'Yaco' on a Golden Knight log-bait deck (Wall Breakers, Skeletons, Dark Prince, Goblin Barrel, Rascals, Golden Knight, Princess, Evo Giant Snowball). No tower fell on either side: last readable state is own 2216 / 2579 HP against enemy 748 / 3748. 'Guys, we won. There's no way for them to get to our tower and we already have the Evo baby dragon for defense' (t=499-504). The in-game clock OCR failed for the whole video, so all timings are video seconds.",
+   "He calls this matchup one of the deck's hard ones on sight — 'This actually might be one of those difficult matchups that I was talking about here' (t=250-253) — for two named reasons: Evolution Giant Snowball answers the Evolution Royal Hogs (t=244-247), and back-line Princesses chip for free because logging them opens a Golden Knight plus Goblin Barrel chain onto his Skeletons (t=307-316).",
+   "The game plan is deliberate attrition, stated after conceding 1900 HP on the left at t=322-326: 'this is going to be a lot of damage, guys, but I think it was for the greater good... not to let him have control of the game. At least this way it should be kind of like a stalemate where I'm just constantly defending his pushes but I'll be able to do it really really well' (t=321-334).",
+   "Defensive core is Cannon in column 8-9 cycled roughly every 20 seconds (t=246, 286, 315, 344, 363, 400, 417, 438, 455, 493) with Skeletons plus Electro Spirit on top and the Mighty Miner parked at his own bridge; The Log is reserved for the Goblin Barrel and played on his own tower on read (t=264-268).",
+   "Royal Hogs are committed only three times in five minutes — split at t=337 and single-lane at t=367 for chip and evolution cycle ('I do need to start getting to the evo and this will be a little bit of chip damage', t=339-342), then twice into one lane in overtime for the kill.",
+   "The winning push (t=447-492) is built off a spell read: 'he doesn't have a big spell so I can try to stack up baby dragons if the moment presents itself' (t=439-443). Two Baby Dragons behind a Mighty Miner, with Evo Royal Hogs sent twice, take the enemy left tower 4097 -> 1038 HP with no answering damage — 'That was one of the biggest pushes I've ever made' (t=492-495).",
+   "Lightning is carried but never confirmed cast in this game; he twice talks himself out of using it on the Princesses because of the tempo it concedes (t=364-369, t=432-436).",
+   "Substitutions he offers for the list: Golden Knight, Knight or Valkyrie in place of the Mighty Miner (not Skeleton King), and Archer Queen in place of the Baby Dragon (t=276-301)."
+  ],
+  "new_deck": {
+   "display_name": "EvoRHogs Mighty Miner Cycle",
+   "archetype_primary": "cycle",
+   "archetype_secondary": "control",
+   "rationale": "A 3.4-elixir list whose only win condition is Royal Hogs, supported by four cards of 1-3 elixir (Skeletons, Electro Spirit, The Log, Cannon) that let it out-cycle and out-defend rather than build a push.",
+   "why_it_works_md": "Royal Hogs are the only damage card; everything else is a cheap answer that comes back around fast — Skeletons, Electro Spirit, The Log and Cannon average two elixir and cover swarms, resets, barrels and ground tanks between them. Mighty Miner is the deck's swing piece rather than a second win condition: Ryley plays him almost exclusively on his own bridge tiles to block a lane and deny a Goblin Barrel behind a tank, and spends the 1-elixir Explosive Escape as an elixir trade — to keep a Cannon alive, to snipe a Princess, or to punish a barrel he baited with The Log (\"mighty miner predict a goblin barrel cuz then we can pop off the ability\", t=350-352). Baby Dragon is the only air unit and is cycled to its evolution on purpose, because two evolved Baby Dragons behind the Mighty Miner is the deck's actual kill push once the opponent's spell list is known to be small. The deck accepts chip damage in exchange for never losing tempo — \"not to let him have control of the game... I'm just constantly defending his pushes\" (t=323-334) — and converts in one overtime window rather than across the match. The obvious weaknesses in this game were a lack of any cheap answer to back-line Princess chip (Lightning is too expensive to justify) and Evolution Giant Snowball on the Royal Hogs."
+  }
+ }
+}

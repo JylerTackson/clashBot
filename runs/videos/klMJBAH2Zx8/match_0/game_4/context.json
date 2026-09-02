@@ -1,0 +1,10768 @@
+{
+ "video_id": "klMJBAH2Zx8",
+ "title": "I Am #1 in the World with this GAME BREAKING Deck \ud83c\udf0e\ud83c\udfc6",
+ "match_index": "0.4",
+ "period": [
+  1095.1,
+  1305.1
+ ],
+ "calibration_method": "towers",
+ "url": "https://www.youtube.com/watch?v=klMJBAH2Zx8",
+ "start_t": 1095.3,
+ "end_t": 1305.0,
+ "cards_mentioned": {
+  "the-log": 15,
+  "hog-rider": 9,
+  "skeleton-army": 7,
+  "royal-hogs": 7,
+  "lightning": 7,
+  "baby-dragon": 6,
+  "sparky": 6,
+  "electro-spirit": 2,
+  "royal-giant": 2,
+  "fireball": 2,
+  "cannon": 2,
+  "witch": 2,
+  "electro-wizard": 1,
+  "mighty-miner": 1,
+  "skeletons": 1
+ },
+ "own_deck_observed": [
+  "cannon",
+  "skeletons",
+  "baby-dragon",
+  "mighty-miner",
+  "royal-delivery",
+  "lightning",
+  "ice-spirit",
+  "fireball"
+ ],
+ "own_deck_sources": {
+  "cannon": "played",
+  "skeletons": "played",
+  "baby-dragon": "played",
+  "mighty-miner": "played",
+  "royal-delivery": "played",
+  "lightning": "played",
+  "ice-spirit": "played",
+  "fireball": "played"
+ },
+ "own_deck_notes": [],
+ "own_deck_counts": {
+  "hud": {
+   "mighty-miner": 2,
+   "lightning": 3,
+   "tornado": 1,
+   "ice-spirit": 3,
+   "royal-delivery": 5,
+   "cannon": 1,
+   "fireball": 3,
+   "rage": 3,
+   "skeletons": 2,
+   "baby-dragon": 1,
+   "zappies": 1,
+   "goblins": 1
+  },
+  "label": {
+   "cannon": 6,
+   "skeletons": 5,
+   "baby-dragon": 4,
+   "mighty-miner": 2,
+   "electro-spirit": 1
+  },
+  "hand": {
+   "cannon": 448,
+   "lightning": 598,
+   "baby-dragon": 714,
+   "royal-delivery": 260,
+   "mighty-miner": 563,
+   "fireball": 65,
+   "ice-spirit": 36,
+   "skeletons": 83,
+   "rage": 165
+  }
+ },
+ "own_deck_key": "baby-dragon-cannon-fireball-ice-spirit-lightning-mighty-miner-royal-delivery-skeletons",
+ "opponent": {
+  "deck_known": [
+   "sparky",
+   "electro-spirit",
+   "graveyard",
+   "the-log",
+   "royal-hogs",
+   "electro-wizard",
+   "barbarians"
+  ],
+  "deck_complete": false,
+  "deck_predictions": [
+   {
+    "card": "skeletons",
+    "p": 0.99,
+    "source": "kb_inference"
+   },
+   {
+    "card": "barbarian-barrel",
+    "p": 0.6,
+    "source": "kb_inference"
+   },
+   {
+    "card": "goblin-hut",
+    "p": 0.4,
+    "source": "kb_inference"
+   },
+   {
+    "card": "lightning",
+    "p": 0.4,
+    "source": "kb_inference"
+   },
+   {
+    "card": "royal-ghost",
+    "p": 0.4,
+    "source": "kb_inference"
+   }
+  ],
+  "kb_matches": [
+   {
+    "deck_key": "barbarian-barrel-electro-spirit-goblin-hut-ice-wizard-lightning-royal-ghost-royal-hogs-skeletons",
+    "name": "Hero IWiz EvoRHogs GobHut",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 5,
+    "score": -7.97,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "lightning",
+     "royal-ghost",
+     "skeletons"
+    ]
+   },
+   {
+    "deck_key": "archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log",
+    "name": "EvoRHogs AQ EvoCannon 2.9 Cycle",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 5,
+    "score": -7.97,
+    "remaining": [
+     "archer-queen",
+     "cannon",
+     "earthquake",
+     "ice-spirit",
+     "royal-delivery",
+     "skeletons"
+    ]
+   },
+   {
+    "deck_key": "archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons",
+    "name": "EvoRHogs AQ GobHut EvoGhost",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 5,
+    "score": -7.97,
+    "remaining": [
+     "archer-queen",
+     "barbarian-barrel",
+     "fireball",
+     "goblin-hut",
+     "royal-ghost",
+     "skeletons"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0,
+  "live_tracker_deck_known": [
+   "sparky",
+   "electro-spirit",
+   "graveyard",
+   "the-log",
+   "royal-hogs",
+   "skeletons",
+   "electro-wizard",
+   "barbarians"
+  ]
+ },
+ "events": [
+  {
+   "timestamp": 1099.4316666666666,
+   "match_clock": null,
+   "player": "own",
+   "card": "mighty-miner",
+   "tile": [
+    15,
+    15
+   ],
+   "elixir_before": 10.0,
+   "elixir_after": 6.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (mighty-miner), elixir -4; deploy label 'MigHtY MiNeI' at (15, 15) (score 0.909)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1101.1,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "sparky",
+   "tile": [
+    5,
+    25
+   ],
+   "elixir_before": 8.16,
+   "elixir_after": 2.16,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1098.097,
+   "match_clock": null,
+   "player": "own",
+   "card": "cannon",
+   "tile": [
+    9,
+    8
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'CaNNON' at (9, 8) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1105.104,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "sparky",
+   "tile": [
+    4,
+    22
+   ],
+   "elixir_before": 6.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1107.4396666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "lightning",
+   "tile": [
+    6,
+    23
+   ],
+   "elixir_before": 8.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (lightning), elixir -6; deploy label 'LigHtNiNg' at (6, 23) (score 1.0)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1117.116,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "electro-spirit",
+   "tile": [
+    2,
+    15
+   ],
+   "elixir_before": 3.57,
+   "elixir_after": 2.57,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'ctrOSpiRit'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1115.114,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "graveyard",
+   "tile": [
+    8,
+    2
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "medium",
+   "detail": "enemy-side track but spawned on own half (miner/barrel/spell?)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1118.2838333333334,
+   "match_clock": null,
+   "player": "own",
+   "card": "tornado",
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (tornado), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1123.122,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    4,
+    8
+   ],
+   "elixir_before": 2.15,
+   "elixir_after": 0.15,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log' on own half",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1118.117,
+   "match_clock": null,
+   "player": "own",
+   "card": "cannon",
+   "tile": [
+    8,
+    11
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'CaNNON' at (8, 11) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1121.9541666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": null,
+   "elixir_before": 3.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (ice-spirit), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1125.124,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    4,
+    2
+   ],
+   "elixir_before": 2.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log' on own half",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1126.125,
+   "match_clock": null,
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_left lost 507 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1121.1200000000001,
+   "match_clock": null,
+   "player": "own",
+   "card": "skeletons",
+   "tile": [
+    5,
+    11
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'SkeletoNs' at (5, 11) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1143.142,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "royal-hogs",
+   "tile": [
+    8,
+    15
+   ],
+   "elixir_before": 6.44,
+   "elixir_after": 1.44,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'Royal Hogs'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1143.4756666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "lightning",
+   "tile": null,
+   "elixir_before": 10.0,
+   "elixir_after": 5.0,
+   "detect_source": "hud",
+   "confidence": "medium",
+   "detail": "slot 1 emptied (lightning) but elixir -5 != cost 6.0",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1155.154,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    3,
+    15
+   ],
+   "elixir_before": 4.72,
+   "elixir_after": 2.72,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1155.4876666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": null,
+   "elixir_before": 8.0,
+   "elixir_after": 7.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (ice-spirit), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1163.8293333333334,
+   "match_clock": null,
+   "player": "own",
+   "card": "royal-delivery",
+   "tile": null,
+   "elixir_before": 9.0,
+   "elixir_after": 6.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (royal-delivery), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1161.16,
+   "match_clock": null,
+   "player": "own",
+   "card": "baby-dragon",
+   "tile": [
+    8,
+    1
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'BabY DRagON' at (8, 1) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1165.164,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "sparky",
+   "tile": [
+    4,
+    20
+   ],
+   "elixir_before": 6.01,
+   "elixir_after": 0.01,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1173.5056666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "royal-delivery",
+   "tile": null,
+   "elixir_before": 9.0,
+   "elixir_after": 6.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (royal-delivery), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1176.175,
+   "match_clock": null,
+   "player": "own",
+   "card": "skeletons",
+   "tile": [
+    9,
+    12
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'SkelONS' on own half, lvl 16 [reattributed to Ryley: card is HUD-confirmed in his deck this game]",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1172.171,
+   "match_clock": null,
+   "player": "own",
+   "card": "cannon",
+   "tile": [
+    9,
+    8
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'CaNNON' at (9, 8) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1180.179,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    15,
+    7
+   ],
+   "elixir_before": 3.66,
+   "elixir_after": 1.66,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log' on own half",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1178.6775,
+   "match_clock": null,
+   "player": "own",
+   "card": "cannon",
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (cannon), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1183.182,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    15,
+    7
+   ],
+   "elixir_before": 2.73,
+   "elixir_after": 0.73,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log' on own half",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1178.1770000000001,
+   "match_clock": null,
+   "player": "own",
+   "card": "mighty-miner",
+   "tile": [
+    15,
+    7
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'MigHtY MiNeI' at (15, 7) (score 0.909); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1185.184,
+   "match_clock": null,
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 507 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1186.185,
+   "match_clock": null,
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 507 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1187.186,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "royal-hogs",
+   "tile": [
+    2,
+    15
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'Royal Hogs'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1190.189,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "royal-hogs",
+   "tile": [
+    3,
+    15
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'RoYal Hogs'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1191.19,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "royal-hogs",
+   "tile": [
+    7,
+    13
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'Royal Hogs' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1193.192,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    4,
+    13
+   ],
+   "elixir_before": 2.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1192.8583333333333,
+   "match_clock": null,
+   "player": "own",
+   "card": "fireball",
+   "tile": null,
+   "elixir_before": 6.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (fireball), elixir -4",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1196.195,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    4,
+    15
+   ],
+   "elixir_before": 2.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1196.195,
+   "match_clock": null,
+   "player": "own",
+   "card": "ice-spirit",
+   "tile": null,
+   "elixir_before": 3.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (ice-spirit), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1211.21,
+   "match_clock": null,
+   "player": "own",
+   "card": "skeletons",
+   "tile": [
+    11,
+    14
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'SkelrtoNs' on own half, lvl 6 [reattributed to Ryley: card is HUD-confirmed in his deck this game]",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1209.7085,
+   "match_clock": null,
+   "player": "own",
+   "card": "fireball",
+   "tile": null,
+   "elixir_before": 7.0,
+   "elixir_after": 3.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (fireball), elixir -4",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1215.214,
+   "match_clock": null,
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 275 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1216.215,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "royal-hogs",
+   "tile": [
+    2,
+    15
+   ],
+   "elixir_before": 6.15,
+   "elixir_after": 1.15,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'Royal Hogs'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1218.217,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    3,
+    15
+   ],
+   "elixir_before": 2.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1216.5486666666666,
+   "match_clock": null,
+   "player": "own",
+   "card": "fireball",
+   "tile": null,
+   "elixir_before": 6.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (fireball), elixir -4",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1221.22,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    3,
+    14
+   ],
+   "elixir_before": 2.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1221.5536666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "rage",
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 3.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (rage), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1232.231,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "electro-spirit",
+   "tile": [
+    2,
+    14
+   ],
+   "elixir_before": 2.93,
+   "elixir_after": 1.93,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'lectRoSpiRit' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1230.7295,
+   "match_clock": null,
+   "player": "own",
+   "card": "rage",
+   "tile": null,
+   "elixir_before": 9.0,
+   "elixir_after": 7.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (rage), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1229.228,
+   "match_clock": null,
+   "player": "own",
+   "card": "cannon",
+   "tile": [
+    12,
+    2
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'CaNNON' at (12, 2) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1236.7355,
+   "match_clock": null,
+   "player": "own",
+   "card": "mighty-miner",
+   "tile": [
+    9,
+    1
+   ],
+   "elixir_before": 9.0,
+   "elixir_after": 5.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (mighty-miner), elixir -4; deploy label 'MigHtY MiNeR' at (9, 1) (score 1.0)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1239.238,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "sparky",
+   "tile": [
+    13,
+    23
+   ],
+   "elixir_before": 6.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1241.24,
+   "match_clock": null,
+   "player": "own",
+   "card": "skeletons",
+   "tile": [
+    15,
+    12
+   ],
+   "elixir_before": 8.0,
+   "elixir_after": 7.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (skeletons), elixir -1; deploy label 'SkeletoNs' at (15, 12) (score 1.0)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1243.5756666666666,
+   "match_clock": null,
+   "player": "own",
+   "card": "royal-delivery",
+   "tile": null,
+   "elixir_before": 8.0,
+   "elixir_after": 5.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (royal-delivery), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1243.242,
+   "match_clock": null,
+   "player": "own",
+   "card": "baby-dragon",
+   "tile": [
+    9,
+    6
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'BabY DRagON' at (9, 6) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1249.248,
+   "match_clock": null,
+   "player": "opponent",
+   "card": null,
+   "tile": null,
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "own_right lost 275 HP with no enemy unit in range: unidentified spell",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1251.7505,
+   "match_clock": null,
+   "player": "own",
+   "card": null,
+   "tile": null,
+   "elixir_before": 9.0,
+   "elixir_after": 7.0,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "elixir dropped by 2 with no readable hand change",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1255.2540000000001,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "royal-hogs",
+   "tile": [
+    2,
+    15
+   ],
+   "elixir_before": 5.01,
+   "elixir_after": 0.01,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'Royal Hogsj'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1256.255,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    3,
+    15
+   ],
+   "elixir_before": 2.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'He Log'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1257.256,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "electro-spirit",
+   "tile": [
+    15,
+    15
+   ],
+   "elixir_before": 1.0,
+   "elixir_after": 0.0,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'ElectRo Spi'",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1251.25,
+   "match_clock": null,
+   "player": "own",
+   "card": "cannon",
+   "tile": [
+    9,
+    8
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'CaNNON' at (9, 8) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1257.256,
+   "match_clock": null,
+   "player": "own",
+   "card": null,
+   "tile": null,
+   "elixir_before": 4.0,
+   "elixir_after": 2.0,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "elixir dropped by 2 with no readable hand change",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1255.5876666666668,
+   "match_clock": null,
+   "player": "own",
+   "card": "baby-dragon",
+   "tile": null,
+   "elixir_before": 8.0,
+   "elixir_after": 4.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (baby-dragon), elixir -4",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1257.256,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "electro-wizard",
+   "tile": [
+    11,
+    18
+   ],
+   "elixir_before": 4.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1261.26,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "barbarians",
+   "tile": [
+    5,
+    21
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1267.266,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "barbarians",
+   "tile": [
+    4,
+    18
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 0.0,
+   "detect_source": "arena",
+   "confidence": "high",
+   "detail": "enemy-side track",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1267.5996666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "zappies",
+   "tile": null,
+   "elixir_before": 8.0,
+   "elixir_after": 4.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (zappies), elixir -4",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1266.265,
+   "match_clock": null,
+   "player": "own",
+   "card": "baby-dragon",
+   "tile": [
+    14,
+    9
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'BabY DRagON' at (14, 9) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1268.267,
+   "match_clock": null,
+   "player": "own",
+   "card": "skeletons",
+   "tile": [
+    12,
+    8
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'SkeletoNs' at (12, 8) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1276.6086666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "royal-delivery",
+   "tile": null,
+   "elixir_before": 9.0,
+   "elixir_after": 6.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 3 emptied (royal-delivery), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1276.275,
+   "match_clock": null,
+   "player": "own",
+   "card": "mighty-miner",
+   "tile": [
+    9,
+    6
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'MigHtY MiNeR' at (9, 6) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1282.1141666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": null,
+   "tile": null,
+   "elixir_before": 9.0,
+   "elixir_after": 7.0,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "elixir dropped by 2 with no readable hand change",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1283.282,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "electro-spirit",
+   "tile": [
+    2,
+    14
+   ],
+   "elixir_before": 5.0,
+   "elixir_after": 4.0,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'CTROSpiRit' on own half, lvl 16",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1284.6166666666668,
+   "match_clock": null,
+   "player": "own",
+   "card": null,
+   "tile": null,
+   "elixir_before": 7.0,
+   "elixir_after": 5.0,
+   "detect_source": "inferred",
+   "confidence": "low",
+   "detail": "elixir dropped by 2 with no readable hand change",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1287.286,
+   "match_clock": null,
+   "player": "own",
+   "card": "royal-delivery",
+   "tile": null,
+   "elixir_before": 6.0,
+   "elixir_after": 3.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 2 emptied (royal-delivery), elixir -3",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1290.289,
+   "match_clock": null,
+   "player": "opponent",
+   "card": "the-log",
+   "tile": [
+    13,
+    12
+   ],
+   "elixir_before": 5.51,
+   "elixir_after": 3.51,
+   "detect_source": "deploy_label",
+   "confidence": "high",
+   "detail": "deploy label 'THe Log' on own half",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1287.7865,
+   "match_clock": null,
+   "player": "own",
+   "card": "skeletons",
+   "tile": [
+    2,
+    14
+   ],
+   "elixir_before": 3.0,
+   "elixir_after": 2.0,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'SkeletoNs' -> skeletons (score 1.0) at (2, 14) explains elixir -1 (hand read disagreed)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1284.2830000000001,
+   "match_clock": null,
+   "player": "own",
+   "card": "cannon",
+   "tile": [
+    7,
+    10
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'CaNNON' at (7, 10) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1286.285,
+   "match_clock": null,
+   "player": "own",
+   "card": "baby-dragon",
+   "tile": [
+    12,
+    1
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'Baby DRagON' at (12, 1) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1290.7895,
+   "match_clock": null,
+   "player": "own",
+   "card": "goblins",
+   "tile": null,
+   "elixir_before": 4.0,
+   "elixir_after": 2.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (goblins), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1295.1271666666667,
+   "match_clock": null,
+   "player": "own",
+   "card": "skeletons",
+   "tile": null,
+   "elixir_before": 5.0,
+   "elixir_after": 4.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (skeletons), elixir -1",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1301.6336666666666,
+   "match_clock": null,
+   "player": "own",
+   "card": "rage",
+   "tile": null,
+   "elixir_before": 7.0,
+   "elixir_after": 5.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 1 emptied (rage), elixir -2",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1304.303,
+   "match_clock": null,
+   "player": "own",
+   "card": "lightning",
+   "tile": null,
+   "elixir_before": 6.0,
+   "elixir_after": 0.0,
+   "detect_source": "hud",
+   "confidence": "high",
+   "detail": "slot 0 emptied (lightning), elixir -6",
+   "type": "play_event"
+  },
+  {
+   "timestamp": 1305.304,
+   "match_clock": null,
+   "player": "own",
+   "card": "electro-spirit",
+   "tile": [
+    12,
+    5
+   ],
+   "elixir_before": null,
+   "elixir_after": null,
+   "detect_source": "deploy_label",
+   "confidence": "medium",
+   "detail": "deploy label 'ElectRo SpiRit' at (12, 5) (score 1.0); no HUD slot change read (hand read missed it)",
+   "type": "play_event"
+  }
+ ],
+ "timeline": [
+  {
+   "t": 1095.3,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 5.36,
+   "hand": [
+    "cannon",
+    "lightning",
+    "baby-dragon",
+    "royal-delivery"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1096.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 5.66,
+   "hand": [
+    "cannon",
+    "lightning",
+    "baby-dragon",
+    "mighty-miner"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1098.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 6.37,
+   "hand": [
+    "bomb-tower",
+    "lightning",
+    "baby-dragon",
+    "mighty-miner"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1100.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 7.09,
+   "hand": [
+    "cannon",
+    "lightning",
+    "baby-dragon",
+    "royal-delivery"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      13,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.7,
+     "pred_2s": [
+      15.9,
+      15.3
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 5.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 2.11,
+     "pred_2s": [
+      1.9,
+      17.9
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 3.6
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      11
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.48,
+     "pred_2s": [
+      0.7,
+      13.2
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 6.6
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1102.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 7.8,
+   "hand": [
+    "cannon",
+    "lightning",
+    "baby-dragon",
+    "fireball"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      15,
+      15
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.66,
+     "pred_2s": [
+      17.0,
+      18.5
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 3.6
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.91,
+     "pred_2s": [
+      1.9,
+      21.4
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 2.1
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      16
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.75,
+     "pred_2s": [
+      1.9,
+      19.7
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 3.1
+     }
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      6,
+      26
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.79,
+     "pred_2s": [
+      5.3,
+      24.7
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 25.9
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1104.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 2.52,
+   "hand": [
+    "cannon",
+    "lightning",
+    "baby-dragon",
+    "goblins"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      16,
+      18
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.66,
+     "pred_2s": [
+      18.8,
+      21.3
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      1,
+      21
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.91,
+     "pred_2s": [
+      0.7,
+      25.0
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.5
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      1,
+      19
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.75,
+     "pred_2s": [
+      0.7,
+      23.0
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.4
+     }
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      24
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.98,
+     "pred_2s": [
+      3.1,
+      23.2
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 19.1
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1106.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 3.23,
+   "hand": [
+    "cannon",
+    "lightning",
+    "baby-dragon",
+    "fireball"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      23
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.78,
+     "pred_2s": [
+      4.2,
+      21.5
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 22.2
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1108.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 0.36,
+   "hand": [
+    "cannon",
+    "ice-spirit",
+    "fireball",
+    "lightning"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      21
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.85,
+     "pred_2s": [
+      4.4,
+      19.6
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 18.3
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      11,
+      19
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.96,
+     "pred_2s": [
+      10.4,
+      20.1
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 3.6
+     }
+    },
+    {
+     "class": "battle-healer",
+     "side": "enemy",
+     "tile": [
+      5,
+      16
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.88,
+     "pred_2s": [
+      2.7,
+      14.1
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 5.8
+     }
+    }
+   ],
+   "threats": [
+    "battle-healer(e) moving left (crossing lanes), tower in 5.8s"
+   ]
+  },
+  {
+   "t": 1110.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 1.07,
+   "hand": [
+    "cannon",
+    "ice-spirit",
+    "baby-dragon",
+    "lightning"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      19
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.85,
+     "pred_2s": [
+      4.3,
+      17.9
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 16.3
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      10,
+      20
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.96,
+     "pred_2s": [
+      8.8,
+      21.2
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 3.8
+     }
+    },
+    {
+     "class": "battle-healer",
+     "side": "enemy",
+     "tile": [
+      2,
+      14
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.88,
+     "pred_2s": [
+      -0.1,
+      11.5
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 4.4
+     }
+    },
+    {
+     "class": "royal-ghost",
+     "side": "ally",
+     "tile": [
+      9,
+      21
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.25,
+     "pred_2s": [
+      9.2,
+      21.9
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_king",
+      "s": 13.1
+     }
+    }
+   ],
+   "threats": [
+    "battle-healer(e) moving left (crossing lanes), tower in 4.4s"
+   ]
+  },
+  {
+   "t": 1112.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 1.79,
+   "hand": [
+    "hog-rider",
+    "executioner",
+    "baby-dragon",
+    "goblins"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.86,
+     "pred_2s": [
+      3.8,
+      16.1
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 13.9
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      12,
+      18
+     ],
+     "heading": "stationary",
+     "speed": 0.08,
+     "pred_2s": [
+      12.6,
+      18.4
+     ],
+     "pos_std": 0.6,
+     "eta_tower": null
+    },
+    {
+     "class": "royal-ghost",
+     "side": "ally",
+     "tile": [
+      9,
+      21
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.25,
+     "pred_2s": [
+      9.0,
+      22.4
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "enemy_king",
+      "s": 11.3
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1114.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 2.5,
+   "hand": [
+    "hog-rider",
+    "lightning",
+    "baby-dragon",
+    "goblins"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      16
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.78,
+     "pred_2s": [
+      4.0,
+      14.8
+     ],
+     "pos_std": 0.61,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 13.5
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      12,
+      18
+     ],
+     "heading": "stationary",
+     "speed": 0.08,
+     "pred_2s": [
+      12.7,
+      18.2
+     ],
+     "pos_std": 1.59,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1116.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 3.22,
+   "hand": [
+    "bomb-tower",
+    "lightning",
+    "baby-dragon",
+    "goblins"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.89,
+     "pred_2s": [
+      4.3,
+      12.7
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 9.7
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    },
+    {
+     "class": "graveyard",
+     "side": "enemy",
+     "tile": [
+      8,
+      2
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.6,
+      2.7
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1118.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 0.36,
+   "hand": [
+    "bomb-tower",
+    "skeletons",
+    "baby-dragon",
+    "royal-delivery"
+   ],
+   "next": "skeletons",
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.84,
+     "pred_2s": [
+      3.4,
+      11.2
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 8.4
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    },
+    {
+     "class": "graveyard",
+     "side": "enemy",
+     "tile": [
+      8,
+      2
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.6,
+      2.7
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1120.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 1.07,
+   "hand": [
+    "skeletons",
+    "ice-spirit",
+    "fireball",
+    "baby-dragon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4858,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      11
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.62,
+     "pred_2s": [
+      3.9,
+      10.6
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 9.7
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.3
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1122.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 1.79,
+   "hand": [
+    "bomb-tower",
+    "skeletons",
+    "fireball",
+    "baby-dragon"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4781,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      10
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.62,
+     "pred_2s": [
+      3.9,
+      9.4
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 7.7
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.4
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    }
+   ],
+   "threats": [
+    "sparky(e) advancing left lane, tower in 7.7s"
+   ]
+  },
+  {
+   "t": 1124.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 0.5,
+   "hand": [
+    "royal-giant",
+    "ice-spirit",
+    "baby-dragon",
+    "royal-delivery"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4781,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.4
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1126.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 0.36,
+   "hand": [
+    "mighty-miner",
+    "executioner",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.6
+     ],
+     "pos_std": 0.17,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1128.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 1.07,
+   "hand": [
+    "mighty-miner",
+    "ice-spirit",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.6
+     ],
+     "pos_std": 0.17,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1130.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 1.79,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.83,
+     "pred_2s": [
+      2.9,
+      18.5
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 3.8
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1132.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 2.5,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      2,
+      18
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.83,
+     "pred_2s": [
+      2.2,
+      22.1
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.8
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      16
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.7,
+     "pred_2s": [
+      3.3,
+      19.5
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 3.3
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1134.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 3.22,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      19
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.83,
+     "pred_2s": [
+      3.4,
+      23.6
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1136.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 3.93,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      23
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.83,
+     "pred_2s": [
+      3.3,
+      27.3
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1138.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 4.65,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1140.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 5.36,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1142.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 6.08,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1144.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 1.79,
+   "hand": [
+    "mighty-miner",
+    "ice-spirit",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1146.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 2.51,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1148.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 3.22,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4435,
+    "right": 4858
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1150.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 3.94,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4199,
+    "right": 4740
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      12,
+      17
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.19,
+     "pred_2s": [
+      14.1,
+      15.6
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 10.0
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      5,
+      19
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.14,
+     "pred_2s": [
+      3.6,
+      18.1
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 12.4
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1152.2,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 4.65,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 4081,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      14,
+      15
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.19,
+     "pred_2s": [
+      15.2,
+      13.5
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 8.2
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      3,
+      18
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.14,
+     "pred_2s": [
+      2.1,
+      16.4
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 10.8
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      13,
+      21
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.44,
+     "pred_2s": [
+      14.5,
+      21.0
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 34.9
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      4,
+      22
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.35,
+     "pred_2s": [
+      4.0,
+      25.5
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      2,
+      23
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.51,
+     "pred_2s": [
+      1.8,
+      26.2
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1154.2,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 4.37,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3963,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      16,
+      19
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.9,
+     "pred_2s": [
+      18.2,
+      20.1
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 15.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      1,
+      18
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.02,
+     "pred_2s": [
+      -0.9,
+      18.4
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 13.1
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      14,
+      20
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.41,
+     "pred_2s": [
+      14.7,
+      19.8
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 35.7
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      4,
+      21
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.18,
+     "pred_2s": [
+      4.6,
+      21.3
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 2.6
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      4,
+      25
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.35,
+     "pred_2s": [
+      3.9,
+      28.2
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.6
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      0,
+      21
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.65,
+     "pred_2s": [
+      -0.3,
+      22.1
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 2.1
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      13,
+      17
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.98,
+     "pred_2s": [
+      12.4,
+      16.2
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 12.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      4,
+      19
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.1,
+     "pred_2s": [
+      4.8,
+      17.3
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 12.5
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      2,
+      22
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.97,
+     "pred_2s": [
+      2.8,
+      24.4
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1156.2,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 3.08,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "royal-delivery"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 5969,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      17,
+      20
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.9,
+     "pred_2s": [
+      19.9,
+      20.7
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 16.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      0,
+      18
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.02,
+     "pred_2s": [
+      -2.9,
+      17.9
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 13.0
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      14,
+      19
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.41,
+     "pred_2s": [
+      15.3,
+      19.3
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 34.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      2,
+      19
+     ],
+     "heading": "retreating",
+     "speed": 0.85,
+     "pred_2s": [
+      1.3,
+      18.3
+     ],
+     "pos_std": 0.61,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 2.8
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      0,
+      22
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.65,
+     "pred_2s": [
+      -1.6,
+      22.4
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 3.8
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      12,
+      16
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.98,
+     "pred_2s": [
+      11.3,
+      14.5
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 10.7
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      2,
+      19
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.76,
+     "pred_2s": [
+      1.3,
+      18.5
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 17.9
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      2,
+      24
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.97,
+     "pred_2s": [
+      2.8,
+      26.3
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      2,
+      16
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.47,
+     "pred_2s": [
+      1.7,
+      13.7
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 7.3
+     }
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing left lane, tower in 7.3s"
+   ]
+  },
+  {
+   "t": 1158.2,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 2.8,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "fireball"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 5969,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      1,
+      18
+     ],
+     "heading": "retreating",
+     "speed": 0.85,
+     "pred_2s": [
+      0.2,
+      17.0
+     ],
+     "pos_std": 1.55,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 4.7
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      15,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.67,
+     "pred_2s": [
+      16.1,
+      7.7
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.1
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      1,
+      18
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.76,
+     "pred_2s": [
+      0.1,
+      17.7
+     ],
+     "pos_std": 1.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 17.0
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      1,
+      13
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.47,
+     "pred_2s": [
+      1.1,
+      10.8
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 5.5
+     }
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      3,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.56,
+     "pred_2s": [
+      4.1,
+      18.9
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 7.0
+     }
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing right lane, tower in 3.1s",
+    "skeleton(e) advancing left lane, tower in 5.5s"
+   ]
+  },
+  {
+   "t": 1160.2,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 3.51,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "goblins"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      16,
+      7
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.67,
+     "pred_2s": [
+      16.8,
+      4.4
+     ],
+     "pos_std": 1.59,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.3
+     }
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      4,
+      18
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.56,
+     "pred_2s": [
+      4.6,
+      19.8
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 5.3
+     }
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing right lane, tower in 1.3s"
+   ]
+  },
+  {
+   "t": 1162.2,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 4.23,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "royal-delivery",
+    "goblins"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      24
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.05,
+     "pred_2s": [
+      3.3,
+      22.6
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 17.6
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1164.2,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 4.94,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "royal-delivery",
+    "goblins"
+   ],
+   "next": "skeletons",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      22
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.05,
+     "pred_2s": [
+      2.0,
+      20.9
+     ],
+     "pos_std": 1.58,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 15.9
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1166.2,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 5.66,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "cannon",
+    "goblins"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      21
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.79,
+     "pred_2s": [
+      4.2,
+      19.6
+     ],
+     "pos_std": 0.6,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 19.6
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      10,
+      0
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.61,
+     "pred_2s": [
+      11.7,
+      1.5
+     ],
+     "pos_std": 0.62,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 34.7
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1168.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 0.31,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "cannon",
+    "goblins"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      19
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.86,
+     "pred_2s": [
+      4.0,
+      17.8
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 15.9
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      11,
+      1
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.61,
+     "pred_2s": [
+      12.7,
+      2.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 33.7
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1170.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 1.03,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "cannon",
+    "goblins"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.97,
+     "pred_2s": [
+      4.0,
+      15.5
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 12.1
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1172.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 1.74,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "cannon",
+    "goblins"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      15
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.9,
+     "pred_2s": [
+      4.2,
+      13.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 11.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1174.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 2.46,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "royal-delivery",
+    "lightning"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      4,
+      13
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.9,
+     "pred_2s": [
+      4.2,
+      12.1
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 9.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1176.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 3.17,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "royal-delivery",
+    "royal-delivery"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.86,
+     "pred_2s": [
+      3.9,
+      10.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 7.5
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      14,
+      9
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.35,
+     "pred_2s": [
+      14.7,
+      7.3
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.1
+     }
+    }
+   ],
+   "threats": [
+    "sparky(e) advancing left lane, tower in 7.5s",
+    "barbarian(e) advancing right lane, tower in 3.1s"
+   ]
+  },
+  {
+   "t": 1178.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 2.89,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "baby-dragon",
+    "lightning"
+   ],
+   "next": "baby-dragon",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      11
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.64,
+     "pred_2s": [
+      3.6,
+      10.0
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 8.5
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      14,
+      7
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.35,
+     "pred_2s": [
+      14.7,
+      4.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.1
+     }
+    },
+    {
+     "class": "cannon-cart",
+     "side": "ally",
+     "tile": [
+      14,
+      11
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.62,
+     "pred_2s": [
+      17.1,
+      16.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 3.9
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      14,
+      10
+     ],
+     "heading": "retreating",
+     "speed": 0.96,
+     "pred_2s": [
+      14.3,
+      8.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 11.9
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.0
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      14,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.59,
+     "pred_2s": [
+      15.1,
+      14.4
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 14.3
+     }
+    }
+   ],
+   "threats": [
+    "barbarian(e) advancing right lane, tower in 1.1s"
+   ]
+  },
+  {
+   "t": 1180.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 3.6,
+   "hand": [
+    "ice-spirit",
+    "ice-spirit",
+    "royal-delivery",
+    "fireball"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 274,
+    "right": 4858
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      9
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.64,
+     "pred_2s": [
+      3.4,
+      8.7
+     ],
+     "pos_std": 1.46,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 6.6
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      14,
+      7
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.65,
+     "pred_2s": [
+      14.6,
+      6.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 2.8
+     }
+    },
+    {
+     "class": "cannon-cart",
+     "side": "ally",
+     "tile": [
+      17,
+      16
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.62,
+     "pred_2s": [
+      19.2,
+      21.1
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.3
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      14,
+      8
+     ],
+     "heading": "retreating",
+     "speed": 0.9,
+     "pred_2s": [
+      13.8,
+      7.0
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 14.4
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.0
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    },
+    {
+     "class": "hog-rider",
+     "side": "enemy",
+     "tile": [
+      15,
+      7
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.67,
+     "pred_2s": [
+      15.0,
+      4.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 1.0
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      15,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.59,
+     "pred_2s": [
+      15.6,
+      15.5
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 12.5
+     }
+    }
+   ],
+   "threats": [
+    "sparky(e) advancing left lane, tower in 6.6s",
+    "barbarian(e) advancing right lane, tower in 2.8s",
+    "hog-rider(e) advancing right lane, tower in 1.0s"
+   ]
+  },
+  {
+   "t": 1182.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 2.32,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "lightning",
+    "fireball"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 4351
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      14,
+      6
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.65,
+     "pred_2s": [
+      14.5,
+      5.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 0.8
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      14,
+      6
+     ],
+     "heading": "retreating",
+     "speed": 0.97,
+     "pred_2s": [
+      14.3,
+      4.8
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 15.6
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.0
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    },
+    {
+     "class": "hog-rider",
+     "side": "enemy",
+     "tile": [
+      14,
+      4
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.67,
+     "pred_2s": [
+      14.8,
+      0.7
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 0.0
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      9,
+      8
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.14,
+     "pred_2s": [
+      8.2,
+      7.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 4.4
+     }
+    }
+   ],
+   "threats": [
+    "barbarian(e) advancing right lane, tower in 0.8s",
+    "hog-rider(e) advancing right lane, tower in 0.0s",
+    "barbarian(e) moving left (crossing lanes), tower in 4.4s"
+   ]
+  },
+  {
+   "t": 1184.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 1.03,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "royal-delivery",
+    "fireball"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 3767
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      14,
+      4
+     ],
+     "heading": "retreating",
+     "speed": 0.97,
+     "pred_2s": [
+      14.3,
+      2.9
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 17.6
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.0
+     ],
+     "pos_std": 0.16,
+     "eta_tower": null
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.14,
+     "pred_2s": [
+      6.6,
+      5.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 3.5
+     }
+    }
+   ],
+   "threats": [
+    "barbarian(e) moving left (crossing lanes), tower in 3.5s"
+   ]
+  },
+  {
+   "t": 1186.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 1.75,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "baby-dragon",
+    "vines"
+   ],
+   "next": "mighty-miner",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 3260
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3907,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      15,
+      5
+     ],
+     "heading": "retreating",
+     "speed": 0.53,
+     "pred_2s": [
+      16.0,
+      4.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 31.7
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.0
+     ],
+     "pos_std": 0.15,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1188.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "baby-dragon",
+    "royal-delivery"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3638,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      15,
+      4
+     ],
+     "heading": "retreating",
+     "speed": 0.53,
+     "pred_2s": [
+      16.5,
+      3.2
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 33.5
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1190.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 1.01,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "baby-dragon",
+    "royal-delivery"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3369,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      0,
+      14
+     ],
+     "heading": "stationary",
+     "speed": 0.06,
+     "pred_2s": [
+      0.7,
+      14.4
+     ],
+     "pos_std": 0.56,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1192.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "baby-dragon",
+    "royal-delivery"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2831,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      0,
+      14
+     ],
+     "heading": "stationary",
+     "speed": 0.06,
+     "pred_2s": [
+      0.6,
+      14.5
+     ],
+     "pos_std": 1.49,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1194.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "fireball",
+    "rage",
+    "royal-delivery",
+    "cannon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2562,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1196.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 1.01,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "royal-delivery",
+    "cannon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2562,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      4,
+      12
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.42,
+     "pred_2s": [
+      3.3,
+      12.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 22.6
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      14,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.86,
+     "pred_2s": [
+      15.1,
+      14.0
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 11.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1198.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 0.66,
+   "hand": [
+    "fireball",
+    "ice-spirit",
+    "fireball",
+    "cannon"
+   ],
+   "next": "royal-chef",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2562,
+    "right": 4504
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      4,
+      13
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.35,
+     "pred_2s": [
+      4.1,
+      14.2
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 23.8
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      15,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.86,
+     "pred_2s": [
+      15.3,
+      15.7
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 9.1
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1200.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 1.37,
+   "hand": [
+    "fireball",
+    "ice-spirit",
+    "fireball",
+    "cannon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2444,
+    "right": 4386
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      4,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.35,
+     "pred_2s": [
+      4.0,
+      14.9
+     ],
+     "pos_std": 1.46,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 21.8
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      14,
+      18
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.58,
+     "pred_2s": [
+      14.3,
+      22.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 1.9
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      22
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.4,
+     "pred_2s": [
+      2.5,
+      25.1
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      3,
+      23
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.6,
+     "pred_2s": [
+      3.7,
+      24.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      3,
+      21
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.82,
+     "pred_2s": [
+      2.1,
+      22.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.4
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1202.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 2.09,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "fireball",
+    "cannon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2270,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      16,
+      23
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.26,
+     "pred_2s": [
+      18.6,
+      27.8
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 0.4
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      2,
+      25
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.4,
+     "pred_2s": [
+      1.2,
+      27.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.4
+     }
+    },
+    {
+     "class": "musketeer",
+     "side": "ally",
+     "tile": [
+      15,
+      19
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.59,
+     "pred_2s": [
+      16.6,
+      20.5
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 3.7
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      3,
+      24
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.6,
+     "pred_2s": [
+      4.3,
+      25.3
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      2,
+      22
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.82,
+     "pred_2s": [
+      0.7,
+      23.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.3
+     }
+    },
+    {
+     "class": "musketeer",
+     "side": "ally",
+     "tile": [
+      3,
+      21
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.56,
+     "pred_2s": [
+      4.9,
+      22.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.3
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1204.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 2.8,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "fireball",
+    "cannon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      17,
+      27
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.26,
+     "pred_2s": [
+      20.2,
+      32.0
+     ],
+     "pos_std": 1.46,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.0
+     }
+    },
+    {
+     "class": "musketeer",
+     "side": "ally",
+     "tile": [
+      16,
+      20
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.59,
+     "pred_2s": [
+      17.5,
+      21.2
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 3.4
+     }
+    },
+    {
+     "class": "musketeer",
+     "side": "ally",
+     "tile": [
+      4,
+      22
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.56,
+     "pred_2s": [
+      5.9,
+      22.5
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.6
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1206.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 3.52,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "fireball",
+    "cannon"
+   ],
+   "next": "royal-chef",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.5,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "musketeer",
+     "side": "ally",
+     "tile": [
+      14,
+      23
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.8,
+     "pred_2s": [
+      14.5,
+      24.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 0.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1208.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 4.23,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "fireball",
+    "cannon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "musketeer",
+     "side": "ally",
+     "tile": [
+      14,
+      24
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.8,
+     "pred_2s": [
+      14.2,
+      26.2
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 0.0
+     }
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      15,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.79,
+     "pred_2s": [
+      15.2,
+      11.4
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 5.1
+     }
+    }
+   ],
+   "threats": [
+    "electro-wizard(e) advancing right lane, tower in 5.1s"
+   ]
+  },
+  {
+   "t": 1210.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 4.95,
+   "hand": [
+    "skeletons",
+    "rage",
+    "royal-delivery",
+    "cannon"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      15,
+      11
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.79,
+     "pred_2s": [
+      15.1,
+      7.8
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.1
+     }
+    }
+   ],
+   "threats": [
+    "electro-wizard(e) advancing right lane, tower in 3.1s"
+   ]
+  },
+  {
+   "t": 1212.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 4.66,
+   "hand": [
+    "barbarian-barrel",
+    "rage",
+    "mighty-miner",
+    "cannon"
+   ],
+   "next": "ice-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "electro-wizard",
+     "side": "ally",
+     "tile": [
+      10,
+      14
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.26,
+     "pred_2s": [
+      8.3,
+      14.9
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 6.6
+     }
+    },
+    {
+     "class": "goblin",
+     "side": "ally",
+     "tile": [
+      17,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.86,
+     "pred_2s": [
+      17.0,
+      14.5
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 10.8
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      15,
+      14
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 1.08,
+     "pred_2s": [
+      17.7,
+      16.0
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 6.6
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1214.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 5.38,
+   "hand": [
+    "mighty-miner",
+    "lightning",
+    "mighty-miner",
+    "cannon"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2753
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "royal-ghost",
+     "side": "ally",
+     "tile": [
+      13,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.32,
+     "pred_2s": [
+      11.7,
+      15.4
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 6.3
+     }
+    },
+    {
+     "class": "electro-wizard",
+     "side": "ally",
+     "tile": [
+      8,
+      14
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.26,
+     "pred_2s": [
+      5.9,
+      15.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 6.5
+     }
+    },
+    {
+     "class": "goblin",
+     "side": "ally",
+     "tile": [
+      17,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.86,
+     "pred_2s": [
+      16.8,
+      16.3
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 8.8
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      17,
+      16
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 1.08,
+     "pred_2s": [
+      19.5,
+      17.3
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 5.9
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1216.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 6.09,
+   "hand": [
+    "royal-ghost",
+    "lightning",
+    "mighty-miner",
+    "cannon"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "royal-ghost",
+     "side": "ally",
+     "tile": [
+      11,
+      11
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.96,
+     "pred_2s": [
+      10.2,
+      10.4
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 11.2
+     }
+    },
+    {
+     "class": "goblin",
+     "side": "ally",
+     "tile": [
+      17,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.16,
+     "pred_2s": [
+      17.9,
+      13.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 56.8
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1218.0,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 1.81,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "skeletons",
+    "cannon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "royal-ghost",
+     "side": "ally",
+     "tile": [
+      10,
+      10
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.96,
+     "pred_2s": [
+      8.5,
+      9.5
+     ],
+     "pos_std": 1.46,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 12.6
+     }
+    },
+    {
+     "class": "goblin",
+     "side": "ally",
+     "tile": [
+      17,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.16,
+     "pred_2s": [
+      18.2,
+      13.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 55.8
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1220.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 0.66,
+   "hand": [
+    "ice-spirit",
+    "rage",
+    "mighty-miner",
+    "cannon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "goblin",
+     "side": "ally",
+     "tile": [
+      17,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.17,
+     "pred_2s": [
+      17.2,
+      14.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 50.4
+     }
+    },
+    {
+     "class": "archer-queen",
+     "side": "ally",
+     "tile": [
+      15,
+      8
+     ],
+     "heading": "retreating",
+     "speed": 0.58,
+     "pred_2s": [
+      16.0,
+      7.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 22.5
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1222.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "wizard",
+    "rage",
+    "mighty-miner",
+    "cannon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 2034,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "goblin",
+     "side": "ally",
+     "tile": [
+      17,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.17,
+     "pred_2s": [
+      17.1,
+      14.3
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 48.5
+     }
+    },
+    {
+     "class": "archer-queen",
+     "side": "ally",
+     "tile": [
+      15,
+      7
+     ],
+     "heading": "retreating",
+     "speed": 0.58,
+     "pred_2s": [
+      16.7,
+      7.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 24.0
+     }
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      3.6,
+      12.5
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    },
+    {
+     "class": "ram-rider",
+     "side": "ally",
+     "tile": [
+      1,
+      20
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.98,
+     "pred_2s": [
+      0.9,
+      22.0
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 2.1
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1224.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 1.01,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "cannon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1729,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      3.6,
+      12.5
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    },
+    {
+     "class": "ram-rider",
+     "side": "ally",
+     "tile": [
+      1,
+      20
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.46,
+     "pred_2s": [
+      0.5,
+      21.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 4.9
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      5,
+      22
+     ],
+     "heading": "retreating",
+     "speed": 0.17,
+     "pred_2s": [
+      5.4,
+      22.7
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 100.5
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      0,
+      20
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.42,
+     "pred_2s": [
+      0.5,
+      17.3
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 10.2
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      5,
+      22
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.28,
+     "pred_2s": [
+      6.2,
+      22.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 3.4
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      1,
+      23
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.39,
+     "pred_2s": [
+      1.1,
+      24.0
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.1
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1226.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 0.73,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "cannon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 1319,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "ram-rider",
+     "side": "ally",
+     "tile": [
+      0,
+      20
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.46,
+     "pred_2s": [
+      -0.1,
+      21.6
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 4.9
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      5,
+      22
+     ],
+     "heading": "retreating",
+     "speed": 0.17,
+     "pred_2s": [
+      5.3,
+      23.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 102.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      0,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.42,
+     "pred_2s": [
+      0.2,
+      14.4
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 8.3
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      6,
+      22
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.28,
+     "pred_2s": [
+      6.7,
+      22.3
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 4.9
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      1,
+      23
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.39,
+     "pred_2s": [
+      0.6,
+      24.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 2.5
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      4,
+      21
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.68,
+     "pred_2s": [
+      5.2,
+      22.7
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1228.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 1.44,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "royal-delivery"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3801,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "bomber-evolution",
+     "side": "ally",
+     "tile": [
+      2,
+      21
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.7,
+     "pred_2s": [
+      1.2,
+      20.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.0
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      5,
+      22
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.68,
+     "pred_2s": [
+      5.8,
+      23.9
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.5
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1230.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 2.16,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "cannon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 5801,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "bomber-evolution",
+     "side": "ally",
+     "tile": [
+      1,
+      20
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.7,
+     "pred_2s": [
+      -0.1,
+      20.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 2.6
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1232.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 2.87,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "royal-delivery"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 5801,
+    "right": 4268
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1234.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 2.59,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "skeletons"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 5801,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1236.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 3.3,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "skeletons"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 5801,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1238.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 4.02,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "lightning",
+    "skeletons"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 3801,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1240.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 4.73,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "lightning",
+    "skeletons"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.16,
+     "eta_tower": null
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      24
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.97,
+     "pred_2s": [
+      14.5,
+      22.8
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 19.2
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      10,
+      0
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.53,
+     "pred_2s": [
+      11.1,
+      -1.0
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 42.7
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1242.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    null,
+    "lightning",
+    "lightning",
+    "royal-delivery"
+   ],
+   "next": "executioner",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.15,
+     "eta_tower": null
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      23
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.71,
+     "pred_2s": [
+      13.6,
+      21.7
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 24.4
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      12,
+      1
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 1.03,
+     "pred_2s": [
+      13.6,
+      3.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 19.4
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1244.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 1.01,
+   "hand": [
+    "zappies",
+    "lightning",
+    "lightning",
+    "baby-dragon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      20
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.93,
+     "pred_2s": [
+      13.8,
+      19.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 16.3
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      13,
+      3
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.19,
+     "pred_2s": [
+      15.2,
+      5.7
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 15.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1246.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 1.73,
+   "hand": [
+    "cannon",
+    "lightning",
+    "lightning",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      19
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.83,
+     "pred_2s": [
+      14.1,
+      17.8
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 16.4
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      12,
+      6
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.05,
+     "pred_2s": [
+      12.9,
+      8.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 15.0
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      10,
+      12
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.39,
+     "pred_2s": [
+      8.0,
+      13.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 7.4
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1248.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 2.44,
+   "hand": [
+    "cannon",
+    "lightning",
+    "lightning",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2478
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      17
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.9,
+     "pred_2s": [
+      13.9,
+      15.8
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 13.0
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      13,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.29,
+     "pred_2s": [
+      13.1,
+      16.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 4.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      7,
+      13
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.39,
+     "pred_2s": [
+      5.4,
+      14.1
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 6.9
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      12,
+      11
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.49,
+     "pred_2s": [
+      11.8,
+      11.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 21.0
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      12,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.3,
+     "pred_2s": [
+      11.8,
+      16.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 6.5
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1250.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 9,
+   "opp_elixir_est": 3.16,
+   "hand": [
+    "cannon",
+    "lightning",
+    "lightning",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      17
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.27,
+     "pred_2s": [
+      13.8,
+      17.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 44.4
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      13,
+      16
+     ],
+     "heading": "advancing right lane",
+     "speed": 2.29,
+     "pred_2s": [
+      13.2,
+      21.2
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      11,
+      11
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.49,
+     "pred_2s": [
+      10.9,
+      10.8
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 22.2
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      11,
+      16
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.3,
+     "pred_2s": [
+      11.6,
+      18.8
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 4.7
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1252.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 3.87,
+   "hand": [
+    "royal-ghost",
+    "lightning",
+    "lightning",
+    "baby-dragon"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      8,
+      7
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      8.4,
+      7.9
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      16
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.57,
+     "pred_2s": [
+      13.7,
+      15.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 18.2
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1254.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 4.59,
+   "hand": [
+    "lightning",
+    "lightning",
+    "lightning",
+    "baby-dragon"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      15
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.57,
+     "pred_2s": [
+      13.7,
+      13.9
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 16.2
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      4,
+      11
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.87,
+     "pred_2s": [
+      3.9,
+      13.7
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 11.4
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      6.8
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1256.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "lightning",
+    "rage",
+    "mighty-miner",
+    "royal-delivery"
+   ],
+   "next": "skeletons",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      14,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.56,
+     "pred_2s": [
+      14.2,
+      12.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 14.8
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      3,
+      13
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.66,
+     "pred_2s": [
+      3.6,
+      14.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 13.4
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      6.9
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1258.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "zappies",
+    "rage",
+    "skeletons",
+    "skeletons"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      14,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.56,
+     "pred_2s": [
+      14.3,
+      11.8
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 12.8
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      3,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.66,
+     "pred_2s": [
+      3.3,
+      15.6
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 11.4
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      6.9
+     ],
+     "pos_std": 0.18,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      11,
+      18
+     ],
+     "heading": "stationary",
+     "speed": 0.09,
+     "pred_2s": [
+      11.7,
+      18.3
+     ],
+     "pos_std": 0.56,
+     "eta_tower": null
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      3.4,
+      12.7
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1260.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "mighty-miner",
+    "skeletons"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 924,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.39,
+     "pred_2s": [
+      13.1,
+      11.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 17.6
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      3,
+      15
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.57,
+     "pred_2s": [
+      3.2,
+      16.4
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 11.5
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      6.9
+     ],
+     "pos_std": 0.16,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      11,
+      18
+     ],
+     "heading": "stationary",
+     "speed": 0.11,
+     "pred_2s": [
+      11.5,
+      19.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 124.9
+     }
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      3.4,
+      12.7
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      3,
+      24
+     ],
+     "heading": "advancing left lane",
+     "speed": 2.61,
+     "pred_2s": [
+      4.3,
+      29.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1262.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 1.01,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "skeletons"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 868,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      13,
+      11
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.39,
+     "pred_2s": [
+      12.8,
+      11.1
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 15.8
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      3,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.89,
+     "pred_2s": [
+      3.2,
+      19.1
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 5.0
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      6.9
+     ],
+     "pos_std": 0.15,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      11,
+      19
+     ],
+     "heading": "stationary",
+     "speed": 0.1,
+     "pred_2s": [
+      11.8,
+      19.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 129.7
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      4,
+      29
+     ],
+     "heading": "advancing left lane",
+     "speed": 2.61,
+     "pred_2s": [
+      4.8,
+      34.5
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_king",
+      "s": 1.6
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      6,
+      21
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.67,
+     "pred_2s": [
+      7.2,
+      21.7
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 23.3
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1264.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "baby-dragon",
+    "tornado",
+    "goblin-hut",
+    "goblin-hut"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 868,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      3,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.48,
+     "pred_2s": [
+      3.4,
+      18.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 8.1
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      6.9
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      12,
+      18
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.45,
+     "pred_2s": [
+      13.8,
+      18.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 28.1
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      5,
+      21
+     ],
+     "heading": "retreating",
+     "speed": 0.33,
+     "pred_2s": [
+      6.4,
+      22.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 49.0
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      2,
+      18
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.61,
+     "pred_2s": [
+      2.5,
+      17.5
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 21.1
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1266.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 1.01,
+   "hand": [
+    "baby-dragon",
+    "lightning",
+    "mighty-miner",
+    "skeletons"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 868,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      3,
+      18
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.48,
+     "pred_2s": [
+      3.4,
+      19.8
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 6.1
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      6.9
+     ],
+     "pos_std": 0.14,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      13,
+      18
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.45,
+     "pred_2s": [
+      14.6,
+      17.7
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 27.2
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      6,
+      22
+     ],
+     "heading": "retreating",
+     "speed": 0.52,
+     "pred_2s": [
+      7.2,
+      23.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 33.3
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      1,
+      20
+     ],
+     "heading": "retreating",
+     "speed": 0.61,
+     "pred_2s": [
+      0.8,
+      21.7
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 24.8
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1268.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 1.73,
+   "hand": [
+    "zappies",
+    "lightning",
+    "mighty-miner",
+    "skeletons"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 868,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      6.9
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      14,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.89,
+     "pred_2s": [
+      14.8,
+      13.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 10.2
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      4,
+      20
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.8,
+     "pred_2s": [
+      3.5,
+      19.5
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 18.5
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      4,
+      19
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.77,
+     "pred_2s": [
+      5.5,
+      19.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 17.7
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      2,
+      19
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.01,
+     "pred_2s": [
+      3.0,
+      17.6
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 13.8
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1270.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 0.3,
+   "hand": [
+    "cannon",
+    "lightning",
+    "mighty-miner",
+    "skeletons"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 868,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.13,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      14,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.17,
+     "pred_2s": [
+      15.0,
+      10.0
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 5.5
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      3,
+      19
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.8,
+     "pred_2s": [
+      2.4,
+      18.3
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 17.0
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      4,
+      18
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.72,
+     "pred_2s": [
+      5.8,
+      17.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 17.1
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      2,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.2,
+     "pred_2s": [
+      2.8,
+      14.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 9.4
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      2,
+      15
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.03,
+     "pred_2s": [
+      3.2,
+      13.3
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 9.3
+     }
+    }
+   ],
+   "threats": [
+    "electro-wizard(e) advancing right lane, tower in 5.5s"
+   ]
+  },
+  {
+   "t": 1272.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 1.01,
+   "hand": [
+    "cannon",
+    "lightning",
+    "mighty-miner",
+    "skeletons"
+   ],
+   "next": "lightning",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 514,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "electro-wizard",
+     "side": "enemy",
+     "tile": [
+      14,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.17,
+     "pred_2s": [
+      15.4,
+      7.7
+     ],
+     "pos_std": 1.46,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.6
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      5,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.72,
+     "pred_2s": [
+      6.7,
+      16.0
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 15.8
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      2,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.19,
+     "pred_2s": [
+      3.2,
+      12.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 7.5
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      3,
+      13
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.14,
+     "pred_2s": [
+      3.5,
+      10.8
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 6.4
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      4,
+      15
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.46,
+     "pred_2s": [
+      4.8,
+      14.7
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 20.9
+     }
+    }
+   ],
+   "threats": [
+    "electro-wizard(e) advancing right lane, tower in 3.6s",
+    "barbarian(e) advancing left lane, tower in 7.5s",
+    "barbarian(e) advancing left lane, tower in 6.4s"
+   ]
+  },
+  {
+   "t": 1274.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 1.73,
+   "hand": [
+    "cannon",
+    "lightning",
+    "mighty-miner",
+    "lightning"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 514,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.19,
+     "pred_2s": [
+      3.4,
+      9.9
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 5.5
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      3,
+      11
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.02,
+     "pred_2s": [
+      4.4,
+      9.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 5.3
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      4,
+      14
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.46,
+     "pred_2s": [
+      5.3,
+      14.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 19.4
+     }
+    }
+   ],
+   "threats": [
+    "barbarian(e) advancing left lane, tower in 5.5s",
+    "barbarian(e) advancing left lane, tower in 5.3s"
+   ]
+  },
+  {
+   "t": 1276.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 2.44,
+   "hand": [
+    "cannon",
+    "lightning",
+    "mighty-miner",
+    "lightning"
+   ],
+   "next": "goblin-hut",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 514,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      3,
+      9
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.19,
+     "pred_2s": [
+      3.9,
+      7.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 3.5
+     }
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      4,
+      9
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.02,
+     "pred_2s": [
+      5.0,
+      7.3
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 3.5
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      12,
+      11
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.99,
+     "pred_2s": [
+      14.2,
+      12.7
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 10.6
+     }
+    }
+   ],
+   "threats": [
+    "barbarian(e) advancing left lane, tower in 3.5s",
+    "barbarian(e) advancing left lane, tower in 3.5s"
+   ]
+  },
+  {
+   "t": 1278.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 3.16,
+   "hand": [
+    "cannon",
+    "lightning",
+    "baby-dragon",
+    "lightning"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 514,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "barbarian",
+     "side": "enemy",
+     "tile": [
+      3,
+      7
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.19,
+     "pred_2s": [
+      4.1,
+      5.2
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 1.5
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      5,
+      10
+     ],
+     "heading": "retreating",
+     "speed": 0.89,
+     "pred_2s": [
+      7.0,
+      9.5
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 12.5
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      14,
+      14
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.59,
+     "pred_2s": [
+      16.5,
+      17.3
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 4.5
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      13,
+      16
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.09,
+     "pred_2s": [
+      11.5,
+      17.7
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 4.6
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      5,
+      13
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.79,
+     "pred_2s": [
+      2.9,
+      16.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 4.7
+     }
+    }
+   ],
+   "threats": [
+    "barbarian(e) advancing left lane, tower in 1.5s"
+   ]
+  },
+  {
+   "t": 1280.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 8,
+   "opp_elixir_est": 3.87,
+   "hand": [
+    "cannon",
+    "lightning",
+    "baby-dragon",
+    "lightning"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 514,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      6,
+      9
+     ],
+     "heading": "retreating",
+     "speed": 0.89,
+     "pred_2s": [
+      8.0,
+      8.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 14.4
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      16,
+      17
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.59,
+     "pred_2s": [
+      18.3,
+      19.9
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 3.0
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      11,
+      17
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 1.09,
+     "pred_2s": [
+      9.5,
+      18.5
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 4.5
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      17
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.98,
+     "pred_2s": [
+      0.7,
+      20.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 2.4
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      10,
+      5
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.83,
+     "pred_2s": [
+      11.8,
+      7.1
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 19.8
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1282.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 4.59,
+   "hand": [
+    "cannon",
+    "lightning",
+    "royal-delivery",
+    "lightning"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 514,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.72,
+     "pred_2s": [
+      2.0,
+      13.4
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 12.7
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      0,
+      20
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.98,
+     "pred_2s": [
+      -1.6,
+      23.4
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.4
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      14,
+      15
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.23,
+     "pred_2s": [
+      16.1,
+      13.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 7.7
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      13,
+      6
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 1.13,
+     "pred_2s": [
+      15.3,
+      7.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 13.3
+     }
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing right lane, tower in 7.7s"
+   ]
+  },
+  {
+   "t": 1284.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 3.3,
+   "hand": [
+    "goblins",
+    "lightning",
+    "royal-delivery",
+    "lightning"
+   ],
+   "next": "baby-dragon",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 514,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      2,
+      16
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.54,
+     "pred_2s": [
+      2.3,
+      19.8
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 3.3
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      14,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.91,
+     "pred_2s": [
+      14.4,
+      11.8
+     ],
+     "pos_std": 0.55,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 8.6
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      14,
+      6
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.67,
+     "pred_2s": [
+      15.5,
+      7.4
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 22.3
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1286.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 4.02,
+   "hand": [
+    "skeletons",
+    "lightning",
+    "baby-dragon",
+    "lightning"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 514,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      9,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      9.4,
+      7.0
+     ],
+     "pos_std": 0.12,
+     "eta_tower": null
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      2,
+      19
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.54,
+     "pred_2s": [
+      1.7,
+      22.8
+     ],
+     "pos_std": 1.46,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.4
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      14,
+      12
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.79,
+     "pred_2s": [
+      15.3,
+      10.7
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 8.2
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      13,
+      9
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.9,
+     "pred_2s": [
+      14.2,
+      11.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 13.9
+     }
+    },
+    {
+     "class": "hog-rider",
+     "side": "enemy",
+     "tile": [
+      3,
+      8
+     ],
+     "heading": "advancing left lane",
+     "speed": 2.62,
+     "pred_2s": [
+      4.7,
+      3.1
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 0.9
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      13,
+      13
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.41,
+     "pred_2s": [
+      14.7,
+      10.3
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 5.2
+     }
+    }
+   ],
+   "threats": [
+    "hog-rider(e) advancing left lane, tower in 0.9s",
+    "skeleton(e) advancing right lane, tower in 5.2s"
+   ]
+  },
+  {
+   "t": 1288.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 2,
+   "opp_elixir_est": 4.73,
+   "hand": [
+    "wizard",
+    "tornado",
+    "royal-delivery",
+    "goblin-hut"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      15,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.79,
+     "pred_2s": [
+      15.7,
+      9.2
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 6.3
+     }
+    },
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      13,
+      9
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.46,
+     "pred_2s": [
+      13.8,
+      10.7
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 26.2
+     }
+    },
+    {
+     "class": "hog-rider",
+     "side": "enemy",
+     "tile": [
+      4,
+      3
+     ],
+     "heading": "advancing left lane",
+     "speed": 2.62,
+     "pred_2s": [
+      6.0,
+      -2.0
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 0.1
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "enemy",
+     "tile": [
+      14,
+      10
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.41,
+     "pred_2s": [
+      15.4,
+      7.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "own_right",
+      "s": 3.2
+     }
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      12
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.49,
+     "pred_2s": [
+      3.3,
+      11.2
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 13.0
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      7,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      7.5,
+      6.9
+     ],
+     "pos_std": 0.25,
+     "eta_tower": null
+    }
+   ],
+   "threats": [
+    "skeleton(e) advancing right lane, tower in 6.3s",
+    "hog-rider(e) advancing left lane, tower in 0.1s",
+    "skeleton(e) advancing right lane, tower in 3.2s"
+   ]
+  },
+  {
+   "t": 1290.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 4,
+   "opp_elixir_est": 5.45,
+   "hand": [
+    "baby-dragon",
+    "rage",
+    "mighty-miner",
+    "fireball"
+   ],
+   "next": "electro-spirit",
+   "towers_own": {
+    "king": null,
+    "left": 274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      13,
+      11
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.67,
+     "pred_2s": [
+      13.4,
+      12.7
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 15.6
+     }
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      3,
+      11
+     ],
+     "heading": "advancing left lane",
+     "speed": 0.33,
+     "pred_2s": [
+      3.4,
+      11.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 18.0
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      7,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      7.5,
+      6.9
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1292.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 3,
+   "opp_elixir_est": 4.16,
+   "hand": [
+    "lightning",
+    "rage",
+    "mighty-miner",
+    "fireball"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      15,
+      10
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.73,
+     "pred_2s": [
+      17.3,
+      10.6
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 15.5
+     }
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      2,
+      12
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.3,
+     "pred_2s": [
+      2.0,
+      12.8
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 22.4
+     }
+    },
+    {
+     "class": "cannon",
+     "side": "ally",
+     "tile": [
+      7,
+      6
+     ],
+     "heading": "stationary",
+     "speed": 0.0,
+     "pred_2s": [
+      7.5,
+      6.9
+     ],
+     "pos_std": 0.21,
+     "eta_tower": null
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1294.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 4.88,
+   "hand": [
+    "lightning",
+    "lightning",
+    "mighty-miner",
+    "lightning"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      17,
+      10
+     ],
+     "heading": "moving right (crossing lanes)",
+     "speed": 0.73,
+     "pred_2s": [
+      18.7,
+      10.5
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 15.9
+     }
+    },
+    {
+     "class": "sparky",
+     "side": "enemy",
+     "tile": [
+      2,
+      12
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.3,
+     "pred_2s": [
+      1.5,
+      13.1
+     ],
+     "pos_std": 1.45,
+     "eta_tower": {
+      "tower": "own_left",
+      "s": 23.7
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      2,
+      13
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.32,
+     "pred_2s": [
+      1.0,
+      15.2
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 6.7
+     }
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      14,
+      16
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.48,
+     "pred_2s": [
+      14.1,
+      17.6
+     ],
+     "pos_std": 0.56,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 10.5
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1296.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 5.59,
+   "hand": [
+    "lightning",
+    "lightning",
+    "mighty-miner",
+    "lightning"
+   ],
+   "next": "mighty-miner",
+   "towers_own": {
+    "king": null,
+    "left": 274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      12,
+      12
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.72,
+     "pred_2s": [
+      11.8,
+      12.9
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 13.6
+     }
+    },
+    {
+     "class": "unknown_unit",
+     "side": "ally",
+     "tile": [
+      0,
+      15
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.32,
+     "pred_2s": [
+      -0.5,
+      17.3
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 5.3
+     }
+    },
+    {
+     "class": "the-log",
+     "side": "ally",
+     "tile": [
+      14,
+      17
+     ],
+     "heading": "advancing right lane",
+     "speed": 0.48,
+     "pred_2s": [
+      13.6,
+      18.3
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 8.9
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1298.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 6,
+   "opp_elixir_est": 6.31,
+   "hand": [
+    "goblin-barrel",
+    "lightning",
+    "mighty-miner",
+    "lightning"
+   ],
+   "next": "bomb-tower",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "mighty-miner",
+     "side": "ally",
+     "tile": [
+      11,
+      12
+     ],
+     "heading": "moving left (crossing lanes)",
+     "speed": 0.72,
+     "pred_2s": [
+      10.5,
+      13.6
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 12.9
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      20
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.85,
+     "pred_2s": [
+      3.2,
+      23.8
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.9
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      17,
+      20
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.94,
+     "pred_2s": [
+      21.8,
+      23.0
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 2.2
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1300.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 7,
+   "opp_elixir_est": 7.02,
+   "hand": [
+    "cannon",
+    "lightning",
+    "mighty-miner",
+    "lightning"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      3,
+      23
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.85,
+     "pred_2s": [
+      3.2,
+      27.5
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 0.0
+     }
+    },
+    {
+     "class": "skeleton",
+     "side": "ally",
+     "tile": [
+      17,
+      22
+     ],
+     "heading": "advancing right lane",
+     "speed": 1.94,
+     "pred_2s": [
+      24.3,
+      25.9
+     ],
+     "pos_std": 1.49,
+     "eta_tower": {
+      "tower": "enemy_right",
+      "s": 3.0
+     }
+    }
+   ],
+   "threats": []
+  },
+  {
+   "t": 1302.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 5,
+   "opp_elixir_est": 7.74,
+   "hand": [
+    "bomb-tower",
+    "tornado",
+    "mighty-miner",
+    "goblin-hut"
+   ],
+   "next": "fireball",
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [],
+   "threats": []
+  },
+  {
+   "t": 1304.1,
+   "clock": null,
+   "phase": null,
+   "own_elixir": 0,
+   "opp_elixir_est": 8.45,
+   "hand": [
+    null,
+    "lightning",
+    "mighty-miner",
+    "lightning"
+   ],
+   "next": null,
+   "towers_own": {
+    "king": null,
+    "left": 4274,
+    "right": 2203
+   },
+   "towers_enemy": {
+    "king": null,
+    "left": 458,
+    "right": 4268
+   },
+   "units": [
+    {
+     "class": "bomber-evolution",
+     "side": "ally",
+     "tile": [
+      3,
+      20
+     ],
+     "heading": "advancing left lane",
+     "speed": 1.47,
+     "pred_2s": [
+      3.8,
+      23.1
+     ],
+     "pos_std": 0.54,
+     "eta_tower": {
+      "tower": "enemy_left",
+      "s": 1.1
+     }
+    }
+   ],
+   "threats": []
+  }
+ ],
+ "transcript": [
+  {
+   "t": 1093.8,
+   "end": 1095.1,
+   "text": "We're in the next match here, guys. Up"
+  },
+  {
+   "t": 1095.1,
+   "end": 1097.7,
+   "text": "against Del Depilate Heart Witch. Bro,"
+  },
+  {
+   "t": 1097.7,
+   "end": 1099.5,
+   "text": "this guy BM'd me like four months ago"
+  },
+  {
+   "t": 1099.5,
+   "end": 1101.3,
+   "text": "when I had a RG, dude. Okay, I need to"
+  },
+  {
+   "t": 1101.3,
+   "end": 1103.0,
+   "text": "cook this guy, bro. This guy plays such"
+  },
+  {
+   "t": 1103.0,
+   "end": 1104.6,
+   "text": "a stupid deck. It's like It's like"
+  },
+  {
+   "t": 1104.6,
+   "end": 1107.7,
+   "text": "Sparky, Hog Rider, Witch, Barbs,"
+  },
+  {
+   "t": 1107.7,
+   "end": 1109.8,
+   "text": "Skeleton Army, E-Wiz, like Zap,"
+  },
+  {
+   "t": 1109.8,
+   "end": 1111.3,
+   "text": "Fireball. Dude, he plays such a stupid"
+  },
+  {
+   "t": 1111.3,
+   "end": 1113.7,
+   "text": "deck, man. This guy always beats me on"
+  },
+  {
+   "t": 1113.7,
+   "end": 1115.5,
+   "text": "the time where I forget his deck because"
+  },
+  {
+   "t": 1115.5,
+   "end": 1117.0,
+   "text": "then I just get completely wrecked by"
+  },
+  {
+   "t": 1117.0,
+   "end": 1119.0,
+   "text": "like a random thing. Like I just go for"
+  },
+  {
+   "t": 1119.0,
+   "end": 1120.2,
+   "text": "like an RG in the back and then he"
+  },
+  {
+   "t": 1120.2,
+   "end": 1122.2,
+   "text": "Sparky's into it or something like that."
+  },
+  {
+   "t": 1122.2,
+   "end": 1123.3,
+   "text": "Okay, let's skellies here. I'm not going"
+  },
+  {
+   "t": 1123.3,
+   "end": 1124.7,
+   "text": "to log though because I know that he has"
+  },
+  {
+   "t": 1124.7,
+   "end": 1126.1,
+   "text": "the Skeleton Army. So, I don't really"
+  },
+  {
+   "t": 1126.1,
+   "end": 1128.8,
+   "text": "want to give him that um opportunity to"
+  },
+  {
+   "t": 1128.8,
+   "end": 1130.4,
+   "text": "abuse the Skeleton Army. I'd rather just"
+  },
+  {
+   "t": 1130.4,
+   "end": 1132.2,
+   "text": "take the Hog Rider shot knowing that"
+  },
+  {
+   "t": 1132.2,
+   "end": 1133.5,
+   "text": "this guy can't really defend split"
+  },
+  {
+   "t": 1133.5,
+   "end": 1135.0,
+   "text": "piggies that well. Baby Dragon's good"
+  },
+  {
+   "t": 1135.0,
+   "end": 1136.7,
+   "text": "against him. So, I'm just going to eat"
+  },
+  {
+   "t": 1136.7,
+   "end": 1138.1,
+   "text": "the damage. I think it's a better play"
+  },
+  {
+   "t": 1138.1,
+   "end": 1140.5,
+   "text": "cuz since I want to go for piggies"
+  },
+  {
+   "t": 1140.6,
+   "end": 1143.3,
+   "text": "often, I need to have my log for the"
+  },
+  {
+   "t": 1143.4,
+   "end": 1145.0,
+   "text": "Skeleton Army. Let's split piggies here."
+  },
+  {
+   "t": 1145.0,
+   "end": 1147.0,
+   "text": "I have my log ready for a Skeleton Army."
+  },
+  {
+   "t": 1147.0,
+   "end": 1149.3,
+   "text": "Okay, eh, I don't really need to log"
+  },
+  {
+   "t": 1149.4,
+   "end": 1150.5,
+   "text": "right away. I'm going to wait to see if"
+  },
+  {
+   "t": 1150.5,
+   "end": 1152.0,
+   "text": "we get more value. It's fine, especially"
+  },
+  {
+   "t": 1152.0,
+   "end": 1154.3,
+   "text": "cuz he it, too. It was smart to split"
+  },
+  {
+   "t": 1154.4,
+   "end": 1156.2,
+   "text": "it, but it did get us 500 damage. Let's"
+  },
+  {
+   "t": 1156.2,
+   "end": 1157.8,
+   "text": "log here. And then he goes for the"
+  },
+  {
+   "t": 1157.8,
+   "end": 1160.2,
+   "text": "Sparky in the back. Okay."
+  },
+  {
+   "t": 1160.2,
+   "end": 1162.3,
+   "text": "Hmm. Dude, it's so weird cuz I think"
+  },
+  {
+   "t": 1162.3,
+   "end": 1163.7,
+   "text": "this guy, or maybe it's a different"
+  },
+  {
+   "t": 1163.7,
+   "end": 1165.0,
+   "text": "player, they used to run like Sparky,"
+  },
+  {
+   "t": 1165.0,
+   "end": 1167.2,
+   "text": "Hog, and Balloon, but now he only has"
+  },
+  {
+   "t": 1167.2,
+   "end": 1170.3,
+   "text": "Hog and Sparky. Kind of crazy."
+  },
+  {
+   "t": 1170.3,
+   "end": 1171.8,
+   "text": "We have Lightning ready here to protect"
+  },
+  {
+   "t": 1171.8,
+   "end": 1173.0,
+   "text": "for anything. Okay, those are just weird"
+  },
+  {
+   "t": 1173.0,
+   "end": 1174.1,
+   "text": "Barbs. I'm going to Cannon here, and"
+  },
+  {
+   "t": 1174.1,
+   "end": 1175.5,
+   "text": "then we can go for the E-Spirit to push"
+  },
+  {
+   "t": 1175.5,
+   "end": 1177.6,
+   "text": "the Hog in unless the Barbs Oh my bro,"
+  },
+  {
+   "t": 1177.6,
+   "end": 1179.6,
+   "text": "look at the Hog. He just started like"
+  },
+  {
+   "t": 1179.6,
+   "end": 1181.7,
+   "text": "like moonwalking, dude. He just He just"
+  },
+  {
+   "t": 1181.7,
+   "end": 1183.6,
+   "text": "started moonwalking around that. Okay,"
+  },
+  {
+   "t": 1183.6,
+   "end": 1184.9,
+   "text": "whatever. I'm not even going to log here"
+  },
+  {
+   "t": 1184.9,
+   "end": 1186.3,
+   "text": "again. I'm just going to once again save"
+  },
+  {
+   "t": 1186.3,
+   "end": 1188.3,
+   "text": "it. Baby Dragon's on the tower, and look"
+  },
+  {
+   "t": 1188.4,
+   "end": 1190.0,
+   "text": "at that damage buff, man. You can just"
+  },
+  {
+   "t": 1190.0,
+   "end": 1191.3,
+   "text": "notice the amount of damage he's doing."
+  },
+  {
+   "t": 1191.3,
+   "end": 1194.0,
+   "text": "269 a shot. That's insane. Let's split"
+  },
+  {
+   "t": 1194.0,
+   "end": 1195.2,
+   "text": "Piggies three to one, and then we have"
+  },
+  {
+   "t": 1195.2,
+   "end": 1197.2,
+   "text": "Log ready. Yep, let's log here. I didn't"
+  },
+  {
+   "t": 1197.2,
+   "end": 1198.5,
+   "text": "want to just have him go for the"
+  },
+  {
+   "t": 1198.5,
+   "end": 1199.5,
+   "text": "Fireball, though. So, that's why I"
+  },
+  {
+   "t": 1199.5,
+   "end": 1200.8,
+   "text": "didn't log right away. And we had the"
+  },
+  {
+   "t": 1200.8,
+   "end": 1202.5,
+   "text": "Piggy tank for the Mighty Miner on the"
+  },
+  {
+   "t": 1202.5,
+   "end": 1204.5,
+   "text": "right, if you notice. So, then it forced"
+  },
+  {
+   "t": 1204.6,
+   "end": 1206.2,
+   "text": "out an extra response from him, which is"
+  },
+  {
+   "t": 1206.2,
+   "end": 1208.1,
+   "text": "super good."
+  },
+  {
+   "t": 1208.1,
+   "end": 1209.5,
+   "text": "Okay, let's go for the Baby Dragon here"
+  },
+  {
+   "t": 1209.5,
+   "end": 1210.9,
+   "text": "again. Dude, Baby Dragon is just so"
+  },
+  {
+   "t": 1210.9,
+   "end": 1213.4,
+   "text": "good. Let's Skellies here. Take this"
+  },
+  {
+   "t": 1213.4,
+   "end": 1215.6,
+   "text": "out. Nice. Come on. Nice. Beautiful."
+  },
+  {
+   "t": 1215.6,
+   "end": 1216.9,
+   "text": "Baby Dragon barely lives, and then we"
+  },
+  {
+   "t": 1216.9,
+   "end": 1219.0,
+   "text": "can Evo Piggies here. We have the Log"
+  },
+  {
+   "t": 1219.0,
+   "end": 1220.3,
+   "text": "ready for the Skeleton Army once again."
+  },
+  {
+   "t": 1220.3,
+   "end": 1221.7,
+   "text": "I'm just never going for the random"
+  },
+  {
+   "t": 1221.7,
+   "end": 1223.4,
+   "text": "pre-logs in this matchup because I know"
+  },
+  {
+   "t": 1223.4,
+   "end": 1225.0,
+   "text": "that the only way that I could actually"
+  },
+  {
+   "t": 1225.0,
+   "end": 1227.2,
+   "text": "lose this, in my opinion, is if I go for"
+  },
+  {
+   "t": 1227.2,
+   "end": 1228.8,
+   "text": "some prediction and then miss it. Like I"
+  },
+  {
+   "t": 1228.8,
+   "end": 1230.2,
+   "text": "do like to go for the predictions and"
+  },
+  {
+   "t": 1230.2,
+   "end": 1232.3,
+   "text": "stuff, but I also want to just make sure"
+  },
+  {
+   "t": 1232.3,
+   "end": 1233.6,
+   "text": "that I ensure the win because I don't"
+  },
+  {
+   "t": 1233.6,
+   "end": 1235.5,
+   "text": "really like this guy, so I want to make"
+  },
+  {
+   "t": 1235.6,
+   "end": 1237.4,
+   "text": "sure that I'm not losing to him. That's"
+  },
+  {
+   "t": 1237.4,
+   "end": 1239.0,
+   "text": "Mighty in the back. We have our Skellies"
+  },
+  {
+   "t": 1239.0,
+   "end": 1240.3,
+   "text": "ready if he tries to go for the Hog at"
+  },
+  {
+   "t": 1240.4,
+   "end": 1241.6,
+   "text": "the bridge into this. Yep, let's just"
+  },
+  {
+   "t": 1241.6,
+   "end": 1244.2,
+   "text": "Skellies here. Perfect. Very bad Hog"
+  },
+  {
+   "t": 1244.2,
+   "end": 1246.4,
+   "text": "Rider. Just not really doing anything at"
+  },
+  {
+   "t": 1246.4,
+   "end": 1248.0,
+   "text": "all. This Evo Baby Dragon's going to"
+  },
+  {
+   "t": 1248.0,
+   "end": 1249.2,
+   "text": "cook. I'm going to Mighty ability away"
+  },
+  {
+   "t": 1249.2,
+   "end": 1252.0,
+   "text": "from this. Oh my god, he missed. Nice. I"
+  },
+  {
+   "t": 1252.0,
+   "end": 1253.3,
+   "text": "got to give him the sarcastic well"
+  },
+  {
+   "t": 1253.3,
+   "end": 1255.5,
+   "text": "played. Let's go for the Piggies here."
+  },
+  {
+   "t": 1255.5,
+   "end": 1257.0,
+   "text": "Let's pre-log for the Skeleton Army this"
+  },
+  {
+   "t": 1257.0,
+   "end": 1259.0,
+   "text": "time. There we go. The prediction for"
+  },
+  {
+   "t": 1259.0,
+   "end": 1260.2,
+   "text": "the game."
+  },
+  {
+   "t": 1260.6,
+   "end": 1262.3,
+   "text": "&gt;&gt; Nice. That's still not going to take his"
+  },
+  {
+   "t": 1262.3,
+   "end": 1263.5,
+   "text": "tower. It might put him into Lightning"
+  },
+  {
+   "t": 1263.5,
+   "end": 1265.7,
+   "text": "range. Let's pop the ability. Okay, two"
+  },
+  {
+   "t": 1265.7,
+   "end": 1267.2,
+   "text": "Logs and a Lightning, I think. I'm going"
+  },
+  {
+   "t": 1267.2,
+   "end": 1269.0,
+   "text": "to double check though because they keep"
+  },
+  {
+   "t": 1269.0,
+   "end": 1270.9,
+   "text": "changing the spell damages so often that"
+  },
+  {
+   "t": 1270.9,
+   "end": 1272.4,
+   "text": "I don't know exactly how much every"
+  },
+  {
+   "t": 1272.4,
+   "end": 1274.5,
+   "text": "single spell does currently, dude. Way"
+  },
+  {
+   "t": 1274.5,
+   "end": 1276.2,
+   "text": "too many changes to the spells, okay."
+  },
+  {
+   "t": 1276.2,
+   "end": 1277.3,
+   "text": "Let's go for the mighty here then check"
+  },
+  {
+   "t": 1277.4,
+   "end": 1279.0,
+   "text": "the lightning."
+  },
+  {
+   "t": 1279.0,
+   "end": 1281.0,
+   "text": "423, okay. Yeah, that's two logs and the"
+  },
+  {
+   "t": 1281.0,
+   "end": 1282.9,
+   "text": "lightning. Let's lightning here. We can"
+  },
+  {
+   "t": 1282.9,
+   "end": 1285.0,
+   "text": "go for the e-spirit and cannon. I don't"
+  },
+  {
+   "t": 1285.0,
+   "end": 1286.4,
+   "text": "know what the hog sparky play was. It's"
+  },
+  {
+   "t": 1286.4,
+   "end": 1288.2,
+   "text": "like a last ditch effort though. Let's"
+  },
+  {
+   "t": 1288.2,
+   "end": 1289.7,
+   "text": "just go for the skeletons here. Then we"
+  },
+  {
+   "t": 1289.7,
+   "end": 1291.0,
+   "text": "just need to go for the lightning log,"
+  },
+  {
+   "t": 1291.0,
+   "end": 1293.6,
+   "text": "guys, and this is going to be good game."
+  },
+  {
+   "t": 1293.8,
+   "end": 1296.5,
+   "text": "&gt;&gt; Okay. Let's go Let's go for the ability"
+  },
+  {
+   "t": 1296.5,
+   "end": 1297.7,
+   "text": "here and guys, I'm just going to cut"
+  },
+  {
+   "t": 1297.7,
+   "end": 1299.2,
+   "text": "this clip short cuz I'm just going to"
+  },
+  {
+   "t": 1299.2,
+   "end": 1301.7,
+   "text": "keep BMing this guy. I will see you all"
+  },
+  {
+   "t": 1301.7,
+   "end": 1304.8,
+   "text": "in the next match. Let's go."
+  },
+  {
+   "t": 1304.8,
+   "end": 1306.4,
+   "text": "We're up against Zoro here. Let's just"
+  }
+ ],
+ "quality": {
+  "readable_seconds": 209.7,
+  "match_frames": 1258,
+  "own_elixir_drift": {
+   "n": 300,
+   "mean": -0.5,
+   "abs_mean": 1.127,
+   "max_abs": 8.0,
+   "last": -8.0
+  },
+  "events_total": 82,
+  "events_unidentified": 9,
+  "events_by_source": {
+   "hud": 26,
+   "arena": 8,
+   "deploy_label": 39,
+   "inferred": 9
+  },
+  "hand_conf_mean": 0.597
+ },
+ "split_method": "tower_hp_reset (clock OCR unavailable for this video)",
+ "own_deck_video": {
+  "games": 6,
+  "deck": [
+   "mighty-miner",
+   "cannon",
+   "skeletons",
+   "baby-dragon",
+   "lightning",
+   "electro-spirit",
+   "royal-hogs",
+   "the-log"
+  ],
+  "deck_key": "baby-dragon-cannon-electro-spirit-lightning-mighty-miner-royal-hogs-skeletons-the-log",
+  "mixed": false,
+  "scores": {
+   "mighty-miner": 36,
+   "cannon": 36,
+   "skeletons": 36,
+   "baby-dragon": 33,
+   "lightning": 26,
+   "ice-spirit": 26,
+   "rage": 26,
+   "royal-delivery": 24,
+   "fireball": 20,
+   "the-log": 19,
+   "goblins": 18,
+   "zappies": 12,
+   "royal-ghost": 9,
+   "electro-spirit": 8,
+   "tornado": 6,
+   "hog-rider": 6,
+   "mega-minion": 6,
+   "skeleton-barrel": 6,
+   "barbarian-barrel": 5,
+   "bomb-tower": 3,
+   "royal-hogs": 0
+  },
+  "transcript_mentions": {
+   "mighty-miner": 47,
+   "lightning": 40,
+   "cannon": 32,
+   "fireball": 2,
+   "skeletons": 14,
+   "baby-dragon": 54,
+   "electro-spirit": 31,
+   "hog-rider": 9,
+   "royal-ghost": 1,
+   "the-log": 59,
+   "royal-hogs": 53,
+   "skeleton-barrel": 2
+  },
+  "notes": [
+   "swapped royal-delivery (score 24, never mentioned) for the-log (score 19, 59 mentions)",
+   "swapped ice-spirit (score 26, never mentioned) for electro-spirit (score 8, 31 mentions)",
+   "swapped rage (score 26, never mentioned) for royal-hogs (score 0, 53 mentions)"
+  ]
+ }
+}
