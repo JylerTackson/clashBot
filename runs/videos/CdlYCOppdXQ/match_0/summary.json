@@ -1,0 +1,156 @@
+{
+ "frames": 7445,
+ "seconds": 958.6,
+ "timing": {
+  "total": {
+   "n": 7445,
+   "mean_ms": 117.8,
+   "p95_ms": 230.9
+  },
+  "elixir": {
+   "n": 1370,
+   "mean_ms": 1.5,
+   "p95_ms": 2.2
+  },
+  "hand": {
+   "n": 1370,
+   "mean_ms": 177.9,
+   "p95_ms": 230.7
+  },
+  "clock": {
+   "n": 1370,
+   "mean_ms": 184.0,
+   "p95_ms": 1119.6
+  },
+  "labels": {
+   "n": 229,
+   "mean_ms": 825.5,
+   "p95_ms": 1191.0
+  },
+  "detect": {
+   "n": 114,
+   "mean_ms": 796.3,
+   "p95_ms": 1030.9
+  },
+  "loop_fps": 8.5
+ },
+ "own_elixir_drift": {
+  "n": 69,
+  "mean": 1.209,
+  "abs_mean": 1.483,
+  "max_abs": 5.026,
+  "last": 0.953
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "miner",
+   "goblin-barrel",
+   "arrows"
+  ],
+  "deck_complete": false,
+  "predicted_hand": null,
+  "predicted_next": null,
+  "deck_predictions": [
+   {
+    "card": "princess",
+    "p": 0.6,
+    "source": "kb_inference"
+   },
+   {
+    "card": "dart-goblin",
+    "p": 0.6,
+    "source": "kb_inference"
+   },
+   {
+    "card": "ice-spirit",
+    "p": 0.6,
+    "source": "kb_inference"
+   },
+   {
+    "card": "skeleton-army",
+    "p": 0.6,
+    "source": "kb_inference"
+   },
+   {
+    "card": "wall-breakers",
+    "p": 0.4,
+    "source": "kb_inference"
+   },
+   {
+    "card": "barbarian-barrel",
+    "p": 0.2,
+    "source": "kb_inference"
+   },
+   {
+    "card": "goblin-hut",
+    "p": 0.2,
+    "source": "kb_inference"
+   },
+   {
+    "card": "ice-wizard",
+    "p": 0.2,
+    "source": "kb_inference"
+   },
+   {
+    "card": "mighty-miner",
+    "p": 0.2,
+    "source": "kb_inference"
+   }
+  ],
+  "kb_matches": [
+   {
+    "deck_key": "barbarian-barrel-goblin-hut-ice-wizard-mighty-miner-miner-poison-skeletons-wall-breakers",
+    "name": "Miner Wall Breakers HeroIceWiz",
+    "archetype": "control",
+    "matched": 1,
+    "contradicted": 2,
+    "score": -2.97,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "mighty-miner",
+     "poison",
+     "skeletons",
+     "wall-breakers"
+    ]
+   },
+   {
+    "deck_key": "berserker-dart-goblin-goblin-barrel-ice-spirit-mega-knight-princess-skeleton-army-suspicious-bush",
+    "name": "Mega Knight Log Bait",
+    "archetype": "bait",
+    "matched": 1,
+    "contradicted": 2,
+    "score": -2.97,
+    "remaining": [
+     "mega-knight",
+     "princess",
+     "dart-goblin",
+     "ice-spirit",
+     "suspicious-bush",
+     "skeleton-army",
+     "berserker"
+    ]
+   },
+   {
+    "deck_key": "cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers",
+    "name": "WB Log Bait 2.8 Cycle",
+    "archetype": "bait",
+    "matched": 1,
+    "contradicted": 2,
+    "score": -2.97,
+    "remaining": [
+     "cannon",
+     "dart-goblin",
+     "ice-spirit",
+     "princess",
+     "skeleton-army",
+     "valkyrie",
+     "wall-breakers"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0
+ }
+}

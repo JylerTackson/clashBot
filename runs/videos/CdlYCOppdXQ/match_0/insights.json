@@ -1,0 +1,101 @@
+{
+  "key": "CdlYCOppdXQ-m0",
+  "match_file": "matches/CdlYCOppdXQ-m0.md",
+  "video_title": "Jynxzi Challenged Me in C.H.A.O.S Mode",
+  "cards": {
+    "ronin": [
+      "t=611s and t=660s (C.H.A.O.S. vs Jynxzi; the battle clock was never read in this video): two Ronin deploy labels, both on his own half — the first deep and central at tile [8, 4], the second up near the river at [7, 11] to meet the incoming push. He never bridge-pushed it in the one game with event coverage.",
+      "t=660s: when Jynxzi asked why he had put a P.E.K.K.A. down, Ryley answered 'I HAVE THE RONIN, BABY' — the Ronin, not the P.E.K.K.A., is the card he trusts to handle the push.",
+      "t=671-679s: 'Chad, I'm telling you, if you're underlevelled, just use the Ronin, bro. Like, this guy is literally the underleveled Chad. The Ronin is the definition of an underleveled [card].'",
+      "t=361-387s: the Parry as a Golden Knight counter — 'he parries the dash, too. He parries everything... if the parry blocks the dash, then the Golden Knight just stops moving and it doesn't dash the stuff behind it. It's like a Golden Knight counter. Imagine you have your Witch right behind a Ronin. If the Ronin parries a Golden Knight dash, then it won't go to the Witch and the skellies. It will just stop right there.'"
+    ],
+    "tombstone": [
+      "t=620s: placed at tile [5, 6], one tile in front of the Barbarian Hut he had put at [5, 5] 25 s earlier — two spawners stacked in the same defensive pocket against a Goblin Barrel / Mini P.E.K.K.A. deck. The opponent Rocketed that pocket 19 s later at t=639s.",
+      "t=729-736s, asked whether spawners are good in C.H.A.O.S.: 'Yeah, barbarian hut's not that good, though. I really think that the Tombstone is really good' — he rates the Tombstone above the Barbarian Hut in this mode.",
+      "t=433-443s (commentary only, no events in that stretch): with a C.H.A.O.S. modifier the Tombstone spawned Wall Breakers, which Jynxzi called out as 'you just get infinite wall breakers'; at t=355s a modified Log 'just like killed the whole tombstone'. Modifier behaviour, not the base card."
+    ],
+    "barbarian-hut": [
+      "t=595s: placed at tile [5, 5], deep in his own half well behind the river, as the anchor of a two-spawner pocket (Tombstone went at [5, 6] at t=620s). The opponent answered with a Rocket at [7, 14] at t=639s — the big-spell punish the hut always invites.",
+      "t=729-736s: 'barbarian hut's not that good, though... I don't think that the barbarian hut is that good anymore. It used to be the best.' He is negative on it in C.H.A.O.S. even while playing it.",
+      "t=808s: a second Barbarian Hut deploy label at tile [1, 11] in the last game of the window — but own elixir read 3 there and a P.E.K.K.A. label followed 2 s later, so that pair is not physically consistent and the placement should not be trusted."
+    ],
+    "suspicious-bush": [
+      "t=576s: the first card he put down in the covered game, deploy label at tile [5, 9] — sent up his own half rather than kept back, i.e. used as the cheap offensive building-targeter it is rather than as defence. No commentary on it."
+    ],
+    "p-e-k-k-a": [
+      "t=606-608s: tracked as an ally unit at (15, 5) then (16, 5) and marked 'retreating' — she was on his own half turning onto a defensive target, not escorted up the lane.",
+      "t=658-660s: Jynxzi questioned the card outright — 'Yo, Riley, why would you even put down the Pekka?' — and Ryley's answer was about his Ronin, not about pushing with her. At t=778s Jynxzi calls it 'the sneaky Pekka', i.e. it was carrying a C.H.A.O.S. modifier."
+    ],
+    "bandit": [
+      "t=631s: one own deploy label at tile [4, 9], on his half near the left-side river — a punish / counterpush spot, played while an opponent Berserker was on the board. Jynxzi's laughing 'Look at the bandits' (plural, t=512-518s) refers to a C.H.A.O.S. modifier that multiplied them, not to the base card."
+    ],
+    "mighty-miner": [
+      "t=578-586s: tracked as an ally unit walking up the field from (17, 3) to (13, 8) while an opponent Royal Delivery landed at (14, 7) — the only Mighty Miner activity visible in the video, and he never comments on the card."
+    ],
+    "minions": [
+      "t=322s: played off the HUD (slot emptied, -3 elixir) seconds after 'Good luck, bro' opened the game. Placement was not read, and this is a hand-read-only event in a video whose mean hand confidence is 0.345, so treat the card as probable rather than confirmed."
+    ],
+    "skeletons": [
+      "t=592s: played off the HUD (slot emptied, -1 elixir) as the cheapest cycle card in the covered game, about 3 s before he laid the Barbarian Hut. Placement not read; hand-read-only, so lower confidence than his deploy-labelled cards."
+    ],
+    "goblin-barrel": [
+      "t=606s and t=666s: Jynxzi's signature card in this session, read by deploy label twice (lvl 11) and tracked repeatedly between t=581s and t=807s across three of the four games. Ryley's answer was structural rather than reactive — two stacked spawners at [5, 5] and [5, 6] whose Skeletons cover barrel drops.",
+      "t=685-689s: the barrel modifier is the benchmark for a broken roll — Jynxzi: 'You got the goblin b[arrel] when I lost'; Ryley: 'It's not the goblin b[arrel] one, but it's pretty broken.'"
+    ],
+    "the-log": [
+      "t=294s and t=326s: played twice onto Ryley's half by the opponent ([3, 0] and [4, 8]). Ryley on the C.H.A.O.S. version at t=346-355s: 'Oh, you have the boomerang log, bro. That log's kind of like — I want to see what it does'; then 'It just like killed the whole tombstone.'"
+    ],
+    "rocket": [
+      "t=639s: opponent Rocket at tile [7, 14] on Ryley's half, 44 s after he laid the Barbarian Hut and 19 s after the Tombstone went next to it — the standard punish for stacking two spawner buildings in one pocket."
+    ],
+    "arrows": [
+      "t=291s and t=832s: the opponent's small spell in this session, read twice by deploy label. No Ryley commentary on it."
+    ],
+    "mini-p-e-k-k-a": [
+      "t=649-652s: tracked walking down the left lane at (6, 22)-(6, 24) as the opponent's ground threat into Ryley's Tombstone-plus-Barbarian-Hut pocket — a single-target melee unit into a board full of spawned Skeletons and Barbarians."
+    ],
+    "royal-delivery": [
+      "t=675s: dropped onto Ryley's half at (14, 7) while his Mighty Miner was walking up the field at (13, 8) — the opponent using it as a reset on his ground push."
+    ],
+    "miner": [
+      "t=805s: opponent Miner at tile [3, 13] on Ryley's half in the last game of the window, alongside another Goblin Barrel — chip pressure from a bait-shaped deck."
+    ],
+    "berserker": [
+      "t=622-631s: read by deploy label (four re-reads of one label at the file's junk tile [4, 19], so its side attribution is unreliable). Discussed rather than analysed: at t=556s 'Oh my god, Berserker's in here', and when Jynxzi asked at t=563-566s whether he 'still has feelings for the Berserker after all the time away from Clash', Ryley answered 'I NEVER HAD FEELINGS FOR the Berserker, bro.'"
+    ],
+    "golden-knight": [
+      "t=361-387s (mentioned, never played in this video): Ryley names the Ronin as a Golden Knight counter — 'if the parry blocks the dash, then the Golden Knight just stops moving and it doesn't dash the stuff behind it', so a Golden Knight dash into a Ronin is stopped dead instead of chaining into the support behind him."
+    ],
+    "witch": [
+      "t=379-387s (mentioned, never played in this video): used as the example of support that a parried Golden Knight fails to reach — 'imagine you have your Witch right behind a Ronin. If the Ronin parries a Golden Knight dash, then it won't go to the Witch and the skellies.'"
+    ],
+    "monk": [
+      "t=600-612s (mentioned, never played in this video): Ryley names the Ronin/Monk C.H.A.O.S. modifier as the best roll he knows — 'You know how I said the Ronin Monk one is the best one? If you have a different one on the Ronin, it's good to replace' — his one stated exception to always taking a fresh modifier."
+    ],
+    "guards": [
+      "t=693-704s (mentioned, never played by Ryley): Jynxzi lost his Guards modifier and Ryley explained why — 'you dropped it right before you click the modifiers, so you get it on the next thing', which is the basis for his rule about not dropping cards just before the modifier timer."
+    ],
+    "wall-breakers": [
+      "t=433-443s and t=522s (mentioned, never played as a card): Wall Breakers appear in this video only as the output of a Tombstone C.H.A.O.S. modifier — Jynxzi: 'Look at the wall breaker. The tombstone. The tombstone... You just get infinite wall breakers.'"
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": [
+      "ronin",
+      "tombstone",
+      "barbarian-hut",
+      "suspicious-bush",
+      "p-e-k-k-a",
+      "bandit",
+      "mighty-miner",
+      "minions",
+      "skeletons"
+    ],
+    "bullets": [
+      "No deck key: the readable window (video 259.9s-833.8s) spans at least three separate C.H.A.O.S. games and Ryley says on camera at t=262s that he is changing his deck ('I'm gonna change out my [deck]'), so the nine cards listed are a union across games, not one legal 8-card deck.",
+      "The one game with event coverage (t=561s-745s) was piloted as a defensive spawner/anti-tank shell: Suspicious Bush up the lane at t=576s, Barbarian Hut at [5, 5] at t=595s, Tombstone stacked one tile in front at [5, 6] at t=620s, with Ronin ([8, 4] then [7, 11]), P.E.K.K.A. and Mighty Miner handling the ground push and Skeletons cycling.",
+      "Evidence tiers: Ronin, Tombstone, Barbarian Hut, Suspicious Bush, P.E.K.K.A. and Bandit come from deploy labels or ally arena tracks; Mighty Miner from an ally track plus the most stable hand slot; Minions and Skeletons from single HUD plays only, in a video whose mean hand confidence is 0.345."
+    ]
+  }
+}

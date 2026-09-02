@@ -1,0 +1,33 @@
+{
+ "games": 1,
+ "deck": [
+  "minions",
+  "skeletons",
+  "barbarian-hut",
+  "suspicious-bush",
+  "ronin",
+  "tombstone",
+  "p-e-k-k-a",
+  "mighty-miner"
+ ],
+ "deck_key": "barbarian-hut-mighty-miner-minions-p-e-k-k-a-ronin-skeletons-suspicious-bush-tombstone",
+ "mixed": false,
+ "scores": {
+  "minions": 3,
+  "skeletons": 3,
+  "barbarian-hut": 3,
+  "suspicious-bush": 2,
+  "ronin": 2,
+  "tombstone": 2,
+  "p-e-k-k-a": 2,
+  "mighty-miner": 1,
+  "bandit": 0
+ },
+ "transcript_mentions": {
+  "ronin": 9,
+  "tombstone": 5,
+  "bandit": 3,
+  "p-e-k-k-a": 2
+ },
+ "notes": []
+}
