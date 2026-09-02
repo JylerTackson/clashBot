@@ -154,6 +154,12 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - overtime 0:40 (t=256): it is what the game-winning Lightning is aimed at - "We can lightning the bomber off the board as well".
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=148-151: the card that dictated his Bomb Tower placement — "here I I I went for the high middle bomb tower just to make sure that I protect against the bomber" (Bomb Tower at tile [9, 13], t=147.3). The opponent's Bomber is tracked walking down Ryley's left lane repeatedly from t=30.0 onward.
+- t=134-136: he credits the opponent with a good spell/troop play in the same window — "There was a really good evo snowball spear by him" (auto-transcript, garbled) — immediately before the Lightning at t=136.1.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

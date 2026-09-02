@@ -316,6 +316,19 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - overtime (t=1492.5): Zap at (12,15) to finish a damaged defender before the ram goes in — "Let's zap here to take this out. That's dead"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=953.0: HUD and deploy label agree (elixir 2 -> 0) on a Zap dropped at [11, 24], deep on the opponent's half, as chip during the three-crown hunt rather than as a reset.
+- t=913.9 and t=845.8: the defensive uses, at [2, 6] behind a Rune Giant / Inferno Dragon defence and at [7, 18] over the river.
+- t=1046.0 and t=1060.1: paired with Fireball in the finishing rotation ([12, 23], [14, 24]) — 'two more fireballs and two zaps to finish off the game' (t=1047).
+- t=1049: he also cycles it purely to reach an evolution — 'I did zap first just to help get to the EVO' — though he never names which card in the list is evolved.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1528-1535 (opponent's Evolution, commentary only): forced out by the pre-placed Dark Prince, which cost the opponent his answer to both spawners - "because he kind of saw that, he had to go for the Evo Zap. And since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

@@ -354,6 +354,27 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:03 into overtime: spent twice on the same tower at (3, 23) and (3, 24) as a pure finisher after the Valkyrie ability left it at 222 HP. "We just need two Fireballs. Fireball number one... Then we just go for a second Fireball. Let's go." (452-459s)
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1: t=429.4 [4, 28] on the Mother Witch - "I just fireballed the mother witch, kind of just assuming he was going to go giant skelly in the back" (432-437s).
+- t=467.5 [12, 22] on Zappies ("he's just getting my fireball value", 470-473s) and t=491.5 [12, 19] purely as insurance on the winning Royal Giant - "I even fireballed here to play it safe" (493s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=999.3 / 1049.0 / 1063.1: never used early — the first Fireball lands 150 s into the readable window, and all three are aimed at the surviving right crown tower ([14, 22], [12, 23]).
+- t=1039-1047: he treats it as a cycle plan, not a snipe — 'I just started fireball cycling in a second... I knew that I only needed like two more fireballs and two zaps to finish off the game.'
+- t=1050: one Fireball is spent on a defender to unblock his lava pups — 'I firealled that berserker just trying to get some lava pup spits on the tower.'
+- t=1065: it is the card that ends the game — 'I went for the fireball here, and that was a good game, guys.'
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1571.6, tile (15,23): the closing spell, onto the Skeleton Dragons defending his last push, thrown together with the Dark Prince ability - "I went for the ability and the fireball on the skelly drags" (1573-1576s).
+- video t=1567-1571: he sizes the finish in Fireballs before committing - "His tower was in a two fireball range so I knew that the odds of me winning this game were very high."
+- video t=1457.5 (3,22), t=1463.8 (elixir 9 -> 5) and t=1478.5 (2,24): three Fireballs into the enemy left-tower area during his aggressive stretch, part of "just constantly spamming him" (1482-1486s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

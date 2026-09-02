@@ -177,6 +177,12 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md
 - clock 1:28 / 0:40 (overtime): used as a prediction target - he plays Wall Breakers specifically to draw it out - "Let's wall breaker[s] here to force him to go for the ghost" (629-631s), then "Okay, he went for the ghost" (679s).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1678-1683: the bridge Royal Ghost is priced against the answer, not the tower — 'he didn't really have a good counter for my royal ghost cuz right here, you know, he doesn't want to waste a dark prince. That's not really like the greatest thing to have to do.'
+- Video t=1712.7: one deploy at [15, 6] on his own half while he was down to low elixir after the Elite Barbarians bridge play.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

@@ -258,6 +258,14 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - clock 0:08 (t=1473.5): deployed at tile (13,8) after being held as insurance against a bridge Royal Giant — "We have Goblin Stein ready here just to be safe. Okay, let's go for the Stein here anyways"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=94-99 (clock unreadable all game): the card he builds the whole gameplan on in a CRL duel vs Goblin Drill — "the way that I win is just by spamming Goblin Stein and Piggies at the bridge. Just being really aggressive and not really letting him get much going." Sixteen plays in 298 s (t=15.7, 32.0, 53.1, 77.1, 99.1, 116.4, 125.1, 137.0, 178.2, 205.2, 211.5, 230.2, 249.2, 260.3, 276.3, 287.6).
+- t=86-89: he states the matchup weakness his opponent counter-drafted for — "having Goblin Drill against a Goblin Stein deck is usually pretty good cuz the Goblin Stein is really, really bad against a drill."
+- t=99.1 tile [16, 14] with split Archers already down: "I do goblin stein at the bridge with my split archers knowing he has to use poison and probably an evo snowball because otherwise I would get some pretty decent damage with the scientist... I got two nice shots on the tower putting me up 500" (t=101-115; enemy right tower 2843 -> 2587).
+- t=249.2 tile [16, 15] and t=260.3 / t=276.3 tile [15, 14]: he keeps landing it at the bridge specifically to pre-empt the next drill — "I knew he was going to go for another drill though. So, I went for the Goblin Stein at the bridge" (t=247-250), "another Stein at the bridge. I just wanted to keep up the pressure" (t=262-264), and "I even went for another Goblin Stein at the bridge. Kind of just no fear" (t=278-279). The ability is spent to force defence, not for value: "I even got a nice ability here just to take that out, making him have to defend the scientist again" (t=217-220).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

@@ -463,6 +463,25 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md
 - mentioned as the other half of the opponent's cheap defence, and as the trigger condition for his own bridge plays — "he has no [E-]spirit and no skeletons in cycle. So he's going to have to waste either firecracker or mighty miner" (t=112); at overtime 1:31 he pre-empts them with an Ice Spirit, "we ice spirit for the skeletons cuz he might try to defend for cheap" (t=203).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- Nine plays as the 1-elixir cycle and distraction card: [9, 12] (t=27.0), [1, 10] (t=98.1), [4, 2] (t=158.2), [8, 14] (t=180.2, 246.2), [9, 14] (t=227.6), [1, 15] (t=275.3), plus HUD-only plays at t=253.3 and t=282.4.
+- t=157-158: they sit inside the defensive stack he calls "a really nice defensive sequence right there" (Skeletons at [4, 2], t=158.2, after Bomb Tower at [9, 13] and Barbarian Barrel plus Archers).
+- t=227.6 at tile [9, 14], mid-push: part of the constant bridge pressure he uses to stop the opponent cycling to a second Goblin Drill ("I was never really letting him go for like more than one drill at a time", t=227-231).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2-3, Ian's cheap cycle card (tracks at t=540.5, 544.5, 568.6, 610.6, 700.7, 772.8). Repeating it in game 3 alongside the Berserker is what made the game unwinnable for him under the duel format - "Ian not only repeated Berserker, but he also repeated skeleton. So no matter what happened in this game, as a result, I was guaranteed to win" (826-838s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1208.2 [7, 9] into three Zappies walking his left lane — "I just went for the skellies just to make sure to distract the zappies".
+- t=1282.3 [4, 14] as protection for the Princess he had just placed — "I went princess on the zappy. I knew that I would have to protect it. So, I went for the skellies".
+- t=1237.7 [8, 7] (elixir 3.0 -> 2.0) inside the low-elixir hold — "I went for the skelly as well and I got a really good log here on defense as well".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

@@ -146,6 +146,13 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - Opponent card, cast at tile [8, 1] (t=158.2, clock 0:15) and [13, 12] (t=282.3) over Ryley's defensive stack. He keeps the defence cheap under it — Skeletons, The Log and Tornado — and saves the 4-elixir Magic Archer for placements deep on his own half.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=104-105: he plays the bridge Goblinstein specifically to force it — "I do goblin stein at the bridge with my split archers knowing he has to use poison and probably an evo snowball because otherwise I would get some pretty decent damage with the scientist."
+- t=153-155: placement discipline against it — "I went for the barbarian [barrel] plus low archers just to avoid the poison" (Barbarian Barrel at [3, 8], t=152.0; Archers at [6, 1], t=153.2).
+- t=266-267: when it lands he treats it as his cue to counter-push — "He poisoned the tower, so I was just getting ready to go for the Royal Hogs" (Royal Hogs at [15, 14], t=266.3). Poison was never detected visually; it is attested only by these three commentary lines and by his left tower bleeding 2610 -> 2456 across t=258-272.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

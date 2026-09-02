@@ -157,6 +157,11 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md
 - mentioned but never captured on video: Ryley expects Vines from this opponent three times — "He might have to go for like a set of vines or something" (t=972), "He might go for a vines again" (t=1075), and "Nice bad vines by him" after the overtime ram connected (t=1095).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent, mentioned only: expected and played through - "I knew he was going to vines, but I was able to take out the batter anyway" (458-460s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

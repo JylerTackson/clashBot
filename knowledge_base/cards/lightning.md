@@ -257,6 +257,19 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md
 - clock 0:27 / 0:30 (overtime): he reasons that holding cheap follow-ups makes the Lightning a losing play - "he's not going to lightning this. It would be a terrible play cuz then I just go for the ice spirits" (572-575s), and closes with "He has a lightning, but it's not going to do anything" (682-684s).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=138-147 (Lightning at tile [14, 22], t=136.1): the clearest statement in the match of how to value a spell — "I get this nice lightning here, guys, because I knew that if I lightned, he would have to Tesla. So, it was actually a six for six lightning. Even though it looked like two for six, I was able to get the Tesla out as well, making it an even trade." A Tesla is tracked at [10, 19] from t=142.1.
+- t=208.2 at tile [5, 22]: the second cast opens the other lane as part of the deliberate decision to attack — "I knew it was time to go in cuz I knew if I didn't go in, then he was going to outcycle me" (t=209-212).
+- t=286-290: a third cast (labelled at tile [13, 23], t=286.3, attributed by the pipeline to the opponent but claimed by his commentary) closes the game — "I got a lightning down, guys. And I was able to win the first game against Bet Fist."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2: kept as the reserved answer for whatever survives ("lightning plus barbarian barrel" against a right-lane X-Bow, 610-616s), then cast at t=768.8 [14, 21] on the closing Golem push (772s).
+- The spell cycle, not the Golem, is what he plays to protect - "I was worried about just like him stopping my spell cycle, but I knew that I'd be able to cycle back to another lightning as long as I didn't have to defend an expo" (776-782s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

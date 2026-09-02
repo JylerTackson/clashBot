@@ -49,6 +49,15 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
 - Own-deck caveat: the perception pipeline filed every deploy at or past the river as an opponent play and read four extra cards off a 0.49-confidence hand reader; this eight-card list is rebuilt from the deploy labels plus Ryley's commentary. See the match file's Data gaps.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Closing 70 s of Ryley's CRL qualifier decider plus the outro (video t=1672-1758; the HUD defeated the clock reader, so no in-game clock exists for this game). Same game as the last clip of 'Ryley's BEST Games of CRL 2026' (9tx2iYsSmMw-m0.10, offset about +869 s) — and this segment supplies the result that clip cut away from: 'I was able to win the game two to one, guys, and I qualified to CRL' (t=1754).
+- The deck's failure mode is placement, not matchup: the one loss of tempo is a Battle Ram meant to kite the Dark Prince, mis-clicked at [8, 10] (t=1691.0), costing roughly half his right tower — 'I lost half of my tower just misclicking... I don't know whether to call that nerves, just finger slipping' (t=1698-1703).
+- Bridge cards are spent on the opponent's hand, not on the tower: Royal Ghost to make a Dark Prince awkward to spend (t=1683), Elite Barbarians at [14, 15] 'because I wanted to mess up his cycle' and to trade off the Dark Prince (t=1700.7, t=1710-1712), with Ryley openly rating E-Barbs weak into Skarmy + Dark Prince (t=1717-1722).
+- The win-back is one stacked push, back to front: Zappies at [9, 1] and Mother Witch at [11, 7] from the back (t=1719.7, t=1720.7), Valkyrie at [13, 15] then the Evo Battle Ram at [15, 14] at the bridge (t=1727.7, t=1729.7), Heal Spirit at [12, 14], Wild Whirlwind popped at tower contact, and Arrows at [14, 26] on top (t=1733.7-1736.7) — enemy right tower 2954 -> 716 HP, 'I took out the entire tower in one push' (t=1743).
+- Own-deck caveat: the hand reader (0.449 mean confidence) put Barbarian Barrel and Goblinstein in this list and hallucinated 'Void' 106 times; the eight cards above are rebuilt from deploy labels plus commentary, with three of Ryley's own bridge/spell deploys re-attributed from 'opponent' because they landed at or past the river. See the match file's Data gaps.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 Observed in ryleycr1's video "https://www.youtube.com/watch?v=9tx2iYsSmMw"; classification by agent.

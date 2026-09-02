@@ -297,6 +297,27 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - He rates them by what they force as much as by damage: "Forcing out the snowball with the piggies is just so strong because then he can't snowball our skellies and stuff" (overtime 0:45), and tracks their alignment against the enemy Evo Cannon — "we unaligned his Evo cannon from our Evo piggies, which is huge" (overtime 0:37).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=222-226 (Evo Royal Hogs at tile [13, 14], t=219.2, with Archers at [10, 14], t=222.2): "I was able to go for a nice set of evo piggies plus archers to predict the Tesla because I just wanted to keep on forcing out elixir."
+- t=36-40: in the CRL duel format, playing them in game 1 locks them out of the rest of the best-of-three — "as you see me using Royal Hogs here, I won't be able to use Royal Hogs in the second or in the potential third game of the duel."
+- Eight plays: bridge tempo at [2, 14] (t=20.0), [15, 14] (t=63.1, 247.2, 266.3), [9, 14] (t=74.1), [15, 12] (t=116.1), [13, 14] (t=219.2), and two early back placements at [8, 0] (t=31.0) and [11, 2] (t=65.1). Never sent alone — always paired with Goblinstein or Archers.
+- t=266-267: he holds them until the opponent has spent a spell — "He poisoned the tower, so I was just getting ready to go for the Royal Hogs" (Royal Hogs at [15, 14], t=266.3).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Opponent card, spoken only as "piggies". The chip that briefly took the damage lead off him: own right tower 2929 -> 2683 HP at t=1272-1274 — "here I took some piggies damage, which actually did give him the lead. And that was kind of the thing that I was talking about with the piggies. You have to be really careful here".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1476.5 (no clock read in this video): split Royal Hogs across both lanes from the bridge row while the opponent was still rebuilding a Lava Hound push - "Here I went for the split piggies. I was being really really aggressive in this game just over and over again. I was just constantly spamming him because I don't want to let him get many lava hound pushes" (1476-1486s).
+- video t=1544.5: re-timed the Hogs against the opponent's Fireball rather than leading with them - "He fireballed and I timed it with the piggies very nicely" (1548-1549s). The enemy left tower fell 1548 -> 305 over the next 20 s.
+- video t=1464-1476 (in hand, not played): the Evolution sitting in cycle is what protects his spawners and stops the Hound. "He couldn't really lava hound because I had the evo piggies in cycle and he still had to deal with the furnace. I was just kind of abusing the fact that he couldn't really spell my furnace away because he had to watch out for the evo piggies."
+- video t=1442-1452: the deck's identity card across the whole qualifier. "I had a nice Goblin Hut Piggies deck. Once again, you guys are seeing a piggies. I think the only duel set where I didn't use piggies uh in today's video was against Ian."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

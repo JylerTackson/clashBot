@@ -198,6 +198,20 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md
 - clock 1:39: mentioned only, never played by either side — when listing what he thinks is missing from Royal API's eight highest-ranked cards he says 'there is a few cards that I do think are missing. Maybe like the Rune Giant' (t=72-75).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=939.9 and t=986.0 and t=1035.0: dropped at [8, 21] / [8, 20] — inside the opponent's half, behind an already-committed Lava Hound push — purely as a buff engine: 'here I went for a rune giant in the pocket just to boost up all my cards again' (t=942).
+- t=907.9: also used as a plain 4-elixir defensive body, placed at [3, 5] (elixir 9 -> 5, HUD and deploy label agreeing) directly in the path of an advancing Bomber, with Skeleton Dragons and an Inferno Dragon layered onto the same tile.
+- t=1015.0: the defensive version again at [9, 9], centre of his own half, at the moment he abandons the crown hunt and switches to 'just going to win the game normally'.
+- Pairing note from the events: Berserker at [8, 20] (t=997.0) and Skeleton Dragons at [8, 20] (t=1043.0) land on the same tiles as the Rune Giant, i.e. he deliberately keeps fast-hitting troops inside her enchant radius.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1440s (opponent's card, named in commentary only): "he had a lava hound rune giant deck with the Valkyrie."
+- video t=1574-1578: it knocked the Heroic Dark Prince's Rhino off the tower in the closing exchange without saving it - "the rune giant actually pushed the Rhino away and I was able to take up the tower guys."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rune_Giant (scraped 2026-09-02T02:35:01+00:00)

@@ -174,6 +174,13 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 1:48: the opponent's Goblin Hut goes down at tile [9, 19] (t=328.3) alongside Spear Goblins; Ryley never spells it, answering the stream of goblins with his own Furnace and cheap cards instead — his response in the same window is "Let's just go for the furnace here in the back" (330-332s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1515.5, tile (16,9) (matching -4 elixir step at t=1518.0): played proactively rather than as a reaction to a push - "And right here, I went for the early hut" (1517s).
+- video t=1533.5, same tile (16,9): re-placed within 20 s once the opponent had spent his Evo Zap - "since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace. So I was able to defend this push very very easily because of that" (1531-1543s).
+- video t=1442s: the card he names the list after - "I had a nice Goblin Hut Piggies deck."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

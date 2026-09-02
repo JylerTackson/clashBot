@@ -393,6 +393,19 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md
 - Opponent card (arena track at [6, 4] at t=1020). It shapes Ryley's biggest decision of the first half: he passes on Magic Archer chip damage rather than let the opponent activate his own King Tower - "I didn't want to give him an opportunity to activate the king tower. That's why I think that he put it on that tile cuz if I marcher here, then he can activate king with the E spirit" (t=850-856). He also predicts the Evo Tesla defence pairing - "he's going to e spirit plus log, but that's all right with me" (t=917-918) - and calls a wasted one in overtime: "bad e spirit" (t=987).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=189-192 (Electro Spirit at tile [3, 15], t=187.0, HUD elixir 2.0->1.0, right behind Barbarian Barrel at the same tile): the chain stun is aimed at the drill's goblin spawns — "I e-spirited here just to chain on top of the goblins and stuff. And I got a really beautiful E-spirit right there. Putting his tower down to 2,300 HP on both lanes."
+- Seven plays across both roles: defensive chains at [1, 11] (t=11.8), [2, 14] (t=171.5), [3, 15] (t=187.0), [2, 5] (t=255.3), and push glue at [12, 14] (t=51.4) and [15, 14] (t=225.2) alongside the bridge Goblinstein/Royal Hogs.
+- t=145.1 at tile [8, 0]: also used as a 1-elixir cycle card deep in his own half to get back to Goblinstein.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1420.4 (6,12), t=1492.5 (14,14), t=1527.2 (11,14), t=1541.5 (10,14), t=1554.9, t=1566.9 (8,14): thrown at the bridge row over and over as 1-elixir stun plus cycle in a Lava Hound matchup where he never wants to be out of rotation.
+- video t=1554-1557 (attribution caveat): the deploy label reads Electro Spirit but Ryley calls it a fire spirit - "The fire spirit jumps over the bridge which is what I was planning" - and the HUD hand reader agreed with him; the Furnace also spawns Fire Spirits, so the spoken line may describe a spawn rather than the card.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

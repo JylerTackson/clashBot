@@ -356,6 +356,14 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md
 - he pre-accepts that it eats his Wall Breakers rather than holding them back — "he has a cannon which will take out the wall breakers. But it's fine cuz we get a lot of damage here on the left and on the right side as well" (t=95-101).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1167.2 (broadcast clock unreadable): Evo Cannon at tile [9, 12], high and central rather than in the usual pocket, to catch a Battle Ram crossing — "I went for the cannon in the middle just to make sure that I take out that battle ram. I knew that defense could get a little bit tricky against mother witch and wizards".
+- t=1261.3 (Cannon labels at [6, 10] and [9, 9] ten seconds apart): places the Cannon so its range covers the Mother Witch line — "I went for the evo cannon and the log as well just to make sure to take out the mother witch. I was doing a good job at lining up my evo cannons with the mother witches".
+- t=1283.3 [8, 10] and t=1304: cycles a Cannon back purely to keep one on the board and to keep the hand clean — "I went for a cannon as well, just to make sure I kept everything alive", "then I could just cycle my cannon here in the middle".
+- t=1319 (vs bridge-spam pressure): names the Cannon being touched as his own error — "I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

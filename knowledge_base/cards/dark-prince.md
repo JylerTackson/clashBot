@@ -148,6 +148,19 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:03: named as the opposing Giant deck's key defensive card and the reason its last push failed — "he didn't have his dark prince back in cycle yet and that's like his main defense." Never labelled by the detector; identified from commentary only.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1449.4 and t=1452.5, tile (1,14) - the left bridge, as the opening aggression of the game. "Here, I went for the dark prince at the bridge. I wanted to be really aggressive in this matchup" (1453-1456s). He repeats the pattern at t=1550.4 (14,5) and around 1496s: "I'm going dark prince at the bridge on four elixir."
+- video t=1522.5, tile (9,7): placed onto empty ground purely as a prediction. "My goal right now was just trying to make sure that his Valkyrie didn't walk up to my tower. I even pre-dark Prince predicting his Valkyrie cuz I I knew he had the Valkyrie and I wanted to instantly wipe it out" (1519-1528s).
+- video t=1407.7, tile (15,7) (elixir 7 -> 3): defensive use in his own right pocket against the game's one Lava Hound push, with Goblins added at (14,10) at t=1410.1.
+- Heroic Dark Prince, Destructive Dismount used twice: a -3 elixir step at t=1495.7 ("I even ability here. I knew that this ability was aggressive", 1497-1499s) and at t=1571.2 to close the game ("I went for the ability and the fireball on the skelly drags and the rune giant actually pushed the Rhino away and I was able to take up the tower", 1573-1580s). He also declines it at 1461s: "I kind of felt like I wanted to ability, but I decided against it because I could just go for the furnace here."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Mentioned, not played by Ryley — it is the opponent's card and the axis of the whole segment. He expects the opponent to hoard it rather than spend it on a Royal Ghost (t=1683), tries to kite it with a Battle Ram (t=1691), kills it with bridge Elite Barbarians ('I was able to take out the dark prince, which was good', t=1712), commits his Mother Witch specifically 'with him not having dark prince in hand' (t=1727), and dismisses the last one: 'I don't think it actually mattered because his dark prince was going to get knocked away by my battle ram anyways' (t=1747-1750).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dark_Prince (scraped 2026-09-02T02:35:01+00:00)

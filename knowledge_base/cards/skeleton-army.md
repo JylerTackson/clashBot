@@ -211,6 +211,11 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:11 (t=753.6): second Skeleton Army at (9, 10) as a centre defensive drop, planned out loud at 741-742s — "then we can maybe go for a Skeleton Army as well. Make sure that we keep DPSing this all down."
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Mentioned, not played by Ryley — the opponent's 'Skarmy'. It is why he rates Elite Barbarians poorly in this matchup ('If he has Skarmy and... Dark Prince', t=1719-1722) and why he is happy to have Mother Witch in the list ('Skarmy matches', t=1726).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

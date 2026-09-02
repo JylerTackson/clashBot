@@ -235,6 +235,21 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:43: his answer is a mid-board Dart Goblin rather than a spell — "let's go for the dark goblin here just make sure that we take out the zappies" (409-411s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent: eight tracks between t=318 and t=470, and the reason he sends the Royal Giant early - "I went RG because it already took out some Zappy" (352-355s). Later he takes the Fireball trade on them rather than Logging a push: "I just fireballed here on the zap. He's just getting my fireball value" (470-473s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Constant two-lane chip from a bridge-spam opponent (tracked t=1079-1086, t=1199-1218, t=1279-1290, t=1301-1310). Ryley's cheap answers are Skeletons to distract — "I just went for the skellies just to make sure to distract the zappies" (t=1208) — and a Princess placed to hold the lane, which then needs protecting (t=1277-1281).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1719.7: started deepest of anything he played, [9, 1] just in front of his own king tower, so they trail the Valkyrie + Evo Battle Ram bridge push rather than lead it. No commentary on the card.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

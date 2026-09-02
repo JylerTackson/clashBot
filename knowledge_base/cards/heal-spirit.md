@@ -280,6 +280,16 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - overtime (t=1490.5): at tile (16,13) behind the Mother Witch / Goblinstein push — "Heal spirit at the bridge. Yo, he's in a lot of trouble"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1: never played alone - t=338.3 [9, 15] on the Giant Skeleton defence, t=396.4 [14, 14] as part of the bridge package that beats Elite Barbarians ("it would have just instantly died to the Valkyrie, brawler, and heal spirit", 395-401s), t=466.5 and t=487.5 [15, 14] behind the last two Royal Giants (488-490s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1703.7 and t=1733.7: two 1-elixir drops just behind the bridge at [14, 14] and [12, 14] — the first while rebuilding elixir after the mis-clicked Battle Ram, the second riding the final push into the tower alongside the Wild Whirlwind ability (t=1732-1734).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

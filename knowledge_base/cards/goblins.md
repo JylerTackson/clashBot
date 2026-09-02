@@ -171,6 +171,13 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md
 - Opponent card (deploy label 'GobliN3' at t=914.9, arena tracks at [11, 21], [1, 15]). Named as one of the two cards his no-Log list struggles with - "goblins, princess being low cuz we don't have like a log or anything like that" (t=835-838). He answers them by predicting: "then we fire spirit predict the goblins. Nice" (t=920-922), and calls a misplayed set from the opponent - "bad goblins by him as well" (t=1045).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1557.6, tile (15,15), paired with Barbarian Barrel on the right bridge while the Valkyrie was committed left - "guys look at these goblins on the right side. He didn't have anything" (1562-1566s). The enemy right tower read 987 -> 237 over the following six seconds.
+- video t=1410.1, tile (14,10) (elixir 4 -> 2): defensive filler behind a Dark Prince during the opponent's Lava Hound push.
+- video t=1473.5 (0,11) and t=1539.5 (17,13): the cheap half of his bridge pressure pairs - "barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (1501-1504s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

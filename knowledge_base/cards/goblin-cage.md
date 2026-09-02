@@ -148,6 +148,19 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md
 - clock 0:03: he names the Cage plus Fireball as the combination that stopped every push he made - "this just balloon fireball with the cage. It's just so impossible to break through, man."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1: the most-played card of the deck - labels at t=306.3 [8, 11], t=370.4 [9, 10], t=424.3 [8, 11], t=453.3 [8, 10] plus five HUD 4-elixir spends. Central placement is the whole idea: "I just cycled my cage in the middle here knowing that his deck really doesn't have a good reply to cage in the middle. It does get really, really awkward for him whenever I go for the Goblin Cage in the middle" (372-379s).
+- t=392-401s: the released Goblin Brawler is part of his bridge push, not only defence - "I went for the Valkyrie at the bridge with the brawler and the RG because right now, if he went for the Ebarbs, it would have just instantly died to the Valkyrie, brawler, and heal spirit."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=881.9 / 923.9 / 970.0: the stabiliser of a 7-elixir beatdown list — every single Cage in the game goes on his own half ([8, 11], [9, 10], [9, 13]), never as bait or offence.
+- t=1024.0, t=1039.0 and t=1056.1: he re-lays it on the same tile [14, 10] three times in half a minute to hold the right lane against Goblin Drill and Bomber pressure while he fireball-cycles.
+- t=1041: he says why — 'I just made sure to cage on defense once again because I knew that I only needed like two more fireballs and two zaps to finish off the game.' The Cage is what buys the cycles.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

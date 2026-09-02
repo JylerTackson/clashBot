@@ -220,6 +220,18 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md
 - Opponent card, all game (arena tracks at [7, 19], [8, 20], [2, 16], [9, 16], [8, 16]; tesla-evolution detected at t=874). Ryley names the archetype off it at t=802-806: "This guy's actually a log bait Tesla player... he's actually very good at log bait Tesla." He tracks the Evo Tesla's timing as an elixir tell - "he goes for the Evo Tesla late cuz he didn't have the elixir right away. And we just get a bunch of damage, man" (t=871-876) - and plays his Magic Archer low to dodge it: "He might go for a high middle evo Tesla to predict my magic archer" (t=967-971).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=138-147: the opponent's defensive building, and the reason Ryley's Lightning was a good trade — "I knew that if I lightned, he would have to Tesla... I was able to get the Tesla out as well, making it an even trade." Tracked at tile [10, 19] from t=142.1.
+- t=222-226: his Royal Hogs + Archers push is built to pre-empt it — "a nice set of evo piggies plus archers to predict the Tesla because I just wanted to keep on forcing out elixir."
+- t=281-284: he plays around it again late — "I went for the archers e[vo] spear cuz I knew we'd probably have to go for the like Tesla goblins and stuff." Tracked at [9, 19] / [10, 18] / [9, 15] across t=24.0-284.3.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2, Ian's defensive building: tracked at t=566.6, 630.6, 676.7, 738.7, 746.7, 752.8 and 756.8, mostly around [7-9, 15-19], defending the central Golem lane.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

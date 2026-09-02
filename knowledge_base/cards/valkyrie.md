@@ -368,6 +368,31 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md
 - clock 1:24 onward: the tracker reports the Evolution variant escorting the X-Bow damage in the right lane; he calls the repeat before it lands ("he's definitely just going to go for the Valkyrie again", t=1203) and answers it with Fire Spirit + Berserker + Magic Archer + Royal Delivery rather than a single card.
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1 (regular): the Elite Barbarians answer, at the bridge with the Royal Giant (t=390.4 [13, 14]) and defensively up top (t=427.4 [8, 0], t=435.4 [9, 1], t=454.5) - "I went for the Valkyrie here up top just making sure that we take out the Earbs" (455-458s).
+- Game 2 (Heroic Valkyrie): the ability is used as a spell on the siege building instead of defending it - t=683.7 [3, 14], "I went for the Valkyrie plus immediate ability to take out the expo cuz I knew that if I didn't then he could just pop the berserker ability. So that was a very good defense by me" (684-692s).
+- Game 2: ability plus Tornado is the offensive payoff - Valkyrie t=748.7 [15, 14], Tornado t=750.9 [15, 21], enemy right tower 1746 -> 1116 HP: "I do a super nice Valkyrie ability plus NATO... I got up to the tower because of my tornado" (752-762s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- Mentioned only, never played and not in his deck. At t=1017 he names it as the missing piece of a Lava Hound list facing Goblin Drill — 'I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that' — the reason he chose to close the game out normally instead of pushing for a three-crown.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1489-1497 (opponent's Heroic Valkyrie, never fought head-on): Ryley treats the ability as the thing to avoid - "mainly lava pushes with the Valkyrie behind it because I know that the Valkyrie ability can be crazy."
+- video t=1522.5: he pre-places a Dark Prince onto empty ground for it - "I even pre-dark Prince predicting his Valkyrie cuz I knew he had the Valkyrie and I wanted to instantly wipe it out" (1523-1528s).
+- video t=1557-1562: he baits it into the dead lane with a Barbarian Barrel plus Goblins split - "knowing that he'd have to Valkyrie on the left side and he actually Valkyrie[d]."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1727.7 (played as the Heroic Valkyrie): led the closing push at the bridge [13, 15], two seconds ahead of the Evo Battle Ram — 'I went for the Valkyrie. I went for the Evo Ram, guys' (t=1730-1731).
+- Video t=1732-1736: Wild Whirlwind held until tower contact rather than used on the way in — 'I popped the ability, my Valkyrie, when I went up to the tower'; three own elixir drops of 3/3/2 with no readable hand change sit in that window.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

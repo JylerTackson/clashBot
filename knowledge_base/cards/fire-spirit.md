@@ -183,6 +183,11 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md
 - clock OT 1:15 (t=1485.0) and OT 1:04 (t=1496.3): [10, 15] and [9, 11] inside the collapsing right-lane defence — "Go for the fire spirit. And then we delivery as well", "We have to go for the fire spirit."
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1: the deck's cheap clean-up card, played five times (t=355.4 [3, 13], t=395.4 [14, 14], t=420.4 [9, 1], t=460.3 [9, 8], t=488.0 [16, 10]) - "I went for a low fire spirit. I was able to take out everything" (460-464s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

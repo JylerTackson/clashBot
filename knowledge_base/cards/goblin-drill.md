@@ -161,6 +161,20 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 0:13 he calls it in advance ("Our Tesla is going to stop him from going in for a second. He's going to drill again") and at overtime 0:40 a Goblin Drill surfaces at tile (14, 5); his standing answer is a Tesla placed in front of the tower rather than a mid-lane pull.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- Opponent's win condition in this game, and Ryley explains why it was drafted against him at t=78-89: "Very smart pick by him though, picking Goblin Drill... I guess he kind of knew that I would try to counter expo with maybe a Goblinstein deck. So, having Goblin Drill against a Goblin Stein deck is usually pretty good cuz the Goblin Stein is really, really bad against a drill."
+- t=232-245, the general lesson he draws for playing against it: "Sometimes against drill players, if you're not aggressive enough, they can just spam you like crazy and you can just easily just get overwhelmed by the constant drills. So, if you're like constantly going in, then it makes it hard for them to go in a second time really, really quickly." He measures his own success by it: "I was never really letting him go for like more than one drill at a time" (t=227-231).
+- t=160-171, on the chip damage: "Just making sure that I'm taking no damage from the drill every single time that I possibly can because the damage adds up really quickly. And later on in the game... when he's just going drill over and over again in triple elixir, I just need to be able to have a little bit of a damage lead to be able to hold on."
+- t=201-203 and t=253-260, the two concrete answers he uses: Bomb Tower on the drill ("I was always trying to make sure to catch the drill with the bomb tower if I could") placed on the likely spawn tile ("it's on top of the last spawn, so I don't have to worry about the final or the left side spawn mostly", Bomb Tower at [3, 3], t=250.2). Only one drill was actually detected by the pipeline (tile [8, 17], t=42.0) despite eleven transcript mentions.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- Mentioned, not played — it is the opponent's card (labels at [2, 6] t=959.0 and [14, 6] t=1045.0). Ryley names it as the reason he had to stop hunting crowns: 'in this uh lava deck, even though lava does counter drill... I don't actually have any drill defense' (t=1009-1015).
+- t=1061: he shrugs off the last one because the game was already decided — 'he did switch it up with the drill in the back, but it didn't really matter.' His practical answers were Goblin Cage on the drill tile plus Berserker / Skeleton Dragons on the spawned goblins.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

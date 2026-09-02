@@ -242,6 +242,14 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - It doubles as the defence he plans around: at clock 0:28 the Fire Spirit finishes a defence he had already budgeted a Barbarian Barrel for — "Oh my god, we didn't even need the barb barrel. Wow. That actually was so, so clean... that fire spirit jump." He also spends Skeletons purely to protect it (clock 0:05, "Skellies here as well just to keep the furnace alive").
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1385.4 (9,0), t=1402.4 (9,8), t=1444.4 (8,0), t=1463.5 (8,0), t=1506.5 (9,9), t=1529.5 (9,8): six back-centre Furnaces in ~145 s against Lava Hound beatdown, cycled deliberately to reach the Evolution - "So then I went for the evo furnace" (1510s).
+- video t=1550.5, tile (8,15) - the river row: a deliberately high Furnace placed while the opponent was pinned defending Royal Hogs. "I even went for a high furnace here because I knew that he would have to continue defending the piggies" (1549-1554s). (Logged as the opponent's by the pipeline; it is his.)
+- video t=1464-1476: he treats the Furnace as unspellable while Evo Royal Hogs are in cycle - "he still had to deal with the furnace. I was just kind of abusing the fact that he couldn't really spell my furnace away because he had to watch out for the evo piggies."
+- video t=1531-1543: paired with Goblin Hut so one Evo Zap cannot clear both - "since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

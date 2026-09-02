@@ -154,6 +154,17 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md
 - He rates the whole X-Bow/Collector matchup as the worst one his bait deck can draw — "this is probably the worst possible matchup we could have gotten for our deck" (t=1100-1105) — and closes with "Well, I found the deck that can beat us, guys" (t=1265).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- Mentioned, never played: Ryley drafted this deck to beat it, because the opponent is "very popular for being the best Expo player in the world. So obviously with our first deck here we made sure to have a solid matchup against Expo" (t=65-75, transcript renders X-Bow as "Expo"). The opponent read the counter-draft and brought Goblin Drill instead (t=75-84), so no X-Bow appeared in this game.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2, Ian's win condition (the auto-transcript renders it "expo"): placed at t=550.5 [15, 16], t=646.6 [2, 16], t=686.7, t=706.7 and t=728.7. Ryley's structural answers are a central Golem so it cannot switch lanes (624-628s) and a central Tombstone to tank it (702-705s).
+- His preferred kill is the Heroic Valkyrie ability at the bridge (t=683.7) rather than a defensive stack (684-690s), with Lightning + Barbarian Barrel as the backup (610-616s). The Baby Dragon + Valkyrie answer to the first one is the play he calls a mistake: "after the expo rework, it just wasn't that great of a play" (582-590s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

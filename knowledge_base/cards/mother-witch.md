@@ -352,6 +352,22 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - clock 0:53 (t=1424): her Cursed Hogs become a Zap retarget target — "I'm going to zap here to retarget that to the piggy"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent: tracked at t=344.3 [8, 17] and Fireballed at t=429.4 [4, 28] - "I just fireballed the mother witch, kind of just assuming he was going to go giant skelly in the back, but I was confident in my defense" (432-439s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1191.2 (9, 15) and t=1263.3 (7, 15): the card Ryley's Evo Cannon placement is built around — "I was doing a good job at lining up my evo cannons with the mother witches" (t=1265), and she is named with Wizard as what makes defence hard — "I knew that defense could get a little bit tricky against mother witch and wizards" (t=1173).
+- t=1143.1 (11, 19): used by the opponent as a clean answer to a bridge Evo Princess, which Ryley rates — "He got a nice mother witch, but I was just going to log this anyways. It was a smart play by him. They're just making sure to take no princess damage early on".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1720.7: placed from the back at [11, 7] as support for the counter-push against a Skeleton Army deck. He grades his own timing down: 'I went for a mother witch — that was not the greatest, Skarmy matches, with him not having dark prince in hand' (t=1724-1728), i.e. commit her on the opponent's hand state, not on elixir alone.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

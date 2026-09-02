@@ -186,6 +186,25 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md
 - clock 1:16-0:35: opponent Skeleton Dragons cross into Ryley's right lane behind the Lava Hound (tracks at (12, 15)/(13, 15) at 1:16, a fresh pair at (5, 24) at 0:35) and are the units that finish his right tower off; he defends them with Mother Witch and Barbarian Barrel rather than trading elixir evenly - "just to not get three crowned."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 3 fragment: played at t=818.8 [14, 5] alongside the Lava Hound; the segment ends before the push resolves.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=877.9 / 895.9 / 907.9 / 976.8 / 1024.7 / 1058.1: his most-deployed card of the game (six labels), and the default answer to anything ground-based that gets past the Cage — 'I went for the skelly dragons on defense as well just making sure to take this all out' (t=977).
+- t=910: the specific defensive use he narrates is against a Bomber walking on his left tower — 'here I went for the skelly drags on the bomber' — with Rune Giant and Inferno Dragon on the same tile.
+- t=999.0 and t=1043.0: also thrown offensively onto the opponent's half at [3, 21] and [8, 20] once the left crown tower was down, as the air payload behind the Lava Hound against a deck with no anti-air.
+- t=1060: still cycling them in the closing rotation — 'I went for another cage here, guys. I went for the skeleton dragons. He did switch it up with the drill in the back, but it didn't really matter.'
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1507.5 (1,22) (opponent's card): Ryley's bridge spam forced them out as the only available answer - "I knew I'd force out the skeleton dragons there cuz obviously he didn't want to play anything else. So then I went for the evo furnace" (1504-1510s).
+- video t=1571.6: they became the Fireball target that closed the game - "I went for the ability and the fireball on the skelly drags" (1573-1576s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

@@ -301,6 +301,13 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md
 - Opponent card, present in both lanes for most of the game (arena tracks at [13, 19], [4, 21], [7, 20], [16, 15], [12, 17]). Ryley names her as a problem card for a Log-less bait deck (t=835-838) and uses the Bomb Tower's placement to shut the lane off - "us going for this bomb tower is also going to prevent him from going for any princesses on the right side, which is very good" (t=908-911). The finishing Magic Archer is aimed through her: "Just march on the princess and this is game over, man" (t=1077).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Evo. t=1136.1 [15, 14]: bridge chip squeezed in behind a Royal Delivery — "I went for the delivery on the barbarian barrel and I tried to sneak in a nice evo princess at the bridge at the final second"; the opponent's Mother Witch answered it.
+- t=1195.2 [14, 15]: states the precondition for the bridge Princess — "because I had a free cannon on the board, I also knew I could princess the bridge. He does grab it with the wizard, which was good by him, but it's still good to make these plays in my opinion. Just trying to get some, you know, slick damage on the tower here and there".
+- t=1271.3-1292.3 [2, 14] (repeated labels): defensive placement to hold a Zappies lane — "I went princess on the zappy. I knew that I would have to protect it". Also placed deep in his own corner at t=1103.1 [9, 0] and t=1246.2 [8, 0] against swarm pressure.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

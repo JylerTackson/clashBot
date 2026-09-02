@@ -158,6 +158,16 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 1:10 (t=108.1): a second Giant Skeleton at [13, 21] was answered with Tesla, Skeletons, Barbarian Barrel and the Berserker ability - "It's going to keep this alive and make sure to take out the giant skelly or at least most of it" (t=151-154).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent: tracked at t=330.3 [4, 18], t=334.3 [4, 16] and t=404.4 [14, 17]. One sighting identified the whole list - "After I saw the giant skelly, I knew his deck" (336-338s) - and he answers the first one with Heal Spirit + Valkyrie (t=338.3, t=340.8) and the second with The Log (t=403.4, "to help take out the giant skelly", 404-406s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- The card this cycle deck spends the most on (5 commentary mentions). Tracked at (13, 19) t=1249.2, (2, 13) t=1297.3, back-placed at (12, 21) t=1329.3. Answered three different ways: Berserker alone (t=1186), Berserker + Savage Survival + Royal Delivery (t=1297-1304, "I actually did block the giant skelly with the berserker"), and a Rocket (t=1209-1211).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

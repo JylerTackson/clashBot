@@ -216,6 +216,17 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - Named but never played in this game: at clock 0:52 overtime (t=1005), with the ground defence stalemated and the opposing Hero Valkyrie surviving everything, he states the plan - "It's fine. I think I'm going to start rocket cycling." The game ended (t=1051, "Very nice win") before he cast one.
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2, Ian's spell, identified mid-game at t≈638 - "there is when I realized he had a rocket, which was kind of unfortunate. My whole plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (637-646s). The upside he takes from it: Rocket instead of Fireball freed him from spell-dodging Tombstone placements (646-657s), and having it spent on his tower at the end confirmed the win (784-791s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1209.2-1210.9 (elixir 9.0 -> 4.0, label in column 4): Rockets a Giant Skeleton on defence and justifies it as hand management — "I rocketed the giant skelly as well. I knew that this might be a little bit risky, but I did think that I would be able to defend, but I also knew that like sometimes I need to do plays like that otherwise my hand is just going to be way too awkward to try and defend here".
+- t=1325.3-1338 (Rocket label fires but elixir only moves 8 -> 6, i.e. no cast) with an opponent Giant Skeleton back-placed at (12, 21): the declined Rocket that loses him the game — "I got scared of rocketing, man. I just should have rocketed and I don't know why I didn't... I thought I could just rocket at the end. Um, but you know, I couldn't take the decision back".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

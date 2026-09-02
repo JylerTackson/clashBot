@@ -454,6 +454,22 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - clock 0:03 (t=1481): Evo Elite Barbarians in the top lane specifically to kill the opponent's Hero Berserker — "I'm going to evo Ebarbs up top cuz I'm going to snipe the Berserker"; earlier he notes Ebarbs at the bridge also deny the Royal Giant (t=1440)
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent's card, never cleanly detected but played around all game. Ryley's answer package is Valkyrie + Goblin Brawler + Heal Spirit - "if he went for the Ebarbs, it would have just instantly died to the Valkyrie, brawler, and heal spirit" (395-401s) - and he cycles to the Evolved Royal Giant because its knockback handles them (359-366s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Opponent card, spoken only as "the ebar" in the auto-transcript. Named as Ryley's own mistake late in the game — "I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit" (t=1319-1323).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1700.7: bridged at [14, 15] purely as a cycle-disruption play, not for damage — 'I just went in with the Ebarbs here. Not because I knew that I was going to get through and not because I was upset, but because I wanted to mess up his cycle. I was able to take out the dark prince, which was good' (t=1705-1712).
+- Video t=1717-1722: he rates them badly into log bait with a Dark Prince — 'the Ebarbs aren't really that great in this match. If he has Skarmy and... Skarmy and Dark Prince' — and pivots to setting up the Evo Battle Ram push instead.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

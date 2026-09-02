@@ -288,6 +288,14 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md
 - clock 2:40 (t=1280.3): opened with it at [7, 10] behind the split Wall Breakers; it is the deck's only building and the whole ground defence, cycled five times in 264 s.
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=201-203: the designated Goblin Drill answer — "I was always trying to make sure to catch the drill with the bomb tower if I could" (Bomb Tower at t=206.0, HUD elixir 8.0->4.0).
+- t=148-151 (Bomb Tower at tile [9, 13], t=147.3, HUD 9.0->5.0): the high-middle placement is chosen against a specific card — "here I went for the high middle bomb tower just to make sure that I protect against the bomber."
+- t=253-260 (Bomb Tower at tile [3, 3], t=250.2; same tile again t=291.3): the deep-back placement is chosen against drill spawn tiles — "I bombed in the back. I really like this placement here because, as you see, like it's on top of the last spawn, so I don't have to worry about the final or the left side spawn mostly."
+- Nine plays in 298 s (t=127.1, 147.3, 155.3, 206.0, 235.2, 250.2, 268.3, 277.3, 291.3), the deck's only building and the backbone of every narrated defensive sequence.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

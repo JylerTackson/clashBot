@@ -185,6 +185,12 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 1:01-0:56: he tracks it as the opponent's only spell for the hogs — "he probably only has arrows actually now that I think about it" (960-961s) and "He might go for like the arrows" (964s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1736.7: cast at [14, 26] on the enemy tower on top of the Valkyrie + Evo Battle Ram + Heal Spirit push — 'I went for the arrows, guys. And I took out the entire tower in one push' (t=1740-1743). Enemy right tower 2954 -> 716 HP between t=1738 and t=1740.
+- Arrows is in this list as a bait counter rather than a cycle spell: every card he names on the opponent's side in this segment (Skeleton Army, Princess) is an Arrows target.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

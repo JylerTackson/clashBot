@@ -187,6 +187,13 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - Mentioned only, as the matchup where he thinks a centre Mortar is justified — "I know in some match ups it's better like maybe against a Baby Dragon deck" (t=1255-1257).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1: corner placement as a prediction - t=381.7 [2, 2], "I went for the baby dragon in the corner, kind of just assuming he would go for another giant skeleton" (382-386s); earlier he plays Royal Giant partly to farm value with it (348-357s).
+- Game 2 (Evolved): held for two-lane clears - t=629.6 [15, 15] "I just had a nice evo baby dragon ready" (631s), t=670.7 [9, 15] "knowing that I'd be able to take out both of the archers on each lane" (669-676s), t=706.9 [2, 14] paired with Ice Wizard onto an X-Bow (705-711s).
+- Game 2: the plan dies to Rocket - "my whole plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (640-646s); the Baby Dragon + Valkyrie trade on the first X-Bow (t=558.2) is the play he calls his own mistake (582-590s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

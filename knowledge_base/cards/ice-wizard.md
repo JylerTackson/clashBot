@@ -173,6 +173,12 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md
 - clock 2:20-2:04: the opponent's answer to the Goblin Barrel, arriving late — "yeah, he goes for the ice wizard, but that's going to be a ton of damage" (t=724-726); Ryley then kills it with Royal Delivery at tile [5, 15] (clock 2:04).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2: back placement chosen for lane geometry - t=596.8/604.6 [8, 0], "I went for an ice wizard in the back just to go towards that one side evo archer because if he went for the expo on the right, I could just go for the lightning plus barbarian barrel" (606-614s).
+- t=707.7 [6, 15] paired with Baby Dragon to kill an X-Bow - "I could just go for a baby dragon plus ice wizard as well just to take out this xbow" (705-711s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

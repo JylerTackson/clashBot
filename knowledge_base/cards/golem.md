@@ -166,6 +166,13 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md
 - mentioned but never seen. Ryley raises it as a possibility for the opponent's deck - 'there's also like a decent chance that he just has golem as well' (t=832-836) - and retracts it eight seconds later once an Electro Spirit shows up (t=841-843).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2 (t=502-796) vs Ian's X-Bow: one back Golem at t=539.2 [8, 0] (elixir 10.0 -> 2.0), then every later one dead centre (t=621.6 [9, 9], t=663.8 [8, 9], t=700.7 [8, 8], t=763.8) - "You always want to put your golem in the middle so they're not able to go for the expo [X-Bow] in the opposite lane" (624-628s).
+- Two of the central Golems are safety cycles rather than pushes - "I just cycled a golem in the middle just to be safe because I didn't really want to have to worry about anything" (663-668s).
+- t=773-781s: against siege the tank is not the thing at risk - "I wasn't worried about him actually stopping the golem. I was worried about just like him stopping my spell cycle, but I knew that I'd be able to cycle back to another lightning."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

@@ -208,6 +208,25 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md
 - clock 1:14: the Hound push plus Skeleton Dragons take his right tower from 3583 to 584 and activate his King; his stated goal becomes "just to not get three crowned cuz being three crowned is actually a very big worry in this type of situation."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 3 fragment (t=798-842): deployed at t=811.8 [16, 1] behind the tower. The pick is about unpredictability, not the matchup - "I decided to go for Lava Hound because I did feel like Lava Hound would be pretty unpredictable... I hadn't used a single Lava Hound deck in all of CRL this month" (796-807s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=873.5 / 929.9 / 963.0 / 1020.0 (no clock readable in this video): the win condition of his CRL qualifier list, cycled four times in 150 s — labels at [8, 21], [16, 9] and [16, 14] plus three matching 6-elixir HUD drops. He swaps lanes once the left crown tower is down, sending the later Hounds up the right at [16, 9] and [16, 14].
+- t=920: the whole reason he picked the air plan — 'I wanted to get the three crown cuz I knew that Ian's deck had no air defense, which was very like lucky by me.' Every attacking card he plays behind the Hound is also air (Skeleton Dragons, Inferno Dragon).
+- t=1009-1021: he names the Hound deck's blind spot in the same breath — 'in this uh lava deck, even though lava does counter drill... I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that. So there was a real possibility that I could choke the game if I wasn't careful.'
+- t=1052: the pups finish the job, not the Hound — 'I firealled that berserker just trying to get some lava pup spits on the tower.'
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1391.4 (17,24) and t=1513.5 (17,26) (opponent's card): the only Hound push that landed came in the first 40 s of the game, dropping Ryley's right tower from 3052 into the ~720-1720 band by t=1428. He then prevented the rest by pressuring rather than defending - "I was just constantly spamming him because I don't want to let him get many lava hound pushes, mainly lava pushes with the Valkyrie behind it because I know that the Valkyrie ability can be crazy" (1482-1492s).
+- video t=1464-1470: the reason the second Hound never became a push - "he couldn't really lava hound because I had the evo piggies in cycle and he still had to deal with the furnace." He flags the one window he gave up at 1510-1513s: "here is when I knew he had an opportunity to go in for a lava, but otherwise I did a really good job at pressuring throughout the game."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

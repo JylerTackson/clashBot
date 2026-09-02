@@ -48,6 +48,15 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - The failure mode is the same as the deck's strength: with one Rocket and no reset button, a declined Rocket (t=2196-2207) plus a misplaced Cannon (t=2217) let a Mother Witch and Elite Barbarians live, and the towers went from healthy to 363/1009 HP with the king at 266 by t=2248 — "I actually lost because of that, man".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Original CRL qualifier upload of the duel vs Sandbox (bridge spam), video t=1073.2-1338.2; the same duel appears in the compilation video as 9tx2iYsSmMw-m0.8. Ryley names the list "this Rocket Cycle deck" and states the plan at t=1081-1087 — "I just felt like any matchup I trust my defense, I can win". Result: loss (stated at t=1362-1377, just past this segment's split).
+- Cycle rhythm in numbers: over 265 s he places the Evo Cannon 7 times (t=1091, 1167, 1191, 1225.6, 1251, 1261, 1283) and layers Ice Spirit (~11), Skeletons (~9), Berserker (~11) and The Log (~10) on top of it; nearly every Log and Skeletons cast is on his own half. The deck's whole job is to be back at the Cannon before the next bridge push lands.
+- Deep-defence peak at t=1225-1244: an evolved Battle Ram in one lane and evolved Barbarians in the other are held with Cannon + Ice Spirit + Royal Delivery + Skeletons + Log while his elixir sits at 1-3 for ~16 s, for ~70 HP of tower damage — "Was taking absolutely no damage, but I was down five elixir" (t=1240-1244). He explicitly flags the caveat: that push had both of the opponent's Evolutions in it (t=1245-1259).
+- Offence is conditional. The Evo Princess goes to the bridge only when a Cannon is already banked (t=1195.2 — "because I had a free cannon on the board, I also knew I could princess the bridge"), and the single Rocket is spent on defence when the hand would otherwise jam (t=1209-1211, on a Giant Skeleton).
+- The failure mode is holding the Rocket. With one heavy answer and no reset, declining the Rocket on a back-placed Giant Skeleton at t=1325-1338 ("I got scared of rocketing, man. I just should have rocketed") plus a Cannon that got touched at t=1319 is what he blames for the loss, from a position where he had said "All I had to do was defend for another 50 seconds and this game would be mine" (t=1310).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 Observed in ryleycr1's video "https://www.youtube.com/watch?v=9tx2iYsSmMw"; classification by agent.

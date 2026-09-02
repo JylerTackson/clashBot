@@ -435,6 +435,32 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md
 - clock 0:42 (overtime): the stated goal of the last Wall Breakers - "We're going to force him to go for the barb barrel" (676-677s). (Ryley's own deck does not run it this game; every mention here is about the opponent's card.)
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=204-207: used pre-emptively rather than reactively against drill goblins — "I even barbarian [barrel] just to make sure that I'd be safe from taking any type of damage" (Barbarian Barrel at [3, 8], t=202.2).
+- t=153-155: paired with a low Archers placement as a two-card answer that also dodges the opponent's Poison — "I went for the barbarian [barrel] plus low archers just to avoid the poison" (t=152.0 at [3, 8], t=153.2 Archers at [6, 1]).
+- t=274-276: he tracks it as a cycle resource against a faster deck — "I was a little bit worried right here cuz I knew he was going to outcycle my barbarian [barrel]."
+- Eleven plays, almost all on the left lane the opponent's Bomber and drill goblins walk down: [8, 14] (t=41.0), [3, 5] (t=120.8), [3, 8] (t=152.0, 202.2, 270.3), [3, 15] (t=185.2), [3, 3] (t=251.3), plus HUD-only casts at t=60.6, 214.9, 240.4, 280.3.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2: t=543.9 [6, 7] "I barbarian barreled on the berserker" (544-546s), then t=612.6 [9, 4], t=649.3 [2, 12] into the left-lane X-Bow, t=692.7 [14, 15], t=735.7 [4, 15], t=774.8 [9, 15].
+- Held as half of a reserved two-card X-Bow answer with Lightning - "if he went for the expo on the right, I could just go for the lightning plus barbarian barrel" (610-616s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Opponent card, not played by Ryley. He spends a Royal Delivery on it rather than letting it clear his ground troops — "Here I went for the delivery on the barbarian barrel" (t=1134).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1448.4, tile (8,8): rolled from deep on his own half so the Barbarian walks up as support, not for the roll damage - "I even barbed lower just to have a more supported dark prince" (1456-1460s).
+- video t=1483.0 and t=1490.8 (elixir 3 -> 1 each): thrown at the bridge back-to-back to deny the Hound start - "I instantly went barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (1501-1504s).
+- video t=1557.6, tile (14,15) alongside Goblins at (15,15): the opposite-lane bait. "I even went for the barbar plus goblins opposite lane kind of just knowing that he'd have to Valkyrie on the left side and he actually Valkyrie[d]" (1557-1562s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

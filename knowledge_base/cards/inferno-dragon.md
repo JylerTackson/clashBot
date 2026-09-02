@@ -195,6 +195,14 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md
 - clock 2:04: he calls out a misplaced one as a free window - "Ooh, that was a bad inferno dragon" - and immediately puts a Cannon Cart down.
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=911.9: layered onto [3, 5] with a Rune Giant and Skeleton Dragons against a Bomber push — 'here I went for the skelly drags on the bomber and then I went for the inferno dragon as well' (t=910).
+- t=936.9 and t=941.9: two more in six seconds, one at [8, 20] on the opponent's half and one at [13, 14] defending his own — 'and then I went for another inferno dragon. I knew that if he really wanted to, he would be able to keep on defending' (t=945).
+- t=988: used as a crown-hunting damage card rather than a tank-killer — 'I went for the inferno dragon on the king tower because like I said I did really want the three crown if possible.'
+- t=1032.0: the last one at [15, 14], right on the bridge tile — 'I went for the inferno dragon at the bridge as well, kind of just knowing that, you know, this game was over.'
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

@@ -351,6 +351,20 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md
 - Opponent card. Ryley frames his own deck's weakness around not having one: "we do have a very difficult time dealing with uh some of his stuff like, you know, goblins, princess being low cuz we don't have like a log or anything like that. So, we have to be very very cautious" (t=833-840). He also plays his spirits around a predicted Log - "He might log predict us. No, he doesn't. That's good, dude" (t=1027-1031) - and reads a wasted one in overtime: "Bad log as well" (t=986).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1: t=364.4 and t=403.4 [14, 15] "to help take out the giant skelly" (401-406s), t=444.3 [13, 15], and t=498.3 [14, 15] as the finisher - "I got the hit and I just logged the tower" (493-496s).
+- t=464-473s: an explicit decision not to Log - "I didn't even bother going for the log, even though I could have went log and probably saved like a good 800 damage. I just fireballed here on the zap[pies]."
+- t=424-428s: its blind spot against a Heroic Wizard using Fiery Flight - "log doesn't hit the air whenever he pops the wizard up, I literally cannot kill it."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1189.2 [12, 13], paired with an Evo Cannon onto a Mother Witch — "I just went for the log and the evo cannon just to make sure to take that off the board".
+- t=1140.1 and t=1143.1 [13, 15]: logs a Mother Witch that had just answered his bridge Princess, and says he intended to anyway — "He got a nice mother witch, but I was just going to log this anyways".
+- t=1237.2 [3, 12] and t=1281.3 [2, 15]: used on his own half as the finisher of a Cannon-anchored defence — "I got a really good log here on defense as well" (t=1238), "I went for a really good log here" (t=1283). Across this game all ~10 casts are defensive and on his own half.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

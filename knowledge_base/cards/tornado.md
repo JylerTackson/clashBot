@@ -210,6 +210,12 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md
 - clock 2:43-2:36: mentioned only, never played - the auto-transcript renders it as "NATO". Its absence from the opponent's deck is the read that governs Ryley's barrel placement all game: "Good thing that he didn't have [Tornado] in cycle. Maybe he's playing the boss bandit bridge spam deck though and he doesn't have [Tornado] in his deck at all. But next time I barrel, until I figure out if he has [Tornado] or not, I will not be putting it there" (436-445s), then "I don't think he has [Tornado], so I'm just going to put it in the regular spot" (462-464s).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2 ("NATO" in the auto-transcript): defensively to pull archers into the Golem - t=684.5 [12, 18], "I just NATO'd the archers into the golem again" (681-684s); also t=520.0 [2, 16], t=568.6 [13, 21], t=635.6 [12, 18].
+- Offensively with the Heroic Valkyrie ability for the game's biggest damage - t=750.9 [15, 21], "look at that Valkyrie, guys. I got up to the tower because of my tornado. Very good NATO right there" (754-762s); a last one at t=780.8 [14, 21] on the winning push.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

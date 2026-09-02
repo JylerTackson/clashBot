@@ -142,6 +142,11 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md
 - Opponent card (arena track at [5, 17] at t=1001). Killed early by Ryley's Magic Archer on his own bank: "Oh, nice magic archer timing, actually. Grabbing our two shots and fully taking out that prince" (t=816-819), and later he holds an Ice Spirit specifically for it - "I have the ice spirit ready here for the potential prince at the bridge" (t=876-880).
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1433.4 (8,19) and t=1489.5 (3,19) (opponent's card, arena detection only): present in the Lava Hound / Rune Giant list but never named in this game's commentary.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

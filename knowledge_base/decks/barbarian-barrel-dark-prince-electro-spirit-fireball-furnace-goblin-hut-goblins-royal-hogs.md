@@ -48,6 +48,16 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - Defence is Dark Prince + spawner chip, played on prediction rather than reaction — a pre-placed Dark Prince at [9, 11] (t=2393) against a Valkyrie that had not yet been shown — and the game closes with the Heroic Dark Prince dismount plus Fireball (t=2441-2448).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- CRL qualifier duel set, game 2 (video t=1379-1582 of https://www.youtube.com/watch?v=5nOaTBlYLlg): won, taking a tower against a Lava Hound / Rune Giant / Heroic Valkyrie beatdown after losing game 1 on a different list. Ryley names the deck at 1442s - "he had a lava hound rune giant deck with the Valkyrie, and I had a nice Goblin Hut Piggies deck" - with Evolutions on Furnace and Royal Hogs and the Heroic Dark Prince.
+- The pilot plan against beatdown is denial, not defence: "I was being really really aggressive in this game just over and over again. I was just constantly spamming him because I don't want to let him get many lava hound pushes" (1480-1486s). Dark Prince at the bridge at t=1449.4/1452.5 and again around 1496s, Royal Hogs split at t=1476.5, Barbarian Barrel plus Goblins at the bridge at t=1483-1503 and t=1557.6.
+- The two spawners are protected by the Evolution in hand rather than by placement: "he couldn't really lava hound because I had the evo piggies in cycle and he still had to deal with the furnace. I was just kind of abusing the fact that he couldn't really spell my furnace away because he had to watch out for the evo piggies" (1464-1476s). Six Furnaces and two Goblin Huts went down between t=1385 and t=1550, including one Furnace at the river row (t=1550.5) while the opponent was pinned defending Hogs.
+- One spell is not enough against the double-spawner block: "since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace. So I was able to defend this push very very easily because of that" (1531-1543s).
+- Fireball is the actual win condition once the huts have chipped: "His tower was in a two fireball range so I knew that the odds of me winning this game were very high" (1567-1571s). The finish at t=1571.2-1571.6 was the Dark Prince Destructive Dismount plus Fireball on the Skeleton Dragons; enemy towers ended the readable window at 305 and 237.
+- The known weakness showed early: the deck has no dedicated air defence, and the single Lava Hound push at t=1391-1428 took Ryley's right tower from 3052 down into the ~720-1720 band before he stabilised.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 Observed in ryleycr1's video "https://www.youtube.com/watch?v=9tx2iYsSmMw"; classification by agent.

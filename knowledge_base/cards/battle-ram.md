@@ -302,6 +302,17 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - overtime (t=1496-1502): a deliberately delayed ram placed further back to dodge Fireball, with Barbarian Barrel in front — "we can maybe do a delayed ram. Let's ram a little bit back so we can't fireball immediately. And we're going to barbarian barrel at the bridge, too. Maybe could tank for the battle ram"; it connects at t=1505 for the win
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Tracked at t=1092-1098 (connects, own right tower 3052 -> 2505 HP), t=1168-1174, and as an evolved Battle Ram t=1222-1236. Ryley's stated answer is a centrally placed Cannon — "I went for the cannon in the middle just to make sure that I take out that battle ram" (t=1167).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- CRL qualifier decider, no readable clock (video t=1691.0): used as a *defensive kite* on his own half at [8, 10], elixir 9 -> 5, aimed at the Dark Prince — 'I was debating between Ebarbs and BM kite, but then I decided to just kite the dark prince with the [Battle Ram]'. He mis-placed it: 'I misclicked at the last second, bro... I lost half of my tower just misclicking' (t=1693-1698), right tower 2677 -> 1613 HP.
+- Video t=1729.7: the Evolution Battle Ram at the bridge [15, 14] as the win condition of the closing push, behind the Valkyrie — 'I went for the Evo Ram, guys' (t=1731). He also treats it as a passive Dark Prince answer: 'his dark prince was going to get knocked away by my battle ram anyways' (t=1750).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

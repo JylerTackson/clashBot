@@ -238,6 +238,18 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md
 - opponent card, commentary only. He guesses it is their win condition - 'He might be playing that one control deck where he doesn't even have a win condition and he literally just has um a sk like a tombstone skeleton queen for a wing [win] condition' (t=819-830) - and then picks the card that beats it: 'we can go for the Evo Batter here. And he's in a lot of trouble cuz Evo Batter is really good against Tombstone' (t=845-849).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2 (Heroic Tombstone): six central, deliberately offset placements (t=529.2 [9, 9], t=594.6 [7, 10], t=641.6 [8, 9], t=667.7 [8, 9], t=701.7 [9, 9], t=732.7 [8, 9]) - "I was doing these weird tombstone placements. And the whole reasoning behind that was because of the potential fireball cycle" (649-656s); he stops once Ian's spell turns out to be Rocket.
+- It is also the X-Bow tank: "once again I just went for the tombstone in the middle just to make sure that I tank for a future expo" (702-705s).
+- In triple elixir the Regal Revive ability becomes the win condition (the auto-transcript hears the Tomb Queen as "skeleton queen") - "in triple elixir I can start popping the skeleton queen ability and that thing is so, so tanky that it's extremely hard for him to actually defend for no damage throughout the game" (719-731s), fired around t=744 after the t=732.7 Tombstone.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1427.4 (9,18) and t=1577.6 (9,15) (opponent's card, arena detection only, never discussed): its skeletons are the units tracked walking into Ryley's left lane at t=1434-1443, which he answered with the spawner chip rather than a card.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

@@ -185,6 +185,16 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 1:55 and 1:17 (t=691, t=729-731): the Wizard becomes the card he must remove to survive - "that was a good uh Wizard though" and "Berserker on the King. I have to take this Wizard out, dude. I have to."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Mentioned, not played by Ryley. In game 1 the opponent's (Heroic) Wizard at the bridge around t=388 is the mistake that loses him the game - "right here, he made a massive mistake. He went for a wizard at the bridge" (386-389s) - because it is the deck's only real Royal Giant answer: "he's just able to go wizard plus ability. And since I don't have a monk and log doesn't hit the air whenever he pops the wizard up, I literally cannot kill it" (420-428s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Mentioned twice, never on Ryley's side. Named as a defensive problem alongside Mother Witch (t=1173-1175), and used by the opponent to kill his bridge Evo Princess — "He does grab it with the wizard, which was good by him" (t=1200).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

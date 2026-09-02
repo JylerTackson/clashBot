@@ -240,6 +240,13 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md
 - clock OT 1:14 (t=1487.5) and OT 0:45 (t=1516.5): [15, 15] and [14, 15], both into the overtime Balloon/Wizard pushes on his right — "And then we delivery as well", "So, it's delivery here. Fire spirit."
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1133.1 [15, 11]: used pre-emptively on the opponent's small spell — "Here I went for the delivery on the barbarian barrel".
+- t=1227.2 [12, 13]: part of the three-card hold at 1 elixir — "I went for the cannon and the ice spirit and the royal delivery on defense as well".
+- t=1299.3 [12, 14]: stacked on the Berserker ability to maximise damage on a Giant Skeleton — "I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

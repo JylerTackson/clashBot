@@ -417,6 +417,13 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md
 - clock 2:45 (t=1275.1): opens the game with it at [4, 15] off full elixir, the cheapest possible probe before the Bomb Tower and split Wall Breakers.
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1229.4 [9, 12] (elixir 2.0 -> 1.0): the freeze that made a 1-elixir defence hold — "That was a very good ice spirit as well if you guys noticed cuz he didn't actually end up like splashing the ice spirit. It just ended up defending perfectly".
+- t=1267.3 [8, 13]: spent to pick off a Mother Witch's curse bomb — "I went for the ice spirit here just to grab that".
+- t=1316.6 [12, 12] as the top-up on a Royal Delivery + Berserker defence — "I went for the delivery berserker and I even got a nice ice spirit as well".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

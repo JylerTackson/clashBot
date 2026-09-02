@@ -176,6 +176,14 @@ Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk
 - clock 0:52-0:42: the opponent's Evolution Royal Giant is the push that takes Ryley's right tower 3052 -> 1959. His answer is a swarm-plus-building package, and it is conditional: "because he has no barbarian barrel skarmy is a free RG defense. If he goes yep, let's just skarmy cannon and then we go for the ice spirit as well" (626-632s).
 <!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1 (t=307-500): played at the bridge every time and never behind the tower - t=326.3 [15, 15] (elixir 8.0 -> 2.0), t=389.4/393.4 [13-14, 15], t=464.8 [14, 14], t=485.5 [14, 15]. The first one is a deliberate answer-to-the-answer against a Giant Skeleton: "if I just set up a defense in the back, he's able to do the exact same thing, except he just has more elixir to push with" (341-348s).
+- t=359-366s: he cycles specifically to the Evolution against Elite Barbarians - "Evo RG is significantly better than the regular RG against cards like Earbs cuz it just knocks them back and can put you in some nice sequences."
+- t=418-428s: names its true counter in that matchup - "wizard is actually his best RG counter, believe it or not, cuz he's just able to go wizard plus ability. And since I don't have a monk and log doesn't hit the air whenever he pops the wizard up, I literally cannot kill it." The t=389-403 push works because the Wizard was spent at the bridge; enemy right tower 2710 -> 526 HP across t=404-416.
+- t=478-483s: cycle tracking, not elixir counting, decides the last push - "now with this wizard out of cycle, I knew that he would be completely unable to defend the next RG" (RG at t=485.5, tower logged at t=498.3).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

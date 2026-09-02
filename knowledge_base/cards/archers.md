@@ -235,6 +235,19 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md
 - overtime 1:07 and 0:38: Evo Archers are what force his Mother Witch onto defence ("We have to get mother witch on the archer sadly. So, we're not going to be able to break through") and what he spends the Goblinstein ability on ("we can grab the one evo archer off of the board").
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=91-96 (Evo Archers split in the back at tile [9, 1], t=90.1): "I just split my EVO Archers in the back cuz I knew in this matchup the way that I win is just by spamming Goblin Stein and Piggies at the bridge" — the split is the setup for the bridge Goblinstein at t=99.1.
+- t=153-155 (Archers at [6, 1], t=153.2, right after Barbarian Barrel at [3, 8]): the low placement is anti-spell — "I went for the barbarian [barrel] plus low archers just to avoid the poison."
+- t=177-188 (Archers high, then Goblinstein at [15, 15], t=178.2): "Here I went for the high evo archers and then the Goblin Stein right here... I even went for the piggies here and I was actually able to protect my evo archers."
+- Ten plays split three ways: deep back splits [9, 1] / [6, 1] / [8, 2] / [3, 9] (t=90.1, 153.2, 255.3, 279.3), bridge support [8, 14] / [9, 14] / [10, 14] (t=42.9, 79.1, 222.2), mid-lane defence [8, 9] / [9, 10] / [9, 9] (t=122.1, 173.2, 195.2).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2, Ian's (Evolved) Archers: Ryley plays Ice Wizard back specifically to cover one lane's Archers (606-612s), clears both lanes with a high Baby Dragon at t=670.7 (669-676s), and pulls them into the Golem with Tornado at t=684.5 (681-684s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

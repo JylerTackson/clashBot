@@ -596,6 +596,25 @@ Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md
 - clock 2:44 through OT 0:35: nine casts in all, every one a 2-elixir drop with a hand change and no 3-elixir ability drop anywhere in the game — in this match he is running the plain card, not the Heroic Berserker; all four "ability" lines in the commentary are about the opponent's Balloon.
 <!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2, mentioned as Ian's ability threat - the reason he kills the X-Bow with an immediate Valkyrie ability: "I knew that if I didn't then he could just pop the berserker ability" (687-690s). In game 3 (t=807.5) Ian re-plays it, which under the duel's no-repeat rule handed Ryley the game (826-838s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=1034.0: the one HUD-confirmed play (elixir 4 -> 2) at [10, 15], right at the river, and he calls it a trade against the opponent's own Berserker — 'here I went for the berserker here, just making sure to take out his berserker' (t=1030).
+- t=851.9 / 879.9 / 930.9 / 971.0 / 1054.1: five more labels on his own half ([3, 14], [12, 7], [1, 7], [14, 8], [9, 10]) — she is the 2-elixir filler that lets a Lava Hound deck keep cycling between 7-elixir commitments.
+- t=997.0: pushed offensively to [8, 20] inside the opponent's half, the same tile a Rune Giant occupies at t=986.0 and t=1035.0 — fast hitter parked inside the enchant radius.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Hero variant (Savage Survival). t=1184.3 (elixir 7.0 -> 5.0): the dedicated Giant Skeleton answer — "here I went for the berserker as well just to make sure to counter that giant skelly".
+- t=1299.1 [3, 15] plus a 3-elixir drop at t=1299.8, with an opponent Giant Skeleton tracked at (2, 13): uses the ability defensively and stacks Royal Delivery on top — "I actually did block the giant skelly with the berserker, which is very nice. I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible". Both ability uses in this game are defensive; none is for tower damage.
+- Placement pattern across ~11 drops (t=1074.1 [16, 10], t=1109.1 [8, 13], t=1232.2 [3, 15], t=1258.1 [9, 13], t=1279.1 [9, 1], t=1329.7 [9, 0]): dropped on top of an existing Cannon defence, or deep in his own half to reset a lane, never as a lone bridge play.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)
