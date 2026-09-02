@@ -547,6 +547,151 @@
     "mighty-miner"
    ],
    "complete": true
+  },
+  "yOGPFqpzNu4": {
+   "id": "yOGPFqpzNu4",
+   "title": "TOP 10 Best C.H.A.O.S Decks in Clash Royale",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 348,
+     "seconds": 176.6,
+     "games": [
+      {
+       "match": "0",
+       "seconds": 58.0,
+       "events": 31,
+       "own_deck": [
+        "electro-spirit",
+        "zappies",
+        "ronin",
+        "tesla",
+        "poison",
+        "berserker",
+        "fireball",
+        "zap"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 1,
+     "status": "done",
+     "frames": 348,
+     "seconds": 190.0,
+     "games": [
+      {
+       "match": "1",
+       "seconds": 58.0,
+       "events": 36,
+       "own_deck": [
+        "arrows",
+        "zappies",
+        "ice-spirit",
+        "x-bow",
+        "ronin",
+        "zap",
+        "bats",
+        "fire-spirit"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "status": "done",
+     "frames": 624,
+     "seconds": 326.7,
+     "games": [
+      {
+       "match": "2",
+       "seconds": 103.4,
+       "events": 79,
+       "own_deck": [
+        "arrows",
+        "ice-spirit",
+        "zappies",
+        "zap",
+        "electro-spirit",
+        "fireball",
+        "ronin",
+        "the-log"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "status": "done",
+     "frames": 336,
+     "seconds": 179.1,
+     "games": [
+      {
+       "match": "3",
+       "seconds": 56.0,
+       "events": 37,
+       "own_deck": [
+        "zappies",
+        "fireball",
+        "electro-spirit",
+        "arrows",
+        "ice-spirit",
+        "x-bow",
+        "tesla",
+        "berserker"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 4,
+     "status": "done",
+     "frames": 600,
+     "seconds": 320.9,
+     "games": [
+      {
+       "match": "4",
+       "seconds": 99.6,
+       "events": 77,
+       "own_deck": [
+        "zap",
+        "fireball",
+        "zappies",
+        "arrows",
+        "ice-spirit",
+        "electro-spirit",
+        "x-bow",
+        "ronin"
+       ]
+      }
+     ]
+    }
+   ],
+   "periods": [
+    [
+     406.0,
+     464.0
+    ],
+    [
+     1508.0,
+     1566.0
+    ],
+    [
+     1580.0,
+     1684.0
+    ],
+    [
+     1866.0,
+     1922.0
+    ],
+    [
+     1936.0,
+     2036.0
+    ]
+   ],
+   "own_deck_video": [],
+   "complete": true
   }
  }
 }

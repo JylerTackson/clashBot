@@ -1,0 +1,50 @@
+{
+  "key": "yOGPFqpzNu4-m2",
+  "match_file": "matches/yOGPFqpzNu4-m2.md",
+  "video_title": "TOP 10 Best C.H.A.O.S Decks in Clash Royale",
+  "cards": {
+    "fireball": [
+      "clock 1:32: defensive Fireball on his own half at tile (14, 13) onto an advancing ranged unit — \"Let's go for the fireball ... to bring this back. Take that out. Okay, nice.\"",
+      "clock 1:08 and 0:46: chip Fireballs across the river at (15, 26) and (8, 22) while behind on elixir; the enemy right tower drops 5401 -> 4656 over the next few seconds.",
+      "clock 0:19-0:03: Fireball is half of the winning spell cycle — (5, 23) then (5, 25) onto the enemy left tower, which falls 2039 -> 360 in the last fifteen seconds. \"I can spell cycle cuz my spells do a lot of damage on the tower. Wait, why didn't I think of this before?\" and at the end \"WE clutched it by spell cycling.\"",
+      "clock 0:36: he treats Fireball as the clock on the opponent's modifier — \"We need the fireball before he gets the parry down.\""
+    ],
+    "arrows": [
+      "clock 1:22: Arrows thrown onto the opponent's half at tile (8, 22) (elixir 6 -> 3) against the enemy's ranged swarm — \"Okay, we need the arrows. He has the triple firecrackers.\"",
+      "clock 0:49 and 0:40: Arrows again at (5, 23) and (8, 21) as pure tower chip in triple elixir; the (8, 21) cast is the one where the deploy label overrode a disagreeing hand read.",
+      "clock 0:15 and 0:03: Arrows fired immediately behind each Fireball at (5, 23) and (4, 23) to finish the spell cycle — \"Just grab the fireball arrows. Grab the arrows. Fireball. Oh my god, come on. LET'S GO.\""
+    ],
+    "zappies": [
+      "clock 1:24 to 0:38: five Zappies placed deep on his own half at (9, 8), (9, 9), (12, 8) and (8, 11), behind the towers rather than on top of attackers, as the repeat answer to a Tesla-anchored opponent.",
+      "clock 1:12, he states the plan: \"I'm just going to keep spamming my Zappies down, guys, cuz over time I think we might actually just get through.\"",
+      "clock 0:28 and 0:23: once he is chasing damage he pushes Zappies up to (14, 15) and (16, 15) at the river instead of behind the tower — \"Zappies again, please take this out.\""
+    ],
+    "ronin": [
+      "clock 1:37 and 1:20: Ronin played twice early on his own side, at (5, 13) and at the bridge (10, 15) with the elixir bar at 0 — \"We need to go for the Ronin ourselves so this dies quickly\" and \"We need to go for the Ronin here. Hopefully this can reflect itself, please.\" He plays him for the Parry reflect, not as a tank.",
+      "clock 1:04 and 0:49: defensive Ronin in the left pocket at (3, 14) and at (8, 10); he expects more out of the Parry than he gets — \"Oh, no, no, no, no, no, no. I did not expect that to die.\"",
+      "clock 0:34: Ronin at (3, 13) as the last-chance defensive body while both lanes are under pressure — \"Ronin here again. We have a chance. We have stuff on both sides.\""
+    ],
+    "electro-spirit": [
+      "clock 1:22 to 0:08: five Electro Spirits, every one of them in the column-9/10 corridor directly in front of his own towers ((9, 11), (9, 14), (10, 9), (9, 12), (9, 10)) — a defensive reset and chain-stun, never a cycle throw-away over the bridge.",
+      "clock 1:38 and 1:24: paired with Ice Spirit as the cheap opener to a defence — \"Let's go for the spirits\", \"E spirits here.\"",
+      "clock 0:08: HUD-confirmed at elixir 3 -> 2 at (9, 12) while defending a Firecracker push in the last ten seconds."
+    ],
+    "ice-spirit": [
+      "clock 1:22 and 1:08: Ice Spirit low on his own half at (16, 7) and (8, 14), doubled up with the Electro Spirit — \"E spirits here. Triple ice down low.\"",
+      "clock 0:36 and 0:24: moved up to the river at (7, 15) and (11, 14) (elixir 4 -> 3) to freeze ground pushes before they reach the tower."
+    ],
+    "zap": [
+      "clock 1:32, 1:27, 1:11, 0:54 and 0:34: five HUD -2 steps plus one deploy label at (7, 10), used purely as cheap cycle filler alongside the spirits; he never comments on it, and it is the card that keeps Fireball and Arrows coming back around."
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": ["arrows", "fireball", "zap", "zappies", "electro-spirit", "ice-spirit", "ronin"],
+    "bullets": [
+      "Only seven of the eight slots are confirmed (deploy labels for Arrows, Fireball, Zap, Zappies, Electro Spirit, Ice Spirit and Ronin); the HUD offers The Log, Giant Snowball, Heal Spirit and Berserker as four competing candidates for the last slot at 0.453 mean hand confidence, so no deck key is recorded.",
+      "Piloted as a cycle list with no real win condition: Zappies plus the two spirits plus Ronin hold both lanes on his own half (clock 1:24 to 0:23), while Arrows and Fireball do all the damage.",
+      "clock 1:12 the stated defensive plan: \"I'm just going to keep spamming my Zappies down, guys, cuz over time I think we might actually just get through.\"",
+      "clock 0:19 to 0:03 the deck's actual win line, found late: two Fireball+Arrows pairs onto the enemy left tower at (5, 23) and (5, 25) take it 2039 -> 360 and win the tiebreaker. \"I can spell cycle cuz my spells do a lot of damage on the tower ... WE clutched it by spell cycling.\""
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "key": "yOGPFqpzNu4-m0",
+  "match_file": "matches/yOGPFqpzNu4-m0.md",
+  "video_title": "TOP 10 Best C.H.A.O.S Decks in Clash Royale",
+  "cards": {
+    "ronin": [
+      "t=410.0 (clock unread, C.H.A.O.S. mode): deployed at tile (8, 1), all the way back beside his own King's Tower rather than at the bridge — a slow-built mini-tank body, not bridge pressure.",
+      "t=408-433 (clock unread): everything he says about the card is about its Parry ability under a C.H.A.O.S. modifier, not the troop — 'he got the Perry that deflects projectiles, which is honestly really broken' (408s), then 'Perry is still broken, of course, but I feel like he wasted a modifier' (427s)."
+    ],
+    "tesla": [
+      "t=414.0 (clock unread): placed at (8, 11), centre of his own half roughly four tiles back from the river — the standard central pull placement against ground pressure coming up both lanes.",
+      "t=456 (clock unread): named as half of a defensive pair with Zappies while an opponent Bandit was walking his left lane — 'Let's get the Zappies here in the middle. Tesla here.'"
+    ],
+    "zappies": [
+      "t=418.0 and t=456.1 (clock unread): defensive placements at (7, 11) and (8, 9), both beside the Tesla in the centre of his own half.",
+      "t=437.0 (clock unread): offensive placement at the left bridge, tile (1, 15), pre-announced at 424s — 'I do want to start applying some pressure with these Zappies.'",
+      "t=424-440 (clock unread): ally Zappies walk the left lane and the enemy left tower falls from roughly 3986 to 2390; at 437-439s he says 'this guy might get cooked by all the Zappies. The Zappy spam is seeming to be a bit too much.'",
+      "t=422 (clock unread): the opponent also had Zappies on the board in his half, flagged as reaching his tower in 3.6s — 'look at all these Zappies.'"
+    ],
+    "fireball": [
+      "t=422.4 (clock unread): one clean HUD cast, elixir 6 -> 2, while enemy Zappies were threatening his tower.",
+      "t=415-420 (clock unread): he frames it as the deck's only projectile when judging the opponent's projectile-deflect modifier — 'we don't really have any projectiles in our deck except for the uh tower itself. And I guess the fireball.'",
+      "t=442-444 (clock unread): used as a prediction rather than a reaction — 'We have the NATO Fireball to predict him right here. Let's go for the NATO Fireball.' ('NATO' is the auto-transcript's rendering of a C.H.A.O.S. Fireball modifier.)",
+      "t=454-459 (clock unread): it is the card he cycles to in order to close — 'we didn't get it yet. We have to cycle back to the fireball', then 'we just have to fireball, guys. And that is going to be good game.'"
+    ],
+    "electro-spirit": [
+      "t=425.2, 430.0, 440.4, 445.2 (clock unread): four uses in twenty seconds, the deploy-labelled ones at (3, 14) and (2, 14) in his own left pocket against enemy Zappies walking that lane; the cheap glue that let him cycle back to the Fireball.",
+      "t=448 (clock unread): on the chain hitting more than he expected — 'it's chaining back, but it's fine.'"
+    ],
+    "berserker": [
+      "t=428.4 and t=438.4 (clock unread): two HUD casts, each a clean -2 elixir, both during the left-lane offence rather than as a narrated defensive placement; he never names her in this clip."
+    ],
+    "zap": [
+      "t=444.2 (clock unread): one HUD cast (-2) while enemy Zappies and a Bandit were on his side and his own left-lane push was under an opponent Fireball; the commentary either side of it is about the Fireball, not the Zap."
+    ],
+    "poison": [
+      "t=452.1 (clock unread): dropped on the opponent's half at tile (4, 21), in front of their damaged left tower, as offensive area denial on their defenders while that tower was already under 1100 HP — called a beat ahead at 451s, 'And then poison.'"
+    ],
+    "bandit": [
+      "t=440 and t=456.1 (clock unread): faced it twice from the opponent, both logged at (3, 13) on his own half in the left lane, the second flagged as reaching the tower in 7.4s; he answered that lane with repeated Electro Spirits plus Zappies and Tesla in the middle.",
+      "t=440 (clock unread): he says 'Let's Bandit the bridge here', but a t=424.0 Bandit deploy label attributed to him conflicts with his elixir trace and with Bandit being in the opponent's deck, so it is not counted as one of his eight cards."
+    ],
+    "mega-knight": [
+      "t=422-423 (clock unread): mentioned only — 'Let's Mega Knight the bridge here' — with no matching play event and his elixir reading 2 at the time; not treated as a deck card in this clip."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-electro-spirit-fireball-poison-ronin-tesla-zap-zappies",
+    "cards": ["berserker", "electro-spirit", "fireball", "poison", "ronin", "tesla", "zap", "zappies"],
+    "bullets": [
+      "Clip 1 of a five-deck C.H.A.O.S. showcase (video 406.3s-463.9s, ~58 readable seconds); only the closing stretch of the game is visible, and the win is taken from commentary at 459-462s ('that is going to be good game' / 'Very nice win'), not from an observed tower fall.",
+      "Defensive core is a centre-of-half Tesla at (8, 11) with Zappies beside it at (7, 11) and again at (8, 9), plus four Electro Spirits in twenty seconds into the left pocket — cheap answers that keep the cycle moving toward the Fireball.",
+      "Offence is the same cards turned around: Zappies at the left bridge (1, 15) at t=437.0 after 'I do want to start applying some pressure with these Zappies', with Berserkers at t=428.4 and t=438.4 alongside; the enemy left tower falls 4162 -> 162 across the clip while his own left loses only 960.",
+      "Both spells are used as closers, not as panic buttons: Fireball as a stated prediction ('We have the NATO Fireball to predict him right here', 442s) and Poison thrown onto the opponent's half at (4, 21) at t=452.1 to strip the defenders of the last tower.",
+      "The Ronin is played at t=410.0 from the back at (8, 1) rather than at the bridge; Ryley's commentary about it is entirely about the C.H.A.O.S. modifier on its Parry ability, which he judges 'really broken' in general but a wasted pick against a deck whose only projectiles are the Tower Princess and the Fireball (408-427s)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Zappies C.H.A.O.S. Ryley",
+      "archetype_primary": "control",
+      "archetype_secondary": "bridge-spam",
+      "rationale": "Tesla, Zappies, Electro Spirit and Zap answer pushes cheaply while Fireball and Poison do the actual tower damage, with Ronin and Berserker converting surviving defence into bridge pressure.",
+      "why_it_works_md": "The deck defends the centre with a Tesla and Zappies pair and cleans up swarms with 1-2 elixir stun cards, which is cheap enough that the Fireball comes back around every few plays. Its damage is spell-led: Fireball as a predicted cast and Poison dropped on the opponent's half to remove the defenders of an already damaged tower. The Zappies are the swing card, defending in the centre and then being replayed at the bridge, where their stun means a defender that answers them still takes tower damage. Ronin and Berserker are the bodies that turn a held defence into a left-lane push, and with two damage spells plus Zap the deck rarely needs a big commitment to finish a tower off."
+    }
+  }
+}

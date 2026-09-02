@@ -1,0 +1,59 @@
+{
+  "key": "yOGPFqpzNu4-m3",
+  "match_file": "matches/yOGPFqpzNu4-m3.md",
+  "video_title": "TOP 10 Best C.H.A.O.S Decks in Clash Royale",
+  "cards": {
+    "x-bow": [
+      "t=1877.7s (no match clock readable in this clip): X-Bow at tile [2, 11], four tiles back on his own left half while an Electro Wizard push was still resolving - a protected placement, not a bridge one, even though he had just said at 1878s \"We can go for the X-Bow offensively as well\".",
+      "t=1897.7s: second X-Bow at tile [9, 14], centre and one row from the river (the standard offensive placement), backed instantly by a Fireball at t=1898.0 - \"X-Bow again here... Keep up the pressure\" (1896-1898s).",
+      "t=1903.7s and t=1913.7s: he stalls in front of the bridge X-Bow with 1-elixir Ice Spirits at [15, 14] and [9, 15], and adds a Tesla at [8, 13] (t=1910.7) behind it rather than a tank; the enemy right tower falls from 4351 to 4091 across the clip.",
+      "Opponent's answer both times was a Tombstone in front of the besieged tower (t=1880.7 [9, 19], t=1902.7 [8, 20]); Ryley accepted it - \"he'll be able to survive the time just because of the scorching fire and the tombstone, which is fine by me\" (1903-1906s)."
+    ],
+    "tesla": [
+      "t=1910.7s: Tesla at tile [8, 13], centre of his own half three tiles from the river, dropped behind the bridge X-Bow while a Baby Dragon [9, 17], Skeleton King [9, 18] and Guards [7, 20] were on the board - siege support rather than a pull building.",
+      "He calls for it far earlier than he plays it: \"Let's go for the high Tesla\" (1878s), i.e. a placement near the river rather than deep on his half."
+    ],
+    "zappies": [
+      "Three sets in 28 seconds - t=1879.3s (HUD, elixir 5->1), t=1888.7s at tile [8, 10] and t=1907.7s at tile [9, 10] - both labelled placements deep behind his own towers so they have time to charge their shots, never dropped on top of a unit.",
+      "In this C.H.A.O.S. game a mode modifier turns them into Sparkies, which is the whole pitch for the deck: \"We have the three Sparkies\" (1876s), \"You guys can see just how often we're getting the Sparky, which is so annoying for him. Just applying so much pressure\" (1908-1911s).",
+      "The repeat Zappies invited spell answers - the opponent Arrowed his own half at t=1890.7 ([3, 14], lvl 11) and again at t=1912.7 ([6, 16]), and Freeze landed at [6, 14] at t=1888.7."
+    ],
+    "fireball": [
+      "t=1872.7s: Fireball at tile [5, 18], just over the river, onto an Electro Wizard tracked walking down the left lane - \"Make sure we get that E-wiz off the board immediately\" (1873-1875s); the Electro Wizard track is gone by 1880s.",
+      "t=1883.7s: second Fireball deep on the opponent's right at tile [15, 24] - \"Fireball this again\" (1883s); the enemy right tower reads 4351 before and 4157 shortly after.",
+      "t=1898.0s (HUD, elixir 6->2): Fireball played immediately behind the bridge X-Bow at [9, 14] to clear whatever came to defend it - the area-spell-with-siege pattern, cast as the X-Bow landed rather than held.",
+      "Its C.H.A.O.S. modifier leaves burning ground, which he calls \"the scorching fire\" (1903s) and counts as chip that helps the opponent survive but keeps his cycle going."
+    ],
+    "arrows": [
+      "t=1901.7s (HUD, elixir 4->1) and t=1906.7s at tile [5, 22] on the opponent's half, over the ground where Guards [7, 20] and the Skeleton King [9, 18] were grouping to defend the bridge X-Bow.",
+      "Used purely as lane-clearing for the siege building: \"Arrows to take this off the board\" (1892s) and \"Arrows to take this out. Okay, nice\" (1913-1915s)."
+    ],
+    "electro-spirit": [
+      "t=1873.7s at tile [8, 10] (own back half) and t=1891.5s at tile [7, 15] on the river (HUD, elixir 2->1) - cheap stun/cycle plays woven into the X-Bow cycle rather than answers to a named push.",
+      "He sequences it explicitly with his other cheap cards at 1915-1918s: \"Let's ice spirit then we can go for the E-spirit then we get another set of Zappies down.\""
+    ],
+    "ice-spirit": [
+      "t=1903.7s at tile [15, 14] (far right, at the river) and t=1913.7s at tile [9, 15] (centre river, HUD elixir 2->1) - 1-elixir stalls on the river line in front of the offensive X-Bow while the opponent's Skeleton King, Guards and Baby Dragon were coming down.",
+      "\"Okay, nice. Let's ice spirit then we can go for the E-spirit\" (1915-1916s) - the Ice Spirit is the first card of his cheap defensive chain, not an offensive freeze here."
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": [
+      "x-bow",
+      "tesla",
+      "zappies",
+      "fireball",
+      "arrows",
+      "electro-spirit",
+      "ice-spirit"
+    ],
+    "bullets": [
+      "X-Bow siege built around repeat Zappies, seen for 55 s mid-game in C.H.A.O.S. mode (video 1866.8-1921.9s); only seven cards are confirmed by deploy labels or HUD elixir drops, so no deck_key is claimed.",
+      "The loop across the clip is X-Bow -> Fireball/Arrows to clear the defenders -> Zappies and 1-elixir spirits to hold the river: X-Bow t=1877.7 [2, 11] and t=1897.7 [9, 14], Fireballs t=1872.7 / t=1883.7 / t=1898.0, Arrows t=1901.7 / t=1906.7, Zappies t=1879.3 / t=1888.7 / t=1907.7, Electro Spirit t=1873.7 / t=1891.5, Ice Spirit t=1903.7 / t=1913.7, Tesla t=1910.7 [8, 13].",
+      "Result of the pressure in the readable window: enemy right tower 4351 -> 4091 and left 6029 -> 5556, while Ryley's own towers stay at 6104 / 6005 - chip and cycle rather than a single committed push (\"Keep up the pressure\", 1898s).",
+      "The C.H.A.O.S. modifiers do a lot of the work and are not cards: his Zappies arrive as Sparkies (\"just how often we're getting the Sparky, which is so annoying for him\", 1910-1911s), his Fireball leaves burning ground (\"the scorching fire\", 1903s), and the opponent's attacks spawn Lightning (\"the attack spawns a lightning\", 1868-1871s).",
+      "No result is visible: the clip ends mid-sentence at 1920s (\"He is defending good. This might be another spell cycle\"), and clip 5 of the video (yOGPFqpzNu4-m4, 1936.3-2035.9s, same opponent card list) is very likely the same game continuing after a readiness gap."
+    ]
+  }
+}

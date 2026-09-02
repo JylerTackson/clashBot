@@ -1,0 +1,82 @@
+{
+  "key": "yOGPFqpzNu4-m4",
+  "match_file": "matches/yOGPFqpzNu4-m4.md",
+  "video_title": "TOP 10 Best C.H.A.O.S Decks in Clash Royale",
+  "cards": {
+    "x-bow": [
+      "clock 1:01 (t=1975.4): first X-Bow of the clip at tile [11, 14], one row off the river on his own half, immediately backed by a Fireball at the bridge — \"Let's go for the X-Bow and then we can maybe go for another fireball to try to predict the E-Wiz\".",
+      "clock 0:48-0:45 (t=1990-1991.4): re-lays it at [14, 13] with Zappies at [14, 14] the same second; the C.H.A.O.S. modifier gives it a chain attack — \"Look at that chain on that X-Bow, man. That's insane. Let's X-Bow here again.\"",
+      "clock 0:37-0:31 (t=2000.4-2006): third lay at [9, 13] screened by Zappies at [9, 12], then a Fireball to open the lane — \"Let's go for the low Zappies here and then we can go for the fireball nuke to try to get the X-Bow onto the tower\"; enemy right tower runs 2419 -> 1430 in that window.",
+      "clock 0:23-0:05 (t=2013.4, logged as an opponent play at [15, 13] on Ryley's half): fourth lay, 6 elixir, called on air — \"we can go for another X-Bow here\" — and it closes the game: \"X-Bow's on the tower to finish off the game\" (t=2031), enemy right tower 4091 -> 326 with his own towers untouched."
+    ],
+    "fireball": [
+      "clock 1:31 (t=1946.3): thrown at [3, 19] on the opponent's half purely as a prediction — \"I'm going to predict his E-wiz here with the fireball maybe\" — and it lands: \"Oh my god, what a prediction. Yo, he's cooked. How's he supposed to defend?\" (t=1949-1951), enemy left tower 5556 -> 4088 over the next four seconds.",
+      "clock 0:58 (t=1978.4): Fireball at [12, 17] onto the freshly-laid Tombstone and Guards — \"Take out the tombstone. Beautiful\" (t=1981).",
+      "clock 0:43-0:37 (t=1994.4-2002): bridge Fireball at [14, 19] behind the X-Bow — \"I'm going to go for the fireball at the bridge another time... Great fireball. X-Bow's on the tower now. Dude, X-Bow plus the fireball nuke is such a crazy combo, too.\"",
+      "clock 0:23-0:13 (t=2016.4, 2024.4): two more predictive Fireballs at [14, 19] and [13, 18] aimed at the Electro Wizard — \"I'm going to fireball to predict the E-Wiz cuz he might put the E-Wiz directly on top of the Sparky\", then \"We did hit the E-Wiz. Let's fireball this. Take this all out.\""
+    ],
+    "zappies": [
+      "clock 1:11 (t=1966.4): Zappies at [8, 10] to stop Guards that the tracker had reaching his tower in 1.3 s — \"Okay, let's just go for the Zappies. All right.\"",
+      "clock 0:55-0:44 (t=1982.4, 1991.9): laid beside the siege lane at [8, 13] and then directly with the new X-Bow at [14, 14] (HUD 7.0 -> 3.0) — \"Let's go for another set of Zappies, dude. And that X-Bow is locked on the tower.\"",
+      "clock 0:35-0:15 (t=2002.4, 2011.4, 2022.4): rebought at [9, 12], [9, 10] and [11, 10] as the X-Bow's permanent screen — \"Let's go for the low Zappies here\" (t=2003), \"Another set of Zappies. We can go for another X-Bow here\" (t=2012)."
+    ],
+    "tesla": [
+      "clock 1:21 (t=1956.4): placed forward at [4, 14] rather than in the standard pull pocket, explicitly for the C.H.A.O.S. chain modifier — \"Let's Tesla here at the bridge just to start chaining stuff.\"",
+      "clock 0:51 (t=1985.4): second Tesla at [8, 13], right beside the X-Bow lane — \"High Tesla here that will start chaining most of the things\" (t=1984-1988), immediately before the enemy right tower drops 3664 -> 2847."
+    ],
+    "arrows": [
+      "clock 1:27 (t=1950.3): Arrows deep on his own half at [7, 2] while Guards and skeletons were on him, i.e. defensive rather than chip.",
+      "clock 1:08 (t=1970.4): Arrows from the HUD (5.0 -> 2.0) clearing the swarm supporting the Skeleton King push down his left lane.",
+      "clock 0:52-0:15 (t=1983.4, 2007.4, 2021.4): three offensive Arrows on the opponent's half at [8, 18], [2, 21] and [13, 19] to keep the defenders off the X-Bow — \"Arrows here. Just continue applying pressure\" (t=2010), \"Arrows here. Zappies. Come on\" (t=2021)."
+    ],
+    "zap": [
+      "clock 0:52 and 0:33 (t=1984.5, t=2003.4): Zap at tile [7, 11], mid-lane on his own half, over the units walking into his X-Bow; seven 2-elixir Zap drops in 100 s (t=1946.5, 1951.8, 1957.0, 1978.9, 1984.5, 2012.2, 2022.9) make it his cheapest cycle card. He never comments on it once."
+    ],
+    "electro-spirit": [
+      "clock 1:31 to 0:20 (t=1947.3, 1979.4, 1996.4, 2006.4, 2017.4): five Electro Spirits, every one thrown at the river line ([2, 15], [14, 15], [12, 15], [11, 15], [13, 14]) to stun the defenders collecting in front of a newly-placed X-Bow. No commentary on the card in this clip."
+    ],
+    "ice-spirit": [
+      "clock 1:38-1:33 (t=1938.3 HUD 3.0 -> 2.0, label at [9, 14] later): used as the first, cheapest answer to a Skeleton King crossing lanes — \"We have to be very, very cautious. Let's ice spirit here\" (t=1939-1940).",
+      "clock 1:08 and 0:52 (t=1972.4 at [9, 14], t=1983.7 HUD 5.0 -> 4.0, t=1986.4 at [4, 12]): repeated 1-elixir freezes on the single crossers so his 4-elixir cards stay free for the siege — \"Let's go for the ice spirit here\" (t=1973)."
+    ],
+    "ronin": [
+      "clock 1:35 (t=1942.3): Ronin at [3, 14] on his own half as the mini-tank answer to a Skeleton King tracked crossing into his left lane — \"Let's ice spirit here. Let's go for the Ronan\" (t=1940-1942).",
+      "clock 0:05 (t=2028.4): second and last Ronin at [9, 15] on the bridge in the final seconds as extra pressure while the X-Bow finished the tower; no commentary on this one."
+    ],
+    "tombstone": [
+      "clock 0:56, 0:44 and 0:28 (t=1978.4, 1990.4, 2006.4): the opponent re-lays Tombstone at [8, 18]/[8, 19] three times to pull the X-Bow off the tower; Ryley Fireballs it at t=1978.4 — \"Take out the tombstone. Beautiful\" (t=1981) — and simply out-cycles the later two."
+    ],
+    "skeleton-king": [
+      "clock 1:12 to 0:05 (t=1962.4 at [8, 18], t=2026.4 at [2, 13], plus repeated tracker crossings): the opponent's main ground threat, but it only ever walks into Ice Spirit, Ronin and Arrows on Ryley's half and never produces damage — \"This guy hasn't gotten any damage on us yet\" (t=1971)."
+    ],
+    "guards": [
+      "clock 1:30 and 0:56 (t=1938.3 at [2, 29], t=1978.4 at [9, 16]): the opponent's cheap shield swarm, tracked reaching Ryley's tower in 1.3 s at t=1966; answered by Zappies at [8, 10] — \"Okay, let's just go for the Zappies\" — and by Arrows over the top."
+    ],
+    "baby-dragon": [
+      "clock 1:30 to 0:03 (t=1944.3 and 1988.4 at [11, 17], t=2020.4 at [7, 16], t=2032.4 at [1, 15]): the opponent's only reliable air answer to Zappies; it is played four times but always in front of their own tower, and Ryley never spends a card on it directly."
+    ],
+    "freeze": [
+      "clock 1:14 (t=1960.4): the opponent Freezes at [7, 15] mid-river while Ryley's spirits and Zappies were defending; it produces no counter-push and Ryley's towers take no damage in the whole clip."
+    ],
+    "royal-ghost": [
+      "clock 0:15 (t=2020.4): Royal Ghost at [11, 16] as part of the opponent's last defensive wave alongside Baby Dragon and Electro Wizard; cleared with Arrows at [13, 19] and a Fireball at [13, 18] — \"Let's fireball this. Take this all out\" (t=2024)."
+    ],
+    "electro-wizard": [
+      "Named eight times but never recorded as a play: tracked as an enemy unit on the right lane from clock 0:20 to 0:13 (t=2012-2024). It is the card Ryley's whole Fireball plan is built around — \"I'm going to predict his E-wiz here with the fireball maybe\" (t=1945), \"another fireball to try to predict the E-Wiz\" (t=1977), \"he might put the E-Wiz directly on top of the Sparky\" (t=2016) — and he confirms the hit at t=2024: \"We did hit the E-Wiz.\""
+    ],
+    "lightning": [
+      "Mentioned only, never seen: at clock 1:33 (t=1944), with a Ronin and spirits committed on defence, he says \"Please don't lightning my stuff\" — the spell he fears against a siege setup that clumps Zappies, Tesla and X-Bow together."
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": ["x-bow", "tesla", "zappies", "fireball", "arrows", "zap", "electro-spirit", "ice-spirit", "ronin"],
+    "bullets": [
+      "X-Bow siege in the C.H.A.O.S. mode: nine distinct cards have own-side evidence for eight slots (deploy labels for X-Bow, Fireball, Zappies, Electro Spirit, Arrows, Ice Spirit, Tesla, Ronin and Zap), so no deck_key is asserted for this clip.",
+      "Piloted as a cycle-and-relay siege: four X-Bow lays between clock 1:01 and 0:23, each one paired with Zappies as the screen and a bridge Fireball to clear the defender — \"X-Bow plus the fireball nuke is such a crazy combo\" (t=2000-2002).",
+      "Defence is entirely cheap and reactive — Ice Spirit, Electro Spirit, Zap and a single Ronin at clock 1:35 — so the 4-6 elixir cards stay available for the siege; his towers take zero damage across the 99.6 s window (6104 / 6005 / king 9549 unchanged) while the enemy right tower falls 4091 -> 326.",
+      "Tesla is played forward at the bridge rather than in the pull pocket specifically for the mode's chain modifier — \"Let's Tesla here at the bridge just to start chaining stuff\" (t=1955), \"High Tesla here that will start chaining most of the things\" (t=1987).",
+      "Result: win, stated at t=2033 — \"Very nice win, guys, and I will see you all with the final deck.\""
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+ "frames": 336,
+ "seconds": 179.1,
+ "timing": {
+  "total": {
+   "n": 336,
+   "mean_ms": 476.1,
+   "p95_ms": 2170.1
+  },
+  "elixir": {
+   "n": 331,
+   "mean_ms": 1.7,
+   "p95_ms": 2.3
+  },
+  "hand": {
+   "n": 331,
+   "mean_ms": 189.4,
+   "p95_ms": 222.0
+  },
+  "clock": {
+   "n": 331,
+   "mean_ms": 107.7,
+   "p95_ms": 721.8
+  },
+  "labels": {
+   "n": 55,
+   "mean_ms": 510.1,
+   "p95_ms": 577.6
+  },
+  "detect": {
+   "n": 27,
+   "mean_ms": 1063.0,
+   "p95_ms": 1202.5
+  },
+  "loop_fps": 2.1
+ },
+ "own_elixir_drift": {
+  "n": 330,
+  "mean": -0.861,
+  "abs_mean": 1.371,
+  "max_abs": 5.119,
+  "last": -2.285
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "electro-wizard",
+   "guards",
+   "fireball",
+   "tombstone",
+   "fire-spirit",
+   "arrows",
+   "freeze",
+   "skeleton-king"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "electro-wizard",
+   "fireball",
+   "fire-spirit",
+   "freeze"
+  ],
+  "predicted_next": "tombstone",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap",
+    "name": "Pekka Bandit EWiz EvoGhost",
+    "archetype": "bridge-spam",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.98,
+    "remaining": [
+     "bandit",
+     "battle-ram",
+     "magic-archer",
+     "p-e-k-k-a",
+     "royal-ghost",
+     "zap"
+    ]
+   },
+   {
+    "deck_key": "cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log",
+    "name": "Hog HeroMusk 2.6 Cycle",
+    "archetype": "cycle",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.96,
+    "remaining": [
+     "cannon",
+     "hog-rider",
+     "ice-golem",
+     "ice-spirit",
+     "musketeer",
+     "skeletons",
+     "the-log"
+    ]
+   },
+   {
+    "deck_key": "bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-valkyrie-zappies",
+    "name": "Mother Witch Bridge Spam HeroValk",
+    "archetype": "bridge-spam",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.97,
+    "remaining": [
+     "bandit",
+     "battle-ram",
+     "elite-barbarians",
+     "heal-spirit",
+     "mother-witch",
+     "valkyrie",
+     "zappies"
+    ]
+   }
+  ],
+  "cycle_confirmed": 3,
+  "cycle_violations": 3
+ }
+}

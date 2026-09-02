@@ -1,0 +1,113 @@
+{
+ "frames": 624,
+ "seconds": 326.7,
+ "timing": {
+  "total": {
+   "n": 624,
+   "mean_ms": 489.8,
+   "p95_ms": 2244.6
+  },
+  "elixir": {
+   "n": 621,
+   "mean_ms": 1.8,
+   "p95_ms": 2.4
+  },
+  "hand": {
+   "n": 621,
+   "mean_ms": 193.3,
+   "p95_ms": 227.8
+  },
+  "clock": {
+   "n": 621,
+   "mean_ms": 108.7,
+   "p95_ms": 783.5
+  },
+  "labels": {
+   "n": 103,
+   "mean_ms": 513.5,
+   "p95_ms": 602.6
+  },
+  "detect": {
+   "n": 52,
+   "mean_ms": 1072.2,
+   "p95_ms": 1222.4
+  },
+  "loop_fps": 2.0
+ },
+ "own_elixir_drift": {
+  "n": 616,
+  "mean": -0.175,
+  "abs_mean": 1.121,
+  "max_abs": 5.549,
+  "last": -1.14
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "ronin",
+   "rascals",
+   "tesla",
+   "firecracker",
+   "fireball",
+   "skeletons",
+   "electro-spirit",
+   "baby-dragon"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "ronin",
+   "rascals",
+   "skeletons",
+   "electro-spirit"
+  ],
+  "predicted_next": "fireball",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow",
+    "name": "X-Bow HeroKnight 3.0 Cycle",
+    "archetype": "siege",
+    "matched": 4,
+    "contradicted": 4,
+    "score": -3.97,
+    "remaining": [
+     "archers",
+     "knight",
+     "the-log",
+     "x-bow"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons",
+    "name": "EvoRG FishBoy Hunter 3.0 Cycle",
+    "archetype": "cycle",
+    "matched": 3,
+    "contradicted": 5,
+    "score": -6.97,
+    "remaining": [
+     "barbarian-barrel",
+     "fisherman",
+     "hunter",
+     "royal-ghost",
+     "royal-giant"
+    ]
+   },
+   {
+    "deck_key": "archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons",
+    "name": "EvoRHogs AQ GobHut EvoGhost",
+    "archetype": "cycle",
+    "matched": 3,
+    "contradicted": 5,
+    "score": -6.97,
+    "remaining": [
+     "archer-queen",
+     "barbarian-barrel",
+     "goblin-hut",
+     "royal-ghost",
+     "royal-hogs"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0
+ }
+}

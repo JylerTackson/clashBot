@@ -1,0 +1,145 @@
+{
+ "frames": 348,
+ "seconds": 176.6,
+ "timing": {
+  "total": {
+   "n": 348,
+   "mean_ms": 448.2,
+   "p95_ms": 2143.3
+  },
+  "elixir": {
+   "n": 346,
+   "mean_ms": 1.5,
+   "p95_ms": 2.2
+  },
+  "hand": {
+   "n": 346,
+   "mean_ms": 181.3,
+   "p95_ms": 212.0
+  },
+  "clock": {
+   "n": 346,
+   "mean_ms": 84.8,
+   "p95_ms": 524.4
+  },
+  "labels": {
+   "n": 57,
+   "mean_ms": 543.1,
+   "p95_ms": 679.8
+  },
+  "detect": {
+   "n": 28,
+   "mean_ms": 997.3,
+   "p95_ms": 1112.1
+  },
+  "loop_fps": 2.2
+ },
+ "own_elixir_drift": {
+  "n": 339,
+  "mean": -0.448,
+  "abs_mean": 1.122,
+  "max_abs": 6.94,
+  "last": 0.655
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "zappies",
+   "knight",
+   "bandit",
+   "fireball",
+   "firecracker"
+  ],
+  "deck_complete": false,
+  "predicted_hand": null,
+  "predicted_next": null,
+  "deck_predictions": [
+   {
+    "card": "battle-ram",
+    "p": 0.66,
+    "source": "kb_inference"
+   },
+   {
+    "card": "mother-witch",
+    "p": 0.34,
+    "source": "kb_inference"
+   },
+   {
+    "card": "skeletons",
+    "p": 0.34,
+    "source": "kb_inference"
+   },
+   {
+    "card": "the-log",
+    "p": 0.34,
+    "source": "kb_inference"
+   },
+   {
+    "card": "royal-ghost",
+    "p": 0.34,
+    "source": "kb_inference"
+   },
+   {
+    "card": "elite-barbarians",
+    "p": 0.32,
+    "source": "kb_inference"
+   },
+   {
+    "card": "freeze",
+    "p": 0.32,
+    "source": "kb_inference"
+   }
+  ],
+  "kb_matches": [
+   {
+    "deck_key": "bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-valkyrie-zappies",
+    "name": "Mother Witch Bridge Spam HeroValk",
+    "archetype": "bridge-spam",
+    "matched": 2,
+    "contradicted": 3,
+    "score": -3.97,
+    "remaining": [
+     "battle-ram",
+     "elite-barbarians",
+     "freeze",
+     "heal-spirit",
+     "mother-witch",
+     "valkyrie"
+    ]
+   },
+   {
+    "deck_key": "archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow",
+    "name": "X-Bow HeroKnight 3.0 Cycle",
+    "archetype": "siege",
+    "matched": 2,
+    "contradicted": 3,
+    "score": -3.97,
+    "remaining": [
+     "archers",
+     "electro-spirit",
+     "skeletons",
+     "tesla",
+     "the-log",
+     "x-bow"
+    ]
+   },
+   {
+    "deck_key": "bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap",
+    "name": "Pekka Bandit EWiz EvoGhost",
+    "archetype": "bridge-spam",
+    "matched": 2,
+    "contradicted": 3,
+    "score": -3.98,
+    "remaining": [
+     "battle-ram",
+     "electro-wizard",
+     "magic-archer",
+     "p-e-k-k-a",
+     "royal-ghost",
+     "zap"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 0
+ }
+}

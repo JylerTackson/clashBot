@@ -1,0 +1,61 @@
+{
+  "key": "yOGPFqpzNu4-m1",
+  "match_file": "matches/yOGPFqpzNu4-m1.md",
+  "video_title": "TOP 10 Best C.H.A.O.S Decks in Clash Royale",
+  "cards": {
+    "x-bow": [
+      "clock 0:31 (t=1517.5): X-Bow deploy label at tile [2,11] - left lane, on his own half, the protected in-range placement rather than a bridge-side siege drop - immediately after his spirit defence stabilised. He called it two seconds earlier: 'Help us out on defense, and we can go for the expo' (1515s).",
+      "clock 1:55 (t=1554.6): second X-Bow at exactly the same tile [2,11], early in overtime, sandwiched between Arrows (-3, 1552.6) and a 4-elixir play (1556.2). 'Let's go for the expo here... And he can't really deflect everything' (1554-1556s) - he commits the X-Bow when he judges the opponent cannot cover every threat at once."
+    ],
+    "ronin": [
+      "clock 0:03 (t=1548.5): Ronin deploy label at [10,8], his own half in the right lane, into a Golem and Spear Goblin advancing that lane - used as a defensive mini-tank, not a bridge threat. 'Let's Ronin here again. He did waste it though' (1548-1550s).",
+      "clock 0:31 (t=1517.5, mentioned): 'I want to get the Ronin out of cycle' - he cycles the 5-cost deliberately so it is in hand when a push arrives; ten seconds later, 'We need to go for the Ronin. This should help take out everything' (1527-1528s)."
+    ],
+    "zappies": [
+      "clock 0:38 (t=1509.8): Zappies from the HUD for 4 (elixir 10->6) as the anchor of a defence, one second after Arrows cleared the swarm in front of them.",
+      "clock 0:14 (t=1535.5): Zappies at [11,8] on his own half against a Mega Knight tracked crossing to the right lane and a Bandit advancing the left - the defensive, behind-the-tower use.",
+      "clock 1:58 (t=1551.5): Zappies at [9,7] in overtime, played specifically because the opponent's answer was gone: 'Let's go for the Zappies cuz he he did waste that' (1551s). Earlier, at 1524s, he pushed them forward instead: 'Let's just go for the Zappies here at the bridge, guys.'"
+    ],
+    "arrows": [
+      "clock 0:38 (t=1508.5): Arrows at [12,12] on his own half, right lane, as a reactive swarm clear - 'Oh my god, arrows. Fireball arrows, please... look at that. That just nuked everything' (1508-1512s).",
+      "clock 0:26 (t=1522.5): Arrows at [4,22] - on the opponent's half, left lane - an offensive cast paired with a Zap two tenths of a second later.",
+      "clock 1:49 (t=1559.6): Arrows at [6,21] on the opponent's half while their Tesla was tracked at [8,21]: 'Let's go for the arrows here on top of this' (1558s).",
+      "clock 0:15 and 1:56 (t=1533.9, 1552.6): two more Arrows from the HUD (-3 each) during the Mega Knight push and at the start of overtime - five casts in 57 seconds, the most-used card in the clip."
+    ],
+    "zap": [
+      "clock 0:26, 0:13, 0:08 and 1:46 (t=1522.7, 1536.2, 1540.7, 1562.1): four Zaps (-2 each) in 40 seconds, every one of them the cheap follow-up to a bigger play - after the bridge Arrows, twice during the Mega Knight/Bandit push, and after the last Arrows in overtime. No commentary on the card itself."
+    ],
+    "ice-spirit": [
+      "clock 0:34, 0:21 and 0:03 (t=1513.5 [10,10], t=1527.5 [6,10], t=1546.5 [12,9]): three Ice Spirits, all on his own half and all part of the defence he narrates as spirit cycling - 'Let's go for the spirits. Help us out on defense' (1513s), 'Let's go for the triple spirits' (1525s), 'Triple spirits. Okay, we're getting some damage' (1543-1546s)."
+    ],
+    "fire-spirit": [
+      "clock 0:34 (t=1513.8): Fire Spirit from the HUD for 1 (elixir 5->4), played in the same breath as Bats and an Ice Spirit while a Night Witch advanced on his half: 'Let's go for the spirits. Help us out on defense, and we can go for the expo' (1513-1515s)."
+    ],
+    "bats": [
+      "clock 0:35 (t=1512.5): Bats from the HUD for 2 (elixir 6->4) as the cheap defensive filler immediately ahead of the Fire Spirit and Ice Spirit, with an unidentified unit and a Night Witch already tracked on his half. No commentary specific to the card."
+    ],
+    "tesla": [
+      "clock 0:31 to 0:25 (t=1515.5, 1520.5, 1523.5): the opponent's Tesla is the only card confirmed for them in this clip - tracked crossing at [8,16], then deploy-labelled twice deep on their own half at [6,27] (elixir 9.22->5.22 and 5.43->1.43), and tracked again at [8,21] in overtime (t=1559.6). Ryley's only Tesla line is about one on his own half: 'Tesla. Why is it on our tower? What?' (1532-1535s)."
+    ],
+    "mega-knight": [
+      "clock 0:17 (t=1532, mentioned): a Mega Knight is tracked at [14,14] crossing lanes toward him while a Bandit advances the left; Ryley reacts to it as the moment the game turns - 'Oh, no, but the jumping Mega Knight' (1530-1532s). He never plays the card himself."
+    ],
+    "sparky": [
+      "clock 0:19 and 1:47 (t=1530, 1561, mentioned only): Ryley calls out Sparkies twice in the C.H.A.O.S. game without ever playing the card - 'Look at the Sparkies' (1530s) and 'Oh my god, the Sparky [Tor]nado combo. Dude, lock on Sparkies' (1561-1563s), the transcript's 'NATO' almost certainly being 'nado'."
+    ],
+    "goblinstein": [
+      "clock 0:28 (t=1519, mentioned only): Ryley reads the opponent's card without countering it directly - 'He got the Doctor Goblinstein on defeat one. Okay, that's fine' (1519-1522s). No Goblinstein was seen on the field by the pipeline."
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": ["arrows", "bats", "fire-spirit", "ice-spirit", "ronin", "x-bow", "zap", "zappies"],
+    "bullets": [
+      "Partial C.H.A.O.S.-mode clip (video 1508.3s-1565.9s, 57.6s readable, clock 0:38 of regular time to 1:45 of overtime): no opening, no ending, no result.",
+      "The eight cards listed are the confirmed subset only - deploy labels for Arrows, Ice Spirit, X-Bow, Ronin and Zappies, cost-matching elixir drops for Zap, Bats and Fire Spirit. deck_key is null because seven further cards also left his HUD in the same 57 seconds (Witch, Electro Spirit, Heal Spirit, Mother Witch, Hog Rider, Giant Snowball, plus own-half Tesla labels), which the C.H.A.O.S. modifiers rather than a fixed deck almost certainly explain ('We're about to get another modifier', 1553s).",
+      "Piloted as an X-Bow siege shell: spirits and cheap swarm first ('Let's go for the spirits. Help us out on defense, and we can go for the expo', 1513-1515s), then X-Bow at [2,11] on the left at 0:31 and again at 1:55 in overtime, with Zappies behind the towers at 0:14 and 1:58 and Arrows/Zap covering the swarms.",
+      "He commits after reading that the opponent's answer is spent: 'He did waste it though' (1550s), 'Let's go for the Zappies cuz he he did waste that' (1551s), 'And he can't really deflect everything' (1556s).",
+      "He was losing the exchange through the clip - his right tower fell from 5944 to about 3177 while the enemy left tower only went 5740 to 4611 - and said so: 'Guys, this might be our first loss' (1540s)."
+    ]
+  }
+}

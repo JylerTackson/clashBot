@@ -1,0 +1,117 @@
+{
+ "frames": 600,
+ "seconds": 320.9,
+ "timing": {
+  "total": {
+   "n": 600,
+   "mean_ms": 499.7,
+   "p95_ms": 2242.2
+  },
+  "elixir": {
+   "n": 598,
+   "mean_ms": 1.8,
+   "p95_ms": 2.4
+  },
+  "hand": {
+   "n": 598,
+   "mean_ms": 199.6,
+   "p95_ms": 243.6
+  },
+  "clock": {
+   "n": 598,
+   "mean_ms": 107.6,
+   "p95_ms": 730.7
+  },
+  "labels": {
+   "n": 100,
+   "mean_ms": 522.1,
+   "p95_ms": 594.0
+  },
+  "detect": {
+   "n": 50,
+   "mean_ms": 1092.2,
+   "p95_ms": 1267.6
+  },
+  "loop_fps": 2.0
+ },
+ "own_elixir_drift": {
+  "n": 594,
+  "mean": -0.298,
+  "abs_mean": 1.097,
+  "max_abs": 6.787,
+  "last": 1.072
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "arrows",
+   "guards",
+   "baby-dragon",
+   "fireball",
+   "freeze",
+   "skeleton-king",
+   "tombstone",
+   "x-bow"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "arrows",
+   "freeze",
+   "guards",
+   "tombstone"
+  ],
+  "predicted_next": "x-bow",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado",
+    "name": "GY IWiz Evo BBD Nado",
+    "archetype": "control",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "barbarian-barrel",
+     "graveyard",
+     "ice-wizard",
+     "knight",
+     "poison",
+     "tornado"
+    ]
+   },
+   {
+    "deck_key": "archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow",
+    "name": "X-Bow HeroKnight 3.0 Cycle",
+    "archetype": "siege",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "archers",
+     "electro-spirit",
+     "knight",
+     "skeletons",
+     "tesla",
+     "the-log"
+    ]
+   },
+   {
+    "deck_key": "baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado",
+    "name": "Loon HeroKnight Double Dragon Bowler",
+    "archetype": "control",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.98,
+    "remaining": [
+     "balloon",
+     "barbarian-barrel",
+     "bowler",
+     "inferno-dragon",
+     "knight",
+     "tornado"
+    ]
+   }
+  ],
+  "cycle_confirmed": 1,
+  "cycle_violations": 6
+ }
+}

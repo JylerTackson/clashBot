@@ -1,0 +1,44 @@
+{
+ "games": 5,
+ "deck": [],
+ "deck_key": null,
+ "mixed": true,
+ "scores": {
+  "zappies": 23,
+  "electro-spirit": 23,
+  "arrows": 21,
+  "ice-spirit": 21,
+  "fireball": 20,
+  "zap": 19,
+  "heal-spirit": 11,
+  "ronin": 11,
+  "x-bow": 11,
+  "tesla": 9,
+  "berserker": 9,
+  "giant-snowball": 9,
+  "the-log": 6,
+  "mother-witch": 4,
+  "barbarian-barrel": 3,
+  "poison": 3,
+  "bats": 3,
+  "fire-spirit": 3,
+  "witch": 3,
+  "hog-rider": 3,
+  "bandit": 1
+ },
+ "transcript_mentions": {
+  "arrows": 14,
+  "ice-spirit": 3,
+  "zappies": 22,
+  "fireball": 26,
+  "ronin": 9,
+  "electro-spirit": 1,
+  "tesla": 6,
+  "x-bow": 12,
+  "bandit": 1,
+  "poison": 2
+ },
+ "notes": [
+  "games in this video use different decks (median HUD overlap 0.45, title suggests a deck showcase); no video-level deck"
+ ]
+}
