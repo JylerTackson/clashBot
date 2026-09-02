@@ -127,6 +127,47 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:59 to 0:44: played the death bomb as the real payload, and it doubled as the Bowler answer — "Just try to sneak a giant skelly bomb on the tower" and "the giant skelly bomb actually hits the bowler as well, which is so so good for us." His summary of its role at clock 0:20: "We just need the giant skelly like to kind of tank for our mother witch piggies and slowly chip him down."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- Opponent card, the threat Ryley defends from t=100 to t=115. First he tries a Golden Knight dash on it hoping the chain carries to the tower ("hoping that the giant skelly would walk a bit more to the right", t=102-106), then he answers it with a defensive Hog Rider at tile [2, 13] so the opponent also has to spend (t=111.1, quote at t=109-125).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card (Sandbox, bridge spam). Ryley's most-spent-on threat in this game: Berserker at t=2058 ("just to make sure to counter that giant skelly"), Rocket at t=2081.6 ("I rocketed the giant skelly as well"), Berserker plus Savage Survival plus Royal Delivery at t=2165-2175 ("I actually did block the giant skelly with the berserker, which is very nice").
+- t=2195-2207: a back-placed Giant Skeleton (tracked at (13, 23), t=2202) is what he should have Rocketed and did not — "here we went for the giant skelly in the back... I got scared of rocketing, man. I just should have rocketed".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:47: named in his pre-game scout of the opponent's deck — "I'm pretty sure this guy plays with giant skeleton balloon with the hunter, espirit, zap, minions, miner, and ice golem."
+- clock 2:27: killed by his defensive Elite Barbarians — "we took out his entire giant skeleton".
+- clock 1:44: he criticises the opponent for not committing to it as the push — "I feel like he should just went for the giant skelly. Maybe he was scared that he wouldn't have like defended though."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. His answer at clock 2:19-2:15 is Dart Goblin low plus Berserker on top plus the hero ability rather than a building — "we have to go for a low dark goblin here and then we have to get a berserker down on top of this" (375-378s).
+- clock 0:48: he holds the Evolution Dart Goblin in cycle for it — "it would be really good to get like a shot off on the giant skeleton before it gets vine-stopped" (468-472s).
+- clock 1:10 and 1:05: repeat pushes are met with Cannon at (9, 9) plus Ice Spirit, and once with a defensive Wall Breakers pair at (12, 6).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 1:56-1:52 (t=62-66): the death bomb took Ryley's left tower from 4858 to 3317 - he had pre-accepted it one play earlier ("We're going to take a Giant Skelly bomb, but that's all right", t=61) and shrugged it off, "that's kind of what happens when you get surprised factored sometimes, but it's not the end of the world".
+- clock 1:10 (t=108.1): a second Giant Skeleton at [13, 21] was answered with Tesla, Skeletons, Barbarian Barrel and the Berserker ability - "It's going to keep this alive and make sure to take out the giant skelly or at least most of it" (t=151-154).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent: tracked at t=330.3 [4, 18], t=334.3 [4, 16] and t=404.4 [14, 17]. One sighting identified the whole list - "After I saw the giant skelly, I knew his deck" (336-338s) - and he answers the first one with Heal Spirit + Valkyrie (t=338.3, t=340.8) and the second with The Log (t=403.4, "to help take out the giant skelly", 404-406s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- The card this cycle deck spends the most on (5 commentary mentions). Tracked at (13, 19) t=1249.2, (2, 13) t=1297.3, back-placed at (12, 21) t=1329.3. Answered three different ways: Berserker alone (t=1186), Berserker + Savage Survival + Royal Delivery (t=1297-1304, "I actually did block the giant skelly with the berserker"), and a Rocket (t=1209-1211).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

@@ -128,6 +128,64 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:24: emergency use on the Electro Giant push — "Let's definitely go for the vines here" (five Vines placements in the game: clock 2:17, 0:59, 0:47, overtime 1:31 and 1:24).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- Mentioned only, never played (it is the opponent's card). clock 1:32: he stacks Evo Skeleton Army plus Valkyrie precisely because of it — "I think that he only has Vines in his deck and Vines in this would only be solid for me". clock 0:50: forcing it out is treated as the win condition of the exchange — "we forced out the Vines, which is really good".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=1043-1049 (clock unreadable): faced on defence against his Golden Knight/Mother Witch push and credited to the opponent — "look at that vines hitting everything except the tower. I thought the mother witch was going to be the one card up. So, that was a little bit unfortunate, but also well played by him kind of keeping the vine."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. Named three times and treated as the main threat to his defence: "He even went for the Vines, but because we had the ability, we still cleared out everything" (t=65-68), and the counterfactual "That could have went very wrong if he either Vines earlier or if he just spammed that after the Berserker just got taken out" (t=71-79).
+- clock 1:47 (t=66.1): the pipeline logs an opponent play at [10, 0] as an unrecognised unit ("weights predate this card?"), which the commentary at t=65 identifies as this card.
+- He also plans around it in advance at t=117: "he's probably going to have to go for the Vines plus Goblin Gang."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 0:52 (t=634-636): knowing the opponent runs Vines tells him which of his own cards are safe - "He has the Vines, so you don't really have to worry about him going for like Arrows or something like that."
+- overtime 0:28 (t=776-778): he holds the Evolved Zap specifically for it - "we need to Evo Zap cuz he's going to Vines isn't he? Okay, let's Evo Zap here."
+- overtime 1:11 (t=734): Giant + Vines on the King Tower is the loss condition he names - "He's just going to go Giant Vines on the King Tower, and we're just completely cooked."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- mentioned but never captured on video: Ryley expects Vines from this opponent three times — "He might have to go for like a set of vines or something" (t=972), "He might go for a vines again" (t=1075), and "Nice bad vines by him" after the overtime ram connected (t=1095).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent, mentioned only: expected and played through - "I knew he was going to vines, but I was able to take out the batter anyway" (458-460s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:35 (t=498.5, tile (2, 13)): held Vines with Berserker for a Firecracker he had called out one line earlier, then spent it the moment it appeared — "Vines — oh, nice. I literally called it, man. I literally knew it."
+- clock 0:53 (t≈525): used on defence as the answer to the Firecracker rather than as a push spell — "Vines on defense take out that Firecracker."
+- clock 0:35 (t=544.5, tile (4, 21)): talked himself out of a pre-Vines and cast it reactively instead — "I'm tempted to pre-Vines low-key just to get him good, but I'm just going to barrel. There's the Firecracker. Just going to Vines on top of this."
+- clock 0:13 (t≈571): spent 3 elixir on Vines purely to keep one Goblin alive on a counter-push — "let's Vine spell here just to keep that one Goblin alive."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:32 (t=348-351): spotted mid-sentence while Ryley is committing his whole hand, and it changes his plan for the rest of the game — "he might have a — okay, yeah, he has the vines there. I was going to say he might have a spell and we need to pressure him very hard." Only mentioned; no Vines play is captured in the events.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 1:14 (mentioned, never seen): his guess for the opponent's unshown card, reasoned from deck weight — "I have a feeling he has vines. His deck gives kind of vines vibes since his deck is already quite a bit heavy. It wouldn't make too much sense to have an even heavier deck."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 1:23: predicted from the archetype before it is ever played — 'I think he's going to have Vines as well' (t=89) — and then played around all match as a card to drain: 'I need to get the Vines out of him. At least the elixir of it' (t=176-179).
+- OT 1:43: he spends an Evo Firecracker purely to bait it — 'let's go for the Evo Firecracker here just to start sniping this down, force out the Vines' (t=192-194). At clock 0:57 he hedges the slot: 'before he goes for the Vines. He might try to E-Wiz instead because of that' (t=114-115).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

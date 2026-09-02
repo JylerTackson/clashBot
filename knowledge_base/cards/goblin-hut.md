@@ -149,6 +149,50 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, as the alternative he considered for the Fisherman slot before settling on Cannon: "Honestly, maybe goblin hut could work as well, but you know, my first thought was the cannon here" (t=703-707).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:26, 0:57 and 0:07 (video 846.8s, 936.9s, 989.0s, tiles (9, 9), (9, 11), (8, 13)): always mid-board on his own half, working as a permanent Hog Rider / Mighty Miner distraction and as the chip source in a game he could not crack open.
+- overtime clock 1:22 and 0:57 (video 1032.0s, 1061.1s, tiles (9, 9), (12, 2)): kept cycling the hut in overtime even while behind on tower HP, as the cheap board presence between Electro Giant pushes.
+- overtime clock 0:35 (video 1080.1s, tile (12, 13)): pushed the hut forward on the right to support the second Electro Giant - "we need to go for a Goblin Hut up top here. Hold on a second. He has a Tesla" (1079-1081s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.2.md):
+- clock 2:40, 2:11 and 0:38: placed at [7, 9], [9, 9] and [9, 10] — the centre of his own half, so the Spear Goblins cover both lanes against a Golem beatdown deck. Paired with the Furnace as the deck's whole defensive engine.
+- clock 0:16: used as a pure body-block rather than a value building, in front of a Golem crossing to his last tower — "Okay, he could go to our tower right now. I have to go for the goblin hut here just to distract and we can go for the barbarian barrel."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2387-2392 (clock unreadable): the hut goes down early in the defensive rotation (tracked as an ally building at [16, 9] from t=2392) — "right here, I went for the early hut. And my goal right now was just trying to make sure that his Valkyrie didn't walk up to my tower".
+- t=2406-2412 (clock unreadable): run as a pair with the Furnace so the opponent's single spell rotation always falls behind — "he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace. So I was able to defend this push very very easily because of that".
+- t=2310 (clock unreadable): he names the deck by it — "I had a nice Goblin Hut Piggies deck".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:48: the opponent's Goblin Hut goes down at tile [9, 19] (t=328.3) alongside Spear Goblins; Ryley never spells it, answering the stream of goblins with his own Furnace and cheap cards instead — his response in the same window is "Let's just go for the furnace here in the back" (330-332s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1515.5, tile (16,9) (matching -4 elixir step at t=1518.0): played proactively rather than as a reaction to a push - "And right here, I went for the early hut" (1517s).
+- video t=1533.5, same tile (16,9): re-placed within 20 s once the opponent had spent his Evo Zap - "since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace. So I was able to defend this push very very easily because of that" (1531-1543s).
+- video t=1442s: the card he names the list after - "I had a nice Goblin Hut Piggies deck."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:45 (t=413.4, tile (11, 10)): switched off a planned Royal Ghost push and spent on a Goblin Hut instead because he read the opponent's Miner block — "I'm going to ghost here. Wait, he's going to minor to block, so let's go for the goblin hut. Yep. I knew it, bro."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:31 and 1:51 (t=760, 800): the opponent's double Goblin Hut at [8, 19] and [9, 19] is what triggers Ryley's early X-Bow — "we can start off with an early Expo here, actually, especially after that Goblin Hut as well. Make sure that we take out this Goblin Hut" (755-762s).
+- clock 1:57 (t=795): he Fireballs the hut for the building-plus-tower trade — "whenever they go for this, they're just kind of just inviting you to Fireball their tower... I will eventually be up in damage" (795-803s), enemy left 4858 -> 4527.
+- clock 0:18 (t=895-901): the hut's placement, not the Graveyard, is what beats his win condition — "Dude, his Goblin Hut placement is actually really good. I can't believe that it actually blocks an Expo. It's kind of ridiculous, in my opinion, that that can block the Expo." Huts land again at clock 0:53, 0:28, 0:18, 1:17, 0:50, 0:22 and 0:10, a near-permanent Spear Goblin stream over the X-Bow lane.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

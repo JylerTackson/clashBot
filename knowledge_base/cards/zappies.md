@@ -181,6 +181,151 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:04 and 0:47: used as bridge pressure in the opposite lane to close the game ([13, 14] then [3, 14]) — "I'm going to zappies the bridge opposite lane" and "we have to go zappies at the bridge... Come on. Zappies on the tower. Let's go."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:12 to 1:59 (video 321.3s, 325.3s, 334.3s, tiles [5, 26], [4, 22], [4, 16]): the opponent's split-lane opener, called out as it happens — "Okay, he goes for the zappy split, but like I guess this could just be like a bridge spam deck" (327-331s). Ryley answers the left half with Berserker at [4, 11] (332.5s).
+- clock 1:23 to 0:07 (video 370.4s onward): Zappies keep walking the left lane all game; his standing answer is Electro Spirit plus Barbarian Barrel (379.9s at [4, 8], 381.9s at [3, 9]) rather than a spell.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- mentioned only, not played (t=151-161s): named alongside Mother Witch as a unit the nerfed Evo Elite Barbarian spears (284 to 220 damage) will no longer kill outright with a simultaneous double throw.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- The most-played card in this game (five deployments) and used entirely on his own half: (8, 6) at clock 2:33, (9, 6) at clock 1:15, (8, 8) at clock 0:40, (10, 10) at clock 0:27 — always column 8-10, behind or beside the tower, never at the bridge.
+- clock 1:15: chosen as the cheap answer to a Lava Hound + Baby Dragon push specifically because he is already far ahead — "since we got a lot of damage anyway, there's no need to be greedy and try to like get a bunch of extra value out of this. Let's go for the zappies here."
+- clock 0:27: used as a kiting tool against the locked-on Heroic Mega Minion — "Let's zappies here as well. Make sure that we kite this nicely. Beautiful."
+- clock 1:12: he is aware they are Arrows-bait and puts a Mother Witch body up first — "he might try to arrows last second" (280s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:43: the presence of Zappies is what dictates his Inferno Tower placement all game — "I can't go for a high inferno because he does have zappies, so I have to be a little bit more cautious."
+- clock 1:14-1:07: he predicts the split-Zappies answer to his split Goblin Gang and gets it — "if he does, then he'll just split his zappies, too... Yeah, nice."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only; 'Zappies' labels at [9, 19] (t=1291/1294/1297) match the balance graphic, not a deploy. Commentary t=1288-1299: 'Very big fan of the hit speed nerf to the Zappies cuz I have felt like the Zappies were too good for a little bit too long now. I just think that the Zappies got maybe one too many buffs in a balance change.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2458.5: Zappies at [8, 13] on his own half in the opening exchange, immediately after the first bridge Battle Ram.
+- t=2590.6: Zappies at [9, 3], deep behind his towers next to a Mother Witch, as the support that walks up the right lane behind the closing Evo Battle Ram push (tracked at [14, 6] -> [12, 24], t=2598-2608). He never names them in the commentary.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card. The constant chip threat in both lanes (tracked t=1952-1958, t=2022-2034, t=2072-2090, t=2150-2156). Ryley answers cheaply rather than with spells — "I just went for the skellies just to make sure to distract the zappies" (t=2079).
+- t=2148: also answered with a defensive Princess — "I went princess on the zappy. I knew that I would have to protect it".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 2:34-2:20 (opponent): the opening push he answers with Skeletons on the river row and a Cannon rather than a spirit — the Zappies are named in his first deck read, "Evo skelly barrel here a tombstone and zappies" (184-188s).
+- clock 1:30: during his big commit he wants a spirit specifically to reset them — "Maybe retarget the Zappies" (251-252s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- The opponent's most-played card (six casts, clock 1:46 through 0:03). Ryley names them as one of the two cards his deck has no spell for — "I don't really have a spell to take out the mother witch or the zappies but because of how crazy our spam is in this deck, we could actually have just a really good sequence randomly" (395-400s).
+- clock 1:43: his answer is a mid-board Dart Goblin rather than a spell — "let's go for the dark goblin here just make sure that we take out the zappies" (409-411s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1, opponent: eight tracks between t=318 and t=470, and the reason he sends the Royal Giant early - "I went RG because it already took out some Zappy" (352-355s). Later he takes the Fireball trade on them rather than Logging a push: "I just fireballed here on the zap. He's just getting my fireball value" (470-473s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Constant two-lane chip from a bridge-spam opponent (tracked t=1079-1086, t=1199-1218, t=1279-1290, t=1301-1310). Ryley's cheap answers are Skeletons to distract — "I just went for the skellies just to make sure to distract the zappies" (t=1208) — and a Princess placed to hold the lane, which then needs protecting (t=1277-1281).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1719.7: started deepest of anything he played, [9, 1] just in front of his own king tower, so they trail the Valkyrie + Evo Battle Ram bridge push rather than lead it. No commentary on the card.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:38 (t=100.1): one HUD cast (9.0->5.0), unnarrated.
+- Everything Ryley SAYS about Zappies is about the opponent's: he calls them seven times in the t=122-168 clip — "he's probably going to continue bridge spam me with like zappies, healer, Valkyrie. Yep, there are the zappies" (t=123-127), "Yep, there are the zappies, by the way" (t=143-145), "then the zappies. Yep, and then the healer" (t=154-156). The tracker confirms zappy(e) at [4,15] and [3,12] in that window.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:33: he calls the Zappies the correct answer to his own bridge Elite Barbarians — "He could zap these two though to be fair. Zappies is definitely a valid play by him" (t=764-766). A three-Zappy column is then tracked down his left lane from clock 0:47 through OT 1:27, and The Log is his repeated answer to it.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:16-2:12 (t=363-370): reasons about the opponent's deck from a card they did NOT play — "Maybe he doesn't have the Zappies cuz I feel like if he had Zappies, he would have played them right there. Unless he just unluckily didn't have them in cycle."
+- clock 1:28 (t=413-416): closes the question by cycle-counting — "he's used all of his cards already, so we know he doesn't have Zappies anymore." Mentioned only; no Zappies appear in the events.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:23 onward: deployed repeatedly down the left lane in threes (t=926.9, 995.0, 1001.0, 1079.1, 1105.1). Ryley used their tight column formation against them — the Magic Archer at clock 2:20 was placed for "the beautiful lineup right there."
+- clock 1:43: he counts them as one of the two known cards in the opponent's hand — "Right now he has Zappies, wizard, and two cards he hasn't shown yet in his hand."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, the most frequent one on the field: t=1371.4 [2, 21], t=1375.4, t=1431.4 [8, 19] and t=1437.4, four of them walking both lanes at clock 1:38-1:32. Ryley answers the first wave with Royal Delivery (t=1377.9) and the later one with a centred Magic Archer (t=1435.4).
+- clock 1:50 (t=1424-1428): he predicts the card before it is played — "I think he'll zappies because of this... Yeah, he'll have to get some zappies down" — and it arrives at t=1431.4.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 1:23: the opponent's Zappies are the precondition on his bridge Mighty Miner — "We'll take it out very nicely cuz he has no zappies, and so I don't have to worry about those" (369-371s).
+- clock 0:34 and overtime 1:44: answered twice with cheap spells and a second building rather than a troop — "we go for the log as well. Make sure to grab those zappies. Nice, we grabbed one of them" (417-420s) and "we need to go for the cannon up top as well to block those zappies. Beautiful zappies block it. We'll block two of them" (466-470s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:50: first sighting at tile [0, 17], and the surprise is the point — "Okay, he has Zappies. What the heck is this?" They then appear in both lanes ([12, 24], [2, 21], [6, 15], [2, 15]) and repeatedly show as "tower in ~6-8s" threats that he answers with The Log and Skeletons.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m0.md):
+- t=418.0 and t=456.1 (clock unread): defensive placements at (7, 11) and (8, 9), both beside the Tesla in the centre of his own half.
+- t=437.0 (clock unread): offensive placement at the left bridge, tile (1, 15), pre-announced at 424s — 'I do want to start applying some pressure with these Zappies.'
+- t=424-440 (clock unread): ally Zappies walk the left lane and the enemy left tower falls from roughly 3986 to 2390; at 437-439s he says 'this guy might get cooked by all the Zappies. The Zappy spam is seeming to be a bit too much.'
+- t=422 (clock unread): the opponent also had Zappies on the board in his half, flagged as reaching his tower in 3.6s — 'look at all these Zappies.'
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:38 (t=1509.8): Zappies from the HUD for 4 (elixir 10->6) as the anchor of a defence, one second after Arrows cleared the swarm in front of them.
+- clock 0:14 (t=1535.5): Zappies at [11,8] on his own half against a Mega Knight tracked crossing to the right lane and a Bandit advancing the left - the defensive, behind-the-tower use.
+- clock 1:58 (t=1551.5): Zappies at [9,7] in overtime, played specifically because the opponent's answer was gone: 'Let's go for the Zappies cuz he he did waste that' (1551s). Earlier, at 1524s, he pushed them forward instead: 'Let's just go for the Zappies here at the bridge, guys.'
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m2.md):
+- clock 1:24 to 0:38: five Zappies placed deep on his own half at (9, 8), (9, 9), (12, 8) and (8, 11), behind the towers rather than on top of attackers, as the repeat answer to a Tesla-anchored opponent.
+- clock 1:12, he states the plan: "I'm just going to keep spamming my Zappies down, guys, cuz over time I think we might actually just get through."
+- clock 0:28 and 0:23: once he is chasing damage he pushes Zappies up to (14, 15) and (16, 15) at the river instead of behind the tower — "Zappies again, please take this out."
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m2:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m3.md):
+- Three sets in 28 seconds - t=1879.3s (HUD, elixir 5->1), t=1888.7s at tile [8, 10] and t=1907.7s at tile [9, 10] - both labelled placements deep behind his own towers so they have time to charge their shots, never dropped on top of a unit.
+- In this C.H.A.O.S. game a mode modifier turns them into Sparkies, which is the whole pitch for the deck: "We have the three Sparkies" (1876s), "You guys can see just how often we're getting the Sparky, which is so annoying for him. Just applying so much pressure" (1908-1911s).
+- The repeat Zappies invited spell answers - the opponent Arrowed his own half at t=1890.7 ([3, 14], lvl 11) and again at t=1912.7 ([6, 16]), and Freeze landed at [6, 14] at t=1888.7.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m3:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:11 (t=1966.4): Zappies at [8, 10] to stop Guards that the tracker had reaching his tower in 1.3 s — "Okay, let's just go for the Zappies. All right."
+- clock 0:55-0:44 (t=1982.4, 1991.9): laid beside the siege lane at [8, 13] and then directly with the new X-Bow at [14, 14] (HUD 7.0 -> 3.0) — "Let's go for another set of Zappies, dude. And that X-Bow is locked on the tower."
+- clock 0:35-0:15 (t=2002.4, 2011.4, 2022.4): rebought at [9, 12], [9, 10] and [11, 10] as the X-Bow's permanent screen — "Let's go for the low Zappies here" (t=2003), "Another set of Zappies. We can go for another X-Bow here" (t=2012).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

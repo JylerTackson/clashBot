@@ -208,6 +208,43 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:35 (t=622) and clock 0:27 (t=635): he burns two premium answers on her — a bridge Skeleton Army ("Skeleton Army here at the bridge for the Musketeer") and then the Evolution Mega Knight ("I'm going to Evo Mega Knight into this Musketeer. I feel like I just kind of have to").
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Mentioned, not played (t=551-558s and t=628-631s), and specifically the Hero Musketeer variant: he uses her as his example of a new card buffing old ones by association — 'Same with like the hero musketeer, just the musketeer in general, right? When things like that come into the game, it does just inherently make the other cards better' — and names her as the Archer Queen's competition: 'a lot of people do use the Hero Musketeer over the Queen.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- always behind the Ice Golem: tracked into the right lane at clock 2:14-2:03 and into the left in overtime at t=1195-1204 and t=1255; Ryley meets her with Bats, Skeletons and the Bomb Tower.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Mentioned, not played (opponent never showed one). At 229-241s Ryley uses her to explain the limit of this spirit-heavy cycle deck: "the spirits are a decent amount worse whenever you're defending a card like Archer Queen or Musketeer because the Musketeer and the Archer Queen one-shotting spirits does actually make defense very difficult in quite a few scenarios."
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:37 (t=10.7): tile [8,9], HUD 10.0->6.0, deploy label score 1.0. She is the piece the whole anti-Rocket spacing is built around — the Cannon goes beside her, not on her, because the opponent has no Tornado to drag the two together (t=11-13).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:31 (t=335.3, tile (8, 7)): Musketeer placed deep on his own half as a repeat of a play that had already worked that clip — "then we can go for another musketeer here, guys. Great prediction by us."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- Opponent's Evo Musketeer, the card Ryley respects most in the matchup — "The only thing that we have problems with here, I think, is the Evo musketeer. The Evo musketeer can be so annoying sometimes, man" (clock 1:54-1:50), and he tracks its rotation into overtime ("we have to be careful, though, cuz he has a musketeer Evo coming up", clock 0:03). Answered with Skeletons on top at OT 1:10 ("block the musky").
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- Opponent's card (not played by Ryley). clock 0:53 (t=1058): named as the reason the matchup is bad for him - 'He can start spam cycling the muskies though, that's the biggest problem. Musketeers get so much value'.
+- clock 1:53 (t=998): she shapes his back placements - 'I just have to be careful to not give the musketeer too much value' when putting Mighty Miner behind his towers.
+- clock 1:29 to 0:50 (t=1022.5 - 1184): his standing answer was Firecracker ('I hope that the firecracker can take out that musketeer'; 'Beautiful shot on the musketeer right there'), and at clock 1:23 he sent a back Hog Rider partly at her - 'Just need to try to deal some damage to that musketeer'.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

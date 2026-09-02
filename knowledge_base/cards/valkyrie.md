@@ -221,6 +221,205 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - Mentioned only, not played and not seen this game (the HUD's 'Valkyrie' slot reads at t=736.1, 780.9 and 785.0 are hand-reader errors on a deck that does not contain it). He names it alongside the Berserker as a hero threat Freeze handles: "you can always freeze the berserker and the Valkyrie" (615-618s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:45 to 1:38: identified as the Hero variant on sight and rated as the harder version to face - "Him having the hero Valkyrie is interesting though. I think I would rather face the evil Valk to be honest because the Valkyrie is going to be able to go up to our furnace offensively if he plays it properly, which is going to be really annoying."
+- overtime 1:25: the ability is popped on his Royal Hogs, and he treats that as an elixir win - "Oh, he ability. Okay, that's fine, though, cuz he spent a lot on the ability."
+- overtime 0:55: played for free off a defensive cycle - "He's going to just Valkyrie there cuz he gets it for free since he's skelly drag. I don't know if he predicted us. But that was just a good play regardless."
+- overtime 0:19, his verdict on the game he loses - "Oh, the Valkyrie is too broken, man. Good game."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- mentioned only, not played (t=53-57s): used as the reference point for how strong the Hero Berserker and Evo Elite Barbarians are — "depending on, you know, where you would rank them compared to like the hero Valkyrie and things of that nature".
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- mentioned only, not played by either side: the second half of the same complaint - "with the ebarbs, the Valk, so many, you know, crazy things. And the void was already looking pretty strong" (855-860s). (An HUD hand read logged 'Valkyrie' at video 834.2s; that drop was his Golden Knight.)
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- This is the Heroic Valkyrie: "we are playing with this battle ram bridge spam deck with the hero Valkyrie" (188s) and "And hero Valkyrie is the same, but probably even a little bit better in this way" (228s). Her 3-elixir Wild Whirlwind empties no hand slot, so it only shows up as unexplained own elixir drops.
+- clock 2:25-2:02, on why she belongs in bridge spam: bridge-spam defenders are forced to bunch up, so a splash/dash unit is disproportionately strong — "That's why with golden knight, it's so good with bridge spam because they always have to line their cards up. You can get good dashes. And hero Valkyrie is the same ... It's such a stressful card to go up against and it just makes your offensive life so much easier."
+- Used in all three positions in one game: deep behind his own right tower at (12, 3) (clock ~2:35), defensively in front of his left tower at (6, 12) against a Minions + Bats wave (clock 2:02), and pushed "high" at the river at (8, 14) into a cloned Minion swarm (clock 0:40, "Let's go for the high valkyrie here").
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 2:38: played for 4 elixir (9->4 overall in the cycle) as an enemy Royal Ghost closed on his left tower, while introducing the deck as "a log bait spam deck with the hero Valkyrie" — "this is the first deck that I think everyone thought of when the hero Valkyrie was announced... The Valkyrie just fits this deck so so much better".
+- clock 1:36: placed at tile [6, 8] directly in front of an Evo Skeleton Army at [8, 6] to trap a Royal Ghost — he only stacks the two because of the opponent's spell list: "Just to try to trap it here because I think that he only has Vines in his deck and Vines in this would only be solid for me".
+- clock 1:28-1:20: holds the Hero Valkyrie's Wild Whirlwind ability, then spends it: "I have the Valkyrie ability ready. I don't see a point to use it", and eight seconds later "we can pop the ability as well just to go up to the tower and block the bomb" — the enemy left tower fell 4329 -> 1477 HP in the next four seconds.
+- clock 0:36-0:28: Valkyrie at the left bridge [2, 14] with Ice Spirit behind, ability popped to walk into the tower — "I can pop the ability and I think I'm going to get my way all the way up to the tower and to that Wizard"; verdict at clock 0:20: "that card is just so insane if you use it properly... whenever they try to defend without their like spells, they just get completely demolished".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:03 (t=742.6): 4-elixir play at the exact second he calls it as a Goblin Barrel answer — "Let's definitely go for the Valkyrie here. Take out this goblin barrel".
+- clock 0:47 (t=820.8): held at tile [2, 10] on his own half for a specific combo, stated before it arrives — "We have the Valkyrie ready here if he tries to go for any type of Goblin Barrel Skarmy playing the pocket".
+- clock 0:10 (t=856.9): played at tile [4, 18] on top of a whole cluster on the opponent's half — "let's just go for the Valkyrie on top of everything... Very good Valkyrie walking to the Princess. Perfect".
+- clock 1:21 and 0:57 (t=906.2 [3, 18], t=929.9): used pre-emptively against the opponent's Knight and then against the all-in — "Let's Valkyrie on top as well cuz he's probably going to try to go for the Knight", then "beautiful Valkyrie there kind of just knowing that he was going to go all in".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=1059-1075): Evo Valkyrie tornado damage cut 50% - 'it will no longer one shot skeletons or bats. You will have to be getting two swings to take out skeletons and bats, which I think is a fair change. Evo Valkyrie has just been way too strong for way too long now.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=236-247 (clock unreadable): he deliberately held Valkyrie through heavy chip on his own right tower because she is the enabler for his bridge push — "I don't want to be dropping my Valkyrie because of the magic archer lineup... I just made sure to keep doing fire spirit until my cycle was a bit better".
+- t=248.2: broke that rule for a defensive Valkyrie at tile (16, 5) only after counting the opponent's elixir — "you just broke the rule. But I knew that because he wouldn't be able to afford a Valkyrie in front, I would just be able to predict the magic arch with my spirits... he ended up not getting a single hit on my tower".
+- t≈202: used as the front half of a Magic Archer + Valkyrie bridge push (8 elixir in one burst) in the left lane.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
+- t=2528.4: Valkyrie at [4, 18] on the left (elixir 10.0 -> 6.0) as a deliberate trade-down against an Evolution Skeleton Army — "He did a really nice play with the Evo Skarmy... I went for the Valkyrie here knowing I was going to lose it, and then I went for the heal spirit" (t=2527-2532).
+- t=2563.6: Valkyrie at [14, 11] on his own half covering the right lane during the Dark Prince/Battle-Ram-kite sequence.
+- t=2598.6 with the ability at ~t=2606: bridge Valkyrie at [13, 18] leading the final push, with the Heroic Valkyrie's 3-elixir Wild Whirlwind fired on arrival — "I went for the Valkyrie... I popped the ability my Valkyrie when I went up to the tower" (t=2601-2607). This is the Hero variant (heroes/valkyrie-hero.md).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Played as the Heroic Valkyrie with the ability popped on landing; it is his dedicated X-Bow killer — t=1554.6s label at [3, 18] beside Ian's X-Bow at [1, 19]: "I went for the Valkyrie plus immediate ability to take out the X-Bow cuz I knew that if I didn't, then he could just pop the berserker ability. So, that was a very good defense by me" (1556-1562s).
+- t=1429.4s / t=1432.4s: Valkyrie sent over the river at [14, 17]/[14, 18] onto the bridge X-Bow behind a Baby Dragon; he rates the pair badly afterwards — "it kind of shows that this was not the greatest play in my opinion" (1433-1436s).
+- t=1486.5s and t~1583s: Valkyrie used as a deterrent while he builds — "I even went for a Valkyrie cuz having all this stuff down did mean he couldn't really go in for an X-Bow here" (1488-1492s), "I even went for a Valkyrie at the bridge just to continue protecting. And I went for the Valkyrie ability as well" (1583-1588s).
+- t=1612.6s / t=1623.6s: on offence in triple elixir, the ability plus a Tornado pull is his damage source — "I do a super nice Valkyrie ability plus [tor]nado. And look at that Valkyrie, guys. I got up to the tower because of my tornado... I get some very, very nice damage" (1624-1633s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t≈1887 (clock unreadable): mentioned only, never played — Ryley names Valkyrie as the kind of card his Lava Hound list was missing against Goblin Drill: "I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2389-2398 (clock unreadable): respected before it appeared — "my goal right now was just trying to make sure that his Valkyrie didn't walk up to my tower. I even pre-dark Prince predicting his Valkyrie cuz I knew he had the Valkyrie and I wanted to instantly wipe it out".
+- t=2361 (clock unreadable): the Heroic ability is why he refuses to let a Lava push start — "mainly lava pushes with the Valkyrie behind it because I know that the Valkyrie ability can be crazy".
+- t=2427-2446 (clock unreadable): baited to the wrong lane by Barbarian Barrel + Goblins ("he'd have to Valkyrie on the left side and he actually Valkyrie'd", t=2431), then tracked at [3, 11] grinding Ryley's left tower from 2448 to 1916 while he closes on the other side.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 1:07-1:02 and OT 1:19: the opponent's Valkyrie is tracked crossing at (13, 21) -> (14, 16) and later at (2, 13); Ryley answers the first one with a Rune Giant placed to kite plus Mother Witch behind it — "let's go for the Rune Giant here to kite this and then we can go for the Mother Witch as well" (402-405s). He never names the card on camera.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- mentioned only, never played by either side: at t=657 Ryley groups it with Berserker and Elite Barbarians as the season's 'big three' additions and says he cannot pick a favourite — 'I feel like I have a different opinion literally every single day'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 1:07: mentioned only - he counts the opponent's Valkyrie as a misspend that takes the spell answer off the table - "that was a bad Valkyrie though because after that Valkyrie, he's not going to be able to afford a fireball on the mother witch."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card. Tracked on Ryley's left three times ([3, 15] -> [3, 11] at t=826-830, [2, 13] at t=860.9, [3, 16] at t=886.9) and named as their only answer to the bridge push - 'He has to just Valkyrie. Yep' (t=850). Ryley answers it with Cannon Cart at [9, 10] (clock 1:23) rather than a spell.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Played as the Hero Valkyrie (ability 'Wild Whirlwind', 3 elixir on top of the 4-elixir card). He states the cost twice because it matters: 'how the Valkyrie works is whenever you pop the ability, which is three elixir, by the way, that is really important' (t=37-46), and describes the behaviour as 'it will just go towards every single unit on the board... every single forward unit in the board that is in front of it' (t=54-59).
+- clock 1:58 and 0:45: defensive placements in front of his own tower at tiles [8, 10] (t=56.1) and [9, 10] (t=130.1), the second one alongside a Bomb Tower at [8, 10] against a Graveyard landing at [8, 0]. He compares her to the Golden Knight — 'except that the Valkyrie like doesn't stop until the ability is over. It's actually kind of ridiculous' (t=73-77).
+- clock 0:51-0:33: refuses the bridge ability twice on purpose — 'right here, I could have Valkyrie the bridge with the ability, and I think my Valkyrie would have walked all the way up to the tower, but I don't want to do that just yet' (t=124-129) and 'I'm not going to ability again cuz the Valkyrie is not getting tanked for' (t=145). His rule is that the ability needs a Miner or another body tanking for her: 'it would have been way more damage if the Valkyrie was actually tanked for by the Miner' (t=183-187).
+- overtime clock 1:46-1:22: the game-winning use — bridge Valkyrie at tile [15, 14] (t=191.2) behind Wall Breakers and Miner, ability popped at t=197: 'Let's just go again with the Valkyrie plus Miner... Let's pop the ability here. Oh my god, look, it's going to take out the Firecracker. Nice, and it's on the tower. Dude, what is this card? This is actually so insane' (t=192-206). The enemy right tower falls 2124 -> 518 in that window. The opponent runs the same hero and abilities it at clock 0:13, taking Ryley's King from 3824 to 3092; his prepared answer is 'Wall Breaker kite that Valkyrie' plus Skeletons and Tornado (t=155-162).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- This is the Heroic Valkyrie (4 elixir card + 3 elixir Wild Whirlwind). Every one of her five deploys is a back-of-court cycle or a bridge commit, never a mid-court defence: (1, 5) at clock 2:47, (9, 1) behind the King at 2:23, (2, 14) at the bridge at 1:35, (10, 0) at 0:50, (2, 15) at the bridge at 0:17. "Let's [we're] going to Valkyrie in the back here. He mirrors it with his own Valkyrie" (314-318s).
+- clock 1:35: Valkyrie at the left bridge for 4 elixir immediately followed by the Royal Giant at (3, 15) for 6 — his standard commit when the opponent has overspent. "And if he overspends, I'm just going to go for the Valkyrie at the bridge. Okay, I think I just go Valkyrie plus RG at the bridge right now." (356-360s)
+- clock 0:17-0:13: the game-winning play. Valkyrie at (2, 15), then a bare 3-elixir step (6 -> 3) for Wild Whirlwind instead of the Fireball he had ready; the tower goes 1517 -> 222 HP in about 15 seconds. "I'm not going to Fireball that. I'm going to ability instead, guys. Look, it's going to go to the tower. That was literally unstoppable. What could he have even done there? That was guaranteed on tower 100." (441-449s)
+- His framing for judging her, said over a Valkyrie mirror at 320-348s: "a lot of the times the card doesn't seem as strong when they keep facing each other cuz in a lot of scenarios they end up canceling each other out. You need to kind of think about the card on how strong it would be against people who aren't using the Valkyrie... imagine the Valkyrie hero against your regular average player who plays like og barbs mega knight." He also names the matchup shape that makes her good: "he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight" (402-408s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 2:44: the Heroic Valkyrie's first drop is at (9, 10), centre of his own half, and Ryley frames the whole deck around simply owning her: "just having the hero Valkyrie able to slide in here is so nice. Even when you when you don't consider how good it is cuz you may as well have it, right? If you don't have any slots for it. But, this deck right here, man, this deck was already solid" (474-486s).
+- clock 1:50: panic defence — Valkyrie at (4, 11) (elixir 6 -> 2) with a Cannon and Ice Spirit as an enemy Hero Valkyrie and Little Prince walk his left lane. "Let's Valkyrie keep this alive. Let's go for the cannon here. Do that Valkyrie ability. Oh my god. Don't kill my cannon... Hero Valkyrie has way too much aura, in my opinion" (532-551s).
+- clock 1:10 onward: he holds her back all of regulation and states the offensive plan out loud — "I just want to try to get a Valkyrie up to that tower at some point cuz whenever he goes for like the Barbarian Barrels on defense, we could always use the ability to try to skirt up to the tower" (562-571s) — then executes it only in overtime, Valkyrie at the left bridge tile (3, 15) at overtime 1:51 followed by the ability: "let's ability here maybe. Yo, that's going to take out his Valkyrie. Dark goblin's going to stay alive I think because of that" (653-658s).
+- Hero mechanic he discovers on defence at clock 0:50-0:37: Wild Whirlwind is not interruptible by a stun — "for some reason the Valkyrie doesn't actually reset... it doesn't get reset by like spirits and stuff like that. So, like even if it's like frozen by the spirit it keeps swinging which is so weird." He also prices a bad activation at 7 elixir: "that was just a bad Valkyrie plus ability by him. Kind of seven elixir down the drain" (678-680s). Six of his seven placements in this game are on his own half; only the overtime one is a bridge play.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:53 (t=706.5): Heroic Valkyrie dropped at the left bridge (4, 15) with an opposing Fisherman tracked at (6, 17) — played deliberately to be hooked: "Can I Valkyrie the bridge too cuz that's going to get pulled up? And then I can pop the ability for the Skeleton" (707-710s).
+- clock 0:47-0:43: that same Valkyrie ends up past the enemy left tower and the tower falls 1072 -> 827 -> 414 — "Come on, Valkyrie. Oh my god. Bro, it's behind the tower on the Hunter... It literally got behind the tower. Dude, that was such a nice Valkyrie" (712-720s).
+- clock 0:33 (t=725.5): defensive Valkyrie at (2, 13) into an opposing Valkyrie + Fisherman + Hunter push, with Wild Whirlwind held for whatever the opponent commits — "whatever he puts, I get the ability, and then he split his Skeletons. So, my Valkyrie is able to just chain up to the Skelly" (724-728s).
+- clock 0:23 (t=737.5): third Valkyrie of the segment at the right bridge (14, 15) — "Let's go for the Valkyrie here, then we can maybe go for a Skeleton Army as well" (739-741s). He credits the win to her at 754-761s: "mainly just one good Hero Valkyrie up to the tower, and we just won the game so easily. This card is just so broken."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- Deck rationale (t=770-776), playing the Hero variant with Wild Whirlwind: "this is probably the first deck that I thought of when I thought of the Hero Valkyrie. I feel like the Valkyrie works nicely with Tornado anyway", and at clock 1:36 (t=839.8), dropping her deep at (1,3): "I think with the Hero Valkyrie, I should definitely have the advantage."
+- clock 0:44 (t=891.7): Valkyrie alone at the right bridge (14,15) as an elixir-forcer rather than a damage attempt - "It's Valkyrie the bridge just to force out a lot of elixir from him."
+- Ability discipline: he refuses Wild Whirlwind at clock 2:08 (t=806) - "I want an ability, but it's not worth it" - and spends its 3 elixir only in decisive fights at t=898, t=937 ("Let's go for the Valkyrie ability to make sure our Valkyrie wins") and t=1029. On the opponent's mirror ability: "Very good ability, man. Getting so much value. It's kind of ridiculous how it just shredded every single thing on the board that we had" (t=942-946).
+- clock 0:52 (t=881.7-887): on her reach - "Oh, Valkyrie got a swipe. Valkyrie always gets those super far range swipes, man. The range is so underrated on that thing."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- clock 2:32 (t=1115): plans around the Evo Valkyrie before it appears, holding Wall Breakers so he can answer it at range — "I'm not going to wall breakers cuz I want to be able to magic archer his Valkyrie."
+- clock 2:16-1:51 (t=1129-1152): the opponent's Valkyrie walks down his left lane and he kites it back with Wall Breakers instead of trading a defensive card — "I'm going to kite the Valkyrie back with my wall breakers", and he gives credit: "Nice Valkyrie by him."
+- clock 1:24 onward: the tracker reports the Evolution variant escorting the X-Bow damage in the right lane; he calls the repeat before it lands ("he's definitely just going to go for the Valkyrie again", t=1203) and answers it with Fire Spirit + Berserker + Magic Archer + Royal Delivery rather than a single card.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 1 (regular): the Elite Barbarians answer, at the bridge with the Royal Giant (t=390.4 [13, 14]) and defensively up top (t=427.4 [8, 0], t=435.4 [9, 1], t=454.5) - "I went for the Valkyrie here up top just making sure that we take out the Earbs" (455-458s).
+- Game 2 (Heroic Valkyrie): the ability is used as a spell on the siege building instead of defending it - t=683.7 [3, 14], "I went for the Valkyrie plus immediate ability to take out the expo cuz I knew that if I didn't then he could just pop the berserker ability. So that was a very good defense by me" (684-692s).
+- Game 2: ability plus Tornado is the offensive payoff - Valkyrie t=748.7 [15, 14], Tornado t=750.9 [15, 21], enemy right tower 1746 -> 1116 HP: "I do a super nice Valkyrie ability plus NATO... I got up to the tower because of my tornado" (752-762s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- Mentioned only, never played and not in his deck. At t=1017 he names it as the missing piece of a Lava Hound list facing Goblin Drill — 'I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that' — the reason he chose to close the game out normally instead of pushing for a three-crown.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1489-1497 (opponent's Heroic Valkyrie, never fought head-on): Ryley treats the ability as the thing to avoid - "mainly lava pushes with the Valkyrie behind it because I know that the Valkyrie ability can be crazy."
+- video t=1522.5: he pre-places a Dark Prince onto empty ground for it - "I even pre-dark Prince predicting his Valkyrie cuz I knew he had the Valkyrie and I wanted to instantly wipe it out" (1523-1528s).
+- video t=1557-1562: he baits it into the dead lane with a Barbarian Barrel plus Goblins split - "knowing that he'd have to Valkyrie on the left side and he actually Valkyrie[d]."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.5.md):
+- Video t=1727.7 (played as the Heroic Valkyrie): led the closing push at the bridge [13, 15], two seconds ahead of the Evo Battle Ram — 'I went for the Valkyrie. I went for the Evo Ram, guys' (t=1730-1731).
+- Video t=1732-1736: Wild Whirlwind held until tower contact rather than used on the way in — 'I popped the ability, my Valkyrie, when I went up to the tower'; three own elixir drops of 3/3/2 with no readable hand change sit in that window.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:37 (t=31.9): one HUD cast (6.0->2.0) during the Magic Archer clip, unnarrated.
+- The Valkyries he discusses are the opponent's, called twice before they land — "he's probably just going to go for another valk. Yep" (t=135-136) and "then the Valkyrie and then the zappies" (t=152-154).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:44 (t=536.5, tile (2, 9)) and clock 1:37/1:23 (t≈592 and t≈607): Valkyrie used as a bridge body to open a lane while the barrels and Wall Breakers baited the other — "valk the bridge. Nice."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:33: mentioned only as a yardstick for how obviously strong a card is — "I don't think that it's like the Valkyrie where like it's just impossible to think that it's not strong", i.e. the Hero Berserker's strength is arguable in a way the Valkyrie's is not.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- Opponent's Hero Valkyrie, the card that nearly loses Ryley the game. He flags it before it appears — "We have to be careful of the hero Valkyrie" (t=608) — answers it with Berserker at [9, 14] and The Log at [3, 8], and still eats the ability: "Yo, Valk, don't pop the ability on me. No, no, no, no, no, bro. [laughter] Dude, that card is also something else, man" (t=611-615), with his left tower falling 4786 -> 3312 between t=616 and t=620.
+- It also drives his defensive layout for the rest of the match — the Bomb Tower goes behind the tower at [3, 3] rather than into the lane (t=624-632) — and in overtime he beats one with the Berserker's own ability: "he tries to Valkyrie. What I'm going to do here is I'm just going to pop the ability" (t=729-730).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=283-289, mentioned only, never played): listed alongside Knight and Golden Knight as a Mighty Miner replacement in this deck — 'like the knight, the valkyrie, the golden knight, just a few cards like that.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

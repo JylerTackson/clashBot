@@ -134,6 +134,53 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - Opponent win condition, named rather than cleanly detected: "I really just didn't think that he would go for a graveyard into a goblin stein but you know, giant graveyard players do be surprising us" (t=129-134). Two medium-confidence tracker hits at t=112.1 tile [15, 14] and t=275.3 tile [3, 13]; Ryley never has to answer a committed Giant push in the readable window.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 1:12 (t=795): played as the pocket tank for extra king-tower damage rather than as the lane opener — "I think we just giant the pocket. Try to grab extra king" (the push then lost value to a lag spike: "Bro, the lag. Oh my god. Okay, at least we grabbed a Sparky shot").
+- clock 0:03-1:53 (t=866-874): the overtime plan is Giant first, Evo E-Barbs behind — "we can just go for a Giant Evo E Barbs in the pocket", then "Okay, let's go for the Giant here and then we can go for the Rage once he goes for the Skeleton Army".
+- In this Giant/Sparky/E-Barbs list the Giant is support for the Elite Barbarians, not the win condition: four plays (t=776.1, 814.3, 824.5, 871.9) and only 4 commentary mentions against 13 for the Elite Barbarians.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. Deploy-label confirmed at clock 0:44 (t=131.1, level 16). Ryley never comments on it; his standing answer through that window is Berserker plus Mother Witch on the left lane.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- overtime 1:50 and 1:11 (t=696, t=734): the opponent's Giant is the three-crown threat he cannot answer and the reason he calls the game lost - "how are we going to stop getting three crown when he goes giant?" and "Nah, okay. We lost. He's just going to go Giant Vines on the King Tower, and we're just completely cooked." (Commentary only - no Giant was detected on the field.)
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.4.md):
+- clock 2:37: the opponent's Giant lands at (1, 12) and Ryley had already called it from the tower troop alone — "this guy has Dagger Duchess and Bomber ... Probably going to be Giant, I guess. Not really many other decks play with the Dagger Duchess."
+- clock ~2:03: describes the whole plan of a Giant beatdown deck and how to beat it — "He wants to go Giant whenever you play a card and just completely take it out. But if we can win the bridge battle like that, it's usually going to reward us pretty nicely."
+- clock 0:15: reads the opponent's Hero Giant ability as an elixir trap and refuses it — "He's going to go for the giant ability, but because he goes for the ability, then we can just go for the E-Barbs. He was hoping that we would ability so then we wouldn't have any elixir for defense."
+- clock 0:03: grades the opponent's last Giant as a cycle mistake, not a placement one — "I knew that he went for a bad giant cuz he didn't have his dark prince back in cycle yet and that's like his main defense."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:02-1:52 (t=212-225): mentioned, not seen in an event, but it drives the deck's key rule — "there is a pro tip in these giant matchups. Never put your Ronin right next to the giant when you're initially trying to reflect the prince or the dark prince, cuz they can giant ability the Ronin to the opposite lane."
+- clock 1:42 (t=233): once the tank shows he reads the whole deck off it — "Okay, giant double prince should not be too much of an issue cuz the Ronin is just going to be able to reflect everything."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 2:23-2:07: against the opponent's Heroic Giant he tried a forward Cannon at (11, 14) as a cross-lane pull and Skeletons at (3, 14) as a kite, and read the ability out loud — "I was trying to bring the giant back to the other lane" (310s), "He's going to a giant ability, isn't he? I mean, maybe he doesn't cuz then he has to defend the mighty miner. Oh no, he does anyways" (320-325s).
+- overtime 1:28: by overtime he treats the Giant as a race he wins — "He can't really giant cuz if he giants I'm just going to hog rider" (482-485s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:32: named only, as the read that resolves his guessing - "Oh, he does have giant" (578s), after cycling through Lava Hound and Golem, and confirmed at 1:45: "I assume then he just has the regular giant Sparky deck." No Giant deploy label or unit track appears in the readable window.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=106-165s (clock unknown — the clock OCR failed for this whole video): Ryley predicts the Giant three times before it lands ("He might end up just going Giant Graveyard at the bridge", t=106; "Does he giant? Okay, yep", t=111; "He's going to giant. Yep", t=161) and never spells it — the Cannon pulls it and Mighty Miner plus Skeletons kill it, while Lightning is saved for the support. He rates the matchup class outright: this deck "absolutely destroys like Giant, Golem, you know, Giant Skeleton" (t=87-90).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant (scraped 2026-09-02T02:34:51+00:00)

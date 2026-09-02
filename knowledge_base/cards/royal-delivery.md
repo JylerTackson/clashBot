@@ -140,6 +140,233 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 2:31 / 0:31 (t=540.5, 660.7): Royal Delivery at (14, 10) and (13, 15) — always on his own half, always the answer to a push he could not cycle into, never part of an attack.
+- OT 1:59 / 1:10 / 0:30 (t=693.0, 745.1, 775.9): three HUD-confirmed 3-elixir Deliveries in overtime, roughly one per opponent push, in a deck whose only other air answer is the Archer Queen.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- clock 1:54: dropped at [12, 13] straight onto the path of a Battle Ram and Electro Wizard that the tracker had 4.6 s and 6.3 s from his right tower — the tower then holds at 4160 for the next 20 s.
+- clock 2:32 and OT 1:39: reactive drops at [6, 14] and [14, 13], always in the lane of a single committed attacker and always with the Bomb Tower already placed behind it — six uses in all, entirely defensive.
+- OT 1:18: laid at [12, 14] as the opponent's second Ronin comes down at [8, 29], the answer to a bridge-crossing melee threat.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Four labelled drops, all defensive: (15, 8) twice, (2, 9) at t=464.0, (13, 15) at t=547.5 and (14, 10) at t=593.6 — never on the opponent's half.
+- clock 0:28 (t=464.0): dropped at (2, 9) onto a left-lane threat the tracker had been holding on that tile, with a Bomb Tower already at (9, 9) — the building-holds-them, drop-cleans-up pattern.
+- clock 0:50 (t=441.6): played inside the big triple-elixir defensive stack alongside Magic Archer, Archers, Berserker and Goblinstein.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Five uses, all on his own half: (2, 8) at clock ~2:32, (4, 14) at clock 1:36, a HUD 7 -> 4 at clock 0:42, (7, 13) at clock 0:34 and (15, 10) at clock 0:19 — his standing answer to whatever has already crossed the river (Royal Ghost, Miner, Mini P.E.K.K.A.).
+- clock 2:32 and clock 0:42: lands within two seconds of a Tornado both times, and at clock 0:42 also alongside a Bomb Tower — Tornado clumps, Royal Delivery and the Bomb Tower splash.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- clock 1:09, 0:59 and 0:23 (t=897.9, 908.9, 944.9): three labels all on the same left-lane river tile [5, 14]/[5, 15], the lane the opponent's Ram Rider and Guards keep using.
+- overtime (t=968.1 HUD 4.0 -> 1.0, t=977.8 HUD 3.0 -> 0.0): spends it twice in the first ten seconds of overtime while defending a Miner at [7, 8] and an Executioner at [8, 12] on his own half, emptying his elixir bar both times.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only; the 'Royal Delivery' deploy labels at [13, 3] (t=1272/1275) coincide with the on-screen balance graphic and are not treated as a play. Commentary t=1269-1287: 'Royal Delivery has just been too good for too long now and it's kind of like the staple of all of these decks that have like crazy cycle cards and shouldn't really get away with it... making it so impossible to break through.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Opponent's card and the single card Ryley's Goblin Barrel plan revolves around; the auto-transcript renders it "the delivery" and the arena tracker logs the lone Royal Recruit it leaves behind at tiles (14, 20), (14, 15), (3, 18) and (4, 22) (see the match file's Data gaps).
+- His stated bait-deck plan against it is to outcycle it: "I was just playing very passive, kind of trusting my defense, and knowing that I can outcycle him with the delivery throughout the game, just kind of get some nice damage" (1231-1238s).
+- He throws the Goblin Barrel only when he counts it out of hand: "just knowing that he didn't have the delivery right away, but he actually did manage to get it down, which is really good by him" (1322-1328s) and "I went for the barrel cuz I outcycled the delivery" (1349-1350s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2004-2009 (Royal Delivery at [15, 15], elixir 9.0 -> 6.0): used as the answer to the opponent's small spell rather than saving it — "Here I went for the delivery on the barbarian barrel".
+- t=2170 (Royal Delivery label at [12, 15]): stacked with the Berserker Hero ability to burst a Giant Skeleton — "I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible".
+- t=2184 (Royal Delivery at [5, 17]): the same Berserker pairing on the other lane — "So I went for the delivery berserker and I even got a nice ice spirit as well".
+- Played ~6 times in 306 s of readable footage, i.e. treated as a rotating defensive card in a cycle deck, not as a held answer.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- four uses, all defensive and all on his own half (clock 2:04 t=45.0 at [4, 8], 0:37 t=134.3, overtime 1:19 t=212.9, 0:44 t=251.1) — each onto a committed ground push (lane-switching Mighty Miner, the Cannon push, the Firecracker/Barbarians left lane, the final Mighty Miner).
+- clock 2:04 (t=44-52): he plays it knowing it will not save the tower — "We are definitely going to take a decent bit of damage here, but that's what happens when they switch lanes with the mighty miner ability. But we got a lot of damage with the magic archers, so it shouldn't be the end of the world".
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.1.md):
+- clock 2:03: cast at (2, 13) as the third layer of a defence that already had Berserker at the bridge and Magic Archer behind it — "then we go for the magic arch and we go for the delivery as well. This will be a very clean defense."
+- clock 1:03: his designated answer to the Balloon Freeze all-in, at (15, 12) alongside Ice Spirit and Bomb Tower — "Let's go for the delivery here ... And even if he freezes, yeah, he's not going to take out our tower."
+- clock 0:23 and 0:15: cast twice more at (13, 14) and (14, 13) against the last Bowler push — "Let's go for the delivery here" / "We can go for a delivery."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:37 / 1:38: pure defence on his own half - at (2, 14) into the opponent's first bridge push ("That was maybe a little bit risky", 446-448s) and at (10, 11) onto the Royal Ghost ("we can go for the delivery as well. Is that going to walk to it? I don't think it will. Oh, it does", 498-503s).
+- clock 0:25 and 1:11/0:58 (overtime): held as the stated backup behind the Bomb Tower and spent on the big pushes - "We have the delivery ready" (571s), "Then we need to delivery as well" (586s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:04: Royal Delivery at tile [5, 15] onto the left-lane Ice Wizard that the threat tracker had reaching his tower in ~8 s.
+- clock 1:44: Royal Delivery at tile [5, 11] onto three left-lane Minions, justified by cycle rather than value — "then we can just get the royal delivery down as well cuz we did cycle back which is very nice" (t=757).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- clock 1:32 (t=875.9, tile [3, 14]): dropped on an Evo Tesla + Knight push that had reached row 7 in his left lane, right after an Ice Spirit - "Nice. Beautiful timing. And we get a delivery down as well. Looking really good for us."
+- clock 0:31-0:27 (t=945.1, tile [14, 7]): explicitly held in hand for the opponent's Evolved Goblin Barrel - "I do have to be careful though of the evo barrel. We have the delivery ready. Let's delivery" (t=940-945), "we have the delivery ready for the goblin barrel" (t=962).
+- overtime 1:48 and 1:09 (t=985 [14, 8], t=1024 [14, 7]): part of his standing overtime defensive rotation alongside the Bomb Tower - "Let's high bomb tower here. Delivery on defense" (t=984), "We delivery again" (t=1024).
+- overtime 0:23 (t=1071.1, tile [14, 8]): "Okay, we have the delivery ready here. Yep. Let's delivery here." In this game it is used purely defensively, always on his own half around tiles [13-14, 6-8].
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- t=1220 (clock 0:47): one use all game, at [15,15] by the right bridge, as the closer after Fire Spirit and Berserker on an X-Bow/Valkyrie push — "we need to delivery at the [bridge]." Against a siege deck he keeps it for the swarm-and-Valkyrie package rather than cycling it.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.6.md):
+- clock 1:14 (t=1366.4): [10, 14] — he names it as the card kept in reserve for the opponent's support troop rather than a defensive commitment: "We have the delivery ready in case he goes for an e-wiz."
+- clock 1:55 (t=1326): mentioned as the reason he can ignore an entire variant of the opponent's deck — "We have delivery anyway, so I'm not really worried about the minion horde. I just don't want them to get like crazy barbarians on me."
+- clock 0:32 (t=1408.4): [15, 12] onto the incoming Balloon after rejecting a Magic Archer — "Actually, do I even want to marcher at all, though? Let's delivery here."
+- clock OT 1:14 (t=1487.5) and OT 0:45 (t=1516.5): [15, 15] and [14, 15], both into the overtime Balloon/Wizard pushes on his right — "And then we delivery as well", "So, it's delivery here. Fire spirit."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1133.1 [15, 11]: used pre-emptively on the opponent's small spell — "Here I went for the delivery on the barbarian barrel".
+- t=1227.2 [12, 13]: part of the three-card hold at 1 elixir — "I went for the cannon and the ice spirit and the royal delivery on defense as well".
+- t=1299.3 [12, 14]: stacked on the Berserker ability to maximise damage on a Giant Skeleton — "I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 0:13 (t=315.3, tile (6, 13)): Royal Delivery dropped to finish a damaged Wizard rather than to answer a tank — "let's go for the delivery here. Make sure he finish off that wizard."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- t=30.9 (clock unknown): Royal Delivery at [2, 8] onto a Royal Ghost the tracker had flagged as 3.3 s from the tower; four of his five deliveries land in the left lane, the lane the opponent attacked all game.
+- t=123.1 and t=156.2 (clock unknown): deliveries at [3, 8] and [7, 14] as part of defences that hold - the second, alongside Bomb Tower and Ronin against a Ram Rider, draws 'Very good defense right here' (t=162).
+- Five deploys in this game (t=30.9, 60.1, 112.6, 123.1, 156.2) and he never narrates the card itself - it is the silent defensive spell of the list.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=245.2, tile [2, 12]): the pre-called answer to an Inferno Dragon walking the left lane — 'Okay, I'm going to delivery here and then we can go for the Wall Breakers here as well' (t=246-248), stacked with an Ice Spirit reset and the Ronin.
+- clock unknown (t=297.3, tile [2, 14]): second delivery in the same lane as part of the anti-Evo-Inferno-Dragon block.
+- clock unknown (t=306.3, tile [12, 10]): used as damage on top of an already-committed push rather than as a reset — 'Let's delivery on top of the [balloon] just to help damage it. Take out the Mega Minion as well. And that's a very good defense right there' (t=308-312).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- clock unknown (video 428.4s): pre-emptive Royal Delivery at (3, 8) against an expected Miner — "He's going to Miner with this I think. Yep, let's do delivery" (426-427s).
+- clock unknown (video 609.6s): delivery at (5, 15) on defence — "It's delivery here on defense. He has no marches, so he can't land that up" (609-611s).
+- clock unknown (video 618.1s): delivery at (5, 14), elixir 6 -> 3, aimed at the opponent's Magic Archer — "We need to go for a delivery here on this Magic Archer. Come on, take this out" (621-622s).
+- Six uses in 292s, every one on his own half at (4, 15), (3, 8), (5, 15) or (5, 14) — it is his only air-hitting reset against the Evolved Bats and the enemy archer.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=685.7s: dropped on (5, 14) on top of his own committed Ronin to clear the whole exchange - "then we go for the delivery, as well, just to take this all out."
+- t=791.8s: used it as a pure counter to a misplaced Inferno Dragon at (2, 19) - "that was a really bad inferno dragon placement. Let's just delivery here and there goes the inferno dragon. This is very good for us."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- t=888.9s (clock unknown): dropped at [15, 11] as offensive prep, not defence — the Royal Recruit is wanted as a screen for the next barrel: "Let's delivery here cuz then we'll have a tank for the evil barrel" (t=890-892).
+- t=932.4s: onto the Rascals at [13, 15] as they cross — "delivery here on defense and then we can go for the barrel as well" (t=933-934).
+- t=985.0s: at [3, 8] onto an incoming Skeleton Barrel after an Ice Spirit stalled it, explicitly for a free trade — "we ice spirit so then we can go for the delivery here for no damage" (t=983-986).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- t=1076s: dropped at (13,13) to finish a right-lane Lumberjack/Inferno Dragon push after Bomb Tower and Ice Spirit - "and then we can go for the delivery as well".
+- t=1136s and t=1188s: at (2,15) on the left bridge against the Bowler push - "let's go for the delivery here" and "let's Fire Spirit and then delivery".
+- t=1205s: last-ditch delivery at (4,11) into the Evo Inferno Dragon that ends the game - "Delivery here. Oh no, he's going to get the freeze off with the Inferno Dragon".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- t=1256.3s (clock unknown): Royal Delivery at [15, 14] pre-empting the Skeleton Barrel he called two seconds earlier ("He could skelly barrel on the right side though", 1255s).
+- He states the card's role in the deck at 1229-1237s: "Usually these aggressive magic archers will go unpunished with the royal delivery in your deck. Royal delivery is just such a broken and strong defensive unit" - it is why he is willing to play a bridge Magic Archer at t=1219.2.
+- t=1359.4s: holding it is itself defence - "He could go for an aggressive Rascals but we have Delivery one card away so I'm not really too scared" (1281-1285s); when it goes down he counts the spawned Recruit as part of the answer: "That Recruit grabs one and if it grabs one then that takes it out" (1368-1371s), with Minions on the field at t=1363.4.
+- t=1402.7s at [4, 13] against a three-unit Rascals push, elixir 5.0 -> 2.0 - "Delivery here" (1403s). Six Royal Deliveries in 200 s, all on his own half.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 0:42 (t=134.1): Royal Delivery at [10, 13] aimed specifically at the air support of a Golem push — "Let's go for the delivery on the baby dragon, and then we can go for the Ronin here on top of the mini Pekka, and that's just completely dead." (t=137-141)
+- clock 1:56-1:45 (t=60-74): pairs it with the Tesla as the reason he prefers this list to his earlier Cannon version — "the other one was quite a bit weak to air units. But now this one, you have the Tesla and the delivery just helping out on defense so so much."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 1:53 (t=220.1, elixir 4 -> 1) and clock 1:16 (t=258.3, label at [12, 11]): dropped on his own half onto committed Prince / Dark Prince pushes, each time taking him to his lowest elixir of the game.
+- clock 0:43 (t=290.3, label at [4, 14]): used specifically for the air support the Ronin cannot touch — "and now it's delivery here to make sure we take out the mega minion a little bit."
+- clock 0:17-0:13 (t=316.3 HUD -3, label at [10, 13]): the game-closing play onto a Dark Prince at "tower in 3.6s" — "Delivery here and that is going to be good game. Very nice win."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:48 (t=394.7, HUD 7.0 -> 4.0): dropped on top of an already-committed defence to close it out, not to start one — "Let's delivery here to make sure that we finish that off."
+- clock 0:47 (t=454.6, tile [2, 13]): delivered onto the Witch behind the Golem, with Skeletons placed first to protect it — "We can go for the Skellies to protect this delivery on top of the Witch. Fire Spirit too."
+- clock 0:35 (t=465.5, [4, 10]) and clock 0:22 (t=481.5, [12, 12]): two more in the final half-minute, both as the finisher of a kite — "We go for a delivery here" (t=466), "And then delivery as well. And I think we're good" (t=480).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock ~1:45: at (3, 11) timed for an incoming Miner — 'Okay, let's go for the delivery plus fire spirit here ... Yep, I literally knew the miner was going to come in' (573-577s).
+- clock ~1:05: at (5, 7), chosen over Fire Spirit specifically because the opponent holds The Log — 'He could even try like a pre-log on the fire spirit, so I think I'll rather delivery on top' (610-613s).
+- clock 1:19: rations it for cycle reasons — 'Our cycle should be a bit quicker than him as long as we don't use the royal [delivery] too often' (596-599s).
+- clock 0:15: at (14, 5) on top of a Miner as part of the closing defensive package — 'We can go for the delivery on top of the miner, fire spirit, and skeletons' (660-664s).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 0:36 (t=812.8, label at [13, 15]): stated before it lands, as the answer to a defensive Bowler — "delivery here on top of the bowler. Then we can go for a magic archer plus Tesla on defense."
+- clock 0:23 (t=825.3, elixir 6.0 -> 3.0): part of the cycle-back plan while he refuses to expose the Magic Archer to Lightning — "Then we go for the delivery here. Make sure we hit this."
+- overtime clock 1:46 and 1:31 (labels at [12, 13] t=863.9 and [14, 15] t=877.9): used as the clump-clearer on a full Electro Giant push, accepting a Tornado counter — "we need to go for a royal delivery on top of everything. He might try to NATO [Tornado] this in. Yep, that's fine. That's not tower down at least."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 2:42: dropped at tile [2, 13] onto a descending Baby Dragon, three seconds after a Fire Spirit into the same push — "I'll delivery on the baby dragon. Baby dragon and goblins."
+- clock 1:57: at tile [4, 13] as the front half of a two-card defence — "Go for the delivery here and then we can go for the Ronan as well."
+- clock 0:20: at tile [5, 13] stacked on top of his own low Magic Archer — "we can go for a nice delivery here on top of this."
+- clock 0:15: fourth use at tile [4, 9] under the Golem push — "you have to get a delivery down as well."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.md):
+- clock 1:21 and 0:27: his defensive reset against the opponent's Balloon/Musketeer packages, dropped on the right-lane approach tiles [12, 13] and [12, 10] — "We need to delivery here on defense".
+- clock OT 1:26: chained straight into offence — "Let's delivery, and then we go for the barrel, and we're already one card away from the Tesla".
+- clock OT 1:08: Royal Delivery at [13, 11] as the Balloon answer — "Perfect. Just delivery here. Take the balloon out, and there's just nothing that this guy can do, man". Seven Royal Deliveries this game, all on his own half.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- clock 2:35 (t=1377.9): Royal Delivery at tile [4, 14] for 3 (HUD 9.0 -> 6.0, deploy label score 1.0) onto a stacked left-lane column of Zappies plus Little Prince — his only clean answer to the opponent's swarm-plus-support opening. No commentary on the card itself; it is held as pure defence all game (further 3-elixir drops at t=1478.0 and t=1483.3).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=675s: dropped onto Ryley's half at (14, 7) while his Mighty Miner was walking up the field at (13, 8) — the opponent using it as a reset on his ground push.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent defensive card. It is the answer that meets his Royal Hogs push at ~1434s - "Yeah, firecracker and delivery. Come on, two. Nice. Little two nibbles right there" (1434-1440s), two hogs still connecting for 4435 -> 4199 HP - and he rates it out loud at 1487-1491s: "He's going to delivery again. That delivery is such a save uh such a savior on defense, man. Such a savior."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

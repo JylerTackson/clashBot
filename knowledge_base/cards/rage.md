@@ -134,6 +134,51 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - one opponent play at clock 0:30 (tile [9, 8], on Ryley's half) during the last push of regular time; Ryley does not mention it and the push produced no tower damage — his towers read 2799/2728 at the end of regular time.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:22 (t=723.7): dropped on the bridge Elite Barbarians already committed at tile [14, 14] — "Okay, let's go for the rage here. Just make sure that we take out that skeleton army".
+- clock 1:19 (t=787.8): cast on the opponent's half at tile [3, 18] for extra chip once the tower was already falling — "let's just rage this up here. Get some extra damage onto his king tower, maybe"; the enemy left tower goes 4738 -> 640 HP over t=782-790.
+- clock 1:53-1:47 (t=875-878): deliberately withheld as the answer to the defence rather than as a speed-up — "let's go for the Giant here and then we can go for the Rage once he goes for the Skeleton Army".
+- clock 1:15 and 0:42 (t=912.1 [8, 23], t=943.9 [9, 23]): both overtime Rages go on top of a pocket push that is already connecting — "We have the Rage ready. Yep, let's Rage here" and "Let's just rage this all up guys".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:34 (opponent): a missed Rage on the Elixir Golem push is what Ryley says decided the game — "how did he miss his rage? There's a lot of questions here for this guy, man" (clock 1:34), and again at clock 1:08, "I think this guy's going to get three-crowned just cuz he missed a rage."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- overtime 1:13 (t=1457.5): a Rage tracked at [11, 12] on the opponent's overtime push (arena detection, medium confidence, not named in commentary).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:19: the opponent plays Rage at (11, 19), elixir 10 -> 8, behind a right-lane push. Ryley does not comment on it and answers the push with Valkyrie, Cannon, Skeleton Army and Ice Spirit rather than a spell.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.md):
+- clock 1:18 (t=425-427): surviving the Rage is what he judges the defence on — "keeping this alive against the rage is actually very, very important."
+- overtime 1:38 (t=520-522): Fireball catches the raged support — "Yes, the rage, too."
+- opponent Rage spells were tracked landing on Ryley's half at clock 0:52 ([10, 7]), clock 0:30 ([6, 5]) and overtime 0:02.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 2:03 and 0:11 (t=54-56, t=169-172): never played as a card — Ryley uses the word three times for the Evolved Elite Barbarians' spear mechanic. "it rages everything in the e-barbs path, which is actually kind of ridiculous," "it damages the e-barb, and it rages mine," and finally the judgement that the rage is not even the main upgrade: "Just makes them so much better offensively. Not even like with the rage, just with having that like Spear Goblin damage, it feels like."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 1:57 and 0:23 (t=214.2 at [11, 8], t=308.3 at [3, 8]): cast on Ryley's half behind pushes that die anyway; he names it in his first deck read at 172s ("the dark prince zap and rage") and never has to spend anything extra for it.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:44-1:36: the opponent's Rage is aimed at Ryley's Evo Bats and arrives late - "Wait, he didn't get the rage down in time. That's huge" (419-421s), then "Okay, he tries to rage it. That's fine. That's a lot of damage. We definitely take that" (426-427s). The Bats heal through the boosted tower fire and take the tower from 4409 to 2589.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

@@ -132,6 +132,29 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 1:50: named only as a card he is holding elixir for and never sees — "I'm waiting for the Night Witch, as well, cuz we do have to kite this with the Rune Giant."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:05 onward: five tracked deploys behind the golem at [15, 19], [15, 15], [13, 18], [14, 14] and [14, 16]. The wave at clock 1:53 is what costs Ryley 2300 HP off his right tower (4858 -> 2536 between t=48 and t=68).
+- OT 1:20: he treats her as the priority target for The Log — 'we have to Log, too. Make sure that we hit the Night Witch' (t=213-214).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:10: the opponent's Night Witch at the right bridge is the threat Ryley never fully answers - he layers Bats, Berserker, The Log and Spear Goblins on it from clock 1:07 and still expects to lose the tower: "we're going to lose the right side of the night witch, but that's fine" (500s). The Wall Breakers kite at clock 0:24 is what actually saves it.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Opponent's card. clock 1:21: tracked crossing at [13, 16] with Bats ahead of her; Ryley answers with cheap cards only (Wall Breakers at [7, 13], Spear Goblins, Berserker) while explaining that cheap defence is what makes the list work.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Night_Witch (scraped 2026-09-02T02:35:11+00:00)

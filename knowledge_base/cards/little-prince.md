@@ -111,6 +111,63 @@ The Little Prince has a special ability, accessible from the rightmost side of t
 - He is useful spell bait: force out medium spells with him, then play cards that thrive without them such as Barbarians or Royal Hogs.
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor Clan Wars Defense Tower choice.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 1:15 to 1:07 (video 378.4s, tile [4, 19], then tracked to [4, 9]): walks the left lane behind the Zappies and is met with the Electro Spirit plus Barbarian Barrel pair at 379.9s/381.9s. Ryley does not name the card on the transcript in this game.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Not played in this game (the single 'Little Prince (Buff)' deploy label at t=655.7 is the balance-notes overlay he has on screen, and the deck already runs the Archer Queen as its champion) — but it is the card he is most enthusiastic about: 'that is the buff to the fan favorite little prince. And it just seems like it's a ritual at this point just to buff the little prince in every single balances' (t=641-656s).
+- t=662-693s: gives the number and his reaction — 'the little prince is getting his charge damage from 256 to 320. So I guess that's like the max amount of damage that he's able to do when he's completely charged up. Or maybe that's the guardian. They didn't really make it too clear. But that is a massive buff. That is 25% and a 25% buff to anything is really good.'
+- t=693-742s: thinks he is one meta shift from breaking out — 'with all of the buffs it has been receiving recently, all it needs is like that one breakthrough meta' — and flags his own bias: 'I'm a really big fan of the card. That's where like the personal bias comes in ... Personally, just don't like the queen, but I really do like the little prince.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 1:43-1:12 (opponent): walked the left lane and was redeployed twice; Ryley answered with Skeletons plus tower rather than a card of his own — "Let's go for the skeletons here just to bring this up. Make sure we take this out" (74-76s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Mentioned only, not played by either side (a `LittlePrince` deploy label at [8, 9] at t=140 is on-screen balance-change card art picked up by OCR, not a play).
+- t=134-160s: "they are actually buffing the little prince. The little prince is getting a very strange balance that I've never actually seen in the game before... Do you know how like the little prince gets reset every single time it moves? Now it has a 0.3 second window where it can move but not be reset. It has to be moving for more than 0.3 seconds for it to be reset to lose that maximum charge."
+- t=161-175s on why it matters: "the little prince just when it would move, it would just become so bad. And more often than not, you wouldn't be able to charge it up more than one time every time you had it down. And it just would make it so it just did not get enough value simply. And it should be a lot better." He adds that the Guardian gets "a 7%" damage buff, "which I guess is cool... but I don't know if it was really necessary."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.4.md):
+- Opponent card (arena track at [5, 17] at t=1001). Killed early by Ryley's Magic Archer on his own bank: "Oh, nice magic archer timing, actually. Grabbing our two shots and fully taking out that prince" (t=816-819), and later he holds an Ice Spirit specifically for it - "I have the ice spirit ready here for the potential prince at the bridge" (t=876-880).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1433.4 (8,19) and t=1489.5 (3,19) (opponent's card, arena detection only): present in the Lava Hound / Rune Giant list but never named in this game's commentary.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.0.md):
+- Faced, not played. Deployed by the opponent at t=26, 30, 56.1 and 104.1 and tracked walking the left lane repeatedly from t=24 to t=118; Ryley plays around the Champion ability rather than the troop - 'if he goes for the ability we of course have the Ronin here on defense. He might pop it. Okay, he doesn't bother going for the ability' (t=69-74).
+- t=135 (clock unknown): once Ryley's counter-push lands the Little Prince dies immediately - 'Oh my god we took out the LP so fast'.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent card, one detector track crossing on the left at [2, 15] (t=1353.4). Not discussed on the transcript; it arrives during the Fire Spirit + Ronin defensive rotation at t=1353-1357.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 1:53: detected at tile [3, 13] on Ryley's half and tracked down the left lane from clock 2:16; he swept it up in the same Magic Archer line as the Zappies rather than answering it separately.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, played at t=1375.4 at tile [3, 17] behind a Zappies in the left lane. Ryley answers the pair with a single Royal Delivery at [4, 14] (t=1377.9) rather than splitting his answers. No commentary on the card by name.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

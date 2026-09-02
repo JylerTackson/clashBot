@@ -131,6 +131,47 @@ This card appears in 2 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [EvoRHogs AQ GobHut EvoGhost](../decks/archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons.md), [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 1:50 (t=580.6): Archer Queen at (8, 8), behind the freshly placed Cannon — the champion goes down as defensive support, not at the bridge.
+- clock 0:39 (t=652.7) and OT 1:59 (t=692.7): the two forward placements, (8, 13) near the river and then (8, 15) at the bridge to open overtime; no ability activation is readable in the window.
+- t=528-587s: disagrees with her emergency buff on principle — 'I think that the Archer Queen is actually extremely powerful ... I just don't agree with the buff at all. I just feel like it did not need a buff in any type of way.'
+- t=539-570s: argues she was already buffed indirectly — 'now with the archer queen one-shotting spirits, I do feel like that it got a big buff in like a very significant way' — and calls the new number small: 'a 3% damage buff from 225 to 232 ... not going to be that significant', though 'maybe it kills a knight in one faster shot ... which would actually be very very big for the card.'
+- t=617-631s: on why the buff exists — 'obviously Archer Queen is very underused. And I do think that even with the nerf to the Goblin Stein, Archer Queen would continue to be an underused card anyway ... a lot of people do use the Hero Musketeer over the Queen. So I guess that's just super soft trying to find the queen some usage.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Mentioned, not played. Same passage at 229-241s: he names the Archer Queen alongside the Musketeer as the cards that blank Ice Spirit / Electro Spirit defence because they one-shot spirits, which he calls the main weakness of this 2.0 cycle list.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:47: mentioned only, not played by either side — cited as the sort of card the evolved Zap opener lets this deck finish: "you're also just getting to your Evo right away, which will help you kill combos, you know, like Archer Queen and stuff like that that you're not normally able to kill" (295-300s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card, commentary only (never detected). Ryley plays around her ability three separate times: 'he might try to ability again like he did the last three times' (t=861-863, playing a Barbarian Barrel for it), 'Dude, he's going to drop the queen ability. Oh no' (t=877-879), and after it lands, 'I think that was a bad queen' (t=896).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 0:59 (opponent Archer Queen tracked at (14, 14)): never named in the commentary; Ryley answers the right lane in that window with Cannon at (8, 10) and a Mighty Miner block rather than a spell.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Appears at clock 0:25 (t=882.9) and again in overtime (t=959.0 [10, 16]); answered with a bare Berserker at t=885.2 [14, 13] and no ability. He notes she is less of a problem than she was: "thankfully, the archer queen doesn't have the two abilities anymore, though, or this would be even more annoying" (t=961-965).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=296-301, mentioned only, never played): named as the substitute for the Baby Dragon slot in this Royal Hogs cycle list — 'if you like the archer queen, you can even take out the baby dragon and put in the archer queen instead.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

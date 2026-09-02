@@ -108,6 +108,27 @@ Not specified on source page
 
 This card has an evolution: see [lumberjack-evolution.md](../evolutions/lumberjack-evolution.md). Cycles to evolve: 2. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Mentioned only, never seen (clock ~0:22): "He might go for a lumberjack as well" — a prediction of the opponent's next card that does not arrive in the readable window.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=11.7 (CRL broadcast, no readable clock): opens the push with Lumberjack at tile [9, 0], centre of his own back line (HUD 10.0 -> 6.0), then sends a Hog Rider at the left bridge behind it — the Evolution card of the deck he names in the intro: "this Mega Knight deck with the Evo Lumberjack in the Hog Rider" (t=7-10).
+- t=29-32: against a suspected Tornado he wants the Hog Rider in FRONT of the Lumberjack, so the two cannot be dragged into the King Tower together — "My hog rider had to go in front of the lumberjack for that to possibly be prevented. It still probably wouldn't have... unfortunately he did get his king tower up."
+- t=75.4: plays a second Lumberjack at tile [8, 8] on his own half purely to cycle, dropping it on an enemy Miner — "here I went for the lumberjack on top of the miner just to get to my EVO" (t=74-77).
+- t=139.3-152: the Lumberjack behind the last Mega Knight push survives the opponent's Evo Mega Knight knockback and gets tornado'd onto the King Tower; the enemy left tower falls 2265 -> 684 HP between t=146 and t=152 — "the lumberjack ran to the tower because of the [Evo] mega knight knocking everything away and then he [Tornado'd] my lumberjack onto the king tower... he three crowned himself" (t=143-155).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card. t=1016s: predicted from the Inferno Dragon opening - "I guess it's going to be lumberloon freeze", confirmed at t=1024s "he definitely has lumberloon".
+- t=1120s: a mis-placed Lumberjack is punished with Ronin - "Okay, that was a bad Lumberjack. Let's just go for the Ronin in here".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lumberjack (scraped 2026-09-02T02:35:11+00:00)

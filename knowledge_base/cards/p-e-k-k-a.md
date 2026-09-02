@@ -154,6 +154,40 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - Mentioned only, never seen: he names the opponent's deck at 353-354s — "It looks like we're up against a PEKKA Ram Rider deck" — and at 398-402s predicts the cheaper option instead, "I think he's going to ram rider here and not go for like a PEKKA or anything." No P.E.K.K.A. appears in any detection this game.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:41 (video 292.3s, tile [12, 20]): the opponent's opening tank, identified immediately — "I guess he's playing with Pekka now. So, it doesn't seem to be really much of a toxic deck here, but I'm definitely going to be on the lookout, man" (293-299s). Ryley's answer is Skeletons as the distraction plus Barbarian Barrel for the support behind it (303-308s), never a dedicated counter.
+- clock 0:48 (video 405.4s, tile [5, 25]): a second P.E.K.K.A. behind the left lane, which he had already predicted as the risk of pushing hogs into the bridge — "Imagine if he just ignores this and rips a Pekka at the bridge. I don't think he'll be able to do all of that, though" (365-370s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 0:55 (opponent's card): corrects his own deck read when it appears - 'Okay, he has a Pekka and not a giant skeleton, which is interesting'; he answers it with Cannon cycles and Skeletons rather than a big spend.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Opponent walks a P.E.K.K.A. down the left lane twice — 0:42 (tracked at [4, 22]) and OT 0:43 ([4, 19]) — each time as the anchor of a multi-card push.
+- Ryley's answer at 0:31 is Tornado (elixir 5 -> 2) plus the standing Bomb Tower and a Magic Archer, i.e. clump-and-grind rather than a dedicated tank killer, which the deck does not have.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Faced, not played: the opponent drops P.E.K.K.A. at tile (4, 24) behind their own tower at clock 2:04, one second after a Mini P.E.K.K.A. — an 11-Elixir double-heavy commitment as double Elixir starts. Ryley answers by stacking Archers at (1, 1) deep behind his tower and letting it walk; his left tower goes 2949 -> 2674 HP.
+- clock 0:40: a second P.E.K.K.A. arrives while a Mini P.E.K.K.A. is already down the left lane; his answer is Magic Archer (2, 7) + Archers (1, 7) + Royal Delivery + Tornado + Bomb Tower (8, 10) inside five seconds, and the P.E.K.K.A. is on his King Tower by clock 0:13.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Mentioned only, never played by either side: he expects one behind the tower at clock 1:57 — "maybe get Pekka in the back, to be honest" (t=792-793) — and rules it out at t=807, "maybe he just doesn't have peek at all."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=606-608s: tracked as an ally unit at (15, 5) then (16, 5) and marked 'retreating' — she was on his own half turning onto a defensive target, not escorted up the lane.
+- t=658-660s: Jynxzi questioned the card outright — 'Yo, Riley, why would you even put down the Pekka?' — and Ryley's answer was about his Ronin, not about pushing with her. At t=778s Jynxzi calls it 'the sneaky Pekka', i.e. it was carrying a C.H.A.O.S. modifier.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/P.E.K.K.A. (scraped 2026-09-02T02:35:00+00:00)

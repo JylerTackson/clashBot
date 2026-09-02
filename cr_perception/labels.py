@@ -69,6 +69,10 @@ class DeployLabelReader:
             t = text.strip()
             if conf < 0.5:
                 continue
+            # balance-change / patch-notes overlays print card names with
+            # "(Buff)" / "(Nerf)" / "Evolved ..." captions; those are not deploys
+            if "(" in t or ")" in t or any(w in t.lower() for w in ("buff", "nerf", "rework")):
+                continue
             if t.isdigit() and 1 <= len(t) <= 5:
                 numbers.append(NumberLabel(int(t), bbox, conf))
                 continue

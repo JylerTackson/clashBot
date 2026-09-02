@@ -71,6 +71,18 @@ Not captured from source page
 
 Evolved Royal Hogs are the win condition: four Very Fast building-targeters that deploy flying, so ground troops cannot touch them on the way in, and only drop to the ground — dealing small impact damage — once they attack or take a hit. A 2.88 average Elixir and a seven-Elixir four-card cycle of Ice Spirit, Skeletons, The Log and Evolved Cannon bring them back quickly, and Earthquake removes the buildings that would otherwise cancel the flight and pull them away, since it does 3.5x damage to buildings and reaches even a hidden Tesla. Archer Queen is the deck's one expensive card and carries the defence: her range and the seven boosted shots of Cloaking Cape answer lone tanks and small pushes, and the ability recharges in time for the counter-attack. Royal Delivery and The Log cover what the hogs cannot — the Delivery's splash plus a spawned Royal Recruit wipes air and ground swarms on your own side, while The Log resets any locked-on ground troop and clears a Goblin Barrel or Skeleton Army for 2 Elixir. The problem is splash: area damage of any kind is the clean answer to Royal Hogs, a Bomb Tower hard-counters them, any single hit knocks them out of their flight early, and Lightning or Rocket removes the Archer Queen outright and leaves the deck thin on defence.
 
+## Creator matches (ryleycr1)
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Third game of a balance-change commentary video (four games, four different decks); Ryley reads the patch notes over the top and never narrates a play, so everything below is observation from the events.
+- One-lane plan, executed the whole game: eight Royal Hogs deployments at the left bridge (columns 2-3, clock 2:38 through OT 0:13) with an Earthquake in front of the enemy left tower behind most of them, and nothing else ever crosses the river.
+- Everything else is defence on his own half — Cannon at (8, 9) early and crept forward to (8-9, 13) later, Skeletons and Ice Spirit as pull-and-cycle, The Log for ground swarm, Royal Delivery (3 HUD-confirmed casts in overtime) for the pushes he could not cycle into.
+- Archer Queen is used as a defensive support piece first (behind the Cannon at (8, 8), clock 1:50) and only goes forward at (8, 13) and at the bridge (8, 15) to open overtime; no ability activation is readable.
+- The chip race is the whole match: enemy left tower 4858 -> ~2120, his own left 4858 -> ~2566, regular time ends level, overtime runs its full two minutes into triple elixir, and the tower OCR breaks up before a winner is readable.
+- Deck read overrides the pipeline in two places (see the match file's Data gaps): the 'Little Prince (Buff)' label is a balance-notes overlay, not a deployment (and two Champions is not a legal deck), and the Royal Hogs / Earthquake events are Ryley's, not the opponent's, on placement and timing grounds.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://royaleapi.com/decks/popular?lang=en (scraped 2026-09-02T03:43:33+00:00)

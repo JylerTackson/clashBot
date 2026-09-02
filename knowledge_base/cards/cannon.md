@@ -153,6 +153,329 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - OT 1:34 (t=686-687): it is what stops his ground counter-push, and he cannot reposition around it — "Could I do it the Princess trick just to boost it away from the Cannon? Nope."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock 2:10 (t=41.5s) and clock 1:34 (t=79.1s): reactive placements at [9, 8] and [6, 7] against Royal Hogs and an Archers/Graveyard push — "let's go for the cannon plus skele on top of the Royal Hogs" and "okay, let's go for the cannon here."
+- clock 0:30 (t=142.6s): used as a cycle card in the middle ahead of a known threat — "let's cycle our cannon here in the middle cuz he's going to ste. Yep, there's the Stein."
+- clock 0:21 (t=152.2s): pushed up to [2, 12] near the bridge to close out a defence — "go for the cannon at the bridge here as well. Just make sure we finish this off."
+- overtime (t=190s, 248s): the evolved Cannon replaced a Lightning on the Goblinstein scientist ("let's just go for the evo cannon here just to take this out") and again in triple elixir ("Evo cannon here. Make sure we grab this. Nice").
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:47 and 2:41 (video 287.3s, 294.8s, tiles [6, 6] and [8, 8]): standard deep placements into the opening P.E.K.K.A. + Mother Witch + Hog Rider push, alongside Barbarian Barrel and Skeletons.
+- clock 1:45 (video 349.7s, tile [9, 8], elixir 8.0 -> 5.0): the anti-tank building against the Elixir Golem push, with Skeletons behind it — "at least we're going to defend this easily with the skellies" (362s).
+- clock 0:42, 0:23 and 0:12 (video 414.4s, 431.9s, 442.9s, tiles [9, 11], [7, 12], [6, 13]): he deliberately pushes the Cannon far higher than the usual 4-from-river placement so it blocks first and buys the follow-up spell — "let's go for a high cannon here just to block the bowler just so I can get the barbarian barrel down" (433-435s) and "We go for a cannon here. I'm going to cannon high up lowkey" (443-445s).
+- clock 0:37 (video 418s): he credits the Evo version for the pull — "It's Evo Cannon here. Nice. Great grab on that mother witch" (418-420s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:49: dropped at [9, 8] with Skeletons at [9, 11] against a four-hog Royal Hogs push (three separate 'tower in <5s' threats) — "Let's go for the cannon. We can skellies here too." His towers take no readable damage from it.
+- clock 0:11: played early and proactively to free elixir for the win condition — "I'm going to cannon here early though, and then we can go for the piggies."
+- clock 1:05: the reason he can spend it freely is cycle speed in double elixir — "In double elixir, though, obviously I'm able to cycle way more cannons, so it's not as much of an issue."
+- clock 0:49 and OT 1:31: the evolution slot ("I'm just going to go for the Evo cannon here", "let's evo cannon up top"), placed at [4, 4] and up near the bridge in overtime.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 1:49: states a rule for the evolved Cannon — "I do think that I want to try to defend without the cannon because obviously we don't want to use the evo cannon unless we're using it on the evolved royal hogs. Sometimes they're not really able to though, but it definitely is a good rule of thumb to try to follow by" (t=734-745).
+- clock 0:40: cycled early and placed deep at [8, 11] (HUD-confirmed, elixir 8 -> 5) as anti-Lightning spacing — "I guess I'm just going to cycle my cannon here early. I'm going to put it far away, though, so if he tries to lighten it, then he's not able to get value on top of my furnace" (t=795-802).
+- clock 0:35 and 0:28: he spends elixir to keep the Cannon alive rather than let it trade — Berserker at [16, 11] "just to keep this completely healthy" (t=808), then a fresh Cannon at [8, 8] plus Barbarian Barrel: "let's go for the cannon. Then we can go for the barbarian barrel here as well" (t=815-816). Against the four-hog split he adds "he's trying to abuse the cannon dying, but we're just not going to let it die" (t=821).
+- clock 2:32 and 0:05: also used as a plain cheap defensive building against the opening hog wave ([9, 8]) and as the last defensive spend of regular time — "Evo cannon up top as well, just to make sure that we take this all out" (t=839).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 0:30: normal reactive placement at tile [10, 10] after Skeletons pulled - "we can go for the cannon now. Beautiful. Wait, furnace lives maybe. Oh my god. Nice."
+- clock 0:25: a second Cannon at tile [8, 7], deliberately deep, used as a King Tower activation tool rather than as defence - "we can go for another cannon just to activate our king tower. Beautiful king tower activation." It fails four seconds later to the opponent's Zap.
+- overtime 1:57 and 1:43: Evolution Cannon cycled twice inside one defensive stand ([10, 9] then [9, 12]) against the Lava Hound / Balloon push - "Yep, let's evo cannon" and "We have to cannon up top like this."
+- overtime 0:29: cycled to Cannon again under pressure and he says the quiet part - "E spirit cannon up top. Cannon up top, please." Seven Cannons across the readable window; he never pre-places it.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock 1:22: Cannon at [8,9], reactively, against Barbarians plus evolved Elite Barbarians crossing in the left lane — 'we can even use our cannon to get to the evo cannon early on, which is nice. Let's go for the cannon and then we can go for the skeletons here as well' (Skeletons at [9,12] two seconds later).
+- clock 0:04: Cannon at [8,10] against the second Golem with evolved Barbarians and a Bomber behind it — 'Let's go for the Evo Cannon here. Just make sure that we splash everything.'
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 2:45 and 2:14: two centre Cannons ([8, 8], [8, 12]) as the opening defensive spend against Bandit / Battle Ram bridge spam - 'Let's go for the cannon here as well' (2:14).
+- clock 0:37: Cannon at [8, 10] anchors the triple-elixir defence alongside Barbarian Barrel, Skeletons, Electro Spirit and Berserker - 'let's go for the evo cannon here'.
+- clock 0:11: cycles a Cannon pre-emptively at [9, 9] against the P.E.K.K.A. - 'let's cycle a cannon here early. He's probably going to peck [P.E.K.K.A.] it in the back again'.
+- overtime 1:35-1:21: two more Cannons ([6, 9], [8, 11]) during the game-saving stand - 'We have to go for the evo cannon up top here' and 'Let's cannon here again in the middle'.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 2:46 (t=525.0): opening play at full elixir, Cannon at (8, 9), the standard centre placement, 10 -> 7.
+- clock 1:16-1:11 (t=615.6, 618.6) and OT 1:27 / 0:17 (t=720.7, 795.8): moves the Cannon forward to (8, 13) / (9, 13), one or two tiles off the river, to pull the opponent's ground units earlier instead of holding the centre pocket.
+- OT 0:42 (t=770.8): Cannon at (16, 13) — the only right-lane placement, part of the one cycle where he abandons the left rail to defend.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.3.md):
+- clock 1:52: Cannon at [15, 13] behind the double-elixir push, on the lane the opponent had been pressuring with Royal Ghost and Barbarians.
+- clock 0:50: Cannon at [9, 11] played early against incoming Zappies, and counted as a spell draw — "Let's cannon here early just to make sure that we take this out and we forced out the Vines, which is really good".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- An Evolution Cannon he rates highly against his own push — "Oh, the Evo Cannon just so good" (t=723) — tracked at [9, 19], [3, 15], [6, 20], [8, 15] and [2, 15] through the match.
+- overtime 0:58 (t=753.8): he pre-empts it with a Knight at the bridge — "we need to go for a Knight at the bridge, too, cuz I know he's going to try to get a Cannon."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- Opponent card, seen at tiles [9, 19], [8, 17], [8, 19] and once at the bridge at [2, 15] (clock 0:07, t=979.0). Ryley grades the bridge placement harshly: "Bad cannon at the bridge. So, I I don't like that cannon. There's no point to be doing things like that, sir" (t=976-981).
+- clock 1:01 (t=926): he plans around where it will go rather than reacting to it - "I can avoid that cannon placement with the Princess if I get a Knight in cycle."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- tracked on the opponent's side throughout (t=1015, 1041, 1101, 1113, 1133, 1193, 1213, 1249, 1259, 1275) as their defensive building; it is the reason his Wall Breakers pairs go to the bridge rather than straight down a lane.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.1.md):
+- t=276.3 and t=296.5 (clock unreadable): placed reactively in the middle-right of his own half at (10, 10) and (10, 9), always backed by spirits — "I just dropped my double spirit with the cannon and I got a perfect defense there. That was kind of nasty" (t=281).
+- t=203-208: he plays around the opponent's Cannon by timing his bridge push to the last second, on the read that a Cannon dropped late arrives too late to matter.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=767.9s: Cannon placed high on his half, elixir 7 -> 4, to clear a whole push at once — "then I went for the high cannon. Just making sure to take that all out and ignoring the left side barrel because for some reason um he didn't tank it" (757-763s).
+- t=913.9s: Cannon at (11, 9), low, while at 0 elixir under heavy pressure — "I did the cannon really low" (917s), part of the sequence he calls "it actually got very scary for a second" (904s).
+- t=662.2s, 730.7s, 804.0s, 820.0s, 831.8s, 857.9s, 867.9s, 881.9s, 892.9s, 896.9s, 905.9s: a Cannon roughly every 20-30 s at (8-11, 8-14), the backbone of the defence — "just cannon on defense, making sure to get those wall breakers off the board" (775-778s).
+- t=683-689s (mentioned, not played): the Evolved Cannon is the evolution he actually wants in this matchup — "I do like the Evo Cannon for defense... Whereas the Evo cannon, I just have to play really, really good defense and I'll be able to take it that way."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Holds the Cannon rather than cycling it, and states the rule at 1159-1172s: "you guys may be wondering why I deny cannon. You always see me do that on ladder. That is because I didn't have my ice spirit in cycle. And after he let the princess lock, he would just go for the bat split and then he'd minor wall breakers with it. And I wouldn't have my cannon or my ice spirit for anything."
+- t=1157.2-1168.3 and t=1210.2-1219.1 (clock unreadable): places it at tile (9, 11) and (9, 12), the standard pocket 3-4 tiles from the river, as a clean HUD 3-elixir step each time.
+- t=1240.2: plays the evolved Cannon immediately instead of reactively so the deploy barrage catches the whole push - "I got a really good EVO cannon right there. That was just absolutely gorgeous. I hit everything right there with that cannon. I guess he didn't expect me to play it right away or something" (1243-1250s).
+- t=1340.3: Cannon at (9, 15) as his Magic Archer answer, paired with The Log - "I went for the evo cannon as well, just to take out that magic archer with the help of a log" (1341-1345s); earlier he simply keeps it in hand as insurance, "I had the Evo Cannon ready, just chilling here" (1328-1330s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2038 (broadcast clock unreadable): Cannon at tile [9, 14], high and central instead of the usual pocket, to stop a Battle Ram crossing — "I went for the cannon in the middle just to make sure that I take out that battle ram".
+- t=2062 and t=2093: Cannon re-placed at [9, 11] then [8, 10] as the anchor of a two-lane hold against an evolved Battle Ram and a Giant Skeleton; he cycles it purely to always have one down — "I went for a cannon as well, just to make sure I kept everything alive" (t=2155), "then I could just cycle my cannon here in the middle" (t=2176).
+- t=2136: his placement rule against the opponent's splash — "I was doing a good job at lining up my evo cannons with the mother witches".
+- t=2190 and t=2217: both of his stated game-losing errors are Cannon errors — "I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit", then "I misclicked my cannon and I had to log ice spirit the wizard" (Cannon label at [9, 11], t=2216.2).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:38 and 1:05: both times at exactly tile (9, 9) - the standard 4-from-river anti-tank pull for the right lane - first against the opening Knight/Battle Ram/Minions push, then against the second Battle Ram wave ("This is definitely very scary to defend, but I think I'll be able to get it", t=105-107).
+- clock 0:25: a deliberately forward Cannon at (9, 14), on the river row, to meet the Evolved Battle Ram before it reaches the tower - "Let's go for a high cannon here ice spirit as well" (t=145-147).
+- clock 0:47: played into an empty lane purely as elixir pressure while the opponent builds a Three Musketeers push - "he's just going to 3M you up. Okay, let's cannon here early hit the pump. Nice. Okay, at least we got some elixir out of him" (t=120-126).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock ~2:47: the opening play, deploy label at (8, 10); he leads with the building before knowing the matchup — "Just going to start off with my cannon here. This guy's going to probably be playing mortar bait" (173-178s).
+- clock 2:23 and ~1:57: middle-of-his-own-half placements at (8, 9) and (9, 9) against the Zappies push. The clock 2:23 play is the 3-elixir HUD step misread as Skeleton Army; the Cannon leaves his hand in the same two seconds.
+- clock 1:12-1:10: he refuses to spend it against a Bowler counter-push because the building is reserved for a different card — "Not going to cannon just yet. I'm going to wait on that ... I'm going to save my cannon because of the Skeleton Barrel. I don't want to get caught lacking by a Skelly Barrel. I'd rather just take the Bowler shot" (268-277s). He holds it again at 296s: "I'm not going to cannon again. I think I'd rather just go for the E-Spirit."
+- clock 0:28: pre-placed at (9, 9) on a read rather than a reaction — "He's probably going to Recruits the bridge then. Let's cannon here early" (312-314s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- clock 1:10, 0:40, 0:25 and 0:13: four Cannons in the last 90 seconds, every one reactive and every one in the same column-9 pocket between his own towers (9, 9), (9, 11), (9, 8) — never pre-placed.
+- clock 0:55: he names the target before placing — "Then we can go for another high cannon here. Make sure that we take out the battle ram" (455-459s), and calls the result "Beautiful defense right now. We're playing this very nicely."
+- The Cannon is the anchor of the two-card defence he repeats all game: Cannon plus Skeletons or Ice Spirit against Giant Skeleton and Battle Ram, at clock 1:10 and again at 0:40 ("Let's cannon here and then we can go for the skeletons plus ice spirit here as well", 472-477s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 0:32 (t=652.7): first Cannon at tile [1, 13] is placed for pathing, not for the tank — "I'm going to cannon like this just to make the Mega Minion go in front of the Lava Hound so I don't have to deal with it anymore" (t=654-658), with two Lava Hounds already in the left lane.
+- clock 0:22 (t=664.7): a second Cannon at [1, 12] as pure area denial — "These cannons are super nice cuz it just makes it super awkward cuz look, that Mega Minion just goes in front. I'm going to cannon too just to keep blocking the bridge so we can't even go for a Baby Dragon" (t=660-667).
+- clock 0:03 (t=683.7 [1, 11], t=684.4): the last Cannon of the game is a distraction against the final Lava Hound — "let's go for the Cannon here to distract and let's go. Beautiful win" (t=684-685). All four Cannons come after clock 0:35; for the first two and a half minutes he defends the Lava Hound with spirits and swarm and never places the building.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.4.md):
+- clock 0:39-0:14: the only confirmed Cannon of the readable window, at tile [9, 13] (t=852.9), placed purely to survive the last stretch — 'I have to defend for another 15 seconds, but I think I'm chilling' (t=848-852).
+- The building otherwise stays in hand all game (HUD reads it in hand through most of clock 2:51-0:40, low confidence): every earlier defence is Skeletons, Ice Spirit, Electro Spirit and Dart Goblin instead, which is what keeps him cycling to the Evo Goblin Barrel.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- clock 2:36 and 1:43 (t=886.4 tile [8, 10], t=939.9 tile [8, 9]): central placement to pull the Royal Hogs, paired with Skeletons and a spirit — "Let's go for the cannon then skellies" (941-943s).
+- clock 0:48 (t=994.0, tile [9, 11]) as the defensive half of a double play with a low Dart Goblin — "Let's go for the cannon here then we can go for the low Dark Goblin outside of the range of the log" (994-997s).
+- overtime, clock 1:25 (t=1078.9, tile [9, 10]): played before the push arrives — "Let's cannon here early" (1078-1080s). It is then taken out by a Freeze at 1085s, which he shrugs off: "He did get our cannon, but it's fine" (1084-1087s).
+- overtime, clock 0:47 (t≈1114): the clearest statement of the 2.0 cycle's economy — "let's go for the cannon here in the middle because he wasted the fireball. Every time he wastes fireball, I can just cycle a free cannon to be honest" (1113-1119s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:29 (t=1219): announced as held in reserve behind the Evo Dart Goblin — "We have a cannon ready as well".
+- clock 1:25-1:19 (t=1225-1231): explicitly declined against an Evolution Royal Giant that then took 490 HP off his left tower — "Yo, hold on. I'm not even going to go for the cannon. I'm just going to let this go because even though we take some damage here, I think it's more beneficial to eat this damage and just go in". Two HUD events label 3-elixir drops at [9, 9] as Cannon, but the commentary contradicts both, so no Cannon placement is asserted for this game.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.6.md):
+- clock 1:28 (opponent card): placed at tile [9, 18] to answer Ryley's second Elite Barbarians bridge push; it did not stop the counter-push and he does not comment on it.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 2:30 (t=26) and 0:25 (t=152.2) at [8, 20]/[9, 20], then at [10, 16] in overtime: the building that answers the Royal Hogs. Ryley sends the Hogs into it anyway with the Berserker behind - "He has the cannon. Let's go. The berserker's on the tower" (t=252-253).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Opponent's card (Evo Cannon), identified by Ryley at clock 1:55 — "he has a rocket because he has the Evo Cannon" — and visible as a static enemy building at tile (8, 20) from clock 1:57. The detector labelled it a Cannon Cart; the commentary and its immobility say Cannon.
+- Overtime 0:37: he plays around its lane alignment rather than trying to remove it — "we're actually in a good spot and we unaligned his Evo cannon from our Evo piggies, which is huge as well."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 0:22 (t=1064-1068): seeing the opponent's Cannon changed his read of the matchup — "this is not going to be as nice of a match up as I thought, though, now that I see that he has a cannon"; he then planned the Goblinstein ability around it (t=1087-1091) and closed the game with "still definitely a good match up, but not as good as if he didn't have a cannon" (t=1131-1133).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 1:50, 0:54, 0:19 and 0:12: every Cannon goes to the same two centre tiles on his own half, (8, 10) and (8, 11), and every one is reactive — against the enemy Valkyrie/Little Prince push, then against the Evolution Royal Giant.
+- clock 0:12: he names it as one third of a package rather than a standalone answer — "let's just skarmy cannon and then we go for the ice spirit as well. Should be a very nice defense" (629-632s).
+- clock 0:53: "We can play this one by vibes. Let's go for the cannon. You can go for the ice spirit" (584-586s), dropped as the Royal Giant, an enemy Valkyrie and an Electro Spirit all come down the right lane.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 1:04 (t=696.5): Cannon at (8, 13), dead centre, against a Royal Giant tracked advancing his right lane (tower in 3.2s) — "I think I'm going to have to go for the Cannon as well. Yeah, let's definitely Cannon here just to be safe" (696-698s), then "Beautiful, very good defense" (700s).
+- clock 0:20 (t=739.0): second Cannon at (8, 11), again column 8, while he stacks Ice Spirit and Dart Goblin behind it — "Let's go for a Cannon here. Very nice defense" (744s). Three Cannons in 76 seconds, every one of them in the middle two columns of his own half.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.0.md):
+- clock 0:38 (opponent Cannon at tile [16, 20]) and again in overtime, evolved — "There's the evo cannon" (t=195). Ryley treats a Cannon spent on defence as a Hog Rider denied: "Let's wall breakers too cuz he has to go cannon. He can't hog cuz he has to defend" (t=190).
+- he pre-accepts that it eats his Wall Breakers rather than holding them back — "he has a cannon which will take out the wall breakers. But it's fine cuz we get a lot of damage here on the left and on the right side as well" (t=95-101).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1167.2 (broadcast clock unreadable): Evo Cannon at tile [9, 12], high and central rather than in the usual pocket, to catch a Battle Ram crossing — "I went for the cannon in the middle just to make sure that I take out that battle ram. I knew that defense could get a little bit tricky against mother witch and wizards".
+- t=1261.3 (Cannon labels at [6, 10] and [9, 9] ten seconds apart): places the Cannon so its range covers the Mother Witch line — "I went for the evo cannon and the log as well just to make sure to take out the mother witch. I was doing a good job at lining up my evo cannons with the mother witches".
+- t=1283.3 [8, 10] and t=1304: cycles a Cannon back purely to keep one on the board and to keep the hand clean — "I went for a cannon as well, just to make sure I kept everything alive", "then I could just cycle my cannon here in the middle".
+- t=1319 (vs bridge-spam pressure): names the Cannon being touched as his own error — "I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:33 (t=15.0): placed at tile [9,9], deliberately offset one tile from the Musketeer he had just dropped at [8,9], so a single Rocket cannot take both — "because he has no NATO, he can't go for the rocket plus NATO here. Okay, I'm going to cannon like this in case he has the rocket in the middle" (t=11-16). The opponent Rockets anyway: "I knew it. I literally knew the prediction was coming ... there's no way I predicted his rocket prediction" (t=16-21).
+- clock 0:40 (t=28.9): a second Cannon at tile [8,10] played as tempo while he waits for a read to resolve — "I think I want to cannon now. He's going to lightning" (t=27-29).
+- clock 1:38 (t=100.1): Cannon at tile [9,13] alongside a Magic Archer, and he reads the opponent's mirror of it as bait — "Cannon here to distract us" (t=102).
+- Four more defensive drops across other clips (t=60.6, t=129.0, t=221.4 at 4.0->1.0 elixir, t=234.2 at [9,9]), all unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
+- clock 1:48 (t=447.4, tile (9, 11)): put the Cannon down before the opponent had shown a win condition, on an archetype read alone — "I'm getting like a random RG vibe right now just from this dude... okay, let's cannon here" — the Royal Giant appeared at t=450.
+- clock 1:03 (t=366.4, tile (16, 8)) and clock 0:31 (t=335.3, tile (2, 12)): Cannon placed on the far side as part of the same predict-then-block pattern rather than as a reaction to a push.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 1:29-1:23: opponent's building, and Ryley reads it as a losing answer to Goblin Barrel plus Wall Breakers before it is even played — 'The cannon here is going to sell him very hard. He has to go for like yep, a building plus spear goblins. And look at all that damage, guys. The cannon here is doing absolutely nothing for defense' (587-594s). It lands at (9, 18) at t=592.6 while the enemy right tower drops 2594 -> 1634.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 2:33 onward: the most-replayed card of the match, eight readable placements and every one in the middle columns of his own half — [8, 10], [7, 13], [8, 13], [8, 9], [8, 11], [9, 10], [8, 10], [9, 10] — so one building covers both lanes against an Elixir Golem push. 'Let's go for the Evo Cannon here and then we can go for the Log as well' (t=120-122).
+- clock 0:27: he counts them out loud during the triple-elixir defence — 'we can go for another Cannon dude. Cannon number three of the defense' (t=143-145) — replacing it every time rather than saving elixir.
+- OT 1:48 vs OT 0:42: depth is deliberate against golemites, high to intercept ('we have to Cannon up top just to keep these E-Golemites at bay', t=185-187) and deep at [12, 2] to pull the big golem off the tower ('Cannon down low for the e-golem', t=253).
+- OT 0:23: uses the Evo Cannon's barrage as damage, not just defence — 'Evo cannon here, grab a second' (t=269) with the enemy right tower under 1000 HP.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 2:23: Cannon forward at (11, 14), 6 -> 3 elixir, used as a lane-pull on the Giant rather than as a standard anti-tank placement — "Wait, can I cannon like this to bring the giant back? Oh, I was trying to bring the giant back to the other lane. At least the bowler goes in front" (308-313s).
+- clock 1:14: Cannon at (10, 13) into the second tank push, with the pull still not landing — "could we cannon now? Bro, it's not working... At least this time it's going to end up getting pulled though" (378-383s).
+- overtime 1:56-1:47: two Cannons live at once, one "low next to our tower" at (6, 7) and one "up top" at (9, 13), the second aimed at Zappies rather than at the tank — "we need to go for the cannon up top as well to block those zappies. Beautiful zappies block it. We'll block two of them, which will be enough to end up taking this off the board" (466-472s).
+- overtime 1:32: cycled on purpose to reach the evolved copy before a defence he saw coming — "we have to cycle to our evo cannon if we want to be able to defend this. Let's evo cannon here. Nice. Good defense" (477-482s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:11: Cannon at (9, 10), elixir 9 -> 6, against a Sparky-and-Graveyard push, explicitly preferred over a counter-attacking Hog Rider - "Let's go for the cannon here. I don't want a hog rider."
+- clock 1:17: kept in hand as the insurance behind a bridge Mighty Miner rather than pre-placed - "We have cannon ready here in case."
+- clock 0:57: Cannon at (8, 10) as the centre of the last defence, placed mid-map to pull both lanes - "then we can just go for the cannon in the middle."
+- clock 0:40: Evo Cannon at (7, 8) placed for the Evolution cycle - "we have to go for the Evo cannon. That's going to activate" - followed immediately by an Electro Spirit on top of it.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.3.md):
+- clock ~1:49: the placement rule he states out loud - "let's go for the log here, or the one I cannon. I think cannon high could be better, actually, cuz if I cannon high, then I also have something where he can't do like a high defense. He'd have to put everything low" (785-794s), playing it at (8, 10).
+- clock 2:47 through overtime: seven Evolved Cannon deployments, every readable tile in the centre column of his own half - (4, 13), (9, 11), (8, 10), (4, 13), (8, 11) - so one building covers both lanes against an X-Bow/Tesla/Miner deck. He calls it out as "Evo Cannon" at 836-838s.
+- overtime: pre-played against the siege rather than reacted with - "let's cannon here predicting the expo" (898-900s), Cannon down at elixir 8 -> 5 before the X-Bow appeared.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
+- clock 1:50 (t=1008): held it in hand as insurance and only played it when the opponent's Hog was expected, at tile [9, 8] - 'I have the cannon ready though just in case he wants to hog rider' / 'Let's cannon here for the hog rider'.
+- clock 1:14 (t=1156-1157): played a Cannon and then spent his last elixir on Skeletons to protect it - 'the reason I'm going skellies too is cuz I want the Cannon to live cuz if the Cannon lives then I at least like have a thing that's on the board so he has to either spell it away or wait for it to die. Either one is good for me'.
+- clock 1:04 (t=1168): treated a surviving Cannon as tempo for the next one - 'this Cannon being alive will help out a lot cuz we can just go for another Cannon here and just take out this other hog rider'. He cycled Cannon roughly ten times in 306 s, always centrally in front of the tower under attack ([8, 10], [9, 10], [9, 11], [9, 12], [10, 9], [11, 9]).
+- clock 1:19 (t=1152): he also tracked the opponent's Evolved Cannon cycle - 'Does he go Evo Cannon though cuz I know he's coming up on the Evo Cannon' - and read its placement as the thing his Earthquake has to punish ('he does it in the middle once again').
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:09: evolved Cannon high on his own half at tile [9, 13] against an Electro Giant the tracker had at "tower in 7.8s", supported by Electro Spirit at [4, 12] and The Log — "let's go for the high cannon here and then we have to cycle back."
+- clock 0:23: Cannon at tile [9, 8], centre of his half (HUD 9 -> 6) — "go for the cannon here in the middle" — and he names the defensive priority two plays later: "Go for the Evo Cannon here. Make sure we hit the Baby Dragon."
+- overtime clock 1:50: uses it as a cycle card, not an answer — Cannon at tile [8, 10] with nothing pressuring him: "we can just cycle that early cannon here in the middle."
+- clock 0:48: high Cannon at tile [9, 14] as part of the closing sequence while the enemy left tower steps 1606 -> 1450 HP.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- Opponent's defensive building. Ryley treats it as the thing his Wall Breakers exist to drain: "It's wall breakers right now. Force him to cannon. Nice" (t=673-676); the Cannon lands at (9, 18) at t=684.7 (clock 0:10) and again at (9, 20) in overtime.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=23.4s / 28.9s [8, 9], t=128.1s [10, 11], t=193.2s [12, 14] (clock unknown — the clock OCR failed for this whole video): the anchor building, always in the central column band, used to pull the Giant and to kill the support walking behind it — "Let's cannon here as well. Make sure you take the musky out" (t=129-132), "Let's go for the cannon. Bring the giant back up" (t=163-165).
+- Deck note: in this game the pipeline's HUD read listed Royal Delivery in his eighth slot; the five −3-elixir "royal-delivery" plays (t=42.9, 128.6, 161.7, 185.0, 192.0) each coincide with a Cannon (or Baby Dragon) deploy label and a matching call, so they are read as Cannon cycles, not a separate card.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=246.2, 286.8, 315.0, 344.3, 363.4, 400.4, 417.4, 438.4, 455.5, 493.5): placed almost every time in column 8-9 on his own half so it pulls both lanes, and cycled on a timer rather than saved — 'Okay, let's cycle our cannon here in the middle' (t=362-364). First use is reactive: 'Let's go for our cannon here then we can go for the skeletons as well' (t=247-250).
+- clock unknown (t=275.3, tile (2, 12)): the one off-centre placement, in his left pocket against a Golden Knight that had crossed on that side.
+- clock unknown (t=400-405): he spends a Champion ability to protect it, valuing the building as an elixir sink — 'I want to keep the cannon alive at least force him to spend more elixir.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=548.5 / 618.6 / 643.6 / 664.7 / 682.7 / 703.7 / 714.7 / 740.7s (clock unknown): ten placements in the game, the great majority in the middle at [8-9, 9-12] so it pulls into either lane. He states the placement intent at t=739-741: "We need a cannon in the middle again and then we can get another Baby Dragon on the Mortar if need be."
+- t=548.5s: first Cannon played while still reading the opponent's deck — "Okay, why does he have a mortar? Guess I'll just cannon here" (t=549-551).
+- t=761.8 / 803.8s: the two off-centre placements ([4, 13] and [1, 10]) come only when the Mega Knight / Ram Rider pushes are locked into the left lane, paired with Skeletons for DPS — "Cannon low skellies" (t=754), "Let's cannon" (t=804).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- t=906.9s / 956.0s / 981.0s / 1016.0s / 1033.0s / 1061.1s (clock unknown): he returns to the same centre tile (9, 8)-(9, 10) nine times this game and names it "cannon in the middle" (1062s, 1073s) — it is his default answer to Elite Barbarians, Bandit and the Royal Ghost.
+- t=1033.0s (clock unknown): played as a pure cycle card to get back to Lightning — "Okay, bad zap. That doesn't do anything at all. Let's just cycle our cannon here" (1032-1035s).
+- t=994.7s (8, 13) and t=1072.1s (16, 8) (clock unknown): the two off-centre placements, both to pull a threat away from the tower — "we can go for the cannon off to the side again" (1072s).
+- t=994.7s (clock unknown): used as the anchor of a stacked defence while conceding chip — "Let's go for the cannon here. We're taking some damage, but then once again like it really doesn't matter if it's in the opposite lanes" (996-1001s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1098s, t=1118s, t=1172s, t=1251s, t=1284s (clock unknown): reactive Cannons, all in the [7-9, 8-11] pocket in front of his towers — announced as the Hog answer at t=1173: "I'm going to Cannon here, and then we can go for the E-Spirit to push the Hog in unless the Barbs."
+- t=1180s (clock unknown): the Cannon sat centre-left while the Hog Rider came down the far right and connected for ~2100 over four hits (right tower 4858 -> 2753) — "look at the Hog. He just started like moonwalking, dude."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t=1311.3, tile [10, 8], elixir 9.0 -> 6.0) as the opening defensive building against a log-bait list with Skeleton Barrel and Golden Knight; replayed roughly every 30s at [9, 10], [10, 12], [11, 11], [10, 11], [8, 10], [11, 13] (t=1362.4, 1440.4, 1468.5, 1510.5, 1535.0, 1564.6).
+- clock unknown (t=1440.4, tile [10, 12]): the default placement, named as such - "That's regular position. Let's cannon here" (1440-1442s), followed by Skeletons and Electro Spirit on the same defence.
+- clock unknown (t=1468.5, tile [11, 11] / t=1510.5, tile [10, 11]): always the second card of a stack rather than a standalone answer - "Let's baby dragon cannon here. I don't want to log" (1467-1471s) and "Cannon here. Perfect" (1512s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

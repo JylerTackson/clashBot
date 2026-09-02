@@ -63,6 +63,10 @@ def detect_game_panel(frame: np.ndarray, min_bar_frac: float = 0.06) -> ContentR
     purple run in the lower part of the frame. Returns None when no bar is
     visible (not in a match), in which case fall back to detect_content_rect."""
     H, W = frame.shape[:2]
+    if W <= H:
+        # portrait recordings already are the game panel; the purple-run search
+        # misfires on arena effects (e.g. C.H.A.O.S. mode) and mis-crops them
+        return None
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     h, s, v = hsv[..., 0], hsv[..., 1], hsv[..., 2]
     m = ((h >= 125) & (h <= 170) & (s > 80) & (v > 90)).astype(np.uint8)

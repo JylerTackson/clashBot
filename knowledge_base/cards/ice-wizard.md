@@ -157,6 +157,39 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 1:05: it pulls his Giant Skeleton off the tower and he calls it in advance — "Hopefully, that can walk towards the ice wizard giant skelly. Oh my god, it's walking towards the ice wizard. I literally knew it."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- opponent card, clock 1:07 to 0:39 (t=104.1s [12, 23], 108.1s, 112.1s, 128.1s, 132.1s): walked down the right lane repeatedly as their splash/slow answer to his Goblin Gang and split Elite Barbarians; Ryley kept meeting it with Dart Goblin plus a spirit rather than a dedicated counter.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1475.5s: Ice Wizard at [8, 2] in the back specifically to walk into the Evo Archers on one side — "Here I went for an ice wizard in the back just to go towards that one side Evo archer" (1477-1481s).
+- t=1578.6s: half of his non-spell answer to a placed X-Bow — "I knew I could just go for a baby dragon plus ice wizard as well, just to take out this X-Bow here" (1577-1582s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:20-2:04: the opponent's answer to the Goblin Barrel, arriving late — "yeah, he goes for the ice wizard, but that's going to be a ton of damage" (t=724-726); Ryley then kills it with Royal Delivery at tile [5, 15] (clock 2:04).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2: back placement chosen for lane geometry - t=596.8/604.6 [8, 0], "I went for an ice wizard in the back just to go towards that one side evo archer because if he went for the expo on the right, I could just go for the lightning plus barbarian barrel" (606-614s).
+- t=707.7 [6, 15] paired with Baby Dragon to kill an X-Bow - "I could just go for a baby dragon plus ice wizard as well just to take out this xbow" (705-711s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 2:23 (t=123.1, tile [8,9]): dropped centre-left as the anchor against a rotation he is already calling out loud — "Ice wizard here and then next comes the firecracker and then the Valkyrie and then the zappies. Yep, and then the healer" (t=151-156).
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:11: reads it as insufficient on its own against split Wall Breakers — "just an ice wizard won't counter. He'll have to go for like the barrel and the ice wizard if he wants to take no damage here."
+- clock 2:07: the Ice Wizard is tracked crossing at (10-14, 14-19) and arrives after the Wall Breakers have connected — "Ice was just a little bit too slow."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

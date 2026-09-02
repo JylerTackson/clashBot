@@ -175,6 +175,111 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - Not in this deck: the -3 HUD play at t=1032.5 in this game is read as Tombstone, but it coincides with a 'SkeletoNARMY' deploy label at [14, 12] and with "Just go for the Skarmy here", so it is a Skeleton Army (same 3 elixir). Tombstone is not in the video-level consensus deck and is never played or mentioned in this game.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:51 and 1:25: mentioned only as a card he is guessing about in the opponent's deck - "I don't think he plays with tombstone. I mean, maybe he started, but I don't think so" and "He may go for a tombstone if he has it, but if not then I think he'll guards." It never appears; the HUD hand reads that name Tombstone in Ryley's own hand are misreads.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:05: the opponent's Tombstone at tile [9, 18], on his own half as the defensive spawner. Ryley names the archetype from it - "with these Lava Tombstone decks you usually don't Lava first play" (clock 1:53) - and the Skeletons it feeds are what his Goblin Gang and Logs spend the window clearing.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1336-1345s: mentioned only (not played). On the Hero Tombstone sight-range nerf — "They're also nerfing the sight range by 27%. So now the Hero Tombstone will be easier to be kited around the map because obviously right now it is very very hard to drag it around."
+- 1349-1358s: he explains the interaction with a defensive building using his own board — "say I have a bomb tower here and they have the Tombstone walking right here. The ability will actually just end up going towards your tower, which is pretty good, I would say."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=22.0: the opponent's Tombstone (tracked around tile [8, 20], replayed at t=92.1 and t=138.1) is what Ryley reads the rest of their deck off — "the second I saw that tombstone, I knew that he had the [Tornado], but it was too late" (t=25-27).
+- t=136.1: he removes it with an Earthquake and immediately sends a Hog Rider into the gap (t=137-141).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- t=1513.5s and t=1537.5s: deliberately varied central placements ([8, 11] then [8, 10]) as spell insurance — "If you noticed, I was doing these weird tombstone placements. And the whole reasoning behind that was because of the like potential fireball cycle" (1520-1526s); he drops the habit once he learns Ian holds Rocket, not a Fireball cycle, for the Baby Dragon (1516-1518s).
+- t=1572.6s and t=1604.6s: Tombstone in the middle as pre-placed siege insurance — "I just went for the tombstone in the middle just to make sure that I tank for a future X-Bow" (1572-1576s), and again late when he judged there was no time for another Golem (1602-1612s).
+- t=1537.5s: paired with the Evo Baby Dragon as a two-lane sweep — "I went for the tombstone and then the [evo] baby dragon here, knowing that I'd be able to take out both of the archers on each lane, which was very nice by me" (1540-1546s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- opponent's card, identified at t=356s: "Okay, he has the hero Tombstone." Ryley's verdict for a bait deck (t=358-362s): "Tombstone is definitely an annoying card for our deck, but there's definitely ways to work around it, so I'm not too worried."
+- his working-around is a timing play rather than a spell (t=364-367s): The Log on top of the Tombstone so the Suspicious Bush arrives after it is dead and the opponent "has to respond to it again". At t=456s he expects one more of them on defence — "cuz if he tombstones then obviously, yep, he gave up."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 1:14 (opponent): he plays around the ability, not just the building — "He could even pop the Tombstone ability" (265-266s), as a reason not to commit the Cannon into the Bowler push.
+- clock 0:20: with both his towers under 1000 HP the opponent puts a Tombstone at his own back line, which Ryley reads as the opponent having lost track of the game — "Why is he putting his Tombstone down there? What the hell?" (320-322s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:36: the opponent's Tombstone at (8, 19) is the card that tells Ryley the whole deck — "Okay, he has a Tombstone" (302s), immediately followed by "it looks like he has Lava Hound" (305s).
+- clock 1:26-1:23: he values killing/forcing it by what it will not be available for — "Forcing out the Tombstone is very good as well cuz if if we can kill it, then he won't have the Tombstone for the E-Barbs" (372-377s), and later times a bridge Rune Giant to its absence: "Let's Rune Giant the bridge again, though, cuz he has no Tombstone" (423-425s). His stated answer to it is Mother Witch (341-348s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 1:37: mentioned only, never played — the second card he thinks the top-eight ranking is missing, 'maybe like the hero Tombstone or something like that' (t=75-77).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 2:27: opponent Tombstone at (8, 20) feeds Skeletons into Ryley's half for twenty seconds; he reads it as the reason his bridge pressure is safe - "he doesn't have the tombstone and cycle for my ebar."
+- clock ~2:02: he answers the Tombstone skeleton stream with Mother Witch rather than a spell - "I'm tempted to go for a Mother Witch on these tombstone skellies."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md):
+- opponent card, commentary only. He guesses it is their win condition - 'He might be playing that one control deck where he doesn't even have a win condition and he literally just has um a sk like a tombstone skeleton queen for a wing [win] condition' (t=819-830) - and then picks the card that beats it: 'we can go for the Evo Batter here. And he's in a lot of trouble cuz Evo Batter is really good against Tombstone' (t=845-849).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2 (Heroic Tombstone): six central, deliberately offset placements (t=529.2 [9, 9], t=594.6 [7, 10], t=641.6 [8, 9], t=667.7 [8, 9], t=701.7 [9, 9], t=732.7 [8, 9]) - "I was doing these weird tombstone placements. And the whole reasoning behind that was because of the potential fireball cycle" (649-656s); he stops once Ian's spell turns out to be Rocket.
+- It is also the X-Bow tank: "once again I just went for the tombstone in the middle just to make sure that I tank for a future expo" (702-705s).
+- In triple elixir the Regal Revive ability becomes the win condition (the auto-transcript hears the Tomb Queen as "skeleton queen") - "in triple elixir I can start popping the skeleton queen ability and that thing is so, so tanky that it's extremely hard for him to actually defend for no damage throughout the game" (719-731s), fired around t=744 after the t=732.7 Tombstone.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1427.4 (9,18) and t=1577.6 (9,15) (opponent's card, arena detection only, never discussed): its skeletons are the units tracked walking into Ryley's left lane at t=1434-1443, which he answered with the spawner chip rather than a card.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.0.md):
+- clock 1:31 (t=80.1, tile [8, 19]): the opponent's Tombstone, which forces four skeletons at Ryley's left-lane pushes across clock 1:29-1:23.
+- clock 0:51 and 0:13 (t=121-123, t=160-162): answered with The Log both times — "I'm going to go for the Log here as well just make sure that we take out that Tombstone," then "Oh my god, and look, it took out the entire Tombstone. Nice."
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:21 (t=707): named as soon as it appears — "Okay, he has a Tombstone" — while he is still guessing between Royal Giant, Lumberjack and Golem decks.
+- clock 0:05 (t=844): it dictates his Wall Breakers timing — "I don't want to go for them just yet though because the tombstone will take out my wall breakers."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 1:29: the opponent's Tombstone goes down and Ryley immediately treats it as the threat to remove — "Oh my god, he went for the tombstone [queen]. Oh no, please relax."
+- clock 0:40: answered directly with The Log — "I do want to get a log on top of this tombstone here. Log the tombstone."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=620s: placed at tile [5, 6], one tile in front of the Barbarian Hut he had put at [5, 5] 25 s earlier — two spawners stacked in the same defensive pocket against a Goblin Barrel / Mini P.E.K.K.A. deck. The opponent Rocketed that pocket 19 s later at t=639s.
+- t=729-736s, asked whether spawners are good in C.H.A.O.S.: 'Yeah, barbarian hut's not that good, though. I really think that the Tombstone is really good' — he rates the Tombstone above the Barbarian Hut in this mode.
+- t=433-443s (commentary only, no events in that stretch): with a C.H.A.O.S. modifier the Tombstone spawned Wall Breakers, which Jynxzi called out as 'you just get infinite wall breakers'; at t=355s a modified Log 'just like killed the whole tombstone'. Modifier behaviour, not the base card.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 0:56, 0:44 and 0:28 (t=1978.4, 1990.4, 2006.4): the opponent re-lays Tombstone at [8, 18]/[8, 19] three times to pull the X-Bow off the tower; Ryley Fireballs it at t=1978.4 — "Take out the tombstone. Beautiful" (t=1981) — and simply out-cycles the later two.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

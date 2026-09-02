@@ -101,6 +101,26 @@ Not specified on source page
 
 This card has an evolution: see [royal-recruits-evolution.md](../evolutions/royal-recruits-evolution.md). Cycles to evolve: 1. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- 1497-1499s: mentioned only (not played). Uses Royal Recruits as his benchmark for annoyance — "bush was like a top two most annoying card in the game outside of recruits."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 0:53 and 0:11 (opponent): the card he most dislikes facing with this deck — "Why do you have Recruits, man? I hate the Recruits so much, guys. It's actually not healthy the amount of hatred I have towards those Royal Recruits" (282-289s).
+- clock 1:02: their arrival cancels his planned Berserker + Goblin Barrel — "Good thing we didn't go for the Barrel" (280-282s), i.e. he will not spend on offence while a six-body wall is walking in.
+- clock 0:48-0:42: he answers the Recruits with 1-elixir cards and a barrel in the other lane rather than the Cannon — Ice Spirit + Skeletons + a deep Electro Spirit (295-301s) — and pre-places the Cannon at clock 0:28 expecting them at the bridge (312-314s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 1:11 and 1:07: the opponent commits Royal Recruits in both lanes ((11, 21) crossing right, (4, 16) down the left); Ryley's answer is the Berserker ability — "Oh my god, he has recruits. Okay, wait. I'm going to pop the ability here cuz it's going to shred through the recruits."
+- clock 0:13-0:05: a final Recruits wave on the left is met with Savage Survival again plus The Log at (3, 12) — "we can pop the ability as well just to help take out these recruits... We take out at least two recruits. Nice. Very good value there."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Recruits (scraped 2026-09-02T02:34:44+00:00)

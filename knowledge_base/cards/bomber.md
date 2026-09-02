@@ -122,6 +122,59 @@ This card appears in 1 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 1:31, 0:47 and OT 1:20: opponent Bomber supports the pushes on both lanes; Ryley's Bats and Magic Archer, both air/ranged, sit outside its splash.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
+- t=751.3s: Bomber at (9, 0), behind his own king tower, after a good Fire Spirit trade — "there I got a nice fire spirit jump. So I just went for the bomber here in the back" (750-754s).
+- t=811.8s: Bomber at (3, 11) onto Wall Breakers coming down his left lane — "I'd have to go for the bomber on the wall breakers hoping I only took one which I only did end up taking one" (813-816s).
+- t=846.5s and 888.9s: Bomber used as double-duty cover — "I dropped the bomber for that spear, but I'm like, 'Wait, it's going to counter the barrel, too'" (842-845s), and "I bombed in case he marched. He didn't" (888-890s).
+- t=744-750s: Bomber is his substitute for a real bait spell — "I don't really have that great of a traditional goblin barrel counter, you know, being like a log, a barbarian barrel, or an arrows or something like that."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 1:24 / 0:52 (t=908.9 [14, 13], t=940.9 [4, 19]): the answer his bait pulled out early, which he counts as a small win — "Anyways, yeah, got the bomber out of him. We get a little bit of chip damage on the tower" (t=898-902s, enemy right tower 3009 to 2749).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:53-1:50 (t=1193.2, 1197.2): the opponent's Evolution Bomber walks the left lane alone; Ryley treats it as a placement constraint rather than a threat — "Bomber will be a little bit annoying cuz it can one-shot all of my spirits, but it just means I have to be a little bit more precise and smart with my placements" (1189-1194).
+- clock 1:09 and 0:57 (t=1240, 1252): he uses the Bomber's rotation as his timing signal for more Wall Breakers — "Okay, we force out the bomber" and "He used his bomber, so he's not back to the bomber yet".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- The opponent's most-used card in this game (evolved), tracked in the right lane at t=26, 32, 36, 94.1, 134.1, 158.2, 190.2, 212.2 and 244.2; Ryley answers it with Barbarian Barrel rolls up the right lane and with Furnace spirits.
+- overtime 0:40 (t=256): it is what the game-winning Lightning is aimed at - "We can lightning the bomber off the board as well".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.0.md):
+- t=148-151: the card that dictated his Bomb Tower placement — "here I I I went for the high middle bomb tower just to make sure that I protect against the bomber" (Bomb Tower at tile [9, 13], t=147.3). The opponent's Bomber is tracked walking down Ryley's left lane repeatedly from t=30.0 onward.
+- t=134-136: he credits the opponent with a good spell/troop play in the same window — "There was a really good evo snowball spear by him" (auto-transcript, garbled) — immediately before the Lightning at t=136.1.
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:54 (t=199.4): one HUD cast (-2 elixir), alongside the Skeletons and the Goblin Barrel that open the ability-then-barrel sequence. Unnarrated.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:25 and 0:37 (t=186.2 at [12, 15], t=294.3 at [4, 15]): the opponent's splash unit, answered first with a Fire Spirit — "And now the bomber also won't get a shot on the tower" — and later inside the closing defence: "Make sure we take out the bomber. Beautiful defense right there, guys."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 2:42: opponent's card, played at (0, 16) at t=510.5 in the opening exchange and answered by a Royal Delivery at (2, 7). Ryley never comments on it.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

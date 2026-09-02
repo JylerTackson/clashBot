@@ -89,6 +89,15 @@ Not specified on source page
 - Rage + Goblin Curse against swarms: curse first, then Rage, so every converted Goblin spawns already boosted and can overwhelm a Crown Tower.
 - The Goblins it spawns are Very Fast (120) ground melee units with a 1.1 second hit speed, so they close on defenders quickly.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 0:44-0:42 (t=448.4, t=451.5): the opponent casts Goblin Curse on Ryley's half at (9, 7), on top of the defensive cluster around his Bomb Tower.
+- Commentary at 447-453s, as it lands: "There is now a slow down to the enemies, so Goblin Curse will now slow down enemies kind of like a poison, I guess, which is kind of cool."
+- Verdict at 454-470s: "Goblin Curse definitely does suck, so it did need a buff, but I don't see how it's a rework though because, you know, I don't see like where it got nerfed in any way. So, to me it just looks like an outright buff... it just got a buff labeled as a rework for some reason."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Curse (scraped 2026-09-02T02:35:28+00:00)

@@ -62,7 +62,8 @@ def main() -> int:
             continue
         game_ctxs = [p for p in vdir.glob("match_*/**/context.json") if "split_into" not in p.read_text()[:200]]
         if game_ctxs:
-            cons = video_deck_consensus(game_ctxs, names)
+            vtt_v = next(iter(sorted((Path(a.videos) / vdir.name).glob("*.en.vtt"))), None)
+            cons = video_deck_consensus(game_ctxs, names, vtt_v)
             (vdir / "video_deck.json").write_text(json.dumps(cons, indent=1))
             print(vdir.name, "video deck consensus:", cons["deck"], cons["deck_key"])
     print(f"{n} contexts written")

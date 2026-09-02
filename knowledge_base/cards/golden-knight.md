@@ -101,6 +101,98 @@ The Golden Knight has a special ability, accessible from the rightmost side of t
 - Substitutes: Bandit (2 Elixir cheaper and higher damage, but less HP and a single-target dash), Royal Ghost / Baby Dragon / Dark Prince when splash is wanted, or Knight / Prince / Valkyrie when tanking matters more (all notably less mobile).
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor choice for Clan Wars Defense Towers.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:40 (video 833.8s, tile (8, 0)): opened the game with the Champion in the centre of his own back line (deploy label score 1.0; matching HUD drop 9.0 -> 5.0 was mislabelled 'Valkyrie').
+- clock 0:43 and overtime clock 1:27 (video 949.9s, 1027.0s, tile (8, 11)): re-deployed centrally on his own half as a defensive body against Hog Rider / Mighty Miner arrivals rather than as a lane opener.
+- overtime clock 0:53 (video 1062.1s, tile (15, 9)): sent up the right flank alongside the Electro Giant - "we can go for the Golden Knight off the side" (1062s).
+- overtime clock 0:27 (video ~1088s): the Dashing Dash is his stated last hope - "we have to get through with the golden knight, guys. If we don't get through with the golden knight, then we're completely wrecked" (1088-1090s). It did not get through; he was three-crowned.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Mentioned, not played (clock ~2:12): used as the reference point for why a dash/splash unit belongs in bridge spam — "That's why with golden knight, it's so good with bridge spam because they always have to line their cards up. You can get good dashes." He then says the Heroic Valkyrie does the same job "probably even a little bit better".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Mentioned only, not played by either side. t=226-234s, on the Ronin bug fix: "if you had a golden knight dashing onto a ronin, it would actually get reflected and the Gold Knight would not dash onto anything. I thought that was intentional, but apparently it was a bug." — i.e. after the fix, Golden Knight's dash should behave normally into Ronin.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
+- t=61.1: Golden Knight at tile [8, 9], centre of his own half, into an incoming charge unit alongside Minions at the river (t=63.1).
+- t=82.9: second Golden Knight (HUD 8.0 -> 4.0) as a body against the Skeleton Dragons on the same beat the opponent committed a Balloon — "I went for a card to block the skelly drags and at the same time he went for the balloon" (t=80-85).
+- t=102-106: uses the dash ability on defence against a Giant Skeleton, hoping the chain carries into the tower — "I went for the ability hoping that the giant skelly would walk a bit more to the right and then I could get a nice dash on the tower. Didn't work out that way."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
+- t=978 (clock unreadable): dropped at the bridge ([3,17]) against a tank-less enemy push — "right here is when I'm like, hold up. I can just Golden Knight because he didn't have really a good tank for anything."
+- t=986 (clock unreadable): pops the dash on that push and calls it the surprise, not the value — "look at that golden knight dash, guys ... I don't think he expected me to use the ability right there."
+- t=1040 (clock unreadable): plays him defensively on his own half ([3,12]) while his left tower is at 492 HP — "I knew that if he pulled off like a miracle defense, I would lose the game. So here I went for the gold knight."
+- t=1074-1088 (clock unreadable): bridge Golden Knight the moment the opponent spends Arrows and runs out of ground cards, then the dash into the enemy Dark Prince finishes the tower — "So I popped the ability here to go into the dark prince ... Golden Knight goes right back. And I take out the entire tower." (tracker follows him from [3,19] to [6,27] between t=1080 and t=1086)
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.0.md):
+- Opponent's card, not played by Ryley. Deployed at clock 1:11 (t=102.1, tracked [1, 21] -> [3, 16] in the left lane); Ryley answers it with Fireball at [3, 19] then Evolution Zap on the same tile (t=105-107).
+- It changes his Rune Giant placement: "we can go for the Rune Giant off to the side cuz he might try to get a Golden Knight ability" (t=132-133) — keeping the push out of the dash chain.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 2:00-1:23 (t=566-600.6): the Golden Knight leads the push that takes Ryley's right tower from full to ~1228 HP; he answers with Zap at [14, 17] ("I guess I'll Zap on defense here") and then the Fireball he did not want to spend ("I just don't want to lose my whole tower").
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock 2:22: the card that confirms his pre-game read — 'there's the Golden Knight. So it definitely is going to be some type of bridge spam deck'.
+- clock 1:07: a dash he cannot answer in time costs him 1820 HP off the right tower (4858 -> 3038) — 'I had no time to drop that... damn, that was unfortunate'.
+- clock 0:57: it is the reason he holds Royal Hogs instead of sending them — 'I do have a set of Royal Hogs, but I have to be more careful of these Golden Knights, man'; he answers the next one with Berserker at clock 0:37 ('Berserker here. Try to take out this Golden Knight').
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Mentioned only, never played — his reference point for how the Hero Valkyrie's ability behaves: 'You can kind of compare it to the Golden Knight, I feel like. The Golden Knight is similar to the Valkyrie, except that the Valkyrie like doesn't stop until the ability is over' (t=69-77), and again on the Valkyrie targeting the tower, 'kind of like how it just starts dashing towards everything like the gold knight. I think the tower also counts, I guess' (t=233-237). He also frames the Valkyrie + Miner push as 'Miner Golden Knight vibes where like they just can't defend properly' (t=195).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Mentioned, not played. At 402-408s he uses the Golden Knight's dash as the reference point for what the Heroic Valkyrie's Wild Whirlwind does to a clump of mid-court support: "he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:32: 1-elixir Skeletons are his named answer to the dash — "We can go for the skeletons to block the golden knight ability" (t=704-706), with the Golden Knight tracked at [3, 11] and a 4.1s tower ETA at that moment.
+- clock 0:13 and OT 0:23: he calls out bad Golden Knight commitments — "That was a bad golden knight as well" (t=843-845) — and in overtime targets it with the evolved Firecracker and a Hog: "I think I can go for a hog rider into the golden knight cuz he has the bowler and then I can go for another evo firecracker here. Come on, evo firecracker. Get on the golden knight. Nice" (t=947-955).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, dashed in at t=1417.4 toward his left side and again at t=1465.5-1471.5 on the right. It is the card his final plan is built to overload — "he has to go for the golden knight here and then he can't defend the Tesla" (t=1462-1465).
+- clock 1:08 (t=1469-1472): it dies into the freshly activated King Tower plus Tesla — "Nice king activation. Perfect and the golden knight's literally dead. Yo, he gives up. Nice."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=361-387s (mentioned, never played in this video): Ryley names the Ronin as a Golden Knight counter — 'if the parry blocks the dash, then the Golden Knight just stops moving and it doesn't dash the stuff behind it', so a Golden Knight dash into a Ronin is stopped dead instead of chaining into the support behind him.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=260.3-262, t=372.4-396.4): the opponent's Golden Knight is what Ryley's Mighty Miner bridge blocks are aimed at — 'at least if we're blocking the bridge and killing the golden knight then he can't really get a good barrel off' (t=377-382), and he grades a misplayed one at t=454-456: 'Wait, that was a bad golden knight. Hold up, I have a chance.'
+- clock unknown (t=283-289): names it as the budget replacement for the Mighty Miner in this deck — 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight, just a few cards like that cuz I know not all of you will have the mighty miner upgraded.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent Champion, tracked repeatedly down the right lane from [15, 23] (t=1325.3, 1333.3, 1345.3, 1379.4, 1507.5, 1529.5). Answered cheaply with The Log plus Skeletons - "We just log here" (1349s) - and his dash is survived by a single Skeletons pack: "He's going to try to ability maybe Okay, no, the skelly just clutched up. Sometimes the skellies just want to trip, man, and give him free ways to dash on the tower" (1353-1360s).
+- Ryley rates it as a card that gets the opponent nothing in this matchup - "obviously golden knight is kind of a stupid card, but other than that, like he's just basically getting no damage" (1415-1421s) - and reads a back-placed one as a symptom of a stuck cycle: "there's the golden knight cuz his cycle can get so awkward" (1528-1531s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

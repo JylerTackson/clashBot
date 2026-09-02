@@ -111,6 +111,36 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.m
 - clock 1:54: the opponent answers a nearly-dead tower with a pump; Ryley reads it as a concession and keeps attacking — "that's tower down, but he's opting to ignore it and just go for a pump." (opponent's card, discussed not played)
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.0.md):
+- clock 2:04 and 1:23 (opponent's card): two pumps, at (9, 22) and (16, 27). Against a 2.0 cycle deck with no spell, Ryley's answer is not to punish the pump directly but to keep a card at the bridge - the second collector is never touched and is still standing at the end of the game.
+- clock 0:47: he does use the pump as a reason to spend early - "let's cannon here early hit the pump. Nice. Okay, at least we got some elixir out of him" (t=122-126).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.5.md):
+- clock 2:32 (t=1113): the opponent's Collector at [9,22] is the first thing he reacts to, before any play of his own — "Oh no, guys. This guy has expo pump, man" (t=1097-1100), then "He goes for the expo" (t=1143).
+- clock 1:37 (t=1171): explains why a one-crown-each game is bad for him against a pump — "in a one one, I can't even drop the cards on the expo right now, which is not ideal."
+- clock 0:47-0:37 (t=1221-1232): a second Collector goes up at [16,27] and he gives the cheap-deck counter-argument — "one nice thing is that he can't like spam us with expos cuz if he tries to spam us with expos obviously he's going to have to put one of them in the middle and that's obviously not going to work cuz I'll be able to get at it really easily."
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.0.md):
+- clock 1:17 (t=98.1): the opponent's Collector at [16, 26] is treated as a pressure cue, not something to punish with a spell — he answers with a 1-elixir Fire Spirit at the bridge: "Okay, he goes for an Elixir Collector. Let's go for the Fire Spirit here at the bridge. Just try to keep up some pressure."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 2:35 (t=344.3, tracked at [1, 26]): Ryley's Goblin Barrel goes onto it immediately — "Let's go for the barrel here, here, top of the elixir collector" (t=343-345).
+- clock 1:12 (t=429-430): banks elixir at 8 and holds specifically to punish a second one — "I'm going to wait for him to go for a potential Elixir Collector."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- Opponent's card, not played by Ryley. Three separate pumps are tracked (t=848.8s at (16, 27), 888.9s at (1, 27), 926.9s at (12, 27); clock unknown) and a fourth around 979.0s.
+- t=845-856s (clock unknown): he deliberately lets every pump live because the counter-spell is committed elsewhere — "I can't lightning that elixir collector now cuz then he'll just 3M in the back and I'll lose the game... I have to let that pump go and I think that means this match he will have a stack of pumps on me and there's nothing that I can really do about that." By 977s he is "down three elixir collectors" and at 1042s "down six elixir right now after that pump", and he still wins.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Collector (scraped 2026-09-02T02:35:34+00:00)

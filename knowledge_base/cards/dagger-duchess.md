@@ -98,6 +98,14 @@ Not specified on source page
 - Do not scout against her the way you would against other Tower Troops; use outranging or high-hitpoint cards if you must.
 - Compared to Cannoneer she has faster but lower-damage output and lower hitpoints than the Tower Princess.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:45: mentioned, not played against him by choice — it is the opponent's tower troop, and he reads it as a bad matchup sign: "him having the dagger duchess is definitely not the best sign for our match though."
+- clock 1:54: he names the counterplay — "against like the dagger duchess, if I go for the berserker ability, it will drain all of the daggers out, which is very nice."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dagger_Duchess (scraped 2026-09-02T02:35:35+00:00)

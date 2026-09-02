@@ -158,6 +158,89 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:50-1:55: with no answer left he plays around it by hoping for a miss and by distracting it with a bridge Skeleton Army — "Okay, please don't lock on my tower. Mortar, miss one more time", "just to distract the bowler and the mortar."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — discussed at 769-796s: 'the hero and the evo versions of these cards were very much overshadowing the regular version. So they are nerfing the... evolved mortar hit speed from 4 seconds to 4.7 seconds but they are changing the regular mortar hit speed from 4 seconds to 4.7 seconds. So now they are equal instead of being different.'
+- 754-767s, his overall reaction to the Mortar/Barbarians/Goblins batch: 'truthfully this is the one that I am most unsure about to be honest cuz there's just so many different things that are being affected at once and I really don't know how I agree with this.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=887-891): the Evolved Mortar benefits from the Goblin damage buff too — "even the Evo Mortar Goblin as well will do a little bit more damage cuz the Evo Mortar does spawn that little Goblin."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- t=370.0 (broadcast footage, clock unreadable): Mortar at tile [9, 10], elixir 10 -> 6, as the answer to an early Royal Giant, immediately followed by Rascals at [1, 11] — "Here he go for RG Skelly Drags. Really aggressive. So, I went for my mortar plus rascals on defense" (371-376s).
+- Fifteen Mortar drops between t=338.3 and t=617.6, thirteen of them at column 7-9 on his own half (e.g. [9, 10] at t=437.3/470.5/578.1, [9, 11] at t=497.5/557.6, [9, 9] at t=532.4): he uses it as a defensive building he re-cycles the moment it expires. He counts it as one of only two damage sources in the list — "I only have skelly barrel and mortar, which are both good, of course, but they're no like minor or anything like that" (435-440s).
+- t=617.6 (clock unreadable): the one forward Mortar at [7, 13] is deliberately NOT at the bridge, to stay out of Firecracker splash while he is ahead on HP — "Honestly, I wasn't taking any risks, man. I damn near morted at the bridge so the firecracker couldn't splash me, bro" (619-622s).
+- Cost he names for the card: it has to sit near his own tower, which feeds the opponent's Fireball cycle — "I also have to like put my mortars near the tower ... he's always going to be fireball cycling me out" (469-477s). Holding a second one in cycle is his insurance against a repeat Royal Giant: "since I had another mortar in cycle I wasn't like super scared" (528-532s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.1.md):
+- clock 2:07 and 1:05: the opponent's win condition, which Ryley called before a card was played — "I'm pretty sure this is another mortar player. Dude, I just face mortar so often, man" (199-201s). It took his right tower from 4858 to 3163 around clock 2:10-2:07.
+- clock 1:29 and 0:51: he plays around it rather than answering it — a bridge Suspicious Bush as an anti-Mortar mine (278-282s), and holding his Evolution barrel so "he has to use evo mortar defensively" (319-321s). At clock 1:15 he admits the alternative: "I just wanted to be sure that he didn't mortar us cuz we had a literally garbage hand for mortar. We had nothing" (291-294s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- Mentioned, not played — Ryley names it as the opponent's deck and mocks the matchup twice: "Dude, mortar players when they have to defend, man. [laughter] Mortar players when they have to defend" (t=570-574s). The Mortar itself is never detected on the field; his left tower does take five unattributed 204 HP ticks between clock 1:57 and 1:50 with no enemy unit in range.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Mentioned, not played. His pre-match read of the ladder meta at 173-180s: "This guy's going to probably be playing mortar bait. I feel like there's just so much mortar bait going around recently that it's just hard to assume that he would be playing anything else." The opponent turned out to be an off-meta Royal Recruits/Bowler deck, and he corrects himself at 182s.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.5.md):
+- clock 2:35, mentioned before it appeared: "I think this guy usually plays with mortar… he had like this mortar ice wizard cannon cart deck, maybe." An enemy Mortar finally shows at (15, 17) at clock 1:25, by which point the enemy left tower was already at 378 — Ryley never had to answer it.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 2:45 (t=1245.2): the opponent's opening Mortar lands centre-river at tile [8, 16] and Ryley criticises it as a blind first play — "Down the middle first play is interesting. I'm kind of surprised by that. I know in some match ups it's better like maybe against a Baby Dragon deck or if you're against like... a Magic Archer sometimes down the middle can be better, but I'm surprised that he did it without knowing my deck yet" (t=1250-1264).
+- clock 0:55 (t=1355.4) at [2, 17]: he answers a lane Mortar with a bridge Berserker plus her ability plus Evo Zap rather than a spell — "Let's pop the ability just to keep this alive so we can take out that mortar" (t=1354-1357).
+- overtime 1:33 (t=1437.4) at [13, 17]: "That was a bad mortar though. We can minions here" (t=1435-1436) — a mistimed siege placement he punishes with Minions and Mother Witch.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:23 (t=874.9) the opponent's Mortar at [15, 17] is what let Ryley name the archetype — "maybe it's mega knight bait, I guess. But I feel like no one plays mega knight bait. Oh, mortar bait" (866-871s).
+- clock 1:19 (t=938.9) Mortar at [9, 16]: Ryley grades his own answer rather than the card — "We don't activate our king tower, unfortunately, but it's all good. That timing's not that easy. I feel like I get it like 50% of the time, but the other 50, you know, I'm just distracting the mortar, so it's not like the end of the world, but I would like to get that interaction more often" (935-948s).
+- clock 0:35-0:12 (t=983.0 at [3, 17]): the evolved version is the whole opponent deck to him — "his really only win condition in here is the evil mortar. Regular mortar is not much of a worry" (1006-1010s), and pressure, not defence, is his answer to it (1003-1008s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- Mentioned, not played: at 37-40s he generalises the Hero Berserker synergy off the X-Bow — "It also works very nicely with Mortar for the exact same reason" (i.e. the ability clearing whatever the opponent drops on the siege building).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:28: the opponent's Mortar goes down at tile [9, 20] behind a double Rascals split; Ryley never builds a dedicated answer to it and simply out-chips it with the X-Bow.
+- clock 1:04: he reads the whole matchup as decided by it — "I think this guy just gave up cuz he knows the Expo is a hard counter against Mortar if I have the Fireball variation" (t=731-734), and on the rework, the X-Bow now "does more damage to like the mortar where it's just trying to take it down" (t=678-680).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent's win condition (Evolved). Tracked at [6, 16] t=1255.3, [9, 16] t=1311.3 and t=1383.4, [15, 17] t=1357.4, [14, 16] t=1421.4. Ryley identifies the archetype from it at 1246s: "Okay, he has mortar bait. That's going to be some damage."
+- He answers it with a Magic Archer pierce rather than a building or a walk-in - "I think I want to Magic Archer this. Just to take this out for no hits" (1314-1316s) - and respects the evolution: "He has Evo Mortar in hand though. Have to be really cautious of the Evo Mortar" (1349-1353s). He also plays around it activating his king tower (1319-1327s).
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- opponent card, three placements: [14, 18] at clock 2:08, [3, 17] at 1:26 and an Evolved one at [3, 17] again at 0:34. Ryley grades the second one immediately — "Okay, that was a bad mortar" (1:26).
+- clock 0:35 and 0:23: he answers it with a body rather than a spell — "we can go for the berserker to tank just so the mortar doesn't lock to our tower" — and when the Evo Mortar does connect for 425 + 200 on his left tower he takes it calmly: "I think that's a mortar connection, right? Yeah, only one shot us not the end of the world," then Poisons it.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- Opponent card (nine mentions), and a surprise to him — "Okay, why does he have a mortar?" (t=549), "I lucky forgot that he had Mortar. I can't lie. It's been too long" (t=732-735). He never spends a big card on it: The Log answers it at t=627.6 (bridge Mortar at [8, 16], "that's going to take out the Mortar", t=631) and again at t=736.7 against the Evo Mortar at (2, 17), with "another Baby Dragon on the Mortar if need be" (t=742) held in reserve.
+- t=765-769s: he blames his only real tower damage on the Mortar being screened — "Whenever a Mega Knight throws something, Mortar and X-Bow lock onto the tower" (own left tower 4167 -> 3317 across t=760-772).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

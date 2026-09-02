@@ -144,6 +144,49 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Played repeatedly by the opponent as the Mortar deck's support (arena detections at clock 1:38, 1:35, 1:30, 0:20 and through overtime at OT 1:51, 1:15, 1:12, 0:48, 0:32).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- t=372.2 (clock unreadable): Rascals at [1, 11] for -5 straight after a Mortar, as the Royal Giant answer — "So, I went for my mortar plus rascals on defense" (374-376s). Rascal units are tracked around his left tower again at 464-490s while the opponent's RG walks the lane (the deploy itself was not logged): "I went for the rascals plus skellies here knowing that I was going to take at least one shot, but I did get a bowler roll, so it kind of made up for it" (483-490s).
+- He plays them spread against the opponent's Fireball: "I went for the rascals up top trying to space them out from the fireball which I actually did very well" (517-522s); a later Rascals label lands at [14, 14] at t=602.6.
+- Named as the first reason he cannot dodge Fireball value in this matchup: "I have to rascals near my tower, right, every single time ... So, he's always going to be fireball cycling me out" (463-477s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 0:44-0:32 (t=1035-1054): the opponent's Rascals were the recurring push, and Ryley's stock answer was small spells plus Elite Barbarians — "That's just going to start throwing out the rascals with zap and we can barbarian barrel here as well just to get that off the board instantly".
+- clock 1:37 (t=990) and 0:54 (t=1031): he judges the opponent's Rascals placements poor — "I do have to be careful though of just a set of rascals at the bridge", then "Oh, that was a bad set of rascals" before punishing it with the bridge push.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.3.md):
+- clock 2:34-2:26: the opponent splits Rascals from the back twice ([11, 26] then [13, 23], plus a third at [14, 15]); Ryley's first reaction is alarm — "after that the rascals in the back, dude, this actually might be nearly undefendable" (t=640-642) — and his answer is a Fireball on the stack at [12, 22] rather than a building.
+- clock 1:32-1:24: against a second two-lane Rascals commitment he uses split Archers, then The Log, then Electro Spirit — "make sure that we take out these rascals" (t=702-704).
+- clock 1:19: lets the last surviving rascal-boy connect on purpose rather than spend on it — "they could just let this go... it might be better to just eat some damage here" (t=718-722). His right tower drops 4458 -> 4258.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.4.md):
+- Opponent card. Called twice before it was played — "I feel like he has rascals. It wouldn't be that great of a play" (t=870-872, declining a bridge Ronin because of it) and "I know he's going to go for the rascals if he has them. Yep" (t=921-924).
+- Played by the opponent at t=926.9 at [9, 17] and again at t=951.0, 5 elixir each. Ryley's answer at t=932.4 is Royal Delivery at [13, 15] — "delivery here on defense and then we can go for the barrel as well".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.6.md):
+- Opponent card, tracked at t=1251.2, 1255.3, 1259.3, 1393.4 and as a three-unit push t=1394-1406. Ryley holds Royal Delivery for them rather than reacting: "He could go for an aggressive Rascals but we have Delivery one card away so I'm not really too scared" (1281-1285s).
+- t=1358s and t=1391s: "Okay, Rascals at the bridge" (1358s) and "He's going to rascals" (1391s) - both answered with spirits plus Royal Delivery at [4, 13] (t=1402.7) so the Bomb Tower stayed in hand.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- opponent card, four commitments (clock 2:30 at [8, 22], 1:12 at [11, 20], 0:28 at [4, 21] and 0:24 at [2, 15]), repeatedly split across both lanes. Ryley never names them; he answers with The Log at [3, 14] plus Bats and a Berserker at clock 1:07-1:02 and the pushes never take a Crown Tower below 4386 HP.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=312.3-350.4): the opponent's Rascals are the card that finally pulls The Log out of him, and only once the punish is pre-loaded — 'let's go for the log here on the rascals and mighty miner predict a goblin barrel... So we're able to clean up the rascals nicely. Those are very good sequence' (t=349-359).
+- clock unknown (t=409-413): he predicts the Rascals as the answer to his own Baby Dragon and pre-places Skeletons — 'He's definitely going to go for the rascals here on the baby dragon. We can skellies here.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)

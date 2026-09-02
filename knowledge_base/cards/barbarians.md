@@ -127,6 +127,54 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:34: a committed Barbarians is his cue that the Mega Knight plus Evolution Goblin Barrel will not be answered — "cuz he has the barbs down and he won't be able to barbs on the right side."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:37: the opponent's Barbarians at tile [3, 19] walk Ryley's left lane for roughly 20 s and are handled with Goblin Gang plus The Log. He later uses them as the reason his barrel is unanswerable - "he's going to have to eat this or go for the barbs, but obviously he doesn't want to do either of that" (clock 0:32).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played by him in this match (the tracker does show Evolved Barbarians on the opponent's side at clock 0:13-0:11, on his King Tower) — named at 754-756s as part of the balance batch he is least sure about, and at 797-799s, cut off by the end of the game: 'Guys now to the barbarians. The barbarians are also getting toned down.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Mentioned only (t=799-813), balance changes: "the barbarians hit points are getting buffed by 4% but in return the evolved Barbarians hit point bonus is going from 10% to 0%. So now the regular Barbs and the Evo Barbs will have the same HP. I am definitely a fan of that."
+- Mentioned only (t=823-852): the Evolved Barbarians' rage now lasts "five seconds instead of three seconds, which I think is a pretty fair buff", and on the package as a whole — "I know the goal was to buff them overall cuz Barbs are not like a very used card but still seems pretty big. I'm all right with it though."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 1:54 (t=1049): lands at [3, 14] on Ryley's own half behind a Miner; The Log at 2:00 and the Bomb Tower handle the group.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 2:31-2:14 (t=1259.3 at [13, 13], t=1278.3 at [3, 14]): the opponent's Barbarians walk into his lanes while his Rune Giant push is building; he accepts the tower damage rather than spending on them — "I know this is going to get a little bit of damage, but it's fine. I just want to get as many piggies as possible" (t=1268-1272) — and the Mother Witch converts the deaths.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md):
+- clock 0:13: the opponent drops Barbarians at [3, 17] onto the left-lane Battle Ram push (t=160.2), alongside a second Bomb Tower — the pair is what stops the push Ryley had built from t=144.
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.3.md):
+- clock 2:26: opponent Barbarians tracked at tile [11, 13] on Ryley's half; he answers the lane with Bomb Tower and expects them again on defence at the end — "he has to probably go for the barbs" (t=775) just before the concession.
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 0:15: the opponent's Barbarians are the answer he fears most on the Hog lane, evolved or not — "We took a lot of damage, but it's still winnable. I know he has the evo barbs though. Well, maybe not the evo, but just like the barbs in general, which is not very great for us" (434-440s).
+- overtime 1:22 and 0:57: he sends the Hog Rider expecting them and pre-Logs for them — "Let's hog rider evo firecracker and he might barbs" (490-492s), "We need to pre-log here for the barbs or the bowler" (516s).
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1172-1176s (clock unknown): Barbarians came down the right with the Hog and he read the placement as sloppy — "Okay, those are just weird Barbs. I'm going to Cannon here."
+- t=1261-1276s (clock unknown): a second Barbarians group crossed on his left (tracked to [3, 7]) and was held by Baby Dragon at [14, 9] and Skeletons at [12, 8] while he counted out his finishing spells.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

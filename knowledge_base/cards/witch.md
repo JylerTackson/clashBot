@@ -131,6 +131,52 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - clock OT 1:42 (t=191-193) and OT 0:53 (t=240-244): he classifies her as a Lightning target — "I do have to watch out for that Evo witch cuz it is actually above the max HP" — and spends the Lightning on her pre-emptively at tile [13, 18].
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:35 and 0:25: the opponent's Evolution Witch is the card Ryley refuses to interact with normally — he answers the first one with Goblin Gang plus Ice Spirit ("he's going to try to go for the witch, but if he doesn't do it right, then we're just going to take out the whole thing") and then spends his Rocket on the next one immediately: "I do not want to play any games with an evo witch, man. That card is just way too powerful."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Mentioned only, not played by either side (316-344s): on the Evo Witch rework, "Instead of the Evo Witch healing from every skeleton that dies, it will now only heal from the first four skeletons that come out, but it will heal 186% more, which is just a crazy number to hear. And the maximum hit points has actually been buffed by 40%."
+- Mentioned only (338-348s): "It will get buffed to be able to survive a lightning if all of these skeletons do die and the Witch survives, which is just ridiculous in my opinion. I feel like Evo Witch is very frustrating to go up against."
+- Mentioned only, the counter-argument (352-369s): "it won't be able to heal over and over again after it gets the initial heal because it's only able to heal from the first four skeletons... it's a little bit more annoying to kill it, but it won't constantly heal throughout the game... I do think that it will be a massive buff, but we'll see."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 0:08 (t=985.0, tracked at [3, 17], opponent elixir 10 to 5, walking to [3, 9] by clock 0:02): the card he reserves his Fireball for all game — "I'm going to wait to grab my fireball log in case he goes for the witch" (t=961s), then "Let's fireball here just to take out that witch" (t=983-985s).
+- he counts forcing it out on defence as a win in itself: "Forced out the EVO witch as well, which is really good" (t=927-929s), and at t=948-950s frames his own push as conditional on it — "This dark goblin will take out literally everything as long as I eat this witch."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- clock 0:25 (t=1385.4): the opponent's Witch lands at [11, 18] and is Fireballed plus Zapped on arrival — "Okay, wait. I can fireball this. Zap as well" (t=1384-1386).
+- overtime 1:55 and 1:24 (t=1417.4 at [11, 12], t=1448.4 at [9, 14]): repeat Witches into his half are met with Mother Witch plus Berserker plus Heal Spirit instead of a spell, feeding the Cursed Hog conversions that end the game.
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 1:48 (t=394): reacts to the opponent's placement as a mistake — "Oh my god, really bad witch" — and immediately Royal Deliveries it: "Let's delivery here to make sure that we finish that off."
+- clock 0:47 (t=443-456): names the Evolution as the hardest card in the matchup — "Evo Witch is going to be tough" — and answers it with Royal Delivery protected by Skeletons: "go for the Skellies to protect this delivery on top of the Witch."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:58: an Evo Witch push is what he refuses to defend head-on, going Wall Breakers into the other lane instead - "even have a good cycle to defend this witch. Go for the wall breakers here."
+- clock 0:52 and 0:12: he names Evo Witch as one of the two cards his deck cannot remove - "I can't really take out the EVO witch, and I can't really take out the Evo Inferno Dragon" - and spends a Savage Survival on it at the death: "I had a feeling I needed that ability here just to keep this alive so we can take out the witch."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=379-387s (mentioned, never played in this video): used as the example of support that a parried Golden Knight fails to reach — 'imagine you have your Witch right behind a Ronin. If the Ronin parries a Golden Knight dash, then it won't go to the Witch and the skellies.'
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=26.0s (clock unknown — the clock OCR failed for this whole video): the opponent's evolved Witch at [13, 19] is what took his right tower from 4208 to 2174 across t=44-52; Ryley's answer is to spend a 6-elixir Lightning on it on sight — "the Evo can be super, super annoying if we don't take that off the board with the lightning" (t=97-100), and later he tracks not having it: "we don't have lightning for the Evo witch which is all right" (t=179-181).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

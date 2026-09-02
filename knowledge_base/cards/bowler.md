@@ -167,6 +167,95 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 1:21-1:13: he plays for it rather than around it — a back Princess and then a bridge Skeleton Army are both placed to force it into a bad spot: "He's probably going to bowler into this, but if he does, I think I could go for a nice skarmy at the bridge", "Just to force him to bowler in the top middle or princess."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:05 (video 331s): named from the shape of the opponent's play before it was ever seen — "like I guess this could just be like a bridge spam deck. I think it's bowler" (329-331s), confirmed at 360s ("E Golem with Pekka and Bowler").
+- clock 0:51 and 0:23 (video 405s, 433s): he plays around it twice — "He's going to go for the bowler" (405s) and then the placement rule "let's go for a high cannon here just to block the bowler just so I can get the barbarian barrel down" (433-435s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:11 (video 863.9s, tile (8, 1)): dropped off a full bar behind his own towers (HUD 10.0 -> 5.0, deploy label score 1.0) as the anchor of the defence, not as a reaction to anything on the board.
+- clock 1:19, 0:45 and 0:13 (video 915.9s, 945.9s, 982.0s, tiles (2, 8), (8, 0), (8, 9)): every regulation Bowler is centre-column or in a back corner, positioned to cover both lanes and survive into the counterpush behind the Electro Giant.
+- overtime clock 1:47 (video 1009.0s, tile (8, 13)): the high Bowler into a Tornado against a Hog Rider - "We have a bowler ready here. Going to go for the high bowler right now. And then we can go for the tornado as well. Just make sure to yank in that hog rider. Good defense" (1006-1014s).
+- overtime clock 1:37 and 0:39 (video 1018.7s, 1076.2s, both HUD 6.0 -> 1.0): each overtime Electro Giant gets a Bowler placed behind it in the same elixir window.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:57: he places his Knight straight onto the Bowler — "we can go for the knight on top of the bowler." At 391-395s he had the Bowler wrong in his hand-read ("Maybe he has the bowler, but I don't think so") and it shows up at (13, 17) at clock 0:57.
+- clock 0:35: he calls the opponent's Bowler timing a mistake — "He's going to go for the zappies or the bowler. Okay, he goes for the bowler, but he doesn't do it on time."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- listed in the opponent read with 'Bowler' deploy labels at t=1104/1107/1110, but all three fire at the identical tile [8, 25] exactly while he is discussing the Bowler nerf on screen, so the play is not confirmed (see the match file's Data gaps).
+- t=1103-1140: 'They are nerfing the Bowler and the Executioner projectile range... 7.5 range to a seven range... the Bowler and the Executioner were basically just magic archers with 7,000 HP, and I will still stand on that. Half of the time when you're against those cards, they are the things that take out your tower, not even like the win condition.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
+- Played as the Heroic Bowler (he says "the bowler ability", i.e. Stone Swish). t=391.7 (clock unreadable): Bowler at [9, 11], elixir 5 -> 0, then two 1-elixir Skeletons at t=398.9 and t=402.9; the enemy right tower reads 2907 at 398s and 2523 at 414s. "I went for the bowler ability because I do know that in this matchup, the only thing that gives him trouble is the bowler ... my bowler got two shots on the tower. So, that was a 500 damage play for me right there" (397-412s).
+- Technique he states for the ability: cheap fast units let you get a lock before the opponent's spirits pull the throws — "I always try to finesse people with the quick spirits cuz people do always use the spirits to, you know, outrun the bowler throws and then fully counter it. So, if you can quickly drop your spirit or something like that, then you can quickly get a lock on the tower" (415-427s).
+- Defensive drops deep on his own half: t=480.5 [1, 12] into the left-lane Royal Giant ("I did get a bowler roll, so it kind of made up for it", 488-490s), t=504.3 [9, 0] and t=569.6 [8, 0] behind the king tower, t=534.0 [6, 12] specifically against splash — "I went for the bowler as well just to make sure that I could take out the firecracker. I lined it up pretty well right there" (534-539s). Second ability use at 546-549s: "I had the bowler ability just to get the firecracker off the board."
+- His rule for facing a back-line Royal Giant with a Bowler in hand: "going RG the back against a bowler in triple elixir maybe isn't always the move because then I just get a free bowler and my bowler will obviously live" (572-579s) — with the caveat that he then plays around the Firecracker, "just trying to make sure that my bowler didn't get splashed" (581-585s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- clock 1:19 (opponent): treated as a counter-push threat rather than a defensive problem — "I have to be careful though cuz he does have the counter pushing Bowler. He could even pop the Tombstone ability" (262-266s).
+- clock 1:10: rather than answer the Bowler with his building he lets it hit the tower and keeps the Cannon for the Skeleton Barrel — "I'd rather just take the Bowler shot" (275-277s), and instead chips it with the Dart Goblin: "We can get some good damage on that Bowler hopefully ... Come on, hit the Bowler. Nice" (254-261s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.7.md):
+- Mentioned only, never played: named alongside Goblin Drill as the deck he expected this opponent to bring (t=1241-1243).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=699s: identified in the opponent's deck ("Oh, he has bowler") and thereafter answered with cheap blockers rather than a commitment - Fire Spirit at t=712.7s and Ice Spirit at t=724.6s, "Make sure that we deal with the bowler."
+- t=769-772s: used the Bowler's forced defensive use as barrel timing - "we go for the evo barrel cuz he has to bowler, but then the bowler won't be able to take out the goblin barrel now."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card. t=1040-1043s: Ryley picks his Goblin Barrel lane around it - "cuz he has the Bowler on the right, unless he has a Knight. Yeah, he's Bowlers. We're just going to get a free Barrel off on the tower".
+- t=1047s: absence of the hero version is read as information - "Him not having the Hero Bowler is a little bit scary, cuz that means he probably has the Hero Balloon".
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:47 and 1:14: named 16 times, the single card he plans around all game. His two answers are kiting ("we can go for the ice golem here to kite that bowler away", t=783-785) and using it as the king-activation trigger ("I want to activate my king tower off of the bowler if possible... usually they pressure with the bowler and it's kind of hard to pull off if they do that", t=748-758).
+- clock 1:37 and 0:48: he uses bridge Elite Barbarians to force it out of the opponent's hand — "He's probably going to have the bowler" (t=762-763) then "Nice forcing out the bowler. That's huge" (t=768); later "the e-barbs here just force him to go for the executioner or the bowler" (t=811-814) and "thankfully he went for that bowler. That was a bad bowler" (t=816-817).
+- clock 0:08: the Hero Ice Golem's Snowstorm is used specifically to lock it in place — "I'm going to pop the ability because it's going to freeze the bowler which will make the e-barbs a crazy big threat" (t=847-851). On its defensive record he says "Dude, bowler's coming back again. Dude, that bowler has like smart targeting or something" (t=824-827).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 1:15 (t=775): the reason he commits a Magic Archer — "let's just go for the Magic Archer here to snipe that Bowler down."
+- clock 0:47 (t=801): credits the opponent for a good use of it — "That was smart by him. Great Bowler" — and answers it with Royal Delivery "on top of the bowler" plus a Skeletons split.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent card, played at t=1379.4 into the right lane and again at t=1451.5. It is the unit Ryley builds his first activation attempt around — Skeletons "just to yank that bowler in" (t=1386) and then a Fire Spirit "just to make the bowler not target the tower" (t=1389-1393).
+- clock 1:28 (t=1447): he wants the opponent to spend it on the wrong side — "He might bowler on the left side which would be good to not let him activate."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
+- clock 1:25 and 0:44: the opponent's Heroic Bowler is the card he spends Mighty Miner on twice, once to kill it and once to bait it — "we can go for the mighty miner at the bridge to take out that bowler. We'll take it out very nicely cuz he has no zappies" (367-371s), "Just try to force him to go for the bowler, and then we can go for the hog rider" (410-412s).
+- overtime 1:56 and 1:10: he plays around the ability rather than the body, calling it before it happens — "I'm going to cannon here low next to our tower. He's going to bowler ability" (454-456s) and "If he goes for the bowler ability, he's probably going to go for the giant and then zappies" (500-502s). Over the two windows his right tower took repeated 307 HP hits with no enemy unit in range.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:49 onwards: the opponent's Heroic Bowler is the card that actually beats him down, taking his left tower from 2007 to 1545 HP around t=1456-1464 — "Please take out the Bowler. Ah, it's going to get one, isn't it?"
+- clock 1:18: his summary of the Hero variant — "God, I hate that bowler, man. It's just like a magic archer with 6,000 HP", and earlier "Dude, when Hero Bowler came out, man, that was a a time in the game, dude."
+- clock 0:20: "he's just getting bowler hits every time he feels like it", after the opponent puts down a second one at clock 0:28.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

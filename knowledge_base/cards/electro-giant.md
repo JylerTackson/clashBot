@@ -117,6 +117,47 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:05 and overtime 1:56 to 1:52: tracked pushing his left lane; Ryley answers it with a high middle Hero Wizard, then Giant Skeleton + Mother Witch ("let's go for the giant skelly here. I had a feeling he was going to go for some type of shenanigans like that"), and later "Let's go for the high e giant."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Not played by either side in this game (the two 'Electro Giant(Buff)' labels at t=756.8 and t=759.8 are the balance-notes overlay). Discussed only: 'We are getting a damage buff to the electro giant. And really, I'm not sure why ... I'm not going to act like the electro giant's like an overpowered card or anything, but I do think that it's definitely an underrated card as well' (t=754-771s).
+- t=771-806s: argues the repeat buffs are mistimed — 'they buffed the E giant for like the last three balance changes now, just making it do all of that extra reflection damage ... Now they're giving it a buff to the damage by 13% ... maybe they could slow down a little bit just to let people find the card ... it's kind of hard for Egiant to fit in a meta where the best card in the game kind of completely counters them.'
+- t=806-822s: 'I can't act like Egiant isn't like a card that's kind of bad. Maybe some people may disagree ... obviously Eg is a really toxic and a really annoying card, but it is hard to deny that it is a strong card cuz not many people really use it.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:27 and clock 1:58 (video 849.8s, 876.9s): first two Electro Giants are defensive, at (4, 11) and (9, 13) in front of his own towers against a Mighty Miner + Hog Rider left-lane push (the second is HUD 9.0 -> 2.0 with a deploy label at score 1.0) - no commentary, he is mid patch-notes.
+- clock 0:31 (video 963.5s, tile (2, 14)): the planned push, tank in front of his own left tower plus the ability, then Void on top - "I am going to go for a nice egiant push here. I do feel like this is a really good opportunity. I'm going to go for the ability. And then I'm definitely going to go for a void here on top of this" (961-969s). The enemy left tower went 4858 -> 4386 over the next twenty seconds.
+- clock 0:13 (video ~982s): he rates the card while it is ticking - "see, I feel like E Giant's kind of solid, man. Getting a tick through all of that is kind of insane, but I'm not complaining, of course, since I'm the one using the E giant right now" (982-989s).
+- overtime clock 1:37, 0:57 and 0:39 (video 1017.0s, 1058.1s, 1076.1s, tiles (14, 14), (2, 8), (14, 14)): in overtime he alternates lanes on purpose - "Let's definitely go for the E giant here cuz we have the speedy E giant" (1018-1022s), "I'm gonna go for the Egiant here because I know he's going to go for the ability plus hog rider" (1056-1060s), "I'm going to E gi the opposite lane, though" (1076s). None of the four pushes took a tower.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:18 - OT 1:23: the opponent's main win condition, pushed down the right lane at 2:18, 0:52, 0:19 and repeatedly through overtime; Ryley's answer is the centred Bomb Tower plus Skeletons and Fire Spirit chip.
+- clock 0:48: it connects on his right tower but only takes it 4818 -> 4778; in overtime (OT 1:33 - 1:23) the same push, now supported, grinds the tower 4200 -> 1655.
+- Ryley never comments on it — his commentary through this game is entirely a balance-change review.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=782.8s: the opponent placed it in the back at (2, 23) (opponent elixir estimate 10 to 3); Ryley treated the investment as free chip time - "I think I will marcher the bridge cuz he went e-giant in the back" (t=778-781s).
+- t=788.8s: answered with an early Bomb Tower at (8, 9) rather than a reactive defence - "let's just early bomb tower"; the push never connected and he called it "game over" at t=800s.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.md):
+- clock 2:08 (t=718.7, enemy track at [15, 23]) and overtime clock 1:50 (t=856.9 at [15, 20]): the opponent's win condition, which Ryley never answers with a big card — Tesla plus Skeletons pull and stall it while Fire Spirit and Royal Delivery clear the support.
+- clock 1:37-1:31: the matchup lesson of the whole game — "I feel like early E-Giants against this type of log bait deck is just like a death wish, man. You're not able to do anything after that."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
+- clock 1:16 onwards: the opponent's win condition, pushed down Ryley's left lane at tiles [4, 23], [4, 18], [4, 22], [3, 13], [2, 13] at least five times, twice reaching "tower in 0.8s"; Ryley never spends a dedicated counter, answering with a high Cannon plus Electro Spirit and The Log and otherwise racing the opposite lane.
+- clock 2:34-2:26: his read on the archetype before seeing it — "I feel like e-giant really is not the greatest deck, but ... e-giant actually nowadays has decent chances against Hog EQ with having the Evo Baby Dragon and the Evo Goblin Cage as well."
+- clock 2:10: he infers the whole deck from one card — "Oh, he has a Bowler, okay. I guess that means he has E-Giant."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Giant (scraped 2026-09-02T02:35:05+00:00)

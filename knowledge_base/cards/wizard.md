@@ -159,6 +159,59 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:03: deliberately held the Fiery Flight ability because the opponent had Tornado — "I'm not going to pop the ability cuz he might just [na]do opposite lane." The ability is never activated in the readable window.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.4.md):
+- clock 2:40 (t=706.2): Evolved Wizard at tile [16, 6] played to tax the opponent and to cycle, not to defend — "just doing this will force him to spend extra elixir on my wizard, which is good cuz I'm also cycling to my evo e-barbs at the exact same time".
+- clock 0:32 (t=833.5): back placement at tile [8, 0] with the next card already planned — "Let's Wizard in the back here. We have to cycle to our Arrows to take out that Princess".
+- clock 1:03 (t=922.9): centre of his own half at tile [8, 5] as pre-cover against the bait deck's ground answers — "Let's go for the wizard here in the middle in case he has to go for like a knight skarmy barrel".
+- clock 0:44 (t=940.9): only once ahead in overtime does he put the Evolved Wizard on the opponent's half at tile [8, 21] — "We can get a nice evo wizard in the pocket".
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- Opponent card. Credited with killing Ryley's bridge Princess — "He does grab it with the wizard, which was good by him" (t=2069).
+- Named with Mother Witch as the pair that makes his cheap-swarm defence awkward (t=2044), and he is the unit Ryley is forced to answer with Log plus Ice Spirit after misplacing his Cannon at t=2217-2219.
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.2.md):
+- Faced, not played. At clock 2:15 the Berserker's job is explicitly to hold him — "mine just needs to be there to keep the wizard distracted" (380-383s).
+- clock 1:27: he hopes the Savage Survival burst catches the Wizard as well as the tower — "That might even take out the wizard if we're lucky" (430s).
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.3.md):
+- clock 1:18 (t=607-609): he counts forcing out the opponent's Evolved Wizard as value from his Rune Giant / Evo E-Barbs push - "Look at that damage, guys. And we forced out the Evo Wizard."
+- overtime 1:55 and 1:17 (t=691, t=729-731): the Wizard becomes the card he must remove to survive - "that was a good uh Wizard though" and "Berserker on the King. I have to take this Wizard out, dude. I have to."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Mentioned, not played by Ryley. In game 1 the opponent's (Heroic) Wizard at the bridge around t=388 is the mistake that loses him the game - "right here, he made a massive mistake. He went for a wizard at the bridge" (386-389s) - because it is the deck's only real Royal Giant answer: "he's just able to go wizard plus ability. And since I don't have a monk and log doesn't hit the air whenever he pops the wizard up, I literally cannot kill it" (420-428s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- Mentioned twice, never on Ryley's side. Named as a defensive problem alongside Mother Witch (t=1173-1175), and used by the opponent to kill his bridge Evo Princess — "He does grab it with the wizard, which was good by him" (t=1200).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 2:07 and 1:43 (t=141.1 and t=165.2, both tile [1,8]): two deep left-lane defensive placements during the bridge-spam clip. Unnarrated — a defensive anchor while the predictions happen elsewhere.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.md):
+- clock 0:56: the opponent used the Wizard's hero ability on his Evolution barrel push — "Good wizard ability but maybe not good enough because now the Ronan is just staying far away from the wizard so it doesn't splash the barrel."
+- clock 0:17-0:05: he sited a Tesla "on top of the wizard" and then lost his left tower to it — "I didn't think that the wizard was actually on the tower"; afterwards, "I thought the wizard was on the delivery. That's why I said the game was over."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:08-2:07: opponent's Wizard tracked from (4, 21) to (3, 18) after Ryley had already poisoned that tile band at 2:11.
+- clock 1:36-1:32: he characterises the whole opposing deck by it — "This guy's a weird off-meta wizard hog rider deck... his wizard monk pushes get a lot of value, but I do think that if we attack properly and mess up his cycle, then we could be in a good spot."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

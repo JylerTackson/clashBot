@@ -87,6 +87,41 @@ Not specified on source page
 - Viable Fireball substitute: 1 more Elixir for up to 3x the damage at the same radius, but inconsistent — weak against big pushes and worse on Crown Towers.
 - Strong synergy with Goblin Curse: the Void's high damage makes it much likelier that single units die and convert into Goblins, though this pairing does nothing against buildings.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 0:27 (video 967.0s, tile (1, 22)): cast on the enemy's half on top of his own Electro Giant push, exactly as pre-announced - "I'm definitely going to go for a void here on top of this. He has to go for a skeletons, which is nice. Just take out that firecracker there" (967-972s).
+- overtime clock 1:33-1:25: he talks himself out of a mid-lane Void because of the Mighty Miner - "We can get a nice void down the middle. Actually, no, I can't void down the middle... since he went for that mighty miner if I went for a void, I would have just gotten completely cooked" (1022-1037s); a Void is nonetheless logged at tile (8, 21) at video 1027.7s (HUD 5.0 -> 2.0, deploy label score 1.0), so treat the transcript timing as approximate.
+- overtime clock 0:29 (video 1084.1s, tile (16, 24)): held again, then thrown deep into the enemy right corner - "Can we maybe get a void? Nah, but he has the Evo Firecracker. I'll avoid the evo firecracker" (1083-1087s).
+- he spends the first 90 seconds of this game arguing against the announced Void buff while playing the card: "it is going to be a buff to the void. And this is the one that I fully disagree with the most out of everything in today's video" (827-836s); "they are buffing the void's hit frequency by 2%... from 1.2 to 1 second... it will just complete all of the void damage a lot sooner, which I definitely do think will make the card quite a decent bit better" (881-905s); "void is at the spot where like one change could just make it like absolutely gamebreaking... it will always be niche unless it's absolutely gamebreaking... I am just not an enjoyer of the void" (907-934s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- clock 0:32-0:15 overtime (t=582.6-597.6): the opponent casts Void on Ryley's half at (7, 8), on the cluster around his Bomb Tower, and again at (6, 20) at t=608-616.
+- Commentary at 572-591s, over the top of the opponent's own Void: "they are actually doing a massive rework to the Void. I think this may be the biggest rework in the game this season... The Void Elixir cost, guys, is going from three to five, which is absolutely insane. I've never seen a card go up by two Elixir before, I don't think."
+- On the compensation (601-615s): "the Void is going to be getting some massive buffs, of course, because the hit frequency is going to be from 1 second to 1.2 seconds, which is 20% longer, which is pretty interesting. The target damage is buffed by 105%."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- clock 2:57-2:51: the opponent opens with Void against him (deploy label at tile (6, 20)); Ryley says nothing about the play but spends 615-670s on the card's buff: 'They buffed the Void damage by 105%. The two to four target damage is buffed by 83% and the five target damage is now buffed by 100%. So, they buffed the Void all across the board because there is the three phases of the Void, of course, like the different strikes.'
+- 647-664s, on the Crown Tower numbers: 'The Crown Tower damage will go from 48 to 97 and if there's two targets on the Crown Tower, it will do 25 to 51 damage, which is plus 100% and the five targets it'll do 17 to 35 damage, which is just absolutely crazy. Buffed by 100% all across the board.'
+- 638-642s, his verdict: 'Not that it maybe I don't agree that it needed a buff, but damn is it crazy.' And 667-691s on why it exists: 'although it does take, you know, two more Elixir to play every single time... there's never been a five Elixir spell before and there has been a lot of cards in the game that were only able to be taken out by the six Elixir spells like Rocket and Lightning.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.md):
+- clock 1:33 (t=75): the opponent casts it on Ryley's X-Bow push; not detected, named in commentary only — "He does get the Void down, which is definitely fine by me." His right-lane damage continues uninterrupted through it (opponent tower 2047 -> 1201 over the next four seconds).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Opponent's card. clock 1:57: he is caught out by the cost - "Oh, he has Void. Oh my god, the Void is five elixir now. I forgot" - and relieved it did not kill his Bomb Tower outright.
+- clock 0:45-0:42: plays around it and loses the exchange anyway - "I have to watch out for the Void here for sure. Let's go for the Berserker here" ... "he gets a full Void on me. That sucks." Inferred spell hits then strip 533 HP from his right tower and 498 from his left.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Void (scraped 2026-09-02T02:35:29+00:00)

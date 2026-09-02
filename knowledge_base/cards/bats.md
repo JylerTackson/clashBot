@@ -131,6 +131,137 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - clock 1:34 of overtime (video 439.9s): answered with a Tombstone rather than a spell, to deny them a tank — "let's tombstone down here just to block the bats a bit ... I really just wanted the bats to get off the board and not have to worry about him like maybe tanking for stuff" (441-453s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- Tracked repeatedly on the opponent's side through the match (t=938.9, 1028, 1035, 1048, 1088, 1113, 1119, 1127, 1155) as air chip alongside the Lava Hound, but never named in the commentary; part of the detection is a static false positive sitting at tile [8, 27] for the whole game, so treat the card as probable rather than confirmed.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 0:35 (t=654.7): Bats at (5, 15) into the left-lane Royal Hogs follow-up — the opponent's cheap air answer, in a game where Ryley's only air coverage is Archer Queen and Royal Delivery.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- Opponent's card (Evolved). Mentioned, not answered by a dedicated play: Ryley holds Princess in hand for them — 'we have the Princess ready in case he tries to go for the Evo Bats' (92-94s), 'He might Evo Bats predict' (111s) — and tops up with Ice Spirit when they come (clock 1:47 overtime, 185s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:28 (t=1015.7): Bats at [16, 15] answering the opponent's double Miner (6 elixir spent at t=1014-1015).
+- his only dedicated air answer and a cheap counter to a lone Miner or Musketeer - [6, 4] 2:52, [0, 10] 1:45, [0, 14] 0:48, [6, 10] and [6, 9] in overtime.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:37 and 1:58: Bats at [14,13] / [14,12] in front of the right tower answering the Miner at [13,4] and the advancing right lane, for 2 elixir.
+- clock 1:10 and OT 1:29: Bats dropped deep on his own half ([16,1], [8,5]) against Graveyard skeletons spawning around his King's Tower.
+- clock 0:48 / OT 1:51 / OT 1:13: also used at the left river ([1,15], [6,15], [1,13]) as cheap air cover for the Wall Breakers/Magic Archer chip.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- Opponent's card. Ryley plays around a Bats split before it happens: "princess in the middle just thinking that there was a chance that he could go for the bats on top of this guys" (1137-1141s) and "after he let the princess lock, he would just go for the bat split" (1163-1167s); the tracker sees a five-Bat right-lane wave at 1174-1178s, which he answers with an Ice Spirit at tile (15, 10) (t=1177.5).
+- Deliberately does not spend the Ice Spirit on a later Bats wave: "I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker" (1258-1263s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.5.md):
+- The opponent holds Evolved Bats and Ryley shuts them down with Electro Spirit on repeat — "I have to watch out for Evo Bats cuz he does have Evo Bats coming up" (977-980s), then "this guy is terrified of using his bats" (1007-1010s) and "Wall breakers, E-Spirit again. So, he just can't go for the bats" (1090-1092s).
+- Confirmed in the deck at clock 0:19 after he had talked himself out of it — "I don't think he has them in his deck actually" (983s) followed by "we took out the Evo Bats too. It's good to know that he has them" (1022-1024s); the Evolution tracks appear at clock 0:19 and 0:42.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.6.md):
+- clock 1:39-1:33 (t=1210-1216): four Bats cross the left lane with three of them within 2 s of his tower and he deliberately spends nothing — "Okay, good bats by him, but at least I won't have to worry about them".
+- clock 1:11-1:05 (t=1239-1244): Bats are what he is trying to bait with Wall Breakers ("Maybe we force out the bats, but even if I don't, I don't really care") and, when they do come, Electro Spirit is the answer he names ("Let's e-spirit for the bats").
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:39 (t=858.9) Evolved Bats down the left lane: "I don't know what this guy has which is bats to be honest. I feel like bats are not really a popular card right now" (861-866s).
+- clock 1:49 (t=912s) after the all-in fizzled: "That was a very bad set of bats. To be fair, I guess he had bats and cycle not goblin gang" (911-914s).
+- clock 0:50 (t=969.0) Evolved Bats at [15, 21] into the right lane, answered by Furnace plus Electro Spirit; at clock 0:32 he pre-empts the next set with an Electro Spirit at [12, 12] — "in case he bats. Beautiful prediction right there" (989-993s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- The opponent's Evo Bats are why his Executioner is held rather than cycled: "we could go for the Executioner at the bridge if he goes for the Bats" (clock 2:16, t=800) and "Axe here. Make sure we take these out. Never really risking anything" (clock 1:22, t=854).
+- clock 1:16 (t=858-862): on how hard the evolved version is to clear even after a full Executioner axe - "Damn, those Bats are like on a mission to survive, honestly. That's kind of crazy."
+- clock 1:32 overtime (t=964-969): Tornado plus Ice Spirit is his cheap answer, and it is only partial - "let's tornado ice spirit here and we should take out the bats decently", then "He's going to have two bats alive."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.2.md):
+- Opponent card (Evolution). clock unknown: Ryley builds three layers against it — Fire Spirit ("just to grab those bats", 402s), Bomb Tower ("If he goes for the Evo bats, we have the fire spirit", 462s) and low Magic Archers ("We need to take out these bats", 594s) — and still loses the tower race to it.
+- clock unknown (video 632-636s): the losing read, stated by him — "I think we're going to lose our tower to the bats in the opposite lane, to be honest. We can[not] really stop them." His right tower falls 2862 (630s) -> 1562 (634s) -> 652 (640s).
+- clock unknown (video 658s): closing verdict on the game — "we took too much bats damage, guys. That was close, though."
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 0:31 (t=300.3): the only Bats track of the game, inside the opponent's two-lane push; it is one of the reasons the air-hitting Royal Delivery and Tesla carry the defence. Detector-sourced and flagged "spawned on own half", so the reading is soft.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.md):
+- clock 1:10: opponent's Evo Bats; he tracks them in hand long before they appear — 'I know he has the Evo bats in hand, so we have to be very, very mindful of that' (606-608s), and again 'I was waiting for him to go for the bats, but for some reason he seemed to never go for them' (617-620s).
+- clock 0:53-0:44: plays two cards purely to pre-empt them — Magic Archer at (5, 12) ('He might try to get a nice set of Evo bats here though, so I'm going to go for the magic archer here to take this out', 621-625s) and a held Fire Spirit ('I'm going to wait a second cuz he might try to bats. Yep, there it is', 630-631s). Evo Bats are tracked from t=636.6.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- clock 1:30: the Evolved Bats are held as a reactive answer rather than cycled — "We have the Evo bats ready for anything that he puts out. Let's evo bats here on the goblins just to get a little bit of value." (The HUD read this drop as "Goblinstein"; the -2 elixir matches Bats, not a 5-cost card.)
+- clock 2:08 and 0:24: bridge placements at [1, 15] and [6, 14], both called — "Let's go for the bats here at the bridge" and "Let's go for the evil [Evo] bats here."
+- clock 1:24: planned as a shield for the opponent's air swarm rather than as damage — "Those bats will actually tank for the minions as well." Also used defensively at [14, 11] (2:40), [3, 11] (1:05) and [13, 15] (0:42).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:42: Bats at (1, 13) behind his own left tower as cheap defensive filler while he cycles.
+- clock 1:19: Bats added to the right-lane push as its air support — "Let's go for the evil bats as well" (the arena tracker reads them as the evolution), and at 1:12 he pops Savage Survival specifically to protect them: "it will also help support the evil bats as well."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:48: Evo Bats at (14, 14) played offensively as a spell bait - "I think I need to go for the bats as well. Evo bats immediately force him to go for the [rage] and then we can go for the spears." The opponent mistimes the Rage ("he didn't get the rage down in time. That's huge") and Life Leech carries them: enemy right tower 4409 -> 2589 between clock 1:34 and 1:28, with "Damn, look at how much those bats are healing."
+- clock 1:07 and 0:35: the same card as a 2-elixir defensive blocker in the left lane, at (0, 11) against the Evo Skeletons wave and at (3, 14) alongside The Log against Skeleton King.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- clock 1:57: the Miner's usual partner on offence — Bats at the right bridge tile [16, 15] right after Miner at [14, 27], played specifically because the opponent had spent his Giant Snowball (t=580-583).
+- clock 0:51-0:42: Bats at [14, 14] then [1, 15] in a triple-elixir rotation with Miner and Berserker — "we can evo bats though. The spirit won't work. Let's go for the bats miner here" (t=646-647).
+- clock 0:18: defensive use, Bats at [3, 14] to jam the bridge with the Berserker while the Bomb Tower goes down behind the tower — "Bats berserker to block the bridge. Then we bomb tower the back" (t=681-682).
+- overtime (t=703-705): he decides against holding the Evolution for them — "then we can evo bats late but not right away. Actually, let's not evo bats at all cuz he went for the early furnace. That's good for us."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- t=738.6 (clock 2:50, elixir 9.0 -> 7.0): opens the game with a back split — "just going to split my bats here in the back" (t=738-740).
+- Paired with the Berserker against an evolved Battle Ram at t=841.8 [14, 14] (clock 1:07) — "we could go for the berserker here, then evil bats as well" (t=843) — and with the Miner as an opposite-lane chip package at t=899.9 [16, 14].
+- Mid-board anti-air and filler through overtime: t=921.9 [3, 14] ("let's bats here", t=922), t=938.9 [10, 14], t=974.0 [14, 14] ("let's go for the bats here. Then we bomb tower", t=969-971), t=986.0 [8, 14] ("up top we can evo bats", t=986) and t=1026.0 [6, 14]. Evolved.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- clock 1:48 (deploy label at [16, 14], logged to the opponent but claimed in his own commentary) and clock 1:05 (HUD 6 -> 4, [17, 21]): both times as Miner support on offence - "I will go for the Miner plus Evo Bats as well. He's going to eat these, but he can't eat the rest of this, man. He can't eat the Bats. Um, oh yes, he can."
+- He runs the Evolution ('Evo Bats'); in this game they are chip support rather than an air defence.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:30: dropped at [16, 14] behind the bridge Berserker as the cheap follow-up that the opponent's ground answers cannot touch.
+- clock 1:53: the Miner's standard partner in the opposite lane at [1, 15], repeated at 0:44 and again in overtime at [0, 13].
+- clock 0:47: deliberately held back as spell bait insurance, then played anyway one rotation later — "I'm not going to bat yet though. I'm going to wait cuz he might go for the bait... Okay, let's definitely bats here anyways just to be annoying."
+- clock 0:28: used as the instant answer to an Ice Wizard / Skeletons counterpush — "Let's bats instantly."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m1.md):
+- clock 0:35 (t=1512.5): Bats from the HUD for 2 (elixir 6->4) as the cheap defensive filler immediately ahead of the Fire Spirit and Ice Spirit, with an unidentified unit and a Night Witch already tracked on his half. No commentary specific to the card.
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

@@ -120,6 +120,40 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.m
 - OT 0:43: answered with a Bandit when it walked at his tower — "Bandit here on the Executioner so we don't lose our tower." He also calls a mis-timed one by the opponent at OT 0:58: "Okay, bad Executioner."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.3.md):
+- Opponent card, not his: labels at [13, 16] (t=894.9) and [8, 12] (t=981.0, on Ryley's half). It is the only enemy card he reacts to on air — "Oh my god, that executioner's going stupid" (t=948) — spoken while his left tower is being ground from 4073 down to 1900.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- Mentioned only, not played (t=1105-1140): projectile range 7.5 -> 7 alongside the Bowler - 'the Executioner and the Bowler would just end up becoming your win condition. So hopefully with this they are now more used for their purpose instead of just being extremely broken.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:12 (t=803.6): pushes the Executioner up to (2,15) against a four-Bat swarm after saying the trigger out loud at t=800 - "we could go for the Executioner at the bridge if he goes for the Bats."
+- clock 1:22 (t=853.7): Executioner at (3,14) into Evo Bats - "Axe here. Make sure we take these out. Never really risking anything."
+- clock 1:19 overtime (t=970.8): Executioner at (2,8) as the anti-Valkyrie card - "Forced out the Valkyrie with the XE. Then we can go for another executioner here. Let's take out the Valkyrie then we can go for the goblins plus log."
+- clock 0:26 overtime (t=1030): a second Executioner used purely as bridge denial - "Let's XE again just to make it so he can't ever cross the bridge."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:start -->
+Match [#1 TOP Ladder Push with Log Bait 🌎🏆](../matches/VyADrwRPJz8-m0.2.md):
+- clock 2:43: identified with its Evolution on the opponent's first cycle - "Okay, he has the Evo Executioner" (435s) - and treated as the reason to keep a spirit spare: "Just make sure that we distract that one shot from the executioner" (505-508s).
+- clock 0:03: answered with Bomb Tower splash rather than a dedicated counter - "Bomb tower should finish off the rest of that executioner" (594-596s); paired with the Ronin it is the push he fears most (577-580s).
+<!-- creator-insights:ryleycr1:VyADrwRPJz8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 2:16 and OT 0:33: treated as an Elite Barbarians target on both defence and offence — "at least my e-barbs are going to help take out that executioner" (t=719-722) and, in overtime, an Elite Barbarians label at [14, 1] onto one that crossed: "We have to e-barbs here on the exe" (t=945). He also counts it as one of the two cards his bridge pressure is designed to drain (t=811-814).
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:27-2:18: the opponent's first real threat, tracked from (5, 21) down to (3, 12) in Ryley's left lane; he answers with The Log at (3, 14) and then Berserker on the same tile rather than letting it reach the tower. No commentary on it.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

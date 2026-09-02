@@ -138,6 +138,100 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:22: Evolved Cannon timed for the pups and the support, not the Hound itself — "we need to go for the Evo cannon just to hit the Lava Pup — or not the Lava Pups, the skeleton dragons and the Lava Hound."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 0:47 onward: cycled at the back roughly every 40 s (t=999, 1041, 1054, 1079, 1121) as the opponent's tank. Ryley never answers it directly - he answers the Balloon and the support behind it.
+- clock 0:17: the reason his King Tower activation fails - "him going for the zap like that made it so the lava hound like wasn't tanking for the tower which made the balloon not have enough HP to activate the king."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- opponent card, clock 1:45 (t=66.1s at [2, 16], elixir 10.0 to 3.0): their one big commit of the game. Ryley built no dedicated air defence around it — Dart Goblin plus the Goblin Gang spear goblins were the whole answer — and used the elixir window it opened to keep his Berserker/Elite Barbarians pressure going (Goblin Gang [14, 5] and The Log [14, 10] at t=72-74s were spent on the ground follow-up instead).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Opponent's win condition in this match (clock 1:33, tile (2, 19), then tracked down the left lane through clock 1:10). Ryley refuses to defend it properly while the opponent's Heroic Mega Minion is alive — "I don't really want to defend this push until the hero mega minion gets taken out" (clock ~1:26).
+- clock 1:15: with a two-tower lead he answers the Hound push with Zappies alone rather than a full defence — "there's no need to be greedy and try to like get a bunch of extra value out of this". His left tower is ground 4738 -> 150 HP over the rest of the game but never falls.
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 1:11: the opponent's Lava Hound at tile [1, 25]. Ryley called it one play early - "I wouldn't be surprised if he Lava's the back" (clock 1:19) - and he answers it with a centred Inferno Tower at clock 0:53, then Goblin Gang and a Knight for the pups.
+- clock 1:53: his standing read on the archetype - "I don't even know why he went Lava first play as well because I feel like with these Lava Tombstone decks you usually don't Lava first play."
+- clock 1:29: "Dude, Lava Hound players are so funny sometimes, man. I try not to be toxic, but like that was just way too funny to not laugh at."
+- clock 1:13-1:10: the reason the Hound is harmless here - "he doesn't even have any support cards. He used his balloon already."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
+- t=1799.8 (clock unreadable, CRL broadcast has no readable clock): one Lava Hound, deploy label at tile (8, 23), elixir 8.1 -> 1.1 — the whole game plan rather than a push piece, into an opponent with no anti-air. Ryley at 1669-1683s: "I decided to go for Lava Hound because I did feel like Lava Hound would be pretty like unpredictable for me. I hadn't used a single Lava Hound deck in all of CRL this month... I didn't think that he would end up countering it."
+- t≈1789 (clock unreadable): with the Hound push running he stops defending seriously — "I wasn't trying like crazy hard to defend this because I wanted to get the three crown cuz I knew that Ian's deck had no air defense, which was very like lucky by me."
+- t≈1882-1894 (clock unreadable): he names the Lava deck's blind spot while a Goblin Drill sits in his back — "in this lava deck, even though lava does counter drill, no air defense really hard, I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that. So there was a real possibility that I could choke the game if I wasn't careful."
+- t=1919.9-1921 (clock unreadable): he Fireballs a Berserker specifically so the Hound's death-spawn can connect — "I fireballed that berserker just trying to get some lava pu[p] spits on the tower."
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
+- t=2264-2288 (clock unreadable): the opponent's only clean Hound push, tracked from [17, 25] down to [16, 10] with lava pups at t=2294; Ryley's right tower goes 3052 -> ~1720 while he answers with a second Furnace and Goblins.
+- t=2337-2372 (clock unreadable): his whole plan is to make the Hound unaffordable — "he couldn't really lava hound because I had the evo piggies in cycle", "I don't want to let him get many lava hound pushes, mainly lava pushes with the Valkyrie behind it" (t=2357), "barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (t=2372).
+- t=2390 (clock unreadable): second Hound at [16, 26] -> [16, 21], which he defends with Goblin Hut, Furnace and the pre-placed Dark Prince — "here is when I knew he had an opportunity to go in for a lava, but otherwise I did a really good job at pressuring throughout the game" (t=2380).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- mentioned, not seen (t=375s): ruled out while reading the opponent's deck — "I don't even think that he has a lava hound. I think he just straight up has that stupid spam deck."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 2:04 (t=560.6) onward: the opponent's win condition, entering the left lane at tiles [0-1, 17-24] five separate times (t=560.6, 608.6, 612.6, 648.6, 652.7). Ryley never answers it with a building for the first two and a half minutes and simply accepts the chip — his left tower goes 4858 -> 1868 HP over the game.
+- clock 1:54 (t=573): his stated answer is long-range chip on the tank plus swarm on the payload — "Just go for the Dark Goblin here to start chipping down this Lava", then "Let's just go for the Berserker here to distract those Lava Pups. We'll fully counter those nicely" (t=591-595).
+- clock 1:07 (t=620-623): against the Hound's swipe he prefers kiting to blocking — "I still think I need to kite this away to be honest cuz I don't want to take the swipe on the tower".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 2:36-2:02: read from the Tombstone before it ever appears, and it dictates his opening — "it looks like he has Lava Hound, and I typically want to wait for them to go for their Lava Hound" (305-309s); a back-line tank into it is a wasted card, "he can just Lava into it, and then he can just easily like defend from there" (324-330s).
+- clock 0:28-0:03: the actual Lava Hound push arrives at (4, 13) with Balloon and pups and takes his left tower 4781 -> 2115; he answers with Berserker, Heal Spirit, Fireball, Minions and Mother Witch rather than a big body, having already noted the support was spent — "if he goes for the Lava, he has no support cards for it, only a Balloon" (432-435s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- mentioned only: at t=584 he briefly considers the opponent might be on Lava Hound before rejecting it — 'it kind of looks like a Lava Hound deck. I mean, I guess it could be a Lava Hound deck, but I swear this guy normally plays with bridge spam'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.2.md):
+- clock 1:53: opponent drops Lava Hound in the back corner (17, 26); Ryley had predicted it from the card list at 2:35 - "looks like Lava Hound" and "I had a feeling there was a chance he might go for the lava hound in the back as well."
+- clock 2:16: he plays the bridge freely because a Hound cannot be used defensively - "He can't really lava right now either. Like he can't lava the bridge to protect or anything like that."
+- clock 1:14: the Hound push plus Skeleton Dragons take his right tower from 3583 to 584 and activate his King; his stated goal becomes "just to not get three crowned cuz being three crowned is actually a very big worry in this type of situation."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 3 fragment (t=798-842): deployed at t=811.8 [16, 1] behind the tower. The pick is about unpredictability, not the matchup - "I decided to go for Lava Hound because I did feel like Lava Hound would be pretty unpredictable... I hadn't used a single Lava Hound deck in all of CRL this month" (796-807s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.2.md):
+- t=873.5 / 929.9 / 963.0 / 1020.0 (no clock readable in this video): the win condition of his CRL qualifier list, cycled four times in 150 s — labels at [8, 21], [16, 9] and [16, 14] plus three matching 6-elixir HUD drops. He swaps lanes once the left crown tower is down, sending the later Hounds up the right at [16, 9] and [16, 14].
+- t=920: the whole reason he picked the air plan — 'I wanted to get the three crown cuz I knew that Ian's deck had no air defense, which was very like lucky by me.' Every attacking card he plays behind the Hound is also air (Skeleton Dragons, Inferno Dragon).
+- t=1009-1021: he names the Hound deck's blind spot in the same breath — 'in this uh lava deck, even though lava does counter drill... I don't actually have any drill defense. Like I don't have a Valkyrie or anything like that. So there was a real possibility that I could choke the game if I wasn't careful.'
+- t=1052: the pups finish the job, not the Hound — 'I firealled that berserker just trying to get some lava pup spits on the tower.'
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.4.md):
+- video t=1391.4 (17,24) and t=1513.5 (17,26) (opponent's card): the only Hound push that landed came in the first 40 s of the game, dropping Ryley's right tower from 3052 into the ~720-1720 band by t=1428. He then prevented the rest by pressuring rather than defending - "I was just constantly spamming him because I don't want to let him get many lava hound pushes, mainly lava pushes with the Valkyrie behind it because I know that the Valkyrie ability can be crazy" (1482-1492s).
+- video t=1464-1470: the reason the second Hound never became a push - "he couldn't really lava hound because I had the evo piggies in cycle and he still had to deal with the furnace." He flags the one window he gave up at 1510-1513s: "here is when I knew he had an opportunity to go in for a lava, but otherwise I did a really good job at pressuring throughout the game."
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 1:12 (t=260-262): mentioned only, as the matchup where his headline card falls apart — "in a lot of the match ups like against say a Lava Hound deck, Ronin is absolutely terrible."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

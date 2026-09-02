@@ -135,6 +135,117 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - Mentioned, not played (the opponent's big spell). At overtime clock 1:04 he factors it into a bridge push — "I have to watch out for a rocket barrel" (415-419s) — and at overtime clock 0:16 he discounts it as a losing condition: "He needs more than one rocket, guys, so he can't just rocket us away. As long as we save up for defense" (463-468s).
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.0.md):
+- clock 0:50: spent defensively on his own half at tile [14, 11] rather than saved for a tower — "I think I'm going to just rocket here on top of these e-barbs. Man, they're way too scary to actually think about dealing with in any other way" (122-128s).
+- clock 0:03: the closer, cast at [12, 23] on the opponent's half with the enemy left tower dropping 3686 -> 2547 HP over the next four seconds — "we can just rocket to finish him off. Unless he spells his way... Okay, well, just rocket cuz that princess locked in" (168-174s).
+- clock 2:10: named as one of the two spell win conditions that replaced the spirits in the post-nerf hyper bait list (42-46s).
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.0.md):
+- clock 1:26 overtime: first Rocket (deploy label [5, 21]) only after troop pressure stalls — 'I think I just have to rocket instead to be honest. I can't really break through much anymore' (207-209s).
+- clock 0:42 and 0:17 overtime: two more Rockets at [12, 24] onto the enemy right tower — 'we can start rocket cycling on the right side. I would rather rocket cycle the opposite lane anyways' (248-251s); that lane is the one that ends the game.
+- clock 0:11 overtime: he plans around not having it — 'Barrel here as well cuz we're not going to be able to rocket again' (282-285s).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 0:25: Rocket at tile (13, 27) fired on sight at the opponent's Evolution Witch rather than saved for the tower — "I will just rocket that witch immediately. I do not want to play any games with an evo witch, man. That card is just way too powerful." It is the only Rocket of the game and the only card he spends more than 5 elixir on.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.2.md):
+- Held all game (visible in the HUD hand from clock 2:52 through the middle game) and cast exactly once, overtime 0:03 (t=805.8) at tile [12, 24] as the closer — "then we can go for a rocket, guys, and we actually won this game. That was such good offense, man." Enemy right tower 1868 -> 1322 across the next frames.
+- He explicitly contrasts this with how the deck usually wins: "I didn't even have to like do really good defense in rocket cycle. I just made really nice offense" (t=808-812).
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.3.md):
+- clock 0:23 (t=963.0, tile [3, 10]): used defensively on his OWN half to erase a Hog Rider + Firecracker push - "He's definitely going to go for another Hog Rider though. I'm going to have to rocket this for sure. Yep, let's just go for the rocket here." He follows it with The Log as insurance: "Go for the log on the Firecracker just in case I missed it. Yep, great protection right there."
+- OT 0:59 (t=1048.0, tile [12, 17]): the first Rocket at the tower, deliberately sequenced behind one more defence - "I think I'm going to rocket the tower here. Let's go for the inferno tower. Now not yet. I think I need to do one more defensive sequence first. Okay, let's rocket here."
+- OT 0:37 (t=1069.1, tile [16, 24]): forced tower Rocket once the barrels stop connecting - "We can get a bit of damage on the tower. Now we get nothing. I have to rocket though anyways otherwise we lose."
+- OT 0:22-0:05 (t=1085.1, 1098.1, 1099.1, 1102.1 at [12, 22], [11, 18], [12, 24], [12, 23]): the closing sequence, paired with a barrel to strip the opponent's Log first - "Sorry, the rocket. Let's log this" and "I'm going to barrel here just to force him to use his log and then I can rocket him maybe. Rocket and then we log on defense."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 0:47: a deploy label puts a Rocket at tile [3, 8] on his own half - on the Graveyard/Barbarians rather than on a tower - but his commentary two seconds later is "rocket here if need be. Actually, no, I don't even need a rocket," so the two signals conflict and only the label is hard evidence. Either way he treats Rocket as the held answer to the opponent's support, not as a cycle card.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.1.md):
+- Mentioned only, not played by either side (492-509s): "There is the Rocket travel speed getting a buff. It will travel 40% quicker. And the Rocket hit speed will be longer though. So, guys, the Rockets will take 5 seconds now instead of 3.5 seconds. So, you'll get the Rockets traveling quicker, but... they will be less frequent."
+- Mentioned only, why he likes it (518-529s): "I did think that it was kind of stupid that it was just all about how many Rockets that you can get, you know, and maybe some cheese plays, but not really like actually anything to do with like the card itself. You were just trying to get lucky before."
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — named at 678-687s alongside Lightning as the six-Elixir spells that used to be the only answers to certain units, the role the buffed 5-Elixir Void is now meant to partly take over.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
+- t=1332.5 (clock unreadable): one confirmed cast, a clean HUD 10 -> 4 step (a 'Rocke' deploy label at tile (16, 28) was also read around t=1308.3).
+- Hovers the Rocket as a bluff while not actually holding it: "That's why I had my rocket hovered for a second. It looked stupid cuz why would I have a rocket? Which I didn't. But, you know, it's just to... have it in my head that I didn't know what he was going to do. just like a little mind trick to tell myself that I got this" (1310-1320s).
+- Names "the rocket cycle" alongside his Princess stack as the reason the opponent could not come back (1358-1363s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
+- Mentioned, not played by Ryley — the card that broke his game plan when he spotted it: "there is when I realized he had a rocket, which was kind of unfortunate. My whole like plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (1509-1516s).
+- Being up a Rocket is his win signal — "right now, I was up rocket. So, here is when I knew that I had probably won" (1633-1637s) — and he counts the Rocket-on-tower as elixir he made Ian spend: "not only did he have to defend and distract, but he also had to rocket my tower" (1656-1660s).
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:start -->
+Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
+- t=2081.6 (elixir 10.0 -> 4.0): Rockets a Giant Skeleton on defence and defends the risk out loud — "I knew that this might be a little bit risky, but I did think that I would be able to defend, but I also knew that like sometimes I need to do plays like that otherwise my hand is just going to be way too awkward to try and defend here".
+- t=2196-2207: declines the Rocket on a back-placed Giant Skeleton (no 6-elixir drop in the window) and calls it the losing decision — "I got scared of rocketing, man. I just should have rocketed. And I don't know why I didn't... I chose not to because of the like I thought I could just rocket at the end".
+- t=1950-1957: names the whole list after this card — "I started off here with this rocket cycle deck... I just felt like any matchup I trust my defense, I can win".
+- t=2228-2232: forced into it far too late — "I had to rocket, but on top of having to rocket, I still had to defend everything".
+<!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Opponent's card, named seven times but never seen landing; the whole gameplan is built around it. clock 2:07-1:55: "I'm assuming he has a poison in this deck, but we actually — no, he has a rocket instead... he has a rocket because he has the Evo Cannon. He should have a rocket, actually. Okay, that's going to change stuff a lot. I'm going to be able to abuse my furnace really, really hard in this match-up now" — i.e. a Rocket opponent, unlike a Poison opponent, cannot punish a centrally placed Furnace efficiently.
+- Overtime 1:01 and 0:23: he treats Rocket cycle as the only way he loses — "we have to be careful of the rocket cycling in triple elixir cuz we're not actually up all that much, so we can easily, easily lose this game", then "I'm just not letting him get any rockets on our tower. As long as he doesn't get rockets on our tower, we have a very good chance to win this."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- Named but never played in this game: at clock 0:52 overtime (t=1005), with the ground defence stalemated and the opposing Hero Valkyrie surviving everything, he states the plan - "It's fine. I think I'm going to start rocket cycling." The game ended (t=1051, "Very nice win") before he cast one.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.1.md):
+- Game 2, Ian's spell, identified mid-game at t≈638 - "there is when I realized he had a rocket, which was kind of unfortunate. My whole plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board" (637-646s). The upside he takes from it: Rocket instead of Fireball freed him from spell-dodging Tombstone placements (646-657s), and having it spent on his tower at the end confirmed the win (784-791s).
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:start -->
+Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTBlYLlg-m0.3.md):
+- t=1209.2-1210.9 (elixir 9.0 -> 4.0, label in column 4): Rockets a Giant Skeleton on defence and justifies it as hand management — "I rocketed the giant skelly as well. I knew that this might be a little bit risky, but I did think that I would be able to defend, but I also knew that like sometimes I need to do plays like that otherwise my hand is just going to be way too awkward to try and defend here".
+- t=1325.3-1338 (Rocket label fires but elixir only moves 8 -> 6, i.e. no cast) with an opponent Giant Skeleton back-placed at (12, 21): the declined Rocket that loses him the game — "I got scared of rocketing, man. I just should have rocketed and I don't know why I didn't... I thought I could just rocket at the end. Um, but you know, I couldn't take the decision back".
+<!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 1:39 (t=170.2): the setup half of a two-spell prediction, cast before the Tornado goes down ahead of the Firecracker — "Wait, I'm going to rocket and then I'm going to pre-nado the firecracker. Yep, knew it" (t=168-171). The deploy label at tile [4,16] is logged as an opponent play; the commentary attributes it to Ryley.
+- clock 2:12 (t=136.1, tile [7,28]): an own Rocket onto the enemy back line during the same defensive clip, unnarrated.
+- clock 0:47 to 0:27 (t=11-21): in the opening clip the Rocket is the OPPONENT's card, and the whole play is spacing around it — "he can't go for the rocket plus NATO here ... I'm going to cannon like this in case he has the rocket in the middle."
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.5.md):
+- Not played by Ryley — the opponent's finisher, named 16 times. He treats forcing it as the win condition of the match-up: 'if I don't have a comfortable lead and make him Rocket, I have no chance to win cuz obviously he has just as quick of a cycle, if not a quicker cycle than me. But then, of course, he has the Rocket and the Miner for my tower' (clock 1:53-1:43).
+- clock 1:21-1:11: his Fireball chip is designed to provoke it — 'after you get a lot of Fireball damage, they do usually get upset and they try to attack with the Rocket or they try to defend without the Rocket ... Yep, see right there. Like I said, he tries to attack with the Rocket' (his right tower loses 546 HP to an unidentified spell at t=1148).
+- OT 0:57: he plays around the Rocket rather than avoiding it — 'Let's expo predicting his rocket', and at clock 0:18 'He's going to rocket his [X-Bow] up. Okay, we can just Fireball again ... eventually there will be a point where he rockets us again, but this time we just have to protect our X-Bow well'.
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:start -->
+Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
+- t=639s: opponent Rocket at tile [7, 14] on Ryley's half, 44 s after he laid the Barbarian Hut and 19 s after the Tombstone went next to it — the standard punish for stacking two spawner buildings in one pocket.
+<!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

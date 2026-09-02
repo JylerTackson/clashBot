@@ -143,6 +143,110 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - clock OT 1:29 (t=204-216): the stated rule — "goblin stein is just so strong against graveyard whenever they don't have their Evo snowball in cycle because when they don't have their Evo snowball, they're just unable to move like the length of the goblin stein and it just takes out the whole graveyard pretty much every time."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- OT 0:48 (t=461-463): mentioned only, and as the example of what Electro Spirit ruins — "it's actually such an annoying card to go up against when you know you have graveyard even bait." Not played by Ryley; a graveyard was tracked on his right tower at t=442-444 but that is a single-source detector read.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, one arrival at clock 1:20 of overtime (video 1033.0s, tile (11, 10), arena detection at medium confidence); his right tower fell from 4048 to 2685 in the four seconds that followed. Ryley does not name it - his commentary in that window is about the Mighty Miner instead.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.1.md):
+- clock 1:39 and 0:31: two Graveyards land on Ryley's half, both answered with a low Inferno Tower plus Log rather than a spell; the second is met with "Let's go for the inferno tower down low. This inferno will take out literally everything."
+- overtime 1:38: he drops his Evo Princess inside the Graveyard as a two-in-one — "the Evo princess all the way inside of the graveyard cuz it's going to live, but it's also going to defend" — and criticises the opponent for sending it untanked at 458s: "he didn't even tank his graveyard, I mean, what the heck?"
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- clock 0:53: a medium-confidence read of a Graveyard on Ryley's half at tile [8, 2], seconds before he places Inferno Tower at [8, 9] and Princess at [8, 5]. He never names it, so this is observation only and may be a mis-detection.
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.0.md):
+- Opponent play at 1:57 ([9, 3]) and again at 0:03 ([8, 3]), both in front of Ryley's King's Tower and both inside his Bomb Tower's cover.
+- Both are answered within two seconds by a Bomb Tower rebuild (1:57, elixir 9 -> 5) or a Magic Archer, never by a spell.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.4.md):
+- clock 2:25 (t=1020) at [7, 0] and clock 1:03 (t=1101.1) at [9, 1], both on Ryley's left tower; both are beaten by Bomb Tower plus Fire Spirit and Archers, with no tower HP change recorded on the first.
+- t=1090, on the Evo Valkyrie tornado-damage nerf: 'graveyard gets a pretty big indirect buff there because of that.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m1.md):
+- clock 2:27, 0:57, 0:10 and OT 1:42: the opponent drops Graveyard on Ryley's half at [8,2]/[8,1] four times; Ryley answers with Bats deep at [16,1]/[8,5] and the splash of the centred Bomb Tower, and never loses a meaningful chunk of tower to it.
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- Mentioned, not seen: while deciding what the opponent's Giant Skeleton implies, t=52 - "I guess there's a chance he has like a graveyard as well".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Opponent card. Three casts on Ryley's left tower at tiles [8, 0] and [8, 2] (t=134.1 clock 0:39, t=182.2 and t=218.2 in overtime); it is the main reason his left tower is ground from 3052 to 1023.
+- His answer is always the same pre-placed stack rather than a reaction: Bomb Tower on the central tile plus Valkyrie or Tornado, e.g. Valkyrie [9, 10] and Bomb Tower [8, 10] going down at t=130-132, two seconds before the Graveyard lands.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:start -->
+Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
+- clock 0:37 (t=102.1, tile [9,6]): the opponent drops a Graveyard on Ryley's half; his answer is to reposition rather than spend — "I think I need to step back here just to not get vines. Oh my god, I stepped out of the vines. I literally called it" (t=104-109). The 2024-era detector has no Vines class, so this label may be the Vines he names.
+<!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:start -->
+Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.md):
+- clock 2:29 (t=763-771): read from the first cycle, and used as an argument for early pressure — "It looks like he has a Graveyard deck, but going in early against Graveyard is never a bad thing. You kind of get a feel for their exact variation and their cycle as well, cuz depending on their version and their cycle, it can be a very different game every single time."
+- clock 1:08 (t=844): Graveyard cast on Ryley's half at [8, 6]; he answers with a high Tesla at [9, 14] plus cheap troops and his left tower holds at 4586 through clock 1:03.
+- overtime 1:04 (t~970): second Graveyard answered with 1-elixir Skeletons placed inside the spell — "Skellies here inside for the graveyard" (970-971s).
+<!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.3.md):
+- t=790.8s: the opponent's Graveyard was tracked on Ryley's half at (8, 2) and his right tower lost roughly 1400 HP over t=796-800s; he made no separate answer for it and no commentary line mentions it, staying focused on the Electro Giant lane.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.5.md):
+- Opponent card, seen only by the unit detector at tile (7,2) on Ryley's side at t=1127s; he answers it by cycling Bomb Tower early and centrally at (7,9) - "Let's cycle our Bomb Tower here early". Not named in the commentary, so the read is detector-only.
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:start -->
+Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.md):
+- clock 1:17 and 0:27: Ryley predicts the card from the opponent's clan name before it appears — "this guy is in a graveyard verse clan so I'm going to go out on a limb here and say this guy has graveyard. If he's not, this guy's definitely fake" (t=688-693) — and answers each one with 3 elixir of chaff: Skeletons at [9, 12] plus an Ice Golem kite (t=779-781), "He might go for a graveyard here" (t=829-831).
+- clock 1:10: he chooses to eat the full Graveyard rather than over-defend, trading tower HP for a king activation — "I'm going to eat all of this graveyard damage, guys, just to activate the king tower off of this bowler. It's definitely worth it, I think, unless that ice golem just perfectly kites it forever" (t=787-793). His left tower goes 4858 -> 3200 in that window and the activation never lands.
+<!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.md):
+- clock 0:48 (t=450.4, tracked at [9, 4] on Ryley's side): the opponent's second win condition arrives during the triple-elixir Golem wave. Ryley does not name it in the commentary; his response is the same generic package he uses for everything else — Tesla at [9, 10], Skeletons at [8, 9] and Royal Delivery at [2, 13] between clock 0:51 and 0:47.
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.md):
+- Opponent win condition, and Ryley calls it off the opening before it appears — "Okay, bowler and zappies. Yo, this could be graveyard freeze, actually. Graveyard freeze would be interesting" (t=1376-1380). Cast at t=1383.4 on his right tower (which loses 60 HP) and again at t=1461.5 at [6, 0] on the left.
+- clock 1:12 (t=1461.5): the second Graveyard is answered with the late Tesla he had been saving for the King activation, so one card handles the defence and the activation together (t=1460-1465).
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:12 and 0:54: the opponent drops Graveyard on Ryley's half (tracked at (9, 2) then (8, 3)) behind the Sparky, twice; Ryley answers the second one by stacking cheap cards - Cannon at (8, 10), Skeletons at (11, 14) and (6, 10), Firecracker at (9, 6) in front of the King tower and finally The Log - rather than with one big answer: "I think we just saved our tower here. Nice, what a defense."
+- clock 2:24: he frames the matchup against his previous game - "We just beat a giant graveyard player, but feel like this one will probably be a little bit more difficult with him having the hero mega minion."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:02: mentioned only, never played by either side — Ryley holds Spear Goblins for it and then dismisses the idea: "We have spear goblins ready if he goes for the graveyard. I don't think he will though in this match up."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=24.0s [8, 3] (clock unknown — the clock OCR failed for this whole video) and again around t=114 ("Okay, graveyards, too"): the one thing this deck never solved in the game — his right tower went 4858 → 787 and his king tower was opened and ground to 1650 while he accepted the chip on purpose: "Just making sure that we're minimizing damage, but not also like defending poorly" (t=196-200).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

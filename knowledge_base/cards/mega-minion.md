@@ -116,6 +116,60 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:24: he blames it for nearly losing the game — "I think we actually might just still get cooked because of the mega minion... Dude, the mega minion is so broken against us."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:start -->
+Match [TOP 5 Decks in Clash Royale for the New Meta](../matches/5bU83eIW8Yg-m0.1.md):
+- Opponent's card here is the Heroic Mega Minion, and Ryley treats its Wounding Warp teleport as the reason to delay defending (clock ~1:26): "I don't really want to defend this push until the hero mega minion gets taken out though because otherwise he'll just be able to teleport onto everything."
+- clock 1:43: he counters its chip damage with a doubled Heal Spirit on his own push — "It's going to heal up off of the mega minion as well."
+- clock ~0:28: once it locks onto his tower he accepts the damage rather than over-spending — "Oh my god, he basically did. Okay, that mega minion locked in."
+<!-- creator-insights:ryleycr1:5bU83eIW8Yg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:start -->
+Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.4.md):
+- Mentioned only (never detected): the opponent's Mega Minion in the opposite lane is what delays Ryley's Inferno Tower - "This is a good Mega Minion though. I am going to end up being in a pretty weird situation here with him having a Mega Minion in the other lane cuz I can't really defend properly until that gets taken down" (clock 1:05-0:58). He also expects its ability on the Graveyard/push at clock 0:52: "He might go for the Mega Minion ability on top of it."
+<!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:start -->
+Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-m0.2.md):
+- Not played in this match — discussed at 694-712s, about the Hero variant: 'they are doing a rework to the hero mega minion. They are making the hero mega minion have a tower damage reduction from 15% to 27% which I very much agree with that. There was nothing more annoying than just having a hero mega minion just completely destroy your tower. I hated that so much man.' At 713-719s: 'the tower damage reduction is from 5 seconds to now permanent.'
+- 721-742s, on the teleport: 'they are changing the teleport damage from 373 to 399 which is a 7% buff which I think is fair cuz they did definitely hurt the mega minion all over the board... before this mega minion was not able to take out a lot of units with a mega minion plus a spell. But now it will actually be able to do that making it a lot better offensively but not like as annoying against crown towers.'
+<!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.3.md):
+- clock 2:04 (t=562-571): the opponent's Heroic Mega Minion, and Ryley values the information over the interaction — "First thing about the Hero Mega Mini is good. To be honest, it's more so just good knowing that he has it than anything, cuz a Hero Mega Minion coming out as a surprise can be so devastating".
+- clock 1:17 (t=612-614): he plans his bridge push around pulling it off-lane — "That Mega Minion could get kited to the other lane, which is great".
+- clock 0:32-0:22 (t=654-667): both of his late Cannons are placed to manipulate it — "I'm going to cannon like this just to make the Mega Minion go in front of the Lava Hound so I don't have to deal with it anymore" and "that Mega Minion just goes in front".
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.2.md):
+- clock 1:47-1:41: identified by playing a Mother Witch as bait and watching the answer — "Okay, he has Mega Minion, that's good to know. So, if I Mother Witch like this, more often than not he'll just Mega Minion on top of it, which is fine by me. I just need to know what he's able to do" (356-363s).
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md):
+- Opponent's card, mentioned but never tracked by the detector. It is the target of his clock-1:12 Mother Witch, and he places her so the ability is unattractive - "the mother witch on the mega minion, but I want to do it to where like if he pops the ability, it just wouldn't be a good play."
+- clock 2:04 and 2:21: he watches for the ability before committing - "he might mega minion ability", "Okay, good mega minion."
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:start -->
+Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0.1.md):
+- clock unknown (t=216-219): he counts its shots on his tower rather than answering it — 'Mega Minion we're going to get about three shots maybe four. Come on four. Nice. Let's go' — while his Goblin Barrel takes the enemy right tower to 3759 HP.
+- clock unknown (t=277-280): kited with Wall Breakers on his own half instead of spending a real answer — 'we can go for the Wall Breakers to kite as well'; the same Mega Minion had been advancing since t=266.
+- clock unknown (t=314-318): it is the reason he skips a Goblin Barrel — 'I'm not going to barrel here because I do feel like I would give him too much Mega Minion value.'
+<!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:start -->
+Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.md):
+- clock 2:31 (t=184): killed inside the Ronin's first defence — "That will take out the whole mega minion as well, which is great."
+- clock 0:52-0:43 (t=281-295): he manipulates its targeting rather than fighting it head on — plays the Ronin first "so it can target onto the Ronin with the mega minion", then removes it with a Royal Delivery: "now it's delivery here to make sure we take out the mega minion a little bit."
+<!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
+- clock 2:22: mentioned, not seen - the opponent runs the Heroic Mega Minion and Ryley calls it the reason this game will be harder than his last one: "feel like this one will probably be a little bit more difficult with him having the hero mega minion. Hero mega minion is just such a annoying card to go up against."
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

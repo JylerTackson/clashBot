@@ -111,6 +111,43 @@ It is also important to note that cards that make “sub-troops” (e.g., Elixir
 - Soul collection continues even after the Skeleton King dies, and the ability's 20 sec cooldown starts after the duration ends.
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor choice for Clan Wars Defense Towers.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:start -->
+Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0.1.md):
+- Uncertain read, recorded for completeness: at 190-198s Ryley complains at length about a card the auto-transcript renders as "the skeleton queen" — "the skeleton queen is so broken now ... I swear it has way too much HP. It has more HP than a giant literally." The only matching observation is a `skeleton-king-skill` ability detection on the opponent's side at clock 1:57, so this is probably the Skeleton King, but the transcript name and the HP claim do not line up cleanly and no Skeleton King body was ever detected.
+<!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:start -->
+Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.1.md):
+- clock 2:28 (opponent): tracked at (1, 18) then crossing to (5, 19). Ryley spends the Heroic Berserker's 3-elixir ability on it rather than a card — "Let's pop the ability just to make sure that we take out that Skeleton King. Just want to get that thing off the board."
+<!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:start -->
+Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md):
+- clock 2:25 (t=938.9): opponent's Skeleton King crossed at [14, 15]; Ryley answered with Elite Barbarians at [13, 12] rather than a spell, and the counter-push took two tower shots (t=957-960).
+<!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:start -->
+Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
+- clock 1:15: mentioned only as a card the opponent does NOT have — 'I'm pretty sure that means he doesn't have the Skeleton King' (t=98) — which is how Ryley narrows the last slot to Goblin Machine. Never played by either side.
+<!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:46 and 0:37: the opponent's Skeleton King runs the right lane and later the left; Ryley answers the second one with The Log, Bats, Spear Goblins and the Hero ability - "I need to ability as well just to make sure that we take out the skelly king... If that takes out the skelly king, I'm happy" (486-491s).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=283-289, mentioned only, never played): explicitly ruled out as the Mighty Miner replacement — 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:start -->
+Match [TOP 10 Best C.H.A.O.S Decks in Clash Royale](../matches/yOGPFqpzNu4-m4.md):
+- clock 1:12 to 0:05 (t=1962.4 at [8, 18], t=2026.4 at [2, 13], plus repeated tracker crossings): the opponent's main ground threat, but it only ever walks into Ice Spirit, Ronin and Arrows on Ryley's half and never produces damage — "This guy hasn't gotten any damage on us yet" (t=1971).
+<!-- creator-insights:ryleycr1:yOGPFqpzNu4-m4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_King (scraped 2026-09-02T02:35:13+00:00)
