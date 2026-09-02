@@ -49,12 +49,36 @@ def split_matches(states_path: Path, min_seconds: float = 60.0) -> list[tuple[in
     series with confirmation rules (misreads and overtime do not split)."""
     from .clock import segment_by_clock
     from .hud import parse_clock
-    samples = []
+    samples, menu_gaps, resets = [], [], []
+    prev_menu, last_hp, recent_up = None, {}, []
     for rec in read_jsonl(states_path):
-        if rec.get("type") == "state" and rec["readiness"] == "match":
+        if rec.get("type") != "state":
+            continue
+        if rec["readiness"] == "match":
             c = rec.get("match_clock")
             samples.append((rec["t"], parse_clock(c) if c else None))
-    return segment_by_clock(samples, min_seconds)
+            # a new game also shows as >= 2 own towers jumping back to full HP within 10 s
+            for k, v in (rec.get("own", {}).get("towers") or {}).items():
+                if v and last_hp.get(k) and v > last_hp[k] + 1500:
+                    recent_up = [(t, kk) for t, kk in recent_up if rec["t"] - t <= 10] + [(rec["t"], k)]
+                    if len({kk for _, kk in recent_up}) >= 2 and (not resets or rec["t"] - resets[-1] > min_seconds):
+                        resets.append(recent_up[0][0])
+                if v:
+                    last_hp[k] = v
+        elif rec["readiness"] == "menu":
+            if prev_menu is None or rec["t"] - prev_menu > 2:
+                menu_gaps.append(rec["t"])
+            prev_menu = rec["t"]
+    if any(v is not None for _, v in samples):
+        return segment_by_clock(samples, min_seconds)
+    # no readable clock (other HUD layout): fall back to menu gaps and tower resets
+    if not samples:
+        return []
+    t_start, t_end = samples[0][0], samples[-1][0]
+    cuts = sorted(set(round(t, 1) for t in menu_gaps + resets if t_start + min_seconds < t < t_end - min_seconds))
+    bounds = [t_start] + cuts + [t_end]
+    segs = [(i, a, b) for i, (a, b) in enumerate(zip(bounds, bounds[1:])) if b - a >= min_seconds]
+    return [(i, a, b) for i, (_, a, b) in enumerate(segs)]
 
 
 def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_names: dict[str, str],

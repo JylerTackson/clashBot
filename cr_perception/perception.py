@@ -9,6 +9,8 @@ reduced rate (detect_every / ocr_every frames) so the loop keeps its rate.
 """
 from __future__ import annotations
 
+import re
+
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -228,6 +230,13 @@ class Perception:
         clock_s, clock_conf, remaining = "", 0.0, None
         if self.ocr is not None and idx % self.ocr_every == 0:
             s, c = self.ocr.read(crop_roi(content, self.calib.rois["clock"]))
+            if parse_clock(s) is None:
+                # other HUD layouts print "OVERTIME 1:59" / "Time left 2:31" in one box
+                # or place the timer higher: retry on a taller top-right region
+                s_alt, c_alt = self.ocr.read(crop_roi(content, [0.72, 0.0, 0.28, 0.12]))
+                m_alt = re.search(r"\d{1,2}:\d\d", s_alt or "")
+                if m_alt:
+                    s, c = m_alt.group(0), c_alt
             if parse_clock(s) is not None and c >= 0.6 and self.clock.valid(parse_clock(s)):
                 clock_s, clock_conf, remaining = s, c, parse_clock(s)
         if remaining is None:
