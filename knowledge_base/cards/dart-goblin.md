@@ -179,6 +179,13 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:39: Dart Goblin at tile [12, 7] starts the defence-into-counterattack that drops the enemy right tower from 1362 to 504 HP — "Okay, let's dark orb here. Let's ice beard."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- clock 2:37 to 0:07 (t=17s [7, 13], 50.1s [9, 8], 96.3s [9, 8], 121.1s [8, 13], 145.3s [8, 7], 171.2s [8, 11]): six plays, every one of them on his own half in the centre columns 7-9 and never at the bridge — he uses him strictly as the deck's air answer, placed centrally so the range reaches either lane.
+- clock 1:17 (t=96.3s): the [9, 8] placement is the direct answer to the Baby Dragon walking the right lane (tracked [16, 15] to [15, 9], "tower in 2.8s" at t=100s) in a deck whose only other air cover is the Goblin Gang's spear goblins.
+- mentioned in the balance talk (t=163-167s): he is unsure whether the nerfed Evo Elite Barbarian spears will still one-shot him — "maybe it won't one-shot princess dart goblin and things like that anymore, but I'm not 100% sure."
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

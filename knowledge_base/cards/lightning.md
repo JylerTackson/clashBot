@@ -195,6 +195,12 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - Held all game and cast exactly once. overtime 0:54: Lightning at [16, 25] on the enemy right tower after the Berserker + Royal Hogs push had left it at 366 HP - 'All he can do is block with the battle ram. Okay, he can't block anymore. So just go for the lightning. Let's go'; the video's outro follows three seconds later.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- OT 1:23: three casts, all late and all onto the opponent's half — [10, 23] at OT ~1:23, [15, 24] at OT 0:46 and [15, 20] at OT 0:07.
+- OT 0:46: the [15, 24] cast lands beside the opponent's right tower, which then drops from 3881 to 1460 by t=476 and to 1012 by t=484 — the sequence that decided the game. He never mentions the spell; the commentary at that moment is about Electro Spirit's chain range.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

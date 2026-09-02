@@ -241,6 +241,23 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - overtime 1:56: thrown in front of the P.E.K.K.A. - 'Let's go for the skellies towards the peek[a]'.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 1:07: seven deploy-labelled plays, almost all on the left half of his own court — [2, 9] at clock 1:07, [2, 10] at clock 0:07, [3, 15] at OT 1:37, [3, 14] at OT 0:34 and OT 0:11, [1, 14] at OT 0:19 — i.e. 1-Elixir distraction into the lane the opponent's Firecracker and Hog Rider kept walking down, plus cycle.
+- clock 1:51: the earliest one, at [7, 15], is right on the river line rather than at the tower, used to meet something crossing rather than to pull it.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 2:38 / 0:54 / OT 0:40 (t=532.5, 637.1, 771.3): Skeletons at (9, 14) and (6, 14) as the pull in front of the Cannon, HUD-confirmed at 1 elixir.
+- clock 1:52 (t=571.6, 580.1): two Skeletons at (2, 12) on the left in quick succession — pure cycle to get back to Royal Hogs, not defence.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, named not seen: Ryley predicts the cheap answer to his Electro Giant push and pre-rolls a Barbarian Barrel at the bridge for it - "He has to go for a skeletons, which is nice" (969s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

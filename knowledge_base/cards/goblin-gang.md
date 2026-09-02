@@ -116,6 +116,13 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 1:34 and overtime 1:31: the opponent's Goblin Gang appears twice as a defensive answer, and Ryley treats it as a card that only half-answers a barrel — "And there's the gang", "He has the gang, but that's going to grab one. Come on. Let's go. Good game." (opponent's card)
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- clock 2:19 (t=33s [8, 0]): laid it at the centre-back tile immediately before the Elite Barbarians, so the split Ebarbs walk out with swarm cover behind them.
+- clock 2:07 (t=44s [3, 15]): dropped at the left bridge as offensive support / spell bait while the opponent was at 10 elixir.
+- clock 1:42 (t=72.1s [14, 5]): deep-right defensive placement against the Knight advancing the right lane (tracked [14, 12] to [14, 10], "tower in 5.5s"), backed a second later by The Log at [14, 10].
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

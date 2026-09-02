@@ -172,6 +172,12 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2
 - clock 0:45: combined with Goblinstein they are the pairing he flags as dangerous — "This is where it gets annoying, though, is with the Evo archers and the Stein in the back."
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:48: opened with a back-court split at [8, 0] (Elixir 9 to 7 on the HUD) and repeated it at clock 1:37, the standard opener for this list.
+- clock 2:19 onward: otherwise used as reactive support beside the tower or the building — [7, 10] at clock 2:19, [6, 9] at clock 0:29, [1, 7] at OT 1:14, [1, 12] at OT 0:34 and [7, 9] at OT 0:25. Nine deploy-labelled plays in total, none of them commented on.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

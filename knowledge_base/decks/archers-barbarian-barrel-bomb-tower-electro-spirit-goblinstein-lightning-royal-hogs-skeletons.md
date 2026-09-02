@@ -86,6 +86,15 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - Result: win, in overtime, against a Giant Graveyard beatdown deck (Evo Witch, Bowler, Zappies, Arrows, Evo Giant Snowball). Enemy left tower 4246 at the start of the readable window down to roughly 1227 at overtime 0:03, with his own towers barely touched — "He's barely even done any damage to our tower and this kind of goes to show how good our deck actually is" (t=175-184), then "that is going to be a good game. Very nice win to start off the video" (t=289-293).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- Game 2 of 4 in a balance-change commentary video (each game on a different deck). Almost none of the talk is about the match: Ryley spends the whole 293 readable seconds on the emergency nerf list, and the only line about his own list is at t=227-234 — "next cards that are going to be getting an emergency nerf are actually in my deck right here, and it is going to be the Goblin Stein." The eight-card read therefore comes from deploy labels, not commentary (see the match file's Data gaps: the pipeline's HUD-based per-game read is overridden).
+- Piloted defence-first and building-heavy: nine Bomb Tower plays, ten Electro Spirit, nine Archers, seven Skeletons and seven Barbarian Barrel against only four labelled Royal Hogs and four labelled Goblinstein. Bomb Tower alternates between a river placement ([5, 13] clock 2:43, [8, 14] OT 0:20) and a centred pull ([9, 9], [8, 9], [8, 10], [8, 11]), and the detector shows one alive at [8, 6] for most of overtime.
+- Royal Hogs go to the right-hand bridge as tempo off a successful defence, not as a built push — [9, 14] clock 1:21, [15, 14] clock 0:42, [15, 15] OT 1:22 and OT 1:05 — while Goblinstein is kept deep on his own half ([6, 8], [12, 8], [13, 9], [11, 6]) as the defensive Champion.
+- The deck was behind for all of regular time — his left tower fell 4858 to 2083 under a Firecracker/Hog Rider left lane while the opponent's towers sat at 4056/3255 — and still tied 0-0 into overtime, where three Lightnings on the opponent's half ([10, 23], [15, 24] OT 0:46, [15, 20] OT 0:07) plus the right-lane hogs took their right tower from ~3881 to 373 by OT 0:02. Result: win, called at t=517 — "Very nice win."
+- Balance context he gives for two of its cards: Goblinstein's monster loses 6% HP ("2385 HP to ... 2,240"), which he calls "a very solid nerf" while insisting "I'm not going to act like the card is going to be dead", and Electro Spirit's chain range goes "from four tiles to three tiles", which he welcomes ("This is my personal favorite") while predicting it "could just remain extremely powerful regardless."
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
 ## Source
 
 - https://royaleapi.com/decks/popular?lang=en (scraped 2026-09-02T03:43:33+00:00)

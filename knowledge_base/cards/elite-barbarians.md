@@ -203,6 +203,24 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1
 - clock 1:57 (video 338s): mentioned only, as a joke about how expensive the opponent's deck looked — "Watch him have like Ebarb somehow and he has just like a million elixir cards" (338-340s). They never appear.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- clock 2:19 (t=33-35s): played the Evolved pair from the centre-back tile [8, 0] together with a Goblin Gang so the two barbarians split one per lane (tracked at [11, 1] and [5, 5] by t=38-40s) — the right-lane one walked to [12, 22] and took the opponent's left tower from 4858 to 4245 by t=54s.
+- clock 1:01 (t=113.1s): second set again from the back at [11, 1], paired with a Berserker at the right bridge ([15, 15], t=114.1s) as triple elixir started — he never bridge-rushed the Ebarbs in this game, they were always a back-placed split threat.
+- balance take (t=132-141s): "the Elite Barbarians Evo are actually receiving a massive nerf. I do definitely think that they got nerfed a lot harder than anything else on the nerf list today. The Elite Barbarians spear damage, so like the thing that they throw, the damage is going from 284 to 220, which is actually a very big nerf." He adds a second nerf at t=184-191s: the rage trail duration "from 3.5 seconds to 2.5 seconds", "which I find that to be extremely big".
+- what the spear nerf costs them (t=151-173s): "This will now no longer take out things like mother witch and zappies when both of the spears are throwing at the exact same time", and, hedged, "maybe it won't one-shot princess dart goblin and things like that anymore, but I'm not 100% sure... if that is true, then it is going to be much much weaker."
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Mentioned, not played (t=798-806s; the auto-transcript renders them 'Earbs'): he describes the current meta as E-Barb-defined and treats them as the reason the Electro Giant buff will not land — 'especially in like a meta like this, right, where everyone is using [E-Barbs], maybe it's kind of hard for Egiant to fit in a meta where the best card in the game kind of completely counters them.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- mentioned only, not played by either side: named as an example of what he thinks is wrong with the meta while arguing against the Void buff - "there is so many toxic, you know, cards in the game right now, with the ebarbs, the Valk, so many crazy things" (851-858s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

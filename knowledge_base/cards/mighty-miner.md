@@ -120,6 +120,13 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - overtime 0:56-0:47 at tiles [6, 14] and [8, 15]: used as a body-block in front of his Goblin Hut, not in front of the tower — "We need a barbell plus Mighty Miner here… blocking it from actually getting to our Goblin Hut."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, nine arrivals from clock 2:38 onward (video 834.8s to 1097.1s). It is the card Ryley never solves: he answers it with Goblin Hut, Tornado and Barbarian Barrel but keeps losing tower HP to the ability - "He's going to Mighty Miner here. Yep. Grab me a tick. Nice" (978-979s) and "I know he's going to go for the ability plus hog rider" (1059-1060s).
+- overtime clock 1:29 (video ~1027s): a Mighty Miner read is what stops his own Void - "That was a really good mighty minor. Nah, that that was just well played, man. Cuz since he went for that mighty miner if I went for a void, I would have just gotten completely cooked" (1026-1037s).
+- clock 0:05 (video ~990s): he burns an ability activation purely to protect the Electro Giant from it - "let's go for the ability here as well, just to make sure that the Mighty Miner doesn't completely take that out" (990-994s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

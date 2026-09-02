@@ -150,6 +150,19 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1
 - clock 0:58 to 0:52 (video 395.4s, 401.4s): a second right-lane Baby Dragon, which he answers with Furnace plus Skeletons rather than a spell.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- opponent card, clock 2:03 / 0:19 (t=48s [15, 17], t=152.2s [4, 15]): the card that actually damaged Ryley — the right-lane Baby Dragon at t=90-100s reached "tower in 2.8s" and his right tower dropped 4858 to 4589 to 4320. His answer was a centrally placed Dart Goblin at [9, 8] (t=96.3s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:33 (video 842.8s, tile (8, 12)): dropped centre on his own half as air cover behind the Electro Giant / Goblin Hut defensive stack against Mighty Miner and Hog Rider.
+- overtime clock 1:51 (video 1003.0s, tile (9, 1)): back-line Evo Baby Dragon to start the overtime cycle - "I'm going to get the Evo baby dragon down" (1005s).
+- overtime clock 1:04 (video 1051.0s, tile (16, 2), HUD 7.0 -> 3.0): placed in the right back corner before anything was there - "Let's baby dragon preemptively in case a hog rider. Nope" (1046-1048s).
+- overtime clock 0:45 (video 1070.1s, tile (2, 14)): sent with the second Electro Giant rather than held - "Let's go for a baby dragon, too. I have another E giant already. So, we definitely have a decent chance to break through here" (1070-1076s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

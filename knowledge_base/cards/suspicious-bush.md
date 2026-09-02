@@ -151,6 +151,12 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:32-0:27: a Bush sent behind the Mega Knight / Goblin Barrel play is what he is watching for damage — "Come on, bush. Grab some damage. Bush, grab some damage. Oh my damage with the bush. One more? Oh, I wish I would have grabbed one more."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- clock 2:47 (t=5s [9, 1]) and clock 2:04 (t=49s [1, 13]): both bushes go on his own half and well away from his crown towers — the second at the far-left corner while the pressure was in the right lane, consistent with using it as an off-lane spell magnet rather than defence.
+- Ryley gives no commentary on it in this game; it is one of the three cheap bait cards (with Goblin Gang and Dart Goblin) that make this an Ebarbs/Berserker bait shell.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Suspicious_Bush (scraped 2026-09-02T02:34:57+00:00)

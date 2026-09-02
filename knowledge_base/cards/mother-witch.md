@@ -192,6 +192,11 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - clock 1:05 (opponent's card): a central Mother Witch placement denies his Berserker ability - 'he put the mother witch in the middle so I wouldn't be able to kill it, which is smart. I like that play by him'. He answers it with Barbarian Barrel at 0:27 and confirms the kill in overtime - 'We took out the mother witch'.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- mentioned only, not played (t=151-161s): Ryley uses her as the breakpoint for the Evolved Elite Barbarians nerf — "This will now no longer take out things like mother witch and zappies when both of the spears are throwing at the exact same time."
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

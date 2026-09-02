@@ -163,6 +163,19 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - OT 1:34: mentioned only (played by the opponent, never read as an event). He tracks it and plays his spell-vulnerable support the moment it is spent — "we can dark goblin too because he used his log so we can try to get a good one" (t=902-905). The matchup framing is the same idea from the other side: "we just keep facing Log Bait without having any spells, man. It's really unfortunate" (t=711-717).
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- clock 1:39 (t=74.1s [14, 10]): rolled down the right lane onto the Knight/Skeletons push, immediately after a Goblin Gang at [14, 5] — the standard cheap two-card ground answer in this deck.
+- clock 0:47 (t=126.1s): used on the opponent's Barbarians the moment they landed at [14, 15].
+- clock 0:43 / 0:07 (t=131.1s [5, 15], t=166s [6, 11]): twice on the left lane to clear the way for his Berserker pressure, inside the window where the enemy left tower fell from 2633 to 176.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 1:23 / 0:51 / OT 1:54 (t=608.6, 640.6, 697.9): Log cast across the river at (3-7, 15) to clear the ground swarm in front of his own Royal Hogs pushes.
+- OT 0:42 / 0:20 / 0:17 (t=769.4, 782.8, 796.5): the defensive half of its use — (14, 10), (5, 12) and (4, 9) on his own half against the opponent's ground units; HUD-confirmed at 2 elixir at t=697.9, 756.9 and 789.3.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

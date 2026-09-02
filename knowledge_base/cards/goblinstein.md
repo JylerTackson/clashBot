@@ -141,6 +141,20 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2
 - clock 0:03 and OT 1:55: he calls out the common misplay twice when the opponent pops the ability at the wrong moment — "Bad Stein ability. That was just really bad" and "the Stein just got taken out before the ability really got any value. I have noticed people making that mistake with Stein a lot." His counter is 1-elixir Skeletons once the ability is spent.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:48: the only thing Ryley says about his own list all game is that the nerf list is in it — "next cards that are going to be getting an emergency nerf are actually in my deck right here, and it is going to be the Goblin Stein" (t=227-234). Four clean deploy labels confirm it, all deep on his own half: [6, 8] at clock 0:54, [12, 8] at clock 0:05, [13, 9] at OT 1:35 and [11, 6] at OT 1:04 — a defensive Champion held behind the tower line, never a bridge play.
+- clock 0:54: with the Champion down at [6, 8] and his Elixir dropping 9 to 5 over the next two seconds, the only on-board remark of the whole game arrives: "Okay, this guy's being really annoying" (t=346-348).
+- clock 1:45 to 1:30 (t=289-300), on why it is hard to answer: "it is impossible to defend because the big guy, the monster has so much HP and whatever you try to defend it with, you know, just ends up getting taken out by the Goblin Stein ability because the scientist is so strong as well. They buffed the scientist. They just buffed everything about the Goblin Stein."
+- clock 1:33 to 1:07 (t=306-336), on the emergency nerf: "nerfing the hit points of the monster by 6%, making it go from 2385 HP to ... 2,240 ... because the Goblin Stein monster has so much HP, even a small percentage is just so much of the actual total health points that definitely is getting a very solid nerf. I'm not going to act like the card is going to be dead or anything." He also rates it at t=248-260: "Goblin Stein is probably the best card in competitive right now outside of ... the big three of the three broken heroes", though "not nearly as popular on ladder as it is in competitive."
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Mentioned, not played (t=617-631s and t=701-709s): he ties the Archer Queen buff to the Goblinstein nerf and says it does not explain her — 'even with the nerf to the Goblin Stein, Archer Queen would continue to be an underused card anyway. So I can't even really blame the Goblin Stein.'
+- t=701-709s: uses Goblinstein as his example of a card that was underrated until one buff landed — 'people were just underrating the card until it got that one buff that it just absolutely needed and just made the card go absolutely crazy.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

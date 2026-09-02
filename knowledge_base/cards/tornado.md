@@ -142,6 +142,13 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 1:02 and overtime 0:54: "He has to [na]to that now, but it's already dead again" and "He gets a good [na]to, but I'm going to mother witch here."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 1:30 (video 904.4s, tiles (8, 6)/(8, 7), HUD 8.0 -> 5.0): pulled a left-lane Firecracker push into his King tower area, chained with a Barbarian Barrel at (4, 11) three seconds earlier and a Void straight after.
+- clock 0:37 and overtime clock 1:46 (video 958.0s, 1010.0s, both at tile (9, 7)): the same tile in front of his own King tower, used to drag Hog Riders off the princess tower - "then we can go for the tornado as well. Just make sure to yank in that hog rider. Good defense" (1010-1014s).
+- overtime clock 0:50 (video 1065.1s, tile (9, 7)): third repeat of the identical placement, part of the scripted defence he narrates - "And then we can go for a nice tornado here ability as well. And we go for the barbarian barrel. Just make sure that we take this all out" (1064-1070s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

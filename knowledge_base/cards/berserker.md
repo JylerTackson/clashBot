@@ -226,6 +226,14 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - overtime 1:11: deployed at [13, 13] as the Royal Hogs escort with the ability on top - 'Let's ability as well so we can take out that golden knight'.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- clock 2:26 / 0:19 (t=27.4s [9, 0], t=154.2s [5, 8]): used the Hero Berserker as a 2-elixir cycle-and-hold card behind his own towers as well as a defender — six plays in one game, more than any other card in the deck.
+- clock 1:52 / 0:59 / 0:43 (t=60.1s [13, 14], t=114.1s [15, 15], t=128.1s [3, 15]): the money placement is the bridge tile in either lane as a cheap standalone threat — the enemy right tower dropped 4858 to 4143 within 6s of the t=60s one, and the enemy left tower fell from 2633 to 482 across the window opened by the t=128s one (supported by The Log at [5, 15], t=131.1s).
+- balance take (t=68-87s): "the hero Berserker is going to be getting a nerf to the ability duration, which I definitely do agree with. I thought that that was definitely the nerf that it should get. It's going from a 4 second duration to a 3.5 second duration... it will still do a lot of work. And I still think that the hero Berserker is going to be extremely strong."
+- how the nerf changes matchups (t=121-129s): "I think the Hero Berserker will definitely be worse, but it just won't be like unstoppable anymore. Like I think now it won't fully counter something like elite barbarians and stuff like that." He also floats at t=205-215s that "maybe the Berserker could have got some of this treatment as well" (the double nerf the Ebarbs got).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

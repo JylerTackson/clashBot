@@ -149,6 +149,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, as the alternative he considered for the Fisherman slot before settling on Cannon: "Honestly, maybe goblin hut could work as well, but you know, my first thought was the cannon here" (t=703-707).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:26, 0:57 and 0:07 (video 846.8s, 936.9s, 989.0s, tiles (9, 9), (9, 11), (8, 13)): always mid-board on his own half, working as a permanent Hog Rider / Mighty Miner distraction and as the chip source in a game he could not crack open.
+- overtime clock 1:22 and 0:57 (video 1032.0s, 1061.1s, tiles (9, 9), (12, 2)): kept cycling the hut in overtime even while behind on tower HP, as the cheap board presence between Electro Giant pushes.
+- overtime clock 0:35 (video 1080.1s, tile (12, 13)): pushed the hut forward on the right to support the second Electro Giant - "we need to go for a Goblin Hut up top here. Hold on a second. He has a Tesla" (1079-1081s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

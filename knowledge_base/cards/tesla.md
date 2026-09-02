@@ -152,6 +152,16 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - clock 2:29 to 1:59: mentioned, never played and not in Ryley's deck - it is the card he believes the opponent thinks he has, and he values the bluff - "I don't think he's going to balloon cuz he's scared of us having a Tesla ... he would just assume that with the way that I'm playing, I probably have a Tesla in my deck, which is good for us. It's always good to keep that surprise factor."
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 2:02 (t=568.6) and OT 1:37 (t=712.7): the opponent's building answer to the Royal Hogs, placed at (8, 16) and then out on the left rail at (0, 15) once Ryley had settled into the left lane. Ryley does not comment on it.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, parked at tiles (8, 19)/(8, 20) four times (video 884.9s, 965.0s, 1071.1s, 1085.1s) and the main reason his Electro Giants never reached a tower in overtime - "Hold on a second. He has a Tesla" (1081s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

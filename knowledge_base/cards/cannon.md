@@ -207,6 +207,13 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - overtime 1:35-1:21: two more Cannons ([6, 9], [8, 11]) during the game-saving stand - 'We have to go for the evo cannon up top here' and 'Let's cannon here again in the middle'.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 2:46 (t=525.0): opening play at full elixir, Cannon at (8, 9), the standard centre placement, 10 -> 7.
+- clock 1:16-1:11 (t=615.6, 618.6) and OT 1:27 / 0:17 (t=720.7, 795.8): moves the Cannon forward to (8, 13) / (9, 13), one or two tiles off the river, to pull the opponent's ground units earlier instead of holding the centre pocket.
+- OT 0:42 (t=770.8): Cannon at (16, 13) — the only right-lane placement, part of the one cycle where he abandons the left rail to defend.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

@@ -229,6 +229,16 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - overtime 0:19, his verdict on the game he loses - "Oh, the Valkyrie is too broken, man. Good game."
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- mentioned only, not played (t=53-57s): used as the reference point for how strong the Hero Berserker and Evo Elite Barbarians are — "depending on, you know, where you would rank them compared to like the hero Valkyrie and things of that nature".
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- mentioned only, not played by either side: the second half of the same complaint - "with the ebarbs, the Valk, so many, you know, crazy things. And the void was already looking pretty strong" (855-860s). (An HUD hand read logged 'Valkyrie' at video 834.2s; that drop was his Golden Knight.)
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

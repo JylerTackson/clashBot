@@ -117,6 +117,21 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:05 and overtime 1:56 to 1:52: tracked pushing his left lane; Ryley answers it with a high middle Hero Wizard, then Giant Skeleton + Mother Witch ("let's go for the giant skelly here. I had a feeling he was going to go for some type of shenanigans like that"), and later "Let's go for the high e giant."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Not played by either side in this game (the two 'Electro Giant(Buff)' labels at t=756.8 and t=759.8 are the balance-notes overlay). Discussed only: 'We are getting a damage buff to the electro giant. And really, I'm not sure why ... I'm not going to act like the electro giant's like an overpowered card or anything, but I do think that it's definitely an underrated card as well' (t=754-771s).
+- t=771-806s: argues the repeat buffs are mistimed — 'they buffed the E giant for like the last three balance changes now, just making it do all of that extra reflection damage ... Now they're giving it a buff to the damage by 13% ... maybe they could slow down a little bit just to let people find the card ... it's kind of hard for Egiant to fit in a meta where the best card in the game kind of completely counters them.'
+- t=806-822s: 'I can't act like Egiant isn't like a card that's kind of bad. Maybe some people may disagree ... obviously Eg is a really toxic and a really annoying card, but it is hard to deny that it is a strong card cuz not many people really use it.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:27 and clock 1:58 (video 849.8s, 876.9s): first two Electro Giants are defensive, at (4, 11) and (9, 13) in front of his own towers against a Mighty Miner + Hog Rider left-lane push (the second is HUD 9.0 -> 2.0 with a deploy label at score 1.0) - no commentary, he is mid patch-notes.
+- clock 0:31 (video 963.5s, tile (2, 14)): the planned push, tank in front of his own left tower plus the ability, then Void on top - "I am going to go for a nice egiant push here. I do feel like this is a really good opportunity. I'm going to go for the ability. And then I'm definitely going to go for a void here on top of this" (961-969s). The enemy left tower went 4858 -> 4386 over the next twenty seconds.
+- clock 0:13 (video ~982s): he rates the card while it is ticking - "see, I feel like E Giant's kind of solid, man. Getting a tick through all of that is kind of insane, but I'm not complaining, of course, since I'm the one using the E giant right now" (982-989s).
+- overtime clock 1:37, 0:57 and 0:39 (video 1017.0s, 1058.1s, 1076.1s, tiles (14, 14), (2, 8), (14, 14)): in overtime he alternates lanes on purpose - "Let's definitely go for the E giant here cuz we have the speedy E giant" (1018-1022s), "I'm gonna go for the Egiant here because I know he's going to go for the ability plus hog rider" (1056-1060s), "I'm going to E gi the opposite lane, though" (1076s). None of the four pushes took a tower.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Giant (scraped 2026-09-02T02:35:05+00:00)

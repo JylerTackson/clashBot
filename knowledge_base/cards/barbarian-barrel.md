@@ -253,6 +253,20 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - All six casts are on his own half and defensive; it is never used on the opponent's tower in this game.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 1:07: seven deploy-labelled plays, mostly rolled left through the Firecracker traffic — [3, 12] at clock 1:07, [5, 15] at OT 1:54, [4, 13] at OT 1:14, [3, 13] at OT 1:04 and [5, 9] at OT 0:29. It, not a spell, is his standing answer to the Firecracker in this game.
+- clock 2:24: the two exceptions are a back-corner roll at [9, 0] (clock 2:24) and a right-side roll at [14, 13] (clock 0:42) alongside a Royal Hogs push.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:47 and 1:34 (video 828.2s, 901.2s, tiles (3, 14), (4, 11), each HUD -2): rolled up the left lane ahead of an advancing Mighty Miner and then onto the Firecracker walking down the same lane.
+- clock 0:27 (video 965.0s, tile (8, 15)): rolled at the bridge in front of his own Electro Giant push to clear the Skeletons he expected - "He has to go for a skeletons, which is nice" (969s).
+- overtime clock 1:17 (video 1038.0s, tile (13, 7)): a deliberately safe over-spend on defence - "I have to barb this too. I'm not taking the risk, man" (1037-1039s), and earlier "I think I have the Barbarian barrel here. Okay, I don't think I had to, but I'd rather be safe than sorry" (996-999s).
+- overtime clock 0:43, 0:27 and 0:20 (video 1070.7s, 1088.3s, 1095.9s, tiles (14, 11), centre, (9, 15)): kept as the cheap cycle card to the very end - "Wait, barbell down the middle. Then we go for the ability" (1091-1093s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

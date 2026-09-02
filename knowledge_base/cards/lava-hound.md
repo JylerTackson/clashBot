@@ -144,6 +144,11 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - clock 0:17: the reason his King Tower activation fails - "him going for the zap like that made it so the lava hound like wasn't tanking for the tower which made the balloon not have enough HP to activate the king."
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- opponent card, clock 1:45 (t=66.1s at [2, 16], elixir 10.0 to 3.0): their one big commit of the game. Ryley built no dedicated air defence around it — Dart Goblin plus the Goblin Gang spear goblins were the whole answer — and used the elixir window it opened to keep his Berserker/Elite Barbarians pressure going (Goblin Gang [14, 5] and The Log [14, 10] at t=72-74s were spent on the ground follow-up instead).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

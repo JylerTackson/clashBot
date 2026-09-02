@@ -208,6 +208,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:35 (t=622) and clock 0:27 (t=635): he burns two premium answers on her — a bridge Skeleton Army ("Skeleton Army here at the bridge for the Musketeer") and then the Evolution Mega Knight ("I'm going to Evo Mega Knight into this Musketeer. I feel like I just kind of have to").
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Mentioned, not played (t=551-558s and t=628-631s), and specifically the Hero Musketeer variant: he uses her as his example of a new card buffing old ones by association — 'Same with like the hero musketeer, just the musketeer in general, right? When things like that come into the game, it does just inherently make the other cards better' — and names her as the Archer Queen's competition: 'a lot of people do use the Hero Musketeer over the Queen.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

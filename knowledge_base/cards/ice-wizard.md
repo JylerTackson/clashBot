@@ -157,6 +157,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 1:05: it pulls his Giant Skeleton off the tower and he calls it in advance — "Hopefully, that can walk towards the ice wizard giant skelly. Oh my god, it's walking towards the ice wizard. I literally knew it."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- opponent card, clock 1:07 to 0:39 (t=104.1s [12, 23], 108.1s, 112.1s, 128.1s, 132.1s): walked down the right lane repeatedly as their splash/slow answer to his Goblin Gang and split Elite Barbarians; Ryley kept meeting it with Dart Goblin plus a spirit rather than a dedicated counter.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

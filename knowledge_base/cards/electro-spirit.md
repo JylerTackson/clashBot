@@ -223,6 +223,20 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - overtime 1:37: first card down against the P.E.K.K.A. + Golden Knight + Mother Witch pile-up at [2, 11] - 'Oh no, this is scary. We have to e spirit here'.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- clock 1:52 / 1:38 / 1:24 / 0:55 / 0:52 (t=61.1s, 74.9s, 88.9s, 118.5s, 121.5s): seven 1-elixir spirit plays in a 3-minute game (two more read as Ice Spirit at t=58.1s and t=132.1s), used purely to cycle and to chip/reset swarms.
+- he repeatedly pairs it within a second or two of his other cheap card — Berserker at [13, 14] plus Electro Spirit at t=60-61s, and The Log at [5, 15] plus a spirit at t=131-132s.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:30 onward: the most-played card of the match — ten deploy-labelled plays plus a run of HUD 1-Elixir drops, used as the chain-stun on anything entering his half: [10, 14] on the river line at clock 2:30, [10, 11] at clock 1:45, [3, 8] at clock 1:07 into the Hog Rider lane, [8, 12] at OT 1:10, [8, 11] at OT 1:04, [6, 9] at OT 0:31 and [2, 14] at OT 0:15.
+- clock 0:34 to 0:27 (t=362-372), the nerf announcement: "they are going to be emergency nerfing the electro spirit. And I am so happy about this one. This is my personal favorite. Not that I think this is the one that like deserve the nerf the most." The client already tags it — his t=368.9 play carried the deploy label "Electro Spirit (Nerf)".
+- OT 1:45 to 1:35 (t=415-424), the actual change: "The E-Spirit is going to be getting a chain range nerf and the chain range is going to be going from four tiles to three tiles, which I've never actually seen a card get nerfed in that way before." His prediction at t=431-448: "the Electro Spirit just based off of the concept of the card could just remain extremely powerful regardless ... it just seems to always like slip through and just end up being strong anyways cuz it's actually gotten nerfed a few times."
+- OT 1:04 to 0:48 (t=457-472), why he wanted it gone: "it's actually such an annoying card to go up against when you know you have graveyard even bait ... it's just so much better than all of the spirits that there's no really reason to use the other ones unless you have like a very direct weakness to like a certain play style." He also says he doesn't know "why they've been waiting on the E-Spirit for so long" (t=411-413).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

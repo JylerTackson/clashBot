@@ -140,6 +140,14 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 2:31 / 0:31 (t=540.5, 660.7): Royal Delivery at (14, 10) and (13, 15) — always on his own half, always the answer to a push he could not cycle into, never part of an attack.
+- OT 1:59 / 1:10 / 0:30 (t=693.0, 745.1, 775.9): three HUD-confirmed 3-elixir Deliveries in overtime, roughly one per opponent push, in a deck whose only other air answer is the Archer Queen.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

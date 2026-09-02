@@ -203,6 +203,13 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:36-1:32: two more Ice Spirits behind the Dart Goblin/Berserker block that wins the game — "Let's ice beard." In this game it is never played alone, always as the second half of a defensive pair.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 1:32 (t=599.6): Ice Spirit at (10, 7), well behind the Cannon, into the opponent's Firecracker at (10, 17) — the building tanks, the spirit resets.
+- clock 0:47 (t=644.3) and 0:05 (t=686.4): dropped at (8, 1) and (6, 2) behind his own towers with nothing to hit, purely to cycle back to the Hogs.
+- OT 1:51 / 0:42 (t=700.5, 770.8): also used as the cheap left-lane escort at (2, 15) and as right-lane defence at (16, 9).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

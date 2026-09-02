@@ -112,6 +112,13 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1
 - clock 2:35 onward (video 298.4s and roughly every ten seconds to 442.4s): logged repeatedly against Ryley but always at the same arena-corner tile [14, 30], which marks it as a persistent detector false positive rather than eight-plus casts. He never mentions the spell, and none of his buildings visibly died to it.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 1:24 (t=607.6): first Earthquake of the game at (5, 21), the strip in front of the enemy left princess tower — used as the damage half of the Royal Hogs plan rather than as a defensive spell.
+- OT 1:22-1:17 (t=731.7 and t=734.7): doubles up, two Earthquakes five seconds apart on the same (4-5, 21) spot behind one Royal Hogs deployment — the heaviest spell spend of the match.
+- OT 0:21 (t=790.8): the only Earthquake of the game on Ryley's own half, at (4, 12) onto his Cannon and Skeletons — that one is the opponent's, and it is how they answer his defensive cluster.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

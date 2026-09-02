@@ -136,6 +136,11 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - Tracked repeatedly on the opponent's side through the match (t=938.9, 1028, 1035, 1048, 1088, 1113, 1119, 1127, 1155) as air chip alongside the Lava Hound, but never named in the commentary; part of the detection is a static false positive sitting at tile [8, 27] for the whole game, so treat the card as probable rather than confirmed.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 0:35 (t=654.7): Bats at (5, 15) into the left-lane Royal Hogs follow-up — the opponent's cheap air answer, in a game where Ryley's only air coverage is Archer Queen and Royal Delivery.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

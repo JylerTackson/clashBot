@@ -196,6 +196,11 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4
 - overtime 0:57: "He used to zap though, so he's going to have to fireball this. Ooh, good timing by him." Named in commentary only - no deploy label or track.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- clock 0:16 (t=156.2s, deploy label at [3, 22]): held all game and finally spent on the enemy left tower and its defenders once that tower was already under 900 HP — it read 482 by t=160s. (A second Fireball label at [3, 21], t=176.2s, falls inside the balance-graphic overlay and is not trustworthy.)
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

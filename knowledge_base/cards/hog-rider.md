@@ -158,6 +158,17 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1
 - clock 2:38 (video 295.3s, tile [3, 18]): tracked in with the opening P.E.K.K.A./Mother Witch push and threatening a tower within 1.5 s at clock 2:35. Not named in commentary; the detector is a 2024 model and this read is the least certain card in the opponent's list.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:40 onward: mentioned, not played by Ryley — it is a card he argues should be spared: "Maybe like the Hog Rider like I can understand even though Hog Rider is super good why maybe they'd be a little bit hesitant to nerf it" (t=403-408). On the board the 2024-era detector tracked an opposing Hog Rider reaching his left tower at t=238, again at t=336-338 (a ~1200 HP drop) and again at t=488-492, so it is probably in the opponent's deck, but no deploy label ever confirmed it.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, repeated bridge pressure in both lanes from clock 0:54 (video ~940s) through overtime. Ryley's standing answer is Tornado + Bowler at the King tower - "Going to go for the high bowler right now. And then we can go for the tornado as well. Just make sure to yank in that hog rider. Good defense" (1006-1014s).
+- he pre-places air cover for it rather than waiting - "Let's baby dragon preemptively in case a hog rider" (1046-1048s) - and expects it paired with the Mighty Miner ability (1059-1060s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

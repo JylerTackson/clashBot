@@ -182,6 +182,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:59: Princess at tile [8, 6] as the Minion Horde answer at the start of overtime — "Princess here for the horde." Almost every placement in this game is central (columns 8-9) on his own half so it covers both lanes.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- mentioned only, not played (t=163-167s): "I think it also means maybe it won't one-shot princess dart goblin and things like that anymore, but I'm not 100% sure. So don't quote me on that." — his hedged read on the post-nerf Evo Elite Barbarian spears.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

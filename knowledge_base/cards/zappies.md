@@ -187,6 +187,11 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1
 - clock 1:23 to 0:07 (video 370.4s onward): Zappies keep walking the left lane all game; his standing answer is Electro Spirit plus Barbarian Barrel (379.9s at [4, 8], 381.9s at [3, 9]) rather than a spell.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- mentioned only, not played (t=151-161s): named alongside Mother Witch as a unit the nerfed Evo Elite Barbarian spears (284 to 220 damage) will no longer kill outright with a simultaneous double throw.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

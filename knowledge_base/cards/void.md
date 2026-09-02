@@ -87,6 +87,16 @@ Not specified on source page
 - Viable Fireball substitute: 1 more Elixir for up to 3x the damage at the same radius, but inconsistent — weak against big pushes and worse on Crown Towers.
 - Strong synergy with Goblin Curse: the Void's high damage makes it much likelier that single units die and convert into Goblins, though this pairing does nothing against buildings.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 0:27 (video 967.0s, tile (1, 22)): cast on the enemy's half on top of his own Electro Giant push, exactly as pre-announced - "I'm definitely going to go for a void here on top of this. He has to go for a skeletons, which is nice. Just take out that firecracker there" (967-972s).
+- overtime clock 1:33-1:25: he talks himself out of a mid-lane Void because of the Mighty Miner - "We can get a nice void down the middle. Actually, no, I can't void down the middle... since he went for that mighty miner if I went for a void, I would have just gotten completely cooked" (1022-1037s); a Void is nonetheless logged at tile (8, 21) at video 1027.7s (HUD 5.0 -> 2.0, deploy label score 1.0), so treat the transcript timing as approximate.
+- overtime clock 0:29 (video 1084.1s, tile (16, 24)): held again, then thrown deep into the enemy right corner - "Can we maybe get a void? Nah, but he has the Evo Firecracker. I'll avoid the evo firecracker" (1083-1087s).
+- he spends the first 90 seconds of this game arguing against the announced Void buff while playing the card: "it is going to be a buff to the void. And this is the one that I fully disagree with the most out of everything in today's video" (827-836s); "they are buffing the void's hit frequency by 2%... from 1.2 to 1 second... it will just complete all of the void damage a lot sooner, which I definitely do think will make the card quite a decent bit better" (881-905s); "void is at the spot where like one change could just make it like absolutely gamebreaking... it will always be niche unless it's absolutely gamebreaking... I am just not an enjoyer of the void" (907-934s).
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Void (scraped 2026-09-02T02:35:29+00:00)

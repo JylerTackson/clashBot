@@ -152,6 +152,13 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3
 - OT 1:55: and its cycle — "we're out cycling the bomb tower. He's back. And one more card. Okay, he's back now, but it's a little bit too late" (t=849-853), said while the enemy left tower fell from 3019 to 1727.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 2:43: nine deploy-labelled plays, the busiest card of the game. Two placement families — "high" at the river to meet a lane ([5, 13] at clock 2:43, [8, 14] at OT 0:20) and centred in front of the towers to pull ([9, 9] clock 1:33, [8, 9] clock 0:50 and OT 0:15, [8, 10] OT 1:49 and OT 1:18, [8, 11] OT 0:52).
+- clock 0:29: the one left-side placement, [2, 9], came after the Firecracker/Hog Rider lane had already taken his left tower from 4858 to 2998.
+- OT throughout: the detector shows a bomb-tower sitting at [8, 6] across most of overtime, i.e. he kept one alive in the middle almost continuously while the opponent's right tower was ground down. No commentary — this game's talk is entirely about the patch notes.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

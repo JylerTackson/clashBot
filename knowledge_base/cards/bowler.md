@@ -173,6 +173,14 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1
 - clock 0:51 and 0:23 (video 405s, 433s): he plays around it twice — "He's going to go for the bowler" (405s) and then the placement rule "let's go for a high cannon here just to block the bowler just so I can get the barbarian barrel down" (433-435s).
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:11 (video 863.9s, tile (8, 1)): dropped off a full bar behind his own towers (HUD 10.0 -> 5.0, deploy label score 1.0) as the anchor of the defence, not as a reaction to anything on the board.
+- clock 1:19, 0:45 and 0:13 (video 915.9s, 945.9s, 982.0s, tiles (2, 8), (8, 0), (8, 9)): every regulation Bowler is centre-column or in a back corner, positioned to cover both lanes and survive into the counterpush behind the Electro Giant.
+- overtime clock 1:47 (video 1009.0s, tile (8, 13)): the high Bowler into a Tornado against a Hog Rider - "We have a bowler ready here. Going to go for the high bowler right now. And then we can go for the tornado as well. Just make sure to yank in that hog rider. Good defense" (1006-1014s).
+- overtime clock 1:37 and 0:39 (video 1018.7s, 1076.2s, both HUD 6.0 -> 1.0): each overtime Electro Giant gets a Bowler placed behind it in the same elixir window.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

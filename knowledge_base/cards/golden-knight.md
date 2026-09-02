@@ -101,6 +101,16 @@ The Golden Knight has a special ability, accessible from the rightmost side of t
 - Substitutes: Bandit (2 Elixir cheaper and higher damage, but less HP and a single-target dash), Royal Ghost / Baby Dragon / Dark Prince when splash is wanted, or Knight / Prince / Valkyrie when tanking matters more (all notably less mobile).
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor choice for Clan Wars Defense Towers.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- clock 2:40 (video 833.8s, tile (8, 0)): opened the game with the Champion in the centre of his own back line (deploy label score 1.0; matching HUD drop 9.0 -> 5.0 was mislabelled 'Valkyrie').
+- clock 0:43 and overtime clock 1:27 (video 949.9s, 1027.0s, tile (8, 11)): re-deployed centrally on his own half as a defensive body against Hog Rider / Mighty Miner arrivals rather than as a lane opener.
+- overtime clock 0:53 (video 1062.1s, tile (15, 9)): sent up the right flank alongside the Electro Giant - "we can go for the Golden Knight off the side" (1062s).
+- overtime clock 0:27 (video ~1088s): the Dashing Dash is his stated last hope - "we have to get through with the golden knight, guys. If we don't get through with the golden knight, then we're completely wrecked" (1088-1090s). It did not get through; he was three-crowned.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

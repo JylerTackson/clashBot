@@ -118,6 +118,13 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1
 - clock 1:15 to 1:07 (video 378.4s, tile [4, 19], then tracked to [4, 9]): walks the left lane behind the Zappies and is met with the Electro Spirit plus Barbarian Barrel pair at 379.9s/381.9s. Ryley does not name the card on the transcript in this game.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- Not played in this game (the single 'Little Prince (Buff)' deploy label at t=655.7 is the balance-notes overlay he has on screen, and the deck already runs the Archer Queen as its champion) — but it is the card he is most enthusiastic about: 'that is the buff to the fan favorite little prince. And it just seems like it's a ritual at this point just to buff the little prince in every single balances' (t=641-656s).
+- t=662-693s: gives the number and his reaction — 'the little prince is getting his charge damage from 256 to 320. So I guess that's like the max amount of damage that he's able to do when he's completely charged up. Or maybe that's the guardian. They didn't really make it too clear. But that is a massive buff. That is 25% and a 25% buff to anything is really good.'
+- t=693-742s: thinks he is one meta shift from breaking out — 'with all of the buffs it has been receiving recently, all it needs is like that one breakthrough meta' — and flags his own bias: 'I'm a really big fan of the card. That's where like the personal bias comes in ... Personally, just don't like the queen, but I really do like the little prince.'
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

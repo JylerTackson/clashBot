@@ -210,6 +210,20 @@ Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6
 - overtime 1:10: the deciding push is Royal Hogs at [15, 10] behind a Berserker plus her ability - 'Let's go for the berserker plus royal hogs here. Definitely want to go in for a push here'; the enemy right tower falls from 3229 to 366 HP and a Lightning finishes it at 0:54.
 <!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- clock 1:21: the win condition, played as tempo off defence rather than as a built push — four clean deploy labels, all at or beside the river: [9, 14] at clock 1:21, [15, 14] at clock 0:42, [15, 15] at OT 1:22 and [15, 15] at OT 1:05. Three of the four go to the right-hand bridge, the lane he eventually won in.
+- clock 2:08 to 1:53: a right-lane counter-push took the opponent's right tower from 4858 to 3796 (the biggest swing of regular time). The 2024-era detector called the attacker 'elite-barbarian' crossing [13, 11] to [16, 23], which is in neither read of his deck; Evo Royal Hogs is the likely identity but no deploy label was read, so this one is inference.
+- Note: four further 'Royal Hogs' deploy labels in this game were filed as opponent plays despite every one of them landing on Ryley's own half (rows 12-15); they are most likely his as well.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 2:38 (t=537.5): opens with Royal Hogs at tile (2, 13) on the left rail, no supporting troop behind them — through the whole game the follow-up is an Earthquake, never a tank or a splash unit.
+- clock 2:08 (t=561.6): the one time he varies the placement, dropping the Hogs dead centre at (8, 15) instead of the left rail; every other deployment (t=647.6, 679.7, 705.7, 729.7, 744.7, 761.8, 800.8) goes back to columns 2-3 at the bridge.
+- clock 0:44 -> 0:42 (t=647.6 -> 649.6) and OT 0:13 (t=800.8 -> 801.8): Royal Hogs at (2, 15) then Earthquake in front of the enemy left tower 1-2 s later; eight Hogs deployments plus twelve Earthquakes take the enemy left tower from 4858 to about 2120 across the readable window.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

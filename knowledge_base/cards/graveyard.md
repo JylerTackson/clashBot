@@ -143,6 +143,16 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - clock OT 1:29 (t=204-216): the stated rule — "goblin stein is just so strong against graveyard whenever they don't have their Evo snowball in cycle because when they don't have their Evo snowball, they're just unable to move like the length of the goblin stein and it just takes out the whole graveyard pretty much every time."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.1.md):
+- OT 0:48 (t=461-463): mentioned only, and as the example of what Electro Spirit ruins — "it's actually such an annoying card to go up against when you know you have graveyard even bait." Not played by Ryley; a graveyard was tracked on his right tower at t=442-444 but that is a single-source detector read.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, one arrival at clock 1:20 of overtime (video 1033.0s, tile (11, 10), arena detection at medium confidence); his right tower fell from 4048 to 2685 in the four seconds that followed. Ryley does not name it - his commentary in that window is about the Mighty Miner instead.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

@@ -185,6 +185,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 1:58 (opponent): deploy label '"NigHt' at tile [4, 15], their attempt to hold the lane the Mega Knight is entering. The tower behind it falls from full to 135 HP within seven seconds - "he really just doesn't have good cards to defend."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.0.md):
+- opponent card, clock 2:37 to 0:31 (t=14s [13, 23], t=20s [13, 16], t=140s [5, 21], t=174s [4, 19]): their most-cycled card, opened the game with it down the right lane. Ryley answered it cheaply every time — Goblin Gang at [14, 5] plus The Log at [14, 10] at t=72-74s — and never spent a heavy card on it.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

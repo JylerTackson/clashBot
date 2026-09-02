@@ -132,6 +132,18 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.m
 - clock 0:24: still the card he most wants gone late - "We need to kill that Firecracker."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.2.md):
+- clock 1:35 (t=594.6): the opponent's Firecracker at (10, 17) in the right lane; Ryley answers with a 1-elixir spirit behind his Cannon at (10, 7) rather than spending a spell on her.
+- OT 1:51 / 0:27 / 0:13 (t=698.7, 782.8, 800.8): she keeps coming back in both lanes through overtime and is the main source of chip on Ryley's own left tower.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:start -->
+Match [EMERGENCY Balance Changes Announced!!](../matches/Z8-4VhLjrGU-m0.3.md):
+- opponent card, eight arrivals from clock 2:26 (video 846.8s) to the last seconds. Ryley rates the opponent's cycle speed off it - "I do definitely think he has the slight edge having the quick cycle firecracker" (975-978s).
+- he treats the evolved version as a no-go zone for his own spells - "Can we maybe get a void? Nah, but he has the Evo Firecracker. I'll avoid the evo firecracker" (1083-1087s); his answers to it were Barbarian Barrel at (4, 11) (video 901.2s) and Tornado into Bowler.
+<!-- creator-insights:ryleycr1:Z8-4VhLjrGU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)
