@@ -25,6 +25,7 @@ from .events import PlayDetector
 from .hud import (CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, HandReader, OcrReader, TowerHpReader,
                   crop_roi, parse_clock)
 from .labels import DeployLabelReader, label_ground_point
+from .tracking import UnitTracker, load_speed_priors
 from .screen import ContentRect, MatchGate, assess, detect_content_rect
 from .sources import FrameSource
 from .state import GameState, PlayEvent, UnitObs
@@ -85,6 +86,9 @@ class Perception:
         self.own_sim = ElixirSimulator()
         self.opp_sim = ElixirSimulator()
         self.deck = OpponentDeckTracker(load_kb_decks(self.kb))
+        cats = {c["slug"]: ("building" if c["card_type"] == "Building" else "spell" if c["card_type"] == "Spell" else "unit")
+                for c in _idx["cards"]}
+        self.tracker = UnitTracker(speed_priors=load_speed_priors(self.kb), categories=cats)
         self.towers = g.TowerState()
         self.last_good: dict = {}
         self.last_good_t: dict = {}
@@ -147,6 +151,7 @@ class Perception:
         self.own_sim.reset(t)
         self.opp_sim.reset(t)
         self.deck.reset()
+        self.tracker.reset()
         self.towers = g.TowerState()
         self.last_good.clear()
         self.match_t0 = t
@@ -270,23 +275,33 @@ class Perception:
                 towers_enemy[k] = self.last_good.get(f"enemy_{k}")
             self._tick("labels", t0)
 
-        # ---- units ----
+        # ---- units: detector at a low rate, Kalman tracks every frame ----
         units: list[UnitObs] = []
         units_conf = None
         if self.detector is not None and self.H is not None and idx % self.detect_every == 0:
             t0 = time.perf_counter()
             dets = self.detector.detect(content, self.calib.arena_crop(cw, ch))
+            towers_seen: list[UnitObs] = []
+            tracked_in = []
             for d in dets:
-                tile = None
-                if d.category in ("unit", "spell") and self.H.in_arena(*g.bbox_bottom_centre(d.bbox), margin=1.0):
-                    tile = g.clamp_tile(*g.bbox_to_tile(self.H, d.bbox))
-                units.append(UnitObs(d.cls, d.side, tile, d.conf, tuple(int(v) for v in d.bbox), None, d.category))
-            units_conf = round(float(np.mean([u.conf for u in units])), 3) if units else 1.0
-            self.last_good["units"] = units
+                bx, by = g.bbox_bottom_centre(d.bbox)
+                if d.category in ("unit", "spell") and self.H.in_arena(bx, by, margin=1.0):
+                    d.pos_f = self.H.pixel_to_tile_f(bx, by)
+                    tracked_in.append(d)
+                elif d.category == "tower":
+                    towers_seen.append(UnitObs(d.cls, d.side, None, d.conf, tuple(int(v) for v in d.bbox), None, d.category))
+            self.tracker.update(t, tracked_in)
+            self.last_good["towers_seen"] = towers_seen
             self.last_good_t["units"] = t
+            units_conf = round(float(np.mean([d.conf for d in tracked_in])), 3) if tracked_in else 1.0
             self._tick("detect", t0)
-        else:
-            units = self.last_good.get("units", [])
+        elif self.H is not None:
+            self.tracker.predict(t)
+        for tr in self.tracker.confirmed():
+            m = tr.summary()
+            units.append(UnitObs(tr.cls, tr.side, tuple(m["tile"]), tr.conf, tuple(int(v) for v in (tr.bbox or (0, 0, 0, 0))),
+                                 tr.id, tr.category, m))
+        units += self.last_good.get("towers_seen", [])
 
         # ---- events ----
         phase_key = "single" if not phase else "double" if phase.startswith("double") else "triple" if phase.startswith("triple") else "single"
@@ -346,7 +361,7 @@ class Perception:
                                   "own_elixir_drift": d_stats}
         state.stale = {"elixir": round(t - self.last_good_t.get("elixir", t), 2) if stale_e else 0,
                        "clock": round(t - self.last_good_t.get("clock", t), 2) if stale_c else 0,
-                       "units": round(t - self.last_good_t.get("units", t), 2) if idx % self.detect_every else 0}
+                       "units": round(t - self.last_good_t.get("units", t), 2)}
         self._mask = mask
         self._tick("total", t_all)
         return state

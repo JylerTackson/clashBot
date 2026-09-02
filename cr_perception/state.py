@@ -15,11 +15,15 @@ class UnitObs:
     bbox: tuple[int, int, int, int]
     track_id: int | None = None
     category: str = "unit"  # "unit" | "spell" | "tower" | "ui"
+    motion: dict | None = None   # Kalman track summary: pos, vel, speed, heading, pos_std, pred_1s, pred_2s, eta_*
 
     def to_json(self) -> dict:
-        return {"class": self.cls, "side": self.side, "tile": list(self.tile) if self.tile else None,
-                "conf": round(self.conf, 3), "bbox": list(self.bbox), "track_id": self.track_id,
-                "category": self.category}
+        d = {"class": self.cls, "side": self.side, "tile": list(self.tile) if self.tile else None,
+             "conf": round(self.conf, 3), "bbox": list(self.bbox), "track_id": self.track_id,
+             "category": self.category}
+        if self.motion:
+            d["motion"] = self.motion
+        return d
 
 
 @dataclass

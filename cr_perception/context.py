@@ -68,9 +68,14 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
             "own_elixir": s["own"].get("elixir"), "opp_elixir_est": s["opponent"].get("elixir_est"),
             "hand": s["own"].get("hand"), "next": s["own"].get("next_card"),
             "towers_own": s["own"].get("towers"), "towers_enemy": s["opponent"].get("towers"),
-            "units": [{"class": u["class"], "side": u["side"], "tile": u["tile"]} for u in s.get("units", [])
-                      if u.get("category") not in ("tower", "ui") and u.get("tile")],
+            "units": [{"class": u["class"], "side": u["side"], "tile": u["tile"],
+                       **({"heading": u["motion"]["heading"], "speed": u["motion"]["speed"], "pred_2s": u["motion"]["pred_2s"],
+                           "pos_std": u["motion"]["pos_std"], "eta_tower": u["motion"].get("eta_tower")} if u.get("motion") else {})}
+                      for u in s.get("units", []) if u.get("category") not in ("tower", "ui") and u.get("tile")],
         })
+        row = timeline[-1]
+        row["threats"] = [f"{u['class']}({u['side'][0]}) {u['heading']}, tower in {u['eta_tower']['s']}s"
+                          for u in row["units"] if u.get("eta_tower") and u["eta_tower"]["s"] <= 8 and u["side"] == "enemy"]
 
     # own deck: cards seen in hand/next + own plays
     hand_cards = Counter()
@@ -121,7 +126,9 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
          f"sources {ctx['quality']['events_by_source']}, hand confidence {ctx['quality']['hand_conf_mean']}, "
          f"own-elixir drift {ctx['quality']['own_elixir_drift']}", "",
          "Tile coordinates: (col 0-17 left to right, row 0-31 bottom to top); Ryley's half is rows 0-14, river 15-16, "
-         "opponent half 17-31. Unit positions come from a detector frozen in 2024 (newer cards may be missing or "
+         "opponent half 17-31. Unit positions are Kalman-tracked estimates (heading and 2 s prediction from a "
+         "constant-velocity model seeded with the card's speed class); 'THREATS' lists enemy units within ~8 s of a tower. "
+         "Detections come from a detector frozen in 2024 (newer cards may be missing or "
          "'unknown_unit'); deployments from the in-game deploy label are reliable for any card.", "",
          "## Plays", ""]
     for e in ctx["events"]:
@@ -136,7 +143,10 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
         while ci < len(ctx["transcript"]) and ctx["transcript"][ci]["t"] <= row["t"]:
             L.append(f"> [{ctx['transcript'][ci]['t']:.0f}s] {ctx['transcript'][ci]['text']}")
             ci += 1
-        units = ", ".join(f"{u['class']}({u['side'][0]})@{tuple(u['tile'])}" for u in row["units"][:10])
+        units = ", ".join(f"{u['class']}({u['side'][0]})@{tuple(u['tile'])}" + (f" {u['heading']}" if u.get("heading") and u["heading"] != "stationary" else "")
+                          for u in row["units"][:10])
+        if row.get("threats"):
+            units += " | THREATS: " + "; ".join(row["threats"])
         L.append(f"- {row['t']:.0f}s clock {row['clock']} {row['phase'] or ''} | elixir {row['own_elixir']} / opp~{row['opp_elixir_est']} | "
                  f"hand {[n(c) if c else '-' for c in (row['hand'] or [])]} next {n(row['next'])} | towers own {row['towers_own']} enemy {row['towers_enemy']} | {units}")
     while ci < len(ctx["transcript"]):

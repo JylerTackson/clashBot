@@ -40,11 +40,21 @@ def draw_units(img: np.ndarray, h: g.Homography, units, show_bbox: bool = True) 
             cv2.rectangle(img, (x1, y1), (x2, y2), col, 1)
         bx, by = g.bbox_bottom_centre(u.bbox)
         cv2.circle(img, (int(bx), int(by)), 3, col, -1)
+        if getattr(u, "motion", None):
+            m = u.motion
+            p0 = h.tile_to_pixel(m["pos"][0], m["pos"][1], centre=False)
+            p1 = h.tile_to_pixel(m["pred_1s"][0], m["pred_1s"][1], centre=False)
+            p2 = h.tile_to_pixel(m["pred_2s"][0], m["pred_2s"][1], centre=False)
+            if m["speed"] > 0.15:
+                cv2.arrowedLine(img, (int(p0[0]), int(p0[1])), (int(p1[0]), int(p1[1])), col, 2, cv2.LINE_AA, tipLength=0.3)
+                cv2.circle(img, (int(p2[0]), int(p2[1])), 4, col, 1, cv2.LINE_AA)
+            rad = int(max(2, m["pos_std"] * abs(h.tile_to_pixel(1, 0)[0] - h.tile_to_pixel(0, 0)[0])))
+            cv2.circle(img, (int(p0[0]), int(p0[1])), rad, col, 1, cv2.LINE_AA)
         if u.tile is not None:
             c, r = u.tile
             pts = np.array([h.tile_to_pixel(c + dc, r + dr, centre=False) for dc, dr in ((0, 0), (1, 0), (1, 1), (0, 1))], np.int32)
             cv2.polylines(img, [pts], True, col, 2)
-            label = f"{u.cls} {u.conf:.2f} ({c},{r})"
+            label = f"{u.cls} {u.conf:.2f} ({c},{r})" + (f" {u.motion['speed']:.1f}t/s" if getattr(u, "motion", None) and u.motion["speed"] > 0.15 else "")
         else:
             label = f"{u.cls} {u.conf:.2f}"
         cv2.putText(img, label, (x1, max(10, y1 - 3)), cv2.FONT_HERSHEY_SIMPLEX, 0.38, col, 1, cv2.LINE_AA)
