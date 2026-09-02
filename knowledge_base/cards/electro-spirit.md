@@ -371,6 +371,18 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.3.md
 - opponent card. One enemy-side track at [4, 21] at t=788, and the card Ryley uses to rule out a heavier list: 'I don't think he has the golem anymore because of the E spirit' (t=841-843).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Five uses at (2, 8), (2, 14) twice, (13, 14), (3, 15) and (3, 9) — every one a prediction rather than a reaction to something already on the field.
+- clock 1:43: "I'm going to go for the Barb Barrel, and I'm going to go for the E-Spirit here to try to predict the Skeletons. Nice, good timing right there." (351-354s)
+- clock 1:17: Electro Spirit at (3, 15) timed for the opponent's Evolution Skeletons because the Barbarian Barrel was already spent: "then we can E-Spirit predict the Evo Skellies since we just wasted our Barb Barrel. Nice, let's go. Very good sequence right there. One Skelly lives, but that's going to be at least two shots, maybe three." (378-385s)
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:54: tracked with the opponent's Valkyrie and Royal Giant on the right-lane push that costs Ryley a third of his right tower. Not named directly; Ryley's spirit commentary at 595-598s ("it doesn't get reset by like spirits and stuff like that") is about his own Ice Spirit failing to reset the enemy hero ability.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

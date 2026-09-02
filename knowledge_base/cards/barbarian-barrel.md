@@ -411,6 +411,18 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - overtime (t=1497.5): at the bridge, tile (14,15), as a 2-elixir tank for the delayed Battle Ram — "we're going to barbarian barrel at the bridge, too. Maybe could tank for the battle ram"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Five uses, all on the left column near the river — (3, 13), (3, 14), (3, 13), one at t=407.7 and (3, 10) — never rolled at the enemy tower for chip.
+- clock 1:21: rolled to finish a Miner that had already been chipping the tower, with the opponent's follow-up spell already predicted. "I want a Barbarian Barrel that Miner just to finish it off cuz he's going to maybe go for a NATO ['a 'Nado']" (373-377s).
+- He tracks it as a rotation resource, not a free answer: "we can E-Spirit predict the Evo Skellies since we just wasted our Barb Barrel" (378-380s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- Not in Ryley's deck this game — it is the opponent's, and Ryley tracks its rotation as the gate on both his offence and his defence: "whenever he goes for like the Barbarian Barrels on defense, we could always use the ability to try to skirt up to the tower" (567-571s), "because he has no barbarian barrel skarmy is a free RG defense" (626-628s), and, when it comes back, "Oh, damn he got back with the barb barrel. Very well played by Aragon" (640-643s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

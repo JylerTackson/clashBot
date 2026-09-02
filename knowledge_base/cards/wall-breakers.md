@@ -272,6 +272,34 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:42-0:34 (t=1267.3 [8, 18], 1274.3 [9, 19]): played deep on the opponent's half in the closing push once the opponent stopped defending; the enemy right tower reads ~4499 -> 128 HP over t=1272-1274.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Evolved, and the eighth card of the deck (the HUD misreads it as Goblins all game). He names the deck after it: 'I think this Miner Wall Breakers deck will be back, man' (t=121).
+- clock 1:25, 0:35 and overtime 1:52: bridge placements at tiles [9, 13] and [15, 14] twice (t=90.1, t=140.1, t=184.2), always with a Miner in front — 'let's go for the Wall Breakers here, and then we can go for the Miner as well' (t=139-143); 'Very good damage with the Wall Breakers' (t=192).
+- clock 0:15: used defensively as a kite against the opponent's abilitied Hero Valkyrie — 'I think we can just Wall Breaker kite that Valkyrie. If he abilities, that'd be very bad. Go for the Wall Breakers here to kite this' (t=157-162).
+- overtime clock 0:45-0:22: two more Miner + Wall Breakers pushes into a tower already at 258 HP, one that whiffs ('Come on, wall breaker. Oh, man, we didn't get any damage', t=254-256) and one that lands ('Beautiful wall breakers as well', t=273).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 1:25 and 2:00: used defensively at river-side tiles on his own half, (13, 14) against an advancing Hunter and again as a Fisherman comes down the left — "We can just go for the defensive wall breakers here. Make sure that we tank for that. Not bad" (555-557s). The Fisherman is retreating by 560s.
+- clock 0:33: the one clean offensive connection, worth roughly 350 HP off the enemy left tower (2618 -> 2271) — "Yo, come on wall breakers wall breakers. Nice, we get one. I'll take that" (604-606s).
+- clock 0:05 and overtime 1:37: paired with a Goblin Barrel in the same lane as a two-card pressure package ("apply some pressure here with the wall breakers plus goblin barrel", 632-636s), and again as a defensive body with a Skeleton Army behind it ("Let's go for the wall breakers. Skarmy to block", 664-665s).
+- Detection note: the HUD read this deck slot as "Goblins" for most of the game; the Wall Breakers deploy labels (score 1.0) and the consistent 2-elixir spends are what identify it.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:52-0:11: six Wall Breakers deploys in 76 seconds (HUD at t=706.3 and t=714.8; labels at (13, 13), (3, 15), (4, 14) and (14, 15)), alternating lanes against the Goblin Barrel's left-side pressure, and never announced in the commentary — pure cycle-and-pressure filler in overtime triple elixir.
+- clock 0:37 (t=721.4): Wall Breakers at (13, 13) one second after the Goblin Barrel label at (3, 26) — the barrel-left / Wall-Breakers-right split that keeps a single spell from covering both threats.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 1:30-1:26 (t=846-852): instead of spending a defensive card on the opponent's Wall Breakers, he Tornadoes them at (9,8) into King Tower range - "let's just go for the Nado here. Make sure we activate the King Tower", then "Beautiful. Great King Tower activation. Always good to get that up."
+- clock 0:22 (t=912-915): a 1-elixir Ice Spirit onto a Wall Breakers pair at the right bridge - "Let's Ice Spirit here. Nice. Good defense."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

@@ -280,6 +280,17 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - Never played by either side, but discussed at length as the card that would swing this matchup against a Log Bait cycle deck — "princess is super good against my deck, to be honest. I'm just completely unable to kill it" (916-921s), the trade-off being that she does not activate the king tower the way Firecracker does (921-924s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 2:08: opening placement is behind his own King Tower at (8, 0) for two-lane coverage, not the bridge.
+- clock 0:24 and overtime 1:39: both later Princesses go to the left bridge at (2, 14) as barrel bait — "Let's go for the princess at the bridge and I'm going to go for the skeleton army too maybe. No, let's just barrel here" (617-620s) and "Let's princess the bridge. He has no cycle cards for us" (661-663s), the second one specifically because the opponent is out of cheap answers.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:43 (t=716.5): one Princess in the whole segment, at (9, 9) — centre and well behind his own towers, dropped while the Heroic Valkyrie was already taking the enemy left tower from 827 to 414. In this game she is a safe chip/anti-swarm placement, not bridge pressure.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

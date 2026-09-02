@@ -444,6 +444,20 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md
 - clock 2:11 and 0:27: the opponent's Skeletons appear as cheap distraction/cycle units in both lanes ((14, 15) at 2:11, (2, 12) at 0:27); Ryley does not address them directly, and they are part of the cycle he calls out at overtime 1:25 — "The way that he's cycling his cards is just not good."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Evolved. Six cheap blocks, all at rows 10-15 on his own half ([5, 10] t=112.9, [9, 14] t=155.7, [8, 14] t=179.5, [2, 11] t=212.2, [8, 15] t=236.2, [7, 14] t=271.3).
+- clock 1:03: the third card of the log-nado clean-up — 'maybe the Evo skeletons as well just to make sure that we get all of this off the board' (t=112-116).
+- clock 0:19: dropped in front of the opponent's Hero Valkyrie both as a block and as an ability target — 'he goes for his Valkyrie. Let's go for the Skellies' (t=153-157); earlier he explains the interaction, 'if there is, say, a Valkyrie and a set of skeletons, it will start spinning and go towards the skeletons, which in my opinion is really good' (t=59-67).
+- overtime clock 0:23: body-block on the Evolved Firecracker — 'we skellies to block the evil firecracker' (t=271).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Five uses at (3, 5), (3, 9), (1, 9), (9, 15) and one unlabelled, all cheap distraction and cycle inside his own half.
+- clock 0:23: stacked behind the Evolution Hunter against the enemy Heroic Valkyrie while the Fireball is held back — "We can Skellies and we have the Fireball ready for the Magic Archer" (433-434s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

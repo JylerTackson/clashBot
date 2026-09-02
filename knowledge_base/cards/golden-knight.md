@@ -154,6 +154,16 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 0:57: it is the reason he holds Royal Hogs instead of sending them — 'I do have a set of Royal Hogs, but I have to be more careful of these Golden Knights, man'; he answers the next one with Berserker at clock 0:37 ('Berserker here. Try to take out this Golden Knight').
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Mentioned only, never played — his reference point for how the Hero Valkyrie's ability behaves: 'You can kind of compare it to the Golden Knight, I feel like. The Golden Knight is similar to the Valkyrie, except that the Valkyrie like doesn't stop until the ability is over' (t=69-77), and again on the Valkyrie targeting the tower, 'kind of like how it just starts dashing towards everything like the gold knight. I think the tower also counts, I guess' (t=233-237). He also frames the Valkyrie + Miner push as 'Miner Golden Knight vibes where like they just can't defend properly' (t=195).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Mentioned, not played. At 402-408s he uses the Golden Knight's dash as the reference point for what the Heroic Valkyrie's Wild Whirlwind does to a clump of mid-court support: "he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

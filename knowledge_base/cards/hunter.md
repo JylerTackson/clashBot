@@ -149,6 +149,19 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - clock 0:47-0:43 (t=1436-1442): calls spending Hunter on defence a mistake — "that was a bad hunter though cuz now after using that hunter that's just a free cannon cart"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Evolution Hunter, and purely defensive: all four deploys are deep in his own half — (3, 11) at clock 2:38, (8, 15), (0, 12) at 0:27, (1, 6) at 0:03. The first was not intended: "Let's go for the hunter here. Oh my god, I misclicked." (298-299s)
+- clock 0:27: pre-placed against the enemy Heroic Valkyrie before she can spin, rather than reacting to the ability. "Okay, let's Evo Hunter here for the Hero Valkyrie before he gets a chance to pop the ability. I just don't want to deal with that thing." (428-432s)
+- clock 0:03: Hunter at (1, 6) is played off to the side while the Fireball does the damage — "Fireball number one, Hunter on the side" (452s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- Faced four times (clock 2:05, 0:27, overtime 1:28 and 1:23). Ryley answers with cheap ranged damage plus a freeze rather than a body: Dart Goblin plus Ice Spirit at clock 0:28-0:27 ("Make sure that we damage that hunter") and Skeleton Army plus Dart Goblin in overtime ("That should make it so the hunter won't connect to our tower").
+- clock 1:03: he names it as a bad answer to a Goblin Barrel and a good target for Wild Whirlwind — "sometimes people like to go for like the hunter or something, but then that is definitely a really good Valkyrie ability" (578-582s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hunter (scraped 2026-09-02T02:35:02+00:00)

@@ -153,6 +153,14 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 1:25 (t=932.9) goblins at [12, 16] pushing the right lane alongside the Mortar; handled by the Tesla and the Skeletons at [8, 5] without spending a spell.
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:02-2:00 (t=815.9): Goblins pre-placed at (1,7) behind his own left tower before the Miner appears - "I'm just going to chill out here then maybe have our Goblins ready for the Miner... Goblins to catch the Miner. Perfect." He repeats the same (1,7)/(1,6)/(1,5) placement six times across the game.
+- clock 0:27 (t=908.7): Goblins at (5,5) then The Log behind them as a two-card ground answer - "Go for the Goblins log here. Beautiful catch, man. I'm catching pretty much everything."
+- clock 1:48 overtime (t=945.7): Goblins at (1,6) thrown as a prediction, mistimed - "Goblins predict the minor then we hog. Oh, bad timing."
+- clock 0:13 overtime (t=1046.8): Goblins at (1,5) as a prediction that lands - "Goblins predict them. Okay, nice."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

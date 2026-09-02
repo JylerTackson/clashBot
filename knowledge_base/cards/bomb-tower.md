@@ -219,6 +219,24 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md
 - Five opponent deployments across the game (t=100, 148, 192, 212, 244), all in the centre-right of the opponent's half — against a building-less bridge spam deck it answers Battle Ram, Elite Barbarians and Cannon Cart alike.
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- The defensive anchor: seven placements, six on the same central band from tile [8, 8] to [8, 13] (t=60.1, t=77.1, t=132.1, t=180.2, t=216.2, t=238.2, t=251.3), against Graveyard, Cannon Cart and the enemy Valkyrie.
+- clock 0:45: Bomb Tower at [8, 10] behind a Valkyrie at [9, 10] as the Graveyard lands at [8, 0] (t=132.1, t=134.1) — the pattern he repeats every time the opponent commits.
+- overtime clock 1:20 and 0:27: he calls it as the reflex answer under pressure — 'Let's just go for the Bomb Tower here' (t=216), 'then we have to go for the bomb tower' (t=239), 'Let's bomb tower here. We're going to take a lot of damage here' (t=268).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Opponent's only defensive building, sitting at (8, 19) from clock 1:46 onward. Ryley uses its cycle as the trigger for his commits: "He's in a bit of a predicament cuz he has to cycle back to the Bomb Tower. Okay, he's back to the Bomb Tower now, but I should be able to defend this anyways" (362-369s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- The opponent's Bomb Tower (tracked at (9,19) for most of the game) is what Ryley plays his Hog Rider around: he counts forcing it out as the return on the Hog - "At least he has to use the bomb tower again. He's barely got any damage" (clock 1:44 overtime, t=951).
+- clock 0:48 overtime (t=1007-1011): he punishes a forward Bomb Tower placement at (9,15) - "Okay, that was a bad bomb tower. Just in general... this is going to get a free hog rider shot."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

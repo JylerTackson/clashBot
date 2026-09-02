@@ -140,6 +140,11 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 2:29, 1:23 and 1:12 (t=868.9, 934.9, 948s): repeated cheap chip in both lanes; answered by the Tesla at [11, 14] at clock 2:28 and by the Barbarian Barrel at clock 1:10 — "Barbarian barrel here for the spears" (950s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- The opponent's Spear Goblins (t=783.6, 879.7, 1035.8) are the card he keeps The Log for: "we can log here as well. It's going to take out the spears" (clock 0:03, t=934).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

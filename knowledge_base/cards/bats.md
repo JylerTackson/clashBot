@@ -184,6 +184,13 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - clock 0:50 (t=969.0) Evolved Bats at [15, 21] into the right lane, answered by Furnace plus Electro Spirit; at clock 0:32 he pre-empts the next set with an Electro Spirit at [12, 12] — "in case he bats. Beautiful prediction right there" (989-993s).
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- The opponent's Evo Bats are why his Executioner is held rather than cycled: "we could go for the Executioner at the bridge if he goes for the Bats" (clock 2:16, t=800) and "Axe here. Make sure we take these out. Never really risking anything" (clock 1:22, t=854).
+- clock 1:16 (t=858-862): on how hard the evolved version is to clear even after a full Executioner axe - "Damn, those Bats are like on a mission to survive, honestly. That's kind of crazy."
+- clock 1:32 overtime (t=964-969): Tornado plus Ice Spirit is his cheap answer, and it is only partial - "let's tornado ice spirit here and we should take out the bats decently", then "He's going to have two bats alive."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

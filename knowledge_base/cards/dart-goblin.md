@@ -331,6 +331,19 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md
 - clock 0:28 (t=1056-1058): names it as the reason his offence stalled — "Dude, we just don't have ways to kill the dark goblin"; at t=1119-1121 the opponent misses one and Ryley calls the game, "Wait, he missed his dark goblin. Yo, he's cooked".
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:28 and overtime 1:28: the Hunter answer, placed on his own half at (16, 11) and (8, 10) with an Ice Spirit alongside — "Make sure that we damage that hunter. Beautiful" (613-615s) and "That should make it so the hunter won't connect to our tower. Let's dark goblin here in the middle... Our dark goblin's going to get crazy value" (669-676s).
+- clock 2:32 and 2:02: dropped centre-field behind the Valkyrie at (10, 12) and (9, 10) as generic support — "Let's go for the Dark Goblin here, guys" (514-515s). All five of his Dart Goblins this game are on his own half; none is used as a bridge chip play.
+- overtime 1:47: he survives the enemy Valkyrie because of the hero ability trade — "Dark goblin's going to stay alive I think because of that" (656-658s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 1:07 and 0:52 (t=690.5, t=708.5): Dart Goblin at (9, 11) and (3, 13), both behind his own defensive line rather than at the bridge, covering the air/ranged hole left by Cannon and Valkyrie.
+- clock 0:33 (t=725.9): Dart Goblin added to the defensive pile against the opponent's left-lane push; he treats its survival as the payoff of a good Valkyrie — "That's going to take out his Valkyrie, and the Dark Goblin's going to live again like it did last time" (733-735s), and "Dark Goblin here as well" (746s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

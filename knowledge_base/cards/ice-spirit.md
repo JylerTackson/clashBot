@@ -344,6 +344,26 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:40 (t=1268.6): at [10, 20] on the opponent's half as push glue behind the Wall Breakers/Berserker, plus 1-elixir HUD drops at t=1249.9, 1271.3 and 1275.3 in the same two roles (freeze on defence, extend the push).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:53, 0:27 and 0:08: the 1-elixir top-up on every defensive stack — Cannon plus Ice Spirit against the Royal Giant push, Dart Goblin plus Ice Spirit against the Hunter, Skeleton Army plus Cannon plus Ice Spirit at clock 0:12. Never sent alone or as a lone offensive extension.
+- clock 0:50-0:37: his most useful finding of the game is a non-interaction — the Heroic Valkyrie's Wild Whirlwind is not reset by it: "for some reason the Valkyrie doesn't actually reset the like well it doesn't get reset by like spirits and stuff like that. So, like even if it's like frozen by the spirit it keeps swinging which is so weird. I wonder if I like froze it if it would keep swinging. That definitely has me curious" (589-603s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:38 (t=719.5) and 0:23 (t=735.5): Ice Spirit at (14, 14) and (11, 13), always attached to an existing defensive stack rather than played on its own — "Let's Ice Spirit here" (737s).
+- clock 0:17 (t=743.0, t=745.9): two more Ice Spirits inside five seconds while an evolved Royal Giant walks his right lane, framed as damage prevention rather than value — "we need to get an Ice Spirit down just to make sure that we don't take any damage" (747-748s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:00 (t=815.4): Ice Spirit at (8,13) behind his own tower, paired with Goblins, specifically for the Miner - "Let's go for the Ice Spirit here then Goblins to catch the Miner. Perfect."
+- clock 0:47 (t=889.0): Ice Spirit at (7,15) on the river to freeze the enemy Valkyrie and Bats - "Okay, let's go for the Ice Spirit here. Make sure we take this out."
+- clock 1:32 overtime (t=963.8): Ice Spirit at (11,11) behind a Tornado on Evo Bats - "let's tornado ice spirit here and we should take out the bats decently."
+- clock 0:13 overtime (t=1044.8): predictive Ice Spirit for the Miner - "I'm going to say ice spirit predict the minor, but it's fine. We got it."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

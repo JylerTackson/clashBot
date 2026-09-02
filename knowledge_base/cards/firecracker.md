@@ -182,6 +182,12 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md
 - OT 1:30 and OT 0:53: the card he complains about most (ten separate tracks, most-mentioned card in the game) — 'he has an Evo Firecracker in hand now' (t=207) and 'He's just going to Firecracker again. Damn, is this annoying' (t=169).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Opponent card (Evolved), the recurring problem for Ryley's ground defence. clock 1:10: 'I'm just going to go for the log here to try to take out that Firecracker. Oh man, it didn't get shot' (t=105-108), forcing a log-nado plus Evo Skeletons clean-up.
+- overtime clock 1:37: killed by the Hero Valkyrie's Wild Whirlwind on the way to the tower — 'look, it's going to take out the Firecracker. Nice, and it's on the tower' (t=199-203); at clock 0:23 he blocks the next one with Skeletons ('we skellies to block the evil firecracker', t=271).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

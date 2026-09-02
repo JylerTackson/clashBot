@@ -197,6 +197,20 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 2:04: named only as the threat his Zap is reserved for when he commits the Elite Barbarians to the bridge — "We have Zap in case he has a Skeleton Army."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:12: his stated Royal Giant answer, and the condition is the opponent's small spell — "because he has no barbarian barrel skarmy is a free RG defense. If he goes yep, let's just skarmy cannon" (626-629s).
+- clock 1:50: he admits one was a reflex, not a read — "I kind of panicked Skarmy, to be honest. I got scared right there. Just like not wanting to get completely rolled by the hero Valkyrie" (540-547s).
+- clock 0:21: he explicitly declines it as an offensive/bait card in favour of the cheaper barrel — "I'm going to go for the skeleton army too maybe. No, let's just barrel here. No point for going skeleton army" (618-622s).
+- overtime 1:30: he cycles deliberately toward the Evolution copy — "Cycle to our evolution skarmy as well" (666s) — then plays it at (4, 14) and again at overtime 1:28 to block a Hunter.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:32 (t=726.5): Skeleton Army at the right bridge (14, 15) while the opponent's Valkyrie + Fisherman + Hunter push is committed on his left — opposite-lane pressure with the deck's evolved swarm.
+- clock 0:11 (t=753.6): second Skeleton Army at (9, 10) as a centre defensive drop, planned out loud at 741-742s — "then we can maybe go for a Skeleton Army as well. Make sure that we keep DPSing this all down."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

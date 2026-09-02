@@ -326,6 +326,26 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md
 - clock 1:03 (commentary): mentioned only as the other half of the expected spell answer to his bridge Goblinstein — "He might go for the fireball log, but not really going to work in my opinion." Not otherwise identified in the events.
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Five placements, all defensive on his own half ([3, 6] t=68.1, [5, 15] t=110.3, [6, 8] t=223.2, [6, 12] t=244.2, [2, 5] t=265.3, [14, 15] t=278.3).
+- clock 1:10: used on the opponent's Firecracker and missed — 'I'm just going to go for the log here to try to take out that Firecracker. Oh man, it didn't get shot' (t=105-108) — which is what forces the log-nado follow-up.
+- overtime clock 0:19: the last defensive cast, paired with Tornado to close the game — 'I think log NATO will take this. Let's go. Nice win, guys' (t=279-281).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- Named only in the deck's name at 468s — "we have a log bait hero Valkyrie deck" — and never played by either side in this game.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 0:27 (t=909.0): The Log at (3,14) immediately behind his Goblins - "Go for the Goblins log here. Beautiful catch, man."
+- clock 1:36 overtime (t=964.3): The Log at (14,12) into the opposite lane he had just predicted - "He's going to spam me opposite lane now, I believe. Yep, let's go for the log."
+- clock 0:03 (t=933.8): held for the Spear Goblins rather than spent early - "we can log here as well. It's going to take out the spears."
+- clock 0:15 overtime (t=1040.5): The Log at (3,10) as insurance on an already-won defence - "We can go for our own log. Oh, we didn't even need it, but it's fine. It's better to be safe than sorry."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

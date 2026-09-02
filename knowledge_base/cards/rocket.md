@@ -211,6 +211,11 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - Overtime 1:01 and 0:23: he treats Rocket cycle as the only way he loses — "we have to be careful of the rocket cycling in triple elixir cuz we're not actually up all that much, so we can easily, easily lose this game", then "I'm just not letting him get any rockets on our tower. As long as he doesn't get rockets on our tower, we have a very good chance to win this."
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- Named but never played in this game: at clock 0:52 overtime (t=1005), with the ground defence stalemated and the opposing Hero Valkyrie surviving everything, he states the plan - "It's fine. I think I'm going to start rocket cycling." The game ended (t=1051, "Very nice win") before he cast one.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

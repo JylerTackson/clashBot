@@ -152,6 +152,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 1:13 (t=1457.5): a Rage tracked at [11, 12] on the opponent's overtime push (arena detection, medium confidence, not named in commentary).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:19: the opponent plays Rage at (11, 19), elixir 10 -> 8, behind a right-lane push. Ryley does not comment on it and answers the push with Valkyrie, Cannon, Skeleton Army and Ice Spirit rather than a spell.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

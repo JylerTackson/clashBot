@@ -172,6 +172,11 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - clock 0:15 (t=1467.5): placed centrally at tile (9,5) rather than in a lane — "we can just go for another cannon cart. I'm going to put in front of the king tower, though, in case he tries to time it with an RG at the bridge"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Opponent card, deployed three times ([8, 16] t=64.1, [9, 19] t=170.2, [12, 16] t=260.3). Ryley answers it with the Bomb Tower on the central tile plus Magic Archer behind, the same stack he uses against the Graveyard.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

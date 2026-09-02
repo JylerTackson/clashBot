@@ -198,6 +198,18 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - Mentioned only, in the same thought about when middle Mortar placement is correct — "I know a Magic Archer sometimes down the middle can be better, but I'm surprised that he did it without knowing my deck yet" (t=1259-1264).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Six placements, mostly deep on his own half ([4, 15] t=56.6 elixir 9 -> 5, [15, 13] t=84.1, [9, 14] t=99.1 and t=167.2, [15, 2] t=150.2, [9, 5] t=178.2, [13, 13] t=235.2 elixir 6 -> 2) as the ranged support behind the Bomb Tower.
+- clock 0:25: played from the back as an investment while ahead — 'We're still in a pretty decent position right now. Up a little bit of damage, guys. Let's go for the Magic Archer in the back' (t=149-153).
+- overtime clock 1:30: he credits it as part of the winning push alongside the abilitied Valkyrie — 'Nice Magic Archer lineup as well' (t=206).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Opponent's card, seen at (0, 17) at clock 0:10. Ryley plans around it two full minutes early, both as the reason to keep Fireball in hand ("we have the Fireball ready for the Magic Archer", 434s) and as the reason his Heroic Valkyrie should be good in the matchup: "he's going to need to go for some Magic Archers and a lot of cards in the middle, which will give us some value kind of like the Golden Knight" (402-408s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

@@ -199,6 +199,24 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md
 - clock 0:37-0:35: tracked at (0, 14) -> (0, 19), chipping his left tower alongside the Balloon in the window where that tower falls.
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- clock 2:24 and 1:41: opening chip on the enemy right tower at tile [14, 27] (t=31.2, t=73.6), elixir 9 -> 6 and 8 -> 5.
+- clock 0:57: 'Let's go for the Evo Wall Breakers Miner here, guys. And I think this Miner Wall Breakers deck will be back, man' (t=118-121) — Miner at [16, 26] with the Evolved Wall Breakers behind it, the deck's core pairing.
+- clock 0:33 onward he switches the Miner from tower-chip to tank, dropping him at [12, 22] / [16, 23] in front of the Wall Breakers and the abilitied Valkyrie (t=142.1, t=171.2, t=194.2, t=232.2, t=248.2): 'It gives Miner Golden Knight vibes where like they just can't defend properly' (t=195). He also plays the opponent's answer in advance — 'He has to drop Skellies, right?' (t=169).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Opponent's card. Tracked on Ryley's half at (2, 7) at clock 2:41 and again at (7, 16) at clock 1:25; Ryley answers the second one with a Barbarian Barrel rather than a troop — "I want a Barbarian Barrel that Miner just to finish it off" (375s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- As the opponent's win condition in a Miner Wall Breakers deck (identified at clock 2:33, t=782 - "Aragon's playing Miner Wall Breakers, actually"), Ryley answers it by pre-placing Goblins behind his own tower rather than reacting - "maybe have our Goblins ready for the Miner... Ice Spirit here then Goblins to catch the Miner" (t=813-817), repeated as predictions at t=946 and t=1049.
+- clock 0:10 (t=926-929): he accepts the chip rather than over-defending - "Only one minor hit, which is fine by me. I don't really mind that too much."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

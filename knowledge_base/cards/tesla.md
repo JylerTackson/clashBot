@@ -210,6 +210,11 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.1.md
 - overtime 1:46 and 1:19: Tesla is what he aims Mother Witch chip at ("Try to damage down that Tesla"), and the barrel-plus-Ebarbs wave removes it outright — "Oh my god. Wait, we killed the Tesla instantly."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Opponent card (Evolved), placed at tiles [11, 15] (t=132.1, clock 0:42) and [11, 20] (t=250.2, overtime clock 0:43) — the building that absorbs Ryley's Miner and Wall Breakers, which is why his chip on the enemy right tower comes in small increments until the Valkyrie ability pushes go through.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

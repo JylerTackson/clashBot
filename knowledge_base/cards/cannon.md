@@ -337,6 +337,19 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.4.md
 - clock 0:22 (t=1064-1068): seeing the opponent's Cannon changed his read of the matchup — "this is not going to be as nice of a match up as I thought, though, now that I see that he has a cannon"; he then planned the Goblinstein ability around it (t=1087-1091) and closed the game with "still definitely a good match up, but not as good as if he didn't have a cannon" (t=1131-1133).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 1:50, 0:54, 0:19 and 0:12: every Cannon goes to the same two centre tiles on his own half, (8, 10) and (8, 11), and every one is reactive — against the enemy Valkyrie/Little Prince push, then against the Evolution Royal Giant.
+- clock 0:12: he names it as one third of a package rather than a standalone answer — "let's just skarmy cannon and then we go for the ice spirit as well. Should be a very nice defense" (629-632s).
+- clock 0:53: "We can play this one by vibes. Let's go for the cannon. You can go for the ice spirit" (584-586s), dropped as the Royal Giant, an enemy Valkyrie and an Electro Spirit all come down the right lane.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 1:04 (t=696.5): Cannon at (8, 13), dead centre, against a Royal Giant tracked advancing his right lane (tower in 3.2s) — "I think I'm going to have to go for the Cannon as well. Yeah, let's definitely Cannon here just to be safe" (696-698s), then "Beautiful, very good defense" (700s).
+- clock 0:20 (t=739.0): second Cannon at (8, 11), again column 8, while he stacks Ice Spirit and Dart Goblin behind it — "Let's go for a Cannon here. Very nice defense" (744s). Three Cannons in 76 seconds, every one of them in the middle two columns of his own half.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

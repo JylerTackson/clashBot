@@ -130,6 +130,14 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only, not played (t=1105-1140): projectile range 7.5 -> 7 alongside the Bowler - 'the Executioner and the Bowler would just end up becoming your win condition. So hopefully with this they are now more used for their purpose instead of just being extremely broken.'
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:12 (t=803.6): pushes the Executioner up to (2,15) against a four-Bat swarm after saying the trigger out loud at t=800 - "we could go for the Executioner at the bridge if he goes for the Bats."
+- clock 1:22 (t=853.7): Executioner at (3,14) into Evo Bats - "Axe here. Make sure we take these out. Never really risking anything."
+- clock 1:19 overtime (t=970.8): Executioner at (2,8) as the anti-Valkyrie card - "Forced out the Valkyrie with the XE. Then we can go for another executioner here. Let's take out the Valkyrie then we can go for the goblins plus log."
+- clock 0:26 overtime (t=1030): a second Executioner used purely as bridge denial - "Let's XE again just to make it so he can't ever cross the bridge."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

@@ -141,6 +141,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
 - t=673-676s: names Poison as half of why the Goblin Drill vs Log Bait matchup is winnable — "With the snowball and the poison, I knew that I could still win this matchup if I played well."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Opponent card, cast at tile [8, 1] (t=158.2, clock 0:15) and [13, 12] (t=282.3) over Ryley's defensive stack. He keeps the defence cheap under it — Skeletons, The Log and Tornado — and saves the 4-elixir Magic Archer for placements deep on his own half.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

@@ -189,6 +189,22 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
 - t=1650.6s / t=1651.7s: Tornado again on the closing push while holding a second Lightning — "So here I went for the nado, guys, and I had another lightning" (1653-1655s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- clock 1:10: the log-nado combo on a Firecracker that got past The Log — 'we can go for the log nado and then maybe the Evo skeletons as well just to make sure that we get all of this off the board. Very good defense' (t=110-116); The Log at [5, 15] then Tornado at [7, 12] then Skeletons at [5, 10].
+- clock 0:19: Tornado at [9, 7] to clump the push while the opponent's Valkyrie is out — 'Let's go for the Skellies. We can NATO this' (t=155-157).
+- overtime clock 0:53: he plans a backwards pull specifically to deny an abilitied Hero Valkyrie — 'I might have to NATO backwards instead of anything because he's going to pop the ability again and I don't want him to completely roll my tower yet' (t=239-244).
+- overtime clock 0:33 and 0:15: one offensive Tornado on the enemy half at [12, 20] after 'Let's NATO ability maybe' (t=263), and the closing defensive one at [14, 19] — 'I think log NATO will take this' (t=279).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:08 (t=804.6): Tornado at (2,18) to group a four-Bat swarm for the Executioner axe, and he declines the 3-elixir hero ability to afford it - "Could we NATO this, maybe? Yeah, let's NATO this. I want an ability, but it's not worth it."
+- clock 1:30 (t=846.6): a pre-planned King Tower activation, Tornado at (9,8) on his own half dragging two Wall Breakers into King range - "We have Nado here ready to activate the King Tower later... Make sure we activate the King Tower", then "Beautiful. Great King Tower activation. Always good to get that up." His King HP first reads 4543 four seconds later.
+- clock 0:42 (t=894.7): tried as a prediction on the opposing Hero Valkyrie and missed - "We have a Nado ready for the Valkyrie. Let's Nado predict. Oh, I tried to predict him."
+- clock 0:40 and 0:24 overtime (t=1015.8, 1031.8): two backwards Tornadoes to drag the enemy Valkyrie away from the bridge instead of pulling her forward - "I think I'm going to NATO this backwards. Let's NATO this back" and "Let's NATO this back as well."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

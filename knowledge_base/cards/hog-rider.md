@@ -201,6 +201,14 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.0.md
 - clock 0:33: reads the opponent as unwilling to commit it — 'I have a feeling he's just not going to go in for any Hog Rider pushes, though' (t=142-143).
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.1.md):
+- clock 2:38 (t=776.6): opens the game with a bare Hog Rider at the right-bridge tile (16,15) from 9 elixir - "Let's go for the Hog Rider here at the bridge just to apply some early game pressure."
+- clock 1:54 (t=821.6): repeats the same (16,15) bridge Hog into an opponent sitting near 10 elixir - "Let's go for the Hog Rider here. Apply some pressure."
+- clock 1:09 (t=872.7): uses the Hog defensively at (8,13), behind an Ice Spirit and Goblins, to kite the enemy Hero Valkyrie - "just Hog Rider here to kite this back... Very good Hog right here. Bringing the Hero Valkyrie away. After the ability is popped as well."
+- clock 0:32 overtime (t=1025.8): Valkyrie plus Hog at the left bridge (1,15) with the hero ability saved for the follow-up takes the enemy left tower from 1654 to 847 HP - "go for the Valkyrie hog rider here. I'm going to go for the ability ice spirit here." He judges the card by the defence it forces: "At least he has to use the bomb tower again. He's barely got any damage" (clock 1:44 overtime, t=951).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

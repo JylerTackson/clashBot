@@ -186,6 +186,12 @@ Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0
 - Mentioned, not seen: while deciding what the opponent's Giant Skeleton implies, t=52 - "I guess there's a chance he has like a graveyard as well".
 <!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.0.md):
+- Opponent card. Three casts on Ryley's left tower at tiles [8, 0] and [8, 2] (t=134.1 clock 0:39, t=182.2 and t=218.2 in overtime); it is the main reason his left tower is ground from 3052 to 1023.
+- His answer is always the same pre-placed stack rather than a reaction: Bomb Tower on the central tile plus Valkyrie or Tornado, e.g. Valkyrie [9, 10] and Bomb Tower [8, 10] going down at t=130-132, two seconds before the Graveyard lands.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

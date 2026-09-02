@@ -164,6 +164,18 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.6.md
 - clock 0:43 and 0:15 (t=1440, t=1467-1471): he plays around a bridge Royal Giant rather than reacting to it — "he can't even go for the RG because I have Ebarbs at the bridge on it" and "I'm going to put [the cannon cart] in front of the king tower, though, in case he tries to time it with an RG at the bridge"
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- clock 2:00: first Royal Giant goes down at (9, 1), behind the King Tower, as a build-up in single elixir rather than a bridge play.
+- clock 1:33: Royal Giant at (3, 15), the left bridge, one second after the Heroic Valkyrie at (2, 14) — 10 elixir committed at once against an opponent stuck cycling. "He's in a bit of a predicament cuz he has to cycle back to the Bomb Tower." (360-365s)
+- clock 0:42: Royal Giant at (2, 14) deliberately opposite his Valkyrie so the opponent cannot answer both lanes; the tower he hits drops 2745 -> 1793 in about six seconds. "I think I could RG here cuz we have the Valkyrie in the opposite lane, and I think I could just hit the ability to grab extra damage cuz you guys look, it's going to start shooting at rapid pace. Look at all that damage in only a few seconds. Already down to 1,700 HP." (414-424s)
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 0:52-0:42: the opponent's Evolution Royal Giant is the push that takes Ryley's right tower 3052 -> 1959. His answer is a swarm-plus-building package, and it is conditional: "because he has no barbarian barrel skarmy is a free RG defense. If he goes yep, let's just skarmy cannon and then we go for the ice spirit as well" (626-632s).
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

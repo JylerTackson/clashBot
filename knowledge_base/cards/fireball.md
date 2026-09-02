@@ -348,6 +348,12 @@ Match [Playing the 8 BEST Cards in a SINGLE Deck](../matches/A5qMlVwLS1M-m0.5.md
 - clock 1:05: he counts it as one of the two spells a bridge Goblinstein forces - "if he goes for the inferno dragon you have to fireball zap as well."
 <!-- creator-insights:ryleycr1:A5qMlVwLS1M-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.1.md):
+- Held all game as the designated Magic Archer answer: "we have the Fireball ready for the Magic Archer" (434s), and explicitly declined at clock 0:15 when the ability was the better spend — "I'm not going to Fireball that. I'm going to ability instead" (440-441s).
+- clock 0:03 into overtime: spent twice on the same tower at (3, 23) and (3, 24) as a pure finisher after the Valkyrie ability left it at 222 HP. "We just need two Fireballs. Fireball number one... Then we just go for a second Fireball. Let's go." (452-459s)
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

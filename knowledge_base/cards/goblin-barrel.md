@@ -351,6 +351,19 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:05-1:03 (t≈1243-1247): a second throw called and then graded against the opponent's empty elixir bar — "we can go for the barrel, too ... That's going to be a full barrel on the tower. He has no elixir".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m0.2.md):
+- clock 2:18, 1:10 and 0:40: three barrels all onto the enemy right crown tower, tiles (14, 24), (14, 22), (14, 26) — the tower reads 3052 -> 2927 -> 2526 -> 2401 across them. It is the only steady damage source he has in the segment.
+- clock 0:21 and 0:03: he switches lanes to the enemy left tower at (3, 25) and (3, 26), paired with a bridge Princess and then Wall Breakers rather than a tank: "Let's go for the princess at the bridge and I'm going to go for the skeleton army too maybe. No, let's just barrel here" (617-620s) and "we can apply some pressure here with the wall breakers plus goblin barrel. Nice, that should be a connection with the barrel" (632-639s).
+- Balance read at 498-503s: "Although the Evo Goblin Barrel did get nerfed, the regular Goblin Barrel did get a buff. So, it kind of like balances out a little bit." And at 505-512s he argues the deck does not lean on it: "this deck isn't like extremely reliant on just like a little bit of Evo Barrel damage. You're always able to get some like nice damage with a bunch of different troops in this deck."
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:start -->
+Match [Hero Valkyrie is the Most BROKEN Hero of All Time](../matches/Zt6Onn89EVk-m1.0.md):
+- clock 0:55, 0:39 and the frozen 0:11 (t=705.5, 720.5, 750.5): all three barrels go into the same enemy left pocket, tiles (3, 24) and (3, 26), and that tower goes 1072 -> 194 over the segment. He calls the first one early: "I'm going to go for the Goblin Barrel here, guys, in a second" (702-704s).
+- clock 0:35 (724s): the barrel is thrown partly as ability bait — "with him going for the Fisherman in the middle, I knew he's going to have to drop something on the barrel, and whatever he puts, I get the ability" — i.e. it manufactures a ground target for the Heroic Valkyrie's Wild Whirlwind.
+<!-- creator-insights:ryleycr1:Zt6Onn89EVk-m1.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)
