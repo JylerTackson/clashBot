@@ -160,6 +160,13 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - overtime 0:43 to 0:15: three more barrels ([14, 2], [14, 7], [12, 5]) during the near-collapse defence of his right tower.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 2:23 / 1:32 / 0:42 / 0:22: rolled at the attackers on his own half, never at the tower — deploy labels at [3, 14], [14, 11], [3, 15], [4, 11] and [14, 10].
+- clock 0:22 and OT 0:33: his named answer to Rascals — "We barb barrel and we can go for the e-spirit as well. Oh my wow, perfect defense right there. Zero damage" and "E-spirit and barb barrel for the rascals."
+- OT 1:47: the cheap play he takes instead of a spell when the Fireball is not worth it — "Let's go for the barb barrel here then we can maybe go for a fireball. No, let's not fireball."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

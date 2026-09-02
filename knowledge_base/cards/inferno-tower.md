@@ -118,6 +118,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 1 deck(s): [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 1:57 (mentioned, not played): the third of the three answers he names — "a Tesla, a Goblin Hut, or an Inferno Tower that fully countered the Minion Giant" — consistent with his rule that "if you don't have a building and an air counter, it will always hit the tower."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Tower (scraped 2026-09-02T02:35:33+00:00)

@@ -152,6 +152,19 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - He ran the Hero on the Ice Wizard instead of on the Tombstone this game, while conceding "obviously tombstone hero is really good, but I do feel like it's not the best fit for Splashards" (292-299s); Regal Revive was never used.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- clock 1:56 and clock 0:48 (video 298.0s, 365.4s): placed at (8, 9) and (8, 10) pre-emptively against Evo Wall Breakers rather than reactively — "I'm going to tombstone because I just don't want to have to worry about the wall breakers. I want them to at least have to commit more elixir to taking my tower" (366-373s).
+- clock ~1:54 (video ~303s): he states it as a rule that the building goes down before the tank — "Having a tombstone down before you end up going for a lava is just always very very nice ... it's going to make it harder for him to go on and he has to waste a log though, which is just a nice extra two elixir for me" (303-315s), and again "Bad log as well cuz the tombstone still going to be able to distract" (373-376s).
+- clock 1:34 of overtime (video 439.9s, tile (12, 5)): used purely to soak Evo Bats so they could not tank for the follow-up — "let's tombstone down here just to block the bats a bit ... I really just wanted the bats to get off the board and not have to worry about him like maybe tanking for stuff" (441-453s).
+- clock ~1:08 and clock 0:32 of overtime (video 464.5s, 497.8s): free-drop and then hold — "I'm going to tombstone. I'm just not taking any risks on that right now. There's no reason not to" (465-468s), then at the finish "I'm going to wait on my tombstone though ... We have tombstone ready for the wall breakers" (502-505s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 1:21: mentioned, not played — the opponent's remaining defence against the mirrored Minion Giant, and Ryley expects to blow through it: "All he really has is tombstone and this is going to get some good damage. It's going to like three-shot the tombstone, I think, but then he has to get something down."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

@@ -108,6 +108,13 @@ Not specified on source page
 
 This card has a Hero form (Banner Brigade, ability cost 1 Elixir): see [goblins-hero.md](../heroes/goblins-hero.md).
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- opponent plays at clock 2:18 [13, 18], 2:15 [3, 13], 1:24 [3, 15], 0:34 [12, 23] and 0:31 [13, 16], mostly as cheap ground support behind the Mortar; Ryley answered them with The Log rolled into the same left-lane bridge tiles rather than spending anything larger.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

@@ -153,6 +153,12 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - clock 0:22 (t=429): he talks himself out of the Knight in favour of the building when his Ice Wizard has drifted — "Let's go for the knight. No, we have to tombstone because the Ice Wiz walks away" (429-432s). He confirms the evolution is on this slot: "We already do have our Evo Knight, which is really good" (385-388s).
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 0:51: Knight at tile (0, 2), deep behind his own left tower, as the opponent's second Lava Hound crosses — "Okay, let's just go for the knight here. We just need to set up a defense." Held entirely for defence in this game; he never tanks the Minion Giant with it.
+- clock 0:07: Knight again at (8, 9) in the last seconds of the defensive hold — "Knight here as well."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

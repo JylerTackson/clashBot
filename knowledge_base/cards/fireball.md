@@ -142,6 +142,34 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.1.m
 - clock 2:47 to 1:09: he played the whole game around the opponent's Fireball — high-middle Mother Witch as the bait ("if they don't have the Fireball, then you just get a bunch of damage"), Zappies only when "He has no Fireball in cycle", and once it landed at clock 1:09 he counted it as a win: "Okay, he has the fireball. That's really good. I'll take that", followed by a tower-taking Bandit.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- overtime 1:19 (HUD, elixir 6 → 2) and overtime 0:58 (deploy label at tile [2, 21], on the opponent's half in front of the crown tower that fell): observed twice and never mentioned in the commentary. In a game where the win condition did all the damage, the 4-elixir spell was the least-used card in the deck.
+- note: the pipeline's per-game read dropped Fireball in favour of Berserker; this match file keeps Fireball because Ryley names the shell as "2.6 Hog Cycle" with only the Hog Rider swapped out (1:50-1:44). See the match file's Data gaps.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- clock 0:25 (video 389.9s, tile (2, 23)): spent on the opponent's Bomb Tower rather than on troops, to clear the answer to his win condition — "I'm even going to fireball on the bomb tower here just to get the minion giant on the tower easier" (388-391s).
+- clock 1:22 of overtime (video 451.8s): a HUD-clean 4-elixir Fireball during the opponent's counter-pressure.
+- clock 0:38 and clock 0:32 of overtime (video 496.5s, 503.0s, tiles (10, 16), (13, 22)): the finisher on the enemy right tower, which read 679 then 205 — "we just need one fireball zap, dude. This is actually just beautiful" (497-501s), "Let's fireball here" (504s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 0:37: Fireball at tile (8, 21), on the opponent's half, onto Skeleton Dragons the moment they were placed — "Okay, he goes for those. Let's just fireball those skelly drags here."
+- clock 0:18-0:10: Fireball on his own half and then mirrored for a second cast at (2, 9) — "I think I need to fireball this ... then we can just mirror our fireball and we'll be completely fine."
+- clock 1:44: he tracks the opponent's Fireball as much as he uses his own, and re-applies the Minion Giant the second it is out of rotation — "he didn't get the fireball down in time anyways. We can just instantly go for the minion giant at the bridge."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 0:40: cast on a Cannon Cart plus support in front of his own push, enemy left tower 2632 -> 1380 over the next ten seconds — "Let's fireball this as well. That's going to take it all out. Beautiful damage. Give me two more."
+- OT 0:53-0:47: the closing spell in overtime, aimed with the Minion Giant already at the bridge — "Let's fireball here. Come on, lock on. Lock on. Oh my god, nice. We're on one. Give me two." Enemy left tower 1056 -> 506.
+- OT 1:35 / 1:11: cleanup on the Mortar's support — "we have to fireball all of this junk though. Make sure that we take this out" and "Let's fireball here on the rascals."
+- OT 1:47: he states the interaction that keeps Fireball off the new Minion Giant — "you guys may be wondering why didn't I fireball? The fireball and the snowball actually do not knock the [minion] giant back, which is kind of crazy to think about." He also passes on it at OT 1:44: "let's not fireball. I think we should just hunter on defense here."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

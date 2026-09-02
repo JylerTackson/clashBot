@@ -124,6 +124,20 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - His answers to it in this game: the Hero Ice Wizard as a reset ("maybe we could try to reset it", 397-401s; "I don't really want the inferno dragon to get anywhere close to this tower", 467-470s), kiting it with Knight plus Graveyard ("going to kite the inferno dragon back anyways", 506-509s), Barbarian Barrel to drag it (426-431s), and stacking Poison on it ("Make sure we get the inferno dragon", 528-532s).
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- clock 1:37 (video 316.8s, tile (14, 11)): the evolved Inferno Dragon ("the evil inferno dragon") on defence against a Valkyrie + Bats push, and it picked the wrong target — "I'm just going to go for my inferno dragon. Oh, no. Please target the Valk. No, bro. It targeted the bats twice in a row" (317-323s). That misfire cost him most of his right tower: "It's really really unfortunate with that inferno dragon just wanting to be really stupid" (329-334s).
+- clock 2:23 and clock 0:34 (video 270.6s, 378.4s, tiles (2, 2) and (5, 6)): placed deep behind his own left tower so it can walk up with the Lava Hound instead of being spelled at the bridge.
+- clock 0:22 (video ~398s): he leaves a Zap in hand because he trusts it to finish a lane alone — "I'm not going to zap those cuz I feel like the evil inferno dragon's going to put in his work anyway" (398-401s).
+- clock 0:54 of overtime (video 480.0s, tile (7, 9)): re-deployed as the anti-Miner / anti-tank piece of a full defensive rebuild — "Let's go for the inferno dragon here. Make sure that he can't go and he has the miner in the back" (482-485s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 2:00: mentioned and faced, not played — the opponent's Evo Inferno Dragon, forced onto defence by the Minion Giant, which Ryley reads as the real win: "He had to inferno dragon out. That's really good for us though. Spending that four elixir and it's not going to help support as well."
+- clock 1:52 and 0:25: his two answers to it are split Archers ("We can just split our ev[o] archers here to make sure that we take out the inferno dragon") and Tesla ("let's go for the tesla here on the inferno dragon"); at clock 1:04 he flags it as the card that constrains him, "he has the evo inferno dragon, so we have to be careful."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

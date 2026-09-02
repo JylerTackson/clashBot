@@ -129,6 +129,14 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.3.m
 - Opponent card, seen defending the right lane at clock 1:50 and pushing at OT 1:27 and OT 0:37. Ryley's only comment is on trading with it at OT 0:37: "Hopefully that can take out the Hunter, though, or at least get it close. Okay, nice. I'll take that."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 1:18-1:03: he names the evolution as the answer to the new Minion Giant — "I think evo hunter is the best counter that I have found to this card so far. Of course, you're only going to be able to hunter like every third one. Well, I guess evo hunter every third one, but it's still very strong though in general. Having that full counter every single time, you get like a little safety net, no pun intended."
+- clock 2:41 / 1:26 / 0:22 / 0:03 and OT 1:11: always deployed on his own half in front of the threat, never at the bridge — deploy labels at [3, 12], [2, 9], [6, 10], [1, 11], [1, 6]. "Okay, we need to go for the hunter here like this. We can skellies to bring this over and I think I actually defended really good. As long as those walk to the hunter, nice. What a defense" (t=759-765).
+- OT 1:32: he plays for the evolution's Netting Trap explicitly — "Hunter net it, please. Put in the net. Beautiful. Good defense."
+- OT 0:29-0:20: the Hunter is what he falls back on when the opponent finally gets the Mortar down — "even with the mortar down, I'm just going to hunter here."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hunter (scraped 2026-09-02T02:35:02+00:00)

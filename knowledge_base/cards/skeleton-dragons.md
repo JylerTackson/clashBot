@@ -125,6 +125,19 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - He answers them with Tornado into splash rather than with a hard counter — "let's NATO here just to make sure we take up these skelly drags" (480-483s) and "NATO this back into the skelly so that baby dragon can get more damage on everything" (532-537s); once a minion tanked the Tornado for them: "that minion's going to keep the skelly drags alive. That's so bad cuz I'm going to have to defend those again" (483-487s).
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- clock 2:12 (video 281.4s): a 4-elixir step the HUD mislabelled as Ice Golem; ally Skeleton Dragons show on the enemy half five seconds later.
+- clock ~1:57 of overtime (video ~416s): played specifically as spell bait, not for value — "I'm going to skelly drags here just to make him go for the fireball. And also, of course, if you went for spear goblins, we could have grabbed them" (417-423s).
+- clock ~1:12 and clock 0:48 of overtime (video 462.5s, 485.5s, tiles (8, 8) and (4, 5)): the splash half of his Wall Breaker defence — "then we can go for the skelly drags. So we'll make sure to take out these wall breakers" (463-465s), "Let's go for the skelly drags" (486s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 1:38 and 0:37: mentioned and faced, not played — he predicts them off the opponent's elixir ("He's probably just going to have to go for like skelly drags or something late as soon as he's able to"), then Fireballs them on the opponent's own half the moment they land, "Let's just fireball those skelly drags here."
+- clock 0:18: predicted again and pre-answered with a held Mirror — "he's probably going to skelly drags, but then we can just mirror our fireball."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

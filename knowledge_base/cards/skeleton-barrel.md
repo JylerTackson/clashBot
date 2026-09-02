@@ -130,6 +130,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- opponent plays at clock 2:01 [16, 14], 0:32 [17, 15], 0:03 [0, 13] and overtime 1:17 [1, 15] — the opponent's only air pressure. Ryley's answer at 2:00-1:51 was Evo Cannon at [9, 14] plus Ice Golem and Ice Spirit; the tracker had it 1.1 s from the tower at 1:53 and the right tower still finished the wave at 2890/3052.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

@@ -105,6 +105,13 @@ This card appears in 2 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 2 deck(s): [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md), [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 0:48-0:40: sent down the left lane at [7, 20] as the opponent's counter to a Minion Giant push; Ryley funds the Monk ability and a Fireball to remove it — "Let's go for the ability here as well just to make sure that we can help take out this cannon cart and then he's going to have to go for his mortar here. Otherwise, it's a lot of damage. Let's fireball this as well. That's going to take it all out."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

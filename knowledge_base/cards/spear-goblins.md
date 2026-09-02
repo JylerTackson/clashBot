@@ -96,6 +96,20 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 0:47 and overtime 1:00: mentioned only as the Goblin Hut's output, and the reason he keeps replacing the hut mid-field — "I just want to keep on stacking up my spear goblins and skellies" and "start up our spear goblins."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- sixteen opponent deploys across the window (clock 2:36, 2:19, 1:36, 1:23, 0:53, 0:33, 0:29, 0:25, 0:03 and six more in overtime) — the most-played card on either side, used both to chip and to snipe Ryley's win condition out of the air.
+- clock 0:53: they are the cheap half of the answer he complains about — "the Spear Goblins got it, but let's go for the Musketeer here cuz even having to spend that much Elixir is just never ideal. Like, Spear Goblins, a Goblin Stein, and a Mortar just for, you know, a four Elixir card."
+- clock 1:23: they are also the target of his offensive Evo Cannon placement at the river — "then we can go for the Evo Cannon. We're going to hit Spear Goblins, too."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- The opponent split Spear Goblins to both lanes from clock 2:43 (tiles (5, 23) and (13, 15)) and kept cycling them all game; three of them ran at Ryley's left tower at clock 0:50 of overtime.
+- clock 1:48 of overtime (video 424.9s): answered with a Zap at (16, 20) — "Let's go for the zap here on top of the spear goblin. Just make sure to take these out" (424-427s).
+- He treats them as free value for his own splash unit: "if you went for spear goblins, we could have grabbed them" (421-423s), and reads them as the opponent's cheapest way out of a pocket Minion Giant — "he had the fireball spear goblins just to not take two shots" (478-480s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

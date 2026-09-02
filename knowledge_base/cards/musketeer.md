@@ -180,6 +180,18 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - overtime 0:47: it sniped his mid-field spawner — "Good musky there to snipe down our Goblin Hut."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 0:51 at tile [8, 12]: his answer to the Mortar, and he frames the play as an elixir trade rather than a defensive necessity — "let's go for the Musketeer here cuz even having to spend that much Elixir is just never ideal."
+- clock 2:32 at [1, 13], 2:15 at [8, 11], 0:34 at [8, 6], overtime 1:49 at [9, 10] and 1:19 at [8, 10]: four HUD plays plus seven deploy labels, mostly in the central column 8-9 so she covers both lanes, and always behind the Evo Cannon.
+- clock 0:34: the follow-up half of a two-card answer that starts with a 1-elixir card — "go for the Ice Spirit here on top of this and then we can just go for a Musketeer here."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- Mentioned only, as a card that normally answers a tank but loses to a Monk in front of it: "most of the cards that take this out, right? Like musketeer, even Tesla, right? You just pop the ability and you just tank for it for so long" (t=731-741) — the Monk's Pensive Protection reflects her shots.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

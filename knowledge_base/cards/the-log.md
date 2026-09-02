@@ -128,6 +128,18 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - clock 1:22 (mentioned, not played — the opponent never showed it either): named as one of only two spells that kill the Hero Ice Wizard's snowman — "it does actually end up dying to the log and the arrows."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- overtime 1:44: his stated rule against hoarding it — "Let's definitely log here cuz we can just go for the Ice Golem to kite away everything else. We don't really need to worry about saving our log here."
+- clock 0:47 at tile [3, 14] and 0:08 at [2, 15], overtime 1:41 at [4, 11] and 0:57 at [3, 15]: rolled repeatedly into the same left-lane bridge tiles the opponent kept feeding Spear Goblins and Goblins into; 5 HUD plays plus 5 deploy labels.
+- overtime 1:28: second Log of a single defensive sequence — "Let's log here. Very good defense" — i.e. he was willing to spend it twice in one push rather than keep it for the Skeleton Barrel.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- The opponent's Log is never labelled by the pipeline but Ryley names it twice, both times as something his Tombstone profits from: "it's going to make it harder for him to go on and he has to waste a log though, which is just a nice extra two elixir for me" (309-315s) and "Bad log as well cuz the tombstone still going to be able to distract" (373-376s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

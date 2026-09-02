@@ -129,6 +129,11 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - clock 1:27 (mentioned, not played): another spell the Hero Ice Wizard's snowman survives — "it survives like zap, rage, tornado, snowball."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- one opponent play at clock 0:30 (tile [9, 8], on Ryley's half) during the last push of regular time; Ryley does not mention it and the push produced no tower damage — his towers read 2799/2728 at the end of regular time.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

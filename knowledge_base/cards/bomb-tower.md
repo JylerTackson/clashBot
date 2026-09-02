@@ -117,6 +117,14 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 0:28 and overtime 1:19: the designated Lightning target both times, once together with the Miner — "a really nice lightning actually on the miner plus a bomb tower probably" — and once alone, which forced a replacement: "He has to get another bomb tower down. That's going to be a lot of damage."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- Ryley identifies the Bomb Tower as the opponent's only real answer to a Minion Giant and plays the whole game around whether it is available. It landed at (7, 19) at clock 1:07 and at (1, 19) at clock 0:26, plus twice more in overtime.
+- clock 1:12 (video 342.2s): the first Minion Giant at the bridge drew it out immediately — "he has to go for the bomb tower to distract it, but how is he supposed to defend otherwise?" (342-346s).
+- clock 0:25 (video 389.9s): he Fireballed it off the board — "I'm even going to fireball on the bomb tower here just to get the minion giant on the tower easier" (388-391s).
+- clock ~1:04 of overtime (video 473.5s): he checks for it in the opponent's hand before dropping in the pocket — "He has no bomb tower in hand. I'm just going to drop my minion in the pocket and it is impossible to stop this from getting a hit if not two" (472-476s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

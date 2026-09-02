@@ -266,6 +266,16 @@ Not specified on source page
 - Opponents can spot a Mirror easily — it is the only way to play a card twice in a row or field two of the same card at different levels — and it has its own sound effect. Spawner-produced Spear Goblins, Fire Spirits, Skeletons, Barbarians, Goblins, Minions, Musketeers, Bats and Royal Recruits are the exception.
 - Before slotting Mirror in, check whether a second anti-tank (Evolved Mega Knight, Prince, Hunter, Three Musketeers, Sparky) would give the same surprise more cheaply; successful Mirror decks tend to pair it with a unique-purpose card like the Furnace.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 2:41-2:33: the premise of the whole game — he pairs Mirror with the new Minion Giant as a balance test, "I wanted to try this card out with mirror. If this card passes the mirror test, that's how you know it needs a massive nerf, man. Whenever cards are able to be used with mirror, it's like, 'Okay, this card got to go.'"
+- clock 1:23: Mirror on the Minion Giant at the bridge in the right lane (4-elixir drop out of the hand, HUD misread as Fireball) while the opponent is down to a Tombstone — "Let's mirror it at the bridge as well here. All he really has is tombstone and this is going to get some good damage."
+- clock 0:10: Mirror on the Fireball, this time defensively on his own half at tile (2, 9), pre-planned two cards ahead — "I know because he ruined it he's probably going to skelly drags, but then we can just mirror our fireball and we'll be completely fine ... Let's just mirror the fireball here. Beautiful gameplay right there."
+- clock 0:03: his verdict on the test he set at clock 2:33 — "We passed the mirror test", after "only broken cards usually end up work[ing] with the mirror. Not always, but usually."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mirror (scraped 2026-09-02T02:33:02+00:00)

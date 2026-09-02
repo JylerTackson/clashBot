@@ -113,6 +113,13 @@ Behaves as an Evolved Goblin Drill with several drills coming out at the same ti
 
 This card has an evolution: see [goblin-drill-evolution.md](../evolutions/goblin-drill-evolution.md). Cycles to evolve: 2. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 2:33 (mentioned, not played): his comparison for how oppressive an unreleased card feels — "It really does remind me of Goblin Drill in its prime, where you really just replaced every single win condition with the Minion Giant."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

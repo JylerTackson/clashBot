@@ -124,6 +124,13 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 0:04: he predicts the opponent's only route back into the game is a Bats swarm — "his best chance of breaking through is getting some like crazy evil bats pressure or something."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- The opponent's Evo Bats were tracked at clock 2:11, 1:35, 0:57, 0:38 and 0:16 and throughout overtime. Ryley's evolved Inferno Dragon locked onto them instead of the Valkyrie at clock 1:37 — "It targeted the bats twice in a row" (321-323s) — which is what cost him his right tower.
+- He notes the Minion Giant simply ignores them: "at least now the minion's going to lock on the tower cuz it's going to completely ignore those bats" (354-357s).
+- clock 1:34 of overtime (video 439.9s): answered with a Tombstone rather than a spell, to deny them a tank — "let's tombstone down here just to block the bats a bit ... I really just wanted the bats to get off the board and not have to worry about him like maybe tanking for stuff" (441-453s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

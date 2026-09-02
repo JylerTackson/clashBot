@@ -120,6 +120,13 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - clock 0:29: he plays them knowing he has a follow-up — "we can always pop the ability and kind of threaten him with another push."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- The opponent's Evo Wall Breakers were the thing Ryley planned around all game rather than reacted to: he Zapped a pair at the bridge at clock 2:30 ("Just go for the zap here on top of the wall breakers", 263-265s) and otherwise answered them with a pre-placed Tombstone (clock 1:56, 0:48, ~1:08 and 0:48 of overtime).
+- clock 1:16 (video ~337s): he chose to eat them to buy a Minion Giant instead — "we can just ignore these wall breakers and then we can just go for the minion giant at the bridge" (334-339s); at clock 0:24 the same choice cost him the tower — "We eat those wall breakers as well. We're just not defending anything, man" (391-394s).
+- clock 0:47 of overtime (video 486.2s): still the card he builds his defence around — "Make sure that we take out these wall breakers and defense" (488-490s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

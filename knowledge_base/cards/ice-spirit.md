@@ -133,6 +133,15 @@ This card appears in 4 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 2 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md), [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 0:35: used as the 1-elixir top-up on an answer already under way rather than as a stand-alone card — "go for the Ice Spirit here on top of this and then we can just go for a Musketeer here."
+- clock 2:50 at tile [2, 12], 1:51 at [7, 8], 0:07 at [3, 12], overtime 1:28 at [7, 14] and 1:13 at [8, 15]: 8 HUD plays plus 4 deploy labels, always on his own half or the river tile, spread across both lanes as the cheapest card in the cycle.
+- clock 1:51 at [7, 8]: part of the three-card, 6-elixir defence (Evo Cannon [9, 14] + Ice Golem [9, 11] + Ice Spirit) that held a Skeleton Barrel and a Skeleton King ability at 2:00-1:51 with the right tower ending the wave at 2890/3052.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

@@ -129,6 +129,11 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - clock 0:44 (t=528.0, deploy label 'PoisON' at (3, 22)): aimed at the Inferno Dragon rather than the swarm — "let's go for the poisoner. Make sure we get the inferno dragon. We need to get as much damage on that as possible" (528-532s).
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- Mentioned, never played. Named at 350s (clock ~1:05) only as the alternative answer he expected the opponent to have for his first Minion Giant push: "So, he has to poison or fireball this. Okay, he has a fireball. That's unlucky."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

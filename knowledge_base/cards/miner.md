@@ -126,6 +126,12 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 0:28 (opponent's card): caught alongside the Bomb Tower by a single Lightning at [5, 22] — "we can get a really nice lightning actually on the miner plus a bomb tower probably. Nice. Good lightning right there."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- The opponent's Miner was tracked at (7, 16) at clock 0:12 and at (1, 6) at clock 1:09 of overtime, chipping the tower Ryley was not defending.
+- clock 0:54 of overtime (video 480.0s): he answers a telegraphed Miner with an Inferno Dragon rather than a spell — "Let's go for the inferno dragon here. Make sure that he can't go and he has the miner in the back" (482-485s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

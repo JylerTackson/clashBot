@@ -143,6 +143,19 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - clock 1:27 (mentioned in the snowman survivability list, and later seen once from the opponent at 0:12): "it survives like zap, rage, tornado, snowball, all of those kinds of spells."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- clock 2:30 (video 263.3s, tile (14, 14)): straight onto Evo Wall Breakers crossing the bridge — "Just go for the zap here on top of the wall breakers" (263-265s).
+- clock 1:29 (video 324.8s, tile (14, 10)): damage limitation after the Inferno Dragon mistargeted — "Okay, we're just going to have to zap here. We're probably going to lose most of our tower. It's all good" (325-328s).
+- clock 1:48 of overtime (video 424.9s, tile (16, 20)): on Spear Goblins at his tower — "Let's go for the zap here on top of the spear goblin. Just make sure to take these out. Very good damage" (424-429s).
+- clock 0:42 and clock 0:28 of overtime (video 492.5s, 506.0s, tiles (11, 24), (13, 23)): paired with the pocket Minion Giant to strip Bats off it and then to finish — "Nice little zap here as well. He grabs some of the bats" (493-494s), "we just need one fireball zap, dude" (497-499s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 0:27: mentioned, not played — the opponent's Evo Zap, named as one of the two answers he expects to his Archers: "I know that he's going to take these out with either a fireball or an evo zap or a fireball."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

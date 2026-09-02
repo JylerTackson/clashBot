@@ -130,6 +130,20 @@ This card appears in 1 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- one opponent play at clock 0:51 at tile [7, 18] (arena detector, 5 elixir). Three seconds later Ryley describes the same answer as "a Goblin Stein", so this slot is ambiguous between Rascals and Goblinstein — see the match file's Data gaps.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 1:35: the opponent's answer to a Monk-led push, and Ryley notes they de-target the Monk — "Oh, no, actually the rascals aren't getting targeted. Uh they aren't targeting the monk anymore. Unfortunately, we still got a lot of damage, but we definitely could have gotten more."
+- OT 1:11 and OT 0:33: he answers them with a spell or a barrel, not a troop — "Let's fireball here on the rascals" and "E-spirit and barb barrel for the rascals."
+- Played repeatedly by the opponent as the Mortar deck's support (arena detections at clock 1:38, 1:35, 1:30, 0:20 and through overtime at OT 1:51, 1:15, 1:12, 0:48, 0:32).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)

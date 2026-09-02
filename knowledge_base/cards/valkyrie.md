@@ -196,6 +196,18 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - It is the card that ends the game: "Good Valkil [Valkyrie] to clean up the skellies. And yeah, we just lost this game" (553-557s) — the standard bulky-splash answer to a Graveyard.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- clock 0:48 and clock 1:18 of overtime (video 364.4s, 456.0s): defensive sweeper, aimed at the opponent's own Valkyrie and at swarm — "He killed two of his bats, so we can just go for the Valkyrie here" (362-366s) and "Let's go for the Valkyrie here just to make sure we take his Valkyrie out" (456-457s).
+- clock ~0:20 (video ~395s): the same card used as bridge pressure while the Minion Giant was on the tower — "Let's go for the Valkyrie at the bridge to just apply a lot of pressure" (395-397s).
+- clock 1:50 of overtime (video ~424s): played into the enemy right lane, then "I'm going to pop the ability. Yes, nice. Valkyrie on the tower" (431-433s) — the pipeline never labels Hero cards, so whether this is the Heroic Valkyrie's ability or a tower-troop ability is unresolved (see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 2:00-1:54: mentioned and faced, not played — the opponent's ground defence against the Minion Giant. Answered with Tesla on top of it ("Let's go for the tesla here on top of the valkyrie") and then an Electro Spirit used as a pull ("he spirit over here just to bring that valkyrie. He might grab one shot, which is fine with me").
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

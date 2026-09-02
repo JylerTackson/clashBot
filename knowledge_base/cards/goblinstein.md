@@ -114,6 +114,13 @@ This card appears in 2 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 0:47 (named by Ryley, matched to the opponent's 5-elixir play at 0:51 that the 2024-era detector read as Rascals): counted in his elixir audit of what the Minion Giant forces out — "Spear Goblins, a Goblin Stein, and a Mortar just for, you know, a four Elixir card."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

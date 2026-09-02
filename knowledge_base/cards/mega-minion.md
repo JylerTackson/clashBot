@@ -103,6 +103,13 @@ Not specified on source page
 
 This card has a Hero form (Wounding Warp, ability cost 2 Elixir): see [mega-minion-hero.md](../heroes/mega-minion-hero.md).
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- Mentioned, never played. Ryley uses it only as the visual reference point for the new Minion Giant he is showcasing: "I keep calling it something mega just cuz I'm always thinking of the mega minion cuz it really looks exactly like a mega minion. It just works a little bit differently" (255-263s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

@@ -122,6 +122,25 @@ This card appears in 1 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 1 deck(s): [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 1:59 (mentioned, not played): named first in the short list of cards he has seen fully answer the new Minion Giant — "I haven't seen a single like one-to-one interaction that didn't include a Tesla, a Goblin Hut, or an Inferno Tower that fully countered the Minion Giant." The common thread is that all three are buildings that can hit air or that out-body it.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 2:28: Tesla at tile (8, 9), elixir 8 -> 4 (HUD + deploy label score 1.0), into Skeleton Dragons and a Magic Archer crossing in the right lane — the default answer whenever something walks.
+- clock 2:00: Tesla at (8, 10) placed onto the opponent's Valkyrie rather than pre-placed — "Let's go for the tesla here on top of the valkyrie just to make sure that we take this out."
+- clock 0:44 and 0:25: Tesla at (0, 8) into the second Lava Hound and again at (6, 13) onto the Evo Inferno Dragon — "So let's go for the tesla here on the inferno dragon." He counts the Evo cycle as part of the plan: "We have evo tesla and one archer away from evo, so I think we'll be completely fine" (clock 0:48).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- Mentioned only, in the same breath as Musketeer, as a defensive answer that the Monk ability blanks: "even Tesla, right? You just pop the ability and you just tank for it for so long. It definitely gets really difficult to stop" (t=736-742).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

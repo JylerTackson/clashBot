@@ -126,6 +126,17 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.m
 - clock 1:02: he thinks through the opponent's counter-attack options out loud - "He could go for a Hog ... or what he could even do is he could Hog down the middle" - and it never comes.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 2:21 and 1:52 (mentioned, not played — it is the card the new Minion Giant replaced in this list): the placement analogy — "you just drop it at the bridge similar to Hog Rider, and it just goes right to the tower" — and the verdict, "I feel like it's just like somehow a better Hog Rider."
+- clock 1:50-1:39 (mentioned): the deckbuilding claim for the whole video — "That's why we're using it right now in 2.6 Hog Cycle. I just replaced the Hog Rider with the Minion Giant cuz I do think that it's going to work super super nicely in these types of cycle decks, where you just end up replacing it for your win condition."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 0:58-0:52: mentioned, not played — his reference point for the new Minion Giant: "It's literally exactly like the hog rider guys, except it's just even more annoying somehow. Like how do you have a card more annoying than hog rider? That card is so aids."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

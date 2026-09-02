@@ -121,6 +121,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.m
 - clock 0:25: a mis-timed Fisherman pull cost the opponent the crown tower during Ryley's ram + Elite Barbarians push — "Oh my god, what a fisherman. That was not the fisherman that he was looking for."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- Mentioned only, as the card he cut: "since obviously fisherman is no longer needed because I don't have royal giant, I thought I should just add a cannon as a little distraction" (t=697-703). His reasoning is that the Fisherman's pull is a Royal Giant support tool, not a Minion Giant one.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fisherman (scraped 2026-09-02T02:35:13+00:00)

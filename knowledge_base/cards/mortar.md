@@ -137,6 +137,21 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.m
 - clock 0:17 (t=154-156): when the prediction misses, the Mother Witch Hogs eat it — "look at the mother witch piggies just taking out the entire mortar, basically."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- opponent's win condition, played at clock 2:32 [2, 16], 1:28 [15, 17], 0:51 [7, 16], 0:25 [15, 17], overtime 1:55 [2, 16] and parked at (2, 16) through most of overtime. Ryley's read on the matchup, before committing: "I think I'm just going to go for the Minion Giant at the bridge again, cuz he's playing Mortar. And obviously, Mortar isn't really that great against the Minion Giant" (1:34).
+- clock 0:08: he credits the one time it worked — "the one time, obviously, he mortared it to counter it. But, if he has no mortar, it's getting an average of 500 damage" — i.e. a defensively placed Mortar body-pulled the building-targeting flyer off the tower once in the match, since Mortar cannot shoot air.
+- clock 0:57: his standing answer to it was Evo Skeletons pre-placed on the bridge tile plus Evo Cannon and Musketeer — "I guess he has to mortar here, so I'm going to have my Evo Skellies ready."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- Opponent's win condition all game, and the card that does nearly all the damage to Ryley: placed at [2, 17] (clock 2:45 and 1:50), [2, 16] (clock 1:03), [1, 16] (clock 0:35), then [8, 15], [7, 16] and [6, 16] in overtime. The perception pipeline could only log its shells as a run of 547-HP tower hits with no enemy unit in range (t=684.7 to t=758.8).
+- clock 0:35: Ryley credits his own Cannon with denying the standard Mortar tile — "he missed his mortar because of that. Since the cannon was there, it was blocking the regular mortar placement."
+- clock 0:57 and OT 0:29-0:20: his counter-plan is positional and cycle-based rather than reactive — "I can just put my monk towards his mortar and then I can just minion giant behind it every single time", then "He has to get the mortar down, guys, but even with the mortar down, I'm just going to hunter here... He has no mortar in cycle. This game is over."
+- OT 1:20: Skeletons dropped straight onto it is his cheapest answer — "we can just go for the skellies here as well. That will take out that mortar nicely."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

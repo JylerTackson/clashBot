@@ -110,6 +110,23 @@ This card appears in 4 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 1 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 2:32 at tile [4, 12], 2:00 at [9, 14], 0:51 at [9, 10], overtime 1:49 at [9, 11] / 1:35 at [9, 10] / 1:17 at [3, 13]: the standard 2.6 defensive building, dropped the moment the opponent's Mortar goes down and always on the Mortar's side of the arena, paired with Musketeer.
+- clock 1:27 at tile [13, 13], 0:32 and 0:20 at [10, 14], 0:03 at [7, 14]: Ryley also plays the Evolution at the river specifically to fire its deploy barrage across the bridge into the opponent's support — "And then we can go for the Evo Cannon. We're going to hit Spear Goblins, too. What?" (1:23).
+- clock 0:20 and overtime 1:34: he reports the Evo deploy barrage doing nothing all game — "Let's go for the Evo Cannon here. Let's see if we hit that. Okay, nope. Okay, so it's just completely bugged. It's not even only on like swarm cards", and later "We can even go for an Evo Cannon. I know we're not going to damage anything though, sadly, so we're going to have to continue defending." Observation and claim to be re-checked against a patched build.
+- clock 2:09-1:56 (mentioned as a counter class, not played): buildings are half of what he says is required to answer the new Minion Giant — "if you don't have a building and an air counter, it will always hit the tower" — though he names Tesla, Goblin Hut and Inferno Tower rather than Cannon, since Cannon cannot shoot air.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 2:21: added to the deck purely as a Fisherman replacement and a distraction, not as a primary defence — "since obviously fisherman is no longer needed because I don't have royal giant, I thought I should just add a cannon as a little distraction. Honestly, maybe goblin hut could work as well, but you know, my first thought was the cannon here."
+- clock 2:12 / 0:42 / 0:22 and OT 1:20 / 1:10: mid-court placements that pull attackers off the lane — deploy labels at [7, 12], [7, 10], [10, 11], [8, 13], [6, 10]. "I have to drop a cannon here just to distract" (t=713), "Let's go for the cannon here to distract and we go for the hunter" (t=824), "Let's cannon here low just to bring this guy over" (t=897).
+- clock 0:35: he credits the Cannon with denying the opponent's standard Mortar tile — "Oh my god, he missed his mortar because of that. Since the cannon was there, it was blocking the regular mortar placement. Beautiful."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

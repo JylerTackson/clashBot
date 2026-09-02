@@ -113,6 +113,17 @@ The Monk has a special ability, accessible from the rightmost side of the screen
 - A cloned Monk starts walking with its ability already activated.
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor Clan Wars Defense Tower choice.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 1:50 / 0:57 / 0:32 and OT 1:29: the front half of his stated win condition in a deck built around the new Minion Giant — deploy labels at [9, 10], [8, 9], [8, 1] and [2, 13]. "I played with the monk because I want monk in here. I feel like monk plus [minion] giant is going to be a really difficult combo to stop" (t=690-695), and "as long as I keep just going monk and minion giant, I should be able to win this game" (t=725-730).
+- clock 2:01-1:43: why the Monk protects a tank push — "most of the cards that take this out, right? Like musketeer, even Tesla, right? You just pop the ability and you just tank for it for so long. It definitely gets really difficult to stop." Pensive Protection reflects the single-target ranged answers back at them.
+- clock 0:57: he picks the lane by where the enemy Mortar is, so the Monk walks onto it — "I probably do want to go opposite lane. It's probably going to be less annoying cuz I can just put my monk towards his mortar and then I can just minion giant behind it every single time."
+- clock 1:35 and OT 1:29 / 0:45: the ability is spent early rather than saved, both to protect the push and to save a defender — "Let's pop the ability early" (t=884) and "I want to go for the ability here just to make sure that we take this out and keep our hunter hopefully alive" (t=926-930). Failure case at clock 1:35: the opponent's Rascals stopped targeting him — "they aren't targeting the monk anymore. Unfortunately, we still got a lot of damage, but we definitely could have gotten more."
+- Data caveat: the Monk ability costs 1 elixir and empties no hand slot, so activations show up only as unreadable small elixir drops; in this game they are mixed in with the Minion Giant drops the hand reader also cannot see.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Monk (scraped 2026-09-02T02:35:14+00:00)

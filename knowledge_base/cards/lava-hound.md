@@ -117,6 +117,19 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - clock ~0:55 (t=515.7): he answers the Pups with Tornado into Baby Dragon splash — "We're going to need to get a really good NATO on these lava hound pups. Let's NATO it back now" (512-516s).
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.md):
+- clock 1:40 (video 313.6s): dropped in the back for 6 HUD elixir (logged as 'Royal Giant') only after a Tombstone was already down — "Let's go for the tombstone here just to make sure we take out this wall breaker and then we can go for a lava hound in the back. Having a tombstone down before you end up going for a lava is just always very very nice. Just that safety net it provides is really really good" (298-309s).
+- clock 0:38 (video 374.5s): second Lava Hound behind his own towers to open the left lane for the Minion Giant — "Let's just lava here in the back, and I know that 1,000% I will be taking this left-side tower" (376-380s). The enemy left tower fell at clock 0:08.
+- clock 0:07 (video 406.7s): third Lava Hound the second the tower went down, to keep the lane occupied into overtime — "Tower down. Beautiful. Let's lava in the pocket as well. I do want to keep up the pressure" (406-409s).
+- clock 0:56 (video ~358s): he credits the death-spawn on both ends of the board, not just as a tank — "Lava pups are putting in work as well offensively and defensively" (358-362s).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 2:14: mentioned and faced, not played — the opponent's win condition, placed behind his own left tower at tile (1, 28) and again at clock 0:52; Ryley identifies the deck off the first one, "Looks like he's just playing a lava hound deck." He answers it with Tesla at (0, 8) plus Archers rather than committing anything to the other lane.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

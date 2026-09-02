@@ -133,6 +133,13 @@ This card appears in 1 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoRG FishBoy Hunter 3.0 Cycle](../decks/barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- Mentioned only, as the card this deck is derived from: "I am playing with royal giant, but instead of the royal giant, of course, I have the [minion] giant" (t=681-686). The list is a Royal Giant cycle shell with the Royal Giant swapped for the new Minion Giant, Fisherman swapped for Cannon and Royal Ghost swapped for Monk.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

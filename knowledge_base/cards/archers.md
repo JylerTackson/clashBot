@@ -144,6 +144,13 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.0.m
 - clock OT 1:26 (t=205-209): archer placement is also what talks him out of a Freeze — "I would freeze that but because the archer's on it, I'm not going to."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 2:14: Archers in the back as the opponent starts a Lava Hound behind his own tower — "Yeah, let's just go for the archers here in the back. Looks like he's just playing a lava hound deck."
+- clock 1:52: Archers split at tile (9, 8) specifically for the Evo Inferno Dragon — "We can just split our ev[o] archers here to make sure that we take out the inferno dragon."
+- clock 0:39 and 0:29: Archers high at (7, 13), then at (7, 8) once the evolution is up — "Let's go for the high archers here" and "We can go for the evo archers", played in the knowledge that "he's going to take these out with either a fireball or an evo zap".
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

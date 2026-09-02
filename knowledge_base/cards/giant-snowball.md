@@ -148,6 +148,11 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - overtime 1:14: he predicts it as part of the opponent's only affordable response — "He's going to have to go for like a snowball plus bats or something."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- Mentioned only, for a knockback interaction: "The fireball and the snowball actually do not knock the [minion] giant back, which is kind of crazy to think about. But, it actually doesn't for whatever reason" (t=851-858).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

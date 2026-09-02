@@ -131,6 +131,14 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 1:04 onward (opponent's card): tracked repeatedly on Ryley's half through the Miner Balloon pushes, but never named in the commentary — its presence is what makes the opponent's list match the popular EvoMusk Miner 2.9 Cycle deck.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 0:25 at tile [4, 13], one second before the win condition landed at the bridge tile [3, 15]: the mini-tank half of his offensive package — "Sometimes I can use like an Ice Golem with that as well. I do like to do that sometimes" (0:28) and "Let me go for the Ice Golem plus Minion and this is just guaranteed damage" (0:23).
+- overtime 1:39 at tile [9, 8]: the kite card on defence, played as a deliberate alternative to holding The Log — "Let's definitely log here cuz we can just go for the Ice Golem to kite away everything else."
+- clock 2:44 at [3, 9] and 1:19 at [2, 9]: cheap non-committal openers in the back on his own half; 12 HUD plays plus 5 deploy labels in a 238 s window make it the most-played card of the game in a 2.6 shell.
+- clock 1:55 at [9, 11] and 0:45 at [8, 15]: defensive body-blocks in front of the Evo Cannon against a Skeleton Barrel and the opponent's Skeleton King ability, each time alongside an Ice Spirit or Skeletons.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

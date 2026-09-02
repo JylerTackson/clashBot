@@ -136,6 +136,26 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 2:48, 1:23, 0:44 and overtime 0:19 / 0:03: cheapest cycle card in a 3.1-elixir deck, used to open the game ("Just going to go for the skellies here") and to keep cycling back to the Evo Royal Hogs.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 0:58 at tile [3, 15] and 0:08 at [3, 15]: the Evolution pre-placed on the bridge tile of the Mortar lane, played on a read rather than a reaction — "I guess he has to mortar here, so I'm going to have my Evo Skellies ready" (0:57).
+- overtime 1:31 at tile [5, 12]: named as part of the overtime defence that closed the game out — "Let's Evo Skellies. Let's log here. Very good defense."
+- clock 0:27 at tile [9, 10] and 0:37 at [10, 11]: 1-elixir cycle plays in the centre to keep the win condition coming back, 12 uses in the window between HUD reads and deploy labels.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 2:08, 1:49, 1:03, 0:33 and 0:22: cycled five times at (1, 10), (2, 7), (10, 13), (1, 14) and (6, 12), always as a pull rather than for damage — "Skellies here to bring that away. Keep the archer alive" (clock 0:33) and "I have to skellies to distract" (clock 0:22).
+- clock 1:03: Skeletons at (10, 13) immediately before another Minion Giant at the bridge — "I can just skellies here and drop another one at the bridge", the cheap-defence-then-chip pattern the deck runs on.
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 1:26: used as a pull rather than as damage — "We can skellies to bring this over and I think I actually defended really good."
+- OT 1:20 and OT 0:28-0:25: his Mortar answer, dropped on it directly (deploy labels at [9, 11] and [2, 13]) — "we can just go for the skellies here as well. That will take out that mortar nicely" and "The skellies are taking it out."
+- clock 0:21: also used as swarm cleanup mid-defence at [5, 3] — "Okay, bad minions. Go for the skellies."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

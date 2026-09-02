@@ -132,6 +132,21 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - overtime 0:48 to 0:19: three more 1-elixir drops (labels at [9, 0] and twice at [12, 8]) as cheap cycle and stuns while defending the last Balloon wave.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.md):
+- clock 2:21: Electro Spirit at (11, 8), elixir 7 -> 6 (HUD + deploy label), into the Magic Archer crossing at (13, 16).
+- clock 1:54: used purely to drag a target, not to kill it — "So, he spirit over here just to bring that valkyrie. He might grab one shot, which is fine with me."
+- clock 1:10, 0:38 and 0:30: three more cheap resets during the closing defensive stack at (9, 6), (7, 10) and (3, 7) — "Knight here as well. It's e-spirit."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- clock 2:17: opening cycle play behind his own king tower at tile [8, 0] — "Let's go for the e-spirit in the back and I think I could just drop this at the bridge again."
+- clock 1:42-1:39: paired with the Monk ability as push support at [14, 14] — "We can go for the monk ability and the e-spirit. Nice, we can take this out. Beautiful."
+- clock 0:14 and OT 1:52 / 1:10 / 0:33: the reset that finishes defences off, at [14, 14], [4, 13] and [2, 13] — "We barb barrel and we can go for the e-spirit as well. Oh my wow, perfect defense right there. Zero damage" (t=831-833) and "E-spirit and barb barrel for the rascals" (t=933).
+- OT 0:45: used to keep a defender alive rather than to reset a tank — "Beautiful e-spirit here to protect the hunter."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

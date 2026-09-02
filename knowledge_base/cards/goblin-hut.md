@@ -139,6 +139,16 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - overtime 1:31 and overtime 1:00: a "very low" hut when he was short on elixir, then one split to the other lane for a specific job — "we can go for a Goblin Hut towards the right side lane just to make sure that we take out that barbarian barrel, but also start up our spear goblins." He loses one to the Evo Musketeer: "Good musky there to snipe down our Goblin Hut."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.md):
+- clock 1:57 (mentioned, not played): one of the three cards he says can answer the new Minion Giant one-for-one — "a Tesla, a Goblin Hut, or an Inferno Tower."
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- Mentioned only, as the alternative he considered for the Fisherman slot before settling on Cannon: "Honestly, maybe goblin hut could work as well, but you know, my first thought was the cannon here" (t=703-707).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

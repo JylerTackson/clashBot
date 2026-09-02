@@ -87,6 +87,13 @@ Not specified on source page
 - Mirror copies whichever form was played last — e.g. mirroring the 3 Elixir version costs 4 Elixir and gives the ground form one level higher, and the mirrored cost does not rise even if you cross the 6 Elixir threshold.
 - Works best alongside big win conditions such as Golem, Giant, Royal Giant and Lava Hound.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:start -->
+Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.md):
+- Mentioned only, as his range comparison for the new Minion Giant: "I feel like his range is so crazy. He gives like spirit empress vibes in terms of the range. That's why it's so strong" (t=715-720).
+<!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spirit_Empress (scraped 2026-09-02T02:45:45+00:00)
