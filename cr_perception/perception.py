@@ -22,6 +22,8 @@ from .decktracker import OpponentDeckTracker, load_kb_decks
 from .detect import to_card_slug
 from .elixir_sim import ElixirSimulator
 from .events import PlayDetector
+import cv2
+
 from .hud import (CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, HandReader, OcrReader, TowerHpReader,
                   crop_roi, parse_clock)
 from .labels import DeployLabelReader, label_ground_point
@@ -72,7 +74,9 @@ class Perception:
         self.costs = load_card_costs(self.kb)
         # wiki art only: BuildABot's in-game thumbnails were measured to lower
         # hand accuracy on real frames (style mismatch shrinks the margin)
-        self.matcher = CardMatcher(self.kb / "cards" / "images")
+        self.learned_dir = REPO / "data" / "templates"
+        self.matcher = CardMatcher(self.kb / "cards" / "images", learned_dir=self.learned_dir)
+        self._slot_crops: list[tuple[float, list]] = []   # (t, [4 slot crops]) ring buffer, ~3 s
         self.hand_reader = HandReader(self.matcher, self.calib.rois)
         self.elixir_bar = ElixirBarReader(self.calib.rois["elixir_bar"], self.calib.rois.get("elixir_bar_full"))
         self.digits = DigitTemplates()
@@ -203,6 +207,9 @@ class Perception:
         # ---- HUD: hand ----
         t0 = time.perf_counter()
         hand = self.hand_reader.read(content)
+        if idx % 3 == 0:
+            self._slot_crops.append((t, [crop_roi(content, self.calib.rois[f"hand_{i}"]).copy() for i in range(4)]))
+            self._slot_crops = [c for c in self._slot_crops if t - c[0] <= 3.0]
         hand = self._smooth_hand(hand)
         self._tick("hand", t0)
 
@@ -299,9 +306,10 @@ class Perception:
             tracked_in = []
             for d in dets:
                 bx, by = g.bbox_bottom_centre(d.bbox)
-                if d.category in ("unit", "spell") and self.H.in_arena(bx, by, margin=1.0):
+                if d.category in ("unit", "spell") and self.H.in_arena(bx, by, margin=0.5):
                     d.pos_f = self.H.pixel_to_tile_f(bx, by)
-                    tracked_in.append(d)
+                    if -0.5 <= d.pos_f[1] <= 31.2:
+                        tracked_in.append(d)
                 elif d.category == "tower":
                     towers_seen.append(UnitObs(d.cls, d.side, None, d.conf, tuple(int(v) for v in d.bbox), None, d.category))
             self.tracker.update(t, tracked_in)
@@ -340,6 +348,8 @@ class Perception:
         new_events += self.play.update_tower_hp(t, {"own_king": towers_own["king"], "own_left": towers_own["left"],
                                                     "own_right": towers_own["right"]}, units, clock_v)
         for ev in new_events:
+            if ev.player == "own" and ev.card and "deploy label" in ev.detail and getattr(ev, "slot", None) is not None:
+                self._learn_template(ev)
             if ev.player == "own" and ev.card and ev.card in self.costs and not getattr(ev, "_charged", False):
                 self.own_sim.spend(self.costs[ev.card])
             if ev.player == "opponent":
@@ -379,6 +389,22 @@ class Perception:
         self._mask = mask
         self._tick("total", t_all)
         return state
+
+    def _learn_template(self, ev) -> None:
+        """The slot crop from ~0.5-1.5 s before the play is the in-game art of
+        the confirmed card: store it as a template (self-labelling)."""
+        cands = [c for c in self._slot_crops if 0.5 <= ev.timestamp - c[0] <= 1.5]
+        if not cands:
+            return
+        crop = cands[0][1][ev.slot]
+        gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY) if crop.size else None
+        if gray is None or gray.std() < 15:
+            return
+        existing = list((self.learned_dir / ev.card).glob("*.png")) if (self.learned_dir / ev.card).exists() else []
+        if len(existing) >= 12:
+            return
+        vid = Path(getattr(self.source, "path", "live")).stem
+        self.matcher.add_learned(ev.card, crop, self.learned_dir / ev.card / f"{vid}_{ev.timestamp:.1f}.png")
 
     # ------------------------------------------------------------------
     def states(self) -> Iterator[GameState]:

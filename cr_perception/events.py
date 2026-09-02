@@ -103,23 +103,32 @@ class PlayDetector:
             self.pending_hand.remove(best)
             self.own_play_cards_recent.append((t0, best.before))
             tile, note = _tile_for(best.before)
-            return [PlayEvent(t0, clock, "own", best.before, tile, e_before, e_after, "hud", "high",
-                              f"slot {best.slot} emptied ({best.before}), elixir -{total}{note}")]
+            ev = PlayEvent(t0, clock, "own", best.before, tile, e_before, e_after, "hud", "high",
+                           f"slot {best.slot} emptied ({best.before}), elixir -{total}{note}")
+            ev.slot = best.slot
+            return [ev]
         if best is not None and len(self.pending_hand) == 1:
             self.pending_hand.remove(best)
             self.own_play_cards_recent.append((t0, best.before))
             tile, note = _tile_for(best.before)
-            return [PlayEvent(t0, clock, "own", best.before, tile, e_before, e_after, "hud", "medium",
-                              f"slot {best.slot} emptied ({best.before}) but elixir -{total} != cost {self.card_costs.get(best.before)}{note}")]
+            ev = PlayEvent(t0, clock, "own", best.before, tile, e_before, e_after, "hud", "medium",
+                           f"slot {best.slot} emptied ({best.before}) but elixir -{total} != cost {self.card_costs.get(best.before)}{note}")
+            ev.slot = best.slot
+            return [ev]
         # no slot change explains it: a deploy label seen on Ryley's side with a
         # matching cost identifies the card (the hand read was wrong or unreadable)
         for card, (lt, tile, score, text) in list(self.label_tiles.items()):
             if t0 - lt <= 6.0 and abs(self.card_costs.get(card, -9) - total) <= 0.5:
                 del self.label_tiles[card]
                 self.own_play_cards_recent.append((t0, card))
-                return [PlayEvent(t0, clock, "own", card, tile, e_before, e_after, "deploy_label",
-                                  "medium" if score >= 0.85 else "low",
-                                  f"deploy label '{text}' -> {card} (score {score}) at {tile} explains elixir -{total} (hand read disagreed)")]
+                ev = PlayEvent(t0, clock, "own", card, tile, e_before, e_after, "deploy_label",
+                               "medium" if score >= 0.85 else "low",
+                               f"deploy label '{text}' -> {card} (score {score}) at {tile} explains elixir -{total} (hand read disagreed)")
+                recent_empty = [p for p in self.pending_hand if t0 - p.t <= 6.0 and p.after is None]
+                if len(recent_empty) == 1:
+                    ev.slot = recent_empty[0].slot
+                    self.pending_hand.remove(recent_empty[0])
+                return [ev]
         if total >= 2:
             return [PlayEvent(t0, clock, "own", None, None, e_before, e_after, "inferred", "low",
                               f"elixir dropped by {total} with no readable hand change")]
@@ -200,6 +209,12 @@ class PlayDetector:
             self.recent_group[key] = tr.first_t
             conf = "high" if categorize(tr.cls) == "spell" or tr.side == "enemy" else "medium"
             own_half = tr.tile is not None and tr.tile[1] < 15
+            # a troop track that STARTS deep in Ryley's half is his own unit with the
+            # detector's side channel wrong (the opponent cannot deploy troops there;
+            # spells/miner/drill/barrel/graveyard are the exceptions and are exempt)
+            from .detect import SPELL_CLASSES
+            if tr.tile is not None and tr.tile[1] < 13 and card not in SPELL_CLASSES and card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel"):
+                continue
             detail = "enemy-side track" + (" but spawned on own half (miner/barrel/spell?)" if own_half else "")
             events.append(PlayEvent(tr.first_t, clock, "opponent", card, tr.tile, None, None, "arena",
                                     "medium" if own_half else conf, detail))

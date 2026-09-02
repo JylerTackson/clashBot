@@ -71,16 +71,7 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
         return {**header, "empty": True, "reason": "no readable match frames"}
     t0, t1 = match_states[0]["t"], match_states[-1]["t"]
     events = [e for e in events if t0 - 1.0 <= e["timestamp"] <= t1 + 1.0]
-    # opponent deck for THIS game, replayed from its events (independent of
-    # whatever resets the live tracker did)
-    from .decktracker import OpponentDeckTracker
-    dt = OpponentDeckTracker(kb_decks or [])
-    for e in events:
-        if e["player"] == "opponent":
-            if e.get("card"):
-                dt.check_cycle(e["card"])
-            dt.observe_play(e.get("card"))
-    replayed = dt.summary()
+
 
     # 1 Hz timeline
     timeline, last_sec = [], None
@@ -103,17 +94,35 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
         row["threats"] = [f"{u['class']}({u['side'][0]}) {u['heading']}, tower in {u['eta_tower']['s']}s"
                           for u in row["units"] if u.get("eta_tower") and u["eta_tower"]["s"] <= 8 and u["side"] == "enemy"]
 
-    # own deck: cards seen in hand/next + own plays
+    # implausible opponent events: detector-side troops starting deep in Ryley's
+    # half are his own units (side channel wrong), not opponent plays
+    from .detect import SPELL_CLASSES
+    exempt = SPELL_CLASSES | {"miner", "goblin-drill", "graveyard", "goblin-barrel"}
+    events = [e for e in events if not (e["player"] == "opponent" and e["detect_source"] == "arena" and e.get("card")
+                                        and e.get("tile") and e["tile"][1] < 13 and e["card"] not in exempt)]
+    # own deck: confirmed plays first (HUD / deploy label), then confident hand reads
+    played = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] in ("hud", "deploy_label"))
     hand_cards = Counter()
     for s in match_states:
-        for c in (s["own"].get("hand") or []) + [s["own"].get("next_card")]:
-            if c:
+        for c, cf in zip(s["own"].get("hand") or [], s["own"].get("hand_conf") or []):
+            if c and cf >= 0.6:
                 hand_cards[c] += 1
-    own_plays = [e for e in events if e["player"] == "own" and e.get("card")]
-    for e in own_plays:
-        hand_cards[e["card"]] += 30
-    # keep cards seen consistently (>= 2 s of frames or played)
-    own_deck = [c for c, n in hand_cards.most_common() if n >= 20][:8]
+    own_deck = [c for c, _ in played.most_common()]
+    for c, n in hand_cards.most_common():
+        if c not in own_deck and n >= 30 and len(own_deck) < 8:
+            own_deck.append(c)
+    own_deck = own_deck[:8]
+    own_deck_sources = {c: ("played" if c in played else "hand") for c in own_deck}
+    from .decktracker import OpponentDeckTracker
+    dt = OpponentDeckTracker(kb_decks or [])
+    # opponent cards that are Ryley's confirmed cards are misattributions
+    events = [e for e in events if not (e["player"] == "opponent" and e.get("card") in played and e["detect_source"] == "arena")]
+    for e in events:   # opponent deck for THIS game, replayed from its (filtered) events
+        if e["player"] == "opponent":
+            if e.get("card"):
+                dt.check_cycle(e["card"])
+            dt.observe_play(e.get("card"))
+    replayed = dt.summary()
     last = match_states[-1]
     opp = last["opponent"]
     quality = {
@@ -130,7 +139,8 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
             if t0 - 2 <= mid <= t1 + 2:
                 cues.append({"t": round(c["start"], 1), "end": round(c["end"], 1), "text": c["text"]})
     return {**header, "start_t": round(t0, 1), "end_t": round(t1, 1),
-            "own_deck_observed": own_deck, "own_deck_key": "-".join(sorted(own_deck)) if len(own_deck) == 8 else None,
+            "own_deck_observed": own_deck, "own_deck_sources": own_deck_sources,
+            "own_deck_key": "-".join(sorted(own_deck)) if len(own_deck) == 8 else None,
             "opponent": {"deck_known": replayed["deck_known"], "deck_complete": replayed["deck_complete"],
                          "deck_predictions": replayed["deck_predictions"], "kb_matches": replayed["kb_matches"],
                          "cycle_confirmed": replayed["cycle_confirmed"], "cycle_violations": replayed["cycle_violations"],
@@ -145,7 +155,7 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
     L = [f"# Match context: {ctx.get('title', '')} (video {ctx.get('video_id')}, match {ctx.get('match_index')})", "",
          f"- Video time {ctx['start_t']}s to {ctx['end_t']}s ({ctx['quality']['readable_seconds']}s readable). "
          f"Calibration: {ctx.get('calibration_method')}.",
-         f"- Own deck observed (Ryley): {', '.join(n(c) for c in ctx['own_deck_observed']) or 'unknown'}"
+         f"- Own deck observed (Ryley): {', '.join(n(c) + ('' if ctx.get('own_deck_sources', {}).get(c) == 'played' else ' (hand read only)') for c in ctx['own_deck_observed']) or 'unknown'}"
          + (f" (deck_key `{ctx['own_deck_key']}`)" if ctx.get('own_deck_key') else " (incomplete)"),
          f"- Opponent cards seen: {', '.join(n(c) for c in (ctx['opponent']['deck_known'] or []))}"
          + (" (complete)" if ctx['opponent'].get('deck_complete') else ""),

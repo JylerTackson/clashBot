@@ -91,9 +91,10 @@ class ElixirBarReader:
         frac = (lead_px + run_end + 1) / full_px
         elixir = int(np.clip(round(frac * 10), 0, 10))   # the fill is quantised in tenths
         elixir = max(0, min(10, elixir))
-        # confidence: how clean the edge is (few purple columns after the run)
-        noise = float(filled[run_end + 3:].mean()) if run_end + 3 < len(filled) else 0.0
-        conf = max(0.0, 1.0 - 3.0 * noise) * (0.9 if m.mean() > 0.02 else 0.3)
+        # confidence: the fill must be dense up to the edge and sparse after it
+        dense = float(filled[:run_end + 1].mean())
+        after = float(filled[run_end + 3:].mean()) if run_end + 3 < len(filled) else 0.0
+        conf = 0.9 if (dense >= 0.7 and after <= 0.35) else 0.6 if dense >= 0.5 else 0.3
         return elixir, round(conf, 2)
 
 
@@ -243,7 +244,8 @@ class CardMatcher:
     BUILDABOT_ALIAS = {"pekka": "p-e-k-k-a", "minipekka": "mini-p-e-k-k-a", "mini_pekka": "mini-p-e-k-k-a", "x_bow": "x-bow",
                        "log": "the-log", "fire_spirits": "fire-spirit"}
 
-    def __init__(self, images_dir: Path, extra_dirs: list[Path] | None = None, valid_slugs: set[str] | None = None):
+    def __init__(self, images_dir: Path, extra_dirs: list[Path] | None = None, valid_slugs: set[str] | None = None,
+                 learned_dir: Path | None = None):
         """images_dir: Phase 1 wiki art (slug.png). extra_dirs: additional
         template sets (e.g. BuildABot's in-game hand thumbnails, *.jpg with
         underscore names and _ev1 evolution variants); their names are mapped
@@ -255,6 +257,16 @@ class CardMatcher:
             if img is not None:
                 self.templates.append(CardTemplate(p.stem, self.describe(img)))
         known = valid_slugs or {t.slug for t in self.templates}
+        # self-labelled in-game templates: <learned_dir>/<slug>/*.png (written by
+        # Perception when a deploy label confirms which card left a hand slot)
+        self.learned_dir = learned_dir
+        if learned_dir and Path(learned_dir).exists():
+            for d in sorted(Path(learned_dir).iterdir()):
+                if d.is_dir() and d.name in known:
+                    for p in sorted(d.glob("*.png"))[-12:]:      # cap per card
+                        img = cv2.imread(str(p), cv2.IMREAD_COLOR)
+                        if img is not None:
+                            self.templates.append(CardTemplate(d.name, self.describe(img)))
         for d in [Path(x) for x in (extra_dirs or [])]:
             for p in sorted(d.glob("*.png")) + sorted(d.glob("*.jpg")):
                 stem = re.sub(r"_ev\d+$", "", p.stem)
@@ -266,6 +278,17 @@ class CardMatcher:
                     self.templates.append(CardTemplate(slug, self.describe(img)))
         if not self.templates:
             raise FileNotFoundError(f"no card art in {images_dir}")
+        self.F = np.stack([t.feat for t in self.templates])
+        self.slugs = [t.slug for t in self.templates]
+
+    def add_learned(self, slug: str, crop: np.ndarray, path: Path | None = None) -> None:
+        """Add an in-game crop as a template for `slug` (and persist it)."""
+        if crop is None or crop.size == 0:
+            return
+        if path is not None:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            cv2.imwrite(str(path), crop)
+        self.templates.append(CardTemplate(slug, self.describe(crop)))
         self.F = np.stack([t.feat for t in self.templates])
         self.slugs = [t.slug for t in self.templates]
 
@@ -290,8 +313,14 @@ class CardMatcher:
         gcorr = self.F[:, :n] @ f[:n]                      # ~ [-1, 1]
         hdist = np.abs(self.F[:, n:] - f[n:]).sum(axis=1) / 3.0  # [0, 2]
         score = 0.75 * gcorr + 0.25 * (1.0 - hdist / 2.0)
-        order = np.argsort(-score)[:top]
-        return [(self.slugs[i], float(score[i])) for i in order]
+        order = np.argsort(-score)
+        out: list[tuple[str, float]] = []
+        for i in order:
+            if all(self.slugs[i] != s for s, _ in out):
+                out.append((self.slugs[i], float(score[i])))
+            if len(out) >= top:
+                break
+        return out
 
 
 class HandReader:
