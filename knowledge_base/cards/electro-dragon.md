@@ -108,6 +108,16 @@ Not specified on source page
 
 This card has an evolution: see [electro-dragon-evolution.md](../evolutions/electro-dragon-evolution.md). Cycles to evolve: 1. Stat boosts: N/A.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Dragon (scraped 2026-09-02T02:35:03+00:00)

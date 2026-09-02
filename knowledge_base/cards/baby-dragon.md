@@ -111,6 +111,16 @@ When defeated, Baby Dragon spawns an Egg, which will spawn an Evolved Baby Drago
 
 This card has an evolution: see [baby-dragon-evolution.md](../evolutions/baby-dragon-evolution.md). Cycles to evolve: 2. Stat boosts: N/A.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Control](../archetypes/control.md)** — 2 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md), [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

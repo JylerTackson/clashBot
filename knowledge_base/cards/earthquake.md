@@ -95,6 +95,16 @@ Not specified on source page
 - Miner mind-game: when attacking a passive building, feign the attack by aiming at the Crown Tower instead, baiting the opponent into spending Elixir so the Earthquake hits their unit, the Crown Tower and the building at once.
 - Works well with large building-vulnerable tanks - Giant, Electro Giant, Goblin Giant, Elixir Golem and Golem - by clearing the defensive building blocking their path to the Crown Tower.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md), [Hog MM EvoCannon 2.6 Cycle](../decks/barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

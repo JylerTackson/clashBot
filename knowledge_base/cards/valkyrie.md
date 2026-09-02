@@ -121,6 +121,16 @@ This card has an evolution: see [valkyrie-evolution.md](../evolutions/valkyrie-e
 
 This card has a Hero form (Wild Whirlwind, ability cost 3 Elixir): see [valkyrie-hero.md](../heroes/valkyrie-hero.md).
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Bait](../archetypes/bait.md)** — 1 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

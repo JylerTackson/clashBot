@@ -94,6 +94,16 @@ Not specified on source page
 - When defending against her, two precisely placed low-hitpoint cards such as Ice Spirit and Dart Goblin can activate your King Tower.
 - Use cheap swarm units to soak her dash and protect key support troops like Dart Goblin or Princess.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Bridge Spam](../archetypes/bridge-spam.md)** — 1 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

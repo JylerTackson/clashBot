@@ -114,6 +114,16 @@ Dart Goblin's attacks deal area damage, identically to a Sparky.
 
 This card has an evolution: see [dart-goblin-evolution.md](../evolutions/dart-goblin-evolution.md). Cycles to evolve: 2. Stat boosts: N/A.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Bait](../archetypes/bait.md)** — 2 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md), [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

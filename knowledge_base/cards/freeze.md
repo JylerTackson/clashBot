@@ -105,6 +105,16 @@ Not specified on source page
 - Lightning is the alternative if pure damage is preferred — more damage plus a stun and better against Inferno Tower, but 6 Elixir instead of 4.
 - Levelling is low priority since duration is level-independent; at equal levels it only one-shots Bats and Skeletons, though level 13 is worth reaching to one-shot Mirrored level 16 Skeletons and Bats.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Control](../archetypes/control.md)** — 1 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

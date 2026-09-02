@@ -101,6 +101,16 @@ Not specified on source page
 - Digging under standing troops pushes them aside and can re-aggro them, though his path is hard to predict.
 - Opponents commonly block him by keeping a unit behind the Crown Tower; wait until that card is out of hand, or answer their swarm with a spell on reaction.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

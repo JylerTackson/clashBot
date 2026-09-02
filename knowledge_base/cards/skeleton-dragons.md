@@ -107,6 +107,16 @@ Not specified on source page
 - A Tornado offsets their small splash radius by clumping troops, and is even better when it also drags air troops into the enemy Crown Tower.
 - Flying Machine is a substitute when single-target damage is preferred over splash; both have similar hitpoints and die to Fireball or Lightning, and they can also be run together so one baits for the other.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

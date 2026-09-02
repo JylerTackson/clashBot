@@ -112,6 +112,16 @@ Not specified on source page
 
 This card has an evolution: see [bomber-evolution.md](../evolutions/bomber-evolution.md). Cycles to evolve: 2. Stat boosts: N/A.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

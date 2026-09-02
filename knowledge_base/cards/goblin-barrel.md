@@ -137,6 +137,16 @@ Instead of Goblins, the Goblin Barrel spawns Goblin Brawlers.
 
 This card has an evolution: see [goblin-barrel-evolution.md](../evolutions/goblin-barrel-evolution.md). Cycles to evolve: 2. Stat boosts: +1 Barrel.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Bait](../archetypes/bait.md)** — 2 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md), [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

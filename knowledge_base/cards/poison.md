@@ -103,6 +103,16 @@ Poison never goes away until the match ends or is dropped in a different locatio
 - Modifier **Bigger & Better** (Rare): the Poison sequentially grows in radius and damage with every tick.
 - Modifier **No Escape** (Epic): the Poison is permanent until the match ends or it is dropped in a different location.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Control](../archetypes/control.md)** — 1 deck(s): [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

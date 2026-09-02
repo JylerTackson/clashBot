@@ -126,6 +126,16 @@ Not specified on source page
 
 This card has a Hero form (Stone Swish, ability cost 2 Elixir): see [bowler-hero.md](../heroes/bowler-hero.md).
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Control](../archetypes/control.md)** — 1 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

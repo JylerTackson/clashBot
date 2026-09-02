@@ -113,6 +113,16 @@ X-Bow shoots out Sparky bullets in return for a shorter lifetime.
 - A center-bridge X-Bow can be hit by a Magic Archer placed on the center of the bridge one tile from the river, which also lets the shot carry into the Crown Tower; against a staggered X-Bow the Magic Archer must come one tile closer to hit both.
 - An area-damage spell in hand while attacking lets the X-Bow clear low and moderate hitpoint defenders and lock onto the Crown Tower.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Siege](../archetypes/siege.md)** — 1 deck(s): [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/X-Bow (scraped 2026-09-02T02:35:34+00:00)

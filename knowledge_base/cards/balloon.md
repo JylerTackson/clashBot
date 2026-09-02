@@ -121,6 +121,17 @@ Not specified on source page
 
 This card has a Hero form (Coffin Cadet, ability cost 2 Elixir): see [balloon-hero.md](../heroes/balloon-hero.md).
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Control](../archetypes/control.md)** — 1 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md)
+- **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

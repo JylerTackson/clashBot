@@ -113,6 +113,16 @@ Not specified on source page
 
 This card has an evolution: see [royal-hogs-evolution.md](../evolutions/royal-hogs-evolution.md). Cycles to evolve: 2. Stat boosts: N/A.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 3 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 3 deck(s): [EvoRHogs AQ GobHut EvoGhost](../decks/archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons.md), [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md), [Goblinstein EvoRHogs 3.4 Cycle](../decks/archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

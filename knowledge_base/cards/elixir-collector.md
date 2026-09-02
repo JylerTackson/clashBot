@@ -94,6 +94,16 @@ Not specified on source page
 - Rage interaction: Rage produces no extra Elixir in practice — 3 Rage spells are needed for a single extra Elixir, a 5 Elixir deficit, so it is not worth it.
 - In the Rage Challenge, building lifetimes are unaffected but production speed is boosted, giving up to 9 Elixir instead of the usual 7.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Collector (scraped 2026-09-02T02:35:34+00:00)

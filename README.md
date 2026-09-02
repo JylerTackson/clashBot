@@ -97,9 +97,14 @@ python3 decks_build.py finalize           # step 4-6: archetypes, index, card cr
 python3 tests/test_phase2.py              # end-to-end smoke test on a synthetic fixture
 ```
 
-Status: the live scrape is **blocked** — royaleapi.com serves a Cloudflare
-managed challenge (interactive Turnstile) to both plain HTTP and headless
-Chromium, and its robots.txt disallows AI agents; the details are in
-`meta/qa_report.md`. The pipeline is complete and tested against a
-synthetic fixture, so a page saved from a browser session can be fed in with
-`--html` to produce the deck files, archetype syntheses and card cross-links.
+Status: the live site cannot be fetched by automation — royaleapi.com serves
+a Cloudflare managed challenge (interactive Turnstile) to both plain HTTP and
+headless Chromium, and its robots.txt disallows AI agents (details in
+`meta/qa_report.md`). The current data therefore comes from a copy of the
+popular-decks page saved from a normal browser session and passed in with
+`--html`: 20 entries, 19 unique decks (Cycle 7, Bridge Spam 3, Siege 3,
+Beatdown 2, Control 2, Bait 2), with hero variants and evolutions recorded per
+deck. Classifications are heuristic unless a reviewing agent changed them
+(`classification_source: agent`); the page shows no archetype labels of its
+own. Re-running with a newer saved page updates decks, archetype files and
+card cross-links in place.

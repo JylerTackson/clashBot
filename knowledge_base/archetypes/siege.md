@@ -1,18 +1,16 @@
 ---
 archetype: siege
 archetype_name: Siege
-deck_count: 0
+deck_count: 3
 secondary_deck_count: 0
-scraped_at: "2026-09-02T03:05:01+00:00"
+scraped_at: "2026-09-02T03:43:33+00:00"
 ---
 
 # Siege
 
 > A building placed on your own side (X-Bow, Mortar) hits the enemy tower from range while the rest of the deck protects it.
 
-Decks classified as Siege in this run: **0** primary.
-
-No popular decks were classified into this archetype in this run. That is a signal about the current meta (or about the scrape being blocked; see meta/deck_index.md), not a gap in the taxonomy. The gameplan below is the general one.
+Decks classified as Siege in this run: **3** primary.
 
 ## Gameplan
 
@@ -26,11 +24,20 @@ No popular decks were classified into this archetype in this run. That is a sign
 - Damage from your own side of the arena forces the opponent to cross the river into your defenses to stop it.
 - Cheap support makes every siege placement a positive trade if the opponent over-commits to killing the building.
 - Buildings tank for the deck on defense, so siege decks are strong against beatdown and slow win conditions.
+- Across this run's 3 deck(s) the average elixir cost is 3.42 (min 3.0, max 3.75).
+- Evolutions used: Mortar (2), Archers (1), Tesla (1), Skeleton Barrel (1), Elite Barbarians (1)
 
 ## Cards that recur across these decks
 
-No decks this run. Cards that typically define the archetype: [X-Bow](../cards/x-bow.md), [Mortar](../cards/mortar.md), [Tesla](../cards/tesla.md), [Cannon](../cards/cannon.md), [Knight](../cards/knight.md), [Archers](../cards/archers.md), [Ice Spirit](../cards/ice-spirit.md), [The Log](../cards/the-log.md), [Fireball](../cards/fireball.md), [Rocket](../cards/rocket.md).
+- [Fireball](../cards/fireball.md) — 3 of 3 decks
+- [Skeletons](../cards/skeletons.md) — 2 of 3 decks
+- [Barbarian Barrel](../cards/barbarian-barrel.md) — 2 of 3 decks
+- [Cannon Cart](../cards/cannon-cart.md) — 2 of 3 decks
+- [Minions](../cards/minions.md) — 2 of 3 decks
+- [Mortar](../cards/mortar.md) — 2 of 3 decks
 
 ## Example decks
 
-None this run.
+- [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md) — avg elixir 3.0, classification `heuristic`
+- [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md) — avg elixir 3.5, classification `heuristic`
+- [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md) — avg elixir 3.75, classification `heuristic`

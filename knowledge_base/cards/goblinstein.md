@@ -103,6 +103,17 @@ The Goblinstein has a special ability, accessible from the rightmost side of the
 - Like area damage, the link has no target cap, making it strong against clumped pushes.
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor Clan Wars Defense Tower choice.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [Goblinstein EvoRHogs 3.4 Cycle](../decks/archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons.md)
+- **[Siege](../archetypes/siege.md)** — 1 deck(s): [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

@@ -1,13 +1,33 @@
 # Deck index
 
-Generated 2026-09-02T03:07:12+00:00 from https://royaleapi.com/decks/popular?lang=en.
+Generated 2026-09-02T03:50:13+00:00 from https://royaleapi.com/decks/popular?lang=en.
 
-**Decks: 0** · scrape status: `blocked`
+**Decks: 19** · scrape status: `enumerated`
 
-> **Blocker:** Both the raw HTTP fetch and a headless Chromium render of the popular-decks page returned a Cloudflare managed challenge (interactive 'Verify you are human' Turnstile). Not bypassed. Re-run with --html <saved page> from a normal browser session.
+Coverage: The page listed 20 deck entries (19 unique card sets; 1 repeated with different evolution/hero picks). RoyaleAPI's popular-decks view exposes further decks through its filter/time-range controls and deeper pages, which were not captured; this run is the default view only.
 
-Stat units (rating/usage/W/D/L) as displayed on the page: n/a. `avg_elixir` is computed from Phase 1 card costs; the site's own value is kept in each deck file as `site_avg_elixir`.
+Source page: saved copy of the popular-decks page supplied by the user (484412 bytes, sha256 659153a7075fde78…), because the live site serves a Cloudflare challenge to automated fetches (see qa_report.md).
+
+Stat units as displayed on the page: rating=RoyaleAPI rating score (higher is better, not a percentage); usage/wins/draws/losses=percentage of battles; usage/wins/draws/losses_count=raw battle counts; site_rank=position on the popular-decks page. `avg_elixir` is computed from Phase 1 card costs; the site's own value is kept in each deck file as `site_avg_elixir`.
 
 | deck_key | display_name | archetype (primary / secondary) | source | rating | usage | W | D | L | avg_elixir | status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| (no decks scraped this run) | | | | | | | | | | |
+| [`archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons`](../decks/archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons.md) | EvoRHogs AQ GobHut EvoGhost | Cycle / Control | agent | 47 | 0.7% | 50.7% | 0.1% | 49.2% | 3.12 | done |
+| [`archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log`](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md) | EvoRHogs AQ EvoCannon 2.9 Cycle | Cycle / none | heuristic | 44 | 0.8% | 49.5% | 0.3% | 50.2% | 2.88 | done |
+| [`archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons`](../decks/archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons.md) | Goblinstein EvoRHogs 3.4 Cycle | Cycle / Control | agent | 42 | 0.7% | 48.8% | 0.1% | 51.1% | 3.38 | done |
+| [`archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow`](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md) | X-Bow HeroKnight 3.0 Cycle | Siege / none | heuristic | 40 | 0.7% | 47.9% | 0.0% | 52.1% | 3.0 | done |
+| [`arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap`](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md) | Golem HeroMiniPekka NW Phoenix | Beatdown / none | heuristic | 54 | 0.7% | 53.6% | 0.0% | 46.4% | 4.12 | done |
+| [`baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado`](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md) | Loon HeroKnight Double Dragon Bowler | Control / none | heuristic | 52 | 0.6% | 52.7% | 0.2% | 47.1% | 3.75 | done |
+| [`baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado`](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md) | GY IWiz Evo BBD Nado | Control / none | heuristic | 50 | 0.8% | 51.6% | 0.2% | 48.2% | 3.38 | done |
+| [`balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons`](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md) | EvoMusk Miner 2.9 Cycle | Cycle / Control | agent | 44 | 0.4% | 50.0% | 0.2% | 49.8% | 2.88 | done |
+| [`bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap`](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md) | Pekka Bandit EWiz EvoGhost | Bridge Spam / none | heuristic | 49 | 0.5% | 52.0% | 0.1% | 48.0% | 3.88 | done |
+| [`barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies`](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md) | GS Evo Ram HeroWiz MW | Bridge Spam / none | heuristic | 54 | 1.2% | 52.9% | 0.0% | 47.0% | 4.25 | done |
+| [`barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies`](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md) | GS Evo Ram HeroWiz MW | Bridge Spam / none | heuristic | 56 | 1.3% | 53.7% | 0.1% | 46.3% | 3.88 | done |
+| [`barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel`](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md) | EvoMortar Cart | Siege / none | heuristic | 53 | 0.6% | 53.2% | 0.1% | 46.7% | 3.5 | done |
+| [`barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado`](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md) | Golem Double Dragon Nado Pump | Beatdown / none | heuristic | 50 | 0.7% | 52.1% | 0.0% | 47.9% | 4.5 | done |
+| [`barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons`](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md) | EvoMortar Goblinstein Cart | Siege / none | heuristic | 47 | 0.5% | 51.3% | 0.0% | 48.7% | 3.75 | done |
+| [`barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons`](../decks/barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons.md) | Hog MM EvoCannon 2.6 Cycle | Cycle / none | heuristic | 45 | 0.6% | 50.0% | 0.0% | 50.0% | 2.62 | done |
+| [`barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons`](../decks/barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons.md) | EvoRG FishBoy Hunter 3.0 Cycle | Cycle / none | heuristic | 45 | 1.0% | 49.5% | 0.0% | 50.5% | 3.0 | done |
+| [`cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers`](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md) | WB Log Bait 2.8 Cycle | Bait / Cycle | heuristic | 57 | 0.8% | 54.4% | 0.2% | 45.5% | 2.75 | done |
+| [`cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log`](../decks/cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log.md) | Hog HeroMusk 2.6 Cycle | Cycle / none | heuristic | 47 | 1.4% | 50.2% | 0.1% | 49.6% | 2.62 | done |
+| [`dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log`](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md) | HeroKnight Log Bait 2.9 Cycle | Bait / Cycle | heuristic | 48 | 0.5% | 51.5% | 0.0% | 48.5% | 2.88 | done |

@@ -103,6 +103,18 @@ The Log spawns a Lumberjack after expiring.
 - Evolved Goblin Barrel placed centre can only be fully denied with Dagger Duchess holding at least 3 daggers — Log the Goblins side while the Duchess handles the Decoy Goblins side.
 - Three Musketeers: a well-timed Magic Archer + The Log stops 2 of the split Musketeers and chips the Crown Tower, leaving 3 Elixir for the third.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 4 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md), [Hog HeroMusk 2.6 Cycle](../decks/cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log.md)
+- **[Siege](../archetypes/siege.md)** — 1 deck(s): [X-Bow HeroKnight 3.0 Cycle](../decks/archers-electro-spirit-fireball-knight-skeletons-tesla-the-log-x-bow.md)
+- **[Bait](../archetypes/bait.md)** — 1 deck(s): [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

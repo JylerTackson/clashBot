@@ -121,6 +121,16 @@ The Archer Queen has a special ability, accessible from the rightmost side of th
 - Substitutes: Little Prince (2 Elixir cheaper, more range, Guardienne mini tank, but less damage and HP), Musketeer or Electro Wizard (1 Elixir cheaper, similar damage, less HP), or Wizard / Witch / Electro Dragon / Cannon Cart / Bowler / Executioner if the deck needs anti-swarm instead of single-target damage.
 - She can be set as a Boat Battles defender but cannot use her ability there, so she is a poor Clan Wars Defense Tower choice.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [EvoRHogs AQ GobHut EvoGhost](../decks/archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons.md), [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

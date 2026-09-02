@@ -108,6 +108,16 @@ Inferno Tower's attack now starts at Stage 3 instead of Stage 1.
 - Vary placement between games so opponents cannot pre-plan Minion/Bat distractions.
 - Deck slot choice: Cannon costs 2 less but is ground-only; Tesla costs 1 less, is worse into tanks but more reliable against swarms and stuns; both are Commons and cheaper to level for ladder.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Bait](../archetypes/bait.md)** — 1 deck(s): [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Tower (scraped 2026-09-02T02:35:33+00:00)

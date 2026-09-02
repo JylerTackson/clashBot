@@ -101,6 +101,16 @@ Not specified on source page
 - Arrowing a low-health Tombstone lets building-targeting troops keep walking without being pulled or chipped.
 - Substitutes: Fireball (1 more Elixir, slower, smaller radius, more damage and knockback), Zap (1 cheaper, instant, resets charge/ramp-up cards), Giant Snowball (Zap damage with knockback/slow and a +1 trade on Goblin Barrel), Vines (same cost, grounds and freezes air, but only 3 targets), The Log (cheaper, knockback, no anti-air), Earthquake (same cost, slower, hits buildings hard, no anti-air), Royal Delivery (same cost, slightly more damage plus a Royal Recruit, but defensive only and smaller radius).
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

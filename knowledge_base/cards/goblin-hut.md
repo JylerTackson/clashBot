@@ -113,6 +113,16 @@ Instead of Spear Goblins, the Goblin Hut spawns Goblin Demolishers.
 - Clearing accumulated Spear Goblins with Zap, Giant Snowball or The Log is most valuable when it opens the lane for Prince, Mighty Miner, P.E.K.K.A, Inferno Dragon, Sparky, Elite Barbarians or Mini P.E.K.K.A. to reach better targets.
 - A Hut placed deep near the King's Tower is safe from ranged snipes, but then it distracts building-targeting troops much less, giving the opponent a window to attack.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoRHogs AQ GobHut EvoGhost](../decks/archer-queen-barbarian-barrel-electro-spirit-fireball-goblin-hut-royal-ghost-royal-hogs-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

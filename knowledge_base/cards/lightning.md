@@ -95,6 +95,16 @@ Not specified on source page
 - Substitutes: Rocket (same cost, longer deploy plus travel time and a smaller area, but massive area damage that hits far more targets), Void (half the cost, slightly less damage, kills the same troops except Phoenix, but poor against swarms like Barbarians and Zappies), Earthquake (3 Elixir cheaper and far better against buildings, with a snare instead of a stun that cannot reset charges), and Freeze (cheaper with a much longer stun but far lower damage and a smaller area).
 - Lightning vs the Fireball + Zap combo: that combo adds about 10 equal-Level kills over a lone Fireball, while Lightning adds at least 8 more (Hunter, Night Witch, Electro Dragon, Bandit, Phoenix, Berserker, Archer Queen, Battle Ram) plus everything the combo kills, in one less deck slot - but the combo is better against Evolved Barbarians.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [Goblinstein EvoRHogs 3.4 Cycle](../decks/archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

@@ -117,6 +117,16 @@ Is able to both stun and chain every enemy across the board, including the Crown
 - His multi-target attack does not cause him to retarget: adding Archers after he has locked onto a Tower only puts one Archer in the split; push him out of range of his current target instead.
 - Zappies and Electro Dragon can replace him in some decks (split lanes, bulk, flight), but his speed and longer range suit fast decks such as Battle Ram.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Bridge Spam](../archetypes/bridge-spam.md)** — 1 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

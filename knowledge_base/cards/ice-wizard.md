@@ -115,6 +115,16 @@ Instead of a slow effect, Ice Wizard's attacks now stun the opponent for 2 secon
 - If the opponent spends their spell on him, expect a follow-up card that thrives without it, such as Flying Machine, Mother Witch, Magic Archer, Zappies, Skeleton Dragons or Barbarians.
 - Electro Wizard, Zappies and Electro Dragon can replace him in some decks with higher damage and stuns, but they cost more and lack his area damage against swarms.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Control](../archetypes/control.md)** — 1 deck(s): [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

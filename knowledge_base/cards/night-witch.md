@@ -122,6 +122,16 @@ Randomly spawns Bats throughout the arena.
 - Strong spell bait: she baits Zap and Giant Snowball for the Bats or Lightning and Poison for herself, opening the way for Skeleton Barrel or Flying Machine.
 - Very strong in Touchdown and Heist, where there are no Crown Towers to shoot the Bats and each one must be answered individually.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Night_Witch (scraped 2026-09-02T02:35:11+00:00)

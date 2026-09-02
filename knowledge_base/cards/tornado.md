@@ -103,6 +103,17 @@ Not specified on source page
 - Activating the King's Tower is not always worth the Tower damage: against a Royal Giant, for instance, he never enters King's Tower range.
 - Drag rather than tap when deploying so the exact area of effect is visible, or tap and hold before releasing, to avoid misplacement.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 3 of 19 scraped decks:
+
+- **[Control](../archetypes/control.md)** — 2 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md), [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
+- **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

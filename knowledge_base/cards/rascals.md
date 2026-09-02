@@ -120,6 +120,16 @@ Rascal girls are replaced by Magic Archers and Rascal boy is replaced by Boss Ba
 - On defense you can angle the placement so a Bowler or Executioner locks onto the Rascal Boy, letting the Girls survive and damage them.
 - Modifier "Just a Giggle of Girls" (Common) adds 2 more ranged Rascal Girls; "Gorgeous Groupies" (Rare) replaces the Boy with a Giant; "Callin' in the Bosses" (Epic) replaces the Boy with Boss Bandit and the Girls with Magic Archers.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Siege](../archetypes/siege.md)** — 1 deck(s): [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)

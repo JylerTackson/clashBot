@@ -119,6 +119,16 @@ Instead of a Giant Snowball, 5 Evolved Giant Snowballs are launched.
 
 This card has an evolution: see [giant-snowball-evolution.md](../evolutions/giant-snowball-evolution.md). Cycles to evolve: 2. Stat boosts: +1 second Slowdown.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoMusk Miner 2.9 Cycle](../decks/balloon-barbarian-barrel-bomb-tower-giant-snowball-ice-golem-miner-musketeer-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

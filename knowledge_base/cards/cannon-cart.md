@@ -95,6 +95,16 @@ Not specified on source page
 - Against an opponent's Cart, varying which card you use to counter it (e.g. a Knight or Valkyrie that is not spell-vulnerable) can bait a wasted spell.
 - If you do not need to attack, spelling down its first form while it sits in the back next to their Crown Tower is a slight negative Elixir trade that the Tower damage offsets.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Siege](../archetypes/siege.md)** — 2 deck(s): [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md), [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

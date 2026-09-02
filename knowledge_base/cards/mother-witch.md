@@ -105,6 +105,16 @@ Curses a troop to spawn in another Mother Witch instead of a cursed Hog.
 - Poor with area damage units, which kill swarms before she can curse more than one or two — but Zap or Giant Snowball help her one-shot Minions or Goblins.
 - Spell bait: pair her with other Fireball/Poison-vulnerable cards (Barbarians, Skeleton Dragons, Royal Recruits, Musketeer, Wizard, Flying Machine, Zappies, Electro Wizard, Ice Wizard, Magic Archer, Little Prince, Goblinstein) to draw the spell first, or use her as the bait when the matchup favours the others.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Bridge Spam](../archetypes/bridge-spam.md)** — 2 deck(s): [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md), [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

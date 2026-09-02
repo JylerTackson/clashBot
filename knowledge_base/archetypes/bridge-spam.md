@@ -1,18 +1,16 @@
 ---
 archetype: bridge-spam
 archetype_name: Bridge Spam
-deck_count: 0
+deck_count: 3
 secondary_deck_count: 0
-scraped_at: "2026-09-02T03:05:01+00:00"
+scraped_at: "2026-09-02T03:43:33+00:00"
 ---
 
 # Bridge Spam
 
 > High-threat units dropped at the bridge force immediate, often awkward, reactions and punish slow or expensive plays.
 
-Decks classified as Bridge Spam in this run: **0** primary.
-
-No popular decks were classified into this archetype in this run. That is a signal about the current meta (or about the scrape being blocked; see meta/deck_index.md), not a gap in the taxonomy. The gameplan below is the general one.
+Decks classified as Bridge Spam in this run: **3** primary.
 
 ## Gameplan
 
@@ -26,11 +24,22 @@ No popular decks were classified into this archetype in this run. That is a sign
 - Deploying at the bridge removes the opponent's time to react; many counters need a placement window that no longer exists.
 - Each threat demands a different answer (charge, dash, invisibility), so a single defensive card rarely handles the wave.
 - Punishing back-deploys means heavy decks never get to build their ideal push.
+- Across this run's 3 deck(s) the average elixir cost is 4.0 (min 3.88, max 4.25).
+- Evolutions used: Battle Ram (3), Royal Ghost (2), Elite Barbarians (1)
 
 ## Cards that recur across these decks
 
-No decks this run. Cards that typically define the archetype: [P.E.K.K.A.](../cards/p-e-k-k-a.md), [Battle Ram](../cards/battle-ram.md), [Bandit](../cards/bandit.md), [Royal Ghost](../cards/royal-ghost.md), [Ram Rider](../cards/ram-rider.md), [Dark Prince](../cards/dark-prince.md), [Electro Wizard](../cards/electro-wizard.md), [Magic Archer](../cards/magic-archer.md), [Royal Recruits](../cards/royal-recruits.md).
+- [Battle Ram](../cards/battle-ram.md) — 3 of 3 decks
+- [Royal Ghost](../cards/royal-ghost.md) — 2 of 3 decks
+- [Barbarian Barrel](../cards/barbarian-barrel.md) — 2 of 3 decks
+- [Giant Skeleton](../cards/giant-skeleton.md) — 2 of 3 decks
+- [Mother Witch](../cards/mother-witch.md) — 2 of 3 decks
+- [Vines](../cards/vines.md) — 2 of 3 decks
+- [Wizard](../cards/wizard.md) — 2 of 3 decks
+- [Zappies](../cards/zappies.md) — 2 of 3 decks
 
 ## Example decks
 
-None this run.
+- [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md) — avg elixir 3.88, classification `heuristic`
+- [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies.md) — avg elixir 4.25, classification `heuristic`
+- [GS Evo Ram HeroWiz MW](../decks/barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies.md) — avg elixir 3.88, classification `heuristic`

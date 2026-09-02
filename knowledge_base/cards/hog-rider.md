@@ -108,6 +108,16 @@ Not specified on source page
 - Building placement matters: defensive buildings have a smaller hitbox, so one placed 3 tiles from the river in the middle can be bypassed by a Hog placed at the very edge of the Arena.
 - Defenders can deny that edge bypass by pushing him toward a central building as he jumps — Bats, Skeleton Dragons and Minion Horde right in front of him on deploy; Minions, Skeleton Barrel, Mega Minion, Flying Machine, Electro Dragon, Baby Dragon, Inferno Dragon, Balloon or Lava Hound staggered one tile to the right when he is on the left side and vice versa; or an Ice Golem at his landing spot to force him around it.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [Hog MM EvoCannon 2.6 Cycle](../decks/barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons.md), [Hog HeroMusk 2.6 Cycle](../decks/cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

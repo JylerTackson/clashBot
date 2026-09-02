@@ -1,18 +1,16 @@
 ---
 archetype: bait
 archetype_name: Bait
-deck_count: 0
+deck_count: 2
 secondary_deck_count: 0
-scraped_at: "2026-09-02T03:05:01+00:00"
+scraped_at: "2026-09-02T03:43:33+00:00"
 ---
 
 # Bait
 
 > Several cheap threats each demand the same small spell, so whichever one the opponent does not have an answer for connects.
 
-Decks classified as Bait in this run: **0** primary.
-
-No popular decks were classified into this archetype in this run. That is a signal about the current meta (or about the scrape being blocked; see meta/deck_index.md), not a gap in the taxonomy. The gameplan below is the general one.
+Decks classified as Bait in this run: **2** primary.
 
 ## Gameplan
 
@@ -26,11 +24,18 @@ No popular decks were classified into this archetype in this run. That is a sign
 - Small spells are the natural answer to swarms; when multiple cards demand the same spell, at least one gets through every rotation.
 - Cheap cards make positive trades easy on defense and let the deck cycle back to its threats quickly.
 - Opponents who mis-spend a spell take heavy tower damage from a 3-elixir card.
+- Across this run's 2 deck(s) the average elixir cost is 2.81 (min 2.75, max 2.88).
+- Evolutions used: Goblin Barrel (2), Skeleton Army (2)
 
 ## Cards that recur across these decks
 
-No decks this run. Cards that typically define the archetype: [Goblin Barrel](../cards/goblin-barrel.md), [Princess](../cards/princess.md), [Goblin Gang](../cards/goblin-gang.md), [Dart Goblin](../cards/dart-goblin.md), [Rocket](../cards/rocket.md), [Inferno Tower](../cards/inferno-tower.md), [Knight](../cards/knight.md), [Skeleton Army](../cards/skeleton-army.md), [Guards](../cards/guards.md).
+- [Dart Goblin](../cards/dart-goblin.md) — 2 of 2 decks
+- [Goblin Barrel](../cards/goblin-barrel.md) — 2 of 2 decks
+- [Ice Spirit](../cards/ice-spirit.md) — 2 of 2 decks
+- [Princess](../cards/princess.md) — 2 of 2 decks
+- [Skeleton Army](../cards/skeleton-army.md) — 2 of 2 decks
 
 ## Example decks
 
-None this run.
+- [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md) — avg elixir 2.75, classification `heuristic`
+- [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md) — avg elixir 2.88, classification `heuristic`

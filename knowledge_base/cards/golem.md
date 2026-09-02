@@ -124,6 +124,16 @@ Golem has permanent Monk ability active.
 - Golem can bodyblock your own troops — e.g. placing him in front of a Night Witch that has reached the Crown Tower holds her there while you build Elixir.
 - Cloning the Golem during his 3 second deploy produces a clone that starts moving immediately, an unexpected way to start the push early.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Beatdown](../archetypes/beatdown.md)** — 2 deck(s): [Golem HeroMiniPekka NW Phoenix](../decks/arrows-bomber-elite-barbarians-golem-mini-p-e-k-k-a-night-witch-phoenix-zap.md), [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

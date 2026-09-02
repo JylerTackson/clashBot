@@ -118,6 +118,16 @@ Not specified on source page
 - Getting Arrows out of them can be a bait play, but it also lets the opponent bait Arrows before a Minion Horde.
 - Substitutes: Bats (cheaper, more bodies, but far frailer and OHKO'd by more cards), Mega Minion (tankier and higher single hit, lower total DPS and much slower), Phoenix (similar for 1 more Elixir), Minion Horde (double the units for 2 more Elixir but less flexible and more spell-vulnerable), ground anti-air (Archers, Musketeer, Spear Goblins, Dart Goblin, Princess, Firecracker), other air cards (Skeleton Dragons, Flying Machine, Baby Dragon, Electro Dragon), or cheap swarms (Goblins, Skeletons, Guards) if the deck has other anti-air.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 2 of 19 scraped decks:
+
+- **[Siege](../archetypes/siege.md)** — 2 deck(s): [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md), [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

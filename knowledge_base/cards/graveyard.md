@@ -116,6 +116,16 @@ Can randomly spawn Bombers, Wall Breakers, Skeleton Dragons, and Guards.
 - Versus Goblin Barrel: Graveyard spawns more troops and near-guarantees damage through unpredictability, but the Skeletons are delayed, individually frail, and the card is harder to obtain and level.
 - On defense the spell must be cast preemptively because of the 2.2 second delay before the first Skeleton.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Control](../archetypes/control.md)** — 1 deck(s): [GY IWiz Evo BBD Nado](../decks/baby-dragon-barbarian-barrel-graveyard-ice-wizard-knight-poison-tombstone-tornado.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

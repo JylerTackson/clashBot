@@ -103,6 +103,16 @@ Is able to hook to the nearest enemy or Crown Tower in the arena.
 - Royal Giant synergy: he pulls high-DPS defenders off the Royal Giant and can snipe buildings such as an Inferno Tower by standing mid-river; The Log helps clear distraction cards aimed at him.
 - Mortar synergy: troops sent to distract the Mortar (Mini P.E.K.K.A., Lumberjack) get pulled into its dead zone, and he can weaken distracting buildings. The pair gives spell value — a Rocket fully counters it for a +1 trade if he stands too close to the Mortar.
 
+## Deck archetypes
+
+<!-- deck-archetypes:start -->
+Generated 2026-09-02T03:43:33+00:00 from 19 popular deck(s) scraped from RoyaleAPI (https://royaleapi.com/decks/popular?lang=en). Re-running Phase 2 replaces this block.
+
+This card appears in 1 of 19 scraped decks:
+
+- **[Cycle](../archetypes/cycle.md)** — 1 deck(s): [EvoRG FishBoy Hunter 3.0 Cycle](../decks/barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons.md)
+<!-- deck-archetypes:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fisherman (scraped 2026-09-02T02:35:13+00:00)
