@@ -22,7 +22,7 @@ import cv2
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from cr_perception import Perception, VideoFrameSource  # noqa: E402
-from cr_perception.context import build_context, render_context_md, split_matches  # noqa: E402
+from cr_perception.context import build_context, render_context_md, split_matches, video_deck_consensus  # noqa: E402
 from cr_perception.recorder import JsonlRecorder  # noqa: E402
 from cr_perception.screen import assess, detect_content_rect, detect_game_panel  # noqa: E402
 
@@ -144,6 +144,11 @@ def process_video(vid: str, vdir: Path, out_dir: Path, a, card_names: dict, det)
             (mdir / "error.log").write_text(traceback.format_exc())
             result["matches"].append({"index": i, "status": "failed", "reason": str(e)[:300]})
             print(f"  {vid} match {i}: FAILED {e}", flush=True)
+    game_ctxs = [p for p in out_dir.glob("match_*/**/context.json") if "split_into" not in p.read_text()[:200]]
+    if game_ctxs:
+        cons = video_deck_consensus(game_ctxs, card_names)
+        result["own_deck_video"] = cons["deck"]
+        (out_dir / "video_deck.json").write_text(json.dumps(cons, indent=1))
     return result
 
 

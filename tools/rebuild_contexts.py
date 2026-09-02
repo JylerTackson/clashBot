@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from cr_perception.context import build_context, render_context_md, split_matches  # noqa: E402
+from cr_perception.context import build_context, render_context_md, split_matches, video_deck_consensus  # noqa: E402
 from cr_perception.decktracker import load_kb_decks  # noqa: E402
 
 
@@ -56,6 +56,14 @@ def main() -> int:
         if len(segs) > 1:
             (mdir / "context.json").write_text(json.dumps({"video_id": vid, "match_index": i, "split_into": written}, indent=1))
         print(vid, mdir.name, "->", len(segs), "game(s)", [(w["match"], w["seconds"], w["events"]) for w in written])
+    for vdir in sorted(Path(a.runs).iterdir()):
+        if not vdir.is_dir() or (a.only and vdir.name not in a.only):
+            continue
+        game_ctxs = [p for p in vdir.glob("match_*/**/context.json") if "split_into" not in p.read_text()[:200]]
+        if game_ctxs:
+            cons = video_deck_consensus(game_ctxs, names)
+            (vdir / "video_deck.json").write_text(json.dumps(cons, indent=1))
+            print(vdir.name, "video deck consensus:", cons["deck"], cons["deck_key"])
     print(f"{n} contexts written")
     return 0
 

@@ -101,7 +101,16 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
     events = [e for e in events if not (e["player"] == "opponent" and e["detect_source"] == "arena" and e.get("card")
                                         and e.get("tile") and e["tile"][1] < 13 and e["card"] not in exempt)]
     # own deck: confirmed plays first (HUD / deploy label), then confident hand reads
-    played = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] in ("hud", "deploy_label"))
+    played_hud = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "hud")
+    played_label = Counter(e["card"] for e in events if e["player"] == "own" and e.get("card") and e["detect_source"] == "deploy_label")
+    opp_label = Counter(e["card"] for e in events if e["player"] == "opponent" and e.get("card") and e["detect_source"] == "deploy_label")
+    # a label-only own card that the opponent also demonstrably deploys is an
+    # attribution error (bridge label offset), not one of Ryley's cards
+    played = Counter(played_hud)
+    for c, n in played_label.items():
+        if c not in played_hud and opp_label.get(c, 0) >= n:
+            continue
+        played[c] += n
     hand_cards = Counter()
     for s in match_states:
         for c, cf in zip(s["own"].get("hand") or [], s["own"].get("hand_conf") or []):
@@ -140,6 +149,7 @@ def build_context(states_path: Path, vtt_path: Path | None, header: dict, card_n
                 cues.append({"t": round(c["start"], 1), "end": round(c["end"], 1), "text": c["text"]})
     return {**header, "start_t": round(t0, 1), "end_t": round(t1, 1),
             "own_deck_observed": own_deck, "own_deck_sources": own_deck_sources,
+            "own_deck_counts": {"hud": dict(played_hud), "label": dict(played_label), "hand": {c: k for c, k in hand_cards.items() if k >= 30}},
             "own_deck_key": "-".join(sorted(own_deck)) if len(own_deck) == 8 else None,
             "opponent": {"deck_known": replayed["deck_known"], "deck_complete": replayed["deck_complete"],
                          "deck_predictions": replayed["deck_predictions"], "kb_matches": replayed["kb_matches"],
@@ -157,6 +167,11 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
          f"Calibration: {ctx.get('calibration_method')}.",
          f"- Own deck observed (Ryley): {', '.join(n(c) + ('' if ctx.get('own_deck_sources', {}).get(c) == 'played' else ' (hand read only)') for c in ctx['own_deck_observed']) or 'unknown'}"
          + (f" (deck_key `{ctx['own_deck_key']}`)" if ctx.get('own_deck_key') else " (incomplete)"),
+         *([f"- Own deck, video-level consensus across {ctx['own_deck_video']['games']} game(s) of this video: "
+            f"{', '.join(n(c) for c in ctx['own_deck_video']['deck'])}"
+            + (f" (deck_key `{ctx['own_deck_video']['deck_key']}`)" if ctx['own_deck_video'].get('deck_key') else " (incomplete)")
+            + ("; use this when the per-game read above is incomplete unless the commentary says he switched decks" )]
+           if ctx.get("own_deck_video") else []),
          f"- Opponent cards seen: {', '.join(n(c) for c in (ctx['opponent']['deck_known'] or []))}"
          + (" (complete)" if ctx['opponent'].get('deck_complete') else ""),
          f"- Quality: events {ctx['quality']['events_total']} ({ctx['quality']['events_unidentified']} unidentified), "
@@ -190,3 +205,36 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
         L.append(f"> [{ctx['transcript'][ci]['t']:.0f}s] {ctx['transcript'][ci]['text']}")
         ci += 1
     return "\n".join(L) + "\n"
+
+
+def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> dict:
+    """Games in one video are almost always played with the same deck. Pool
+    the per-game evidence (HUD-confirmed plays weigh 3, label-only 2, hand
+    reads 1 per game), keep the top 8, stamp `own_deck_video` into every
+    game's context.json and re-render its context.md. Returns the consensus."""
+    ctxs = []
+    for p in ctx_paths:
+        try:
+            c = json.loads(p.read_text())
+        except Exception:
+            continue
+        if c.get("empty") or "own_deck_counts" not in c:
+            continue
+        ctxs.append((p, c))
+    score: Counter = Counter()
+    for _, c in ctxs:
+        cnt = c["own_deck_counts"]
+        for card in cnt.get("hud", {}):
+            score[card] += 3
+        for card in cnt.get("label", {}):
+            score[card] += 2 if card in c.get("own_deck_observed", []) else 0
+        for card in cnt.get("hand", {}):
+            score[card] += 1
+    deck = [c for c, _ in score.most_common(8)]
+    consensus = {"games": len(ctxs), "deck": deck, "deck_key": "-".join(sorted(deck)) if len(deck) == 8 else None,
+                 "scores": dict(score.most_common())}
+    for p, c in ctxs:
+        c["own_deck_video"] = consensus
+        p.write_text(json.dumps(c, indent=1))
+        (p.parent / "context.md").write_text(render_context_md(c, card_names))
+    return consensus

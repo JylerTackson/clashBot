@@ -255,7 +255,9 @@ class PlayDetector:
             from .detect import categorize, SPELL_CLASSES
             pending_own = any(p.before == lbl.card for p in self.pending_hand)
             in_hand = lbl.card in self.last_hand
-            own_half_troop = tile[1] < 15 and lbl.card not in SPELL_CLASSES and lbl.card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel", "wall-breakers")
+            # rows 12-14 are excluded: an opponent bridge deployment's label
+            # sits above the unit and its ground point can land there
+            own_half_troop = tile[1] <= 11 and lbl.card not in SPELL_CLASSES and lbl.card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel", "wall-breakers")
             if own is None and (pending_own or in_hand or own_half_troop):
                 prev = self.label_tiles.get(lbl.card)
                 if prev is None or t - prev[0] > 6.0 or lbl.match_score >= prev[2]:
