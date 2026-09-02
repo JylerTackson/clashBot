@@ -245,6 +245,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2415 (clock unreadable): hogs deployed at [2, 18] into the opponent's Fireball rather than before it — "He fireballed and I timed it with the piggies very nicely" (t=2418).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 1:31: the opponent's Evolution Royal Hogs cross at [15, 10] / [13, 10]; Ryley tracks them as the single card that can beat him — "the only way I lose is if he gets me with the evil piggies" (t=764-767s), which is why his Fireball never leaves his hand after clock 1:33.
+- clock 0:58: he thinks the Royal Hogs are unaffordable and the opponent plays them anyway — "Can't go for royal hogs or goblinstein here. Okay, he goes for the royal hogs anyways. He just doesn't care about his elixir bar" (t=713-718s) — and answers with Elite Barbarians + Berserker + Goblin Gang layered in the left lane.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

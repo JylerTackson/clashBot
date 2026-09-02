@@ -335,6 +335,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - t=2213 (Skeletons at [8, 17]): paired with the Evo Princess in the endgame defence — "I even went for the skellies plus evo princess here".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 0:56 onwards (t=936.9 [12, 25], further spawns tracked in both lanes t=942-948s with four simultaneous "tower in <5s" threats): the swarm that forces his one Log of the game at t=945.4, and the escort for the Witch in the final 10 seconds.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

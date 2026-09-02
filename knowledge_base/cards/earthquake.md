@@ -142,6 +142,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
 - t=139.1: the spell is sequenced straight into the win condition — Hog Rider at the left bridge in the same breath as the building dies: "So then I instantly went for a hog rider, guys" (t=140-141). (The cast was logged as an opponent play; the commentary overrides that.)
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 0:48 / 0:31 / 0:02 (t=944.9, t=963.0, t=993.0): the opponent's chip spell, matching two inferred hits of 238 HP each on Ryley's right tower at t=951s and t=953s. He never reacts to it on camera — the tower damage he does concede comes later, from the Phoenix at clock 0:19.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

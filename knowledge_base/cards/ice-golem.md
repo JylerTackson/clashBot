@@ -164,6 +164,13 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - the opponent's recurring push tank, first paired with Musketeer in the right lane at clock 2:19-2:03 and then repeatedly down the left in overtime (t=1220, 1266, 1279); Ryley answers with Bomb Tower plus The Log rather than committing a counter-push.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:07: named as the opponent's key defensive piece and the card he is trying to cycle past — "The ice golem is really good for him. But if I can catch him slipping... like this without his ice golem. This guy's in a lot of trouble."
+- clock 0:55: caught by a Fireball aimed at the tower — "Oh my god, we hit the ice golem. Nice."
+- clock 0:16-0:03: he lets a final Ice Golem push eat most of a Crown Tower on purpose while counting the shots — "At least we're not going to lose our whole tower. We're just going to lose most of it, right?... we're not going to lose our tower cuz the thing's not going to retarget."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

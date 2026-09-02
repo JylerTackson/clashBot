@@ -262,6 +262,59 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - t=2132 (The Log at [6, 14], elixir 4.0 -> 2.0): Log plus Evo Cannon aimed at the Mother Witch — "I went for the evo cannon and the log as well just to make sure to take out the mother witch".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.0.md):
+- clock 1:58, 0:23 and overtime 1:47: all three casts are on his own half ([14, 8], [3, 2], [2, 6]) — he never logs the enemy tower in this game.
+- clock 1:58: cleanup behind a Goblin Gang rather than a first answer — 'we're going to have to go for a log, too, just to make sure that we clean that up for no damage' (54-56s).
+- clock 0:23: pre-committed against incoming chip — 'Even though I think I can just log anyways. Please don't hit my tower' (144-145s).
+- overtime 1:47: front-of-push cleanup ahead of the Berserker — 'we can log the front and then we can go for the berserker. Let's log here' (179-181s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.1.md):
+- clock 1:26 and 0:32: The Log used only defensively in this game, both times on his own left at tiles (4, 14) and (3, 12), the second time as part of a Dart Goblin + Log + Fireball stack on incoming Elite Barbarians — "Let's go for the log. Let's go for the fireball as well. Just make sure that we hit everything" (334-336s). Never thrown at a tower for chip.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- clock 1:53 (t=408.4s, deploy label [6, 15]): rolled at his own river line on the left to clear the board before switching back to defence — "coach's log here to get this off the board. Perfect" (t=411-413s).
+- clock 2:37 (t=364-367s): used as a timing tool over a Hero Tombstone so his Suspicious Bush arrives after the building dies — "I will log here on top of the Tombstone. So, by the time the bush gets there, the Tombstone will be dead and he'll have to respond to it again."
+- clock 1:01 (t=459.1s, elixir 3 -> 1): the last of his three cheap answers in the defence that ended the game.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- clock 1:46 (t=533.5): The Log at [2, 15] on the left bridge, 2 elixir. He tracks it as a held resource in the same breath as the barrel plan — "I have a log" (t=534s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 1:33: cast on his own half (deploy label at [14, 10]) immediately after the Fireball, as damage prevention rather than value — "we can go for the log as well just to take no damage" (t=683s).
+- clock 0:21 and 0:03: a second Log at [3, 10] on the left lane, and with the tower lead secured he names Log cycling as his safe win plan — "I can even just log cycle him in case he never goes for the piggies. I can just start chipping him out with the log" (t=769-772s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- clock 0:48 (t=945.4, HUD elixir 5 to 3): rolled into the skeleton swarm at the moment four separate "tower in <5s" threats were logged across both lanes (t=946-948s) — the cheap reset that lets him keep spending at the bridge.
+- clock 0:34 (t=959-962s): held on purpose as half of a two-spell answer — "I'm not going to fireball log yet, though. I'm going to wait to grab my fireball log in case he goes for the witch."
+- clock 0:21 (t=973s): called against the opponent's Zap-and-Elite-Barbarians counter — "Okay, he goes for the zap, but that's fine. Let's just log here." (Two `THe Log` deploy labels at [3, 11], t=961.0 and t=992.0, were filed as opponent plays; the second lands on the enemy Witch's tile and may be his.)
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.6.md):
+- clock 0:32: Log at [3, 9] as the first half of a Log-plus-Fireball on the Mortar push — "We can go for the log and then we go for the fireball as well just to make sure we hit everything."
+- overtime 1:54: Log at [3, 15] paired with Fireball onto the Evo Mortar — "I don't think fireball log on this is worth— No, it definitely is worth it. Let's fireball log this."
+- overtime 1:30: log-back on his own side at [3, 8] behind an Elite Barbarians defence — "Have to log this back as well."
+- overtime 0:38: pre-logged the landing spot of the opponent's Skeletons at [15, 15] — "Let's go for the pre-log here on the skellies as well. Oh my god, we grabbed the minions. Grab the skellies. Nice."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 1:48 and 1:39: two Logs in nine seconds on his own half against an Ice Golem + Hunter left-lane push and Minions on the right, spending down to 2 elixir to hold.
+- clock 1:26 (overtime): placed at the left river tile [2, 15] as half of an announced combo — "I have to evo skelly barrel and then fireball log predict his hunter. That's my only chance to win" — which he then did not need to predict: "I didn't even need to predict it. He just played it for me."
+- Eight Log plays across 250 s of a 3.1-elixir bait deck: it is his default answer to every ground swarm so that his elixir goes on bridge pressure instead of his own half.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

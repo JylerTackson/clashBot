@@ -217,6 +217,60 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
 - He names it in the list of cards that force him into Fireball range: "I have to put my dark goblins near the tower. So, he's always going to be fireball cycling me out, which was scary because I know that he has a way quicker cycle than me" (472-480s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.0.md):
+- clock 2:15, 1:30, 0:52, 0:34 and 0:25: all five placements are centre or just off centre on his own half ([9, 12], [9, 10], [8, 9], [6, 8], [8, 12]) — never at the bridge, always behind something already committed.
+- clock 2:15: 'I want to go for the dark goblin here just to protect this' (41s) — cheap ranged cover for a defence, not chip damage.
+- clock 0:25: added on top of an existing defence while under pressure on the left — 'Let's dark goblin here, too' (147s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.1.md):
+- clock 2:38 and 0:33: Dart Goblin at tile (8, 9) both times, dead centre on his own half, as the deck's ranged anti-air and the survivor behind the closing defensive stack — "Beautiful fireball berserker to keep the dart alive" (338s).
+- clock 2:08: Dart Goblin at (8, 14), right up against the river, to shoot over it while the opponent's Mortar chipped his right tower — "we can go for the dark goblin here to snipe. Beautiful dark goblin" (240-241s).
+- clock 1:27: Dart Goblin at (1, 6) deep in his own left pocket during a stall phase when he had no answer to a Mortar in hand (291-294s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- clock 2:31 (t=369.2s [9, 0], elixir 9 -> 6): played centre-back on his own half as the answer to the Inferno Dragon tracked at [16, 24] — "I'll dart goblin into the Inferno Dragon as well" (t=370s).
+- clock 1:23 (t=438s): the same answer to the second Inferno Dragon crossing at [12, 24] — "Let's Darth Goblin here. Yep, I literally knew it" — this deck's only dedicated air defence, so he holds him for the Inferno Dragon rather than spending him on chip.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- clock 1:58 (t=521.2): Dart Goblin for 3 elixir off the HUD. The Elite Barbarians play that opens the readable window exists to keep an earlier Dart Goblin alive — "I'm going to Ebarbs here at the bridge to keep the dart alive" (t=517-518s) — the bait-deck pattern of tanking for the chip unit instead of trading it.
+- clock 0:47 (t=593.6): Dart Goblin at [9, 21], deep in the opponent's half, as part of the closing push with both enemy towers under 500 HP.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 2:44: opening Dart Goblin at [9, 0], behind his own king tower (elixir 9->6) — pure cycle placement while he scouted the opponent's Royal Hogs deck.
+- clock 1:33, 0:44, 0:16 and overtime: five more Dart Goblins, all on his own half in the central columns 8-9 ([9, 8], [9, 10], [9, 9], [9, 10], [8, 8]) rather than at the bridge, so they cover both lanes and survive small spells.
+- clock 2:34: he places it specifically out of the opponent's small-spell range — "I don't want the archer to hit because my Dart Goblin won't die to a barb barrel anymore" (t=619-623s), and later times the replacement around it: "I'm going to wait a second and go for the dark goblin after he barb barrels" (t=776-777s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- clock 0:51 (t=943.9, deploy label at [8, 9]): kept centrally on his own half during the opponent's skeleton/Bomber wave, where the range covers both lanes — the deck's only ranged air answer besides the Goblin Gang spear goblins.
+- clock 0:25 (t=969.0, deploy label at [15, 6]): deliberately placed away from the tower to dodge a spell — "He might go for the arrow. So, I'm going to go for the dart goblin off to the side here" (t=969-971s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.6.md):
+- clock 2:09, 1:39, 0:48, 0:12 and overtime 1:46: placed deep and offset ([8, 0], [8, 7], [8, 9], [1, 6]) as ranged support and spell bait rather than as a defender in front of the tower.
+- clock 1:53: he counts losing it as a real cost — "Hopefully that dark goblin can walk away. Oh, there goes our dark goblin, but it's fine. He's still in a really bad situation", and at clock 1:39 "now instead I have to waste my dark goblin."
+- clock 0:48 and 0:13: kept cycling it up the field even while behind — "Let's go for the dart up here"; "Let's dart go here. Then we can maybe even go for some evo ebarbs."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:28 and 1:43: held centrally on his own half at [9, 10] twice so it covers both lanes against a Balloon/Minions deck.
+- clock 0:47 and 1:48 (overtime): pushed all the way into the opponent's half at [15, 20] and [11, 18] once the pocket was established — "Let's go for the dark goblin all the way up top."
+- clock 1:17: he rates it the standout card of the game while it chips the enemy king — "Look at that dark goblin just going absolutely insane."
+- clock 0:47: treated as the card that must eat the opponent's small spell — "we can go for the dark ob cuz he has the evo hunter, right? And then he's going to have to zap, too." It was instead killed by an Electro Spirit after his mistimed Berserker ability at clock 0:43.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

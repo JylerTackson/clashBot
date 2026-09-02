@@ -128,6 +128,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2445 (clock unreadable): mentioned in play only, no detector track — its knockback shoves the Heroic Dark Prince's Rhino off the tower on the final push: "the rune giant actually pushed the rhino away and I was able to take the tower guys".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- mentioned, not seen (t=434-435s): named as part of the spam package he expects into his right lane — "there's a chance that he tries to spam me on the right with like inferno dragon, rune giant, ebarbs" — which is why he committed a back-line threat in the other lane.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rune_Giant (scraped 2026-09-02T02:35:01+00:00)

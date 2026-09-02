@@ -304,6 +304,17 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2424 (clock unreadable): the same pair in the opposite lane at [12, 17] with Goblins at [15, 17] — "I even went for the barb barrel plus goblins opposite lane kind of just knowing that he'd have to Valkyrie on the left side" (t=2427).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.1.md):
+- Mentioned, not played (the opponent's card): Ryley tracks it through the opponent's cycle as the thing that would answer his Goblin Gang push — "now he needs to go for the barbarian barrel, but he needs to wait" (242-246s), "He's going to barb barrel this" (249s), and then counts it out before committing at clock 1:50: "he has no minions. He has no barbarian barrel and he has no mortar in cycle. This is going to be a ton of damage" (258-261s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 2:34: Ryley's Dart Goblin placement is built around surviving it — "my Dart Goblin won't die to a barb barrel anymore" (t=619-623s).
+- clock 0:29 and overtime 1:58: he predicts it as the forced answer to his bridge Elite Barbarians ("He has to go for a barb barrel", t=746s) and times his own Dart Goblin replacement after it ("go for the dark goblin after he barb barrels", t=777s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

@@ -137,6 +137,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
 - t=744-750s: Bomber is his substitute for a real bait spell — "I don't really have that great of a traditional goblin barrel counter, you know, being like a log, a barbarian barrel, or an arrows or something like that."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 1:24 / 0:52 (t=908.9 [14, 13], t=940.9 [4, 19]): the answer his bait pulled out early, which he counts as a small win — "Anyways, yeah, got the bomber out of him. We get a little bit of chip damage on the tower" (t=898-902s, enemy right tower 3009 to 2749).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

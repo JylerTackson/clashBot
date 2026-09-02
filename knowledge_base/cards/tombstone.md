@@ -204,6 +204,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
 - t=1537.5s: paired with the Evo Baby Dragon as a two-lane sweep — "I went for the tombstone and then the [evo] baby dragon here, knowing that I'd be able to take out both of the archers on each lane, which was very nice by me" (1540-1546s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- opponent's card, identified at t=356s: "Okay, he has the hero Tombstone." Ryley's verdict for a bait deck (t=358-362s): "Tombstone is definitely an annoying card for our deck, but there's definitely ways to work around it, so I'm not too worried."
+- his working-around is a timing play rather than a spell (t=364-367s): The Log on top of the Tombstone so the Suspicious Bush arrives after it is dead and the opponent "has to respond to it again". At t=456s he expects one more of them on defence — "cuz if he tombstones then obviously, yep, he gave up."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

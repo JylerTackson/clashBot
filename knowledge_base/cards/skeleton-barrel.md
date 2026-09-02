@@ -152,6 +152,61 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
 - He is explicit about its ceiling as a win condition: "I only have skelly barrel and mortar ... they're no like minor or anything like that. They're not like a hog rider where you can comfortably always get them to the tower" (435-443s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.0.md):
+- overtime 1:55: the only Skeleton Barrel read in the game, deploy label 'SkeletON BaRRel' at tile [12, 5], during the overtime push that wins the match; no commentary on the play itself.
+- clock 2:44-2:36: named as a headline card of the deck in the intro — 'the best log bait deck right now is just this hyperbait evo ebarbs evo skeleton barrel suspicious bush deck' (12-16s), i.e. he runs the Evolution.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.1.md):
+- clock 2:23: Skeleton Barrel at tile (7, 0) in the back as a slow bait rather than a bridge play — "let's definitely go for the skeleton barrel in the back though. I think skelly barrel in the back is actually a very annoying play a lot of the time" (222-227s).
+- clock 0:51: held the Evolution charge on purpose through triple elixir to force the opponent's Evo Mortar to be spent defensively — "I'm not going to evo skelly barrel yet. I want him to actually cycle back to the evo mortar. So, he has to use evo mortar defensively" (315-321s).
+- clock 0:25: Skeleton Barrel at (12, 21) on the opponent's half with both enemy towers under 130 HP, as the closing chip — "that is going to be good game. Let's go. Very nice win, guys" (339-342s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- clock 1:33 (t=428.4s, truncated 'SkeletoN' deploy label at [15, 1]) with "I'm going to skele in the back on the left because there's a chance that he tries to spam me on the right with like inferno dragon, rune giant, ebarbs" (t=430-435s): laid at the back as a slow second-lane threat while he keeps his hand free for the right-lane defence. Label is truncated and the column disagrees with 'left', so the card identity here is probable rather than certain.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- clock 1:03 (t=577.6): deploy label at [5, 6] as the closing threat — "that's just going to be tower down and then I can just go for the Evo skelly barrel opposite lane" (t=577-579s); he plays the Evolved version and treats it as an opposite-lane finisher.
+- clock 1:46 (t=533s): held as a conditional rather than cycled — "Okay, I'm going to skelly barrel if he goes goblin gang. I have a log", i.e. it goes out the moment the opponent's swarm answer is committed.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 0:52-0:42: the Evolution barrel goes in only once the opponent's Bomb Tower is already committed — "If he bomb towers, I can go for the evo skelly barrel. Yep, this is a free evo skelly barrel" (t=722-725s); enemy right tower 3018 -> 2582 HP by t=734s and "That skelly barrel is going to connect for some chip anyway. Beautiful damage. We needed that" (t=731-734s).
+- overtime 1:49: he holds it while the building is still available — "I'm not going to sky barrel yet because he kind of needs to bomb tower anyways" (t=785-786s) — then sends it at overtime 1:43 once the Evo Archers are dead (t=793-795s).
+- overtime 1:22: half of the winning push with the Evo Elite Barbarians — "It's just Evo Earbs here and Evo Skellyy Barrel. And that's going to be good game" (t=812-815s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- clock 1:33 (t=902.9, deploy label at [6, 8]): thrown into the lane opposite his pressure as dedicated spell bait — "I'll go for the Evo Skele Bro opposite lane just to force out a zap" (t=902-906s), and the Suspicious Bush at the bridge follows 7 s later once the Zap is gone.
+- clock 0:55 (t=940s commentary, played in the same window): used pre-emptively against a Golem at the bridge — "I'm also going to go for the skelly barrel because he might try to go for a golem at the bridge once again."
+- clock 0:19 (t=975.0, deploy label at [4, 8]): played as an air blocker rather than offence, on the Phoenix at [4, 7] logged "tower in 1.8s" — "we can go for the skeleton rail here just to distract that phoenix. Nice defense right there" (t=975-978s).
+- a fourth is spent in the last 12 seconds (t=984.1, HUD elixir 5 to 2) as the game closes out.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.6.md):
+- clock 2:47: planned as the opposite-lane half of the opening double-threat — "the Ebarbs here at the bridge on top of this mortar. And then we can go for the skeleton barrel opposite lane, too."
+- clock 1:05: thrown to drag out the opponent's Minions — "I can go for the Evo skelly barrel here. Maybe force out the minions."
+- clock 0:42 (deploy label at [14, 1]) and clock 0:17: paired with a bridge Berserker in the other lane — "Let's go for the skelly barrel here as well"; "then we can go for the skelly barrel on the right side lane as well."
+- overtime 1:52: he spells out the Evolution's value — "we can go for the evo skelly barrel cuz he's going to minions this. But after he goes for the minions, he still needs to watch out for the skelly barrel because of the second bomb."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:19: played from his own half at [8, 10] (HUD -3, deploy label score 1.0) explicitly as a spell-forcer rather than for damage — "he's going to have to at least use his electro spirits, which is good for us. Just forcing out more elixir."
+- clock 0:50 and 0:27: the Evolved Skeleton Barrel stacked into the opponent's pocket at [14, 20] and [14, 11] behind a Berserker and a Dart Goblin — "let's evo skelly barrel here. Go for the berserker."
+- clock 1:38 (overtime): named as the centrepiece of his announced all-in — "I have an idea, guys. It's really risky, but it's my only chance to win. I have to evo skelly barrel and then fireball log predict his hunter."
+- clock 1:10 (overtime): he states its limitation while adding the Suspicious Bush on top — "I have to bush as well because obviously he's going to be able to defend just the skelly barrel."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

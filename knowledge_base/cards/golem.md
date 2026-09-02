@@ -150,6 +150,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
 - t=1635.1s: the closing Golem (label at [17, 15], 9 -> 1 elixir) once he is up a Rocket — "here is when I knew that I had probably won. I just cycled my golem here knowing that there was no way for him to really like stop this" (1635-1640s); at 1645s he adds that the Golem was never his worry, his spell cycle was.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 0:40 (t=953.0, tracked at [3, 18], opponent elixir 8.15 to 0.15, golemites splitting at [3, 17]/[4, 17] by t=956s): Ryley never defends it, he prevents it — every bridge play from clock 1:42 on is justified as Golem denial ("he might try to ignore this and just go for a golem with the witch. So, I have to apply a lot of pressure here", t=932-936s). By the time it lands the enemy left tower is at 539 HP and the push is irrelevant.
+- his general read on the card (t=886-889s): "Evo Ebarbs after just trying to defend a whole golem push can be so devastating" — the reason he is happy the opponent spent Elite Barbarians on defence.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

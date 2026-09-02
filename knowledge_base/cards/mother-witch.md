@@ -224,6 +224,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - t=2223-2227: her surviving is his stated cause of the loss — "I think it did actually lose me the game because the mother witch didn't die".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- Played by the opponent, not by Ryley: tracked at [5, 15] around clock 1:34 and he is caught out by it — "Oh, he has a mother witch. I did not know that. Oh man, that is unlucky. Maybe not unlucky, but it's just unfortunate" (t=536-542s). His Goblin Gang at [3, 5] dies into her and two Cursed Hogs appear on his own half seconds later.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

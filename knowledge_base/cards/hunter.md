@@ -137,6 +137,12 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - OT 0:29-0:20: the Hunter is what he falls back on when the opponent finally gets the Mortar down — "even with the mortar down, I'm just going to hunter here."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:37: the opponent's Hunter is the threat he spends 6 elixir of Elite Barbarians on at the bridge — "I'm lowkey just going to go for the ebs at the bridge here to take out this hunter and try to keep our bush alive."
+- clock 1:38 (overtime): an Evolved Hunter is the card his whole all-in is designed around — "I have to evo skelly barrel and then fireball log predict his hunter" — and the opponent played it into the spell anyway: "I didn't even need to predict it. He just played it for me" (clock 1:22).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hunter (scraped 2026-09-02T02:35:02+00:00)

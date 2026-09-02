@@ -178,6 +178,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
 - An Ice Spirit Miner-prediction at t=1329.3 misses because the Miner goes to the other lane: "He went minor on the other side. I might eat here, but for whatever reason, I didn't catch it" (1332-1335s); his Mighty Miner catches it instead, "I caught the miner again, just over and over again somehow" (1345-1346s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:47: named in Ryley's pre-game scout of the opponent's deck ("giant skeleton balloon with the hunter, espirit, zap, minions, miner, and ice golem") but never observed on the arena in the readable window — mentioned only, not played.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

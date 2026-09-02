@@ -143,6 +143,12 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - Mentioned only, the counter-argument (352-369s): "it won't be able to heal over and over again after it gets the initial heal because it's only able to heal from the first four skeletons... it's a little bit more annoying to kill it, but it won't constantly heal throughout the game... I do think that it will be a massive buff, but we'll see."
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, clock 0:08 (t=985.0, tracked at [3, 17], opponent elixir 10 to 5, walking to [3, 9] by clock 0:02): the card he reserves his Fireball for all game — "I'm going to wait to grab my fireball log in case he goes for the witch" (t=961s), then "Let's fireball here just to take out that witch" (t=983-985s).
+- he counts forcing it out on defence as a win in itself: "Forced out the EVO witch as well, which is really good" (t=927-929s), and at t=948-950s frames his own push as conditional on it — "This dark goblin will take out literally everything as long as I eat this witch."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

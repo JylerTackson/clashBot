@@ -184,6 +184,17 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 1:11 (t=901.9): [7, 10] in the middle of his biggest defensive stack of the game (Bomb Tower, Magic Archer, Berserker, Royal Delivery, two Wall Breakers) against a Royal Ghost plus Executioner. No ability activation is readable in the events.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- Mentioned, not seen — the defensive kite he expects the opponent to use against his bridge Elite Barbarians: "I guess the worst he could do is like goblinstein kite" (t=567s), followed by "he messed up the kite, bro" (t=570s) when it fails.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 1:52-1:43: he expects it and treats Elite Barbarians as the clean answer — "I thought he was going to go for a low stein... He has to Stein anyways" (t=664-668s), then "It's going to take out the whole Goblin Stein basically. All I have to do is defend the scientist. And I'm not really too worried about that" (t=672-676s).
+- clock 0:32: the opponent spends it badly under bridge pressure — "Oh my god, he wasted a Stein" (t=742s), and the sequence that followed took the enemy right tower from 2582 to 450 HP.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

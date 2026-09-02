@@ -138,6 +138,13 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - t=2195-2207: a back-placed Giant Skeleton (tracked at (13, 23), t=2202) is what he should have Rocketed and did not — "here we went for the giant skelly in the back... I got scared of rocketing, man. I just should have rocketed".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:47: named in his pre-game scout of the opponent's deck — "I'm pretty sure this guy plays with giant skeleton balloon with the hunter, espirit, zap, minions, miner, and ice golem."
+- clock 2:27: killed by his defensive Elite Barbarians — "we took out his entire giant skeleton".
+- clock 1:44: he criticises the opponent for not committing to it as the push — "I feel like he should just went for the giant skelly. Maybe he was scared that he wouldn't have like defended though."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

@@ -262,6 +262,69 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - t=2239: listed alongside the Cannon misclick as the reason he lost — "me missing the cannon, me missing the ebar protection".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.0.md):
+- clock 2:31: opens with them centre-back at tile [8, 1], directly behind his own King Tower (elixir 9->3), so the pair splits — one is tracked at [13, 8] in the right lane and one at [3, 17] in the left by 2:24.
+- clock 0:47: drops them at the left bridge [3, 14] (HUD slot confirmed, elixir 8->2) purely as spell bait rather than as the kill — 'Let's Earbs as well. Maybe make him go for a poison' (124s).
+- clock 1:26: right bridge at [14, 15] on top of the opponent's Goblinstein — 'Let's go for the Evo Ebarbs on top of the scientist here in a second. He might poison that, which is fine with me' (84-88s). He also values them for what they force: 'Ebarbs are going to make that demolisher start running, which is good' (98s).
+- overtime 1:59: the same right-bridge placement [14, 15] wins the game — the enemy right tower falls 4164 -> 601 in under ten seconds. 'The Ebarbs, he messed up. Let's go. The Ebarb is going crazy... What a good win' (186-192s), 'Earbs are so powerful' (192s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.1.md):
+- clock 2:12: Elite Barbarians at tile (14, 14), the right bridge, as the punish once his bait cards were down and pre-empting an opponent ability — "I'm just going to go for the ebarbs on top of the scientist cuz he might try to ability me or something" (231-234s). Own elixir went 7 to 2 on the play.
+- clock 1:07: Elite Barbarians at (6, 13) with the Evolution's thrown Elite Spears used as a ranged answer to the opponent's Mortar — "we can go for the Evo Ebarbs just to snipe down that mortar. Beautiful. Just abusing those ebarb spears" (302-305s).
+- clock 2:33: he talks through the bridge punish before making it, weighing it against what the opponent can hold — "Think I want to just go for the Ebarbs at the bridge... Maybe that could be a bit aggressive though cuz you might just have minions on defense" (214-220s).
+- clock 1:43: on the receiving end — the opponent's own Elite Barbarians at the bridge took Ryley's left tower from 4858 to 1500, and he still rated it their best play: "he just tries to go for the ebs at the bridge. To be honest, that was actually probably his best play" (262-266s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- clock 2:18 (t=383.4s, deploy label at the bridge tile [14, 14], score 1.0): the counter-push once he had the elixir — "And then I'm just going to go for the E barbs at the bridge cuz I have a really good push" (t=384s). The enemy right tower fell 4858 -> 4116 -> 1405 between clock 2:11 and 2:07 as it connected.
+- clock 2:27 (t=374.4s [14, 8]): the earlier pair goes on his own half in the right lane as a defensive hold before he commits them forward.
+- his reasoning against a mirror of the card (t=387-388s): "He has no skelly drags. He has the Ebarbs, but Ebarbs won't be enough on its own."
+- kept as the anti-spam trump card (t=415-417s): "if he tries to spam us too hard, we can always just evo ebarbs on the king tower. I have a feeling I might be able to like grab a three crown out of this guy."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- clock 2:02 (t=516.5): deploy label at tile [14, 14], the right bridge on his own side, elixir 8.0 to 3.0 — placed as protection rather than a raw rush: "Okay, I'm going to Ebarbs here at the bridge to keep the dart alive" (t=517-518s).
+- clock 1:15 (t=564.6): a second bridge Elite Barbarians at [3, 14] for 6 elixir, played purely because the opponent had nothing left — "What's stopping me from going Ebarbs the bridge though? Like why not? I'm just going to evo Ebarbs here" (t=562-565s); he names the one answer he respects, "the worst he could do is like goblinstein kite" (t=567s).
+- clock 1:14-1:10: an opponent princess tower falls 4384 to 2748 while those Elite Barbarians are connected, and his verdict on the defence is "he messed up the kite, bro" (t=570s). He plays them as the Evolved version.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 2:38: deploy label 'Elite BaRbaRiaNs' at the right-lane bridge tile [14, 14] with own elixir 8->3, called live — "It's Ebarbs here at the bridge" (t=617s). He plays them at the bridge, never in the back.
+- clock 1:43: the Ebarbs eat the opponent's Goblinstein answer — "It's going to take out the whole Goblin Stein basically. All I have to do is defend the scientist" (t=672-675s), and on the trade generally, "You got to drop nine elixir on Ebarbs. That's just how good the card is" (t=678-680s).
+- clock 0:58: Elite Barbarians at [14, 10] as part of the Royal Hogs defence (own elixir 8->3), immediately layered with Berserker at [4, 10] and Goblin Gang at [2, 8] — "this is a good defense" (t=721s).
+- overtime 1:22: deploy label at [3, 14] with a matching 5-elixir own drop finishes the game with the Evo Skeleton Barrel; enemy left tower falls 3088 -> 474 HP by t=820s — "It's just Evo Earbs here and Evo Skellyy Barrel. And that's going to be good game. Very nice win" (t=812-815s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- clock ~2:00 (t=874.9, deploy label at [14, 14]): the deck's win condition, always dropped on the bridge tile of his own half and never behind — his elixir falls 7 to 2 immediately after, and the pair is tracked as friendly units on the opponent's half at [13, 19] to [15, 22] by t=882-890s. He plays them off the opponent's spend: "I'm just going to Ebarbs anyway because he used his" (t=875s).
+- clock ~1:20 (t=914.9, deploy label at [14, 14]): the second commit, timed on the opponent being spell- and elixir-dry — "I think I can spam my Evo Ebarbs at the bridge. And this guy is in a lot of trouble... after the arrows, there's no way he's able to afford his Ebs" (t=913-921s). The enemy right tower reads 2749 at t=922s and 617 at t=924s, the biggest damage window of the game.
+- clock 0:37 (t=958.0, deploy label at [3, 14]): switches lanes onto the 130-HP left tower while the opponent's Golem walks the same lane — "That's fireball range now. Let's ebarbs the bridge" (t=955-957s).
+- his stated value case for them is defensive denial, not damage: "he goes for his Evo Ebarbs, but now he's not going to have them offensively... Evo Ebarbs after just trying to defend a whole golem push can be so devastating" (t=881-889s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.6.md):
+- clock 2:47: opened the game with Evolved Elite Barbarians at [3, 14] on the bridge the moment the opponent's Mortar landed at [2, 17] (deploy label, score 1.0) — "the Ebarbs here at the bridge on top of this mortar... I just want to be extremely aggressive at the start of the game."
+- clock 2:07-2:00: treated a back-placed Goblinstein as a free punish window — "my opponents keep making this mistake of going Stein in the back... against me, they shouldn't go for the random Steins in the back cuz I can just go for my E barbs on top of it every single time."
+- clock 0:59: played them on defence at [3, 13] into Minions, valuing the follow-on bait as much as the defence — "then I can go for the Evo Ebarbs here. Hopefully that can just clear out the minions. He's going to have to use the barbarian barrel as well, which is super nice."
+- clock 0:03 and overtime 0:30: split them at [8, 0] to force two-lane answers and used them again as the closing defence at [3, 15] — "I'm going to split my Evo Ebarbs as well, guys. I think it's time to go in for an Ebarbs push"; "Ear barbs on defense. And we got it. Let's go."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:37: dropped at the bridge tile [14, 14] (deploy label, score 1.0) purely to kill an advancing Hunter and protect his Suspicious Bush — "I'm lowkey just going to go for the ebs at the bridge here to take out this hunter and try to keep our bush alive"; he judged it afterwards as "not that bad. Like, we took out his entire giant skeleton, but it definitely could have been better".
+- clock 2:00: the game's biggest swing — Goblin Gang at [15, 12] first, then Elite Barbarians at the bridge tile [14, 15] (elixir 10.0 -> 4.0), called before it lands: "Just going to go Goblin Gang Earbs at the bridge. He has a giant skeleton and then go for a late zap." The opponent answered with only a Zap and the right tower fell 4858 -> 900 in about four seconds: "that's just tower down. He literally can't defend this."
+- clock 0:58: played from his own half (HUD -6, deploy label score 1.0) aimed at the opponent's left tower rather than the king, with the reasoning stated first: "I still need to pressure his left side tower cuz if I only go for the king tower, then I'm just going to get caught slipping."
+- clock 0:13: Evolved Elite Barbarians dropped into the opponent's pocket at [9, 21] while behind on tower HP — "Let's Evo Ebarb's in the pocket here. We have a very good chance to still win." He treats reaching the Evo cycle as a milestone: "I'm already getting my EVO E barbs, which I definitely am happy about" (clock 2:20).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

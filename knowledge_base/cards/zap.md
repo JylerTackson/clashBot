@@ -194,6 +194,17 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2402 (clock unreadable): mentioned, not seen — Ryley says his double-spawner pressure forced the opponent's Evolved Zap out of position: "he had to go for the Evo Zap. And since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- opponent card, named twice but never tracked: it is the spell his Skeleton Barrel exists to pull — "I'll go for the Evo Skele Bro opposite lane just to force out a zap" (t=902-906s) — and it comes back at clock 0:23 on his counter, which he shrugs off: "Okay, he goes for the zap, but that's fine. Let's just log here" (t=971-973s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:00: the opponent under-answered a Goblin Gang + Elite Barbarians bridge push with a Zap alone and lost a tower from 4858 to 900 — "Oh my god, he only zapped. Wait, that's just tower down. He literally can't defend this."
+- clock 0:47: he builds his pocket stack specifically to force it out — "he has the evo hunter, right? And then he's going to have to zap, too."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

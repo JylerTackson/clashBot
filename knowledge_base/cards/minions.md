@@ -154,6 +154,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
 - t=130.0 and t=134.1: holds the Minions a long time in the left lane ([1, 12] then [1, 11]) specifically to dodge a predicted Skeleton Dragon — "I was waiting for him to predict my minions with the skelly drags, but then it never happened. That's why it took so long on the minions" (t=132-137). They are the units tracked on the enemy tower during the closing damage at t=146-148.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 1:46: the opponent's recurring right-then-left counter-push; he answers with The Log and Goblin Gang rather than spending Fireball on them.
+- clock 1:58 (overtime): he flags a placement error in his favour — "Where where are the minions? Oh, bad minions placement, though. We're going to get a lot of bush damage."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

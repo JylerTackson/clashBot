@@ -206,6 +206,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.5.md):
 - Opponent's card, tracked at tiles (8, 18), (6, 20) and (1, 20) across the clip. Ryley considered predicting or blocking it and judged both bad: "I wouldn't have got a good situation out of predicting the bomb tower or just even blocking it cuz the skellies did block the first shot. But it's true unfortunately" (1181-1186s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 0:52: the opponent's fifth Bomb Tower placement is exactly the trigger for Ryley's Evo Skeleton Barrel — "If he bomb towers, I can go for the evo skelly barrel. Yep, this is a free evo skelly barrel" (t=722-725s).
+- overtime 1:39: he counts the opponent's elixir and knows a repeat is unaffordable — "he has to waste his bomb tower again. Oh my god, he's not going to be able to afford it" (t=795-797s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

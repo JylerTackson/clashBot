@@ -177,6 +177,17 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.2.md):
 - Cost he names for the card: it has to sit near his own tower, which feeds the opponent's Fireball cycle — "I also have to like put my mortars near the tower ... he's always going to be fireball cycling me out" (469-477s). Holding a second one in cycle is his insurance against a repeat Royal Giant: "since I had another mortar in cycle I wasn't like super scared" (528-532s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.1.md):
+- clock 2:07 and 1:05: the opponent's win condition, which Ryley called before a card was played — "I'm pretty sure this is another mortar player. Dude, I just face mortar so often, man" (199-201s). It took his right tower from 4858 to 3163 around clock 2:10-2:07.
+- clock 1:29 and 0:51: he plays around it rather than answering it — a bridge Suspicious Bush as an anti-Mortar mine (278-282s), and holding his Evolution barrel so "he has to use evo mortar defensively" (319-321s). At clock 1:15 he admits the alternative: "I just wanted to be sure that he didn't mortar us cuz we had a literally garbage hand for mortar. We had nothing" (291-294s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- Mentioned, not played — Ryley names it as the opponent's deck and mocks the matchup twice: "Dude, mortar players when they have to defend, man. [laughter] Mortar players when they have to defend" (t=570-574s). The Mortar itself is never detected on the field; his left tower does take five unattributed 204 HP ticks between clock 1:57 and 1:50 with no enemy unit in range.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

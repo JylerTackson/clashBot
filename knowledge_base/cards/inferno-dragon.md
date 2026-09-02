@@ -166,6 +166,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.7.md):
 - t=1887.9 and t≈1903-1905 (clock unreadable): a late one at the bridge purely as a closing play — "I went for the inferno dragon at the bridge as well, kind of just knowing that, you know, this game was over."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- opponent's card, tracked at [16, 24] (t=368.4s) and again at [11, 26] (t=432.4s); both times Ryley answered with a centre-placed Dart Goblin on his own half (t=369.2s [9, 0], t=438s) — "I'll dart goblin into the Inferno Dragon as well" (t=370s), "Let's Darth Goblin here. Yep, I literally knew it" (t=438s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

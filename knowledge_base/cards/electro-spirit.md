@@ -259,6 +259,13 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2363/2395/2412/2436 (clock unreadable): thrown in at the river ([14, 18], [10, 17], [10, 16], [8, 16]) as filler alongside the Royal Hogs and Dark Prince pressure rather than held — no commentary on it.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:16: the opponent's Electro Spirit is elixir he is deliberately draining with cheap bait — "he's going to have to at least use his electro spirits, which is good for us. Just forcing out more elixir."
+- clock 1:28: he counts on it not being enough against a stacked pocket push — "just east spirit and zap will not be enough."
+- clock 0:38: it is what punished his mistimed Hero Berserker ability — "I didn't think he'd be able to hit the dark ob with the e spirit. That was such a horrible ability."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

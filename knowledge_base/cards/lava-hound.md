@@ -178,6 +178,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2390 (clock unreadable): second Hound at [16, 26] -> [16, 21], which he defends with Goblin Hut, Furnace and the pre-placed Dark Prince — "here is when I knew he had an opportunity to go in for a lava, but otherwise I did a really good job at pressuring throughout the game" (t=2380).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- mentioned, not seen (t=375s): ruled out while reading the opponent's deck — "I don't even think that he has a lava hound. I think he just straight up has that stupid spam deck."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

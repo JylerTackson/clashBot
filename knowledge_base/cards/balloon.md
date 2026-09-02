@@ -172,6 +172,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.0.md):
 - t=39-41: he identified the Balloon before it appeared, off the opponent's Executioner — "with the executioner, I knew for sure that he had [Mega Knight] balloon."
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 1:34: anticipated as the opponent's all-in and accepted as a trade — "or just going to go all in with the loon, which is fine with me cuz I'm actually just going to let this go", choosing to keep his own pocket pressure instead of defending.
+- clock 1:48 (overtime): answered with a Fireball at [15, 10] on his own half — "we can go for a fireball here on top of this loon."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

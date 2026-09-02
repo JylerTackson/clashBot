@@ -317,6 +317,65 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - Played ~12 times across the clip (t=1963.8 through t=2222.6) at 2 elixir as the cheap tank-killer of a 2.6-elixir cycle list.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.0.md):
+- clock ~2:10, 1:07, 0:36, 0:21 and overtime 1:51: every Berserker in the game goes down at or just behind the bridge ([13, 14], [3, 14], [2, 14], [4, 14], [3, 12]) as a standalone 2-elixir threat — she is never used as a defensive answer.
+- clock 1:07: the punish is timed off the opponent's rotation, not the board — 'I'm going to berserker and gang here because he doesn't have the fire spirit, he doesn't have the log, and he didn't have the demolisher' (106-111s).
+- clock 0:21: kept coming even while his own left tower is being chipped — 'that's a bit of damage, but it's not the end of the world. Let's berserker here with this' (150-153s).
+- overtime 1:51: paired with a defensive Log and a Goblin Gang behind the Ebarbs push — 'we can log the front and then we can go for the berserker. Let's log here. Berserker, the bush is on the tower' (179-183s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.1.md):
+- clock 2:44: opened the game with Berserker centre-back at tile (8, 0) purely as a scouting play while he read the opponent's list — "I just go for the Berserker here in the back. Try to figure out the exact variation. I'm pretty sure I know it, but it's good to be sure... It's better to not assume early on if you don't have to" (201-212s).
+- clock 1:39: Berserker at (7, 9) on his own half as the body against an Elite Barbarians counter-push, with the Hero ability spent immediately to keep her alive — "We can go for the ability. I didn't want it to get hit twice cuz obviously I would have lost my berserker" (268-271s). Played as the Hero variant (Savage Survival) all game.
+- clock 0:53: third Berserker into the triple-elixir wave that took the enemy left tower from 3390 to 127 HP — "Let's go for the berserker" (314s). Both offensive Berserkers went down on his own half, never at the bridge.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- clock 1:20 (t=440.1s, deploy label [9, 12], elixir 6 -> 4) plus a 2-elixir drop at t=441.1s with no hand change: the Hero's Savage Survival used on the Inferno Dragon / Elite Barbarians push he had just predicted — "Let's Berserker here. We ability as well" (t=440-441s).
+- clock 1:57 (t=403.4s [10, 7]) and the plan stated a play earlier (t=403-406s): "if he just tries to Ebs and I can go for the Berserker plus ability. I don't have to worry too much" — the ability is held as insurance against the opponent's Elite Barbarians rather than spent on offence.
+- clock 2:44 (t=356.7s [16, 5], elixir 9 -> 7): every Berserker in this game is on his own half (cols 9-16, rows 5-12) as a defensive body — unlike the bridge placements he uses in other games with this shell.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.3.md):
+- clock 1:34 (t=546.5): Berserker deploy label at [3, 14], the left bridge on his own side, played straight off the back of a defensive Goblin Gang — "Let's just go for the gang here and then we can go for the berserk" (t=544-545s). Used as a cheap standalone bridge threat, not as tank support.
+- clock 1:42 (t=537.5): a second Berserker label at [4, 14] only nine seconds earlier, which one card in an 8-card cycle cannot do — on the Hero Berserker this is most likely the Savage Survival ability firing on the same troop rather than a fresh play (no elixir event is attached to either label).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 2:20: Berserker at the bridge tile [14, 14] followed by Goblin Gang at [14, 12], a combination he narrated before playing it — "If I just goblin gang berserker at the bridge, what can you even do about that?... I'm going to do it anyways" (t=629-637s); the enemy right tower drops 4858 -> 3018 HP by clock 2:00.
+- clock 2:02-1:53: his stated reason for running the Hero variant — "That's the thing with the berserker ability, guys, is that sometimes you can just use it as like a tank for your troops. Like you can use it in very unique ways in my opinion. That's one of the reasons that I like the hero Berserker so much."
+- clock 0:33 and 0:12: Berserker at [15, 15] then [13, 13] (HUD 2-elixir drops plus deploy labels) as standalone bridge pressure — "Let's go for the berserker, too. Oh my god, he wasted a Stein" (t=741-742s), and the follow-up landed the enemy right tower on 450 HP by t=754s.
+- overtime 1:51-1:45: bridge Berserker plus the 3-elixir Savage Survival ability used purely as protection — "we can just go for the berserker ability just to keep the dark goblin alive" (t=789-791s); earlier, when it would not change the trade, "Ability won't even do much" (t=782s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- clock 1:45 (t=889.9, deploy label at [12, 12]) and clock 0:07 (t=988.0, [14, 16]): the cheap right-lane pressure card, played with no support and no ability — "Let's berserker here" (t=890s), and at t=894-896s he says why the ability stays unspent: "I don't think I'm going to ability, but just nice pressure."
+- clock 1:11 (t=923.9, deploy label at [3, 9]): used deep on his own half as the answer to the Phoenix tracked at [2, 9] with "tower in 3.6s" — the Hero Berserker doubles as this deck's only real ground defender.
+- clock 0:28 (t=965.6, HUD elixir 6 to 4, deploy label at [6, 15]): the one time he pays for Savage Survival, on the river tile — "go for the high berserker here as Well, then we go for the ability" (t=964-965s), followed by a 2-elixir own drop with no hand change at t=968.3 (the hero note prices the ability at 3).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.6.md):
+- Hero variant: four own elixir drops of exactly 3 with no hand change (clock 2:25, 1:05, 0:17 and overtime 1:36) are Savage Survival activations — "Let's go for the ability here. Make sure we take this out. That's going to take out the cannon cart, which is very good for us" (clock 0:07) and "Let's go for the high berserker ability as well. Come on. Nice. Great ability" (OT 1:38).
+- clock 0:42 and overtime 1:46: dropped straight at the bridge ([4, 15], [8, 10]) as a standalone 2-elixir threat — "berserker here at the bridge. Nice"; the OT one connected and took the enemy left tower from 2125 to 976.
+- clock 1:07 and 0:19: also placed behind his own towers ([9, 6], [8, 0]) to walk her up with the push — "Let's go for the Berserker here. He's probably going to just distract us with the skellies, but that's fine with me"; "Berserker in the back here."
+- Two ability failures cost him: at clock 1:46 "I meant the berserker ability, but I put my gang in the corner. Bro, that's so bad. That would have completely killed his E barbs", and at OT 1:10 "Go for the berserker ability. Please, please... Oh, I didn't get the ability off, man. Unfortunate log."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.6:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
+- clock 2:25: Hero Berserker placed high on his own half at [8, 13] as a pure distraction against a mixed push — "Let's go for the high berserker here just to distract everything. That's fine."
+- clock 1:30 / 0:48 / 1:20 (overtime): repeatedly dropped in the opponent's pocket at [9, 20], [13, 21] and [9, 21] to tank tower shots for the swarm behind him — "I'm just going to go for the berserker in the pocket here to tank for this tower", and later "let's go for the berserker in the pocket. Nice. Wait, gang, too."
+- clock 1:50 (overtime): played at the bridge tile [14, 15] for 2 elixir as a standalone threat while he cycled — "We just need to watch out here. Let's go berserker."
+- clock 0:43: Savage Survival used at the wrong moment and the opponent's Electro Spirit finished his Dart Goblin — "Oh no, that was a bad ability, bro. I didn't think he'd be able to hit the dark ob with the e spirit. That was such a horrible ability"; in the outro he blames this for the loss. A later defensive ability at clock 0:07 did work: "my berserker caught it. No way."
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

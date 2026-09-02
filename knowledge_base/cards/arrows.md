@@ -151,6 +151,16 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.10.md):
 - t=2607.6: Arrows at [14, 30] finishing the last push — "I went for the arrows, guys, and I took out the entire tower in one push" (t=2611-2614).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.10:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.2.md):
+- mentioned, not seen: he tracks the opponent's small spell as a cycle resource on both sides of the board — "I'm going to gang on the side here because he has no arrows in cycle" (t=378-379s) and later "He's definitely going to go for the arrows here and just try to completely take my tower" (t=443-444s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.5.md):
+- mentioned only, not played (t=969s): the spell he places around rather than baits — "He might go for the arrow. So, I'm going to go for the dart goblin off to the side here", which is why the Dart Goblin goes to [15, 6] instead of behind the tower.
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

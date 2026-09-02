@@ -221,6 +221,13 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
 - Ian's Evo Archers, the small-unit pressure Ryley had to keep answering: he puts an Ice Wizard in the back "just to go towards that one side Evo archer" (1479-1481s), clears both lanes with Tombstone + Baby Dragon — "knowing that I'd be able to take out both of the archers on each lane" (1542-1545s) — and Tornados them into his Golem (1551-1554s). He credits the pressure: "He was doing a really good job at pressuring me with these small units though. I do have to give him credit there" (1503-1507s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:start -->
+Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.4.md):
+- clock 2:42 onward: the opponent's Evolution Archers are the card Ryley respects most on sight — "Evil archers are actually so strong, man. They got a nerf, but I feel like it didn't affect their usage rate at all" (t=613-616s).
+- clock 1:23: he plays around the evolution cycle rather than the card — "he already has the evil archers in cycle. But sometimes I can abuse the fact that... he can't just cycle them randomly. He wants to use them at a good time" (t=691-700s).
+- clock 1:02: the opponent splits them across both lanes at [3, 17] and [14, 17] on defence and Ryley calls it a mistake — "that was obviously a bad split. Probably would have been better just to eat some damage and not use his archers honestly" (t=706-709s).
+<!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)
