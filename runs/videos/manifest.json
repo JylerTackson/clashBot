@@ -96,6 +96,142 @@
    ],
    "own_deck_video": [],
    "complete": true
+  },
+  "OKA_QNEkJIU": {
+   "id": "OKA_QNEkJIU",
+   "title": "This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!",
+   "matches": [
+    {
+     "index": 0,
+     "status": "done",
+     "frames": 7709,
+     "seconds": 3978.8,
+     "games": [
+      {
+       "match": "0.0",
+       "seconds": 165.8,
+       "events": 69,
+       "own_deck": [
+        "ice-spirit",
+        "berserker",
+        "skeletons",
+        "cannon",
+        "dart-goblin",
+        "electro-spirit",
+        "wall-breakers",
+        "skeleton-army"
+       ]
+      },
+      {
+       "match": "0.1",
+       "seconds": 172.0,
+       "events": 79,
+       "own_deck": [
+        "skeletons",
+        "berserker",
+        "wall-breakers",
+        "cannon",
+        "goblin-barrel",
+        "electro-spirit",
+        "ice-spirit",
+        "dart-goblin"
+       ]
+      },
+      {
+       "match": "0.2",
+       "seconds": 172.0,
+       "events": 62,
+       "own_deck": [
+        "ice-spirit",
+        "berserker",
+        "dart-goblin",
+        "wall-breakers",
+        "skeletons",
+        "goblin-barrel",
+        "cannon",
+        "electro-spirit"
+       ]
+      },
+      {
+       "match": "0.3",
+       "seconds": 180.0,
+       "events": 81,
+       "own_deck": [
+        "skeletons",
+        "electro-spirit",
+        "goblin-barrel",
+        "ice-spirit",
+        "dart-goblin",
+        "cannon",
+        "berserker",
+        "goblins"
+       ]
+      },
+      {
+       "match": "0.4",
+       "seconds": 177.0,
+       "events": 83,
+       "own_deck": [
+        "skeletons",
+        "ice-spirit",
+        "dart-goblin",
+        "electro-spirit",
+        "berserker",
+        "wall-breakers",
+        "goblin-barrel",
+        "cannon"
+       ]
+      },
+      {
+       "match": "0.5",
+       "seconds": 264.1,
+       "events": 123,
+       "own_deck": [
+        "skeletons",
+        "goblin-barrel",
+        "wall-breakers",
+        "electro-spirit",
+        "berserker",
+        "dart-goblin",
+        "ice-spirit",
+        "goblins"
+       ]
+      },
+      {
+       "match": "0.6",
+       "seconds": 101.9,
+       "events": 37,
+       "own_deck": [
+        "wall-breakers",
+        "ice-spirit",
+        "goblins",
+        "skeletons",
+        "berserker",
+        "dart-goblin",
+        "cannon",
+        "giant"
+       ]
+      }
+     ]
+    }
+   ],
+   "periods": [
+    [
+     4.0,
+     1290.0
+    ]
+   ],
+   "own_deck_video": [
+    "skeletons",
+    "ice-spirit",
+    "dart-goblin",
+    "berserker",
+    "wall-breakers",
+    "cannon",
+    "electro-spirit",
+    "goblin-barrel"
+   ],
+   "complete": true
   }
  }
 }

@@ -1,0 +1,72 @@
+{
+  "key": "OKA_QNEkJIU-m0.4",
+  "match_file": "matches/OKA_QNEkJIU-m0.4.md",
+  "video_title": "This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:50: opens the game by barrelling the enemy left tower (tile [3, 25]) — 'my favorite starting play with this deck is just split wall breakers or goblin barrel on the tower just to get to my Evo right away' (t=701-707).",
+      "clock 2:26: immediately barrels the same tower again, 'you know, it's barrel here again' (t=720); the enemy left tower drops from 4858 to 3858 between clock 2:42 and 2:16.",
+      "clock 1:52: places the barrel deliberately short at tile [3, 26] — 'I'm going to barrel one tile in the back cuz he might knight in front of his tower for the dart goblin' (t=754-757) — and it works: 'he knights over there, and the dart goblin's on the tower. Nice' (t=760).",
+      "clock 0:54 and 0:28: barrel paired with a bridge Berserker as a standing two-threat, timed off the opponent's missing answer — 'I'm going to berserker plus barrel again cuz he has no barb barrel in cycle' (t=836-838); the whole cycle plan is 'all we need is to get to the next evo barrel and we'll be completely chilling' (t=832-834)."
+    ],
+    "wall-breakers": [
+      "clock 2:40: opening bridge Wall Breakers at tile [14, 14], elixir 9->7, as the alternative to the opening barrel — 'split wall breakers or goblin barrel on the tower just to get to my Evo right away' (t=701-707).",
+      "clock 2:17: 'Let's wall breakers the bridge again here' (t=728-730), tile [13, 15].",
+      "clock 2:03: splits them into the left lane at tile [4, 15] behind a bridge Berserker and an Evo barrel, specifically 'because he doesn't have a tombstone in cycle' (t=742-746); right after, 'we forced out a lot of elixir right there. Good connection' (t=747-748).",
+      "clock 1:12: back-placed Wall Breakers at tile [16, 2] as a pressure lock rather than chip — 'Dude, in the back are so annoying, to be honest, because now he just has to sit there and wait to defend. He can't even really go in' (t=792-799), set up by 'if he wastes his tombstone, then we can maybe get a good set of wall breakers shortly' (t=782-786)."
+    ],
+    "berserker": [
+      "clock 2:07: Berserker at the bridge at tile [4, 13] as the front of a stacked push — 'Let's go for the berserker at the bridge here, and then we can go for the Evo barrel ice spirit, and we can wall breakers on the left side as well because he doesn't have a tombstone in cycle' (t=738-746).",
+      "clock 1:32: refuses the bridge and plays a 'low berserker' from his own corner at tile [1, 8] — 'I don't want to just like go for a berserker and have it die at the bridge and let him go in for a graveyard' (t=769-774) — then adds Skeletons 'to keep the berserker alive to force out a response' (t=775-777).",
+      "clock 1:19: weighs the Hero's Savage Survival ability and passes on it — 'Do you want an ability here? Maybe if that berserker gets on, I won't have to' (t=787-789); no clean 3-elixir ability spend shows up in the elixir trace.",
+      "clock 0:54 and 0:30: Berserker at tiles [4, 15] and [4, 14] as the ground half of the Berserker-plus-barrel pattern (t=810-812, t=835-838)."
+    ],
+    "dart-goblin": [
+      "He runs the Evolution slot on Dart Goblin over Wall Breakers: 'you guys can use the Evo wall breakers in here over the Evo dart goblin if you would like, but I just think that the Evo dart goblin just helps you out so much on defense that there's no point really to not use it' (t=707-718; the auto-transcript renders it 'dark goblin').",
+      "clock 2:14: holds it on purpose as cycle information — 'I don't really want to use my dart goblin too early until I figure out his cycle here cuz I don't want to give him a free graveyard' (t=732-738).",
+      "clock 1:09 and 0:36: defensive placements at tiles [8, 9] and [8, 12] anchoring the answer to the Baby Dragon push — 'Let's just dart goblin here. We can go for the ice spirit as well. Just make sure that we take that baby dragon off the board' (t=800-804).",
+      "clock 0:50: offensive Dart Goblin at the bridge at tile [14, 15] — 'Let's go for the evo dart goblin at the bridge, too. Nice. That's going to take out the baby dragon' (t=815-820)."
+    ],
+    "ice-spirit": [
+      "clock 2:03: Ice Spirit at tile [14, 14] as the escort behind the Evo barrel — 'we can go for the Evo barrel ice spirit' (t=740).",
+      "clock 1:50: Ice Spirit at tile [3, 14] to stall the defence of his barrel — 'Let's ice spirit too, low-key' (t=758), then 'the ice spirit freezes the ice wizard. Beautiful sequence right there' (t=763-765).",
+      "clock 1:05 and 0:20: cheap second layer next to Skeletons and Electro Spirit at tiles [7, 13] and [5, 16] (t=800.8, t=845.8) while clearing the Baby Dragon.",
+      "clock 0:08: part of the final defensive stack for the expected Graveyard — 'Ice spirits up top' (t=860)."
+    ],
+    "skeletons": [
+      "clock 2:04: Skeletons at tile [9, 10] as the cheap distraction while his bridge push runs (t=740.9).",
+      "clock 1:32: Skeletons at tile [3, 10] behind the low Berserker — 'We can even skellies to keep the berserker alive to force out a response' (t=774-777).",
+      "clock 0:56: pre-emptive Skeletons at tile [9, 13] — 'Let's go for the skellies in case he tries to ice wiz' (t=809).",
+      "clock 0:13: pre-placed for a Graveyard that never comes, tiles [3, 5] and [9, 8] — 'Let's skellies behind for the graveyard' (t=853) and 'we can go for the skeletons as well just to pull this over' (t=862-864)."
+    ],
+    "electro-spirit": [
+      "clock 2:31 and 2:11: 1-elixir resets on the opponent's Knight walking into his half, tiles [8, 14] and [8, 11] (t=714.2, t=734.4).",
+      "clock 1:55: paired with the Dart Goblin as a two-card answer — 'now we can go for the dart goblin plus e-spirit' (t=750), tile [7, 13].",
+      "clock 1:05: closes out the Baby Dragon defence for 1 elixir (t=802.0), after which 'he forced out NATO [Tornado], which is good' (t=804-806).",
+      "clock 0:08: 'e-spirit all the way in the back' (t=858) as part of the closing defensive set-up."
+    ],
+    "cannon": [
+      "clock 0:39-0:14: the only confirmed Cannon of the readable window, at tile [9, 13] (t=852.9), placed purely to survive the last stretch — 'I have to defend for another 15 seconds, but I think I'm chilling' (t=848-852).",
+      "The building otherwise stays in hand all game (HUD reads it in hand through most of clock 2:51-0:40, low confidence): every earlier defence is Skeletons, Ice Spirit, Electro Spirit and Dart Goblin instead, which is what keeps him cycling to the Evo Goblin Barrel."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-cannon-dart-goblin-electro-spirit-goblin-barrel-ice-spirit-skeletons-wall-breakers",
+    "cards": ["berserker", "cannon", "dart-goblin", "electro-spirit", "goblin-barrel", "ice-spirit", "skeletons", "wall-breakers"],
+    "bullets": [
+      "Game 5 of 7 in a single-deck video; win against a Splashyard control deck (Graveyard, Tombstone, Tornado, Barbarian Barrel, Ice Wizard, Baby Dragon, Knight, Magic Archer), video time 694.9-871.9s. 'Beautiful and GG's. Nice win' (t=866), enemy left tower ground to 127 while his own left loses under 1000.",
+      "Fixed opening: 'my favorite starting play with this deck is just split wall breakers or goblin barrel on the tower just to get to my Evo right away' (t=701-707) — the first two plays of the readable window are a barrel at clock 2:50 and bridge Wall Breakers at clock 2:40.",
+      "Evolution slots are Goblin Barrel and Dart Goblin, and he argues the Dart Goblin choice explicitly: 'you guys can use the Evo wall breakers in here over the Evo dart goblin if you would like, but I just think that the Evo dart goblin just helps you out so much on defense that there's no point really to not use it' (t=707-718).",
+      "Every offensive commitment is timed off the opponent's cycle rather than off elixir: 'because he doesn't have a tombstone in cycle' (t=744), 'he might have to waste his tombstone, and if he wastes his tombstone, then we can maybe get a good set of wall breakers shortly' (t=782-786), 'cuz he has no barb barrel in cycle' (t=838).",
+      "Defence is deliberately spirit-and-skeleton cheap so the 2.0 average keeps recycling the Evo barrel — the Cannon is only placed once, at clock 0:39 (t=852.9). By clock 1:52 and 0:52 the opponent is locked out: 'He can't even go in for a graveyard, and his cycle is completely messed up here' (t=753) and 'His cycle is absolutely cooked right now' (t=813).",
+      "The pattern he repeats to close the game is Berserker at the bridge plus Evo Goblin Barrel, with Wall Breakers behind: 'we can go for the berserker plus evo barrel and then wall breakers' (t=810-812) and again at t=836-838; the enemy left tower falls 2527 -> 127 between clock 0:48 and 0:44."
+    ],
+    "new_deck": {
+      "display_name": "Berserker 2.0 Log Bait Cycle",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel is the win condition and Dart Goblin, Skeletons and the two spirits bait the small spells that would answer it, while a 2.0 average cost lets the Evolution barrel come back around faster than the opponent's answers.",
+      "why_it_works_md": "At 2.0 average elixir the deck outcycles anything that answers the Goblin Barrel, which is why Ryley frames the whole match around getting back to the Evolution: \"All we need is to get to the next evo barrel and we'll be completely chilling\" (t=832-834). The Evo Goblin Barrel and Evo Dart Goblin do the damage, Berserker and Wall Breakers add two more cheap bridge threats that force a second answer, and defence is handled almost entirely by Skeletons, Ice Spirit, Electro Spirit and Dart Goblin so the Cannon can be saved for the one push that really needs it. Because every threat is 2-3 elixir, he can attack whenever a specific opponent card is out of rotation rather than when he is ahead on elixir — in this match he counts the opponent's Tombstone and Barbarian Barrel out of cycle and barrels into the hole each time. The weakness is that nothing in the deck kills a tower on its own: the enemy left tower survived on 127 hitpoints and the win came on accumulated damage, not a crown."
+    }
+  }
+}

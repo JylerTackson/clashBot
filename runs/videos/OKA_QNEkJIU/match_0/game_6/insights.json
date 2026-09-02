@@ -1,0 +1,83 @@
+{
+  "key": "OKA_QNEkJIU-m0.6",
+  "match_file": "matches/OKA_QNEkJIU-m0.6.md",
+  "video_title": "This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!",
+  "cards": {
+    "wall-breakers": [
+      "clock 1:45 (t=1204.2): cancels a split and sends them at tile [3, 14] into the same lane as the opponent's back-line Royal Giant — \"Okay, actually, let me go wall breakers same lane cuz he's going for these back RGs. I want to put in more pressure\".",
+      "clock 1:17-0:59 (t=1232.2 [4, 15], 1243.4, 1249.2 [3, 14]): three more sets into the same left lane while the enemy left tower falls 3086 -> 895 HP; he plays them as bait as much as damage — \"Maybe we force out the bats, but even if I don't, I don't really care\" (1237-1240).",
+      "clock 0:59 (t=1249.2): timed off the opponent's cycle rather than his own elixir — \"let's go for the wall breakers again as well. Perfect. He used his bomber, so he's not back to the bomber yet\".",
+      "clock 0:42-0:34 (t=1267.3 [8, 18], 1274.3 [9, 19]): played deep on the opponent's half in the closing push once the opponent stopped defending; the enemy right tower reads ~4499 -> 128 HP over t=1272-1274."
+    ],
+    "goblin-barrel": [
+      "clock 1:22 (t=1227.2): thrown at [3, 25], centre of the enemy left tower, in the same rotation in which he refuses to spend elixir on defence — \"I think it's more beneficial to eat this damage and just go in\" (1228-1231).",
+      "clock 1:05-1:03 (t≈1243-1247): a second throw called and then graded against the opponent's empty elixir bar — \"we can go for the barrel, too ... That's going to be a full barrel on the tower. He has no elixir\"."
+    ],
+    "cannon": [
+      "clock 1:29 (t=1219): announced as held in reserve behind the Evo Dart Goblin — \"We have a cannon ready as well\".",
+      "clock 1:25-1:19 (t=1225-1231): explicitly declined against an Evolution Royal Giant that then took 490 HP off his left tower — \"Yo, hold on. I'm not even going to go for the cannon. I'm just going to let this go because even though we take some damage here, I think it's more beneficial to eat this damage and just go in\". Two HUD events label 3-elixir drops at [9, 9] as Cannon, but the commentary contradicts both, so no Cannon placement is asserted for this game."
+    ],
+    "dart-goblin": [
+      "clock 1:53-1:50 (t=1194-1197): named as the pre-held Royal Giant answer before the RG appears — \"I have the evo dart ready if he tries to go in for some type of RG\".",
+      "clock 1:31 (t=1218.2): the Evolution Dart Goblin goes down at [9, 9], centre of his own half, purely for chip on the tank — \"I'll just go for the evo dark goblin here just to start getting some damage on the RG\"; he is defending the Royal Giant with damage rather than with a building.",
+      "clock 0:44 (t=1264.3): played at [14, 12] to open the last push alongside a Berserker — \"Let's go for the dark goblin one berserker\"."
+    ],
+    "berserker": [
+      "clock 1:37 (t≈1212): dropped in the back as the answer to the opponent committing an Evolution Royal Giant — \"just berserker here in the back and we have the evo dark goblin ready here\".",
+      "clock 1:07 (t=1241.2): at [3, 13] as part of the Berserker + Goblin Barrel + Wall Breakers rotation — \"Let's go for the berserker here and we can go for the barrel, too\".",
+      "clock 0:44-0:38 (t=1264-1270.3): paired with the Dart Goblin to start the closing push and then tracked at [8, 20] on the opponent's half — \"Let's go for the dark goblin one berserker\". The Hero form (Savage Survival, 3 elixir) is possible for this deck but no 3-elixir drop with an unchanged hand appears in the readable window and he never mentions the ability."
+    ],
+    "ice-spirit": [
+      "clock 1:47 (t=1200.9): at [8, 9] onto a Bomber the threat tracker had 5 s from his tower, chosen ahead of a bigger answer — \"Let's just go for the ice spirit here and then we can split our wall breakers\".",
+      "clock 0:40 (t=1268.6): at [10, 20] on the opponent's half as push glue behind the Wall Breakers/Berserker, plus 1-elixir HUD drops at t=1249.9, 1271.3 and 1275.3 in the same two roles (freeze on defence, extend the push)."
+    ],
+    "electro-spirit": [
+      "clock 1:05 (t≈1244): his named answer to the opponent's Bats while the Dart Goblin was busy on the Royal Giant — \"Let's e-spirit for the bats. Come on. Nice. It's really good, actually\" (1244-1246). The deploy label at [3, 14] was attributed to the opponent by the pipeline; the commentary makes it Ryley's."
+    ],
+    "skeletons": [
+      "clock 1:13 (t=1236.4) and clock 0:40 (t=1267.8): 1-elixir HUD drops used purely to keep the 2.0 cycle rolling between Wall Breakers sets.",
+      "clock 0:48 (t=1260.3): placed at [8, 0] behind his own tower while sitting on a tower lead — \"Now we just have to defend for another 48 seconds\" (1257-1258).",
+      "clock 0:37 (t=1273.3): at [8, 21] on the opponent's half as part of the closing push on the right tower."
+    ],
+    "royal-giant": [
+      "clock 1:35 (t=1211.2): the opponent's Evolution Royal Giant at [4, 22] (elixir 10 -> 4) is the only heavy commitment in the window. Ryley pre-empted it at 1194-1197 (\"I have the evo dart ready if he tries to go in for some type of RG\") and then answered it with chip plus a refusal to build — Evo Dart Goblin at [9, 9], no Cannon, 490 HP of his left tower given up on purpose (own left 4781 -> 4291 at t=1230).",
+      "clock 0:47 (t=1261): while defending a lead he lists the RG as the expected follow-up and it never comes — \"I wonder if he tries to RG the back or to spam my bridge. Or he could give up, too, low-key\"."
+    ],
+    "bomber": [
+      "clock 1:53-1:50 (t=1193.2, 1197.2): the opponent's Evolution Bomber walks the left lane alone; Ryley treats it as a placement constraint rather than a threat — \"Bomber will be a little bit annoying cuz it can one-shot all of my spirits, but it just means I have to be a little bit more precise and smart with my placements\" (1189-1194).",
+      "clock 1:09 and 0:57 (t=1240, 1252): he uses the Bomber's rotation as his timing signal for more Wall Breakers — \"Okay, we force out the bomber\" and \"He used his bomber, so he's not back to the bomber yet\"."
+    ],
+    "bats": [
+      "clock 1:39-1:33 (t=1210-1216): four Bats cross the left lane with three of them within 2 s of his tower and he deliberately spends nothing — \"Okay, good bats by him, but at least I won't have to worry about them\".",
+      "clock 1:11-1:05 (t=1239-1244): Bats are what he is trying to bait with Wall Breakers (\"Maybe we force out the bats, but even if I don't, I don't really care\") and, when they do come, Electro Spirit is the answer he names (\"Let's e-spirit for the bats\")."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-cannon-dart-goblin-electro-spirit-goblin-barrel-ice-spirit-skeletons-wall-breakers",
+    "cards": [
+      "berserker",
+      "cannon",
+      "dart-goblin",
+      "electro-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "skeletons",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Last game (7 of 7) of the session video; only the final ~102 s were readable, starting mid-game at roughly clock 1:55 in double elixir with Ryley already ahead (his towers 4781/4858, the enemy left tower 3686). Ryley names the list himself at t=1285: \"a 98% win rate with with 2.0 log bait cycle\" — Skeletons, Ice Spirit, Electro Spirit, Wall Breakers, Berserker, Cannon, Dart Goblin, Goblin Barrel, exactly 16 elixir, with Evo Dart Goblin in play.",
+      "The deck's defensive answer to an Evolution Royal Giant in this game is not the Cannon but chip plus a refusal to trade: Evo Dart Goblin at [9, 9] at clock 1:31 \"just to start getting some damage on the RG\", then at clock 1:25 \"I'm not even going to go for the cannon. I'm just going to let this go because even though we take some damage here, I think it's more beneficial to eat this damage and just go in\" — he pays 490 tower HP to keep his elixir on offence.",
+      "Offence is Wall Breakers volume in one lane rather than a built push: sets at clock 1:45 [3, 14], 1:17 [4, 15], 1:05 and 0:59 [3, 14], with a Goblin Barrel at [3, 25] at clock 1:22 in between. The enemy left tower goes 3086 -> 895 HP across clock 1:15-0:57. He states the bait logic outright — \"Maybe we force out the bats, but even if I don't, I don't really care\" (1237-1240).",
+      "Cycle speed is used to time throws off the opponent's rotation, not off his own bar: \"He used his bomber, so he's not back to the bomber yet\" (clock 0:57) and \"That's going to be a full barrel on the tower. He has no elixir\" (clock 1:03).",
+      "The 1-elixir cards do three separate jobs in one game: Ice Spirit as the cheap freeze on an incoming Bomber (clock 1:47, [8, 9]), Electro Spirit as the named Bats answer (clock 1:05), Skeletons as pure cycle and as a hold-the-lead placement behind his own tower at clock 0:48 (\"Now we just have to defend for another 48 seconds\").",
+      "Result: win. From clock 0:48 the opponent stops answering (\"he gave up. He's not playing anything\", t=1266) and a Dart Goblin / Berserker / Wall Breakers / Skeletons / Ice Spirit push on the right takes that tower from ~4499 to 128 HP before the capture ends on the results screen — \"Let's go. Dude, very nice win, guys\"."
+    ],
+    "new_deck": {
+      "display_name": "2.0 Log Bait Cycle",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Wall Breakers and Goblin Barrel are the win conditions and every support card (Dart Goblin, Skeletons, the two spirits) is a small-spell bait, while the 2.0 average elixir means the whole deck is a cycle shell around them.",
+      "why_it_works_md": "At exactly 2.0 average elixir the deck cycles back to Wall Breakers and Goblin Barrel faster than a mid-ladder deck can rotate its answers, which is how Ryley wins this game: five Wall Breakers sets and two Barrels into one lane while the opponent is still paying six elixir for a Royal Giant. The bait layer is real — Dart Goblin, Goblin Barrel, Skeletons and the spirits all pull the same small spell, so he can say \"maybe we force out the bats, but even if I don't, I don't really care\" and be right either way. Cannon is the only true defensive card, and this match shows he treats it as optional: with a tower lead he lets an Evolution Royal Giant hit rather than spend three elixir off the cycle. The two 1-elixir spirits split the defensive work (Ice Spirit freeze for ground pushes, Electro Spirit for Bats and other swarms) so the Dart Goblin can be used offensively for tank chip instead of being the only answer. The obvious cost is that the deck has no reset for a big tank if it falls behind — every plan in this game depends on already being ahead on towers."
+    }
+  }
+}

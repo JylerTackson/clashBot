@@ -1,0 +1,97 @@
+{
+  "key": "OKA_QNEkJIU-m0.2",
+  "match_file": "matches/OKA_QNEkJIU-m0.2.md",
+  "video_title": "This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:48 and 2:23: two Goblin Barrels on the same enemy right tower at tile (14, 25) inside 26 seconds, both as pure opening chip with no tank and no follow-up spell; the second is an afterthought on top of a Wall Breakers cycle — \"Let's go for the barrel here as well\" (370s).",
+      "clock 1:54: he switches lanes and barrels the enemy left tower at (3, 26) in the same 5 seconds as Wall Breakers at the river and a Dart Goblin; that burst takes the left tower 4858 -> 2609. \"Yo, that's going to be a lot of damage on the left. Beautiful\" (402-405s).",
+      "clock 0:55: a fourth Barrel while defending a Battle Ram push, showing he never holds it for a combo in this deck — it is a cycle card that happens to chip."
+    ],
+    "wall-breakers": [
+      "clock 2:30: first damage card of the game at (13, 13), one tile off the right bridge, played before the opponent has shown a counter — \"Okay, let's go for the wall breakers here\" (362s). Enemy right tower drops to 3258 by clock 2:15.",
+      "clock 1:55: at (8, 14), the middle of the river, so the pair splits toward whichever lane is less defended; part of the Goblin Barrel + Dart Goblin burst that halves the enemy left tower.",
+      "clock 1:05: a defensive Wall Breakers at (12, 6), deep on his own half, into a Giant Skeleton advancing the right lane (tower in 3.7s) — the only non-offensive placement of the five in this game.",
+      "clock 0:48: at (15, 14) on the right bridge while already ahead, casually announced — \"We can go for the wall breakers well\" (462s)."
+    ],
+    "berserker": [
+      "clock 1:27: the game-deciding play. With the Berserker locked on the enemy left tower he spends 3 elixir on Savage Survival — \"Hold on, I'm going to pop my ability here cuz this will be tower down. Yeah, that's tower down. Beautiful. That might even take out the wizard if we're lucky. That's going to bring it really low. Come on, one HP\" (425-432s). Enemy left tower reads 2127 -> 1241 -> 670 HP in six seconds.",
+      "clock 2:15: used as a pure distraction body against a Giant Skeleton and Wizard, with the ability planned in the same breath — \"we have to get a berserker down on top of this and we have to get an immediate ability cuz I know he's going to pop his ability so mine just needs to be there to keep the wizard distracted\" (376-383s).",
+      "clock 1:33: placed at (4, 13) in front of his own left tower with the ability deliberately unspent — \"let's berserker here in front as well. We have the ability if he goes for like a mother witch or something or even like a ghost\" (418-424s).",
+      "clock 0:45 and 0:35: two back placements at (9, 1) and (9, 0) to start cycles while he saves the Evolution Dart Goblin — \"we can go for the berserker in the back to just making sure that we save out our Dark Goblin for the right moment\" (478-483s). A second ability cast follows at clock 0:28 against a Mother Witch."
+    ],
+    "dart-goblin": [
+      "clock 1:43: mid-board at (8, 10) as the answer to a three-Zappy plus Barbarians split push, chosen instead of a spell — \"let's go for the dark goblin here just make sure that we take out the zappies. We'll defend both lanes which is nice. Hopefully our dark goblin can survive too\" (409-415s).",
+      "clock 0:48: the Evolution copy is explicitly held in cycle rather than spent — \"I'm just saving my Evo Dark Goblin in cycle so I don't waste it here cuz it would be really good to get like a shot off on the giant skeleton before it gets vine-stopped\" (464-472s).",
+      "clock 2:19: played \"low\" at (8, 8) on his own half against a Giant Skeleton push, and he immediately flags the risk of it giving the opponent a King Tower activation — \"we could have got a king activation if that shot at our dark goblin but it's all good\" (385-388s).",
+      "clock 0:11: with the game won he sends one to (1, 17) inside the opponent's half as free chip."
+    ],
+    "cannon": [
+      "clock 1:10, 0:40, 0:25 and 0:13: four Cannons in the last 90 seconds, every one reactive and every one in the same column-9 pocket between his own towers (9, 9), (9, 11), (9, 8) — never pre-placed.",
+      "clock 0:55: he names the target before placing — \"Then we can go for another high cannon here. Make sure that we take out the battle ram\" (455-459s), and calls the result \"Beautiful defense right now. We're playing this very nicely.\"",
+      "The Cannon is the anchor of the two-card defence he repeats all game: Cannon plus Skeletons or Ice Spirit against Giant Skeleton and Battle Ram, at clock 1:10 and again at 0:40 (\"Let's cannon here and then we can go for the skeletons plus ice spirit here as well\", 472-477s)."
+    ],
+    "skeletons": [
+      "clock 2:02: dropped straight on top of a Royal Ghost that had already crossed — \"We can just go for the skeletons here on top of the ghost\" (390-392s); the same answer at clock 2:41 at (3, 12) had already handled the Ghost's first run for 1 elixir.",
+      "clock 1:02 and 0:37: right-lane placements at (13, 12) and (14, 14) into an incoming Battle Ram / Giant Skeleton push, always paired with a spirit — \"Nice, go for the skellies here as well and we can go for the e-spirit too\" (450-452s).",
+      "clock 0:22: last-minute Skeletons plus Berserker into a Mother Witch coming down the left — \"Let's go for the skellies berserker and this is going to be a good game\" (490-494s)."
+    ],
+    "ice-spirit": [
+      "The single most-played card of the game (8 deployments in 172 s), used as filler on top of every defence rather than as a planned combo piece — (9, 13) at clock 2:24, (9, 14) at 1:08, (6, 12) at 0:50, (2, 15) at 0:21, (2, 17) at 0:05.",
+      "clock 0:38: named as a package with Skeletons behind the Cannon — \"we can go for the skeletons plus ice spirit here as well just to make sure we take this down again\" (474-477s).",
+      "clock 1:08: dropped with the Cannon against a Giant Skeleton right, a Little Prince left and a Graveyard on his own half — the 1-elixir freeze is what lets a 3-elixir building answer two lanes."
+    ],
+    "electro-spirit": [
+      "clock 1:03: used specifically for its chain against a Royal Ghost / Mother Witch cluster — \"we can go for the e-spirit too just to make sure that we chain the ghost ghouls away\" (452-455s).",
+      "clock 1:19 and 0:33: both placements are on his own half at (7, 9) and (7, 13), never sent across the bridge — consistent with keeping it away from the enemy King Tower while he is barreling.",
+      "clock 0:07: a final 1-elixir spend during the overtime spam while he is already narrating the win."
+    ],
+    "zappies": [
+      "The opponent's most-played card (six casts, clock 1:46 through 0:03). Ryley names them as one of the two cards his deck has no spell for — \"I don't really have a spell to take out the mother witch or the zappies but because of how crazy our spam is in this deck, we could actually have just a really good sequence randomly\" (395-400s).",
+      "clock 1:43: his answer is a mid-board Dart Goblin rather than a spell — \"let's go for the dark goblin here just make sure that we take out the zappies\" (409-411s)."
+    ],
+    "mother-witch": [
+      "Faced, not played. Ryley names her as a card his 2.0 log bait cycle cannot answer with a spell (395-398s), and keeps the Berserker's Savage Survival in reserve specifically for her — \"We have the ability if he goes for like a mother witch or something or even like a ghost\" (clock 1:33, 420-424s).",
+      "clock 0:28-0:20: when she finally comes down the left lane he spends the ability plus Skeletons and Berserker on her — \"Okay, that was a interesting Mother Witch. Okay, I think I should go for the ability here\" (483-488s).",
+      "clock 1:03: the Electro Spirit chain is his tool against the ghouls she leaves behind — \"just to make sure that we chain the ghost ghouls away\" (452-455s)."
+    ],
+    "giant-skeleton": [
+      "Faced, not played. His answer at clock 2:19-2:15 is Dart Goblin low plus Berserker on top plus the hero ability rather than a building — \"we have to go for a low dark goblin here and then we have to get a berserker down on top of this\" (375-378s).",
+      "clock 0:48: he holds the Evolution Dart Goblin in cycle for it — \"it would be really good to get like a shot off on the giant skeleton before it gets vine-stopped\" (468-472s).",
+      "clock 1:10 and 1:05: repeat pushes are met with Cannon at (9, 9) plus Ice Spirit, and once with a defensive Wall Breakers pair at (12, 6)."
+    ],
+    "battle-ram": [
+      "Faced, not played. He predicts it before it appears — \"Okay, he he might battle ram here\" (clock 1:13, 439s) — and it is tracked at (13, 12) at clock 0:53.",
+      "clock 0:55: his answer is a fresh Cannon high in the pocket — \"Then we can go for another high cannon here. Make sure that we take out the battle ram. Beautiful defense right now\" (455-460s)."
+    ],
+    "royal-ghost": [
+      "Faced, not played. The opponent's opening pressure card, tracked down Ryley's left lane at clock 2:45-2:35 and again at clock 1:53; he answers both runs with 1-elixir cards, Skeletons at (3, 12) then Berserker deep at (1, 9).",
+      "clock 2:02: \"We can just go for the skeletons here on top of the ghost\" (390-392s) — Skeletons placed directly on the Ghost rather than in front of it.",
+      "clock 1:33: he lists the Ghost alongside Mother Witch as a reason to keep the Berserker ability unspent (420-424s)."
+    ],
+    "wizard": [
+      "Faced, not played. At clock 2:15 the Berserker's job is explicitly to hold him — \"mine just needs to be there to keep the wizard distracted\" (380-383s).",
+      "clock 1:27: he hopes the Savage Survival burst catches the Wizard as well as the tower — \"That might even take out the wizard if we're lucky\" (430s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-cannon-dart-goblin-electro-spirit-goblin-barrel-ice-spirit-skeletons-wall-breakers",
+    "cards": ["skeletons", "ice-spirit", "electro-spirit", "berserker", "wall-breakers", "cannon", "dart-goblin", "goblin-barrel"],
+    "bullets": [
+      "Game 3 of a 7-game Ultimate Champion push in this video; a win over a bridge-spam opponent (\"J Dawg\") with no tower lost and the enemy left tower reduced to 670 HP. \"Very nice win, guys ... You guys got to try out this deck, man. No one can even compete with us right now\" (504-512s).",
+      "16 elixir over 8 cards, exactly the \"2.0 log bait cycle\" he names at 355s: three 1-cost cycle cards (Skeletons, Ice Spirit, Electro Spirit), two 2-cost (Berserker, Wall Breakers) and three 3-cost (Cannon, Dart Goblin, Goblin Barrel).",
+      "The offence is volume, not combos: Goblin Barrel at clock 2:48, 2:23, 1:54 and 0:55 and Wall Breakers at 2:30, 2:22, 1:55, 1:05 and 0:48, mostly played solo and in whichever lane is currently undefended, with a lane switch to the left tower at clock 1:54 that takes it 4858 -> 2609 in four seconds.",
+      "Everything else is defence out of the same two-card pocket: Cannon in column 9 between his towers (clock 1:10, 0:40, 0:25, 0:13) plus Skeletons or Ice Spirit, with Dart Goblin as the only ranged answer.",
+      "The Heroic Berserker is the deck's swing card here: a 2-elixir defensive body that becomes the win condition when Savage Survival is popped on a locked-on tower (clock 1:27, enemy left 2127 -> 670), and a held threat the rest of the time — \"We have the ability if he goes for like a mother witch or something or even like a ghost\" (420-424s).",
+      "Stated weakness in this matchup (395-400s): no spell for Mother Witch or Zappies, which he answers by cycling faster rather than trying to trade — \"because of how crazy our spam is in this deck, we could actually have just a really good sequence randomly.\"",
+      "He plays around his own Evolution Dart Goblin, holding it in cycle for a specific target rather than spending it on the current push (464-483s)."
+    ],
+    "new_deck": {
+      "display_name": "2.0 Log Bait Cycle Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel plus Wall Breakers and Dart Goblin bait the opponent's small spell and splash answers, and at a 2.0 average cost the deck cycles back to them faster than those answers rotate.",
+      "why_it_works_md": "Eight cards for 16 elixir means Goblin Barrel and Wall Breakers come back around before the opponent's Log, Arrows or splash unit does, so the chip damage compounds even when each individual play is answered. Defence is deliberately cheap and repeatable — a reactive Cannon in the pocket between the towers plus Skeletons or a spirit, with Dart Goblin as the single ranged answer to Zappies and air. The Heroic Berserker is what turns the deck from pure chip into a kill: 2 elixir on defence, and 3 more for Savage Survival when she is locked onto a Crown Tower, which took an opponent's tower from 2127 to 670 HP in six seconds in this match. The obvious hole is spells — Ryley says outright he has no answer to Mother Witch or Zappies (395-400s) and covers it by out-cycling rather than out-trading."
+    }
+  }
+}

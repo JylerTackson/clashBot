@@ -1,0 +1,103 @@
+{
+  "key": "OKA_QNEkJIU-m0.3",
+  "match_file": "matches/OKA_QNEkJIU-m0.3.md",
+  "video_title": "This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:50 (t=516.5): opens the game with it on the enemy left tower, tile [2, 25] (HUD + deploy label, elixir 9.0 -> 6.0) before any defensive read — in this 2.0 list the barrel is the metronome, thrown roughly every cycle rather than saved for a spell-bait window.",
+      "clock 1:45 (t=581.6) and clock 0:43 (t=641.6): the evolved barrel is the opener for the bridge package — \"we can go for the Evo Barrel here and we're going to Wall Breakers\" (t=581-583) and \"we already have the Evo Barrel back, so we can go for the Evo Barrel plus Berserker here at the bridge\" (t=638-640).",
+      "clock 0:57 (t=628.6): switches lanes with it, tile [14, 26] on the enemy right — \"let's go for the Barrel, Ice Spirit, and Wall Breakers\"; the enemy right tower goes 3185 -> 1287 HP over the next ten seconds.",
+      "Six throws in 180 s (t=516.5, 547.5, 581.6, 601.6, 628.6, 693.0), four of them at tiles [2-3, 24-26] on the enemy left; against a Lava Hound deck holding Arrows and Evo Zap he throws through the answers rather than baiting them out first."
+    ],
+    "wall-breakers": [
+      "clock 1:19 (t=607.6): the decisive play of the match, paired with Berserker at the bridge — \"Let's go for the Wall Breakers plus Berserker here at the bridge. That Mega Minion could get kited to the other lane, which is great\" (t=610-614), then \"That's going to be a double connection. Bang and bang. Beautiful\" (t=615-616). Enemy left tower 1258 -> 658 HP.",
+      "clock 2:42 (t=525.5), 2:13 (t=553.6), 0:57 (t=629.6), 0:43 (t=643.6): every placement is at or just behind the bridge on his own half (tiles [13-15, 9-15]), always alongside a Berserker or a Goblin Barrel — never sent alone into a fresh defence.",
+      "clock 0:43 (t=644): shows the restraint side — with the enemy right tower nearly dead he skips them: \"I'm not even going to Wall Breakers. I think that should just be tower down on one of the lanes... cuz he can't defend both of them\"."
+    ],
+    "berserker": [
+      "clock 1:17 (t=609.6) and clock 0:43 (t=641.6): the Wall Breakers' escort at the bridge, tiles [14, 14] and [13, 14]; he explicitly wants her to pull the air defence — \"That Mega Minion could get kited to the other lane, which is great\" (t=612-614).",
+      "clock 1:37 (t=591-595): her defensive job against Lava Hound is anti-payload distraction, not damage — \"Let's just go for the Berserker here to distract those Lava Pups. We'll fully counter those nicely.\"",
+      "clock 0:07 (t=679.7): played at tile [9, 11], mid-lane on his own half, purely as a kite — \"We can go for a Berserker to kite this to the opposite lane\" (t=675-677), following \"I still think I need to kite this away to be honest cuz I don't want to take the swipe on the tower\" (t=620-623).",
+      "Heroic Berserker is the session variant, but no Savage Survival activation is visible in this game: every unidentified own elixir drop is exactly 2, never the 3 the ability costs, and he never mentions it."
+    ],
+    "dart-goblin": [
+      "clock 1:54 (t=572.6): dropped at tile [8, 6], deep on his own half and behind the Lava Hound's line, as long-range chip on the tank itself — \"Just go for the Dark Goblin here to start chipping down this Lava\" (t=573).",
+      "clock 0:57 (t=630-636): states the evolution's value in the Lava matchup — \"because the Dark Goblin was Evo, it's just going to keep chipping down that Lava the whole time. There's nothing that he can really do about that\".",
+      "clock 1:38 (t=589-590): withholds it rather than trade it into nothing — \"I'm not going to Evo Dark Goblin if he doesn't do anything. There's no point\"; then plays it anyway knowing the answer is coming — \"I know he's going to go for the Arrows on this as soon as he can\" (t=626-628) and \"He's going to go for the Evo Zap, which is fine\" (t=670-672).",
+      "Five placements (t=527.5 [8, 9], 572.6 [8, 6], 625.0, 657.7 [8, 10], 679.7 [3, 2]) all on his own half at columns 3-8 — it is used as a back-line air chipper in this deck, not as a front-line defender."
+    ],
+    "cannon": [
+      "clock 0:32 (t=652.7): first Cannon at tile [1, 13] is placed for pathing, not for the tank — \"I'm going to cannon like this just to make the Mega Minion go in front of the Lava Hound so I don't have to deal with it anymore\" (t=654-658), with two Lava Hounds already in the left lane.",
+      "clock 0:22 (t=664.7): a second Cannon at [1, 12] as pure area denial — \"These cannons are super nice cuz it just makes it super awkward cuz look, that Mega Minion just goes in front. I'm going to cannon too just to keep blocking the bridge so we can't even go for a Baby Dragon\" (t=660-667).",
+      "clock 0:03 (t=683.7 [1, 11], t=684.4): the last Cannon of the game is a distraction against the final Lava Hound — \"let's go for the Cannon here to distract and let's go. Beautiful win\" (t=684-685). All four Cannons come after clock 0:35; for the first two and a half minutes he defends the Lava Hound with spirits and swarm and never places the building."
+    ],
+    "skeletons": [
+      "clock 1:46 (t=580.2): placed at tile [3, 1], right beside his own king tower — \"let's just Skellies in the back here\" (t=580) — as a cycle card while he waits out the Hound.",
+      "clock 1:31 (t=595.6, tile [9, 14]): part of the anti-payload package — \"We can get some Skeletons down as well. Maybe grab one of the Lava Pups over\" (t=595-598).",
+      "clock 0:07 (t=677.0, t=680.7): the closing defensive pairing — \"Let's go for the E-Spirit Skellies\" (t=681).",
+      "Eight placements in 180 s (t=541.5, 580.2, 595.6, 622.0, 635.6, 658.7, 670.7, 680.7), all on his own half — in a 2.0 list they are the cheapest way to get back to the Goblin Barrel."
+    ],
+    "ice-spirit": [
+      "clock 0:57 (t=628.6, tile [14, 15]): used as part of the offensive package at the bridge, not as a defensive freeze — \"let's go for the Barrel, Ice Spirit, and Wall Breakers\" (t=629).",
+      "clock 0:15 (t=672.7, tile [2, 10]): defensive, into the Lava Hound lane just before the Berserker kite — \"let's go for the Ice Spirit here. We can go for a Berserker to kite this to the opposite lane\" (t=673-677).",
+      "Seven plays across the game (t=524.7, 534.2, 582.6, 628.6, 662.7, 672.7, 684.4), including the last defensive card of the match at [1, 8] on the buzzer."
+    ],
+    "electro-spirit": [
+      "clock 2:24 (t=541.4, tile [8, 14]) and clock 1:49 (t=577.6, tile [6, 14]): placed at the bridge line, using the 1-elixir chain stun on whatever crosses rather than holding it for a specific card.",
+      "clock 0:07 (t=677.7, tile [2, 6]): paired with Skeletons in the closing defence — \"Let's go for the E-Spirit Skellies\" (t=681), the only time he names it.",
+      "Seven plays (t=541.4, 554.2, 577.6, 602.6, 609.8, 630.3, 666.7, 677.7) with the chain aimed at the Lava Pup swarm; it is the cheapest cycle filler in the 2.0 list."
+    ],
+    "lava-hound": [
+      "clock 2:04 (t=560.6) onward: the opponent's win condition, entering the left lane at tiles [0-1, 17-24] five separate times (t=560.6, 608.6, 612.6, 648.6, 652.7). Ryley never answers it with a building for the first two and a half minutes and simply accepts the chip — his left tower goes 4858 -> 1868 HP over the game.",
+      "clock 1:54 (t=573): his stated answer is long-range chip on the tank plus swarm on the payload — \"Just go for the Dark Goblin here to start chipping down this Lava\", then \"Let's just go for the Berserker here to distract those Lava Pups. We'll fully counter those nicely\" (t=591-595).",
+      "clock 1:07 (t=620-623): against the Hound's swipe he prefers kiting to blocking — \"I still think I need to kite this away to be honest cuz I don't want to take the swipe on the tower\"."
+    ],
+    "mega-minion": [
+      "clock 2:04 (t=562-571): the opponent's Heroic Mega Minion, and Ryley values the information over the interaction — \"First thing about the Hero Mega Mini is good. To be honest, it's more so just good knowing that he has it than anything, cuz a Hero Mega Minion coming out as a surprise can be so devastating\".",
+      "clock 1:17 (t=612-614): he plans his bridge push around pulling it off-lane — \"That Mega Minion could get kited to the other lane, which is great\".",
+      "clock 0:32-0:22 (t=654-667): both of his late Cannons are placed to manipulate it — \"I'm going to cannon like this just to make the Mega Minion go in front of the Lava Hound so I don't have to deal with it anymore\" and \"that Mega Minion just goes in front\"."
+    ],
+    "baby-dragon": [
+      "clock 1:51 (t=576) and clock 0:08 (t=678-683): expected all game and never actually played by the opponent — \"He might go for a high Baby Dragon\", then \"he's going to go for the Baby Dragon probably... Did this guy forget that he had a Baby Dragon in his deck entirely?\".",
+      "clock 0:22 (t=664-667): his second Cannon is placed specifically to deny it a landing spot — \"I'm going to cannon too just to keep blocking the bridge so we can't even go for a Baby Dragon\"."
+    ],
+    "arrows": [
+      "clock 1:48 (t=576-580): spotted mid-game and treated as bad news for a bait deck — \"Oh, he has Arrows, too. That's unfortunate\".",
+      "clock 1:02 (t=626-628): he plays the Dart Goblin into it anyway rather than waiting — \"I know he's going to go for the Arrows on this as soon as he can\"."
+    ],
+    "zap": [
+      "clock 1:21 (t=605-607): named as part of the opponent's spell coverage — \"he has a Evo Zap and Arrows and Hero Mega Minion. But, with perfect play, I still think I can win this\".",
+      "clock 0:18 (t=670-672): he accepts it on his evolved Dart Goblin as the price of chipping — \"let's just go for the Dark Goblin Evo here. Chip this down. He's going to go for the Evo Zap, which is fine\"."
+    ],
+    "goblin-cage": [
+      "clock 2:32 (t=532.5, elixir 10.0 -> 6.0), clock 0:34 (t=650.6) and clock 0:03 (t=684.7): the opponent's only building, tracked at tiles [9-11, 19-21] in front of his king tower. Ryley never names it and never plays around it — all of his offence goes to the bridge or over the top with the Goblin Barrel."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-cannon-dart-goblin-electro-spirit-goblin-barrel-ice-spirit-skeletons-wall-breakers",
+    "cards": [
+      "berserker",
+      "cannon",
+      "dart-goblin",
+      "electro-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "skeletons",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 4 of a seven-game single-deck session (video 514.7s-694.7s) against a Lava Hound beatdown deck with Baby Dragon, Heroic Mega Minion, Arrows and Evo Zap; won with no tower destroyed — enemy towers finish on 859 and 227 HP against his own 1868 and 4858 (\"Beautiful win. That was super clean, man\", t=685-688).",
+      "The deck plays as a two-lane race, not as a defensive control deck: Goblin Barrel on the enemy left five times (t=516.5-601.6) takes that tower 4858 -> 658 HP by clock 1:17, then the whole package switches right at clock 0:57 (\"let's go for the Barrel, Ice Spirit, and Wall Breakers\", t=629) and takes the right tower 4083 -> 227 HP by clock 0:34. His stated logic: \"that should just be tower down on one of the lanes... cuz he can't defend both of them\" (t=645-648).",
+      "The core offensive unit is Wall Breakers + Berserker at the bridge, played four times (t=525.5/533.5, 553.6/555.6, 607.6/609.6, 629.6-643.6/641.6). The Berserker is there to pull the air defence: \"Let's go for the Wall Breakers plus Berserker here at the bridge. That Mega Minion could get kited to the other lane\" (t=610-614), then \"That's going to be a double connection. Bang and bang\" (t=615-616).",
+      "With no spell in the list, air beatdown is answered by chip and distraction rather than by a hard counter: Dart Goblin deep at columns 3-8 as the anti-Hound chipper (\"because the Dark Goblin was Evo, it's just going to keep chipping down that Lava the whole time\", t=630-636), spirits and Skeletons on the Lava Pups, and Cannons placed only from clock 0:35 onward purely to manipulate pathing (\"just to make the Mega Minion go in front of the Lava Hound\", t=654-658). He accepts his left tower going 4858 -> 1868 HP as the cost.",
+      "Ryley frames the list as a training deck rather than a comfort deck: \"these types of decks really really require you to be thinking a lot, always trying to be like a problem-solver\" (t=523-531), \"this type of deck is very high skill and it is very hard to play\" (t=543-547), and \"if you play it really well, you can kind of get yourself out of those issues... will just help you improve so much as a player\" (t=548-556)."
+    ],
+    "new_deck": {
+      "display_name": "SUPER FAST 2.0 Log Bait Cycle",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel plus Dart Goblin, Skeletons and Wall Breakers bait spells and small answers over the top, and at a 2.0 average cost the deck cycles back to the barrel faster than the opponent can hold an answer.",
+      "why_it_works_md": "Every card is 1-3 elixir (2.0 average), so the evolved Goblin Barrel comes back roughly every cycle and the opponent has to hold a spell permanently or bleed a tower. The Wall Breakers plus Berserker bridge package is the second threat: the Berserker pulls the air defence to the wrong lane while the Wall Breakers connect, which is exactly how the enemy left tower goes 4858 -> 658 HP in this match. With no spell of its own the deck cannot break a defence outright, so it races two lanes instead — \"that should just be tower down on one of the lanes... cuz he can't defend both of them\" (t=645-648). Defensively it is all cheap distraction: Skeletons and the two spirits on the payload, an evolved Dart Goblin chipping the tank from the back, and the Cannon spent late on pathing rather than on tanking, which means it happily trades a chipped tower for tempo."
+    }
+  }
+}

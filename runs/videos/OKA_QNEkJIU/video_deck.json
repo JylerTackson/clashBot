@@ -1,0 +1,43 @@
+{
+ "games": 7,
+ "deck": [
+  "skeletons",
+  "ice-spirit",
+  "dart-goblin",
+  "berserker",
+  "wall-breakers",
+  "cannon",
+  "electro-spirit",
+  "goblin-barrel"
+ ],
+ "deck_key": "berserker-cannon-dart-goblin-electro-spirit-goblin-barrel-ice-spirit-skeletons-wall-breakers",
+ "mixed": false,
+ "scores": {
+  "skeletons": 42,
+  "ice-spirit": 42,
+  "dart-goblin": 39,
+  "berserker": 39,
+  "wall-breakers": 37,
+  "cannon": 35,
+  "electro-spirit": 30,
+  "goblin-barrel": 28,
+  "skeleton-army": 18,
+  "goblins": 18,
+  "barbarian-barrel": 12,
+  "furnace": 6,
+  "giant": 3
+ },
+ "transcript_mentions": {
+  "wall-breakers": 37,
+  "dart-goblin": 2,
+  "skeletons": 4,
+  "berserker": 38,
+  "goblins": 1,
+  "ice-spirit": 16,
+  "electro-spirit": 22,
+  "cannon": 24,
+  "goblin-barrel": 38,
+  "giant": 2
+ },
+ "notes": []
+}

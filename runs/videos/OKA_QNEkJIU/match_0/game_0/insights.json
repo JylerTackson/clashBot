@@ -1,0 +1,92 @@
+{
+ "key": "OKA_QNEkJIU-m0.0",
+ "match_file": "matches/OKA_QNEkJIU-m0.0.md",
+ "video_title": "This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!",
+ "cards": {
+  "berserker": [
+   "clock 2:22-0:31: six deploys in the game, all on his own half and all defensive - (7, 9) at clock 2:33, (4, 9) into a crossing Knight at clock 1:54, (2, 14) in front of the barrel push at clock 1:26, (6, 10) into the Evo Knight at clock 0:38 and (10, 10) into the Evo Battle Ram at clock 0:31. This is the Hero Berserker: \"the hero berserker just works so, so nicely in this type of deck\" (t=21-24).",
+   "clock 1:54: Berserker at (4, 9) plus Skeletons at (3, 13) is his answer to a lone Knight - \"Let's go for the berserker here to keep this alive, hopefully\" (t=57). The opponent zaps her off and Ryley grades it: \"bad zap by him... I guess it wasn't that bad cuz it does take out our berserker, which was well played by him\" (t=60-65).",
+   "He names her as the reason the 2.0 shell can hold ground: \"You're just able to defend pretty much anything with hero berserker plus evo dark goblin cycle\" (t=38-40) and \"the berserker is just so good for all of the different ground pushes that your opponent can make\" (t=49-54).",
+   "No Savage Survival activation appears in the elixir trace - every Berserker event in this game is a clean -2 with a hand change, so the ability is never confirmed used."
+  ],
+  "dart-goblin": [
+   "clock 2:34-0:35: four Evolved Dart Goblins, all placed deep on his own half - (8, 6), (8, 8), (9, 5) plus one unlocated 3-elixir drop at clock 2:02. He never bridges it; it is the deck's defensive backbone.",
+   "clock 0:42: Dart Goblin at (8, 8) with Ice Spirit at (6, 10) into the Evo Knight - \"Let's go for the dark goblin plus ice spirit. He doesn't have an Evo zap so he is unable to take this out\" (t=126-131). It survives: \"our dark goblin lived. Hold on a second guys. That is actually huge for us\" (t=134-137).",
+   "clock 0:24-0:15: with two Evo Dart Goblins alive behind Skeletons they grind down the Battle Ram push and save the tower - \"Look at these dark goblins just cooking this guy... That's just the power of the Evo dark goblin right there. It was just shooting at everything constantly\" (t=147-159). Earlier: \"Ever since the dark goblin evo got the buff, I feel like it's been like a sneakily underrated card\" (t=43-47)."
+  ],
+  "cannon": [
+   "clock 2:38 and 1:05: both times at exactly tile (9, 9) - the standard 4-from-river anti-tank pull for the right lane - first against the opening Knight/Battle Ram/Minions push, then against the second Battle Ram wave (\"This is definitely very scary to defend, but I think I'll be able to get it\", t=105-107).",
+   "clock 0:25: a deliberately forward Cannon at (9, 14), on the river row, to meet the Evolved Battle Ram before it reaches the tower - \"Let's go for a high cannon here ice spirit as well\" (t=145-147).",
+   "clock 0:47: played into an empty lane purely as elixir pressure while the opponent builds a Three Musketeers push - \"he's just going to 3M you up. Okay, let's cannon here early hit the pump. Nice. Okay, at least we got some elixir out of him\" (t=120-126)."
+  ],
+  "goblin-barrel": [
+   "clock 2:23, 1:45 and 1:25: three Evolved Goblin Barrels, every one on the enemy LEFT tower at (3, 25), (3, 24), (3, 25). He never splits lanes with it - \"I only really want to attack one lane because I know that this is going to be a one tower game. Like if I end up losing my tower, I'm just going to lose the game anyway\" (t=68-76).",
+   "clock 1:26-1:23: barrel as the middle card of a Berserker -> Barrel -> Wall Breakers stack, all called in advance (\"Let's go for the berserker plus barrel here. Then we can go for the wall breakers, as well\", t=84-88). Enemy left tower falls 2653 -> 155 HP inside eight seconds."
+  ],
+  "wall-breakers": [
+   "clock 2:07, 1:43, 1:23, 0:54: four bridge deploys, all in the same left lane at (4, 15), (3, 14), (3, 13), (4, 14). It is the follow-up behind the Goblin Barrel, timed for when the opponent's answer is out of cycle - \"cuz I'm going to get the miner out of him, then maybe a zap, but this should just take out the whole tower\" (t=89-92).",
+   "clock 0:54: used purely to tax elixir rather than to kill - \"I'm going to wall breakers at the bridge just to try to finish off this tower at least force out some elixir maybe like the minions\" (t=115-119).",
+   "clock 1:15: he prices in the nerf after the push lands - \"Maybe not the whole tower after the wall breakers nerf, but close enough. I'll take it\" (t=94-97)."
+  ],
+  "ice-spirit": [
+   "The most-played card of the game (ten-plus 1-elixir drops), always the top-up on a defence already in progress rather than the answer itself: (9, 14) at clock 2:35, (7, 13) at clock 1:32, (11, 13) at clock 1:05, (6, 10) at clock 0:42, (10, 10) at clock 0:31, (15, 10) at clock 0:25.",
+   "clock 1:05: named as the specific answer to a charging Battle Ram alongside a fresh Cannon - \"Let's go for the ice spirit here just to take out the battle ram. Beautiful defense right here\" (t=109-112)."
+  ],
+  "skeletons": [
+   "clock 2:30-0:24: five drops - (7, 10), (3, 13) beside the Berserker, (8, 12), (10, 15), (11, 7) - always a cheap extra body next to something else, never a standalone counter.",
+   "clock 0:58: placed off-lane as pure damage prevention - \"We can even just skellies here off to the side just to make sure we don't take any damage\" (t=112-114); again at clock 0:24, \"Skellies here to protect\" (t=148), shielding the Evo Dart Goblins that end up winning the defence."
+  ],
+  "electro-spirit": [
+   "clock 1:29, 0:54 and 0:16: three located deploys, all on his own half - (7, 7) into a three-Minion group, (2, 10), and (14, 9) during the final stand. He calls it as the last card of a stacked defence twice: \"Let's e-spirit here please\" (t=131-133) and \"Let's go for the berserker here. Let's e-spirit\" (t=140-142).",
+   "In this list it is the deck's only stun/reset - there is no spell at all in the eight - which is why it is spent on defence rather than on chip."
+  ],
+  "battle-ram": [
+   "clock 1:05 (opponent's card): Ryley answers a charging Battle Ram with Cannon at (9, 9) plus an Ice Spirit at (11, 13) - \"Let's go for the ice spirit here just to take out the battle ram\" (t=109), the Ice Spirit reset stopping the charge.",
+   "clock 0:37-0:25: the Evolved version costs him 2140 tower HP (own right 3569 -> 1429) before Berserker, Ice Spirit and a river-row Cannon hold it. He accepts the damage in advance: \"I'm going to have to eat some damage here on the right side I think\" (t=139).",
+   "clock 1:13: he counts the opponent's cycle to predict the evolution - \"He's one battle ram away from evo, so he'll have both of his evos in cycle very shortly\" (t=99-102)."
+  ],
+  "elixir-collector": [
+   "clock 2:04 and 1:23 (opponent's card): two pumps, at (9, 22) and (16, 27). Against a 2.0 cycle deck with no spell, Ryley's answer is not to punish the pump directly but to keep a card at the bridge - the second collector is never touched and is still standing at the end of the game.",
+   "clock 0:47: he does use the pump as a reason to spend early - \"let's cannon here early hit the pump. Nice. Okay, at least we got some elixir out of him\" (t=122-126)."
+  ],
+  "knight": [
+   "clock 2:37 and 1:57 (opponent's Evolved Knight): each crossing is met with 2-3 elixir of cheap ground - Berserker at (4, 9) plus Skeletons at (3, 13) at clock 1:54 - rather than a building.",
+   "clock 0:42-0:37: the Evo Knight push is beaten by Evo Dart Goblin + Ice Spirit + Berserker, with the read that the opponent's spell cannot clear the Dart Goblin: \"He doesn't have an Evo zap so he is unable to take this out\" (t=129-131)."
+  ],
+  "three-musketeers": [
+   "Named, not cleanly seen: \"I'm pretty sure this guy has three musketeers. We have to be a little bit careful\" (t=54-56) and, at clock 0:51, \"he's just going to 3M you up\" (t=120). His pre-emptive answer is a Cannon plus cheap swarm, plus bridge Wall Breakers to make the opponent spend before the split.",
+   "clock 1:33: he states the losing line and why he thinks he survives it anyway - \"All this guy really has to do is go for the three musketeers plus evo knight, but I mean, I do have an evo dark goblin and stuff like that. So, there's a chance I'll be able to defend regardless\" (t=76-84)."
+  ],
+  "miner": [
+   "clock 1:19-1:07 (opponent's card): the Miner chips his left tower for ~120 HP and Ryley simply lets it - he had already counted it as the price of the Wall Breakers push: \"cuz I'm going to get the miner out of him, then maybe a zap, but this should just take out the whole tower\" (t=89-92)."
+  ]
+ },
+ "deck": {
+  "deck_key": "berserker-cannon-dart-goblin-electro-spirit-goblin-barrel-ice-spirit-skeletons-wall-breakers",
+  "cards": [
+   "berserker",
+   "cannon",
+   "dart-goblin",
+   "electro-spirit",
+   "goblin-barrel",
+   "ice-spirit",
+   "skeletons",
+   "wall-breakers"
+  ],
+  "bullets": [
+   "Ryley names the list at t=11: \"we are using a 2.0 log bait cycle deck right now\" - 16 elixir over 8 cards, no spell, two cheap win conditions (Goblin Barrel, Wall Breakers) and a Cannon plus two 1-elixir spirits for defence. Evolutions in play are Dart Goblin and Goblin Barrel; Berserker is the Hero variant.",
+   "The offensive pattern is one lane, repeated: all three Goblin Barrels land on the enemy left tower (clock 2:23, 1:45, 1:25) and all four Wall Breakers at the left bridge. Stated reason: \"I only really want to attack one lane because I know that this is going to be a one tower game\" (t=68-76).",
+   "The scoring sequence is Berserker (2, 14) -> Goblin Barrel (3, 25) -> Wall Breakers (3, 13) between clock 1:26 and 1:23, called card by card beforehand (t=84-92); enemy left tower 2653 -> 155 HP.",
+   "Defence is stacked cheap cards, never one answer: the opening push at clock 2:38-2:30 eats Cannon + Ice Spirit + Dart Goblin + Berserker + Skeletons (10 elixir), and the final Evo Battle Ram / Evo Knight / Musketeer wave at clock 0:31-0:15 eats Berserker, two Ice Spirits, a river-row Cannon, Skeletons and Electro Spirit. \"We actually survived guys. No way. Wow, what a defense man\" (t=151-156).",
+   "Deck cards that draw damage are placed low and central rather than at the bridge - all four Evo Dart Goblins go to rows 5-8 on his own half - which is why the evolution survives long enough to carry the last defence (t=147-159).",
+   "Result: win, with the enemy left tower held at 155 HP from clock 1:15 and his own lowest tower at 1429 (\"Very nice win to start off the video\", t=162; \"Let's go. What a great win\", t=166)."
+  ],
+  "new_deck": {
+   "display_name": "2.0 Log Bait Cycle (Hero Berserker)",
+   "archetype_primary": "bait",
+   "archetype_secondary": "cycle",
+   "rationale": "Goblin Barrel and Wall Breakers plus a swarm of 1-elixir cards bait the opponent's small spells, and the 2.0 average cost lets the barrel come back faster than any answer.",
+   "why_it_works_md": "The list runs no spell at all: every card is either a bait threat (Evo Goblin Barrel, Wall Breakers) or a cheap defensive body (Cannon, Evo Dart Goblin, Hero Berserker, Ice Spirit, Electro Spirit, Skeletons), so at a 2.0 average it re-presents the same left-lane barrel-plus-Wall-Breakers threat faster than the opponent can rotate a counter. The defensive core is the Hero Berserker with the Evolved Dart Goblin behind her - Ryley's stated claim is \"You're just able to defend pretty much anything with hero berserker plus evo dark goblin cycle\" (t=38-40) - with the Cannon reserved for building-targeting pushes and the two spirits as resets. Because it cannot spell anything away, it wins by picking one lane and taxing elixir, then holding the other side with three or four cheap cards per push. Its weakness shows in the same game: a Three Musketeers deck with double Elixir Collector and two evolutions eventually forces him to eat 2140 HP on the right tower, and the win comes down to tower health rather than a crown."
+  }
+ }
+}

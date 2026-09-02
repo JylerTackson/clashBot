@@ -1,0 +1,115 @@
+{
+  "key": "OKA_QNEkJIU-m0.5",
+  "match_file": "matches/OKA_QNEkJIU-m0.5.md",
+  "video_title": "This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!",
+  "cards": {
+    "goblin-barrel": [
+      "clock 1:57 (t=926.8): the Evolution barrel goes down with split Wall Breakers into a hand gap he had counted — \"I guess I'll split my wall breakers and then Evo Barrel as well cuz he doesn't have the Goblin Gang in cycle so he can just get a nice push off\" (924-932s); the enemy right tower drops 4724 -> 3255 HP over 932-936s.",
+      "clock 0:53 (t=990.0, tile [14, 26]): thrown purely as a Log bait so the Wall Breakers behind it connect — \"Let's barrel as well to force out the log. Come on, hit the bats\" (989-992s); the enemy left tower goes 4858 -> 1085 HP by clock 0:47.",
+      "clock 1:17 (t=966.0/974.6, tile [14, 26]) against a Royal Hogs bait deck holding Goblin Gang: \"Let's go for that Goblin Barrel here... He's going to have to go for the Goblin Gang. That could be full countered. Yeah, that was a good gang by him\" (966-974s).",
+      "overtime, clock 1:53 and 0:35 (t=1050.0 tile [14, 23], t=1111.1/1121.1 tiles [4, 26]/[3, 25]): the barrel is the closing card of every overtime wave and takes the game — \"the wall breaker. Oh my god. The barrel and that is good game. Let's go. Beautiful win, man\" (1126-1130s)."
+    ],
+    "wall-breakers": [
+      "clock 1:58 (t=924.9, tile [9, 14]): split across lanes alongside the Evo Goblin Barrel as the opening damage package — \"I guess I'll split my wall breakers and then Evo Barrel as well\" (924-927s).",
+      "clock 0:54-0:48 (t=988.3 tile [4, 14], t=994.5 tile [3, 13]): two back-to-back sets behind a Log-baiting barrel; \"he's going to have to eat those wall breakers\" (992-994s) and the enemy left tower falls 4858 -> 1085 HP.",
+      "clock 0:12 (t=1031.4, tile [13, 15]) with Berserker as cover against the swarm answer — \"Let's go for the berserker plus wall breakers cuz he could gang so I want to have berserker down\" (1033-1036s); \"It's going to be a connection double no matter what he does\" (1036-1038s).",
+      "overtime (t=1052.1, 1068.1, 1088.1, 1102.1, 1108.9, tiles [14, 14], [4, 13], [4, 14], [13, 15]): run with Electro Spirit on repeat until the opponent cannot keep pace — \"the E-Spirit plus wall breakers again for like the millionth time\" (1103-1107s), \"this guy's just struggling to keep up with our cycle\" (1077-1080s)."
+    ],
+    "electro-spirit": [
+      "clock 2:25 (t=897.6, tile [14, 7]) as the paired spirit behind a Goblin Barrel — \"Let's go for the barrel here. We can go for the e-spirit plus ice spirit\" (896-899s).",
+      "clock 1:26 (t=956.6) on top of Wall Breakers as a prediction against the Goblin Gang answer — \"Let's go for the wall breakers plus e-spirit. Oh, good prediction. Let's go. He can't even really gang. It would be too late\" (956-961s).",
+      "clock 0:27-0:17 (t=1016.0 tile [3, 14], t=1026.2) held specifically for the opponent's Bats — \"We can e-spirit here for the bats again as well\" (1016s); by overtime the threat is neutralised outright: \"Wall breakers, E-Spirit again. So, he just can't go for the bats\" (1090-1092s).",
+      "overtime, clock 0:38 (t=1118.1/1124.3, tile [6, 9]): the one-elixir chain stun into an Evolved Bats plus Goblin Gang counter-push, alongside Berserker, Ice Spirit and Skeletons (1119-1123s)."
+    ],
+    "ice-spirit": [
+      "clock 1:39 (t≈944) as the cheap freeze on a three-Royal-Hogs split — \"Yeah, let's go for the ice spirit here\" (944-946s), together with Cannon at [8, 9] and Skeletons at [9, 12].",
+      "clock 1:27 (t=955.8, tile [5, 15]): dropped beside the Wall Breakers at the river as push support rather than on defence (956s, \"the wall breakers plus e-spirit\" wave).",
+      "clock 0:57 and 0:47 (t=987.0 tile [9, 5], t=995.8): the lead-off card of the sequence that takes the enemy left tower — \"Let's go for the ice spirit here then we go for the wall breakers plus e-spirit\" (986-989s).",
+      "clock 0:38 (t≈1004): used as a reset on an incoming unit, narrated as micro — \"Jump jump jump jump. Reset it. Oh my god. Oh, we almost got one spirit here\" (1004-1006s)."
+    ],
+    "skeletons": [
+      "clock 2:35 and 1:42 (t=887.1 tile [6, 9], t=942.8 tile [9, 12]): the one-elixir block in front of the Cannon against Royal Hogs — \"Let's go for the cannon then skellies. He might fireball that\" (941-944s).",
+      "clock 1:07 (t=977.0, tile [16, 15]) behind an Evo Dart Goblin — \"Let's go for the Evo Dart. Go for the skellies\" (974-977s).",
+      "overtime, clock 1:53 and 1:39 (t=1066.1 tile [16, 12], t=1081.9 tile [11, 8]): always described as a block, never as damage — \"let's go for the skellies here to block this\" (1049s) and \"let's go for the skellies here to block and we go for the Berserker\" (1064-1067s).",
+      "overtime, clock 1:10-1:00 (t=1097.1, tile [12, 13]): placed deep and low with the Evo Dart Goblin — \"Evo Dart off to the side. Let me go for the skellies low. Nice. Good skellies\" (1095-1099s)."
+    ],
+    "cannon": [
+      "clock 2:36 and 1:43 (t=886.4 tile [8, 10], t=939.9 tile [8, 9]): central placement to pull the Royal Hogs, paired with Skeletons and a spirit — \"Let's go for the cannon then skellies\" (941-943s).",
+      "clock 0:48 (t=994.0, tile [9, 11]) as the defensive half of a double play with a low Dart Goblin — \"Let's go for the cannon here then we can go for the low Dark Goblin outside of the range of the log\" (994-997s).",
+      "overtime, clock 1:25 (t=1078.9, tile [9, 10]): played before the push arrives — \"Let's cannon here early\" (1078-1080s). It is then taken out by a Freeze at 1085s, which he shrugs off: \"He did get our cannon, but it's fine\" (1084-1087s).",
+      "overtime, clock 0:47 (t≈1114): the clearest statement of the 2.0 cycle's economy — \"let's go for the cannon here in the middle because he wasted the fireball. Every time he wastes fireball, I can just cycle a free cannon to be honest\" (1113-1119s)."
+    ],
+    "dart-goblin": [
+      "clock 1:43 (t=939.4, tile [15, 4]): placed deep in his own half specifically to deny spell value — \"We can go for a Dark Goblin here. Don't want to give him any fireball value this time\" (937-941s).",
+      "clock 0:47 (t=995.0, tile [9, 5]): the Evolution placed out of Log range on purpose — \"we can go for the low Dark Goblin outside of the range of the log\" (995-997s).",
+      "overtime, clock 1:23 and 1:10 (t=1095.1 tile [2, 7], t=1114.9): kept wide and cheap-to-protect — \"We can go for the Dark Elixir [Evo Dart Goblin] off to the side\" (1080s), \"Evo Dart off to the side\" (1095s).",
+      "overtime, clock 1:15: credited as the card carrying the game — \"Our Dark Elixir is just putting in so much work\" (1087-1090s); at 1027-1030s the opponent's spell hits the Cannon but misses it: \"he had our cannon but missed our Dark Goblin\"."
+    ],
+    "berserker": [
+      "clock 2:17 and 1:33 (t=906.2 tile [10, 9], t=949.4 tile [7, 8]): the melee body that finishes defensive stacks, played with king activation in mind — \"Let's go for the berserker here. Just make sure we activate the king and beautiful defense taking almost no damage outside of the fireball\" (949-956s).",
+      "clock 0:12 (t=1012.0/1031, tile [14, 14]): put down before the Wall Breakers so a Goblin Gang answer has something to fight — \"Let's go for the berserker plus wall breakers cuz he could gang so I want to have berserker down\" (1033-1036s).",
+      "overtime, clock 1:51-1:19 (t=1051.0, 1066.1, 1083.1, tiles [14, 14], [14, 13]): the bridge body in every overtime wave — \"we can go for the barrel Berserker and wall breakers and maybe E-Spirit too\" (1050-1052s), \"Let me go for the skellies plus Berserker here at the bridge\" (1081-1084s).",
+      "Hero variant (Savage Survival, 3 elixir): the ability is attempted exactly once and does not fire — \"Can I ability here? Aw, the ability didn't get off. But, that's fine. It's still a connection\" (1091-1095s), with his elixir reading 2-3 at that moment."
+    ],
+    "royal-hogs": [
+      "The opponent's win condition, split down both lanes at clock 2:35, 1:43-1:35 and 0:17. Ryley's standing answer is Cannon centrally plus Skeletons plus a spirit — \"Let's go for the cannon then skellies. He might fireball that. Yeah, let's go for the ice spirit here\" (941-946s), and the clock 1:33 version costs him almost nothing: \"beautiful defense taking almost no damage outside of the fireball\" (952-956s).",
+      "He keeps expecting them in overtime and plays around them rather than pre-empting — \"He might go for the piggies\" (1061s), \"He might go for a piggies though, so I have to be very very cautious\" (1042-1046s)."
+    ],
+    "firecracker": [
+      "The opponent's small ranged unit, tracked at [3, 16] at clock 0:24 (chipping his left tower 4728 -> 4218 HP) and at [13, 17] at clock 0:42 in overtime.",
+      "He explicitly prefers facing it over Princess — \"I really am hoping he has firecracker not princess, cuz princess is super good against my deck... Firecracker is not bad, but I feel like princess is more annoying cuz it doesn't activate the king like the firecracker does\" (912-924s), and confirms it at clock 1:37: \"thankfully he has the firecracker not the princess. I am very happy about that\" (946-949s)."
+    ],
+    "princess": [
+      "Never played by either side, but discussed at length as the card that would swing this matchup against a Log Bait cycle deck — \"princess is super good against my deck, to be honest. I'm just completely unable to kill it\" (916-921s), the trade-off being that she does not activate the king tower the way Firecracker does (921-924s)."
+    ],
+    "bats": [
+      "The opponent holds Evolved Bats and Ryley shuts them down with Electro Spirit on repeat — \"I have to watch out for Evo Bats cuz he does have Evo Bats coming up\" (977-980s), then \"this guy is terrified of using his bats\" (1007-1010s) and \"Wall breakers, E-Spirit again. So, he just can't go for the bats\" (1090-1092s).",
+      "Confirmed in the deck at clock 0:19 after he had talked himself out of it — \"I don't think he has them in his deck actually\" (983s) followed by \"we took out the Evo Bats too. It's good to know that he has them\" (1022-1024s); the Evolution tracks appear at clock 0:19 and 0:42."
+    ],
+    "goblin-gang": [
+      "The opponent's swarm answer to the Goblin Barrel, and the card Ryley times his pushes around: he attacks when it is out of cycle (\"he doesn't have the Goblin Gang in cycle so he can just get a nice push off\", 927-932s) and puts a Berserker down first when it is available (\"he could gang so I want to have berserker down\", 1033-1036s).",
+      "clock 1:11: he credits a fast defensive gang — \"He's going to have to go for the Goblin Gang. That could be full countered. Yeah, that was a good gang by him. He was very fast with that. I have to give him credit there\" (968-974s)."
+    ],
+    "fireball": [
+      "The opponent's spell, inferred twice from 275-HP tower hits with no unit in range (t=944.9 clock 1:38 and t=1066.1 clock 1:37). Ryley calls the first use of it greedy — \"good try on that fireball, man, but that was a little bit aggressive\" (893-896s).",
+      "He plays his Dart Goblin around it — \"Don't want to give him any fireball value this time\" (940s) — and treats every wasted one as free cycle: \"Every time he wastes fireball, I can just cycle a free cannon to be honest\" (1116-1119s)."
+    ],
+    "the-log": [
+      "clock 1:25: taken as the answer to the Wall Breakers instead of Goblin Gang — \"He can't even really gang. It would be too late... he had the log instead\" (958-961s).",
+      "It shapes two of his placements: the Goblin Barrel thrown to draw it out (\"Let's barrel as well to force out the log\", 990s) and the Dart Goblin placed low (\"we can go for the low Dark Goblin outside of the range of the log\", 995-997s)."
+    ],
+    "freeze": [
+      "clock 1:16 (t=1085.1, tile [11, 6]): the opponent freezes his defence and kills the Cannon. Ryley writes it off immediately because the Evo Dart Goblin survives — \"He did get our cannon, but it's fine. Our Dark Elixir is just putting in so much work\" (1084-1090s)."
+    ],
+    "clone": [
+      "Tracked twice on the opponent's side near the right bridge (t=1059.1 tile [14, 15] at clock 1:43, t=1107.1 tile [14, 17] at clock 0:54). Ryley never names the card; at the second one he reacts to an animation he cannot place — \"He's going to use ability, bro. What? I mean, I guess it worked, but that was still interesting\" (1107-1112s), so the Clone reads come from the detector rather than from commentary."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-cannon-dart-goblin-electro-spirit-goblin-barrel-ice-spirit-skeletons-wall-breakers",
+    "cards": [
+      "berserker",
+      "cannon",
+      "dart-goblin",
+      "electro-spirit",
+      "goblin-barrel",
+      "ice-spirit",
+      "skeletons",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 6 of 7 in a single-deck ladder session (video 872.0-1136.1s); the 2.0-elixir Log Bait cycle of the video title, with Evolutions on Goblin Barrel, Wall Breakers and Dart Goblin and the Heroic Berserker (Savage Survival). Against a Royal Hogs bait/cycle deck (Firecracker, Evo Bats, Goblin Gang, Fireball, The Log, Freeze, Clone) that he identifies as \"that piggy's princess deck\" (901s).",
+      "The offensive pattern is one package repeated: split Wall Breakers plus Evo Goblin Barrel with Electro Spirit or Ice Spirit on top, run at clock 1:58, 1:27, 0:54-0:48, 0:29-0:27, 0:12 and through the whole of overtime — \"the E-Spirit plus wall breakers again for like the millionth time\" (1103-1107s). Enemy right tower 4724 -> 3255 HP at clock 1:57-1:48; enemy left tower 4858 -> 1085 HP at clock 0:48-0:47.",
+      "Defence is Cannon centrally ([8, 10], [8, 9], [9, 11], [9, 10]) plus Skeletons plus a one-elixir spirit against Royal Hogs, with the Berserker as the finishing body and king activation as a stated goal — \"Just make sure we activate the king and beautiful defense taking almost no damage outside of the fireball\" (951-956s).",
+      "Placement rules he states for the deck against a spell/Log list: Dart Goblin deep and wide so it is safe from Fireball and Log ([15, 4], [9, 5], [2, 7]) — \"Don't want to give him any fireball value this time\" (940s), \"the low Dark Goblin outside of the range of the log\" (995s) — and Berserker down before Wall Breakers whenever Goblin Gang is up (1033-1036s).",
+      "The game goes to overtime at t=1044 (the first overtime of the session: \"Not a single one of our matches so far has actually went to overtime\", 872-880s), and the cycle is what wins it — \"this guy's just struggling to keep up with our cycle\" (1077-1080s) and \"Every time he wastes fireball, I can just cycle a free cannon to be honest\" (1116-1119s). Closed at clock 0:35: \"The barrel and that is good game. Let's go. Beautiful win, man\" (1126-1130s). Win."
+    ],
+    "new_deck": {
+      "display_name": "2.0 Log Bait Cycle Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Evolved Goblin Barrel and Wall Breakers are played to bait out The Log and the opponent's swarm, and at 2.0 average elixir the deck cycles back to them faster than any answer can be recycled.",
+      "why_it_works_md": "Every card is a bait or a cycle card: Goblin Barrel and Wall Breakers force the small spell, Skeletons, Ice Spirit and Electro Spirit cost one elixir each so the barrel comes back almost immediately, and Cannon plus Berserker hold the ground while that happens. Ryley pilots it as a pressure loop rather than as a single big push — split Wall Breakers on one side, barrel on the other, a spirit on top, then straight back to defence. The two placement rules he repeats are keeping the Evolved Dart Goblin out of Fireball and Log range and putting the Berserker down before the Wall Breakers whenever the opponent has a swarm in cycle. Its edge in a long game is elixir economy: each wasted opponent Fireball buys a free Cannon, and by overtime the opponent \"can't keep up with our cycle\". The stated weakness is a Princess-style ranged unit it cannot kill — \"princess is super good against my deck ... I'm just completely unable to kill it\" (916-921s)."
+    }
+  }
+}
