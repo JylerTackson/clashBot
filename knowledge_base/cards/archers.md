@@ -151,6 +151,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 0:39 and 0:29: Archers high at (7, 13), then at (7, 8) once the evolution is up — "Let's go for the high archers here" and "We can go for the evo archers", played in the knowledge that "he's going to take these out with either a fireball or an evo zap".
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- clock 0:24 (t=149.6) and OT 1:39 (t=194.2): Evo Archers split in the back court at tiles [8, 1] and [10, 1] — "Let's go for the split Evo archers here" and "We have to split our archers."
+- clock OT 1:12 (t=221.2): the split is gated on the opponent's spell being spent — "He wasted his arrows there so now we have a nice set of Evo archers able to be played. I'm just going to split them here cuz obviously he's not going to go in at the bridge with no arrows in hand."
+- clock OT 0:42 (t=251.3): the one non-split, tile [7, 6] — "we go for a low set of archers here."
+- clock 0:10 (t=165-168): he counts on the Evo's damage against the Bowler — "our Evo archer can help get some nice damage on it."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

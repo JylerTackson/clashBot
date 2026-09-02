@@ -147,6 +147,16 @@ This card appears in 2 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 2 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md), [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- clock 2:14 onward: the evolved barrel goes into the same pocket almost every cycle — deploy labels at (3, 25), (3, 24), (3, 26) and (4, 25) at t=336.5, 364.4, 408.4, 467.0, 476.5, 504.2, 513.0, 531.5, 550.5 and 562.1 — and that enemy left tower falls from 4858 to 166 over the match.
+- clock 1:02 (t=408.4): barrel plus Wall Breakers at (8, 14) as one package — "Let's go for the evo barrel plus wall breakers here just to apply some good pressure. He has to go for a barb barrel plus snowball. That might be one nice, great connection right there."
+- clock 0:21 (t=447.9) and overtime 1:52 (t=476.5): he switches the barrel to the opposite lane at (14, 25) and back — "Let's go for a barrel here opposite lane", part of his stated rule "I don't want to get locked into one side. I always be saying that with these bait decks" (526-531s).
+- overtime 0:40 (t=550.5): he deliberately holds the evolved barrel to lead with Wall Breakers instead — "we do have an Evo Barrel, but I don't want to do it yet. Let's go for the Wall Breakers first" — and treats the barrel as spell drain: "Let's barrel here, as well. Continue being annoying... He did waste a lot of his spells" (531-563s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

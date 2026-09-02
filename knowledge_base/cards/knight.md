@@ -159,6 +159,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 0:07: Knight again at (8, 9) in the last seconds of the defensive hold — "Knight here as well."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 2:38 (t=589.3): opening Knight at tile (7, 1) behind his king tower, elixir 10 -> 7, before any threat existed.
+- clock 1:57 (t=633.6) and clock 0:22 (t=726.2): Knight at (14, 9) and (8, 6) as the cheap body to finish off a push — "I'm going to go for the knight here as well, just to help take this out" (632-636s), "Let's go for the Knight here opposite lane. We have a nice Evil Baby Dragon to make a push with though" (726-731s).
+- clock 0:49 (t=699.9): Knight at (15, 11) at the bridge, elixir 5 -> 2, as the tank in front of the Inferno Dragon — "let's go for the Knight here and then we can go for the Evil Inferno Dragon" (697-698s).
+- clock 1:13 (t=796.3), overtime: Knight at (13, 14) deployed specifically as a spell block — "I'm going to Knight here try to help block his Lightning cuz I think he's going to try to Lightning this. Yo, that's dead" (797-800s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

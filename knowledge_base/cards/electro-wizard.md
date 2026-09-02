@@ -127,6 +127,15 @@ This card appears in 1 of 19 scraped decks:
 - **[Bridge Spam](../archetypes/bridge-spam.md)** — 1 deck(s): [Pekka Bandit EWiz EvoGhost](../decks/bandit-battle-ram-electro-wizard-fireball-magic-archer-p-e-k-k-a-royal-ghost-zap.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Opponent card, seen at t=329.3 (16, 15), t=335.3, t=389.4 at (3, 14) on Ryley's own half, t=455.5, t=516.5, t=539.5 and t=569.6. Ryley answers a landed E-Wiz by dropping Valkyrie straight onto it — "we can Valkyrie here on top of the e-wiz" (390s).
+- clock 0:47 (t~425): killed by Wild Whirlwind — "if I pop the ability Oh my god, I killed the e-wiz. Nice" (424-427s).
+- overtime 1:41 and 1:14: he plays expecting it and counts it as a trade in his favour — "He might try to E-Wiz, but as long as we can get good damage on top of this, and we can just get a nice Valkyrie now, because obviously does the E-Wiz, which just gives us extra value" (483-490s); "He has to go for an E-Wiz on this. Okay, E-Wiz on the Princess" (513-516s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

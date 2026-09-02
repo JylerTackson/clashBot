@@ -208,6 +208,19 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 2:00-1:54: mentioned and faced, not played — the opponent's ground defence against the Minion Giant. Answered with Tesla on top of it ("Let's go for the tesla here on top of the valkyrie") and then an Electro Spirit used as a pull ("he spirit over here just to bring that valkyrie. He might grab one shot, which is fine with me").
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- This game is his Heroic Valkyrie showcase: "for the next deck we are going to be playing it is going to be log bait with the hero Valkyrie" (302-306s), and the balance-change case for her — "the emergency balance changes... included every new card except for the hero Valkyrie... them nerfing the e-barbs and the berserker just inherently made the hero Valkyrie just better because hero Valkyrie was kind of getting countered by the berserker and slightly getting countered by the e-barbs" (309-336s).
+- clock 1:19 (t=390.4): placed at (2, 12) directly on top of an Electro Wizard that had landed at (3, 14) on his own half — "and then we can Valkyrie here on top of the e-wiz."
+- clock 0:48 (t=421.1): Valkyrie at (3, 14) for -4 elixir followed by Wild Whirlwind — "I'm definitely going to Valkyrie the bridge, too, and I'm going to pop the ability quickly. He might try to baby dragon. So, if I pop the ability Oh my god, I killed the e-wiz. Nice."
+- clock 0:15 (t~455) and overtime 1:26 (t=502.0 at (2, 14)): he spends the ability on a cycle read, not on impulse — "I popped the ability here. He has no ground cards in cycle... Beautiful ability there just recognizing that he had no ground cards in cycle" — and pairs her with Cannon on defence, "We have the Valkyrie plus cannon ready. Yep, let's Valkyrie" (539-541s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- Mentioned only, not played and not seen this game (the HUD's 'Valkyrie' slot reads at t=736.1, 780.9 and 785.0 are hand-reader errors on a deck that does not contain it). He names it alongside the Berserker as a hero threat Freeze handles: "you can always freeze the berserker and the Valkyrie" (615-618s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

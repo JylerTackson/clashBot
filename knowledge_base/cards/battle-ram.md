@@ -188,6 +188,14 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - overtime 1:47 (opponent's): he grades a bad one — "Oh my god, that was a really bad battery. Let's going to go right into the goblin hut."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- clock 2:15: Evo Battle Ram at the bridge ([4, 15]) as the follow-up behind Giant Skeleton and Vines — "I'm going to go for the battle ram here as well."
+- clock 1:12: sent to the opposite lane ([14, 14]) purely to force a bad building placement — "I'm even going to go for a battle ram here cuz he has to go for like a weird cage placement that helps out", then "Yeah, he had to go for a weird cage placement."
+- overtime 1:47 to 1:37: the evolution as the overtime pressure card — "We do have an evo ram and I think that's what he's saving his evo cage for if possible", then "Let's go for the Evo ram here"; the Goblin Cage grabbed it anyway ("Oh, it still grabbed it in").
+- overtime 0:51: second-lane commitment while the piggies worked the other side — "I'm going to go battle ram opposite lane. We need to continue going in here."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

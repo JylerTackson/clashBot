@@ -120,6 +120,14 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - clock 1:38-1:28 (1414-1429s): opponent card. He refuses a ram prediction because he expects it - "He might go for a vine so I'm just going to... let's not ram predict it" - and counts being forced into it as a win: "he has to go for the vines instead of zappies. But that's fine cuz that's going to block and we can hit our ability now".
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- clock 2:17: the stated job is keeping his own tank alive, not damage — "let's go for the vines here just to keep the giant skelly alive for a little bit longer."
+- clock 0:59: played deep in the opponent's half ([3, 21]) to hold the defence in place while the Giant Skeleton bomb landed.
+- clock 0:27: cast on the opponent's Bowler specifically to farm Cursed Hogs — "Let's vine the bowler as well just cuz I want to keep spawning more piggies."
+- overtime 1:24: emergency use on the Electro Giant push — "Let's definitely go for the vines here" (five Vines placements in the game: clock 2:17, 0:59, 0:47, overtime 1:31 and 1:24).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Vines (scraped 2026-09-02T02:35:28+00:00)

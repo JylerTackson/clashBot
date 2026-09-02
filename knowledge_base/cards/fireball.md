@@ -170,6 +170,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - OT 1:47: he states the interaction that keeps Fireball off the new Minion Giant — "you guys may be wondering why didn't I fireball? The fireball and the snowball actually do not knock the [minion] giant back, which is kind of crazy to think about." He also passes on it at OT 1:44: "let's not fireball. I think we should just hunter on defense here."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- clock 2:05: Fireball on the Skeleton Dragons stacked over the Lava Hound, one second after "Let's definitely fireball" (logged as a bare 4-elixir drop the low-confidence HUD mislabelled).
+- clock 0:55: Fireball at (1, 12) on top of the Lava Hound push while his own Hog Rider goes in — "then we can just go for a fireball on top of everything. Nice fireball."
+- clock 1:44: he counts Fireball as a held answer, not only a cast one — "He definitely messed up his push cuz I even had fireball for the skelly drags if he didn't misplay that one."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

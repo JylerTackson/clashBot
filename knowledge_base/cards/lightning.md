@@ -120,6 +120,30 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 1:44: he says the 6-elixir spell is only affordable because his defence is guaranteed — "I'm even comfortable going for the lightning here because I just know that we have the hero ice wizard defensively."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- clock OT 0:53 (t=240.2): the only proactive cast of the game, on the enemy Evo Witch at tile [13, 18] on the opponent's half — "I'm going to lightning here though on the witch before he gets any bright ideas trying to keep that witch alive or something."
+- clock OT 1:42 (t=191-193): why the Witch is a Lightning target and not a small-spell one — "I do have to watch out for that Evo witch cuz it is actually above the max HP."
+- clock OT 0:07 (t=286.3): second and last cast, at tile [3, 22], after the Bowler connected — "That bowler is somehow on our tower, but it's not the end of the world. We can just get a nice lightning here."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Opponent spell, named once as the third of the triple-spell package at 372-375s — "He's going to have triple spell with the barb barrel, snowball, and the lightning, which is going to be a little bit annoying, but it's fine." Never detected; the unattributed tower-damage events at t=444.4 (-801) and t=554.6 (-423) are the closest candidates.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- Mentioned six times but never seen on a readable label. He identifies the opponent's shell by it at clock 1:53 — "Oh, he has the cannon lightning variation with the hero berserker" (636-640s) — predicts it at clock 0:12 ("He's definitely going to go for a NATO Lightning, I think", 736-739s) and at clock 1:12, where he deliberately places a Knight to eat it: "I'm going to Knight here try to help block his Lightning cuz I think he's going to try to Lightning this. Yo, that's dead" (797-800s). His right tower dropped 1028 -> 605 to an unattributed spell hit at clock 1:33 (t=775.8), most plausibly this card.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- Opponent's big spell, mentioned but not in Ryley's deck (he explicitly notes "we don't have a big spell" at clock 0:20). It accounts for several own-tower hits logged with no enemy unit in range (498 HP at clock 1:37; 462/789/789 HP in overtime).
+- overtime 1:50: "And he's going to go for the bowler. Okay, he goes for the lightning instead."
+- overtime 1:12 to 1:10: the game turns on a miss — "Oh, I think we just lost guys. I'm not going to lie. Wait, he missed. Hold on, he missed his lightning."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

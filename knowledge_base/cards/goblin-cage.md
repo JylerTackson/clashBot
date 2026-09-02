@@ -111,6 +111,15 @@ Not specified on source page
 
 This card has an evolution: see [goblin-cage-evolution.md](../evolutions/goblin-cage-evolution.md). Cycles to evolve: 1. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- Opponent's card, the evolution. Ryley's first read is that it feeds his Mother Witch — "Oh, he has evo cage. That's fine. That's going to spawn a piggy on his tower" (clock 2:00).
+- clock 1:12 to 1:05: he uses a Battle Ram in the opposite lane to force a bad cage placement — "he has to go for like a weird cage placement that helps out", then "Yeah, he had to go for a weird cage placement."
+- overtime 1:44 to 1:37: in overtime the cage beats him — he pre-blocks with Barbarian Barrel ("just cuz I think he might Evo cage. Maybe I could block it") and the Goblin Brawler still grabs the ram: "Oh, it still grabbed it in dude."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Cage (scraped 2026-09-02T02:35:32+00:00)

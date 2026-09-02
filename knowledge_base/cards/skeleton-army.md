@@ -112,6 +112,16 @@ This card appears in 2 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 2 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md), [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- clock 2:47 (t=302.8): the opening play, straight to the right bridge at (15, 14) for 3 elixir; bridge deploys repeat at (14, 15), (14, 13) and (14, 14) at t=335.8, 456.5 and 480.5.
+- clock 1:21 (t=388.9 window): he counts the evolved Skeleton Army as the safety net that licenses over-spending — "I know we overspent a lot there, but I think we can get away with it because we have evo skeleton army in cycle."
+- overtime 1:12 (t=515.5) at (3, 13): played at the bridge as a screen for his ranged unit rather than for damage — "Let's go for the Evo Skarmy the bridge. It's going to help keep the Dark Goblin alive, as well. Dark Goblin still alive. Watch out for the Evo Skarmy and the Dark Goblin. Nice damage" — the enemy left tower drops 1807 to 366 during that sequence.
+- clock 0:14 (t=456.5): defensive clean-up after the Valkyrie ability — "our skarmy just able to clean up everything" (460-463s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

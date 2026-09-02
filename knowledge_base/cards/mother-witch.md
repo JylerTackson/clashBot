@@ -172,6 +172,14 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - Opponent side: the card he fears most in the mirror - "The thing that scares me the most in this game be the Mother Witch, man" (2:23) - and he baits it out with a bridge Bandit and later hunts it with a Bandit in overtime ("Please go to the mother witch").
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- clock 2:28: first card down after the tank, and specifically as the anti-Bowler answer (deploy label [7, 14]) — "Let's go for a mother witch here just to make sure that we take out this bowler."
+- clock 2:00: treated the opponent's Evolved Goblin Cage as free curse fuel — "Oh, he has evo cage. That's fine. That's going to spawn a piggy on his tower."
+- clock 0:35: offset placement to dodge a spell, then immediate praise — "I'm even going to go for a mother witch here. Put off to the side though in case he tries to barb barrel. Perfect... Dude, this mother witch is actually just so strong."
+- clock 0:24 to 0:16: named her Cursed Hogs as the deck's win condition in a spell-less list — "Getting these piggies will be our win condition since we don't have a big spell." Six Mother Witch placements in the game (clock 2:28, 1:41, 0:35 x2, overtime 1:57, 1:24, 0:54), the last at [12, 14] in the closing overtime push: "Nice, great mother witch."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

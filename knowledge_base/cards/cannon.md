@@ -127,6 +127,25 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - clock 0:35: he credits the Cannon with denying the opponent's standard Mortar tile — "Oh my god, he missed his mortar because of that. Since the cannon was there, it was blocking the regular mortar placement. Beautiful."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Placed centrally every single time — columns 8-9, rows 9-13 — at t=357.9 (8, 10), t=401.9 (8, 9), t=436.9 (8, 13), t=468.8 (9, 10), t=498.0 (9, 9), t=541.5 (8, 13) and t=563.6 (8, 13); it is always the answer to Ram Rider, which he predicts out loud ("I think he might try to ram rider. Yep, let's go for the cannon here", 435-438s).
+- clock 0:03 (t=468.8): he narrates the placement height — "Let's go for a high cannon here. Not really too high, but higher, I guess I should say" — and later varies it, "Let's cannon up top" (541s) and "Let's cannon here off to the side" (563s).
+- overtime 0:47 (t=541.5): Cannon is the fixed half of his defensive pair with the Heroic Valkyrie — "We have the Valkyrie plus cannon ready."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 1:08 (t=682.7) at tile (10, 16) and clock 1:53 (t=755) at (11, 21): the opponent's building answer to the Balloon. Ryley reads both placements as forced or bad — "he had to do a a weirdly placed cannon" (680-683s), and "He's just going to go for a Cannon NATO. Wait, he missed a Cannon. He has to bring that to the Cannon with the NATO and I think we're going to be able to grab a nice shot on the tower because of that" (751-757s). The Balloon connected for 4858 -> 3836 immediately after.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- clock 2:08: Evolved Cannon at (8, 10), in the pocket in front of the left tower, as the opponent's first Lava Hound comes down that lane.
+- clock 0:34: Cannon at (7, 12) against a unit the 2024 detector could not name — "we need to go for a high [Hog] cannon here as well just to make sure that we take out that Rune Giant"; a second Cannon label follows at (8, 13) at clock 0:14, "just to distract the Rune Giant."
+- clock 0:20: he protects the building rather than the tower — "Let's go for the log just to keep the cannon a little bit more healthy" (958-960s), and times the evolved barrage deliberately: "then we need to go for the Evo cannon just to hit the Lava Pup — or not the Lava Pups, the skeleton dragons and the Lava Hound."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

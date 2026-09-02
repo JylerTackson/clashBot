@@ -149,6 +149,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.m
 - clock 1:56 and 0:16: Zappies used to stun the P.E.K.K.A. off the tower while cheaper cards blocked; the P.E.K.K.A. push at 1:50 (with Rage and Zap support) still traded his left crown tower — "Oh no, I think we're in a lot of trouble guys."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Mentioned only, never seen: he names the opponent's deck at 353-354s — "It looks like we're up against a PEKKA Ram Rider deck" — and at 398-402s predicts the cheaper option instead, "I think he's going to ram rider here and not go for like a PEKKA or anything." No P.E.K.K.A. appears in any detection this game.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/P.E.K.K.A. (scraped 2026-09-02T02:35:00+00:00)

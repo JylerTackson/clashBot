@@ -141,6 +141,14 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - overtime 0:45: the opponent runs the hero variant too — "He's going to maybe balloon ability himself" — and the one freeze Ryley was late on took his right crown tower from 2656 to 1131.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 2:11 (t=618.0): Balloon at tile (0, 13) on the far left edge, elixir 7 -> 2, while the opponent's Electro Giant was already at (13, 18) in the right lane — a deliberate lane trade rather than a defence: "I'm going to loon here, cuz obviously I don't have a good way of defending electro giant right as I start talking about anti-meta counter decks" (621-628s).
+- clock 1:14 (t=674.2): second Balloon, elixir 9 -> 4, after he talks himself out of the bridge: "I'm going to balloon here at the bridge as well, because Okay, actually I might not balloon the bridge. I might go for a balloon opposite lane. And then I'm going to go for a baby dragon as well, just to push that balloon a little bit, just to be annoying" (668-680s). It forced a Baby Dragon and an off-centre Cannon out of the opponent (t=675.2, t=682.7).
+- clock 0:03 (t=746.2): Balloon at (16, 15) right at the bridge to close regular time, with a Freeze already down; he tried to slot it ahead of the escort — "Maybe sneaking in front. Okay, nice. Oh, it didn't get snuck in front. That's fine though" (748-751s). It landed one hit: the enemy right tower reads 4858 -> 3836 at clock 1:47. He wanted more: "Come on, just give me one. Actually, I'm low-key greedy. I kind of want two, but I don't think it's going to happen" (759-764s).
+- He names the deck after it in his first line of the game — "we are using balloon freeze" (579s) — and calls the list an "anti-meta counter deck" that "has been extremely extremely popular this season" (585-592s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

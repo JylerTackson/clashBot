@@ -153,6 +153,17 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, for a knockback interaction: "The fireball and the snowball actually do not knock the [minion] giant back, which is kind of crazy to think about. But, it actually doesn't for whatever reason" (t=851-858).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- Opponent card, evolved; never cleanly detected but named twice. "Good snowball by him" (t=201) after it hit his defence.
+- clock OT 1:29 (t=204-210) and OT 0:17 (t=279-281): it is the condition he checks before committing the Goblinstein ability against a Graveyard — "goblin stein is just so strong against graveyard whenever they don't have their Evo snowball in cycle" and "Let's pop her ability cuz she doesn't have the Evo snowball."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Opponent spell (evolution, by his description), named but never detected. It is the card he times his Wall Breakers around — "then we do a very late Wall Breakers, just so he can't grab a good snowball on top of everything. He has to at least delay a snowball, which is nice" (551-558s) — and he credits the opponent when it lands well: "I think he got a good Evo snowball there, but that's fine. Good catch by him" (534-538s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

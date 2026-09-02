@@ -147,6 +147,19 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - OT 0:45: used to keep a defender alive rather than to reset a tank — "Beautiful e-spirit here to protect the hunter."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- clock 0:14 (t=160.2): tile [12, 10], used on the enemy Witch — "Let's go for the Evo spirit here for this witch and then we can barbarian barrel."
+- clock 0:52-0:59 (t=48-60): on the balance change — "I will say that Electro Spirit did get significantly worse, but because... E-Spirit is still really strong."
+- clock OT 1:17 (t=216.7) and OT 0:20 (t=273.8): tiles [9, 0] and [7, 8], pure 1-elixir cycle and defensive reset; thirteen plays in the readable window, the most of any card in the deck.
+- clock OT 0:03 (t=291.3): the last card of the game — "we can go go for an e-spirit and that is going to be a good game."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Mentioned only, as a meta-level reason this log-bait deck improved after the patch: "this deck was already strong, but now it is even stronger after the emergency balance changes cuz a lot less people are using the electro spirit and even when they do it is not as good against the deck" (338-347s). The three Electro Spirit plays the HUD logs for him (t=427.6, 462.8, 564.7) are Ice Spirit misreads — Electro Spirit is not in the deck he names.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

@@ -136,6 +136,13 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - The Graveyard is what loses the game for him here: the opponent's Valkyrie clears the last one — "Good Valkil [Valkyrie] to clean up the skellies. And yeah, we just lost this game" (553-557s).
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- Opponent card, cast three times on Ryley's half (t=83.1 tile [8, 2], t=180.2 tile [9, 3], t=263.3 tile [15, 0]). His answer every time is Goblinstein plus the Lightning Link ability.
+- clock 0:47 (t=126-134): he pops the ability slightly early into it — "maybe a second early because he grave yarded but I really just didn't think that he would go for a graveyard into a goblin stein but you know, giant graveyard players do be surprising us."
+- clock OT 1:29 (t=204-216): the stated rule — "goblin stein is just so strong against graveyard whenever they don't have their Evo snowball in cycle because when they don't have their Evo snowball, they're just unable to move like the length of the goblin stein and it just takes out the whole graveyard pretty much every time."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

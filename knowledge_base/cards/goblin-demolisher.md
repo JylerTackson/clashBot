@@ -107,6 +107,13 @@ Rapidly drops bombs when under half health.
 - Any building counters him if placed properly, so play around the opponent's building placement.
 - Spawner buildings other than Tombstone (Goblin Hut, Barbarian Hut) are poor answers to him because of his area damage and their high Elixir cost.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 1:02 (689-691s): the one opponent card he cannot place in the list — "The only thing that's confusing me is the goblin demolisher." He answers it at clock 0:41 with a Barbarian Barrel rolled from deep on his own half at tile (11, 5): "Let's barbarian barrel here for the Demolisher ... we got him pretty good, I would say. I'm happy with that" (710-718s). He also expects it as the answer to his Bowler: "He's probably going to Demolisher into this, but we do have the Evil Inferno Dragon" (693-695s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Demolisher (scraped 2026-09-02T02:34:57+00:00)

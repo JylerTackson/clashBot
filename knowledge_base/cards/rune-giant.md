@@ -100,6 +100,14 @@ Not specified on source page
 - Do not pair her with self-destructing units like any Spirit or Wall Breakers — they never live to deal the bonus damage.
 - Keep her alive as long as possible, since the enchantments only persist 5 seconds past her death.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- Late-game opponent card, named only in commentary (clock 0:34 and clock 0:14) and consistent with an unrecognised unit that appeared at (7, 5) at clock 0:34 — the 2024-era detector had no weights for it and produced "royal-giant-evolution" labels at (2, 14-15) at clock 0:27-0:23 instead.
+- clock 0:34: Ryley answers it with the building, not with troops — "we need to go for a high [Hog] cannon here as well just to make sure that we take out that Rune Giant", and again at clock 0:14, "we need to go for a high up [Hog] cannon just to distract the Rune Giant, and I think we got it, guys."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rune_Giant (scraped 2026-09-02T02:35:01+00:00)

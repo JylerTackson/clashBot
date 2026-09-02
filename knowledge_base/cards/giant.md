@@ -127,6 +127,13 @@ Becomes an enlarged Barbarian Barrel that can insta-kill anything it touches whi
 
 This card has a Hero form (Heroic Hurl, ability cost 2 Elixir): see [giant-hero.md](../heroes/giant-hero.md).
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- Opponent win condition, named rather than cleanly detected: "I really just didn't think that he would go for a graveyard into a goblin stein but you know, giant graveyard players do be surprising us" (t=129-134). Two medium-confidence tracker hits at t=112.1 tile [15, 14] and t=275.3 tile [3, 13]; Ryley never has to answer a committed Giant push in the readable window.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant (scraped 2026-09-02T02:34:51+00:00)

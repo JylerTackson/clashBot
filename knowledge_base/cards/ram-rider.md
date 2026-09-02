@@ -123,6 +123,14 @@ Has both Evolved Hunter and Evolved Battle Ram attributes.
 - Pairs well with Graveyard, threatening two positions at once while she deals with Graveyard counters — expensive, so do it as a counterattack.
 - The Mortar can be used against her to lure her to the center of the river, where the Crown Tower keeps hitting her while the Mortar chips the Tower.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- The opponent's win condition and the reason Cannon is always in the middle. Seen crossing to his left tower at t=357.4, 418.4, 438.4, 461.5, 493.5, 515.5 and 568. He calls it before it comes: "I think he's going to ram rider here and not go for like a PEKKA or anything" (398-402s) and "I think he might try to ram rider. Yep, let's go for the cannon here" (435-438s).
+- clock 0:27 (t~444): the one Ram Rider that connects costs him ~1,200 tower HP because the Ice Spirit missed — "I don't know why the ice spirit just didn't jump right there" (451-452s); the Cannon plus Ice Spirit combination works later, "Just making sure that we take out the Ram Rider" (546-549s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ram_Rider (scraped 2026-09-02T02:35:07+00:00)

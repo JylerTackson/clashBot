@@ -139,6 +139,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - clock 1:55 at [9, 11] and 0:45 at [8, 15]: defensive body-blocks in front of the Evo Cannon against a Skeleton Barrel and the opponent's Skeleton King ability, each time alongside an Ice Spirit or Skeletons.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- clock 2:44: Ice Golem at (9, 0) behind the king tower, walked across to the right lane and arrived at the bridge at clock 2:25 — the tank for the Hog Rider that lands at clock 2:28.
+- clock 1:58: Ice Golem at (2, 8) in front of three incoming Lava Pups (threat line read "lava-pup(e) advancing left lane, tower in 4.3s").
+- clock 1:09 and clock 0:20: Ice Golem at (7, 13) behind the Musketeer, then at (2, 10) purely as a kiter in the final defence — "Let's ice golem here just to keep distracting."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

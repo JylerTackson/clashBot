@@ -188,6 +188,16 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - clock 0:20 and overtime 1:00 (opponent's, mentioned as "Ebarbs"/"Earbs" — the detector logged the 5-elixir plays as Barbarians, so the slot is not resolved): treated as an elixir problem rather than a defensive one. "Since he had to waste his Ebarbs, his Earbs will now get taken out by our goblin hut", then "Mighty Miner is dealing with those Ebarbs nicely."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Mentioned only, as a balance-change reference point: "I knew that like maybe it wasn't on the level of e-barbs or berserker, but it like them nerfing the e-barbs and the berserker just inherently made the hero Valkyrie just better because hero Valkyrie was... slightly getting countered by the e-barbs in a lot of situations as well" (320-338s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- Mentioned only. He raises the matchup unprompted while pitching the deck and then immediately qualifies it: "you have a good, you know, match-up against E-Barb. Well, maybe not good match against E-Barbs, but you have the bowler, you know, you can always freeze the berserker and the Valkyrie" (610-618s) — i.e. Bowler plus Freeze is the plan, not a clean counter.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

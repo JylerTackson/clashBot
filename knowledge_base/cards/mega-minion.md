@@ -110,6 +110,12 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - Mentioned, never played. Ryley uses it only as the visual reference point for the new Minion Giant he is showcasing: "I keep calling it something mega just cuz I'm always thinking of the mega minion cuz it really looks exactly like a mega minion. It just works a little bit differently" (255-263s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- Opponent's card, and from Ryley's commentary it is the HERO variant — he refers to its ability twice. clock 0:16: "Have to be careful of a mega minion ability though of course" (the reason he splits his Zappies).
+- overtime 1:24: he blames it for nearly losing the game — "I think we actually might just still get cooked because of the mega minion... Dude, the mega minion is so broken against us."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Minion (scraped 2026-09-02T02:34:53+00:00)

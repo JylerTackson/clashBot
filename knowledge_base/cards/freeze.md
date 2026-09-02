@@ -169,6 +169,13 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - overtime 1:31 (1540-1542s): finally spent on defence - "Let's go for the freeze here then we go for the e barbs directly on top like this". Earlier HUD reads that named Freeze (clock 2:15) or Rage (a card not in this deck) contradict his own commentary and are misreads of Freeze or of the Valkyrie ability.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 0:47 (t=701.7): Freeze at tile (15, 12) played BEFORE the opponent's spell, to pre-empt a Tornado on his own push: "He's going to NATO, so I'm just going to go for the Freeze here just to make sure for when he NATOs, it won't really work" (701-705s). Outcome by his own account: "Yeah, he had a NATO it to the opposite lane, but he still has to watch out for this. We didn't really take too much damage" (706-710s).
+- clock 0:07 (t=742.2): Freeze at (13, 15) used purely to keep a unit alive rather than to open a tower — "I'm going to freeze this too just to make sure that our Baby Dragon stays alive" (742-745s) — immediately before the Balloon that scored at the bridge.
+- He sells the slot as the deck's answer to the new melee heroes: "you have the bowler, you know, you can always freeze the berserker and the Valkyrie" (613-618s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Freeze (scraped 2026-09-02T02:35:25+00:00)

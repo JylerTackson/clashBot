@@ -121,6 +121,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - clock 0:47 (named by Ryley, matched to the opponent's 5-elixir play at 0:51 that the 2024-era detector read as Rascals): counted in his elixir audit of what the Minion Giant forces out — "Spear Goblins, a Goblin Stein, and a Mortar just for, you know, a four Elixir card."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- clock 1:02 (t=112.1): Goblinstein at tile [15, 9], right at his own bridge, as the front of a three-card defensive stack — "Definitely going to go for the Goblin Giant here, and then we can go for the high-up bomb tower" (the transcript renders Goblinstein as "Goblin Giant" here).
+- clock OT 1:37 (t=196.2): Goblinstein at tile [15, 8] with the ability held for the Graveyard — "we need to go for the goblin stein here and then we're going to pop the ability as soon as we can cuz it's going to take out that graveyard."
+- clock OT 1:09 (t=228.1, HUD elixir 9.0->4.0): Goblinstein at tile [14, 1], lane chosen off the opponent's remaining answer — "I want to stein on the right because if I go stein over here, he really can't do anything about it. Yeah, he has to his bowler, but obviously you don't really want to be wasting your bowler if you don't have to."
+- clock OT 0:36-0:17 (t=257.3 tile [14, 8], t=277.4 tile [2, 8]): he holds the 2-elixir ability on purpose, then spends it — "I'm honestly not going to pop the ability at all. I don't think I need it... I just wanted to cycle through my deck here" (t=262-267), then "Let's pop her ability cuz she doesn't have the Evo snowball. Nice good ability" (t=279-281). He credits "the scientist buff" for the card's current form: "Goblin stein after the scientist buff has just been moving different" (t=156-160).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

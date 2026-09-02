@@ -114,6 +114,18 @@ This card appears in 2 of 19 scraped decks:
 - **[Beatdown](../archetypes/beatdown.md)** — 1 deck(s): [Golem Double Dragon Nado Pump](../decks/barbarian-barrel-berserker-electro-dragon-elite-barbarians-elixir-collector-golem-skeleton-dragons-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Mentioned only, as the card that used to answer his Heroic Valkyrie: "hero Valkyrie was kind of getting countered by the berserker", and its nerf is why he is showcasing this deck now — "them nerfing the e-barbs and the berserker just inherently made the hero Valkyrie just better" (322-336s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- Mentioned only, as the opponent's hero variant (never played by Ryley). He names it when identifying the deck — "he has the cannon lightning variation with the hero berserker" (636-640s) — lists Freeze as its answer in his deck pitch ("you can always freeze the berserker and the Valkyrie", 615-618s), and after the opponent used the hero ability against his Bowler at clock 1:43 he called it a misplay: "Okay, that was a bad ability in my opinion. Like Bowler's just fine against the Berserker" (772-775s). He also concedes the Evo Inferno Dragon does not beat it when it is played well (721-726s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

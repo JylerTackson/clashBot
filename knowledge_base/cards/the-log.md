@@ -140,6 +140,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - The opponent's Log is never labelled by the pipeline but Ryley names it twice, both times as something his Tombstone profits from: "it's going to make it harder for him to go on and he has to waste a log though, which is just a nice extra two elixir for me" (309-315s) and "Bad log as well cuz the tombstone still going to be able to distract" (373-376s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- Eleven logged deploys, mostly at or near a bridge tile — (14, 15) at clock 2:48, (14, 14) at clock 2:22, (3, 14) at clock 1:28, (3, 15) at clock 0:50 and 0:13, (4, 15) at clock 0:27, (5, 13) at clock 0:07.
+- clock 1:28: a predictive Log at (3, 14) behind the Hog Rider, thrown for a Tombstone that never appeared — "let's go for the log here for a tombstone as well. Oh, okay, he didn't go for a tombstone." He grades himself down for it: "Maybe that log was a little ambitious considering there was a pretty high chance of him, you know, just trying to go for a second attack, which he pretty much did."
+- clock 0:20: defensive Log to protect his building rather than his tower — "Let's go for the log just to keep the cannon a little bit more healthy."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

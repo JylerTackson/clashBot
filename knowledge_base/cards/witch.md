@@ -122,6 +122,15 @@ Witch spawns Evolved Skeletons instead of normal Skeletons.
 
 This card has an evolution: see [witch-evolution.md](../evolutions/witch-evolution.md). Cycles to evolve: 1. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- Opponent card, evolved, tracked at tiles [10, 18] (t=148.1), [13, 26] (t=213.2) and [13, 17] (t=221.2).
+- clock 0:58 (t=117-119) and clock 0:14 (t=160-163): answered with Barbarian Barrel on top of her and then Electro Spirit — "a barbarian barrel here on top of the witch" and "Let's go for the Evo spirit here for this witch."
+- clock OT 1:42 (t=191-193) and OT 0:53 (t=240-244): he classifies her as a Lightning target — "I do have to watch out for that Evo witch cuz it is actually above the max HP" — and spends the Lightning on her pre-emptively at tile [13, 18].
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

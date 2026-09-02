@@ -130,6 +130,20 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - clock 0:45 (t=526.2, tile (3, 5)): played behind the Poison as the splash that the Tornado feeds — "NATO this back into the skelly so that baby dragon can get more damage on everything. Beautiful NATO there" (532-537s). Earlier he spends a Tornado purely to protect it: "just to make sure that we keep our baby dragon alive. We're really, really going to need that" (322-326s).
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Opponent card (evolution, by his description), seen at t=344.3 (17, 20), t=396.4 (2, 17), t=474.5, t=553.6 and t=568.6. Ryley's stated plan is to let it be: "I think I'm just going to ignore this baby dragon if he doesn't do anything with it" (402-405s).
+- clock 0:42 (t=427.4): he counts Wall Breakers as forcing it out — "He has to waste evo baby dragon now" (427-429s) — and at 424s he pops the Valkyrie ability partly in anticipation of it, "He might try to baby dragon."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 2:07 (t=623.6): Baby Dragon at tile (9, 8), centre of his own half, as the first support behind the opening Knight/Bowler.
+- clock 1:13 (t=676.2 area): played behind the Balloon purely to make it awkward to answer — "I'm going to go for a baby dragon as well, just to push that balloon a little bit, just to be annoying" (675-680s).
+- clock 0:15 (t=732.9, 4 elixir out of the hand): played defensively first with the intention of converting — "Let's go for the Baby Dragon off to the side here just to help defend and then we can go for the Inferno Dragon here as well" (733-736s). He then Freezes to keep it alive at clock 0:07 (742-745s).
+- clock 1:20 and clock 1:04 (t=780.3 at (9, 9), t=802.8 at (15, 15)): the evolution as the escort in the overtime push — "We need to go for like a Baby Dragon down the middle here and then a Balloon" (779-782s) and "I'm just going to keep bridge spamming and Baby Dragon and Inferno Dragon. Let's go!" (802-805s). It is half the deck's whole plan in his telling: "they just get to the evo inferno dragon, the evo baby dragon, and you're winning, and then they just completely take your tower in one push" (657-664s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

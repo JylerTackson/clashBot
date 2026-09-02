@@ -127,6 +127,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - clock 0:47 of overtime (video 486.2s): still the card he builds his defence around — "Make sure that we take out these wall breakers and defense" (488-490s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- clock 1:32 (t=378.2): played at (10, 11) in the centre purely as a kite, not as damage — "I'll go for the wall breakers just to kite this barbarian just cuz he's going to have to defend this anyway, and then we can get a nice maybe a nice king activation"; his king tower starts reporting damage at t=395.1.
+- clock 0:42 (t=427.4) at (13, 15): used to strip a second answer after the barrel — "Let's go for the wall breakers, too. He has to waste evo baby dragon now, and he still has to go for a barb barrel on those wall breakers. I think I grabbed one. Yep, beautiful."
+- overtime 0:40-0:37 (t=550.5, 551.9, 552.9): three Wall Breakers steps in three seconds, staggered on purpose so one small spell cannot cover both — "Let's go for the Wall Breakers first, and then we do a very late Wall Breakers, just so he can't grab a good snowball on top of everything. He has to at least delay a snowball, which is nice."
+- overtime 1:04 (t=526.0) at (13, 14): the opposite-lane half of his pressure pair — "Let's Valkyrie then Wall Breakers other lane, just to keep up the pressure in the opposite lane."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

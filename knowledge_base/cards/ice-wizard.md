@@ -151,6 +151,12 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock overtime 1:44 and overtime 0:33: he treats the hero as licence to spend elsewhere — "I'm even comfortable going for the lightning here because I just know that we have the hero ice wizard defensively" — but also grades a lazy back placement badly: "I think this ice wizard was kind of bad by us," and the one ability he was late on ("Pop the ability now cuz the barrel is tanking for it") cost him most of a crown tower.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- Opponent's card, tracked on the enemy side at [6, 22] clock 2:05, [2, 26] clock 1:08, [1, 19] clock 1:02 and [8, 20] clock 0:31.
+- clock 1:05: it pulls his Giant Skeleton off the tower and he calls it in advance — "Hopefully, that can walk towards the ice wizard giant skelly. Oh my god, it's walking towards the ice wizard. I literally knew it."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

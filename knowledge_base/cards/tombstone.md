@@ -165,6 +165,11 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 1:21: mentioned, not played — the opponent's remaining defence against the mirrored Minion Giant, and Ryley expects to blow through it: "All he really has is tombstone and this is going to get some good damage. It's going to like three-shot the tombstone, I think, but then he has to get something down."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- Mentioned, never played. At clock 1:28 Ryley threw The Log at (3, 14) behind his Hog Rider on a Tombstone read — "let's go for the log here for a tombstone as well. Oh, okay, he didn't go for a tombstone" — and criticised the spend afterwards: "Maybe that log was a little ambitious." (A later transcript line at 935s again says "log here on the tombstone", but no Tombstone was ever detected in this game.)
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

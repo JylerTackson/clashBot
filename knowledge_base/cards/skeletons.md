@@ -156,6 +156,22 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - clock 0:21: also used as swarm cleanup mid-defence at [5, 3] — "Okay, bad minions. Go for the skellies."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- clock 0:21 (t=153.2): tile [7, 9] on top of an existing defence — "I definitely want to go for the skellies on top of this."
+- clock OT 0:22 (t=271.8): tile [7, 9] as a prediction against a Champion ability — "I'm going to skellies preemptively to block that bowler ability."
+- clock OT 1:08 (t=225.2): tile [9, 5], pure cycle — "Let's just go for the skellies here. Keep on cycling."
+- clock OT 0:05 (t=288.3): tile [6, 12] in the final defensive stack — "we can go for the skellies to block."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- clock 2:15: Evolved Skeletons at (14, 14) behind the Hog Rider during the push that takes the enemy right tower to 212 hitpoints.
+- clock 1:50: Skeletons at (4, 15) into the Lava Pups alongside Ice Golem and Ice Spirit.
+- clock 0:32 and clock 0:29: "Well, skellies here at the bridge. I know he's going to Evo Inferno Dragon in a second, but it's okay."
+- clock 0:07: he plays the last pair specifically into a forced Zap — "Let's go for the Evo skellies cuz he has to zap, and he won't be able to take out the Evo skellies" — the same reasoning he used at clock 1:07, "he has to zap here for the musketeer, but the Evo skellies will distract if he doesn't."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

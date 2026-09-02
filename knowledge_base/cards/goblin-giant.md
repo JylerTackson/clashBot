@@ -137,6 +137,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.2.m
 - clock 0:13: called it again and answered it with Mother Witch plus Freeze rather than a hard counter — "I'm going to go for a mother witch too cuz he's going to go for a Goblin Giant."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- Mentioned, not played, and probably not the card he meant: the auto-transcript renders Goblinstein as "Goblin Giant" at t=113 ("Definitely going to go for the Goblin Giant here"), where the matching event two seconds earlier is a Goblinstein deploy label at tile [15, 9] with score 1.0. The balance-change lines at t=52 and t=61 — "the Goblin Giant got a little bit of a slap in the wrist nerf" and "it was more the presence of the card than the monster actually having too much HP" — use the same rendering and reference "the monster", so they most likely also refer to Goblinstein.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Giant (scraped 2026-09-02T02:35:02+00:00)

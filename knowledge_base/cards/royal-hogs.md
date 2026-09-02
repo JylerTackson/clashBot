@@ -133,6 +133,14 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - overtime 1:16: Lightning on the Bomb Tower and then "the immediate evo piggy" straight after, which drove the tower from 1327 to 692.
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- clock 0:39 (t=134.6) and 0:10 (t=163.2): Evo Royal Hogs at tile [2, 15], the left bridge — "let's go for the Evo piggies here cuz I do want to keep up the pressure" (t=136-138).
+- clock 0:10 (t=163.2): played specifically to drag out the opponent's Bowler — "I'm going to go for a set of royal hogs well cuz he has to go for the bowler but our Evo archer can help get some nice damage on it" (t=164-168).
+- clock OT 0:59 (t=234.7): tile [2, 14] used as defence-by-offence — "I'm just going to piggies here now and that's going to take out a zappy and keep everything alive."
+- clock OT 1:04 (t=170-175): a placement habit he wants to change — "I think I might start splitting my royal hogs more but I think for now I can just continue splitting my archers." Every attacking deploy in this game was the left lane (tiles [2, 13-15]).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

@@ -119,6 +119,14 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - clock 2:07 (1384-1385s): opponent card. Its death bomb is why he spends the Heal Spirit - "they're going to run away from the giant skelly bomb and they're going to help take out the royal ghost".
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- clock 2:38: opened with Giant Skeleton deep in his own left corner (tile [4, 2], elixir 9 -> 3) rather than at the bridge, then built the push behind it — the deck is introduced as "a giant skeleton bridge spam" that "with the recent emergency balance changes, it has just gotten even better."
+- clock 2:17: kept it alive with Vines instead of adding damage — "let's go for the vines here just to keep the giant skelly alive for a little bit longer. If we can keep that giant skelly alive, maybe a piggy blocks for it."
+- clock 1:24 to 1:17: placed it in FRONT of his support, not behind — "I'm just going to go for the split zappies here... And then we can giant skeleton in front", then the tank at [2, 14].
+- clock 0:59 to 0:44: played the death bomb as the real payload, and it doubled as the Bowler answer — "Just try to sneak a giant skelly bomb on the tower" and "the giant skelly bomb actually hits the bowler as well, which is so so good for us." His summary of its role at clock 0:20: "We just need the giant skelly like to kind of tank for our mother witch piggies and slowly chip him down."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

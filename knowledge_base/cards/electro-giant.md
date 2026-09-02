@@ -103,6 +103,20 @@ Not specified on source page
 - Keep cheap troops in hand for opposite-lane pressure, or be prepared to trade towers, since he commits 7 Elixir.
 - Do not leave him unanswered except when both players are racing towers, such as Sudden Death.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 2:22 (t=605.6): the opponent's win condition, deployed at tile (11, 27) and tracked down the right lane to (14, 5) by clock 1:55. Ryley does not defend it — "I'm going to loon here, cuz obviously I don't have a good way of defending electro giant right as I start talking about anti-meta counter decks" (621-628s) — and his right tower falls 4858 -> 1183 between clock 1:59 and 1:42. His framing: "That is really unlucky, but it's okay. We can take some damage here. This deck is all about getting to the evolutions anyway" (640-646s). Balloon Freeze, in his account, races the Electro Giant rather than answering it.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- Opponent's win condition. Ryley reads the build as defensively thin — "He has a really strange variation of e-giant where I feel like it doesn't have the greatest defense" (clock 2:15).
+- clock 1:20: he expects a straight opposite-lane E-Giant and attacks on that read — "There's a chance he e-giants opposite lane straight up cuz I don't think he can really defend that well if he doesn't do that. Okay, yeah, he didn't do that."
+- clock 0:05 and overtime 1:56 to 1:52: tracked pushing his left lane; Ryley answers it with a high middle Hero Wizard, then Giant Skeleton + Mother Witch ("let's go for the giant skelly here. I had a feeling he was going to go for some type of shenanigans like that"), and later "Let's go for the high e giant."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Giant (scraped 2026-09-02T02:35:05+00:00)

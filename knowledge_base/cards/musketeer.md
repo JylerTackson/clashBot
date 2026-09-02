@@ -192,6 +192,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, as a card that normally answers a tank but loses to a Monk in front of it: "most of the cards that take this out, right? Like musketeer, even Tesla, right? You just pop the ability and you just tank for it for so long" (t=731-741) — the Monk's Pensive Protection reflects her shots.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- clock 2:34: Musketeer at (9, 5), elixir 9 -> 5, placed centrally as the opponent's Baby Dragon comes down the right lane.
+- clock 2:05: Musketeer at (1, 7) behind the left tower against the first Lava Hound — "Let's go for the musketeer here as well, just to help take out that Lava Hound."
+- clock 1:09: Musketeer at (7, 9) under a Lava Hound + Baby Dragon push, with his default placement stated explicitly — "I'm going to go for the musketeer here on top of the Lava Hound. Normally, I do it on the Inferno Dragon, but I think because of the situation I'm in, I can just do it on normally, cuz he has to zap here for the musketeer, but the Evo skellies will distract if he doesn't."
+- clock 0:25: Musketeer at (1, 8) into the last Lava Hound push — "Let's go for the musky here."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

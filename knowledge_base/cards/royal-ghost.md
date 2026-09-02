@@ -127,6 +127,14 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 0:47: his stated reason for the pattern — "keep going for the ghost in the back because ghost in the back is actually really really annoying."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- clock 1:32: Evo Royal Ghost at [12, 3] on his own half, and he weighed it out loud against holding for a counter-push — "Let's go for a ghost here on the right side, maybe... Maybe I don't ghost cuz I could counter push off of the bowler kind of how I did last time."
+- clock 0:16: "Let's evo ghost here" ([3, 11]), paired with split Zappies while the opponent held the Evolved Goblin Cage.
+- overtime 1:47 to 1:32: the ghost carried the overtime damage on the enemy right tower (4858 -> 2104 HP over that stretch) — "I'm going to go for the ghost here just apply some pressure here with this" and afterwards "At least we got a lot of ghost damage, but I feel like we could have gotten a way better sequence out of that if we weren't getting unlucky."
+- overtime 1:10: dropped at [1, 14] to open the left lane while the ram threatened the right — "Let's go for the ghost here on the left. Wait, that's going to spawn another piggy."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

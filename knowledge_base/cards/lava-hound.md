@@ -130,6 +130,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 2:14: mentioned and faced, not played — the opponent's win condition, placed behind his own left tower at tile (1, 28) and again at clock 0:52; Ryley identifies the deck off the first one, "Looks like he's just playing a lava hound deck." He answers it with Tesla at (0, 8) plus Archers rather than committing anything to the other lane.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- The opponent's win condition, played behind the tower four times (clock 2:25, 2:18, 1:24 and 0:43, 7 elixir each). Ryley called it before the game: "I think this guy's a Lava Hound player" (815-817s).
+- clock 2:25: he reads the instant Lava Hound as a concession — "I think he knows that he has a hard time breaking through in this match-up, so he just wants to like go for some type of tower trade at the beginning of the game. But because he has no Inferno Dragon, I think we should be able to defend this."
+- clock 1:09: he answers the Hound with Musketeer + Ice Golem rather than saving her for the support — "I'm going to go for the musketeer here on top of the Lava Hound. Normally, I do it on the Inferno Dragon."
+- clock 0:22: Evolved Cannon timed for the pups and the support, not the Hound itself — "we need to go for the Evo cannon just to hit the Lava Pup — or not the Lava Pups, the skeleton dragons and the Lava Hound."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

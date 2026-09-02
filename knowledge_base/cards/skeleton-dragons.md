@@ -138,6 +138,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 0:18: predicted again and pre-answered with a held Mirror — "he's probably going to skelly drags, but then we can just mirror our fireball."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- clock 2:05: opponent Skeleton Dragons at (9, 16), right on the river, over the Lava Hound push — the play that cost Ryley most of his left tower. "Bro, what the heck were those skelly drags? He just completely messes us up."
+- clock 1:44: he rates the placement as the opponent's mistake, not a good spell-bait — "He definitely messed up his push cuz I even had fireball for the skelly drags if he didn't misplay that one."
+- clock 0:22: a second pair at (6, 13), answered with the Evolved Cannon barrage — "the skeleton dragons and the Lava Hound."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

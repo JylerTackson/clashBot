@@ -138,6 +138,21 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 1:52 and 0:25: his two answers to it are split Archers ("We can just split our ev[o] archers here to make sure that we take out the inferno dragon") and Tesla ("let's go for the tesla here on the inferno dragon"); at clock 1:04 he flags it as the card that constrains him, "he has the evo inferno dragon, so we have to be careful."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 2:17 (t=611.8): Inferno Dragon at tile (1, 10), elixir 9 -> 5, in the LEFT lane while the opponent's Electro Giant walked the right — he chose not to contest that push at all and Ballooned the empty lane instead (618.0).
+- clock 1:14 (t=674-684): traded up against the opponent's answer — "we were able to take out the baby dragon with the inferno dragon and force out a nine elixir, which I am definitely very happy about" (683-687s).
+- clock 0:49 (t=699.2) at tile (9, 10) behind a bridge Knight, and clock 0:15 (t=730.7/733.7) at (9, 10)/(9, 14): the evolution as his tank answer — "we do have the Evil Inferno Dragon" (694-695s), "then we can go for the Inferno Dragon here as well" (735-736s). He is candid about its ceiling against a well-played Hero Berserker: "Obviously Evil Inferno Dragon isn't crazy against him if he plays properly, which he did. Have to give him credit there" (721-726s).
+- clock 1:20 (t=786.3): placed down the middle at (9, 14) as part of the winning push, with the reset as his only worry — "I'm going to honestly go for the Evil Inferno Dragon too, but I think I'm going to put it down the middle again. Oh my god, hold on. This is really good ... As long as that doesn't get hit and reset" (784-793s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- Seen once, at (2, 26) at clock 1:20 behind the opponent's second Lava Hound. Ryley tracks it as the card that decides whether the matchup is defensible: at clock 2:20, "because he has no Inferno Dragon, I think we should be able to defend this", and at clock 1:44, "that was just a very interesting play without having the Inferno Dragon in cycle."
+- clock 1:23: he counts its evolution cycle out loud — "He's going to Inferno Dragon. One more Inferno Dragon until Evo."
+- clock 0:45: the Evolved version is the thing he plays around for the rest of the game — "I have to watch out for that Evo Inferno Dragon, cuz that Evo Inferno Dragon has a lot of aura. It can get really, really scary", and at clock 0:31, "I know he's going to Evo Inferno Dragon in a second, but it's okay."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

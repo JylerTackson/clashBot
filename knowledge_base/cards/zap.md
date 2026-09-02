@@ -156,6 +156,12 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 0:27: mentioned, not played — the opponent's Evo Zap, named as one of the two answers he expects to his Archers: "I know that he's going to take these out with either a fireball or an evo zap or a fireball."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- Mentioned, never observed on the field. Ryley plays around the opponent's Zap twice: at clock 1:07, "he has to zap here for the musketeer, but the Evo skellies will distract if he doesn't", and at clock 0:07 he baits it deliberately — "Let's go for the Evo skellies cuz he has to zap, and he won't be able to take out the Evo skellies."
+- clock 1:58: he expects it paired with a Fireball on his defence — "I knew he was going to go for a fireball zap, but as long as we don't lose our whole tower, it's fine."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

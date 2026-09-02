@@ -127,6 +127,15 @@ This card appears in 2 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 2 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md), [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- clock 1:26 (t=383.9) at (2, 14), clock 0:03 (t=468.0) at (13, 12) and overtime 1:19 (t=511.5) at (15, 15): the bridge Princess is his standing chip/bait play — "I'm going to princess the bridge here", "Let's go for a princess at the bridge. Just keep on applying pressure", "Let's Princess the bridge here."
+- overtime 1:14 (t=511.5): she does her job as bait — "He has to go for an E-Wiz on this. Okay, E-Wiz on the Princess" (513-516s) — which is what lets the Dart Goblin and Skeleton Army grind the tower down to 366.
+- overtime 0:48 (t=536.0) at (1, 7): the one defensive placement is deep and off-lane — "Let's Princess here off to the side."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

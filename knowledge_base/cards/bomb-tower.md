@@ -125,6 +125,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - clock ~1:04 of overtime (video 473.5s): he checks for it in the opponent's hand before dropping in the pocket — "He has no bomb tower in hand. I'm just going to drop my minion in the pocket and it is impossible to stop this from getting a hit if not two" (472-476s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- clock 0:58 (t=115.6) and OT 0:05 (t=287.6): the "high" placement is tile [10, 14] / [8, 14], one row off the river — "we can go for the high-up bomb tower" (t=116) and "Let's go for a high bomb tower" (t=282).
+- clock OT 0:49 (t=244.7): tile [9, 9], the centre placement — "Just bomb tower here in the middle." Same tile at clock 0:22 (t=151.7), and [8, 10]/[8, 11]/[9, 11] elsewhere.
+- clock OT 0:26 (t=267.8): the card he leans on to close out — "Let's just go for a bomb tower and we only have 20 seconds left to defend."
+- Ten deployments in the readable window, every one defensive; the deck's only building.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

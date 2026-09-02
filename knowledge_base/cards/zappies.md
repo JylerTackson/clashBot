@@ -166,6 +166,21 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - Opponent side: he wants theirs pulled early ("I want him to use a set of zappies if possible", 1:47) and tries to clear them with the Valkyrie ability twice; failing to kill them in overtime is what he blames for the comeback - "good damage but we didn't take out said Zappies".
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- Opponent card, the most frequently tracked enemy unit in this game (16 arena detections, tiles from [5, 26] down to [2, 14]).
+- clock 0:30 (t=139-149): named as half of the matchup's grind — "The only annoying thing for us is I feel like the zappies and... the bowler abilities as well can get really really tedious."
+- clock OT 0:59 (t=234.7): answered with Royal Hogs at the bridge rather than a defensive card — "I'm just going to piggies here now and that's going to take out a zappy and keep everything alive."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- clock 1:24: split at the back ([8, 1]) so each pair covers a different threat — "I'm just going to go for the split zappies here. Two to the giant skeleton or uh two to the bowler, sorry."
+- clock 0:39 to 0:37: dropped at the bridge ([3, 15]) with the cycle read spelled out — "we can go for a set of zappies here as well cuz he has no bowler. So, zappies are going to be really good right now."
+- clock 0:16: split again out of respect for the opponent's Hero Mega Minion — "I'm definitely going to split my zappies now though. Have to be careful of a mega minion ability though of course."
+- overtime 1:04 and 0:47: used as bridge pressure in the opposite lane to close the game ([13, 14] then [3, 14]) — "I'm going to zappies the bridge opposite lane" and "we have to go zappies at the bridge... Come on. Zappies on the tower. Let's go."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

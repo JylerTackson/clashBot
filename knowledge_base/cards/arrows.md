@@ -118,6 +118,12 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.0.m
 - clock 1:22 (mentioned, not played): the second spell that removes the Hero Ice Wizard's snowman — "it does actually end up dying to the log and the arrows."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- Opponent card, tracked on the enemy side at t=57.1, 71.1 and 86.1.
+- clock OT 1:12 (t=216-224): Ryley cycle-tracks it and only splits his Evo Archers once it is gone — "He wasted his arrows there so now we have a nice set of Evo archers able to be played... obviously he's not going to go in at the bridge with no arrows in hand."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

@@ -142,6 +142,22 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - clock 1:51 at [7, 8]: part of the three-card, 6-elixir defence (Evo Cannon [9, 14] + Ice Golem [9, 11] + Ice Spirit) that held a Skeleton Barrel and a Skeleton King ability at 2:00-1:51 with the right tower ending the wave at 2890/3052.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Almost always deep on his own half rather than at the bridge: labels at (8, 6), (2, 11), (6, 11), (3, 9), (7, 1), (6, 14), (6, 2), (7, 13) between clock 1:21 and overtime 0:27.
+- clock 0:29 (t=438.9) at (6, 11): played to freeze an incoming Ram Rider and it fails — "We can go for the ice spirit down low just to make sure to freeze this" (439-442s), then "the ice spirit got taken out, unfortunately. Dude, that's so unlucky... I don't know why the ice spirit just didn't jump right there" (444-452s); his left tower loses ~1,200 HP in those two seconds.
+- overtime 0:44 (t=542.5) at (7, 13): the same play working — "We need to go for the Ice Spirit here, as well, just to help defend. Good Ice Spirit there. Just making sure that we take out the Ram Rider."
+- clock 1:21 (t=388.9): the cheap third card in an offensive package — "I'm tempted to go for the dark ob ice spirit. Yeah, I think I'm going to do it here."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- Eight deploys in 175 s — his most-played card, and the cheap filler that keeps the 2.6 cycle short.
+- clock 1:28 and clock 0:05: Ice Spirit at (3, 14) and (9, 20) riding directly with a bridge Hog Rider — "Let's go for a Hog Rider here at the bridge with an Ice Spirit, I assume."
+- clock 1:55 and clock 0:29: defensive Ice Spirits into the Lava Pups and the last Lava Hound push — "Let's go for the ice spirit here."
+- clock 0:16: Ice Spirit at (5, 9) inside the closing defensive chain he narrates card by card — "Ice spirit, then we need to log, then we need to go for a high up [Hog] cannon."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

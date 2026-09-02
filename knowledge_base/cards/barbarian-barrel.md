@@ -167,6 +167,33 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - OT 1:47: the cheap play he takes instead of a spell when the Fireball is not worth it — "Let's go for the barb barrel here then we can maybe go for a fireball. No, let's not fireball."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- clock 0:58 (t=116.1): tile [14, 12], aimed at the enemy Witch — "a barbarian barrel here on top of the witch. I just need to help take this out."
+- clock OT 1:48 (t=185.7) and OT 0:40 (t=252.8): tiles [3, 15] and [14, 11], both aimed at the Bowler — "I just want to make sure that this bowler gets taken off the map" (t=188) and "Let's barbarian barrel here for the bowler. Make sure we take this out" (t=249-251).
+- clock OT 1:31 (t=202.2): tile [14, 8] as the follow-up after the opponent's Evo Snowball — "Good snowball by him but we can get our barbarian barrel down here too."
+- Ten casts in the readable window; in this match it is an anti-support tool, not a win-condition reset.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- Opponent spell, named but never detected. He identifies it at 371-375s — "he goes for the barb barrel again. He's going to have triple spell with the barb barrel, snowball, and the lightning, which is going to be a little bit annoying, but it's fine" — and then plays to drain it: "He has to go for a barb barrel plus snowball" (413-415s) and "he still has to go for a barb barrel on those wall breakers. I think I grabbed one. Yep, beautiful" (429-433s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 0:41 (t=708.7): rolled from deep on his own half at tile (11, 5) onto the opponent's Goblin Demolisher — "Let's barbarian barrel here for the Demolisher. Hopefully it only splash Oh, it didn't even splash once. I was going to say hopefully it only splashes once, but we got him pretty good, I would say. I'm happy with that" (710-718s).
+- clock 2:04 (t=625.1) at tile (14, 6), clock 0:52 (t=696.7) at (14, 8), and in overtime at (14, 14) (t=757.3) and (12, 14) (t=791.3): his standard cheap cycle/clear card, always rolled from his own side outward — "Let's go for the barbarian barrel here as well. Okay, he goes for a nado" (628-629s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- clock 1:59: rolled at [5, 15] not to clear a swarm but to pull the opponent's Bowler off target — "Hopefully, we can get a barbarian barrel here just to distract that bowler."
+- clock 0:59: used to finish a chipped defender before the Vines follow-up — "[barb barrel] here just to one hit this and then we can go for a vine as well."
+- overtime 1:44 to 1:39: used as a physical BLOCK on an anticipated Evolved Goblin Cage rather than for damage — "I'm even going to barb barrel down the middle just cuz I think he might Evo cage. Maybe I could block it. Oh my god, what a block."
+- The opponent runs it too, and Ryley plays around it: he offsets his Mother Witch "in case he tries to barb barrel" (clock 0:33) and punishes a bad one in overtime ("That was a really bad barb barrel", overtime 1:04).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

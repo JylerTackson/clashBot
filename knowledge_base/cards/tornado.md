@@ -129,6 +129,19 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.1.m
 - clock ~0:55 (t=515.7) and clock 0:42 (t=530): used to clump the Lava Pups and Skeleton Dragons into the Baby Dragon's splash — "We're going to need to get a really good NATO on these lava hound pups. Let's NATO it back now" (512-516s), then "NATO this back into the skelly so that baby dragon can get more damage on everything. Beautiful NATO there" (532-537s).
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 0:12 (t=737.2/737.7, labels at tiles (13, 7) and (14, 19)): used to pull an enemy unit off his own push, not to activate the king — "He's definitely going to go for a NATO Lightning, I think. Let's go for a NATO here just to bring that back. He actually missed" (738-742s).
+- clock 1:15 (t=793.6, 3 elixir out of the hand) in overtime, during the bridge-spam sequence. It is the least-used card in his hand this game: two casts in 235 readable seconds against four Bowlers and five Barbarian Barrels.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- Opponent's card, mentioned but never played by Ryley. The auto-transcript renders it "NATO"/"nado" three times.
+- clock 0:03: the reason he holds his Hero Wizard ability — "I'm not going to pop the ability cuz he might just [na]do opposite lane."
+- clock 1:02 and overtime 0:54: "He has to [na]to that now, but it's already dead again" and "He gets a good [na]to, but I'm going to mother witch here."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

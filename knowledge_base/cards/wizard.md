@@ -153,6 +153,12 @@ Match [Hero Ice Wizard is SKILL and OVERPOWERED!!](../matches/nSXIs16M7Ag-m0.2.m
 - clock 2:24 (mentioned, not played): named as the reason the Royal Hogs / Goblin Hut cycle deck fell out of the meta — "the main reason it kind of fell out of the meta was because you had to replace the ice wizard with the wizard, but then you would just lose most of the cycle versus cycle matchups. But with the cheap ice wizard, you do have a better chance."
 <!-- creator-insights:ryleycr1:nSXIs16M7Ag-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- clock 0:05: the Hero Wizard placed "high middle" (deploy label 'WizaRd' at t=1156.7, with a matching own -5 elixir drop) against an Electro Giant crossing at [5, 15] — "Let's go for a high middle wizard here."
+- clock 0:03: deliberately held the Fiery Flight ability because the opponent had Tornado — "I'm not going to pop the ability cuz he might just [na]do opposite lane." The ability is never activated in the readable window.
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

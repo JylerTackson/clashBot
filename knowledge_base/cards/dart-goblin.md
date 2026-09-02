@@ -124,6 +124,15 @@ This card appears in 2 of 19 scraped decks:
 - **[Bait](../archetypes/bait.md)** — 2 deck(s): [WB Log Bait 2.8 Cycle](../decks/cannon-dart-goblin-goblin-barrel-ice-spirit-princess-skeleton-army-valkyrie-wall-breakers.md), [HeroKnight Log Bait 2.9 Cycle](../decks/dart-goblin-goblin-barrel-ice-spirit-inferno-tower-knight-princess-skeleton-army-the-log.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.md):
+- clock 1:19 (t=390.9) at (9, 10) for -3 elixir, and again at (9, 9), (11, 7), (7, 10), (8, 9): always behind the Cannon in the middle, never at the bridge.
+- overtime 1:32 (t=497.5) at (7, 10): stated role is sniping from the centre — "we can go for the middle Dark Goblin as well. Just just a snipe that down. Also go towards the Baby Dragon."
+- overtime 1:12 (t=515.5): keeping him alive is worth a bridge Skeleton Army — "It's going to help keep the Dark Goblin alive, as well. Dark Goblin still alive... Nice damage" (518-522s), and he replays him for pressure at overtime 0:31, "we can Dark Goblin again" (560s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

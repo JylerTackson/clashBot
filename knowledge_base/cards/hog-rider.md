@@ -137,6 +137,14 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.2.
 - clock 0:58-0:52: mentioned, not played — his reference point for the new Minion Giant: "It's literally exactly like the hog rider guys, except it's just even more annoying somehow. Like how do you have a card more annoying than hog rider? That card is so aids."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.md):
+- clock 2:28: Hog Rider at tile (16, 14) on the right bridge, arriving behind an Ice Golem he had walked over from the king tower nine seconds earlier; the enemy right tower drops 4802 -> 212 hitpoints between clock 2:20 and clock 2:08.
+- clock 1:30: Hog Rider at (1, 15) on the left bridge with an Ice Spirit right behind him (elixir 9 -> 5) — "Let's go for a Hog Rider here at the bridge with an Ice Spirit, I assume"; the enemy left tower falls 4858 -> 2599 over the next five seconds.
+- clock 0:58 and clock 0:27: two more bridge Hog Riders, the first paired with Fireball — "We can go for the hog rider here as well, and then we can just go for a fireball on top of everything."
+- clock 0:07: final Hog Rider (plus Ice Spirit) at (9, 20), already on the opponent's half, as he calls the game: "I think we got it, guys ... Let's go. Very nice win, man."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

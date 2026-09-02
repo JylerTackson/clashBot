@@ -136,6 +136,31 @@ This card appears in 1 of 19 scraped decks:
 - **[Control](../archetypes/control.md)** — 1 deck(s): [Loon HeroKnight Double Dragon Bowler](../decks/baby-dragon-balloon-barbarian-barrel-bowler-freeze-inferno-dragon-knight-tornado.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.md):
+- Opponent card, the single most-discussed in the game (8 mentions). Ryley plans his whole defence around the ability rather than the body: Barbarian Barrel to remove it at clock OT 1:48 (t=185.7) and OT 0:40 (t=252.8), and Skeletons "preemptively to block that bowler ability" at clock OT 0:22 (t=271.8).
+- clock OT 1:09 (t=231-235): he reads the opponent's reluctance to spend it — "he has to his bowler, but obviously you don't really want to be wasting your bowler if you don't have to" — and picks the opposite lane for his Goblinstein because of it.
+- clock 0:30 (t=139-149): he names it as one of the two cards that make the matchup grindy — "the zappies and I guess like the bowler abilities as well can get really really tedious."
+- clock OT 0:08 (t=283-285): it does eventually land — "That bowler is somehow on our tower, but it's not the end of the world."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.md):
+- clock 2:31 (t=597.6), clock 0:56 (t=692.7) and clock 0:28 (t=719.2): three Bowlers at tiles (8, 0) and (9, 0), each behind his own towers as a slow defensive anchor — "I'll go for the bowler here on the right side lane. He's probably going to Demolisher into this, but we do have the Evil Inferno Dragon" (691-695s), and "He might pop the ability. I'm going to Bowler in the back again here" (718-721s).
+- clock 1:16 (t=792.3), in overtime: Bowler at (15, 15) AT THE BRIDGE, the switch from anchor to offence — "I'm going to go for the Bowler at the bridge here. I need to really apply pressure. He's going to NATO that" (793-796s). The enemy right tower fell from 3452 to 0 over the next six seconds.
+- He names it as the reason the deck survives the current melee-hero meta ("you have the bowler", 613-615s) and rates it above the Hero Berserker's ability: "Okay, that was a bad ability in my opinion. Like Bowler's just fine against the Berserker" (772-775s).
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:start -->
+Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.md):
+- Opponent's card in this match (Ryley does not run it), and the single most-discussed card of the game — 15 transcript mentions. It shows in the arena log under the 2024 detector's `goblin-brawler` class at [6, 16] clock 2:00, [9, 19] clock 1:02, [13, 17] overtime 1:27 and [9, 16] overtime 0:57.
+- clock 2:28 and 2:00: he spends whole cards on it — Mother Witch "just to make sure that we take out this bowler" and Barbarian Barrel "just to distract that bowler."
+- clock 2:15 and 0:37: his tempo rule is to commit when the Bowler is off cycle — "This is so good cuz he has no bowler" and "cuz he has no bowler. So, zappies are going to be really good right now."
+- clock 0:52 to 0:44: drawing it out and killing it is treated as the key exchange — "He's going to have to waste his bowler... Getting that bowler out right there is actually so huge and the giant skelly bomb actually hits the bowler as well." In overtime it is what pins him: "Hopefully that bowler gets off our tower man. Bowler chill out."
+<!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)
