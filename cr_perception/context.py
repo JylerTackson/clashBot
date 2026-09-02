@@ -370,15 +370,23 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str], vtt_
         deck = []
     # spells seen as deploy labels (either side) are candidates too: a spell's
     # tile cannot tell whose it was, so the commentary decides
-    spell_cands = {c for _, ctx in ctxs for c in ctx["own_deck_counts"].get("spell_labels", {})}
-    for c in spell_cands:
+    label_n: Counter = Counter()
+    for _, ctx in ctxs:
+        for c, k in ctx["own_deck_counts"].get("spell_labels", {}).items():
+            label_n[c] += k
+        for c, k in ctx["own_deck_counts"].get("label", {}).items():
+            label_n[c] += k
+    for c in label_n:
         if c not in score:
             score[c] = 0
             mentions[c] = all_m.get(c, 0)
     ranked = [c for c, _ in score.most_common()]
-    deck = ranked[:8]
+    if not mixed:
+        deck = ranked[:8]
     for cand in [c for c in ranked[8:] if c not in deck]:
-        if mentions.get(cand, 0) < 20:
+        # a card he names a lot; the bar is lower when deploy labels back it
+        # (auto-captions are deduplicated, so 8 mentions is already a lot)
+        if mentions.get(cand, 0) < (8 if label_n.get(cand, 0) >= 3 else 20):
             continue
         silent = [c for c in deck if mentions.get(c, 0) == 0]
         if not silent:
