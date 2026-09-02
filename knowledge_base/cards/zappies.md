@@ -181,6 +181,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:04 and 0:47: used as bridge pressure in the opposite lane to close the game ([13, 14] then [3, 14]) — "I'm going to zappies the bridge opposite lane" and "we have to go zappies at the bridge... Come on. Zappies on the tower. Let's go."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:12 to 1:59 (video 321.3s, 325.3s, 334.3s, tiles [5, 26], [4, 22], [4, 16]): the opponent's split-lane opener, called out as it happens — "Okay, he goes for the zappy split, but like I guess this could just be like a bridge spam deck" (327-331s). Ryley answers the left half with Berserker at [4, 11] (332.5s).
+- clock 1:23 to 0:07 (video 370.4s onward): Zappies keep walking the left lane all game; his standing answer is Electro Spirit plus Barbarian Barrel (379.9s at [4, 8], 381.9s at [3, 9]) rather than a spell.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zappies (scraped 2026-09-02T02:34:57+00:00)

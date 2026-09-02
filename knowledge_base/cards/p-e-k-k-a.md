@@ -154,6 +154,17 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - Mentioned only, never seen: he names the opponent's deck at 353-354s — "It looks like we're up against a PEKKA Ram Rider deck" — and at 398-402s predicts the cheaper option instead, "I think he's going to ram rider here and not go for like a PEKKA or anything." No P.E.K.K.A. appears in any detection this game.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:41 (video 292.3s, tile [12, 20]): the opponent's opening tank, identified immediately — "I guess he's playing with Pekka now. So, it doesn't seem to be really much of a toxic deck here, but I'm definitely going to be on the lookout, man" (293-299s). Ryley's answer is Skeletons as the distraction plus Barbarian Barrel for the support behind it (303-308s), never a dedicated counter.
+- clock 0:48 (video 405.4s, tile [5, 25]): a second P.E.K.K.A. behind the left lane, which he had already predicted as the risk of pushing hogs into the bridge — "Imagine if he just ignores this and rips a Pekka at the bridge. I don't think he'll be able to do all of that, though" (365-370s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 0:55 (opponent's card): corrects his own deck read when it appears - 'Okay, he has a Pekka and not a giant skeleton, which is interesting'; he answers it with Cannon cycles and Skeletons rather than a big spend.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/P.E.K.K.A. (scraped 2026-09-02T02:35:00+00:00)

@@ -142,6 +142,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - Mentioned, not played, and probably not the card he meant: the auto-transcript renders Goblinstein as "Goblin Giant" at t=113 ("Definitely going to go for the Goblin Giant here"), where the matching event two seconds earlier is a Goblinstein deploy label at tile [15, 9] with score 1.0. The balance-change lines at t=52 and t=61 — "the Goblin Giant got a little bit of a slap in the wrist nerf" and "it was more the presence of the card than the monster actually having too much HP" — use the same rendering and reference "the monster", so they most likely also refer to Goblinstein.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:35 (video 301s): mentioned only, as a guess at the opponent's list while the P.E.K.K.A. and Mother Witch were on the field — "What if it's like some Pekka Goblin Giant junk?" (299-301s). It never appears.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Giant (scraped 2026-09-02T02:35:02+00:00)

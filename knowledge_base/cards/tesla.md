@@ -147,6 +147,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - He plays his cheap chip away from it on purpose at clock 1:05 — "I don't want to give him tesla value so I think I'd rather bush in the opposite lane" — and counts a poor placement as a win at clock 0:59: "good evo tesla but at least I made him put it in a more awkward spot" (299-303s).
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 2:29 to 1:59: mentioned, never played and not in Ryley's deck - it is the card he believes the opponent thinks he has, and he values the bluff - "I don't think he's going to balloon cuz he's scared of us having a Tesla ... he would just assume that with the way that I'm playing, I probably have a Tesla in my deck, which is good for us. It's always good to keep that surprise factor."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

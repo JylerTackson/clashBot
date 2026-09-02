@@ -139,6 +139,19 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 1:53 (t=58-62): it is the reason he changes a placement — "maybe I should put it in the back, just because obviously with him having Bomb Tower, it can get very, very complicated."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:49 and 1:19 (opponent's card): he tracks its cycle explicitly as the thing that stops his hogs — "we won't be out cycling the bomb tower this time obviously cuz he didn't use it on the last defense" — and is happy to spend hogs just to force it out ("I know we can bomb tower, but it's just going to be nice to force this out").
+- clock 0:51: "Okay, he's back to bomb tower now. Good job, though. Forcing that out" — with the opponent's elixir estimate down to ~0.5, drawing the building out is the whole point of the hog pressure.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 1:49, 0:52 and OT 1:45: the opponent's Bomb Tower (tracked at [8, 17], [8, 18] and [3, 19]) is the counter Ryley respects most — "obviously has bomb[ tower] which is a better counter overall but of course we can just defend cheaper by not using our building at all" (t=772-776).
+- clock 0:58: he attacks its elixir cost rather than the building — "I'm just going to piggies immediately at five elixir. So if he steines the bridge ... he won't be able to afford the bomb tower" (t=785-790).
+- OT 1:55: and its cycle — "we're out cycling the bomb tower. He's back. And one more card. Okay, he's back now, but it's a little bit too late" (t=849-853), said while the enemy left tower fell from 3019 to 1727.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

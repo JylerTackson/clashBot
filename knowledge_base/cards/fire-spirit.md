@@ -91,6 +91,13 @@ Not specified on source page
 - Fire Spirit + Electro Spirit for 2 Elixir total kills Princess, Minions, Archers, Bomber and Firecracker, and can fully stop a Goblin Barrel with Crown Tower help; strong in Log/Arrows bait decks, and better than The Log on offense since it hits air.
 - Furnace (4 Elixir) spawns up to 7 Fire Spirits for more total value and consistent chip, but they arrive one at a time and cost more upfront, so it is far less versatile when you need immediate splash.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- Not a card in his deck this game — every Fire Spirit on the board is a Furnace spawn. He counts their chip as the payoff for holding a Furnace stack: "obviously we got more with the fire spirit, so I'm fine with taking that" (clock 0:25) and "I just want to tank for this fire spirit" (clock 0:08).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

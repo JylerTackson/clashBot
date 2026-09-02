@@ -190,6 +190,57 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - OT 0:28: the chained spawn is what grinds his defence down in overtime — "Uh, not enough though. Not enough. Dude, the Evo Skellies are just chaining" (t=966-971).
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock 2:10 (t=43s): layered on top of an already-placed Cannon at [6, 10] — "let's go for the cannon plus skele on top of the Royal Hogs."
+- clock 1:33 (t=80.6s) and clock 0:48 (t=125.1s): added last to a multi-card defence — "then we go for the skeletons as well" and "then skelly's off to the side as well."
+- overtime (t=213s, 274s): dropped inside the Graveyard cluster — "let's go for the skellies here inside as well. I just wanted to hit as many skeletons as possible" — and behind the final Barbarian Barrel on the closing push ("Skelly's behind").
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:32 (video 302.8s, tile [14, 15]): used as the tank distraction so the Barbarian Barrel could get its real target — "we go for the skeletons here as well, just to make sure that we distract the Pekka so the Barbarian B[arre]l can take out that mother witch" (303-308s).
+- clock 1:47 and 1:43 (video 345.3s, 351.0s, tile [14, 5]): cycled into the same right-lane push and then behind the Cannon against the Elixir Golem — "at least we're going to defend this easily with the skellies" (362s).
+- clock 0:56, 0:15 and 0:05 (video 398.6s, 439.9s, 450.6s, tiles [16, 6] and [7, 13]): 1-elixir cycle and distraction inside the Cannon / Barbarian Barrel chain that held the last 30 seconds — "Let's go for the furnace here and then we can go for the skelly as well" (396-398s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:49, 0:54, 0:28 and OT 1:55: the 1-elixir filler behind the Cannon on every defence ([9, 11], [9, 8], [5, 13], [7, 12]).
+- OT 1:55: named as the specific answer to a Goblinstein whose ability is already spent — "Let's go for the skellies here again because the Stein just got taken out before the ability really got any value."
+- clock 1:07: also used as a pure cycle card in the back at [2, 8] while he waits for the hog evolution.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 2:32: dropped onto ranged support — "and then we can go for the skeletons towards the archers" (t=690), deploy label at [7, 10] a second later.
+- clock 1:34: the cheapest layer of the Berserker + Barbarian Barrel defensive stack at [14, 9] (t=747.2), part of "I just dropped every single card in my deck" (t=752).
+- clock 0:38: played knowing they may bait a spell — "let's go for the skellies. He's going to lightning this. I think he kind of needs to" (t=805-806).
+- His most-played card of the game (eight placements at [7, 10], [14, 9], [13, 11], [2, 10], [10, 13], [14, 12], [16, 7], [8, 8]) — the card doing most of the outcycling he talks about at t=780-783.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 0:35: dropped at tile [8, 13] to drag an attacker off the Furnace - "actually let's go for the skellies up top like this just to try to bring that away."
+- overtime 1:59: sent to the bridge as a pull for the opponent's Evolved Inferno Dragon - "Let's skeleies the bridge for the evo inferno dragon" (deploy label at [12, 13]).
+- overtime 1:37 and 0:22: the reflex answer in the overtime defences - "Good defense at Skelly's here as well" and "We need a skellies. We need a barb barrel." Six deployments, all reactive pulls, none for cycle alone.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock 1:20: Skeletons at [9,12] immediately after the Cannon against Barbarians and evolved Elite Barbarians — 'Let's go for the cannon and then we can go for the skeletons here as well.'
+- clock 0:45: Skeletons at [1,7] (own elixir 8 -> 7) to hold the evolved Electro Dragon walking his left lane.
+- clock 0:28 and 0:22: Skeletons at [7,8] and [5,13], the second near the bridge, purely to keep bodies in front of his spawner — 'Let's go for the skellies here at the bridges. I just want to keep on tanking for this furnace.'
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 2:39: Skeletons at [6, 9] on the Bandit tracked ~4.5 s from the tower, the first answer of the game.
+- clock 1:23: stacked with the Berserker at [3, 12] on a Battle Ram - 'let's go for the skeletons and maybe the berserker here as well, just to take this off the board'.
+- clock 0:35 and 0:20: cheap resets at [3, 12] and [3, 9] during the triple-elixir defence - 'And we need to go for the skeletons'.
+- overtime 1:56: thrown in front of the P.E.K.K.A. - 'Let's go for the skellies towards the peek[a]'.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

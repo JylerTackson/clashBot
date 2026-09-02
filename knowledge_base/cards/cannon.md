@@ -153,6 +153,60 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - OT 1:34 (t=686-687): it is what stops his ground counter-push, and he cannot reposition around it — "Could I do it the Princess trick just to boost it away from the Cannon? Nope."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock 2:10 (t=41.5s) and clock 1:34 (t=79.1s): reactive placements at [9, 8] and [6, 7] against Royal Hogs and an Archers/Graveyard push — "let's go for the cannon plus skele on top of the Royal Hogs" and "okay, let's go for the cannon here."
+- clock 0:30 (t=142.6s): used as a cycle card in the middle ahead of a known threat — "let's cycle our cannon here in the middle cuz he's going to ste. Yep, there's the Stein."
+- clock 0:21 (t=152.2s): pushed up to [2, 12] near the bridge to close out a defence — "go for the cannon at the bridge here as well. Just make sure we finish this off."
+- overtime (t=190s, 248s): the evolved Cannon replaced a Lightning on the Goblinstein scientist ("let's just go for the evo cannon here just to take this out") and again in triple elixir ("Evo cannon here. Make sure we grab this. Nice").
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:47 and 2:41 (video 287.3s, 294.8s, tiles [6, 6] and [8, 8]): standard deep placements into the opening P.E.K.K.A. + Mother Witch + Hog Rider push, alongside Barbarian Barrel and Skeletons.
+- clock 1:45 (video 349.7s, tile [9, 8], elixir 8.0 -> 5.0): the anti-tank building against the Elixir Golem push, with Skeletons behind it — "at least we're going to defend this easily with the skellies" (362s).
+- clock 0:42, 0:23 and 0:12 (video 414.4s, 431.9s, 442.9s, tiles [9, 11], [7, 12], [6, 13]): he deliberately pushes the Cannon far higher than the usual 4-from-river placement so it blocks first and buys the follow-up spell — "let's go for a high cannon here just to block the bowler just so I can get the barbarian barrel down" (433-435s) and "We go for a cannon here. I'm going to cannon high up lowkey" (443-445s).
+- clock 0:37 (video 418s): he credits the Evo version for the pull — "It's Evo Cannon here. Nice. Great grab on that mother witch" (418-420s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:49: dropped at [9, 8] with Skeletons at [9, 11] against a four-hog Royal Hogs push (three separate 'tower in <5s' threats) — "Let's go for the cannon. We can skellies here too." His towers take no readable damage from it.
+- clock 0:11: played early and proactively to free elixir for the win condition — "I'm going to cannon here early though, and then we can go for the piggies."
+- clock 1:05: the reason he can spend it freely is cycle speed in double elixir — "In double elixir, though, obviously I'm able to cycle way more cannons, so it's not as much of an issue."
+- clock 0:49 and OT 1:31: the evolution slot ("I'm just going to go for the Evo cannon here", "let's evo cannon up top"), placed at [4, 4] and up near the bridge in overtime.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 1:49: states a rule for the evolved Cannon — "I do think that I want to try to defend without the cannon because obviously we don't want to use the evo cannon unless we're using it on the evolved royal hogs. Sometimes they're not really able to though, but it definitely is a good rule of thumb to try to follow by" (t=734-745).
+- clock 0:40: cycled early and placed deep at [8, 11] (HUD-confirmed, elixir 8 -> 5) as anti-Lightning spacing — "I guess I'm just going to cycle my cannon here early. I'm going to put it far away, though, so if he tries to lighten it, then he's not able to get value on top of my furnace" (t=795-802).
+- clock 0:35 and 0:28: he spends elixir to keep the Cannon alive rather than let it trade — Berserker at [16, 11] "just to keep this completely healthy" (t=808), then a fresh Cannon at [8, 8] plus Barbarian Barrel: "let's go for the cannon. Then we can go for the barbarian barrel here as well" (t=815-816). Against the four-hog split he adds "he's trying to abuse the cannon dying, but we're just not going to let it die" (t=821).
+- clock 2:32 and 0:05: also used as a plain cheap defensive building against the opening hog wave ([9, 8]) and as the last defensive spend of regular time — "Evo cannon up top as well, just to make sure that we take this all out" (t=839).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 0:30: normal reactive placement at tile [10, 10] after Skeletons pulled - "we can go for the cannon now. Beautiful. Wait, furnace lives maybe. Oh my god. Nice."
+- clock 0:25: a second Cannon at tile [8, 7], deliberately deep, used as a King Tower activation tool rather than as defence - "we can go for another cannon just to activate our king tower. Beautiful king tower activation." It fails four seconds later to the opponent's Zap.
+- overtime 1:57 and 1:43: Evolution Cannon cycled twice inside one defensive stand ([10, 9] then [9, 12]) against the Lava Hound / Balloon push - "Yep, let's evo cannon" and "We have to cannon up top like this."
+- overtime 0:29: cycled to Cannon again under pressure and he says the quiet part - "E spirit cannon up top. Cannon up top, please." Seven Cannons across the readable window; he never pre-places it.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock 1:22: Cannon at [8,9], reactively, against Barbarians plus evolved Elite Barbarians crossing in the left lane — 'we can even use our cannon to get to the evo cannon early on, which is nice. Let's go for the cannon and then we can go for the skeletons here as well' (Skeletons at [9,12] two seconds later).
+- clock 0:04: Cannon at [8,10] against the second Golem with evolved Barbarians and a Bomber behind it — 'Let's go for the Evo Cannon here. Just make sure that we splash everything.'
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 2:45 and 2:14: two centre Cannons ([8, 8], [8, 12]) as the opening defensive spend against Bandit / Battle Ram bridge spam - 'Let's go for the cannon here as well' (2:14).
+- clock 0:37: Cannon at [8, 10] anchors the triple-elixir defence alongside Barbarian Barrel, Skeletons, Electro Spirit and Berserker - 'let's go for the evo cannon here'.
+- clock 0:11: cycles a Cannon pre-emptively at [9, 9] against the P.E.K.K.A. - 'let's cycle a cannon here early. He's probably going to peck [P.E.K.K.A.] it in the back again'.
+- overtime 1:35-1:21: two more Cannons ([6, 9], [8, 11]) during the game-saving stand - 'We have to go for the evo cannon up top here' and 'Let's cannon here again in the middle'.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

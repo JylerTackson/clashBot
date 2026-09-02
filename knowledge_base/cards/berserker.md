@@ -171,6 +171,61 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:37: Berserker at tile [14, 10] as a pure block that turns into the winning damage — "We have to berserker to block. Oh my god, look at that damage." (No 3-elixir ability drop appears in this game, so nothing here confirms the Hero variant.)
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock 2:24 (t=30s): dropped at [15, 13], one tile behind the bridge, the instant Royal Hogs appeared on the right.
+- clock 1:51 (t=62.7s): pre-placed at [1, 7] with no threat on the field — "I'm going to berserker preemptively for the piggies cuz he might try to go in... I thought he may try to go for a set of piggies because we didn't have a cannon cycle."
+- clock 1:30 (t=83.6s): placed high at [6, 14] against Archers plus Graveyard — "we have to go for a high berserker just to make sure that we grab all of these"; at t=132s a walk-up version failed ("Oh, I was hoping the Berserker would get up in time").
+- overtime (t=148.6s, 241.4s, 250.2s): behind the defensive stack at [3, 5] ("let's put the Berserker in the back as well"), at the bridge [4, 15] ("let's go for the berserker here at the bridge") and "off to the side" at [5, 4].
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:02 (video 332.5s, tile [4, 11], elixir 9.0 -> 7.0): played into the left half of the opponent's split Zappies.
+- clock 0:42 (video 411-417s, tiles [8, 0] and a HUD -2): he names her as his entire damage output against a beatdown deck — "he has so much tankage while I just have no DPS. Like, I just have a berserker ability. I think I'll be fine though, to be honest" (409-416s).
+- clock 0:33 and 0:27 (video 421.6s, 428.4s, tile [1, 13]): the Hero ability (Savage Survival, 3 elixir) is used purely to keep her alive through a defence, not for burst — "I'm going to berserker ability just cuz I I don't want it to die right away. Like, I need this to put in some work, man" (422-425s) and "Berserker again. Ability, too, just to keep it alive another time" (428-430s). The 428.4s drop of ~5 elixir (HUD called it Fireball) is the Berserker plus her ability.
+- clock 0:18 and 0:05 (video 438.9s, 449.9s, tiles [1, 15] and [3, 10]): dropped on the river tile as a pre-block against an expected big play — "Let's berserker here the bridge cuz he might try to [rocket]. So, I need to block" (440-441s) — and then one last time to hold the final push: "Let's go for a berserker. These are going to live though. We defended everything" (451-452s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:33: he explicitly declines the Hero ability while placing her at [2, 10] — "Let's go for the berserker as well. The ability just wouldn't be that great of a play" — i.e. 3 elixir on Savage Survival is not worth it when she is only trailing a defence.
+- clock 0:44, 0:29 and OT 1:27: always a cheap trailing troop behind the real answer ([1, 9], [3, 8], [4, 12]), announced as an afterthought — "Then we go for a late berserker."
+- clock 0:03: paired with the Barbarian Barrel as regular time expires — "Let's go for our barbar barrel. And then we can go for the berserker as well."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 2:12: first defensive Berserker at [15, 10] (elixir 6 -> 4) alongside Electro Spirit and Cannon — "let's go for the berserker here. Let's go for the east spirit. Then we go for the cannon up top as well" (t=706-710).
+- clock 2:11: considers the Hero ability but declines — "I might try to go for the ability, but this is a good cannon here. He could go for the ability, but that should counter very nicely" (t=711-714); later, after an ability is used, "that was a really bad ability. I'm not really a fan of that ability" (t=812-813).
+- clock 1:33: part of the all-in defensive stack at [14, 10] with Skeletons and Barbarian Barrel against a Barbarian — "I'm going to skellies here. Let's go for the berserker. Let's barrel" (t=748-750), which is exactly what frees the Royal Hogs counterpush 5 s later.
+- clock 0:35 and 0:20: used as a 2-elixir bodyguard rather than a threat — [16, 11] to keep the Cannon healthy (t=807.1) and [16, 14] to finish the right-lane support (t=822.3).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:27: back-placed at tile [8, 0] as a cheap threat that has to be answered - "I'm definitely going to go for the Berserker in the back here on the left side" - and the opponent duly spends Guards at clock 1:20.
+- clock 0:51: the reason he can afford to back-place a Furnace behind it - "It's not like he can just ignore my berserker."
+- overtime 1:49: used as a 2-elixir tank in front of a Lava Hound push at tile [11, 11] - "Let's berserk here to tank for everything. He might try to balloon ability. So, it's a good berserk."
+- overtime ~0:47: this is the Hero variant (Heroic Berserker, 2 elixir plus a 3-elixir Savage Survival ability that empties no hand slot). He plays her at tile [3, 13] and pops the ability immediately - "It's Berserker here. I'm going to go for the ability here as well" - which accounts for some of the unexplained own -3/-2 elixir drops in the event log.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock 1:58: Berserker at [7,11] with an Electro Spirit on the same tile to body-block a Golem push already inside his half (own elixir 7 -> 5) — 'We need a berserker here to block. Yeah, good thing that we were quick with the reactions.'
+- clock 0:57: Berserker dropped at the bridge [3,15] as a prediction — 'let's Berserker predicting maybe a golem in the back' (the opponent answered with Skeleton Dragons instead).
+- clock 0:42 and 0:23: Berserker placed high on his own half ([8,13], then [1,11]) to meet Skeleton Dragon and Electro Dragon waves before they reach the tower — 'I think let's go for the high berserker to block this. He tried to predict us.'
+- overtime 1:58: Berserker at [8,15] with the ability popped against evolved Barbarians — 'Let's go for the berserker up top. Let's pop our ability to just make sure that we take out these ebarbs. Nice.'
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 1:23: stacks Berserker with Skeletons at [3, 12] on a Battle Ram and keeps the 3-elixir Savage Survival in reserve - 'let's go for the skeletons and maybe the berserker here as well, just to take this off the board... Could always pop the ability if he gives me an opportunity here'.
+- clock 1:05: the ability is denied by placement, and he credits the opponent - 'he actually made it so I definitely could not get an ability off because he put the mother witch in the middle so I wouldn't be able to kill it, which is smart'.
+- overtime 1:51-1:44: Berserker plus ability played specifically around the Electro Wizard reset - 'I think I'm going to berserker ability cuz he has the e-whiz'; she ignores the Royal Ghost and takes the enemy left tower from 4532 to 1710 - 'it's going ahead and killing the tower. I mean, I guess I'll take that, too. But I think I would have rather it go over and take out the ghost'.
+- overtime 1:11: deployed at [13, 13] as the Royal Hogs escort with the ability on top - 'Let's ability as well so we can take out that golden knight'.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

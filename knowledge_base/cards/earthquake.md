@@ -105,6 +105,13 @@ This card appears in 2 of 19 scraped decks:
 - **[Cycle](../archetypes/cycle.md)** — 2 deck(s): [EvoRHogs AQ EvoCannon 2.9 Cycle](../decks/archer-queen-cannon-earthquake-ice-spirit-royal-delivery-royal-hogs-skeletons-the-log.md), [Hog MM EvoCannon 2.6 Cycle](../decks/barbarian-barrel-cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:35 onward (video 298.4s and roughly every ten seconds to 442.4s): logged repeatedly against Ryley but always at the same arena-corner tile [14, 30], which marks it as a persistent detector false positive rather than eight-plus casts. He never mentions the spell, and none of his buildings visibly died to it.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Earthquake (scraped 2026-09-02T02:35:17+00:00)

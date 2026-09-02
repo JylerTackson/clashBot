@@ -124,6 +124,63 @@ Furnace's movement speed is decreased to 0, preventing it from moving.
 
 This card has an evolution: see [furnace-evolution.md](../evolutions/furnace-evolution.md). Cycles to evolve: 2. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock ~2:38 (t=16s): opening play in the back corner at [9, 0], HUD elixir 10→6.
+- overtime (t=172s, 224s): played early specifically when the opponent's Poison was out of cycle — "I'm going to furnace early because he doesn't have the poison and cycle since he did end up using it. So, he can start stacking furnaces" and "I think I'm going to furnace preemptively just because he doesn't have the poisoning cycle."
+- clock 0:52 (t=241s): treated as a defensive card in triple elixir — "we can definitely go for the furnace in the back corner as well just to help out on defense"; at t=231s he hoped a Fire Spirit would splash the incoming push ("No, it's not going to splash").
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:15 (video 320.3s, tile [9, 0]): dropped directly behind his own King Tower at 10 elixir as scouting filler — "Okay, let's just go for the furnace here. See what this man wants to do" (320-322s).
+- clock 0:58 and 0:40 (video 395.6s, 413.9s, tiles [9, 1] and [1, 1], elixir 8.0 -> 4.0): the same free-elixir King Tower placement, cycled ahead of a Skeletons/Royal Hogs sequence — "Let's go for the furnace here and then we can go for the skelly as well" (396-398s).
+- clock 0:25 (video 429.9s, tile [8, 8]): the one mid-board Furnace, put down inside the final defence rather than as chip — "Let's go for another furnace here" (430-431s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:35, 1:01, 0:35, 0:19, 0:10 and OT 1:47: pre-placed in the back over and over ([8, 10], [8, 0], [1, 6], [9, 0]) — he treats stacking Furnaces as the structural answer to bridge Goblinsteins: "I definitely want to be stacking up my furnaces for that reason" (t=566).
+- clock 0:35: a Furnace is placed purely as insurance against the opponent's mirror win condition — "I'm gonna preemptively furnace in case he tries to evo piggies, too. He can't even. Yep. Nice."
+- clock 0:19: he rotates the stack to the damaged lane — "we can just preemptively furnace in the back again. I do think I want to start cycling my furnaces on the left side."
+- OT 1:37: once he is counterattacking the Furnace moves forward to [8, 13] — "let's go for the high furnace here" — so the Fire Spirits feed the hog push instead of only defending.
+- clock 0:25: the spawned Fire Spirits are how he justifies taking tower chip on defence — "we take a bit of damage, but obviously we got more with the fire spirit, so I'm fine with taking that."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- Placed six times across the game (t=678.7 [1, 1], t=711.2 [9, 0], t=724.7 [9, 8], t=800.3 [13, 2], t=817.8 [15, 8], t=836.8 [9, 8], t=859.9 [9, 7]) — he keeps one on the board almost continuously rather than treating it as a situational card.
+- clock 1:58: pre-placed centrally as bait for split hogs — "I have my furnace ready here though cuz you might end up splitting the Royal Hogs with furnace on the right" (t=723-725).
+- clock 0:42 and 0:25: spaced deliberately away from his Cannon so one Lightning cannot hit both — "I'm going to put it [the cannon] far away, though, so if he tries to lighten it, then he's not able to get value on top of my furnace" (t=799-802); and re-placed under pressure, "we need to get another furnace down cuz he's trying to abuse the cannon dying" (t=819).
+- OT 1:45: the Fire Spirit chip is what closes the game — "furnace is going to live. He needs to watch out for the fire spirit splashing the tower. Nice. We get one on the tower right there" (t=855-859); he also treats it as a deterrent, "I don't think he's going to ste[ine] the bridge either with us having a furnace on the board" (t=843).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:16: placed at tile [7, 11] right behind a Royal Hogs set as the chip engine - "we can go for the furnace as well ... And now the furnace is going to be able to take out this unless he wants to respond" - the opponent responds with an Inferno Dragon at clock 1:07.
+- clock 0:51: back-placed at tile [9, 0] while a Berserker is already walking, as an unignorable elixir sink - "go for the furnace in the back because he still needs to defend that. It's not like he can just ignore my berserker."
+- clock 0:31 and overtime 1:49 / 1:10 / 0:55: re-placed at tiles [16, 6], [16, 2], [7, 8], [8, 8] on nearly every rotation - five separate Furnaces in a 235 s window; it is the deck's second win condition and everything else is arranged around protecting it from Fireball.
+- overtime 0:45: he times Royal Hogs specifically so the opponent's Fireball has to be spent elsewhere - "he needs to fireball this, but then he won't be able to fireball our furnace." He also flags the matchup problem at clock 1:38: the opponent's Heroic Valkyrie "is going to be able to go up to our furnace offensively if he plays it properly, which is going to be really annoying."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock 0:54 and 0:27: two Furnaces placed all the way in the back ([8,0], then [6,3]) at moments when he was ahead on the exchange — 'Then we can go for another furnace all the way in the back. Just never really giving him a good opportunity to build up anything.'
+- clock 0:36: his rule for the card — 'It's just always good to have a furnace down. It kind of gives princess vibes from log bait where I just always want one of them on the board at all times pretty much.'
+- clock 0:10: the accumulated Fire Spirits are what beat the second Golem — 'look at these furnaces, guys. They're just going to take out the entire golem before it really even crosses the bridge. It's already so low HP.'
+- overtime 1:54: a third Furnace at [8,6] straight after the defence held — 'We can go for a low furnace here. And this is just a completely perfect defense.'
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 1:44: Furnace in the middle at [9, 8] as the double-elixir defensive anchor - 'Let's go for the furnace here in the middle'.
+- clock 1:42: spends an Electro Spirit purely to protect it - 'we can go for the east [electro] spirit here as well, just to make sure that we keep that furnace alive from the bandit'.
+- clock 0:47: picks the Furnace lane by what the opponent can punish, playing it at [9, 6] away from the threat - 'we need to furnace in the opposite lane cuz if I furnace on the left side lane, then he's just going to hit us with a golden knight. So, I may as well just go on the other side'.
+- overtime 1:19-1:13: keeps units funnelling into it rather than protecting its HP - 'I need these to keep coming towards the furnace so my furnace can stay active and well, not not even really stay healthy, just stay active, man. Just stay dealing damage'.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

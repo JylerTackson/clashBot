@@ -151,6 +151,50 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:16 (t=156-159): he plays around it in advance by centring the Dart Goblin — "I will put it in the middle just to not give him any extra lightning value on the other side."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock 1:44 (t=69.6s): cast at [2, 24] on the opponent's left-side stack, taking their left tower 4858→4435 — "I will lightning this down as well. Good lightning there."
+- clock 0:57-0:52 (t=115-118s): explicitly declined it against a freshly placed Bomb Tower — "I'm not going to lightning though. I do think that lightning would not be the greatest play"; again at t=189s he cycled an evolved Cannon instead of Lightning-ing the Goblinstein scientist.
+- overtime (t=161s, 203s, 260s, 276s): used as the follow-up behind every hogs set — at [4, 20] to "try to grab the bomb tower", at [3, 22] to "try to hit the scientist" (enemy left tower 4012→2881), at [2, 24] to "make sure to grab those archers" (2340→717), and at [2, 28] for the kill ("We can LIGHT AGAIN. WE GOT IT, BRO").
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock ~1:43 (video 351.4s): a deploy label 'LigHtNiNg' (score 1.0) puts the spell on tile [4, 15], the left river tile the big Elixir Golem was walking down, in the same window as a Cannon at [9, 8] and Skeletons. He never names the card in this game and his elixir bar only supports about 4 elixir of extra spend there, so treat the cast as probable rather than confirmed (see the match file's Data gaps). It is the deck's namesake card and the only one he did not visibly get value from in this game.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:39: held all game as the planned finisher on top of the evolved hogs — "if we get a really really good timed Evo Piggy's lightning, then we could just outright win."
+- OT 1:47-1:43: the only Lightning deploy label of the game is at [13, 20] on the opponent's side, and immediately after it he stops trying to force the spell — "Oh, that was a good prediction. I'm not even going to lightning now. I was about a lightning, but after that prediction, I think I just need to fall back and accept that he kind of got me good." He then wins on hog chip instead.
+- Caveat: a 6-elixir Lightning never matches a clean HUD elixir drop in this game (the t=539.4 HUD read shows -2), so its timing rests on the deploy label and the commentary.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- Never cast in this game — it sits in hand across nearly every HUD read and no 6-elixir drop appears in the event list; it is mentioned only as the spell he expects from the opponent's mirror deck.
+- clock 0:44: it shapes his building placement — "I'm going to put it [the cannon] far away, though, so if he tries to lighten it, then he's not able to get value on top of my furnace" (t=799-802).
+- clock 0:38: he baits it deliberately with a 1-elixir card — "let's go for the skellies. He's going to lightning this. I think he kind of needs to" (t=803-806).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- overtime clock 1:57: the only confirmed cast (deploy label at tile [14, 16], right lane at the river), spent on defence against the opponent's Evolved Inferno Dragon inside a Lava Hound push - "we can go for the lightning as well here ... I had to do that just to take out the evo inferno dragon. Otherwise, I think I would have just gotten completely slammed."
+- Held through all of regular time despite sitting in hand from clock 1:37 onward - in this deck it is the emergency answer to the opponent's big air support, not a tower-chip spell. A second HUD-only Lightning read at overtime 1:18 conflicts with three deploy labels in the same 3 s and is not counted.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock ~1:45: Lightning on the support behind a Golem push that was already in his half (own elixir 6 -> 2) — 'It's lightning here. Okay, good lightning there just to kind of hold on', and at 1:42 'it would have literally been impossible to defend that without the lightning.' He still paid ~1,200 tower HP for the hold.
+- clock 1:42: because Lightning was spent on defence he passes on punishing the opponent's Elixir Collector — 'I know we can go for an elixir collector now, but it would have literally been impossible to defend that without the lightning.'
+- overtime 1:45: Lightning at [3,20] as the finisher on the already-broken left tower (own elixir 6 -> 1; tower 852 -> 429) — 'We just need one more lightning on his. I think he's going to give up.' The opponent left immediately after.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- Held all game and cast exactly once. overtime 0:54: Lightning at [16, 25] on the enemy right tower after the Berserker + Royal Hogs push had left it at 366 HP - 'All he can do is block with the battle ram. Okay, he can't block anymore. So just go for the lightning. Let's go'; the video's outro follows three seconds later.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

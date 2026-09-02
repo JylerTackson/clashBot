@@ -172,6 +172,12 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - Not in this deck: the -2 HUD play at t=1058.4 is read as Zap, but the 'DaRt GobliN' deploy label at [3, 19] lands 0.3 s earlier and Ryley says "I'm going to go for the Dark [Dart] Goblin on the King Tower". Zap is not in the video-level consensus deck and is never mentioned.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 0:17: the single play Ryley credits for the game turning - "it didn't actually activate because of the zap. That was actually a really smart zap by him. Him going for the zap like that made it so the lava hound like wasn't tanking for the tower which made the balloon not have enough HP to activate the king. Damn, that was really good by him. Have to give him some credit there."
+- clock 1:14: also the forced answer to his Royal Hogs set - "He has to zap here, but that's going to get taken out." Note: the per-game deck read wrongly put Zap in Ryley's own deck; every Zap mention in this game is about the opponent's.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

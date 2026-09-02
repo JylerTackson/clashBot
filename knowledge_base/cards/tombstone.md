@@ -175,6 +175,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - Not in this deck: the -3 HUD play at t=1032.5 in this game is read as Tombstone, but it coincides with a 'SkeletoNARMY' deploy label at [14, 12] and with "Just go for the Skarmy here", so it is a Skeleton Army (same 3 elixir). Tombstone is not in the video-level consensus deck and is never played or mentioned in this game.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:51 and 1:25: mentioned only as a card he is guessing about in the opponent's deck - "I don't think he plays with tombstone. I mean, maybe he started, but I don't think so" and "He may go for a tombstone if he has it, but if not then I think he'll guards." It never appears; the HUD hand reads that name Tombstone in Ryley's own hand are misreads.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

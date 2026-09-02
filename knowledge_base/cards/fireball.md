@@ -189,6 +189,13 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:36: the winning Goblin Barrel is thrown into the expected Fireball — "I'm going to barrel cuz he's going to fireball. Yep, he fireballed. Now, I don't think he has enough elixir to defend."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:31: tracked as spent, which is his cue to commit the win condition - "he wasted the fireball though. I think I could maybe get a good set of Evo Piggies."
+- overtime 0:45: the whole point of the Royal Hogs placement is to make Fireball unavailable for the Furnace - "he needs to fireball this, but then he won't be able to fireball our furnace, which is really good for us."
+- overtime 0:57: "He used to zap though, so he's going to have to fireball this. Ooh, good timing by him." Named in commentary only - no deploy label or track.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

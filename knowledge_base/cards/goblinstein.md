@@ -135,6 +135,12 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:22 (t=150): acknowledges a second one without changing plan — "good Stein but it's okay. Go for the Berserker here." The card is never labelled by the detector, only named in commentary.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:15-1:05 (opponent's card): named as the one thing that can actually beat this deck later — "something that I do have to be careful of in the future is just those Steins at the bridge, cuz while it wasn't that detrimental now because I'm up so much, it could be really really bad for us later" — with Furnace stacking and fast Cannon cycling as his two answers.
+- clock 0:03 and OT 1:55: he calls out the common misplay twice when the opponent pops the ability at the wrong moment — "Bad Stein ability. That was just really bad" and "the Stein just got taken out before the ability really got any value. I have noticed people making that mistake with Stein a lot." His counter is 1-elixir Skeletons once the ability is spent.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

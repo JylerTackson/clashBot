@@ -153,6 +153,63 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 2:39 (opponent): committed into Ryley's left lane, tracked [4, 15] -> [4, 11] with the threat model calling the tower in 2.5 s. Ryley does not react to it in commentary - he is busy describing the opponent's deck - and answers with a 1-elixir Ice Spirit while sitting at 8 elixir.
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock 1:02 (t=111s): sent the hogs on the right lane and immediately forced the Bomb Tower out of hand — "nice timing there with the pig. He's going to have to go for the bomb tower"; he then refused to spend Lightning on that lone building.
+- clock 0:37 (t=137s): held the evolved set rather than throwing it at a defended lane — "we do have a set of evil piggies. I'm not going to play them yet, though. Don't want to be going for them too randomly."
+- overtime (t=160s, 178s, 202s, 265s): four sets at the left-bridge tile [2, 15], each cycled the moment the opponent had spent — "I didn't want a piggies before obviously because we would have been going into things. But let's go for the evo piggies now" (t=158s) and "Let's go for another set of piggies right away. Don't want to give him a chance" (t=178s).
+- clock 0:42-0:25 (t=252-268s): timed the last two sets purely off the opponent's cycle — "I need to evo piggies now cuz he's going to poison that four... he can't afford bomb tower, guys. The piggies are going to land on the tower" and "I'm going to piggies now cuz he's going to try to ste graveyard"; the win came from it ("Two amazingly timed Royal Hogs to secure the win", t=280s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:50 (video 284.8s): opened the game with them alone at tile [8, 13], one tile off centre at the bridge, so they split 3/1 across both lanes; the tracker carried hogs to [2, 22] and [12, 22] and the enemy left tower fell 4858 -> 3560 by clock 2:32. No commentary on the play — he was still scouting the opponent.
+- clock 1:59 (video 334.8s): right-lane Hogs from deep, deploy labels at [12, 5] and [15, 13] — "Let's go for the Royal Hogs" (336s). Enemy right tower 4740 -> 3560 between 342s and 348s.
+- clock 1:31 (video 363.4s): left-lane Hogs put down at the bridge with no support — "We do have Evo Piggies as well. I think I'm just going to Evo Piggies here straight up. Imagine if he just ignores this and rips a Pekka at the bridge" (363-367s). Enemy left tower 3560 -> 2144 by 376s.
+- clock 0:55 (video 399.9s): Hogs as a punish the moment he read the opponent investing behind — "I'm going to piggies cuz I think he's going to peek at the back right now. Yep. ... Great prediction right there" (399-403s). Enemy left tower 2144 -> 1200 by 410s. Every point of tower damage in this game came from solo Royal Hogs drops; he never played a support card behind them.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:30, 0:55, 0:18, 0:11 and OT 1:50, 1:35: every set of evolved hogs goes to the same right-lane bridge tile ([15, 13] / [15, 15] / [15, 12] deploy labels), each landing within about a second of him calling it — "I'm just going to evo piggies as soon as I can", "let's evo piggies here", "I'm going to piggies again lowkey cuz I did outcycle him".
+- clock 1:25: hogs spent as an elixir drain rather than a kill attempt — "I know we can bomb tower, but it's just going to be nice to force this out. Yeah, good job forcing out that elixir."
+- clock 1:39: the stated win plan is hogs plus a spell, held for the evolution — "if we get a really really good timed Evo Piggy's lightning, then we could just outright win."
+- OT 1:37-1:25: the overtime hogs are what actually close the game — the enemy right tower falls 1836 -> 1364 -> 1010 -> 184 while he says "Look at those piggies though. Those piggies are still cooking."
+- Mirror matchup: the opponent runs evolved Royal Hogs too (a four-hog push into Ryley's half at clock 1:49, another at OT 1:55). Ryley answers them with Cannon + Skeletons, never a spell, and pre-places a Furnace "in case he tries to evo piggies, too" (clock 0:35).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 2:47: the opener at max elixir, deploy label at tile [7, 11] with elixir 10 -> 5 — "start off with the Royal Hogs here" (t=675); the opponent mirrored it at the bridge in the same second.
+- clock 2:04: states the timing rule he then follows all game — "I do think I want to try to time my Royal Hogs with when he's out cycling us so I don't take too much damage" (t=719-721).
+- clock 1:29: the payoff play — after emptying his hand on defence he sends them left at [2, 13] (elixir 9.3 -> 4.3): "because I dropped all these cards, guys, I can go for the immediate evil piggies on the left side here. He's going to have to defend the berserker and the barbarian barrel, but he also doesn't have bomb tower and cycle either for those evil piggies. That is going to be a ton of damage" (t=754-763). Enemy left tower 4386 -> 3019 within 15 s.
+- clock 0:58 and 0:08: used for elixir denial and for lane choice — "I'm just going to piggies immediately at five elixir. So if he steines the bridge ... he won't be able to afford the bomb tower" (t=785-790), and later on the right at [13, 10] "cuz it's going to help protect the furnace ... we still need one more piggies to get to the EVO" (t=830-836).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:55: split at the centre of the river (deploy label at tile [7, 15]) purely to tax answers - "going to split my Royal Hogs here just to be annoying. He's going to have to fireball and maybe guards cuz I don't think he plays with tombstone."
+- clock 1:17: full left-lane set at tile [2, 15] immediately after the opponent has spent Fireball - "go for the immediate evo piggies cuz he might skelly drags a bit lower. And yeah, this is really good. He has to zap here" - the enemy left tower falls 3914 -> 2852 between clock 1:10 and clock 1:05.
+- overtime clock 1:32: replayed straight off a survived Lava Hound push at tile [6, 13] - "Let's Piggy's here again. Just have to keep up the pressure. And now he's going to Valkyrie, but I need some damage, man."
+- overtime clock 0:45: used as a spell magnet to protect the spawner, at tile [2, 14] behind a Berserker - "I'm going to go for the piggies because he needs to fireball this, but then he won't be able to fireball our furnace, which is really good for us." Note: all eight Royal Hogs deploy labels in this game were mis-attributed to the opponent by the pipeline and mis-read as 'Rage' in the HUD hand; they are Ryley's, on his own half, matching his commentary.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock 1:34: Royal Hogs at [2,13] in the left lane in front of his Furnace while the Golem player was rebuilding — 'I can always piggies in front of my furnace last second... I think I'm going to do it anyways just to force out the ebarbs from him and he can grab some decent damage on the tower as well cuz no way that he just ends up ignoring this' (enemy left tower 4150 -> 3678).
+- clock 0:18: Royal Hogs again at [2,14] after the opponent committed Skeleton Dragons and Electro Dragon on defence — 'Okay, hold on. I'm still going to go in just because he went with those. Like our furnace is able to take them out.'
+- clock 1:08 (not yet played): he holds the evolution as the reason the Golem player can never stabilise — 'we have the Evo Piggies coming up too... all it really takes is one good defensive sequence from us and it will be nearly impossible for him to go in for another golem push', and at 0:52 counts rotation with it: 'now he doesn't have the skelly drags for the evo piggies.'
+- clock 0:12: with the evolution active he narrates the Hog Flight jumps as they clear the defence — 'Come on, Fire Spear. Jump. One, two. Beautiful jumps' (enemy left tower 2829 -> ~258 in the next 7 s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 2:29-2:15: holds the Royal Hogs through all of single elixir against a spell-less bridge-spam deck - 'I have Royal Hogs here, but I don't really want to do it if he has that giant skelly deck cuz there's no point for me to like risk anything cuz with him not having any spells, I feel like I can just defend, get to my evil [evo] royal hogs and like double elixir and just chill'.
+- clock 1:52: first set goes down at the bridge, tile [15, 15], on the double-elixir switch (elixir 9 -> 4); enemy right tower 4858 -> 4504 over the next 20 s - 'Let's go for the piggies here at the bridge though. Yeah, especially after that. That's good timing.'
+- clock 0:18: chips with a second set at [15, 10] and accepts a small return - 'that one piggy is kind of lame, but I mean, only grabbing one or two nibbles is not the end of the world'.
+- overtime 1:10: the deciding push is Royal Hogs at [15, 10] behind a Berserker plus her ability - 'Let's go for the berserker plus royal hogs here. Definitely want to go in for a push here'; the enemy right tower falls from 3229 to 366 HP and a Lightning finishes it at 0:54.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

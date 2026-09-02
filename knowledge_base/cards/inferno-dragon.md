@@ -153,6 +153,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:45: the Evolved version is the thing he plays around for the rest of the game — "I have to watch out for that Evo Inferno Dragon, cuz that Evo Inferno Dragon has a lot of aura. It can get really, really scary", and at clock 0:31, "I know he's going to Evo Inferno Dragon in a second, but it's okay."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:07: played as the answer to Ryley's Furnace push, which he reads as a good trade for him - "which he does actually respond with the inferno dragon, which is very nice for us actually."
+- overtime 1:57: the Evolution version forces out his Lightning - "I had to do that just to take out the evo inferno dragon. Otherwise, I think I would have just gotten completely slammed." Tracks recur at t=1094, 1106, 1130, 1135, 1141, 1144 through the overtime pushes.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

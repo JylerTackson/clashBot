@@ -144,6 +144,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - clock 1:20 and clock 1:04 (t=780.3 at (9, 9), t=802.8 at (15, 15)): the evolution as the escort in the overtime push — "We need to go for like a Baby Dragon down the middle here and then a Balloon" (779-782s) and "I'm just going to keep bridge spamming and Baby Dragon and Inferno Dragon. Let's go!" (802-805s). It is half the deck's whole plan in his telling: "they just get to the evo inferno dragon, the evo baby dragon, and you're winning, and then they just completely take your tower in one push" (657-664s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 1:53 to 1:47 (video 340.3s, 346.3s, tiles [14, 22] and [14, 23]): the opponent's Evo Baby Dragon runs the right lane and takes Ryley's right tower from 4858 to 4051 between 356s and 362s, the only sustained damage he conceded. "He has a baby dragon evo" (342s).
+- clock 0:58 to 0:52 (video 395.4s, 401.4s): a second right-lane Baby Dragon, which he answers with Furnace plus Skeletons rather than a spell.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

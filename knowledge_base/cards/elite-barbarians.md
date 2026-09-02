@@ -198,6 +198,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - Mentioned only. He raises the matchup unprompted while pitching the deck and then immediately qualifies it: "you have a good, you know, match-up against E-Barb. Well, maybe not good match against E-Barbs, but you have the bowler, you know, you can always freeze the berserker and the Valkyrie" (610-618s) — i.e. Bowler plus Freeze is the plan, not a clean counter.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 1:57 (video 338s): mentioned only, as a joke about how expensive the opponent's deck looked — "Watch him have like Ebarb somehow and he has just like a million elixir cards" (338-340s). They never appear.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

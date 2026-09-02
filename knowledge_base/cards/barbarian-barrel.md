@@ -200,6 +200,59 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 1:26 (t=88-91): he blames it for the opponent's failed King activation — "since he had a Barbarian Barrel, he was not able to grab that King activation."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock 1:34 (t=79.2s) and clock 0:47 (t=122.1s): rolled through the Graveyard/Archers cluster at [3, 2] and [3, 4] alongside Electro Spirit — "just to make sure that we grab these."
+- clock 0:20 (t=147.5s): he singles out the timing on a defence — "Great barbarian barrel timing actually with that."
+- overtime (t=216s): used on a Graveyard and rated by shots denied — "we just need to go for the barbarian barrel here. Only two shots. Not bad."
+- clock 0:20 (t=272s): first card of the closing defence before the winning hogs connected — "Let's go for the barbarian barrel. Skelly's behind. The piggies are on the tower."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:37 and 2:33 (video 297.6s, 301.3s, tile [14, 9], elixir 8.0 -> 6.0 then 7.0 -> 5.0): the support-killer in a two-card defence where something else holds the tank — "Let's go for the barrel. Then we go for the skeletons here as well, just to make sure that we distract the Pekka so the Barbarian B[arre]l can take out that mother witch" (303-308s).
+- clock 1:12 (video 381.9s, tile [3, 9], elixir 5.0 -> 3.0): rolled into the left-lane Zappies and Little Prince walking down on him, paired with an Electro Spirit at [4, 8].
+- clock 0:33, 0:20 and 0:08 (video 419.4s, 433.9s, 445.4s, tiles [7, 12], [4, 13], [4, 12]): chained directly off a high Cannon during the final defence — "a high cannon here just to block the bowler just so I can get the barbarian barrel down" (433-436s), "Go for a barbarian barrel here as well. Oh my defense" (445-447s). He cycled it six-plus times in 176 s; it is the deck's only splash answer.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:55: his standing answer to the opponent's Evo Archers, rolled at the bridge — "Let's barbarian barrel the bridge here just to make sure that we take out these archers."
+- clock 1:10 and 0:38: repeated against the same card at [14, 13] and [3, 12] — "Let's barbarian barrel here" comes straight after the warning about Evo Archers plus Goblinstein at the bridge.
+- clock 0:29 and 0:03: also used further back as the first card of a defensive stack ([4, 6]) and as a same-lane trade when the opponent barrels him ("He's going to get a barbarian barrel down here. Let's go for our barbar barrel").
+- Hero note: no Rowdy Reroll activation is visible in the events and he never mentions the barrel's ability in this game.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 2:28: the answer to the first Royal Hogs wave, rolled on his own half at [8, 9] — "let's go for the barbarian barrel here. This should be a fine defense" (t=694-696).
+- clock 1:33: stacked with Skeletons and Berserker at [14, 9] against a Barbarian, part of dumping his whole hand on defence (t=748-752).
+- clock 0:27 and 0:08: paired with the Cannon rather than used for tower chip — "then we can go for the barbarian barrel here as well" ([8, 8], t=814.3) and again at [13, 11] behind the right-lane piggies (t=834.3). All five plays this game are on his own half.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:02: rolled at tile [7, 9] as a body, not as a clear - "Let's go for the barbarian brow here as well. Just a tank for these skeleton dragons."
+- overtime 1:43: part of a three-card block in front of the Lava Hound - "We have to go for a barbarian barrel and an e spirit too just to keep tanking for this and maybe block a bit."
+- overtime ~1:08: he cares about landing it in front of the push rather than on it, and times the roll - "Definitely going to try to get a barbarian barrel in front. I don't know if it's going to get in front in time. Oh my god, it did. Nice. Okay, that's huge."
+- Nine deployments in 235 s ([13, 14], [7, 9], [13, 6], [14, 3], [10, 7], [14, 7], [3, 14], [6, 6]) - in this deck it is the ground-swarm answer and the cheap tank, never a tower-chip tool. May be the Hero variant (Rowdy Reroll, 1 elixir) in this session; no ability pop is separable from the noise here.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock 1:52: Barbarian Barrel at [6,10] (own elixir 6 -> 4) into the Skeleton Dragons and Electro Dragon trailing the Golem, right after the Berserker block.
+- clock 0:52, 0:38 and 0:23: rolled at [6,7], [4,8] and [3,15] as the cheap clear behind each defensive stack while a Furnace was chipping.
+- clock 0:03: Barbarian Barrel at [4,11] into evolved Barbarians and a Bomber alongside the Cannon — 'Just make sure that we splash everything.'
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 2:47-2:15: opens the game with it and uses it at [4, 14] on the incoming Bandit / Royal Ghost - 'off with the barbarian barrel here'.
+- clock 1:42: paired with Furnace and Electro Spirit in one defensive package at [13, 10] - 'It's barbarian barrel. Then we can go for the east spirit here as well'.
+- clock 0:27: cast at [4, 11] on the Mother Witch's skeletons inside the triple-elixir defence - 'we barbarian barrel for the mother [witch], beautiful defense'.
+- All six casts are on his own half and defensive; it is never used on the opponent's tower in this game.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

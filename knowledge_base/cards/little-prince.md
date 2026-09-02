@@ -111,6 +111,13 @@ The Little Prince has a special ability, accessible from the rightmost side of t
 - He is useful spell bait: force out medium spells with him, then play cards that thrive without them such as Barbarians or Royal Hogs.
 - He can be set as a Boat Battles defender but cannot use his ability there, so he is a poor Clan Wars Defense Tower choice.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 1:15 to 1:07 (video 378.4s, tile [4, 19], then tracked to [4, 9]): walks the left lane behind the Zappies and is met with the Electro Spirit plus Barbarian Barrel pair at 379.9s/381.9s. Ryley does not name the card on the transcript in this game.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Little_Prince (scraped 2026-09-02T02:35:14+00:00)

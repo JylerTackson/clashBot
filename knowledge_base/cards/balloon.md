@@ -149,6 +149,18 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - He names the deck after it in his first line of the game — "we are using balloon freeze" (579s) — and calls the list an "anti-meta counter deck" that "has been extremely extremely popular this season" (585-592s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 1:51 (video 344s): mentioned only, as a threat he was checking for after seeing the Evo Baby Dragon — "Could he have like a balloon in here? Maybe it's definitely possible for him to have some type of like balloon" (344-348s). It never appears.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 2:29: Ryley's pre-read is that the opponent will hold it out of fear of a card Ryley does not have - "I don't think he's going to balloon cuz he's scared of us having a Tesla."
+- overtime 1:49: he plays a Berserker in front specifically to pre-empt the Hero ability - "He might try to balloon ability. So, it's a good berserk."
+- overtime 0:31: it is what stops him counter-attacking in the losing stretch - "I think I need to go for a set of piggies immediately. N I can't though cuz I need to defend this balloon." No deploy label or track for Balloon exists in this game; it is named in commentary only.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

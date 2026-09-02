@@ -166,6 +166,12 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 0:07 into overtime (t=169-177): an Archer left on the field is what stops the opponent activating his King Tower — "Can't really activate king cuz of the Archer. Nice. Oh my god. DUDE, I WAS saying he couldn't activate because of that."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:55 and 0:45 (opponent's evolved Archers): the card he spends Barbarian Barrel on every time — "Let's barbarian barrel the bridge here just to make sure that we take out these archers."
+- clock 0:45: combined with Goblinstein they are the pairing he flags as dangerous — "This is where it gets annoying, though, is with the Evo archers and the Stein in the back."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

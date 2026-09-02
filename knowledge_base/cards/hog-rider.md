@@ -153,6 +153,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - OT 1:48-1:44 (t=673-681): denied on the last attempt — "Please deny this hit, Hog Rider. Oh my god, we barely denied it. For a second I thought it was going to do the exact same thing I was talking about whenever I over-defend a Hog, it still grabs a hit."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:38 (video 295.3s, tile [3, 18]): tracked in with the opening P.E.K.K.A./Mother Witch push and threatening a tower within 1.5 s at clock 2:35. Not named in commentary; the detector is a 2024 model and this read is the least certain card in the opponent's list.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

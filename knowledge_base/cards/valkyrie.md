@@ -221,6 +221,14 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - Mentioned only, not played and not seen this game (the HUD's 'Valkyrie' slot reads at t=736.1, 780.9 and 785.0 are hand-reader errors on a deck that does not contain it). He names it alongside the Berserker as a hero threat Freeze handles: "you can always freeze the berserker and the Valkyrie" (615-618s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:45 to 1:38: identified as the Hero variant on sight and rated as the harder version to face - "Him having the hero Valkyrie is interesting though. I think I would rather face the evil Valk to be honest because the Valkyrie is going to be able to go up to our furnace offensively if he plays it properly, which is going to be really annoying."
+- overtime 1:25: the ability is popped on his Royal Hogs, and he treats that as an elixir win - "Oh, he ability. Okay, that's fine, though, cuz he spent a lot on the ability."
+- overtime 0:55: played for free off a defensive cycle - "He's going to just Valkyrie there cuz he gets it for free since he's skelly drag. I don't know if he predicted us. But that was just a good play regardless."
+- overtime 0:19, his verdict on the game he loses - "Oh, the Valkyrie is too broken, man. Good game."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

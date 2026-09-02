@@ -162,6 +162,12 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 2:14 (opponent): dashes down the right lane ([12, 25] -> [14, 11]) alongside an Electro Wizard; Ryley answers the pair with Skeleton Army at [14, 12] plus an Ice Spirit - "Just go for the Skarmy here to keep this alive."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 2:41 (opponent's card): the Bandit is his deck read - 'this guy has the bandit, meaning he's going to be playing some type of bridge spam deck. I guess it could be a three musketeers deck as well, but I feel like it's going to be that golden knight giant skeleton deck that's been going around that doesn't have any spells'.
+- clock 2:39-1:42 (opponent's card): answered with Skeletons, Barbarian Barrel and Berserker, and it is the reason he spends Electro Spirit on Furnace protection at 1:42.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

@@ -138,6 +138,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:22: Evolved Cannon timed for the pups and the support, not the Hound itself — "we need to go for the Evo cannon just to hit the Lava Pup — or not the Lava Pups, the skeleton dragons and the Lava Hound."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 0:47 onward: cycled at the back roughly every 40 s (t=999, 1041, 1054, 1079, 1121) as the opponent's tank. Ryley never answers it directly - he answers the Balloon and the support behind it.
+- clock 0:17: the reason his King Tower activation fails - "him going for the zap like that made it so the lava hound like wasn't tanking for the tower which made the balloon not have enough HP to activate the king."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

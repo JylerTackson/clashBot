@@ -180,6 +180,18 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:24 to 0:16: named her Cursed Hogs as the deck's win condition in a spell-less list — "Getting these piggies will be our win condition since we don't have a big spell." Six Mother Witch placements in the game (clock 2:28, 1:41, 0:35 x2, overtime 1:57, 1:24, 0:54), the last at [12, 14] in the closing overtime push: "Nice, great mother witch."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:38 (video 295.3s, tile [11, 18]): arrives with the P.E.K.K.A. and is the specific target of his defensive sequencing — "just to make sure that we distract the Pekka so the Barbarian B[arre]l can take out that mother witch" (303-308s).
+- clock 0:37 (video 418s): a later Mother Witch is pulled by his Evo Cannon — "It's Evo Cannon here. Nice. Great grab on that mother witch" (418-420s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 1:29-1:23 (opponent's card): the combination Ryley fears most in this matchup - 'I'm just really scared of the mother witch golden knight combo and I feel like no matter what deck I play, the mother witch golden knight just gets so so scary'.
+- clock 1:05 (opponent's card): a central Mother Witch placement denies his Berserker ability - 'he put the mother witch in the middle so I wouldn't be able to kill it, which is smart. I like that play by him'. He answers it with Barbarian Barrel at 0:27 and confirms the kill in overtime - 'We took out the mother witch'.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mother_Witch (scraped 2026-09-02T02:35:13+00:00)

@@ -131,6 +131,11 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.1.
 - clock 1:34 of overtime (video 439.9s): answered with a Tombstone rather than a spell, to deny them a tank — "let's tombstone down here just to block the bats a bit ... I really just wanted the bats to get off the board and not have to worry about him like maybe tanking for stuff" (441-453s).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- Tracked repeatedly on the opponent's side through the match (t=938.9, 1028, 1035, 1048, 1088, 1113, 1119, 1127, 1155) as air chip alongside the Lava Hound, but never named in the commentary; part of the detection is a static false positive sitting at tile [8, 27] for the whole game, so treat the card as probable rather than confirmed.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

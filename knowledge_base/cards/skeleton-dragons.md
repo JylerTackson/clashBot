@@ -145,6 +145,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:22: a second pair at (6, 13), answered with the Evolved Cannon barrage — "the skeleton dragons and the Lava Hound."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- clock 1:15: named as the opponent's likely counter to a low Royal Hogs set - "go for the immediate evo piggies cuz he might skelly drags a bit lower" - and his Barbarian Barrel at clock 1:02 is placed as "just a tank for these skeleton dragons."
+- overtime 0:55: cheap enough that defending with it gives the opponent a free Heroic Valkyrie - "He's going to just Valkyrie there cuz he gets it for free since he's skelly drag." Commentary only; no deploy label.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Dragons (scraped 2026-09-02T02:34:47+00:00)

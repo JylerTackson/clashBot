@@ -172,6 +172,57 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - He then tracks it out of cycle to time his own barrel at overtime clock 1:22: "We have a decent chance to grab damage cuz he has no e-spirit in cycle" (398-401s).
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.0.md):
+- clock 1:37 (t=76.6s): pre-played at [2, 11] before the Archers arrived — "I'm going to preemptively espirit for the archers."
+- clock 0:47 (t=126.1s): part of the standard Graveyard package — "I'm going to barbarian barrel and e spirit here as well just to make sure that we grab these."
+- overtime (t=194s): emergency use on Graveyard skeletons that were leaking through — "Oh no, we have to east spear as well. Don't get into my tower. Okay, we're good."
+- throughout: also his cheapest cycle card, cast at [7, 11], [3, 5], [2, 6] and [3, 8] purely to get back to Royal Hogs and Lightning.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:18 (video 316.6s, elixir 9.0 -> 8.0): played as filler at near-full elixir to keep cycling — "we could go for the Espirit here in the back" (315s).
+- clock 1:15 (video 379.9s, tile [4, 8]): reset/stun into the left-lane Zappies plus Little Prince walk-down, immediately before a Barbarian Barrel at [3, 9].
+- clock 0:42, 0:27, 0:20 and 0:10 (video 412.2s, 427.3s at tile [7, 6], 434.6s, 444.6s): cycled four times in the last 45 seconds as the cheap link inside the Cannon plus Barbarian Barrel defence — "E spirit. Oh my god, we're doing it, guys. We're doing it" (436-438s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 1:01: cast before the threat arrives, to deny the opponent's win condition — "Let's go for the E spirit preemptively, so he just can't go for the Royal Hogs."
+- clock 0:27: part of a four-card, five-elixir defensive stack (Barbarian Barrel [4, 6], Skeletons [5, 13], Berserker [3, 8], Electro Spirit [5, 7]) against an enemy hog that was 0.1 s from his tower.
+- clock 0:42: spirits are what convert his defence into tower damage — the enemy right tower drops 3088 -> 2426 as he shouts "Oh my god, the spirits. The spirits. Let's go."
+- OT 1:29 and OT 1:25: two more spirits at [8, 12] and behind the overtime hog push, keeping it alive to 184 HP on the enemy right tower.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.3.md):
+- clock 2:34: pure cycle, not defence — "let's go for the E spirit here in the back" (t=687), deploy label at [8, 0].
+- clock 2:14 and 1:05: the last elixir of a defence, chained into the units his Berserker and Skeletons are already holding ([14, 9] at t=708.5, [12, 9] at t=779.3).
+- clock 0:19 and OT 1:38: used as a finisher on ranged support — "E spirit here as well, just to make sure that we completely take out these [archers]" (t=824-827) and "let's E-spirit here as well just to make sure that we take out that" (t=864), the last play before the opponent quit.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.4.md):
+- overtime 1:57: used as a lane pull to drag a target into his Lightning - "Espirit just to bring this over. I had to do that just to take out the evo inferno dragon."
+- overtime 1:43 and 0:29: stacked with Cannon and Barbarian Barrel as the third layer of a defence he did not expect to survive - "an e spirit too just to keep tanking for this and maybe block a bit", then "E spirit cannon up top."
+- clock 1:36 / 1:26 / 0:54 / 0:28: cycled roughly every 10 s throughout - twelve-plus uses, the card that lets a 3.0-elixir deck get back to Royal Hogs and Furnace between air pushes.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.5.md):
+- clock 1:58 and 1:53: two Electro Spirits into the Golem push, the first stacked on the Berserker at [7,11], as the 1-elixir half of every block.
+- clock 1:13: Electro Spirit at [10,11] to finish the Elite Barbarian counterpush the Cannon and Skeletons had already stalled.
+- clock 0:47 and overtime 1:58: placed high on his own half at [8,13] to reset and chain into arriving waves — 'Let's go for the high e-spirit here', and later 'Beautiful for the Espirit here.'
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.6.md):
+- clock 1:42: used as Furnace insurance at [8, 10] - 'just to make sure that we keep that furnace alive from the bandit'.
+- clock 0:34: the mandatory reset in a stacked defence at [6, 12] - 'we have to e-spirit to reset this as well. Otherwise, we're just going to lose everything'.
+- overtime 1:37: first card down against the P.E.K.K.A. + Golden Knight + Mother Witch pile-up at [2, 11] - 'Oh no, this is scary. We have to e spirit here'.
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

@@ -167,6 +167,12 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - clock 1:21-1:13: he plays for it rather than around it — a back Princess and then a bridge Skeleton Army are both placed to force it into a bad spot: "He's probably going to bowler into this, but if he does, I think I could go for a nice skarmy at the bridge", "Just to force him to bowler in the top middle or princess."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.1.md):
+- clock 2:05 (video 331s): named from the shape of the opponent's play before it was ever seen — "like I guess this could just be like a bridge spam deck. I think it's bowler" (329-331s), confirmed at 360s ("E Golem with Pekka and Bowler").
+- clock 0:51 and 0:23 (video 405s, 433s): he plays around it twice — "He's going to go for the bowler" (405s) and then the placement rule "let's go for a high cannon here just to block the bowler just so I can get the barbarian barrel down" (433-435s).
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

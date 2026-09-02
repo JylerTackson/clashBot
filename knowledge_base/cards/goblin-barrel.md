@@ -205,6 +205,11 @@ Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-
 - overtime 1:37: the winning throw at tile [14, 24] on a 504-HP tower, played as a Fireball prediction — "I'm going to barrel cuz he's going to fireball. Yep, he fireballed. Now, I don't think he has enough elixir to defend."
 <!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:start -->
+Match [This Piggies Lightning Deck is UNSTOPPABLE!!](../matches/PuJls1qTZsU-m0.2.md):
+- clock 0:51 (opponent's card): thrown at [11, 11] together with Arrows while the opponent is nearly out of elixir; Ryley reads the whole exchange as him having successfully drained them — "Good job, though. Forcing that out. We have to be really careful."
+<!-- creator-insights:ryleycr1:PuJls1qTZsU-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)
