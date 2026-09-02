@@ -1,0 +1,82 @@
+{
+  "key": "9tx2iYsSmMw-m0.2",
+  "match_file": "matches/9tx2iYsSmMw-m0.2.md",
+  "video_title": "Ryley's BEST Games of CRL 2026",
+  "cards": {
+    "mortar": [
+      "t=370.0 (broadcast footage, clock unreadable): Mortar at tile [9, 10], elixir 10 -> 6, as the answer to an early Royal Giant, immediately followed by Rascals at [1, 11] — \"Here he go for RG Skelly Drags. Really aggressive. So, I went for my mortar plus rascals on defense\" (371-376s).",
+      "Fifteen Mortar drops between t=338.3 and t=617.6, thirteen of them at column 7-9 on his own half (e.g. [9, 10] at t=437.3/470.5/578.1, [9, 11] at t=497.5/557.6, [9, 9] at t=532.4): he uses it as a defensive building he re-cycles the moment it expires. He counts it as one of only two damage sources in the list — \"I only have skelly barrel and mortar, which are both good, of course, but they're no like minor or anything like that\" (435-440s).",
+      "t=617.6 (clock unreadable): the one forward Mortar at [7, 13] is deliberately NOT at the bridge, to stay out of Firecracker splash while he is ahead on HP — \"Honestly, I wasn't taking any risks, man. I damn near morted at the bridge so the firecracker couldn't splash me, bro\" (619-622s).",
+      "Cost he names for the card: it has to sit near his own tower, which feeds the opponent's Fireball cycle — \"I also have to like put my mortars near the tower ... he's always going to be fireball cycling me out\" (469-477s). Holding a second one in cycle is his insurance against a repeat Royal Giant: \"since I had another mortar in cycle I wasn't like super scared\" (528-532s)."
+    ],
+    "bowler": [
+      "Played as the Heroic Bowler (he says \"the bowler ability\", i.e. Stone Swish). t=391.7 (clock unreadable): Bowler at [9, 11], elixir 5 -> 0, then two 1-elixir Skeletons at t=398.9 and t=402.9; the enemy right tower reads 2907 at 398s and 2523 at 414s. \"I went for the bowler ability because I do know that in this matchup, the only thing that gives him trouble is the bowler ... my bowler got two shots on the tower. So, that was a 500 damage play for me right there\" (397-412s).",
+      "Technique he states for the ability: cheap fast units let you get a lock before the opponent's spirits pull the throws — \"I always try to finesse people with the quick spirits cuz people do always use the spirits to, you know, outrun the bowler throws and then fully counter it. So, if you can quickly drop your spirit or something like that, then you can quickly get a lock on the tower\" (415-427s).",
+      "Defensive drops deep on his own half: t=480.5 [1, 12] into the left-lane Royal Giant (\"I did get a bowler roll, so it kind of made up for it\", 488-490s), t=504.3 [9, 0] and t=569.6 [8, 0] behind the king tower, t=534.0 [6, 12] specifically against splash — \"I went for the bowler as well just to make sure that I could take out the firecracker. I lined it up pretty well right there\" (534-539s). Second ability use at 546-549s: \"I had the bowler ability just to get the firecracker off the board.\"",
+      "His rule for facing a back-line Royal Giant with a Bowler in hand: \"going RG the back against a bowler in triple elixir maybe isn't always the move because then I just get a free bowler and my bowler will obviously live\" (572-579s) — with the caveat that he then plays around the Firecracker, \"just trying to make sure that my bowler didn't get splashed\" (581-585s)."
+    ],
+    "skeleton-barrel": [
+      "Evolved in this list (\"the Evo skelly barrel\", 490-493s) and used only offensively: the arena tracker follows one of his barrels from [17, 14] to [14, 27] at 378-386s, and unattributed 3-elixir steps at t=471.3, 498.2 and 590.6 line up with the throws he narrates (the HUD icon reader logs it as \"goblin-barrel\" — the two barrels share a silhouette and cost).",
+      "He times it against the opponent's hard counter's cycle: \"here I went for the skelly barrel cuz he had no goblin cage in hand and goblin cage does fully shut me down every time\" (443-450s).",
+      "Used as pressure to stop the opponent settling into a spell-cycle plan: \"Then, I went for the Evo skelly barrel at the bridge, just trying to keep up the pressure\" (490-493s), and he counts the Evo explosion as damage — \"I got a skelly barrel death bomb on the tower as well\" (523-524s).",
+      "He is explicit about its ceiling as a win condition: \"I only have skelly barrel and mortar ... they're no like minor or anything like that. They're not like a hog rider where you can comfortably always get them to the tower\" (435-443s)."
+    ],
+    "barbarian-barrel": [
+      "Twelve drops between t=348.3 and t=612.6, most of them rolled through the river lane on the left (repeated [4, 14] / [4, 15] / [3, 15] at t=468.5, 493.5, 536.4, 563.6, 581.6, plus [6, 15] at t=609.4 and [10, 14] at t=593.6).",
+      "Stated purpose alongside his win condition: \"I went for a barbarian barrel as well, just so there would be more skellies on the map when the skelly barrel explodes so the firecracker doesn't go over there\" (495-501s).",
+      "Spell counting: he treats it as one of only two spells either player holds — \"I'm up a fireball cuz we both only have fireball and barbarian barrel. So, he needs more damage or else I'm just going to win\" (599-605s)."
+    ],
+    "fireball": [
+      "Eight confirmed Fireballs (t=451.5 [15, 22], 459.3, 513.5, 549.2 [16, 22], 559.2, 584.6 [2, 16], 605.6 [11, 24], 619.6 [13, 25]) — he alternates between holding it for the opponent's Skeleton Dragons (\"I had the fireball ready for the skelly drags, but thankfully for me, he does actually let that connect\", 451-456s) and taking free tower chip.",
+      "His rule for the free spell: \"I grabbed my free fireball on the tower as well cuz if I ever get a chance to fireball, I do need to be taking it since I don't think that I could have got many other opportunities to spell cycle the tower here\" (549-562s); the enemy right tower reads 1944 at 550s and 1737 at 552s.",
+      "t=584.6 (clock unreadable): Fireball at [2, 16] on a Firecracker at the same tile — a defensive spend he calls a loss on the exchange: \"I did have to fireball here which was good by him. So now he is one fireball closer cuz he got a fireball on my tower and I had to fireball on defense which is never all that good\" (585-594s).",
+      "The whole endgame is a Fireball race he tracks by hand: \"I take my opportunity to fireball his tower here after he fireballs mine ... So, I win the game as long as he doesn't get any firecracker chip\" (605-616s). He wins on tower HP by 52 (622-624s)."
+    ],
+    "rascals": [
+      "t=372.2 (clock unreadable): Rascals at [1, 11] for -5 straight after a Mortar, as the Royal Giant answer — \"So, I went for my mortar plus rascals on defense\" (374-376s). Rascal units are tracked around his left tower again at 464-490s while the opponent's RG walks the lane (the deploy itself was not logged): \"I went for the rascals plus skellies here knowing that I was going to take at least one shot, but I did get a bowler roll, so it kind of made up for it\" (483-490s).",
+      "He plays them spread against the opponent's Fireball: \"I went for the rascals up top trying to space them out from the fireball which I actually did very well\" (517-522s); a later Rascals label lands at [14, 14] at t=602.6.",
+      "Named as the first reason he cannot dodge Fireball value in this matchup: \"I have to rascals near my tower, right, every single time ... So, he's always going to be fireball cycling me out\" (463-477s)."
+    ],
+    "skeletons": [
+      "Fifteen Skeletons drops between t=348.0 and t=613.1 — the cheapest cycle card in the list, played both at the bridge ([15, 13] at t=375.4/494.0/543.0/594.9, [15, 14] at t=445.4) and defensively ([7, 7] at t=348.0, [4, 15] at t=402.9, [2, 15] at t=468.6, [7, 0] at t=509.5).",
+      "Used to get the Heroic Bowler locked on: t=398.9 and t=402.9, immediately after the Bowler at t=391.7 — \"I went for the quick skellies here to make that, you know, jump and then my bowler got both the skellies because of that\" (402-408s), generalised at 421-427s as \"if you can quickly drop your spirit or something like that, then you can quickly get a lock on the tower.\"",
+      "Defensive filler behind Rascals in the late brick-wall phase: \"my skellies were putting in work as well. So I was kind of making like a brick wall on defense\" (539-543s)."
+    ],
+    "dart-goblin": [
+      "Ten Dart Goblin plays (t=339.3 [8, 13], 407.4 [9, 11], 476.5 [8, 8], 495.5 [9, 13], 515.5 [7, 12], 525.5 [7, 11], 576.2, 585.3, 603.8, 622.6 [10, 11]) — always on his own half, close to the Mortar and the tower, as ranged support rather than a bridge play.",
+      "He names it in the list of cards that force him into Fireball range: \"I have to put my dark goblins near the tower. So, he's always going to be fireball cycling me out, which was scary because I know that he has a way quicker cycle than me\" (472-480s)."
+    ],
+    "royal-giant": [
+      "Opponent card (Reuben, CRL duel). Early Royal Giant tracked on Ryley's half at 380-384s; Ryley dismisses it because it is not evolved — \"since his RG isn't EVO, it doesn't actually do anything to go for those early game RGs\" (376-383s) — while conceding the support was reasonable versus an unknown deck: \"I guess maybe he thought I had minions or something and I could instantly minions on the RG. And if that was true, then he probably would have won right away\" (387-393s).",
+      "Ryley's answers: Mortar + Rascals at t=370.0-372.2, then Rascals + Skeletons + Bowler at [1, 12] at t=480.5 against the RG walking his left lane (t=456.5-460.5, tracked to [2, 9] by 490s); his left tower goes 2988 -> 2203 in that window.",
+      "t=572.6 (clock unreadable, triple elixir): the opponent places the RG deep at [2, 24] instead of the bridge — \"I had a feeling he was going to RG the bridge ... but going RG the back against a bowler in triple elixir maybe isn't always the move because then I just get a free bowler and my bowler will obviously live\" (562-579s)."
+    ],
+    "goblin-cage": [
+      "Opponent card, played at t=342.3 [8, 19] and t=438.4 [9, 18]. Ryley treats it as the hard counter to his win condition and cycles his Skeleton Barrel around it: \"here I went for the skelly barrel cuz he had no goblin cage in hand and goblin cage does fully shut me down every time\" (443-450s)."
+    ],
+    "firecracker": [
+      "Opponent card and the most persistent threat in the game (thirteen tracked appearances from t=348.3 to t=624.6). Ryley answers it with the Bowler and its ability — Bowler at [6, 12] at t=534.0, \"I went for the bowler as well just to make sure that I could take out the firecracker. I lined it up pretty well right there\" (534-539s), and \"I had the bowler ability just to get the firecracker off the board\" (546-549s).",
+      "He also plays around it without spending: Barbarian Barrel skeletons to block the lane before a Skeleton Barrel lands (495-501s), keeping the Bowler unsplashed (581-585s), and refusing a bridge Mortar late — \"I damn near morted at the bridge so the firecracker couldn't splash me, bro. I was not taking that risk\" (619-624s). It is also the one card that could still cost him the win: \"I win the game as long as he doesn't get any firecracker chip\" (612-616s)."
+    ],
+    "skeleton-dragons": [
+      "Opponent card, played eight times from t=374.4 onward (e.g. [12, 17] at t=408.4, [5, 18] at t=474.5, [5, 19] at t=524.5). It is what Ryley holds Fireball for: \"I had the fireball ready for the skelly drags, but thankfully for me, he does actually let that connect, which is going to be nice from him\" (451-456s). He labels the opponent's list \"RG Skelly Drags. Really aggressive\" (371-374s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-bowler-dart-goblin-fireball-mortar-rascals-skeleton-barrel-skeletons",
+    "cards": ["mortar", "skeleton-barrel", "bowler", "rascals", "dart-goblin", "skeletons", "barbarian-barrel", "fireball"],
+    "bullets": [
+      "CRL broadcast game versus Reuben (video 337.3-637.5s, no readable match clock). Ryley picks the list as a comfort/counter-pick expecting bridge spam: \"I had a a mortar bait deck ... I was kind of expecting him to maybe go for a bridge bam type of deck. So, I thought that a mortar bowler deck could be a pretty good pick and a comfort deck as well\" (352-365s). Result: win on tower HP, own left 265 versus enemy right 213 at t=632-634 — \"I win the game by 52 HP\" (622-624s).",
+      "Piloted almost entirely from the back foot against Royal Giant / Skeleton Dragons: fifteen Mortars, nearly all at column 7-9 on his own half, plus Bowler, Skeletons and Barbarian Barrel stacked into what he calls \"like a brick wall on defense\" (541-543s). His stated reason: \"you guys can see I'm playing a ton of defense in this matchup just because of how strong his defense actually is and he can just fireball cycle me\" (503-511s).",
+      "The deck's two damage sources are Mortar and Evo Skeleton Barrel and he says so: \"I only have skelly barrel and mortar, which are both good, of course, but they're no like minor or anything like that\" (435-440s). The single biggest chunk of damage in the game instead comes from the Heroic Bowler's Stone Swish ability at 398-414s — \"my bowler got two shots on the tower. So, that was a 500 damage play\" (408-412s) — with quick Skeletons used to get the lock.",
+      "Its structural weakness in this matchup is spell exposure: Rascals, Mortar and Dart Goblin all have to be placed near his own tower, so \"he's always going to be fireball cycling me out ... if I get spell cycle, then I do pretty much just [lose]\" (463-483s). His counter-plan is constant Skeleton Barrel pressure so the opponent never feels safe cycling spells (511-517s), spreading Rascals against the Fireball (517-522s), and taking every free Fireball on the tower (549-562s) until he is a spell ahead (597-605s)."
+    ],
+    "new_deck": {
+      "display_name": "Mortar Bowler Bait (Ryley CRL)",
+      "archetype_primary": "bait",
+      "archetype_secondary": "siege",
+      "rationale": "Ryley calls it \"a mortar bait deck\" (352-357s) and it runs the classic small-spell bait shell — Evo Skeleton Barrel, Rascals, Skeletons, Dart Goblin — around a Mortar that he plays defensively far more often than as a siege engine.",
+      "why_it_works_md": "The list pairs two chip win conditions the opponent must answer differently: a Mortar that doubles as the main defensive building, and an Evolution Skeleton Barrel whose skeletons and death bomb punish a used-up spell. Rascals, Skeletons, Dart Goblin and Barbarian Barrel form a dense low-cost defensive core, so the deck can absorb Royal Giant pushes almost indefinitely — in this game Ryley describes it as building \"like a brick wall on defense\" (541-543s). The Heroic Bowler is the flex piece and the real damage: he calls it \"the only thing that gives him trouble\" in the matchup (397-402s), uses cheap Skeletons to get the Stone Swish ability locked onto the tower for roughly 500 damage (408-412s), and treats a back-placed Royal Giant as a free Bowler in double/triple elixir (572-579s). Its weakness is spell exposure — Rascals, Mortar and Dart Goblin all sit near the tower, so a faster Fireball-cycle deck can chip it out (463-483s) — which the pilot answers with constant bridge pressure and by taking every free Fireball on the enemy tower."
+    }
+  }
+}

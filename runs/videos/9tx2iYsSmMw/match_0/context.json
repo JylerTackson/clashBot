@@ -1,0 +1,170 @@
+{
+ "video_id": "9tx2iYsSmMw",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 156.1,
+   "events": 42,
+   "own_deck": [
+    "lumberjack",
+    "minions",
+    "golden-knight",
+    "hog-rider",
+    "mega-knight",
+    "knight"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 175.1,
+   "events": 65,
+   "own_deck": [
+    "fire-spirit",
+    "skeletons",
+    "goblin-barrel",
+    "cannon",
+    "wall-breakers",
+    "magic-archer",
+    "ice-spirit",
+    "giant-snowball"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 300.3,
+   "events": 133,
+   "own_deck": [
+    "skeletons",
+    "mortar",
+    "barbarian-barrel",
+    "dart-goblin",
+    "fireball",
+    "bowler",
+    "rascals",
+    "goblins"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 295.1,
+   "events": 145,
+   "own_deck": [
+    "bomber",
+    "fire-spirit",
+    "cannon",
+    "berserker",
+    "poison",
+    "knight",
+    "goblin-barrel",
+    "goblin-drill"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 170.2,
+   "events": 65,
+   "own_deck": [
+    "royal-ghost",
+    "mother-witch",
+    "bandit",
+    "electro-wizard",
+    "knight",
+    "wizard",
+    "goblin-barrel",
+    "fireball"
+   ]
+  },
+  {
+   "match": "0.5",
+   "seconds": 268.3,
+   "events": 134,
+   "own_deck": [
+    "princess",
+    "ice-spirit",
+    "cannon",
+    "skeletons",
+    "goblin-barrel",
+    "rocket",
+    "mighty-miner",
+    "the-log"
+   ]
+  },
+  {
+   "match": "0.6",
+   "seconds": 295.2,
+   "events": 134,
+   "own_deck": [
+    "ice-wizard",
+    "golem",
+    "barbarian-barrel",
+    "princess",
+    "ice-spirit",
+    "rage",
+    "skeletons",
+    "baby-dragon"
+   ]
+  },
+  {
+   "match": "0.7",
+   "seconds": 277.2,
+   "events": 98,
+   "own_deck": [
+    "berserker",
+    "zap",
+    "princess",
+    "fireball",
+    "skeleton-dragons",
+    "ice-spirit",
+    "flying-machine",
+    "knight"
+   ]
+  },
+  {
+   "match": "0.8",
+   "seconds": 306.2,
+   "events": 145,
+   "own_deck": [
+    "berserker",
+    "ice-spirit",
+    "skeletons",
+    "the-log",
+    "princess",
+    "royal-delivery",
+    "cannon",
+    "rocket"
+   ]
+  },
+  {
+   "match": "0.9",
+   "seconds": 204.2,
+   "events": 84,
+   "own_deck": [
+    "furnace",
+    "fireball",
+    "goblins",
+    "electro-spirit",
+    "dark-prince",
+    "ice-spirit",
+    "princess",
+    "wizard"
+   ]
+  },
+  {
+   "match": "0.10",
+   "seconds": 159.5,
+   "events": 52,
+   "own_deck": [
+    "valkyrie",
+    "battle-ram",
+    "heal-spirit",
+    "zappies",
+    "the-log",
+    "ice-wizard",
+    "fireball",
+    "skeleton-dragons"
+   ]
+  }
+ ],
+ "split_method": "own tower HP reset after a menu gap (match clock unreadable: broadcast overlay); post-processing re-cut of the single perception run"
+}

@@ -1,0 +1,53 @@
+{
+  "key": "9tx2iYsSmMw-m0.1",
+  "match_file": "matches/9tx2iYsSmMw-m0.1.md",
+  "video_title": "Ryley's BEST Games of CRL 2026",
+  "cards": {
+    "goblin-barrel": [
+      "t=171.2/194.2/219.2/233.2 (clock unreadable, CRL broadcast): in a log-bait mirror vs Mugi he threw six barrels in 110s, five of them onto the same enemy left Crown Tower at tile (3, 24)-(3, 26), and never spent it on defence — the t=219.2 barrel plus Wall Breakers took that tower from 2074 to 174 HP by t=244.",
+      "t=216-224: he only barrels after the cheap answer is gone — \"forcing out the ice spirit right there, guys, is very important because now it allowed me to go for the evil goblin barrel plus evil wall breakers\".",
+      "t=267.4: re-barrelled the moment the opponent misplayed his Skeletons — \"Mugi messed up the skellies which also led him to mess up the wall breaker... and then I barreled here to take out the entire left side tower\" (the tower survived at 174 HP)."
+    ],
+    "wall-breakers": [
+      "t=222.2 and t=269.6 (clock unreadable): he pairs Wall Breakers with the Goblin Barrel in the same window rather than sending them alone — \"the evil goblin barrel plus evil wall breakers\" (t=221-224) — so one cheap answer cannot cover both.",
+      "t=212-214: on the receiving end he chose to let the opponent's Wall Breakers connect (own right tower 2332 -> 1632) to spend elixir elsewhere: \"I decided to ignore the wall breakers and skellies to predict the cannon\"."
+    ],
+    "magic-archer": [
+      "t=200.2-203.4: Magic Archer at (3, 14) plus Valkyrie at the bridge for a full 8-elixir dump, timed so the opponent's Cannon could not be placed — \"I knew that even though he had cannon in cycle and elixir for it, he couldn't really place it down in time if I just waited till the very last second\".",
+      "t=287.3: in a Magic Archer mirror he cycled his own from the very back of his half at tile (9, 1) while ahead on elixir — \"I know that he wants to cycle his magic archer. But if I cycle it first and protect mine because I have the elixir advantage, my magic archer will win the 1v1 because obviously I have more elixir to support it with\".",
+      "t=257-259 and t=309-312: against the enemy Magic Archer he answers with cheap predictive spirits and Skeletons rather than a real counter — \"I would just be able to predict the magic arch with my spirits\", \"I went for the spirit here to keep blocking his magic archer\"."
+    ],
+    "valkyrie": [
+      "t=236-247 (clock unreadable): he deliberately held Valkyrie through heavy chip on his own right tower because she is the enabler for his bridge push — \"I don't want to be dropping my Valkyrie because of the magic archer lineup... I just made sure to keep doing fire spirit until my cycle was a bit better\".",
+      "t=248.2: broke that rule for a defensive Valkyrie at tile (16, 5) only after counting the opponent's elixir — \"you just broke the rule. But I knew that because he wouldn't be able to afford a Valkyrie in front, I would just be able to predict the magic arch with my spirits... he ended up not getting a single hit on my tower\".",
+      "t≈202: used as the front half of a Magic Archer + Valkyrie bridge push (8 elixir in one burst) in the left lane."
+    ],
+    "cannon": [
+      "t=276.3 and t=296.5 (clock unreadable): placed reactively in the middle-right of his own half at (10, 10) and (10, 9), always backed by spirits — \"I just dropped my double spirit with the cannon and I got a perfect defense there. That was kind of nasty\" (t=281).",
+      "t=203-208: he plays around the opponent's Cannon by timing his bridge push to the last second, on the read that a Cannon dropped late arrives too late to matter."
+    ],
+    "fire-spirit": [
+      "t=170.2-317.5 (clock unreadable): his most-played card of the game (nine deploys), used as the holding answer while his cycle was awkward — \"I just made sure to keep doing fire spirit until my cycle was a bit better cuz typically I want to have double spirit or spirit plus skellies\" (t=239-245).",
+      "t=225.1 with an Ice Spirit at t=224.2: half of the \"double spirit\" that cleanly answers an incoming Goblin Barrel — \"just get a clean defense here on the goblin barrel with my double spirit\".",
+      "t=278.3: added to a Cannon on defence for the \"perfect defense\" he calls out at t=281."
+    ],
+    "ice-spirit": [
+      "t=224.2 (clock unreadable): with Fire Spirit it is his answer to the opponent's Goblin Barrel — \"a clean defense here on the goblin barrel with my double spirit\".",
+      "t=302.3: dropped at (3, 14) in an empty left lane purely as insurance while ahead — \"I just made sure to ice on the left just in case. I don't really want to give him any window to change lanes or anything\".",
+      "t=216: on the other side of the match-up, forcing the opponent's Ice Spirit out was the precondition for his own barrel — \"forcing out the ice spirit right there, guys, is very important\"."
+    ],
+    "skeletons": [
+      "t=184.2-310.3 (clock unreadable): seven deploys, mostly at (14-15, 10-15) on his defended side or at the river, as cycle and chip-blocking rather than as a real counter.",
+      "t=243-245: named as his fallback defensive pairing when only one spirit is up — \"typically I want to have double spirit or spirit plus skellies\".",
+      "t=263-268: he attributes a big swing to the opponent misplaying the same card — \"Mugi messed up the skellies which also led him to mess up the wall breaker\"."
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": ["goblin-barrel", "wall-breakers", "magic-archer", "valkyrie", "cannon", "skeletons", "fire-spirit", "ice-spirit"],
+    "bullets": [
+      "Log-bait mirror vs Mugi on CRL broadcast footage (t=162-330, clock unreadable): bait the cheap answer out, then barrel plus Wall Breakers the same tower every time (enemy left tower 3052 -> 174 by t=244) while accepting chip on the other side.",
+      "Deck key is null on purpose: nine cards have evidence for Ryley's side (the eight listed plus Giant Snowball from HUD hand reads only), so the exact eighth slot is unresolved — see the match file's Data gaps."
+    ]
+  }
+}

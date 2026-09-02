@@ -1,0 +1,68 @@
+{
+  "key": "9tx2iYsSmMw-m0.0",
+  "match_file": "matches/9tx2iYsSmMw-m0.0.md",
+  "video_title": "Ryley's BEST Games of CRL 2026",
+  "cards": {
+    "lumberjack": [
+      "t=11.7 (CRL broadcast, no readable clock): opens the push with Lumberjack at tile [9, 0], centre of his own back line (HUD 10.0 -> 6.0), then sends a Hog Rider at the left bridge behind it — the Evolution card of the deck he names in the intro: \"this Mega Knight deck with the Evo Lumberjack in the Hog Rider\" (t=7-10).",
+      "t=29-32: against a suspected Tornado he wants the Hog Rider in FRONT of the Lumberjack, so the two cannot be dragged into the King Tower together — \"My hog rider had to go in front of the lumberjack for that to possibly be prevented. It still probably wouldn't have... unfortunately he did get his king tower up.\"",
+      "t=75.4: plays a second Lumberjack at tile [8, 8] on his own half purely to cycle, dropping it on an enemy Miner — \"here I went for the lumberjack on top of the miner just to get to my EVO\" (t=74-77).",
+      "t=139.3-152: the Lumberjack behind the last Mega Knight push survives the opponent's Evo Mega Knight knockback and gets tornado'd onto the King Tower; the enemy left tower falls 2265 -> 684 HP between t=146 and t=152 — \"the lumberjack ran to the tower because of the [Evo] mega knight knocking everything away and then he [Tornado'd] my lumberjack onto the king tower... he three crowned himself\" (t=143-155)."
+    ],
+    "hog-rider": [
+      "t=18.0: Hog Rider at tile [1, 15], left bridge, behind the Lumberjack; it reaches the tower (enemy left 3052 -> 2508 at t=32) but he calls the ordering wrong against a Tornado deck (t=20-38).",
+      "t=111.1: DEFENSIVE Hog Rider at tile [2, 13] on his own half while a Giant Skeleton is walking in — his stated general rule: \"I do like to use defensive hog rider sometimes because if you do a defensive hog, then they still have to defend the hog rider itself. So you get a lot of value out of that type of play\" (t=117-125).",
+      "t=139.1: Hog Rider at the left bridge [2, 15] the instant his Earthquake kills the Tombstone — \"I just earthquake the tombstone... So then I instantly went for a hog rider, guys\" (t=137-141). (Logged as an opponent play by the pipeline; the commentary overrides it.)"
+    ],
+    "mega-knight": [
+      "t=42.0: Mega Knight at tile [8, 6], centre of his own half, once he has read the opponent as Mega Knight Balloon — \"with the executioner, I knew for sure that he had [Mega Knight] balloon\" (t=39-41). He never puts it at the bridge in this game.",
+      "t=119.1: Mega Knight at tile [9, 0] behind the King Tower (own elixir 8.0 -> 2.0 at t=120.6) as the anchor of the closing push, with Lumberjack and Minions added behind it (t=129-134).",
+      "t=143-146: on the receiving end, the opponent's Evo Mega Knight is what breaks his push apart on defence — \"the [Evo] mega knight knocking everything away\" (t=145)."
+    ],
+    "minions": [
+      "t=63.1: Minions at tile [6, 14], just behind the river, timed onto the opponent's Skeleton Dragons — \"that was a crazy timing with the minions and the skelly drags. But thankfully the skelly drags were not splashing. So my minions were able to take out the skelly drags completely\" (t=65-73).",
+      "t=130.0 and t=134.1: holds the Minions a long time in the left lane ([1, 12] then [1, 11]) specifically to dodge a predicted Skeleton Dragon — \"I was waiting for him to predict my minions with the skelly drags, but then it never happened. That's why it took so long on the minions\" (t=132-137). They are the units tracked on the enemy tower during the closing damage at t=146-148."
+    ],
+    "golden-knight": [
+      "t=61.1: Golden Knight at tile [8, 9], centre of his own half, into an incoming charge unit alongside Minions at the river (t=63.1).",
+      "t=82.9: second Golden Knight (HUD 8.0 -> 4.0) as a body against the Skeleton Dragons on the same beat the opponent committed a Balloon — \"I went for a card to block the skelly drags and at the same time he went for the balloon\" (t=80-85).",
+      "t=102-106: uses the dash ability on defence against a Giant Skeleton, hoping the chain carries into the tower — \"I went for the ability hoping that the giant skelly would walk a bit more to the right and then I could get a nice dash on the tower. Didn't work out that way.\""
+    ],
+    "knight": [
+      "t=83.1: Knight at tile [2, 9], deep in his own left half, as a defensive body during the overlapping Skeleton Dragon and Balloon pressure (deploy label, score 1.0). No commentary on the card itself in this clip."
+    ],
+    "earthquake": [
+      "t=136.1: Earthquake cast on the opponent's half at tile [12, 19] onto their Tombstone, held all game as a surprise — \"I just earthquake the tombstone. I don't think he know I had earthquakes\" (t=137-139).",
+      "t=139.1: the spell is sequenced straight into the win condition — Hog Rider at the left bridge in the same breath as the building dies: \"So then I instantly went for a hog rider, guys\" (t=140-141). (The cast was logged as an opponent play; the commentary overrides that.)"
+    ],
+    "tombstone": [
+      "t=22.0: the opponent's Tombstone (tracked around tile [8, 20], replayed at t=92.1 and t=138.1) is what Ryley reads the rest of their deck off — \"the second I saw that tombstone, I knew that he had the [Tornado], but it was too late\" (t=25-27).",
+      "t=136.1: he removes it with an Earthquake and immediately sends a Hog Rider into the gap (t=137-141)."
+    ],
+    "tornado": [
+      "Opponent card; never captured as an event but decisive twice by Ryley's account. t=20-38: it pulls his opening Hog Rider push into the King Tower and activates it — \"thinking that he could have a tornado in his deck... unfortunately he did get his king tower up.\" He treats Tombstone as the tell that the Tornado is there.",
+      "t=146-155: used on defence at the end, it drags his Lumberjack onto the opponent's own King Tower and Ryley reads it as the opponent losing the game for himself — \"he NATO'd my lumberjack onto the king tower. And look at his king tower, guys. I was screaming right here... he three crowned himself.\""
+    ],
+    "balloon": [
+      "Opponent card. t=85-98: committed while Ryley was spending on the Skeleton Dragons; a Rage effect advances up the left lane from t=86 and his left tower loses 640 HP at t=94.1 and 240 HP at t=98.1 (2847 -> 1967). He had already priced it in — \"I knew that would be at least one hit from the balloon, but I guess like it's not the end of the world\" (t=85-91).",
+      "t=39-41: he identified the Balloon before it appeared, off the opponent's Executioner — \"with the executioner, I knew for sure that he had [Mega Knight] balloon.\""
+    ],
+    "skeleton-dragons": [
+      "Opponent card, played at t=68.1 and t=72.1 into the left lane. Ryley's Minions answered them cleanly because the splash did not land on the Minions — \"thankfully the skelly drags were not splashing. So my minions were able to take out the skelly drags completely\" (t=69-73).",
+      "t=132-137: he then plays around them, delaying his own Minions to dodge a predicted Skeleton Dragon that never came."
+    ],
+    "giant-skeleton": [
+      "Opponent card, the threat Ryley defends from t=100 to t=115. First he tries a Golden Knight dash on it hoping the chain carries to the tower (\"hoping that the giant skelly would walk a bit more to the right\", t=102-106), then he answers it with a defensive Hog Rider at tile [2, 13] so the opponent also has to spend (t=111.1, quote at t=109-125)."
+    ],
+    "miner": [
+      "Opponent card, a chip attempt on Ryley's half around t=76 (the detector logged it as a Skeleton Dragon 'spawned on own half'). Ryley answered it with a Lumberjack placed on top of it, using the defence as a cycle play — \"the lumberjack on top of the miner just to get to my EVO\" (t=74-77)."
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": ["mega-knight", "lumberjack", "hog-rider", "minions", "golden-knight", "knight", "earthquake"],
+    "bullets": [
+      "CRL broadcast game (no readable clock; timestamps are video seconds). Only seven of Ryley's eight cards could be attributed: Mega Knight, Evo Lumberjack, Hog Rider, Minions, Golden Knight, Knight and Earthquake — \"this Mega Knight deck with the Evo Lumberjack in the Hog Rider\" (t=7-10) plus \"I don't think he know I had earthquakes\" (t=138). No deck_key and no deck file link."
+    ]
+  }
+}

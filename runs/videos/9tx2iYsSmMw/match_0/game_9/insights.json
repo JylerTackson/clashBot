@@ -1,0 +1,97 @@
+{
+  "key": "9tx2iYsSmMw-m0.9",
+  "match_file": "matches/9tx2iYsSmMw-m0.9.md",
+  "video_title": "Ryley's BEST Games of CRL 2026",
+  "cards": {
+    "royal-hogs": [
+      "t=2257/2292/2391/2415 (clock unreadable): five bridge deploys in ~160 s of CRL footage, four into the left bridge at [2, 17]/[2, 18] — used as constant denial against Lava Hound beatdown: \"I was being really aggressive in this game just over and over again. I was just constantly spamming him because I don't want to let him get many lava hound pushes, mainly lava pushes with the Valkyrie behind it\" (t=2351).",
+      "t=2346 (clock unreadable): split piggies to the right bridge at [10, 18] after four left-lane deploys — \"Here I went for the split piggies\" (t=2348).",
+      "t=2337 (clock unreadable): keeping the Evo cycle available is itself the defence — \"he couldn't really lava hound because I had the evo piggies in cycle and he still had to deal with the furnace\", and it protects his spawners too: \"he couldn't really spell my furnace away because he had to watch out for the evo piggies\" (t=2342).",
+      "t=2415 (clock unreadable): hogs deployed at [2, 18] into the opponent's Fireball rather than before it — \"He fireballed and I timed it with the piggies very nicely\" (t=2418)."
+    ],
+    "furnace": [
+      "t=2256/2263/2270/2315/2334/2377/2400 (clock unreadable): cycled roughly every 20 s at every depth — [9, 2] and [8, 2] behind the towers while the Lava Hound is out, [9, 10]/[9, 12]/[11, 10] mid-half when he needs the Fire Spirits on defence.",
+      "t=2420 (clock unreadable): placed high, near the river (deploy label [8, 18]), as an offensive spawner while the opponent is pinned — \"I even went for a high furnace here because I knew that he would have to continue defending the piggies, so the fire spirit jumps over the bridge, which is what I was planning\" (t=2422).",
+      "t=2334 (clock unreadable): chosen over spending 3 elixir on the Dark Prince ability — \"I kind of felt like I wanted to ability, but I decided against it because I could just go for the furnace here. Get to my Evo furnace\" (t=2333).",
+      "t=2404 (clock unreadable): paired with Goblin Hut so one spell cannot answer both — \"since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace\"."
+    ],
+    "goblin-hut": [
+      "t=2387-2392 (clock unreadable): the hut goes down early in the defensive rotation (tracked as an ally building at [16, 9] from t=2392) — \"right here, I went for the early hut. And my goal right now was just trying to make sure that his Valkyrie didn't walk up to my tower\".",
+      "t=2406-2412 (clock unreadable): run as a pair with the Furnace so the opponent's single spell rotation always falls behind — \"he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace. So I was able to defend this push very very easily because of that\".",
+      "t=2310 (clock unreadable): he names the deck by it — \"I had a nice Goblin Hut Piggies deck\"."
+    ],
+    "dark-prince": [
+      "t=2320/2323 (clock unreadable): dropped at the bridge at [2, 17] behind a Barbarian Barrel — \"Here I went for the dark prince at the bridge. I wanted to be really aggressive in this matchup. And I even barb barrel'd just to have a more supported dark prince\" (t=2323-2330).",
+      "t=2393 (clock unreadable): pre-placed defensively at [9, 11] against a card not yet on the field — \"I even pre-dark Prince predicting his Valkyrie cuz I knew he had the Valkyrie and I wanted to instantly wipe it out\"; he calls it \"just a very good dark prince play out of me\" (t=2416).",
+      "t=2367 (clock unreadable): bridge Dark Prince plus the Heroic Destructive Dismount on 4 elixir — \"I'm going dark prince at the bridge on four elixir. I even ability here. I knew that this ability was aggressive, but I instantly went barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound\".",
+      "t=2437-2448 (clock unreadable): the closing play — Dark Prince over the bridge in the right lane, then the ability with a Fireball on the Skeleton Dragons: \"the rune giant actually pushed the rhino away and I was able to take the tower guys\" (t=2445)."
+    ],
+    "barbarian-barrel": [
+      "t=2317 (clock unreadable): rolled at [4, 17] as cover for the bridge Dark Prince — \"I even barb barrel'd just to have a more supported dark prince\" (t=2328).",
+      "t=2370 (clock unreadable): Barbarian Barrel at [4, 17] with Goblins immediately after the Dark Prince ability — \"I instantly went barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound. I knew I'd force out the skeleton dragons there\" (t=2372).",
+      "t=2424 (clock unreadable): the same pair in the opposite lane at [12, 17] with Goblins at [15, 17] — \"I even went for the barb barrel plus goblins opposite lane kind of just knowing that he'd have to Valkyrie on the left side\" (t=2427)."
+    ],
+    "goblins": [
+      "t=2278 and t=2404 (clock unreadable): cheap defensive drops on his own half at [14, 12] and [15, 12] against Lava Hound support during the two Hound pushes.",
+      "t=2427 (clock unreadable): offensive Goblins at [15, 17] paired with a Barbarian Barrel in the far lane to punish a committed answer — \"he'd have to Valkyrie on the left side and he actually Valkyrie'd, and guys look at these goblins on the right side. He didn't have anything\" (t=2427-2436).",
+      "t=2370-2386 (clock unreadable): Goblins at the bridge alongside the barrel are what deny the Lava Hound — \"barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound\" (t=2372)."
+    ],
+    "fireball": [
+      "t=2329 (clock unreadable): defensive Fireball on his own half at [4, 10] to clear the left-lane answer while the bridge Dark Prince is walking in.",
+      "t=2349 (clock unreadable): offensive Fireball at [2, 27] on the enemy left immediately behind the split Royal Hogs.",
+      "t=2441 (clock unreadable): Fireball at [15, 27] on the Skeleton Dragons to finish the game, after counting the tower — \"His tower was in a two fireball range so I knew that the odds of me winning this game were very high\" (t=2439) and \"I went for the ability and the fireball on the skelly drags\" (t=2443)."
+    ],
+    "electro-spirit": [
+      "t=2290 (clock unreadable): 1-elixir defensive reset at [6, 14] during the first Lava Hound push.",
+      "t=2363/2395/2412/2436 (clock unreadable): thrown in at the river ([14, 18], [10, 17], [10, 16], [8, 16]) as filler alongside the Royal Hogs and Dark Prince pressure rather than held — no commentary on it."
+    ],
+    "lava-hound": [
+      "t=2264-2288 (clock unreadable): the opponent's only clean Hound push, tracked from [17, 25] down to [16, 10] with lava pups at t=2294; Ryley's right tower goes 3052 -> ~1720 while he answers with a second Furnace and Goblins.",
+      "t=2337-2372 (clock unreadable): his whole plan is to make the Hound unaffordable — \"he couldn't really lava hound because I had the evo piggies in cycle\", \"I don't want to let him get many lava hound pushes, mainly lava pushes with the Valkyrie behind it\" (t=2357), \"barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound\" (t=2372).",
+      "t=2390 (clock unreadable): second Hound at [16, 26] -> [16, 21], which he defends with Goblin Hut, Furnace and the pre-placed Dark Prince — \"here is when I knew he had an opportunity to go in for a lava, but otherwise I did a really good job at pressuring throughout the game\" (t=2380)."
+    ],
+    "valkyrie": [
+      "t=2389-2398 (clock unreadable): respected before it appeared — \"my goal right now was just trying to make sure that his Valkyrie didn't walk up to my tower. I even pre-dark Prince predicting his Valkyrie cuz I knew he had the Valkyrie and I wanted to instantly wipe it out\".",
+      "t=2361 (clock unreadable): the Heroic ability is why he refuses to let a Lava push start — \"mainly lava pushes with the Valkyrie behind it because I know that the Valkyrie ability can be crazy\".",
+      "t=2427-2446 (clock unreadable): baited to the wrong lane by Barbarian Barrel + Goblins (\"he'd have to Valkyrie on the left side and he actually Valkyrie'd\", t=2431), then tracked at [3, 11] grinding Ryley's left tower from 2448 to 1916 while he closes on the other side."
+    ],
+    "skeleton-dragons": [
+      "t=2370-2382 (clock unreadable): used as a forced answer — \"I knew I'd force out the skeleton dragons there cuz obviously he didn't want to play anything else\" (t=2376); two `skeleton-dragon` tracks duly appear at [4, 18] and [1, 18] at t=2382.",
+      "t=2441 (clock unreadable): Ryley's closing Fireball at [15, 27] lands on them — \"I went for the ability and the fireball on the skelly drags\" (t=2443)."
+    ],
+    "zap": [
+      "t=2402 (clock unreadable): mentioned, not seen — Ryley says his double-spawner pressure forced the opponent's Evolved Zap out of position: \"he had to go for the Evo Zap. And since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut\"."
+    ],
+    "rune-giant": [
+      "t=2310 (clock unreadable): named as part of the opponent's list — \"here he had a lava hound rune giant deck with the Valkyrie\".",
+      "t=2445 (clock unreadable): mentioned in play only, no detector track — its knockback shoves the Heroic Dark Prince's Rhino off the tower on the final push: \"the rune giant actually pushed the rhino away and I was able to take the tower guys\"."
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-dark-prince-electro-spirit-fireball-furnace-goblin-hut-goblins-royal-hogs",
+    "cards": [
+      "barbarian-barrel",
+      "dark-prince",
+      "electro-spirit",
+      "fireball",
+      "furnace",
+      "goblin-hut",
+      "goblins",
+      "royal-hogs"
+    ],
+    "bullets": [
+      "CRL duel game 2 vs Lava Hound / Rune Giant / Valkyrie beatdown, video t=2250-2454 (broadcast clock unreadable). Ryley wins it to level the set at 1-1: \"I was able to take the tower guys. So we were going to a game three\" (t=2448).",
+      "Gameplan is permanent pressure so the beatdown player can never bank for a Hound: five Royal Hogs bridge deploys (t=2257, 2292, 2346 split, 2391, 2415) plus Dark Prince at the bridge (t=2320, 2367, 2437) and Barbarian Barrel + Goblins at the bridge (t=2370, 2424) — \"I was just constantly spamming him because I don't want to let him get many lava hound pushes\" (t=2351).",
+      "Furnace and Goblin Hut are cycled as a pair, seven Furnace placements between t=2256 and t=2420, so a single opponent spell can never clear both: \"since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace\" (t=2404).",
+      "The Evo Royal Hogs threat is what protects the spawners: \"I was just kind of abusing the fact that he couldn't really spell my furnace away because he had to watch out for the evo piggies\" (t=2342); when the opponent is pinned defending hogs, the Furnace moves up to the river so its Fire Spirits cross the bridge (t=2420).",
+      "Defence is Dark Prince + spawner chip, played on prediction rather than reaction — a pre-placed Dark Prince at [9, 11] (t=2393) against a Valkyrie that had not yet been shown — and the game closes with the Heroic Dark Prince dismount plus Fireball (t=2441-2448)."
+    ],
+    "new_deck": {
+      "display_name": "Goblin Hut Piggies (Ryley)",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "control",
+      "rationale": "No tank and no big spell win condition: every card is a cheap threat dropped at the bridge (Royal Hogs, Dark Prince, Barbarian Barrel, Goblins) to force answers, with the two huts holding the ground behind it.",
+      "why_it_works_md": "Two spawners (Furnace and Goblin Hut) generate free chip and free defenders, so the deck can defend a Lava Hound push with elixir left over and immediately spend it at the bridge. Royal Hogs are the pressure valve rather than the whole plan — the threat of the Evolution in cycle stops the opponent from spending a spell on the huts, and stops them committing to a Hound at all. Dark Prince covers the ground defence that the huts cannot (Valkyrie, Barbarians) and doubles as a bridge threat, with the Heroic Destructive Dismount available when the opponent is already stretched. Fireball is both the defensive answer to Skeleton Dragons and the finisher, since two Fireballs is a real win condition once the hut chip has worked. The weakness on show is air defence: the one Hound push that did get through took a tower from full to ~1720."
+    }
+  }
+}

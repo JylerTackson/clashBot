@@ -1,0 +1,60 @@
+{
+  "key": "9tx2iYsSmMw-m0.4",
+  "match_file": "matches/9tx2iYsSmMw-m0.4.md",
+  "video_title": "Ryley's BEST Games of CRL 2026",
+  "cards": {
+    "golden-knight": [
+      "t=978 (clock unreadable): dropped at the bridge ([3,17]) against a tank-less enemy push — \"right here is when I'm like, hold up. I can just Golden Knight because he didn't have really a good tank for anything.\"",
+      "t=986 (clock unreadable): pops the dash on that push and calls it the surprise, not the value — \"look at that golden knight dash, guys ... I don't think he expected me to use the ability right there.\"",
+      "t=1040 (clock unreadable): plays him defensively on his own half ([3,12]) while his left tower is at 492 HP — \"I knew that if he pulled off like a miracle defense, I would lose the game. So here I went for the gold knight.\"",
+      "t=1074-1088 (clock unreadable): bridge Golden Knight the moment the opponent spends Arrows and runs out of ground cards, then the dash into the enemy Dark Prince finishes the tower — \"So I popped the ability here to go into the dark prince ... Golden Knight goes right back. And I take out the entire tower.\" (tracker follows him from [3,19] to [6,27] between t=1080 and t=1086)"
+    ],
+    "mega-knight": [
+      "t=964 (clock unreadable): names it as his deck choice for the matchup against Assaf's bait deck — \"I did feel like this Mega Knight deck might be my best chance to have a winnable matchup.\"",
+      "t=1027 (clock unreadable): states the pairing as the deck's engine — \"the deck is just so broken in my opinion. Like Mega Knight Golden Knight is such a crazy combo. Then you have even more broken cards to kind of pair it up with.\"",
+      "t=986 (clock unreadable): mentioned in the dash call-out (\"Getting the Mega Knight right under the tower\") but the broadcast does not resolve which side the Mega Knight on the field belonged to; deploy labels exist at t=962 and t=1064-1065."
+    ],
+    "mother-witch": [
+      "t=974/t=986 (clock unreadable): placed on his own half ([7,9], then [10,11]) as the answer to the opponent's Royal Hogs — \"So, I went for the mother witch as well on the piggies.\" He immediately second-guesses it: \"I'm still unsure if this was a mistake even watching this back\" (t=994).",
+      "t=1038.4 (clock unreadable): a second Mother Witch (HUD-exact, elixir 7->3) into his Golden Knight push, but the opponent's Vines blunts it — \"I thought the mother witch was going to be the one card up. So, that was a little bit unfortunate, but also well played by him kind of keeping the vine.\""
+    ],
+    "bandit": [
+      "t=996 (clock unreadable): used offensively as a dash onto the enemy hero Dark Prince, and he grades the trade as unclear — \"I did a nice bandit here to dash on top of the dark prince, but for whatever reason, the dark prince still splashes my tower for a ton of damage and he gets the ability off. I got a bunch of damage, too ... I was definitely unsure of who got the better end of this.\"",
+      "t=1059.1 (clock unreadable): played on his own half ([7,10]) as a defender he expects to convert into offence — \"I went for the bandit here on defense just kind of knowing that I would like need to break through here in the very near future.\""
+    ],
+    "royal-ghost": [
+      "t=1050 (clock unreadable): paired with the evolved Battle Ram as bridge pressure while his own left tower sat at 132 HP — \"I went for the uh the ghost here plus the evo battle ram knowing that I definitely had to apply a lot of pressure.\"",
+      "t=1090.1 (clock unreadable): HUD-exact (elixir 6->3) side-lane Royal Ghost in the closing sequence — \"Then I went for the Royal Ghost here on the side.\"",
+      "t=998 (clock unreadable): an earlier bridge placement ([4,18]) during the Dark Prince trade that cost him 532 tower HP."
+    ],
+    "electro-wizard": [
+      "t=1090-1096 (clock unreadable): the defensive placement that wins the game — one E-Wiz resets both enemy threats on a tower in the low hundreds of HP: \"And then I went for the Ewiz here, guys. And look, I reset both of them. And I saved my tower to win the game, guys. And I beat Assath in the duel here.\""
+    ],
+    "battle-ram": [
+      "t=1050-1060 (clock unreadable): evolved Battle Ram sent at the bridge with Royal Ghost purely as pressure while he was behind on tower HP — \"knowing that I definitely had to apply a lot of pressure\"; the tracker has the evolved ram in the enemy half at [11,25] by t=1060."
+    ],
+    "dark-prince": [
+      "t=1002 (clock unreadable): faced as an opposing hero variant with an ability; his Bandit dash did not stop it — \"for whatever reason, the dark prince still splashes my tower for a ton of damage and he gets the ability off\" (his left tower drops 2272->1740 at t=1000).",
+      "t=1066 (clock unreadable): the opponent burns the ability again and Ryley reads it as a gift — \"for some reason, he did the dark prince ability. I was very confused by that\"; at t=1084 he dashes his Golden Knight into it and takes the tower."
+    ],
+    "vines": [
+      "t=1043-1049 (clock unreadable): faced on defence against his Golden Knight/Mother Witch push and credited to the opponent — \"look at that vines hitting everything except the tower. I thought the mother witch was going to be the one card up. So, that was a little bit unfortunate, but also well played by him kind of keeping the vine.\""
+    ]
+  },
+  "deck": {
+    "deck_key": null,
+    "cards": [
+      "mega-knight",
+      "golden-knight",
+      "bandit",
+      "royal-ghost",
+      "mother-witch",
+      "battle-ram",
+      "electro-wizard"
+    ],
+    "bullets": [
+      "Only seven of the eight cards can be attributed to Ryley in this clip (the HUD read is 0.351-confidence and the broadcast mis-sides his bridge plays), so no deck key is claimed.",
+      "Piloted as bridge spam behind a Mega Knight/Golden Knight core: Golden Knight at the bridge whenever the opponent lacked a tank (t=978, t=1074), Bandit and Royal Ghost as dual-purpose defence-into-counterpush (t=996, t=1059.1, t=1090.1), evolved Battle Ram as pure pressure while down on tower HP (t=1050), Mother Witch as the anti-Royal-Hogs defender (t=974, t=1038.4) and Electro Wizard as the emergency reset that saved the game (t=1090)."
+    ]
+  }
+}

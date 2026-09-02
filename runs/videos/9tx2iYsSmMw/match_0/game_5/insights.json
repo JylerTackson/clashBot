@@ -1,0 +1,109 @@
+{
+  "key": "9tx2iYsSmMw-m0.5",
+  "match_file": "matches/9tx2iYsSmMw-m0.5.md",
+  "video_title": "Ryley's BEST Games of CRL 2026",
+  "cards": {
+    "princess": [
+      "t=1109.9 (CRL broadcast, clock unreadable): opens the readable clip with Princess at tile (9, 9) on his own half, elixir 10 -> 7, then keeps a middle-lane Princess alive with fresh copies at (8, 11), (8, 10) and (8, 9) between t=1136 and t=1197.",
+      "t=1235.9-1301.8: stacks Princesses at (9, 11), (8, 12), (8, 12) and (8, 13) (three clean HUD 3-elixir steps). He places them to dodge the opponent's Log and to survive: \"I just went for the Evo Princess here. Just making sure to get more value out of it going for the log\" (1250-1253s); \"I went for the evil princess here just to keep that princess alive. And I actually was able to keep that alive, guys. It was insane\" (1302-1305s).",
+      "t=1223.4 and t=1324.7: Princess at (8, 2), deep in the centre behind his own King Tower, when he wants board presence without exposing her to a Log or a Miner.",
+      "Names the evolved Princess as the reason the deck is playable again: \"this deck is back after the addition of the Evo Princess. And I wasn't kidding by the way\" (1145-1150s), and credits \"the princess stack just having two princess on the board\" as one of the two things that made the game unloseable (1361-1363s)."
+    ],
+    "cannon": [
+      "Holds the Cannon rather than cycling it, and states the rule at 1159-1172s: \"you guys may be wondering why I deny cannon. You always see me do that on ladder. That is because I didn't have my ice spirit in cycle. And after he let the princess lock, he would just go for the bat split and then he'd minor wall breakers with it. And I wouldn't have my cannon or my ice spirit for anything.\"",
+      "t=1157.2-1168.3 and t=1210.2-1219.1 (clock unreadable): places it at tile (9, 11) and (9, 12), the standard pocket 3-4 tiles from the river, as a clean HUD 3-elixir step each time.",
+      "t=1240.2: plays the evolved Cannon immediately instead of reactively so the deploy barrage catches the whole push - \"I got a really good EVO cannon right there. That was just absolutely gorgeous. I hit everything right there with that cannon. I guess he didn't expect me to play it right away or something\" (1243-1250s).",
+      "t=1340.3: Cannon at (9, 15) as his Magic Archer answer, paired with The Log - \"I went for the evo cannon as well, just to take out that magic archer with the help of a log\" (1341-1345s); earlier he simply keeps it in hand as insurance, \"I had the Evo Cannon ready, just chilling here\" (1328-1330s)."
+    ],
+    "ice-spirit": [
+      "Treats having Ice Spirit in cycle as the precondition for using the Cannon at all: \"That is because I didn't have my ice spirit in cycle... And I wouldn't have my cannon or my ice spirit for anything\" (1161-1170s).",
+      "t=1261.3-1263.3 (clock unreadable): Ice Spirit at (14, 12) into a Goblin Barrel on the enemy right tower - \"I went for the ice spirit barrel here. you know, having the ice spirit counter pushing. Hopefully, I was going to get a hit and then I actually did\" (1264-1270s).",
+      "t=1329.3: Ice Spirit used as a Miner prediction, and he says it missed - \"I went for the iceir to predict the minor. He went minor on the other side. I might eat here, but for whatever reason, I didn't catch it\" (1331-1335s).",
+      "Rations it by threat rather than spending it on the first swarm: \"I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker\" (1258-1263s)."
+    ],
+    "skeletons": [
+      "t=1188.0 (clock unreadable): Skeletons at tile (14, 8) alongside The Log onto an incoming Miner - \"I went for the Skellis Plus log here on top of the minor\" (1186-1189s).",
+      "t=1254.3: Skeletons at (6, 11) purely as a body in front of his Princess - \"I did a nice skelea block for that princess as well. Just getting a bunch of value\" (1255-1258s).",
+      "t=1296.3: Skeletons at (14, 3) as a Miner prediction that lands - \"I went for the skellies to predict the minor here\" (1290-1292s), \"and then I actually did get it\" (1301s).",
+      "Accepts them failing as a cheap loss: against a Bomb Tower, \"the skellies did block the first shot. But it's true unfortunately\" (1183-1186s)."
+    ],
+    "goblin-barrel": [
+      "Four throws in the readable clip, all cycle-counted against the opponent's Royal Delivery: t=1129.1 and t=1263.3 at (14, 30) on the enemy right tower, then t=1319.3 and t=1341.8/1361.4 at (3, 30)/(3, 28) on the enemy left tower.",
+      "t=1319.3 (clock unreadable): throws it when he believes the answer is out of hand and gives the opponent credit when it is not - \"I went for the barrel as well, just knowing that he didn't have the delivery right away, but he actually did manage to get it down, which is really good by him\" (1322-1328s).",
+      "t=1341.8: the same rule stated as a rule - \"I went for the barrel cuz I outcycled the delivery\" (1349-1350s).",
+      "t=1263.3: sends it behind an Ice Spirit as a counterpush rather than as a lone chip play, and it connects (1264-1270s)."
+    ],
+    "the-log": [
+      "Uses it forward and pre-emptively on the opponent's Magic Archer rather than saving it for a swarm - \"I went for the quick log here on top of the magic archer and I was already able to get a really nice situation out of this here\" (1130-1134s), deploy label at tile (14, 17), t=1127.1.",
+      "t=1188.0 (clock unreadable): The Log plus Skeletons together onto a Miner - \"I went for the Skellis Plus log here on top of the minor\" (1186-1189s).",
+      "t=1344.0: The Log as the finisher on a Magic Archer the Evo Cannon had already chipped - \"just to take out that magic archer with the help of a log\" (1343-1345s).",
+      "Places his own Evo Princess specifically so the opponent's Log cannot get full value on her: \"Just making sure to get more value out of it going for the log\" (1250-1253s)."
+    ],
+    "mighty-miner": [
+      "The card he names the deck after: \"I'm standing true to my words and I'm playing Mighty Miner Bait in competitive\" (1153-1157s), in a Log Bait shell with Princess, Cannon, Skeletons, Goblin Barrel, Rocket and The Log.",
+      "t=1304.3 (clock unreadable): Mighty Miner on the bridge at tile (14, 17) purely to force the opponent's Magic Archer out - \"I mighty mined the bridge knowing he had to go for the magic cartridge [Magic Archer]\" (1307-1309s).",
+      "t=1224.2 and t=1332.3: defensive placements on his own half at (7, 11) and (5, 9); at t=1356.4 he puts him at (2, 17) one second before the opponent's Miner surfaces at (4, 18) - \"I caught the miner again, just over and over again somehow\" (1345-1346s).",
+      "t=1119.1: an early 4-elixir drop at (15, 17) at the river, with ally Mighty Miner units then tracked advancing into the opponent's half at (13, 18) and (13, 20)."
+    ],
+    "rocket": [
+      "t=1332.5 (clock unreadable): one confirmed cast, a clean HUD 10 -> 4 step (a 'Rocke' deploy label at tile (16, 28) was also read around t=1308.3).",
+      "Hovers the Rocket as a bluff while not actually holding it: \"That's why I had my rocket hovered for a second. It looked stupid cuz why would I have a rocket? Which I didn't. But, you know, it's just to... have it in my head that I didn't know what he was going to do. just like a little mind trick to tell myself that I got this\" (1310-1320s).",
+      "Names \"the rocket cycle\" alongside his Princess stack as the reason the opponent could not come back (1358-1363s)."
+    ],
+    "magic-archer": [
+      "Opponent's card in this match. Ryley's default answer is a quick forward Log: \"I went for the quick log here on top of the magic archer and I was already able to get a really nice situation out of this here\" (1130-1134s).",
+      "Declines a King Tower activation because the Magic Archer would not be dragged into it: \"I was thinking about trying to activate the Kingar, but I felt like the march was just going to lock to the cannon anyway. So, I didn't really go for it\" (1226-1231s).",
+      "Baits it out with a bridge Mighty Miner - \"I mighty mined the bridge knowing he had to go for the magic cartridge\" (1307-1309s) - and finally kills it with Evo Cannon plus The Log: \"I went for the evo cannon as well, just to take out that magic archer with the help of a log\" (1341-1345s)."
+    ],
+    "miner": [
+      "Opponent's card in this match (a Miner deploy label lands at tile (4, 18) at t=1357.4). Ryley expected a Miner onto his Princess early and read that it would not come: \"I had a feeling that he wouldn't go for the minor on the princess cuz I know he likes to make these kind of plays. And from just playing against him for years now, I just had a feeling\" (1122-1130s).",
+      "Answers a landed Miner with Skeletons plus The Log - \"I went for the Skellis Plus log here on top of the minor\" (1186-1189s) - and pre-empts him with Skeletons at t=1296.3 (\"I went for the skellies to predict the minor here... and then I actually did get it\", 1290-1301s).",
+      "An Ice Spirit Miner-prediction at t=1329.3 misses because the Miner goes to the other lane: \"He went minor on the other side. I might eat here, but for whatever reason, I didn't catch it\" (1332-1335s); his Mighty Miner catches it instead, \"I caught the miner again, just over and over again somehow\" (1345-1346s)."
+    ],
+    "wall-breakers": [
+      "Mentioned, not faced on camera in the readable window: Ryley describes them as the opponent's Miner follow-up and as the reason he keeps his Cannon and Ice Spirit in hand - \"he would just go for the bat split and then he'd minor wall breakers with it. And I wouldn't have my cannon or my ice spirit for anything\" (1165-1170s)."
+    ],
+    "bats": [
+      "Opponent's card. Ryley plays around a Bats split before it happens: \"princess in the middle just thinking that there was a chance that he could go for the bats on top of this guys\" (1137-1141s) and \"after he let the princess lock, he would just go for the bat split\" (1163-1167s); the tracker sees a five-Bat right-lane wave at 1174-1178s, which he answers with an Ice Spirit at tile (15, 10) (t=1177.5).",
+      "Deliberately does not spend the Ice Spirit on a later Bats wave: \"I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker\" (1258-1263s)."
+    ],
+    "bomb-tower": [
+      "Opponent's card, tracked at tiles (8, 18), (6, 20) and (1, 20) across the clip. Ryley considered predicting or blocking it and judged both bad: \"I wouldn't have got a good situation out of predicting the bomb tower or just even blocking it cuz the skellies did block the first shot. But it's true unfortunately\" (1181-1186s)."
+    ],
+    "berserker": [
+      "Mentioned only, as the opponent's card he was saving his 1-elixir answer for: \"I could have went for the ice spirit on those bats, but I just felt like it would be better suited for that berserker\" (1258-1263s)."
+    ],
+    "royal-delivery": [
+      "Opponent's card and the single card Ryley's Goblin Barrel plan revolves around; the auto-transcript renders it \"the delivery\" and the arena tracker logs the lone Royal Recruit it leaves behind at tiles (14, 20), (14, 15), (3, 18) and (4, 22) (see the match file's Data gaps).",
+      "His stated bait-deck plan against it is to outcycle it: \"I was just playing very passive, kind of trusting my defense, and knowing that I can outcycle him with the delivery throughout the game, just kind of get some nice damage\" (1231-1238s).",
+      "He throws the Goblin Barrel only when he counts it out of hand: \"just knowing that he didn't have the delivery right away, but he actually did manage to get it down, which is really good by him\" (1322-1328s) and \"I went for the barrel cuz I outcycled the delivery\" (1349-1350s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-goblin-barrel-ice-spirit-mighty-miner-princess-rocket-skeletons-the-log",
+    "cards": [
+      "cannon",
+      "goblin-barrel",
+      "ice-spirit",
+      "mighty-miner",
+      "princess",
+      "rocket",
+      "skeletons",
+      "the-log"
+    ],
+    "bullets": [
+      "CRL broadcast footage with Ryley's voice-over, video 1103.1s-1371.2s (no readable match clock; all times are video seconds). He names the deck himself: \"this is my favorite deck of all time and I was telling you guys that this deck is back after the addition of the Evo Princess... I'm playing Mighty Miner Bait in competitive\" (1141-1157s). Result: win by concession - \"he actually ended up giving up. So I was in a 1-0 lead in the duel for the qualification\" (1365-1368s), against Lucas on a Miner / Magic Archer / Royal Delivery control list.",
+      "Pilots it as a patient bait deck, not a rush: \"I was just playing very passive, kind of trusting my defense, and knowing that I can outcycle him with the delivery throughout the game, just kind of get some nice damage\" (1231-1238s). Goblin Barrels only go out when the opponent's Royal Delivery is counted out of cycle (t=1319.3, t=1341.8; \"I went for the barrel cuz I outcycled the delivery\", 1349-1350s).",
+      "Cycle discipline governs the defence: he refuses to lay the Cannon while Ice Spirit is out of cycle - \"you guys may be wondering why I deny cannon... That is because I didn't have my ice spirit in cycle\" (1159-1163s) - and when he does play the Evo Cannon he plays it immediately for the deploy barrage (t=1240.2, \"I hit everything right there with that cannon\", 1245-1248s).",
+      "The win comes from accumulated Princess presence plus the Rocket, not from one push: Princess placements at (9, 11), (8, 12), (8, 12), (8, 13) and (8, 2) over t=1223-1360, and \"there was no way that he was going to be able to come back from the rocket cycle and the princess stack just having two princess on the board\" (1358-1363s).",
+      "Mighty Miner is the deck's flex slot: a bridge play to force the opponent's Magic Archer (t=1304.3, \"I mighty mined the bridge knowing he had to go for the magic cartridge\", 1307-1309s) and a repeat Miner catcher on defence (t=1224.2, t=1332.3, t=1356.4; \"I caught the miner again, just over and over again somehow\", 1345-1346s)."
+    ],
+    "new_deck": {
+      "display_name": "Mighty Miner Bait",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel and Princess are both Log/Arrows bait played behind cheap cycle cards, and the game plan Ryley states is to outcycle the opponent's single Goblin Barrel answer rather than to build a push.",
+      "why_it_works_md": "Classic Log Bait: Goblin Barrel and Princess force the opponent to spend their small spell, and once it is spent the other threat gets through for free. Ryley's version swaps the usual mini-tank for a Mighty Miner, which gives the deck both a bridge play that forces out enemy support (\"I mighty mined the bridge knowing he had to go for the magic cartridge\", 1307-1309s) and a reliable answer to Miner and tanky ground units on defence. Cannon, Skeletons, Ice Spirit and The Log are the whole defence, so the deck is cycle-dependent by design - Ryley refuses to lay the Cannon when Ice Spirit is out of cycle (1159-1172s), and gates every Goblin Barrel on having counted the opponent's answer out of hand (1322-1350s). Rocket is the closer, used both as real damage and as a hovered bluff (1310-1320s), and the evolved Princess is what he says brought the deck back into competitive play (1145-1150s)."
+    }
+  }
+}

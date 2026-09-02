@@ -1,0 +1,112 @@
+{
+ "frames": 15633,
+ "seconds": 5121.8,
+ "timing": {
+  "total": {
+   "n": 15633,
+   "mean_ms": 320.2,
+   "p95_ms": 1680.8
+  },
+  "elixir": {
+   "n": 15232,
+   "mean_ms": 1.2,
+   "p95_ms": 1.8
+  },
+  "hand": {
+   "n": 15232,
+   "mean_ms": 114.3,
+   "p95_ms": 138.3
+  },
+  "clock": {
+   "n": 15232,
+   "mean_ms": 61.0,
+   "p95_ms": 394.6
+  },
+  "labels": {
+   "n": 2539,
+   "mean_ms": 368.1,
+   "p95_ms": 444.8
+  },
+  "detect": {
+   "n": 1268,
+   "mean_ms": 960.8,
+   "p95_ms": 1092.3
+  },
+  "loop_fps": 3.1
+ },
+ "own_elixir_drift": {
+  "n": 398,
+  "mean": -0.52,
+  "abs_mean": 1.07,
+  "max_abs": 5.132,
+  "last": 0.23
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "elite-barbarians",
+   "cannon-cart",
+   "skeletons",
+   "princess",
+   "valkyrie",
+   "battle-ram",
+   "heal-spirit",
+   "zappies"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "elite-barbarians",
+   "cannon-cart",
+   "skeletons",
+   "princess"
+  ],
+  "predicted_next": "valkyrie",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-valkyrie-zappies",
+    "name": "Mother Witch Bridge Spam HeroValk",
+    "archetype": "bridge-spam",
+    "matched": 5,
+    "contradicted": 3,
+    "score": -0.97,
+    "remaining": [
+     "bandit",
+     "freeze",
+     "mother-witch"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-battle-ram-elite-barbarians-giant-skeleton-mother-witch-vines-wizard-zappies",
+    "name": "GS Evo Ram HeroWiz MW",
+    "archetype": "bridge-spam",
+    "matched": 3,
+    "contradicted": 5,
+    "score": -6.96,
+    "remaining": [
+     "barbarian-barrel",
+     "giant-skeleton",
+     "mother-witch",
+     "vines",
+     "wizard"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons",
+    "name": "EvoMortar Goblinstein Cart",
+    "archetype": "siege",
+    "matched": 3,
+    "contradicted": 5,
+    "score": -6.98,
+    "remaining": [
+     "barbarian-barrel",
+     "fireball",
+     "goblinstein",
+     "minions",
+     "mortar"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 3
+ }
+}

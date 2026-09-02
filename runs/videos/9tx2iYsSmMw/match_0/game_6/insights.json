@@ -1,0 +1,86 @@
+{
+  "key": "9tx2iYsSmMw-m0.6",
+  "match_file": "matches/9tx2iYsSmMw-m0.6.md",
+  "video_title": "Ryley's BEST Games of CRL 2026",
+  "cards": {
+    "golem": [
+      "t=1409.7s (broadcast clock unreadable): opens the readable clip with Golem at tile [8, 2] in the back off a 10 -> 2 elixir dump, justified by his lead — \"I thought this was a good golem because I was up so much elixir. Maybe I was up like a good three elixir with a tombstone down\" (1419-1423s).",
+      "t=1493.8s, t=1534.4s, t=1568.6s: three Golems in the middle of his half ([9, 13], [9, 13], [8, 11]) against X-Bow, as a placement rule he states outright — \"You always want to put your golem in the middle so they're not able to go for the X-Bow in the opposite lane\" (1496-1498s).",
+      "t=1534.4s: uses Golem as a safety cycle rather than a push — \"I just cycled a golem in the middle just to be safe because I didn't really want to, you know, have to worry about anything\" (1535-1539s).",
+      "t=1635.1s: the closing Golem (label at [17, 15], 9 -> 1 elixir) once he is up a Rocket — \"here is when I knew that I had probably won. I just cycled my golem here knowing that there was no way for him to really like stop this\" (1635-1640s); at 1645s he adds that the Golem was never his worry, his spell cycle was."
+    ],
+    "tombstone": [
+      "t=1513.5s and t=1537.5s: deliberately varied central placements ([8, 11] then [8, 10]) as spell insurance — \"If you noticed, I was doing these weird tombstone placements. And the whole reasoning behind that was because of the like potential fireball cycle\" (1520-1526s); he drops the habit once he learns Ian holds Rocket, not a Fireball cycle, for the Baby Dragon (1516-1518s).",
+      "t=1572.6s and t=1604.6s: Tombstone in the middle as pre-placed siege insurance — \"I just went for the tombstone in the middle just to make sure that I tank for a future X-Bow\" (1572-1576s), and again late when he judged there was no time for another Golem (1602-1612s).",
+      "t=1537.5s: paired with the Evo Baby Dragon as a two-lane sweep — \"I went for the tombstone and then the [evo] baby dragon here, knowing that I'd be able to take out both of the archers on each lane, which was very nice by me\" (1540-1546s)."
+    ],
+    "baby-dragon": [
+      "t=1428.6s (5-elixir drop, hand unread): Evo Baby Dragon answering Ian's bridge X-Bow, backed by a Valkyrie — the trade he later calls a mistake: \"I do get some damage back here... my baby dragon does get on the tower nicely, but I just really thought that I was going to get more damage than he did... that was my mistake right there\" (1445-1459s).",
+      "t=1532.5s: Baby Dragon at [8, 9] behind a Tombstone to clear the Evo Archers in both lanes (1540-1546s); at 1501-1503s he calls holding it back \"a nice Evo baby dragon ready\".",
+      "The whole game plan ran through it, and Ian's Rocket took it away: \"My whole like plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board\" (1511-1516s); The Log also sniped one at 1547-1550s.",
+      "t~1618s: Baby Dragon on the closing Golem push, misplaced by his own account — \"here I went for an evo baby dragon, but I actually messed it up, guys. Look at this baby dragon\" (1618-1622s)."
+    ],
+    "valkyrie": [
+      "Played as the Heroic Valkyrie with the ability popped on landing; it is his dedicated X-Bow killer — t=1554.6s label at [3, 18] beside Ian's X-Bow at [1, 19]: \"I went for the Valkyrie plus immediate ability to take out the X-Bow cuz I knew that if I didn't, then he could just pop the berserker ability. So, that was a very good defense by me\" (1556-1562s).",
+      "t=1429.4s / t=1432.4s: Valkyrie sent over the river at [14, 17]/[14, 18] onto the bridge X-Bow behind a Baby Dragon; he rates the pair badly afterwards — \"it kind of shows that this was not the greatest play in my opinion\" (1433-1436s).",
+      "t=1486.5s and t~1583s: Valkyrie used as a deterrent while he builds — \"I even went for a Valkyrie cuz having all this stuff down did mean he couldn't really go in for an X-Bow here\" (1488-1492s), \"I even went for a Valkyrie at the bridge just to continue protecting. And I went for the Valkyrie ability as well\" (1583-1588s).",
+      "t=1612.6s / t=1623.6s: on offence in triple elixir, the ability plus a Tornado pull is his damage source — \"I do a super nice Valkyrie ability plus [tor]nado. And look at that Valkyrie, guys. I got up to the tower because of my tornado... I get some very, very nice damage\" (1624-1633s)."
+    ],
+    "ice-wizard": [
+      "t=1475.5s: Ice Wizard at [8, 2] in the back specifically to walk into the Evo Archers on one side — \"Here I went for an ice wizard in the back just to go towards that one side Evo archer\" (1477-1481s).",
+      "t=1578.6s: half of his non-spell answer to a placed X-Bow — \"I knew I could just go for a baby dragon plus ice wizard as well, just to take out this X-Bow here\" (1577-1582s)."
+    ],
+    "tornado": [
+      "t=1550.5s: Tornado at [12, 25] to drag Ian's Archers into his Golem — \"And I just [torna]ed the archers into the golem again\" (1551-1554s).",
+      "t=1623.6s: Tornado paired with the Valkyrie ability to pull the tower's defenders and let her connect — \"I got up to the tower because of my tornado. Very good nado right there\" (1627-1631s).",
+      "t=1650.6s / t=1651.7s: Tornado again on the closing push while holding a second Lightning — \"So here I went for the nado, guys, and I had another lightning\" (1653-1655s)."
+    ],
+    "lightning": [
+      "Held as the pre-planned X-Bow answer before it was ever cast — \"if he went for the X-Bow on the right I could just go for the lightning plus barbarian barrel\" (1483-1486s).",
+      "t=1638.6s label at [14, 25] plus a 6-elixir unattributed drop at t=1641.1s: Lightning on the closing Golem push, with the spell cycle as his real concern — \"I wasn't worried about him actually stopping the golem. I was worried about just like him stopping my spell cycle, but I knew that I'd be able to cycle back to another lightning as long as I didn't have to defend an X-Bow\" (1642-1652s)."
+    ],
+    "barbarian-barrel": [
+      "t=1483.5s: label at [9, 8] on his own half; earlier he narrates using it on Ian's Berserker — \"I barbarian barreled on the berserker\" (1415s), though no event is logged at that time.",
+      "Named as the Lightning follow-up against a defended X-Bow — \"I could just go for the lightning plus barbarian barrel\" (1483-1486s)."
+    ],
+    "x-bow": [
+      "Ian's win condition all game (the auto-transcript renders it \"expo\"). The bridge X-Bow at t=1423.4s [15, 19] took Ryley's right tower from 3052 to 1660 HP by t=1438s; Ryley's answer (Baby Dragon + Valkyrie) under-traded and he says so: \"after the X-Bow rework, it just wasn't that great of a play. I thought it would be, but that was my mistake right there\" (1455-1459s).",
+      "His anti-X-Bow structure, stated: Golem always in the middle so it cannot go up the free lane (1496-1498s), Tombstone pre-placed centrally to tank it (1572-1576s), Lightning + Barbarian Barrel reserved for a right-lane one (1483-1486s), and Baby Dragon + Ice Wizard as the non-spell answer (1577-1582s).",
+      "He kills the building rather than defending it, because of the Berserker ability behind it — \"I went for the Valkyrie plus immediate ability to take out the X-Bow cuz I knew that if I didn't, then he could just pop the berserker ability\" (1556-1560s). Verdict on Ian's placement: \"Maybe not the greatest X-Bow by Ian, but... I was happy with this position\" (1564-1568s)."
+    ],
+    "rocket": [
+      "Mentioned, not played by Ryley — the card that broke his game plan when he spotted it: \"there is when I realized he had a rocket, which was kind of unfortunate. My whole like plan there was just to abuse the evo baby dragon. But because he had rocket, he was able to take it off the board\" (1509-1516s).",
+      "Being up a Rocket is his win signal — \"right now, I was up rocket. So, here is when I knew that I had probably won\" (1633-1637s) — and he counts the Rocket-on-tower as elixir he made Ian spend: \"not only did he have to defend and distract, but he also had to rocket my tower\" (1656-1660s)."
+    ],
+    "fireball": [
+      "Mentioned only, as Ian's card: the reason for his scattered Tombstone placements — \"the whole reasoning behind that was because of the like potential fireball cycle\" (1523-1526s) — and a worry that lifted once the Rocket appeared: \"that also meant I didn't have to worry about him going for fireball on the tombstone\" (1517-1518s)."
+    ],
+    "the-log": [
+      "Mentioned only, as Ian's card and as good play by the opponent: \"He did get a nice log there, though, to make sure he takes out my baby dragon. He was playing really well at this point\" (1547-1551s)."
+    ],
+    "berserker": [
+      "Ian's card, in its Heroic form. Ryley answers it with Barbarian Barrel early — \"I barbarian barreled on the berserker\" (1415s) — and times his Valkyrie-ability X-Bow kill so the ability never matters: \"I knew that if I didn't, then he could just pop the berserker ability\" (1557-1560s)."
+    ],
+    "archers": [
+      "Ian's Evo Archers, the small-unit pressure Ryley had to keep answering: he puts an Ice Wizard in the back \"just to go towards that one side Evo archer\" (1479-1481s), clears both lanes with Tombstone + Baby Dragon — \"knowing that I'd be able to take out both of the archers on each lane\" (1542-1545s) — and Tornados them into his Golem (1551-1554s). He credits the pressure: \"He was doing a really good job at pressuring me with these small units though. I do have to give him credit there\" (1503-1507s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "baby-dragon-barbarian-barrel-golem-ice-wizard-lightning-tombstone-tornado-valkyrie",
+    "cards": ["golem", "baby-dragon", "tombstone", "ice-wizard", "valkyrie", "barbarian-barrel", "tornado", "lightning"],
+    "bullets": [
+      "CRL 2026 duel vs Ian, X-Bow siege on the other side; Ryley picked this list himself — \"I actually did choose my decks. Normally I have my coach choosing my decks, but this time I really thought that I knew what Ian was going to play\" (1403-1411s). Result: win (\"I was able to get a very nice win, guys. And I was up 1 and 0 on the duel against Ian\", 1660-1664s).",
+      "Golem placement is anti-siege, not anti-defence: after the opening back Golem at t=1409.7s [8, 2], every later one goes dead centre — \"You always want to put your golem in the middle so they're not able to go for the X-Bow in the opposite lane\" (1496-1498s) — and two of them (t=1534.4s, t=1568.6s) are pure cycle plays for safety rather than pushes.",
+      "The defensive core is Tombstone + Ice Wizard + Baby Dragon: Tombstones central and deliberately offset against a spell cycle (t=1513.5s, t=1537.5s; 1520-1526s), Ice Wizard in the back for the Evo Archers (t=1475.5s), Baby Dragon held for two-lane clears (t=1532.5s) until Ian's Rocket forced him off that plan (1511-1516s).",
+      "X-Bows are killed at the bridge with the Heroic Valkyrie's ability rather than defended (t=1429.4s, t=1486.5s, t=1554.6s), with Lightning + Barbarian Barrel kept as the backup answer (1483-1486s); by his own account the early Baby Dragon + Valkyrie version of that trade was his mistake of the game (1455-1459s).",
+      "It closes in double/triple elixir: Valkyrie ability + Tornado pull for tower damage (t=1623.6s; 1624-1633s), then Golem + Lightning cycle — \"I wasn't worried about him actually stopping the golem. I was worried about just like him stopping my spell cycle\" (1644-1650s)."
+    ],
+    "new_deck": {
+      "display_name": "Golem Tombstone Beatdown (Ryley, CRL 2026)",
+      "archetype_primary": "beatdown",
+      "archetype_secondary": "control",
+      "rationale": "An 8-elixir Golem is the win condition and everything else (Tombstone, Ice Wizard, Baby Dragon, Valkyrie, Barbarian Barrel, Tornado, Lightning) exists to survive to double elixir and then support one big central tank push.",
+      "why_it_works_md": "The deck plays as a slow, central beatdown: Golem goes down in the middle of the court so a siege opponent can never open the opposite lane, and Tombstone is pre-placed centrally both to tank an X-Bow and to bait spells. Tombstone, Ice Wizard, Baby Dragon and Barbarian Barrel cover the ground and air chip that beatdown decks normally leak damage to, while the Heroic Valkyrie doubles as the bridge answer that deletes a siege building outright with her ability instead of defending it. On offence the payoff is Valkyrie ability plus Tornado to drag defenders off the tower, with Lightning reserved for whatever building or support survives. Ryley's own framing of the matchup is that the spell cycle, not the tank, is what has to be protected: \"I wasn't worried about him actually stopping the golem. I was worried about just like him stopping my spell cycle\" (1644-1650s)."
+    }
+  }
+}

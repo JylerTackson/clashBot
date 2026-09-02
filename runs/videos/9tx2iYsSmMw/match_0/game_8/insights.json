@@ -1,0 +1,105 @@
+{
+  "key": "9tx2iYsSmMw-m0.8",
+  "match_file": "matches/9tx2iYsSmMw-m0.8.md",
+  "video_title": "Ryley's BEST Games of CRL 2026",
+  "cards": {
+    "cannon": [
+      "t=2038 (broadcast clock unreadable): Cannon at tile [9, 14], high and central instead of the usual pocket, to stop a Battle Ram crossing — \"I went for the cannon in the middle just to make sure that I take out that battle ram\".",
+      "t=2062 and t=2093: Cannon re-placed at [9, 11] then [8, 10] as the anchor of a two-lane hold against an evolved Battle Ram and a Giant Skeleton; he cycles it purely to always have one down — \"I went for a cannon as well, just to make sure I kept everything alive\" (t=2155), \"then I could just cycle my cannon here in the middle\" (t=2176).",
+      "t=2136: his placement rule against the opponent's splash — \"I was doing a good job at lining up my evo cannons with the mother witches\".",
+      "t=2190 and t=2217: both of his stated game-losing errors are Cannon errors — \"I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit\", then \"I misclicked my cannon and I had to log ice spirit the wizard\" (Cannon label at [9, 11], t=2216.2)."
+    ],
+    "rocket": [
+      "t=2081.6 (elixir 10.0 -> 4.0): Rockets a Giant Skeleton on defence and defends the risk out loud — \"I knew that this might be a little bit risky, but I did think that I would be able to defend, but I also knew that like sometimes I need to do plays like that otherwise my hand is just going to be way too awkward to try and defend here\".",
+      "t=2196-2207: declines the Rocket on a back-placed Giant Skeleton (no 6-elixir drop in the window) and calls it the losing decision — \"I got scared of rocketing, man. I just should have rocketed. And I don't know why I didn't... I chose not to because of the like I thought I could just rocket at the end\".",
+      "t=1950-1957: names the whole list after this card — \"I started off here with this rocket cycle deck... I just felt like any matchup I trust my defense, I can win\".",
+      "t=2228-2232: forced into it far too late — \"I had to rocket, but on top of having to rocket, I still had to defend everything\"."
+    ],
+    "berserker": [
+      "Hero variant (Savage Survival). t=2058: Berserker as the dedicated Giant Skeleton answer — \"So here I went for the berserker as well just to make sure to counter that giant skelly\".",
+      "t=2165-2175 (Berserker at [3, 18], elixir 8.0 -> 6.0, plus a Royal Delivery label at [12, 15]): ability used purely to maximise defensive damage — \"I actually did block the giant skelly with the berserker, which is very nice. I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible\".",
+      "t=2211: second stated ability use, again on defence — \"I just went for the berserker ability\". Both ability calls come with a Giant Skeleton as the tracked threat, never as tower damage.",
+      "Played ~12 times across the clip (t=1963.8 through t=2222.6) at 2 elixir as the cheap tank-killer of a 2.6-elixir cycle list."
+    ],
+    "ice-spirit": [
+      "t=2097-2106: singles out one Ice Spirit as the play of the defence — \"That was a very good ice spirit as well if you guys noticed cuz he didn't actually end up like splashing the ice spirit. It just ended up defending perfectly\" (Ice Spirit at [9, 14], t=2096.1).",
+      "t=2139 (Ice Spirit at [7, 9]): used to snipe a Mother Witch's curse bomb — \"I went for the ice spirit here just to grab that\".",
+      "t=2219: part of the forced clean-up after the Cannon misplacement — \"I had to log ice spirit the wizard\" (The Log [15, 16] and Ice Spirit [14, 17] at t=2217-2218.5).",
+      "Played ~12 times (t=1956 through t=2242.6) as the cycle glue that gets him back to Cannon and Rocket."
+    ],
+    "skeletons": [
+      "t=2079 (Skeletons at [7, 10]): one-elixir screen against Zappies chip — \"I just went for the skellies just to make sure to distract the zappies\".",
+      "t=2106 and t=2131: part of the cheap defensive chain in a hold that cost him no tower damage — \"So I went for the skelly as well\", \"here I went for the skellies\".",
+      "t=2151 (Skeletons at [4, 17]): used to bodyguard his own bridge Princess — \"I went princess on the zappy. I knew that I would have to protect it. So, I went for the skellies\".",
+      "t=2213 (Skeletons at [8, 17]): paired with the Evo Princess in the endgame defence — \"I even went for the skellies plus evo princess here\"."
+    ],
+    "the-log": [
+      "t=2013 (The Log at [13, 18]/[13, 17]): pre-committed to Logging a bridge Mother Witch regardless of the opponent's read — \"He got a nice mother witch, but I was just going to log this anyways\".",
+      "t=2063 (The Log at [12, 18]): Log plus Evo Cannon as a package to clear the board — \"I just went for the log and the evo cannon just to make sure to take that off the board\".",
+      "t=2108 (The Log at [3, 14]) and t=2154 (The Log at [2, 18]): both praised as defensive value — \"I got a really good log here on defense as well\", \"I went for a really good log here\".",
+      "t=2132 (The Log at [6, 14], elixir 4.0 -> 2.0): Log plus Evo Cannon aimed at the Mother Witch — \"I went for the evo cannon and the log as well just to make sure to take out the mother witch\"."
+    ],
+    "princess": [
+      "t=2007-2008 (Princess label at [15, 17]): Evo Princess snuck to the bridge behind a Royal Delivery — \"I tried to sneak in a nice evo princess at the bridge at the final second\".",
+      "t=2066 (Princess at [14, 18]): the condition he attaches to bridge Princess plays — \"because I had a free cannon on the board, I also knew I could princess the bridge. He does grab it with the wizard, which was good by him, but it's still good to make these plays in my opinion. Just trying to get some, you know, slick damage on the tower here and there\".",
+      "t=2145-2148 (Princess at [2, 17], then [2, 18] at t=2163.2): defensive Princess into Zappies — \"I went princess on the zappy. I knew that I would have to protect it\".",
+      "In this Rocket-cycle list the Princess is his only sustained chip damage: she is played ~9 times, both behind his own towers (t=1972 [11, 3], t=2044 [8, 7], t=2212 [10, 9]) and at the bridge."
+    ],
+    "royal-delivery": [
+      "t=2004-2009 (Royal Delivery at [15, 15], elixir 9.0 -> 6.0): used as the answer to the opponent's small spell rather than saving it — \"Here I went for the delivery on the barbarian barrel\".",
+      "t=2170 (Royal Delivery label at [12, 15]): stacked with the Berserker Hero ability to burst a Giant Skeleton — \"I did the ability plus delivery just because I wanted to get as much damage on the giant skeleton as possible\".",
+      "t=2184 (Royal Delivery at [5, 17]): the same Berserker pairing on the other lane — \"So I went for the delivery berserker and I even got a nice ice spirit as well\".",
+      "Played ~6 times in 306 s of readable footage, i.e. treated as a rotating defensive card in a cycle deck, not as a held answer."
+    ],
+    "giant-skeleton": [
+      "Opponent card (Sandbox, bridge spam). Ryley's most-spent-on threat in this game: Berserker at t=2058 (\"just to make sure to counter that giant skelly\"), Rocket at t=2081.6 (\"I rocketed the giant skelly as well\"), Berserker plus Savage Survival plus Royal Delivery at t=2165-2175 (\"I actually did block the giant skelly with the berserker, which is very nice\").",
+      "t=2195-2207: a back-placed Giant Skeleton (tracked at (13, 23), t=2202) is what he should have Rocketed and did not — \"here we went for the giant skelly in the back... I got scared of rocketing, man. I just should have rocketed\"."
+    ],
+    "mother-witch": [
+      "Opponent card. Named as one of the two cards that make this defence hard — \"I knew that defense could get a little bit tricky against mother witch and wizards\" (t=2044).",
+      "t=2136: he handles her with building placement, not spells — \"I was doing a good job at lining up my evo cannons with the mother witches\"; at t=2132 he adds Log plus Evo Cannon \"just to make sure to take out the mother witch\".",
+      "t=2223-2227: her surviving is his stated cause of the loss — \"I think it did actually lose me the game because the mother witch didn't die\"."
+    ],
+    "wizard": [
+      "Opponent card. Credited with killing Ryley's bridge Princess — \"He does grab it with the wizard, which was good by him\" (t=2069).",
+      "Named with Mother Witch as the pair that makes his cheap-swarm defence awkward (t=2044), and he is the unit Ryley is forced to answer with Log plus Ice Spirit after misplacing his Cannon at t=2217-2219."
+    ],
+    "battle-ram": [
+      "Opponent card. Answered with a deliberately central, high Cannon — \"I went for the cannon in the middle just to make sure that I take out that battle ram\" (Cannon at [9, 14], t=2038).",
+      "Its evolved version is tracked at t=2092-2098 in the push Ryley defends for zero tower damage but five elixir down, prompting his Evolution-tracking lesson at t=2115-2129."
+    ],
+    "zappies": [
+      "Opponent card. The constant chip threat in both lanes (tracked t=1952-1958, t=2022-2034, t=2072-2090, t=2150-2156). Ryley answers cheaply rather than with spells — \"I just went for the skellies just to make sure to distract the zappies\" (t=2079).",
+      "t=2148: also answered with a defensive Princess — \"I went princess on the zappy. I knew that I would have to protect it\"."
+    ],
+    "barbarian-barrel": [
+      "Opponent card, mentioned once. Ryley spends Royal Delivery on it rather than holding the spell — \"Here I went for the delivery on the barbarian barrel\" (t=2004-2006)."
+    ],
+    "royal-hogs": [
+      "Opponent card, referred to as \"piggies\" in the auto-transcript. Their chip flips the damage lead: Ryley's right tower falls 2842 -> 2683 HP at t=2138-2144 — \"here I took some piggies damage, which actually did give him the lead\".",
+      "t=2146-2148: he treats them as the card you must not get lazy against once ahead — \"that was kind of the thing that I was talking about with the piggies. You have to be really careful here\"."
+    ],
+    "elite-barbarians": [
+      "Opponent card, spoken only as \"the ebar\" / \"the Ebarb\" in the auto-transcript, so the mapping is inferred. Ryley names them in both of his self-criticisms: \"I did mess up a little bit there letting the ebar touch the cannon. So I had to just overspend a little bit\" (t=2190) and \"The Ebarb stayed alive\" (t=2227).",
+      "t=2239: listed alongside the Cannon misclick as the reason he lost — \"me missing the cannon, me missing the ebar protection\"."
+    ]
+  },
+  "deck": {
+    "deck_key": "berserker-cannon-ice-spirit-princess-rocket-royal-delivery-skeletons-the-log",
+    "cards": ["berserker", "cannon", "ice-spirit", "princess", "rocket", "royal-delivery", "skeletons", "the-log"],
+    "bullets": [
+      "CRL 2026 World Finals duel vs Sandbox (bridge spam), video t=1943.9-2250.1. Ryley calls it \"this rocket cycle deck\" and states the plan up front — \"I just felt like any matchup I trust my defense, I can win\" (t=1953-1957). Result: loss.",
+      "The list runs Evo Cannon and Evo Princess, and the Berserker slot is the Hero variant: he uses Savage Survival twice, both times on defence against a Giant Skeleton (t=2170, t=2211), never for tower damage.",
+      "Piloting pattern: Cannon is the spine and is cycled back constantly (t=1962.5, 2038, 2062, 2093, 2216) with Ice Spirit, Skeletons, Berserker and The Log layered on top; the peak of it is t=2093-2110, holding an evolved Battle Ram and a Giant Skeleton in opposite lanes for zero tower damage — \"Was taking absolutely no damage, but I was down five elixir\" (t=2108-2113).",
+      "Offence is conditional, not scheduled: the Evo Princess only goes to the bridge when a Cannon is already down — \"because I had a free cannon on the board, I also knew I could princess the bridge\" (t=2066-2073) — and the Rocket is spent on defence when the hand would otherwise jam (t=2081.6, on a Giant Skeleton).",
+      "The failure mode is the same as the deck's strength: with one Rocket and no reset button, a declined Rocket (t=2196-2207) plus a misplaced Cannon (t=2217) let a Mother Witch and Elite Barbarians live, and the towers went from healthy to 363/1009 HP with the king at 266 by t=2248 — \"I actually lost because of that, man\"."
+    ],
+    "new_deck": {
+      "display_name": "Berserker Rocket Cycle Ryley",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "control",
+      "rationale": "A 2.6-elixir eight-card list with no troop win condition: Rocket and a bridge Evo Princess are the only damage, and every other slot (Evo Cannon, Berserker Hero, Ice Spirit, Skeletons, The Log, Royal Delivery) exists to defend cheaply and cycle back to them.",
+      "why_it_works_md": "Everything in the list is 1-3 elixir except the Rocket, so the deck can answer a bridge-spam opponent's threats one at a time and still be back at the Cannon before the next one arrives. The Evo Cannon is placed reactively and centrally to pull Battle Rams and line up on Mother Witches, with Ice Spirit, Skeletons and Berserker layered on top of it; the Berserker Hero's Savage Survival turns a 2-elixir troop into a Giant Skeleton block for a few seconds. Damage comes from an Evo Princess dropped at the bridge only when a Cannon is already banked, plus a Rocket that is as often spent on defence as on a tower. The trade-off is that the deck has exactly one heavy answer: hold the Rocket a beat too long, or misplace the Cannon, and a bridge-spam push with a Mother Witch behind it becomes unanswerable."
+    }
+  }
+}
