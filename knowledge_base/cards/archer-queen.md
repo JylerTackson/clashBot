@@ -162,6 +162,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
 - clock 0:59 (opponent Archer Queen tracked at (14, 14)): never named in the commentary; Ryley answers the right lane in that window with Cannon at (8, 10) and a Mighty Miner block rather than a spell.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Appears at clock 0:25 (t=882.9) and again in overtime (t=959.0 [10, 16]); answered with a bare Berserker at t=885.2 [14, 13] and no ability. He notes she is less of a problem than she was: "thankfully, the archer queen doesn't have the two abilities anymore, though, or this would be even more annoying" (t=961-965).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

@@ -689,6 +689,16 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 0:17: in the last twenty seconds they are purely a cycle card — "Skellies, I need to do my fastest possible cycle."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:58 to 0:35: Evo Skeletons are the opponent's constant left-lane pressure, tracked from the join point and again at clock 0:43-0:35; Ryley handles them with The Log plus Bats rather than a building.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 1:25 onward: the opponent's Skeletons are the recurring cheap block on his Berserker and Wall Breakers (tracked at (11-14, 15-19) repeatedly); Ryley answers them with the Bomb Tower at 1:21 and The Log rather than spending a troop.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

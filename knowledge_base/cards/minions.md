@@ -230,6 +230,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
 - clock 1:44 and 0:52: unseen Minions are the reason he holds Skeletons and pre-places Firecracker — "I won't skellies though, cuz he might have like minions or something, and I want to be able to counter it for cheap" (350-354s), "We need to firecracker here in case he goes for the minions" (426s). The opponent's Minions do appear at clock 0:57 and 0:51.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- opponent card, named twice and tracked in the left lane at clock 2:00 and 0:38. Ryley plans around them both times — "Those bats will actually tank for the minions as well" (1:24) and "He might try to get the minions down, but if he doesn't, we can just go for the quick poison" (0:22).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

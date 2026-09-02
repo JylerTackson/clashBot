@@ -306,6 +306,11 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.2.m
 - overtime 0:40 (t=582-584): blocked with a 1-elixir card rather than spelled — "nice skellies here to block the heal spirit."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Never appears as a deploy label; he names it after absorbing a push with a defensive Miner at t=814.8 — "yeah, no damage except the heal spirit, which is nice. Happy with that" (t=817-820).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Heal_Spirit (scraped 2026-09-02T02:34:57+00:00)

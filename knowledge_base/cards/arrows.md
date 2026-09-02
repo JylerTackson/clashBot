@@ -201,6 +201,21 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
 - overtime 0:38: mentioned only as a miss that saved him — "Skellies down low. Oh my god, he missed the arrows. E-spirit. We're alive" (536-538s).
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:07: named, not seen being cast in the readable window - Ryley expects Arrows on his Evo Bats ("He has to arrows this then if he has arrows in his deck cuz I think he's only played rage", 422-424s) and later concludes the opponent had them and wasted them: "Yeah, he did have the arrows. So why the heck did he use them? Unless he used them earlier and I just wasn't paying attention cuz I was yapping" (455-460s).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Identified at clock 1:01 — "he has arrows too. Yo this guy, man" (t=849) — and it immediately costs him his Spear Goblins at t=877 ("my spears got taken out"). At clock 0:32 he plays around it: "he might go for the arrows. So I have wall breaker kite ready" (t=997-999).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Opponent's card, spent before the readable window. Ryley tracks it as the trigger for his bridge pressure twice: "He did use his Arrows, so..." (clock 1:49) and "The Evo Wall Breakers are going to be annoying because he did use the Arrows" (clock 0:22).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

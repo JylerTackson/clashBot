@@ -242,6 +242,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - Answered for zero damage with Royal Delivery at [15, 14] (t=1256.3), Fire Spirit (t=1262.8) and Ice Spirit at [16, 14] (t=1264.4): "Let me go for the ice spirit as well just to take no damage" (1265s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- opponent card, tracked crossing lanes at clock 1:48 and named at 0:35, where it dies to leftover Spear Goblins: "At least the spear goblins help take out the skelly barrel. I am happy about that."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

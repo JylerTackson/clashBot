@@ -523,6 +523,16 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.5.
 - clock 1:30: against the opponent's Evo Elite Barbarians he placed his Electro Spirit tight to his own side "so we don't get hit with the spear" - the Evo spear throw still connected.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Spotted at clock 1:43 — "oh my god, he has Earbs" (t=805) — in the evolved version. He explains at length why the cheap swarms in his deck cannot kite them: "the evo ebarbs are so good cuz they don't really get kited that well since they throw their little spear and then they kill goblins with the spear. So it's hard to like drag them around" (t=828-841), and he holds his Wall Breakers in reserve for them (t=912-914).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Opponent's card. Tracked repeatedly at his left tower from clock 1:39 onward; he kites with Spear Goblins into a low Berserker rather than spending a big answer, and at clock 0:22 calls for the Log - "let's Log the E-Barbs here."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

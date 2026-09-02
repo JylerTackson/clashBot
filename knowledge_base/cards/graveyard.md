@@ -237,6 +237,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
 - clock 2:24: he frames the matchup against his previous game - "We just beat a giant graveyard player, but feel like this one will probably be a little bit more difficult with him having the hero mega minion."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:02: mentioned only, never played by either side — Ryley holds Spear Goblins for it and then dismisses the idea: "We have spear goblins ready if he goes for the graveyard. I don't think he will though in this match up."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

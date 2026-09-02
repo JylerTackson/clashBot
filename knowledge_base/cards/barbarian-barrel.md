@@ -511,6 +511,13 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 2:14: mentioned only, as the answer he expects the opponent to have for his second Hog Rider — "He's going to NATO this to the King's Tower and then Barbarian Barrel, probably." No Barbarian Barrel was ever observed in this game.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:47: identifies the opponent's Hero Barbarian Barrel before anything is played and calls out the buff — "he has the hero barbarian barrel. Dude, I can't believe hero barbarian barrel got buffed. I already felt like it was pretty like strong and very good, but then, you know, they just gave it a random buff."
+- clock 1:57: treats draining it as the point of his cheap cards — "We can even go for the spear goblins here just to make him use the barbarian barrel which is good for us."
+- clock 2:11: names it as half of the only clean answer to split Wall Breakers — "He'll have to go for like the barrel and the ice wizard if he wants to take no damage here."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

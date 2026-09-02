@@ -206,6 +206,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.m
 - clock 0:17-0:05: he sited a Tesla "on top of the wizard" and then lost his left tower to it — "I didn't think that the wizard was actually on the tower"; afterwards, "I thought the wizard was on the delivery. That's why I said the game was over."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:08-2:07: opponent's Wizard tracked from (4, 21) to (3, 18) after Ryley had already poisoned that tile band at 2:11.
+- clock 1:36-1:32: he characterises the whole opposing deck by it — "This guy's a weird off-meta wizard hog rider deck... his wizard monk pushes get a lot of value, but I do think that if we attack properly and mess up his cycle, then we could be in a good spot."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wizard (scraped 2026-09-02T02:34:53+00:00)

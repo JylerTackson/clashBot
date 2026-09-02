@@ -217,6 +217,11 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.m
 - Mentioned five times but never seen in the arena (the 2024 detector cannot label it). It is what Ryley plays around: he predicts "Rune Giant behind or Inferno Dragon behind the Rune Giant" (63-67s), names "Lava Hound Rune Giant" as the meta his X-Bow is positioned against (46-48s), and pops the Berserker ability at clock 0:48 specifically for it — "I'm going to pop the abilities cuz I want to instantly eliminate the Rune Giant."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Opponent's card, mentioned only, at clock 0:14 as the punchline of the deck read - "Why do you have a Rune Giant? What the hell are you playing?"
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rune_Giant (scraped 2026-09-02T02:35:01+00:00)

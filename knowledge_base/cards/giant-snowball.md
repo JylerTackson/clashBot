@@ -209,6 +209,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.m
 - Opponent's small spell, and the reason for the closing barrel placement — "I'm going to do it one tile in the front, just so if he goes for the snowball, then it actually doesn't counter, unless he catches it" (OT 0:50). Earlier: "unless he goes for the snowball, which would be smart. Yeah, he didn't do any spells just for that" (OT 1:38).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- Opponent's small spell, tracked as a resource rather than fought. He plays Miner + Bats specifically after it is spent — "cuz he did use his poison. I mean, not his poison, sorry, his snowball" (t=580-583) — and counts the bait as a win: "we forced out snowball, which is nice" (t=597). At t=655 he expects the Evolution: "He's going to have to evo uh snowball."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

@@ -175,6 +175,13 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - t=1061: he shrugs off the last one because the game was already decided — 'he did switch it up with the drill in the back, but it didn't really matter.' His practical answers were Goblin Cage on the drill tile plus Berserker / Skeleton Dragons on the spawned goblins.
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- Opponent's win condition and the card Ryley uses to name the archetype at t=550: "It looks like this guy's a super quick cycle goblin drill deck."
+- clock 0:27: the combo he plays around — "I have to watch out for a Valkyrie plus drill combo at the bridge" (t=669-670), which is why he spends Wall Breakers to force the Cannon out first.
+- overtime (t=717-722): a Drill surfaces at (4, 6) and he dismisses it — "Yo, that was a bad drill. Let's berserker here. Yo, I think he's cooked."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

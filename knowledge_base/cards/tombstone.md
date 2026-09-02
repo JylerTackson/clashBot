@@ -262,6 +262,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.4.m
 - clock 0:05 (t=844): it dictates his Wall Breakers timing — "I don't want to go for them just yet though because the tombstone will take out my wall breakers."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 1:29: the opponent's Tombstone goes down and Ryley immediately treats it as the threat to remove — "Oh my god, he went for the tombstone [queen]. Oh no, please relax."
+- clock 0:40: answered directly with The Log — "I do want to get a log on top of this tombstone here. Log the tombstone."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

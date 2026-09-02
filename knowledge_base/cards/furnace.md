@@ -256,6 +256,13 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.m
 - overtime 1:43 and 0:56 (t=929, 977): removed twice, once with spell damage — "Okay, nice. Taking out the furnace which is really good" (929s) — and once with The Log at [15, 15] — "We log here for the furnace. Take this out" (975-978s).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- Opponent's card, down early. Ryley's running verdict on the nerf: "he has the furnace. Dude, I swear the furnace is just so awful now after the nerf, dude. Like the spirits not connecting to the tower anymore. Just make the furnace so awful" (t=530-537).
+- clock 0:58: he answers it with Poison at [4, 23] instead of putting his Bomb Tower back in the middle (t=637-642), and at t=666 that spell plus chip puts him in the damage lead.
+- overtime (t=703-705): the early Furnace is why he holds his Bats Evolution — "let's not evo bats at all cuz he went for the early furnace. That's good for us"; at t=726 he counts on it again: "He has to get like a furnace down."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

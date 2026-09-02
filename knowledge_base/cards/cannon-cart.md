@@ -188,6 +188,17 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - At 1375-1377s the opponent spends it instead of the expected Barbarian Barrel: "He decides to Cannon Cart instead cuz that but he still has to defend the Magic Archer."
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- opponent card, mentioned only — never labelled on the field. At clock 0:42 Ryley calls his second Bomb Tower onto it: "Let's go for the [Bomb Tower] on the cannon cart, though" (the auto-transcript renders the answer card as "bad steer").
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 1:13: opponent's Cannon Cart at (4, 22) advancing the left lane; Ryley answers it at 1:05 by exploding Wall Breakers on top of it — "Just explode on top of that cannon cart. Should be a perfect defense."
+- clock 1:19: he counts it as spent before committing his own push — "especially after going for that cannon cart" is his reason for tanking with the Miner.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

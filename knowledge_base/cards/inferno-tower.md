@@ -179,6 +179,11 @@ Match [Classic Log Bait RETURNS to Clash Royale!!](../matches/7R5FP2IYWsw-m0.5.m
 - clock 0:14: second Inferno Tower at [3, 9] in the left lane, put down as a Battle Ram block he expects to be Zapped - "I know he's going to get a zap down so we need to get the Inferno Tower to block. Okay, nice."
 <!-- creator-insights:ryleycr1:7R5FP2IYWsw-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 1:42: opponent places an Inferno Tower at (7, 18), just over the river on the centre-right, and it sits unanswered for roughly 30 seconds — Ryley never spends a spell on it and simply cycles his attack into the other lane.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Tower (scraped 2026-09-02T02:35:33+00:00)

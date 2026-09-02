@@ -228,6 +228,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 2:30: he names it as one of the two cards that make Electro Giant playable into Hog EQ — "having the Evo Baby Dragon and the Evo Goblin Cage as well."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 0:39-0:33: the opponent's Baby Dragon walks Ryley's left lane from (0, 27) to (1, 14) while his own push is committed on the other side — "Please don't. Nice." It reappears in overtime at (16, 12-14) on the right.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

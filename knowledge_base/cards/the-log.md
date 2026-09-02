@@ -526,6 +526,52 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 0:25 onwards: in the finish he uses it as chip damage, not defence — "Then we can just go for the log. I I I need the tower damage for sure", and again in the last cycle at tile [3, 14]: "we need to earthquake and then we need a log and I think ... by the hair of our chinny chin chin, we win."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- clock 2:42, 1:07 and 0:32: four casts in total and every one is defensive and on his own half — [3, 8] against ground troops in the left lane, then [3, 14] twice against the Rascals and Goblins waves.
+- clock 0:33: pre-announced as the middle of a sequence — "We can log this and then we can go for the spear goblins as well."
+- clock 0:07: the finisher on a 145-HP tower — "Is that tower down? No, we just need a log. Let's go. Very nice win, guys."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:23: The Log at (3, 14) into the Executioner walking his left lane, immediately before the Berserker goes down on the same tile.
+- clock 0:48-0:43: Logged alongside the pre-poison as part of a scripted sequence — "Let's log as well. Let's pop the ability and then we can just go for the bomb tower here."
+- clock 0:03: The Log at (3, 12) onto the last Royal Recruits wave to close the game out.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:12 to 0:07: six casts in 65 seconds, every one defensive, against Evo Skeletons, Skeleton King and bat swarms - labels at (3, 14) at clock 0:37, (5, 4) at 0:25 and (4, 6) at 0:07.
+- clock 0:07: he keeps it in hand on purpose as the emergency answer behind the Bomb Tower - "Last second and we can log it off if we need to."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- clock 1:25: played at [3, 8] on his own left half as the Hero Valkyrie closes in, together with a Berserker at the bridge (t=608.6-611.6) — the deck's only ground-swarm/knockback answer.
+- clock 0:13: the last card of the defence that survives regulation — "Bats berserker to block the bridge. Then we bomb tower the back. And we have to log this here. Okay. Nice" (t=681-684).
+- overtime (t=722): called again against the Goblin Drill/Bats wave — "Let's log here. We can go for another set of bats"; only two to three uses all game, held for the ground swarms this cycle deck produces.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- t=751.8 [14, 9] (clock 2:37): first answer to the opponent's opening Battle Ram, rolled behind a Berserker — "let's go for the log here. Make sure that we take out this battle ram nicely" (t=752-754).
+- Cleanup behind the Bomb Tower and inside his own half: t=889.9 [14, 13] as half of a 6-elixir Bomb Tower + Log double at clock 0:19 ("just go for the low bomb tower and then a log here", t=888-890), t=938.3 [3, 8] ("I have to log this too", t=934), t=980.0 [8, 10] and t=1018.0 [14, 12] on top of a Poison.
+- Cycled at 2 elixir whenever there was nothing else to spend on (t=863.4, t=872.7, t=924.3, t=926.6).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Mentioned only, no confirmed play in the 120 s readable window: at clock 0:22 as the answer to Elite Barbarians ("Hold on, let's Log the E-Barbs here") and at clock 0:37 as part of the tower-sacrifice package ("sacrifice the left side tower here with Spear Gobs, Log").
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 0:40: used as the Tombstone answer rather than as chip — "I do want to get a log on top of this tombstone here. Log the tombstone."
+- clock 1:46: flags a mistimed Log against the opponent's spell — "he he just ends up poisoning though to log the barb. No, bad timing."
+- clock 2:28 / 1:47 / 0:28 / 0:03 / overtime: five uses in 190 s, mostly on his own half ([13, 8], [6, 14], [9, 14]) clearing the Skeletons and Bats that stack up on his Wall Breakers and Berserker.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

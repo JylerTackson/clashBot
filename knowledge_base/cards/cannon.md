@@ -430,6 +430,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 0:48: high Cannon at tile [9, 14] as part of the closing sequence while the enemy left tower steps 1606 -> 1450 HP.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- Opponent's defensive building. Ryley treats it as the thing his Wall Breakers exist to drain: "It's wall breakers right now. Force him to cannon. Nice" (t=673-676); the Cannon lands at (9, 18) at t=684.7 (clock 0:10) and again at (9, 20) in overtime.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

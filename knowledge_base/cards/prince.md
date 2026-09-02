@@ -139,6 +139,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 2:08-2:00 (t=204-214): tracked from [14, 25] down to [15, 1] with "tower in 0.1s", answered with Tesla at [8, 10] plus a Ronin at [14, 10] — "Let's Tesla here, and then we can go for the Ronin down low." Ryley's stated view is that the Ronin's Parry makes double-Prince decks a favourable matchup (233-239s).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:52: a Prince is tracked on Ryley's half at (2, 13) during the left-lane push he answers with Poison plus Berserker; he never names it, and this is a single medium-confidence detector track (see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Prince (scraped 2026-09-02T02:35:00+00:00)

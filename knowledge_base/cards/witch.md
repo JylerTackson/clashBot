@@ -161,6 +161,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.m
 - clock 0:47 (t=443-456): names the Evolution as the hardest card in the matchup — "Evo Witch is going to be tough" — and answers it with Royal Delivery protected by Skeletons: "go for the Skellies to protect this delivery on top of the Witch."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:58: an Evo Witch push is what he refuses to defend head-on, going Wall Breakers into the other lane instead - "even have a good cycle to defend this witch. Go for the wall breakers here."
+- clock 0:52 and 0:12: he names Evo Witch as one of the two cards his deck cannot remove - "I can't really take out the EVO witch, and I can't really take out the Evo Inferno Dragon" - and spends a Savage Survival on it at the death: "I had a feeling I needed that ability here just to keep this alive so we can take out the witch."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

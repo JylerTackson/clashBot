@@ -390,6 +390,12 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 1:18: mentioned only, as the benchmark for how the Heroic Bowler feels to play against — "It's just like a magic archer with 6,000 HP."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- The opponent card he treats as most dangerous, revealed at clock 2:23: "oh my, he has the magic archer. Dude, that's like the worst is when you don't know they have the magic archer and then they drop it at the bridge right away and get some free damage on you" (t=757-762).
+- Answered with Poison every time it crossed (t=809.8, t=851.9, t=994.0, t=1016.0) and pre-empted at the death: "that marcher is annoying" (t=936), "I know he's going to try to get the marcher at the bridge, man. But I'm not going to let that happen" (t=1016-1019).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Magic_Archer (scraped 2026-09-02T02:35:11+00:00)

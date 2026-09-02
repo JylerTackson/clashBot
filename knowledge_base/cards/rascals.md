@@ -176,6 +176,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=1358s and t=1391s: "Okay, Rascals at the bridge" (1358s) and "He's going to rascals" (1391s) - both answered with spirits plus Royal Delivery at [4, 13] (t=1402.7) so the Bomb Tower stayed in hand.
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- opponent card, four commitments (clock 2:30 at [8, 22], 1:12 at [11, 20], 0:28 at [4, 21] and 0:24 at [2, 15]), repeatedly split across both lanes. Ryley never names them; he answers with The Log at [3, 14] plus Bats and a Berserker at clock 1:07-1:02 and the pushes never take a Crown Tower below 4386 HP.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)

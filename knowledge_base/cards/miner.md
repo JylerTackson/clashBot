@@ -272,6 +272,54 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
 - clock 2:27 and 0:19: two opponent Miner deploy labels (the second at (2, 20)); the first coincides with 498 HP coming off Ryley's left tower from an unreadable spell, and neither gets a named reaction in the commentary.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- clock 1:26, 0:36 and 0:15: three placements, all at the identical tile [1, 24] on the enemy left tower — he never varies the spot in this game. The tower chips 3795 -> 3485 across 1:26-1:16 while the first one is up.
+- clock 2:36: an opening Miner at [12, 24] on the enemy right side before the deck's left-lane plan settles.
+- clock 0:36: named as the first step of a pre-announced sequence — "Let's miner here. Then we can go for the berserker to tank just so the mortar doesn't lock to our tower. We can log this and then we can go for the spear goblins as well." He also names the deck by it at 2:07: "we do have this nice [Miner] wall breakers deck."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:37: Miner at (1, 25) onto the enemy left tower as the opening chip play, straight after a Spear Goblins scout at the bridge.
+- clock 1:20: Miner at (13, 28) sent in front of a Berserker rather than at the tower — "I want to tank for my berserker with the miner though this time. Yeah, especially after going for that cannon cart."
+- clock 0:33: Miner at (5, 23) to extend the counterpush that followed the Berserker-versus-Hog-Rider defence.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:28: Miner onto the enemy right tower at (13, 28), elixir 8 -> 5, paired with Spear Goblins - "Let's go for the minor plus spear goblins here. Just continue trying to be a pest. Just want to keep on pressuring him over and over." Unanswered, the pair takes that tower 2589 -> 261 in about eight seconds.
+- clock 1:05: second Miner switched to the enemy left tower at (5, 24) while the opponent is fully committed forward - the tower goes 2639 -> 961 by clock 0:53 with no defence sent back.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- clock 2:30: the deck's chip engine, always paired — Miner at [13, 26] with Wall Breakers at the right bridge tile [14, 15] five seconds later: "Let's go for the minor wall breakers here" (t=547). The same pairing reopens overtime (Miner [14, 27] + Wall Breakers [12, 14], t=697-699).
+- clock 1:57: Miner at [14, 27] with Bats at [16, 15] once the opponent's small spell is spent — "Let's go for my own minor bats here cuz he did use his... snowball" (t=580-583); repeated at 0:47 with Miner [12, 21] + Bats [14, 14] ("Let's go for the bats miner here", t=647).
+- clock 0:38 and overtime (t=725.7): pure recycling into the enemy tower on fresh tiles ([4, 24], then [5, 23]/[5, 24]) — "we can just miner again here" (t=657), "miner again here. He has to get like a furnace down" (t=726).
+- He never repeats a tile back-to-back across at least eight Miner deployments ([12, 23], [13, 26], [14, 27], [12, 21], [4, 24], [1, 25], [5, 23], [5, 24]), keeping the placement unreadable in a matchup he calls hard for his bait units (t=602).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Played mostly on his own half as a defensive mini-tank in this matchup: t=766.8 [8, 9], t=814.8 [5, 8] ("let's go for the miner on defense. Should be all right", t=815-817), t=918.9 [10, 9] ("then we can go for the miner on defense as well. Hopefully that can take off some of the spears", t=918-920), t=984.0 [8, 15] and t=1011.0 [9, 13] ("go for the low miner", t=1013).
+- Offensive Miners are always part of a chip package, never solo: t=743.7 [1, 24] to open the game (clock 2:45), t=855.9 [16, 25] immediately after a Poison at [5, 20], t=872.9 [14, 27] behind Spear Goblins and Bats — "we can minor with these cuz he won't be able to hit the spears and the bats for the most part" (t=872-875) — and t=899.9 [13, 28] with Bats at [16, 14], "miner plus bats opposite lane" (t=899-900).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- clock 1:48 / 1:05 / 0:22: three deploy labels deep in enemy territory - [13, 28] on the right tower, [11, 31] on the king side, [9, 26] on the left tower - each paired with Poison or Evo Bats; the enemy right tower falls 2613 -> 619 HP in the eight seconds after the first one. "I will go for the Miner plus Evo Bats as well. He's going to eat these, but he can't eat the rest of this."
+- clock 1:05: names Miner+Poison as the whole win condition and its ceiling - "why are you getting three crowned by Miner Poison, man? Especially without like any Mighty Miner or something to actually give a real three crown threat."
+- clock 0:42: one own-half Miner label at [9, 7] while a Golemite pushed his left lane (deploy label only, no HUD confirmation).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:27: first Miner onto the enemy right tower at [14, 19] / [16, 23], framed as pressure rather than damage — "Let's go for the minor here as well, just to try to apply some more pressure without him having the [Torna]do in [cycle]."
+- clock 1:53: the Miner + Bats package into the opposite lane (Miner at [2, 28], Bats at [1, 15], one 5-elixir drop) — "we can just go for a set of minor bats. I can put the minor in the back here cuz he needs to make sure that he's [zoning] on the minor." The enemy left tower falls 4409 -> 3975 HP over the next 10 s.
+- clock 0:48 / 0:28 / 0:07 / overtime: keeps alternating lanes with him — [1, 22], [16, 24], [16, 23], [1, 21] — "we can go for the miner again" and "then we can mine our opposite lane and go for the evil wall breakers as well." He never sends him alone; a Bats, Wall Breakers or Spear Goblins lands within two seconds every time.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

@@ -203,6 +203,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.
 - clock 2:38 (t=987, opponent elixir 8.87 -> 5.87) and clock 1:33-1:29 (t=1050-1058): answered with Skeletons plus Electro Spirit both times — "we can go for the e-spirit plus skellies on defense again" (1055s); at 0:47 he keeps Skeletons in hand specifically for it.
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Charges both lanes from clock 2:33 onward. The one successful Savage Survival of the game (Berserker t=945.9 [9, 9], ability t=949.4) is played onto a Bandit charge in overtime, and the last Berserker at t=1019.0 [11, 14] holds another at 0:07 — "let's go for the high berserker here. Beautiful. He only gets one bandit shot" (t=1020-1022).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

@@ -194,6 +194,11 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - t=917s: he expects it and appears to read it as an evolution — "he's going to ghost on this evil ghost"; at t=931 he notes the Evo Wall Breakers damaged it — "good damage on the ghost too".
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Detected repeatedly on the opponent's side (t=766.8 [3, 13], t=908.9 [16, 23]); Ryley reads it as the alternative to the Ebarbs push — "does he go for the ghost or Earbs? Okay, he goes Ebarbs" (t=971-973).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

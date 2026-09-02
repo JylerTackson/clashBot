@@ -320,6 +320,12 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 0:44: a Hog connection takes the enemy left tower from 1450 to 943 HP and gets the line the video is named after — "Oh my god, Hog Rider is so good. Dude, that getting a hit is just insane to be honest."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 0:41-0:27: the opponent's Hog Rider is deleted by an ability-active Berserker, which he had not expected — "I've never seen that interaction before. It just immediately took out the hog. Dude, you know a card is broken when it counters the hog rider, dude... You can't stop the hog rider with anything and the berserker just comes out popping like that. That is insane."
+- clock 0:58: he plans his defence around it in advance — "We are going to lose our bomb tower, so we have to watch out for a hog rider wizard push." (Not detected by the unit tracker; identified from commentary.)
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

@@ -491,6 +491,59 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 0:57 (t=1477.5, deploy label at [2, 14]): repeated with the barrel to close the game out while the opponent is frozen (t=1478).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- clock 2:47: opens the game with the pair dead centre of his own half at [8, 14], splitting them into both lanes; the enemy left tower is down 449 HP by 2:40.
+- clock 1:18: the payoff placement — [3, 14] behind a Berserker the opponent has been forced to defend, and the enemy left tower drops 3485 -> 2457 in two seconds. He set it up out loud: "then we can go for the wall breakers on the left here" (1:24).
+- roughly seven deploys in 173 s, alternating bridge lanes ([13, 14] at 2:18 and 0:54, [4, 15] at 1:57, [2, 14] at 0:26, [4, 14] at 0:06) — the deck's main chip engine, replayed every cycle rather than saved for a big push. Late deploys he calls by the evolution: "I am definitely going to need to go for the evil [Evo] wall breakers here" (0:26).
+- clock 2:02-1:46: defends the card after the balance change — "Even though the wall breakers did get a nerf in the balance changes, I do think that wall breakers are just an extremely strong card in general... they just have so much utility and just like one or two small nerfs. Can't really like take that away from the card."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock ~2:30 and 1:51: Wall Breakers at (13, 14) then (3, 14), both on his own side of the bridge, played whenever the opponent's hand was committed elsewhere.
+- clock 1:05: used defensively, thrown onto an advancing Cannon Cart rather than past it — "we can go for the evil wall breaker as well. Just explode on top of that cannon cart. Should be a perfect defense."
+- clock 0:32: Wall Breakers at (9, 17), over the river into the collapsed right lane after the enemy right tower had been ground to 632.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:57: answers an incoming Evo Witch push by attacking the other lane instead of defending it - Wall Breakers at the right bridge, tile (13, 15), elixir 7 -> 5: "even have a good cycle to defend this witch. Go for the wall breakers here." It connects for 4858 -> 4409 on the enemy right tower: "We grabbed a nice connection right there."
+- clock ~1:14: switches lanes with Wall Breakers at (2, 14) while naming the card he fears - "Let's go for the wall breakers here. I do have to be careful of the evil inferno dragon though, man. Cuz I think it's so broken." Enemy left tower 3227 -> 2362.
+- clock 0:24: uses them defensively as a kite rather than for damage, at (9, 13), which saves the right tower he had already written off - "Wait, do I lose any tower? Wait, wall breaker's kite."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- clock 2:24: first bridge play at [14, 15] behind a Miner (elixir 6 -> 4), the deck's standard opening pressure.
+- clock 1:45: switches lanes deliberately — Wall Breakers at [4, 14] because the opponent's cycle deck has no cheap answer on that side: "Wall breakers here opposite lane cuz he doesn't have a cheap counter" (t=592-594), and it works: "we forced out snowball, which is nice" (t=597).
+- clock 0:27: used as a building-bait rather than for damage — "I have to watch out for a Valkyrie plus drill combo at the bridge. It's wall breakers right now. Force him to cannon" (t=669-673); the opponent's Cannon appears at (9, 18) at t=684.7.
+- overtime (t=697.7, t=714.7): keeps alternating lanes ([12, 14] then [2, 13]) alongside Miner in the winning rotation — "Let's miner as well. Wall breakers" (t=716).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Used more as defence than as a win condition all game: split across his own half at t=807.8 [7, 12] and t=859.9 [13, 14] / t=860.9 [12, 6], and as a shield in front of his own defenders at t=923.9 [10, 12] ("let's evil wall breakers to tank", t=924) and t=937.9 [15, 14] ("let's wall breakers to just tank and then we go for the bats", t=938). Evolved — "we do have the evil wall breakers ready" (t=860).
+- t=982.8 (overtime clock 0:47): the middle placement at [8, 13] during the game-winning defensive stack is the one that connects — "oh no, we have to wall breakers in the middle" (t=981), then "we got a wall breaker connection. There's no way. Let's go" (t=991-993); the enemy right tower falls 3810 -> 1955.
+- t=911-914 (overtime 1:59-1:55), on hoarding them: "I think I should just go in with the wall breakers and stop being scared, but I was trying to save them for the evil ebarbs."
+- t=1022.0 (overtime clock 0:07): final play of the match is a kite, not a push — "let's go for the wall breakers to kite high bomb tower. And we did it, man" (t=1023-1025).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- clock 1:51: deploy label at [13, 15], straight at the bridge the moment the opponent's Log was spent on his half - "Wall Breakers here at the bridge. Apply some pressure. He did use his Arrows, so..."
+- clock 0:25: values the Evolution specifically as an unanswerable follow-up once the small spell is gone - "He has to really watch out for the Evo Wall Breakers though, man. The Evo Wall Breakers are going to be annoying because he did use the Arrows."
+- clock 1:17 [7, 13] (HUD 4 -> 2) and clock 0:27 [11, 10]: used on his own half as a kite/second-lane threat rather than pure offence - "let's Wall Breaker kite this and we can go for the Spear Gobs."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:50 and 2:12: opens both rotations by splitting them on the centre river tiles ([8, 14] then [8, 15]) so the pair goes down both lanes — "I'm just going to split the wall breakers here" / "Let's split wall breakers here."
+- clock 2:11: commits them only after reading the answer — "just an ice wizard won't counter. He'll have to go for like the barrel and the ice wizard if he wants to take no damage here." The Ice Wizard arrives late: "Ice was just a little bit too slow."
+- clock 1:37: talks through the Evolution's King-activation risk against a deck that wants it — "We do have the evil wall breakers, but he could activate his king off of them. [I] think I should just split them. But the thing is even if I split them, he can still activate. That's the problem."
+- clock 1:01: used purely defensively as a kite, three of them landing on the left ([4, 14], [4, 13], [3, 14]) while a Knight walks that lane — "We can wall breakers to kite that knight back." The offensive payoff comes at 0:33 when a double connection takes the enemy right tower 3699 -> 2801 HP ("that's going to be a double connection I think. Come on. One, two. Beautiful").
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Wall_Breakers (scraped 2026-09-02T02:35:05+00:00)

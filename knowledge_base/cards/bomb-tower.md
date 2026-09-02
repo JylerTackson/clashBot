@@ -347,6 +347,53 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.6.m
 - Opponent's defensive building, and Ryley's stated target for elixir attrition — "I think I can force out the bomb tower here. If I can keep forcing out more and more elixir from him" (clock 2:02). When it lands at [8, 19] he rates it badly: "Oh, bad bomb tower. We actually have a pretty good chance to get him good in single elixir" (clock 1:59).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- clock 1:51 and 0:42: both placements sit inside his own half in front of the left/centre Crown Tower ([8, 11], then [7, 10]); it is on the field through the whole 1:44-1:26 stretch when the Rascals and Skeleton Barrel press.
+- clock 0:42: the second one is a named answer to a Cannon Cart — "Let's go for the [Bomb Tower] on the cannon cart, though" (the auto-transcript garbles the card name as "bad steer"). Both deploys were misread by the HUD as "Skeleton Dragons" and "Zappies"; the -4 elixir and the deploy labels identify the Bomb Tower.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:04, 1:05, 0:40 and 0:14: Bomb Tower placed four times at (8, 9) / (8, 11) — centre of his own half, inside the Crown Tower radius — and replayed as its lifetime expires; it is the collection point for the opponent's Monk and Royal Recruits pushes.
+- clock 0:58: "We are going to lose our bomb tower, so we have to watch out for a hog rider wizard push" — he explicitly tracks its 30 second lifetime as a defensive window.
+- clock 0:40: the punchline of the game is that it was redundant — "I didn't even need the bomb tower for the hog", because the ability-active Berserker killed the Hog Rider first.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 0:53: held back until the opponent commits to an all-in push, then placed at (8, 9) - his first building of the readable window, going down as he says "I can't really take out the EVO witch, and I can't really take out the Evo Inferno Dragon."
+- clock 0:27: placed deliberately deep at (6, 8), out of tower range, to protect rather than trade - "I'm going to bomb tower low like this just to not lose my left side tower."
+- clock 0:08: a third Bomb Tower at (6, 7) as the final block of the game - "Then we can bomb tower here. Last second and we can log it off if we need to."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- clock 2:04: first placement dead centre of his own half at [8, 9] on a full bar, used as an information play — "Let's just bomb tower here. See what the rest of this guy's deck is" (t=572).
+- clock 1:49: he rates the current card highly against spirit-spam decks — "Dude, bomb tower actually one-shots the spirits now. That's pretty cool" (t=588-590).
+- clock 1:31: the mistake he learns from — Bomb Tower out in the lane at [3, 9] ("It's bomb tower here. We have to be careful of the hero Valkyrie", t=606-608) draws the Hero Valkyrie, whose ability takes his left tower from 4786 to 3312 HP (t=614-620).
+- clock 1:09-0:18: the fix, stated then repeated — "since he has snowball and stuff, I need to bomb tower on it. Yo, maybe I have to bomb tower behind my tower. Maybe that's the method, guys... just to not give many lineups to the tower" (t=624-632); placed at [3, 3] behind the left tower at t=629.6 and t=681.7, and confirmed after the game-winning defence: "the bomb tower the back is definitely key in this game" (t=695).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Named as the backbone of the matchup before it is ever played: "I just have to make sure to abuse my bomb tower well" (t=779-781) and "getting the bomb tower out cuz then obviously we only have squish units for defense" (t=795-798); first copy goes down at t=788.0 [9, 10] exactly as double elixir starts (clock 2:00).
+- Every placement is the same central band in front of the king (columns 7-9): t=837.7 [8, 9], t=861.9 [8, 11], t=888.9 [9, 9], t=916.9 [8, 10], t=976.1 [8, 9], t=1005.0 [7, 13], t=1024.0 [9, 13] — and he re-lays it the moment the previous one expires: "kill his bomb tower here again" (t=862), "just go for the low bomb tower and then a log here" (t=888-890), "I think let's high bomb tower" (t=1006).
+- It anchors the overtime defence that wins the game: Bomb Tower at t=976.1 [8, 9] plus a second copy at t=988.0 [3, 14] against an evolved Battle Ram and Elite Barbarians — "then we have to get a bomb tower down. Nice. Let's go" (t=986-989).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- clock 0:53: one placement at [9, 9], the central defensive slot, against a Golemite advancing his left lane.
+- clock 1:57: notes it survived the opponent's Void - "at least the Void didn't completely one-shot my Bomb Tower. It could have been a lot worse" - i.e. a 5-elixir Void is not a clean answer to it.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:19 and 1:21: both placements are centre-right on his own half inside his Crown Tower's cover, [10, 9] then [7, 9] (elixir 7 -> 3), against the opponent's Knight/Skeletons ground pushes.
+- clock 1:21: notes the post-buff pull range as the reason it now works — "Go for the bomb tower here. That should pull now after the change. Yeah, nice. Okay, thankfully that pulls cuz it didn't pull before, but after like it got like a massive buff, they did like lower the sight or increase the sight range so it does get followed up by buildings more easily."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

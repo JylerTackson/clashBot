@@ -209,6 +209,54 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.3.m
 - clock 0:53-0:44: plays two cards purely to pre-empt them — Magic Archer at (5, 12) ('He might try to get a nice set of Evo bats here though, so I'm going to go for the magic archer here to take this out', 621-625s) and a held Fire Spirit ('I'm going to wait a second cuz he might try to bats. Yep, there it is', 630-631s). Evo Bats are tracked from t=636.6.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- clock 1:30: the Evolved Bats are held as a reactive answer rather than cycled — "We have the Evo bats ready for anything that he puts out. Let's evo bats here on the goblins just to get a little bit of value." (The HUD read this drop as "Goblinstein"; the -2 elixir matches Bats, not a 5-cost card.)
+- clock 2:08 and 0:24: bridge placements at [1, 15] and [6, 14], both called — "Let's go for the bats here at the bridge" and "Let's go for the evil [Evo] bats here."
+- clock 1:24: planned as a shield for the opponent's air swarm rather than as damage — "Those bats will actually tank for the minions as well." Also used defensively at [14, 11] (2:40), [3, 11] (1:05) and [13, 15] (0:42).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:42: Bats at (1, 13) behind his own left tower as cheap defensive filler while he cycles.
+- clock 1:19: Bats added to the right-lane push as its air support — "Let's go for the evil bats as well" (the arena tracker reads them as the evolution), and at 1:12 he pops Savage Survival specifically to protect them: "it will also help support the evil bats as well."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:48: Evo Bats at (14, 14) played offensively as a spell bait - "I think I need to go for the bats as well. Evo bats immediately force him to go for the [rage] and then we can go for the spears." The opponent mistimes the Rage ("he didn't get the rage down in time. That's huge") and Life Leech carries them: enemy right tower 4409 -> 2589 between clock 1:34 and 1:28, with "Damn, look at how much those bats are healing."
+- clock 1:07 and 0:35: the same card as a 2-elixir defensive blocker in the left lane, at (0, 11) against the Evo Skeletons wave and at (3, 14) alongside The Log against Skeleton King.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- clock 1:57: the Miner's usual partner on offence — Bats at the right bridge tile [16, 15] right after Miner at [14, 27], played specifically because the opponent had spent his Giant Snowball (t=580-583).
+- clock 0:51-0:42: Bats at [14, 14] then [1, 15] in a triple-elixir rotation with Miner and Berserker — "we can evo bats though. The spirit won't work. Let's go for the bats miner here" (t=646-647).
+- clock 0:18: defensive use, Bats at [3, 14] to jam the bridge with the Berserker while the Bomb Tower goes down behind the tower — "Bats berserker to block the bridge. Then we bomb tower the back" (t=681-682).
+- overtime (t=703-705): he decides against holding the Evolution for them — "then we can evo bats late but not right away. Actually, let's not evo bats at all cuz he went for the early furnace. That's good for us."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- t=738.6 (clock 2:50, elixir 9.0 -> 7.0): opens the game with a back split — "just going to split my bats here in the back" (t=738-740).
+- Paired with the Berserker against an evolved Battle Ram at t=841.8 [14, 14] (clock 1:07) — "we could go for the berserker here, then evil bats as well" (t=843) — and with the Miner as an opposite-lane chip package at t=899.9 [16, 14].
+- Mid-board anti-air and filler through overtime: t=921.9 [3, 14] ("let's bats here", t=922), t=938.9 [10, 14], t=974.0 [14, 14] ("let's go for the bats here. Then we bomb tower", t=969-971), t=986.0 [8, 14] ("up top we can evo bats", t=986) and t=1026.0 [6, 14]. Evolved.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- clock 1:48 (deploy label at [16, 14], logged to the opponent but claimed in his own commentary) and clock 1:05 (HUD 6 -> 4, [17, 21]): both times as Miner support on offence - "I will go for the Miner plus Evo Bats as well. He's going to eat these, but he can't eat the rest of this, man. He can't eat the Bats. Um, oh yes, he can."
+- He runs the Evolution ('Evo Bats'); in this game they are chip support rather than an air defence.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:30: dropped at [16, 14] behind the bridge Berserker as the cheap follow-up that the opponent's ground answers cannot touch.
+- clock 1:53: the Miner's standard partner in the opposite lane at [1, 15], repeated at 0:44 and again in overtime at [0, 13].
+- clock 0:47: deliberately held back as spell bait insurance, then played anyway one rotation later — "I'm not going to bat yet though. I'm going to wait cuz he might go for the bait... Okay, let's definitely bats here anyways just to be annoying."
+- clock 0:28: used as the instant answer to an Ice Wizard / Skeletons counterpush — "Let's bats instantly."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

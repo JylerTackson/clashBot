@@ -116,6 +116,12 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.0.m
 - clock 1:33 (t=75): the opponent casts it on Ryley's X-Bow push; not detected, named in commentary only — "He does get the Void down, which is definitely fine by me." His right-lane damage continues uninterrupted through it (opponent tower 2047 -> 1201 over the next four seconds).
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Opponent's card. clock 1:57: he is caught out by the cost - "Oh, he has Void. Oh my god, the Void is five elixir now. I forgot" - and relieved it did not kill his Bomb Tower outright.
+- clock 0:45-0:42: plays around it and loses the exchange anyway - "I have to watch out for the Void here for sure. Let's go for the Berserker here" ... "he gets a full Void on me. That sucks." Inferred spell hits then strip 533 HP from his right tower and 498 from his left.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Void (scraped 2026-09-02T02:35:29+00:00)

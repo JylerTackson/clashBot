@@ -115,6 +115,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:48-0:42: he answers the Recruits with 1-elixir cards and a barrel in the other lane rather than the Cannon — Ice Spirit + Skeletons + a deep Electro Spirit (295-301s) — and pre-places the Cannon at clock 0:28 expecting them at the bridge (312-314s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 1:11 and 1:07: the opponent commits Royal Recruits in both lanes ((11, 21) crossing right, (4, 16) down the left); Ryley's answer is the Berserker ability — "Oh my god, he has recruits. Okay, wait. I'm going to pop the ability here cuz it's going to shred through the recruits."
+- clock 0:13-0:05: a final Recruits wave on the left is met with Savage Survival again plus The Log at (3, 12) — "we can pop the ability as well just to help take out these recruits... We take out at least two recruits. Nice. Very good value there."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Recruits (scraped 2026-09-02T02:34:44+00:00)

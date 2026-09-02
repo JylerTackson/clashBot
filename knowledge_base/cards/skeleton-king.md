@@ -133,6 +133,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
 - clock 1:15: mentioned only as a card the opponent does NOT have — 'I'm pretty sure that means he doesn't have the Skeleton King' (t=98) — which is how Ryley narrows the last slot to Goblin Machine. Never played by either side.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:46 and 0:37: the opponent's Skeleton King runs the right lane and later the left; Ryley answers the second one with The Log, Bats, Spear Goblins and the Hero ability - "I need to ability as well just to make sure that we take out the skelly king... If that takes out the skelly king, I'm happy" (486-491s).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_King (scraped 2026-09-02T02:35:13+00:00)

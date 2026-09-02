@@ -149,6 +149,11 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.3.
 - clock 2:16 and OT 0:33: treated as an Elite Barbarians target on both defence and offence — "at least my e-barbs are going to help take out that executioner" (t=719-722) and, in overtime, an Elite Barbarians label at [14, 1] onto one that crossed: "We have to e-barbs here on the exe" (t=945). He also counts it as one of the two cards his bridge pressure is designed to drain (t=811-814).
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:27-2:18: the opponent's first real threat, tracked from (5, 21) down to (3, 12) in Ryley's left lane; he answers with The Log at (3, 14) and then Berserker on the same tile rather than letting it reach the tower. No commentary on it.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Executioner (scraped 2026-09-02T02:35:06+00:00)

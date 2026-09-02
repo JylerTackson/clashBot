@@ -676,6 +676,61 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.m
 - clock 0:15 (t=489): dismissed as non-lethal in the last seconds — "The berserker on the left is not going to finish off our tower."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- clock 2:34, 2:24, 2:00, 1:24 and 1:02: the Hero variant, five deploys and the reason the video exists. Two roles only — a body on his own half in front of whatever is walking the left lane ([5, 7] at 2:00, [3, 15] at 1:02), and an opposite-lane pressure card ([14, 14] at 1:24): "Let's go for the berserker opposite lane here just to apply some extra pressure and then we can go for the wall breakers on the left here."
+- clock 1:16-1:10: he deliberately withholds Savage Survival and still gets paid for it — "I'm not even going to pop the berserker ability. See there, normally he wouldn't defend the berserker, but because it's hero, he had to." Generalised a few seconds later: "sometimes the threat of me going for the ability is actually stronger than me literally clicking the button. Cuz in a lot of situations, it just makes them have to defend a berserker that they wouldn't normally have to."
+- clock 0:56-0:45: the one ability press of the game, used to save her rather than to open — "Wait, ability here. Keep this alive. And look at this, guys. It's on the tower. Look at that damage. It's on one HP. It can't die because whenever you pop the ability, it's literally invincible." The enemy left tower goes 2277 -> 2215 -> 1763 -> 1169 -> 742 -> 579 across those ten seconds.
+- clock 0:35-0:33 and 0:14-0:05: used as a tank to deny a siege building its lock — "we can go for the berserker to tank just so the mortar doesn't lock to our tower" — and then as the closer, walking the left lane while he says "this berserker just completely w[o]n us the game. Man, having that ability there, which is so good." (The 2024 detector has no Berserker and tracks her as hog-rider(a).)
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:17: Berserker at (3, 14), his own side of the left bridge, to meet an Executioner that had walked to (3, 16) — the standard 'meet it in front of the tower' placement, and she is the card he leads every defence with.
+- clock 2:27-2:12: the thesis of the video, said while he is only cycling — "I think that it's completely broken... it's just such a solid card in general to where like you don't need to use the ability every single time and you're typically always getting value out of the Berserker anyway. The ability just helps you get even more value out of a card that gets a bunch of value already."
+- clock 1:26: Berserker at (14, 12) as the body of a right-lane counterpush with a Miner sent ahead of her — "Let's go for the berserker here off to the side. I want to tank for my berserker with the miner though this time"; the enemy right tower drops 3957 -> 2285 over the next two seconds.
+- clock 0:33: an ability-active Berserker kills an incoming Hog Rider outright — "I didn't even need the bomb tower for the hog. Dude, what? I've never seen that interaction before. It just immediately took out the hog... you know a card is broken when it counters the hog rider."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:57: deployed at (6, 14) as the body of a Poison-plus-Berserker defensive package - "we have to definitely go for the poison and then berserker as well. Just to tank for everything."
+- clock 1:05 and 0:37: defensive placements at (9, 10) into the Night Witch lane and in the left lane against Skeleton King plus Evo Skeletons; at clock 0:16 he cycles her back for the last stand - "Let's back here then quickly. Berserker up top."
+- clock 0:35 and 0:12: the Heroic Savage Survival ability spent twice in the last 35 seconds, both times to guarantee a specific kill rather than to push - "I think I need to ability as well just to make sure that we take out the skelly king... that was a beautiful ability right there" and "I had a feeling I needed that ability here just to keep this alive so we can take out the witch."
+- clock ~2:00 (just before the readable window): he names the ability he declines - "could have ability, but I think it would just be too much if I went for the ability after going for that log."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- clock 2:48: opens the game with her deep in his own half at [8, 1] (elixir 9 -> 7) as pure cheap filler on a full bar — "Just going to start off with the Berserker here" (t=528).
+- clock 1:29: drops her at [9, 14] just short of the bridge as the opponent's Hero Valkyrie walks the left lane — "We have to be careful of the hero Valkyrie... We have to berserk her up top like this" (t=608-609); she is used as a fast-hitting body, not as a tank escort.
+- clock 0:47: opposite-lane pressure at [3, 14] while the Bats + Miner package works the right — "We can berserker opposite lane as well" (t=650); repeated in overtime at [7, 14] (t=713.9) and [3, 9] (t=718.7), "Let's berserker here. Yo, I think he's cooked" (t=719-721).
+- overtime (t=730): the Hero variant's Savage Survival ability is what closes the game — the opponent tries a Valkyrie on defence and Ryley says "I'm just going to pop the ability. I think we take tower. Let's go. Beautiful win, guys"; the enemy left tower falls from 190 HP moments later.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- t=750.8 (clock 2:38): dropped at tile [14, 10] straight in front of a Battle Ram that was 3 s from the right tower, with The Log at [14, 9] on top of it — "let's go for the log here. Make sure that we take out this battle ram nicely" (t=752-754). She is the deck's only tank: "only having the berserker as a tank in this matchup is going to be very scary" (t=770-772).
+- t=781-787 (clock 2:07-2:03): states the Hero plan before using it — "try to get as many berserker abilities down as possible, cuz if I keep popping the ability, then we can actually survive some pretty crazy things."
+- t=945.9 then t=949.4 (overtime clock 1:23-1:19): Berserker at [9, 9] into a Bandit charge, then Savage Survival (own elixir drops 3 with no card leaving hand) — the one ability that fired all game. "Let's pop the ability as well. This is where the berserker ability is going to come in so nicely, guys. Like look, it's going to shred everything" (t=949-953), "normally we just get completely cooked there. But thankfully, you know, we have this nice berserker" (t=954-957).
+- t=885.2 (clock 0:23): Berserker at [14, 13] onto the Archer Queen with the ability deliberately withheld — "should I pop the ability? Will that even do anything? Probably not" (t=885-888), "I didn't want to pop the ability cuz I feel like the berserker would just end up running away" (t=892-894). Two other ability inputs simply did not register: "oh, the ability didn't go off" (t=812), "oh no, the ability didn't go off again" (t=978-980).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Hero variant. clock 1:58: a HUD 3-elixir drop (6 -> 3) with a Berserker deploy label at [7, 10] beside it - the Savage Survival ability, not a card play (the hand read mislabelled it 'Tornado').
+- clock 1:36 and 1:21: she is the cheap defensive answer placed low behind kiting Spear Goblins - "let's go for the low Berserker here" and "just a kite and then you get a low Berserker. You get so much defensive utility out of all these cheap cards."
+- clock 0:42 [8, 11] (HUD 7 -> 5), 0:33 [16, 9], 0:23 and 0:15 (HUD 3 -> 1 both times): every placement is on his own half against Elite Barbarians / Night Witch pushes; at clock 0:35 he calls her the required piece even while conceding a tower - "We need to go for a Berserker."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:44 / 1:59 / 0:43: leads with her on the right-hand bridge tile [15, 14] every rotation, as the pressure card the opponent has to answer before the Wall Breakers land.
+- clock 2:36: pops Savage Survival immediately after the bridge placement (3-elixir drop with no hand change, elixir 9 -> 6) — "We have the ability ready here. Hold on. Wait. Ability. Oh my god, we made a miss because the berserker stayed in place for a second. Let's go." The enemy right tower goes 4858 -> 3947 across that window.
+- clock 1:03: refuses the ability when the opponent is already starved — "Okay, I'm not going to pop the ability though. There's no point."
+- clock 1:43 and 0:28: also runs her defensively, deep on his own half at [12, 4] and [3, 12] — "Berserker. Okay, we're good" — and at 0:14 saves 5 elixir specifically to get the ability off again: "Could we get the berserker ability down? Please, please, please, please, please. Ability."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

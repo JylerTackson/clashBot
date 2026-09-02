@@ -129,6 +129,12 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Mentioned only, as the card he does not have: the reason a flying Heroic Wizard is unanswerable for his Royal Giant deck - "since I don't have a monk and log doesn't hit the air whenever he pops the wizard up, I literally cannot kill it" (423-428s).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:02: opponent's Monk reaches (4, 8) inside Ryley's half, and the Bomb Tower at (8, 9) goes down to hold it.
+- clock 0:57: he plans the ability around it — "if we just pop the berserker ability, it should help take out the monk."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Monk (scraped 2026-09-02T02:35:14+00:00)

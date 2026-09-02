@@ -220,6 +220,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.m
 - clock 0:12: he tracks the enemy hero Goblins ability as a defensive risk — "He has the goblin ability. I have to be careful of that. I think we're fine though. I don't think it really matters that much."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- opponent card, deployed at clock 1:34 and 0:44. At 1:30 Ryley spends his Evolved Bats on them purely for the trade: "Let's evo bats here on the goblins just to get a little bit of value."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

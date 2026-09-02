@@ -174,6 +174,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.1.m
 - clock 1:57 and 0:23 (t=214.2 at [11, 8], t=308.3 at [3, 8]): cast on Ryley's half behind pushes that die anyway; he names it in his first deck read at 172s ("the dark prince zap and rage") and never has to spend anything extra for it.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:44-1:36: the opponent's Rage is aimed at Ryley's Evo Bats and arrives late - "Wait, he didn't get the rage down in time. That's huge" (419-421s), then "Okay, he tries to rage it. That's fine. That's a lot of damage. We definitely take that" (426-427s). The Bats heal through the boosted tower fire and take the tower from 4409 to 2589.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rage (scraped 2026-09-02T02:35:44+00:00)

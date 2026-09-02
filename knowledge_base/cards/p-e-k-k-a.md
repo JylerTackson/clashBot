@@ -177,6 +177,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 0:40: a second P.E.K.K.A. arrives while a Mini P.E.K.K.A. is already down the left lane; his answer is Magic Archer (2, 7) + Archers (1, 7) + Royal Delivery + Tornado + Bomb Tower (8, 10) inside five seconds, and the P.E.K.K.A. is on his King Tower by clock 0:13.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Mentioned only, never played by either side: he expects one behind the tower at clock 1:57 — "maybe get Pekka in the back, to be honest" (t=792-793) — and rules it out at t=807, "maybe he just doesn't have peek at all."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/P.E.K.K.A. (scraped 2026-09-02T02:35:00+00:00)

@@ -184,6 +184,12 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.0.md):
 - clock 2:23 (t=123.1, tile [8,9]): dropped centre-left as the anchor against a rotation he is already calling out loud — "Ice wizard here and then next comes the firecracker and then the Valkyrie and then the zappies. Yep, and then the healer" (t=151-156).
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 2:11: reads it as insufficient on its own against split Wall Breakers — "just an ice wizard won't counter. He'll have to go for like the barrel and the ice wizard if he wants to take no damage here."
+- clock 2:07: the Ice Wizard is tracked crossing at (10-14, 14-19) and arrives after the Wall Breakers have connected — "Ice was just a little bit too slow."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Wizard (scraped 2026-09-02T02:35:10+00:00)

@@ -160,6 +160,50 @@ Match [This NEW Xbow Deck is TAKING OVER the Meta](../matches/SsOmbv1PfUg-m0.4.m
 - overtime 0:20 (t=1013): he tracks the opponent's spell cycle as pressure relief — "He can't poison, bro. Okay, he's under so much pressure."
 <!-- creator-insights:ryleycr1:SsOmbv1PfUg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- clock 0:21: the only cast of the game, at [4, 17] directly onto the enemy Evolved Mortar sitting at (3, 17) after it had connected on his tower — "we can just go for the quick poison. Make sure to get all this value." He grades it two seconds later: "Very good poison value right there."
+- the cast was logged as an opponent play (label 'POiSON' on the opponent's half); the commentary and the target make it his, and it is the evidence that Poison, not Electro Spirit, holds the eighth slot of this deck.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:11: Poison at (4, 22) on the opponent's left-side staging ground; the Wizard appears on that tile band two seconds later.
+- clock 0:45: pre-poison at the bridge at (3, 16) while sitting on 9 elixir — "I have the poison ready at the bridge. I'm just going to pre-poison to be honest. There's no point not to."
+- clock 0:20: Poison at (3, 14) on his own half onto the incoming push — "Let's poison here. And we can just go for the berserker."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:55: cast as part of a defensive package rather than for chip - "we have to definitely go for the poison and then berserker as well. Just to tank for everything. Take this all out."
+- clock 0:42: Poison at (13, 16), elixir 10 -> 6, onto the Night Witch and her bats in the right lane, after visibly agonising over which lane needed it - "We have to poison the right side, I think" (477s), then "Now, we have to poison the left, I think" (481s) as both lanes arrive at once.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- clock 0:58: used on the opponent's Furnace rather than on troops, at [4, 23] — "let's poison here on the furnace, though, cuz I I I don't want my bomb tower in the middle anymore. I'm too scared" (t=639-642): the spell replaces the building as the answer to the spirit stream.
+- clock 0:33: second Poison at [5, 23] for tower value — "Let's poison that anyways. Very good damage. And just like that, we're actually in the damage lead now" (t=664-667); the enemy left tower drops 4456 -> 3292 across those four seconds.
+- A third Poison read (HUD, clock 1:16) is inside the card's cycle time and is treated as a misread, not a play (recorded as a data gap).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- Reserved almost entirely for the Magic Archer: t=809.8 [9, 15] ("let's poison the magic archer", t=810), t=851.9 [5, 20] ("let's poison this and then we can go for the miner as well", t=853), t=994.0 [6, 19] ("I'm going to poison the marcher", t=995) and t=1016.0 [14, 12] pre-empting the bridge play (t=1016-1019).
+- t=957.0 [12, 13] (overtime clock 1:11): used as a defensive spell rather than chip — "let's poison here defensively. This is such an intense match, man" (t=957-961).
+- Twice sequenced directly with a Miner (t=851.9 into t=855.9 [16, 25]; t=994.0 into t=996.0) and once stacked with The Log on the same tile (t=1016.0 and t=1018.0 at [14, 12]).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- clock 1:46 (HUD 5 -> 1) and clock 0:16 (deploy label at [10, 25], on the enemy left tower): used behind the Miner as chip, not as a defensive spell.
+- clock 0:50 (HUD 8 -> 4): the one defensive-looking cast, played as a Golemite advanced his left lane and a Bomb Tower went down at [9, 9].
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 0:44: one deploy label over the enemy left tower at [4, 21], landing with the Miner at [1, 22] and Bats at [1, 15] — the standard Miner + Poison chip package for this list. (The elixir trace does not independently confirm the spend; see the match file's Data gaps.)
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Poison (scraped 2026-09-02T02:35:27+00:00)

@@ -197,6 +197,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.5.m
 - clock 0:42-0:08: he answered it with an early central Tesla plus Skeletons and Wall Breakers pressure rather than a hard counter, and it still broke his left tower at roughly clock 0:08.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5.md):
+- Opponent's card, inferred from Golemites tracked advancing Ryley's left lane at clock 2:31, 1:48, 0:51, 0:45 and 0:20. His answer is never a hard counter - Bomb Tower at [9, 9] (clock 0:53), then conceding the lane: "I think we should sacrifice this tower."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golem (scraped 2026-09-02T02:35:03+00:00)

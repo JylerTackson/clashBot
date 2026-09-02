@@ -229,6 +229,12 @@ Match [Ronin Made This Log Bait Deck 100X MORE BROKEN](../matches/eEwTOkVPoFM-m0
 - He answers it with a Magic Archer pierce rather than a building or a walk-in - "I think I want to Magic Archer this. Just to take this out for no hits" (1314-1316s) - and respects the evolution: "He has Evo Mortar in hand though. Have to be really cautious of the Evo Mortar" (1349-1353s). He also plays around it activating his king tower (1319-1327s).
 <!-- creator-insights:ryleycr1:eEwTOkVPoFM-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0.md):
+- opponent card, three placements: [14, 18] at clock 2:08, [3, 17] at 1:26 and an Evolved one at [3, 17] again at 0:34. Ryley grades the second one immediately — "Okay, that was a bad mortar" (1:26).
+- clock 0:35 and 0:23: he answers it with a body rather than a spell — "we can go for the berserker to tank just so the mortar doesn't lock to our tower" — and when the Evo Mortar does connect for 425 + 200 on his left tower he takes it calmly: "I think that's a mortar connection, right? Yeah, only one shot us not the end of the world," then Poisons it.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

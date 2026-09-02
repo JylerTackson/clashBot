@@ -294,6 +294,12 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 1:44 (t=452.5, tile (13, 14)): Knight at the bridge as cheap pressure while the opponent was tied up — "could go for the knight the bridge here just to be annoying."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 1:01: the opponent's Knight is kited with Wall Breakers into the opposite lane rather than answered with a defensive troop — "We can wall breakers to kite that knight back." The Knight is tracked walking from (3, 13) to (4, 10) through that window.
+- overtime 1:57-1:49: two Knights come back at (14-17, 12-20) and are part of why he concedes the game plan — "I don't know how I'm supposed to beat him now when he has so many defenses."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

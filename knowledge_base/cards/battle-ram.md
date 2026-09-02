@@ -313,6 +313,11 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - Video t=1729.7: the Evolution Battle Ram at the bridge [15, 14] as the win condition of the closing push, behind the Valkyrie — 'I went for the Evo Ram, guys' (t=1731). He also treats it as a passive Dark Prince answer: 'his dark prince was going to get knocked away by my battle ram anyways' (t=1750).
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4.md):
+- The opponent's opening and recurring pressure card, evolved later in the game (t=750 clock 2:38, t=842, t=978). Answered with Berserker + The Log at t=750.8-751.8 ("make sure that we take out this battle ram nicely", t=753-754) and with Berserker + Bats at t=841.8-843.5 ("we could go for the berserker here, then evil bats as well", t=843).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Battle_Ram (scraped 2026-09-02T02:34:54+00:00)

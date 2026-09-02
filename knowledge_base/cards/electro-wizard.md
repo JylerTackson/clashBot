@@ -168,6 +168,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
 - clock 0:57: named once as an alternative the opponent might hold instead of Vines — 'he might try to E-Wiz instead because of that' (t=115). Never appears in the game.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6.md):
+- clock 0:55: appears at (16, 21) as the opponent's answer to the right-lane Berserker/Wall Breakers pressure; Ryley does not comment on it and simply switches lanes with the Miner at 0:48-0:28.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

@@ -404,6 +404,17 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:44 (t=536.5, tile (2, 9)) and clock 1:37/1:23 (t≈592 and t≈607): Valkyrie used as a bridge body to open a lane while the barrels and Wall Breakers baited the other — "valk the bridge. Nice."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1.md):
+- clock 2:33: mentioned only as a yardstick for how obviously strong a card is — "I don't think that it's like the Valkyrie where like it's just impossible to think that it's not strong", i.e. the Hero Berserker's strength is arguable in a way the Valkyrie's is not.
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3.md):
+- Opponent's Hero Valkyrie, the card that nearly loses Ryley the game. He flags it before it appears — "We have to be careful of the hero Valkyrie" (t=608) — answers it with Berserker at [9, 14] and The Log at [3, 8], and still eats the ability: "Yo, Valk, don't pop the ability on me. No, no, no, no, no, bro. [laughter] Dude, that card is also something else, man" (t=611-615), with his left tower falling 4786 -> 3312 between t=616 and t=620.
+- It also drives his defensive layout for the rest of the match — the Bomb Tower goes behind the tower at [3, 3] rather than into the lane (t=624-632) — and in overtime he beats one with the Berserker's own ability: "he tries to Valkyrie. What I'm going to do here is I'm just going to pop the ability" (t=729-730).
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

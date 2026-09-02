@@ -244,6 +244,11 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - Opponent card, mentioned but never seen on the field in this window. Ryley corrects his own card count with it at clock 1:44-1:34 — "right now he has zappies, graveyard, freeze, and [Tornado] in his hand. Or well, not freeze actually. He has the inferno dragon and not the freeze. K, bowler, inferno dragon, graveyard, and [Tornado]. Next card freeze" (t=1428-1437).
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:start -->
+Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2.md):
+- clock 1:12 and 0:48: mentioned twice, never observed on the field - it is the card that governs how he plays his Wall Breakers pushes: "I do have to be careful of the evil inferno dragon though, man. Cuz I think it's so broken" and "I can't really take out the Evo Inferno Dragon."
+<!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)
