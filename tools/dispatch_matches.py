@@ -45,12 +45,16 @@ def main() -> int:
     ap.add_argument("cmd", choices=["list", "assign", "done", "status"])
     ap.add_argument("keys", nargs="*")
     ap.add_argument("--batch", default="")
+    ap.add_argument("--video", default="", help="list: only this video id (assigned or not)")
     a = ap.parse_args()
     m = load()
     if a.cmd == "list":
         for r in ready():
             st = m["matches"].get(r["key"], {}).get("status", "ready")
-            if st == "ready":
+            if a.video:
+                if r["key"].startswith(a.video + "-m"):
+                    print(json.dumps({**r, "status": st}))
+            elif st == "ready":
                 print(json.dumps(r))
     elif a.cmd == "assign":
         for k in a.keys:
