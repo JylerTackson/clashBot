@@ -1,0 +1,112 @@
+{
+  "key": "A5qMlVwLS1M-m0.0",
+  "match_file": "matches/A5qMlVwLS1M-m0.0.md",
+  "video_title": "Playing the 8 BEST Cards in a SINGLE Deck",
+  "cards": {
+    "battle-ram": [
+      "clock 2:45: opens the game with it at the right bridge tile [14, 13] off a full bar (elixir 10.0 -> 6.0, deploy label confirms) before he has even finished the intro — the deck's default first move.",
+      "clock 0:31 and OT 0:48: uses it as the lane-switch card, not as support — 'Let's go for the Battle Ram here on the left' (t=144, elixir 7.0 -> 3.0) and 'Let's go for the Battle Ram opposite lane here' (t=245, label at [2, 14]), each time while a Goblinstein or Cannon Cart occupies the other lane.",
+      "clock 0:19: the only time he comments on its damage — 'Yo, that Ram is on the tower, which is really good for us' (t=155-156), enemy left tower 4570 -> 4493.",
+      "5 deployments in all, every readable tile at or past the bridge ([14, 13], [15, 13], [2, 14]); it is never played behind a tank."
+    ],
+    "elite-barbarians": [
+      "clock 1:23: 'I'm going to go for the Evo E-Barbs at the bridge here. And I'm going to wait a second because he may go for a Log. Okay, he went for the barbell' (t=92-98) — he holds the drop until the opponent's spell is spent, then heals them with Heal Spirit at [14, 15]; the Barbarian Barrel answer means no tower damage.",
+      "OT 1:46: names them as the whole win route — 'literally the only possible way to win this is just based off of a really good set of Evo E-Barbs' (t=192-196), after his right tower has fallen 4858 -> 2345.",
+      "OT 1:17: the set that wins the game, played at the bridge with the opponent low on elixir — 'I'm just going to try to get the Evo E-Barbs at the bridge cuz he's going to have to overspend' (t=219); with a Mother Witch curse running, enemy right tower goes 4603 -> 1700 in eight seconds and he says 'E-Barbs are on the tower... we're actually in the damage lead' (t=225-230).",
+      "clock 2:33: the one deep placement, [9, 0] behind his own King Tower (elixir 9.0 -> 3.0), unnarrated."
+    ],
+    "cannon-cart": [
+      "clock 0:51: the push-protection role — 'I'm going to Cannon Cart just to keep this alive' (t=125), label at [2, 15] on top of the Goblinstein he sent to the left bridge.",
+      "clock 0:05: the defensive role — 'I'm going to Cannon in front of the King in case he goes for the Hog' (t=171), label at [9, 5] in the centre of his own half, with no building in the deck to hold a Hog Rider.",
+      "clock 0:38: he expects chip damage from it on defence — 'Wait, that Cannon Cart's going to get some damage' (t=136), and in overtime the Heal Spirit is used specifically to keep it alive ('that's going to heal up the Cannon Cart', t=214).",
+      "8 labelled deployments, the most-played card of the game: [10, 14], [9, 0], [9, 8], [2, 15], [10, 7], [9, 5], [10, 8], [9, 5]."
+    ],
+    "goblinstein": [
+      "clock 0:57: the bridge drop is chosen off the opponent's cycle, not his own elixir — 'Let's just go for the Goblinstein at the bridge here because I know that he won't really have the greatest cycle to defend this' (t=118-122), label at [2, 15], elixir 8.0 -> 3.0.",
+      "clock 0:47: the ability is aimed at a specific card — 'I'm just going to try to get a nice Goblinstein ability on the tower cuz we can take out the Firecracker with that' (t=127-130); the enemy left tower starts taking damage immediately after (4858 -> 4570 by t=134) and he confirms 'we got out the one Firecracker'.",
+      "clock 2:07: talks himself out of a bridge Goblinstein when the opponent has just spent on a defender — 'Okay, never mind. After he went for that Firecracker, I don't think that it's a little bit worth it' (t=50-55).",
+      "OT 0:45: uses the ability defensively as a keep-alive — 'I do need to go for a Goblinstein ability here just to try to keep this all alive' (t=248); 6 labelled deployments across both bridges ([2, 15], [14, 15], [12, 1], [2, 12], [13, 13])."
+    ],
+    "mother-witch": [
+      "clock 2:12: played purely for King Tower activation against the opponent's Firecracker — 'Let's just go for the Mother Witch here just to make sure that we activate that King Tower off of the Firecracker. Beautiful King Tower activation' (t=42-47), label [10, 9], elixir 6.0 -> 2.0; his King Tower HP first reads at t=50.",
+      "OT 1:52: he plays her high up the field hunting a curse — 'We could go for a high Mother Witch here. Maybe even grab a set of skellies if we're lucky' — and credits the opponent for declining: 'Doesn't go for the skellies, which is smart by him' (t=182-187).",
+      "OT 1:14: the play that wins the game — 'Grab skellies. Oh my god. Nice. We grabbed the skellies. E-Barbs are on the tower... just like that, we're actually in the damage lead' (t=222-230); the Cursed Hogs plus Evo Elite Barbarians take the enemy right tower from 4603 to 1700.",
+      "OT 0:42: doubles down rather than saving her — 'go for a high Mother Witch here. I do need to get another Mother Witch down' (t=250-254), label at [9, 14]; 5 labelled deployments, all in the centre or right of his own half."
+    ],
+    "heal-spirit": [
+      "clock 1:17: heals a committed bridge push — 'Let's go for the Heal Spirit just to try to heal up the E-Barbs' (t=99), label at the river tile [14, 15]; the opponent's Barbarian Barrel had already cleared them, 'Oh, that's so unfortunate'.",
+      "OT 1:20: the play he is loudest about — 'Wait. Oh my god, that hit. Yo, Heal Spirit jump. Nice. Oh my god, that's going to heal up the Cannon Cart' (t=210-215), label at [9, 15], elixir 2.0 -> 1.0.",
+      "OT 0:57: used as a one-elixir distraction rather than a heal — 'I'm going to go for a high Heal Spirit here just to distract us for a second' (t=236-238).",
+      "6 labelled deployments plus several 1-elixir HUD drops; the river tile [14, 15] recurs three times, i.e. he drops it where the push is crossing, not on his own troops at home."
+    ],
+    "barbarian-barrel": [
+      "clock 2:15 and 1:53: defensive rolls into the opponent's Evo Knight in the right lane, labels at [10, 6] (t=39) and [14, 11] (t=62.1, elixir -2 confirmed by HUD).",
+      "clock 0:51 and OT 1:38: added onto a push as cheap chip — 'Let's even Barbarian Barrel here' (t=124, label [3, 13]) behind the left-bridge Goblinstein, and 'I'm going to go for the Barbarian Barrel at the bridge as well' (t=199, label [14, 13]).",
+      "clock 0:03: uses it as a pull tool on defence — 'we can even go for the Barbarian Barrel here just to make the Knight go in front or behind the Hog Rider' (t=172-175).",
+      "OT 1:14: 'Let's go for the barbell down the middle as well' (t=222, label [9, 13]) in the same window as the Mother Witch curse that wins the game."
+    ],
+    "zap": [
+      "clock 0:19: played onto the opponent's half to finish off defenders on his left push — 'Let's Zap here as well. Get the barbs on the tower' (t=157), label at [3, 22]; enemy left tower 4570 -> 4493 in the same seconds.",
+      "OT 1:58: misses one and treats it as the mistake of the game — 'Oh my god, I just missed my Zap. Ah, that's not great' (t=180-182), with the Evo Knight on his right tower (3866 -> 3359); at t=266 he still says 'that was beautiful gameplay outside of the Zap'.",
+      "OT 0:43: part of the finishing sequence — 'the Heal Spirit Zap. Oh my god, the [laughter] can go on the tower' (t=254-257), HUD elixir 4.0 -> 2.0; enemy right tower 1068 then 174 within four seconds.",
+      "4 plays in all, three of them on the opponent's half ([3, 22], [10, 23], [14, 17]) — it is used as push support here more than as a defensive reset."
+    ],
+    "bomb-tower": [
+      "clock 1:13: the opponent's Bomb Tower at [9, 19] is the card Ryley says breaks the matchup — 'Him having Bomb Tower is really, really bad for us cuz it's going to make his defense a lot easier having the Knight, Firecracker and Bomb Tower' (t=106-112).",
+      "clock 0:15: he treats forcing a second one as a win in itself — 'We forced out a second Bomb Tower, which is something' (t=159-162); two enemy Bomb Towers are alive at [9, 18] and [2, 19] from t=160.",
+      "Five opponent deployments across the game (t=100, 148, 192, 212, 244), all in the centre-right of the opponent's half — against a building-less bridge spam deck it answers Battle Ram, Elite Barbarians and Cannon Cart alike."
+    ],
+    "firecracker": [
+      "clock 2:12: Ryley plays around the Evo Firecracker rather than answering it — he uses its shots to activate his own King Tower with a Mother Witch ('just to make sure that we activate that King Tower off of the Firecracker', t=44-47).",
+      "clock 0:47: the Goblinstein ability is aimed at it — 'we can take out the Firecracker with that. Yeah, nice. We got out the one Firecracker, but now we have to deal with the next Firecracker' (t=130-134).",
+      "OT 1:30 and OT 0:53: the card he complains about most (ten separate tracks, most-mentioned card in the game) — 'he has an Evo Firecracker in hand now' (t=207) and 'He's just going to Firecracker again. Damn, is this annoying' (t=169)."
+    ],
+    "knight": [
+      "clock 2:37 to 2:12: the opponent's Evo Knight walks the right lane repeatedly and is answered with Barbarian Barrel at [10, 6] and [14, 11] rather than a building.",
+      "clock 0:03: Ryley uses Barbarian Barrel to manipulate it — 'just to make the Knight go in front or behind the Hog Rider' (t=172-175).",
+      "clock 1:10: named as part of the defensive core that makes the matchup bad — 'having the Knight, Firecracker and Bomb Tower' (t=110-112)."
+    ],
+    "hog-rider": [
+      "clock 2:15: recognised on sight — 'it looks like we're up against a Hog Rider Earthquake player here' (t=40).",
+      "clock 1:29 and OT 1:30: the Hog connects twice on his right tower (tracker at [13, 3] 'tower in 0.0s' at t=88, again at t=200), taking it from 4858 to 2345 — the deck has no building, so he pre-places Cannon Cart in front of the King instead ('in case he goes for the Hog', t=171).",
+      "clock 0:33: reads the opponent as unwilling to commit it — 'I have a feeling he's just not going to go in for any Hog Rider pushes, though' (t=142-143)."
+    ],
+    "earthquake": [
+      "clock 2:15: identified from the deck archetype before it is played — 'a Hog Rider Earthquake player' (t=40); the spell itself is only seen once, at t=140.1 (clock 0:33), against his left-lane Goblinstein/Cannon Cart push."
+    ],
+    "barbarians": [
+      "clock 0:13: the opponent drops Barbarians at [3, 17] onto the left-lane Battle Ram push (t=160.2), alongside a second Bomb Tower — the pair is what stops the push Ryley had built from t=144."
+    ],
+    "skeletons": [
+      "OT 1:52 to OT 1:14: the opponent's Skeletons are the target of Ryley's Mother Witch curse — he first hopes for them ('maybe even grab a set of skellies if we're lucky', t=185) and praises the opponent for holding them ('Doesn't go for the skellies, which is smart by him', t=187), then gets them at t=222-225 ('We grabbed the skellies. E-Barbs are on the tower'), which is the swing that wins the match."
+    ],
+    "rune-giant": [
+      "clock 1:39: mentioned only, never played by either side — when listing what he thinks is missing from Royal API's eight highest-ranked cards he says 'there is a few cards that I do think are missing. Maybe like the Rune Giant' (t=72-75)."
+    ],
+    "tombstone": [
+      "clock 1:37: mentioned only, never played — the second card he thinks the top-eight ranking is missing, 'maybe like the hero Tombstone or something like that' (t=75-77)."
+    ],
+    "electro-spirit": [
+      "clock 0:25: mentioned only, never seen on the field — he places a Barbarian Barrel as a possible pre-emptive answer, 'Maybe I could predict the Electro Spirit' (t=151)."
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-battle-ram-cannon-cart-elite-barbarians-goblinstein-heal-spirit-mother-witch-zap",
+    "cards": ["barbarian-barrel", "battle-ram", "cannon-cart", "elite-barbarians", "goblinstein", "heal-spirit", "mother-witch", "zap"],
+    "bullets": [
+      "Game 1 of a single-deck session built from an external ranking, not from synergy: 'I asked Royal API what the eight highest ranked cards right now are in Clash Royale, and I have gotten a deck of these eight cards' (t=9-20), with the stated caveat 'just because they're all really good doesn't mean they actually work in a proper deck together' (t=31-36).",
+      "Ryley classifies the result himself at t=88-91: 'this looks like a very real bridge spam deck. So it does kind of go to show that bridge spam is really strong in the game right now.' He pilots it that way — Battle Ram, Elite Barbarians, Goblinstein and Cannon Cart at or past the bridge, with Heal Spirit and Barbarian Barrel as the cheap add-ons; there is no back-line tank push in the whole game.",
+      "The deck has no building, so the opponent's Hog Rider connects twice (right tower 4858 -> 2345 by OT 1:28); his substitute is a Cannon Cart placed in front of the King Tower when he expects the Hog (t=171).",
+      "Against Bomb Tower + Evo Knight + Evo Firecracker he calls the matchup close to unwinnable (t=106-118) and reduces the plan to one card: 'literally the only possible way to win this is just based off of a really good set of Evo E-Barbs' (t=192-196).",
+      "The winning pattern is Mother Witch curse plus bridge Evo Elite Barbarians in overtime: Cursed Hogs off the opponent's Skeletons at t=222 while the E-Barbs are on the tower takes the enemy right tower 4603 -> 1700 (t=222-230), and a Cannon Cart / Heal Spirit / Zap finish drops it to 174 HP by t=260 — 'What a win, bro. We were even able to beat the hard counter' (t=261-264).",
+      "Elixir shape in this game: 8 Cannon Cart deployments, 6 Goblinstein, 6 Heal Spirit, 5 Mother Witch, 5 Barbarian Barrel, 5 Battle Ram, 4 Zap, 3 Elite Barbarians — the 5-cost pair (Cannon Cart, Goblinstein) carries both defence and offence, and the two 1-2 cost cards exist to keep those pushes alive."
+    ],
+    "new_deck": {
+      "display_name": "Best 8 Cards Bridge Spam (Ryley)",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "none",
+      "rationale": "Every win-condition card (Battle Ram, Evo Elite Barbarians, Goblinstein, Cannon Cart) is dropped at or past the bridge to force an immediate answer, with no tank-behind-the-tower push at any point; Ryley calls it 'a very real bridge spam deck' himself (t=88).",
+      "why_it_works_md": "The eight cards were chosen by Royal API usage/win-rate ranking rather than by synergy, but they land on a coherent bridge-spam shell: three threats that demand an answer the moment they touch the bridge (Battle Ram, Evo Elite Barbarians, Goblinstein), a Cannon Cart that doubles as the deck's only real defensive anchor, and four cheap cards (Barbarian Barrel, Zap, Heal Spirit, Mother Witch) that keep a committed push alive instead of building a new one. Mother Witch is the piece that makes the shell more than a pile of good cards: her curse turns the cheap swarm defenders that bridge spam normally gets stonewalled by into Cursed Hogs, which is exactly how this game is won. The weakness is equally clear — with no building and no big spell, a Hog Rider connects freely and a Bomb Tower plus Evo Knight plus Evo Firecracker defence blanks every ground push, which is why Ryley spends most of regulation behind on damage."
+    }
+  }
+}

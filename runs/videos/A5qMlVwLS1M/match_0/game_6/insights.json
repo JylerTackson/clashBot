@@ -1,0 +1,85 @@
+{
+  "key": "A5qMlVwLS1M-m0.6",
+  "match_file": "matches/A5qMlVwLS1M-m0.6.md",
+  "video_title": "Playing the 8 BEST Cards in a SINGLE Deck",
+  "cards": {
+    "elite-barbarians": [
+      "clock 2:22 (t=1340): dropped in the back at tile (7,0) at 9 elixir against a Royal Giant deck — \"Okay, yeah, he definitely has RG. Let's just go for the Earbs here in the back. He might go for the RG at the bridge opposite lane to be honest, but I'm fine with that\"",
+      "clock 1:33-1:23 (t=1385-1400): names them as the only win condition in a bad matchup — \"We just need to really, really abuse the Evo Ebarbs. The defense is just really easy for him... But if we just get one good sequence with the Earbs, we have a chance to win\"",
+      "clock 1:10 (t=1411.9): Evo Elite Barbarians at the bridge, tile (14,15), with Heal Spirit on top — \"Let's go for the evo Ebs here. We can go for the heal spirit as well\"; the enemy right tower starts falling ten seconds later",
+      "clock 0:03 (t=1481): Evo Elite Barbarians in the top lane specifically to kill the opponent's Hero Berserker — \"I'm going to evo Ebarbs up top cuz I'm going to snipe the Berserker\"; earlier he notes Ebarbs at the bridge also deny the Royal Giant (t=1440)"
+    ],
+    "heal-spirit": [
+      "clock 2:14 (t=1348.2): dropped at tile (1,13) onto the enemy Royal Ghost while his own Elite Barbarians push the same lane — \"we can go for the heal spirit on top of this Royal Ghost just to heal up our Ebarbs\"",
+      "clock 1:10 (t=1412.7): played on the same tile (14,15) as the bridge Elite Barbarians one second after them — \"Let's go for the evo Ebs here. We can go for the heal spirit as well\"",
+      "clock 0:21 (t=1461.5): at tile (14,13), timed on the opponent's commitment — \"I put it right as he dropped the fisherman. So now we can't really block for the fisherman so we can get a free counter on that heal spirit\"",
+      "overtime (t=1490.5): at tile (16,13) behind the Mother Witch / Goblinstein push — \"Heal spirit at the bridge. Yo, he's in a lot of trouble\""
+    ],
+    "cannon-cart": [
+      "clock 2:17 (t=1345): played on defence at tile (10,9) against the Royal Giant push — \"We'll just go for the cannon cart here on defense\"",
+      "clock 0:47-0:43 (t=1435.4-1438): a second Cannon Cart at (9,0) once the opponent had burned Hunter — \"that was a bad hunter though cuz now after using that hunter that's just a free cannon cart and he can't even go for the RG because I have Ebarbs at the bridge on it\"",
+      "clock 0:15 (t=1467.5): placed centrally at tile (9,5) rather than in a lane — \"we can just go for another cannon cart. I'm going to put in front of the king tower, though, in case he tries to time it with an RG at the bridge\""
+    ],
+    "battle-ram": [
+      "clock 2:47 (t=1315.0): opening Battle Ram in the right lane at tile (14,11) from 10 elixir, before he had confirmed the opponent's deck",
+      "clock 2:02 (t=1360.4): Battle Ram at the bridge in tile (13,13), the lane opposite the Royal Giant — \"I'm going to go for a battle ram at the bridge in the opposite lane... He's going to go for a hunter, which is fine\"",
+      "overtime (t=1496-1502): a deliberately delayed ram placed further back to dodge Fireball, with Barbarian Barrel in front — \"we can maybe do a delayed ram. Let's ram a little bit back so we can't fireball immediately. And we're going to barbarian barrel at the bridge, too. Maybe could tank for the battle ram\"; it connects at t=1505 for the win"
+    ],
+    "barbarian-barrel": [
+      "clock 2:37-2:28 (t=1326.3-1333.8): played in the middle of his own half (tile (9,4)) against the incoming Hunter — \"Let's go for the barbarian barrel here in the middle\"",
+      "clock 1:46 (t=1375.4): a placement he immediately criticises at tile (14,10) — \"Wait, what the heck? We have a barrel. Um, okay. I don't like that play. It's going to get one swipe on the tower, but that's not too bad in this matchup\"; the right tower loses 310 HP at t=1381",
+      "clock 0:53 (t=1429.4): at tile (13,15) to clear support in front of his push — \"low-key barb barrel here, too. And then we could maybe go in for a stein\"",
+      "overtime (t=1497.5): at the bridge, tile (14,15), as a 2-elixir tank for the delayed Battle Ram — \"we're going to barbarian barrel at the bridge, too. Maybe could tank for the battle ram\""
+    ],
+    "zap": [
+      "clock 2:28 (t=1333.3): early Zap at tile (2,11) while still reading the deck — \"Let's just go for the Zap here, but I'm still need to figure it out though\"",
+      "clock 1:55 (t=1367.4): Zap on the enemy side at (12,20) onto the Fisherman/Hunter support — \"Just zap here. Hopefully, we can take this all out\"",
+      "clock 0:53 (t=1429.6): used purely as a retarget tool onto a Mother Witch Cursed Hog — \"I'm going to zap here to retarget that to the piggy\"",
+      "overtime (t=1492.5): Zap at (12,15) to finish a damaged defender before the ram goes in — \"Let's zap here to take this out. That's dead\""
+    ],
+    "mother-witch": [
+      "clock 1:07 (t=1416.4): played on his own half at tile (9,13) behind the Elite Barbarians push — \"low key, I think I want to go for the mother witch [plus] heal spirit. Nice\"",
+      "clock 0:28 (t=1454): explicitly held back rather than played on sight — \"let's go for the mother witch here too low key. I want to do it late though\"",
+      "clock 0:05 (t=1478-1480): chosen as the Fireball-proof follow-up — \"He could go for a good fireball, which is fine cuz he won't be able to take out the mother witch\"",
+      "clock 0:53 (t=1424): her Cursed Hogs become a Zap retarget target — \"I'm going to zap here to retarget that to the piggy\""
+    ],
+    "goblinstein": [
+      "clock 0:37 (t=1444-1450): Champion brought in as a blocker in front of the Cannon Cart and as the setup for the next Ebarbs cycle — \"I'm going to go for the Goblin Stein like this. I think I want to block for the cannon cart and then we can go for Earbs with the scientist cuz I do want to get to the EVO Earbs again\"",
+      "clock 0:08 (t=1473.5): deployed at tile (13,8) after being held as insurance against a bridge Royal Giant — \"We have Goblin Stein ready here just to be safe. Okay, let's go for the Stein here anyways\""
+    ],
+    "royal-giant": [
+      "clock 2:33-2:25 (t=1330-1338): identified from the opponent's play pattern before committing — \"I'm not still not 100% sure if he has RG, but it really does look like he has that\", then \"Okay, yeah, he definitely has RG\"; the Royal Giant is tracked at (14,10) from t=1348 and takes his right tower from 4858 to 2588 HP",
+      "clock 0:43 and 0:15 (t=1440, t=1467-1471): he plays around a bridge Royal Giant rather than reacting to it — \"he can't even go for the RG because I have Ebarbs at the bridge on it\" and \"I'm going to put [the cannon cart] in front of the king tower, though, in case he tries to time it with an RG at the bridge\""
+    ],
+    "hunter": [
+      "clock 2:35 (t=1325.3): opponent's Hunter walks in at tile (13,17); Ryley answers with Barbarian Barrel in the middle and Zap (t=1328-1333)",
+      "clock 0:47-0:43 (t=1436-1442): calls spending Hunter on defence a mistake — \"that was a bad hunter though cuz now after using that hunter that's just a free cannon cart\""
+    ],
+    "fisherman": [
+      "clock 2:11 (t=1353): predicted as the Royal Giant support before it appears — \"he's definitely going to go for the fisherman plus skeletons\"; the Fisherman is tracked at (10,19) at t=1361.4",
+      "clock 0:23-0:21 (t=1457-1463): plays the Heal Spirit on the Fisherman's commitment frame — \"I put it right as he dropped the fisherman. So now we can't really block for the fisherman so we can get a free counter on that heal spirit\""
+    ],
+    "berserker": [
+      "clock 1:33 (t=1387-1389): mentioned as the reason the matchup is hard — \"The defense is just really easy for him. And because he has hero Berserker, I don't really think that we're going to be able to do much\" (Hero Berserker, opponent's card; not played by Ryley)",
+      "clock 1:17-1:13 (t=1406-1410): flags the opponent wasting it as his opening — \"He did waste his Berserker, though. I don't really know about wasting the berserker like that. He's probably going to pop the ability, isn't he?\", and at t=1481 he sends Evo Elite Barbarians up top to \"snipe the Berserker\""
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-battle-ram-cannon-cart-elite-barbarians-goblinstein-heal-spirit-mother-witch-zap",
+    "cards": ["barbarian-barrel", "battle-ram", "cannon-cart", "elite-barbarians", "goblinstein", "heal-spirit", "mother-witch", "zap"],
+    "bullets": [
+      "Game 7 of 7 of the \"8 BEST Cards in a SINGLE Deck\" video (video t=1311-1514), a win over a Royal Giant / Hunter / Fisherman / Hero Berserker deck; Ryley labels the deck himself at the end — \"Good game. Nice win. We played that super well, man. This bridge spam gameplay is beautiful\" (t=1507-1512)",
+      "Defence is Cannon Cart plus a cheap spell: Cannon Cart on the Royal Giant (t=1345, t=1435.4, t=1467.5), Barbarian Barrel in the middle on the Hunter (t=1326), Zap on the support (t=1333, t=1367.4). At t=1467.5 the Cannon Cart goes centrally in front of the King Tower to cover a bridge Royal Giant in either lane",
+      "Offence is Evo Elite Barbarians at the bridge with Heal Spirit on top (t=1411.9 / t=1412.7) and Mother Witch behind (t=1416.4) — \"if we just get one good sequence with the Earbs, we have a chance to win\" (t=1398); the enemy right tower falls from 4858 to ~1300 HP from t=1422 onward",
+      "The Battle Ram is the opposite-lane punish while the Royal Giant is committed (t=1360.4, \"battle ram at the bridge in the opposite lane\"), and in overtime it is delayed out of Fireball range with a Barbarian Barrel tanking in front (t=1496-1502)",
+      "Goblinstein, being a Champion, sits out of cycle as insurance and then joins as a blocker for the Cannon Cart before the next Ebarbs cycle (t=1444-1450, t=1473.5)"
+    ],
+    "new_deck": {
+      "display_name": "Elite Barbarians Ryley",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "none",
+      "rationale": "Battle Ram and Evo Elite Barbarians are dropped at the bridge the moment the opponent commits, with cheap Barbarian Barrel/Zap/Heal Spirit support rather than a tank-behind-king build-up; Ryley calls it \"bridge spam gameplay\" himself (t=1512).",
+      "why_it_works_md": "The deck answers a Royal Giant push with a single 5-elixir card (Cannon Cart) plus a 2-elixir spell, which leaves elixir over for an immediate bridge counter-push in the other lane. Evo Elite Barbarians are the win condition — Ryley plays the whole match around getting \"one good sequence with the Earbs\" (t=1398) — and Heal Spirit doubles as chip damage and a heal on that push, so a single 1-elixir card can swing a defence into an offence. Mother Witch behind the push is deliberately delayed so she survives the opponent's Fireball, and her Cursed Hogs can be steered with Zap. Goblinstein, as a Champion, stays out of the cycle as an emergency blocker and a tank for the Cannon Cart, which keeps the 4-card cycle fast enough to return to the Elite Barbarians."
+    }
+  }
+}

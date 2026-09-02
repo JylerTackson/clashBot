@@ -1,0 +1,96 @@
+{
+  "key": "A5qMlVwLS1M-m0.4",
+  "match_file": "matches/A5qMlVwLS1M-m0.4.md",
+  "video_title": "Playing the 8 BEST Cards in a SINGLE Deck",
+  "cards": {
+    "heal-spirit": [
+      "clock 2:50 (t=916.2): opened the game with Heal Spirit at [9, 0] behind the King Tower purely to cycle — \"I'm going to start off with the heal spirit here in the back just because I want to get to my ram\".",
+      "clock 2:05 (t=960.3): Heal Spirit at [5, 7] on defence against a Rascals girl the tracker had reaching the tower in ~4 s — \"It's going to heal Spirit on defense and then we can go for a cannon cart in the middle here\".",
+      "clock 0:50 (t=1036.0) and overtime 1:50 (t=1095.1): dropped Heal Spirit at [16, 13] and [14, 14] alongside the Battle Ram both times — \"this is just guaranteed to get a connection cuz the heal spirit just has so low HP that you're always guaranteed to grab that\".",
+      "clock 1:21 (t=1003-1007): a Heal Spirit he did not mean to place turned into defensive value — \"I did not mean to do that, but that was actually so satisfying... imagine that with like an ice spirit. He could counter a skelly barrel super well\"."
+    ],
+    "battle-ram": [
+      "clock 2:44 (t=921.8): first play across the river, Battle Ram at the bridge tile [15, 14] for 4 elixir off a full bar — \"I'm just going to go for the ram at the bridge here\".",
+      "clock 1:52 (t=973.0): used defensively on his own half at [14, 5] to body-block for the Mother Witch — \"Wait, could we battle ramp here to block for the mother witch, please? Oh, the mother witch died anyway\".",
+      "clock 0:52 (t=1034): sent in behind Goblinstein as the paired push he had been saving for — \"We just need to get a good Goblin Stein plus battle ram push and we're solid\" (t=1025-1026).",
+      "overtime 1:52 (t=1093.1): the game-turning play, Battle Ram at [15, 14] into the lane the opponent had not defended — \"I'm going to battle him opposite lane here because he has to watch out... He was hoping I would ram him on the other side\"; it connected for roughly 600 damage (enemy right tower 1951 -> 1339)."
+    ],
+    "barbarian-barrel": [
+      "clock 2:42 (t=923.9): Barbarian Barrel at [14, 7] to kill an incoming Skeleton Barrel — \"we can go for the barbarian barrel on defense just to take out the skelly barrel\".",
+      "clock 1:30 (t=995.0): Barbarian Barrel at [3, 5] into the left-lane Dart Goblin push after deliberately waiting — \"I just don't want to get caught slipping. Let's barbarian barrel here\".",
+      "clock 0:32 (t=1054.2) and overtime 1:37 (t=1108.1 at [14, 11]): both times used to clear Rascals instantly — \"we can barbarian barrel here as well just to get that off the board instantly. Ooh, that was smart\" and \"lowkey going to Barbarian Barrel on this too... just to get the rascal off the board\".",
+      "clock 0:10 (t=1077.1): held it for the second Skeleton Barrel coming up the left, at [4, 6] — \"I will barbarian barrel if need be\"."
+    ],
+    "elite-barbarians": [
+      "clock 2:22 (t=944.3): Elite Barbarians at [13, 12] answering the Skeleton King, elixir 9->3; the counter-push landed two tower hits (enemy right 4625 -> 3632 by t=960) — \"These Ebs are still a threat that will get two shots on the tower\".",
+      "clock 2:20 (t=947-951): states the restraint rule against bait decks — \"I am worried about how much bait he has. I might not be able to use my Earbs too often here\".",
+      "clock 0:44 (t=1042.0): Elite Barbarians at the bridge [14, 12] specifically to eat the Rascals — \"Let's go for the ebarbs evo at the bridge as well cuz we can take out the rascals with these\".",
+      "clock 0:20 (t=1066.1) and overtime 1:47 (t=1104.1 at [14, 1]): used on defence at [9, 8] and then cycled in the back — \"Hopefully that Earb can come back and save our day\"; he is chasing the Evolution all game (\"get to my EVO as soon as possible\", t=942)."
+    ],
+    "cannon-cart": [
+      "clock 2:02 (t=964.0): Cannon Cart at [8, 5], centre of his own half so it covers both lanes — \"then we can go for a cannon cart in the middle here\"; at t=984 he notes it rolling forward, \"The canon cart will connect. Nice\".",
+      "clock 1:02 (t=1023.7): Cannon Cart at [9, 8] for 5 elixir as the defensive body before the big push — \"let's go for the cannon cart here. We just need to get a good Goblin Stein plus battle ram push and we're solid\".",
+      "clock 0:03 (t=1084.1): third Cannon Cart at [8, 9] paired with the left-lane Goblinstein — \"We can go for a cannon cart here in the middle as well\"."
+    ],
+    "goblinstein": [
+      "clock 0:54 (t=1032.0): Goblinstein at [13, 13] with the Battle Ram behind it — the combination he names twice as the deck's plan, \"a good Goblin Stein plus battle ram push and we're solid\" (t=1025-1026).",
+      "clock 0:05 (t=1082.0): Goblinstein at [2, 13] in the left lane, with the ability earmarked for the opponent's Cannon — \"Think the ability is worth it just to get the cannon off of the board just to clear away for our battle ram\" (t=1087-1091).",
+      "overtime 1:22 (t=1124.1): Goblinstein at the bridge [15, 15] to close the game — \"Nice stein at the bridge here. We have a connection. Zap. Good game. Let's go\"."
+    ],
+    "mother-witch": [
+      "clock 1:56 (t=969.8): Mother Witch placed wide rather than in the push — \"Let's go for the mother witch here off to the side\"; she died to the Skeleton Barrel despite a Battle Ram sent to block for her (\"Oh, the mother witch died anyway. That's so unfortunate\", t=976-978).",
+      "clock 1:26 (t=1000.0): Mother Witch at [12, 4] behind the defence — \"we can go for the mother witch as well just to try to help out on some of these\".",
+      "clock 1:32 (t=1113.1): third Mother Witch at [11, 8] during the overtime defence against Rascals.",
+      "clock 2:28 (t=937): counts her as part of what makes the list good into bait — \"We have a decently quick cycle with the mother witch, the heal spear [Heal Spirit], and the double small spells\"."
+    ],
+    "zap": [
+      "clock 1:44 (t=981.0): Zap at [3, 17] across the river to clear the enemy defence — \"Just zap here to take that off the board. The canon cart will connect. Nice\".",
+      "clock 0:37 (t=1048.9): Zap on the Rascals in front of his push — \"That's just going to start throwing out the rascals with zap\".",
+      "clock 2:28 (t=935-938): names Zap and Barbarian Barrel as the \"double small spells\" that make the deck \"really solid against bait\"; he calls one last Zap on the winning connection at t=1127."
+    ],
+    "skeleton-king": [
+      "clock 2:25 (t=938.9): opponent's Skeleton King crossed at [14, 15]; Ryley answered with Elite Barbarians at [13, 12] rather than a spell, and the counter-push took two tower shots (t=957-960)."
+    ],
+    "rascals": [
+      "clock 0:44-0:32 (t=1035-1054): the opponent's Rascals were the recurring push, and Ryley's stock answer was small spells plus Elite Barbarians — \"That's just going to start throwing out the rascals with zap and we can barbarian barrel here as well just to get that off the board instantly\".",
+      "clock 1:37 (t=990) and 0:54 (t=1031): he judges the opponent's Rascals placements poor — \"I do have to be careful though of just a set of rascals at the bridge\", then \"Oh, that was a bad set of rascals\" before punishing it with the bridge push."
+    ],
+    "dart-goblin": [
+      "clock 1:30 (t=992-996): chose to ignore the Dart Goblin rather than over-commit — \"I'm just going to let that dark goblin go and wait, see what he wants to do cuz I just don't want to get caught slipping\" — then Barbarian Barrelled it at [3, 5].",
+      "clock 0:28 (t=1056-1058): names it as the reason his offence stalled — \"Dude, we just don't have ways to kill the dark goblin\"; at t=1119-1121 the opponent misses one and Ryley calls the game, \"Wait, he missed his dark goblin. Yo, he's cooked\"."
+    ],
+    "cannon": [
+      "clock 0:22 (t=1064-1068): seeing the opponent's Cannon changed his read of the matchup — \"this is not going to be as nice of a match up as I thought, though, now that I see that he has a cannon\"; he then planned the Goblinstein ability around it (t=1087-1091) and closed the game with \"still definitely a good match up, but not as good as if he didn't have a cannon\" (t=1131-1133)."
+    ],
+    "skeleton-barrel": [
+      "clock 2:42 (t=923.9): the opponent's opening Skeleton Barrel is what let Ryley read the deck — \"go for the barbarian barrel on defense just to take out the skelly barrel. Looks like a bait deck\".",
+      "clock 1:21 (t=1019-1021): after an accidental Heal Spirit interaction he notes a counter he wants to practise — \"imagine that with like an ice spirit. He could counter a skelly barrel super well\"."
+    ],
+    "earthquake": [
+      "clock 0:55-0:15 (t=1029.0, t=1057.1, t=1069.1): the opponent's Earthquakes plus unattributed spell hits did most of his tower damage (own right tower took 306+260+617 at t=1003-1005, own left 818 at t=1057.1) while Ryley kept spending on the bridge instead of answering the chip."
+    ],
+    "vines": [
+      "mentioned but never captured on video: Ryley expects Vines from this opponent three times — \"He might have to go for like a set of vines or something\" (t=972), \"He might go for a vines again\" (t=1075), and \"Nice bad vines by him\" after the overtime ram connected (t=1095)."
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-battle-ram-cannon-cart-elite-barbarians-goblinstein-heal-spirit-mother-witch-zap",
+    "cards": ["barbarian-barrel", "battle-ram", "cannon-cart", "elite-barbarians", "goblinstein", "heal-spirit", "mother-witch", "zap"],
+    "bullets": [
+      "Game 5 of 7 of the single-deck session (video 915.1s-1135.1s), won in overtime against a Skeleton King / Rascals / Skeleton Barrel bait deck.",
+      "Stated matchup plan at t=931-937: \"I feel like our deck here will actually be really solid against bait. We have a decently quick cycle with the mother witch, the heal spear [Heal Spirit], and the double small spells.\"",
+      "Standard opening: 1-elixir Heal Spirit in the back to cycle (t=916.2, [9, 0]) then Battle Ram at the bridge the moment it comes up (t=921.8, [15, 14]).",
+      "The deck's named combination is Goblinstein plus Battle Ram, played at t=1032-1034 and again with Cannon Cart support at t=1082-1084 — \"We just need to get a good Goblin Stein plus battle ram push and we're solid\" (t=1025-1026).",
+      "Defence is deliberately cheap: Barbarian Barrel and Zap on every swarm or Skeleton Barrel (t=923.9, 981.0, 995.0, 1048.9, 1054.2, 1077.1, 1108.1), with Cannon Cart as the only building-ish body (t=964.0, 1023.7, 1084.1).",
+      "Elite Barbarians are rationed against bait — \"I am worried about how much bait he has. I might not be able to use my Earbs too often here\" (t=947-951) — but he still uses them at the bridge to clear Rascals (t=1042.0).",
+      "Weakness exposed: no reliable answer to a Dart Goblin behind a Cannon — \"Dude, we just don't have ways to kill the dark goblin\" (t=1056-1058) and \"not as good as if he didn't have a cannon\" (t=1131-1133). The win came from switching the Battle Ram to the undefended lane in overtime (t=1093.1) and a bridge Goblinstein (t=1124.1)."
+    ],
+    "new_deck": {
+      "display_name": "Goblinstein Battle Ram Bridge Spam (Ryley)",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "none",
+      "rationale": "Every offensive play is a fast threat dropped at the bridge — Battle Ram, Elite Barbarians and Goblinstein — while the rest of the deck defends cheaply and cycles back to them.",
+      "why_it_works_md": "The deck pairs three bridge threats (Battle Ram, Elite Barbarians, Goblinstein) with a defence that costs almost nothing: Barbarian Barrel and Zap answer the swarms and Skeleton Barrels, Cannon Cart holds the middle and then rolls forward as a second wave, and a 1-elixir Heal Spirit both cycles to the win condition and rides along with the ram. Ryley's own summary of why it beats bait is \"a decently quick cycle with the mother witch, the heal spear, and the double small spells\" (t=931-937). The signature push is Goblinstein in front of Battle Ram with a Heal Spirit on top — \"this is just guaranteed to get a connection cuz the heal spirit just has so low HP that you're always guaranteed to grab that\" (t=1038-1042). It struggles when the opponent has both a building and a ranged sniper: a Cannon plus Dart Goblin stalled the push for most of this game until he switched the ram to the opposite lane in overtime."
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+ "frames": 9051,
+ "seconds": 4603.6,
+ "timing": {
+  "total": {
+   "n": 9051,
+   "mean_ms": 497.1,
+   "p95_ms": 2369.5
+  },
+  "elixir": {
+   "n": 9045,
+   "mean_ms": 1.8,
+   "p95_ms": 2.5
+  },
+  "hand": {
+   "n": 9045,
+   "mean_ms": 192.3,
+   "p95_ms": 250.6
+  },
+  "clock": {
+   "n": 9045,
+   "mean_ms": 96.2,
+   "p95_ms": 565.0
+  },
+  "labels": {
+   "n": 1507,
+   "mean_ms": 573.3,
+   "p95_ms": 767.6
+  },
+  "detect": {
+   "n": 754,
+   "mean_ms": 1174.1,
+   "p95_ms": 1510.3
+  },
+  "loop_fps": 2.0
+ },
+ "own_elixir_drift": {
+  "n": 1165,
+  "mean": 0.264,
+  "abs_mean": 0.994,
+  "max_abs": 9.681,
+  "last": 0.238
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "hunter",
+   "fisherman",
+   "mother-witch",
+   "electro-spirit",
+   "goblinstein",
+   "earthquake",
+   "royal-ghost",
+   "witch"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "mother-witch",
+   "electro-spirit",
+   "hunter",
+   "earthquake"
+  ],
+  "predicted_next": "goblinstein",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "barbarian-barrel-electro-spirit-fireball-fisherman-hunter-royal-ghost-royal-giant-skeletons",
+    "name": "EvoRG FishBoy Hunter 3.0 Cycle",
+    "archetype": "cycle",
+    "matched": 4,
+    "contradicted": 4,
+    "score": -3.97,
+    "remaining": [
+     "barbarian-barrel",
+     "fireball",
+     "royal-giant",
+     "skeletons"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies",
+    "name": "GS Evo Ram HeroWiz MW",
+    "archetype": "bridge-spam",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.96,
+    "remaining": [
+     "barbarian-barrel",
+     "battle-ram",
+     "giant-skeleton",
+     "vines",
+     "wizard",
+     "zappies"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-electro-spirit-goblin-hut-ice-wizard-lightning-royal-ghost-royal-hogs-skeletons",
+    "name": "Hero IWiz EvoRHogs GobHut",
+    "archetype": "cycle",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "lightning",
+     "royal-hogs",
+     "skeletons"
+    ]
+   }
+  ],
+  "cycle_confirmed": 0,
+  "cycle_violations": 4
+ }
+}

@@ -1,0 +1,96 @@
+{
+  "key": "A5qMlVwLS1M-m0.5",
+  "match_file": "matches/A5qMlVwLS1M-m0.5.md",
+  "video_title": "Playing the 8 BEST Cards in a SINGLE Deck",
+  "cards": {
+    "barbarian-barrel": [
+      "clock 2:35 at tile (14, 9) and clock 2:00 at tile (11, 7) (both HUD-confirmed 2-Elixir drops with agreeing deploy labels), plus clock 0:19 at tile (10, 13): every Barbarian Barrel this game is defensive, rolled into something already walking on his own half, never at the bridge for chip.",
+      "clock 2:00: he plays it partly as a spell magnet to protect the more expensive card behind it - \"We can barb here. Probably has to fireball and then we can just keep this mother witch alive which is very nice.\"",
+      "The deploy labels read plain 'BaRbaRiaN BaRRel' and every 1-Elixir own drop came with a hand-slot change, so no Hero 'Rowdy Reroll' activation is evidenced in this game."
+    ],
+    "elite-barbarians": [
+      "clock 2:29 at tile (2, 1), the back-left corner rather than the bridge, and he says exactly why: \"I can't go at the bridge cuz then he could kite with the ice golem. I just have to make sure that I'm putting them in the back here.\"",
+      "clock 1:30 at tile (3, 13), left lane at the bridge, once he had decided to race a Balloon cycle deck he could not out-defend - \"Loki, I'm going to evo Ebarbs at the bridge anyway ... I just need to be really aggressive right now\" - with a Heal Spirit dropped on top two seconds later.",
+      "clock 0:45 at tile (3, 5) as a pure defensive body onto a ground unit the threat list had at 0.3 s from his tower - \"Let's just go for the ebarbs here.\"",
+      "clock 0:08-0:07: the last pair is the one he needs to close the game and it does not connect - \"Maybe the Earbs could throw on the tower. Or wait, hold on. The Earb. The Eb. The Earb. Ah, rip. GG's, man.\" He also wanted them as the escort for his Mother Witch earlier: \"I would love to get a set of ebarbs in front of this mother witch which would actually be so good for us.\""
+    ],
+    "mother-witch": [
+      "clock 2:31 at tile (9, 0) behind his own king tower as the opening investment, then clock 2:02 at tile (9, 10) in the centre of his half paired with an opposite-lane Battle Ram.",
+      "clock 1:12 at tile (8, 4) (HUD 8 -> 4 plus deploy label) placed specifically against the opponent's Mega Minion, and positioned so the Mega Minion's ability is a losing option - \"the mother witch on the mega minion, but I want to do it to where like if he pops the ability, it just wouldn't be a good play.\"",
+      "clock 0:42 at tile (7, 11) as offensive support, committed knowingly into a Fireball - \"we need to go for a mother witch up top as well. I know he's probably going to fireball, but it's all right. I think even if he fireballs.\"",
+      "He treats keeping her alive as the plan rather than a side effect: \"we can just keep this mother witch alive which is very nice\" (clock 1:51)."
+    ],
+    "battle-ram": [
+      "clock 2:02 at tile (2, 13), left lane at the bridge, sent alongside a Mother Witch in the other lane so the opponent has to split - \"we can go for the battle [ram] at the bridge with it as well because he has to be careful here to not let that battle [ram] get too much damage.\"",
+      "clock 1:01 at tile (14, 15), right lane at the bridge, deliberately in the lane opposite his Goblinstein push - \"Look I'm going to evo ram opposite lane. I just need to apply a lot of pressure right now.\" The enemy left tower steps 3023 -> 2159 HP over the next six seconds.",
+      "He books the ram as value even when it is answered by two spells: \"he went for the fireball too. We could get a little bit of connection. Oh, he zapped. All right, that's fine. I'll take that. He's forcing out all the elixir which is not bad.\"",
+      "clock 0:20 at tile (9, 11) (HUD 5 -> 1 plus deploy label) in the final aggression window - \"Let's just go for the ram here.\""
+    ],
+    "goblinstein": [
+      "clock 2:20, deploy label at tile (14, 9) in the right lane, timed off an Elixir read rather than a defence - \"We can just go for a goblin[stein] at the bridge here. He has no DPS in cycle.\"",
+      "clock 1:05, deploy label at tile (2, 13) at the left bridge, played explicitly as a two-spell bait - \"I'm going to [Goblin]ste[in] the bridge too to be honest cuz if he goes for the inferno dragon you have to fireball zap as well.\"",
+      "Both uses are offensive; he never used it as a defensive wall in this game, and no Lightning Link ability activation was captured."
+    ],
+    "cannon-cart": [
+      "clock 2:07, deploy label at tile (9, 4) in the centre of his own half against an Ice Golem plus the Evo Inferno Dragon coming down the right lane - \"I'll just go for the cannon cart here.\" It is the only real ground anchor in a deck he has just called light on air defence.",
+      "clock 0:43 at tile (9, 8) (HUD 6 -> 1 plus deploy label), placed pre-emptively rather than on top of a push, and he narrates the placement as a prediction - \"I want to put it like this cuz I think he might go in. Yep, he went for the l[og].\""
+    ],
+    "heal-spirit": [
+      "clock 1:28 at tile (3, 14), dropped straight onto the Elite Barbarians he had just sent at the bridge - \"I'm going to go for the heal spirit, too, because I just need to be really aggressive right now.\"",
+      "clock 2:37 at tile (9, 5) and clock 0:22 at tile (14, 9): the standard cheap cycle-and-repair drop in front of his own tower.",
+      "clock 0:11 to 0:07: three separate 1-Elixir Heal Spirit plays in eleven seconds while he cycles for one last Elite Barbarians - the card doubles as his cheapest cycle filler at the end of a game."
+    ],
+    "zap": [
+      "clock 0:38 (HUD 3 -> 1) and clock 0:33 at tile (1, 6) in his left lane, held all game and spent on the Balloon that had reached (3, 8) - \"Okay, we have to zap here just to not lose our tower.\" It was not enough: the left tower slot reports king-tower HP three seconds later.",
+      "clock 1:05: he names Zap as half of the mandatory answer to a Goblinstein at the bridge, which is why he sends one - \"if he goes for the inferno dragon you have to fireball zap as well.\""
+    ],
+    "inferno-dragon": [
+      "Opponent's card (Evolved), tracked from tile (16, 23) at clock 2:26 walking his whole right lane. It is the card Ryley plans the entire match around: \"We have to watch out for his EVO Inferno Dragon. He cycled to the EVO Inferno so early\" (clock 1:34-1:32).",
+      "clock 0:28: he states the cost of it simply sitting in the opponent's hand - \"because he has that Evo Inferno Dragon just lingering the whole time, we have to be so cautious, man\" - and at clock 0:17, \"just the low inferno dragon, man. It's so difficult to deal with.\"",
+      "clock 2:04: he calls out a misplaced one as a free window - \"Ooh, that was a bad inferno dragon\" - and immediately puts a Cannon Cart down."
+    ],
+    "balloon": [
+      "Opponent's win condition. Ryley flags the archetype before the first play - \"this guy is one of the best balloon cycle players in Clash Royale\" (clock 2:48) - and connects the deck's problem to it: \"we don't really have that much air defense in these types of games.\"",
+      "clock 0:33-0:31: tracked at tiles (3, 8) then (3, 7) in his left lane; his answer is Zap alone (\"we have to zap here just to not lose our tower\") and his left tower HP slot jumps to a king-tower value at clock 0:31, i.e. the Princess Tower fell.",
+      "clock 0:03: his summary of the loss names it first - \"I feel like this just balloon fireball with the cage. It's just so impossible to break through.\""
+    ],
+    "goblin-cage": [
+      "Opponent's card, placed on their own half three times ((9, 19) at clock 2:43, (8, 20) at 0:57, (8, 19) at 0:15). Ryley's first read is on its evolution state: \"His Goblin Cage didn't look to be evolved there.\"",
+      "clock 0:03: he names the Cage plus Fireball as the combination that stopped every push he made - \"this just balloon fireball with the cage. It's just so impossible to break through, man.\""
+    ],
+    "ice-golem": [
+      "Opponent's card, and the direct reason his first Elite Barbarians go in the back corner instead of at the bridge at clock 2:29 - \"I can't go at the bridge cuz then he could kite with the ice golem.\"",
+      "clock 1:24: a mistimed kite is what opens his counterattack - \"He messed up his ice golem kite, though. That's going to get a decent amount of damage or force out more elixir.\""
+    ],
+    "mega-minion": [
+      "Opponent's card, mentioned but never tracked by the detector. It is the target of his clock-1:12 Mother Witch, and he places her so the ability is unattractive - \"the mother witch on the mega minion, but I want to do it to where like if he pops the ability, it just wouldn't be a good play.\"",
+      "clock 2:04 and 2:21: he watches for the ability before committing - \"he might mega minion ability\", \"Okay, good mega minion.\""
+    ],
+    "fireball": [
+      "Opponent's card and the spell Ryley plays around all game: he predicts it as the answer to a cheap Barbarian Barrel (\"Probably has to fireball\", clock 1:53), confirms it against his Battle Ram (\"he went for the fireball too\", clock 0:59), and commits a Mother Witch into it anyway (\"I know he's probably going to fireball, but it's all right\", clock 0:39).",
+      "clock 1:05: he counts it as one of the two spells a bridge Goblinstein forces - \"if he goes for the inferno dragon you have to fireball zap as well.\""
+    ],
+    "miner": [
+      "Opponent's card; Ryley scores forcing it out as the return on his clock-1:30 bridge push - \"we forced out the miner, which is good for us\" (clock 1:19).",
+      "clock 0:37-0:35: tracked at (0, 14) -> (0, 19), chipping his left tower alongside the Balloon in the window where that tower falls."
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-battle-ram-cannon-cart-elite-barbarians-goblinstein-heal-spirit-mother-witch-zap",
+    "cards": ["barbarian-barrel", "battle-ram", "cannon-cart", "elite-barbarians", "goblinstein", "heal-spirit", "mother-witch", "zap"],
+    "bullets": [
+      "Game 6 of 7 of the single-deck session, against an Evo Inferno Dragon / Balloon cycle deck. Ryley names the deck's structural hole in the first fifteen seconds - \"we don't really have that much air defense in these types of games. Without much air defense, you have to be really, really smart offensively. Otherwise, you just get completely destroyed by like these random pushes\" (clock 2:39-2:31) - and pilots it as a pure bridge-spam race from there.",
+      "The pattern all game is alternating cheap bridge threats rather than one push: Goblinstein right at clock 2:20, Mother Witch centre plus Battle Ram left at 2:02, Elite Barbarians left at 1:30, Goblinstein left at 1:05, Battle Ram right at 1:01. Each is timed off an opponent commitment or an Elixir read (\"He has no DPS in cycle\"; \"He's forcing out all the elixir which is not bad\").",
+      "Defence is Barbarian Barrel and Cannon Cart on his own half plus Mother Witch as a targeted answer (clock 1:12 onto the Mega Minion), with Zap reserved for the Balloon. That was enough against ground units - the opponent's units are repeatedly stopped at rows 5-13 - but the deck has no dedicated air answer, and the one Balloon that reached tile (3, 7) at clock 0:32 took his left Princess Tower.",
+      "Placement rules he states for this list: Elite Barbarians go in the back corner, not at the bridge, when the opponent holds an Ice Golem to kite with (clock 2:26); the Mother Witch goes down where the opponent's ability card cannot profitably answer her (clock 1:12); Goblinstein at the bridge is worth it when the answer costs two spells (clock 1:05).",
+      "Outcome: the enemy left tower is ground from 4858 to 1253 HP and never falls, while the Balloon takes one of his. His post-mortem is that the opponent's defensive shell, not the offence, decided it - \"I feel like this just balloon fireball with the cage. It's just so impossible to break through, man.\""
+    ],
+    "new_deck": {
+      "display_name": "Goblinstein Evo Ram E-Barbs Ryley",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "control",
+      "rationale": "Three fast bridge threats (Battle Ram, Elite Barbarians, Goblinstein) played off opponent commitments at 3.6 average Elixir, with no tank and no slow push anywhere in the game.",
+      "why_it_works_md": "The deck has no tank and no building; every attack is a threat dropped at the river the moment the opponent spends. Battle Ram and Elite Barbarians force different answers - one charges through buildings and leaves Barbarians, the other simply out-damages whatever is in front of it - and Goblinstein adds a third, because the Monster ignores troops to hit buildings while the Doctor stuns, so a single defensive card rarely covers a lane. Mother Witch is the swing piece: she answers medium troops directly and turns any swarm the opponent defends with into Cursed Hogs, which is why Ryley plays her behind the bridge threats rather than in front of them. Barbarian Barrel, Zap and Heal Spirit are the cheap glue - swarm clearance, a Balloon/reset answer and a 1-Elixir heal that lets him cycle back to a threat quickly - and Cannon Cart is the only real defensive anchor. The weakness is exactly what cost this match: with Cannon Cart, Zap and the Mother Witch as the entire anti-air package, a committed Balloon or a lingering Evo Inferno Dragon forces the deck to trade towers rather than defend, so it wants to be racing, not defending."
+    }
+  }
+}

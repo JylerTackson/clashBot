@@ -1,0 +1,99 @@
+{
+  "key": "A5qMlVwLS1M-m0.3",
+  "match_file": "matches/A5qMlVwLS1M-m0.3.md",
+  "video_title": "Playing the 8 BEST Cards in a SINGLE Deck",
+  "cards": {
+    "elite-barbarians": [
+      "clock 2:45 (t=740.7): opens the game with Elite Barbarians at the right-lane bridge, tile [14, 13], elixir 10.0 -> 4.0 (HUD -6 plus deploy label) - not a defensive counterattack but a straight bridge drop on a full bar.",
+      "clock 1:58 (t=788.8): repeats it in the opposite lane at [3, 13], explicitly timed off the opponent's spending: 'Let's go for the Evo Ebs here at the bridge again because he did use a little bit of stuff' (t=789-791).",
+      "clock 1:13 (t=833.8): third bridge Ebarbs at [14, 13], alternating lanes again ('It's ebarbs the bridge again', t=836). His summary of the pattern: 'Evo Ebarbs are so good, man. I was thinking that he did use a lot of good cards for the Ebarbs, so just going them at the bridge could get us good value' (t=802-809).",
+      "clock 0:21 (t=883-885): names them as the held defensive answer to the opponent's Archer Queen ability - 'by later, I'll have the Ebarbs for defense'."
+    ],
+    "battle-ram": [
+      "clock 2:30 / 1:39 (t=756.8, 807.8): Battle Ram at [2, 12] then [2, 13], always the left lane opposite the bridge Elite Barbarians; the two-lane opening takes the enemy left tower 4858 -> 2885 by clock 2:11.",
+      "clock 1:02 (t=844.8): Battle Ram at the river tile [3, 15] chosen for the matchup - 'we can go for the Evo Batter here. And he's in a lot of trouble cuz Evo Batter is really good against Tombstone' (t=845-849). With a Barbarian Barrel and a Zap behind it the tower goes 2287 -> 376.",
+      "clock 0:37 (t=869.9): used as a spell shield for his support - 'I tried a lightning block with the battle ram' (t=870-872) - and again at clock 0:05 (t=900.9, [2, 13]) as a 'lightning block for the mother witch as well while the mother witch is still alive' (t=905-907).",
+      "clock 0:05 (t=900.9): closing ram at the bridge as the opponent concedes - 'We can just ram the bridge here. He's calling it good game' (t=901-903)."
+    ],
+    "barbarian-barrel": [
+      "clock 2:04 (t=782.3): Barbarian Barrel at [3, 9], well back on his own left, elixir 9.0 -> 7.0 (HUD -2 plus label) - the cheap defensive clear, played without commentary.",
+      "clock 0:47 (t=859.9): played as a prediction rather than a reaction, at [3, 10] - 'Then I'm going to go for the barb like this cuz he might try to ability again like he did the last three times' (t=860-863), and it holds: 'Come on, go back. Nice. Let's go. We keep this alive' (t=864-866).",
+      "clock 0:59 (t=847.8): offensive support behind the Battle Ram at [4, 13] during the push that takes the enemy tower to 376 - 'The barb though. Really good' (t=854).",
+      "clock 0:20 (t=886.9): at [3, 11] alongside the Cannon Cart against the opponent's last counterpush. No Hero ability was observed anywhere in this game - every 1-elixir drop empties a hand slot."
+    ],
+    "heal-spirit": [
+      "clock 1:57 (t=790.8): Heal Spirit at [3, 15] behind the bridge Elite Barbarians is the biggest swing of the game - 'We can heal spirit here. Oh, I was hoping. Nice. Let's go. We get we get a thousand damage' (t=794-798).",
+      "clock 2:32 / 1:11 (t=754.8, 836.8): dropped at [9, 13] and [10, 13] to support the committed push rather than to defend - 'I'm going to heal spirit like this cuz he might drop the-' (t=836-838).",
+      "clock 0:34 (t=871.9): tried at [3, 13] purely to save a connection - 'Wait, could I heal Spirit and just grab a connection? Come on. Nah, that's not going to connect, unfortunately' (t=872-877).",
+      "clock 0:13 (t=892-894): used as a 1-elixir defensive finisher - 'Let's just go for a low heal spirit here just to take this out'."
+    ],
+    "zap": [
+      "clock 1:33 (t=814.1): Zap at [5, 21], deep on the opponent's half onto the Battle Healer, cast the instant it lands - 'Let's zap here instantly. So now he has to defend the barbarians again. Perfect' (t=814-819). The enemy left tower reads 2593 four seconds later.",
+      "clock 0:57 (t=850.9): Zap at [2, 22] chasing one more kill during the tower-finishing push - 'Wait, could I zap and grab one more? I was hoping to get one more' (t=850-854).",
+      "clock 0:32 (t=873.9): third Zap at [4, 23]; all three casts of the game are on the opponent's half supporting a push, never on his own half on defence."
+    ],
+    "cannon-cart": [
+      "clock 1:23 (t=824.8): Cannon Cart at [9, 10], centre of his own half, into the Valkyrie the tracker walks from [3, 15] to [3, 11] - the only defensive building-ish card in the list.",
+      "clock 0:50 (t=857.9): at [8, 8] - 'Actually, I'm going to go for the cannon cart here' (t=858) - and again at [8, 8] at clock 0:20 (t=886.9, HUD -5 plus label) against the opponent's last wave.",
+      "clock 0:21 (t=883-885): named as the pre-planned answer to the champion ability he is expecting - 'And by later, I'll have the Ebarbs for defense, which is cannon cart here.' Every placement is on his own half, centre or centre-right; he never pushes it."
+    ],
+    "mother-witch": [
+      "clock 0:40 (t=866.9): played defensively at [2, 12] into the opponent's swarm specifically for the Cursed Hogs - 'And we can go for a mother witch here just to start spawning some royal hogs' (t=866-869).",
+      "clock 0:11 (t=896.9): keeping her alive drives the rest of his game - the Goblinstein goes to the bridge 'cuz now he's going to be unable to kill the mother witch' (t=897-899), and the final Battle Ram is a 'lightning block for the mother witch as well while the mother witch is still alive' (t=905-907).",
+      "clock 2:23 / 0:15 (t=763.8, 892.9): two further truncated 'WitCH' deploy labels at [9, 14] and [9, 8], both on Ryley's own half; the pipeline attributed the first to the opponent."
+    ],
+    "goblinstein": [
+      "clock 0:11 (t=896.9): one play, at [2, 13] on the left-lane bridge, as a second threat that protects the Mother Witch rather than as defence - 'I'm just going to go for the Stein at the bridge cuz now he's going to be unable to kill the mother witch. He has to watch out for the scientist' (t=897-901). No Lightning Link activation appears in the elixir trace."
+    ],
+    "valkyrie": [
+      "opponent card. Tracked on Ryley's left three times ([3, 15] -> [3, 11] at t=826-830, [2, 13] at t=860.9, [3, 16] at t=886.9) and named as their only answer to the bridge push - 'He has to just Valkyrie. Yep' (t=850). Ryley answers it with Cannon Cart at [9, 10] (clock 1:23) rather than a spell."
+    ],
+    "battle-healer": [
+      "opponent card. Tracked at [5, 21] at t=816.8 with a 4-elixir drop on the opponent's bar; Ryley Zaps that exact tile one second earlier to keep his Elite Barbarians going - 'Let's zap here instantly. So now he has to defend the barbarians again' (t=814-817)."
+    ],
+    "archer-queen": [
+      "opponent card, commentary only (never detected). Ryley plays around her ability three separate times: 'he might try to ability again like he did the last three times' (t=861-863, playing a Barbarian Barrel for it), 'Dude, he's going to drop the queen ability. Oh no' (t=877-879), and after it lands, 'I think that was a bad queen' (t=896)."
+    ],
+    "tombstone": [
+      "opponent card, commentary only. He guesses it is their win condition - 'He might be playing that one control deck where he doesn't even have a win condition and he literally just has um a sk like a tombstone skeleton queen for a wing [win] condition' (t=819-830) - and then picks the card that beats it: 'we can go for the Evo Batter here. And he's in a lot of trouble cuz Evo Batter is really good against Tombstone' (t=845-849)."
+    ],
+    "lightning": [
+      "opponent card, commentary only. It shapes two of his plays at the end of the game: a Battle Ram at [2, 15] at clock 0:37 ('I tried a lightning block with the battle ram', t=870-872) and a Battle Ram at [2, 13] at clock 0:05 ('We're going to lightning block for the mother witch as well while the mother witch is still alive', t=905-907) - using the Ram's Barbarians to soak the strikes aimed at his fragile support."
+    ],
+    "electro-spirit": [
+      "opponent card. One enemy-side track at [4, 21] at t=788, and the card Ryley uses to rule out a heavier list: 'I don't think he has the golem anymore because of the E spirit' (t=841-843)."
+    ],
+    "golem": [
+      "mentioned but never seen. Ryley raises it as a possibility for the opponent's deck - 'there's also like a decent chance that he just has golem as well' (t=832-836) - and retracts it eight seconds later once an Electro Spirit shows up (t=841-843)."
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-battle-ram-cannon-cart-elite-barbarians-goblinstein-heal-spirit-mother-witch-zap",
+    "cards": [
+      "barbarian-barrel",
+      "battle-ram",
+      "cannon-cart",
+      "elite-barbarians",
+      "goblinstein",
+      "heal-spirit",
+      "mother-witch",
+      "zap"
+    ],
+    "bullets": [
+      "Game 4 of a seven-game single-deck video (window 733.9s-914.9s): the eight highest-rated cards on RoyaleAPI played as one list. Ryley's own verdict on it at t=749-760: 'this just looks like a regular very solid bridge spam deck, but it is literally the eight highest ranked cards in the game... I'm going to call this a perfect deck.'",
+      "Piloted as two-lane bridge pressure, not as a single push: Elite Barbarians at [14, 13] (clock 2:45) with Battle Ram at [2, 12] (clock 2:30), then Ebarbs at [3, 13] (1:58) and Ram at [2, 13] (1:39), then Ebarbs at [14, 13] again (1:13). The enemy left tower goes 4858 -> 2885 before clock 2:11.",
+      "The bridge timing is keyed to the opponent's elixir, not his own: 'Let's go for the Evo Ebs here at the bridge again because he did use a little bit of stuff' (t=789), 'I was thinking that he did use a lot of good cards for the Ebarbs, so just going them at the bridge could get us good value' (t=802-809).",
+      "Heal Spirit and Zap exist to keep those pushes connecting rather than to defend - the Heal Spirit behind the bridge Ebarbs at clock 1:57 produces 'a thousand damage' (t=796-798), and all three Zaps of the game are cast on the opponent's half.",
+      "Defence is a two-card package: Cannon Cart centre on his own half ([9, 10] clock 1:23, [8, 8] at 0:50 and 0:20) and Barbarian Barrel on the left ([3, 9], [3, 10], [3, 11]), with the Barrel often played as a prediction against the opponent's champion ability (t=860-863).",
+      "Mother Witch plus Goblinstein is the late-game engine: she is played defensively for the Cursed Hogs at clock 0:40 ('just to start spawning some royal hogs', t=867), then everything after that protects her - Goblinstein at the bridge at 0:11 and two Battle Rams used as Lightning blocks (t=870, t=905).",
+      "Result: a win with almost no damage taken - own towers finish 4818/4858 against an enemy left tower reading 299-214, and the opponent concedes on air ('He's calling it good game. He kind of knows it', t=902; 'that is good game. Very beautiful win', t=907)."
+    ],
+    "new_deck": {
+      "display_name": "The Perfect Deck (Ryley)",
+      "archetype_primary": "bridge-spam",
+      "archetype_secondary": "control",
+      "rationale": "Two fast bridge threats (Elite Barbarians and Battle Ram) played on a full elixir bar in alternating lanes, backed by cheap spells and a single defensive troop - which is exactly how Ryley describes it on air: 'a regular very solid bridge spam deck'.",
+      "why_it_works_md": "The deck attacks with a 6-elixir pair and a 4-elixir ram that both threaten immediately at the bridge, so the opponent has to answer in two lanes within seconds and can never bank elixir for their own win condition. Heal Spirit and Zap are the glue: for one and two elixir they turn an Elite Barbarians drop that would have been cleaned up into a connection, which is where the bulk of this match's tower damage came from. Defence is deliberately thin - Cannon Cart centre on his own half plus Barbarian Barrel for swarms - because the deck expects to be ahead on tower damage and only needs to survive counterattacks, not win them. The late game shifts to Mother Witch and Goblinstein: she converts the opponent's defensive swarm into Cursed Hogs while the Goblinstein Monster forces a second answer at the bridge, and Ryley protects that pair by using the Battle Ram's Barbarians as a Lightning shield rather than by holding a spell."
+    }
+  }
+}

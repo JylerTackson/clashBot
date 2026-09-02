@@ -1,0 +1,111 @@
+{
+ "video_id": "A5qMlVwLS1M",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 264.9,
+   "events": 103,
+   "own_deck": [
+    "heal-spirit",
+    "cannon-cart",
+    "goblinstein",
+    "barbarian-barrel",
+    "battle-ram",
+    "mother-witch",
+    "zap",
+    "elite-barbarians"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 300.1,
+   "events": 113,
+   "own_deck": [
+    "heal-spirit",
+    "zap",
+    "battle-ram",
+    "goblinstein",
+    "mother-witch",
+    "barbarian-barrel",
+    "cannon-cart",
+    "elite-barbarians"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 164.0,
+   "events": 54,
+   "own_deck": [
+    "barbarian-barrel",
+    "mother-witch",
+    "goblinstein",
+    "zap",
+    "goblins",
+    "heal-spirit",
+    "tornado",
+    "battle-ram"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 181.0,
+   "events": 50,
+   "own_deck": [
+    "heal-spirit",
+    "barbarian-barrel",
+    "battle-ram",
+    "cannon-cart",
+    "zap",
+    "elite-barbarians",
+    "goblinstein",
+    "fire-spirit"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 220.1,
+   "events": 76,
+   "own_deck": [
+    "heal-spirit",
+    "barbarian-barrel",
+    "elite-barbarians",
+    "cannon-cart",
+    "zap",
+    "battle-ram",
+    "mother-witch",
+    "bomb-tower"
+   ]
+  },
+  {
+   "match": "0.5",
+   "seconds": 176.0,
+   "events": 59,
+   "own_deck": [
+    "heal-spirit",
+    "mother-witch",
+    "barbarian-barrel",
+    "goblinstein",
+    "cannon-cart",
+    "zap",
+    "battle-ram",
+    "witch"
+   ]
+  },
+  {
+   "match": "0.6",
+   "seconds": 202.4,
+   "events": 69,
+   "own_deck": [
+    "barbarian-barrel",
+    "zap",
+    "heal-spirit",
+    "cannon-cart",
+    "mother-witch",
+    "elite-barbarians",
+    "battle-ram",
+    "cannon"
+   ]
+  }
+ ]
+}
