@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Evolved Royal Hogs are the win condition: four Very Fast building-targeters that deploy flying, so ground troops cannot touch them on the way in, and only drop to the ground — dealing small impact damage — once they attack or take a hit. A 2.88 average Elixir and a seven-Elixir four-card cycle of Ice Spirit, Skeletons, The Log and Evolved Cannon bring them back quickly, and Earthquake removes the buildings that would otherwise cancel the flight and pull them away, since it does 3.5x damage to buildings and reaches even a hidden Tesla. Archer Queen is the deck's one expensive card and carries the defence: her range and the seven boosted shots of Cloaking Cape answer lone tanks and small pushes, and the ability recharges in time for the counter-attack. Royal Delivery and The Log cover what the hogs cannot — the Delivery's splash plus a spawned Royal Recruit wipes air and ground swarms on your own side, while The Log resets any locked-on ground troop and clears a Goblin Barrel or Skeleton Army for 2 Elixir. The problem is splash: area damage of any kind is the clean answer to Royal Hogs, a Bomb Tower hard-counters them, any single hit knocks them out of their flight early, and Lightning or Rocket removes the Archer Queen outright and leaves the deck thin on defence.
 
 ## Source
 

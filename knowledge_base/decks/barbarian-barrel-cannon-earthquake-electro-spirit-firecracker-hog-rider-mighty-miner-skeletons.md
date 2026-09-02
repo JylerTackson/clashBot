@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+At 2.62 average Elixir with a seven-Elixir four-card cycle, the deck replays Hog Rider — a 4 Elixir Very Fast building-targeter who jumps the river and cannot be hit mid-jump — every time the opponent's building or swarm is out of rotation. Earthquake is his listed best partner: it deals 3.5x damage to buildings, damages a Tesla even while it is hidden underground, and its three ticks kill Skeletons and slow the ground swarms that would otherwise block him. Defence is layered instead of expensive — Evolved Cannon pulls tanks and building-targeting troops the maximum distance from the Tower while its deploy barrage knocks enemies back into its own range, Mighty Miner's ramping attack shreds whatever the Cannon holds and his Explosive Escape bomb covers his weakness to swarms, and Evolved Firecracker's piercing shrapnel plus the sparks it leaves behind grind down Barbarians, Royal Recruits and Minion Horde. The 1 and 2 Elixir cards are the glue that keeps the cycle short: Electro Spirit's chain stun resets charge and ramp-up attacks, Skeletons distract single-target threats for 1 Elixir, and Barbarian Barrel clears ground swarms so the Hog connects. The deck's exposure is air and burst damage — the Cannon cannot target air at all, Firecracker has exactly one Archer's hitpoints so anything that one-shots an Archer removes her, and Mighty Miner has no area damage while Explosive Escape is on cooldown.
 
 ## Source
 

@@ -2,9 +2,9 @@
 deck_key: archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons
 display_name: Goblinstein EvoRHogs 3.4 Cycle
 archetype_primary: cycle
-archetype_secondary: "none"
-classification_source: heuristic
-classification_rationale: Card composition scores highest for Cycle (electro-spirit, royal-hogs, skeletons; avg elixir 3.38).
+archetype_secondary: control
+classification_source: agent
+classification_rationale: Evolved royal-hogs are still replayed off a seven-Elixir four-card cycle (skeletons, electro-spirit, barbarian-barrel, archers), but at 3.38 average elixir the deck wins through a defence-first bomb-tower, goblinstein and lightning core that counter-pushes, so Control is a genuine secondary.
 avg_elixir: 3.38
 rating: 42
 usage: "0.7%"
@@ -44,8 +44,8 @@ scraped_at: "2026-09-02T03:43:33+00:00"
 ## Classification
 
 - Primary: **Cycle** ([archetype file](../archetypes/cycle.md))
-- Secondary: none
-- Source: `heuristic` — Card composition scores highest for Cycle (electro-spirit, royal-hogs, skeletons; avg elixir 3.38).
+- Secondary: Control ([archetype file](../archetypes/control.md))
+- Source: `agent` — Evolved royal-hogs are still replayed off a seven-Elixir four-card cycle (skeletons, electro-spirit, barbarian-barrel, archers), but at 3.38 average elixir the deck wins through a defence-first bomb-tower, goblinstein and lightning core that counter-pushes, so Control is a genuine secondary.
 - Heuristic scores: Beatdown 2.0, Control 1.0, Cycle 4.0, Bait 0.0, Bridge Spam 0.0, Siege 0.5
 
 ## Site statistics (as displayed)
@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+Evolved Royal Hogs are the win condition — four Very Fast building-targeters that fly in untouchable by ground troops until they attack or take damage — and the seven-Elixir four-card cycle of Skeletons, Electro Spirit, Barbarian Barrel and Evolved Archers replays them while the opponent's splash answer is out of rotation. At 3.38 average Elixir the deck is not a pure cycle shell, though: it defends first with Bomb Tower, whose 1.5 tile splash is itself the hard counter to Royal Hogs and grinds down ground pushes, and with Goblinstein, a single 5 Elixir Champion that supplies a stunning air-targeting Doctor plus a high-hitpoint building-targeting Monster and can cover both lanes at once. Lightning is the lever that opens a lane: it strikes the three highest-hitpoint troops or buildings in its radius for very high damage, cripples the Cannon, Bomb Tower or Inferno Tower that would pull the hogs away, and one-shots the Wizard, Witch or Archer Queen that would splash them down. Evolved Archers keep enemies inside their 4-6 tile Power Shot band for 25% bonus damage and split naturally across the two lanes the hogs attack, while Electro Spirit's chain stun and Skeletons buy time against charge and ramp-up units for 1 Elixir each. The main weakness is splash and spell timing — area damage wipes the hogs, and any damage at all, including a spell or a building's shot, ends their flight early and exposes them to ground troops again.
 
 ## Source
 

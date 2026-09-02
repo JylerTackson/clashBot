@@ -69,7 +69,7 @@ Not captured from source page
 
 ## Why this deck works
 
-<!-- AGENT:FILL -->
+The X-Bow is the win condition: a 6 Elixir building with 11.5 tile range that outranges the Crown Towers, so placed one tile from the river it destroys a Tower on its own unless the opponent walks defenders across into your half. Everything else buys it the 3.5 seconds it needs to deploy and keeps it alive afterwards — the Heroic Knight is the classic 3 Elixir mini-tank, and his Triumphant Taunt grants a shield and forces every enemy troop and building within 7.5 tiles to attack him instead, which both saves the X-Bow and drags central defenders out of position. Evolved Tesla is the second building the archetype asks for: hidden underground it is immune to everything but Earthquake, it covers the air the X-Bow cannot target at all, and each time it surfaces its 6 tile pulse damages and stuns, making it a real answer to Royal Hogs, Barbarians and other swarms. Evolved Archers played well away from the X-Bow use their extended 6 tile range and Power Shot to kill the tanks and hard counters the building cannot finish — Royal Giant, Bowler, Goblin Giant — while Fireball, The Log, Electro Spirit and Skeletons clear the cheap troops dropped on it and keep the deck at 3.0 average Elixir with a seven-Elixir cycle. Its exposure is the standard siege one: building-targeting rushers such as Hog Rider, Ram Rider or a Giant walk straight into the X-Bow, Rocket and Lightning punish an expensive X-Bow-plus-building setup, and the frail cheap cards played beside a 6 Elixir building hand the opponent large spell value.
 
 ## Source
 
