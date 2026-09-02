@@ -1,0 +1,102 @@
+{
+  "key": "XM5NEb9SeBY-m0.2",
+  "match_file": "matches/XM5NEb9SeBY-m0.2.md",
+  "video_title": "NERF the Hog Rider NOW!!!",
+  "cards": {
+    "hog-rider": [
+      "clock 2:48: opens the game with Hog Rider at the right bridge, tile (16, 15), elixir 10 -> 6, before he has any read on the opponent - \"Just going to go for the hog rider here on the right side.\" The opponent answers with an Earthquake on their own half a second later.",
+      "clock 2:11: refuses the counter-push behind his Cannon and takes the defensive building instead - \"Let's go for the cannon here. I don't want a hog rider. Actually, I kind of do, but at the same time I think it could be bad.\"",
+      "clock 1:49: second Hog at (16, 15) as an immediate punish the moment the opponent commits elixir - \"so it's hog rider immediately\"; it connects for 4351 -> 3844 on the enemy right tower, which he still calls insufficient: \"definitely not going to make up for that Sparky hit.\"",
+      "clock 0:07: the video's thesis, delivered over his last Hog push - \"there's no way to say that Hog Rider doesn't need a little bit of a nerf.\""
+    ],
+    "mighty-miner": [
+      "clock 2:28: Mighty Miner in his own back at tile (8, 0) as a cycle/defensive placement while he is still reading the deck - \"I guess we'll go for the mighty miner in the back.\"",
+      "clock 1:14: bridged at (15, 12)/(15, 14) purely on a prediction about the opponent's back line, with the building held as insurance - \"I'm going to mighty the bridge assuming he's going to Sparky in the back. We have cannon ready here in case\" (and at 1:11: \"Oh my god, he Sparky that lane, okay\").",
+      "clock 1:10: Explosive Escape used as a lane swap on the opponent's half - \"Let's go for the mighty miner ability here in a second. Dude, he's in a really bad spot after that.\" The track moves from (14, 19) in the right lane to (2, 19) in the left lane, and the enemy left tower falls 4663 -> 161 between clock 1:03 and 0:57.",
+      "clock 1:31 and 0:52: he names the play he declines - \"I would mighty miner, but there's no point cuz we already took so much damage that we may as well just let that go\" - then uses him defensively at (7, 11) with an Electro Spirit reset: \"We can go for the mighty miner e-spirit here to reset this.\""
+    ],
+    "cannon": [
+      "clock 2:11: Cannon at (9, 10), elixir 9 -> 6, against a Sparky-and-Graveyard push, explicitly preferred over a counter-attacking Hog Rider - \"Let's go for the cannon here. I don't want a hog rider.\"",
+      "clock 1:17: kept in hand as the insurance behind a bridge Mighty Miner rather than pre-placed - \"We have cannon ready here in case.\"",
+      "clock 0:57: Cannon at (8, 10) as the centre of the last defence, placed mid-map to pull both lanes - \"then we can just go for the cannon in the middle.\"",
+      "clock 0:40: Evo Cannon at (7, 8) placed for the Evolution cycle - \"we have to go for the Evo cannon. That's going to activate\" - followed immediately by an Electro Spirit on top of it."
+    ],
+    "earthquake": [
+      "clock 2:47: Earthquake follows his opening bridge Hog Rider by 1.5 s, deploy label at (14, 19) on the opponent's half in the Hog's own right lane and on the tower it is running at - the standard Hog-plus-Earthquake opener. He does not name the spell in this game's commentary; the pipeline booked the -3 elixir step against the opponent's estimate, and the read that it is his rests on the tile half, the lane pairing and the video-level reconciliation across the six games (see the match file's Data gaps).",
+      "clock 2:47 to 0:03: it is the only Earthquake in the 170 readable seconds - the rest of the game is defence with Cannon, Skeletons, Electro Spirit and The Log, so no defensive Earthquake use is observed here."
+    ],
+    "electro-spirit": [
+      "clock 2:04: the Sparky reset, and he states the timing rule - \"We go for the e-spirit at the very last second\" - at (3, 11); it misses and the Sparky takes his left tower from 4360 to 1275: \"Oh my god, I tried to perfect time it, but it's fine.\"",
+      "clock 1:33: held as an anti-spell answer rather than spent on the push - \"then we have the e-spirit ready if he tries to go for like a zap. Let's e-spirit here\" at (8, 11).",
+      "clock 0:52 and 0:39: two resets inside one defence, on the Mighty Miner and then on the Evo Cannon - \"We can go for the mighty miner e-spirit here to reset this\" / \"We go for Evo cannon e-spirit here as well.\"",
+      "clock 0:13: used as push support instead, at (8, 20) on the opponent's half behind the closing Evo Firecracker."
+    ],
+    "skeletons": [
+      "clock 2:02: Skeletons at (3, 14) as the first block on the Sparky push while he waits for the reset window - \"let's skellies here, and then we wait for him to spark else.\"",
+      "clock 1:38: Skeletons at (8, 14) as cheap chip/cycle while holding Electro Spirit - \"Let's just go for the skeletons up top.\"",
+      "clock 0:52 and 0:42: two Skeletons packs inside the Sparky/Graveyard/Dark Prince defence, at (11, 14) and (6, 10) - \"Let's skellies here to block this\" and \"Let's skellies here as well.\"",
+      "clock 0:21 and 0:11: Skeletons at (3, 14) then (8, 21) on the opponent's half, cycling out the clock behind the final push."
+    ],
+    "the-log": [
+      "clock 2:02: Log under the Sparky push, deploy labels at (5, 12) and (3, 10), as the last layer of a Skeletons + Electro Spirit + Log defence.",
+      "clock 1:05: a speculative Log at (2, 14) rolled up the left lane behind his warped Mighty Miner - \"Wait, can I try to log here? I don't think it will reach in time, but imagine if it does. Oh my god, wait. Oh my god, what a reaction time. Yo, that was so fast.\" It is tracked at (2, 19) on the opponent's half by clock 0:58.",
+      "clock 0:36: the Log that saves the game, at (4, 9) as the last card of the Graveyard defence - \"We can go for the log, and I think we just saved our tower here. Nice, what a defense\" - and he is still praising it at 0:17: \"That was such a great log from us. Dude, that timing was just impeccable.\""
+    ],
+    "firecracker": [
+      "clock 2:37: Firecracker at (8, 10) behind an Electro Spirit as his second card of the game - \"Go for the e-spirit then firecracker.\"",
+      "clock 0:44: Firecracker at (9, 6) placed directly in front of his own King tower as the ranged anchor of the Sparky/Graveyard defence - \"then we go for the firecracker in front of the king tower.\"",
+      "clock 0:22: played early on purpose to be ready for the last push rather than held - \"all we have to do is save our tower for another 20 seconds from a Sparky push. Let's firecracker early\" (tile (2, 9), elixir 9 -> 6).",
+      "clock 0:13: Evo Firecracker at (8, 19) on the opponent's half is his closing play - \"Let's go for the Evo firecracker here, and I will see you all in the next match.\""
+    ],
+    "sparky": [
+      "clock 2:12: the opponent's Sparky is the card that decides the first half - Ryley welcomes it (\"Oh, Sparky, too. That's great. I love going up against Sparky. I I wonder if he has a tornado then\") and answers it with Skeletons, a last-second Electro Spirit and The Log.",
+      "clock 1:57: the reset misses by a fraction and one Sparky shot takes his left tower from 4360 to 1275 - \"Oh my god, I tried to perfect time it, but it's fine. Honestly, when we get surprise factored like that, just not losing the game straight up is honestly enough to ask for.\"",
+      "clock 1:17: he plays his Mighty Miner at the bridge specifically on the read that a Sparky is going down in the back - \"I'm going to mighty the bridge assuming he's going to Sparky in the back\" - and is proved right at 1:11: \"Oh my god, he Sparky that lane, okay.\"",
+      "clock 0:25: with the game already won on tower HP, the whole plan becomes surviving the last Sparky - \"all we have to do is save our tower for another 20 seconds from a Sparky push.\""
+    ],
+    "graveyard": [
+      "clock 2:12 and 0:54: the opponent drops Graveyard on Ryley's half (tracked at (9, 2) then (8, 3)) behind the Sparky, twice; Ryley answers the second one by stacking cheap cards - Cannon at (8, 10), Skeletons at (11, 14) and (6, 10), Firecracker at (9, 6) in front of the King tower and finally The Log - rather than with one big answer: \"I think we just saved our tower here. Nice, what a defense.\"",
+      "clock 2:24: he frames the matchup against his previous game - \"We just beat a giant graveyard player, but feel like this one will probably be a little bit more difficult with him having the hero mega minion.\""
+    ],
+    "miner": [
+      "clock 2:27 and 0:19: two opponent Miner deploy labels (the second at (2, 20)); the first coincides with 498 HP coming off Ryley's left tower from an unreadable spell, and neither gets a named reaction in the commentary."
+    ],
+    "dark-prince": [
+      "clock 0:56: the opponent's answer to the warped Mighty Miner - Dark Prince tracked at (2, 19) in the left lane, arriving right as the enemy left tower bottoms out at 161 HP."
+    ],
+    "giant": [
+      "clock 2:32: named only, as the read that resolves his guessing - \"Oh, he does have giant\" (578s), after cycling through Lava Hound and Golem, and confirmed at 1:45: \"I assume then he just has the regular giant Sparky deck.\" No Giant deploy label or unit track appears in the readable window."
+    ],
+    "mega-minion": [
+      "clock 2:22: mentioned, not seen - the opponent runs the Heroic Mega Minion and Ryley calls it the reason this game will be harder than his last one: \"feel like this one will probably be a little bit more difficult with him having the hero mega minion. Hero mega minion is just such a annoying card to go up against.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons-the-log",
+    "cards": [
+      "cannon",
+      "earthquake",
+      "electro-spirit",
+      "firecracker",
+      "hog-rider",
+      "mighty-miner",
+      "skeletons",
+      "the-log"
+    ],
+    "bullets": [
+      "Game 3 of 6 in the video (video 556.7s-726.7s, 170 s readable), on the Hog/Earthquake cycle list, versus Giant/Sparky beatdown with Graveyard, Miner, Dark Prince, Earthquake and the Heroic Mega Minion: won on tower HP (own 1142/3652 versus enemy 161/572 at clock 0:03) - \"Let's go. What a win, man\" (710s).",
+      "The deck loses the first big exchange and he says so out loud: a Sparky beats his Skeletons + last-second Electro Spirit + Log at clock 1:57 and takes his left tower from 4360 to 1275. His stated adjustment at 1:55 is to stop trying to win the race - \"when we get surprise factored like that, just not losing the game straight up is honestly enough to ask for\" - and to chip the other lane with Hog Rider punishes instead (clock 1:49, 4351 -> 3844).",
+      "The win comes from one Mighty Miner sequence: bridged at (15, 12) at clock 1:14 as a pure read on a back-line Sparky with Cannon held in hand as insurance, then Explosive Escape at 1:10 to swap lanes on the opponent's half, supported by a speculative Log at (2, 14). The enemy left tower goes 4663 -> 161 between 1:03 and 0:57 - \"Dude, he's in a really bad spot after that... what a reaction time. Yo, that was so fast.\"",
+      "The defensive pattern is stacking cheap cards rather than spending one big answer: against the Sparky + Graveyard + Dark Prince push from clock 0:57 to 0:34 he lays Cannon (8, 10), Skeletons (11, 14), Mighty Miner (7, 11) with an Electro Spirit reset, Firecracker (9, 6) in front of the King tower, Skeletons (6, 10), Evo Cannon (7, 8) with a second Electro Spirit, and The Log (4, 9) - holding on 1142 HP with the King activated: \"I think we just saved our tower here. Nice, what a defense.\"",
+      "Closing pattern with a lead on HP: spend early instead of holding - \"all we have to do is save our tower for another 20 seconds from a Sparky push. Let's firecracker early\" (clock 0:22) - then cycle Hog Rider, Electro Spirit, Evo Firecracker and Skeletons into the opponent's half purely to keep them defending.",
+      "Earthquake is used exactly once and only as an opener: cast at clock 2:47 on the opponent's half at (14, 19), 1.5 s behind the bridge Hog Rider and in the same lane. No defensive Earthquake appears in the readable window; the eighth slot in the per-game HUD read came back as Heal Spirit on ~0.5-confidence hand reads with no deploy label, no unit track and no commentary, and is treated as noise."
+    ],
+    "new_deck": {
+      "display_name": "Hog Rider Ryley",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "rationale": "Average elixir 2.6 with Hog Rider as the only win condition, Earthquake as its spell partner, and Cannon, Skeletons, Electro Spirit and The Log as one- to three-elixir answers cycled repeatedly, with Mighty Miner as the single heavy card.",
+      "why_it_works_md": "Six of the eight cards cost three elixir or less, so the deck answers a push by laying several cheap cards on top of each other instead of paying for one big answer - in this match a Sparky, Graveyard and Dark Prince push is held on 1142 HP with Cannon, Skeletons twice, Mighty Miner, Firecracker, two Electro Spirit resets and The Log. Hog Rider does not need a push behind it: it goes to the bridge on the opening play, with Earthquake dropped in the same lane 1.5 s later to strip the defending building, and again the instant the opponent commits elixir, so a beatdown deck is always paying to defend a lane it did not choose. Mighty Miner is the deck's swing card rather than a defensive tank - deployed at the bridge on a read that the opponent is placing a Sparky in the back, then Explosive Escape swaps him into the undefended lane, which took an enemy tower from 4663 to 161 HP in six seconds here. The weakness is equally visible: Electro Spirit is the only Sparky reset, and when the timing misses by a fraction the deck concedes a tower outright."
+    }
+  }
+}

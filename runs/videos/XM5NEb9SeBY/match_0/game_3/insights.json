@@ -1,0 +1,84 @@
+{
+  "key": "XM5NEb9SeBY-m0.3",
+  "match_file": "matches/XM5NEb9SeBY-m0.3.md",
+  "video_title": "NERF the Hog Rider NOW!!!",
+  "cards": {
+    "hog-rider": [
+      "clock 2:48: opens the game with Hog Rider at the left bridge tile (1, 15) rather than any defensive card - \"just going to go for the Hog Rider here\" (729-730s). The pipeline booked this deploy label to the opponent, but the tracker follows it as his own unit into the enemy half.",
+      "clock 2:12, 1:28, ~1:07, ~0:48, ~0:11 and twice in overtime: every later Hog Rider goes to the right bridge at (16, 15) or (16, 14), always paired with a trailing Firecracker or Skeletons rather than a tank - \"I'm just going to go for the firecracker here. Then we can just go for the Hog Rider again, right away\" (762-764s).",
+      "clock ~1:07: used purely as a cycle-forcing tool against X-Bow siege - \"I could Hog Rider, too, just to outcycle him. Yeah, I'm going to hog here now since we have enough for the cannon. We did outcycle him\" (831-836s). His success bar is connection, not a kill: \"as long as we get the Hog Rider shots on the tower, man, that's all I really care about\" (858-861s).",
+      "clock ~0:11: Hog Rider at (16, 14) used to deny the opponent's King Tower activation - \"I know he's going to go for the Tesla, but if I make him Tesla then he can't really activate the king\" (887-890s); the following Electro Spirit stun kept it alive (\"That E-Spirit stunned his E-Spirit making the hog not die\", 896-898s)."
+    ],
+    "cannon": [
+      "clock ~1:49: the placement rule he states out loud - \"let's go for the log here, or the one I cannon. I think cannon high could be better, actually, cuz if I cannon high, then I also have something where he can't do like a high defense. He'd have to put everything low\" (785-794s), playing it at (8, 10).",
+      "clock 2:47 through overtime: seven Evolved Cannon deployments, every readable tile in the centre column of his own half - (4, 13), (9, 11), (8, 10), (4, 13), (8, 11) - so one building covers both lanes against an X-Bow/Tesla/Miner deck. He calls it out as \"Evo Cannon\" at 836-838s.",
+      "overtime: pre-played against the siege rather than reacted with - \"let's cannon here predicting the expo\" (898-900s), Cannon down at elixir 8 -> 5 before the X-Bow appeared."
+    ],
+    "firecracker": [
+      "clock 1:28 and ~0:43: Evolved Firecracker sent to the bridge behind the Hog Rider at (13, 15) and (15, 14) - \"I'm going to Evo Firecracker the bridge right now\" (851-853s) - and he credits it for the tower chip: \"We got some nice Firecracker chip damage\" (822s).",
+      "clock 2:14: also used as the hang-back defensive unit at (12, 14) that survives the opponent's answer - \"He might try to E-Spirit log, but the firecracker will hang back\" (765-766s).",
+      "overtime: played at (9, 12) as a prediction against Evolved Archers crossing the middle - \"He might Evo archers down the middle. Oh my, what a prediction. Take those out. Beautiful play\" (902-907s); the last Firecracker at (14, 14) closes the match, \"just Evo firecracker that breaks you guys\" (929-931s)."
+    ],
+    "mighty-miner": [
+      "clock 2:27 and 1:38: deployed at (9, 0) behind his own King Tower and (7, 8) in the centre as anti-siege defence, not as a bridge threat - \"I'm just going to go for the mighty miner in the middle here, in front of my king tower. He can't X-Bow on the left, even though I think he actually should, just to force me to go Hog Rider at the bridge\" (795-802s).",
+      "clock 0:18: places him deliberately high at (2, 11) to split him from the tower against a spell - \"I know that he wants to fireball my Mighty Miner. So, if I put it higher then he's not able to actually hit the tower with the fireball and the Mighty Miner at the same time\" (877-885s).",
+      "clock ~1:07: sent at (2, 4) into Evolved Archers walking his left lane - \"we have the Mighty Miner for defense\" (826-828s).",
+      "overtime: only at the end does he pair the Champion with the win condition - \"we can just go for the Mighty Miner plus hog rider at the bridge once again\" (921-922s), Mighty Miner at (12, 15) then Hog Rider at (16, 15)."
+    ],
+    "skeletons": [
+      "clock ~0:28: Evolved Skeletons at (8, 15) onto incoming Archers he is counting toward their evolution - \"he has one archer away from Evo... next archer is Evo. Let's skellies here\" (863-867s).",
+      "clock ~0:48: played at (13, 11) alongside the Hog Rider to force answers - \"let's go for the skellies and Hog Rider here again. I just want to pressure him very hard\" (848-849s).",
+      "clock 2:37 to overtime: seven deployments at (9, 9), (7, 10), (3, 14), (13, 11), (8, 15), (9, 14), (9, 9) - the 1-elixir card that carries the cycle plan (\"I'm going to make sure that I play all of my cheapest cards that I can, so I can cycle back quickly\", 773-778s), and insurance behind a push (\"skellies just in case\", 917-919s)."
+    ],
+    "the-log": [
+      "clock 2:32: he names The Log as the reason the Hog matchup works - \"I do think that with perfect game play, Hog Rider should be winning, especially with the log. Having log to keep up with the tower damage, for the most part, is very, very nice\" (749-754s).",
+      "clock 1:48, 1:16, ~0:24, 0:07: five casts at (14, 14), (12, 15), (14, 15) and (15, 14) - all right-lane, under or behind his own Hog Rider push - plus one at (2, 15) on the left at clock ~0:54. \"Okay, let's just log here. We got some nice Firecracker chip damage\" (820-822s)."
+    ],
+    "electro-spirit": [
+      "clock ~0:07: the stun that saves the win condition - Electro Spirit played as the Hog Rider connects, \"Let's E-Spirit here. Nice, he messed up the king activation again... That E-Spirit stunned his E-Spirit making the hog not die\" (891-898s).",
+      "clock 1:57, 0:57 and overtime: 1-elixir plays at (8, 14), (2, 15) and (13, 14) used as cycle filler and cheap clears in an explicit out-cycle plan against Tesla - \"E-Spirit here to take this out\" (916-917s)."
+    ],
+    "earthquake": [
+      "clock 1:25: casts it on the Tesla while deliberately overspending behind a Hog Rider push - \"I'm just going to go for the Earthquake here on the Tesla, guys, cuz I know I can overspend here and get away with it. Cuz he won't be able to expo since he has to spend all of his Elixir on defense right now\" (812-820s); elixir fell 9 -> 3 for Firecracker plus one 3-cost spell and an Earthquake landed on the opponent's half at (11, 19).",
+      "clock 0:21: uses it as bait for the siege - \"I kind of want to go for the Earthquake to bait him into going for an expo, but I think he's going to end up having to go for the expo regardless. Let's just Earthquake here\" (870-875s).",
+      "overtime: throws it behind the Hog Rider to break the defensive building - \"I'm going to go for the Hog Rider here and then we can go for the Earthquake as well just to make sure we drop the Tesla\" (909-913s), a 3-elixir drop followed by an Earthquake at (6, 18).",
+      "clock 2:44, 2:19 and 1:37: three further Earthquakes land on the opponent's half at (4, 20), (2, 21) and (2, 20) before the commented ones — six of the seven Earthquake events in this game are on the enemy side, and the pipeline attributed all of them to the opponent. Earthquake, not Heal Spirit, is the deck's eighth card; the single read on Ryley's own half at (4, 5) arrives one second after the (2, 20) cast and is most likely a duplicate detection."
+    ],
+    "x-bow": [
+      "clock 2:44: he identifies the archetype instantly and rates the matchup - \"dude, this guy is X-Bow... X-Bow's going to be a pretty solid match-up for us. I do feel like that if he plays perfectly, he can make the match a little bit tight\" (730-747s).",
+      "clock 2:20 and 1:36: he argues the siege player should commit the X-Bow to force him off the bridge - \"He could go for the X-Bow, but I don't think that would be too great of a play\" (756-760s), then \"He can't X-Bow on the left, even though I think he actually should, just to force me to go Hog Rider at the bridge\" (799-802s). The opponent's X-Bow only shows at (2, 16) at clock 0:55, 0:17 and in overtime, always too late to matter."
+    ],
+    "tesla": [
+      "clock 2:39 onward: the opponent's Tesla, not the X-Bow, is what Ryley plays around - \"I'm going to make sure that I play all of my cheapest cards that I can, so I can cycle back quickly, and try to out-cycle that Tesla, cuz forcing him to go for a defensive X-Bow would be really, really good\" (773-783s). At clock ~1:04 he declares the plan complete: \"We did outcycle him\" (836s).",
+      "overtime: he treats a forced Tesla as a win either way - \"if I make him Tesla then he can't really activate the king\" (887-890s), and later spends a spell on it, \"just to make sure we drop the Tesla. Or if he puts it on the side then that's fine, too\" (912-915s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons-the-log",
+    "cards": [
+      "cannon",
+      "earthquake",
+      "electro-spirit",
+      "firecracker",
+      "hog-rider",
+      "mighty-miner",
+      "skeletons",
+      "the-log"
+    ],
+    "bullets": [
+      "Win by out-cycling, not by out-damaging: against an X-Bow/Tesla siege player he states the plan at 773-783s - \"I'm going to make sure that I play all of my cheapest cards that I can, so I can cycle back quickly, and try to out-cycle that Tesla\" - and confirms it landed at clock ~1:04, \"We did outcycle him\" (836s). Opponent conceded in overtime with his right tower at 1,037 hitpoints (931-934s).",
+      "The offence is one repeated shape: Hog Rider at the right bridge (16, 14-15) at clock 2:12, 1:28, ~1:07, ~0:48, ~0:11 and twice in overtime, with Evolved Firecracker or Evolved Skeletons trailing and The Log cleaning up - \"as long as we get the Hog Rider shots on the tower, man, that's all I really care about\" (858-861s).",
+      "The defence is centre-column Evolved Cannon plus Mighty Miner in front of the King Tower: Cannon at (4, 13), (9, 11), (8, 10), (8, 11) and Mighty Miner at (9, 0), (7, 8), (2, 4). Placement is chosen to deny the siege - \"cannon high could be better... he can't do like a high defense. He'd have to put everything low\" (787-794s) and \"mighty miner in the middle here, in front of my king tower. He can't X-Bow on the left\" (795-799s).",
+      "Earthquake is the answer to the defensive building the cycle plan forces out: cast on the Tesla at clock 1:25 as a deliberate overspend (\"I know I can overspend here and get away with it\", 812-815s), as X-Bow bait at clock 0:21 (\"go for the Earthquake to bait him into going for an expo\", 870-875s), and behind the Hog in overtime (\"just to make sure we drop the Tesla\", 910-913s).",
+      "Ryley rates the archetype as favoured into X-Bow and credits the small spell for it - \"with perfect game play, Hog Rider should be winning, especially with the log. Having log to keep up with the tower damage\" (749-754s). Title of the video: \"NERF the Hog Rider NOW!!!\"",
+      "Deck note: the eighth slot is Earthquake, not the Heal Spirit the HUD reported (mean hand confidence 0.509). He narrates his own Earthquake three times (812s, 870-875s, 910-913s) and six of seven Earthquake events land on the opponent's half; that makes this the standard Hog Earthquake cycle list, seven cards shared with the KB's \"Hog MM EvoCannon 2.6 Cycle\" deck."
+    ],
+    "new_deck": {
+      "display_name": "Hog EQ Ryley",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "rationale": "A 2.6-cost-style Hog Rider Earthquake list whose plan is explicitly to spend only cheap cards and cycle the win condition faster than the opponent can pay for a defensive building.",
+      "why_it_works_md": "The deck is built around getting Hog Rider to the bridge more often than the opponent can afford an answer: six of its eight cards cost 1-3 elixir, so a Cannon-plus-Skeletons defence still leaves the cycle intact. Ryley's stated plan against siege is to \"play all of my cheapest cards that I can, so I can cycle back quickly, and try to out-cycle that Tesla, cuz forcing him to go for a defensive X-Bow would be really, really good\" (773-783s). Earthquake closes the loop: whatever building the cycle forces out gets broken behind the next Hog, which is how he treats the Tesla at clock 1:25 and again in overtime. Defensively an Evolved Cannon placed high in the centre column plus Mighty Miner in front of the King Tower covers both lanes and denies X-Bow placements, while Evolved Firecracker and Electro Spirit clear the ranged cycle troops siege decks lean on. The Log converts repeated Hog connections into a tower: \"Having log to keep up with the tower damage, for the most part, is very, very nice\" (749-754s)."
+    }
+  }
+}

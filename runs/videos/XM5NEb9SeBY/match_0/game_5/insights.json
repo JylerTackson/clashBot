@@ -1,0 +1,112 @@
+{
+  "key": "XM5NEb9SeBY-m0.5",
+  "match_file": "matches/XM5NEb9SeBY-m0.5.md",
+  "video_title": "NERF the Hog Rider NOW!!!",
+  "cards": {
+    "hog-rider": [
+      "clock 2:50: opens the match with Hog Rider at tile [1, 15], the left bridge, before he knows anything about the opponent's deck — \"Just going to start off with the hog rider here. Trying to figure out what this man is playing.\"",
+      "clock 1:17: the Electro Giant appears at tile [4, 23] and he answers by sending Hog Rider to the *opposite* bridge at tile [16, 14] (HUD 9 -> 5) rather than defending, then repeats the pattern at clock 0:22 from tile [1, 15].",
+      "clock 0:47: down roughly 1600 tower HP he commits to racing — Hog at [1, 15] plus Earthquake and a bridge Firecracker: \"We have to just try something really aggressive to make it come back now to be honest cuz we just got completely finessed for like a thousand damage.\"",
+      "clock 0:44: a Hog connection takes the enemy left tower from 1450 to 943 HP and gets the line the video is named after — \"Oh my god, Hog Rider is so good. Dude, that getting a hit is just insane to be honest.\""
+    ],
+    "firecracker": [
+      "clock 2:04: evolved Firecracker at tile [2, 13] behind a bridge Hog purely for chip — \"we can just Firecracker here and grab some chip damage.\"",
+      "clock 1:27: places it in the back-right at tile [8, 0] and immediately regrets the lane against an incoming Electro Giant — \"Imagine if I just Firecrackered on the left like I had it hovered over there before. I could have just gotten a super nice Firecracker into the E-Giant, but instead, my Firecracker will be sacrificial.\"",
+      "clock 0:52: Firecracker at tile [2, 14] on top of a Log to clear the lane before a finishing high Cannon — \"Oh my god, firecracker, please. Nice. Okay, wait, that's going to take this out. Then we can go for the high cannon here.\""
+    ],
+    "cannon": [
+      "clock 1:09: evolved Cannon high on his own half at tile [9, 13] against an Electro Giant the tracker had at \"tower in 7.8s\", supported by Electro Spirit at [4, 12] and The Log — \"let's go for the high cannon here and then we have to cycle back.\"",
+      "clock 0:23: Cannon at tile [9, 8], centre of his half (HUD 9 -> 6) — \"go for the cannon here in the middle\" — and he names the defensive priority two plays later: \"Go for the Evo Cannon here. Make sure we hit the Baby Dragon.\"",
+      "overtime clock 1:50: uses it as a cycle card, not an answer — Cannon at tile [8, 10] with nothing pressuring him: \"we can just cycle that early cannon here in the middle.\"",
+      "clock 0:48: high Cannon at tile [9, 14] as part of the closing sequence while the enemy left tower steps 1606 -> 1450 HP."
+    ],
+    "mighty-miner": [
+      "clock 1:58: Mighty Miner at the left bridge (tiles [4, 14]/[3, 15], HUD 8 -> 4) as an offensive follow-up, played specifically to punish a Goblin Cage ability — \"He might ability, but if he goes for the ability, then we just have a free Mighty Miner. I think he might ability anyways, so let's just Mighty the bridge here.\"",
+      "clock 1:04: in overtime, down about 500 HP, he sends it to the bridge again rather than saving it for the Electro Giant — \"All right, let's go for the high mighty miner here. We still have a shot.\"",
+      "clock 2:36 and 0:58: the two defensive uses, at tiles [8, 12] and [6, 10] on his own half, into the Bowler/Electro Giant lane."
+    ],
+    "skeletons": [
+      "clock 1:44: Skeletons at tile [5, 14] into a left-lane push alongside The Log while Zappies advance; used as the cheap distraction rather than a hard answer.",
+      "clock 0:12: \"Skellies are to knock this back\" — Skeletons at tile [9, 15] for the knockback on a unit already on his half.",
+      "clock 0:17: in the last twenty seconds they are purely a cycle card — \"Skellies, I need to do my fastest possible cycle.\""
+    ],
+    "electro-spirit": [
+      "clock 1:07 and 1:04: Electro Spirit at tile [4, 12] with The Log at [4, 13] on top of a high Cannon, as the reset layer against an Electro Giant walking his left lane.",
+      "overtime clock 1:41: Electro Spirit at tile [5, 15] to let a push die rather than to save it — \"Let's go for the E-Spirit here. Okay, we should let this go now. Don't want to protect that at any more, I think.\"",
+      "clock 0:34: used as the specific answer to the opponent's Evo Baby Dragon — \"E-spirit to block the baby dragon. Nice.\"",
+      "the most-played card of the game (nine or more deploys at tiles [7, 14], [8, 0], [4, 12], [3, 8], [8, 14], [5, 11], [5, 15], [6, 14], [5, 12], [2, 14]) — the default 1-Elixir answer in this cycle deck."
+    ],
+    "the-log": [
+      "clock 2:26 and 1:50: The Log at tiles [3, 15] and [2, 14] into the ground push (Heroic Bowler plus support) coming down his left lane.",
+      "clock 1:04 and overtime 1:29: layered directly on top of his Cannon at tiles [4, 13] and [4, 12] as part of the Electro Giant answer.",
+      "clock 0:25 onwards: in the finish he uses it as chip damage, not defence — \"Then we can just go for the log. I I I need the tower damage for sure\", and again in the last cycle at tile [3, 14]: \"we need to earthquake and then we need a log and I think ... by the hair of our chinny chin chin, we win.\""
+    ],
+    "earthquake": [
+      "clock 1:34: Earthquake onto the enemy tower/Goblin Cage area (deploy labels at tiles [5, 21] and [7, 25]) used as a probe for the opponent's list — \"Okay, I'm just going to Earthquake here. He could cycle his Evo Cage. I think this will tell us a bit more about his win condition though.\"",
+      "overtime clock 1:48: takes it as free value when the opponent's building is not down, and immediately prices the counter-trade — \"Ooh, that's a free earthquake though. I will take this ... He could grab a free lightning though cuz we grabbed the free earthquake. That'd be good for him.\"",
+      "clock 0:27 and 0:07: the finishing chip in an overtime race, at tiles [3, 22] and [3, 21] — \"Let's earthquake here\" and \"we need to earthquake and then we need a log\" — while the enemy left tower runs 653 -> 129 HP.",
+      "note: the pipeline attributed every Earthquake deploy label in this game to the opponent because they land on the enemy half, and its video-level deck consensus read the slot as Heal Spirit. The commentary places each Earthquake within ~1 s of Ryley calling the play and he names his own deck \"Hog EQ\" (t=1267), so Earthquake is the eighth card of this list."
+    ],
+    "electro-giant": [
+      "clock 1:16 onwards: the opponent's win condition, pushed down Ryley's left lane at tiles [4, 23], [4, 18], [4, 22], [3, 13], [2, 13] at least five times, twice reaching \"tower in 0.8s\"; Ryley never spends a dedicated counter, answering with a high Cannon plus Electro Spirit and The Log and otherwise racing the opposite lane.",
+      "clock 2:34-2:26: his read on the archetype before seeing it — \"I feel like e-giant really is not the greatest deck, but ... e-giant actually nowadays has decent chances against Hog EQ with having the Evo Baby Dragon and the Evo Goblin Cage as well.\"",
+      "clock 2:10: he infers the whole deck from one card — \"Oh, he has a Bowler, okay. I guess that means he has E-Giant.\""
+    ],
+    "bowler": [
+      "clock 1:49 onwards: the opponent's Heroic Bowler is the card that actually beats him down, taking his left tower from 2007 to 1545 HP around t=1456-1464 — \"Please take out the Bowler. Ah, it's going to get one, isn't it?\"",
+      "clock 1:18: his summary of the Hero variant — \"God, I hate that bowler, man. It's just like a magic archer with 6,000 HP\", and earlier \"Dude, when Hero Bowler came out, man, that was a a time in the game, dude.\"",
+      "clock 0:20: \"he's just getting bowler hits every time he feels like it\", after the opponent puts down a second one at clock 0:28."
+    ],
+    "goblin-cage": [
+      "clock 2:22-2:16: his main balance complaint of the game — \"Do you think that the Evo Goblin Cage needs a nerf? I feel like the Evo Goblin Cage just gets way too much value, honestly. Especially like on defense, man, it's super hard to play into.\"",
+      "clock 1:22: it changes how he times his win condition — \"Now, if I go for the Hog Rider, he can Evo Cage\" — and he Earthquakes at clock 1:34 partly to see whether the opponent will cycle it.",
+      "clock 1:12 (overtime): by the endgame he accepts it — \"He can go for a goblin cage, too, for all I really care.\""
+    ],
+    "baby-dragon": [
+      "clock 2:38 onwards: the opponent's evolved Baby Dragon is tracked at tiles [1, 19], [3, 12], [7, 14], [1, 16]; Ryley plans two specific answers to it — \"Go for the Evo Cannon here. Make sure we hit the Baby Dragon\" (clock 0:15) and \"E-spirit to block the baby dragon. Nice\" (clock 0:34).",
+      "clock 2:30: he names it as one of the two cards that make Electro Giant playable into Hog EQ — \"having the Evo Baby Dragon and the Evo Goblin Cage as well.\""
+    ],
+    "lightning": [
+      "overtime clock 1:01: never confirmed on screen but he plays the whole endgame around it — \"We're only down 500, but with him having the lightning, that does seem like a pretty hard thing to get through.\"",
+      "clock 0:37: the game turns on the opponent not casting it — \"I knew he was going to go for the — oh my god, what? He didn't go for the lightning? Okay, that's a crazy play to not go for the lightning.\"",
+      "clock 0:19 to 0:03: he counts the requirement out loud and wins because it never lands twice — \"He needs two lightnings. He's going to be able to get the second one, I believe\" ... \"we win. Yes, let's go. He didn't get the lightning.\""
+    ],
+    "zappies": [
+      "clock 1:50: first sighting at tile [0, 17], and the surprise is the point — \"Okay, he has Zappies. What the heck is this?\" They then appear in both lanes ([12, 24], [2, 21], [6, 15], [2, 15]) and repeatedly show as \"tower in ~6-8s\" threats that he answers with The Log and Skeletons."
+    ],
+    "magic-archer": [
+      "clock 1:18: mentioned only, as the benchmark for how the Heroic Bowler feels to play against — \"It's just like a magic archer with 6,000 HP.\""
+    ],
+    "barbarian-barrel": [
+      "clock 2:14: mentioned only, as the answer he expects the opponent to have for his second Hog Rider — \"He's going to NATO this to the King's Tower and then Barbarian Barrel, probably.\" No Barbarian Barrel was ever observed in this game."
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons-the-log",
+    "cards": [
+      "cannon",
+      "earthquake",
+      "electro-spirit",
+      "firecracker",
+      "hog-rider",
+      "mighty-miner",
+      "skeletons",
+      "the-log"
+    ],
+    "bullets": [
+      "Game 6 of 6 of this single-deck video, and the only one that ends with an overtime race: Ryley wins with the enemy left Princess Tower on 129 HP and his own on roughly 620 — \"by the the hair of our chinny chin chin, we win. Yes, let's go. He didn't get the lightning\" (t=1533-1539).",
+      "The deck is piloted as a pure chip-cycle: eight Hog Riders in five minutes, every one of them at a bridge tile ([1, 15] left, [16, 14] right), with the lane chosen against the opponent's commitment — the moment the Electro Giant lands at tile [4, 23] at clock 1:17 the Hog goes to the opposite bridge.",
+      "Defence is deliberately cheap and layered rather than hard: a high Cannon at tiles [9, 13]/[9, 8]/[8, 10]/[9, 11]/[9, 14] (never tucked at the tower), then Electro Spirit and The Log on top of it, with Skeletons for knockback — \"let's go for the high cannon here\" (clock 1:09), \"Skellies are to knock this back\" (clock 0:12).",
+      "Mighty Miner is used offensively as often as defensively here: bridge drops at clock 1:58 and clock 1:04 (\"let's just Mighty the bridge here\", \"let's go for the high mighty miner here\"), justified by the opponent's Goblin Cage ability — \"if he goes for the ability, then we just have a free Mighty Miner.\"",
+      "The 3-Elixir spell slot is Earthquake, not Heal Spirit as the perception pipeline's video-level consensus read it: Ryley names his own list \"Hog EQ\" (t=1267) and calls six Earthquakes on the enemy tower (t=1323, 1377, 1430, 1489, 1511, 1530), each matching an Earthquake deploy label the pipeline mis-attributed to the opponent because it landed on the enemy half.",
+      "The win comes from spell-plus-cycle chip, not from a big push: the enemy left tower steps 4858 -> 3597 -> 2596 -> 2046 -> 1450 -> 943 -> 653 -> 129 HP off Hog connections, Earthquakes and Firecracker/Log chip, with the last twenty seconds spent on the fastest possible cycle — \"Skellies, I need to do my fastest possible cycle. E-spirit, we need to earthquake and then we need a log.\""
+    ],
+    "new_deck": {
+      "display_name": "Hog EQ MM 2.6 (Ryley)",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "rationale": "Sub-3 average elixir with a cheap building, two 1-Elixir spirits and a fast win condition played repeatedly at the bridge for chip rather than as part of a push.",
+      "why_it_works_md": "Every card in the list is a cycle card except the win condition, so Hog Rider comes back faster than the opponent's answer to it — Ryley sends eight Hogs at the bridge in five minutes and never once builds a push behind one. Defence is bought cheaply and in layers: an evolved Cannon placed high on his own half, Electro Spirit and The Log stacked on top of it, and Skeletons for knockback, which is enough to survive an Electro Giant that costs the opponent seven Elixir every time. Mighty Miner doubles as tank answer and second bridge threat, which is what lets him keep pressure on while defending the same lane. The weakness is exactly what he complains about all game: a Heroic Bowler and an Evo Goblin Cage give a beatdown deck a defence that his 2.6-Elixir cycle cannot break through cleanly, so the game becomes a spell race that he only wins because the opponent never lands a second Lightning."
+    }
+  }
+}

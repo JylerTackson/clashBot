@@ -1,0 +1,80 @@
+{
+  "key": "XM5NEb9SeBY-m0.4",
+  "match_file": "matches/XM5NEb9SeBY-m0.4.md",
+  "video_title": "NERF the Hog Rider NOW!!!",
+  "cards": {
+    "hog-rider": [
+      "clock 2:25 (t=965): opened his push with Hog Rider at the left bridge tile [1, 15] and immediately followed with an Earthquake into the middle of the opponent's half - 'I'm going to hog rider here guys, and then I'm going to go for the earthquake in the middle here trying to grab the cannon'.",
+      "clock 1:37 and 1:09 (t=1014.8, 1042.4): repeated the same [1, 15] bridge Hog on cycle against 2.6 - 'we can go for the hog rider again cuz we do have a cycle him, which is good' - but the second one was answered by Evolved Skeletons plus a Log ('that was just a perfectly timed log by him').",
+      "clock 1:23 (t=1147): switched to a back placement at tile [1, 2] instead of the bridge after deciding the naked cycle was losing - 'I can't just go naked hog rider over and over again or I will just lose this game' / 'I think I want a hog rider in the back this time though'.",
+      "clock 0:08 (t=1222): last-gasp Hog Rider at the right bridge tile [16, 14] in overtime after refusing the lane switch earlier - 'Hog rider on the other side'. He lost the game and closed with 'his hog just got too many random shots. Like just one or two shots and it's just cooked' (the opponent's Hog, in a video titled 'NERF the Hog Rider NOW!!!')."
+    ],
+    "earthquake": [
+      "clock 2:25 (t=967): cast into the middle of the opponent's half at tile [9, 20] behind a bridge Hog Rider, aimed at the defending Cannon - 'very good earthquake right there. I like to go for those middle earthquakes in this match up. I feel like they're just value. You almost always get a nice hog rider hit out of it if they're not prepared'.",
+      "clock 1:36 (t=1016): deliberately delayed rather than cast on the Cannon on sight - 'I'm not going to earthquake the cannon immediately though. I'm going to hog now. I'm just going to wait cuz he might cannon off to the side this time' - then dropped it at [3, 21] once the opponent committed the Cannon centrally again.",
+      "clock 1:59 and 1:17 (t=1113, 1154): in overtime he ran the same Hog-plus-Earthquake pattern at [6, 19] both times - 'we go for the hog rider here and then we go for the earthquake here. Make sure that we try to take out this cannon and we need to try to grab a shot'.",
+      "clock 0:47 (t=1183): stacked it on top of a Firecracker that had just killed the Musketeer, at [4, 21], and the enemy left tower fell 3764 -> 3546 - 'Let's earthquake this as well and then we can go for the Evo Cannon, too'. Note: the pipeline auto-attributed these five deploy labels to the opponent because they land on the opponent's half; they are narrated in first person and are Ryley's own (see the match file's Data gaps)."
+    ],
+    "cannon": [
+      "clock 1:50 (t=1008): held it in hand as insurance and only played it when the opponent's Hog was expected, at tile [9, 8] - 'I have the cannon ready though just in case he wants to hog rider' / 'Let's cannon here for the hog rider'.",
+      "clock 1:14 (t=1156-1157): played a Cannon and then spent his last elixir on Skeletons to protect it - 'the reason I'm going skellies too is cuz I want the Cannon to live cuz if the Cannon lives then I at least like have a thing that's on the board so he has to either spell it away or wait for it to die. Either one is good for me'.",
+      "clock 1:04 (t=1168): treated a surviving Cannon as tempo for the next one - 'this Cannon being alive will help out a lot cuz we can just go for another Cannon here and just take out this other hog rider'. He cycled Cannon roughly ten times in 306 s, always centrally in front of the tower under attack ([8, 10], [9, 10], [9, 11], [9, 12], [10, 9], [11, 9]).",
+      "clock 1:19 (t=1152): he also tracked the opponent's Evolved Cannon cycle - 'Does he go Evo Cannon though cuz I know he's coming up on the Evo Cannon' - and read its placement as the thing his Earthquake has to punish ('he does it in the middle once again')."
+    ],
+    "mighty-miner": [
+      "clock 1:53 (t=998): placed in the back at tile [8, 0] to build a push instead of sending a naked Hog - 'In this match up, mighty miners in the back are actually pretty solid. I just have to be careful to not give the musketeer too much value'.",
+      "clock 0:31 (t=1080.7): used defensively at [14, 11] as the anchor of a multi-card hold - 'Let's go for the mighty miner here. Let's e-spirit. We need to log. We need to cannon as well'.",
+      "clock 1:51 (t~1120): went hunting for ability damage on the Crown Tower - 'could I grab the mighty miner ability off on the tower though? Come on, give me one. Nice. All right, we're back in it low-key' - the enemy left tower dropped 4351 -> 3820 seconds later.",
+      "clock 0:43 (t=1066-1070): explained the lane choice while a back Mighty Miner walked up - 'maybe not actually cuz of the mighty miner. That's why going mighty miner same lane is good'."
+    ],
+    "firecracker": [
+      "clock 1:29 (t=1022.5): placed at tile [9, 9] behind the Cannon specifically to out-range the opponent's Musketeer - 'I hope that the firecracker can take out that musketeer. He might activate the king tower, which is all right'.",
+      "clock 0:42 (t=1070): same job again - 'Let's firecracker make sure that we take out this musketeer' - but the Musketeer traded first ('it grabbed the final shot, man. That sucks', his left tower 4295 -> 4239).",
+      "clock 0:50 (t=1179): the shot that finally landed - 'Let's go for the firecracker. Maybe hit the musky. Come on. Nice. Beautiful shot on the musketeer right there'.",
+      "clock 0:19 (t=1213.5): late defensive Firecracker at [8, 8] behind the Cannon during the final Hog + Ice Golem push - 'e-spirit firecracker here'."
+    ],
+    "electro-spirit": [
+      "clock 1:22 (t=1028.7): used as a cheap block ahead of a bigger answer - 'Let's go E spirit here just to make sure we block for this, then we can go for the skelly as well' (deploy label tile [13, 14]).",
+      "clock 0:48 (t=1183.2): defensive Electro Spirit at [5, 13] into the lane the opponent's push was walking down, played at 4 elixir alongside a Log and a Cannon.",
+      "clock 0:42 (t=1189): played purely for chip on an off-lane Hog rather than on defense - 'that hog rider going off lane is good. Let's e-spirit here on the right side just to try to grab some extra damage, maybe' (tile [15, 14]); the enemy right tower fell 4239 -> 3573 over the next minute."
+    ],
+    "skeletons": [
+      "clock 1:14 (t=1157.3): dropped at tile [11, 9] in front of a fresh Cannon, down to 1 elixir, to keep the building alive rather than to kill anything - 'the reason I'm going skellies too is cuz I want the Cannon to live... he has to either spell it away or wait for it to die'.",
+      "clock 0:17 (t=1216.4): same use in overtime at [12, 11] under a Hog + Ice Golem push - 'Cannon here skellies'.",
+      "clock 1:59 (t=1110): cheap cycle card in front of the Hog Rider push - 'Let's Skellies and we go for the hog rider here and then we go for the earthquake here'. Across the game he cycled Skeletons a dozen times, mostly at the river tiles ([9, 15], [10, 15], [11, 15], [14, 13], [15, 13], [16, 11])."
+    ],
+    "the-log": [
+      "clock 1:11 (t=1040.4): rolled at [15, 14] to clear the way before re-cycling the Hog - 'Let's log here and then we can go for the hog rider again cuz we do have a cycle him'.",
+      "clock 0:48 (t=1062.4): defensive Log at [3, 13] into the lane the opponent's Musketeer and Evolved Skeletons were walking, immediately before the Evo Cannon - 'Let's log here then we have to go for the Evo cannon'.",
+      "clock 1:41 (t=1129.6) and clock 0:23 (t=1214): Log as the standing answer to the opponent's swarm - 'log as well. Make sure we take this out' / 'We have to go for the log. We have to go for another Cannon'. He cast it about fifteen times, the most of any card in the window.",
+      "clock 0:07 (t=1105): he also predicted the opponent's Log on his own Firecracker and accepted the trade - 'Evo firecracker here. Log. I know he's going to go for his log, which is fine'."
+    ],
+    "musketeer": [
+      "Opponent's card (not played by Ryley). clock 0:53 (t=1058): named as the reason the matchup is bad for him - 'He can start spam cycling the muskies though, that's the biggest problem. Musketeers get so much value'.",
+      "clock 1:53 (t=998): she shapes his back placements - 'I just have to be careful to not give the musketeer too much value' when putting Mighty Miner behind his towers.",
+      "clock 1:29 to 0:50 (t=1022.5 - 1184): his standing answer was Firecracker ('I hope that the firecracker can take out that musketeer'; 'Beautiful shot on the musketeer right there'), and at clock 1:23 he sent a back Hog Rider partly at her - 'Just need to try to deal some damage to that musketeer'."
+    ],
+    "ice-golem": [
+      "Opponent's card (not played by Ryley). clock 2:32 (t=958): part of his pre-game read on why he would rather be on the 2.6 side - 'with the hero ice golem being as broken as it is, I definitely rather be on that side'.",
+      "clock 0:23 (t=1207): he calls the Ice-Golem-first Hog push by name - 'he does the forbidden tech of the ice golem in the back with the hog rider first'; the detector tracked ice-golem(e) advancing on his right lane at 1082s, 1104s, 1134s, 1174s and 1210s during the pushes that took that tower from 4858 to about 3048."
+    ]
+  },
+  "deck": {
+    "deck_key": "cannon-earthquake-electro-spirit-firecracker-hog-rider-mighty-miner-skeletons-the-log",
+    "cards": ["cannon", "earthquake", "electro-spirit", "firecracker", "hog-rider", "mighty-miner", "skeletons", "the-log"],
+    "bullets": [
+      "Game 5 of 6 of this single-deck session and the only loss: a Hog cycle mirror-ish matchup against classic 2.6 Hog Cycle (Hog Rider, Evo Cannon, Musketeer, Ice Golem, Ice Spirit, Evo Skeletons, Fireball, The Log). Ryley called it before the start - clock 2:43: 'Whenever I have 2.6, I always beat hog rider earthquake... it's just so hard for us to play, I definitely rather be on the 2.6 end' - and confirmed the result at clock 0:03: 'And uh yeah guys, we lost, man'.",
+      "The core loop is Hog Rider at the left bridge tile [1, 15] plus a spell into the middle of the opponent's half to break their defending Cannon, run at clock 2:25, 1:37, 1:09, 0:15 and in overtime at 1:59 and 1:17. Clock 2:19: 'I like to go for those middle earthquakes in this match up... you almost always get a nice hog rider hit out of it if they're not prepared'. (The spell is Earthquake; the pipeline auto-attributed its five deploy labels to the opponent because they land on the enemy half - see the match file's Data gaps.)",
+      "Defence is Cannon-centred and reactive: hold the building for the opponent's Hog (clock 1:51, 'I have the cannon ready though just in case he wants to hog rider'), then protect it with Skeletons so it stays on the board (clock 1:14, 'I want the Cannon to live... he has to either spell it away or wait for it to die'), with Firecracker behind it for the Musketeer and Mighty Miner or The Log for whatever tanks.",
+      "The self-critique at clock 1:31 is the deck lesson of the match: 'I need to actually build up pushes. I can't just go naked hog rider over and over again or I will just lose this game' - after which he starts every Hog with a back Mighty Miner ([8, 0], [9, 0], [8, 1]) or plays the Hog itself in the back at [1, 2].",
+      "He lost the right Princess Tower's health to a lane-switching Hog at clock 0:25-0:23 (4858 -> 3654, 'the hog rider just swerved me'), went to overtime level on towers, and refused to switch his own attack lane at clock 0:35 ('I don't think we want to switch to the same lane. That's the problem') before running out of pressure: 'we're just going to lose cuz we can't apply enough pressure to grab the damage back'."
+    ],
+    "new_deck": {
+      "display_name": "Hog EQ MM Cycle Ryley",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "none",
+      "rationale": "Average elixir 2.5 with a single fast win condition, 1-elixir cycle cards and a cheap defensive building, replayed every rotation.",
+      "why_it_works_md": "A 2.5-elixir Hog Rider cycle: Hog Rider at the bridge on repeat, a middle spell to break the defending building, and Cannon plus Skeletons, Electro Spirit, Firecracker and The Log to defend for as little elixir as possible. It wins by outcycling the opponent's answer to the Hog and chipping with the spell every rotation; Mighty Miner adds a defensive anti-tank that doubles as a back-placed push starter and a tower-damage ability. In this match Ryley showed both halves of the plan and its main failure mode: the Hog-plus-middle-spell loop is efficient (`> [973s] you almost always get a nice hog rider hit out of it if they're not prepared`), but against 2.6's Evolved Cannon, cycled Musketeers and perfectly timed Logs it stops connecting, and cycling the Hog alone loses (`> [1139s] I can't just go naked hog rider over and over again or I will just lose this game`)."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+ "video_id": "XM5NEb9SeBY",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 275.9,
+   "events": 142,
+   "own_deck": [
+    "skeletons",
+    "the-log",
+    "cannon",
+    "mighty-miner",
+    "firecracker",
+    "hog-rider",
+    "electro-spirit",
+    "heal-spirit"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 276.1,
+   "events": 126,
+   "own_deck": [
+    "cannon",
+    "the-log",
+    "skeletons",
+    "hog-rider",
+    "firecracker",
+    "mighty-miner",
+    "electro-spirit",
+    "heal-spirit"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 170.0,
+   "events": 63,
+   "own_deck": [
+    "skeletons",
+    "hog-rider",
+    "cannon",
+    "electro-spirit",
+    "mighty-miner",
+    "firecracker",
+    "the-log",
+    "heal-spirit"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 213.0,
+   "events": 102,
+   "own_deck": [
+    "skeletons",
+    "firecracker",
+    "cannon",
+    "hog-rider",
+    "the-log",
+    "mighty-miner",
+    "electro-spirit",
+    "heal-spirit"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 306.1,
+   "events": 125,
+   "own_deck": [
+    "the-log",
+    "skeletons",
+    "cannon",
+    "mighty-miner",
+    "firecracker",
+    "hog-rider",
+    "electro-spirit",
+    "fire-spirit"
+   ]
+  },
+  {
+   "match": "0.5",
+   "seconds": 301.5,
+   "events": 153,
+   "own_deck": [
+    "the-log",
+    "electro-spirit",
+    "skeletons",
+    "firecracker",
+    "hog-rider",
+    "cannon",
+    "mighty-miner",
+    "heal-spirit"
+   ]
+  }
+ ]
+}
