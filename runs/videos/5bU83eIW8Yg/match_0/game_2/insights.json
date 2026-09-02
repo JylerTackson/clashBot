@@ -1,0 +1,71 @@
+{
+  "key": "5bU83eIW8Yg-m0.2",
+  "match_file": "matches/5bU83eIW8Yg-m0.2.md",
+  "video_title": "TOP 5 Decks in Clash Royale for the New Meta",
+  "cards": {
+    "furnace": [
+      "clock 2:44 and 2:18: opened the game with two Furnaces on his own half, at tiles [2, 9] and then deep behind the left tower at [1, 1] (elixir 8 -> 4), while arguing the nerf made it better — \"I really thought that it would be dead after the nerf because the spirits no longer connect to the towers, and to be honest, I couldn't have been more wrong.\"",
+      "clock 2:31-2:03: states the usage rule the placements follow — \"the furnace is dead in some decks where they rely off of the damage like graveyard, but for decks that were using it only for its defensive potential, I actually was so wrong because it's so much better defensively now. So, as long as you're not using the furnace as like an offensive tool, it's completely fine to still have in your deck.\"",
+      "clock 1:46: dropped it at [8, 14] as an emergency block while the Golem push was killing his left tower — \"I mean, I guess I'll furnace here. I think I'm just cooked though, right? Like, how the heck do I even stop this?\"",
+      "clock 0:57 and 0:32: with a crown banked he converted the lead into permanent defence, Furnace at [8, 1] and again at [10, 0] on the king-tower rows — \"We can cycle another furnace here. I do just want to keep on stacking up my furnaces.\" Every one of the five placements in this game is on his own half."
+    ],
+    "goblin-hut": [
+      "clock 2:40, 2:11 and 0:38: placed at [7, 9], [9, 9] and [9, 10] — the centre of his own half, so the Spear Goblins cover both lanes against a Golem beatdown deck. Paired with the Furnace as the deck's whole defensive engine.",
+      "clock 0:16: used as a pure body-block rather than a value building, in front of a Golem crossing to his last tower — \"Okay, he could go to our tower right now. I have to go for the goblin hut here just to distract and we can go for the barbarian barrel.\""
+    ],
+    "berserker": [
+      "clock 2:35, 2:02, 0:48 and 0:26 (Hero variant): a 2-elixir defensive troop, never a win condition — deploy labels at [9, 12], [6, 8], [8, 14] and [11, 10], all on his own half or the bridge. He names two placement heights: \"let's go for the Berserker here low\" (2:02) when he wants it in front of his tower, \"let's go for the high berserker here\" (0:52) when he wants it to meet the push early.",
+      "clock 2:02-1:57: tried and failed to get Savage Survival off — \"I want an ability if I can. Yeah, I couldn't get the ability off. It's fine.\"",
+      "clock 0:48-0:44: the ability play that decided the game, used as a prediction rather than a rescue — \"He might e-barb, so let's pop our ability as well just to make sure that it stays alive… Beautiful ability right there just predicting that he'd go all in like a dummy,\" followed by \"Okay, very good defense here actually. We defended that push really well.\"",
+      "clock 2:49: the card is one of the three Ryley names the deck after — \"this Royal Hogs Hero Berserker Evo Ghost deck.\""
+    ],
+    "royal-ghost": [
+      "clock 1:55, 0:57, 0:29 and 0:19 (evolved): played at [3, 9], [8, 0] and [12, 8] — always his own half, usually the back rows, as cycle and defence rather than a lane opener. \"Let's go for the ghost in the back and we can go for the furnace as well\" (0:58).",
+      "clock 1:55: the one time he committed it under pressure it was a concession, not a counterattack — \"We'll just go for the ghost here. Take a bunch of damage.\""
+    ],
+    "royal-hogs": [
+      "clock 1:16: the play that won the game — Royal Hogs at the right-hand bridge tile [15, 14] while the opponent's Golem was committed to the other lane. \"Okay, let's just Royal Hogs opposite lane cuz, obviously, he can't go for the Golem on the left.\" The enemy right tower fell from 3830 to ~290 over the next nine seconds.",
+      "clock 1:28: also used them defensively/parked at [11, 2] on his own half while the Golem push was landing, rather than trading in the busy lane.",
+      "clock 0:07: called for a third set as the closer — \"We can just go for the evil piggies and this should just be good game.\" Only two Royal Hogs commitments in a 176-second window: this is a slow, spawner-led Royal Hogs deck, not a bridge-spam one."
+    ],
+    "barbarian-barrel": [
+      "clock 2:13, 1:42, 0:52, 0:26 and 0:12: five placements ([7, 5], [14, 4], [6, 2], [4, 11], [6, 3]) as the deck's only on-demand ground clear against Night Witch skeletons, Bats and Bomber. Called as a reflex each time — \"Let's barbarian barrel here\" (1:42), \"let's barbarian barrel\" (0:26), \"we can go for the barbarian barrel… We can barb barrel\" (0:14-0:12).",
+      "clock 0:52 and 0:16: used as the second half of a two-card block, immediately after the Berserker or the Goblin Hut distraction, rather than as an opening answer."
+    ],
+    "electro-spirit": [
+      "clock 1:23: a targeted 1-elixir answer, not cycle filler — \"let's go for the E-Spirit here just to make sure that we take out that bomber\" with the Bomber reading \"tower in 4.8s\" on the threat list.",
+      "clock 0:50: deploy label at [12, 11] as pre-emption against a Night Witch and Bats package — \"let's go for the e-spirit over here just to not have to be careful. It's ability as well.\""
+    ],
+    "skeletons": [
+      "clock 2:33, 1:59, 1:57, 0:51, 0:47, 0:25 and 0:23: seven 1-elixir drops, always back-to-back with another defensive card (Skeletons -> Berserker at 1:59-1:55, Barbarian Barrel -> Skeletons -> Berserker at 0:52-0:48). The cheapest cycle card in a 2.75-elixir shell trying to get back to Royal Hogs and Furnace.",
+      "Never mentioned by name in this game; the slot is the least certain in the deck read (HUD-only, no deploy label) — see the match file's Data gaps."
+    ],
+    "golem": [
+      "clock 1:37: Ryley identifies the opponent's whole plan and its cost — \"he just like sacrificed everything to just go all in with Golem, Night Witch, Lumberjack, and E-Barbs in the other lane.\" His answer is not a defensive troop but lane-swapping his Royal Hogs plus stacked Furnace/Goblin Hut spawners.",
+      "clock 0:16: treats a late Golem crossing to his last tower as a mistake, answering with a Goblin Hut distraction and Barbarian Barrel — \"I think that was just bad by him.\""
+    ],
+    "elite-barbarians": [
+      "clock 1:54-1:46: names them as the emblem of the meta this deck is built for — \"one thing that I'm noticing about this meta, man, is that it's such an aggressive low-skill meta. Like, it's constantly just like… E-Barbs at the bridge and stuff like that.\"",
+      "clock 0:48: pre-empted them with the Hero Berserker's ability rather than a hard counter — \"He might e-barb, so let's pop our ability as well just to make sure that it stays alive.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "barbarian-barrel-berserker-electro-spirit-furnace-goblin-hut-royal-ghost-royal-hogs-skeletons",
+    "cards": ["barbarian-barrel", "berserker", "electro-spirit", "furnace", "goblin-hut", "royal-ghost", "royal-hogs", "skeletons"],
+    "bullets": [
+      "Deck 3 of 5 in a showcase video; Ryley names it himself at 2:49 — \"this Royal Hogs Hero Berserker Evo Ghost deck\" — and spends the first 45 seconds justifying the Furnace slot after its nerf: \"as long as you're not using the furnace as like an offensive tool, it's completely fine to still have in your deck… the defense is even better\" (2:31-2:03).",
+      "The pilot pattern is two spawners plus cheap cycle, not pressure: Furnace on his own half five times (2:44 [2, 9], 2:18 [1, 1], 1:46 [8, 14], 0:57 [8, 1], 0:32 [10, 0]) and Goblin Hut four times at the centre of his half ([7, 9], [9, 9], [9, 10], [8, 4]), with Skeletons, Electro Spirit and Barbarian Barrel spent to survive between them.",
+      "Royal Hogs is committed only twice in 176 seconds, and the winning commitment is a lane swap away from the opponent's tank: \"let's just Royal Hogs opposite lane cuz, obviously, he can't go for the Golem on the left\" (1:16). That took the enemy right tower at ~0:58.",
+      "The Hero Berserker is the defensive safety valve rather than a threat — 2 elixir to place, Savage Survival held for the predicted Elite Barbarians: \"He might e-barb, so let's pop our ability as well just to make sure that it stays alive… Beautiful ability right there just predicting that he'd go all in like a dummy\" (0:48-0:44).",
+      "Result vs Golem beatdown: he loses the left crown tower to the Golem/Night Witch/Lumberjack/E-Barbs push at ~1:50-0:56 and wins anyway — \"At least we got the tower, so as long as we can save our right side tower, we do win this game\" (0:57), then \"No way we clutched this, man. Let's go. Very nice win right here\" (0:03).",
+      "Deck read caveat: the perception pipeline reported Ice Spirit and Wall Breakers instead of Royal Hogs and Electro Spirit (hand confidence 0.497); the list above follows the deploy labels and Ryley's own play calls. Skeletons is the least certain slot. See the match file's Data gaps."
+    ],
+    "new_deck": {
+      "display_name": "Royal Hogs Hero Berserker EvoGhost Furnace",
+      "archetype_primary": "cycle",
+      "archetype_secondary": "control",
+      "rationale": "A ~2.75-elixir shell that spends Skeletons, Electro Spirit and Barbarian Barrel to cycle back to Royal Hogs is Cycle first, but the two permanent spawners (Furnace and Goblin Hut) and a game plan of outlasting a Golem rather than out-tempoing it make Control a real secondary.",
+      "why_it_works_md": "The deck answers a heavy, aggressive meta by never contesting the opponent's lane. Two spawners — Furnace deep on his own half and Goblin Hut in the centre — generate free defensive bodies every cycle, so the cheap cards (Skeletons, Electro Spirit, Barbarian Barrel) only have to fill gaps rather than solve pushes outright, and the Hero Berserker's Savage Survival gives a 2-elixir troop the survivability of a much larger one at the exact moment a beatdown deck commits. Ryley's case for the Furnace after its nerf is the deck's thesis: \"for decks that were using it only for its defensive potential, I actually was so wrong because it's so much better defensively now\" (2:23). Royal Hogs then only needs to connect once, in the lane the opponent's tank has abandoned — \"let's just Royal Hogs opposite lane cuz, obviously, he can't go for the Golem on the left\" (1:16). The weakness the game exposes is that the spawners cannot hold a fully committed Golem push on their own: he loses a crown tower to it and has to win on the crown he took in the other lane."
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "key": "5bU83eIW8Yg-m0.4",
+  "match_file": "matches/5bU83eIW8Yg-m0.4.md",
+  "video_title": "TOP 5 Decks in Clash Royale for the New Meta",
+  "cards": {
+    "elite-barbarians": [
+      "clock 2:34 (t=711.7): Evolved Elite Barbarians at the bridge, tile [14, 14], with the punish spell ruled out first — \"I will go for my e-barbs here at the bridge cuz I don't think that he has a rocket in his deck\".",
+      "clock 2:15-2:11 (t=731-740): states the whole matchup plan around them against a Log Bait deck with an Inferno Tower he cannot stun — \"I just need to get a lot of elixir up and just spam my e-barbs cuz I assume he has inferno tower, and I'm not actually going to be able to reset that inferno tower\".",
+      "clock 1:35-1:32 (t=771.8, 774.8): two bridge drops at tile [3, 14] followed by Rage — \"I think I just e-barbs at the bridge here on the right side, and then we go for the rage... We just eat the barrel, and we just go for the rage on offense\".",
+      "clock 1:21 (t=905.9): in overtime he plays them deep beside the tower rather than at the bridge, tile [8, 19] — \"we can go for the Evo E Barbs here in the pocket\"; that push plus Rage and Minions takes the enemy right tower from 3122 to 588 HP by clock 1:03."
+    ],
+    "rage": [
+      "clock 2:22 (t=723.7): dropped on the bridge Elite Barbarians already committed at tile [14, 14] — \"Okay, let's go for the rage here. Just make sure that we take out that skeleton army\".",
+      "clock 1:19 (t=787.8): cast on the opponent's half at tile [3, 18] for extra chip once the tower was already falling — \"let's just rage this up here. Get some extra damage onto his king tower, maybe\"; the enemy left tower goes 4738 -> 640 HP over t=782-790.",
+      "clock 1:53-1:47 (t=875-878): deliberately withheld as the answer to the defence rather than as a speed-up — \"let's go for the Giant here and then we can go for the Rage once he goes for the Skeleton Army\".",
+      "clock 1:15 and 0:42 (t=912.1 [8, 23], t=943.9 [9, 23]): both overtime Rages go on top of a pocket push that is already connecting — \"We have the Rage ready. Yep, let's Rage here\" and \"Let's just rage this all up guys\"."
+    ],
+    "giant": [
+      "clock 1:12 (t=795): played as the pocket tank for extra king-tower damage rather than as the lane opener — \"I think we just giant the pocket. Try to grab extra king\" (the push then lost value to a lag spike: \"Bro, the lag. Oh my god. Okay, at least we grabbed a Sparky shot\").",
+      "clock 0:03-1:53 (t=866-874): the overtime plan is Giant first, Evo E-Barbs behind — \"we can just go for a Giant Evo E Barbs in the pocket\", then \"Okay, let's go for the Giant here and then we can go for the Rage once he goes for the Skeleton Army\".",
+      "In this Giant/Sparky/E-Barbs list the Giant is support for the Elite Barbarians, not the win condition: four plays (t=776.1, 814.3, 824.5, 871.9) and only 4 commentary mentions against 13 for the Elite Barbarians."
+    ],
+    "sparky": [
+      "clock 1:51 (t=752.8): Sparky in the back at tile [7, 0] specifically to punish the opponent's Princess — \"we can Sparky into that princess. I do like to go for Sparky's into the princess cuz they're just able to get completely taken out. Like even like dark goblin stuff, you can just take it out very nicely\".",
+      "clock 0:52 (t=813.8): back placement chosen by which tower is weak, not by which lane he is attacking — \"Let's Sparky in the back towards the left just to defend my weak side tower\" (his right tower was on 125 HP).",
+      "clock 0:15 and 1:43 (t=851.4, t=882.9): re-placed in the back twice more, both times as pure denial — \"we just need to Sparky in the back again\" and \"Sparky in the back here and we're just not letting him attack at all. This is kind of funny. He can't go in\". All four Sparky plays in this game are at tiles [7, 0]/[8, 0]; none at the bridge."
+    ],
+    "wizard": [
+      "clock 2:40 (t=706.2): Evolved Wizard at tile [16, 6] played to tax the opponent and to cycle, not to defend — \"just doing this will force him to spend extra elixir on my wizard, which is good cuz I'm also cycling to my evo e-barbs at the exact same time\".",
+      "clock 0:32 (t=833.5): back placement at tile [8, 0] with the next card already planned — \"Let's Wizard in the back here. We have to cycle to our Arrows to take out that Princess\".",
+      "clock 1:03 (t=922.9): centre of his own half at tile [8, 5] as pre-cover against the bait deck's ground answers — \"Let's go for the wizard here in the middle in case he has to go for like a knight skarmy barrel\".",
+      "clock 0:44 (t=940.9): only once ahead in overtime does he put the Evolved Wizard on the opponent's half at tile [8, 21] — \"We can get a nice evo wizard in the pocket\"."
+    ],
+    "valkyrie": [
+      "clock 2:03 (t=742.6): 4-elixir play at the exact second he calls it as a Goblin Barrel answer — \"Let's definitely go for the Valkyrie here. Take out this goblin barrel\".",
+      "clock 0:47 (t=820.8): held at tile [2, 10] on his own half for a specific combo, stated before it arrives — \"We have the Valkyrie ready here if he tries to go for any type of Goblin Barrel Skarmy playing the pocket\".",
+      "clock 0:10 (t=856.9): played at tile [4, 18] on top of a whole cluster on the opponent's half — \"let's just go for the Valkyrie on top of everything... Very good Valkyrie walking to the Princess. Perfect\".",
+      "clock 1:21 and 0:57 (t=906.2 [3, 18], t=929.9): used pre-emptively against the opponent's Knight and then against the all-in — \"Let's Valkyrie on top as well cuz he's probably going to try to go for the Knight\", then \"beautiful Valkyrie there kind of just knowing that he was going to go all in\"."
+    ],
+    "minions": [
+      "clock 2:19 (t=727.7): Minions at tile [14, 13] held back as the answer to a possible Knight ability rather than played on schedule — \"Could get a knight ability if he does, we go for the minions, but yeah, otherwise we just take some damage\".",
+      "clock 1:41 (t=765.8): explicitly delayed because of the opponent's Evolved Dart Goblin — \"I'm not going to minions yet cuz he could have dark goblin. Okay, let's minions now\".",
+      "clock 1:29 (t=888-890): spent on the Princess while accepting the chip damage — \"Let's Minions here for the Princess. He is going to get I think two. Yeah, he's going to get two. All good though\".",
+      "clock 1:13 (t=913.9): Minions into the pocket behind Evo E-Barbs and Rage, and they are what finishes the tower — \"Evo Barbs are on the tower. Minions are on the tower... He's already at 500 HP\"."
+    ],
+    "arrows": [
+      "clock 1:05 (t=801.5): spent reluctantly on the Evolved Dart Goblin because nothing else in the deck answers it — \"I don't even want to arrows at the evo dark goblin, but I do think that I have to\".",
+      "clock 0:32 (t=834-837): cycling to Arrows is a stated objective in this matchup, not an afterthought — \"We have to cycle to our Arrows to take out that Princess\".",
+      "clock 0:38 (t=946.8): the game-ending play, Arrows on the Skeleton Army defending his overtime push — \"Let's go for the arrows here for the skarmy. Nice beautiful arrows just grabbing that skarmy army and that is good game\".",
+      "clock 1:51 (t=747-753): names the combo he wants with them — \"if I had e-barbs right now, I'd just drop e-barbs arrows at the bridge, to be honest, and I think that it would actually end up working out\"."
+    ],
+    "inferno-tower": [
+      "clock 2:11 (t=738-742): assumed in the opponent's deck before it was seen, and it shapes his whole game plan because this list has no stun — \"I assume he has inferno tower, and I'm not actually going to be able to reset that inferno tower\", so he plays for elixir volume instead.",
+      "clock 0:40 (t=824.8) and clock 1:18 (t=906.9): the opponent places it early at tile [10, 20] twice and Ryley rates both placements badly — \"These early Inferno Towers are not going to work\" and \"Bad Inferno Tower. That's not really doing what he wants it to\"."
+    ],
+    "princess": [
+      "clock 1:51 (t=756.8, tracked at tile [7, 22]): Ryley's stated answer to a Princess in this deck is a back-placed Sparky — \"I do like to go for Sparky's into the princess cuz they're just able to get completely taken out\".",
+      "clock 0:32 to 0:10: she is the reason he cycles for Arrows (\"We have to cycle to our Arrows to take out that Princess\", 835s) and eventually walks a Valkyrie into her (\"Very good Valkyrie walking to the Princess\", 860s).",
+      "clock 1:11 (t=915): rates the evolved version but caps it — \"Evo Princess is good, but it's not going to be enough\"."
+    ],
+    "skeleton-army": [
+      "Never captured as an event but named nine times as the card he plays around all game: he Rages the bridge push \"just [to] make sure that we take out that skeleton army\" (725-727s), and holds the Rage for it later — \"we can go for the Rage once he goes for the Skeleton Army\" (876s).",
+      "clock 1:05 (t=806-808): the specific thing he fears from a bait deck is the evolved version — \"The only thing that I have to watch out for is that he has the Evo Skeleton Army\", then surprise when it never appears: \"I'm surprised he doesn't have Evo Skarmy... crazy to see that he doesn't have it\" (836-844s).",
+      "clock 0:38 (t=946.8): the un-evolved Skarmy is what loses the game for the opponent, cleared by Arrows — \"beautiful arrows just grabbing that skarmy army and that is good game\"."
+    ],
+    "goblin-barrel": [
+      "clock 2:03 (t=742.6): answered with Valkyrie — \"Let's definitely go for the Valkyrie here. Take out this goblin barrel\".",
+      "clock 1:05 (t=802-805): he uses the opponent's Goblin Barrel as the trigger for giving up a tower he has already written off — \"I'll let my tower go when he goes for a goblin barrel\".",
+      "clock 0:47 (t=819-823): the combo he holds Valkyrie for is Barrel plus Skarmy played beside the tower — \"We have the Valkyrie ready here if he tries to go for any type of Goblin Barrel Skarmy playing the pocket\"."
+    ],
+    "dart-goblin": [
+      "Referred to throughout as \"dark goblin\" (auto-transcript). clock 1:43 (t=764-768): the Evolved Dart Goblin is why Minions stay in hand — \"I'm not going to minions yet cuz he could have dark goblin\".",
+      "clock 1:51 (t=760-762): names Sparky as the clean answer — \"Like even like dark goblin stuff, you can just take it out very nicely\".",
+      "clock 1:05 (t=799-802): the card that forces his Arrows out — \"I don't even want to arrows at the evo dark goblin, but I do think that I have to\"."
+    ],
+    "knight": [
+      "clock 2:19 (t=727-729): the only ability reference in the game, implying the opponent runs the Heroic Knight — \"Could get a knight ability if he does, we go for the minions, but yeah, otherwise we just take some damage\".",
+      "clock 1:25 (t=901-905): he pre-places Valkyrie for it — \"Let's Valkyrie on top as well cuz he's probably going to try to go for the Knight\" — and dismisses it again at 942-944s: \"He might even knight in the middle but that's not going to work\"."
+    ],
+    "ice-spirit": [
+      "clock 1:09 (t=918-921): the opponent's last-ditch save on a tower already broken by Evo E-Barbs and Minions — \"Spirit's going to save him, but it's not going to save him well enough. He's already at 500 HP\"."
+    ]
+  },
+  "deck": {
+    "deck_key": "arrows-elite-barbarians-giant-minions-rage-sparky-valkyrie-wizard",
+    "cards": [
+      "arrows",
+      "elite-barbarians",
+      "giant",
+      "minions",
+      "rage",
+      "sparky",
+      "valkyrie",
+      "wizard"
+    ],
+    "bullets": [
+      "Deck 5 of 5 in a deck-showcase video; Ryley introduces it at t=696 as \"this a giant Sparky e-barbs deck\" and immediately editorialises: \"I can't believe this is actually viable. It is so sad that, you know, this is what the game has actually come to\" (699-712s). Evolutions in play are Evo Elite Barbarians and Evo Wizard.",
+      "Stated game plan for a Log Bait matchup, clock 2:15-2:11: \"I just need to get a lot of elixir up and just spam my e-barbs cuz I assume he has inferno tower, and I'm not actually going to be able to reset that inferno tower\" — the list has no stun and no cheap cycle, so it plays for elixir volume rather than for a reset.",
+      "Regulation is a tower trade: a bridge Elite Barbarians + Giant + Rage push takes the enemy left tower 4738 -> 640 HP at clock 1:25-1:17 (\"That's just tower down, no matter what he wants\", 787-790s), while the opponent's counter leaves Ryley's right tower on 125 HP at clock 1:17.",
+      "From triple elixir onward the deck's back-line placements are used as pure denial rather than offence: Sparky at [8, 0] three times, Valkyrie held for the Goblin Barrel/Skarmy pocket, Wizard in the middle — \"we're just not letting him attack at all. This is kind of funny. He can't go in\" (884-888s).",
+      "The game goes to overtime (clock resets at t=868) and the deck closes it in the pocket, not at the bridge: Evo E-Barbs at tile [8, 19] plus Rage at [8, 23] plus Minions at [8, 21] take the enemy right tower 3122 -> 588 HP over clock 1:21-1:03, then Rage and Arrows clear the Skeleton Army at clock 0:42-0:38 — \"beautiful arrows just grabbing that skarmy army and that is good game\" (948-951s). Win."
+    ],
+    "new_deck": {
+      "display_name": "Giant Sparky Evo E-Barbs Ryley",
+      "archetype_primary": "beatdown",
+      "archetype_secondary": "bridge-spam",
+      "rationale": "Giant plus Sparky with Rage support is a heavy, elixir-hungry push deck that wins in double and triple elixir, with Evolved Elite Barbarians providing the bridge pressure that fills the gap while elixir is banked.",
+      "why_it_works_md": "The deck banks elixir behind Wizard and Valkyrie defences and then commits everything to one lane: Giant in front, Evolved Elite Barbarians beside the tower, Rage on top. Rage is the glue — it is never used to open a push, only dropped on one that has already connected, which is what turns a Skeleton Army block into tower damage. Arrows is the deck's only other spell and does two jobs Ryley names explicitly: killing the Princess he cannot otherwise reach, and clearing the Skarmy on the closing push. The weakness he states himself is that the list carries no stun, so a defensive Inferno Tower cannot be reset and the answer is simply to out-elixir it. Sparky is played almost entirely as a defensive anchor in the back rather than as a win condition."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+ "key": "5bU83eIW8Yg-m0.1",
+ "match_file": "matches/5bU83eIW8Yg-m0.1.md",
+ "video_title": "TOP 5 Decks in Clash Royale for the New Meta",
+ "cards": {
+  "battle-ram": [
+   "clock 2:47: the Evolution Battle Ram is the opener, dropped alone at the left bridge tile (2, 13) with a full 10 elixir; it alone takes the enemy left tower 4858 -> 1048 HP by clock 2:08. Ryley introduces the list around it: \"we are playing with this battle ram bridge spam deck with the hero Valkyrie and the evo elite barbarians\" (186-190s).",
+   "clock 1:47: Battle Ram at (3, 10) on the left paired one second later with Elite Barbarians at (14, 14) on the right — a deliberate double-lane commit that finishes both crown towers by clock 1:38. \"Let's go for the battle ram here. Oh, very good start. Let's go for the e-barb as well.\"",
+   "clock 0:55: with both towers gone he plays it across the river at (4, 20) as bait for the opponent's Elite Barbarians — \"Let's go for the evo battle ram here as well. He's going to have to drop the e-barbs, which is good cuz then he won't be able to e-barbs on my ram.\"",
+   "Every Battle Ram in this game is on a bridge or enemy-half tile (2, 13), (3, 10), (4, 20), (14, 21); it is never used defensively or as a kite."
+  ],
+  "elite-barbarians": [
+   "clock 1:46: one use, and it decides the game — Evolution Elite Barbarians at the right-lane bridge tile (14, 14) as the opposite half of a Battle Ram double-lane commit; enemy right tower 4858 -> 1180 within 12 seconds. \"Let's go for the e-barb as well and we can go for the heal spirit\" (249-251s).",
+   "He names them as one of the two cards that make the deck at 190s: \"the evo elite barbarians. This deck is so broken right now, guys.\"",
+   "clock 0:52-0:43: the opponent also runs Elite Barbarians, and Ryley treats holding them as a losing position — \"He dropped all three of his air cards instead to not get three crown, but to also like not use his e-barbs cuz I think he knows if he uses e-barbs and he's just cooked.\""
+  ],
+  "bandit": [
+   "Every Bandit in this match lands on row 14, the river row: (13, 14) at clock 2:25, (5, 14) at clock 1:10, (9, 14) at clock 0:16. She is the cheap lane-refresher, not a defensive card.",
+   "clock 1:10: played directly behind a high Mother Witch so the Mother Witch tanks — \"let's go for a high mother witch to block the potential arrows and we can go for the bandy here\" (281-284s)."
+  ],
+  "valkyrie": [
+   "This is the Heroic Valkyrie: \"we are playing with this battle ram bridge spam deck with the hero Valkyrie\" (188s) and \"And hero Valkyrie is the same, but probably even a little bit better in this way\" (228s). Her 3-elixir Wild Whirlwind empties no hand slot, so it only shows up as unexplained own elixir drops.",
+   "clock 2:25-2:02, on why she belongs in bridge spam: bridge-spam defenders are forced to bunch up, so a splash/dash unit is disproportionately strong — \"That's why with golden knight, it's so good with bridge spam because they always have to line their cards up. You can get good dashes. And hero Valkyrie is the same ... It's such a stressful card to go up against and it just makes your offensive life so much easier.\"",
+   "Used in all three positions in one game: deep behind his own right tower at (12, 3) (clock ~2:35), defensively in front of his left tower at (6, 12) against a Minions + Bats wave (clock 2:02), and pushed \"high\" at the river at (8, 14) into a cloned Minion swarm (clock 0:40, \"Let's go for the high valkyrie here\")."
+  ],
+  "mother-witch": [
+   "He plays her at two deliberate heights. High at the river (6, 14) at clock 1:14 as a body/bait in front of the Bandit — \"let's go for a high mother witch to block the potential arrows\" — and low on his own half (12, 7) at clock 0:21 once the game is won — \"Just go for a low mother witch here, guys, and I think that we got this one in the bag.\"",
+   "clock ~1:07-0:57: he corrects his own reasoning about her as spell protection — \"The mother witch wouldn't have actually blocked the arrows by the way, guys, but what I meant by that is that like if he went to like instantly arrows to take out the zappies, then it wouldn't have worked because the mother witch would have been tanking for the baby dragon.\" Her value there was tanking, not spell-blocking.",
+   "clock 2:09: a mid-lane Mother Witch at (8, 9) behind the first Battle Ram push, as the follow-up value card rather than a defensive anchor."
+  ],
+  "zappies": [
+   "The most-played card in this game (five deployments) and used entirely on his own half: (8, 6) at clock 2:33, (9, 6) at clock 1:15, (8, 8) at clock 0:40, (10, 10) at clock 0:27 — always column 8-10, behind or beside the tower, never at the bridge.",
+   "clock 1:15: chosen as the cheap answer to a Lava Hound + Baby Dragon push specifically because he is already far ahead — \"since we got a lot of damage anyway, there's no need to be greedy and try to like get a bunch of extra value out of this. Let's go for the zappies here.\"",
+   "clock 0:27: used as a kiting tool against the locked-on Heroic Mega Minion — \"Let's zappies here as well. Make sure that we kite this nicely. Beautiful.\"",
+   "clock 1:12: he is aware they are Arrows-bait and puts a Mother Witch body up first — \"he might try to arrows last second\" (280s)."
+  ],
+  "heal-spirit": [
+   "clock 1:43: doubled on the same push — two Heal Spirits back to back on the Battle Ram / Elite Barbarians commit, explicitly to out-heal chip damage: \"we can go for the heal spirit. Very good situation. Let's heal spirit too. Nice. It's going to heal up off of the mega minion as well\" (251-255s).",
+   "Used on both halves of the field in the same game: defensively at (6, 9) and (9, 14) (clock ~1:01 and 0:32) to save Zappies and a Valkyrie under a Lava Hound push, and offensively at (4, 17) in the opponent's half at clock ~0:13.",
+   "Reliability note for this match: four HUD plays read as \"Skeletons\" (-1 elixir each) sit within 2 s of score-1.0 'Heal SpiRit' deploy labels and are Heal Spirit."
+  ],
+  "arrows": [
+   "clock ~0:37: cast on the opponent's cloned Minion swarm immediately after a high Valkyrie — \"Let's go for the high valkyrie here. I have to go for the arrows here as well. That was a little bit of a bad clone, I think\" (313-317s).",
+   "Deck-slot note: Arrows is this list's small spell in place of the Freeze that Ryley runs in his own Mother Witch bridge spam deck. It sits in hand slot 2 for the last five HUD reads (clock 0:16-0:12), but no elixir delta cleanly isolates the cast, so the read is moderate-confidence (see the match file's Data gaps).",
+   "clock 1:12-1:05: he plays around the opponent's Arrows on his Zappies by putting a Mother Witch in front — \"he might try to arrows last second\" — and the opponent's Arrows does land at clock 1:05."
+  ],
+  "golden-knight": [
+   "Mentioned, not played (clock ~2:12): used as the reference point for why a dash/splash unit belongs in bridge spam — \"That's why with golden knight, it's so good with bridge spam because they always have to line their cards up. You can get good dashes.\" He then says the Heroic Valkyrie does the same job \"probably even a little bit better\"."
+  ],
+  "lava-hound": [
+   "Opponent's win condition in this match (clock 1:33, tile (2, 19), then tracked down the left lane through clock 1:10). Ryley refuses to defend it properly while the opponent's Heroic Mega Minion is alive — \"I don't really want to defend this push until the hero mega minion gets taken out\" (clock ~1:26).",
+   "clock 1:15: with a two-tower lead he answers the Hound push with Zappies alone rather than a full defence — \"there's no need to be greedy and try to like get a bunch of extra value out of this\". His left tower is ground 4738 -> 150 HP over the rest of the game but never falls."
+  ],
+  "mega-minion": [
+   "Opponent's card here is the Heroic Mega Minion, and Ryley treats its Wounding Warp teleport as the reason to delay defending (clock ~1:26): \"I don't really want to defend this push until the hero mega minion gets taken out though because otherwise he'll just be able to teleport onto everything.\"",
+   "clock 1:43: he counters its chip damage with a doubled Heal Spirit on his own push — \"It's going to heal up off of the mega minion as well.\"",
+   "clock ~0:28: once it locks onto his tower he accepts the damage rather than over-spending — \"Oh my god, he basically did. Okay, that mega minion locked in.\""
+  ],
+  "clone": [
+   "Opponent card, spotted mid-push at clock ~1:08 — \"Oh my god, he has a clone\" — and used on a Minion swarm around clock 0:40. Ryley answers the cloned Minions with a high Valkyrie plus Arrows and judges the timing poor: \"That was a little bit of a bad clone, I think\" (317s)."
+  ],
+  "minions": [
+   "Opponent's recurring air pressure (clock 2:02, 0:48, 0:42, then a cloned swarm of five tracks at clock 0:40-0:33). Ryley answers the first wave with a Valkyrie at (6, 12) plus already-placed Zappies, and the cloned wave with a high Valkyrie plus Arrows."
+  ],
+  "baby-dragon": [
+   "Opponent card, reaching his left tower around clock 1:20-1:16 alongside the Lava Hound. Ryley's stated point at clock ~0:59 is that his Mother Witch's real job in that defence was to tank it so the Zappies survived: \"the mother witch would have been tanking for the baby dragon. Good defense though, very good defense.\""
+  ],
+  "lumberjack": [
+   "Mentioned only, never seen (clock ~0:22): \"He might go for a lumberjack as well\" — a prediction of the opponent's next card that does not arrive in the readable window."
+  ]
+ },
+ "deck": {
+  "deck_key": "arrows-bandit-battle-ram-elite-barbarians-heal-spirit-mother-witch-valkyrie-zappies",
+  "cards": [
+   "arrows",
+   "bandit",
+   "battle-ram",
+   "elite-barbarians",
+   "heal-spirit",
+   "mother-witch",
+   "valkyrie",
+   "zappies"
+  ],
+  "bullets": [
+   "Game 2 of a five-deck showcase video (video 182.3s-351.4s), won convincingly against a Lava Hound air-beatdown deck. Ryley names the list at 186-190s: \"we are playing with this battle ram bridge spam deck with the hero Valkyrie and the evo elite barbarians. This deck is so broken right now, guys. Every time I play ladder, I just end up facing this deck.\"",
+   "The deck is piloted as pure bridge spam: Battle Ram at (2, 13) at clock 2:47 takes the enemy left tower 4858 -> 1048 HP on its own, and a double-lane commit at clock 1:47-1:46 (Battle Ram (3, 10) left, Elite Barbarians (14, 14) right, then two Heal Spirits) puts both crown towers away by clock 1:38 — \"That should be both towers down right now.\"",
+   "The stated theory of the deck is that bridge spam forces the defender to bunch up, so the splash/dash slot is what makes it unfair (clock 2:25-2:02): \"usually when you're against a bridge spam deck, you need to put a bunch of cards in a very like similar position ... That's why with golden knight, it's so good with bridge spam ... And hero Valkyrie is the same, but probably even a little bit better in this way.\"",
+   "Defence is deliberately cheap and lane-local once ahead: Zappies always on his own half at columns 8-10 (clock 2:33, 1:15, 0:40, 0:27), Heal Spirit as the 1-elixir top-up, Mother Witch as a tanking body rather than a spell shield. \"since we got a lot of damage anyway, there's no need to be greedy and try to like get a bunch of extra value out of this\" (clock 1:15). The deck runs no building, and his left tower was chipped 4738 -> 150 HP by the Lava Hound, Baby Dragon and a cloned Minion swarm without ever falling.",
+   "Deck-list caveat: this is the Freeze-slot variant of Ryley's `bandit-battle-ram-elite-barbarians-freeze-heal-spirit-mother-witch-valkyrie-zappies` list with Arrows instead. Arrows is supported by \"I have to go for the arrows here as well\" (clock ~0:37) and by holding a hand slot across the last five HUD reads; Freeze is never played, named or read in this game. The pipeline's per-game read of Witch is a truncated 'MotHeR WitcH' deploy label. Confidence: moderate — hand-read confidence in this game averages 0.402."
+  ],
+  "new_deck": {
+   "display_name": "Battle Ram Bridge Spam HeroValk (Arrows)",
+   "archetype_primary": "bridge-spam",
+   "archetype_secondary": "none",
+   "rationale": "Ryley names it himself at 186s — \"this battle ram bridge spam deck with the hero Valkyrie and the evo elite barbarians\" — and it is played that way: no tank, no build-up, every Battle Ram, Bandit and Elite Barbarians on a bridge tile the moment elixir allows.",
+   "why_it_works_md": "Every threat is fast and lane-specific, so the deck can open a lane on the first 10-elixir tick and never has to build a push: the Evolution Battle Ram at the bridge took a crown tower from 4858 to 1048 HP by itself in this match. The second gear is the double-lane commit — Battle Ram in one lane and Evolution Elite Barbarians in the other, topped with Heal Spirits — which finished both towers inside twelve seconds at clock 1:47. Ryley's stated reason for the Heroic Valkyrie slot is that bridge spam forces the defender to line their answers up, and a splash unit with a dash-style ability punishes exactly that: \"hero Valkyrie ... it just makes your offensive life so much easier.\" Mother Witch and Zappies are the cheap value/defence half, with Mother Witch played high as a tanking bait body and Zappies kept on his own half as kiting and anti-air, while Arrows is the small spell for swarms (used here on a cloned Minion pack). The deck carries no building, so a committed air push chips a tower for the rest of the game — his left tower ended this match at 150 HP."
+  }
+ }
+}

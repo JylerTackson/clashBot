@@ -1,0 +1,81 @@
+{
+ "video_id": "5bU83eIW8Yg",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 177.8,
+   "events": 68,
+   "own_deck": [
+    "skeletons",
+    "berserker",
+    "ice-spirit",
+    "wall-breakers",
+    "dart-goblin",
+    "skeleton-barrel",
+    "the-log",
+    "rocket"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 169.0,
+   "events": 56,
+   "own_deck": [
+    "zappies",
+    "battle-ram",
+    "bandit",
+    "heal-spirit",
+    "valkyrie",
+    "mother-witch",
+    "elite-barbarians",
+    "witch"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 176.0,
+   "events": 85,
+   "own_deck": [
+    "berserker",
+    "barbarian-barrel",
+    "royal-ghost",
+    "furnace",
+    "goblin-hut",
+    "skeletons",
+    "ice-spirit",
+    "wall-breakers"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 167.0,
+   "events": 59,
+   "own_deck": [
+    "wall-breakers",
+    "ice-spirit",
+    "skeleton-army",
+    "valkyrie",
+    "cannon",
+    "princess",
+    "dart-goblin",
+    "goblins"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 262.6,
+   "events": 89,
+   "own_deck": [
+    "wizard",
+    "giant",
+    "rage",
+    "valkyrie",
+    "sparky",
+    "minions",
+    "barbarian-barrel",
+    "executioner"
+   ]
+  }
+ ]
+}
