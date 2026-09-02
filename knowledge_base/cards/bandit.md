@@ -157,6 +157,11 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.6.m
 - Six HUD Bandit plays in under four minutes make her his highest-cycle card in this bridge-spam list.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:14 (opponent): dashes down the right lane ([12, 25] -> [14, 11]) alongside an Electro Wizard; Ryley answers the pair with Skeleton Army at [14, 12] plus an Ice Spirit - "Just go for the Skarmy here to keep this alive."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

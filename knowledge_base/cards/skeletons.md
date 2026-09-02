@@ -172,6 +172,24 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:07: he plays the last pair specifically into a forced Zap — "Let's go for the Evo skellies cuz he has to zap, and he won't be able to take out the Evo skellies" — the same reasoning he used at clock 1:07, "he has to zap here for the musketeer, but the Evo skellies will distract if he doesn't."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 2:40 to 0:03 (t=13.0 through t=171.2): the opponent's cheapest cycle card, dropped eight times at tiles [11, 26], [13, 21], [3, 19], [9, 23], [3, 14], [15, 16], [5, 18] and [11, 16]. Ryley never spends a card on them; his Princess and Dart Goblin clear them as a side effect.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:08 (t=532-534): he plays an Ice Spirit at the bridge predicting them — "we can go for the ice spirit here as well, just to maybe grab some skeletons. Nice, beautiful prediction right there."
+- clock 0:37-0:31 (t=626-630): enemy skeletons on the field are cleared with Princess splash — "Let's Princess the bridge here to splash on those skellies. Come on. Nice, good splash. Maybe you could give me one more. Beautiful."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 2:52: the card he uses to identify the opponent's deck on sight — "This guy plays with Evo Skeletons, Log Bait" (t=705-707); the opponent's Skeletons are deployed at level 16 (label at t=899.4) and the tracker sees 'skeleton-evolution' units all game.
+- OT 1:57: he reads the opponent's hand from them — "Feel like I have a barrel. I guess it's cuz he has evo skellies in hand" (t=878-883).
+- OT 0:28: the chained spawn is what grinds his defence down in overtime — "Uh, not enough though. Not enough. Dude, the Evo Skellies are just chaining" (t=966-971).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

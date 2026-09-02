@@ -129,6 +129,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - clock OT 0:36-0:17 (t=257.3 tile [14, 8], t=277.4 tile [2, 8]): he holds the 2-elixir ability on purpose, then spends it — "I'm honestly not going to pop the ability at all. I don't think I need it... I just wanted to cycle through my deck here" (t=262-267), then "Let's pop her ability cuz she doesn't have the Evo snowball. Nice good ability" (t=279-281). He credits "the scientist buff" for the card's current form: "Goblin stein after the scientist buff has just been moving different" (t=156-160).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 0:47 (t=128-133): Ryley's stated answer is the Evo Mega Knight in the back — "let's go for the Evo Mega Knight here in the back just because the Evo Mega Knight will take care of that Goblin Stein really, really nicely."
+- clock 0:22 (t=150): acknowledges a second one without changing plan — "good Stein but it's okay. Go for the Berserker here." The card is never labelled by the detector, only named in commentary.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

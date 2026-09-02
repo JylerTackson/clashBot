@@ -160,6 +160,18 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - Mentioned only, as a meta-level reason this log-bait deck improved after the patch: "this deck was already strong, but now it is even stronger after the emergency balance changes cuz a lot less people are using the electro spirit and even when they do it is not as good against the deck" (338-347s). The three Electro Spirit plays the HUD logs for him (t=427.6, 462.8, 564.7) are Ice Spirit misreads — Electro Spirit is not in the deck he names.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 2:07 (t=47) and clock 1:31 (t=81): the card he tracks in the opponent's cycle to time Goblin Barrels — "he has no Barbarian Barrel and no E-Spirit" and "He has no E-Spirit in cycle."
+- clock 1:14 (t=100): credits it when it finally answers his push — "good E-Spirit by him."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- Mentioned, not played (the opponent's card). Named as the standard Goblin Barrel answer at 250-256s: "E-spirit skellies countering goblin barrels one of the lamest interactions of all time though. I'm not going to lie to you."
+- He then tracks it out of cycle to time his own barrel at overtime clock 1:22: "We have a decent chance to grab damage cuz he has no e-spirit in cycle" (398-401s).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

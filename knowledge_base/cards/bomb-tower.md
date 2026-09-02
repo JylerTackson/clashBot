@@ -133,6 +133,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - Ten deployments in the readable window, every one defensive; the deck's only building.
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 2:20, 1:36, 0:42 and overtime 1:59 (tiles [9, 19], [8, 19] x2, [11, 15]): the opponent's building stays up almost the whole game and Ryley never attacks it directly.
+- clock 1:53 (t=58-62): it is the reason he changes a placement — "maybe I should put it in the back, just because obviously with him having Bomb Tower, it can get very, very complicated."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomb_Tower (scraped 2026-09-02T02:35:34+00:00)

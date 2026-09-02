@@ -102,6 +102,20 @@ Not specified on source page
 - Mirror plus Clone on it can swarm or rush the enemy, but it is very risky unless you are sure the opponent has no splash.
 - Skeleton Army is the main alternative: more units and more total damage, but lower hitpoints per unit, more spell-vulnerable, slower and unable to hit air.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 2:07: he pre-empts it with a Princess plus Berserker at the bridge — "I'm going to go for a Princess plus Berserker here just to maybe grab the gang or the skellies. Nice. Beautiful prediction" (t=749-756).
+- clock 1:48: the Gang is what turns his counterattack into a lost tower — "Ooh, he did grab us with the Goblin Gang" (t=765-768), and his left tower goes 3729 -> 686 over the next fifteen seconds.
+- OT 0:58 and 0:43: he keeps baiting it — "Let's Princess the bridge here for the gang. Oh, he put it over there" (t=937-940) — and answers it with a 7-elixir Mega Knight at [12, 6] when the halves split to [13, 13] and [15, 14] ("Let's Mega Knight here to take this out", t=951).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 1:34 and overtime 1:31: the opponent's Goblin Gang appears twice as a defensive answer, and Ryley treats it as a card that only half-answers a barrel — "And there's the gang", "He has the gang, but that's going to grab one. Come on. Let's go. Good game." (opponent's card)
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

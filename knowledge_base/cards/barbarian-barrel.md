@@ -194,6 +194,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - The opponent runs it too, and Ryley plays around it: he offsets his Mother Witch "in case he tries to barb barrel" (clock 0:33) and punishes a bad one in overtime ("That was a really bad barb barrel", overtime 1:04).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 2:07 (t=47) and clock 1:50 (t=64): counted as one of only two cards the opponent has to deal with his back-line placements — "he has no Barbarian Barrel and no E-Spirit" and "he only has Barbarian Barrel and Lightning to deal with this."
+- clock 1:26 (t=88-91): he blames it for the opponent's failed King activation — "since he had a Barbarian Barrel, he was not able to grab that King activation."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

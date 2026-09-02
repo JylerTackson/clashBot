@@ -170,6 +170,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - Mentioned, never played. At clock 1:28 Ryley threw The Log at (3, 14) behind his Hog Rider on a Tombstone read — "let's go for the log here for a tombstone as well. Oh, okay, he didn't go for a tombstone" — and criticised the spend afterwards: "Maybe that log was a little ambitious." (A later transcript line at 935s again says "log here on the tombstone", but no Tombstone was ever detected in this game.)
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- Not in this deck: the -3 HUD play at t=1032.5 in this game is read as Tombstone, but it coincides with a 'SkeletoNARMY' deploy label at [14, 12] and with "Just go for the Skarmy here", so it is a Skeleton Army (same 3 elixir). Tombstone is not in the video-level consensus deck and is never played or mentioned in this game.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tombstone (scraped 2026-09-02T02:35:33+00:00)

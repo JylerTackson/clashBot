@@ -147,6 +147,22 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:20: defensive Log to protect his building rather than his tower — "Let's go for the log just to keep the cannon a little bit more healthy."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- Mentioned, not played (it is the opponent's card). Ryley's opening Goblin Barrel at clock ~2:38 is aimed at it — "Make him use his log at least" (201-204s) — and he confirms the trade paid off at overtime clock 0:56: "He wasted his log, too" (424-426s).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 1:54 (t=543-545): mentioned but never cleanly detected — he predicts the standard 2.6 line, "He might try to go for a hog rider plus pre-log."
+- clock 0:47-0:42 (t=614-620): he expects it as a spell-cycle chip tool once the opponent runs out of better options — "He's definitely just going to start spamming logs. That's going to be really hard. Yep. Here it comes, guys, the spell cycle."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- OT 1:34: mentioned only (played by the opponent, never read as an event). He tracks it and plays his spell-vulnerable support the moment it is spent — "we can dark goblin too because he used his log so we can try to get a good one" (t=902-905). The matchup framing is the same idea from the other side: "we just keep facing Log Bait without having any spells, man. It's really unfortunate" (t=711-717).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

@@ -146,6 +146,13 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:20: he protects the building rather than the tower — "Let's go for the log just to keep the cannon a little bit more healthy" (958-960s), and times the evolved barrage deliberately: "then we need to go for the Evo cannon just to hit the Lava Pup — or not the Lava Pups, the skeleton dragons and the Lava Hound."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 1:54 (t=545-546): the opponent's building goes down as Ryley is applying bridge pressure — "Okay, he just went for the cannon there. We can still just Okay, let's go for the mega knight here."
+- clock 0:28 (t=631.6): confirmed at tile [9, 19] on the opponent's half, the standard 2.6 defensive placement; it is tracked there through most of the second half.
+- OT 1:34 (t=686-687): it is what stops his ground counter-push, and he cannot reposition around it — "Could I do it the Princess trick just to boost it away from the Cannon? Nope."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

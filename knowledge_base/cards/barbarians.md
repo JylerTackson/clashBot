@@ -121,6 +121,12 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.4.m
 - clock 1:48 to 1:43: he tracks the opponent's elixir to the card - "he can't afford the barbs yet", then "Okay, he gets the barbs down now, but we can just go for these low zappies here" - with Barbarians tracked at [14, 16] a second later.
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 1:02: the opponent's Barbarians, tracked crossing at tiles (2-4, 8-13), are answered with Ice Spirit plus Suspicious Bush — "Let's ice spirit as well just to make sure that we grab those barbs." (opponent's card)
+- clock 0:34: a committed Barbarians is his cue that the Mega Knight plus Evolution Goblin Barrel will not be answered — "cuz he has the barbs down and he won't be able to barbs on the right side."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

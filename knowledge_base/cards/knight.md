@@ -167,6 +167,24 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.2.m
 - clock 1:13 (t=796.3), overtime: Knight at (13, 14) deployed specifically as a spell block — "I'm going to Knight here try to help block his Lightning cuz I think he's going to try to Lightning this. Yo, that's dead" (797-800s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- Mentioned, not played (the opponent's Hero Knight). Used to identify the opposing deck at 212-218s: "Okay, no, he's playing the Hero Knight again. Oh, and the Skeletons. Okay. He's back to like a more regular variation."
+- He plays around the hero ability and treats it as spent value at overtime clock 0:48: "Nice, he wasted his knight ability, too" (430-432s).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 2:00-1:48: the best read of the game is a Knight cycle count — with the opponent's Knight out of hand his bait threats connect for a full tower. "with him not having a Knight in cycle, he's just completely cooked... He had to cycle back to his Knight, guys, and look, he lost almost his entire tower just trying to get back to that Knight" (t=756-765); the enemy right tower falls 4858 -> 1059 across those twelve seconds.
+- clock 0:37 and OT 0:11: the opponent's Knight is what he wants his Mega Knight to jump on — deploy labels 'NigHt' at [11, 20] and [12, 20]. "Maybe we could jump on top of that knight. Come on. Jump on top of that knight. Oh, imagine though. That would have been hilarious" (t=839-844).
+- OT 1:26 and 0:20: he also answers the Knight with the Heroic Berserker and expects it in the pocket — "Let's berserk her for the knight" (t=905) and "He's just going to knight in the pocket or princess too" (t=976).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 1:58 (opponent): deploy label '"NigHt' at tile [4, 15], their attempt to hold the lane the Mega Knight is entering. The tower behind it falls from full to 135 HP within seven seconds - "he really just doesn't have good cards to defend."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)

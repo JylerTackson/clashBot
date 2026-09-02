@@ -122,6 +122,50 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - clock 0:14 (t=456.5): defensive clean-up after the Valkyrie ability — "our skarmy just able to clean up everything" (460-463s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 1:18 (t=96.6, tile [14, 9]): the one deploy of the game, straight into the opponent's Evo Royal Hogs crossing at tile [13, 15]; his right tower loses only 118 HP (4858 -> 4740) to that push.
+- clock 1:22 (t=92-94): held deliberately as unseen information — "we still have a Skeleton Army for defense that he doesn't even know about yet," then "he's not happy seeing that Skeleton Army, guys" (t=102) once it lands.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- clock 2:21: Skeleton Army at tile (3, 5), deep in his own pocket, onto the opponent's Goblin Barrel — "Let's go for the Skeleton Army here on the Goblin Barrel. Just make sure that we take this out nicely." He repeats the same (3, 5) pocket placement at clock 1:30, 0:24, overtime 1:53 and overtime 0:32.
+- clock ~1:21: Skeleton Army at (2, 7) alongside his own Evo Goblin Barrel, defending and attacking on the same elixir — "Let's go for the skarmy here now as well. Good full counter on that barrel."
+- clock 0:16: one of only two forward placements, at the left bridge (3, 15) — "Skarmy here at the bridge just to make sure that we take this out"; and overtime 0:32 behind the tower: "That's one tower in the back, so we can just Skarmy here in the back."
+- overtime clock 1:31: he declines it in favour of the Mega Knight against a front-placed tank — "Yeah, screw the Skarmy, bro." He tracks it as a held resource all game ("We have skarmy ready for the barrel", "We have Skarmy ready again").
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:48 (t=493.0): Skeleton Army at [2, 9] in the opening all-in Hog Rider defence — "everything on defense here just to make sure that hog rider doesn't grab a shot."
+- clock 1:19 (t=581.1): a 3-elixir drop into an Ice Golem + Hog push that the commentary names — "Let's go for the Skarmy and we can go for the Spirit here as well. Yeah, this should take that all out. Good defense here." (The HUD logged that slot as Goblin Barrel; the commentary is the better read.)
+- clock 0:35 (t=625.5): Skeleton Army at the bridge tile [15, 13] (HUD, 8.0 -> 5.0) aimed at the opponent's Hero Musketeer — "let's Skeleton Army here at the bridge for the Musketeer."
+- OT 1:32 (t=689.7): played at [14, 12] as a stall rather than a kill — "I have to Skarmy here, too, take this out... Skarmy, keep it in place. Skarmy, keep it in place. Come on."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 2:11: pure defence, played well back on his own half onto the Goblin Barrel goblins — label at [3, 5], with the goblins tracked from [4, 10] down to [0, 0] over the next four seconds. "we can just go for the Skeleton Army here. Beautiful Skarmy on defense, just making sure that we clean up everything" (t=744-747).
+- clock 1:41: used as damage limitation when he cannot afford a counterattack — label at [3, 14], the river tile. "Okay, I'm just going to have to eat a lot of damage here. I think I have to Skarmy the bridge instead of going for anything" (t=771-775).
+- OT 1:38 and 1:04 / 0:20: in overtime it becomes a blocker for pushes and a stall on the opponent's half — labels at [9, 19] and [12, 6]. "I'm going to scar me [Skarmy] to block this" (t=900-902), "then we go for the Skarmy in the middle as well" (t=930), "We have to Skarmy as well" (t=975-976).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:12: his answer to a Bandit plus Electro Wizard push in the right lane, dropped at tile [14, 12] on his own half (deploy label 'SkeletoNARMY', with a matching -3 HUD play) - "Just go for the Skarmy here to keep this alive." He calls the same beat "an overspend for sure".
+- clock 2:24: named as one of the four cards that make a spell-less opponent a good matchup.
+- The opponent also runs it: at clock 1:42 they answer Ryley's winning push with a Skeleton Army at tile [5, 18], too late to save the tower.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 1:14: Skeleton Army thrown at the bridge purely to force an awkward answer, not for damage — "I'm going to skarmy the bridge now. Just to force him to bowler in the top middle or princess." He plans it a rotation ahead at 1:21: "I think I could go for a nice skarmy at the bridge cuz it's going to be kind of awkward for him to defend."
+- clock 0:21: Skeleton Army at tile [9, 7], deliberately deep on his own half so the opponent's Princess cannot splash it — "We have to go for the skeleton army all the way down low because of that princess."
+- overtime 1:55: Skeleton Army at tile [6, 15] at the bridge doing three jobs at once — "go for the skeleton army like this just to distract the bowler and the mortar, but also take out the princess."
+- clock 2:49: also used plainly as a defensive drop at tile [11, 4] in the opening rotation.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

@@ -141,6 +141,12 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - Mentioned only, in the same breath as Musketeer, as a defensive answer that the Monk ability blanks: "even Tesla, right? You just pop the ability and you just tank for it for so long. It definitely gets really difficult to stop" (t=736-742).
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- Mentioned, not played (the opponent's building, in its Evolution form). Seen at the bridge at clock 1:24 — "Ooh, tesla the bridge" — and Ryley reacts by spending his Ice Spirit early rather than late: "I guess I'll spirit preemptively because he has the tesla down so he has a really good opportunity" (272-277s).
+- He plays his cheap chip away from it on purpose at clock 1:05 — "I don't want to give him tesla value so I think I'd rather bush in the opposite lane" — and counts a poor placement as a win at clock 0:59: "good evo tesla but at least I made him put it in a more awkward spot" (299-303s).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

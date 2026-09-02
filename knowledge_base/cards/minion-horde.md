@@ -123,6 +123,14 @@ Match [The Most UNDERRATED Card in Clash Royale!!](../matches/qHWw4rM-N2I-m0.5.m
 - clock 0:28: his stated answer is a layered one, Mother Witch behind the horde rather than a spell alone — "I need to get a minion horde down, a mother witch down on this minion horde."
 <!-- creator-insights:ryleycr1:qHWw4rM-N2I-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 2:04 and 1:53: predicted before it appears and then confirmed — "I am scared of his cuz if I'm not stupid, then he does have a Minion Horde in here", "Yep, there's the Minion Horde." (opponent's card)
+- clock 1:52: his answer is a ranged unit plus a freeze, layered rather than a single card — "Let's go for the Dark Orb here and we can go for the Ice Spirit as well just to make sure that we freeze up as many of those as possible. Beautiful defense taking zero damage."
+- clock 0:55: a live Minion Horde is his reason not to commit an Evolution Goblin Barrel push — "I don't want to evo barrel into that minion horde though. That could be a little bit of a predicament."
+- overtime 1:59: answered with Princess — "Princess here for the horde."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minion_Horde (scraped 2026-09-02T02:34:48+00:00)

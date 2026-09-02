@@ -130,6 +130,54 @@ Mega Knight continuously jump attacks.
 
 This card has an evolution: see [mega-knight-evolution.md](../evolutions/mega-knight-evolution.md). Cycles to evolve: 1. Stat boosts: N/A.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 1:42 (t=71.1): Mega Knight at tile [2, 14], his own side of the left bridge, as a tank he expects to survive a King activation — "I think I want to go for the Mega Knight at the bridge, cuz even if he activates the King Tower, we have a really good push right here with an Evo Barrel coming up as well."
+- clock 0:47 (t=126.6): Evo Mega Knight placed in the BACK at tile [9, 0], purely as a defensive answer — "let's go for the Evo Mega Knight here in the back just because the Evo Mega Knight will take care of that Goblin Stein really, really nicely."
+- clock 0:11 into overtime (t=163.7): Mega Knight at tile [13, 15], the right bridge, behind an Ice Spirit and in front of a Princess and Evo Goblin Barrel — "Let's spirit here then we can go for the Mega Knight at the bridge." The enemy right tower falls 4589 -> 479 HP in the next ten seconds and the opponent concedes: "Look at the Mega Knight, guys. I think that's just going to be good game already."
+- clock 2:42 and 2:12 (t=12-14, t=42-43): his case for putting a 7-elixir bruiser in a bait shell — "Evo Mega Knight is one of the most toxic cards in the game ever" and "why else do you think that we have a Mega Knight in a Log Bait deck?"
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- clock 0:56: first Mega Knight of the game deep on his own half at tile (2, 5) as a pure defensive clear (deploy label plus a -6 elixir step) — "I'm just going to go for the MegaKnight here just to take this out", and then the pitch: "Dude, I feel like this MegaKnight comes as a surprise to so many people."
+- overtime clock 1:31: Evo Mega Knight at the left bridge tile (2, 13) instead of the swarm he had in hand — "I'm going to go for the evil mega knight. Yeah, screw the Skarmy, bro."
+- overtime clock 0:58: Mega Knight at (3, 10) chosen off the opponent's placement, and it shields his ranged support — "Okay, that's in the front, so let's go for the mega knight here. Beautiful... Oh my god, it kept the dark goblin alive. That's huge. He wasted his log, too."
+- overtime clock 0:25: Mega Knight dropped on the river tile (6, 15) purely as pressure while ahead — "I'm going to mega knight here just to be annoying." He is the only 7-elixir card in a 3.0-average bait deck and every deploy in this game is a reaction, never an opener.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 1:53 (t=548.0): Evo Mega Knight at tile [14, 11] onto an Ice Golem + Hog Rider push, inside a 6-elixir drop — "let's go for the mega knight here just to take this out. This is going to come as a surprise to him."
+- clock 0:54 (t=607.6): placed at [15, 13] and then explicitly held in hand as the designated Hog answer — "we have the Evo Mega Knight for the next Hog Rider."
+- clock 0:27 (t=634.1): spent at [9, 0] on the opponent's Hero Musketeer rather than saved, to stop feeding a big spell — "I'm going to Evo Mega Knight into this Musketeer. I feel like I just kind of have to, otherwise I'm just going to keep on giving him Fireball value for the rest of the game and that is not ideal."
+- clock 0:07 (t=655-657) and OT 1:52 (t=669.7): his splash is the closing damage source — "COME ON, MEGA KNIGHT, SPLASH HIM A FEW more times. Really good damage" — and once the opponent's Ice Golem is gone he treats it as unanswerable: "with no Ice Golem, obviously, he's not going to be able to defend the Mega Knight as well."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 2:30-2:16: the stated engine of the whole bait deck, before he even plays one — "This deck is really just showing how good Mega Knight actually is, in my opinion. I feel like I've been putting in so much work with the Mega Knight just every single game. It's just ended up being one of the MVPs of the game, if not the MVP. It just somehow always manages to find its way to the tower" (t=726-739).
+- clock 0:36 and OT 0:13: offensive "pocket" placements deep on the opponent's half — HUD -7 plus deploy label at [9, 19] and a label at [9, 21]. "Let's go for the mega knight here in the pocket. Maybe we could jump on top of that knight. Come on. Jump on top of that knight. Oh, imagine though" (t=838-844); "We have to get a Mega Knight in the pocket. We have to get a Mega Knight in the pocket" (t=983-985). The jump never landed on the Knight.
+- clock 0:19 and OT 1:17 / 0:43: the same card used defensively on his own half — labels at [4, 10] and [15, 6] and a HUD -7 at [12, 6] into the Goblin Gang. "Can I mega knight here? Take this out" (t=857), "Let's go for the mega knight here. Take this out. I just need to get a really big push" (t=917-919), "Let's Mega Knight here to take this out" (t=951).
+- OT 1:38-1:26: against a bait deck holding an Inferno Tower he has no answer — the opponent drops one at [13, 24] onto the push and Ryley calls it: "He's just going for the inferno tower... Oh, okay. Well, there goes our mega knight" (t=898-909).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 1:58 (two seconds into double elixir, at 9 elixir): one play, tile [3, 13] on his own side of the left bridge, HUD -7 with deploy label 'Mega KNigHt' - "I'm just going to straight-up Mega Knight at the bridge, guys." It goes in as the tank in front of a Goblin Barrel and Dart Goblin, not as a defensive answer, and the enemy left tower falls 4858 -> 135 over the next seven seconds.
+- clock 2:24: named first in his list of what makes a spell-less opponent unwinnable - "we're going to be in a really, really good position for this game having Mega Knight, Dark [Dart] Goblin, Princess, and Skarmy."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 0:38: Evolution Mega Knight (elixir 9 -> 2) played as offensive pressure and immediately paired with a Goblin Barrel on the other side of the tower — "I'm going to go for the mega knight here. I'm just going to apply some pressure ... Catch him off guard with the mega knight's evo barrel cuz he has the barbs down and he won't be able to barbs on the right side."
+- clock 0:15: Mega Knight at tile [14, 2] as the defensive knockback that saves the game in regulation — "we have to get a evo mega knight down. I'm going to evo mega knight. That's going to knock this back", then "Come on, mega knight. Hit one more time. Okay, thank god that hit one more time. Otherwise, I would have been completely cooked."
+- overtime 1:48: Mega Knight at tile [15, 13] at the bridge as the overtime pressure card while the opponent's Mortar is locked on — "Mortar, miss one more time. Mega knight here at the bridge."
+- end of video: he names the whole list after it — "We just hit 3K with mega knight log bait. There's no way."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)

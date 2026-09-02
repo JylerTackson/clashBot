@@ -106,6 +106,51 @@ Replaces Bush Goblins with 4 Goblin Brawlers.
 - A good substitute for Wall Breakers — the invisibility makes it far harder to stop and the Bush Goblins do much more Tower damage when ignored at the same cost and hitpoints — but they cannot hit air, are easily distracted and deal less damage per hit.
 - Evolved Wall Breakers cover most of those weaknesses (especially raw damage), making them better than the Suspicious Bush in most cases.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 1:53 (t=60.7, tile [9, 0]): he talks himself out of a bridge bush and puts it in the back instead, because of the opponent's building — "we can go for the bush at the bridge here as well. Actually, maybe I should put it in the back, just because obviously with him having Bomb Tower, it can get very, very complicated, right? Where he only has Barbarian Barrel and Lightning to deal with this."
+- clock 2:48 (t=6.2, tile [8, 0]), clock 0:49 (t=123.6, tile [7, 1]) and clock 0:20 (t=153.2, tile [9, 0]): every other bush is the same centre-back-line placement — "We can go for a bush in the back again." In this game it is a cheap cycle-and-chip card, never a defensive one.
+- clock 1:31 (t=83-85): he counts the bush as pending damage the opponent has to deal with — "We have the bush, guys. Hold on a second. This is going to be some good damage."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- clock 1:34: bush sent at the bridge (12, 11)/(14, 15) as cheap chip while he keeps the spirit in hand — "Let's go for the bush here at the bridge."
+- clock 1:05: bush placed at (13, 12), away from the opponent's Tesla lane on purpose — "I don't want to give him tesla value so I think I'd rather bush in the opposite lane."
+- clock 0:35: bush at the right bridge (14, 13) with a stated rule for playing against a card he cannot kill — "we're going to go for the bush at the bridge immediately. At least we can try to limit the value just by not putting our cards too high."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:25 (t=515.5): Suspicious Bush at [9, 0] behind his own towers off a 9-elixir bar (HUD, 9.0 -> 7.0) — "Let's go for the bush in the back here." This is his standard placement: [9, 1] at clock 1:52, [8, 0] at clock 0:42 and again at clock 0:22 ("Let's bush here").
+- clock 1:11 (t=590.1): Bush at [3, 14] on the far bridge while the Musketeer defence is happening on the other side — "I'm going to bush here and then we can go for the Berserker here, too."
+- clock 2:03 (t=536-540): he accepts it dying as a trade — "Bush does die, but the dart goblin will be a threat still."
+- OT 1:55-1:53 (t=664-668): the value he names is forcing a bad answer out of a cycle deck — "He's going to have to eat that bush. Oh, no, he wasted his Ice Golem, which is super good because now with no Ice Golem... he's not going to be able to defend the Mega Knight as well."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 1:32: played at the bridge in the far lane as the card the opponent cannot ignore while defending — deploy label at [14, 13] (also at [14, 13] at clock 2:08). "Let's go for the bush here at the bridge... he has to watch out for that bush, dude. That bush is really menacing" (t=784-797).
+- OT 1:11: the payoff he names for it is simply surviving a rotation once the opponent's small spell is spent — "Okay, bush living is kind of nice" (t=926).
+- clock 2:41 / 0:25 and OT 1:19 / 0:57: never used on defence — every other placement is a lane threat or a back-of-court drop (labels at [8, 1], [6, 3], [2, 1], [14, 19]), consistent with the card being near-worthless defensively.
+- Context: he ran the Bush all game with no spell of his own in the deck — "we just keep facing Log Bait without having any spells, man" (t=711-717) — so the Bush is his substitute for forcing a spell out of the opponent.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 1:55: a single -2 HUD play (slot 2 emptied) in the middle of the Mega Knight push, with no tile read and no commentary. It is the only sighting of the card in this game; the surrounding hand rows are unreliable, so it is carried on the video-level deck consensus rather than on this event alone.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 2:50: opens the game with Suspicious Bush at tile [8, 0] behind his own king tower, then keeps feeding it up both lanes (tiles [3, 14], [6, 0], [2, 12], [14, 11], [2, 14], [10, 10]) as his cheapest recurring chip threat.
+- clock 1:43: names it as the bait card this opponent handles worst — "Then we can go for the bush here as well. He has a really hard time defending bush. I feel like he just has a hard time defending our bait in general."
+- clock 1:02: paired with Ice Spirit as part of a defence against Barbarians rather than sent as chip — "Let's ice spirit as well just to make sure that we grab those barbs and then we can go for the bush here."
+- clock 0:32-0:27: a Bush sent behind the Mega Knight / Goblin Barrel play is what he is watching for damage — "Come on, bush. Grab some damage. Bush, grab some damage. Oh my damage with the bush. One more? Oh, I wish I would have grabbed one more."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Suspicious_Bush (scraped 2026-09-02T02:34:57+00:00)

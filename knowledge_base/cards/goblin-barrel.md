@@ -157,6 +157,54 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - overtime 0:40 (t=550.5): he deliberately holds the evolved barrel to lead with Wall Breakers instead — "we do have an Evo Barrel, but I don't want to do it yet. Let's go for the Wall Breakers first" — and treats the barrel as spell drain: "Let's barrel here, as well. Continue being annoying... He did waste a lot of his spells" (531-563s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 2:43 (t=11.2) and clock 1:36 (t=78.6): both thrown at tile [14, 24] on the enemy right tower; the second is fired into the opposite lane while the Mega Knight walks the left — "It's not Evo Barrel yet, because I want the Mega Knight to tank for the other tower. Let's Evo Barrel here as well."
+- clock 2:10-2:01 (t=44-52) and clock 1:01 (t=114.1, tile [3, 26]): thrown on spell information rather than on a timer — "Let's go for the Goblin Barrel here, cuz he has no Barbarian Barrel and no E-Spirit. We can maybe grab one nice shot on the tower. Oh, he grabbed two, even better" and "He has no E-Spirit in cycle."
+- clock 0:28 (t=145.1, tile [3, 25]): a plain barrel spent purely as a cycle card — "Let's go for the barrel here just to cycle to the Evo."
+- clock 0:07 into overtime (t=167.2, tile [3, 24]): the Evo barrel as part of the closing stack — "then we can go for the evolved Goblin Barrel as well. Nice for sniping down the Archer." Across the match the barrels take the enemy left tower from 4858 to 2586 HP.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- clock ~2:38: opening barrel at tile (2, 24) played explicitly to strip the opponent's small spell — "Let's go for the Goblin Barrel here. Make him use his log at least and then we could maybe go for a Princess at the bridge." He confirms it worked at overtime 0:56: "He wasted his log, too."
+- clock 2:16-2:08: holds the barrel when he can see the splash answer coming — "He's going to Princess in the middle so I'm not going to barrel just yet. I do want to be a little bit more safe."
+- clock ~1:22: Evo Goblin Barrel at (14, 24) the moment the enemy Tesla is committed at the bridge, paired with a Skeleton Army on defence — "Okay, I'm going to evo barrel here as well. I do want to be aggressive", then "Good full counter on that barrel. Okay, good damage for us too."
+- overtime clock 1:24 and 0:44: barrels timed off the opponent's cycle rather than his own elixir — "We have a decent chance to grab damage cuz he has no e-spirit in cycle" — and repeated to hold the lead: "Let's barrel again here. Definitely just want to keep up the pressure." He also names its hard counter: "E-spirit skellies countering goblin barrels one of the lamest interactions of all time."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 1:49-1:45 (t=552-556): declines to spend the Evolution even with it available — "We do have Evo Barrel, but I don't really want to use my Evo Barrel. I feel like I'd just rather kind of chill out a bit."
+- clock 2:20 (t=521.5) and clock 2:10 (t=530.7, HUD 9.0 -> 6.0): early barrels onto the enemy left tower at tile [3, 24] while the opponent is committed elsewhere.
+- clock 0:09 (t=651.2): barrel at [3, 24] as the last piece of the regular-time push that leaves the enemy right tower at 267 HP — "Let's go for the Berserker and then we can go for the Evo Barrel."
+- OT 1:46 (t=677.2) and OT 1:34 (t=686.7): barrel at [14, 27] onto the damaged right tower in overtime; he tracks it in cycle at t=646-649 — "We do have an Evo Musketeer, I mean, not an Evo Musketeer, an Evo Goblin Barrel."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 2:16: thrown at the enemy tower purely as an elixir lever, not for damage — deploy label at [14, 24]. "Let's just go for the Goblin Barrel here just to force out more elixir from him" (t=739-742).
+- clock 1:26: his evolution slot, and placed against the answer he predicts rather than on the default tile — label at [14, 25], third card of a bait rotation behind a bridge Suspicious Bush and an opposite-lane Berserker. "we do have an Evo Barrel, so I'm going to go for the Berserker opposite lane, and then I'm going to go for the Barrel one tile in the back cuz he's probably going to go for the skellies and then something else" (t=786-794).
+- clock 1:24-1:18: the goblins from that Barrel are what finish the enemy right tower — allied goblins are tracked walking on into the enemy back corner ([13, 25] -> [11, 30], t=798-801) as the tower reading dies. "Okay, that's tower down already. Beautiful tower down" (t=797-798).
+- OT 0:31 and 0:13: still the cheap chip threat in a game he is losing — HUD -3 plus label at [3, 26], then a label at [3, 24]. "We can barrel here" (t=979-982).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:41: opening chip barrel onto the enemy right tower at tile [14, 26] (HUD -3, deploy label score 1.0); that tower reads 4858 -> 4458 five seconds later.
+- clock 1:58: second barrel at tile [3, 24] onto the enemy left tower, thrown in the same beat as the Mega Knight - "we can just go for a Goblin Barrel here as well" - after which the tower collapses to 135 HP.
+- clock 2:16, the stated reason it is in the deck: "obviously not having a spell against Goblin Barrel is not usually ideal" - the opponent, by Ryley's read, runs no spell at all.
+- Pipeline note: the 'GobliN-3' deploy label at tile [2, 25] two seconds after the [3, 24] barrel is the barrel's own goblins, not a Goblins card play.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 1:58: Evolution Goblin Barrel at tile [14, 23] on the enemy right tower, thrown specifically because the opponent's small-spell slot is empty — "Let's just do this, though, cuz he doesn't have a good response for this cuz I don't think he has a small spell." That tower reads 4858 -> 3189 over the next 15 s.
+- clock 1:23: switches lanes with a barrel at tile [3, 24] on the enemy left tower while keeping pressure on — "Just keep up the pressure."
+- clock 0:55: explicitly withholds the barrel push when the opponent's Minion Horde is live — "I think we could just go for a nice evo barrel push. Oh, maybe not yet. I don't want to evo barrel into that minion horde though. That could be a little bit of a predicament."
+- overtime 1:37: the winning throw at tile [14, 24] on a 504-HP tower, played as a Fireball prediction — "I'm going to barrel cuz he's going to fireball. Yep, he fireballed. Now, I don't think he has enough elixir to defend."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

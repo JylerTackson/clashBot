@@ -161,6 +161,12 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - clock 0:52 to 0:44: drawing it out and killing it is treated as the key exchange — "He's going to have to waste his bowler... Getting that bowler out right there is actually so huge and the giant skelly bomb actually hits the bowler as well." In overtime it is what pins him: "Hopefully that bowler gets off our tower man. Bowler chill out."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 2:44: named as part of what makes the opponent's homemade list unusual — "there's a Bowler like you would ... if you were trying to predict this guy's deck ... I don't think you would ever land on what his deck actually is." (opponent's card; never captured by the detector, discussed only)
+- clock 1:21-1:13: he plays for it rather than around it — a back Princess and then a bridge Skeleton Army are both placed to force it into a bad spot: "He's probably going to bowler into this, but if he does, I think I could go for a nice skarmy at the bridge", "Just to force him to bowler in the top middle or princess."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bowler (scraped 2026-09-02T02:35:05+00:00)

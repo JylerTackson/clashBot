@@ -125,6 +125,13 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - clock 1:57 (mentioned, not played): the third of the three answers he names — "a Tesla, a Goblin Hut, or an Inferno Tower that fully countered the Minion Giant" — consistent with his rule that "if you don't have a building and an air counter, it will always hit the tower."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 0:31 onwards: the opponent's Inferno Tower is what beats this Mega Knight bait deck, and Ryley narrates it card by card — it lands at [10, 14] seconds after his pocket Mega Knight at clock 0:36, and again at [1, 17], [13, 24], [12, 23], [7, 17], [8, 21] and [8, 17]. "He's going to be able to get a good inferno tower now, but at least we can take this out" (t=860-863).
+- OT 1:38-1:26: it eats the Mega Knight push he had been saving for — "He's just going for the inferno tower. Yo, I'm going to scar me [Skarmy] to block this... Oh, okay. Well, there goes our mega knight" (t=898-909).
+- OT 1:04-0:52: with no spell and no reset card in the deck, his only try is the Berserker's Savage Survival — "Wait, Berserker ability. Come on, take out the Inferno Tower. Wait, this can take out the Inferno Tower" (t=933-936) — and it fails: "dude, this Inferno is just unresettable" (t=942-943).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Tower (scraped 2026-09-02T02:35:33+00:00)

@@ -136,6 +136,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - overtime 1:41 and 1:14: he plays expecting it and counts it as a trade in his favour — "He might try to E-Wiz, but as long as we can get good damage on top of this, and we can just get a nice Valkyrie now, because obviously does the E-Wiz, which just gives us extra value" (483-490s); "He has to go for an E-Wiz on this. Okay, E-Wiz on the Princess" (513-516s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:09 (opponent): played behind the Bandit at [14, 16] as the support half of their right-lane push; Skeleton Army and Ice Spirit are enough to hold it, and it never reaches the tower.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

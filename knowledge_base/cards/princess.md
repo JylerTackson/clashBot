@@ -136,6 +136,52 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - overtime 0:48 (t=536.0) at (1, 7): the one defensive placement is deep and off-lane — "Let's Princess here off to the side."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 2:35 (t=17.5, tile [16, 8]) and clock 2:01 (t=52.1, tile [8, 8]): defensive/central placements against the opponent's Evo Archers — "Let's Princess here for the Archers."
+- clock 1:10 (t=104.6, tile [2, 13]): bridge Princess as pure attrition while the opponent is at ~1-4 elixir — "Let's just Princess here at the bridge again. Just keep on being as annoying as possible, especially early on when he just doesn't have enough elixir to be able to stop everything." Enemy left tower 3287 -> 2586 through that window.
+- clock 0:07 into overtime (t=166.7, tile [15, 13]): Princess at the bridge behind the closing Mega Knight, which also denies the opponent his King activation — "Nice for sniping down the Archer. Can't really activate king cuz of the Archer."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- clock ~2:32: Princess at the right bridge tile (15, 13) as the second half of a bait pair with the Goblin Barrel — "then we could maybe go for a Princess at the bridge"; the enemy right tower drops 4858 -> 4589 shortly after.
+- clock ~2:00 and overtime 1:57: Princess at (9, 9) and (8, 8), high-middle on his own half, as the splash answer he otherwise lacks — "I'm going to princesses cuz I do want to be able to splash this down" and "princess here to splash this".
+- clock 0:35: deliberately placed in his own back at (9, 1) to deny the opponent value — "let's just get a princess in the back of our own here". At clock 0:11 he notes the risk of the deep placement: "why is that thing still alive? I guess cuz our princess ran to the other lane for some reason."
+- overtime clock 0:55: Princess at (13, 13) used as a duelling piece against the mirror card — "Let's go for the princess here to snipe down his princess." All game the opposing Evo Princess is his stated problem: "not having a way to take out that evo princess is so painful, man."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:02 (t=539.0): Princess at the left-lane bridge tile [2, 13] as pure attrition — "Let's go for the princess at the bridge. Just continue being annoying." The enemy left tower ticks 4858 -> 4320 over the next nine seconds.
+- clock 0:37 (t=624.6): Princess at [16, 15] specifically to splash an incoming Skeletons cycle — "Let's Princess the bridge here to splash on those skellies. Come on. Nice, good splash."
+- clock 0:56 (t=605.6), clock 0:47 (t=613.4, HUD 10.0 -> 7.0) and clock 0:08 (t=652.7): back placement at [8, 0] and two more bridge placements at [16, 14]/[16, 15] in the closing push — "Let's go for the Princess here"; "Hold on, let's Princess."
+- OT 1:34 (t=686-687): considers and rejects using her knockback to reposition a unit away from the enemy Cannon — "Could I do it the Princess trick just to boost it away from the Cannon? Nope."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 2:07: the bridge Princess as half of a two-card prediction against a bait deck's swarm — label at [13, 13]. "I could even go for a Princess at the bridge. I'm going to go for a Princess plus Berserker here just to maybe grab the gang or the skellies" (t=749-754).
+- clock 0:59: the Princess mirror — he answers the opponent's Princess with his own, placed high on his half at [9, 9]. "doing these scrappy defenseless princess up top for his princess. Nice" (t=811-813) — and then it whiffs: "Oh, my princess, bro. You just sold me" (t=818), "I can't believe that that didn't splash twice. I gave myself two opportunities to splash and not one of them panned out" (t=831-837).
+- OT 1:57 / 1:45: back placements as a follow-up sniper behind a committed push — labels at [9, 1] and [1, 4]. "Let's just go for the princess in the back here" (t=872) and "we can go for the princess to snipe after this locks on" (t=894-896).
+- OT 0:58: last use is bait for the opponent's Goblin Gang — "Let's Princess the bridge here for the gang. Oh, he put it over there. That's still a shot though on the tower. I guess that's something" (t=937-942).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:30: played at tile [9, 1] - his own back-middle, well behind the towers rather than beside one - and left there for the rest of the game (deploy label 'PRiNCess', score 1.0).
+- clock 2:04: she wins the mirror duel he calls in advance - the opponent's Princess is tracked at [9, 22] and he says "he messed up his Princess as well. His Princess is going to get taken out by ours."
+- clock 2:24: named as one of the threats a spell-less opponent cannot answer.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 2:04: Princess at tile [9, 8] played as the direct answer to the opponent's own Princess — "Let's go for the Princess here just make sure that we take out this Princess."
+- clock 1:23: Princess at tile [8, 0] in the back as a bait for the opponent's Bowler — "I think we could just go for a princess here in the back. He's probably going to bowler into this."
+- clock 1:33: talks himself out of an offensive Princess placement in favour of a cheaper bait — "I'm going to Princess off to the side. Actually, I don't think I should. Let's just bush here."
+- overtime 1:59: Princess at tile [8, 6] as the Minion Horde answer at the start of overtime — "Princess here for the horde." Almost every placement in this game is central (columns 8-9) on his own half so it covers both lanes.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

@@ -144,6 +144,13 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:12 to 1:10: the game turns on a miss — "Oh, I think we just lost guys. I'm not going to lie. Wait, he missed. Hold on, he missed his lightning."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 0:35 (t=139.6): an unidentified opponent spell takes 423 HP off Ryley's right tower (4740 -> 4317) right after his Dart Goblin defence; he names it and shrugs — "Does grab a good lightning. Not the end of the world though."
+- clock 0:08 into overtime (t=164-167): a second cast on his overtime push — "That was a decent lightning" — which does not stop the Mega Knight reaching the tower.
+- clock 0:16 (t=156-159): he plays around it in advance by centring the Dart Goblin — "I will put it in the middle just to not give him any extra lightning value on the other side."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

@@ -159,6 +159,13 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - clock 0:10 (t=165-168): he counts on the Evo's damage against the Bowler — "our Evo archer can help get some nice damage on it."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 1:19 (t=95-96): opponent Evo Archers pair walks the left lane at tiles [3, 13] / [3, 12]; they are the most frequent enemy unit in the game.
+- clock 0:38 (t=135-138): he changes a Dart Goblin placement specifically to dodge them — "I'm going to put a little bit lower so he can't snipe us with the Archers later on."
+- clock 0:07 into overtime (t=169-177): an Archer left on the field is what stops the opponent activating his King Tower — "Can't really activate king cuz of the Archer. Nice. Oh my god. DUDE, I WAS saying he couldn't activate because of that."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archers (scraped 2026-09-02T02:34:40+00:00)

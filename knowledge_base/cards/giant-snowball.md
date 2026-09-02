@@ -164,6 +164,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - Opponent spell (evolution, by his description), named but never detected. It is the card he times his Wall Breakers around — "then we do a very late Wall Breakers, just so he can't grab a good snowball on top of everything. He has to at least delay a snowball, which is nice" (551-558s) — and he credits the opponent when it lands well: "I think he got a good Evo snowball there, but that's fine. Good catch by him" (534-538s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 0:57 (t=117-126): mentioned only as a card the deck lacks — "I don't have like a zap or a snowball to bring them down to the ground or even a building for that matter," said about the opponent's evolved Royal Hogs.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

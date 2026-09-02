@@ -158,6 +158,51 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:16: Ice Spirit at (5, 9) inside the closing defensive chain he narrates card by card — "Ice spirit, then we need to log, then we need to go for a high up [Hog] cannon."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 1:17 (t=97.1, tile [15, 8]): the 1-elixir top-up behind a Skeleton Army + Berserker defence against crossing Royal Hogs — "we can go for the Ice Spirit here, too."
+- clock 0:11 into overtime (t=161.2, tile [16, 13]): opens the winning push, played before the bridge Mega Knight — "Let's spirit here then we can go for the Mega Knight at the bridge."
+- clock 2:19 (t=34.5, tile [13, 12]): early cheap drop on his own right half with no commentary; in this game the card is always a support, never a standalone answer.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- clock 2:16: Ice Spirit at (12, 7) stacked onto a defence already in progress — "we can go for a Ice Spirit here on top of this."
+- clock 1:24: spent pre-emptively the same second the opponent's Tesla reaches the bridge, rather than held — "I guess I'll spirit preemptively because he has the tesla down so he has a really good opportunity."
+- clock ~1:33: named as the insurance policy while a Suspicious Bush walks in — "We have the spirit ready. Just in case he tries to go for a goblin barrel."
+- overtime clock 0:11: used as a predictive block on a card that has not landed yet — "Spirit here to block a skarmy behind the predicted goblin barrel."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:48 (t=492.0): Ice Spirit at [2, 9] as part of the stacked defence on the opening Hog Rider, alongside Berserker and Skeleton Army.
+- clock 2:08 (t=532.2): played at the bridge tile [15, 13] as a prediction, not a reaction — "we can go for the ice spirit here as well, just to maybe grab some skeletons. Nice, beautiful prediction right there."
+- clock 1:19 (t=581.6): Ice Spirit at [13, 10] with the swarm into an Ice Golem + Hog push — "we can go for the Spirit here as well. Yeah, this should take that all out."
+- clock 0:43 (t=617.8), clock 0:08 (t=651.3) and OT 1:53 (t=672.7, t=685.2): the cheapest filler in every stack; seven casts this game make it his most-cycled card.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 1:37: played after the defence is already committed, to buy the last second — HUD -1 plus deploy label at [4, 15], the river tile. "I think I have to Skarmy the bridge instead of going for anything. Okay, we can Spirit now as well" (t=774-778).
+- OT 1:45: the cheap opener of a stacked push — label at [8, 0]. "The only way is to stack up a really big push. So, I'm going to start doing that right now. Let's go for the spirit here and then we can go for the princess to snipe after this locks on" (t=889-896).
+- OT 0:20: used as a retarget/pull on the river rather than for damage — HUD -1 plus label at [13, 16]. "Let's Ice Spirit here. Pull this back" (t=977-979).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:32: played at tile [9, 10] into the Royal Hogs / Minions wave (HUD -1 plus deploy label).
+- clock 2:08: played again at tile [7, 6] alongside the Skeleton Army against the Bandit and Electro Wizard - "Just go for the Skarmy here to keep this alive. We can go for Ice Spirit here." It survives and walks up the left lane into the winning push.
+- Pipeline note: a third Ice Spirit deploy label at [1, 13] (t=1034) sits 2.5 s from the [7, 6] play; with an 8-card cycle both cannot be plays, and the HUD-confirmed one is [7, 6].
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 1:52: Ice Spirit at tile [10, 9] behind the Dart Goblin to freeze a Minion Horde — "we can go for the Ice Spirit as well just to make sure that we freeze up as many of those as possible."
+- clock 1:02: Ice Spirit at tile [7, 13] (HUD, elixir 7 -> 6) against Barbarians crossing on his left — "Let's ice spirit as well just to make sure that we grab those barbs."
+- clock 0:07: Ice Spirit at tile [15, 14] during the last-seconds defence at 1-2 elixir — "We have to ice spirit."
+- overtime 1:36-1:32: two more Ice Spirits behind the Dart Goblin/Berserker block that wins the game — "Let's ice beard." In this game it is never played alone, always as the second half of a defensive pair.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Spirit (scraped 2026-09-02T02:34:45+00:00)

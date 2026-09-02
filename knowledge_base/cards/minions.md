@@ -128,6 +128,13 @@ This card appears in 2 of 19 scraped decks:
 - **[Siege](../archetypes/siege.md)** — 2 deck(s): [EvoMortar Cart](../decks/barbarian-barrel-berserker-cannon-cart-fireball-minions-mortar-rascals-skeleton-barrel.md), [EvoMortar Goblinstein Cart](../decks/barbarian-barrel-cannon-cart-elite-barbarians-fireball-goblinstein-minions-mortar-skeletons.md)
 <!-- deck-archetypes:end -->
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:36-2:33 (opponent): three Minions sent into the right lane, tracked from [16, 25] down to [13, 8]; Ryley spends nothing but an Ice Spirit on them and lets the right tower take the chip (4858 -> 4174 over the game).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Minions (scraped 2026-09-02T02:34:40+00:00)

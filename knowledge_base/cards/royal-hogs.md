@@ -141,6 +141,18 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.0.m
 - clock OT 1:04 (t=170-175): a placement habit he wants to change — "I think I might start splitting my royal hogs more but I think for now I can just continue splitting my archers." Every attacking deploy in this game was the left lane (tiles [2, 13-15]).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 2:27-2:15 (t=27-39): he identifies the deck on sight and complains about it — "It looks like we're up against that one Royal Hogs deck already. Man, this Royal Hogs deck, even after two emergency nerfs, is still everywhere, which is just kind of crazy... It just says how really unbalanced the meta is right now."
+- clock 0:57 (t=117-126): the evolved version is the single card he says beats his list — "The one thing that I do have to be careful of in this matchup is the evolved Royal Hogs because I don't have like a zap or a snowball to bring them down to the ground or even a building for that matter."
+- clock 1:16 (t=97.1): the Hogs cross at tile [13, 15] and are answered for 5 elixir with Skeleton Army at [14, 9] plus Berserker at [1, 14] plus Ice Spirit; Ryley's right tower loses 118 HP.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:39 (opponent): committed into Ryley's left lane, tracked [4, 15] -> [4, 11] with the threat model calling the tower in 2.5 s. Ryley does not react to it in commentary - he is busy describing the opponent's deck - and answers with a 1-elixir Ice Spirit while sitting at 8 elixir.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

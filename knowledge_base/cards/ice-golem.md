@@ -146,6 +146,13 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 1:09 and clock 0:20: Ice Golem at (7, 13) behind the Musketeer, then at (2, 10) purely as a kiter in the final defence — "Let's ice golem here just to keep distracting."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:02-1:53 (t=540-548), clock 1:31-1:21 (t=570-580) and clock 1:18-1:15 (t=583-586): tracked walking Ryley's right lane as the Hog Rider's tank; his answer each time is Mega Knight or Skeleton Army plus Ice Spirit rather than a spell.
+- clock 1:02-0:57 (t=603-605): treated as the scarier line than ability chip — "if he out-cycled us, just went for Ice Golem Hog, I would have taken way more damage anyways."
+- OT 1:55-1:52 (t=666-672): once it is spent defensively the game flips — "he wasted his Ice Golem, which is super good because now with no Ice Golem, obviously, he's not going to be able to defend the Mega Knight as well."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

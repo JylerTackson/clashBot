@@ -135,6 +135,11 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.4.m
 - overtime 1:10: dropped at [1, 14] to open the left lane while the ram threatened the right — "Let's go for the ghost here on the left. Wait, that's going to spawn another piggy."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:22 (opponent): walks the whole left lane from [5, 25] to the King Tower unanswered; Ryley takes the damage on purpose - "Hopefully, activate our King Tower" (clock 2:07) - and gets it, own king HP becoming readable at 7512 the next second: "Nice, beautiful King activation."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

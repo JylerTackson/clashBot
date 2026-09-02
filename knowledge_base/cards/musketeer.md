@@ -200,6 +200,14 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:25: Musketeer at (1, 8) into the last Lava Hound push — "Let's go for the musky here."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:35-2:27 (t=506-514): named as the reason the matchup is hard for this list — "2.6 is going to be a pretty rough one, I feel like, cuz I'm not really able to kill the musketeer, and he has a super super quick cycle."
+- clock 1:05-1:02 (t=598-601): played as a Hero — her ability chips his right tower for six ~237 HP hits (3844 -> 2422) with no enemy unit in range. His read: "yep, I knew he would ability, dude. These 2.6 players always end up going for the ability, man."
+- clock 1:02-0:57 (t=601-605): he is happy to be chipped that way rather than out-cycled — "I'm really fine with him going for that ability cuz I feel like if he out-cycled us, just went for Ice Golem Hog, I would have taken way more damage anyways."
+- clock 0:35 (t=622) and clock 0:27 (t=635): he burns two premium answers on her — a bridge Skeleton Army ("Skeleton Army here at the bridge for the Musketeer") and then the Evolution Mega Knight ("I'm going to Evo Mega Knight into this Musketeer. I feel like I just kind of have to").
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Musketeer (scraped 2026-09-02T02:35:03+00:00)

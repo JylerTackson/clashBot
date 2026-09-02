@@ -128,6 +128,13 @@ Rocket explodes multiple times and bounces.
 - Modifier - Rare: Party On, Goblin!, sends out a Party Rocket.
 - Modifier - Epic: Bouncing Bomb, the Rocket bounces and explodes multiple times.
 
+## Creator insights (ryleycr1)
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- Mentioned, not played (the opponent's big spell). At overtime clock 1:04 he factors it into a bridge push — "I have to watch out for a rocket barrel" (415-419s) — and at overtime clock 0:16 he discounts it as a losing condition: "He needs more than one rocket, guys, so he can't just rocket us away. As long as we save up for defense" (463-468s).
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

@@ -162,6 +162,16 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 1:58: he expects it paired with a Fireball on his defence — "I knew he was going to go for a fireball zap, but as long as we don't lose our whole tower, it's fine."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 0:57 (t=117-126): named, not played, and named as a hole in the list — "The one thing that I do have to be careful of in this matchup is the evolved Royal Hogs because I don't have like a zap or a snowball to bring them down to the ground or even a building for that matter." This Mega Knight bait list carries no small spell at all.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- Not in this deck: the -2 HUD play at t=1058.4 is read as Zap, but the 'DaRt GobliN' deploy label at [3, 19] lands 0.3 s earlier and Ryley says "I'm going to go for the Dark [Dart] Goblin on the King Tower". Zap is not in the video-level consensus deck and is never mentioned.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Zap (scraped 2026-09-02T02:35:16+00:00)

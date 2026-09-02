@@ -115,6 +115,16 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.0.
 - opponent plays at clock 2:18 [13, 18], 2:15 [3, 13], 1:24 [3, 15], 0:34 [12, 23] and 0:31 [13, 16], mostly as cheap ground support behind the Mortar; Ryley answered them with The Log rolled into the same left-lane bridge tiles rather than spending anything larger.
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 1:34 (t=80.1) and clock 0:33 (t=140.6): NOT in this deck. The two 'GobliN.' / 'obliN' labels that put Goblins in the per-game deck read are (a) the Evo Goblin Barrel's own spawned goblins at tile [12, 25], two seconds after the barrel landed at [14, 24], and (b) a partial read next to a Dart Goblin label at tile [8, 10]. The video-level consensus across six games and the commentary (t=92, t=97, t=102) both put Skeleton Army in that slot.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- Not in this deck: the 'GobliN-3' deploy label at [2, 25] (t=1049.5) is two tiles and two seconds from the Goblin Barrel Ryley threw at [3, 24], i.e. the barrel's spawned goblins rather than a Goblins card. Goblins appear in the raw per-game deck read for this reason only.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

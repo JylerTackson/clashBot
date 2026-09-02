@@ -177,6 +177,18 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 1:44: he counts Fireball as a held answer, not only a cast one — "He definitely messed up his push cuz I even had fireball for the skelly drags if he didn't misplay that one."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 0:24 (t=637-642): mentioned only, as the reason he refuses to keep stacking support behind the bridge and instead spends his Evolution Mega Knight on the Musketeer — "otherwise I'm just going to keep on giving him Fireball value for the rest of the game and that is not ideal."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 1:07: he tracks the opponent's big spell and places accordingly — "I know he has fireball in this deck", then puts the Dart Goblin low. (opponent's card, never captured as an event)
+- clock 0:43: the ideal bait outcome is the opponent taking the damage and spending the spell anyway — "He's probably going to fireball this now, right? No way lets us hit everything. Oh my god, he let it hit everything and he fireballed. That's like the best of both worlds."
+- overtime 1:36: the winning Goblin Barrel is thrown into the expected Fireball — "I'm going to barrel cuz he's going to fireball. Yep, he fireballed. Now, I don't think he has enough elixir to defend."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

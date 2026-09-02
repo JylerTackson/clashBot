@@ -152,6 +152,12 @@ Match [Minion Giant is the Most OVERPOWERED Card!!](../matches/CInrqMTlVkg-m0.3.
 - OT 1:20: Skeletons dropped straight onto it is his cheapest answer — "we can just go for the skellies here as well. That will take out that mortar nicely."
 <!-- creator-insights:ryleycr1:CInrqMTlVkg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 2:41 and 1:27: the opponent's win condition, tracked at tiles [8, 20] and [9, 20]; Ryley's stated goal is to make it a defensive card instead — "Just keep up the pressure. Make him go for a a defensive mortar." (opponent's card)
+- overtime 1:50-1:55: with no answer left he plays around it by hoping for a miss and by distracting it with a bridge Skeleton Army — "Okay, please don't lock on my tower. Mortar, miss one more time", "just to distract the bowler and the mortar."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

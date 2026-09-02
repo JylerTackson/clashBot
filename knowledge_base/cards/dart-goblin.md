@@ -133,6 +133,52 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.1.m
 - overtime 1:12 (t=515.5): keeping him alive is worth a bridge Skeleton Army — "It's going to help keep the Dark Goblin alive, as well. Dark Goblin still alive... Nice damage" (518-522s), and he replays him for pressure at overtime 0:31, "we can Dark Goblin again" (560s).
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.0.md):
+- clock 1:48 (t=65.6, tile [8, 10]): dropped dead centre so it covers both lanes — "Let's go for the Dark Orb in the middle" (auto-transcript for Dart Goblin).
+- clock 0:38 (t=136.1, tile [8, 10]): placement rule against ranged snipes — "we can get a nice Dark Goblin here down the middle. I'm going to put a little bit lower so he can't snipe us with the Archers later on."
+- clock 0:16 (t=156.2, tile [9, 10]): placement rule against a big spell — "I will put it in the middle just to not give him any extra lightning value on the other side."
+- clock 2:26 (t=27.5, tile [8, 0]): also used as a plain back-line placement off a full bar early in the game.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.1.md):
+- clock ~2:24: Dart Goblin placed centrally at (9, 9) rather than in the lane, so he covers both sides — "Let's go for the dart goblin here off to the side. Make sure that we take this out."
+- clock 0:20: held as the optional add-on to a defence he is already paying for — "we can even go for a dart goblin if need be. Yeah, we're definitely going to need be that dart goblin."
+- overtime clock 1:11 and 0:58: he is the payload behind the push, and Ryley protects him with the Mega Knight — "that dark goblin's going to get on the tower, too. Nice, really good damage" and "it kept the dark goblin alive. That's huge."
+- Placements this game are consistently column 8-10 on his own half ((9, 9), (8, 10), (8, 8), (10, 10)) with only one bridge-adjacent (9, 15) once he is ahead in overtime.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:12 (t=529.5): Dart Goblin at the bridge tile [13, 13] paired with an Ice Spirit — "Let's go for the dark goblin here, and we can go for the ice spirit here as well."
+- clock 2:03 (t=536-540): rates its staying power after the trade — "Bush does die, but the dart goblin will be a threat still."
+- clock 1:42 (t=559.6): second bridge Dart Goblin at [13, 13], placed behind the bridge Berserker to support the king-activation-denial play.
+- clock 0:48 (t=612.1), clock 0:08 (t=652.2, HUD 6.0 -> 3.0) and OT 1:38 (t=683.7): back and mid placements at [8, 0] and [9, 9]/[9, 10]; he never plays it alone, always alongside a Berserker, Ice Spirit or Princess.
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.3.md):
+- clock 1:50 and 0:27: seven plays, nearly all from his own half or behind the king tower rather than at the bridge — labels at [7, 11], [4, 2], [1, 13], [8, 0], [10, 6], [6, 9], [8, 1], [9, 8]. "Let's go for the Dart Goblin here" (t=766), "Let's just go for the dark goblin here in the back. We have a skeleton army ready" (t=848-851).
+- OT 1:34: he times it against the opponent's spell rotation, exactly as the card's spell-bait note prescribes — "we can dark goblin too because he used his log so we can try to get a good one" (t=902-905).
+- OT 1:11: still the card he reaches for to chip while defending in a lost game — label at [6, 9], "Dark Goblin here" (t=924). (The auto-transcript renders him as "dark goblin" throughout.)
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.4.md):
+- clock 2:50: played at tile [2, 10] on his own half at the very start of the readable window (deploy label 'DaRt GobliN', score 1.0).
+- clock 1:47: the closer, played at tile [3, 19] deep in the opponent's left half with their left tower already at 135 HP - "I'm going to go for the Dark [Dart] Goblin on the King Tower and this might even be a three-crown, to be honest, cuz he really just doesn't have good cards to defend." (The matching HUD row reads it as Zap; the deploy label and commentary agree it is the Dart Goblin.)
+- clock 2:24: one of the four cards he names as beating a spell-less opponent - "Mega Knight, Dark [Dart] Goblin, Princess, and Skarmy."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.5.md):
+- clock 1:53: Dart Goblin at tile [9, 7] as the primary Minion Horde answer, with an Ice Spirit behind it — "Yep, there's the Minion Horde. Let's go for the Dark Orb here and we can go for the Ice Spirit as well ... Beautiful defense taking zero damage." (the auto-transcript renders the card as "dark orb"/"dark goblin").
+- clock 1:07: Dart Goblin at tile [8, 8] placed low on his own half so a Fireball cannot reach it with anything else — "I know he has fireball in this deck ... let's dark goblin low."
+- clock 0:50: chosen over an Evolution Goblin Barrel push as the safe play into a live Minion Horde, at tile [7, 1] deep behind his tower — "Let's just dark goblin here. He's probably going to fireball this now, right? ... he let it hit everything and he fireballed. That's like the best of both worlds."
+- overtime 1:39: Dart Goblin at tile [12, 7] starts the defence-into-counterattack that drops the enemy right tower from 1362 to 504 HP — "Okay, let's dark orb here. Let's ice beard."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Dart_Goblin (scraped 2026-09-02T02:34:56+00:00)

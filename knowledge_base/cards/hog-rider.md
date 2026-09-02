@@ -145,6 +145,14 @@ Match [TOP 5 BEST Decks After New Balance Changes](../matches/LGb0mz8Sb8w-m0.3.m
 - clock 0:07: final Hog Rider (plus Ice Spirit) at (9, 20), already on the opponent's half, as he calls the game: "I think we got it, guys ... Let's go. Very nice win, man."
 <!-- creator-insights:ryleycr1:LGb0mz8Sb8w-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:start -->
+Match [This Mega Knight Bait Deck is EXTREMELY BROKEN!!](../matches/32pkLm4-QMc-m0.2.md):
+- clock 2:45-2:42 (t=496-499): the opponent's opening Hog reaches an ETA of 0.0s on his left tower and is still denied by a triple-stack — "Honestly, I'm kind of surprised that the hog rider didn't get a hit. I feel like whenever I extra defend a hog rider, it just somehow grabs a hit."
+- clock 1:47-1:45 (t=554-556): a Hog behind an Ice Golem connects once, taking his right tower 4858 -> 4351, right after he calls the pattern — "He might try to go for a hog rider plus pre-log."
+- clock 1:18-1:13 (t=583-588): answered with Skeleton Army plus Ice Spirit — "Yeah, this should take that all out. Good defense here. Maybe we take one shot, but that's not the end of the world."
+- OT 1:48-1:44 (t=673-681): denied on the last attempt — "Please deny this hit, Hog Rider. Oh my god, we barely denied it. For a second I thought it was going to do the exact same thing I was talking about whenever I over-defend a Hog, it still grabs a hit."
+<!-- creator-insights:ryleycr1:32pkLm4-QMc-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)
