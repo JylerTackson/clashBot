@@ -1,0 +1,90 @@
+{
+  "key": "tizujccrTvE-m0.7",
+  "match_file": "matches/tizujccrTvE-m0.7.md",
+  "video_title": "I Got a 96% WIN Rate with this BROKEN Deck",
+  "cards": {
+    "ronin": [
+      "clock 1:55 (t=1418.8): Ronin for 5 (HUD 9.0 -> 4.0, deploy label score 1.0) sent in as pressure while a Golden Knight is dashing at him, chosen for the response it forces rather than the damage — \"Let's go for the Ronin here off to the side. I think he can [Tornado] the Ronin to the king tower even off to the side, but we do get some damage. So, I think he'll zappies because of this\" (t=1417-1424); the opponent does answer with Zappies at t=1431.4.",
+      "clock 1:15 (t=1458.3): Ronin at the bridge, tile [15, 14] (HUD 8.0 -> 3.0), as the first half of a two-card lock — \"Hold up. If I Ronin at the bridge, isn't this just a guaranteed activation? Yeah, let me Ronin the bridge here guys and then I can go for the late Tesla on defense to activate king cuz he has to go for the golden knight here and then he can't defend the Tesla\" (t=1453-1465).",
+      "clock 0:48 (t=1482.5, deploy label at [3, 13]): after the King activation he names the Ronin as the reason the sequence worked — \"that was a beautiful sequence right there just forcing him to have to defend the Ronin and then he just wasn't able to prevent the king activation like he was able to the first time\" (t=1483-1489). He never uses the Ronin as a defensive tank in this game."
+    ],
+    "tesla": [
+      "clock 2:28 (t=1384.7): Tesla at tile [11, 6] for 4 (HUD 8.0 -> 4.0) against a Bowler plus Graveyard, placed for the King Tower rather than for the cleanest defence — \"I'm going to go for the Tesla here to try to activate the king tower\" (t=1382-1384). The attempt fails to a Freeze (t=1401).",
+      "clock 1:12 (t=1462.5, deploy label at [6, 6] score 1.0): the same idea played late and behind a bridge Ronin, into the second Graveyard — \"then I can go for the late Tesla on defense to activate king cuz he has to go for the golden knight here and then he can't defend the Tesla... Yeah, let's Tesla like this\" (t=1460-1465). Own King HP becomes readable at t=1472: \"Nice king activation. Perfect and the golden knight's literally dead\" (t=1469-1471).",
+      "Both Teslas are defensive-only placements on his own half; the card is never used as a lane blocker at the bridge."
+    ],
+    "goblin-barrel": [
+      "clock 2:47 (t=1365-1368): before playing it he flags how often it shows up — \"Going to go for the goblin barrel, dude. I feel like I've had goblin barrel in almost every starting hand so far this game.\"",
+      "clock 2:03 (t=1409.4, deploy label 'obliNBaRRel' score 0.957): thrown while expecting the Tornado answer — \"Let's go for the barrel here on the right. I think he's going to [Tornado] that, but then he won't be able to...\" then \"Okay, wait, we get one. Nice\" (t=1410-1414); enemy right tower 4858 -> 4298 at t=1416.",
+      "clock 1:29 (t=1444, own 3-elixir drop; logged as an opponent play by the pipeline): placed off-centre on purpose against a Tornado deck, as the second half of the Wall Breakers pair — \"then we can go for the evo barrel off to the side. Make it a little bit harder to activate\" (t=1444-1446).",
+      "clock 0:55 (t=1477.5): barrel plus Wall Breakers immediately after the opponent freezes his King Tower — \"He just froze the king tower. Oh my god, let's barrel wall breakers here before he has time to save the game\" (t=1476-1480); enemy left tower falls 3373 -> 265 between t=1482 and t=1488."
+    ],
+    "wall-breakers": [
+      "clock 2:41 (t=1371.9, own 2-elixir drop, deploy label at [13, 14]): his first play of the readable window, chosen over the Ronin out loud — \"I'm going to go for the ronin here, I mean, uh not the ronin. Sorry, the wall breakers here\" (t=1371-1374).",
+      "clock 1:32-1:29 (t=1441-1443): Wall Breakers first, then Goblin Barrel, as a named pair — \"We do have the nice evo barrel wall breakers push here. Let's go for the wall breakers here then we can go for the evo barrel off to the side\" (t=1439-1444). Enemy right tower is down to the 2000s by t=1452 and he calls it \"nice damage on the right side\" (t=1450).",
+      "clock 0:57 (t=1477.5, deploy label at [2, 14]): repeated with the barrel to close the game out while the opponent is frozen (t=1478)."
+    ],
+    "royal-delivery": [
+      "clock 2:35 (t=1377.9): Royal Delivery at tile [4, 14] for 3 (HUD 9.0 -> 6.0, deploy label score 1.0) onto a stacked left-lane column of Zappies plus Little Prince — his only clean answer to the opponent's swarm-plus-support opening. No commentary on the card itself; it is held as pure defence all game (further 3-elixir drops at t=1478.0 and t=1483.3)."
+    ],
+    "skeletons": [
+      "clock 2:27 (t=1386.4, deploy label on his own half): Skeletons used as a pull, not as damage — \"We can go for the skeletons over just to yank that bowler in\" (t=1386-1388), setting up the Fire Spirit retarget for the King activation.",
+      "clock 1:46 (t=1427.9): Skeletons at tile [14, 12] for 1 (HUD 7.0 -> 6.0) into the right-lane push while he counts the opponent's hand.",
+      "clock 0:42 (t=1490.5): Skeletons at tile [3, 19] on the opponent's half for 1 as the game runs out."
+    ],
+    "fire-spirit": [
+      "clock 2:23 (t=1389.2): Fire Spirit on the river tile [8, 15] for 1 (HUD 5.0 -> 4.0), used to change what the Bowler attacks rather than to kill anything — \"Let's go for the fire spirit up top just to make the bowler not target the tower and that should activate the king tower\" (t=1389-1394). It over-pulls: \"no because the the troops moved it too much... I think it moved it way too much\" (t=1396-1409).",
+      "clock 1:22 and 0:48 (t=1452.5 at [14, 13], t=1484.5 at [5, 7], both deploy labels score 1.0): two more Fire Spirits on defence during the Zappies and Graveyard waves, no commentary attached."
+    ],
+    "magic-archer": [
+      "clock 1:38 (t=1435.4, deploy label 'Magic ARcHeR' score 1.0; the matching 4-elixir HUD drop at t=1435.6 was slot-read as Skeleton Dragons): Magic Archer at tile [8, 11], centre of his own half, splitting the four Zappies coming down both lanes at once. He does not comment on the card and no Hero ability use could be identified in this game."
+    ],
+    "graveyard": [
+      "Opponent win condition, and Ryley calls it off the opening before it appears — \"Okay, bowler and zappies. Yo, this could be graveyard freeze, actually. Graveyard freeze would be interesting\" (t=1376-1380). Cast at t=1383.4 on his right tower (which loses 60 HP) and again at t=1461.5 at [6, 0] on the left.",
+      "clock 1:12 (t=1461.5): the second Graveyard is answered with the late Tesla he had been saving for the King activation, so one card handles the defence and the activation together (t=1460-1465)."
+    ],
+    "freeze": [
+      "clock 2:25-2:12: the card that beats his first King Tower activation — \"He okay, yeah, he goes for the freeze\" (t=1388), then \"Great freeze by him to prevent the activation. I thought that by pulling it like that I could still end up getting the activation\" (t=1401-1407).",
+      "clock 0:57 (t=1476): used a second time on the King Tower itself once the game is already lost for the opponent — \"He just froze the king tower. Oh my god, let's barrel wall breakers here before he has time to save the game\" (t=1476-1480). Ryley also tracks it in the opponent's cycle: \"Next card freeze\" (t=1437)."
+    ],
+    "tornado": [
+      "Opponent card, never captured as an event but played around constantly. He expects it on the Goblin Barrel — \"I think he's going to [Tornado] that, but then he won't be able to...\" (t=1411) — and on the Ronin — \"I think he can [Tornado] the Ronin to the king tower even off to the side\" (t=1418-1420).",
+      "clock 1:29 (t=1444-1448): the reason he places the barrel off-centre — \"we can go for the evo barrel off to the side. Make it a little bit harder to activate. He might bowler on the left side which would be good to not let him activate.\" He also lists it in the opponent's hand at t=1429-1437."
+    ],
+    "bowler": [
+      "Opponent card, played at t=1379.4 into the right lane and again at t=1451.5. It is the unit Ryley builds his first activation attempt around — Skeletons \"just to yank that bowler in\" (t=1386) and then a Fire Spirit \"just to make the bowler not target the tower\" (t=1389-1393).",
+      "clock 1:28 (t=1447): he wants the opponent to spend it on the wrong side — \"He might bowler on the left side which would be good to not let him activate.\""
+    ],
+    "zappies": [
+      "Opponent card, the most frequent one on the field: t=1371.4 [2, 21], t=1375.4, t=1431.4 [8, 19] and t=1437.4, four of them walking both lanes at clock 1:38-1:32. Ryley answers the first wave with Royal Delivery (t=1377.9) and the later one with a centred Magic Archer (t=1435.4).",
+      "clock 1:50 (t=1424-1428): he predicts the card before it is played — \"I think he'll zappies because of this... Yeah, he'll have to get some zappies down\" — and it arrives at t=1431.4."
+    ],
+    "little-prince": [
+      "Opponent card, played at t=1375.4 at tile [3, 17] behind a Zappies in the left lane. Ryley answers the pair with a single Royal Delivery at [4, 14] (t=1377.9) rather than splitting his answers. No commentary on the card by name."
+    ],
+    "golden-knight": [
+      "Opponent card, dashed in at t=1417.4 toward his left side and again at t=1465.5-1471.5 on the right. It is the card his final plan is built to overload — \"he has to go for the golden knight here and then he can't defend the Tesla\" (t=1462-1465).",
+      "clock 1:08 (t=1469-1472): it dies into the freshly activated King Tower plus Tesla — \"Nice king activation. Perfect and the golden knight's literally dead. Yo, he gives up. Nice.\""
+    ],
+    "inferno-dragon": [
+      "Opponent card, mentioned but never seen on the field in this window. Ryley corrects his own card count with it at clock 1:44-1:34 — \"right now he has zappies, graveyard, freeze, and [Tornado] in his hand. Or well, not freeze actually. He has the inferno dragon and not the freeze. K, bowler, inferno dragon, graveyard, and [Tornado]. Next card freeze\" (t=1428-1437)."
+    ]
+  },
+  "deck": {
+    "deck_key": "fire-spirit-goblin-barrel-magic-archer-ronin-royal-delivery-skeletons-tesla-wall-breakers",
+    "cards": ["ronin", "goblin-barrel", "wall-breakers", "magic-archer", "tesla", "royal-delivery", "skeletons", "fire-spirit"],
+    "bullets": [
+      "Last game of the video (video time 1364.5-1500.0, clock 2:48 down to 0:35), the same single deck used all session. The per-game HUD read swapped Goblin Barrel for Tornado; that is a misread — Goblin Barrel is named six times and cast three times here, while every 'NATO'/Tornado reference is Ryley describing the opponent's card.",
+      "The deck is piloted as chip-plus-activation, not as a push deck: Wall Breakers and Goblin Barrel go in as a pair on the opponent's tower (t=1441-1445, t=1477.5 — \"We do have the nice evo barrel wall breakers push here\"), while Tesla, Royal Delivery, Skeletons, Fire Spirit and Magic Archer stay entirely on his own half.",
+      "Its signature play in this game is using cheap defence to activate his own King Tower: Skeletons to pull the Bowler and a Fire Spirit to retarget it at clock 2:27-2:23, failing to a Freeze (\"Great freeze by him to prevent the activation\", t=1401), then Ronin at the bridge plus a late Tesla at clock 1:20-1:08 which succeeds (\"Nice king activation... the golden knight's literally dead\", t=1469-1471).",
+      "Ronin is the deck's tempo card rather than its tank — both uses (t=1418.8, t=1458.3) exist to force a defensive spend: \"forcing him to have to defend the Ronin and then he just wasn't able to prevent the king activation\" (t=1484-1488). The game ends with the enemy left tower at 265 HP and Ryley reading out the video's outro over it."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Goblin Barrel Wall Breakers Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel, Wall Breakers, Skeletons and Fire Spirit all bait the same small spells, and at a 2.875 average cost the deck cycles back to them faster than the opponent can hold an answer.",
+      "why_it_works_md": "Two cheap chip threats — Goblin Barrel and Wall Breakers — are played as a pair, so a single small spell or swarm can never cover both, and the deck cycles back to them almost immediately. Everything else is defence bought at one to four elixir (Skeletons, Fire Spirit, Royal Delivery, Tesla, Magic Archer), which lets Ryley answer a Graveyard control deck's Bowler, Zappies and Graveyard without ever spending his win conditions on defence. The Ronin is the tempo lever: dropped at the bridge it forces a defensive commitment, and while the opponent is paying for it the defensive building can be placed late enough to also drag Ryley's King Tower into the fight — \"If I Ronin at the bridge, isn't this just a guaranteed activation?\" (t=1455). Against Tornado decks the same cheapness lets him place the barrel off-centre and still threaten, because he can afford to throw it again next cycle."
+    }
+  }
+}

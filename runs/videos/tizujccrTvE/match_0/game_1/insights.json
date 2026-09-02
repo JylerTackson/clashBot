@@ -1,0 +1,114 @@
+{
+  "key": "tizujccrTvE-m0.1",
+  "match_file": "matches/tizujccrTvE-m0.1.md",
+  "video_title": "I Got a 96% WIN Rate with this BROKEN Deck",
+  "cards": {
+    "ronin": [
+      "clock 2:42 (t=171.2): Ronin at tile [9, 7] on his own half onto an incoming Dark Prince; over the next eight seconds it kills the Dark Prince and the Mega Minion and counterpushes, dropping the enemy right tower 4858 -> 2891 by t=190 — \"it will never not surprise me how much value the Ronin gets on these melee units. That will take out the whole mega minion as well, which is great. And some tower damage. Perfect rate value.\"",
+      "clock 2:02-1:52 (t=212-225): his one placement rule for the card, spoken while a Prince charges — \"there is a pro tip in these giant matchups. Never put your Ronin right next to the giant when you're initially trying to reflect the prince or the dark prince, cuz they can giant ability the Ronin to the opposite lane, and then you actually won't end up deflecting any of their damage, so you can get completely caught off guard like that.\"",
+      "clock 0:52-0:45 (t=281.3, label at [8, 0]): plays the Ronin BEFORE his ranged support so the enemy air unit locks onto it — \"Let's go for the Ronin first so it can target onto the Ronin with the mega minion and then we can go for a nice magic archer here.\"",
+      "clock 1:28-1:08 (t=246-270): his verdict on the card after four uses in one game — \"I know that the Ronin is really broken, but it's not like completely game breaking depending on the deck strategy that you face... against say a Lava Hound deck, Ronin is absolutely terrible or like maybe even a bait match up, it's really bad. But then when you're in like a match up like this, it's just like the best card you could ever have.\""
+    ],
+    "goblin-barrel": [
+      "clock 2:17 (t=195.7): Goblin Barrel at tile [15, 26], enemy right tower, elixir 8 -> 5, played the moment the Ronin's counterpush has the lane clear; the tower steps 3120 -> 2891.",
+      "clock 1:36 and 1:14 (t=237.2 label at [3, 23], t=259.1 at [14, 26], elixir 7 -> 4): two more barrels onto the same damaged tower, taking it 1600 -> 1142 -> 684. He never plays it defensively and never comments on it — in this game it is pure follow-up chip behind the Ronin.",
+      "clock 2:48-2:42 (t=170.2, label at [2, 23]): a barrel label lands in the same second as the opening Ronin, inside a single -4 elixir step, so one of the two is a label artifact (see the match file's Data gaps)."
+    ],
+    "wall-breakers": [
+      "clock 2:48 (t=165.2): opens the game by splitting Wall Breakers at the bridge centre tile [8, 15], elixir 9 -> 8, before he has read the opponent's deck.",
+      "clock 0:27 (t=306.3, label at [13, 15]): sends the Evolution pair as a counter-attack while still defending a two-lane push — \"Let's Evo wall breakers to pressure him while defending and then we can go for the skeletons.\" (The label was sided to the opponent by the pipeline; the commentary one second earlier corrects it.)",
+      "clock 1:48 (t=228.2, label at [14, 12]): a Wall Breakers label on his OWN half rather than at the bridge, i.e. the defensive/kiting placement, alongside a -1 elixir step."
+    ],
+    "magic-archer": [
+      "clock 2:34 (t=179.2, label at [14, 12], own elixir 7 -> 3): Magic Archer placed on his own half behind the Ronin counterpush, as support rather than as an opener.",
+      "clock 0:55-0:45 (t=288.6, label read as 'CARCHeR' at [1, 8], elixir 8 -> 5): he explicitly cancels the early Magic Archer and puts the Ronin down first — \"we're just going to go for a magic archer early. Actually, maybe let's not. Let's go for the Ronin first so it can target onto the Ronin with the mega minion and then we can go for a nice magic archer here.\"",
+      "clock 2:22-2:07 (t=192-206): this is his Hero slot, and he calls it a preference — \"if you don't have the hero [Magic Archer], you can always use the dart goblin in this deck as well. I do just prefer the hero [Magic Archer] just to have a hero in the deck, but you can always like replace it with the hero goblins and stuff like that.\" (Transcript reads \"hero match guard through\"; the -3 elixir step at t=288.6 fits the 3-cost Heroic Magic Archer, the -4 steps elsewhere fit the normal card, so the variant is likely but not proven.)"
+    ],
+    "tesla": [
+      "clock 2:05-2:03 (t=207.9-210.0): Tesla at tile [8, 10], centre of his own half, against a Prince the tracker has at \"tower in 4.2s\" — \"Let's Tesla here, and then we can go for the Ronin down low.\" Always reactive, never an offensive pull.",
+      "clock 0:58 (t=274.1, tile [4, 12], elixir 9 -> 6): pre-emptive Tesla in the opposite lane before the opponent's dual-lane push develops.",
+      "clock 0:33 and 0:17 (t=299.3 and t=315.3, both at tile [8, 9]): the anchor of the closing defence, paired with the cheap splash — \"We need to go for a Tesla fire spirit here on defense.\""
+    ],
+    "royal-delivery": [
+      "clock 1:53 (t=220.1, elixir 4 -> 1) and clock 1:16 (t=258.3, label at [12, 11]): dropped on his own half onto committed Prince / Dark Prince pushes, each time taking him to his lowest elixir of the game.",
+      "clock 0:43 (t=290.3, label at [4, 14]): used specifically for the air support the Ronin cannot touch — \"and now it's delivery here to make sure we take out the mega minion a little bit.\"",
+      "clock 0:17-0:13 (t=316.3 HUD -3, label at [10, 13]): the game-closing play onto a Dark Prince at \"tower in 3.6s\" — \"Delivery here and that is going to be good game. Very nice win.\""
+    ],
+    "skeletons": [
+      "clock 1:16 (t=257.6, tile [7, 14], elixir 7 -> 6): one-elixir distraction dropped in front of a Dark Prince crossing the river.",
+      "clock 0:35 and 0:27 (t=297.8 at [8, 13], t=307.3 at [7, 10]): both layers of the closing defence, used to drag charging units off their path — \"we can go for the skeletons here as well just to bring this over\" and, after the Evo Wall Breakers, \"then we can go for the skeletons.\""
+    ],
+    "fire-spirit": [
+      "clock 2:18 (t=195.2, tile [15, 14]): Fire Spirit onto a Bomber that has crossed into his half; the Bomber never gets a shot off — \"And now the bomber also won't get a shot on the tower.\"",
+      "clock 0:58 (t=275.3, tile [13, 14]): \"Let's go for the fire spirit here and we're just going to go for a magic archer early.\"",
+      "clock 0:33 (t=300s commentary) and clock 0:14 (t=319.3, tile [10, 14]): paired with the Tesla as the cheap splash layer of the closing defence — \"We need to go for a Tesla fire spirit here on defense.\" (All four Fire Spirit deploy labels were sided to the opponent by the pipeline despite landing on Ryley's own half; the per-game hand read wrongly listed Archers in this slot.)"
+    ],
+    "giant": [
+      "clock 2:02-1:52 (t=212-225): mentioned, not seen in an event, but it drives the deck's key rule — \"there is a pro tip in these giant matchups. Never put your Ronin right next to the giant when you're initially trying to reflect the prince or the dark prince, cuz they can giant ability the Ronin to the opposite lane.\"",
+      "clock 1:42 (t=233): once the tank shows he reads the whole deck off it — \"Okay, giant double prince should not be too much of an issue cuz the Ronin is just going to be able to reflect everything.\""
+    ],
+    "dark-prince": [
+      "clock 2:42-2:25 (t=171-186): the opponent's opener, tracked at [12, 8] then [11, 6] with \"tower in 1.4s\", killed by a single Ronin — \"it will never not surprise me how much value the Ronin gets on these melee units.\"",
+      "clock 0:37-0:23 (t=296-320): comes back twice more at \"tower in 2.2s\" and \"tower in 3.6s\" and is stopped both times by Ronin plus Skeletons plus Royal Delivery, with zero damage on the tower."
+    ],
+    "prince": [
+      "clock 2:08-2:00 (t=204-214): tracked from [14, 25] down to [15, 1] with \"tower in 0.1s\", answered with Tesla at [8, 10] plus a Ronin at [14, 10] — \"Let's Tesla here, and then we can go for the Ronin down low.\" Ryley's stated view is that the Ronin's Parry makes double-Prince decks a favourable matchup (233-239s)."
+    ],
+    "mega-minion": [
+      "clock 2:31 (t=184): killed inside the Ronin's first defence — \"That will take out the whole mega minion as well, which is great.\"",
+      "clock 0:52-0:43 (t=281-295): he manipulates its targeting rather than fighting it head on — plays the Ronin first \"so it can target onto the Ronin with the mega minion\", then removes it with a Royal Delivery: \"now it's delivery here to make sure we take out the mega minion a little bit.\""
+    ],
+    "bomber": [
+      "clock 2:25 and 0:37 (t=186.2 at [12, 15], t=294.3 at [4, 15]): the opponent's splash unit, answered first with a Fire Spirit — \"And now the bomber also won't get a shot on the tower\" — and later inside the closing defence: \"Make sure we take out the bomber. Beautiful defense right there, guys.\""
+    ],
+    "rage": [
+      "clock 1:57 and 0:23 (t=214.2 at [11, 8], t=308.3 at [3, 8]): cast on Ryley's half behind pushes that die anyway; he names it in his first deck read at 172s (\"the dark prince zap and rage\") and never has to spend anything extra for it."
+    ],
+    "bats": [
+      "clock 0:31 (t=300.3): the only Bats track of the game, inside the opponent's two-lane push; it is one of the reasons the air-hitting Royal Delivery and Tesla carry the defence. Detector-sourced and flagged \"spawned on own half\", so the reading is soft."
+    ],
+    "lava-hound": [
+      "clock 1:12 (t=260-262): mentioned only, as the matchup where his headline card falls apart — \"in a lot of the match ups like against say a Lava Hound deck, Ronin is absolutely terrible.\""
+    ],
+    "dart-goblin": [
+      "clock 2:22 (t=193-197): mentioned only, as the non-hero substitute for his Magic Archer slot — \"if you don't have the hero [Magic Archer], you can always use the dart goblin in this deck as well.\""
+    ],
+    "goblins": [
+      "clock 2:12 (t=201-202): mentioned only, as an alternative hero for the same slot — \"you can always like replace it with the hero goblins and stuff like that. Just all these different kinds of substitutions just to whichever fits your card levels better.\""
+    ],
+    "sparky": [
+      "clock 2:37 (t=174-176): mentioned only, in a first deck read that turns out to be wrong — \"It does look like a goblin giant sparky deck.\" By 233s he has corrected it to Giant double Prince."
+    ],
+    "goblin-giant": [
+      "clock 2:37 (t=174-176): mentioned only, in the same incorrect early read — \"It does look like a goblin giant sparky deck.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "fire-spirit-goblin-barrel-magic-archer-ronin-royal-delivery-skeletons-tesla-wall-breakers",
+    "cards": [
+      "ronin",
+      "goblin-barrel",
+      "wall-breakers",
+      "magic-archer",
+      "tesla",
+      "royal-delivery",
+      "skeletons",
+      "fire-spirit"
+    ],
+    "bullets": [
+      "Game 2 of an 8-game session (video 161.3s-329.3s) against Giant / Prince / Dark Prince / Mega Minion / Bomber / Bats / Rage. Won on the overtime damage lead: enemy right tower 4858 -> 353, his own towers 4858 / 4781 — \"that is going to be good game. Very nice win\" (322-323s).",
+      "The whole gameplan is Ronin-first defence into free chip. Four Ronin deploy labels (clock 2:42 [9, 7], 2:03 [14, 10], 0:52 [8, 0], 0:27 [0, 13]), each onto a melee push, and every Goblin Barrel (2:17, 1:36, 1:14) goes down in the lane the Ronin has just cleared.",
+      "The support cards are all defensive specialists that cover what the Ronin cannot: Tesla as the pin (2:03, 0:58, 0:33, 0:17), Royal Delivery for the air support (1:53, 1:16, 0:43, 0:17), Skeletons and Fire Spirit as one-elixir layers. Ryley states the design at 272-276s: \"I feel like my deck right here covers a lot of the weaknesses that can come from playing with the Ronin.\"",
+      "Offence is cheap and opportunistic — Wall Breakers split at the bridge to open (2:48) and the Evo pair sent as a counter-attack from inside a defence (0:27, \"Let's Evo wall breakers to pressure him while defending\"), plus barrels on cycle. He never builds a big push.",
+      "The Magic Archer is the flexible slot: \"if you don't have the hero [Magic Archer], you can always use the dart goblin in this deck as well... but you can always like replace it with the hero goblins\" (192-202s).",
+      "Ryley's own caveat on the list: it is matchup-dependent. \"against say a Lava Hound deck, Ronin is absolutely terrible or like maybe even a bait match up, it's really bad. But then when you're in like a match up like this, it's just like the best card you could ever have\" (258-270s). His pitch for the video's 96% claim is defensive: \"nothing can actually break through if you play it properly\" (319-320s)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel, Wall Breakers, Skeletons and Fire Spirit all demand the same small spell while Tesla and Royal Delivery hold the ground, and at ~2.8 average elixir the deck cycles back to whichever threat is unanswered.",
+      "why_it_works_md": "The Ronin is a 5 elixir mini-tank whose Parry blocks and reflects melee attacks, so against melee-heavy decks a single Ronin can eat a Dark Prince and a Mega Minion and still walk in for tower damage — in this match that one defence took the enemy right tower from 4858 to 2891. Everything else in the list covers a Ronin weakness: Tesla and Royal Delivery answer the air and the building-targeters he cannot touch, Skeletons and Fire Spirit are one-elixir layers that stop him from being swarmed, and the Magic Archer gives the deck range. Offence is deliberately cheap — Goblin Barrel and Wall Breakers chip on cycle behind whatever the Ronin has just killed, which is why the enemy tower falls in steps rather than to one big push. Ryley is explicit that the shell exists to patch the win condition (\"I feel like my deck right here covers a lot of the weaknesses that can come from playing with the Ronin\") and equally explicit about its ceiling: the Ronin is near-useless against air decks like Lava Hound and against bait, so the 96% claim is a matchup-dependent one."
+    }
+  }
+}

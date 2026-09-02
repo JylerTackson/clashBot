@@ -1,0 +1,117 @@
+{
+  "key": "tizujccrTvE-m0.4",
+  "match_file": "matches/tizujccrTvE-m0.4.md",
+  "video_title": "I Got a 96% WIN Rate with this BROKEN Deck",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:48 (t=679.5): opens the game with a scouting barrel at tile [2, 23] (elixir 9.0 -> 6.0) rather than waiting for value — \"with the goblin barrel here. Trying to figure out what this dude is playing.\"",
+      "clock 1:50 (t=739.7, label at [2, 23]): barrel thrown together with Wall Breakers as the match-deciding double — \"Let's go for the Wall Breakers and Evo Barrel. He probably has to go for like the Barbarian Barrel plus like a nado, I think.\" Enemy towers fall 4400/4527 to 2304/1907 within four seconds.",
+      "clock 0:58 (t=789.8, label at [14, 24]): used purely as spell bait ahead of the real push — \"Let's Goblin Barrel here, force him to use the Barbarian Barrel, and then we can just go for the Evo Wall Breakers and then a Magic Archer at the bridge here.\"",
+      "overtime clock 1:25 (t=882.9, label at [13, 26]): places it off-centre because he expects a block — \"Let's barrel here off to the side... He has to block this but I'm just going to drop it at the bridge anyway cuz what? He can just archers or tombstone.\""
+    ],
+    "wall-breakers": [
+      "clock 2:21 (t=707.7, label at [15, 14]): played with no push behind it, only to avoid capping elixir — \"I do just have to waste my Wall Breaker sadly cuz I obviously can't just sit there with max elixir.\"",
+      "clock 1:50 (t=738.7, label at [9, 13]): the decisive play of the game, landing with the Goblin Barrel while the opponent's Barbarian Barrel had been spent on the Magic Archer — \"Where's the Barbarian Barrel? That's way too much damage. Oh wait, I'm stupid. He used the Barbarian Barrel on the Magic Archer.\"",
+      "clock 0:56 and 0:42 (t=792.8 at [3, 14], t=806.8 at [2, 14]): the follow-up half of his stated bait chain, sent only after a Goblin Barrel has drawn the Barbarian Barrel.",
+      "clock 0:05-0:03 (t=846.8) and overtime t=883.7 / t=889.2: he holds them a cycle to dodge the opponent's building — \"We have Evo barrel and Evo wall breakers. I don't want to go for them just yet though because the tombstone will take out my wall breakers.\""
+    ],
+    "magic-archer": [
+      "clock 2:43 (t=685.5, label at [2, 13], elixir 8.0 -> 4.0): deliberately over-aggressive opening deploy after seeing Barbarian Barrel — \"I'll just go for the early magic archer. I know this is really aggressive, but screw it, man. I'm feeling crazy today.\" Enemy left tower 4858 -> 4400 by t=690, and he accepts the shot line drifting: \"it does usually walk out of line, but that's not really like the end of the world.\"",
+      "clock 2:04 (t=724.4, label at [16, 11]): a defensive placement chosen because the Hero can retreat — \"I like this placement because I can always just step back if he goes for like a Baby Dragon or something.\" This is the Hero variant (heroes/magic-archer-hero.md); the Triple Threat teleport-and-decoy is the \"step back\" he keeps referring to, and two own 2-elixir drops with no hand change (t=824.0, t=828.0) sit where activations would.",
+      "clock 1:17 (t=771.8, label at [12, 13], -4 elixir): used as a ranged snipe on a defensive Bowler — \"let's just go for the Magic Archer here to snipe that Bowler down. And then if he goes for the ability later, we can just step back.\"",
+      "clock 0:29 (t~819) he cancels a planned Magic Archer to keep it out of a spell — \"Let's not even magic archer at all. I think we just want to cycle back cuz I think he's going to get a lightning down\" — then holds it in overtime as the answer to a block: \"we have the magic archer ready for the barbarian barrel\" (t=885), signing off with \"Beautiful magic archer geometry\" (t=896)."
+    ],
+    "tesla": [
+      "clock 1:57 (t=732.7, label at [5, 2], elixir 7.0 -> 3.0): placed for spell safety first — \"let's Tesla here and we do it up top just to make sure that he can't get any lightning value. It just really really avoids giving him value.\"",
+      "clock 0:47-0:31 (labels at [8, 11] t=801.8 and [8, 9] t=816.8): the anchor of his stated defensive stack against a Bowler push — \"we can go for a magic archer plus Tesla on defense. Let's Tesla first\" — leading to \"Okay, perfect. We fully countered that.\"",
+      "clock 0:13 (t=836.8, label at [8, 10]): the closing piece of a defence against Electro Giant, Evolution Archers and Phoenix — \"we have to go for the Tesla here. Beautiful counter. That should take out the Phoenix egg.\"",
+      "overtime clock 1:42 (t=867.9, label at [8, 9], with a -4 HUD drop at t=849.5): re-laid to pull the second Electro Giant while he waits out the enemy spell — \"Let's Tesla here. Then we have to wait for the lightning and then we can go for the Ronin.\""
+    ],
+    "skeletons": [
+      "clock 2:28-2:26 (t=699.7 at [10, 8], t=702.7 at [10, 10]): cheap early distraction while he is still reading the opponent's deck.",
+      "clock 1:03 (t=785.3, label at [13, 13], elixir 8.0 -> 7.0): paired with Fire Spirit as a kite — \"Skeletons to kite back that Phoenix\" — followed by his general rule, \"the one elixir cards are just too strong, man. We get too many good trades out of them.\"",
+      "clock 0:40 (t=808.0, label at [8, 8]): the \"skelly split\" he calls before playing it, spreading them against a Bowler/skeleton push before barrelling for pressure.",
+      "overtime clock 1:18 (t=891.1, label at [15, 13]): the final defensive play of the match — \"We can skellies to block the archers and then that's going to relock. And that's good game.\""
+    ],
+    "fire-spirit": [
+      "clock 1:04 (t=784.8, label at [6, 14]): first half of a two-card, 2-elixir defence — \"let's go for the Fire Spirit here and then Skeletons to kite back that Phoenix.\"",
+      "clock 0:17 (t=831.8, label at [12, 14]): dropped directly onto the opponent's Evolution Archers, and explicitly framed as a bad Lightning target — \"we can go for a fire spirit on top of the archer. Fire spirit bad lightning.\"",
+      "clock 1:03 (t~788): cited as an example of why the deck works — \"I feel like the one elixir cards are just too strong, man. We get too many good trades out of them.\""
+    ],
+    "royal-delivery": [
+      "clock 0:36 (t=812.8, label at [13, 15]): stated before it lands, as the answer to a defensive Bowler — \"delivery here on top of the bowler. Then we can go for a magic archer plus Tesla on defense.\"",
+      "clock 0:23 (t=825.3, elixir 6.0 -> 3.0): part of the cycle-back plan while he refuses to expose the Magic Archer to Lightning — \"Then we go for the delivery here. Make sure we hit this.\"",
+      "overtime clock 1:46 and 1:31 (labels at [12, 13] t=863.9 and [14, 15] t=877.9): used as the clump-clearer on a full Electro Giant push, accepting a Tornado counter — \"we need to go for a royal delivery on top of everything. He might try to NATO [Tornado] this in. Yep, that's fine. That's not tower down at least.\""
+    ],
+    "ronin": [
+      "clock 1:25 (t=763.9, label at [9, 0], elixir 9.0 -> 4.0): played in the back only once he is far ahead, with the answer pre-read — \"let's go for the Ronin in the back here. He might go for a Phoenix behind this because then he could get a good counter on our Ronin, but then we can go for the Magic Archer.\"",
+      "overtime clock 1:37 (t=872.9, label at [12, 8]): held until the enemy spell is spent — \"we have to wait for the lightning and then we can go for the Ronin. We can go for the Ronin now.\"",
+      "overtime clock 1:29 (t~881): he counts its remaining lifespan against the enemy splash — \"the Ronin will only get hit one more time by the bowler before it dies.\""
+    ],
+    "electro-giant": [
+      "clock 2:08 (t=718.7, enemy track at [15, 23]) and overtime clock 1:50 (t=856.9 at [15, 20]): the opponent's win condition, which Ryley never answers with a big card — Tesla plus Skeletons pull and stall it while Fire Spirit and Royal Delivery clear the support.",
+      "clock 1:37-1:31: the matchup lesson of the whole game — \"I feel like early E-Giants against this type of log bait deck is just like a death wish, man. You're not able to do anything after that.\""
+    ],
+    "barbarian-barrel": [
+      "clock 2:45 (t=684): the first opponent card he identifies, and it immediately shapes his opening — \"Okay, he has barbarian barrel. I guess I'll just go for the early magic archer.\"",
+      "clock 1:43 (t=746-749): the opponent spends it on the Magic Archer instead of the Goblin Barrel, which is what lets the Wall Breakers plus barrel double connect — \"Where's the Barbarian Barrel? That's way too much damage. Oh wait, I'm stupid. He used the Barbarian Barrel on the Magic Archer.\"",
+      "clock 0:57 (t=793): thereafter he plays around it explicitly — \"Let's Goblin Barrel here, force him to use the Barbarian Barrel, and then we can just go for the Evo Wall Breakers.\""
+    ],
+    "tombstone": [
+      "clock 2:21 (t=707): named as soon as it appears — \"Okay, he has a Tombstone\" — while he is still guessing between Royal Giant, Lumberjack and Golem decks.",
+      "clock 0:05 (t=844): it dictates his Wall Breakers timing — \"I don't want to go for them just yet though because the tombstone will take out my wall breakers.\""
+    ],
+    "bowler": [
+      "clock 1:15 (t=775): the reason he commits a Magic Archer — \"let's just go for the Magic Archer here to snipe that Bowler down.\"",
+      "clock 0:47 (t=801): credits the opponent for a good use of it — \"That was smart by him. Great Bowler\" — and answers it with Royal Delivery \"on top of the bowler\" plus a Skeletons split."
+    ],
+    "lightning": [
+      "clock 1:57 (t=735): the spell he builds his whole placement policy around — \"we do it up top just to make sure that he can't get any lightning value. It just really really avoids giving him value.\"",
+      "clock 0:27 (t=822): cycles instead of committing — \"I think we just want to cycle back cuz I think he's going to get a lightning down.\"",
+      "clock 0:17 (t=833) and overtime clock 1:42 (t=871): baits it with a 1-elixir card — \"Fire spirit bad lightning\" — and waits it out before spending Ronin, \"we have to wait for the lightning and then we can go for the Ronin.\""
+    ],
+    "phoenix": [
+      "clock 2:33 (t=695): calls out a bad placement — \"Okay, bad Phoenix. He can't activate King Tower from there.\"",
+      "clock 1:03 (t=785): answered for 2 elixir total — \"let's go for the Fire Spirit here and then Skeletons to kite back that Phoenix\" — and at clock 0:11 the Tesla finishes the reborn egg, \"That should take out the Phoenix egg.\""
+    ],
+    "archers": [
+      "clock 2:11-2:08 (t=719-721): identified as an Evolution and treated as a surprise in this shell — \"he goes for the Archers. Interesting that he has Evo Archers with this deck.\"",
+      "clock 0:19 (t=829) and overtime clock 1:17 (t=891): answered with the cheapest cards in hand — \"we can go for a fire spirit on top of the archer\" and \"We can skellies to block the archers and then that's going to relock.\""
+    ],
+    "tornado": [
+      "clock 2:13 (t=716) and clock 1:48 (t=741-744): he predicts it as the answer to Wall Breakers and it arrives — \"He has to nado that or something\" then \"He probably has to go for like the Barbarian Barrel plus like a nado, I think. Okay, yeah, nado.\"",
+      "overtime clock 1:33 (t=877): accepts it against his Royal Delivery — \"He might try to NATO this in. Yep, that's fine. That's not tower down at least.\""
+    ],
+    "baby-dragon": [
+      "clock 2:03 (t=728-731): mentioned only, never seen — the card he keeps a retreat option for when he places the Magic Archer, \"I can always just step back if he goes for like a Baby Dragon or something. I know he already has Phoenix, but there's a chance he has like a Baby Dragon, too.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "fire-spirit-goblin-barrel-magic-archer-ronin-royal-delivery-skeletons-tesla-wall-breakers",
+    "cards": [
+      "fire-spirit",
+      "goblin-barrel",
+      "magic-archer",
+      "ronin",
+      "royal-delivery",
+      "skeletons",
+      "tesla",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "tizujccrTvE game 4 (video 676.8-900.9s), win over an Electro Giant beatdown deck (Phoenix, Bowler, Tombstone, Evolution Archers, Barbarian Barrel, Tornado, Lightning). Ryley calls his own list \"this type of log bait deck\" at t=757.",
+      "The game is decided at clock 1:50-1:39 by a Wall Breakers + Goblin Barrel double at t=738.7/739.7 after the opponent spends Barbarian Barrel on the Magic Archer: enemy towers go 4400/4527 to 2304/1907 in about four seconds — \"this guy just got completely cooked already.\"",
+      "The stated core loop is a two-stage bait: Goblin Barrel first to draw Barbarian Barrel, then Wall Breakers plus a bridge Magic Archer behind it (t=791-796), repeated at t=789-806 and again in overtime at t=882-889.",
+      "Defence is entirely cheap and reactive: Tesla placed to deny Lightning value (\"we do it up top just to make sure that he can't get any lightning value\", t=735), Skeletons and Fire Spirit for 1 elixir each as kites, Royal Delivery on clumped pushes, and Ronin only when far ahead on elixir.",
+      "Ryley's stated reason the deck works: \"the one elixir cards are just too strong, man. We get too many good trades out of them\" (t=788), and the matchup verdict \"early E-Giants against this type of log bait deck is just like a death wish\" (t=755).",
+      "The Magic Archer is the Hero variant — he talks repeatedly about being able to \"step back\" with it (t=725, t=776), which is the Triple Threat teleport-and-decoy, and two own 2-elixir drops with no hand change at t=824.0 and t=828.0 line up with ability activations."
+    ],
+    "new_deck": {
+      "display_name": "Goblin Barrel Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Two cheap bait win conditions (Goblin Barrel and Wall Breakers) played to force small spells out, with a 2.9-elixir average cycle behind them; Ryley himself calls it a log bait deck.",
+      "why_it_works_md": "Both win conditions cost 3 and 2 elixir and answer to the same small spells, so the opponent can only cover one at a time — Ryley throws the Goblin Barrel first specifically to pull Barbarian Barrel, then sends Wall Breakers plus a bridge Magic Archer into the empty rotation. The Hero Magic Archer supplies the ranged pressure and the safety valve, since Triple Threat lets it retreat from splash instead of dying to it. Defence is three 1-2 elixir cards (Skeletons, Fire Spirit, Wall Breakers as a kite) plus Tesla and Royal Delivery, which is why the deck can stall a beatdown push and still be up elixir for the next barrel — \"the one elixir cards are just too strong, man. We get too many good trades out of them.\" Ronin is the only expensive card and is held for moments when he is already ahead. The hard matchup rule Ryley states is that slow beatdown win conditions lose to it outright: \"early E-Giants against this type of log bait deck is just like a death wish.\""
+    }
+  }
+}

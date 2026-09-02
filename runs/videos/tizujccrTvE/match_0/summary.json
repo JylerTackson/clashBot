@@ -1,0 +1,119 @@
+{
+ "frames": 8968,
+ "seconds": 3242.8,
+ "timing": {
+  "total": {
+   "n": 8968,
+   "mean_ms": 354.8,
+   "p95_ms": 1802.2
+  },
+  "elixir": {
+   "n": 8943,
+   "mean_ms": 1.1,
+   "p95_ms": 1.6
+  },
+  "hand": {
+   "n": 8943,
+   "mean_ms": 126.5,
+   "p95_ms": 147.3
+  },
+  "clock": {
+   "n": 8943,
+   "mean_ms": 69.1,
+   "p95_ms": 433.8
+  },
+  "labels": {
+   "n": 1490,
+   "mean_ms": 415.0,
+   "p95_ms": 521.0
+  },
+  "detect": {
+   "n": 745,
+   "mean_ms": 951.7,
+   "p95_ms": 1053.2
+  },
+  "loop_fps": 2.8
+ },
+ "own_elixir_drift": {
+  "n": 812,
+  "mean": 0.147,
+  "abs_mean": 1.108,
+  "max_abs": 10.0,
+  "last": -1.643
+ },
+ "opponent_deck": {
+  "deck_known": [
+   "zappies",
+   "little-prince",
+   "bowler",
+   "graveyard",
+   "skeletons",
+   "zap",
+   "golden-knight",
+   "wall-breakers"
+  ],
+  "deck_complete": true,
+  "predicted_hand": [
+   "little-prince",
+   "skeletons",
+   "zappies",
+   "bowler"
+  ],
+  "predicted_next": "graveyard",
+  "deck_predictions": [],
+  "kb_matches": [
+   {
+    "deck_key": "barbarian-barrel-goblin-hut-ice-wizard-mighty-miner-miner-poison-skeletons-wall-breakers",
+    "name": "Miner Wall Breakers HeroIceWiz",
+    "archetype": "control",
+    "matched": 2,
+    "contradicted": 6,
+    "score": -9.97,
+    "remaining": [
+     "barbarian-barrel",
+     "goblin-hut",
+     "ice-wizard",
+     "mighty-miner",
+     "miner",
+     "poison"
+    ]
+   },
+   {
+    "deck_key": "cannon-fireball-hog-rider-ice-golem-ice-spirit-musketeer-skeletons-the-log",
+    "name": "Hog HeroMusk 2.6 Cycle",
+    "archetype": "cycle",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.96,
+    "remaining": [
+     "cannon",
+     "fireball",
+     "hog-rider",
+     "ice-golem",
+     "ice-spirit",
+     "musketeer",
+     "the-log"
+    ]
+   },
+   {
+    "deck_key": "barbarian-barrel-battle-ram-giant-skeleton-mother-witch-royal-ghost-vines-wizard-zappies",
+    "name": "GS Evo Ram HeroWiz MW",
+    "archetype": "bridge-spam",
+    "matched": 1,
+    "contradicted": 7,
+    "score": -12.96,
+    "remaining": [
+     "barbarian-barrel",
+     "battle-ram",
+     "giant-skeleton",
+     "mother-witch",
+     "royal-ghost",
+     "vines",
+     "wizard"
+    ]
+   }
+  ],
+  "cycle_confirmed": 5,
+  "cycle_violations": 5
+ }
+}

@@ -1,0 +1,73 @@
+{
+  "key": "tizujccrTvE-m0.0",
+  "match_file": "matches/tizujccrTvE-m0.0.md",
+  "video_title": "I Got a 96% WIN Rate with this BROKEN Deck",
+  "cards": {
+    "ronin": [
+      "clock 2:30 (t=25.0): places the Ronin at tile [8, 10] on his own half behind a Tesla, not at the bridge, so it defends first and counter-pushes after; five seconds later the parry kills the opponent's Mini P.E.K.K.A. — \"look at that Ronin right there, guys. Just one shotting his Mini Pekka away. Absolutely insane.\" (t=31-35)",
+      "clock 1:39-1:36 (t=76.9-79.6): his standard push is Evo Wall Breakers in the back first, then Ronin (deploy label [10, 10]) — \"Let's go for the Evo Wall Breakers here in the back, and then we can go for the Ronin like this. It's so annoying for him to actually deal with the Ronin because his best DPS unit is the Mini Pekka, but of course, the Mini Pekka just one shots itself.\"",
+      "clock 1:03 (t=113.1): Ronin at [9, 8], deliberately near the bridge as a tempo denial against a Golem beatdown player — \"I'm going to Ronin closer to the bridge so he can't just Golem in the back. He's going to have to defend it or give up his tower. Okay, that's fine with me.\"",
+      "clock 0:37 (t=138.1): Ronin at [13, 10] dropped directly on the Mini P.E.K.K.A. defending the Golem push — \"we can go for the Ronin here on top of the mini Pekka, and that's just completely dead.\" His summary of the card across the game: \"Everyone hates the Ronin so much who plays with any type of melee unit because it just gets completely decimated\" (t=48-53) and \"this might be the craziest new card I've seen yet, man. It just hard counters specific decks way too hard\" (t=149-154)."
+    ],
+    "goblin-barrel": [
+      "clock 2:42, 2:07 and 1:31 (t=13.0, 47.0, 83.1): three Barrels onto the same enemy left Crown Tower (deploy labels [4, 22], [3, 25], [2, 23]) while the opponent is setting up a Golem, grinding that tower from 4,858 HP down to 301 by t=90. He does not comment on the Barrel itself — it is the background chip between his defensive cycles.",
+      "clock 0:27 (t=150.2): a fourth Barrel while already far ahead, thrown as free damage rather than as part of a push."
+    ],
+    "wall-breakers": [
+      "clock 2:19 (t=37.2): Wall Breakers at tile [4, 14] used as cover for a Ronin, not as standalone chip — \"It looks like this guy has a Golem deck. I'm going to go for the Wall Breakers here so he can't do anything on that Ronin.\" The enemy left tower drops 3,759 -> 1,453 within seven seconds: \"Oh my god, nice. That's two shots. Beautiful start.\" (t=42)",
+      "clock 1:39 (t=76.9): plays the Evolution copy behind the Ronin — \"Let's go for the Evo Wall Breakers here in the back, and then we can go for the Ronin like this.\"",
+      "clock 1:12 (t=103.8): 2-elixir drop used purely to freeze a beatdown opponent in a second lane — \"I'm going to Wall Breakers here just kind of threaten that right side tower cuz he doesn't want to sack two towers, of course. That would definitely not be the move cuz then he would just have a guaranteed loss.\""
+    ],
+    "magic-archer": [
+      "clock 1:56 (t=59.1): first Magic Archer at [8, 11], on his own half behind the Tesla, as defensive support against an Electro Dragon walking the left lane.",
+      "clock 0:56 (t=120.1): Magic Archer placed at [15, 10], right at the bridge in the right lane, as the closer — \"I think I want to Magic Archer through the bridge here just to finish that tower off, so then even if I lose mine, everything will be all good.\" He then spends a Fire Spirit to protect it: \"then fire spirit to keep that Magic Archer alive\" (t=127).",
+      "clock 0:39 (t=136.6): 2 elixir leaves his bar with no card leaving his hand, immediately after \"Let's step back here. Beautiful step back\" (t=135) — the Hero variant's Triple Threat ability (teleport back plus decoy) used to pull the Magic Archer out of the Golem push rather than trade it. The commentary never says \"Hero\", so the variant is inferred, not stated."
+    ],
+    "tesla": [
+      "clock 2:32 (t=24.0): opens defence with a Tesla well back at [7, 5], centre, then puts the Ronin in front of it.",
+      "clock 1:56-1:45 (t=60-74): names the Tesla as the fix for the list's old air weakness — \"you do have the delivery and the Tesla. I made a video on a similar deck with the Cannon and without the Royal Delivery as well, but I do think that this variation is a little bit better cuz the other one was quite a bit weak to air units. But now this one, you have the Tesla and the delivery just helping out on defense so so much.\"",
+      "clock 0:54-0:50 (t=121.8-125.1): Tesla at [8, 9] / [7, 10] is the first card down against the Golem, Battle Healer and Poison push — \"I'm going to Tesla here like this\" (t=126)."
+    ],
+    "royal-delivery": [
+      "clock 0:42 (t=134.1): Royal Delivery at [10, 13] aimed specifically at the air support of a Golem push — \"Let's go for the delivery on the baby dragon, and then we can go for the Ronin here on top of the mini Pekka, and that's just completely dead.\" (t=137-141)",
+      "clock 1:56-1:45 (t=60-74): pairs it with the Tesla as the reason he prefers this list to his earlier Cannon version — \"the other one was quite a bit weak to air units. But now this one, you have the Tesla and the delivery just helping out on defense so so much.\""
+    ],
+    "skeletons": [
+      "clock 2:24, 1:50, 1:14 (t=32.0 [3, 15], t=68.1 [6, 13], t=102.3 [11, 8]): 1-elixir drops in front of advancing units on his own half, used as disposable distraction and to keep the cycle short between Goblin Barrels — no commentary on any of them.",
+      "clock 0:27 (t=148.8): Skeletons pushed up to [3, 19] on the enemy half while he is already far ahead on towers, as cheap chip rather than defence."
+    ],
+    "fire-spirit": [
+      "clock 1:19 (t=97.1): 1-elixir Fire Spirit at the right bridge [14, 13] to answer the opponent's 6-elixir Elixir Collector with tempo — \"Okay, he goes for an Elixir Collector. Let's go for the Fire Spirit here at the bridge. Just try to keep up some pressure.\"",
+      "clock 0:50 (t=126.1): Fire Spirit at [13, 12] used as protection for his bridge Magic Archer, not as chip — \"then fire spirit to keep that Magic Archer alive. Just make sure I finish off the tower.\" (Both of these were logged on the opponent's side by the pipeline; the commentary shows they are his.)"
+    ],
+    "golem": [
+      "clock 1:14-1:03 (t=102-118): he plays around the Golem before it exists, putting a Ronin near the bridge to remove the free back-tank placement — \"I'm going to Ronin closer to the bridge so he can't just Golem in the back. He's going to have to defend it or give up his tower. Okay, that's fine with me.\" He had predicted it at t=101: \"He's probably going to eat everything and go for a Golem.\"",
+      "clock 0:52-0:37 (t=122-141): when the Golem finally lands at [13, 19] with Battle Healer and Poison, he answers with Tesla, Fire Spirit, Royal Delivery on the Baby Dragon and Ronin on the Mini P.E.K.K.A., and rates the exchange as free — \"that's just completely dead. Dude, this deck's defense is just so powerful, man.\""
+    ],
+    "elixir-collector": [
+      "clock 1:17 (t=98.1): the opponent's Collector at [16, 26] is treated as a pressure cue, not something to punish with a spell — he answers with a 1-elixir Fire Spirit at the bridge: \"Okay, he goes for an Elixir Collector. Let's go for the Fire Spirit here at the bridge. Just try to keep up some pressure.\""
+    ],
+    "mini-p-e-k-k-a": [
+      "clock 2:22 (t=33): named as the card the Ronin's parry destroys — \"look at that Ronin right there, guys. Just one shotting his Mini Pekka away. Absolutely insane.\"",
+      "clock 1:34-1:30 (t=82-86): the reason he thinks a Golem beatdown deck cannot deal with a Ronin at all — \"his best DPS unit is the Mini Pekka, but of course, the Mini Pekka just one shots itself. So, what is he even supposed to do on defense?\" (Mini P.E.K.K.A. is commentary-only here; no detector event for it.)"
+    ]
+  },
+  "deck": {
+    "deck_key": "fire-spirit-goblin-barrel-magic-archer-ronin-royal-delivery-skeletons-tesla-wall-breakers",
+    "cards": ["ronin", "goblin-barrel", "wall-breakers", "magic-archer", "tesla", "royal-delivery", "skeletons", "fire-spirit"],
+    "bullets": [
+      "t=6-18 (clock 2:50-2:38): Ryley names the list and the claim that the video is built on — \"I'm going to be playing the Ronin deck that got me a 96% win rate in Clash Royale... I currently have a 96.1% win rate with this deck. I'm just going to be trying to do further my win rate and just show you guys how good this deck is in general and just seeing how much it actually takes me to lose with this deck.\"",
+      "t=60-74 (clock 1:56-1:45): his own build note — this is a revision of an earlier list. \"I made a video on a similar deck with the Cannon and without the Royal Delivery as well, but I do think that this variation is a little bit better cuz the other one was quite a bit weak to air units. But now this one, you have the Tesla and the delivery just helping out on defense so so much.\" Tesla replaces Cannon and Royal Delivery is the added air answer.",
+      "Piloting pattern in this game: chip the same Crown Tower relentlessly with Goblin Barrel (clock 2:42, 2:07, 1:31) and Wall Breakers (clock 2:19, 1:12) while the Ronin sits on his own half as the defensive anchor, then convert in double/triple elixir with a Magic Archer at the bridge (clock 0:56). The enemy left tower went 4,858 -> 301 HP before the opponent's Golem ever reached the bridge.",
+      "Defensive core against beatdown (clock 0:54-0:37): Tesla first, Fire Spirit to keep the Magic Archer alive, Royal Delivery on the Baby Dragon, Ronin on the Mini P.E.K.K.A. — \"Dude, this deck's defense is just so powerful, man.\" (t=143)",
+      "Why he thinks the deck is broken (t=48-53, t=149-154): \"Everyone hates the Ronin so much who plays with any type of melee unit because it just gets completely decimated\" and \"this might be the craziest new card I've seen yet, man. It just hard counters specific decks way too hard.\" Result: win over a Golem / Battle Healer / Elixir Collector beatdown player — \"Easy first win though.\" (t=154)"
+    ],
+    "new_deck": {
+      "display_name": "Ronin Deck (Ryley)",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel, Wall Breakers, Skeletons and Fire Spirit all die to the same small spells, so whichever one the opponent cannot answer connects, and a 2.9-elixir average lets him replay it before their answer cycles back.",
+      "why_it_works_md": "The deck pairs four small-spell-bait threats (Goblin Barrel, Evo Wall Breakers, Skeletons, Fire Spirit) with a defence that costs almost nothing to hold: Tesla for air and building-targeters, Royal Delivery for clumped air support, and the Ronin, whose parry deflects 200% of a melee attacker's own hit. Against any deck whose best defensive DPS is a melee troop the Ronin effectively removes the answer — \"his best DPS unit is the Mini Pekka, but of course, the Mini Pekka just one shots itself\" — so the barrels and Wall Breakers keep connecting for free. Ryley plays the Ronin on his own half as the anchor and only pushes it near the bridge to deny a heavy opponent the free back-tank placement, then closes with a Hero Magic Archer at the bridge once a tower is low. Ryley describes it as a revision of an earlier Cannon-based list, with Tesla and Royal Delivery added specifically because the older version \"was quite a bit weak to air units\"."
+    }
+  }
+}

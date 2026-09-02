@@ -1,0 +1,104 @@
+{
+  "key": "tizujccrTvE-m0.6",
+  "match_file": "matches/tizujccrTvE-m0.6.md",
+  "video_title": "I Got a 96% WIN Rate with this BROKEN Deck",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:31: barrel onto the right Crown Tower at tile [14, 26] (9 -> 6 elixir) sent together with a Ronin at the bridge — \"Ronin plus goblin barrel at the bridge would be pretty good right now cuz it keeps our magic archer alive and he has no barbarian barrel in hand\".",
+      "clock 0:31: barrel at [14, 24] the moment the opponent's answer is gone — \"We can go for the barrel since he wasted the barbarian barrel, and fire spirit to keep this alive\".",
+      "clock OT 1:44: barrel at [14, 24] timed off the opponent's spell rotation — \"Let's barrel here, cuz he has to go for the barbarian barrel anyways, and then that's going to line up onto the tower, unless he goes for the snowball, which would be smart\".",
+      "clock OT 0:50: the winning offset barrel at [14, 21] — \"Let's do a trick barrel. I'm going to do it one tile in the front, just so if he goes for the snowball, then it actually doesn't counter, unless he catches it. Come on. Barrel, let's go.\" followed immediately by \"GG's\"."
+    ],
+    "wall-breakers": [
+      "clock 2:02-1:58: Wall Breakers at [14, 14] backed by a Fire Spirit forces the Bomb Tower out and takes the enemy right tower from 4858 to 3705 HP — \"I think I can force out the bomb tower here. If I can keep forcing out more and more elixir from him\".",
+      "clock 1:08: Wall Breakers at [8, 14] as pure elixir pressure — \"Let's Evo wall breakers early and then go for the Evo barrel just to apply some more pressure and not give him a good opportunity to go in. He has to use a lot of elixir here\".",
+      "clock OT 1:53: used defensively-by-proxy in overtime, to deny the opponent a commit — \"Let's go for the wall breakers, though, just to apply pressure, so he can't go all in right now. He can't ability. He has to defend\".",
+      "clock OT 1:13: Wall Breakers at [14, 14] (4 -> 2 elixir) into a board he has already locked down — \"Yo, the wall breakers. Perfect.\""
+    ],
+    "magic-archer": [
+      "Played as the Hero variant: at OT 1:47 he corrects a misplacement with the 2-elixir Triple Threat teleport — \"Oh, no, I misclicked. Oh, I have to ability back. I meant to put it one tile further back. It's fine, though.\" (inferred from commentary plus unexplained 2-elixir drops; the ability button is not visible in the capture).",
+      "clock 1:50: placed deep in his own corner at tile [9, 1] — \"Let's march her here in the corner like before cuz we don't want to give him any type of king tower activation\".",
+      "clock 0:11: the chip line-up trick — Magic Archer at [15, 15] with a Fire Spirit dropped in front of him: \"we can just go for the magic archer here on top of this. Fire spirit in front just to keep it alive and lined up. Nice. We get a few more hits before it unaligns itself\".",
+      "clock OT 1:16: his anti-Balloon tool at [13, 11] — \"let's go for the magic archer here to start sniping down the loon early\"; at OT 1:22 he counts him as half the win condition: \"we just need one more magic archer shot or one more barrel connection\"."
+    ],
+    "tesla": [
+      "clock 1:40: he values the Tesla as hidden information before ever placing it — \"He doesn't know we have Tesla yet, so there's a chance he could assume that we have the cannon, which is good for us. Always nice for them to underestimate\".",
+      "clock 1:20-1:12: the stated double-elixir plan — \"in double elixir, we'll have more elixir to spam those Teslas down. Try to get a Tesla on the left and the right side of lanes so he can never go in\".",
+      "clock 0:52 and OT 1:32: Tesla at [9, 9] / [9, 10] pre-placed against the Balloon — \"Let's go for the early Tesla here\", \"we can go for an early time Tesla here just to start cycling our defense. He's going to go for a balloon\"; at clock 0:03 into overtime, \"We just need to cycle two Teslas here on defense\"."
+    ],
+    "royal-delivery": [
+      "clock 1:21 and 0:27: his defensive reset against the opponent's Balloon/Musketeer packages, dropped on the right-lane approach tiles [12, 13] and [12, 10] — \"We need to delivery here on defense\".",
+      "clock OT 1:26: chained straight into offence — \"Let's delivery, and then we go for the barrel, and we're already one card away from the Tesla\".",
+      "clock OT 1:08: Royal Delivery at [13, 11] as the Balloon answer — \"Perfect. Just delivery here. Take the balloon out, and there's just nothing that this guy can do, man\". Seven Royal Deliveries this game, all on his own half."
+    ],
+    "skeletons": [
+      "The most-played card of the game (eleven HUD drops plus five deploy labels in 252 s), used as a 1-elixir block on everything: on the Miner at clock 2:43 ([9, 13]) and 1:30 ([14, 12]) — \"Oh, he has the minor. Okay, let's go for the skellies here\".",
+      "clock 2:15: Skeletons at the bridge tile [4, 13] to protect a pushed-up Magic Archer — \"Let's skellies here at the bridge. I do want to push this magic archer to make it harder to activate king\".",
+      "clock 0:33-0:25: two blocks in the same defence — \"Let's go for the skeletons here to block for this\" then \"Skellies here to block the little dude. Nice. Good block on the dude. And that's going to take out the balloon as well. Beautiful defense\".",
+      "clock OT 1:10 and OT 0:57: used on the Evo Musketeer (\"block the musky. Keep this alive\") and to eat the opponent's ability (\"Tesla here, skellies to block the ability. Oh, he popped it a little bit too early anyways\")."
+    ],
+    "fire-spirit": [
+      "clock 2:47: opens the game with a scouting Fire Spirit at the left bridge, tile [1, 14] — \"going to fire spirit here. Figure out what this guy is using\".",
+      "clock 2:02 and 1:13: dropped at [14, 14] behind Wall Breakers as the second layer of the bridge push; the 2:02 pair is what forces the Bomb Tower out.",
+      "clock 0:31 and 0:11: used as glue for other cards — \"fire spirit to keep this alive\" behind a Goblin Barrel, and \"Fire spirit in front just to keep it alive and lined up\" to hold a Magic Archer's chip line."
+    ],
+    "ronin": [
+      "clock 2:25: Ronin at [4, 13] (7 -> 2 elixir) as the bridge partner for a Goblin Barrel — \"This should be really annoying for him to stop. He has to go like skellies plus snowball\".",
+      "clock 1:30: Ronin at [15, 11] kills the opponent's Miner on the way back — \"He might miner. Let's skellies here. Try to catch that. Wait, could the Ronin take out the miner, please? Nice.\"",
+      "clock 0:47: Ronin at [10, 13] used purely as a melee block on the Ice Golem/Balloon package — \"Let's Ronin here. Block this. Nice. Okay, beautiful block right there. That was just perfect\"."
+    ],
+    "balloon": [
+      "Opponent's win condition (eight mentions). Predicted from the first exchange — \"minor balloon with the Evo musketeer actually. That would be an interesting match up\" (clock 2:35) — and answered every time with Tesla + Skeletons + Royal Delivery: \"that's going to take out the balloon as well. Beautiful defense\" (clock 0:20), \"Just delivery here. Take the balloon out\" (OT 1:08).",
+      "clock OT 1:22: a Balloon placed in the back is treated as harmless once the defence is cycling — \"This guy can't do anything, even with the balloon in the back. It just cooked for him\"."
+    ],
+    "miner": [
+      "Opponent card. Identified at clock 2:45 (\"Oh, he has the minor\") and answered with 1-elixir Skeletons each time; at clock 1:30 the Ronin cleans it up — \"could the Ronin take out the miner, please? Nice\". At OT 1:55 he pre-blocks a Miner that never comes: \"Skellies here for the miner. Okay, he didn't even go for that\"."
+    ],
+    "musketeer": [
+      "Opponent's Evo Musketeer, the card Ryley respects most in the matchup — \"The only thing that we have problems with here, I think, is the Evo musketeer. The Evo musketeer can be so annoying sometimes, man\" (clock 1:54-1:50), and he tracks its rotation into overtime (\"we have to be careful, though, cuz he has a musketeer Evo coming up\", clock 0:03). Answered with Skeletons on top at OT 1:10 (\"block the musky\")."
+    ],
+    "bomb-tower": [
+      "Opponent's defensive building, and Ryley's stated target for elixir attrition — \"I think I can force out the bomb tower here. If I can keep forcing out more and more elixir from him\" (clock 2:02). When it lands at [8, 19] he rates it badly: \"Oh, bad bomb tower. We actually have a pretty good chance to get him good in single elixir\" (clock 1:59)."
+    ],
+    "barbarian-barrel": [
+      "Opponent's Goblin Barrel answer; Ryley plays the whole game around its rotation. He barrels when it is absent (\"he has no barbarian barrel in hand\", clock 2:25), plays to force it out (\"Make him use the barbarian barrel\", clock 1:34), barrels once it is spent (\"since he wasted the barbarian barrel\", clock 0:31), and pre-empts it (\"he has to go for the barbarian barrel anyways, and then that's going to line up onto the tower\", OT 1:44)."
+    ],
+    "giant-snowball": [
+      "Opponent's small spell, and the reason for the closing barrel placement — \"I'm going to do it one tile in the front, just so if he goes for the snowball, then it actually doesn't counter, unless he catches it\" (OT 0:50). Earlier: \"unless he goes for the snowball, which would be smart. Yeah, he didn't do any spells just for that\" (OT 1:38)."
+    ],
+    "ice-golem": [
+      "Opponent's cheap tank, tracked repeatedly in the right lane in front of the Balloon. Blocked by Ronin at clock 0:47 (\"Let's Ronin here. Block this... beautiful block right there\") and dismissed at clock 0:03 — \"Bad ice golem, too\"."
+    ],
+    "electro-spirit": [
+      "Mentioned once, not seen: at clock 2:17 Ryley reads the opponent's cheap answers and says \"He has to go like skellies plus snowball. Oh, he has e-spirit. That's annoying\". No Electro Spirit event appears in the capture."
+    ]
+  },
+  "deck": {
+    "deck_key": "fire-spirit-goblin-barrel-magic-archer-ronin-royal-delivery-skeletons-tesla-wall-breakers",
+    "cards": [
+      "fire-spirit",
+      "goblin-barrel",
+      "magic-archer",
+      "ronin",
+      "royal-delivery",
+      "skeletons",
+      "tesla",
+      "wall-breakers"
+    ],
+    "bullets": [
+      "Game 6 of 8 in a single-deck session, and the longest game of the video (252 s, video 1112-1364 s): a win that went to double-elixir overtime against a Balloon/Miner cycle deck (Miner, Balloon, Evo Musketeer, Bomb Tower, Ice Golem, Barbarian Barrel, Giant Snowball).",
+      "The pilot plan is stated outright at clock 2:02-1:12: \"I think I can force out the bomb tower here. If I can keep forcing out more and more elixir from him... I just want to keep on forcing out more and more elixir to not give him any opportunities to attack me early on, cuz in double elixir we'll have more elixir to spam those Teslas down. Try to get a Tesla on the left and the right side of lanes so he can never go in.\"",
+      "Offence is a near-permanent loop of 2- and 3-elixir threats at the bridge rather than one big push: Wall Breakers at clock 2:38, 2:02, 1:08, 0:38, 0:18 and again in overtime, Goblin Barrel seven times, and Ronin as the bridge partner that \"keeps our magic archer alive\" (clock 2:25). \"At least we're forcing out more elixir. That's all that really matters\" (clock 1:26).",
+      "Defence is Tesla + Skeletons + Royal Delivery, cycled rather than saved: five Tesla placements, eleven-plus Skeletons and seven Royal Deliveries in 252 s. The result is that his left tower is never touched (4858 HP at the final frame) while the enemy right tower is worn from full to 101 HP.",
+      "Magic Archer is run as the Hero and kept far back ([9, 1] in the corner at clock 1:50, \"we don't want to give him any type of king tower activation\"), used for chip line-ups with a Fire Spirit in front (clock 0:11) and as the anti-Balloon sniper in overtime.",
+      "The finish is a spell-bait read, not damage: with the enemy tower at 101 HP he waits out the Barbarian Barrel and Snowball and throws a deliberately offset barrel — \"Let's do a trick barrel. I'm going to do it one tile in the front, just so if he goes for the snowball, then it actually doesn't counter\" (OT 0:50), then \"GG's. That was actually pretty intense, man. This guy did not play bad, I feel like\"."
+    ],
+    "new_deck": {
+      "display_name": "Goblin Barrel Ryley",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Two cheap win conditions (Goblin Barrel and Wall Breakers) that both bait the same small spells, with a 2.9 average elixir cycle behind them; Ryley plays the whole match around the opponent's Barbarian Barrel and Giant Snowball rotation.",
+      "why_it_works_md": "The deck wins by making every one of the opponent's answers cost more than the threat did. Goblin Barrel and Wall Breakers bait the same small spells, so once the Barbarian Barrel or Snowball is spent the other threat connects for free - Ryley times barrels explicitly off that rotation (\"since he wasted the barbarian barrel\", \"he has to go for the barbarian barrel anyways\"). Defence is a single cheap package - Tesla, Skeletons and Royal Delivery - that is cycled rather than hoarded, which is why the plan explicitly targets double elixir: \"in double elixir, we'll have more elixir to spam those Teslas down. Try to get a Tesla on the left and the right side of lanes so he can never go in.\" Ronin gives the bridge pushes a body that protects the Magic Archer, and the Hero Magic Archer, placed deep so nothing can trade with him, supplies the chip damage that closes games the barrels start."
+    }
+  }
+}

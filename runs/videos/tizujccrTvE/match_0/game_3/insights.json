@@ -1,0 +1,92 @@
+{
+  "key": "tizujccrTvE-m0.3",
+  "match_file": "matches/tizujccrTvE-m0.3.md",
+  "video_title": "I Got a 96% WIN Rate with this BROKEN Deck",
+  "cards": {
+    "goblin-barrel": [
+      "clock 1:57: throws the barrel at the enemy right tower (13, 24) the moment the opponent wastes a Log — 'Okay, bad log right there. We can go for a goblin barrel now as well'; enemy right tower 4164 -> 2978 within two seconds.",
+      "clock 1:31: barrel at (14, 26) paired one second later with Wall Breakers in the same lane — 'Let's go for the barrel plus wall breakers here. The cannon here is going to sell him very hard'; the opponent's Cannon lands but 'is doing absolutely nothing for defense' (592s).",
+      "clock 0:48 and 0:31: switches lanes and barrels the untouched enemy left tower twice, at (3, 24) and (3, 26) — 'He's going to eat that. Let's barrel keep up the pressure' (643-645s); that tower goes 4164 -> 526 over the same stretch.",
+      "clock ~1:55: names the evolution as the reason the plan works — 'having that cannoneer is very nice for us so cuz when we get to the Evo barrel, this guy's just going to be in a complete scramble to defend' (558-563s)."
+    ],
+    "wall-breakers": [
+      "clock 1:29: dropped at (13, 15) one second behind a Goblin Barrel in the same lane so the defending building has to choose — 'Let's go for the barrel plus wall breakers here. The cannon here is going to sell him very hard' (585-588s).",
+      "clock 0:38: used defensively, split in the middle at (9, 14) — 'We can split our wall breakers to take one of the dark prince charges, and then we can go for the delivery here as well' (636-639s).",
+      "clock 2:35 and 0:03: solo bridge pressure at (4, 14) and (11, 14), the second one thrown out as the buzzer runs down.",
+      "clock 1:17: on the receiving end he treats spending Tesla on the opponent's Wall Breakers as a loss — 'I don't want to Tesla the wall breakers too often, but I feel like recently I've been a bit forced to' (601-605s)."
+    ],
+    "tesla": [
+      "clock ~2:48: opens with it dead centre of his own half at (8, 11) — 'Let's go for the Tesla here in the middle' (506-507s).",
+      "clock 1:17: at (8, 12) against Wall Breakers, and he flags it as a concession — 'Just Tesla here for the wall breakers. I don't want to Tesla the wall breakers too often, but I feel like recently I've been a bit forced to' (599-605s).",
+      "clock 0:38: at (8, 9) as the first card of a three-card stack against the Evo Bats push — 'Let's Tesla here' (636s), followed by split Wall Breakers and Royal Delivery.",
+      "clock 0:17: tucked at (0, 8) right beside his own Crown Tower rather than at the usual pull distance — 'I'm just going to Tesla low here next to our tower. Step back here. Keep this alive' (657-660s)."
+    ],
+    "royal-delivery": [
+      "clock ~1:45: at (3, 11) timed for an incoming Miner — 'Okay, let's go for the delivery plus fire spirit here ... Yep, I literally knew the miner was going to come in' (573-577s).",
+      "clock ~1:05: at (5, 7), chosen over Fire Spirit specifically because the opponent holds The Log — 'He could even try like a pre-log on the fire spirit, so I think I'll rather delivery on top' (610-613s).",
+      "clock 1:19: rations it for cycle reasons — 'Our cycle should be a bit quicker than him as long as we don't use the royal [delivery] too often' (596-599s).",
+      "clock 0:15: at (14, 5) on top of a Miner as part of the closing defensive package — 'We can go for the delivery on top of the miner, fire spirit, and skeletons' (660-664s)."
+    ],
+    "magic-archer": [
+      "clock 1:50: placed at (15, 9), on the far side of his own half — 'Okay, let's just go for a magic archer here. I like to put it on the side here so they can't activate the king tower off of it. Just makes life a little bit easier' (565-571s).",
+      "clock 0:53: at (5, 12) pre-empting the opponent's Evo Bats — 'He might try to get a nice set of Evo bats here though, so I'm going to go for the magic archer here to take this out' (621-625s).",
+      "clock 0:25: the same archer is his finisher on a 142-HP tower from the bridge — 'Just magic archer the bridge here to try to finish off that tower. Come on, magic archer, lock in. One one shot, bro, please' (651-655s)."
+    ],
+    "ronin": [
+      "clock 2:18, ~0:59 and 0:30: played three times and never past the bridge — (9, 6), (3, 5) and (2, 12), all on his own half as a defensive mini-tank; the last one is part of the stack he calls 'Very good defense' (641s). He gives him no commentary of his own in this game."
+    ],
+    "skeletons": [
+      "clock 0:48: 'Oh, bad spear goblins. Let's go for the skellies here' (624-626s) — dropped at (14, 15) at the bridge to eat a badly placed Spear Goblins.",
+      "clock 0:35: the last card of his defensive stack against Evo Bats and goblins — 'and then just skeletons on defense. Very good defense' (639-641s), at (2, 5).",
+      "clock 0:15-0:12: two 1-elixir cycles in three seconds while at 2-3 elixir, part of 'delivery on top of the miner, fire spirit, and skeletons' (660-664s)."
+    ],
+    "fire-spirit": [
+      "clock 0:44: deliberately delayed at (2, 13) so it lands on the Evo Bats rather than being wasted — 'I'm going to wait a second cuz he might try to bats. Yep, there it is' (630-631s).",
+      "clock ~1:05: he holds it because the opponent can pre-empt it with a spell — 'He could even try like a pre-log on the fire spirit, so I think I'll rather delivery on top' (610-613s).",
+      "clock 0:11: at (14, 11) alongside Royal Delivery and Skeletons on a Miner — 'delivery on top of the miner, fire spirit, and skeletons' (660-664s)."
+    ],
+    "cannoneer": [
+      "clock ~1:55: mentioned, not played — his tower troop, and the reason he thinks the barrel plan is unanswerable: 'And having that cannoneer is very nice for us so cuz when we get to the Evo barrel, this guy's just going to be in a complete scramble to defend' (558-563s)."
+    ],
+    "miner": [
+      "clock ~1:45: opponent's card. Ryley calls it before it lands and pre-places Royal Delivery plus Skeletons for it — 'Oh, no, it's It's to jump on the mine. Yep, I literally knew the miner was going to come in' (573-577s); the Miner appears at (1, 5) at t=578.6.",
+      "clock 0:15: answers a second Miner on the right with a three-card package — 'We can go for the delivery on top of the miner, fire spirit, and skeletons' (660-664s)."
+    ],
+    "bats": [
+      "clock 1:10: opponent's Evo Bats; he tracks them in hand long before they appear — 'I know he has the Evo bats in hand, so we have to be very, very mindful of that' (606-608s), and again 'I was waiting for him to go for the bats, but for some reason he seemed to never go for them' (617-620s).",
+      "clock 0:53-0:44: plays two cards purely to pre-empt them — Magic Archer at (5, 12) ('He might try to get a nice set of Evo bats here though, so I'm going to go for the magic archer here to take this out', 621-625s) and a held Fire Spirit ('I'm going to wait a second cuz he might try to bats. Yep, there it is', 630-631s). Evo Bats are tracked from t=636.6."
+    ],
+    "cannon": [
+      "clock 1:29-1:23: opponent's building, and Ryley reads it as a losing answer to Goblin Barrel plus Wall Breakers before it is even played — 'The cannon here is going to sell him very hard. He has to go for like yep, a building plus spear goblins. And look at all that damage, guys. The cannon here is doing absolutely nothing for defense' (587-594s). It lands at (9, 18) at t=592.6 while the enemy right tower drops 2594 -> 1634."
+    ],
+    "spear-goblins": [
+      "clock 0:48: opponent's card, used three times (t=524.5, t=592.6, t=652.7) as the cheap partner to the Cannon; Ryley punishes a bad one with Skeletons — 'Oh, bad spear goblins. Let's go for the skellies here' (624-626s). He also names them as the opponent's forced answer to the barrel: 'He has to go for like yep, a building plus spear goblins' (588-590s)."
+    ],
+    "bomber": [
+      "clock 2:42: opponent's card, played at (0, 16) at t=510.5 in the opening exchange and answered by a Royal Delivery at (2, 7). Ryley never comments on it."
+    ],
+    "the-log": [
+      "clock 1:59: opponent's spell, known only from commentary. A wasted Log is what opens the door for his first barrel — 'Okay, bad log right there. We can go for a goblin barrel now as well' (555-557s) — and the threat of it changes his defensive card choice later: 'He could even try like a pre-log on the fire spirit, so I think I'll rather delivery on top' (610-613s)."
+    ]
+  },
+  "deck": {
+    "deck_key": "fire-spirit-goblin-barrel-magic-archer-ronin-royal-delivery-skeletons-tesla-wall-breakers",
+    "cards": ["fire-spirit", "goblin-barrel", "magic-archer", "ronin", "royal-delivery", "skeletons", "tesla", "wall-breakers"],
+    "bullets": [
+      "Game 4 of an eight-game single-deck session ('I Got a 96% WIN Rate with this BROKEN Deck'), against a Miner / Wall Breakers bait list with Evo Wall Breakers, Evo Bats, Spear Goblins, Cannon, Bomber and The Log. Win, no crown taken by either side: final towers 2922 / 3870 against 142 / 1076, with Ryley calling it at 666-672s ('that is good game').",
+      "The plan is one-lane barrel chip financed by a cheap defence. Goblin Barrel goes out four times (clock 1:57, 1:31, 0:48, 0:31) and only ever right after the opponent has spent — the first one comes off a wasted Log ('Okay, bad log right there. We can go for a goblin barrel now as well', 555-557s). Wall Breakers follow the barrel into the same lane at clock 1:29 to overload the single building.",
+      "Lane switch is the win: the right tower is worked down 4164 -> 1634 through double elixir, then from clock 0:48 he moves both barrels to the untouched left tower and takes it 4164 -> 142 in twenty seconds with Ronin and Magic Archer support.",
+      "Everything else stays home. Tesla (six placements), Royal Delivery (six), Skeletons (five), Fire Spirit (three) and Ronin (three) are all played on his own half; the only offensive cards are the barrel, Wall Breakers and a Magic Archer that finishes from the bridge at clock 0:25.",
+      "He states the deck's cycle condition explicitly at 596-599s — 'Our cycle should be a bit quicker than him as long as we don't use the royal [delivery] too often' — and treats spending Tesla on Wall Breakers as a leak ('I don't want to Tesla the wall breakers too often, but I feel like recently I've been a bit forced to', 601-605s).",
+      "Two placement rules he verbalises: Magic Archer goes on the side of his own half 'so they can't activate the king tower off of it' (567-571s), and Wall Breakers get split in the middle on defence 'to take one of the dark prince charges' (636-638s).",
+      "The Cannoneer tower troop is named as the enabler — 'having that cannoneer is very nice for us so cuz when we get to the Evo barrel, this guy's just going to be in a complete scramble to defend' (558-563s)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Goblin Barrel Wall Breakers Bait",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel, Wall Breakers, Skeletons and Fire Spirit all bait the same small spells, and at 2.9 average elixir the deck out-cycles the answers rather than out-muscling them.",
+      "why_it_works_md": "Two 2-3 elixir win conditions in one lane force the defender to hold a building **and** a small spell **and** a swarm at the same time; with a Cannoneer behind him, Ryley can throw a Goblin Barrel and follow it with Wall Breakers a second later and a single Cannon simply cannot cover both — 'The cannon here is going to sell him very hard ... the cannon here is doing absolutely nothing for defense' (587-594s). The defensive half of the deck is deliberately cheap and reactive: Tesla for the ground threats, Royal Delivery for anything that lands on his own half, Skeletons and Fire Spirit as 1-elixir cycle, so the barrel comes back around faster than the answer does — 'Our cycle should be a bit quicker than him as long as we don't use the royal [delivery] too often' (596-599s). Ronin and Magic Archer are the two heavier cards and both are used defensively first, with the Magic Archer converting into a bridge finisher once a tower is low. The failure mode is being forced to spend the building on cheap bait: he calls out Teslaing the opponent's Wall Breakers as something he does not want to do but keeps being pushed into (601-605s)."
+    }
+  }
+}

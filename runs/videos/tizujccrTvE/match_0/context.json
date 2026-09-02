@@ -1,0 +1,126 @@
+{
+ "video_id": "tizujccrTvE",
+ "match_index": 0,
+ "split_into": [
+  {
+   "match": "0.0",
+   "seconds": 156.8,
+   "events": 57,
+   "own_deck": [
+    "skeletons",
+    "goblin-barrel",
+    "ronin",
+    "tesla",
+    "royal-delivery",
+    "ice-spirit",
+    "tornado",
+    "wall-breakers"
+   ]
+  },
+  {
+   "match": "0.1",
+   "seconds": 168.0,
+   "events": 46,
+   "own_deck": [
+    "royal-delivery",
+    "goblin-barrel",
+    "tesla",
+    "ronin",
+    "skeletons",
+    "wall-breakers",
+    "magic-archer",
+    "archers"
+   ]
+  },
+  {
+   "match": "0.2",
+   "seconds": 173.0,
+   "events": 65,
+   "own_deck": [
+    "skeletons",
+    "wall-breakers",
+    "tesla",
+    "royal-delivery",
+    "goblin-barrel",
+    "fire-spirit",
+    "magic-archer",
+    "archers"
+   ]
+  },
+  {
+   "match": "0.3",
+   "seconds": 174.0,
+   "events": 60,
+   "own_deck": [
+    "tesla",
+    "royal-delivery",
+    "skeletons",
+    "goblin-barrel",
+    "ronin",
+    "wall-breakers",
+    "magic-archer",
+    "fire-spirit"
+   ]
+  },
+  {
+   "match": "0.4",
+   "seconds": 224.1,
+   "events": 101,
+   "own_deck": [
+    "skeletons",
+    "goblin-barrel",
+    "tesla",
+    "wall-breakers",
+    "royal-delivery",
+    "magic-archer",
+    "ronin",
+    "fire-spirit"
+   ]
+  },
+  {
+   "match": "0.5",
+   "seconds": 211.0,
+   "events": 90,
+   "own_deck": [
+    "fire-spirit",
+    "skeletons",
+    "goblin-barrel",
+    "royal-delivery",
+    "tesla",
+    "magic-archer",
+    "ronin",
+    "archers"
+   ]
+  },
+  {
+   "match": "0.6",
+   "seconds": 252.1,
+   "events": 106,
+   "own_deck": [
+    "skeletons",
+    "goblin-barrel",
+    "royal-delivery",
+    "magic-archer",
+    "tesla",
+    "wall-breakers",
+    "fire-spirit",
+    "ronin"
+   ]
+  },
+  {
+   "match": "0.7",
+   "seconds": 135.5,
+   "events": 52,
+   "own_deck": [
+    "ronin",
+    "skeletons",
+    "fire-spirit",
+    "wall-breakers",
+    "tesla",
+    "magic-archer",
+    "royal-delivery",
+    "tornado"
+   ]
+  }
+ ]
+}

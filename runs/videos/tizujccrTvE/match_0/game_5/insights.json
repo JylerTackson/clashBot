@@ -1,0 +1,104 @@
+{
+  "key": "tizujccrTvE-m0.5",
+  "match_file": "matches/tizujccrTvE-m0.5.md",
+  "video_title": "I Got a 96% WIN Rate with this BROKEN Deck",
+  "cards": {
+    "goblin-barrel": [
+      "clock 2:36: opening barrel onto the enemy right tower at tile [15, 23], thrown as much for information as damage — \"goblin barrel I guess. Hmm. I want to figure out the rest of his deck real quick.\"",
+      "clock 2:04: second barrel at tile [14, 24], placed off-centre against a Tornado he had not seen — \"I don't think he has NATO [Tornado], but I may as well be safe. There's no reason not to be safe right now.\" The enemy left tower read 4858 -> 4171 over the next four seconds.",
+      "clock 1:04: the Evolution barrel headlines the game-winning push alongside Evolution Wall Breakers — \"we can go for the Evo barrel here. This going to be a really nice Evo barrel push cuz we can go for the Evo wall breakers with it as well\"; the enemy right tower fell 4335 -> 527 within six seconds.",
+      "overtime (t=1096): the closing barrel at tile [3, 26], decided on a cycle count — \"All we have to do is go for another goblin barrel guys and we win the game cuz he has no barbarian barrel in cycle and he can't fully defend a barrel unless he lightnings it at this point.\""
+    ],
+    "wall-breakers": [
+      "clock 2:32: played defensively at tile [7, 13], well back from the bridge, purely to kite a Goblin — \"Let's go for the wall just to kite that goblin way to take no damage. Not not even give him a little bit.\"",
+      "clock 1:47: offensive pair at the left-lane river tile [4, 15] — \"Let's go for the wall breakers here.\"",
+      "clock 0:42: paired with a defensive Tesla against an incoming Golem as a pressure tax — \"we wall breakers to threaten his tower or he has to give our Tesla even more value before the push even gets started.\"",
+      "overtime (t=1100): last play of the match at tile [9, 19] on the opponent's half — \"Let's go for the wall breakers and that's GG's.\""
+    ],
+    "magic-archer": [
+      "clock 2:20: placed at tile [2, 8], deep behind his own left tower, against a vertical column of Zappies, a goblin-brawler and a Little Prince — \"I'm just going to magic archer for the beautiful lineup right there.\"",
+      "clock 1:20: placed at tile [9, 0] directly in front of his own King Tower because a big spell was still unaccounted for — \"Let's march [magic archer] here. We could give him like a good lightning or a good fireball if he has but I have a feeling he has vines.\"",
+      "clock 0:32: a \"low magic archer here off to the side\" at tile [1, 8], behind a Royal Delivery laid on top of it.",
+      "overtime (t=1087): placed at tile [13, 21] on the opponent's half as an experiment — \"We magic archer like this. Wait, does this even work? I don't think that would work, but it's fine. I'm just testing.\""
+    ],
+    "ronin": [
+      "clock 1:52: placed centrally at tile [8, 10] rather than at the bridge; he checks the parry outcome immediately — \"Ronan here... Nice. Let's go. Our[s] survives on full HP.\"",
+      "clock 1:10: the push-opening Ronin at tile [1, 11] (HUD elixir 9 -> 4, the one exact-cost read of the game) — \"let's go for the Ronan here and then we can go for the Evo barrel here.\"",
+      "clock 0:56: he manages the Ronin's spacing so one enemy Wizard splash cannot catch both threats — \"now the Ronan is just staying far away from the wizard so it doesn't splash the barrel.\"",
+      "clock 0:20: defensive Ronin at tile [3, 10] placed onto the enemy's own mini-tank — \"Let's go for the Ronan on top of his Ronan. Hopefully that can fully take this out.\""
+    ],
+    "tesla": [
+      "clock 0:42: dropped early at tile [8, 10], dead centre, the moment a Golem appeared in the back — \"we have to be careful on defense now guys. Let's go for a early Tesla here in the middle.\"",
+      "clock 0:17: second Tesla at tile [0, 10], far left, sited on the enemy Wizard rather than the tank — \"We have to go for a Tesla here on top of the wizard and then you have to get a delivery down as well.\"",
+      "overtime (t=1081): pre-emptive Tesla at tile [9, 9] against a possible pocket play — \"Let's Tesla here in case he tries to do anything in the pocket.\""
+    ],
+    "royal-delivery": [
+      "clock 2:42: dropped at tile [2, 13] onto a descending Baby Dragon, three seconds after a Fire Spirit into the same push — \"I'll delivery on the baby dragon. Baby dragon and goblins.\"",
+      "clock 1:57: at tile [4, 13] as the front half of a two-card defence — \"Go for the delivery here and then we can go for the Ronan as well.\"",
+      "clock 0:20: at tile [5, 13] stacked on top of his own low Magic Archer — \"we can go for a nice delivery here on top of this.\"",
+      "clock 0:15: fourth use at tile [4, 9] under the Golem push — \"you have to get a delivery down as well.\""
+    ],
+    "skeletons": [
+      "clock 2:38 and 1:36: cheap centre placements at tiles [9, 14] and [9, 7] to distract the opening Baby Dragon and Goblins push while he cycled.",
+      "clock 2:04: split beside his own King Tower at tile [9, 1], the deepest placement of the game.",
+      "clock 0:51: added behind the push as support — \"We can go for another magic archer here plus skellies.\"",
+      "clock 0:19: part of the Golem kite at tile [8, 13] — \"We have to go for a skellies wall breakers like this kite everything nice good kite on top of that.\""
+    ],
+    "fire-spirit": [
+      "clock 2:48: first card of the match at tile [3, 14] into the opponent's Baby Dragon and Goblins opener.",
+      "clock 1:43: held deliberately as the answer to the opponent's hero ability rather than spent on cycle — \"Then we have the fire spirit ready for the ability. Yep, fire spirit here. Beautiful fire spirit.\"",
+      "clock 0:10: thrown in with a barrel as a two-card, four-elixir chip package — \"Just go for the barrel fire spirit.\""
+    ],
+    "golem": [
+      "clock 0:39: appeared in the opponent's back left at tile [4, 22], twenty seconds after Ryley predicted it from the deck's weight (\"it could be a golem deck\", 931s) — \"There's the golem in the back that we thought that he had but weren't sure.\"",
+      "clock 0:42-0:08: he answered it with an early central Tesla plus Skeletons and Wall Breakers pressure rather than a hard counter, and it still broke his left tower at roughly clock 0:08."
+    ],
+    "wizard": [
+      "clock 0:56: the opponent used the Wizard's hero ability on his Evolution barrel push — \"Good wizard ability but maybe not good enough because now the Ronan is just staying far away from the wizard so it doesn't splash the barrel.\"",
+      "clock 0:17-0:05: he sited a Tesla \"on top of the wizard\" and then lost his left tower to it — \"I didn't think that the wizard was actually on the tower\"; afterwards, \"I thought the wizard was on the delivery. That's why I said the game was over.\""
+    ],
+    "baby-dragon": [
+      "clock 2:51-2:26: the opponent's opening card, advancing down the left lane from tile [1, 16]; Ryley answered with Fire Spirit then Royal Delivery placed under it — \"I'll delivery on the baby dragon.\""
+    ],
+    "zappies": [
+      "clock 2:23 onward: deployed repeatedly down the left lane in threes (t=926.9, 995.0, 1001.0, 1079.1, 1105.1). Ryley used their tight column formation against them — the Magic Archer at clock 2:20 was placed for \"the beautiful lineup right there.\"",
+      "clock 1:43: he counts them as one of the two known cards in the opponent's hand — \"Right now he has Zappies, wizard, and two cards he hasn't shown yet in his hand.\""
+    ],
+    "little-prince": [
+      "clock 1:53: detected at tile [3, 13] on Ryley's half and tracked down the left lane from clock 2:16; he swept it up in the same Magic Archer line as the Zappies rather than answering it separately."
+    ],
+    "goblins": [
+      "clock 2:51-2:26: part of the opponent's opening alongside Baby Dragon — \"Baby dragon and goblins\"; Ryley kited a Goblin with Wall Breakers at clock 2:32 rather than spending a real answer.",
+      "clock 0:12: he tracks the enemy hero Goblins ability as a defensive risk — \"He has the goblin ability. I have to be careful of that. I think we're fine though. I don't think it really matters that much.\""
+    ],
+    "barbarian-barrel": [
+      "clock 0:36: the opponent's Barbarian Barrel onto his push, which Ryley rated the correct answer — \"He just goes for the barbarian barrel. Well, that was definitely the best play he could have made.\"",
+      "overtime: its absence from the opponent's cycle is what he counts on to close the game — \"he has no barbarian barrel in cycle and he can't fully defend a barrel.\""
+    ],
+    "vines": [
+      "clock 1:14 (mentioned, never seen): his guess for the opponent's unshown card, reasoned from deck weight — \"I have a feeling he has vines. His deck gives kind of vines vibes since his deck is already quite a bit heavy. It wouldn't make too much sense to have an even heavier deck.\""
+    ],
+    "lightning": [
+      "overtime (mentioned, never seen): the only card he thinks can still stop his closing barrel — \"he can't fully defend a barrel unless he lightnings it at this point.\""
+    ]
+  },
+  "deck": {
+    "deck_key": "fire-spirit-goblin-barrel-magic-archer-ronin-royal-delivery-skeletons-tesla-wall-breakers",
+    "cards": ["fire-spirit", "goblin-barrel", "magic-archer", "ronin", "royal-delivery", "skeletons", "tesla", "wall-breakers"],
+    "bullets": [
+      "tizujccrTvE game 5 of 8 (video 901-1112s), a win in overtime against a Golem/Wizard beatdown deck after regulation finished 1-1.",
+      "Two cheap win conditions carried all the damage: a Goblin Barrel at clock 2:04 took the enemy left tower 4858 -> 4171, and an Evolution Goblin Barrel plus Evolution Wall Breakers push at clock 1:04-1:03 took the enemy right tower 4335 -> 527 and destroyed it.",
+      "With no big spell in the list, defence is layered cheap cards: Royal Delivery on air (clock 2:42 onto a Baby Dragon), Magic Archer on stacked columns (clock 2:20), Fire Spirit held specifically for the opponent's hero ability (\"we have the fire spirit ready for the ability\", 967s), and Tesla plus Skeletons plus Wall Breakers to bleed a Golem push (clock 0:42-0:15).",
+      "The Ronin is played centrally as a defensive mini-tank, not at the bridge (tiles [8, 10], [1, 11], [3, 10]), and spaced away from his own barrel so one Wizard splash cannot hit both — \"now the Ronan is just staying far away from the wizard so it doesn't splash the barrel\" (1015-1019s).",
+      "Its weakness showed at clock 0:08: the deck has no hard Golem answer, and the push took his left tower — \"wait, what? My tower is gone\" (1066-1068s). He converted the overtime free half into two more barrels and a Wall Breakers pair, closing on a cycle count: \"he has no barbarian barrel in cycle and he can't fully defend a barrel unless he lightnings it at this point\" (1095-1099s).",
+      "Magic Archer placement is spell-aware throughout: he put it at tile [9, 0] in front of his own King Tower at clock 1:20 rather than commit it forward, because he could not rule out Lightning, Fireball or Vines."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Goblin Barrel Wall Breakers double bait",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Two cheap spell-bait win conditions (Goblin Barrel and Wall Breakers) plus a swarm of 1-elixir bait cards at a 2.9 average, backed by Tesla and Royal Delivery on defence.",
+      "why_it_works_md": "Goblin Barrel and Wall Breakers are two independent win conditions that demand different answers, so a single small spell can never cover both — in this match the opponent's one Barbarian Barrel was, in Ryley's words, \"definitely the best play he could have made\", and the moment it left his cycle the game was decided. The 2.9-elixir curve lets it out-cycle heavy decks: Skeletons, Fire Spirit and Wall Breakers all cost 1-2 and double as defensive kite pieces, so chip pressure never stops for defence. Ronin is the deck's only real mini-tank and is used centrally on defence, where his parry punishes melee attackers; Tesla and Royal Delivery cover the buildings-and-air holes that a barrel deck otherwise has. The deck has no big spell, which is a deliberate trade — Ryley's Magic Archer placements are chosen around the opponent's possible Lightning or Fireball rather than around trading spells."
+    }
+  }
+}

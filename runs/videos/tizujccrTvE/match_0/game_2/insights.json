@@ -1,0 +1,101 @@
+{
+  "key": "tizujccrTvE-m0.2",
+  "match_file": "matches/tizujccrTvE-m0.2.md",
+  "video_title": "I Got a 96% WIN Rate with this BROKEN Deck",
+  "cards": {
+    "wall-breakers": [
+      "clock 2:48 (t=331.7): opens the game with a split Wall Breakers at tile [8, 14] off 9 elixir purely as a scout — \"Just going to split my wall breakers here to try to figure out what this man is playing. Not too sure what this could be right now.\" A second one goes down at [14, 13] at t=347.3; by clock 2:25 the enemy right tower has fallen 4858 -> 1661 HP, the only large tower damage of the match.",
+      "clock 1:43 (t=399.4, deploy label [11, 14]) and clock 0:43 (t=458.5): switched entirely to a defensive kiting tank against the opponent's Ronin — \"we need to go for a Wall Breakers to kite the Roane\" (t=399), \"I do think I want to go for the Wall Breakers to kite the Roane and backwards\" (t=458).",
+      "clock 1:09 (t=434.1, HUD -2 mislabelled 'Tornado'): paired with the Goblin Barrel as a cycle tool rather than for damage — \"let's go for the Barrel plus Wall Breakers here cuz I need to cycle and apply some pressure. Getting to the Evo Wall Breakers will be super nice as well.\"",
+      "clock 0:32 (t=470.5, [12, 10]) and clock 0:08 (t=492.0, [14, 13]): the Evolution used as a body to soak a whole push — \"we need to go for the Evo wall breakers to tank for everything ... that's going to kite that back to damage baby dragon. Nice. What a kite\" (t=469-476), then \"Wall breakers here to tank for the baby dragon and kite the Ronan once again\" (t=486)."
+    ],
+    "goblin-barrel": [
+      "clock 2:37 (t=343.7, HUD 9.0 -> 6.0): barrelled onto the side where the opponent had just placed his Elixir Collector — \"Let's go for the barrel here, here, top of the elixir collector.\"",
+      "clock 1:09 (t=432.6, deploy label [3, 25]): the only offence of the second half, and framed as cycle rather than chip — \"let's go for the Barrel plus Wall Breakers here cuz I need to cycle and apply some pressure.\" The enemy left tower drops 4265 -> 1801 HP over the next six seconds."
+    ],
+    "ronin": [
+      "clock 2:35 (t=346, 5 elixir, deploy label 'RONiN'): part of an all-in opening dump alongside Goblin Barrel and Wall Breakers that leaves him on 1 elixir — \"I'm going to go for the Roane and Wall Breakers opposite because he might have a — okay, yeah, he has the vines there. I was going to say he might have a spell and we need to pressure him very hard\" (t=346-352).",
+      "clock 2:25 (t=356-362): credits the parry with why the opponent could not answer the Ronin cleanly — \"obviously couldn't go for the Mini Pekka there on top of the Roane cuz then it would just one shot itself.\"",
+      "clock 1:40 (t=401.4, deploy label [5, 8]): a defensive Ronin behind a Wall Breakers kite during the first Golem wave — \"we need to go for a Wall Breakers to kite the Roane and then we can go for a Roane of our own here.\"",
+      "clock 1:52 / 0:43 / 0:15: the opponent runs Ronin too, and Ryley never fights it head-on — he kites it backwards three separate times with Wall Breakers and Skeletons (\"Okay, he has a Roane. Let's go for the skeletons to kite this in\", t=390; \"kite the Roane and backwards\", t=458; \"kite the Ronan once again\", t=488) and answers it with a building at clock 0:25 (\"Tesla here for the Ronan\")."
+    ],
+    "tesla": [
+      "clock 2:07 (t=374.5, tile [9, 9]): pre-placed high, ahead of a normal defensive spot, the moment the Golem goes down at the back — \"I'm going to go for the Tesla like this because it's going to pull the Golem really, really far and it's going to start shooting it a little bit earlier than a normal Tesla placement.\"",
+      "clock 2:05 (t=382-385): names the trade-off of pre-placing after the lifetime change — \"since the Tesla got that lifetime nerf, it can be a little bit sketchy to have to pre-place Teslas. But with my card cycle, I kind of had to.\"",
+      "clock 0:51 (t=450.1, [9, 10]) and clock 0:25 (t=476.5, [10, 10]): repeats the same pull placement twice more against the second Golem wave and the Ronin — \"Let's Tesla here like this again just to be annoying\" (t=448), \"Tesla here for the Ronan\" (t=476). Five Teslas go down in 173 seconds, all in the same band of tiles ([8-10], rows 9-10)."
+    ],
+    "skeletons": [
+      "clock 1:50 (t=391.4, tile [8, 13]): the standard kite against Golem-plus-Ronin — \"Okay, he has a Roane. Let's go for the skeletons to kite this in.\"",
+      "clock 1:34 (t=408): Skeletons are the last card of the defensive stack he calls his best sequence of the game — \"Skellies here and that is a masterclass defense right there, guys. Let's go.\"",
+      "clock 0:48 (t=453.5, [8, 9]): used to buy time for a Royal Delivery rather than to kill anything — \"We can go for the Skellies to protect this delivery on top of the Witch.\"",
+      "clock 0:19 (t=482.3, [8, 11]): still kiting in the last 20 seconds — \"Then we can go for the skeletons over here to kite this. And then delivery as well. And I think we're good.\" He plays Skeletons nine times in the readable window, never offensively after the opening."
+    ],
+    "royal-delivery": [
+      "clock 1:48 (t=394.7, HUD 7.0 -> 4.0): dropped on top of an already-committed defence to close it out, not to start one — \"Let's delivery here to make sure that we finish that off.\"",
+      "clock 0:47 (t=454.6, tile [2, 13]): delivered onto the Witch behind the Golem, with Skeletons placed first to protect it — \"We can go for the Skellies to protect this delivery on top of the Witch. Fire Spirit too.\"",
+      "clock 0:35 (t=465.5, [4, 10]) and clock 0:22 (t=481.5, [12, 12]): two more in the final half-minute, both as the finisher of a kite — \"We go for a delivery here\" (t=466), \"And then delivery as well. And I think we're good\" (t=480)."
+    ],
+    "magic-archer": [
+      "clock 1:57 (t=385.6, deploy label at [1, 1]/[2, 2]): placed in the far back corner specifically because he intends to defend for a long time — \"Let's Magic Archer here in the corner as well. Probably going to support this really hard.\"",
+      "clock 1:24-1:16 (t=417-427): declines a second one and declines the Hero reposition, on the read that the first will trade with the Baby Dragon — \"I can just go for a second Magic Archer if I want to. I think I'll just chill though cuz this one should be able to just take out the Baby Dragon nicely. I want to step back as well. Is there even a point to step back though? I mean, probably not. Let's just let that die.\"",
+      "clock 0:57 (t=443.8): a second corner Magic Archer for the second Golem wave, with the evolutions he is scared of named — \"Let's go for the Magic Archer here. Evo Witch is going to be tough and Evo Baby Dragon too cuz his next Baby Dragon is Evo.\"",
+      "clock 0:38 (t=462.3, own elixir 6.0 -> 3.0 with no hand change): this is the Hero variant's 2-elixir 'Triple Threat' reposition, spent to save the Archer — \"we need to step back here to keep the marcher alive. I need that to live\" (t=463-464)."
+    ],
+    "fire-spirit": [
+      "clock 1:34 (t=407.4, tile [6, 13]): used as a 1-elixir aggro-pull to drag two different enemy troops off their path, not for damage — \"Maybe a Fire Spirit as well just to bring the Berserker a little bit over and the Roane and too\" (t=403).",
+      "clock 0:34 (t=466.8) and clock 0:18 (t=483.5, [13, 13]): the same trick twice more in the closing defence — \"Fire spirit like this. Bring this over\" (t=468), \"Fire spirits to bring this upwards. Nice\" (t=483)."
+    ],
+    "golem": [
+      "clock 1:59 (t=380.4, tracked at [4, 21]) and clock 1:03 (t=438.4, [4, 24]): the opponent's win condition, dropped at the back both times. Ryley's stated answer is a high Tesla rather than a bridge punish — \"Okay, he just goes for the Golem in the back. I'm going to go for the Tesla like this because it's going to pull the Golem really, really far\" (t=372-376).",
+      "clock 1:50-1:26: the first Golem still connects — his left tower goes 4695 -> 3118 HP between clock 1:36 and 1:26 — and he still rates the defence a success because the support died: \"that is a masterclass defense right there, guys ... he's used all of his cards already\" (t=408-416)."
+    ],
+    "elixir-collector": [
+      "clock 2:35 (t=344.3, tracked at [1, 26]): Ryley's Goblin Barrel goes onto it immediately — \"Let's go for the barrel here, here, top of the elixir collector\" (t=343-345).",
+      "clock 1:12 (t=429-430): banks elixir at 8 and holds specifically to punish a second one — \"I'm going to wait for him to go for a potential Elixir Collector.\""
+    ],
+    "baby-dragon": [
+      "clock 2:23 (t=356.4, tracked from [16, 24] to [15, 6]): rides the right lane unanswered and the tower loses four ~269 HP chunks (4858 -> 3513) between clock 2:13 and 2:07 — Ryley spends the time scouting instead of defending.",
+      "clock 1:16 (t=420-427): chooses to trade his corner Magic Archer for it rather than spend more — \"this one should be able to just take out the Baby Dragon nicely ... Let's just let that die.\"",
+      "clock 0:57 (t=445): flags the Evolution as the real threat — \"Evo Baby Dragon too cuz his next Baby Dragon is Evo.\" At clock 0:16 the last one is handled with a Wall Breakers body: \"Wall breakers here to tank for the baby dragon\" (t=486)."
+    ],
+    "witch": [
+      "clock 1:48 (t=394): reacts to the opponent's placement as a mistake — \"Oh my god, really bad witch\" — and immediately Royal Deliveries it: \"Let's delivery here to make sure that we finish that off.\"",
+      "clock 0:47 (t=443-456): names the Evolution as the hardest card in the matchup — \"Evo Witch is going to be tough\" — and answers it with Royal Delivery protected by Skeletons: \"go for the Skellies to protect this delivery on top of the Witch.\""
+    ],
+    "graveyard": [
+      "clock 0:48 (t=450.4, tracked at [9, 4] on Ryley's side): the opponent's second win condition arrives during the triple-elixir Golem wave. Ryley does not name it in the commentary; his response is the same generic package he uses for everything else — Tesla at [9, 10], Skeletons at [8, 9] and Royal Delivery at [2, 13] between clock 0:51 and 0:47."
+    ],
+    "berserker": [
+      "clock 1:34 (t=403-404): mentioned as a target to be pulled off-lane rather than killed — \"Maybe a Fire Spirit as well just to bring the Berserker a little bit over and the Roane and too.\"",
+      "clock 0:15 (t=489): dismissed as non-lethal in the last seconds — \"The berserker on the left is not going to finish off our tower.\""
+    ],
+    "vines": [
+      "clock 2:32 (t=348-351): spotted mid-sentence while Ryley is committing his whole hand, and it changes his plan for the rest of the game — \"he might have a — okay, yeah, he has the vines there. I was going to say he might have a spell and we need to pressure him very hard.\" Only mentioned; no Vines play is captured in the events."
+    ],
+    "zappies": [
+      "clock 2:16-2:12 (t=363-370): reasons about the opponent's deck from a card they did NOT play — \"Maybe he doesn't have the Zappies cuz I feel like if he had Zappies, he would have played them right there. Unless he just unluckily didn't have them in cycle.\"",
+      "clock 1:28 (t=413-416): closes the question by cycle-counting — \"he's used all of his cards already, so we know he doesn't have Zappies anymore.\" Mentioned only; no Zappies appear in the events."
+    ],
+    "mini-p-e-k-k-a": [
+      "clock 2:25 (t=354-362): named as part of his (never-confirmed) read of the opponent's list — \"I think that he has the Golem Healer Mini Pekka deck\" — and used to explain why the opponent could not answer his Ronin: \"obviously couldn't go for the Mini Pekka there on top of the Roane cuz then it would just one shot itself.\" Mentioned only; no Mini P.E.K.K.A. is tracked in this game."
+    ]
+  },
+  "deck": {
+    "deck_key": "fire-spirit-goblin-barrel-magic-archer-ronin-royal-delivery-skeletons-tesla-wall-breakers",
+    "cards": ["ronin", "goblin-barrel", "wall-breakers", "magic-archer", "tesla", "royal-delivery", "skeletons", "fire-spirit"],
+    "bullets": [
+      "Game 3 of 8 in the video, a win over Golem beatdown (Elixir Collector, Baby Dragon, Witch, Graveyard, a mirror Ronin, Berserker, Vines). Won essentially in the first 25 seconds and then held on: a split Wall Breakers opening plus Goblin Barrel onto the Elixir Collector and a Ronin behind it took the enemy right tower 4858 -> 1661 HP by clock 2:25, and the only other offence all game was one Barrel + Wall Breakers cycle at clock 1:09 (enemy left 4265 -> 1801).",
+      "Piloted as bait that spends most of its cards on defence: from clock 2:00 onward Wall Breakers, Skeletons and Fire Spirit are all used as kites and pulls rather than as threats (\"go for a Wall Breakers to kite the Roane\", t=399; \"go for the skeletons to kite this in\", t=392; \"Fire spirit like this. Bring this over\", t=468), with Royal Delivery as the closer on top of an already-committed defence (t=394.7, t=454.6, t=465.5, t=481.5).",
+      "Tesla is the backbone against the tank: five placements in 173 seconds, all in tiles [8-10] rows 9-10, deliberately high to drag the Golem across the arena — \"it's going to pull the Golem really, really far and it's going to start shooting it a little bit earlier than a normal Tesla placement ... since the Tesla got that lifetime nerf, it can be a little bit sketchy to have to pre-place Teslas. But with my card cycle, I kind of had to\" (t=372-385).",
+      "The cheap cycle is treated as a resource in its own right: he barrels to reach the Evolution (\"I need to cycle and apply some pressure. Getting to the Evo Wall Breakers will be super nice as well\", t=434-437), and he banks elixir instead of over-defending when the read allows it (declines a second Magic Archer at t=419, waits on a second Elixir Collector at t=429).",
+      "Magic Archer is the Hero variant here: parked in the back-left corner both times he plays it (clock 1:57, clock 0:57) to pierce the whole Golem stack, with the 2-elixir 'Triple Threat' reposition declined once at clock 1:16 and spent at clock 0:38 to save it (\"we need to step back here to keep the marcher alive. I need that to live\", t=463)."
+    ],
+    "new_deck": {
+      "display_name": "Ronin Wall Breakers Bait (Ryley)",
+      "archetype_primary": "bait",
+      "archetype_secondary": "cycle",
+      "rationale": "Goblin Barrel, Wall Breakers, Skeletons and Fire Spirit all bait the same small spell, and at 2.88 average elixir the deck rebuilds that bait faster than the opponent can answer it.",
+      "why_it_works_md": "The deck wins the opening exchange and then refuses to give the tower back. Wall Breakers, Goblin Barrel and Ronin land enough damage in one uncontested cycle to take a tower most of the way down (enemy right 4858 -> 1661 HP inside 25 seconds in this game), after which the same cheap cards become defensive bodies: Wall Breakers and Skeletons kite ground threats backwards, Fire Spirit drags support troops off-lane, and Royal Delivery finishes whatever the kite leaves behind.\n\nTesla is the anchor against tanks and is played high on purpose so it pulls a Golem far off the tower and starts firing early; Ryley notes the lifetime nerf makes that pre-placement risky, but the cheap cycle forces it and also lets it be replaced every 20-30 seconds. Magic Archer, in his Hero variant, sits in the back corner and pierces the whole push, with the 2-elixir 'Triple Threat' reposition available to save him from a spell or a closing melee unit.\n\nThe weakness is that almost nothing here kills a tank quickly, so against Golem beatdown the plan is explicitly to survive on kites and elixir efficiency rather than to trade pushes — Ryley takes chip damage on both towers all game and still wins on the lead he built in the first cycle."
+    }
+  }
+}
