@@ -212,6 +212,40 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.6.md):
 - t=1638.6s label at [14, 25] plus a 6-elixir unattributed drop at t=1641.1s: Lightning on the closing Golem push, with the spell cycle as his real concern — "I wasn't worried about him actually stopping the golem. I was worried about just like him stopping my spell cycle, but I knew that I'd be able to cycle back to another lightning as long as I didn't have to defend an X-Bow" (1642-1652s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock ~2:02 (t=56.1): cast at [14, 14] on his own right side against a Balloon push plus support - "Oh my god, he has a balloon. Okay, well, let's go for the lightning here. Make sure that we take this all out"; he accepted the Giant Skeleton bomb on the other lane to do it.
+- overtime 0:40 (t=257.3): the game-ending cast at [14, 22] on the opponent's half, aimed at the defending Bomber - "We can lightning the bomber off the board as well... that's good game". Enemy right tower 1189 -> 731 and out.
+- He also plays around the opponent's Lightning all game rather than trading for it: "if I pressure him, then he can't go for the lightning offensively" (t=123-126), and in overtime "He can even go for the lightning. I really don't care. That's fine with me, man" (t=229-231).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 0:38: the only Lightning of the game, deploy label at tile [14, 16] on the bridge, cast as a punish for an over-commitment rather than as a planned finisher — "Okay, wait, let's just go for the Lightning here, I guess, cuz he just went all in at the bridge" (399-402s).
+- clock 0:34: he rates the resulting Lightning-Berserker-Tesla push badly himself — "That was a bit of an aggressive push, to be honest. I feel like that one wasn't that great" (404-408s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- held through all of regular time and not spent once before overtime; first use is defensive, at tile [13, 14] on his own half at overtime clock 1:17 (HUD 8.0 -> 2.0) — 'I think I should lightning this to be honest. Yeah, I'm going to lightning all of this, man. I am not dealing with all of that'.
+- overtime clock ~0:33: offensive Lightning at [14, 21] deep on the opponent's half, taken as a deliberate risk because the Furnace covers home — 'This is a low-key aggressive lightning, but I think I can get away with it because the furnace spirits will just take out everything else'.
+- overtime clock ~0:18: third Lightning at [13, 18] closes the enemy right tower out (559 -> 114 HP) — 'Lightning here and nice. Let's go. GG's'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- Mentioned, not confirmed played: Lightning sat in the HUD hand for most of the game and the only commentary reference is the range check at clock 0:22 — "He's in lightning range now" (997s). The -3 elixir drop at t=997.8 (HUD-labelled Void) is too small to be Lightning, so no cast is recorded.
+- Note for the deck read: Lightning is named 19 times across this video's transcript and Void never, so Lightning is taken as the eighth card over the pipeline's Void consensus.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Four casts, every one at (11-14, 21-22) on the enemy right tower's half and every one paired with a Royal Hogs set — never used defensively in this game.
+- clock 0:50: cast with the pigs on the tower ("Let's go for the Evo Piggies here and we can go for the lightning, too"); the enemy right tower drops 4291 -> 3258 HP over the next few seconds and he calls it "Great pressure while defending right there, actually. We get so much damage."
+- Overtime 2:00: aimed at a support troop rather than the tower — "Let's just go for the lightning here on top of the bomber cuz he might just try to snowball and survive, but now we're going to get a little bit of chip damage maybe." His verdict afterwards: "we forced out a lot of elixir and we get a little bit of value, but not chip damage. I'll take it though."
+- Overtime 0:08: the finisher — "We can go for the lightning here and that is going to be good game. Let's go. Very nice win."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

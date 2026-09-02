@@ -153,6 +153,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 0:47 (t=1261): while defending a lead he lists the RG as the expected follow-up and it never comes — "I wonder if he tries to RG the back or to spam my bridge. Or he could give up, too, low-key".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- Mentioned only, as the comparison for Royal Hogs' meta staying power, t=98-102 - "even if like it gets a nerf, they just somehow always survive, kind of like Royal Giant where it's always a viable option in the meta kind of no matter what".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Giant (scraped 2026-09-02T02:34:45+00:00)

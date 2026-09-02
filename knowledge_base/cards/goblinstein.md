@@ -202,6 +202,13 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:40: he changes his own Elite Barbarians placement specifically to deny it — "I don't want to do them all in the same lane because if I do them in the same lane, then he can just get the crazy Goblin Stine value every time" (t=1373-1379). He also times his Minions around the opponent not being able to afford it (t=1344-1346).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:33: the card he was scouting for all game, revealed when the opponent answers his hogs — "Oh, he goes for the Stein. Okay. Interesting" (346-348s), after "if he has Goblin Stein, this could get really, really tricky" (334-341s).
+- clock 1:27 OT: a general statement about the card, not this game — "Dude, goblin stein at the bridge is one of the most pressing plays in the game right now for sure" (471-475s).
+- clock 0:38 OT: the misplayed Goblin Stein is what loses the opponent the game — "Wait, I think this guy just sold with that" (499-500s) and "That was a bad goblin stein by him, to be honest" (521-523s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblinstein (scraped 2026-09-02T02:35:14+00:00)

@@ -321,6 +321,17 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:28 (opponent card): placed at tile [9, 18] to answer Ryley's second Elite Barbarians bridge push; it did not stop the counter-push and he does not comment on it.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 2:30 (t=26) and 0:25 (t=152.2) at [8, 20]/[9, 20], then at [10, 16] in overtime: the building that answers the Royal Hogs. Ryley sends the Hogs into it anyway with the Berserker behind - "He has the cannon. Let's go. The berserker's on the tower" (t=252-253).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Opponent's card (Evo Cannon), identified by Ryley at clock 1:55 — "he has a rocket because he has the Evo Cannon" — and visible as a static enemy building at tile (8, 20) from clock 1:57. The detector labelled it a Cannon Cart; the commentary and its immobility say Cannon.
+- Overtime 0:37: he plays around its lane alignment rather than trying to remove it — "we're actually in a good spot and we unaligned his Evo cannon from our Evo piggies, which is huge as well."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

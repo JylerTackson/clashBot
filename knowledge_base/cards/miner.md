@@ -188,6 +188,11 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:19-1:07 (opponent's card): the Miner chips his left tower for ~120 HP and Ryley simply lets it - he had already counted it as the price of the Wall Breakers push: "cuz I'm going to get the miner out of him, then maybe a zap, but this should just take out the whole tower" (t=89-92).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 1:53 (t=904.9): opponent Miner at [2, 6] on the already-damaged left tower during the all-in; Ryley does not answer it directly, spending Barbarian Barrel and Electro Spirit on the surrounding swarm instead (900-905s) and letting the tower settle at 3562.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Miner (scraped 2026-09-02T02:35:09+00:00)

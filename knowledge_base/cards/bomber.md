@@ -148,6 +148,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:09 and 0:57 (t=1240, 1252): he uses the Bomber's rotation as his timing signal for more Wall Breakers — "Okay, we force out the bomber" and "He used his bomber, so he's not back to the bomber yet".
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- The opponent's most-used card in this game (evolved), tracked in the right lane at t=26, 32, 36, 94.1, 134.1, 158.2, 190.2, 212.2 and 244.2; Ryley answers it with Barbarian Barrel rolls up the right lane and with Furnace spirits.
+- overtime 0:40 (t=256): it is what the game-winning Lightning is aimed at - "We can lightning the bomber off the board as well".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bomber (scraped 2026-09-02T02:34:40+00:00)

@@ -203,6 +203,45 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2404 (clock unreadable): paired with Goblin Hut so one spell cannot answer both — "since he had to waste his evo zap, he was unable to take out my furnace or my goblin hut cuz obviously I was going to cycle back to a new set of goblin hut and furnace".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 2:05 (t=53.1), 1:12 (t=106.1), 0:42 (t=136.1) and 0:07 (t=171.2): four Furnaces on his own back line ([9, 10], [9, 1], [9, 6], [9, 0]) plus one off to the right at [16, 6] in overtime; "Okay, let's go for the furnace in the back" (t=104).
+- t=170-183: his stated role for the card post-nerf - "I'll just go for another furnace here in the back. And this is where the deck gets super annoying. Even though the furnace did get nerfed, guys, it's still actually extremely powerful because you just kind of use it as a broken defensive unit now and don't really worry about getting any offensive pressure with it".
+- clock 0:22 (t=156): the spawned Fire Spirits are what actually chipped the tower - "we're getting fire spirit jumps on the tower. Look at all that damage", with the enemy right tower falling 3531 -> 3082 -> 2633.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:50: a back-of-board Furnace at tile [9, 1] used as an information play while he waits to see the opponent's key card — "Let's just go for the furnace here in the back. Try to figure out um if he has the Goblin Stein, cuz I feel like if he has Goblin Stein, this could get really, really tricky, but if he doesn't, then I feel like I could win this quite nicely" (330-341s).
+- clock 0:08: the safety rule for the spawner, stated as a matchup fact — "Furnace on our side of the board is literally unkillable because he only has Barbarian Barrel, so it's not he can take it out nicely" (429-435s).
+- clock 2:38: protects the Furnace's HP by placing his Electro Spirit away from it — "let's just go for the high electro spirit here just to bring that away from our furnace. Try to keep it fully healthy" (280-284s).
+- clock 0:52 OT: stacks Furnaces during the winning overtime push (tiles [6, 9] t=453.5, [9, 8] t=469.5, [2, 8] t=506.5, [10, 14] t=543.5) — "The furnace the furnace the furnace. Nice. Let's just get a furnace down again as well. Dude, what a good push by us" (504-510s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock 2:33: first Furnace at [9, 5] behind the towers is explicitly a scouting play — 'I'll just go for my furnace here to figure out the rest of his deck'.
+- clock 2:13: comments on the current buff while it works — 'see the furnace spawning just 2 seconds quicker also is like a buff in its own as well'.
+- overtime clock 1:53 / 0:57 / 0:44 / 0:25: replayed in the back on essentially every cycle ([2, 8], [16, 7], [9, 1], [7, 1]) so the chip is one-directional — 'the furnace is just dominating right now, man'.
+- overtime clock ~0:33: the spawner is what licenses an aggressive spell — 'This is a low-key aggressive lightning, but I think I can get away with it because the furnace spirits will just take out everything else... That's where the furnace is just so strong'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 1:05 (t=955.5, HUD-confirmed -4): Furnace at [8, 0] behind the King Tower as free-elixir filler while sitting on 9 elixir — "let's just go for the furnace here in the back. We have evil piggies, but I assume that he has... Actually, no, he probably only has arrows actually now that I think about it" (954-961s).
+- clock 0:44 (t=975.0): Furnace at [9, 10] paired with an Electro Spirit against the Evolved Bats — "Let's just furnace here with this e-spirit. That's going to spawn a set of fire spirits" (975-976s).
+- clock 0:27 (t=993s): he credits the Furnace's fire spirits for finishing the right tower — "The furnace, guys. Come on. Let's go" (993-995s); the tower fell 1341 -> 869 -> 751 -> 347 in that window.
+- Placement rule across the game: every Furnace label ([1, 7], [8, 0], [1, 6], [9, 0], [9, 10]) is behind or beside the King Tower, never as a lane building.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Eight plays, every one in the middle of his own half at (8-9, 9-13) rather than behind a tower; the placement is a direct read on the opponent's heavy spell — clock 2:07: "I do need to do a very good job of being annoying with my furnace because I'm assuming he has a poison in this deck, but we actually — no, he has a rocket instead", and clock 1:55: "I'm going to be able to abuse my furnace really, really hard in this match-up now."
+- clock 0:36: "I think these middle furnaces are actually really good against this guy" — against an Evo Cannon / Rocket chip deck with no Poison, the centred spawner cannot be answered cheaply.
+- clock 1:24: the enemy right tower steps 4622 -> 4291 HP with no other play of his in between. "Can we get a spawn, please? Come on. Nice... Beautiful furnace spawn right there. That's the furnace rework right there, just spawning so quickly... I'm just happy to get that free damage."
+- It doubles as the defence he plans around: at clock 0:28 the Fire Spirit finishes a defence he had already budgeted a Barbarian Barrel for — "Oh my god, we didn't even need the barb barrel. Wow. That actually was so, so clean... that fire spirit jump." He also spends Skeletons purely to protect it (clock 0:05, "Skellies here as well just to keep the furnace alive").
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Furnace (scraped 2026-09-02T02:34:56+00:00)

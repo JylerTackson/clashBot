@@ -130,6 +130,16 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - Opponent's card, not played by Ryley. Cycled repeatedly (clock 0:51, 0:37, 0:19 plus a large tracked cluster around rows 18-22 from t=122 on) and it is what makes his Mother Witch so valuable — "look at that Mother Witch, guys. It's still alive. Very good value right there" (t=122-126).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:48, 1:30 and 1:10 OT: the opponent's Spear Goblins arrive with the Goblin Hut (t=328.3), then repeatedly through the game (t=346.3, 488.5); Ryley handles them with Furnace Fire Spirits, Electro Spirit and Barbarian Barrel rather than a dedicated answer — "E-Spirits, Barbarian Barrel, then we have to go for the Furnace here as well" (356-358s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:29, 1:23 and 1:12 (t=868.9, 934.9, 948s): repeated cheap chip in both lanes; answered by the Tesla at [11, 14] at clock 2:28 and by the Barbarian Barrel at clock 1:10 — "Barbarian barrel here for the spears" (950s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Spear_Goblins (scraped 2026-09-02T02:34:40+00:00)

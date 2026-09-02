@@ -177,6 +177,13 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:11-1:05 (t=1239-1244): Bats are what he is trying to bait with Wall Breakers ("Maybe we force out the bats, but even if I don't, I don't really care") and, when they do come, Electro Spirit is the answer he names ("Let's e-spirit for the bats").
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:39 (t=858.9) Evolved Bats down the left lane: "I don't know what this guy has which is bats to be honest. I feel like bats are not really a popular card right now" (861-866s).
+- clock 1:49 (t=912s) after the all-in fizzled: "That was a very bad set of bats. To be fair, I guess he had bats and cycle not goblin gang" (911-914s).
+- clock 0:50 (t=969.0) Evolved Bats at [15, 21] into the right lane, answered by Furnace plus Electro Spirit; at clock 0:32 he pre-empts the next set with an Electro Spirit at [12, 12] — "in case he bats. Beautiful prediction right there" (989-993s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bats (scraped 2026-09-02T02:34:44+00:00)

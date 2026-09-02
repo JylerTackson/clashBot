@@ -386,6 +386,20 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - The opponent runs them too; Ryley never spells them, absorbing them with Minions, Heal Spirit and the Mother Witch so the deaths become Cursed Hogs.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 2:44: the opponent's split evolved Elite Barbarians as a first play, which he mocks — "Splitting the E-barbs first play is so funny, man. I can't believe that that's like a valid starting play nowadays" (274-280s).
+- clock 1:17-1:05: rates them as the hardest card to answer and grades his own defence — "the Evo E-Barbs are so broken. We're going to have to take a throw, I think... wow, we actually defended that probably the best we possibly could have" (362-376s).
+- clock 1:10 OT: uses a Berserker placement to force the opponent to spend them — "Let's berserker in front here so that if he wants, he has to go for the e-barbs" (490-492s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- the opponent's scariest card by his own account, and the one his whole defensive sequencing is built around: 'the Evo e-barbs are so scary though... out of the big three that were added this season, Valkyrie, Berserker, and e-barbs, which do you think is the best, man?' (t=653-661).
+- clock 0:33: the split Evo E-Barbs arrive and he answers with three layers rather than one card — Electro Spirit, Barbarian Barrel in front, Berserker in the middle — 'Okay, there's the split Evo E-Barbs. I'm scared, guys... just to make sure that we're completely safe. Nice, not bad'.
+- clock 1:29: their absence from the opponent's cycle is what unlocks his hog split — 'I have the split pigs here cuz he has no e-barbs in cycle'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

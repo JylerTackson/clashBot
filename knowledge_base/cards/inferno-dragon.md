@@ -177,6 +177,17 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:52 (opponent): the threat line reads "inferno-dragon(e) advancing left lane, tower in 7.9s"; a second one comes down the right lane at clock 1:26.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:13 OT: the opponent's Inferno Dragon appears at tile [9, 19] (t=482.5) during the overtime defence; Ryley does not name it, but the window he plays through it is the Berserker-in-front sequence — "Let's berserker in front here so that if he wants, he has to go for the e-barbs" (490-492s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- present in the opponent's list from clock 2:38 onward and handled by blocking rather than by killing it — 'Wait, block the Inferno Dragon. Nice. Okay, and now the Berserker's in front' (t=738-739).
+- clock ~2:44: he names it as part of the scouting read before it commits — 'He has the evo [E-Barbs] and the Inferno Dragon, Barb Barrel'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Dragon (scraped 2026-09-02T02:35:08+00:00)

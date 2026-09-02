@@ -181,6 +181,11 @@ Match [My Opinion on the BIGGEST Balance Changes EVER!!](../matches/-V4H_YeMGGk-
 - clock 2:27, 0:57, 0:10 and OT 1:42: the opponent drops Graveyard on Ryley's half at [8,2]/[8,1] four times; Ryley answers with Bats deep at [16,1]/[8,5] and the splash of the centred Bomb Tower, and never loses a meaningful chunk of tower to it.
 <!-- creator-insights:ryleycr1:-V4H_YeMGGk-m1:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- Mentioned, not seen: while deciding what the opponent's Giant Skeleton implies, t=52 - "I guess there's a chance he has like a graveyard as well".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

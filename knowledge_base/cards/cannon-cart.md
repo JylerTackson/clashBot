@@ -119,6 +119,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 1:27 (t~1445): a misplayed one is the opening he needed — "Bad cannon cart too. Very bad cannon cart. Let's go for the mother witch here at the bridge" (t=1445-1447).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 1:52 (t=908s, arena track at [10, 7]): the target of the Berserker's Savage Survival — "I'm going to go for the berserker ability here just to keep this alive and it should take out the cannon cart hopefully" (896-899s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon_Cart (scraped 2026-09-02T02:35:08+00:00)

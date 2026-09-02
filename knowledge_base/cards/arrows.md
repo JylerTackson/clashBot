@@ -179,6 +179,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:42 (opponent): predicted before it exists — "He's going to arrows, right?" — and he places his Minions at (5, 5) "off to the side" for it. The Arrows are only actually tracked at (4, 22) at clock 1:05.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 1:31 (t=926.9): opponent Arrows spent at the back; Ryley immediately cycled Royal Hogs to the right bridge at clock 1:32.
+- clock 1:01-0:56: he tracks it as the opponent's only spell for the hogs — "he probably only has arrows actually now that I think about it" (960-961s) and "He might go for like the arrows" (964s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Arrows (scraped 2026-09-02T02:35:16+00:00)

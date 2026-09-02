@@ -127,6 +127,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.3.md):
 - t=858-871s and 908.7s: the standing defensive package is Cannon plus Fire Spirit plus Snowball — "get a cannon plus uh fire spirit snowball on defense" (869-871s), "I went for the fire spirit plus snowball again" (908s).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- Mentioned only as the Furnace's spawn at clock 0:44 — "Let's just furnace here with this e-spirit. That's going to spawn a set of fire spirits" (975-976s); those spawns carried the last of the chip on the enemy right tower.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fire_Spirit (scraped 2026-09-02T02:34:44+00:00)

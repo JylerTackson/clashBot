@@ -205,6 +205,13 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 1:33 (t=1437.4) at [13, 17]: "That was a bad mortar though. We can minions here" (t=1435-1436) — a mistimed siege placement he punishes with Minions and Mother Witch.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:23 (t=874.9) the opponent's Mortar at [15, 17] is what let Ryley name the archetype — "maybe it's mega knight bait, I guess. But I feel like no one plays mega knight bait. Oh, mortar bait" (866-871s).
+- clock 1:19 (t=938.9) Mortar at [9, 16]: Ryley grades his own answer rather than the card — "We don't activate our king tower, unfortunately, but it's all good. That timing's not that easy. I feel like I get it like 50% of the time, but the other 50, you know, I'm just distracting the mortar, so it's not like the end of the world, but I would like to get that interaction more often" (935-948s).
+- clock 0:35-0:12 (t=983.0 at [3, 17]): the evolved version is the whole opponent deck to him — "his really only win condition in here is the evil mortar. Regular mortar is not much of a worry" (1006-1010s), and pressure, not defence, is his answer to it (1003-1008s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

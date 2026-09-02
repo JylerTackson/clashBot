@@ -320,6 +320,43 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:49 (opponent card, mentioned not faced on camera): named as the harder small-spell matchup for his ground troops — "Barb Barrel is a bit more annoying than Log though cuz he just does get that extra ground troop."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 1:18 (t=100.3): rolled up the right lane to [13, 14] (HUD 9.0 -> 7.0) into a Bomber walking at [14, 14]; the same right-lane roll repeats at [14, 9], [14, 10], [14, 11] and [14, 14].
+- clock 0:34 (t=144.1): part of the king-activation sequence - "Let's go for the skeletons here and then we can go for the barbarian barrel plus berserker here. Nice. Beautiful king activation right there" (t=140-146).
+- overtime 0:54 (t=243.2): a misplay he calls himself - "Let's go for the barbarian barrel here. Okay, that that was bad".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 2:07: the follow-up to his Tesla, thrown at tile [14, 14] (elixir 6.0 -> 4.0) — "let's go for the Tesla here and then we can go for the barbarian barrel" (309-312s).
+- clock 0:15: board clearance behind a Royal Hogs set at tile [10, 14] — "Let's Barbarian Barrel this, too. Make sure to get this off the board. Yo, look at that damage. Very good damage. We needed that" (424-429s).
+- clock 0:40 OT: spent as an extra defensive card he does not strictly need, to preserve his board in overtime — "And I'm even going to go for the barbarian barrel. I just really want to keep everything alive right now" (517-520s).
+- clock 0:08: he also names the opponent's Barbarian Barrel as their only answer to his Furnace — "he only has Barbarian Barrel, so it's not he can take it out nicely" (432-435s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock ~1:55: at [3, 9] into the Ram Rider plus Ice Golem lane — 'Let's Barbarian Barrel here and then we can go for the Berserker as well'.
+- clock 0:23: at [10, 8] in front of the split Evo Elite Barbarians as the first of three layers (HUD 7.0 -> 5.0) — 'we can Barbarian Barrel in front as well'.
+- overtime clock 1:39 and 0:52: [14, 5] behind the hogs and [14, 12] on a bridge push — 'Beautiful Barbarian Barrel right there'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:50 (852-857s): named as his default opener with this deck — "going to start up with the barbarian barrel here. To be honest, my favorite starting play with this deck usually is just a barbarian barrel or a split piggies as well."
+- clock 1:58 (t=900.9): Barbarian Barrel at [3, 10] through the opponent's all-in swarm, which was already dying — "Oh my god, barb barrel. I didn't even need that barb barrel. If he goblin gangs, I lost" (900-904s).
+- clock 1:10 (t=949-950): used on the Spear Goblins chipping the right tower — "Barbarian barrel here for the spears" (950s). (The HUD labelled this -2 drop as Berserker; both cost 2, commentary decides it.)
+- clock 0:33 (t=986.7, HUD -2): a third barrel during the last defensive stack alongside Skeletons and Berserker.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Seven plays, all reactive and all in the right lane at (13-14, 5-14), typically 1-3 seconds after a Berserker as the second half of the same defence (clock 2:18 (14, 8), 1:46 (14, 7), 1:05 (14, 5), 0:44 (14, 7)).
+- Twice he cancels the planned Barrel because the Furnace's Fire Spirit already cleared the push: "we didn't even need the barb barrel" (clock 0:28) and "actually we don't even need a barbarian barrel" (overtime 0:20) — a sign of how much defensive work the spawner is doing.
+- No evidence either way on the Hero variant in this game: every 1-elixir drop is accounted for by an Electro Spirit or Skeletons deploy label, so no Rowdy Reroll was observed.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarian_Barrel (scraped 2026-09-02T02:35:26+00:00)

@@ -306,6 +306,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:07-1:02 and OT 1:19: the opponent's Valkyrie is tracked crossing at (13, 21) -> (14, 16) and later at (2, 13); Ryley answers the first one with a Rune Giant placed to kite plus Mother Witch behind it — "let's go for the Rune Giant here to kite this and then we can go for the Mother Witch as well" (402-405s). He never names the card on camera.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- mentioned only, never played by either side: at t=657 Ryley groups it with Berserker and Elite Barbarians as the season's 'big three' additions and says he cannot pick a favourite — 'I feel like I have a different opinion literally every single day'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

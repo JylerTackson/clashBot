@@ -152,6 +152,12 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:10 and 1:05: repeat pushes are met with Cannon at (9, 9) plus Ice Spirit, and once with a defensive Wall Breakers pair at (12, 6).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 1:56-1:52 (t=62-66): the death bomb took Ryley's left tower from 4858 to 3317 - he had pre-accepted it one play earlier ("We're going to take a Giant Skelly bomb, but that's all right", t=61) and shrugged it off, "that's kind of what happens when you get surprised factored sometimes, but it's not the end of the world".
+- clock 1:10 (t=108.1): a second Giant Skeleton at [13, 21] was answered with Tesla, Skeletons, Barbarian Barrel and the Berserker ability - "It's going to keep this alive and make sure to take out the giant skelly or at least most of it" (t=151-154).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Skeleton (scraped 2026-09-02T02:35:01+00:00)

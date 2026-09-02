@@ -257,6 +257,46 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - He keeps expecting them in overtime and plays around them rather than pre-empting — "He might go for the piggies" (1061s), "He might go for a piggies though, so I have to be very very cautious" (1042-1046s).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 1:42-1:35 (t=77-83): first Royal Hogs set of the game, right lane at the bridge ([15, 13] then [15, 15], HUD 9.0 -> 4.0), with nothing behind them; the enemy right tower fell 4858 -> 3955 over the next four seconds.
+- clock 0:58 (t=119): Hogs dropped as spell denial while defending a Giant Skeleton push - "let's Evo Piggies here to pressure while defending cuz I do feel like he could have like a lightning or something. So, if I pressure him, then he can't go for the lightning offensively".
+- clock 0:30 (t=148) and overtime 1:37 (t=202.2): Hogs stacked on top of an ongoing defence - "we can go for the royal hogs in this as well", then "let's go Evo Piggies here. We can go for the furnace off to the side and we can go for the berserker on top of this as well".
+- overtime 1:09 and 0:50 (t=232.2, 248.2): two more sets at [15, 14]/[15, 15] into a known Cannon - "Let's go for the piggies now. Pressure while defending" (t=249), "He has the cannon. Let's go" (t=252). He rates the card as nerf-proof: "Royal Hogs have been a deck that have been around for a long time. So, even if like it gets a nerf, they just somehow always survive" (t=91-97).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 2:30, 1:35, 0:22, 1:45 OT and 1:24 OT: five sets at the same right-bridge tile [15, 15] (t=288.3, 343.3, 416.4, 454.5, 474.5), plus a left split at [7, 15] at t=495.5 — he decides against splitting early: "I think I want to split my Royal Hogs as well. Okay, never mind. I'm going to go piggies on the right side" (287-289s), and only splits once the opponent is committed: "let's split our royal hogs here" (496s).
+- clock 1:35 and 1:45 OT: hogs sent explicitly to pull the opponent's Fireball rather than for damage — "let's just go for the piggies here again. I really don't mind if he fireballs" (343-345s) and "Just force him to go for the Fireball. If he has to Fireball, that's good for us" (455-457s).
+- clock 1:24 OT: hogs as spell denial — "let's go for the royal hogs here just to distract and we can tesla. And now because he has to defend, he can't really fireball down the middle which he was definitely hoping to do" (477-482s).
+- clock 0:22 and 0:58 OT: the evolution slot ("let's go for the Evo Piggies here", 418s) and the two-lane finish — "Yo, the piggies on the other side. He has to watch out on both lanes right now" (500-504s); the enemy right tower falls 4622 -> 3727 over t=426-434 and both enemy towers drop ~800-1400 HP over t=502-510. He also flags the placement condition he missed: "we also don't have the Piggies lined up with the Evo Tesla, either, which is not that great" (393-397s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock 2:45: opens with a scouting split (5 elixir off a full bar, 'Royal Hogs' label at tile [9, 15]) before he knows the opponent's list — 'I'll just split my royal hogs here'.
+- clock 1:40-1:29: splits again at [2, 13] and [8, 15], gated on the opponent's cycle rather than on his own elixir — 'I have the split pigs here cuz he has no e-barbs in cycle. So I don't really have to worry about that'; both enemy towers fall 4150/3937 -> 3442/3229 within eight seconds.
+- clock 0:57: holds the win condition, placing hogs back at [8, 0] and [4, 2] instead of at the bridge — 'I do have a set of Royal Hogs, but I have to be more careful of these Golden Knights, man'.
+- overtime clock 1:42 / 1:11 / 0:38: hogs become the pressure loop at [9, 15] and [15, 15], used as tempo as much as damage — 'the Piggies are just nibbling away right now. Dude, the Royal Hogs are so so strong', and later 'he's going to have to spend the next 20 seconds defending and he won't be able to do attack'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:20 (t=878.9): split Royal Hogs at [10, 15] as the first offence, justified by the Tesla already being down — "I'm going to split piggies here because we have the Tesla up a little bit as well just help out a bit on defense. If he has a mini horde, I might just get completely slammed" (881-886s).
+- clock 1:32 (t=927.4): full 5-elixir Royal Hogs at the right bridge [15, 13] the moment the opponent spent Arrows at the back, against a Mortar bait deck that had just burnt its all-in push.
+- clock 0:58 (t=962.0): Evolved Royal Hogs again at the same right-bridge slot [15, 12] — "Let's just go for the evil piggies here. He might go for like the arrows" (963-964s); the enemy right tower went 2582 -> 2026 over the next 20 s and to 347 by clock 0:24.
+- clock 0:16 (t=1003-1008): he credits the repeated hog pressure for winning the game rather than any defensive answer — "great timing on the pressure as well because since I pressured, he couldn't defend his evil mortar and his really only win condition in here is the evil mortar" (1003-1008s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- clock 2:47: opens the game with them dead centre at the river, tile (8, 15), 10 -> 5 elixir, before any building or spell is down.
+- clock 1:42: a deliberate uneven split at (9, 14) — "We can just go for the Royal Hog split here. I'm going to do it like three to one" — immediately backed by a Furnace at the same spot.
+- clock 0:50 onward and all of overtime: five straight sets into the enemy right lane at (15, 13)/(15, 15), never switching lanes: "I wish we could go opposite lane, but I feel like we're too committed at this point" (overtime 1:11). The enemy right tower falls 3258 -> 156 HP across those sets.
+- He rates them by what they force as much as by damage: "Forcing out the snowball with the piggies is just so strong because then he can't snowball our skellies and stuff" (overtime 0:45), and tracks their alignment against the enemy Evo Cannon — "we unaligned his Evo cannon from our Evo piggies, which is huge" (overtime 0:37).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

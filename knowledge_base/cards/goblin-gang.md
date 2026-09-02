@@ -247,6 +247,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - Opponent's card, anticipated but never observed on the field. Ryley plays around it in advance: "he's probably going to have to go for the Vines plus Goblin Gang, but obviously that won't really work too well if I have the Heal Spirit plus Minions with it" (t=117-121).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- Mentioned, never seen: it is the card he is scared of all game — "If he goblin gangs, I lost" (904s), then "We're actually alive even if he gangs... I guess he had bats and cycle not goblin gang. He was one card away. That kind of saved us a bit" (909-918s).
+- clock 0:38 (983s): he names the answer he was holding — "if he goes for the goblin gang, we do have a berserker plus ability defensively."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Gang (scraped 2026-09-02T02:34:47+00:00)

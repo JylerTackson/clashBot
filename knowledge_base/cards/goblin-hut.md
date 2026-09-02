@@ -169,6 +169,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2310 (clock unreadable): he names the deck by it — "I had a nice Goblin Hut Piggies deck".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:48: the opponent's Goblin Hut goes down at tile [9, 19] (t=328.3) alongside Spear Goblins; Ryley never spells it, answering the stream of goblins with his own Furnace and cheap cards instead — his response in the same window is "Let's just go for the furnace here in the back" (330-332s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Hut (scraped 2026-09-02T02:35:32+00:00)

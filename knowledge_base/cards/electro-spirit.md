@@ -320,6 +320,42 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 1:19 (t=1451.5) at [13, 13]: part of the opponent's Elite Barbarians / Witch / Electro Spirit overtime push that Ryley answers with Mother Witch plus Heal Spirit — "He goes for the minions, we have heal spirit" (t=1450-1452).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 1:20 (t=98.3): Electro Spirit at [9, 7] behind the Tesla (HUD 9.0 -> 8.0); nine uses in the game, most of them the last 1 elixir spent on a defence.
+- clock 0:16 (t=161.3): played to chain into a swarm - "we can go for the skellies and the E-Spirit cuz we do want to chain on top of those Evo skellies".
+- overtime 1:27 (t=212-216): he keeps it as a safety reset even when unnecessary - "if I just E-Spirit, I think that's dead. Yeah, nice. We don't even need to E-Spirit probably, but better to be safe than sorry".
+- overtime 0:47 (t=252.3): Electro Spirit at [15, 15] as part of the finishing sequence - "E-spirit here for the skellies... We got the E-spirit on the tower and that's good game".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 2:38: placed high at tile [9, 14], away from his own Furnace, to keep the spawner at full HP — "let's just go for the high electro spirit here just to bring that away from our furnace. Try to keep it fully healthy. Nice" (280-284s).
+- clock 1:23 and 0:28: the reset half of a cheap defensive rotation — "E-Spirits, Barbarian Barrel, then we have to go for the Furnace here as well" (356-358s) and "Let's Skellies and E-Spirits here. Make sure that we take this out. Very good defense right there" (408-412s).
+- clock 0:17 OT: still the default one-elixir answer at the end of a tight overtime — "I'm just going to go for the e-spirit here" (541-542s), one of roughly fifteen Electro Spirits this game (tiles [7, 0], [3, 3], [9, 6], [5, 7], [10, 15], [7, 11], [3, 11], [10, 9], [9, 10]).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock 2:27: played high at [8, 14] to protect the spawner rather than the tower — 'we can go for the high e-spirit as well just to make sure that we keep our furnace completely healthy'.
+- clock 0:45 and 0:28: front half of an E-Spirit-then-Tesla pair at [8, 10], then at [10, 13] as the first layer against split Evo Elite Barbarians — 'Let's E-Spirit like this and we can Barbarian Barrel in front as well'.
+- overtime clock 1:11 and 0:37: used twice to keep his own low-HP unit alive rather than to reset the enemy — 'Try to keep this alive on 1 HP' and 'E-spirit now we can definitely keep this alive'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:11 and 1:58 (t=888.4, t=901.7): thrown into the opponent's all-in left-lane push as the 1-elixir reset in a Skeletons/Berserker/Barbarian Barrel stack; he tracks its cycle explicitly — "Wait, E-spirit low. Hold on" (905s).
+- clock 0:47 (t=973.1) at [10, 9]: paired with the Furnace against Evolved Bats — "Let's just furnace here with this e-spirit" (975s).
+- clock 0:32 (t=988.0) at [12, 12]: thrown as a prediction against Bats that had not been played yet — "We can uh e-spirit here as well in case he bats. Beautiful prediction right there" (989-993s), and afterwards "Beautiful prediction there with that electro spirit, man. Just knowing that he was going to go for that" (999-1001s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Nine plays at 1 elixir, mostly at (14-15, 9-15) beside the river in the defended lane, almost always immediately before or after a Berserker or Tesla.
+- Overtime 1:15: used as building protection rather than as a reset on the attacker — "Just e-spirit here to keep our Tesla alive. Beautiful."
+- clock 0:13: valued as the cheapest way to reach the next card — "We need the e-spirit quickly to get to the barbarian barrel."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

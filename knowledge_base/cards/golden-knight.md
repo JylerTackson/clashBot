@@ -147,6 +147,13 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 2:00-1:23 (t=566-600.6): the Golden Knight leads the push that takes Ryley's right tower from full to ~1228 HP; he answers with Zap at [14, 17] ("I guess I'll Zap on defense here") and then the Fireball he did not want to spend ("I just don't want to lose my whole tower").
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock 2:22: the card that confirms his pre-game read — 'there's the Golden Knight. So it definitely is going to be some type of bridge spam deck'.
+- clock 1:07: a dash he cannot answer in time costs him 1820 HP off the right tower (4858 -> 3038) — 'I had no time to drop that... damn, that was unfortunate'.
+- clock 0:57: it is the reason he holds Royal Hogs instead of sending them — 'I do have a set of Royal Hogs, but I have to be more careful of these Golden Knights, man'; he answers the next one with Berserker at clock 0:37 ('Berserker here. Try to take out this Golden Knight').
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

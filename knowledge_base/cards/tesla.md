@@ -167,6 +167,42 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 2:18 onwards (opponent): the building sat at (8, 19) covering the middle; Ryley targets it with the pair that beats buildings — "let's Wall Breakers here with this cuz I want to make sure that I take the Tesla off the board" (303-306s), and at clock 0:15 he drops Electro Spirit and Ice Spirit on it at (8, 19)/(8, 20) during the finishing push.
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 2:23 (t=34.0): Evo Tesla at [9, 11], centre of his own half off a full bar (HUD 10.0 -> 6.0), as the default answer to an advancing Bomber; re-placed seven more times through the game ([7, 9], [17, 8], [9, 9], [10, 13], [7, 9], [6, 7], [9, 13]).
+- clock 0:19 (t=159.2): Tesla at [9, 9] as the anchor of the last regular-time defence - "Let's go for the Evo Tesla here and we can go for the skellies and the E-Spirit... We don't want to let that big guy reach our Tesla either".
+- overtime 1:13 (t=226): he explicitly declines it when the lane is already covered - "actually there's no point to even Tesla. I'll just berserker here".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 2:07: Tesla at tile [8, 11] (elixir 10.0 -> 6.0) followed immediately by Barbarian Barrel, exactly as pre-announced — "Okay, let's go for the Tesla here and then we can go for the barbarian barrel" (309-312s).
+- clock 1:24 OT and 0:44 OT: the evolved Tesla is the pull-and-hold building behind hogs pressure and half of his cheap defensive pair — "go for the royal hogs here just to distract and we can tesla" (477-478s), "Let's go for the tesla and skellies on defense" (514-515s).
+- clock 0:15 OT: a late Evo Tesla placed specifically to pull the opponent's Royal Hogs — "Evo tesla like this. Please pull the piggies. Nice" (545-547s). He also wants it lined up with his own hogs: "we also don't have the Piggies lined up with the Evo Tesla, either" (393-397s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock 2:08 and 1:13: Evo Tesla at [8, 12] and [8, 9], mid-lane behind the bridge, as the primary Golden Knight and Ram Rider answer (HUD 10.0 -> 6.0, then 9.0 -> 5.0).
+- clock 0:45: pre-placed at [8, 10] before the push arrives, paired with an Electro Spirit — 'we can go for the Evo Tesla. I just want to pre-get this down'.
+- overtime: he treats it as a named held resource — 'We have Evo Tesla ready. If he goes for E-Barbs though, we just go for the Berserker plus ability' (t=774-778) — and rates its survival as the swing — 'the Tesla just barely lives. That's huge' (overtime clock 1:45).
+- clock 0:15: third Tesla of the cycle at [8, 9] stops a Ram Rider tracked 1.2s from the tower — 'Just make sure that we take this Ram Rider out. Not bad. Good defense'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:28-2:20 (t=872.9, HUD -4 at t=879.5): Tesla at [11, 14] to absorb the Spear Goblin / Goblin wave and the freshly placed Mortar — "Okay, let's just go for the Tesla here to take that out. I bet he has a goblin style or something random" (872-876s).
+- clock 1:30 (t=929.9): Tesla at [2, 12] on the left as the Mortar and goblins crossed, keeping the damaged left tower (3562) covered.
+- clock 0:34 (t=985.0): Tesla pushed forward to [5, 13] at the bridge as offence once the opponent was pinned — "now I can just Tesla at the bridge cuz he's worried about defending" (986-987s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- clock 2:37 at tile (9, 12), 7 -> 3 elixir: placed so it survives the enemy Berserker's ability — "Let's go for the Tesla here just to make sure that we take out this berserker... he might try to pop that ability and I want the Tesla to live so I'm able to take out the bomb[er]."
+- Overtime 1:45 at (15, 8) and again at 1:21 and 0:37 at (15, 9): in the second half he stops using it as a mid-lane pull and puts it directly in front of the threatened tower against Goblin Drill and Bomber — "I need to evo Tesla in front. Evo Tesla, get down... We got the evo Tesla down. That's huge."
+- Overtime 1:15: spends a 1-elixir Electro Spirit purely to keep it alive — "Just e-spirit here to keep our Tesla alive. Beautiful."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tesla (scraped 2026-09-02T02:33:02+00:00)

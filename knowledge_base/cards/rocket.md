@@ -205,6 +205,12 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.8.md):
 - t=2228-2232: forced into it far too late — "I had to rocket, but on top of having to rocket, I still had to defend everything".
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.8:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Opponent's card, named seven times but never seen landing; the whole gameplan is built around it. clock 2:07-1:55: "I'm assuming he has a poison in this deck, but we actually — no, he has a rocket instead... he has a rocket because he has the Evo Cannon. He should have a rocket, actually. Okay, that's going to change stuff a lot. I'm going to be able to abuse my furnace really, really hard in this match-up now" — i.e. a Rocket opponent, unlike a Poison opponent, cannot punish a centrally placed Furnace efficiently.
+- Overtime 1:01 and 0:23: he treats Rocket cycle as the only way he loses — "we have to be careful of the rocket cycling in triple elixir cuz we're not actually up all that much, so we can easily, easily lose this game", then "I'm just not letting him get any rockets on our tower. As long as he doesn't get rockets on our tower, we have a very good chance to win this."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rocket (scraped 2026-09-02T02:35:17+00:00)

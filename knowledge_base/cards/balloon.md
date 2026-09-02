@@ -183,6 +183,12 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:27-0:03: named as the opponent's only remaining Lava Hound support once the Skeleton Dragons are spent — "if he goes for the Lava, he has no support cards for it, only a Balloon" (432-435s), then "He might go for a Balloon, though. We have to be careful" (439-442s); a Balloon is tracked at (5, 9) at t=454s during that push.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 2:02 (t=55): spotted mid-sentence and answered with Lightning - "Oh my god, he has a balloon. Okay, well, let's go for the lightning here".
+- overtime 1:55-1:41 (t=184-197): flown down the left lane from [1, 20] and stopped by Tesla plus Berserker plus Skeletons - "let's skellies here to bring this over. Hopefully that Tesla can survive. Nice. Let's go. Perfect"; it never connected for a crown.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Balloon (scraped 2026-09-02T02:47:14+00:00)

@@ -397,6 +397,43 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 1:26 (opponent card, Evolved): the opponent's losing play in Ryley's telling — cursed by Mother Witch and converted into three Cursed Hogs, "That was a bad set of skellies as well. He just gave us three piggies" and "he just did one tiny mistake with his skeletons and just got completely punished for it."
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 2:45 (t=12.3): the opening play, Skeletons at [6, 8] off 9 elixir (HUD 9.0 -> 8.0); used as pure cycle and distraction eight times in the game.
+- clock 0:36 (t=141.1): Skeletons at [11, 8] to hold the push long enough to activate the king tower - "Let's go for the skeletons here and then we can go for the barbarian barrel plus berserker".
+- overtime 1:45 (t=193.2): used to drag a unit across for the Tesla - "let's skellies here to bring this over. Hopefully that Tesla can survive".
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 0:28 and 0:44 OT: paired with Electro Spirit or Tesla as the second body on defence — "Let's Skellies and E-Spirits here. Make sure that we take this out" (408-410s), "Let's go for the tesla and skellies on defense" (514-515s).
+- clock 1:55 OT: used to buy a Berserker placement while on two elixir during the overtime scare — "Skellies off to the side, then we can Berserker" (444-446s), landing at tile [1, 8].
+- clock 0:26 OT: a high Skeletons placement purely as a distraction — "Let's go for the high skellies here just to distract" (531-532s), tile [11, 14].
+- clock 2:27: declines a trade rather than spend them badly — "I don't really want to go into the skellies" (291-292s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock ~1:49: Skeletons at [7, 11] to drag the Ram Rider/Ice Golem push into his own units — 'I can just skellies over here and bring this over to the Barbarian and then the furnace will help out'.
+- clock 1:07 and 0:22: [14, 8] to shorten a Golden Knight dash and [6, 13] as the last layer on the split Evo E-Barbs.
+- overtime clock ~0:48: the clearest use, Skeletons at [15, 15] purely to reverse a unit's pathing — 'I just didn't want that to go to my tower and if I brought it backwards, I knew that it wouldn't start going forwards again'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:10 (t=889.7) at [3, 10]: first body into the opponent's all-in, immediately before the Berserker.
+- clock 1:27 (t=932.4) at [8, 5]: cheap distraction for the goblins/Mortar wave while he held elixir for Royal Hogs.
+- clock 0:50 and 0:40 (t=969.8 at [2, 15], t=980.0 at [5, 15]): paired with the Barbarian Barrel in the standard stack — "Yep. Barbarian skellies" (979s).
+- clock 0:13 (t=1006.5) at [9, 9]: last cheap block while closing out the game.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Nine plays across three jobs: opening cycle in the back corner (1, 1) and the side lane (2, 14) at clock 2:50/2:35; mid-lane distraction at (9, 8)/(9, 9)/(9, 13); and protection for the spawner.
+- clock 0:05: "Skellies here as well just to keep the furnace alive" — spending the 1-elixir card to extend a 4-elixir building rather than to defend the tower directly.
+- clock 2:35: played on the far side specifically to pre-empt an enemy Berserker ability — "we can go for the skellies over here on the side cuz he might try to pop that ability."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

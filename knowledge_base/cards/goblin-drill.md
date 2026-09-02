@@ -150,6 +150,17 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - Mentioned only, never played by either side: his pre-game read on the opponent at t=1241-1243 — "against Marsh. This guy usually uses Goblin Drill Bowler. This is going to be an interesting match" — a read the actual Mortar siege list then contradicts.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- Mentioned, not seen: his first read of the opponent at t=39-48 - "it looks like we're up against some type of Goblin Drill Giant Skeleton deck. I am a little bit confused on the Giant Skelly here cuz before that, I would have put like any amount of money that he had a drill, but now I'm not 100% too sure". No Goblin Drill ever appeared.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- Opponent's card. clock 2:25, before it is ever played: "I do feel like that drill does have a decent advantage, but because of the outplay ability on this deck, I'm not too worried."
+- clock 0:13 he calls it in advance ("Our Tesla is going to stop him from going in for a second. He's going to drill again") and at overtime 0:40 a Goblin Drill surfaces at tile (14, 5); his standing answer is a Tesla placed in front of the tower rather than a mid-lane pull.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Drill (scraped 2026-09-02T02:35:44+00:00)

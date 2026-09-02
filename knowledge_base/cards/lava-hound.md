@@ -196,6 +196,11 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - clock 0:28-0:03: the actual Lava Hound push arrives at (4, 13) with Balloon and pups and takes his left tower 4781 -> 2115; he answers with Berserker, Heal Spirit, Fireball, Minions and Mother Witch rather than a big body, having already noted the support was spent — "if he goes for the Lava, he has no support cards for it, only a Balloon" (432-435s).
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- mentioned only: at t=584 he briefly considers the opponent might be on Lava Hound before rejecting it — 'it kind of looks like a Lava Hound deck. I mean, I guess it could be a Lava Hound deck, but I swear this guy normally plays with bridge spam'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lava_Hound (scraped 2026-09-02T02:35:11+00:00)

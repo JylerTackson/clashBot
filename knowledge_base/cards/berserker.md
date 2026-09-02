@@ -493,6 +493,45 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 1:10-1:03 (t=1464-1471): Berserkers at the tower with the ability held until it charges — "Berserkers on the tower. Can we get the ability, please? Please. Ability. Nice... Oh my god, we got the ability. That's huge"; the enemy left tower goes 2003 -> 1351 across that window and falls shortly after.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.0.md):
+- clock 1:01 (t=116.8): Heroic Berserker at [9, 14] at the bridge (HUD 9.0 -> 7.0) immediately before a Royal Hogs set - the pattern he repeats all game (also [3, 15] t=189.2, [3, 14] t=205.2, [12, 15] t=227.2, [16, 6] t=241.2), plus one deep placement at [8, 5] at clock 2:14.
+- clock 0:28 (t=150): Savage Survival used defensively - "I'm going to berserker ability as well. It's going to keep this alive and make sure to take out the giant skelly or at least most of it".
+- overtime 0:47 (t=246.9/248.9, two 3-elixir drops with no hand change): ability used offensively on the tower - "Let's pop the berserker ability. He has the cannon. Let's go. The berserker's on the tower". He also passed on it once, "I'm not going to pop the ability this time" (t=235).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 2:48: opens the game with a Berserker in the back at tile [8, 0] as a scouting play — "Just going to go for the berserker in the back here. Try to figure what this guy is playing" (270-272s).
+- clock 1:02-0:47: the Hero Berserker is deliberately reserved for the opponent's evolved Elite Barbarians rather than for their tank — "I think I have to try to save my Berserker more for the Goblin Stein. I mean, not for the Goblin Stein, sorry, for the E-Barbs" (379-383s).
+- clock 1:10 OT and 0:34 OT: placed in front of his own Furnace so the opponent has to spend into it — "Let's berserker in front here so that if he wants, he has to go for the e-barbs" (490-492s), "Let's go for the berserker in front. We can pop our ability just to keep this furnace" (523-527s).
+- clock 0:07, 0:03, 1:20 OT, 0:50 OT and 0:42 OT: Savage Survival (3 elixir) is a routine spend — five 3-elixir drops with no hand change at t=430.1, 436.6, 478.6, 507.7 and 515.5, matching "Let's go for the ability as well" (421s), "Go for the ability here" (435s), "I'm going to pop the berserker ability as well" (497s) and "we can go for the berserker ability as well" (538s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock 2:17: Berserker at [9, 0] off 9 elixir as the cheap defender that reaches the lane — 'Okay, let's just Berserker here. That's going to jump. Nice'.
+- clock ~1:53: plays it at [8, 12] then immediately calls it a misplay — 'Okay, maybe that was a bit aggressive though'.
+- clock 1:07 and 0:37: [13, 14] and [3, 14] to kill Golden Knights, and at [8, 13] at clock 0:25 as the middle layer against split Evo E-Barbs — 'we can even get a Berserker here in the middle just to make sure that we're completely safe'.
+- overtime clock 0:38: bridge pressure — 'Let's berserker the bridge and we go Evo piggies too. I want to be really aggressive right now'.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 2:38 (t=860.7, HUD -2): Heroic Berserker at [1, 6] purely as a cycle card on the opening — "I'll cycle my berserker" (860s).
+- clock 2:10 (t=889.9): Berserker at [3, 11] behind Skeletons and an Electro Spirit to hold the opponent's all-in left-lane push — "Oh, okay. This guy's just going all in. Let's berserker here" (887-889s).
+- clock 2:03 (t=896.4, -2 elixir): Savage Survival used as a survival tool, not for damage — "I'm going to go for the berserker ability here just to keep this alive and it should take out the cannon cart hopefully" (896-899s). (Hero note prices the ability at 3 elixir; the observed drop was 2.)
+- clock 0:50-0:38 (t=970.0 at [3, 14], t=982.0 at [7, 9]): played the body but deliberately declined the ability — "I'm going to go for the berserker here and I'm going to go for the ability... No, I'm not going to ability" (969-973s) — and named Berserker-plus-ability as his designated Goblin Gang answer: "if he goes for the goblin gang, we do have a berserker plus ability defensively" (981-983s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.4.md):
+- The most-played card of the game (nine-plus deploy labels), almost all at (14-16, 8-15) on or just behind the river in the right lane, usually as the first half of a Berserker + Barbarian Barrel defence: clock 2:20, "Let's go for the berserker here and then we can go for the barbarian barrel here as well."
+- clock 1:09 at tile (9, 0), behind his own king tower — a pure cycle placement, not a push: "Okay, let's cycle my berserker here in the back. Oh, good timing as well."
+- Hero variant confirmed: Savage Survival used once, at overtime 0:55 (3-elixir spend with no hand change) for a guaranteed kill — "Let's go for the berserker ability to just make sure we take out that bomber no matter what" — and explicitly declined at overtime 1:27, "Could I pop the ability here? It's not worth it, I think."
+- The opponent runs one too, and Ryley treats it as a priority target: clock 2:37 "make sure that we take out this berserker", clock 1:38 "I do want to take out this berserker quickly", and overtime 1:23 "He's just spamming us with the berserkers at the bridge, which is definitely the right play, by the way... It's just getting stressful."
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Berserker (scraped 2026-09-02T02:34:46+00:00)

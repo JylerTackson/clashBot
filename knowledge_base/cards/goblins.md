@@ -148,6 +148,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.9.md):
 - t=2370-2386 (clock unreadable): Goblins at the bridge alongside the barrel are what deny the Lava Hound — "barbarian barrel plus goblins at the bridge, so he wasn't able to go for a lava hound" (t=2372).
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.9:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- clock 1:25 (t=932.9) goblins at [12, 16] pushing the right lane alongside the Mortar; handled by the Tesla and the Skeletons at [8, 5] without spending a spell.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblins (scraped 2026-09-02T02:34:40+00:00)

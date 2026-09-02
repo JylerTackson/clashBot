@@ -329,6 +329,13 @@ Match [This Rune Giant Deck is TOTALLY OVERPOWERED!!](../matches/X2zRpx5TN2U-m0.
 - overtime 0:58 and 0:50 (t=1474.5 at [3, 24], t=1485.5 at [5, 24]): two more Fireballs on the same tower to close the match — "Go. Go. Go. Go. Go. Fireball" (t=1473), "all we have to do is get one more fireball. The piggy. The piggy. Let's go. Dude, we won" (t=1480-1483). Enemy left 1106 -> 264 -> 102.
 <!-- creator-insights:ryleycr1:X2zRpx5TN2U-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.1.md):
+- clock 1:35 and 1:45 OT: the opponent's Fireball is baited with Royal Hogs rather than dodged — "I really don't mind if he fireballs" (344s), "Just force him to go for the Fireball. If he has to Fireball, that's good for us" (455-457s), and when it does not come: "Okay, he's not Fireballing. That's not smart" (459-460s).
+- clock 0:27: he counts the opponent having Fireball as a defensive advantage for them — "him also having Fireball does make it a little bit more simple for him defensively as well" (412-415s).
+- clock 1:21 OT and 0:11 OT: he plays to deny it, then stops caring — "because he has to defend, he can't really fireball down the middle which he was definitely hoping to do" (479-482s), "He might fireball at the bridge, but it really doesn't matter" (549-550s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Fireball (scraped 2026-09-02T02:33:00+00:00)

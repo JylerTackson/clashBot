@@ -171,6 +171,11 @@ Match [#1 BEST Log Bait Deck in Clash Royale](../matches/GQmC6dsl6Go-m0.7.md):
 - clock 0:16-0:03: he lets a final Ice Golem push eat most of a Crown Tower on purpose while counting the shots — "At least we're not going to lose our whole tower. We're just going to lose most of it, right?... we're not going to lose our tower cuz the thing's not going to retarget."
 <!-- creator-insights:ryleycr1:GQmC6dsl6Go-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.2.md):
+- clock ~1:55 and clock 0:18: seen tanking in front of the Ram Rider in the opponent's bridge pushes; Ryley answers the pair with Barbarian Barrel plus Skeletons rather than spending a building on it.
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

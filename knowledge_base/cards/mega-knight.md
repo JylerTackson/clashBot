@@ -197,6 +197,11 @@ Match [Ryley's BEST Games of CRL 2026](../matches/9tx2iYsSmMw-m0.4.md):
 - t=986 (clock unreadable): mentioned in the dash call-out ("Getting the Mega Knight right under the tower") but the broadcast does not resolve which side the Mega Knight on the field belonged to; deploy labels exist at t=962 and t=1064-1065.
 <!-- creator-insights:ryleycr1:9tx2iYsSmMw-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:start -->
+Match [I Got a 98% WIN Rate with this Royal Hogs Deck](../matches/ynafcLtQWDQ-m0.3.md):
+- Mentioned, never played by either side: used only as a discarded archetype read at clock 2:34 — "maybe it's mega knight bait, I guess. But I feel like no one plays mega knight bait. Oh, mortar bait" (866-871s).
+<!-- creator-insights:ryleycr1:ynafcLtQWDQ-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)
