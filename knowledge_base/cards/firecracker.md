@@ -291,6 +291,12 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 0:52: Firecracker at tile [2, 14] on top of a Log to clear the lane before a finishing high Cannon — "Oh my god, firecracker, please. Nice. Okay, wait, that's going to take this out. Then we can go for the high cannon here."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent card, the one he names most in this game (11 mentions). Recognised in the first ten seconds - "like there he has the firecracker. That's such a strange version of the deck, man" (1312-1315s) - and priced as the only damage the opponent will get: "maybe he'll get like a few firecracker chips here and there cuz he has NATO to pair up" (1412-1415s).
+- clock unknown (t=1500.5): he answers it with a 6-elixir Lightning on purpose when ahead on elixir - "I think I just want to lightning this firecracker this time cuz we're in elixir" (1499-1502s). Earlier answers are Skeletons at the bridge (1427-1430s) and Royal Hogs as a blocker (1542-1544s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Firecracker (scraped 2026-09-02T02:34:50+00:00)

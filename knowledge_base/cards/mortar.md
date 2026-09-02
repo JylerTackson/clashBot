@@ -235,6 +235,12 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0
 - clock 0:35 and 0:23: he answers it with a body rather than a spell — "we can go for the berserker to tank just so the mortar doesn't lock to our tower" — and when the Evo Mortar does connect for 425 + 200 on his left tower he takes it calmly: "I think that's a mortar connection, right? Yeah, only one shot us not the end of the world," then Poisons it.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- Opponent card (nine mentions), and a surprise to him — "Okay, why does he have a mortar?" (t=549), "I lucky forgot that he had Mortar. I can't lie. It's been too long" (t=732-735). He never spends a big card on it: The Log answers it at t=627.6 (bridge Mortar at [8, 16], "that's going to take out the Mortar", t=631) and again at t=736.7 against the Evo Mortar at (2, 17), with "another Baby Dragon on the Mortar if need be" (t=742) held in reserve.
+- t=765-769s: he blames his only real tower damage on the Mortar being screened — "Whenever a Mega Knight throws something, Mortar and X-Bow lock onto the tower" (own left tower 4167 -> 3317 across t=760-772).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mortar (scraped 2026-09-02T02:35:31+00:00)

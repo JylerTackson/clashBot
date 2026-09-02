@@ -199,6 +199,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4
 - Detected repeatedly on the opponent's side (t=766.8 [3, 13], t=908.9 [16, 23]); Ryley reads it as the alternative to the Ebarbs push — "does he go for the ghost or Earbs? Okay, he goes Ebarbs" (t=971-973).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- Opponent's card, and Ryley identifies it as the Evolution variant ("the evo ghost", 920-922s). His standing answer is the Mighty Miner plus an Electro Spirit reset — "we can go for the mighty miner on the evo ghost" (920-922s), "just e-spirit the ghost" (927s), "Mighty miner on the ghost" (1012s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Ghost (scraped 2026-09-02T02:35:09+00:00)

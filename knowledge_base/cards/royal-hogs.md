@@ -318,6 +318,54 @@ Match [I QUALIFIED for the Clash Royale League WORLD FINALS!!](../matches/5nOaTB
 - video t=1442-1452: the deck's identity card across the whole qualifier. "I had a nice Goblin Hut Piggies deck. Once again, you guys are seeing a piggies. I think the only duel set where I didn't use piggies uh in today's video was against Ian."
 <!-- creator-insights:ryleycr1:5nOaTBlYLlg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=52.1s (clock unknown — the clock OCR failed for this whole video): first Royal Hogs of the game at the left bridge tile [2, 15], played as a punish on a cycle read — "I think I'm going to go for the piggies here immediately cuz he has no Skeleton Army in cycle, and he's going to have to end up ignoring the entire Baby Dragon" (t=51-56). The enemy left tower then bled 2963 → 2373 between t=58 and t=64.
+- t=109-112s (clock unknown — the clock OCR failed for this whole video): Electro Spirit in the back at [9, 1], then Royal Hogs again at [2, 15] the moment the opponent committed a Giant — "He might end up just going Giant Graveyard at the bridge, so I'm just going to go for the piggies at the bridge... Does he giant? Okay, yep, let's piggies right away" (t=106-113). Enemy left tower 2373 → 665 by t=126.
+- t=138.1s (clock unknown — the clock OCR failed for this whole video): "Evo piggies" placed on his own right half at [15, 13], with the lane chosen for what his spell can follow — "I think I want to Evo piggies here on the right side because I can just lightning cycle the left" (t=136-140).
+- t=205.2s (clock unknown — the clock OCR failed for this whole video): late-game hogs used purely as an elixir sink against a nearly-full opponent — "Let's piggies to waste all of his elixir and then we mighty miner here. He has to [Skarmy] me at some point" (t=206-209); at t=212 he confirms it worked: "Yo, he has no elixir. He has nothing."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=337.3, deploy labels at (10, 11) and (9, 15)): first commitment is a lane split, played for cycle progress and small chip rather than for a break — 'Let's go for the split piggies here. I do need to start getting to the evo and this will be a little bit of chip damage. It's so not like a lot but I mean it's something to work with. We get one piggy nibble on the left' (t=337-346).
+- clock unknown (t=367-386, right lane): second commitment behind a Baby Dragon, graded the same way — 'Good piggies too. We're getting a little bit of damage, not anything crazy but it's something' (t=391-395); enemy right tower 4448 -> 4038 HP over t=384-396.
+- clock unknown (t=468.5 and t=479.5, both into the left lane at (2, 13) and (2, 15)): the evolved Hogs sent twice behind two Baby Dragons and a Mighty Miner win the game — 'we can go for the Evo piggies, guys. We have double baby dragons. Piggies are protecting' (t=467-470) and 'The piggies are on the tower. All of them are on the tower. We have the damage lead' (t=486-488).
+- clock unknown (t=244-247): he names the matchup problem for the card before playing it — 'whenever I get to the evo piggies, he's going to have the evo snowball for defense', and at t=460 confirms it: 'Um, I know why he snowballed.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=526.7s (clock unknown — the clock OCR failed for this whole video): opened with a split Royal Hogs off a full bar, elixir 10 -> 5, deploy label on his own half at [8, 14] — the split is explicitly Mega Knight insurance: "I don't really want to go for piggies in the same lane knowing that he probably has a Mega Knight. So, just going to split them here" (t=526-531). Enemy left 4858 -> 4504 and right 4858 -> 4150 over the next eight seconds.
+- t=634-641s: talks himself out of a second split and states the general rule — "Do I even want to split them though? I feel like same lane might just be better... I think it depends on the situation." From t=651 onward every hog play is same-lane.
+- t=693.7s: the game-deciding play — Royal Hogs at the left bridge [2, 15] behind an Evo Baby Dragon placed at [4, 1], timed to a Mega Knight committed in the other lane: "Can I piggies on the left here with the Evo Baby Dragon? I think I should cuz I mean the piggies are going to be speedy piggies" (t=692-697), then "It's on the tower and of course, you know, when he Mega Knights, it's good to pressure just to force him to spend some Elixir in the opposite lane" (t=699-705). Enemy left tower 4032 -> 2281.
+- t=792.8s: used as a defensive lever rather than for damage, hogs to the bridge at [2, 15] to pull the Mega Knight — "could I piggies to bridge to block the Mega Knight? Then if I block the Mega Knight, the Ram Rider is not a threat. Yeah, he has to defend these piggies."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- t=873.9s (clock unknown; the in-game clock OCR failed for this whole video): first Royal Hogs set at the right river tile (15, 13) purely as a pump punish — "I'm definitely going to piggies though right now cuz he might pump. Trying to predict it" (872-876s).
+- t=924.9s (clock unknown): second set at (14, 14) while simultaneously defending a Royal Ghost — "I'm just going to Evo piggies here actually and just e-spirit the ghost... this is still damage and I think it's getting nearly enough damage where I can just defend for the rest of the game" (926-934s). He treats the Hogs as chip, not as a kill attempt.
+- t=945.9s (clock unknown): third set at the bridge (15, 15) immediately before a Lightning at (15, 19); the enemy right tower falls 2734 -> 1485 HP over the next six seconds.
+- t=1078.1s (clock unknown): the game-winning set at (15, 15), thrown on a read of the opponent's Three Musketeers — "We can piggies now cuz he might try to go for the 3M and then he's cooked" (1077-1079s). The enemy right tower reads 1373 -> 311 across 1084-1090s and he calls "that's going to be tower down" (1086s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1143s (clock unknown): split Royal Hogs at the bridge centre, tile [8, 15], elixir 10 -> 5 — "Let's split piggies here. I have my log ready for a Skeleton Army"; the split alone chipped the enemy left tower ~500 (4435 -> 3963 by t=1154) and he called it: "It was smart to split it, but it did get us 500 damage."
+- t=1187-1191s (clock unknown): second wave, deploy labels at [2, 15], [3, 15] and [7, 13] — "Let's split Piggies three to one, and then we have Log ready"; against this opponent he splits on purpose because "this guy can't really defend split piggies that well" (t=1132).
+- t=1196-1206s (clock unknown): the hogs tank for a following Mighty Miner on the right lane (Miner tracked [14, 12] -> [17, 27]) — "we had the Piggy tank for the Mighty Miner on the right, if you notice. So, then it forced out an extra response from him, which is super good."
+- t=1216s and t=1255s (clock unknown): two more Evo Royal Hogs at [2, 15], each immediately followed by The Log at [3, 15] — "we can Evo Piggies here. We have the Log ready for the Skeleton Army once again" and "Let's go for the Piggies here. Let's pre-log for the Skeleton Army this time."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t=1320.3, tile [2, 2]): back-placed behind the King Tower against a bait deck with no punish card, with both answers pre-assigned - "I'm going for the piggies in the back here cuz I know that he can't really punish it. If he scar armies, then we can have the log. And yeah, if he infernos, we can just lightning" (1324-1331s).
+- clock unknown (t=1455.5, tile [12, 3]): played straight into a Skeleton Army he knows is in hand, because forcing it out is the point - "We have piggies again here. We can wait a second cuz I know he has the skeleton army in hand, but it's fine. We have to force it out anyways and we have the Evo baby dragon for defense" (1455-1463s); enemy right tower 4450 -> 4081 -> 3727 HP at 1466-1468s.
+- clock unknown (t=1508.5, tile [14, 9]): chosen over the Mighty Miner mid-thought so the opponent cannot get a Firecracker plus Tornado answer - "Let's go for the mighty miner. Actually, it's piggies we can't firecracker NATO as actually. I think that's smarter" (1507-1512s).
+- clock unknown (t=1541.5 / 1561.6): used as a defensive blocker and then as an elixir drain - "Piggies here to block the firecracker" (1542-1544s) and "evo piggies here forces out the inferno tower. Just get elixir out of him cuz the more elixir I force out of him, he's just completely unable to go in" (1563-1570s). The chip adds up: "Little two nibbles right there, dude. Piggy nibbles do so much damage" (1436-1440s), enemy right tower 4435 -> 4199 HP at 1436s.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Hogs (scraped 2026-09-02T02:34:54+00:00)

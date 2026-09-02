@@ -250,6 +250,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.4.md):
 - clock 0:23 (t=1207): he calls the Ice-Golem-first Hog push by name - 'he does the forbidden tech of the ice golem in the back with the hog rider first'; the detector tracked ice-golem(e) advancing on his right lane at 1082s, 1104s, 1134s, 1174s and 1210s during the pushes that took that tower from 4858 to about 3048.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- Mentioned, not played by Ryley — the opponent's spell-blocker. He cites it twice as the reason he cannot answer their pushes cleanly: "the ice golem will distract the mighty miner for too long" (852-854s) and "He's going to 3M the bridge again. Maybe ice golem first to block the lightning" (1013-1015s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Ice_Golem (scraped 2026-09-02T02:34:55+00:00)

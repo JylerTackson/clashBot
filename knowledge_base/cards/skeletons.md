@@ -704,6 +704,49 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=592s: played off the HUD (slot emptied, -1 elixir) as the cheapest cycle card in the covered game, about 3 s before he laid the Barbarian Hut. Placement not read; hand-read-only, so lower confidence than his deploy-labelled cards.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=30.7s [12, 6], 67.1s [7, 5], 75.6s [3, 12], 123.1s [14, 9], 132.3s, 167.7s [6, 8], 195.2s [11, 1] (clock unknown — the clock OCR failed for this whole video): played seven times as 1-elixir cycle and body-block on his own half, mostly against the Golden Knight and Giant.
+- t=167.7s (clock unknown — the clock OCR failed for this whole video): the one bad one, and he blames timing rather than the card — "I'm going to skellies. Oh, bad timing. Nice arrows by him" (t=168).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=227.4, tile (4, 11)): opening play, paired with Electro Spirit against Wall Breakers — 'Just going to go for the E spirit skeletons here on the wall breakers' (t=227-230). The pairing repeats at t=385.4 with the same verdict: 'A spirit skeletons. Come on. Nice, beautiful spirit skeletons. Wow. Perfect placement for absolutely zero damage' (t=386-391).
+- clock unknown (t=307-317): he holds them rather than trading The Log, because they are his Goblin Barrel answer — 'I can't really log the rascals or the princess because he'll just go golden knight goblin barrel and chain up to my skeletons cuz if I do that then I'd have to skeletons.'
+- clock unknown (t=410.4, 421.6): used as a retarget tool inside a defensive chain — 'Let's log then baby dragon then skellies to retarget these' (t=422-424).
+- clock unknown (t=294.3, tile (9, 0)): played on his own back line purely to cycle toward the Baby Dragon evolution.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=647.6s (clock unknown): played at [6, 10] to surround a single-target attacker — "we can go for the Skeletons to surround the Ghost" (t=647-649).
+- t=738.6 / 753.8s: dropped behind the Cannon as cheap added DPS against a Mega Knight + Firecracker pile — "then we can go for a set of skellies" (t=739), "Cannon low skellies. We need the E-Spirit for this" (t=754-755).
+- t=805.8s: pure cycle at elixir 2 -> 1 in the closing seconds while under an incoming Lightning — "Let's E-Spirit. Let's skellies. Let's cannon" (t=803-804). Nine Skeletons plays in one game, the most-cycled card after the Cannon.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- Eleven sets across the game, all on his own half (t=832.8s (3, 12), 877.9s (7, 7), 918.1s (11, 7), 941.8s (14, 13), 987.0s (12, 9), 1003.0s (10, 7), 1023.0s (9, 12), 1051.9s (11, 15), 1059.1s (14, 11), 1070.1s (8, 14), 1081.1s (7, 8); clock unknown) — his cheapest cycle card and the glue of every defence.
+- t=941.8s (clock unknown): placed at (14, 13) specifically to keep the Mighty Miner alive — "Let's skellies here to keep the mighty live cuz this could be another set of piggies even though we are down a lot of elixir" (942-946s).
+- t=987.0s (clock unknown): used as a Three Musketeers distraction — "skellies just to distract some of the musky's. Hopefully that can take them out" (987-990s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1121s (clock unknown): Skeletons at [5, 11] as the cheap plug instead of a Log — "Okay, let's skellies here. I'm not going to log though because I know that he has the Skeleton Army."
+- t=1211s (clock unknown): Skeletons at [11, 14] behind a Baby Dragon to finish an Electro Wizard — "Let's Skellies here. Take this out. Nice. Beautiful."
+- t=1241s (clock unknown): Skeletons at [15, 12], elixir 8 -> 7, on a Hog Rider dropped at the bridge — "Yep, let's just Skellies here. Perfect. Very bad Hog Rider. Just not really doing anything at all."
+- t=1287s (clock unknown): Skeletons at [2, 14] into the opponent's last Hog plus Sparky attempt — "It's like a last ditch effort though. Let's just go for the skeletons here."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t=1349.2, tile [8, 15] and t=1391.1, tile [8, 14]): dropped in front of a Golden Knight that the tracker had 5s from the tower - "the skelly just clutched up. Sometimes the skellies just want to trip, man, and give him free ways to dash on the tower" (1354-1360s).
+- clock unknown (t=1426.4, tile [12, 10] and t=1446.4, tile [14, 13]): played at the bridge as a body to eat a Firecracker and to deny Tornado value - "Let's skellies to bridge here just to block a potential firecracker" (1427-1430s), "Oh, he could get a good NATO now. Skellies here. Okay, perfect. He doesn't get anything from that" (1447-1450s).
+- clock unknown (t=1554.6, tile [7, 10] and t=1567.6, tile [12, 15]): used to block the opponent Evo Skeleton Army chip - "just skellies here to block his cuz he's trying to get a bit of chip damage with the skarmy cuz the skeletons are blocking for it" (1556-1562s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeletons (scraped 2026-09-02T02:34:43+00:00)

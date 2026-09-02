@@ -167,6 +167,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.4
 - Appears at clock 0:25 (t=882.9) and again in overtime (t=959.0 [10, 16]); answered with a bare Berserker at t=885.2 [14, 13] and no ability. He notes she is less of a problem than she was: "thankfully, the archer queen doesn't have the two abilities anymore, though, or this would be even more annoying" (t=961-965).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=296-301, mentioned only, never played): named as the substitute for the Baby Dragon slot in this Royal Hogs cycle list — 'if you like the archer queen, you can even take out the baby dragon and put in the archer queen instead.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Archer_Queen (scraped 2026-09-02T02:33:00+00:00)

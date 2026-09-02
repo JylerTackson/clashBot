@@ -321,6 +321,12 @@ Match [Ryley's BEST Predictions of 2026!](../matches/vp7jP_vjxcU-m0.1.md):
 - clock 0:27 (t≈385): a second Princess used to drain the opponent's building cycle — "we go for another princess... okay, forced out the Evo Tesla."
 <!-- creator-insights:ryleycr1:vp7jP_vjxcU-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=264.3-306.3, opponent Princesses tracked at (4, 19), (13, 20), (12, 24)): Ryley deliberately never answers the back-line Princesses — 'these back princesses are so annoying and I don't even really want to lightning them cuz then he'll just pressure super hard' (t=364-369) and 'I can't really log the rascals or the princess because he'll just go golden knight goblin barrel' (t=307-312). Six unidentified 269 HP hits on his right tower across the game are consistent with them.
+- clock unknown (t=270-273): the one time he does answer one, it is with the Mighty Miner ability rather than a card — 'Can we mighty miner ability that princess? Yes, we will be able to. Perfect.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Princess (scraped 2026-09-02T02:35:08+00:00)

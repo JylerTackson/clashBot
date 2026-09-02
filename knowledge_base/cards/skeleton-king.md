@@ -138,6 +138,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.2
 - clock 1:46 and 0:37: the opponent's Skeleton King runs the right lane and later the left; Ryley answers the second one with The Log, Bats, Spear Goblins and the Hero ability - "I need to ability as well just to make sure that we take out the skelly king... If that takes out the skelly king, I'm happy" (486-491s).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=283-289, mentioned only, never played): explicitly ruled out as the Mighty Miner replacement — 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_King (scraped 2026-09-02T02:35:13+00:00)

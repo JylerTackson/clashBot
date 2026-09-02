@@ -415,6 +415,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3
 - It also drives his defensive layout for the rest of the match — the Bomb Tower goes behind the tower at [3, 3] rather than into the lane (t=624-632) — and in overtime he beats one with the Berserker's own ability: "he tries to Valkyrie. What I'm going to do here is I'm just going to pop the ability" (t=729-730).
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=283-289, mentioned only, never played): listed alongside Knight and Golden Knight as a Mighty Miner replacement in this deck — 'like the knight, the valkyrie, the golden knight, just a few cards like that.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Valkyrie (scraped 2026-09-02T02:34:51+00:00)

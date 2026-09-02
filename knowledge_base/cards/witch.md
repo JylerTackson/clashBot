@@ -172,6 +172,11 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=379-387s (mentioned, never played in this video): used as the example of support that a parried Golden Knight fails to reach — 'imagine you have your Witch right behind a Ronin. If the Ronin parries a Golden Knight dash, then it won't go to the Witch and the skellies.'
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=26.0s (clock unknown — the clock OCR failed for this whole video): the opponent's evolved Witch at [13, 19] is what took his right tower from 4208 to 2174 across t=44-52; Ryley's answer is to spend a 6-elixir Lightning on it on sight — "the Evo can be super, super annoying if we don't take that off the board with the lightning" (t=97-100), and later he tracks not having it: "we don't have lightning for the Evo witch which is all right" (t=179-181).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Witch (scraped 2026-09-02T02:34:59+00:00)

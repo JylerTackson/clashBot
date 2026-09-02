@@ -226,6 +226,13 @@ Match [This Elite Barbs Evolution Deck is UNBEATEN](../matches/zimGbIvEs1s-m0.4.
 - clock 0:31-0:03 (t=1115, opponent elixir 10.0 -> 3.0, tile [13, 15]; again at t=1146): answered with cheap cards rather than a single counter — "Okay let's firecracker. We have to e-spirit and we have to go for the skellies plus ice golem here" (1115-1119s); at clock 2:05 he also blames it for a mediocre start: "Could have been a better start though if that mega knight didn't randomly decide to go demon mode".
 <!-- creator-insights:ryleycr1:zimGbIvEs1s-m0.4:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- Opponent card, 16 commentary mentions — the most-named card in the game. Ryley predicts it before seeing it ("definitely going to be a Mega Knight deck here", t=533), splits his Royal Hogs because of it (t=526-531), calls it wasted when it lands behind a Ram Rider ("he just wasted his Mega Knight", t=579), and baits it with a second Mighty Miner ("He has to Mega Knight that, yep. Knew it.", t=661-662).
+- t=701-705s: his rule for playing against it — "when he Mega Knights, it's good to pressure just to force him to spend some Elixir in the opposite lane"; the hogs he sends at t=693.7 take the enemy left tower 4032 -> 2281.
+- t=765-769s: a specific interaction he calls out while losing tower HP — "Whenever a Mega Knight throws something, Mortar and X-Bow lock onto the tower. That's only two shots, but you know, I was hoping to take no damage."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mega_Knight (scraped 2026-09-02T02:33:00+00:00)

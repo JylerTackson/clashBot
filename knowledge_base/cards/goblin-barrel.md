@@ -553,6 +553,18 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=685-689s: the barrel modifier is the benchmark for a broken roll — Jynxzi: 'You got the goblin b[arrel] when I lost'; Ryley: 'It's not the goblin b[arrel] one, but it's pretty broken.'
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=264-268): the opponent's Goblin Barrel drives Ryley's whole defensive routine — he Logs his own tower on read ('I always like to just try to read the barrels. It's good practice') and keeps Skeletons in hand for it.
+- clock unknown (t=350-358): the barrel is predicted off his own play, not guessed — 'mighty miner predict a goblin barrel cuz then we can pop off the ability... just knowing that if I log he'll probably barrel.'
+- clock unknown (t=495-497): the evolved barrel is the only thing he still fears while closing out — 'Block the bridge cuz Evo barrel.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Mentioned, not seen: it appears once in his recital of the opponent log-bait cycle - "his cycle can get so awkward like like log or delivery NATO like like goblin barrel firecracker inferno towers" (1531-1537s) - and no Goblin Barrel event was detected in the 289s of this game. It is part of why he refuses to spend The Log on lesser targets (1469-1475s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Goblin_Barrel (scraped 2026-09-02T02:35:28+00:00)

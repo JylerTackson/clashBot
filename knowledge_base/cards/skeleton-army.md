@@ -227,6 +227,22 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.0.md):
 - OT 0:57 and OT 0:29: both late Earthquakes are cast as Skarmy predictions rather than chip — 'so [he] can't skeleton army' (t=238) and 'earthquake here for the skeleton army. Nice. Oh my god, great prediction' (t=264-267). He also considers, then rejects, using the Mighty Miner ability for the same prediction at clock 0:08.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=118.6s and t=174.5s (clock unknown — the clock OCR failed for this whole video): against a Giant Graveyard opponent he treats Skeleton Army as the card The Log is reserved for, and counts elixir out loud to be sure the Log goes down after it, not before — "I needed to be sure that I went log right as he was able to [Skarmy] me" (t=125-129). He also plays the win condition off its absence: "I'm going to go for the piggies here immediately cuz he has no Skeleton Army in cycle" (t=51-54).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1122-1256s (clock unknown): never appeared on the field, but it is the card the whole game is played around — Ryley kept The Log in hand for it for three minutes: "I'm not going to log though because I know that he has the Skeleton Army" (t=1123), "I need to have my log for the Skeleton Army" (t=1141), "We have the Log ready for the Skeleton Army once again" (t=1219), "Let's pre-log for the Skeleton Army this time" (t=1256).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent Evolution and the card that shapes his whole offence: he holds Royal Hogs while it is in hand - "we have Evo piggies, but they do not want to play them just yet cuz I know that he has skeleton army in hand and we aren't really able to take it out. Him having Evo skarmy is kind of annoying" (1398-1407s) - then commits specifically to drag it out: "We have to force it out anyways and we have the Evo baby dragon for defense" (1458-1463s).
+- clock unknown (t~1551-1562): its chip attempt down the left is handled with Electro Spirit, Skeletons and The Log - "Evo skarmy could maybe do something, but I don't think so. We just e-spirit here take out the skeletons and then just skellies here to block his" (1551-1560s); his left tower takes its only damage of the game, 4858 -> 4468 HP at 1562-1564s.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Army (scraped 2026-09-02T02:34:59+00:00)

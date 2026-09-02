@@ -242,6 +242,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 2:02: mentioned only, never played by either side — Ryley holds Spear Goblins for it and then dismisses the idea: "We have spear goblins ready if he goes for the graveyard. I don't think he will though in this match up."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=24.0s [8, 3] (clock unknown — the clock OCR failed for this whole video) and again around t=114 ("Okay, graveyards, too"): the one thing this deck never solved in the game — his right tower went 4858 → 787 and his king tower was opened and ground to 1650 while he accepted the chip on purpose: "Just making sure that we're minimizing damage, but not also like defending poorly" (t=196-200).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Graveyard (scraped 2026-09-02T02:35:30+00:00)

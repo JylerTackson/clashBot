@@ -233,6 +233,49 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 0:39-0:33: the opponent's Baby Dragon walks Ryley's left lane from (0, 27) to (1, 14) while his own push is committed on the other side — "Please don't. Nice." It reappears in overtime at (16, 12-14) on the right.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=42.0s [9, 12] (clock unknown — the clock OCR failed for this whole video): played straight onto the push to clear the Skeleton Army and then trade with the Witch — "Let's Baby Dragon here. Make sure we take out the Skeleton Army. Hopefully, the Baby Dragon can turn around and go for that witch a little bit" (t=43-47). He is unhappy with the ramp-up: "Bro, the Baby Dragon took so long to shoot" (t=49).
+- t=118.1s [9, 0] and t=184.2s [9, 1] (clock unknown — the clock OCR failed for this whole video): played in the back purely to cycle toward the evolution — "We're one baby dragon away from Evo. I do definitely want to cycle towards that. Let's baby D in the back here" (t=182-186).
+- Deck origin, t=15-25: "I made this piggies deck a bit ago, maybe like a year ago when the Evo Baby Dragon first came out, but ever since Baby Dragon got buffed in the balance changes, I've been playing it again."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=297.3 and t=447.4, tile (8, 0)): played on his own back line to advance the evolution cycle rather than as an answer — 'We are almost at the evo baby dragon' (t=303) and 'We have the baby dragon evo coming up as well' (t=334-337).
+- clock unknown (t=436-443): the whole overtime plan is stacking two of them, chosen off the opponent's spell list — 'I just have to get a really big counter push, guys, cuz he doesn't have a big spell so I can try to stack up baby dragons if the moment presents itself.'
+- clock unknown (t=447.4-461): executes it — 'Let's baby dragon again, guys. We have double baby dragons' (t=461-462); the pair survives because the Mighty Miner screens them ('The baby dragons are still alive cuz the mighty miner walked in front', t=479-482) and the enemy left tower drops 4097 -> 1038 HP between t=464 and t=492.
+- clock unknown (t=296-301): he names it as the flex slot — 'if you like the archer queen, you can even take out the baby dragon and put in the archer queen instead.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=655.3s (clock unknown): played at [2, 9] into a three-Minion pack, elixir 9 -> 5 — "Let's Baby Dragon for the Minions" (t=654-656).
+- t=683.7 / 725.1s: twice placed in the back at [4, 1] and [9, 1] to lead a hog push and to cycle safely — "let's go for the Baby Dragon here in the back" (t=724).
+- t=773-784s: his stated reason for running it in this meta — "Let's Evo Baby Dragon in the back though cuz he does have a really hard time dealing with the Evo Baby Dragon. And all like the arrow decks, one of the reasons that Baby Dragon is so good is cuz everyone's using arrows and bar barrel and log cuz of the bait decks, which just makes Baby Dragon so strong." He notes at t=790 that he has "double Baby Dragons down."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- t=856.9s (1, 10) and t=938.9s (15, 1) (clock unknown): played on both flanks purely as defensive splash; it never crosses the bridge in this game.
+- t=937-940s (clock unknown): the Evolution is his stated reason for being willing to turtle the whole match — "I definitely do trust my defense guys on just defending the whole match, especially having like Evo baby dragon and stuff" — and he tracks the cycle to it at 1017-1019s: "We're almost at Evo baby dragon. This will help out on defense."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1178-1192s (clock unknown): Evo Baby Dragon sitting on the enemy left tower, chipping it 3907 -> 2831 in 269 HP steps while he ignores a Hog Rider in the other lane — "Baby Dragon's on the tower, and look at that damage buff, man. You can just notice the amount of damage he's doing. 269 a shot. That's insane."
+- t=1209-1213s (clock unknown): Baby Dragon (elixir 7 -> 3) plus Skeletons at [11, 14] to kill an Electro Wizard counter-attack — "Okay, let's go for the Baby Dragon here again. Dude, Baby Dragon is just so good. Let's Skellies here. Take this out. Nice. Beautiful."
+- t=1134s (clock unknown): named as the reason he can afford to concede the Hog Rider damage — "Baby Dragon's good against him. So, I'm just going to eat the damage." Back placements at [8, 1] (t=1161), [9, 6] (t=1243, "This Evo Baby Dragon's going to cook") and [12, 1] (t=1286).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t=1379.4, tile [15, 5]): the Evolution answers the Golden Knight plus skeleton wave on the right (eight skeleton tracks on the field at 1382s).
+- clock unknown (t=1465.5, tile [14, 1] / t=1491.5, tile [9, 1]): held as the defensive insurance that lets him commit Royal Hogs into a known Skeleton Army - "we have the Evo baby dragon for defense. Maybe we can grab like a nibble or two off of this" (1460-1464s).
+- clock unknown (t=1546.5, tile [15, 13]): the splash answer to the opponent Evo Skeleton Army push - "We go for the evo baby dragon here to take this out" (1546-1550s).
+- clock unknown (t~1483): its Wind Gust sped his own Mighty Miner past the Tornado - "that's none cuz the baby dragon made the mighty miner walk super fast. Beautiful" (1483-1485s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Baby_Dragon (scraped 2026-09-02T02:34:58+00:00)

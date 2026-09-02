@@ -181,6 +181,18 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=361-387s (mentioned, never played in this video): Ryley names the Ronin as a Golden Knight counter — 'if the parry blocks the dash, then the Golden Knight just stops moving and it doesn't dash the stuff behind it', so a Golden Knight dash into a Ronin is stopped dead instead of chaining into the support behind him.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=260.3-262, t=372.4-396.4): the opponent's Golden Knight is what Ryley's Mighty Miner bridge blocks are aimed at — 'at least if we're blocking the bridge and killing the golden knight then he can't really get a good barrel off' (t=377-382), and he grades a misplayed one at t=454-456: 'Wait, that was a bad golden knight. Hold up, I have a chance.'
+- clock unknown (t=283-289): names it as the budget replacement for the Mighty Miner in this deck — 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight, just a few cards like that cuz I know not all of you will have the mighty miner upgraded.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent Champion, tracked repeatedly down the right lane from [15, 23] (t=1325.3, 1333.3, 1345.3, 1379.4, 1507.5, 1529.5). Answered cheaply with The Log plus Skeletons - "We just log here" (1349s) - and his dash is survived by a single Skeletons pack: "He's going to try to ability maybe Okay, no, the skelly just clutched up. Sometimes the skellies just want to trip, man, and give him free ways to dash on the tower" (1353-1360s).
+- Ryley rates it as a card that gets the opponent nothing in this matchup - "obviously golden knight is kind of a stupid card, but other than that, like he's just basically getting no damage" (1415-1421s) - and reads a back-placed one as a symptom of a stuck cycle: "there's the golden knight cuz his cycle can get so awkward" (1528-1531s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Golden_Knight (scraped 2026-09-02T02:35:13+00:00)

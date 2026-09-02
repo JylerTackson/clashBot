@@ -289,6 +289,48 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - clock 0:19 to 0:03: he counts the requirement out loud and wins because it never lands twice — "He needs two lightnings. He's going to be able to get the second one, I believe" ... "we win. Yes, let's go. He didn't get the lightning."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=93.1s [13, 18] (clock unknown — the clock OCR failed for this whole video, elixir 9 → 3): first Lightning spent on the evolved Witch, target chosen out loud — "Let's go for the lightning here on top of the witch just to make sure to get the Evo Witch off the board cuz the Evo can be super, super annoying if we don't take that off the board with the lightning" (t=94-100). Enemy right tower 3513 → 3090 in the same window.
+- t=143.1s [3, 22] and t=169.2s [3, 21] (clock unknown — the clock OCR failed for this whole video): both cycled into the left lane as the finisher for a tower he had already chipped with the hogs — "I'm going to lightning that musketeer here because I need to get two lightning spells" (t=141-143); the enemy left tower ends at 242 HP.
+- t=218.2s [13, 22] (clock unknown — the clock OCR failed for this whole video): the closing spell on the enemy right tower (labelled to the opponent by the pipeline, but matching his own −6 elixir drop at t=221.7); tower reads 2656 → 1021 between t=218 and t=220.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=364-369): refuses to spend it on the opponent's back-line Princesses even though they chip him all game — 'these back princesses are so annoying and I don't even really want to lightning them cuz then he'll just pressure super hard.'
+- clock unknown (t=432-436): repeats the decision under pressure in overtime — 'I want to lightning that but I know it's not worth it, bro. Can I lightning that one? No, I can't. I just have to continue chilling like this.' No Lightning cast by Ryley could be confirmed in this game (three deploy labels at t=430.4, 432.4 and 489.5 are attributed to the opponent by the pipeline and contradict each other; see the match file's Data gaps).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=798.8s (clock unknown): the only Lightning of the game, held for roughly 280 seconds and then cast at [5, 22] on the enemy left side with that tower already at 2169 HP — "I'm going to lightning here. Then we just go for a cannon" (t=799-800). Enemy left drops to 1510 within six seconds and to 913 by the end.
+- The card is otherwise a pure threat: he never spends it on defence in a 297-second game, even through the Mega Knight + Mortar + Firecracker pile-up at t=745-772.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- t=848.8s onward (clock unknown): he refuses to Lightning the opponent's Elixir Collector all game because it is his only Three Musketeers answer — "I can't lightning that elixir collector now cuz then he'll just 3M in the back and I'll lose the game because the ice golem will distract the mighty miner for too long. Um I have to let that pump go" (845-856s).
+- t=951.0s (clock unknown): cast at (15, 19), the enemy-side right lane, onto a Three Musketeers push behind his own Royal Hogs; the enemy right tower reads 2734 -> 1839 -> 1485 across 950-956s. "Let's lightning here to make sure that we hit these... Look at that damage" (952-956s).
+- t=1020.0s (clock unknown): he counts targets before casting — "Let's lightning these. Yeah, I think I can just lightning it in the back and we hit two of them" (1020-1022s) — the card's rule that fewer than three targets wastes value, applied in the moment.
+- t=1045.5s (clock unknown): cast at the left river tile (4, 16), and he explains why lane shape matters — "now that he's trying to split lane, it's a lot easier. When it's in one lane, it's harder because obviously there we were able to get a massive lightning huge value" (1049-1055s). General verdict at 885-891s: "Lightning is just really good against three musketeers in general".
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1107s (clock unknown): Lightning at [6, 23] onto a Sparky the opponent had just placed in the back left, elixir 8 -> 2; the enemy left tower took 423 (4858 -> 4435) — the same 423 figure he quotes at t=1279.
+- t=1170s (clock unknown): held as the emergency answer while an enemy Sparky walked down the lane — "We have Lightning ready here to protect for anything."
+- t=1262-1281s (clock unknown): counted into the finishing sequence on a 514 HP tower — "It might put him into Lightning range... Okay, two Logs and a Lightning, I think. I'm going to double check though because they keep changing the spell damages so often", then "423, okay. Yeah, that's two logs and the lightning. Let's lightning here." Final cast at t=1304 (elixir 6 -> 0).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t~1326-1330, tile [12, 22]): cast on an Inferno Tower and the defence behind it, with the tower chip stated as the real payment - "if he infernos, we can just lightning... I know he's going to NATO this to the king anyways, but at least like that we get the nice lightning damage on the tower" (1330-1336s); enemy right tower 4858 -> 4435 HP by 1332s.
+- clock unknown (t=1500.5, tile [13, 23]): a deliberate 6-for-3 on a Firecracker, justified only by the elixir lead - "He's just going to go for the firecracker again, but we can just go for a lightning on it... I think I just want to lightning this firecracker this time cuz we're in elixir" (1494-1502s); enemy right tower 3727 -> 3304 HP by 1504s.
+- clock unknown (t=1569.6, tile [13, 22]): the closing loop of the deck - Evo Royal Hogs force the Inferno Tower (tracked at [11, 15] at 1567.6), Lightning takes both: "evo piggies here forces out the inferno tower" (1563-1565s), "Free lightning here" (1572s); enemy right tower 2881 -> 2458 HP at 1572s.
+- Against a log-bait deck with Inferno Tower he treats Lightning as a repeatable chip plan, not a one-off answer - "I can just continue lightning his inferno towers over and over again. Sometimes even like lightning his firecrackers and stuff cuz there's no reason not to" (1421-1427s). Four casts each take exactly 423 HP off the enemy right tower (4858 -> 4435, 3727 -> 3304, 3304 -> 2881, 2881 -> 2458), roughly 1700 of the 2400 damage he does all game.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Lightning (scraped 2026-09-02T02:35:18+00:00)

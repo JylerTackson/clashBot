@@ -169,6 +169,12 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.1.md):
 - overtime 1:22 and 0:57: he sends the Hog Rider expecting them and pre-Logs for them — "Let's hog rider evo firecracker and he might barbs" (490-492s), "We need to pre-log here for the barbs or the bowler" (516s).
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1172-1176s (clock unknown): Barbarians came down the right with the Hog and he read the placement as sloppy — "Okay, those are just weird Barbs. I'm going to Cannon here."
+- t=1261-1276s (clock unknown): a second Barbarians group crossed on his left (tracked to [3, 7]) and was held by Baby Dragon at [14, 9] and Skeletons at [12, 8] while he counted out his finishing spells.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Barbarians (scraped 2026-09-02T02:34:42+00:00)

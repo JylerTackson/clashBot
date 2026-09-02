@@ -206,6 +206,13 @@ Match [This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!](../matches/OKA_QNEkJIU-m0
 - clock 1:33: he states the losing line and why he thinks he survives it anyway - "All this guy really has to do is go for the three musketeers plus evo knight, but I mean, I do have an evo dark goblin and stuff like that. So, there's a chance I'll be able to defend regardless" (t=76-84).
 <!-- creator-insights:ryleycr1:OKA_QNEkJIU-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- Mentioned, not played by Ryley — it is the opponent's card and the axis of the whole game. He never gets a clean detector label on it but names it ("3M", "musky's") from 845s to 1084s.
+- t=897-916s (clock unknown): he describes the strongest Three Musketeers line against a Lightning deck — "He can go for like the ice golem in the back, the e-barbs to back, and then like a 3M at the bridge... he's just making it impossible for us to lightning the 3M cuz it's going to get soaked up by like the ice golem, the e-barbs, but they're going to live on low HP and then he's going to have three full musketeers that I have to deal with, which is super hard."
+- t=1078-1084s (clock unknown): the opponent plays it at the bridge instead, which is the mistake that loses him the tower — "I thought he was going to 3M in the middle, not at the bridge" (1082-1084s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Three_Musketeers (scraped 2026-09-02T02:34:55+00:00)

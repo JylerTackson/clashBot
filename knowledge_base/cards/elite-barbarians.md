@@ -533,6 +533,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.5
 - Opponent's card. Tracked repeatedly at his left tower from clock 1:39 onward; he kites with Spear Goblins into a low Berserker rather than spending a big answer, and at clock 0:22 calls for the Log - "let's Log the E-Barbs here."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- Opponent's card (tracked at t=882.9s, 934.9s, 963.0s; clock unknown), answered with the centre Cannon plus Mighty Miner. He treats them as the thing that can punish an over-commitment — "And we have to mighty miner. I'm worried about the e-barbs though... Is he going to e-barbs? No, he doesn't. Okay, we're chilling" (1026-1030s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elite_Barbarians (scraped 2026-09-02T02:34:47+00:00)

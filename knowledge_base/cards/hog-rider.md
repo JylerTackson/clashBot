@@ -326,6 +326,13 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1
 - clock 0:58: he plans his defence around it in advance — "We are going to lose our bomb tower, so we have to watch out for a hog rider wizard push." (Not detected by the unit tracker; identified from commentary.)
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1130-1137s (clock unknown): he chose to concede Hog Rider tower damage rather than spend his Log — "I'd rather just take the Hog Rider shot knowing that this guy can't really defend split piggies that well... I'm just going to eat the damage. I think it's a better play."
+- t=1180-1188s (clock unknown): the Hog connected four times on his right tower (4858 -> 2753 in ~507 HP steps) after walking around a centre-left Cannon — "look at the Hog. He just started like moonwalking, dude."
+- t=1241-1246s (clock unknown): a later bridge Hog was answered by 1-elixir Skeletons at [15, 12] — "Very bad Hog Rider. Just not really doing anything at all."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Hog_Rider (scraped 2026-09-02T02:35:02+00:00)

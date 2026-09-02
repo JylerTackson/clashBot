@@ -214,6 +214,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3
 - Opponent's small spell, tracked as a resource rather than fought. He plays Miner + Bats specifically after it is spent — "cuz he did use his poison. I mean, not his poison, sorry, his snowball" (t=580-583) — and counts the bait as a win: "we forced out snowball, which is nice" (t=597). At t=655 he expects the Evolution: "He's going to have to evo uh snowball."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=244-247, mentioned before it appears): he identifies the opponent's Evolution Giant Snowball as the single card that ruins his Evolution Royal Hogs — 'Evo snowball will probably be the most annoying thing about this cuz whenever I get to the evo piggies, he's going to have the evo snowball for defense.' At t=458-460 it is used on his push: 'Um, I know why he snowballed.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant_Snowball (scraped 2026-09-02T02:35:32+00:00)

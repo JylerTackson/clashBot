@@ -181,6 +181,12 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0
 - opponent card, four commitments (clock 2:30 at [8, 22], 1:12 at [11, 20], 0:28 at [4, 21] and 0:24 at [2, 15]), repeatedly split across both lanes. Ryley never names them; he answers with The Log at [3, 14] plus Bats and a Berserker at clock 1:07-1:02 and the pushes never take a Crown Tower below 4386 HP.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=312.3-350.4): the opponent's Rascals are the card that finally pulls The Log out of him, and only once the punish is pre-loaded — 'let's go for the log here on the rascals and mighty miner predict a goblin barrel... So we're able to clean up the rascals nicely. Those are very good sequence' (t=349-359).
+- clock unknown (t=409-413): he predicts the Rascals as the answer to his own Baby Dragon and pre-places Skeletons — 'He's definitely going to go for the rascals here on the baby dragon. We can skellies here.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Rascals (scraped 2026-09-02T02:34:51+00:00)

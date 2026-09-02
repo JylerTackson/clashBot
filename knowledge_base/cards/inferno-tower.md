@@ -184,6 +184,12 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.1
 - clock 1:42: opponent places an Inferno Tower at (7, 18), just over the river on the centre-right, and it sits unanswered for roughly 30 seconds — Ryley never spends a spell on it and simply cycles his attack into the other lane.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.1:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent building, tracked at [8, 18] (t=1331.3), [11, 17] (t=1419.4), [10, 17] (t=1489.5) and [11, 15] (t=1567.6). Against a Royal Hogs / Lightning deck it is a repeatable Lightning target rather than a problem - "if he infernos, we can just lightning" (1330-1332s), "I can just continue lightning his inferno towers over and over again" (1421-1424s).
+- clock unknown (t=1567.6): forced out by Evo Royal Hogs and immediately Lightninged with the tower behind it - "evo piggies here forces out the inferno tower. Just get elixir out of him" (1563-1566s); enemy right tower 2881 -> 2458 HP at 1572s.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Inferno_Tower (scraped 2026-09-02T02:35:33+00:00)

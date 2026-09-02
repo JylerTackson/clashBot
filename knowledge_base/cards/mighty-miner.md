@@ -230,6 +230,54 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=578-586s: tracked as an ally unit walking up the field from (17, 3) to (13, 8) while an opponent Royal Delivery landed at (14, 7) — the only Mighty Miner activity visible in the video, and he never comments on the card.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=38-40s (clock unknown — the clock OCR failed for this whole video): a Mighty Miner sent before the readable window walked the right lane, crossed to the left and cut the enemy left tower 4858 → 2963 in two seconds — "Look at that Mighty Miner getting a lot of damage right there. Very nice damage."
+- t=63.1s / 143.8s [14, 11] and t=161.2s [4, 13] (clock unknown — the clock OCR failed for this whole video): placed on the opponent's ranged support rather than on the tank — "go for the mighty miner on top of the witch I think. I can't put it on the bowler" (t=158-161).
+- t=82.1s [9, 1] (clock unknown — the clock OCR failed for this whole video, elixir 9 → 5): dropped in the back purely to cycle while he had nothing to defend, during the deck-talk stretch.
+- t=191.2-223s (clock unknown — the clock OCR failed for this whole video): the closing threat, paired with Electro Spirit ("we can go for the E spirit plus mighty miner", t=188-190) and with the Champion ability used twice — "pop the ability guys" (t=206) and "Okay, log and then we ability" (t=211). He finishes on the enemy right tower at t=216-223: "Nice, it's on the tower. Mighty miner. Mighty miner. Come on. One more... Oh my god. There's no way. It took the whole tower."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=263.3, 338.3, 375.4, 416.4, 434.4, 453.5, 476.5): his default use is as a bridge blocker on his own half at tiles (2, 14) / (2, 15) / (15, 15) / (15, 5) against a Golden Knight bait deck — 'we can go for a mighty miner to block the bridge here... at least if we're blocking the bridge and killing the golden knight then he can't really get a good barrel off' (t=373-381).
+- clock unknown (t=350.4, tile (3, 5)): places him on his own left tower as a Goblin Barrel prediction one second after logging the Rascals, so the ability bomb catches the barrel — 'mighty miner predict a goblin barrel cuz then we can pop off the ability... Perfect prediction right there just knowing that if I log he'll probably barrel' (t=350-358).
+- clock unknown (t=400-405): uses the 1-elixir Explosive Escape purely as an elixir trade to keep a 3-elixir Cannon alive — 'We need to go for the cannon plus ability cuz I want to keep the cannon alive at least force him to spend more elixir. He forced out the ability there'; earlier uses are a Princess snipe (t=270-273, 'Can we mighty miner ability that princess? Yes, we will be able to') and a distraction (t=382-384).
+- clock unknown (t=464.5-494.5): in overtime he re-deploys him every few seconds as the screen for a double Baby Dragon push — 'We just need to keep on spamming mighty miner' (t=475-477) and 'The baby dragons are still alive cuz the mighty miner walked in front' (t=479-482). He also calls it his favourite Champion and names the replacements for players without it: 'you can always replace it with say the golden knight. I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight' (t=276-289).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=567.2s (clock unknown): the primary answer to a bridge Ram Rider, played at [15, 7] in the threatened lane behind an Electro Spirit, elixir 6 -> 2 — "let's E-spirit and then we can go for the mighty miner here to make sure that we take it" (t=563-566).
+- t=656-662s: Explosive Escape used pre-emptively, not reactively, and a second Mighty Miner committed straight after to bait the Mega Knight — "Ability cuz he might Mega Knight. Okay, good ability regardless. Let's get a second Mighty Miner down. He has to Mega Knight that, yep. Knew it."
+- t=677-691s: after the Mighty Miner grinds down a Royal Ghost, he gives the card thesis of the video — "And that Mighty's going to take out the whole Ghost, dude. That's why I love the Mighty Miner, man. If you use him properly, he can really get so much value, dude. Definitely one of the most valuable cards in the game, in my opinion. Like, it's almost always getting more Elixir out and taking out more than you're spending on him."
+- t=544.5 / 609.6 / 637.6 / 689.2 / 710.7 / 730.7 / 743.7 / 757.8 / 788.8s: ten deploy labels in one game, nearly all defensive placements in the central band (rows 8-12) or on his own King Tower tile [9, 0], then allowed to walk out as the counter-push. He plays him on cooldown rather than saving him for tanks.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- t=843.8s (clock unknown): opening placement at (8, 1), deep behind his own King Tower — "let's go for the mighty miner in the back" (843-845s).
+- t=1013.0s (10, 8) and t=1028.0s (13, 14) (clock unknown): his dedicated answer to the opponent's Evolution Royal Ghost — "we can go for the mighty miner on the evo ghost" (920-922s), "Mighty miner on the ghost" (1012s).
+- t=956.0-964.0s (clock unknown): Explosive Escape used to finish a defence — "we definitely want a mighty miner ability. We're going to hit everything" (957-959s) — and again at 996s to clear a swarm, "We have to pop the bomb".
+- t=963-970s (clock unknown): he states the ability's limitation and the combo that fixes it — "that one musketeer in the back will stay alive on one HP cuz the mighty miner of course didn't like actually damage it, but it's going to know that mighty miner log plus e-spirit leaves musky's on basically one HP".
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1099s (clock unknown): opened the match with Mighty Miner at the bridge, tile [15, 15], elixir 10 -> 6.
+- t=1178s (clock unknown): defensive drop at [15, 7] into a Hog Rider plus Barbarians push on his right lane.
+- t=1236s (clock unknown): back placement at [9, 1], elixir 9 -> 5, to lead the next hog push — "That's Mighty in the back. We have our Skellies ready if he tries to go for the Hog at the bridge into this."
+- t=1248s (clock unknown): used the Champion ability defensively to dodge a Sparky shot with the Sparky tracked one tile behind him — "I'm going to Mighty ability away from this. Oh my god, he missed. Nice."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t=1398.4, tile [15, 15]): sent at the bridge as the threat that is NOT the win condition, while the Royal Hogs are held back - "Let's go for the mighty miner here. We have Evo piggies, but they do not want to play them just yet cuz I know that he has skeleton army in hand" (1396-1404s).
+- clock unknown (t=1474.5, tile [15, 15]): played with the Tornado answer predicted and accepted - "Let's go for the mighty here at the bridge... He's going to NATO this for sure to grab some damage, but it's fine. Yep, there's the NATO" (1475-1481s); his right tower 4552 -> 4348 -> 4308 HP at 1480-1482s, and the Evo Baby Dragon wind gust changed the outcome: "that's none cuz the baby dragon made the mighty miner walk super fast" (1483-1485s).
+- clock unknown (t=1450.4 and t=1575.6): the Explosive Escape ability graded both ways in one game - "Let's mighty miner the bridge here. Bad ability. Didn't do anything" (1452-1455s) versus "then we pop the ability. We want to pop the ability here just to free up all of the skellies. Perfect" (1577-1582s).
+- Balance note he spends 30s on (1364-1396s, no play): "they silently buffed the mighty miner, by the way. The mighty miner two-shots skeletons on ladder, but then on friendly battles, it three-shots the skeleton... it actually is like a stronger card for some reason. And it has to be a bug."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Mighty_Miner (scraped 2026-09-02T02:35:14+00:00)

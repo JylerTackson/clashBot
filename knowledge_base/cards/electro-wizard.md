@@ -173,6 +173,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - clock 0:55: appears at (16, 21) as the opponent's answer to the right-lane Berserker/Wall Breakers pressure; Ryley does not comment on it and simply switches lanes with the Miner at 0:48-0:28.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1208-1213s (clock unknown): the Electro Wizard was the only opponent counter-attack that reached his side cleanly (flagged tower in ~3 s) and was killed by Baby Dragon plus Skeletons at [11, 14] — "Take this out. Nice. Come on. Nice. Beautiful."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Wizard (scraped 2026-09-02T02:35:08+00:00)

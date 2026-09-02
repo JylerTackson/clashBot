@@ -176,6 +176,11 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
 - clock 2:32: named only, as the read that resolves his guessing - "Oh, he does have giant" (578s), after cycling through Lava Hound and Golem, and confirmed at 1:45: "I assume then he just has the regular giant Sparky deck." No Giant deploy label or unit track appears in the readable window.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=106-165s (clock unknown — the clock OCR failed for this whole video): Ryley predicts the Giant three times before it lands ("He might end up just going Giant Graveyard at the bridge", t=106; "Does he giant? Okay, yep", t=111; "He's going to giant. Yep", t=161) and never spells it — the Cannon pulls it and Mighty Miner plus Skeletons kill it, while Lightning is saved for the support. He rates the matchup class outright: this deck "absolutely destroys like Giant, Golem, you know, Giant Skeleton" (t=87-90).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Giant (scraped 2026-09-02T02:34:51+00:00)

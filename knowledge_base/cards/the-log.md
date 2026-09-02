@@ -577,6 +577,49 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=294s and t=326s: played twice onto Ryley's half by the opponent ([3, 0] and [4, 8]). Ryley on the C.H.A.O.S. version at t=346-355s: 'Oh, you have the boomerang log, bro. That log's kind of like — I want to see what it does'; then 'It just like killed the whole tombstone.'
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=118.6s [3, 15] and t=174.5s [11, 3] (clock unknown — the clock OCR failed for this whole video): held specifically for the opponent's Skeleton Army, with the elixir counted out loud first — "he predicted my prediction by going for the snowball, but I was just counting the elixir out loud there cuz I needed to be sure that I went log right as he was able to [Skarmy] me" (t=122-129) and "I have to log here on the [Skarmy] again as well. Dude, this is scary" (t=174-178).
+- t=32.0s [14, 4], t=132.1s [3, 8], t=211.2s [13, 13] (clock unknown — the clock OCR failed for this whole video): the rest of his Log usage is defensive sequencing inside a stack — "Let's go for the log here, and then we can go for the Electro Spirit just to help out on defense" (t=34-35) and "then we have to go for the log here on the skeleton army" (t=132-133).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=234.2, 264.3, 420.4, 497.5, 510.5 at tile (3, 5) or (14, 5)): most of his Logs land on his own tower as a Goblin Barrel prediction, not at the bridge — 'that is one tile in the back so let's go for the log here. I always like to just try to read the barrels. It's good practice. There's no reason not to in my opinion' (t=264-268).
+- clock unknown (t=307-317): states the discipline of not spending it on bait — 'I can't really log the rascals or the princess because he'll just go golden knight goblin barrel and chain up to my skeletons.'
+- clock unknown (t=350.4, on the Rascals): he only spends it when the follow-up is already covered — 'let's go for the log here on the rascals and mighty miner predict a goblin barrel cuz then we can pop off the ability' (t=349-352).
+- clock unknown (t=497.5-510.5): closing an overtime lead, it is the defensive-only card — 'We don't even need to log. We just log on defense' (t=507-510).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=627.6s (clock unknown): played at [8, 11] and allowed to roll up the middle into a Mortar placed at the bridge tile [8, 16] — "Okay, that's going to take out the Mortar" (t=631). He repeats the answer at t=736.7 with a Log at [3, 15] into the Evo Mortar sitting at (2, 17): "let's go for the log here then we can go for a set of skellies" (t=737-739).
+- t=569.6s: defensive roll at [14, 9] under a Ram Rider that had already reached his tower — "Okay, let's log here" (t=571).
+- t=758.8s: during the game's worst defensive stretch he calls it "the Mighty Mighty Mighty log here" (t=758); at t=804-806, under an incoming enemy Lightning, it is his panic answer — "Log log log. Okay, I think we're good."
+- Eight Log plays in the game, all on his own half and all defensive or Mortar-clearing; he never used it to open or to finish a tower.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- t=930.9s (12, 10), 949.9s (12, 9), 964.0s (13, 11), 1052.1s (15, 14), 1063.1s (13, 9), 1086.1s (3, 13) (clock unknown): every cast is defensive and on his own half, never a bridge or tower roll.
+- t=964.0s (clock unknown): he prices it as part of a combo rather than a standalone answer — "we can go for the e-spirit plus log" (961s) and "baby dragon e-spirit and then log here and then skellies just to distract some of the musky's" (985-990s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1122-1143s (clock unknown): he refuses to pre-log all game because the opponent runs Skeleton Army — "I'm not going to log though because I know that he has the Skeleton Army. So, I don't really want to give him that um opportunity to abuse the Skeleton Army" and "since I want to go for piggies often, I need to have my log for the Skeleton Army."
+- t=1155s and t=1196s (clock unknown): reactive Logs at the bridge behind the split hogs, tiles [3, 15] and [4, 15] — "I don't really need to log right away. I'm going to wait to see if we get more value" (t=1147) and "I didn't want to just have him go for the Fireball, though. So, that's why I didn't log right away" (t=1197).
+- t=1218-1221s (clock unknown): Log at [3, 15] then [3, 14] after the third Royal Hogs — "I'm just never going for the random pre-logs in this matchup because I know that the only way that I could actually lose this, in my opinion, is if I go for some prediction and then miss it."
+- t=1256s (clock unknown): the one pre-log of the game, at [3, 15] straight after the fourth Royal Hogs — "Let's pre-log for the Skeleton Army this time. There we go. The prediction for the game."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t=1348.3, tile [14, 5]): logged the Golden Knight on his own half, valued for the answer it forces rather than the kill - "We just log here and also it just forces out an overspend from him most of the time" (1349-1352s).
+- clock unknown (t=1502.5 and t=1519.5): part of the cheap defensive rotation against skeleton waves while he stays ahead on cycle - "Let's log here. We don't get out cycled by him either" (1502-1505s) and "as long as I keep defending while it's logged and we go for the skeletons and that's another perfect defense" (1519-1524s).
+- Twice held on purpose against a barrel deck: "I don't want to log. I need to save the log here. Even though it's really tempting to log the general, there's no need to be doing this" (1469-1475s) and "Not going to log just had it ready in case" (1544-1546s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/The_Log (scraped 2026-09-02T02:35:30+00:00)

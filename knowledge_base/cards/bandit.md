@@ -213,6 +213,11 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=631s: one own deploy label at tile [4, 9], on his half near the left-side river — a punish / counterpush spot, played while an opponent Berserker was on the board. Jynxzi's laughing 'Look at the bandits' (plural, t=512-518s) refers to a C.H.A.O.S. modifier that multiplied them, not to the base card.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- Opponent's card. Early on it costs him tower HP through lag — "Oh my god, I lagged a bit on my cannon. That bandit's going to dash on my tower" (835-838s) — and later he chooses to concede the chip rather than spend: "Let's let the bandit go. Let's let the musky go. And we're in a fine spot right now" (971-974s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Bandit (scraped 2026-09-02T02:35:11+00:00)

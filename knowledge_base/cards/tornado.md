@@ -250,6 +250,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.7.m
 - clock 1:29 (t=1444-1448): the reason he places the barrel off-centre — "we can go for the evo barrel off to the side. Make it a little bit harder to activate. He might bowler on the left side which would be good to not let him activate." He also lists it in the opponent's hand at t=1429-1437.
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.7:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent spell (mangled to "NATO" in the auto-transcript). Used for king-tower activation early, which Ryley gives up deliberately - "good king tower activation by him, but not much that we could have done about that. I kind of just want to give him the king tower activation instantly in the game anyways so we don't have to like worry about trying to prevent it" (1338-1348s).
+- clock unknown (t~1480): predicted onto his bridge Mighty Miner and accepted in advance - "He's going to NATO this for sure to grab some damage, but it's fine. Yep, there's the NATO" (1477-1482s). He also plays around the Firecracker plus Tornado pairing when choosing which threat to send (1507-1512s) and blocks its value with Skeletons at the bridge (1447-1450s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Tornado (scraped 2026-09-02T02:35:29+00:00)

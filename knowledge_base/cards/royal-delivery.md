@@ -362,6 +362,11 @@ Match [Jynxzi Challenged Me in C.H.A.O.S Mode](../matches/CdlYCOppdXQ-m0.md):
 - t=675s: dropped onto Ryley's half at (14, 7) while his Mighty Miner was walking up the field at (13, 8) — the opponent using it as a reset on his ground push.
 <!-- creator-insights:ryleycr1:CdlYCOppdXQ-m0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent defensive card. It is the answer that meets his Royal Hogs push at ~1434s - "Yeah, firecracker and delivery. Come on, two. Nice. Little two nibbles right there" (1434-1440s), two hogs still connecting for 4435 -> 4199 HP - and he rates it out loud at 1487-1491s: "He's going to delivery again. That delivery is such a save uh such a savior on defense, man. Such a savior."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Royal_Delivery (scraped 2026-09-02T02:35:27+00:00)

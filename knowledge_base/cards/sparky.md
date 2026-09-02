@@ -149,6 +149,13 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.2.md):
 - clock 0:25: with the game already won on tower HP, the whole plan becomes surviving the last Sparky - "all we have to do is save our tower for another 20 seconds from a Sparky push."
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1101-1107s (clock unknown): the opponent placed Sparky in the back left ([5, 25] -> [4, 22]) and Ryley answered with Lightning at [6, 23], clipping the tower for 423; the Sparky track survived and walked the lane for another ~70 s.
+- t=1248s (clock unknown): with the Sparky lined up on his Mighty Miner he used the Miner's ability to dodge — "I'm going to Mighty ability away from this. Oh my god, he missed."
+- t=1164-1167s (clock unknown): on the opponent's list — "they used to run like Sparky, Hog, and Balloon, but now he only has Hog and Sparky. Kind of crazy."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Sparky (scraped 2026-09-02T02:35:08+00:00)

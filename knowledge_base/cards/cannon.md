@@ -435,6 +435,47 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.3
 - Opponent's defensive building. Ryley treats it as the thing his Wall Breakers exist to drain: "It's wall breakers right now. Force him to cannon. Nice" (t=673-676); the Cannon lands at (9, 18) at t=684.7 (clock 0:10) and again at (9, 20) in overtime.
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.3:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=23.4s / 28.9s [8, 9], t=128.1s [10, 11], t=193.2s [12, 14] (clock unknown — the clock OCR failed for this whole video): the anchor building, always in the central column band, used to pull the Giant and to kill the support walking behind it — "Let's cannon here as well. Make sure you take the musky out" (t=129-132), "Let's go for the cannon. Bring the giant back up" (t=163-165).
+- Deck note: in this game the pipeline's HUD read listed Royal Delivery in his eighth slot; the five −3-elixir "royal-delivery" plays (t=42.9, 128.6, 161.7, 185.0, 192.0) each coincide with a Cannon (or Baby Dragon) deploy label and a matching call, so they are read as Cannon cycles, not a separate card.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=246.2, 286.8, 315.0, 344.3, 363.4, 400.4, 417.4, 438.4, 455.5, 493.5): placed almost every time in column 8-9 on his own half so it pulls both lanes, and cycled on a timer rather than saved — 'Okay, let's cycle our cannon here in the middle' (t=362-364). First use is reactive: 'Let's go for our cannon here then we can go for the skeletons as well' (t=247-250).
+- clock unknown (t=275.3, tile (2, 12)): the one off-centre placement, in his left pocket against a Golden Knight that had crossed on that side.
+- clock unknown (t=400-405): he spends a Champion ability to protect it, valuing the building as an elixir sink — 'I want to keep the cannon alive at least force him to spend more elixir.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=548.5 / 618.6 / 643.6 / 664.7 / 682.7 / 703.7 / 714.7 / 740.7s (clock unknown): ten placements in the game, the great majority in the middle at [8-9, 9-12] so it pulls into either lane. He states the placement intent at t=739-741: "We need a cannon in the middle again and then we can get another Baby Dragon on the Mortar if need be."
+- t=548.5s: first Cannon played while still reading the opponent's deck — "Okay, why does he have a mortar? Guess I'll just cannon here" (t=549-551).
+- t=761.8 / 803.8s: the two off-centre placements ([4, 13] and [1, 10]) come only when the Mega Knight / Ram Rider pushes are locked into the left lane, paired with Skeletons for DPS — "Cannon low skellies" (t=754), "Let's cannon" (t=804).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- t=906.9s / 956.0s / 981.0s / 1016.0s / 1033.0s / 1061.1s (clock unknown): he returns to the same centre tile (9, 8)-(9, 10) nine times this game and names it "cannon in the middle" (1062s, 1073s) — it is his default answer to Elite Barbarians, Bandit and the Royal Ghost.
+- t=1033.0s (clock unknown): played as a pure cycle card to get back to Lightning — "Okay, bad zap. That doesn't do anything at all. Let's just cycle our cannon here" (1032-1035s).
+- t=994.7s (8, 13) and t=1072.1s (16, 8) (clock unknown): the two off-centre placements, both to pull a threat away from the tower — "we can go for the cannon off to the side again" (1072s).
+- t=994.7s (clock unknown): used as the anchor of a stacked defence while conceding chip — "Let's go for the cannon here. We're taking some damage, but then once again like it really doesn't matter if it's in the opposite lanes" (996-1001s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1098s, t=1118s, t=1172s, t=1251s, t=1284s (clock unknown): reactive Cannons, all in the [7-9, 8-11] pocket in front of his towers — announced as the Hog answer at t=1173: "I'm going to Cannon here, and then we can go for the E-Spirit to push the Hog in unless the Barbs."
+- t=1180s (clock unknown): the Cannon sat centre-left while the Hog Rider came down the far right and connected for ~2100 over four hits (right tower 4858 -> 2753) — "look at the Hog. He just started like moonwalking, dude."
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t=1311.3, tile [10, 8], elixir 9.0 -> 6.0) as the opening defensive building against a log-bait list with Skeleton Barrel and Golden Knight; replayed roughly every 30s at [9, 10], [10, 12], [11, 11], [10, 11], [8, 10], [11, 13] (t=1362.4, 1440.4, 1468.5, 1510.5, 1535.0, 1564.6).
+- clock unknown (t=1440.4, tile [10, 12]): the default placement, named as such - "That's regular position. Let's cannon here" (1440-1442s), followed by Skeletons and Electro Spirit on the same defence.
+- clock unknown (t=1468.5, tile [11, 11] / t=1510.5, tile [10, 11]): always the second card of a stack rather than a standalone answer - "Let's baby dragon cannon here. I don't want to log" (1467-1471s) and "Cannon here. Perfect" (1512s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Cannon (scraped 2026-09-02T02:35:30+00:00)

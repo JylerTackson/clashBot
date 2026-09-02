@@ -135,6 +135,12 @@ Match [I Got a 96% WIN Rate with this BROKEN Deck](../matches/tizujccrTvE-m0.2.m
 - clock 1:12 (t=429-430): banks elixir at 8 and holds specifically to punish a second one — "I'm going to wait for him to go for a potential Elixir Collector."
 <!-- creator-insights:ryleycr1:tizujccrTvE-m0.2:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- Opponent's card, not played by Ryley. Three separate pumps are tracked (t=848.8s at (16, 27), 888.9s at (1, 27), 926.9s at (12, 27); clock unknown) and a fourth around 979.0s.
+- t=845-856s (clock unknown): he deliberately lets every pump live because the counter-spell is committed elsewhere — "I can't lightning that elixir collector now cuz then he'll just 3M in the back and I'll lose the game... I have to let that pump go and I think that means this match he will have a stack of pumps on me and there's nothing that I can really do about that." By 977s he is "down three elixir collectors" and at 1042s "down six elixir right now after that pump", and he still wins.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Elixir_Collector (scraped 2026-09-02T02:35:34+00:00)

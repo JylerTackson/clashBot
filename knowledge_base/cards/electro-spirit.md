@@ -555,6 +555,48 @@ Match [NERF the Hog Rider NOW!!!](../matches/XM5NEb9SeBY-m0.5.md):
 - the most-played card of the game (nine or more deploys at tiles [7, 14], [8, 0], [4, 12], [3, 8], [8, 14], [5, 11], [5, 15], [6, 14], [5, 12], [2, 14]) — the default 1-Elixir answer in this cycle deck.
 <!-- creator-insights:ryleycr1:XM5NEb9SeBY-m0.5:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.0.md):
+- t=35.4s [14, 5] (clock unknown — the clock OCR failed for this whole video): added on top of a Log to finish a defensive stack — "we can go for the Electro Spirit just to help out on defense" (t=35-38).
+- t=109.1s [9, 1] (clock unknown — the clock OCR failed for this whole video): played in the back as the cycle half of a bridge punish — "I'm just going to go for the piggies at the bridge. If he does look cycle the E-Spirit in the back" (t=107-109).
+- t=127.1s [12, 11] and t=197.2s [6, 2] (clock unknown — the clock OCR failed for this whole video): reset/chip inside larger defensive packages, the last one bundled with the Champion — "we can go for the E spirit plus mighty miner" (t=188-190).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.0:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=227.2, 309.1, 320.3, 355.4, 385.4, 443.4, 451.5, 496.5, 506.5): spent freely as a one-elixir cycle-and-reset card, always on his own half and never held — 'I'm going to cycle the e-spirit here and then we can just go for the mighty miner' (t=259-262).
+- clock unknown (t=385.4): the standing defensive pair with Skeletons — 'A spirit skeletons. Come on. Nice, beautiful spirit skeletons' (t=386-388).
+- clock unknown (t=451.5-506.5): it is the filler card in both the winning push and the closing defence — 'Okay, E-spirit then skellies here as well. Make sure we block this' (t=462-466) and 'Block the bridge cuz Evo barrel. E-spirit. Log' (t=495-497).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.2.md):
+- t=606.6s (clock unknown): the standard anti-Minions reset, at [9, 11] four tiles in front of the tower, always as the first card of a two-card sequence — "Let's E-Spirit here for the Minions and then we can go for the Mighty Miner as well" (t=607-610). Same pattern at t=561.7 before the Mighty Miner answer to the Ram Rider (t=563-566).
+- t=653.7s: played at [9, 0] on his own King Tower tile during the King-activation window — "Nice E-Spirit connection. Thankfully, it didn't activate" (t=649-650), i.e. he wanted the connection without chaining into his own King Tower.
+- t=699.7 / 706.7s: doubled up at [9, 10] and [9, 11] to stall a Firecracker + Royal Ghost while his hogs worked the opposite tower.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.2:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.3.md):
+- t=924.9s window (clock unknown): the reset tool for the opponent's Royal Ghost — "I'm just going to Evo piggies here actually and just e-spirit the ghost" (926-928s).
+- t=962.0s (11, 10) and t=964.0s (13, 11) (clock unknown): Electro Spirit plus The Log behind a Mighty Miner as the standard Musketeer-finishing package — "we can go for the e-spirit plus log... mighty miner log plus e-spirit leaves musky's on basically one HP" (961-970s).
+- t=1068.1s (clock unknown): played at (9, 12) into a grouped push, with his verdict on the card — "We can go for the e-spirits here. Dude, these e-spirit chains are so nice" (1066-1070s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.3:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.4.md):
+- t=1174s (clock unknown): planned as the stun that walks a Hog through a defence — "I'm going to Cannon here, and then we can go for the E-Spirit to push the Hog in unless the Barbs."
+- t=1257s and t=1283s (clock unknown): cast at the far bridge [15, 15] and at [2, 14] — "We can go for the e-spirit and cannon" (t=1283); a final Electro Spirit label lands at [12, 5] at t=1305.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.4:end -->
+
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- clock unknown (t=1305.3, tile [12, 5]): the one-elixir opener onto a Skeleton Barrel - "Let's just go for the e-spirit skellies on the skeleton barrel" (1305-1310s).
+- clock unknown (t=1360.4, tile [14, 15]): played at the bridge as tempo alongside a Cannon - "Let's e-spirit at the bridge here. Okay, we can cannon as well" (1361-1363s).
+- clock unknown (t=1446.8, tile [10, 8]): added to a Cannon plus Skeletons defence aiming at the Firecracker - "Okay, let us e-spirit as well. Make sure we take this out. Hopefully kill the firecracker" (1442-1446s).
+- clock unknown (t=1553.6, tile [6, 11]): the cheap answer to the Evo Skeleton Army skeletons - "We just e-spirit here take out the skeletons" (1553-1556s).
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Electro_Spirit (scraped 2026-09-02T02:34:43+00:00)

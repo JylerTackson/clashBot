@@ -247,6 +247,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.0
 - opponent card, tracked crossing lanes at clock 1:48 and named at 0:35, where it dies to leftover Spear Goblins: "At least the spear goblins help take out the skelly barrel. I am happy about that."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.0:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.5.md):
+- Opponent card, targeted with the first play of the game - "go for the e-spirit skellies on the skeleton barrel" (1306-1310s) - and named as the marker of this particular log-bait variant: "He has like skeleton barrel and stuff like that" (1314-1317s). Tracked as a tower threat at 1366s (3.3s to tower), 1444s and 1514s, each time answered by Cannon plus a spirit rather than by The Log, which he keeps in hand for it.
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.5:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Skeleton_Barrel (scraped 2026-09-02T02:34:47+00:00)

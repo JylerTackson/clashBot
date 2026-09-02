@@ -300,6 +300,11 @@ Match [This Hero Berserker Deck has a 100% WIN Rate](../matches/6qYQNJ1Uaeg-m0.6
 - overtime 1:57-1:49: two Knights come back at (14-17, 12-20) and are part of why he concedes the game plan — "I don't know how I'm supposed to beat him now when he has so many defenses."
 <!-- creator-insights:ryleycr1:6qYQNJ1Uaeg-m0.6:end -->
 
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:start -->
+Match [I Am #1 in the World with this GAME BREAKING Deck 🌎🏆](../matches/klMJBAH2Zx8-m0.1.md):
+- clock unknown (t=283-289, mentioned only, never played): listed as an acceptable stand-in for the Mighty Miner for players without the Champion — 'I wouldn't say the skeleton king but like the knight, the valkyrie, the golden knight, just a few cards like that cuz I know not all of you will have the mighty miner upgraded cuz champion cards are really really hard to upgrade.'
+<!-- creator-insights:ryleycr1:klMJBAH2Zx8-m0.1:end -->
+
 ## Source
 
 - https://clashroyale.fandom.com/wiki/Knight (scraped 2026-09-02T02:33:01+00:00)
