@@ -172,6 +172,7 @@ def render_context_md(ctx: dict, card_names: dict[str, str]) -> str:
             + (f" (deck_key `{ctx['own_deck_video']['deck_key']}`)" if ctx['own_deck_video'].get('deck_key') else " (incomplete)")
             + ("; use this when the per-game read above is incomplete unless the commentary says he switched decks" )]
            if ctx.get("own_deck_video") else []),
+         *([f"- Hero variants possible: {ctx['hero_note']}"] if ctx.get("hero_note") else []),
          f"- Opponent cards seen: {', '.join(n(c) for c in (ctx['opponent']['deck_known'] or []))}"
          + (" (complete)" if ctx['opponent'].get('deck_complete') else ""),
          f"- Quality: events {ctx['quality']['events_total']} ({ctx['quality']['events_unidentified']} unidentified), "
@@ -230,11 +231,79 @@ def video_deck_consensus(ctx_paths: list[Path], card_names: dict[str, str]) -> d
             score[card] += 2 if card in c.get("own_deck_observed", []) else 0
         for card in cnt.get("hand", {}):
             score[card] += 1
-    deck = [c for c, _ in score.most_common(8)]
+    # transcript evidence: how often Ryley names each candidate card across
+    # the video. A hand-read card he never mentions is suspect when a card he
+    # keeps naming has some visual evidence but was scored below the cut.
+    text = " ".join(cue.get("text", "") for _, c in ctxs for cue in c.get("transcript", [])).lower()
+    mentions = {c: transcript_mentions(text, c, card_names.get(c, c)) for c in score}
+    ranked = [c for c, _ in score.most_common()]
+    deck, notes = ranked[:8], []
+    for cand in ranked[8:]:
+        if mentions.get(cand, 0) < 20:
+            continue
+        silent = [c for c in deck if mentions.get(c, 0) == 0]
+        if not silent:
+            break
+        drop = min(silent, key=lambda c: score[c])
+        notes.append(f"swapped {drop} (score {score[drop]}, never mentioned) for {cand} (score {score[cand]}, {mentions[cand]} mentions)")
+        deck[deck.index(drop)] = cand
     consensus = {"games": len(ctxs), "deck": deck, "deck_key": "-".join(sorted(deck)) if len(deck) == 8 else None,
-                 "scores": dict(score.most_common())}
+                 "scores": dict(score.most_common()), "transcript_mentions": {c: m for c, m in mentions.items() if m},
+                 "notes": notes}
+    heroes = _hero_abilities()
+    hero_note = "; ".join(f"{card_names.get(c, c)} as a Hero has the ability '{heroes[c]['name']}' costing {heroes[c]['cost']} elixir "
+                          f"(an own elixir drop of {heroes[c]['cost']} with no hand change is usually this ability, not a play)"
+                          for c in deck if c in heroes)
     for p, c in ctxs:
         c["own_deck_video"] = consensus
+        if hero_note:
+            c["hero_note"] = hero_note
         p.write_text(json.dumps(c, indent=1))
         (p.parent / "context.md").write_text(render_context_md(c, card_names))
     return consensus
+
+
+_ALIASES = {
+    "elite-barbarians": ["e-barbs", "e barbs", "ebarbs", "elite barbs"], "valkyrie": ["valk"], "battle-ram": ["ram"],
+    "hog-rider": ["hog"], "mega-knight": ["mk", "mega night"], "the-log": ["log"], "electro-wizard": ["e-wiz", "ewiz"],
+    "electro-giant": ["e-giant", "egiant"], "electro-dragon": ["e-drag", "edrag"], "electro-spirit": ["e-spirit"],
+    "p-e-k-k-a": ["pekka", "pecka"], "mini-p-e-k-k-a": ["mini pekka"], "goblin-barrel": ["barrel"], "royal-giant": ["rg"],
+    "lava-hound": ["lava", "hound"], "x-bow": ["xbow", "x bow", "crossbow"], "inferno-tower": ["inferno"],
+    "inferno-dragon": ["inferno drag"], "baby-dragon": ["baby drag"], "skeleton-army": ["skarmy", "skeleton army"],
+    "mega-minion": ["mega minion"], "giant-skeleton": ["giant skelly"], "royal-hogs": ["hogs"], "goblin-giant": ["gob giant"],
+    "fire-spirit": ["fire spirit"], "ice-spirit": ["ice spirit"], "dart-goblin": ["dart gob"], "spear-goblins": ["spear gobs"],
+    "wall-breakers": ["wall breakers", "wb"], "heal-spirit": ["heal spirit"], "mother-witch": ["mother witch", "mw"],
+    "goblin-drill": ["drill"], "little-prince": ["prince"], "archer-queen": ["aq", "queen"], "skeleton-king": ["sk"],
+    "golden-knight": ["gk"], "monk": ["monk"], "mighty-miner": ["mighty miner"], "phoenix": ["phoenix"],
+    "goblin-machine": ["gob machine"], "royal-recruits": ["recruits"], "cannon-cart": ["cart"], "bomb-tower": ["bomb tower"],
+    "night-witch": ["night witch"], "magic-archer": ["magic archer", "marcher"], "tornado": ["nado"], "earthquake": ["eq"],
+}
+
+
+def transcript_mentions(text: str, slug: str, name: str) -> int:
+    """Count whole-word mentions of a card (its name plus common abbreviations)."""
+    import re as _re
+    terms = {name.lower(), name.lower().replace("-", " "), slug.replace("-", " ")}
+    terms.update(_ALIASES.get(slug, []))
+    n = 0
+    for t in terms:
+        if len(t) < 2:
+            continue
+        n += len(_re.findall(rf"(?<![a-z]){_re.escape(t)}s?(?![a-z])", text))
+    return n
+
+
+def _hero_abilities() -> dict[str, dict]:
+    """base card slug -> {name, cost} from the Phase 1 hero index."""
+    p = Path(__file__).resolve().parents[1] / "knowledge_base" / "meta" / "hero_index.json"
+    try:
+        h = json.loads(p.read_text())
+    except Exception:
+        return {}
+    out = {}
+    for e in h.get("heroes", []):
+        try:
+            out[e["base_slug"]] = {"name": e.get("ability_name"), "cost": int(e.get("ability_cost"))}
+        except (TypeError, ValueError, KeyError):
+            continue
+    return out

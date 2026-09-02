@@ -348,7 +348,8 @@ class Perception:
         new_events += self.play.update_tower_hp(t, {"own_king": towers_own["king"], "own_left": towers_own["left"],
                                                     "own_right": towers_own["right"]}, units, clock_v)
         for ev in new_events:
-            if ev.player == "own" and ev.card and "deploy label" in ev.detail and getattr(ev, "slot", None) is not None:
+            if (ev.player == "own" and ev.card and "deploy label" in ev.detail and getattr(ev, "slot", None) is not None
+                    and (ev.confidence == "high" or ev.detect_source == "deploy_label")):
                 self._learn_template(ev)
             if ev.player == "own" and ev.card and ev.card in self.costs and not getattr(ev, "_charged", False):
                 self.own_sim.spend(self.costs[ev.card])

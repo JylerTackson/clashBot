@@ -12,6 +12,8 @@ Spells     : detector spell classes when available; otherwise sudden own tower
 """
 from __future__ import annotations
 
+from collections import Counter
+
 from dataclasses import dataclass, field
 
 from . import geometry as g
@@ -59,6 +61,8 @@ class PlayDetector:
     recent_group: dict[str, float] = field(default_factory=dict)
     own_hold: list[PlayEvent] = field(default_factory=list)       # own plays waiting for a deploy label (tile)
     label_tiles: dict[str, tuple] = field(default_factory=dict)  # card -> (t, tile, score, text) seen before the HUD event
+    own_levels: Counter = field(default_factory=Counter)   # deploy-label levels of confirmed own plays
+    opp_levels: Counter = field(default_factory=Counter)   # deploy-label levels of confident opponent plays
     recent_labels: list[tuple[float, str, tuple[int, int]]] = field(default_factory=list)
     HOLD_SECONDS: float = 2.5
     LABEL_DEDUP_SECONDS: float = 3.0
@@ -255,10 +259,18 @@ class PlayDetector:
             from .detect import categorize, SPELL_CLASSES
             pending_own = any(p.before == lbl.card for p in self.pending_hand)
             in_hand = lbl.card in self.last_hand
+            own_lvl, opp_lvl = self.known_levels()
+            # card levels: Ryley's cards share one level (16 at the top of
+            # ladder); once both players' levels are known and differ, the
+            # "lvl N" line under the label attributes the play by itself
+            lvl_own = lbl.level is not None and own_lvl is not None and opp_lvl is not None and lbl.level == own_lvl and lbl.level != opp_lvl
+            lvl_opp = lbl.level is not None and own_lvl is not None and opp_lvl is not None and lbl.level == opp_lvl and lbl.level != own_lvl
+            if (pending_own or in_hand) and lbl.level is not None:
+                self.own_levels[lbl.level] += 1
             # rows 12-14 are excluded: an opponent bridge deployment's label
             # sits above the unit and its ground point can land there
             own_half_troop = tile[1] <= 11 and lbl.card not in SPELL_CLASSES and lbl.card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel", "wall-breakers")
-            if own is None and (pending_own or in_hand or own_half_troop):
+            if own is None and (pending_own or in_hand or (own_half_troop and not lvl_opp) or lvl_own):
                 prev = self.label_tiles.get(lbl.card)
                 if prev is None or t - prev[0] > 6.0 or lbl.match_score >= prev[2]:
                     self.label_tiles[lbl.card] = (t, tile, lbl.match_score, lbl.text)
@@ -278,11 +290,23 @@ class PlayDetector:
             if any(c == lbl.card and t - tt <= 4.0 for tt, c in self.own_play_cards_recent):
                 continue
             self.recent_group[lbl.card] = t
+            if lbl.level is not None and lbl.match_score >= 0.9 and tile[1] >= 17 and not in_hand:
+                self.opp_levels[lbl.level] += 1
             side_note = " on own half" if tile[1] < 15 else ""
             events.append(PlayEvent(t, clock, "opponent", lbl.card, tile, None, None, "deploy_label",
                                     "high" if lbl.match_score >= 0.9 else "medium",
                                     f"deploy label '{lbl.text}'{side_note}" + (f", lvl {lbl.level}" if lbl.level else "")))
         return events
+
+    def known_levels(self) -> tuple[int | None, int | None]:
+        """(own card level, opponent card level) once each is seen >= 3 times
+        with a clear majority; None otherwise."""
+        def mode(c: Counter) -> int | None:
+            if sum(c.values()) < 3:
+                return None
+            lvl, n = c.most_common(1)[0]
+            return lvl if n >= 0.7 * sum(c.values()) else None
+        return mode(self.own_levels), mode(self.opp_levels)
 
     def update_tower_hp(self, t: float, own_hp: dict[str, int | None], units: list[UnitObs], clock: str | None) -> list[PlayEvent]:
         """Sudden own-tower HP drop with no enemy unit near that tower -> an
