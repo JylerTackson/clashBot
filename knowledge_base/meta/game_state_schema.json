@@ -97,7 +97,7 @@
         "game_result": {"type": ["string", "null"], "enum": ["win", "loss", "draw", "unknown", null], "description": "final result of this game from the Phase 1 match file"}
       }
     },
-    "commentary": {"type": "array", "items": {"type": "object", "required": ["t", "text"], "additionalProperties": false, "properties": {"t": {"type": "number"}, "text": {"type": "string"}}}, "description": "auto-transcript lines within ±8 s of t"},
+    "commentary": {"type": "array", "items": {"type": "object", "required": ["t", "text"], "additionalProperties": false, "properties": {"t": {"type": "number"}, "text": {"type": "string"}}}, "description": "auto-transcript lines starting within ±6 s of t"},
     "key_moment": {
       "type": ["object", "null"], "additionalProperties": false,
       "description": "present only for kind=key: the Phase 1 key moment this sample belongs to",
