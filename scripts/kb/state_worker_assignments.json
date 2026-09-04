@@ -1,0 +1,410 @@
+{
+ "purpose": "Phase 2 (match-state) enrichment slices, one remote Opus worker each",
+ "groups": {
+  "sworker-1": [
+   {
+    "id": "9tx2iYsSmMw",
+    "title": "Ryley's BEST Games of CRL 2026",
+    "games": [
+     "9tx2iYsSmMw-m0.0",
+     "9tx2iYsSmMw-m0.1",
+     "9tx2iYsSmMw-m0.10",
+     "9tx2iYsSmMw-m0.2",
+     "9tx2iYsSmMw-m0.3",
+     "9tx2iYsSmMw-m0.4",
+     "9tx2iYsSmMw-m0.5",
+     "9tx2iYsSmMw-m0.6",
+     "9tx2iYsSmMw-m0.7",
+     "9tx2iYsSmMw-m0.8",
+     "9tx2iYsSmMw-m0.9"
+    ]
+   },
+   {
+    "id": "PuJls1qTZsU",
+    "title": "This Piggies Lightning Deck is UNSTOPPABLE!!",
+    "games": [
+     "PuJls1qTZsU-m0.0",
+     "PuJls1qTZsU-m0.1",
+     "PuJls1qTZsU-m0.2",
+     "PuJls1qTZsU-m0.3",
+     "PuJls1qTZsU-m0.4",
+     "PuJls1qTZsU-m0.5",
+     "PuJls1qTZsU-m0.6"
+    ]
+   },
+   {
+    "id": "32pkLm4-QMc",
+    "title": "This Mega Knight Bait Deck is EXTREMELY BROKEN!!",
+    "games": [
+     "32pkLm4-QMc-m0.0",
+     "32pkLm4-QMc-m0.1",
+     "32pkLm4-QMc-m0.2",
+     "32pkLm4-QMc-m0.3",
+     "32pkLm4-QMc-m0.4",
+     "32pkLm4-QMc-m0.5"
+    ]
+   },
+   {
+    "id": "XM5NEb9SeBY",
+    "title": "NERF the Hog Rider NOW!!!",
+    "games": [
+     "XM5NEb9SeBY-m0.0",
+     "XM5NEb9SeBY-m0.1",
+     "XM5NEb9SeBY-m0.2",
+     "XM5NEb9SeBY-m0.3",
+     "XM5NEb9SeBY-m0.4",
+     "XM5NEb9SeBY-m0.5"
+    ]
+   },
+   {
+    "id": "Zt6Onn89EVk",
+    "title": "Hero Valkyrie is the Most BROKEN Hero of All Time",
+    "games": [
+     "Zt6Onn89EVk-m0.0",
+     "Zt6Onn89EVk-m0.1",
+     "Zt6Onn89EVk-m0.2",
+     "Zt6Onn89EVk-m1.0",
+     "Zt6Onn89EVk-m1.1"
+    ]
+   },
+   {
+    "id": "rTamPgdaLUs",
+    "title": "Hero Berserker is INVINCIBLE!!!",
+    "games": [
+     "rTamPgdaLUs-m0.0",
+     "rTamPgdaLUs-m0.1",
+     "rTamPgdaLUs-m0.2",
+     "rTamPgdaLUs-m0.3"
+    ]
+   }
+  ],
+  "sworker-2": [
+   {
+    "id": "GQmC6dsl6Go",
+    "title": "#1 BEST Log Bait Deck in Clash Royale",
+    "games": [
+     "GQmC6dsl6Go-m0.0",
+     "GQmC6dsl6Go-m0.1",
+     "GQmC6dsl6Go-m0.2",
+     "GQmC6dsl6Go-m0.3",
+     "GQmC6dsl6Go-m0.4",
+     "GQmC6dsl6Go-m0.5",
+     "GQmC6dsl6Go-m0.6",
+     "GQmC6dsl6Go-m0.7"
+    ]
+   },
+   {
+    "id": "tizujccrTvE",
+    "title": "I Got a 96% WIN Rate with this BROKEN Deck",
+    "games": [
+     "tizujccrTvE-m0.0",
+     "tizujccrTvE-m0.1",
+     "tizujccrTvE-m0.2",
+     "tizujccrTvE-m0.3",
+     "tizujccrTvE-m0.4",
+     "tizujccrTvE-m0.5",
+     "tizujccrTvE-m0.6",
+     "tizujccrTvE-m0.7"
+    ]
+   },
+   {
+    "id": "-V4H_YeMGGk",
+    "title": "My Opinion on the BIGGEST Balance Changes EVER!!",
+    "games": [
+     "-V4H_YeMGGk-m0.0",
+     "-V4H_YeMGGk-m0.1",
+     "-V4H_YeMGGk-m0.2",
+     "-V4H_YeMGGk-m0.3",
+     "-V4H_YeMGGk-m0.4",
+     "-V4H_YeMGGk-m1"
+    ]
+   },
+   {
+    "id": "5nOaTBlYLlg",
+    "title": "I QUALIFIED for the Clash Royale League WORLD FINALS!!",
+    "games": [
+     "5nOaTBlYLlg-m0.0",
+     "5nOaTBlYLlg-m0.1",
+     "5nOaTBlYLlg-m0.2",
+     "5nOaTBlYLlg-m0.3",
+     "5nOaTBlYLlg-m0.4",
+     "5nOaTBlYLlg-m0.5"
+    ]
+   },
+   {
+    "id": "klMJBAH2Zx8",
+    "title": "I Am #1 in the World with this GAME BREAKING Deck \ud83c\udf0e\ud83c\udfc6",
+    "games": [
+     "klMJBAH2Zx8-m0.0",
+     "klMJBAH2Zx8-m0.1",
+     "klMJBAH2Zx8-m0.2",
+     "klMJBAH2Zx8-m0.3",
+     "klMJBAH2Zx8-m0.4",
+     "klMJBAH2Zx8-m0.5"
+    ]
+   },
+   {
+    "id": "CInrqMTlVkg",
+    "title": "Minion Giant is the Most OVERPOWERED Card!!",
+    "games": [
+     "CInrqMTlVkg-m0.0",
+     "CInrqMTlVkg-m0.1",
+     "CInrqMTlVkg-m0.2",
+     "CInrqMTlVkg-m0.3"
+    ]
+   },
+   {
+    "id": "nSXIs16M7Ag",
+    "title": "Hero Ice Wizard is SKILL and OVERPOWERED!!",
+    "games": [
+     "nSXIs16M7Ag-m0.0",
+     "nSXIs16M7Ag-m0.1",
+     "nSXIs16M7Ag-m0.2"
+    ]
+   }
+  ],
+  "sworker-3": [
+   {
+    "id": "O97T50_dNGc",
+    "title": "I Made it to DAY 2 of Clash Royale League Monthly Finals",
+    "games": [
+     "O97T50_dNGc-m0.0",
+     "O97T50_dNGc-m0.1",
+     "O97T50_dNGc-m1.0",
+     "O97T50_dNGc-m1.1",
+     "O97T50_dNGc-m1.2",
+     "O97T50_dNGc-m1.3",
+     "O97T50_dNGc-m1.4",
+     "O97T50_dNGc-m1.5"
+    ]
+   },
+   {
+    "id": "6qYQNJ1Uaeg",
+    "title": "This Hero Berserker Deck has a 100% WIN Rate ",
+    "games": [
+     "6qYQNJ1Uaeg-m0.0",
+     "6qYQNJ1Uaeg-m0.1",
+     "6qYQNJ1Uaeg-m0.2",
+     "6qYQNJ1Uaeg-m0.3",
+     "6qYQNJ1Uaeg-m0.4",
+     "6qYQNJ1Uaeg-m0.5",
+     "6qYQNJ1Uaeg-m0.6"
+    ]
+   },
+   {
+    "id": "VyADrwRPJz8",
+    "title": "#1 TOP Ladder Push with Log Bait \ud83c\udf0e\ud83c\udfc6",
+    "games": [
+     "VyADrwRPJz8-m0.0",
+     "VyADrwRPJz8-m0.1",
+     "VyADrwRPJz8-m0.2",
+     "VyADrwRPJz8-m0.3",
+     "VyADrwRPJz8-m0.4",
+     "VyADrwRPJz8-m0.5",
+     "VyADrwRPJz8-m0.6"
+    ]
+   },
+   {
+    "id": "7R5FP2IYWsw",
+    "title": "Classic Log Bait RETURNS to Clash Royale!!",
+    "games": [
+     "7R5FP2IYWsw-m0.0",
+     "7R5FP2IYWsw-m0.1",
+     "7R5FP2IYWsw-m0.2",
+     "7R5FP2IYWsw-m0.3",
+     "7R5FP2IYWsw-m0.4",
+     "7R5FP2IYWsw-m0.5"
+    ]
+   },
+   {
+    "id": "zimGbIvEs1s",
+    "title": "This Elite Barbs Evolution Deck is UNBEATEN",
+    "games": [
+     "zimGbIvEs1s-m0.0",
+     "zimGbIvEs1s-m0.1",
+     "zimGbIvEs1s-m0.2",
+     "zimGbIvEs1s-m0.3",
+     "zimGbIvEs1s-m0.4",
+     "zimGbIvEs1s-m0.5"
+    ]
+   },
+   {
+    "id": "Z8-4VhLjrGU",
+    "title": "EMERGENCY Balance Changes Announced!!",
+    "games": [
+     "Z8-4VhLjrGU-m0.0",
+     "Z8-4VhLjrGU-m0.1",
+     "Z8-4VhLjrGU-m0.2",
+     "Z8-4VhLjrGU-m0.3"
+    ]
+   },
+   {
+    "id": "vp7jP_vjxcU",
+    "title": "Ryley's BEST Predictions of 2026!",
+    "games": [
+     "vp7jP_vjxcU-m0.0",
+     "vp7jP_vjxcU-m0.1"
+    ]
+   }
+  ],
+  "sworker-4": [
+   {
+    "id": "X2zRpx5TN2U",
+    "title": "This Rune Giant Deck is TOTALLY OVERPOWERED!!",
+    "games": [
+     "X2zRpx5TN2U-m0.0",
+     "X2zRpx5TN2U-m0.1",
+     "X2zRpx5TN2U-m0.2",
+     "X2zRpx5TN2U-m0.3",
+     "X2zRpx5TN2U-m0.4",
+     "X2zRpx5TN2U-m0.5",
+     "X2zRpx5TN2U-m0.6",
+     "X2zRpx5TN2U-m0.7"
+    ]
+   },
+   {
+    "id": "A5qMlVwLS1M",
+    "title": "Playing the 8 BEST Cards in a SINGLE Deck",
+    "games": [
+     "A5qMlVwLS1M-m0.0",
+     "A5qMlVwLS1M-m0.1",
+     "A5qMlVwLS1M-m0.2",
+     "A5qMlVwLS1M-m0.3",
+     "A5qMlVwLS1M-m0.4",
+     "A5qMlVwLS1M-m0.5",
+     "A5qMlVwLS1M-m0.6"
+    ]
+   },
+   {
+    "id": "eEwTOkVPoFM",
+    "title": "Ronin Made This Log Bait Deck 100X MORE BROKEN",
+    "games": [
+     "eEwTOkVPoFM-m0.0",
+     "eEwTOkVPoFM-m0.1",
+     "eEwTOkVPoFM-m0.2",
+     "eEwTOkVPoFM-m0.3",
+     "eEwTOkVPoFM-m0.4",
+     "eEwTOkVPoFM-m0.5",
+     "eEwTOkVPoFM-m0.6"
+    ]
+   },
+   {
+    "id": "B7SW-i94v8s",
+    "title": "My MAIN Deck for Season End in Clash Royale ",
+    "games": [
+     "B7SW-i94v8s-m0.0",
+     "B7SW-i94v8s-m0.1",
+     "B7SW-i94v8s-m0.2",
+     "B7SW-i94v8s-m0.3",
+     "B7SW-i94v8s-m0.4",
+     "B7SW-i94v8s-m0.5"
+    ]
+   },
+   {
+    "id": "5bU83eIW8Yg",
+    "title": "TOP 5 Decks in Clash Royale for the New Meta",
+    "games": [
+     "5bU83eIW8Yg-m0.0",
+     "5bU83eIW8Yg-m0.1",
+     "5bU83eIW8Yg-m0.2",
+     "5bU83eIW8Yg-m0.3",
+     "5bU83eIW8Yg-m0.4"
+    ]
+   },
+   {
+    "id": "yOGPFqpzNu4",
+    "title": "TOP 10 Best C.H.A.O.S Decks in Clash Royale",
+    "games": [
+     "yOGPFqpzNu4-m0",
+     "yOGPFqpzNu4-m1",
+     "yOGPFqpzNu4-m2",
+     "yOGPFqpzNu4-m3",
+     "yOGPFqpzNu4-m4"
+    ]
+   },
+   {
+    "id": "CdlYCOppdXQ",
+    "title": "Jynxzi Challenged Me in C.H.A.O.S Mode",
+    "games": [
+     "CdlYCOppdXQ-m0"
+    ]
+   }
+  ],
+  "sworker-5": [
+   {
+    "id": "kiN_D3bRu34",
+    "title": "#1 BEST Ronin Deck in Clash Royale",
+    "games": [
+     "kiN_D3bRu34-m0.0",
+     "kiN_D3bRu34-m0.1",
+     "kiN_D3bRu34-m0.2",
+     "kiN_D3bRu34-m0.3",
+     "kiN_D3bRu34-m0.4",
+     "kiN_D3bRu34-m0.5",
+     "kiN_D3bRu34-m0.6",
+     "kiN_D3bRu34-m0.7"
+    ]
+   },
+   {
+    "id": "OKA_QNEkJIU",
+    "title": "This SUPER FAST 2.0 Log Bait Cycle is BUSTED!!",
+    "games": [
+     "OKA_QNEkJIU-m0.0",
+     "OKA_QNEkJIU-m0.1",
+     "OKA_QNEkJIU-m0.2",
+     "OKA_QNEkJIU-m0.3",
+     "OKA_QNEkJIU-m0.4",
+     "OKA_QNEkJIU-m0.5",
+     "OKA_QNEkJIU-m0.6"
+    ]
+   },
+   {
+    "id": "qHWw4rM-N2I",
+    "title": "The Most UNDERRATED Card in Clash Royale!!",
+    "games": [
+     "qHWw4rM-N2I-m0.0",
+     "qHWw4rM-N2I-m0.1",
+     "qHWw4rM-N2I-m0.2",
+     "qHWw4rM-N2I-m0.3",
+     "qHWw4rM-N2I-m0.4",
+     "qHWw4rM-N2I-m0.5",
+     "qHWw4rM-N2I-m0.6"
+    ]
+   },
+   {
+    "id": "SsOmbv1PfUg",
+    "title": "This NEW Xbow Deck is TAKING OVER the Meta",
+    "games": [
+     "SsOmbv1PfUg-m0.0",
+     "SsOmbv1PfUg-m0.1",
+     "SsOmbv1PfUg-m0.2",
+     "SsOmbv1PfUg-m0.3",
+     "SsOmbv1PfUg-m0.4",
+     "SsOmbv1PfUg-m0.5"
+    ]
+   },
+   {
+    "id": "LGb0mz8Sb8w",
+    "title": "TOP 5 BEST Decks After New Balance Changes",
+    "games": [
+     "LGb0mz8Sb8w-m0.0",
+     "LGb0mz8Sb8w-m0.1",
+     "LGb0mz8Sb8w-m0.2",
+     "LGb0mz8Sb8w-m0.3",
+     "LGb0mz8Sb8w-m0.4"
+    ]
+   },
+   {
+    "id": "ynafcLtQWDQ",
+    "title": "I Got a 98% WIN Rate with this Royal Hogs Deck",
+    "games": [
+     "ynafcLtQWDQ-m0.0",
+     "ynafcLtQWDQ-m0.1",
+     "ynafcLtQWDQ-m0.2",
+     "ynafcLtQWDQ-m0.3",
+     "ynafcLtQWDQ-m0.4"
+    ]
+   }
+  ]
+ }
+}
