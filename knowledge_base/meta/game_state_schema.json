@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "clashbot/game_state_sample/v1",
+  "title": "GameStateSample",
+  "description": "One retrievable game-state sample from a ryleycr1 video: the state as the perception pipeline saw it, what the professional did next, what happened, and (for key moments) why. Stored one JSON object per line in knowledge_base/states/<video_id>-m<match_index>.jsonl.",
+  "type": "object",
+  "required": ["id", "schema_version", "source", "kind", "t", "state", "action", "outcome", "state_text", "context_refs", "quality"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "description": "<video_id>-m<match_index>#<t rounded to 0.1s>", "pattern": "^[A-Za-z0-9_-]+-m[0-9.]+#[0-9]+(\\.[0-9])?$"},
+    "schema_version": {"const": 1},
+    "source": {
+      "type": "object", "required": ["video_id", "match_index", "match_file", "video_title", "creator"], "additionalProperties": false,
+      "properties": {
+        "video_id": {"type": "string"}, "match_index": {"type": "string"},
+        "match_file": {"type": "string", "description": "knowledge_base/matches/<key>.md"},
+        "video_title": {"type": "string"}, "creator": {"const": "ryleycr1"},
+        "video_url": {"type": "string"}
+      }
+    },
+    "kind": {"type": "string", "enum": ["key", "play", "periodic"], "description": "key: within the window of a Phase 1 key moment (carries enrichment); play: state just before one of Ryley's plays; periodic: fixed-interval sample of an ordinary situation"},
+    "t": {"type": "number", "description": "video seconds of the sampled state"},
+    "state": {
+      "type": "object", "required": ["clock", "phase", "match_seconds", "own", "opponent", "units", "threats"], "additionalProperties": false,
+      "properties": {
+        "clock": {"type": ["string", "null"], "description": "m:ss remaining as read from the HUD, null if unreadable"},
+        "phase": {"type": ["string", "null"], "enum": ["single_elixir", "double_elixir", "triple_elixir", "overtime", null]},
+        "match_seconds": {"type": ["number", "null"], "description": "seconds elapsed in the match (0-180 regulation, continues in overtime), null if the clock was unreadable"},
+        "own": {
+          "type": "object", "required": ["elixir", "hand", "next_card", "deck", "towers"], "additionalProperties": false,
+          "properties": {
+            "elixir": {"type": ["number", "null"], "minimum": 0, "maximum": 10},
+            "hand": {"type": "array", "items": {"type": ["string", "null"]}, "minItems": 4, "maxItems": 4, "description": "card slugs in slots 0-3, null when unread"},
+            "hand_confidence": {"type": ["number", "null"]},
+            "next_card": {"type": ["string", "null"]},
+            "deck": {"type": "array", "items": {"type": "string"}, "description": "the 8 slugs Ryley is playing (video/game consensus), possibly fewer if unknown"},
+            "deck_key": {"type": ["string", "null"]},
+            "hero_cards": {"type": "array", "items": {"type": "string"}, "description": "deck cards played as their Hero variant when known"},
+            "towers": {"$ref": "#/$defs/towers"},
+            "recent_plays": {"type": "array", "items": {"$ref": "#/$defs/play"}, "description": "Ryley's plays in the previous 12 s, newest last"}
+          }
+        },
+        "opponent": {
+          "type": "object", "required": ["elixir_estimate", "towers", "deck_known", "recent_plays"], "additionalProperties": false,
+          "properties": {
+            "elixir_estimate": {"type": ["number", "null"]},
+            "towers": {"$ref": "#/$defs/towers"},
+            "deck_known": {"type": "array", "items": {"type": "string"}, "description": "opponent cards seen so far in this game (in order of first sight)"},
+            "deck_complete": {"type": "boolean"},
+            "recent_plays": {"type": "array", "items": {"$ref": "#/$defs/play"}, "description": "opponent plays in the previous 12 s, newest last"}
+          }
+        },
+        "units": {
+          "type": "array", "description": "every tracked unit on the field at t (perception classes, 2024-era detector: newer cards may appear as unknown_unit)",
+          "items": {
+            "type": "object", "required": ["unit", "side", "tile"], "additionalProperties": false,
+            "properties": {
+              "unit": {"type": "string"}, "side": {"type": "string", "enum": ["ally", "enemy"]},
+              "tile": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2, "description": "[col 0-17 left->right, row 0-31 Ryley's side -> opponent's side]"},
+              "heading": {"type": ["string", "null"]}, "speed_tiles_s": {"type": ["number", "null"]},
+              "predicted_tile_2s": {"type": ["array", "null"], "items": {"type": "number"}},
+              "eta_tower": {"type": ["object", "null"], "additionalProperties": false, "properties": {"tower": {"type": "string"}, "s": {"type": "number"}}}
+            }
+          }
+        },
+        "threats": {"type": "array", "items": {"type": "string"}, "description": "enemy units within ~8 s of one of Ryley's towers, as rendered by the pipeline"}
+      }
+    },
+    "action": {
+      "type": "object", "required": ["type"], "additionalProperties": false,
+      "description": "what Ryley did next (within action.window_s of t); 'hold' when he played nothing",
+      "properties": {
+        "type": {"type": "string", "enum": ["play", "hold", "ability", "unknown"]},
+        "card": {"type": ["string", "null"]},
+        "tile": {"type": ["array", "null"], "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+        "lane": {"type": ["string", "null"], "enum": ["left", "right", "middle", null]},
+        "zone": {"type": ["string", "null"], "enum": ["back", "mid", "bridge", "enemy_half", null], "description": "coarse placement zone on Ryley's side (rows 0-4 back, 5-11 mid, 12-16 bridge, 17+ enemy half)"},
+        "delay_s": {"type": ["number", "null"], "description": "seconds between the sampled state and the play"},
+        "elixir_before": {"type": ["number", "null"]}, "elixir_after": {"type": ["number", "null"]},
+        "detect_source": {"type": ["string", "null"]}, "confidence": {"type": ["string", "null"]},
+        "window_s": {"type": "number"},
+        "following_plays": {"type": "array", "items": {"$ref": "#/$defs/play"}, "description": "Ryley's further plays within the outcome horizon, newest last"}
+      }
+    },
+    "outcome": {
+      "type": "object", "required": ["horizon_s"], "additionalProperties": false,
+      "properties": {
+        "horizon_s": {"type": "number", "description": "seconds after t over which the deltas below are measured (default 15)"},
+        "own_tower_hp_delta": {"type": ["object", "null"], "additionalProperties": {"type": ["number", "null"]}, "description": "king/left/right HP change for Ryley's towers over the horizon (negative = damage taken)"},
+        "enemy_tower_hp_delta": {"type": ["object", "null"], "additionalProperties": {"type": ["number", "null"]}},
+        "towers_lost": {"type": "array", "items": {"type": "string"}}, "towers_taken": {"type": "array", "items": {"type": "string"}},
+        "own_elixir_end": {"type": ["number", "null"]},
+        "opponent_plays": {"type": "array", "items": {"$ref": "#/$defs/play"}, "description": "opponent plays inside the horizon"},
+        "threats_after": {"type": "array", "items": {"type": "string"}, "description": "threats still listed at the end of the horizon"},
+        "elixir_trade": {"type": ["number", "null"], "description": "opponent elixir spent minus Ryley's elixir spent inside the horizon (positive = Ryley gained)"},
+        "verdict": {"type": ["string", "null"], "enum": ["positive", "neutral", "negative", null], "description": "heuristic: tower HP swing and elixir trade; enrichment may override"},
+        "game_result": {"type": ["string", "null"], "enum": ["win", "loss", "draw", "unknown", null], "description": "final result of this game from the Phase 1 match file"}
+      }
+    },
+    "commentary": {"type": "array", "items": {"type": "object", "required": ["t", "text"], "additionalProperties": false, "properties": {"t": {"type": "number"}, "text": {"type": "string"}}}, "description": "auto-transcript lines within ±8 s of t"},
+    "key_moment": {
+      "type": ["object", "null"], "additionalProperties": false,
+      "description": "present only for kind=key: the Phase 1 key moment this sample belongs to",
+      "properties": {"t_start": {"type": "number"}, "t_end": {"type": ["number", "null"]}, "text": {"type": "string", "description": "the key-moment bullet from the match file, verbatim"}, "clock": {"type": ["string", "null"]}}
+    },
+    "enrichment": {
+      "type": ["object", "null"], "additionalProperties": false,
+      "description": "written by the Opus enrichment agent. Required fields for kind=key; for play/periodic only situation_read and reaction are expected",
+      "properties": {
+        "situation_read": {"type": "string", "description": "1-2 sentences: what matters in this state (threats, elixir, cycle position), grounded in the state fields"},
+        "reaction": {"type": "string", "description": "1-2 sentences: the reaction an agent should take here, in the card vocabulary of the knowledge base"},
+        "pro_action_rationale": {"type": "string", "description": "key only: why Ryley did what he did, citing his words when he gave them"},
+        "principle": {"type": "string", "description": "key only: the transferable rule (one sentence)"},
+        "alternatives": {"type": "array", "items": {"type": "string"}, "description": "key only: other reasonable responses and why they are worse/better"},
+        "outcome_note": {"type": "string", "description": "how it went, from outcome fields and commentary"},
+        "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+        "tags": {"type": "array", "items": {"type": "string"}, "description": "short retrieval tags: e.g. defend-bridge-push, counter-push, spell-cycle, punish, elixir-lead, overtime"}
+      }
+    },
+    "state_text": {"type": "string", "description": "deterministic, compact natural-language rendering of state+action for embedding; produced by the extractor, never edited by hand"},
+    "context_refs": {
+      "type": "object", "required": ["match_file", "cards"], "additionalProperties": false,
+      "properties": {
+        "match_file": {"type": "string"}, "deck_file": {"type": ["string", "null"]},
+        "cards": {"type": "array", "items": {"type": "string"}, "description": "knowledge_base/cards/<slug>.md for hand, action and on-field cards"},
+        "opponent_deck_file": {"type": ["string", "null"]}
+      }
+    },
+    "quality": {
+      "type": "object", "required": ["clock_read", "hand_confidence", "calibration"], "additionalProperties": false,
+      "properties": {
+        "clock_read": {"type": "boolean"}, "hand_confidence": {"type": ["number", "null"]},
+        "calibration": {"type": "string"}, "state_source": {"type": "string", "enum": ["states.jsonl", "context.timeline"]},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "$defs": {
+    "towers": {
+      "type": "object", "additionalProperties": false,
+      "properties": {"king": {"type": ["number", "null"]}, "left": {"type": ["number", "null"]}, "right": {"type": ["number", "null"]}}
+    },
+    "play": {
+      "type": "object", "required": ["t", "player", "card"], "additionalProperties": false,
+      "properties": {
+        "t": {"type": "number"}, "player": {"type": "string", "enum": ["own", "opponent"]},
+        "card": {"type": ["string", "null"]}, "tile": {"type": ["array", "null"], "items": {"type": "number"}},
+        "elixir_cost": {"type": ["number", "null"]}, "detect_source": {"type": ["string", "null"]}, "confidence": {"type": ["string", "null"]}
+      }
+    }
+  }
+}
