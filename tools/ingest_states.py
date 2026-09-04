@@ -43,7 +43,10 @@ def main() -> int:
     if sh("git", "fetch", "-q", "origin", ref.split("/", 1)[1], check=False).returncode != 0:
         print(f"{ref}: branch not on origin yet")
         return 0
-    changed = [p for p in sh("git", "diff", "--name-only", "HEAD", ref, "--",
+    # only files the worker itself changed since it forked (a stale fork still
+    # carries un-enriched copies of games other workers have since finished)
+    base = sh("git", "merge-base", "HEAD", ref).stdout.strip()
+    changed = [p for p in sh("git", "diff", "--name-only", base, ref, "--",
                              "knowledge_base/states").stdout.split()
                if p.startswith("knowledge_base/states/") and p.endswith(".jsonl")]
     # only files that exist on the worker branch (never delete)
