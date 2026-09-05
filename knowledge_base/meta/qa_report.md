@@ -190,3 +190,26 @@ Data collection was stopped on the user's instruction once each machine finished
   - `3aBW7pN5sg0` Can I Get TOP 1 in the World 🌎🏆
 
 Notes on the uncovered videos: `7Fa2CsEXXSM` is a landscape coaching stream with no readable game panel; `TSK-yPHwwtQ` and `LCn9x-_8F-w` are C.H.A.O.S.-mode videos (modified arena; the portrait-panel fix landed after the first was scanned and it was not re-run); the rest were simply not reached before the stop. Pipeline: `tools/batch_process.py` (perception, contexts), one Opus agent per game per `scripts/kb/AGENT_INSTRUCTIONS_MATCHES.md`, `tools/merge_insights.py` (card/deck blocks), `tools/ingest_worker.py` (worker branches `phase4/worker-{1,3,4}`).
+
+## Phase 2 data: game-state enrichment (closed 2026-09-05)
+
+Every sample in `knowledge_base/states/*.jsonl` carries an `enrichment` block written by one Opus agent per game (five remote worker sessions, `phase5/sworker-1..5`, ingested with `tools/ingest_states.py`). Validator: `python3 tools/validate_states.py --summary` reports 0 errors.
+
+| kind | samples | enriched | low-confidence |
+|---|---|---|---|
+| key | 3,539 | 3,539 | 92 (2.6%) |
+| play | 6,901 | 6,901 | 2,636 (38.2%) |
+| periodic | 483 | 483 | 139 (28.8%) |
+| total | 10,923 | 10,923 | 2,867 (26.2%) |
+
+- Fields present: `situation_read`, `reaction`, `confidence`, `tags` on all samples; `pro_action_rationale`, `principle`, `alternatives` on all key samples (2 key samples lack principle/alternatives); `outcome_note` on 6,089.
+- Median enrichment size: key 1,332 bytes, play 406, periodic 453.
+- Outcome verdicts (from the extractor, not the agents): neutral 5,717, positive 3,150, negative 2,056.
+- Confidence: high 2,392, medium 5,664, low 2,867. Low confidence in play samples is dominated by `unknown-action`/`unknown-play` (hand read unusable, card off-deck) and by known perception noise the agents called out in `outcome_note` (tower-HP flicker, side mis-attribution, double-counted spells).
+- Tags: 3,070 distinct, free-vocabulary. The `overtime` tag agrees with `state.phase` on 98% of samples. Top tags: overtime, triple-elixir, cycle, hold, counter-push, tower-race, low-elixir, double-elixir, defend-bridge-push, punish.
+
+Known limitations for retrieval use:
+- Tag vocabulary is uncontrolled; normalise (or drop tags) before using them as filters.
+- `state.phase` is null on 2,017 samples (no clock read); those samples still have `match_seconds` and `clock: null`.
+- Play samples with `action.type = unknown` (475 tagged) have a reaction written from the visible state only; treat them as weaker supervision than key samples.
+- Worker cost: about $540 across the five sessions (sub-agents included).
