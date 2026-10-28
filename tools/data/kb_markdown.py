@@ -185,3 +185,13 @@ def load_deck_registry() -> dict[str, dict]:
             "in_index": key in in_index,
         }
     return out
+
+
+def relation_mentions(bullet: str, aliases: list[tuple[str, str]], exclude: str | None = None) -> list[str]:
+    """Head-first mentions for wiki relation bullets (B5)."""
+    if " — " in bullet:
+        head = bullet.split(" — ", 1)[0]
+        h = mentions(head, aliases, exclude)
+        if h:
+            return h
+    return mentions(bullet, aliases, exclude)

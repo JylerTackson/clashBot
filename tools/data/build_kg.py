@@ -20,7 +20,7 @@ from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.units import load_unit_map, resolve  # noqa: E402
 from tools.data.build_clean_dataset import scrub  # noqa: E402
 from tools.data.kb_markdown import (  # noqa: E402
-    bullets, build_aliases, first_table, load_deck_registry, mentions, parse_frontmatter, section,
+    bullets, build_aliases, first_table, load_deck_registry, parse_frontmatter, relation_mentions, section,
 )
 
 NOT_SPECIFIED = "Not specified on source page"
@@ -141,7 +141,7 @@ def wiki_edges(cards, aliases) -> list[dict]:
             for b in bullets(sec):
                 if b == NOT_SPECIFIED:
                     continue
-                for x in mentions(b, aliases, exclude=slug):
+                for x in relation_mentions(b, aliases, exclude=slug):
                     if heading == "Strong against":
                         add(f"card:{slug}", "COUNTERS", f"card:{x}", "wiki_strong_against", b)
                     elif heading == "Weak against":

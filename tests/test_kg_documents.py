@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT))
 
 from clashbot.game_rules import load_cards  # noqa: E402
 from tools.data.kb_markdown import (  # noqa: E402
-    build_aliases, bullets, creator_blocks, first_table, mentions, parse_frontmatter, section,
+    build_aliases, bullets, creator_blocks, first_table, mentions, parse_frontmatter, relation_mentions, section,
 )
 
 DATASET = ROOT / "dataset" / "v1"
@@ -49,6 +49,12 @@ def test_mentions():
     assert mentions("Spear Goblins", aliases) == ["spear-goblins"]
 
 
+def test_relation_mentions():
+    aliases = build_aliases(load_cards())
+    assert relation_mentions("Goblin Barrel — a great counter; harder to time than Arrows", aliases) == ["goblin-barrel"]
+    assert relation_mentions("Low-hitpoint swarms — Minions, Goblins", aliases) == ["minions", "goblins"]
+
+
 def test_creator_blocks():
     text = (
         "x\n<!-- creator-insights:ryleycr1:gameA-m0.0:start -->\n first body \n"
@@ -78,6 +84,11 @@ def test_kg_integration(built):
     for e in edges:
         assert e["src"] in ids, e
         assert e["dst"] in ids, e
+    assert sum(1 for n in nodes if n["type"] == "deck") == 68
+    game_deck = {e["src"] for e in edges if e["rel"] == "GAME_DECK"}
+    for g in _jsonl(built / "games.jsonl"):
+        if g["own_deck_key"] is not None:
+            assert f"game:{g['game_id']}" in game_deck, g["game_id"]
     counters = [e for e in edges if e["rel"] == "COUNTERS"]
     assert {"wiki_strong_against", "wiki_weak_against"} <= {e["props"]["source"] for e in counters}
     assert any(e["src"] == "card:archers" and e["dst"] == "card:minions" for e in counters)
