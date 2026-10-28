@@ -58,3 +58,6 @@ Lane/zone rules, unit resolution, state-text rendering and feature vectors live 
 
 ### D-016 · Opponent deck comes from the curated match file · default (Opus review) · 2026-10-28
 Supersedes the opponent-deck part of D-011/D-012's implementation. The per-game opponent deck is the match file's `opponent_deck_seen` (written by the Phase 4 review agents from video + commentary); perception play counts are used only to cap lists longer than 8 or when the match file has none. Per-sample `deck_known` = deck cards whose first observation is at or before the sample time. Reason: the play-count deck agreed with the curated deck on only 56% of cards and leaked the player's own cards into the opponent deck.
+
+### D-017 · Deck registry = all 68 deck files · default (Opus review) · 2026-10-28
+`deck_index.json` covers only the 19 RoyaleAPI-scraped decks; the other 49 deck files were created from the pro's games and carry most creator insights. The KG and documents use every deck file (frontmatter + `## Cards` links) and mark `in_index` on the node.

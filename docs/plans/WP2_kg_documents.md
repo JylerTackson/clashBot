@@ -142,3 +142,28 @@ git status --short
 
 ## 7. Report back (≤ 40 lines)
 Files created; test results; node/edge/document counts; three example ANSWERED_BY edges; any spec item you could not follow exactly and why.
+
+---
+
+## Amendment B (Opus review, 2026-10-28)
+
+**B1. Deck registry from deck files (D-017).** `deck_index.json` lists only 19 of the 68 deck files; every one of the 55 own-deck keys in `games.jsonl` has a deck file. Replace every use of `deck_index.json` (deck nodes, `IN_DECK`, `HAS_ARCHETYPE`, `GAME_DECK`, `deck_insight`, `deck_why`, the `display_name`/`archetype_primary`/card list lookups) with a registry built from `knowledge_base/decks/*.md` (skip non-`.md` files), implemented as `load_deck_registry() -> dict[deck_key, dict]` in `tools/data/kb_markdown.py`:
+- From frontmatter: `deck_key`, `display_name`, `archetype_primary`, `archetype_secondary`, `avg_elixir`, `evolutions`, `heroes`. For `evolutions` and `heroes`: a list value stays a list; a string equal to `"none"` or empty → `[]`; any other string → `[x.strip() for x in s.split(",") if x.strip()]`.
+- `cards`: from `section(body, "Cards")`, for each bullet, the first match of `r"\(\.\./cards/([a-z0-9-]+)\.md\)"`, in bullet order.
+- `in_index`: True if the deck_key is in `deck_index.json`, else False (add to deck node props).
+Deck node props become `archetype_primary, archetype_secondary, avg_elixir, cards, evolutions, heroes, in_index`.
+
+**B2. scrub() fix (in WP1's `tools/data/build_clean_dataset.py`, allowed for this amendment only).** Replace regex 2 with exactly:
+`r"\bt\s*[=≈~]\s*[~≈]?\s*\d+(?:\.\d+)?(?:\s*[-–]\s*[~≈]?\d+(?:\.\d+)?)?\s*(?:—|–|:)?\s*"`
+Add to `tests/test_clean_dataset.py` a test: `"t=" not in scrub('(called at t=~316 (0:37)): "I have to go"')` and `"t=" not in scrub("t≈12-~15 — he waits")`.
+
+**B3. Rebuild order.** Another agent is reading `dataset/v1/states.jsonl` right now: do **not** run `build_clean_dataset.py`. Run `build_kg.py`, then `build_documents.py`, then `python3 tools/db/seed.py --hnsw`.
+
+**B4. Tests.** Integration: deck nodes = 68; every `games.jsonl` row with non-null `own_deck_key` has a `GAME_DECK` edge.
+
+Re-run the §6 acceptance commands plus `python3 -m pytest -q tests/test_clean_dataset.py` and the seed command, and report counts (nodes by type, edges by rel, documents by type, seed table counts).
+
+**B5. Head-first mention rule for wiki relations (precision fix).** Bullets are written as `<subject> — <explanation>`, and explanations often name other cards only for comparison (e.g. "Goblin Barrel — a great counter; slightly harder to time than Arrows" produced a false `the-log COUNTERS arrows`). In §3.2 item 6 (COUNTERS, SYNERGY, SUBSTITUTE), replace `mentions(bullet, aliases, exclude=slug)` with `relation_mentions(bullet, aliases, exclude=slug)`, a new function in `kb_markdown.py`:
+- If `" — "` (space, em dash U+2014, space) occurs in the bullet: `head = bullet.split(" — ", 1)[0]`; `h = mentions(head, aliases, exclude)`; if `h` is non-empty return `h`.
+- Otherwise (no separator, or the head has no card) return `mentions(bullet, aliases, exclude)`.
+Add tests: `relation_mentions("Goblin Barrel — a great counter; harder to time than Arrows", aliases)` == `["goblin-barrel"]`; `relation_mentions("Low-hitpoint swarms — Minions, Goblins", aliases)` == `["minions", "goblins"]`. Report the new COUNTERS/SYNERGY/SUBSTITUTE counts next to the old ones.
