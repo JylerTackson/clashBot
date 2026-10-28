@@ -2,7 +2,9 @@
 __pycache__/
 *.pyc
 scripts/kb/.phase2_scratch/
-data/
+/data/
 *.pt
 *.onnx
 runs/
+/dataset/
+/db/
