@@ -234,3 +234,17 @@ git status --short
 
 ## 11. Report back (≤ 40 lines)
 Files; tests; replay summary (agreement and latency); deviations and why.
+
+---
+
+## Amendment D (Opus review, 2026-10-28)
+
+Reconciles WP5 with D-018 (separate act/hold head; the ranker chooses among plays only).
+
+**D1. `CandidateGenerator.generate`** returns play keys only. Delete the `"hold"` score in step 4 and the hold append in step 5: take the first `n` play keys by `(-score, key)`, fill from `legal` (excluding hold) when fewer than `n`. The kNN channel ignores hits whose `action_key == "hold"`. Default `n = 4` (the ranker training files have 4 options).
+**D2. `FastLoop.decide`**: if `generate` returns an empty list, return a `Decision` with `choice = "hold"`, `tile = None`, `candidates = []`, without calling the ranker or executor. Otherwise unchanged. (When to act stays with `should_decide` until the act/hold head exists, D-020.)
+**D3. Replay CLI ids starting with "-"**: before `argparse`, rewrite `sys.argv` so that a value following `--replay` becomes `--replay=<value>`; same for `--limit` is not needed. Add a subprocess test with `--replay -V4H_YeMGGk-m0.0 --limit 2`.
+**D4. Stub messages**: `_StubDecisionModel` should cite `docs/design/pipeline_review.md §5` instead of `docs/plans/WP5_runtime_skeleton.md §4`.
+**D5. Tests**: replace the "last candidate is hold" assertion with "no candidate is hold and every key is in `legal_action_keys`"; add a D2 test with a state that has no legal cards (`own.elixir = 0`, hand of 5-elixir cards).
+Accepted as implemented: `LLMPlanner.pregame(own_deck, deck_key=None)`, `ValueError` when ctx.index / ctx.kg is missing, SQL-side `type` filter, direct `props["confidence"]`/`props["support"]` access (all ANSWERED_BY edges carry both).
+Re-run §10 with `python3 -m pytest -q --ignore-glob='tests/test_*synthetic*.py' tests/test_runtime.py tests/test_ranker_dataset.py tests/test_retrieval.py tests/test_kg_documents.py tests/test_clean_dataset.py tests/test_states.py` (the cv2-based perception tests need opencv, which this environment lacks).
