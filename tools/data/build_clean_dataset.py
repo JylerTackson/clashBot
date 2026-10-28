@@ -79,7 +79,7 @@ def parse_frontmatter(path: Path) -> dict:
 
 def scrub(text: str) -> str:
     text = re.sub(r"\(\s*t\s*[=≈~][^)]*\)", "", text)
-    text = re.sub(r"\bt\s*[=≈~]\s*\d+(?:\.\d+)?(?:\s*[-–]\s*\d+(?:\.\d+)?)?\s*(?:—|–|:)?\s*", "", text)
+    text = re.sub(r"\bt\s*[=≈~]\s*[~≈]?\s*\d+(?:\.\d+)?(?:\s*[-–]\s*[~≈]?\d+(?:\.\d+)?)?\s*(?:—|–|:)?\s*", "", text)
     text = re.sub(r"https?://\S+", "", text)
     text = re.sub(r"\[([^\]]+)\]\((?:\.\./)*[^)]*?\.md\)", r"\1", text)
     text = re.sub(r"[ \t]{2,}", " ", text)

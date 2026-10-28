@@ -17,7 +17,7 @@ from clashbot.config import DATASET_DIR, KB  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from tools.data.build_clean_dataset import scrub  # noqa: E402
 from tools.data.kb_markdown import (  # noqa: E402
-    build_aliases, creator_blocks, mentions, parse_frontmatter, section,
+    build_aliases, creator_blocks, load_deck_registry, mentions, parse_frontmatter, section,
 )
 
 TYPE_ORDER = ["card_insight", "deck_insight", "deck_why", "archetype_guide",
@@ -36,8 +36,7 @@ def main(argv=None) -> int:
 
     cards = load_cards()
     aliases = build_aliases(cards)
-    deck_index = {d["deck_key"]: d for d in json.loads(
-        (KB / "meta" / "deck_index.json").read_text(encoding="utf-8"))["decks"]}
+    deck_index = load_deck_registry()
     games = {}
     with (ds / "games.jsonl").open(encoding="utf-8") as fh:
         for line in fh:
@@ -119,7 +118,7 @@ def main(argv=None) -> int:
 
     print("documents:", len(docs), dict(sorted(Counter(d["type"] for d in docs).items(),
                                                key=lambda kv: TYPE_ORDER.index(kv[0]))))
-    print(f"deck files not in deck_index.json (skipped): {skipped_decks}")
+    print(f"deck files not in registry (skipped): {skipped_decks}")
     return 0
 
 

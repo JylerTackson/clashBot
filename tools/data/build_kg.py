@@ -20,7 +20,7 @@ from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.units import load_unit_map, resolve  # noqa: E402
 from tools.data.build_clean_dataset import scrub  # noqa: E402
 from tools.data.kb_markdown import (  # noqa: E402
-    bullets, build_aliases, first_table, mentions, parse_frontmatter, section,
+    bullets, build_aliases, first_table, load_deck_registry, mentions, parse_frontmatter, section,
 )
 
 NOT_SPECIFIED = "Not specified on source page"
@@ -83,7 +83,8 @@ def build_nodes(cards, deck_index, games, unit_classes) -> list[dict]:
             "archetype_primary": d.get("archetype_primary"),
             "archetype_secondary": d.get("archetype_secondary"),
             "avg_elixir": d.get("avg_elixir"), "cards": d.get("cards"),
-            "evolutions": d.get("evolutions"), "heroes": d.get("heroes")}})
+            "evolutions": d.get("evolutions"), "heroes": d.get("heroes"),
+            "in_index": d.get("in_index")}})
     groups.append(g)
 
     g = []
@@ -288,7 +289,7 @@ def main(argv=None) -> int:
     kg.mkdir(parents=True, exist_ok=True)
 
     cards = load_cards()
-    deck_index = json.loads((KB / "meta" / "deck_index.json").read_text(encoding="utf-8"))["decks"]
+    deck_index = list(load_deck_registry().values())
     games = list(read_jsonl(ds / "games.jsonl"))
     states_path = ds / "states.jsonl"
     unit_classes = set()

@@ -159,3 +159,9 @@ def test_data_dir_not_ignored():
     res = subprocess.run(["git", "check-ignore", "tools/data/build_clean_dataset.py"], cwd=ROOT,
                          capture_output=True, text=True)
     assert res.returncode == 1
+
+
+def test_scrub_removes_tilde_timestamps():
+    from tools.data.build_clean_dataset import scrub
+    assert "t=" not in scrub('(called at t=~316 (0:37)): "I have to go"')
+    assert "t=" not in scrub("t≈12-~15 — he waits")

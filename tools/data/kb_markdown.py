@@ -1,7 +1,9 @@
 """Shared markdown helpers for the knowledge-graph and document builders (WP2)."""
 from __future__ import annotations
 
+import json
 import re
+from pathlib import Path
 
 _FM_LINE = re.compile(r"^([A-Za-z0-9_]+):\s*(.*)$")
 _CREATOR = re.compile(
@@ -142,4 +144,44 @@ def mentions(text: str, aliases: list[tuple[str, str]], exclude: str | None = No
     for _, slug in found:
         if slug not in out and slug != exclude:
             out.append(slug)
+    return out
+
+
+_CARD_LINK = re.compile(r"\(\.\./cards/([a-z0-9-]+)\.md\)")
+
+
+def _slug_list(value) -> list[str]:
+    if isinstance(value, list):
+        return value
+    if not value or value == "none":
+        return []
+    return [x.strip() for x in value.split(",") if x.strip()]
+
+
+def load_deck_registry() -> dict[str, dict]:
+    """Deck registry built from knowledge_base/decks/*.md (D-017)."""
+    from clashbot.config import KB
+
+    index_path = KB / "meta" / "deck_index.json"
+    in_index = {d["deck_key"] for d in json.loads(index_path.read_text(encoding="utf-8"))["decks"]}
+    out: dict[str, dict] = {}
+    for p in sorted(Path(KB / "decks").glob("*.md")):
+        fm, body = parse_frontmatter(p.read_text(encoding="utf-8"))
+        key = fm.get("deck_key")
+        cards: list[str] = []
+        for b in bullets(section(body, "Cards") or ""):
+            m = _CARD_LINK.search(b)
+            if m:
+                cards.append(m.group(1))
+        out[key] = {
+            "deck_key": key,
+            "display_name": fm.get("display_name"),
+            "archetype_primary": fm.get("archetype_primary"),
+            "archetype_secondary": fm.get("archetype_secondary"),
+            "avg_elixir": fm.get("avg_elixir"),
+            "evolutions": _slug_list(fm.get("evolutions")),
+            "heroes": _slug_list(fm.get("heroes")),
+            "cards": cards,
+            "in_index": key in in_index,
+        }
     return out
