@@ -120,3 +120,28 @@ def legal_action_keys(state: dict, cards: dict, elixir_tolerance: float = 0.5) -
                 keys.append(action_key(card, lane, zone))
     keys.append(HOLD_KEY)
     return keys
+
+
+def possible_cards(state: dict, cards: dict) -> list[str]:
+    """Cards the player could plausibly hold: perceived hand plus, for unread slots, the rest of the deck. No elixir filter."""
+    own = state["own"]
+    known = [h for h in own["hand"] if h]
+    unknown_slots = 4 - len(known)
+    out: list[str] = []
+    for c in known:
+        if is_playable(c, cards) and c not in out:
+            out.append(c)
+    if unknown_slots > 0:
+        for c in own["deck"]:
+            if is_playable(c, cards) and c not in known and c not in out:
+                out.append(c)
+    return out
+
+
+def possible_action_keys(state: dict, cards: dict) -> list[str]:
+    keys: list[str] = []
+    for card in possible_cards(state, cards):
+        for lane in LANES:
+            for zone in legal_zones(card, state, cards):
+                keys.append(action_key(card, lane, zone))
+    return keys

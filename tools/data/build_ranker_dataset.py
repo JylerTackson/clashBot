@@ -1,9 +1,9 @@
-"""Build the ranker training set (WP4): candidate options with hard negatives, plus the placement prior.
+"""Build the ranker training set (WP4): plays-only multiple-choice options with hard negatives, the act/hold export and the placement prior.
 
   python3 tools/data/build_ranker_dataset.py [--dataset DIR] [--k 20]
 
-Writes <dataset>/ranker/{train,val,test}.jsonl, <dataset>/ranker/stats.json and
-<dataset>/placement_prior.json.
+Writes <dataset>/ranker/{train,val,test}.jsonl, <dataset>/ranker/stats.json,
+<dataset>/act/{train,val,test}.jsonl and <dataset>/placement_prior.json.
 """
 from __future__ import annotations
 
@@ -24,8 +24,8 @@ import numpy as np  # noqa: E402
 from clashbot.actions import option_text  # noqa: E402
 from clashbot.config import DATASET_DIR, HOLD_KEY, ZONES  # noqa: E402
 from clashbot.features import featurize  # noqa: E402
-from clashbot.game_rules import (action_key, legal_action_keys, legal_cards, legal_zones,  # noqa: E402
-                                 load_cards)
+from clashbot.game_rules import (action_key, legal_action_keys, legal_zones, load_cards,  # noqa: E402
+                                 possible_action_keys, possible_cards)
 
 SPLITS = ("train", "val", "test")
 TARGET_NEGATIVES = 3
@@ -81,7 +81,7 @@ def build_placement_prior(records: list[dict]) -> dict:
 
 
 def select_negatives(pools: dict[str, list[str]], pos: str) -> list[tuple[str, str]]:
-    """Pick up to 3 negatives as (pool_name, key) in the spec'd priority order."""
+    """Pick up to 3 negatives as (pool_name, key): first N1, first N2, first N3, rest of N1, then N5."""
     chosen: list[tuple[str, str]] = []
     seen = {pos}
 
@@ -91,47 +91,38 @@ def select_negatives(pools: dict[str, list[str]], pos: str) -> list[tuple[str, s
             chosen.append((name, key))
 
     n1 = pools.get("N1", [])
-    n2 = pools.get("N2", [])
-    n4 = pools.get("N4", [])
-    if n1:
-        take("N1", n1[0])
-    if n2:
-        take("N2", n2[0])
-    if n4:
-        take("N4", n4[0])
+    for name in ("N1", "N2", "N3"):
+        items = pools.get(name, [])
+        if items:
+            take(name, items[0])
     for key in n1:
         take("N1", key)
-    for key in pools.get("N3", []):
-        take("N3", key)
     for key in pools.get("N5", []):
         take("N5", key)
     return chosen
 
 
-def build_pools(rec: dict, pos: str, legal: list[str], neighbour_keys: list[str], cards: dict,
+def build_pools(rec: dict, pos: str, possible: list[str], neighbour_keys: list[str], cards: dict,
                 zone_freq: dict) -> dict[str, list[str]]:
     state = rec["state"]
-    legal_set = set(legal)
-    pools: dict[str, list[str]] = {"N1": [], "N2": [], "N3": [], "N4": [], "N5": []}
+    possible_set = set(possible)
+    pools: dict[str, list[str]] = {"N1": [], "N2": [], "N3": [], "N5": []}
     for key in neighbour_keys:
-        if key in legal_set and key not in pools["N1"] and key != pos:
+        if key in possible_set and key not in pools["N1"] and key != pos:
             pools["N1"].append(key)
     a = rec["action"]
-    if a["type"] == "play" and a["card"] in cards:
-        card, lane, zone = a["card"], a["lane"], a["zone"]
-        freq = zone_freq.get(card, {})
-        lz = legal_zones(card, state, cards)
-        for z in sorted(ZONES, key=lambda z: (-freq.get(z, 0), z)):
-            if z != zone and z in lz:
-                pools["N2"].append(action_key(card, lane, z))
-                break
-        for c in legal_cards(state, cards):
-            if c != card and zone in legal_zones(c, state, cards):
-                pools["N3"].append(action_key(c, lane, zone))
-                break
-    if pos != HOLD_KEY:
-        pools["N4"].append(HOLD_KEY)
-    pools["N5"] = [k for k in legal if k != HOLD_KEY and k != pos]
+    card, lane, zone = a["card"], a["lane"], a["zone"]
+    freq = zone_freq.get(card, {})
+    lz = legal_zones(card, state, cards)
+    for z in sorted(ZONES, key=lambda z: (-freq.get(z, 0), z)):
+        if z != zone and z in lz:
+            pools["N2"].append(action_key(card, lane, z))
+            break
+    for c in possible_cards(state, cards):
+        if c != card and zone in legal_zones(c, state, cards):
+            pools["N3"].append(action_key(c, lane, zone))
+            break
+    pools["N5"] = [k for k in possible if k != pos]
     return pools
 
 
@@ -150,22 +141,36 @@ def build(dataset: Path, k: int) -> dict:
     zone_freq = prior["zone_freq"]
 
     out_dir = dataset / "ranker"
+    act_dir = dataset / "act"
     out_dir.mkdir(parents=True, exist_ok=True)
+    act_dir.mkdir(parents=True, exist_ok=True)
     handles = {s: open(out_dir / f"{s}.jsonl", "w") for s in SPLITS}
-    acc = {s: {"examples": 0, "skipped_no_negatives": 0, "options_total": 0,
+    act_handles = {s: open(act_dir / f"{s}.jsonl", "w") for s in SPLITS}
+    acc = {s: {"examples": 0, "skipped_no_negatives": 0, "skipped_pos_impossible": 0, "options_total": 0,
                "label_position_counts": Counter(), "negative_source_counts": Counter(),
-               "pos_in_legal": 0, "kind_counts": Counter(), "hold_positive_count": 0} for s in SPLITS}
+               "pos_in_legal": 0, "kind_counts": Counter(),
+               "act_positives": Counter(), "act_negatives": Counter()} for s in SPLITS}
     try:
         for i, rec in enumerate(records):
             if not rec["train_eligible"]:
                 continue
             split = rec["split"]
             st = acc[split]
+            is_play = rec["action"]["type"] == "play"
+            act_handles[split].write(json.dumps({
+                "id": rec["id"], "game_id": rec["game_id"], "split": split, "kind": rec["kind"],
+                "context": rec["context_text"], "label": 1 if is_play else 0}) + "\n")
+            (st["act_positives"] if is_play else st["act_negatives"])[rec["kind"]] += 1
+            if not is_play:
+                continue
             pos = rec["action"]["key"]
-            legal = legal_action_keys(rec["state"], cards)
+            possible = possible_action_keys(rec["state"], cards)
+            if pos not in set(possible):
+                st["skipped_pos_impossible"] += 1
+                continue
             nbrs = top_neighbours(Ftr, train_rows, train_games, F[i], rec["game_id"], k)
             neighbour_keys = [records[j]["action"]["key"] for j, _ in nbrs]
-            pools = build_pools(rec, pos, legal, neighbour_keys, cards, zone_freq)
+            pools = build_pools(rec, pos, possible, neighbour_keys, cards, zone_freq)
             negatives = select_negatives(pools, pos)
             if not negatives:
                 st["skipped_no_negatives"] += 1
@@ -174,10 +179,11 @@ def build(dataset: Path, k: int) -> dict:
             seed = int(hashlib.sha1(rec["id"].encode()).hexdigest()[:8], 16)
             random.Random(seed).shuffle(options)
             label = next(j for j, (src, _) in enumerate(options) if src == "pos")
+            in_legal = pos in set(legal_action_keys(rec["state"], cards))
             line = {"id": rec["id"], "game_id": rec["game_id"], "split": split, "kind": rec["kind"],
                     "context": rec["context_text"],
                     "options": [{"key": key, "text": option_text(key), "source": src} for src, key in options],
-                    "label": label, "positive_key": pos, "pos_in_legal": pos in legal}
+                    "label": label, "positive_key": pos, "pos_in_legal": in_legal}
             handles[split].write(json.dumps(line) + "\n")
             st["examples"] += 1
             st["options_total"] += len(options)
@@ -185,35 +191,38 @@ def build(dataset: Path, k: int) -> dict:
             for src, _ in options:
                 if src != "pos":
                     st["negative_source_counts"][src] += 1
-            st["pos_in_legal"] += int(pos in legal)
+            st["pos_in_legal"] += int(in_legal)
             st["kind_counts"][rec["kind"]] += 1
-            st["hold_positive_count"] += int(pos == HOLD_KEY)
     finally:
-        for h in handles.values():
+        for h in list(handles.values()) + list(act_handles.values()):
             h.close()
 
     stats = {}
     for s in SPLITS:
         a = acc[s]
         n = a["examples"]
+        kinds = sorted(set(a["act_positives"]) | set(a["act_negatives"]))
         stats[s] = {"examples": n, "skipped_no_negatives": a["skipped_no_negatives"],
+                    "skipped_pos_impossible": a["skipped_pos_impossible"],
                     "mean_options": round(a["options_total"] / n, 3) if n else 0.0,
                     "label_position_counts": dict(sorted(a["label_position_counts"].items())),
                     "negative_source_counts": dict(sorted(a["negative_source_counts"].items())),
                     "pos_in_legal_rate": round(a["pos_in_legal"] / n, 3) if n else 0.0,
                     "kind_counts": dict(sorted(a["kind_counts"].items())),
-                    "hold_positive_count": a["hold_positive_count"]}
+                    "act_counts": {kd: {"positives": a["act_positives"][kd], "negatives": a["act_negatives"][kd]}
+                                   for kd in kinds}}
     (out_dir / "stats.json").write_text(json.dumps(stats, indent=2) + "\n")
     return stats
 
 
 def print_stats(stats: dict) -> None:
-    print("| split | examples | skipped | mean_opts | pos_in_legal | hold_pos | label_pos | neg_sources | kinds |")
-    print("|---|---|---|---|---|---|---|---|---|")
+    print("| split | examples | skipped_no_neg | skipped_pos_impossible | mean_opts | pos_in_legal | label_pos | neg_sources | kinds | act (pos/neg by kind) |")
+    print("|---|---|---|---|---|---|---|---|---|---|")
     for s, v in stats.items():
-        print(f"| {s} | {v['examples']} | {v['skipped_no_negatives']} | {v['mean_options']} | "
-              f"{v['pos_in_legal_rate']} | {v['hold_positive_count']} | {v['label_position_counts']} | "
-              f"{v['negative_source_counts']} | {v['kind_counts']} |")
+        act = ", ".join(f"{kd}:{c['positives']}/{c['negatives']}" for kd, c in v["act_counts"].items())
+        print(f"| {s} | {v['examples']} | {v['skipped_no_negatives']} | {v['skipped_pos_impossible']} | "
+              f"{v['mean_options']} | {v['pos_in_legal_rate']} | {v['label_position_counts']} | "
+              f"{v['negative_source_counts']} | {v['kind_counts']} | {act} |")
 
 
 def main() -> None:
