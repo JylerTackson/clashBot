@@ -70,3 +70,12 @@ For dataset construction, a card is possible if it is a known hand card or (when
 
 ### D-020 · Act/hold head needs denser negatives · noted limitation (Opus review) · 2026-10-28
 The act/hold export is 92–93% "play" because pro samples are drawn around play moments, so `always_play` is already 0.92. A useful act head needs states where nothing was played; the dense 2 s perception timelines that could supply them were in the gitignored `runs/` folder and are not in this checkout. Plan: generate act/hold negatives from the user's own recorded games (or re-run perception on the videos on the Mac) before training that head. Until then, the runtime trigger rules (`should_decide`) decide when to act.
+
+### D-021 · Runtime hardware is an M5 Mac with 16 GB · decided (user) · 2026-10-28
+Slow-loop LLM stays in the Qwen ~3–4B 4-bit class (MLX); d1-omni-600M has official MLX 8-bit/fp16 builds, which fit alongside YOLO and the embedder.
+
+### D-022 · Fine-tune d1 first; data only for now · decided (user) · 2026-10-28
+The decision model is LiquidAI d1-omni-600M. Fine-tuning waits for the user's go-ahead; Sonnet prepares the training data now. Act/hold data from re-run perception is approved for later (D-020).
+
+### D-023 · d1 data in its native Decision Index format, two variants · default (Opus) · 2026-10-28
+d1 takes `(state, {name: question})` with `choice` / `noul` / `score` questions and reads one probability per option (model card + `prompt.py`, checked 2026-10-28). We export (a) **joint**: one `choice` question over the 4 candidate plays (1 pro + 3 hard negatives), matching the runtime re-ranking step; (b) **factorized**: three `choice` questions — card (possible cards), lane (3), zone (4) — answered in one pass, which avoids the 597-key label sparsity; (c) **act**: one `noul` question, provisional until D-020 is resolved. The request builder lives in `clashbot/d1_format.py` and is shared by the export and the future `D1Ranker`, so training and serving send identical requests. Which variant to fine-tune is decided at training time (good ablation for the report).
