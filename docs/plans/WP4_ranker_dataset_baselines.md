@@ -111,3 +111,41 @@ git status --short
 
 ## 7. Report back (≤ 40 lines)
 Files created; tests; stats per split; the baseline table; anything you could not follow exactly and why.
+
+---
+
+## Amendment C (Opus review, 2026-10-28) — replaces parts of §3 and §4
+
+Review of the first build found three design flaws (Opus's, not the implementer's):
+1. **Hold shortcut.** `kind=play` samples are taken 1 s before a real play, so `hold` is never their answer, yet N4 adds hold to almost every example; models learn "never pick hold" for free, and popularity collapses to 0.06.
+2. **Legality mismatch.** Negatives obey the perceived hand and elixir, but the pro's own action passes that check only 51–56% of the time (unknown hand slots, elixir misreads). A model can learn "pick the option that is not in the visible hand", which is a perception artefact.
+3. **Self-referential baseline.** N1 negatives are the kNN neighbours' actions, so `knn_vote` is evaluated on candidates mined to beat it (0.11 < random).
+
+Decisions D-018 and D-019 (decision log) apply. Changes:
+
+**C1. Two heads instead of hold-as-an-option (D-018).** The ranker chooses only among plays. Whether to act now is a separate binary task.
+- Ranker examples: only records with `train_eligible` and `action.type == "play"`. Remove pool N4 entirely.
+- New act/hold export `<dataset>/act/<split>.jsonl`: every record with `train_eligible` (play or hold) → `{"id","game_id","split","kind","context": context_text,"label": 1 if action.type == "play" else 0}`. Add to stats: per split, positives/negatives by kind.
+
+**C2. Possible cards replace legal cards for dataset building (D-019).** Add to `clashbot/game_rules.py` (authorised change to a WP1 file):
+```python
+def possible_cards(state: dict, cards: dict) -> list[str]
+```
+`known = [h for h in state["own"]["hand"] if h]`; `unknown_slots = 4 - len(known)`; result = known (in order, playable only) + (if `unknown_slots > 0`: cards of `state["own"]["deck"]` that are playable and not in `known`, in deck order); duplicates removed. **No elixir filter.**
+```python
+def possible_action_keys(state: dict, cards: dict) -> list[str]
+```
+Same shape as `legal_action_keys` but over `possible_cards`, and **without** appending hold.
+In `build_ranker_dataset.py`, replace `legal`/`legal_cards` with these everywhere (N1 membership test, N3 card list, N5 list). If the positive key is not in `possible_action_keys` → skip the example and count it as `skipped_pos_impossible`.
+
+**C3. Pools and selection (replaces §3.3 selection).** Pools: N1 (neighbours, as before but filtered by possible keys), N2 (same card, other zone — unchanged), N3 (other possible card, same lane and zone — unchanged except card source), N5 (possible keys in order). Selection, target 3: (1) first N1; (2) first N2; (3) first N3; (4) remaining N1; (5) N5. Update `select_negatives` and its tests (drop hold cases; add a case where N3 is used).
+
+**C4. Evaluation (replaces §4).** `eval_ranker_baselines.py` reports two families:
+- **Candidate-generation recall** (the retrieval experiment): for each val/test example, rank the record's `possible_action_keys` by (a) `knn_vote` score (sum of similarity of the top-k train neighbours from other games whose key equals the option; ties by key string), (b) `popularity` (train key frequency; ties by key). Report recall@1, @3, @5, @10 of the positive key, and the same at card level (`card_recall@k`: positive card among the cards of the top-k keys). This is fair: candidates are all possible actions, not mined negatives.
+- **Ranker baselines on the multiple-choice files**: `random_expected`, `popularity`, `popularity_by_phase`, `card_popularity_in_deck` (score = train frequency of the option's card among records whose own deck contains that card, divided by the number of such records), `placement_prior` (score = `zone_freq[card][zone] / sum(zone_freq[card].values())`, 0 if unseen). Do **not** report `knn_vote` on the multiple-choice files (its candidates are mined from it); add a note line saying so in baselines.json (`"note"`).
+- Act/hold baselines on `act/<split>.jsonl`: `always_play` accuracy and `phase_majority` (majority label per phase in train).
+Write all to `baselines.json` and print three markdown tables.
+
+**C5. Tests.** Update: no example has a `"hold"` option; every option key is in that record's `possible_action_keys`; `act/*.jsonl` labels are 0/1 and both values occur in train; recall@k is non-decreasing in k.
+
+Rebuild: `build_ranker_dataset.py`, then the eval, then the §6 commands. Report stats (incl. `skipped_pos_impossible`) and all three tables.

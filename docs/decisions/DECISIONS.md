@@ -61,3 +61,9 @@ Supersedes the opponent-deck part of D-011/D-012's implementation. The per-game 
 
 ### D-017 · Deck registry = all 68 deck files · default (Opus review) · 2026-10-28
 `deck_index.json` covers only the 19 RoyaleAPI-scraped decks; the other 49 deck files were created from the pro's games and carry most creator insights. The KG and documents use every deck file (frontmatter + `## Cards` links) and mark `in_index` on the node.
+
+### D-018 · Separate "act now?" from "what to play" · default (Opus review) · 2026-10-28
+Refines D-010. The ranker picks among play options only; holding is a separate binary act/hold head (both are fixed-answer tasks that suit Laya/d1). Reason: play samples are drawn at play moments, so hold-as-an-option is a free shortcut and its class prior is wrong. At runtime the trigger (`should_decide`) plus the act/hold head decide *when*; the ranker decides *what*.
+
+### D-019 · Training candidates use "possible cards", not perceived legality · default (Opus review) · 2026-10-28
+For dataset construction, a card is possible if it is a known hand card or (when any hand slot is unread) any other deck card; no elixir filter. The pro's action passed the perceived-legality check only ~54% of the time; mixing legal negatives with an "illegal" positive teaches the model perception artefacts. Runtime still filters by perceived legality (`legal_action_keys`).
