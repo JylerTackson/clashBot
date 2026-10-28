@@ -12,6 +12,7 @@ python3 tools/data/build_documents.py       # -> dataset/v1/documents.jsonl (pro
 python3 tools/db/seed.py --hnsw             # -> db/clashbot.sqlite + state_features.npy + .hnsw
 python3 tools/data/build_ranker_dataset.py  # -> dataset/v1/ranker/*.jsonl, act/*.jsonl, placement_prior.json
 python3 tools/eval/eval_ranker_baselines.py # -> dataset/v1/ranker/baselines.json
+python3 tools/data/build_d1_dataset.py --tokenizer db/hf/d1_tokenizer.json  # -> dataset/v1/d1/{joint,factorized,act}/*.jsonl (run after pytest; tokenizer: curl from huggingface.co/LiquidAI/d1-omni-600M)
 python3 -m clashbot.loop --replay LGb0mz8Sb8w-m0.0 --limit 15   # fast loop on a recorded game, no models needed
 ```
 `dataset/` and `db/` are build outputs (gitignored, D-013); `knowledge_base/` is the untouched source layer.
@@ -25,6 +26,7 @@ python3 -m clashbot.loop --replay LGb0mz8Sb8w-m0.0 --limit 15   # fast loop on a
 | documents | 3,654 pro-advice docs (card/deck insights, match lessons, card usage, opponent reads, archetype guides) | RAG context for the slow-loop planner |
 | database | SQLite (states, games, cards, KG, documents, FTS5/BM25) + 644-d structured feature vectors + HNSW index | Retrieval lectures (BM25, dense, RRF, HNSW, filtering) |
 | ranker data | multiple-choice files (1 pro play + 3 hard negatives) for Laya/d1; act/hold export; placement prior | Two-stage RecSys, hard negatives, RAFT distractors |
+| d1 training data | Decision Index format for d1-omni-600M (D-023): joint 4-way choice (3,865 / 807 / 797), factorized card+lane+zone (3,864 / 807 / 797), provisional act yes/no; states 90–733 tokens, no option over d1's per-option budget | TALLRec/P5-style LM-as-ranker; setwise ranking |
 | runtime | `clashbot/`: candidates (kNN + KG + rules), ranker interface (+ Laya/d1 stubs), read-only tools (6), rule planner (+ Qwen stub), executor (dry run + Mac stub with tile→screen homography), fast loop with replay | Agents lecture: typed tools, read-only agent, executor separation |
 
 ## First results (val / test, no models trained yet)
@@ -43,7 +45,7 @@ python3 -m clashbot.loop --replay LGb0mz8Sb8w-m0.0 --limit 15   # fast loop on a
 ## Next steps (proposed, not started)
 
 1. Mac setup: install deps, rebuild, calibrate the iPhone Mirroring window (4-point tile→pixel calibration) and capture → `cr_perception` → clean state (same code path as training, D-015).
-2. Fine-tune Laya and/or d1 on `ranker/*.jsonl` via `format_multiple_choice`; compare with the baselines above.
+2. Fine-tune d1-omni-600M (user's go-ahead pending, D-022) on `dataset/v1/d1/joint` and/or `factorized`; compare with the baselines above.
 3. Slow-loop Qwen planner with the six read-only tools (ReAct), pre-game plan from documents + KG.
 4. Memory and knowledge editing: episodic writes of own games, patch-versioned card edits, edit evaluation (reliability / locality / portability).
 5. Report experiments: retrieval channels (BM25 vs features vs RRF; exact vs HNSW; pre- vs post-filtering), ranker vs baselines, KG embeddings for missing COUNTERS links, end-to-end latency and live trials.

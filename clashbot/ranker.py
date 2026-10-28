@@ -4,6 +4,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Protocol
 
+from clashbot import d1_format
+
 LETTERS = "ABCDEFGH"
 
 
@@ -64,3 +66,6 @@ class LayaRanker(_StubDecisionModel):
 class D1Ranker(_StubDecisionModel):
     name = "d1"
     model_id = "LiquidAI/d1-omni-600M (LFM Open License)"
+
+    def build_request(self, context: str, candidate_keys: list[str], plan: str | None = None) -> tuple[str, dict]:
+        return d1_format.joint_request(context, candidate_keys, plan)

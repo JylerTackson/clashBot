@@ -1,0 +1,284 @@
+{
+  "joint": {
+    "train": {
+      "examples": 3865,
+      "answers": {
+        "play": {
+          "0": 974,
+          "1": 945,
+          "2": 956,
+          "3": 990
+        }
+      },
+      "state_chars": {
+        "min": 258,
+        "median": 595,
+        "max": 1756
+      },
+      "state_tokens": {
+        "min": 90,
+        "median": 244,
+        "max": 733
+      },
+      "option_tokens": {
+        "max": 24
+      },
+      "options_over_budget": 0
+    },
+    "val": {
+      "examples": 807,
+      "answers": {
+        "play": {
+          "0": 208,
+          "1": 206,
+          "2": 216,
+          "3": 177
+        }
+      },
+      "state_chars": {
+        "min": 252,
+        "median": 621,
+        "max": 1276
+      },
+      "state_tokens": {
+        "min": 102,
+        "median": 257,
+        "max": 530
+      },
+      "option_tokens": {
+        "max": 23
+      },
+      "options_over_budget": 0
+    },
+    "test": {
+      "examples": 797,
+      "answers": {
+        "play": {
+          "0": 199,
+          "1": 192,
+          "2": 210,
+          "3": 196
+        }
+      },
+      "state_chars": {
+        "min": 256,
+        "median": 554,
+        "max": 1451
+      },
+      "state_tokens": {
+        "min": 96,
+        "median": 230,
+        "max": 610
+      },
+      "option_tokens": {
+        "max": 23
+      },
+      "options_over_budget": 0
+    }
+  },
+  "factorized": {
+    "train": {
+      "examples": 3864,
+      "skipped_few_cards": 1,
+      "answers": {
+        "card": {
+          "skeletons": 356,
+          "berserker": 241,
+          "goblin-barrel": 211,
+          "electro-spirit": 202,
+          "cannon": 202,
+          "ice-spirit": 179,
+          "the-log": 150,
+          "barbarian-barrel": 133,
+          "fire-spirit": 112,
+          "wall-breakers": 102
+        },
+        "lane": {
+          "middle": 1667,
+          "right": 1070,
+          "left": 1127
+        },
+        "zone": {
+          "back": 455,
+          "enemy_half": 362,
+          "bridge": 1576,
+          "mid": 1471
+        }
+      },
+      "state_chars": {
+        "min": 258,
+        "median": 595.0,
+        "max": 1756
+      },
+      "skipped_card_not_possible": 0,
+      "state_tokens": {
+        "min": 90,
+        "median": 244.0,
+        "max": 733
+      },
+      "option_tokens": {
+        "max": 17
+      },
+      "options_over_budget": 0
+    },
+    "val": {
+      "examples": 807,
+      "answers": {
+        "card": {
+          "wall-breakers": 102,
+          "bomb-tower": 94,
+          "berserker": 90,
+          "fire-spirit": 85,
+          "ice-spirit": 85,
+          "goblin-barrel": 83,
+          "royal-delivery": 51,
+          "magic-archer": 47,
+          "skeletons": 29,
+          "bats": 21
+        },
+        "lane": {
+          "middle": 302,
+          "right": 236,
+          "left": 269
+        },
+        "zone": {
+          "back": 55,
+          "mid": 286,
+          "bridge": 363,
+          "enemy_half": 103
+        }
+      },
+      "state_chars": {
+        "min": 252,
+        "median": 621,
+        "max": 1276
+      },
+      "skipped_few_cards": 0,
+      "skipped_card_not_possible": 0,
+      "state_tokens": {
+        "min": 102,
+        "median": 257,
+        "max": 530
+      },
+      "option_tokens": {
+        "max": 17
+      },
+      "options_over_budget": 0
+    },
+    "test": {
+      "examples": 797,
+      "answers": {
+        "card": {
+          "the-log": 64,
+          "berserker": 62,
+          "skeletons": 54,
+          "electro-spirit": 47,
+          "wall-breakers": 46,
+          "miner": 42,
+          "bomb-tower": 34,
+          "fireball": 33,
+          "valkyrie": 32,
+          "spear-goblins": 31
+        },
+        "lane": {
+          "left": 259,
+          "middle": 305,
+          "right": 233
+        },
+        "zone": {
+          "mid": 259,
+          "bridge": 385,
+          "back": 64,
+          "enemy_half": 89
+        }
+      },
+      "state_chars": {
+        "min": 256,
+        "median": 554,
+        "max": 1451
+      },
+      "skipped_few_cards": 0,
+      "skipped_card_not_possible": 0,
+      "state_tokens": {
+        "min": 96,
+        "median": 230,
+        "max": 610
+      },
+      "option_tokens": {
+        "max": 17
+      },
+      "options_over_budget": 0
+    }
+  },
+  "act": {
+    "train": {
+      "examples": 4689,
+      "answers": {
+        "act": {
+          "true": 4195,
+          "false": 494
+        }
+      },
+      "state_chars": {
+        "min": 245,
+        "median": 587,
+        "max": 1756
+      },
+      "state_tokens": {
+        "min": 90,
+        "median": 241,
+        "max": 733
+      },
+      "option_tokens": {
+        "max": 8
+      },
+      "options_over_budget": 0
+    },
+    "val": {
+      "examples": 989,
+      "answers": {
+        "act": {
+          "true": 916,
+          "false": 73
+        }
+      },
+      "state_chars": {
+        "min": 234,
+        "median": 617,
+        "max": 1454
+      },
+      "state_tokens": {
+        "min": 93,
+        "median": 256,
+        "max": 585
+      },
+      "option_tokens": {
+        "max": 8
+      },
+      "options_over_budget": 0
+    },
+    "test": {
+      "examples": 980,
+      "answers": {
+        "act": {
+          "true": 902,
+          "false": 78
+        }
+      },
+      "state_chars": {
+        "min": 247,
+        "median": 548.5,
+        "max": 1451
+      },
+      "state_tokens": {
+        "min": 93,
+        "median": 227.0,
+        "max": 610
+      },
+      "option_tokens": {
+        "max": 8
+      },
+      "options_over_budget": 0
+    }
+  }
+}
