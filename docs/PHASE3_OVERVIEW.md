@@ -29,7 +29,7 @@ python3 -m clashbot.loop --replay LGb0mz8Sb8w-m0.0 --limit 15   # fast loop on a
 
 ## First results (val / test, no models trained yet)
 
-- Retrieval search latency ≈ 40–50 ms; full fast-loop decision ≈ 75 ms p50 / 92 ms p95 (CPU, no models).
+- Retrieval search latency ≈ 40–50 ms; full fast-loop decision ≈ 41 ms p50 / 60 ms p95 (CPU, no models).
 - Candidate recall@10 of the pro's exact action (card × lane × zone): kNN vote 0.36 / 0.31, popularity 0.49 / 0.40; at card level kNN 0.71 / 0.65 vs popularity 0.65 / 0.61. A tuned simple baseline is competitive at key level — the RecSys lecture's main lesson, now measured on our data.
 - Multiple-choice baselines (4 options, random 0.25): placement prior 0.37 / 0.36, popularity 0.31 / 0.26. These are the numbers the fine-tuned Laya/d1 ranker has to beat.
 - Act/hold: 92% of eligible samples are plays, so the act head needs denser negatives (D-020).
