@@ -1,0 +1,317 @@
+{
+  "note": "knn_vote is not reported on the multiple-choice files: their N1 negatives are mined from the same kNN neighbours. It is evaluated fairly in candidate_recall over all possible action keys.",
+  "candidate_recall": {
+    "val": {
+      "knn_vote": {
+        "n": 807,
+        "recall@1": 0.0644,
+        "recall@3": 0.1772,
+        "recall@5": 0.2441,
+        "recall@10": 0.3581,
+        "card_recall@1": 0.2193,
+        "card_recall@3": 0.4399,
+        "card_recall@5": 0.5688,
+        "card_recall@10": 0.7138
+      },
+      "popularity": {
+        "n": 807,
+        "recall@1": 0.0805,
+        "recall@3": 0.1945,
+        "recall@5": 0.3048,
+        "recall@10": 0.487,
+        "card_recall@1": 0.2069,
+        "card_recall@3": 0.3606,
+        "card_recall@5": 0.4845,
+        "card_recall@10": 0.6481
+      }
+    },
+    "test": {
+      "knn_vote": {
+        "n": 797,
+        "recall@1": 0.0678,
+        "recall@3": 0.1531,
+        "recall@5": 0.2146,
+        "recall@10": 0.3112,
+        "card_recall@1": 0.2321,
+        "card_recall@3": 0.4529,
+        "card_recall@5": 0.5558,
+        "card_recall@10": 0.6499
+      },
+      "popularity": {
+        "n": 797,
+        "recall@1": 0.069,
+        "recall@3": 0.1531,
+        "recall@5": 0.2371,
+        "recall@10": 0.4003,
+        "card_recall@1": 0.1945,
+        "card_recall@3": 0.325,
+        "card_recall@5": 0.4555,
+        "card_recall@10": 0.611
+      }
+    }
+  },
+  "ranker": {
+    "val": {
+      "random_expected": {
+        "acc": 0.25,
+        "n": 807,
+        "by_kind": {
+          "key": {
+            "acc": 0.25,
+            "n": 281
+          },
+          "periodic": {
+            "acc": 0.25,
+            "n": 7
+          },
+          "play": {
+            "acc": 0.25,
+            "n": 519
+          }
+        }
+      },
+      "popularity": {
+        "acc": 0.3098,
+        "n": 807,
+        "by_kind": {
+          "key": {
+            "acc": 0.3203,
+            "n": 281
+          },
+          "periodic": {
+            "acc": 0.2857,
+            "n": 7
+          },
+          "play": {
+            "acc": 0.3044,
+            "n": 519
+          }
+        }
+      },
+      "popularity_by_phase": {
+        "acc": 0.3172,
+        "n": 807,
+        "by_kind": {
+          "key": {
+            "acc": 0.3132,
+            "n": 281
+          },
+          "periodic": {
+            "acc": 0.2857,
+            "n": 7
+          },
+          "play": {
+            "acc": 0.3198,
+            "n": 519
+          }
+        }
+      },
+      "card_popularity_in_deck": {
+        "acc": 0.1933,
+        "n": 807,
+        "by_kind": {
+          "key": {
+            "acc": 0.1637,
+            "n": 281
+          },
+          "periodic": {
+            "acc": 0.1429,
+            "n": 7
+          },
+          "play": {
+            "acc": 0.21,
+            "n": 519
+          }
+        }
+      },
+      "placement_prior": {
+        "acc": 0.373,
+        "n": 807,
+        "by_kind": {
+          "key": {
+            "acc": 0.452,
+            "n": 281
+          },
+          "periodic": {
+            "acc": 0.7143,
+            "n": 7
+          },
+          "play": {
+            "acc": 0.3256,
+            "n": 519
+          }
+        }
+      }
+    },
+    "test": {
+      "random_expected": {
+        "acc": 0.25,
+        "n": 797,
+        "by_kind": {
+          "key": {
+            "acc": 0.25,
+            "n": 312
+          },
+          "periodic": {
+            "acc": 0.25,
+            "n": 11
+          },
+          "play": {
+            "acc": 0.25,
+            "n": 474
+          }
+        }
+      },
+      "popularity": {
+        "acc": 0.2597,
+        "n": 797,
+        "by_kind": {
+          "key": {
+            "acc": 0.2532,
+            "n": 312
+          },
+          "periodic": {
+            "acc": 0.4545,
+            "n": 11
+          },
+          "play": {
+            "acc": 0.2595,
+            "n": 474
+          }
+        }
+      },
+      "popularity_by_phase": {
+        "acc": 0.2033,
+        "n": 797,
+        "by_kind": {
+          "key": {
+            "acc": 0.2019,
+            "n": 312
+          },
+          "periodic": {
+            "acc": 0.2727,
+            "n": 11
+          },
+          "play": {
+            "acc": 0.2025,
+            "n": 474
+          }
+        }
+      },
+      "card_popularity_in_deck": {
+        "acc": 0.1895,
+        "n": 797,
+        "by_kind": {
+          "key": {
+            "acc": 0.1827,
+            "n": 312
+          },
+          "periodic": {
+            "acc": 0.4545,
+            "n": 11
+          },
+          "play": {
+            "acc": 0.1878,
+            "n": 474
+          }
+        }
+      },
+      "placement_prior": {
+        "acc": 0.3614,
+        "n": 797,
+        "by_kind": {
+          "key": {
+            "acc": 0.3878,
+            "n": 312
+          },
+          "periodic": {
+            "acc": 0.2727,
+            "n": 11
+          },
+          "play": {
+            "acc": 0.346,
+            "n": 474
+          }
+        }
+      }
+    }
+  },
+  "act": {
+    "val": {
+      "always_play": {
+        "acc": 0.9262,
+        "n": 989,
+        "by_kind": {
+          "key": {
+            "acc": 0.9003,
+            "n": 351
+          },
+          "periodic": {
+            "acc": 0.1915,
+            "n": 47
+          },
+          "play": {
+            "acc": 1.0,
+            "n": 591
+          }
+        }
+      },
+      "phase_majority": {
+        "acc": 0.9262,
+        "n": 989,
+        "by_kind": {
+          "key": {
+            "acc": 0.9003,
+            "n": 351
+          },
+          "periodic": {
+            "acc": 0.1915,
+            "n": 47
+          },
+          "play": {
+            "acc": 1.0,
+            "n": 591
+          }
+        }
+      }
+    },
+    "test": {
+      "always_play": {
+        "acc": 0.9204,
+        "n": 980,
+        "by_kind": {
+          "key": {
+            "acc": 0.912,
+            "n": 375
+          },
+          "periodic": {
+            "acc": 0.2241,
+            "n": 58
+          },
+          "play": {
+            "acc": 1.0,
+            "n": 547
+          }
+        }
+      },
+      "phase_majority": {
+        "acc": 0.9204,
+        "n": 980,
+        "by_kind": {
+          "key": {
+            "acc": 0.912,
+            "n": 375
+          },
+          "periodic": {
+            "acc": 0.2241,
+            "n": 58
+          },
+          "play": {
+            "acc": 1.0,
+            "n": 547
+          }
+        }
+      }
+    }
+  }
+}

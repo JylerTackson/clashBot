@@ -1,0 +1,116 @@
+{
+  "train": {
+    "examples": 3865,
+    "skipped_no_negatives": 0,
+    "skipped_pos_impossible": 330,
+    "mean_options": 4.0,
+    "label_position_counts": {
+      "0": 974,
+      "1": 945,
+      "2": 956,
+      "3": 990
+    },
+    "negative_source_counts": {
+      "N1": 4151,
+      "N2": 3747,
+      "N3": 3624,
+      "N5": 73
+    },
+    "pos_in_legal_rate": 0.536,
+    "kind_counts": {
+      "key": 1647,
+      "periodic": 46,
+      "play": 2172
+    },
+    "act_counts": {
+      "key": {
+        "positives": 1780,
+        "negatives": 244
+      },
+      "periodic": {
+        "positives": 48,
+        "negatives": 250
+      },
+      "play": {
+        "positives": 2367,
+        "negatives": 0
+      }
+    }
+  },
+  "val": {
+    "examples": 807,
+    "skipped_no_negatives": 0,
+    "skipped_pos_impossible": 109,
+    "mean_options": 4.0,
+    "label_position_counts": {
+      "0": 208,
+      "1": 206,
+      "2": 216,
+      "3": 177
+    },
+    "negative_source_counts": {
+      "N1": 844,
+      "N2": 792,
+      "N3": 768,
+      "N5": 17
+    },
+    "pos_in_legal_rate": 0.535,
+    "kind_counts": {
+      "key": 281,
+      "periodic": 7,
+      "play": 519
+    },
+    "act_counts": {
+      "key": {
+        "positives": 316,
+        "negatives": 35
+      },
+      "periodic": {
+        "positives": 9,
+        "negatives": 38
+      },
+      "play": {
+        "positives": 591,
+        "negatives": 0
+      }
+    }
+  },
+  "test": {
+    "examples": 797,
+    "skipped_no_negatives": 0,
+    "skipped_pos_impossible": 105,
+    "mean_options": 4.0,
+    "label_position_counts": {
+      "0": 199,
+      "1": 192,
+      "2": 210,
+      "3": 196
+    },
+    "negative_source_counts": {
+      "N1": 820,
+      "N2": 761,
+      "N3": 765,
+      "N5": 45
+    },
+    "pos_in_legal_rate": 0.592,
+    "kind_counts": {
+      "key": 312,
+      "periodic": 11,
+      "play": 474
+    },
+    "act_counts": {
+      "key": {
+        "positives": 342,
+        "negatives": 33
+      },
+      "periodic": {
+        "positives": 13,
+        "negatives": 45
+      },
+      "play": {
+        "positives": 547,
+        "negatives": 0
+      }
+    }
+  }
+}

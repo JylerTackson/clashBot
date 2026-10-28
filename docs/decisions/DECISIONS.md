@@ -67,3 +67,6 @@ Refines D-010. The ranker picks among play options only; holding is a separate b
 
 ### D-019 · Training candidates use "possible cards", not perceived legality · default (Opus review) · 2026-10-28
 For dataset construction, a card is possible if it is a known hand card or (when any hand slot is unread) any other deck card; no elixir filter. The pro's action passed the perceived-legality check only ~54% of the time; mixing legal negatives with an "illegal" positive teaches the model perception artefacts. Runtime still filters by perceived legality (`legal_action_keys`).
+
+### D-020 · Act/hold head needs denser negatives · noted limitation (Opus review) · 2026-10-28
+The act/hold export is 92–93% "play" because pro samples are drawn around play moments, so `always_play` is already 0.92. A useful act head needs states where nothing was played; the dense 2 s perception timelines that could supply them were in the gitignored `runs/` folder and are not in this checkout. Plan: generate act/hold negatives from the user's own recorded games (or re-run perception on the videos on the Mac) before training that head. Until then, the runtime trigger rules (`should_decide`) decide when to act.
