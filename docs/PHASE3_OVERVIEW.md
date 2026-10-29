@@ -26,7 +26,7 @@ python3 -m clashbot.loop --replay LGb0mz8Sb8w-m0.0 --limit 15   # fast loop on a
 | documents | 3,654 pro-advice docs (card/deck insights, match lessons, card usage, opponent reads, archetype guides) | RAG context for the slow-loop planner |
 | database | SQLite (states, games, cards, KG, documents, FTS5/BM25) + 644-d structured feature vectors + HNSW index | Retrieval lectures (BM25, dense, RRF, HNSW, filtering) |
 | ranker data | multiple-choice files (1 pro play + 3 hard negatives) for Laya/d1; act/hold export; placement prior | Two-stage RecSys, hard negatives, RAFT distractors |
-| d1 training data | Decision Index format for d1-omni-600M (D-023): joint 4-way choice (3,865 / 807 / 797), factorized card+lane+zone (3,864 / 807 / 797), provisional act yes/no; states 90–733 tokens, no option over d1's per-option budget | TALLRec/P5-style LM-as-ranker; setwise ranking |
+| d1 training data | Decision Index format for d1-omni-600M (D-023): joint 4-way choice (3,764 / 771 / 780), factorized card+lane+zone (3,763 / 771 / 780), provisional act yes/no; states 90–733 tokens, no option over d1's per-option budget | TALLRec/P5-style LM-as-ranker; setwise ranking |
 | runtime | `clashbot/`: candidates (kNN + KG + rules), ranker interface (+ Laya/d1 stubs), read-only tools (6), rule planner (+ Qwen stub), executor (dry run + Mac stub with tile→screen homography), fast loop with replay | Agents lecture: typed tools, read-only agent, executor separation |
 
 ## First results (val / test, no models trained yet)

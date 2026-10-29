@@ -1,26 +1,26 @@
 {
   "train": {
-    "examples": 3865,
+    "examples": 3764,
     "skipped_no_negatives": 0,
-    "skipped_pos_impossible": 330,
+    "skipped_pos_impossible": 431,
     "mean_options": 4.0,
     "label_position_counts": {
-      "0": 974,
-      "1": 945,
-      "2": 956,
-      "3": 990
+      "0": 951,
+      "1": 923,
+      "2": 925,
+      "3": 965
     },
     "negative_source_counts": {
-      "N1": 4151,
-      "N2": 3747,
-      "N3": 3624,
-      "N5": 73
+      "N1": 4046,
+      "N2": 3646,
+      "N3": 3525,
+      "N5": 75
     },
-    "pos_in_legal_rate": 0.536,
+    "pos_in_legal_rate": 0.549,
     "kind_counts": {
-      "key": 1647,
+      "key": 1623,
       "periodic": 46,
-      "play": 2172
+      "play": 2095
     },
     "act_counts": {
       "key": {
@@ -38,27 +38,27 @@
     }
   },
   "val": {
-    "examples": 807,
+    "examples": 771,
     "skipped_no_negatives": 0,
-    "skipped_pos_impossible": 109,
+    "skipped_pos_impossible": 145,
     "mean_options": 4.0,
     "label_position_counts": {
-      "0": 208,
-      "1": 206,
-      "2": 216,
-      "3": 177
+      "0": 199,
+      "1": 196,
+      "2": 207,
+      "3": 169
     },
     "negative_source_counts": {
-      "N1": 844,
-      "N2": 792,
-      "N3": 768,
+      "N1": 807,
+      "N2": 756,
+      "N3": 733,
       "N5": 17
     },
-    "pos_in_legal_rate": 0.535,
+    "pos_in_legal_rate": 0.56,
     "kind_counts": {
-      "key": 281,
+      "key": 269,
       "periodic": 7,
-      "play": 519
+      "play": 495
     },
     "act_counts": {
       "key": {
@@ -76,27 +76,27 @@
     }
   },
   "test": {
-    "examples": 797,
+    "examples": 780,
     "skipped_no_negatives": 0,
-    "skipped_pos_impossible": 105,
+    "skipped_pos_impossible": 122,
     "mean_options": 4.0,
     "label_position_counts": {
-      "0": 199,
-      "1": 192,
-      "2": 210,
-      "3": 196
+      "0": 193,
+      "1": 191,
+      "2": 205,
+      "3": 191
     },
     "negative_source_counts": {
-      "N1": 820,
-      "N2": 761,
-      "N3": 765,
-      "N5": 45
+      "N1": 801,
+      "N2": 745,
+      "N3": 748,
+      "N5": 46
     },
-    "pos_in_legal_rate": 0.592,
+    "pos_in_legal_rate": 0.6,
     "kind_counts": {
-      "key": 312,
+      "key": 308,
       "periodic": 11,
-      "play": 474
+      "play": 461
     },
     "act_counts": {
       "key": {

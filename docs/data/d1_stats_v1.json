@@ -1,23 +1,23 @@
 {
   "joint": {
     "train": {
-      "examples": 3865,
+      "examples": 3764,
       "answers": {
         "play": {
-          "0": 974,
-          "1": 945,
-          "2": 956,
-          "3": 990
+          "0": 951,
+          "1": 923,
+          "2": 925,
+          "3": 965
         }
       },
       "state_chars": {
         "min": 258,
-        "median": 595,
+        "median": 594.0,
         "max": 1756
       },
       "state_tokens": {
         "min": 90,
-        "median": 244,
+        "median": 243.0,
         "max": 733
       },
       "option_tokens": {
@@ -26,13 +26,13 @@
       "options_over_budget": 0
     },
     "val": {
-      "examples": 807,
+      "examples": 771,
       "answers": {
         "play": {
-          "0": 208,
-          "1": 206,
-          "2": 216,
-          "3": 177
+          "0": 199,
+          "1": 196,
+          "2": 207,
+          "3": 169
         }
       },
       "state_chars": {
@@ -51,24 +51,24 @@
       "options_over_budget": 0
     },
     "test": {
-      "examples": 797,
+      "examples": 780,
       "answers": {
         "play": {
-          "0": 199,
-          "1": 192,
-          "2": 210,
-          "3": 196
+          "0": 193,
+          "1": 191,
+          "2": 205,
+          "3": 191
         }
       },
       "state_chars": {
         "min": 256,
-        "median": 554,
+        "median": 553.5,
         "max": 1451
       },
       "state_tokens": {
         "min": 96,
-        "median": 230,
-        "max": 610
+        "median": 229.5,
+        "max": 601
       },
       "option_tokens": {
         "max": 23
@@ -78,42 +78,42 @@
   },
   "factorized": {
     "train": {
-      "examples": 3864,
+      "examples": 3763,
       "skipped_few_cards": 1,
       "answers": {
         "card": {
           "skeletons": 356,
-          "berserker": 241,
-          "goblin-barrel": 211,
-          "electro-spirit": 202,
-          "cannon": 202,
-          "ice-spirit": 179,
-          "the-log": 150,
-          "barbarian-barrel": 133,
-          "fire-spirit": 112,
-          "wall-breakers": 102
+          "berserker": 236,
+          "electro-spirit": 198,
+          "cannon": 197,
+          "goblin-barrel": 190,
+          "ice-spirit": 174,
+          "the-log": 146,
+          "barbarian-barrel": 130,
+          "fire-spirit": 104,
+          "wall-breakers": 101
         },
         "lane": {
-          "middle": 1667,
-          "right": 1070,
-          "left": 1127
+          "middle": 1636,
+          "right": 1043,
+          "left": 1084
         },
         "zone": {
-          "back": 455,
-          "enemy_half": 362,
-          "bridge": 1576,
-          "mid": 1471
+          "back": 445,
+          "enemy_half": 341,
+          "bridge": 1538,
+          "mid": 1439
         }
       },
       "state_chars": {
         "min": 258,
-        "median": 595.0,
+        "median": 594,
         "max": 1756
       },
       "skipped_card_not_possible": 0,
       "state_tokens": {
         "min": 90,
-        "median": 244.0,
+        "median": 243,
         "max": 733
       },
       "option_tokens": {
@@ -122,30 +122,30 @@
       "options_over_budget": 0
     },
     "val": {
-      "examples": 807,
+      "examples": 771,
       "answers": {
         "card": {
-          "wall-breakers": 102,
-          "bomb-tower": 94,
-          "berserker": 90,
-          "fire-spirit": 85,
-          "ice-spirit": 85,
-          "goblin-barrel": 83,
-          "royal-delivery": 51,
-          "magic-archer": 47,
+          "wall-breakers": 101,
+          "bomb-tower": 89,
+          "fire-spirit": 84,
+          "ice-spirit": 82,
+          "goblin-barrel": 82,
+          "berserker": 78,
+          "royal-delivery": 50,
+          "magic-archer": 35,
           "skeletons": 29,
           "bats": 21
         },
         "lane": {
-          "middle": 302,
-          "right": 236,
-          "left": 269
+          "middle": 283,
+          "right": 233,
+          "left": 255
         },
         "zone": {
-          "back": 55,
-          "mid": 286,
-          "bridge": 363,
-          "enemy_half": 103
+          "back": 53,
+          "mid": 269,
+          "bridge": 347,
+          "enemy_half": 102
         }
       },
       "state_chars": {
@@ -166,43 +166,43 @@
       "options_over_budget": 0
     },
     "test": {
-      "examples": 797,
+      "examples": 780,
       "answers": {
         "card": {
-          "the-log": 64,
-          "berserker": 62,
-          "skeletons": 54,
-          "electro-spirit": 47,
+          "the-log": 62,
+          "berserker": 61,
+          "skeletons": 53,
           "wall-breakers": 46,
           "miner": 42,
-          "bomb-tower": 34,
-          "fireball": 33,
+          "electro-spirit": 40,
+          "bomb-tower": 33,
           "valkyrie": 32,
-          "spear-goblins": 31
+          "fireball": 32,
+          "spear-goblins": 30
         },
         "lane": {
-          "left": 259,
-          "middle": 305,
-          "right": 233
+          "left": 250,
+          "middle": 302,
+          "right": 228
         },
         "zone": {
-          "mid": 259,
-          "bridge": 385,
-          "back": 64,
-          "enemy_half": 89
+          "mid": 254,
+          "bridge": 376,
+          "back": 62,
+          "enemy_half": 88
         }
       },
       "state_chars": {
         "min": 256,
-        "median": 554,
+        "median": 553.5,
         "max": 1451
       },
       "skipped_few_cards": 0,
       "skipped_card_not_possible": 0,
       "state_tokens": {
         "min": 96,
-        "median": 230,
-        "max": 610
+        "median": 229.5,
+        "max": 601
       },
       "option_tokens": {
         "max": 17
