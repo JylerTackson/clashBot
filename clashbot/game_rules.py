@@ -88,10 +88,22 @@ def parse_action_key(key: str) -> dict:
     return {"type": "play", "card": parts[0], "lane": parts[1], "zone": parts[2]}
 
 
+def next_card_blocked(state: dict) -> str | None:
+    """The card shown in the "next" slot, which cannot be played yet; None if unread or if it also appears in the known hand (contradictory reading: the hand wins)."""
+    own = state["own"]
+    nxt = own.get("next_card")
+    if isinstance(nxt, str) and nxt and nxt not in [h for h in own["hand"] if h]:
+        return nxt
+    return None
+
+
 def legal_cards(state: dict, cards: dict, elixir_tolerance: float = 0.5) -> list[str]:
     own = state["own"]
     hand = [h for h in own["hand"] if h]
     pool = hand if hand else list(own["deck"])
+    if not hand:
+        blocked = next_card_blocked(state)
+        pool = [c for c in pool if c != blocked]
     elixir = own["elixir"] or 0
     out: list[str] = []
     for c in pool:
@@ -135,6 +147,9 @@ def possible_cards(state: dict, cards: dict) -> list[str]:
         for c in own["deck"]:
             if is_playable(c, cards) and c not in known and c not in out:
                 out.append(c)
+    blocked = next_card_blocked(state)
+    if blocked in out:
+        out.remove(blocked)
     return out
 
 

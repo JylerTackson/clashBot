@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from clashbot.actions import option_text, placement_tile  # noqa: E402
-from clashbot.game_rules import load_cards, possible_action_keys  # noqa: E402
+from clashbot.game_rules import legal_cards, load_cards, next_card_blocked, possible_action_keys, possible_cards  # noqa: E402
 from tools.data.build_ranker_dataset import select_negatives  # noqa: E402
 
 DATASET = ROOT / "dataset" / "v1"
@@ -128,3 +128,55 @@ def test_baselines(built):
                 vals = [m[f"{prefix}@{k}"] for k in (1, 3, 5, 10)]
                 assert all(0.0 <= v <= 1.0 for v in vals)
                 assert vals == sorted(vals)
+
+
+_NEXT_DECK = ["knight", "archers", "giant", "fireball", "musketeer", "valkyrie", "minions", "zap"]
+
+
+def _next_state(hand, next_card, elixir=10.0):
+    return {"own": {"hand": hand, "next_card": next_card, "deck": list(_NEXT_DECK), "elixir": elixir}}
+
+
+def test_possible_cards_excludes_next_card():
+    cards = load_cards()
+    out = possible_cards(_next_state(["knight", None, None, None], "archers"), cards)
+    assert "archers" not in out
+    assert "knight" in out
+
+
+def test_possible_cards_next_card_in_hand_not_blocked():
+    cards = load_cards()
+    state = _next_state(["archers", None, None, None], "archers")
+    assert next_card_blocked(state) is None
+    assert "archers" in possible_cards(state, cards)
+
+
+def test_legal_cards_fallback_excludes_next_card():
+    cards = load_cards()
+    out = legal_cards(_next_state([None, None, None, None], "archers", elixir=10.0), cards)
+    assert "archers" not in out
+    assert "knight" in out
+
+
+@needs_dataset
+def test_next_card_never_offered_in_built_data():
+    if not (DATASET / "ranker" / "val.jsonl").exists():
+        pytest.skip("dataset/v1/ranker/val.jsonl missing")
+    states = {}
+    with open(DATASET / "states.jsonl") as f:
+        for line in f:
+            r = json.loads(line)
+            states[r["id"]] = r["state"]
+    fact_dir = DATASET / "d1" / "factorized"
+    for path in sorted(fact_dir.glob("*.jsonl")):
+        with open(path) as f:
+            for line in f:
+                ex = json.loads(line)
+                blocked = next_card_blocked(states[ex["id"]])
+                if blocked:
+                    assert blocked not in ex["questions"]["card"]["criteria"], (path.name, ex["id"])
+    for split in ("train", "val", "test"):
+        for ex in _read(split):
+            blocked = next_card_blocked(states[ex["id"]])
+            if blocked:
+                assert all(o["key"].split("|")[0] != blocked for o in ex["options"]), (split, ex["id"])
