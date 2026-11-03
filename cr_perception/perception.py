@@ -6,6 +6,8 @@
 
 Rates: HUD readers run every frame; the unit detector and OCR run at a
 reduced rate (detect_every / ocr_every frames) so the loop keeps its rate.
+Rates count processed frames (`n_processed`), so they are independent of the
+source's stride and start index.
 """
 from __future__ import annotations
 
@@ -114,6 +116,7 @@ class Perception:
         self.clock = ClockTracker()
         self.gate = MatchGate(self.ENTER_FRAMES, self.EXIT_SECONDS)
         self.frame_i = 0
+        self.n_processed = 0                      # frames seen by process(); drives the rate gates
         self.H = None
         self.timing: dict[str, list[float]] = {}
         self.match_t0: float | None = None
@@ -179,6 +182,8 @@ class Perception:
 
     # ------------------------------------------------------------------
     def process(self, frame: np.ndarray, t: float, idx: int) -> GameState:
+        n = self.n_processed                  # rate gates use n, not the source's frame index idx
+        self.n_processed += 1
         self.frame_i = idx
         t_all = time.perf_counter()
         fw, fh = frame.shape[1], frame.shape[0]
@@ -218,7 +223,7 @@ class Perception:
         # ---- HUD: hand ----
         t0 = time.perf_counter()
         hand = self.hand_reader.read(content)
-        if idx % 3 == 0:
+        if n % 3 == 0:
             # enlarged boxes so a raised (selected) card is still fully inside
             self._slot_crops.append((t, [crop_roi(content, self._wide_slot(i)).copy() for i in range(4)]))
             self._slot_crops = [c for c in self._slot_crops if t - c[0] <= 9.0]
@@ -228,7 +233,7 @@ class Perception:
         # ---- clock / phase (template digits every frame, OCR fallback at low rate) ----
         t0 = time.perf_counter()
         clock_s, clock_conf, remaining = "", 0.0, None
-        if self.ocr is not None and idx % self.ocr_every == 0:
+        if self.ocr is not None and n % self.ocr_every == 0:
             s, c = self.ocr.read(crop_roi(content, self.calib.rois["clock"]))
             if parse_clock(s) is None:
                 # other HUD layouts print "OVERTIME 1:59" / "Time left 2:31" in one box
@@ -261,7 +266,7 @@ class Perception:
         # ---- towers (OCR, low rate) ----
         towers_own = {"king": None, "left": None, "right": None}
         towers_enemy = {"king": None, "left": None, "right": None}
-        if self.tower_ocr and self.ocr is not None and idx % self.ocr_every == 0:
+        if self.tower_ocr and self.ocr is not None and n % self.ocr_every == 0:
             t0 = time.perf_counter()
             hp = self.tower_reader.read(content)
             for k in ("king", "left", "right"):
@@ -282,7 +287,7 @@ class Perception:
 
         # ---- deploy labels + tower HP numbers (arena OCR, low rate) ----
         label_events_input = ([], [])
-        if self.labels is not None and self.H is not None and idx % self.label_every == 0:
+        if self.labels is not None and self.H is not None and n % self.label_every == 0:
             t0 = time.perf_counter()
             labels, numbers = self.labels.read(content, self.calib.arena_crop(cw, ch))
             tiles = []
@@ -318,7 +323,7 @@ class Perception:
         # ---- units: detector at a low rate, Kalman tracks every frame ----
         units: list[UnitObs] = []
         units_conf = None
-        if self.detector is not None and self.H is not None and idx % self.detect_every == 0:
+        if self.detector is not None and self.H is not None and n % self.detect_every == 0:
             t0 = time.perf_counter()
             dets = self.detector.detect(content, self.calib.arena_crop(cw, ch))
             towers_seen: list[UnitObs] = []
@@ -362,7 +367,7 @@ class Perception:
         if label_events_input[0]:
             new_events += self.play.update_labels(t, label_events_input[0], label_events_input[1], clock_v)
         new_events += self.play.release_holds(t)
-        if idx % self.detect_every == 0 and self.detector is not None:
+        if n % self.detect_every == 0 and self.detector is not None:
             new_events += self.play.update_units(t, units, clock_v)
         new_events += self.play.update_tower_hp(t, {"own_king": towers_own["king"], "own_left": towers_own["left"],
                                                     "own_right": towers_own["right"]}, units, clock_v)
