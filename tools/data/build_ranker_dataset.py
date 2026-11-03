@@ -85,14 +85,19 @@ def build_placement_prior(records: list[dict]) -> dict:
             "zone_freq": {c: dict(sorted(z.items())) for c, z in sorted(zone_freq.items())}}
 
 
-def placement_candidates(c1: str, l1: str, z1: str, zone_freq: dict, variant: int) -> list[tuple[str, str]]:
+def placement_candidates(c1: str, l1: str, z1: str, zone_freq: dict, variant: int,
+                         rng: random.Random) -> list[tuple[str, str]]:
     """Ordered (lane, zone) alternatives to (l1, z1): Z same lane/other zone, L other lane/same zone, B both differ.
 
-    variant = seed % 3 rotates the block order (0: Z L B, 1: L Z B, 2: B Z L) so lane and zone both vary across the set."""
+    variant = seed % 3 rotates the block order (0: Z L B, 1: L Z B, 2: B Z L) so lane and zone both vary across the set.
+    Z stays in zone-frequency order (a real "most frequent other zone" hard negative); L and B are shuffled with `rng`
+    so the negative lane is not always the first other lane in LANES order (FIX_LIST #13)."""
     freq = zone_freq.get(c1, {})
     z_block = [(l1, z) for z in sorted(ZONES, key=lambda z: (-freq.get(z, 0), z)) if z != z1]
     l_block = [(lane, z1) for lane in LANES if lane != l1]
     b_block = [(lane, z) for lane in LANES for z in ZONES if lane != l1 and z != z1]
+    rng.shuffle(l_block)
+    rng.shuffle(b_block)
     return {0: z_block + l_block + b_block, 1: l_block + z_block + b_block, 2: b_block + z_block + l_block}[variant]
 
 
@@ -101,7 +106,8 @@ def grid_options(rec: dict, pos: str, possible_keys: list[str], neighbour_keys: 
     """The three grid negatives [(G_card, key), (G_place, key), (G_diag, key)] for the positive `pos`, or None if no grid fits.
 
     c2 = first card (neighbour cards, then possible cards) playable at the pro's placement; (l2, z2) = first
-    placement candidate where both c1 and c2 are possible. All four options are then in possible_keys."""
+    placement candidate where both c1 and c2 are possible (L and B blocks shuffled by an rng seeded from `seed`,
+    independent of the option-order shuffle). All four options are then in possible_keys."""
     c1, l1, z1 = pos.split("|")
     possible = set(possible_keys)
     candidates = [k.split("|")[0] for k in neighbour_keys if k != HOLD_KEY] + possible_cards(rec["state"], cards)
@@ -109,7 +115,7 @@ def grid_options(rec: dict, pos: str, possible_keys: list[str], neighbour_keys: 
     for c in candidates:
         if c != c1 and c not in second and action_key(c, l1, z1) in possible:
             second.append(c)
-    placements = placement_candidates(c1, l1, z1, zone_freq, seed % 3)
+    placements = placement_candidates(c1, l1, z1, zone_freq, seed % 3, random.Random(seed ^ 0x9E3779B9))
     for c2 in second:
         for l2, z2 in placements:
             if action_key(c1, l2, z2) in possible and action_key(c2, l2, z2) in possible:
@@ -132,6 +138,27 @@ def shortcut_value(keys: list[str], label: int) -> float:
     scores = [cards.count(c) + places.count(p) for c, p in zip(cards, places)]
     top = [j for j, sc in enumerate(scores) if sc == max(scores)]
     return 1.0 / len(top) if label in top else 0.0
+
+
+def positive_rates(examples: list[tuple[list[tuple[str, str]], int]], key_fn) -> dict:
+    """P(option is the positive | key_fn(lane, zone)) over (placements, label) examples; one entry per key seen."""
+    options: Counter = Counter()
+    positives: Counter = Counter()
+    for places, label in examples:
+        for j, p in enumerate(places):
+            options[key_fn(p)] += 1
+            positives[key_fn(p)] += int(j == label)
+    return {k: positives[k] / options[k] for k in options}
+
+
+def rate_rule_accuracy(examples: list[tuple[list[tuple[str, str]], int]], rates: dict, key_fn) -> float:
+    """Expected accuracy (random tie-break) of scoring each option by rates[key_fn(lane, zone)] (unseen key -> 0)."""
+    total = 0.0
+    for places, label in examples:
+        scores = [rates.get(key_fn(p), 0.0) for p in places]
+        top = [j for j, sc in enumerate(scores) if sc >= max(scores) - 1e-12]
+        total += 1.0 / len(top) if label in top else 0.0
+    return total / len(examples) if examples else 0.0
 
 
 def build(dataset: Path, k: int) -> dict:
@@ -157,7 +184,8 @@ def build(dataset: Path, k: int) -> dict:
     acc = {s: {"examples": 0, "skipped_no_grid": 0, "skipped_pos_impossible": 0, "options_total": 0,
                "label_position_counts": Counter(), "negative_source_counts": Counter(),
                "placement_variant_counts": Counter(), "shortcut_total": 0.0, "pos_in_legal": 0, "kind_counts": Counter(),
-               "act_positives": Counter(), "act_negatives": Counter()} for s in SPLITS}
+               "act_positives": Counter(), "act_negatives": Counter(),
+               "placements": []} for s in SPLITS}   # placements: per example ([(lane, zone) per option], label)
     try:
         for i, rec in enumerate(records):
             if not rec["train_eligible"]:
@@ -197,6 +225,7 @@ def build(dataset: Path, k: int) -> dict:
             st["label_position_counts"][str(label)] += 1
             st["placement_variant_counts"][placement_block(pos, negatives[0][1])] += 1
             st["shortcut_total"] += shortcut_value([key for _, key in options], label)
+            st["placements"].append(([tuple(key.split("|")[1:]) for _, key in options], label))
             for src, _ in options:
                 if src != "pos":
                     st["negative_source_counts"][src] += 1
@@ -206,6 +235,10 @@ def build(dataset: Path, k: int) -> dict:
         for h in list(handles.values()) + list(act_handles.values()):
             h.close()
 
+    # leak rules: score each option by the TRAIN rate P(positive | lane) resp. P(positive | lane, zone)
+    lane_of, lane_zone_of = (lambda p: p[0]), (lambda p: p)
+    lane_rates = positive_rates(acc["train"]["placements"], lane_of)
+    lane_zone_rates = positive_rates(acc["train"]["placements"], lane_zone_of)
     stats = {}
     for s in SPLITS:
         a = acc[s]
@@ -218,23 +251,28 @@ def build(dataset: Path, k: int) -> dict:
                     "negative_source_counts": dict(sorted(a["negative_source_counts"].items())),
                     "placement_variant_counts": {b: a["placement_variant_counts"][b] for b in PLACEMENT_BLOCKS},
                     "option_set_shortcut": round(a["shortcut_total"] / n, 4) if n else 0.0,
+                    "lane_only_rule": round(rate_rule_accuracy(a["placements"], lane_rates, lane_of), 4),
+                    "lane_zone_rule": round(rate_rule_accuracy(a["placements"], lane_zone_rates, lane_zone_of), 4),
                     "pos_in_legal_rate": round(a["pos_in_legal"] / n, 3) if n else 0.0,
                     "kind_counts": dict(sorted(a["kind_counts"].items())),
                     "act_counts": {kd: {"positives": a["act_positives"][kd], "negatives": a["act_negatives"][kd]}
                                    for kd in kinds}}
+    stats["train"]["p_pos_given_lane"] = {lane: round(r, 4) for lane, r in sorted(lane_rates.items())}
     (out_dir / "stats.json").write_text(json.dumps(stats, indent=2) + "\n")
     return stats
 
 
 def print_stats(stats: dict) -> None:
-    print("| split | examples | skipped_no_grid | skipped_pos_impossible | mean_opts | pos_in_legal | label_pos | neg_sources | placement_variants | option_set_shortcut | kinds | act (pos/neg by kind) |")
-    print("|---|---|---|---|---|---|---|---|---|---|---|---|")
+    print("| split | examples | skipped_no_grid | skipped_pos_impossible | mean_opts | pos_in_legal | label_pos | neg_sources | placement_variants | option_set_shortcut | lane_only_rule | lane_zone_rule | kinds | act (pos/neg by kind) |")
+    print("|---|---|---|---|---|---|---|---|---|---|---|---|---|---|")
     for s, v in stats.items():
         act = ", ".join(f"{kd}:{c['positives']}/{c['negatives']}" for kd, c in v["act_counts"].items())
         print(f"| {s} | {v['examples']} | {v['skipped_no_grid']} | {v['skipped_pos_impossible']} | "
               f"{v['mean_options']} | {v['pos_in_legal_rate']} | {v['label_position_counts']} | "
               f"{v['negative_source_counts']} | {v['placement_variant_counts']} | {v['option_set_shortcut']} | "
-              f"{v['kind_counts']} | {act} |")
+              f"{v['lane_only_rule']} | {v['lane_zone_rule']} | {v['kind_counts']} | {act} |")
+    if "p_pos_given_lane" in stats.get("train", {}):
+        print(f"\ntrain p_pos_given_lane: {stats['train']['p_pos_given_lane']}")
 
 
 def main() -> None:
