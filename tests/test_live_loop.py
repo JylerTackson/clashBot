@@ -173,7 +173,8 @@ def test_step_none_while_builder_returns_none():
     assert lp.step("f", 0.1, 1, 2.0) is None
     assert len(lp.frames) == 2 and not lp.decisions
     assert lp.frames[0]["readiness"] == "match" and lp.frames[0]["capture"] == 2.0
-    assert set(lp.frames[0]) == {"t", "idx", "readiness", "capture", "perception", "live_state"}
+    assert set(lp.frames[0]) == {"t", "idx", "readiness", "capture", "perception", "live_state", "rect_changed"}
+    assert lp.frames[0]["rect_changed"] is False
 
 
 def test_step_none_when_should_decide_false():
@@ -286,6 +287,83 @@ def test_run_keyboard_interrupt_stops_cleanly():
     lp = _loop(source=src, builder=FakeBuilder(warmup=0))
     summary = lp.run()
     assert summary["frames"] == 1 and src.closed == 1
+
+
+# Amendment 1: the executor follows a moved window ---------------------------------------------------------------------
+class MovingSource(FakeSource):
+    """rect_changes goes 0 -> 1 when frame 3 is produced (the real source bumps it before yielding the frame)."""
+
+    def __init__(self, n=10, change_at=3):
+        super().__init__(n)
+        self.change_at = change_at
+        self.rect_changes = 0
+        self.rect = "rect0"
+
+    def frames(self):
+        for i in range(self.n):
+            if i == self.change_at:
+                self.rect = "rect1"
+                self.rect_changes += 1
+            yield f"frame{i}", round(i * 0.1, 3), i
+
+
+class RectExecutor(FakeExecutor):
+    def __init__(self):
+        super().__init__()
+        self.rects = []
+        self.order = []                                   # ("rect", rect) / ("exec", t) in call order
+
+    def update_rect(self, rect):
+        self.rects.append(rect)
+        self.order.append(("rect", rect))
+
+    def execute(self, key, tile, t, hand=None):
+        self.order.append(("exec", t))
+        return super().execute(key, tile, t, hand=hand)
+
+
+def test_rect_change_calls_executor_update_rect_once(tmp_path):
+    ex = RectExecutor()
+    lp = _loop(tmp_path, source=MovingSource(), builder=FakeBuilder(_state(elixir=9.5), warmup=0), executor=ex)
+    summary = lp.run(max_frames=10)
+    assert ex.rects == ["rect1"]
+    assert [r["rect_changed"] for r in lp.frames] == [i == 3 for i in range(10)]
+    assert summary["rect_updates"] == 1
+    frame_lines = [json.loads(x) for x in (tmp_path / "frames.jsonl").read_text().splitlines() if x.strip()]
+    assert [r["idx"] for r in frame_lines if r["rect_changed"]] == [3]
+    # update_rect ran before the frame-3 decision (t = 0.3) was executed, and not again afterwards
+    assert ex.order.index(("rect", "rect1")) < ex.order.index(("exec", 0.3))
+    assert [o for o in ex.order if o[0] == "rect"] == [("rect", "rect1")]
+
+
+def test_rect_change_two_bumps_between_frames_is_one_update():
+    class Jumpy(MovingSource):
+        def frames(self):
+            for i in range(self.n):
+                if i == self.change_at:
+                    self.rect = "rect2"
+                    self.rect_changes += 2
+                yield f"frame{i}", round(i * 0.1, 3), i
+
+    ex = RectExecutor()
+    lp = _loop(source=Jumpy(), builder=FakeBuilder(warmup=0), executor=ex)
+    assert lp.run(max_frames=10)["rect_updates"] == 1
+    assert ex.rects == ["rect2"]
+
+
+def test_rect_change_executor_without_update_rect_is_left_alone():
+    ex = FakeExecutor()                                   # no update_rect attribute
+    lp = _loop(source=MovingSource(), builder=FakeBuilder(warmup=0), executor=ex)
+    summary = lp.run(max_frames=10)
+    assert not hasattr(ex, "update_rect")
+    assert summary["decisions"] >= 1 and summary["rect_updates"] == 1      # no AttributeError, still counted
+
+
+def test_no_rect_changes_attribute_means_no_updates():
+    ex = RectExecutor()
+    lp = _loop(source=FakeSource(5), builder=FakeBuilder(warmup=0), executor=ex)
+    summary = lp.run(max_frames=5)
+    assert ex.rects == [] and summary["rect_updates"] == 0
 
 
 # 5 -----------------------------------------------------------------------------------------------------------------

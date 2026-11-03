@@ -88,6 +88,7 @@ class LiveLoop:
         self.filters = dict(filters or {})
         self.clock = clock
         self.last_decision_t: float | None = None
+        self._rect_changes_seen = 0
         self.frames: list[dict] = []
         self.decisions: list[LiveDecision] = []
         self._fh: dict[str, object] = {}
@@ -109,8 +110,20 @@ class LiveLoop:
         for fh in self._fh.values():
             fh.close()
 
+    def _follow_rect(self) -> bool:
+        """The capture source follows a moved window (`rect_changes`); tell the executor so its screen map follows too."""
+        rc = getattr(self.source, "rect_changes", 0)
+        if rc <= self._rect_changes_seen:
+            return False
+        self._rect_changes_seen = rc
+        update_rect = getattr(self.executor, "update_rect", None)
+        if callable(update_rect):
+            update_rect(self.source.rect)
+        return True
+
     def step(self, frame, t: float, idx: int, capture_ms: float) -> LiveDecision | None:
         clock = self.clock
+        rect_changed = self._follow_rect()
         a = clock()
         gs = self.perception.process(frame, t, idx)
         events = self.perception.drain_events()
@@ -121,7 +134,7 @@ class LiveLoop:
         perception_ms = (b - a) * 1000.0
         live_state_ms = (c - b) * 1000.0
         row = {"t": t, "idx": idx, "readiness": getattr(gs, "readiness", None), "capture": capture_ms,
-               "perception": perception_ms, "live_state": live_state_ms}
+               "perception": perception_ms, "live_state": live_state_ms, "rect_changed": rect_changed}
         self.frames.append(row)
         self._write("frames.jsonl", row)
         if built is None:
@@ -219,6 +232,7 @@ class LiveLoop:
             "target_p95_ms": TARGET_P95_MS,
             "target_met": None if total_p95 is None else bool(total_p95 < TARGET_P95_MS),
             "decisions_by_status": dict(Counter(d.executor.get("status", "dry_run") for d in self.decisions)),
+            "rect_updates": sum(1 for r in self.frames if r.get("rect_changed")),
             "source_stats": stats() if callable(stats) else None,
             "perception_timing": timing_report() if callable(timing_report) else None,
         }
