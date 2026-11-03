@@ -82,3 +82,45 @@ d1 takes `(state, {name: question})` with `choice` / `noul` / `score` questions 
 
 ### D-024 · The "next" card is not a possible or legal play · decided (user) · 2026-10-28
 `possible_cards` and the deck fallback of `legal_cards` exclude the next-slot card unless it is also read in the hand (contradictory reading → trust the hand). Audit: next-card reads are noisy — in 263 of 2,138 eligible plays with a next card outside the known hand, the pro played that very card, and 689 samples show it inside the hand. Those 263 plays become `skipped_pos_impossible` (≈4% of plays) under the existing D-019 rule.
+
+---
+Mac session (Opus on the user's M5, from 2026-11-02). Brief: `docs/mac/MAC_DEV_BRIEF.md`; specs: `docs/plans/MAC-*.md`; status: `docs/mac/STATUS.md`.
+
+### D-025 · The Mac has 32 GB, not 16 GB · noted (Opus, verified) · 2026-11-02
+Apple M5, 32 GB unified memory, macOS 26.5. Supersedes the memory figure in D-004/D-021 (the model choices stay as decided). Python 3.12.8 venv at `../.venv` (outside the repo, shared by all worktrees). Heavy jobs are still run one at a time.
+
+### D-026 · d1 backend: both, MLX fp16 default · decided (user) · 2026-11-02
+`D1Ranker` runs d1-omni-600M through mlx-vlm with the official `LiquidAI/d1-omni-600M-MLX-fp16` build (the model card's recommended precision) by default, and through transformers on MPS (fp16, `trust_remote_code`) as a reference. The zero-shot eval compares accuracy, latency and top-answer agreement. Fine-tuning (later, D-022) runs in PyTorch.
+
+### D-027 · Planner model: Qwen3-4B-Instruct-2507 4-bit on mlx-lm · decided (user) · 2026-11-02
+`mlx-community/Qwen3-4B-Instruct-2507-4bit`: text-only, non-thinking, native tool calling. Resolves the open model choice in D-021.
+
+### D-028 · Extra installs approved · decided (user) · 2026-11-02
+mlx-lm, mlx-vlm, transformers, sentence-transformers, PyKEEN, LightGBM (+ Homebrew `libomp` for LightGBM, pyobjc Quartz for capture/taps). Not added to `requirements-perception.txt` until integration review.
+
+### D-029 · One Ryley video may be re-downloaded for the live-state parity test · decided (user) · 2026-11-02
+One val/test video into the gitignored `data/videos/`, used only to compare live states with the dataset states of that game (package C). Bulk re-download for act/hold negatives stays deferred (D-020).
+
+### D-030 · KataCR paths from environment · default (Opus) · 2026-11-02
+`CLASHBOT_KATACR_ROOT` (default `$CR_SCRATCH/katacr`, `CR_SCRATCH` default `~/cr_scratch`), `CLASHBOT_KATACR_WEIGHTS` (os.pathsep list, default `$CR_SCRATCH/katacr_d{1,2}.pt`), `CLASHBOT_TORCH_DEVICE` (default `cpu`). Replaces the cloud paths (`/home/user/wty-yy/katacr`). Package MAC-A.
+
+### D-031 · Live taps need two switches · default (Opus, safety) · 2026-11-02
+`clashbot/executor.py` posts Quartz clicks only when the user passes `--live` **and** sets `CLASHBOT_ALLOW_LIVE=1`; checked at construction and before every action. Dry run is the default and logs the planned click points. No agent or test ever enables it. Live runs only in Training Camp or friendly battles (ToS).
+
+### D-032 · Evaluation outputs · default (Opus) · 2026-11-02
+Eval scripts write to `dataset/v1/eval/` (gitignored, rebuilt); reviewed tables are copied to `docs/data/<name>_v1.{json,md}` and summarised in `docs/mac/STATUS.md` (extends D-013).
+
+### D-033 · Text-embedding channel = BAAI/bge-small-en-v1.5 · default (Opus) · 2026-11-02
+384-d sentence-transformers embedder over `context_text`, on MPS (~0.1 GB), for the R1 retrieval ablation (pipeline review §5 "small sentence embedder"). Integrated into the runtime only if the ablation shows a gain.
+
+### D-034 · Knowledge-edit evaluation uses a synthetic balance change · default (Opus) · 2026-11-02
+Default edit: Hog Rider elixir cost 4 → 5 in patch `P1`, stored as a patch-versioned fact with provenance (non-parametric route, SERAC/GRACE family). Marked synthetic in every output; the card/attribute/value are CLI arguments so a real balance change can be evaluated later.
+
+### D-035 · Executor geometry from the perception calibration · default (Opus) · 2026-11-02
+Tiles map to screen points through `calib.json` (content rect + arena corners) and the captured window rect in screen points; taps go to the tile centre; the card slot is the centre of the matching hand ROI; `execute(key, tile, t, hand=None)` gains the current hand so it can find the slot (a card not in the read hand is skipped, not guessed).
+
+### D-036 · Mac Wave-1 package ownership · default (Opus) · 2026-11-02
+Twelve packages (MAC-A…G, MAC-R1…R5) with disjoint files. Beyond the brief's table: A also owns `tools/run_video.py` and `tools/demo_clip.py` (same hard-coded paths); C adds `tools/eval/live_state_parity.py`; E adds `tools/eval/bench_planner.py`; G also edits `clashbot/loop.py` (`rank_keys`, `--ranker d1` for replay).
+
+### D-037 · The joint 4-way options leak the answer · proposed (Opus finding, waiting on the user) · 2026-11-02
+A rule that looks only at the 4 option keys — pick the option that shares its card with another option and its lane+zone with another — scores 0.848 / 0.853 / 0.852 on train/val/test (random 0.25, best real baseline 0.37). Cause: the WP4 negatives N2 (same card, other zone) and N3 (other card, same lane+zone) are built around the positive, which is always the "intersection". Fine-tuning d1 on `d1/joint` as is would learn this shortcut. Until decided: every 4-way evaluation reports this `option_set_shortcut` baseline, and feature rankers use pointwise features only. Fix options go to the user.
