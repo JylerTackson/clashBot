@@ -295,6 +295,21 @@ def test_duplicate_events_counted_once():
     assert [p["card"] for p in state["opponent"]["recent_plays"]] == ["tornado"]
 
 
+def test_unidentified_plays_at_same_time_dedupe_on_tile():
+    b = builder()
+    left = make_ev(95.02, "opponent", None, tile=[3, 20])
+    right = make_ev(95.03, "opponent", None, tile=[14, 20])
+    b.observe_events([left, right, left.to_json()])
+    state, _ = b.build(make_gs(100.0))
+    assert [p["tile"] for p in state["opponent"]["recent_plays"]] == [[3, 20], [14, 20]]
+    assert all(p["card"] is None for p in state["opponent"]["recent_plays"])
+    b2 = builder()                                                 # identical events (same tile): one
+    b2.observe_events([make_ev(95.02, "opponent", None, tile=[3, 20]),
+                       make_ev(95.04, "opponent", None, tile=(3, 20))])
+    state2, _ = b2.build(make_gs(100.0))
+    assert [p["tile"] for p in state2["opponent"]["recent_plays"]] == [[3, 20]]
+
+
 def test_events_stay_sorted_when_observed_late():
     b = builder()
     b.observe_events([make_ev(98.0, card="archers")])

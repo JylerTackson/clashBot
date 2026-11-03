@@ -142,7 +142,9 @@ class LiveStateBuilder:
             if ts is None:
                 continue
             ev["timestamp"] = ts = float(ts)
-            key = (round(ts, 1), ev.get("player"), ev.get("card"))
+            # the tile keeps two unidentified plays (card None) at the same instant apart
+            tile = ev.get("tile")
+            key = (round(ts, 1), ev.get("player"), ev.get("card"), tuple(tile) if tile else None)
             if key in self._event_keys:
                 continue
             self._event_keys.add(key)
