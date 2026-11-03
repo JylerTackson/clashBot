@@ -8,12 +8,18 @@ Rates: HUD readers run every frame; the unit detector and OCR run at a
 reduced rate (detect_every / ocr_every frames) so the loop keeps its rate.
 Rates count processed frames (`n_processed`), so they are independent of the
 source's stride and start index.
+
+Latency (live loop): the hand reader's result is cached while the five hand
+crops are unchanged, and `async_ocr=True` moves the clock / deploy-label OCR to
+one background worker so a slow OCR pass never blocks a frame. Both are
+read-only; with `async_ocr=False` (default) the OCR path is the synchronous one.
 """
 from __future__ import annotations
 
 import re
 
 import time
+from concurrent.futures import Future, ThreadPoolExecutor
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterator
@@ -42,6 +48,27 @@ KB = REPO / "knowledge_base"
 
 CONF_THRESH = {"elixir": 0.5, "hand": 0.45, "clock": 0.6, "units": 0.0}
 PHASE_BY_CLOCK = [(120, "single_elixir"), (60, "double_elixir"), (0, "triple_elixir")]  # remaining seconds thresholds
+
+# hand-read cache: reuse the last raw read while all 5 hand crops (4 slots + next
+# card) are within HAND_CACHE_DIFF mean-abs grey levels (16x20 signature) of the
+# crops it was read from, for at most HAND_CACHE_MAX_AGE_S seconds
+HAND_CACHE_DIFF = 4.0
+HAND_CACHE_MAX_AGE_S = 1.0
+ALT_CLOCK_ROI = [0.72, 0.0, 0.28, 0.12]       # taller top-right region (other HUD layouts)
+
+
+def _read_clock(ocr, crop: np.ndarray, alt_crop: np.ndarray) -> tuple[str, float]:
+    """Clock OCR with the fallback: the calibrated clock box first; if that does
+    not parse, the taller region and an M:SS search ("OVERTIME 1:59",
+    "Time left 2:31" are printed in one box or higher up on other layouts).
+    Pure in its inputs, so it can run on the OCR worker thread."""
+    s, c = ocr.read(crop)
+    if parse_clock(s) is None:
+        s_alt, c_alt = ocr.read(alt_crop)
+        m_alt = re.search(r"\d{1,2}:\d\d", s_alt or "")
+        if m_alt:
+            s, c = m_alt.group(0), c_alt
+    return s, c
 
 
 def load_card_costs(kb: Path = KB) -> dict[str, float]:
@@ -74,6 +101,7 @@ class Perception:
     ocr_every: int = 10
     use_ocr: bool = True
     kb: Path = KB
+    async_ocr: bool = False                   # clock / deploy-label OCR on a background worker (live loop)
     calib: Calibration = field(init=False)
     _events: list[PlayEvent] = field(default_factory=list, init=False)
 
@@ -120,6 +148,19 @@ class Perception:
         self.H = None
         self.timing: dict[str, list[float]] = {}
         self.match_t0: float | None = None
+        # hand-read cache (signatures of the 5 hand crops at the last real read)
+        self._last_hand_raw: dict | None = None
+        self._hand_sigs: list[np.ndarray] | None = None
+        self._last_hand_read_t = 0.0
+        self.hand_cache_hits = 0
+        self.hand_cache_misses = 0
+        # background OCR (async_ocr=True): one worker, at most one pending job per kind
+        self._ocr_pool: ThreadPoolExecutor | None = None
+        self._clock_job: Future | None = None
+        self._label_job: tuple[Future, float] | None = None     # (future, t_submit)
+        self.ocr_async_submitted = 0
+        self.ocr_async_applied = 0
+        self.ocr_async_errors = 0
 
     # ------------------------------------------------------------------
     def _tick(self, name: str, t0: float) -> None:
@@ -179,6 +220,8 @@ class Perception:
         self.towers = g.TowerState()
         self.last_good.clear()
         self.match_t0 = t
+        self._last_hand_raw = None
+        self._hand_sigs = None
 
     # ------------------------------------------------------------------
     def process(self, frame: np.ndarray, t: float, idx: int) -> GameState:
@@ -222,7 +265,7 @@ class Perception:
 
         # ---- HUD: hand ----
         t0 = time.perf_counter()
-        hand = self.hand_reader.read(content)
+        hand = self._read_hand(content, t)
         if n % 3 == 0:
             # enlarged boxes so a raised (selected) card is still fully inside
             self._slot_crops.append((t, [crop_roi(content, self._wide_slot(i)).copy() for i in range(4)]))
@@ -233,17 +276,16 @@ class Perception:
         # ---- clock / phase (template digits every frame, OCR fallback at low rate) ----
         t0 = time.perf_counter()
         clock_s, clock_conf, remaining = "", 0.0, None
-        if self.ocr is not None and n % self.ocr_every == 0:
-            s, c = self.ocr.read(crop_roi(content, self.calib.rois["clock"]))
-            if parse_clock(s) is None:
-                # other HUD layouts print "OVERTIME 1:59" / "Time left 2:31" in one box
-                # or place the timer higher: retry on a taller top-right region
-                s_alt, c_alt = self.ocr.read(crop_roi(content, [0.72, 0.0, 0.28, 0.12]))
-                m_alt = re.search(r"\d{1,2}:\d\d", s_alt or "")
-                if m_alt:
-                    s, c = m_alt.group(0), c_alt
-            if parse_clock(s) is not None and c >= 0.6 and self.clock.valid(parse_clock(s)):
-                clock_s, clock_conf, remaining = s, c, parse_clock(s)
+        if self.ocr is not None:
+            if self.async_ocr:
+                res = self._take_clock_job()
+                if self._clock_job is None and n % self.ocr_every == 0:
+                    self._submit_clock(content)
+                if res is not None:
+                    clock_s, clock_conf, remaining = self._accept_ocr_clock(*res)
+            elif n % self.ocr_every == 0:
+                s, c = _read_clock(self.ocr, crop_roi(content, self.calib.rois["clock"]), crop_roi(content, ALT_CLOCK_ROI))
+                clock_s, clock_conf, remaining = self._accept_ocr_clock(s, c)
         if remaining is None:
             s2, c2 = self.clock_digit.read_string(content)
             prev = parse_clock(self.last_good.get("clock") or "")
@@ -287,38 +329,25 @@ class Perception:
 
         # ---- deploy labels + tower HP numbers (arena OCR, low rate) ----
         label_events_input = ([], [])
-        if self.labels is not None and self.H is not None and n % self.label_every == 0:
+        label_t = t                           # when the labels were seen: the submit time if they came from the worker
+        if self.labels is not None and self.H is not None:
             t0 = time.perf_counter()
-            labels, numbers = self.labels.read(content, self.calib.arena_crop(cw, ch))
-            tiles = []
-            for lbl in labels:
-                gx, gy = label_ground_point(lbl)
-                tiles.append(g.clamp_tile(*self.H.pixel_to_tile(gx, gy)) if self.H.in_arena(gx, gy, margin=1.0) else None)
-            label_events_input = (labels, tiles)
-            for num in numbers:
-                if not 100 <= num.value <= 9999:
-                    continue
-                c, r = self.H.pixel_to_tile((num.bbox[0] + num.bbox[2]) / 2, num.bbox[3])
-                name = None
-                if 24 <= r <= 29 and c < 7:
-                    name = "enemy_left"
-                elif 24 <= r <= 29 and c > 10:
-                    name = "enemy_right"
-                elif r >= 27 and 6 <= c <= 11:
-                    name = "enemy_king"
-                elif 2 <= r <= 8 and c < 7:
-                    name = "own_left"
-                elif 2 <= r <= 8 and c > 10:
-                    name = "own_right"
-                elif r <= 3 and 6 <= c <= 11:
-                    name = "own_king"
-                if name:
-                    self.last_good[name] = num.value
-                    self.last_good_t[name] = t
-            for k in ("king", "left", "right"):
-                towers_own[k] = self.last_good.get(f"own_{k}")
-                towers_enemy[k] = self.last_good.get(f"enemy_{k}")
-            self._tick("labels", t0)
+            result = None                     # (labels, numbers) to apply this frame
+            if self.async_ocr:
+                job = self._take_label_job()
+                if job is not None:
+                    result, label_t = job
+                if self._label_job is None and n % self.label_every == 0:
+                    self._submit_labels(content, cw, ch, t)
+                    result = result or ([], [])
+            elif n % self.label_every == 0:
+                result = self.labels.read(content, self.calib.arena_crop(cw, ch))
+            if result is not None:
+                label_events_input = self._apply_labels(*result, label_t)
+                for k in ("king", "left", "right"):
+                    towers_own[k] = self.last_good.get(f"own_{k}")
+                    towers_enemy[k] = self.last_good.get(f"enemy_{k}")
+                self._tick("labels", t0)
 
         # ---- units: detector at a low rate, Kalman tracks every frame ----
         units: list[UnitObs] = []
@@ -365,7 +394,7 @@ class Perception:
                 else:
                     new_events.append(ev)
         if label_events_input[0]:
-            new_events += self.play.update_labels(t, label_events_input[0], label_events_input[1], clock_v)
+            new_events += self.play.update_labels(label_t, label_events_input[0], label_events_input[1], clock_v)
         new_events += self.play.release_holds(t)
         if n % self.detect_every == 0 and self.detector is not None:
             new_events += self.play.update_units(t, units, clock_v)
@@ -414,6 +443,125 @@ class Perception:
         self._mask = mask
         self._tick("total", t_all)
         return state
+
+    # ------------------------------------------------------------------
+    def _hand_signatures(self, content: np.ndarray) -> list[np.ndarray]:
+        """16x20 grey thumbnails of the 4 hand slots + the next card."""
+        sigs = []
+        for key in ("hand_0", "hand_1", "hand_2", "hand_3", "next_card"):
+            crop = crop_roi(content, self.calib.rois[key])
+            if crop.size == 0:
+                sigs.append(np.zeros((20, 16), np.float32))
+                continue
+            gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
+            sigs.append(cv2.resize(gray, (16, 20), interpolation=cv2.INTER_AREA).astype(np.float32))
+        return sigs
+
+    def _read_hand(self, content: np.ndarray, t: float) -> dict:
+        """`hand_reader.read` (~77 ms) behind a cache: while every hand crop is
+        visually unchanged the previous raw read is returned as is, so
+        `_smooth_hand` and everything after it see what an uncached run sees."""
+        sigs = self._hand_signatures(content)
+        prev = self._hand_sigs
+        if (self._last_hand_raw is not None and prev is not None
+                and 0.0 <= t - self._last_hand_read_t < HAND_CACHE_MAX_AGE_S
+                and all(float(np.abs(a - b).mean()) < HAND_CACHE_DIFF for a, b in zip(sigs, prev))):
+            self.hand_cache_hits += 1
+            return self._last_hand_raw
+        raw = self.hand_reader.read(content)
+        self._last_hand_raw, self._hand_sigs, self._last_hand_read_t = raw, sigs, t
+        self.hand_cache_misses += 1
+        return raw
+
+    # ------------------------------------------------------------------
+    def _accept_ocr_clock(self, s: str, c: float) -> tuple[str, float, int | None]:
+        """Acceptance of one OCR clock read -> (clock_s, clock_conf, remaining),
+        or ("", 0.0, None) when rejected (unparseable / low confidence /
+        impossible value) so the template-digit path takes over."""
+        rem = parse_clock(s)
+        if rem is not None and c >= 0.6 and self.clock.valid(rem):
+            return s, c, rem
+        return "", 0.0, None
+
+    def _pool(self) -> ThreadPoolExecutor:
+        if self._ocr_pool is None:
+            self._ocr_pool = ThreadPoolExecutor(max_workers=1, thread_name_prefix="cr-ocr")
+        return self._ocr_pool
+
+    def _job_result(self, fut: Future):
+        """Result of a finished OCR job, or None if it raised (the live loop
+        must not die on one bad OCR pass; the failure is counted)."""
+        try:
+            res = fut.result()
+        except Exception:
+            self.ocr_async_errors += 1
+            return None
+        self.ocr_async_applied += 1
+        return res
+
+    def _submit_clock(self, content: np.ndarray) -> None:
+        crop = crop_roi(content, self.calib.rois["clock"]).copy()
+        alt = crop_roi(content, ALT_CLOCK_ROI).copy()
+        self._clock_job = self._pool().submit(_read_clock, self.ocr, crop, alt)
+        self.ocr_async_submitted += 1
+
+    def _take_clock_job(self) -> tuple[str, float] | None:
+        """(s, c) of the pending clock job if it has finished, else None."""
+        fut = self._clock_job
+        if fut is None or not fut.done():
+            return None
+        self._clock_job = None
+        return self._job_result(fut)
+
+    def _submit_labels(self, content: np.ndarray, cw: int, ch: int, t: float) -> None:
+        fut = self._pool().submit(self.labels.read, content.copy(), self.calib.arena_crop(cw, ch))
+        self._label_job = (fut, t)
+        self.ocr_async_submitted += 1
+
+    def _take_label_job(self) -> tuple[tuple[list, list], float] | None:
+        """((labels, numbers), t_submit) of the pending label job if finished."""
+        job = self._label_job
+        if job is None or not job[0].done():
+            return None
+        self._label_job = None
+        res = self._job_result(job[0])
+        return None if res is None else (res, job[1])
+
+    def _apply_labels(self, labels, numbers, t: float) -> tuple[list, list]:
+        """Deploy labels -> (labels, ground tiles); tower HP numbers ->
+        last_good, stamped `t` (when the labelled frame was seen)."""
+        tiles = []
+        for lbl in labels:
+            gx, gy = label_ground_point(lbl)
+            tiles.append(g.clamp_tile(*self.H.pixel_to_tile(gx, gy)) if self.H.in_arena(gx, gy, margin=1.0) else None)
+        for num in numbers:
+            if not 100 <= num.value <= 9999:
+                continue
+            c, r = self.H.pixel_to_tile((num.bbox[0] + num.bbox[2]) / 2, num.bbox[3])
+            name = None
+            if 24 <= r <= 29 and c < 7:
+                name = "enemy_left"
+            elif 24 <= r <= 29 and c > 10:
+                name = "enemy_right"
+            elif r >= 27 and 6 <= c <= 11:
+                name = "enemy_king"
+            elif 2 <= r <= 8 and c < 7:
+                name = "own_left"
+            elif 2 <= r <= 8 and c > 10:
+                name = "own_right"
+            elif r <= 3 and 6 <= c <= 11:
+                name = "own_king"
+            if name:
+                self.last_good[name] = num.value
+                self.last_good_t[name] = t
+        return labels, tiles
+
+    def close(self) -> None:
+        """Stop the OCR worker (safe to call repeatedly, and with async_ocr=False)."""
+        pool, self._ocr_pool = self._ocr_pool, None
+        self._clock_job = self._label_job = None
+        if pool is not None:
+            pool.shutdown(wait=False, cancel_futures=True)
 
     def _wide_slot(self, i: int) -> list:
         x, y, w, h = self.calib.rois[f"hand_{i}"]
@@ -482,4 +630,8 @@ class Perception:
                 out[k] = {"n": len(v), "mean_ms": round(float(np.mean(v)), 1), "p95_ms": round(float(np.percentile(v, 95)), 1)}
         if "total" in out:
             out["loop_fps"] = round(1000.0 / out["total"]["mean_ms"], 1)
+        if self.hand_cache_hits + self.hand_cache_misses:
+            out["hand_cache"] = {"hits": self.hand_cache_hits, "misses": self.hand_cache_misses}
+        if self.async_ocr:
+            out["ocr_async"] = {"submitted": self.ocr_async_submitted, "applied": self.ocr_async_applied}
         return out
