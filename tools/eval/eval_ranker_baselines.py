@@ -20,12 +20,12 @@ import numpy as np  # noqa: E402
 from clashbot.config import DATASET_DIR  # noqa: E402
 from clashbot.game_rules import load_cards, possible_action_keys  # noqa: E402
 from tools.data.build_ranker_dataset import (build_placement_prior, feature_matrix,  # noqa: E402
-                                             load_records, top_neighbours, train_row_indices)
+                                             load_records, shortcut_value, top_neighbours, train_row_indices)
 
 EVAL_SPLITS = ("val", "test")
 RECALL_KS = (1, 3, 5, 10)
 RANKER_BASELINES = ("random_expected", "popularity", "popularity_by_phase", "card_popularity_in_deck",
-                    "placement_prior")
+                    "placement_prior", "option_set_shortcut")
 ACT_BASELINES = ("always_play", "phase_majority")
 NOTE = ("knn_vote is not reported on the multiple-choice files: their N1 negatives are mined from the "
         "same kNN neighbours. It is evaluated fairly in candidate_recall over all possible action keys.")
@@ -146,6 +146,7 @@ def main() -> None:
             kind = ex["kind"]
             rec = records[by_id[ex["id"]]]
             hits["random_expected"].append((kind, 1.0 / len(opts)))
+            hits["option_set_shortcut"].append((kind, shortcut_value(opts, label)))
             pp = pop_phase[rec["state"]["phase"]]
             picks = {
                 "popularity": argmax_first([float(pop[k]) for k in opts]),

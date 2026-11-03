@@ -1,9 +1,13 @@
-"""Build the ranker training set (WP4): plays-only multiple-choice options with hard negatives, the act/hold export and the placement prior.
+"""Build the ranker training set (WP4): plays-only 4-way options in a 2x2 card x placement grid (D-037), the act/hold export and the placement prior.
 
   python3 tools/data/build_ranker_dataset.py [--dataset DIR] [--k 20]
 
 Writes <dataset>/ranker/{train,val,test}.jsonl, <dataset>/ranker/stats.json,
 <dataset>/act/{train,val,test}.jsonl and <dataset>/placement_prior.json.
+
+Every example has exactly 4 options: the pro's play (c1 at l1/z1), the same card elsewhere (G_card), another card at the
+pro's placement (G_place) and another card elsewhere (G_diag). Each option shares its card with exactly one other option
+and its placement with exactly one other, so "pick the option that shares both" is at chance (0.25) by construction.
 """
 from __future__ import annotations
 
@@ -22,13 +26,14 @@ sys.path.insert(0, str(ROOT))
 import numpy as np  # noqa: E402
 
 from clashbot.actions import option_text  # noqa: E402
-from clashbot.config import DATASET_DIR, HOLD_KEY, ZONES  # noqa: E402
+from clashbot.config import DATASET_DIR, HOLD_KEY, LANES, ZONES  # noqa: E402
 from clashbot.features import featurize  # noqa: E402
-from clashbot.game_rules import (action_key, legal_action_keys, legal_zones, load_cards,  # noqa: E402
+from clashbot.game_rules import (action_key, legal_action_keys, load_cards,  # noqa: E402
                                  possible_action_keys, possible_cards)
 
 SPLITS = ("train", "val", "test")
-TARGET_NEGATIVES = 3
+GRID_SOURCES = ("G_card", "G_place", "G_diag")   # same card/other placement, other card/same placement, both differ
+PLACEMENT_BLOCKS = ("Z", "L", "B")               # same lane/other zone, other lane/same zone, both differ
 
 
 def load_records(dataset: Path) -> list[dict]:
@@ -80,50 +85,53 @@ def build_placement_prior(records: list[dict]) -> dict:
             "zone_freq": {c: dict(sorted(z.items())) for c, z in sorted(zone_freq.items())}}
 
 
-def select_negatives(pools: dict[str, list[str]], pos: str) -> list[tuple[str, str]]:
-    """Pick up to 3 negatives as (pool_name, key): first N1, first N2, first N3, rest of N1, then N5."""
-    chosen: list[tuple[str, str]] = []
-    seen = {pos}
+def placement_candidates(c1: str, l1: str, z1: str, zone_freq: dict, variant: int) -> list[tuple[str, str]]:
+    """Ordered (lane, zone) alternatives to (l1, z1): Z same lane/other zone, L other lane/same zone, B both differ.
 
-    def take(name: str, key: str) -> None:
-        if len(chosen) < TARGET_NEGATIVES and key not in seen:
-            seen.add(key)
-            chosen.append((name, key))
-
-    n1 = pools.get("N1", [])
-    for name in ("N1", "N2", "N3"):
-        items = pools.get(name, [])
-        if items:
-            take(name, items[0])
-    for key in n1:
-        take("N1", key)
-    for key in pools.get("N5", []):
-        take("N5", key)
-    return chosen
+    variant = seed % 3 rotates the block order (0: Z L B, 1: L Z B, 2: B Z L) so lane and zone both vary across the set."""
+    freq = zone_freq.get(c1, {})
+    z_block = [(l1, z) for z in sorted(ZONES, key=lambda z: (-freq.get(z, 0), z)) if z != z1]
+    l_block = [(lane, z1) for lane in LANES if lane != l1]
+    b_block = [(lane, z) for lane in LANES for z in ZONES if lane != l1 and z != z1]
+    return {0: z_block + l_block + b_block, 1: l_block + z_block + b_block, 2: b_block + z_block + l_block}[variant]
 
 
-def build_pools(rec: dict, pos: str, possible: list[str], neighbour_keys: list[str], cards: dict,
-                zone_freq: dict) -> dict[str, list[str]]:
-    state = rec["state"]
-    possible_set = set(possible)
-    pools: dict[str, list[str]] = {"N1": [], "N2": [], "N3": [], "N5": []}
-    for key in neighbour_keys:
-        if key in possible_set and key not in pools["N1"] and key != pos:
-            pools["N1"].append(key)
-    a = rec["action"]
-    card, lane, zone = a["card"], a["lane"], a["zone"]
-    freq = zone_freq.get(card, {})
-    lz = legal_zones(card, state, cards)
-    for z in sorted(ZONES, key=lambda z: (-freq.get(z, 0), z)):
-        if z != zone and z in lz:
-            pools["N2"].append(action_key(card, lane, z))
-            break
-    for c in possible_cards(state, cards):
-        if c != card and zone in legal_zones(c, state, cards):
-            pools["N3"].append(action_key(c, lane, zone))
-            break
-    pools["N5"] = [k for k in possible if k != pos]
-    return pools
+def grid_options(rec: dict, pos: str, possible_keys: list[str], neighbour_keys: list[str], cards: dict,
+                 zone_freq: dict, seed: int) -> list[tuple[str, str]] | None:
+    """The three grid negatives [(G_card, key), (G_place, key), (G_diag, key)] for the positive `pos`, or None if no grid fits.
+
+    c2 = first card (neighbour cards, then possible cards) playable at the pro's placement; (l2, z2) = first
+    placement candidate where both c1 and c2 are possible. All four options are then in possible_keys."""
+    c1, l1, z1 = pos.split("|")
+    possible = set(possible_keys)
+    candidates = [k.split("|")[0] for k in neighbour_keys if k != HOLD_KEY] + possible_cards(rec["state"], cards)
+    second: list[str] = []
+    for c in candidates:
+        if c != c1 and c not in second and action_key(c, l1, z1) in possible:
+            second.append(c)
+    placements = placement_candidates(c1, l1, z1, zone_freq, seed % 3)
+    for c2 in second:
+        for l2, z2 in placements:
+            if action_key(c1, l2, z2) in possible and action_key(c2, l2, z2) in possible:
+                return [("G_card", f"{c1}|{l2}|{z2}"), ("G_place", f"{c2}|{l1}|{z1}"),
+                        ("G_diag", f"{c2}|{l2}|{z2}")]
+    return None
+
+
+def placement_block(pos: str, key: str) -> str:
+    """Which placement_candidates block (Z, L or B) the (lane, zone) of `key` belongs to, relative to the positive `pos`."""
+    _, l1, z1 = pos.split("|")
+    _, l2, z2 = key.split("|")
+    return "Z" if l2 == l1 else "L" if z2 == z1 else "B"
+
+
+def shortcut_value(keys: list[str], label: int) -> float:
+    """Expected accuracy (random tie-break) of the option-set rule: score(k) = #options with k's card + #options with k's (lane, zone), k included."""
+    cards = [key.split("|")[0] for key in keys]
+    places = [tuple(key.split("|")[1:]) for key in keys]
+    scores = [cards.count(c) + places.count(p) for c, p in zip(cards, places)]
+    top = [j for j, sc in enumerate(scores) if sc == max(scores)]
+    return 1.0 / len(top) if label in top else 0.0
 
 
 def build(dataset: Path, k: int) -> dict:
@@ -146,9 +154,9 @@ def build(dataset: Path, k: int) -> dict:
     act_dir.mkdir(parents=True, exist_ok=True)
     handles = {s: open(out_dir / f"{s}.jsonl", "w") for s in SPLITS}
     act_handles = {s: open(act_dir / f"{s}.jsonl", "w") for s in SPLITS}
-    acc = {s: {"examples": 0, "skipped_no_negatives": 0, "skipped_pos_impossible": 0, "options_total": 0,
+    acc = {s: {"examples": 0, "skipped_no_grid": 0, "skipped_pos_impossible": 0, "options_total": 0,
                "label_position_counts": Counter(), "negative_source_counts": Counter(),
-               "pos_in_legal": 0, "kind_counts": Counter(),
+               "placement_variant_counts": Counter(), "shortcut_total": 0.0, "pos_in_legal": 0, "kind_counts": Counter(),
                "act_positives": Counter(), "act_negatives": Counter()} for s in SPLITS}
     try:
         for i, rec in enumerate(records):
@@ -170,13 +178,12 @@ def build(dataset: Path, k: int) -> dict:
                 continue
             nbrs = top_neighbours(Ftr, train_rows, train_games, F[i], rec["game_id"], k)
             neighbour_keys = [records[j]["action"]["key"] for j, _ in nbrs]
-            pools = build_pools(rec, pos, possible, neighbour_keys, cards, zone_freq)
-            negatives = select_negatives(pools, pos)
-            if not negatives:
-                st["skipped_no_negatives"] += 1
-                continue
-            options = [("pos", pos)] + [(name, key) for name, key in negatives]
             seed = int(hashlib.sha1(rec["id"].encode()).hexdigest()[:8], 16)
+            negatives = grid_options(rec, pos, possible, neighbour_keys, cards, zone_freq, seed)
+            if negatives is None:
+                st["skipped_no_grid"] += 1
+                continue
+            options = [("pos", pos)] + negatives
             random.Random(seed).shuffle(options)
             label = next(j for j, (src, _) in enumerate(options) if src == "pos")
             in_legal = pos in set(legal_action_keys(rec["state"], cards))
@@ -188,6 +195,8 @@ def build(dataset: Path, k: int) -> dict:
             st["examples"] += 1
             st["options_total"] += len(options)
             st["label_position_counts"][str(label)] += 1
+            st["placement_variant_counts"][placement_block(pos, negatives[0][1])] += 1
+            st["shortcut_total"] += shortcut_value([key for _, key in options], label)
             for src, _ in options:
                 if src != "pos":
                     st["negative_source_counts"][src] += 1
@@ -202,11 +211,13 @@ def build(dataset: Path, k: int) -> dict:
         a = acc[s]
         n = a["examples"]
         kinds = sorted(set(a["act_positives"]) | set(a["act_negatives"]))
-        stats[s] = {"examples": n, "skipped_no_negatives": a["skipped_no_negatives"],
+        stats[s] = {"examples": n, "skipped_no_grid": a["skipped_no_grid"],
                     "skipped_pos_impossible": a["skipped_pos_impossible"],
                     "mean_options": round(a["options_total"] / n, 3) if n else 0.0,
                     "label_position_counts": dict(sorted(a["label_position_counts"].items())),
                     "negative_source_counts": dict(sorted(a["negative_source_counts"].items())),
+                    "placement_variant_counts": {b: a["placement_variant_counts"][b] for b in PLACEMENT_BLOCKS},
+                    "option_set_shortcut": round(a["shortcut_total"] / n, 4) if n else 0.0,
                     "pos_in_legal_rate": round(a["pos_in_legal"] / n, 3) if n else 0.0,
                     "kind_counts": dict(sorted(a["kind_counts"].items())),
                     "act_counts": {kd: {"positives": a["act_positives"][kd], "negatives": a["act_negatives"][kd]}
@@ -216,13 +227,14 @@ def build(dataset: Path, k: int) -> dict:
 
 
 def print_stats(stats: dict) -> None:
-    print("| split | examples | skipped_no_neg | skipped_pos_impossible | mean_opts | pos_in_legal | label_pos | neg_sources | kinds | act (pos/neg by kind) |")
-    print("|---|---|---|---|---|---|---|---|---|---|")
+    print("| split | examples | skipped_no_grid | skipped_pos_impossible | mean_opts | pos_in_legal | label_pos | neg_sources | placement_variants | option_set_shortcut | kinds | act (pos/neg by kind) |")
+    print("|---|---|---|---|---|---|---|---|---|---|---|---|")
     for s, v in stats.items():
         act = ", ".join(f"{kd}:{c['positives']}/{c['negatives']}" for kd, c in v["act_counts"].items())
-        print(f"| {s} | {v['examples']} | {v['skipped_no_negatives']} | {v['skipped_pos_impossible']} | "
+        print(f"| {s} | {v['examples']} | {v['skipped_no_grid']} | {v['skipped_pos_impossible']} | "
               f"{v['mean_options']} | {v['pos_in_legal_rate']} | {v['label_position_counts']} | "
-              f"{v['negative_source_counts']} | {v['kind_counts']} | {act} |")
+              f"{v['negative_source_counts']} | {v['placement_variant_counts']} | {v['option_set_shortcut']} | "
+              f"{v['kind_counts']} | {act} |")
 
 
 def main() -> None:

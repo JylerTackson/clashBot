@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import json
-import subprocess
 import sys
 from pathlib import Path
 
@@ -15,9 +14,6 @@ from clashbot.d1_format import (ACT_CRITERIA, ACT_NAME, card_description, factor
                                 joint_request, option_description, state_string, validate, act_request)
 from clashbot.game_rules import load_cards  # noqa: E402
 
-DATASET = ROOT / "dataset" / "v1"
-needs_dataset = pytest.mark.skipif(not (DATASET / "ranker" / "val.jsonl").exists(),
-                                   reason="dataset/v1/ranker/val.jsonl missing")
 KEYS = ["knight|left|bridge", "giant|right|back", "archers|middle|mid", "knight|right|mid"]
 
 
@@ -83,10 +79,8 @@ def test_validate():
         validate(state, bad)
 
 
-@needs_dataset
-def test_builder_integration(tmp_path):
-    subprocess.run([sys.executable, str(ROOT / "tools" / "data" / "build_d1_dataset.py")], check=True, cwd=ROOT)
-    d1 = DATASET / "d1"
+def test_builder_integration(built_dataset):
+    d1 = built_dataset / "d1"
     stats = json.loads((d1 / "stats.json").read_text())
     for variant in ("joint", "factorized", "act"):
         for split in ("train", "val", "test"):
