@@ -74,7 +74,7 @@ def _pcts(vals: list[float]) -> dict:
 class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
-                 clock=time.perf_counter):
+                 clock=time.perf_counter, min_gap_s: float = 1.0):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -87,7 +87,10 @@ class LiveLoop:
         self.out_dir = Path(out_dir) if out_dir is not None else None
         self.filters = dict(filters or {})
         self.clock = clock
+        self.min_gap_s = min_gap_s
         self.last_decision_t: float | None = None
+        self._handled_opp_t = float("-inf")       # newest opponent play already seen at a decision
+        self.skipped_min_gap = 0
         self._rect_changes_seen = 0
         self.frames: list[dict] = []
         self.decisions: list[LiveDecision] = []
@@ -121,6 +124,12 @@ class LiveLoop:
             update_rect(self.source.rect)
         return True
 
+    def _fresh_opponent_state(self, state: dict) -> dict:
+        """Copy of `state` whose opponent `recent_plays` drops plays a decision already saw (each play triggers once)."""
+        opp = state.get("opponent") or {}
+        plays = [p for p in opp.get("recent_plays", []) if p.get("t") is None or p["t"] > self._handled_opp_t]
+        return {**state, "opponent": {**opp, "recent_plays": plays}}
+
     def step(self, frame, t: float, idx: int, capture_ms: float) -> LiveDecision | None:
         clock = self.clock
         rect_changed = self._follow_rect()
@@ -142,7 +151,10 @@ class LiveLoop:
 
         state, ctx = built
         d = clock()
-        go = should_decide(state, t, self.last_decision_t, self.cards)
+        if self.last_decision_t is not None and t - self.last_decision_t < self.min_gap_s:
+            self.skipped_min_gap += 1           # `should_decide` stays true for seconds; never tap twice this close
+            return None
+        go = should_decide(self._fresh_opponent_state(state), t, self.last_decision_t, self.cards)
         e = clock()
         trigger_ms = (e - d) * 1000.0
         if not go:
@@ -168,6 +180,9 @@ class LiveLoop:
                    "trigger": trigger_ms, "candidates": candidates_ms, "rank": rank_ms, "execute": execute_ms}
         timings["total"] = sum(timings.values())
         self.last_decision_t = t
+        opp_ts = [p["t"] for p in state.get("opponent", {}).get("recent_plays", []) if p.get("t") is not None]
+        if opp_ts:
+            self._handled_opp_t = max(self._handled_opp_t, max(opp_ts))
         decision = LiveDecision(
             t=t, idx=idx, key=key, tile=tile,
             candidates=[{"key": x.key, "score": x.score, "sources": x.sources} for x in cands],
@@ -211,7 +226,12 @@ class LiveLoop:
                     close_it()
                 self.source.close()
             finally:
-                self._close_files()
+                try:
+                    close_perception = getattr(self.perception, "close", None)      # drains the async OCR worker
+                    if callable(close_perception):
+                        close_perception()
+                finally:
+                    self._close_files()
         summary = self.summary()
         if self.out_dir is not None:
             (self.out_dir / "summary.json").write_text(json.dumps(summary, indent=2, default=_json_default))
@@ -233,6 +253,7 @@ class LiveLoop:
             "target_met": None if total_p95 is None else bool(total_p95 < TARGET_P95_MS),
             "decisions_by_status": dict(Counter(d.executor.get("status", "dry_run") for d in self.decisions)),
             "rect_updates": sum(1 for r in self.frames if r.get("rect_changed")),
+            "skipped_min_gap": self.skipped_min_gap,
             "source_stats": stats() if callable(stats) else None,
             "perception_timing": timing_report() if callable(timing_report) else None,
         }
@@ -258,6 +279,7 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--fps", type=float, default=10.0)
     ap.add_argument("--detector", choices=("katacr", "none"), default="katacr")
     ap.add_argument("--detect-every", type=int, default=3)
+    ap.add_argument("--sync-ocr", action="store_true", help="run OCR inline instead of on the background worker")
     ap.add_argument("--imgsz", type=int, default=640)
     ap.add_argument("--device", choices=("cpu", "mps"), default=None)
     ap.add_argument("--ranker", choices=("score", "d1"), default="score")
@@ -265,6 +287,7 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--planner", choices=("rules", "llm", "none"), default="rules")
     ap.add_argument("--seconds", type=float, default=60.0)
     ap.add_argument("--max-decisions", type=int, default=None)
+    ap.add_argument("--min-gap", type=float, default=1.0, help="minimum seconds between two decisions (0 = off)")
     ap.add_argument("--out", default=None, help="output dir (default runs/poc/<timestamp>)")
     return ap
 
@@ -291,7 +314,8 @@ def _build_perception(args, source):
     if args.detector == "katacr":
         from cr_perception.detect import default_katacr_detector
         detector = default_katacr_detector(imgsz=args.imgsz, device=args.device)
-    return Perception(config=args.calib, source=source, detector=detector, detect_every=args.detect_every)
+    return Perception(config=args.calib, source=source, detector=detector, detect_every=args.detect_every,
+                      async_ocr=not args.sync_ocr)
 
 
 def _build_ranker(args):
@@ -341,6 +365,7 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     source = None
+    perception = None
     try:
         source = _build_source(args)
         try:
@@ -363,6 +388,9 @@ def main(argv: list[str] | None = None) -> int:
         plan_text = _build_plan_text(args, deck)
     except (RuntimeError, OSError, ValueError, ImportError) as exc:
         print(f"error: {exc}", file=sys.stderr)
+        close_perception = getattr(perception, "close", None)
+        if callable(close_perception):
+            close_perception()
         if source is not None:
             source.close()
         return 3
@@ -371,7 +399,7 @@ def main(argv: list[str] | None = None) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "config.json").write_text(json.dumps(vars(args), indent=2, default=str))
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
-                    plan_text=plan_text, out_dir=out_dir)
+                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap)
     mode = "LIVE" if args.live else "dry run"
     print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} out={out_dir}")
     summary = loop.run(max_seconds=args.seconds, max_decisions=args.max_decisions)
