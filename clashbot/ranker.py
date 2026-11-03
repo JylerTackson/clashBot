@@ -1,4 +1,4 @@
-"""Fast-loop ranker interface and stubs (D-007). Model weights are not available in this environment."""
+"""Fast-loop rankers (D-007): ScoreRanker baseline, Laya stub, and D1Ranker running LiquidAI d1-omni-600M through mlx-vlm (default) or transformers (D-026)."""
 from __future__ import annotations
 
 import time
