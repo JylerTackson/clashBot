@@ -131,6 +131,63 @@ def test_plan_clicks():
     assert p["status"] == "skipped_out_of_window" and p["slot"] == 2 and len(p["clicks"]) == 2
 
 
+def test_update_rect_shifts_every_click():
+    hand = ["a", "b", "knight", "c"]
+    ex = MirroringExecutor.from_calib(CALIB, RECT)
+    keys = [("knight|left|bridge", [3, 14]), ("knight|right|mid", [14, 8]), ("knight|middle|back", [9, 2])]
+    before = [ex.plan_clicks(k, t, hand) for k, t in keys]
+    assert all(p["status"] == "planned" for p in before)
+
+    class Rect:   # WindowRect-like object, moved by (+40, +25)
+        left, top, width, height = RECT[0] + 40, RECT[1] + 25, RECT[2], RECT[3]
+
+    ex.update_rect(Rect)
+    after = [ex.plan_clicks(k, t, hand) for k, t in keys]
+    for b, a in zip(before, after):
+        assert a["status"] == "planned" and a["slot"] == b["slot"]
+        for (bx, by), (ax, ay) in zip(b["clicks"], a["clicks"]):
+            assert ax - bx == pytest.approx(40.0, abs=1e-6)
+            assert ay - by == pytest.approx(25.0, abs=1e-6)
+    want = card_slot_points(screen_map_from_calib(CALIB, [140, 75, 300, 600]))
+    assert np.allclose(ex.card_slot_pixels, want, atol=1e-6)
+    assert ex.bounds == [140.0, 75.0, 300.0, 600.0] and ex.screen_map.rect == ex.bounds
+    assert ex.log[-1] == {"event": "rect_update", "rect": [140.0, 75.0, 300.0, 600.0]}
+    # bounds moved too: a click that was inside the old window's right edge is now checked against the new one
+    ex.update_rect([100, 50, 300, 600])
+    assert np.allclose(ex.plan_clicks(*keys[0], hand)["clicks"], before[0]["clicks"], atol=1e-6)
+    assert [e["event"] for e in ex.log] == ["rect_update", "rect_update"]
+
+
+def test_update_rect_needs_from_calib():
+    ex = MirroringExecutor.from_calib(CALIB, RECT)
+    direct = MirroringExecutor(ex.calibration, ex.card_slot_pixels, bounds=list(RECT))
+    with pytest.raises(ValueError, match="from_calib"):
+        direct.update_rect([140, 75, 300, 600])
+    assert direct.log == [] and direct.bounds == list(RECT)
+
+
+def test_update_rect_keeps_live_and_poster(monkeypatch):
+    rec = Recorder()
+    ex = _live_executor(monkeypatch, rec)
+    hand = ["a", "b", "knight", "c"]
+    ex.update_rect([140, 75, 300, 600])
+    assert ex.live is True and ex.poster is rec
+    e = ex.execute("knight|left|bridge", [3, 14], 1.0, hand=hand)
+    assert e["sent"] is True and rec.calls == [tuple(c) for c in e["clicks"]]
+    # clicks went to the moved window, inside its bounds
+    assert all(140 <= x <= 440 and 75 <= y <= 675 for x, y in rec.calls)
+    # the live guard is still re-checked after a move
+    monkeypatch.delenv(LIVE_ENV)
+    with pytest.raises(PermissionError):
+        ex.execute("knight|left|bridge", [3, 14], 2.0, hand=hand)
+    assert len(rec.calls) == 2
+    # a dry executor stays dry
+    dry = MirroringExecutor.from_calib(CALIB, RECT, poster=rec)
+    dry.update_rect([140, 75, 300, 600])
+    assert dry.live is False and dry.execute("knight|left|bridge", [3, 14], 3.0, hand=hand)["sent"] is False
+    assert len(rec.calls) == 2
+
+
 def test_not_live_never_posts():
     rec = Recorder()
     ex = MirroringExecutor.from_calib(CALIB, RECT, live=False, poster=rec, sleep=lambda s: None)

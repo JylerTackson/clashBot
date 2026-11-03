@@ -12,7 +12,7 @@ import json
 import os
 import sys
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 
 import numpy as np
@@ -180,6 +180,19 @@ class MirroringExecutor:
         ex = cls(calibration_from_screen_map(smap), card_slot_points(smap), live=live, **kw)
         ex.screen_map = smap
         return ex
+
+    def update_rect(self, rect) -> None:
+        """Follow a moved/resized iPhone Mirroring window: rebuild the screen map, homography,
+        card slot points and bounds from the new rect. `live` and `poster` are left unchanged."""
+        if self.screen_map is None:
+            raise ValueError("update_rect needs an executor built with from_calib")
+        smap = replace(self.screen_map, rect=_rect_list(rect))
+        self.calibration = calibration_from_screen_map(smap)
+        self.H = homography(self.calibration)
+        self.card_slot_pixels = card_slot_points(smap)
+        self.bounds = list(smap.rect)
+        self.screen_map = smap
+        self.log.append({"event": "rect_update", "rect": list(smap.rect)})
 
     def plan_clicks(self, key: str, tile: list[float] | None, hand: list | None) -> dict:
         if key == "hold" or tile is None:
