@@ -1,7 +1,7 @@
 """Arena unit detection with pretrained weights (nothing is trained here).
 
 Backends:
-  KataCRDetector    - wty-yy/KataCR YOLOv8-l x2 (85 classes each, 896 px),
+  KataCRDetector    - KataCR YOLOv8-l x2 (85 classes each, 896 px),
                       outputs xyxy, conf, cls, bel (0 = ally/blue, 1 = enemy/red).
   BuildABotDetector - Pbatch/ClashRoyaleBuildABot ONNX (97 unit classes,
                       480x352, fp16) + a 16x16 side classifier.
@@ -14,6 +14,7 @@ weights are frozen at mid-2024 and newer cards are not in them.
 """
 from __future__ import annotations
 
+import os
 import sys
 import time
 from dataclasses import dataclass
@@ -21,6 +22,46 @@ from pathlib import Path
 
 import cv2
 import numpy as np
+
+DEFAULT_SCRATCH = Path.home() / "cr_scratch"
+WEIGHT_FILES = ("katacr_d1.pt", "katacr_d2.pt")
+
+
+def scratch_dir() -> Path:
+    """$CR_SCRATCH, else ~/cr_scratch."""
+    return Path(os.environ.get("CR_SCRATCH") or DEFAULT_SCRATCH).expanduser()
+
+
+def katacr_root() -> Path:
+    """$CLASHBOT_KATACR_ROOT, else <scratch>/katacr (the KataCR git clone, needed to unpickle the checkpoints)."""
+    env = os.environ.get("CLASHBOT_KATACR_ROOT")
+    return Path(env).expanduser() if env else scratch_dir() / "katacr"
+
+
+def katacr_weights() -> list[Path]:
+    """$CLASHBOT_KATACR_WEIGHTS (paths joined by os.pathsep), else <scratch>/katacr_d1.pt and katacr_d2.pt."""
+    env = os.environ.get("CLASHBOT_KATACR_WEIGHTS")
+    if env:
+        return [Path(p).expanduser() for p in env.split(os.pathsep) if p]
+    return [scratch_dir() / f for f in WEIGHT_FILES]
+
+
+def torch_device() -> str:
+    """$CLASHBOT_TORCH_DEVICE ("cpu" | "mps"), default "cpu"."""
+    return os.environ.get("CLASHBOT_TORCH_DEVICE") or "cpu"
+
+
+def check_katacr_paths(root: Path | None = None, weights: list[Path] | None = None) -> list[str]:
+    """Human-readable problems (empty list = all present). Never raises."""
+    root = katacr_root() if root is None else Path(root)
+    weights = katacr_weights() if weights is None else [Path(w) for w in weights]
+    problems = []
+    if not (root / "katacr").is_dir():
+        problems.append(f"KataCR source not found at {root} (expected {root}/katacr/); set CLASHBOT_KATACR_ROOT")
+    for w in weights:
+        if not w.is_file():
+            problems.append(f"KataCR weights not found: {w}; set CLASHBOT_KATACR_WEIGHTS or CR_SCRATCH")
+    return problems
 
 SPELL_CLASSES = {"zap", "giant-snowball", "arrows", "the-log", "fireball", "rocket", "lightning", "poison",
                  "earthquake", "tornado", "freeze", "rage", "clone", "graveyard", "barbarian-barrel",
@@ -204,3 +245,12 @@ class BuildABotDetector:
                                  categorize(name)))
         self.last_ms = (time.perf_counter() - t) * 1000
         return out
+
+
+def default_katacr_detector(imgsz: int = 896, conf: float = 0.5, device: str | None = None) -> "KataCRDetector":
+    """KataCRDetector built from the env/config paths above; raises FileNotFoundError listing every missing path."""
+    problems = check_katacr_paths()
+    if problems:
+        raise FileNotFoundError("; ".join(problems))
+    return KataCRDetector([str(w) for w in katacr_weights()], str(katacr_root()), imgsz=imgsz, conf=conf,
+                          device=device or torch_device())

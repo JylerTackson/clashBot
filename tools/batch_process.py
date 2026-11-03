@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import subprocess
 import sys
 import time
@@ -27,10 +26,10 @@ from cr_perception.context import build_context, render_context_md, split_matche
 from cr_perception.recorder import JsonlRecorder  # noqa: E402
 from cr_perception.screen import assess, detect_content_rect, detect_game_panel  # noqa: E402
 
-SCRATCH = os.environ.get("CR_SCRATCH", "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad")
 from cr_perception.decktracker import load_kb_decks  # noqa: E402
+from cr_perception.detect import katacr_root, katacr_weights, torch_device  # noqa: E402
 KB_DECKS = load_kb_decks(ROOT / "knowledge_base")
-WEIGHTS = [f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"]
+WEIGHTS = [str(p) for p in katacr_weights()]
 
 
 def scan_matches(video: str, step: float = 2.0, gap: float = 8.0, min_len: float = 45.0) -> tuple[list[tuple[float, float]], list[dict]]:
@@ -163,6 +162,7 @@ def main() -> int:
     ap.add_argument("--label-every", type=int, default=3)   # 2 Hz deploy-label OCR
     ap.add_argument("--imgsz", type=int, default=640)
     ap.add_argument("--no-detector", action="store_true")
+    ap.add_argument("--device", default=torch_device(), help="torch device for KataCR (cpu | mps)")
     a = ap.parse_args()
     vroot, out = Path(a.videos), Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -171,7 +171,7 @@ def main() -> int:
     det = None
     if not a.no_detector:
         from cr_perception.detect import KataCRDetector
-        det = KataCRDetector(WEIGHTS, "/home/user/wty-yy/katacr", imgsz=a.imgsz)
+        det = KataCRDetector(WEIGHTS, str(katacr_root()), imgsz=a.imgsz, device=a.device)
     manifest_p = out / "manifest.json"
     manifest = json.loads(manifest_p.read_text()) if manifest_p.exists() else {"videos": {}}
     dl = json.loads((vroot / "manifest.json").read_text()) if (vroot / "manifest.json").exists() else {"videos": []}

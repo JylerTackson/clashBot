@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -28,6 +29,7 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from cr_perception import geometry as g  # noqa: E402
 from cr_perception.config import Calibration  # noqa: E402
+from cr_perception.detect import check_katacr_paths, katacr_root, katacr_weights, scratch_dir  # noqa: E402
 from cr_perception.hud import DEFAULT_ROIS  # noqa: E402
 from cr_perception.overlay import draw_grid, draw_rois  # noqa: E402
 from cr_perception.screen import assess, detect_content_rect  # noqa: E402
@@ -90,9 +92,10 @@ def main() -> int:
     ap.add_argument("--time", type=float, default=60.0)
     ap.add_argument("--corners", help="'x,y x,y x,y x,y' bl br tr tl in CONTENT pixels")
     ap.add_argument("--detector", choices=["katacr", "buildabot"], help="auto arena from towers")
-    ap.add_argument("--katacr-root", default="/home/user/wty-yy/katacr")
-    ap.add_argument("--katacr-weights", nargs="*", default=[])
-    ap.add_argument("--buildabot-root", default="/home/user/pbatch/clashroyalebuildabot")
+    ap.add_argument("--katacr-root", default=str(katacr_root()))
+    ap.add_argument("--katacr-weights", nargs="*", default=[str(p) for p in katacr_weights()])
+    ap.add_argument("--buildabot-root",
+                    default=os.environ.get("CLASHBOT_BUILDABOT_ROOT", str(scratch_dir() / "clashroyalebuildabot")))
     ap.add_argument("--out", default="calib.json")
     ap.add_argument("--verify", default=None, help="verification image path (default <out>.verify.png)")
     a = ap.parse_args()
@@ -119,6 +122,11 @@ def main() -> int:
     elif a.detector:
         if a.detector == "katacr":
             from cr_perception.detect import KataCRDetector
+            problems = check_katacr_paths(Path(a.katacr_root), [Path(w) for w in a.katacr_weights])
+            if problems:
+                for msg in problems:
+                    print(msg)
+                return 4
             det = KataCRDetector(a.katacr_weights, a.katacr_root, conf=0.3)
         else:
             from cr_perception.detect import BuildABotDetector

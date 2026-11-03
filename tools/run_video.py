@@ -20,16 +20,16 @@ import cv2
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from cr_perception import Perception, VideoFrameSource  # noqa: E402
 from cr_perception import geometry as g  # noqa: E402
+from cr_perception.detect import katacr_root, katacr_weights, scratch_dir, torch_device  # noqa: E402
 from cr_perception.overlay import OverlayVideoWriter, render  # noqa: E402
 from cr_perception.recorder import JsonlRecorder  # noqa: E402
-
-SCRATCH = os.environ.get("CR_SCRATCH", "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad")
 
 
 def build_detector(name: str, a):
     if name == "katacr":
         from cr_perception.detect import KataCRDetector
-        return KataCRDetector(a.katacr_weights or [f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"], a.katacr_root, imgsz=a.imgsz)
+        return KataCRDetector(a.katacr_weights or [str(p) for p in katacr_weights()], a.katacr_root, imgsz=a.imgsz,
+                              device=a.device)
     if name == "buildabot":
         from cr_perception.detect import BuildABotDetector
         return BuildABotDetector(a.buildabot_root)
@@ -42,9 +42,11 @@ def main() -> int:
     ap.add_argument("--calib", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--detector", default="katacr")
-    ap.add_argument("--katacr-root", default="/home/user/wty-yy/katacr")
+    ap.add_argument("--katacr-root", default=str(katacr_root()))
     ap.add_argument("--katacr-weights", nargs="*")
-    ap.add_argument("--buildabot-root", default="/home/user/pbatch/clashroyalebuildabot")
+    ap.add_argument("--buildabot-root",
+                    default=os.environ.get("CLASHBOT_BUILDABOT_ROOT", str(scratch_dir() / "clashroyalebuildabot")))
+    ap.add_argument("--device", default=torch_device(), help="torch device for KataCR (cpu | mps)")
     ap.add_argument("--start", type=float, default=0.0)
     ap.add_argument("--end", type=float, default=None)
     ap.add_argument("--stride", type=int, default=1)

@@ -24,11 +24,10 @@ import cv2
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from cr_perception import Perception, VideoFrameSource  # noqa: E402
+from cr_perception.detect import katacr_root, katacr_weights, scratch_dir, torch_device  # noqa: E402
 from cr_perception.overlay import OverlayVideoWriter, render  # noqa: E402
 from cr_perception.recorder import JsonlRecorder  # noqa: E402
 from cr_perception.screen import MatchGate, assess, detect_content_rect, detect_game_panel  # noqa: E402
-
-SCRATCH = os.environ.get("CR_SCRATCH", "/tmp/claude-0/-home-user-clashBot/b1ee76b3-087c-551c-820f-ad044281a081/scratchpad")
 
 
 def find_first_match(video: str, step: float = 2.0, needed: int = 3, max_t: float | None = None) -> tuple[float | None, dict]:
@@ -65,8 +64,9 @@ def main() -> int:
     ap.add_argument("--detector", default="katacr")
     ap.add_argument("--detect-every", type=int, default=6)
     ap.add_argument("--imgsz", type=int, default=896, help="KataCR inference size (640 is ~2x faster, less precise)")
-    ap.add_argument("--katacr-root", default="/home/user/wty-yy/katacr")
-    ap.add_argument("--buildabot-root", default="/home/user/pbatch/clashroyalebuildabot")
+    ap.add_argument("--katacr-root", default=str(katacr_root()))
+    ap.add_argument("--buildabot-root",
+                    default=os.environ.get("CLASHBOT_BUILDABOT_ROOT", str(scratch_dir() / "clashroyalebuildabot")))
     a = ap.parse_args()
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -94,7 +94,7 @@ def main() -> int:
            "--out", str(calib_path)]
     if a.detector == "katacr":
         cmd += ["--detector", "katacr", "--katacr-root", a.katacr_root, "--katacr-weights",
-                f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"]
+                *[str(p) for p in katacr_weights()]]
     elif a.detector == "buildabot":
         cmd += ["--detector", "buildabot", "--buildabot-root", a.buildabot_root]
     r = subprocess.run(cmd, capture_output=True, text=True)
@@ -107,7 +107,8 @@ def main() -> int:
     det = None
     if a.detector == "katacr":
         from cr_perception.detect import KataCRDetector
-        det = KataCRDetector([f"{SCRATCH}/katacr_d1.pt", f"{SCRATCH}/katacr_d2.pt"], a.katacr_root, imgsz=a.imgsz)
+        det = KataCRDetector([str(p) for p in katacr_weights()], a.katacr_root, imgsz=a.imgsz,
+                           device=torch_device())
     elif a.detector == "buildabot":
         from cr_perception.detect import BuildABotDetector
         det = BuildABotDetector(a.buildabot_root)
