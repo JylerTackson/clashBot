@@ -104,3 +104,9 @@ Overlay on a captured iPhone Mirroring frame after calibration; visual check onl
 
 ## 8. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #3 (executor half; package G does the loop half in parallel)
+The capture source follows a moved iPhone Mirroring window, but the executor keeps the rect it was built with, so live taps would land off by the move.
+Add `MirroringExecutor.update_rect(self, rect) -> None`: requires `self.screen_map` (built via `from_calib`; else `ValueError("update_rect needs an executor built with from_calib")`); `smap = dataclasses.replace(self.screen_map, rect=_rect_list(rect))`; recompute `self.calibration = calibration_from_screen_map(smap)`, `self.H = homography(self.calibration)`, `self.card_slot_pixels = card_slot_points(smap)`, `self.bounds = list(smap.rect)`, `self.screen_map = smap`; leave `live` and `poster` unchanged; append `{"event": "rect_update", "rect": list(smap.rect)}` to `self.log`.
+Tests: after `update_rect` shifted by (+40, +25) every planned click shifts by exactly (+40, +25) (1e-6); a directly-constructed executor raises `ValueError`; `live` flag unchanged.

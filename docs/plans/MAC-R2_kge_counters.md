@@ -68,3 +68,8 @@ Full grid, 150 epochs, both settings → `docs/data/kge_link_prediction_v1.{json
 
 ## 8. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #5
+Hits@k must be the expectation under random tie-breaking, not Hits@k of the expected rank (a full tie over 126 candidates currently gives Hits@10 = 0 instead of ≈ 0.079).
+Add `realistic_hits(scores, true_idx, filter_idx, k) -> float`: with `better = #(s > s_t)` and `tied = #(s == s_t)` including the true item (filtered set), return `max(0.0, min(1.0, (k - better) / tied))`. Use it for every hits@k (models and baselines); keep `realistic_rank` for MRR. Tests: 4 all-tied candidates → hits@1 0.25, hits@3 0.75; no ties → 0/1 as before; scores `[0.9, 0.5, 0.5, 0.1]`, true 1 → hits@1 0.0, hits@2 0.5.

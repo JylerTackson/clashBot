@@ -108,3 +108,11 @@ Full rebuild per `docs/PHASE3_OVERVIEW.md`, then `$PY -m pytest -q tests` includ
 
 ## 6. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #1
+My static check ("no `wty-yy` anywhere") was too strict and led to an obfuscated URL. The goal is no hard-coded **cloud paths**; crediting and cloning the upstream repo is fine.
+1. `tools/worker_setup.sh`: `KATACR_REPO="${KATACR_REPO:-https://github.com/wty-yy/katacr}"` written plainly; delete the "concatenated so that a grep … stays clean" comment.
+2. `cr_perception/detect.py` docstring: restore `KataCRDetector    - wty-yy/KataCR YOLOv8-l x2 (85 classes each, 896 px),`.
+3. `tests/test_config_paths.py`: the static test forbids exactly these substrings in the owned files: `"/home/user"`, `"/tmp/claude-0"`, `"claude-0/-home-user"`. Drop the `"wty-yy"` check. Add a positive check that `tools/worker_setup.sh` contains `https://github.com/wty-yy/katacr`.
+Acceptance: `grep -rn "/home/user\|claude-0" tools cr_perception` prints nothing; `$PY -m pytest -q tests/test_config_paths.py`.

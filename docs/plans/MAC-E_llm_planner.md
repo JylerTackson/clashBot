@@ -126,3 +126,11 @@ Tiny DB fixture: `clashbot.db.connect(tmp/"t.sqlite")`, `create_schema`, insert 
 
 ## 10. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #6
+The smoke plan ignored "at most 5 short lines" (long bold markdown bullets, cut mid-word at 600 chars).
+1. `SYSTEM_PROMPT` gets one more sentence at the end: `"Write plain text without markdown: at most 5 lines, each under 100 characters. Mention only cards from our deck or opponent cards seen so far."` `FINAL_NUDGE` = `"Write the final plan now: plain text, at most 5 lines, each under 100 characters, no tool calls."`
+2. `MLXChat` default `max_tokens` = 200.
+3. New `clip_plan(text: str, max_chars: int = PLAN_MAX_CHARS) -> str`: remove markdown emphasis/headers (`**`, `__`, leading `#`s, leading `- ` or `* ` bullets become plain lines), collapse blank lines, then keep whole lines while the joined length (with `"\n"`) stays ≤ `max_chars`; if even the first line is longer, cut it at the last space before `max_chars` (never mid-word). Use it in `pregame` and `update` instead of `text[:PLAN_MAX_CHARS]`.
+4. Tests: `clip_plan` on a markdown plan returns no `**`/`#`, ≤ 600 chars, ends at a line boundary; a single 700-char line ends at a space; the fake-chat ReAct tests still pass.

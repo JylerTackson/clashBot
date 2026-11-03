@@ -106,3 +106,8 @@ Expected in your worktree only: `--source mirroring` and the detector/builder im
 
 ## 7. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #3 (loop half; package F adds `MirroringExecutor.update_rect(rect)` in parallel)
+In `LiveLoop.step`, before perception: `rc = getattr(self.source, "rect_changes", 0)`; if `rc > self._rect_changes_seen` (initially 0): set `self._rect_changes_seen = rc`, and if the executor has `update_rect`, call `self.executor.update_rect(self.source.rect)`; mark the frame row `"rect_changed": True` (else `False`). Count them in `summary()["rect_updates"]`.
+Tests with fakes: a `FakeSource` whose `rect_changes` goes 0 → 1 at frame 3 and a `FakeExecutor` with `update_rect` recording calls → called exactly once with the new rect; executors without `update_rect` are left alone; `summary()["rect_updates"] == 1`.

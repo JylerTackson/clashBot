@@ -69,3 +69,11 @@ Rebuild `dataset/v1/ranker`, `act`, `placement_prior.json`, baselines and `d1/` 
 
 ## 7. Report
 Per MAC-00 §5, with the per-split counts (`examples`, `skipped_no_grid`, `skipped_pos_impossible`), `placement_variant_counts`, and the baseline table.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #7, #10, #11
+Owns additionally: `tests/test_kg_documents.py`.
+1. (#7) `tests/conftest.py`: `def pytest_configure(config): config.addinivalue_line("markers", "slow: real-model tests, run only with CLASHBOT_SLOW_TESTS=1")`.
+2. (#10) `tests/test_kg_documents.py` must not write into `dataset/v1`. Read `tools/data/build_kg.py` and `tools/data/build_documents.py`: both take `--dataset DIR`. Add a session fixture `built_kg(tmp_path_factory)` in `tests/conftest.py` (skip if the real `states.jsonl` is missing) that symlinks `states.jsonl` and `games.jsonl` (and anything else these builders read from the dataset dir — check their code) into a temp dir and runs both builders there; the tests read from it. Afterwards `grep -n "build_kg\|build_documents" tests/*.py` shows only temp-dir invocations.
+3. (#11) `tools/eval/eval_ranker_baselines.py` `NOTE`: `"knn_vote is not reported on the 4-way files: the second card of each 2x2 grid is mined from kNN neighbours. It is evaluated fairly in candidate_recall over all possible action keys."`
+Acceptance: `$PY -m pytest -q tests` (whole suite, with the symlinks) leaves the mtimes of every file under the real `dataset/v1/` unchanged — check with `find dataset/v1 -newer <marker file> -type f` printing nothing.

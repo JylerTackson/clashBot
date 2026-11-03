@@ -106,3 +106,7 @@ Full val+test, both variants, mlx; joint val+test transformers; `--compare`. Res
 
 ## 8. Report
 Per MAC-00 §5, plus the smoke tables.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #9
+Replace the stale `clashbot/ranker.py` module docstring with: `"""Fast-loop rankers (D-007): ScoreRanker baseline, Laya stub, and D1Ranker running LiquidAI d1-omni-600M through mlx-vlm (default) or transformers (D-026)."""`. No behaviour change; run `tests/test_d1_ranker.py`.

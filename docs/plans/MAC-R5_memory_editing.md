@@ -115,3 +115,7 @@ Full run (`--n-probe 300`) → `docs/data/edit_eval_v1.{json,md}`.
 
 ## 6. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #4
+One Hog Rider edit gives only n = 4 generalization/portability probes. Add `--cards auto|<slug,...>` (default `auto` when `--card` is not given; `--card` keeps the single-edit mode): `auto` = the 5 most frequent `action.card` values among train-split, train-eligible play records with a numeric `elixir_cost`, ties by slug. For each card run the existing evaluation with a fresh `MemoryStore(":memory:")` and `value = old + 1` (attribute `elixir_cost`, patch `P1`). Output `{"edits": [per-edit result as now], "pooled": {criterion: {"n": Σn, "edited": Σpasses/Σn, "no_edit": …}}, "conflict_pooled": {...}}`; the markdown shows one row per criterion for the pooled numbers and a second table with per-card n and edited score. Generalization probes (and portability) use records where the card is in **hand or possible** (`card in possible_cards(state, cards)`, D-019) and the elixir band flips — report both counts (`n_in_hand`, `n_possible`). Tests: `auto` picks 5 distinct cards on a synthetic dataset; pooled n equals the sum of per-edit n.

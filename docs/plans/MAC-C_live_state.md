@@ -97,3 +97,7 @@ Download one val/test video (D-029) into `data/videos/`, `tools/calibrate.py` on
 
 ## 7. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #8
+Event dedupe merges two unidentified plays (`card is None`) that share a rounded timestamp. Change the dedupe key to `(round(timestamp, 1), player, card, tuple(tile) if tile else None)`. Add a test: two opponent events at the same `t`, both `card=None`, tiles `[3, 20]` and `[14, 20]` → both appear in `opponent.recent_plays`; two identical events (same tile) → one.
