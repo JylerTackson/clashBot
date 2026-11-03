@@ -33,13 +33,17 @@ PREGAME_TEMPLATE = (
 
 SYSTEM_PROMPT = ("You are the strategist for a Clash Royale agent. You cannot act or play cards: you can only read "
                  "through the tools you are given. Call a tool when you need a fact (card stats, counters, professional "
-                 "notes, similar situations). When you know enough, reply with the plan and no tool call.")
-FINAL_NUDGE = "Write the final plan now, in at most 5 short lines, without calling any tool."
+                 "notes, similar situations). When you know enough, reply with the plan and no tool call. "
+                 "Write plain text without markdown: at most 5 lines, each under 100 characters. Mention only cards "
+                 "from our deck or opponent cards seen so far.")
+FINAL_NUDGE = "Write the final plan now: plain text, at most 5 lines, each under 100 characters, no tool calls."
 UPDATE_TEMPLATE = ("Current plan:\n{plan}\n\nThe game now (t={t}s):\n{context}\n\nEnemy cards not seen when the plan "
                    "was made: {new_cards}.\nKeep or revise the plan in at most 5 short lines.")
 
 _TOOL_CALL_RE = re.compile(r"<tool_call>(.*?)</tool_call>", re.DOTALL)
 _THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL)
+_HEADER_RE = re.compile(r"^#+\s*")
+_BULLET_RE = re.compile(r"^[-*]\s+")
 
 
 @dataclass
@@ -88,7 +92,7 @@ def build_pregame_prompt(own_deck: list[str], deck_docs: list[str], tool_names: 
 class MLXChat:
     """Chat wrapper over mlx-lm; the model loads on the first `chat` call."""
 
-    def __init__(self, model_id: str = DEFAULT_QWEN_ID, max_tokens: int = 384, temperature: float = 0.0):
+    def __init__(self, model_id: str = DEFAULT_QWEN_ID, max_tokens: int = 200, temperature: float = 0.0):
         self.model_id = model_id
         self.max_tokens = max_tokens
         self.temperature = temperature
@@ -138,6 +142,28 @@ def parse_tool_calls(text: str) -> list[dict]:
 
 def strip_tool_calls(text: str) -> str:
     return _THINK_RE.sub("", _TOOL_CALL_RE.sub("", text)).strip()
+
+
+def clip_plan(text: str, max_chars: int = PLAN_MAX_CHARS) -> str:
+    """Plain-text plan of whole lines within `max_chars`: markdown emphasis, headers and bullets removed, blank lines
+    dropped; an over-long first line is cut at a space, never mid-word."""
+    lines = []
+    for raw in text.replace("**", "").replace("__", "").splitlines():
+        line = _BULLET_RE.sub("", _HEADER_RE.sub("", raw.strip())).strip()
+        if line:
+            lines.append(line)
+    kept: list[str] = []
+    for line in lines:
+        if len("\n".join(kept + [line])) > max_chars:
+            break
+        kept.append(line)
+    if kept:
+        return "\n".join(kept)
+    if not lines:
+        return ""
+    head = lines[0][:max_chars + 1]
+    cut = head.rfind(" ")
+    return (head[:cut] if cut > 0 else lines[0][:max_chars]).rstrip()
 
 
 def should_update(last_update_t: float | None, t: float, opp_deck_known: list[str], seen: set[str],
@@ -192,7 +218,7 @@ class LLMPlanner:
         notes = self._notes(own_deck, deck_key)
         user = build_pregame_prompt(own_deck, [notes], [t["name"] for t in TOOLS])
         text, trace = self.run(SYSTEM_PROMPT, user, ctx, self.max_steps)
-        text = text[:PLAN_MAX_CHARS].strip()
+        text = clip_plan(text)
         plan = Plan(text, "llm", trace) if text else Plan(notes[:PLAN_MAX_CHARS], "rules_fallback", trace)
         ctx.plan_text = plan.text
         return plan
@@ -209,7 +235,7 @@ class LLMPlanner:
         elif ctx.plan_text is None:
             ctx.plan_text = plan.text
         text, trace = self.run(SYSTEM_PROMPT, user, ctx, UPDATE_STEPS)
-        text = text[:PLAN_MAX_CHARS].strip()
+        text = clip_plan(text)
         if not text:
             return plan
         ctx.plan_text = text

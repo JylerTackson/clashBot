@@ -13,8 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from clashbot.db import connect, create_schema  # noqa: E402
-from clashbot.planner import (FINAL_NUDGE, SYSTEM_PROMPT, LLMPlanner, MLXChat, Plan, openai_tools,  # noqa: E402
-                              parse_tool_calls, should_update, strip_tool_calls)
+from clashbot.planner import (FINAL_NUDGE, PLAN_MAX_CHARS, SYSTEM_PROMPT, LLMPlanner, MLXChat, Plan,  # noqa: E402
+                              clip_plan, openai_tools, parse_tool_calls, should_update, strip_tool_calls)
 from clashbot.state_text import render_context  # noqa: E402
 from clashbot.tools import TOOLS, ToolContext  # noqa: E402
 
@@ -94,6 +94,53 @@ def test_openai_tools():
     assert all(t["type"] == "function" for t in tools)
     assert [t["function"]["name"] for t in tools] == [t["name"] for t in TOOLS]
     assert all(set(t["function"]) == {"name", "description", "parameters"} for t in tools)
+
+
+def test_clip_plan_strips_markdown_and_keeps_whole_lines():
+    md = ("## Game plan\n\n"
+          "- **Win condition:** Hog Rider cycle through the right lane.\n"
+          "* __Spells:__ save Zap for the Inferno Dragon.\n"
+          "\n\n"
+          "**Defend:** Knight on the Giant, then counter-push.\n")
+    out = clip_plan(md)
+    assert "**" not in out and "__" not in out and "#" not in out
+    assert out.splitlines() == ["Game plan",
+                                "Win condition: Hog Rider cycle through the right lane.",
+                                "Spells: save Zap for the Inferno Dragon.",
+                                "Defend: Knight on the Giant, then counter-push."]
+    assert not out.startswith(("-", "*")) and "\n\n" not in out
+
+    long_md = "\n".join(f"- **Line {i}:** " + "word " * 12 for i in range(30))     # ~75 chars a line
+    out = clip_plan(long_md)
+    assert len(out) <= PLAN_MAX_CHARS and "**" not in out
+    kept = out.splitlines()
+    assert 0 < len(kept) < 30                                       # ends at a line boundary, whole lines only
+    assert all(line.startswith("Line ") and line.endswith("word") for line in kept)
+    assert kept == [f"Line {i}: " + "word " * 11 + "word" for i in range(len(kept))]
+    assert len("\n".join(kept + [f"Line {len(kept)}: " + "word " * 11 + "word"])) > PLAN_MAX_CHARS
+    assert clip_plan(long_md, max_chars=140).count("\n") == 1       # custom limit: two whole lines
+
+
+def test_clip_plan_cuts_a_single_long_line_at_a_space():
+    line = "push right with hog and zap " * 25                      # 700 chars
+    line = line[:700]
+    out = clip_plan(line)
+    assert 0 < len(out) <= PLAN_MAX_CHARS and "\n" not in out
+    assert line[len(out)] == " " and not out.endswith(" ")          # cut sits on a word boundary
+    assert line.startswith(out)
+    exact = ("ab " * 400)[:601]                                       # a space exactly at max_chars
+    assert clip_plan(exact) == exact[:600].rstrip()
+    assert clip_plan("x" * 2000) == "x" * 600                       # no space anywhere: hard cut
+    assert clip_plan("  \n \n") == "" and clip_plan("") == ""
+    assert clip_plan("short plan") == "short plan"
+
+
+def test_prompts_ask_for_short_plain_text():
+    assert SYSTEM_PROMPT.endswith("Write plain text without markdown: at most 5 lines, each under 100 characters. "
+                                  "Mention only cards from our deck or opponent cards seen so far.")
+    assert FINAL_NUDGE == ("Write the final plan now: plain text, at most 5 lines, each under 100 characters, "
+                           "no tool calls.")
+    assert MLXChat().max_tokens == 200
 
 
 def test_should_update():
@@ -192,6 +239,16 @@ def test_empty_final_text_falls_back_to_rules(db):
 def test_plan_text_is_capped(db):
     plan = LLMPlanner(FakeChat(["x" * 2000]), db_path=db).pregame(["zap"])
     assert plan.source == "llm" and len(plan.text) == 600
+
+
+def test_pregame_and_update_clip_markdown_plans(db):
+    md = "**Plan**\n\n- **Win:** hog cycle right.\n- **Spells:** zap for the dragon.\n" + "- filler " * 120
+    planner = LLMPlanner(FakeChat([md, md]), db_path=db)
+    plan = planner.pregame(["hog-rider", "zap"])
+    assert plan.source == "llm" and "**" not in plan.text and len(plan.text) <= PLAN_MAX_CHARS
+    assert plan.text.splitlines()[:3] == ["Plan", "Win: hog cycle right.", "Spells: zap for the dragon."]
+    revised = planner.update(plan, make_state([]), 30.0)
+    assert revised.text == plan.text and "-" not in revised.text.splitlines()[1][:1]
 
 
 # --- update --------------------------------------------------------------------------------------------------------
