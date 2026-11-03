@@ -134,10 +134,12 @@ class FakeClock:
         return self.now
 
 
-def _loop(tmp_path=None, source=None, builder=None, generator=None, ranker=None, executor=None, plan_text="PLAN"):
-    return LiveLoop(source or FakeSource(), FakePerception(), builder or FakeBuilder(),
+def _loop(tmp_path=None, source=None, builder=None, generator=None, ranker=None, executor=None, plan_text="PLAN",
+          perception=None, min_gap_s=0.0):
+    # min_gap_s=0 keeps the pre-amendment-2 behaviour for the older tests; the min-gap tests pass it explicitly
+    return LiveLoop(source or FakeSource(), perception or FakePerception(), builder or FakeBuilder(),
                     generator or FakeGenerator(), ranker or FakeKeyRanker(), executor or FakeExecutor(),
-                    load_cards(), PRIOR, plan_text=plan_text, out_dir=tmp_path, clock=FakeClock())
+                    load_cards(), PRIOR, plan_text=plan_text, out_dir=tmp_path, clock=FakeClock(), min_gap_s=min_gap_s)
 
 
 # 1 -----------------------------------------------------------------------------------------------------------------
@@ -425,7 +427,10 @@ def test_cli_defaults():
     assert args.detector == "katacr" and args.detect_every == 3 and args.imgsz == 640
     assert args.planner == "rules" and args.d1_backend == "mlx" and args.seconds == 60
     assert args.max_decisions is None and args.out is None and args.hero_cards == ""
+    assert args.min_gap == 1.0 and args.sync_ocr is False
     assert build_parser().parse_args(_argv("--live")).live is True
+    args = build_parser().parse_args(_argv("--min-gap", "0", "--sync-ocr"))
+    assert args.min_gap == 0.0 and args.sync_ocr is True
 
 
 # 8 -----------------------------------------------------------------------------------------------------------------
@@ -476,3 +481,163 @@ def test_loop_cli_accepts_ranker_flags(monkeypatch):
     assert seen == [("-abc", None, "d1", "transformers"), ("xyz", 3, "score", "mlx")]
     with pytest.raises(SystemExit):
         loop_mod.main(["--replay", "xyz", "--ranker", "bogus"])
+
+
+# Amendment 2: min gap between decisions, each opponent play triggers once, perception.close, async_ocr ---------------
+class TimedBuilder:
+    """build() always returns a state; the opponent plays in `plays` are visible once t has reached their own t."""
+
+    def __init__(self, elixir=5.0, plays=()):
+        self.elixir = elixir
+        self.plays = list(plays)
+        self.t = 0.0
+
+    def observe_events(self, events):
+        pass
+
+    def build(self, gs):
+        state = _state(elixir=self.elixir)
+        state["opponent"]["recent_plays"] = [{"t": pt, "card": "knight"} for pt in self.plays if pt <= gs.t]
+        return state, "CTX"
+
+
+class TimedPerception(FakePerception):
+    def __init__(self):
+        self.closed = 0
+
+    def process(self, frame, t, idx):
+        return types.SimpleNamespace(readiness="match", t=t)
+
+    def close(self):
+        self.closed += 1
+
+
+class RangeSource(FakeSource):
+    """Frames every 0.1 s over [t0, t1)."""
+
+    def __init__(self, t0, t1):
+        super().__init__(0)
+        self.t0, self.t1 = t0, t1
+
+    def frames(self):
+        i = 0
+        while round(self.t0 + i * 0.1, 3) < self.t1:
+            yield f"frame{i}", round(self.t0 + i * 0.1, 3), i
+            i += 1
+
+
+def test_min_gap_default_is_one_second():
+    lp = LiveLoop(FakeSource(), FakePerception(), FakeBuilder(), FakeGenerator(), FakeKeyRanker(), FakeExecutor(),
+                  load_cards(), PRIOR)
+    assert lp.min_gap_s == 1.0
+
+
+def test_min_gap_spaces_decisions_at_least_one_second_apart():
+    # elixir 9.5 keeps should_decide true on every frame; frames are 0.1 s apart
+    lp = _loop(source=RangeSource(0.0, 3.0), builder=TimedBuilder(elixir=9.5), perception=TimedPerception(),
+               min_gap_s=1.0)
+    summary = lp.run()
+    times = [d.t for d in lp.decisions]
+    assert times == [0.0, 1.0, 2.0]
+    assert all(b - a >= 1.0 for a, b in zip(times, times[1:]))
+    assert summary["frames"] == 30 and summary["decisions"] == 3 and summary["skipped_min_gap"] == 27
+
+
+def test_min_gap_zero_restores_decision_on_every_frame():
+    lp = _loop(source=RangeSource(0.0, 3.0), builder=TimedBuilder(elixir=9.5), perception=TimedPerception(),
+               min_gap_s=0.0)
+    summary = lp.run()
+    assert summary["decisions"] == summary["frames"] == 30 and summary["skipped_min_gap"] == 0
+
+
+def test_min_gap_skip_returns_none_and_logs_frame():
+    lp = _loop(builder=TimedBuilder(elixir=9.5), perception=TimedPerception(), min_gap_s=1.0)
+    assert lp.step("f", 0.0, 0, 2.0) is not None
+    assert lp.step("f", 0.5, 1, 2.0) is None
+    assert lp.step("f", 1.0, 2, 2.0) is not None
+    assert len(lp.frames) == 3 and lp.skipped_min_gap == 1
+
+
+def test_opponent_play_triggers_one_decision_not_one_per_frame():
+    state = _state(elixir=5.0)
+    state["opponent"]["recent_plays"] = [{"t": 5.0}]
+    cards = load_cards()
+    assert loop_mod.should_decide(state, 5.5, 4.0, cards) is True        # the raw trigger would stay true for 2 s
+    # a prior decision at t=4.0 (so the 3 s rule is quiet until 7.0); the play at t=5.0 is then visible for 2 s
+    lp = _loop(source=RangeSource(4.1, 6.9), builder=TimedBuilder(plays=[5.0]), perception=TimedPerception(),
+               min_gap_s=0.0)
+    lp.last_decision_t = 4.0
+    summary = lp.run()
+    assert [d.t for d in lp.decisions] == [5.0] and summary["frames"] == 28
+
+
+def test_opponent_play_blocked_by_min_gap_still_triggers_once_after_it():
+    lp = _loop(source=RangeSource(4.1, 6.9), builder=TimedBuilder(plays=[5.0]), perception=TimedPerception(),
+               min_gap_s=1.5)
+    lp.last_decision_t = 4.0
+    lp.run()
+    assert [d.t for d in lp.decisions] == [5.5]                         # first frame after the gap, play still fresh
+
+
+def test_second_opponent_play_triggers_a_second_decision():
+    lp = _loop(source=RangeSource(4.1, 8.0), builder=TimedBuilder(plays=[5.0, 6.5]), perception=TimedPerception(),
+               min_gap_s=1.0)
+    lp.last_decision_t = 4.0
+    lp.run()
+    assert [d.t for d in lp.decisions] == [5.0, 6.5]
+    assert lp._handled_opp_t == 6.5
+
+
+def test_candidates_and_ranker_still_get_the_full_state():
+    class Spy(FakeGenerator):
+        def generate(self, state, t, ctx, n=4, **filters):
+            self.seen = [p["t"] for p in state["opponent"]["recent_plays"]]
+            return super().generate(state, t, ctx, n=n, **filters)
+
+    gen = Spy()
+    lp = _loop(generator=gen, builder=TimedBuilder(plays=[5.0]), perception=TimedPerception())
+    lp.last_decision_t = 4.0
+    assert lp.step("f", 5.0, 0, 2.0) is not None and gen.seen == [5.0]
+    assert lp.step("f", 5.5, 1, 2.0) is None and gen.seen == [5.0]          # handled: the filtered copy hides it
+
+
+def test_run_closes_perception_once():
+    perc = TimedPerception()
+    lp = _loop(source=FakeSource(5), builder=FakeBuilder(warmup=0), perception=perc)
+    lp.run()
+    assert perc.closed == 1
+
+
+def test_run_closes_perception_after_keyboard_interrupt():
+    class Interrupting(FakeSource):
+        def frames(self):
+            yield "f", 0.0, 0
+            raise KeyboardInterrupt
+
+    perc = TimedPerception()
+    lp = _loop(source=Interrupting(), builder=FakeBuilder(warmup=0), perception=perc)
+    lp.run()
+    assert perc.closed == 1
+
+
+def test_run_without_perception_close_is_fine():
+    lp = _loop(source=FakeSource(3), builder=FakeBuilder(warmup=0))       # FakePerception has no close()
+    assert lp.run()["frames"] == 3
+
+
+@pytest.mark.parametrize("extra,expected", [([], True), (["--sync-ocr"], False)])
+def test_build_perception_passes_async_ocr(monkeypatch, extra, expected):
+    import cr_perception
+    import clashbot.live as live_mod
+
+    seen = {}
+
+    class FakePerceptionClass:
+        def __init__(self, **kwargs):
+            seen.update(kwargs)
+
+    monkeypatch.setattr(cr_perception, "Perception", FakePerceptionClass)
+    args = build_parser().parse_args(_argv("--detector", "none", "--detect-every", "5", *extra))
+    live_mod._build_perception(args, "SRC")
+    assert seen == {"config": "calib.json", "source": "SRC", "detector": None, "detect_every": 5,
+                    "async_ocr": expected}
