@@ -37,48 +37,65 @@ Read this whole file, then `docs/PHASE3_OVERVIEW.md`, `docs/decisions/DECISIONS.
 
 Append one dated section per milestone to `docs/mac/STATUS.md` (create it): what was done, test/benchmark numbers, decisions taken (with D-ids), open questions, next step. Commit and push it with the milestone. Keep your end-of-turn summary to the same headline.
 
-## 5. Work plan
+## 5. Work plan — maximum parallelism, then one fix pass (user instruction, 2026-11-03)
 
-Do the milestones in order. Each step = Opus spec in `docs/plans/` → Sonnet implements → Opus review → commit/push → STATUS entry.
+The user wants **as much work as possible in parallel**, followed by a review-and-fix pass for whatever breaks. So do not run milestones one after another. Work in waves:
 
-### M0 — Mac environment and verification (do first)
-1. `git fetch && git checkout claude/clash-royale-kb-phase-1-4rtfm6 && git pull`.
-2. Record hardware/software (chip, RAM, macOS, Python) in STATUS.md.
-3. Create a project venv (Python 3.11 or 3.12). Install `requirements-perception.txt` (torch with MPS instead of the CPU-wheel note), plus `numpy hnswlib pytest tokenizers`. Ask the user before installing anything large beyond that list.
-4. KataCR detector: clone `wty-yy/katacr` and fetch the two checkpoints as `tools/worker_setup.sh` does, to Mac paths you choose; then have Sonnet replace the hard-coded `/home/user/wty-yy/katacr` defaults with a config value / env var (`CLASHBOT_KATACR_ROOT`, `CLASHBOT_KATACR_WEIGHTS`) — one small spec.
-5. Rebuild everything with the commands in PHASE3_OVERVIEW.md (`build_clean_dataset` → `build_kg` → `build_documents` → `seed --hnsw` → `build_ranker_dataset` → `eval_ranker_baselines` → pytest → `build_d1_dataset --tokenizer`; the d1 tokenizer comes from `https://huggingface.co/LiquidAI/d1-omni-600M/resolve/main/tokenizer.json` into `db/hf/`). Outputs must match the cloud numbers (state/sample counts, baselines) — report any difference.
-6. Run the **full** test suite, including the OpenCV perception tests the cloud could not run. Fix failures via Sonnet.
-7. Benchmarks on the M5: `python3 -m clashbot.loop --replay LGb0mz8Sb8w-m0.0 --limit 50` latency; `tools/benchmark_capture.py` capture fps (needs Screen Recording permission for the terminal — ask the user to grant it).
+```
+Wave 0  (short, sequential)   setup + one batch of user questions + ALL Wave-1 specs written
+Wave 1  (parallel)            every independent work package dispatched at once (Sonnet, isolated worktrees)
+Wave 2  (integration)         Opus merges each worktree, runs the full suite, records every failure/finding
+Wave 3  (parallel fix pass)   findings grouped by file owner -> parallel Sonnet fix agents -> re-merge -> green
+Wave 4  (parallel)            work that needs Wave-1 outputs or the user at the Mac (R6, R7, calibration, live dry-run)
+Wave 5  (fix pass)            as Wave 3; then STATUS.md + push; ask the user about POC runs
+```
 
-### M1 — Proof-of-concept readiness (no taps until the user enables them)
-1. **iPhone Mirroring capture:** extend `ScreenSource` (or a config) to locate the "iPhone Mirroring" window and capture it at a steady rate; measure fps.
-2. **Calibration for the mirrored screen:** reuse `tools/calibrate.py` (arena corners, HUD ROIs as fractions of the content rect) on a captured frame; save a Mac calibration file. The same 4 arena points give the executor's `Calibration` (tile → screen pixels).
-3. **Live state builder (train/serve parity, D-015):** a module that turns live perception output (`cr_perception` GameState/events + tracks) into the **clean state dict** used in `dataset/v1/states.jsonl` (same fields, same unit→card resolution via `clashbot/units.py`, same `render_context`), so retrieval and d1 see the same inputs as in training. Write a parity test: feed a recorded video segment through the live path and compare against the dataset's states for that game at the same timestamps (the user may need to re-download one video for this; ask).
-4. **Dry-run live loop:** `python3 -m clashbot.live --dry-run` = capture → perception → live state → `should_decide` → candidates → ranker → `DryRunExecutor`, printing decisions and per-stage latency (capture, perception, state build, retrieval, ranking). Target: total < 300 ms p95 on the M5; report where time goes.
-5. **d1 zero-shot ranker:** implement `D1Ranker.choose` (lazy import; backend = `transformers>=5.15` on MPS per the model card, or the official `LiquidAI/d1-omni-600M-MLX-8bit` build — read its card and ask the user if it is not obvious). Evaluate **zero-shot** d1 on `dataset/v1/d1/joint/val.jsonl` and `test.jsonl` against the baselines (accuracy, latency per request). This is not fine-tuning.
-6. **Qwen planner:** implement `LLMPlanner` with `mlx-lm` (model to confirm with the user, ~3–4B 4-bit), using `PREGAME_TEMPLATE` and the six read-only tools in a ReAct loop with a step cap; measure time-to-plan. It must never call the executor.
-7. **Executor taps:** implement `MirroringExecutor` with Quartz mouse events (card slot click, then tile click) behind `--live`; test first on a static screenshot overlay (draw the intended click points) before any real click. Ask the user before the first live click.
-8. **POC protocol:** Training Camp first, then a friendly battle; log every decision, latency and outcome to `runs/poc/<timestamp>/` (gitignored) and summarise in STATUS.md.
+### Parallelism rules
+1. **Dispatch in one message.** Launch every Wave-1 agent in a single response (`Agent` calls side by side, `model: "sonnet"`, `isolation: "worktree"`, `run_in_background: true`). Each agent works in its own git worktree, so parallel edits cannot collide.
+2. **Disjoint file ownership.** Every spec lists the exact files its agent may create or edit. No two Wave-1 packages own the same file. Shared files (`requirements*.txt`, `docs/decisions/DECISIONS.md`, `docs/PHASE3_OVERVIEW.md`, `docs/mac/STATUS.md`, `README.md`) are edited only by you (Opus) at integration time; agents list what they need added (e.g. a dependency) in their report.
+3. **Interfaces fixed up front.** Where one package consumes another (e.g. the live loop uses the capture source and the live-state builder), the spec of each states the exact function signatures and data shapes, so both are written at the same time against the contract; the consumer's tests use small fakes.
+4. **Don't block, report.** Agents get a time box: if their tests still fail after a reasonable attempt, they stop and report the failing test output instead of thrashing. Broken work is expected; Wave 3 fixes it.
+5. **Heavy jobs are serialised, coding is not.** The M5 has 16 GB shared memory: model downloads, d1/Qwen inference, YOLO runs and the full rebuild must not run concurrently. Coding agents write code and run fast unit tests with fakes; the heavy acceptance runs are queued and executed one at a time by you during integration (or by one designated "runner" agent). Up to ~10 coding agents in parallel is fine.
+6. **Integration is sequential and owned by Opus.** Merge worktree branches one at a time (`git merge --no-ff`), run the fast tests after each merge, then the heavy runs once. Collect every failure and every review finding into one numbered list in `docs/mac/FIX_LIST.md` (finding, file owner, evidence, intended fix).
+7. **Fix pass in parallel.** Group FIX_LIST items by file owner, write one amendment per group (appended to that package's spec), dispatch all fix agents at once, re-integrate, repeat until the suite is green and the review is clean. Then commit and push.
 
-### R — Course-research enhancements (start after M0; interleave with M1 as the user prefers)
-Each item is an experiment for the 8-page report. Write the spec with the paper references from `docs/research/course_mapping.md`, keep evaluation protocols honest (video splits, no same-game neighbours, equal tuning budgets), and save result tables to `docs/data/`.
+### Wave 0 — sequential, keep it short
+1. `git fetch && git checkout claude/clash-royale-kb-phase-1-4rtfm6 && git pull`; record chip/RAM/macOS/Python in `docs/mac/STATUS.md`.
+2. Create the venv (Python 3.11/3.12); install `requirements-perception.txt` (torch with MPS) + `numpy hnswlib pytest tokenizers`. Start the large downloads in the background while you write specs: KataCR repo + two checkpoints (as in `tools/worker_setup.sh`, Mac paths), the d1 tokenizer into `db/hf/`.
+3. **One batch of questions to the user** (`AskUserQuestion`, recommended option first), so no agent blocks later: d1 inference backend (transformers on MPS vs the official MLX 8-bit build), the Qwen model for the planner (~3–4B 4-bit on MLX), any extra installs (PyKEEN, LightGBM, sentence-transformers / MLX embedder, mlx-lm), and whether one Ryley video may be re-downloaded for the live-state parity test.
+4. Write **all Wave-1 specs** in `docs/plans/` (prefix `MAC-`), each with: owned files, interfaces, algorithm, tests that run with fakes, heavy acceptance commands (for the integration run), report format.
 
-| id | item | papers (course PDF refs) | deliverable |
+### Wave 1 — dispatch all at once
+
+| pkg | scope | owns (only these files) | heavy run at integration |
 |---|---|---|---|
-| R1 | Retrieval channel ablation: BM25 vs structured vectors vs a small text-embedding channel vs RRF fusion; exact vs HNSW (recall vs latency, `efSearch` sweep); pre- vs post-filtering by deck/archetype (empty-result rate) | RET: BM25 [32], ColBERT/bi-encoder limits [14], RRF [3], HNSW [20], filtering §2.2, BEIR [40] | `tools/eval/eval_retrieval.py` + table |
-| R2 | KG embeddings for missing COUNTERS links: TransE, DistMult, ComplEx, RotatE (PyKEEN), same tuning budget, random tie-breaking, held-out wiki edges | KG: [2, 42, 38, 36], audits [34, 37] | link-prediction table; predicted counters as an optional candidate channel |
-| R3 | Feature-interaction ranker baseline (GBDT or DCN-V2-style MLP on the structured vector + option features) vs popularity / placement prior | RAG §4.5 FM/DLRM/DCN-V2 [56–58]; "tuned baselines" [5–7] | ranker table |
-| R4 | Opponent next-card prediction from the play sequence: copy baseline (CyGNet-style frequency of past cards) vs SASRec-style sequence model | KG temporal [46, 21]; RAG [61] | accuracy table; feeds threat anticipation |
-| R5 | Memory + knowledge editing: episodic (own-game states appended to the DB/index), semantic (patch-versioned card facts with provenance/validity), procedural (post-game lessons, Reflexion/ACE playbook); evaluate one balance-change edit for reliability, generalisation, locality, portability; conflict policy for pre-patch pro samples | AGT: memory types §4.1, Mem0 [25], Reflexion [5], ACE [22], editing criteria [46], SERAC/GRACE vs ROME [53, 54, 49], ClashEval [67] | `clashbot/memory.py` + edit-eval table |
-| R6 | Planner context budget: plan quality vs number of retrieved documents (inverted-U), position effects | RAG [16, 17]; AGT Lost in the Middle [12], Context Rot [13] | small table |
-| R7 | Adaptive arbitration: consult the Qwen planner only when candidate generators disagree and no threat is imminent; measure latency and agreement | RAG FLARE [27], Adaptive-RAG [31], Self-RAG/CRAG [29, 30] | ablation table |
+| A | Config: replace hard-coded `/home/user/wty-yy/katacr` with env/config (`CLASHBOT_KATACR_ROOT`, `CLASHBOT_KATACR_WEIGHTS`) | `tools/calibrate.py`, `tools/batch_process.py`, `tools/worker_setup.sh`, `cr_perception/detect.py` (path handling only), `tests/test_config_paths.py` | full rebuild + full test suite incl. OpenCV perception tests |
+| B | iPhone Mirroring capture: find the "iPhone Mirroring" window, steady-rate capture, fps benchmark | `cr_perception/sources.py` (new class), `tools/benchmark_capture.py`, `tests/test_mirroring_source.py` | capture fps (needs Screen Recording permission) |
+| C | Live state builder: perception GameState/events/tracks → clean state dict identical in shape to `dataset/v1/states.jsonl` (units via `clashbot/units.py`, `render_context`) | `clashbot/live_state.py`, `tests/test_live_state.py` | parity test on one recorded segment (if the user allows the video) |
+| D | d1 zero-shot ranker: implement `D1Ranker.choose` (lazy import, chosen backend) + eval on `dataset/v1/d1/joint/{val,test}` vs baselines (accuracy, ms/request) | `clashbot/ranker.py`, `tools/eval/eval_d1_zero_shot.py`, `tests/test_d1_ranker.py` | zero-shot eval |
+| E | Qwen planner: `LLMPlanner` with mlx-lm, ReAct loop over the six read-only tools, step cap, never calls the executor | `clashbot/planner.py`, `tests/test_planner_llm.py` | time-to-plan on 5 decks |
+| F | Executor taps: `MirroringExecutor` via Quartz events behind `--live`; overlay mode that draws intended click points on a screenshot | `clashbot/executor.py`, `tools/executor_overlay.py`, `tests/test_executor_mac.py` | overlay check only (no live click) |
+| G | Live loop CLI `python3 -m clashbot.live --dry-run`: capture → perception → live state → trigger → candidates → ranker → executor, per-stage latency | `clashbot/live.py`, `tests/test_live_loop.py` (fakes for B/C/D) | dry run on the mirrored screen (Wave 4) |
+| R1 | Retrieval ablation: BM25 vs structured vectors vs text-embedding channel vs RRF; exact vs HNSW `efSearch` sweep; pre- vs post-filtering | `clashbot/text_embed.py`, `tools/eval/eval_retrieval.py`, `tests/test_eval_retrieval.py` | ablation table → `docs/data/` |
+| R2 | KG embeddings (PyKEEN TransE/DistMult/ComplEx/RotatE) for missing COUNTERS, equal tuning budget, random tie-breaking | `tools/eval/kge_link_prediction.py`, `tests/test_kge.py` | link-prediction table |
+| R3 | Feature-interaction ranker baseline (GBDT or DCN-V2-style MLP) on the 4-way task | `tools/eval/feature_ranker.py`, `tests/test_feature_ranker.py` | ranker table |
+| R4 | Opponent next-card prediction: copy/frequency baseline vs SASRec-style model | `tools/eval/next_card.py`, `tests/test_next_card.py` | accuracy table |
+| R5 | Memory + knowledge editing: episodic/semantic/procedural stores, patch-versioned card facts with provenance, one balance-change edit evaluated for reliability/generalisation/locality/portability | `clashbot/memory.py`, `tools/eval/edit_eval.py`, `tests/test_memory.py` | edit-eval table |
 
-Recommended order: **R1 → R3 → R2 → R5 → R4 → R6/R7**. R1–R3 need no new models and give the report's core tables quickly.
+Paper references for R1–R5 are in `docs/research/course_mapping.md` (§1–§4) and in the table of the previous version of this brief (git history).
+
+### Wave 4 — needs Wave-1 outputs or the user at the Mac (dispatch together)
+- **Calibration** of the mirrored screen (`tools/calibrate.py` on a captured frame; saves the Mac calibration + executor `Calibration`). Needs the user to open iPhone Mirroring on a match.
+- **Live dry run** with G + B + C + D: latency per stage, target < 300 ms p95; decisions logged to `runs/poc/<timestamp>/`.
+- **R6** planner context budget (needs E) and **R7** adaptive arbitration (needs E + G).
+- After the Wave-5 fix pass: ask the user before the first live click and before the first POC game (Training Camp, then a friendly battle).
 
 ### Not now (explicitly deferred by the user)
-- Fine-tuning d1 (data is ready; wait for the user's go-ahead).
-- Re-downloading the videos / re-running perception for dense act/hold negatives (approved for later). If a single video is needed for the M1 parity test, ask first.
+- Fine-tuning d1 (data is ready; wait for the go-ahead).
+- Bulk re-download / re-running perception for dense act/hold negatives (approved for later). A single video for the C parity test only with the user's OK.
 
 ## 6. First actions for you
-1. Pull the branch and read the four documents above.
-2. Start M0. When M0 is done, write the STATUS entry, push, and ask the user whether to continue with M1, R1, or both in parallel.
+1. Wave 0 steps 1–4 (setup, background downloads, one batch of user questions, all Wave-1 specs).
+2. Dispatch all twelve Wave-1 packages in one message.
+3. Integrate, write `docs/mac/FIX_LIST.md`, run the parallel fix pass, push, and add a STATUS entry with the result tables.
+4. Then Wave 4 with the user at the Mac.
