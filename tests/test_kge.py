@@ -13,10 +13,10 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from tools.eval.kge_link_prediction import (MODELS, PopularityScorer, PykeenScorer, RandomScorer,  # noqa: E402
+from tools.eval.kge_link_prediction import (HITS_KS, MODELS, PopularityScorer, PykeenScorer, RandomScorer,  # noqa: E402
                                             asymmetry, build_splits, evaluate, load_triples, make_factory,
-                                            metrics_from_ranks, novel_predictions, rank_triples, realistic_rank,
-                                            split_counters, train_model)
+                                            metrics_from_ranks, novel_predictions, rank_and_hits, rank_triples,
+                                            realistic_hits, realistic_rank, split_counters, train_model)
 
 DATASET = ROOT / "dataset" / "v1"
 needs_kg = pytest.mark.skipif(not (DATASET / "kg" / "edges.jsonl").exists(), reason="dataset/v1/kg/edges.jsonl missing")
@@ -44,11 +44,35 @@ def test_realistic_rank():
     assert realistic_rank(s, 1, [1]) == 2.5        # the true index is never filtered
 
 
+def test_realistic_hits():
+    tied = np.zeros(4)                                       # 4 all-tied candidates: the true one is in the top k w.p. k/4
+    assert realistic_hits(tied, 2, [], 1) == 0.25
+    assert realistic_hits(tied, 2, [], 3) == 0.75
+    assert realistic_hits(tied, 2, [], 4) == 1.0
+    s = np.array([0.9, 0.5, 0.5, 0.1])
+    assert realistic_hits(s, 1, [], 1) == 0.0                # one better item, tied with one other
+    assert realistic_hits(s, 1, [], 2) == 0.5
+    assert realistic_hits(s, 1, [0], 1) == 0.5               # filtering the better item makes it a 2-way tie for rank 1
+    untied = np.array([0.9, 0.5, 0.3, 0.1])                  # no ties: plain 0/1 hits (item i has rank i + 1)
+    for true in range(4):
+        for k in (1, 2, 3, 10):
+            assert realistic_hits(untied, true, [], k) == float(true + 1 <= k)
+    assert realistic_hits(s, 3, [1, 2], 1) == 0.0 and realistic_hits(s, 3, [1, 2], 2) == 1.0
+    big = np.zeros(126)                                      # a full tie over 126 candidates: Hits@10 = 10/126, not 0
+    assert realistic_hits(big, 5, [], 10) == pytest.approx(10 / 126)
+    assert realistic_rank(big, 5, []) > 10                   # ... although the expected rank (63.5) is beyond 10
+    assert realistic_hits(s, 1, [1], 2) == 0.5               # the true index is never filtered
+
+
 def test_metrics_from_ranks():
-    m = metrics_from_ranks(np.array([[1.0, 2.5], [4.0, 11.0]]))
+    ranks = np.array([[1.0, 2.5], [4.0, 11.0]])
+    hits = np.array([[[1.0, 1.0, 1.0], [0.5, 1.0, 1.0]], [[0.0, 0.5, 1.0], [0.0, 0.0, 0.0]]])   # (n, 2, len(HITS_KS))
+    assert HITS_KS == (1, 3, 10)
+    m = metrics_from_ranks(ranks, hits)
     assert m["n"] == 4
-    assert m["hits@1"] == 0.25 and m["hits@3"] == 0.5 and m["hits@10"] == 0.75
+    assert m["hits@1"] == pytest.approx(1.5 / 4) and m["hits@3"] == pytest.approx(2.5 / 4) and m["hits@10"] == 0.75
     assert m["mrr"] == pytest.approx((1 + 0.4 + 0.25 + 1 / 11) / 4)
+    assert math.isnan(metrics_from_ranks(np.zeros((0, 2)), np.zeros((0, 2, 3)))["hits@1"])
 
 
 def test_split_deterministic_and_disjoint():
@@ -96,10 +120,23 @@ def test_popularity_star_graph():
     pop = PopularityScorer(sp.train_c, sp.candidates)
     cidx = {c: i for i, c in enumerate(sp.candidates)}
     assert int(np.argmax(pop.score_tails([leaves[0]])[0])) == cidx[hub]
-    ranks = rank_triples(pop, sp.test_c, sp.candidates, sp.all_counters)
-    assert np.all(ranks[:, 0] == 1.0)                       # tail prediction: the hub is ranked first
+    ranks, hits = rank_and_hits(pop, sp.test_c, sp.candidates, sp.all_counters)
+    assert np.all(ranks[:, 0] == 1.0) and np.all(hits[:, 0, :] == 1.0)    # tail prediction: the hub is ranked first
+    assert np.array_equal(ranks, rank_triples(pop, sp.test_c, sp.candidates, sp.all_counters))
     rnd = rank_triples(RandomScorer(len(sp.candidates)), sp.test_c, sp.candidates, sp.all_counters)
     assert np.all(rnd[:, 0] > 1.0)
+
+
+def test_random_baseline_hits_are_expectations():
+    """A full tie gives Hits@k = k / #filtered candidates (> 0 for k = 10), not Hits@k of the expected rank."""
+    cands = [f"card:c{i:02d}" for i in range(30)]
+    known = [(cands[0], "COUNTERS", cands[1]), (cands[0], "COUNTERS", cands[2])]
+    ranks, hits = rank_and_hits(RandomScorer(len(cands)), [known[0]], cands, known)
+    assert ranks[0, 0] == pytest.approx((29 + 1) / 2)       # tail: 30 candidates minus the other known answer c02
+    assert hits[0, 0].tolist() == pytest.approx([1 / 29, 3 / 29, 10 / 29])
+    assert hits[0, 1].tolist() == pytest.approx([1 / 30, 3 / 30, 10 / 30])
+    m = metrics_from_ranks(ranks, hits)
+    assert m["hits@10"] == pytest.approx((10 / 29 + 10 / 30) / 2) and m["hits@1"] < m["hits@3"] < m["hits@10"]
 
 
 def test_filtered_rank_removes_other_known_answers():
@@ -113,9 +150,10 @@ def test_filtered_rank_removes_other_known_answers():
         def score_heads(self, tails):
             return np.tile(np.array([0.5, 0.0, 0.0, 0.0]), (len(tails), 1))
 
-    ranks = rank_triples(Fixed(), [("card:a", "COUNTERS", "card:b")], cands, known)
+    ranks, hits = rank_and_hits(Fixed(), [("card:a", "COUNTERS", "card:b")], cands, known)
     assert ranks[0, 0] == 1.0                               # c, d are other true answers -> filtered; a (0.0) is lower
     assert ranks[0, 1] == 1.0                               # head a scores highest
+    assert np.all(hits[0] == 1.0)
 
 
 def test_tiny_pykeen_runs():

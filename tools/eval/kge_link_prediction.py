@@ -5,7 +5,8 @@
 
 Splits the deduplicated COUNTERS triples 80/10/10, trains PyKEEN TransE/DistMult/ComplEx/RotatE on everything else
 plus the COUNTERS train part (equal tuning budget per model) and scores every method - models, a popularity and a
-random baseline - with ONE filtered, realistic-rank (expected rank under random tie-breaking) evaluator written here.
+random baseline - with ONE filtered evaluator written here: MRR from the realistic rank (expected rank under random tie-breaking) and
+Hits@k as the expectation of the hit under random tie-breaking (`realistic_hits`; not Hits@k of the expected rank).
 Setting `no_inverse` also drops ANSWERED_BY from training (it is close to the inverse of COUNTERS).
 Writes the JSON (default <dataset>/eval/kge_link_prediction.json), a markdown table next to it, and prints the table.
 """
@@ -110,14 +111,28 @@ def build_splits(triples: Iterable[Triple], setting: str = "full", seed: int = 0
 
 # ---------------------------------------------------------------- evaluation protocol
 
-def realistic_rank(scores: np.ndarray, true_idx: int, filter_idx: Sequence[int]) -> float:
-    """Filtered expected rank of `true_idx` under random tie-breaking: 1 + #(s > s_t) + 0.5 * #(s == s_t, c != t)."""
+def _better_and_tied(scores: np.ndarray, true_idx: int, filter_idx: Sequence[int]) -> tuple[int, int]:
+    """Over the filtered candidate set: (#(s > s_t), #(s == s_t) including the true item). The true index is never filtered."""
     keep = np.ones(len(scores), dtype=bool)
     keep[np.asarray(filter_idx, dtype=int)] = False
     keep[true_idx] = True
     s = scores[keep]
     st = scores[true_idx]
-    return float(1 + np.sum(s > st) + 0.5 * (np.sum(s == st) - 1))
+    return int(np.sum(s > st)), int(np.sum(s == st))
+
+
+def realistic_rank(scores: np.ndarray, true_idx: int, filter_idx: Sequence[int]) -> float:
+    """Filtered expected rank of `true_idx` under random tie-breaking: 1 + #(s > s_t) + 0.5 * #(s == s_t, c != t)."""
+    better, tied = _better_and_tied(scores, true_idx, filter_idx)
+    return float(1 + better + 0.5 * (tied - 1))
+
+
+def realistic_hits(scores: np.ndarray, true_idx: int, filter_idx: Sequence[int], k: int) -> float:
+    """Filtered Hits@k as the expectation under random tie-breaking: the chance the true item lands in the top k when the
+    `tied` items sharing its score (itself included) are ordered at random after the `better` ones,
+    clip((k - better) / tied, 0, 1). Not `realistic_rank(...) <= k`: a full tie over 126 candidates gives Hits@10 = 10/126, not 0."""
+    better, tied = _better_and_tied(scores, true_idx, filter_idx)
+    return float(max(0.0, min(1.0, (k - better) / tied)))
 
 
 class RandomScorer:
@@ -151,10 +166,11 @@ class PopularityScorer:
         return np.tile(self.head_scores, (len(tails), 1))
 
 
-def rank_triples(scorer, triples: Sequence[Triple], candidates: Sequence[str], known: Iterable[Triple],
-                 chunk: int = 512) -> np.ndarray:
-    """Filtered realistic ranks, shape (n, 2): column 0 = tail prediction, column 1 = head prediction.
+def rank_and_hits(scorer, triples: Sequence[Triple], candidates: Sequence[str], known: Iterable[Triple],
+                  chunk: int = 512) -> tuple[np.ndarray, np.ndarray]:
+    """Filtered realistic ranks, shape (n, 2), and expected hits, shape (n, 2, len(HITS_KS)).
 
+    Column / axis-1 index 0 = tail prediction, 1 = head prediction; hits[:, :, j] is `realistic_hits` at k = HITS_KS[j].
     `known` = every COUNTERS triple of train+val+test; other known answers for the query are filtered out."""
     cidx = {c: i for i, c in enumerate(candidates)}
     tails_of: dict[str, set[str]] = defaultdict(set)
@@ -164,26 +180,39 @@ def rank_triples(scorer, triples: Sequence[Triple], candidates: Sequence[str], k
         heads_of[t].add(h)
     triples = [t for t in triples if t[0] in cidx and t[2] in cidx]
     ranks = np.zeros((len(triples), 2))
+    hits = np.zeros((len(triples), 2, len(HITS_KS)))
     for lo in range(0, len(triples), chunk):
         part = triples[lo:lo + chunk]
         s_tail = scorer.score_tails([h for h, _, _ in part])
         s_head = scorer.score_heads([t for _, _, t in part])
         for i, (h, _, t) in enumerate(part):
-            ranks[lo + i, 0] = realistic_rank(s_tail[i], cidx[t], [cidx[c] for c in tails_of[h] if c in cidx])
-            ranks[lo + i, 1] = realistic_rank(s_head[i], cidx[h], [cidx[c] for c in heads_of[t] if c in cidx])
-    return ranks
+            queries = ((s_tail[i], cidx[t], [cidx[c] for c in tails_of[h] if c in cidx]),
+                       (s_head[i], cidx[h], [cidx[c] for c in heads_of[t] if c in cidx]))
+            for col, (scores, true, flt) in enumerate(queries):
+                ranks[lo + i, col] = realistic_rank(scores, true, flt)
+                hits[lo + i, col] = [realistic_hits(scores, true, flt, k) for k in HITS_KS]
+    return ranks, hits
 
 
-def metrics_from_ranks(ranks: np.ndarray) -> dict:
-    """MRR and hits@k over both prediction directions (n = 2 * number of triples)."""
+def rank_triples(scorer, triples: Sequence[Triple], candidates: Sequence[str], known: Iterable[Triple],
+                 chunk: int = 512) -> np.ndarray:
+    """Filtered realistic ranks only, shape (n, 2) (see `rank_and_hits`)."""
+    return rank_and_hits(scorer, triples, candidates, known, chunk)[0]
+
+
+def metrics_from_ranks(ranks: np.ndarray, hits: np.ndarray) -> dict:
+    """MRR from the realistic ranks, hits@k from the expected hits (`realistic_hits`), pooled over both prediction
+    directions (n = 2 * number of triples). `hits` has shape (n, 2, len(HITS_KS)) as returned by `rank_and_hits`."""
     r = np.asarray(ranks, dtype=float).reshape(-1)
     if r.size == 0:
         return {"mrr": float("nan"), **{f"hits@{k}": float("nan") for k in HITS_KS}, "n": 0}
-    return {"mrr": float(np.mean(1.0 / r)), **{f"hits@{k}": float(np.mean(r <= k)) for k in HITS_KS}, "n": int(r.size)}
+    h = np.asarray(hits, dtype=float).reshape(r.size, len(HITS_KS))
+    return {"mrr": float(np.mean(1.0 / r)), **{f"hits@{k}": float(np.mean(h[:, j])) for j, k in enumerate(HITS_KS)},
+            "n": int(r.size)}
 
 
 def evaluate(scorer, triples: Sequence[Triple], sp: Splits) -> dict:
-    return metrics_from_ranks(rank_triples(scorer, triples, sp.candidates, sp.all_counters))
+    return metrics_from_ranks(*rank_and_hits(scorer, triples, sp.candidates, sp.all_counters))
 
 
 # ---------------------------------------------------------------- PyKEEN models
