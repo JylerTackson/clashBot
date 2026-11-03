@@ -2,11 +2,8 @@
 from __future__ import annotations
 
 import json
-import subprocess
 import sys
 from pathlib import Path
-
-import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -15,8 +12,6 @@ from clashbot.game_rules import load_cards  # noqa: E402
 from tools.data.kb_markdown import (  # noqa: E402
     build_aliases, bullets, creator_blocks, first_table, mentions, parse_frontmatter, relation_mentions, section,
 )
-
-DATASET = ROOT / "dataset" / "v1"
 
 
 def test_parse_frontmatter():
@@ -64,20 +59,12 @@ def test_creator_blocks():
     assert creator_blocks(text) == [("gameA-m0.0", "first body"), ("gameB", "second")]
 
 
-@pytest.fixture(scope="module")
-def built():
-    if not (DATASET / "games.jsonl").exists():
-        pytest.skip("dataset/v1/games.jsonl missing")
-    for script in ("build_kg.py", "build_documents.py"):
-        subprocess.run([sys.executable, str(ROOT / "tools" / "data" / script)], check=True, cwd=ROOT)
-    return DATASET
-
-
 def _jsonl(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
-def test_kg_integration(built):
+def test_kg_integration(built_kg):
+    built = built_kg  # temp dir from tests/conftest.py: never the real dataset/v1
     nodes = _jsonl(built / "kg" / "nodes.jsonl")
     edges = _jsonl(built / "kg" / "edges.jsonl")
     ids = {n["id"] for n in nodes}
@@ -97,7 +84,8 @@ def test_kg_integration(built):
             assert e["props"]["support"] >= 3
 
 
-def test_documents_integration(built):
+def test_documents_integration(built_kg):
+    built = built_kg
     docs = _jsonl(built / "documents.jsonl")
     assert docs
     assert len({d["doc_id"] for d in docs}) == len(docs)

@@ -27,8 +27,8 @@ RECALL_KS = (1, 3, 5, 10)
 RANKER_BASELINES = ("random_expected", "popularity", "popularity_by_phase", "card_popularity_in_deck",
                     "placement_prior", "option_set_shortcut")
 ACT_BASELINES = ("always_play", "phase_majority")
-NOTE = ("knn_vote is not reported on the multiple-choice files: their N1 negatives are mined from the "
-        "same kNN neighbours. It is evaluated fairly in candidate_recall over all possible action keys.")
+NOTE = ("knn_vote is not reported on the 4-way files: the second card of each 2x2 grid is mined from kNN "
+        "neighbours. It is evaluated fairly in candidate_recall over all possible action keys.")
 
 
 def card_of(key: str) -> str:
