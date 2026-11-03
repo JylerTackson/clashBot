@@ -9,8 +9,7 @@ PY="${PY:-python3}"
 export CR_SCRATCH="${CR_SCRATCH:-$HOME/cr_scratch}"
 KATACR_ROOT="${CLASHBOT_KATACR_ROOT:-$CR_SCRATCH/katacr}"
 export KATACR_ROOT
-# Upstream KataCR repo; the owner name is concatenated so that a grep for hard-coded paths stays clean.
-KATACR_REPO="${KATACR_REPO:-https://github.com/wty""-yy/katacr}"
+KATACR_REPO="${KATACR_REPO:-https://github.com/wty-yy/katacr}"
 OS="$(uname)"
 mkdir -p "$CR_SCRATCH" "$ROOT/data" "$ROOT/runs"
 echo "== python deps ($PY, $OS)"

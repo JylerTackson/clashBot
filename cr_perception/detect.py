@@ -1,7 +1,7 @@
 """Arena unit detection with pretrained weights (nothing is trained here).
 
 Backends:
-  KataCRDetector    - KataCR YOLOv8-l x2 (85 classes each, 896 px),
+  KataCRDetector    - wty-yy/KataCR YOLOv8-l x2 (85 classes each, 896 px),
                       outputs xyxy, conf, cls, bel (0 = ally/blue, 1 = enemy/red).
   BuildABotDetector - Pbatch/ClashRoyaleBuildABot ONNX (97 unit classes,
                       480x352, fp16) + a 16x16 side classifier.

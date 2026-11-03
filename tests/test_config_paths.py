@@ -79,8 +79,12 @@ def test_default_detector_defined_after_class():
 @pytest.mark.parametrize("path", [ROOT / "tools" / n for n in OWNED_TOOLS] + [Path(detect.__file__)], ids=lambda p: p.name)
 def test_no_hardcoded_paths(path):
     text = path.read_text()
-    for bad in ("wty-yy", "/home/user", "claude-0"):
+    for bad in ("/home/user", "/tmp/claude-0", "claude-0/-home-user"):
         assert bad not in text, f"{path.name} still contains {bad!r}"
+
+
+def test_worker_setup_clones_upstream_repo():
+    assert "https://github.com/wty-yy/katacr" in (ROOT / "tools" / "worker_setup.sh").read_text()
 
 
 def test_worker_setup_syntax():
