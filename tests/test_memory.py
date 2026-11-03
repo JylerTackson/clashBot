@@ -229,63 +229,159 @@ def test_file_persistence(tmp_path):
 
 # ---- 9. edit_eval on a synthetic dataset ------------------------------------------------------------------
 
-def _record(i, split, hand, elixir, deck=None):
+def _record(i, split, hand, elixir, deck=None, action_card=None, eligible=True, action_type="play"):
     state = {"phase": "single_elixir", "match_seconds": 30,
              "own": {"elixir": elixir, "hand": hand, "next_card": None,
                      "deck": deck if deck is not None else [h for h in hand if h]},
              "opponent": {"elixir_estimate": 5.0, "towers": {"king": None, "left": 4858, "right": 4858},
                           "deck_known": [], "recent_plays": []},
              "units": [], "threats": []}
+    action = None if action_card is None and action_type == "play" else {"type": action_type, "card": action_card}
     return {"id": f"g{i}#{i}.0", "game_id": f"g{i}", "split": split, "kind": "play", "t": float(i), "state": state,
-            "context_text": "own elixir hand", "action": None}
+            "context_text": "own elixir hand", "action": action, "train_eligible": eligible}
+
+
+def _write_records(folder: Path, recs: list[dict]) -> Path:
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "states.jsonl").write_text("\n".join(json.dumps(r) for r in recs) + "\n")
+    return folder
 
 
 def _write_dataset(folder: Path) -> Path:
-    folder.mkdir(parents=True, exist_ok=True)
-    recs = [
+    return _write_records(folder, [
         _record(1, "val", ["hog-rider", "knight", "zap", "archers"], 4.0),        # legality flips 4 -> 5
         _record(2, "test", ["hog-rider", "knight", "zap", "archers"], 3.6),       # flips
         _record(3, "val", ["hog-rider", "knight", "zap", "archers"], 8.0),        # hog legal either way
         _record(4, "test", ["knight", "zap", "archers", "giant"], 6.0),           # does not involve hog-rider
         _record(5, "val", ["knight", "zap", "archers", None], 3.0, deck=["knight", "zap", "archers", "giant"]),
         _record(6, "train", ["hog-rider", "knight", "zap", "archers"], 4.0),      # train: not a probe
-    ]
-    (folder / "states.jsonl").write_text("\n".join(json.dumps(r) for r in recs) + "\n")
-    return folder
+        _record(7, "test", ["knight", "zap", "archers", None], 4.2,               # hog only *possible* (unread slot)
+                deck=["knight", "zap", "archers", "hog-rider"]),
+    ])
 
 
 def test_edit_eval_synthetic(tmp_path):
     ds = _write_dataset(tmp_path / "ds")
     out = tmp_path / "res" / "edit_eval.json"
-    edit_eval.main(["--dataset", str(ds), "--db", str(tmp_path / "missing.sqlite"), "--n-probe", "10",
-                    "--out", str(out)])
+    edit_eval.main(["--dataset", str(ds), "--db", str(tmp_path / "missing.sqlite"), "--card", "hog-rider",
+                    "--n-probe", "10", "--out", str(out)])
     res = json.loads(out.read_text())
     assert res["edit"]["synthetic"] is True
     assert (res["edit"]["card"], res["edit"]["old"], res["edit"]["new"], res["edit"]["patch"]) == \
            ("hog-rider", 4.0, 5, "P1")
     c = res["criteria"]
     assert c["reliability"]["edited"] == 1.0 and c["reliability"]["no_edit"] == 0.0
-    assert c["generalization"]["n"] == 2 and c["generalization"]["edited"] == 1.0
-    assert c["generalization"]["no_edit"] == 0.0
+    # records 1, 2 (in hand) and 7 (possible only) sit in the elixir band where legality flips
+    g = c["generalization"]
+    assert g["n"] == 3 and g["n_in_hand"] == 2 and g["n_possible"] == 3
+    assert g["edited"] == 1.0 and g["no_edit"] == 0.0
     assert c["locality_cards"]["edited"] == 1.0 and c["locality_cards"]["n"] > 100
     assert c["locality_states"]["n"] == 2 and c["locality_states"]["edited"] == 1.0
     assert "skipped" in c["portability"] and "skipped" in res["conflict"]
     assert res["versioning"] is True and res["rollback"] is True
     md = out.with_suffix(".md").read_text()
-    assert "| criterion | n | edited | no edit |" in md and "SYNTHETIC" in md
+    assert "| criterion | n | edited | no edit |" in md and "SYNTHETIC" in md and "hand-or-possible 3" in md
 
 
 def test_edit_eval_other_attribute(tmp_path):
     ds = _write_dataset(tmp_path / "ds")
     out = tmp_path / "e.json"
-    res = edit_eval.main(["--dataset", str(ds), "--db", str(tmp_path / "missing.sqlite"), "--attribute", "rarity",
-                          "--value", "Champion", "--out", str(out)])
+    res = edit_eval.main(["--dataset", str(ds), "--db", str(tmp_path / "missing.sqlite"), "--card", "hog-rider",
+                          "--attribute", "rarity", "--value", "Champion", "--out", str(out)])
     assert res["criteria"]["generalization"]["skipped"] == "n/a for this attribute"
     assert res["criteria"]["portability"]["skipped"] == "n/a for this attribute"
     assert res["criteria"]["reliability"]["edited"] == 1.0 and res["criteria"]["reliability"]["no_edit"] == 0.0
     assert res["criteria"]["locality_cards"]["edited"] == 1.0 and res["rollback"] is True
     with pytest.raises(ValueError):                         # no-op edit
-        edit_eval.main(["--dataset", str(ds), "--db", str(tmp_path / "x"), "--value", "4", "--out", str(out)])
+        edit_eval.main(["--dataset", str(ds), "--db", str(tmp_path / "x"), "--card", "hog-rider", "--value", "4",
+                        "--out", str(out)])
+
+
+# ---- 9b. --cards auto / pooled criteria (Amendment 1) -----------------------------------------------------
+
+def _auto_dataset(folder: Path) -> Path:
+    cost = {"knight": 3.0, "zap": 2.0, "archers": 3.0, "giant": 5.0, "hog-rider": 4.0}
+    recs = []
+    i = 100
+    # train plays: knight 5, zap 4, archers 3, giant 3 (tie with archers -> slug order), hog-rider 2, musketeer 1
+    for card, n in {"knight": 5, "zap": 4, "archers": 3, "giant": 3, "hog-rider": 2, "musketeer": 1}.items():
+        for _ in range(n):
+            i += 1
+            recs.append(_record(i, "train", ["knight", "zap", "archers", "giant"], 5.0, action_card=card))
+    for _ in range(10):                                     # excluded: not train-eligible / val split / hold / no cost
+        i += 1
+        recs.append(_record(i, "train", ["knight", "zap", "archers", "giant"], 5.0, action_card="fireball",
+                            eligible=False))
+        recs.append(_record(i + 1000, "val", ["knight", "zap", "archers", "giant"], 5.0, action_card="fireball"))
+        recs.append(_record(i + 2000, "train", ["knight", "zap", "archers", "giant"], 5.0, action_card=None,
+                            action_type="hold"))
+        recs.append(_record(i + 3000, "train", ["knight", "zap", "archers", "giant"], 5.0, action_card="mirror"))
+    # probes: each card in hand at its own cost (inside the flip band), plus knight only possible
+    for k, (card, c) in enumerate(cost.items()):
+        recs.append(_record(10 + k, "val", [card, "x1", "x2", "x3"], c, deck=[card, "x1", "x2", "x3"]))
+        recs.append(_record(20 + k, "test", [card, None, None, None], c, deck=[card, "x1", "x2", "x3"]))
+    recs.append(_record(30, "test", ["zap", "archers", "giant", None], 3.0,
+                        deck=["zap", "archers", "giant", "knight"]))                      # knight possible only
+    recs.append(_record(31, "val", ["musketeer", "fireball", "minions", "x1"], 4.0))      # unrelated state
+    return _write_records(folder, recs)
+
+
+def test_auto_cards_selection():
+    counts = edit_eval.Counter({"b": 3, "a": 3, "c": 5, "d": 1, "e": 2, "f": 2, "g": 1})
+    assert edit_eval.auto_cards(counts) == ["c", "a", "b", "e", "f"]            # by count, ties by slug
+    assert edit_eval.auto_cards(counts, k=2) == ["c", "a"]
+
+
+def test_edit_eval_auto_pooled(tmp_path):
+    ds = _auto_dataset(tmp_path / "ds")
+    counts = edit_eval.train_play_counts(ds, edit_eval.load_cards())
+    assert counts == {"knight": 5, "zap": 4, "archers": 3, "giant": 3, "hog-rider": 2, "musketeer": 1}
+    out = tmp_path / "res" / "auto.json"
+    res = edit_eval.main(["--dataset", str(ds), "--db", str(tmp_path / "missing.sqlite"), "--n-probe", "10",
+                          "--out", str(out)])                       # no --card -> --cards auto
+    assert json.loads(out.read_text())["pooled"] == res["pooled"]
+    cards = [e["edit"]["card"] for e in res["edits"]]
+    assert cards == ["knight", "zap", "archers", "giant", "hog-rider"] and len(set(cards)) == 5
+    assert res["selection"]["mode"] == "auto" and res["selection"]["cards"] == cards
+    for e in res["edits"]:
+        ed = e["edit"]
+        assert ed["synthetic"] is True and ed["attribute"] == "elixir_cost" and ed["patch"] == "P1"
+        assert ed["new"] == ed["old"] + 1
+        assert e["criteria"]["reliability"]["edited"] == 1.0 and e["criteria"]["reliability"]["no_edit"] == 0.0
+        assert e["versioning"] is True and e["rollback"] is True
+
+    p = res["pooled"]
+    for name in ("reliability", "generalization", "locality_cards", "locality_states"):
+        assert p[name]["n"] == sum(e["criteria"][name]["n"] for e in res["edits"]) > 0
+    assert p["generalization"]["n_in_hand"] == sum(e["criteria"]["generalization"]["n_in_hand"] for e in res["edits"])
+    assert p["generalization"]["n_possible"] == p["generalization"]["n"] > p["generalization"]["n_in_hand"]
+    assert p["generalization"]["edited"] == 1.0 and p["generalization"]["no_edit"] == 0.0
+    assert p["reliability"]["edited"] == 1.0 and p["reliability"]["no_edit"] == 0.0
+    assert p["locality_cards"]["edited"] == 1.0 and p["locality_states"]["edited"] == 1.0
+    assert "skipped" in p["portability"] and "skipped" in res["conflict_pooled"]
+    assert res["versioning"] is True and res["rollback"] is True
+    knight = res["edits"][0]["criteria"]["generalization"]
+    assert knight["n_in_hand"] == 2 and knight["n_possible"] == 3        # 2 in hand, 1 only possible (knight at 3.0)
+    md = out.with_suffix(".md").read_text()
+    assert "Pooled" in md and "Per card" in md and "| card | edit |" in md and "SYNTHETIC" in md
+
+
+def test_edit_eval_explicit_cards_and_errors(tmp_path):
+    ds = _auto_dataset(tmp_path / "ds")
+    db = str(tmp_path / "missing.sqlite")
+    res = edit_eval.main(["--dataset", str(ds), "--db", db, "--cards", "zap, knight,zap", "--out",
+                          str(tmp_path / "c.json")])
+    assert [e["edit"]["card"] for e in res["edits"]] == ["zap", "knight"] and res["selection"]["mode"] == "explicit"
+    with pytest.raises(SystemExit):                           # --card and --cards together
+        edit_eval.main(["--dataset", str(ds), "--db", db, "--card", "knight", "--cards", "zap",
+                        "--out", str(tmp_path / "x.json")])
+    with pytest.raises(SystemExit):                           # --cards is +1 elixir only
+        edit_eval.main(["--dataset", str(ds), "--db", db, "--attribute", "rarity", "--out", str(tmp_path / "x.json")])
+    with pytest.raises(ValueError):
+        edit_eval.main(["--dataset", str(ds), "--db", db, "--cards", "mirror", "--out", str(tmp_path / "x.json")])
+    empty = _write_records(tmp_path / "empty", [_record(1, "val", ["knight", None, None, None], 3.0)])
+    with pytest.raises(ValueError):                           # nothing to pick from
+        edit_eval.main(["--dataset", str(empty), "--db", db, "--out", str(tmp_path / "x.json")])
 
 
 # ---- 10. real data ----------------------------------------------------------------------------------------
@@ -294,8 +390,11 @@ def test_edit_eval_other_attribute(tmp_path):
                     reason="db/clashbot.sqlite or dataset/v1/states.jsonl missing")
 def test_edit_eval_real_data(tmp_path):
     res = edit_eval.main(["--n-probe", "50", "--out", str(tmp_path / "e.json")])
-    c = res["criteria"]
-    assert c["reliability"]["edited"] == 1.0
-    assert c["locality_cards"]["edited"] == 1.0 and c["locality_states"]["edited"] == 1.0
+    p = res["pooled"]
+    assert len(res["edits"]) == 5 and len({e["edit"]["card"] for e in res["edits"]}) == 5
+    assert p["reliability"]["edited"] == 1.0
+    assert p["locality_cards"]["edited"] == 1.0 and p["locality_states"]["edited"] == 1.0
+    assert p["generalization"]["n"] == sum(e["criteria"]["generalization"]["n"] for e in res["edits"])
+    assert p["generalization"]["n_possible"] >= p["generalization"]["n_in_hand"]
     assert res["versioning"] is True and res["rollback"] is True
     assert (tmp_path / "e.json").exists() and (tmp_path / "e.md").exists()
