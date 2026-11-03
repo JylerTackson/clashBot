@@ -82,7 +82,8 @@ Wave 5  (fix pass)            as Wave 3; then STATUS.md + push; ask the user abo
 | R4 | Opponent next-card prediction: copy/frequency baseline vs SASRec-style model | `tools/eval/next_card.py`, `tests/test_next_card.py` | accuracy table |
 | R5 | Memory + knowledge editing: episodic/semantic/procedural stores, patch-versioned card facts with provenance, one balance-change edit evaluated for reliability/generalisation/locality/portability | `clashbot/memory.py`, `tools/eval/edit_eval.py`, `tests/test_memory.py` | edit-eval table |
 
-Paper references for R1–R5 are in `docs/research/course_mapping.md` (§1–§4) and in the table of the previous version of this brief (git history).
+Paper references (course PDF numbering, details in `docs/research/course_mapping.md`):
+R1 — RET BM25 [32], bi-encoder limits [14], RRF [3], HNSW [20], filtering §2.2, BEIR [40]. R2 — KG TransE [2], DistMult [42], ComplEx [38], RotatE [36]; audits [34, 37]. R3 — RAG FM/DLRM/DCN-V2 [56–58]; tuned baselines [5–7]. R4 — KG CyGNet [46], RE-NET [21]; RAG SASRec [61]. R5 — AGT memory types §4.1, Mem0 [25], Reflexion [5], ACE [22], editing criteria [46], SERAC/GRACE vs ROME [53, 54, 49], ClashEval [67]. R6 — RAG [16, 17]; AGT Lost in the Middle [12], Context Rot [13]. R7 — RAG FLARE [27], Adaptive-RAG [31], Self-RAG/CRAG [29, 30].
 
 ### Wave 4 — needs Wave-1 outputs or the user at the Mac (dispatch together)
 - **Calibration** of the mirrored screen (`tools/calibrate.py` on a captured frame; saves the Mac calibration + executor `Calibration`). Needs the user to open iPhone Mirroring on a match.
