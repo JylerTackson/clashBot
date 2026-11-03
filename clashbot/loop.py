@@ -9,7 +9,7 @@ from dataclasses import dataclass
 
 import numpy as np
 
-from clashbot.actions import load_placement_prior, option_text, placement_tile
+from clashbot.actions import load_placement_prior, placement_tile
 from clashbot.candidates import Candidate, CandidateGenerator
 from clashbot.config import DATASET_DIR, HOLD_KEY
 from clashbot.game_rules import legal_cards, load_cards
@@ -65,9 +65,10 @@ class FastLoop:
             t1 = time.perf_counter()
             timings = {"candidates": (t1 - t0) * 1000, "rank": 0.0, "execute": 0.0, "total": (t1 - t0) * 1000}
             return Decision(t=t, candidates=[], choice=HOLD_KEY, tile=None, timings_ms=timings)
-        options = [option_text(c.key) for c in candidates]
-        res = self.ranker.choose(context_text, options, self.plan.text if self.plan else None)
-        choice = candidates[res.index].key
+        from clashbot.live import rank_keys     # inside the method: clashbot.live imports this module
+        index, _probs = rank_keys(self.ranker, context_text, [c.key for c in candidates],
+                                  self.plan.text if self.plan else None)
+        choice = candidates[index].key
         tile = placement_tile(choice, self.prior)
         t2 = time.perf_counter()
         self.executor.execute(choice, tile, t)
@@ -97,7 +98,7 @@ def _load_game(game_id: str) -> tuple[dict, list[dict]]:
     return game, records
 
 
-def replay(game_id: str, limit: int | None = None) -> int:
+def replay(game_id: str, limit: int | None = None, ranker_name: str = "score", d1_backend: str = "mlx") -> int:
     game, records = _load_game(game_id)
     cards = load_cards()
     index = StateIndex()
@@ -105,7 +106,12 @@ def replay(game_id: str, limit: int | None = None) -> int:
     generator = CandidateGenerator(index, kg, cards)
     executor = DryRunExecutor()
     plan = RuleBasedPlanner().pregame(game["own_deck"], game.get("own_deck_key"))
-    loop = FastLoop(generator, ScoreRanker(), executor, load_placement_prior(), plan)
+    if ranker_name == "d1":
+        from clashbot.ranker import D1Ranker
+        ranker = D1Ranker(backend=d1_backend)
+    else:
+        ranker = ScoreRanker()
+    loop = FastLoop(generator, ranker, executor, load_placement_prior(), plan)
 
     last_t: float | None = None
     decisions: list[Decision] = []
@@ -147,13 +153,15 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(prog="python3 -m clashbot.loop")
     ap.add_argument("--replay", metavar="GAME_ID", required=True)
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--ranker", choices=("score", "d1"), default="score")
+    ap.add_argument("--d1-backend", choices=("mlx", "transformers"), default="mlx")
     argv = list(sys.argv[1:] if argv is None else argv)
     for i, a in enumerate(argv[:-1]):      # game ids may start with "-": argparse would read them as options
         if a == "--replay":
             argv[i:i + 2] = [f"--replay={argv[i + 1]}"]
             break
     args = ap.parse_args(argv)
-    return replay(args.replay, args.limit)
+    return replay(args.replay, args.limit, args.ranker, args.d1_backend)
 
 
 if __name__ == "__main__":
