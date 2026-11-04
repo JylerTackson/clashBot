@@ -128,3 +128,12 @@ A rule that looks only at the 4 option keys — pick the option that shares its 
 
 ### D-038 · Live perception: cached hand reads, background OCR · default (Opus) · 2026-11-02
 The first dry run missed the < 300 ms p95 target (471 ms) because OCR frames block the loop and the hand reader re-matches every frame. In live mode, clock and deploy-label OCR run on one background worker (results applied when ready, label events stamped with their submit time), and the hand is re-read only when a slot crop changes or after 1 s. Offline/video processing stays synchronous so dataset parity (D-015) is unaffected. The live loop also enforces a 1 s minimum gap between decisions and handles each opponent play once. FIX_LIST #14, #15.
+
+### D-039 · Fine-tune d1-omni-600M now: joint, factorized and act · decided (user) · 2026-11-03
+Go-ahead for D-022. Three separate fine-tunes in PyTorch on MPS (D-026), one after another: **joint** (pick 1 of the 4 grid options — the live ranking step), **factorized** (card + lane + zone — ablation), **act** (play now vs wait — first hold head; retrained on dense data, D-040). Text path only (trunk + decision head; vision/audio encoders frozen and unused). Checkpoints go to the gitignored `db/models/`; serving through `D1Ranker(model_path=...)`, MLX conversion via `mlx_vlm convert` (D-026 default backend).
+
+### D-040 · Dense re-perception of all 33 pro videos for wait/act data · decided (user) · 2026-11-03
+Lifts the deferral in D-020/D-029. Re-download the 33 videos (≈ 4–5 GB, gitignored `data/videos/`, never committed) and re-run perception over the 12 h of matches on the Mac (serialised overnight run). Dense states (one per second) are turned into clean states with the **live** builder (`clashbot/live_state.py`), so the act head trains on exactly what the live loop sees; label = the pro deploys a card within the next second. This gives real "pro waited" and "pro reacted to the opponent" examples.
+
+### D-041 · Live play timing: reactive rules until the learned act head is good · decided (user) · 2026-11-03
+The live bot no longer plays on a periodic timer. It acts only to **defend** (enemy unit heading for our side or a new enemy play, timed by its ETA), to **avoid leaking elixir** (≥ 9.5), or to **punish** an opponent who just overspent (estimate ≤ 3) in the other lane; otherwise it holds and saves elixir. The chosen mode also filters the candidate plays (defend → threat lane, own half; punish → other lane, bridge/enemy side). The fine-tuned act head replaces/augments these rules once it beats them offline.
