@@ -132,15 +132,16 @@ def check_live_allowed() -> None:
             "(Training Camp / friendly battles only)")
 
 
-def quartz_click(x: float, y: float) -> None:
-    """Move to (x, y) and left-click there. The ONLY function that posts input."""
+def quartz_click(x: float, y: float, event_gap_s: float = 0.01) -> None:
+    """Move to (x, y) and left-click there; `event_gap_s` separates the move, down and up events.
+    The ONLY function that posts input."""
     import Quartz
 
     pos = (float(x), float(y))
     for kind in (Quartz.kCGEventMouseMoved, Quartz.kCGEventLeftMouseDown, Quartz.kCGEventLeftMouseUp):
         ev = Quartz.CGEventCreateMouseEvent(None, kind, pos, Quartz.kCGMouseButtonLeft)
         Quartz.CGEventPost(Quartz.kCGHIDEventTap, ev)
-        time.sleep(0.02)
+        time.sleep(event_gap_s)
 
 
 # ---------------------------------------------------------------- executors
@@ -159,7 +160,7 @@ class MirroringExecutor:
     """Plans a two-click play (card slot, then target tile) and, only when live, sends it."""
 
     def __init__(self, calibration: Calibration, card_slot_pixels: list[list[float]], live: bool = False,
-                 poster=None, bounds: list[float] | None = None, click_gap_s: float = 0.12, sleep=time.sleep):
+                 poster=None, bounds: list[float] | None = None, click_gap_s: float = 0.05, sleep=time.sleep):
         self.calibration = calibration
         self.H = homography(calibration)
         self.card_slot_pixels = card_slot_pixels

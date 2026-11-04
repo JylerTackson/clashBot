@@ -225,7 +225,7 @@ def test_live_sends_two_clicks_then_guard_recheck(monkeypatch):
     e = ex.execute("knight|left|bridge", [3, 14], 2.0, hand=hand)
     assert e["sent"] is True and e["status"] == "planned"
     assert rec.calls == [tuple(c) for c in plan["clicks"]] and len(rec.calls) == 2
-    assert sleeps == [ex.click_gap_s, ex.click_gap_s]
+    assert sleeps == [ex.click_gap_s, ex.click_gap_s] == [0.05, 0.05]
 
     # holds and skipped plays are never sent even when live
     assert ex.execute("hold", None, 3.0, hand=hand)["sent"] is False
@@ -310,3 +310,51 @@ def test_cgeventpost_only_in_quartz_click():
             if path.resolve() != Path(ex_mod.__file__).resolve() and "CGEventPost" in path.read_text():
                 offenders.append(str(path))
     assert offenders == []
+
+
+def test_click_gap_default_and_custom(monkeypatch):
+    """FIX_LIST #22: one planned play sleeps click_gap_s after each of its two clicks (default 0.05 s)."""
+    hand = ["a", "b", "knight", "c"]
+    monkeypatch.setenv(LIVE_ENV, "1")
+    monkeypatch.setattr(sys, "platform", "darwin")
+
+    rec, sleeps = Recorder(), []
+    ex = MirroringExecutor.from_calib(CALIB, RECT, live=True, poster=rec, sleep=sleeps.append)
+    assert ex.click_gap_s == 0.05
+    plan = ex.plan_clicks("knight|left|bridge", [3, 14], hand)
+    assert ex.execute("knight|left|bridge", [3, 14], 1.0, hand=hand)["sent"] is True
+    assert sleeps == [0.05, 0.05]
+    assert rec.calls == [tuple(c) for c in plan["clicks"]]
+
+    rec2, sleeps2 = Recorder(), []
+    ex2 = MirroringExecutor.from_calib(CALIB, RECT, live=True, poster=rec2, sleep=sleeps2.append, click_gap_s=0.2)
+    assert ex2.execute("knight|left|bridge", [3, 14], 1.0, hand=hand)["sent"] is True
+    assert sleeps2 == [0.2, 0.2]
+    assert rec2.calls == rec.calls                       # same points regardless of timing
+
+
+def test_quartz_click_event_gap_default_and_custom(monkeypatch):
+    """quartz_click paces its three events with event_gap_s (default 0.01 s). Tested with a fake Quartz
+    module and a fake sleep, so no input is ever posted."""
+    posted, sleeps = [], []
+
+    class FakeQuartz:
+        kCGEventMouseMoved, kCGEventLeftMouseDown, kCGEventLeftMouseUp = "move", "down", "up"
+        kCGMouseButtonLeft, kCGHIDEventTap = "left", "hid"
+
+        @staticmethod
+        def CGEventCreateMouseEvent(source, kind, pos, button):
+            return (kind, pos, button)
+
+        @staticmethod
+        def CGEventPost(tap, ev):
+            posted.append(ev)
+
+    monkeypatch.setitem(sys.modules, "Quartz", FakeQuartz)
+    monkeypatch.setattr(ex_mod.time, "sleep", sleeps.append)
+    quartz_click(10, 20)
+    assert [e[0] for e in posted] == ["move", "down", "up"] and all(e[1] == (10.0, 20.0) for e in posted)
+    assert sleeps == [0.01, 0.01, 0.01]
+    sleeps.clear()
+    quartz_click(10, 20, event_gap_s=0.03)
+    assert sleeps == [0.03, 0.03, 0.03]
