@@ -32,6 +32,7 @@ class LiveConfig:
     own_deck: list[str]                       # the 8 card slugs the user plays
     hero_cards: list[str] = field(default_factory=list)
     recent_s: float = RECENT_S
+    hand_hold_s: float = 2.0                  # reuse the last confident hand this long when all 4 slots are unread; 0 = off
 
 
 # --------------------------------------------------------------------------- private helpers
@@ -133,6 +134,8 @@ class LiveStateBuilder:
         self._event_keys: set[tuple] = set()
         self._opp_first: dict[str, float] = {}  # playable opponent card -> first-seen time
         self._match_id = _UNSET
+        self._last_hand: tuple[float, list] | None = None  # (t, hand) of the last read with >= 2 known slots
+        self.last_hand_reused = False          # the hand of the latest build() came from _last_hand
 
     # -- inputs ------------------------------------------------------------
     def observe_events(self, events: list) -> None:
@@ -170,9 +173,29 @@ class LiveStateBuilder:
             out.append(_play_record(e, self.cards))
         return _clean_plays(out, self.cards)
 
+    def _hold_hand(self, hand: list, t: float) -> list:
+        """Greyed (unaffordable) cards are missed by the matcher: when all four slots read None, reuse the
+        last confident hand for at most `hand_hold_s`, minus cards played since (they left the hand)."""
+        known = sum(c is not None for c in hand)
+        if known >= 2:
+            self._last_hand = (t, list(hand))
+            return hand
+        hold = self.config.hand_hold_s
+        if known or hold <= 0 or self._last_hand is None:
+            return hand
+        t_last, last = self._last_hand
+        if not 0.0 <= t - t_last <= hold:
+            return hand
+        played = {e.get("card") for e in self._events
+                  if e.get("player") == "own" and e["timestamp"] > t_last}
+        reused = [None if c in played else c for c in last]
+        self.last_hand_reused = any(c is not None for c in reused)
+        return reused if self.last_hand_reused else hand
+
     # -- output ------------------------------------------------------------
     def build(self, gs) -> tuple[dict, str] | None:
         g = _as_json(gs)
+        self.last_hand_reused = False
         if g.get("readiness") != "match" or not g.get("own"):
             return None
         mid = g.get("match_id")
@@ -189,6 +212,8 @@ class LiveStateBuilder:
             elixir = max(0.0, min(10.0, float(elixir)))
         hand = [None if self._foreign(c) else c for c in _pad4(own.get("hand"))]
         hand = [c if (c and is_playable(c, cards)) else None for c in hand]
+        hand = self._hold_hand(hand, t)
+        confidence = None if self.last_hand_reused else (round(sum(confs) / len(confs), 3) if confs else None)
         nxt = own.get("next_card")
         nxt = None if self._foreign(nxt) else nxt
         nxt = nxt if (nxt and is_playable(nxt, cards)) else None
@@ -208,7 +233,7 @@ class LiveStateBuilder:
             "match_seconds": g.get("match_seconds"),
             "own": {
                 "elixir": elixir,
-                "hand_confidence": round(sum(confs) / len(confs), 3) if confs else None,
+                "hand_confidence": confidence,
                 "hero_cards": list(self.config.hero_cards), "towers": _towers_of(own.get("towers")),
                 "hand": hand, "next_card": nxt, "deck": list(self.deck),
                 "deck_status": self.deck_status,
