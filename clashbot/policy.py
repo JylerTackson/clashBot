@@ -1,14 +1,16 @@
 """Reactive act/hold policy (D-041): save elixir, answer threats in time, leak at a full bar, punish an overspent opponent.
 
 `ReactivePolicy.decide` says whether to play now (and in which lane); `filter_candidates` narrows the candidate
-generator's output to moves that fit that decision (no blind spells). `clashbot.loop.should_decide` stays as the
-replay trigger and the `--policy trigger` fallback of the live loop.
+generator's output to moves that fit that decision (no blind spells). `LearnedActPolicy` (MAC-X) adds a learned
+play/wait head on top: the rules keep the safety modes (defend / leak), a d1 act-head decides the rest.
+`clashbot.loop.should_decide` stays as the replay trigger and the `--policy trigger` fallback of the live loop.
 """
 from __future__ import annotations
 
 from dataclasses import dataclass
 from typing import Any, NamedTuple
 
+from clashbot import d1_format
 from clashbot.game_rules import lane_of, legal_cards, load_cards, zone_of
 
 DEFEND_ETA_S = 4.0          # an enemy unit this close (seconds) to one of our towers must be answered now
@@ -26,7 +28,7 @@ OPPOSITE_LANE = {"left": "right", "right": "left"}       # middle has no opposit
 @dataclass
 class ActDecision:
     act: bool
-    mode: str                 # "defend" | "leak" | "punish" | "hold" | "none"
+    mode: str                 # "defend" | "leak" | "punish" | "learned" | "hold" | "none"
     lane: str | None          # lane to play in (None = any)
     reason: str               # short human-readable reason, logged
     threat: dict | None = None   # the enemy unit being answered (defend)
@@ -96,7 +98,8 @@ class ReactivePolicy:
             out.append((eta, u, lane_of(tile) or _tower_lane(tower)))
         return out
 
-    def decide(self, state: dict, t: float) -> ActDecision:
+    def decide(self, state: dict, t: float, context_text: str | None = None) -> ActDecision:
+        """`context_text` is accepted for the policy interface of the live loop and ignored here."""
         if not legal_cards(state, self.cards):
             return ActDecision(False, "none", None, "no affordable card")
 
@@ -129,13 +132,19 @@ class ReactivePolicy:
     def _is_spell(self, card: str | None) -> bool:
         return card is not None and (self.cards.get(card) or {}).get("card_type") == "Spell"
 
+    def _unblind(self, parsed: list[_Cand], state: dict) -> list[_Cand]:
+        """No blind spells: a spell needs an enemy unit in its own lane and zone."""
+        enemy_cells = {(lane_of(_tile(u)), zone_of(_tile(u))) for u in _enemy_units(state) if _tile(u)}
+        return [p for p in parsed if not self._is_spell(p.card) or (p.lane, p.zone) in enemy_cells]
+
+    def no_blind_spells(self, candidates: list, state: dict) -> list:
+        """`candidates` without the spells that have no enemy unit in their lane and zone, order kept."""
+        return [p.obj for p in self._unblind([_parse(c) for c in candidates], state)]
+
     def filter_candidates(self, candidates: list, decision: ActDecision, state: dict) -> list:
         """Keep the candidates that fit `decision`, in the generator's order. [] means "hold" (punish with no fit,
         or every candidate was a blind spell)."""
-        enemy_cells = {(lane_of(_tile(u)), zone_of(_tile(u))) for u in _enemy_units(state) if _tile(u)}
-        parsed = [_parse(c) for c in candidates]
-        # no blind spells: a spell needs an enemy unit in its own lane and zone
-        kept = [p for p in parsed if not self._is_spell(p.card) or (p.lane, p.zone) in enemy_cells]
+        kept = self._unblind([_parse(c) for c in candidates], state)
         spell_filtered = [p.obj for p in kept]
         lane = decision.lane
 
@@ -153,3 +162,53 @@ class ReactivePolicy:
             return [p.obj for p in kept
                     if not self._is_spell(p.card) and (lane is None or p.lane == lane) and p.zone in PUNISH_ZONES]
         return spell_filtered
+
+
+class LearnedActPolicy:
+    """Learned play/wait decision (MAC-X, D-041): a d1 act-head scores "deploy now rather than wait" from the context.
+
+    The rules stay in charge of safety: no affordable card -> none, a threat to answer (defend) or a full bar (leak)
+    -> act, whatever the head says. In every other moment the head decides: p(act) >= threshold plays (keeping the
+    rule's mode and lane when the rules also wanted a punish), else hold. `scorer.probabilities(state, questions)`
+    is a `D1Ranker` on the act checkpoint ({"act": [p_false, p_true]})."""
+
+    def __init__(self, scorer, cards: dict | None = None, threshold: float = 0.5,
+                 rules: ReactivePolicy | None = None, min_check_gap_s: float = 0.5):
+        self.scorer = scorer
+        self.threshold = threshold
+        self.rules = rules if rules is not None else ReactivePolicy(cards)
+        self.cards = self.rules.cards
+        self.min_check_gap_s = min_check_gap_s
+        self._last_t: float | None = None         # time of the last real scorer call
+        self._last_p = 0.0
+
+    def p_act(self, context_text: str) -> float:
+        state, questions = d1_format.act_request(context_text)
+        return float(self.scorer.probabilities(state, questions)[d1_format.ACT_NAME][1])
+
+    def _p(self, context_text: str, t: float) -> float:
+        """p(act), reused when the previous scorer call was less than `min_check_gap_s` ago."""
+        if self._last_t is not None and 0.0 <= t - self._last_t < self.min_check_gap_s:
+            return self._last_p
+        self._last_p = self.p_act(context_text)
+        self._last_t = t
+        return self._last_p
+
+    def decide(self, state: dict, t: float, context_text: str | None = None) -> ActDecision:
+        r = self.rules.decide(state, t)
+        if r.mode == "none":
+            return r
+        if r.act and r.mode in ("defend", "leak"):
+            return r
+        if context_text is None:
+            return r
+        p = self._p(context_text, t)
+        if p >= self.threshold:
+            return ActDecision(True, r.mode if r.act else "learned", r.lane if r.act else None,
+                               f"learned act p={p:.2f}")
+        return ActDecision(False, "hold", None, f"learned wait p={p:.2f}")
+
+    def filter_candidates(self, candidates: list, decision: ActDecision, state: dict) -> list:
+        if decision.mode == "learned":
+            return self.rules.no_blind_spells(candidates, state)
+        return self.rules.filter_candidates(candidates, decision, state)

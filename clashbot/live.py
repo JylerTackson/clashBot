@@ -3,7 +3,8 @@
 Dry run by default: the executor only logs the clicks it would make. Packages A-F (detector, mirroring source, live
 state, ranker, planner, executor) are imported lazily inside the builders so this module stays light and testable
 with fakes. The act policy is reactive by default (clashbot.policy: defend / leak / punish, else hold and save
-elixir); `--policy trigger` restores the fixed-interval `should_decide`.
+elixir); `--policy learned --act-model PATH` adds the d1 act-head (MAC-X); `--policy trigger` restores the
+fixed-interval `should_decide`.
 Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
 """
 from __future__ import annotations
@@ -169,7 +170,7 @@ class LiveLoop:
             go = should_decide(self._fresh_opponent_state(state), t, self.last_decision_t, self.cards)
             verdict = ActDecision(go, "trigger", None, "should_decide")
         else:
-            verdict = self.policy.decide(state, t)
+            verdict = self.policy.decide(state, t, context_text=ctx)
         e = clock()
         trigger_ms = (e - d) * 1000.0
         if not verdict.act:
@@ -322,8 +323,14 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--seconds", type=float, default=60.0)
     ap.add_argument("--max-decisions", type=int, default=None)
     ap.add_argument("--min-gap", type=float, default=1.0, help="minimum seconds between two decisions (0 = off)")
-    ap.add_argument("--policy", choices=("reactive", "trigger"), default="reactive",
-                    help="when to play: reactive = defend / leak / punish, else hold (D-041); trigger = every 3 s etc.")
+    ap.add_argument("--policy", choices=("reactive", "learned", "trigger"), default="reactive",
+                    help="when to play: reactive = defend / leak / punish, else hold (D-041); learned = the rules' "
+                         "defend / leak plus a d1 act-head (needs --act-model); trigger = every 3 s etc.")
+    ap.add_argument("--act-model", default=None, help="d1 act-head checkpoint for --policy learned")
+    ap.add_argument("--act-threshold", type=float, default=None,
+                    help="p(act) needed to play (default: `threshold` of <act-model>/act_threshold.json, else 0.5)")
+    ap.add_argument("--act-backend", choices=("mlx", "transformers"), default="transformers",
+                    help="backend of the act-head model")
     ap.add_argument("--out", default=None, help="output dir (default runs/poc/<timestamp>)")
     return ap
 
@@ -360,6 +367,26 @@ def _build_ranker(args):
         return D1Ranker(model_path=args.d1_model, backend=args.d1_backend)
     from clashbot.ranker import ScoreRanker
     return ScoreRanker()
+
+
+def resolve_act_threshold(args) -> float:
+    """`--act-threshold`, else `threshold` of <act-model>/act_threshold.json (written by eval_act_head), else 0.5."""
+    if args.act_threshold is not None:
+        return float(args.act_threshold)
+    path = Path(args.act_model) / "act_threshold.json"
+    if path.is_file():
+        return float(json.loads(path.read_text())["threshold"])
+    return 0.5
+
+
+def _build_policy(args, cards: dict):
+    """The policy argument of `LiveLoop`: a name (reactive / trigger) or a `LearnedActPolicy` on the act-head model."""
+    if args.policy != "learned":
+        return args.policy
+    from clashbot.policy import LearnedActPolicy
+    from clashbot.ranker import D1Ranker
+    scorer = D1Ranker(model_path=args.act_model, backend=args.act_backend)
+    return LearnedActPolicy(scorer, cards, args.act_threshold)
 
 
 def _build_plan_text(args, deck: list[str]) -> str | None:
@@ -410,6 +437,15 @@ def main(argv: list[str] | None = None) -> int:
     if args.rect and len(_split(args.rect)) != 4:
         print("error: --rect needs l,t,w,h", file=sys.stderr)
         return 2
+    if args.policy == "learned":
+        if not args.act_model:
+            print("error: --policy learned needs --act-model PATH", file=sys.stderr)
+            return 2
+        try:
+            args.act_threshold = resolve_act_threshold(args)         # recorded in config.json below
+        except (OSError, ValueError, KeyError, TypeError) as exc:
+            print(f"error: bad act_threshold.json in {args.act_model}: {exc}", file=sys.stderr)
+            return 2
     args.device = resolve_device(args.device)         # recorded in config.json below
 
     source = None
@@ -433,6 +469,7 @@ def main(argv: list[str] | None = None) -> int:
         cards = load_cards()
         generator = CandidateGenerator(StateIndex(), KnowledgeGraph(), cards)
         ranker = _build_ranker(args)
+        policy = _build_policy(args, cards)
         plan_text = _build_plan_text(args, deck)
     except (RuntimeError, OSError, ValueError, ImportError) as exc:
         print(f"error: {exc}", file=sys.stderr)
@@ -447,7 +484,7 @@ def main(argv: list[str] | None = None) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "config.json").write_text(json.dumps(vars(args), indent=2, default=str))
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
-                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=args.policy)
+                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy)
     mode = "LIVE" if args.live else "dry run"
     print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} policy={args.policy} "
           f"out={out_dir}")

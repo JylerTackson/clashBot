@@ -309,6 +309,33 @@ def test_main_writes_files_stats_and_readme(tmp_path, capsys):
     assert "D-040" in readme and "LiveStateBuilder" in readme and "(t, t + 1" in readme
 
 
+def test_states_sidecar_matches_the_act_files(tmp_path):
+    from clashbot.state_text import render_context
+
+    out, _ = run(tmp_path)
+    for split in ("train", "val", "test"):
+        side = read_split(out, f"states_{split}")
+        acts = read_split(out, split)
+        assert [r["id"] for r in side] == [l["id"] for l in acts]         # one row per act line, same order
+    side, acts = read_split(out, "states_train"), read_split(out, "train")
+    assert side and all(list(r) == ["id", "t", "state"] for r in side)
+    for r, line in zip(side, acts):
+        assert r["t"] == float(line["id"].rsplit("#", 1)[1])
+        assert render_context(r["state"], r["t"]) == line["state"]        # the clean state the line was rendered from
+    assert side[0]["state"]["own"]["hand"] == HAND and side[0]["state"]["opponent"]["recent_plays"] == []
+    assert [r["state"]["threats"] != [] for r in side].count(True) == 2    # the knight at t = 16 and 17
+
+
+def test_no_states_flag_skips_the_sidecars(tmp_path):
+    out, _ = run(tmp_path, "--no-states")
+    assert not list(out.glob("states_*.jsonl"))
+    assert len(read_split(out, "train")) == 11 and (out / "stats.json").exists()
+    other = tmp_path / "other"
+    other.mkdir()
+    with_states, _ = run(other)
+    assert read_split(out, "train") == read_split(with_states, "train")   # the act files do not depend on the flag
+
+
 def test_default_out_is_dataset_act_dense(tmp_path):
     ds, runs = make_world(tmp_path)
     assert bda.main(["--dataset", str(ds), "--runs", str(runs)]) == 0
