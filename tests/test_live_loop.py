@@ -135,11 +135,13 @@ class FakeClock:
 
 
 def _loop(tmp_path=None, source=None, builder=None, generator=None, ranker=None, executor=None, plan_text="PLAN",
-          perception=None, min_gap_s=0.0):
-    # min_gap_s=0 keeps the pre-amendment-2 behaviour for the older tests; the min-gap tests pass it explicitly
+          perception=None, min_gap_s=0.0, policy="trigger"):
+    # min_gap_s=0 keeps the pre-amendment-2 behaviour for the older tests; the min-gap tests pass it explicitly.
+    # policy="trigger" keeps the should_decide path the older tests were written for; the MAC-W tests pass "reactive".
     return LiveLoop(source or FakeSource(), perception or FakePerception(), builder or FakeBuilder(),
                     generator or FakeGenerator(), ranker or FakeKeyRanker(), executor or FakeExecutor(),
-                    load_cards(), PRIOR, plan_text=plan_text, out_dir=tmp_path, clock=FakeClock(), min_gap_s=min_gap_s)
+                    load_cards(), PRIOR, plan_text=plan_text, out_dir=tmp_path, clock=FakeClock(), min_gap_s=min_gap_s,
+                    policy=policy)
 
 
 # 1 -----------------------------------------------------------------------------------------------------------------
@@ -214,7 +216,7 @@ def test_step_decision_executes_with_hand_and_tile_and_timings():
 def test_step_passes_filters_to_generator():
     gen = FakeGenerator()
     lp = LiveLoop(FakeSource(), FakePerception(), FakeBuilder(warmup=0), gen, FakeKeyRanker(), FakeExecutor(),
-                  load_cards(), PRIOR, filters={"exclude_game": "g1"}, clock=FakeClock())
+                  load_cards(), PRIOR, filters={"exclude_game": "g1"}, clock=FakeClock(), policy="trigger")
     lp.step("f", 1.0, 0, 2.0)
     assert gen.calls == [(1.0, 4, {"exclude_game": "g1"})]
 
@@ -778,3 +780,158 @@ def test_main_resolves_device_and_records_it_in_config(monkeypatch, tmp_path, ex
     assert rc == 0
     assert seen["device"] == expected
     assert json.loads((out / "config.json").read_text())["device"] == expected
+
+
+# MAC-W: reactive act/hold policy (default) vs the old should_decide trigger -------------------------------------------
+def _enemy_unit(tile, eta=None, tower="own_left"):
+    return {"unit_class": "knight", "card": "knight", "side": "enemy", "tile": list(tile),
+            "eta_tower": None if eta is None else {"tower": tower, "s": eta}}
+
+
+def _threat_state(elixir=5.0, units=None):
+    return {**_state(elixir=elixir), "units": units if units is not None else [_enemy_unit((5, 9), eta=2.0)]}
+
+
+def _reactive_loop(state, generator=None, tmp_path=None, ranker=None, executor=None, **kw):
+    return _loop(tmp_path=tmp_path, builder=FakeBuilder(state, warmup=0), generator=generator, ranker=ranker,
+                 executor=executor, policy="reactive", **kw)
+
+
+def test_policy_argument_selects_reactive_trigger_or_object():
+    from clashbot.policy import ReactivePolicy
+
+    def make(policy):
+        return LiveLoop(FakeSource(), FakePerception(), FakeBuilder(), FakeGenerator(), FakeKeyRanker(),
+                        FakeExecutor(), load_cards(), PRIOR, policy=policy)
+
+    assert isinstance(make(None).policy, ReactivePolicy)
+    assert isinstance(make("reactive").policy, ReactivePolicy)
+    assert make("trigger").policy is None
+    custom = ReactivePolicy(load_cards(), leak_elixir=7.0)
+    assert make(custom).policy is custom
+
+
+def test_reactive_hold_returns_none_and_is_counted():
+    gen, ex = FakeGenerator(), FakeExecutor()
+    lp = _reactive_loop(_state(elixir=5.0), generator=gen, executor=ex)
+    assert lp.step("f", 1.0, 0, 2.0) is None
+    assert lp.step("f", 1.1, 1, 2.0) is None
+    assert gen.calls == [] and ex.calls == [] and not lp.decisions and lp.last_decision_t is None
+    assert lp.policy_holds == {"hold": 2}
+    assert lp.summary()["policy_holds"] == {"hold": 2} and lp.summary()["decisions_by_mode"] == {}
+
+
+def test_reactive_no_affordable_card_counts_as_none():
+    lp = _reactive_loop(_state(elixir=0.0))
+    assert lp.step("f", 1.0, 0, 2.0) is None
+    assert lp.policy_holds == {"none": 1}
+
+
+def test_min_gap_check_runs_before_the_policy():
+    lp = _reactive_loop(_state(elixir=10.0), min_gap_s=1.0)
+    assert lp.step("f", 0.0, 0, 2.0) is not None
+    assert lp.step("f", 0.5, 1, 2.0) is None
+    assert lp.skipped_min_gap == 1 and lp.policy_holds == {}
+
+
+def test_reactive_leak_plays_and_logs_mode_and_reason(tmp_path):
+    ex = FakeExecutor()
+    lp = _reactive_loop(_state(elixir=10.0), generator=FakeGenerator(keys=["knight|left|mid", "giant|left|back"]),
+                        tmp_path=tmp_path, ranker=FirstKeyRanker(), executor=ex)
+    d = lp.step("f", 1.0, 3, 2.0)
+    assert d.mode == "leak" and "near full" in d.reason
+    assert d.key == "giant|left|back" and [c["key"] for c in d.candidates] == ["giant|left|back"]    # leak: back/bridge
+    assert [c[0] for c in ex.calls] == ["giant|left|back"]
+    line = json.loads((tmp_path / "decisions.jsonl").read_text().splitlines()[0])
+    assert line["mode"] == "leak" and line["reason"] == d.reason
+    assert lp.summary()["decisions_by_mode"] == {"leak": 1} and lp.summary()["policy_holds"] == {}
+
+
+def test_reactive_defend_filters_to_the_threat_lane_and_executes():
+    ex = FakeExecutor()
+    gen = FakeGenerator(keys=["knight|right|mid", "knight|left|mid", "fireball|right|mid"])
+    lp = _reactive_loop(_threat_state(), generator=gen, ranker=FirstKeyRanker(), executor=ex)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.mode == "defend" and "knight" in d.reason and "left" in d.reason
+    assert [c["key"] for c in d.candidates] == ["knight|left|mid"]               # wrong lane + blind spell dropped
+    assert d.key == "knight|left|mid" and d.tile == [4.0, 8.0] and ex.calls[0][0] == "knight|left|mid"
+
+
+def test_reactive_defend_with_every_candidate_filtered_records_hold_policy(tmp_path):
+    ex, rk = FakeExecutor(), FakeKeyRanker()
+    gen = FakeGenerator(keys=["fireball|right|mid", "zap|right|back"])           # blind spells only
+    lp = _reactive_loop(_threat_state(), generator=gen, tmp_path=tmp_path, ranker=rk, executor=ex)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d is not None and d.key == HOLD_KEY and d.tile is None and d.probs == []
+    assert d.executor == {"t": 1.0, "key": "hold", "tile": None, "status": "hold_policy", "clicks": [], "sent": False}
+    assert ex.calls == [] and rk.calls == []                                     # no tap, no ranker call
+    assert d.mode == "defend" and d.reason
+    assert lp.last_decision_t == 1.0 and lp.decisions == [d]
+    assert [c["key"] for c in d.candidates] == ["fireball|right|mid", "zap|right|back"]    # the unfiltered ones
+    assert d.timings_ms["rank"] == 0.0 and set(d.timings_ms) == set(STAGES)
+    line = json.loads((tmp_path / "decisions.jsonl").read_text().splitlines()[0])
+    assert line["key"] == "hold" and line["mode"] == "defend" and line["executor"]["status"] == "hold_policy"
+    assert lp.summary()["decisions_by_status"] == {"hold_policy": 1}
+
+
+def test_reactive_hold_policy_still_respects_the_min_gap():
+    lp = _reactive_loop(_threat_state(), generator=FakeGenerator(keys=["fireball|right|mid"]), min_gap_s=1.0)
+    assert lp.step("f", 1.0, 0, 2.0).key == HOLD_KEY
+    assert lp.step("f", 1.5, 1, 2.0) is None and lp.skipped_min_gap == 1
+
+
+def test_reactive_policy_ignores_the_opponent_play_trigger():
+    # the old trigger fires on every fresh opponent play; the reactive policy waits for it to become a threat
+    lp = _loop(source=RangeSource(0.0, 3.0), builder=TimedBuilder(elixir=5.0, plays=[1.0]),
+               perception=TimedPerception(), policy="reactive")
+    summary = lp.run()
+    assert summary["decisions"] == 0 and summary["policy_holds"] == {"hold": 30}
+
+
+def test_trigger_policy_keeps_the_old_behaviour():
+    gen = FakeGenerator()
+    lp = _loop(builder=FakeBuilder(_state(elixir=0.0), warmup=0), generator=gen, policy="trigger")
+    assert lp.step("f", 10.0, 0, 2.0) is None and lp.policy_holds == {} and gen.calls == []
+    ex = FakeExecutor()
+    lp = _loop(builder=FakeBuilder(_state(elixir=5.0), warmup=0), executor=ex, policy="trigger")
+    d = lp.step("f", 1.0, 0, 2.0)                       # quiet state, but the 3 s rule fires on the first frame
+    assert d.key == "giant|left|back" and d.mode == "trigger" and d.reason == "should_decide"
+    assert [c[0] for c in ex.calls] == ["giant|left|back"]
+    assert lp.summary()["decisions_by_mode"] == {"trigger": 1} and lp.summary()["policy_holds"] == {}
+
+
+def test_cli_policy_flag():
+    assert build_parser().parse_args(_argv()).policy == "reactive"
+    assert build_parser().parse_args(_argv("--policy", "trigger")).policy == "trigger"
+    with pytest.raises(SystemExit):
+        build_parser().parse_args(_argv("--policy", "bogus"))
+
+
+@pytest.mark.parametrize("extra,expected", [([], "reactive"), (["--policy", "trigger"], "trigger")])
+def test_main_passes_the_policy_to_the_loop(monkeypatch, tmp_path, extra, expected):
+    import clashbot.live as live_mod
+
+    seen = {}
+
+    class StubLoop:
+        def __init__(self, *a, **k):
+            seen.update(k)
+            self.summary = _loop().summary()
+
+        def run(self, **k):
+            return self.summary
+
+    monkeypatch.setattr(live_mod, "_build_source", lambda args: FakeSource())
+    monkeypatch.setattr(live_mod, "_build_perception", lambda args, source: FakePerception())
+    monkeypatch.setattr(live_mod, "_build_ranker", lambda args: FakeKeyRanker())
+    monkeypatch.setattr(live_mod, "_build_plan_text", lambda args, deck: None)
+    monkeypatch.setattr(live_mod, "load_cards", lambda: {})
+    monkeypatch.setattr(live_mod, "load_placement_prior", lambda: PRIOR)
+    monkeypatch.setattr(live_mod, "StateIndex", lambda: None)
+    monkeypatch.setattr(live_mod, "KnowledgeGraph", lambda: None)
+    monkeypatch.setattr(live_mod, "CandidateGenerator", lambda *a: FakeGenerator())
+    monkeypatch.setattr(live_mod, "LiveLoop", StubLoop)
+    out = tmp_path / "run"
+    assert main(_argv("--source", "video", "--video", "x.mp4", "--device", "cpu", "--out", str(out), *extra)) == 0
+    assert seen["policy"] == expected
+    assert json.loads((out / "config.json").read_text())["policy"] == expected
