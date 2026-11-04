@@ -38,13 +38,13 @@ def play(t, card, player="own"):
             "detect_source": "arena", "confidence": "high"}
 
 
-def state_row(t: float, units=(), match_id=1) -> dict:
+def state_row(t: float, units=(), match_id=1, opp_deck=(), opp_elixir=5.5) -> dict:
     gs = GameState(t=t, frame_index=int(t * 10), readiness="match", match_id=match_id, match_clock="1:20",
                    match_seconds=100.0, phase="double_elixir",
                    own={"elixir": 5.0, "hand": list(HAND), "hand_conf": [0.9] * 4, "next_card": "wall-breakers",
                         "towers": {"king": 4000, "left": 3000, "right": 2500}},
-                   opponent={"elixir_est": 5.5, "towers": {"king": 4800, "left": 4000, "right": None},
-                             "deck_known": [], "deck_complete": False},
+                   opponent={"elixir_est": opp_elixir, "towers": {"king": 4800, "left": 4000, "right": None},
+                             "deck_known": list(opp_deck), "deck_complete": False},
                    units=list(units))
     return gs.to_json()
 
@@ -56,8 +56,8 @@ def knight() -> UnitObs:
                    category="unit", motion=motion)
 
 
-def opp_event(ts: float) -> dict:
-    return PlayEvent(timestamp=ts, match_clock="1:20", player="opponent", card="miner", tile=(3, 20),
+def opp_event(ts: float, card: str = "miner") -> dict:
+    return PlayEvent(timestamp=ts, match_clock="1:20", player="opponent", card=card, tile=(3, 20),
                      elixir_before=None, elixir_after=None, detect_source="arena", confidence="high").to_json()
 
 
@@ -93,7 +93,15 @@ def sparse_records(game_id: str, split: str, deploys: list[tuple[float, str]]) -
     return recs
 
 
-def make_world(tmp_path: Path, *, gap=None, extra_games: bool = False) -> tuple[Path, Path]:
+def neighbour_rows() -> list[dict]:
+    """The tail of the previous match (same match_id value, other file) that spills into g_train's window."""
+    rows = [{"type": "session_start", "wall_time": 0.0}]
+    rows += [state_row(round(8.0 + 0.2 * k, 3), opp_deck=["hog-rider"], opp_elixir=9.0) for k in range(21)]
+    rows.append(opp_event(11.0, "hog-rider"))
+    return rows
+
+
+def make_world(tmp_path: Path, *, gap=None, extra_games: bool = False, neighbour: bool = False) -> tuple[Path, Path]:
     ds, runs = tmp_path / "ds", tmp_path / "runs" / "videos"
     ds.mkdir()
     games = [{"game_id": "g_train", "split": "train", "own_deck": DECK},
@@ -114,6 +122,8 @@ def make_world(tmp_path: Path, *, gap=None, extra_games: bool = False) -> tuple[
                 perception_rows(TRAIN_WINDOW, threat=(THREAT_FROM, THREAT_TO), events=[opp_event(OPP_PLAY_T)],
                                 gap=gap))
     write_jsonl(runs / "vid_b" / "match_0" / "game_1" / "states.jsonl", perception_rows(VAL_WINDOW))
+    if neighbour:       # sorts before the dominant file, so a merge of the files would prefer its rows
+        write_jsonl(runs / "vid_a" / "match_0" / "game_0" / "states.jsonl", neighbour_rows())
     return ds, runs
 
 
@@ -292,8 +302,9 @@ def test_main_writes_files_stats_and_readme(tmp_path, capsys):
     assert stats["total"]["lines"] == 22 and stats["total"]["games"] == 2
     assert stats["total"]["act_rate"] == pytest.approx(3 / 22, abs=1e-4)
     assert set(tr["skipped"]) == {"skipped_no_time", "skipped_no_perception", "no_state", "no_build"}
+    assert tr["multi_match_groups"] == va["multi_match_groups"] == stats["total"]["multi_match_groups"] == 0
     shown = capsys.readouterr().out
-    assert "train" in shown and "act_rate" in shown and "total" in shown
+    assert "train" in shown and "act_rate" in shown and "total" in shown and "multi_match_groups" in shown
     readme = (out / "README.md").read_text()
     assert "D-040" in readme and "LiveStateBuilder" in readme and "(t, t + 1" in readme
 
@@ -327,3 +338,65 @@ def test_step_below_minimum_is_rejected(tmp_path):
     ds, runs = make_world(tmp_path)
     with pytest.raises(SystemExit):
         bda.main(["--dataset", str(ds), "--runs", str(runs), "--out", str(tmp_path / "o"), "--step", "0.01"])
+
+
+# --------------------------------------------------------------------------- 7: one perception match per game (FIX_LIST #24)
+
+def test_neighbouring_match_rows_and_events_are_ignored(tmp_path):
+    base_dir, multi_dir = tmp_path / "base", tmp_path / "multi"
+    base_dir.mkdir()
+    multi_dir.mkdir()
+    base, _ = run(base_dir, world=make_world(base_dir))
+    out, _ = run(multi_dir, world=make_world(multi_dir, neighbour=True))
+    train = read_split(out, "train")
+    assert len(train) == 11
+    # identical to the run without the neighbouring match: its rows (same match_id value, other file) and its
+    # opponent play never reach the builder, so the opponent deck of the other match never appears
+    assert train == read_split(base, "train") and read_split(out, "val") == read_split(base, "val")
+    assert all("hog-rider" not in l["state"] for l in train)
+    assert all(l["meta"]["opp_elixir"] == 5.5 for l in train)
+    assert "opp deck: unknown" in by_t(train)[10.0]["state"] and "opp miner@[3,20]" in by_t(train)[15.0]["state"]
+    stats = json.loads((out / "stats.json").read_text())
+    assert stats["splits"]["train"]["multi_match_groups"] == 1
+    assert stats["splits"]["val"]["multi_match_groups"] == 0 and stats["splits"]["test"]["multi_match_groups"] == 0
+    assert stats["total"]["multi_match_groups"] == 1
+    assert json.loads((base / "stats.json").read_text())["total"]["multi_match_groups"] == 0
+    assert "multi_match_groups" in bda.stats_table(stats)
+
+
+def test_window_picks_the_group_with_most_rows_inside_the_game(tmp_path):
+    runs = tmp_path / "runs"
+    # same match_id value in both files; "z" has the most rows inside [10, 12] although "a" starts earlier
+    write_jsonl(runs / "v" / "a" / "states.jsonl",
+                [state_row(9.5, match_id=3, opp_elixir=1.0), state_row(10.5, match_id=3, opp_elixir=1.0),
+                 opp_event(10.6, "hog-rider")])
+    write_jsonl(runs / "v" / "z" / "states.jsonl",
+                [state_row(t, match_id=3, opp_elixir=2.0) for t in (10.0, 10.5, 11.0, 11.5, 12.0)]
+                + [opp_event(11.2, "miner")])
+    states, events, n_groups = bda.Perception(runs).window("v", 10.0, 12.0)
+    assert n_groups == 2
+    assert [r["t"] for r in states] == [10.0, 10.5, 11.0, 11.5, 12.0]
+    assert {r["opponent"]["elixir_est"] for r in states} == {2.0}
+    assert [e["card"] for e in events] == ["miner"]
+
+
+def test_window_tie_goes_to_the_group_starting_closest_to_start(tmp_path):
+    runs = tmp_path / "runs"
+    # two rows inside [10, 12] each; "a" first shows up 0.8 s before start, "z" right at start
+    write_jsonl(runs / "v" / "a" / "states.jsonl",
+                [state_row(t, match_id=1, opp_elixir=1.0) for t in (9.2, 10.2, 11.2)] + [opp_event(10.3, "hog-rider")])
+    write_jsonl(runs / "v" / "z" / "states.jsonl",
+                [state_row(t, match_id=1, opp_elixir=2.0) for t in (10.0, 11.0)] + [opp_event(10.1, "miner")])
+    states, events, n_groups = bda.Perception(runs).window("v", 10.0, 12.0)
+    assert n_groups == 2 and [r["t"] for r in states] == [10.0, 11.0]
+    assert [e["card"] for e in events] == ["miner"]
+
+
+def test_window_with_one_group_is_unchanged(tmp_path):
+    runs = tmp_path / "runs"
+    rows = [state_row(t) for t in (9.0, 10.0, 10.0, 11.0, 13.5)] + [opp_event(10.5), opp_event(15.0)]
+    write_jsonl(runs / "v" / "states.jsonl", rows)
+    states, events, n_groups = bda.Perception(runs).window("v", 10.0, 12.0)
+    assert n_groups == 1 and [r["t"] for r in states] == [9.0, 10.0, 11.0]       # duplicate time dropped, 13.5 outside
+    assert [e["timestamp"] for e in events] == [10.5]
+    assert bda.Perception(runs).window("v", 100.0, 110.0) == ([], [], 0)

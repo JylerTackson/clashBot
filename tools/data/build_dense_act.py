@@ -7,7 +7,9 @@ The sparse act dataset only has "play" moments (positives) and a few hand-picked
 Here every game is sampled once per `--step` seconds: the state comes from the re-run perception rows
 (`<runs>/<video_id>/**/states.jsonl`) through the live builder `clashbot.live_state.LiveStateBuilder` (events fed
 incrementally, so first-seen times and the hand hold behave exactly like the live loop) and the label is
-"did the pro deploy a card within `--horizon` seconds". Writes <out>/{train,val,test}.jsonl in d1 act format
+"did the pro deploy a card within `--horizon` seconds". A game uses the rows of ONE perception match only (the
+(source file, match_id) group with the most state rows inside the game window; `multi_match_groups` counts games
+whose window held more than one). Writes <out>/{train,val,test}.jsonl in d1 act format
 (<dataset>/act_dense by default), <out>/stats.json and <out>/README.md. Perception output is read only.
 """
 from __future__ import annotations
@@ -126,40 +128,82 @@ def load_records(path: Path, wanted: set[str]) -> dict[str, list[dict]]:
     return by_game
 
 
+Group = tuple[str, object]      # (source states.jsonl path, match_id): one perception match
+
+
 class Perception:
-    """Match-readiness state rows and play events of one video, read once (games of a video are contiguous)."""
+    """Match-readiness state rows and play events of one video, read once (games of a video are contiguous).
+
+    Every row is tagged with its group = (source file, match_id): `match_id` restarts in every file and the
+    live builder resets on a change, so a game must be built from one group only (FIX_LIST #24). Play events
+    carry no match_id; each takes the group of the nearest state row in its own file.
+    """
 
     def __init__(self, runs: Path):
         self.runs = runs
         self._video: str | None = None
         self._states: list[dict] = []
+        self._s_ts: list[float] = []
+        self._s_grp: list[Group] = []
         self._events: list[dict] = []
+        self._e_ts: list[float] = []
+        self._e_grp: list[Group] = []
 
     def _load(self, video_id: str) -> None:
-        states, events = [], []
+        states: list[tuple[float, Group, dict]] = []
+        events: list[tuple[float, Group, dict]] = []
         for path in sorted((self.runs / video_id).glob("**/states.jsonl")):
+            f_states: list[tuple[float, Group, dict]] = []
+            f_events: list[dict] = []
             for row in read_jsonl(path):
                 kind = row.get("type")
                 if kind == "state" and row.get("readiness") == "match" and _num(row.get("t")) is not None:
-                    states.append(row)
+                    f_states.append((row["t"], (str(path), row.get("match_id")), row))
                 elif kind == "play_event" and _num(row.get("timestamp")) is not None:
-                    events.append(row)
-        states.sort(key=lambda r: r["t"])
-        events.sort(key=lambda r: r["timestamp"])
-        uniq: list[dict] = []
-        for r in states:                                  # exact-duplicate times (overlapping runs)
-            if not uniq or r["t"] != uniq[-1]["t"]:
-                uniq.append(r)
-        self._video, self._states, self._events = video_id, uniq, events
+                    f_events.append(row)
+            f_states.sort(key=lambda x: x[0])
+            f_ts = [x[0] for x in f_states]
+            for ev in f_events:
+                i = nearest(f_ts, ev["timestamp"], float("inf"))
+                if i is not None:                         # a file without match rows owns no group
+                    events.append((ev["timestamp"], f_states[i][1], ev))
+            states.extend(f_states)
+        states.sort(key=lambda x: x[0])
+        events.sort(key=lambda x: x[0])
+        self._video = video_id
+        self._s_ts, self._s_grp, self._states = ([x[i] for x in states] for i in range(3))
+        self._e_ts, self._e_grp, self._events = ([x[i] for x in events] for i in range(3))
 
-    def window(self, video_id: str, lo: float, hi: float) -> tuple[list[dict], list[dict]]:
+    def window(self, video_id: str, start: float, end: float) -> tuple[list[dict], list[dict], int]:
+        """(state rows, play events, number of groups present) of the dominant group around [start, end].
+
+        Rows are looked up in [start - MARGIN_S, end + MARGIN_S]; the dominant group is the one with the most
+        state rows inside [start, end] (ties: the group whose first row is closest to `start`). Only its rows
+        and events are returned; exact-duplicate times (overlapping runs of one match) are dropped.
+        """
         if self._video != video_id:
             self._load(video_id)
-        s_ts = [r["t"] for r in self._states]
-        e_ts = [r["timestamp"] for r in self._events]
-        s = self._states[bisect.bisect_left(s_ts, lo):bisect.bisect_right(s_ts, hi)]
-        e = self._events[bisect.bisect_left(e_ts, lo):bisect.bisect_right(e_ts, hi)]
-        return s, e
+        lo, hi = start - MARGIN_S, end + MARGIN_S
+        a, b = bisect.bisect_left(self._s_ts, lo), bisect.bisect_right(self._s_ts, hi)
+        groups: dict[Group, list[int]] = {}
+        for i in range(a, b):
+            groups.setdefault(self._s_grp[i], []).append(i)
+        if not groups:
+            return [], [], 0
+
+        def rank(g: Group) -> tuple:
+            idx = groups[g]
+            inside = sum(1 for i in idx if start <= self._s_ts[i] <= end)
+            return (-inside, abs(self._s_ts[idx[0]] - start), g[0], repr(g[1]))
+
+        best = min(groups, key=rank)
+        uniq: list[dict] = []
+        for i in groups[best]:
+            if not uniq or self._s_ts[i] != uniq[-1]["t"]:
+                uniq.append(self._states[i])
+        ea, eb = bisect.bisect_left(self._e_ts, lo), bisect.bisect_right(self._e_ts, hi)
+        events = [self._events[i] for i in range(ea, eb) if self._e_grp[i] == best]
+        return uniq, events, len(groups)
 
 
 def nearest(ts: list[float], t: float, tol: float) -> int | None:
@@ -229,7 +273,7 @@ def _rate(num: int, den: int) -> float | None:
 
 class SplitStats:
     def __init__(self) -> None:
-        self.lines = self.acts = self.games = self.games_listed = 0
+        self.lines = self.acts = self.games = self.games_listed = self.multi_match_groups = 0
         self.threat_n = self.threat_acts = self.soon_n = self.soon_acts = 0
         self.skipped: Counter = Counter()
 
@@ -250,7 +294,7 @@ class SplitStats:
 
     def to_json(self) -> dict:
         return {"lines": self.lines, "act_rate": _rate(self.acts, self.lines), "games": self.games,
-                "games_listed": self.games_listed,
+                "games_listed": self.games_listed, "multi_match_groups": self.multi_match_groups,
                 "skipped": {k: self.skipped.get(k, 0)
                             for k in ("skipped_no_time", "skipped_no_perception", "no_state", "no_build")},
                 "n_threat": self.threat_n, "act_rate_when_threat": _rate(self.threat_acts, self.threat_n),
@@ -265,6 +309,7 @@ def combine(parts: list[SplitStats]) -> SplitStats:
         tot.acts += p.acts
         tot.games += p.games
         tot.games_listed += p.games_listed
+        tot.multi_match_groups += p.multi_match_groups
         tot.threat_n += p.threat_n
         tot.threat_acts += p.threat_acts
         tot.soon_n += p.soon_n
@@ -278,7 +323,8 @@ def _fmt(x) -> str:
 
 
 def stats_table(stats: dict) -> str:
-    cols = ("games", "lines", "act_rate", "act_rate_when_threat", "act_rate_within_3s_of_opp_play")
+    cols = ("games", "lines", "act_rate", "act_rate_when_threat", "act_rate_within_3s_of_opp_play",
+            "multi_match_groups")
     skip = ("skipped_no_time", "skipped_no_perception", "no_state", "no_build")
     head = ["split", *cols, *skip]
     rows = [head]
@@ -309,8 +355,11 @@ then time), `stats.json`.
 Built from the re-run perception output (`<runs>/<video_id>/**/states.jsonl`, match-readiness rows) with the live
 builder `clashbot/live_state.py::LiveStateBuilder`, a fresh builder per game, the play events fed incrementally
 (each only once its timestamp has passed), so first-seen opponent cards, recent plays and the hand hold are
-exactly what the live loop would have seen (D-040). A sample takes the perception row nearest to `t` within
-`{args.tol:g}` s; otherwise it is skipped (`no_state`).
+exactly what the live loop would have seen (D-040). Only one perception match is used per game: the
+(source file, match_id) group with the most state rows inside the game window; rows and play events of any other
+group in the window (a neighbouring match) are ignored, and stats `multi_match_groups` counts the games where
+there was more than one. A sample takes the perception row nearest to `t` within `{args.tol:g}` s; otherwise it
+is skipped (`no_state`).
 
 ## Labels
 `act = true` iff the pro deployed a card in `(t, t + {args.horizon:g}]` s. Deploy times come from the sparse
@@ -371,7 +420,8 @@ def main(argv: list[str] | None = None) -> int:
             if win is None or not game.get("own_deck"):
                 st.skipped["skipped_no_time"] += 1
                 continue
-            states, events = perception.window(p["video_id"], win[0] - MARGIN_S, win[1] + MARGIN_S)
+            states, events, n_groups = perception.window(p["video_id"], *win)
+            st.multi_match_groups += n_groups > 1
             if not states:
                 st.skipped["skipped_no_perception"] += 1
                 continue
