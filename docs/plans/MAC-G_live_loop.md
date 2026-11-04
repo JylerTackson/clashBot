@@ -125,3 +125,7 @@ Dry run on the recorded game: 692 decisions in 1,499 frames, 91% of gaps < 0.5 s
 1. (#18) In `LiveLoop.step`, after ranking: if the chosen candidate's `sources` contains `"fallback"` and `state["own"]["elixir"]` is `None` or `< 9.5`, do not execute it: key `"hold"`, tile `None`, executor entry `{"t": t, "key": "hold", "tile": None, "status": "hold_fallback", "clicks": [], "sent": False}` (do not call the executor), still record the decision and set `last_decision_t`. Count in `summary()["decisions_by_status"]` as `hold_fallback`.
 2. (#19) `--device` default `None`; in `main()`, if `args.device is None`: `import torch` there and use `"mps"` if `torch.backends.mps.is_available()` else `"cpu"`; record the resolved device in `config.json` (args).
 3. Tests (fakes): a fallback-sourced top candidate at elixir 5 → hold_fallback, executor not called; at elixir 10 → executed; device resolution with a monkeypatched `torch.backends.mps.is_available` (True → "mps", False → "cpu"), explicit `--device cpu` respected.
+
+---
+## Amendment 4 (Opus, 2026-11-03) — FIX_LIST #25: serve the fine-tuned d1
+`--ranker d1` cannot point at a fine-tuned checkpoint. Add `--d1-model PATH` (default `None`) to `python -m clashbot.live` and to the replay CLI in `clashbot/loop.py` (`--d1-model`, passed through `replay(..., d1_model=None)`); `_build_ranker` → `D1Ranker(model_path=args.d1_model, backend=args.d1_backend)`. Record it in `config.json`. Tests: the parser default, and that a monkeypatched `D1Ranker` receives `model_path` from both CLIs.
