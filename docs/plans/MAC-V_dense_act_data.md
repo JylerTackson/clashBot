@@ -42,3 +42,7 @@ Unit tests only (no perception output exists yet). Do not run `batch_process.py`
 
 ## 5. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus, 2026-11-03) — FIX_LIST #24: one perception match per game
+`LiveStateBuilder` resets its events when `match_id` changes, and a game's `[start − 1, end + 1]` window can contain rows of a neighbouring match; `match_id` values also restart in every `states.jsonl` (one perception run per match folder). In step 2, tag every row with `(source file path, match_id)`; keep only the group with the most `state` rows inside `[start, end]` (ties → the group whose first row is closest to `start`); use only that group's `play_event` rows. Count games where more than one group was present (`multi_match_groups`) in the stats. Test: a window with rows from two groups (different files, same `match_id` value) → only the dominant group's rows and events are used, and the opponent deck of the other match never appears.
