@@ -122,3 +122,17 @@ Latency 67–70 ms p50 / 95 ms p95 per decision (transformers fp16, MPS). Report
 **Dense perception** (D-040): all 33 videos downloaded (4.2 GB, video only after YouTube rate-limited subtitles). The first overnight pass picked up only 1 video because a stale download manifest listed only it; moved aside, the full pass over all videos is running (resumable), followed by the dense act dataset build.
 **Next.** Act head on the dense data; factorized ablation (≈ 3× the rows of joint — likely ~10 h, schedule for another night); R3 re-run; a live Training Camp match with `--ranker d1 --d1-backend transformers --d1-model db/models/d1-ft-joint` and the reactive policy.
 **Overnight chain (detached, user request).** `runs/overnight/chain.sh` (local, gitignored) runs dense perception over all 33 videos and then builds `dataset/v1/act_dense`, in its own process session under `caffeinate -i`, so it continues without the Claude session. Progress: `tail -f runs/overnight/chain.log`; done when it ends with `DONE`; the morning live-test command is in `runs/overnight/README.txt`. The interrupted single-video pass was stopped first and its half-written `states.jsonl` removed (append-mode recorder would otherwise duplicate rows).
+
+## 2026-11-04 (day) — like-for-like ranker comparison on the final 4-way grid
+
+| model (4-way, 2×2 grid) | val | test |
+|---|---|---|
+| placement prior | 0.493 | 0.384 |
+| R3 logistic regression | 0.546 ± 0.003 | 0.476 ± 0.004 |
+| **R3 LightGBM LambdaRank** | **0.548 ± 0.014** | **0.491 ± 0.013** |
+| R3 DCN-V2-style MLP | 0.526 ± 0.013 | 0.412 ± 0.013 |
+| **d1-omni-600M fine-tuned (joint)** | 0.524 | **0.483** |
+
+The fine-tuned d1 is on par with a tuned GBDT feature ranker (within its seed spread on test; slightly behind on val) — the RecSys lesson "tuned simple baselines are competitive" measured on our data. LightGBM's top features are train popularity of the key and p(zone | card), which d1 never sees explicitly; giving d1 those priors in the option text (or an ensemble) is the obvious next experiment. Tables in `docs/data/feature_ranker_v1.{json,md}` (supersede the deterministic-grid numbers).
+**Perception (overnight chain, detached):** 17 / 33 videos (6.6 / 12.0 match-hours) at 09:49; ≈ 0.7 match-hours per hour → done ≈ 17:30–18:00. The user chose to wait for it before the next live test.
+**In progress:** MAC-X (act-head sampler, learned play/wait policy, offline eval with a reaction-to-opponent slice).
