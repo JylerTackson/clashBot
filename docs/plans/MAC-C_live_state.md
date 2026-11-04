@@ -101,3 +101,11 @@ Per MAC-00 §5.
 ---
 ## Amendment 1 (Opus review, 2026-11-02) — FIX_LIST #8
 Event dedupe merges two unidentified plays (`card is None`) that share a rounded timestamp. Change the dedupe key to `(round(timestamp, 1), player, card, tuple(tile) if tile else None)`. Add a test: two opponent events at the same `t`, both `card=None`, tiles `[3, 20]` and `[14, 20]` → both appear in `opponent.recent_plays`; two identical events (same tile) → one.
+
+---
+## Amendment 2 (Opus, 2026-11-03) — FIX_LIST #21: keep the last confident hand through greyed frames (live only)
+Live match 2: on 6 of 25 decisions all four hand slots read `None` (unaffordable cards are drawn greyed and the matcher misses them); legal cards then fall back to the deck and the executor skips plays whose card is not in the read hand.
+1. `LiveConfig(..., hand_hold_s: float = 2.0)`. `LiveStateBuilder` remembers `self._last_hand = (t, hand)` whenever the built hand has ≥ 2 known slots.
+2. In `build`, if all four slots are `None` and `self._last_hand` is at most `hand_hold_s` old: use that hand, but set to `None` every slot whose card appears in an own event with `timestamp > t_last_hand` (the card was just played and has left the hand); set `own.hand_confidence = None`; add `"hand_reused": True` to a new optional `quality` dict returned as a third element? — **no**: keep the `(state, context_text)` contract; instead expose `self.last_hand_reused: bool` on the builder for the loop/logs.
+3. `hand_hold_s = 0` disables it. `reset()` clears `_last_hand`.
+4. Tests: all-None hand 1.0 s after a full read → previous hand reused; 2.5 s after → stays all-None; a card played after the last read is removed from the reused hand; `hand_hold_s=0` → no reuse; the parity round-trip tests still pass (dataset records have no previous hand inside the builder).
