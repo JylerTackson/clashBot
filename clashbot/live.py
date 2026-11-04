@@ -317,6 +317,7 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--device", choices=("cpu", "mps"), default=None)
     ap.add_argument("--ranker", choices=("score", "d1"), default="score")
     ap.add_argument("--d1-backend", choices=("mlx", "transformers"), default="mlx")
+    ap.add_argument("--d1-model", default=None, help="d1 model path / repo id (e.g. a fine-tuned checkpoint)")
     ap.add_argument("--planner", choices=("rules", "llm", "none"), default="rules")
     ap.add_argument("--seconds", type=float, default=60.0)
     ap.add_argument("--max-decisions", type=int, default=None)
@@ -356,7 +357,7 @@ def _build_perception(args, source):
 def _build_ranker(args):
     if args.ranker == "d1":
         from clashbot.ranker import D1Ranker
-        return D1Ranker(backend=args.d1_backend)
+        return D1Ranker(model_path=args.d1_model, backend=args.d1_backend)
     from clashbot.ranker import ScoreRanker
     return ScoreRanker()
 

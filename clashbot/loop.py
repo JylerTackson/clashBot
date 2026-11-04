@@ -98,7 +98,8 @@ def _load_game(game_id: str) -> tuple[dict, list[dict]]:
     return game, records
 
 
-def replay(game_id: str, limit: int | None = None, ranker_name: str = "score", d1_backend: str = "mlx") -> int:
+def replay(game_id: str, limit: int | None = None, ranker_name: str = "score", d1_backend: str = "mlx",
+           d1_model: str | None = None) -> int:
     game, records = _load_game(game_id)
     cards = load_cards()
     index = StateIndex()
@@ -108,7 +109,7 @@ def replay(game_id: str, limit: int | None = None, ranker_name: str = "score", d
     plan = RuleBasedPlanner().pregame(game["own_deck"], game.get("own_deck_key"))
     if ranker_name == "d1":
         from clashbot.ranker import D1Ranker
-        ranker = D1Ranker(backend=d1_backend)
+        ranker = D1Ranker(model_path=d1_model, backend=d1_backend)
     else:
         ranker = ScoreRanker()
     loop = FastLoop(generator, ranker, executor, load_placement_prior(), plan)
@@ -155,13 +156,14 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--ranker", choices=("score", "d1"), default="score")
     ap.add_argument("--d1-backend", choices=("mlx", "transformers"), default="mlx")
+    ap.add_argument("--d1-model", default=None, help="d1 model path / repo id (e.g. a fine-tuned checkpoint)")
     argv = list(sys.argv[1:] if argv is None else argv)
     for i, a in enumerate(argv[:-1]):      # game ids may start with "-": argparse would read them as options
         if a == "--replay":
             argv[i:i + 2] = [f"--replay={argv[i + 1]}"]
             break
     args = ap.parse_args(argv)
-    return replay(args.replay, args.limit, args.ranker, args.d1_backend)
+    return replay(args.replay, args.limit, args.ranker, args.d1_backend, args.d1_model)
 
 
 if __name__ == "__main__":
