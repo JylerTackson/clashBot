@@ -1,11 +1,13 @@
 """Zero-shot evaluation of d1-omni-600M on the exported d1 dataset (D-022, D-023, D-026; no fine-tuning).
 
   python3 tools/eval/eval_d1_zero_shot.py [--dataset DIR] [--backend mlx|transformers]
-          [--variant joint|factorized|both] [--splits val,test] [--limit N] [--out PATH]
+          [--variant joint|factorized|both] [--splits val,test] [--limit N] [--out PATH] [--model PATH]
   python3 tools/eval/eval_d1_zero_shot.py --compare OUT_A OUT_B     # no model: agreement of two result files
 
 Reads <dataset>/d1/<variant>/<split>.jsonl and sends each line's `state` / `questions` as exported.
 Writes <dataset>/eval/d1_zero_shot_<backend>.json (or --out) and prints markdown tables.
+--model PATH evaluates a fine-tuned checkpoint (tools/train/train_d1.py) instead; the default --out is then
+<dataset>/eval/d1_eval_<backend>_<basename(PATH)>.json.
 """
 from __future__ import annotations
 
@@ -187,6 +189,7 @@ def main(argv: list[str] | None = None) -> dict:
     ap.add_argument("--splits", default="val,test")
     ap.add_argument("--limit", type=int, default=None, help="first N lines per split and variant")
     ap.add_argument("--out", type=Path, default=None)
+    ap.add_argument("--model", default=None, help="checkpoint dir (fine-tuned d1) instead of the zero-shot weights")
     ap.add_argument("--compare", nargs=2, type=Path, metavar=("A", "B"))
     args = ap.parse_args(argv)
     if args.compare:
@@ -197,13 +200,15 @@ def main(argv: list[str] | None = None) -> dict:
     data = {(v, s): read_jsonl(args.dataset / "d1" / v / f"{s}.jsonl")[:args.limit]
             for v in variants for s in splits}
 
-    ranker = D1Ranker(backend=args.backend)
+    ranker = D1Ranker(model_path=args.model, backend=args.backend)
     first = next((lines[0] for lines in data.values() if lines), None)
     if first is not None:                                  # warm-up: model load + first call, not timed
         ranker.probabilities(first["state"], first["questions"])
 
     result: dict = {"backend": args.backend, "model_id": ranker.model_id, "variants": {},
                     "baselines": load_baselines(args.dataset, splits), "limit": args.limit, "per_example": []}
+    if args.model:
+        result["model_path"] = args.model
     for v in variants:
         result["variants"][v] = {}
         for s in splits:
@@ -211,7 +216,8 @@ def main(argv: list[str] | None = None) -> dict:
             result["variants"][v][s] = metrics
             result["per_example"].extend(per_example)
 
-    out = args.out or args.dataset / "eval" / f"d1_zero_shot_{args.backend}.json"
+    name = f"d1_eval_{args.backend}_{Path(args.model).name}" if args.model else f"d1_zero_shot_{args.backend}"
+    out = args.out or args.dataset / "eval" / f"{name}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(result, indent=1))
     print_tables(result)
