@@ -1,26 +1,33 @@
 {
   "train": {
-    "examples": 3764,
-    "skipped_no_negatives": 0,
+    "examples": 3641,
+    "skipped_no_grid": 123,
     "skipped_pos_impossible": 431,
     "mean_options": 4.0,
     "label_position_counts": {
-      "0": 951,
-      "1": 923,
-      "2": 925,
-      "3": 965
+      "0": 925,
+      "1": 887,
+      "2": 899,
+      "3": 930
     },
     "negative_source_counts": {
-      "N1": 4046,
-      "N2": 3646,
-      "N3": 3525,
-      "N5": 75
+      "G_card": 3641,
+      "G_diag": 3641,
+      "G_place": 3641
     },
-    "pos_in_legal_rate": 0.549,
+    "placement_variant_counts": {
+      "Z": 1201,
+      "L": 1189,
+      "B": 1251
+    },
+    "option_set_shortcut": 0.25,
+    "lane_only_rule": 0.2764,
+    "lane_zone_rule": 0.3359,
+    "pos_in_legal_rate": 0.542,
     "kind_counts": {
-      "key": 1623,
-      "periodic": 46,
-      "play": 2095
+      "key": 1547,
+      "periodic": 45,
+      "play": 2049
     },
     "act_counts": {
       "key": {
@@ -35,30 +42,42 @@
         "positives": 2367,
         "negatives": 0
       }
+    },
+    "p_pos_given_lane": {
+      "left": 0.2294,
+      "middle": 0.2822,
+      "right": 0.2283
     }
   },
   "val": {
-    "examples": 771,
-    "skipped_no_negatives": 0,
+    "examples": 761,
+    "skipped_no_grid": 10,
     "skipped_pos_impossible": 145,
     "mean_options": 4.0,
     "label_position_counts": {
-      "0": 199,
-      "1": 196,
-      "2": 207,
-      "3": 169
+      "0": 198,
+      "1": 194,
+      "2": 205,
+      "3": 164
     },
     "negative_source_counts": {
-      "N1": 807,
-      "N2": 756,
-      "N3": 733,
-      "N5": 17
+      "G_card": 761,
+      "G_diag": 761,
+      "G_place": 761
     },
-    "pos_in_legal_rate": 0.56,
+    "placement_variant_counts": {
+      "Z": 231,
+      "L": 267,
+      "B": 263
+    },
+    "option_set_shortcut": 0.25,
+    "lane_only_rule": 0.2658,
+    "lane_zone_rule": 0.3528,
+    "pos_in_legal_rate": 0.557,
     "kind_counts": {
-      "key": 269,
+      "key": 263,
       "periodic": 7,
-      "play": 495
+      "play": 491
     },
     "act_counts": {
       "key": {
@@ -76,27 +95,34 @@
     }
   },
   "test": {
-    "examples": 780,
-    "skipped_no_negatives": 0,
+    "examples": 766,
+    "skipped_no_grid": 14,
     "skipped_pos_impossible": 122,
     "mean_options": 4.0,
     "label_position_counts": {
-      "0": 193,
-      "1": 191,
-      "2": 205,
-      "3": 191
+      "0": 191,
+      "1": 182,
+      "2": 203,
+      "3": 190
     },
     "negative_source_counts": {
-      "N1": 801,
-      "N2": 745,
-      "N3": 748,
-      "N5": 46
+      "G_card": 766,
+      "G_diag": 766,
+      "G_place": 766
     },
-    "pos_in_legal_rate": 0.6,
+    "placement_variant_counts": {
+      "Z": 262,
+      "L": 251,
+      "B": 253
+    },
+    "option_set_shortcut": 0.25,
+    "lane_only_rule": 0.2722,
+    "lane_zone_rule": 0.3453,
+    "pos_in_legal_rate": 0.597,
     "kind_counts": {
-      "key": 308,
+      "key": 299,
       "periodic": 11,
-      "play": 461
+      "play": 456
     },
     "act_counts": {
       "key": {

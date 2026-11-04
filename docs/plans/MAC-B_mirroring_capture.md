@@ -114,3 +114,12 @@ Use `rect=WindowRect(0, 0, 300, 650)` and `check_permission=False` unless the te
 
 ## 8. Report
 Per MAC-00 §5.
+
+---
+## Amendment 1 (Opus, 2026-11-03) — FIX_LIST #17: capture the window itself (Quartz), at Retina resolution
+On the real Mac the mss region grab is 1× (316×696 px for a 316×696-point window) and contains other windows showing through the mirroring window's transparent margins. Capturing the window by id gives only its own pixels at 2× (verified by Opus: 632×1392, ~22 ms/grab, black margins that `detect_content_rect` strips).
+1. `find_mirroring_window_info(owner_hint=None, windows=None) -> dict | None`: same selection as `find_mirroring_window` but returns the whole window dict (incl. `window_id`); `find_mirroring_window` returns `info["rect"]` from it.
+2. `quartz_window_grab(window_id: int) -> np.ndarray`: `import Quartz` inside; `img = Quartz.CGWindowListCreateImage(Quartz.CGRectNull, Quartz.kCGWindowListOptionIncludingWindow, window_id, Quartz.kCGWindowImageBoundsIgnoreFraming | Quartz.kCGWindowImageBestResolution)`; `None` → `RuntimeError("window capture failed (window closed or no Screen Recording permission)")`; width/height/bytes-per-row via `CGImageGetWidth/Height/BytesPerRow`; bytes via `CGDataProviderCopyData(CGImageGetDataProvider(img))`; `np.frombuffer(..., np.uint8).reshape(h, bpr // 4, 4)[:, :w, :3].copy()` (BGRA → BGR).
+3. `MirroringSource(..., backend: str = "quartz", window_id: int | None = None)`: when `grab_fn` is None: `backend == "quartz"` and a window id is known (given, or from `find_mirroring_window_info` when `rect` is None) → `grab_fn = lambda mon: quartz_window_grab(self.window_id)`; otherwise the existing mss grab. A manual `rect` without `window_id` uses mss. Store `self.backend` (the one actually used) and `self.window_id`. On refind (`_auto`), use `find_mirroring_window_info` and update `window_id` too. `stats()` adds `"backend"`, `"window_id"`. Unknown backend → `ValueError`.
+4. `tools/benchmark_capture.py`: `--backend quartz|mss` (default quartz), passed through; `--list-windows` prints `window_id` too.
+5. Tests (fakes, no real capture): backend selection (quartz with a window id, mss fallback with a manual rect, bad backend raises); `quartz_window_grab` with a monkeypatched fake `Quartz` module in `sys.modules` (fake CGImage functions returning a 4×3 BGRA buffer with padding in bytes-per-row) → returns the right (4, 3, 3) BGR array; `None` image → `RuntimeError`; refind updates `window_id`; still no `CGEventCreate`/`CGEventPost` in the file.

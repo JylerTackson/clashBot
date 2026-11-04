@@ -1,0 +1,420 @@
+{
+  "synthetic": true,
+  "note": "SYNTHETIC balance change (D-034); no real patch is involved",
+  "selection": {
+    "mode": "auto",
+    "cards": [
+      "skeletons",
+      "berserker",
+      "goblin-barrel",
+      "electro-spirit",
+      "cannon"
+    ],
+    "train_play_counts": {
+      "skeletons": 381,
+      "berserker": 262,
+      "goblin-barrel": 225,
+      "electro-spirit": 222,
+      "cannon": 207
+    }
+  },
+  "edits": [
+    {
+      "edit": {
+        "card": "skeletons",
+        "attribute": "elixir_cost",
+        "old": 1.0,
+        "new": 2.0,
+        "patch": "P1",
+        "synthetic": true,
+        "note": "SYNTHETIC balance change (D-034); no real patch is involved"
+      },
+      "criteria": {
+        "reliability": {
+          "n": 3,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "edited_pass": 3,
+          "no_edit_pass": 0
+        },
+        "generalization": {
+          "n": 26,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "n_in_hand": 8,
+          "n_possible": 26,
+          "edited_pass": 26,
+          "no_edit_pass": 0
+        },
+        "locality_cards": {
+          "n": 500,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 500,
+          "no_edit_pass": 500
+        },
+        "locality_states": {
+          "n": 300,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 300,
+          "no_edit_pass": 300
+        },
+        "portability": {
+          "n": 26,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "n_in_hand": 8,
+          "n_possible": 26,
+          "edited_pass": 26,
+          "no_edit_pass": 0
+        }
+      },
+      "conflict": {
+        "n": 300,
+        "before": 0.1547,
+        "after": 0.002,
+        "sum_before": 46.4,
+        "sum_after": 0.6000000000000001,
+        "pool": 30,
+        "top_k": 10,
+        "stale": [
+          "skeletons"
+        ]
+      },
+      "versioning": true,
+      "rollback": true
+    },
+    {
+      "edit": {
+        "card": "berserker",
+        "attribute": "elixir_cost",
+        "old": 2.0,
+        "new": 3.0,
+        "patch": "P1",
+        "synthetic": true,
+        "note": "SYNTHETIC balance change (D-034); no real patch is involved"
+      },
+      "criteria": {
+        "reliability": {
+          "n": 3,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "edited_pass": 3,
+          "no_edit_pass": 0
+        },
+        "generalization": {
+          "n": 259,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "n_in_hand": 60,
+          "n_possible": 259,
+          "edited_pass": 259,
+          "no_edit_pass": 0
+        },
+        "locality_cards": {
+          "n": 500,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 500,
+          "no_edit_pass": 500
+        },
+        "locality_states": {
+          "n": 300,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 300,
+          "no_edit_pass": 300
+        },
+        "portability": {
+          "n": 259,
+          "edited": 1.0,
+          "no_edit": 0.0927,
+          "n_in_hand": 60,
+          "n_possible": 259,
+          "edited_pass": 259,
+          "no_edit_pass": 24
+        }
+      },
+      "conflict": {
+        "n": 300,
+        "before": 0.1017,
+        "after": 0.0003,
+        "sum_before": 30.5,
+        "sum_after": 0.1,
+        "pool": 30,
+        "top_k": 10,
+        "stale": [
+          "berserker"
+        ]
+      },
+      "versioning": true,
+      "rollback": true
+    },
+    {
+      "edit": {
+        "card": "goblin-barrel",
+        "attribute": "elixir_cost",
+        "old": 3.0,
+        "new": 4.0,
+        "patch": "P1",
+        "synthetic": true,
+        "note": "SYNTHETIC balance change (D-034); no real patch is involved"
+      },
+      "criteria": {
+        "reliability": {
+          "n": 3,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "edited_pass": 3,
+          "no_edit_pass": 0
+        },
+        "generalization": {
+          "n": 128,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "n_in_hand": 58,
+          "n_possible": 128,
+          "edited_pass": 128,
+          "no_edit_pass": 0
+        },
+        "locality_cards": {
+          "n": 500,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 500,
+          "no_edit_pass": 500
+        },
+        "locality_states": {
+          "n": 300,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 300,
+          "no_edit_pass": 300
+        },
+        "portability": {
+          "n": 128,
+          "edited": 1.0,
+          "no_edit": 0.0312,
+          "n_in_hand": 58,
+          "n_possible": 128,
+          "edited_pass": 128,
+          "no_edit_pass": 4
+        }
+      },
+      "conflict": {
+        "n": 300,
+        "before": 0.1627,
+        "after": 0.0047,
+        "sum_before": 48.800000000000004,
+        "sum_after": 1.4000000000000001,
+        "pool": 30,
+        "top_k": 10,
+        "stale": [
+          "goblin-barrel"
+        ]
+      },
+      "versioning": true,
+      "rollback": true
+    },
+    {
+      "edit": {
+        "card": "electro-spirit",
+        "attribute": "elixir_cost",
+        "old": 1.0,
+        "new": 2.0,
+        "patch": "P1",
+        "synthetic": true,
+        "note": "SYNTHETIC balance change (D-034); no real patch is involved"
+      },
+      "criteria": {
+        "reliability": {
+          "n": 3,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "edited_pass": 3,
+          "no_edit_pass": 0
+        },
+        "generalization": {
+          "n": 26,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "n_in_hand": 8,
+          "n_possible": 26,
+          "edited_pass": 26,
+          "no_edit_pass": 0
+        },
+        "locality_cards": {
+          "n": 500,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 500,
+          "no_edit_pass": 500
+        },
+        "locality_states": {
+          "n": 300,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 300,
+          "no_edit_pass": 300
+        },
+        "portability": {
+          "n": 26,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "n_in_hand": 8,
+          "n_possible": 26,
+          "edited_pass": 26,
+          "no_edit_pass": 0
+        }
+      },
+      "conflict": {
+        "n": 193,
+        "before": 0.0839,
+        "after": 0.001,
+        "sum_before": 16.2,
+        "sum_after": 0.2,
+        "pool": 30,
+        "top_k": 10,
+        "stale": [
+          "electro-spirit"
+        ]
+      },
+      "versioning": true,
+      "rollback": true
+    },
+    {
+      "edit": {
+        "card": "cannon",
+        "attribute": "elixir_cost",
+        "old": 3.0,
+        "new": 4.0,
+        "patch": "P1",
+        "synthetic": true,
+        "note": "SYNTHETIC balance change (D-034); no real patch is involved"
+      },
+      "criteria": {
+        "reliability": {
+          "n": 3,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "edited_pass": 3,
+          "no_edit_pass": 0
+        },
+        "generalization": {
+          "n": 26,
+          "edited": 1.0,
+          "no_edit": 0.0,
+          "n_in_hand": 18,
+          "n_possible": 26,
+          "edited_pass": 26,
+          "no_edit_pass": 0
+        },
+        "locality_cards": {
+          "n": 500,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 500,
+          "no_edit_pass": 500
+        },
+        "locality_states": {
+          "n": 300,
+          "edited": 1.0,
+          "no_edit": 1.0,
+          "edited_pass": 300,
+          "no_edit_pass": 300
+        },
+        "portability": {
+          "n": 26,
+          "edited": 1.0,
+          "no_edit": 0.1154,
+          "n_in_hand": 18,
+          "n_possible": 26,
+          "edited_pass": 26,
+          "no_edit_pass": 3
+        }
+      },
+      "conflict": {
+        "n": 152,
+        "before": 0.0836,
+        "after": 0.0013,
+        "sum_before": 12.700000000000001,
+        "sum_after": 0.2,
+        "pool": 30,
+        "top_k": 10,
+        "stale": [
+          "cannon"
+        ]
+      },
+      "versioning": true,
+      "rollback": true
+    }
+  ],
+  "pooled": {
+    "reliability": {
+      "n": 15,
+      "edited": 1.0,
+      "no_edit": 0.0,
+      "edited_pass": 15,
+      "no_edit_pass": 0
+    },
+    "generalization": {
+      "n": 465,
+      "edited": 1.0,
+      "no_edit": 0.0,
+      "n_in_hand": 152,
+      "n_possible": 465,
+      "edited_pass": 465,
+      "no_edit_pass": 0
+    },
+    "locality_cards": {
+      "n": 2500,
+      "edited": 1.0,
+      "no_edit": 1.0,
+      "edited_pass": 2500,
+      "no_edit_pass": 2500
+    },
+    "locality_states": {
+      "n": 1500,
+      "edited": 1.0,
+      "no_edit": 1.0,
+      "edited_pass": 1500,
+      "no_edit_pass": 1500
+    },
+    "portability": {
+      "n": 465,
+      "edited": 1.0,
+      "no_edit": 0.0667,
+      "n_in_hand": 152,
+      "n_possible": 465,
+      "edited_pass": 465,
+      "no_edit_pass": 31
+    }
+  },
+  "conflict_pooled": {
+    "n": 1245,
+    "before": 0.1242,
+    "after": 0.002,
+    "pool": 30,
+    "top_k": 10,
+    "stale": [
+      "berserker",
+      "cannon",
+      "electro-spirit",
+      "goblin-barrel",
+      "skeletons"
+    ]
+  },
+  "versioning": true,
+  "rollback": true,
+  "config": {
+    "dataset": "dataset/v1",
+    "db": "db/clashbot.sqlite",
+    "n_probe": 300,
+    "patch": "P1",
+    "probe_splits": [
+      "val",
+      "test"
+    ]
+  }
+}

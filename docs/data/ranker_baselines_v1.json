@@ -1,52 +1,52 @@
 {
-  "note": "knn_vote is not reported on the multiple-choice files: their N1 negatives are mined from the same kNN neighbours. It is evaluated fairly in candidate_recall over all possible action keys.",
+  "note": "knn_vote is not reported on the 4-way files: the second card of each 2x2 grid is mined from kNN neighbours. It is evaluated fairly in candidate_recall over all possible action keys.",
   "candidate_recall": {
     "val": {
       "knn_vote": {
-        "n": 771,
-        "recall@1": 0.0687,
-        "recall@3": 0.1855,
-        "recall@5": 0.2477,
-        "recall@10": 0.3658,
-        "card_recall@1": 0.2322,
-        "card_recall@3": 0.463,
-        "card_recall@5": 0.585,
-        "card_recall@10": 0.7224
+        "n": 761,
+        "recall@1": 0.0696,
+        "recall@3": 0.1827,
+        "recall@5": 0.2444,
+        "recall@10": 0.3614,
+        "card_recall@1": 0.2273,
+        "card_recall@3": 0.4573,
+        "card_recall@5": 0.5808,
+        "card_recall@10": 0.7201
       },
       "popularity": {
-        "n": 771,
-        "recall@1": 0.083,
-        "recall@3": 0.1984,
-        "recall@5": 0.3243,
-        "recall@10": 0.5032,
-        "card_recall@1": 0.2218,
-        "card_recall@3": 0.3761,
-        "card_recall@5": 0.5058,
-        "card_recall@10": 0.677
+        "n": 761,
+        "recall@1": 0.0815,
+        "recall@3": 0.1919,
+        "recall@5": 0.3193,
+        "recall@10": 0.4993,
+        "card_recall@1": 0.2155,
+        "card_recall@3": 0.3706,
+        "card_recall@5": 0.502,
+        "card_recall@10": 0.6728
       }
     },
     "test": {
       "knn_vote": {
-        "n": 780,
-        "recall@1": 0.0705,
-        "recall@3": 0.159,
-        "recall@5": 0.2167,
-        "recall@10": 0.3167,
-        "card_recall@1": 0.2397,
-        "card_recall@3": 0.4577,
-        "card_recall@5": 0.5577,
-        "card_recall@10": 0.6513
+        "n": 766,
+        "recall@1": 0.0718,
+        "recall@3": 0.158,
+        "recall@5": 0.2154,
+        "recall@10": 0.3172,
+        "card_recall@1": 0.2428,
+        "card_recall@3": 0.4595,
+        "card_recall@5": 0.5574,
+        "card_recall@10": 0.6514
       },
       "popularity": {
-        "n": 780,
+        "n": 766,
         "recall@1": 0.0705,
-        "recall@3": 0.1551,
-        "recall@5": 0.2397,
-        "recall@10": 0.4077,
-        "card_recall@1": 0.1987,
-        "card_recall@3": 0.3256,
-        "card_recall@5": 0.4538,
-        "card_recall@10": 0.6128
+        "recall@3": 0.1488,
+        "recall@5": 0.2337,
+        "recall@10": 0.4021,
+        "card_recall@1": 0.1984,
+        "card_recall@3": 0.3211,
+        "card_recall@5": 0.4504,
+        "card_recall@10": 0.607
       }
     }
   },
@@ -54,11 +54,11 @@
     "val": {
       "random_expected": {
         "acc": 0.25,
-        "n": 771,
+        "n": 761,
         "by_kind": {
           "key": {
             "acc": 0.25,
-            "n": 269
+            "n": 263
           },
           "periodic": {
             "acc": 0.25,
@@ -66,79 +66,97 @@
           },
           "play": {
             "acc": 0.25,
-            "n": 495
+            "n": 491
           }
         }
       },
       "popularity": {
-        "acc": 0.3087,
-        "n": 771,
+        "acc": 0.4678,
+        "n": 761,
         "by_kind": {
           "key": {
-            "acc": 0.3309,
-            "n": 269
+            "acc": 0.4373,
+            "n": 263
           },
           "periodic": {
-            "acc": 0.2857,
+            "acc": 0.5714,
             "n": 7
           },
           "play": {
-            "acc": 0.297,
-            "n": 495
+            "acc": 0.4827,
+            "n": 491
           }
         }
       },
       "popularity_by_phase": {
-        "acc": 0.31,
-        "n": 771,
+        "acc": 0.4481,
+        "n": 761,
         "by_kind": {
           "key": {
-            "acc": 0.3123,
-            "n": 269
+            "acc": 0.4068,
+            "n": 263
+          },
+          "periodic": {
+            "acc": 0.4286,
+            "n": 7
+          },
+          "play": {
+            "acc": 0.4705,
+            "n": 491
+          }
+        }
+      },
+      "card_popularity_in_deck": {
+        "acc": 0.2326,
+        "n": 761,
+        "by_kind": {
+          "key": {
+            "acc": 0.2091,
+            "n": 263
           },
           "periodic": {
             "acc": 0.2857,
             "n": 7
           },
           "play": {
-            "acc": 0.3091,
-            "n": 495
-          }
-        }
-      },
-      "card_popularity_in_deck": {
-        "acc": 0.1881,
-        "n": 771,
-        "by_kind": {
-          "key": {
-            "acc": 0.171,
-            "n": 269
-          },
-          "periodic": {
-            "acc": 0.1429,
-            "n": 7
-          },
-          "play": {
-            "acc": 0.198,
-            "n": 495
+            "acc": 0.2444,
+            "n": 491
           }
         }
       },
       "placement_prior": {
-        "acc": 0.3748,
-        "n": 771,
+        "acc": 0.4928,
+        "n": 761,
         "by_kind": {
           "key": {
-            "acc": 0.4535,
-            "n": 269
+            "acc": 0.5247,
+            "n": 263
           },
           "periodic": {
             "acc": 0.7143,
             "n": 7
           },
           "play": {
-            "acc": 0.3273,
-            "n": 495
+            "acc": 0.4725,
+            "n": 491
+          }
+        }
+      },
+      "option_set_shortcut": {
+        "acc": 0.25,
+        "n": 761,
+        "by_kind": {
+          "key": {
+            "acc": 0.25,
+            "n": 263
+          },
+          "periodic": {
+            "acc": 0.25,
+            "n": 7
+          },
+          "play": {
+            "acc": 0.25,
+            "n": 491
           }
         }
       }
@@ -146,11 +164,11 @@
     "test": {
       "random_expected": {
         "acc": 0.25,
-        "n": 780,
+        "n": 766,
         "by_kind": {
           "key": {
             "acc": 0.25,
-            "n": 308
+            "n": 299
           },
           "periodic": {
             "acc": 0.25,
@@ -158,79 +176,97 @@
           },
           "play": {
             "acc": 0.25,
-            "n": 461
+            "n": 456
           }
         }
       },
       "popularity": {
-        "acc": 0.2538,
-        "n": 780,
+        "acc": 0.3251,
+        "n": 766,
         "by_kind": {
           "key": {
-            "acc": 0.2468,
-            "n": 308
+            "acc": 0.3244,
+            "n": 299
           },
           "periodic": {
-            "acc": 0.4545,
+            "acc": 0.3636,
             "n": 11
           },
           "play": {
-            "acc": 0.2538,
-            "n": 461
+            "acc": 0.3246,
+            "n": 456
           }
         }
       },
       "popularity_by_phase": {
-        "acc": 0.2,
-        "n": 780,
+        "acc": 0.299,
+        "n": 766,
         "by_kind": {
           "key": {
-            "acc": 0.1948,
-            "n": 308
-          },
-          "periodic": {
-            "acc": 0.2727,
-            "n": 11
-          },
-          "play": {
-            "acc": 0.2017,
-            "n": 461
-          }
-        }
-      },
-      "card_popularity_in_deck": {
-        "acc": 0.1885,
-        "n": 780,
-        "by_kind": {
-          "key": {
-            "acc": 0.1818,
-            "n": 308
+            "acc": 0.2776,
+            "n": 299
           },
           "periodic": {
             "acc": 0.4545,
             "n": 11
           },
           "play": {
-            "acc": 0.1866,
-            "n": 461
+            "acc": 0.3092,
+            "n": 456
+          }
+        }
+      },
+      "card_popularity_in_deck": {
+        "acc": 0.2428,
+        "n": 766,
+        "by_kind": {
+          "key": {
+            "acc": 0.2207,
+            "n": 299
+          },
+          "periodic": {
+            "acc": 0.3636,
+            "n": 11
+          },
+          "play": {
+            "acc": 0.2544,
+            "n": 456
           }
         }
       },
       "placement_prior": {
-        "acc": 0.3628,
-        "n": 780,
+        "acc": 0.3838,
+        "n": 766,
         "by_kind": {
           "key": {
-            "acc": 0.3831,
-            "n": 308
+            "acc": 0.4281,
+            "n": 299
           },
           "periodic": {
-            "acc": 0.2727,
+            "acc": 0.3636,
             "n": 11
           },
           "play": {
-            "acc": 0.3514,
-            "n": 461
+            "acc": 0.3553,
+            "n": 456
+          }
+        }
+      },
+      "option_set_shortcut": {
+        "acc": 0.25,
+        "n": 766,
+        "by_kind": {
+          "key": {
+            "acc": 0.25,
+            "n": 299
+          },
+          "periodic": {
+            "acc": 0.25,
+            "n": 11
+          },
+          "play": {
+            "acc": 0.25,
+            "n": 456
           }
         }
       }

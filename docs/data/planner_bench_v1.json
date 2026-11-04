@@ -1,0 +1,114 @@
+{
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "load_s": 4.27,
+  "decks": [
+    {
+      "deck_key": "archers-barbarian-barrel-bomb-tower-electro-spirit-goblinstein-lightning-royal-hogs-skeletons",
+      "game_id": "5nOaTBlYLlg-m0.0",
+      "pregame_s": 3.34,
+      "steps": 0,
+      "tool_calls": 0,
+      "tools_used": {},
+      "tool_errors": 0,
+      "plan_chars": 374,
+      "source": "llm",
+      "plan": "Win condition: Evolved Royal Hogs to destroy opponent's ground and air pressure.\nSave 3 Elixir for 4-card Skeleton/Electro Spirit/Barbarian Barrel cycle.\nPreferred lane: Top lane to pressure early with Bomb Tower and Goblinstein.\nDefend Royal Hogs with Bomb Tower's 1.5 splash and early Skeletons.\nStop spending when opponent's 3+ Elixir push is blocked or Hogs are engaged.",
+      "update_s": 2.56,
+      "update": {
+        "t": 6.0,
+        "source": "llm",
+        "tool_calls": 0,
+        "changed": true,
+        "plan": "Maintain top lane pressure with Bomb Tower and Goblinstein.\nUse Electro Spirit to counter enemy air threats.\nDeploy Royal Hogs with Skeletons for ground control.\nSave 3 elixir for 4-card cycle to disrupt enemy pushes.\nDefend Hogs with Bomb Tower’s splash if engaged."
+      }
+    },
+    {
+      "deck_key": "archers-bats-bomb-tower-fire-spirit-magic-archer-skeletons-the-log-wall-breakers",
+      "game_id": "-V4H_YeMGGk-m0.4",
+      "pregame_s": 2.56,
+      "steps": 0,
+      "tool_calls": 0,
+      "tools_used": {},
+      "tool_errors": 0,
+      "plan_chars": 291,
+      "source": "llm",
+      "plan": "Win by cycling and denying expansion through early pressure. Save 2nd spell for Wall Breakers to counter tower builds. Push the left lane with Archers and Magic Archer. Defend Graveyard with Skeletons and Fire Spirit to absorb swarms. Stop spending when opponent has no more towers to build.",
+      "update_s": 2.63,
+      "update": {
+        "t": 991.8,
+        "source": "llm",
+        "tool_calls": 0,
+        "changed": true,
+        "plan": "Maintain early pressure with Archers and Magic Archer.\nUse Wall Breakers on tower builds to deny expansion.\nPush left lane with Bats and Skeletons for wave control.\nDefend Graveyard with Fire Spirit to absorb swarms.\nHold 2nd spell until enemy has no towers to build."
+      }
+    },
+    {
+      "deck_key": "archers-berserker-bomb-tower-goblinstein-magic-archer-royal-delivery-tornado-wall-breakers",
+      "game_id": "-V4H_YeMGGk-m0.0",
+      "pregame_s": 3.31,
+      "steps": 0,
+      "tool_calls": 0,
+      "tools_used": {},
+      "tool_errors": 0,
+      "plan_chars": 401,
+      "source": "llm",
+      "plan": "Win by destroying opponent's core with Wall Breakers after Tornado and Bomb Tower setup.\nSave Royal Delivery for single bridge-crossers; save Berserker for 2-elixir threats.\nPush central lane with Tornado and Bomb Tower; defend with Wall Breakers.\nCounter opponent's Wall Breakers by using Goblinstein to split and absorb.\nStop spending when opponent's core is under pressure and 3+ cards are in play.",
+      "update_s": 2.77,
+      "update": {
+        "t": 8.0,
+        "source": "llm",
+        "tool_calls": 0,
+        "changed": true,
+        "plan": "Plan remains: Push central lane with Tornado and Bomb Tower.\nUse Goblinstein to split and absorb opponent's Wall Breakers.\nSave Royal Delivery for single bridge-crossers.\nMaintain pressure with 3+ cards in play; stop spending when core is under threat.\nDefend with Wall Breakers after Tornado and Bomb Tower setup."
+      }
+    },
+    {
+      "deck_key": "archers-berserker-electro-spirit-fireball-skeletons-tesla-the-log-x-bow",
+      "game_id": "SsOmbv1PfUg-m0.0",
+      "pregame_s": 3.56,
+      "steps": 0,
+      "tool_calls": 0,
+      "tools_used": {},
+      "tool_errors": 0,
+      "plan_chars": 382,
+      "source": "llm",
+      "plan": "Use Berserker's Savage Survival to protect X-Bow from early attacks.\nSave Tesla for late-game pushes; use Evo Archers to pressure mid-lane.\nDefend the X-Bow with Berserker and Electro Spirit to counter high-damage spells.\nStop spending when opponent's 2-elixir cards are dropped and X-Bow is under siege.\nWin by forcing opponent into a 5-second gap with X-Bow and Berserker synergy.",
+      "update_s": 2.98,
+      "update": {
+        "t": 8.0,
+        "source": "llm",
+        "tool_calls": 0,
+        "changed": true,
+        "plan": "Berserker's Savage Survival still protects X-Bow from early spikes.\nUse Electro Spirit to counter enemy fireball or high-damage spells.\nHold Tesla until mid-game when enemy lacks counters.\nIf enemy drops 2-elixir, deploy Evo Archers to pressure.\nMaintain X-Bow and Berserker synergy to force 5-second gap."
+      }
+    },
+    {
+      "deck_key": "arrows-battle-ram-elite-barbarians-heal-spirit-mother-witch-royal-ghost-valkyrie-zappies",
+      "game_id": "5nOaTBlYLlg-m0.5",
+      "pregame_s": 3.1,
+      "steps": 0,
+      "tool_calls": 0,
+      "tools_used": {},
+      "tool_errors": 0,
+      "plan_chars": 353,
+      "source": "llm",
+      "plan": "Win by forcing opponent into overcommitting with Royal Ghost and Arrows.\nSave Royal Ghost for Dark Prince, Arrows for early goblin spam.\nTake the middle lane to counter bridge spam and goblin waves.\nDefend against Skeleton Army and Princess with Mother Witch and Battle-Ram.\nStop spending when opponent plays 3+ cards in a row or after 1000 health loss.",
+      "update_s": 2.4,
+      "update": {
+        "t": 1672.5,
+        "source": "llm",
+        "tool_calls": 0,
+        "changed": true,
+        "plan": "Keep Royal Ghost for Dark Prince.\nUse Arrows early to pressure goblin waves.\nMother Witch counters Skeleton Army.\nBattle-Ram defends against bridge spam.\nWatch for 3+ card plays—spend only if health drops below 1000."
+      }
+    }
+  ],
+  "summary": {
+    "pregame_s_p50": 3.31,
+    "pregame_s_max": 3.56,
+    "update_s_p50": 2.63,
+    "mean_tool_calls": 0.0,
+    "tool_error_rate": 0.0,
+    "fallbacks": 0
+  }
+}

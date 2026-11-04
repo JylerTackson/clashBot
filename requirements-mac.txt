@@ -1,0 +1,30 @@
+# Apple-silicon Mac (M5, macOS 26, Python 3.12) — versions verified 2026-11-02 (D-025, D-028).
+# Setup notes (docs/mac/STATUS.md):
+#   - hnswlib builds from source: use Apple clang, not Anaconda's
+#       CC=/usr/bin/clang CXX=/usr/bin/clang++ pip install hnswlib
+#   - LightGBM needs OpenMP: brew install libomp  (run LightGBM with n_jobs=1 next to torch)
+#   - the default torch wheel includes MPS
+torch==2.15.0
+torchvision==0.29.2
+numpy==2.5.4
+scipy==1.18.1
+opencv-python-headless==5.0.0.93
+pillow==13.0.0
+onnxruntime==1.31.1
+rapidocr-onnxruntime==1.4.4
+ultralytics==8.1.24          # KataCR checkpoints unpickle against this API
+mss==10.2.0                  # screen capture (iPhone Mirroring window)
+pyobjc-framework-Quartz==13.0  # window lookup; taps only via clashbot/executor.py behind the live guard (D-031)
+hnswlib==0.8.0
+tokenizers==0.23.3
+pytest==9.2.0
+yt-dlp==2026.10.26
+# models (D-026, D-027) and research packages (D-028)
+mlx==0.32.4
+mlx-lm==0.32.2               # Qwen3-4B-Instruct-2507 4-bit planner
+mlx-vlm==0.7.11              # d1-omni-600M MLX fp16 (default ranker backend)
+transformers==5.22.1         # d1-omni-600M reference backend (trust_remote_code)
+soundfile==0.14.0            # imported by d1's remote code
+sentence-transformers==6.2.0 # bge-small text-embedding channel (R1)
+pykeen==1.11.1               # KG embeddings (R2)
+lightgbm==4.7.0              # feature ranker (R3)
