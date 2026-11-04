@@ -318,6 +318,89 @@ def test_events_stay_sorted_when_observed_late():
     assert [p["t"] for p in state["own"]["recent_plays"]] == [92.0, 98.0]
 
 
+# --------------------------------------------------------------------------- hand hold (FIX_LIST #21)
+
+FULL_HAND = ("tornado", "berserker", "archers", "bomb-tower")
+GREY = (None, None, None, None)
+
+
+def test_greyed_hand_reuses_last_confident_hand():
+    b = builder()
+    assert b.build(make_gs(100.0, hand=FULL_HAND))[0]["own"]["hand"] == list(FULL_HAND)
+    assert b.last_hand_reused is False
+    state, text = b.build(make_gs(101.0, hand=GREY, hand_conf=()))
+    assert state["own"]["hand"] == list(FULL_HAND)
+    assert state["own"]["hand_confidence"] is None
+    assert b.last_hand_reused is True
+    assert text == render_context(state, 101.0)
+    assert list(state["own"]) == OWN_KEYS                           # (state, context_text) contract unchanged
+    b.build(make_gs(102.0, hand=FULL_HAND))                         # a fresh read clears the flag
+    assert b.last_hand_reused is False
+
+
+def test_greyed_hand_stays_empty_after_hold_window():
+    b = builder()
+    b.build(make_gs(100.0, hand=FULL_HAND))
+    state, _ = b.build(make_gs(102.5, hand=GREY, hand_conf=()))
+    assert state["own"]["hand"] == [None] * 4 and b.last_hand_reused is False
+    state, _ = b.build(make_gs(102.0, hand=GREY, hand_conf=()).to_json())   # exactly hand_hold_s: still held
+    assert state["own"]["hand"] == list(FULL_HAND) and b.last_hand_reused is True
+
+
+def test_reused_hand_drops_cards_played_since_the_read():
+    b = builder()
+    b.build(make_gs(100.0, hand=FULL_HAND))
+    b.observe_events([make_ev(99.5, card="archers"),                # before the read: already reflected in it
+                      make_ev(100.5, card="tornado"),
+                      make_ev(100.6, "opponent", "berserker", (3, 20))])  # opponent plays do not matter
+    state, _ = b.build(make_gs(101.0, hand=GREY, hand_conf=()))
+    assert state["own"]["hand"] == [None, "berserker", "archers", "bomb-tower"]
+    assert b.last_hand_reused is True
+    b.observe_events([make_ev(100.8, card="berserker"), make_ev(100.9, card="archers"),
+                      make_ev(100.95, card="bomb-tower")])
+    state, _ = b.build(make_gs(101.0, hand=GREY, hand_conf=()))     # nothing left to reuse
+    assert state["own"]["hand"] == [None] * 4 and b.last_hand_reused is False
+
+
+def test_hand_hold_disabled_and_partial_reads_not_reused():
+    b = builder(hand_hold_s=0)
+    b.build(make_gs(100.0, hand=FULL_HAND))
+    state, _ = b.build(make_gs(100.5, hand=GREY, hand_conf=()))
+    assert state["own"]["hand"] == [None] * 4 and b.last_hand_reused is False
+    b2 = builder()
+    assert b2.build(make_gs(100.0, hand=GREY, hand_conf=()))[0]["own"]["hand"] == [None] * 4   # nothing to reuse yet
+    assert b2.last_hand_reused is False
+    b2.build(make_gs(101.0, hand=("tornado", None, None, None), hand_conf=(0.9,)))  # 1 known slot: not remembered
+    assert b2.build(make_gs(101.5, hand=GREY, hand_conf=()))[0]["own"]["hand"] == [None] * 4
+    state, _ = b2.build(make_gs(102.0, hand=("tornado", None, "archers", None), hand_conf=(0.9, 0.9)))
+    assert state["own"]["hand_confidence"] == 0.9
+    state, _ = b2.build(make_gs(102.5, hand=("berserker", None, None, None), hand_conf=(0.9,)))
+    assert state["own"]["hand"] == ["berserker", None, None, None] and b2.last_hand_reused is False
+
+
+def test_reused_hand_does_not_extend_the_hold_and_reset_clears_it():
+    b = builder()
+    b.build(make_gs(100.0, hand=FULL_HAND))
+    assert b.build(make_gs(101.5, hand=GREY, hand_conf=()))[0]["own"]["hand"] == list(FULL_HAND)
+    assert b.build(make_gs(103.0, hand=GREY, hand_conf=()))[0]["own"]["hand"] == [None] * 4   # 3.0 s after the read
+    b.build(make_gs(110.0, hand=FULL_HAND))
+    b.reset()
+    assert b.build(make_gs(110.5, hand=GREY, hand_conf=()))[0]["own"]["hand"] == [None] * 4
+    assert b.last_hand_reused is False
+    b.build(make_gs(120.0, match_id=1, hand=FULL_HAND))
+    state, _ = b.build(make_gs(120.5, match_id=2, hand=GREY, hand_conf=()))   # a new match forgets the old hand
+    assert state["own"]["hand"] == [None] * 4 and b.last_hand_reused is False
+
+
+def test_last_hand_reused_resets_when_build_returns_none():
+    b = builder()
+    b.build(make_gs(100.0, hand=FULL_HAND))
+    b.build(make_gs(101.0, hand=GREY, hand_conf=()))
+    assert b.last_hand_reused is True
+    assert b.build(make_gs(101.5, readiness="menu")) is None
+    assert b.last_hand_reused is False
+
+
 # --------------------------------------------------------------------------- 9: real-data round trip
 
 DATASET_STATES = DATASET_DIR / "states.jsonl"
