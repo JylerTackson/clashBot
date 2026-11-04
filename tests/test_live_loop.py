@@ -428,6 +428,7 @@ def test_cli_defaults():
     assert args.fps == 10 and args.ranker == "score" and args.source == "mirroring"
     assert args.detector == "katacr" and args.detect_every == 3 and args.imgsz == 640
     assert args.planner == "rules" and args.d1_backend == "mlx" and args.seconds == 60
+    assert args.d1_model is None
     assert args.max_decisions is None and args.out is None and args.hero_cards == ""
     assert args.min_gap == 1.0 and args.sync_ocr is False
     assert build_parser().parse_args(_argv("--live")).live is True
@@ -480,9 +481,94 @@ def test_loop_cli_accepts_ranker_flags(monkeypatch):
     monkeypatch.setattr(loop_mod, "replay", lambda *a: seen.append(a) or 0)
     assert loop_mod.main(["--replay", "-abc", "--ranker", "d1", "--d1-backend", "transformers"]) == 0
     assert loop_mod.main(["--replay", "xyz", "--limit", "3"]) == 0
-    assert seen == [("-abc", None, "d1", "transformers"), ("xyz", 3, "score", "mlx")]
+    assert loop_mod.main(["--replay", "xyz", "--ranker", "d1", "--d1-model", "/m/ft"]) == 0
+    assert seen == [("-abc", None, "d1", "transformers", None), ("xyz", 3, "score", "mlx", None),
+                    ("xyz", None, "d1", "mlx", "/m/ft")]
     with pytest.raises(SystemExit):
         loop_mod.main(["--replay", "xyz", "--ranker", "bogus"])
+
+
+# Amendment 4: --d1-model reaches D1Ranker from both CLIs (D1Ranker is monkeypatched: no model is ever loaded) ------
+class RecordingD1:
+    """Stand-in for clashbot.ranker.D1Ranker: records its constructor kwargs, scores like candidate 0."""
+    inits: list = []
+
+    def __init__(self, **kwargs):
+        RecordingD1.inits.append(kwargs)
+
+    def choose_keys(self, context, keys, plan=None):
+        return RankResult(0, [1.0] + [0.0] * (len(keys) - 1), "recording")
+
+
+def test_d1_model_defaults_to_none_in_both_parsers():
+    assert build_parser().parse_args(_argv()).d1_model is None
+    assert build_parser().parse_args(_argv("--ranker", "d1", "--d1-model", "/m/ft")).d1_model == "/m/ft"
+
+
+def test_live_build_ranker_passes_d1_model(monkeypatch):
+    import clashbot.live as live_mod
+    import clashbot.ranker as ranker_mod
+
+    RecordingD1.inits = []
+    monkeypatch.setattr(ranker_mod, "D1Ranker", RecordingD1)
+    args = build_parser().parse_args(_argv("--ranker", "d1", "--d1-model", "/m/ft", "--d1-backend", "transformers"))
+    assert isinstance(live_mod._build_ranker(args), RecordingD1)
+    live_mod._build_ranker(build_parser().parse_args(_argv("--ranker", "d1")))
+    assert RecordingD1.inits == [{"model_path": "/m/ft", "backend": "transformers"},
+                                 {"model_path": None, "backend": "mlx"}]
+    assert isinstance(live_mod._build_ranker(build_parser().parse_args(_argv())), ScoreRanker)   # score ignores it
+
+
+def test_live_main_records_d1_model_in_config(monkeypatch, tmp_path):
+    import clashbot.live as live_mod
+    import clashbot.ranker as ranker_mod
+
+    RecordingD1.inits = []
+
+    class StubLoop:
+        def __init__(self, *a, **k):
+            self.summary = _loop().summary()
+
+        def run(self, **k):
+            return self.summary
+
+    monkeypatch.setattr(ranker_mod, "D1Ranker", RecordingD1)
+    monkeypatch.setattr(live_mod, "_build_source", lambda args: FakeSource())
+    monkeypatch.setattr(live_mod, "_build_perception", lambda args, source: FakePerception())
+    monkeypatch.setattr(live_mod, "_build_plan_text", lambda args, deck: None)
+    monkeypatch.setattr(live_mod, "load_cards", lambda: {})
+    monkeypatch.setattr(live_mod, "load_placement_prior", lambda: PRIOR)
+    monkeypatch.setattr(live_mod, "StateIndex", lambda: None)
+    monkeypatch.setattr(live_mod, "KnowledgeGraph", lambda: None)
+    monkeypatch.setattr(live_mod, "CandidateGenerator", lambda *a: FakeGenerator())
+    monkeypatch.setattr(live_mod, "LiveLoop", StubLoop)
+    out = tmp_path / "run"
+    rc = main(_argv("--source", "video", "--video", "x.mp4", "--device", "cpu", "--ranker", "d1",
+                    "--d1-model", "/m/ft", "--out", str(out)))
+    assert rc == 0
+    assert RecordingD1.inits == [{"model_path": "/m/ft", "backend": "mlx"}]
+    assert json.loads((out / "config.json").read_text())["d1_model"] == "/m/ft"
+
+
+def test_replay_passes_d1_model_to_d1ranker(monkeypatch):
+    import clashbot.ranker as ranker_mod
+
+    RecordingD1.inits = []
+    monkeypatch.setattr(ranker_mod, "D1Ranker", RecordingD1)
+    monkeypatch.setattr(loop_mod, "_load_game", lambda gid: ({"own_deck": DECK, "own_deck_key": None}, []))
+    monkeypatch.setattr(loop_mod, "load_cards", lambda: {})
+    monkeypatch.setattr(loop_mod, "StateIndex", lambda: None)
+    monkeypatch.setattr(loop_mod, "KnowledgeGraph", lambda: None)
+    monkeypatch.setattr(loop_mod, "CandidateGenerator", lambda *a: None)
+    monkeypatch.setattr(loop_mod, "RuleBasedPlanner",
+                        lambda: types.SimpleNamespace(pregame=lambda deck, key: types.SimpleNamespace(text="PLAN")))
+    monkeypatch.setattr(loop_mod, "load_placement_prior", lambda: PRIOR)
+    assert loop_mod.main(["--replay", "g1", "--ranker", "d1", "--d1-model", "/m/ft", "--d1-backend",
+                          "transformers"]) == 0
+    assert loop_mod.main(["--replay", "g1", "--ranker", "d1"]) == 0
+    assert loop_mod.main(["--replay", "g1", "--d1-model", "/m/ft"]) == 0          # score ranker: no D1Ranker built
+    assert RecordingD1.inits == [{"model_path": "/m/ft", "backend": "transformers"},
+                                 {"model_path": None, "backend": "mlx"}]
 
 
 # Amendment 2: min gap between decisions, each opponent play triggers once, perception.close, async_ocr ---------------
