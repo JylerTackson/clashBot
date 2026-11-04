@@ -105,3 +105,19 @@ Re-run the stopped jobs (your OK); then Wave 4 with you at the Mac: iPhone Mirro
 **Zero-shot d1 on the final 4-way grid** (the "before" number): **0.258 / 0.221** (chance); placement prior 0.493 / 0.384.
 **Running (serialised, overnight).** Joint fine-tune (~1.5–2 h) → eval → dense perception over the 33 videos (downloading one at a time after YouTube rate-limited the parallel batch; subtitles skipped). Then dense act data → act fine-tune → factorized fine-tune.
 **Next.** Fine-tuned joint numbers; a live Training Camp match with the reactive policy + fine-tuned ranker (`--ranker d1` with the new checkpoint).
+
+## 2026-11-04 — d1-omni-600M fine-tuned on the pro decisions (joint)
+
+**Joint fine-tune** (D-039): 3,641 train decisions, 3 epochs, all 16 trunk layers + head (313.6 M trainable), fp32 on MPS, token budget 3,072 × 8 accumulation; 3 h 41 min (first epoch 6,577 s, last 2,481 s), peak 17.3 GiB. Val accuracy by epoch 0.460 → 0.514 → **0.526** (best = last; val loss rose in epoch 3, 1.09 → 1.20, so more epochs would overfit). Temperature re-fit: `choice:3-5` = 2.0. Checkpoint `db/models/d1-ft-joint` (gitignored, reload verified).
+
+| 4-way accuracy (2×2 grid, D-037) | val | test |
+|---|---|---|
+| random | 0.250 | 0.250 |
+| d1 zero-shot | 0.258 | 0.221 |
+| popularity | 0.468 | 0.325 |
+| placement prior | 0.493 | 0.384 |
+| **d1 fine-tuned (joint)** | **0.524** | **0.483** |
+
+Latency 67–70 ms p50 / 95 ms p95 per decision (transformers fp16, MPS). Reports in `docs/data/d1_finetune_joint_{train,eval}_v1.json`. (R3 feature rankers still have to be re-run on the final grid for a like-for-like comparison.)
+**Dense perception** (D-040): all 33 videos downloaded (4.2 GB, video only after YouTube rate-limited subtitles). The first overnight pass picked up only 1 video because a stale download manifest listed only it; moved aside, the full pass over all videos is running (resumable), followed by the dense act dataset build.
+**Next.** Act head on the dense data; factorized ablation (≈ 3× the rows of joint — likely ~10 h, schedule for another night); R3 re-run; a live Training Camp match with `--ranker d1 --d1-backend transformers --d1-model db/models/d1-ft-joint` and the reactive policy.
