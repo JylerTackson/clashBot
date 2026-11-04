@@ -28,6 +28,7 @@ from clashbot.retrieval import StateIndex
 STAGES = ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")
 FRAME_STAGES = ("capture", "perception", "live_state")
 TARGET_P95_MS = 300.0
+FALLBACK_MIN_ELIXIR = 9.5     # a "fallback" candidate (no knn/kg support) is only played from a (nearly) full bar
 TOS_NOTE = ("Live runs only in Training Camp or friendly battles "
             "(Supercell terms of service prohibit bots in normal play).")
 
@@ -171,8 +172,14 @@ class LiveLoop:
             g = clock()
             rank_ms = (g - f) * 1000.0
 
-        tile = placement_tile(key, self.prior)
-        entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
+        elixir = state["own"]["elixir"]
+        if cands and "fallback" in cands[i].sources and (elixir is None or elixir < FALLBACK_MIN_ELIXIR):
+            # a filler candidate (no knn/kg support) is only worth playing from a full bar; otherwise wait
+            key, tile = HOLD_KEY, None
+            entry = {"t": t, "key": HOLD_KEY, "tile": None, "status": "hold_fallback", "clicks": [], "sent": False}
+        else:
+            tile = placement_tile(key, self.prior)
+            entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
         h = clock()
         execute_ms = (h - g) * 1000.0
 
@@ -345,6 +352,17 @@ def format_table(summary: dict) -> str:
     return "\n".join(lines)
 
 
+def resolve_device(device: str | None) -> str:
+    """`--device` unset -> mps when torch reports it, else cpu (torch imported here so `import clashbot.live` stays light)."""
+    if device is not None:
+        return device
+    try:
+        import torch
+        return "mps" if torch.backends.mps.is_available() else "cpu"
+    except ImportError:
+        return "cpu"
+
+
 def main(argv: list[str] | None = None) -> int:
     print(TOS_NOTE)
     args = build_parser().parse_args(argv)
@@ -363,6 +381,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.rect and len(_split(args.rect)) != 4:
         print("error: --rect needs l,t,w,h", file=sys.stderr)
         return 2
+    args.device = resolve_device(args.device)         # recorded in config.json below
 
     source = None
     perception = None
