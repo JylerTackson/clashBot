@@ -6,7 +6,9 @@ frame_index: int). Perception is READ-ONLY: nothing here can send input.
   ScreenSource       - live capture of an emulator window on macOS via mss,
                        locating the window through Quartz; includes the
                        Screen-Recording-permission sanity check.
-  MirroringSource    - live capture of the macOS "iPhone Mirroring" window at a steady rate (D-001).
+  MirroringSource    - live capture of the macOS "iPhone Mirroring" window at a steady rate (D-001);
+                       default backend grabs the window itself by id via Quartz at Retina resolution,
+                       the mss region grab is the fallback.
 """
 from __future__ import annotations
 
@@ -194,9 +196,10 @@ def list_windows() -> list[dict]:
     return out
 
 
-def find_mirroring_window(owner_hint: str | None = None, windows: list[dict] | None = None) -> WindowRect | None:
+def find_mirroring_window_info(owner_hint: str | None = None, windows: list[dict] | None = None) -> dict | None:
     """Largest normal-layer window (>= 100x100) whose owner matches the hint
-    (default: the iPhone Mirroring app). None when there is no such window."""
+    (default: the iPhone Mirroring app), as the full list_windows() dict
+    (incl. window_id). None when there is no such window."""
     windows = list_windows() if windows is None else windows
     hints = (owner_hint,) if owner_hint else MIRRORING_OWNERS
     best = None
@@ -209,9 +212,35 @@ def find_mirroring_window(owner_hint: str | None = None, windows: list[dict] | N
         r = w["rect"]
         if r.width < 100 or r.height < 100:
             continue
-        if best is None or r.width * r.height > best.width * best.height:
-            best = r
+        if best is None or r.width * r.height > best["rect"].width * best["rect"].height:
+            best = w
     return best
+
+
+def find_mirroring_window(owner_hint: str | None = None, windows: list[dict] | None = None) -> WindowRect | None:
+    """Rect of find_mirroring_window_info(); None when there is no such window."""
+    info = find_mirroring_window_info(owner_hint, windows)
+    return info["rect"] if info is not None else None
+
+
+def quartz_window_grab(window_id: int) -> np.ndarray:
+    """Capture one window by id at native (Retina) resolution as a BGR frame:
+    only the window's own pixels, nothing showing through from other windows.
+    Needs Screen Recording permission; raises RuntimeError when the capture fails."""
+    import Quartz  # type: ignore  # local import so the module loads without pyobjc
+    img = Quartz.CGWindowListCreateImage(
+        Quartz.CGRectNull, Quartz.kCGWindowListOptionIncludingWindow, window_id,
+        Quartz.kCGWindowImageBoundsIgnoreFraming | Quartz.kCGWindowImageBestResolution)
+    if img is None:
+        raise RuntimeError("window capture failed (window closed or no Screen Recording permission)")
+    w, h = Quartz.CGImageGetWidth(img), Quartz.CGImageGetHeight(img)
+    bpr = Quartz.CGImageGetBytesPerRow(img)
+    data = Quartz.CGDataProviderCopyData(Quartz.CGImageGetDataProvider(img))
+    buf = np.frombuffer(data, np.uint8).reshape(h, bpr // 4, 4)
+    return buf[:, :w, :3].copy()  # BGRA (rows padded to bytes-per-row) -> BGR
+
+
+MIRRORING_BACKENDS = ("quartz", "mss")
 
 
 def _mon_of(r: WindowRect) -> dict:
@@ -221,25 +250,41 @@ def _mon_of(r: WindowRect) -> dict:
 class MirroringSource(FrameSource):
     """Live capture of the macOS iPhone Mirroring window at a steady rate.
     The window rect is in global screen points; with an auto-found rect it is
-    re-checked every `refind_every_s` so a moved window is followed. `grab_fn`
-    (mon -> BGR frame) and `clock`/`sleep` are injectable for tests."""
+    re-checked every `refind_every_s` so a moved window (and its window id) is
+    followed. Backend "quartz" (default) grabs the window itself by id at Retina
+    resolution; it needs a known window id (auto-found, or `window_id`). Without
+    one (e.g. a manual rect) or with backend "mss", a screen-region grab is used.
+    `self.backend` is the one in effect. `grab_fn` (mon -> BGR frame) and
+    `clock`/`sleep` are injectable for tests."""
 
     def __init__(self, rect: WindowRect | None = None, target_fps: float = 10.0, owner_hint: str | None = None,
                  grab_fn=None, clock=time.perf_counter, sleep=time.sleep, check_permission: bool = True,
-                 refind_every_s: float = 2.0):
+                 refind_every_s: float = 2.0, backend: str = "quartz", window_id: int | None = None):
+        if backend not in MIRRORING_BACKENDS:
+            raise ValueError(f"unknown capture backend {backend!r}; use one of {MIRRORING_BACKENDS}")
         self._auto = rect is None
+        self._owner_hint = owner_hint
         if rect is None:
-            rect = find_mirroring_window(owner_hint)
+            info = find_mirroring_window_info(owner_hint)
+            if info is not None:
+                rect = info["rect"]
+                if window_id is None:
+                    window_id = int(info["window_id"])
         if rect is None:
             raise RuntimeError("iPhone Mirroring window not found: open iPhone Mirroring, keep the window "
                                "visible (not minimised), or pass a manual rect")
         self.rect = rect
         self.mon = _mon_of(rect)
+        self.window_id = window_id
+        self.backend = "quartz" if backend == "quartz" and self.window_id else "mss"
         self._sct = None
         if grab_fn is None:
-            import mss  # local import so the module loads without mss on CI
-            self._sct = mss.mss()
-            grab_fn = lambda mon: np.asarray(self._sct.grab(mon))[:, :, :3].copy()  # BGRA -> BGR  # noqa: E731
+            if self.backend == "quartz":
+                grab_fn = lambda mon: quartz_window_grab(self.window_id)  # noqa: E731
+            else:
+                import mss  # local import so the module loads without mss on CI
+                self._sct = mss.mss()
+                grab_fn = lambda mon: np.asarray(self._sct.grab(mon))[:, :, :3].copy()  # BGRA -> BGR  # noqa: E731
         self._grab_fn = grab_fn
         self._clock = clock
         self._sleep = sleep
@@ -299,13 +344,16 @@ class MirroringSource(FrameSource):
                     self.dropped += late
                     next_due += late * period
             if self._auto and now - last_refind >= self._refind_every_s:
-                r = find_mirroring_window()
+                info = find_mirroring_window_info(self._owner_hint)
                 last_refind = now
-                if r is not None and (r.left, r.top, r.width, r.height) != (
-                        self.rect.left, self.rect.top, self.rect.width, self.rect.height):
-                    self.rect = r
-                    self.mon = _mon_of(r)
-                    self.rect_changes += 1
+                if info is not None:
+                    r = info["rect"]
+                    if (r.left, r.top, r.width, r.height) != (
+                            self.rect.left, self.rect.top, self.rect.width, self.rect.height):
+                        self.rect = r
+                        self.mon = _mon_of(r)
+                        self.rect_changes += 1
+                    self.window_id = int(info["window_id"])
             g0 = clock()
             frame = self.grab()
             g1 = clock()
@@ -337,6 +385,8 @@ class MirroringSource(FrameSource):
             "rect": dict(self.rect.__dict__),
             "rect_changes": self.rect_changes,
             "looks_like_game": self.looks_like_game,
+            "backend": self.backend,
+            "window_id": self.window_id,
         }
 
     def close(self) -> None:

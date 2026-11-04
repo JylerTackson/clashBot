@@ -1,9 +1,14 @@
 """macOS: locate the iPhone Mirroring window (or an emulator window), verify Screen
 Recording permission and report sustained capture rate. Read-only: never sends input.
 
-  python3 tools/benchmark_capture.py [--source mirroring|emulator] [--owner NAME] [--rect l,t,w,h]
+  python3 tools/benchmark_capture.py [--source mirroring|emulator] [--backend quartz|mss]
+                                     [--owner NAME] [--rect l,t,w,h]
                                      [--fps 0] [--sweep 10,20,30,60] [--seconds 5]
                                      [--save-frame PATH] [--list-windows]
+
+--backend (mirroring only): quartz (default) captures the window itself by id at Retina
+resolution; mss grabs the screen region (1x, other windows can show through). A manual
+--rect has no window id, so it always uses mss.
 """
 from __future__ import annotations
 
@@ -29,13 +34,14 @@ def _print_windows() -> int:
         print("no windows listed (needs macOS with pyobjc Quartz)", file=sys.stderr)
     for w in wins:
         r = w["rect"]
-        print(f"{w['owner']} | {w['title']} | {r.left},{r.top},{r.width},{r.height} | layer {w['layer']}")
+        print(f"{w['owner']} | {w['title']} | {r.left},{r.top},{r.width},{r.height} | layer {w['layer']} | "
+              f"id {w['window_id']}")
     return 0
 
 
 def _make_source(a, rect: WindowRect | None, fps: float):
     if a.source == "mirroring":
-        return MirroringSource(rect, target_fps=fps, owner_hint=a.owner)
+        return MirroringSource(rect, target_fps=fps, owner_hint=a.owner, backend=a.backend)
     return ScreenSource(rect, target_fps=fps)
 
 
@@ -69,6 +75,8 @@ def _fmt(v) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--source", choices=("mirroring", "emulator"), default="mirroring")
+    ap.add_argument("--backend", choices=("quartz", "mss"), default="quartz",
+                    help="mirroring capture backend: quartz = window by id, Retina (default); mss = screen region")
     ap.add_argument("--owner", help="window owner name hint (default: iPhone Mirroring / known emulators)")
     ap.add_argument("--rect", help="left,top,width,height in screen points (manual fallback)")
     ap.add_argument("--fps", type=float, default=0.0, help="target fps; 0 = unthrottled")
