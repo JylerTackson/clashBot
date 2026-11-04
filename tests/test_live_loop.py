@@ -641,3 +641,140 @@ def test_build_perception_passes_async_ocr(monkeypatch, extra, expected):
     live_mod._build_perception(args, "SRC")
     assert seen == {"config": "calib.json", "source": "SRC", "detector": None, "detect_every": 5,
                     "async_ocr": expected}
+
+
+# Amendment 3: hold instead of a low-elixir fallback candidate; --device defaults to mps when available ---------------
+class FallbackGenerator(FakeGenerator):
+    """Every candidate is a filler (`sources` has "fallback"), as CandidateGenerator pads with when knn/kg run dry."""
+
+    def generate(self, state, t, ctx, n=4, **filters):
+        return [Candidate(k, 0.0, {"fallback": 1}) for k in self.keys]
+
+
+class FirstKeyRanker:
+    def choose_keys(self, context, keys, plan=None):
+        return RankResult(index=0, probs=[1.0] + [0.0] * (len(keys) - 1), model="fake")
+
+
+def _fallback_loop(elixir, generator=None, tmp_path=None):
+    return _loop(tmp_path=tmp_path, builder=FakeBuilder(state=_state(elixir=elixir), warmup=0),
+                 generator=generator or FallbackGenerator(), ranker=FirstKeyRanker(), executor=FakeExecutor())
+
+
+def test_fallback_candidate_below_9_5_elixir_holds_without_executing(tmp_path):
+    lp = _fallback_loop(5.0, tmp_path=tmp_path)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d is not None and d.key == HOLD_KEY and d.tile is None
+    assert d.executor == {"t": 1.0, "key": "hold", "tile": None, "status": "hold_fallback", "clicks": [],
+                          "sent": False}
+    assert lp.executor.calls == []                               # the executor is never asked to tap
+    assert lp.last_decision_t == 1.0 and lp.decisions == [d]     # still a recorded decision
+    assert d.candidates[0]["sources"] == {"fallback": 1} and d.probs == [1.0, 0.0]
+    assert set(d.timings_ms) == set(STAGES)
+    line = json.loads((tmp_path / "decisions.jsonl").read_text().splitlines()[0])
+    assert line["key"] == "hold" and line["executor"]["status"] == "hold_fallback"
+
+
+def test_fallback_candidate_with_unknown_elixir_holds(monkeypatch):
+    import clashbot.live as live_mod
+
+    monkeypatch.setattr(live_mod, "should_decide", lambda *a, **k: True)     # the real trigger needs a legal card
+    lp = _fallback_loop(None)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == HOLD_KEY and d.executor["status"] == "hold_fallback" and lp.executor.calls == []
+
+
+def test_fallback_candidate_at_10_elixir_is_executed():
+    lp = _fallback_loop(10.0)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == KEYS[0] and d.executor == {"t": 1.0, "key": KEYS[0], "tile": d.tile}
+    assert [c[0] for c in lp.executor.calls] == [KEYS[0]]
+
+
+def test_fallback_threshold_is_inclusive_at_9_5():
+    assert _fallback_loop(9.5).step("f", 1.0, 0, 2.0).key == KEYS[0]
+    assert _fallback_loop(9.4).step("f", 1.0, 0, 2.0).key == HOLD_KEY
+
+
+def test_non_fallback_candidate_is_executed_at_low_elixir():
+    lp = _loop(builder=FakeBuilder(state=_state(elixir=5.0), warmup=0), ranker=FirstKeyRanker())
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == KEYS[0] and [c[0] for c in lp.executor.calls] == [KEYS[0]]
+
+
+def test_only_the_chosen_candidate_matters_for_the_fallback_hold():
+    class Mixed(FakeGenerator):
+        def generate(self, state, t, ctx, n=4, **filters):
+            return [Candidate(KEYS[0], 1.0, {"knn": 1.0}), Candidate(KEYS[1], 0.0, {"fallback": 1})]
+
+    low = _loop(builder=FakeBuilder(state=_state(elixir=5.0), warmup=0), generator=Mixed(), ranker=FakeKeyRanker())
+    assert low.step("f", 1.0, 0, 2.0).key == HOLD_KEY             # FakeKeyRanker picks index 1 = the fallback
+    ok = _loop(builder=FakeBuilder(state=_state(elixir=5.0), warmup=0), generator=Mixed(), ranker=FirstKeyRanker())
+    assert ok.step("f", 1.0, 0, 2.0).key == KEYS[0]
+
+
+def test_summary_counts_hold_fallback_status():
+    lp = _fallback_loop(5.0)
+    lp.source = RangeSource(0.0, 9.0)                      # frames 0.1 s apart; should_decide re-fires every 3 s
+    summary = lp.run(max_frames=61)                        # -> decisions at t = 0, 3.0, 6.0
+    assert summary["decisions"] == 3 and summary["decisions_by_status"] == {"hold_fallback": 3}
+    assert lp.executor.calls == []
+
+
+@pytest.mark.parametrize("available,expected", [(True, "mps"), (False, "cpu")])
+def test_resolve_device_follows_torch_mps_availability(monkeypatch, available, expected):
+    import torch
+    import clashbot.live as live_mod
+
+    monkeypatch.setattr(torch.backends.mps, "is_available", lambda: available)
+    assert live_mod.resolve_device(None) == expected
+
+
+def test_resolve_device_respects_explicit_choice(monkeypatch):
+    import torch
+    import clashbot.live as live_mod
+
+    monkeypatch.setattr(torch.backends.mps, "is_available", lambda: True)
+    assert live_mod.resolve_device("cpu") == "cpu" and live_mod.resolve_device("mps") == "mps"
+
+
+def test_cli_device_default_is_none_until_main_resolves_it():
+    assert build_parser().parse_args(_argv()).device is None
+    assert build_parser().parse_args(_argv("--device", "cpu")).device == "cpu"
+
+
+@pytest.mark.parametrize("extra,mps,expected",
+                         [([], True, "mps"), ([], False, "cpu"), (["--device", "cpu"], True, "cpu")])
+def test_main_resolves_device_and_records_it_in_config(monkeypatch, tmp_path, extra, mps, expected):
+    import torch
+    import clashbot.live as live_mod
+
+    seen = {}
+
+    class StubLoop:
+        def __init__(self, *a, **k):
+            self.summary = _loop().summary()
+
+        def run(self, **k):
+            return self.summary
+
+    def build_perception(args, source):
+        seen["device"] = args.device
+        return FakePerception()
+
+    monkeypatch.setattr(torch.backends.mps, "is_available", lambda: mps)
+    monkeypatch.setattr(live_mod, "_build_source", lambda args: FakeSource())
+    monkeypatch.setattr(live_mod, "_build_perception", build_perception)
+    monkeypatch.setattr(live_mod, "_build_ranker", lambda args: FakeKeyRanker())
+    monkeypatch.setattr(live_mod, "_build_plan_text", lambda args, deck: None)
+    monkeypatch.setattr(live_mod, "load_cards", lambda: {})
+    monkeypatch.setattr(live_mod, "load_placement_prior", lambda: PRIOR)
+    monkeypatch.setattr(live_mod, "StateIndex", lambda: None)
+    monkeypatch.setattr(live_mod, "KnowledgeGraph", lambda: None)
+    monkeypatch.setattr(live_mod, "CandidateGenerator", lambda *a: FakeGenerator())
+    monkeypatch.setattr(live_mod, "LiveLoop", StubLoop)
+    out = tmp_path / "run"
+    rc = main(_argv("--source", "video", "--video", "x.mp4", "--out", str(out), *extra))
+    assert rc == 0
+    assert seen["device"] == expected
+    assert json.loads((out / "config.json").read_text())["device"] == expected
