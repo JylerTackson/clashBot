@@ -1,8 +1,10 @@
-"""Live loop CLI (D-007, D-031): capture -> perception -> live state -> trigger -> candidates -> ranker -> executor.
+"""Live loop CLI (D-007, D-031, D-041): capture -> perception -> live state -> act policy -> candidates -> ranker -> executor.
 
 Dry run by default: the executor only logs the clicks it would make. Packages A-F (detector, mirroring source, live
 state, ranker, planner, executor) are imported lazily inside the builders so this module stays light and testable
-with fakes. Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
+with fakes. The act policy is reactive by default (clashbot.policy: defend / leak / punish, else hold and save
+elixir); `--policy trigger` restores the fixed-interval `should_decide`.
+Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
 """
 from __future__ import annotations
 
@@ -23,6 +25,7 @@ from clashbot.config import HOLD_KEY
 from clashbot.game_rules import load_cards
 from clashbot.kg import KnowledgeGraph
 from clashbot.loop import should_decide
+from clashbot.policy import ActDecision, ReactivePolicy
 from clashbot.retrieval import StateIndex
 
 STAGES = ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")
@@ -43,6 +46,8 @@ class LiveDecision:
     probs: list[float]
     executor: dict                # the executor's returned entry
     timings_ms: dict              # every STAGES name
+    mode: str = "trigger"         # policy mode: defend | leak | punish (reactive) or trigger
+    reason: str = ""              # the policy's human-readable reason
 
 
 def rank_keys(ranker, context: str, keys: list[str], plan: str | None) -> tuple[int, list[float]]:
@@ -75,7 +80,7 @@ def _pcts(vals: list[float]) -> dict:
 class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
-                 clock=time.perf_counter, min_gap_s: float = 1.0):
+                 clock=time.perf_counter, min_gap_s: float = 1.0, policy=None):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -89,6 +94,11 @@ class LiveLoop:
         self.filters = dict(filters or {})
         self.clock = clock
         self.min_gap_s = min_gap_s
+        # None / "reactive" -> ReactivePolicy(cards); "trigger" -> the old should_decide path (self.policy stays None)
+        if policy is None or policy == "reactive":
+            policy = ReactivePolicy(cards)
+        self.policy = None if policy == "trigger" else policy
+        self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
         self.last_decision_t: float | None = None
         self._handled_opp_t = float("-inf")       # newest opponent play already seen at a decision
         self.skipped_min_gap = 0
@@ -155,13 +165,22 @@ class LiveLoop:
         if self.last_decision_t is not None and t - self.last_decision_t < self.min_gap_s:
             self.skipped_min_gap += 1           # `should_decide` stays true for seconds; never tap twice this close
             return None
-        go = should_decide(self._fresh_opponent_state(state), t, self.last_decision_t, self.cards)
+        if self.policy is None:
+            go = should_decide(self._fresh_opponent_state(state), t, self.last_decision_t, self.cards)
+            verdict = ActDecision(go, "trigger", None, "should_decide")
+        else:
+            verdict = self.policy.decide(state, t)
         e = clock()
         trigger_ms = (e - d) * 1000.0
-        if not go:
+        if not verdict.act:
+            if self.policy is not None:
+                self.policy_holds[verdict.mode] += 1
             return None
 
-        cands = self.generator.generate(state, t, ctx, n=4, **self.filters)
+        cands = generated = self.generator.generate(state, t, ctx, n=4, **self.filters)
+        if self.policy is not None:
+            cands = self.policy.filter_candidates(cands, verdict, state)
+        policy_hold = self.policy is not None and not cands      # wants to act, but no candidate fits (blind spells...)
         f = clock()
         candidates_ms = (f - e) * 1000.0
         if not cands:
@@ -173,7 +192,12 @@ class LiveLoop:
             rank_ms = (g - f) * 1000.0
 
         elixir = state["own"]["elixir"]
-        if cands and "fallback" in cands[i].sources and (elixir is None or elixir < FALLBACK_MIN_ELIXIR):
+        if policy_hold:
+            # the policy wanted to play but no candidate fits it: record a hold, never call the executor
+            key, tile = HOLD_KEY, None
+            entry = {"t": t, "key": HOLD_KEY, "tile": None, "status": "hold_policy", "clicks": [], "sent": False}
+            cands = generated          # logged unfiltered: the record shows what the policy turned down
+        elif cands and "fallback" in cands[i].sources and (elixir is None or elixir < FALLBACK_MIN_ELIXIR):
             # a filler candidate (no knn/kg support) is only worth playing from a full bar; otherwise wait
             key, tile = HOLD_KEY, None
             entry = {"t": t, "key": HOLD_KEY, "tile": None, "status": "hold_fallback", "clicks": [], "sent": False}
@@ -193,7 +217,7 @@ class LiveLoop:
         decision = LiveDecision(
             t=t, idx=idx, key=key, tile=tile,
             candidates=[{"key": x.key, "score": x.score, "sources": x.sources} for x in cands],
-            probs=list(probs), executor=entry, timings_ms=timings)
+            probs=list(probs), executor=entry, timings_ms=timings, mode=verdict.mode, reason=verdict.reason)
         self.decisions.append(decision)
         self._write("decisions.jsonl", {**asdict(decision), "elixir": state["own"]["elixir"],
                                         "hand": state["own"]["hand"], "context_text": ctx})
@@ -259,6 +283,8 @@ class LiveLoop:
             "target_p95_ms": TARGET_P95_MS,
             "target_met": None if total_p95 is None else bool(total_p95 < TARGET_P95_MS),
             "decisions_by_status": dict(Counter(d.executor.get("status", "dry_run") for d in self.decisions)),
+            "decisions_by_mode": dict(Counter(d.mode for d in self.decisions)),
+            "policy_holds": dict(self.policy_holds),
             "rect_updates": sum(1 for r in self.frames if r.get("rect_changed")),
             "skipped_min_gap": self.skipped_min_gap,
             "source_stats": stats() if callable(stats) else None,
@@ -295,6 +321,8 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--seconds", type=float, default=60.0)
     ap.add_argument("--max-decisions", type=int, default=None)
     ap.add_argument("--min-gap", type=float, default=1.0, help="minimum seconds between two decisions (0 = off)")
+    ap.add_argument("--policy", choices=("reactive", "trigger"), default="reactive",
+                    help="when to play: reactive = defend / leak / punish, else hold (D-041); trigger = every 3 s etc.")
     ap.add_argument("--out", default=None, help="output dir (default runs/poc/<timestamp>)")
     return ap
 
@@ -418,9 +446,10 @@ def main(argv: list[str] | None = None) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "config.json").write_text(json.dumps(vars(args), indent=2, default=str))
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
-                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap)
+                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=args.policy)
     mode = "LIVE" if args.live else "dry run"
-    print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} out={out_dir}")
+    print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} policy={args.policy} "
+          f"out={out_dir}")
     summary = loop.run(max_seconds=args.seconds, max_decisions=args.max_decisions)
     print(f"frames={summary['frames']} decisions={summary['decisions']} "
           f"readiness={summary['readiness_counts']} status={summary['decisions_by_status']}")
