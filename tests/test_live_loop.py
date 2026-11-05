@@ -17,6 +17,7 @@ from clashbot.config import HOLD_KEY  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.live import STAGES, TOS_NOTE, LiveLoop, build_parser, main, rank_keys  # noqa: E402
 from clashbot.loop import FastLoop  # noqa: E402
+from clashbot.policy import ActDecision  # noqa: E402
 from clashbot.ranker import RankResult, ScoreRanker  # noqa: E402
 
 DECK = ["zap", "archers", "knight", "giant", "musketeer", "fireball", "valkyrie", "minions"]
@@ -135,13 +136,13 @@ class FakeClock:
 
 
 def _loop(tmp_path=None, source=None, builder=None, generator=None, ranker=None, executor=None, plan_text="PLAN",
-          perception=None, min_gap_s=0.0, policy="trigger"):
+          perception=None, min_gap_s=0.0, policy="trigger", **kw):
     # min_gap_s=0 keeps the pre-amendment-2 behaviour for the older tests; the min-gap tests pass it explicitly.
     # policy="trigger" keeps the should_decide path the older tests were written for; the MAC-W tests pass "reactive".
     return LiveLoop(source or FakeSource(), perception or FakePerception(), builder or FakeBuilder(),
                     generator or FakeGenerator(), ranker or FakeKeyRanker(), executor or FakeExecutor(),
                     load_cards(), PRIOR, plan_text=plan_text, out_dir=tmp_path, clock=FakeClock(), min_gap_s=min_gap_s,
-                    policy=policy)
+                    policy=policy, **kw)
 
 
 # 1 -----------------------------------------------------------------------------------------------------------------
@@ -1021,3 +1022,152 @@ def test_main_passes_the_policy_to_the_loop(monkeypatch, tmp_path, extra, expect
     assert main(_argv("--source", "video", "--video", "x.mp4", "--device", "cpu", "--out", str(out), *extra)) == 0
     assert seen["policy"] == expected
     assert json.loads((out / "config.json").read_text())["policy"] == expected
+
+
+# MAC-Y1: hand memory feed, no plays from an unread hand, spell aim ------------------------------------------------------
+class NoteBuilder(FakeBuilder):
+    """A builder with the hand tracker's note_own_play hook (the real one forwards to HandTracker)."""
+
+    def __init__(self, *a, **k):
+        super().__init__(*a, **k)
+        self.notes = []
+
+    def note_own_play(self, card, slot, t):
+        self.notes.append((card, slot, t))
+
+
+class SlotExecutor(FakeExecutor):
+    """Like MirroringExecutor.execute: the entry carries the hand slot and `sent` (False in a dry run)."""
+
+    def __init__(self, sent=True):
+        super().__init__()
+        self.sent = sent
+
+    def execute(self, key, tile, t, hand=None):
+        super().execute(key, tile, t, hand=hand)
+        card = key.split("|")[0]
+        slot = list(hand).index(card) if hand and card in hand else None
+        status = "planned" if slot is not None else "skipped_card_not_in_hand"
+        return {"t": t, "key": key, "tile": tile, "status": status, "slot": slot, "clicks": [],
+                "sent": self.sent and slot is not None}
+
+
+def test_sent_play_feeds_the_hand_memory_dry_run_does_not():
+    b, ex = NoteBuilder(warmup=0), SlotExecutor(sent=True)
+    d = _loop(builder=b, executor=ex).step("f", 1.0, 0, 2.0)
+    assert d.key == "giant|left|back" and d.executor["sent"] is True
+    assert b.notes == [("giant", 3, 1.0)]                                    # card, hand slot, frame time
+    b2 = NoteBuilder(warmup=0)
+    _loop(builder=b2, executor=SlotExecutor(sent=False)).step("f", 1.0, 0, 2.0)
+    assert b2.notes == []                                                     # a dry run never reaches the hand memory
+    b3 = NoteBuilder(_state(hand=["zap", "archers", "knight", None]), warmup=0)
+    ex3 = SlotExecutor(sent=True)
+    _loop(builder=b3, executor=ex3, generator=FakeGenerator(keys=["giant|left|back", "zap|left|mid"]),
+          ranker=FirstKeyRanker(), require_hand=False).step("f", 1.0, 0, 2.0)
+    assert ex3.calls[0][0] == "giant|left|back" and b3.notes == []           # skipped by the executor: nothing played
+
+
+def test_builder_without_note_own_play_is_fine():
+    lp = _loop(builder=FakeBuilder(warmup=0), executor=SlotExecutor(sent=True))
+    assert lp.step("f", 1.0, 0, 2.0).executor["sent"] is True
+
+
+def test_candidate_not_in_the_hand_records_hold_hand_unknown(tmp_path):
+    ex, rk = SlotExecutor(), FakeKeyRanker()
+    lp = _loop(tmp_path, builder=FakeBuilder(_state(hand=["archers", "knight", None, None]), warmup=0),
+               executor=ex, ranker=rk)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d is not None and d.key == HOLD_KEY and d.tile is None and d.probs == []
+    assert d.executor == {"t": 1.0, "key": "hold", "tile": None, "status": "hold_hand_unknown", "clicks": [],
+                          "sent": False}
+    assert ex.calls == [] and rk.calls == []                                  # no tap, no ranker call
+    assert [c["key"] for c in d.candidates] == KEYS                           # logged unfiltered
+    assert lp.last_decision_t == 1.0 and lp.decisions == [d] and lp.hand_unknown_holds == 1
+    assert d.timings_ms["rank"] == 0.0 and set(d.timings_ms) == set(STAGES)
+    summary = lp.summary()
+    assert summary["hand_unknown_holds"] == 1 and summary["decisions_by_status"] == {"hold_hand_unknown": 1}
+    line = json.loads((tmp_path / "decisions.jsonl").read_text().splitlines()[0])
+    assert line["key"] == "hold" and line["executor"]["status"] == "hold_hand_unknown" and line["hand"][:2] == [
+        "archers", "knight"]
+
+
+def test_all_unread_hand_holds_and_the_min_gap_still_applies():
+    ex = SlotExecutor()
+    lp = _loop(builder=FakeBuilder(_state(hand=[None] * 4), warmup=0), executor=ex, min_gap_s=1.0)
+    assert lp.step("f", 1.0, 0, 2.0).executor["status"] == "hold_hand_unknown"
+    assert lp.step("f", 1.5, 1, 2.0) is None and lp.skipped_min_gap == 1
+    assert ex.calls == [] and lp.summary()["hand_unknown_holds"] == 1
+
+
+def test_only_candidates_in_the_hand_are_kept_in_order():
+    ex = SlotExecutor()
+    gen = FakeGenerator(keys=["fireball|right|mid", "giant|left|back", "knight|left|mid", "zap|left|mid"])
+    lp = _loop(builder=FakeBuilder(_state(hand=["zap", "archers", "knight", None]), warmup=0), generator=gen,
+               executor=ex, ranker=FirstKeyRanker())
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert [c["key"] for c in d.candidates] == ["knight|left|mid", "zap|left|mid"]
+    assert d.key == "knight|left|mid" and ex.calls[0][0] == "knight|left|mid"
+    assert lp.hand_unknown_holds == 0 and lp.summary()["hand_unknown_holds"] == 0
+
+
+def test_require_hand_off_taps_whatever_the_policy_chose():
+    ex = SlotExecutor()
+    lp = _loop(builder=FakeBuilder(_state(hand=[None] * 4), warmup=0), executor=ex, require_hand=False)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == "giant|left|back" and ex.calls[0][0] == "giant|left|back"
+    assert d.executor["status"] == "skipped_card_not_in_hand" and lp.hand_unknown_holds == 0
+
+
+def test_reactive_defend_with_an_unread_hand_holds_for_the_hand_not_the_policy():
+    ex = SlotExecutor()
+    state = {**_threat_state(), "own": {**_state()["own"], "hand": [None] * 4}}
+    gen = FakeGenerator(keys=["knight|left|mid", "giant|left|back"])
+    lp = _reactive_loop(state, generator=gen, ranker=FirstKeyRanker(), executor=ex)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.mode == "defend" and d.executor["status"] == "hold_hand_unknown" and ex.calls == []
+    assert [c["key"] for c in d.candidates] == ["knight|left|mid", "giant|left|back"]      # unfiltered
+    assert lp.summary()["hand_unknown_holds"] == 1
+
+
+class AimPolicy:
+    """A policy with the optional target_tile hook (Y2 adds it to ReactivePolicy / LearnedActPolicy)."""
+
+    def __init__(self, tile):
+        self.tile = tile
+        self.aims = []
+
+    def decide(self, state, t, context_text=None):
+        return ActDecision(True, "defend", None, "fake")
+
+    def filter_candidates(self, candidates, decision, state):
+        return candidates
+
+    def target_tile(self, key, state):
+        self.aims.append(key)
+        return self.tile
+
+
+class NoAimPolicy(AimPolicy):
+    target_tile = None
+
+
+def test_policy_target_tile_overrides_the_placement_prior():
+    ex, pol = SlotExecutor(), AimPolicy([3.0, 20.0])
+    d = _loop(builder=FakeBuilder(warmup=0), executor=ex, policy=pol).step("f", 1.0, 0, 2.0)
+    assert d.key == "giant|left|back" and pol.aims == ["giant|left|back"]
+    assert d.tile == [3.0, 20.0] and ex.calls[0][1] == [3.0, 20.0]            # not the prior's [3.0, 2.0]
+
+
+@pytest.mark.parametrize("policy", [AimPolicy(None), NoAimPolicy(None), "trigger", "reactive"])
+def test_no_policy_aim_falls_back_to_the_placement_prior(policy):
+    ex = SlotExecutor()
+    state = _state(elixir=10.0)                  # the reactive policy plays a back-lane card from a full bar
+    gen = FakeGenerator(keys=["giant|left|back", "knight|left|back"])
+    d = _loop(builder=FakeBuilder(state, warmup=0), generator=gen, ranker=FirstKeyRanker(), executor=ex,
+              policy=policy).step("f", 1.0, 0, 2.0)
+    assert d.key == "giant|left|back" and d.tile == placement_tile("giant|left|back", PRIOR) == [3.0, 2.0]
+    assert ex.calls[0][1] == [3.0, 2.0]
+
+
+def test_summary_counts_hand_unknown_holds_even_without_any():
+    assert _loop(builder=FakeBuilder(warmup=99)).run(max_frames=2)["hand_unknown_holds"] == 0

@@ -4,7 +4,8 @@ Dry run by default: the executor only logs the clicks it would make. Packages A-
 state, ranker, planner, executor) are imported lazily inside the builders so this module stays light and testable
 with fakes. The act policy is reactive by default (clashbot.policy: defend / leak / punish, else hold and save
 elixir); `--policy learned --act-model PATH` adds the d1 act-head (MAC-X); `--policy trigger` restores the
-fixed-interval `should_decide`.
+fixed-interval `should_decide`. The loop plays only cards it can see in the hand (`require_hand`) and asks the
+policy for a spell's aim point (`target_tile`) when it has one.
 Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
 """
 from __future__ import annotations
@@ -81,7 +82,7 @@ def _pcts(vals: list[float]) -> dict:
 class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
-                 clock=time.perf_counter, min_gap_s: float = 1.0, policy=None):
+                 clock=time.perf_counter, min_gap_s: float = 1.0, policy=None, require_hand: bool = True):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -99,6 +100,8 @@ class LiveLoop:
         if policy is None or policy == "reactive":
             policy = ReactivePolicy(cards)
         self.policy = None if policy == "trigger" else policy
+        self.require_hand = require_hand             # never tap a card the hand read does not show (FIX_LIST #27)
+        self.hand_unknown_holds = 0                  # decisions held because no candidate card was in the read hand
         self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
         self.last_decision_t: float | None = None
         self._handled_opp_t = float("-inf")       # newest opponent play already seen at a decision
@@ -182,6 +185,11 @@ class LiveLoop:
         if self.policy is not None:
             cands = self.policy.filter_candidates(cands, verdict, state)
         policy_hold = self.policy is not None and not cands      # wants to act, but no candidate fits (blind spells...)
+        hand_hold = False
+        if self.require_hand and cands:
+            in_hand = {c for c in state["own"]["hand"] if c}
+            cands = [x for x in cands if x.key.split("|")[0] in in_hand]
+            hand_hold = not cands                                # every candidate is a card we cannot see in the hand
         f = clock()
         candidates_ms = (f - e) * 1000.0
         if not cands:
@@ -198,13 +206,26 @@ class LiveLoop:
             key, tile = HOLD_KEY, None
             entry = {"t": t, "key": HOLD_KEY, "tile": None, "status": "hold_policy", "clicks": [], "sent": False}
             cands = generated          # logged unfiltered: the record shows what the policy turned down
+        elif hand_hold:
+            # the hand is unread (greyed cards, a lost slot): tapping would only be skipped, so hold instead
+            key, tile = HOLD_KEY, None
+            entry = {"t": t, "key": HOLD_KEY, "tile": None, "status": "hold_hand_unknown", "clicks": [],
+                     "sent": False}
+            cands = generated
+            self.hand_unknown_holds += 1
         elif cands and "fallback" in cands[i].sources and (elixir is None or elixir < FALLBACK_MIN_ELIXIR):
             # a filler candidate (no knn/kg support) is only worth playing from a full bar; otherwise wait
             key, tile = HOLD_KEY, None
             entry = {"t": t, "key": HOLD_KEY, "tile": None, "status": "hold_fallback", "clicks": [], "sent": False}
         else:
-            tile = placement_tile(key, self.prior)
+            aim = getattr(self.policy, "target_tile", None)      # spells aim at the enemy units, not the prior
+            tile = aim(key, state) if callable(aim) else None
+            if tile is None:
+                tile = placement_tile(key, self.prior)
             entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
+            note_play = getattr(self.builder, "note_own_play", None)
+            if entry.get("sent") and entry.get("slot") is not None and callable(note_play):
+                note_play(key.split("|")[0], entry["slot"], t)    # the hand memory follows confirmed taps only
         h = clock()
         execute_ms = (h - g) * 1000.0
 
@@ -286,6 +307,7 @@ class LiveLoop:
             "decisions_by_status": dict(Counter(d.executor.get("status", "dry_run") for d in self.decisions)),
             "decisions_by_mode": dict(Counter(d.mode for d in self.decisions)),
             "policy_holds": dict(self.policy_holds),
+            "hand_unknown_holds": self.hand_unknown_holds,
             "rect_updates": sum(1 for r in self.frames if r.get("rect_changed")),
             "skipped_min_gap": self.skipped_min_gap,
             "source_stats": stats() if callable(stats) else None,
@@ -465,7 +487,7 @@ def main(argv: list[str] | None = None) -> int:
             return 5
         perception = _build_perception(args, source)
         from clashbot.live_state import LiveConfig, LiveStateBuilder
-        builder = LiveStateBuilder(LiveConfig(own_deck=deck, hero_cards=heroes))
+        builder = LiveStateBuilder(LiveConfig(own_deck=deck, hero_cards=heroes, hand_tracker=True))
         cards = load_cards()
         generator = CandidateGenerator(StateIndex(), KnowledgeGraph(), cards)
         ranker = _build_ranker(args)
