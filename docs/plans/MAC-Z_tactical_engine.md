@@ -238,22 +238,142 @@ class TacticalEngine:
 Unit tests only. Do not load models.
 
 ---
-## Z3 — wiring (starts after Z1 and Z2 are merged; Opus will amend this section with exact details at dispatch)
-1. `clashbot/candidates.py`:
-   - `Candidate` gains `tile: list[float] | None = None` and `note: str | None = None`.
-   - `generate(..., report=None)` puts the top 2 tactical moves first, as source `tac`. Lookup candidates (kNN / KG) fill the rest up to `n`. On duplicate keys, the sources are merged and the tactical tile and note are kept.
-   - Each lookup candidate gets a note: `pros played this in similar states` (kNN) or `known counter of {threat}` (KG).
-2. `clashbot/d1_format.py`: `joint_request(..., notes=None)` appends ` — {note}` to each option description. `D1Ranker.choose_keys(..., notes=None)` and `rank_keys(..., notes=None)` pass the notes through.
-3. `clashbot/live.py`:
-   - the ranker's context = `ctx` + the tactical lines; the act policy keeps `ctx`;
-   - tile precedence: policy `target_tile` (spells) > `candidate.tile` (tactics) > placement prior;
-   - `--ranker tactics` (pick the candidate with the best `tac` score, else the first);
-   - `--no-tactics`;
-   - log `tactics_lines`, and each candidate's `tile` / `note`, per decision.
-4. `tools/eval/eval_tactics.py`, on `dataset/v1` val/test play records:
-   - pro card in the engine's moves (top-1 / top-3);
-   - lane agreement when the card matches;
-   - tile distance;
-   - coverage;
-   - 4-way grid accuracy of the tactics ranker (`score_key`), next to the placement prior (0.384 test) and the fine-tuned d1 (0.483).
-5. `tools/data/build_d1_tac.py` writes `dataset/v1/d1/joint_tac`: the joint lines plus the tactical lines in the state, and per-option notes. Then the heavy run (Opus): fine-tune `d1-ft-joint-tac` from `d1-ft-joint` and compare.
+## Z3 — wiring: d1 decides over lookup and tactics (after Z1 + Z2; amended by Opus at dispatch)
+
+### Owns
+```
+clashbot/candidates.py   clashbot/d1_format.py   clashbot/ranker.py   clashbot/policy.py (filter exemption only)
+clashbot/live.py         (not _build_perception — MAC-PF owns that function)
+tools/eval/eval_tactics.py (new)   tools/data/build_d1_tac.py (new)
+tests/test_tactics_integration.py (new) + tests/test_candidates*.py, tests/test_d1_format.py, tests/test_live_loop.py,
+tests/test_policy.py (update only as needed)
+```
+- Callers that pass no tactics must see **identical behaviour and output**. Existing tests must pass unchanged unless a change is listed here.
+
+### Z3.1 Candidates (`clashbot/candidates.py`)
+- `Candidate` gains `tile: list[float] | None = None` and `note: str | None = None`, as trailing defaulted fields.
+- `CandidateGenerator.generate(state, t, context_text, n=4, report=None, tac_n=2, **filters)`.
+- **With `report is None`, nothing changes:** no notes, no tiles.
+- **With a report:**
+  1. **Tactical candidates.** Walk `report.moves` in order and keep the moves whose `key` is in `legal_action_keys(state, cards)`, up to `tac_n` distinct keys. Each becomes `Candidate(key, score=move.score, sources={"tac": round(move.score, 4)}, tile=move.tile, note=f"tactics: {move.intent}, {move.reason}")`.
+  2. **Lookup candidates** come next: today's kNN/KG ranking, skipping keys already taken.
+     - A lookup key equal to a tactical key merges its `knn`/`kg` sources into the tactical candidate.
+     - If `knn > 0`, append `; pros played this too` to the note.
+  3. **Lookup notes.** All lookup notes come from one shared helper, `_lookup_note(key, knn_n, kg_n, kg_threat)`:
+     - `knn_n > 0` → `pros played this in similar states (support {knn_n:.2f})`;
+     - else `kg_n > 0` → `known counter of {threat card}`. Remember which threat produced each KG key in `generate`.
+     - else, for fallback candidates → `filler: no pro or counter support`.
+  4. The total is still `n`; fill from `legal` as today if short.
+- **`CandidateGenerator.option_notes(state, t, context_text, keys, report=None, **filters) -> dict[str, str]`** computes the notes the live path would attach to arbitrary `keys`, with the same kNN/KG normalisation as `generate`:
+  - a key that is one of the report's moves → its tactics note;
+  - otherwise → the lookup note (or none).
+
+  `build_d1_tac.py` uses it, so training and live notes come from the same code.
+
+### Z3.2 d1 request with notes (`clashbot/d1_format.py`, `clashbot/ranker.py`)
+- `joint_request(context_text, candidate_keys, plan=None, notes=None)`: when `notes` has a non-empty entry for a key, the criterion becomes `option_description(key) + " — " + note`.
+  - Clip the note to 120 characters.
+  - Reject `"<|"`, as the state is rejected.
+  - Without notes the output is byte-identical.
+- `D1Ranker.build_request(..., notes=None)` and `choose_keys(context, keys, plan=None, notes=None)` pass the notes through.
+- `clashbot/live.py::rank_keys(ranker, context, keys, plan, notes=None)` forwards `notes` only when the ranker's `choose_keys` accepts it (inspect the signature), so fakes keep working.
+- **`TacticsRanker`** (in `ranker.py`), name `"tactics"`. `choose_candidates(cands) -> RankResult` returns:
+  - the index of the highest `sources.get("tac")` (ties → first);
+  - else 0;
+  - one-hot probs.
+
+### Z3.3 Policy exemption (`clashbot/policy.py`)
+- In `ReactivePolicy.filter_candidates`, candidates whose `sources` contain `"tac"` skip the lane/zone constraints of defend, leak and punish. The engine placed them on purpose: a Tesla pull tile is in the middle lane while the threat is in the right lane.
+- They **still** go through the spell rule (`_unblind`, including the defend-threat check).
+- Order is unchanged.
+- Test: a tactical tesla at `middle|mid` survives a defend decision for lane right; a tactical spell with no worthwhile target is dropped.
+
+### Z3.4 Live loop (`clashbot/live.py`)
+- `LiveLoop(..., tactics=None)` takes a `TacticalEngine` or None.
+- In `step`, after `verdict.act` is True:
+  - `report = self.tactics.analyse(state, t)` if engine;
+  - `rank_ctx = ctx + "\n" + "\n".join(report.lines)` (else `ctx`);
+  - `generate(..., report=report)`;
+  - rank with `rank_ctx` and `notes={c.key: c.note for c in cands if c.note}`.
+- If the ranker has `choose_candidates`, use it instead of `rank_keys`.
+- The act policy keeps receiving `ctx` (its head was trained without tactics).
+- **Tile precedence** for the chosen key:
+  1. policy `target_tile` (spells);
+  2. else the chosen candidate's `tile`;
+  3. else `placement_tile`.
+- **Logging:**
+  - each decision record gains `"tactics_lines"` (list, `[]` without an engine);
+  - each logged candidate gains `"tile"` and `"note"`.
+  - `summary()` gains `"decisions_by_source"`, a Counter of the chosen candidate's top source: `tac` / `knn` / `kg` / `fallback` / `hold`.
+- **CLI:**
+  - `--ranker score|d1|tactics`;
+  - `--no-tactics` (the default is tactics on);
+  - `main` builds `TacticalEngine(cards, kg=<the KnowledgeGraph given to the generator>)`;
+  - `--ranker tactics` → `TacticsRanker()`.
+- **Tests (fakes):**
+  - the ranker context contains the lines, and the policy context does not;
+  - notes reach the ranker;
+  - tile precedence (all three levels);
+  - `--ranker tactics` picks the highest `tac` candidate;
+  - `--no-tactics` → identical to today;
+  - log fields present.
+
+### Z3.5 `tools/eval/eval_tactics.py` (offline, CPU, no models)
+```
+$PY tools/eval/eval_tactics.py [--dataset DIR] [--splits val,test] [--out PATH]
+```
+1. **Per play record.** For each record in `<dataset>/states.jsonl` of the split with `action.type == "play"` and a known card: `report = engine.analyse(rec["state"], rec["t"])`. Report:
+   - **coverage**: `best` not None;
+   - **top-1 card agreement**: `best.card == pro card`;
+   - **top-3 card agreement**: the pro card is among `moves[:3]`;
+   - when the card matches: lane and zone agreement (`lane_of` / `zone_of` of the move tile vs the action's lane / zone), and the mean tile distance to `action.tile`.
+
+   Report each overall and split by situation: `push` (report has pushes) vs `no push`.
+   The engine uses `kg=KnowledgeGraph()` if it loads, else no KG.
+2. **4-way grid.** For each line of `<dataset>/ranker/<split>.jsonl` (fields `id`, `options[].key`, `options[].source == "pos"` marks the answer), with the state from `states.jsonl` by `id`:
+   - the tactics ranker picks the option with the highest `engine.score_key(key, state, report)`; None counts as −inf, ties → first;
+   - report its accuracy next to random 0.25, placement prior 0.493 / 0.384 and d1 fine-tuned 0.524 / 0.483 (val / test; constants from `docs/data/d1_finetune_joint_eval_v1.json`).
+3. Write JSON and `.md` to `--out` (default `<dataset>/eval/tactics.json`) and print the tables.
+
+### Z3.6 `tools/data/build_d1_tac.py` (CPU, no models)
+```
+$PY tools/data/build_d1_tac.py [--dataset DIR] [--out <dataset>/d1/joint_tac]
+```
+For each line of `<dataset>/d1/joint/{train,val,test}.jsonl`:
+- `rec = states[id]`, `report = engine.analyse(rec["state"], rec["t"])`.
+- `context` = `render_context(rec["state"], rec["t"])`; it must equal the line's state text. Count mismatches; if there is one, use the line's state text.
+- `notes = generator.option_notes(rec["state"], rec["t"], context, keys, report, splits=("train",), exclude_game=rec["game_id"])`. This avoids retrieving the line's own game.
+- The new line has state = `context + "\n" + "\n".join(report.lines)` and the same questions, with notes applied through `joint_request(context_with_lines, keys, notes=notes)`.
+- Answers and metadata are unchanged.
+- Validate every line with `d1_format.validate`.
+- `stats.json`, per split:
+  - lines;
+  - the share of lines where the answer key has a tactics note;
+  - the share where the tactics top move is the answer;
+  - the share with any lookup note;
+  - mean state characters.
+- Build the generator and engine exactly as `clashbot/live.py::main` does: `StateIndex()`, `KnowledgeGraph()`, `load_cards()`.
+
+### Z3.7 Tests (`tests/test_tactics_integration.py` + updates)
+1. `generate` with a fake report:
+   - tactical candidates come first, with tile and note;
+   - illegal tactical keys are skipped;
+   - a duplicate lookup key is merged into the tactical candidate;
+   - lookup notes are present.
+2. Without a report, the result is identical to before. Compare to a call on the same fakes.
+3. `option_notes` gives the same notes as `generate` for the keys `generate` returned.
+4. `joint_request` with notes: the criteria are suffixed, and `validate` passes. Without notes, the output is byte-identical.
+5. The policy exemption (Z3.3).
+6. The live-loop items of Z3.4.
+7. `eval_tactics.main` and `build_d1_tac.main` on a tiny synthetic dataset dir, with a fake `StateIndex`/`KnowledgeGraph` (monkeypatched): files written, metrics present, validate passes.
+
+### Z3.8 Smoke (CPU only; a GPU training job may be running; never load d1, never touch the screen)
+- `$PY tools/eval/eval_tactics.py --out runs/smoke/Z3/tactics.json`: paste both tables.
+- `$PY tools/data/build_d1_tac.py --out runs/smoke/Z3/joint_tac`: paste the stats and one example val line (state tail + criteria).
+- Then the full suite.
+
+### Z3.9 Heavy runs (Opus)
+- `build_d1_tac.py` → `dataset/v1/d1/joint_tac`.
+- `train_d1.py --variant joint --data dataset/v1/d1/joint_tac --init db/models/d1-ft-joint --epochs 2 --out db/models/d1-ft-joint-tac`.
+- Evaluate it on `joint_tac` val/test against `d1-ft-joint` on `joint`, and against the tactics ranker.
+- Then a live match with `--ranker d1 --d1-model db/models/d1-ft-joint-tac`.
