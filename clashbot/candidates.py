@@ -1,4 +1,8 @@
-"""Candidate generation: kNN over similar pro states fused with KG counters (D-007)."""
+"""Candidate generation: kNN over similar pro states fused with KG counters (D-007), plus tactical moves (MAC-Z3).
+
+With a `TacticalReport` (clashbot.tactics) the generator puts the engine's concrete moves first, then the lookup
+candidates, and gives every candidate a one-line note for d1. Without a report nothing changes: no notes, no tiles.
+"""
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -9,12 +13,17 @@ from clashbot.game_rules import (action_key, lane_of, legal_action_keys, legal_c
 from clashbot.kg import KnowledgeGraph
 from clashbot.retrieval import StateIndex
 
+PROS_ALSO = "; pros played this too"
+FILLER_NOTE = "filler: no pro or counter support"
+
 
 @dataclass
 class Candidate:
     key: str
     score: float
-    sources: dict          # e.g. {"knn": 0.031, "kg": 0.5}
+    sources: dict          # e.g. {"knn": 0.031, "kg": 0.5}; {"tac": 0.9} for a tactical move
+    tile: list[float] | None = None     # concrete deploy tile (tactical candidates only)
+    note: str | None = None             # one line for the d1 option description
 
 
 def _normalise(channel: dict[str, float]) -> dict[str, float]:
@@ -24,6 +33,23 @@ def _normalise(channel: dict[str, float]) -> dict[str, float]:
     if top <= 0:
         return {k: 0.0 for k in channel}
     return {k: v / top for k, v in channel.items()}
+
+
+def _lookup_note(key: str, knn_n: dict[str, float], kg_n: dict[str, float], kg_threat: dict[str, str],
+                 filler: bool = False) -> str | None:
+    """The note of a lookup (non-tactical) key: pros played it, else it is a known counter, else (`filler`, for
+    fallback candidates) a filler line. `knn_n` / `kg_n` are the normalised channels, `kg_threat` the threat card
+    that produced each KG key."""
+    if knn_n.get(key, 0.0) > 0:
+        return f"pros played this in similar states (support {knn_n[key]:.2f})"
+    if kg_n.get(key, 0.0) > 0:
+        return f"known counter of {kg_threat.get(key, 'the threat')}"
+    return FILLER_NOTE if filler else None
+
+
+def _tac_note(move, knn_value: float) -> str:
+    note = f"tactics: {move.intent}, {move.reason}"
+    return note + PROS_ALSO if knn_value > 0 else note
 
 
 class CandidateGenerator:
@@ -48,11 +74,10 @@ class CandidateGenerator:
                 threats.append((u["card"], u.get("tile")))
         return threats
 
-    def generate(self, state: dict, t: float, context_text: str, n: int = 4, **filters) -> list[Candidate]:
+    def _channels(self, state: dict, t: float, context_text: str, legal_set: set[str], **filters):
+        """(knn_n, kg_n, kg_threat): the normalised kNN and KG channels over the legal keys, and for each KG key the
+        threat card that contributed most to it."""
         cards = self.cards
-        legal = legal_action_keys(state, cards)
-        legal_set = set(legal)
-
         knn: dict[str, float] = {}
         hits = self.index.search(state, t, context_text, k=20, depth=50, **filters)
         for hit in hits:
@@ -60,6 +85,8 @@ class CandidateGenerator:
                 knn[hit.action_key] = knn.get(hit.action_key, 0.0) + hit.score
 
         kg: dict[str, float] = {}
+        kg_threat: dict[str, str] = {}
+        kg_best: dict[str, float] = {}
         own_cards = set(legal_cards(state, cards))
         for threat, tile in self._threats(state, t):
             for c, s in self.kg.counter_scores(threat).items():
@@ -73,24 +100,73 @@ class CandidateGenerator:
                     key = action_key(c, lane_of(tile) or "middle", "mid")
                 if key in legal_set:
                     kg[key] = kg.get(key, 0.0) + s
+                    if s > kg_best.get(key, float("-inf")):
+                        kg_best[key], kg_threat[key] = s, threat
+        return _normalise(knn), _normalise(kg), kg_threat
 
-        knn_n = _normalise(knn)
-        kg_n = _normalise(kg)
+    def generate(self, state: dict, t: float, context_text: str, n: int = 4, report=None, tac_n: int = 2,
+                 **filters) -> list[Candidate]:
+        """`n` candidates. With a tactics `report` the first (up to `tac_n`) are its legal moves, each with its tile
+        and a note; the rest come from the lookup ranking (skipping the tactical keys, whose knn / kg support is
+        merged into the tactical candidate) and then from the legal keys. Without a report: lookup only, no notes."""
+        cards = self.cards
+        legal = legal_action_keys(state, cards)
+        legal_set = set(legal)
+        knn_n, kg_n, kg_threat = self._channels(state, t, context_text, legal_set, **filters)
+
         score: dict[str, float] = {}
         for key in set(knn_n) | set(kg_n):
             score[key] = knn_n.get(key, 0.0) + self.kg_weight * kg_n.get(key, 0.0)
 
-        ranked = sorted(score, key=lambda k: (-score[k], k))
-        plays = ranked[: max(n, 0)]
-        out = [Candidate(k, score[k], {"knn": round(knn_n.get(k, 0.0), 4), "kg": round(kg_n.get(k, 0.0), 4)})
-               for k in plays]
+        out: list[Candidate] = []
+        taken: set[str] = set()
+        if report is not None:
+            for move in report.moves:
+                if len(out) >= min(max(tac_n, 0), max(n, 0)):
+                    break
+                if move.key in taken or move.key not in legal_set:
+                    continue
+                sources = {"tac": round(move.score, 4)}
+                if move.key in score:
+                    sources.update(knn=round(knn_n.get(move.key, 0.0), 4), kg=round(kg_n.get(move.key, 0.0), 4))
+                out.append(Candidate(move.key, move.score, sources, list(move.tile),
+                                     _tac_note(move, knn_n.get(move.key, 0.0))))
+                taken.add(move.key)
+
+        ranked = [k for k in sorted(score, key=lambda k: (-score[k], k)) if k not in taken]
+        for k in ranked[: max(n - len(out), 0)]:
+            note = _lookup_note(k, knn_n, kg_n, kg_threat) if report is not None else None
+            out.append(Candidate(k, score[k], {"knn": round(knn_n.get(k, 0.0), 4), "kg": round(kg_n.get(k, 0.0), 4)},
+                                 note=note))
+            taken.add(k)
         if len(out) < n:
-            chosen = set(plays)
             for k in legal:
                 if len(out) >= n:
                     break
-                if k == HOLD_KEY or k in chosen:
+                if k == HOLD_KEY or k in taken:
                     continue
-                out.append(Candidate(k, 0.0, {"fallback": 1}))
-                chosen.add(k)
+                out.append(Candidate(k, 0.0, {"fallback": 1}, note=FILLER_NOTE if report is not None else None))
+                taken.add(k)
         return out
+
+    def option_notes(self, state: dict, t: float, context_text: str, keys: list[str], report=None,
+                     tac_n: int | None = None, **filters) -> dict[str, str]:
+        """The notes `generate(..., report=report)` would attach to `keys` (any keys, e.g. the options of a training
+        example): a key that is one of the report's moves gets its tactics note, every other key its lookup note
+        (pros played it / known counter / filler), all from the same kNN / KG normalisation as `generate`.
+        `tac_n=None` (training export) lets every report move count; `tac_n=N` restricts them to the first N legal
+        moves, exactly the ones `generate(..., tac_n=N)` turns into tactical candidates."""
+        legal_set = set(legal_action_keys(state, self.cards))
+        knn_n, kg_n, kg_threat = self._channels(state, t, context_text, legal_set, **filters)
+        moves: dict[str, object] = {}
+        for move in (report.moves if report is not None else []):
+            if tac_n is not None and (len(moves) >= tac_n or move.key not in legal_set):
+                continue
+            moves.setdefault(move.key, move)
+        notes: dict[str, str] = {}
+        for key in keys:
+            if key in moves:
+                notes[key] = _tac_note(moves[key], knn_n.get(key, 0.0))
+            else:
+                notes[key] = _lookup_note(key, knn_n, kg_n, kg_threat, filler=True)
+        return notes

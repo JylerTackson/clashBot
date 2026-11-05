@@ -6,6 +6,8 @@ generator's output to moves that fit that decision (no blind spells). A damage s
 `target_tile` hands that aim to the live loop instead of the pro median tile. `LearnedActPolicy` (MAC-X) adds a
 learned play/wait head on top: the rules keep the safety modes (defend / leak), a d1 act-head decides the rest.
 `clashbot.loop.should_decide` stays as the replay trigger and the `--policy trigger` fallback of the live loop.
+Candidates from the tactics engine (`"tac"` in their sources, MAC-Z3) were placed on purpose: they skip the lane and
+zone constraints of defend / leak / punish, but damage spells among them still need a worthwhile target.
 """
 from __future__ import annotations
 
@@ -222,7 +224,8 @@ class ReactivePolicy:
             if not self._is_spell(p.card):
                 out.append(p)
             elif p.card in NON_DAMAGE_SPELLS:
-                if (p.lane, p.zone) in enemy_cells:
+                # a tactical win-condition spell (goblin barrel, graveyard) is aimed at a tower, not at a unit
+                if (p.lane, p.zone) in enemy_cells or "tac" in p.sources:
                     out.append(p)
             else:
                 target = self.spell_target(p.card, p.lane, p.zone, state)
@@ -244,20 +247,23 @@ class ReactivePolicy:
         kept = self._unblind([_parse(c) for c in candidates], state, decision)
         spell_filtered = [p.obj for p in kept]
         lane = decision.lane
+        tac = lambda p: "tac" in p.sources          # noqa: E731  tactical candidates: placed on purpose, no lane / zone rule
 
         if decision.mode == "defend":
             fits = [p.obj for p in kept
-                    if (lane is None or p.lane == lane) and (self._is_spell(p.card) or p.zone in DEFEND_ZONES)]
+                    if tac(p) or ((lane is None or p.lane == lane)
+                                  and (self._is_spell(p.card) or p.zone in DEFEND_ZONES))]
             if fits:
                 return fits
             kg = [p.obj for p in kept if p.sources.get("kg", 0) > 0]
             return kg or spell_filtered
         if decision.mode == "leak":
-            fits = [p.obj for p in kept if p.zone in LEAK_ZONES and (lane is None or p.lane == lane)]
+            fits = [p.obj for p in kept if tac(p) or (p.zone in LEAK_ZONES and (lane is None or p.lane == lane))]
             return fits or spell_filtered
         if decision.mode == "punish":
             return [p.obj for p in kept
-                    if not self._is_spell(p.card) and (lane is None or p.lane == lane) and p.zone in PUNISH_ZONES]
+                    if tac(p) or (not self._is_spell(p.card) and (lane is None or p.lane == lane)
+                                  and p.zone in PUNISH_ZONES)]
         return spell_filtered
 
 

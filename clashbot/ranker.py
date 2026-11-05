@@ -1,4 +1,4 @@
-"""Fast-loop rankers (D-007): ScoreRanker baseline, Laya stub, and D1Ranker running LiquidAI d1-omni-600M through mlx-vlm (default) or transformers (D-026)."""
+"""Fast-loop rankers (D-007): ScoreRanker baseline, TacticsRanker (the tactics engine's own pick, MAC-Z3), Laya stub, and D1Ranker running LiquidAI d1-omni-600M through mlx-vlm (default) or transformers (D-026)."""
 from __future__ import annotations
 
 import time
@@ -39,6 +39,22 @@ class Ranker(Protocol):
 class ScoreRanker:
     """Baseline: trusts the candidate generator order."""
     name = "score"
+
+    def choose(self, context: str, options: list[str], plan: str | None = None) -> RankResult:
+        return RankResult(index=0, probs=[1.0] + [0.0] * (len(options) - 1), model=self.name)
+
+
+class TacticsRanker:
+    """Picks the candidate the tactics engine ranked highest: the largest `sources["tac"]` (ties: the first), else the
+    first candidate. Used through `choose_candidates` by the live loop; no model, no context."""
+    name = "tactics"
+
+    def choose_candidates(self, cands: list) -> RankResult:
+        tac = [((c.get("sources") if isinstance(c, dict) else c.sources) or {}).get("tac") for c in cands]
+        scored = [i for i, v in enumerate(tac) if v is not None]
+        index = max(scored, key=lambda i: (tac[i], -i)) if scored else 0
+        return RankResult(index=index, probs=[1.0 if i == index else 0.0 for i in range(len(cands))],
+                          model=self.name)
 
     def choose(self, context: str, options: list[str], plan: str | None = None) -> RankResult:
         return RankResult(index=0, probs=[1.0] + [0.0] * (len(options) - 1), model=self.name)
@@ -99,8 +115,9 @@ class D1Ranker:
         self._model = None
         self._processor = None
 
-    def build_request(self, context: str, candidate_keys: list[str], plan: str | None = None) -> tuple[str, dict]:
-        return d1_format.joint_request(context, candidate_keys, plan)
+    def build_request(self, context: str, candidate_keys: list[str], plan: str | None = None,
+                      notes: dict[str, str] | None = None) -> tuple[str, dict]:
+        return d1_format.joint_request(context, candidate_keys, plan, notes)
 
     # --- backends -------------------------------------------------------------------------------
     def _load(self) -> None:
@@ -143,8 +160,9 @@ class D1Ranker:
             out[name] = _normalise(name, q, answers[name])
         return out
 
-    def choose_keys(self, context: str, candidate_keys: list[str], plan: str | None = None) -> RankResult:
-        state, questions = self.build_request(context, candidate_keys, plan)
+    def choose_keys(self, context: str, candidate_keys: list[str], plan: str | None = None,
+                    notes: dict[str, str] | None = None) -> RankResult:
+        state, questions = self.build_request(context, candidate_keys, plan, notes)
         probs = self.probabilities(state, questions)[d1_format.JOINT_NAME]
         return RankResult(index=argmax_first(probs), probs=probs, model=f"d1-{self.backend}")
 

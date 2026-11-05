@@ -5,17 +5,20 @@ state, ranker, planner, executor) are imported lazily inside the builders so thi
 with fakes. The act policy is reactive by default (clashbot.policy: defend / leak / punish, else hold and save
 elixir); `--policy learned --act-model PATH` adds the d1 act-head (MAC-X); `--policy trigger` restores the
 fixed-interval `should_decide`. The loop plays only cards it can see in the hand (`require_hand`) and asks the
-policy for a spell's aim point (`target_tile`) when it has one.
+policy for a spell's aim point (`target_tile`) when it has one. With a `TacticalEngine` (default; `--no-tactics` turns
+it off, MAC-Z3) the candidates start with the engine's concrete moves, every candidate carries a note, and the ranker
+sees the engine's lines after the context; `--ranker tactics` plays the engine's own pick without any model.
 Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
 """
 from __future__ import annotations
 
 import argparse
+import inspect
 import json
 import sys
 import time
 from collections import Counter
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from pathlib import Path
 
@@ -29,6 +32,7 @@ from clashbot.kg import KnowledgeGraph
 from clashbot.loop import should_decide
 from clashbot.policy import ActDecision, ReactivePolicy
 from clashbot.retrieval import StateIndex
+from clashbot.tactics import TacticalEngine
 
 STAGES = ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")
 FRAME_STAGES = ("capture", "perception", "live_state")
@@ -44,22 +48,36 @@ class LiveDecision:
     idx: int
     key: str
     tile: list[float] | None
-    candidates: list[dict]        # [{"key", "score", "sources"}]
+    candidates: list[dict]        # [{"key", "score", "sources", "tile", "note"}]
     probs: list[float]
     executor: dict                # the executor's returned entry
     timings_ms: dict              # every STAGES name
     mode: str = "trigger"         # policy mode: defend | leak | punish (reactive) or trigger
     reason: str = ""              # the policy's human-readable reason
+    tactics_lines: list = field(default_factory=list)      # the engine's lines shown to the ranker ([] without one)
 
 
-def rank_keys(ranker, context: str, keys: list[str], plan: str | None) -> tuple[int, list[float]]:
-    """Pick one of `keys`; returns (index, probs). A single key needs no model call (d1 wants >= 2 options)."""
+def _accepts_notes(fn) -> bool:
+    try:
+        params = inspect.signature(fn).parameters
+    except (TypeError, ValueError):
+        return False
+    return "notes" in params or any(p.kind is inspect.Parameter.VAR_KEYWORD for p in params.values())
+
+
+def rank_keys(ranker, context: str, keys: list[str], plan: str | None,
+              notes: dict[str, str] | None = None) -> tuple[int, list[float]]:
+    """Pick one of `keys`; returns (index, probs). A single key needs no model call (d1 wants >= 2 options).
+    `notes` (key -> one line, MAC-Z3) go to rankers whose `choose_keys` accepts them; others are called as before."""
     if not keys:
         raise ValueError("rank_keys needs at least one key")
     if len(keys) == 1:
         return 0, [1.0]
     if hasattr(ranker, "choose_keys"):
-        res = ranker.choose_keys(context, keys, plan)
+        if notes and _accepts_notes(ranker.choose_keys):
+            res = ranker.choose_keys(context, keys, plan, notes=notes)
+        else:
+            res = ranker.choose_keys(context, keys, plan)
     else:
         res = ranker.choose(context, [option_text(k) for k in keys], plan)
     return res.index, list(res.probs)
@@ -73,6 +91,26 @@ def _json_default(o):
     return str(o)
 
 
+def top_source(sources: dict) -> str:
+    """Which channel a candidate came from: tac (the tactics engine), knn / kg (the larger), else fallback."""
+    if "tac" in sources:
+        return "tac"
+    knn, kg = sources.get("knn") or 0.0, sources.get("kg") or 0.0
+    if knn <= 0 and kg <= 0:
+        return "fallback"
+    return "knn" if knn >= kg else "kg"
+
+
+def decision_source(d: "LiveDecision") -> str:
+    """`top_source` of the chosen candidate, or "hold" when the decision held."""
+    if d.key == HOLD_KEY:
+        return "hold"
+    for c in d.candidates:
+        if c["key"] == d.key:
+            return top_source(c.get("sources") or {})
+    return "fallback"
+
+
 def _pcts(vals: list[float]) -> dict:
     if not vals:
         return {"p50": None, "p95": None}
@@ -82,7 +120,8 @@ def _pcts(vals: list[float]) -> dict:
 class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
-                 clock=time.perf_counter, min_gap_s: float = 1.0, policy=None, require_hand: bool = True):
+                 clock=time.perf_counter, min_gap_s: float = 1.0, policy=None, require_hand: bool = True,
+                 tactics=None):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -101,6 +140,7 @@ class LiveLoop:
             policy = ReactivePolicy(cards)
         self.policy = None if policy == "trigger" else policy
         self.require_hand = require_hand             # never tap a card the hand read does not show (FIX_LIST #27)
+        self.tactics = tactics                       # a TacticalEngine (MAC-Z3) or None = lookup candidates only
         self.hand_unknown_holds = 0                  # decisions held because no candidate card was in the read hand
         self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
         self.last_decision_t: float | None = None
@@ -181,7 +221,12 @@ class LiveLoop:
                 self.policy_holds[verdict.mode] += 1
             return None
 
-        cands = generated = self.generator.generate(state, t, ctx, n=4, **self.filters)
+        report = self.tactics.analyse(state, t) if self.tactics is not None else None
+        rank_ctx = ctx if report is None else ctx + "\n" + "\n".join(report.lines)   # the act policy keeps `ctx`
+        if report is None:
+            cands = generated = self.generator.generate(state, t, ctx, n=4, **self.filters)
+        else:
+            cands = generated = self.generator.generate(state, t, ctx, n=4, report=report, **self.filters)
         if self.policy is not None:
             cands = self.policy.filter_candidates(cands, verdict, state)
         policy_hold = self.policy is not None and not cands      # wants to act, but no candidate fits (blind spells...)
@@ -192,11 +237,21 @@ class LiveLoop:
             hand_hold = not cands                                # every candidate is a card we cannot see in the hand
         f = clock()
         candidates_ms = (f - e) * 1000.0
+        chosen = None
         if not cands:
             key, probs, rank_ms, g = HOLD_KEY, [], 0.0, f
         else:
-            i, probs = rank_keys(self.ranker, ctx, [x.key for x in cands], self.plan_text)
-            key = cands[i].key
+            if len(cands) == 1:
+                i, probs = 0, [1.0]
+            elif hasattr(self.ranker, "choose_candidates"):         # e.g. the tactics ranker: reads the candidates
+                res = self.ranker.choose_candidates(cands)
+                i, probs = res.index, list(res.probs)
+            else:
+                notes = {x.key: x.note for x in cands if getattr(x, "note", None)}
+                i, probs = rank_keys(self.ranker, rank_ctx, [x.key for x in cands], self.plan_text,
+                                     notes=notes or None)
+            chosen = cands[i]
+            key = chosen.key
             g = clock()
             rank_ms = (g - f) * 1000.0
 
@@ -220,6 +275,8 @@ class LiveLoop:
         else:
             aim = getattr(self.policy, "target_tile", None)      # spells aim at the enemy units, not the prior
             tile = aim(key, state) if callable(aim) else None
+            if tile is None and getattr(chosen, "tile", None) is not None:
+                tile = list(chosen.tile)                            # a tactical candidate carries its own tile
             if tile is None:
                 tile = placement_tile(key, self.prior)
             entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
@@ -238,8 +295,10 @@ class LiveLoop:
             self._handled_opp_t = max(self._handled_opp_t, max(opp_ts))
         decision = LiveDecision(
             t=t, idx=idx, key=key, tile=tile,
-            candidates=[{"key": x.key, "score": x.score, "sources": x.sources} for x in cands],
-            probs=list(probs), executor=entry, timings_ms=timings, mode=verdict.mode, reason=verdict.reason)
+            candidates=[{"key": x.key, "score": x.score, "sources": x.sources, "tile": getattr(x, "tile", None),
+                         "note": getattr(x, "note", None)} for x in cands],
+            probs=list(probs), executor=entry, timings_ms=timings, mode=verdict.mode, reason=verdict.reason,
+            tactics_lines=list(report.lines) if report is not None else [])
         self.decisions.append(decision)
         self._write("decisions.jsonl", {**asdict(decision), "elixir": state["own"]["elixir"],
                                         "hand": state["own"]["hand"], "context_text": ctx})
@@ -306,6 +365,7 @@ class LiveLoop:
             "target_met": None if total_p95 is None else bool(total_p95 < TARGET_P95_MS),
             "decisions_by_status": dict(Counter(d.executor.get("status", "dry_run") for d in self.decisions)),
             "decisions_by_mode": dict(Counter(d.mode for d in self.decisions)),
+            "decisions_by_source": dict(Counter(decision_source(d) for d in self.decisions)),
             "policy_holds": dict(self.policy_holds),
             "hand_unknown_holds": self.hand_unknown_holds,
             "rect_updates": sum(1 for r in self.frames if r.get("rect_changed")),
@@ -338,7 +398,10 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--sync-ocr", action="store_true", help="run OCR inline instead of on the background worker")
     ap.add_argument("--imgsz", type=int, default=640)
     ap.add_argument("--device", choices=("cpu", "mps"), default=None)
-    ap.add_argument("--ranker", choices=("score", "d1"), default="score")
+    ap.add_argument("--ranker", choices=("score", "d1", "tactics"), default="score",
+                    help="tactics = the tactics engine's own pick (needs the engine, i.e. no --no-tactics)")
+    ap.add_argument("--no-tactics", action="store_true",
+                    help="no tactics engine: lookup candidates only, no notes (the pre-MAC-Z3 behaviour)")
     ap.add_argument("--d1-backend", choices=("mlx", "transformers"), default="mlx")
     ap.add_argument("--d1-model", default=None, help="d1 model path / repo id (e.g. a fine-tuned checkpoint)")
     ap.add_argument("--planner", choices=("rules", "llm", "none"), default="rules")
@@ -387,6 +450,9 @@ def _build_ranker(args):
     if args.ranker == "d1":
         from clashbot.ranker import D1Ranker
         return D1Ranker(model_path=args.d1_model, backend=args.d1_backend)
+    if args.ranker == "tactics":
+        from clashbot.ranker import TacticsRanker
+        return TacticsRanker()
     from clashbot.ranker import ScoreRanker
     return ScoreRanker()
 
@@ -459,6 +525,9 @@ def main(argv: list[str] | None = None) -> int:
     if args.rect and len(_split(args.rect)) != 4:
         print("error: --rect needs l,t,w,h", file=sys.stderr)
         return 2
+    if args.ranker == "tactics" and args.no_tactics:
+        print("error: --ranker tactics needs the tactics engine (drop --no-tactics)", file=sys.stderr)
+        return 2
     if args.policy == "learned":
         if not args.act_model:
             print("error: --policy learned needs --act-model PATH", file=sys.stderr)
@@ -489,7 +558,9 @@ def main(argv: list[str] | None = None) -> int:
         from clashbot.live_state import LiveConfig, LiveStateBuilder
         builder = LiveStateBuilder(LiveConfig(own_deck=deck, hero_cards=heroes, hand_tracker=True))
         cards = load_cards()
-        generator = CandidateGenerator(StateIndex(), KnowledgeGraph(), cards)
+        kg = KnowledgeGraph()
+        generator = CandidateGenerator(StateIndex(), kg, cards)
+        tactics = None if args.no_tactics else TacticalEngine(cards, kg=kg)
         ranker = _build_ranker(args)
         policy = _build_policy(args, cards)
         plan_text = _build_plan_text(args, deck)
@@ -506,10 +577,10 @@ def main(argv: list[str] | None = None) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "config.json").write_text(json.dumps(vars(args), indent=2, default=str))
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
-                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy)
+                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy, tactics=tactics)
     mode = "LIVE" if args.live else "dry run"
     print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} policy={args.policy} "
-          f"out={out_dir}")
+          f"tactics={'off' if args.no_tactics else 'on'} out={out_dir}")
     summary = loop.run(max_seconds=args.seconds, max_decisions=args.max_decisions)
     print(f"frames={summary['frames']} decisions={summary['decisions']} "
           f"readiness={summary['readiness_counts']} status={summary['decisions_by_status']}")

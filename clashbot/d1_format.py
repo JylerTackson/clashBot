@@ -16,6 +16,8 @@ ACT_INSTRUCTIONS = "Should we deploy a card right now rather than wait?"
 ACT_CRITERIA = {"true": "deploy a card now", "false": "wait and keep elixir"}
 
 _QUESTION_TYPES = {"choice", "score", "noul"}
+NOTE_SEP = " \u2014 "         # option description + " — " + note
+NOTE_MAX_CHARS = 120
 
 
 def state_string(context_text: str, plan: str | None = None) -> str:
@@ -37,15 +39,28 @@ def option_description(key: str) -> str:
     return f"{card} {lane} lane, {ZONE_CRITERIA[zone]}"
 
 
-def joint_request(context_text: str, candidate_keys: list[str], plan: str | None = None) -> tuple[str, dict]:
+def option_with_note(key: str, note: str | None = None) -> str:
+    """The criterion text of a joint option: its description, plus " — note" (clipped to NOTE_MAX_CHARS) when given."""
+    if not note:
+        return option_description(key)
+    if "<|" in note:
+        raise ValueError("option note must not contain '<|'")
+    return f"{option_description(key)}{NOTE_SEP}{note[:NOTE_MAX_CHARS]}"
+
+
+def joint_request(context_text: str, candidate_keys: list[str], plan: str | None = None,
+                  notes: dict[str, str] | None = None) -> tuple[str, dict]:
+    """`notes` maps a key to a one-line note (tactics / lookup, MAC-Z3) appended to that option's description;
+    without notes the request is exactly the pre-tactics one."""
     keys = list(candidate_keys)
     if len(keys) < 2:
         raise ValueError(f"need at least 2 candidate keys, got {len(keys)}")
     if len(set(keys)) != len(keys):
         raise ValueError("duplicate candidate keys")
     state = state_string(context_text, plan)
+    notes = notes or {}
     questions = {JOINT_NAME: {"type": "choice", "instructions": JOINT_INSTRUCTIONS,
-                              "criteria": {key: option_description(key) for key in keys}}}
+                              "criteria": {key: option_with_note(key, notes.get(key)) for key in keys}}}
     return state, questions
 
 
