@@ -150,3 +150,28 @@ The detached overnight chain finished on 2026-11-04 at 17:47 (perception 00:04 �
 
 All 197 games of `games.jsonl` are covered (no game skipped for missing time or perception); 3,540 sample times (8 %) had no perception row within 0.6 s and were dropped (test 17 %, from gaps in a few videos). 176 game windows also contained rows of a neighbouring match; only the dominant match was used (FIX_LIST #24). Per game: 56–361 samples, pro act rate 0.04–0.45, no game without plays. Pros wait about 80 % of the seconds, and only slightly more often play right after an opponent play or when a unit threatens a tower: the act head has to learn *when*, not just *whether*, to react.
 **Next.** Live Training Camp test with the fine-tuned d1 + reactive policy (command in `runs/overnight/README.txt`); then `runs/overnight/NEXT.sh` (sample → act-head fine-tune → offline eval → `--policy learned` live command).
+
+## 2026-11-05 (evening) — live match 2, fixes, tactical engine (D-042/43/44)
+
+**Live match 2** (`runs/poc/20261105-172506`, fine-tuned d1 + reactive rules, lost in about 1 min of play): 15 of 27 decisions were skipped because the hand read `?` (greyed cards are not recognized); spells landed on the pro median tile, not on units; 10 elixir went in the first 15 s. Only 3 of 22 moves came from kNN: 105 / 197 pro games share none of the user's cards. Fixed in MAC-Y (#26–#29): positional hand memory with deck-cycle inference, no taps from an unread hand, damage spells aimed at the best worthwhile cluster (with lead) and never on a lone tank.
+**User decisions.**
+- D-042: a tactical engine, with d1 reasoning over lookup plus tactics.
+- D-043: perception may be fixed from specs.
+- D-044: switch to the KB's best-covered deck, Goblin Barrel bait with Magic Archer (13 exact pro games, 43 sharing ≥ 5 cards).
+**Tactical engine (MAC-Z1–Z3).**
+- `clashbot/card_roles.py` + `resources/card_roles.json`: 122 cards; 90 stats-derived from RoyaleAPI cr-api-data, 12 deliberate manual overrides (chain/pierce/multi-unit cards).
+- `clashbot/tactics.py`:
+  - groups enemy units into pushes per lane, with needs (air / tank / swarm / building-targeter);
+  - scores hand counters by role, KG and elixir trade;
+  - places them relative to the threat (building pull tile, melee in front, ranged behind the tower, kamikaze ahead, spells on the cluster);
+  - proposes counter-push / punish / leak moves.
+- The live loop gives d1 the `tactics:` lines in its context and per-option notes (tactics reason vs "pros played this in similar states" vs "known counter of …"). Tactical moves keep their own tile. `--ranker tactics` is a baseline, and `--no-tactics` turns the engine off.
+
+**Offline check vs the pro plays** (`docs/data/tactics_eval_v1.md`):
+- The engine is only marginally better than chance at naming the pro's card when a push is on (top-1 19 % vs 17 % for a random affordable card). It is at chance on the 4-way grid (27.5 % / 25.5 % val / test vs 25 % random, 38–49 % placement prior, 48–52 % fine-tuned d1).
+- These numbers are capped by perception: in the pro data the hand is fully read in only 34–37 % of moments, and the pro's card is in the visible affordable hand only 47 % of the time.
+- Agreement with pros is therefore not the engine's yardstick. Two things are: whether it plays sensibly live, and whether d1 trained with its notes beats d1 without them.
+**Next.**
+- `dataset/v1/d1/joint_tac`, then fine-tune `d1-ft-joint-tac` from `d1-ft-joint` (after the act head; GPU serialised).
+- Live Training Camp matches with the new deck: lookup-only (`--no-tactics`) vs `--ranker tactics`.
+- Merge MAC-PF (perception fixes).

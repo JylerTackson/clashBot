@@ -1,0 +1,172 @@
+{
+  "dataset": "/Users/tylerjackson/Projects/clashbot/clashBot/dataset/v1",
+  "splits": [
+    "val",
+    "test"
+  ],
+  "kg": true,
+  "reference": {
+    "random": {
+      "val": 0.25,
+      "test": 0.25
+    },
+    "placement_prior": {
+      "val": 0.493,
+      "test": 0.384
+    },
+    "d1_finetuned": {
+      "val": 0.524,
+      "test": 0.483
+    }
+  },
+  "play": {
+    "val": {
+      "all": {
+        "n": 1216,
+        "coverage": 0.4581,
+        "top1": 0.1036,
+        "top3": 0.1579,
+        "top1_matched": {
+          "n": 126,
+          "lane": 0.3095,
+          "zone": 0.3254,
+          "tile_dist": 7.37
+        },
+        "top3_matched": {
+          "n": 192,
+          "lane": 0.3073,
+          "zone": 0.375,
+          "tile_dist": 7.29
+        }
+      },
+      "push": {
+        "n": 514,
+        "coverage": 0.8599,
+        "top1": 0.1907,
+        "top3": 0.3171,
+        "top1_matched": {
+          "n": 98,
+          "lane": 0.3061,
+          "zone": 0.2551,
+          "tile_dist": 7.27
+        },
+        "top3_matched": {
+          "n": 163,
+          "lane": 0.3006,
+          "zone": 0.3374,
+          "tile_dist": 7.27
+        }
+      },
+      "no_push": {
+        "n": 702,
+        "coverage": 0.1638,
+        "top1": 0.0399,
+        "top3": 0.0413,
+        "top1_matched": {
+          "n": 28,
+          "lane": 0.3214,
+          "zone": 0.5714,
+          "tile_dist": 7.66
+        },
+        "top3_matched": {
+          "n": 29,
+          "lane": 0.3448,
+          "zone": 0.5862,
+          "tile_dist": 7.38
+        }
+      }
+    },
+    "test": {
+      "all": {
+        "n": 1194,
+        "coverage": 0.4121,
+        "top1": 0.0905,
+        "top3": 0.1491,
+        "top1_matched": {
+          "n": 108,
+          "lane": 0.2685,
+          "zone": 0.3519,
+          "tile_dist": 8.33
+        },
+        "top3_matched": {
+          "n": 178,
+          "lane": 0.2697,
+          "zone": 0.3427,
+          "tile_dist": 8.64
+        }
+      },
+      "push": {
+        "n": 477,
+        "coverage": 0.8721,
+        "top1": 0.1803,
+        "top3": 0.3249,
+        "top1_matched": {
+          "n": 86,
+          "lane": 0.2791,
+          "zone": 0.2674,
+          "tile_dist": 8.22
+        },
+        "top3_matched": {
+          "n": 155,
+          "lane": 0.271,
+          "zone": 0.2903,
+          "tile_dist": 8.68
+        }
+      },
+      "no_push": {
+        "n": 717,
+        "coverage": 0.106,
+        "top1": 0.0307,
+        "top3": 0.0321,
+        "top1_matched": {
+          "n": 22,
+          "lane": 0.2273,
+          "zone": 0.6818,
+          "tile_dist": 8.66
+        },
+        "top3_matched": {
+          "n": 23,
+          "lane": 0.2609,
+          "zone": 0.6957,
+          "tile_dist": 8.41
+        }
+      }
+    }
+  },
+  "grid": {
+    "val": {
+      "n": 761,
+      "acc": 0.2746,
+      "scored_share": 0.2852,
+      "acc_when_scored": 0.2765,
+      "skipped_no_state": 0,
+      "by_situation": {
+        "push": {
+          "n": 326,
+          "acc": 0.2975
+        },
+        "no_push": {
+          "n": 435,
+          "acc": 0.2575
+        }
+      }
+    },
+    "test": {
+      "n": 766,
+      "acc": 0.2546,
+      "scored_share": 0.2676,
+      "acc_when_scored": 0.239,
+      "skipped_no_state": 0,
+      "by_situation": {
+        "push": {
+          "n": 300,
+          "acc": 0.24
+        },
+        "no_push": {
+          "n": 466,
+          "acc": 0.2639
+        }
+      }
+    }
+  }
+}
