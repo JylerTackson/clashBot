@@ -27,9 +27,12 @@ def _building(targets="ground", dps="medium", roles=("building",)):
             "splash": False, "range": "long", "speed": None, "count": 1, "roles": list(roles), "source": "manual"}
 
 
-def _spell(cls, radius, kills=(), roles=()):
-    return {"type": "spell", "spell_class": cls, "radius": radius, "kills": list(kills), "roles": list(roles),
+def _spell(cls, radius, kills=(), roles=(), hits_air=True):
+    role = {"type": "spell", "spell_class": cls, "radius": radius, "kills": list(kills), "roles": list(roles),
             "source": "manual"}
+    if not hits_air:
+        role["hits_air"] = False                                  # as card_roles.json does for the-log etc.
+    return role
 
 
 ROLES = {
@@ -40,6 +43,12 @@ ROLES = {
     "giant": _troop(targets="buildings", hp="tank", roles=["win_condition", "tank"]),
     "hog-rider": _troop(targets="buildings", speed="very_fast", roles=["win_condition"]),
     "ram-rider": _troop(targets="buildings", roles=["win_condition"]),
+    "battle-ram": _troop(targets="buildings", dps="high", roles=["win_condition", "kamikaze"]),
+    "wall-breakers": _troop(targets="buildings", hp="light", dps="low", count=2, splash=True, speed="very_fast",
+                            roles=["win_condition", "kamikaze"]),
+    "miner": _troop(roles=["win_condition"], speed="fast"),
+    "berserker": _troop(roles=["mini_tank"]),
+    "goblinstein": _troop(targets="air_ground", hp="tank", rng="short", roles=["tank"], speed="slow"),
     "musketeer": _troop(targets="air_ground", rng="long", roles=["support"]),
     "archers": _troop(targets="air_ground", hp="light", rng="long", count=2, roles=["support"]),
     "bats": _troop(targets="air_ground", hp="swarm", dps="low", count=3, flying=True, speed="very_fast",
@@ -51,9 +60,12 @@ ROLES = {
     "tesla": _building(targets="air_ground", roles=["building", "air_defense"]),
     "cannon": _building(roles=["building"]),
     "zap": _spell("small", 2.5, ["swarm"], ["spell_small"]),
-    "the-log": _spell("small", 2.0, ["swarm"], ["spell_small"]),
+    "the-log": _spell("small", 2.0, ["swarm"], ["spell_small"], hits_air=False),
     "fireball": _spell("medium", 2.5, ["swarm", "light"], ["spell_medium"]),
     "rage": _spell("utility", 5.0, [], ["spell_small"]),
+    "tornado": _spell("utility", 5.5),
+    "royal-delivery": _spell("small", 3.0, ["swarm"], ["spell_small"]),
+    "graveyard": _spell("utility", 4.0, [], ["win_condition"]),
     "goblin-barrel": _spell("small", 1.5, [], ["win_condition"]),
 }
 
@@ -171,10 +183,10 @@ def test_trade_bonus_and_overpay_penalty():
 
 
 def test_win_condition_is_kept_for_offence_on_defence():
-    state = _state(units=[_enemy((3, 10), "knight", eta=4.0)], hand=["hog-rider", "musketeer"])
+    state = _state(units=[_enemy((3, 10), "knight", eta=4.0)], hand=["miner", "musketeer"])
     by_card = {m.card: m for m in ENGINE.analyse(state).moves}
     assert by_card["musketeer"].score == pytest.approx(0.5)
-    assert by_card["hog-rider"].score == pytest.approx(0.1)
+    assert by_card["miner"].score == pytest.approx(0.1)
 
 
 # 5 -----------------------------------------------------------------------------------------------------------------
@@ -448,8 +460,103 @@ def test_accepts_the_role_file_layout_and_unknown_cards_count_as_medium_ground()
     assert ENGINE.analyse(unnamed).pushes[0].summary == "skeleton (0 elixir), tower in 4.0s"
 
 
-def test_real_role_table_when_z1_is_merged():
-    pytest.importorskip("clashbot.card_roles")
+def test_real_role_table():
     engine = TacticalEngine(CARDS)                                           # roles=None: load_roles()
     rep = engine.analyse(_giant_right(hand=["tesla", "knight", "zap", "musketeer"]))
     assert rep.best is not None and rep.pushes[0].lane == "right" and "tank" in rep.pushes[0].needs
+    # card_roles.hits_air: the-log carries "hits_air": false
+    bats = engine.analyse(_state(units=[_enemy(t, "bats", eta=6.0) for t in ((3, 14), (4, 14), (3.5, 15))],
+                                 hand=["the-log", "zap", "knight", "musketeer"]))
+    assert {m.card for m in bats.moves} == {"zap", "musketeer"}
+
+
+# follow-up fixes (real pro states) ----------------------------------------------------------------------------------
+def _tokens(*tiles):
+    return [{"unit_class": "skeleton", "card": None, "side": "enemy", "tile": list(t), "eta_tower": None}
+            for t in tiles]
+
+
+# fix 1: spell objects as push units
+def test_graveyard_is_a_swarm_source_and_other_spell_units_are_ignored():
+    grave = _enemy((4, 6), "graveyard")
+    state = _state(units=[grave] + _tokens((4, 6), (4.5, 6.5), (3.5, 6.5)),
+                   hand=["berserker", "knight", "zap", "musketeer"])
+    rep = ENGINE.analyse(state)
+    push = rep.pushes[0]
+    assert push.needs == ["swarm"] and push.elixir == 5.0 and grave in push.units      # its value is its cost
+    assert rep.best.card == "zap" and rep.best.intent == "defend"
+    scores = {m.card: m.score for m in rep.moves}
+    assert scores["musketeer"] > scores["berserker"] and scores["musketeer"] > scores["knight"]   # melee: -0.4
+    # a fireball or rage object on the field is an effect, not a push
+    effects = _state(units=[_enemy((4, 6), "fireball"), _enemy((9, 5), "rage", eta=2.0)])
+    rep = ENGINE.analyse(effects)
+    assert rep.pushes == [] and rep.hold_reason.startswith("no threat")
+    mixed = ENGINE.analyse(_state(units=[_enemy((4, 6), "fireball"), _enemy((3, 12), "knight", eta=4.0)]))
+    assert [u["card"] for u in mixed.pushes[0].units] == ["knight"] and mixed.pushes[0].needs == []
+
+
+# fix 2: building-only troops never defend
+def test_building_only_troops_never_defend_but_stay_available_for_offence():
+    hand = ["wall-breakers", "hog-rider", "giant", "knight"]
+    state = _state(units=[_enemy((3, 10), "knight", eta=4.0)], hand=hand, elixir=10.0)
+    rep = ENGINE.analyse(state)
+    assert {m.card for m in rep.moves if m.intent == "defend"} == {"knight"}
+    assert ENGINE.score_key("hog-rider|left|mid", state, rep) is None
+    assert ENGINE.score_key("wall-breakers|left|mid", state) is None
+    # no push at a full bar: they are the leak / counter-push cards
+    leak = ENGINE.analyse(_state(elixir=10.0, hand=hand))
+    assert leak.best.intent == "leak" and leak.best.card in {"wall-breakers", "hog-rider", "giant"}
+    ally = ENGINE.analyse(_state(elixir=6.0, units=[_ally((14.5, 10))], hand=["wall-breakers", "knight"]))
+    assert ally.best.card == "wall-breakers" and ally.best.intent == "counter_push"
+
+
+# fix 3: tanks are not ranged support
+def test_tanks_use_the_front_rule_whatever_their_range():
+    state = _state(units=[_enemy((3, 10), "musketeer", eta=4.0)], hand=["goblinstein", "musketeer"], elixir=9.0)
+    by_card = {m.card: m for m in ENGINE.analyse(state).moves}
+    assert by_card["goblinstein"].tile == [3.0, 7.5]                           # meets it in front, not behind the tower
+    assert by_card["goblinstein"].reason.startswith("tanks for the tower vs musketeer")
+    assert by_card["musketeer"].tile == [5.0, 2.5]                             # a plain ranged troop stays behind
+    deep = _state(units=[_enemy((3, 7), "knight", eta=2.0)], hand=["goblinstein"], elixir=9.0)
+    assert ENGINE.analyse(deep).best.tile == [3.0, 6.0]
+    # kamikaze and swarm roles still come first
+    spirit = _state(units=[_enemy((3, 10), "musketeer", eta=4.0)], hand=["ice-spirit"])
+    assert ENGINE.analyse(spirit).best.tile == [3.0, 7.5]
+
+
+# fix 4: the spell aim is asked for the cell the threat stands in now
+def test_spell_aim_uses_the_current_cell_of_the_threat():
+    ram = _enemy((5, 14), "battle-ram", eta=2.0, pred=(5, 8))                  # bridge now, mid after the 1 s lead
+    state = _state(units=[ram], hand=["tornado", "royal-delivery"], elixir=7.0)
+    rep = ENGINE.analyse(state)
+    assert rep.pushes[0].needs == ["building_targeter"]
+    assert rep.best is not None and rep.best.card == "royal-delivery", rep.lines          # value 4 >= cost 3
+    assert rep.best.key == "royal-delivery|left|bridge" and rep.best.tile == [5.0, 13.0]
+    assert "tornado" not in [m.card for m in rep.moves]                         # utility spell
+    assert ENGINE.score_key("royal-delivery|left|bridge", state, rep) == rep.best.score
+
+
+def test_spell_aim_falls_back_to_the_lead_cell():
+    # the giant is not a spell target; its own cell (left, mid) holds nothing, the musketeer ahead is in (left, bridge)
+    units = [_enemy((3, 10), "giant", eta=3.0, pred=(3, 14)), _enemy((3, 12.5), "musketeer", eta=4.0)]
+    rep = ENGINE.analyse(_state(units=units, hand=["fireball", "tesla"], elixir=9.0))
+    fireball = next(m for m in rep.moves if m.card == "fireball")
+    assert fireball.tile == [3.0, 12.5] and fireball.key == "fireball|left|bridge"
+    # the current cell wins when it has a target; here nothing is worth a spell anywhere
+    lone = _state(units=[_enemy((3, 10), "giant", eta=3.0, pred=(3, 14))], hand=["fireball"], elixir=9.0)
+    assert ENGINE.analyse(lone).best is None
+
+
+def test_four_follow_up_situations_on_the_real_role_table():
+    engine = TacticalEngine(CARDS)
+    grave = engine.analyse(_state(units=[_enemy((4, 6), "graveyard")], hand=["berserker", "knight", "zap", "musketeer"]))
+    assert grave.pushes[0].needs == ["swarm"]
+    wall = engine.analyse(_state(units=[_enemy((3, 10), "knight", eta=4.0)],
+                                 hand=["wall-breakers", "hog-rider", "giant", "musketeer"]))
+    assert {m.card for m in wall.moves} == {"musketeer"}
+    stein = engine.analyse(_state(units=[_enemy((3, 10), "musketeer", eta=4.0)], hand=["goblinstein", "knight"],
+                                  elixir=9.0))
+    assert next(m for m in stein.moves if m.card == "goblinstein").tile == [3.0, 7.5]
+    ram = engine.analyse(_state(units=[_enemy((5, 14), "battle-ram", eta=2.0, pred=(5, 8))],
+                                hand=["tornado", "royal-delivery"], elixir=7.0))
+    assert ram.best.card == "royal-delivery", ram.lines
