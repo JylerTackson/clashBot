@@ -203,7 +203,8 @@ def test_step_decision_executes_with_hand_and_tile_and_timings():
     assert rk.calls == [("CTX", KEYS, "PLAN")]
     assert gen.calls == [(1.0, 4, {})]
     assert d.probs == [0.2, 0.8]
-    assert [c["key"] for c in d.candidates] == KEYS and set(d.candidates[0]) == {"key", "score", "sources"}
+    assert [c["key"] for c in d.candidates] == KEYS      # MAC-Z3: logged candidates also carry "tile" and "note"
+    assert set(d.candidates[0]) == {"key", "score", "sources", "tile", "note"}
     assert d.executor == {"t": 1.0, "key": "giant|left|back", "tile": [3.0, 2.0]}
     assert set(d.timings_ms) == set(STAGES)
     assert d.timings_ms["capture"] == 2.0
