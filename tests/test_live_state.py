@@ -18,7 +18,7 @@ sys.path.insert(0, str(ROOT))
 from clashbot.config import DATASET_DIR  # noqa: E402
 from clashbot.features import featurize  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
-from clashbot.live_state import LiveConfig, LiveStateBuilder  # noqa: E402
+from clashbot.live_state import HandTracker, LiveConfig, LiveStateBuilder  # noqa: E402
 from clashbot.state_text import render_context, render_threats, unit_token  # noqa: E402
 from clashbot.units import load_unit_map  # noqa: E402
 from cr_perception.state import GameState, PlayEvent, UnitObs  # noqa: E402
@@ -399,6 +399,161 @@ def test_last_hand_reused_resets_when_build_returns_none():
     assert b.last_hand_reused is True
     assert b.build(make_gs(101.5, readiness="menu")) is None
     assert b.last_hand_reused is False
+
+
+# --------------------------------------------------------------------------- positional hand memory (FIX_LIST #26)
+
+TDECK = list("abcdefgh")                      # 8 distinct slugs: the tracker never looks them up in the card table
+NONE4 = [None] * 4
+
+
+def test_tracker_remembers_a_greyed_hand_for_ever():
+    tr = HandTracker(TDECK)
+    assert tr.update(list("abcd"), "e", 100.0) == list("abcd") and tr.filled == [False] * 4
+    for k in range(1, 101):                                          # 10 s of all-None reads
+        assert tr.update(NONE4, None, 100.0 + k * 0.1) == list("abcd")
+    assert tr.filled == [True] * 4 and tr.next == "e"
+    assert tr.update(["a", None, None, None], None, 111.0) == list("abcd")
+    assert tr.filled == [False, True, True, True]
+
+
+def test_tracker_play_moves_the_next_card_into_the_slot():
+    tr = HandTracker(TDECK)
+    tr.update(list("abcd"), "e", 100.0)
+    tr.note_play("b", 1, 100.5)
+    assert tr.slots == ["a", "e", "c", "d"] and tr.log == ["b"] and tr.pending == {1: ("b", 100.5)}
+    assert tr.next is None                                           # < 4 plays logged: the queue is unknown
+    assert tr.update(NONE4, "f", 100.6) == ["a", "e", "c", "d"] and tr.next == "f"
+    assert tr.update(["a", "e", "c", "d"], "f", 102.5) == ["a", "e", "c", "d"] and tr.pending == {}   # it landed
+
+
+def test_tracker_ignores_a_lagging_read_and_restores_a_failed_play():
+    tr = HandTracker(TDECK)
+    tr.update(list("abcd"), "e", 100.0)
+    tr.note_play("b", 1, 100.5)
+    assert tr.update(list("abcd"), "e", 101.0)[1] == "e"             # 0.5 s after the tap: the screen still shows b
+    assert tr.log == ["b"] and 1 in tr.pending
+    assert tr.update(list("abcd"), "e", 102.0) == list("abcd")       # 1.5 s on: the tap did not land
+    assert tr.log == [] and tr.pending == {} and tr.filled == [False] * 4
+    tr.note_play("b", 1, 103.0)
+    assert tr.update(["a", "x", "c", "d"], None, 103.2)[1] == "x" and tr.pending == {}   # another card: a normal read
+
+
+def test_tracker_failed_play_recomputes_a_next_derived_from_the_log():
+    tr = HandTracker(TDECK)
+    for k, card in enumerate("abcd"):
+        tr.note_play(card, k, 100.0 + k)
+    assert tr.log == list("abcd") and tr.next == "a"
+    tr.update(["a", None, None, None], None, 105.0)                  # slot 0 shows a again: that tap never landed
+    assert tr.log == list("bcd") and tr.next is None and tr.slots[0] == "a"
+
+
+def test_tracker_one_card_sits_in_one_slot_only():
+    tr = HandTracker(TDECK)
+    tr.update(list("abcd"), None, 100.0)
+    assert tr.update([None, None, "a", None], None, 100.1) == [None, "b", "a", "d"]
+    tr2 = HandTracker(TDECK)
+    tr2.update(list("abcd"), None, 100.0)
+    tr2.note_play("e", 0, 100.1)
+    tr2.update(NONE4, None, 102.0)                                   # the play landed (slot unread for 1.5 s+)
+    assert tr2.log == ["e"] and tr2.pending == {}
+    tr2.update(["e", None, None, None], None, 105.0)                 # e is in the hand: that play did not happen
+    assert tr2.log == [] and tr2.slots[0] == "e"
+
+
+def test_tracker_cycle_fills_the_single_unknown_slot_and_clears_stale_ones():
+    tr = HandTracker(TDECK)
+    tr.update(list("abcd"), "e", 100.0)
+    tr.note_play("a", 0, 101.0)                                      # a -> e
+    tr.update(NONE4, "f", 101.1)
+    tr.note_play("b", 1, 102.0)                                      # b -> f
+    tr.update(NONE4, "g", 102.1)
+    tr.note_play("c", 2, 103.0)                                      # c -> g
+    assert tr.next is None and tr.slots == ["e", "f", "g", "d"]
+    tr.note_play("d", 3, 104.0)                                      # d -> unknown: the next card was never read
+    assert tr.slots == ["e", "f", "g", None] and tr.log == list("abcd")
+    assert tr.update(NONE4, None, 104.1) == ["e", "f", "g", "h"]     # the one card left in the deck
+    assert tr.next == "a" == tr.log[-4]
+    assert tr.filled == [True] * 4
+    tr.slots[2] = "b"                                                # a memory slot holding a queued card is stale
+    assert tr.update(NONE4, None, 104.2) == ["e", "f", "g", "h"]     # cleared, then refilled by the cycle
+    tr.slots[0], tr.slots[3] = "c", "d"
+    assert tr.update(NONE4, None, 104.3) == [None, "f", "g", None]   # two unknown slots: no guess
+
+
+def test_tracker_cycle_needs_a_known_deck_and_four_plays():
+    tr = HandTracker(TDECK[:7])                                      # not 8 cards: no cycle inference
+    assert tr.deck is None
+    tr.update(["e", "f", "g", None], None, 100.0)
+    for k, card in enumerate("abcd"):
+        tr.note_play(card, 3, 101.0 + k)
+    assert tr.update(NONE4, None, 106.0)[3] is None
+    tr2 = HandTracker(TDECK)
+    tr2.update(["e", "f", "g", None], None, 100.0)
+    tr2.note_play("a", 3, 101.0)
+    assert tr2.update(NONE4, None, 106.0)[3] is None                 # only one play logged
+
+
+def test_tracker_reset_forgets_everything():
+    tr = HandTracker(TDECK)
+    tr.update(list("abcd"), "e", 100.0)
+    tr.note_play("a", 0, 101.0)
+    tr.reset()
+    assert tr.slots == NONE4 and tr.next is None and tr.log == [] and tr.pending == {} and tr.filled == [False] * 4
+
+
+def test_builder_tracker_is_opt_in_and_sized_by_the_deck():
+    assert LiveConfig(own_deck=DECK).hand_tracker is False
+    assert builder().tracker is None
+    b = builder(hand_tracker=True)
+    assert b.tracker is not None and b.tracker.deck == sorted(DECK)
+    assert builder(deck=DECK[:7], hand_tracker=True).tracker.deck is None
+    builder().note_own_play("tornado", 0, 100.0)                     # no tracker: a no-op
+
+
+def test_builder_without_tracker_matches_the_default_output():
+    plain, off = builder(), builder(hand_tracker=False)
+    for t, hand in ((100.0, FULL_HAND), (101.0, GREY), (103.5, GREY), (104.0, FULL_HAND)):
+        gs = make_gs(t, hand=hand, hand_conf=() if hand == GREY else (0.9, 0.8, 0.7, 0.6))
+        assert json.dumps(off.build(gs)) == json.dumps(plain.build(gs))
+        assert off.last_hand_reused == plain.last_hand_reused
+
+
+def test_builder_tracker_keeps_greyed_cards_and_flags_reuse():
+    b = builder(hand_tracker=True)
+    state, _ = b.build(make_gs(100.0, hand=FULL_HAND))
+    assert state["own"]["hand"] == list(FULL_HAND) and b.last_hand_reused is False
+    assert state["own"]["hand_confidence"] == 0.75 and state["own"]["next_card"] == "wall-breakers"
+    for t in (101.0, 110.0, 160.0):                                  # no time limit: the memory lasts
+        state, text = b.build(make_gs(t, hand=GREY, hand_conf=(), next_card=None))
+        assert state["own"]["hand"] == list(FULL_HAND) and b.last_hand_reused is True
+        assert state["own"]["hand_confidence"] is None and state["own"]["next_card"] == "wall-breakers"
+        assert list(state["own"]) == OWN_KEYS and text == render_context(state, t)
+    state, _ = b.build(make_gs(161.0, hand=("tornado", None, "archers", "bomb-tower"), hand_conf=(0.9, 0.9, 0.9)))
+    assert state["own"]["hand"] == list(FULL_HAND) and b.last_hand_reused is True      # slot 1 still remembered
+    b.build(make_gs(162.0, hand=FULL_HAND))
+    assert b.last_hand_reused is False
+
+
+def test_builder_note_own_play_moves_the_next_card_into_the_slot():
+    b = builder(hand_tracker=True)
+    b.build(make_gs(100.0, hand=FULL_HAND))                          # next card: wall-breakers
+    b.note_own_play("tornado", 0, 100.5)
+    state, _ = b.build(make_gs(101.0, hand=GREY, hand_conf=(), next_card=None))
+    assert state["own"]["hand"] == ["wall-breakers", "berserker", "archers", "bomb-tower"]
+    assert b.last_hand_reused is True
+
+
+def test_builder_new_match_resets_the_tracker():
+    b = builder(hand_tracker=True)
+    b.build(make_gs(100.0, match_id=1, hand=FULL_HAND))
+    b.note_own_play("tornado", 0, 100.5)
+    state, _ = b.build(make_gs(101.0, match_id=2, hand=GREY, hand_conf=()))
+    assert state["own"]["hand"] == [None] * 4 and b.last_hand_reused is False
+    assert b.tracker.log == [] and b.tracker.pending == {}
+    b.build(make_gs(110.0, match_id=2, hand=FULL_HAND))
+    b.reset()
+    assert b.tracker.slots == [None] * 4
 
 
 # --------------------------------------------------------------------------- 9: real-data round trip

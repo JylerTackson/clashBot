@@ -24,6 +24,7 @@ except Exception:  # pragma: no cover
 RECENT_S = 12.0                     # same as tools/extract_states.py
 SCHEMA_PHASES = ("single_elixir", "double_elixir", "triple_elixir", "overtime")
 MAX_OPP_DECK = 8
+PENDING_S = 1.5                     # a tap's result is not trusted on screen until the card has left the slot this long
 _UNSET = object()                   # "no match seen yet" (distinct from a match_id of None)
 
 
@@ -33,6 +34,7 @@ class LiveConfig:
     hero_cards: list[str] = field(default_factory=list)
     recent_s: float = RECENT_S
     hand_hold_s: float = 2.0                  # reuse the last confident hand this long when all 4 slots are unread; 0 = off
+    hand_tracker: bool = False                # positional hand memory (HandTracker) instead of the timed hold; live loop only
 
 
 # --------------------------------------------------------------------------- private helpers
@@ -112,6 +114,98 @@ def _as_json(obj) -> dict:
     return obj.to_json() if hasattr(obj, "to_json") else obj
 
 
+# --------------------------------------------------------------------------- positional hand memory (FIX_LIST #26)
+
+def _drop_last(seq: list, card) -> None:
+    """Remove the last occurrence of `card` from `seq` (no-op when absent)."""
+    for k in range(len(seq) - 1, -1, -1):
+        if seq[k] == card:
+            del seq[k]
+            return
+
+
+class HandTracker:
+    """Positional hand memory for the live loop. A slot keeps its last read card until we play from it
+    (executor-confirmed taps); greyed-out cards are therefore remembered instead of lost. With the 8-card deck
+    known, the cycle (last 4 own plays = the queue, front = next card) fills a single unknown slot."""
+
+    def __init__(self, deck: list[str] | None, pending_s: float = PENDING_S):
+        self.deck = list(deck) if deck is not None and len(set(deck)) == 8 else None
+        self.pending_s = pending_s
+        self.reset()
+
+    def reset(self) -> None:
+        self.slots: list[str | None] = [None] * 4
+        self.next: str | None = None
+        self.log: list[str] = []                       # own plays we sent, oldest first
+        self.pending: dict[int, tuple[str, float]] = {}  # slot -> (card played from it, t of the tap)
+        self.filled: list[bool] = [False] * 4          # per slot: value NOT read in this frame (memory / inference)
+        self._next_from_log = False                    # `next` came from the play log, not from a read
+
+    def _next_from_queue(self) -> None:
+        self.next = self.log[-4] if len(self.log) >= 4 else None
+        self._next_from_log = True
+
+    def note_play(self, card: str, slot: int, t: float) -> None:
+        """A tap on `slot` was sent: the next card moves into it, `card` goes to the back of the queue."""
+        if self.next and self.next != card:
+            incoming = self.next
+        else:
+            incoming = self.log[-4] if len(self.log) >= 4 else None   # before the play, the queue is log[-4:]
+        self.log.append(card)
+        self.slots[slot] = incoming
+        self.pending[slot] = (card, t)
+        self._next_from_queue()
+
+    def update(self, read: list, read_next: str | None, t: float) -> list:
+        """Fold one frame's hand read (4 slots, None = unread) into the memory; returns the 4 tracked slots."""
+        if read_next is not None:
+            self.next = read_next
+            self._next_from_log = False
+        for i in range(4):
+            c = read[i] if i < len(read) else None
+            pend = self.pending.get(i)
+            if pend is not None:
+                pc, pt = pend
+                age = t - pt
+                if c is None:
+                    if age >= self.pending_s:
+                        del self.pending[i]            # the play landed; the slot stays as note_play set it
+                    continue
+                if c == pc:
+                    if age < self.pending_s:
+                        continue                       # the screen lags behind the tap
+                    self.slots[i] = pc                 # the play did not land
+                    _drop_last(self.log, pc)
+                    del self.pending[i]
+                    if self._next_from_log:
+                        self._next_from_queue()
+                    continue
+                del self.pending[i]                    # a different card: the slot changed, read it normally
+            if c is None:
+                continue
+            self.slots[i] = c
+            for j in range(4):
+                if j != i and self.slots[j] == c:
+                    self.slots[j] = None               # a card is in at most one slot
+            if c in self.log[-4:]:
+                _drop_last(self.log, c)                # it is in the hand, so that play did not really happen
+        if self.deck is not None and len(self.log) >= 4:
+            queue = set(self.log[-4:])
+            for i in range(4):
+                if self.slots[i] in queue:
+                    self.slots[i] = None               # stale: that card is in the queue
+            rest = [c for c in self.deck if c not in queue and c not in self.slots]
+            unknown = [i for i in range(4) if self.slots[i] is None]
+            if len(unknown) == 1 and len(rest) == 1:
+                self.slots[unknown[0]] = rest[0]
+            if read_next is None:
+                self._next_from_queue()
+        self.filled = [(read[i] if i < len(read) else None) is None and self.slots[i] is not None
+                       for i in range(4)]
+        return list(self.slots)
+
+
 # --------------------------------------------------------------------------- builder
 
 class LiveStateBuilder:
@@ -126,6 +220,8 @@ class LiveStateBuilder:
                             "incomplete" if len(self.deck) == 7 else "invalid")
         # HUD hand reads are noisy: with the 8-card deck known, anything outside it is a misread.
         self.deck_set = set(config.own_deck) if len(set(config.own_deck)) >= 8 else None
+        deck8 = sorted(set(config.own_deck))
+        self.tracker = (HandTracker(deck8 if len(deck8) == 8 else None) if config.hand_tracker else None)
         self.reset()
 
     def reset(self) -> None:
@@ -135,7 +231,9 @@ class LiveStateBuilder:
         self._opp_first: dict[str, float] = {}  # playable opponent card -> first-seen time
         self._match_id = _UNSET
         self._last_hand: tuple[float, list] | None = None  # (t, hand) of the last read with >= 2 known slots
-        self.last_hand_reused = False          # the hand of the latest build() came from _last_hand
+        self.last_hand_reused = False          # the hand of the latest build() came from _last_hand / the tracker
+        if self.tracker is not None:
+            self.tracker.reset()
 
     # -- inputs ------------------------------------------------------------
     def observe_events(self, events: list) -> None:
@@ -157,6 +255,11 @@ class LiveStateBuilder:
             card = ev.get("card")
             if ev.get("player") == "opponent" and card and is_playable(card, self.cards):
                 self._opp_first[card] = min(self._opp_first.get(card, ts), ts)
+
+    def note_own_play(self, card: str, slot: int, t: float) -> None:
+        """The executor sent a tap that plays `card` from hand `slot` at time `t` (no-op without the hand tracker)."""
+        if self.tracker is not None:
+            self.tracker.note_play(card, slot, t)
 
     def _foreign(self, card) -> bool:
         """The card is not one of the 8 he is playing (only judged when the deck is known)."""
@@ -212,11 +315,16 @@ class LiveStateBuilder:
             elixir = max(0.0, min(10.0, float(elixir)))
         hand = [None if self._foreign(c) else c for c in _pad4(own.get("hand"))]
         hand = [c if (c and is_playable(c, cards)) else None for c in hand]
-        hand = self._hold_hand(hand, t)
-        confidence = None if self.last_hand_reused else (round(sum(confs) / len(confs), 3) if confs else None)
         nxt = own.get("next_card")
         nxt = None if self._foreign(nxt) else nxt
         nxt = nxt if (nxt and is_playable(nxt, cards)) else None
+        if self.tracker is not None:
+            hand = self.tracker.update(hand, nxt, t)
+            nxt = self.tracker.next
+            self.last_hand_reused = any(self.tracker.filled)
+        else:
+            hand = self._hold_hand(hand, t)
+        confidence = None if self.last_hand_reused else (round(sum(confs) / len(confs), 3) if confs else None)
 
         for c in opp.get("deck_known") or []:  # the tracker's own list counts from the first t it shows
             if is_playable(c, cards):
