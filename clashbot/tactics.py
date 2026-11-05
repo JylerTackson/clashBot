@@ -11,6 +11,7 @@ from __future__ import annotations
 import math
 from dataclasses import dataclass
 
+from clashbot.card_roles import GROUND_ONLY_SPELLS, hits_air, load_roles
 from clashbot.config import ANYWHERE_CARDS
 from clashbot.game_rules import action_key, lane_of, legal_cards, load_cards, zone_of
 from clashbot.policy import NON_DAMAGE_SPELLS, OPPOSITE_LANE, SPELL_RADIUS, TANK_CARDS, ReactivePolicy, _lead_tile
@@ -33,7 +34,7 @@ BRIDGE_ROW = 14.0
 MIN_X, MAX_X, MIN_Y, MAX_Y = 0.5, 17.5, 1.0, 14.0
 OFFENCE_SCORES = {"counter_push": 0.6, "punish": 0.55, "leak_wc": 0.5, "leak": 0.4}
 NEED_ORDER = ("air", "tank", "swarm", "building_targeter")
-GROUND_ONLY_SPELLS = frozenset({"the-log", "barbarian-barrel", "earthquake", "giant-snowball"})
+SWARM_SPELL_UNITS = frozenset({"graveyard"})     # spell objects on the field that stand for a swarm (skeleton tokens)
 
 _DEFAULT_TROOP = {"type": "troop", "targets": "ground", "flying": False, "hp_class": "medium",
                   "dps_class": "medium", "splash": False, "range": "melee", "speed": "medium", "count": 1,
@@ -131,7 +132,6 @@ class TacticalEngine:
     def __init__(self, cards: dict | None = None, roles: dict | None = None, kg=None):
         self.cards = cards if cards is not None else load_cards()
         if roles is None:
-            from clashbot.card_roles import load_roles        # lazy: the module works with `roles=` without Z1
             roles = load_roles()
         # accept both the file layout ({"version", "cards": {...}}) and the plain card -> role mapping
         self.roles = roles["cards"] if isinstance(roles.get("cards"), dict) else roles
@@ -162,10 +162,11 @@ class TacticalEngine:
             self._fallback[key] = fb
         return self._fallback[key]
 
-    @staticmethod
-    def _hits_air(card: str, role: dict) -> bool:
-        """Same semantics as `card_roles.hits_air`, with the card slug at hand: spells hit air except the ground-only
-        ones, everything else by `targets == "air_ground"`."""
+    def _hits_air(self, card: str, role: dict) -> bool:
+        """`card_roles.hits_air` for a card with a role entry; for one without (fallback role) the same rule keyed on
+        the slug: spells hit air except the ground-only ones, everything else by `targets == "air_ground"`."""
+        if card in self.roles:
+            return hits_air(role)
         if role.get("type") == "spell":
             return card not in GROUND_ONLY_SPELLS
         return role.get("targets") == "air_ground"
@@ -182,6 +183,9 @@ class TacticalEngine:
             tile = _tile(u)
             if u.get("side") != "enemy" or tile is None:
                 continue
+            card = u.get("card")
+            if card not in SWARM_SPELL_UNITS and self._role(card).get("type") == "spell":
+                continue                                    # a spell object is an effect, not a troop to answer
             eta = _own_eta(u)
             on_our_half = tile[1] <= OWN_HALF_MAX_ROW
             if not ((eta is not None and eta <= URGENT_ETA_S) or on_our_half):
@@ -206,8 +210,9 @@ class TacticalEngine:
         needs = {
             "air": any(r.get("flying") for r in roles),
             "tank": any(r.get("hp_class") == "tank" for r in roles),
-            "swarm": swarm_units >= 3 or any(r.get("hp_class") == "swarm" and (r.get("count") or 1) >= 3
-                                             for r in roles),
+            "swarm": (swarm_units >= 3 or any(r.get("hp_class") == "swarm" and (r.get("count") or 1) >= 3
+                                              for r in roles)
+                      or any(u.get("card") in SWARM_SPELL_UNITS for u in units)),
             "building_targeter": any(r.get("targets") == "buildings" for r in roles),
         }
         counts: dict[str, int] = {}
@@ -233,14 +238,22 @@ class TacticalEngine:
 
     # -- defence -------------------------------------------------------------------------------------------------------
     def _defends(self, card: str, role: dict) -> bool:
-        """Spells that do damage can defend; rage / clone / freeze ... and the win-condition spells cannot."""
+        """Spells that do damage can defend; rage / clone / freeze ... and the win-condition spells cannot. Troops that
+        only attack buildings (hog rider, giant, wall breakers ...) are kept for offence."""
         if role.get("type") != "spell":
-            return True
+            return not (role.get("type") == "troop" and role.get("targets") == "buildings")
         return (card not in NON_DAMAGE_SPELLS and role.get("spell_class") != "utility"
                 and not self._has(role, "win_condition"))
 
     def _spell_aim(self, card: str, ctx: _PushCtx, state: dict):
-        return self.policy.spell_target(card, lane_of(ctx.pos), zone_of(ctx.pos), state)
+        """`spell_target` picks its centres by the units' current tiles, so ask for the cell the threat stands in now;
+        if nothing worthwhile is there, for the cell of its lead tile."""
+        now = _tile(ctx.unit)
+        for tile in (now, ctx.pos):
+            aim = self.policy.spell_target(card, lane_of(tile), zone_of(tile), state)
+            if aim is not None:
+                return aim
+        return None
 
     def _defence_score(self, card: str, role: dict, ctx: _PushCtx, aim) -> tuple[float, float] | None:
         """(score, trade) of `card` against the push, or None when it cannot answer an air-only push."""
@@ -306,7 +319,8 @@ class TacticalEngine:
             return _clamp_tile(pos[0], pos[1] - 2.5), f"blows up on {threat} up front"
         if self._has(role, "swarm"):
             return _clamp_tile(pos[0], pos[1]), f"swarm on {threat}"
-        if role.get("range", "melee") == "melee":
+        front = any(self._has(role, r) for r in ("tank", "mini_tank", "tank_killer"))
+        if front or role.get("range", "melee") == "melee":
             y = max(pos[1] - 2.5, 1.0) if pos[1] > 8 else pos[1] - 1
             if self._has(role, "tank_killer"):
                 why = f"stops {threat} in front of the tower"
