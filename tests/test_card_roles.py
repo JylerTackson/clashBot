@@ -65,6 +65,18 @@ def test_hits_air_helper():
     assert not hits_air(r["knight"]) and not hits_air(r["cannon"]) and not hits_air(r["giant"])
 
 
+def test_multi_unit_chain_and_pierce_cards_keep_their_manual_values():
+    r = load_roles()
+    assert r["magic-archer"]["splash"] and r["electro-dragon"]["splash"] and r["firecracker"]["splash"]
+    for slug in ("goblin-gang", "rascals"):
+        assert r[slug]["targets"] == "air_ground" and r[slug]["range"] == "short", slug
+        assert hits_air(r[slug]), slug
+    assert hits_air(r["goblin-hut"]) and hits_air(r["furnace"])
+    assert r["goblin-giant"]["targets"] == "buildings"                         # the giant drives targeting
+    for slug in ("prince", "night-witch", "guards", "royal-recruits", "phoenix", "mighty-miner", "battle-healer"):
+        assert r[slug]["range"] == "melee", slug                              # 1.6 tiles counts as melee
+
+
 def test_vocabulary_of_the_committed_table():
     for slug, role in load_roles().items():
         assert set(role["roles"]) <= ROLES, slug
@@ -154,7 +166,7 @@ def test_builder_notes_do_not_override_manual_fields(tmp_path):
 def test_derive_stats_mapping_boundaries():
     def d(**kw):
         return brc.derive_stats(kw, {}, is_building=False)
-    assert d(range=1500)["range"] == "melee" and d(range=1501)["range"] == "short"
+    assert d(range=1600)["range"] == "melee" and d(range=1601)["range"] == "short"        # 1.6-tile units (prince) are melee
     assert d(range=4999)["range"] == "short" and d(range=5000)["range"] == "long"
     assert [d(speed=s)["speed"] for s in (45, 46, 60, 61, 90, 91)] == ["slow", "medium", "medium", "fast", "fast", "very_fast"]
     assert d(flying_height=1)["flying"] and not d(flying_height=0)["flying"]
@@ -179,6 +191,38 @@ def test_missing_stats_dir_falls_back_to_manual(tmp_path):
     assert brc.load_stats(tmp_path) is None
     roles, report = brc.build_roles(None, {"zap": brc.spell("small", 2.5, ["swarm"], ["spell_small"])}, {"zap": {}})
     assert roles["zap"]["source"] == "manual" and report["disagreements"] == []
+
+
+def test_manual_wins_override_stats_and_are_reported_as_kept(tmp_path):
+    stats = _fake_stats(tmp_path)
+    manual = {"knight": brc.troop("air_ground", "medium", "medium", "long", "very_fast", 1, ["mini_tank"], flying=True)}
+    cards = {"knight": {"rarity": "Common"}}
+    wins = {("knight", "range"), ("knight", "targets")}
+    roles, report = brc.build_roles(stats, manual, cards, wins=wins)
+    k = roles["knight"]
+    assert (k["range"], k["targets"]) == ("long", "air_ground")               # kept manual
+    assert (k["flying"], k["speed"]) == (False, "medium")                     # not in wins: stats still win
+    assert sorted(report["kept_manual"]) == ["knight.range: manual='long' stats='melee'", "knight.targets: manual='air_ground' stats='ground'"]
+    assert sorted(d.split(":")[0] for d in report["disagreements"]) == ["knight.flying", "knight.speed"]
+    roles2, report2 = brc.build_roles(stats, manual, cards, wins=set())       # without wins the stats take over
+    assert (roles2["knight"]["range"], roles2["knight"]["targets"]) == ("melee", "ground") and report2["kept_manual"] == []
+
+
+def test_manual_wins_entries_are_valid_and_survive_in_the_committed_json():
+    assert brc.MANUAL_WINS and brc.check_manual(brc.MANUAL) == []
+    roles = load_roles()
+    for slug, field in brc.MANUAL_WINS:
+        assert roles[slug][field] == brc.MANUAL[slug][field], (slug, field)
+    bad = brc.check_manual(brc.MANUAL, wins={("knight", "range"), ("zap", "range"), ("knight", "hp_class")})
+    assert sorted(bad) == ["MANUAL_WINS knight.hp_class: not a stats-derived field of a manual card",
+                           "MANUAL_WINS zap.range: not a stats-derived field of a manual card"]
+
+
+@pytest.mark.skipif(not (brc.DEFAULT_STATS_DIR / "cards_stats.json").exists(), reason="cr-api-data not fetched")
+def test_every_manual_wins_entry_still_differs_from_the_stats():
+    _, report = brc.build_roles(brc.load_stats(brc.DEFAULT_STATS_DIR), brc.MANUAL, load_cards())
+    kept = {line.split(":")[0] for line in report["kept_manual"]}
+    assert kept == {f"{slug}.{field}" for slug, field in brc.MANUAL_WINS}      # none is stale (equal to the stats)
 
 
 @pytest.mark.skipif(not (brc.DEFAULT_STATS_DIR / "cards_stats.json").exists(), reason="cr-api-data not fetched")

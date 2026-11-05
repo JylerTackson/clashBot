@@ -5,8 +5,9 @@
 Stats-derived fields (flying, targets, splash, range, speed) come from RoyaleAPI cr-api-data (`cards_stats.json`: the
 `troop` / `building` / `spell` sections map a card `key` to its `summon_character`, whose per-unit stats are in
 `characters`; buildings carry their stats in the section entry itself). Everything else is the MANUAL table below.
-Where stats and MANUAL disagree on a stats-derived field, the stats win and the disagreement is printed. Count,
-hp_class and spell radius are manual-only but are sanity-checked against the stats (printed as notes, never applied).
+Where stats and MANUAL disagree on a stats-derived field, the stats win and the disagreement is printed, except for the
+(card, field) pairs in MANUAL_WINS, where the manual value is kept (multi-unit, chain and pierce cards; printed as "kept
+manual"). Count, hp_class and spell radius are manual-only but are sanity-checked against the stats (printed as notes).
 """
 from __future__ import annotations
 
@@ -33,6 +34,7 @@ DEFAULT_STATS_DIR = ROOT / "data" / "external" / "cr-api-data"
 KEY_ALIASES = {"p-e-k-k-a": "pekka", "mini-p-e-k-k-a": "mini-pekka"}
 
 STATS_FIELDS = ("flying", "targets", "splash", "range", "speed")
+MELEE_MAX_RANGE = 1600                # game units (1,000 per tile); the spec said 1,500, amended so 1.6-tile melee units are melee
 SPLASH_PROJECTILE_MIN = 500           # game units: a projectile radius of at least half a tile counts as splash
 TOURNAMENT_LEVEL = 11
 RARITY_START_LEVEL = {"Common": 1, "Rare": 3, "Epic": 6, "Legendary": 9, "Champion": 11}   # first entry of *_per_level
@@ -97,7 +99,7 @@ MANUAL: dict[str, dict] = {
     "fisherman": troop(G, "medium", "medium", "melee", "medium", 1, ["support"]),
     "flying-machine": troop(AG, "light", "medium", "long", "fast", 1, ["air_defense", "support"], flying=True),
     "freeze": spell("utility", 3.0, [], []),
-    "furnace": building(G, "medium", "low", "melee", ["building"]),
+    "furnace": building(AG, "medium", "low", "short", ["building"], splash=True),
     "giant": troop(B, "tank", "medium", "melee", "slow", 1, ["tank", "win_condition"]),
     "giant-skeleton": troop(G, "tank", "medium", "melee", "medium", 1, ["tank"]),
     "giant-snowball": spell("small", 2.5, ["swarm"], ["spell_small"]),
@@ -108,7 +110,7 @@ MANUAL: dict[str, dict] = {
     "goblin-drill": building(G, "medium", "low", "melee", ["building", "win_condition"]),
     "goblin-gang": troop(AG, "swarm", "high", "short", "very_fast", 6, ["swarm", "bait"]),
     "goblin-giant": troop(B, "tank", "medium", "melee", "medium", 1, ["tank", "win_condition"]),
-    "goblin-hut": building(G, "medium", "low", "melee", ["building"]),
+    "goblin-hut": building(AG, "medium", "low", "long", ["building"]),
     "goblin-machine": troop(AG, "medium", "medium", "melee", "medium", 1, ["mini_tank"]),            # guess
     "goblins": troop(G, "swarm", "high", "melee", "very_fast", 4, ["swarm", "cycle"]),
     "goblinstein": troop(AG, "tank", "medium", "short", "slow", 1, ["tank"]),                        # guess
@@ -118,7 +120,7 @@ MANUAL: dict[str, dict] = {
     "guards": troop(G, "light", "high", "melee", "fast", 3, ["swarm"]),
     "heal-spirit": troop(AG, "swarm", "low", "short", "very_fast", 1, ["kamikaze", "support"], splash=True),
     "hog-rider": troop(B, "medium", "medium", "melee", "very_fast", 1, ["win_condition"]),
-    "hunter": troop(AG, "medium", "high", "short", "medium", 1, ["tank_killer", "air_defense"]),
+    "hunter": troop(AG, "medium", "high", "short", "medium", 1, ["tank_killer", "air_defense"], splash=True),
     "ice-golem": troop(B, "medium", "low", "melee", "slow", 1, ["mini_tank"]),
     "ice-spirit": troop(AG, "swarm", "low", "short", "very_fast", 1, ["cycle", "kamikaze"], splash=True),
     "ice-wizard": troop(AG, "light", "low", "long", "medium", 1, ["support", "splash_defense"], splash=True),
@@ -129,14 +131,14 @@ MANUAL: dict[str, dict] = {
     "lightning": spell("large", 3.5, ["swarm", "light", "medium"], ["spell_large"]),
     "little-prince": troop(AG, "medium", "medium", "long", "medium", 1, ["support", "air_defense"]),  # guess
     "lumberjack": troop(G, "medium", "high", "melee", "very_fast", 1, ["tank_killer"]),
-    "magic-archer": troop(AG, "light", "low", "long", "medium", 1, ["support", "air_defense"]),
+    "magic-archer": troop(AG, "light", "low", "long", "medium", 1, ["support", "air_defense"], splash=True),
     "mega-knight": troop(G, "tank", "medium", "melee", "medium", 1, ["tank", "splash_defense"], splash=True),
-    "mega-minion": troop(AG, "medium", "medium", "short", "medium", 1, ["air_defense", "tank_killer"], flying=True),
+    "mega-minion": troop(AG, "medium", "medium", "melee", "medium", 1, ["air_defense", "tank_killer"], flying=True),
     "mighty-miner": troop(G, "medium", "medium", "melee", "medium", 1, ["mini_tank", "tank_killer"]),
     "miner": troop(G, "medium", "medium", "melee", "fast", 1, ["win_condition"]),
     "mini-p-e-k-k-a": troop(G, "medium", "high", "melee", "fast", 1, ["tank_killer"]),
-    "minion-horde": troop(AG, "swarm", "high", "short", "fast", 6, ["swarm", "air_defense"], flying=True),
-    "minions": troop(AG, "swarm", "high", "short", "fast", 3, ["swarm", "air_defense"], flying=True),
+    "minion-horde": troop(AG, "swarm", "high", "melee", "fast", 6, ["swarm", "air_defense"], flying=True),
+    "minions": troop(AG, "swarm", "high", "melee", "fast", 3, ["swarm", "air_defense"], flying=True),
     "mirror": spell("utility", 0.0, [], []),
     "monk": troop(G, "medium", "medium", "melee", "medium", 1, ["mini_tank"]),
     "mortar": building(G, "medium", "low", "long", ["building"], splash=True),
@@ -150,7 +152,7 @@ MANUAL: dict[str, dict] = {
     "princess": troop(AG, "light", "low", "long", "medium", 1, ["support", "bait"], splash=True),
     "rage": spell("utility", 3.0, [], []),
     "ram-rider": troop(B, "medium", "medium", "melee", "medium", 1, ["win_condition"]),
-    "rascals": troop(G, "medium", "medium", "short", "medium", 3, ["swarm", "support"]),
+    "rascals": troop(AG, "medium", "medium", "short", "medium", 3, ["swarm", "support"]),
     "rocket": spell("large", 2.0, ["swarm", "light", "medium"], ["spell_large"]),
     "ronin": troop(G, "medium", "high", "melee", "medium", 1, ["mini_tank"]),                        # guess
     "royal-delivery": spell("small", 3.0, ["swarm"], ["spell_small"]),
@@ -182,6 +184,23 @@ MANUAL: dict[str, dict] = {
     "x-bow": building(G, "medium", "medium", "long", ["building"]),
     "zap": spell("small", 2.5, ["swarm"], ["spell_small"]),
     "zappies": troop(AG, "light", "medium", "short", "medium", 3, ["support", "air_defense"]),
+}
+
+# (card, field) pairs where the manual value beats the stats: the stats describe only the card's first unit or a
+# single hit, and the game behaviour differs. Printed as "kept manual", not as disagreements.
+MANUAL_WINS: set[tuple[str, str]] = {
+    ("electro-dragon", "splash"),      # chain lightning hits up to three targets
+    ("firecracker", "splash"),         # the shot bursts into a small area
+    ("magic-archer", "splash"),        # the arrow pierces in a line, which is what matters against swarms
+    ("goblin-gang", "targets"),        # half the gang are spear goblins, which hit air
+    ("goblin-gang", "range"),          # mixed melee goblins and ranged spear goblins
+    ("rascals", "targets"),            # the two girls are ranged and hit air
+    ("rascals", "range"),
+    ("furnace", "targets"),            # the furnace itself does not attack; the fire spirits it spawns hit air and splash
+    ("furnace", "range"),
+    ("furnace", "splash"),
+    ("goblin-hut", "targets"),         # likewise: the spear goblins it spawns hit air from range
+    ("goblin-hut", "range"),
 }
 
 
@@ -250,7 +269,7 @@ def derive_stats(unit: dict, projectiles: dict, is_building: bool) -> dict:
     out["splash"] = (unit.get("area_damage_radius") or 0) > 0 or (proj.get("radius") or 0) >= SPLASH_PROJECTILE_MIN
     rng = unit.get("range")
     if rng is not None:
-        out["range"] = "melee" if rng <= 1500 else "short" if rng < 5000 else "long"
+        out["range"] = "melee" if rng <= MELEE_MAX_RANGE else "short" if rng < 5000 else "long"
     speed = unit.get("speed")
     if is_building:
         out["speed"] = None
@@ -290,10 +309,13 @@ def notes_for(slug: str, manual: dict, entry: dict, unit: dict | None, rarity: s
 
 # ---------------------------------------------------------------------------------------------- the build
 
-def build_roles(stats: dict | None, manual: dict[str, dict], cards: dict[str, dict]) -> tuple[dict, dict]:
-    """({slug: role} sorted by slug, report). Stats-derived fields overwrite the manual ones; report lists them."""
+def build_roles(stats: dict | None, manual: dict[str, dict], cards: dict[str, dict],
+                wins: set[tuple[str, str]] | None = None) -> tuple[dict, dict]:
+    """({slug: role} sorted by slug, report). Stats-derived fields overwrite the manual ones (report lists them), except
+    the (card, field) pairs in `wins` (default MANUAL_WINS), which keep the manual value (report "kept_manual")."""
+    wins = MANUAL_WINS if wins is None else wins
     roles: dict[str, dict] = {}
-    report = {"disagreements": [], "notes": [], "stats": 0, "manual": 0, "no_card": []}
+    report = {"disagreements": [], "kept_manual": [], "notes": [], "stats": 0, "manual": 0, "no_card": []}
     for slug in sorted(manual):
         m = dict(manual[slug])
         entry, unit = stats_entry(slug, stats) if stats else (None, None)
@@ -301,6 +323,10 @@ def build_roles(stats: dict | None, manual: dict[str, dict], cards: dict[str, di
             unit = None                      # spells have no stats-derived fields; the entry only feeds the radius note
         derived = derive_stats(unit, stats["projectiles"], m["type"] == "building") if unit else {}
         for field, value in derived.items():
+            if (slug, field) in wins:
+                if m.get(field) != value:
+                    report["kept_manual"].append(f"{slug}.{field}: manual={m.get(field)!r} stats={value!r}")
+                continue
             if m.get(field) != value:
                 report["disagreements"].append(f"{slug}.{field}: manual={m.get(field)!r} stats={value!r}")
             m[field] = value
@@ -323,9 +349,11 @@ def build_roles(stats: dict | None, manual: dict[str, dict], cards: dict[str, di
     return roles, report
 
 
-def check_manual(manual: dict[str, dict]) -> list[str]:
-    """Vocabulary problems in the MANUAL table itself."""
-    problems = []
+def check_manual(manual: dict[str, dict], wins: set[tuple[str, str]] | None = None) -> list[str]:
+    """Vocabulary problems in the MANUAL table itself, and MANUAL_WINS entries that name no stats-derived manual field."""
+    problems = [f"MANUAL_WINS {slug}.{field}: not a stats-derived field of a manual card"
+                for slug, field in sorted(MANUAL_WINS if wins is None else wins)
+                if field not in STATS_FIELDS or field not in manual.get(slug, {})]
     for slug, m in manual.items():
         for field, vocab in (("type", TYPES), ("targets", TARGETS), ("hp_class", HP_CLASSES), ("dps_class", DPS_CLASSES),
                              ("range", RANGES), ("speed", SPEEDS), ("spell_class", SPELL_CLASSES)):
@@ -368,6 +396,9 @@ def main(argv: list[str] | None = None) -> int:
     print(f"  manual-only                 : {report['manual']}")
     print(f"  disagreements (stats win)   : {len(report['disagreements'])}")
     for line in report["disagreements"]:
+        print("    " + line)
+    print(f"  kept manual (MANUAL_WINS)   : {len(report['kept_manual'])}")
+    for line in report["kept_manual"]:
         print("    " + line)
     print(f"  notes on manual-only fields : {len(report['notes'])}")
     for line in report["notes"]:
