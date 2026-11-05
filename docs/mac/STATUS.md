@@ -136,3 +136,17 @@ Latency 67–70 ms p50 / 95 ms p95 per decision (transformers fp16, MPS). Report
 The fine-tuned d1 is on par with a tuned GBDT feature ranker (within its seed spread on test; slightly behind on val) — the RecSys lesson "tuned simple baselines are competitive" measured on our data. LightGBM's top features are train popularity of the key and p(zone | card), which d1 never sees explicitly; giving d1 those priors in the option text (or an ensemble) is the obvious next experiment. Tables in `docs/data/feature_ranker_v1.{json,md}` (supersede the deterministic-grid numbers).
 **Perception (overnight chain, detached):** 17 / 33 videos (6.6 / 12.0 match-hours) at 09:49; ≈ 0.7 match-hours per hour → done ≈ 17:30–18:00. The user chose to wait for it before the next live test.
 **In progress:** MAC-X (act-head sampler, learned play/wait policy, offline eval with a reaction-to-opponent slice).
+
+## 2026-11-05 — dense wait/act dataset built (D-040)
+
+The detached overnight chain finished on 2026-11-04 at 17:47 (perception 00:04 → 17:46, 33 / 33 videos; dataset build 43 s). `dataset/v1/act_dense` (gitignored): one sample per second of every pro game, label = the pro deploys a card within the next 1.0 s, state rendered by the live `LiveStateBuilder`; state sidecars aligned with the act files.
+
+| split | games | lines | act rate | act rate, threat on board | act rate, ≤ 3 s after an opponent play |
+|---|---|---|---|---|---|
+| train | 142 | 29,036 | 0.196 | 0.230 | 0.215 |
+| val | 27 | 5,560 | 0.233 | 0.256 | 0.259 |
+| test | 28 | 5,279 | 0.217 | 0.249 | 0.234 |
+| total | 197 | 39,875 | 0.204 | 0.236 | 0.223 |
+
+All 197 games of `games.jsonl` are covered (no game skipped for missing time or perception); 3,540 sample times (8 %) had no perception row within 0.6 s and were dropped (test 17 %, from gaps in a few videos). 176 game windows also contained rows of a neighbouring match; only the dominant match was used (FIX_LIST #24). Per game: 56–361 samples, pro act rate 0.04–0.45, no game without plays. Pros wait about 80 % of the seconds, and only slightly more often play right after an opponent play or when a unit threatens a tower: the act head has to learn *when*, not just *whether*, to react.
+**Next.** Live Training Camp test with the fine-tuned d1 + reactive policy (command in `runs/overnight/README.txt`); then `runs/overnight/NEXT.sh` (sample → act-head fine-tune → offline eval → `--policy learned` live command).
