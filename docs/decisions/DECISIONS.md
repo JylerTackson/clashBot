@@ -168,3 +168,4 @@ User: *"all the cards we are using is 3 levels underleved, the level of the trai
 - **New deck (average level 15.4, 3.9 elixir):** ram-rider, knight, electro-dragon, mini-p-e-k-k-a, tesla, musketeer (hero), fireball, zap. Picked for answers to the Training Camp pushes seen live (giant, balloon, bats, night witch, graveyard, mini P.E.K.K.A).
 - **Alternative:** electro-spirit instead of electro-dragon (3.4 elixir).
 - **Trade-off:** ram-rider, electro-dragon and mini-p-e-k-k-a have no pro plays in the knowledge base. Lookup notes are thin for them, so the tactics notes and engine carry those cards (D-042).
+- **Confirmed by the user** (2026-11-06): Evo Electro Dragon, Hero Musketeer, Evo Tesla, Fireball, Knight, Zap, Ram Rider, Mini P.E.K.K.A. Live flags: `--hero-cards musketeer`. Evolution art for electro-dragon and tesla is loaded by default (MAC-PF).
