@@ -25,7 +25,8 @@ from cr_perception.decktracker import (EVIDENCE_KNOWN, EVIDENCE_REPLACE, Opponen
                                        evidence_weight)
 from cr_perception.detect import Detection, KataCRDetector  # noqa: E402
 from cr_perception.elixir_sim import late_join_start  # noqa: E402
-from cr_perception.events import SPAWNED_BY, PlayDetector  # noqa: E402
+from cr_perception.events import (PENDING_GRACE, PENDING_SECONDS, SPAWNED_BY, STAT_KEYS,  # noqa: E402
+                                  PlayDetector)
 from cr_perception.hud import DEFAULT_ROIS, CardMatcher, HandReader  # noqa: E402
 from cr_perception.labels import DeployLabel  # noqa: E402
 from cr_perception.screen import Readiness  # noqa: E402
@@ -86,7 +87,7 @@ def test_bats_far_from_every_night_witch_are_a_play():
     def script(t):
         units = [U("night-witch", tile=(2, 26))]
         if 5.0 <= t <= 7.0:
-            units.append(U("bat", tile=(13, 22)))
+            units.append(U("bat", tile=(9, 19)))             # (A3: not within 4 tiles of an enemy tower, which would need a label)
         return units
     assert cards(run(PlayDetector({}), script, 9.0)) == ["night-witch", "bats"]
 
@@ -111,7 +112,7 @@ def test_skeletons_after_a_graveyard_play_are_not_plays():
     assert cards(run(late, lambda t: [U("skeleton", tile=(9, 20))] if 3.0 <= t <= 5.0 else [], 7.0)) == ["skeletons"]
     far = PlayDetector({})
     far.opp_plays.append((0.0, "graveyard", (2, 22)))               # graveyard on the other side of the arena
-    assert cards(run(far, lambda t: [U("skeleton", tile=(14, 20))] if 3.0 <= t <= 5.0 else [], 7.0)) == ["skeletons"]
+    assert cards(run(far, lambda t: [U("skeleton", tile=(14, 18))] if 3.0 <= t <= 5.0 else [], 7.0)) == ["skeletons"]
 
 
 def test_graveyard_track_then_skeletons_is_one_play():
@@ -693,3 +694,202 @@ def test_live_crops_are_written_when_the_video_cap_is_full(make_perception, tmp_
     p._slot_crops = [(98.0, [crop] * 4)]
     p._learn_template(ev)
     assert len(list(card_dir.glob("live_*.png"))) == 12 and len(list(card_dir.glob("vid_*.png"))) == 12
+
+
+# ============================================================================ A3 (MAC-AB, FIX_LIST #31): phantom cards that remain
+# 1. our half needs a deploy label, 2. coincidence with our own plays, 3. spawn-type units next to an enemy tower
+def L(card, score=0.95, level=None) -> DeployLabel:
+    return DeployLabel(card, card, score, 0.9, (0, 0, 1, 1), level=level)
+
+
+def opp_events(events) -> list[PlayEvent]:
+    return [e for e in events if e.player == "opponent"]
+
+
+def own_half_tornado(t):
+    return [U("tornado", tile=(13, 5), category="spell")]
+
+
+def test_stats_start_at_zero_and_are_in_the_perception_timing_report(make_perception):
+    assert PlayDetector({}).stats == dict.fromkeys(STAT_KEYS, 0)
+    assert make_perception().timing_report()["play_stats"] == dict.fromkeys(STAT_KEYS, 0)
+
+
+# ---- 1. our half needs a label
+def test_own_half_arena_play_without_a_label_is_dropped_and_counted():
+    pd = PlayDetector({})
+    events = run(pd, own_half_tornado, 1.5)
+    assert events == [] and len(pd.pending) == 1                       # held, not emitted
+    pd.release_holds(1.5 + PENDING_SECONDS + PENDING_GRACE)             # nothing confirmed it in time
+    assert pd.pending == [] and pd.stats["dropped_own_half_unconfirmed"] == 1
+    assert pd.opp_plays == []
+
+
+def test_own_half_arena_play_with_a_label_one_second_later_is_exactly_one_event():
+    pd = PlayDetector({})
+    events = run(pd, own_half_tornado, 1.2)                             # first seen at t = 0
+    events += pd.update_labels(1.0, [L("tornado")], [(13, 5)], "2:00")
+    assert [(e.card, e.detect_source) for e in opp_events(events)] == [("tornado", "deploy_label")]
+    assert pd.pending == [] and pd.stats["confirmed_by_label"] == 1 and pd.stats["dropped_own_half_unconfirmed"] == 0
+    assert "confirms the arena track" in events[0].detail
+    assert run(pd, own_half_tornado, 6.0, t0=1.5) == []                 # the same unit, tracked on: no second play
+
+
+def test_label_first_then_the_own_half_arena_track_is_still_one_event():
+    pd = PlayDetector({})
+    events = pd.update_labels(0.2, [L("tornado")], [(13, 5)], "2:00")
+    events += run(pd, lambda t: own_half_tornado(t) if t >= 0.4 else [], 4.0)
+    assert [e.card for e in opp_events(events)] == ["tornado"]
+    assert pd.stats["dropped_own_half_unconfirmed"] == 0
+
+
+@pytest.mark.parametrize("label_t, card, score, label_emits", [
+    (1.0, "tornado", 0.80, 0),          # a weak fuzzy read does not count
+    (1.0, "the-log", 0.95, 1),          # another card (an event of its own, but not this one's confirmation)
+    (3.5, "tornado", 0.95, 1),          # 3.5 s after the track appeared: another play
+])
+def test_a_weak_wrong_card_or_late_label_does_not_confirm(label_t, card, score, label_emits):
+    pd = PlayDetector({})
+    assert run(pd, own_half_tornado, 1.2) == [] and len(pd.pending) == 1
+    got = pd.update_labels(label_t, [L(card, score)], [(13, 5)], "2:00")
+    assert len(got) == label_emits and pd.stats["confirmed_by_label"] == 0 and len(pd.pending) == 1
+    pd.release_holds(8.0)
+    assert pd.pending == [] and pd.stats["dropped_own_half_unconfirmed"] == 1
+
+
+def test_enemy_half_arena_play_needs_no_label():
+    assert cards(run(PlayDetector({}), lambda t: [U("knight", tile=(9, 22))], 1.5)) == ["knight"]
+
+
+# ---- 2. coincidence with our own plays
+def test_barbarian_barrel_one_second_after_our_goblin_barrel_is_dropped():
+    pd = PlayDetector({})
+    pd.note_own_play(10.0, "goblin-barrel", (3, 20))                    # our barrel, thrown at their left princess
+    assert run(pd, lambda t: [U("barbarian-barrel", tile=(3, 13), category="spell")], 12.5, t0=11.0) == []
+    assert pd.stats["dropped_own_spell_in_flight"] == 1                 # first seen 1 s after ours, over our half
+    assert pd.pending == [] and pd.stats["dropped_own_half_unconfirmed"] == 0     # dropped for what it is, not left waiting
+
+
+def test_an_opponent_spell_far_from_our_spells_in_time_or_place_is_not_the_rule():
+    old = PlayDetector({})
+    old.note_own_play(5.0, "goblin-barrel", (3, 20))                    # 6 s before: long landed
+    run(old, lambda t: [U("barbarian-barrel", tile=(3, 13), category="spell")], 12.5, t0=11.0)
+    assert old.stats["dropped_own_spell_in_flight"] == 0 and len(old.pending) == 1
+    deep = PlayDetector({})
+    deep.note_own_play(10.0, "goblin-barrel", (3, 20))
+    assert cards(run(deep, lambda t: [U("fireball", tile=(9, 24), category="spell")], 12.5, t0=11.0)) == ["fireball"]
+    assert deep.stats["dropped_own_spell_in_flight"] == 0               # on their half: a real play
+    troop = PlayDetector({})
+    troop.note_own_play(10.0, "goblin-barrel", (3, 20))
+    assert cards(run(troop, lambda t: [U("knight", tile=(9, 22))], 12.5, t0=11.0)) == ["knight"]     # not a spell
+
+
+def test_a_labelled_opponent_spell_after_our_spell_is_dropped_too():
+    pd = PlayDetector({})
+    pd.note_own_play(10.0, "goblin-barrel", (3, 20))
+    assert pd.update_labels(11.0, [L("barbarian-barrel")], [(3, 13)], "2:00") == []
+    assert pd.stats["dropped_own_spell_in_flight"] == 1
+    assert [e.card for e in pd.update_labels(14.5, [L("barbarian-barrel")], [(3, 13)], "2:00")] == ["barbarian-barrel"]
+
+
+def test_an_opponent_play_half_a_second_after_ours_at_two_tiles_is_dropped():
+    pd = PlayDetector({})
+    pd.note_own_play(10.0, "golem", (9, 20))
+    assert run(pd, lambda t: [U("golem", tile=(10, 21))], 12.0, t0=10.5) == []     # sqrt(2) tiles away
+    assert pd.stats["dropped_own_play_coincidence"] == 1
+
+
+def test_the_same_play_at_five_tiles_or_a_second_and_a_half_later_is_kept():
+    far = PlayDetector({})
+    far.note_own_play(10.0, "golem", (9, 20))
+    assert cards(run(far, lambda t: [U("golem", tile=(14, 20))], 12.0, t0=10.5)) == ["golem"]
+    late = PlayDetector({})
+    late.note_own_play(10.0, "golem", (9, 20))
+    assert cards(run(late, lambda t: [U("golem", tile=(10, 21))], 13.0, t0=11.5)) == ["golem"]
+    assert far.stats["dropped_own_play_coincidence"] == late.stats["dropped_own_play_coincidence"] == 0
+
+
+def test_an_own_play_without_a_known_tile_cannot_match():
+    pd = PlayDetector({})
+    pd.note_own_play(10.0, "golem")                                     # a HUD play whose label has not come yet
+    assert cards(run(pd, lambda t: [U("golem", tile=(10, 21))], 12.0, t0=10.5)) == ["golem"]
+
+
+def test_a_labelled_opponent_play_next_to_ours_is_dropped_and_a_distant_one_is_kept():
+    pd = PlayDetector({})
+    pd.note_own_play(10.0, "giant", (9, 20))
+    assert pd.update_labels(10.5, [L("golem")], [(10, 21)], "2:00") == []
+    assert pd.stats["dropped_own_play_coincidence"] == 1
+    assert [e.card for e in pd.update_labels(10.5, [L("golem")], [(15, 24)], "2:00")] == ["golem"]
+
+
+def test_an_own_deploy_label_is_remembered_as_one_of_our_plays():
+    pd = PlayDetector({})
+    pd.last_hand = ["knight", None, None, None]                         # the card is in our hand: the label is ours
+    assert pd.update_labels(5.0, [L("knight")], [(9, 14)], "2:00") == []
+    assert [(o.t, o.card, o.where) for o in pd.own_plays] == [(5.0, "knight", (9, 14))]
+    assert run(pd, lambda t: [U("knight", tile=(10, 14))], 7.0, t0=5.5) == []      # our unit, side channel wrong
+    assert pd.stats["dropped_own_play_coincidence"] == 1
+
+
+def hud_play(pd: PlayDetector, card: str, cost: int, t: float) -> PlayEvent:
+    """Our HUD play the way Perception feeds it: the slot empties, the elixir bar drops by the card's cost."""
+    pd.update_hand(t, [card, None, None, None], [0.9] * 4)
+    pd.update_hand(t + 0.1, [None, None, None, None], [0.9] * 4)
+    evs: list[PlayEvent] = []
+    for k in range(3):
+        evs += pd.update_elixir(t + 0.1 * k, 8, "2:00")
+    for k in range(3, 6):
+        evs += pd.update_elixir(t + 0.1 * k, 8 - cost, "2:00")
+    evs += pd.update_elixir(t + 1.5, 8 - cost, "2:00")
+    return [e for e in evs if e.player == "own"][0]
+
+
+def test_a_hud_play_is_remembered_and_takes_its_tile_from_the_label():
+    pd = PlayDetector({"goblin-barrel": 3.0})
+    ev = hud_play(pd, "goblin-barrel", 3, 10.0)                         # stamped 10.5 (the debounced drop)
+    assert ev.card == "goblin-barrel" and [o.card for o in pd.own_plays] == ["goblin-barrel"]
+    assert pd.own_plays[0].where is None
+    pd.hold_own(ev)
+    pd.update_labels(11.6, [L("goblin-barrel")], [(3, 20)], "2:00")      # the label attaches the tile to the held event
+    assert pd.own_plays[0].where == (3, 20)
+    # ... and an opponent barbarian-barrel over our half right after is that barrel in flight
+    assert run(pd, lambda t: [U("barbarian-barrel", tile=(3, 13), category="spell")], 13.5, t0=11.9) == []
+    assert pd.stats["dropped_own_spell_in_flight"] == 1
+
+
+# ---- 3. spawn-type units next to an enemy tower
+def test_skeletons_next_to_the_enemy_king_without_a_label_are_dropped():
+    pd = PlayDetector({})
+    assert run(pd, lambda t: [U("skeleton", tile=(9, 26))], 1.5) == [] and len(pd.pending) == 1
+    pd.release_holds(1.5 + PENDING_SECONDS + PENDING_GRACE)
+    assert pd.pending == [] and pd.stats["dropped_spawn_near_tower_unconfirmed"] == 1
+    assert pd.stats["dropped_own_half_unconfirmed"] == 0
+
+
+def test_skeletons_next_to_the_enemy_king_with_a_label_are_one_play():
+    pd = PlayDetector({})
+    events = run(pd, lambda t: [U("skeleton", tile=(9, 26))], 1.5)
+    events += pd.update_labels(1.2, [L("skeletons")], [(9, 26)], "2:00")
+    assert [e.card for e in opp_events(events)] == ["skeletons"] and pd.stats["confirmed_by_label"] == 1
+
+
+@pytest.mark.parametrize("cls, card", [("goblin", "goblins"), ("bat", "bats")])
+def test_goblins_and_bats_near_an_enemy_princess_tower_need_a_label_too(cls, card):
+    pd = PlayDetector({})
+    assert run(pd, lambda t: [U(cls, tile=(14, 21))], 1.5) == [] and [p.card for p in pd.pending] == [card]
+
+
+def test_skeletons_away_from_the_towers_and_other_cards_near_them_keep_the_old_rule():
+    assert cards(run(PlayDetector({}), lambda t: [U("skeleton", tile=(9, 19))], 1.5)) == ["skeletons"]
+    assert cards(run(PlayDetector({}), lambda t: [U("knight", tile=(9, 26))], 1.5)) == ["knight"]
+
+
+def test_skeletons_of_a_spawner_near_the_tower_are_still_spawned_not_pending():
+    def script(t):
+        units = [U("tombstone", tile=(9, 25), category="building")]
+        if t >= 3.0:
+            units.append(U("skeleton", tile=(9, 26)))
+        return units
+    pd = PlayDetector({})
+    assert cards(run(pd, script, 6.0)) == ["tombstone"] and pd.pending == []

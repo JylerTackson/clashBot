@@ -6,6 +6,8 @@ Own plays  : HUD-based. A hand slot changes identity AND elixir drops by that
 Opponent   : arena-based. A unit track appears that no own play explains.
              Spawn side is a weak cross-check only (Miner, Goblin Barrel,
              Graveyard, spells appear on the wrong half).
+             An arena play first seen on our half, or a spawn-type unit next to an enemy tower, counts only
+             with a deploy label of the same card; one that coincides with an own play is dropped (A3).
 Spells     : detector spell classes when available; otherwise sudden own tower
              HP drops with no enemy unit in range -> PlayEvent(card=None,
              confidence="low") so the deck tracker knows there is a hole.
@@ -35,6 +37,21 @@ SPAWN_PLAY_SECONDS = 4.0    # a spawner PLAY reported this recently explains new
 CONT_NEAR_TILES = 1.5       # a new track this close to another enemy track is that unit under a new class
 CONT_ENDED_SECONDS = 1.0
 CONT_MIN_HITS = 2           # ... when that other track is a real one (measured at least this often), not a one-frame ghost
+
+# MAC-AB A3 (FIX_LIST #31): phantom opponent cards that survive MAC-PF
+PENDING_SECONDS = 2.0       # an arena play that needs a deploy label waits for one stamped within this of its first frame
+PENDING_GRACE = 1.5         # ... and is kept this much longer (OCR latency: the label is applied after it is stamped)
+OWN_COINCIDE_SECONDS = 1.0  # an opponent play this close in time ...
+OWN_COINCIDE_TILES = 3.0    # ... and space to one of our own plays is our own unit / label misread
+OWN_SPELL_SECONDS = 2.0     # an opponent spell this soon after one of ours (in flight, read as another spell) is ours
+OWN_SPELL_LEAD = 0.5        # ... the HUD stamps our spell slightly after the unit-track of its flight may start
+OWN_SPELL_MAX_ROW = 16      # ... anywhere on our half (row <= 14) or the river (15, 16)
+OWN_PLAY_KEEP_SECONDS = 6.0
+OWN_HALF_MAX_ROW = 14       # an opponent arena play whose first tile is this far back needs a deploy label
+SPAWN_TYPES = {"skeletons", "goblins", "bats"}   # what tower troops and spawners next to a tower leave behind
+TOWER_NEAR_TILES = 4.0
+STAT_KEYS = ("dropped_own_half_unconfirmed", "dropped_spawn_near_tower_unconfirmed",
+             "dropped_own_play_coincidence", "dropped_own_spell_in_flight", "confirmed_by_label")
 
 # spawned card/unit class -> cards whose units or spells create it (slugs of knowledge_base / unit_map.json).
 # A "play" of the key near a live spawner is a spawn, not an opponent deployment.
@@ -86,6 +103,28 @@ class Track:
 
 
 @dataclass
+class PendingPlay:
+    """An opponent arena play held back until a deploy label of the same card confirms it (or it expires)."""
+    first_t: float
+    card: str
+    tile: tuple[int, int] | None
+    reason: str                  # "own_half" | "spawn_near_tower"
+
+
+@dataclass
+class OwnPlay:
+    """One of our own plays (HUD event or deploy label). A HUD event gets its tile later, from its label."""
+    t: float
+    card: str | None
+    tile: tuple[int, int] | None = None
+    ev: PlayEvent | None = None
+
+    @property
+    def where(self) -> tuple[int, int] | None:
+        return self.ev.tile if self.ev is not None and self.ev.tile is not None else self.tile
+
+
+@dataclass
 class HandDiff:
     t: float
     slot: int
@@ -114,6 +153,9 @@ class PlayDetector:
     recent_labels: list[tuple[float, str, tuple[int, int]]] = field(default_factory=list)
     ended_tracks: list[tuple[Track, float]] = field(default_factory=list)    # (expired track, time it expired), last ~2 s
     opp_plays: list[tuple[float, str, tuple[int, int] | None]] = field(default_factory=list)   # reported opponent plays (t, card, tile)
+    pending: list[PendingPlay] = field(default_factory=list)      # arena plays waiting for a deploy label (A3)
+    own_plays: list[OwnPlay] = field(default_factory=list)        # our recent plays, to spot our own units read as the opponent's
+    stats: dict[str, int] = field(default_factory=lambda: dict.fromkeys(STAT_KEYS, 0))   # A3 counters, shown by Perception.timing_report
     HOLD_SECONDS: float = 2.5
     LABEL_DEDUP_SECONDS: float = 3.0
     LABEL_DEDUP_TILES: int = 4
@@ -161,6 +203,7 @@ class PlayDetector:
                            f"slot {best.slot} emptied ({best.before}), elixir -{total}{note}")
             ev.slot = best.slot
             self.own_deck_seen[best.before] += 1
+            self.note_own_play(t0, best.before, ev.tile, ev)
             return [ev]
         if best is not None and len(self.pending_hand) == 1:
             self.pending_hand.remove(best)
@@ -169,6 +212,7 @@ class PlayDetector:
             ev = PlayEvent(t0, clock, "own", best.before, tile, e_before, e_after, "hud", "medium",
                            f"slot {best.slot} emptied ({best.before}) but elixir -{total} != cost {self.card_costs.get(best.before)}{note}")
             ev.slot = best.slot
+            self.note_own_play(t0, best.before, ev.tile, ev)
             return [ev]
         # no slot change explains it: a deploy label seen on Ryley's side with a
         # matching cost identifies the card (the hand read was wrong or unreadable)
@@ -183,6 +227,7 @@ class PlayDetector:
                 if len(recent_empty) == 1:
                     ev.slot = recent_empty[0].slot
                     self.pending_hand.remove(recent_empty[0])
+                self.note_own_play(t0, card, tile, ev)
                 return [ev]
         if total >= 2:
             return [PlayEvent(t0, clock, "own", None, None, e_before, e_after, "inferred", "low",
@@ -260,6 +305,64 @@ class PlayDetector:
             self.opp_plays.append((t, card, tile))
         self.opp_plays = [p for p in self.opp_plays if t - p[0] <= 10.0]
 
+    # ------------------------------------------------ A3: phantom cards that survive the spawner / dedup rules
+    def note_own_play(self, t: float, card: str | None, tile: tuple[int, int] | None = None,
+                      ev: PlayEvent | None = None) -> None:
+        """Remember one of our own plays (HUD event or deploy label) for OWN_PLAY_KEEP_SECONDS."""
+        self.own_plays.append(OwnPlay(t, card, tile, ev))
+        self.own_plays = [o for o in self.own_plays if t - o.t <= OWN_PLAY_KEEP_SECONDS]
+
+    def _own_coincidence(self, t: float, tile: tuple[int, int] | None, card: str | None) -> str | None:
+        """Why an opponent play (card `card`, first seen at `t` on `tile`) is really one of ours.
+        "near": within OWN_COINCIDE_SECONDS and OWN_COINCIDE_TILES of one of our plays (its tile known: a HUD play
+        whose label has not arrived yet cannot be placed, so it never matches).
+        "spell": a spell on our half or the river OWN_SPELL_SECONDS after one of our spells (a goblin barrel in
+        flight, read as a barbarian barrel)."""
+        from .detect import SPELL_CLASSES
+        for o in self.own_plays:
+            where = o.where
+            if (where is not None and tile is not None and abs(t - o.t) <= OWN_COINCIDE_SECONDS
+                    and _near(where, tile, OWN_COINCIDE_TILES)):
+                return "near"
+        if card in SPELL_CLASSES and tile is not None and tile[1] <= OWN_SPELL_MAX_ROW:
+            if any(o.card in SPELL_CLASSES and -OWN_SPELL_LEAD <= t - o.t <= OWN_SPELL_SECONDS for o in self.own_plays):
+                return "spell"
+        return None
+
+    def _count_own_coincidence(self, why: str) -> None:
+        self.stats["dropped_own_play_coincidence" if why == "near" else "dropped_own_spell_in_flight"] += 1
+
+    @staticmethod
+    def _needs_label(tile: tuple[int, int] | None, card: str) -> str | None:
+        """An arena play that only counts with a deploy label: first seen on our half, or a spawn-type unit
+        (skeletons, goblins, bats) that no spawner explains first seen on the enemy half next to an enemy tower."""
+        if tile is None:
+            return None
+        if tile[1] <= OWN_HALF_MAX_ROW:
+            return "own_half"
+        if card in SPAWN_TYPES:
+            from .tracking import TOWER_TILES
+            if any(_near(tile, TOWER_TILES[k], TOWER_NEAR_TILES) for k in ("enemy_left", "enemy_right", "enemy_king")):
+                return "spawn_near_tower"
+        return None
+
+    def _expire_pending(self, now: float) -> None:
+        """Drop the arena plays whose label never came (PENDING_SECONDS + OCR latency after their first frame)."""
+        keep = []
+        for p in self.pending:
+            if now - p.first_t <= PENDING_SECONDS + PENDING_GRACE:
+                keep.append(p)
+                continue
+            self.stats["dropped_own_half_unconfirmed" if p.reason == "own_half"
+                       else "dropped_spawn_near_tower_unconfirmed"] += 1
+        self.pending = keep
+
+    def _take_pending(self, card: str, t: float) -> list[PendingPlay]:
+        """Remove (and return) the waiting arena plays of `card` that a label stamped `t` confirms."""
+        hit = [p for p in self.pending if p.card == card and abs(t - p.first_t) <= PENDING_SECONDS]
+        self.pending = [p for p in self.pending if p not in hit]
+        return hit
+
     def update_units(self, t: float, units: list[UnitObs], clock: str | None) -> list[PlayEvent]:
         """Associate detections to tracks; a new ENEMY track that survives the
         grace period is an opponent play. Only frames where the unit was
@@ -267,6 +370,7 @@ class PlayDetector:
         starts on top of another enemy track is that unit under a new class,
         and the units a spawner (night witch, graveyard...) creates are not plays."""
         events: list[PlayEvent] = []
+        self._expire_pending(t)
         unmatched = []
         for u in units:
             if u.category in ("tower", "ui") or u.tile is None:
@@ -330,6 +434,16 @@ class PlayDetector:
             from .detect import SPELL_CLASSES
             if tr.tile is not None and tr.tile[1] < 13 and card not in SPELL_CLASSES and card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel"):
                 continue
+            # one of our own plays read as the opponent's (our unit with the side channel wrong, our spell in flight)
+            why = self._own_coincidence(tr.first_t, tr.first_tile, card)
+            if why is not None:
+                self._count_own_coincidence(why)
+                continue
+            # our half / a spawn-type unit next to an enemy tower: only with a deploy label of the same card
+            need = self._needs_label(tr.first_tile, card)
+            if need is not None:
+                self.pending.append(PendingPlay(tr.first_t, card, tr.first_tile, need))
+                continue
             detail = "enemy-side track" + (" but spawned on own half (miner/barrel/spell?)" if own_half else "")
             self._log_opp_play(tr.first_t, card, tr.tile)
             events.append(PlayEvent(tr.first_t, clock, "opponent", card, tr.tile, None, None, "arena",
@@ -343,6 +457,7 @@ class PlayDetector:
         self.own_hold.append(ev)
 
     def release_holds(self, t: float) -> list[PlayEvent]:
+        self._expire_pending(t)
         out = [e for e in self.own_hold if t - e.timestamp > self.HOLD_SECONDS]
         self.own_hold = [e for e in self.own_hold if t - e.timestamp <= self.HOLD_SECONDS]
         # a label credited to Ryley (his half / his deck / his level) that no HUD
@@ -394,6 +509,7 @@ class PlayDetector:
             own_half_troop = tile[1] <= 11 and lbl.card not in SPELL_CLASSES and lbl.card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel", "wall-breakers")
             deck_card = self.own_deck_seen.get(lbl.card, 0) >= 2 and not lvl_opp
             if own is None and (pending_own or in_hand or (own_half_troop and not lvl_opp) or lvl_own or deck_card):
+                self.note_own_play(t, lbl.card, tile)
                 prev = self.label_tiles.get(lbl.card)
                 if prev is None or t - prev[0] > 6.0 or lbl.match_score >= prev[2]:
                     self.label_tiles[lbl.card] = (t, tile, lbl.match_score, lbl.text)
@@ -415,6 +531,14 @@ class PlayDetector:
             # the arena path may have reported this deployment already (the label is read later than the unit track)
             if self._opp_duplicate(t, lbl.card, tile):
                 continue
+            why = self._own_coincidence(t, tile, lbl.card)
+            if why is not None:
+                self._take_pending(lbl.card, t)      # the arena track it would have confirmed is ours too
+                self._count_own_coincidence(why)
+                continue
+            confirmed = self._take_pending(lbl.card, t)   # one event: the label's, with the arena track folded in
+            if confirmed:
+                self.stats["confirmed_by_label"] += 1
             self.recent_group[lbl.card] = t
             self._log_opp_play(t, lbl.card, tile)
             if lbl.level is not None and lbl.match_score >= 0.9 and tile[1] >= 17 and not in_hand:
@@ -422,7 +546,8 @@ class PlayDetector:
             side_note = " on own half" if tile[1] < 15 else ""
             events.append(PlayEvent(t, clock, "opponent", lbl.card, tile, None, None, "deploy_label",
                                     "high" if lbl.match_score >= 0.9 else "medium",
-                                    f"deploy label '{lbl.text}'{side_note}" + (f", lvl {lbl.level}" if lbl.level else "")))
+                                    f"deploy label '{lbl.text}'{side_note}" + (f", lvl {lbl.level}" if lbl.level else "")
+                                    + (f"; confirms the arena track at {confirmed[0].tile}" if confirmed else "")))
         return events
 
     def known_levels(self) -> tuple[int | None, int | None]:
