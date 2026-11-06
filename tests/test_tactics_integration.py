@@ -549,7 +549,11 @@ def test_log_fields_and_decisions_by_source(tmp_path):
 
 
 def test_decisions_by_source_counts_every_kind(tmp_path):
-    lp = _tac_loop(tmp_path, ranker=NotesRanker(2), policy=RecPolicy())          # a fallback candidate ...
+    # a fallback candidate (not a win condition: MAC-AG lets a defend / counter play a fallback win condition) ...
+    filler = TacGenerator([Candidate("knight|middle|mid", 0.9, {"tac": 0.9}, [9.5, 8.0], TAC_NOTE),
+                           Candidate("zap|left|mid", 0.5, {"knn": 0.5}, None, "pros played this in similar states"),
+                           Candidate("archers|left|back", 0.0, {"fallback": 1}, None, None)])
+    lp = _tac_loop(tmp_path, ranker=NotesRanker(2), policy=RecPolicy(), generator=filler)
     lp.step("f", 1.0, 0, 2.0)                                                    # ... at 5 elixir: held
     assert lp.decisions[0].key == HOLD_KEY and lp.decisions[0].executor["status"] == "hold_fallback"
     lp2 = _tac_loop(tmp_path, ranker=NotesRanker(0))

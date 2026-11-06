@@ -29,7 +29,7 @@ from clashbot.policy import ReactivePolicy  # noqa: E402
 POLICIES = ("reactive", "trigger", "always")
 SUBSETS = ("all", "periodic")
 DEFAULT_SPLITS = ("val", "test")
-MODES = ("defend", "leak", "punish", "save", "hold", "none")
+MODES = ("defend", "counter", "leak", "punish", "save", "hold", "none")
 
 
 def load_records(dataset: Path, splits: set[str]) -> list[dict]:
