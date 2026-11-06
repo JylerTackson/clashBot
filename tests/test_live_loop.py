@@ -1283,7 +1283,8 @@ def test_ag_end_to_end_the_tesla_goes_to_the_pull_tile_and_knight_waits_for_a_fl
     deck = ["electro-dragon", "musketeer", "tesla", "fireball", "knight", "zap", "ram-rider", "mini-p-e-k-k-a"]
     hand = ["tesla", "knight", "musketeer", "zap"]
     cards = load_cards()
-    engine = TacticalEngine(cards, weights=DEFAULT_WEIGHTS)
+    # MAC-AH: this MAC-AG end-to-end check runs the role-based engine (threat model off): 3 bats are a push the tower handles
+    engine = TacticalEngine(cards, weights={**DEFAULT_WEIGHTS, "threat_model": 0.0})
     giant = {"unit_class": "giant", "card": "giant", "side": "enemy", "tile": [14, 15],
              "predicted_tile_2s": [14, 13], "eta_tower": {"tower": "own_right", "s": 9.0}}
     bats = [{"unit_class": "bats", "card": "bats", "side": "enemy", "tile": t, "eta_tower": {"tower": "own_left", "s": 4.0}}
