@@ -5,7 +5,8 @@
 Reads <dataset>/d1/joint/{train,val,test}.jsonl and <dataset>/states.jsonl. For every line the tactics engine analyses
 the state; the new line's state is the context followed by the engine's `tactics: ...` lines, and every option carries
 the note the live loop would attach (`CandidateGenerator.option_notes`; kNN over the train split without the line's
-own game). Answers and metadata are unchanged. Writes <out>/{train,val,test}.jsonl (default <dataset>/d1/joint_tac)
+own game); an option that plays the card of an engine move at another placement carries the card-level tactics note
+(stats: `answer_has_tactics_card_note` counts exact or card-level). Answers and metadata are unchanged. Writes <out>/{train,val,test}.jsonl (default <dataset>/d1/joint_tac)
 and <out>/stats.json. CPU only; no model is loaded.
 """
 from __future__ import annotations
@@ -18,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
-from clashbot.candidates import CandidateGenerator  # noqa: E402
+from clashbot.candidates import TAC_CARD_NOTE, CandidateGenerator  # noqa: E402
 from clashbot.config import DATASET_DIR  # noqa: E402
 from clashbot.d1_format import JOINT_NAME, joint_request, validate  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
@@ -63,8 +64,10 @@ def build_line(line: dict, rec: dict, engine: TacticalEngine, generator: Candida
     new = {**line, "state": state, "questions": questions}
     validate(new["state"], new["questions"], new["answers"])
     answer = line["answers"][JOINT_NAME]
+    answer_note = notes.get(answer) or ""
     facts = {"mismatch": mismatch, "has_push": bool(report.pushes),
-             "answer_tactics_note": notes.get(answer, "").startswith(TAC_PREFIX),
+             "answer_tactics_note": answer_note.startswith(TAC_PREFIX),
+             "answer_tactics_card_note": answer_note.startswith(TAC_PREFIX) or TAC_CARD_NOTE in answer_note,
              "top_is_answer": report.best is not None and report.best.key == answer,
              "any_lookup_note": any(n.startswith(LOOKUP_PREFIXES) for n in notes.values()),
              "chars": len(state)}
@@ -75,6 +78,7 @@ def split_stats(facts: list[dict], missing: int) -> dict:
     n = len(facts)
     return {"lines": n,
             "answer_has_tactics_note": _share(sum(f["answer_tactics_note"] for f in facts), n),
+            "answer_has_tactics_card_note": _share(sum(f["answer_tactics_card_note"] for f in facts), n),
             "tactics_top_is_answer": _share(sum(f["top_is_answer"] for f in facts), n),
             "any_lookup_note": _share(sum(f["any_lookup_note"] for f in facts), n),
             "lines_with_push": _share(sum(f["has_push"] for f in facts), n),

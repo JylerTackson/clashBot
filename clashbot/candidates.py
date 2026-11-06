@@ -2,6 +2,9 @@
 
 With a `TacticalReport` (clashbot.tactics) the generator puts the engine's concrete moves first, then the lookup
 candidates, and gives every candidate a one-line note for d1. Without a report nothing changes: no notes, no tiles.
+A key that is not an exact tactical move but plays the card of a report move also gets a card-level tactics note, so
+d1 sees that the engine agreed on the card even when its placement differs. `generate` (live) and `option_notes`
+(training export) build every note through the one `_key_note` helper.
 """
 from __future__ import annotations
 
@@ -9,12 +12,13 @@ from dataclasses import dataclass
 
 from clashbot.config import HOLD_KEY
 from clashbot.game_rules import (action_key, lane_of, legal_action_keys, legal_cards, load_cards,
-                                 zone_of)
+                                 parse_action_key, zone_of)
 from clashbot.kg import KnowledgeGraph
 from clashbot.retrieval import StateIndex
 
 PROS_ALSO = "; pros played this too"
 FILLER_NOTE = "filler: no pro or counter support"
+TAC_CARD_NOTE = "tactics suggests this card"      # prefix of the card-level tactics note
 
 
 @dataclass
@@ -50,6 +54,36 @@ def _lookup_note(key: str, knn_n: dict[str, float], kg_n: dict[str, float], kg_t
 def _tac_note(move, knn_value: float) -> str:
     note = f"tactics: {move.intent}, {move.reason}"
     return note + PROS_ALSO if knn_value > 0 else note
+
+
+def _tac_card_note(move) -> str:
+    """The note of a key that is not the engine's placement but plays the card of `move`."""
+    parts = parse_action_key(move.key)
+    return f"{TAC_CARD_NOTE} ({move.intent}: {move.reason}, at {parts['lane']} {parts['zone']})"
+
+
+def _card_moves(report) -> dict[str, object]:
+    """The first move of each card in `report.moves` (any move, legal or not): the source of card-level notes."""
+    out: dict[str, object] = {}
+    for move in (report.moves if report is not None else []):
+        out.setdefault(move.card, move)
+    return out
+
+
+def _key_note(key: str, exact: dict[str, object], card_moves: dict[str, object], knn_n: dict[str, float],
+              kg_n: dict[str, float], kg_threat: dict[str, str], filler: bool = False) -> str | None:
+    """The one note builder behind `generate` and `option_notes`. `exact` maps the keys that are tactical moves to
+    their move (exact tactics note); any other key gets its lookup note, joined with the card-level tactics note when
+    its card is the card of a report move (`card_moves`). The filler line (`filler=True`, no pro or counter support)
+    is only used when there is nothing else to say: a card note replaces it instead of being joined to it."""
+    if key in exact:
+        return _tac_note(exact[key], knn_n.get(key, 0.0))
+    note = _lookup_note(key, knn_n, kg_n, kg_threat)               # real support only
+    move = card_moves.get(key.split("|", 1)[0])
+    if move is None:
+        return note or (FILLER_NOTE if filler else None)
+    card_note = _tac_card_note(move)
+    return f"{note}; {card_note}" if note else card_note
 
 
 class CandidateGenerator:
@@ -120,6 +154,8 @@ class CandidateGenerator:
 
         out: list[Candidate] = []
         taken: set[str] = set()
+        exact: dict[str, object] = {}                       # tactical candidate key -> its move
+        card_moves = _card_moves(report)
         if report is not None:
             for move in report.moves:
                 if len(out) >= min(max(tac_n, 0), max(n, 0)):
@@ -129,13 +165,14 @@ class CandidateGenerator:
                 sources = {"tac": round(move.score, 4)}
                 if move.key in score:
                     sources.update(knn=round(knn_n.get(move.key, 0.0), 4), kg=round(kg_n.get(move.key, 0.0), 4))
+                exact[move.key] = move
                 out.append(Candidate(move.key, move.score, sources, list(move.tile),
-                                     _tac_note(move, knn_n.get(move.key, 0.0))))
+                                     _key_note(move.key, exact, card_moves, knn_n, kg_n, kg_threat)))
                 taken.add(move.key)
 
         ranked = [k for k in sorted(score, key=lambda k: (-score[k], k)) if k not in taken]
         for k in ranked[: max(n - len(out), 0)]:
-            note = _lookup_note(k, knn_n, kg_n, kg_threat) if report is not None else None
+            note = _key_note(k, exact, card_moves, knn_n, kg_n, kg_threat) if report is not None else None
             out.append(Candidate(k, score[k], {"knn": round(knn_n.get(k, 0.0), 4), "kg": round(kg_n.get(k, 0.0), 4)},
                                  note=note))
             taken.add(k)
@@ -145,7 +182,9 @@ class CandidateGenerator:
                     break
                 if k == HOLD_KEY or k in taken:
                     continue
-                out.append(Candidate(k, 0.0, {"fallback": 1}, note=FILLER_NOTE if report is not None else None))
+                note = (_key_note(k, exact, card_moves, knn_n, kg_n, kg_threat, filler=True)
+                        if report is not None else None)
+                out.append(Candidate(k, 0.0, {"fallback": 1}, note=note))
                 taken.add(k)
         return out
 
@@ -153,7 +192,8 @@ class CandidateGenerator:
                      tac_n: int | None = None, **filters) -> dict[str, str]:
         """The notes `generate(..., report=report)` would attach to `keys` (any keys, e.g. the options of a training
         example): a key that is one of the report's moves gets its tactics note, every other key its lookup note
-        (pros played it / known counter / filler), all from the same kNN / KG normalisation as `generate`.
+        (pros played it / known counter / filler) joined with the card-level tactics note when its card is the card
+        of a report move; all from the same kNN / KG normalisation and the same `_key_note` as `generate`.
         `tac_n=None` (training export) lets every report move count; `tac_n=N` restricts them to the first N legal
         moves, exactly the ones `generate(..., tac_n=N)` turns into tactical candidates."""
         legal_set = set(legal_action_keys(state, self.cards))
@@ -163,10 +203,5 @@ class CandidateGenerator:
             if tac_n is not None and (len(moves) >= tac_n or move.key not in legal_set):
                 continue
             moves.setdefault(move.key, move)
-        notes: dict[str, str] = {}
-        for key in keys:
-            if key in moves:
-                notes[key] = _tac_note(moves[key], knn_n.get(key, 0.0))
-            else:
-                notes[key] = _lookup_note(key, knn_n, kg_n, kg_threat, filler=True)
-        return notes
+        card_moves = _card_moves(report)
+        return {key: _key_note(key, moves, card_moves, knn_n, kg_n, kg_threat, filler=True) for key in keys}

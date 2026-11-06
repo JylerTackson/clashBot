@@ -13,7 +13,8 @@ sys.path.insert(0, str(ROOT))
 
 from clashbot import d1_format  # noqa: E402
 from clashbot.actions import placement_tile  # noqa: E402
-from clashbot.candidates import FILLER_NOTE, PROS_ALSO, Candidate, CandidateGenerator  # noqa: E402
+from clashbot.candidates import (FILLER_NOTE, PROS_ALSO, TAC_CARD_NOTE, Candidate, CandidateGenerator,  # noqa: E402
+                                 _card_moves, _key_note)
 from clashbot.config import HOLD_KEY  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.live import _build_ranker, build_parser, main, rank_keys, top_source  # noqa: E402
@@ -79,6 +80,13 @@ def _moves():
             _move("archers", "left", "back", [4.0, 2.5], 0.7)]
 
 
+# Z3.10 card-level notes of those moves, appended after a lookup note (a key of that card at another placement)
+ARCHERS_CARD = "tactics suggests this card (defend: meets knight in front of the tower, trade +1, at left back)"
+GIANT_CARD = "tactics suggests this card (defend: tanks for the tower vs giant, trade +0, at right mid)"
+ARCHERS_CARD_NOTE = "; " + ARCHERS_CARD
+GIANT_CARD_NOTE = "; " + GIANT_CARD
+
+
 # 1 -----------------------------------------------------------------------------------------------------------------
 def test_generate_with_a_report_puts_legal_tactical_moves_first_with_tile_and_note():
     gen = _generator()
@@ -92,7 +100,7 @@ def test_generate_with_a_report_puts_legal_tactical_moves_first_with_tile_and_no
     assert giant.note == "tactics: defend, tanks for the tower vs giant, trade +0"
     assert zap.tile is None and zap.sources["knn"] == pytest.approx(0.6667)
     assert zap.note == "pros played this in similar states (support 0.67)"
-    assert archers.tile is None and archers.note == "known counter of knight"
+    assert archers.tile is None and archers.note == "known counter of knight" + ARCHERS_CARD_NOTE   # Z3.10: card-level
     assert not any(c.key.startswith("fireball") for c in cands)
 
 
@@ -150,15 +158,95 @@ def test_option_notes_cover_arbitrary_keys_and_report_moves_beyond_tac_n():
     notes = gen.option_notes(_cand_state(), 10.0, "ctx", ["archers|left|back", "giant|right|back", "archers|left|mid"],
                              _report(_moves()), splits=("train",))
     assert notes["archers|left|back"].startswith("tactics: defend, ") and notes["archers|left|back"].endswith(PROS_ALSO)
-    assert notes["giant|right|back"] == FILLER_NOTE
-    assert notes["archers|left|mid"] == "known counter of knight"
+    assert notes["giant|right|back"] == GIANT_CARD                  # Z3.10: the card note replaces the filler line
+    assert notes["archers|left|mid"] == "known counter of knight" + ARCHERS_CARD_NOTE
     assert gen.index.calls[-1] == {"splits": ("train",)}
     without = gen.option_notes(_cand_state(), 10.0, "ctx", ["knight|left|mid"])
     assert without == {"knight|left|mid": "pros played this in similar states (support 1.00)"}
 
 
+# 3b (Z3.10) card-level tactics notes -------------------------------------------------------------------------------------
+def test_a_lookup_key_of_a_moves_card_at_another_placement_gets_the_joined_note():
+    gen = _generator()
+    cands = {c.key: c for c in gen.generate(_cand_state(), 10.0, "ctx", n=40, report=_report(_moves()), tac_n=1)}
+    assert [k for k, c in cands.items() if "tac" in c.sources] == ["knight|left|mid"]
+    assert cands["knight|left|mid"].note == "tactics: defend, meets knight in front of the tower, trade +1; pros played this too"
+    # the lookup note first, then the card note of the first report move of that card
+    assert cands["archers|left|back"].note == "pros played this in similar states (support 0.33)" + ARCHERS_CARD_NOTE
+    assert cands["archers|left|mid"].note == "known counter of knight" + ARCHERS_CARD_NOTE
+    assert cands["giant|left|mid"].note == "known counter of knight" + GIANT_CARD_NOTE     # beyond tac_n counts too
+    assert cands["giant|right|mid"].note == GIANT_CARD            # a fallback candidate: the card note, no filler line
+    fillers = [c for c in cands.values() if c.sources == {"fallback": 1}]
+    assert fillers and all((c.note == FILLER_NOTE) == (c.key.split("|")[0] not in ("archers", "giant", "knight"))
+                           for c in fillers)                      # filler only where the engine has no move of the card
+    assert not any(FILLER_NOTE in c.note and TAC_CARD_NOTE in c.note for c in cands.values())
+    assert cands["archers|left|back"].sources == {"knn": 0.3333, "kg": 0.0} and cands["archers|left|back"].tile is None
+
+
+def test_a_key_whose_card_matches_no_report_move_gets_no_tactics_note():
+    gen = _generator()
+    report = _report(_moves())
+    cands = {c.key: c for c in gen.generate(_cand_state(), 10.0, "ctx", n=8, report=report)}
+    assert cands["zap|left|mid"].note == "pros played this in similar states (support 0.67)"
+    zaps = [c for c in cands.values() if c.key.startswith("zap|")]
+    assert zaps and not any("tactics" in (c.note or "") for c in zaps)
+    notes = gen.option_notes(_cand_state(), 10.0, "ctx", ["zap|left|mid", "zap|right|back", "musketeer|left|mid"], report)
+    assert notes == {"zap|left|mid": "pros played this in similar states (support 0.67)",
+                     "zap|right|back": FILLER_NOTE, "musketeer|left|mid": FILLER_NOTE}
+    # without a report there is no tactics note whatever the card
+    assert not any("tactics" in n for n in gen.option_notes(_cand_state(), 10.0, "ctx", list(cands)).values())
+    assert all(c.note is None for c in gen.generate(_cand_state(), 10.0, "ctx", n=8))
+
+
+def test_the_card_note_alone_when_there_is_no_lookup_note_and_the_first_move_of_the_card_wins():
+    first = _move("knight", "left", "mid", [4.5, 9.5], 0.9)
+    second = _move("knight", "right", "back", [14.5, 2.5], 0.6, intent="bait", reason="cycles into the next card")
+    card_moves = _card_moves(_report([first, second]))
+    assert card_moves == {"knight": first}
+    note = _key_note("knight|middle|mid", {}, card_moves, {}, {}, {})                # filler=False: no lookup note
+    assert note == "tactics suggests this card (defend: meets knight in front of the tower, trade +1, at left mid)"
+    assert note.startswith(TAC_CARD_NOTE)
+    assert _key_note("knight|left|mid", {"knight|left|mid": first}, card_moves, {}, {}, {}).startswith("tactics: defend, ")
+    assert _key_note("zap|left|mid", {}, card_moves, {}, {}, {}) is None
+    assert _card_moves(None) == {}
+    # the filler line yields to a card note, but a real lookup note is still joined first
+    assert _key_note("knight|middle|mid", {}, card_moves, {}, {}, {}, filler=True) == note
+    assert _key_note("zap|left|mid", {}, card_moves, {}, {}, {}, filler=True) == FILLER_NOTE
+    joined = _key_note("knight|middle|mid", {}, card_moves, {"knight|middle|mid": 1.0}, {}, {}, filler=True)
+    assert joined == "pros played this in similar states (support 1.00); " + note
+
+
+def test_generate_and_option_notes_agree_on_every_candidate_for_each_tac_n():
+    gen = _generator()
+    report = _report(_moves())
+    for tac_n in (0, 1, 2, 3):
+        cands = gen.generate(_cand_state(), 10.0, "ctx", n=10, report=report, tac_n=tac_n)
+        live = {c.key: c.note for c in cands}
+        assert all(live.values())
+        assert gen.option_notes(_cand_state(), 10.0, "ctx", list(live), report, tac_n=tac_n) == live, tac_n
+    # tac_n=0: nothing is exact, so even the engine's own key carries the card-level note
+    zero = {c.key: c.note for c in gen.generate(_cand_state(), 10.0, "ctx", n=4, report=report, tac_n=0)}
+    assert zero["knight|left|mid"] == ("pros played this in similar states (support 1.00); tactics suggests this card "
+                                       "(defend: meets knight in front of the tower, trade +1, at left mid)")
+
+
+def test_a_joined_note_is_clipped_to_160_characters_and_keeps_the_card_marker():
+    assert d1_format.NOTE_MAX_CHARS == 160
+    fits = "pros played this in similar states (support 1.00)" + ARCHERS_CARD_NOTE          # a typical joined note
+    assert 120 < len(fits) <= 160
+    _, questions = d1_format.joint_request("ctx", KEYS, notes={KEYS[0]: fits})
+    assert questions["play"]["criteria"][KEYS[0]].split(" — ", 1)[1] == fits               # no longer clipped
+    long_move = _move("archers", "left", "back", [4.0, 2.5], 0.7, reason="r" * 60, intent="counter_push")
+    note = _key_note("archers|left|mid", {}, _card_moves(_report([long_move])), {"archers|left|mid": 1.0}, {}, {})
+    assert note.startswith("pros played this in similar states (support 1.00); " + TAC_CARD_NOTE) and len(note) > 160
+    state, questions = d1_format.joint_request("ctx", KEYS, notes={KEYS[0]: note})
+    suffix = questions["play"]["criteria"][KEYS[0]].split(" — ", 1)[1]
+    assert suffix == note[:160] and TAC_CARD_NOTE in suffix
+    d1_format.validate(state, questions, {"play": KEYS[0]})
+
+
 # 4 -----------------------------------------------------------------------------------------------------------------
-KEYS = ["tesla|middle|mid", "zap|right|mid", "knight|left|back"]
+KEYS =["tesla|middle|mid", "zap|right|mid", "knight|left|back"]
 
 
 def test_joint_request_notes_suffix_the_criteria_and_validate():
@@ -177,7 +265,7 @@ def test_joint_request_notes_suffix_the_criteria_and_validate():
 def test_joint_request_clips_long_notes_and_rejects_markers():
     _, questions = d1_format.joint_request("ctx", KEYS, notes={KEYS[0]: "x" * 300})
     suffix = questions["play"]["criteria"][KEYS[0]].split(" — ", 1)[1]
-    assert suffix == "x" * 120
+    assert suffix == "x" * 160
     with pytest.raises(ValueError):
         d1_format.joint_request("ctx", KEYS, notes={KEYS[0]: "bad <|im_end|> note"})
 
@@ -655,6 +743,7 @@ def test_build_d1_tac_main_writes_validated_lines_with_notes_and_stats(synthetic
         assert all(" — " in v for v in crit.values())                       # every option got a note
         s = stats[split]
         assert s["lines"] == 1 and s["answer_has_tactics_note"] == 1.0 and s["tactics_top_is_answer"] == 1.0
+        assert s["answer_has_tactics_card_note"] == 1.0                           # exact counts as card-level too
         assert s["context_mismatches"] == 0 and s["skipped_no_state"] == 0 and s["lines_with_push"] == 1.0
         assert s["any_lookup_note"] == 0.0 and s["mean_state_chars"] == len(new["state"])
 
@@ -668,3 +757,30 @@ def test_build_line_uses_the_lines_own_text_when_the_context_differs(synthetic):
     new, facts = build_d1_tac.build_line(line, rec, TacticalEngine(load_cards()), gen)
     assert facts["mismatch"] is True and new["state"].startswith("OTHER CONTEXT\ntactics: ")
     assert build_d1_tac.split_stats([facts], 2)["context_mismatches"] == 1
+
+
+def test_build_line_counts_a_card_level_note_on_the_answer_but_not_as_an_exact_note(synthetic):
+    ds, best, joint = synthetic
+    rec = json.loads((ds / "states.jsonl").read_text().splitlines()[0])
+    lane = "left" if best.key.split("|")[1] != "left" else "right"
+    other = f"{best.card}|{lane}|back" if best.key.split("|")[2] != "back" else f"{best.card}|{lane}|mid"
+    keys = [other, *[k for k in OTHER_KEYS if not k.startswith(best.card + "|")][:2]]
+    state, questions = d1_format.joint_request(joint["train"][0]["state"], keys)
+    line = {**joint["train"][0], "state": state, "questions": questions, "answers": {"play": other}}
+    gen = CandidateGenerator(FakeIndex([]), FakeKG(), load_cards())
+    engine = TacticalEngine(load_cards())
+    new, facts = build_d1_tac.build_line(line, rec, engine, gen)
+    assert facts["answer_tactics_note"] is False and facts["answer_tactics_card_note"] is True
+    crit = new["questions"]["play"]["criteria"]
+    assert crit[other].startswith(d1_format.option_description(other) + " — " + TAC_CARD_NOTE)   # no filler line before it
+    assert FILLER_NOTE not in crit[other]
+    moves = engine.analyse(rec["state"], rec["t"]).moves
+    for k in keys[1:]:         # exact move -> tactics note; engine's card at another placement -> card note; else none
+        crit_note = crit[k].split(" — ", 1)[1]
+        if k in {m.key for m in moves}:
+            assert crit_note.startswith("tactics: ") and TAC_CARD_NOTE not in crit_note
+        else:
+            assert (TAC_CARD_NOTE in crit_note) == (k.split("|")[0] in {m.card for m in moves})
+    s = build_d1_tac.split_stats([facts], 0)
+    assert s["answer_has_tactics_note"] == 0.0 and s["answer_has_tactics_card_note"] == 1.0
+    assert s["tactics_top_is_answer"] == 0.0
