@@ -6,6 +6,11 @@ generator's output to moves that fit that decision (no blind spells). A damage s
 `target_tile` hands that aim to the live loop instead of the pro median tile. `LearnedActPolicy` (MAC-X) adds a
 learned play/wait head on top: the rules keep the safety modes (defend / leak), a d1 act-head decides the rest.
 `clashbot.loop.should_decide` stays as the replay trigger and the `--policy trigger` fallback of the live loop.
+Defend discipline (MAC-AC C1, FIX_LIST #32-#34): only a unit that is really coming counts as a threat (not a retreating
+one, not a far unknown_unit, not a spell). The tactical engine then says whether the hand already holds an adequate
+answer; if not, and a better card is affordable before the push lands, the policy holds in mode "save" instead of
+spending the elixir on the cheapest card. A unit that is only coming soon (watch list) keeps the elixir of its answer
+out of a punish. When the engine fails, the old "any threat -> defend" rule applies.
 Candidates from the tactics engine (`"tac"` in their sources, MAC-Z3) were placed on purpose: they skip the lane and
 zone constraints of defend / leak / punish, but damage spells among them still need a worthwhile target.
 """
@@ -29,6 +34,15 @@ LEAK_ZONES = ("back", "bridge")
 PUNISH_ZONES = ("bridge", "enemy_half")
 OPPOSITE_LANE = {"left": "right", "right": "left"}       # middle has no opposite
 
+# defend discipline (MAC-AC C1)
+UNKNOWN_ETA_S = 4.0         # an unknown_unit (no card) only counts as a threat this close
+WATCH_ETA_S = 10.0          # an enemy unit this close that is not a threat yet is watched (its answer keeps its elixir)
+SAVE_MARGIN_S = 1.0         # spare seconds between having the elixir for the best answer and the push landing
+EMERGENCY_ETA_S = 1.5       # a push this close is answered with the best card affordable now
+ADEQUATE_MARGIN = 0.15      # a move this close to the best score (engine scale) is as good as the best
+SECONDS_PER_ELIXIR = {"single_elixir": 2.8, "double_elixir": 1.4, "triple_elixir": 0.93, "overtime": 0.93}
+FULL_ELIXIR = 10.0
+
 # spells (MAC-Y2): radius in tiles, travel time before the spell lands, and what is not worth a damage spell
 SPELL_RADIUS = {"zap": 2.5, "fireball": 2.5, "arrows": 4.0, "poison": 3.5, "lightning": 3.5, "rocket": 2.0,
                 "the-log": 2.0, "barbarian-barrel": 2.0, "giant-snowball": 2.5, "earthquake": 3.5, "tornado": 5.5,
@@ -46,10 +60,16 @@ ARENA_COLS, ARENA_ROWS = 18, 32
 @dataclass
 class ActDecision:
     act: bool
-    mode: str                 # "defend" | "leak" | "punish" | "learned" | "hold" | "none"
+    mode: str                 # "defend" | "leak" | "punish" | "learned" | "save" | "hold" | "none"
     lane: str | None          # lane to play in (None = any)
     reason: str               # short human-readable reason, logged
-    threat: dict | None = None   # the enemy unit being answered (defend)
+    threat: dict | None = None   # the enemy unit being answered (defend) or waited for (save)
+    allowed_cards: frozenset[str] | None = None   # defend: only these cards answer the threat adequately (None = any)
+
+
+def seconds_per_elixir(phase) -> float:
+    """Seconds the bar needs for one elixir in `phase` (an unknown phase counts as single elixir)."""
+    return SECONDS_PER_ELIXIR.get(phase, SECONDS_PER_ELIXIR["single_elixir"])
 
 
 def _tile(unit: dict) -> list | None:
@@ -86,6 +106,19 @@ def _tower_lane(tower: str) -> str | None:
     return {"own_left": "left", "own_right": "right", "own_king": "middle"}.get(tower)
 
 
+def _side_lane(unit: dict) -> str | None:
+    """left / right of the unit's tile (a middle tile goes to the nearer side, col < 9 left), else its tower's lane."""
+    tile = _tile(unit)
+    lane = lane_of(tile)
+    if lane == "middle":
+        return "left" if tile[0] < 9 else "right"
+    lane = lane or _tower_lane(_own_eta(unit)[1])
+    return lane if lane in ("left", "right") else None
+
+
+_Seen = tuple[float, dict, str | None]          # (eta, enemy unit, lane) of a threat or a watched unit
+
+
 class _Cand(NamedTuple):
     obj: Any                  # the Candidate (or dict) as given
     card: str | None          # card / lane / zone are None for keys that are not `card|lane|zone`
@@ -104,41 +137,165 @@ def _parse(cand) -> _Cand:
 class ReactivePolicy:
     def __init__(self, cards: dict | None = None, defend_eta_s: float = DEFEND_ETA_S,
                  leak_elixir: float = LEAK_ELIXIR, punish_opp_elixir: float = PUNISH_OPP_ELIXIR,
-                 punish_own_elixir: float = PUNISH_OWN_ELIXIR):
+                 punish_own_elixir: float = PUNISH_OWN_ELIXIR, engine=None, save_margin_s: float = SAVE_MARGIN_S,
+                 emergency_eta_s: float = EMERGENCY_ETA_S, adequate_margin: float = ADEQUATE_MARGIN):
         self.cards = cards if cards is not None else load_cards()
         self.defend_eta_s = defend_eta_s
         self.leak_elixir = leak_elixir
         self.punish_opp_elixir = punish_opp_elixir
         self.punish_own_elixir = punish_own_elixir
+        self.engine = engine                    # a TacticalEngine (anything with `analyse(state)`); built lazily if None
+        self.save_margin_s = save_margin_s
+        self.emergency_eta_s = emergency_eta_s
+        self.adequate_margin = adequate_margin
+        self._engine_failed = False             # building the default engine raised: stay on the old defend rule
 
     # -- decide --------------------------------------------------------------------------------------------------------
-    def _threats(self, state: dict) -> list[tuple[float, dict, str | None]]:
-        """(eta, unit, lane) of every enemy unit that must be answered: close to our towers or already on our half."""
-        out: list[tuple[float, dict, str | None]] = []
+    def _ignored(self, unit: dict) -> bool:
+        """A unit that neither threatens nor needs watching: it retreats, or it is a spell object (not graveyard)."""
+        if "retreat" in str(unit.get("heading") or "").lower():
+            return True
+        card = unit.get("card")
+        return self._is_spell(card) and card != "graveyard"
+
+    def _classify(self, state: dict) -> tuple[list[_Seen], list[_Seen]]:
+        """(threats, watch) as (eta, unit, lane) lists. A threat is an enemy unit that must be answered now: its ETA to
+        an own tower is within `defend_eta_s` (an unknown_unit, i.e. no card: within UNKNOWN_ETA_S), or it has no ETA
+        and stands at row NEAR_BACK_ROW or deeper on our half (an unknown_unit never counts without an ETA).
+        Retreating units and spells are neither. The watch list holds the other units whose ETA is within
+        WATCH_ETA_S, soonest first."""
+        threats: list[_Seen] = []
+        watch: list[_Seen] = []
         for u in _enemy_units(state):
+            if self._ignored(u):
+                continue
             tile = _tile(u)
             eta, tower = _own_eta(u)
-            on_our_half = tile is not None and tile[1] <= OWN_HALF_MAX_ROW
-            if eta is not None and eta <= self.defend_eta_s:
-                pass
-            elif on_our_half:
-                if eta is None:
-                    eta = 0.0 if tile[1] <= NEAR_BACK_ROW else 2.0
-            else:
-                continue
-            out.append((eta, u, lane_of(tile) or _tower_lane(tower)))
-        return out
+            lane = lane_of(tile) or _tower_lane(tower)
+            known = bool(u.get("card"))
+            if eta is not None:
+                if eta <= (self.defend_eta_s if known else min(self.defend_eta_s, UNKNOWN_ETA_S)):
+                    threats.append((eta, u, lane))
+                elif eta <= WATCH_ETA_S:
+                    watch.append((eta, u, lane))
+            elif known and tile is not None and tile[1] <= NEAR_BACK_ROW:
+                threats.append((0.0, u, lane))
+        watch.sort(key=lambda x: x[0])
+        return threats, watch
+
+    def _threats(self, state: dict) -> list[_Seen]:
+        """(eta, unit, lane) of every enemy unit that must be answered now."""
+        return self._classify(state)[0]
+
+    def _watch(self, state: dict) -> list[_Seen]:
+        """(eta, unit, lane) of the enemy units that are not threats yet but land within WATCH_ETA_S, soonest first."""
+        return self._classify(state)[1]
+
+    # -- the tactical engine -------------------------------------------------------------------------------------------
+    def _get_engine(self):
+        """The engine, built on first use; None when it cannot be built (the old rules then apply)."""
+        if self.engine is None and not self._engine_failed:
+            try:
+                from clashbot.tactics import TacticalEngine        # tactics imports this module: no top-level import
+                self.engine = TacticalEngine(self.cards)
+            except Exception:                                      # noqa: BLE001  any failure -> old behaviour
+                self._engine_failed = True
+        return self.engine
+
+    @staticmethod
+    def _find_push(pushes, unit: dict):
+        """The push whose units include `unit` (the same object), else the push of the unit's lane, else None."""
+        for push in pushes:
+            if any(x is unit for x in push.units):
+                return push
+        lane = _side_lane(unit)
+        return next((p for p in pushes if p.lane == lane), None) if lane else None
+
+    def _answers(self, state: dict, unit: dict):
+        """(push, defend moves best first) of the engine for the push that holds `unit`; (None, []) when the engine
+        has no such push. With several pushes the analysis is repeated on that push alone, so the moves of another
+        lane can neither crowd out nor stand in for its answers."""
+        engine = self._get_engine()
+        if engine is None:
+            return None, []
+        report = engine.analyse(state)
+        push = self._find_push(report.pushes, unit)
+        if push is None:
+            return None, []
+        if len(report.pushes) > 1:
+            alone = {**state, "units": [u for u in state.get("units", [])
+                                        if u.get("side") != "enemy" or any(u is x for x in push.units)]}
+            report = engine.analyse(alone)
+            push = self._find_push(report.pushes, unit) or push
+        return push, [m for m in report.moves if m.intent == "defend"]
+
+    def _need_s(self, card: str, state: dict) -> float:
+        """Seconds until the bar holds the cost of `card`."""
+        cost = float((self.cards.get(card) or {}).get("elixir_cost") or 0.0)
+        elixir = state["own"].get("elixir") or 0.0
+        return max(0.0, cost - elixir) * seconds_per_elixir(state.get("phase"))
+
+    @staticmethod
+    def _name(unit: dict) -> str:
+        return unit.get("card") or unit.get("unit_class") or "unit"
+
+    def _defend(self, state: dict, threats: list[_Seen]) -> ActDecision:
+        """The decision for the most urgent threat: answer it now when the hand holds an adequate card, hold and save
+        the elixir when a clearly better card is affordable before the push lands, else play the best card at hand."""
+        eta, unit, lane = min(threats, key=lambda x: x[0])      # stable: first of the most urgent
+        name = self._name(unit)
+        what = f"{name} {lane or 'any'}"                        # the threat as the reasons name it
+        old = ActDecision(True, "defend", lane, f"defend {what} eta {eta:.1f}s", threat=unit)
+        try:
+            push, now = self._answers(state, unit)
+            if push is None:
+                return old
+            full = self._answers({**state, "own": {**state["own"], "elixir": FULL_ELIXIR}}, unit)[1]
+        except Exception:                                       # noqa: BLE001  never worse than the old rule
+            return old
+        best_now = max(now, key=lambda m: m.score, default=None)
+        best_any = max(full, key=lambda m: m.score, default=None)
+        margin = self.adequate_margin
+        if best_now is not None and (best_any is None or best_now.score >= best_any.score - margin):
+            allowed = frozenset(m.card for m in now if m.score >= best_now.score - margin)
+            return ActDecision(True, "defend", lane, f"defend {what} with an adequate answer", threat=unit,
+                               allowed_cards=allowed)
+        if best_any is not None:
+            need = self._need_s(best_any.card, state)
+            if need + self.save_margin_s <= push.eta_s:
+                return ActDecision(False, "save", None,
+                                   f"save for {best_any.card} vs {what}: {need:.1f}s, eta {push.eta_s:.1f}s",
+                                   threat=unit)
+        if best_now is not None:
+            how = (f"emergency, eta {push.eta_s:.1f}s" if push.eta_s <= self.emergency_eta_s
+                   else f"best card {best_now.card}")
+            return ActDecision(True, "defend", lane, f"defend {what} ({how})", threat=unit,
+                               allowed_cards=frozenset({best_now.card}))
+        return ActDecision(False, "save", None, f"no answer in hand for {what}", threat=unit)
+
+    def _punish_reserve(self, state: dict, watch: list[_Seen]) -> tuple[float, str] | None:
+        """(elixir cost of the cheapest adequate answer to the soonest watched push, the unit's name), or None when
+        the engine knows no answer (then nothing is reserved)."""
+        unit = watch[0][1]
+        try:
+            moves = self._answers({**state, "own": {**state["own"], "elixir": FULL_ELIXIR}}, unit)[1]
+        except Exception:                                       # noqa: BLE001
+            return None
+        if not moves:
+            return None
+        top = max(m.score for m in moves)
+        costs = [float((self.cards.get(m.card) or {}).get("elixir_cost") or 0.0)
+                 for m in moves if m.score >= top - self.adequate_margin]
+        return min(costs), self._name(unit)
 
     def decide(self, state: dict, t: float, context_text: str | None = None) -> ActDecision:
         """`context_text` is accepted for the policy interface of the live loop and ignored here."""
         if not legal_cards(state, self.cards):
             return ActDecision(False, "none", None, "no affordable card")
 
-        threats = self._threats(state)
+        threats, watch = self._classify(state)
         if threats:
-            eta, unit, lane = min(threats, key=lambda x: x[0])      # stable: first of the most urgent
-            name = unit.get("card") or unit.get("unit_class") or "unit"
-            return ActDecision(True, "defend", lane, f"defend {name} {lane or 'any'} eta {eta:.1f}s", threat=unit)
+            return self._defend(state, threats)
 
         elixir = state["own"].get("elixir") or 0.0
         if elixir >= self.leak_elixir:
@@ -150,6 +307,10 @@ class ReactivePolicy:
         opp_elixir = opp.get("elixir_estimate")
         if (opp_elixir is not None and opp_elixir <= self.punish_opp_elixir
                 and elixir >= self.punish_own_elixir):
+            reserve = self._punish_reserve(state, watch) if watch else None
+            if reserve is not None and elixir - reserve[0] < 0:
+                return ActDecision(False, "save", None,
+                                   f"keep {reserve[0]:g} elixir for the answer to {reserve[1]}, no punish")
             plays = [p for p in opp.get("recent_plays", []) if _tile(p)]
             last = max(reversed(plays), key=lambda p: p["t"] if p.get("t") is not None else float("-inf")) \
                 if plays else None                      # newest play with a tile (later in the list wins a tie)
@@ -250,6 +411,11 @@ class ReactivePolicy:
         tac = lambda p: "tac" in p.sources          # noqa: E731  tactical candidates: placed on purpose, no lane / zone rule
 
         if decision.mode == "defend":
+            if decision.allowed_cards is not None:         # only the adequate answers; tactical candidates too
+                kept = [p for p in kept if p.card in decision.allowed_cards]
+                spell_filtered = [p.obj for p in kept]
+                if not kept:
+                    return []
             fits = [p.obj for p in kept
                     if tac(p) or ((lane is None or p.lane == lane)
                                   and (self._is_spell(p.card) or p.zone in DEFEND_ZONES))]
@@ -271,9 +437,9 @@ class LearnedActPolicy:
     """Learned play/wait decision (MAC-X, D-041): a d1 act-head scores "deploy now rather than wait" from the context.
 
     The rules stay in charge of safety: no affordable card -> none, a threat to answer (defend) or a full bar (leak)
-    -> act, whatever the head says. In every other moment the head decides: p(act) >= threshold plays (keeping the
-    rule's mode and lane when the rules also wanted a punish), else hold. `scorer.probabilities(state, questions)`
-    is a `D1Ranker` on the act checkpoint ({"act": [p_false, p_true]})."""
+    -> act, whatever the head says; a save (MAC-AC: wait for a better answer) -> hold. In every other moment the head
+    decides: p(act) >= threshold plays (keeping the rule's mode and lane when the rules also wanted a punish), else
+    hold. `scorer.probabilities(state, questions)` is a `D1Ranker` on the act checkpoint ({"act": [p_false, p_true]})."""
 
     def __init__(self, scorer, cards: dict | None = None, threshold: float = 0.5,
                  rules: ReactivePolicy | None = None, min_check_gap_s: float = 0.5):
@@ -299,7 +465,7 @@ class LearnedActPolicy:
 
     def decide(self, state: dict, t: float, context_text: str | None = None) -> ActDecision:
         r = self.rules.decide(state, t)
-        if r.mode == "none":
+        if r.mode in ("none", "save"):         # no card, or the rules wait for a better answer: the head cannot override
             return r
         if r.act and r.mode in ("defend", "leak"):
             return r
