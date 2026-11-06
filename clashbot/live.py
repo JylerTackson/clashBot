@@ -408,9 +408,11 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--seconds", type=float, default=60.0)
     ap.add_argument("--max-decisions", type=int, default=None)
     ap.add_argument("--min-gap", type=float, default=1.0, help="minimum seconds between two decisions (0 = off)")
-    ap.add_argument("--policy", choices=("reactive", "learned", "trigger"), default="reactive",
+    ap.add_argument("--policy", choices=("reactive", "learned", "fast", "trigger"), default="reactive",
                     help="when to play: reactive = defend / leak / punish, else hold (D-041); learned = the rules' "
-                         "defend / leak plus a d1 act-head (needs --act-model); trigger = every 3 s etc.")
+                         "defend / leak plus a d1 act-head (needs --act-model); fast = the same with the LightGBM "
+                         "act model of tools/train/train_act_gbdt.py (--act-model DIR, threshold from its "
+                         "meta.json); trigger = every 3 s etc.")
     ap.add_argument("--act-model", default=None, help="d1 act-head checkpoint for --policy learned")
     ap.add_argument("--act-threshold", type=float, default=None,
                     help="p(act) needed to play (default: `threshold` of <act-model>/act_threshold.json, else 0.5)")
@@ -469,7 +471,14 @@ def resolve_act_threshold(args) -> float:
 
 
 def _build_policy(args, cards: dict):
-    """The policy argument of `LiveLoop`: a name (reactive / trigger) or a `LearnedActPolicy` on the act-head model."""
+    """The policy argument of `LiveLoop`: a name (reactive / trigger), a `LearnedActPolicy` on the act-head model or a
+    `FastActPolicy` on the LightGBM act model (its threshold: `--act-threshold`, else meta.json; recorded in `args`)."""
+    if args.policy == "fast":
+        from clashbot.act_model import ActGBDT, FastActPolicy
+        model = ActGBDT.load(args.act_model)
+        if args.act_threshold is None:
+            args.act_threshold = model.threshold
+        return FastActPolicy(model, cards, args.act_threshold)
     if args.policy != "learned":
         return args.policy
     from clashbot.policy import LearnedActPolicy
@@ -538,6 +547,9 @@ def main(argv: list[str] | None = None) -> int:
         except (OSError, ValueError, KeyError, TypeError) as exc:
             print(f"error: bad act_threshold.json in {args.act_model}: {exc}", file=sys.stderr)
             return 2
+    if args.policy == "fast" and not args.act_model:
+        print("error: --policy fast needs --act-model DIR (the act-gbdt directory)", file=sys.stderr)
+        return 2
     args.device = resolve_device(args.device)         # recorded in config.json below
 
     source = None
