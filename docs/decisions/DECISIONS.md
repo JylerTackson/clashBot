@@ -149,3 +149,11 @@ User: *"I am also going to change my deck to a more common deck."* Recommended f
 
 ### D-045 · The LLM stays the decision-maker; everything else is a tool for it · decided (user) · 2026-11-05
 User: *"the whole point is that this is an agent so you need to make sure that we do not remove the llm in this."* In live play every card-and-placement decision is made by the d1 LLM. The tactical engine, kNN/KG lookup, spell aim, the play/wait timing model and the lookup-vs-tactics arbiter only supply candidates, notes, context lines, aim tiles or a narrowed option set; none of them picks the move. `--ranker tactics` / `--ranker score` are offline/diagnostic baselines, not live play modes. The R7 arbiter (MAC-AB A4) narrows d1's options when d1 is unsure and always returns d1's own argmax within that subset. The timing gate (reactive rules, or the fast timing model of A1) decides when the LLM is consulted, and safety rules (defend / leak / no blind spells) still apply. Giving the LLM the timing decision too is a future option (act head with the timing model's output as context).
+
+### D-046 · Bigger LLMs: d1-2B as the decision LLM, Qwen3-14B as the coach · decided (user) · 2026-11-05
+User: *"Can we also try using a bigger LLM, we have 32 GB of ram"*. From the suggestions they picked **LiquidAI/d1-2B** (LFM3, 1.92B; Decision Index v0.3: 51.1 vs 18.3 for d1-omni-600M; same Decision Index `system_one` format, so it drops into `D1Ranker`) and **mlx-community/Qwen3-14B-4bit** (Apache 2.0, about 9 GB) as the slow-loop coach that replaces the Qwen3-4B planner. The coach writes a short strategy every ~10 s into the decision LLM's context (`[plan]`); it never picks a move (D-045). The two-speed design stays: a generative LLM in the fast loop would cost seconds per move. Plan:
+1. Download both (no GPU).
+2. After tonight's GPU job: d1-2B zero-shot on `joint` and `joint_tac` val/test, plus latency on the M5, vs `d1-ft-joint` / `d1-ft-joint-tac`.
+3. A `train_d1.py` port for the d1-2B internals (partial-layer fine-tune; fits 32 GB) as a spec, then fine-tune the next night.
+4. Coach: planner backend `Qwen3-14B-4bit` (non-thinking), with the tactics lines and lookup summary in its prompt, timed and benchmarked with `tools/eval/bench_planner.py`.
+d1-3B and Qwen3-30B-A3B stay as alternatives.
