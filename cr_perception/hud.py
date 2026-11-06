@@ -271,13 +271,14 @@ class CardMatcher:
         if learned_dir and Path(learned_dir).exists():
             for d in sorted(Path(learned_dir).iterdir()):
                 if d.is_dir() and d.name in known:
-                    for p in sorted(d.glob("*.png"))[-12:]:      # cap per card
+                    for p in self.learned_files(d):
                         img = cv2.imread(str(p), cv2.IMREAD_COLOR)
                         if img is not None:
                             self.templates.append(CardTemplate(d.name, self.describe(img)))
         for d in [Path(x) for x in (extra_dirs or [])]:
             for p in sorted(d.glob("*.png")) + sorted(d.glob("*.jpg")):
-                stem = re.sub(r"_ev\d+$", "", p.stem)
+                # BuildABot "<name>_ev1" and the wiki's "<slug>-evolution": the evolved card occupies the base card's slot
+                stem = re.sub(r"-evolution$", "", re.sub(r"_ev\d+$", "", p.stem))
                 slug = self.BUILDABOT_ALIAS.get(stem, stem.replace("_", "-"))
                 if slug not in known:
                     continue
@@ -288,6 +289,19 @@ class CardMatcher:
             raise FileNotFoundError(f"no card art in {images_dir}")
         self.F = np.stack([t.feat for t in self.templates])
         self.slugs = [t.slug for t in self.templates]
+
+    LEARNED_CAP = 12                 # per card: the last 12 crops of other videos + the last 12 live crops
+    LIVE_PREFIX = "live_"            # crops written by the live loop (no video path -> stem "live")
+
+    @classmethod
+    def learned_files(cls, card_dir: Path) -> list[Path]:
+        """The learned crops of one card to load: the last LEARNED_CAP of the video crops plus, in addition to
+        that cap, the last LEARNED_CAP live ones (otherwise a card whose cap the pro videos filled never learns
+        from the live screen)."""
+        files = sorted(Path(card_dir).glob("*.png"))
+        live = [p for p in files if p.name.startswith(cls.LIVE_PREFIX)]
+        other = [p for p in files if not p.name.startswith(cls.LIVE_PREFIX)]
+        return other[-cls.LEARNED_CAP:] + live[-cls.LEARNED_CAP:]
 
     def add_learned(self, slug: str, crop: np.ndarray, path: Path | None = None) -> None:
         """Add an in-game crop as a template for `slug` (and persist it)."""
@@ -322,9 +336,13 @@ class CardMatcher:
         sat = cv2.cvtColor(art, cv2.COLOR_BGR2HSV)[..., 1]
         return float(np.mean(sat)) < 45
 
-    def match(self, crop: np.ndarray, top: int = 3, cost: int | None = None) -> list[tuple[str, float]]:
+    def match(self, crop: np.ndarray, top: int = 3, cost: int | None = None,
+              allowed: set[str] | None = None) -> list[tuple[str, float]]:
         """cost: elixir cost read from the slot badge; when given, cards of a
-        different cost are dropped (only if any template has that cost)."""
+        different cost are dropped (only if any template has that cost).
+        allowed: the cards that can be in the hand (the own deck); every other
+        card scores -9, so the best card of the deck wins (only if any template
+        belongs to the set)."""
         if crop is None or crop.size == 0 or min(crop.shape[:2]) < 8:
             return []
         f = self.describe(crop)
@@ -337,6 +355,10 @@ class CardMatcher:
             score = 0.75 * gcorr + 0.25 * (1.0 - hdist / 2.0)
         if cost is not None and self.costs:
             ok = np.array([self.costs.get(sl) == cost for sl in self.slugs])
+            if ok.any():
+                score = np.where(ok, score, -9.0)
+        if allowed:
+            ok = np.array([sl in allowed for sl in self.slugs])
             if ok.any():
                 score = np.where(ok, score, -9.0)
         order = np.argsort(-score)
@@ -361,9 +383,10 @@ class HandReader:
     SHIFTS = [(dx, dy, sc) for sc in (1.0, 1.12) for dy in (0.0, -0.018, -0.032) for dx in (-0.02, 0.0, 0.02, 0.04)]
 
     def __init__(self, matcher: CardMatcher, rois: dict, threshold: float = 0.45, margin: float = 0.04,
-                 digits: "DigitTemplates | None" = None):
+                 digits: "DigitTemplates | None" = None, allowed: set[str] | None = None):
         self.m, self.rois, self.thr, self.margin = matcher, rois, threshold, margin
         self.digits = digits
+        self.allowed = set(allowed) if allowed else None     # the own deck (live loop); None = all cards
 
     def _badge_cost(self, content: np.ndarray, roi) -> int | None:
         if self.digits is None:
@@ -391,7 +414,7 @@ class HandReader:
         gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
         if gray.std() < 12:                      # blank slot
             return None, 0.0, []
-        cands = self.m.match(crop, cost=self._badge_cost(content, roi))
+        cands = self.m.match(crop, cost=self._badge_cost(content, roi), allowed=self.allowed)
         if not cands:
             return None, 0.0, []
         slug, s = cands[0]

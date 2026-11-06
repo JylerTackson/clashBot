@@ -28,16 +28,16 @@ import numpy as np
 
 from . import geometry as g
 from .config import Calibration
-from .decktracker import OpponentDeckTracker, load_kb_decks
+from .decktracker import OpponentDeckTracker, evidence_weight, load_kb_decks
 from .detect import to_card_slug
-from .elixir_sim import ElixirSimulator
+from .elixir_sim import LOW_CONF, ElixirSimulator, late_join_start
 from .events import PlayDetector
 import cv2
 
 from .hud import (CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, HandReader, OcrReader, TowerHpReader,
                   crop_roi, parse_clock)
 from .labels import DeployLabelReader, label_ground_point
-from .tracking import UnitTracker, load_speed_priors
+from .tracking import TOWER_TILES, UnitTracker, load_speed_priors
 from .clock import ClockTracker
 from .screen import ContentRect, MatchGate, assess, detect_content_rect
 from .sources import FrameSource
@@ -54,6 +54,7 @@ PHASE_BY_CLOCK = [(120, "single_elixir"), (60, "double_elixir"), (0, "triple_eli
 # crops it was read from, for at most HAND_CACHE_MAX_AGE_S seconds
 HAND_CACHE_DIFF = 4.0
 HAND_CACHE_MAX_AGE_S = 1.0
+TOWER_PHANTOM_TILES = 1.0     # a non-deck / unknown unit detection this close to a standing tower's centre is the tower itself
 ALT_CLOCK_ROI = [0.72, 0.0, 0.28, 0.12]       # taller top-right region (other HUD layouts)
 
 
@@ -102,6 +103,8 @@ class Perception:
     use_ocr: bool = True
     kb: Path = KB
     async_ocr: bool = False                   # clock / deploy-label OCR on a background worker (live loop)
+    own_deck: list[str] | None = None         # the 8 cards he plays (live loop): limits hand reads and tower-side unit detections
+    opp_evidence: bool = False                # live loop: the opponent deck admits a card on summed evidence, not on one play
     calib: Calibration = field(init=False)
     _events: list[PlayEvent] = field(default_factory=list, init=False)
 
@@ -111,11 +114,14 @@ class Perception:
         # wiki art only: BuildABot's in-game thumbnails were measured to lower
         # hand accuracy on real frames (style mismatch shrinks the margin)
         self.learned_dir = REPO / "data" / "templates"
+        # evolution art (<slug>-evolution.png) is a template of the base card: an evolved card shows it in the hand
         self.matcher = CardMatcher(self.kb / "cards" / "images", learned_dir=self.learned_dir,
-                                   hero_images_dir=self.kb / "heroes" / "images", costs=self.costs)
+                                   hero_images_dir=self.kb / "heroes" / "images", costs=self.costs,
+                                   extra_dirs=[self.kb / "evolutions" / "images"])
+        self.own_deck_set = set(self.own_deck) if self.own_deck else None
         self._slot_crops: list[tuple[float, list]] = []   # (t, [4 slot crops]) ring buffer, ~3 s
         self.digits = DigitTemplates()
-        self.hand_reader = HandReader(self.matcher, self.calib.rois, digits=self.digits)
+        self.hand_reader = HandReader(self.matcher, self.calib.rois, digits=self.digits, allowed=self.own_deck_set)
         self.elixir_bar = ElixirBarReader(self.calib.rois["elixir_bar"], self.calib.rois.get("elixir_bar_full"))
         self.elixir_digit = DigitReader(self.calib.rois["elixir_num"], self.digits)
         self.clock_digit = DigitReader(self.calib.rois["clock"], self.digits)
@@ -141,6 +147,8 @@ class Perception:
         self.last_good_t: dict = {}
         self.match_started = False
         self.match_id = 0
+        self._clock_seen = False                  # the first clock read of this match has set the opponent's start elixir
+        self._opp_conf_low = False                # ... and no opponent play has corrected that guess yet
         self.clock = ClockTracker()
         self.gate = MatchGate(self.ENTER_FRAMES, self.EXIT_SECONDS)
         self.frame_i = 0
@@ -219,6 +227,7 @@ class Perception:
         self.tracker.reset()
         self.towers = g.TowerState()
         self.last_good.clear()
+        self._clock_seen = self._opp_conf_low = False
         self.match_t0 = t
         self._last_hand_raw = None
         self._hand_sigs = None
@@ -301,6 +310,10 @@ class Perception:
             if ev == "new_match":
                 self.reset_match(t)
                 self.clock.update(t, remaining)
+        if self.clock.remaining is not None and not self._clock_seen:
+            # first clock read of the match: when joined mid-game the opponent has regenerated since 3:00
+            self._clock_seen = self._opp_conf_low = True
+            self.opp_sim.elixir = late_join_start(self.clock.remaining)
         overtime = self.clock.overtime
         phase = self.clock.phase() if self.clock.remaining is not None else None
         self._tick("clock", t0)
@@ -361,7 +374,7 @@ class Perception:
                 bx, by = g.bbox_bottom_centre(d.bbox)
                 if d.category in ("unit", "spell") and self.H.in_arena(bx, by, margin=0.5):
                     d.pos_f = self.H.pixel_to_tile_f(bx, by)
-                    if -0.5 <= d.pos_f[1] <= 31.2:
+                    if -0.5 <= d.pos_f[1] <= 31.2 and not self._tower_phantom(d):
                         tracked_in.append(d)
                 elif d.category == "tower":
                     towers_seen.append(UnitObs(d.cls, d.side, None, d.conf, tuple(int(v) for v in d.bbox), None, d.category))
@@ -412,7 +425,9 @@ class Perception:
                     self.opp_sim.spend(self.costs[ev.card])
                     ev.elixir_before = round(self.opp_sim.elixir + self.costs[ev.card], 2)
                     ev.elixir_after = round(self.opp_sim.elixir, 2)
-                self.deck.observe_play(ev.card)
+                    self._opp_conf_low = False       # a counted play corrects the late-join guess
+                w = evidence_weight(ev.detect_source, ev.confidence) if self.opp_evidence else None
+                self.deck.observe_play(ev.card, w)
         self._events.extend(new_events)
         drift = self.own_sim.observe(t, elixir if not stale_e else None)
         # resync own sim when the HUD is confident, so the drift stays a measurement not a runaway
@@ -420,6 +435,8 @@ class Perception:
             self.own_sim.resync(elixir)
         d_stats = self.own_sim.drift_stats(window=300)
         est, econf_opp, (lo, hi) = self.opp_sim.estimate(d_stats["abs_mean"])
+        if self._opp_conf_low:
+            econf_opp = min(econf_opp, LOW_CONF)
 
         # ---- assemble ----
         mask = g.legal_placement_mask(self.towers)
@@ -445,6 +462,27 @@ class Perception:
         return state
 
     # ------------------------------------------------------------------
+    def _tower_phantom(self, d) -> bool:
+        """A unit detection on top of a standing tower is the tower read as a unit (our princess towers showed up
+        as 'stationary' allies). Dropped when it is within TOWER_PHANTOM_TILES of the tower's centre AND is an
+        unknown_unit or a card in neither known deck (his deck when given, the opponent's cards seen so far);
+        real units hitting a tower stand >= 1.5 tiles from its centre."""
+        if d.category != "unit":
+            return False
+        alive = {"enemy_left": self.towers.enemy_left, "enemy_right": self.towers.enemy_right,
+                 "own_left": self.towers.own_left, "own_right": self.towers.own_right}
+        c, r = d.pos_f
+        near = any(alive.get(name, True) and (c - tc) ** 2 + (r - tr) ** 2 <= TOWER_PHANTOM_TILES ** 2
+                   for name, (tc, tr) in TOWER_TILES.items())
+        if not near:
+            return False
+        if d.cls == "unknown_unit":
+            return True
+        if self.own_deck_set is None:
+            return False
+        card = to_card_slug(d.cls)
+        return card not in self.own_deck_set and card not in self.deck.known_cards
+
     def _hand_signatures(self, content: np.ndarray) -> list[np.ndarray]:
         """16x20 grey thumbnails of the 4 hand slots + the next card."""
         sigs = []
@@ -603,11 +641,15 @@ class Perception:
         gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY) if crop.size else None
         if gray is None or gray.std() < 15:
             return
-        existing = list((self.learned_dir / ev.card).glob("*.png")) if (self.learned_dir / ev.card).exists() else []
-        if len(existing) >= 12:
-            return
         vid = Path(getattr(self.source, "path", "live")).stem
-        self.matcher.add_learned(ev.card, crop, self.learned_dir / ev.card / f"{vid}_{ev.timestamp:.1f}.png")
+        name = f"{vid}_{ev.timestamp:.1f}.png"
+        # live crops (live_*.png) have their own cap: the video crops that fill a card's cap must not shut them out
+        is_live = name.startswith(CardMatcher.LIVE_PREFIX)
+        card_dir = self.learned_dir / ev.card
+        existing = [p for p in card_dir.glob("*.png") if p.name.startswith(CardMatcher.LIVE_PREFIX) == is_live] if card_dir.exists() else []
+        if len(existing) >= CardMatcher.LEARNED_CAP:
+            return
+        self.matcher.add_learned(ev.card, crop, card_dir / name)
 
     # ------------------------------------------------------------------
     def states(self) -> Iterator[GameState]:

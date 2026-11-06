@@ -729,7 +729,7 @@ def test_build_perception_passes_async_ocr(monkeypatch, extra, expected):
     args = build_parser().parse_args(_argv("--detector", "none", "--detect-every", "5", *extra))
     live_mod._build_perception(args, "SRC")
     assert seen == {"config": "calib.json", "source": "SRC", "detector": None, "detect_every": 5,
-                    "async_ocr": expected}
+                    "async_ocr": expected, "own_deck": DECK, "opp_evidence": True}
 
 
 # Amendment 3: hold instead of a low-elixir fallback candidate; --device defaults to mps when available ---------------

@@ -379,8 +379,9 @@ def _build_perception(args, source):
     if args.detector == "katacr":
         from cr_perception.detect import default_katacr_detector
         detector = default_katacr_detector(imgsz=args.imgsz, device=args.device)
+    # the deck limits what the hand and unit readers may report (MAC-PF); the opponent deck admits cards on evidence
     return Perception(config=args.calib, source=source, detector=detector, detect_every=args.detect_every,
-                      async_ocr=not args.sync_ocr)
+                      async_ocr=not args.sync_ocr, own_deck=_split(args.deck), opp_evidence=True)
 
 
 def _build_ranker(args):
@@ -487,7 +488,8 @@ def main(argv: list[str] | None = None) -> int:
             return 5
         perception = _build_perception(args, source)
         from clashbot.live_state import LiveConfig, LiveStateBuilder
-        builder = LiveStateBuilder(LiveConfig(own_deck=deck, hero_cards=heroes, hand_tracker=True))
+        builder = LiveStateBuilder(LiveConfig(own_deck=deck, hero_cards=heroes, hand_tracker=True,
+                                              opp_evidence=True, strict_units=True))
         cards = load_cards()
         generator = CandidateGenerator(StateIndex(), KnowledgeGraph(), cards)
         ranker = _build_ranker(args)
