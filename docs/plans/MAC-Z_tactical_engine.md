@@ -377,3 +377,22 @@ For each line of `<dataset>/d1/joint/{train,val,test}.jsonl`:
 - `train_d1.py --variant joint --data dataset/v1/d1/joint_tac --init db/models/d1-ft-joint --epochs 2 --out db/models/d1-ft-joint-tac`.
 - Evaluate it on `joint_tac` val/test against `d1-ft-joint` on `joint`, and against the tactics ranker.
 - Then a live match with `--ranker d1 --d1-model db/models/d1-ft-joint-tac`.
+
+### Z3.10 Amendment (Opus, 2026-11-05) — card-level tactics notes
+**Evidence:**
+- In `dataset/v1/d1/joint_tac` (rebuilt with the A2 engine), the pro's card is among the engine's proposed cards on 23 % of train lines (24 % val).
+- The exact-key tactics note reaches the answer option on only 4.8 % (6.3 %), because the engine's placement (lane / zone of its tile) rarely equals the pro's.
+- So the LLM mostly never sees that the engine agreed on the card.
+
+**Change** (`clashbot/candidates.py`; the same helper is used in `generate` and `option_notes`, so live and training stay identical):
+- A key that is **not** an exact tactical move, but whose card is the card of a report move (any of `report.moves`), gets a tactics card note: `tactics suggests this card ({intent}: {reason}, at {lane} {zone})`. Take the first such move.
+- If the key also has a lookup note, join them: `{lookup note}; {tactics card note}`.
+- Keep the 120-character clip.
+- Exact tactical candidates keep their current note.
+
+**`build_d1_tac.py` stats:** add `answer_has_tactics_card_note` (exact or card-level).
+
+**Tests:**
+- A lookup key whose card matches a tac move at a different placement gets the joined note.
+- A key whose card matches no move gets no tactics note.
+- `option_notes` and `generate` still agree.
