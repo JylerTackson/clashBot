@@ -15,6 +15,7 @@ DATASET_VERSION = "v1"
 DATASET_DIR = ROOT / "dataset" / DATASET_VERSION
 DB_DIR = ROOT / "db"
 DB_PATH = DB_DIR / "clashbot.sqlite"
+KG2_PATH = DB_DIR / "kg2.sqlite"             # knowledge graph v2 (tools/data/build_kg_v2.py, D-048)
 
 LANES = ("left", "middle", "right")
 ZONES = ("back", "mid", "bridge", "enemy_half")
