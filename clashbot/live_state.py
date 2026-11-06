@@ -248,6 +248,7 @@ class _OwnPlay:
     elixir_at_play: float               # the own elixir the previous build() returned
     checked: bool = False               # the failed-tap check has run (once per play)
     event: dict | None = None           # the synthetic play event of this tap (dropped when the tap failed)
+    ability: bool = False               # the hero ability button, not a card: no hand slot, no play event (MAC-AI)
 
 
 class LiveStateBuilder:
@@ -345,20 +346,28 @@ class LiveStateBuilder:
         for c in self._opp_first.keys() - known:
             del self._opp_first[c]
 
-    def note_own_play(self, card: str, slot: int, t: float, tile=None) -> None:
+    def note_own_play(self, card: str, slot: int | None, t: float, tile=None, cost: float | None = None) -> None:
         """The executor sent a tap that plays `card` from hand `slot` at time `t`, onto `tile` (no-op without the hand
         tracker). The play is known at once: it enters `own.recent_plays` as an "executor" event, so the tactical
         engine sees our new building before perception does. The perception event of the same play, when it comes,
-        is merged into it (`observe_events`); a tap the elixir shows failed takes it out again."""
+        is merged into it (`observe_events`); a tap the elixir shows failed takes it out again.
+        `slot=None` is the hero ability button (MAC-AI, `card` "ability:musketeer", `cost` its elixir): it only enters
+        the elixir accounting (min(read, expected) while the HUD lags, the failed-tap check); it has no hand slot, no
+        place in the card cycle and no play event."""
         if self.tracker is None:
             return
-        self.tracker.note_play(card, slot, t)
-        ev = {"player": "own", "card": card, "tile": list(tile)[:2] if tile is not None else None,
-              "timestamp": float(t), "detect_source": "executor"}
-        bisect.insort(self._events, ev, key=lambda x: x["timestamp"])
-        cost = self.cards[card]["elixir_cost"] if card in self.cards else None
+        ability = slot is None
+        ev = None
+        if not ability:
+            self.tracker.note_play(card, slot, t)
+            ev = {"player": "own", "card": card, "tile": list(tile)[:2] if tile is not None else None,
+                  "timestamp": float(t), "detect_source": "executor"}
+            bisect.insort(self._events, ev, key=lambda x: x["timestamp"])
+        if cost is None and card in self.cards:
+            cost = self.cards[card]["elixir_cost"]
         if cost is not None and self._last_elixir is not None:
-            self._own_plays.append(_OwnPlay(float(t), card, slot, float(cost), self._last_elixir, event=ev))
+            self._own_plays.append(_OwnPlay(float(t), card, -1 if ability else slot, float(cost), self._last_elixir,
+                                            event=ev, ability=ability))
 
     def _settle_plays(self, elixir: float | None, hand: list, t: float, phase: str | None) -> float | None:
         """Own-elixir accounting for the taps we sent (tracker mode). The HUD reading lags our tap, so while a tap is
@@ -383,9 +392,10 @@ class LiveStateBuilder:
             if age >= cfg.stale_s and not p.checked and elixir is not None:
                 p.checked = True
                 if elixir >= p.elixir_at_play - TAP_TOLERANCE:     # no drop: the tap did not land
-                    self.tracker.mark_failed(p.slot, p.card)
-                    self._drop_event(p.event)                      # it never happened: not in recent_plays either
-                    self._cooldown[p.card] = t + cfg.cooldown_s
+                    if not p.ability:                              # (the ability has no hand slot to restore)
+                        self.tracker.mark_failed(p.slot, p.card)
+                        self._drop_event(p.event)                  # it never happened: not in recent_plays either
+                        self._cooldown[p.card] = t + cfg.cooldown_s
                     self.failed_taps += 1
                     for q in self._own_plays:                      # later taps started from an elixir that already paid for this one
                         if q is not p and 0.0 <= q.t - p.t < cfg.stale_s:
@@ -506,4 +516,7 @@ class LiveStateBuilder:
             "units": units,
             "threats": render_threats(units),
         }
+        ability = own.get("hero_ability")
+        if isinstance(ability, dict) and ability.get("visible"):      # the button is on screen (MAC-AI); absent otherwise
+            state["own"]["hero_ability"] = dict(ability)
         return state, render_context(state, t)

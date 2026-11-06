@@ -34,8 +34,8 @@ from .elixir_sim import LOW_CONF, ElixirSimulator, late_join_start
 from .events import PlayDetector
 import cv2
 
-from .hud import (CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, HandReader, OcrReader, TowerHpReader,
-                  crop_roi, parse_clock)
+from .hud import (AbilityButtonReader, CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, HandReader, OcrReader,
+                  TowerHpReader, crop_roi, parse_clock)
 from .labels import DeployLabelReader, label_ground_point
 from .tracking import TOWER_TILES, UnitTracker, load_speed_priors
 from .clock import ClockTracker
@@ -122,6 +122,7 @@ class Perception:
         self._slot_crops: list[tuple[float, list]] = []   # (t, [4 slot crops]) ring buffer, ~3 s
         self.digits = DigitTemplates()
         self.hand_reader = HandReader(self.matcher, self.calib.rois, digits=self.digits, allowed=self.own_deck_set)
+        self.ability_reader = AbilityButtonReader(self.calib.rois)      # the hero ability button (MAC-AI); absent = no key
         self.elixir_bar = ElixirBarReader(self.calib.rois["elixir_bar"], self.calib.rois.get("elixir_bar_full"))
         self.elixir_digit = DigitReader(self.calib.rois["elixir_num"], self.digits)
         self.clock_digit = DigitReader(self.calib.rois["clock"], self.digits)
@@ -223,6 +224,7 @@ class Perception:
         self.play = PlayDetector(self.costs)
         self.own_sim.reset(t)
         self.opp_sim.reset(t)
+        self.ability_reader.reset()
         self.deck.reset()
         self.tracker.reset()
         self.towers = g.TowerState()
@@ -281,6 +283,11 @@ class Perception:
             self._slot_crops = [c for c in self._slot_crops if t - c[0] <= 9.0]
         hand = self._smooth_hand(hand)
         self._tick("hand", t0)
+
+        # ---- HUD: hero ability button (shown only while the hero is on the field; no key in `own` otherwise) ----
+        t0 = time.perf_counter()
+        ability = self.ability_reader.read(content, elixir)
+        self._tick("ability", t0)
 
         # ---- clock / phase (template digits every frame, OCR fallback at low rate) ----
         t0 = time.perf_counter()
@@ -446,6 +453,8 @@ class Perception:
         state.own = {"elixir": elixir, "elixir_sim": round(self.own_sim.elixir, 2), "hand": hand["hand"],
                      "hand_conf": hand["hand_conf"], "next_card": hand["next_card"], "next_conf": hand["next_conf"],
                      "towers": towers_own}
+        if ability["visible"]:
+            state.own["hero_ability"] = ability
         state.opponent = {"elixir_est": est, "elixir_conf": econf_opp, "elixir_range": [lo, hi],
                           "towers": towers_enemy, **self.deck.summary()}
         state.units = units

@@ -12,13 +12,16 @@ import json
 import os
 import sys
 import time
-from dataclasses import dataclass, replace
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 import numpy as np
 
+from clashbot.actions import ABILITY_KEY
+
 LIVE_ENV = "CLASHBOT_ALLOW_LIVE"
 GRID_COLS, GRID_ROWS = 18, 32
+ABILITY_SIDES = ("left", "right")
 ARENA_TILE_CORNERS = [[0.0, 0.0], [18.0, 0.0], [18.0, 32.0], [0.0, 32.0]]   # bl, br, tr, tl (row 0 = own side)
 
 
@@ -55,6 +58,7 @@ class ScreenMap:
     content_rect_frac: list[float]        # [x, y, w, h] as fractions of the raw frame (calib.json)
     arena_corners_frac: list[list[float]] # 4 x [x, y] content fractions: bl, br, tr, tl (calib.json)
     hand_rois: list[list[float]]          # rois hand_0..hand_3, [x, y, w, h] content fractions (calib.json)
+    ability_rois: dict[str, list[float]] = field(default_factory=dict)   # rois hero_ability_left / _right -> "left" / "right"
 
 
 def _rect_list(rect) -> list[float]:
@@ -76,11 +80,14 @@ def screen_map_from_calib(calib: dict | str | Path, rect) -> ScreenMap:
     from cr_perception.hud import DEFAULT_ROIS   # lazy: keep this module import-light
     rois = calib.get("rois") or {}
     hand = [list(rois.get(f"hand_{i}") or DEFAULT_ROIS[f"hand_{i}"]) for i in range(4)]
+    ability = {side: list(rois.get(f"hero_ability_{side}") or DEFAULT_ROIS[f"hero_ability_{side}"])
+               for side in ABILITY_SIDES}
     return ScreenMap(
         rect=_rect_list(rect),
         content_rect_frac=list(calib.get("content_rect_frac") or [0.0, 0.0, 1.0, 1.0]),
         arena_corners_frac=[list(c) for c in corners],
         hand_rois=hand,
+        ability_rois=ability,
     )
 
 
@@ -114,6 +121,18 @@ def card_slot_points(smap: ScreenMap) -> list[list[float]]:
         sx, sy = content_to_screen(x + w / 2, y + h / 2, smap)
         pts.append([sx, sy])
     return pts
+
+
+def ability_button_point(smap: ScreenMap, side: str) -> list[float]:
+    """Screen point of the centre of the hero ability button on `side` ("left" | "right"): the centre of its ROI (the
+    ROI is centred on the button). A ScreenMap built without ability ROIs uses the perception defaults."""
+    roi = smap.ability_rois.get(side)
+    if not roi:
+        from cr_perception.hud import DEFAULT_ROIS   # lazy: keep this module import-light
+        roi = DEFAULT_ROIS[f"hero_ability_{side}"]
+    x, y, w, h = roi
+    sx, sy = content_to_screen(x + w / 2, y + h / 2, smap)
+    return [sx, sy]
 
 
 def tile_target(tile: list[float]) -> list[float]:
@@ -152,6 +171,13 @@ class DryRunExecutor:
 
     def execute(self, key: str, tile: list[float] | None, t: float, hand: list | None = None) -> dict:
         entry = {"t": t, "key": key, "tile": tile}
+        self.log.append(entry)
+        return entry
+
+    def tap_ability(self, side: str, t: float) -> dict:
+        """The hero ability tap that would be made (MAC-AI); nothing is ever sent."""
+        entry = {"t": t, "key": ABILITY_KEY, "tile": None, "side": side, "status": "planned_ability", "slot": None,
+                 "clicks": [], "sent": False}
         self.log.append(entry)
         return entry
 
@@ -209,6 +235,32 @@ class MirroringExecutor:
             if any(not (L <= x <= L + W and T <= y <= T + Hh) for x, y in clicks):
                 return {"status": "skipped_out_of_window", "slot": slot, "clicks": clicks}
         return {"status": "planned", "slot": slot, "clicks": clicks}
+
+    def plan_ability(self, side: str) -> dict:
+        """One click at the centre of the ability button on `side`, checked against the window like a card tap."""
+        if self.screen_map is None:
+            return {"status": "skipped_no_screen_map", "slot": None, "clicks": []}
+        if side not in ABILITY_SIDES:
+            return {"status": "skipped_bad_side", "slot": None, "clicks": []}
+        clicks = [ability_button_point(self.screen_map, side)]
+        if self.bounds:
+            L, T, W, Hh = self.bounds
+            if any(not (L <= x <= L + W and T <= y <= T + Hh) for x, y in clicks):
+                return {"status": "skipped_out_of_window", "slot": None, "clicks": clicks}
+        return {"status": "planned_ability", "slot": None, "clicks": clicks}
+
+    def tap_ability(self, side: str, t: float) -> dict:
+        """Tap the hero ability button (MAC-AI): one click, only when live, behind the same double guard as a card
+        tap (`live=True` AND env CLASHBOT_ALLOW_LIVE=1, re-checked before the click). Dry run: logs `planned_ability`."""
+        plan = self.plan_ability(side)
+        entry = {"t": t, "key": ABILITY_KEY, "tile": None, "side": side, **plan, "sent": False}
+        if self.live and plan["status"] == "planned_ability":
+            check_live_allowed()   # the env switch may have been removed since construction
+            for x, y in plan["clicks"]:
+                self.poster(x, y)
+            entry["sent"] = True
+        self.log.append(entry)
+        return entry
 
     def execute(self, key: str, tile: list[float] | None, t: float, hand: list | None = None) -> dict:
         plan = self.plan_clicks(key, tile, hand)

@@ -1,6 +1,8 @@
 """Requests for LiquidAI d1-omni-600M in its Decision Index format (D-023). Shared by the training export and the runtime ranker."""
 from __future__ import annotations
 
+from clashbot.actions import ABILITY_TEXT, is_ability_key
+
 JOINT_NAME = "play"
 JOINT_INSTRUCTIONS = ("You are playing Clash Royale with the deck shown in the state. "
                       "Which of these plays is best right now?")
@@ -36,6 +38,8 @@ def option_description(key: str) -> str:
     if len(parts) != 3:
         raise ValueError(f"bad play key: {key!r}")
     card, lane, zone = parts
+    if is_ability_key(card):                       # "ability:musketeer|lane|zone" (MAC-AI): the hero ability, not a card
+        return ABILITY_TEXT
     return f"{card} {lane} lane, {ZONE_CRITERIA[zone]}"
 
 
