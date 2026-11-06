@@ -186,3 +186,43 @@ All 197 games of `games.jsonl` are covered (no game skipped for missing time or 
 | combined (rules keep defend / leak) | 0.545 | 0.540 | 0.611 | 0.478 |
 
 Only marginally better than the rules. Both act about twice as often as the pros. The 1 s label ("the pro deploys within the next second") is very noisy for text-only states, so this head is not worth its 70 ms in the live loop yet. Candidate next step: a structured-feature model (GBDT on elixir, opponent elixir, threats/ETAs, time since the opponent's last play, hand costs) with 1 / 2 / 3 s horizons. Tables in `docs/data/act_head_v1.md`.
+
+## 2026-11-05 (night) — live matches A/B with the new deck, and the fixes they led to
+| | match A (`20261105-193555`): LLM + lookup, `--no-tactics` | match B (`20261105-194101`): LLM + lookup + tactics context |
+|---|---|---|
+| length | ~1 min 30 s | ~2 min 10 s |
+| damage dealt | one enemy tower −830 | both enemy towers −830 |
+| LLM picks by source | kNN / KG, 11 fallback holds | 55 / 80 tactical, 18 kNN, 7 KG |
+| taps / elixir they cost / ≈ available | 42 / 62 / 38 | 80 / 112 / 55 |
+| ice-spirit taps | 26 | 57 |
+
+The LLM uses the tactics context even untrained on it. Both losses had the same causes:
+- permanent defend mode (any unit on our half);
+- spending every elixir on the cheapest card;
+- an own-elixir reading that lags our taps (most taps failed);
+- the engine itself recommending ice spirit vs a balloon (trade without stopping power).
+
+**Fixes merged:**
+- MAC-AC C1 (#32/#33):
+  - real threats only (no retreating / far / unknown units);
+  - the engine judges whether an adequate answer is affordable, else the bot saves for it;
+  - the LLM picks only among adequate cards.
+  - Offline act rate 0.42 → 0.20, periodic accuracy 0.65 → 0.70.
+- MAC-AC C2 (#34): local own-elixir accounting after taps, failed-tap detection, a 2 s cooldown per failed card.
+- MAC-AB A2 (engine):
+  - bait / pressure / support / cycle intents;
+  - stopping power and already-answered pushes;
+  - weights tuned on pro data with design guards (val objective 0.513 → 0.532, test 0.461 → 0.476);
+  - no-push coverage 11–16 % → 36–42 %.
+- MAC-AB A3 (#31): phantom opponent plays 9 → 2 on the 90 s clip.
+- MAC-AB A1: a fast play/wait model (LightGBM, 29 features):
+  - test balanced accuracy 0.607 vs rules 0.533 at h = 2 s, and 0.598 vs the d1 head's 0.558 at h = 1 s;
+  - 0.05 ms per decision;
+  - `--policy fast`.
+- MAC-AB A4: the R7 arbiter. d1 always decides; the arbiter only narrows its options when it is unsure (D-045). There is no gain on the current d1 probabilities (test 48.3 % either way), so it is off by default.
+
+**D-045:** the LLM makes every play decision; the engine, lookup, timing model and arbiter are its tools.
+**Next:**
+- Z3.10, card-level tactics notes. The pro card is among the engine's cards on 23 % of lines, but exact-key notes reach only 5 %.
+- Rebuild `joint_tac`, then the overnight fine-tune `d1-ft-joint-tac` (`runs/overnight/NEXT2.sh`).
+- A live match with all fixes.
