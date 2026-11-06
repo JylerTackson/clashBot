@@ -696,7 +696,8 @@ def test_punish_keeps_the_rules_mode_and_lane_when_the_model_says_act():
 
 
 def test_learned_mode_drops_blind_spells_and_other_modes_use_the_rules():
-    state = _with(units=[_enemy((5, 25), eta=6.0)])
+    # one enemy far away on their half: ETA <= 10 s is a push now (MAC-AD PUSH_ETA_S), so the knight is 12 s out
+    state = _with(units=[_enemy((5, 25), eta=12.0)])
     policy = FastActPolicy(FakeModel(0.9), CARDS)
     d = policy.decide(state, 10.0)
     assert d.mode == "learned"
