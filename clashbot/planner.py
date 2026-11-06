@@ -23,7 +23,11 @@ UPDATE_STEPS = 2             # ReAct steps for an in-game revision
 UPDATE_PERIOD_S = 10.0       # minimum game seconds between plan revisions
 MAX_CALLS_PER_STEP = 3
 OBS_MAX_CHARS = 2000
-COACH_PERIOD_S = 10.0        # game seconds between coach plans (CoachWorker; also a card-seen trigger)
+COACH_PERIOD_S = 20.0        # live: game seconds between coach plans (CoachWorker; also a card-seen trigger)
+COACH_UPDATE_TOKENS = 48     # an update is 3 short lines (22-28 tokens in practice)
+COACH_PREFILL_STEP = 64      # prompt tokens per prefill chunk (mlx-lm default 2048: the whole prompt in one GPU burst)
+COACH_YIELD_S = 0.0          # sleep after every prefill chunk, to let other GPU work in
+COACH_TOKEN_YIELD_S = 0.0    # sleep after every generated token
 COACH_MAX_LINES = 3
 COACH_LINE_CHARS = 100
 COACH_MAX_CHARS = COACH_MAX_LINES * COACH_LINE_CHARS + COACH_MAX_LINES - 1
@@ -48,9 +52,14 @@ FINAL_NUDGE = "Write the final plan now: plain text, at most 5 lines, each under
 UPDATE_TEMPLATE = ("Current plan:\n{plan}\n\nThe game now (t={t}s):\n{context}\n\nEnemy cards not seen when the plan "
                    "was made: {new_cards}.\nKeep or revise the plan in at most 5 short lines.")
 
+# The static part (system prompt, then the deck) comes first and the dynamic part last: `MLXChat(prefix_cache=True)`
+# keeps the KV cache of the common prefix between two updates, so an update prefills only the dynamic tail.
 COACH_SYSTEM_PROMPT = ("You are the coach of a Clash Royale agent. You cannot act or play cards: another model picks "
-                       "every move and reads your plan before it does. Write plain text without markdown. Mention "
-                       "only cards from our deck or opponent cards seen so far.")
+                       "every move and reads your plan before it does. Each time you get the game state, reply with the "
+                       "next plan and nothing else: at most 3 plain lines, one point per line, each at most 100 "
+                       "characters: what to save for which threat, where to attack next, and when to spend. Write "
+                       "plain text without markdown and call no tool. Mention only cards from our deck or the "
+                       "opponent cards seen.")
 COACH_UPDATE_TEMPLATE = (
     "Our deck: {deck}\n"
     "Opponent cards seen: {opp}\n\n"
@@ -58,9 +67,7 @@ COACH_UPDATE_TEMPLATE = (
     "Tactics engine:\n{tactics}\n\n"
     "Similar situations:\n{lookup}\n\n"
     "Current plan:\n{plan}\n\n"
-    "Write the next plan in at most 3 plain lines, one point per line, each at most 100 characters: what to save "
-    "for which threat, where to attack next, and when to spend. Mention only cards from our deck or the opponent "
-    "cards seen. No markdown, no tool calls.")
+    "Write the next plan.")
 
 _TOOL_CALL_RE = re.compile(r"<tool_call>(.*?)</tool_call>", re.DOTALL)
 _THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL)
@@ -132,19 +139,73 @@ def has_thinking_switch(tokenizer) -> bool:
     return isinstance(template, str) and "enable_thinking" in template
 
 
+class PrefixCache:
+    """One mlx-lm prompt cache kept across chats. A new prompt reuses the longest token prefix it shares with the
+    previous one (the cache is trimmed back to it), so only the differing tail is prefilled. `make()` builds an empty
+    cache, `trim(cache, n)` drops the last n tokens, `can_trim(cache)` says whether that works (rotating caches cannot:
+    then the cache starts over)."""
+
+    def __init__(self, make, trim, can_trim):
+        self._make, self._trim, self._can_trim = make, trim, can_trim
+        self.cache = None
+        self.ids: list[int] = []         # the tokens the cache holds
+
+    def reset(self) -> None:
+        self.cache, self.ids = None, []
+
+    def prepare(self, ids: list[int]) -> tuple[list, int]:
+        """(cache, n): the cache holds ids[:n]; n <= len(ids) - 1 so that at least one token is always prefilled."""
+        if self.cache is None:
+            self.cache, self.ids = self._make(), []
+        n = 0
+        for a, b in zip(self.ids, ids):
+            if a != b:
+                break
+            n += 1
+        n = min(n, len(ids) - 1)
+        extra = len(self.ids) - n
+        if extra > 0:
+            if self._can_trim(self.cache):
+                self._trim(self.cache, extra)
+            else:
+                self.cache, n = self._make(), 0
+        self.ids = self.ids[:n]
+        return self.cache, n
+
+    def commit(self, ids: list[int]) -> None:
+        """After a generation: drop the generated tokens from the cache, which then holds exactly `ids`."""
+        extra = self.cache[0].offset - len(ids)
+        if extra < 0 or (extra > 0 and not self._can_trim(self.cache)):
+            self.reset()
+            return
+        if extra:
+            self._trim(self.cache, extra)
+        self.ids = list(ids)
+
+
 class MLXChat:
     """Chat wrapper over mlx-lm; the model loads on the first `chat` call. `enable_thinking=False` turns Qwen3's
-    thinking off: the template switch when the tokenizer has one, else `/no_think` on the last user turn."""
+    thinking off: the template switch when the tokenizer has one, else `/no_think` on the last user turn.
+    `prefix_cache` reuses the KV cache of the prompt prefix shared with the previous chat (`PrefixCache`).
+    `prefill_step` is the prompt tokens per prefill chunk (a smaller chunk is a shorter GPU burst), `yield_s` a sleep
+    after every prefill chunk and `token_yield_s` one after every generated token, so another process's GPU work
+    (perception) gets in between."""
 
     def __init__(self, model_id: str = DEFAULT_QWEN_ID, max_tokens: int = 200, temperature: float = 0.0,
-                 enable_thinking: bool | None = None):
+                 enable_thinking: bool | None = None, prefix_cache: bool = False, prefill_step: int | None = None,
+                 yield_s: float = 0.0, token_yield_s: float = 0.0):
         self.model_id = model_id
         self.max_tokens = max_tokens
         self.temperature = temperature
         self.enable_thinking = enable_thinking
+        self.prefix_cache = prefix_cache
+        self.prefill_step = prefill_step
+        self.yield_s = yield_s
+        self.token_yield_s = token_yield_s
         self.last_stats: dict = {}
         self._model = None
         self._tok = None
+        self._prefix: PrefixCache | None = None
 
     def _load(self) -> None:
         from mlx_lm import load
@@ -164,23 +225,64 @@ class MLXChat:
                 messages = with_no_think(messages)
         return self._tok.apply_chat_template(messages, add_generation_prompt=True, tokenize=False, **kwargs)
 
-    def chat(self, messages: list[dict], tools: list[dict] | None = None) -> str:
+    def _encode(self, prompt: str) -> list[int]:
+        bos = getattr(self._tok, "bos_token", None)      # the same choice as mlx_lm.stream_generate makes for a str
+        return list(self._tok.encode(prompt, add_special_tokens=bos is None or not prompt.startswith(bos)))
+
+    def _prefix_cache(self) -> PrefixCache:
+        if self._prefix is None:
+            from mlx_lm.models.cache import can_trim_prompt_cache, make_prompt_cache, trim_prompt_cache
+            self._prefix = PrefixCache(lambda: make_prompt_cache(self._model), trim_prompt_cache,
+                                       can_trim_prompt_cache)
+        return self._prefix
+
+    def chat(self, messages: list[dict], tools: list[dict] | None = None, max_tokens: int | None = None) -> str:
         from mlx_lm import stream_generate
         from mlx_lm.sample_utils import make_sampler
         self.load()
         prompt = self.render_prompt(messages, tools)
+        kwargs: dict = {}
+        cached, ids, prefix = 0, None, None
+        if self.prefix_cache:
+            ids = self._encode(prompt)
+            prefix = self._prefix_cache()
+            kwargs["prompt_cache"], cached = prefix.prepare(ids)
+            prompt = ids[cached:]
+        if self.prefill_step:
+            kwargs["prefill_step_size"] = self.prefill_step
+        if self.yield_s:
+            kwargs["prompt_progress_callback"] = lambda done, total: time.sleep(self.yield_s)
         t0 = time.perf_counter()
         text, last = "", None
-        for last in stream_generate(self._model, self._tok, prompt=prompt, max_tokens=self.max_tokens,
-                                    sampler=make_sampler(temp=self.temperature)):
-            text += last.text
+        try:
+            for last in stream_generate(self._model, self._tok, prompt=prompt, max_tokens=max_tokens or self.max_tokens,
+                                        sampler=make_sampler(temp=self.temperature), **kwargs):
+                text += last.text
+                if self.token_yield_s:
+                    time.sleep(self.token_yield_s)
+        except BaseException:
+            if prefix is not None:
+                prefix.reset()                  # the cache may hold a half-processed prompt
+            raise
+        if prefix is not None:
+            prefix.commit(ids)
         ms = (time.perf_counter() - t0) * 1000
-        self.last_stats = {"prompt_tokens": getattr(last, "prompt_tokens", 0),
+        prompt_tokens, prompt_tps = getattr(last, "prompt_tokens", 0), getattr(last, "prompt_tps", 0.0)
+        self.last_stats = {"prompt_tokens": prompt_tokens + cached,       # the whole prompt; `cached_tokens` of it reused
+                           "cached_tokens": cached,
                            "gen_tokens": getattr(last, "generation_tokens", 0), "gen_ms": round(ms, 1),
-                           "prompt_tps": round(getattr(last, "prompt_tps", 0.0), 1),
+                           "prefill_ms": round(prompt_tokens / prompt_tps * 1000, 1) if prompt_tps else 0.0,
+                           "prompt_tps": round(prompt_tps, 1),
                            "gen_tps": round(getattr(last, "generation_tps", 0.0), 1),
                            "peak_gb": round(getattr(last, "peak_memory", 0.0), 2)}
         return text
+
+
+def coach_chat(model_id: str = COACH_MODEL_ID, **options) -> MLXChat:
+    """The coach's chat: thinking off, a prefix cache, the prefill chunk and yield defaults; `options` override them."""
+    opts = {"enable_thinking": False, "prefix_cache": True, "prefill_step": COACH_PREFILL_STEP,
+            "yield_s": COACH_YIELD_S, "token_yield_s": COACH_TOKEN_YIELD_S, **options}
+    return MLXChat(model_id, **opts)
 
 
 def openai_tools(tools: list[dict] = TOOLS) -> list[dict]:
@@ -312,12 +414,15 @@ class LLMPlanner:
         return Plan(text, "llm", trace)
 
 
-def coach_lines(text: str) -> str:
+def coach_lines(text: str, truncated: bool = False) -> str:
     """A coach reply as at most COACH_MAX_LINES plain lines within COACH_MAX_CHARS. The 14B tends to pack all its
-    sentences into one line, so a line longer than COACH_LINE_CHARS is split at its sentence ends first."""
+    sentences into one line, so a line longer than COACH_LINE_CHARS is split at its sentence ends first. `truncated`
+    (the reply hit the token budget): an unfinished last line (no . ! ?) is dropped when other lines remain."""
     lines: list[str] = []
     for line in clip_plan(text, 10 * COACH_MAX_CHARS).splitlines():
         lines += _SENTENCE_END_RE.split(line) if len(line) > COACH_LINE_CHARS else [line]
+    if truncated and len(lines) > 1 and lines[-1][-1] not in ".!?":
+        lines.pop()
     return clip_plan("\n".join(lines), COACH_MAX_CHARS, COACH_MAX_LINES)
 
 
@@ -357,11 +462,21 @@ class CoachPlanner(LLMPlanner):
     to attack and when to spend, written into the decision model's context. Thinking is off. The coach never acts."""
 
     def __init__(self, chat=None, model_path: str | None = None, max_steps: int = MAX_STEPS,
-                 db_path: Path = DB_PATH):
+                 db_path: Path = DB_PATH, prefill_step: int = COACH_PREFILL_STEP, yield_s: float = COACH_YIELD_S,
+                 token_yield_s: float = COACH_TOKEN_YIELD_S):
         model_path = model_path or COACH_MODEL_ID
-        if chat is None:
-            chat = MLXChat(model_path, enable_thinking=False)       # loads lazily, on the thread that first chats
+        if chat is None:        # loads lazily, on the thread that first chats
+            chat = coach_chat(model_path, prefill_step=prefill_step, yield_s=yield_s, token_yield_s=token_yield_s)
         super().__init__(chat=chat, model_path=model_path, max_steps=max_steps, db_path=db_path)
+
+    def prime(self, own_deck: list[str]) -> None:
+        """Prefill the static prefix (system prompt, our deck) into the chat's prompt cache, so even the first update
+        prefills only its dynamic part. One token is generated and thrown away. A no-op without a prefix cache."""
+        if not getattr(self.chat, "prefix_cache", False):
+            return
+        user = coach_update_prompt("", {"own": {"deck": own_deck}, "opponent": {}}, 0.0, "")
+        self.chat.chat([{"role": "system", "content": COACH_SYSTEM_PROMPT}, {"role": "user", "content": user}], None,
+                       max_tokens=1)
 
     def update(self, plan: Plan, state: dict, t: float, tactics_lines: list[str] | None = None,
                lookup: list[str] | None = None, context_text: str | None = None) -> Plan:
@@ -369,6 +484,7 @@ class CoachPlanner(LLMPlanner):
         context = context_text or render_context(state, t)
         user = coach_update_prompt(plan.text, state, t, context, tactics_lines, lookup)
         text = self.chat.chat([{"role": "system", "content": COACH_SYSTEM_PROMPT},
-                               {"role": "user", "content": user}], None)
-        text = coach_lines(strip_tool_calls(text))
+                               {"role": "user", "content": user}], None, max_tokens=COACH_UPDATE_TOKENS)
+        cut = ((getattr(self.chat, "last_stats", None) or {}).get("gen_tokens") or 0) >= COACH_UPDATE_TOKENS
+        text = coach_lines(strip_tool_calls(text), truncated=cut)
         return Plan(text, "coach") if text else plan

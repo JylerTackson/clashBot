@@ -28,11 +28,14 @@ sys.path.insert(0, str(ROOT))
 from clashbot.config import DATASET_DIR, DB_PATH  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.kg import KnowledgeGraph  # noqa: E402
-from clashbot.planner import (COACH_MODEL_ID, COACH_PERIOD_S, CoachPlanner, Plan, RuleBasedPlanner,  # noqa: E402
-                              lookup_summary, should_update)
+from clashbot.planner import (COACH_MODEL_ID, CoachPlanner, Plan, RuleBasedPlanner, lookup_summary,  # noqa: E402
+                              should_update)
 from clashbot.retrieval import StateIndex  # noqa: E402
 from clashbot.state_text import render_context  # noqa: E402
 from clashbot.tactics import TacticalEngine  # noqa: E402
+
+
+PLAN_PERIOD_S = 10.0         # training plans every 10 game seconds (the live coach runs every 20 s, in quiet time)
 
 
 def read_jsonl(path: Path) -> list[dict]:
@@ -59,7 +62,7 @@ def seed_plan(game: dict, rules: RuleBasedPlanner) -> Plan:
         return Plan("Deck: " + ", ".join(deck), "rules")
 
 
-def plan_game(game_id: str, records: list[dict], planner, engine, index, seed: Plan, period: float = COACH_PERIOD_S,
+def plan_game(game_id: str, records: list[dict], planner, engine, index, seed: Plan, period: float = PLAN_PERIOD_S,
               done: dict[float, str] | None = None, clock=time.perf_counter):
     """Yield one row per new plan of a game. The cadence is a function of the records only, so a resumed run lands on
     the same times; a time already in `done` is not planned again but its plan stays the current one."""
@@ -97,7 +100,7 @@ def group_records(path: Path) -> dict[str, list[dict]]:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dataset", type=Path, default=DATASET_DIR)
-    ap.add_argument("--period", type=float, default=COACH_PERIOD_S, help="game seconds between plans")
+    ap.add_argument("--period", type=float, default=PLAN_PERIOD_S, help="game seconds between plans")
     ap.add_argument("--limit-games", type=int, default=None, help="plan only the first N games")
     ap.add_argument("--out", type=Path, default=None, help="plans file (default <dataset>/coach_plans.jsonl)")
     ap.add_argument("--db", type=Path, default=DB_PATH)
