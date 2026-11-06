@@ -56,6 +56,7 @@ COACH_QUIET_ETA_S = 10.0      # the coach starts no job while a push is this clo
 COACH_BUSY_MODES = ("defend", "save")
 _TOWER_ETA_RE = re.compile(r"tower in (\d+(?:\.\d+)?)s")      # the tactics engine's push line: "..., tower in 6.2s; ..."
 FALLBACK_MIN_ELIXIR = 9.5     # a "fallback" candidate (no knn/kg support) is only played from a (nearly) full bar
+FALLBACK_OK_MODES = ("counter", "leak", "punish", "learned", "defend")     # modes whose fallback candidates may be played
 TOS_NOTE = ("Live runs only in Training Camp or friendly battles "
             "(Supercell terms of service prohibit bots in normal play).")
 
@@ -77,6 +78,7 @@ class LiveDecision:
     arbiter_subset: list | None = None                     # [{"key", "p"}]: the options d1 chose among, renormalised
     plan_t: float | None = None                            # game time of the coach plan d1 read (None: the pregame plan)
     plan_age_s: float | None = None                        # decision time minus plan_t
+    tile_source: str | None = None                         # where the tile came from: spell | engine | candidate | prior
 
 
 def _accepts_notes(fn) -> bool:
@@ -111,6 +113,25 @@ def _json_default(o):
     if isinstance(o, np.ndarray):
         return o.tolist()
     return str(o)
+
+
+def _roles_of(tactics) -> dict:
+    """The card role table: the tactics engine's own, else the committed Z1 table."""
+    roles = getattr(tactics, "roles", None)
+    if isinstance(roles, dict) and roles:
+        return roles["cards"] if isinstance(roles.get("cards"), dict) else roles
+    from clashbot.card_roles import load_roles
+    return load_roles()
+
+
+def fallback_allowed(verdict, card: str, roles: dict) -> bool:
+    """A fallback-only candidate is not held when the policy decision is an act of a mode in FALLBACK_OK_MODES and the
+    card is a win condition (role table `roles`) or one of the decision's allowed cards (MAC-AG): the hold only guards
+    against random filler plays."""
+    if getattr(verdict, "mode", None) not in FALLBACK_OK_MODES:
+        return False
+    role = roles.get(card) or {}
+    return "win_condition" in (role.get("roles") or []) or card in (getattr(verdict, "allowed_cards", None) or ())
 
 
 def top_source(sources: dict) -> str:
@@ -505,6 +526,7 @@ class LiveLoop:
             rank_ms = (g - f) * 1000.0
 
         elixir = state["own"]["elixir"]
+        tile_source = None
         if policy_hold:
             # the policy wanted to play but no candidate fits it: record a hold, never call the executor
             key, tile = HOLD_KEY, None
@@ -517,17 +539,25 @@ class LiveLoop:
                      "sent": False}
             cands = generated
             self.hand_unknown_holds += 1
-        elif cands and "fallback" in cands[i].sources and (elixir is None or elixir < FALLBACK_MIN_ELIXIR):
+        elif (cands and "fallback" in cands[i].sources and (elixir is None or elixir < FALLBACK_MIN_ELIXIR)
+              and not fallback_allowed(verdict, key.split("|")[0], _roles_of(self.tactics))):
             # a filler candidate (no knn/kg support) is only worth playing from a full bar; otherwise wait
             key, tile = HOLD_KEY, None
             entry = {"t": t, "key": HOLD_KEY, "tile": None, "status": "hold_fallback", "clicks": [], "sent": False}
         else:
-            aim = getattr(self.policy, "target_tile", None)      # spells aim at the enemy units, not the prior
+            # tile precedence: a spell's aim, the engine's tile for the card against this push (it places what the
+            # model picked), the candidate's own tile, the pro-median prior
+            aim = getattr(self.policy, "target_tile", None)
             tile = aim(key, state) if callable(aim) else None
-            if tile is None and getattr(chosen, "tile", None) is not None:
-                tile = list(chosen.tile)                            # a tactical candidate carries its own tile
+            tile_source = "spell" if tile is not None else None
             if tile is None:
-                tile = placement_tile(key, self.prior)
+                engine_tile = (getattr(verdict, "engine_tiles", None) or {}).get(key.split("|")[0])
+                if engine_tile is not None:
+                    tile, tile_source = list(engine_tile), "engine"
+            if tile is None and getattr(chosen, "tile", None) is not None:
+                tile, tile_source = list(chosen.tile), "candidate"  # a tactical candidate carries its own tile
+            if tile is None:
+                tile, tile_source = placement_tile(key, self.prior), "prior"
             entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
             note_play = getattr(self.builder, "note_own_play", None)
             if entry.get("sent") and entry.get("slot") is not None and callable(note_play):
@@ -548,7 +578,7 @@ class LiveLoop:
                          "note": getattr(x, "note", None)} for x in cands],
             probs=list(probs), executor=entry, timings_ms=timings, mode=verdict.mode, reason=verdict.reason,
             tactics_lines=list(report.lines) if report is not None else [], arbiter_reason=arbiter_reason,
-            arbiter_subset=arbiter_subset, plan_t=plan_t, plan_age_s=plan_age_s)
+            arbiter_subset=arbiter_subset, plan_t=plan_t, plan_age_s=plan_age_s, tile_source=tile_source)
         self.decisions.append(decision)
         if self.shots is not None:
             s0 = clock()

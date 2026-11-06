@@ -122,7 +122,7 @@ def test_giant_right_lane_tesla_pulls_it_to_the_centre():
     assert isinstance(rep, TacticalReport) and isinstance(rep.best, TacticalMove)
     best = rep.best
     assert best.card == "tesla" and best.intent == "defend" and best.trade == 1.0
-    assert best.tile == [10.5, 9.0] and best.key == "tesla|middle|mid"
+    assert best.tile == [11.0, 7.0] and best.key == "tesla|middle|mid"           # MAC-AG: the geometric pull tile
     assert best.reason == "pulls giant to the centre, trade +1"
     assert rep.hold_reason is None
     push = rep.pushes[0]
@@ -394,7 +394,7 @@ def test_placement_rules():
     by_card = {m.card: m for m in ENGINE.analyse(knight_left).moves}
     assert by_card["cannon"].tile == [5.5, 6.5]
     giant_left = _state(units=[_enemy((3, 12), "giant", eta=4.0)], hand=["cannon"])
-    assert ENGINE.analyse(giant_left).best.tile == [7.5, 8.0]
+    assert ENGINE.analyse(giant_left).best.tile == [7.0, 11.0]
     # melee on our side in front; deep in our half just in front of the unit
     deep = _state(units=[_enemy((3, 7), "giant", eta=2.0)], hand=["mini-p-e-k-k-a"])
     assert ENGINE.analyse(deep).best.tile == [3.0, 6.0]
@@ -814,7 +814,9 @@ def test_default_weights_cover_every_scoring_number_and_the_committed_file_is_va
     assert (DEFAULT_WEIGHTS["answered_frac"], DEFAULT_WEIGHTS["answered_factor"]) == (0.6, 0.3)
     assert all(isinstance(v, float) for v in DEFAULT_WEIGHTS.values())
     data = json.loads(WEIGHTS_PATH.read_text())                               # committed by tools/train/tune_tactics.py
-    assert set(data["weights"]) == set(DEFAULT_WEIGHTS) and all(isinstance(v, float) for v in data["weights"].values())
+    # the file may lack a weight added after the last tuning run (it falls back to the default): MAC-AG `split`
+    assert set(data["weights"]) <= set(DEFAULT_WEIGHTS) and set(DEFAULT_WEIGHTS) - set(data["weights"]) <= {"split"}
+    assert all(isinstance(v, float) for v in data["weights"].values())
 
 
 def test_the_weights_file_is_loaded_and_an_explicit_dict_overrides_it(tmp_path, monkeypatch):
@@ -994,7 +996,8 @@ def test_defend_moves_carry_their_stopping_class_and_offence_moves_do_not():
 def test_the_defence_list_keeps_every_defend_move_while_moves_keeps_six():
     units = [_enemy((3, 12), "knight", eta=4.0), _enemy((15, 12), "knight", eta=4.5, tower="own_right")]
     rep = ENGINE.analyse(_state(units=units, elixir=10.0, hand=["tesla", "knight", "musketeer", "ice-spirit"]))
-    assert len(rep.moves) <= 6 and len(rep.defence) == 8 and {m.intent for m in rep.defence} == {"defend"}
+    # eight defend moves, but the two kiting knights stand at the same key (both lanes, x 7.5 / 10.5 = "middle")
+    assert len(rep.moves) <= 6 and len(rep.defence) == 7 and {m.intent for m in rep.defence} == {"defend"}
     assert [m.score for m in rep.defence] == sorted((m.score for m in rep.defence), reverse=True)
     assert [m for m in rep.moves if m.intent == "defend"] == rep.defence[:len(rep.moves)] or len(rep.moves) == 6
 
@@ -1002,7 +1005,7 @@ def test_the_defence_list_keeps_every_defend_move_while_moves_keeps_six():
 def test_a_unit_ten_seconds_out_is_listed_but_a_later_one_is_not():
     near = _state(units=[_enemy((15, 15), "giant", eta=9.5, tower="own_right")], elixir=6.0)
     rep = ENGINE.analyse(near)
-    assert rep.pushes[0].eta_s == 9.5 and rep.best.card == "tesla" and rep.best.tile == [10.5, 10.0]
+    assert rep.pushes[0].eta_s == 9.5 and rep.best.card == "tesla" and rep.best.tile == [11.0, 7.0]
     assert ENGINE.analyse(_state(units=[_enemy((15, 15), "giant", eta=10.5, tower="own_right")])).pushes == []
     assert rep.pushes[0].heavy is True
     assert ENGINE.analyse(_bats_left()).pushes[0].heavy is False          # a swarm push is not heavy
@@ -1063,3 +1066,164 @@ def test_our_recent_plays_answer_a_push_at_once():
     state["own"]["recent_plays"] = [{"player": "own", **tower}]
     assert {m.card: m.score for m in ENGINE.analyse(state, 100.0).moves} \
         == {c: pytest.approx(round(v * 0.3, 3)) for c, v in plain.items()}
+
+
+# MAC-AG: flyers, pulls, kites, offence during pressure ------------------------------------------------------------------
+# The real role table (the Z1 file), the weights pinned to the defaults, and the confirmed deck (D-047).
+REAL = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)
+DECK47 = ["electro-dragon", "musketeer", "tesla", "fireball", "knight", "zap", "ram-rider", "mini-p-e-k-k-a"]
+OWN_TOWERS = {"left": (3.5, 4.3), "right": (14.5, 4.3)}
+
+
+def _defence_cards(report):
+    return [m.card for m in report.defence]
+
+
+def test_ag_a_flyer_is_never_answered_with_a_ground_only_card():
+    bats = [_enemy(t, "bats", eta=4.0) for t in ((4, 14), (3, 14), (5, 14))]
+    hand = ["electro-dragon", "knight", "musketeer", "zap"]
+    witch = _enemy((4, 20), "night-witch", eta=8.0)                                # 6 tiles behind the bats
+    rep = REAL.analyse(_state(units=bats + [witch], hand=hand, elixir=7.0))
+    assert rep.pushes[0].units[0]["card"] == "bats"
+    cards = _defence_cards(rep)
+    assert "knight" not in cards and {"zap", "electro-dragon", "musketeer"} <= set(cards)
+    # the same hand against bats alone: no knight either
+    assert "knight" not in _defence_cards(REAL.analyse(_state(units=bats, hand=hand, elixir=7.0)))
+    # a ground unit within 2 tiles of the lead is part of the same group: the knight still helps against it
+    near = _enemy((4, 15.5), "night-witch", eta=4.5)
+    assert "knight" in _defence_cards(REAL.analyse(_state(units=bats + [near], hand=hand, elixir=7.0)))
+    # a ground lead with a flyer behind it is the old rule: a penalty, not a ban
+    knight_bats = [_enemy((3, 12), "knight", eta=4.0), _enemy((3, 14), "bats", eta=5.0)]
+    assert "knight" in _defence_cards(REAL.analyse(_state(units=knight_bats, hand=hand, elixir=7.0)))
+    # a lone balloon: no ground-only card or building that cannot hit air
+    balloon = _enemy((3, 13), "balloon", eta=6.0)
+    assert not {"knight", "bomb-tower", "cannon"} & set(
+        _defence_cards(REAL.analyse(_state(units=[balloon], hand=["knight", "bomb-tower", "musketeer", "zap"]))))
+
+
+def test_ag_a_building_pulls_a_giant_only_at_a_pull_tile_and_only_before_it_locks_on():
+    giant = _enemy((14, 15), "giant", eta=9.0, tower="own_right")
+    rep = REAL.analyse(_state(units=[giant], hand=["musketeer", "knight", "tesla", "mini-p-e-k-k-a"], elixir=8.0))
+    tesla = next(m for m in rep.defence if m.card == "tesla")
+    d_giant = ((tesla.tile[0] - 14) ** 2 + (tesla.tile[1] - 15) ** 2) ** 0.5
+    d_tower = ((OWN_TOWERS["right"][0] - 14) ** 2 + (OWN_TOWERS["right"][1] - 15) ** 2) ** 0.5
+    assert tesla.stop == "high" and tesla.reason.startswith("pulls giant to the centre")
+    assert 7.0 <= tesla.tile[0] <= 11.0 and 4.0 <= tesla.tile[1] <= 11.0         # the centre band of our half
+    assert d_giant <= d_tower - 1.5 and d_giant >= 3.0                           # nearer to it than the tower, not on it
+    assert rep.best.card == "tesla"
+    # the giant has reached its tower: nothing pulls it, the building is a block and the tank killer is preferred
+    attacking = _enemy((14, 5.5), "giant", eta=0.5, tower="own_right")
+    rep = REAL.analyse(_state(units=[attacking], hand=["tesla", "mini-p-e-k-k-a", "musketeer", "knight"], elixir=8.0))
+    by_card = {m.card: m for m in rep.defence}
+    assert rep.best.card == "mini-p-e-k-k-a" and by_card["tesla"].stop == "low" and by_card["tesla"].reason == "slows giant"
+    assert REAL._pull(rep.pushes[0])[1] is None
+    # between the lock-on distance and the nearest pull tile there is no pull either (the tower is only 3.7 tiles away)
+    close = _enemy((14, 8), "giant", eta=3.0, tower="own_right")
+    push = REAL.analyse(_state(units=[close])).pushes[0]
+    assert REAL._pull(push)[0] is close and REAL._pull(push)[1] is None
+    # a flying targeter is pulled in the same way, in the left lane
+    pull = REAL._pull(REAL.analyse(_state(units=[_enemy((3, 15), "balloon", eta=9.0)])).pushes[0])[1]
+    assert pull is not None and 7.0 <= pull[0] <= 11.0
+    assert REAL._pull(REAL.analyse(_state(units=[_enemy((3, 12), "knight", eta=4.0)])).pushes[0]) == (None, None)
+
+
+def test_ag_a_melee_defender_kites_a_ground_troop_targeter_to_the_centre():
+    hand = ["mini-p-e-k-k-a", "musketeer", "tesla", "fireball"]
+    rep = REAL.analyse(_state(units=[_enemy((3, 12), "knight", eta=4.0)], hand=hand, elixir=7.0))
+    by_card = {m.card: m for m in rep.defence}
+    assert by_card["mini-p-e-k-k-a"].tile == [7.5, 9.0] and by_card["mini-p-e-k-k-a"].reason.startswith(
+        "kites knight to the centre")
+    assert by_card["musketeer"].tile == [5.0, 2.5]                                 # ranged support stays behind the tower
+    right = REAL.analyse(_state(units=[_enemy((15, 12), "knight", eta=4.0, tower="own_right")], hand=hand, elixir=7.0))
+    assert next(m for m in right.defence if m.card == "mini-p-e-k-k-a").tile == [10.5, 9.0]
+    deep = REAL.analyse(_state(units=[_enemy((3, 3), "knight", eta=0.5)], hand=hand, elixir=7.0))
+    assert next(m for m in deep.defence if m.card == "mini-p-e-k-k-a").tile[1] == 1.0       # never behind the back line
+    # a building targeter is met in front of the tower, a push already fought by a troop of ours is not kited
+    giant = REAL.analyse(_state(units=[_enemy((15, 12), "giant", eta=4.0, tower="own_right")], hand=hand, elixir=7.0))
+    assert next(m for m in giant.defence if m.card == "mini-p-e-k-k-a").reason.startswith("stops giant in front")
+    fought = REAL.analyse(_state(units=[_enemy((3, 12), "knight", eta=4.0), _ally((3.5, 11), "knight")], hand=hand,
+                                 elixir=7.0))
+    assert fought.pushes[0].answered
+    assert not next(m for m in fought.defence if m.card == "mini-p-e-k-k-a").reason.startswith("kites")
+
+
+# offence during pressure ------------------------------------------------------------------------------------------------
+OFFENCE_HAND = ["ram-rider", "musketeer", "electro-dragon", "zap"]
+
+
+def _answered_giant_right(elixir=7.0, extra=(), hand=None, eta=5.0):
+    giant = _enemy((14, 12), "giant", eta=eta, tower="own_right")
+    return _state(units=[giant, _ally((11, 8), "tesla"), *extra], elixir=elixir, hand=hand or OFFENCE_HAND)
+
+
+def test_ag_split_into_the_other_lane_when_they_commit_5_elixir_into_an_answered_push():
+    rep = REAL.analyse(_answered_giant_right())
+    assert rep.pushes[0].answered and rep.pushes[0].eta_s == 5.0                    # pressure: a push within 8 s
+    assert [(m.intent, m.card, m.tile, m.score) for m in rep.offence] == [("split", "ram-rider", [3.5, 14.0], 0.7)]
+    assert rep.best.card == "ram-rider" and rep.best.key == "ram-rider|left|bridge"
+    assert rep.best.reason == "they committed 5 elixir right"
+    assert rep.lines[-2] == "tactics: best ram-rider @[3.5,14] split: they committed 5 elixir right"
+    # a counter-push in the left lane takes the same key; split scores higher
+    rep = REAL.analyse(_answered_giant_right(extra=[_ally((4, 10), "knight")]))
+    assert [m.intent for m in rep.offence] == ["split"]
+    # not enough elixir (cost 5 + 1), a push worth less than 5, or a push nobody answers: no split
+    assert REAL.analyse(_answered_giant_right(elixir=5.5)).offence == []
+    knight = _enemy((14, 11), "knight", eta=5.0, tower="own_right")
+    small = _state(units=[knight, _ally((14, 8.5), "knight")], elixir=8.0, hand=OFFENCE_HAND)
+    assert REAL.analyse(small).pushes[0].answered and REAL.analyse(small).offence == []
+    assert REAL.analyse(_state(units=[_enemy((14, 12), "giant", eta=5.0, tower="own_right")], elixir=8.0,
+                               hand=OFFENCE_HAND)).offence == []
+    # a second push in the target lane that is still on: no split into it
+    balloon = _enemy((3, 13), "balloon", eta=4.0)
+    assert [m for m in REAL.analyse(_answered_giant_right(extra=[balloon], elixir=8.0)).offence
+            if m.intent == "split"] == []
+
+
+def test_ag_counter_push_during_pressure_needs_the_lane_push_answered_or_gone():
+    ally = _ally((4, 10), "knight")
+    giant_left = _enemy((3.5, 14), "giant", eta=5.0)
+    # their giant is in the left lane, where our knight is: not answered (too far from the lead), so no counter-push there
+    state = _state(units=[giant_left, ally], elixir=8.0, hand=OFFENCE_HAND)
+    assert REAL.analyse(state).pushes[0].answered is False
+    assert [m for m in REAL.analyse(state).offence if m.intent == "counter_push"] == []
+    # answered by our tesla at the tower: the knight's lane may counter-push
+    state = _state(units=[giant_left, _ally((6, 8), "tesla"), ally], elixir=8.0, hand=OFFENCE_HAND)
+    rep = REAL.analyse(state)
+    assert rep.pushes[0].answered and ("counter_push", [3.5, 14.0]) in [(m.intent, m.tile) for m in rep.offence]
+    # the push is in the other lane: the knight's lane has none, so it counter-pushes while the right lane is held
+    state = _state(units=[_enemy((14, 12), "giant", eta=5.0, tower="own_right"), ally], elixir=8.0, hand=OFFENCE_HAND)
+    assert [(m.intent, m.tile) for m in REAL.analyse(state).offence] == [("counter_push", [3.5, 14.0])]
+    # a building is not a unit that wins a lane
+    building = _ally((4, 10), "bomb-tower")
+    state = _state(units=[_enemy((14, 12), "giant", eta=5.0, tower="own_right"), building], elixir=8.0,
+                   hand=OFFENCE_HAND)
+    assert REAL.analyse(state).offence == []
+
+
+def test_ag_a_full_bar_leaks_the_win_condition_during_pressure_unless_a_push_is_at_the_tower():
+    hand = ["ram-rider", "knight", "mini-p-e-k-k-a", "fireball"]
+    far = _state(units=[_enemy((3, 14), "knight", eta=6.0)], elixir=10.0, hand=hand)
+    leak = REAL.analyse(far).offence
+    assert [(m.intent, m.card, m.tile, m.score) for m in leak] == [("leak", "ram-rider", [14.5, 14.0], 0.5)]   # away from the push
+    assert leak[0].reason == "elixir 10 near full, pushes right"
+    # a push within 3 s: no leak; below 9.5 elixir: none either
+    assert REAL.analyse(_state(units=[_enemy((3, 10), "knight", eta=2.5)], elixir=10.0, hand=hand)).offence == []
+    assert REAL.analyse(_state(units=[_enemy((3, 14), "knight", eta=6.0)], elixir=9.0, hand=hand)).offence == []
+    # pressure leaks only win conditions (the plain-card leak of a quiet board stays quiet-board only)
+    plain = _state(units=[_enemy((3, 14), "knight", eta=6.0)], elixir=10.0, hand=["knight", "musketeer", "zap", "tesla"])
+    assert REAL.analyse(plain).offence == []
+    # both lanes pushed: the weaker enemy tower
+    both = _state(units=[_enemy((3, 14), "knight", eta=6.0), _enemy((15, 14), "knight", eta=6.5, tower="own_right")],
+                  elixir=10.0, hand=hand, opp_towers={"king": None, "left": 4000, "right": 1500})
+    assert [m.tile for m in REAL.analyse(both).offence] == [[14.5, 14.0]]
+
+
+def test_ag_quiet_board_offence_is_unchanged_and_the_report_lists_every_offence_move():
+    rep = REAL.analyse(_state(units=[_ally((4, 10), "knight")], elixir=8.0, hand=OFFENCE_HAND))
+    assert [(m.intent, m.card) for m in rep.offence] == [("counter_push", "ram-rider")]
+    assert [m.key for m in rep.moves if m.intent == "counter_push"] == [m.key for m in rep.offence]
+    # the offence list holds every offence move even when six defend moves fill `moves`
+    units = [_enemy((3, 12), "knight", eta=4.0), _enemy((15, 12), "knight", eta=4.5, tower="own_right"),
+             _ally((8, 10), "knight")]
+    big = REAL.analyse(_state(units=units, elixir=10.0, hand=["ram-rider", "mini-p-e-k-k-a", "tesla", "musketeer"]))
+    assert all(m.intent != "defend" for m in big.offence)

@@ -942,7 +942,9 @@ def test_reactive_defend_filters_to_the_threat_lane_and_executes():
     d = lp.step("f", 1.0, 0, 2.0)
     assert d.mode == "defend" and "knight" in d.reason and "left" in d.reason
     assert [c["key"] for c in d.candidates] == ["knight|left|mid"]               # wrong lane + blind spell dropped
-    assert d.key == "knight|left|mid" and d.tile == [4.0, 8.0] and ex.calls[0][0] == "knight|left|mid"
+    # the engine places the knight (it kites the threat to the centre), not the pro-median prior of the key
+    assert d.key == "knight|left|mid" and d.tile == [7.5, 6.0] and d.tile_source == "engine"
+    assert ex.calls[0][0] == "knight|left|mid" and ex.calls[0][1] == [7.5, 6.0]
 
 
 def test_reactive_defend_with_every_candidate_filtered_records_hold_policy(tmp_path):
@@ -1175,3 +1177,142 @@ def test_no_policy_aim_falls_back_to_the_placement_prior(policy):
 
 def test_summary_counts_hand_unknown_holds_even_without_any():
     assert _loop(builder=FakeBuilder(warmup=99)).run(max_frames=2)["hand_unknown_holds"] == 0
+
+
+# MAC-AG: fallback candidates of a win condition, the engine places what the model picked, the confirmed deck --------------
+class StaticPolicy:
+    """Hands out one fixed ActDecision; candidates pass the filter unchanged; no spell aims."""
+
+    def __init__(self, verdict, aim=None):
+        self.verdict, self.aim = verdict, aim
+
+    def decide(self, state, t, context_text=None):
+        return self.verdict
+
+    def filter_candidates(self, candidates, decision, state):
+        return candidates
+
+    def target_tile(self, key, state):
+        return self.aim
+
+
+RAM_KEYS = ["ram-rider|left|bridge", "knight|left|mid"]
+RAM_HAND = ["ram-rider", "knight", "zap", "musketeer"]
+
+
+def _ram_loop(verdict, elixir=5.0, keys=RAM_KEYS, hand=RAM_HAND, **kw):
+    return _loop(builder=FakeBuilder(state=_state(elixir=elixir, hand=hand), warmup=0),
+                 generator=FallbackGenerator(keys=keys), ranker=FirstKeyRanker(), executor=FakeExecutor(),
+                 policy=StaticPolicy(verdict), **kw)
+
+
+@pytest.mark.parametrize("mode", ["counter", "leak", "punish", "learned", "defend"])
+def test_ag_a_fallback_win_condition_is_played_in_an_act_mode_below_9_5_elixir(mode):
+    lp = _ram_loop(ActDecision(True, mode, None, "x"))
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == "ram-rider|left|bridge" and d.executor["key"] == d.key and d.executor.get("status") != "hold_fallback"
+    assert [c[0] for c in lp.executor.calls] == ["ram-rider|left|bridge"]
+
+
+def test_ag_a_fallback_filler_is_still_held_and_so_is_a_win_condition_in_a_mode_that_is_no_act_mode():
+    # a non-win-condition fallback in learned mode: held
+    lp = _ram_loop(ActDecision(True, "learned", None, "x"), keys=["knight|left|mid", "zap|left|mid"])
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == HOLD_KEY and d.executor["status"] == "hold_fallback" and lp.executor.calls == []
+    # ... unless the decision names the card
+    lp = _ram_loop(ActDecision(True, "defend", None, "x", allowed_cards=frozenset({"knight"})),
+                   keys=["knight|left|mid", "zap|left|mid"])
+    assert lp.step("f", 1.0, 0, 2.0).key == "knight|left|mid"
+    lp = _ram_loop(ActDecision(True, "counter", None, "x", allowed_cards=frozenset({"zap"})), keys=["knight|left|mid"])
+    assert lp.step("f", 1.0, 0, 2.0).key == HOLD_KEY                      # the allowed card is not the one chosen
+    # the old trigger mode (and any mode outside the list) keeps the hold for a win condition as well
+    lp = _loop(builder=FakeBuilder(state=_state(elixir=5.0, hand=RAM_HAND), warmup=0),
+               generator=FallbackGenerator(keys=RAM_KEYS), ranker=FirstKeyRanker(), executor=FakeExecutor(),
+               policy=StaticPolicy(ActDecision(True, "trigger", None, "x")))
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == HOLD_KEY and d.executor["status"] == "hold_fallback"
+    # a full bar plays any fallback, as before
+    assert _ram_loop(ActDecision(True, "learned", None, "x"), elixir=9.5, keys=["knight|left|mid"]).step(
+        "f", 1.0, 0, 2.0).key == "knight|left|mid"
+
+
+def test_ag_tile_precedence_is_spell_then_engine_then_candidate_then_prior():
+    class TiledGenerator(FakeGenerator):
+        def generate(self, state, t, ctx, n=4, **filters):
+            return [Candidate("knight|left|mid", 1.0, {"knn": 1.0}, [5.0, 7.0])]
+
+    def run(verdict, aim=None, generator=None):
+        lp = _loop(builder=FakeBuilder(state=_state(elixir=5.0, hand=RAM_HAND), warmup=0),
+                   generator=generator or TiledGenerator(), ranker=FirstKeyRanker(), executor=FakeExecutor(),
+                   policy=StaticPolicy(verdict, aim))
+        d = lp.step("f", 1.0, 0, 2.0)
+        return d, lp
+
+    engine = ActDecision(True, "defend", "left", "x", engine_tiles={"knight": [7.5, 9.0]})
+    d, lp = run(engine)
+    assert d.tile == [7.5, 9.0] and d.tile_source == "engine" and lp.executor.calls[0][1] == [7.5, 9.0]
+    d, _ = run(engine, aim=[3.0, 14.0])                                          # a spell's aim beats the engine tile
+    assert d.tile == [3.0, 14.0] and d.tile_source == "spell"
+    d, _ = run(ActDecision(True, "defend", "left", "x", engine_tiles={"zap": [1.0, 1.0]}))   # the engine has other cards
+    assert d.tile == [5.0, 7.0] and d.tile_source == "candidate"
+    d, _ = run(ActDecision(True, "defend", "left", "x"), generator=FakeGenerator(keys=["knight|left|mid"]))
+    assert d.tile == [4.0, 8.0] and d.tile_source == "prior"            # the pro median of left|mid
+    held, _ = run(ActDecision(True, "defend", "left", "x"), generator=FallbackGenerator(keys=["knight|left|mid"]))
+    assert held.tile is None and held.tile_source is None                       # a hold has no tile
+
+
+class SequenceBuilder:
+    """build() hands out the states in turn (the last one for good)."""
+
+    def __init__(self, states):
+        self.states, self.calls = list(states), 0
+
+    def observe_events(self, events):
+        pass
+
+    def build(self, gs):
+        state = self.states[min(self.calls, len(self.states) - 1)]
+        self.calls += 1
+        return state, "CTX"
+
+
+def test_ag_end_to_end_the_tesla_goes_to_the_pull_tile_and_knight_waits_for_a_flyer_it_cannot_hit():
+    from clashbot.policy import ReactivePolicy
+    from clashbot.tactics import DEFAULT_WEIGHTS, TacticalEngine
+
+    deck = ["electro-dragon", "musketeer", "tesla", "fireball", "knight", "zap", "ram-rider", "mini-p-e-k-k-a"]
+    hand = ["tesla", "knight", "musketeer", "zap"]
+    cards = load_cards()
+    engine = TacticalEngine(cards, weights=DEFAULT_WEIGHTS)
+    giant = {"unit_class": "giant", "card": "giant", "side": "enemy", "tile": [14, 15],
+             "predicted_tile_2s": [14, 13], "eta_tower": {"tower": "own_right", "s": 9.0}}
+    bats = [{"unit_class": "bats", "card": "bats", "side": "enemy", "tile": t, "eta_tower": {"tower": "own_left", "s": 4.0}}
+            for t in ([4, 14], [3, 14], [5, 14])]
+    s1 = {**_state(elixir=5.0, hand=hand), "units": [giant]}
+    s1["own"]["deck"] = deck
+    s2 = {**_state(elixir=1.0, hand=hand), "units": bats}
+    s2["own"]["deck"] = deck
+
+    class Gen(FakeGenerator):               # the lookup offers the pros' keys, not the engine's tiles
+        def generate(self, state, t, ctx, n=4, **filters):
+            return [Candidate("tesla|middle|bridge", 1.0, {"knn": 1.0}), Candidate("knight|right|bridge", 0.5, {"knn": 1.0})]
+
+    ex = FakeExecutor()
+    lp = _loop(builder=SequenceBuilder([s1, s2]), generator=Gen(), ranker=FirstKeyRanker(), executor=ex,
+               policy=ReactivePolicy(cards, engine=engine), tactics=engine)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.mode == "defend" and d.reason == "defend giant right: tesla (high)" and d.key == "tesla|middle|bridge"
+    pull = engine.analyse(s1, 1.0).defence[0]
+    assert pull.card == "tesla" and d.tile == pull.tile == [11.0, 6.5] and d.tile_source == "engine"
+    assert ex.calls[0][:2] == ("tesla|middle|bridge", [11.0, 6.5])             # not the pro median [9, 13]
+    # bats on the left with one elixir: nothing is affordable, so the bot holds (no knight)
+    assert lp.step("f", 2.0, 1, 2.0) is None and len(ex.calls) == 1
+    # and with the elixir for it, the knight is not offered against the bats either
+    s2["own"]["elixir"] = 6.0
+    lp2 = _loop(builder=FakeBuilder(state=s2, warmup=0), generator=FakeGenerator(keys=["knight|left|mid", "zap|left|bridge"]),
+                ranker=FirstKeyRanker(), executor=FakeExecutor(), policy=ReactivePolicy(cards, engine=engine),
+                tactics=engine)
+    d2 = lp2.step("f", 2.0, 1, 2.0)
+    assert d2.mode == "defend" and d2.reason == "defend bats left: zap (spell)"
+    assert [c["key"] for c in d2.candidates] == ["zap|left|bridge"]               # the knight candidate was filtered out
+    assert d2.key == "zap|left|bridge" and [c[0] for c in lp2.executor.calls] == ["zap|left|bridge"]

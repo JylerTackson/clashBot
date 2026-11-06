@@ -12,6 +12,12 @@ Real defence (MAC-AD): a defend move carries its stopping class against the push
 and a push counts as answered (`Push.answered`, `answered_by`) when the allies near its lead unit, our buildings on our
 half (against a building targeter) and the plays we made in the last few seconds (known at once, before perception
 sees them) together pay for most of its elixir.
+Placement and windows (MAC-AG): a flyer is never answered with a card that cannot hit air (unless ground units stand
+at its side); a building is a pull only at a geometric pull tile (closer to the threat than any of our towers, in range
+of both princess towers) and only before the threat locks on its tower, else it is a low-stopping block; a ground
+troop-targeter is kited to the centre by the first melee defender. Offence is proposed during pressure too: a
+counter-push when the lane's push is answered or gone, a `split` into the lane away from an answered push worth 5+
+elixir, and a win-condition leak at a full bar while no push is within 3 s. `TacticalReport.offence` lists them.
 """
 from __future__ import annotations
 
@@ -23,7 +29,9 @@ from pathlib import Path
 from clashbot.card_roles import GROUND_ONLY_SPELLS, hits_air, load_roles
 from clashbot.config import ANYWHERE_CARDS
 from clashbot.game_rules import action_key, lane_of, legal_cards, load_cards, zone_of
-from clashbot.policy import NON_DAMAGE_SPELLS, OPPOSITE_LANE, SPELL_RADIUS, TANK_CARDS, ReactivePolicy, _lead_tile
+from clashbot.policy import (NON_DAMAGE_SPELLS, OPPOSITE_LANE, OWN_TOWER_TILES, PULL_LEAD_S, SPELL_RADIUS, TANK_CARDS,
+                             ReactivePolicy, _lead_tile, air_lead_blocks_ground, locked_on, nearest_own_tower_dist,
+                             targeter_of)
 from clashbot.state_text import fmt_num
 
 URGENT_ETA_S = 8.0           # a push this close (seconds) to an own tower is acted on; later ones leave room for offence
@@ -57,6 +65,19 @@ ANSWERED_PLAY_S = 4.0        # our plays this recent (known from the tap, before
 ANSWERED_PLAY_RANGE = 7.0    # ... when they landed this close to the lead unit (or in the push's lane); spells: ANSWERED_RANGE
 ANSWERED_EMERGENCY_ETA = 1.5     # a push this close to the tower with weaker allies is still acted on in full
 KAMIKAZE_REPEAT_S = 3.0      # a kamikaze card we played this recently is not proposed again against a push
+SPLIT_MIN_ELIXIR = 5.0       # an answered push worth this much elixir opens the other lane (split)
+LEAK_PUSH_MIN_ETA_S = 3.0    # a win-condition leak is proposed during pressure while no push is closer than this
+PULL_CLOSER_TILES = 1.5      # a pull tile is this much closer to the threat than the nearest tower of ours
+PULL_MIN_DIST = 3.0          # ... and at least this far from it (the building is not hit at once)
+PULL_X = (6.0, 12.0)         # the grid of pull tiles (0.5 steps); the centre band is x 7..11
+PULL_Y = (4.0, 11.0)
+PRINCESS_RANGE = 7.5         # tiles a princess tower reaches: the threat is hit on the part of its walk inside it
+KING_RANGE = 7.0             # ... and the king tower (pulling to the middle brings the king into the fight)
+PULL_BAND = (7.0, 11.0)      # the centre band a pull tile prefers
+PULL_STEP = 0.25             # sampling step (tiles) of the threat's walk
+KITE_X = 9.0                 # a kiting defender stands this far (KITE_DX) toward its lane from the middle of the arena
+KITE_DX = 1.5
+KITE_BEHIND = 3.0            # ... this many rows closer to our side than the lead unit
 NEED_ORDER = ("air", "tank", "swarm", "building_targeter")
 
 # Every hand-set number of the move scoring. `TacticalEngine(weights=None)` starts from these, applies
@@ -89,6 +110,7 @@ DEFAULT_WEIGHTS: dict[str, float] = {
     "answered_factor": 0.3,                 # the push's defence scores are multiplied by this
     # offence intent scores
     "counter_push": 0.6,
+    "split": 0.7,                           # an answered push worth 5+ elixir: the win condition goes to the other lane
     "punish": 0.55,
     "leak_wc": 0.5,
     "leak": 0.4,
@@ -154,7 +176,7 @@ class TacticalMove:
     card: str
     key: str                     # card|lane|zone of `tile` (lane_of / zone_of)
     tile: list[float]            # concrete deploy tile, rounded to 0.5
-    intent: str                  # "defend" | "counter_push" | "punish" | "leak" | "bait" | "pressure" | "support" | "cycle"
+    intent: str                  # "defend" | "counter_push" | "split" | "punish" | "leak" | "bait" | "pressure" | "support" | "cycle"
     reason: str                  # <= 60 chars, e.g. "pulls giant to the centre, trade +5"
     score: float                 # engine preference, higher is better
     trade: float | None          # push elixir - card cost (defend), else None
@@ -170,6 +192,7 @@ class TacticalReport:
     hold_reason: str | None      # set when best is None
     lines: list[str]             # 1..4 lines, each starting with "tactics: "
     defence: list[TacticalMove] = field(default_factory=list)   # every defend move, best first (`moves` keeps 6 of all)
+    offence: list[TacticalMove] = field(default_factory=list)   # every offence move, best first (`moves` keeps 6 of all)
 
 
 @dataclass
@@ -187,6 +210,10 @@ class _PushCtx:
     swarm_only: bool = False     # every unit of the push is a swarm unit (or a graveyard token)
     answered_by: tuple = ()      # distinct ally cards fighting the push when it counts as being answered, else ()
     blocked: frozenset = frozenset()     # kamikaze cards we played in the last KAMIKAZE_REPEAT_S (not proposed again)
+    air_blocked: bool = False    # a flyer leads the push: a card that cannot hit air cannot answer it
+    pull_unit: dict | None = None        # the push's building targeter (giant, balloon ...), if any
+    pull_tile: list | None = None        # where a building would pull it to; None = no pull (locked on, or no such tile)
+    kite: bool = False           # a ground troop-targeter and nobody fights it yet: the first melee defender kites it
 
 
 def _tile(unit: dict) -> list | None:
@@ -409,13 +436,67 @@ class TacticalEngine:
             if top > 0:
                 norm = {k: v / top for k, v in scores.items()}
         roles = [self._role(u.get("card")) for u in push.units]
+        pull_unit, pull_tile = self._pull(push)
+        lead_role = self._role(card)
+        answered_by = self._answered_by(push, pos, state, t)
         return _PushCtx(push, unit, pos, OWN_TOWER_X[push.lane], 1 if push.lane == "left" else -1, _name(unit),
                         all(r.get("flying") for r in roles), norm,
                         heavy=any(r.get("hp_class") in ("medium", "tank") for r in roles),
                         swarm_only=all(r.get("hp_class") == "swarm" or u.get("card") in SWARM_SPELL_UNITS
                                        for r, u in zip(roles, push.units)),
-                        answered_by=self._answered_by(push, pos, state, t),
-                        blocked=self._recent_kamikazes(state, t))
+                        answered_by=answered_by,
+                        blocked=self._recent_kamikazes(state, t),
+                        air_blocked=air_lead_blocks_ground(push.units, self._role),
+                        pull_unit=pull_unit, pull_tile=pull_tile,
+                        kite=(not lead_role.get("flying") and lead_role.get("targets") != "buildings"
+                              and not answered_by))
+
+    # -- pulling a building targeter -----------------------------------------------------------------------------------
+    @staticmethod
+    def _both_range_walk(start, end) -> float:
+        """Tiles of the straight walk start -> end that lie inside the range of both towers that fight it: the
+        princess tower of its side and the king tower."""
+        princess = min((OWN_TOWER_TILES[k] for k in ("own_left", "own_right")), key=lambda xy: math.dist(start, xy))
+        length = math.dist(start, end)
+        n = max(1, int(length / PULL_STEP))
+        inside = 0
+        for i in range(n):
+            f = (i + 0.5) / n
+            p = (start[0] + (end[0] - start[0]) * f, start[1] + (end[1] - start[1]) * f)
+            if math.dist(p, princess) <= PRINCESS_RANGE and math.dist(p, OWN_TOWER_TILES["own_king"]) <= KING_RANGE:
+                inside += 1
+        return length * inside / n
+
+    def _pull_tile(self, pos) -> list[float] | None:
+        """Where a building pulls the threat at `pos`: a tile of a 0.5 grid (x 6..12, y 4..11) at least PULL_MIN_DIST
+        from it and at least PULL_CLOSER_TILES closer to it than the nearest tower of ours (so it walks to the building
+        first); of those, inside the centre band PULL_BAND, the one where the threat walks the longest inside the range
+        of the princess tower of its side and the king tower (ties: nearer to the threat, then to the middle of the
+        arena). None when no tile qualifies."""
+        reach = nearest_own_tower_dist(pos) - PULL_CLOSER_TILES
+        best, best_rank = None, None
+        for ix in range(int((PULL_X[1] - PULL_X[0]) * 2) + 1):
+            for iy in range(int((PULL_Y[1] - PULL_Y[0]) * 2) + 1):
+                tile = (PULL_X[0] + ix / 2, PULL_Y[0] + iy / 2)
+                d = math.dist(tile, pos)
+                if d < PULL_MIN_DIST or d > reach:
+                    continue
+                rank = (PULL_BAND[0] <= tile[0] <= PULL_BAND[1], round(self._both_range_walk(pos, tile), 3), -d,
+                        -abs(tile[0] - 9.0), tile[1])
+                if best_rank is None or rank > best_rank:
+                    best, best_rank = tile, rank
+        return None if best is None else [best[0], best[1]]
+
+    def _pull(self, push: Push) -> tuple[dict | None, list[float] | None]:
+        """(the push's building targeter, the tile that pulls it); the tile is None once it has locked on its tower
+        (its distance to the nearest tower of ours is within its attack range + 1 tile) or when no tile qualifies."""
+        unit = targeter_of(push.units, self._role)
+        if unit is None:
+            return None, None
+        pos = _lead_tile(unit, PULL_LEAD_S) or list(_tile(unit))
+        if locked_on(pos, self._role(unit.get("card"))):
+            return unit, None
+        return unit, self._pull_tile(pos)
 
     # -- defence -------------------------------------------------------------------------------------------------------
     def _defends(self, card: str, role: dict) -> bool:
@@ -442,7 +523,10 @@ class TacticalEngine:
         with the air_defense role counts as medium against a push with flyers (that is what the role is for)."""
         if role.get("type") == "spell":
             return None
-        if role.get("type") == "building" or self._has(role, "tank_killer"):
+        if role.get("type") == "building":
+            # a building stops a targeter only by pulling it: with no pull (locked on its tower) it only chips
+            return "low" if "building_targeter" in ctx.push.needs and ctx.pull_tile is None else "high"
+        if self._has(role, "tank_killer"):
             return "high"
         if ctx.heavy and self._has(role, "kamikaze"):
             return "low"
@@ -465,13 +549,14 @@ class TacticalEngine:
         is_spell, is_building = role.get("type") == "spell", role.get("type") == "building"
         score = w["base"]
         if "air" in needs and not self._hits_air(card, role):
-            if ctx.all_air:
-                return None
+            if ctx.air_blocked:
+                return None                                  # a flyer leads the push: a ground-only card is wasted
             score -= w["air_cannot_hit_penalty"]
+        pulls = is_building and ctx.pull_tile is not None            # a building only counts as a pull where one works
         if "tank" in needs:
             if self._has(role, "tank_killer") or role.get("dps_class") == "high":
                 score += w["tank_killer_bonus"]
-            if is_building and "building_targeter" in needs:
+            if pulls and "building_targeter" in needs:
                 score += w["tank_building_bonus"]
             if self._has(role, "swarm"):
                 score += w["tank_swarm_bonus"]
@@ -483,7 +568,7 @@ class TacticalEngine:
             elif role.get("type") == "troop" and role.get("range") == "melee":
                 score -= w["swarm_melee_penalty"]
         if "building_targeter" in needs:
-            if is_building:
+            if pulls:
                 score += w["targeter_building_bonus"]
             if self._has(role, "swarm") or self._has(role, "kamikaze"):
                 score += w["targeter_swarm_bonus"]
@@ -519,9 +604,8 @@ class TacticalEngine:
                     return tile, why
                 names = names[:-1]
         if role.get("type") == "building":
-            if "building_targeter" in push.needs:
-                x = 7.5 if push.lane == "left" else 10.5
-                return _clamp_tile(x, min(max(pos[1] - 4, 6), 10)), f"pulls {threat} to the centre"
+            if "building_targeter" in push.needs and ctx.pull_tile is not None:
+                return list(ctx.pull_tile), f"pulls {_name(ctx.pull_unit)} to the centre"
             return _clamp_tile(ctx.tower_x + 2 * ctx.toward_centre, 6.5), f"blocks {threat} at the tower"
         # a specific role (kamikaze, swarm) beats the generic range rules
         if self._has(role, "kamikaze"):
@@ -529,6 +613,10 @@ class TacticalEngine:
         if self._has(role, "swarm"):
             return _clamp_tile(pos[0], pos[1]), f"swarm on {threat}"
         front = any(self._has(role, r) for r in ("tank", "mini_tank", "tank_killer"))
+        if ctx.kite and (self._has(role, "mini_tank") or role.get("range", "melee") == "melee"):
+            # a troop-targeter walks to the nearest troop: stand towards the middle so both towers (and the king) hit it
+            return _clamp_tile(KITE_X - KITE_DX * ctx.toward_centre, max(pos[1] - KITE_BEHIND, 1.0)), \
+                f"kites {threat} to the centre"
         if front or role.get("range", "melee") == "melee":
             y = max(pos[1] - 2.5, 1.0) if pos[1] > 8 else pos[1] - 1
             if self._has(role, "tank_killer"):
@@ -742,10 +830,17 @@ class TacticalEngine:
         return [TacticalMove(c, action_key(c, lane_of(tile), zone_of(tile)), tile, "cycle", _clip(why),
                              self.w["cycle"], None)]
 
-    def _offence_moves(self, state: dict, hand: list[str], t: float | None = None) -> list[TacticalMove]:
+    def _offence_moves(self, state: dict, hand: list[str], t: float | None = None,
+                       pushes: list[Push] | None = None) -> list[TacticalMove]:
+        """The offence moves. With no push within URGENT_ETA_S: every intent. During pressure (such a push exists)
+        only the windows of MAC-AG: a counter-push in a lane whose push is answered or gone, a split into the lane
+        away from an answered push, and a win-condition leak at a full bar while no push is within LEAK_PUSH_MIN_ETA_S."""
         own, opp = state["own"], state.get("opponent") or {}
         elixir = own.get("elixir") or 0.0
         w = self.w
+        pushes = pushes or []
+        pressure = any(p.eta_s <= URGENT_ETA_S for p in pushes)
+        unanswered = {p.lane for p in pushes if not p.answered}         # lanes with a push that is still on
         wcs = [c for c in hand if self._has(self._role(c), "win_condition")]
         moves: list[TacticalMove] = []
 
@@ -754,20 +849,39 @@ class TacticalEngine:
             moves.append(TacticalMove(card, action_key(card, lane_of(tile), zone_of(tile)), tile, intent,
                                       _clip(reason), score, None))
 
-        # counter-push: back an ally unit that is already across the middle of our half
+        # counter-push: back an ally unit (not a building) that is already across the middle of our half; during
+        # pressure only in a lane whose push is answered or gone
         allies: dict[str, dict] = {}
         for u in state.get("units", []):
             tile = _tile(u)
-            if u.get("side") == "ally" and tile is not None and tile[1] >= 9:
+            if (u.get("side") == "ally" and tile is not None and tile[1] >= 9
+                    and not self._is_building(u.get("card") or "")):
                 lane = _side_lane(tile)
                 if lane not in allies or tile[1] > _tile(allies[lane])[1]:
                     allies[lane] = u
         for lane in ("left", "right"):
-            if lane in allies:
+            if lane in allies and not (pressure and lane in unanswered):
                 for c in wcs:
                     if elixir >= self._cost(c) + 1:
                         add(c, lane, "counter_push", w["counter_push"],
                             f"backs {_name(allies[lane])} in the {lane} lane")
+
+        # split: they committed a push worth 5+ elixir that our side already answers; hit the other lane
+        for push in pushes:
+            other = OPPOSITE_LANE[push.lane]
+            if push.answered and push.elixir >= SPLIT_MIN_ELIXIR and other not in unanswered:
+                for c in wcs:
+                    if elixir >= self._cost(c) + 1:
+                        add(c, other, "split", w["split"], f"they committed {fmt_num(push.elixir)} elixir {push.lane}")
+
+        if pressure:
+            # a full bar is wasted even now: the win condition at the bridge, away from the push, unless it is at the tower
+            if elixir >= LEAK_ELIXIR and wcs and min(p.eta_s for p in pushes) > LEAK_PUSH_MIN_ETA_S:
+                lanes = {p.lane for p in pushes}
+                lane = OPPOSITE_LANE[next(iter(lanes))] if len(lanes) == 1 else (self._weak_lane(state) or "left")
+                for c in wcs:
+                    add(c, lane, "leak", w["leak_wc"], f"elixir {fmt_num(elixir)} near full, pushes {lane}")
+            return moves
 
         # punish: the opponent has spent down, hit the lane away from its last play
         opp_elixir = opp.get("elixir_estimate")
@@ -851,12 +965,12 @@ class TacticalEngine:
             push.answered, push.answered_by = bool(ctx.answered_by), list(ctx.answered_by)
             moves += self._defence_moves(ctx, hand, state)
         defence = self._rank(moves, None)
-        if not any(p.eta_s <= URGENT_ETA_S for p in pushes):
-            moves += self._offence_moves(state, hand, t)
-        moves = self._rank(moves)
+        offence = self._offence_moves(state, hand, t, pushes)
+        moves = self._rank(moves + offence)
         best = moves[0] if moves else None
         hold = None if best else self._hold_reason(state, pushes, hand)
-        return TacticalReport(pushes, moves, best, hold, self._lines(pushes, moves, hold), defence)
+        return TacticalReport(pushes, moves, best, hold, self._lines(pushes, moves, hold), defence,
+                              self._rank(offence, None))
 
     def score_key(self, key: str, state: dict, report: TacticalReport | None = None) -> float | None:
         """The engine's preference for the action key: the score of the first proposed move with that key, else the
