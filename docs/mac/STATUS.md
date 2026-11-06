@@ -241,3 +241,18 @@ Fine-tuned from `d1-ft-joint` for 2 epochs on `dataset/v1/d1/joint_tac`: state p
 Training the LLM on the tactics context gains +1.6 / +1.4 points over the no-tactics model, and puts it slightly above the best feature ranker on test. Without training, the notes hurt (−4.4 / −1.3), as expected from the train/serve mismatch. Latency is 62 ms p50 / 93 ms p95 per decision.
 
 **Caveat:** MAC-AD (merged after this dataset build) changes some engine lines: pushes are listed from 10 s, and "answered by" now counts our buildings and recent plays. Rebuild `joint_tac` before the next fine-tune (d1-2B).
+
+## 2026-11-06 (night) — bigger LLMs (D-046)
+**Coach (Qwen3-14B 4-bit, `--planner coach`).**
+- A background worker re-plans during quiet moments only (no defend / save, no push ≤ 10 s); `--coach-period 20` game seconds, or on a new opponent card. A prefix prompt cache saves ~34 % of prefill. 48-token updates, 64-token prefill chunks.
+- 9.1 GB peak; an update takes ~3.8–5.4 s. Plans are 3 short lines, e.g. "Save Fireball for Baby Dragon. / Attack left with Goblin Gang and Dart Goblin."
+- On the video dry run the decision p95 equals the rules-only run (325–344 vs 322–355 ms). Perception p99 is still 0.49–0.54 s vs 0.27 s while a coach job runs (the GPU is shared).
+- d1 was never trained with `[plan]` text. Offline coach plans for all 197 games (`tools/data/build_coach_plans.py`, ~7 h GPU) plus `build_d1_tac --plans` are needed before the plans can be learned.
+
+**d1-2B (LFM3, 1.92B) as the decision LLM.**
+- Zero-shot it is at chance on `joint` (0.250 / 0.235 on 200 val / test lines) and 0.345 / 0.285 on `joint_tac`, vs 0.480 / 0.430 for the fine-tuned 600M on the same lines. Latency is 250 / 305 ms p50 / p95 per decision (bf16, M5), about 4× the 600M.
+- `train_d1.py` has an LFM3 adapter: logits verified equal to `system_one` within 8e-7; top-N layers plus option rows trained; the frozen bf16 backward is cut off. Memory: 8 layers ≈ 22 GiB without / 15 GiB with gradient checkpointing.
+- **Running overnight (`runs/overnight/NEXT3.sh`, detached):**
+  1. `joint_tac` rebuilt with the MAC-AD engine;
+  2. d1-2B fine-tune, top 8 layers, 3 epochs (~3 h);
+  3. eval of the 2B and the 600M-tac on the same rebuilt data.
