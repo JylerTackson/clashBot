@@ -8,6 +8,9 @@ fixed-interval `should_decide`. The loop plays only cards it can see in the hand
 policy for a spell's aim point (`target_tile`) when it has one. With a `TacticalEngine` (default; `--no-tactics` turns
 it off, MAC-Z3) the candidates start with the engine's concrete moves, every candidate carries a note, and the ranker
 sees the engine's lines after the context; `--ranker tactics` plays the engine's own pick without any model.
+While the hero ability button is visible and affordable and her Musketeer is on the field, a candidate
+`ability:musketeer|lane|zone` (MAC-AI) joins the ranker's options; when the ranker picks it, `executor.tap_ability`
+taps the button instead of a card (no hand check) and the 3 elixir enter the state builder's accounting.
 `--record-shots` (MAC-AF, off by default) saves what the bot saw and tapped: an annotated screenshot per decision and
 the frames 0.5 s / 1.5 s after a tap, written by a background thread (`clashbot.recorder_shots`, review with
 tools/eval/review_shots.py); `step` only queues them.
@@ -35,9 +38,9 @@ from pathlib import Path
 
 import numpy as np
 
-from clashbot.actions import load_placement_prior, option_text, placement_tile
+from clashbot.actions import ABILITY_COST, ABILITY_KEY, is_ability_key, load_placement_prior, option_text, placement_tile
 from clashbot.arbiter import ArbiterConfig, RuleArbiter, urgent_from_report
-from clashbot.candidates import CandidateGenerator
+from clashbot.candidates import CandidateGenerator, hero_ability_move
 from clashbot.config import HOLD_KEY
 from clashbot.game_rules import load_cards
 from clashbot.kg import KnowledgeGraph
@@ -57,6 +60,7 @@ COACH_BUSY_MODES = ("defend", "save")
 _TOWER_ETA_RE = re.compile(r"tower in (\d+(?:\.\d+)?)s")      # the tactics engine's push line: "..., tower in 6.2s; ..."
 FALLBACK_MIN_ELIXIR = 9.5     # a "fallback" candidate (no knn/kg support) is only played from a (nearly) full bar
 FALLBACK_OK_MODES = ("counter", "leak", "punish", "learned", "defend")     # modes whose fallback candidates may be played
+ABILITY_RETRY_S = 10.0        # after an ability tap no ability option is offered for this long (the turret lives 10 s)
 TOS_NOTE = ("Live runs only in Training Camp or friendly battles "
             "(Supercell terms of service prohibit bots in normal play).")
 
@@ -78,7 +82,7 @@ class LiveDecision:
     arbiter_subset: list | None = None                     # [{"key", "p"}]: the options d1 chose among, renormalised
     plan_t: float | None = None                            # game time of the coach plan d1 read (None: the pregame plan)
     plan_age_s: float | None = None                        # decision time minus plan_t
-    tile_source: str | None = None                         # where the tile came from: spell | engine | candidate | prior
+    tile_source: str | None = None                         # where the tile came from: spell | engine | candidate | prior | ability
 
 
 def _accepts_notes(fn) -> bool:
@@ -135,9 +139,12 @@ def fallback_allowed(verdict, card: str, roles: dict) -> bool:
 
 
 def top_source(sources: dict) -> str:
-    """Which channel a candidate came from: tac (the tactics engine), knn / kg (the larger), else fallback."""
+    """Which channel a candidate came from: tac (the tactics engine), ability (the hero ability option), knn / kg (the
+    larger), else fallback."""
     if "tac" in sources:
         return "tac"
+    if "ability" in sources:
+        return "ability"
     knn, kg = sources.get("knn") or 0.0, sources.get("kg") or 0.0
     if knn <= 0 and kg <= 0:
         return "fallback"
@@ -377,6 +384,10 @@ class LiveLoop:
         self.hand_unknown_holds = 0                  # decisions held because no candidate card was in the read hand
         self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
         self.last_decision_t: float | None = None
+        self._ability_t = float("-inf")              # game time of the last ability tap
+        self.ability_frames = 0                      # frames whose state showed the hero ability button
+        self.ability_offered = 0                     # decisions that had the ability among the ranker's options
+        self.ability_taps = 0                        # decisions that chose it
         self._handled_opp_t = float("-inf")       # newest opponent play already seen at a decision
         self.skipped_min_gap = 0
         self._rect_changes_seen = 0
@@ -465,6 +476,8 @@ class LiveLoop:
             return None
 
         state, ctx = built
+        if (state["own"].get("hero_ability") or {}).get("visible"):
+            self.ability_frames += 1
         d = clock()
         if self.last_decision_t is not None and t - self.last_decision_t < self.min_gap_s:
             self.skipped_min_gap += 1           # `should_decide` stays true for seconds; never tap twice this close
@@ -486,10 +499,16 @@ class LiveLoop:
         self._coach_tick(state, ctx, t, verdict.mode, report)
         plan_text, plan_t, plan_age_s = self._plan_at(t)
         rank_ctx = ctx if report is None else ctx + "\n" + "\n".join(report.lines)   # the act policy keeps `ctx`
+        extra = dict(self.filters)
+        ability = hero_ability_move(state) if t - self._ability_t >= ABILITY_RETRY_S else None
+        if ability is not None:                      # the button is visible + affordable and her Musketeer is on the field
+            extra["ability_moves"] = [ability]
         if report is None:
-            cands = generated = self.generator.generate(state, t, ctx, n=4, **self.filters)
+            cands = generated = self.generator.generate(state, t, ctx, n=4, **extra)
         else:
-            cands = generated = self.generator.generate(state, t, ctx, n=4, report=report, **self.filters)
+            cands = generated = self.generator.generate(state, t, ctx, n=4, report=report, **extra)
+        ability_cands = [x for x in generated if is_ability_key(x.key)]
+        cands = [x for x in generated if not is_ability_key(x.key)]      # the policy and the hand check judge cards only
         if self.policy is not None:
             cands = self.policy.filter_candidates(cands, verdict, state)
         policy_hold = self.policy is not None and not cands      # wants to act, but no candidate fits (blind spells...)
@@ -498,6 +517,12 @@ class LiveLoop:
             in_hand = {c for c in state["own"]["hand"] if c}
             cands = [x for x in cands if x.key.split("|")[0] in in_hand]
             hand_hold = not cands                                # every candidate is a card we cannot see in the hand
+        if cands and ability_cands:
+            # the ability is one more option for the ranker (it has no card to be in the hand), never the only one:
+            # D-045, the model decides, so a moment with nothing else to play does not turn into an ability tap
+            order = {x.key: j for j, x in enumerate(generated)}
+            cands = sorted(cands + ability_cands, key=lambda x: order.get(x.key, len(order)))
+            self.ability_offered += 1
         f = clock()
         candidates_ms = (f - e) * 1000.0
         chosen = None
@@ -539,6 +564,20 @@ class LiveLoop:
                      "sent": False}
             cands = generated
             self.hand_unknown_holds += 1
+        elif is_ability_key(key):
+            # the hero ability: one tap on its button (no card slot, no hand check); the 3 elixir enter the accounting
+            tile = None if getattr(chosen, "tile", None) is None else list(chosen.tile)    # where the turret lands
+            tile_source = "ability"
+            self.ability_taps += 1
+            side = (state["own"].get("hero_ability") or {}).get("side") or "right"
+            tap = getattr(self.executor, "tap_ability", None)
+            entry = tap(side, t) if callable(tap) else {"t": t, "key": ABILITY_KEY, "tile": None, "status": "no_ability_tap",
+                                                         "clicks": [], "sent": False}
+            note_play = getattr(self.builder, "note_own_play", None)
+            if entry.get("sent") and callable(note_play):
+                note_play(ABILITY_KEY, None, t, cost=ABILITY_COST)
+            if entry.get("sent") or entry.get("status") == "planned_ability":
+                self._ability_t = t
         elif (cands and "fallback" in cands[i].sources and (elixir is None or elixir < FALLBACK_MIN_ELIXIR)
               and not fallback_allowed(verdict, key.split("|")[0], _roles_of(self.tactics))):
             # a filler candidate (no knn/kg support) is only worth playing from a full bar; otherwise wait
@@ -667,6 +706,8 @@ class LiveLoop:
             "skipped_min_gap": self.skipped_min_gap,
             "source_stats": stats() if callable(stats) else None,
             "perception_timing": timing_report() if callable(timing_report) else None,
+            **({"hero_ability": {"button_frames": self.ability_frames, "offered": self.ability_offered,
+                                 "taps": self.ability_taps}} if self.ability_frames else {}),
             **({"coach": self.coach.summary()} if self.coach is not None else {}),
             **({"shots": {**self.shots.summary(), "hook_ms": _pcts(self._shots_ms)}} if self.shots is not None else {}),
         }

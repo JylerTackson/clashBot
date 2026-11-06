@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from clashbot.actions import ABILITY_COST, ABILITY_TURRET_TILES, ability_key
 from clashbot.config import HOLD_KEY
 from clashbot.game_rules import (action_key, lane_of, legal_action_keys, legal_cards, load_cards,
                                  parse_action_key, zone_of)
@@ -18,6 +19,7 @@ from clashbot.retrieval import StateIndex
 
 PROS_ALSO = "; pros played this too"
 FILLER_NOTE = "filler: no pro or counter support"
+ABILITY_NOTE = "hero ability: turret in front of the Musketeer"
 TAC_CARD_NOTE = "tactics suggests this card"      # prefix of the card-level tactics note
 
 
@@ -28,6 +30,38 @@ class Candidate:
     sources: dict          # e.g. {"knn": 0.031, "kg": 0.5}; {"tac": 0.9} for a tactical move
     tile: list[float] | None = None     # concrete deploy tile (tactical candidates only)
     note: str | None = None             # one line for the d1 option description
+
+
+@dataclass
+class AbilityMove:
+    """A hero-ability option the caller offers to the ranker (MAC-AI). `key` is "ability:musketeer|lane|zone" (where
+    the turret lands), `tile` that spawn tile; `score` only orders the options. Part 2 (the engine) will produce these."""
+    key: str
+    tile: list[float] | None = None
+    note: str = ABILITY_NOTE
+    score: float = 0.0
+
+
+def hero_ability_move(state: dict, cost: float = ABILITY_COST) -> AbilityMove | None:
+    """The Trusty Turret option for a clean live `state`, or None: the button is visible and affordable (and the own
+    elixir, when known, covers `cost`), and an ally Musketeer is on the field. The turret lands ABILITY_TURRET_TILES
+    rows toward the enemy from the (first) ally Musketeer, clamped to the arena; its lane and zone make the key."""
+    own = state.get("own") or {}
+    ab = own.get("hero_ability")
+    if not isinstance(ab, dict) or not ab.get("visible") or not ab.get("affordable"):
+        return None
+    elixir = own.get("elixir")
+    if isinstance(elixir, (int, float)) and elixir < cost:
+        return None
+    for u in state.get("units") or []:
+        tile = u.get("tile")
+        if u.get("side") == "ally" and u.get("card") == "musketeer" and isinstance(tile, (list, tuple)) and len(tile) >= 2:
+            col = min(max(float(tile[0]), 0.0), 17.0)
+            row = min(max(float(tile[1]) + ABILITY_TURRET_TILES, 0.0), 31.0)
+            spot = [col, row]
+            lane, zone = lane_of(spot), zone_of(spot)
+            return AbilityMove(ability_key(lane, zone), spot)
+    return None
 
 
 def _normalise(channel: dict[str, float]) -> dict[str, float]:
@@ -139,10 +173,12 @@ class CandidateGenerator:
         return _normalise(knn), _normalise(kg), kg_threat
 
     def generate(self, state: dict, t: float, context_text: str, n: int = 4, report=None, tac_n: int = 2,
-                 **filters) -> list[Candidate]:
+                 ability_moves=None, **filters) -> list[Candidate]:
         """`n` candidates. With a tactics `report` the first (up to `tac_n`) are its legal moves, each with its tile
         and a note; the rest come from the lookup ranking (skipping the tactical keys, whose knn / kg support is
-        merged into the tactical candidate) and then from the legal keys. Without a report: lookup only, no notes."""
+        merged into the tactical candidate) and then from the legal keys. Without a report: lookup only, no notes.
+        `ability_moves` (AbilityMove-like: key, tile, note, score; MAC-AI) are appended after the `n`, source "ability"
+        (the caller has already judged them playable); None changes nothing."""
         cards = self.cards
         legal = legal_action_keys(state, cards)
         legal_set = set(legal)
@@ -186,6 +222,13 @@ class CandidateGenerator:
                         if report is not None else None)
                 out.append(Candidate(k, 0.0, {"fallback": 1}, note=note))
                 taken.add(k)
+        for move in ability_moves or []:
+            if move.key in taken:
+                continue
+            tile = getattr(move, "tile", None)
+            out.append(Candidate(move.key, float(getattr(move, "score", 0.0) or 0.0), {"ability": 1.0},
+                                 None if tile is None else list(tile), getattr(move, "note", None) or ABILITY_NOTE))
+            taken.add(move.key)
         return out
 
     def option_notes(self, state: dict, t: float, context_text: str, keys: list[str], report=None,

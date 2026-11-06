@@ -32,6 +32,16 @@ def render_threats(units: list[dict]) -> list[str]:
     return out
 
 
+def hero_token(own: dict) -> str:
+    """The hand-line token for the hero ability button (MAC-AI), "" when the button is not visible (recorded states
+    never have it, so dataset text is unchanged). "ready" = affordable; a greyed button says so."""
+    ab = own.get("hero_ability")
+    if not isinstance(ab, dict) or not ab.get("visible"):
+        return ""
+    cost = fmt_num(ab.get("cost", 3))
+    return f"; hero: musketeer turret {'ready' if ab.get('affordable', True) else 'not ready'} ({cost})"
+
+
 def render_context(state: dict, t: float | None = None) -> str:
     own, opp = state["own"], state["opponent"]
     hand = ", ".join(x or "?" for x in own["hand"])
@@ -39,7 +49,7 @@ def render_context(state: dict, t: float | None = None) -> str:
     opp_deck = ", ".join(opp["deck_known"]) if opp.get("deck_known") else "unknown"
     line1 = (f"[{state['phase'] or 'unknown'}|{state['clock'] or '?'}] "
              f"elixir {fmt_num(own['elixir'])} (opp ~{fmt_num(opp['elixir_estimate'])}). "
-             f"hand: {hand} (next {own.get('next_card') or '?'}). "
+             f"hand: {hand} (next {own.get('next_card') or '?'}){hero_token(own)}. "
              f"deck: {', '.join(own['deck']) if own['deck'] else 'unknown'}{status}. "
              f"opp deck: {opp_deck}")
     field = []
