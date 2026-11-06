@@ -1032,9 +1032,11 @@ class NoteBuilder(FakeBuilder):
     def __init__(self, *a, **k):
         super().__init__(*a, **k)
         self.notes = []
+        self.tiles = []
 
-    def note_own_play(self, card, slot, t):
+    def note_own_play(self, card, slot, t, tile=None):
         self.notes.append((card, slot, t))
+        self.tiles.append(tile)
 
 
 class SlotExecutor(FakeExecutor):
@@ -1058,6 +1060,7 @@ def test_sent_play_feeds_the_hand_memory_dry_run_does_not():
     d = _loop(builder=b, executor=ex).step("f", 1.0, 0, 2.0)
     assert d.key == "giant|left|back" and d.executor["sent"] is True
     assert b.notes == [("giant", 3, 1.0)]                                    # card, hand slot, frame time
+    assert b.tiles == [d.tile]                                               # MAC-AD: the tile of the tap goes along
     b2 = NoteBuilder(warmup=0)
     _loop(builder=b2, executor=SlotExecutor(sent=False)).step("f", 1.0, 0, 2.0)
     assert b2.notes == []                                                     # a dry run never reaches the hand memory

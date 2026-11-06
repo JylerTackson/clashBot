@@ -293,7 +293,7 @@ class LiveLoop:
             entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
             note_play = getattr(self.builder, "note_own_play", None)
             if entry.get("sent") and entry.get("slot") is not None and callable(note_play):
-                note_play(key.split("|")[0], entry["slot"], t)    # the hand memory follows confirmed taps only
+                note_play(key.split("|")[0], entry["slot"], t, tile=tile)    # the hand memory follows confirmed taps only
         h = clock()
         execute_ms = (h - g) * 1000.0
 

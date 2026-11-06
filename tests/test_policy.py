@@ -1,5 +1,7 @@
-"""ReactivePolicy (MAC-W, MAC-AC C1): decide() modes, defend discipline, candidate filtering, no blind spells - hand-made
-states, fake engines and the real (model-free) tactical engine, no models."""
+"""ReactivePolicy (MAC-W, MAC-AC C1, MAC-AD): decide() modes, defend discipline, deploy windows and adequate answers,
+answered pushes, candidate filtering, no blind spells - hand-made states, fake engines and the real (model-free)
+tactical engine, no models."""
+import json
 import sys
 from pathlib import Path
 
@@ -10,14 +12,23 @@ sys.path.insert(0, str(ROOT))
 
 from clashbot.candidates import Candidate  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
+from clashbot.live_state import LiveConfig, LiveStateBuilder  # noqa: E402
 from clashbot.policy import ActDecision, LearnedActPolicy, ReactivePolicy, seconds_per_elixir  # noqa: E402
-from clashbot.tactics import DEFAULT_WEIGHTS, Push, TacticalEngine, TacticalMove, TacticalReport  # noqa: E402
+from clashbot.tactics import (DEFAULT_WEIGHTS, WEIGHTS_PATH, Push, TacticalEngine, TacticalMove,  # noqa: E402
+                              TacticalReport)
 
 CARDS = load_cards()
 # The real tactical engine, pinned to its hand-set default weights: the tests below read its scores (which card is
 # adequate, when to save), so a retuned clashbot/resources/tactics_weights.json must not move them.
 ENGINE = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)
 POLICY = ReactivePolicy(CARDS, engine=ENGINE)
+
+
+@pytest.fixture(autouse=True)
+def _forget_commitments():
+    """The shared policy remembers the card it chose against a push for 4 s (MAC-AD); every test starts clean."""
+    POLICY._acted.clear()
+    LEGACY._acted.clear()
 
 
 class _BrokenEngine:
@@ -28,16 +39,22 @@ class _BrokenEngine:
 LEGACY = ReactivePolicy(CARDS, engine=_BrokenEngine())     # engine failure -> today's defend rule (lane / zone tests)
 
 
-def _move(card, score, intent="defend"):
-    return TacticalMove(card, f"{card}|left|mid", [4.5, 8.5], intent, "x", score, 1.0)
+STOP = {"bomb-tower": "high", "p-e-k-k-a": "high", "magic-archer": "medium", "knight": "medium", "zap": "spell",
+        "ice-spirit": "low", "fire-spirit": "low"}          # the stopping class the real engine gives these cards
+
+
+def _move(card, score, intent="defend", stop=None, value=None):
+    return TacticalMove(card, f"{card}|left|mid", [4.5, 8.5], intent, "x", score, 1.0,
+                        stop=stop or STOP.get(card, "medium"), value=value)
 
 
 class FakeEngine:
-    """One push holding the enemy units of the state (eta_s as given), the defend moves in `moves` the own elixir pays
-    (cost <= elixir + 0.5, like legal_cards); every call is recorded as (own elixir, enemy unit count)."""
+    """One push holding the enemy units of the state (eta_s as given; a heavy one needs a high / medium stopping card),
+    the defend moves in `moves` the own elixir pays (cost <= elixir + 0.5, like legal_cards); every call is recorded
+    as (own elixir, enemy unit count)."""
 
-    def __init__(self, moves, eta_s, lane="left"):
-        self.moves, self.eta_s, self.lane = moves, eta_s, lane
+    def __init__(self, moves, eta_s, lane="left", heavy=True, needs=("tank", "building_targeter")):
+        self.moves, self.eta_s, self.lane, self.heavy, self.needs = moves, eta_s, lane, heavy, list(needs)
         self.calls = []
 
     def analyse(self, state, t=None):
@@ -45,7 +62,8 @@ class FakeEngine:
         elixir = state["own"]["elixir"]
         self.calls.append((elixir, len(enemies)))
         moves = [m for m in self.moves if CARDS[m.card]["elixir_cost"] <= elixir + 0.5]
-        pushes = [Push(self.lane, enemies, 5.0, self.eta_s, [], "fake")] if enemies else []
+        pushes = [Push(self.lane, enemies, 5.0, self.eta_s, list(self.needs), "fake", heavy=self.heavy)] \
+            if enemies else []
         return TacticalReport(pushes, moves, moves[0] if moves else None, None, [])
 
 
@@ -95,7 +113,7 @@ def test_close_eta_defends_the_threat_lane():
 
 
 def test_far_eta_on_the_enemy_half_holds():
-    d = POLICY.decide(_state(units=[_enemy((5, 25), eta=6.0)]), 10.0)
+    d = POLICY.decide(_state(units=[_enemy((5, 25), eta=12.0)]), 10.0)         # beyond the 10 s watch horizon
     assert not d.act and d.mode == "hold" and d.lane is None and d.reason.startswith("save elixir")
 
 
@@ -131,7 +149,8 @@ def test_unit_on_our_half_with_long_eta_is_watched_not_answered():
     state = _state(units=[_enemy((5, 14), eta=9.0)])
     assert POLICY._threats(state) == []
     assert [(eta, lane) for eta, _, lane in POLICY._watch(state)] == [(9.0, "left")]
-    assert POLICY.decide(state, 10.0).mode == "hold"
+    d = POLICY.decide(state, 10.0)               # a push 9 s out: nothing is played yet, no card's window is open
+    assert not d.act and d.mode == "save" and d.reason.startswith("waiting for the") and "knight left" in d.reason
 
 
 def test_threat_without_tile_uses_the_tower_lane():
@@ -433,10 +452,11 @@ def test_act_policy_eval_scores_and_report(tmp_path):
 
 
 def test_thresholds_are_configurable():
-    strict = ReactivePolicy(CARDS, defend_eta_s=1.0, leak_elixir=8.0)
+    strict = ReactivePolicy(CARDS, engine=_BrokenEngine(), defend_eta_s=1.0, leak_elixir=8.0)
     state = _state(elixir=8.0, units=[_enemy((5, 25), eta=3.0)])
-    assert strict.decide(state, 10.0).mode == "leak"
-    assert POLICY.decide(state, 10.0).mode == "defend"
+    assert strict.decide(state, 10.0).mode == "leak"        # no engine: the unit 3 s out is only watched
+    assert LEGACY.decide(state, 10.0).mode == "defend"
+    assert POLICY.decide(state, 10.0).mode == "defend"      # the engine's push is 3 s out: a card's window is open
 
 
 # 9 (MAC-AC C1: defend discipline) ---------------------------------------------------------------------------------
@@ -511,12 +531,13 @@ def test_far_push_with_a_better_card_affordable_in_time_saves():
     assert d.reason.startswith("save for bomb-tower") and "2.8s" in d.reason and "eta 9.5s" in d.reason
     assert d.threat is state["units"][0]
     assert sorted(engine.calls) == [(2.0, 1), (10.0, 1)]             # now and "as if affordable" (own elixir 10)
-    # single elixir: 2 x 2.8 = 5.6 s, still in time at eta 9.5, but no longer at eta 6.5 (5.6 + 1.0 > 6.5)
+    # single elixir: 2 x 2.8 = 5.6 s, still in time at eta 9.5, but no longer at eta 6.5 (5.6 + 1.0 > 6.5): the spirit
+    # only slows the giant, so the policy still does not tap it (MAC-AD) and waits
     single = {**state, "phase": "single_elixir"}
     d = policy.decide(single, 10.0)
     assert d.mode == "save" and "5.6s" in d.reason
     d = _save_policy(6.5)[1].decide(single, 10.0)
-    assert d.act and d.mode == "defend" and d.allowed_cards == frozenset({"ice-spirit"})
+    assert not d.act and d.mode == "save" and d.reason.startswith("no adequate answer in hand for giant")
 
 
 def test_emergency_plays_the_best_affordable_card_in_any_case():
@@ -524,21 +545,24 @@ def test_emergency_plays_the_best_affordable_card_in_any_case():
     d = _save_policy(1.2)[1].decide(state, 10.0)
     assert d.act and d.mode == "defend" and d.lane == "right" and d.allowed_cards == frozenset({"ice-spirit"})
     assert "emergency" in d.reason
-    # not an emergency, but too late to wait for the bomb tower (2.8 + 1.0 > 3.0): the best card at hand all the same
+    # not an emergency, and too late to wait for the bomb tower (2.8 + 1.0 > 3.0): a card that only slows the giant
+    # is not played (MAC-AD); it goes when the push is within the emergency horizon
     d = _save_policy(3.0)[1].decide(state, 10.0)
-    assert d.act and d.allowed_cards == frozenset({"ice-spirit"}) and "emergency" not in d.reason
-    assert "emergency" in _save_policy(3.0, emergency_eta_s=3.0)[1].decide(state, 10.0).reason
+    assert not d.act and d.mode == "save" and d.reason.startswith("no adequate answer in hand")
+    d = _save_policy(3.0, emergency_eta_s=3.0)[1].decide(state, 10.0)
+    assert d.act and d.allowed_cards == frozenset({"ice-spirit"}) and "emergency" in d.reason
 
 
 def test_adequate_answer_in_hand_defends_and_narrows_the_cards():
-    _, policy = _save_policy(9.5, extra=[_move("fire-spirit", 0.8)])
+    _, policy = _save_policy(5.5, extra=[_move("musketeer", 0.8), _move("fire-spirit", 0.85)])
     state = _state(elixir=5.0, units=[_giant()], hand=HAND)
     d = policy.decide(state, 10.0)
     assert d.act and d.mode == "defend" and d.lane == "right"
-    assert d.allowed_cards == frozenset({"bomb-tower", "fire-spirit"})        # within 0.15 of the best (0.9 vs 0.8)
-    assert "adequate answer" in d.reason
-    cands = _cands("ice-spirit|left|mid", "bomb-tower|right|mid", "fire-spirit|right|mid", "knight|right|mid")
-    assert _keys(policy.filter_candidates(cands, d, state)) == ["bomb-tower|right|mid", "fire-spirit|right|mid"]
+    # within 0.15 of the best (0.9 vs 0.8) and with its window open (ranged: 6 s); the fire spirit only slows the giant
+    assert d.allowed_cards == frozenset({"bomb-tower", "musketeer"})
+    assert d.reason == "defend giant right: bomb-tower (high)"
+    cands = _cands("ice-spirit|left|mid", "bomb-tower|right|mid", "musketeer|right|mid", "fire-spirit|right|mid")
+    assert _keys(policy.filter_candidates(cands, d, state)) == ["bomb-tower|right|mid", "musketeer|right|mid"]
 
 
 def test_filter_applies_allowed_cards_before_lane_zone_and_to_tactical_candidates():
@@ -560,19 +584,19 @@ def test_filter_applies_allowed_cards_before_lane_zone_and_to_tactical_candidate
 
 def test_no_answer_in_hand_holds():
     d = ReactivePolicy(CARDS, engine=FakeEngine([], 2.0)).decide(_state(elixir=5.0, units=[_giant()], hand=HAND), 10.0)
-    assert not d.act and d.mode == "save" and d.reason.startswith("no answer in hand for giant")
+    assert not d.act and d.mode == "save" and d.reason.startswith("no adequate answer in hand for giant")
     # only an unaffordable answer, and no time to wait for it
     late = FakeEngine([_move("bomb-tower", 0.9)], 2.0)
     d = ReactivePolicy(CARDS, engine=late).decide(_state(elixir=2.0, units=[_giant()], hand=HAND), 10.0)
-    assert not d.act and d.mode == "save" and d.reason.startswith("no answer in hand")
+    assert not d.act and d.mode == "save" and d.reason.startswith("no adequate answer in hand")
 
 
 def test_bats_with_an_affordable_zap_defend():
     bats = [_enemy((5, 10), eta=2.0, card="bats"), _enemy((6, 10), card="bats"), _enemy((4, 10), card="bats")]
     d = POLICY.decide(_state(elixir=5.0, units=bats), 10.0)             # the real engine: zap is the adequate answer
     assert d.act and d.mode == "defend" and d.lane == "left" and "zap" in d.allowed_cards
-    fake = ReactivePolicy(CARDS, engine=FakeEngine([_move("zap", 1.1), _move("archers", 0.5)], 2.0))
-    d = fake.decide(_state(elixir=5.0, units=bats), 10.0)
+    swarm = FakeEngine([_move("zap", 1.1), _move("archers", 0.5)], 2.0, heavy=False, needs=("air", "swarm"))
+    d = ReactivePolicy(CARDS, engine=swarm).decide(_state(elixir=5.0, units=bats), 10.0)
     assert d.act and d.mode == "defend" and d.allowed_cards == frozenset({"zap"})
 
 
@@ -617,27 +641,28 @@ def test_default_engine_is_built_lazily_and_a_failing_build_falls_back(monkeypat
 def test_defend_answers_only_the_push_of_the_threat():
     # knight in the left lane (the threat), a giant in the right lane: the giant's answer is not the knight's
     knight, giant = _enemy((4, 9), eta=2.0), _giant(eta=3.0, tile=(14, 9))
-    state = _state(elixir=3.0, units=[knight, giant], hand=HAND)
+    state = _state(elixir=5.0, units=[knight, giant], hand=HAND)
     d = POLICY.decide(state, 10.0)
     assert d.threat is knight and d.act and d.mode == "defend"        # not "save for bomb-tower" (the giant's answer)
 
     class TwoLanes(FakeEngine):
-        """Left push: the knight (ice-spirit); right push: the giant (bomb-tower). Alone, only that lane's moves."""
+        """Left push: the knight (magic-archer); right push: the giant (bomb-tower). Alone, only that lane's moves."""
 
         def analyse(self, state, t=None):
             enemies = [u for u in state["units"] if u["side"] == "enemy"]
             self.calls.append((state["own"]["elixir"], len(enemies)))
-            pushes = [p for p in (Push("left", [knight], 3.0, 2.0, [], "k"), Push("right", [giant], 5.0, 3.0, [], "g"))
+            pushes = [p for p in (Push("left", [knight], 3.0, 2.0, [], "k"),
+                                  Push("right", [giant], 5.0, 3.0, ["tank"], "g", heavy=True))
                       if p.units[0] in enemies]
-            moves = ([_move("ice-spirit", 0.6)] if knight in enemies else []) \
+            moves = ([_move("magic-archer", 0.6)] if knight in enemies else []) \
                 + ([_move("bomb-tower", 1.6)] if giant in enemies else [])
             moves = [m for m in moves if CARDS[m.card]["elixir_cost"] <= state["own"]["elixir"] + 0.5]
             return TacticalReport(pushes, moves, moves[0] if moves else None, None, [])
 
     engine = TwoLanes([], 0.0)
     d = ReactivePolicy(CARDS, engine=engine).decide(state, 10.0)
-    assert d.act and d.mode == "defend" and d.allowed_cards == frozenset({"ice-spirit"})
-    assert engine.calls[0] == (3.0, 2) and (3.0, 1) in engine.calls and (10.0, 1) in engine.calls
+    assert d.act and d.mode == "defend" and d.allowed_cards == frozenset({"magic-archer"})
+    assert engine.calls[0] == (5.0, 2) and (5.0, 1) in engine.calls and (10.0, 1) in engine.calls
 
 
 def _punish_state(elixir, watch_unit, opp_elixir=2.5):
@@ -656,7 +681,7 @@ def test_punish_never_spends_the_elixir_of_the_next_defence():
     d = dear.decide(_punish_state(7.0, watched), 10.0)
     assert d.act and d.mode == "punish" and d.lane == "left"          # enough for the answer: punish as before
     # a cheap adequate answer: the reserve is small, the punish goes ahead
-    cheap = ReactivePolicy(CARDS, engine=FakeEngine([_move("ice-spirit", 0.9), _move("p-e-k-k-a", 0.5)], 8.0))
+    cheap = ReactivePolicy(CARDS, engine=FakeEngine([_move("magic-archer", 0.9), _move("p-e-k-k-a", 0.5)], 8.0))
     assert cheap.decide(_punish_state(6.0, watched), 10.0).mode == "punish"
     # no watched unit: the punish rule is untouched and the engine is never asked
     engine = FakeEngine([_move("p-e-k-k-a", 0.9)], 8.0)
@@ -670,9 +695,8 @@ def test_real_engine_giant_far_off_with_two_elixir_is_not_answered_with_the_chea
     # MAC-AC test 7. The giant (row 13, heading right, 9 s from our right tower) is only watched, not a threat yet
     giant = _giant(eta=9.0, tile=(14, 13), heading="toward own_right")
     state = _state(elixir=2.0, units=[giant], hand=HAND)
-    d = POLICY.decide(state, 10.0)
-    assert not d.act and d.mode == "hold"
-    # with the defend horizon opened to 10 s it is a threat, and the policy saves for the bomb tower
+    d = POLICY.decide(state, 10.0)          # MAC-AD: the push is listed from 10 s out, and the policy saves for the bomb tower
+    assert not d.act and d.mode == "save" and d.reason.startswith("save for bomb-tower vs giant")
     d = ReactivePolicy(CARDS, engine=ENGINE, defend_eta_s=10.0).decide(state, 10.0)
     assert not d.act and d.mode == "save" and d.reason.startswith("save for bomb-tower vs giant")
     # 3.5 s out with 3 elixir: the bomb tower is 1 elixir (1.4 s) away and still in time
@@ -686,7 +710,7 @@ def test_real_engine_giant_far_off_with_two_elixir_is_not_answered_with_the_chea
     cands = _cands("ice-spirit|right|mid", "bomb-tower|middle|mid", "magic-archer|right|back")
     assert _keys(POLICY.filter_candidates(cands, d, near4)) == ["bomb-tower|middle|mid"]
     # the push is on the tower: whatever is affordable goes
-    d = POLICY.decide(_state(elixir=2.0, units=[_giant(eta=1.2, tile=(14, 10))], hand=HAND), 10.0)
+    d = POLICY.decide(_state(elixir=2.0, units=[_giant(eta=1.2, tile=(14, 10))], hand=HAND), 20.0)
     assert d.act and d.mode == "defend" and "emergency" in d.reason and len(d.allowed_cards) == 1
 
 
@@ -708,6 +732,247 @@ def test_constructor_knobs_move_the_save_boundary():
     engine, _ = _save_policy(4.0)
     state = _state(elixir=2.0, units=[_giant()], hand=HAND)
     assert ReactivePolicy(CARDS, engine=engine, save_margin_s=1.0).decide(state, 10.0).mode == "save"      # 2.8+1.0 <= 4
-    assert ReactivePolicy(CARDS, engine=engine, save_margin_s=1.5).decide(state, 10.0).mode == "defend"    # 2.8+1.5 > 4
-    wide = ReactivePolicy(CARDS, engine=engine, adequate_margin=0.5)        # ice-spirit 0.5 is 0.4 behind: adequate
-    assert wide.decide(state, 10.0).mode == "defend"
+    d = ReactivePolicy(CARDS, engine=engine, save_margin_s=1.5).decide(state, 10.0)     # 2.8+1.5 > 4: no time to wait
+    assert not d.act and d.reason.startswith("no adequate answer in hand")
+    # the adequate margin sets how many cards are allowed: the musketeer is 0.3 behind the bomb tower
+    both = FakeEngine([_move("bomb-tower", 0.9), _move("musketeer", 0.6)], 5.5)
+    five = _state(elixir=5.0, units=[_giant()], hand=HAND)
+    assert ReactivePolicy(CARDS, engine=both).decide(five, 10.0).allowed_cards == frozenset({"bomb-tower"})
+    wide = ReactivePolicy(CARDS, engine=both, adequate_margin=0.5)
+    assert wide.decide(five, 10.0).allowed_cards == frozenset({"bomb-tower", "musketeer"})
+
+
+# 10 (MAC-AD: real defence - deploy windows, adequate = stops the push, our own answers) ----------------------------------
+def _tuned_weights():
+    try:
+        return json.loads(WEIGHTS_PATH.read_text(encoding="utf-8"))["weights"]
+    except (OSError, ValueError, KeyError):
+        return None
+
+
+TUNED = _tuned_weights()
+# the scenarios hold with the hand-set defaults and with the committed tuned file, loaded explicitly
+WEIGHT_SETS = [pytest.param(DEFAULT_WEIGHTS, id="default"),
+               pytest.param(TUNED, id="tuned", marks=pytest.mark.skipif(TUNED is None, reason="no tuned weights file"))]
+AD_HAND = ["bomb-tower", "ice-spirit", "magic-archer", "berserker"]
+
+
+def _ad(weights, **kw):
+    """A fresh policy (it remembers what it chose against a push) on the real engine with these weights."""
+    return ReactivePolicy(CARDS, engine=TacticalEngine(CARDS, weights=weights), **kw)
+
+
+def _bridge_giant(eta=9.0, tile=(14, 15)):
+    return _giant(eta=eta, tile=tile, heading="toward own_right")
+
+
+@pytest.mark.parametrize("weights", WEIGHT_SETS)
+def test_ad_giant_on_the_bridge_is_answered_by_the_bomb_tower_not_a_spirit(weights):
+    policy = _ad(weights)
+    state = _state(elixir=5.0, units=[_bridge_giant()], hand=AD_HAND)           # row 15, 9 s from the right tower
+    d = policy.decide(state, 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "right" and d.threat is state["units"][0]
+    assert "bomb-tower" in d.allowed_cards and "ice-spirit" not in d.allowed_cards
+    assert d.reason == "defend giant right: bomb-tower (high)"
+    best = next(m for m in policy.engine.analyse(state, 100.0).defence if m.card == "bomb-tower")
+    assert best.tile == [10.5, 10.0] and best.stop == "high" and best.reason.startswith("pulls giant to the centre")
+    cands = [Candidate("bomb-tower|middle|mid", 1.0, {"tac": 1.0}),
+             Candidate("ice-spirit|right|bridge", 0.9, {"tac": 1.0})]
+    assert _keys(policy.filter_candidates(cands, d, state)) == ["bomb-tower|middle|mid"]
+
+
+DECK8 = ["bomb-tower", "ice-spirit", "magic-archer", "berserker", "fire-spirit", "goblin-barrel", "royal-delivery",
+         "wall-breakers"]
+
+
+def _gs(t, elixir, units):
+    """A perception GameState as a plain dict (what LiveStateBuilder.build takes)."""
+    return {"t": t, "frame_index": int(t * 10), "readiness": "match", "match_id": 1, "match_clock": "1:20",
+            "match_seconds": 100.0, "phase": "double_elixir",
+            "own": {"elixir": elixir, "hand": list(AD_HAND), "hand_conf": [0.9] * 4, "next_card": "fire-spirit",
+                    "towers": {"king": 4000, "left": 3000, "right": 2500}},
+            "opponent": {"elixir_est": 4.0, "towers": {"king": 4800, "left": 4000, "right": 3500}, "deck_known": []},
+            "units": units}
+
+
+def _giant_obs(row, eta):
+    motion = {"heading": "toward own_right", "speed": 1.0, "pred_2s": [14, row - 2],
+              "eta_tower": {"tower": "own_right", "s": eta}, "tile": [14, row]}
+    return {"class": "giant", "side": "enemy", "tile": [14, row], "conf": 0.9, "bbox": [0, 0, 1, 1], "track_id": 7,
+            "category": "unit", "motion": motion}
+
+
+@pytest.mark.parametrize("weights", WEIGHT_SETS)
+def test_ad_a_second_after_our_bomb_tower_tap_the_push_is_answered(weights):
+    policy = _ad(weights)
+    builder = LiveStateBuilder(LiveConfig(own_deck=DECK8, hand_tracker=True))
+    state, _ = builder.build(_gs(100.0, 6.0, [_giant_obs(15, 9.0)]))
+    d = policy.decide(state, 100.0)
+    assert d.act and "bomb-tower" in d.allowed_cards
+    pull = next(m for m in policy.engine.analyse(state, 100.0).defence if m.card == "bomb-tower").tile
+    # the executor taps the bomb tower (slot 0) on the pull tile; the HUD and the perception have not seen it yet
+    builder.note_own_play("bomb-tower", 0, 100.2, tile=pull)
+    state, _ = builder.build(_gs(101.2, 6.0, [_giant_obs(14, 8.0)]))
+    assert [(p["card"], p["tile"], p["detect_source"]) for p in state["own"]["recent_plays"]] \
+        == [("bomb-tower", pull, "executor")]
+    assert state["own"]["elixir"] < 3.0                                        # min(read, expected): the HUD still lags
+    d = _ad(weights).decide(state, 101.2)                                      # a policy that remembers nothing
+    assert not d.act and d.mode == "save" and d.reason == "push right answered by bomb-tower"
+    # without the tap the push is not answered
+    other = LiveStateBuilder(LiveConfig(own_deck=DECK8, hand_tracker=True))
+    state2, _ = other.build(_gs(101.2, 6.0, [_giant_obs(14, 8.0)]))
+    assert _ad(weights).decide(state2, 101.2).act
+
+    class Scorer:
+        calls = 0
+
+        def probabilities(self, state, questions):
+            Scorer.calls += 1
+            return {"act": [0.0, 1.0]}
+
+    # and the learned head cannot override the hold
+    learned = LearnedActPolicy(Scorer(), CARDS, rules=_ad(weights))
+    assert learned.decide(state, 101.2, "CTX").mode == "save" and Scorer.calls == 0
+
+
+@pytest.mark.parametrize("weights", WEIGHT_SETS)
+def test_ad_giant_far_off_with_two_elixir_saves_for_the_bomb_tower_and_taps_no_spirit(weights):
+    policy = _ad(weights)
+    state = _state(elixir=2.0, units=[_bridge_giant()], hand=AD_HAND)
+    d = policy.decide(state, 100.0)
+    assert not d.act and d.mode == "save" and d.allowed_cards is None
+    assert d.reason == "save for bomb-tower vs giant right: 2.8s, eta 9.0s"
+
+
+@pytest.mark.parametrize("weights", WEIGHT_SETS)
+def test_ad_balloon_in_the_left_lane_is_answered_by_the_magic_archer(weights):
+    policy = _ad(weights)
+    balloon = _enemy((3, 13), eta=6.0, tower="own_left", card="balloon")
+    state = _state(elixir=5.0, units=[balloon], hand=AD_HAND)
+    d = policy.decide(state, 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left" and d.reason == "defend balloon left: magic-archer (medium)"
+    assert d.allowed_cards == frozenset({"magic-archer"})                       # not the fire / ice spirit
+    cards = [m.card for m in policy.engine.analyse(state, 100.0).defence]
+    assert "bomb-tower" not in cards and {"magic-archer", "ice-spirit"} <= set(cards)   # a tower cannot hit air
+    # 6.5 s out the ranged window (6 s) is not open yet
+    late = _state(elixir=5.0, units=[_enemy((3, 14), eta=6.5, tower="own_left", card="balloon")], hand=AD_HAND)
+    d = _ad(weights).decide(late, 100.0)
+    assert not d.act and d.mode == "save" and d.reason.startswith("waiting for the magic-archer window")
+
+
+@pytest.mark.parametrize("weights", WEIGHT_SETS)
+def test_ad_balloon_at_the_tower_with_only_a_spirit_affordable_is_an_emergency(weights):
+    balloon = _enemy((3, 10), eta=1.2, tower="own_left", card="balloon")
+    d = _ad(weights).decide(_state(elixir=1.5, units=[balloon], hand=AD_HAND), 100.0)
+    assert d.act and d.mode == "defend" and d.reason == "defend balloon left: ice-spirit (emergency)"
+    assert d.allowed_cards == frozenset({"ice-spirit"})
+    # 2.4 s out the spirit is only a slow-down and the magic archer is not affordable in time: no spirit
+    far = _enemy((3, 10), eta=2.4, tower="own_left", card="balloon")
+    d = _ad(weights).decide(_state(elixir=1.5, units=[far], hand=AD_HAND), 100.0)
+    assert not d.act and d.mode == "save"
+
+
+@pytest.mark.parametrize("weights", WEIGHT_SETS)
+def test_ad_swarm_may_be_answered_with_a_low_stopping_card(weights):
+    bats = [_enemy((5, 10), eta=2.0, card="bats"), _enemy((6, 10), card="bats"), _enemy((4, 10), card="bats")]
+    hand = ["zap", "fire-spirit", "knight", "giant"]
+    d = _ad(weights).decide(_state(elixir=5.0, units=bats, hand=hand), 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left"
+    assert d.allowed_cards & {"zap", "fire-spirit"}
+    d = _ad(weights).decide(_state(elixir=5.0, units=bats, hand=["fire-spirit", "knight", "giant", "archers"]), 100.0)
+    assert d.act and "fire-spirit" in d.allowed_cards                           # a low stop is fine against a swarm
+
+
+@pytest.mark.parametrize("weights", WEIGHT_SETS)
+def test_ad_a_push_our_bomb_tower_stands_against_is_answered(weights):
+    ally = {"unit_class": "bomb-tower", "card": "bomb-tower", "side": "ally", "tile": [10.5, 10], "eta_tower": None}
+    giant = _giant(eta=8.0, tile=(14, 13), heading="toward own_right")              # the tower is 4.6 tiles from the giant
+    policy = _ad(weights)
+    state = _state(elixir=5.0, units=[giant, ally], hand=AD_HAND)
+    push = policy.engine.analyse(state, 100.0).pushes[0]
+    assert push.answered and push.answered_by == ["bomb-tower"]
+    d = policy.decide(state, 100.0)
+    assert not d.act and d.mode == "save" and d.reason == "push right answered by bomb-tower"
+    # at the tower itself (<= 1 s) an answered push is acted on all the same
+    close = _state(elixir=5.0, units=[_giant(eta=0.8, tile=(14, 10)), ally], hand=AD_HAND)
+    assert _ad(weights).decide(close, 100.0).act
+
+
+def test_ad_a_push_without_engine_flags_is_read_from_the_roles_of_its_units():
+    class Bare(FakeEngine):
+        def analyse(self, state, t=None):
+            report = super().analyse(state, t)
+            for p in report.pushes:                                  # a stand-in engine that sets no flags
+                p.heavy, p.needs = False, []
+            return report
+
+    moves = [_move("bomb-tower", 0.9), _move("ice-spirit", 0.8)]
+    d = ReactivePolicy(CARDS, engine=Bare(moves, 5.0)).decide(_state(elixir=5.0, units=[_giant()], hand=HAND), 10.0)
+    assert d.act and d.allowed_cards == frozenset({"bomb-tower"})      # the giant is heavy, a targeter: the spirit is low
+    swarm = [_enemy((5, 10), eta=2.0, card="bats"), _enemy((6, 10), card="bats"), _enemy((4, 10), card="bats")]
+    d = ReactivePolicy(CARDS, engine=Bare([_move("zap", 1.1), _move("ice-spirit", 1.0)], 2.0)).decide(
+        _state(elixir=5.0, units=swarm, hand=HAND), 10.0)
+    assert d.act and d.allowed_cards == frozenset({"zap", "ice-spirit"})     # bats are not heavy: any card stops them
+
+
+def test_ad_melee_card_waits_for_its_window():
+    hand = ["berserker", "ice-spirit", "fire-spirit", "magic-archer"]
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=5.0)], hand=hand), 100.0)
+    assert not d.act and d.mode == "save" and d.reason.startswith("waiting for the berserker window vs giant right")
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=4.0)], hand=hand), 100.0)
+    assert d.act and d.allowed_cards == frozenset({"berserker"}) and d.reason == "defend giant right: berserker (medium)"
+
+
+def test_ad_building_window_is_nine_seconds_or_a_lead_unit_on_our_half():
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=9.5)], hand=AD_HAND), 100.0)
+    assert not d.act and d.reason.startswith("waiting for the bomb-tower window")       # row 15, 9.5 s out
+    on_half = _giant(eta=9.5, tile=(14, 13), heading="toward own_right")                 # across the river: pull it now
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[on_half], hand=AD_HAND), 100.0)
+    assert d.act and "bomb-tower" in d.allowed_cards
+    wide = _ad(DEFAULT_WEIGHTS, building_window_s=10.0)
+    d = wide.decide(_state(elixir=5.0, units=[_bridge_giant(eta=9.5)], hand=AD_HAND), 100.0)
+    assert d.act and "bomb-tower" in d.allowed_cards
+
+
+def test_ad_low_stopping_cards_only_when_the_hand_holds_nothing_adequate_and_the_push_is_close():
+    hand = ["ice-spirit", "fire-spirit", "magic-archer", "wall-breakers"]            # nothing here stops a giant
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=6.0, units=[_bridge_giant(eta=4.0)], hand=hand), 100.0)
+    assert not d.act and d.reason == "no adequate answer in hand for giant right"
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=6.0, units=[_bridge_giant(eta=2.0)], hand=hand), 100.0)
+    assert d.act and d.mode == "defend" and "nothing adequate in hand" in d.reason and len(d.allowed_cards) == 1
+    assert d.allowed_cards <= {"ice-spirit", "fire-spirit"}
+
+
+def test_ad_the_card_chosen_against_a_push_counts_as_answering_it_for_four_seconds():
+    state = _state(elixir=5.0, units=[_bridge_giant()], hand=AD_HAND)
+    policy = _ad(DEFAULT_WEIGHTS)
+    d = policy.decide(state, 100.0)
+    assert d.act and "bomb-tower" in d.allowed_cards
+    d = policy.decide(state, 101.5)                          # no tap is visible yet, the choice stands in for it
+    assert not d.act and d.mode == "save" and d.reason == "push right answered by bomb-tower"
+    assert policy.decide(state, 104.5).act                   # 4.5 s on: the choice has expired
+    off = _ad(DEFAULT_WEIGHTS, commit_s=0.0)
+    off.decide(state, 100.0)
+    assert off.decide(state, 101.5).act
+    # a cheap card does not answer a push worth much more (a spirit is 1 of the giant's 5 elixir)
+    spirit = _ad(DEFAULT_WEIGHTS)
+    spirit._acted[("right", "giant")] = (100.0, "ice-spirit")
+    assert spirit.decide(state, 101.0).act
+
+
+def test_ad_pushes_beyond_ten_seconds_and_retreating_ones_are_not_answered():
+    far = _state(elixir=5.0, units=[_bridge_giant(eta=10.5)], hand=AD_HAND)
+    d = _ad(DEFAULT_WEIGHTS).decide(far, 100.0)
+    assert not d.act and d.mode == "hold"
+    back = _state(elixir=5.0, units=[_giant(eta=3.0, tile=(14, 10), heading="retreating")], hand=AD_HAND)
+    assert _ad(DEFAULT_WEIGHTS).decide(back, 100.0).mode == "hold"
+
+
+def test_ad_leak_follows_the_pushes():
+    # a push in its window takes precedence over a full bar
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=10.0, units=[_bridge_giant()], hand=AD_HAND), 100.0)
+    assert d.act and d.mode == "defend"
+    # an answered push does not: the full bar leaks as before
+    ally = {"unit_class": "bomb-tower", "card": "bomb-tower", "side": "ally", "tile": [10.5, 10], "eta_tower": None}
+    state = _state(elixir=10.0, units=[_giant(eta=8.0, tile=(14, 13), heading="toward own_right"), ally], hand=AD_HAND)
+    assert _ad(DEFAULT_WEIGHTS).decide(state, 100.0).mode == "leak"

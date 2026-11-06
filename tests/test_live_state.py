@@ -714,6 +714,105 @@ def test_without_the_tracker_nothing_changes():
     assert noted.build(make_gs(103.5, elixir=6.0, hand=FULL_HAND))[0]["own"]["elixir"] == 6.0
 
 
+# --------------------------------------------------------------------------- our own taps are known at once (MAC-AD)
+
+def own_plays(b, t, hand=FULL_HAND, elixir=6.0):
+    state, _ = b.build(make_gs(t, elixir=elixir, hand=hand, phase="single_elixir"))
+    return state["own"]["recent_plays"]
+
+
+def test_an_executor_play_is_in_recent_plays_at_once():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    plays = own_plays(b, 100.2)
+    assert plays == [{"t": 100.0, "player": "own", "card": "bomb-tower", "tile": [10.5, 9.0], "elixir_cost": 4,
+                      "detect_source": "executor", "confidence": None}]
+    assert list(plays[0]) == PLAY_KEYS
+    json.dumps(plays)
+    b.note_own_play("berserker", 1, 100.5)                            # no tile known: still a play
+    assert [(p["card"], p["tile"]) for p in own_plays(b, 100.6)] == [("bomb-tower", [10.5, 9.0]), ("berserker", None)]
+    assert acct().tracker is not None and own_plays(acct(), 100.0) == []
+
+
+def test_the_hud_event_of_the_same_card_is_merged_into_the_executor_play():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)                           # the tile was not known
+    b.observe_events([make_ev(100.9, "own", "bomb-tower", (10, 9), source="hud")])
+    plays = own_plays(b, 101.0)
+    assert [(p["card"], p["t"], p["tile"], p["detect_source"]) for p in plays] \
+        == [("bomb-tower", 100.0, [10, 9], "executor")]                # one play: executor time, the filled tile
+    assert list(plays[0]) == PLAY_KEYS                                 # nothing internal leaks into the state
+    b.observe_events([make_ev(101.05, "own", "bomb-tower", (11, 9), source="deploy_label")])   # a label of the same play
+    plays = own_plays(b, 101.1)
+    assert len(plays) == 1 and plays[0]["tile"] == [10, 9]             # an existing tile is kept
+    b.observe_events([make_ev(100.9, "own", "bomb-tower", (10, 9), source="hud")])             # re-delivered: ignored
+    assert len(own_plays(b, 101.1)) == 1
+
+
+def test_a_perception_play_is_merged_only_within_three_seconds_and_for_the_same_card():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    b.observe_events([make_ev(103.2, "own", "bomb-tower", (10, 9), source="hud"),         # 3.2 s later: another play
+                      make_ev(101.0, "own", "berserker", (4, 9), source="hud"),            # another card
+                      make_ev(101.0, "opponent", "bomb-tower", (4, 20), source="arena")])  # the other player
+    plays = own_plays(b, 104.0)
+    assert [(p["card"], p["t"]) for p in plays] == [("bomb-tower", 100.0), ("berserker", 101.0), ("bomb-tower", 103.2)]
+    assert [p["detect_source"] for p in plays] == ["executor", "hud", "hud"]
+    # a perception play seen first is not an executor play; a later tap does not absorb it
+    c = acct()
+    c.observe_events([make_ev(99.0, "own", "bomb-tower", (10, 9), source="hud")])
+    c.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    assert [(p["t"], p["detect_source"]) for p in own_plays(c, 100.5)] == [(99.0, "hud"), (100.0, "executor")]
+    # it merges into the nearest of two taps of the same card
+    d = acct()
+    d.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    d.note_own_play("bomb-tower", 2, 100.5, tile=(4.5, 9.0))
+    d.observe_events([make_ev(100.9, "own", "bomb-tower", (4, 9), source="hud")])
+    assert [(p["t"], p["tile"]) for p in own_plays(d, 101.0)] == [(100.0, [10.5, 9.0]), (100.5, [4.5, 9.0])]
+    d.observe_events([make_ev(100.9, "own", "bomb-tower", (10, 9), source="deploy_label")])
+    assert len(own_plays(d, 101.1)) == 2                               # still two plays: each tap has its own
+
+
+def test_a_failed_tap_takes_its_play_out_of_recent_plays():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    assert len(own_plays(b, 100.3)) == 1 and len(own_plays(b, 100.8)) == 1
+    assert own_plays(b, 101.3) == [] and b.failed_taps == 1           # the bar never dropped: it did not land
+    # a tap that landed keeps its play, also after it ages out of the elixir accounting
+    ok = acct()
+    ok.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    assert len(own_plays(ok, 100.6, hand=LANDED, elixir=2.0)) == 1
+    assert len(own_plays(ok, 104.0, hand=LANDED, elixir=3.0)) == 1 and ok.failed_taps == 0
+    # a play that perception confirmed too stays, whatever the elixir says
+    seen = acct()
+    seen.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    seen.observe_events([make_ev(100.9, "own", "bomb-tower", (10, 9), source="hud")])
+    assert len(own_plays(seen, 101.0)) == 1
+    assert len(own_plays(seen, 101.3)) == 1 and seen.failed_taps == 1  # the tracker undid the tap, the play stays
+    # only the failed one of two taps goes
+    two = acct()
+    two.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    assert len(own_plays(two, 100.6, hand=LANDED, elixir=2.0)) == 1                  # the bomb tower landed
+    assert CARDS["berserker"]["elixir_cost"] == 2
+    two.note_own_play("berserker", 1, 101.0, tile=(4.5, 9.0))
+    assert [p["card"] for p in own_plays(two, 101.5, hand=LANDED, elixir=2.0)] == ["bomb-tower", "berserker"]
+    assert [p["card"] for p in own_plays(two, 102.4, hand=LANDED, elixir=2.2)] == ["bomb-tower"] and two.failed_taps == 1
+
+
+def test_executor_plays_need_the_tracker_and_follow_the_match():
+    plain = builder()
+    plain.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    assert own_plays(plain, 100.5) == []                               # no tracker: a no-op
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    state, _ = b.build(make_gs(101.0, match_id=2, elixir=6.0, hand=FULL_HAND))
+    assert state["own"]["recent_plays"] == []                          # a new match forgets the old one's taps
+    out = acct()
+    out.note_own_play("bomb-tower", 3, 100.0, tile=(10.5, 9.0))
+    assert own_plays(out, 113.5) == []                                 # beyond recent_s the play is no longer recent
+
+
+
 # --------------------------------------------------------------------------- 9: real-data round trip
 
 DATASET_STATES = DATASET_DIR / "states.jsonl"

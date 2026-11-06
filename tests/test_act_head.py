@@ -159,8 +159,9 @@ def _cands(*keys):
 
 
 def test_learned_mode_drops_blind_spells_only():
-    # one enemy far away on their half: not a threat, but a spell can still target it (left lane, enemy_half zone)
-    state = _with(units=[_enemy((5, 25), eta=6.0)])
+    # one enemy far away on their half (beyond the 10 s a push is answered from, MAC-AD): not a threat, but a spell can
+    # still target it (left lane, enemy_half zone)
+    state = _with(units=[_enemy((5, 25), eta=12.0)])
     policy = LearnedActPolicy(FakeScorer(0.9), CARDS)
     d = policy.decide(state, 10.0, "CTX")
     assert d.mode == "learned"
