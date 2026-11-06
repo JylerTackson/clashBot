@@ -8,16 +8,23 @@ fixed-interval `should_decide`. The loop plays only cards it can see in the hand
 policy for a spell's aim point (`target_tile`) when it has one. With a `TacticalEngine` (default; `--no-tactics` turns
 it off, MAC-Z3) the candidates start with the engine's concrete moves, every candidate carries a note, and the ranker
 sees the engine's lines after the context; `--ranker tactics` plays the engine's own pick without any model.
+`--planner coach` adds the Qwen3-14B coach (D-046): a `CoachWorker` thread rewrites a short plan every
+`--coach-period` game seconds and the loop hands the latest one to the ranker; `step` never waits for it.
 Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
 """
 from __future__ import annotations
 
 import argparse
+import copy
 import inspect
 import json
+import logging
+import queue
 import sys
+import threading
 import time
 from collections import Counter
+from concurrent.futures import Future
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from pathlib import Path
@@ -31,6 +38,7 @@ from clashbot.config import HOLD_KEY
 from clashbot.game_rules import load_cards
 from clashbot.kg import KnowledgeGraph
 from clashbot.loop import should_decide
+from clashbot.planner import COACH_MODEL_ID, COACH_PERIOD_S, Plan, lookup_summary, should_update
 from clashbot.policy import ActDecision, ReactivePolicy
 from clashbot.retrieval import StateIndex
 from clashbot.tactics import TacticalEngine
@@ -38,6 +46,7 @@ from clashbot.tactics import TacticalEngine
 STAGES = ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")
 FRAME_STAGES = ("capture", "perception", "live_state")
 TARGET_P95_MS = 300.0
+COACH_TICK_S = 1.0            # the loop offers the coach worker a job at most once per game second
 FALLBACK_MIN_ELIXIR = 9.5     # a "fallback" candidate (no knn/kg support) is only played from a (nearly) full bar
 TOS_NOTE = ("Live runs only in Training Camp or friendly battles "
             "(Supercell terms of service prohibit bots in normal play).")
@@ -58,6 +67,8 @@ class LiveDecision:
     tactics_lines: list = field(default_factory=list)      # the engine's lines shown to the ranker ([] without one)
     arbiter_reason: str | None = None                      # which arbiter rule narrowed d1's options (None without one)
     arbiter_subset: list | None = None                     # [{"key", "p"}]: the options d1 chose among, renormalised
+    plan_t: float | None = None                            # game time of the coach plan d1 read (None: the pregame plan)
+    plan_age_s: float | None = None                        # decision time minus plan_t
 
 
 def _accepts_notes(fn) -> bool:
@@ -120,11 +131,172 @@ def _pcts(vals: list[float]) -> dict:
     return {"p50": round(float(np.percentile(vals, 50)), 2), "p95": round(float(np.percentile(vals, 95)), 2)}
 
 
+log = logging.getLogger("clashbot.coach")
+
+
+@dataclass
+class CoachPlan:
+    """A coach plan as the loop reads it: its text, the game time it was made for, and the model's wall time."""
+    text: str
+    t: float
+    latency_s: float
+
+
+class CoachWorker:
+    """The slow loop's background thread (D-046): `planner.update` runs one job at a time, so a plan never delays a
+    decision. `submit` is non-blocking: it does nothing while a job runs or before the next one is due (the first
+    time, `period_s` game seconds after the last job, or a new opponent card). A finished plan is published as
+    `latest_plan` and appended to <out_dir>/plans.jsonl; an exception is logged and the old plan stays. Every model
+    call, the pre-game plan included, runs on this one thread (MLX streams are per thread). The planner is a
+    `CoachPlanner` (or anything with `pregame` and `update(plan, state, t, tactics_lines, lookup, context_text)`);
+    `lookup_fn(state, t, ctx) -> list[str]`, run on the worker thread, supplies the lookup summary when `submit` is
+    given none."""
+
+    def __init__(self, planner, period_s: float = COACH_PERIOD_S, out_dir: Path | None = None, lookup_fn=None,
+                 clock=time.perf_counter):
+        self.planner = planner
+        self.period_s = period_s
+        self.out_dir = Path(out_dir) if out_dir is not None else None
+        self.lookup_fn = lookup_fn
+        self.clock = clock
+        self.pregame_plan: Plan | None = None
+        self.pregame_s: float | None = None
+        self.latest_plan: CoachPlan | None = None
+        self.jobs = 0              # plans published
+        self.errors = 0            # jobs (or the pregame) that raised
+        self.empty = 0             # jobs whose model wrote nothing usable
+        self.latencies: list[float] = []
+        self._lock = threading.Lock()
+        self._busy = False
+        self._closed = False
+        self._last_t: float | None = None      # game time of the last accepted job
+        self._seen: set[str] = set()           # opponent cards the last accepted job knew
+        self._queue: queue.Queue = queue.Queue()
+        self._thread: threading.Thread | None = None
+
+    # -- the worker thread ----------------------------------------------------------------------------------------
+    def _loop(self) -> None:
+        while True:
+            item = self._queue.get()
+            if item is None:
+                return
+            fn, fut = item
+            try:
+                fut.set_result(fn())
+            except Exception as exc:        # the caller (pregame) or the job itself decides what a failure means
+                fut.set_exception(exc)
+
+    def _enqueue(self, fn) -> Future:
+        if self._thread is None:
+            self._thread = threading.Thread(target=self._loop, name="coach", daemon=True)
+            self._thread.start()
+        fut: Future = Future()
+        self._queue.put((fn, fut))
+        return fut
+
+    # -- pre-game -------------------------------------------------------------------------------------------------
+    def pregame(self, own_deck: list[str], deck_key: str | None = None, ctx=None) -> Plan:
+        """The pre-game plan, made on the worker thread; blocks (the match has not started). A failure keeps the deck."""
+        t0 = self.clock()
+        try:
+            plan = self._enqueue(lambda: self.planner.pregame(own_deck, deck_key, ctx)).result()
+        except Exception as exc:
+            log.warning("coach pregame failed: %r", exc)
+            self.errors += 1
+            plan = Plan("Deck: " + ", ".join(own_deck), "rules_fallback")
+        self.pregame_s = round(self.clock() - t0, 2)
+        self.pregame_plan = plan
+        return plan
+
+    # -- in game --------------------------------------------------------------------------------------------------
+    @property
+    def busy(self) -> bool:
+        return self._busy
+
+    def attach(self, out_dir: Path) -> None:
+        """Write plans.jsonl into `out_dir` (a fresh file)."""
+        self.out_dir = Path(out_dir)
+        (self.out_dir / "plans.jsonl").write_text("")
+
+    def _due(self, state: dict, t: float) -> bool:
+        known = (state.get("opponent") or {}).get("deck_known") or []
+        return not self._busy and not self._closed and should_update(self._last_t, t, known, self._seen, self.period_s)
+
+    def is_due(self, state: dict, t: float) -> bool:
+        """Would `submit` take a job now? Cheap: lets the loop skip building the job's inputs."""
+        with self._lock:
+            return self._due(state, t)
+
+    def submit(self, state: dict, ctx: str | None, tactics_lines: list[str] | None, lookup: list[str] | None,
+               t: float) -> bool:
+        """Offer a job; True when it was accepted. Never blocks on the model."""
+        with self._lock:
+            if not self._due(state, t):
+                return False
+            job = (copy.deepcopy(state), ctx, list(tactics_lines or []), None if lookup is None else list(lookup), t)
+            self._busy = True
+            self._last_t = t
+            self._seen.update((state.get("opponent") or {}).get("deck_known") or [])
+        self._enqueue(lambda: self._job(*job))
+        return True
+
+    def _current(self) -> Plan:
+        if self.latest_plan is not None:
+            return Plan(self.latest_plan.text, "coach")
+        return self.pregame_plan or Plan("", "rules")
+
+    def _job(self, state: dict, ctx: str | None, tactics_lines: list[str], lookup: list[str] | None, t: float) -> None:
+        try:
+            if self._closed:
+                return
+            t0 = self.clock()
+            if lookup is None and self.lookup_fn is not None:
+                try:
+                    lookup = self.lookup_fn(state, t, ctx)
+                except Exception as exc:        # no lookup is a worse prompt, not a failed job
+                    log.warning("coach lookup failed: %r", exc)
+                    lookup = []
+            current = self._current()
+            new = self.planner.update(current, state, t, tactics_lines=tactics_lines, lookup=lookup, context_text=ctx)
+            latency = round(self.clock() - t0, 2)
+            if new is current:
+                self.empty += 1
+                return
+            self.latest_plan = CoachPlan(new.text, t, latency)
+            self.jobs += 1
+            self.latencies.append(latency)
+            self._append({"t": t, "plan": new.text, "latency_s": latency})
+        except Exception as exc:
+            log.warning("coach job at t=%s failed: %r", t, exc)
+            self.errors += 1
+        finally:
+            with self._lock:
+                self._busy = False
+
+    def _append(self, row: dict) -> None:
+        if self.out_dir is None:
+            return
+        with open(self.out_dir / "plans.jsonl", "a") as fh:
+            fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+    def close(self, timeout: float = 60.0) -> None:
+        """Stop the thread: a job already running finishes (killing a GPU job mid-way is worse); a queued one is dropped."""
+        with self._lock:
+            self._closed = True
+        if self._thread is not None:
+            self._queue.put(None)
+            self._thread.join(timeout)
+
+    def summary(self) -> dict:
+        return {"pregame_s": self.pregame_s, "plans": self.jobs, "errors": self.errors, "empty": self.empty,
+                "latency_s": _pcts(self.latencies), "period_s": self.period_s}
+
+
 class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
                  clock=time.perf_counter, min_gap_s: float = 1.0, policy=None, require_hand: bool = True,
-                 tactics=None, arbiter=None):
+                 tactics=None, arbiter=None, coach=None):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -145,6 +317,8 @@ class LiveLoop:
         self.require_hand = require_hand             # never tap a card the hand read does not show (FIX_LIST #27)
         self.tactics = tactics                       # a TacticalEngine (MAC-Z3) or None = lookup candidates only
         self.arbiter = arbiter                       # a RuleArbiter (MAC-AB A4) narrowing d1's options when unsure, or None
+        self.coach = coach                           # a CoachWorker (D-046): its latest plan replaces `plan_text`
+        self._coach_tick_t = float("-inf")           # game time of the last offer to the coach
         self.hand_unknown_holds = 0                  # decisions held because no candidate card was in the read hand
         self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
         self.last_decision_t: float | None = None
@@ -158,6 +332,8 @@ class LiveLoop:
             self.out_dir.mkdir(parents=True, exist_ok=True)
             for name in ("frames.jsonl", "decisions.jsonl"):
                 (self.out_dir / name).write_text("")
+            if self.coach is not None:
+                self.coach.attach(self.out_dir)
 
     def _write(self, name: str, obj: dict) -> None:
         if self.out_dir is None:
@@ -188,6 +364,24 @@ class LiveLoop:
         opp = state.get("opponent") or {}
         plays = [p for p in opp.get("recent_plays", []) if p.get("t") is None or p["t"] > self._handled_opp_t]
         return {**state, "opponent": {**opp, "recent_plays": plays}}
+
+    def _coach_tick(self, state: dict, ctx: str, t: float, report=None) -> None:
+        """Offer the coach worker a job (at most once per game second, and only when one is due); never blocks."""
+        if self.coach is None or t - self._coach_tick_t < COACH_TICK_S:
+            return
+        self._coach_tick_t = t
+        if not self.coach.is_due(state, t):
+            return
+        if report is None and self.tactics is not None:
+            report = self.tactics.analyse(state, t)
+        self.coach.submit(state, ctx, list(report.lines) if report is not None else [], None, t)
+
+    def _plan_at(self, t: float) -> tuple[str | None, float | None, float | None]:
+        """(text, plan_t, plan_age_s) of the plan the ranker reads now: the coach's latest, else the pregame plan."""
+        plan = self.coach.latest_plan if self.coach is not None else None
+        if plan is None:
+            return self.plan_text, None, None
+        return plan.text, plan.t, round(t - plan.t, 2)
 
     def step(self, frame, t: float, idx: int, capture_ms: float) -> LiveDecision | None:
         clock = self.clock
@@ -223,9 +417,12 @@ class LiveLoop:
         if not verdict.act:
             if self.policy is not None:
                 self.policy_holds[verdict.mode] += 1
+            self._coach_tick(state, ctx, t)
             return None
 
         report = self.tactics.analyse(state, t) if self.tactics is not None else None
+        self._coach_tick(state, ctx, t, report)
+        plan_text, plan_t, plan_age_s = self._plan_at(t)
         rank_ctx = ctx if report is None else ctx + "\n" + "\n".join(report.lines)   # the act policy keeps `ctx`
         if report is None:
             cands = generated = self.generator.generate(state, t, ctx, n=4, **self.filters)
@@ -253,7 +450,7 @@ class LiveLoop:
                 i, probs = res.index, list(res.probs)
             else:
                 notes = {x.key: x.note for x in cands if getattr(x, "note", None)}
-                i, probs = rank_keys(self.ranker, rank_ctx, [x.key for x in cands], self.plan_text,
+                i, probs = rank_keys(self.ranker, rank_ctx, [x.key for x in cands], plan_text,
                                      notes=notes or None)
                 if self.arbiter is not None:        # d1 unsure: it chooses among the tactical / pro-supported subset
                     urgent = urgent_from_report(report, self.arbiter.cfg.urgent_eta_s)
@@ -310,7 +507,7 @@ class LiveLoop:
                          "note": getattr(x, "note", None)} for x in cands],
             probs=list(probs), executor=entry, timings_ms=timings, mode=verdict.mode, reason=verdict.reason,
             tactics_lines=list(report.lines) if report is not None else [], arbiter_reason=arbiter_reason,
-            arbiter_subset=arbiter_subset)
+            arbiter_subset=arbiter_subset, plan_t=plan_t, plan_age_s=plan_age_s)
         self.decisions.append(decision)
         self._write("decisions.jsonl", {**asdict(decision), "elixir": state["own"]["elixir"],
                                         "hand": state["own"]["hand"], "context_text": ctx})
@@ -355,7 +552,11 @@ class LiveLoop:
                     if callable(close_perception):
                         close_perception()
                 finally:
-                    self._close_files()
+                    try:
+                        if self.coach is not None:
+                            self.coach.close()               # lets a running plan finish: no GPU job is cut off
+                    finally:
+                        self._close_files()
         summary = self.summary()
         if self.out_dir is not None:
             (self.out_dir / "summary.json").write_text(json.dumps(summary, indent=2, default=_json_default))
@@ -384,6 +585,7 @@ class LiveLoop:
             "skipped_min_gap": self.skipped_min_gap,
             "source_stats": stats() if callable(stats) else None,
             "perception_timing": timing_report() if callable(timing_report) else None,
+            **({"coach": self.coach.summary()} if self.coach is not None else {}),
         }
 
 
@@ -416,7 +618,12 @@ def build_parser() -> argparse.ArgumentParser:
                     help="no tactics engine: lookup candidates only, no notes (the pre-MAC-Z3 behaviour)")
     ap.add_argument("--d1-backend", choices=("mlx", "transformers"), default="mlx")
     ap.add_argument("--d1-model", default=None, help="d1 model path / repo id (e.g. a fine-tuned checkpoint)")
-    ap.add_argument("--planner", choices=("rules", "llm", "none"), default="rules")
+    ap.add_argument("--planner", choices=("rules", "llm", "coach", "none"), default="rules",
+                    help="coach = the Qwen3-14B coach: a pregame plan, then a short plan every --coach-period game "
+                         "seconds from a background thread (D-046)")
+    ap.add_argument("--coach-model", default=COACH_MODEL_ID, help="mlx-lm model for --planner coach")
+    ap.add_argument("--coach-period", type=float, default=COACH_PERIOD_S,
+                    help="game seconds between coach plans (a new opponent card also triggers one)")
     ap.add_argument("--seconds", type=float, default=60.0)
     ap.add_argument("--max-decisions", type=int, default=None)
     ap.add_argument("--min-gap", type=float, default=1.0, help="minimum seconds between two decisions (0 = off)")
@@ -515,7 +722,24 @@ def _build_plan_text(args, deck: list[str]) -> str | None:
     if args.planner == "llm":
         from clashbot.planner import LLMPlanner
         return LLMPlanner().pregame(deck, args.deck_key).text
+    if args.planner == "coach":         # `main` builds a CoachWorker instead (`_build_coach`); this is the one-shot form
+        from clashbot.planner import CoachPlanner
+        return CoachPlanner(model_path=args.coach_model).pregame(deck, args.deck_key).text
     return None
+
+
+def _build_coach(args, deck: list[str], index=None, kg=None) -> CoachWorker:
+    """The coach worker with its pre-game plan made (tools get the shared index and KG). The model loads on the worker
+    thread; a failing load or pregame leaves the worker on the bare-deck plan and every later job logs its error."""
+    from clashbot.planner import CoachPlanner
+    from clashbot.tools import ToolContext
+    planner = CoachPlanner(model_path=args.coach_model)
+    lookup_fn = None
+    if index is not None:
+        lookup_fn = lambda state, t, ctx: lookup_summary(index.search(state, t, ctx, k=10))    # noqa: E731
+    worker = CoachWorker(planner, period_s=args.coach_period, lookup_fn=lookup_fn)
+    worker.pregame(deck, args.deck_key, ToolContext(index=index, kg=kg, db_path=planner.db_path))
+    return worker
 
 
 def format_table(summary: dict) -> str:
@@ -594,11 +818,13 @@ def main(argv: list[str] | None = None) -> int:
                                               opp_evidence=True, strict_units=True))
         cards = load_cards()
         kg = KnowledgeGraph()
-        generator = CandidateGenerator(StateIndex(), kg, cards)
+        index = StateIndex()
+        generator = CandidateGenerator(index, kg, cards)
         tactics = None if args.no_tactics else TacticalEngine(cards, kg=kg)
         ranker = _build_ranker(args)
         policy = _build_policy(args, cards)
-        plan_text = _build_plan_text(args, deck)
+        coach = _build_coach(args, deck, index, kg) if args.planner == "coach" else None
+        plan_text = coach.pregame_plan.text if coach is not None else _build_plan_text(args, deck)
     except (RuntimeError, OSError, ValueError, ImportError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         close_perception = getattr(perception, "close", None)
@@ -617,7 +843,7 @@ def main(argv: list[str] | None = None) -> int:
     (out_dir / "config.json").write_text(json.dumps(vars(args), indent=2, default=str))
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
                     plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy, tactics=tactics,
-                    arbiter=arbiter)
+                    arbiter=arbiter, coach=coach)
     mode = "LIVE" if args.live else "dry run"
     print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} policy={args.policy} "
           f"tactics={'off' if args.no_tactics else 'on'} arbiter={'rules' if arbiter else 'none'} out={out_dir}")
@@ -625,6 +851,8 @@ def main(argv: list[str] | None = None) -> int:
     print(f"frames={summary['frames']} decisions={summary['decisions']} "
           f"readiness={summary['readiness_counts']} status={summary['decisions_by_status']}")
     print(format_table(summary))
+    if summary.get("coach"):
+        print(f"coach: {summary['coach']}")
     return 0
 
 
