@@ -169,3 +169,18 @@ User: *"all the cards we are using is 3 levels underleved, the level of the trai
 - **Alternative:** electro-spirit instead of electro-dragon (3.4 elixir).
 - **Trade-off:** ram-rider, electro-dragon and mini-p-e-k-k-a have no pro plays in the knowledge base. Lookup notes are thin for them, so the tactics notes and engine carry those cards (D-042).
 - **Confirmed by the user** (2026-11-06): Evo Electro Dragon, Hero Musketeer, Evo Tesla, Fireball, Knight, Zap, Ram Rider, Mini P.E.K.K.A. Live flags: `--hero-cards musketeer`. Evolution art for electro-dragon and tesla is loaded by default (MAC-PF).
+
+### D-048 · Knowledge graph v2: a game-model graph that feeds every decision · decided (user) · 2026-11-06
+User: *"We should modulate all the data we have so that we can have a large Knowledge Graph … connect knight the stats of their specific level (but assume it is level 15) … create more connections as we find more cards in their deck through the pro player downloaded data … make sure we are utilizing the KG and KB to properly understand the game."* After the proposal: *"That sounds good, get this building now in parallel with fixers in queue and implementation checks."*
+
+**Today.** KG v1 has 590 nodes and 12,030 edges, mostly wiki-text COUNTERS / SYNERGY plus 129 mined ANSWERED_BY edges. It holds no numeric stats, and decisions use only `counter_scores`. kNN retrieval copies one nearest pro state.
+
+**KG v2 layers:**
+1. Entities with per-level stats from the KB's own tables: opponents at level 15, ours at `levels.json`; spawned units; hero abilities; towers.
+2. Mechanics edges computed by the lane simulation (MAC-AH): KILLS, STOPS, PULLS, damage prevented per elixir.
+3. Empirical pro edges: thousands of ANSWERED_BY edges with held-rate, trade, and placement offset / timing relative to the attacker; PLAYED_AFTER; deck co-occurrence; situation aggregates.
+4. An opponent-deck model that grows as cards are seen.
+
+**Use.** The engine and policy take answers from the graph. Role transfer covers our cards that have no pro data. Placement comes from pro offsets. The LLM gets a compact facts block (D-045: the LLM decides), then is retrained on it.
+
+**Process.** Packages MAC-AK K1–K4. Each report is audited against its spec before merge; failures go to FIX_LIST and to a queued fix agent.
