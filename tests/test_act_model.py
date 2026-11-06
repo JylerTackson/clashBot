@@ -1,22 +1,30 @@
-"""MAC-AB A1: fast play/wait model - features, labels, the trainer, FastActPolicy and the live CLI.
+"""MAC-AB A1: fast play/wait model - features, labels, the trainer, the tree walker, FastActPolicy and the live CLI.
 
-Synthetic data only: a toy dense set where the pro acts when own elixir is high, tiny LightGBM models trained in a
-second, a fake model with a fixed p for the policy tests. No real data, no torch, no GPU.
+Synthetic data: a toy dense set where the pro acts when own elixir is high, tiny LightGBM models trained in a second,
+a fake model with a fixed p for the policy tests. One test compares the runtime tree walker with LightGBM on real val
+rows (skipped without the data / models). The runtime never imports lightgbm (it crashes next to torch): LightGBM's own
+predictions are always computed in a subprocess here, and the torch tests run in subprocesses too. No GPU.
 """
 from __future__ import annotations
 
+import importlib.util
 import json
 import random
+import re
+import shutil
+import subprocess
 import sys
 import time
 from pathlib import Path
 
+import numpy as np
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from clashbot.act_model import FEATURES, ActGBDT, FastActPolicy, act_features  # noqa: E402
+from clashbot import act_model  # noqa: E402
+from clashbot.act_model import FEATURES, ActGBDT, FastActPolicy, TreeEnsemble, act_features  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.live import build_parser, main  # noqa: E402
 from clashbot.policy import ActDecision, ReactivePolicy  # noqa: E402
@@ -220,7 +228,10 @@ def test_trainer_writes_models_meta_and_reports(trained):
     out, res = trained["out"], trained["res"]
     for h in ("1", "2", "3"):
         assert (out / f"model_h{h}.txt").is_file()
+        dump = json.loads((out / f"model_h{h}.json").read_text())          # the runtime reads these, not the .txt
+        assert dump["objective"].startswith("binary") and dump["tree_info"] and dump["feature_names"] == FEATURES
     meta = json.loads((out / "meta.json").read_text())
+    assert meta["json_files"] == {"1": "model_h1.json", "2": "model_h2.json", "3": "model_h3.json"}
     assert meta["features"] == FEATURES and meta["horizons"] == [1.0, 2.0, 3.0] and meta["default_horizon"] == 2.0
     assert set(meta["thresholds"]) == {"1", "2", "3"}
     assert all(0.05 <= t <= 0.95 for t in meta["thresholds"].values())
@@ -266,6 +277,7 @@ def test_trainer_main_defaults_and_cli(tmp_path):
     out = tmp_path / "m"
     res = tag.main(["--data", str(data), "--out", str(out), "--horizons", "2,1", "--seed", "3"])
     assert (out / "model_h1.txt").is_file() and (out / "model_h2.txt").is_file() and not (out / "model_h3.txt").exists()
+    assert (out / "model_h1.json").is_file() and (out / "model_h2.json").is_file() and not (out / "model_h3.json").exists()
     assert (tmp_path / "ds" / "eval" / "act_gbdt.json").is_file()            # default report next to the data dir
     assert list(res["horizons"]) == ["1", "2"] and res["bal"] is None and res["seed"] == 3
     with pytest.raises(SystemExit):
@@ -309,7 +321,7 @@ def test_load_default_and_explicit_horizon(trained):
     p_hi, p_lo = default.p_act(state, 10.0), default.p_act(_syn_state(0.5, 10.0), 10.0)
     assert 0.0 <= p_lo < p_hi <= 1.0
     assert default.p_act(state, 10.0) == pytest.approx(
-        float(default.booster.predict([act_features(state, 10.0)], num_threads=1)[0]))
+        float(default.trees.predict(np.array([act_features(state, 10.0)]))[0]), abs=1e-12)
 
 
 def test_load_rejects_stale_features_and_unknown_horizons(trained, tmp_path):
@@ -335,6 +347,285 @@ def test_p_act_on_one_row_is_fast(trained):
     for _ in range(200):
         model.p_act(state, 10.0)
     assert (time.perf_counter() - t0) / 200 < 0.005            # the trainer reports < 1 ms; keep headroom for a busy CI box
+
+
+# 4b tree walker (no lightgbm in the runtime) ------------------------------------------------------------------------
+def _py(code: str, *args: str, timeout: float = 300) -> subprocess.CompletedProcess:
+    """Run `code` in a fresh interpreter from the repo root (so `clashbot` and `tests` import)."""
+    return subprocess.run([sys.executable, "-c", code, *args], capture_output=True, text=True, cwd=ROOT,
+                          timeout=timeout)
+
+
+_LGB_PREDICT = """
+import sys
+import lightgbm as lgb
+import numpy as np
+X = np.load(sys.argv[1])
+np.savez(sys.argv[2], *[lgb.Booster(model_file=p).predict(X, num_threads=1) for p in sys.argv[3:]])
+"""
+
+
+def lightgbm_predictions(models: list[Path], X, tmp: Path) -> list:
+    """LightGBM's own `Booster.predict` of each text model on X, computed in a subprocess (lightgbm and torch must not
+    meet in one process)."""
+    np.save(tmp / "X.npy", np.asarray(X, dtype=np.float64))
+    proc = _py(_LGB_PREDICT, str(tmp / "X.npy"), str(tmp / "ref.npz"), *map(str, models))
+    assert proc.returncode == 0, proc.stderr[-800:]
+    ref = np.load(tmp / "ref.npz")
+    return [ref[f"arr_{i}"] for i in range(len(models))]
+
+
+def _leaf(i: int, v: float) -> dict:
+    return {"leaf_index": i, "leaf_value": v}
+
+
+def _split(i: int, feat: int, thr: float, left: dict, right: dict, default_left: bool = True,
+           missing: str = "None") -> dict:
+    return {"split_index": i, "split_feature": feat, "threshold": thr, "decision_type": "<=",
+            "default_left": default_left, "missing_type": missing, "left_child": left, "right_child": right}
+
+
+def _dump(*roots: dict, objective: str = "binary sigmoid:1", **extra) -> dict:
+    return {"objective": objective, "num_class": 1, "num_tree_per_iteration": 1, "max_feature_idx": 1,
+            "tree_info": [{"tree_index": i, "tree_structure": r} for i, r in enumerate(roots)], **extra}
+
+
+NAN = float("nan")
+
+
+def _raw(root: dict, *row: float) -> float:
+    return TreeEnsemble(_dump(root)).raw(list(row))
+
+
+def test_walker_goes_left_iff_value_le_threshold():
+    tree = _split(0, 0, 1.0, _leaf(0, -1.0), _leaf(1, 2.0))
+    assert _raw(tree, 0.5, 0.0) == -1.0 and _raw(tree, 1.0, 0.0) == -1.0           # equality goes left
+    assert _raw(tree, 1.0000001, 0.0) == 2.0 and _raw(tree, -5.0, 0.0) == -1.0
+
+
+def test_walker_missing_type_none_reads_nan_as_zero_and_ignores_default_left():
+    for default_left in (True, False):
+        low = _split(0, 0, 0.5, _leaf(0, -1.0), _leaf(1, 2.0), default_left, "None")        # 0.0 <= 0.5: left
+        high = _split(0, 0, -0.5, _leaf(0, -1.0), _leaf(1, 2.0), default_left, "None")      # 0.0 > -0.5: right
+        assert _raw(low, NAN, 0.0) == -1.0 and _raw(high, NAN, 0.0) == 2.0
+        assert _raw(low, 0.0, 0.0) == -1.0 and _raw(high, 0.0, 0.0) == 2.0                  # zero is an ordinary value
+
+
+def test_walker_missing_type_nan_sends_nan_the_default_way_and_only_nan():
+    for default_left, expected in ((True, -1.0), (False, 2.0)):
+        tree = _split(0, 0, -0.5, _leaf(0, -1.0), _leaf(1, 2.0), default_left, "NaN")       # threshold would say: right
+        assert _raw(tree, NAN, 0.0) == expected
+        assert _raw(tree, 0.0, 0.0) == 2.0 and _raw(tree, -1.0, 0.0) == -1.0               # zero is not missing here
+
+
+def test_walker_missing_type_zero_sends_zero_and_nan_the_default_way():
+    for default_left, expected in ((True, -1.0), (False, 2.0)):
+        tree = _split(0, 0, 0.5, _leaf(0, -1.0), _leaf(1, 2.0), default_left, "Zero")       # threshold would say: left
+        for v in (0.0, NAN, 1e-36, -1e-36, 1e-35):                                          # |v| <= 1e-35: missing
+            assert _raw(tree, v, 0.0) == expected, v
+        assert _raw(tree, 2e-35, 0.0) == -1.0 and _raw(tree, 0.7, 0.0) == 2.0               # above: an ordinary value
+
+
+def test_walker_sums_trees_and_applies_the_sigmoid_to_the_raw_score():
+    a = _split(0, 0, 1.0, _leaf(0, -1.0), _leaf(1, 2.0))
+    b = _split(0, 1, 0.0, _leaf(0, 0.25), _split(1, 0, 3.0, _leaf(1, 1.0), _leaf(2, 4.0)))
+    const = {"leaf_value": 0.5}                                      # a tree that never split
+    model = TreeEnsemble(_dump(a, b, const))
+    rows = [[0.0, -1.0], [2.0, 1.0], [5.0, 1.0], [NAN, NAN]]
+    raws = [-1.0 + 0.25 + 0.5, 2.0 + 1.0 + 0.5, 2.0 + 4.0 + 0.5, -1.0 + 0.25 + 0.5]
+    for row, raw in zip(rows, raws):
+        assert model.raw(row) == pytest.approx(raw, abs=1e-15)
+        assert model.predict_row(row) == pytest.approx(1.0 / (1.0 + np.exp(-raw)), abs=1e-15)
+    assert model.predict(np.array(rows)) == pytest.approx([model.predict_row(r) for r in rows], abs=1e-15)
+    scaled = TreeEnsemble(_dump(a, objective="binary sigmoid:2.5"))
+    assert scaled.predict_row([5.0, 0.0]) == pytest.approx(1.0 / (1.0 + np.exp(-2.5 * 2.0)), abs=1e-15)
+
+
+def test_walker_handles_init_score_and_average_output():
+    a = _split(0, 0, 1.0, _leaf(0, -1.0), _leaf(1, 2.0))
+    b = {"leaf_value": 4.0}
+    assert TreeEnsemble(_dump(a, b, init_score=0.5)).raw([0.0, 0.0]) == 0.5 - 1.0 + 4.0
+    assert TreeEnsemble(_dump(a, b, average_output=True)).raw([0.0, 0.0]) == (-1.0 + 4.0) / 2
+    assert TreeEnsemble(_dump(a, b, average_output=True)).predict(np.array([[5.0, 0.0]]))[0] == pytest.approx(
+        1.0 / (1.0 + np.exp(-(2.0 + 4.0) / 2)))
+    assert TreeEnsemble(_dump(a)).raw([0.0, 0.0]) == -1.0           # neither key: plain sum
+
+
+def test_walker_rejects_what_it_cannot_evaluate():
+    cat = _split(0, 0, 1.0, _leaf(0, -1.0), _leaf(1, 2.0))
+    cat["decision_type"] = "=="
+    with pytest.raises(ValueError, match="numerical"):
+        TreeEnsemble(_dump(cat))
+    for objective, extra in (("regression", {}), ("multiclass num_class:3", {"num_class": 3}),
+                             ("binary sigmoid:1", {"num_tree_per_iteration": 2})):
+        with pytest.raises(ValueError, match="objective"):
+            TreeEnsemble(_dump({"leaf_value": 0.0}, objective=objective, **extra))
+
+
+_LGB_TRAIN_MISSING = """
+import json, sys
+import lightgbm as lgb
+import numpy as np
+seed, zero_as_missing, dump_path, data_path = int(sys.argv[1]), bool(int(sys.argv[2])), sys.argv[3], sys.argv[4]
+rng = np.random.default_rng(seed)
+def draw(n):
+    X = rng.normal(size=(n, 6))
+    X[:, 4] = np.round(X[:, 4])                        # many exact zeros
+    X[rng.random(X.shape) < 0.15] = np.nan
+    X[rng.random(X.shape) < 0.15] = 0.0
+    return X
+X = draw(4000)
+f = lambda c, nan: np.nan_to_num(X[:, c], nan=nan)
+y = ((f(0, 1.5) + 0.5 * f(1, -1.0) + 0.8 * (X[:, 2] == 0) + 1.0 * np.isnan(X[:, 3]) - 0.5 * f(4, 0.0)
+      + 0.3 * f(5, 0.0)) > 0.4).astype(int)
+params = dict(objective="binary", num_leaves=15, min_data_in_leaf=20, verbose=-1, n_jobs=1, use_missing=True,
+              zero_as_missing=zero_as_missing, seed=seed)
+b = lgb.train(params, lgb.Dataset(X, y), 40)
+Xt = draw(1500)
+Xt[:8, 0] = [1e-36, -1e-36, 1e-35, -1e-35, 2e-35, -2e-35, 0.0, np.nan]      # around kZeroThreshold
+json.dump(b.dump_model(), open(dump_path, "w"))
+np.savez(data_path, X=Xt, p=b.predict(Xt, num_threads=1))
+"""
+
+
+@pytest.mark.parametrize("zero_as_missing, kind", [(0, "NaN"), (1, "Zero")])
+def test_walker_equals_lightgbm_with_nans_and_zeros(tmp_path, zero_as_missing, kind):
+    proc = _py(_LGB_TRAIN_MISSING, "7", str(zero_as_missing), str(tmp_path / "dump.json"), str(tmp_path / "d.npz"))
+    assert proc.returncode == 0, proc.stderr[-800:]
+    dump = json.loads((tmp_path / "dump.json").read_text())
+    kinds: set = set()
+    stack = [t["tree_structure"] for t in dump["tree_info"]]
+    while stack:
+        node = stack.pop()
+        if "split_index" in node:
+            kinds.add((node["missing_type"], node["default_left"]))
+            stack += [node["left_child"], node["right_child"]]
+    assert {(kind, True), (kind, False)} <= kinds, kinds            # both default directions of this missing type occur
+    data = np.load(tmp_path / "d.npz")
+    model = TreeEnsemble(dump)
+    assert np.isnan(data["X"]).any() and (data["X"] == 0.0).any() and 0.05 < data["p"].mean() < 0.95
+    assert np.abs(model.predict(data["X"]) - data["p"]).max() < 1e-9
+    assert np.abs(np.array([model.predict_row(r) for r in data["X"].tolist()]) - data["p"]).max() < 1e-9
+
+
+def test_walker_equals_lightgbm_on_the_trained_toy_models(trained, tmp_path):
+    rng = random.Random(1)
+    rows = [act_features(_syn_state(round(rng.uniform(0.0, 10.0), 2), float(i)), float(i)) for i in range(400)]
+    hs = (1.0, 2.0, 3.0)
+    refs = lightgbm_predictions([trained["out"] / f"model_h{h:g}.txt" for h in hs], rows, tmp_path)
+    for h, ref in zip(hs, refs):
+        model = ActGBDT.load(trained["out"], h)
+        assert ref.std() > 0.05
+        assert np.abs(model.trees.predict(np.array(rows)) - ref).max() < 1e-9
+        assert np.abs(np.array([model.trees.predict_row(r) for r in rows]) - ref).max() < 1e-9
+
+
+REAL_DENSE = ROOT / "dataset" / "v1" / "act_dense"
+REAL_MODELS = ROOT / "db" / "models" / "act-gbdt"
+HORIZONS = (1.0, 2.0, 3.0)
+
+
+@pytest.mark.skipif(not ((REAL_DENSE / "states_val.jsonl").exists()
+                         and all((REAL_MODELS / f"model_h{h:g}.txt").exists() for h in HORIZONS)
+                         and (REAL_MODELS / "meta.json").exists()),
+                    reason="dataset/v1/act_dense or db/models/act-gbdt not built")
+def test_walker_equals_lightgbm_on_2000_real_val_rows_for_every_horizon(tmp_path):
+    side = [json.loads(l) for l in (REAL_DENSE / "states_val.jsonl").read_text().splitlines() if l.strip()]
+    sample = random.Random(0).sample(side, 2000)
+    cards = load_cards()
+    X = np.array([act_features(s["state"], s["t"], cards) for s in sample]).reshape(-1, len(FEATURES))
+    model_dir = tmp_path / "model"                    # .txt + meta only: ActGBDT.load exports the .json in a subprocess
+    model_dir.mkdir()
+    for name in ["meta.json"] + [f"model_h{h:g}.txt" for h in HORIZONS]:
+        shutil.copy(REAL_MODELS / name, model_dir / name)
+    refs = lightgbm_predictions([model_dir / f"model_h{h:g}.txt" for h in HORIZONS], X, tmp_path)
+    for h, ref in zip(HORIZONS, refs):
+        model = ActGBDT.load(model_dir, h)
+        assert (model_dir / f"model_h{h:g}.json").is_file()
+        assert len(np.unique(ref)) > 3 and ref.std() > 0.01   # a real spread of probabilities, not a constant
+        assert np.abs(model.trees.predict(X) - ref).max() < 1e-9
+        assert np.abs(np.array([model.trees.predict_row(r) for r in X.tolist()]) - ref).max() < 1e-9
+        assert all(model.p_act(s["state"], s["t"]) == pytest.approx(r, abs=1e-9)
+                   for s, r in zip(sample[:200], ref[:200]))
+        shipped = REAL_MODELS / f"model_h{h:g}.json"
+        if shipped.exists():                              # the exported file in use is the one the exporter writes now
+            assert json.loads(shipped.read_text()) == json.loads((model_dir / shipped.name).read_text())
+
+
+_LOAD_AFTER_TORCH = """
+import json, sys
+import torch
+from clashbot.act_model import ActGBDT
+args = json.loads(sys.argv[2])
+model = ActGBDT.load(sys.argv[1])
+p = model.p_act(args["state"], args["t"])
+assert 'lightgbm' not in sys.modules, 'lightgbm was imported in the live process'
+print(repr(p))
+"""
+
+
+@pytest.mark.skipif(importlib.util.find_spec("torch") is None, reason="torch not installed")
+def test_torch_first_then_load_and_p_act_does_not_crash_and_gives_the_same_value(trained):
+    arg = json.dumps({"state": _syn_state(8.0, 10.0), "t": 10.0})
+    proc = _py(_LOAD_AFTER_TORCH, str(trained["out"]), arg)
+    assert proc.returncode == 0, (proc.returncode, proc.stderr[-800:])         # 139 = the OpenMP segfault
+    expected = ActGBDT.load(trained["out"]).p_act(_syn_state(8.0, 10.0), 10.0)
+    assert float(proc.stdout.strip().splitlines()[-1]) == expected
+
+
+@pytest.mark.skipif(importlib.util.find_spec("torch") is None, reason="torch not installed")
+def test_a_missing_json_is_exported_in_a_subprocess_even_after_torch(trained, tmp_path):
+    model_dir = tmp_path / "old"                      # a model directory from before the .json export existed
+    shutil.copytree(trained["out"], model_dir, ignore=shutil.ignore_patterns("model_h*.json"))
+    assert [p.name for p in model_dir.glob("*.json")] == ["meta.json"]
+    arg = json.dumps({"state": _syn_state(8.0, 10.0), "t": 10.0})
+    proc = _py(_LOAD_AFTER_TORCH, str(model_dir), arg)
+    assert proc.returncode == 0, (proc.returncode, proc.stderr[-800:])
+    assert sorted(p.name for p in model_dir.glob("model_h*.json")) == ["model_h1.json", "model_h2.json", "model_h3.json"]
+    for name in ("model_h1.json", "model_h2.json", "model_h3.json"):
+        assert json.loads((model_dir / name).read_text()) == json.loads((trained["out"] / name).read_text())
+    expected = ActGBDT.load(trained["out"]).p_act(_syn_state(8.0, 10.0), 10.0)
+    assert float(proc.stdout.strip().splitlines()[-1]) == expected
+
+
+def test_a_failing_export_or_no_model_files_raise_oserror(trained, tmp_path, monkeypatch):
+    old = tmp_path / "old"
+    shutil.copytree(trained["out"], old, ignore=shutil.ignore_patterns("model_h*.json"))
+    monkeypatch.setattr(act_model, "TRAINER", tmp_path / "no_such_trainer.py")
+    with pytest.raises(OSError, match="exporting"):
+        ActGBDT.load(old)
+    empty = tmp_path / "empty"
+    shutil.copytree(trained["out"], empty, ignore=shutil.ignore_patterns("model_h*"))
+    with pytest.raises(OSError):                       # neither .json nor .txt: nothing to export, nothing to read
+        ActGBDT.load(empty)
+
+
+def test_export_json_cli_rewrites_the_files_of_existing_models(trained, tmp_path):
+    model_dir = tmp_path / "m"
+    shutil.copytree(trained["out"], model_dir, ignore=shutil.ignore_patterns("model_h*.json"))
+    assert tag.main(["--export-json", str(model_dir)]) == {}
+    for name in ("model_h1.json", "model_h2.json", "model_h3.json"):
+        assert json.loads((model_dir / name).read_text()) == json.loads((trained["out"] / name).read_text())
+    with pytest.raises(SystemExit, match="model_h"):
+        tag.main(["--export-json", str(tmp_path)])
+
+
+def test_the_runtime_module_never_imports_lightgbm(trained):
+    src = (ROOT / "clashbot" / "act_model.py").read_text()
+    assert not re.search(r"^\s*(import|from)\s+lightgbm", src, re.M)
+    code = ("import sys\n"
+            "from clashbot.act_model import ActGBDT, FastActPolicy\n"
+            "import clashbot.live\n"
+            "import json\n"
+            "state = json.loads(sys.argv[2])\n"
+            "m = ActGBDT.load(sys.argv[1])\n"
+            "d = FastActPolicy(m).decide(state, 10.0)\n"
+            "assert d.reason.startswith('fast '), d\n"
+            "assert 0.0 <= m.p_act(state, 10.0) <= 1.0\n"
+            "assert 'lightgbm' not in sys.modules, 'lightgbm imported'\n"
+            "print('ok')\n")
+    proc = _py(code, str(trained["out"]), json.dumps(_syn_state(5.0, 10.0)))
+    assert proc.returncode == 0 and proc.stdout.strip() == "ok", proc.stderr[-800:]
 
 
 # 5 policy ---------------------------------------------------------------------------------------------------------
