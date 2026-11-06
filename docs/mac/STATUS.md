@@ -226,3 +226,18 @@ The LLM uses the tactics context even untrained on it. Both losses had the same 
 - Z3.10, card-level tactics notes. The pro card is among the engine's cards on 23 % of lines, but exact-key notes reach only 5 %.
 - Rebuild `joint_tac`, then the overnight fine-tune `d1-ft-joint-tac` (`runs/overnight/NEXT2.sh`).
 - A live match with all fixes.
+
+## 2026-11-05 22:28 — d1 fine-tuned with the tactics context (`d1-ft-joint-tac`)
+Fine-tuned from `d1-ft-joint` for 2 epochs on `dataset/v1/d1/joint_tac`: state plus `tactics:` lines, and per-option notes (tactics reason / card-level tactics note / pro lookup / counter). Engine as of MAC-AB A2 + Z3.10.
+
+| 4-way accuracy | val | test |
+|---|---|---|
+| placement prior | 0.493 | 0.384 |
+| R3 LightGBM (best feature ranker) | 0.548 | 0.491 |
+| `d1-ft-joint` on `joint` (no tactics) | 0.524 | 0.483 |
+| `d1-ft-joint` on `joint_tac` (notes never seen in training) | 0.480 | 0.470 |
+| **`d1-ft-joint-tac` on `joint_tac`** | **0.540** | **0.497** |
+
+Training the LLM on the tactics context gains +1.6 / +1.4 points over the no-tactics model, and puts it slightly above the best feature ranker on test. Without training, the notes hurt (−4.4 / −1.3), as expected from the train/serve mismatch. Latency is 62 ms p50 / 93 ms p95 per decision.
+
+**Caveat:** MAC-AD (merged after this dataset build) changes some engine lines: pushes are listed from 10 s, and "answered by" now counts our buildings and recent plays. Rebuild `joint_tac` before the next fine-tune (d1-2B).

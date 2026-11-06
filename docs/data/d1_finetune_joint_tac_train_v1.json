@@ -1,0 +1,68 @@
+{
+ "args": {
+  "variant": "joint",
+  "data": "dataset/v1/d1/joint_tac",
+  "out": "db/models/d1-ft-joint-tac",
+  "init": "db/models/d1-ft-joint",
+  "epochs": 2,
+  "lr": 2e-05,
+  "weight_decay": 0.01,
+  "warmup": 0.05,
+  "max_tokens": 3072,
+  "accum": 8,
+  "train_layers": 16,
+  "balance": false,
+  "limit": null,
+  "val_limit": null,
+  "device": "mps",
+  "seed": 0
+ },
+ "rows": {
+  "train": 3641,
+  "val": 761,
+  "train_lines": 3641,
+  "val_lines": 761
+ },
+ "trainable_params": 313623297,
+ "primary_metric": "play",
+ "epochs": [
+  {
+   "epoch": 1,
+   "train_loss": 1.0180145214953549,
+   "val_loss": 1.1203433604379835,
+   "val_metrics": {
+    "play": 0.5361366622864652,
+    "n_rows": 761,
+    "n_lines": 761
+   },
+   "train_rows_per_s": 1.700948522699695,
+   "seconds": 2330.7828180789948,
+   "train_seconds": 2142.031396150589
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6648929804217953,
+   "val_loss": 1.2937545618935735,
+   "val_metrics": {
+    "play": 0.5400788436268068,
+    "n_rows": 761,
+    "n_lines": 761
+   },
+   "train_rows_per_s": 1.7849639795788668,
+   "seconds": 2211.2061150074005,
+   "train_seconds": 2040.9238770008087
+  }
+ ],
+ "best_epoch": 2,
+ "temperatures": {
+  "choice:3-5": 2.45
+ },
+ "reload_ok": true,
+ "reload_max_abs_diff": 1.4901161193847656e-07,
+ "peak_mps_bytes": 22751019008,
+ "optimizer_steps": 159,
+ "warm_train_rows_per_s": 1.7426371320715093,
+ "warm_train_tokens_per_s": 823.3244526390878,
+ "loop_seconds": 4542.861202001572,
+ "total_seconds": 4553.842162847519
+}
