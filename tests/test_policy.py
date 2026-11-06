@@ -20,8 +20,12 @@ from clashbot.tactics import (DEFAULT_WEIGHTS, WEIGHTS_PATH, Push, TacticalEngin
 CARDS = load_cards()
 # The real tactical engine, pinned to its hand-set default weights: the tests below read its scores (which card is
 # adequate, when to save), so a retuned clashbot/resources/tactics_weights.json must not move them.
-ENGINE = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)
-POLICY = ReactivePolicy(CARDS, engine=ENGINE)
+# MAC-AH: the MAC-W ... AG tests check the policy rules on the role-based engine, so ENGINE / POLICY / `_ad` run with the
+# threat model off (weight `threat_model` 0 = the MAC-AG engine) and spells priced by elixir (`price_spells=False`);
+# SIM_ENGINE / SIM_POLICY at the end of the file are the full MAC-AH stack (simulation, spells priced by what they kill).
+ROLE_MODEL = {"threat_model": 0.0}
+ENGINE = TacticalEngine(CARDS, weights={**DEFAULT_WEIGHTS, **ROLE_MODEL})
+POLICY = ReactivePolicy(CARDS, engine=ENGINE, price_spells=False)
 
 
 @pytest.fixture(autouse=True)
@@ -36,7 +40,7 @@ class _BrokenEngine:
         raise RuntimeError("engine down")
 
 
-LEGACY = ReactivePolicy(CARDS, engine=_BrokenEngine())     # engine failure -> today's defend rule (lane / zone tests)
+LEGACY = ReactivePolicy(CARDS, engine=_BrokenEngine(), price_spells=False)     # engine failure -> today's defend rule
 
 
 STOP = {"bomb-tower": "high", "p-e-k-k-a": "high", "magic-archer": "medium", "knight": "medium", "zap": "spell",
@@ -422,7 +426,7 @@ def test_non_damage_spells_keep_the_lane_and_zone_rule():
 
 
 def test_learned_policy_delegates_target_tile_and_filters_with_the_new_rule():
-    policy = LearnedActPolicy(None, CARDS)
+    policy = LearnedActPolicy(None, CARDS, rules=ReactivePolicy(CARDS, price_spells=False))   # MAC-AH: elixir-priced spells
     state = _state(units=[_enemy((5, 25), eta=6.0, card="musketeer"), _enemy((14, 25), card="skeletons")])
     assert policy.target_tile("fireball|left|enemy_half", state) == POLICY.target_tile("fireball|left|enemy_half", state)
     assert policy.target_tile("fireball|left|enemy_half", state) == [5.0, 25.0]
@@ -764,7 +768,8 @@ AD_HAND = ["bomb-tower", "ice-spirit", "magic-archer", "berserker"]
 
 def _ad(weights, **kw):
     """A fresh policy (it remembers what it chose against a push) on the real engine with these weights."""
-    return ReactivePolicy(CARDS, engine=TacticalEngine(CARDS, weights=weights), **kw)
+    return ReactivePolicy(CARDS, engine=TacticalEngine(CARDS, weights={**weights, **ROLE_MODEL}),
+                          **{"price_spells": False, **kw})
 
 
 def _bridge_giant(eta=9.0, tile=(14, 15)):
@@ -1144,3 +1149,115 @@ def test_ag_learned_policy_passes_a_counter_through_without_asking_the_head():
     d = learned.decide(_counter_scene(), 100.0, "CTX")
     assert d.act and d.mode == "counter" and d.allowed_cards == frozenset({"ram-rider"}) and Scorer.calls == 0
     assert d.engine_tiles == {"ram-rider": [3.5, 14.0]}
+
+
+# MAC-AH: the full stack - the threat model in the engine, adequacy by simulation, the reserve, spells priced by kills -------
+from tests.test_tactics import _heading, _scenario  # noqa: E402
+
+
+def _sim(**kw):
+    """A fresh policy on the real engine with the threat model on and the default weights pinned."""
+    return ReactivePolicy(CARDS, engine=TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS), **kw)
+
+
+def test_ah_the_balloon_is_answered_with_the_tesla_pull_and_the_covered_left_lane_waits():
+    d = _sim().decide(_scenario(), 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "right" and d.reason == "defend balloon right: tesla (high)"
+    assert d.allowed_cards == frozenset({"tesla"}) and d.engine_tiles["tesla"] == [11.0, 11.0]
+    assert d.threat["card"] == "balloon"
+    # without the balloon the left push (a night witch pack) is held by our electro dragon and musketeer: no card is spent
+    d = _sim().decide(_scenario(balloon=False), 100.0)
+    assert not d.act and d.mode == "save" and d.reason == "push left answered by electro-dragon, musketeer"
+
+
+def test_ah_with_three_elixir_the_balloon_answer_is_saved_and_nothing_goes_on_the_left():
+    state = _scenario(elixir=3.0, hand=("knight", "zap", "fireball", "musketeer"))
+    d = _sim().decide(state, 100.0)
+    assert not d.act and d.mode == "save" and d.reason.startswith("save for musketeer vs balloon right")
+    # no knight, no zap on the left lane, whatever the head says: the decision is a hold
+    assert d.allowed_cards is None
+
+
+def test_ah_a_push_the_tower_handles_is_a_hold_with_that_reason():
+    bats = [_heading(_enemy((3, 14), eta=2.0, card="bats"), "advancing left lane") for _ in range(2)]
+    d = _sim().decide(_state(elixir=7.0, units=bats, hand=["zap", "knight", "musketeer", "fireball"]), 10.0)
+    assert not d.act and d.mode == "save" and d.reason == "tower handles bats left"
+    # ... and it does not block a counter or a leak: a full bar still leaks
+    full = _sim().decide(_state(elixir=10.0, units=bats, hand=["zap", "knight", "musketeer", "fireball"]), 10.0)
+    assert full.act and full.mode == "leak"
+
+
+def test_ah_a_smaller_push_may_not_spend_the_elixir_of_the_bigger_pushs_answer():
+    hand = ("tesla", "knight", "musketeer", "zap")
+    # the balloon is still on their side of the river (row 17): no card's window is open yet; a knight pushes the left
+    balloon = _heading(_enemy((16, 17), eta=9.5, tower="own_right", card="balloon"), "advancing right lane")
+    knight = _heading(_enemy((4, 11), eta=4.0, card="knight"), "advancing left lane")
+
+    def state(elixir):
+        st = _scenario(left=False, balloon=False, allies=False, elixir=elixir, hand=hand)
+        st["units"] = [balloon, knight]
+        return st
+
+    d = _sim().decide(state(5.0), 100.0)                      # 5 elixir: a knight (3) would leave 2 < the tesla's 4
+    assert not d.act and d.mode == "save" and d.reason.startswith("keep 4 elixir for the balloon")
+    d = _sim().decide(state(8.0), 100.0)                      # 8 elixir: the knight leaves 5 >= 4
+    assert d.act and d.mode == "defend" and d.lane == "left"
+    assert all(c in ("knight", "musketeer", "tesla") for c in d.allowed_cards)
+    cost = {c: CARDS[c]["elixir_cost"] for c in d.allowed_cards}
+    assert all(8.0 - cost[c] >= 4 for c in cost)               # every allowed card leaves the reserve
+    # a push that is more than RESERVE_WINDOW_S away keeps no reserve
+    far = _heading(_enemy((16, 19), eta=14.0, tower="own_right", card="balloon"), "advancing right lane")
+    st = state(5.0)
+    st["units"] = [far, knight]
+    d = _sim().decide(st, 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left"
+
+
+def test_ah_zap_on_a_lone_balloon_is_not_worth_it_and_the_filter_drops_it():
+    policy = _sim()
+    balloon = _heading(_enemy((3, 12), eta=6.0, tower="own_left", card="balloon"), "advancing left lane")
+    state = _state(elixir=9.0, units=[balloon], hand=["zap", "musketeer", "tesla", "knight"])
+    assert policy.spell_target("zap", "left", "bridge", state) is None
+    assert policy.spell_target("zap", "left", "mid", state) is None
+    assert policy.target_tile("zap|left|bridge", state) is None
+    decision = policy.decide(state, 10.0)
+    assert decision.act and "zap" not in (decision.allowed_cards or ())
+    assert policy.filter_candidates(_cands("zap|left|bridge", "zap|left|mid"), ActDecision(True, "learned", None, "x"), state) == []
+    assert policy.no_blind_spells(_cands("zap|left|bridge"), state) == []
+
+
+def test_ah_spells_are_valued_by_what_they_kill():
+    policy = _sim()
+    bats = [_enemy((3, 8), card="bats"), _enemy((4, 10), card="bats")]
+    target = policy.spell_target("zap", "left", "mid", _state(units=bats))
+    assert target is not None and target[1] == 2.0 and target[2] == 2           # both bats die: their full 2 elixir
+    witch = _state(units=[*bats, _enemy((4, 9), card="night-witch"), _enemy((3, 9), card="electro-wizard")])
+    value = policy.spell_target("zap", "left", "mid", witch)[1]
+    assert 2.9 < value < 3.0                                                  # bats dead + a bit of the witch and the wizard
+    # a fireball on a pair of archers is not worth its 4 elixir (they are worth 3); with a musketeer next to them it is
+    archers = [_enemy((3, 8), card="archers"), _enemy((4, 9), card="archers")]
+    assert policy.spell_target("fireball", "left", "mid", _state(units=archers)) is None
+    mixed = _state(units=[*archers, _enemy((3, 9), card="musketeer")])
+    assert policy.spell_target("fireball", "left", "mid", mixed)[1] == pytest.approx(3.0 + 0.5 * 4 * 1007 / 1056, abs=0.01)
+    # three skeletons (1 elixir) are not worth a zap (2), a lone giant never is
+    assert policy.spell_target("zap", "left", "mid", _state(units=[_enemy((3, 8 + i * 0.3), card="skeletons")
+                                                                   for i in range(3)])) is None
+    # the old elixir-sum rule is one flag away
+    old = _sim(price_spells=False)
+    assert old.spell_target("zap", "left", "mid", _state(units=[_enemy((3, 8), card="knight")])) is not None
+    assert policy.spell_target("zap", "left", "mid", _state(units=[_enemy((3, 8), card="knight")])) is None
+
+
+def test_ah_a_move_without_a_simulation_verdict_keeps_the_role_rule():
+    moves = [_move("ice-spirit", 0.5, stop="low"), _move("magic-archer", 0.9, stop="medium")]
+    assert all(m.adequate is None for m in moves)
+    fake = FakeEngine(moves, 3.0, lane="left", heavy=True)
+    d = ReactivePolicy(CARDS, engine=fake).decide(_state(elixir=5.0, units=[_enemy((4, 10), eta=3.0)]), 10.0)
+    assert d.act and d.allowed_cards == frozenset({"magic-archer"})
+    # ... and a verdict from the simulation wins over the role class
+    moves = [TacticalMove("ice-spirit", "ice-spirit|left|mid", [4.5, 8.5], "defend", "x", 0.5, 1.0, stop="low", adequate=True),
+             TacticalMove("magic-archer", "magic-archer|left|mid", [4.5, 8.5], "defend", "x", 0.9, 1.0, stop="medium",
+                          adequate=False)]
+    d = ReactivePolicy(CARDS, engine=FakeEngine(moves, 2.0, lane="left", heavy=True)).decide(
+        _state(elixir=5.0, units=[_enemy((4, 10), eta=2.0)]), 10.0)
+    assert d.act and d.allowed_cards == frozenset({"ice-spirit"})

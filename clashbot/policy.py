@@ -27,6 +27,11 @@ engine's best move. Every act carries `engine_tiles` (card -> the engine's tile 
 uses instead of the pro-median tile of a lookup candidate. A flyer is never answered with a ground-only card, a building
 is a pull only while the threat can still be pulled (it has crossed the river and not locked on its tower), and a second
 card of the same role class is not played against a push within the commitment window.
+Threat model (MAC-AH): the engine's pushes come ranked by what they would do to the tower. A push the tower handles is a
+hold (mode `save`, "tower handles ..."); a move is adequate when the engine's simulation says so (the role rule is the
+fallback for cards without stats); a smaller push may not spend the elixir of the best adequate answer to a bigger one
+that reaches us within `RESERVE_WINDOW_S`; a damage spell is worth casting when what it kills and damages pays its cost
+(`price_spells=False` brings back the elixir-sum rule).
 """
 from __future__ import annotations
 
@@ -37,6 +42,7 @@ from typing import Any, NamedTuple
 from clashbot import d1_format
 from clashbot.card_roles import hits_air, load_roles
 from clashbot.game_rules import action_key, lane_of, legal_cards, load_cards, zone_of
+from clashbot.unit_stats import spell_stat, spell_value
 
 DEFEND_ETA_S = 4.0          # an enemy unit this close (seconds) to one of our towers must be answered now
 LEAK_ELIXIR = 9.5           # at (near) full elixir, waiting wastes elixir
@@ -67,6 +73,7 @@ ANSWERED_MIN_ETA_S = 1.0    # an answered push this close to the tower is acted 
 NO_ADEQUATE_ETA_S = 2.5     # the hand holds nothing adequate: a low-stopping card may go this close
 COMMIT_S = 4.0              # a card the policy chose to answer a push counts as answering it this long
 DEFAULT_ANSWERED_FRAC = 0.6
+RESERVE_WINDOW_S = 10.0     # a bigger push this close (tracker or simulated ETA) keeps the elixir of its answer (MAC-AH)
 
 # offence windows (MAC-AG)
 COUNTER_MIN_SCORE = 0.5     # the engine's best offence move needs this score for a `counter` act
@@ -184,6 +191,7 @@ class _Plan:
     commit: tuple | None = None                      # ((push lane, lead card), card chosen) of that act
     hold: ActDecision | None = None                  # else the first push's hold (answered, saving, waiting, nothing)
     reserve: tuple[float, str] | None = None         # elixir the answer to the first unanswered push still needs, its name
+    reserve_push: Any = None                         # ... and that push (a smaller push may not spend the reserve, MAC-AH)
     calm: bool = True                                # every push is answered or farther out than `counter_eta_s`
 
 
@@ -208,8 +216,10 @@ class ReactivePolicy:
                  punish_own_elixir: float = PUNISH_OWN_ELIXIR, engine=None, save_margin_s: float = SAVE_MARGIN_S,
                  emergency_eta_s: float = EMERGENCY_ETA_S, adequate_margin: float = ADEQUATE_MARGIN,
                  building_window_s: float = BUILDING_WINDOW_S, commit_s: float = COMMIT_S,
-                 counter_min_score: float = COUNTER_MIN_SCORE, counter_eta_s: float = COUNTER_CALM_ETA_S):
+                 counter_min_score: float = COUNTER_MIN_SCORE, counter_eta_s: float = COUNTER_CALM_ETA_S,
+                 price_spells: bool = True):
         self.cards = cards if cards is not None else load_cards()
+        self.price_spells = price_spells        # MAC-AH: a damage spell is valued by what it kills (False: elixir sum)
         self.defend_eta_s = defend_eta_s
         self.leak_elixir = leak_elixir
         self.punish_opp_elixir = punish_opp_elixir
@@ -369,9 +379,13 @@ class ReactivePolicy:
         (a building, a tank killer, a troop with dps), or a spell that hits its cost back (MAC-Y2); a push of swarm or
         light units is stopped by anything. A move that does not say how well it stops (`n/a`) counts. A card that
         cannot hit the flyer leading the push does not (MAC-AG), and a building does not once the building targeter
-        has locked on its tower."""
+        has locked on its tower. MAC-AH: when the engine simulated the move (`adequate` is not None) its verdict stands -
+        the tower damage left is small, or nothing reaches the tower - and the role rule above is only the fallback."""
         if self._air_blocked(move.card, push) or self._pull_lost(move.card, push):
             return False
+        verdict = getattr(move, "adequate", None)
+        if verdict is not None:
+            return bool(verdict)
         if not self._traits(push)[0]:
             return True
         if move.stop == "low":
@@ -509,12 +523,19 @@ class ReactivePolicy:
         missing, fails, or sees no push among the units that are coming (the old rule applies)."""
         engine = self._get_engine()
         coming = [u for eta, u, _ in threats + watch if u.get("card") or eta <= UNKNOWN_ETA_S]
+        if report is not None:       # MAC-AH: the units of a push the engine listed for the river / bridge count too
+            coming += [u for p in report.pushes if getattr(p, "early", False) for u in p.units if not self._ignored(u)]
         if engine is None or report is None or not coming:
             return None
         try:
             pushes = [p for p in report.pushes if any(x is c for x in p.units for c in coming)]
             plan = _Plan()
-            for push in pushes:
+            for push in pushes:                                 # the engine ranks them: the biggest threat first
+                if getattr(push, "tower_ok", False):
+                    plan.hold = plan.hold or ActDecision(
+                        False, "save", None, f"tower handles {self._name(push.units[0])} {push.lane}",
+                        threat=push.units[0])
+                    continue
                 names = self._answered_names(engine, push, t)
                 if names and push.eta_s > ANSWERED_MIN_ETA_S:
                     plan.hold = plan.hold or ActDecision(
@@ -526,15 +547,42 @@ class ReactivePolicy:
                 now, full = self._push_moves(engine, state, report, push, t)
                 now, full = self._without_repeats(now, push, t), self._without_repeats(full, push, t)
                 decision, card = self._judge(state, push, now, full)
+                if decision.act and plan.reserve is not None and not getattr(push, "destroys_tower", False):
+                    decision, card = self._keep_reserve(state, plan, push, now, decision, card)
+                    if not decision.act:
+                        plan.hold = decision                    # the clearest reason why this push waits
                 if decision.act:
                     plan.act, plan.commit = decision, (self._push_key(push), card)
                     return plan
                 plan.hold = plan.hold or decision
                 if plan.reserve is None:
                     plan.reserve = self._reserve(full, push)
+                    plan.reserve_push = push if plan.reserve is not None else None
         except Exception:                                       # noqa: BLE001  never worse than the old rule
             return None
         return plan if pushes else None
+
+    def _keep_reserve(self, state: dict, plan: _Plan, push, now: list, decision: ActDecision,
+                      card: str | None) -> tuple[ActDecision, str | None]:
+        """A bigger push (`plan.reserve_push`) that reaches us within RESERVE_WINDOW_S keeps the elixir of its best
+        adequate answer: this smaller push may only use the cards that leave it. If none does, hold (MAC-AH)."""
+        big = plan.reserve_push
+        keep, name = plan.reserve
+        sim_eta = getattr(big, "sim_eta_s", None)
+        if big is None or min(big.eta_s, sim_eta if sim_eta is not None else big.eta_s) > RESERVE_WINDOW_S:
+            return decision, card
+        elixir = state["own"].get("elixir") or 0.0
+        allowed = frozenset(c for c in (decision.allowed_cards or ()) if elixir - self._cost(c) >= keep)
+        if allowed:
+            if card in allowed:
+                return decision, card
+            best = max((m for m in now if m.card in allowed), key=lambda m: m.score)
+            what = f"{self._name(push.units[0])} {decision.lane}"
+            return ActDecision(True, "defend", decision.lane, f"defend {what}: {best.card} ({best.stop})",
+                               threat=decision.threat, allowed_cards=allowed, engine_tiles=decision.engine_tiles), \
+                best.card
+        return ActDecision(False, "save", None, f"keep {keep:g} elixir for the {name}, not for {push.lane}",
+                           threat=decision.threat), None
 
     def _defend_old(self, threats: list[_Seen]) -> ActDecision:
         """The rule before the engine: the most urgent threat is answered now with whatever fits (any card)."""
@@ -571,7 +619,8 @@ class ReactivePolicy:
 
         threats, watch = self._classify(state)
         report = self._analyse(state, t)
-        plan = self._plan(state, t, report, threats, watch) if (threats or watch) else None
+        early = report is not None and any(getattr(p, "early", False) for p in report.pushes)
+        plan = self._plan(state, t, report, threats, watch) if (threats or watch or early) else None
         if plan is not None and plan.act is not None:
             if self.commit_s > 0:
                 self._acted[plan.commit[0]] = (t, plan.commit[1])
@@ -645,14 +694,19 @@ class ReactivePolicy:
         members of a centre are all counted units, in any lane, whose lead tile is within the spell radius."""
         r = SPELL_RADIUS.get(card, DEFAULT_SPELL_RADIUS)
         lead = SPELL_LEAD_S.get(card, DEFAULT_SPELL_LEAD_S)
+        priced = self.price_spells and spell_stat(card) is not None   # MAC-AH: valued by what it kills, if it has numbers
         counted = [(u, _lead_tile(u, lead)) for u in _enemy_units(state) if self._counted(u)]
         centres = [lt for u, lt in counted if (lane_of(_tile(u)), zone_of(_tile(u))) == (lane, zone)]
         best: tuple[float, int, float] | None = None
         best_leads: list[list[float]] = []
         for c in centres:
             members = [(u, lt) for u, lt in counted if math.dist(c, lt) <= r]
-            known = {u.get("card") for u, _ in members if (self.cards.get(u.get("card")) or {}).get("elixir_cost")}
-            value = sum(float(self.cards[k]["elixir_cost"]) for k in known)
+            if priced:
+                value = spell_value(card, [u for u, _ in members], self.cards)[0]
+            else:
+                known = {u.get("card") for u, _ in members
+                         if (self.cards.get(u.get("card")) or {}).get("elixir_cost")}
+                value = sum(float(self.cards[k]["elixir_cost"]) for k in known)
             rank = (value, len(members), -c[1])             # ties: the smaller row (our side), then the first centre
             if best is None or rank > best:
                 best, best_leads = rank, [lt for _, lt in members]
@@ -660,7 +714,10 @@ class ReactivePolicy:
             return None
         value, count = best[0], best[1]
         cost = (self.cards.get(card) or {}).get("elixir_cost")
-        if not (cost is not None and value >= float(cost)) and count < SWARM_MIN_UNITS:
+        if priced:
+            if cost is not None and value < float(cost):    # kills and damage must pay for the spell (no swarm escape)
+                return None
+        elif not (cost is not None and value >= float(cost)) and count < SWARM_MIN_UNITS:
             return None
         x = min(max(sum(m[0] for m in best_leads) / count, 0.0), ARENA_COLS - 1.0)
         y = min(max(sum(m[1] for m in best_leads) / count, 0.0), ARENA_ROWS - 1.0)

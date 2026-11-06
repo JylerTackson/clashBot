@@ -1,0 +1,5 @@
+{"opponent_default": 15,
+ "own": {"knight": 16, "electro-dragon": 16, "ram-rider": 16, "mini-p-e-k-k-a": 15, "tesla": 15, "musketeer": 15,
+         "fireball": 15, "zap": 15, "princess": 15, "goblin-barrel": 14, "bowler": 14, "baby-dragon": 14,
+         "electro-spirit": 14, "bomber": 14, "freeze": 14, "goblins": 14},
+ "own_default": 14, "tower_level": 15}
