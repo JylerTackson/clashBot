@@ -208,10 +208,11 @@ class FastActPolicy:
     """Learned play/wait decision on structured features (MAC-AB A1); same contract and safety rules as
     `LearnedActPolicy`.
 
-    No affordable card -> none; a threat to answer (defend) or a full bar (leak) -> act, whatever the model says. In
-    every other moment p(act) >= threshold plays (keeping the rule's mode and lane when the rules also wanted a
-    punish, else mode "learned"), else hold. `model.p_act(state, t)` is an `ActGBDT`; the model is cheap enough to
-    be asked on every frame, so nothing is cached."""
+    No affordable card -> none; a threat to answer (defend) or a full bar (leak) -> act, whatever the model says; a
+    save (the rules wait for a better answer, MAC-AC) -> hold, whatever the model says. In every other moment
+    p(act) >= threshold plays (keeping the rule's mode and lane when the rules also wanted a punish, else mode
+    "learned"), else hold. `model.p_act(state, t)` is an `ActGBDT`; the model is cheap enough to be asked on every
+    frame, so nothing is cached."""
 
     def __init__(self, model, cards: dict | None = None, threshold: float | None = None,
                  rules: ReactivePolicy | None = None):
@@ -224,7 +225,7 @@ class FastActPolicy:
     def decide(self, state: dict, t: float, context_text: str | None = None) -> ActDecision:
         """`context_text` is accepted for the policy interface of the live loop and ignored."""
         r = self.rules.decide(state, t)
-        if r.mode == "none":
+        if r.mode in ("none", "save"):         # no card, or the rules wait for a better answer (MAC-AC): never overridden
             return r
         if r.act and r.mode in ("defend", "leak"):
             return r

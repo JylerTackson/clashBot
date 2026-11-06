@@ -21,6 +21,7 @@ from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.live import build_parser, main  # noqa: E402
 from clashbot.policy import ActDecision, ReactivePolicy  # noqa: E402
 from tests.test_act_head import _cands, _enemy, _patch_main, _run_main, _with  # noqa: E402
+from tests.test_policy import ENGINE, HAND as POLICY_HAND, _giant, _state as _policy_state  # noqa: E402
 from tests.test_live_loop import FakeBuilder, FakeExecutor, _argv, _loop  # noqa: E402
 from tools.eval.eval_act_head import pick_threshold  # noqa: E402
 from tools.train import train_act_gbdt as tag  # noqa: E402
@@ -364,6 +365,19 @@ def test_defend_and_leak_pass_through_whatever_p_is(p):
     d = policy.decide(_with(elixir=10.0), 20.0, "ignored context")
     assert d.act and d.mode == "leak"
     assert model.calls == []                                   # the safety modes do not need the model
+
+
+@pytest.mark.parametrize("p", [0.0, 1.0])
+def test_a_save_is_a_rule_level_hold_the_model_never_overrides(p):
+    # MAC-AC: the rules wait for a better answer (giant 3.5 s out, 3 elixir, bomb tower one elixir away)
+    # (the engine is the default-weights one of test_policy: the test reads its scores)
+    state = _policy_state(elixir=3.0, units=[_giant(eta=3.5, tile=(14, 10))], hand=POLICY_HAND)
+    rules = ReactivePolicy(CARDS, engine=ENGINE)
+    rule = rules.decide(state, 10.0)
+    assert not rule.act and rule.mode == "save" and rule.reason.startswith("save for bomb-tower")
+    model = FakeModel(p)
+    d = FastActPolicy(model, CARDS, threshold=0.5, rules=rules).decide(state, 10.0)
+    assert d == rule and model.calls == []                     # passed through unchanged, the model is never asked
 
 
 def test_p_at_or_above_the_threshold_acts_below_holds():

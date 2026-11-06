@@ -255,8 +255,15 @@ def _threat_state(units=None, elixir=5.0):
     return st
 
 
+class _RaisingEngine:
+    """The policy falls back to the old defend rule (no allowed_cards), so these tests keep testing the exemption."""
+
+    def analyse(self, state, t=None):
+        raise RuntimeError("no engine")
+
+
 def test_policy_keeps_a_tactical_candidate_outside_the_defended_lane_and_zone():
-    pol = ReactivePolicy(CARDS)
+    pol = ReactivePolicy(CARDS, engine=_RaisingEngine())
     state = _threat_state()
     decision = pol.decide(state, 10.0)
     assert decision.mode == "defend" and decision.lane == "right"
@@ -265,6 +272,20 @@ def test_policy_keeps_a_tactical_candidate_outside_the_defended_lane_and_zone():
     assert pol.filter_candidates([tesla, knight], decision, state) == [tesla, knight]       # order unchanged
     plain_tesla = replace(tesla, sources={"knn": 1.0})
     assert pol.filter_candidates([plain_tesla, knight], decision, state) == [knight]         # no "tac": old rule
+
+
+def test_allowed_cards_bind_tactical_candidates_too():
+    # MAC-AC: the exemption is from lane and zone only. A tactical candidate of a card the defend decision does not
+    # allow is dropped; one of an allowed card survives outside the threat lane and zone.
+    pol = ReactivePolicy(CARDS, engine=_RaisingEngine())
+    state = _threat_state()
+    decision = ActDecision(True, "defend", "right", "x", allowed_cards=frozenset({"knight"}))
+    tesla = Candidate("tesla|middle|mid", 0.9, {"tac": 0.9}, [10.5, 9.0])              # not allowed
+    knight = Candidate("knight|left|enemy_half", 0.8, {"tac": 0.8}, [3.5, 20.0])       # allowed, wrong lane and zone
+    plain = Candidate("knight|right|mid", 0.5, {"knn": 1.0})
+    assert pol.filter_candidates([tesla, knight, plain], decision, state) == [knight, plain]
+    assert pol.filter_candidates([tesla], decision, state) == []                       # nothing allowed: hold_policy
+    assert pol.filter_candidates([tesla, knight], replace(decision, allowed_cards=None), state) == [tesla, knight]
 
 
 def test_policy_exemption_covers_leak_and_punish_but_not_the_spell_rule():
@@ -283,7 +304,7 @@ def test_policy_exemption_covers_leak_and_punish_but_not_the_spell_rule():
 
 
 def test_policy_still_drops_a_tactical_spell_without_a_worthwhile_target():
-    pol = ReactivePolicy(CARDS)
+    pol = ReactivePolicy(CARDS, engine=_RaisingEngine())
     state = _threat_state()                                  # only a giant: a tank is not a spell target
     decision = pol.decide(state, 10.0)
     fireball = Candidate("fireball|right|mid", 0.9, {"tac": 0.9}, [14.5, 9.0])
