@@ -11,10 +11,13 @@ sys.path.insert(0, str(ROOT))
 from clashbot.candidates import Candidate  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.policy import ActDecision, LearnedActPolicy, ReactivePolicy, seconds_per_elixir  # noqa: E402
-from clashbot.tactics import Push, TacticalMove, TacticalReport  # noqa: E402
+from clashbot.tactics import DEFAULT_WEIGHTS, Push, TacticalEngine, TacticalMove, TacticalReport  # noqa: E402
 
 CARDS = load_cards()
-POLICY = ReactivePolicy(CARDS)                      # the real tactical engine, built on first use
+# The real tactical engine, pinned to its hand-set default weights: the tests below read its scores (which card is
+# adequate, when to save), so a retuned clashbot/resources/tactics_weights.json must not move them.
+ENGINE = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)
+POLICY = ReactivePolicy(CARDS, engine=ENGINE)
 
 
 class _BrokenEngine:
@@ -670,7 +673,7 @@ def test_real_engine_giant_far_off_with_two_elixir_is_not_answered_with_the_chea
     d = POLICY.decide(state, 10.0)
     assert not d.act and d.mode == "hold"
     # with the defend horizon opened to 10 s it is a threat, and the policy saves for the bomb tower
-    d = ReactivePolicy(CARDS, defend_eta_s=10.0).decide(state, 10.0)
+    d = ReactivePolicy(CARDS, engine=ENGINE, defend_eta_s=10.0).decide(state, 10.0)
     assert not d.act and d.mode == "save" and d.reason.startswith("save for bomb-tower vs giant")
     # 3.5 s out with 3 elixir: the bomb tower is 1 elixir (1.4 s) away and still in time
     near = _state(elixir=3.0, units=[_giant(eta=3.5, tile=(14, 10))], hand=HAND)
