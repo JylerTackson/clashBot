@@ -74,13 +74,14 @@ def _key_note(key: str, exact: dict[str, object], card_moves: dict[str, object],
               kg_n: dict[str, float], kg_threat: dict[str, str], filler: bool = False) -> str | None:
     """The one note builder behind `generate` and `option_notes`. `exact` maps the keys that are tactical moves to
     their move (exact tactics note); any other key gets its lookup note, joined with the card-level tactics note when
-    its card is the card of a report move (`card_moves`)."""
+    its card is the card of a report move (`card_moves`). The filler line (`filler=True`, no pro or counter support)
+    is only used when there is nothing else to say: a card note replaces it instead of being joined to it."""
     if key in exact:
         return _tac_note(exact[key], knn_n.get(key, 0.0))
-    note = _lookup_note(key, knn_n, kg_n, kg_threat, filler=filler)
+    note = _lookup_note(key, knn_n, kg_n, kg_threat)               # real support only
     move = card_moves.get(key.split("|", 1)[0])
     if move is None:
-        return note
+        return note or (FILLER_NOTE if filler else None)
     card_note = _tac_card_note(move)
     return f"{note}; {card_note}" if note else card_note
 

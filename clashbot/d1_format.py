@@ -17,7 +17,7 @@ ACT_CRITERIA = {"true": "deploy a card now", "false": "wait and keep elixir"}
 
 _QUESTION_TYPES = {"choice", "score", "noul"}
 NOTE_SEP = " \u2014 "         # option description + " — " + note
-NOTE_MAX_CHARS = 120
+NOTE_MAX_CHARS = 160
 
 
 def state_string(context_text: str, plan: str | None = None) -> str:
