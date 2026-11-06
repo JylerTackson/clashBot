@@ -157,3 +157,14 @@ User: *"Can we also try using a bigger LLM, we have 32 GB of ram"*. From the sug
 3. A `train_d1.py` port for the d1-2B internals (partial-layer fine-tune; fits 32 GB) as a spec, then fine-tune the next night.
 4. Coach: planner backend `Qwen3-14B-4bit` (non-thinking), with the tactics lines and lookup summary in its prompt, timed and benchmarked with `tools/eval/bench_planner.py`.
 d1-3B and Qwen3-30B-A3B stay as alternatives.
+
+### D-047 · Deck by card level: the user's level-15/16 cards · decided (user) · 2026-11-06
+User: *"all the cards we are using is 3 levels underleved, the level of the training camp cards is 15 and we are using cards that are level ~12 … You need to make a deck utilizing these cards so you can actually fight the level 15 cards of the training camp."*
+- **User levels:**
+  - 16: knight, electro-dragon, ram-rider;
+  - 15: mini-p-e-k-k-a, tesla, musketeer, fireball, zap, princess;
+  - 14: goblin-barrel, bowler, baby-dragon, electro-spirit, bomber, freeze, goblins.
+- **The D-044 deck was a mistake.** It was chosen for knowledge-base coverage without asking for card levels.
+- **New deck (average level 15.4, 3.9 elixir):** ram-rider, knight, electro-dragon, mini-p-e-k-k-a, tesla, musketeer (hero), fireball, zap. Picked for answers to the Training Camp pushes seen live (giant, balloon, bats, night witch, graveyard, mini P.E.K.K.A).
+- **Alternative:** electro-spirit instead of electro-dragon (3.4 elixir).
+- **Trade-off:** ram-rider, electro-dragon and mini-p-e-k-k-a have no pro plays in the knowledge base. Lookup notes are thin for them, so the tactics notes and engine carry those cards (D-042).
