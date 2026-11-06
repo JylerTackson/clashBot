@@ -1,0 +1,2818 @@
+{
+  "d1_eval": "/Users/tylerjackson/Projects/clashbot/clashBot/.claude/worktrees/agent-ad98e1b82bceca416/dataset/v1/eval/d1_eval_transformers_d1-ft-joint.json",
+  "lines": "/Users/tylerjackson/Projects/clashbot/clashBot/.claude/worktrees/agent-ad98e1b82bceca416/dataset/v1/d1/joint_tac",
+  "grid": {
+    "conf": [
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8
+    ],
+    "knn_min": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "urgent_eta_s": [
+      2.0,
+      4.0,
+      6.0
+    ]
+  },
+  "defaults": {
+    "conf": 0.55,
+    "knn_min": 0.5,
+    "urgent_eta_s": 4.0
+  },
+  "checks": {
+    "val": {
+      "lines": 761,
+      "joined": 761,
+      "missing_d1": 0,
+      "size_mismatch": 0,
+      "pred_mismatch": 0,
+      "gold_mismatch": 0
+    },
+    "test": {
+      "lines": 766,
+      "joined": 766,
+      "missing_d1": 0,
+      "size_mismatch": 0,
+      "pred_mismatch": 0,
+      "gold_mismatch": 0
+    }
+  },
+  "coverage": {
+    "val": {
+      "n": 761,
+      "mean_options": 4.0,
+      "with_tac": 0.0972,
+      "with_knn": 0.3666,
+      "with_knn_ge_0.5": 0.3285,
+      "with_kg": 0.0526,
+      "gold_has_tac": 0.046,
+      "gold_has_knn": 0.1564,
+      "gold_has_knn_ge_0.5": 0.138,
+      "gold_has_kg": 0.0145,
+      "with_push": 0.4284,
+      "urgent_2s": 0.1445,
+      "urgent_2s_with_tac": 0.0184,
+      "urgent_4s": 0.2208,
+      "urgent_4s_with_tac": 0.0329,
+      "urgent_6s": 0.3246,
+      "urgent_6s_with_tac": 0.0565
+    },
+    "test": {
+      "n": 766,
+      "mean_options": 4.0,
+      "with_tac": 0.0757,
+      "with_knn": 0.3708,
+      "with_knn_ge_0.5": 0.3055,
+      "with_kg": 0.0392,
+      "gold_has_tac": 0.0261,
+      "gold_has_knn": 0.171,
+      "gold_has_knn_ge_0.5": 0.1292,
+      "gold_has_kg": 0.0183,
+      "with_push": 0.3916,
+      "urgent_2s": 0.1097,
+      "urgent_2s_with_tac": 0.0117,
+      "urgent_4s": 0.1802,
+      "urgent_4s_with_tac": 0.0261,
+      "urgent_6s": 0.252,
+      "urgent_6s_with_tac": 0.0431
+    }
+  },
+  "calibration": {
+    "val": [
+      {
+        "conf": 0.3,
+        "confident": 735,
+        "acc_confident": 0.5347,
+        "unsure": 26,
+        "acc_unsure": 0.2308
+      },
+      {
+        "conf": 0.35,
+        "confident": 646,
+        "acc_confident": 0.5557,
+        "unsure": 115,
+        "acc_unsure": 0.3478
+      },
+      {
+        "conf": 0.4,
+        "confident": 557,
+        "acc_confident": 0.5871,
+        "unsure": 204,
+        "acc_unsure": 0.3529
+      },
+      {
+        "conf": 0.45,
+        "confident": 454,
+        "acc_confident": 0.6344,
+        "unsure": 307,
+        "acc_unsure": 0.3616
+      },
+      {
+        "conf": 0.5,
+        "confident": 373,
+        "acc_confident": 0.6381,
+        "unsure": 388,
+        "acc_unsure": 0.4149
+      },
+      {
+        "conf": 0.55,
+        "confident": 290,
+        "acc_confident": 0.6517,
+        "unsure": 471,
+        "acc_unsure": 0.4459
+      },
+      {
+        "conf": 0.6,
+        "confident": 202,
+        "acc_confident": 0.7178,
+        "unsure": 559,
+        "acc_unsure": 0.4544
+      },
+      {
+        "conf": 0.65,
+        "confident": 161,
+        "acc_confident": 0.7578,
+        "unsure": 600,
+        "acc_unsure": 0.4617
+      },
+      {
+        "conf": 0.7,
+        "confident": 124,
+        "acc_confident": 0.8306,
+        "unsure": 637,
+        "acc_unsure": 0.4647
+      },
+      {
+        "conf": 0.75,
+        "confident": 95,
+        "acc_confident": 0.8737,
+        "unsure": 666,
+        "acc_unsure": 0.4745
+      },
+      {
+        "conf": 0.8,
+        "confident": 67,
+        "acc_confident": 0.9403,
+        "unsure": 694,
+        "acc_unsure": 0.4841
+      }
+    ],
+    "test": [
+      {
+        "conf": 0.3,
+        "confident": 744,
+        "acc_confident": 0.4919,
+        "unsure": 22,
+        "acc_unsure": 0.1818
+      },
+      {
+        "conf": 0.35,
+        "confident": 646,
+        "acc_confident": 0.5155,
+        "unsure": 120,
+        "acc_unsure": 0.3083
+      },
+      {
+        "conf": 0.4,
+        "confident": 528,
+        "acc_confident": 0.5265,
+        "unsure": 238,
+        "acc_unsure": 0.3866
+      },
+      {
+        "conf": 0.45,
+        "confident": 382,
+        "acc_confident": 0.5812,
+        "unsure": 384,
+        "acc_unsure": 0.3854
+      },
+      {
+        "conf": 0.5,
+        "confident": 293,
+        "acc_confident": 0.6143,
+        "unsure": 473,
+        "acc_unsure": 0.4017
+      },
+      {
+        "conf": 0.55,
+        "confident": 207,
+        "acc_confident": 0.6522,
+        "unsure": 559,
+        "acc_unsure": 0.4204
+      },
+      {
+        "conf": 0.6,
+        "confident": 148,
+        "acc_confident": 0.7297,
+        "unsure": 618,
+        "acc_unsure": 0.4239
+      },
+      {
+        "conf": 0.65,
+        "confident": 103,
+        "acc_confident": 0.7961,
+        "unsure": 663,
+        "acc_unsure": 0.4344
+      },
+      {
+        "conf": 0.7,
+        "confident": 65,
+        "acc_confident": 0.8462,
+        "unsure": 701,
+        "acc_unsure": 0.4494
+      },
+      {
+        "conf": 0.75,
+        "confident": 43,
+        "acc_confident": 0.8605,
+        "unsure": 723,
+        "acc_unsure": 0.4606
+      },
+      {
+        "conf": 0.8,
+        "confident": 27,
+        "acc_confident": 0.963,
+        "unsure": 739,
+        "acc_unsure": 0.4655
+      }
+    ]
+  },
+  "strategies": {
+    "d1": {
+      "label": "d1 alone",
+      "llm_decides": true,
+      "params": null,
+      "val": {
+        "n": 761,
+        "correct": 399,
+        "acc": 0.5243,
+        "changed": 0,
+        "fixed": 0,
+        "broken": 0,
+        "rules": {
+          "d1": {
+            "fired": 761,
+            "share": 1.0,
+            "acc": 0.5243,
+            "d1_acc": 0.5243,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          }
+        }
+      },
+      "test": {
+        "n": 766,
+        "correct": 370,
+        "acc": 0.483,
+        "changed": 0,
+        "fixed": 0,
+        "broken": 0,
+        "rules": {
+          "d1": {
+            "fired": 766,
+            "share": 1.0,
+            "acc": 0.483,
+            "d1_acc": 0.483,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          }
+        }
+      }
+    },
+    "restrict_tac_knn": {
+      "label": "d1 restricted to tac + best lookup when unsure",
+      "llm_decides": true,
+      "params": {
+        "conf": 0.4
+      },
+      "val": {
+        "n": 761,
+        "correct": 400,
+        "acc": 0.5256,
+        "changed": 14,
+        "fixed": 6,
+        "broken": 5,
+        "rules": {
+          "d1 confident": {
+            "fired": 557,
+            "share": 0.7319,
+            "acc": 0.5871,
+            "d1_acc": 0.5871,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1": {
+            "fired": 178,
+            "share": 0.2339,
+            "acc": 0.3539,
+            "d1_acc": 0.3539,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 among tactics+lookup": {
+            "fired": 26,
+            "share": 0.0342,
+            "acc": 0.3846,
+            "d1_acc": 0.3462,
+            "gold_in_subset": 0.4231,
+            "d1_in_subset": 0.4615,
+            "mean_subset": 1.69,
+            "changed": 14
+          }
+        }
+      },
+      "test": {
+        "n": 766,
+        "correct": 368,
+        "acc": 0.4804,
+        "changed": 12,
+        "fixed": 3,
+        "broken": 5,
+        "rules": {
+          "d1": {
+            "fired": 217,
+            "share": 0.2833,
+            "acc": 0.3779,
+            "d1_acc": 0.3779,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 confident": {
+            "fired": 528,
+            "share": 0.6893,
+            "acc": 0.5265,
+            "d1_acc": 0.5265,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 among tactics+lookup": {
+            "fired": 21,
+            "share": 0.0274,
+            "acc": 0.381,
+            "d1_acc": 0.4762,
+            "gold_in_subset": 0.4286,
+            "d1_in_subset": 0.4286,
+            "mean_subset": 1.62,
+            "changed": 12
+          }
+        }
+      }
+    },
+    "restrict_knn_tac": {
+      "label": "d1 restricted to kNN + tac when unsure",
+      "llm_decides": true,
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.4
+      },
+      "val": {
+        "n": 761,
+        "correct": 399,
+        "acc": 0.5243,
+        "changed": 9,
+        "fixed": 2,
+        "broken": 2,
+        "rules": {
+          "d1 confident": {
+            "fired": 735,
+            "share": 0.9658,
+            "acc": 0.5347,
+            "d1_acc": 0.5347,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1": {
+            "fired": 14,
+            "share": 0.0184,
+            "acc": 0.2857,
+            "d1_acc": 0.2857,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 among pro-supported + tactics": {
+            "fired": 12,
+            "share": 0.0158,
+            "acc": 0.1667,
+            "d1_acc": 0.1667,
+            "gold_in_subset": 0.1667,
+            "d1_in_subset": 0.25,
+            "mean_subset": 1.17,
+            "changed": 9
+          }
+        }
+      },
+      "test": {
+        "n": 766,
+        "correct": 370,
+        "acc": 0.483,
+        "changed": 3,
+        "fixed": 0,
+        "broken": 0,
+        "rules": {
+          "d1 confident": {
+            "fired": 744,
+            "share": 0.9713,
+            "acc": 0.4919,
+            "d1_acc": 0.4919,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1": {
+            "fired": 15,
+            "share": 0.0196,
+            "acc": 0.2,
+            "d1_acc": 0.2,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 among pro-supported + tactics": {
+            "fired": 7,
+            "share": 0.0091,
+            "acc": 0.1429,
+            "d1_acc": 0.1429,
+            "gold_in_subset": 0.2857,
+            "d1_in_subset": 0.5714,
+            "mean_subset": 1.57,
+            "changed": 3
+          }
+        }
+      }
+    },
+    "arbiter_default": {
+      "label": "arbiter, default config",
+      "llm_decides": true,
+      "params": null,
+      "val": {
+        "n": 761,
+        "correct": 382,
+        "acc": 0.502,
+        "changed": 91,
+        "fixed": 20,
+        "broken": 37,
+        "rules": {
+          "d1": {
+            "fired": 298,
+            "share": 0.3916,
+            "acc": 0.4597,
+            "d1_acc": 0.4597,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 among pro-supported + tactics": {
+            "fired": 157,
+            "share": 0.2063,
+            "acc": 0.2803,
+            "d1_acc": 0.3949,
+            "gold_in_subset": 0.3312,
+            "d1_in_subset": 0.4522,
+            "mean_subset": 1.29,
+            "changed": 86
+          },
+          "d1 confident": {
+            "fired": 290,
+            "share": 0.3811,
+            "acc": 0.6517,
+            "d1_acc": 0.6517,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "urgent push: d1 among tactics+lookup": {
+            "fired": 16,
+            "share": 0.021,
+            "acc": 0.75,
+            "d1_acc": 0.6875,
+            "gold_in_subset": 0.75,
+            "d1_in_subset": 0.6875,
+            "mean_subset": 1.44,
+            "changed": 5
+          }
+        }
+      },
+      "test": {
+        "n": 766,
+        "correct": 365,
+        "acc": 0.4765,
+        "changed": 101,
+        "fixed": 32,
+        "broken": 37,
+        "rules": {
+          "d1": {
+            "fired": 376,
+            "share": 0.4909,
+            "acc": 0.4309,
+            "d1_acc": 0.4309,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 confident": {
+            "fired": 207,
+            "share": 0.2702,
+            "acc": 0.6522,
+            "d1_acc": 0.6522,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 among pro-supported + tactics": {
+            "fired": 166,
+            "share": 0.2167,
+            "acc": 0.3675,
+            "d1_acc": 0.4036,
+            "gold_in_subset": 0.3916,
+            "d1_in_subset": 0.4458,
+            "mean_subset": 1.22,
+            "changed": 92
+          },
+          "urgent push: d1 among tactics+lookup": {
+            "fired": 17,
+            "share": 0.0222,
+            "acc": 0.4118,
+            "d1_acc": 0.3529,
+            "gold_in_subset": 0.4706,
+            "d1_in_subset": 0.4706,
+            "mean_subset": 1.65,
+            "changed": 9
+          }
+        }
+      }
+    },
+    "arbiter": {
+      "label": "arbiter, grid chosen on val",
+      "llm_decides": true,
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val": {
+        "n": 761,
+        "correct": 400,
+        "acc": 0.5256,
+        "changed": 10,
+        "fixed": 3,
+        "broken": 2,
+        "rules": {
+          "d1 confident": {
+            "fired": 735,
+            "share": 0.9658,
+            "acc": 0.5347,
+            "d1_acc": 0.5347,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1": {
+            "fired": 12,
+            "share": 0.0158,
+            "acc": 0.3333,
+            "d1_acc": 0.3333,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 among pro-supported + tactics": {
+            "fired": 12,
+            "share": 0.0158,
+            "acc": 0.1667,
+            "d1_acc": 0.1667,
+            "gold_in_subset": 0.1667,
+            "d1_in_subset": 0.25,
+            "mean_subset": 1.17,
+            "changed": 9
+          },
+          "urgent push: d1 among tactics+lookup": {
+            "fired": 2,
+            "share": 0.0026,
+            "acc": 0.5,
+            "d1_acc": 0.0,
+            "gold_in_subset": 0.5,
+            "d1_in_subset": 0.5,
+            "mean_subset": 1.5,
+            "changed": 1
+          }
+        }
+      },
+      "test": {
+        "n": 766,
+        "correct": 370,
+        "acc": 0.483,
+        "changed": 3,
+        "fixed": 0,
+        "broken": 0,
+        "rules": {
+          "d1 confident": {
+            "fired": 744,
+            "share": 0.9713,
+            "acc": 0.4919,
+            "d1_acc": 0.4919,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1": {
+            "fired": 15,
+            "share": 0.0196,
+            "acc": 0.2,
+            "d1_acc": 0.2,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "d1 among pro-supported + tactics": {
+            "fired": 7,
+            "share": 0.0091,
+            "acc": 0.1429,
+            "d1_acc": 0.1429,
+            "gold_in_subset": 0.2857,
+            "d1_in_subset": 0.5714,
+            "mean_subset": 1.57,
+            "changed": 3
+          }
+        }
+      }
+    },
+    "tactics_first": {
+      "label": "tactics-first (non-LLM baseline)",
+      "llm_decides": false,
+      "params": null,
+      "val": {
+        "n": 761,
+        "correct": 390,
+        "acc": 0.5125,
+        "changed": 40,
+        "fixed": 10,
+        "broken": 19,
+        "rules": {
+          "d1": {
+            "fired": 687,
+            "share": 0.9028,
+            "acc": 0.5167,
+            "d1_acc": 0.5167,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "tactics": {
+            "fired": 74,
+            "share": 0.0972,
+            "acc": 0.473,
+            "d1_acc": 0.5946,
+            "gold_in_subset": 0.473,
+            "d1_in_subset": 0.4595,
+            "mean_subset": 1.0,
+            "changed": 40
+          }
+        }
+      },
+      "test": {
+        "n": 766,
+        "correct": 359,
+        "acc": 0.4687,
+        "changed": 38,
+        "fixed": 7,
+        "broken": 18,
+        "rules": {
+          "d1": {
+            "fired": 708,
+            "share": 0.9243,
+            "acc": 0.4831,
+            "d1_acc": 0.4831,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "tactics": {
+            "fired": 58,
+            "share": 0.0757,
+            "acc": 0.2931,
+            "d1_acc": 0.4828,
+            "gold_in_subset": 0.2931,
+            "d1_in_subset": 0.3448,
+            "mean_subset": 1.0,
+            "changed": 38
+          }
+        }
+      }
+    },
+    "knn_first": {
+      "label": "knn-first (non-LLM baseline)",
+      "llm_decides": false,
+      "params": null,
+      "val": {
+        "n": 761,
+        "correct": 356,
+        "acc": 0.4678,
+        "changed": 155,
+        "fixed": 31,
+        "broken": 74,
+        "rules": {
+          "d1": {
+            "fired": 482,
+            "share": 0.6334,
+            "acc": 0.5332,
+            "d1_acc": 0.5332,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "knn": {
+            "fired": 279,
+            "share": 0.3666,
+            "acc": 0.3548,
+            "d1_acc": 0.509,
+            "gold_in_subset": 0.3548,
+            "d1_in_subset": 0.4444,
+            "mean_subset": 1.0,
+            "changed": 155
+          }
+        }
+      },
+      "test": {
+        "n": 766,
+        "correct": 349,
+        "acc": 0.4556,
+        "changed": 162,
+        "fixed": 45,
+        "broken": 66,
+        "rules": {
+          "d1": {
+            "fired": 482,
+            "share": 0.6292,
+            "acc": 0.5,
+            "d1_acc": 0.5,
+            "gold_in_subset": 1.0,
+            "d1_in_subset": 1.0,
+            "mean_subset": 4.0,
+            "changed": 0
+          },
+          "knn": {
+            "fired": 284,
+            "share": 0.3708,
+            "acc": 0.3803,
+            "d1_acc": 0.4542,
+            "gold_in_subset": 0.3803,
+            "d1_in_subset": 0.4296,
+            "mean_subset": 1.0,
+            "changed": 162
+          }
+        }
+      }
+    }
+  },
+  "arbiter_grid": [
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.523,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5177,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5191,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5191,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5191,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5204,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5204,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5151,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5151,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5138,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5151,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5138,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5125,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5138,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5125,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5151,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5177,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5177,
+      "test_acc": 0.4752
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5085,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5099,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4817
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5125,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5138,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5099,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5125,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5099,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5138,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5151,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5151,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5085,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5099,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4909
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4935
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5125,
+      "test_acc": 0.4935
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5138,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5085,
+      "test_acc": 0.4961
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5099,
+      "test_acc": 0.4961
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4948
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5046,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5046,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5046,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5085,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5085,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5085,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5033,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5033,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5046,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5059,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5059,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5072,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5033,
+      "test_acc": 0.4974
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5033,
+      "test_acc": 0.4974
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5046,
+      "test_acc": 0.4974
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4739
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4739
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4713
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4739
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4739
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4713
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.498,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.502,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4935
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4935
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.502,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4713
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4726
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4915,
+      "test_acc": 0.47
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4713
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4726
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.47
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4909
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4909
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4901,
+      "test_acc": 0.4713
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4901,
+      "test_acc": 0.4726
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4901,
+      "test_acc": 0.4687
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.47
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4713
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4674
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4888,
+      "test_acc": 0.4648
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4875,
+      "test_acc": 0.4661
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4888,
+      "test_acc": 0.4621
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4941,
+      "test_acc": 0.4634
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4648
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4941,
+      "test_acc": 0.4608
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4941,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.498,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.498,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4862,
+      "test_acc": 0.4634
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4849,
+      "test_acc": 0.4648
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4862,
+      "test_acc": 0.4608
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4621
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4915,
+      "test_acc": 0.4634
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4595
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4752
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4915,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4752
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4817
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.498,
+      "test_acc": 0.4817
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.2,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4862,
+      "test_acc": 0.4634
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.2,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4849,
+      "test_acc": 0.4648
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.2,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4862,
+      "test_acc": 0.4608
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.4,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4621
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.4,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4915,
+      "test_acc": 0.4634
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.4,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4595
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.6,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4752
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.6,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4915,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.6,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4752
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.8,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.8,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.8,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 1.0,
+        "urgent_eta_s": 2.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4817
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 1.0,
+        "urgent_eta_s": 4.0
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 1.0,
+        "urgent_eta_s": 6.0
+      },
+      "val_acc": 0.498,
+      "test_acc": 0.4817
+    }
+  ],
+  "restrict_tac_knn_grid": [
+    {
+      "params": {
+        "conf": 0.3
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.35
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.4
+      },
+      "val_acc": 0.5256,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.45
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.5
+      },
+      "val_acc": 0.5217,
+      "test_acc": 0.4817
+    },
+    {
+      "params": {
+        "conf": 0.55
+      },
+      "val_acc": 0.5191,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.6
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.65
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.7
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.75
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.8
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4778
+    }
+  ],
+  "restrict_knn_tac_grid": [
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.5243,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.3,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.523,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.5164,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.5177,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.5138,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.5125,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.35,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.5125,
+      "test_acc": 0.4817
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.5138,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.5059,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.5085,
+      "test_acc": 0.4869
+    },
+    {
+      "params": {
+        "conf": 0.4,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.5072,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.5072,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.5112,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.5059,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.5085,
+      "test_acc": 0.4935
+    },
+    {
+      "params": {
+        "conf": 0.45,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.5059,
+      "test_acc": 0.4961
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.502,
+      "test_acc": 0.4883
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.5059,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.502,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.5046,
+      "test_acc": 0.4922
+    },
+    {
+      "params": {
+        "conf": 0.5,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.502,
+      "test_acc": 0.4974
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.55,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4948
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.4915,
+      "test_acc": 0.4739
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4739
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.6,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4909
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.4888,
+      "test_acc": 0.4739
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.4941,
+      "test_acc": 0.4726
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4856
+    },
+    {
+      "params": {
+        "conf": 0.65,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4896
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.4875,
+      "test_acc": 0.4674
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4661
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.4954,
+      "test_acc": 0.4778
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.4804
+    },
+    {
+      "params": {
+        "conf": 0.7,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.5007,
+      "test_acc": 0.4843
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.4849,
+      "test_acc": 0.4661
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.4915,
+      "test_acc": 0.4648
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.75,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.483
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.2
+      },
+      "val_acc": 0.4849,
+      "test_acc": 0.4661
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.4
+      },
+      "val_acc": 0.4915,
+      "test_acc": 0.4648
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.6
+      },
+      "val_acc": 0.4928,
+      "test_acc": 0.4765
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 0.8
+      },
+      "val_acc": 0.4967,
+      "test_acc": 0.4791
+    },
+    {
+      "params": {
+        "conf": 0.8,
+        "knn_min": 1.0
+      },
+      "val_acc": 0.4993,
+      "test_acc": 0.483
+    }
+  ]
+}
