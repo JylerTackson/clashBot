@@ -2,12 +2,15 @@
 
   python3 tools/eval/eval_d1_zero_shot.py [--dataset DIR] [--backend mlx|transformers]
           [--variant joint|factorized|both] [--splits val,test] [--limit N] [--out PATH] [--model PATH]
+          [--dtype auto|bf16|fp16|fp32]
   python3 tools/eval/eval_d1_zero_shot.py --compare OUT_A OUT_B     # no model: agreement of two result files
 
 Reads <dataset>/d1/<variant>/<split>.jsonl and sends each line's `state` / `questions` as exported.
 Writes <dataset>/eval/d1_zero_shot_<backend>.json (or --out) and prints markdown tables.
 --model PATH evaluates a fine-tuned checkpoint (tools/train/train_d1.py) instead; the default --out is then
 <dataset>/eval/d1_eval_<backend>_<basename(PATH)>.json.
+--model LiquidAI/d1-2B (or a d1-2B fine-tune) works with --backend transformers; --dtype is the weights' dtype there
+(auto: bf16 for d1-2B, fp16 for d1-omni-600M, fp32 on the cpu).
 """
 from __future__ import annotations
 
@@ -22,7 +25,7 @@ sys.path.insert(0, str(ROOT))
 import numpy as np  # noqa: E402
 
 from clashbot.config import DATASET_DIR  # noqa: E402
-from clashbot.ranker import D1Ranker, argmax_first  # noqa: E402
+from clashbot.ranker import D1_DTYPES, D1Ranker, argmax_first  # noqa: E402
 
 VARIANTS = ("joint", "factorized")
 FACTORIZED_QUESTIONS = ("card", "lane", "zone")
@@ -190,6 +193,7 @@ def main(argv: list[str] | None = None) -> dict:
     ap.add_argument("--limit", type=int, default=None, help="first N lines per split and variant")
     ap.add_argument("--out", type=Path, default=None)
     ap.add_argument("--model", default=None, help="checkpoint dir (fine-tuned d1) instead of the zero-shot weights")
+    ap.add_argument("--dtype", choices=D1_DTYPES, default="auto", help="transformers backend: weights dtype")
     ap.add_argument("--compare", nargs=2, type=Path, metavar=("A", "B"))
     args = ap.parse_args(argv)
     if args.compare:
@@ -200,7 +204,7 @@ def main(argv: list[str] | None = None) -> dict:
     data = {(v, s): read_jsonl(args.dataset / "d1" / v / f"{s}.jsonl")[:args.limit]
             for v in variants for s in splits}
 
-    ranker = D1Ranker(model_path=args.model, backend=args.backend)
+    ranker = D1Ranker(model_path=args.model, backend=args.backend, dtype=args.dtype)
     first = next((lines[0] for lines in data.values() if lines), None)
     if first is not None:                                  # warm-up: model load + first call, not timed
         ranker.probabilities(first["state"], first["questions"])
@@ -209,6 +213,8 @@ def main(argv: list[str] | None = None) -> dict:
                     "baselines": load_baselines(args.dataset, splits), "limit": args.limit, "per_example": []}
     if args.model:
         result["model_path"] = args.model
+    if args.backend == "transformers":
+        result["dtype"] = args.dtype
     for v in variants:
         result["variants"][v] = {}
         for s in splits:
