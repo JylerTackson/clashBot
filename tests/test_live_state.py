@@ -556,6 +556,164 @@ def test_builder_new_match_resets_the_tracker():
     assert b.tracker.slots == [None] * 4
 
 
+# --------------------------------------------------------------------------- own-elixir accounting and failed taps (MAC-AC C2)
+
+def test_tracker_mark_failed_undoes_note_play():
+    tr = HandTracker(TDECK)
+    tr.update(list("abcd"), "e", 100.0)
+    tr.note_play("b", 1, 100.5)
+    assert tr.slots[1] == "e" and tr.next is None
+    tr.mark_failed(1, "b")
+    assert tr.slots == list("abcd") and tr.log == [] and tr.pending == {}
+    assert tr.next == "e"                                            # the card that moved in was the next card, and still is
+    tr.note_play("b", 1, 101.0)                                      # a second try works as the first did
+    assert tr.slots == ["a", "e", "c", "d"] and tr.log == ["b"]
+    tr.mark_failed(2, "d")                                           # a card is in one slot only; a tap with no pending entry still undoes its log
+    assert tr.slots[2] == "d" and tr.slots[3] is None and tr.log == ["b"]
+
+
+def acct(phase="single_elixir", **kw) -> LiveStateBuilder:
+    """A tracker-mode builder that has just read the full hand at 6 elixir at t=100."""
+    b = builder(hand_tracker=True, **kw)
+    assert b.build(make_gs(100.0, phase=phase, elixir=6.0, hand=FULL_HAND))[0]["own"]["elixir"] == 6.0
+    return b
+
+
+LANDED = ("tornado", "berserker", "archers", "wall-breakers")      # FULL_HAND after bomb-tower (slot 3) was played
+
+
+def build_at(b, t, elixir, phase="single_elixir", hand=FULL_HAND):
+    state, _ = b.build(make_gs(t, phase=phase, elixir=elixir, hand=hand))
+    return state["own"]["elixir"], state["own"]["hand"]
+
+
+def test_stale_elixir_reading_is_replaced_by_the_expected_one():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)                          # cost 4 at 6 elixir
+    assert build_at(b, 100.3, 6.0)[0] == pytest.approx(2.0 + 0.3 / 2.8)      # ~2.1, not 6
+    assert build_at(b, 100.8, 6.0)[0] == pytest.approx(2.0 + 0.8 / 2.8)      # ~2.3
+    assert build_at(b, 100.9, 1.5)[0] == 1.5                         # the reading is lower than expected: min() keeps it
+    assert b.failed_taps == 0
+
+
+def test_fresh_elixir_reading_confirms_the_tap_and_ends_the_correction():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)
+    assert build_at(b, 100.6, 2.0)[0] == 2.0 and b.confirmed_taps == 1
+    assert build_at(b, 101.0, 3.0, hand=LANDED)[0] == 3.0            # no further correction (expected would be ~2.4)
+    assert build_at(b, 103.0, 3.0, hand=LANDED)[1] == list(LANDED) and b.failed_taps == 0 and b.confirmed_taps == 1
+
+
+def test_a_slot_reading_a_different_card_confirms_the_tap():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)
+    assert build_at(b, 100.4, 6.0, hand=LANDED)[0] == 6.0 and b.confirmed_taps == 1     # the slot changed: it landed, the reading is trusted
+    assert build_at(b, 100.8, 5.0, hand=LANDED)[0] == 5.0
+
+
+def test_failed_tap_puts_the_card_back_and_hides_it_for_a_cooldown():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)
+    assert b.tracker.slots[3] == "wall-breakers" and b.tracker.log == ["bomb-tower"]
+    assert build_at(b, 100.3, 6.0)[0] < 2.2 and build_at(b, 100.8, 6.0)[0] < 2.4
+    elixir, hand = build_at(b, 101.3, 6.0)                           # 1.3 s on and the bar never dropped: it did not land
+    assert elixir == 6.0 and b.failed_taps == 1 and b.confirmed_taps == 0
+    assert hand == ["tornado", "berserker", "archers", None]         # hidden, so the loop does not re-tap it at once
+    assert b.tracker.slots == list(FULL_HAND) and b.tracker.log == [] and b.tracker.pending == {}
+    assert build_at(b, 102.5, 6.0)[1][3] is None                     # still cooling (until 103.3)
+    assert build_at(b, 103.4, 6.0)[1] == list(FULL_HAND)
+    assert b.failed_taps == 1                                        # counted once
+
+
+def test_failed_tap_check_runs_once_and_only_on_a_reading():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)
+    b.build(make_gs(101.3, elixir=None, hand=FULL_HAND))             # no reading: nothing to judge yet
+    assert b.failed_taps == 0
+    assert build_at(b, 101.5, 6.0)[1][3] is None and b.failed_taps == 1
+    b2 = acct()
+    b2.note_own_play("bomb-tower", 3, 100.0)
+    unread = ("tornado", "berserker", "archers", None)
+    assert build_at(b2, 101.3, 4.5, hand=unread)[1] == list(LANDED) and b2.failed_taps == 0   # dropped by 1.5: not a failure
+    assert build_at(b2, 102.0, 6.0, hand=unread)[1] == list(LANDED) and b2.failed_taps == 0   # judged once: a later rise is regen
+    assert b2.confirmed_taps == 0
+    assert build_at(b2, 102.6, 6.0, hand=unread)[1] == list(LANDED) and b2.confirmed_taps == 1  # it passed the check and aged out
+
+
+@pytest.mark.parametrize("phase,spe", [("single_elixir", 2.8), ("double_elixir", 1.4), ("triple_elixir", 0.93),
+                                       ("overtime", 0.93), (None, 2.8)])
+def test_regen_follows_the_phase(phase, spe):
+    b = acct(phase=phase)
+    b.note_own_play("bomb-tower", 3, 100.0)
+    assert build_at(b, 100.7, 6.0, phase=phase)[0] == pytest.approx(2.0 + 0.7 / spe)
+
+
+def test_expected_elixir_is_clamped_at_zero():
+    b = builder(hand_tracker=True)
+    b.build(make_gs(100.0, elixir=1.0, hand=FULL_HAND))
+    b.note_own_play("bomb-tower", 3, 100.0)                          # cost 4 from 1 elixir: the bar cannot go below 0
+    assert build_at(b, 100.3, 5.0)[0] == 0.0
+    b2 = builder(hand_tracker=True)
+    b2.build(make_gs(100.0, elixir=10.0, hand=FULL_HAND))
+    b2.note_own_play("berserker", 1, 100.0)
+    assert build_at(b2, 100.5, 10.0)[0] == pytest.approx(8.0 + 0.5 / 2.8)
+
+
+def test_two_quick_taps_accumulate():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)
+    assert build_at(b, 100.5, 6.0)[0] == pytest.approx(2.0 + 0.5 / 2.8)
+    b.note_own_play("berserker", 1, 100.5)                           # cost 2, started from the corrected ~2.2
+    assert build_at(b, 101.0, 6.0)[0] == pytest.approx(2.0 + 0.5 / 2.8 - 2.0 + 0.5 / 2.8)
+    assert b.failed_taps == 0
+
+
+def test_a_failed_tap_gives_back_its_cost_to_the_taps_that_followed_it():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)                          # will not land
+    build_at(b, 100.5, 6.0)
+    b.note_own_play("berserker", 1, 100.5)                           # lands, but was started from the corrected ~2.2
+    elixir, hand = build_at(b, 101.3, 6.0)                           # first tap judged: failed
+    assert b.failed_taps == 1 and hand[3] is None
+    assert elixir == pytest.approx((2.0 + 0.5 / 2.8 + 4.0) - 2.0 + 0.8 / 2.8)   # the second tap is still stale: 6.18 - 2 + regen
+    elixir, _ = build_at(b, 102.0, 4.5, hand=("tornado", None, "archers", "bomb-tower"))   # 4.5 = 6 - 2 + regen: it landed
+    assert b.failed_taps == 1 and b.confirmed_taps == 1 and elixir == 4.5
+
+
+def test_new_match_forgets_taps_cooldowns_and_counters():
+    b = acct()
+    b.note_own_play("bomb-tower", 3, 100.0)
+    build_at(b, 101.3, 6.0)
+    assert b.failed_taps == 1
+    b.build(make_gs(110.0, match_id=2, elixir=6.0, hand=FULL_HAND))
+    assert b.failed_taps == 0 and b.confirmed_taps == 0 and b._own_plays == [] and b._cooldown == {}
+    assert b.build(make_gs(110.2, match_id=2, elixir=6.0, hand=FULL_HAND))[0]["own"]["hand"] == list(FULL_HAND)
+
+
+def test_missing_elixir_or_cost_records_nothing():
+    b = builder(hand_tracker=True)
+    b.note_own_play("bomb-tower", 3, 99.0)                           # before any build: the elixir is unknown
+    b.build(make_gs(100.0, elixir=None, hand=FULL_HAND))
+    b.note_own_play("bomb-tower", 3, 100.0)
+    b.build(make_gs(100.5, elixir=6.0, hand=FULL_HAND))
+    b.note_own_play("not-a-card", 2, 100.5)                          # no cost known
+    assert b._own_plays == [] and build_at(b, 100.9, 6.0)[0] == 6.0
+    state, _ = b.build(make_gs(101.0, elixir=None, hand=FULL_HAND))
+    assert state["own"]["elixir"] is None
+
+
+def test_without_the_tracker_nothing_changes():
+    plain, noted = builder(), builder()
+    for b in (plain, noted):
+        b.build(make_gs(100.0, elixir=6.0, hand=FULL_HAND))
+    noted.note_own_play("bomb-tower", 3, 100.0)
+    for t in (100.3, 100.8, 101.3, 103.0):
+        gs = make_gs(t, elixir=6.0, hand=FULL_HAND)
+        assert json.dumps(noted.build(gs)) == json.dumps(plain.build(gs))
+    assert noted.failed_taps == 0 and noted.confirmed_taps == 0 and noted._own_plays == []
+    assert noted.build(make_gs(103.5, elixir=6.0, hand=FULL_HAND))[0]["own"]["elixir"] == 6.0
+
+
 # --------------------------------------------------------------------------- 9: real-data round trip
 
 DATASET_STATES = DATASET_DIR / "states.jsonl"

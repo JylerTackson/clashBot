@@ -25,6 +25,8 @@ RECENT_S = 12.0                     # same as tools/extract_states.py
 SCHEMA_PHASES = ("single_elixir", "double_elixir", "triple_elixir", "overtime")
 MAX_OPP_DECK = 8
 PENDING_S = 1.5                     # a tap's result is not trusted on screen until the card has left the slot this long
+SECONDS_PER_ELIXIR = {"single_elixir": 2.8, "double_elixir": 1.4, "triple_elixir": 0.93, "overtime": 0.93}
+TAP_TOLERANCE = 0.5                 # elixir: a drop of >= cost - this confirms a tap; a drop of <= this means it failed
 _UNSET = object()                   # "no match seen yet" (distinct from a match_id of None)
 
 
@@ -37,6 +39,9 @@ class LiveConfig:
     hand_tracker: bool = False                # positional hand memory (HandTracker) instead of the timed hold; live loop only
     opp_evidence: bool = False                # an opponent card is "seen" on summed evidence (label 1.0 / 0.6, arena 0.5), not on one play; live loop only
     strict_units: bool = False                # drop allies outside our deck (misread towers, wrong side) when the deck is valid; live loop only
+    confirm_s: float = 2.5                    # tracker mode: a sent tap is followed this long (own-elixir accounting, failed-tap check)
+    stale_s: float = 1.2                      # tracker mode: the HUD elixir lags our tap this long; until then min(read, expected)
+    cooldown_s: float = 2.0                   # tracker mode: a card whose tap failed is hidden from the hand this long
 
 
 # --------------------------------------------------------------------------- private helpers
@@ -164,6 +169,23 @@ class HandTracker:
         self.pending[slot] = (card, t)
         self._next_from_queue()
 
+    def mark_failed(self, slot: int, card: str) -> None:
+        """The elixir shows the tap on `slot` never landed: `card` is still there. Undoes `note_play`."""
+        restored = False
+        pend = self.pending.get(slot)
+        if pend is not None and pend[0] == card:
+            del self.pending[slot]
+            incoming = self.slots[slot]
+            if incoming is not None and incoming != card:
+                self.next, restored = incoming, True   # the card note_play moved in was the next card; it still is
+        self.slots[slot] = card
+        for j in range(4):
+            if j != slot and self.slots[j] == card:
+                self.slots[j] = None                   # a card is in at most one slot
+        _drop_last(self.log, card)
+        if self._next_from_log and not restored:
+            self._next_from_queue()
+
     def update(self, read: list, read_next: str | None, t: float) -> list:
         """Fold one frame's hand read (4 slots, None = unread) into the memory; returns the 4 tracked slots."""
         if read_next is not None:
@@ -215,6 +237,17 @@ class HandTracker:
 
 # --------------------------------------------------------------------------- builder
 
+@dataclass
+class _OwnPlay:
+    """A tap we sent, followed until its effect on the HUD elixir is known (tracker mode)."""
+    t: float
+    card: str
+    slot: int
+    cost: float
+    elixir_at_play: float               # the own elixir the previous build() returned
+    checked: bool = False               # the failed-tap check has run (once per play)
+
+
 class LiveStateBuilder:
     """Stateful: remembers the play events and when each opponent card was first seen, per match."""
 
@@ -244,6 +277,11 @@ class LiveStateBuilder:
         self._match_id = _UNSET
         self._last_hand: tuple[float, list] | None = None  # (t, hand) of the last read with >= 2 known slots
         self.last_hand_reused = False          # the hand of the latest build() came from _last_hand / the tracker
+        self._own_plays: list[_OwnPlay] = []   # taps not yet confirmed or expired (tracker mode)
+        self._cooldown: dict[str, float] = {}  # card whose tap failed -> t until which it is hidden from the hand
+        self._last_elixir: float | None = None  # own elixir the latest build() returned (tracker mode)
+        self.failed_taps = 0                   # taps the elixir showed never landed (tracker mode)
+        self.confirmed_taps = 0                # taps the elixir / the slot confirmed (tracker mode)
         if self.tracker is not None:
             self.tracker.reset()
 
@@ -287,8 +325,48 @@ class LiveStateBuilder:
 
     def note_own_play(self, card: str, slot: int, t: float) -> None:
         """The executor sent a tap that plays `card` from hand `slot` at time `t` (no-op without the hand tracker)."""
-        if self.tracker is not None:
-            self.tracker.note_play(card, slot, t)
+        if self.tracker is None:
+            return
+        self.tracker.note_play(card, slot, t)
+        cost = self.cards[card]["elixir_cost"] if card in self.cards else None
+        if cost is not None and self._last_elixir is not None:
+            self._own_plays.append(_OwnPlay(float(t), card, slot, float(cost), self._last_elixir))
+
+    def _settle_plays(self, elixir: float | None, hand: list, t: float, phase: str | None) -> float | None:
+        """Own-elixir accounting for the taps we sent (tracker mode). The HUD reading lags our tap, so while a tap is
+        younger than `stale_s` the elixir is min(read, expected), expected = at_play - cost + regen * age. Once the
+        reading is trusted, a tap whose elixir never dropped failed: the tracker puts the card back and the card is
+        hidden from the hand for `cooldown_s`. A tap is confirmed when the reading dropped by >= cost - 0.5 or the
+        slot reads a different card. Returns the corrected elixir."""
+        cfg = self.config
+        regen = 1.0 / SECONDS_PER_ELIXIR.get(phase, SECONDS_PER_ELIXIR["single_elixir"])
+        cap = 10.0
+        kept: list[_OwnPlay] = []
+        for p in self._own_plays:                                  # oldest first
+            age = max(0.0, t - p.t)
+            slot_card = hand[p.slot] if 0 <= p.slot < len(hand) else None
+            if (elixir is not None and p.elixir_at_play - elixir >= p.cost - TAP_TOLERANCE) or \
+                    (slot_card is not None and slot_card != p.card):
+                self.confirmed_taps += 1
+                continue
+            if age >= cfg.confirm_s:
+                self.confirmed_taps += int(p.checked)              # it passed the failed-tap check and nothing contradicted it
+                continue
+            if age >= cfg.stale_s and not p.checked and elixir is not None:
+                p.checked = True
+                if elixir >= p.elixir_at_play - TAP_TOLERANCE:     # no drop: the tap did not land
+                    self.tracker.mark_failed(p.slot, p.card)
+                    self._cooldown[p.card] = t + cfg.cooldown_s
+                    self.failed_taps += 1
+                    for q in self._own_plays:                      # later taps started from an elixir that already paid for this one
+                        if q is not p and 0.0 <= q.t - p.t < cfg.stale_s:
+                            q.elixir_at_play = min(10.0, q.elixir_at_play + p.cost)
+                    continue
+            if age < cfg.stale_s:
+                cap = min(cap, max(0.0, min(10.0, p.elixir_at_play - p.cost + regen * age)))
+            kept.append(p)
+        self._own_plays = kept
+        return elixir if elixir is None else min(elixir, cap)
 
     def _foreign(self, card) -> bool:
         """The card is not one of the 8 he is playing (only judged when the deck is known)."""
@@ -347,8 +425,13 @@ class LiveStateBuilder:
         nxt = own.get("next_card")
         nxt = None if self._foreign(nxt) else nxt
         nxt = nxt if (nxt and is_playable(nxt, cards)) else None
+        phase = _norm_phase(g.get("phase"))
         if self.tracker is not None:
+            elixir = self._settle_plays(elixir, hand, t, phase)
+            self._last_elixir = elixir
             hand = self.tracker.update(hand, nxt, t)
+            self._cooldown = {c: u for c, u in self._cooldown.items() if u > t}
+            hand = [None if c in self._cooldown else c for c in hand]      # a failed tap's card is not re-tapped at once
             nxt = self.tracker.next
             self.last_hand_reused = any(self.tracker.filled)
         else:
@@ -367,7 +450,7 @@ class LiveStateBuilder:
                              strict=self.config.strict_units)
 
         state = {
-            "clock": g.get("match_clock"), "phase": _norm_phase(g.get("phase")),
+            "clock": g.get("match_clock"), "phase": phase,
             "match_seconds": g.get("match_seconds"),
             "own": {
                 "elixir": elixir,
