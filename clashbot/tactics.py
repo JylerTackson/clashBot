@@ -1,15 +1,20 @@
-"""Tactical engine (D-042, MAC-Z2): which enemy push threatens which tower, which hand card answers it and where to
-put it, and when there is an offence window.
+"""Tactical engine (D-042, MAC-Z2, MAC-A2): which enemy push threatens which tower, which hand card answers it and where
+to put it, and when there is an offence window (counter_push, punish, leak, and for a bait deck bait, pressure,
+support and cycle).
 
 `TacticalEngine.analyse(state)` returns a `TacticalReport`: the enemy pushes (most urgent first), up to 6 concrete
 moves (card + deploy tile + intent + reason, best first) and 1..4 text lines for the d1 context. The card roles come
 from the Z1 table (`clashbot.card_roles`, loaded lazily); spell aim and value come from `ReactivePolicy.spell_target`
-(MAC-Y2). Deterministic, no I/O after `__init__`, no models.
+(MAC-Y2). Every hand-set number of the scoring lives in `DEFAULT_WEIGHTS`; `tactics_weights.json` (tuned on the pro
+data by `tools/train/tune_tactics.py`) and an explicit `weights=` dict override it. Deterministic, no I/O after
+`__init__`, no models.
 """
 from __future__ import annotations
 
+import json
 import math
 from dataclasses import dataclass
+from pathlib import Path
 
 from clashbot.card_roles import GROUND_ONLY_SPELLS, hits_air, load_roles
 from clashbot.config import ANYWHERE_CARDS
@@ -25,15 +30,97 @@ MAX_MOVES = 6
 MAX_REASON = 60
 TRADE_SUFFIX_ROOM = 12          # characters kept free for ", trade +N" in a reason
 LEAD_S = 1.0                 # the threat's position is led by this many seconds along `predicted_tile_2s`
-BASE_SCORE = 0.5
 PUNISH_OPP_ELIXIR = 3.0
 LEAK_ELIXIR = 9.5
 OWN_TOWER_X = {"left": 3.5, "right": 14.5}
 ENEMY_TOWER_TILE = {"left": (3.5, 23.3), "right": (14.5, 23.3)}
 BRIDGE_ROW = 14.0
 MIN_X, MAX_X, MIN_Y, MAX_Y = 0.5, 17.5, 1.0, 14.0
-OFFENCE_SCORES = {"counter_push": 0.6, "punish": 0.55, "leak_wc": 0.5, "leak": 0.4}
+BAIT_RECENT_S = 8.0          # a known small spell played this recently is still cycling (not in their hand)
+BAIT_ELIXIR_MARGIN = 1.0     # bait / support / counter_push keep this much elixir after the card
+PRESSURE_RESERVE = 3.0       # pressure keeps this much elixir for defence after the win condition
+PRESSURE_OPP_MAX = 5.0       # pressure only while the opponent is at or below this estimate (or unknown)
+SUPPORT_MIN_ROW = 12         # an ally win condition / tank at or beyond this row (bridge zone, enemy half) is supported
+SUPPORT_BEHIND = 2.0         # a supporting ranged troop stands this many tiles behind the ally
+SUPPORT_DEFENDER_RANGE = 6.0     # enemy units this close to the ally count as the ones defending against it
+CYCLE_MIN_ELIXIR = 7.0
+CYCLE_MAX_COST = 2.0
+CYCLE_BACK_ROW = 1.5
+ANSWERED_RANGE = 3.0         # ally units this close to the push's lead unit are fighting it
+ANSWERED_EMERGENCY_ETA = 1.5     # a push this close to the tower with weaker allies is still acted on in full
+KAMIKAZE_REPEAT_S = 3.0      # a kamikaze card we played this recently is not proposed again against a push
 NEED_ORDER = ("air", "tank", "swarm", "building_targeter")
+
+# Every hand-set number of the move scoring. `TacticalEngine(weights=None)` starts from these, applies
+# `resources/tactics_weights.json` if it exists, then an explicit dict; `tools/train/tune_tactics.py` tunes them.
+DEFAULT_WEIGHTS: dict[str, float] = {
+    # defence score = base + need bonuses / penalties + kg + trade terms - win-condition penalty
+    "base": 0.5,
+    "air_cannot_hit_penalty": 0.5,          # the card cannot hit air but the push has a flyer (and ground units too)
+    "tank_killer_bonus": 0.6,               # tank push: tank_killer role or high dps
+    "tank_building_bonus": 0.5,             # tank push with a building targeter: a building pulls it
+    "tank_swarm_bonus": 0.3,                # tank push: a swarm card distracts it
+    "tank_spell_penalty": 0.6,              # tank push: a spell that is not worth its cost
+    "swarm_splash_bonus": 0.6,              # swarm push: splash troop or a spell that kills swarm
+    "swarm_melee_penalty": 0.4,             # swarm push: single-target melee troop
+    "targeter_building_bonus": 0.5,         # building-targeter push: a building
+    "targeter_swarm_bonus": 0.3,            # ... a swarm or kamikaze card
+    "targeter_mini_tank_bonus": 0.3,        # ... a mini tank
+    "kg_factor": 0.2,                       # x the normalised KG counter score of the most urgent unit
+    "trade_overpay_per_elixir": 0.15,       # per elixir of over-payment beyond the slack
+    "trade_overpay_slack": 1.0,
+    "trade_good_min": 1.0,                  # a trade of at least this many elixir ...
+    "trade_good_bonus": 0.1,                # ... earns this
+    "win_condition_penalty": 0.4,           # a win condition is kept for offence
+    # stopping power against a push with medium / tank units (buildings and tank killers count as high, kamikaze as low)
+    "stop_high": 0.3,
+    "stop_medium": 0.15,
+    "stop_low": -0.35,
+    # a push our units already fight (ally units within ANSWERED_RANGE of its lead unit, enough elixir)
+    "answered_frac": 0.6,                   # ally elixir / push elixir needed to call the push answered
+    "answered_factor": 0.3,                 # the push's defence scores are multiplied by this
+    # offence intent scores
+    "counter_push": 0.6,
+    "punish": 0.55,
+    "leak_wc": 0.5,
+    "leak": 0.4,
+    "bait_counter_used": 0.6,               # their known small spell was played in the last BAIT_RECENT_S
+    "bait_unknown": 0.45,                   # no small spell of theirs is known
+    "bait_counter_ready": 0.25,             # a known small spell may be in their hand
+    "pressure": 0.45,
+    "support": 0.5,
+    "cycle": 0.35,
+    "cycle_block_score": 0.4,               # cycle only when no other move scores at least this
+}
+WEIGHTS_PATH = Path(__file__).resolve().parent / "resources" / "tactics_weights.json"
+
+
+def _read_weights_file(path: Path) -> dict[str, float]:
+    """The tuned weights of the committed file (`{"weights": {...}}` or a plain mapping); {} when it is missing.
+    Keys the engine does not know are ignored, so an older or newer file never breaks the engine."""
+    try:
+        data = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    if isinstance(data, dict) and isinstance(data.get("weights"), dict):
+        data = data["weights"]
+    if not isinstance(data, dict):
+        return {}
+    return {k: float(v) for k, v in data.items()
+            if k in DEFAULT_WEIGHTS and isinstance(v, (int, float)) and not isinstance(v, bool)}
+
+
+def resolve_weights(weights: dict | None = None, path: Path | str | None = None) -> dict[str, float]:
+    """DEFAULT_WEIGHTS, updated from the weights file (`path`, default `WEIGHTS_PATH`), then from `weights` (an
+    explicit dict wins over both; a partial dict only changes the keys it names)."""
+    out = dict(DEFAULT_WEIGHTS)
+    out.update(_read_weights_file(Path(path) if path is not None else WEIGHTS_PATH))
+    if weights:
+        unknown = sorted(set(weights) - set(DEFAULT_WEIGHTS))
+        if unknown:
+            raise ValueError(f"unknown tactics weights: {', '.join(unknown)}")
+        out.update({k: float(v) for k, v in weights.items()})
+    return out
 SWARM_SPELL_UNITS = frozenset({"graveyard"})     # spell objects on the field that stand for a swarm (skeleton tokens)
 
 _DEFAULT_TROOP = {"type": "troop", "targets": "ground", "flying": False, "hp_class": "medium",
@@ -56,7 +143,7 @@ class TacticalMove:
     card: str
     key: str                     # card|lane|zone of `tile` (lane_of / zone_of)
     tile: list[float]            # concrete deploy tile, rounded to 0.5
-    intent: str                  # "defend" | "counter_push" | "punish" | "leak"
+    intent: str                  # "defend" | "counter_push" | "punish" | "leak" | "bait" | "pressure" | "support" | "cycle"
     reason: str                  # <= 60 chars, e.g. "pulls giant to the centre, trade +5"
     score: float                 # engine preference, higher is better
     trade: float | None          # push elixir - card cost (defend), else None
@@ -82,6 +169,10 @@ class _PushCtx:
     threat: str                  # name of the most urgent unit
     all_air: bool
     kg_norm: dict[str, float]    # KG counter scores of the threat, scaled to max 1
+    heavy: bool = False          # the push has a medium or tank unit (by role hp_class)
+    swarm_only: bool = False     # every unit of the push is a swarm unit (or a graveyard token)
+    answered_by: tuple = ()      # distinct ally cards fighting the push when it counts as being answered, else ()
+    blocked: frozenset = frozenset()     # kamikaze cards we played in the last KAMIKAZE_REPEAT_S (not proposed again)
 
 
 def _tile(unit: dict) -> list | None:
@@ -129,8 +220,10 @@ def _clip(text: str) -> str:
 
 
 class TacticalEngine:
-    def __init__(self, cards: dict | None = None, roles: dict | None = None, kg=None):
+    def __init__(self, cards: dict | None = None, roles: dict | None = None, kg=None, weights: dict | None = None):
         self.cards = cards if cards is not None else load_cards()
+        # the scoring numbers: defaults < tactics_weights.json < the explicit dict (read as `self.w[key]` at use time)
+        self.w = resolve_weights(weights)
         if roles is None:
             roles = load_roles()
         # accept both the file layout ({"version", "cards": {...}}) and the plain card -> role mapping
@@ -223,7 +316,32 @@ class TacticalEngine:
         summary = f"{names} ({fmt_num(elixir)} elixir), tower in {eta_s:.1f}s"
         return Push(lane, units, elixir, eta_s, [n for n in NEED_ORDER if needs[n]], summary)
 
-    def _ctx(self, push: Push) -> _PushCtx:
+    def _answered_by(self, push: Push, pos: list[float], state: dict) -> tuple:
+        """The distinct ally cards within ANSWERED_RANGE of the push's lead tile when their elixir is at least
+        `answered_frac` x the push's (and, for a push at the tower within ANSWERED_EMERGENCY_ETA, at least the push's);
+        () when the push is not being answered."""
+        names: list[str] = []
+        for u in state.get("units", []):
+            tile, card = _tile(u), u.get("card")
+            if (u.get("side") == "ally" and tile is not None and card and self._role(card).get("type") != "spell"
+                    and math.dist(tile, pos) <= ANSWERED_RANGE and card not in names):
+                names.append(card)
+        ally_elixir = sum(self._cost(c) for c in names)
+        if ally_elixir <= 0 or ally_elixir < self.w["answered_frac"] * push.elixir:
+            return ()
+        if push.eta_s <= ANSWERED_EMERGENCY_ETA and ally_elixir < push.elixir:
+            return ()
+        return tuple(names)
+
+    def _recent_kamikazes(self, state: dict, t: float | None) -> frozenset:
+        """Kamikaze cards we played in the last KAMIKAZE_REPEAT_S seconds (needs the clock `t`)."""
+        if t is None:
+            return frozenset()
+        return frozenset(p["card"] for p in (state.get("own") or {}).get("recent_plays") or []
+                         if p.get("card") and p.get("t") is not None and 0 <= t - p["t"] <= KAMIKAZE_REPEAT_S
+                         and self._has(self._role(p["card"]), "kamikaze"))
+
+    def _ctx(self, push: Push, state: dict, t: float | None = None) -> _PushCtx:
         unit = push.units[0]
         pos = _lead_tile(unit, LEAD_S) or list(_tile(unit))
         card = unit.get("card")
@@ -233,8 +351,14 @@ class TacticalEngine:
             top = max(scores.values(), default=0.0)
             if top > 0:
                 norm = {k: v / top for k, v in scores.items()}
+        roles = [self._role(u.get("card")) for u in push.units]
         return _PushCtx(push, unit, pos, OWN_TOWER_X[push.lane], 1 if push.lane == "left" else -1, _name(unit),
-                        all(self._role(u.get("card")).get("flying") for u in push.units), norm)
+                        all(r.get("flying") for r in roles), norm,
+                        heavy=any(r.get("hp_class") in ("medium", "tank") for r in roles),
+                        swarm_only=all(r.get("hp_class") == "swarm" or u.get("card") in SWARM_SPELL_UNITS
+                                       for r, u in zip(roles, push.units)),
+                        answered_by=self._answered_by(push, pos, state),
+                        blocked=self._recent_kamikazes(state, t))
 
     # -- defence -------------------------------------------------------------------------------------------------------
     def _defends(self, card: str, role: dict) -> bool:
@@ -255,44 +379,72 @@ class TacticalEngine:
                 return aim
         return None
 
+    def _stop_class(self, role: dict, ctx: _PushCtx) -> str | None:
+        """How well the card stops a push: high / medium / low, None for spells (judged by their aim). Buildings and
+        tank killers count as high; a kamikaze card as low against a push with medium / tank units. A low-dps card
+        with the air_defense role counts as medium against a push with flyers (that is what the role is for)."""
+        if role.get("type") == "spell":
+            return None
+        if role.get("type") == "building" or self._has(role, "tank_killer"):
+            return "high"
+        if ctx.heavy and self._has(role, "kamikaze"):
+            return "low"
+        dps = role.get("dps_class")
+        dps = dps if dps in ("high", "medium", "low") else "medium"
+        if dps == "low" and "air" in ctx.push.needs and self._has(role, "air_defense"):
+            return "medium"
+        return dps
+
+    def _claims_trade(self, role: dict, ctx: _PushCtx) -> bool:
+        """The elixir trade counts (bonus, reason text) when the card stops the push at least at medium, or the push is
+        only swarm units; a low-stopping card only slows it."""
+        return self._stop_class(role, ctx) in (None, "high", "medium") or ctx.swarm_only
+
     def _defence_score(self, card: str, role: dict, ctx: _PushCtx, aim) -> tuple[float, float] | None:
         """(score, trade) of `card` against the push, or None when it cannot answer an air-only push."""
         push, needs = ctx.push, ctx.push.needs
+        w = self.w
         cost = self._cost(card)
         is_spell, is_building = role.get("type") == "spell", role.get("type") == "building"
-        score = BASE_SCORE
+        score = w["base"]
         if "air" in needs and not self._hits_air(card, role):
             if ctx.all_air:
                 return None
-            score -= 0.5
+            score -= w["air_cannot_hit_penalty"]
         if "tank" in needs:
             if self._has(role, "tank_killer") or role.get("dps_class") == "high":
-                score += 0.6
+                score += w["tank_killer_bonus"]
             if is_building and "building_targeter" in needs:
-                score += 0.5
+                score += w["tank_building_bonus"]
             if self._has(role, "swarm"):
-                score += 0.3
+                score += w["tank_swarm_bonus"]
             if is_spell and not (aim is not None and aim[1] >= cost):
-                score -= 0.6
+                score -= w["tank_spell_penalty"]
         if "swarm" in needs:
             if role.get("splash") or (is_spell and "swarm" in (role.get("kills") or [])):
-                score += 0.6
+                score += w["swarm_splash_bonus"]
             elif role.get("type") == "troop" and role.get("range") == "melee":
-                score -= 0.4
+                score -= w["swarm_melee_penalty"]
         if "building_targeter" in needs:
             if is_building:
-                score += 0.5
+                score += w["targeter_building_bonus"]
             if self._has(role, "swarm") or self._has(role, "kamikaze"):
-                score += 0.3
+                score += w["targeter_swarm_bonus"]
             if self._has(role, "mini_tank"):
-                score += 0.3
-        score += 0.2 * ctx.kg_norm.get(card, 0.0)
+                score += w["targeter_mini_tank_bonus"]
+        if ctx.heavy:
+            stop = self._stop_class(role, ctx)
+            if stop is not None:
+                score += w["stop_" + stop]
+        score += w["kg_factor"] * ctx.kg_norm.get(card, 0.0)
         trade = push.elixir - cost
-        score -= 0.15 * max(0.0, -trade - 1.0)
-        if trade >= 1.0:
-            score += 0.1
+        score -= w["trade_overpay_per_elixir"] * max(0.0, -trade - w["trade_overpay_slack"])
+        if trade >= w["trade_good_min"] and self._claims_trade(role, ctx):
+            score += w["trade_good_bonus"]
         if self._has(role, "win_condition"):
-            score -= 0.4                                                # kept for offence
+            score -= w["win_condition_penalty"]                              # kept for offence
+        if ctx.answered_by:
+            score *= w["answered_factor"]                                    # our units are already fighting it
         return round(score, 3) + 0.0, trade                                # + 0.0: no -0.0
 
     def _defence_place(self, card: str, role: dict, ctx: _PushCtx, aim, state: dict) -> tuple[list[float], str]:
@@ -336,7 +488,7 @@ class TacticalEngine:
         moves = []
         for card in hand:
             role = self._role(card)
-            if not self._defends(card, role):
+            if not self._defends(card, role) or card in ctx.blocked:
                 continue
             aim = None
             if role.get("type") == "spell":
@@ -349,7 +501,8 @@ class TacticalEngine:
             score, trade = scored
             tile, why = self._defence_place(card, role, ctx, aim, state)
             key = action_key(card, lane_of(tile), zone_of(tile))
-            moves.append(TacticalMove(card, key, tile, "defend", _with_trade(why, trade), score, trade))
+            reason = _with_trade(why, trade) if self._claims_trade(role, ctx) else _clip(f"slows {ctx.threat}")
+            moves.append(TacticalMove(card, key, tile, "defend", reason, score, trade))
         return moves
 
     # -- offence -------------------------------------------------------------------------------------------------------
@@ -379,9 +532,161 @@ class TacticalEngine:
         last = max(reversed(plays), key=lambda p: p["t"] if p.get("t") is not None else float("-inf"))
         return OPPOSITE_LANE.get(lane_of(_tile(last)))
 
-    def _offence_moves(self, state: dict, hand: list[str]) -> list[TacticalMove]:
+    def _bait_lane(self, state: dict) -> str:
+        """Lane L of the bait / pressure moves: the weaker enemy princess tower, else opposite their newest play."""
+        return self._weak_lane(state) or self._opp_last_lane(state) or "left"
+
+    def _quiet_lane(self, state: dict) -> str:
+        """The lane with fewer enemy units on the field (ties: left)."""
+        counts = {"left": 0, "right": 0}
+        for u in state.get("units", []):
+            tile = _tile(u)
+            if u.get("side") == "enemy" and tile is not None and self._role(u.get("card")).get("type") != "spell":
+                counts[_side_lane(tile)] += 1
+        return "left" if counts["left"] <= counts["right"] else "right"
+
+    def _small_spell(self, card: str) -> bool:
+        """A damage spell that kills a goblin-barrel swarm: role spell_small, or a spell whose kills include swarm."""
+        role = self._role(card)
+        return (role.get("type") == "spell" and card not in NON_DAMAGE_SPELLS and role.get("spell_class") != "utility"
+                and (self._has(role, "spell_small") or "swarm" in (role.get("kills") or [])))
+
+    def _bait_read(self, state: dict, t: float | None) -> tuple[float, str]:
+        """(score, reason) of a bait now: their known small spells that answer it, and whether they are cycling."""
+        w = self.w
+        opp = state.get("opponent") or {}
+        small = [c for c in opp.get("deck_known") or [] if self._small_spell(c)]
+        if not small:
+            return w["bait_unknown"], "no small spell of theirs seen"
+        plays = list(opp.get("recent_plays") or [])
+        if t is None:                                   # no clock given: the newest play of either side stands for now
+            stamps = [p["t"] for p in plays + list((state.get("own") or {}).get("recent_plays") or [])
+                      if p.get("t") is not None]
+            t = max(stamps, default=None)
+        last: dict[str, float] = {}
+        for p in plays:
+            if p.get("card") in small and p.get("t") is not None:
+                last[p["card"]] = max(last.get(p["card"], float("-inf")), p["t"])
+        ready = [c for c in small if not (c in last and t is not None and 0 <= t - last[c] <= BAIT_RECENT_S)]
+        if not ready:
+            newest = max(small, key=lambda c: (last[c], c))
+            return w["bait_counter_used"], f"their {newest} is cycling"
+        return w["bait_counter_ready"], f"their {ready[0]} may be ready"
+
+    def _bait_moves(self, state: dict, hand: list[str], elixir: float, t: float | None) -> list[TacticalMove]:
+        """A spell-like win condition (goblin barrel, graveyard, miner, goblin drill) on the enemy princess tower."""
+        cards = [c for c in hand if self._has(self._role(c), "win_condition")
+                 and self._is_aimed_wc(c, self._role(c)) and elixir >= self._cost(c) + BAIT_ELIXIR_MARGIN]
+        if not cards:
+            return []
+        lane = self._bait_lane(state)
+        score, why = self._bait_read(state, t)
+        moves = []
+        for c in cards:
+            tile = self._wc_tile(c, self._role(c), lane)
+            moves.append(TacticalMove(c, action_key(c, lane_of(tile), zone_of(tile)), tile, "bait",
+                                      _clip(why), score, None))
+        return moves
+
+    def _pressure_moves(self, state: dict, hand: list[str], elixir: float) -> list[TacticalMove]:
+        """A troop win condition at the bridge while the opponent is low and we keep an elixir reserve."""
+        opp_elixir = (state.get("opponent") or {}).get("elixir_estimate")
+        if opp_elixir is not None and opp_elixir > PRESSURE_OPP_MAX:
+            return []
+        lane = self._bait_lane(state)
+        moves = []
+        for c in hand:
+            role = self._role(c)
+            if (self._has(role, "win_condition") and not self._is_aimed_wc(c, role)
+                    and elixir >= self._cost(c) + PRESSURE_RESERVE):
+                tile = self._wc_tile(c, role, lane)
+                why = f"{c} at the {lane} bridge, {fmt_num(elixir - self._cost(c))} elixir kept back"
+                moves.append(TacticalMove(c, action_key(c, lane_of(tile), zone_of(tile)), tile, "pressure",
+                                          _clip(why), self.w["pressure"], None))
+        return moves
+
+    def _support_spell_aim(self, card: str, ally_tile: list[float], state: dict):
+        """(tile, value, count) of the best small-spell aim on the enemy units near the ally (the ones defending)."""
+        cells: list[tuple[str, str]] = []
+        for u in state.get("units", []):
+            tile = _tile(u)
+            if (u.get("side") == "enemy" and tile is not None and math.dist(tile, ally_tile) <= SUPPORT_DEFENDER_RANGE
+                    and (lane_of(tile), zone_of(tile)) not in cells):
+                cells.append((lane_of(tile), zone_of(tile)))
+        reach = SUPPORT_DEFENDER_RANGE + SPELL_RADIUS.get(card, 2.5)
+        best = None
+        for lane, zone in cells:
+            aim = self.policy.spell_target(card, lane, zone, state)
+            if aim is not None and math.dist(aim[0], ally_tile) <= reach and (best is None or aim[1:] > best[1:]):
+                best = aim
+        return best
+
+    def _support_moves(self, state: dict, hand: list[str], elixir: float) -> list[TacticalMove]:
+        """Back an ally win condition / tank that has crossed to the bridge or the enemy half: a ranged troop two
+        tiles behind it, or a small damage spell on the units defending against it."""
+        lead: dict[str, tuple[list[float], dict]] = {}              # per lane, the most advanced such ally
+        for u in state.get("units", []):
+            tile = _tile(u)
+            if u.get("side") != "ally" or tile is None or tile[1] < SUPPORT_MIN_ROW:
+                continue
+            role = self._role(u.get("card"))
+            if not (self._has(role, "win_condition") or self._has(role, "tank")):
+                continue
+            lane = _side_lane(tile)
+            if lane not in lead or tile[1] > lead[lane][0][1]:
+                lead[lane] = (tile, u)
+        moves: list[TacticalMove] = []
+        for lane in ("left", "right"):
+            if lane not in lead:
+                continue
+            tile, ally = lead[lane]
+            name = _name(ally)
+            for c in hand:
+                role = self._role(c)
+                if elixir < self._cost(c) + BAIT_ELIXIR_MARGIN:
+                    continue
+                if (role.get("type") == "troop" and role.get("range") in ("short", "long")
+                        and role.get("targets") != "buildings" and not self._has(role, "win_condition")):
+                    spot = _clamp_tile(tile[0], tile[1] - SUPPORT_BEHIND)
+                    why = f"{c} behind {name}"
+                elif (role.get("type") == "spell" and role.get("spell_class") == "small"
+                      and c not in NON_DAMAGE_SPELLS and not self._has(role, "win_condition")):
+                    aim = self._support_spell_aim(c, tile, state)
+                    if aim is None:
+                        continue
+                    spot = [_r05(aim[0][0]), _r05(aim[0][1])]
+                    why = f"{c} on the defenders of {name} ({fmt_num(aim[1])} elixir)"
+                else:
+                    continue
+                moves.append(TacticalMove(c, action_key(c, lane_of(spot), zone_of(spot)), spot, "support",
+                                          _clip(why), self.w["support"], None))
+        return moves
+
+    def _cycle_moves(self, state: dict, hand: list[str], elixir: float,
+                     moves: list[TacticalMove]) -> list[TacticalMove]:
+        """Rotate the hand with a cheap card when elixir is high and nothing else is worth playing."""
+        if elixir < CYCLE_MIN_ELIXIR or any(m.score >= self.w["cycle_block_score"] for m in moves):
+            return []
+        plain = sorted((c for c in hand if self._role(c).get("type") != "spell"
+                        and not self._has(self._role(c), "win_condition")), key=lambda c: (self._cost(c), c))
+        if not plain or self._cost(plain[0]) > CYCLE_MAX_COST:
+            return []
+        c = plain[0]
+        if self._has(self._role(c), "kamikaze"):                   # chip damage on the weaker tower
+            lane = self._weak_lane(state) or "left"
+            tile = [OWN_TOWER_X[lane], BRIDGE_ROW]
+            why = f"{c} chips the {lane} tower, cycles"
+        else:
+            lane = self._quiet_lane(state)
+            tile = _clamp_tile(OWN_TOWER_X[lane] + 1.5 * (1 if lane == "left" else -1), CYCLE_BACK_ROW)
+            why = f"{c} cycles at the back, {lane} lane is quiet"
+        return [TacticalMove(c, action_key(c, lane_of(tile), zone_of(tile)), tile, "cycle", _clip(why),
+                             self.w["cycle"], None)]
+
+    def _offence_moves(self, state: dict, hand: list[str], t: float | None = None) -> list[TacticalMove]:
         own, opp = state["own"], state.get("opponent") or {}
         elixir = own.get("elixir") or 0.0
+        w = self.w
         wcs = [c for c in hand if self._has(self._role(c), "win_condition")]
         moves: list[TacticalMove] = []
 
@@ -402,7 +707,7 @@ class TacticalEngine:
             if lane in allies:
                 for c in wcs:
                     if elixir >= self._cost(c) + 1:
-                        add(c, lane, "counter_push", OFFENCE_SCORES["counter_push"],
+                        add(c, lane, "counter_push", w["counter_push"],
                             f"backs {_name(allies[lane])} in the {lane} lane")
 
         # punish: the opponent has spent down, hit the lane away from its last play
@@ -411,7 +716,7 @@ class TacticalEngine:
             lane = self._opp_last_lane(state) or self._weak_lane(state) or "left"
             for c in wcs:
                 if elixir >= self._cost(c) + 1:
-                    add(c, lane, "punish", OFFENCE_SCORES["punish"],
+                    add(c, lane, "punish", w["punish"],
                         f"opponent ~{fmt_num(opp_elixir)} elixir, hits the {lane} lane")
 
         # leak: a full bar is wasted elixir
@@ -419,7 +724,7 @@ class TacticalEngine:
             lane = self._weak_lane(state) or "left"
             if wcs:
                 for c in wcs:
-                    add(c, lane, "leak", OFFENCE_SCORES["leak_wc"], f"elixir {fmt_num(elixir)} near full, pushes {lane}")
+                    add(c, lane, "leak", w["leak_wc"], f"elixir {fmt_num(elixir)} near full, pushes {lane}")
             else:
                 plain = sorted((c for c in hand if self._role(c).get("type") != "spell"),
                                key=lambda c: (self._cost(c), c))
@@ -431,7 +736,13 @@ class TacticalEngine:
                         tile = _clamp_tile(OWN_TOWER_X[lane] + 1.5 * (1 if lane == "left" else -1), 2.5)
                     moves.append(TacticalMove(c, action_key(c, lane_of(tile), zone_of(tile)), tile, "leak",
                                               _clip(f"elixir {fmt_num(elixir)} near full, cycles {c}"),
-                                              OFFENCE_SCORES["leak"], None))
+                                              w["leak"], None))
+
+        # the bait-deck intents (no push in sight): bait, pressure, support, then cycle if nothing else is worth it
+        moves += self._bait_moves(state, hand, elixir, t)
+        moves += self._pressure_moves(state, hand, elixir)
+        moves += self._support_moves(state, hand, elixir)
+        moves += self._cycle_moves(state, hand, elixir, moves)
         return moves
 
     # -- report --------------------------------------------------------------------------------------------------------
@@ -451,8 +762,11 @@ class TacticalEngine:
         return (f"no threat, saving elixir (own {fmt_num(own.get('elixir'))}, "
                 f"opp ~{fmt_num(opp.get('elixir_estimate'))})")
 
-    def _lines(self, pushes: list[Push], moves: list[TacticalMove], hold_reason: str | None) -> list[str]:
+    def _lines(self, pushes: list[Push], moves: list[TacticalMove], hold_reason: str | None,
+               answered: dict[str, tuple] | None = None) -> list[str]:
+        answered = answered or {}
         lines = [f"tactics: push {p.lane}: {p.summary}; needs {', '.join(p.needs) or 'nothing special'}"
+                 + (f" (being answered by {', '.join(answered[p.lane][:3])})" if answered.get(p.lane) else "")
                  for p in pushes[:MAX_PUSH_LANES]]
 
         def at(m: TacticalMove) -> str:
@@ -467,18 +781,23 @@ class TacticalEngine:
         return lines
 
     def analyse(self, state: dict, t: float | None = None) -> TacticalReport:
-        """`t` is accepted for the live-loop interface; the analysis depends on the state only."""
+        """`t` is the clock of the state's play times (the live loop and the dataset pass it). `bait` uses it to tell
+        whether their small spell was played recently (without it the newest play of either side stands for now), and
+        the defence to skip a kamikaze card we played in the last KAMIKAZE_REPEAT_S (without it the rule is off)."""
         hand = legal_cards(state, self.cards)
         pushes = self._pushes(state)
         moves: list[TacticalMove] = []
+        answered: dict[str, tuple] = {}
         for push in pushes:
-            moves += self._defence_moves(self._ctx(push), hand, state)
+            ctx = self._ctx(push, state, t)
+            answered[push.lane] = ctx.answered_by
+            moves += self._defence_moves(ctx, hand, state)
         if not any(p.eta_s <= URGENT_ETA_S for p in pushes):
-            moves += self._offence_moves(state, hand)
+            moves += self._offence_moves(state, hand, t)
         moves = self._rank(moves)
         best = moves[0] if moves else None
         hold = None if best else self._hold_reason(state, pushes, hand)
-        return TacticalReport(pushes, moves, best, hold, self._lines(pushes, moves, hold))
+        return TacticalReport(pushes, moves, best, hold, self._lines(pushes, moves, hold, answered))
 
     def score_key(self, key: str, state: dict, report: TacticalReport | None = None) -> float | None:
         """The engine's preference for the action key: the score of the first proposed move with that key, else the
@@ -494,7 +813,7 @@ class TacticalEngine:
         role = self._role(card)
         if not self._defends(card, role):
             return None
-        ctx = self._ctx(report.pushes[0])
+        ctx = self._ctx(report.pushes[0], state)
         aim = self._spell_aim(card, ctx, state) if role.get("type") == "spell" else None
         scored = self._defence_score(card, role, ctx, aim)
         return None if scored is None else scored[0]
