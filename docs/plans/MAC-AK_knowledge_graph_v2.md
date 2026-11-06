@@ -200,14 +200,35 @@ output: dataset/v1/kg2/deck_cooc.json
 - The builder parses a fixture KB deck file.
 
 ---
-## K4 — mechanics edges and using the graph in decisions (after MAC-AH and MAC-AI; Opus amends with exact details at dispatch)
-- **`STOPS`, `KILLS`, `PULLS`** edges from MAC-AH's simulation, for all (our card × opponent card) pairs at our / opponent levels:
-  - `STOPS` weight = damage prevented per elixir;
-  - `KILLS` for spells by HP;
-  - `PULLS` for building vs building-targeter.
-- **Engine.** Defend candidates and their ordering come from `KG2.answers_for`, merged with the simulation adequacy. Placement uses the pro offset (median, mirrored back to the lane) when `support ≥ 5`, else the geometric rule.
-- **Policy.** Reserve elixir for the predicted opponent cards: keep an air answer when `P(balloon / minions / lava) ≥ 0.5`.
-- **LLM context.** Add `KG2.facts_lines`, then rebuild `joint_tac`, retrain d1 overnight and evaluate.
+## K4 — mechanics edges and using the graph in decisions (amended by Opus after K1–K3 and MAC-AH merged)
+
+Two packages run in parallel after MAC-AH merges.
+
+**K4a** (graph side): `tools/data/build_kg_v2.py`, `clashbot/kg2.py`, `clashbot/opp_model.py`, `tools/data/build_deck_cooc.py`, `clashbot/recorder_shots.py`, `tools/eval/review_shots.py`, plus their tests.
+- **Mechanics edges.** Build them from `clashbot.unit_stats.simulate_lane` / `stat_at`, for every (our deck card × opponent card) pair and also for every card in `levels.json` `own`. Our cards use our levels; opponent cards use level 15.
+  - `STOPS(our → their)`, weight = damage prevented per elixir (normalised 0–1). Props: `prevented`, `damage_with`, `damage_without`, `adequate`.
+  - `KILLS(spell → unit)`, when the spell damage at our level ≥ the unit HP at 15.
+  - `PULLS(building → building-targeter)`, when the pull geometry is possible (always true for building vs building-targeter; props hold the window).
+  - `source = "sim"`. `answers_for` then uses its sim weight. Once sim exists, down-weight wiki COUNTERS to 0.05 (FIX #42 b).
+- **Role vectors** (FIX #42 c). Add numeric bins from the stats: range band, HP band at level 15, DPS band, speed band, flying, targets. Knight must no longer be 1.0-similar to prince and monk.
+- **Live opponent decks** (FIX #42 d). `build_deck_cooc --live-runs runs/poc` adds each live run's final opponent `deck_known` (from the last `decisions.jsonl` context, or the frames' perception if present) as a deck with weight 3, tagged `training_camp`. The model exposes the `training_camp` share.
+- **FIX #40.** `recorder_shots.TAP_STATUSES` includes the ability tap statuses, and `review_shots` judges ability taps by an elixir drop ≥ 2.4.
+- **Rebuild.** Rebuild `db/kg2.sqlite` with `stats_path = unit_stats`, and report counts plus `answers_for("balloon" | "giant" | "bats" | "hog-rider", deck)`.
+
+**K4b** (decision side): `clashbot/tactics.py`, `clashbot/policy.py`, `clashbot/live.py` (context and wiring only), `clashbot/candidates.py` (notes only), plus their tests.
+- **Answers from the graph.** `TacticalEngine(kg=KG2 | None)`. For each push's lead threat, `kg.answers_for(threat, hand_cards)` gives a prior added to the defend score: `w.kg_prior × answer.score`.
+  - The simulation adequacy from MAC-AH stays the gate.
+  - The reason quotes the strongest evidence, e.g. `pros 70% held n=23`, `sim saves 2,400`, `role of cannon`.
+- **Placement from pro offsets.** When the chosen card has an `ANSWERED_BY` offset with `offset.n ≥ 5` vs that threat (or vs the `via` card for role transfer), place it at `threat_lead_tile + (offset mirrored back to the lane)`, clamped to legal tiles. Otherwise use the geometric rule from MAC-AG. Log `tile_source = "pro_offset"`.
+- **Reserve for predicted cards.** The policy computes `kg.predict_opp_deck(seen)`. If P(any of balloon, minions, minion-horde, lava-hound, bats, mega-minion) ≥ 0.5 and our air answer (e.g. musketeer, electro-dragon) is in hand, keep its cost in reserve for non-urgent plays (counter, leak excepted), the same way the MAC-AH reserve works.
+- **Hero ability, part 2.** Add an engine intent `ability` when the button is ready and our musketeer is alive.
+  - Simulate the turret (KB stats at musketeer level 15) at the spawn tile: musketeer tile + 3 rows toward the enemy.
+  - Propose it when it is adequate for a push, or when it prevents ≥ 400 damage.
+  - The policy adds `ability:musketeer` to `allowed_cards` in those cases. The LLM decides.
+  - Remove part 1's rule "only when a card candidate survives", so the ability can be offered when it is the adequate answer.
+- **LLM context.** `rank_ctx` gains `KG2.facts_lines(state, deck)` (≤ 3 lines) after the tactics lines. The act policy context is unchanged.
+
+**Opus after K4:** rebuild `joint_tac` with the facts lines, an overnight d1 fine-tune, then a recorded live match.
 
 ## Implementation checks (Opus, for every package)
 - Read the report against the spec.
