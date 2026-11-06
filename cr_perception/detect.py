@@ -181,7 +181,8 @@ class KataCRDetector:
             if cat == "ui":
                 continue
             side = "enemy" if bel == 1 else "ally"
-            label = name if c >= self.conf else "unknown_unit"
+            # a weak read of a tower class is still a tower, not an "unknown_unit" standing next to it (MAC-PF)
+            label = name if (c >= self.conf or cat == "tower") else "unknown_unit"
             out.append(Detection(label, float(c), (x1 + x0, y1 + y0, x2 + x0, y2 + y0), side, 1.0, name,
                                  cat if label != "unknown_unit" else "unit"))
         return out
@@ -240,7 +241,7 @@ class BuildABotDetector:
                 side = ("ally", "enemy")[int(np.argmax(p))]
                 sc = float(np.max(p) / (np.sum(np.abs(p)) + 1e-6))
             name = self.names[int(k)]
-            label = name if c >= self.conf else "unknown_unit"
+            label = name if (c >= self.conf or categorize(name) == "tower") else "unknown_unit"
             out.append(Detection(label, float(c), (bx[0] + x0, bx[1] + y0, bx[2] + x0, bx[3] + y0), side, sc, name,
                                  categorize(name)))
         self.last_ms = (time.perf_counter() - t) * 1000

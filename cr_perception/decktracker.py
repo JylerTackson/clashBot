@@ -21,6 +21,22 @@ from pathlib import Path
 DECK_SIZE = 8
 HAND_SIZE = 4
 
+# MAC-PF evidence model (opt-in: observe_play(card, weight=...)): a card is KNOWN once its summed evidence reaches
+# EVIDENCE_KNOWN; once DECK_SIZE cards are known a newcomer needs EVIDENCE_REPLACE to push out the weakest.
+EVIDENCE_KNOWN = 1.0
+EVIDENCE_REPLACE = 1.5
+
+
+def evidence_weight(detect_source: str | None, confidence: str | None = None, score: float | None = None) -> float:
+    """Evidence one opponent play adds for its card. Deploy label: score >= 0.9 -> 1.0, 0.85-0.9 -> 0.6 (the play
+    events carry that as confidence "high" / "medium" when the score itself is not at hand); arena track -> 0.5;
+    anything else with a card -> 0.5."""
+    if detect_source == "deploy_label":
+        if score is not None:
+            return 1.0 if score >= 0.9 else 0.6 if score >= 0.85 else 0.3
+        return {"high": 1.0, "medium": 0.6}.get(confidence or "", 0.3)
+    return 0.5
+
 
 def load_kb_decks(kb_root: Path) -> list[dict]:
     """Phase 2 deck files -> [{deck_key, name, cards[8], archetype, usage}]"""
@@ -65,24 +81,47 @@ class OpponentDeckTracker:
     play_log: list[str] = field(default_factory=list)     # every observed play, in order
     cycle_confirmed: int = 0
     cycle_violations: int = 0
+    evidence: dict[str, float] = field(default_factory=dict)   # summed play evidence per card (weighted mode)
+    weighted: bool = False                                     # observe_play was called with a weight
 
     # --- observation -----------------------------------------------------
-    def observe_play(self, card: str | None) -> None:
+    def observe_play(self, card: str | None, weight: float | None = None) -> None:
+        """weight=None: the card is known at once (offline processing). weight given (live loop): evidence is
+        summed per card, a card is known at EVIDENCE_KNOWN, and with 8 known cards a newcomer at EVIDENCE_REPLACE
+        replaces the known card with the least evidence (latest-known on a tie) if that has less than the newcomer."""
         if card is None:
             self.play_log.append("?")
             return
         self.play_log.append(card)
-        if card not in self.known_cards:
-            if len(self.known_cards) >= DECK_SIZE:
-                # 9th distinct card: something earlier was misread. Keep the
-                # count honest by flagging rather than silently growing.
-                self.cycle_violations += 1
-                return
+        if weight is None:
+            if card not in self.known_cards:
+                if len(self.known_cards) >= DECK_SIZE:
+                    # 9th distinct card: something earlier was misread. Keep the
+                    # count honest by flagging rather than silently growing.
+                    self.cycle_violations += 1
+                    return
+                self.known_cards.append(card)
+                self.evidence[card] = max(self.evidence.get(card, 0.0), EVIDENCE_KNOWN)
+            return
+        self.weighted = True
+        ev = self.evidence[card] = self.evidence.get(card, 0.0) + weight
+        if card in self.known_cards or ev < EVIDENCE_KNOWN:
+            return
+        if len(self.known_cards) < DECK_SIZE:
+            self.known_cards.append(card)
+            return
+        if ev < EVIDENCE_REPLACE:
+            return
+        weakest = min(reversed(self.known_cards), key=lambda c: self.evidence.get(c, 0.0))
+        if self.evidence.get(weakest, 0.0) < ev:
+            self.known_cards.remove(weakest)
             self.known_cards.append(card)
 
     def reset(self) -> None:
         self.known_cards.clear()
         self.play_log.clear()
+        self.evidence.clear()
+        self.weighted = False
         self.cycle_confirmed = self.cycle_violations = 0
 
     @property
@@ -96,7 +135,7 @@ class OpponentDeckTracker:
         front in unknown order."""
         q: list[str] = []
         for c in self.play_log:
-            if c == "?":
+            if c == "?" or (self.weighted and c not in self.known_cards):
                 continue
             if c in q:
                 q.remove(c)

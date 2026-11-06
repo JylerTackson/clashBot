@@ -25,6 +25,47 @@ TRACK_TTL = 1.0             # seconds a track survives without a detection
 NEW_UNIT_GRACE = 0.8        # seconds a new enemy track must persist before it counts as a play
 GROUP_WINDOW = 0.6          # seconds within which several new units of one class are one play (swarms)
 
+# MAC-PF (D-043): phantom opponent plays
+MEASURED_SINCE_SEEN = 0.05  # a unit counts as a detection (not a Kalman prediction) when last measured this recently (s)
+OPP_DEDUP_SECONDS = 3.0     # an opponent play of the same card within this window and OPP_DEDUP_TILES is the same play
+OPP_DEDUP_TILES = 4.0
+SPAWN_NEAR_TILES = 5.0      # a spawned unit starts within this many tiles of its spawner
+SPAWN_ENDED_SECONDS = 2.0   # a spawner track that ended this recently still explains new spawned units
+SPAWN_PLAY_SECONDS = 4.0    # a spawner PLAY reported this recently explains new spawned units (spells)
+CONT_NEAR_TILES = 1.5       # a new track this close to another enemy track is that unit under a new class
+CONT_ENDED_SECONDS = 1.0
+CONT_MIN_HITS = 2           # ... when that other track is a real one (measured at least this often), not a one-frame ghost
+
+# spawned card/unit class -> cards whose units or spells create it (slugs of knowledge_base / unit_map.json).
+# A "play" of the key near a live spawner is a spawn, not an opponent deployment.
+SPAWNED_BY: dict[str, set[str]] = {
+    "bats": {"night-witch"},
+    "skeletons": {"graveyard", "witch", "tombstone", "skeleton-barrel", "skeleton-king"},
+    "goblins": {"goblin-hut", "goblin-barrel", "goblin-drill", "goblin-machine"},
+    "spear-goblins": {"goblin-hut", "goblin-giant"},
+    "goblin-brawler": {"goblin-cage"},
+    "fire-spirit": {"furnace"},
+    "barbarians": {"battle-ram", "barbarian-barrel", "barbarian-hut"},
+    "royal-recruits": {"royal-delivery"},
+    "golemite": {"golem"},
+    "lava-pup": {"lava-hound"},
+    "elixir-golem-mid": {"elixir-golem"},
+    "elixir-golem-small": {"elixir-golem"},
+}
+
+
+def _near(a: tuple[int, int] | None, b: tuple[int, int] | None, tiles: float) -> bool:
+    """Within `tiles` (euclidean); True when either tile is unknown (time-only comparison)."""
+    if a is None or b is None:
+        return True
+    return ((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2) ** 0.5 <= tiles
+
+
+def _measured(u: UnitObs) -> bool:
+    """True for a detection of this frame; False for a Kalman track that is only predicted (motion.since_seen > 0).
+    Units without motion (hand-built, older callers) count as measured."""
+    return u.motion is None or float(u.motion.get("since_seen", 0.0)) <= MEASURED_SINCE_SEEN
+
 
 @dataclass
 class Track:
@@ -36,6 +77,12 @@ class Track:
     last_t: float
     hits: int = 1
     reported: bool = False
+    first_tile: tuple[int, int] | None = None   # where it first appeared (spawn point)
+    preds: list = field(default_factory=list)   # tracks it started on top of (alive / just ended): same unit, new class?
+
+    def __post_init__(self) -> None:
+        if self.first_tile is None:
+            self.first_tile = self.tile
 
 
 @dataclass
@@ -65,6 +112,8 @@ class PlayDetector:
     own_levels: Counter = field(default_factory=Counter)   # deploy-label levels of confirmed own plays
     opp_levels: Counter = field(default_factory=Counter)   # deploy-label levels of confident opponent plays
     recent_labels: list[tuple[float, str, tuple[int, int]]] = field(default_factory=list)
+    ended_tracks: list[tuple[Track, float]] = field(default_factory=list)    # (expired track, time it expired), last ~2 s
+    opp_plays: list[tuple[float, str, tuple[int, int] | None]] = field(default_factory=list)   # reported opponent plays (t, card, tile)
     HOLD_SECONDS: float = 2.5
     LABEL_DEDUP_SECONDS: float = 3.0
     LABEL_DEDUP_TILES: int = 4
@@ -167,14 +216,62 @@ class PlayDetector:
         return events
 
     # ---------------------------------------------------------------- arena
+    def _predecessors(self, tr: Track, t: float) -> list[Track]:
+        """`tr` has just started: the tracks of its side it may be the same unit as under another class
+        (unknown_unit -> giant, giant <-> royal-giant): within CONT_NEAR_TILES of its first tile and alive but NOT
+        detected in this very frame (two boxes in one frame are two units), or ended < CONT_ENDED_SECONDS ago.
+        It is a continuation (not a play) once one of them proves real, see `_continues`."""
+        near = [o for o in self.tracks.values() if o is not tr and o.side == tr.side and o.last_t < t]
+        near += [o for o, te in self.ended_tracks if o.side == tr.side and t - te < CONT_ENDED_SECONDS]
+        return [o for o in near if o.tile is not None and _near(o.tile, tr.first_tile, CONT_NEAR_TILES)]
+
+    @staticmethod
+    def _continues(preds: list[Track]) -> bool:
+        """At report time: a predecessor was measured at least CONT_MIN_HITS times. A one-frame ghost (a building
+        still being placed, a misread) must not swallow the real unit that follows it."""
+        return any(o.hits >= CONT_MIN_HITS for o in preds)
+
+    def _spawned(self, tr: Track, card: str, t: float) -> bool:
+        """`tr` (card `card`) is a unit created by a spawner: a track of a spawner of its side is alive or ended
+        < SPAWN_ENDED_SECONDS ago within SPAWN_NEAR_TILES, or a spawner play was reported < SPAWN_PLAY_SECONDS ago
+        within SPAWN_NEAR_TILES (spell spawners: graveyard, goblin barrel...)."""
+        from .detect import to_card_slug
+        spawners = SPAWNED_BY.get(card)
+        if not spawners:
+            return False
+        for o in self.tracks.values():
+            if (o is not tr and o.side == tr.side and to_card_slug(o.cls) in spawners
+                    and _near(o.tile, tr.first_tile, SPAWN_NEAR_TILES)):
+                return True
+        for o, te in self.ended_tracks:
+            if (o.side == tr.side and t - te < SPAWN_ENDED_SECONDS and to_card_slug(o.cls) in spawners
+                    and _near(o.tile, tr.first_tile, SPAWN_NEAR_TILES)):
+                return True
+        return any(c in spawners and -1.5 <= tr.first_t - tp <= SPAWN_PLAY_SECONDS
+                   and _near(tl, tr.first_tile, SPAWN_NEAR_TILES) for tp, c, tl in self.opp_plays)
+
+    def _opp_duplicate(self, t: float, card: str, tile: tuple[int, int] | None) -> bool:
+        """An opponent play of `card` was already reported within OPP_DEDUP_SECONDS (either way) and OPP_DEDUP_TILES."""
+        return any(c == card and abs(t - tp) <= OPP_DEDUP_SECONDS and _near(tl, tile, OPP_DEDUP_TILES)
+                   for tp, c, tl in self.opp_plays)
+
+    def _log_opp_play(self, t: float, card: str | None, tile: tuple[int, int] | None) -> None:
+        if card:
+            self.opp_plays.append((t, card, tile))
+        self.opp_plays = [p for p in self.opp_plays if t - p[0] <= 10.0]
+
     def update_units(self, t: float, units: list[UnitObs], clock: str | None) -> list[PlayEvent]:
         """Associate detections to tracks; a new ENEMY track that survives the
-        grace period is an opponent play."""
+        grace period is an opponent play. Only frames where the unit was
+        measured count (a Kalman prediction is not a detection); a track that
+        starts on top of another enemy track is that unit under a new class,
+        and the units a spawner (night witch, graveyard...) creates are not plays."""
         events: list[PlayEvent] = []
         unmatched = []
         for u in units:
             if u.category in ("tower", "ui") or u.tile is None:
                 continue
+            measured = _measured(u)
             best, best_d = None, 1e9
             for tr in self.tracks.values():
                 if tr.cls != u.cls or tr.side != u.side or tr.tile is None:
@@ -183,31 +280,43 @@ class PlayDetector:
                 if d < best_d:
                     best, best_d = tr, d
             if best is not None and best_d <= TRACK_DIST_TILES:
-                best.tile, best.last_t, best.hits = u.tile, t, best.hits + 1
+                if measured:
+                    best.tile, best.last_t, best.hits = u.tile, t, best.hits + 1
                 u.track_id = best.id
-            else:
+            elif measured:
                 unmatched.append(u)
+        fresh = []
         for u in unmatched:
             tr = Track(self.next_id, u.cls, u.side, u.tile, t, t)
-            self.tracks[tr.id] = tr
+            fresh.append(tr)
             u.track_id = tr.id
             self.next_id += 1
+        for tr in fresh:        # judged against the tracks of earlier frames only
+            tr.preds = self._predecessors(tr, t)
+        for tr in fresh:
+            self.tracks[tr.id] = tr
         # expire
         for tid in [k for k, tr in self.tracks.items() if t - tr.last_t > TRACK_TTL]:
-            del self.tracks[tid]
+            self.ended_tracks.append((self.tracks.pop(tid), t))
+        self.ended_tracks = [e for e in self.ended_tracks if t - e[1] < max(SPAWN_ENDED_SECONDS, CONT_ENDED_SECONDS)]
         # report new tracks
         for tr in self.tracks.values():
             if tr.reported or t - tr.first_t < NEW_UNIT_GRACE or tr.hits < 2:
                 continue
             tr.reported = True
+            preds, tr.preds = tr.preds, []          # judged once; drop the references so old tracks can go
             if tr.side == "ally":
                 continue  # own plays come from the HUD
+            if self._continues(preds):
+                continue  # the same unit read under another class (flicker), not a new deployment
             if tr.cls == "unknown_unit":
                 events.append(PlayEvent(tr.first_t, clock, "opponent", None, tr.tile, None, None, "arena", "low",
                                         "unrecognised unit appeared (weights predate this card?)"))
                 continue
             from .detect import to_card_slug, categorize
             card = to_card_slug(tr.cls)
+            if self._spawned(tr, card, t):
+                continue  # created by a spawner (bats of a night witch, skeletons of a graveyard...)
             # spawned sub-units of a card that was already reported are not plays
             key = f"{card}"
             if key in self.recent_group and tr.first_t - self.recent_group[key] <= 3.0:
@@ -222,6 +331,7 @@ class PlayDetector:
             if tr.tile is not None and tr.tile[1] < 13 and card not in SPELL_CLASSES and card not in ("miner", "goblin-drill", "graveyard", "goblin-barrel"):
                 continue
             detail = "enemy-side track" + (" but spawned on own half (miner/barrel/spell?)" if own_half else "")
+            self._log_opp_play(tr.first_t, card, tr.tile)
             events.append(PlayEvent(tr.first_t, clock, "opponent", card, tr.tile, None, None, "arena",
                                     "medium" if own_half else conf, detail))
         return events
@@ -302,7 +412,11 @@ class PlayDetector:
             # own play whose HUD event already left the hold window (long drain etc.)
             if any(c == lbl.card and t - tt <= 4.0 for tt, c in self.own_play_cards_recent):
                 continue
+            # the arena path may have reported this deployment already (the label is read later than the unit track)
+            if self._opp_duplicate(t, lbl.card, tile):
+                continue
             self.recent_group[lbl.card] = t
+            self._log_opp_play(t, lbl.card, tile)
             if lbl.level is not None and lbl.match_score >= 0.9 and tile[1] >= 17 and not in_hand:
                 self.opp_levels[lbl.level] += 1
             side_note = " on own half" if tile[1] < 15 else ""

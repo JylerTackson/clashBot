@@ -11,9 +11,20 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
+from .clock import MAX_REMAINING
+
 PHASE_SECONDS_PER_ELIXIR = {"single": 2.8, "double": 1.4, "triple": 2.8 / 3.0}
 MAX_ELIXIR = 10.0
 START_ELIXIR = 5.0  # both players start a ladder match with 5 (set at first observation)
+LOW_CONF = 0.2      # opponent estimate confidence while its start value is a late-join guess
+
+
+def late_join_start(seconds_left: int) -> float:
+    """Upper bound of the opponent's elixir when the match is first read at `seconds_left` on the clock: both
+    players start with 5 and regenerate in single elixir (MAC-PF, a match joined mid-game); plays seen later
+    only lower it. 2:43 left (17 s in) -> 10."""
+    elapsed = max(0, MAX_REMAINING - int(seconds_left))
+    return min(MAX_ELIXIR, START_ELIXIR + elapsed / PHASE_SECONDS_PER_ELIXIR["single"])
 
 
 @dataclass

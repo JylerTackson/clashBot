@@ -35,6 +35,8 @@ class LiveConfig:
     recent_s: float = RECENT_S
     hand_hold_s: float = 2.0                  # reuse the last confident hand this long when all 4 slots are unread; 0 = off
     hand_tracker: bool = False                # positional hand memory (HandTracker) instead of the timed hold; live loop only
+    opp_evidence: bool = False                # an opponent card is "seen" on summed evidence (label 1.0 / 0.6, arena 0.5), not on one play; live loop only
+    strict_units: bool = False                # drop allies outside our deck (misread towers, wrong side) when the deck is valid; live loop only
 
 
 # --------------------------------------------------------------------------- private helpers
@@ -88,7 +90,10 @@ def _unit_from_state(u: dict) -> dict:
 
 
 def _clean_units(raw_units: list[dict], deck_status: str, own_deck: list[str], opp_deck: list[str],
-                 cards: dict, unit_map: dict) -> list[dict]:
+                 cards: dict, unit_map: dict, strict: bool = False) -> list[dict]:
+    """strict (live loop, valid deck only): an ally that is still not one of our cards after the side repair is a
+    misread (our own tower shows up as a 'stationary' skeleton-dragons) and is dropped, `unknown_unit` allies
+    included. Enemy `unknown_unit`s stay: an unknown enemy can still be a threat."""
     units = []
     own_set, opp_set = set(own_deck), set(opp_deck)
     for u in raw_units or []:
@@ -103,6 +108,8 @@ def _clean_units(raw_units: list[dict], deck_status: str, own_deck: list[str], o
                 side, repaired = "ally", True
             if repaired:
                 eta = None
+            if strict and deck_status == "valid" and side == "ally" and not own_ok:
+                continue
         units.append({"unit_class": u["unit"], "card": r["card"], "is_evo": r["is_evo"],
                       "side": side, "side_repaired": repaired, "tile": u.get("tile"),
                       "heading": u.get("heading"), "speed_tiles_s": u.get("speed_tiles_s"),
@@ -222,6 +229,10 @@ class LiveStateBuilder:
         self.deck_set = set(config.own_deck) if len(set(config.own_deck)) >= 8 else None
         deck8 = sorted(set(config.own_deck))
         self.tracker = (HandTracker(deck8 if len(deck8) == 8 else None) if config.hand_tracker else None)
+        self._opp_deck_cls = None
+        if config.opp_evidence:             # lazy: the evidence model lives with the perception deck tracker
+            from cr_perception.decktracker import OpponentDeckTracker, evidence_weight
+            self._opp_deck_cls, self._evidence_weight = OpponentDeckTracker, evidence_weight
         self.reset()
 
     def reset(self) -> None:
@@ -229,6 +240,7 @@ class LiveStateBuilder:
         self._events: list[dict] = []          # normalised play-event dicts, sorted by timestamp
         self._event_keys: set[tuple] = set()
         self._opp_first: dict[str, float] = {}  # playable opponent card -> first-seen time
+        self._opp_deck = self._opp_deck_cls() if self._opp_deck_cls is not None else None   # evidence per card (opp_evidence)
         self._match_id = _UNSET
         self._last_hand: tuple[float, list] | None = None  # (t, hand) of the last read with >= 2 known slots
         self.last_hand_reused = False          # the hand of the latest build() came from _last_hand / the tracker
@@ -254,7 +266,24 @@ class LiveStateBuilder:
             bisect.insort(self._events, ev, key=lambda x: x["timestamp"])
             card = ev.get("card")
             if ev.get("player") == "opponent" and card and is_playable(card, self.cards):
-                self._opp_first[card] = min(self._opp_first.get(card, ts), ts)
+                if self._opp_deck is None:
+                    self._opp_first[card] = min(self._opp_first.get(card, ts), ts)
+                else:
+                    self._observe_opp(card, ev, ts)
+
+    def _observe_opp(self, card: str, ev: dict, ts: float) -> None:
+        """Evidence mode: one weak play does not make a card "seen" (the phantom plays of a misread unit would
+        fill the deck in seconds). A card is first seen when its summed evidence makes it known; a stronger
+        newcomer can push the weakest known card out of the 8."""
+        score = ev.get("score", ev.get("conf"))
+        weight = self._evidence_weight(ev.get("detect_source"), ev.get("confidence"),
+                                       float(score) if isinstance(score, (int, float)) else None)
+        self._opp_deck.observe_play(card, weight)
+        known = set(self._opp_deck.known_cards)
+        for c in known - self._opp_first.keys():
+            self._opp_first[c] = ts
+        for c in self._opp_first.keys() - known:
+            del self._opp_first[c]
 
     def note_own_play(self, card: str, slot: int, t: float) -> None:
         """The executor sent a tap that plays `card` from hand `slot` at time `t` (no-op without the hand tracker)."""
@@ -326,7 +355,7 @@ class LiveStateBuilder:
             hand = self._hold_hand(hand, t)
         confidence = None if self.last_hand_reused else (round(sum(confs) / len(confs), 3) if confs else None)
 
-        for c in opp.get("deck_known") or []:  # the tracker's own list counts from the first t it shows
+        for c in ([] if self._opp_deck is not None else opp.get("deck_known") or []):  # the tracker's own list counts from the first t it shows
             if is_playable(c, cards):
                 self._opp_first[c] = min(self._opp_first.get(c, t), t)
         seen = sorted((c for c, ts in self._opp_first.items() if ts <= t),
@@ -334,7 +363,8 @@ class LiveStateBuilder:
 
         raw_units = [_unit_from_state(u) for u in (g.get("units") or [])
                      if u.get("category") != "tower" and u.get("class") not in TOWER_CLASSES]
-        units = _clean_units(raw_units, self.deck_status, self.deck, seen, cards, self.unit_map)
+        units = _clean_units(raw_units, self.deck_status, self.deck, seen, cards, self.unit_map,
+                             strict=self.config.strict_units)
 
         state = {
             "clock": g.get("match_clock"), "phase": _norm_phase(g.get("phase")),
