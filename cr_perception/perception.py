@@ -676,4 +676,5 @@ class Perception:
             out["hand_cache"] = {"hits": self.hand_cache_hits, "misses": self.hand_cache_misses}
         if self.async_ocr:
             out["ocr_async"] = {"submitted": self.ocr_async_submitted, "applied": self.ocr_async_applied}
+        out["play_stats"] = dict(self.play.stats)       # MAC-AB A3: phantom-play drops / label confirmations (this match)
         return out
