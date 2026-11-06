@@ -8,6 +8,9 @@ fixed-interval `should_decide`. The loop plays only cards it can see in the hand
 policy for a spell's aim point (`target_tile`) when it has one. With a `TacticalEngine` (default; `--no-tactics` turns
 it off, MAC-Z3) the candidates start with the engine's concrete moves, every candidate carries a note, and the ranker
 sees the engine's lines after the context; `--ranker tactics` plays the engine's own pick without any model.
+`--record-shots` (MAC-AF, off by default) saves what the bot saw and tapped: an annotated screenshot per decision and
+the frames 0.5 s / 1.5 s after a tap, written by a background thread (`clashbot.recorder_shots`, review with
+tools/eval/review_shots.py); `step` only queues them.
 `--planner coach` adds the Qwen3-14B coach (D-046): a `CoachWorker` thread rewrites a short plan every
 `--coach-period` game seconds and the loop hands the latest one to the ranker; `step` never waits for it.
 Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
@@ -325,7 +328,7 @@ class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
                  clock=time.perf_counter, min_gap_s: float = 1.0, policy=None, require_hand: bool = True,
-                 tactics=None, arbiter=None, coach=None):
+                 tactics=None, arbiter=None, coach=None, shots=None):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -347,6 +350,8 @@ class LiveLoop:
         self.tactics = tactics                       # a TacticalEngine (MAC-Z3) or None = lookup candidates only
         self.arbiter = arbiter                       # a RuleArbiter (MAC-AB A4) narrowing d1's options when unsure, or None
         self.coach = coach                           # a CoachWorker (D-046): its latest plan replaces `plan_text`
+        self.shots = shots                           # a ShotRecorder (MAC-AF) or None = no screenshots
+        self._shots_ms: list[float] = []             # per frame: time the loop's thread spent in the recorder's hooks
         self._coach_tick_t = float("-inf")           # game time of the last offer to the coach
         self.hand_unknown_holds = 0                  # decisions held because no candidate card was in the read hand
         self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
@@ -429,6 +434,12 @@ class LiveLoop:
                "perception": perception_ms, "live_state": live_state_ms, "rect_changed": rect_changed}
         self.frames.append(row)
         self._write("frames.jsonl", row)
+        shots_ms = 0.0
+        if self.shots is not None:                   # only queues work for the recorder's thread
+            s0 = clock()
+            self.shots.on_frame(frame, t, idx, built[0] if built is not None else None, gs)
+            shots_ms = (clock() - s0) * 1000.0
+            self._shots_ms.append(shots_ms)
         if built is None:
             return None
 
@@ -539,6 +550,13 @@ class LiveLoop:
             tactics_lines=list(report.lines) if report is not None else [], arbiter_reason=arbiter_reason,
             arbiter_subset=arbiter_subset, plan_t=plan_t, plan_age_s=plan_age_s)
         self.decisions.append(decision)
+        if self.shots is not None:
+            s0 = clock()
+            self.shots.on_decision(frame, decision, state, self.executor, gs)
+            hook_ms = (clock() - s0) * 1000.0
+            self._shots_ms[-1] += hook_ms
+            timings["shots"] = shots_ms + hook_ms        # the recorder's cost counts in the decision's total
+            timings["total"] += timings["shots"]
         self._write("decisions.jsonl", {**asdict(decision), "elixir": state["own"]["elixir"],
                                         "hand": state["own"]["hand"], "context_text": ctx})
         return decision
@@ -586,7 +604,11 @@ class LiveLoop:
                         if self.coach is not None:
                             self.coach.close()               # lets a running plan finish: no GPU job is cut off
                     finally:
-                        self._close_files()
+                        try:
+                            if self.shots is not None:
+                                self.shots.close()           # writes the index rows still waiting for a frame
+                        finally:
+                            self._close_files()
         summary = self.summary()
         if self.out_dir is not None:
             (self.out_dir / "summary.json").write_text(json.dumps(summary, indent=2, default=_json_default))
@@ -616,6 +638,7 @@ class LiveLoop:
             "source_stats": stats() if callable(stats) else None,
             "perception_timing": timing_report() if callable(timing_report) else None,
             **({"coach": self.coach.summary()} if self.coach is not None else {}),
+            **({"shots": {**self.shots.summary(), "hook_ms": _pcts(self._shots_ms)}} if self.shots is not None else {}),
         }
 
 
@@ -675,6 +698,11 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--act-backend", choices=("mlx", "transformers"), default="transformers",
                     help="backend of the act-head model")
     ap.add_argument("--out", default=None, help="output dir (default runs/poc/<timestamp>)")
+    ap.add_argument("--record-shots", action="store_true",
+                    help="save <out>/shots/: an annotated screenshot per decision, the frames 0.5 s and 1.5 s after a "
+                         "tap and index.jsonl (MAC-AF; review with tools/eval/review_shots.py)")
+    ap.add_argument("--shots-max", type=int, default=400,
+                    help="stop recording shots after this many decisions (about 60 KB per image)")
     ap.add_argument("--arbiter", choices=("none", "rules"), default="none",
                     help="rules = when d1 is unsure it chooses among the tactical / pro-supported candidates only "
                          "(MAC-AB A4, D-045: d1 still decides); not used with --ranker tactics")
@@ -881,18 +909,25 @@ def main(argv: list[str] | None = None) -> int:
     out_dir = Path(args.out) if args.out else Path("runs") / "poc" / datetime.now().strftime("%Y%m%d-%H%M%S")
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "config.json").write_text(json.dumps(vars(args), indent=2, default=str))
+    shots = None
+    if args.record_shots:
+        from clashbot.recorder_shots import ShotRecorder
+        shots = ShotRecorder(out_dir / "shots", calib=args.calib, max_decisions=args.shots_max)
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
                     plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy, tactics=tactics,
-                    arbiter=arbiter, coach=coach)
+                    arbiter=arbiter, coach=coach, shots=shots)
     mode = "LIVE" if args.live else "dry run"
     print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} policy={args.policy} "
-          f"tactics={'off' if args.no_tactics else 'on'} arbiter={'rules' if arbiter else 'none'} out={out_dir}")
+          f"tactics={'off' if args.no_tactics else 'on'} arbiter={'rules' if arbiter else 'none'} "
+          f"shots={'on' if shots else 'off'} out={out_dir}")
     summary = loop.run(max_seconds=args.seconds, max_decisions=args.max_decisions)
     print(f"frames={summary['frames']} decisions={summary['decisions']} "
           f"readiness={summary['readiness_counts']} status={summary['decisions_by_status']}")
     print(format_table(summary))
     if summary.get("coach"):
         print(f"coach: {summary['coach']}")
+    if summary.get("shots"):
+        print(f"shots: {summary['shots']}")
     return 0
 
 
