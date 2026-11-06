@@ -1,12 +1,16 @@
 """Offline evaluation of the tactics engine (MAC-Z3): no models, CPU only.
 
-  python3 tools/eval/eval_tactics.py [--dataset DIR] [--splits val,test] [--out PATH]
+  python3 tools/eval/eval_tactics.py [--dataset DIR] [--splits val,test] [--out PATH] [--weights PATH|default]
 
 1. Play records: for every `states.jsonl` record of the splits whose action is a known-card play, run the engine on the
    state and report coverage (a best move exists), top-1 / top-3 card agreement with the pro play and, where the card
-   matches, lane / zone agreement and the mean tile distance - overall and split by push / no push.
+   matches, lane / zone agreement and the mean tile distance - overall and split by push / no push - and, per intent
+   of the best move (defend, counter_push, punish, leak, bait, pressure, support, cycle), how often it is the best move
+   and how often its card is the pro card (MAC-A2).
 2. 4-way grid: for every `<dataset>/ranker/<split>.jsonl` line the tactics ranker picks the option with the highest
    `engine.score_key` (None = -inf, ties -> first); its accuracy is printed next to the reference rows.
+--weights: `default` = DEFAULT_WEIGHTS only, a path = DEFAULT_WEIGHTS updated from that JSON; omitted = the engine's own
+(defaults + the committed clashbot/resources/tactics_weights.json).
 Writes JSON to --out (default <dataset>/eval/tactics.json) and a Markdown copy next to it.
 """
 from __future__ import annotations
@@ -23,7 +27,7 @@ sys.path.insert(0, str(ROOT))
 from clashbot.config import DATASET_DIR  # noqa: E402
 from clashbot.game_rules import lane_of, load_cards, zone_of  # noqa: E402
 from clashbot.kg import KnowledgeGraph  # noqa: E402
-from clashbot.tactics import TacticalEngine  # noqa: E402
+from clashbot.tactics import DEFAULT_WEIGHTS, TacticalEngine, resolve_weights  # noqa: E402
 
 DEFAULT_SPLITS = ("val", "test")
 SITUATIONS = ("all", "push", "no_push")
@@ -103,6 +107,36 @@ def play_table(records: list[dict], reports: dict[str, object], splits) -> dict:
     return {s: {sit: row.summary() for sit, row in rows[s].items()} for s in splits}
 
 
+def intent_table(records: list[dict], reports: dict[str, object], splits) -> dict:
+    """Per split and intent of the best move: n, share of the play records, card precision (best.card == pro card),
+    lane agreement when the card matches, and over the top-3 moves how many carry the intent and how many of those
+    have the pro card."""
+    out: dict[str, dict] = {s: {} for s in splits}
+    totals = {s: 0 for s in splits}
+    blank = {"n": 0, "hit": 0, "lane": 0, "top3_n": 0, "top3_hit": 0}
+    for rec in records:
+        action = rec.get("action") or {}
+        if action.get("type") != "play" or not action.get("card"):
+            continue
+        split, report = rec["split"], reports[rec["id"]]
+        totals[split] += 1
+        best = report.best
+        if best is not None:
+            cell = out[split].setdefault(best.intent, dict(blank))
+            cell["n"] += 1
+            if best.card == action["card"]:
+                cell["hit"] += 1
+                cell["lane"] += lane_of(best.tile) == action.get("lane")
+        for m in report.moves[:3]:
+            cell = out[split].setdefault(m.intent, dict(blank))
+            cell["top3_n"] += 1
+            cell["top3_hit"] += m.card == action["card"]
+    return {s: {intent: {"n": c["n"], "share": _rate(c["n"], totals[s]), "precision": _rate(c["hit"], c["n"]),
+                         "lane": _rate(c["lane"], c["hit"]), "top3_n": c["top3_n"],
+                         "top3_precision": _rate(c["top3_hit"], c["top3_n"])}
+                for intent, c in sorted(out[s].items())} for s in splits}
+
+
 def grid_table(engine, lines_by_split: dict[str, list[dict]], states: dict[str, dict],
                reports: dict[str, object]) -> dict:
     out = {}
@@ -154,6 +188,13 @@ def render_markdown(result: dict) -> str:
             lines.append(f"| {s} | {sit.replace('_', ' ')} | {r['n']} | {_pct(r['coverage'])} | {_pct(r['top1'])} "
                          f"| {_pct(r['top3'])} | {_pct(m1['lane'])} | {_pct(m1['zone'])} | {m1['tile_dist']} "
                          f"| {m1['n']} | {_pct(m3['lane'])} | {_pct(m3['zone'])} | {m3['tile_dist']} | {m3['n']} |")
+    lines += ["", "## By intent of the best move (play records)", "",
+              "| split | intent | n best | share of plays | card precision | lane (card matched) | in top-3 "
+              "| top-3 card precision |", "|---|---|---|---|---|---|---|---|"]
+    for s in splits:
+        for intent, r in result["intents"][s].items():
+            lines.append(f"| {s} | {intent} | {r['n']} | {_pct(r['share'])} | {_pct(r['precision'])} | {_pct(r['lane'])} "
+                         f"| {r['top3_n']} | {_pct(r['top3_precision'])} |")
     lines += ["", "## 4-way grid: tactics ranker vs the other rankers", "",
               "| split | n | tactics ranker | random | placement prior | d1 fine-tuned | scored share "
               "| acc when scored | acc push | acc no push |",
@@ -176,6 +217,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--dataset", type=Path, default=DATASET_DIR)
     ap.add_argument("--splits", default=",".join(DEFAULT_SPLITS), help="comma-separated splits (default val,test)")
     ap.add_argument("--out", type=Path, default=None, help="JSON path (default <dataset>/eval/tactics.json)")
+    ap.add_argument("--weights", default=None,
+                    help="`default` = DEFAULT_WEIGHTS, or a weights JSON path; omitted = defaults + the committed file")
     args = ap.parse_args(argv)
     dataset = Path(args.dataset)
     splits = tuple(s.strip() for s in args.splits.split(",") if s.strip())
@@ -183,15 +226,22 @@ def main(argv: list[str] | None = None) -> int:
 
     cards = load_cards()
     kg = load_kg()
-    engine = TacticalEngine(cards, kg=kg)
+    if args.weights is None:
+        weights, weights_name = None, "committed"
+    elif args.weights == "default":
+        weights, weights_name = dict(DEFAULT_WEIGHTS), "default"
+    else:
+        weights, weights_name = resolve_weights(None, path=args.weights), str(args.weights)
+    engine = TacticalEngine(cards, kg=kg, weights=weights)
     states = {r["id"]: r for r in read_jsonl(dataset / "states.jsonl") if r.get("split") in splits}
     lines_by_split = {s: read_jsonl(dataset / "ranker" / f"{s}.jsonl") for s in splits}
 
     reports: dict[str, object] = {}
     for rid, rec in states.items():
         reports[rid] = engine.analyse(rec["state"], rec["t"])
-    result = {"dataset": str(dataset), "splits": list(splits), "kg": kg is not None, "reference": REFERENCE,
-              "play": play_table(list(states.values()), reports, splits),
+    result = {"dataset": str(dataset), "splits": list(splits), "kg": kg is not None, "weights": weights_name,
+              "reference": REFERENCE, "play": play_table(list(states.values()), reports, splits),
+              "intents": intent_table(list(states.values()), reports, splits),
               "grid": grid_table(engine, lines_by_split, states, reports)}
 
     out.parent.mkdir(parents=True, exist_ok=True)

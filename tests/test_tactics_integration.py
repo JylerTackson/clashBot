@@ -588,6 +588,36 @@ def test_eval_tactics_main_writes_json_and_markdown(synthetic, monkeypatch, caps
     assert "| val | all | 1 |" in text and "tactics ranker" in text and "placement prior" in text
 
 
+def test_eval_tactics_reports_intents_and_takes_a_weights_option(synthetic, monkeypatch, tmp_path, capsys):
+    from clashbot.tactics import DEFAULT_WEIGHTS
+    ds, best, _ = synthetic
+    monkeypatch.setattr(eval_tactics, "KnowledgeGraph", lambda: FakeKG())
+    out = ds / "eval" / "w.json"
+    assert eval_tactics.main(["--dataset", str(ds), "--splits", "val", "--out", str(out), "--weights", "default"]) == 0
+    result = json.loads(out.read_text())
+    assert result["weights"] == "default"
+    row = result["intents"]["val"][best.intent]                                  # the giant push: a defend move is best
+    assert row["n"] == 1 and row["share"] == 1.0 and row["precision"] == 1.0 and row["lane"] == 1.0
+    assert row["top3_n"] >= 1 and row["top3_precision"] is not None
+    assert "## By intent of the best move" in capsys.readouterr().out and "| val | defend | 1 |" in out.with_suffix(".md").read_text()
+    # a weights file: its values reach the engine (a huge base score moves every defence score)
+    path = tmp_path / "w.json"
+    path.write_text(json.dumps({"weights": {"base": DEFAULT_WEIGHTS["base"] + 5.0}}))
+    seen = {}
+    real = eval_tactics.TacticalEngine
+
+    def spy(*a, **kw):
+        seen["w"] = kw.get("weights")
+        return real(*a, **kw)
+
+    monkeypatch.setattr(eval_tactics, "TacticalEngine", spy)
+    assert eval_tactics.main(["--dataset", str(ds), "--splits", "val", "--out", str(ds / "p.json"), "--weights", str(path)]) == 0
+    assert seen["w"]["base"] == DEFAULT_WEIGHTS["base"] + 5.0 and seen["w"]["kg_factor"] == DEFAULT_WEIGHTS["kg_factor"]
+    assert json.loads((ds / "p.json").read_text())["weights"] == str(path)
+    assert eval_tactics.main(["--dataset", str(ds), "--splits", "val", "--out", str(ds / "q.json")]) == 0
+    assert seen["w"] is None and json.loads((ds / "q.json").read_text())["weights"] == "committed"
+
+
 def test_eval_tactics_without_a_knowledge_graph_still_runs(synthetic, monkeypatch):
     ds, _, _ = synthetic
 

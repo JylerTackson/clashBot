@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from clashbot.game_rules import lane_of, load_cards, zone_of  # noqa: E402
-from clashbot.tactics import TacticalEngine, TacticalMove, TacticalReport  # noqa: E402
+from clashbot.tactics import DEFAULT_WEIGHTS, TacticalEngine, TacticalMove, TacticalReport  # noqa: E402
 
 CARDS = load_cards()
 
@@ -55,7 +55,8 @@ ROLES = {
                    roles=["swarm", "cycle"]),
     "minions": _troop(targets="air_ground", hp="light", rng="short", count=3, flying=True, roles=["swarm"]),
     "skeletons": _troop(hp="swarm", dps="low", count=3, roles=["swarm", "cycle"]),
-    "ice-spirit": _troop(hp="swarm", dps="low", rng="short", splash=True, roles=["kamikaze", "cycle"]),
+    "ice-spirit": _troop(targets="air_ground", hp="swarm", dps="low", rng="short", splash=True,
+                         roles=["kamikaze", "cycle"]),
     "baby-dragon": _troop(targets="air_ground", rng="short", flying=True, splash=True, roles=["splash_defense"]),
     "tesla": _building(targets="air_ground", roles=["building", "air_defense"]),
     "cannon": _building(roles=["building"]),
@@ -67,14 +68,20 @@ ROLES = {
     "royal-delivery": _spell("small", 3.0, ["swarm"], ["spell_small"]),
     "graveyard": _spell("utility", 4.0, [], ["win_condition"]),
     "goblin-barrel": _spell("small", 1.5, [], ["win_condition"]),
+    "magic-archer": _troop(targets="air_ground", rng="long", splash=True, roles=["support", "air_defense"]),
+    "balloon": _troop(targets="buildings", hp="medium", dps="high", flying=True, roles=["win_condition"]),
+    "bomb-tower": _building(roles=["building", "splash_defense"]),
+    "fire-spirit": _troop(targets="air_ground", hp="swarm", dps="low", rng="short", splash=True, speed="very_fast",
+                          roles=["kamikaze", "cycle"]),
 }
 
-ENGINE = TacticalEngine(CARDS, ROLES)
+# the numeric assertions below are about the default weights, whatever clashbot/resources/tactics_weights.json holds
+ENGINE = TacticalEngine(CARDS, ROLES, weights=DEFAULT_WEIGHTS)
 
 
 # -- state fixtures (as tests/test_policy.py) --------------------------------------------------------------------------
 def _state(elixir=7.0, units=None, hand=None, deck=None, opp_elixir=4.0, opp_plays=None, opp_towers=None,
-           next_card=None):
+           next_card=None, deck_known=None):
     hand = ["tesla", "knight", "zap", "musketeer"] if hand is None else hand
     return {
         "phase": "double_elixir", "match_seconds": 150,
@@ -83,7 +90,7 @@ def _state(elixir=7.0, units=None, hand=None, deck=None, opp_elixir=4.0, opp_pla
                 "towers": {"king": None, "left": 4000, "right": 4000}, "recent_plays": []},
         "opponent": {"elixir_estimate": opp_elixir,
                      "towers": opp_towers or {"king": None, "left": 4000, "right": 4000},
-                     "deck_known": [], "recent_plays": opp_plays or []},
+                     "deck_known": list(deck_known or []), "recent_plays": opp_plays or []},
         "units": units or [], "threats": [],
     }
 
@@ -176,17 +183,20 @@ def test_trade_bonus_and_overpay_penalty():
     state = _state(units=[_enemy((3, 10), "knight", eta=4.0)], hand=["skeletons", "mega-knight", "musketeer"],
                    elixir=9.0)
     by_card = {m.card: m for m in ENGINE.analyse(state).moves}
-    assert by_card["musketeer"].trade == -1.0 and by_card["musketeer"].score == pytest.approx(0.5)
-    assert by_card["mega-knight"].trade == -4.0 and by_card["mega-knight"].score == pytest.approx(0.05)
-    assert by_card["skeletons"].trade == 2.0 and by_card["skeletons"].reason.endswith("trade +2")
+    # a knight is a medium unit, so the stopping term applies: medium dps +0.15, high +0.3 (MAC-A2 addendum)
+    assert by_card["musketeer"].trade == -1.0 and by_card["musketeer"].score == pytest.approx(0.5 + 0.15)
+    assert by_card["mega-knight"].trade == -4.0 and by_card["mega-knight"].score == pytest.approx(0.05 + 0.3)
+    # skeletons have low dps: -0.35, no trade bonus, and the reason does not claim the +2 trade (the field still holds it)
+    assert by_card["skeletons"].trade == 2.0 and by_card["skeletons"].reason == "slows knight"
+    assert by_card["skeletons"].score == pytest.approx(0.5 - 0.35)
     assert by_card["mega-knight"].reason.endswith("trade -4")
 
 
 def test_win_condition_is_kept_for_offence_on_defence():
     state = _state(units=[_enemy((3, 10), "knight", eta=4.0)], hand=["miner", "musketeer"])
     by_card = {m.card: m for m in ENGINE.analyse(state).moves}
-    assert by_card["musketeer"].score == pytest.approx(0.5)
-    assert by_card["miner"].score == pytest.approx(0.1)
+    assert by_card["musketeer"].score == pytest.approx(0.5 + 0.15)               # + stop_medium vs the knight
+    assert by_card["miner"].score == pytest.approx(0.1 + 0.15)
 
 
 # 5 -----------------------------------------------------------------------------------------------------------------
@@ -435,11 +445,13 @@ def test_kg_counter_scores_add_up_to_0_2():
     state = _giant_right(hand=["knight", "musketeer"])
     plain = {m.card: m.score for m in ENGINE.analyse(state).moves}
     kg = _FakeKG({"musketeer": 4.0, "knight": 1.0, "zap": 2.0})
-    boosted = {m.card: m.score for m in TacticalEngine(CARDS, ROLES, kg=kg).analyse(state).moves}
+    engine = TacticalEngine(CARDS, ROLES, kg=kg, weights=DEFAULT_WEIGHTS)
+    boosted = {m.card: m.score for m in engine.analyse(state).moves}
     assert kg.calls == ["giant"]
     assert boosted["musketeer"] == pytest.approx(plain["musketeer"] + 0.2)
     assert boosted["knight"] == pytest.approx(plain["knight"] + 0.05)
-    assert TacticalEngine(CARDS, ROLES, kg=_FakeKG({})).analyse(state).best.card == ENGINE.analyse(state).best.card
+    empty = TacticalEngine(CARDS, ROLES, kg=_FakeKG({}), weights=DEFAULT_WEIGHTS)
+    assert empty.analyse(state).best.card == ENGINE.analyse(state).best.card
 
 
 # misc --------------------------------------------------------------------------------------------------------------
@@ -451,9 +463,9 @@ def test_deterministic_and_does_not_mutate_the_state():
 
 
 def test_accepts_the_role_file_layout_and_unknown_cards_count_as_medium_ground():
-    wrapped = TacticalEngine(CARDS, {"version": 1, "cards": ROLES})
+    wrapped = TacticalEngine(CARDS, {"version": 1, "cards": ROLES}, weights=DEFAULT_WEIGHTS)
     assert wrapped.analyse(_giant_right()).best.card == "tesla"
-    sparse = TacticalEngine(CARDS, {})                                       # no roles at all: everything is a medium unit
+    sparse = TacticalEngine(CARDS, {}, weights=DEFAULT_WEIGHTS)      # no roles at all: everything is a medium unit
     rep = sparse.analyse(_state(units=[_enemy((3, 12), "giant", eta=4.0)], hand=["knight", "zap"]))
     assert rep.pushes[0].needs == [] and rep.best.card == "knight"
     unnamed = _state(units=[_enemy((3, 12), None, eta=4.0, unit_class="skeleton")], hand=["knight"])
@@ -461,7 +473,7 @@ def test_accepts_the_role_file_layout_and_unknown_cards_count_as_medium_ground()
 
 
 def test_real_role_table():
-    engine = TacticalEngine(CARDS)                                           # roles=None: load_roles()
+    engine = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)                     # roles=None: load_roles()
     rep = engine.analyse(_giant_right(hand=["tesla", "knight", "zap", "musketeer"]))
     assert rep.best is not None and rep.pushes[0].lane == "right" and "tank" in rep.pushes[0].needs
     # card_roles.hits_air: the-log carries "hits_air": false
@@ -548,7 +560,7 @@ def test_spell_aim_falls_back_to_the_lead_cell():
 
 
 def test_four_follow_up_situations_on_the_real_role_table():
-    engine = TacticalEngine(CARDS)
+    engine = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)
     grave = engine.analyse(_state(units=[_enemy((4, 6), "graveyard")], hand=["berserker", "knight", "zap", "musketeer"]))
     assert grave.pushes[0].needs == ["swarm"]
     wall = engine.analyse(_state(units=[_enemy((3, 10), "knight", eta=4.0)],
@@ -560,3 +572,400 @@ def test_four_follow_up_situations_on_the_real_role_table():
     ram = engine.analyse(_state(units=[_enemy((5, 14), "battle-ram", eta=2.0, pred=(5, 8))],
                                 hand=["tornado", "royal-delivery"], elixir=7.0))
     assert ram.best.card == "royal-delivery", ram.lines
+
+
+# =====================================================================================================================
+# MAC-A2: offence intents for the bait deck (bait, pressure, support, cycle), the weights, and the tuner
+# =====================================================================================================================
+def _intents(rep):
+    return {m.card: m for m in rep.moves}
+
+
+# bait --------------------------------------------------------------------------------------------------------------
+def test_bait_after_their_log_was_played_3s_ago():
+    plays = [{"t": 7.0, "card": "the-log", "tile": [14, 20]}]
+    state = _state(elixir=6.0, hand=["goblin-barrel", "knight", "musketeer", "zap"], opp_plays=plays,
+                   deck_known=["the-log", "knight"])
+    rep = ENGINE.analyse(state, 10.0)
+    best = rep.best
+    assert best.card == "goblin-barrel" and best.intent == "bait" and best.score == 0.6
+    assert best.reason == "their the-log is cycling"
+    # the lane opposite their newest play (the log landed in the right lane), aimed at the enemy princess tower
+    assert best.tile == [3.5, 23.5] and best.key == "goblin-barrel|left|enemy_half" and best.trade is None
+    assert rep.lines[0] == "tactics: best goblin-barrel @[3.5,23.5] bait: their the-log is cycling"
+    assert ENGINE.analyse(state).best.score == 0.6                        # no clock: the newest play stands for now
+    # the lower enemy princess tower wins over the opposite lane
+    weak = {"king": None, "left": 4000, "right": 1200}
+    assert ENGINE.analyse(dict(state, opponent=dict(state["opponent"], towers=weak)), 10.0).best.key == \
+        "goblin-barrel|right|enemy_half"
+
+
+def test_bait_is_not_preferred_when_their_zap_is_ready():
+    plays = [{"t": 18.0, "card": "zap", "tile": [14, 20]}]            # 12 s ago: back in their hand
+    state = _state(elixir=8.0, hand=["goblin-barrel", "ice-spirit", "musketeer", "knight"], opp_plays=plays,
+                   deck_known=["zap", "knight"])
+    rep = ENGINE.analyse(state, 30.0)
+    bait = _intents(rep)["goblin-barrel"]
+    assert bait.intent == "bait" and bait.score == 0.25 and bait.reason == "their zap may be ready"
+    assert rep.best.card == "ice-spirit" and rep.best.intent == "cycle"             # the cycle (0.35) beats the bait
+    # played 3 s ago instead: the bait is on, and it blocks the cycle
+    recent = _state(elixir=8.0, hand=state["own"]["hand"], opp_plays=[{"t": 27.0, "card": "zap", "tile": [14, 20]}],
+                    deck_known=["zap"])
+    rep = ENGINE.analyse(recent, 30.0)
+    assert rep.best.card == "goblin-barrel" and rep.best.score == 0.6 and "cycle" not in {m.intent for m in rep.moves}
+    # two small spells known, one of them still cycling: the other may be in hand
+    both = _state(elixir=6.0, hand=["goblin-barrel", "knight"], deck_known=["zap", "the-log"],
+                  opp_plays=[{"t": 27.0, "card": "zap", "tile": [14, 20]}])
+    assert ENGINE.analyse(both, 30.0).best.score == 0.25
+
+
+def test_bait_with_no_known_small_spell_and_its_elixir_condition():
+    state = _state(elixir=6.0, hand=["goblin-barrel", "knight"], deck_known=["knight", "giant"])
+    bait = ENGINE.analyse(state, 10.0).best
+    assert bait.card == "goblin-barrel" and bait.score == 0.45 and bait.reason == "no small spell of theirs seen"
+    assert ENGINE.analyse(_state(elixir=3.5, hand=["goblin-barrel", "knight"]), 10.0).best is None   # needs cost + 1
+    # graveyard is a bait too (5 elixir + 1); the miner-likes go on the tower as well
+    assert ENGINE.analyse(_state(elixir=6.0, hand=["graveyard", "knight"])).best.intent == "bait"
+    assert ENGINE.analyse(_state(elixir=5.5, hand=["graveyard", "knight"])).best is None
+    miner = ENGINE.analyse(_state(elixir=6.0, hand=["miner", "knight"])).best
+    assert miner.card == "miner" and miner.intent == "bait" and miner.tile[1] == 23.5
+    assert all(len(m.reason) <= 60 for m in ENGINE.analyse(state, 10.0).moves)
+
+
+def test_bait_needs_no_push_in_sight():
+    state = _giant_right(hand=["goblin-barrel", "tesla", "knight", "musketeer"], elixir=7.0)
+    assert "bait" not in {m.intent for m in ENGINE.analyse(state, 10.0).moves}
+
+
+# pressure ----------------------------------------------------------------------------------------------------------
+def test_pressure_needs_the_reserve_and_a_low_opponent():
+    weak = {"king": None, "left": 3000, "right": 4000}
+    hand = ["hog-rider", "knight", "zap", "musketeer"]
+    rep = ENGINE.analyse(_state(elixir=7.0, hand=hand, opp_towers=weak))
+    best = rep.best
+    assert best.card == "hog-rider" and best.intent == "pressure" and best.score == 0.45
+    assert best.tile == [3.5, 14.0] and best.key == "hog-rider|left|bridge" and len(best.reason) <= 60
+    assert ENGINE.analyse(_state(elixir=6.5, hand=hand, opp_towers=weak)).best is None        # cost 4 + reserve 3
+    assert ENGINE.analyse(_state(elixir=9.0, hand=hand, opp_elixir=6.5)).best is None          # they are not low
+    assert ENGINE.analyse(_state(elixir=7.0, hand=hand, opp_elixir=None)).best.intent == "pressure"
+    # a goblin barrel is a bait, never a pressure move
+    barrel = ENGINE.analyse(_state(elixir=9.0, hand=["goblin-barrel", "knight"]))
+    assert {m.intent for m in barrel.moves} == {"bait"}
+
+
+# support -----------------------------------------------------------------------------------------------------------
+def test_support_behind_an_ally_hog_on_the_enemy_half():
+    ally = _ally((3.5, 20), "hog-rider")
+    state = _state(elixir=6.0, hand=["musketeer", "knight", "tesla", "zap"], units=[ally])
+    rep = ENGINE.analyse(state)
+    support = _intents(rep)["musketeer"]
+    assert support.intent == "support" and support.score == 0.5 and support.trade is None
+    assert support.tile == [3.5, 14.0] and support.key == "musketeer|left|bridge"        # 2 behind (y 18), clamped to our half
+    assert "hog-rider" in support.reason and len(support.reason) <= 60
+    assert "knight" not in _intents(rep) and "tesla" not in _intents(rep)                  # melee troops and buildings do not
+    assert "zap" not in _intents(rep)                                                      # nothing to zap
+    # an ally at the bridge: 2 tiles behind it, not clamped
+    bridge = ENGINE.analyse(_state(elixir=6.0, hand=["musketeer", "knight"], units=[_ally((14.5, 13), "giant")]))
+    assert bridge.best.tile == [14.5, 11.0] and bridge.best.key == "musketeer|right|mid"
+    # a small damage spell on the defenders of the ally
+    defenders = [_enemy(t, "skeletons") for t in ((3, 21), (4, 21), (3.5, 22))]
+    rep = ENGINE.analyse(_state(elixir=6.0, hand=["zap", "knight"], units=[ally] + defenders))
+    zap = _intents(rep)["zap"]
+    assert zap.intent == "support" and zap.key.startswith("zap|left|enemy_half") and 21 <= zap.tile[1] <= 22
+    # no support without elixir, for an ally still on its way, or for a cheap ally that is no win condition / tank
+    assert ENGINE.analyse(_state(elixir=3.5, hand=["musketeer"], units=[ally])).best is None
+    assert ENGINE.analyse(_state(elixir=6.0, hand=["musketeer"], units=[_ally((3.5, 10), "hog-rider")])).best is None
+    assert ENGINE.analyse(_state(elixir=6.0, hand=["musketeer"], units=[_ally((3.5, 20), "knight")])).best is None
+
+
+# cycle -------------------------------------------------------------------------------------------------------------
+def test_cycle_with_spirits_chips_the_weaker_tower():
+    weak = {"king": None, "left": 4000, "right": 2500}
+    rep = ENGINE.analyse(_state(elixir=8.0, hand=["ice-spirit", "knight", "zap", "musketeer"], opp_towers=weak))
+    best = rep.best
+    assert best.card == "ice-spirit" and best.intent == "cycle" and best.score == 0.35
+    assert best.tile == [14.5, 14.0] and best.key == "ice-spirit|right|bridge" and len(best.reason) <= 60
+    # the other conditions: elixir >= 7, a card of cost <= 2, no other move scoring >= 0.4
+    assert ENGINE.analyse(_state(elixir=6.5, hand=["ice-spirit", "knight"], opp_towers=weak)).best is None
+    assert ENGINE.analyse(_state(elixir=8.0, hand=["knight", "musketeer", "zap", "tesla"])).best is None
+    blocked = ENGINE.analyse(_state(elixir=8.0, hand=["ice-spirit", "goblin-barrel"]))      # bait (unknown) = 0.45
+    assert blocked.best.card == "goblin-barrel" and "cycle" not in {m.intent for m in blocked.moves}
+    # the cheapest non-spell, non-win-condition card is cycled: fire-spirit (1) before ice-spirit (1) by name
+    assert ENGINE.analyse(_state(elixir=8.0, hand=["ice-spirit", "fire-spirit", "zap", "hog-rider"],
+                                 opp_elixir=6.0)).best.card == "fire-spirit"
+
+
+def test_cycle_a_non_kamikaze_card_goes_back_in_the_quiet_lane():
+    units = [_enemy((3, 20), "knight"), _enemy((4, 21), "knight")]                        # enemy units on the left
+    rep = ENGINE.analyse(_state(elixir=8.0, hand=["skeletons", "knight", "zap", "musketeer"], units=units))
+    best = rep.best
+    assert best.card == "skeletons" and best.intent == "cycle"
+    assert best.tile == [13.0, 1.5] and best.key == "skeletons|right|back"
+    quiet_left = ENGINE.analyse(_state(elixir=8.0, hand=["skeletons", "knight"], units=[_enemy((15, 20), "knight")]))
+    assert quiet_left.best.tile == [5.0, 1.5] and quiet_left.best.key == "skeletons|left|back"
+
+
+def test_new_intents_are_listed_in_the_report_lines_and_scores_come_from_the_weights():
+    state = _state(elixir=7.0, hand=["hog-rider", "knight", "zap", "musketeer"])
+    boosted = TacticalEngine(CARDS, ROLES, weights={**DEFAULT_WEIGHTS, "pressure": 0.9})
+    assert boosted.analyse(state).best.score == 0.9 and ENGINE.analyse(state).best.score == 0.45
+    assert ENGINE.analyse(state).lines[0].startswith("tactics: best hog-rider @[3.5,14] pressure: ")
+
+
+# defence fixes from live match B (balloon vs ice-spirit): stopping power, already-answered pushes, kamikaze repeats -----
+def _balloon(**kw):
+    kw.setdefault("hand", ["ice-spirit", "magic-archer", "bomb-tower", "berserker"])
+    return _state(units=[_enemy((14.5, 12), "balloon", eta=5.0, tower="own_right")], **kw)
+
+
+def test_a_balloon_is_not_answered_by_an_ice_spirit():
+    for engine in (ENGINE, TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)):          # inline roles and the real table
+        rep = engine.analyse(_balloon(elixir=7.0), 10.0)
+        assert rep.pushes[0].needs == ["air", "building_targeter"] and rep.pushes[0].elixir == 5.0
+        assert rep.best.card in ("magic-archer", "bomb-tower") and rep.best.intent == "defend"
+        assert rep.best.reason.endswith("trade +1")                              # a medium-stopping card keeps its trade
+        spirit = next((m for m in rep.moves if m.card == "ice-spirit"), None)
+        assert spirit is not None and spirit.score < rep.best.score
+        assert spirit.reason == "slows balloon" and spirit.trade == 4.0           # no trade claimed for a low-stopping card
+        assert "ice-spirit" not in rep.lines[1]                                   # the best line names the real answer
+    # the stopping terms: building / tank_killer high, medium dps, kamikaze low (vs a push with a medium unit)
+    knight_push = _state(units=[_enemy((3, 10), "knight", eta=4.0)], elixir=9.0,
+                         hand=["tesla", "mini-p-e-k-k-a", "musketeer", "ice-spirit"])
+    scores = {m.card: m.score for m in ENGINE.analyse(knight_push).moves}
+    assert scores["tesla"] == pytest.approx(0.5 + 0.3) and scores["mini-p-e-k-k-a"] == pytest.approx(0.5 + 0.3)
+    assert scores["musketeer"] == pytest.approx(0.5 + 0.15) and scores["ice-spirit"] == pytest.approx(0.5 - 0.35)
+    # and they are weights
+    flat = TacticalEngine(CARDS, ROLES, weights={**DEFAULT_WEIGHTS, "stop_low": 0.0, "stop_medium": 0.0})
+    flat_scores = {m.card: m.score for m in flat.analyse(knight_push).moves}
+    assert flat_scores["ice-spirit"] == pytest.approx(0.5) and flat_scores["musketeer"] == pytest.approx(0.5)
+
+
+def test_ice_spirit_against_bats_is_still_a_fine_answer():
+    state = _state(units=[_enemy(t, "bats", eta=6.0) for t in ((3, 14), (4, 14), (3.5, 15))],
+                   hand=["ice-spirit", "knight", "musketeer", "tesla"], elixir=7.0)
+    rep = ENGINE.analyse(state)
+    assert rep.pushes[0].needs == ["air", "swarm"]
+    assert rep.best.card == "ice-spirit" and rep.best.reason.endswith("trade +1")   # swarm-only push: the trade counts
+    assert rep.best.score == pytest.approx(0.5 + 0.6 + 0.1)                         # no stopping term: nothing medium in it
+
+
+def test_a_push_our_units_are_already_fighting_is_scaled_down_and_marked():
+    giant = _enemy((15, 13), "giant", eta=8.0, tower="own_right")
+    base = {m.card: m.score for m in ENGINE.analyse(_state(units=[giant], elixir=9.0)).moves}
+    allies = [_ally((15, 11), "bomb-tower"), _ally((14, 12), "berserker")]           # 6 elixir vs the giant's 5
+    rep = ENGINE.analyse(_state(units=[giant] + allies, elixir=9.0))
+    assert {m.card: m.score for m in rep.moves} == {c: pytest.approx(round(v * 0.3, 3)) for c, v in base.items()}
+    assert rep.lines[0] == ("tactics: push right: giant (5 elixir), tower in 8.0s; needs tank, building_targeter"
+                            " (being answered by bomb-tower, berserker)")
+    assert rep.best.card == "tesla"                                                 # the order of the answers is kept
+    # an ally 4 tiles away, or allies worth less than 0.6 x the push, do not count
+    far = ENGINE.analyse(_state(units=[giant, _ally((15, 8), "bomb-tower")], elixir=9.0))
+    assert "answered" not in " ".join(far.lines) and far.best.score == pytest.approx(max(base.values()))
+    weak = ENGINE.analyse(_state(units=[giant, _ally((15, 12), "skeletons")], elixir=9.0))     # 1 < 0.6 x 5
+    assert "answered" not in " ".join(weak.lines) and weak.best.score == pytest.approx(max(base.values()))
+    # the factor and the fraction are weights
+    mild = TacticalEngine(CARDS, ROLES, weights={**DEFAULT_WEIGHTS, "answered_factor": 0.5, "answered_frac": 1.5})
+    assert "answered" not in " ".join(mild.analyse(_state(units=[giant] + allies, elixir=9.0)).lines)   # 6 < 1.5 x 5
+    half = TacticalEngine(CARDS, ROLES, weights={**DEFAULT_WEIGHTS, "answered_factor": 0.5})
+    assert half.analyse(_state(units=[giant] + allies, elixir=9.0)).best.score == pytest.approx(round(base["tesla"] * 0.5, 3))
+
+
+def test_an_emergency_at_the_tower_with_weak_allies_is_not_scaled_down():
+    giant = _enemy((15, 13), "giant", eta=1.0, tower="own_right")
+    base = ENGINE.analyse(_state(units=[giant], elixir=9.0))
+    some = [_ally((15, 12), "knight")]                                              # 3 elixir: >= 0.6 x 5 but < 5
+    rep = ENGINE.analyse(_state(units=[giant] + some, elixir=9.0))
+    assert [m.score for m in rep.moves] == [m.score for m in base.moves] and "answered" not in " ".join(rep.lines)
+    strong = [_ally((15, 12), "knight"), _ally((14, 12), "bomb-tower")]            # 7 elixir >= 5: it is answered
+    rep = ENGINE.analyse(_state(units=[giant] + strong, elixir=9.0))
+    assert rep.best.score == pytest.approx(round(base.best.score * 0.3, 3)) and "answered by knight, bomb-tower" in rep.lines[0]
+    late = _enemy((15, 13), "giant", eta=2.0, tower="own_right")                    # beyond 1.5 s: the weak allies count
+    assert "answered by knight" in ENGINE.analyse(_state(units=[late] + some, elixir=9.0)).lines[0]
+
+
+def test_a_kamikaze_card_we_just_played_is_not_proposed_again():
+    bats = [_enemy(t, "bats", eta=6.0) for t in ((3, 14), (4, 14), (3.5, 15))]
+    spirit = {"t": 8.0, "player": "own", "card": "ice-spirit", "tile": [3, 12]}
+    state = _state(units=bats, hand=["ice-spirit", "zap", "knight", "musketeer"], elixir=8.0)
+    state["own"]["recent_plays"] = [spirit]
+    assert ENGINE.analyse(state, 10.0).best.card != "ice-spirit"                    # played 2 s ago
+    assert "ice-spirit" not in [m.card for m in ENGINE.analyse(state, 10.9).moves]
+    assert "ice-spirit" in [m.card for m in ENGINE.analyse(state, 11.5).moves]      # 3.5 s ago: fine again
+    assert "ice-spirit" in [m.card for m in ENGINE.analyse(state).moves]            # no clock: the rule is off
+    state["own"]["recent_plays"] = [dict(spirit, card="knight")]                     # a non-kamikaze play does not block
+    assert "ice-spirit" in [m.card for m in ENGINE.analyse(state, 10.0).moves]
+    state["own"]["recent_plays"] = [dict(spirit, t=None)]
+    assert "ice-spirit" in [m.card for m in ENGINE.analyse(state, 10.0).moves]
+
+
+# weights -----------------------------------------------------------------------------------------------------------
+def test_default_weights_cover_every_scoring_number_and_the_committed_file_is_valid():
+    import json
+
+    from clashbot.tactics import WEIGHTS_PATH
+    for key in ("base", "kg_factor", "win_condition_penalty", "counter_push", "punish", "leak", "leak_wc",
+                "bait_counter_used", "bait_unknown", "bait_counter_ready", "pressure", "support", "cycle",
+                "stop_high", "stop_medium", "stop_low", "answered_frac", "answered_factor"):
+        assert key in DEFAULT_WEIGHTS
+    assert (DEFAULT_WEIGHTS["bait_counter_used"], DEFAULT_WEIGHTS["bait_unknown"],
+            DEFAULT_WEIGHTS["bait_counter_ready"]) == (0.6, 0.45, 0.25)
+    assert (DEFAULT_WEIGHTS["pressure"], DEFAULT_WEIGHTS["support"], DEFAULT_WEIGHTS["cycle"]) == (0.45, 0.5, 0.35)
+    assert (DEFAULT_WEIGHTS["stop_high"], DEFAULT_WEIGHTS["stop_medium"], DEFAULT_WEIGHTS["stop_low"]) == (0.3, 0.15, -0.35)
+    assert (DEFAULT_WEIGHTS["answered_frac"], DEFAULT_WEIGHTS["answered_factor"]) == (0.6, 0.3)
+    assert all(isinstance(v, float) for v in DEFAULT_WEIGHTS.values())
+    data = json.loads(WEIGHTS_PATH.read_text())                               # committed by tools/train/tune_tactics.py
+    assert set(data["weights"]) == set(DEFAULT_WEIGHTS) and all(isinstance(v, float) for v in data["weights"].values())
+
+
+def test_the_weights_file_is_loaded_and_an_explicit_dict_overrides_it(tmp_path, monkeypatch):
+    import json
+
+    from clashbot import tactics
+    path = tmp_path / "w.json"
+    path.write_text(json.dumps({"version": 1, "weights": {"pressure": 0.9, "support": 0.1, "no_such_weight": 5}}))
+    monkeypatch.setattr(tactics, "WEIGHTS_PATH", path)
+    state = _state(elixir=7.0, hand=["hog-rider", "knight", "zap", "musketeer"])
+    from_file = TacticalEngine(CARDS, ROLES)
+    assert from_file.w["pressure"] == 0.9 and from_file.w["support"] == 0.1 and "no_such_weight" not in from_file.w
+    assert from_file.w["cycle"] == DEFAULT_WEIGHTS["cycle"]                      # untouched keys stay at the default
+    assert from_file.analyse(state).best.score == 0.9
+    explicit = TacticalEngine(CARDS, ROLES, weights={"pressure": 0.2})           # explicit beats the file, file beats defaults
+    assert explicit.analyse(state).best.score == 0.2 and explicit.w["support"] == 0.1
+    assert TacticalEngine(CARDS, ROLES, weights=DEFAULT_WEIGHTS).w == DEFAULT_WEIGHTS
+    with pytest.raises(ValueError, match="no_such_weight"):
+        TacticalEngine(CARDS, ROLES, weights={"no_such_weight": 1.0})
+    path.write_text(json.dumps({"pressure": 0.8}))                               # a plain mapping is accepted too
+    assert TacticalEngine(CARDS, ROLES).w["pressure"] == 0.8
+    path.write_text("not json")                                                  # a broken or missing file = defaults
+    assert TacticalEngine(CARDS, ROLES).w == DEFAULT_WEIGHTS
+    path.unlink()
+    assert TacticalEngine(CARDS, ROLES).w == DEFAULT_WEIGHTS
+
+
+def test_the_defaults_score_as_written():
+    """The Z2 numbers plus the stopping term: the weights refactor must not move any other defence or offence score."""
+    rep = ENGINE.analyse(_giant_right())
+    # Z2 had tesla 1.6, knight 0.9, musketeer 0.6; the giant is a tank, so stop_high / stop_medium / stop_medium now apply
+    assert {m.card: m.score for m in rep.moves} == {"tesla": 1.9, "knight": 1.05, "musketeer": 0.75}
+    bats = ENGINE.analyse(_bats_left())                                    # a swarm-only push: unchanged since Z2
+    assert {m.card: m.score for m in bats.moves} == {"zap": 1.1, "fireball": 0.95, "musketeer": 0.35}
+    assert DEFAULT_WEIGHTS["counter_push"] == 0.6 and DEFAULT_WEIGHTS["punish"] == 0.55
+    assert DEFAULT_WEIGHTS["leak_wc"] == 0.5 and DEFAULT_WEIGHTS["leak"] == 0.4
+
+
+# the tuner ---------------------------------------------------------------------------------------------------------
+def _tuning_fixtures():
+    """A knight push where the KG favours the knight (0.85) over the tesla (0.8): a pro tesla needs the KG factor down."""
+    from tools.train import tune_tactics as tt
+    kg = _FakeKG({"knight": 1.0})
+    engine = TacticalEngine(CARDS, ROLES, kg=kg, weights=DEFAULT_WEIGHTS)
+
+    def state():
+        return _state(units=[_enemy((3, 10), "knight", eta=4.0)], hand=["knight", "zap", "musketeer", "tesla"])
+
+    moves = {m.card: m for m in engine.analyse(state()).moves}
+    assert engine.analyse(state()).best.card == "knight" and "tesla" in moves
+    lane = moves["tesla"].key.split("|")[1]
+
+    def recs(split, card, n, lane=lane):
+        return [tt.Rec(f"{split}{i}", split, state(), 10.0, card, lane, 4, True) for i in range(n)]
+
+    return tt, engine, recs
+
+
+def test_the_tuner_improves_its_objective_on_a_tiny_record_set():
+    tt, engine, recs = _tuning_fixtures()
+    train, val = recs("train", "tesla", 6), recs("val", "tesla", 3)
+    base = tt.mean_objective(engine, train, DEFAULT_WEIGHTS)
+    assert base == pytest.approx(0.5)                                                           # top-3 only
+    out = tt.tune(engine, train, val, passes=2, log=lambda *a: None)
+    assert out["tuned"] and out["picked_pass"] >= 1 and out["weights"] != DEFAULT_WEIGHTS
+    assert out["history"][0]["train"] == pytest.approx(base) and out["history"][1]["train"] > base
+    assert tt.mean_objective(engine, train, out["weights"]) > base                              # +1 top-1 (+0.25 lane)
+    assert tt.mean_objective(engine, val, out["weights"]) > tt.mean_objective(engine, val, DEFAULT_WEIGHTS)
+    assert engine.w == DEFAULT_WEIGHTS                                                          # the engine is left as it was
+
+
+def test_the_tuner_keeps_the_defaults_when_val_does_not_improve():
+    tt, engine, recs = _tuning_fixtures()
+    train = recs("train", "tesla", 6)
+    best = engine.analyse(_state(units=[_enemy((3, 10), "knight", eta=4.0)],
+                                 hand=["knight", "zap", "musketeer", "tesla"])).best
+    worse = tt.tune(engine, train, recs("val", best.card, 3, lane=best.key.split("|")[1]), passes=2,
+                    log=lambda *a: None)                                                        # val wants the default best
+    assert not worse["tuned"] and worse["weights"] == DEFAULT_WEIGHTS
+    assert "did not improve" in worse["reason"] and worse["picked_pass"] == 0
+    equal = tt.tune(engine, train, recs("val", "musketeer", 3), passes=1, log=lambda *a: None)   # val unaffected = no gain
+    assert not equal["tuned"] and equal["weights"] == DEFAULT_WEIGHTS
+
+
+def test_the_tuner_vetoes_changes_that_break_a_design_guard():
+    tt, engine, recs = _tuning_fixtures()
+    train, val = recs("train", "tesla", 6), recs("val", "tesla", 3)
+    free = tt.tune(engine, train, val, passes=2, log=lambda *a: None)
+    assert free["weights"]["kg_factor"] < 0.2 and free["vetoed"] == {}
+    kept = tt.tune(engine, train, val, passes=2, log=lambda *a: None, guards=[lambda e: e.w["kg_factor"] >= 0.2])
+    assert kept["weights"]["kg_factor"] == 0.2 and kept["vetoed"]["kg_factor"] >= 1
+    with pytest.raises(RuntimeError, match="default weights break"):
+        tt.tune(engine, train, val, passes=1, log=lambda *a: None, guards=[lambda e: False])
+
+
+def test_the_default_design_guards_hold_for_the_defaults_and_catch_regressions():
+    from tools.train import tune_tactics as tt
+    engine = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)                       # the real role table
+    guards = tt.default_guards()
+    assert tt.guards_hold(engine, DEFAULT_WEIGHTS, guards) and engine.w == DEFAULT_WEIGHTS
+    broken = {
+        "a balloon answered by an ice-spirit": {"targeter_swarm_bonus": 0.9},
+        "an answered push not scaled down": {"answered_factor": 1.0},
+        "bait unknown above bait cycling": {"bait_unknown": 0.9},
+        "a positive penalty for low stopping power": {"stop_low": 0.2},
+        "cycle above the other intents": {"cycle": 0.7, "cycle_block_score": 0.7},
+    }
+    for what, change in broken.items():
+        assert not tt.guards_hold(engine, {**DEFAULT_WEIGHTS, **change}, guards), what
+    assert tt.guards_hold(engine, {**DEFAULT_WEIGHTS, "support": 0.8, "kg_factor": 0.1}, guards)
+
+
+def test_the_incremental_objective_matches_a_full_recompute_and_candidates():
+    tt, engine, recs = _tuning_fixtures()
+    rows = recs("train", "tesla", 4)
+    obj = tt.Objective(engine, rows, dict(DEFAULT_WEIGHTS))
+    assert obj.touch["kg_factor"] == {0, 1, 2, 3} and obj.touch["bait_unknown"] == set()   # only read weights are touched
+    total, updates = obj.propose("kg_factor", 0.05)
+    assert total / 4 == pytest.approx(tt.mean_objective(engine, rows, {**DEFAULT_WEIGHTS, "kg_factor": 0.05}))
+    assert dict.__getitem__(obj.tracer, "kg_factor") == 0.2                                      # propose restores the value
+    obj.accept("kg_factor", 0.05, total, updates)
+    assert obj.total == total and obj.weights["kg_factor"] == 0.05
+    assert tt.candidates(0.4) == [0.3, 0.5, 0.2, 0.6, 0.8]                                       # smallest step first
+    assert tt.candidates(0.1) == [0.075, 0.125, 0.05, 0.15, 0.0, 0.2]                            # near 0: +-0.1, sign kept
+    assert 0.0 in tt.candidates(0.1) and min(tt.candidates(0.1)) >= 0
+    assert 0.1 in tt.candidates(0.0) and -0.1 in tt.candidates(0.0)
+    assert min(tt.candidates(-0.35)) >= -0.7 and max(tt.candidates(-0.35)) <= -0.175          # negative weights stay negative
+
+
+def test_the_tuner_main_writes_the_weights_and_the_report(tmp_path, monkeypatch):
+    import json
+
+    from tools.train import tune_tactics as tt
+    tt_state = _state(units=[_enemy((3, 10), "knight", eta=4.0)], hand=["knight", "zap", "musketeer", "tesla"])
+    rows = [{"id": f"{split}#{i}", "game_id": split, "split": split, "t": 10.0, "state": tt_state,
+             "action": {"type": "play", "card": "zap", "lane": "left", "zone": "mid", "tile": [3, 10]}}
+            for split in ("train", "val", "test") for i in range(3)]
+    rows.append({"id": "hold", "split": "train", "t": 1.0, "state": tt_state, "action": {"type": "hold"}})
+    ds = tmp_path / "ds"
+    ds.mkdir()
+    (ds / "states.jsonl").write_text("".join(json.dumps(r) + "\n" for r in rows))
+    monkeypatch.setattr(tt, "KnowledgeGraph", lambda: _FakeKG({"knight": 1.0}))
+    out, report = tmp_path / "w.json", tmp_path / "rep" / "tuning.json"
+    assert tt.main(["--dataset", str(ds), "--passes", "2", "--out", str(out), "--report", str(report)]) == 0
+    written = json.loads(out.read_text())
+    assert set(written["weights"]) == set(DEFAULT_WEIGHTS) and written["version"] == 1
+    result = json.loads(report.read_text())
+    assert report.with_suffix(".md").exists() and result["kg"] is True
+    for split in ("train", "val", "test"):
+        for side in ("before", "after"):
+            row = result[side][split]["situations"]["all"]
+            assert row["n"] == 3 and row["n_eligible"] == 3 and row["objective"] is not None
+    assert result["tuned"] == (written["weights"] != DEFAULT_WEIGHTS) and set(result["changed"]) <= set(DEFAULT_WEIGHTS)
+    assert result["before"]["val"]["by_intent"]["defend"]["n"] == 3
