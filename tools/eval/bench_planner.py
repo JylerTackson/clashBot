@@ -9,7 +9,10 @@ tokens/s are mlx-lm's own (prompt prefill and decode), the peak memory is MLX's.
 
 `--coach` benches `CoachPlanner` (default model COACH_MODEL_ID): the same pre-game plan, then `--updates` coach
 updates per deck (default 3, at least `--period` game seconds apart, each fed the tactics engine's lines and the
-lookup summary, each revising the plan before it) as `update_s` p50 / p95.
+lookup summary, each revising the plan before it) as `update_s` p50 / p95, with the prefill time of each update.
+The coach reuses the KV cache of the prompt prefix (`--no-prefix-cache` turns that off to compare), `--prefill-step N`
+sets the prompt tokens per prefill chunk, `--yield-ms` a sleep after every chunk and `--token-yield-ms` one after every
+token.
 """
 from __future__ import annotations
 
@@ -27,12 +30,13 @@ sys.path.insert(0, str(ROOT))
 
 from clashbot.config import DATASET_DIR, DB_PATH  # noqa: E402
 from clashbot.kg import KnowledgeGraph  # noqa: E402
-from clashbot.planner import (COACH_MODEL_ID, COACH_PERIOD_S, DEFAULT_QWEN_ID, CoachPlanner, LLMPlanner,  # noqa: E402
-                              MLXChat, lookup_summary)
+from clashbot.planner import (COACH_MODEL_ID, COACH_PREFILL_STEP, COACH_TOKEN_YIELD_S, COACH_YIELD_S,  # noqa: E402
+                              DEFAULT_QWEN_ID, CoachPlanner, LLMPlanner, MLXChat, coach_chat, lookup_summary)
 from clashbot.retrieval import StateIndex  # noqa: E402
 from clashbot.tools import ToolContext  # noqa: E402
 
 EVAL_SPLITS = ("val", "test")
+UPDATE_PERIOD_S = 10.0       # game seconds between the benched coach updates
 
 
 def read_jsonl(path: Path):
@@ -105,10 +109,13 @@ class StatChat:
         self.chat_obj = chat
         self.log: list[dict] = []
 
-    def chat(self, messages, tools=None):
-        out = self.chat_obj.chat(messages, tools)
+    def chat(self, messages, tools=None, **kwargs):
+        out = self.chat_obj.chat(messages, tools, **kwargs)
         self.log.append(dict(getattr(self.chat_obj, "last_stats", {}) or {}))
         return out
+
+    def __getattr__(self, name):               # prefix_cache etc.: what the wrapped chat has
+        return getattr(self.chat_obj, name)
 
     def take(self) -> dict:
         """Totals of the calls since the last `take`, then reset."""
@@ -116,8 +123,11 @@ class StatChat:
         gen = sum(s.get("gen_tokens", 0) for s in log)
         pre = sum(s.get("prompt_tokens", 0) for s in log)
         ms = sum(s.get("gen_ms", 0.0) for s in log)
+        prefill_ms = sum(s.get("prefill_ms", 0.0) for s in log)
+        cached = sum(s.get("cached_tokens", 0) for s in log)
         decode_s = sum(s.get("gen_tokens", 0) / s["gen_tps"] for s in log if s.get("gen_tps"))
-        return {"calls": len(log), "prompt_tokens": pre, "gen_tokens": gen,
+        return {"calls": len(log), "prompt_tokens": pre, "cached_tokens": cached, "prefill_ms": round(prefill_ms, 1),
+                "gen_tokens": gen,
                 "tokens_per_s": round(gen / (ms / 1000), 1) if ms else None,        # incl. prefill
                 "decode_tps": round(gen / decode_s, 1) if decode_s else None}
 
@@ -139,7 +149,12 @@ def main() -> None:
     ap.add_argument("--out", type=Path, default=None)
     ap.add_argument("--coach", action="store_true", help="bench CoachPlanner (Qwen3-14B, thinking off)")
     ap.add_argument("--updates", type=int, default=None, help="updates per deck (default 1; 3 with --coach)")
-    ap.add_argument("--period", type=float, default=COACH_PERIOD_S, help="game seconds between the coach updates")
+    ap.add_argument("--period", type=float, default=UPDATE_PERIOD_S, help="game seconds between the coach updates")
+    ap.add_argument("--no-prefix-cache", action="store_true", help="coach: prefill the whole prompt every time")
+    ap.add_argument("--prefill-step", type=int, default=COACH_PREFILL_STEP, help="coach: prompt tokens per prefill chunk")
+    ap.add_argument("--yield-ms", type=float, default=COACH_YIELD_S * 1000, help="coach: sleep per prefill chunk, ms")
+    ap.add_argument("--token-yield-ms", type=float, default=COACH_TOKEN_YIELD_S * 1000,
+                    help="coach: sleep per generated token, ms")
     args = ap.parse_args()
     model = args.model or (COACH_MODEL_ID if args.coach else DEFAULT_QWEN_ID)
     n_updates = args.updates if args.updates is not None else (3 if args.coach else 1)
@@ -155,7 +170,9 @@ def main() -> None:
         mx.reset_peak_memory()
     except (ImportError, AttributeError):
         pass
-    raw = MLXChat(model, enable_thinking=False) if args.coach else MLXChat(model)
+    raw = (coach_chat(model, prefix_cache=not args.no_prefix_cache, prefill_step=args.prefill_step,
+                      yield_s=args.yield_ms / 1000.0, token_yield_s=args.token_yield_ms / 1000.0)
+           if args.coach else MLXChat(model))
     t0 = time.perf_counter()
     raw.load()
     load_s = round(time.perf_counter() - t0, 2)
@@ -179,6 +196,9 @@ def main() -> None:
         plan = planner.pregame(g["own_deck"], key, ctx)
         pregame_s = time.perf_counter() - t0
         pre_stats = chat.take()
+        if args.coach and not args.no_prefix_cache:
+            planner.prime(g["own_deck"])               # as the live worker does after the pregame plan
+            chat.take()
         trace = plan.trace
         row = {"deck_key": key, "game_id": g["game_id"], "pregame_s": round(pregame_s, 2),
                "steps": max((e["step"] for e in trace), default=-1) + 1, "tool_calls": len(trace),
@@ -226,6 +246,11 @@ def main() -> None:
         "update_s_p50": pct50(upd),
         "update_s_p95": pct(upd, 0.95),
         "update_s_max": max(upd, default=None),
+        "update_prefill_ms_p50": pct50([u["prefill_ms"] for r in rows for u in r["updates"] if "prefill_ms" in u]),
+        "update_prefill_ms_warm_p50": pct50([u["prefill_ms"] for r in rows for u in r["updates"][1:]
+                                             if "prefill_ms" in u]),     # after the first update of a deck
+        "update_cached_tokens_mean": pct50([u["cached_tokens"] for r in rows for u in r["updates"][1:]
+                                            if "cached_tokens" in u]),
         "decode_tps_p50": pct50(dec),
         "tokens_per_s_p50": pct50([u["tokens_per_s"] for r in rows for u in r["updates"] if u.get("tokens_per_s")]),
         "peak_gb": peak_gb(),
@@ -248,7 +273,9 @@ def main() -> None:
     for r in rows:
         print(f"\nplan ({r['deck_key'][:40]}, {r['source']}):\n{r['plan']}")
         for u in r["updates"]:
-            print(f"update at t={u['t']}s ({u['s']}s, {u.get('gen_tokens')} tokens, {u.get('decode_tps')} tok/s):\n{u['plan']}")
+            print(f"update at t={u['t']}s ({u['s']}s, prefill {u.get('prefill_ms')} ms of {u.get('prompt_tokens')} "
+                  f"tokens ({u.get('cached_tokens')} cached), {u.get('gen_tokens')} tokens, {u.get('decode_tps')} tok/s)"
+                  f":\n{u['plan']}")
 
 
 if __name__ == "__main__":

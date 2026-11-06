@@ -26,9 +26,12 @@ class FakeChat:
         self.replies = list(replies)
         self.repeat = repeat
         self.calls: list[tuple[list[dict], list | None]] = []
+        self.kwargs: list[dict] = []         # extra per-call options (the coach passes max_tokens)
+        self.last_stats: dict = {}
 
-    def chat(self, messages, tools=None):
+    def chat(self, messages, tools=None, **kwargs):
         self.calls.append(([dict(m) for m in messages], tools))
+        self.kwargs.append(kwargs)
         if len(self.calls) <= len(self.replies):
             return self.replies[len(self.calls) - 1]
         if self.repeat:

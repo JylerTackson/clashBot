@@ -20,6 +20,7 @@ import inspect
 import json
 import logging
 import queue
+import re
 import sys
 import threading
 import time
@@ -38,7 +39,8 @@ from clashbot.config import HOLD_KEY
 from clashbot.game_rules import load_cards
 from clashbot.kg import KnowledgeGraph
 from clashbot.loop import should_decide
-from clashbot.planner import COACH_MODEL_ID, COACH_PERIOD_S, Plan, lookup_summary, should_update
+from clashbot.planner import (COACH_MODEL_ID, COACH_PERIOD_S, COACH_PREFILL_STEP, COACH_TOKEN_YIELD_S, COACH_YIELD_S,
+                              Plan, lookup_summary, should_update)
 from clashbot.policy import ActDecision, ReactivePolicy
 from clashbot.retrieval import StateIndex
 from clashbot.tactics import TacticalEngine
@@ -47,6 +49,9 @@ STAGES = ("capture", "perception", "live_state", "trigger", "candidates", "rank"
 FRAME_STAGES = ("capture", "perception", "live_state")
 TARGET_P95_MS = 300.0
 COACH_TICK_S = 1.0            # the loop offers the coach worker a job at most once per game second
+COACH_QUIET_ETA_S = 10.0      # the coach starts no job while a push is this close to a tower (or we defend / save)
+COACH_BUSY_MODES = ("defend", "save")
+_TOWER_ETA_RE = re.compile(r"tower in (\d+(?:\.\d+)?)s")      # the tactics engine's push line: "..., tower in 6.2s; ..."
 FALLBACK_MIN_ELIXIR = 9.5     # a "fallback" candidate (no knn/kg support) is only played from a (nearly) full bar
 TOS_NOTE = ("Live runs only in Training Camp or friendly battles "
             "(Supercell terms of service prohibit bots in normal play).")
@@ -134,6 +139,18 @@ def _pcts(vals: list[float]) -> dict:
 log = logging.getLogger("clashbot.coach")
 
 
+def coach_quiet(mode: str | None, tactics_lines: list[str] | None, eta_s: float = COACH_QUIET_ETA_S) -> bool:
+    """Is it quiet enough to run the coach? Its GPU work slows perception and d1, so no job starts while the policy
+    is defending or saving for a threat (`mode`), or while a tactics push line says "tower in X s" with X <= eta_s."""
+    if mode in COACH_BUSY_MODES:
+        return False
+    for line in tactics_lines or []:
+        m = _TOWER_ETA_RE.search(line)
+        if m and float(m.group(1)) <= eta_s:
+            return False
+    return True
+
+
 @dataclass
 class CoachPlan:
     """A coach plan as the loop reads it: its text, the game time it was made for, and the model's wall time."""
@@ -145,7 +162,9 @@ class CoachPlan:
 class CoachWorker:
     """The slow loop's background thread (D-046): `planner.update` runs one job at a time, so a plan never delays a
     decision. `submit` is non-blocking: it does nothing while a job runs or before the next one is due (the first
-    time, `period_s` game seconds after the last job, or a new opponent card). A finished plan is published as
+    time, `period_s` game seconds after the last job, or a new opponent card) and, given the policy `mode` and the
+    tactics lines, only when it is quiet (`coach_quiet`): a due job waits for the next offer. A finished plan is
+    published as
     `latest_plan` and appended to <out_dir>/plans.jsonl; an exception is logged and the old plan stays. Every model
     call, the pre-game plan included, runs on this one thread (MLX streams are per thread). The planner is a
     `CoachPlanner` (or anything with `pregame` and `update(plan, state, t, tactics_lines, lookup, context_text)`);
@@ -199,13 +218,23 @@ class CoachWorker:
         """The pre-game plan, made on the worker thread; blocks (the match has not started). A failure keeps the deck."""
         t0 = self.clock()
         try:
-            plan = self._enqueue(lambda: self.planner.pregame(own_deck, deck_key, ctx)).result()
+            plan = self._enqueue(lambda: self._pregame(own_deck, deck_key, ctx)).result()
         except Exception as exc:
             log.warning("coach pregame failed: %r", exc)
             self.errors += 1
             plan = Plan("Deck: " + ", ".join(own_deck), "rules_fallback")
         self.pregame_s = round(self.clock() - t0, 2)
         self.pregame_plan = plan
+        return plan
+
+    def _pregame(self, own_deck: list[str], deck_key: str | None, ctx) -> Plan:
+        plan = self.planner.pregame(own_deck, deck_key, ctx)
+        prime = getattr(self.planner, "prime", None)          # prefill the static prompt prefix: the first update is quick
+        if callable(prime):
+            try:
+                prime(own_deck)
+            except Exception as exc:
+                log.warning("coach prime failed: %r", exc)
         return plan
 
     # -- in game --------------------------------------------------------------------------------------------------
@@ -228,10 +257,10 @@ class CoachWorker:
             return self._due(state, t)
 
     def submit(self, state: dict, ctx: str | None, tactics_lines: list[str] | None, lookup: list[str] | None,
-               t: float) -> bool:
-        """Offer a job; True when it was accepted. Never blocks on the model."""
+               t: float, mode: str | None = None) -> bool:
+        """Offer a job; True when it was accepted. Never blocks on the model. `mode` is the policy's decision mode."""
         with self._lock:
-            if not self._due(state, t):
+            if not self._due(state, t) or not coach_quiet(mode, tactics_lines):
                 return False
             job = (copy.deepcopy(state), ctx, list(tactics_lines or []), None if lookup is None else list(lookup), t)
             self._busy = True
@@ -365,8 +394,9 @@ class LiveLoop:
         plays = [p for p in opp.get("recent_plays", []) if p.get("t") is None or p["t"] > self._handled_opp_t]
         return {**state, "opponent": {**opp, "recent_plays": plays}}
 
-    def _coach_tick(self, state: dict, ctx: str, t: float, report=None) -> None:
-        """Offer the coach worker a job (at most once per game second, and only when one is due); never blocks."""
+    def _coach_tick(self, state: dict, ctx: str, t: float, mode: str, report=None) -> None:
+        """Offer the coach worker a job (at most once per game second, and only when one is due); never blocks. The
+        worker takes it only when quiet: the policy `mode` is not defend / save and no push is close to a tower."""
         if self.coach is None or t - self._coach_tick_t < COACH_TICK_S:
             return
         self._coach_tick_t = t
@@ -374,7 +404,7 @@ class LiveLoop:
             return
         if report is None and self.tactics is not None:
             report = self.tactics.analyse(state, t)
-        self.coach.submit(state, ctx, list(report.lines) if report is not None else [], None, t)
+        self.coach.submit(state, ctx, list(report.lines) if report is not None else [], None, t, mode=mode)
 
     def _plan_at(self, t: float) -> tuple[str | None, float | None, float | None]:
         """(text, plan_t, plan_age_s) of the plan the ranker reads now: the coach's latest, else the pregame plan."""
@@ -417,11 +447,11 @@ class LiveLoop:
         if not verdict.act:
             if self.policy is not None:
                 self.policy_holds[verdict.mode] += 1
-            self._coach_tick(state, ctx, t)
+            self._coach_tick(state, ctx, t, verdict.mode)
             return None
 
         report = self.tactics.analyse(state, t) if self.tactics is not None else None
-        self._coach_tick(state, ctx, t, report)
+        self._coach_tick(state, ctx, t, verdict.mode, report)
         plan_text, plan_t, plan_age_s = self._plan_at(t)
         rank_ctx = ctx if report is None else ctx + "\n" + "\n".join(report.lines)   # the act policy keeps `ctx`
         if report is None:
@@ -623,7 +653,14 @@ def build_parser() -> argparse.ArgumentParser:
                          "seconds from a background thread (D-046)")
     ap.add_argument("--coach-model", default=COACH_MODEL_ID, help="mlx-lm model for --planner coach")
     ap.add_argument("--coach-period", type=float, default=COACH_PERIOD_S,
-                    help="game seconds between coach plans (a new opponent card also triggers one)")
+                    help="game seconds between coach plans (a new opponent card also triggers one); a plan starts "
+                         "only in quiet time: not while defending / saving or with a push <= 10 s from a tower")
+    ap.add_argument("--coach-prefill-step", type=int, default=COACH_PREFILL_STEP,
+                    help="coach prompt tokens per prefill chunk (smaller = shorter GPU bursts for perception)")
+    ap.add_argument("--coach-yield-ms", type=float, default=COACH_YIELD_S * 1000,
+                    help="coach sleep after every prefill chunk, ms (lets perception's GPU work in)")
+    ap.add_argument("--coach-token-yield-ms", type=float, default=COACH_TOKEN_YIELD_S * 1000,
+                    help="coach sleep after every generated token, ms")
     ap.add_argument("--seconds", type=float, default=60.0)
     ap.add_argument("--max-decisions", type=int, default=None)
     ap.add_argument("--min-gap", type=float, default=1.0, help="minimum seconds between two decisions (0 = off)")
@@ -724,7 +761,9 @@ def _build_plan_text(args, deck: list[str]) -> str | None:
         return LLMPlanner().pregame(deck, args.deck_key).text
     if args.planner == "coach":         # `main` builds a CoachWorker instead (`_build_coach`); this is the one-shot form
         from clashbot.planner import CoachPlanner
-        return CoachPlanner(model_path=args.coach_model).pregame(deck, args.deck_key).text
+        return CoachPlanner(model_path=args.coach_model, prefill_step=args.coach_prefill_step,
+                            yield_s=args.coach_yield_ms / 1000.0,
+                            token_yield_s=args.coach_token_yield_ms / 1000.0).pregame(deck, args.deck_key).text
     return None
 
 
@@ -733,7 +772,8 @@ def _build_coach(args, deck: list[str], index=None, kg=None) -> CoachWorker:
     thread; a failing load or pregame leaves the worker on the bare-deck plan and every later job logs its error."""
     from clashbot.planner import CoachPlanner
     from clashbot.tools import ToolContext
-    planner = CoachPlanner(model_path=args.coach_model)
+    planner = CoachPlanner(model_path=args.coach_model, prefill_step=args.coach_prefill_step,
+                           yield_s=args.coach_yield_ms / 1000.0, token_yield_s=args.coach_token_yield_ms / 1000.0)
     lookup_fn = None
     if index is not None:
         lookup_fn = lambda state, t, ctx: lookup_summary(index.search(state, t, ctx, k=10))    # noqa: E731

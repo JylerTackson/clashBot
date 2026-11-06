@@ -17,10 +17,11 @@ sys.path.insert(0, str(ROOT))
 
 from clashbot import d1_format  # noqa: E402
 from clashbot import live as live_mod  # noqa: E402
-from clashbot.live import CoachPlan, CoachWorker, build_parser  # noqa: E402
-from clashbot.planner import (COACH_MAX_CHARS, COACH_MODEL_ID, COACH_SYSTEM_PROMPT, SYSTEM_PROMPT,  # noqa: E402
-                              CoachPlanner, MLXChat, Plan, clip_plan, coach_lines, coach_update_prompt,
-                              has_thinking_switch, lookup_summary, strip_think, strip_tool_calls, with_no_think)
+from clashbot.live import CoachPlan, CoachWorker, build_parser, coach_quiet  # noqa: E402
+from clashbot.planner import (COACH_MAX_CHARS, COACH_MODEL_ID, COACH_PERIOD_S, COACH_SYSTEM_PROMPT,  # noqa: E402
+                              COACH_UPDATE_TOKENS, SYSTEM_PROMPT, CoachPlanner, MLXChat, Plan, PrefixCache,
+                              clip_plan, coach_chat, coach_lines, coach_update_prompt, has_thinking_switch,
+                              lookup_summary, strip_think, strip_tool_calls, with_no_think)
 from clashbot.policy import ActDecision  # noqa: E402
 from tests.test_live_loop import (FakeKeyRanker, RangeSource, TimedBuilder, TimedPerception,  # noqa: E402
                                   _argv, _loop)
@@ -41,11 +42,15 @@ def wait_until(pred, timeout: float = 5.0) -> None:
 
 # --- the planner ---------------------------------------------------------------------------------------------------
 
-def test_coach_defaults_to_the_14b_model_with_thinking_off_and_loads_lazily():
+def test_coach_defaults_to_the_14b_model_with_thinking_off_a_prefix_cache_and_loads_lazily():
     assert COACH_MODEL_ID == "mlx-community/Qwen3-14B-4bit"
     coach = CoachPlanner()
     assert isinstance(coach.chat, MLXChat) and coach.chat.model_id == COACH_MODEL_ID
     assert coach.chat.enable_thinking is False and coach.chat._model is None
+    assert coach.chat.prefix_cache is True
+    tuned = CoachPlanner(prefill_step=64, yield_s=0.01, token_yield_s=0.02).chat
+    assert tuned.prefill_step == 64 and tuned.yield_s == 0.01 and tuned.token_yield_s == 0.02
+    assert coach_chat("x", prefix_cache=False).prefix_cache is False
     assert CoachPlanner(model_path="/m/other").chat.model_id == "/m/other"
 
 
@@ -65,7 +70,11 @@ def test_update_prompt_holds_deck_enemy_cards_context_tactics_lookup_and_plan():
     assert "pros in similar states played hog-rider left back" in user
     assert "pros in similar states played zap middle mid" in user
     assert "Current plan:\nold plan line" in user
-    assert "at most 3 plain lines" in user and "100 characters" in user
+    assert user.startswith("Our deck: hog-rider, zap, knight, archers\n")      # static part first: prefix-cacheable
+    assert user.endswith("Current plan:\nold plan line\n\nWrite the next plan.")   # dynamic part last
+    system = messages[0]["content"]
+    assert "at most 3 plain lines" in system and "100" in system and "deck" in system
+    assert chat.kwargs == [{"max_tokens": COACH_UPDATE_TOKENS}] and COACH_UPDATE_TOKENS == 48
     assert out.text == "Save zap for bats.\nPush right next." and out.source == "coach"
 
 
@@ -127,6 +136,23 @@ def test_a_long_one_line_reply_is_split_at_sentence_ends_into_at_most_three_line
     assert coach_lines("Short line one.\nShort line two. Still short.") == "Short line one.\nShort line two. Still short."
     assert coach_lines("") == "" and coach_lines("   \n ") == ""
     assert all(len(x) <= 100 for x in out.text.splitlines())
+
+
+def test_prime_prefills_the_static_prefix_with_one_token_and_is_a_no_op_without_a_cache():
+    chat = FakeChat(["x"])
+    chat.prefix_cache = True
+    deck = ["hog-rider", "zap", "knight", "archers"]
+    CoachPlanner(chat).prime(deck)
+    [(messages, tools)] = chat.calls
+    assert tools is None and chat.kwargs == [{"max_tokens": 1}]
+    assert messages[0]["content"] == COACH_SYSTEM_PROMPT and messages[1]["content"].startswith(
+        "Our deck: hog-rider, zap, knight, archers\nOpponent cards seen: none yet\n")
+    # the real update's prompt shares that prefix
+    real = coach_update_prompt("p", make_state([]), 70.0, "CTX")
+    assert real.startswith("Our deck: hog-rider, zap, knight, archers\nOpponent cards seen: none yet\n")
+    quiet = FakeChat([])
+    CoachPlanner(quiet).prime(deck)                      # a chat without a prefix cache: nothing to prime
+    assert quiet.calls == []
 
 
 def test_clip_plan_max_lines():
@@ -233,7 +259,31 @@ def opp(*cards) -> dict:
 
 
 def make_worker(planner=None, **kw) -> CoachWorker:
+    kw.setdefault("period_s", 10.0)            # the live default is 20 s; these tests are written around 10
     return CoachWorker(planner or FakeCoachPlanner(), **kw)
+
+
+def test_pregame_primes_the_planner_on_the_worker_thread_and_a_failing_prime_is_only_logged():
+    class Primed(FakeCoachPlanner):
+        def __init__(self, fail=False):
+            super().__init__()
+            self.primed: list[tuple] = []
+            self.fail = fail
+
+        def prime(self, own_deck):
+            self.primed.append((threading.current_thread().name, list(own_deck)))
+            if self.fail:
+                raise RuntimeError("no cache")
+
+    planner = Primed()
+    w = make_worker(planner)
+    assert w.pregame(["zap", "knight"], "k").text == "pregame plan"
+    assert planner.primed == [("coach", ["zap", "knight"])]
+    w.close()
+    bad = Primed(fail=True)
+    w = make_worker(bad)
+    assert w.pregame(["zap"], "k").text == "pregame plan" and w.errors == 0       # the pregame plan survives
+    w.close()
 
 
 def test_pregame_runs_on_the_worker_thread_and_a_failure_keeps_the_bare_deck():
@@ -398,6 +448,7 @@ class FakeCoach:
         self.latest_plan = latest_plan
         self.due = due
         self.offers: list[tuple] = []
+        self.modes: list = []
         self.closed = 0
         self.attached = None
 
@@ -407,8 +458,9 @@ class FakeCoach:
     def is_due(self, state, t):
         return self.due
 
-    def submit(self, state, ctx, tactics_lines, lookup, t):
+    def submit(self, state, ctx, tactics_lines, lookup, t, mode=None):
         self.offers.append((t, ctx, list(tactics_lines), lookup))
+        self.modes.append(mode)
         return True
 
     def close(self):
@@ -503,11 +555,310 @@ def test_step_does_not_wait_for_the_coach(tmp_path):
     assert rows[0]["t"] == 0.0 and rows[0]["plan"] == "plan@0.0"
 
 
+# --- quiet-time gating --------------------------------------------------------------------------------------------
+
+PUSH_NEAR = "tactics: push left: knight, giant (8 elixir), tower in 6.2s; needs tank"
+PUSH_FAR = "tactics: push right: hog-rider (4 elixir), tower in 12.5s; needs nothing special"
+
+
+@pytest.mark.parametrize("mode,lines,quiet", [
+    (None, [], True), ("hold", [], True), ("trigger", [], True), ("leak", [], True), ("punish", [], True),
+    ("defend", [], False), ("save", [], False), ("save", [PUSH_FAR], False),
+    ("hold", [PUSH_NEAR], False), ("hold", [PUSH_FAR], True), ("hold", [PUSH_FAR, PUSH_NEAR], False),
+    ("hold", ["tactics: push left: knight (3 elixir), tower in 10.0s; needs nothing"], False),     # X <= 10
+    ("hold", ["tactics: push left: knight (3 elixir), tower in 10.1s; needs nothing"], True),
+    ("hold", ["tactics: best knight @[4,12] defend: meets the push, trade +2", "tactics: hold: saving elixir"], True),
+])
+def test_coach_quiet(mode, lines, quiet):
+    assert coach_quiet(mode, lines) is quiet
+
+
+def test_submit_waits_for_quiet_time_and_keeps_the_job_due():
+    planner = FakeCoachPlanner()
+    w = make_worker(planner)
+    assert w.submit(opp(), "C", [], [], 0.0, mode="defend") is False            # defending
+    assert w.submit(opp(), "C", [PUSH_NEAR], [], 1.0, mode="hold") is False     # a push 6 s from a tower
+    assert w.submit(opp(), "C", [PUSH_NEAR], [], 2.0, mode="save") is False
+    assert planner.calls == [] and not w.busy and w.is_due(opp(), 2.0)          # still due: nothing was consumed
+    assert w.submit(opp(), "C", [PUSH_FAR], [], 3.0, mode="hold") is True       # quiet at last
+    wait_until(lambda: not w.busy)
+    assert [c["t"] for c in planner.calls] == [3.0]
+    w.close()
+
+
+def test_a_new_opponent_card_triggers_a_plan_only_once_things_are_quiet():
+    planner = FakeCoachPlanner()
+    w = make_worker(planner, period_s=20.0)
+    assert w.submit(opp(), "C", [], [], 0.0, mode="hold")
+    wait_until(lambda: not w.busy)
+    assert w.submit(opp("miner"), "C", [], [], 3.0, mode="defend") is False      # the card is new, but we are defending
+    assert w.submit(opp("miner"), "C", [PUSH_NEAR], [], 4.0, mode="hold") is False
+    assert w.submit(opp("miner"), "C", [], [], 5.0, mode="hold") is True
+    wait_until(lambda: not w.busy)
+    assert [c["t"] for c in planner.calls] == [0.0, 5.0]
+    assert w.submit(opp("miner"), "C", [], [], 6.0, mode="hold") is False        # not new any more, period not over
+    w.close()
+
+
+def test_submit_without_a_mode_is_gated_by_the_tactics_lines_only():
+    w = make_worker()
+    assert w.submit(opp(), "C", [PUSH_NEAR], [], 0.0) is False
+    assert w.submit(opp(), "C", [], [], 0.0) is True
+    w.close()
+
+
+def test_the_loop_passes_the_policy_mode_and_the_tactics_lines_to_the_coach():
+    coach, tactics = FakeCoach(), FakeTactics()
+    lp = _loop(source=RangeSource(0.0, 3.0), builder=TimedBuilder(elixir=5.0), perception=TimedPerception(),
+               policy=ScriptedPolicy(lambda t: 1.0 <= t < 1.5), tactics=tactics, coach=coach, min_gap_s=1.0)
+    lp.run()
+    assert coach.modes == ["learned", "learned", "learned"]              # ScriptedPolicy's mode; one per offer
+    lp = _loop(source=RangeSource(0.0, 1.5), builder=TimedBuilder(elixir=9.5), perception=TimedPerception(),
+               coach=FakeCoach(), min_gap_s=1.0)                         # the trigger policy
+    lp.run()
+    assert lp.coach.modes and set(lp.coach.modes) == {"trigger"}
+
+
+class ModePolicy(ScriptedPolicy):
+    def __init__(self, mode):
+        super().__init__(lambda t: False)
+        self.mode = mode
+
+    def decide(self, state, t, context_text=None):
+        return ActDecision(False, self.mode, None, "scripted")
+
+
+def test_a_defending_policy_keeps_the_real_worker_idle_and_a_push_line_does_too():
+    planner = FakeCoachPlanner()
+    worker = CoachWorker(planner)
+    lp = _loop(source=RangeSource(0.0, 3.0), builder=TimedBuilder(elixir=5.0), perception=TimedPerception(),
+               policy=ModePolicy("save"), tactics=FakeTactics(), coach=worker)
+    lp.run()
+    assert planner.calls == [] and worker.jobs == 0
+    push = types.SimpleNamespace(analyse=lambda state, t: types.SimpleNamespace(lines=[PUSH_NEAR]))
+    worker = CoachWorker(planner)
+    lp = _loop(source=RangeSource(0.0, 3.0), builder=TimedBuilder(elixir=5.0), perception=TimedPerception(),
+               policy=ModePolicy("hold"), tactics=push, coach=worker)
+    lp.run()
+    assert planner.calls == []
+    worker = CoachWorker(planner)
+    lp = _loop(builder=TimedBuilder(elixir=5.0), perception=TimedPerception(),
+               policy=ModePolicy("hold"), tactics=FakeTactics(), coach=worker)
+    for i in range(30):
+        lp.step("f", i * 0.1, i, 1.0)
+    wait_until(lambda: planner.calls and not worker.busy)
+    assert [c["t"] for c in planner.calls] == [0.0]                      # quiet: the first job, once (period 20 s)
+    assert planner.calls[0]["tactics"] == TACTICS
+    worker.close()
+
+
+# --- prompt cache, chunked prefill, token budget ------------------------------------------------------------------
+
+class FakeKV:
+    def __init__(self):
+        self.offset = 0
+
+
+class FakeCacheOps:
+    """make / trim / can_trim stand-ins for mlx_lm.models.cache: a 'cache' is a list of FakeKV layers."""
+
+    def __init__(self, trimmable=True):
+        self.trimmable = trimmable
+        self.made = 0
+        self.trims: list[int] = []
+
+    def make(self):
+        self.made += 1
+        return [FakeKV(), FakeKV()]
+
+    def trim(self, cache, n):
+        self.trims.append(n)
+        for c in cache:
+            c.offset -= n
+
+    def can_trim(self, cache):
+        return self.trimmable
+
+
+def feed(cache, n):
+    for c in cache:
+        c.offset += n
+
+
+def test_prefix_cache_reuses_the_common_prefix_and_always_prefills_one_token():
+    ops = FakeCacheOps()
+    pc = PrefixCache(ops.make, ops.trim, ops.can_trim)
+    ids1 = [1, 2, 3, 4, 5, 6]
+    cache, n = pc.prepare(ids1)
+    assert n == 0 and ops.made == 1
+    feed(cache, len(ids1) + 3)                         # the prompt, then 3 generated tokens
+    pc.commit(ids1)
+    assert cache[0].offset == 6 and pc.ids == ids1 and ops.trims == [3]
+    ids2 = [1, 2, 3, 4, 9, 9, 9]                       # shares 4 tokens
+    cache2, n = pc.prepare(ids2)
+    assert cache2 is cache and n == 4 and cache[0].offset == 4 and pc.ids == [1, 2, 3, 4]
+    feed(cache, 3 + 2)
+    pc.commit(ids2)
+    assert cache[0].offset == 7 and pc.ids == ids2
+    _, n = pc.prepare(ids2)                            # the identical prompt: still one token to prefill
+    assert n == 6 and cache[0].offset == 6
+    _, n = pc.prepare([1, 2, 3, 4, 9, 9, 9, 8, 8])     # a longer prompt that extends the previous one
+    assert n == 6 + 0 and pc.ids == ids2[:6]
+
+
+def test_prefix_cache_without_a_trimmable_cache_starts_over_and_reset_clears():
+    ops = FakeCacheOps(trimmable=False)
+    pc = PrefixCache(ops.make, ops.trim, ops.can_trim)
+    cache, _ = pc.prepare([1, 2, 3])
+    feed(cache, 3)
+    pc.commit([1, 2, 3])                               # nothing to trim: the cache holds exactly the prompt
+    cache, n = pc.prepare([1, 2, 3, 4])
+    assert n == 3 and ops.made == 1                    # a pure extension needs no trim
+    feed(cache, 1)
+    pc.commit([1, 2, 3, 4])
+    _, n = pc.prepare([1, 2, 9, 9])                    # a divergence cannot be trimmed: a fresh cache
+    assert n == 0 and ops.made == 2 and ops.trims == []
+    pc.reset()
+    assert pc.cache is None and pc.ids == []
+
+
+def test_prefix_cache_commit_resets_when_the_cache_is_shorter_than_the_prompt():
+    ops = FakeCacheOps()
+    pc = PrefixCache(ops.make, ops.trim, ops.can_trim)
+    cache, _ = pc.prepare([1, 2, 3])
+    feed(cache, 2)                                     # inconsistent: fewer tokens than the prompt
+    pc.commit([1, 2, 3])
+    assert pc.cache is None
+
+
+class FakeBatchTok:
+    chat_template = QWEN3_TEMPLATE
+    bos_token = None
+
+    def __init__(self):
+        self.encodes: list[tuple] = []
+
+    def apply_chat_template(self, messages, add_generation_prompt=False, tokenize=True, **kwargs):
+        return "".join(f"<{m['role']}>{m['content']}" for m in messages) + "<assistant>"
+
+    def encode(self, text, add_special_tokens=True):
+        self.encodes.append((text, add_special_tokens))
+        return [ord(c) for c in text]
+
+
+@pytest.fixture
+def fake_mlx(monkeypatch):
+    """Fake mlx_lm modules: stream_generate records its kwargs and grows the cache like the real one does."""
+    ops = FakeCacheOps()
+    calls: list[dict] = []
+
+    def stream_generate(model, tokenizer, prompt, max_tokens=256, **kwargs):
+        cache = kwargs.get("prompt_cache")
+        cb = kwargs.get("prompt_progress_callback")
+        calls.append({"prompt": prompt, "max_tokens": max_tokens, **kwargs})
+        if cb:
+            cb(0, len(prompt))
+            cb(len(prompt), len(prompt))
+        n_gen = 3
+        if cache is not None:
+            feed(cache, len(prompt) + n_gen - 1)
+        for i in range(n_gen):
+            yield types.SimpleNamespace(text="ab"[i % 2], prompt_tokens=len(prompt), prompt_tps=100.0,
+                                        generation_tokens=i + 1, generation_tps=10.0, peak_memory=1.5)
+
+    mods = {
+        "mlx_lm": types.SimpleNamespace(stream_generate=stream_generate, load=lambda mid: ("MODEL", FakeBatchTok())),
+        "mlx_lm.sample_utils": types.SimpleNamespace(make_sampler=lambda temp=0.0: "SAMPLER"),
+        "mlx_lm.models": types.ModuleType("mlx_lm.models"),
+        "mlx_lm.models.cache": types.SimpleNamespace(make_prompt_cache=lambda model: ops.make(),
+                                                     trim_prompt_cache=ops.trim,
+                                                     can_trim_prompt_cache=ops.can_trim),
+    }
+    for name, mod in mods.items():
+        monkeypatch.setitem(sys.modules, name, mod)
+    return ops, calls
+
+
+MSGS_A = [{"role": "system", "content": "SYS"}, {"role": "user", "content": "deck: zap\ndynamic one"}]
+MSGS_B = [{"role": "system", "content": "SYS"}, {"role": "user", "content": "deck: zap\ndynamic two"}]
+
+
+def test_chat_with_a_prefix_cache_prefills_only_the_changed_tail(fake_mlx):
+    ops, calls = fake_mlx
+    chat = MLXChat("x", enable_thinking=False, prefix_cache=True)
+    assert chat.chat(MSGS_A, None, max_tokens=48) == "aba"
+    first = calls[0]
+    assert first["max_tokens"] == 48 and len(first["prompt"]) > 40 and first["prompt_cache"] is chat._prefix.cache
+    assert chat.last_stats["cached_tokens"] == 0
+    assert chat.last_stats["prompt_tokens"] == len(first["prompt"])
+    assert chat.last_stats["prefill_ms"] == pytest.approx(len(first["prompt"]) / 100.0 * 1000, abs=0.1)
+    assert chat.chat(MSGS_B).startswith("ab")
+    second = calls[1]
+    assert second["max_tokens"] == 200                                      # the default when no per-call value is given
+    assert chat.last_stats["cached_tokens"] > 20 and len(second["prompt"]) < len(first["prompt"]) / 2
+    assert chat.last_stats["prompt_tokens"] == chat.last_stats["cached_tokens"] + len(second["prompt"])
+    assert chat._prefix.cache[0].offset == len(chat._prefix.ids)            # trimmed back to the prompt: no generated tokens
+    assert ops.made == 1                                                    # one cache for the whole conversation
+
+
+def test_chat_without_a_prefix_cache_passes_the_whole_prompt_and_no_cache(fake_mlx):
+    _, calls = fake_mlx
+    chat = MLXChat("x", enable_thinking=False)
+    chat.chat(MSGS_A)
+    assert isinstance(calls[0]["prompt"], str) and "prompt_cache" not in calls[0]
+    assert "prefill_step_size" not in calls[0] and "prompt_progress_callback" not in calls[0]
+    assert chat.last_stats["cached_tokens"] == 0
+
+
+def test_chat_passes_the_prefill_chunk_and_yields_between_chunks_and_tokens(fake_mlx, monkeypatch):
+    _, calls = fake_mlx
+    sleeps: list[float] = []
+    monkeypatch.setattr(time, "sleep", sleeps.append)
+    chat = MLXChat("x", prefix_cache=True, prefill_step=64, yield_s=0.01, token_yield_s=0.02)
+    chat.chat(MSGS_A)
+    assert calls[0]["prefill_step_size"] == 64
+    assert sleeps == [0.01, 0.01, 0.02, 0.02, 0.02]               # 2 prefill progress callbacks, then 3 generated tokens
+    sleeps.clear()
+    MLXChat("x", yield_s=0.01).chat(MSGS_A)
+    assert sleeps == [0.01, 0.01]                                  # no token yield unless asked for
+    sleeps.clear()
+    MLXChat("x", token_yield_s=0.02).chat(MSGS_A)
+    assert sleeps == [0.02] * 3 and "prompt_progress_callback" not in calls[-1]
+
+
+def test_chat_drops_the_prefix_cache_when_generation_fails(monkeypatch, fake_mlx):
+    ops, _ = fake_mlx
+
+    def boom(*a, **k):
+        raise RuntimeError("metal error")
+        yield
+
+    monkeypatch.setattr(sys.modules["mlx_lm"], "stream_generate", boom)
+    chat = MLXChat("x", prefix_cache=True)
+    with pytest.raises(RuntimeError):
+        chat.chat(MSGS_A)
+    assert chat._prefix.cache is None
+
+
+def test_a_reply_cut_at_the_token_budget_loses_its_unfinished_last_line():
+    chat = FakeChat(["Save zap for bats.\nAttack left with the hog.\nSpend when the bar is fu"])
+    chat.last_stats = {"gen_tokens": COACH_UPDATE_TOKENS}
+    out = CoachPlanner(chat).update(Plan("p", "llm"), make_state([]), 1.0)
+    assert out.text == "Save zap for bats.\nAttack left with the hog."
+    chat = FakeChat(["Save zap for bats.\nAttack left with the hog.\nSpend when the bar is fu"])
+    chat.last_stats = {"gen_tokens": 30}                                   # not cut: kept as written
+    assert CoachPlanner(chat).update(Plan("p", "llm"), make_state([]), 1.0).text.endswith("is fu")
+    assert coach_lines("Only one unfinished line", truncated=True) == "Only one unfinished line"
+    assert coach_lines("A done line.\nA cut line.", truncated=True) == "A done line.\nA cut line."
+
+
 # --- CLI wiring ----------------------------------------------------------------------------------------------------
 
 def test_cli_has_the_coach_flags():
     args = build_parser().parse_args(_argv())
-    assert args.planner == "rules" and args.coach_model == COACH_MODEL_ID and args.coach_period == 10.0
+    assert args.planner == "rules" and args.coach_model == COACH_MODEL_ID and args.coach_period == 20.0
+    assert COACH_PERIOD_S == 20.0 and args.coach_prefill_step == build_parser().get_default("coach_prefill_step")
+    assert args.coach_yield_ms == build_parser().get_default("coach_yield_ms")
     args = build_parser().parse_args(_argv("--planner", "coach", "--coach-model", "/m/q", "--coach-period", "6"))
     assert args.planner == "coach" and args.coach_model == "/m/q" and args.coach_period == 6.0
     for choice in ("rules", "llm", "none"):
@@ -520,9 +871,10 @@ def test_build_coach_makes_the_pregame_plan_with_tools_context_and_a_lookup_fn(m
     class StubPlanner(FakeCoachPlanner):
         db_path = Path("x.sqlite")
 
-        def __init__(self, model_path=None):
+        def __init__(self, model_path=None, **kw):
             super().__init__()
             made["model"] = model_path
+            made["kw"] = kw
 
         def pregame(self, own_deck, deck_key=None, ctx=None):
             made["ctx"] = ctx
@@ -531,9 +883,12 @@ def test_build_coach_makes_the_pregame_plan_with_tools_context_and_a_lookup_fn(m
     import clashbot.planner as planner_mod
     monkeypatch.setattr(planner_mod, "CoachPlanner", StubPlanner)
     index = FakeIndex([("hog-rider|left|back", 0.1), ("zap|middle|mid", 0.05)])
-    args = build_parser().parse_args(_argv("--planner", "coach", "--coach-model", "/m/q", "--coach-period", "7"))
+    args = build_parser().parse_args(_argv("--planner", "coach", "--coach-model", "/m/q", "--coach-period", "7",
+                                           "--coach-prefill-step", "64", "--coach-yield-ms", "5",
+                                           "--coach-token-yield-ms", "2"))
     worker = live_mod._build_coach(args, ["zap"] * 8, index, "KG")
     assert made["model"] == "/m/q" and worker.period_s == 7.0 and worker.pregame_plan.text == "pregame plan"
+    assert made["kw"] == {"prefill_step": 64, "yield_s": 0.005, "token_yield_s": 0.002}
     assert made["ctx"].index is index and made["ctx"].kg == "KG"
     assert worker.lookup_fn({"s": 1}, 3.0, "CTX") == ["hog-rider left back", "zap middle mid"]
     assert index.calls == [{}]                                           # live looks at every split
@@ -574,7 +929,7 @@ def test_build_plan_text_one_shot_coach(monkeypatch):
     import clashbot.planner as planner_mod
 
     class OneShot:
-        def __init__(self, model_path=None):
+        def __init__(self, model_path=None, **kw):
             self.model_path = model_path
 
         def pregame(self, deck, deck_key=None):
