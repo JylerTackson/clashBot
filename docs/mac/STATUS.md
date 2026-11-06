@@ -175,3 +175,14 @@ All 197 games of `games.jsonl` are covered (no game skipped for missing time or 
 - `dataset/v1/d1/joint_tac`, then fine-tune `d1-ft-joint-tac` from `d1-ft-joint` (after the act head; GPU serialised).
 - Live Training Camp matches with the new deck: lookup-only (`--no-tactics`) vs `--ranker tactics`.
 - Merge MAC-PF (perception fixes).
+
+## 2026-11-05 19:22 — learned play/wait head (MAC-X heavy run)
+`d1-ft-act`: initialised from `d1-ft-joint`, top 8 layers, 2 epochs on 8,405 balanced dense lines (1 h 45 min). Train loss barely fell (0.696 → 0.676, chance = 0.693). Val threshold 0.50.
+
+| test (n = 3,221, pro act rate 0.206) | balanced acc | act rate | act recall | wait recall |
+|---|---|---|---|---|
+| learned head | **0.558** | 0.429 | 0.522 | 0.595 |
+| reactive rules | 0.535 | 0.450 | 0.507 | 0.564 |
+| combined (rules keep defend / leak) | 0.545 | 0.540 | 0.611 | 0.478 |
+
+Only marginally better than the rules. Both act about twice as often as the pros. The 1 s label ("the pro deploys within the next second") is very noisy for text-only states, so this head is not worth its 70 ms in the live loop yet. Candidate next step: a structured-feature model (GBDT on elixir, opponent elixir, threats/ETAs, time since the opponent's last play, hand costs) with 1 / 2 / 3 s horizons. Tables in `docs/data/act_head_v1.md`.

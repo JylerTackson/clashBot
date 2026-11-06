@@ -1,0 +1,76 @@
+{
+ "args": {
+  "variant": "act",
+  "data": "dataset/v1/act_dense_bal",
+  "out": "db/models/d1-ft-act",
+  "init": "db/models/d1-ft-joint",
+  "epochs": 2,
+  "lr": 2e-05,
+  "weight_decay": 0.01,
+  "warmup": 0.05,
+  "max_tokens": 3072,
+  "accum": 8,
+  "train_layers": 8,
+  "balance": true,
+  "limit": null,
+  "val_limit": null,
+  "device": "mps",
+  "seed": 0
+ },
+ "rows": {
+  "train": 8405,
+  "val": 3008,
+  "train_lines": 8405,
+  "val_lines": 3008
+ },
+ "trainable_params": 168883713,
+ "primary_metric": "balanced_acc",
+ "epochs": [
+  {
+   "epoch": 1,
+   "train_loss": 0.6962024683366568,
+   "val_loss": 0.6458560866402819,
+   "val_metrics": {
+    "act": 0.7649601063829787,
+    "acc": 0.7649601063829787,
+    "balanced_acc": 0.5088243724410246,
+    "precision_wait": 0.7698278771515356,
+    "recall_wait": 0.9891587163920208,
+    "n_rows": 3008,
+    "n_lines": 3008
+   },
+   "train_rows_per_s": 3.249537539000376,
+   "seconds": 3049.7106680870056,
+   "train_seconds": 2587.385997056961
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6755098333357347,
+   "val_loss": 0.678819471256847,
+   "val_metrics": {
+    "act": 0.554188829787234,
+    "acc": 0.554188829787234,
+    "balanced_acc": 0.5724994625688468,
+    "precision_wait": 0.8180619644034278,
+    "recall_wait": 0.5381613183000867,
+    "n_rows": 3008,
+    "n_lines": 3008
+   },
+   "train_rows_per_s": 2.989692501824364,
+   "seconds": 3222.698569059372,
+   "train_seconds": 2812.833647251129
+  }
+ ],
+ "best_epoch": 2,
+ "temperatures": {
+  "noul:2": 0.9
+ },
+ "reload_ok": true,
+ "reload_max_abs_diff": 2.682209014892578e-07,
+ "peak_mps_bytes": 13290602496,
+ "optimizer_steps": 283,
+ "warm_train_rows_per_s": 3.1149286727564283,
+ "warm_train_tokens_per_s": 1135.8511598599916,
+ "loop_seconds": 6272.899551153183,
+ "total_seconds": 6285.59942984581
+}
