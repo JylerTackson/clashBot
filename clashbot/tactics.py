@@ -1,6 +1,6 @@
-"""Tactical engine (D-042, MAC-Z2, MAC-A2): which enemy push threatens which tower, which hand card answers it and where
-to put it, and when there is an offence window (counter_push, punish, leak, and for a bait deck bait, pressure,
-support and cycle).
+"""Tactical engine (D-042, MAC-Z2, MAC-A2, MAC-AD): which enemy push threatens which tower, which hand card answers it
+and where to put it, and when there is an offence window (counter_push, punish, leak, and for a bait deck bait,
+pressure, support and cycle).
 
 `TacticalEngine.analyse(state)` returns a `TacticalReport`: the enemy pushes (most urgent first), up to 6 concrete
 moves (card + deploy tile + intent + reason, best first) and 1..4 text lines for the d1 context. The card roles come
@@ -8,12 +8,16 @@ from the Z1 table (`clashbot.card_roles`, loaded lazily); spell aim and value co
 (MAC-Y2). Every hand-set number of the scoring lives in `DEFAULT_WEIGHTS`; `tactics_weights.json` (tuned on the pro
 data by `tools/train/tune_tactics.py`) and an explicit `weights=` dict override it. Deterministic, no I/O after
 `__init__`, no models.
+Real defence (MAC-AD): a defend move carries its stopping class against the push (`stop`: high / medium / low / spell),
+and a push counts as answered (`Push.answered`, `answered_by`) when the allies near its lead unit, our buildings on our
+half (against a building targeter) and the plays we made in the last few seconds (known at once, before perception
+sees them) together pay for most of its elixir.
 """
 from __future__ import annotations
 
 import json
 import math
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 from clashbot.card_roles import GROUND_ONLY_SPELLS, hits_air, load_roles
@@ -23,6 +27,7 @@ from clashbot.policy import NON_DAMAGE_SPELLS, OPPOSITE_LANE, SPELL_RADIUS, TANK
 from clashbot.state_text import fmt_num
 
 URGENT_ETA_S = 8.0           # a push this close (seconds) to an own tower is acted on; later ones leave room for offence
+PUSH_ETA_S = 10.0            # an enemy unit this close to an own tower is listed in a push (a building is placed early)
 OWN_HALF_MAX_ROW = 14        # an enemy unit at or behind this row is on our half (rows 15-16 are the river)
 NEAR_BACK_ROW = 8            # no ETA and this deep in our half = as urgent as at the tower (ETA 0), else ETA 2 s
 MAX_PUSH_LANES = 2
@@ -47,6 +52,9 @@ CYCLE_MIN_ELIXIR = 7.0
 CYCLE_MAX_COST = 2.0
 CYCLE_BACK_ROW = 1.5
 ANSWERED_RANGE = 3.0         # ally units this close to the push's lead unit are fighting it
+ANSWERED_BUILDING_RANGE = 7.0    # our buildings on our half this close to the lead unit answer a building targeter
+ANSWERED_PLAY_S = 4.0        # our plays this recent (known from the tap, before perception sees them) count as answers
+ANSWERED_PLAY_RANGE = 7.0    # ... when they landed this close to the lead unit (or in the push's lane); spells: ANSWERED_RANGE
 ANSWERED_EMERGENCY_ETA = 1.5     # a push this close to the tower with weaker allies is still acted on in full
 KAMIKAZE_REPEAT_S = 3.0      # a kamikaze card we played this recently is not proposed again against a push
 NEED_ORDER = ("air", "tank", "swarm", "building_targeter")
@@ -136,6 +144,9 @@ class Push:
     eta_s: float                 # most urgent: min eta to an own tower; units on our half without eta -> 0.0 if row <= 8 else 2.0
     needs: list[str]             # subset of ["air", "tank", "swarm", "building_targeter"], in that order
     summary: str                 # "giant, musketeer (9 elixir), tower in 6.2s"
+    answered: bool = False       # our units, buildings and recent plays already pay for most of it (see _answered_by)
+    answered_by: list[str] = field(default_factory=list)      # the distinct cards that answer it, when answered
+    heavy: bool = False          # the push has a medium or tank unit (by role hp_class): a light card does not stop it
 
 
 @dataclass
@@ -147,6 +158,8 @@ class TacticalMove:
     reason: str                  # <= 60 chars, e.g. "pulls giant to the centre, trade +5"
     score: float                 # engine preference, higher is better
     trade: float | None          # push elixir - card cost (defend), else None
+    stop: str = "n/a"            # defend: the card's stopping class against that push: high | medium | low | spell; else n/a
+    value: float | None = None   # defend with a spell: the elixir value of the units it hits (worth it when >= its cost)
 
 
 @dataclass
@@ -156,6 +169,7 @@ class TacticalReport:
     best: TacticalMove | None
     hold_reason: str | None      # set when best is None
     lines: list[str]             # 1..4 lines, each starting with "tactics: "
+    defence: list[TacticalMove] = field(default_factory=list)   # every defend move, best first (`moves` keeps 6 of all)
 
 
 @dataclass
@@ -270,7 +284,8 @@ class TacticalEngine:
 
     # -- pushes --------------------------------------------------------------------------------------------------------
     def _pushes(self, state: dict) -> list[Push]:
-        """Enemy units close to an own tower (ETA <= 8 s) or on our half, grouped by lane, most urgent push first."""
+        """Enemy units close to an own tower (ETA <= PUSH_ETA_S) or on our half, grouped by lane, most urgent push
+        first."""
         per_lane: dict[str, list[tuple[float, float, int, dict]]] = {"left": [], "right": []}
         for i, u in enumerate(state.get("units", [])):
             tile = _tile(u)
@@ -281,7 +296,7 @@ class TacticalEngine:
                 continue                                    # a spell object is an effect, not a troop to answer
             eta = _own_eta(u)
             on_our_half = tile[1] <= OWN_HALF_MAX_ROW
-            if not ((eta is not None and eta <= URGENT_ETA_S) or on_our_half):
+            if not ((eta is not None and eta <= PUSH_ETA_S) or on_our_half):
                 continue
             if eta is None:
                 eta = 0.0 if tile[1] <= NEAR_BACK_ROW else 2.0
@@ -314,18 +329,58 @@ class TacticalEngine:
         parts = [n if k == 1 else f"{n} x{k}" for n, k in counts.items()]
         names = ", ".join(parts[:4]) + (f" +{len(parts) - 4}" if len(parts) > 4 else "")
         summary = f"{names} ({fmt_num(elixir)} elixir), tower in {eta_s:.1f}s"
-        return Push(lane, units, elixir, eta_s, [n for n in NEED_ORDER if needs[n]], summary)
+        return Push(lane, units, elixir, eta_s, [n for n in NEED_ORDER if needs[n]], summary,
+                    heavy=any(r.get("hp_class") in ("medium", "tank") for r in roles))
 
-    def _answered_by(self, push: Push, pos: list[float], state: dict) -> tuple:
-        """The distinct ally cards within ANSWERED_RANGE of the push's lead tile when their elixir is at least
-        `answered_frac` x the push's (and, for a push at the tower within ANSWERED_EMERGENCY_ETA, at least the push's);
-        () when the push is not being answered."""
+    def _is_building(self, card: str) -> bool:
+        return (self.cards.get(card) or {}).get("card_type") == "Building" or self._has(self._role(card), "building")
+
+    def _is_spell(self, card: str) -> bool:
+        return (self.cards.get(card) or {}).get("card_type") == "Spell" or self._role(card).get("type") == "spell"
+
+    @staticmethod
+    def _clock(state: dict, t: float | None) -> float | None:
+        """`t`, else the newest play time of either side (the engine given no clock reads that as "now")."""
+        if t is not None:
+            return t
+        stamps = [p["t"] for side in ("own", "opponent") for p in (state.get(side) or {}).get("recent_plays") or []
+                  if p.get("t") is not None]
+        return max(stamps, default=None)
+
+    def _answered_by(self, push: Push, pos: list[float], state: dict, t: float | None = None) -> tuple:
+        """The distinct cards that answer the push when their elixir is at least `answered_frac` x the push's (and,
+        for a push at the tower within ANSWERED_EMERGENCY_ETA, at least the push's); () when it is not answered.
+        They are (a) ally units within ANSWERED_RANGE of the push's lead tile, (b) against a building targeter, our
+        buildings on our half within ANSWERED_BUILDING_RANGE of it, and (c) our own plays of the last ANSWERED_PLAY_S
+        seconds that landed on our half, in the push's lane or within ANSWERED_PLAY_RANGE of the lead tile (a spell
+        only within ANSWERED_RANGE). The plays are known from our tap, so a new building counts at once."""
         names: list[str] = []
+
+        def add(card) -> None:
+            if card and card not in names:
+                names.append(card)
+
+        targeter = "building_targeter" in push.needs
         for u in state.get("units", []):
             tile, card = _tile(u), u.get("card")
-            if (u.get("side") == "ally" and tile is not None and card and self._role(card).get("type") != "spell"
-                    and math.dist(tile, pos) <= ANSWERED_RANGE and card not in names):
-                names.append(card)
+            if u.get("side") != "ally" or tile is None or not card or self._is_spell(card):
+                continue
+            d = math.dist(tile, pos)
+            if d <= ANSWERED_RANGE or (targeter and d <= ANSWERED_BUILDING_RANGE and tile[1] <= OWN_HALF_MAX_ROW
+                                       and self._is_building(card)):
+                add(card)
+        now = self._clock(state, t)
+        for p in (state.get("own") or {}).get("recent_plays") or []:
+            tile, card = _tile(p), p.get("card")
+            if (now is None or p.get("t") is None or p["t"] < now - ANSWERED_PLAY_S or tile is None or not card
+                    or tile[1] > OWN_HALF_MAX_ROW):
+                continue
+            d = math.dist(tile, pos)
+            if self._is_spell(card):
+                if d <= ANSWERED_RANGE:
+                    add(card)
+            elif _side_lane(tile) == push.lane or d <= ANSWERED_PLAY_RANGE:
+                add(card)
         ally_elixir = sum(self._cost(c) for c in names)
         if ally_elixir <= 0 or ally_elixir < self.w["answered_frac"] * push.elixir:
             return ()
@@ -342,6 +397,8 @@ class TacticalEngine:
                          and self._has(self._role(p["card"]), "kamikaze"))
 
     def _ctx(self, push: Push, state: dict, t: float | None = None) -> _PushCtx:
+        """The defence context of the push; `t` is the clock of the play times (our recent plays that answer the push,
+        the kamikaze cards we played a moment ago)."""
         unit = push.units[0]
         pos = _lead_tile(unit, LEAD_S) or list(_tile(unit))
         card = unit.get("card")
@@ -357,7 +414,7 @@ class TacticalEngine:
                         heavy=any(r.get("hp_class") in ("medium", "tank") for r in roles),
                         swarm_only=all(r.get("hp_class") == "swarm" or u.get("card") in SWARM_SPELL_UNITS
                                        for r, u in zip(roles, push.units)),
-                        answered_by=self._answered_by(push, pos, state),
+                        answered_by=self._answered_by(push, pos, state, t),
                         blocked=self._recent_kamikazes(state, t))
 
     # -- defence -------------------------------------------------------------------------------------------------------
@@ -502,7 +559,9 @@ class TacticalEngine:
             tile, why = self._defence_place(card, role, ctx, aim, state)
             key = action_key(card, lane_of(tile), zone_of(tile))
             reason = _with_trade(why, trade) if self._claims_trade(role, ctx) else _clip(f"slows {ctx.threat}")
-            moves.append(TacticalMove(card, key, tile, "defend", reason, score, trade))
+            moves.append(TacticalMove(card, key, tile, "defend", reason, score, trade,
+                                      stop=self._stop_class(role, ctx) or "spell",
+                                      value=None if aim is None else float(aim[1])))
         return moves
 
     # -- offence -------------------------------------------------------------------------------------------------------
@@ -746,14 +805,14 @@ class TacticalEngine:
         return moves
 
     # -- report --------------------------------------------------------------------------------------------------------
-    def _rank(self, moves: list[TacticalMove]) -> list[TacticalMove]:
-        """Best first (ties: lower cost, then card name), the first move per key, at most MAX_MOVES."""
+    def _rank(self, moves: list[TacticalMove], limit: int | None = MAX_MOVES) -> list[TacticalMove]:
+        """Best first (ties: lower cost, then card name), the first move per key, at most `limit`."""
         out, seen = [], set()
         for m in sorted(moves, key=lambda m: (-m.score, self._cost(m.card), m.card)):
             if m.key not in seen:
                 seen.add(m.key)
                 out.append(m)
-        return out[:MAX_MOVES]
+        return out[:limit]
 
     def _hold_reason(self, state: dict, pushes: list[Push], hand: list[str]) -> str:
         if pushes:
@@ -762,11 +821,9 @@ class TacticalEngine:
         return (f"no threat, saving elixir (own {fmt_num(own.get('elixir'))}, "
                 f"opp ~{fmt_num(opp.get('elixir_estimate'))})")
 
-    def _lines(self, pushes: list[Push], moves: list[TacticalMove], hold_reason: str | None,
-               answered: dict[str, tuple] | None = None) -> list[str]:
-        answered = answered or {}
+    def _lines(self, pushes: list[Push], moves: list[TacticalMove], hold_reason: str | None) -> list[str]:
         lines = [f"tactics: push {p.lane}: {p.summary}; needs {', '.join(p.needs) or 'nothing special'}"
-                 + (f" (being answered by {', '.join(answered[p.lane][:3])})" if answered.get(p.lane) else "")
+                 + (f" (being answered by {', '.join(p.answered_by[:3])})" if p.answered else "")
                  for p in pushes[:MAX_PUSH_LANES]]
 
         def at(m: TacticalMove) -> str:
@@ -782,22 +839,24 @@ class TacticalEngine:
 
     def analyse(self, state: dict, t: float | None = None) -> TacticalReport:
         """`t` is the clock of the state's play times (the live loop and the dataset pass it). `bait` uses it to tell
-        whether their small spell was played recently (without it the newest play of either side stands for now), and
-        the defence to skip a kamikaze card we played in the last KAMIKAZE_REPEAT_S (without it the rule is off)."""
+        whether their small spell was played recently (without it the newest play of either side stands for now), the
+        defence to skip a kamikaze card we played in the last KAMIKAZE_REPEAT_S (without it the rule is off), and the
+        answered check to find our plays of the last ANSWERED_PLAY_S seconds (without it: the newest play stands for
+        now)."""
         hand = legal_cards(state, self.cards)
         pushes = self._pushes(state)
         moves: list[TacticalMove] = []
-        answered: dict[str, tuple] = {}
         for push in pushes:
             ctx = self._ctx(push, state, t)
-            answered[push.lane] = ctx.answered_by
+            push.answered, push.answered_by = bool(ctx.answered_by), list(ctx.answered_by)
             moves += self._defence_moves(ctx, hand, state)
+        defence = self._rank(moves, None)
         if not any(p.eta_s <= URGENT_ETA_S for p in pushes):
             moves += self._offence_moves(state, hand, t)
         moves = self._rank(moves)
         best = moves[0] if moves else None
         hold = None if best else self._hold_reason(state, pushes, hand)
-        return TacticalReport(pushes, moves, best, hold, self._lines(pushes, moves, hold, answered))
+        return TacticalReport(pushes, moves, best, hold, self._lines(pushes, moves, hold), defence)
 
     def score_key(self, key: str, state: dict, report: TacticalReport | None = None) -> float | None:
         """The engine's preference for the action key: the score of the first proposed move with that key, else the

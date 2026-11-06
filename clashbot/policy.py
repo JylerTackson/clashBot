@@ -11,6 +11,13 @@ one, not a far unknown_unit, not a spell). The tactical engine then says whether
 answer; if not, and a better card is affordable before the push lands, the policy holds in mode "save" instead of
 spending the elixir on the cheapest card. A unit that is only coming soon (watch list) keeps the elixir of its answer
 out of a punish. When the engine fails, the old "any threat -> defend" rule applies.
+Real defence (MAC-AD): the pushes come from the engine (every unit within ~10 s of a tower), not only the units 4 s
+out. Each push has a deploy window per card role (a building vs a building targeter up to 9 s out, a ranged troop 6 s,
+a melee card 4.5 s, a kamikaze card or spell 2.5 s) and an answer is adequate when it stops the push (stopping class
+high / medium against a push with medium or tank units; a spell only when it hits its cost back). The policy acts when
+an adequate card is affordable and its window is open, saves the elixir when one is affordable soon, waits for the window
+otherwise, and holds when our own plays (known from the tap) already answer the push. A low-stopping card ("slows ...")
+goes only in an emergency or when the hand holds nothing adequate.
 Candidates from the tactics engine (`"tac"` in their sources, MAC-Z3) were placed on purpose: they skip the lane and
 zone constraints of defend / leak / punish, but damage spells among them still need a worthwhile target.
 """
@@ -21,6 +28,7 @@ from dataclasses import dataclass
 from typing import Any, NamedTuple
 
 from clashbot import d1_format
+from clashbot.card_roles import load_roles
 from clashbot.game_rules import lane_of, legal_cards, load_cards, zone_of
 
 DEFEND_ETA_S = 4.0          # an enemy unit this close (seconds) to one of our towers must be answered now
@@ -42,6 +50,17 @@ EMERGENCY_ETA_S = 1.5       # a push this close is answered with the best card a
 ADEQUATE_MARGIN = 0.15      # a move this close to the best score (engine scale) is as good as the best
 SECONDS_PER_ELIXIR = {"single_elixir": 2.8, "double_elixir": 1.4, "triple_elixir": 0.93, "overtime": 0.93}
 FULL_ELIXIR = 10.0
+
+# real defence (MAC-AD): deploy windows (seconds of the push's ETA), answered pushes, low-stop cards
+BUILDING_WINDOW_S = 9.0     # a building vs a building targeter (giant, balloon, hog ...) is placed this early to pull it
+RANGED_WINDOW_S = 6.0       # a ranged troop, a building vs a push without a targeter, any card vs a flying push
+MELEE_WINDOW_S = 4.5        # melee / mini tank / tank killer
+BURST_WINDOW_S = 2.5        # kamikaze card or spell
+LEAD_ON_OUR_HALF_ROW = 14   # a push whose lead unit is this deep or deeper has crossed to our half: a building may go now
+ANSWERED_MIN_ETA_S = 1.0    # an answered push this close to the tower is acted on all the same
+NO_ADEQUATE_ETA_S = 2.5     # the hand holds nothing adequate: a low-stopping card may go this close
+COMMIT_S = 4.0              # a card the policy chose to answer a push counts as answering it this long
+DEFAULT_ANSWERED_FRAC = 0.6
 
 # spells (MAC-Y2): radius in tiles, travel time before the spell lands, and what is not worth a damage spell
 SPELL_RADIUS = {"zap": 2.5, "fireball": 2.5, "arrows": 4.0, "poison": 3.5, "lightning": 3.5, "rocket": 2.0,
@@ -106,17 +125,16 @@ def _tower_lane(tower: str) -> str | None:
     return {"own_left": "left", "own_right": "right", "own_king": "middle"}.get(tower)
 
 
-def _side_lane(unit: dict) -> str | None:
-    """left / right of the unit's tile (a middle tile goes to the nearer side, col < 9 left), else its tower's lane."""
-    tile = _tile(unit)
-    lane = lane_of(tile)
-    if lane == "middle":
-        return "left" if tile[0] < 9 else "right"
-    lane = lane or _tower_lane(_own_eta(unit)[1])
-    return lane if lane in ("left", "right") else None
-
-
 _Seen = tuple[float, dict, str | None]          # (eta, enemy unit, lane) of a threat or a watched unit
+
+
+@dataclass
+class _Plan:
+    """What the engine's pushes ask of us (MAC-AD), most urgent push first."""
+    act: ActDecision | None = None                   # the first push that must be answered now
+    commit: tuple | None = None                      # ((push lane, lead card), card chosen) of that act
+    hold: ActDecision | None = None                  # else the first push's hold (answered, saving, waiting, nothing)
+    reserve: tuple[float, str] | None = None         # elixir the answer to the first unanswered push still needs, its name
 
 
 class _Cand(NamedTuple):
@@ -138,7 +156,8 @@ class ReactivePolicy:
     def __init__(self, cards: dict | None = None, defend_eta_s: float = DEFEND_ETA_S,
                  leak_elixir: float = LEAK_ELIXIR, punish_opp_elixir: float = PUNISH_OPP_ELIXIR,
                  punish_own_elixir: float = PUNISH_OWN_ELIXIR, engine=None, save_margin_s: float = SAVE_MARGIN_S,
-                 emergency_eta_s: float = EMERGENCY_ETA_S, adequate_margin: float = ADEQUATE_MARGIN):
+                 emergency_eta_s: float = EMERGENCY_ETA_S, adequate_margin: float = ADEQUATE_MARGIN,
+                 building_window_s: float = BUILDING_WINDOW_S, commit_s: float = COMMIT_S):
         self.cards = cards if cards is not None else load_cards()
         self.defend_eta_s = defend_eta_s
         self.leak_elixir = leak_elixir
@@ -148,7 +167,11 @@ class ReactivePolicy:
         self.save_margin_s = save_margin_s
         self.emergency_eta_s = emergency_eta_s
         self.adequate_margin = adequate_margin
+        self.building_window_s = building_window_s
+        self.commit_s = commit_s                # the card chosen against a push counts as answering it this long (0 = off)
         self._engine_failed = False             # building the default engine raised: stay on the old defend rule
+        self._role_table: dict | None = None    # card_roles, when the engine has none of its own
+        self._acted: dict[tuple, tuple[float, str]] = {}      # (push lane, lead card) -> (t, card) of our last answer
 
     # -- decide --------------------------------------------------------------------------------------------------------
     def _ignored(self, unit: dict) -> bool:
@@ -202,100 +225,215 @@ class ReactivePolicy:
                 self._engine_failed = True
         return self.engine
 
-    @staticmethod
-    def _find_push(pushes, unit: dict):
-        """The push whose units include `unit` (the same object), else the push of the unit's lane, else None."""
-        for push in pushes:
-            if any(x is unit for x in push.units):
-                return push
-        lane = _side_lane(unit)
-        return next((p for p in pushes if p.lane == lane), None) if lane else None
-
-    def _answers(self, state: dict, unit: dict):
-        """(push, defend moves best first) of the engine for the push that holds `unit`; (None, []) when the engine
-        has no such push. With several pushes the analysis is repeated on that push alone, so the moves of another
-        lane can neither crowd out nor stand in for its answers."""
-        engine = self._get_engine()
-        if engine is None:
-            return None, []
-        report = engine.analyse(state)
-        push = self._find_push(report.pushes, unit)
-        if push is None:
-            return None, []
-        if len(report.pushes) > 1:
-            alone = {**state, "units": [u for u in state.get("units", [])
-                                        if u.get("side") != "enemy" or any(u is x for x in push.units)]}
-            report = engine.analyse(alone)
-            push = self._find_push(report.pushes, unit) or push
-        return push, [m for m in report.moves if m.intent == "defend"]
-
     def _need_s(self, card: str, state: dict) -> float:
         """Seconds until the bar holds the cost of `card`."""
-        cost = float((self.cards.get(card) or {}).get("elixir_cost") or 0.0)
         elixir = state["own"].get("elixir") or 0.0
-        return max(0.0, cost - elixir) * seconds_per_elixir(state.get("phase"))
+        return max(0.0, self._cost(card) - elixir) * seconds_per_elixir(state.get("phase"))
+
+    def _cost(self, card: str) -> float:
+        return float((self.cards.get(card) or {}).get("elixir_cost") or 0.0)
 
     @staticmethod
     def _name(unit: dict) -> str:
         return unit.get("card") or unit.get("unit_class") or "unit"
 
-    def _defend(self, state: dict, threats: list[_Seen]) -> ActDecision:
-        """The decision for the most urgent threat: answer it now when the hand holds an adequate card, hold and save
-        the elixir when a clearly better card is affordable before the push lands, else play the best card at hand."""
-        eta, unit, lane = min(threats, key=lambda x: x[0])      # stable: first of the most urgent
-        name = self._name(unit)
-        what = f"{name} {lane or 'any'}"                        # the threat as the reasons name it
-        old = ActDecision(True, "defend", lane, f"defend {what} eta {eta:.1f}s", threat=unit)
-        try:
-            push, now = self._answers(state, unit)
-            if push is None:
-                return old
-            full = self._answers({**state, "own": {**state["own"], "elixir": FULL_ELIXIR}}, unit)[1]
-        except Exception:                                       # noqa: BLE001  never worse than the old rule
-            return old
-        best_now = max(now, key=lambda m: m.score, default=None)
-        best_any = max(full, key=lambda m: m.score, default=None)
+    # -- real defence (MAC-AD) -----------------------------------------------------------------------------------------
+    def _roles(self) -> dict:
+        """The card role table: the engine's own when it has one, else the committed Z1 table."""
+        roles = getattr(self.engine, "roles", None)
+        if isinstance(roles, dict) and roles:
+            return roles
+        if self._role_table is None:
+            try:
+                self._role_table = load_roles()
+            except Exception:                                   # noqa: BLE001  no table: windows fall back to the card type
+                self._role_table = {}
+        return self._role_table
+
+    def _traits(self, push) -> tuple[bool, bool, bool]:
+        """(heavy, building targeter, flying) of the push: the engine's flags (`heavy`, `needs`), and for a push built
+        without them (a stand-in engine) what the card roles of its units say. An unknown card counts as a medium
+        ground unit, as in the engine."""
+        roles = self._roles()
+        units = [roles.get(u.get("card")) or {"hp_class": "medium"} for u in push.units]
+        heavy = push.heavy or "tank" in push.needs or any(r.get("hp_class") in ("medium", "tank") for r in units)
+        targeter = "building_targeter" in push.needs or any(r.get("targets") == "buildings" for r in units)
+        air = "air" in push.needs or any(r.get("flying") for r in units)
+        return heavy, targeter, air
+
+    def _window_s(self, card: str, push) -> float:
+        """Seconds of the push's ETA within which `card` may be deployed against it (inf = always): a building vs a
+        building targeter up to `building_window_s`, or at any time once the lead unit stands on our half; a ranged
+        troop, a building vs another push and any card vs a flying push 6 s; a melee / mini tank / tank killer card
+        4.5 s; a kamikaze card or spell 2.5 s."""
+        role = self._roles().get(card) or {}
+        ctype = role.get("type") or ("spell" if self._is_spell(card) else
+                                     "building" if (self.cards.get(card) or {}).get("card_type") == "Building" else "troop")
+        tags = role.get("roles") or []
+        _, targeter, air = self._traits(push)
+        if ctype == "building":
+            if not targeter:
+                return RANGED_WINDOW_S
+            lead = _tile(push.units[0]) if push.units else None
+            return math.inf if lead is not None and lead[1] <= LEAD_ON_OUR_HALF_ROW else self.building_window_s
+        if air:
+            return RANGED_WINDOW_S
+        if ctype == "spell" or "kamikaze" in tags:
+            return BURST_WINDOW_S
+        if "mini_tank" in tags or "tank_killer" in tags or role.get("range", "melee") == "melee":
+            return MELEE_WINDOW_S
+        return RANGED_WINDOW_S
+
+    def _adequate(self, move, push) -> bool:
+        """The move stops the push. Against a push with a medium or tank unit that takes a high / medium stopping card
+        (a building, a tank killer, a troop with dps), or a spell that hits its cost back (MAC-Y2); a push of swarm or
+        light units is stopped by anything. A move that does not say how well it stops (`n/a`) counts."""
+        if not self._traits(push)[0]:
+            return True
+        if move.stop == "low":
+            return False
+        if move.stop == "spell":
+            return move.value is not None and move.value >= self._cost(move.card)
+        return True
+
+    @staticmethod
+    def _defence_moves(report) -> list:
+        """The defend moves of `report` (best first): the report's full defence list when it has one, else its moves."""
+        moves = getattr(report, "defence", None) or report.moves
+        return [m for m in moves if m.intent == "defend"]
+
+    def _push_moves(self, engine, state: dict, report, push, t: float) -> tuple[list, list]:
+        """(now, full): the defend moves for `push` with the elixir we have, and as if the bar were full. With several
+        pushes the analysis is repeated on that push alone, so the moves of another lane can neither crowd out nor
+        stand in for its answers."""
+        base = state
+        if len(report.pushes) > 1:
+            base = {**state, "units": [u for u in state.get("units", [])
+                                       if u.get("side") != "enemy" or any(u is x for x in push.units)]}
+            now_report = engine.analyse(base, t)
+        else:
+            now_report = report
+        full_report = engine.analyse({**base, "own": {**base["own"], "elixir": FULL_ELIXIR}}, t)
+        return self._defence_moves(now_report), self._defence_moves(full_report)
+
+    def _answered_names(self, engine, push, t: float) -> list[str]:
+        """The cards that answer the push: the engine's (`push.answered_by`), plus the card we chose against it in the
+        last `commit_s` seconds when that alone pays for `answered_frac` of the push (our tap may not show yet). Only a
+        later call counts it: asking again at the same instant gives the same answer."""
+        names = list(push.answered_by) if push.answered else []
+        entry = self._acted.get(self._push_key(push))
+        if entry is not None and 0.0 < t - entry[0] <= self.commit_s and entry[1] not in names:   # later calls only
+            frac = (getattr(engine, "w", None) or {}).get("answered_frac", DEFAULT_ANSWERED_FRAC)
+            cost = self._cost(entry[1])
+            if cost > 0 and cost >= frac * push.elixir:
+                names.append(entry[1])
+        return names
+
+    @staticmethod
+    def _push_key(push) -> tuple:
+        return push.lane, (push.units[0].get("card") or push.units[0].get("unit_class")) if push.units else None
+
+    def _judge(self, state: dict, push, now: list, full: list) -> tuple[ActDecision, str | None]:
+        """(decision, committed card) for one push that is not answered. First that applies: an adequate card is
+        affordable and its window is open -> defend with those; the best adequate card is not affordable yet but
+        will be in time -> save; the push is at the tower -> the best card at hand; the hand holds nothing adequate
+        and the push is close -> the best card at hand; else wait."""
+        unit = push.units[0]
+        lead = _tile(unit)
+        lane = lane_of(lead) or push.lane
+        what = f"{self._name(unit)} {lane}"
         margin = self.adequate_margin
-        if best_now is not None and (best_any is None or best_now.score >= best_any.score - margin):
-            allowed = frozenset(m.card for m in now if m.score >= best_now.score - margin)
-            return ActDecision(True, "defend", lane, f"defend {what} with an adequate answer", threat=unit,
-                               allowed_cards=allowed)
-        if best_any is not None:
-            need = self._need_s(best_any.card, state)
+        adequate_now = [m for m in now if self._adequate(m, push)]
+        open_now = [m for m in adequate_now if push.eta_s <= self._window_s(m.card, push)]
+        if open_now:
+            best = max(open_now, key=lambda m: m.score)
+            allowed = frozenset(m.card for m in open_now if m.score >= best.score - margin)
+            return ActDecision(True, "defend", lane, f"defend {what}: {best.card} ({best.stop})", threat=unit,
+                               allowed_cards=allowed), best.card
+        adequate_full = [m for m in full if self._adequate(m, push)]
+        best_full = max(adequate_full, key=lambda m: m.score, default=None)
+        if best_full is not None and best_full.card not in {m.card for m in now}:
+            need = self._need_s(best_full.card, state)
             if need + self.save_margin_s <= push.eta_s:
                 return ActDecision(False, "save", None,
-                                   f"save for {best_any.card} vs {what}: {need:.1f}s, eta {push.eta_s:.1f}s",
-                                   threat=unit)
+                                   f"save for {best_full.card} vs {what}: {need:.1f}s, eta {push.eta_s:.1f}s",
+                                   threat=unit), None
+        best_now = max(now, key=lambda m: m.score, default=None)
         if best_now is not None:
-            how = (f"emergency, eta {push.eta_s:.1f}s" if push.eta_s <= self.emergency_eta_s
-                   else f"best card {best_now.card}")
-            return ActDecision(True, "defend", lane, f"defend {what} ({how})", threat=unit,
-                               allowed_cards=frozenset({best_now.card}))
-        return ActDecision(False, "save", None, f"no answer in hand for {what}", threat=unit)
+            if push.eta_s <= self.emergency_eta_s:
+                return ActDecision(True, "defend", lane, f"defend {what}: {best_now.card} (emergency)", threat=unit,
+                                   allowed_cards=frozenset({best_now.card})), best_now.card
+            if not adequate_full and push.eta_s <= NO_ADEQUATE_ETA_S:
+                return ActDecision(True, "defend", lane,
+                                   f"defend {what}: {best_now.card} ({best_now.stop}, nothing adequate in hand)",
+                                   threat=unit, allowed_cards=frozenset({best_now.card})), best_now.card
+        waiting = max(adequate_now, key=lambda m: m.score, default=None)
+        if waiting is not None:
+            return ActDecision(False, "save", None, f"waiting for the {waiting.card} window vs {what}: "
+                               f"eta {push.eta_s:.1f}s", threat=unit), None
+        return ActDecision(False, "save", None, f"no adequate answer in hand for {what}", threat=unit), None
 
-    def _punish_reserve(self, state: dict, watch: list[_Seen]) -> tuple[float, str] | None:
-        """(elixir cost of the cheapest adequate answer to the soonest watched push, the unit's name), or None when
-        the engine knows no answer (then nothing is reserved)."""
-        unit = watch[0][1]
+    def _reserve(self, full: list, push) -> tuple[float, str] | None:
+        """(elixir cost of the cheapest adequate answer within `adequate_margin` of the best one, the push's lead
+        unit name), or None when the hand holds no adequate answer (nothing is reserved)."""
+        adequate = [m for m in full if self._adequate(m, push)]
+        if not adequate:
+            return None
+        top = max(m.score for m in adequate)
+        return min(self._cost(m.card) for m in adequate if m.score >= top - self.adequate_margin), \
+            self._name(push.units[0])
+
+    def _plan(self, state: dict, t: float, threats: list[_Seen], watch: list[_Seen]) -> _Plan | None:
+        """What the pushes of the engine say, most urgent first: the first one that must be answered now becomes
+        `act`; the first hold is kept as `hold`; `reserve` is the answer the first unanswered push still needs. None
+        when the engine is missing, fails, or sees no push among the units that are coming (the old rule applies)."""
+        engine = self._get_engine()
+        coming = [u for eta, u, _ in threats + watch if u.get("card") or eta <= UNKNOWN_ETA_S]
+        if engine is None or not coming:
+            return None
         try:
-            moves = self._answers({**state, "own": {**state["own"], "elixir": FULL_ELIXIR}}, unit)[1]
-        except Exception:                                       # noqa: BLE001
+            report = engine.analyse(state, t)
+            pushes = [p for p in report.pushes if any(x is c for x in p.units for c in coming)]
+            plan = _Plan()
+            for push in pushes:
+                names = self._answered_names(engine, push, t)
+                if names and push.eta_s > ANSWERED_MIN_ETA_S:
+                    plan.hold = plan.hold or ActDecision(
+                        False, "save", None, f"push {push.lane} answered by {', '.join(names)}",
+                        threat=push.units[0])
+                    continue
+                now, full = self._push_moves(engine, state, report, push, t)
+                decision, card = self._judge(state, push, now, full)
+                if decision.act:
+                    plan.act, plan.commit = decision, (self._push_key(push), card)
+                    return plan
+                plan.hold = plan.hold or decision
+                if plan.reserve is None:
+                    plan.reserve = self._reserve(full, push)
+        except Exception:                                       # noqa: BLE001  never worse than the old rule
             return None
-        if not moves:
-            return None
-        top = max(m.score for m in moves)
-        costs = [float((self.cards.get(m.card) or {}).get("elixir_cost") or 0.0)
-                 for m in moves if m.score >= top - self.adequate_margin]
-        return min(costs), self._name(unit)
+        return plan if pushes else None
+
+    def _defend_old(self, threats: list[_Seen]) -> ActDecision:
+        """The rule before the engine: the most urgent threat is answered now with whatever fits (any card)."""
+        eta, unit, lane = min(threats, key=lambda x: x[0])      # stable: first of the most urgent
+        return ActDecision(True, "defend", lane, f"defend {self._name(unit)} {lane or 'any'} eta {eta:.1f}s",
+                           threat=unit)
 
     def decide(self, state: dict, t: float, context_text: str | None = None) -> ActDecision:
-        """`context_text` is accepted for the policy interface of the live loop and ignored here."""
+        """`context_text` is accepted for the policy interface of the live loop and ignored here. Order: the pushes
+        of the engine (act when one must be answered now), the full-bar leak, the punish; else the first push's hold."""
         if not legal_cards(state, self.cards):
             return ActDecision(False, "none", None, "no affordable card")
 
         threats, watch = self._classify(state)
-        if threats:
-            return self._defend(state, threats)
+        plan = self._plan(state, t, threats, watch) if (threats or watch) else None
+        if plan is not None and plan.act is not None:
+            if self.commit_s > 0:
+                self._acted[plan.commit[0]] = (t, plan.commit[1])
+            return plan.act
+        if plan is None and threats:                    # no engine, or it knows no push for them: the old rule
+            return self._defend_old(threats)
 
         elixir = state["own"].get("elixir") or 0.0
         if elixir >= self.leak_elixir:
@@ -307,7 +445,7 @@ class ReactivePolicy:
         opp_elixir = opp.get("elixir_estimate")
         if (opp_elixir is not None and opp_elixir <= self.punish_opp_elixir
                 and elixir >= self.punish_own_elixir):
-            reserve = self._punish_reserve(state, watch) if watch else None
+            reserve = plan.reserve if plan is not None else None
             if reserve is not None and elixir - reserve[0] < 0:
                 return ActDecision(False, "save", None,
                                    f"keep {reserve[0]:g} elixir for the answer to {reserve[1]}, no punish")
@@ -318,6 +456,8 @@ class ReactivePolicy:
             return ActDecision(True, "punish", lane,
                                f"opponent ~{opp_elixir:.1f} elixir after spending, own {elixir:.1f}, lane {lane or 'any'}")
 
+        if plan is not None and plan.hold is not None:
+            return plan.hold
         return ActDecision(False, "hold", None, "save elixir: no threat, not full, opponent not overspent")
 
     # -- candidates ----------------------------------------------------------------------------------------------------

@@ -758,8 +758,8 @@ def test_a_push_our_units_are_already_fighting_is_scaled_down_and_marked():
     assert rep.lines[0] == ("tactics: push right: giant (5 elixir), tower in 8.0s; needs tank, building_targeter"
                             " (being answered by bomb-tower, berserker)")
     assert rep.best.card == "tesla"                                                 # the order of the answers is kept
-    # an ally 4 tiles away, or allies worth less than 0.6 x the push, do not count
-    far = ENGINE.analyse(_state(units=[giant, _ally((15, 8), "bomb-tower")], elixir=9.0))
+    # an ally 4 tiles away, or allies worth less than 0.6 x the push, do not count (a building does: see MAC-AD below)
+    far = ENGINE.analyse(_state(units=[giant, _ally((15, 9), "knight")], elixir=9.0))
     assert "answered" not in " ".join(far.lines) and far.best.score == pytest.approx(max(base.values()))
     weak = ENGINE.analyse(_state(units=[giant, _ally((15, 12), "skeletons")], elixir=9.0))     # 1 < 0.6 x 5
     assert "answered" not in " ".join(weak.lines) and weak.best.score == pytest.approx(max(base.values()))
@@ -969,3 +969,97 @@ def test_the_tuner_main_writes_the_weights_and_the_report(tmp_path, monkeypatch)
             assert row["n"] == 3 and row["n_eligible"] == 3 and row["objective"] is not None
     assert result["tuned"] == (written["weights"] != DEFAULT_WEIGHTS) and set(result["changed"]) <= set(DEFAULT_WEIGHTS)
     assert result["before"]["val"]["by_intent"]["defend"]["n"] == 3
+
+
+# MAC-AD: stopping class on defend moves, pushes from 10 s out, answered by buildings and our recent plays -------------
+def test_defend_moves_carry_their_stopping_class_and_offence_moves_do_not():
+    stops = {m.card: m.stop for m in ENGINE.analyse(_giant_right(elixir=9.0)).defence}
+    assert stops == {"tesla": "high", "knight": "medium", "musketeer": "medium"}
+    knight_push = _state(units=[_enemy((3, 10), "knight", eta=4.0)], elixir=9.0,
+                         hand=["tesla", "mini-p-e-k-k-a", "musketeer", "ice-spirit"])
+    stops = {m.card: m.stop for m in ENGINE.analyse(knight_push).defence}
+    assert stops == {"tesla": "high", "mini-p-e-k-k-a": "high", "musketeer": "medium", "ice-spirit": "low"}
+    zap = next(m for m in ENGINE.analyse(_bats_left(elixir=9.0)).defence if m.card == "zap")
+    assert zap.stop == "spell" and zap.value == 2.0                       # the elixir value of what it hits
+    # the air-defense rule: a low-dps card that hits air stops a balloon (medium); a kamikaze card does not
+    balloon = _state(units=[_enemy((3, 12), "balloon", eta=6.0)], elixir=9.0,
+                     hand=["magic-archer", "ice-spirit", "tesla", "knight"])
+    stops = {m.card: m.stop for m in ENGINE.analyse(balloon).defence}
+    assert stops == {"magic-archer": "medium", "ice-spirit": "low", "tesla": "high"}      # the knight cannot hit air
+    off = ENGINE.analyse(_state(elixir=10.0, hand=["hog-rider", "musketeer", "knight", "zap"]))
+    assert off.moves and {m.stop for m in off.moves} == {"n/a"} and off.defence == []
+    assert TacticalMove("zap", "zap|left|mid", [3.0, 8.0], "defend", "x", 0.5, 1.0).stop == "n/a"     # the default
+
+
+def test_the_defence_list_keeps_every_defend_move_while_moves_keeps_six():
+    units = [_enemy((3, 12), "knight", eta=4.0), _enemy((15, 12), "knight", eta=4.5, tower="own_right")]
+    rep = ENGINE.analyse(_state(units=units, elixir=10.0, hand=["tesla", "knight", "musketeer", "ice-spirit"]))
+    assert len(rep.moves) <= 6 and len(rep.defence) == 8 and {m.intent for m in rep.defence} == {"defend"}
+    assert [m.score for m in rep.defence] == sorted((m.score for m in rep.defence), reverse=True)
+    assert [m for m in rep.moves if m.intent == "defend"] == rep.defence[:len(rep.moves)] or len(rep.moves) == 6
+
+
+def test_a_unit_ten_seconds_out_is_listed_but_a_later_one_is_not():
+    near = _state(units=[_enemy((15, 15), "giant", eta=9.5, tower="own_right")], elixir=6.0)
+    rep = ENGINE.analyse(near)
+    assert rep.pushes[0].eta_s == 9.5 and rep.best.card == "tesla" and rep.best.tile == [10.5, 10.0]
+    assert ENGINE.analyse(_state(units=[_enemy((15, 15), "giant", eta=10.5, tower="own_right")])).pushes == []
+    assert rep.pushes[0].heavy is True
+    assert ENGINE.analyse(_bats_left()).pushes[0].heavy is False          # a swarm push is not heavy
+
+
+def test_a_building_of_ours_near_a_building_targeter_answers_it():
+    giant = _enemy((15, 13), "giant", eta=8.0, tower="own_right")
+    base = {m.card: m.score for m in ENGINE.analyse(_state(units=[giant], elixir=9.0)).moves}
+    rep = ENGINE.analyse(_state(units=[giant, _ally((15, 8), "bomb-tower")], elixir=9.0))      # 5 tiles from the giant
+    push = rep.pushes[0]
+    assert push.answered is True and push.answered_by == ["bomb-tower"]
+    assert rep.lines[0].endswith("(being answered by bomb-tower)")
+    assert {m.card: m.score for m in rep.moves} == {c: pytest.approx(round(v * 0.3, 3)) for c, v in base.items()}
+    # 7+ tiles away, on their half, or not a building: not answered
+    for ally in (_ally((15, 5), "bomb-tower"), _ally((15, 20), "bomb-tower"), _ally((15, 8), "knight")):
+        out = ENGINE.analyse(_state(units=[giant, ally], elixir=9.0)).pushes[0]
+        assert out.answered is False and out.answered_by == []
+    # a push without a building targeter is not answered by a building 5 tiles away (only within 3 tiles)
+    knight = _enemy((15, 13), "knight", eta=4.0, tower="own_right")
+    assert ENGINE.analyse(_state(units=[knight, _ally((15, 8), "tesla")], elixir=9.0)).pushes[0].answered is False
+    assert ENGINE.analyse(_state(units=[knight, _ally((15, 11), "tesla")], elixir=9.0)).pushes[0].answered is True
+
+
+def test_our_recent_plays_answer_a_push_at_once():
+    giant = _enemy((15, 13), "giant", eta=8.0, tower="own_right")
+
+    def with_plays(*plays, t=100.0):
+        state = _state(units=[giant], elixir=9.0)
+        state["own"]["recent_plays"] = [{"player": "own", **p} for p in plays]
+        return ENGINE.analyse(state, t).pushes[0]
+
+    tower = {"t": 99.0, "card": "bomb-tower", "tile": [10.5, 9.0]}
+    push = with_plays(tower)                                                 # 5 tiles from the giant, in its lane
+    assert push.answered and push.answered_by == ["bomb-tower"]
+    assert not with_plays(dict(tower, t=95.9)).answered                      # older than 4 s
+    assert with_plays(dict(tower, t=96.0)).answered                          # exactly 4 s: still counts
+    assert with_plays(dict(tower, tile=[14.5, 2.0])).answered                # in the push's lane, far from the lead unit
+    assert not with_plays(dict(tower, tile=[3.5, 9.0])).answered             # the other lane, 11 tiles away
+    assert with_plays(dict(tower, tile=[8.5, 12.0])).answered                # left of the middle, 6.6 tiles away
+    assert not with_plays(dict(tower, tile=[15.0, 20.0])).answered           # on their half
+    assert not with_plays(dict(tower, tile=None)).answered                   # unknown place
+    assert not with_plays(dict(tower, t=None)).answered
+    assert not with_plays(dict(tower, card=None)).answered
+    # a spell counts only on the lead unit (within 3 tiles): a fireball on the giant (4 elixir >= 0.6 x 5)
+    assert with_plays({"t": 99.0, "card": "fireball", "tile": [15.0, 12.0]}).answered_by == ["fireball"]
+    assert not with_plays({"t": 99.0, "card": "fireball", "tile": [15.0, 8.0]}).answered
+    # elixir adds up over distinct cards: a skeleton army (1) and a repeated card (once) are not enough alone
+    assert not with_plays({"t": 99.0, "card": "skeletons", "tile": [15.0, 9.0]},
+                          {"t": 99.5, "card": "skeletons", "tile": [14.0, 9.0]}).answered
+    both = with_plays({"t": 98.0, "card": "skeletons", "tile": [15.0, 9.0]}, {"t": 99.0, "card": "knight", "tile": [15.0, 9.0]})
+    assert both.answered_by == ["skeletons", "knight"]
+    # no clock: the newest play stands for "now"
+    state = _state(units=[giant], elixir=9.0)
+    state["own"]["recent_plays"] = [{"player": "own", **dict(tower, t=40.0)}]
+    assert ENGINE.analyse(state).pushes[0].answered
+    # the defence scores shrink as for answered allies
+    plain = {m.card: m.score for m in ENGINE.analyse(_state(units=[giant], elixir=9.0)).moves}
+    state["own"]["recent_plays"] = [{"player": "own", **tower}]
+    assert {m.card: m.score for m in ENGINE.analyse(state, 100.0).moves} \
+        == {c: pytest.approx(round(v * 0.3, 3)) for c, v in plain.items()}

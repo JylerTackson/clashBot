@@ -27,6 +27,7 @@ MAX_OPP_DECK = 8
 PENDING_S = 1.5                     # a tap's result is not trusted on screen until the card has left the slot this long
 SECONDS_PER_ELIXIR = {"single_elixir": 2.8, "double_elixir": 1.4, "triple_elixir": 0.93, "overtime": 0.93}
 TAP_TOLERANCE = 0.5                 # elixir: a drop of >= cost - this confirms a tap; a drop of <= this means it failed
+EXECUTOR_MERGE_S = 3.0              # a perception play of the same card this close to an executor play is the same play
 _UNSET = object()                   # "no match seen yet" (distinct from a match_id of None)
 
 
@@ -246,6 +247,7 @@ class _OwnPlay:
     cost: float
     elixir_at_play: float               # the own elixir the previous build() returned
     checked: bool = False               # the failed-tap check has run (once per play)
+    event: dict | None = None           # the synthetic play event of this tap (dropped when the tap failed)
 
 
 class LiveStateBuilder:
@@ -301,6 +303,8 @@ class LiveStateBuilder:
             self._event_keys.add(key)
             if ev.get("tile") is not None:
                 ev["tile"] = list(ev["tile"])
+            if self._merge_into_executor_play(ev):
+                continue
             bisect.insort(self._events, ev, key=lambda x: x["timestamp"])
             card = ev.get("card")
             if ev.get("player") == "opponent" and card and is_playable(card, self.cards):
@@ -308,6 +312,24 @@ class LiveStateBuilder:
                     self._opp_first[card] = min(self._opp_first.get(card, ts), ts)
                 else:
                     self._observe_opp(card, ev, ts)
+
+    def _merge_into_executor_play(self, ev: dict) -> bool:
+        """Tracker mode: a perception play of ours that is the tap we sent (same card, within EXECUTOR_MERGE_S of the
+        nearest executor play) is that play, not a second one: it fills the executor play's missing tile and the
+        executor timestamp stays. True when merged."""
+        card = ev.get("card")
+        if ev.get("player") != "own" or not card or ev.get("detect_source") == "executor":
+            return False
+        near = [e for e in self._events
+                if e.get("detect_source") == "executor" and e.get("player") == "own" and e.get("card") == card
+                and abs(e["timestamp"] - ev["timestamp"]) <= EXECUTOR_MERGE_S]
+        if not near:
+            return False
+        target = min(near, key=lambda e: abs(e["timestamp"] - ev["timestamp"]))
+        if target.get("tile") is None and ev.get("tile") is not None:
+            target["tile"] = list(ev["tile"])
+        target["_perceived"] = True                     # perception saw this play too: a failed-tap verdict cannot undo it
+        return True
 
     def _observe_opp(self, card: str, ev: dict, ts: float) -> None:
         """Evidence mode: one weak play does not make a card "seen" (the phantom plays of a misread unit would
@@ -323,14 +345,20 @@ class LiveStateBuilder:
         for c in self._opp_first.keys() - known:
             del self._opp_first[c]
 
-    def note_own_play(self, card: str, slot: int, t: float) -> None:
-        """The executor sent a tap that plays `card` from hand `slot` at time `t` (no-op without the hand tracker)."""
+    def note_own_play(self, card: str, slot: int, t: float, tile=None) -> None:
+        """The executor sent a tap that plays `card` from hand `slot` at time `t`, onto `tile` (no-op without the hand
+        tracker). The play is known at once: it enters `own.recent_plays` as an "executor" event, so the tactical
+        engine sees our new building before perception does. The perception event of the same play, when it comes,
+        is merged into it (`observe_events`); a tap the elixir shows failed takes it out again."""
         if self.tracker is None:
             return
         self.tracker.note_play(card, slot, t)
+        ev = {"player": "own", "card": card, "tile": list(tile)[:2] if tile is not None else None,
+              "timestamp": float(t), "detect_source": "executor"}
+        bisect.insort(self._events, ev, key=lambda x: x["timestamp"])
         cost = self.cards[card]["elixir_cost"] if card in self.cards else None
         if cost is not None and self._last_elixir is not None:
-            self._own_plays.append(_OwnPlay(float(t), card, slot, float(cost), self._last_elixir))
+            self._own_plays.append(_OwnPlay(float(t), card, slot, float(cost), self._last_elixir, event=ev))
 
     def _settle_plays(self, elixir: float | None, hand: list, t: float, phase: str | None) -> float | None:
         """Own-elixir accounting for the taps we sent (tracker mode). The HUD reading lags our tap, so while a tap is
@@ -356,6 +384,7 @@ class LiveStateBuilder:
                 p.checked = True
                 if elixir >= p.elixir_at_play - TAP_TOLERANCE:     # no drop: the tap did not land
                     self.tracker.mark_failed(p.slot, p.card)
+                    self._drop_event(p.event)                      # it never happened: not in recent_plays either
                     self._cooldown[p.card] = t + cfg.cooldown_s
                     self.failed_taps += 1
                     for q in self._own_plays:                      # later taps started from an elixir that already paid for this one
@@ -367,6 +396,15 @@ class LiveStateBuilder:
             kept.append(p)
         self._own_plays = kept
         return elixir if elixir is None else min(elixir, cap)
+
+    def _drop_event(self, ev: dict | None) -> None:
+        """Remove the executor play event `ev` (by identity) from the event list, unless perception has confirmed it."""
+        if ev is None or ev.get("_perceived"):
+            return
+        for k, e in enumerate(self._events):
+            if e is ev:
+                del self._events[k]
+                return
 
     def _foreign(self, card) -> bool:
         """The card is not one of the 8 he is playing (only judged when the deck is known)."""
