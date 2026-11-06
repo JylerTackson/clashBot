@@ -2,6 +2,7 @@
 
   python3 tools/train/train_act_gbdt.py [--data DIR] [--out DIR] [--horizons 1,2,3] [--seed 0]
          [--bal DIR] [--d1-json PATH] [--report PATH]
+  python3 tools/train/train_act_gbdt.py --export-json DIR        # only (re)write DIR/model_h<h>.json from the .txt files
 
 Lines come from the FULL dense data (`<data>/{train,val,test}.jsonl` joined by id with the state sidecars
 `states_<split>.jsonl`; build_dense_act.py), features from `clashbot.act_model.act_features`. Label for horizon h:
@@ -12,8 +13,11 @@ accuracy on val (0.05..0.95, step 0.01, ties -> closest to 0.5). Reports, per sp
 precision / recall of act and wait for the model, the rules (`ReactivePolicy.decide(...).act`) and `fast` (rules'
 none / defend / leak + the model, the `FastActPolicy` logic), plus the reaction slice (since_opp_play <= 3 s). At h = 1
 it repeats the metrics on the ids of `<bal>/{val,test}.jsonl` next to the d1-head numbers in `--d1-json`. Writes
-<out>/model_h<h>.txt and <out>/meta.json (features, thresholds, metrics, default_horizon 2) and <report> (JSON, default
-<data>/../eval/act_gbdt.json) + .md; prints the tables, the top-15 gain importance and the single-row predict latency.
+<out>/model_h<h>.txt, <out>/model_h<h>.json (the same trees as `Booster.dump_model()` JSON: the live loop reads these
+with a numpy tree walker, never lightgbm, because torch + lightgbm in one process segfault) and <out>/meta.json
+(features, thresholds, metrics, default_horizon 2) and <report> (JSON, default <data>/../eval/act_gbdt.json) + .md;
+prints the tables, the top-15 gain importance and the single-row predict latency. `--export-json DIR` writes the
+.json files of existing .txt models (also what `ActGBDT.load` runs in a subprocess when a .json is missing).
 """
 from __future__ import annotations
 
@@ -29,8 +33,8 @@ sys.path.insert(0, str(ROOT))
 import numpy as np  # noqa: E402
 from scipy.stats import rankdata  # noqa: E402
 
-from clashbot.act_model import (DEFAULT_HORIZON, FEATURES, META_FILE, MODEL_FILE, ActGBDT,  # noqa: E402
-                                act_features)
+from clashbot.act_model import (DEFAULT_HORIZON, FEATURES, JSON_FILE, META_FILE, MODEL_FILE,  # noqa: E402
+                                ActGBDT, act_features)
 from clashbot.config import DATASET_DIR, DB_DIR  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.policy import ReactivePolicy  # noqa: E402
@@ -167,6 +171,26 @@ def predict(booster, X: np.ndarray) -> np.ndarray:
     return np.asarray(booster.predict(X, num_iteration=booster.best_iteration or None, num_threads=1))
 
 
+def export_json(txt: Path) -> Path:
+    """Write the trees of the LightGBM text model `txt` (model_h<h>.txt) as `Booster.dump_model()` JSON next to it
+    (model_h<h>.json; atomic, so a running live loop never reads half a file). Returns the .json path."""
+    import lightgbm as lgb
+    dump = lgb.Booster(model_file=str(txt)).dump_model()
+    out = txt.with_suffix(".json")
+    tmp = out.with_name(out.name + ".tmp")
+    tmp.write_text(json.dumps(dump, separators=(",", ":")), encoding="utf-8")
+    tmp.replace(out)
+    return out
+
+
+def export_dir(directory: Path) -> list[Path]:
+    """`export_json` for every model_h<h>.txt of `directory`."""
+    txts = sorted(directory.glob("model_h*.txt"))
+    if not txts:
+        raise SystemExit(f"no model_h*.txt in {directory}")
+    return [export_json(t) for t in txts]
+
+
 def importance(booster, top: int = TOP_N) -> list[dict]:
     gain = booster.feature_importance(importance_type="gain")
     total = float(gain.sum()) or 1.0
@@ -175,7 +199,7 @@ def importance(booster, top: int = TOP_N) -> list[dict]:
 
 
 def latency_ms(out: Path, states: list[dict], cards: dict) -> dict:
-    """Single-row timings in ms of the saved default-horizon model: features, LightGBM predict, `p_act` end to end."""
+    """Single-row timings in ms of the saved default-horizon model: features, tree-walk predict, `p_act` end to end."""
     model = ActGBDT.load(out)
     rows = states[:LATENCY_ROWS]
     if not rows:
@@ -183,7 +207,7 @@ def latency_ms(out: Path, states: list[dict], cards: dict) -> dict:
     feats = [act_features(s["state"], s["t"], cards) for s in rows]
     for s, x in zip(rows[:20], feats[:20]):                               # warm up
         model.p_act(s["state"], s["t"])
-        model.booster.predict([x], num_threads=1)
+        model.trees.predict_row(x)
 
     def timed(fn) -> dict:
         ts = []
@@ -197,7 +221,7 @@ def latency_ms(out: Path, states: list[dict], cards: dict) -> dict:
 
     return {"horizon": model.horizon, "rows": len(rows),
             "features": timed(lambda i: act_features(rows[i]["state"], rows[i]["t"], cards)),
-            "predict": timed(lambda i: model.booster.predict([feats[i]], num_threads=1)),
+            "predict": timed(lambda i: model.trees.predict_row(feats[i])),
             "p_act": timed(lambda i: model.p_act(rows[i]["state"], rows[i]["t"]))}
 
 
@@ -377,6 +401,7 @@ def run(data_dir: Path, out: Path, horizons: list[float], seed: int, bal_dir: Pa
         probs = {s: predict(booster, data[s]["X"]) for s in ("val", "test")}
         thr, val_bacc = pick_threshold([bool(v) for v in labels["val"]], list(probs["val"]))
         booster.save_model(str(out / MODEL_FILE.format(h=h)))
+        export_json(out / MODEL_FILE.format(h=h))
         key = f"{h:g}"
         log(f"h={key}: {booster.best_iteration} rounds, threshold {thr:.2f} (val bacc {val_bacc:.3f}), "
             f"{time.perf_counter() - t1:.1f} s")
@@ -394,8 +419,9 @@ def run(data_dir: Path, out: Path, horizons: list[float], seed: int, bal_dir: Pa
     default = DEFAULT_HORIZON if DEFAULT_HORIZON in thr_by_h else sorted(thr_by_h)[0]
     meta = {"features": list(FEATURES), "horizons": sorted(horizons), "default_horizon": default,
             "thresholds": {f"{h:g}": thr_by_h[h] for h in sorted(horizons)}, "seed": seed,
-            "params": res["params"], "data": _rel(data_dir), "model_files": {f"{h:g}": MODEL_FILE.format(h=h)
-                                                                           for h in sorted(horizons)},
+            "params": res["params"], "data": _rel(data_dir),
+            "model_files": {f"{h:g}": MODEL_FILE.format(h=h) for h in sorted(horizons)},
+            "json_files": {f"{h:g}": JSON_FILE.format(h=h) for h in sorted(horizons)},
             "metrics": {key: {"threshold": v["threshold"], "best_iteration": v["best_iteration"],
                               "pro_act_rate": v["pro_act_rate"],
                               **{s: {"auc": v["splits"][s]["auc"], **{k: v["splits"][s]["policies"]["gbdt"][k]
@@ -424,7 +450,13 @@ def main(argv: list[str] | None = None) -> dict:
                                                            "(default <data>_bal)")
     ap.add_argument("--d1-json", type=Path, default=ROOT / "docs" / "data" / "act_head_v1.json")
     ap.add_argument("--report", type=Path, default=None, help="JSON path (default <data>/../eval/act_gbdt.json)")
+    ap.add_argument("--export-json", type=Path, default=None, metavar="DIR",
+                    help="only write model_h<h>.json next to the model_h<h>.txt files of DIR, then exit")
     a = ap.parse_args(argv)
+    if a.export_json is not None:
+        for path in export_dir(a.export_json):
+            print(f"wrote {path}", file=sys.stderr)
+        return {}
     try:
         horizons = sorted({float(x) for x in a.horizons.split(",") if x.strip()})
     except ValueError:

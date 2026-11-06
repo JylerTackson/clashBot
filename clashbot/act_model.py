@@ -2,16 +2,26 @@
 
   `act_features(state, t)` turns the clean live state dict (the builder output, also stored in
   `dataset/v1/act_dense/states_<split>.jsonl`) into the fixed-order `FEATURES` vector, the same way for training and for
-  the live loop. `ActGBDT.load(dir)` reads `meta.json` + `model_h<h>.txt` written by `tools/train/train_act_gbdt.py`
-  and answers `p_act(state, t)` = P(the pro deploys a card within `horizon` seconds), in well under a millisecond.
-  `FastActPolicy` is `LearnedActPolicy` with that model: the rules keep the safety modes (none / defend / leak), the
-  model decides every other moment (`p >= threshold` plays, else hold). LightGBM runs with one thread (libomp next to
-  torch) and is imported only when a model is loaded.
+  the live loop. `ActGBDT.load(dir)` reads `meta.json` + `model_h<h>.json` (the trees of `Booster.dump_model()`,
+  written next to `model_h<h>.txt` by `tools/train/train_act_gbdt.py`) and answers `p_act(state, t)` = P(the pro deploys
+  a card within `horizon` seconds), in well under a millisecond. `FastActPolicy` is `LearnedActPolicy` with that model:
+  the rules keep the safety modes (none / defend / leak), the model decides every other moment (`p >= threshold` plays,
+  else hold).
+
+  The runtime never imports lightgbm: the live loop imports torch first, and torch + lightgbm in one process crash
+  (two OpenMP runtimes; `Booster.predict` segfaults). `TreeEnsemble` walks the dumped trees in plain Python / numpy
+  with LightGBM's own decision rule instead. A missing .json next to an existing .txt is exported once by the trainer
+  script in a subprocess (which imports lightgbm, never torch).
 """
 from __future__ import annotations
 
 import json
+import re
+import subprocess
+import sys
 from pathlib import Path
+
+import numpy as np
 
 from clashbot.game_rules import load_cards
 from clashbot.policy import ActDecision, ReactivePolicy
@@ -24,8 +34,11 @@ FULL_ELIXIR = 9.5
 TOWER_HP_SCALE = 5000.0
 PHASES = {"single_elixir": 0, "double_elixir": 1, "triple_elixir": 2, "overtime": 3}
 DEFAULT_HORIZON = 2.0
-MODEL_FILE = "model_h{h:g}.txt"
+MODEL_FILE = "model_h{h:g}.txt"           # LightGBM text model (trainer output, read only by the exporter)
+JSON_FILE = "model_h{h:g}.json"           # its trees as `Booster.dump_model()` JSON (what the runtime reads)
 META_FILE = "meta.json"
+TRAINER = Path(__file__).resolve().parents[1] / "tools" / "train" / "train_act_gbdt.py"
+EXPORT_TIMEOUT_S = 120
 
 FEATURES: list[str] = [
     # elixir
@@ -170,12 +183,141 @@ def act_features(state: dict, t: float, cards: dict | None = None) -> list[float
 
 # --------------------------------------------------------------------------- model
 
-class ActGBDT:
-    """One LightGBM binary model (one horizon) of a directory written by `tools/train/train_act_gbdt.py`."""
+_ZERO_THRESHOLD = 1.0000000180025095e-35        # LightGBM kZeroThreshold (1e-35f as a double)
+_MISSING = {"None": 0, "Zero": 1, "NaN": 2}     # `missing_type` of a split node in the dump
+_NAN, _ZERO = _MISSING["NaN"], _MISSING["Zero"]
 
-    def __init__(self, booster, horizon: float, threshold: float, meta: dict | None = None,
+
+def _compile_tree(root: dict) -> tuple[list, list, list, list, list, list, list]:
+    """(feature, threshold, left, right, default_left, missing_type, leaf_values) of one dumped tree, indexed by the
+    dump's own `split_index` / `leaf_index`. A child is an internal node index (>= 0) or `~leaf_index` (< 0)."""
+    if "split_index" not in root:                                 # a tree that never split: one constant leaf
+        return [], [], [], [], [], [], [float(root["leaf_value"])]
+    nodes: dict[int, dict] = {}
+    leaves: dict[int, float] = {}
+    stack = [root]
+    while stack:
+        node = stack.pop()
+        if "split_index" not in node:
+            leaves[node["leaf_index"]] = float(node["leaf_value"])
+            continue
+        if node.get("decision_type", "<=") != "<=":
+            raise ValueError(f"unsupported split {node.get('decision_type')!r}: only numerical '<=' splits")
+        nodes[node["split_index"]] = node
+        stack += [node["left_child"], node["right_child"]]
+
+    def ref(child: dict) -> int:
+        return child["split_index"] if "split_index" in child else ~child["leaf_index"]
+
+    order = [nodes[i] for i in range(len(nodes))]
+    return ([n["split_feature"] for n in order], [float(n["threshold"]) for n in order],
+            [ref(n["left_child"]) for n in order], [ref(n["right_child"]) for n in order],
+            [bool(n["default_left"]) for n in order], [_MISSING[n.get("missing_type", "None")] for n in order],
+            [leaves[i] for i in range(len(leaves))])
+
+
+class TreeEnsemble:
+    """A LightGBM binary model read from the JSON of `Booster.dump_model()`, evaluated without lightgbm.
+
+    Per tree the walk is LightGBM's `NumericalDecision`: a NaN counts as 0 unless the node's `missing_type` is NaN; a
+    NaN (missing_type NaN) or a zero (|v| <= 1e-35, missing_type Zero) takes the node's default direction; every other
+    value goes left iff `v <= threshold`. The raw score is `init_score` (if the dump has one) plus the sum of the leaf
+    values (divided by the tree count when `average_output`), the probability is `1 / (1 + exp(-sigmoid * raw))`.
+    Categorical splits, multiclass and non-binary objectives raise ValueError."""
+
+    def __init__(self, dump: dict):
+        objective = str(dump.get("objective", ""))
+        if (not objective.startswith("binary") or int(dump.get("num_class", 1)) != 1
+                or int(dump.get("num_tree_per_iteration", 1)) != 1):
+            raise ValueError(f"unsupported LightGBM objective {objective!r}: only binary, single-output models")
+        m = re.search(r"sigmoid:([-+0-9.eE]+)", objective)
+        self.sigmoid = float(m.group(1)) if m else 1.0
+        self.average = bool(dump.get("average_output", False))
+        self.init_score = float(dump.get("init_score") or 0.0)
+        self.n_features = int(dump.get("max_feature_idx", -1)) + 1
+        self.trees = [_compile_tree(t["tree_structure"]) for t in dump["tree_info"]]
+        self._arrays: list | None = None
+
+    def raw(self, row) -> float:
+        """Raw score of one feature row (a sequence of floats)."""
+        total = self.init_score
+        for feat, thr, left, right, dleft, miss, leaves in self.trees:
+            if not feat:                                            # a tree that never split
+                total += leaves[0]
+                continue
+            node = 0
+            while node >= 0:
+                v = row[feat[node]]
+                m = miss[node]
+                if v != v:                                          # NaN
+                    if m == _NAN:
+                        node = left[node] if dleft[node] else right[node]
+                        continue
+                    v = 0.0
+                if m == _ZERO and -_ZERO_THRESHOLD <= v <= _ZERO_THRESHOLD:
+                    node = left[node] if dleft[node] else right[node]
+                else:
+                    node = left[node] if v <= thr[node] else right[node]
+            total += leaves[~node]
+        return total / len(self.trees) if self.average and self.trees else total
+
+    def _sigmoid(self, raw):
+        return 1.0 / (1.0 + np.exp(-self.sigmoid * raw))
+
+    def predict_row(self, row) -> float:
+        """P(act) of one feature row, in plain Python (about 0.1 ms for the shipped models)."""
+        return float(self._sigmoid(self.raw(row)))
+
+    def predict(self, X) -> np.ndarray:
+        """P(act) of every row of a 2-D array (the same walk, vectorised per tree)."""
+        X = np.asarray(X, dtype=np.float64)
+        if self._arrays is None:
+            self._arrays = [(np.array(f, dtype=np.int64), np.array(t), np.array(l, dtype=np.int64),
+                             np.array(r, dtype=np.int64), np.array(d, dtype=bool), np.array(m, dtype=np.int64),
+                             np.array(v)) for f, t, l, r, d, m, v in self.trees]
+        total = np.full(len(X), self.init_score)
+        for feat, thr, left, right, dleft, miss, leaves in self._arrays:
+            if not len(feat):
+                total += leaves[0]
+                continue
+            node = np.zeros(len(X), dtype=np.int64)
+            active = np.arange(len(X))
+            while active.size:
+                nd = node[active]
+                v = X[active, feat[nd]]
+                nan = np.isnan(v)
+                m = miss[nd]
+                v = np.where(nan & (m != _NAN), 0.0, v)
+                default = ((m == _ZERO) & (np.abs(v) <= _ZERO_THRESHOLD)) | ((m == _NAN) & nan)
+                nxt = np.where(np.where(default, dleft[nd], v <= thr[nd]), left[nd], right[nd])
+                node[active] = nxt
+                active = active[nxt >= 0]
+            total += leaves[~node]
+        if self.average and self.trees:
+            total = total / len(self.trees)
+        return self._sigmoid(total)
+
+
+def _export_json(directory: Path) -> None:
+    """Write the missing model_h*.json of `directory` from its model_h*.txt. Imports lightgbm, so it runs in a
+    subprocess (the trainer script, which never imports torch): lightgbm must stay out of this process."""
+    try:
+        proc = subprocess.run([sys.executable, str(TRAINER), "--export-json", str(directory)], capture_output=True,
+                              text=True, timeout=EXPORT_TIMEOUT_S)
+    except (OSError, subprocess.SubprocessError) as exc:
+        raise OSError(f"cannot export {directory}/model_h*.json with {TRAINER}: {exc}") from exc
+    if proc.returncode != 0:
+        raise OSError(f"exporting {directory}/model_h*.json failed (exit {proc.returncode}): "
+                      f"{proc.stderr.strip()[-300:]}")
+
+
+class ActGBDT:
+    """One LightGBM binary model (one horizon) of a directory written by `tools/train/train_act_gbdt.py`, evaluated
+    by a `TreeEnsemble` (no lightgbm in this process)."""
+
+    def __init__(self, trees: TreeEnsemble, horizon: float, threshold: float, meta: dict | None = None,
                  cards: dict | None = None):
-        self.booster = booster
+        self.trees = trees
         self.horizon = float(horizon)
         self.threshold = float(threshold)
         self.meta = meta or {}
@@ -184,8 +326,8 @@ class ActGBDT:
     @classmethod
     def load(cls, directory: str | Path, horizon: float | None = None) -> "ActGBDT":
         """Model of `horizon` (default `default_horizon` of meta.json) with the threshold stored for it. Raises
-        OSError / ValueError for a missing or inconsistent directory."""
-        import lightgbm as lgb
+        OSError / ValueError for a missing or inconsistent directory. If model_h<h>.json is missing but
+        model_h<h>.txt exists, the directory is exported once in a subprocess first."""
         d = Path(directory)
         meta = json.loads((d / META_FILE).read_text(encoding="utf-8"))
         if meta.get("features") != FEATURES:
@@ -195,13 +337,15 @@ class ActGBDT:
         thresholds = meta.get("thresholds") or {}
         if key not in thresholds:
             raise ValueError(f"{d / META_FILE}: no model for horizon {key} s (has {sorted(thresholds)})")
-        booster = lgb.Booster(model_file=str(d / MODEL_FILE.format(h=h)))
-        return cls(booster, h, float(thresholds[key]), meta)
+        path = d / JSON_FILE.format(h=h)
+        if not path.is_file() and (d / MODEL_FILE.format(h=h)).is_file():
+            _export_json(d)
+        trees = TreeEnsemble(json.loads(path.read_text(encoding="utf-8")))
+        return cls(trees, h, float(thresholds[key]), meta)
 
     def p_act(self, state: dict, t: float) -> float:
         """P(the pro deploys a card within `horizon` s) for one state."""
-        row = act_features(state, t, self.cards)
-        return float(self.booster.predict([row], num_threads=1)[0])
+        return self.trees.predict_row(act_features(state, t, self.cards))
 
 
 class FastActPolicy:
