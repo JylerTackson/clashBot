@@ -25,6 +25,7 @@ from pathlib import Path
 import numpy as np
 
 from clashbot.actions import load_placement_prior, option_text, placement_tile
+from clashbot.arbiter import ArbiterConfig, RuleArbiter, urgent_from_report
 from clashbot.candidates import CandidateGenerator
 from clashbot.config import HOLD_KEY
 from clashbot.game_rules import load_cards
@@ -55,6 +56,8 @@ class LiveDecision:
     mode: str = "trigger"         # policy mode: defend | leak | punish (reactive) or trigger
     reason: str = ""              # the policy's human-readable reason
     tactics_lines: list = field(default_factory=list)      # the engine's lines shown to the ranker ([] without one)
+    arbiter_reason: str | None = None                      # which arbiter rule narrowed d1's options (None without one)
+    arbiter_subset: list | None = None                     # [{"key", "p"}]: the options d1 chose among, renormalised
 
 
 def _accepts_notes(fn) -> bool:
@@ -121,7 +124,7 @@ class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
                  clock=time.perf_counter, min_gap_s: float = 1.0, policy=None, require_hand: bool = True,
-                 tactics=None):
+                 tactics=None, arbiter=None):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -141,6 +144,7 @@ class LiveLoop:
         self.policy = None if policy == "trigger" else policy
         self.require_hand = require_hand             # never tap a card the hand read does not show (FIX_LIST #27)
         self.tactics = tactics                       # a TacticalEngine (MAC-Z3) or None = lookup candidates only
+        self.arbiter = arbiter                       # a RuleArbiter (MAC-AB A4) narrowing d1's options when unsure, or None
         self.hand_unknown_holds = 0                  # decisions held because no candidate card was in the read hand
         self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
         self.last_decision_t: float | None = None
@@ -238,6 +242,7 @@ class LiveLoop:
         f = clock()
         candidates_ms = (f - e) * 1000.0
         chosen = None
+        arbiter_reason = arbiter_subset = None
         if not cands:
             key, probs, rank_ms, g = HOLD_KEY, [], 0.0, f
         else:
@@ -250,6 +255,12 @@ class LiveLoop:
                 notes = {x.key: x.note for x in cands if getattr(x, "note", None)}
                 i, probs = rank_keys(self.ranker, rank_ctx, [x.key for x in cands], self.plan_text,
                                      notes=notes or None)
+                if self.arbiter is not None:        # d1 unsure: it chooses among the tactical / pro-supported subset
+                    urgent = urgent_from_report(report, self.arbiter.cfg.urgent_eta_s)
+                    narrowed = self.arbiter.decide(cands, probs, urgent)
+                    i, arbiter_reason = narrowed.index, narrowed.reason
+                    arbiter_subset = [{"key": cands[j].key, "p": round(p, 4)}
+                                      for j, p in zip(narrowed.subset, narrowed.probs)]
             chosen = cands[i]
             key = chosen.key
             g = clock()
@@ -298,7 +309,8 @@ class LiveLoop:
             candidates=[{"key": x.key, "score": x.score, "sources": x.sources, "tile": getattr(x, "tile", None),
                          "note": getattr(x, "note", None)} for x in cands],
             probs=list(probs), executor=entry, timings_ms=timings, mode=verdict.mode, reason=verdict.reason,
-            tactics_lines=list(report.lines) if report is not None else [])
+            tactics_lines=list(report.lines) if report is not None else [], arbiter_reason=arbiter_reason,
+            arbiter_subset=arbiter_subset)
         self.decisions.append(decision)
         self._write("decisions.jsonl", {**asdict(decision), "elixir": state["own"]["elixir"],
                                         "hand": state["own"]["hand"], "context_text": ctx})
@@ -417,6 +429,15 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--act-backend", choices=("mlx", "transformers"), default="transformers",
                     help="backend of the act-head model")
     ap.add_argument("--out", default=None, help="output dir (default runs/poc/<timestamp>)")
+    ap.add_argument("--arbiter", choices=("none", "rules"), default="none",
+                    help="rules = when d1 is unsure it chooses among the tactical / pro-supported candidates only "
+                         "(MAC-AB A4, D-045: d1 still decides); not used with --ranker tactics")
+    ap.add_argument("--arbiter-conf", type=float, default=ArbiterConfig.conf,
+                    help="d1 top probability at which d1 chooses among all candidates")
+    ap.add_argument("--arbiter-knn", type=float, default=ArbiterConfig.knn_min,
+                    help="kNN support at which a candidate counts as pro-supported")
+    ap.add_argument("--arbiter-eta", type=float, default=ArbiterConfig.urgent_eta_s,
+                    help="a push this close (seconds) counts as urgent")
     return ap
 
 
@@ -575,14 +596,19 @@ def main(argv: list[str] | None = None) -> int:
             source.close()
         return 3
 
+    arbiter = None
+    if args.arbiter == "rules" and args.ranker != "tactics":        # the tactics ranker is the engine's own pick
+        arbiter = RuleArbiter(ArbiterConfig(conf=args.arbiter_conf, urgent_eta_s=args.arbiter_eta,
+                                            knn_min=args.arbiter_knn))
     out_dir = Path(args.out) if args.out else Path("runs") / "poc" / datetime.now().strftime("%Y%m%d-%H%M%S")
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "config.json").write_text(json.dumps(vars(args), indent=2, default=str))
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
-                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy, tactics=tactics)
+                    plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy, tactics=tactics,
+                    arbiter=arbiter)
     mode = "LIVE" if args.live else "dry run"
     print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} policy={args.policy} "
-          f"tactics={'off' if args.no_tactics else 'on'} out={out_dir}")
+          f"tactics={'off' if args.no_tactics else 'on'} arbiter={'rules' if arbiter else 'none'} out={out_dir}")
     summary = loop.run(max_seconds=args.seconds, max_decisions=args.max_decisions)
     print(f"frames={summary['frames']} decisions={summary['decisions']} "
           f"readiness={summary['readiness_counts']} status={summary['decisions_by_status']}")
