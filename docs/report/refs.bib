@@ -52,7 +52,7 @@
 %   weller2025rank1 has no arXiv id (note says "Verify arXiv ID"). li2026qwen3vl lists "Li, Y." as first author -- check on arXiv.
 %   13 KG entries are in the file but never cited in the KG write-up (lecture content with no section):
 %   cap6938L06, galkin2024ultra, garciaduran2018tadistmult, huang2025motif, leblay2018validitytime, schlichtkrull2018rgcn, sun2021titer, teru2020grail, vashishth2020compgcn, zhang2022redgnn, zhang2023adaprop, zhu2021nbfnet, zhu2023astarnet.
-%   Missing author field (BibTeX @misc, allowed): embedrl, openvision2, plume, umer1, unified2025survey, unime2025.
+%   Missing author field (BibTeX misc entries, allowed): embedrl, openvision2, plume, umer1, unified2025survey, unime2025.
 % ============================================================================
 
 
@@ -2131,4 +2131,117 @@
   title  = {End-to-End Test-Time Training for Long Context},
   year   = {2025},
   note   = {Preprint, arXiv:2512.23675}
+}
+
+% ---------------------------------------------------------------------------
+% Added for the clashbot final report (2026-11-07). Prior bots: verified in
+% docs/research/prior_bots_comparison.md sec. 7. Others: standard citations.
+% ---------------------------------------------------------------------------
+@misc{wu2025nonembedded,
+  author        = {Wu, Tianyang and Wan, Lipeng and Wang, Yuhang and Wan, Qiang and Lan, Xuguang},
+  title         = {Playing Non-Embedded Card-Based Games with Reinforcement Learning},
+  year          = {2025},
+  howpublished  = {arXiv:2504.04783},
+  eprint        = {2504.04783},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2504.04783},
+  note          = {Also in ICIRA 2024, LNCS vol. 15206, pp. 255--269, doi 10.1007/978-981-96-0792-1\_20}
+}
+@misc{wu2024katacr,
+  author       = {Wu, Tianyang},
+  title        = {{KataCR}: Non-Embedded {Clash Royale} Agent (Code, Detection Dataset and {YOLOv8} Weights)},
+  year         = {2024},
+  howpublished = {GitHub repository, \url{https://github.com/wty-yy/katacr}},
+  note         = {Commit 36ceb9f; MIT licence; detector weights v0.7.13; accessed 2026-11-07}
+}
+@misc{houseworth2025claudeRoyale,
+  author       = {Houseworth, Ethan},
+  title        = {{Claude Royale}: {AI} Agents Playing {Clash Royale} Autonomously},
+  year         = {2025},
+  howpublished = {GitHub repository, \url{https://github.com/houseworthe/claude-royale}},
+  note         = {Created 2025-12-07; last commit 2026-01-25 (70ecc8c); MIT licence; accessed 2026-11-07}
+}
+@misc{liquidai2026d1omni,
+  author       = {{Liquid AI}},
+  title        = {{d1-omni-600M}},
+  year         = {2026},
+  howpublished = {Hugging Face model card, \url{https://huggingface.co/LiquidAI/d1-omni-600M}},
+  note         = {LFM Open License; accessed 2026-11-07}
+}
+@inproceedings{ke2017lightgbm,
+  author    = {Ke, Guolin and Meng, Qi and Finley, Thomas and Wang, Taifeng and Chen, Wei and Ma, Weidong and Ye, Qiwei and Liu, Tie-Yan},
+  title     = {{LightGBM}: A Highly Efficient Gradient Boosting Decision Tree},
+  booktitle = {Advances in Neural Information Processing Systems 30 (NeurIPS)},
+  pages     = {3146--3154},
+  year      = {2017}
+}
+@misc{jocher2023yolov8,
+  author       = {Jocher, Glenn and Chaurasia, Ayush and Qiu, Jing},
+  title        = {Ultralytics {YOLOv8}},
+  year         = {2023},
+  howpublished = {\url{https://github.com/ultralytics/ultralytics}},
+  note         = {Version 8.0.0; AGPL-3.0}
+}
+@misc{rapidai2021rapidocr,
+  author       = {{RapidAI}},
+  title        = {{RapidOCR}: An {OCR} Toolkit Based on {ONNXRuntime}},
+  year         = {2021},
+  howpublished = {GitHub repository, \url{https://github.com/RapidAI/RapidOCR}},
+  note         = {Package rapidocr\_onnxruntime; accessed 2026-11-07}
+}
+@techreport{burges2010lambdamart,
+  author      = {Burges, Christopher J. C.},
+  title       = {From {RankNet} to {LambdaRank} to {LambdaMART}: An Overview},
+  institution = {Microsoft Research},
+  number      = {MSR-TR-2010-82},
+  year        = {2010}
+}
+@article{kalman1960,
+  author  = {Kalman, Rudolph Emil},
+  title   = {A New Approach to Linear Filtering and Prediction Problems},
+  journal = {Journal of Basic Engineering},
+  volume  = {82},
+  number  = {1},
+  pages   = {35--45},
+  year    = {1960}
+}
+@article{vinyals2019alphastar,
+  author  = {Vinyals, Oriol and Babuschkin, Igor and Czarnecki, Wojciech M. and others},
+  title   = {Grandmaster Level in {StarCraft II} Using Multi-Agent Reinforcement Learning},
+  journal = {Nature},
+  volume  = {575},
+  number  = {7782},
+  pages   = {350--354},
+  year    = {2019}
+}
+@misc{berner2019dota,
+  author        = {Berner, Christopher and Brockman, Greg and Chan, Brooke and others},
+  title         = {{Dota 2} with Large Scale Deep Reinforcement Learning},
+  year          = {2019},
+  howpublished  = {arXiv:1912.06680},
+  eprint        = {1912.06680},
+  archivePrefix = {arXiv}
+}
+@inproceedings{chen2021dt,
+  author    = {Chen, Lili and Lu, Kevin and Rajeswaran, Aravind and Lee, Kimin and Grover, Aditya and Laskin, Michael and Abbeel, Pieter and Srinivas, Aravind and Mordatch, Igor},
+  title     = {Decision Transformer: Reinforcement Learning via Sequence Modeling},
+  booktitle = {Advances in Neural Information Processing Systems 34 (NeurIPS)},
+  year      = {2021}
+}
+@misc{qwen2025qwen3,
+  author        = {{Qwen Team}},
+  title         = {{Qwen3} Technical Report},
+  year          = {2025},
+  howpublished  = {arXiv:2505.09388},
+  eprint        = {2505.09388},
+  archivePrefix = {arXiv}
+}
+@misc{xiao2023cpack,
+  author        = {Xiao, Shitao and Liu, Zheng and Zhang, Peitian and Muennighoff, Niklas},
+  title         = {{C-Pack}: Packaged Resources To Advance General {Chinese} Embedding},
+  year          = {2023},
+  howpublished  = {arXiv:2309.07597},
+  eprint        = {2309.07597},
+  archivePrefix = {arXiv}
 }
