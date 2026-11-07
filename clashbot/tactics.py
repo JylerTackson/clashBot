@@ -32,9 +32,15 @@ evidence ("pros 70% held n=23", "role of cannon"), and a card whose pro answer h
 at the threat's lead tile + that offset (mirrored back to the lane, clamped; a building only where it still pulls;
 `tile_source` "pro_offset", else "geometric" = the MAC-AG rule) unless the simulation likes the geometric tile better.
 Hero ability (MAC-AI part 2): with the button ready and her Musketeer on the field, the Trusty Turret (KB stats at the
-musketeer's level) is simulated at the spawn tile (her tile + 3 rows toward the enemy) against each push; when it makes a
-push adequate or prevents `ability_min_prevent` tower HP the engine proposes an `ability` move (`TacticalReport.abilities`,
-key `ability:musketeer|lane|zone`). Without a graph, nothing of this changes.
+musketeer's level) is simulated at the spawn tile (her tile + 3 rows toward the enemy) against each push; when it prevents
+`ability_min_prevent` (1,000, D-049) tower HP the engine proposes an `ability` move (`TacticalReport.abilities`, key
+`ability:musketeer|lane|zone`). Without a graph, nothing of this changes.
+Timing and spells (MAC-AL P): a push's ETA is the simulation's whenever there is one (`min(sim, tracker)`, `eta_source`:
+the tracker's is late); a building targeter or flyer anywhere on the field that walks toward us, or that was played in the
+last 3 s, is an early push. With the threat model on, every damage spell in hand is aimed at the best cluster anywhere
+(`ReactivePolicy.spell_best`: any half and lane, tanks are damaged survivors, +1 elixir for their princess tower): a
+cluster with a unit of a push is that push's defend move (simulated on the push minus the units it kills), any other
+worthwhile cluster is a `spell_value` move (`TacticalReport.spells`).
 """
 from __future__ import annotations
 
@@ -42,6 +48,7 @@ import json
 import math
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import NamedTuple
 
 from clashbot import unit_stats as ustats
 from clashbot.actions import ABILITY_COST, ABILITY_KEY, ABILITY_TURRET_TILES, ability_key
@@ -92,6 +99,11 @@ ANSWERED_EMERGENCY_ETA = 1.5     # a push this close to the tower with weaker al
 KAMIKAZE_REPEAT_S = 3.0      # a kamikaze card we played this recently is not proposed again against a push
 RIVER_MIN_ROW, RIVER_MAX_ROW = 15, 18    # enemy units here and walking toward our side are a push already (MAC-AH)
 EARLY_FLYER_ROW = 20         # a building-targeter or flyer this close to the river (rows <= 20) is a push, whatever its ETA
+RECENT_PLAY_S = 3.0          # ... and one anywhere on the field is a push when it walks toward us or they played it this recently
+SIM_HORIZON_S = 20.0         # the lane simulation's default horizon (clashbot.unit_stats.simulate_lane)
+FAR_ATTACK_S = 10.0          # a push with a unit beyond our half is simulated until that unit has attacked this long
+SIM_MAX_HORIZON_S = 45.0     # ... but never longer than this
+SPELL_REASON_NAMES = {"electro-": "e-"}     # shortened in a spell move's reason ("e-wizard")
 PREVENT_REF = 1500.0         # the damage a move prevents is measured against at least this much (small pushes stay small)
 ALLY_DEPLOY_S = 1.0          # a play of ours this recent is still deploying: its units act after what is left of this
 SPLIT_MIN_ELIXIR = 5.0       # an answered push worth this much elixir opens the other lane (split)
@@ -150,7 +162,12 @@ DEFAULT_WEIGHTS: dict[str, float] = {
                                             # this x the push's damage) or no unit reaches the tower
     # hero ability (MAC-AI part 2): the Trusty Turret, simulated at the Musketeer's spawn tile
     "ability": 0.5,                         # base score of the `ability` move (+ `prevent` x the share it prevents)
-    "ability_min_prevent": 400.0,           # proposed when it makes a push adequate or prevents at least this much tower HP
+    "ability_min_prevent": 1000.0,          # proposed when it prevents at least this much tower HP (D-049: used sparingly)
+    # a damage spell with a worthwhile cluster and no push to answer (MAC-AL): base score of the `spell_value` move, plus
+    # `spell_value_ratio` x (value / cost - 1), at most `spell_value_cap` above the base
+    "spell_value": 0.55,
+    "spell_value_ratio": 0.1,
+    "spell_value_cap": 0.3,
     # offence intent scores
     "counter_push": 0.6,
     "split": 0.7,                           # an answered push worth 5+ elixir: the win condition goes to the other lane
@@ -221,6 +238,7 @@ class Push:
     destroys_with_allies: bool | None = None     # ... and whether the tower would fall then
     allies_hold: bool = False    # our units on the field already keep the damage small (see `adequate_frac`)
     early: bool = False          # listed for a river / bridge unit (MAC-AH), not for ETA <= PUSH_ETA_S or our half
+    eta_source: str = "tracker"  # "sim" when `eta_s` is the simulation's (MAC-AL: the tracker's is late), else "tracker"
 
 
 @dataclass
@@ -243,6 +261,21 @@ class TacticalMove:
     # >= PRO_OFFSET_MIN_N events), "geometric" (the MAC-AG rule) or "ability" (the turret's spawn tile)
     tile_source: str = "geometric"
     push_lane: str | None = None         # ability: the lane of the push the turret is judged against
+    # damage spell aimed at a cluster (MAC-AL): the enemy unit dicts inside its circle and how many of them it kills
+    members: tuple = ()
+    kills: int = 0
+
+
+class _SpellAim(NamedTuple):
+    """A damage spell's best cluster: (tile, elixir value, counted units) like `ReactivePolicy.spell_target`, plus every unit
+    in the circle, those it kills, the kill count and whether the circle hits an enemy princess tower."""
+    tile: list
+    value: float
+    count: int
+    members: tuple = ()
+    killed: tuple = ()
+    kills: int = 0
+    tower: bool = False
 
 
 @dataclass
@@ -255,6 +288,7 @@ class TacticalReport:
     defence: list[TacticalMove] = field(default_factory=list)   # every defend move, best first (`moves` keeps 6 of all)
     offence: list[TacticalMove] = field(default_factory=list)   # every offence move, best first (`moves` keeps 6 of all)
     abilities: list[TacticalMove] = field(default_factory=list)   # the hero ability, when it is worth it (MAC-AI part 2)
+    spells: list[TacticalMove] = field(default_factory=list)      # `spell_value` moves: a worthwhile cluster, no push (MAC-AL)
 
 
 @dataclass
@@ -431,16 +465,30 @@ class TacticalEngine:
             return pred[1] < tile[1]
         return True
 
-    def _is_early(self, unit: dict, tile, card) -> bool:
+    def _recent_opp_cards(self, state: dict, t: float | None) -> frozenset:
+        """The cards the opponent played in the last RECENT_PLAY_S seconds (the clock `t`, else the newest play stands for
+        now)."""
+        now = self._clock(state, t)
+        if now is None:
+            return frozenset()
+        return frozenset(p["card"] for p in (state.get("opponent") or {}).get("recent_plays") or []
+                         if p.get("card") and p.get("t") is not None and 0 <= now - p["t"] <= RECENT_PLAY_S)
+
+    def _is_early(self, unit: dict, tile, card, recent: frozenset = frozenset()) -> bool:
         """A river / bridge threat (MAC-AH): an enemy unit at rows RIVER_MIN_ROW..RIVER_MAX_ROW walking toward our
-        side, or a building-targeter / flyer at rows <= EARLY_FLYER_ROW, whatever its ETA."""
+        side, or a building-targeter / flyer at rows <= EARLY_FLYER_ROW, whatever its ETA - and (MAC-AL) such a unit
+        anywhere on the field that walks toward us or whose card they played in the last RECENT_PLAY_S seconds (`recent`),
+        so a balloon is budgeted from the moment it is played."""
         row = tile[1]
-        if "retreat" in str(unit.get("heading") or "").lower():
+        played = card in recent
+        if "retreat" in str(unit.get("heading") or "").lower() and not played:
             return False
         if RIVER_MIN_ROW <= row <= RIVER_MAX_ROW and self._toward_us(unit, tile):
             return True
         role = self._role(card)
-        return row <= EARLY_FLYER_ROW and (role.get("targets") == "buildings" or bool(role.get("flying")))
+        if role.get("targets") == "buildings" or bool(role.get("flying")):
+            return row <= EARLY_FLYER_ROW or played or self._toward_us(unit, tile)
+        return False
 
     def _pushes(self, state: dict, t: float | None = None) -> list[Push]:
         """Enemy units close to an own tower (ETA <= PUSH_ETA_S), on our half, or at the river walking toward us
@@ -448,6 +496,7 @@ class TacticalEngine:
         our units already stand in its lane, against them too (`damage_with_allies`). The pushes are ranked by the
         tower destroyed, then the damage left (with our units there), then ETA: the biggest open threat is first."""
         per_lane: dict[str, list[tuple[float, float, int, dict, float | None, bool]]] = {"left": [], "right": []}
+        recent = self._recent_opp_cards(state, t) if self._sim_on() else frozenset()
         for i, u in enumerate(state.get("units", [])):
             tile = _tile(u)
             if u.get("side") != "enemy" or tile is None:
@@ -459,7 +508,7 @@ class TacticalEngine:
             on_our_half = tile[1] <= OWN_HALF_MAX_ROW
             early = False
             if not ((eta is not None and eta <= PUSH_ETA_S) or on_our_half):
-                early = self._sim_on() and self._is_early(u, tile, card)
+                early = self._sim_on() and self._is_early(u, tile, card, recent)
                 if not early:
                     continue
             order_eta = eta if eta is not None else (0.0 if tile[1] <= NEAR_BACK_ROW else 2.0)
@@ -476,12 +525,15 @@ class TacticalEngine:
                 res = ustats.simulate_lane(push.units, allies, self._tower_of(lane, state))
                 push.damage_with_allies, push.destroys_with_allies = float(res.tower_damage), res.tower_destroyed
                 push.allies_hold = res.tower_damage <= self._ok_limit(push) or res.eta_s is None
-            # the ETA: the tracker's; a unit without one is at the tower (back of our half) or reaches it when the
-            # simulation says (else 2 s)
+            # the ETA: the simulation's whenever there is one - real speeds and ranges; the tracker's is late (MAC-AL) -
+            # but never later than the tracker's; a unit without a tracker ETA is at the tower (back of our half) or
+            # reaches it when the simulation says (else 2 s)
             etas = [x[4] for x in items if x[4] is not None]
             etas += [0.0 if x[1] <= NEAR_BACK_ROW else (push.sim_eta_s if push.sim_eta_s is not None else 2.0)
                      for x in items if x[4] is None]
             push.eta_s = min(etas)
+            if push.sim_eta_s is not None and push.sim_eta_s <= push.eta_s:
+                push.eta_s, push.eta_source = push.sim_eta_s, "sim"
             push.early = all(x[5] for x in items)
             push.summary = self._summary(push)
             pushes.append(push)
@@ -510,7 +562,18 @@ class TacticalEngine:
         none of its units has stats."""
         if not self._sim_on() or not any(ustats.has_stats(u.get("card")) for u in push.units):
             return
-        res = ustats.simulate_lane(push.units, [], self._tower_of(push.lane, state))
+        tower = self._tower_of(push.lane, state)
+        res = ustats.simulate_lane(push.units, [], tower)
+        if res.eta_s is None or res.eta_s + FAR_ATTACK_S > SIM_HORIZON_S:
+            # a unit far from the tower (a balloon just played) would be cut off by the horizon before it has attacked
+            # for long: run until it has attacked FAR_ATTACK_S, so its damage and ETA are the real ones (MAC-AL)
+            if any((_tile(u) or (0, 0))[1] > OWN_HALF_MAX_ROW for u in push.units):
+                arrive = res.eta_s
+                if arrive is None:
+                    arrive = ustats.simulate_lane(push.units, [], tower, horizon_s=SIM_MAX_HORIZON_S).eta_s
+                if arrive is not None:
+                    res = ustats.simulate_lane(push.units, [], tower,
+                                               horizon_s=min(SIM_MAX_HORIZON_S, arrive + FAR_ATTACK_S))
         push.damage_if_unanswered = float(res.tower_damage)
         push.destroys_tower = res.tower_destroyed
         push.sim_eta_s = res.eta_s
@@ -770,8 +833,8 @@ class TacticalEngine:
                 and not self._has(role, "win_condition"))
 
     def _spell_aim(self, card: str, ctx: _PushCtx, state: dict):
-        """`spell_target` picks its centres by the units' current tiles, so ask for the cell the threat stands in now;
-        if nothing worthwhile is there, for the cell of its lead tile."""
+        """The role-model engine's aim (threat model off): `spell_target` picks its centres by the units' current tiles,
+        so ask for the cell the threat stands in now; if nothing worthwhile is there, for the cell of its lead tile."""
         self._sim_on()                                  # (syncs how the policy prices spells with the threat model)
         now = _tile(ctx.unit)
         for tile in (now, ctx.pos):
@@ -779,6 +842,57 @@ class TacticalEngine:
             if aim is not None:
                 return aim
         return None
+
+    def _spell_clusters(self, state: dict, hand: list[str]) -> dict[str, _SpellAim] | None:
+        """card -> the best cluster anywhere (`ReactivePolicy.spell_best`: any half and lane, tanks are damaged survivors,
+        +1 elixir for an enemy princess tower) for every damage spell in `hand`; None when the threat model is off (the
+        old lead-cell aim of `_spell_aim` then applies). `killed` are the members the spell's damage kills."""
+        if not self._sim_on():
+            return None
+        out: dict[str, _SpellAim] = {}
+        for card in hand:
+            role = self._role(card)
+            if role.get("type") != "spell" or not self._defends(card, role):
+                continue
+            best = self.policy.spell_best(card, state)
+            if best is None:
+                continue
+            tile, value, members, kills = best
+            damage = (ustats.spell_stat(card) or {}).get("damage") or 0
+            killed = tuple(u for u in members if u.get("card") and ustats.unit_stat(u)["hp"] <= damage)
+            out[card] = _SpellAim(list(tile), float(value), sum(1 for u in members if self.policy._counted(u)),
+                                  tuple(members), killed, int(kills), self.policy._hits_tower(card, tile))
+        return out
+
+    @staticmethod
+    def _touches(aim: _SpellAim, push: Push) -> bool:
+        """A unit of the push stands in the spell's circle."""
+        return any(u is m for u in push.units for m in aim.members)
+
+    def _spell_why(self, card: str, aim: _SpellAim, room: int = MAX_REASON) -> str:
+        """'fireball night-witch + e-wizard + bats x3: kills 4, ~9 elixir [+ tower]' within `room` characters: the
+        non-tank units of the circle, the costliest first, dropped from the end until it fits."""
+        counts: dict[str, int] = {}
+        for u in aim.members:
+            name = _name(u)
+            if name in TANK_CARDS or self._role(u.get("card")).get("type") == "spell":
+                continue
+            counts[name] = counts.get(name, 0) + 1
+        order = sorted(counts, key=lambda n: (-self._cost(n), n))
+        names = [f"{self._short(n)} x{counts[n]}" if counts[n] > 1 else self._short(n) for n in order]
+        tail = f": kills {aim.kills}, ~{round(aim.value, 1):g} elixir" + (" + tower" if aim.tower else "")
+        while True:
+            why = f"{card} {' + '.join(names)}{tail}" if names else f"{card}{tail}"
+            if len(why) <= room or len(names) <= 1:
+                return why
+            names = names[:-1]
+
+    @staticmethod
+    def _short(name: str) -> str:
+        for long, short in SPELL_REASON_NAMES.items():
+            if name.startswith(long):
+                return short + name[len(long):]
+        return name
 
     def _stop_class(self, role: dict, ctx: _PushCtx) -> str | None:
         """How well the card stops a push: high / medium / low, None for spells (judged by their aim). Buildings and
@@ -869,6 +983,8 @@ class TacticalEngine:
         pos, push, threat = ctx.pos, ctx.push, ctx.threat
         if role.get("type") == "spell":
             tile = [_r05(aim[0][0]), _r05(aim[0][1])]
+            if isinstance(aim, _SpellAim) and aim.members:
+                return tile, self._spell_why(card, aim)
             near = [_name(u) for u in push.units
                     if math.dist(tile, _tile(u)) <= SPELL_RADIUS.get(card, 2.5) + 0.5
                     and _name(u) not in TANK_CARDS and self._role(u.get("card")).get("hp_class") != "tank"]
@@ -945,7 +1061,8 @@ class TacticalEngine:
         """(tile, reason, simulation, tile_source) of a defend move: the geometric rule of MAC-AG, or the pro offset when
         the graph has one - unless the simulation finds the pro tile inadequate and the geometric one adequate."""
         tile, why = self._defence_place(card, role, ctx, aim, state)
-        sim = self._simulate_move(card, tile, ctx)
+        removed = aim.killed if isinstance(aim, _SpellAim) else ()
+        sim = self._simulate_move(card, tile, ctx, removed) if removed else self._simulate_move(card, tile, ctx)
         ans = ctx.kg_answers.get(card)
         pro = None if ans is None else self._pro_tile(card, role, ans, ctx)
         if pro is None:
@@ -981,14 +1098,19 @@ class TacticalEngine:
             out.append(short)
         return tuple(out)
 
-    def _simulate_move(self, card: str, tile, ctx: _PushCtx):
-        """The lane simulation of the push with `card` played at `tile` on top of our units already there; None when
-        the push or the card has no stats (the move is then judged by the roles alone)."""
+    def _simulate_move(self, card: str, tile, ctx: _PushCtx, removed: tuple = ()):
+        """The lane simulation of the push with `card` played at `tile` on top of our units already there (`removed`: units
+        of the push a damage spell kills, left out); None when the push or the card has no stats (the move is then judged
+        by the roles alone)."""
         if ctx.push.damage_if_unanswered is None or not ustats.has_stats(card):
             return None
-        return ustats.simulate_lane(ctx.push.units, ctx.allies + [{"card": card, "tile": list(tile)}], ctx.tower)
+        units = [u for u in ctx.push.units if not any(u is r for r in removed)] if removed else ctx.push.units
+        return ustats.simulate_lane(units, ctx.allies + [{"card": card, "tile": list(tile)}], ctx.tower)
 
-    def _defence_moves(self, ctx: _PushCtx, hand: list[str], state: dict) -> list[TacticalMove]:
+    def _defence_moves(self, ctx: _PushCtx, hand: list[str], state: dict,
+                       clusters: dict[str, _SpellAim] | None = None) -> list[TacticalMove]:
+        """The defend moves of one push. `clusters` (threat model on): a damage spell is a move for the push when its best
+        cluster holds a unit of it; None: the old lead-cell aim."""
         moves = []
         if ctx.push.tower_ok:
             return moves                                  # the tower handles it: no card is spent on it (MAC-AH)
@@ -1001,7 +1123,12 @@ class TacticalEngine:
                 continue
             aim = None
             if role.get("type") == "spell":
-                aim = self._spell_aim(card, ctx, state)
+                if clusters is None:
+                    aim = self._spell_aim(card, ctx, state)
+                else:
+                    aim = clusters.get(card)
+                    if aim is not None and not self._touches(aim, ctx.push):
+                        aim = None
                 if aim is None:
                     continue
             tile, why, sim, source = self._choose_tile(card, role, ctx, aim, state)
@@ -1013,7 +1140,14 @@ class TacticalEngine:
             score, trade = scored
             key = action_key(card, lane_of(tile), zone_of(tile))
             evidence = self._kg_evidence(ctx.kg_answers.get(card), source == "pro_offset")
-            if not self._claims_trade(role, ctx):
+            cluster = isinstance(aim, _SpellAim) and bool(aim.members)
+            if cluster:
+                reason = _clip(why)                      # a spell move: what it hits and kills, at most MAX_REASON
+                for ev in evidence:                      # ... plus the graph's evidence when it fits
+                    if len(f"{reason}, {ev}") <= MAX_REASON_KG:
+                        reason = f"{reason}, {ev}"
+                        break
+            elif not self._claims_trade(role, ctx):
                 reason = _clip(f"slows {ctx.threat}")
             elif evidence:
                 reason = _with_evidence(why, trade, prevented, evidence)
@@ -1027,8 +1161,27 @@ class TacticalEngine:
                                       prevented=None if sim is None else round(prevented, 1),
                                       efficiency=None if sim is None or cost <= 0 else round(prevented / cost, 1),
                                       damage_with=None if sim is None else float(sim.tower_damage),
-                                      tile_source=source))
+                                      tile_source=source, members=tuple(aim.members) if cluster else (),
+                                      kills=aim.kills if cluster else 0))
         return moves
+
+    def _spell_value_moves(self, clusters: dict[str, _SpellAim] | None, taken: set[str]) -> list[TacticalMove]:
+        """A `spell_value` move for every damage spell whose best cluster belongs to no push that wants an answer (not
+        in `taken`): cast it for what it kills (and the tower). Score: `spell_value` + `spell_value_ratio` x (value /
+        cost - 1), at most `spell_value_cap` above the base."""
+        w = self.w
+        out: list[TacticalMove] = []
+        for card, aim in (clusters or {}).items():
+            if card in taken:
+                continue
+            tile = [_r05(aim.tile[0]), _r05(aim.tile[1])]
+            cost = self._cost(card)
+            bonus = min(w["spell_value_cap"], max(0.0, w["spell_value_ratio"] * (aim.value / cost - 1.0))) if cost > 0 else 0.0
+            out.append(TacticalMove(card, action_key(card, lane_of(tile), zone_of(tile)), tile, "spell_value",
+                                    _clip(self._spell_why(card, aim)), round(w["spell_value"] + bonus, 3), None,
+                                    stop="spell", value=float(aim.value), tile_source="spell",
+                                    members=tuple(aim.members), kills=aim.kills))
+        return out
 
     # -- offence -------------------------------------------------------------------------------------------------------
     def _is_aimed_wc(self, card: str, role: dict) -> bool:
@@ -1338,9 +1491,9 @@ class TacticalEngine:
 
     def _ability_moves(self, state: dict, ctxs: list[_PushCtx]) -> list[TacticalMove]:
         """The `ability` move (at most one): the turret simulated at its spawn tile against each push on top of our units
-        already in the lane. It is proposed for the push where it prevents the most when that makes the push adequate
-        (the damage left is within `adequate_frac`, the push not already held by our units) or it prevents at least
-        `ability_min_prevent` tower HP; a push the tower handles never asks for it. Needs the threat model."""
+        already in the lane. It is proposed for the push where it prevents the most, and only when that is at least
+        `ability_min_prevent` (1,000, D-049) tower HP; a push the tower handles never asks for it. Needs the threat
+        model."""
         if not self._sim_on():
             return []
         spot = self._turret_spot(state)
@@ -1356,9 +1509,7 @@ class TacticalEngine:
             base = push.damage_if_unanswered if push.damage_with_allies is None else push.damage_with_allies
             res = ustats.simulate_lane(push.units, ctx.allies + [turret], ctx.tower)
             prevented = max(0.0, base - res.tower_damage)
-            worth = prevented >= w["ability_min_prevent"] or (
-                prevented > 0 and self._sim_adequate(res, push) and not push.allies_hold)
-            if worth and (best is None or prevented > best[0]):
+            if prevented >= w["ability_min_prevent"] and (best is None or prevented > best[0]):
                 best = (prevented, ctx, res)
         if best is None:
             return []
@@ -1421,21 +1572,33 @@ class TacticalEngine:
         now)."""
         hand = legal_cards(state, self.cards)
         pushes = self._pushes(state, t)
+        clusters = self._spell_clusters(state, hand)
         moves: list[TacticalMove] = []
         ctxs: list[_PushCtx] = []
+        # spells that get no `spell_value` move: their cluster is the defend move of a push that is still on, or holds
+        # only units of pushes the tower handles
+        taken: set[str] = set()
         for push in pushes:
             ctx = self._ctx(push, state, t, hand)
             ctxs.append(ctx)
             push.answered, push.answered_by = bool(ctx.answered_by), list(ctx.answered_by)
-            moves += self._defence_moves(ctx, hand, state)
+            new = self._defence_moves(ctx, hand, state, clusters)
+            moves += new
+            if not push.answered:
+                taken |= {m.card for m in new if m.members}
+        for card, aim in (clusters or {}).items():
+            ok_units = [u for p in pushes if p.tower_ok for u in p.units]
+            if all(any(u is o for o in ok_units) for u in aim.members):
+                taken.add(card)                                  # only units the tower handles: no card is spent on it (MAC-AH)
         defence = self._rank(moves, None)
         offence = self._offence_moves(state, hand, t, pushes)
         abilities = self._ability_moves(state, ctxs)
-        moves = self._rank(moves + offence + abilities)
+        spells = self._spell_value_moves(clusters, taken)
+        moves = self._rank(moves + offence + abilities + spells)
         best = moves[0] if moves else None
         hold = None if best else self._hold_reason(state, pushes, hand)
         return TacticalReport(pushes, moves, best, hold, self._lines(pushes, moves, hold), defence,
-                              self._rank(offence, None), abilities)
+                              self._rank(offence, None), abilities, self._rank(spells, None))
 
     def score_key(self, key: str, state: dict, report: TacticalReport | None = None) -> float | None:
         """The engine's preference for the action key: the score of the first proposed move with that key, else the
@@ -1454,7 +1617,15 @@ class TacticalEngine:
         if report.pushes[0].tower_ok:
             return None
         ctx = self._ctx(report.pushes[0], state)
-        aim = self._spell_aim(card, ctx, state) if role.get("type") == "spell" else None
+        aim = None
+        if role.get("type") == "spell":
+            clusters = self._spell_clusters(state, [card])
+            if clusters is None:
+                aim = self._spell_aim(card, ctx, state)
+            else:
+                aim = clusters.get(card)
+                if aim is not None and not self._touches(aim, report.pushes[0]):
+                    aim = None
         sim, push = None, report.pushes[0]
         unanswered = push.damage_if_unanswered
         base = unanswered if push.damage_with_allies is None else push.damage_with_allies

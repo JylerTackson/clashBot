@@ -800,3 +800,33 @@ def test_cli_fast_with_a_bad_model_dir_exits_3(monkeypatch, tmp_path, capsys):
     _patch_main(monkeypatch, seen)
     assert _run_main(tmp_path, "--policy", "fast", "--act-model", str(tmp_path / "nope")) == 3
     assert "error" in capsys.readouterr().err and "policy" not in seen
+
+
+# MAC-AL P3.6: a `spell` act is passed through like a counter ------------------------------------------------------------
+def test_al_the_fast_policy_passes_a_spell_decision_through_without_asking_the_model():
+    spell = ActDecision(True, "spell", "left", "spell: fireball night-witch + e-wizard: kills 4, ~9 elixir",
+                        allowed_cards=frozenset({"fireball"}), engine_tiles={"fireball": [4.0, 20.5]},
+                        tile_sources={"fireball": "spell"})
+
+    class Rules:
+        cards = CARDS
+
+        def decide(self, state, t, context_text=None):
+            return spell
+
+    model = FakeModel(0.0)                                  # the model would wait
+    policy = FastActPolicy(model, CARDS, rules=Rules())
+    d = policy.decide(_with(), 10.0)
+    assert d is spell and d.mode == "spell" and model.calls == []
+    # the learned (d1 act-head) policy as well
+    from clashbot.policy import LearnedActPolicy
+
+    class Scorer:
+        calls = 0
+
+        def probabilities(self, state, questions):
+            Scorer.calls += 1
+            return {"act": [1.0, 0.0]}
+
+    learned = LearnedActPolicy(Scorer(), CARDS, rules=Rules())
+    assert learned.decide(_with(), 10.0, "CTX") is spell and Scorer.calls == 0

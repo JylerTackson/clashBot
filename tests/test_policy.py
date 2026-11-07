@@ -171,7 +171,8 @@ def test_full_elixir_leaks_with_no_lane():
 
 
 def test_leak_plays_away_from_the_occupied_lane():
-    right = _state(elixir=10.0, units=[_enemy((14, 25), eta=9.0, tower="own_right"), _enemy((13, 28))])
+    # (their units are 12 s out: a push 9 s out is pre-placed against at a full bar, MAC-AL P1.4)
+    right = _state(elixir=10.0, units=[_enemy((14, 25), eta=12.0, tower="own_right"), _enemy((13, 28))])
     d = POLICY.decide(right, 10.0)
     assert d.mode == "leak" and d.lane == "left"
     left = _state(elixir=10.0, units=[_enemy((3, 25))])
@@ -268,7 +269,7 @@ def test_defend_falls_back_to_kg_counters_then_to_the_spell_filtered_list():
 
 def test_leak_prefers_back_and_bridge_and_the_free_lane():
     # a hand without a win condition: the leak keeps the zone and lane rule over any card
-    state = _state(elixir=10.0, units=[_enemy((14, 25), eta=9.0, tower="own_right")],
+    state = _state(elixir=10.0, units=[_enemy((14, 25), eta=12.0, tower="own_right")],     # (12 s out: no push yet)
                    hand=["knight", "archers", "musketeer", "zap"])
     d = POLICY.decide(state, 10.0)
     assert d.mode == "leak" and d.lane == "left" and d.allowed_cards is None
@@ -278,7 +279,7 @@ def test_leak_prefers_back_and_bridge_and_the_free_lane():
     none_fit = _cands("knight|left|mid", "knight|right|back")
     assert _keys(POLICY.filter_candidates(none_fit, d, state)) == ["knight|left|mid", "knight|right|back"]
     # with a win condition in hand the full bar goes into it (MAC-AG), and nothing else is offered
-    wc = POLICY.decide(_state(elixir=10.0, units=[_enemy((14, 25), eta=9.0, tower="own_right")]), 10.0)
+    wc = POLICY.decide(_state(elixir=10.0, units=[_enemy((14, 25), eta=12.0, tower="own_right")]), 10.0)
     assert wc.mode == "leak" and wc.lane == "left" and wc.allowed_cards == frozenset({"giant"})
     assert _keys(POLICY.filter_candidates(cands, wc, state)) == ["giant|left|back"]
 
@@ -305,9 +306,14 @@ def test_punish_without_a_lane_accepts_any_lane():
 def test_filter_accepts_candidate_dicts_and_empty_input():
     state = _state(units=[_enemy((5, 9), eta=2.0)])
     d = POLICY.decide(state, 10.0)
-    assert POLICY.filter_candidates([], d, state) == []
+    # no candidate at all: the allowed cards still reach the LLM as the engine's own candidates (MAC-AL P3.7)
+    injected = POLICY.filter_candidates([], d, state)
+    assert injected and {c.key.split("|")[0] for c in injected} == set(d.allowed_cards)
+    assert all(c.sources == {"tac": 0.0} and c.tile == d.engine_tiles[c.key.split("|")[0]] for c in injected)
     as_dicts = [{"key": "knight|left|mid", "score": 1.0, "sources": {}}, {"key": "knight|right|mid", "score": 0.5}]
-    assert POLICY.filter_candidates(as_dicts, d, state) == [as_dicts[0]]
+    kept = POLICY.filter_candidates(as_dicts, d, state)
+    assert kept[0] == as_dicts[0] and as_dicts[1] not in kept                  # (the other allowed cards are the engine's)
+    assert {c.key.split("|")[0] for c in kept[1:]} == set(d.allowed_cards) - {"knight"}
 
 
 # 8 (MAC-Y2: aimed and worthwhile spells) -----------------------------------------------------------------------------
@@ -865,8 +871,8 @@ def test_ad_balloon_in_the_left_lane_is_answered_by_the_magic_archer(weights):
     assert d.allowed_cards == frozenset({"magic-archer"})                       # not the fire / ice spirit
     cards = [m.card for m in policy.engine.analyse(state, 100.0).defence]
     assert "bomb-tower" not in cards and {"magic-archer", "ice-spirit"} <= set(cards)   # a tower cannot hit air
-    # 6.5 s out the ranged window (6 s) is not open yet
-    late = _state(elixir=5.0, units=[_enemy((3, 14), eta=6.5, tower="own_left", card="balloon")], hand=AD_HAND)
+    # 7 s out the ranged window (6 s, judged against the ETA minus the 0.5 s decision latency, MAC-AL P1.2) is not open yet
+    late = _state(elixir=5.0, units=[_enemy((3, 14), eta=7.0, tower="own_left", card="balloon")], hand=AD_HAND)
     d = _ad(weights).decide(late, 100.0)
     assert not d.act and d.mode == "save" and d.reason.startswith("waiting for the magic-archer window")
 
@@ -928,8 +934,10 @@ def test_ad_a_push_without_engine_flags_is_read_from_the_roles_of_its_units():
 
 def test_ad_melee_card_waits_for_its_window():
     hand = ["berserker", "ice-spirit", "fire-spirit", "magic-archer"]
-    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=5.0)], hand=hand), 100.0)
+    # (the 4.5 s window is judged against the ETA minus the 0.5 s decision latency: 5.5 s out is not open, 5 s is, MAC-AL P1.2)
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=5.5)], hand=hand), 100.0)
     assert not d.act and d.mode == "save" and d.reason.startswith("waiting for the berserker window vs giant right")
+    assert _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=5.0)], hand=hand), 100.0).act
     d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=4.0)], hand=hand), 100.0)
     assert d.act and d.allowed_cards == frozenset({"berserker"}) and d.reason == "defend giant right: berserker (medium)"
 
@@ -1032,8 +1040,9 @@ def test_ag_an_unanswered_balloon_comes_first_and_the_reserve_keeps_the_answer_a
     scene["units"] = [u for u in scene["units"] if u.get("card") != "knight"] + [_ally((5, 10), "knight")]
     d = _ad(weights).decide(scene, 100.0)
     assert d.act and d.mode == "defend" and d.lane == "left" and d.reason == "defend balloon left: musketeer (medium)"
-    # a balloon 6.5 s out (no window open yet, not within 5 s): the counter is allowed only above the answer's price
-    far = _enemy((3, 14), eta=6.5, tower="own_left", card="balloon")
+    # a balloon 7 s out (no window open yet - 6 s + the 0.5 s latency - and not within 5 s): the counter is allowed only
+    # above the answer's price
+    far = _enemy((3, 14), eta=7.0, tower="own_left", card="balloon")
     hand = ["ram-rider", "musketeer", "electro-dragon", "knight"]            # the cheapest adequate answer costs 4
 
     def scene_at(elixir):
@@ -1053,12 +1062,19 @@ def test_ag_an_unanswered_balloon_comes_first_and_the_reserve_keeps_the_answer_a
 
 @pytest.mark.parametrize("weights", WEIGHT_SETS)
 def test_ag_a_full_bar_leaks_the_win_condition_but_a_push_at_the_tower_is_defended_first(weights):
-    hand = ["ram-rider", "knight", "mini-p-e-k-k-a", "fireball"]        # no ranged card: nothing can go at 6 s out
+    hand = ["ram-rider", "knight", "mini-p-e-k-k-a", "fireball"]
+    # a push 6 s out whose answer (knight / mini pekka, window 4.5 s) cannot go yet: the full bar pre-places it instead of
+    # leaking (MAC-AL P1.4) ...
     d = _ad(weights).decide(_state(elixir=10.0, units=[_enemy((3, 14), eta=6.0)], hand=hand), 100.0)
+    assert d.act and d.mode == "defend" and d.reason.startswith("full bar: pre-place ") and d.lane == "left"
+    assert d.allowed_cards and d.allowed_cards <= {"knight", "mini-p-e-k-k-a"}
+    # ... while a hand with no card that answers it (no ranged card, no melee card) leaks the win condition
+    leak_hand = ["ram-rider", "fireball", "zap", "ice-spirit"]
+    d = _ad(weights).decide(_state(elixir=10.0, units=[_enemy((3, 14), eta=6.0)], hand=leak_hand), 100.0)
     assert d.act and d.mode == "leak" and d.allowed_cards == frozenset({"ram-rider"}) and d.lane == "right"
     assert d.reason == "elixir 10.0 near full, lane right" and d.engine_tiles == {"ram-rider": [14.5, 14.0]}
     cands = _cands("knight|right|back", "ram-rider|right|bridge", "mini-p-e-k-k-a|right|bridge")
-    assert _keys(_ad(weights).filter_candidates(cands, d, _state(elixir=10.0, hand=hand))) == ["ram-rider|right|bridge"]
+    assert _keys(_ad(weights).filter_candidates(cands, d, _state(elixir=10.0, hand=leak_hand))) == ["ram-rider|right|bridge"]
     d = _ad(weights).decide(_state(elixir=10.0, units=[_enemy((3, 10), eta=2.0)], hand=hand), 100.0)
     assert d.act and d.mode == "defend" and d.allowed_cards & {"knight", "mini-p-e-k-k-a"}
 
@@ -1189,8 +1205,9 @@ def test_ah_a_push_the_tower_handles_is_a_hold_with_that_reason():
 
 def test_ah_a_smaller_push_may_not_spend_the_elixir_of_the_bigger_pushs_answer():
     hand = ("tesla", "knight", "musketeer", "zap")
-    # the balloon is still on their side of the river (row 17): no card's window is open yet; a knight pushes the left
-    balloon = _heading(_enemy((16, 17), eta=9.5, tower="own_right", card="balloon"), "advancing right lane")
+    # the balloon is still on their side of the river (row 19, simulated ETA 13.25 s: the musketeer's 9 s air window and
+    # the tesla's pull are not open yet, the 14 s reserve window is); a knight pushes the left
+    balloon = _heading(_enemy((16, 19), eta=15.0, tower="own_right", card="balloon"), "advancing right lane")
     knight = _heading(_enemy((4, 11), eta=4.0, card="knight"), "advancing left lane")
 
     def state(elixir):
@@ -1205,8 +1222,8 @@ def test_ah_a_smaller_push_may_not_spend_the_elixir_of_the_bigger_pushs_answer()
     assert all(c in ("knight", "musketeer", "tesla") for c in d.allowed_cards)
     cost = {c: CARDS[c]["elixir_cost"] for c in d.allowed_cards}
     assert all(8.0 - cost[c] >= 4 for c in cost)               # every allowed card leaves the reserve
-    # a push that is more than RESERVE_WINDOW_S away keeps no reserve
-    far = _heading(_enemy((16, 19), eta=14.0, tower="own_right", card="balloon"), "advancing right lane")
+    # a push that is more than RESERVE_WINDOW_S away (row 22: 16.25 s simulated) keeps no reserve
+    far = _heading(_enemy((16, 22), eta=17.0, tower="own_right", card="balloon"), "advancing right lane")
     st = state(5.0)
     st["units"] = [far, knight]
     d = _sim().decide(st, 100.0)
@@ -1428,16 +1445,17 @@ def test_k4b_the_ability_is_offered_to_the_llm_as_an_allowed_card_when_it_is_the
                                     state) == []
 
 
-def test_k4b_the_ability_can_be_the_only_adequate_answer_and_is_always_listed_with_the_cards():
+def test_k4b_the_ability_can_be_the_only_adequate_answer_and_joins_the_cards_only_when_it_saves_much_more():
     # the hand holds nothing that stops a giant: the turret is the answer
     state = _ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")], hand=("zap", "fireball", "ram-rider", "electro-dragon"),
                            elixir=5.0)
     d = _sim().decide(state, 100.0)
     assert d.act and ABILITY_KEY in d.allowed_cards
-    # the hand holds the tesla: both are on offer
+    # the hand holds the tesla, which stops the giant as well as the turret does: the card alone (D-049: the ability joins
+    # an open card answer only when it prevents 1.5x as much)
     rich = _ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")], hand=("tesla", "knight", "zap", "fireball"), elixir=8.0)
     d = _sim().decide(rich, 100.0)
-    assert d.act and {"tesla", ABILITY_KEY} <= d.allowed_cards
+    assert d.act and "tesla" in d.allowed_cards and ABILITY_KEY not in d.allowed_cards
     # a giant already on its tower cannot be pulled: the turret is no adequate answer there (like any building), it is
     # only the best card at hand in the last second
     late = _ability_state([_heading(_t_enemy((14, 5.5), "giant", eta=0.5, tower="own_right"), "advancing right lane"),
@@ -1447,3 +1465,338 @@ def test_k4b_the_ability_can_be_the_only_adequate_answer_and_is_always_listed_wi
     assert report.abilities and not policy._adequate(report.abilities[0], report.pushes[0])
     d = policy.decide(late, 100.0)
     assert not d.act or "(emergency)" in d.reason or ABILITY_KEY not in d.allowed_cards
+
+
+# MAC-AL P: timing, big threats, the full bar, air answers, blind buildings, spell clusters, the ability ---------------------
+import dataclasses  # noqa: E402
+import math  # noqa: E402
+
+from clashbot.policy import (AIR_WINDOW_S, BIG_PUSH_DAMAGE, DECISION_LATENCY_S, GREAT_SPELL_RATIO,  # noqa: E402
+                             RESERVE_WINDOW_S)
+from tests.test_tactics import DECK47, _support_pack  # noqa: E402
+
+
+def _al(units, hand, elixir, plays=None, towers=None):
+    """A state with the D-047 deck, our towers at the scenario HP and `plays` as their recent plays."""
+    st = _state(elixir=elixir, units=units, hand=list(hand))
+    st["own"]["deck"] = DECK47
+    st["own"]["towers"] = towers or {"king": None, "left": 4082, "right": 4424}
+    if plays:
+        st["opponent"]["recent_plays"] = plays
+    return st
+
+
+def test_al_constants_are_the_specs():
+    assert (DECISION_LATENCY_S, BIG_PUSH_DAMAGE, RESERVE_WINDOW_S, AIR_WINDOW_S, GREAT_SPELL_RATIO) == (
+        0.5, 1500.0, 14.0, 9.0, 2.0)
+
+
+# 1 -----------------------------------------------------------------------------------------------------------------
+def test_al_a_window_opens_half_a_second_early_and_the_push_eta_is_the_simulations():
+    musketeer = _move("musketeer", 0.9, stop="medium")
+    hand = ["musketeer", "zap", "archers", "knight"]
+    for eta, acts in ((6.0, True), (6.5, True), (6.6, False), (7.0, False)):       # the ranged window is 6 s
+        fake = FakeEngine([musketeer], eta, lane="left", heavy=True)
+        d = ReactivePolicy(CARDS, engine=fake).decide(_state(elixir=5.0, units=[_enemy((4, 10), eta=3.0)], hand=hand), 10.0)
+        assert d.act is acts, eta
+    # the real engine: the tracker says 6 s, the simulation 4.25 s, a melee window (4.5 s) is open at 3.75 s
+    knight = _heading(_t_enemy((3, 11), "knight", eta=6.0), "advancing left lane")
+    state = _al([knight], ["knight", "zap", "musketeer", "fireball"], 6.0)
+    report = _sim()._analyse(state, 100.0)
+    assert report.pushes[0].eta_s == 4.25 and report.pushes[0].eta_source == "sim"
+    d = _sim().decide(state, 100.0)
+    assert d.act and d.mode == "defend" and d.reason == "defend knight left: knight (medium)"
+    # with the tracker's ETA (the role-model engine has no simulation) the knight's window is still closed
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=6.0, units=[_enemy((3, 11), eta=6.0)],
+                                           hand=["knight", "zap", "musketeer", "fireball"]), 100.0)
+    assert d.act and "knight" not in d.allowed_cards                                   # (only the musketeer's 6 s window)
+
+
+# 2 -----------------------------------------------------------------------------------------------------------------
+def _balloon_and_knight(towers=None, elixir=5.0):
+    balloon = _heading(_t_enemy((16, 19), "balloon", tower="own_right"), "advancing right lane")
+    balloon["vel"] = [0.0, -1.0]                                                       # walking toward us, just played
+    knight = _heading(_t_enemy((3, 12), "knight", eta=4.0), "advancing left lane")
+    return _al([balloon, knight], ["musketeer", "zap", "knight", "fireball"], elixir,
+               plays=[{"t": 99.0, "card": "balloon", "tile": [16, 19]}], towers=towers)
+
+
+def test_al_a_balloon_just_played_keeps_the_elixir_of_its_answer_from_the_other_lane():
+    policy = _sim()
+    report = policy._analyse(_balloon_and_knight(), 100.0)
+    balloon = next(p for p in report.pushes if p.units[0]["card"] == "balloon")
+    assert balloon.early and balloon.eta_source == "sim" and balloon.eta_s == 13.25 and balloon.damage_if_unanswered >= BIG_PUSH_DAMAGE
+    d = policy.decide(_balloon_and_knight(), 100.0)
+    # 5 elixir: the knight (3) would leave 2 < the musketeer's 4 - and so would every other card
+    assert not d.act and d.mode == "save"
+    assert d.reason == "keep 4 elixir for the balloon (~3,200 if unanswered), not for knight left"
+    # 9 elixir: what the left lane may play leaves the 4
+    d = _sim().decide(_balloon_and_knight(elixir=9.0), 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left"
+    assert d.allowed_cards and all(9.0 - CARDS[c]["elixir_cost"] >= 4 for c in d.allowed_cards)
+    # the left tower at 300 HP: the knight alone takes it down, so it is answered whatever the balloon needs
+    d = _sim().decide(_balloon_and_knight(towers={"king": None, "left": 300, "right": 4424}), 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left" and "knight" in d.allowed_cards
+    # a balloon more than RESERVE_WINDOW_S out (row 24: 18 s) keeps nothing
+    far = _balloon_and_knight()
+    far["units"][0]["tile"] = [16, 24]
+    d = _sim().decide(far, 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left"
+
+
+def test_al_two_bats_the_tower_handles_spend_nothing_while_a_balloon_is_coming():
+    balloon = _heading(_t_enemy((16, 19), "balloon", tower="own_right"), "advancing right lane")
+    bats = [_heading(_t_enemy((3, 12), "bats", eta=2.0, unit_class="bat"), "advancing left lane") for _ in range(2)]
+    d = _sim().decide(_al([balloon, *bats], ["musketeer", "zap", "knight", "fireball"], 5.0,
+                          plays=[{"t": 99.0, "card": "balloon", "tile": [16, 19]}]), 100.0)
+    assert not d.act and d.mode == "save" and d.reason.startswith("waiting for the musketeer window vs balloon right")
+
+
+# 3 -----------------------------------------------------------------------------------------------------------------
+def test_al_full_bar_balloon_at_the_left_bridge_is_defended_with_the_musketeer_not_the_knight():       # t = 367.5
+    balloon = _heading(_t_enemy((1.5, 16), "balloon", eta=7.0, tower="own_left"), "advancing left lane")
+    firecracker = _heading(_t_enemy((2.5, 16.5), "firecracker", eta=7.5, tower="own_left"), "advancing left lane")
+    state = _al([balloon, firecracker], ["zap", "fireball", "musketeer", "knight"], 10.0)
+    d = _sim().decide(state, 367.5)
+    assert d.act and d.mode == "defend" and d.lane == "left" and d.reason == "defend balloon left: musketeer (medium)"
+    assert "musketeer" in d.allowed_cards and "knight" not in d.allowed_cards
+    assert d.engine_tiles["musketeer"] == [5.0, 2.5]                                   # behind the left tower
+    assert d.threat["card"] == "balloon" and len(d.push_units) == 2
+
+
+def test_al_a_full_bar_places_the_answer_before_its_window_opens_instead_of_leaking():
+    far = _heading(_t_enemy((1.5, 19), "balloon", eta=14.0, tower="own_left"), "advancing left lane")
+    hand = ["zap", "fireball", "musketeer", "knight"]
+    d = _sim().decide(_al([far], hand, 10.0), 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left" and d.reason == "full bar: pre-place musketeer vs balloon left"
+    assert d.allowed_cards == frozenset({"musketeer"}) and d.engine_tiles["musketeer"] == [5.0, 2.5]
+    assert d.tile_sources["musketeer"] in ("geometric", "pro_offset")
+    # not a full bar: it waits for its window as before
+    d = _sim().decide(_al([far], hand, 8.0), 100.0)
+    assert not d.act and d.reason.startswith("waiting for the musketeer window vs balloon left")
+    # nothing to pre-place (only a win condition and spells in hand): the leak stays
+    d = _sim().decide(_al([far], ["ram-rider", "fireball", "zap", "knight"], 10.0), 100.0)
+    assert d.mode == "leak" and d.allowed_cards == frozenset({"ram-rider"})
+
+
+# 4 -----------------------------------------------------------------------------------------------------------------
+def test_al_a_ranged_air_answer_has_nine_seconds_against_a_big_flying_push():
+    hand = ["zap", "fireball", "musketeer", "knight"]
+    river = _heading(_t_enemy((3, 15.5), "balloon", eta=8.5, tower="own_left"), "advancing left lane")
+    d = _sim().decide(_al([river], hand, 6.0), 100.0)
+    assert d.act and d.mode == "defend" and d.allowed_cards == frozenset({"musketeer"})
+    late = _heading(_t_enemy((3, 18), "balloon", eta=11.5, tower="own_left"), "advancing left lane")
+    d = _sim().decide(_al([late], hand, 6.0), 100.0)
+    assert not d.act and d.reason.startswith("waiting for the musketeer window")
+    # a small flying push keeps the 6 s window (the role rule: 3 bats are not worth 9 s)
+    policy = _sim()
+    push = policy._analyse(_al([river], hand, 6.0), 100.0).pushes[0]
+    assert policy._window_s("musketeer", push) == AIR_WINDOW_S
+    small = dataclasses.replace(push, damage_if_unanswered=900.0)
+    assert policy._window_s("musketeer", small) == 6.0
+    assert policy._window_s("tesla", push) == float("inf")                             # buildings keep the geometric rule
+
+
+# 5 -----------------------------------------------------------------------------------------------------------------
+def test_al_a_ground_card_is_never_the_emergency_answer_to_a_balloon():                  # t = 492.0
+    giant = _heading(_t_enemy((4, 7), "giant", eta=0.0, tower="own_left"), "advancing left lane")
+    balloon = _heading(_t_enemy((3, 8), "balloon", eta=0.0, tower="own_left"), "advancing left lane")
+    state = _al([balloon, giant], ["fireball", "ram-rider", "knight", "zap"], 3.0)
+    policy = _sim()
+    assert [m.card for m in policy._analyse(state, 492.0).defence] == ["knight"]       # the engine does list the knight ...
+    d = policy.decide(state, 492.0)
+    assert not d.act and d.mode == "save" and d.reason == "no air answer at hand vs balloon left"   # ... the policy does not play it
+    # the same push 2 s out (the nothing-adequate rule): no knight either
+    for u in state["units"]:
+        u["eta_tower"] = {"tower": "own_left", "s": 2.0}
+    assert _sim().decide(state, 492.0).reason == "no air answer at hand vs balloon left"
+    # without the balloon the knight is the emergency card against the giant
+    d = _sim().decide(_al([giant], ["fireball", "ram-rider", "knight", "zap"], 3.0), 492.0)
+    assert d.act and d.allowed_cards == frozenset({"knight"}) and "(emergency)" in d.reason
+    # and the hero ability is never an emergency card
+    assert ABILITY_KEY not in (d.allowed_cards or ())
+
+
+# 6 -----------------------------------------------------------------------------------------------------------------
+def test_al_a_defensive_building_is_not_placed_with_no_push_on_the_field():
+    policy = _sim()
+    hand = ["tesla", "knight", "zap", "musketeer"]
+    state = _al([], hand, 6.0)
+    cands = _cands("tesla|middle|mid", "knight|left|mid", "tesla|left|back", "musketeer|right|back")
+    kept = policy.no_blind_spells(cands, state)                                         # a `learned` play
+    assert _keys(kept) == ["knight|left|mid", "musketeer|right|back"]
+    # the leak (a non-win-condition one) and the punish drop it as well
+    leak = ActDecision(True, "leak", None, "x")
+    assert "tesla" not in {c.key.split("|")[0] for c in policy.filter_candidates(_cands("tesla|left|back", "knight|left|back"), leak, state)}
+    punish = ActDecision(True, "punish", "left", "x")
+    assert _keys(policy.filter_candidates(_cands("tesla|left|bridge", "knight|left|bridge"), punish, state)) == ["knight|left|bridge"]
+    learned = LearnedActPolicy(None, CARDS, rules=policy)
+    assert _keys(learned.filter_candidates(cands, ActDecision(True, "learned", None, "x"), state)) == _keys(kept)
+    # with an enemy push on the field it is a pull and stays
+    giant = _heading(_t_enemy((14, 15), "giant", eta=9.0, tower="own_right"), "advancing right lane")
+    assert _keys(policy.no_blind_spells(cands, _al([giant], hand, 6.0))) == _keys(cands)
+    # a unit on their half that is no flyer and no targeter, and a retreating one, are no push
+    for far in (_t_enemy((9, 26), "knight"), _heading(_t_enemy((9, 12), "knight"), "retreating")):
+        assert "tesla|middle|mid" not in _keys(policy.no_blind_spells(cands, _al([far], hand, 6.0)))
+    # a flyer or building targeter anywhere is one
+    assert "tesla|middle|mid" in _keys(policy.no_blind_spells(cands, _al([_t_enemy((16, 26), "balloon")], hand, 6.0)))
+
+
+# 7 -----------------------------------------------------------------------------------------------------------------
+def _cluster_behind_a_giant(elixir=9.0):
+    giant = _heading(_t_enemy((4, 12), "giant", eta=5.0), "advancing left lane")
+    return _al([giant, *_support_pack()], ["fireball", "electro-dragon", "knight", "musketeer"], elixir)
+
+
+def test_al_a_great_spell_on_the_support_behind_a_giant_is_the_only_allowed_card_and_reaches_the_llm():
+    policy = _sim()
+    state = _cluster_behind_a_giant()
+    d = policy.decide(state, 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left" and d.allowed_cards == frozenset({"fireball"})
+    assert d.reason.startswith("defend giant left: fireball hits ") and " units (~" in d.reason and d.reason.endswith(" elixir)")
+    assert len(d.push_units) == 10 and d.push_units[0]["card"] == "giant" or any(u["card"] == "giant" for u in d.push_units)
+    aim = d.engine_tiles["fireball"]
+    # the generator offered a knight and an electro dragon only: the fireball is the engine's own candidate
+    out = policy.filter_candidates(_cands("knight|left|mid", "electro-dragon|left|mid"), d, state)
+    assert [c.key.split("|")[0] for c in out] == ["fireball"] and out[0].sources == {"tac": 0.0}
+    assert math.dist(out[0].tile, [4.3, 15.5]) <= 1.0 and out[0].tile == aim
+    # a lookup fireball candidate in the cluster's cell passes the defend filter (a giant-led push: any unit of the push)
+    assert _keys(policy.filter_candidates(_cands("fireball|left|bridge", "knight|left|mid"), d, state)) == ["fireball|left|bridge"]
+    # ... today's rule (no push units) only looks at the lead, a giant, which no spell is aimed at
+    assert not policy._aims_at_threat("fireball", aim, state["units"][0])
+    assert policy._aims_at_threat("fireball", aim, state["units"][0], tuple(state["units"]))
+    assert policy.target_tile("fireball|left|bridge", state) is not None
+
+
+def test_al_the_same_cluster_on_their_side_with_no_push_is_a_spell_act():
+    pack = [dict(u, heading="stationary") for u in _support_pack(y=21.0, eta=False)]
+    state = _al(pack, ["fireball", "electro-dragon", "knight", "musketeer"], 9.0)
+    policy = _sim()
+    d = policy.decide(state, 100.0)
+    assert d.act and d.mode == "spell" and d.allowed_cards == frozenset({"fireball"})
+    assert d.reason.startswith("spell: fireball ") and "kills" in d.reason and d.reason.endswith("+ tower")
+    assert d.tile_sources == {"fireball": "spell"} and d.engine_tiles["fireball"][1] >= 17
+    assert d.lane == "left" or d.lane == "middle"
+    # the filter keeps the spell's candidates, and the engine's own when there are none
+    out = policy.filter_candidates(_cands("knight|left|mid", "electro-dragon|left|back"), d, state)
+    assert [c.key.split("|")[0] for c in out] == ["fireball"] and out[0].tile == d.engine_tiles["fireball"]
+    # not enough elixir for the spell plus the balloon's answer (a big push is coming): no spell
+    balloon = _heading(_t_enemy((16, 17), "balloon", eta=11.0, tower="own_right"), "advancing right lane")
+    busy = _al(pack + [balloon], ["fireball", "electro-dragon", "knight", "musketeer"], 6.0)
+    assert policy.decide(busy, 100.0).mode != "spell"
+    # an air answer the opponent is likely to need keeps its elixir, too
+    kg_policy = ReactivePolicy(CARDS, engine=TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS),
+                               kg=FakeDeckKG([("balloon", 0.7)]))
+    st = _al(pack, ["fireball", "electro-dragon", "knight", "musketeer"], 6.0)
+    st["opponent"]["deck_known"] = ["miner", "valkyrie"]
+    assert kg_policy.air_reserve(st)[0] == 4.0 and kg_policy.decide(st, 100.0).mode != "spell"     # 6 - 4 < the reserve of 4
+    st["own"]["elixir"] = 9.0
+    assert kg_policy.decide(st, 100.0).mode == "spell"
+
+
+def test_al_a_cheap_cluster_is_no_spell_act_and_the_old_engine_has_none():
+    pack = [dict(u, heading="stationary") for u in _support_pack(y=21.0, eta=False)]
+    state = _al(pack[:3], ["fireball", "electro-dragon", "knight", "musketeer"], 9.0)      # a witch, a wizard, one bat
+    assert _sim().decide(state, 100.0).mode != "spell"
+    assert _ad(DEFAULT_WEIGHTS).decide(_al(pack, ["fireball", "electro-dragon", "knight", "musketeer"], 9.0), 100.0).mode != "spell"
+
+
+# 8 -----------------------------------------------------------------------------------------------------------------
+def test_al_every_allowed_card_reaches_the_llm_even_when_the_generator_left_it_out():          # t = 261.5
+    policy = _sim()
+    state = _al([_enemy((3.5, 14.5), eta=3.0, card="bats"), _enemy((4, 14.5), card="bats")],
+                ["fireball", "electro-dragon", "knight", "zap"], 7.0)
+    tiles = {"fireball": [3.5, 15.0], "electro-dragon": [5.0, 2.5]}
+    d = ActDecision(True, "defend", "left", "defend bats left: fireball (spell)", allowed_cards=frozenset({"fireball", "electro-dragon"}),
+                    engine_tiles=tiles)
+    out = policy.filter_candidates(_cands("electro-dragon|left|back", "knight|left|mid"), d, state)
+    assert _keys(out) == ["electro-dragon|left|back", "fireball|left|bridge"]           # kept first, the missing one appended
+    assert out[1].tile == [3.5, 15.0] and out[1].sources == {"tac": 0.0} and "tactics: defend" in out[1].note
+    # nothing left at all: both are the engine's
+    out = policy.filter_candidates(_cands("knight|left|mid"), d, state)
+    assert [c.key.split("|")[0] for c in out] == ["electro-dragon", "fireball"]
+    # a card without an engine tile (and the hero ability) is not invented
+    d2 = dataclasses.replace(d, allowed_cards=frozenset({"fireball", "zap", ABILITY_KEY}))
+    assert [c.key.split("|")[0] for c in policy.filter_candidates([], d2, state)] == ["fireball"]
+    # the counter, spell and win-condition leak modes inject too
+    for mode in ("counter", "spell", "leak"):
+        dm = ActDecision(True, mode, "left", "x", allowed_cards=frozenset({"fireball"}), engine_tiles=tiles)
+        assert _keys(policy.filter_candidates(_cands("knight|left|mid"), dm, state)) == ["fireball|left|bridge"]
+
+
+# 9 -----------------------------------------------------------------------------------------------------------------
+def _ability_report(card_prevented, ability_prevented, card_adequate=True, ability_adequate=True, eta=5.0):
+    """A stand-in engine: one giant push, a tesla move and the turret, with the damage each prevents."""
+    giant = _heading(_t_enemy((14, 13), "giant", eta=eta, tower="own_right"), "advancing right lane")
+    push = Push("right", [giant], 5.0, eta, ["tank", "building_targeter"], "fake", heavy=True)
+    tesla = TacticalMove("tesla", "tesla|right|mid", [11.0, 7.0], "defend", "x", 0.9, 1.0, stop="high",
+                         adequate=card_adequate, prevented=card_prevented)
+    ability = TacticalMove(ABILITY_KEY, "ability:musketeer|right|mid", [14.0, 8.0], "ability", "x", 0.8, None,
+                           stop="turret", adequate=ability_adequate, prevented=ability_prevented,
+                           tile_source="ability", push_lane="right")
+
+    class Engine:
+        def analyse(self, state, t=None):
+            return TacticalReport([push], [tesla, ability], tesla, None, [], defence=[tesla], abilities=[ability])
+
+    return Engine(), _state(elixir=8.0, units=[giant], hand=["tesla", "knight", "zap", "fireball"])
+
+
+def test_al_the_ability_joins_an_open_card_answer_only_when_it_saves_one_and_a_half_times_as_much():
+    for card, ability, listed in ((1000.0, 1600.0, True), (1000.0, 1500.0, True), (1000.0, 1400.0, False),
+                                  (1110.0, 1110.0, False)):
+        engine, state = _ability_report(card, ability)
+        d = ReactivePolicy(CARDS, engine=engine).decide(state, 100.0)
+        assert d.act and d.mode == "defend" and "tesla" in d.allowed_cards, (card, ability)
+        assert (ABILITY_KEY in d.allowed_cards) is listed, (card, ability)
+    # no adequate card has its window open (the tesla is not adequate here): the turret alone
+    engine, state = _ability_report(0.0, 1110.0, card_adequate=False)
+    d = ReactivePolicy(CARDS, engine=engine).decide(state, 100.0)
+    assert d.act and d.allowed_cards == frozenset({ABILITY_KEY}) and d.reason.endswith("(turret)")
+    # the turret is no adequate answer (the damage it leaves is too big): never added, not even in an emergency
+    engine, state = _ability_report(0.0, 1110.0, card_adequate=False, ability_adequate=False, eta=1.0)
+    d = ReactivePolicy(CARDS, engine=engine).decide(state, 100.0)
+    assert d.act and "(emergency)" in d.reason and ABILITY_KEY not in d.allowed_cards
+    # and the ability is no answer the biggest push keeps elixir for
+    engine, state = _ability_report(0.0, 1110.0, card_adequate=False)
+    policy = ReactivePolicy(CARDS, engine=engine)
+    report = engine.analyse(state)
+    assert policy._reserve(policy._push_moves(engine, state, report, report.pushes[0], 100.0)[1], report.pushes[0]) is None
+
+
+def test_al_the_ability_is_proposed_for_a_balloon_at_the_tower_when_no_air_card_is_affordable_and_not_for_bats():
+    balloon = _heading(_t_enemy((14, 7), "balloon", eta=3.0, tower="own_right"), "advancing right lane")
+    state = _ability_state([balloon, _ally((14, 4), "musketeer")], hand=("knight", "zap", "fireball", "ram-rider"), elixir=5.0)
+    d = _sim().decide(state, 100.0)
+    assert d.act and d.mode == "defend" and d.allowed_cards == frozenset({ABILITY_KEY})
+    assert d.reason == "defend balloon right: ability:musketeer (turret)" and d.tile_sources[ABILITY_KEY] == "ability"
+    # a bats push with the Musketeer on the field and the button ready: the engine proposes nothing, the policy allows nothing
+    bats = [_heading(_t_enemy((3, 12), "bats", eta=2.0, unit_class="bat"), "advancing left lane") for _ in range(3)]
+    state = _ability_state(bats + [_ally((4, 5), "musketeer")], hand=("knight", "zap", "fireball", "ram-rider"), elixir=5.0)
+    d = _sim().decide(state, 100.0)
+    assert not d.act and ABILITY_KEY not in (d.allowed_cards or ())
+
+
+# the air reserve also covers a counter and the generic leak (P2.3) ----------------------------------------------------------
+def test_al_the_air_reserve_covers_a_counter_and_a_leak_too():
+    policy, _ = _reserve_policy()
+    scene = _counter_scene(elixir=7.0)
+    scene["opponent"]["deck_known"] = ["miner", "valkyrie"]                              # a balloon is likely: keep the musketeer's 4
+    d = policy.decide(scene, 100.0)
+    assert d.mode != "counter" and not d.act                                              # ram-rider (5) would leave 2 < 4
+    full = _counter_scene(elixir=9.0)
+    full["opponent"]["deck_known"] = ["miner", "valkyrie"]
+    d = policy.decide(full, 100.0)
+    assert d.act and d.mode == "counter" and d.allowed_cards == frozenset({"ram-rider"})   # 9 - 5 = 4 covers it
+    # the generic leak drops the plays that spend the reserve; the win-condition leak is allowed when 4 stay
+    hand = ("musketeer", "knight", "p-e-k-k-a", "zap")
+    st = _air_state(elixir=10.0, opp_elixir=6.0, hand=hand)
+    leak = policy.decide(st, 100.0)
+    assert leak.act and leak.mode == "leak" and leak.allowed_cards is None
+    out = policy.filter_candidates(_cands("p-e-k-k-a|left|back", "knight|left|back"), leak, st)
+    assert _keys(out) == ["knight|left|back"]                                             # p.e.k.k.a (7) would leave 3 < 4
+    wc = _air_state(elixir=10.0, opp_elixir=6.0, hand=("musketeer", "ram-rider", "knight", "zap"))
+    d = policy.decide(wc, 100.0)
+    assert d.mode == "leak" and d.allowed_cards == frozenset({"ram-rider"})              # 10 - 5 = 5 >= 4
+    policy.air_reserve = lambda state: (6.0, "musketeer", "balloon", 0.6)                 # a dearer reserve: 5 would leave < 6
+    assert policy.decide(wc, 100.0).allowed_cards is None

@@ -823,7 +823,8 @@ def test_default_weights_cover_every_scoring_number_and_the_committed_file_is_va
     # the file may lack a weight added after the last tuning run (it falls back to the default): MAC-AG `split`, and the
     # MAC-AH threat-model weights and the MAC-AK K4b graph / hero-ability weights (the tuner does not know them yet)
     added_after_tuning = {"split", "threat_model", "prevent", "role_scale", "tower_ok_damage", "adequate_frac",
-                          "kg_prior", "ability", "ability_min_prevent"}
+                          "kg_prior", "ability", "ability_min_prevent", "spell_value", "spell_value_ratio",
+                          "spell_value_cap"}
     assert set(data["weights"]) <= set(DEFAULT_WEIGHTS) and set(DEFAULT_WEIGHTS) - set(data["weights"]) <= added_after_tuning
     assert all(isinstance(v, float) for v in data["weights"].values())
 
@@ -1281,9 +1282,16 @@ def test_ah_a_balloon_at_the_river_is_a_push_with_its_magnitude_and_a_simulated_
     assert rep.best.efficiency == pytest.approx(3162.0 / 4, abs=0.1)
     # not heading our way / on their half: no push
     assert REAL.analyse(_state(units=[_heading(_enemy((16, 15), "balloon"), "retreating")])).pushes == []
-    assert REAL.analyse(_state(units=[_enemy((16, 24), "balloon")])).pushes == []        # row > 20
+    # (MAC-AL: a balloon anywhere on the field is a push when it walks toward us - nothing says otherwise here - and not
+    # when it retreats / stands, unless they played it in the last 3 s)
+    far = REAL.analyse(_state(units=[_enemy((16, 24), "balloon")])).pushes
+    assert [(p.early, p.eta_source) for p in far] == [(True, "sim")] and far[0].sim_eta_s == 18.25
+    assert REAL.analyse(_state(units=[_heading(_enemy((16, 24), "balloon"), "retreating")])).pushes == []
+    assert REAL.analyse(_state(units=[_heading(_enemy((16, 24), "balloon"), "stationary")])).pushes == []
     assert [p.early for p in REAL.analyse(_state(units=[_enemy((16, 20), "balloon")])).pushes] == [True]   # a flyer at row 20
-    assert REAL.analyse(_state(units=[_enemy((16, 21), "bats", unit_class="bat")])).pushes == []
+    # (MAC-AL: bats far away are a push as well, but one the tower handles: no moves)
+    bats = REAL.analyse(_state(units=[_enemy((16, 21), "bats", unit_class="bat")]))
+    assert [(p.early, p.tower_ok) for p in bats.pushes] == [(True, True)] and bats.defence == []
 
 
 def test_ah_river_units_walking_toward_us_count_and_a_unit_without_information_does_too():
@@ -1315,7 +1323,7 @@ def test_ah_the_user_scenario_the_balloon_comes_first_and_the_left_lane_gets_not
     assert left_moves and max(m.score for m in left_moves) < rep.best.score / 4          # nothing on the left competes
     assert [ln.split(":")[1].split()[0] for ln in rep.lines[:2]] == ["push", "push"]
     assert "(being answered by electro-dragon, musketeer)" in rep.lines[1]
-    assert rep.lines[0].startswith("tactics: push right: balloon (5 elixir), ~3,200 tower damage if unanswered, tower in 10.7s")
+    assert rep.lines[0].startswith("tactics: push right: balloon (5 elixir), ~3,200 tower damage if unanswered, tower in 9.2s")   # (the simulation's, MAC-AL P1.1; the tracker said 10.7)
 
 
 def test_ah_without_allies_the_left_push_that_destroys_the_tower_is_first():
@@ -1764,3 +1772,125 @@ def test_k4b_the_ability_analysis_stays_fast():
         REAL.analyse(state)
         runs.append(time.perf_counter() - t0)
     assert min(runs) < 0.02, f"{min(runs) * 1000:.2f} ms"
+
+
+# MAC-AL P: honest ETAs, early pushes anywhere, spells aimed at clusters, the ability at 1,000 HP ---------------------------
+def test_al_the_push_eta_is_the_simulations_when_there_is_one_and_never_later_than_the_trackers():
+    knight = _heading(_enemy((3, 11), "knight", eta=6.0), "advancing left lane")         # the tracker says 6 s
+    push = REAL.analyse(_state(units=[knight])).pushes[0]
+    assert push.sim_eta_s is not None and push.sim_eta_s < 5.0
+    assert push.eta_s == push.sim_eta_s and push.eta_source == "sim"
+    assert f"tower in {push.eta_s:.1f}s" in push.summary                                  # the line quotes the value used
+    soon = _heading(_enemy((3, 11), "knight", eta=1.0), "advancing left lane")           # the tracker is earlier: kept
+    push = REAL.analyse(_state(units=[soon])).pushes[0]
+    assert push.eta_s == 1.0 and push.eta_source == "tracker"
+    old = ENGINE.analyse(_state(units=[knight])).pushes[0]                                # threat model off: today's rule
+    assert old.eta_s == 6.0 and old.eta_source == "tracker" and old.sim_eta_s is None
+
+
+def test_al_a_building_targeter_or_flyer_anywhere_is_a_push_when_it_walks_toward_us_or_was_just_played():
+    far = _enemy((16, 26), "balloon")                                                    # nothing says it walks away
+    push = REAL.analyse(_state(units=[far])).pushes[0]
+    assert push.early and push.eta_source == "sim" and push.sim_eta_s == pytest.approx(20.25)
+    still = _heading(_enemy((16, 26), "balloon"), "stationary")
+    assert REAL.analyse(_state(units=[still])).pushes == []
+    played = [{"t": 98.0, "card": "balloon", "tile": [16, 26]}]
+    assert [p.early for p in REAL.analyse(_state(units=[still], opp_plays=played), 100.0).pushes] == [True]    # 2 s ago
+    stale = [{"t": 90.0, "card": "balloon", "tile": [16, 26]}]
+    assert REAL.analyse(_state(units=[still], opp_plays=stale), 100.0).pushes == []                            # 10 s ago
+    giant = _heading(_enemy((16, 26), "giant"), "advancing right lane")                   # (a giant targets buildings: a push)
+    assert [p.early for p in REAL.analyse(_state(units=[giant])).pushes] == [True]
+    knight = _heading(_enemy((16, 26), "knight"), "advancing right lane")                 # a troop far away is not one
+    assert REAL.analyse(_state(units=[knight])).pushes == []
+    assert ENGINE.analyse(_state(units=[far])).pushes == []                               # threat model off: as before
+
+
+def test_al_the_damage_of_a_far_balloon_is_the_damage_of_a_near_one():
+    pushes = {row: REAL.analyse(_state(units=[_enemy((16, row), "balloon")])).pushes[0] for row in (15, 20, 24, 28)}
+    assert {p.damage_if_unanswered for p in pushes.values()} == {3162.0}
+    assert [pushes[r].sim_eta_s for r in (15, 20, 24, 28)] == [9.25, 14.25, 18.25, 22.25]
+
+
+def _cluster_scene(units, hand=("fireball", "electro-dragon", "knight", "zap"), elixir=9.0, towers=None):
+    st = _state(elixir=elixir, units=units, hand=list(hand), deck=DECK47)
+    st["own"]["towers"] = towers or {"king": None, "left": 4082, "right": 4424}
+    return st
+
+
+def _support_pack(y=15.0, eta=True):
+    """A night witch, an electro wizard, three bats and three minions in a clump around [4.3, y + 1] (`eta`: the tracker
+    gives them ETAs of 6-8.5 s, else none)."""
+    heading = "advancing left lane"
+
+    def at(s):
+        return s if eta else None
+
+    pack = [_heading(_enemy((4, y + 0.5), "night-witch", eta=at(8.0)), heading),
+            _heading(_enemy((5, y + 1), "electro-wizard", eta=at(8.5)), heading)]
+    pack += [_heading(_enemy((4 + dx, y + ddy), "bats", eta=at(6.0), unit_class="bat"), heading)
+             for dx, ddy in ((0, 0), (0.5, 0.4), (-0.5, 0.4))]
+    pack += [_heading(_enemy((4.5 + dx, y + 0.8 + ddy), "minions", eta=at(6.5), unit_class="minion"), heading)
+             for dx, ddy in ((0, 0), (0.4, 0.3), (-0.4, 0.3))]
+    return pack
+
+
+def test_al_a_fireball_cluster_behind_a_giant_is_the_pushs_defend_move_with_its_members():
+    giant = _heading(_enemy((4, 12), "giant", eta=5.0), "advancing left lane")
+    rep = REAL.analyse(_cluster_scene([giant, *_support_pack()]))
+    fireball = next(m for m in rep.defence if m.card == "fireball")
+    assert fireball.intent == "defend" and fireball.key == "fireball|left|bridge"
+    names = {u["card"] for u in fireball.members}
+    assert {"night-witch", "electro-wizard", "bats", "minions"} <= names and "giant" not in names
+    assert fireball.kills >= 4 and fireball.value >= 2 * 4                                 # a great spell: 2x its cost
+    assert abs(fireball.tile[0] - 4.3) <= 1.0 and abs(fireball.tile[1] - 15.5) <= 1.0     # within a tile of the cluster
+    assert len(fireball.reason) <= 60 and fireball.reason.startswith("fireball ") and f"kills {fireball.kills}," in fireball.reason
+    assert f"~{round(fireball.value, 1):g} elixir" in fireball.reason
+    assert rep.spells == []                                                                # it belongs to the push
+
+
+def test_al_the_cluster_is_found_on_their_half_too_and_is_a_spell_value_move():
+    pack = [dict(u, heading="stationary") for u in _support_pack(y=21.0, eta=False)]    # (flyers beyond row 20 that stand: no push)
+    rep = REAL.analyse(_cluster_scene(pack, hand=("fireball", "electro-dragon", "knight", "musketeer")))
+    assert rep.pushes == [] or all(p.tower_ok for p in rep.pushes)
+    assert [m.card for m in rep.spells] == ["fireball"]
+    move = rep.spells[0]
+    assert move.intent == "spell_value" and move.tile_source == "spell" and move in rep.moves
+    assert move.value >= 8.0 and move.kills >= 4 and len(move.members) == len(pack)
+    assert move.key == f"fireball|{lane_of(move.tile)}|{zone_of(move.tile)}" and zone_of(move.tile) == "enemy_half"
+    assert len(move.reason) <= 60 and move.reason.endswith("+ tower")                    # the circle reaches their tower
+    assert 0.55 <= move.score <= 0.85
+    assert rep.lines[0].startswith("tactics: best fireball @[") and "spell_value" in rep.lines[0]
+
+
+def test_al_zap_on_a_lone_balloon_and_fireball_on_a_lone_giant_are_not_proposed_anywhere():
+    balloon = _heading(_enemy((3, 14), "balloon", eta=6.0), "advancing left lane")
+    rep = REAL.analyse(_cluster_scene([balloon], hand=("zap", "musketeer", "tesla", "knight")))
+    assert "zap" not in [m.card for m in rep.moves] and rep.spells == []
+    giant = _heading(_enemy((3, 14), "giant", eta=5.0), "advancing left lane")
+    rep = REAL.analyse(_cluster_scene([giant], hand=("fireball", "knight", "musketeer", "tesla")))
+    assert "fireball" not in [m.card for m in rep.moves] and rep.spells == []
+    # a lone balloon next to their tower: the +1 does not make the zap worth it either
+    rep = REAL.analyse(_cluster_scene([_heading(_enemy((4, 22), "balloon"), "stationary")], hand=("zap", "knight")))
+    assert rep.spells == []
+    # a push the tower handles gets no spell, and no spell_value move either
+    bats = [_enemy((3, 14), "bats", eta=2.0, unit_class="bat"), _enemy((4, 14), "bats", eta=2.0, unit_class="bat")]
+    rep = REAL.analyse(_cluster_scene(bats, hand=("zap", "knight", "musketeer", "fireball")))
+    assert rep.pushes[0].tower_ok and rep.defence == [] and rep.spells == [] and rep.best is None
+
+
+def test_al_with_the_threat_model_off_there_are_no_clusters_and_no_spell_value_moves():
+    pack = [dict(u, heading="stationary") for u in _support_pack(y=21.0, eta=False)]
+    rep = ENGINE.analyse(_cluster_scene(pack))
+    assert rep.spells == [] and all(m.intent != "spell_value" for m in rep.moves)
+
+
+def test_al_the_ability_needs_a_saving_of_1000_tower_hp_and_nothing_less_will_do():
+    assert DEFAULT_WEIGHTS["ability_min_prevent"] == 1000.0
+    state = _ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")])
+    assert REAL.analyse(state).abilities and REAL.analyse(state).abilities[0].prevented >= 1000.0
+    strict = TacticalEngine(CARDS, weights={**DEFAULT_WEIGHTS, "ability_min_prevent": 1200.0})
+    assert not strict.analyse(state).abilities                                             # (1,110 prevented)
+    # no "makes the push adequate" path any more: a small push proposes it only when it saves 1,000
+    knight = _enemy((15, 12), "knight", eta=5.0, tower="own_right")
+    for m in REAL.analyse(_ability_state([knight, _ally((14, 4), "musketeer")])).abilities:
+        assert m.prevented >= 1000.0

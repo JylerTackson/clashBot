@@ -881,8 +881,20 @@ def _threat_state(elixir=5.0, units=None):
 
 
 def _reactive_loop(state, generator=None, tmp_path=None, ranker=None, executor=None, **kw):
+    kw.setdefault("policy", "reactive")
     return _loop(tmp_path=tmp_path, builder=FakeBuilder(state, warmup=0), generator=generator, ranker=ranker,
-                 executor=executor, policy="reactive", **kw)
+                 executor=executor, **kw)
+
+
+class _DownEngine:
+    def analyse(self, state, t=None):
+        raise RuntimeError("engine down")
+
+
+def _down_policy():
+    """The reactive policy with its engine down: today's defend rule (any card), no allowed cards, nothing injected."""
+    from clashbot.policy import ReactivePolicy
+    return ReactivePolicy(load_cards(), engine=_DownEngine())
 
 
 def test_policy_argument_selects_reactive_trigger_or_object():
@@ -941,7 +953,9 @@ def test_reactive_defend_filters_to_the_threat_lane_and_executes():
     lp = _reactive_loop(_threat_state(), generator=gen, ranker=FirstKeyRanker(), executor=ex)
     d = lp.step("f", 1.0, 0, 2.0)
     assert d.mode == "defend" and "knight" in d.reason and "left" in d.reason
-    assert [c["key"] for c in d.candidates] == ["knight|left|mid"]               # wrong lane + blind spell dropped
+    # wrong lane + blind spell dropped; the other cards the policy allowed come as the engine's own candidates (MAC-AL P3.7)
+    assert [c["key"] for c in d.candidates][0] == "knight|left|mid"
+    assert all(c["sources"] == {"tac": 0.0} for c in d.candidates[1:]) and not any("fireball" in c["key"] for c in d.candidates)
     # the engine places the knight (it kites the threat to the centre), not the pro-median prior of the key
     assert d.key == "knight|left|mid" and d.tile == [7.5, 6.0] and d.tile_source == "engine"
     assert ex.calls[0][0] == "knight|left|mid" and ex.calls[0][1] == [7.5, 6.0]
@@ -950,7 +964,10 @@ def test_reactive_defend_filters_to_the_threat_lane_and_executes():
 def test_reactive_defend_with_every_candidate_filtered_records_hold_policy(tmp_path):
     ex, rk = FakeExecutor(), FakeKeyRanker()
     gen = FakeGenerator(keys=["fireball|right|mid", "zap|right|back"])           # blind spells only
-    lp = _reactive_loop(_threat_state(), generator=gen, tmp_path=tmp_path, ranker=rk, executor=ex)
+    # (a policy whose engine is down answers with the old defend rule, which allows any card: nothing to inject; with the
+    # engine up the allowed cards would reach the LLM as the engine's own candidates, MAC-AL P3.7)
+    lp = _reactive_loop(_threat_state(), generator=gen, tmp_path=tmp_path, ranker=rk, executor=ex,
+                        policy=_down_policy())
     d = lp.step("f", 1.0, 0, 2.0)
     assert d is not None and d.key == HOLD_KEY and d.tile is None and d.probs == []
     assert d.executor == {"t": 1.0, "key": "hold", "tile": None, "status": "hold_policy", "clicks": [], "sent": False}
@@ -965,7 +982,8 @@ def test_reactive_defend_with_every_candidate_filtered_records_hold_policy(tmp_p
 
 
 def test_reactive_hold_policy_still_respects_the_min_gap():
-    lp = _reactive_loop(_threat_state(), generator=FakeGenerator(keys=["fireball|right|mid"]), min_gap_s=1.0)
+    lp = _reactive_loop(_threat_state(), generator=FakeGenerator(keys=["fireball|right|mid"]), min_gap_s=1.0,
+                        policy=_down_policy())
     assert lp.step("f", 1.0, 0, 2.0).key == HOLD_KEY
     assert lp.step("f", 1.5, 1, 2.0) is None and lp.skipped_min_gap == 1
 
@@ -1206,7 +1224,7 @@ def _ram_loop(verdict, elixir=5.0, keys=RAM_KEYS, hand=RAM_HAND, **kw):
                  policy=StaticPolicy(verdict), **kw)
 
 
-@pytest.mark.parametrize("mode", ["counter", "leak", "punish", "learned", "defend"])
+@pytest.mark.parametrize("mode", ["counter", "spell", "leak", "punish", "learned", "defend"])      # (spell: MAC-AL P3.6)
 def test_ag_a_fallback_win_condition_is_played_in_an_act_mode_below_9_5_elixir(mode):
     lp = _ram_loop(ActDecision(True, mode, None, "x"))
     d = lp.step("f", 1.0, 0, 2.0)

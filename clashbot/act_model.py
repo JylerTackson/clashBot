@@ -352,8 +352,8 @@ class FastActPolicy:
     """Learned play/wait decision on structured features (MAC-AB A1); same contract and safety rules as
     `LearnedActPolicy`.
 
-    No affordable card -> none; a threat to answer (defend), an offence window (counter, MAC-AG) or a full bar (leak) ->
-    act, whatever the model says (the rules' decision is returned unchanged, with its allowed cards and tiles); a
+    No affordable card -> none; a threat to answer (defend), an offence window (counter, MAC-AG), a great spell (spell,
+    MAC-AL) or a full bar (leak) -> act, whatever the model says (the rules' decision is returned unchanged, with its allowed cards and tiles); a
     save (the rules wait for a better answer, MAC-AC) -> hold, whatever the model says. In every other moment
     p(act) >= threshold plays (keeping the rule's mode and lane when the rules also wanted a punish, else mode
     "learned"), else hold. `model.p_act(state, t)` is an `ActGBDT`; the model is cheap enough to be asked on every
@@ -372,7 +372,7 @@ class FastActPolicy:
         r = self.rules.decide(state, t)
         if r.mode in ("none", "save"):         # no card, or the rules wait for a better answer (MAC-AC): never overridden
             return r
-        if r.act and r.mode in ("defend", "counter", "leak"):
+        if r.act and r.mode in ("defend", "counter", "spell", "leak"):
             return r
         p = float(self.model.p_act(state, t))
         if p >= self.threshold:

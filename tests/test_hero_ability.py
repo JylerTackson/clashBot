@@ -557,82 +557,98 @@ def _ability_loop(state=None, executor=None, generator=None, ranker=None, builde
                  ranker=ranker or PickKey(), executor=executor or AbilityExecutor(), **kw)
 
 
-def test_live_loop_offers_the_ability_only_when_the_button_is_usable():
-    for state in (_ability_state(visible=False), _ability_state(affordable=False), _ability_state(units=[]),
-                  _ability_state(ability=False), _ability_state(elixir=2.5)):
+def _allowing():
+    """A fresh engine stand-in that proposes the ability and a policy that lists it among the allowed cards (D-049: the
+    only way the live loop offers it); both record the states they are asked about."""
+    return {"policy": VerdictPolicy(ALLOW_ABILITY), "tactics": AbilityTactics()}
+
+
+def test_live_loop_offers_the_ability_only_when_the_engine_proposed_it_and_the_policy_allowed_it():
+    # D-049 / MAC-AL P4: a usable button alone is no longer an option (the old part-1 offering is gone)
+    for state in (_ability_state(), _ability_state(units=[])):
         gen = AbilityGenerator()
-        d = _ability_loop(state, generator=gen, ranker=FakeKeyRanker()).step("f", 1.0, 0, 1.0)
-        assert gen.calls == [{}] or not gen.calls, state["own"]
-        assert d is None or not any(is_ability_key(c["key"]) for c in d.candidates)
+        d = _ability_loop(state, generator=gen, ranker=FakeKeyRanker()).step("f", 1.0, 0, 1.0)      # no policy, no engine
+        assert gen.calls == [{}] and not any(is_ability_key(c["key"]) for c in d.candidates)
+    other = ActDecision(True, "defend", "middle", "x", allowed_cards=frozenset({"zap"}))
+    for kw in ({"policy": VerdictPolicy(ALLOW_ABILITY), "tactics": AbilityTactics(propose=False)},      # not proposed
+               {"policy": VerdictPolicy(other), "tactics": AbilityTactics()},                           # not allowed
+               {"policy": VerdictPolicy(ActDecision(True, "defend", "middle", "x")), "tactics": AbilityTactics()}):
+        gen = AbilityGenerator()
+        d = _ability_loop(generator=gen, ranker=FakeKeyRanker(), **kw).step("f", 1.0, 0, 1.0)
+        assert "ability_moves" not in gen.calls[0] and not any(is_ability_key(c["key"]) for c in d.candidates)
+    # (no button / no Musketeer / no elixir: the engine proposes nothing - see tests/test_tactics.py)
     gen = AbilityGenerator()
-    lp = _ability_loop(generator=gen, ranker=FakeKeyRanker())
+    lp = _ability_loop(generator=gen, ranker=FakeKeyRanker(), **_allowing())
     lp.step("f", 1.0, 0, 1.0)
     assert [m.key for m in gen.calls[0]["ability_moves"]] == ["ability:musketeer|middle|bridge"]
 
 
 def test_live_loop_routes_an_ability_key_to_tap_ability():
     ex, bld, rk = AbilityExecutor(), RecordingBuilder(_ability_state()), PickKey()
-    lp = _ability_loop(executor=ex, builder=bld, ranker=rk)
+    lp = _ability_loop(executor=ex, builder=bld, ranker=rk, **_allowing())
     d = lp.step("f", 1.0, 0, 1.0)
     assert d.key == "ability:musketeer|middle|bridge" and ex.calls == [] and ex.taps == [("right", 1.0)]
     assert d.tile_source == "ability" and d.tile == [8.0, 12.0] and d.executor["status"] == "planned_ability"
-    assert d.mode == "trigger" and d.candidates[-1]["sources"] == {"ability": 1.0}
-    assert d.candidates[-1]["note"] == "hero ability: turret in front of the Musketeer"
+    assert d.mode == "defend" and d.candidates[-1]["sources"] == {"ability": 1.0}
+    assert d.candidates[-1]["note"] == ENGINE_OPTION_NOTE
     assert rk.calls[0][0] == ["zap|left|mid", "giant|left|back", "ability:musketeer|middle|bridge"]
-    assert rk.calls[0][1]["ability:musketeer|middle|bridge"] == "hero ability: turret in front of the Musketeer"
+    assert rk.calls[0][1]["ability:musketeer|middle|bridge"] == ENGINE_OPTION_NOTE
 
 
 def test_live_loop_ability_skips_the_hand_check_and_accounts_for_3_elixir():
     bld = RecordingBuilder(_ability_state())
-    lp = _ability_loop(builder=bld)
+    lp = _ability_loop(builder=bld, **_allowing())
     assert lp.require_hand
     d = lp.step("f", 1.0, 0, 1.0)
     assert d.key.startswith("ability:") and d.executor["status"] == "planned_ability"
     assert bld.plays == [("ability:musketeer", None, 1.0, None, 3)]                # the 3 elixir enter C2's accounting
-    # a hand that holds none of the card options: the ability key alone is not enough to act (see below), but it never
-    # needs a card in the hand
+    # a hand that holds none of the card options: the ability never needs a card in the hand
     st = _ability_state()
     st["own"]["hand"] = ["zap", None, None, None]
-    d = _ability_loop(st, builder=RecordingBuilder(st)).step("f", 1.0, 0, 1.0)
+    d = _ability_loop(st, builder=RecordingBuilder(st), **_allowing()).step("f", 1.0, 0, 1.0)
     assert d.key.startswith("ability:")
 
 
 def test_live_loop_does_not_account_a_tap_that_was_not_sent():
     bld = RecordingBuilder(_ability_state())
-    d = _ability_loop(builder=bld, executor=AbilityExecutor(sent=False)).step("f", 1.0, 0, 1.0)
+    d = _ability_loop(builder=bld, executor=AbilityExecutor(sent=False), **_allowing()).step("f", 1.0, 0, 1.0)
     assert d.key.startswith("ability:") and bld.plays == []                       # dry run: nothing was tapped
 
 
 def test_live_loop_never_plays_the_ability_as_the_only_option():
     ex = AbilityExecutor()
     gen = AbilityGenerator(keys=("fireball|left|mid",))                           # not in the hand: nothing else to play
-    d = _ability_loop(executor=ex, generator=gen).step("f", 1.0, 0, 1.0)
+    d = _ability_loop(executor=ex, generator=gen).step("f", 1.0, 0, 1.0)         # (no proposal, no policy: not offered)
     assert d.key == HOLD_KEY and d.executor["status"] == "hold_hand_unknown" and ex.taps == [] and ex.calls == []
 
 
-def test_live_loop_ability_retry_guard_and_a_card_choice_is_unchanged():
+def test_live_loop_ability_gap_is_30_seconds_and_a_card_choice_is_unchanged():
+    from clashbot.actions import ABILITY_MIN_GAP_S
+    assert ABILITY_MIN_GAP_S == 30.0
     ex = AbilityExecutor()
-    lp = _ability_loop(executor=ex, ranker=PickKey(prefix="zap"))
+    lp = _ability_loop(executor=ex, ranker=PickKey(prefix="zap"), **_allowing())
     d = lp.step("f", 1.0, 0, 1.0)
     assert d.key == "zap|left|mid" and ex.taps == [] and ex.calls[0][0] == "zap|left|mid"      # the model chose a card
-    lp2 = _ability_loop(executor=ex)
+    lp2 = _ability_loop(executor=ex, **_allowing())
     assert lp2.step("f", 1.0, 0, 1.0).key.startswith("ability:")
     gen = lp2.generator
-    lp2.step("f", 5.0, 1, 1.0)
-    assert "ability_moves" not in gen.calls[-1]                                   # 4 s after a tap: not offered again
-    lp2.step("f", 12.0, 2, 1.0)
+    for t, idx in ((5.0, 1), (12.0, 2), (29.5, 3)):                   # 4 s, 11 s and 28.5 s after the tap: never offered
+        lp2.step("f", t, idx, 1.0)
+        assert "ability_moves" not in gen.calls[-1], t
+    lp2.step("f", 31.5, 4, 1.0)
     assert "ability_moves" in gen.calls[-1]
 
 
 def test_live_loop_with_an_executor_without_tap_ability_logs_it_instead_of_crashing():
-    d = _ability_loop(executor=AbilityExecutor(with_ability=False)).step("f", 1.0, 0, 1.0)
+    d = _ability_loop(executor=AbilityExecutor(with_ability=False), **_allowing()).step("f", 1.0, 0, 1.0)
     assert d.key.startswith("ability:") and d.executor["status"] == "no_ability_tap" and d.executor["sent"] is False
 
 
 def test_live_loop_with_the_real_generator_and_dry_run_executor():
     """End to end on the real candidate generator (fake index / KG) and the DryRunExecutor: the ranker may pick it."""
     ex = DryRunExecutor()
-    lp = _loop(builder=RecordingBuilder(_ability_state()), generator=_generator(), ranker=PickKey(), executor=ex)
+    lp = _loop(builder=RecordingBuilder(_ability_state()), generator=_generator(), ranker=PickKey(), executor=ex,
+               **_allowing())
     d = lp.step("f", 1.0, 0, 1.0)
     assert d.key == "ability:musketeer|middle|bridge" and ex.log[-1]["status"] == "planned_ability"
     assert d.candidates[-1]["key"] == d.key and d.candidates[-1]["sources"] == {"ability": 1.0}
@@ -659,6 +675,8 @@ from clashbot.policy import ActDecision  # noqa: E402
 from clashbot.tactics import TacticalMove, TacticalReport  # noqa: E402
 
 ENGINE_NOTE = "turret pulls giant right, saves ~1,100 tower HP, 3 elixir"
+# the option the ranker reads (D-049): the engine's reason without its "3 elixir" tail, then the cost and the warning
+ENGINE_OPTION_NOTE = "hero ability: turret pulls giant right, saves ~1,100 tower HP; 3 elixir, use rarely"
 
 
 def _ability_move(key="ability:musketeer|middle|bridge", tile=(8.0, 12.0), reason=ENGINE_NOTE):
@@ -716,7 +734,7 @@ def test_part2_an_engine_proposed_ability_the_policy_allowed_is_offered_even_whe
     assert d.executor["status"] == "planned_ability" and d.tile_source == "ability" and d.mode == "defend"
     cand = d.candidates[-1]
     assert cand["key"] == d.key and cand["sources"] == {"ability": 1.0}
-    assert cand["note"] == f"hero ability: {ENGINE_NOTE}" and cand["score"] == 0.8     # the engine's reason and score
+    assert cand["note"] == ENGINE_OPTION_NOTE and cand["score"] == 0.8     # the engine's reason and score
     assert lp.summary()["hero_ability"] == {"button_frames": 1, "offered": 1, "taps": 1}
     assert lp.summary()["decisions_by_source"] == {"ability": 1}
 
@@ -739,23 +757,27 @@ def test_part2_with_card_options_the_ability_is_one_more_and_the_model_decides()
     lp, ex, *_ = _part2_loop(keys=("zap|left|mid", "giant|left|back"), executor=ex, ranker=PickKey(prefix="zap"))
     d = lp.step("f", 1.0, 0, 1.0)
     assert d.key == "zap|left|mid" and ex.taps == [] and [c["key"] for c in d.candidates][-1].startswith("ability:")
-    assert d.candidates[-1]["note"] == f"hero ability: {ENGINE_NOTE}"                 # the model reads the simulation's reason
+    assert d.candidates[-1]["note"] == ENGINE_OPTION_NOTE                             # the model reads the simulation's reason
     lp, ex, *_ = _part2_loop(keys=("zap|left|mid", "giant|left|back"))
     assert lp.step("f", 1.0, 0, 1.0).key.startswith("ability:")
 
 
-def test_part2_the_ability_falls_back_to_the_plain_option_without_a_proposal():
+def test_part2_without_a_proposal_the_ability_is_not_an_option_at_all():
     lp, ex, *_ = _part2_loop(propose=False, keys=("zap|left|mid", "giant|left|back"))
-    d = lp.step("f", 1.0, 0, 1.0)
-    assert d.key.startswith("ability:") and d.candidates[-1]["note"] == ABILITY_NOTE       # part 1's candidate
+    d = lp.step("f", 1.0, 0, 1.0)                                  # (D-049: the plain part-1 option is gone)
+    assert not d.key.startswith("ability:") and not any(c["key"].startswith("ability:") for c in d.candidates)
+    assert ex.taps == [] and lp.summary()["hero_ability"] == {"button_frames": 1, "offered": 0, "taps": 0}
 
 
-def test_part2_after_a_tap_neither_the_engine_nor_the_policy_is_offered_the_button_for_ten_seconds():
+def test_part2_after_a_tap_neither_the_engine_nor_the_policy_is_offered_the_button_for_thirty_seconds():
     lp, ex, tac, pol = _part2_loop(keys=("zap|left|mid", "giant|left|back"))
     lp.step("f", 1.0, 0, 1.0)
     assert ex.taps == [("right", 1.0)]
     lp.step("f", 4.0, 1, 1.0)
     assert pol.states[1]["own"]["hero_ability"]["affordable"] is False and tac.states[1]["own"]["hero_ability"]["affordable"] is False
     assert pol.states[0]["own"]["hero_ability"]["affordable"] is True               # (the first look was before the tap)
-    d = lp.step("f", 12.0, 2, 1.0)
-    assert pol.states[2]["own"]["hero_ability"]["affordable"] is True and d.key.startswith("ability:")
+    d = lp.step("f", 12.0, 2, 1.0)                                                  # past the turret's 10 s, inside the gap
+    assert pol.states[2]["own"]["hero_ability"]["affordable"] is False and not d.key.startswith("ability:")
+    d = lp.step("f", 31.5, 3, 1.0)
+    assert pol.states[3]["own"]["hero_ability"]["affordable"] is True and d.key.startswith("ability:")
+    assert ex.taps == [("right", 1.0), ("right", 31.5)]
