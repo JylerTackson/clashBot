@@ -679,6 +679,7 @@ HEADLINE = [   # (label, ratio name, kind)
     ("same key given same card", "same_key_given_card", "rate"),
     ("mean tile distance, same card", "tile_dist_given_card", "mean"), ("within 2 tiles, same card", "within_2_tiles_given_card", "rate"),
     ("bot acts earlier than the pro", "bot_earlier", "rate"),
+    ("same card, on the pairs where a KG threat exists", "bot_on_kg_subset", "rate"),
     ("the pro's card is in the hand the bot perceived", "pro_in_bot_hand", "rate"),
     ("the pro's card is in the hand the dataset read", "pro_in_dataset_hand", "rate"),
     ("bot taps per minute", "bot_acts_per_min", "mean"), ("pro plays per minute", "pro_plays_per_min", "mean"),
@@ -819,7 +820,7 @@ def render_md(report: dict) -> str:
     meta = report["meta"]
     L: list[str] = []
     L.append("# The bot against the pros on their own videos (open loop)\n")
-    L.append(f"Generated {meta['generated_at']} by `tools/eval/eval_vs_pro.py --score`. Code: HEAD `{meta['head'][:10]}`, decision code frozen at "
+    L.append(f"Generated {meta['generated_at']} by `tools/eval/eval_vs_pro.py --score`. Code: HEAD at the runs `{'`, `'.join(h[:10] for h in meta['head'].split(','))}` (only evaluation, dashboard and test files differ between them), decision code frozen at "
              f"`{FROZEN_COMMIT}` (changed decision files: {', '.join(meta['decision_code_changed']) or 'none'}). "
              f"{agg['n_games']} games, {meta['pro_minutes']:.0f} min of pro video, {int(agg['totals'].get('n_pro', 0))} pro plays, "
              f"{int(agg['totals'].get('n_bot', 0))} bot taps. Confidence intervals: 95%, bootstrap over games ({BOOTSTRAP_N} resamples).\n")
@@ -838,7 +839,8 @@ def render_md(report: dict) -> str:
     L.append(f"| taps per minute | {num(bt['value'], 1)} | {ci_text(bt, False)} | {int(bt['n'])} min | the pro's plays per minute | {num(pt['value'], 1)} ({ci_text(pt, False)}) |")
     rh, kg = b["pair"]["rand_hand"], b["pair"]["kg_first"]
     row("same card, on matched pairs", "same_card", "random card of the bot's perceived hand", f"{pct(rh['value'])} ({ci_text(rh)})")
-    L.append(f"| same card, on the pairs where a KG threat exists | {pct(b['bot_on_kg_subset_same_card'])} | | {int(kg['n'])} | "
+    ks = m["bot_on_kg_subset"]
+    L.append(f"| same card, on the pairs where a KG threat exists | {pct(ks['value'])} | {ci_text(ks)} | {int(kg['n'])} | "
              f"KG v1 `counter_scores` first among the bot's perceived hand | {pct(kg['value'])} ({ci_text(kg)}) |")
     pb, pd_ = m["pro_in_bot_hand"], m["pro_in_dataset_hand"]
     L.append(f"| ceiling: the pro's card is in the hand the bot perceived | {pct(pb['value'])} | {ci_text(pb)} | {int(pb['n'])} | "
@@ -937,7 +939,12 @@ def render_md(report: dict) -> str:
     L.append("\n## How to read this (caveats)\n")
     L.append(
         "Open loop: the bot's taps do not change the video, so each tap is what the bot would do in the pro's situation, not a game it "
-        "played; after the pro's own play the board already shows the pro's units, which the bot also sees. Perception noise: the bot "
+        "played; after the pro's own play the board already shows the pro's units, which the bot also sees. Tap density: the bot taps more "
+        "often than the pro (see taps per minute), so timing recall is read against the null row (the same taps moved 20-60 s), not against zero. "
+        "Perception ceiling: the pro's card is in the hand the bot perceived in only the share the ceiling row gives, so same-card agreement "
+        "cannot be high; in open loop the bot's hand memory is never told about a play (taps are not sent), which may explain a stale hand "
+        "(not verified here). Calibration: each game uses its own video's calibration (`runs/videos/<video>/match_0/calib.json`), because "
+        "`runs/poc/mirror_calib.json` puts the arena up to 2-4.5 tiles off on these videos. Perception noise: the bot "
         "perceives the screen with the same detector it uses live, and the pro's plays come from the dataset's offline pipeline "
         "(card labels on 'medium' / 'low' confidence plays and 'unknown'-card plays are noisy; a card outside the pro's deck is kept for timing "
         "and dropped from the choice metrics). Time stamps: the dataset stamps a play when the card lands on the arena, about 0.5 s after the pro's "
@@ -1046,7 +1053,8 @@ def main(argv: list[str] | None = None) -> int:
         plan_games, skipped = select_games(load_games(args.split))
         report["meta"]["skipped"] = [{"game_id": s["game_id"], "skip_reason": s["skip_reason"]} for s in skipped]
         ran = {g["game_id"] for g in report["meta"]["games"]}
-        report["meta"]["skipped"] += [{"game_id": g["game_id"], "skip_reason": "not run (time budget)"} for g in plan_games
+        report["meta"]["skipped"] += [{"game_id": g["game_id"], "skip_reason": "not run yet: queued behind the shared heavy lock; "
+                                      "`--split test` resumes, `--score` rewrites this report"} for g in plan_games
                                       if g["game_id"] not in ran]
         docs.with_suffix(".json").write_text(json.dumps(report, indent=1, default=str) + "\n")
         docs.with_suffix(".md").write_text(render_md(report))
