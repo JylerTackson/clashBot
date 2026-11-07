@@ -619,6 +619,10 @@ def test_attach_builds_the_executor_for_the_new_window_and_continues_the_clock(t
 
 
 def test_dashboard_is_not_imported_and_only_started_when_installed(monkeypatch):
+    # Other test modules may already have imported `clashbot.viz`; drop it (monkeypatch restores it afterwards) so the
+    # final assertion checks that `start_dashboard` itself does not import the package.
+    for name in [n for n in sys.modules if n == "clashbot.viz" or n.startswith("clashbot.viz.")]:
+        monkeypatch.delitem(sys.modules, name, raising=False)
     out = []
     monkeypatch.setattr(demo.importlib.util, "find_spec", lambda name: None)
     assert demo.start_dashboard(Path("runs/demo"), out.append) is None and out == ["dashboard not installed"]
