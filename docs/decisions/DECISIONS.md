@@ -205,3 +205,21 @@ D-045 holds: when offered, the LLM decides.
 - In each battle it reads the opponent banner. It taps only when the banner reads "Trainer …" (Training Camp). Any other battle is watched and logged, never tapped. Unknown counts as not Training Camp (fail closed).
 - D-031 is unchanged: taps still need `--live` and `CLASHBOT_ALLOW_LIVE=1`. Without both, the launcher watches only.
 - Defaults the user did not pick (2026-11-07): browser dashboard (MAC-AO), .pptx slides, IEEE two-column report.
+
+### D-051 · Code freeze for the showcase · decided (user) · 2026-11-07
+**User:** "I dont think we need to, we got a win so we can show that we can win games."
+
+**Rule.** The decision logic (policy, tactics, candidates, ranker, live loop behaviour) is frozen at `66917e7` until the showcase on 2026-11-09. Only evaluation, demo, dashboard, packaging and documentation change. Every benchmark in the report is produced on the frozen code and records the HEAD hash it ran at.
+
+### D-052 · Evaluation plan for the report · decided (user) · 2026-11-07
+**User:** "Everything you recommended sounds good, I also want to run the bot against the videos we downloaded and show how its decisions compare against the pros … we should run a comparison on how we do against those [Wu et al. 2025 (KataCR), Houseworth 2025 (Claude Royale)] … everything will be run and hosted on my mac."
+
+**Plan.**
+- MAC-AP re-runs the stale evals into `_v2` files; nothing current is deleted.
+- MAC-AP also adds the E1 statistics audit and a latency table.
+- MAC-AR runs E6 (held-out mined rules) and E2 (context conflict).
+- MAC-AQ runs the bot against pro test videos, open loop.
+- The user plays about 10 Training Camp battles through the launcher for a win rate.
+- A prior-bot comparison, built from published numbers plus ours on the same metrics.
+- All on the Mac; no uploads of weights or data.
+- Heavy jobs share one lock; the `HOLD_HEAVY` flag pauses them while the user plays live.
