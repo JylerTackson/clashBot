@@ -256,3 +256,24 @@ Training the LLM on the tactics context gains +1.6 / +1.4 points over the no-tac
   1. `joint_tac` rebuilt with the MAC-AD engine;
   2. d1-2B fine-tune, top 8 layers, 3 epochs (~3 h);
   3. eval of the 2B and the 600M-tac on the same rebuilt data.
+
+## 2026-11-06 (evening) — knowledge graph v2 + threat model + hero ability (D-047, D-048)
+- **Deck by level (D-047).** Evo Electro Dragon, Hero Musketeer, Evo Tesla, Fireball, Knight, Zap, Ram Rider, Mini P.E.K.K.A (levels 15–16 vs Training Camp level 15).
+- **Recording (MAC-AF).** `--record-shots` saves a screenshot at each decision and at +0.5 s / +1.5 s, and `review_shots.py` builds the review sheets. On the recorded run, 86 % of taps landed (vs ~60 % before).
+- **Defence and offence (MAC-AG).**
+  - the engine places the chosen card;
+  - flyers get only answers that can hit air;
+  - pulls are geometric and happen before lock-on;
+  - kiting to the centre; no wasted second answer;
+  - counter-push, split and win-condition leak windows.
+- **Stats and threat model (MAC-AH).**
+  - Per-level stats come from the KB's own tables (balloon L15 2458 HP; princess tower L15 4424).
+  - A lane simulation ranks pushes by tower damage. For a lone L15 balloon: 3,162 unanswered, 351 with a musketeer behind the tower, 0 with a tesla pull.
+  - Spells are valued by kills; the tower handles small pushes; elixir is reserved for the bigger push.
+- **Hero ability (MAC-AI).** The Trusty Turret button is detected (26/26 recorded frames, 0 false positives), tapped and offered to the LLM. The engine proposes it when the simulation shows it saves ≥ 400 tower HP.
+- **KG v2 (MAC-AK K1–K4).** `db/kg2.sqlite`:
+  - KB per-level stats, ~8,950 simulation edges (STOPS/KILLS/PULLS), 3,620 mined pro answers with placement offsets and timing (287 pairs, 234 situations, 450 sequences);
+  - deck co-occurrence including Training Camp decks, and an opponent-deck model (recall 2–3× the popularity baseline);
+  - stat-based role transfer and ability nodes.
+- **How decisions use the graph.** The engine takes a prior from `answers_for`; pro-offset placement applies when n ≥ 5; elixir is reserved for predicted air cards; `KG:` facts lines go into the LLM context. `build_d1_tac` renders training states identically to live (shared `build_engine` / `rank_context`).
+- **Retrain.** `runs/overnight/NEXT4.sh` (started 20:34) rebuilds `joint_tac` with the K4b engine and KG facts, fine-tunes `d1-ft-joint-kg` from `d1-ft-joint-tac` (2 epochs) and evaluates both. Next: recorded Training Camp matches with `--d1-model db/models/d1-ft-joint-kg`.
