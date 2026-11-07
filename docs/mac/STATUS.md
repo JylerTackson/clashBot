@@ -288,3 +288,22 @@ Training the LLM on the tactics context gains +1.6 / +1.4 points over the no-tac
   - A likely cause, not yet verified: the `KG:` lines on train lines are built from the same pro games (the K-series leakage note), so they fit train better than val.
   - **Live keeps `d1-ft-joint-tac`.** It reads the new `KG:` and `tactics:` context at least as well as the retrained model. Reports: `docs/data/d1_finetune_joint_kg_{train,eval}_v1.json` and `d1_finetune_joint_tac_on_kg_eval_v1.json`.
   - Next: recorded Training Camp matches with `--d1-model db/models/d1-ft-joint-tac`.
+
+## 2026-11-07 — recorded run 233907, then MAC-AL (timing, fireball, balloon, hero ability)
+- **Run** `runs/poc/20261106-233907`: 4 full Training Camp games plus part of a fifth with d1-ft-joint-tac. Taps landed 95/100 after the T3 fix to the ability verdict (all 6 ability taps fired).
+- **Findings** (FIX_LIST #44–#48):
+  - **Panic plays.** 39 % of defend acts came at push ETA ≤ 1.5 s, and giant / balloon were answered 7–11 s after the play. The cause is the tracker ETA: speed 0.72× the card's, attack range ignored (ranged +5.3 s late), no ETA at the tower. The engine also preferred the tracker ETA over its own simulation's.
+  - **Fireball under-used:** in hand 104/116 decisions, played 3.
+  - **Balloon:** elixir went to bats and archers, full-bar leaks happened with a balloon coming, and once a knight was sent at a balloon.
+  - **Hero ability:** 4 of 6 taps were not proposed by the engine.
+- **MAC-AL T** (`7e80e7e`): tracker ETA to attack range at the card's speed, and 0 at the tower. On a pro video (240 s, 11 arrivals) the median |error| fell 1.49 → 0.30 s (melee 1.30 → 0.30, ranged 2.19 → 0.40, flyer 2.30 → 0.20). `tools/eval/eval_eta.py`.
+- **MAC-AL P** (`e19a611`):
+  - simulation ETA first, plus 0.5 s decision latency;
+  - big threats budgeted from the play, regen-aware (RESERVE_WINDOW_S 20);
+  - full-bar pre-place; a 9 s air window; no ground card vs a flying lead; no blind buildings;
+  - fireball by clusters anywhere, a great spell (≥ 2× cost) as the only allowed card, `spell` mode, and the engine candidate always reaching the LLM;
+  - hero ability per D-049.
+  - Suite: 1245 passed.
+  - Act policy (test/all): act rate 0.207 → 0.232. Tactics top-1 / top-3 unchanged or better.
+  - A 90 s video dry run passed (0 shot errors; fireball chosen 4×).
+- **Next:** recorded Training Camp matches. Retrain parity (#49 KG leakage, #50 new ETAs in the dataset) comes before any retrain.
