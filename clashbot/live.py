@@ -28,6 +28,11 @@ pushes (lane, lead, eta_s, eta_source, damage, answered); `summary.json` has `ho
 first 3 words of their reason) and `holds_log` (lines, per-frame cost). A frame source that raises (the mirrored window
 closed, the capture failed) ends the run like the time limit does: summary and shots index written, files closed,
 `source ended: <error>` printed, exit code 0 (MAC-AM M5).
+The demo launcher (`clashbot.demo`, MAC-AN, D-050) reuses `build_stack` (what `main` builds, with `with_source=False` while it
+waits for the window) and drives `LiveLoop.step` from its own frame loop: a `tap_gate` that returns False still lets the
+loop decide and log but never calls the executor (entry status "gated"), `on_match_start` / `reset_battle` clear the per-
+battle state, `tag_battle` adds `"battle": n` to the rows of frames / decisions / holds .jsonl, `finish` closes the loop
+without closing the source. All of them are off by default, so `main` is unchanged.
 Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
 """
 from __future__ import annotations
@@ -143,6 +148,22 @@ def ability_cooling(state: dict) -> dict:
     if not isinstance(ab, dict) or not ab.get("affordable"):
         return state
     return {**state, "own": {**state["own"], "hero_ability": {**ab, "affordable": False}}}
+
+
+def _clear_policy_state(policy) -> None:
+    """Empty the per-battle memory of a policy (MAC-AN): `ReactivePolicy` (or the `rules` of a learned / fast policy)
+    remembers the card it answered each push with (`_acted`, `_commits`, keyed by lane and lead card, with game times) and
+    its last engine report; `LearnedActPolicy` its last scorer call. Anything else (a name, a policy without these) is
+    left as it is. The air-answer cache is keyed by the opponent cards seen, so it stays valid across battles."""
+    rules = getattr(policy, "rules", policy)
+    for name in ("_acted", "_commits"):
+        memory = getattr(rules, name, None)
+        if isinstance(memory, dict):
+            memory.clear()
+    if hasattr(rules, "last_report"):
+        rules.last_report = None
+    if hasattr(policy, "_last_t"):
+        policy._last_t, policy._last_p = None, 0.0
 
 
 def _roles_of(tactics) -> dict:
@@ -299,6 +320,14 @@ class CoachWorker:
     def busy(self) -> bool:
         return self._busy
 
+    def reset_battle(self) -> None:
+        """A new battle (MAC-AN): the next job is due at once, the plan and the opponent cards it knew are forgotten
+        (a job already running finishes and publishes its plan; the next one replaces it)."""
+        with self._lock:
+            self.latest_plan = None
+            self._last_t = None
+            self._seen.clear()
+
     def attach(self, out_dir: Path) -> None:
         """Write plans.jsonl into `out_dir` (a fresh file)."""
         self.out_dir = Path(out_dir)
@@ -382,7 +411,8 @@ class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
                  clock=time.perf_counter, min_gap_s: float = 1.0, policy=None, require_hand: bool = True,
-                 tactics=None, arbiter=None, coach=None, shots=None, kg2=None):
+                 tactics=None, arbiter=None, coach=None, shots=None, kg2=None, tap_gate=None, tag_battle=False,
+                 on_match_start=None):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -417,6 +447,13 @@ class LiveLoop:
         self.hand_unknown_holds = 0                  # decisions held because no candidate card was in the read hand
         self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
         self.holds_by_reason: Counter = Counter()    # ... and by the first words of their reason (MAC-AM M4)
+        # MAC-AN (demo launcher, D-050): all off by default, so `main` behaves as before
+        self.tap_gate = tap_gate                     # () -> bool; False = decide and log, but never call the executor ("gated")
+        self.tag_battle = tag_battle                 # rows of frames / decisions / holds .jsonl carry "battle": self.battle
+        self.battle: int | None = None               # the launcher's battle number (None outside a battle)
+        self.on_match_start = on_match_start         # f(loop), called when the frame's readiness turns "match" (before the build)
+        self._in_match = False
+        self.gated = 0                               # taps held back by the gate
         self._hold_key: tuple | None = None          # (mode, act, reason) of the last line of holds.jsonl
         self._hold_t = float("-inf")                 # game time of that line
         self.hold_lines = 0
@@ -443,6 +480,8 @@ class LiveLoop:
     def _write(self, name: str, obj: dict) -> None:
         if self.out_dir is None:
             return
+        if self.tag_battle:
+            obj = {**obj, "battle": self.battle}
         fh = self._fh.get(name)
         if fh is None or fh.closed:
             fh = self._fh[name] = open(self.out_dir / name, "a")
@@ -479,6 +518,65 @@ class LiveLoop:
     def _close_files(self) -> None:
         for fh in self._fh.values():
             fh.close()
+
+    # -- the demo launcher's hooks (MAC-AN, D-050) ----------------------------------------------------------------
+    def _gate_reason(self) -> str | None:
+        """None when the tap gate is open (or there is none); else why it is closed: the gate's `reason` (a string or a
+        callable) or "gate closed". A closed gate is never overridden: the executor is not called."""
+        gate = self.tap_gate
+        if gate is None or gate():
+            return None
+        reason = getattr(gate, "reason", None)
+        return str(reason() if callable(reason) else reason or "gate closed")
+
+    def _gated_entry(self, t: float, key: str, tile, reason: str) -> dict:
+        """The executor entry of a tap the gate held back: the decision stays in the log, nothing is sent."""
+        self.gated += 1
+        return {"t": t, "key": key, "tile": tile, "status": "gated", "gate": reason, "slot": None, "clicks": [],
+                "sent": False}
+
+    def reset_battle(self, battle: int | None = None) -> None:
+        """Forget the per-battle state at the start of a battle (the launcher calls it from `on_match_start`, before the
+        frame is built). Perception's match gate already resets its own match state (`reset_match`: play detector, elixir
+        simulators, Kalman tracks, opponent deck, ability reader, clock) and the builder resets on a new match id; this adds
+        what neither covers: the builder's match memory (explicit, so a reused match id cannot carry over), the decision
+        clocks, the ability timer, the policy's answer memory and the coach's plan. `battle` becomes the row tag."""
+        self.battle = battle
+        reset = getattr(self.builder, "reset", None)
+        if callable(reset):
+            reset()                                   # events, opponent evidence, hand tracker, own taps, cooldowns
+        self.last_decision_t = None
+        self._handled_opp_t = float("-inf")
+        self._ability_t = float("-inf")
+        self._coach_tick_t = float("-inf")
+        self._hold_key, self._hold_t = None, float("-inf")
+        _clear_policy_state(self.policy)
+        reset_coach = getattr(self.coach, "reset_battle", None)
+        if callable(reset_coach):
+            reset_coach()
+
+    def finish(self, extra: dict | None = None) -> dict:
+        """What `run` does after its loop, without closing the source (the launcher owns it): drain perception's OCR
+        worker, let a running coach plan finish, close the shot recorder and the files, write summary.json (the
+        summary plus `extra`)."""
+        try:
+            close_perception = getattr(self.perception, "close", None)
+            if callable(close_perception):
+                close_perception()
+        finally:
+            try:
+                if self.coach is not None:
+                    self.coach.close()
+            finally:
+                try:
+                    if self.shots is not None:
+                        self.shots.close()
+                finally:
+                    self._close_files()
+        summary = {**self.summary(), **(extra or {})}
+        if self.out_dir is not None:
+            (self.out_dir / "summary.json").write_text(json.dumps(summary, indent=2, default=_json_default))
+        return summary
 
     def _follow_rect(self) -> bool:
         """The capture source follows a moved window (`rect_changes`); tell the executor so its screen map follows too."""
@@ -528,6 +626,10 @@ class LiveLoop:
         gs = self.perception.process(frame, t, idx)
         events = self.perception.drain_events()
         b = clock()
+        in_match = getattr(gs, "readiness", None) == "match"
+        if in_match and not self._in_match and self.on_match_start is not None:
+            self.on_match_start(self)            # a battle starts: the launcher numbers it and calls `reset_battle` (MAC-AN)
+        self._in_match = in_match
         self.builder.observe_events(events)
         built = self.builder.build(gs)
         c = clock()
@@ -658,8 +760,12 @@ class LiveLoop:
             self.ability_taps += 1
             side = (state["own"].get("hero_ability") or {}).get("side") or "right"
             tap = getattr(self.executor, "tap_ability", None)
-            entry = tap(side, t) if callable(tap) else {"t": t, "key": ABILITY_KEY, "tile": None, "status": "no_ability_tap",
-                                                         "clicks": [], "sent": False}
+            gate = self._gate_reason()
+            if gate is not None:
+                entry = self._gated_entry(t, key, tile, gate)
+            else:
+                entry = tap(side, t) if callable(tap) else {"t": t, "key": ABILITY_KEY, "tile": None,
+                                                             "status": "no_ability_tap", "clicks": [], "sent": False}
             note_play = getattr(self.builder, "note_own_play", None)
             if entry.get("sent") and callable(note_play):
                 note_play(ABILITY_KEY, None, t, cost=ABILITY_COST)
@@ -690,7 +796,11 @@ class LiveLoop:
                     tile_source = "pro_offset"
             if tile is None:
                 tile, tile_source = placement_tile(key, self.prior), "prior"
-            entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
+            gate = self._gate_reason()
+            if gate is not None:
+                entry = self._gated_entry(t, key, tile, gate)
+            else:
+                entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
             note_play = getattr(self.builder, "note_own_play", None)
             if entry.get("sent") and entry.get("slot") is not None and callable(note_play):
                 note_play(key.split("|")[0], entry["slot"], t, tile=tile)    # the hand memory follows confirmed taps only
@@ -1001,6 +1111,106 @@ def _build_coach(args, deck: list[str], index=None, kg=None) -> CoachWorker:
     return worker
 
 
+class ExecutorRefused(PermissionError):
+    """The executor refused to start (live taps without both switches, D-031): `main` exits with 5."""
+
+
+def _build_executor(args, source):
+    """The executor for `source`: mirroring -> a `MirroringExecutor` on the window's rect (live only with `--live` AND
+    CLASHBOT_ALLOW_LIVE=1, else it raises PermissionError, D-031); video -> the dry-run executor."""
+    if args.source == "mirroring":
+        from clashbot.executor import MirroringExecutor
+        return MirroringExecutor.from_calib(args.calib, source.rect, live=args.live)
+    from clashbot.executor import DryRunExecutor
+    return DryRunExecutor()
+
+
+@dataclass
+class Stack:
+    """The parts `main` and the demo launcher build once (MAC-AN). `source` / `executor` are None when the stack was
+    built `with_source=False` (the launcher opens the window later and builds the executor for its rect)."""
+    perception: object
+    builder: object
+    cards: dict
+    kg: object
+    kg2: object | None
+    index: object
+    generator: object
+    tactics: object | None
+    ranker: object
+    policy: object
+    coach: object | None
+    plan_text: str | None
+    source: object | None = None
+    executor: object | None = None
+    load_s: dict = field(default_factory=dict)          # stage name -> seconds (every `on_stage` call)
+
+
+def build_stack(args, source=None, *, with_source: bool = True, on_stage=None) -> Stack:
+    """Everything `main` builds before the loop: source (`source`, else `_build_source(args)`) -> executor -> perception
+    (the detector loads here) -> state builder -> cards / graphs / index / candidates / tactics -> ranker -> policy
+    (act model) -> coach -> pregame plan. `with_source=False` builds neither source nor executor and gives perception no
+    source (the launcher waits for the window). `on_stage(name, seconds)` is told how long each stage took. On a failure
+    what was built here (perception, and the source when it was built here) is closed and the error propagates; the
+    executor's PermissionError arrives as `ExecutorRefused`."""
+    deck = _split(args.deck)
+    own_source = with_source and source is None
+    load_s: dict[str, float] = {}
+    perception = None
+
+    def stage(name: str, t0: float) -> None:
+        load_s[name] = round(time.perf_counter() - t0, 3)
+        if on_stage is not None:
+            on_stage(name, load_s[name])
+
+    try:
+        executor = None
+        if with_source:
+            if source is None:
+                source = _build_source(args)
+            try:
+                executor = _build_executor(args, source)
+            except PermissionError as exc:
+                raise ExecutorRefused(str(exc)) from exc
+        t0 = time.perf_counter()
+        perception = _build_perception(args, source)
+        stage("perception + detector", t0)
+        t0 = time.perf_counter()
+        from clashbot.live_state import LiveConfig, LiveStateBuilder
+        builder = LiveStateBuilder(LiveConfig(own_deck=deck, hero_cards=_split(args.hero_cards),
+                                              evo_cards=_split(getattr(args, "evo_cards", "")), hand_tracker=True,
+                                              opp_evidence=True, strict_units=True))
+        cards = load_cards()
+        stage("state builder", t0)
+        t0 = time.perf_counter()
+        kg = KnowledgeGraph()
+        kg2 = _load_kg2(args)
+        index = StateIndex()
+        stage("knowledge graphs + state index", t0)
+        t0 = time.perf_counter()
+        generator = CandidateGenerator(index, kg, cards)
+        tactics = None if args.no_tactics else build_engine(cards, kg, kg2)
+        stage("candidates + tactics", t0)
+        t0 = time.perf_counter()
+        ranker = _build_ranker(args)
+        policy = _build_policy(args, cards)
+        stage("ranker + act model", t0)
+        t0 = time.perf_counter()
+        coach = _build_coach(args, deck, index, kg) if args.planner == "coach" else None
+        plan_text = coach.pregame_plan.text if coach is not None else _build_plan_text(args, deck)
+        stage("planner", t0)
+    except BaseException:
+        close_perception = getattr(perception, "close", None)
+        if callable(close_perception):
+            close_perception()
+        if own_source and source is not None:
+            source.close()
+        raise
+    return Stack(perception=perception, builder=builder, cards=cards, kg=kg, kg2=kg2, index=index, generator=generator,
+                 tactics=tactics, ranker=ranker, policy=policy, coach=coach, plan_text=plan_text, source=source,
+                 executor=executor, load_s=load_s)
+
+
 def format_table(summary: dict) -> str:
     lines = ["| stage | p50 ms | p95 ms |", "|---|---|---|"]
     for stage in STAGES:
@@ -1029,7 +1239,6 @@ def main(argv: list[str] | None = None) -> int:
     if len(deck) != 8:
         print(f"error: --deck needs 8 comma-separated card slugs, got {len(deck)}", file=sys.stderr)
         return 2
-    heroes = _split(args.hero_cards)
     if args.source == "video" and not args.video:
         print("error: --source video needs --video PATH", file=sys.stderr)
         return 2
@@ -1056,43 +1265,17 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     args.device = resolve_device(args.device)         # recorded in config.json below
 
-    source = None
-    perception = None
     try:
-        source = _build_source(args)
-        try:
-            if args.source == "mirroring":
-                from clashbot.executor import MirroringExecutor
-                executor = MirroringExecutor.from_calib(args.calib, source.rect, live=args.live)
-            else:
-                from clashbot.executor import DryRunExecutor
-                executor = DryRunExecutor()
-        except PermissionError as exc:
-            print(f"error: {exc}", file=sys.stderr)
-            source.close()
-            return 5
-        perception = _build_perception(args, source)
-        from clashbot.live_state import LiveConfig, LiveStateBuilder
-        builder = LiveStateBuilder(LiveConfig(own_deck=deck, hero_cards=heroes, hand_tracker=True,
-                                              opp_evidence=True, strict_units=True))
-        cards = load_cards()
-        kg = KnowledgeGraph()
-        kg2 = _load_kg2(args)
-        index = StateIndex()
-        generator = CandidateGenerator(index, kg, cards)
-        tactics = None if args.no_tactics else build_engine(cards, kg, kg2)
-        ranker = _build_ranker(args)
-        policy = _build_policy(args, cards)
-        coach = _build_coach(args, deck, index, kg) if args.planner == "coach" else None
-        plan_text = coach.pregame_plan.text if coach is not None else _build_plan_text(args, deck)
+        stack = build_stack(args)                       # (closes what it built when it fails)
+    except ExecutorRefused as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 5
     except (RuntimeError, OSError, ValueError, ImportError) as exc:
         print(f"error: {exc}", file=sys.stderr)
-        close_perception = getattr(perception, "close", None)
-        if callable(close_perception):
-            close_perception()
-        if source is not None:
-            source.close()
         return 3
+    source, executor, perception, builder = stack.source, stack.executor, stack.perception, stack.builder
+    cards, kg2, generator, tactics, ranker = stack.cards, stack.kg2, stack.generator, stack.tactics, stack.ranker
+    policy, coach, plan_text = stack.policy, stack.coach, stack.plan_text
 
     arbiter = None
     if args.arbiter == "rules" and args.ranker != "tactics":        # the tactics ranker is the engine's own pick

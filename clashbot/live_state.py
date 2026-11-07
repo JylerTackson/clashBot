@@ -35,6 +35,7 @@ _UNSET = object()                   # "no match seen yet" (distinct from a match
 class LiveConfig:
     own_deck: list[str]                       # the 8 card slugs the user plays
     hero_cards: list[str] = field(default_factory=list)
+    evo_cards: list[str] = field(default_factory=list)   # evolution cards of the deck (MAC-AN); in `own` only when non-empty
     recent_s: float = RECENT_S
     hand_hold_s: float = 2.0                  # reuse the last confident hand this long when all 4 slots are unread; 0 = off
     hand_tracker: bool = False                # positional hand memory (HandTracker) instead of the timed hold; live loop only
@@ -516,6 +517,8 @@ class LiveStateBuilder:
             "units": units,
             "threats": render_threats(units),
         }
+        if self.config.evo_cards:                  # next to hero_cards; no key without evolutions, so recorded-state parity holds
+            state["own"]["evo_cards"] = list(self.config.evo_cards)
         ability = own.get("hero_ability")
         if isinstance(ability, dict) and ability.get("visible"):      # the button is on screen (MAC-AI); absent otherwise
             state["own"]["hero_ability"] = dict(ability)
