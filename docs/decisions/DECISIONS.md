@@ -223,3 +223,12 @@ D-045 holds: when offered, the LLM decides.
 - A prior-bot comparison, built from published numbers plus ours on the same metrics.
 - All on the Mac; no uploads of weights or data.
 - Heavy jobs share one lock; the `HOLD_HEAVY` flag pauses them while the user plays live.
+
+### D-053 · Report and presentation format · decided (user) · 2026-11-07
+- **Report:**
+  - IEEE two-column conference format (IEEEtran), 8 pages plus references; structure is ours to choose.
+  - Title block as in the course documents: David Tyler Jackson (5298477) · CAP 6938 AI Knowledge Systems · University of Central Florida. Instructor: Dr. Ser Nam Lim (spelling as in the course bib; the user wrote "Si Nam Lim").
+  - Delivered as `.tex` plus `refs.bib`.
+- **Slides:** `.pptx`, 15-minute talk over Zoom. UCF style: a gold/yellow footer bar with the UCF logo and the CECS logo in the footer corners.
+- **Demo:** the user records the end-to-end demo (Zoom screen share from the Mac) and plays the ~10 Training Camp trial battles tonight, after the job queue clears.
+- **Prior bots:** compared against their published numbers; no re-implemented baseline.
