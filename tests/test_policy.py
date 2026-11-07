@@ -1206,7 +1206,9 @@ def test_ah_a_push_the_tower_handles_is_a_hold_with_that_reason():
 def test_ah_a_smaller_push_may_not_spend_the_elixir_of_the_bigger_pushs_answer():
     hand = ("tesla", "knight", "musketeer", "zap")
     # the balloon is still on their side of the river (row 19, simulated ETA 13.25 s: the musketeer's 9 s air window and
-    # the tesla's pull are not open yet, the 14 s reserve window is); a knight pushes the left
+    # the tesla's pull are not open yet, the 20 s reserve window is); a knight pushes the left. The answer kept for it is
+    # the tesla (4 elixir, the better of the two 4-elixir answers): its pull opens when the balloon crosses the river,
+    # 3 s from now, less the 0.5 s latency; the double-elixir bar regenerates 2.5 / 1.4 = 1.79 by then: keep 4 - 1.79 = 2.21
     balloon = _heading(_enemy((16, 19), eta=15.0, tower="own_right", card="balloon"), "advancing right lane")
     knight = _heading(_enemy((4, 11), eta=4.0, card="knight"), "advancing left lane")
 
@@ -1215,15 +1217,15 @@ def test_ah_a_smaller_push_may_not_spend_the_elixir_of_the_bigger_pushs_answer()
         st["units"] = [balloon, knight]
         return st
 
-    d = _sim().decide(state(5.0), 100.0)                      # 5 elixir: a knight (3) would leave 2 < the tesla's 4
-    assert not d.act and d.mode == "save" and d.reason.startswith("keep 4 elixir for the balloon")
-    d = _sim().decide(state(8.0), 100.0)                      # 8 elixir: the knight leaves 5 >= 4
+    d = _sim().decide(state(5.0), 100.0)                      # 5 elixir: a knight (3) would leave 2 < 2.21
+    assert not d.act and d.mode == "save" and d.reason.startswith("keep 2.2 elixir for the balloon")
+    d = _sim().decide(state(8.0), 100.0)                      # 8 elixir: the knight leaves 5 >= 2.21
     assert d.act and d.mode == "defend" and d.lane == "left"
     assert all(c in ("knight", "musketeer", "tesla") for c in d.allowed_cards)
     cost = {c: CARDS[c]["elixir_cost"] for c in d.allowed_cards}
-    assert all(8.0 - cost[c] >= 4 for c in cost)               # every allowed card leaves the reserve
-    # a push that is more than RESERVE_WINDOW_S away (row 22: 16.25 s simulated) keeps no reserve
-    far = _heading(_enemy((16, 22), eta=17.0, tower="own_right", card="balloon"), "advancing right lane")
+    assert all(8.0 - cost[c] >= 4 - 2.5 / 1.4 for c in cost)   # every allowed card leaves the reserve
+    # a push that is more than RESERVE_WINDOW_S away (row 28: 22.25 s simulated) keeps no reserve
+    far = _heading(_enemy((16, 28), eta=17.0, tower="own_right", card="balloon"), "advancing right lane")
     st = state(5.0)
     st["units"] = [far, knight]
     d = _sim().decide(st, 100.0)
@@ -1472,7 +1474,7 @@ import dataclasses  # noqa: E402
 import math  # noqa: E402
 
 from clashbot.policy import (AIR_WINDOW_S, BIG_PUSH_DAMAGE, DECISION_LATENCY_S, GREAT_SPELL_RATIO,  # noqa: E402
-                             RESERVE_WINDOW_S)
+                             RESERVE_WINDOW_S, _Plan)
 from tests.test_tactics import DECK47, _support_pack  # noqa: E402
 
 
@@ -1488,7 +1490,7 @@ def _al(units, hand, elixir, plays=None, towers=None):
 
 def test_al_constants_are_the_specs():
     assert (DECISION_LATENCY_S, BIG_PUSH_DAMAGE, RESERVE_WINDOW_S, AIR_WINDOW_S, GREAT_SPELL_RATIO) == (
-        0.5, 1500.0, 14.0, 9.0, 2.0)
+        0.5, 1500.0, 20.0, 9.0, 2.0)
 
 
 # 1 -----------------------------------------------------------------------------------------------------------------
@@ -1513,35 +1515,102 @@ def test_al_a_window_opens_half_a_second_early_and_the_push_eta_is_the_simulatio
 
 
 # 2 -----------------------------------------------------------------------------------------------------------------
-def _balloon_and_knight(towers=None, elixir=5.0):
-    balloon = _heading(_t_enemy((16, 19), "balloon", tower="own_right"), "advancing right lane")
+def _balloon_and_knight(towers=None, elixir=5.0, phase="single_elixir", balloon_tile=(16, 19), balloon_eta=None):
+    balloon = _heading(_t_enemy(balloon_tile, "balloon", eta=balloon_eta, tower="own_right"), "advancing right lane")
     balloon["vel"] = [0.0, -1.0]                                                       # walking toward us, just played
     knight = _heading(_t_enemy((3, 12), "knight", eta=4.0), "advancing left lane")
-    return _al([balloon, knight], ["musketeer", "zap", "knight", "fireball"], elixir,
-               plays=[{"t": 99.0, "card": "balloon", "tile": [16, 19]}], towers=towers)
+    st = _al([balloon, knight], ["musketeer", "zap", "knight", "fireball"], elixir,
+             plays=[{"t": 99.0, "card": "balloon", "tile": list(balloon_tile)}], towers=towers)
+    st["phase"] = phase
+    return st
 
 
-def test_al_a_balloon_just_played_keeps_the_elixir_of_its_answer_from_the_other_lane():
+def test_al_a_balloon_just_played_keeps_the_elixir_of_its_answer_less_what_the_bar_regenerates():
+    # The balloon's answer is the musketeer (4 elixir, air window 9 s). The balloon is 13.25 s out (simulated), so the
+    # window opens in 13.25 - 0.5 - 9 = 3.75 s; the bar regenerates 3.75 / 2.8 = 1.34 elixir by then (single elixir),
+    # 3.75 / 1.4 = 2.68 (double): the other lane must leave 4 - 1.34 = 2.66 (single) or 4 - 2.68 = 1.32 (double).
     policy = _sim()
     report = policy._analyse(_balloon_and_knight(), 100.0)
     balloon = next(p for p in report.pushes if p.units[0]["card"] == "balloon")
     assert balloon.early and balloon.eta_source == "sim" and balloon.eta_s == 13.25 and balloon.damage_if_unanswered >= BIG_PUSH_DAMAGE
     d = policy.decide(_balloon_and_knight(), 100.0)
-    # 5 elixir: the knight (3) would leave 2 < the musketeer's 4 - and so would every other card
+    # single elixir, 5 elixir: the knight (3) would leave 2 < 2.66 - and so would every other card of the hand
     assert not d.act and d.mode == "save"
-    assert d.reason == "keep 4 elixir for the balloon (~3,200 if unanswered), not for knight left"
-    # 9 elixir: what the left lane may play leaves the 4
+    assert d.reason == "keep 2.7 elixir for the balloon (~3,200 if unanswered), not for knight left"
+    # double elixir: the knight leaves 2 >= 1.32 and may go (the old full reserve of 4 held it)
+    d = _sim().decide(_balloon_and_knight(phase="double_elixir"), 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "left" and "knight" in d.allowed_cards
+    # 9 elixir, single: what the left lane may play leaves the 2.66
     d = _sim().decide(_balloon_and_knight(elixir=9.0), 100.0)
     assert d.act and d.mode == "defend" and d.lane == "left"
-    assert d.allowed_cards and all(9.0 - CARDS[c]["elixir_cost"] >= 4 for c in d.allowed_cards)
+    assert d.allowed_cards and all(9.0 - CARDS[c]["elixir_cost"] >= 4 - 3.75 / 2.8 for c in d.allowed_cards)
     # the left tower at 300 HP: the knight alone takes it down, so it is answered whatever the balloon needs
     d = _sim().decide(_balloon_and_knight(towers={"king": None, "left": 300, "right": 4424}), 100.0)
     assert d.act and d.mode == "defend" and d.lane == "left" and "knight" in d.allowed_cards
-    # a balloon more than RESERVE_WINDOW_S out (row 24: 18 s) keeps nothing
-    far = _balloon_and_knight()
-    far["units"][0]["tile"] = [16, 24]
+
+
+def test_al_a_balloon_played_at_their_back_row_binds_from_the_play_and_a_far_one_keeps_nothing():
+    # row 22: simulated ETA 16.25 s, inside RESERVE_WINDOW_S = 20; the musketeer's window opens in 16.25 - 0.5 - 9 = 6.75 s,
+    # 6.75 / 2.8 = 2.41 elixir regenerate (single): keep 4 - 2.41 = 1.59
+    state = _balloon_and_knight(elixir=4.5, balloon_tile=(16, 22))
+    d = _sim().decide(state, 100.0)                                # the knight (3) would leave 1.5 < 1.59
+    assert not d.act and d.mode == "save"
+    assert d.reason == "keep 1.6 elixir for the balloon (~3,200 if unanswered), not for knight left"
+    d = _sim().decide(_balloon_and_knight(elixir=5.0, balloon_tile=(16, 22)), 100.0)    # 5 - 3 = 2 >= 1.59
+    assert d.act and d.mode == "defend" and d.lane == "left" and "knight" in d.allowed_cards
+    # row 28: 22.25 s, beyond the window: nothing is kept
+    far = _balloon_and_knight(elixir=4.5, balloon_tile=(16, 28))
     d = _sim().decide(far, 100.0)
     assert d.act and d.mode == "defend" and d.lane == "left"
+
+
+def test_al_the_whole_price_is_kept_once_the_answers_window_is_open():
+    # the balloon at the river on our side (row 14): 8.25 s out, the musketeer's window (9 s, less 0.5 s) is open - no
+    # regeneration to wait for. With 3 elixir the musketeer is out of reach (save for it) and the knight (3) would leave 0
+    state = _balloon_and_knight(elixir=3.0, balloon_tile=(16, 14), balloon_eta=9.0)    # (on our half: the tracker gives an ETA)
+    d = _sim().decide(state, 100.0)
+    assert not d.act and d.reason == "keep 4 elixir for the balloon (~3,200 if unanswered), not for knight left"
+    policy = _sim()
+    report = policy._analyse(state, 100.0)
+    plan = _Plan()
+    big = policy._big_push(policy._get_engine(), state, report, report.pushes, 100.0, plan, {})
+    knight = next(p for p in report.pushes if p.units[0]["card"] == "knight")
+    assert big.eta_s == 8.25 and plan.reserve_card == "musketeer" and plan.reserve[0] == 4.0
+    assert policy._answer_lead_s("musketeer", big) == 0.0
+    assert policy._bound_reserve(plan, knight, state) == 4.0 and policy._bound_reserve(plan, big, state) == 0.0
+    # the same push 3.75 s earlier in its walk (13.25 s out): 4 - 3.75 / 2.8 single, 4 - 3.75 / 1.4 double
+    later = _balloon_and_knight(elixir=3.0, balloon_tile=(16, 19))
+    report = policy._analyse(later, 100.0)
+    plan = _Plan()
+    big = policy._big_push(policy._get_engine(), later, report, report.pushes, 100.0, plan, {})
+    knight = next(p for p in report.pushes if p.units[0]["card"] == "knight")
+    assert policy._answer_lead_s("musketeer", big) == pytest.approx(3.75)
+    assert policy._bound_reserve(plan, knight, later) == pytest.approx(4 - 3.75 / 2.8)
+    later["phase"] = "double_elixir"
+    assert policy._bound_reserve(plan, knight, later) == pytest.approx(4 - 3.75 / 1.4)
+    later["phase"] = "overtime"                                  # triple speed: 0.93 s per elixir, 4.03 regenerate: nothing kept
+    assert policy._bound_reserve(plan, knight, later) == 0.0
+
+
+def test_al_a_buildings_window_counts_from_the_river_and_a_lost_pull_keeps_the_whole_price():
+    # the tesla (4) is the answer: a balloon at row 19 crosses the river (row 16) in 3 s, the window opens 0.5 s sooner
+    balloon = _heading(_t_enemy((16, 19), "balloon", tower="own_right"), "advancing right lane")
+    state = _al([balloon], ["tesla", "knight", "zap", "fireball"], 3.0)
+    state["phase"] = "single_elixir"
+    policy = _sim()
+    report = policy._analyse(state, 100.0)
+    plan = _Plan()
+    big = policy._big_push(policy._get_engine(), state, report, report.pushes, 100.0, plan, {})
+    assert plan.reserve_card == "tesla" and policy._window_s("tesla", big) == float("-inf")
+    assert policy._answer_lead_s("tesla", big) == pytest.approx(3.0 - 0.5)
+    other = Push("left", [_t_enemy((3, 12), "knight", eta=4.0)], 3.0, 4.0, [], "x")
+    assert policy._bound_reserve(plan, other, state) == pytest.approx(4 - 2.5 / 2.8)
+    # locked on its tower: no pull left, no window, no regeneration to count on
+    locked = _al([_heading(_t_enemy((15, 6), "balloon", eta=1.0, tower="own_right"), "advancing right lane")],
+                 ["tesla", "knight", "zap", "fireball"], 3.0)
+    report = policy._analyse(locked, 100.0)
+    big = report.pushes[0]
+    assert policy._pull_lost("tesla", big) and policy._answer_lead_s("tesla", big) == 0.0
 
 
 def test_al_two_bats_the_tower_handles_spend_nothing_while_a_balloon_is_coming():

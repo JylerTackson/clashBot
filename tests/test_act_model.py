@@ -830,3 +830,14 @@ def test_al_the_fast_policy_passes_a_spell_decision_through_without_asking_the_m
 
     learned = LearnedActPolicy(Scorer(), CARDS, rules=Rules())
     assert learned.decide(_with(), 10.0, "CTX") is spell and Scorer.calls == 0
+
+
+def test_al_a_spell_act_is_a_rule_act_for_the_trainer_and_is_counted_by_the_act_policy_eval():
+    spell = ActDecision(True, "spell", "left", "spell: x", allowed_cards=frozenset({"fireball"}))
+    counter = ActDecision(True, "counter", "left", "counter: x", allowed_cards=frozenset({"ram-rider"}))
+    wait = ActDecision(False, "hold", None, "x")
+    # whatever the model says (p = 0), a spell act is an act - like a counter; a hold follows the model
+    assert tag.fast_predictions([spell, counter, wait], np.array([0.0, 0.0, 0.0]), 0.5) == [True, True, False]
+    assert tag.fast_predictions([wait], np.array([0.9]), 0.5) == [True]
+    from tools.eval import eval_act_policy
+    assert "spell" in eval_act_policy.MODES and "counter" in eval_act_policy.MODES
