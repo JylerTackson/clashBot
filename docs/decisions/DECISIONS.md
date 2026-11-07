@@ -196,3 +196,12 @@ User: *"We should modulate all the data we have so that we can have a large Know
 - At most one tap per 30 game seconds. Never as an emergency stand-in for another card.
 
 D-045 holds: when offered, the LLM decides.
+
+### D-050 · The demo launcher taps only in Training Camp, detected on screen · decided (Opus, implementing the user's request) · 2026-11-07
+**User:** "It should wait and just monitor the iphone mirror until I turn it off and if it sees the training camp game then it starts playing."
+
+**Rule (MAC-AN).**
+- The launcher (`python -m clashbot.demo`, `scripts/demo.sh`) runs until Ctrl-C.
+- In each battle it reads the opponent banner. It taps only when the banner reads "Trainer …" (Training Camp). Any other battle is watched and logged, never tapped. Unknown counts as not Training Camp (fail closed).
+- D-031 is unchanged: taps still need `--live` and `CLASHBOT_ALLOW_LIVE=1`. Without both, the launcher watches only.
+- Defaults the user did not pick (2026-11-07): browser dashboard (MAC-AO), .pptx slides, IEEE two-column report.
