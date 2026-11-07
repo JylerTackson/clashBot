@@ -307,3 +307,25 @@ Training the LLM on the tactics context gains +1.6 / +1.4 points over the no-tac
   - Act policy (test/all): act rate 0.207 → 0.232. Tactics top-1 / top-3 unchanged or better.
   - A 90 s video dry run passed (0 shot errors; fireball chosen 4×).
 - **Next:** recorded Training Camp matches. Retrain parity (#49 KG leakage, #50 new ETAs in the dataset) comes before any retrain.
+
+## 2026-11-07 (night) — first win; MAC-AM queued
+- **Run** `runs/poc/20261107-013441` (MAC-AL code, d1-ft-joint-tac), 3 Training Camp games:
+  - game 1 took a tower;
+  - game 2 was a 3-crown loss;
+  - **game 3 was won in overtime: the first win.**
+  - Hero ability used once. Ram Rider played 7× (counter / leak).
+  - The run crashed when the window closed (#56), so there is no `summary.json`.
+- **Findings** (#52–#56):
+  - fireball lands behind moving units (flat 1 s lead);
+  - low-value spells (a lone firecracker fireball; zaps at 2–2.4 value, some killing nothing);
+  - 18 teslas (72 elixir), mostly next to the towers;
+  - emergency defends at 2–4 elixir (elixir drained by those plays);
+  - response 5.4 s median after the opponent's play.
+
+  ETA shares are not comparable with the earlier run: the ETAs are now honest.
+- **MAC-AM** (`docs/plans/MAC-AM_spell_lead_thresholds_tesla_centre.md`):
+  - spell lead = 0.5 s + flight from the King Tower (KB projectile speed);
+  - `spell_worth` thresholds;
+  - Tesla in the centre box;
+  - `holds.jsonl`;
+  - a clean end when the window closes.
