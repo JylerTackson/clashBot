@@ -69,6 +69,7 @@ FRAME_STAGES = ("capture", "perception", "live_state")
 TARGET_P95_MS = 300.0
 HOLD_LOG_GAP_S = 1.0          # holds.jsonl: an unchanged (mode, act, reason) is logged at most this often (game seconds)
 HOLD_LOG_PUSHES = 3           # ... with up to this many of the engine's pushes
+RETRIEVAL_LOGGED = 10         # decisions.jsonl: the retrieval hits kept per decision (the generator looks at 20)
 HOLD_REASON_WORDS = 3         # summary `holds_by_reason`: counted by the first words of the reason
 COACH_TICK_S = 1.0            # the loop offers the coach worker a job at most once per game second
 COACH_QUIET_ETA_S = 10.0      # the coach starts no job while a push is this close to a tower (or we defend / save)
@@ -100,6 +101,8 @@ class LiveDecision:
     plan_age_s: float | None = None                        # decision time minus plan_t
     tile_source: str | None = None                         # where the tile came from: spell | pro_offset | engine | candidate | prior | ability
     kg_lines: list = field(default_factory=list)          # the knowledge graph's fact lines shown to the ranker ([] without KG2)
+    retrieval: list = field(default_factory=list)         # the first RETRIEVAL_LOGGED retrieval hits behind the candidates (MAC-AO dashboard)
+    kg_used: list = field(default_factory=list)           # the KG counter contributions that reached a legal key: threat, card, key, score
 
 
 def _accepts_notes(fn) -> bool:
@@ -711,7 +714,9 @@ class LiveLoop:
             probs=list(probs), executor=entry, timings_ms=timings, mode=verdict.mode, reason=verdict.reason,
             tactics_lines=list(report.lines) if report is not None else [], arbiter_reason=arbiter_reason,
             arbiter_subset=arbiter_subset, plan_t=plan_t, plan_age_s=plan_age_s, tile_source=tile_source,
-            kg_lines=list(kg_lines))
+            kg_lines=list(kg_lines),
+            retrieval=list(getattr(self.generator, "last_retrieval", None) or [])[:RETRIEVAL_LOGGED],
+            kg_used=list(getattr(self.generator, "last_kg", None) or []))
         self.decisions.append(decision)
         if self.shots is not None:
             s0 = clock()

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clashbot decision dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header" class="panel">
+  <div class="row">
+    <span id="badge" class="badge">...</span>
+    <span id="run-name" class="run-name">waiting for a run</span>
+    <select id="run-select" title="Which run to show"></select>
+    <label class="toggle" title="Select the newest decision as it arrives (keys: left / right step, f toggles)">
+      <input type="checkbox" id="follow-toggle"> follow newest
+    </label>
+    <span id="stats" class="stats"></span>
+  </div>
+  <div class="row" id="deck"></div>
+  <div class="row small" id="models"></div>
+</header>
+
+<section id="timeline-panel" class="panel">
+  <h2>Timeline <span class="sub">decisions (dot = a decision, hollow = it ended in a hold) over run time; band = why the policy held</span></h2>
+  <div id="timeline"></div>
+  <div id="timeline-legend" class="legend"></div>
+</section>
+
+<main class="grid">
+  <section id="screen-panel" class="panel">
+    <h2>Screen <span class="sub" id="screen-sub"></span></h2>
+    <div id="screen"></div>
+  </section>
+
+  <section id="decision-panel" class="panel">
+    <h2>Decision <span class="sub" id="decision-sub"></span></h2>
+    <div id="decision"></div>
+  </section>
+
+  <section id="retrieval-panel" class="panel">
+    <h2>Retrieval <span class="sub">pro states most like this one (kNN + BM25, fused by RRF)</span></h2>
+    <div id="retrieval"></div>
+    <div id="state-detail"></div>
+  </section>
+
+  <section id="kg-panel" class="panel wide">
+    <h2>Knowledge graph <span class="sub">enemy cards on the field and our hand; gold = a counter the candidate generator used</span></h2>
+    <div class="kg-grid">
+      <div>
+        <div id="kg"></div>
+        <div id="kg-legend" class="legend"></div>
+      </div>
+      <div id="kg-text"></div>
+    </div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

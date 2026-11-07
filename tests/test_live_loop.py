@@ -223,6 +223,36 @@ def test_step_passes_filters_to_generator():
     assert gen.calls == [(1.0, 4, {"exclude_game": "g1"})]
 
 
+class LoggingGenerator(FakeGenerator):
+    """A generator that, like CandidateGenerator (MAC-AO), keeps what its last call looked at."""
+
+    def __init__(self, n_hits=12):
+        super().__init__()
+        self.last_retrieval = [{"id": f"s{i}", "game_id": "g", "kind": "play", "action_key": KEYS[i % 2],
+                                "verdict": "positive", "elixir_trade": 1.0, "score": 0.03 - 0.001 * i,
+                                "ranks": {"knn": i + 1, "bm25": i + 2}} for i in range(n_hits)]
+        self.last_kg = [{"threat": "knight", "card": "zap", "key": KEYS[0], "score": 1.0}]
+
+
+def test_ao_decision_row_carries_the_retrieval_and_the_kg_contributions(tmp_path):
+    gen = LoggingGenerator(n_hits=12)
+    lp = _loop(tmp_path, builder=FakeBuilder(_state(elixir=9.5), warmup=0), generator=gen)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d is not None
+    row = json.loads((tmp_path / "decisions.jsonl").read_text().splitlines()[0])
+    assert row["retrieval"] == gen.last_retrieval[:10] and len(row["retrieval"]) == 10      # the first 10 hits, in order
+    assert row["kg_used"] == gen.last_kg
+    assert d.retrieval == row["retrieval"] and d.kg_used == row["kg_used"]
+    assert row["key"] == d.key and row["probs"] == d.probs                                  # nothing else moved
+
+
+def test_ao_decision_row_without_a_logging_generator_has_empty_lists(tmp_path):
+    lp = _loop(tmp_path, builder=FakeBuilder(_state(elixir=9.5), warmup=0))                 # FakeGenerator: no last_* attributes
+    lp.step("f", 1.0, 0, 2.0)
+    row = json.loads((tmp_path / "decisions.jsonl").read_text().splitlines()[0])
+    assert row["retrieval"] == [] and row["kg_used"] == []
+
+
 # 4 -----------------------------------------------------------------------------------------------------------------
 def test_run_writes_outputs(tmp_path):
     src = FakeSource(10)
