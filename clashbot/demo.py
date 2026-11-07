@@ -14,7 +14,9 @@ Training Camp battles until Ctrl-C.
    executor is not even called there. D-031 is unchanged: taps need `--live` AND CLASHBOT_ALLOW_LIVE=1, else the
    launcher says so and watches only.
 Session files: runs/demo/<timestamp>/ (frames / decisions / holds .jsonl with a `battle` field, battles.jsonl,
-summary.json, config.json, shots/).
+summary.json, config.json, shots/, battles/). `battles/<n>_end_<k>.jpg` are the last (up to) 3 frames of battle n seen
+after the screen left "match" (k = 0 oldest ... 2 newest; the last match frame when there are none): the result screen,
+for reading win / loss and crowns. They are listed in that battle's `end_frames` in battles.jsonl.
 """
 from __future__ import annotations
 
@@ -23,11 +25,14 @@ import difflib
 import importlib.util
 import json
 import os
+import queue
 import re
 import signal
 import subprocess
 import sys
+import threading
 import time
+from collections import deque
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
@@ -54,6 +59,8 @@ CHECK_GAP_S = 0.5                 # ... at most one every this many seconds (OCR
 BATTLE_END_S = 3.0                # the screen is not a match for this long: the battle is over
 FRAMES_KEEP = 20000               # `loop.frames` is trimmed to the newest half of this when it grows past it
 GATE_CHECKING = "checking the opponent banner"
+END_FRAMES = 3                    # frames kept for the result screen of each battle ...
+END_JPEG_QUALITY = 85             # ... saved as battles/<n>_end_<k>.jpg
 
 
 # ----------------------------------------------------------------------------------------------- card names
@@ -251,6 +258,71 @@ class TapGate:
         self.open, self.reason = True, ""
 
 
+# ----------------------------------------------------------------------------------------------- end-of-battle frames
+def write_jpeg(path: Path, frame, quality: int = END_JPEG_QUALITY) -> bool:
+    """One frame (BGR / BGRA / grey, full size) as a JPEG; True when the file was written."""
+    import cv2
+    import numpy as np
+    from clashbot.recorder_shots import _to_bgr
+    path.parent.mkdir(parents=True, exist_ok=True)
+    return bool(cv2.imwrite(str(path), _to_bgr(np.asarray(frame)), [cv2.IMWRITE_JPEG_QUALITY, quality]))
+
+
+class EndFrameWriter:
+    """Saves each battle's last frames as `<out_dir>/battles/<n>_end_<k>.jpg` on one small daemon thread (started at the first
+    battle end), so the loop never waits for the JPEG encoder. `submit` only queues (a full queue drops the job: it returns
+    []); a failing write is counted in `errors`, never raised. `writer(path, frame) -> bool` replaces `write_jpeg` (tests).
+    `close` waits for the queued jobs."""
+
+    def __init__(self, out_dir: Path, writer=None, queue_size: int = 4, quality: int = END_JPEG_QUALITY):
+        self.dir = Path(out_dir) / "battles"
+        self.writer = writer or (lambda path, frame: write_jpeg(path, frame, quality))
+        self.queue: queue.Queue = queue.Queue(maxsize=queue_size)
+        self.thread: threading.Thread | None = None
+        self.written = self.errors = self.dropped = 0
+
+    def submit(self, n: int, frames: list) -> list[str]:
+        """Queue battle `n`'s frames (oldest first); the file names (relative to the session dir) that will be written."""
+        if not frames:
+            return []
+        jobs = [(self.dir / f"{n}_end_{k}.jpg", f"battles/{n}_end_{k}.jpg", frame) for k, frame in enumerate(frames)]
+        if self.thread is None:
+            self.thread = threading.Thread(target=self._run, name="end-frames", daemon=True)
+            self.thread.start()
+        try:
+            self.queue.put_nowait(jobs)
+        except queue.Full:
+            self.dropped += 1
+            return []
+        return [name for _, name, _ in jobs]
+
+    def _run(self) -> None:
+        while True:
+            jobs = self.queue.get()
+            if jobs is None:
+                return
+            for path, _, frame in jobs:
+                try:
+                    ok = self.writer(path, frame)
+                except Exception:                  # noqa: BLE001  a frame that cannot be encoded must not stop the thread
+                    ok = False
+                if ok:
+                    self.written += 1
+                else:
+                    self.errors += 1
+            jobs = frame = None                    # frees the frames' references
+
+    def close(self, timeout: float = 10.0) -> None:
+        if self.thread is None:
+            return
+        try:
+            self.queue.put(None, timeout=timeout)
+        except queue.Full:
+            return
+        self.thread.join(timeout)
+        self.thread = None
+
+
 # ----------------------------------------------------------------------------------------------- the session
 @dataclass
 class Battle:
@@ -271,12 +343,16 @@ class DemoSession:
     test-only switch that skips the check. Everything printed goes through `say`; `clock` is wall time (battle rows)."""
 
     def __init__(self, loop: LiveLoop, out_dir: Path, reader, gate: TapGate, taps_on: bool, say=print,
-                 assume_training_camp: bool = False, executor_factory=None, reset_perception=None, clock=time.time):
+                 assume_training_camp: bool = False, executor_factory=None, reset_perception=None, clock=time.time,
+                 end_frames: EndFrameWriter | None = None):
         from cr_perception.trainer_banner import is_trainer, verdict
         self.loop, self.out_dir, self.reader, self.gate, self.taps_on = loop, Path(out_dir), reader, gate, taps_on
         self.say, self.assume, self.clock = say, assume_training_camp, clock
         self.executor_factory = executor_factory
         self.reset_perception = reset_perception
+        self.end_frames = end_frames or EndFrameWriter(self.out_dir)
+        self._tail: deque = deque(maxlen=END_FRAMES)       # the last frames seen since the screen left "match" (references)
+        self._last_match_frame = None                      # ... and the last match frame, for a battle that ends in a match
         self._is_trainer, self._verdict = is_trainer, verdict
         self.state: str | None = None
         self.stop = False
@@ -370,10 +446,14 @@ class DemoSession:
         holds = sum(1 for d in rows if d.key == HOLD_KEY)
         verdict = b.verdict if b.verdict != "CHECKING" else "UNKNOWN"
         duration = max(0.0, t - b.t_start)
+        tail = list(self._tail) or ([self._last_match_frame] if self._last_match_frame is not None else [])
+        self._tail.clear()
+        self._last_match_frame = None
+        end_frames = self.end_frames.submit(b.n, tail)         # queued for the writer thread; the loop does not wait
         row = {"n": b.n, "t_start": round(b.t_start, 2), "t_end": round(t, 2), "duration_s": round(duration, 1),
                "wall_start": round(b.wall_start, 1), "banner": b.banner, "verdict": verdict, "decisions": len(rows),
                "holds": holds, "taps": taps, "planned": planned, "gated": gated, "ended": why,
-               "banner_reads": [list(r) for r in b.reads]}
+               "end_frames": end_frames, "banner_reads": [list(r) for r in b.reads]}
         with open(self.out_dir / "battles.jsonl", "a") as fh:
             fh.write(json.dumps(row) + "\n")
         tot = self.totals
@@ -415,12 +495,18 @@ class DemoSession:
         read = False
         if ready:
             self._last_ready_t = t
-            if self.battle is not None and self.battle.verdict == "CHECKING" and not self.assume:
-                self._check_banner(frame, t)
-                read = True
-        elif self.battle is not None and t - self._last_ready_t >= BATTLE_END_S:
-            self._end_battle(t, "battle over")
-            self.set_state(WATCHING, "watching (no battle)")
+            if self.battle is not None:
+                self._last_match_frame = frame
+                if self._tail:
+                    self._tail.clear()                  # the screen came back: only the last gap before the end counts
+                if self.battle.verdict == "CHECKING" and not self.assume:
+                    self._check_banner(frame, t)
+                    read = True
+        elif self.battle is not None:
+            self._tail.append(frame)                    # a reference: the 3 newest are kept, the rest are freed
+            if t - self._last_ready_t >= BATTLE_END_S:
+                self._end_battle(t, "battle over")
+                self.set_state(WATCHING, "watching (no battle)")
         spent = time.perf_counter() - t1
         self._overhead_s += spent
         if not read:
@@ -513,7 +599,9 @@ class DemoSession:
                 src.close()
             except Exception:                      # noqa: BLE001
                 pass
+        self.end_frames.close()                    # the last battle's images are written before the session ends
         tot = dict(self.totals)
+        tot["end_frames_written"], tot["end_frames_errors"] = self.end_frames.written, self.end_frames.errors + self.end_frames.dropped
         tot["runtime_s"] = round(self.clock() - self.started, 1)
         tot["watch_overhead_ms"] = (round(1000.0 * self._overhead_watch_s / self._overhead_frames, 4)
                                     if self._overhead_frames else None)       # mean per frame outside the banner check

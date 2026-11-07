@@ -1,168 +1,197 @@
 # clashBot
 
-A Clash Royale playing agent. This repository currently contains **Phase 1**:
-a static, file-based knowledge base of every card, card evolution and hero,
-scraped from the [Clash Royale Fandom wiki](https://clashroyale.fandom.com).
-
-## Layout
-
-```
-knowledge_base/
-  cards/<card_slug>.md              one file per card (frontmatter + stats + strategy)
-  cards/images/<card_slug>.png      the card's header image from the wiki infobox
-  evolutions/<card_slug>-evolution.md
-  evolutions/images/<card_slug>-evolution.png
-  heroes/<card_slug>-hero.md
-  heroes/images/<card_slug>-hero.png
-  meta/card_index.md                master table: every card, rarity, cost, type, targets,
-                                    has_evolution, has_hero, scrape status
-  meta/card_index.json              same data, machine readable (+ Card Overviews blurbs)
-  meta/hero_index.json              hero list with ability names/costs
-  meta/scrape_manifest.json         per-item progress log (pending | done | failed)
-  meta/qa_report.md                 verification results
-scripts/kb/                         the scraper (see below)
-```
-
-Slugs are the wiki page title lower-cased with non-alphanumerics collapsed to
-`-` (`Mega Knight` -> `mega-knight`, `P.E.K.K.A.` -> `p-e-k-k-a`,
-`Knight/Hero` -> `knight-hero`).
-
-### Card file schema
-
-```yaml
----
-name: Mega Knight
-slug: mega-knight
-rarity: Legendary
-elixir_cost: 7            # "n/a" for Tower Troops
-card_type: Troop          # Troop | Spell | Building | Tower Troop
-targets: ground           # ground | air | ground_and_air | buildings | n/a
-has_evolution: true
-has_hero_variant: false
-source_url: https://clashroyale.fandom.com/wiki/Mega_Knight
-image_path: cards/images/mega-knight.png   # relative to knowledge_base/
-scraped_at: 2026-09-02T02:31:39+00:00
-evolution_file: evolutions/mega-knight-evolution.md   # only when has_evolution
-hero_file: heroes/knight-hero.md                      # only when has_hero_variant
-ability_cost: 1           # Champions only
-arena: Electro Valley
-release_date: 8 September 2017
----
-```
-
-Sections: Overview, Attributes, Stats by level, Abilities and special
-mechanics, Strong against, Weak against, Notes / synergies, Evolution, Hero
-variant, Source. A section the wiki does not cover reads
-`Not specified on source page` so "unknown" is distinguishable from "missed".
-
-## Re-running the scraper
+A Clash Royale playing agent for Apple-silicon Macs. It reads the game from an iPhone Mirroring window (or a recorded video), decides
+what to play with retrieval over 10,923 pro game states, a knowledge graph, a tactics engine and a fine-tuned 600M-parameter LLM, and
+taps through iPhone Mirroring. It plays Training Camp battles only (see "Data provenance and terms of service"). Course project; the
+agent, the evaluations and the demo tooling are all in this repository.
 
 ```
-pip install -r scripts/kb/requirements.txt
-cd scripts/kb
-python3 enumerate_cards.py   # step 1: index pages -> card_index / hero_index / manifest
-python3 fetch_cache.py       # steps 2-4 (mechanical): pages, images, skeleton md files
-python3 agent_batches.py     # plan LLM extraction batches for the Strong/Weak/Notes sections
-python3 verify.py            # step 6: QA report + promote manifest entries to done
+iPhone Mirroring window  (or a recorded video)
+  -> cr_perception/        screen gate, HUD readers (elixir, hand, clock, tower HP), KataCR YOLOv8 units, OCR, Kalman tracker
+  -> clashbot/live_state   one clean game state, in the format of the training data
+  -> clashbot/policy       WHEN to act: rules + a LightGBM "act now?" model (act_model.py), hold and save elixir otherwise
+  -> clashbot/tactics      WHAT could work: lane simulation (unit_stats.py), pro answers from the knowledge graph (kg2.py)
+  -> clashbot/candidates   4 options: engine moves + kNN/BM25 retrieval over pro states (RRF) + KG counters
+  -> clashbot/ranker       d1-omni-600M, fine-tuned (db/models/d1-ft-joint-tac), picks 1 of the 4
+  -> clashbot/executor     two taps via iPhone Mirroring, behind a double guard (D-031); or a dry-run log
+every decision is logged (decisions.jsonl, screenshots) and shown in the dashboard (clashbot/viz)
 ```
 
-All fetches go through the wiki's MediaWiki API (`api.php`) because the
-rendered pages sit behind a Cloudflare challenge; images come from the static
-CDN with `format=png`. Page responses are cached in `.kb_cache/` (git-ignored)
-and items already marked `fetched`/`done` in the manifest are skipped, so the
-run is resumable. `fetch_cache.py --force --only <slug ...>` re-does specific
-items.
+Fast path for a grader without the iPhone or the model weights: [docs/QUICKSTART.md](docs/QUICKSTART.md) (environment check, tests, one eval,
+a 60 s video dry run, the dashboard on it; about 10 minutes on an M-series Mac).
 
-The extraction agents follow `scripts/kb/AGENT_INSTRUCTIONS.md`: they only
-replace `<!-- AGENT:FILL -->` placeholders using the per-page source pack in
-`.kb_cache/src/`, never the mechanically generated parts.
+## What is in the zip, and what is not
 
-## Phase 2 — deck archetypes and meta decks
+The zip is `git archive` of the repository: code, tests, docs, the card knowledge base (with the card art the perception matches
+against) and the 197 extracted pro games. It does **not** contain model weights (d1 fine-tune 2.35 GB, KataCR 2 x 88 MB), built data
+(`db/`, `dataset/`), the 33 source videos (4 GB), or run logs; those stay on the author's Mac, where the live trials and the demo are run.
+Parts that need them are marked below. `python scripts/check_env.py` prints what is available on a machine and what can run.
 
-```
-knowledge_base/
-  decks/<deck_key>.md            one file per scraped deck (deck_key = 8 sorted card slugs)
-  archetypes/<archetype>.md      beatdown, control, cycle, bait, bridge-spam, siege
-  meta/deck_index.md|json        every deck: archetype, classification source, site stats, avg elixir
-  cards/<slug>.md                gains an idempotent "## Deck archetypes" section
-```
+## Course map
 
-```
-cd scripts/kb
-python3 decks_fetch.py                    # step 0-1: policy check, fetch/render, enumerate decks
-python3 decks_fetch.py --html page.html   # ...or parse a page saved from a normal browser
-python3 decks_build.py build              # step 2-3: classify (heuristic) + write deck files
-python3 agent_batches.py                  # (phase 1 planner; phase 2 agents read AGENT_INSTRUCTIONS_DECKS.md)
-python3 decks_build.py finalize           # step 4-6: archetypes, index, card cross-links, verify, QA
-python3 tests/test_phase2.py              # end-to-end smoke test on a synthetic fixture
-```
+Built and evaluated items only. Lecture block, component, file, and the file that holds its evaluation (`docs/data/BENCHMARKS.md` indexes
+every result file with the command that produced it).
 
-Status: the live site cannot be fetched by automation — royaleapi.com serves
-a Cloudflare managed challenge (interactive Turnstile) to both plain HTTP and
-headless Chromium, and its robots.txt disallows AI agents (details in
-`meta/qa_report.md`). The current data therefore comes from a copy of the
-popular-decks page saved from a normal browser session and passed in with
-`--html`: 20 entries, 19 unique decks (Cycle 7, Bridge Spam 3, Siege 3,
-Beatdown 2, Control 2, Bait 2), with hero variants and evolutions recorded per
-deck. Classifications are heuristic unless a reviewing agent changed them
-(`classification_source: agent`); the page shows no archetype labels of its
-own. Re-running with a newer saved page updates decks, archetype files and
-card cross-links in place.
+| Lecture block | Component | Code | Evaluation |
+|---|---|---|---|
+| Retrieval (8-10) | BM25 (SQLite FTS5) + 644-d structured kNN + reciprocal rank fusion; HNSW vs exact; pre/post filtering | `clashbot/retrieval.py`, `features.py`, `db.py` | `docs/data/retrieval_ablation_v1.md` (`tools/eval/eval_retrieval.py`) |
+| Retrieval | bge-small text-embedding channel (measured, not in the runtime: no gain) | `clashbot/text_embed.py` | same file |
+| RAG / recommendation (11-14) | Two-stage serving: candidate generation, then a setwise LLM ranker | `clashbot/candidates.py`, `ranker.py` | `docs/data/ranker_baselines_v1.json`, `d1_finetune_joint_tac_eval_v1.json` |
+| RAG / recommendation | Hard negatives (2x2 card x placement grid, leak checks), listwise fine-tune of d1-omni-600M (zero-shot 0.258 -> 0.540 val, 4-way, random 0.25) | `tools/data/build_ranker_dataset.py`, `build_d1_dataset.py`, `tools/train/train_d1.py` | `docs/data/d1_zero_shot_v1.json`, `d1_finetune_*_v1.json`, `ranker_stats_v1.json` |
+| RAG / recommendation | Tuned simple baselines vs the LLM (popularity, placement prior, logreg, LightGBM LambdaRank, DCN-V2) | `tools/eval/eval_ranker_baselines.py`, `feature_ranker.py` | `docs/data/feature_ranker_v1.md`, `ranker_baselines_v1.json` |
+| RAG / recommendation | Sequential recommendation: opponent next card (copy frequency vs SASRec) | `tools/eval/next_card.py` | `docs/data/next_card_v1.md` |
+| RAG / recommendation | Adaptive "when to act" trigger: LightGBM act model, d1 act head, rule arbiter | `clashbot/act_model.py`, `policy.py`, `arbiter.py`, `tools/train/train_act_gbdt.py` | `docs/data/act_gbdt_v1.md`, `act_head_v1.md`, `arbiter_v1.md` |
+| RAG / recommendation | Contamination-safe splits (by video), data cleaning and flags | `tools/data/build_clean_dataset.py` | `docs/data/CLEANING_REPORT_v1.md` |
+| Knowledge graphs (5-7) | KG v1 (wiki + mined, 590 nodes / 12,030 edges) and v2 (840 / 27,112, pro answers mined from games) | `clashbot/kg.py`, `kg2.py`, `tools/data/build_kg.py`, `build_kg_v2.py`, `mine_pro_answers.py` | `docs/data/kge_link_prediction_v1.md` |
+| Knowledge graphs | Link prediction with TransE / DistMult / ComplEx / RotatE, equal tuning, filtered ranks | `tools/eval/kge_link_prediction.py` | `docs/data/kge_link_prediction_v1.md` |
+| Knowledge graphs | Neuro-symbolic layer: legal-move constraints, tactics engine with lane simulation, KG facts in the LLM context | `clashbot/game_rules.py`, `tactics.py`, `unit_stats.py`, `card_roles.py` | `docs/data/tactics_eval_v1.md`, `tactics_tuning_v1.md` |
+| Knowledge graphs | Opponent-deck model (leave-one-game-out) | `clashbot/opp_model.py` | `tools/eval/eval_opp_model.py` |
+| Agents, memory, editing (15-17) | Guarded executor, separate verification (screenshots of every tap, landing rate) | `clashbot/executor.py`, `recorder_shots.py` | `tools/eval/review_shots.py` |
+| Agents, memory, editing | Typed read-only tools, Qwen planner / coach (optional, off in the live default) | `clashbot/tools.py`, `planner.py` | `docs/data/planner_bench_v1.json` |
+| Agents, memory, editing | Versioned fact memory and knowledge editing (synthetic patches: reliability, locality, portability) | `clashbot/memory.py` | `docs/data/edit_eval_v1.md` |
+| Agents, memory, editing | Trajectory logging, decision dashboard, end-of-battle frames | `clashbot/live.py`, `demo.py`, `viz/` | `runs/<run>/summary.json` |
+| Perception | Screen reading and detection from the live window | `cr_perception/` | `docs/data/live_state_parity_v1.json`, `tools/eval/eval_eta.py` |
 
-## Phase 4 — perception pipeline (`cr_perception/`)
+## Install
 
-Read-only state extraction from Clash Royale footage (recorded videos now;
-a macOS emulator window via `mss` later). Nothing in this package can send
-input.
+macOS on Apple silicon, Python 3.12 (the pins were verified on 3.12.8; PyObjC, MLX and MPS are Mac-only, everything else also runs on CPU).
 
-```
-cr_perception/
-  sources.py     VideoFrameSource / ImageDirSource / ScreenSource (mss + Quartz window lookup,
-                 Screen-Recording-permission check that fails loudly)
-  screen.py      black-bar stripping, game-panel detection from the elixir bar (streaming layouts),
-                 per-frame readiness (match | match_weak | menu | unreadable) + MatchGate hysteresis
-  geometry.py    18x32 tile grid, perspective homography, bottom-centre rule, legal placement mask
-  config.py      calib.json: every ROI/corner as a FRACTION of the content rect
-  hud.py         elixir (bar fill + digit templates), hand/next card (template matching vs Phase 1 art),
-                 clock (digit templates, RapidOCR fallback), tower HP; every reader returns (value, conf)
-  detect.py      KataCR YOLOv8 x2 (direct inference, ally/enemy channel) and BuildABot ONNX backends
-  events.py      own plays from hand change + elixir drop; opponent plays from new arena tracks;
-                 unidentified spells from tower-HP drops -> PlayEvent(card=None, confidence=low)
-  elixir_sim.py  regen simulator; own-side drift vs HUD is the error bar on the opponent estimate
-  decktracker.py opponent deck / cycle tracking + Phase 2 KB inference (labelled as inference)
-  state.py       GameState / PlayEvent contract;  recorder.py  JSONL;  overlay.py  debug rendering
-tools/calibrate.py        frame -> calib.json (+ verification grid image); auto arena from towers
-tools/run_video.py        video -> states.jsonl + overlay.mp4 + summary.json (fps, drift, deck)
-tools/segment_transcript.py  keep only subtitle cues spoken during readable match periods
-tools/benchmark_capture.py   macOS capture fps + permission check
-scripts/download_videos.py   yt-dlp channel downloader (parallel, subtitles, --cookies)
-tests/                     15 tests: grid ground truth, homography, bottom-centre rule, legal mask,
-                           elixir sim + drift, deck cycle + KB inference, HUD readers on synthetic
-                           HUDs built from the Phase 1 art, end-to-end synthetic match
+```bash
+xcode-select --install                 # Apple clang: hnswlib builds from source
+brew install libomp                    # OpenMP for LightGBM
+python3.12 -m venv ../.venv            # scripts/demo.sh looks for ../.venv/bin/python, else python3 (activate your own venv)
+source ../.venv/bin/activate
+CC=/usr/bin/clang CXX=/usr/bin/clang++ pip install -r requirements-mac.txt
+pip install imageio-ffmpeg             # optional: only tools/demo_clip.py, when ffmpeg is not installed
 ```
 
-Status: see the Phase 4 report in the session log. Real-video validation (ROI
-tuning, detector accuracy, fps, deck-tracker replay, elixir drift) requires a
-downloaded match; YouTube currently blocks this session's IP with a bot check,
-so `scripts/download_videos.py --cookies cookies.txt` is the way in.
+The commands below say `python`; use the activated venv's interpreter. Offline runs: `export HF_HUB_OFFLINE=1`.
 
-### Video pipeline (Ryley videos -> match context -> knowledge base)
+**KataCR (unit detector), outside the repo.** The checkpoints unpickle against KataCR's source (MIT, github.com/wty-yy/katacr).
+`bash tools/worker_setup.sh` clones it to `~/cr_scratch/katacr`, downloads the two public weight files `katacr_d1.pt`, `katacr_d2.pt` to
+`~/cr_scratch/` and finishes with the test suite (it also pip-installs unpinned packages: skip it if the venv above is already set up and
+do the clone and the two downloads by hand). Env overrides: `CR_SCRATCH` (default `~/cr_scratch`), `CLASHBOT_KATACR_ROOT`,
+`CLASHBOT_KATACR_WEIGHTS` (the two files joined with `:`), `CLASHBOT_TORCH_DEVICE` (`cpu` or `mps`).
 
+**Models and built data under the repo (gitignored, not in the zip).**
+
+| Path | What | Needed for |
+|---|---|---|
+| `db/models/d1-ft-joint-tac/` | fine-tuned d1-omni-600M (`model.safetensors` + its own `modeling_d1.py`, config, tokenizer; loads offline) | `--ranker d1` (the live ranker) |
+| `db/models/act-gbdt/` | LightGBM act model (`meta.json`, `model_h{1,2,3}.json`) | `--policy fast` (the live policy) |
+| `db/kg2.sqlite`, `dataset/v1/kg2/` | knowledge graph v2 (prebuilt: mining needs the 33 videos) | engine, policy, `KG:` lines |
+| `db/clashbot.sqlite`, `db/state_features.*`, `dataset/v1/` | states, KG v1, documents, FTS5, feature vectors (rebuilt from `knowledge_base/`, below) | retrieval, evals, tests that need data |
+| `configs/mirror_calib.example.json` (tracked) | window geometry, no secrets: pass `--calib configs/mirror_calib.example.json` to `clashbot.live`. The demo launcher reads it from `runs/poc/mirror_calib.json`: `mkdir -p runs/poc && cp configs/mirror_calib.example.json runs/poc/mirror_calib.json` (after running the tests, see below) | every `clashbot.live` / demo run |
+| `data/videos/<id>/<id>.mp4` | a recorded video for dry runs (the author's are not redistributed; `scripts/download_videos.py` re-downloads the creator's public videos with yt-dlp) | `--source video` |
+
+**Rebuild the data from the tracked `knowledge_base/`** (about 1 minute; writes `dataset/` and `db/` in the checkout):
+
+```bash
+python tools/data/build_clean_dataset.py && python tools/data/build_kg.py && python tools/data/build_documents.py
+python tools/db/seed.py --hnsw && python tools/data/build_ranker_dataset.py && python tools/eval/eval_ranker_baselines.py
+python -m clashbot.loop --replay LGb0mz8Sb8w-m0.0 --limit 15       # fast loop on a recorded game, no model: ~30 ms per decision
 ```
-scripts/download_videos.py --cookies data/cookies.txt   # CR-only, H.264, subtitles, resumable
-tools/batch_process.py                                   # per video: match scan -> tower calibration ->
-                                                         # perception (HUD 10 fps, deploy-label OCR 2 Hz,
-                                                         # KataCR units ~0.7 Hz) -> runs/videos/<id>/match_<n>/
-                                                         #   states.jsonl, summary.json, context.json, context.md
-tools/dispatch_matches.py list|assign|done|status        # hand finished contexts to agents
-scripts/kb/AGENT_INSTRUCTIONS_MATCHES.md                 # what the agents write: knowledge_base/matches/<id>-m<n>.md,
-                                                         # marked "Creator insights" blocks in cards/ and decks/
+
+`db/kg2.sqlite`, `db/models/act-gbdt` and `dataset/v1/act_dense` come from dense perception over the 33 videos (about 17 hours) and are not
+rebuilt by this; they are the prebuilt part. Without them the engine runs without pro answers and `--policy reactive` replaces `fast`.
+
+Known limits of a plain unzipped checkout (checked on one, after the rebuild above and without a `.git` folder): the suite gives 1419 passed,
+15 skipped, 3 failed. Three tests assume the author's setup: `tests/test_clean_dataset.py::test_data_dir_not_ignored` runs a git command
+(needs a git repository), `tests/test_coach.py::test_build_d1_tac_plans_adds_the_latest_plan_at_or_before_each_line` needs the prebuilt
+`db/kg2.sqlite`, and `tests/test_opp_model.py::test_real_live_runs_give_a_few_decks` expects recorded runs whenever a `runs/poc` folder exists
+(so copy the calibration there only after the tests). None of the three touches the agent's behaviour.
+
+## Run the demo (iPhone Mirroring, Training Camp)
+
+Needs macOS 15+ with iPhone Mirroring and a paired iPhone showing Clash Royale, Screen Recording and Accessibility permission for the
+terminal, the calibration JSON above, KataCR, `db/` and the weights. From the repository root:
+
+```bash
+CLASHBOT_ALLOW_LIVE=1 scripts/demo.sh --live --dashboard
 ```
 
-Deployment identity does not depend on the unit detector: the game draws a
-"<Card> lvl N" label at every deployment (both players) and `cr_perception/labels.py`
-OCRs it, so cards newer than the 2024 detector weights still reach the agents
-with a tile. Own plays are attributed from the HUD (slot emptied + elixir
-drain) and get their tile from that label; a label that contradicts a hand
-read (e.g. Berserker read as Fire Spirit) wins when its cost explains the
-elixir drop.
+The launcher asks for the 8 cards (names are matched loosely: "mini pekka", "e dragon"), which are evolutions and which heroes, loads every
+model, prints `READY`, then watches the mirrored window until Ctrl-C. When it sees a Training Camp battle (the opponent banner reads
+"Trainer ...") it plays it; any other battle is watched and logged, never tapped. Taps need both `--live` and `CLASHBOT_ALLOW_LIVE=1`
+(D-031, D-050); without them it only watches and says so. `--dashboard` opens the browser dashboard on the session. The session lives in
+`runs/demo/<timestamp>/`: `decisions.jsonl`, `holds.jsonl`, `frames.jsonl`, `battles.jsonl` (one row per battle), `summary.json`,
+`shots/`, and `battles/<n>_end_{0,1,2}.jpg`, the last three frames of each battle (the result screen), listed in the battle's `end_frames`.
+
+No phone: the same launcher runs on a recorded video, watch only. A pro ladder game has no "Trainer" banner, so it reports "not Training
+Camp" and taps nothing:
+
+```bash
+scripts/demo.sh --deck "electro dragon, musketeer, tesla, fireball, knight, zap, ram rider, mini pekka" --evo-cards "tesla, electro dragon" \
+  --hero-cards musketeer --yes --source video --video data/videos/Z8-4VhLjrGU/Z8-4VhLjrGU.mp4 --start 60 --seconds 60
+```
+
+The plain live loop (no launcher) is `python -m clashbot.live --help`; its dry-run video form is step 4 of the quickstart.
+
+## Replay a run in the dashboard
+
+```bash
+python -m clashbot.viz --run runs/smoke/quickstart --open       # any run folder (replay); the page polls every second
+python -m clashbot.viz --follow runs/demo --open                # follow the newest run under runs/demo while the bot plays
+```
+
+A local page (127.0.0.1:8765, no external assets): the decision with each candidate's d1 probability and sources, the retrieved pro
+states, the knowledge-graph neighbourhood, the screenshots, and a timeline of decisions and holds.
+
+## Run the tests
+
+```bash
+python -m pytest -q --deselect tests/test_perception_latency.py
+```
+
+About 1,430 tests (1429 passed, 8 skipped on the author's Mac), 2.5-3 minutes of test time. Tests that need the built data, `db/`, `runs/` or the KataCR files skip when they are missing, so a
+clean checkout runs fewer of them; `test_perception_latency.py` is timing-sensitive and left out. Nothing in the suite loads a real model
+unless `CLASHBOT_SLOW_TESTS=1`, and nothing ever sends input.
+
+## Run the evals
+
+All evals read `dataset/v1` (and `db/`), run on CPU, and take `--out PATH` (default `dataset/v1/eval/`). Results, numbers and the commit
+they were produced at: [docs/data/BENCHMARKS.md](docs/data/BENCHMARKS.md).
+
+```bash
+python tools/eval/eval_tactics.py --out /tmp/tactics.json            # tactics engine vs the pros' plays             (~2 s)
+python tools/eval/eval_ranker_baselines.py                           # recall and 4-way baselines, writes dataset/v1/ranker/
+python tools/eval/eval_retrieval.py --embedder hash --cache-dir /tmp/emb --out /tmp/retrieval.json   # retrieval ablation (~2 min); the bge channel needs the HF model
+python tools/eval/feature_ranker.py --quick --out /tmp/fr.json       # logreg / LightGBM / DCN-V2 rankers          (~20 s)
+python tools/eval/next_card.py --quick --out /tmp/next_card.json     # opponent next card: copy frequency vs SASRec (seconds)
+python tools/eval/eval_act_policy.py --out /tmp/act_policy.json      # act / hold policies
+python tools/eval/eval_opp_model.py --out /tmp/opp_model.json        # opponent-deck model, leave-one-game-out
+python tools/eval/edit_eval.py --out /tmp/edit_eval.json             # knowledge editing, synthetic patches        (about 70 s on a quiet machine)
+python tools/eval/kge_link_prediction.py --out /tmp/kge.json         # KG embeddings (about 1 hour)
+```
+
+With models or video (author's Mac): `tools/eval/eval_d1_zero_shot.py`, `eval_act_head.py` (d1 weights), `eval_arbiter.py` (reads the d1 eval
+output in `dataset/v1/eval/`), `eval_eta.py`, `live_state_parity.py` (KataCR + a video), `review_shots.py RUN_DIR` (a recorded run),
+`bench_planner.py` (Qwen). Training: `tools/train/train_d1.py`,
+`train_act_gbdt.py`.
+
+## Repository map
+
+| Path | What |
+|---|---|
+| `clashbot/` | the agent: live loop (`live.py`), demo launcher (`demo.py`), policy, tactics, candidates, retrieval, KG, ranker, executor, dashboard (`viz/`) |
+| `cr_perception/` | read-only perception: screen gate, HUD readers, KataCR detector, OCR, tracker, trainer-banner reader. Sends no input |
+| `tools/` | `data/` builders, `db/seed.py`, `eval/` evaluations, `train/` fine-tuning, perception tools (`calibrate.py`, `run_video.py`, `batch_process.py`) |
+| `scripts/` | `demo.sh`, `check_env.py`, `make_submission.sh`, `check_submission.sh`, `download_videos.py`, `kb/` (the wiki / deck scrapers) |
+| `knowledge_base/` | cards, evolutions, heroes (wiki), decks and archetypes, and `states/` + `matches/`: 197 pro games extracted from video |
+| `tests/` | the pytest suite |
+| `configs/` | `mirror_calib.example.json`, the window geometry (no secrets) |
+| `docs/` | `decisions/DECISIONS.md` (every design decision), `mac/STATUS.md` (dated log), `data/` (result files), `plans/` (specs), `research/` (audits), `design/`, `report/refs.bib` |
+
+## Data provenance and terms of service
+
+- Card, evolution and hero data come from the Clash Royale Fandom wiki (scripts in `scripts/kb/`, through its MediaWiki API); the card art
+  is Supercell's and is included only so the perception can match hand cards. The deck list comes from one page saved from a browser
+  session of royaleapi.com (its robots.txt disallows automated agents, so it was not scraped). Clash Royale is a trademark of Supercell;
+  this project is not affiliated with or endorsed by Supercell.
+- The 197 games (10,923 states) were extracted by this repository's own perception from 33 public YouTube videos by one creator
+  (@ryleycr1, downloaded with yt-dlp for research). The videos are not redistributed; the extracted states and the creator's insights are
+  in `knowledge_base/states` and `knowledge_base/matches`. Splits are by video, so no game appears in two splits.
+- Supercell's terms prohibit bots in normal play. The agent therefore taps only in Training Camp battles (the launcher detects the
+  "Trainer" banner and fails closed), only with `--live` and `CLASHBOT_ALLOW_LIVE=1` together (D-031, D-050), and nothing in the test
+  suite or the evals sends input. Everything else (evals, dry runs, dashboards) is read-only.
+- No credentials are used or stored. `data/cookies.txt` (an optional yt-dlp export) is gitignored; `scripts/check_submission.sh` scans the zip.
