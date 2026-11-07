@@ -133,6 +133,9 @@ class CandidateGenerator:
         self.cards = cards if cards is not None else load_cards()
         self.kg_weight = kg_weight
         self.hold_prior = hold_prior
+        # what the last `_channels` call looked at, for the decision dashboard (MAC-AO); never read by the generator
+        self.last_retrieval: list[dict] = []        # the k=20 retrieval hits in order
+        self.last_kg: list[dict] = []               # each KG contribution that reached a legal key
 
     def _threats(self, state: dict, t: float) -> list[tuple[str, list | None]]:
         threats: list[tuple[str, list | None]] = []
@@ -152,8 +155,14 @@ class CandidateGenerator:
         threat card that contributed most to it."""
         cards = self.cards
         knn: dict[str, float] = {}
+        self.last_retrieval, self.last_kg = [], []
         hits = self.index.search(state, t, context_text, k=20, depth=50, **filters)
         for hit in hits:
+            self.last_retrieval.append({
+                "id": getattr(hit, "id", None), "game_id": getattr(hit, "game_id", None),
+                "kind": getattr(hit, "kind", None), "action_key": hit.action_key,
+                "verdict": getattr(hit, "verdict", None), "elixir_trade": getattr(hit, "elixir_trade", None),
+                "score": hit.score, "ranks": dict(getattr(hit, "ranks", None) or {})})
             if hit.action_key != HOLD_KEY and hit.action_key in legal_set:
                 knn[hit.action_key] = knn.get(hit.action_key, 0.0) + hit.score
 
@@ -172,6 +181,7 @@ class CandidateGenerator:
                 else:
                     key = action_key(c, lane_of(tile) or "middle", "mid")
                 if key in legal_set:
+                    self.last_kg.append({"threat": threat, "card": c, "key": key, "score": s})
                     kg[key] = kg.get(key, 0.0) + s
                     if s > kg_best.get(key, float("-inf")):
                         kg_best[key], kg_threat[key] = s, threat

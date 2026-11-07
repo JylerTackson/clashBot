@@ -1,0 +1,67 @@
+"""`python -m clashbot.viz [--run DIR | --follow PARENT] [--port 8765] [--open]` - serve the decision dashboard.
+
+`--follow PARENT` (default runs/demo) shows the newest run folder under PARENT and switches when a newer one appears;
+`--run DIR` shows one fixed run (replay). Binds 127.0.0.1 only. Ctrl-C (or SIGTERM from the launcher) stops it."""
+from __future__ import annotations
+
+import argparse
+import signal
+import sys
+import threading
+import webbrowser
+from pathlib import Path
+
+from clashbot.config import ROOT
+from clashbot.viz.data import Store
+from clashbot.viz.server import make_server
+
+
+def _path(arg: str) -> Path:
+    p = Path(arg).expanduser()
+    if not p.is_absolute() and not p.exists():
+        p = ROOT / p                                           # runs/demo from any working directory (it may not exist yet)
+    return p
+
+
+def build_parser() -> argparse.ArgumentParser:
+    ap = argparse.ArgumentParser(prog="python -m clashbot.viz", description=__doc__.splitlines()[0])
+    which = ap.add_mutually_exclusive_group()
+    which.add_argument("--run", metavar="DIR", help="show this run folder (replay)")
+    which.add_argument("--follow", metavar="PARENT", help="show the newest run folder under PARENT (default runs/demo)")
+    ap.add_argument("--port", type=int, default=8765, help="port on 127.0.0.1 (0 = any free port)")
+    ap.add_argument("--open", action="store_true", help="open the page in the default browser")
+    return ap
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = build_parser().parse_args(argv)
+    if args.run:
+        run = _path(args.run)
+        if not run.is_dir():
+            print(f"viz: run folder not found: {run}", file=sys.stderr)
+            return 2
+        store = Store(run=run)
+    else:
+        store = Store(follow=_path(args.follow or "runs/demo"))
+    try:
+        server = make_server(store, args.port)
+    except OSError as exc:
+        print(f"viz: cannot listen on 127.0.0.1:{args.port}: {exc}", file=sys.stderr)
+        return 2
+    url = f"http://127.0.0.1:{server.server_address[1]}/"
+    what = f"run {store.fixed}" if store.fixed else f"newest run under {store.follow}"
+    print(f"decision dashboard: {url}  ({what}; read-only; Ctrl-C to stop)", flush=True)
+    signal.signal(signal.SIGTERM, lambda *_: threading.Thread(target=server.shutdown, daemon=True).start())
+    if args.open:
+        threading.Timer(0.3, webbrowser.open, args=(url,)).start()
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        pass
+    finally:
+        server.server_close()
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
