@@ -184,3 +184,15 @@ User: *"We should modulate all the data we have so that we can have a large Know
 **Use.** The engine and policy take answers from the graph. Role transfer covers our cards that have no pro data. Placement comes from pro offsets. The LLM gets a compact facts block (D-045: the LLM decides), then is retrained on it.
 
 **Process.** Packages MAC-AK K1–K4. Each report is audited against its spec before merge; failures go to FIX_LIST and to a queued fix agent.
+
+### D-049 · The hero ability is used sparingly · decided (user) · 2026-11-07
+**User:** "Not understanding how to properly use the musketeer hero ability, honestly this should be used very sparingly."
+
+**Evidence.** In `runs/poc/20261106-233907` there were 6 Trusty Turret taps. In 4 of them the engine had not proposed the ability: the live loop offered it whenever the button was usable and the policy always added it to the allowed cards.
+
+**Rule (MAC-AL P4).**
+- The ability is an option only when the engine proposes it, which needs a simulated saving of ≥ 1,000 tower HP.
+- The policy allows it only when no adequate card move for that push is affordable with its window open, or when the turret saves ≥ 1.5× what the best such card saves.
+- At most one tap per 30 game seconds. Never as an emergency stand-in for another card.
+
+D-045 holds: when offered, the LLM decides.
