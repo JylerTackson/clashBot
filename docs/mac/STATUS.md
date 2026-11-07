@@ -329,3 +329,18 @@ Training the LLM on the tactics context gains +1.6 / +1.4 points over the no-tac
   - Tesla in the centre box;
   - `holds.jsonl`;
   - a clean end when the window closes.
+
+## 2026-11-07 — MAC-AM merged (9234be4)
+- **What changed:**
+  - **Spell lead:** aim = where the unit will be after 0.5 s + flight from the King Tower (fireball 10 tiles/s; zap instant). Units that stand or already fight are not led.
+  - **Spell bar (`spell_worth`):** zap needs ≥ 2 kills and value ≥ 2.5; other spells value ≥ cost + 1 with a kill (≥ cost + 2 without). Same bar in emergencies. Swarm cards are valued per unit (1 of 5 bats = 0.4).
+  - **Group zap (user rule, M2.1b):** ≥ 3 units of one push on our half or heading to us, and the lane sim with the zap prevents ≥ 300 tower HP or nothing reaches the tower. Reason `zap …: tower finishes them, saves ~N HP`. Units start at full HP (#57).
+  - **Tesla:** only inside the centre box (x 7–11, y 8.5–11.5), lane anchors (8,10) / (9,10) / (10,10); pull window opens at row 20; tower-side tesla only as `air dps at the tower` with no other air answer in hand.
+  - `holds.jsonl` + `holds_by_reason`; a closed window ends the run cleanly (summary written, exit 0).
+- **Checks:**
+  - Suite on the merge: **1284 passed**, 7 skipped, 0 failed.
+  - 120 s video dry run `runs/smoke/AM_merged`: exit 0, 45 decisions, 0 shot errors, 3 teslas all in the box, 1 fireball (rascals + ice-wizard, kills 3).
+  - Evals vs AL: act rate test/all 0.232 → 0.220; spell mode 8 → 1 (the bar removes the 2–4.5-value spells); tactics top-3 slightly lower (fewer tesla/spell proposals).
+  - Replayed against run 013441's spells: the old zaps (value 2–2.4, 1 kill) all fail rule (a); the lone firecracker fireball fails; archers + firecracker fireball (7.5) passes.
+- **Watch next run:** fireball count (bar may now be too strict: night-witch + bats 4.5 fails), group zaps (#60), tesla tiles, `holds_by_reason`.
+- **Open:** #58 (LLM's chosen tile loses to the verdict's engine tile, D-045), #59, #49, #50, #51, #57.
