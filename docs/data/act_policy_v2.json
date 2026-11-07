@@ -1,0 +1,249 @@
+{
+  "dataset": "/Users/tylerjackson/Projects/clashbot/clashBot/.claude/worktrees/agent-aad7f4da136201045/dataset/v1",
+  "splits": {
+    "test": {
+      "all": {
+        "n": 1369,
+        "pro_play_rate": 0.9408327246165084,
+        "policies": {
+          "reactive": {
+            "n": 1369,
+            "accuracy": 0.26296566837107377,
+            "balanced_accuracy": 0.5446764051836516,
+            "act_rate": 0.21986851716581446,
+            "pro_play_rate": 0.9408327246165084,
+            "tpr": 0.2251552795031056,
+            "tnr": 0.8641975308641975,
+            "confusion": {
+              "tp": 290,
+              "fp": 11,
+              "fn": 998,
+              "tn": 70
+            }
+          },
+          "trigger": {
+            "n": 1369,
+            "accuracy": 0.8977355734112491,
+            "balanced_accuracy": 0.5175887585307876,
+            "act_rate": 0.9466764061358656,
+            "pro_play_rate": 0.9408327246165084,
+            "tpr": 0.9487577639751553,
+            "tnr": 0.08641975308641975,
+            "confusion": {
+              "tp": 1222,
+              "fp": 74,
+              "fn": 66,
+              "tn": 7
+            }
+          },
+          "always": {
+            "n": 1369,
+            "accuracy": 0.9408327246165084,
+            "balanced_accuracy": 0.5,
+            "act_rate": 1.0,
+            "pro_play_rate": 0.9408327246165084,
+            "tpr": 1.0,
+            "tnr": 0.0,
+            "confusion": {
+              "tp": 1288,
+              "fp": 81,
+              "fn": 0,
+              "tn": 0
+            }
+          }
+        },
+        "reactive_modes": {
+          "defend": 105,
+          "counter": 98,
+          "spell": 1,
+          "leak": 17,
+          "punish": 80,
+          "save": 310,
+          "hold": 685,
+          "none": 73
+        }
+      },
+      "periodic": {
+        "n": 60,
+        "pro_play_rate": 0.23333333333333334,
+        "policies": {
+          "reactive": {
+            "n": 60,
+            "accuracy": 0.65,
+            "balanced_accuracy": 0.47360248447204967,
+            "act_rate": 0.18333333333333332,
+            "pro_play_rate": 0.23333333333333334,
+            "tpr": 0.14285714285714285,
+            "tnr": 0.8043478260869565,
+            "confusion": {
+              "tp": 2,
+              "fp": 9,
+              "fn": 12,
+              "tn": 37
+            }
+          },
+          "trigger": {
+            "n": 60,
+            "accuracy": 0.31666666666666665,
+            "balanced_accuracy": 0.5543478260869565,
+            "act_rate": 0.9166666666666666,
+            "pro_play_rate": 0.23333333333333334,
+            "tpr": 1.0,
+            "tnr": 0.10869565217391304,
+            "confusion": {
+              "tp": 14,
+              "fp": 41,
+              "fn": 0,
+              "tn": 5
+            }
+          },
+          "always": {
+            "n": 60,
+            "accuracy": 0.23333333333333334,
+            "balanced_accuracy": 0.5,
+            "act_rate": 1.0,
+            "pro_play_rate": 0.23333333333333334,
+            "tpr": 1.0,
+            "tnr": 0.0,
+            "confusion": {
+              "tp": 14,
+              "fp": 46,
+              "fn": 0,
+              "tn": 0
+            }
+          }
+        },
+        "reactive_modes": {
+          "defend": 1,
+          "counter": 5,
+          "leak": 2,
+          "punish": 3,
+          "save": 8,
+          "hold": 36,
+          "none": 5
+        }
+      }
+    },
+    "val": {
+      "all": {
+        "n": 1366,
+        "pro_play_rate": 0.9465592972181552,
+        "policies": {
+          "reactive": {
+            "n": 1366,
+            "accuracy": 0.30161054172767204,
+            "balanced_accuracy": 0.5470764601807414,
+            "act_rate": 0.26720351390922403,
+            "pro_play_rate": 0.9465592972181552,
+            "tpr": 0.2722351121423047,
+            "tnr": 0.821917808219178,
+            "confusion": {
+              "tp": 352,
+              "fp": 13,
+              "fn": 941,
+              "tn": 60
+            }
+          },
+          "trigger": {
+            "n": 1366,
+            "accuracy": 0.9158125915080527,
+            "balanced_accuracy": 0.5548474928222569,
+            "act_rate": 0.9531478770131772,
+            "pro_play_rate": 0.9465592972181552,
+            "tpr": 0.9590100541376644,
+            "tnr": 0.1506849315068493,
+            "confusion": {
+              "tp": 1240,
+              "fp": 62,
+              "fn": 53,
+              "tn": 11
+            }
+          },
+          "always": {
+            "n": 1366,
+            "accuracy": 0.9465592972181552,
+            "balanced_accuracy": 0.5,
+            "act_rate": 1.0,
+            "pro_play_rate": 0.9465592972181552,
+            "tpr": 1.0,
+            "tnr": 0.0,
+            "confusion": {
+              "tp": 1293,
+              "fp": 73,
+              "fn": 0,
+              "tn": 0
+            }
+          }
+        },
+        "reactive_modes": {
+          "defend": 138,
+          "counter": 166,
+          "leak": 11,
+          "punish": 50,
+          "save": 340,
+          "hold": 597,
+          "none": 64
+        }
+      },
+      "periodic": {
+        "n": 50,
+        "pro_play_rate": 0.24,
+        "policies": {
+          "reactive": {
+            "n": 50,
+            "accuracy": 0.76,
+            "balanced_accuracy": 0.6425438596491229,
+            "act_rate": 0.2,
+            "pro_play_rate": 0.24,
+            "tpr": 0.4166666666666667,
+            "tnr": 0.868421052631579,
+            "confusion": {
+              "tp": 5,
+              "fp": 5,
+              "fn": 7,
+              "tn": 33
+            }
+          },
+          "trigger": {
+            "n": 50,
+            "accuracy": 0.44,
+            "balanced_accuracy": 0.631578947368421,
+            "act_rate": 0.8,
+            "pro_play_rate": 0.24,
+            "tpr": 1.0,
+            "tnr": 0.2631578947368421,
+            "confusion": {
+              "tp": 12,
+              "fp": 28,
+              "fn": 0,
+              "tn": 10
+            }
+          },
+          "always": {
+            "n": 50,
+            "accuracy": 0.24,
+            "balanced_accuracy": 0.5,
+            "act_rate": 1.0,
+            "pro_play_rate": 0.24,
+            "tpr": 1.0,
+            "tnr": 0.0,
+            "confusion": {
+              "tp": 12,
+              "fp": 38,
+              "fn": 0,
+              "tn": 0
+            }
+          }
+        },
+        "reactive_modes": {
+          "defend": 4,
+          "counter": 4,
+          "punish": 2,
+          "save": 13,
+          "hold": 17,
+          "none": 10
+        }
+      }
+    }
+  }
+}

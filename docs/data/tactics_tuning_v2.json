@@ -1,0 +1,747 @@
+{
+  "dataset": "/Users/tylerjackson/Projects/clashbot/clashBot/.claude/worktrees/agent-aad7f4da136201045/dataset/v1",
+  "kg": true,
+  "passes": 3,
+  "objective": "[best.card == pro] + 0.5 * [pro card in moves[:3]] + 0.25 * [lane_of(best.tile) == pro lane, when the card matches]",
+  "tuned": true,
+  "reason": "pass 2 kept: val objective 0.4924 -> 0.5125",
+  "picked_pass": 2,
+  "history": [
+    {
+      "pass": 0,
+      "train": 0.4406446540880503,
+      "val": 0.4924107142857143,
+      "changes": 0
+    },
+    {
+      "pass": 1,
+      "train": 0.47386006289308175,
+      "val": 0.5044642857142857,
+      "changes": 18
+    },
+    {
+      "pass": 2,
+      "train": 0.482999213836478,
+      "val": 0.5125,
+      "changes": 6
+    },
+    {
+      "pass": 3,
+      "train": 0.48339229559748426,
+      "val": 0.5125,
+      "changes": 2
+    }
+  ],
+  "vetoed": {
+    "cycle_block_score": 9,
+    "answered_factor": 1
+  },
+  "changed": {
+    "base": [
+      0.5,
+      1.0
+    ],
+    "air_cannot_hit_penalty": [
+      0.5,
+      1.0
+    ],
+    "tank_swarm_bonus": [
+      0.3,
+      0.375
+    ],
+    "swarm_splash_bonus": [
+      0.6,
+      1.2
+    ],
+    "targeter_building_bonus": [
+      0.5,
+      1.0
+    ],
+    "targeter_swarm_bonus": [
+      0.3,
+      0.45
+    ],
+    "targeter_mini_tank_bonus": [
+      0.3,
+      0.15
+    ],
+    "kg_factor": [
+      0.2,
+      0.15
+    ],
+    "trade_overpay_per_elixir": [
+      0.15,
+      0.05
+    ],
+    "trade_good_bonus": [
+      0.1,
+      0.15
+    ],
+    "stop_high": [
+      0.3,
+      0.15
+    ],
+    "answered_frac": [
+      0.6,
+      0.15
+    ],
+    "answered_factor": [
+      0.3,
+      0.6
+    ],
+    "tower_ok_damage": [
+      300.0,
+      112.5
+    ],
+    "adequate_frac": [
+      0.35,
+      1.05
+    ],
+    "spell_value": [
+      0.55,
+      0.4125
+    ],
+    "counter_push": [
+      0.6,
+      0.45
+    ],
+    "punish": [
+      0.55,
+      0.4125
+    ],
+    "leak_wc": [
+      0.5,
+      0.625
+    ],
+    "bait_unknown": [
+      0.45,
+      0.5625
+    ],
+    "pressure": [
+      0.45,
+      0.5625
+    ]
+  },
+  "weights_before": {
+    "base": 0.5,
+    "air_cannot_hit_penalty": 0.5,
+    "tank_killer_bonus": 0.6,
+    "tank_building_bonus": 0.5,
+    "tank_swarm_bonus": 0.3,
+    "tank_spell_penalty": 0.6,
+    "swarm_splash_bonus": 0.6,
+    "swarm_melee_penalty": 0.4,
+    "targeter_building_bonus": 0.5,
+    "targeter_swarm_bonus": 0.3,
+    "targeter_mini_tank_bonus": 0.3,
+    "kg_factor": 0.2,
+    "kg_prior": 0.25,
+    "trade_overpay_per_elixir": 0.15,
+    "trade_overpay_slack": 1.0,
+    "trade_good_min": 1.0,
+    "trade_good_bonus": 0.1,
+    "win_condition_penalty": 0.4,
+    "stop_high": 0.3,
+    "stop_medium": 0.15,
+    "stop_low": -0.35,
+    "answered_frac": 0.6,
+    "answered_factor": 0.3,
+    "threat_model": 1.0,
+    "prevent": 0.8,
+    "role_scale": 0.5,
+    "tower_ok_damage": 300.0,
+    "adequate_frac": 0.35,
+    "ability": 0.5,
+    "ability_min_prevent": 1000.0,
+    "spell_value": 0.55,
+    "spell_value_ratio": 0.1,
+    "spell_value_cap": 0.3,
+    "counter_push": 0.6,
+    "split": 0.7,
+    "punish": 0.55,
+    "leak_wc": 0.5,
+    "leak": 0.4,
+    "bait_counter_used": 0.6,
+    "bait_unknown": 0.45,
+    "bait_counter_ready": 0.25,
+    "pressure": 0.45,
+    "support": 0.5,
+    "cycle": 0.35,
+    "cycle_block_score": 0.4
+  },
+  "weights_after": {
+    "base": 1.0,
+    "air_cannot_hit_penalty": 1.0,
+    "tank_killer_bonus": 0.6,
+    "tank_building_bonus": 0.5,
+    "tank_swarm_bonus": 0.375,
+    "tank_spell_penalty": 0.6,
+    "swarm_splash_bonus": 1.2,
+    "swarm_melee_penalty": 0.4,
+    "targeter_building_bonus": 1.0,
+    "targeter_swarm_bonus": 0.45,
+    "targeter_mini_tank_bonus": 0.15,
+    "kg_factor": 0.15,
+    "kg_prior": 0.25,
+    "trade_overpay_per_elixir": 0.05,
+    "trade_overpay_slack": 1.0,
+    "trade_good_min": 1.0,
+    "trade_good_bonus": 0.15,
+    "win_condition_penalty": 0.4,
+    "stop_high": 0.15,
+    "stop_medium": 0.15,
+    "stop_low": -0.35,
+    "answered_frac": 0.15,
+    "answered_factor": 0.6,
+    "threat_model": 1.0,
+    "prevent": 0.8,
+    "role_scale": 0.5,
+    "tower_ok_damage": 112.5,
+    "adequate_frac": 1.05,
+    "ability": 0.5,
+    "ability_min_prevent": 1000.0,
+    "spell_value": 0.4125,
+    "spell_value_ratio": 0.1,
+    "spell_value_cap": 0.3,
+    "counter_push": 0.45,
+    "split": 0.7,
+    "punish": 0.4125,
+    "leak_wc": 0.625,
+    "leak": 0.4,
+    "bait_counter_used": 0.6,
+    "bait_unknown": 0.5625,
+    "bait_counter_ready": 0.25,
+    "pressure": 0.5625,
+    "support": 0.5,
+    "cycle": 0.35,
+    "cycle_block_score": 0.4
+  },
+  "before": {
+    "train": {
+      "n_play": 5404,
+      "n_eligible": 2544,
+      "situations": {
+        "all": {
+          "n": 5404,
+          "n_eligible": 2544,
+          "objective": 0.4406,
+          "top1": 0.1177,
+          "top3": 0.1603,
+          "coverage": 0.4906,
+          "lane_when_top1": 0.327,
+          "random_top1": 0.1986
+        },
+        "push": {
+          "n": 2832,
+          "n_eligible": 1304,
+          "objective": 0.5721,
+          "top1": 0.1416,
+          "top3": 0.2189,
+          "coverage": 0.6095,
+          "lane_when_top1": 0.3491,
+          "random_top1": 0.1959
+        },
+        "no_push": {
+          "n": 2572,
+          "n_eligible": 1240,
+          "objective": 0.3024,
+          "top1": 0.0914,
+          "top3": 0.0956,
+          "coverage": 0.3596,
+          "lane_when_top1": 0.2894,
+          "random_top1": 0.2017
+        }
+      },
+      "by_intent": {
+        "bait": {
+          "n": 103,
+          "share": 0.0191,
+          "precision": 0.3204
+        },
+        "counter_push": {
+          "n": 426,
+          "share": 0.0788,
+          "precision": 0.1901
+        },
+        "cycle": {
+          "n": 408,
+          "share": 0.0755,
+          "precision": 0.2549
+        },
+        "defend": {
+          "n": 1429,
+          "share": 0.2644,
+          "precision": 0.2393
+        },
+        "leak": {
+          "n": 58,
+          "share": 0.0107,
+          "precision": 0.431
+        },
+        "pressure": {
+          "n": 15,
+          "share": 0.0028,
+          "precision": 0.2
+        },
+        "punish": {
+          "n": 14,
+          "share": 0.0026,
+          "precision": 0.2857
+        },
+        "spell_value": {
+          "n": 8,
+          "share": 0.0015,
+          "precision": 0.125
+        },
+        "split": {
+          "n": 59,
+          "share": 0.0109,
+          "precision": 0.1356
+        },
+        "support": {
+          "n": 131,
+          "share": 0.0242,
+          "precision": 0.2672
+        }
+      }
+    },
+    "val": {
+      "n_play": 1216,
+      "n_eligible": 560,
+      "situations": {
+        "all": {
+          "n": 1216,
+          "n_eligible": 560,
+          "objective": 0.4924,
+          "top1": 0.1316,
+          "top3": 0.1678,
+          "coverage": 0.5206,
+          "lane_when_top1": 0.3438,
+          "random_top1": 0.1756
+        },
+        "push": {
+          "n": 630,
+          "n_eligible": 307,
+          "objective": 0.5839,
+          "top1": 0.1587,
+          "top3": 0.2238,
+          "coverage": 0.6079,
+          "lane_when_top1": 0.35,
+          "random_top1": 0.1902
+        },
+        "no_push": {
+          "n": 586,
+          "n_eligible": 253,
+          "objective": 0.3814,
+          "top1": 0.1024,
+          "top3": 0.1075,
+          "coverage": 0.4266,
+          "lane_when_top1": 0.3333,
+          "random_top1": 0.16
+        }
+      },
+      "by_intent": {
+        "bait": {
+          "n": 52,
+          "share": 0.0428,
+          "precision": 0.2885
+        },
+        "counter_push": {
+          "n": 132,
+          "share": 0.1086,
+          "precision": 0.2424
+        },
+        "cycle": {
+          "n": 101,
+          "share": 0.0831,
+          "precision": 0.2079
+        },
+        "defend": {
+          "n": 294,
+          "share": 0.2418,
+          "precision": 0.2551
+        },
+        "leak": {
+          "n": 6,
+          "share": 0.0049,
+          "precision": 0.6667
+        },
+        "pressure": {
+          "n": 4,
+          "share": 0.0033,
+          "precision": 0.25
+        },
+        "punish": {
+          "n": 4,
+          "share": 0.0033,
+          "precision": 0.0
+        },
+        "spell_value": {
+          "n": 3,
+          "share": 0.0025,
+          "precision": 0.0
+        },
+        "split": {
+          "n": 26,
+          "share": 0.0214,
+          "precision": 0.2692
+        },
+        "support": {
+          "n": 11,
+          "share": 0.009,
+          "precision": 0.4545
+        }
+      }
+    },
+    "test": {
+      "n_play": 1194,
+      "n_eligible": 559,
+      "situations": {
+        "all": {
+          "n": 1194,
+          "n_eligible": 559,
+          "objective": 0.3631,
+          "top1": 0.0997,
+          "top3": 0.1256,
+          "coverage": 0.4171,
+          "lane_when_top1": 0.3025,
+          "random_top1": 0.1745
+        },
+        "push": {
+          "n": 572,
+          "n_eligible": 258,
+          "objective": 0.468,
+          "top1": 0.1171,
+          "top3": 0.1696,
+          "coverage": 0.493,
+          "lane_when_top1": 0.3134,
+          "random_top1": 0.1732
+        },
+        "no_push": {
+          "n": 622,
+          "n_eligible": 301,
+          "objective": 0.2733,
+          "top1": 0.0836,
+          "top3": 0.0852,
+          "coverage": 0.3473,
+          "lane_when_top1": 0.2885,
+          "random_top1": 0.1758
+        }
+      },
+      "by_intent": {
+        "bait": {
+          "n": 18,
+          "share": 0.0151,
+          "precision": 0.2778
+        },
+        "counter_push": {
+          "n": 78,
+          "share": 0.0653,
+          "precision": 0.3205
+        },
+        "cycle": {
+          "n": 125,
+          "share": 0.1047,
+          "precision": 0.192
+        },
+        "defend": {
+          "n": 234,
+          "share": 0.196,
+          "precision": 0.2479
+        },
+        "leak": {
+          "n": 8,
+          "share": 0.0067,
+          "precision": 0.125
+        },
+        "pressure": {
+          "n": 2,
+          "share": 0.0017,
+          "precision": 0.0
+        },
+        "punish": {
+          "n": 3,
+          "share": 0.0025,
+          "precision": 0.0
+        },
+        "spell_value": {
+          "n": 1,
+          "share": 0.0008,
+          "precision": 0.0
+        },
+        "split": {
+          "n": 6,
+          "share": 0.005,
+          "precision": 0.1667
+        },
+        "support": {
+          "n": 23,
+          "share": 0.0193,
+          "precision": 0.2174
+        }
+      }
+    }
+  },
+  "after": {
+    "train": {
+      "n_play": 5404,
+      "n_eligible": 2544,
+      "situations": {
+        "all": {
+          "n": 5404,
+          "n_eligible": 2544,
+          "objective": 0.483,
+          "top1": 0.1293,
+          "top3": 0.1741,
+          "coverage": 0.5179,
+          "lane_when_top1": 0.3391,
+          "random_top1": 0.1986
+        },
+        "push": {
+          "n": 2832,
+          "n_eligible": 1304,
+          "objective": 0.6511,
+          "top1": 0.1628,
+          "top3": 0.2451,
+          "coverage": 0.6617,
+          "lane_when_top1": 0.3557,
+          "random_top1": 0.1959
+        },
+        "no_push": {
+          "n": 2572,
+          "n_eligible": 1240,
+          "objective": 0.3063,
+          "top1": 0.0925,
+          "top3": 0.096,
+          "coverage": 0.3596,
+          "lane_when_top1": 0.3067,
+          "random_top1": 0.2017
+        }
+      },
+      "by_intent": {
+        "bait": {
+          "n": 192,
+          "share": 0.0355,
+          "precision": 0.2656
+        },
+        "counter_push": {
+          "n": 242,
+          "share": 0.0448,
+          "precision": 0.2107
+        },
+        "cycle": {
+          "n": 391,
+          "share": 0.0724,
+          "precision": 0.2609
+        },
+        "defend": {
+          "n": 1675,
+          "share": 0.31,
+          "precision": 0.2436
+        },
+        "leak": {
+          "n": 61,
+          "share": 0.0113,
+          "precision": 0.4262
+        },
+        "pressure": {
+          "n": 32,
+          "share": 0.0059,
+          "precision": 0.2188
+        },
+        "punish": {
+          "n": 5,
+          "share": 0.0009,
+          "precision": 0.6
+        },
+        "spell_value": {
+          "n": 6,
+          "share": 0.0011,
+          "precision": 0.1667
+        },
+        "split": {
+          "n": 60,
+          "share": 0.0111,
+          "precision": 0.2167
+        },
+        "support": {
+          "n": 135,
+          "share": 0.025,
+          "precision": 0.2741
+        }
+      }
+    },
+    "val": {
+      "n_play": 1216,
+      "n_eligible": 560,
+      "situations": {
+        "all": {
+          "n": 1216,
+          "n_eligible": 560,
+          "objective": 0.5125,
+          "top1": 0.1349,
+          "top3": 0.1785,
+          "coverage": 0.5461,
+          "lane_when_top1": 0.3537,
+          "random_top1": 0.1756
+        },
+        "push": {
+          "n": 630,
+          "n_eligible": 307,
+          "objective": 0.6319,
+          "top1": 0.1698,
+          "top3": 0.2444,
+          "coverage": 0.6571,
+          "lane_when_top1": 0.3738,
+          "random_top1": 0.1902
+        },
+        "no_push": {
+          "n": 586,
+          "n_eligible": 253,
+          "objective": 0.3676,
+          "top1": 0.0973,
+          "top3": 0.1075,
+          "coverage": 0.4266,
+          "lane_when_top1": 0.3158,
+          "random_top1": 0.16
+        }
+      },
+      "by_intent": {
+        "bait": {
+          "n": 88,
+          "share": 0.0724,
+          "precision": 0.2273
+        },
+        "counter_push": {
+          "n": 63,
+          "share": 0.0518,
+          "precision": 0.254
+        },
+        "cycle": {
+          "n": 99,
+          "share": 0.0814,
+          "precision": 0.202
+        },
+        "defend": {
+          "n": 340,
+          "share": 0.2796,
+          "precision": 0.25
+        },
+        "leak": {
+          "n": 7,
+          "share": 0.0058,
+          "precision": 0.7143
+        },
+        "pressure": {
+          "n": 11,
+          "share": 0.009,
+          "precision": 0.2727
+        },
+        "punish": {
+          "n": 2,
+          "share": 0.0016,
+          "precision": 0.0
+        },
+        "spell_value": {
+          "n": 3,
+          "share": 0.0025,
+          "precision": 0.0
+        },
+        "split": {
+          "n": 36,
+          "share": 0.0296,
+          "precision": 0.25
+        },
+        "support": {
+          "n": 15,
+          "share": 0.0123,
+          "precision": 0.4
+        }
+      }
+    },
+    "test": {
+      "n_play": 1194,
+      "n_eligible": 559,
+      "situations": {
+        "all": {
+          "n": 1194,
+          "n_eligible": 559,
+          "objective": 0.394,
+          "top1": 0.108,
+          "top3": 0.1365,
+          "coverage": 0.459,
+          "lane_when_top1": 0.3023,
+          "random_top1": 0.1745
+        },
+        "push": {
+          "n": 572,
+          "n_eligible": 258,
+          "objective": 0.5291,
+          "top1": 0.1329,
+          "top3": 0.1923,
+          "coverage": 0.5804,
+          "lane_when_top1": 0.2895,
+          "random_top1": 0.1732
+        },
+        "no_push": {
+          "n": 622,
+          "n_eligible": 301,
+          "objective": 0.2782,
+          "top1": 0.0852,
+          "top3": 0.0852,
+          "coverage": 0.3473,
+          "lane_when_top1": 0.3208,
+          "random_top1": 0.1758
+        }
+      },
+      "by_intent": {
+        "bait": {
+          "n": 41,
+          "share": 0.0343,
+          "precision": 0.3659
+        },
+        "counter_push": {
+          "n": 35,
+          "share": 0.0293,
+          "precision": 0.3143
+        },
+        "cycle": {
+          "n": 119,
+          "share": 0.0997,
+          "precision": 0.1849
+        },
+        "defend": {
+          "n": 303,
+          "share": 0.2538,
+          "precision": 0.2376
+        },
+        "leak": {
+          "n": 10,
+          "share": 0.0084,
+          "precision": 0.1
+        },
+        "pressure": {
+          "n": 7,
+          "share": 0.0059,
+          "precision": 0.4286
+        },
+        "punish": {
+          "n": 2,
+          "share": 0.0017,
+          "precision": 0.0
+        },
+        "split": {
+          "n": 5,
+          "share": 0.0042,
+          "precision": 0.0
+        },
+        "support": {
+          "n": 26,
+          "share": 0.0218,
+          "precision": 0.1923
+        }
+      }
+    }
+  },
+  "seconds": 134.0
+}

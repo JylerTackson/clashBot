@@ -1,0 +1,400 @@
+{
+  "n": {
+    "train": 3641,
+    "val": 761,
+    "test": 766
+  },
+  "features": 783,
+  "models": {
+    "logreg": {
+      "grid": [
+        {
+          "config": {
+            "lr": 0.01,
+            "wd": 0.0001,
+            "epochs": 40,
+            "batch": 128
+          },
+          "val_acc": 0.5427069645203679,
+          "best_epoch": -1
+        },
+        {
+          "config": {
+            "lr": 0.001,
+            "wd": 0.0001,
+            "epochs": 40,
+            "batch": 128
+          },
+          "val_acc": 0.5348226018396847,
+          "best_epoch": -1
+        }
+      ],
+      "best": {
+        "config": {
+          "lr": 0.01,
+          "wd": 0.0001,
+          "epochs": 40,
+          "batch": 128
+        },
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "val_acc": [
+          0.5427069645203679,
+          0.5505913272010512,
+          0.5440210249671484
+        ],
+        "test_acc": [
+          0.4699738903394256,
+          0.47911227154047,
+          0.47911227154047
+        ]
+      },
+      "val_acc_mean": 0.5457731055628559,
+      "val_acc_std": 0.003448974101625834,
+      "test_acc_mean": 0.47606614447345513,
+      "test_acc_std": 0.004307874210884097,
+      "test_by_kind": {
+        "key": {
+          "acc_mean": 0.5273132664437012,
+          "acc_std": 0.005684525656179244,
+          "n": 299
+        },
+        "periodic": {
+          "acc_mean": 0.45454545454545453,
+          "acc_std": 0.0,
+          "n": 11
+        },
+        "play": {
+          "acc_mean": 0.44298245614035087,
+          "acc_std": 0.005371688032419245,
+          "n": 456
+        }
+      }
+    },
+    "lgbm_lambdarank": {
+      "grid": [
+        {
+          "config": {
+            "n_estimators": 200,
+            "learning_rate": 0.05,
+            "num_leaves": 15
+          },
+          "val_acc": 0.533508541392904
+        },
+        {
+          "config": {
+            "n_estimators": 200,
+            "learning_rate": 0.05,
+            "num_leaves": 31
+          },
+          "val_acc": 0.5650459921156373
+        },
+        {
+          "config": {
+            "n_estimators": 500,
+            "learning_rate": 0.05,
+            "num_leaves": 15
+          },
+          "val_acc": 0.5321944809461235
+        },
+        {
+          "config": {
+            "n_estimators": 500,
+            "learning_rate": 0.05,
+            "num_leaves": 31
+          },
+          "val_acc": 0.5545335085413929
+        }
+      ],
+      "best": {
+        "config": {
+          "n_estimators": 200,
+          "learning_rate": 0.05,
+          "num_leaves": 31
+        },
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "val_acc": [
+          0.5650459921156373,
+          0.5308804204993429,
+          0.5492772667542707
+        ],
+        "test_acc": [
+          0.48172323759791125,
+          0.4830287206266319,
+          0.5091383812010444
+        ]
+      },
+      "val_acc_mean": 0.548401226456417,
+      "val_acc_std": 0.013961784888750989,
+      "test_acc_mean": 0.4912967798085292,
+      "test_acc_std": 0.012627169824670924,
+      "test_by_kind": {
+        "key": {
+          "acc_mean": 0.5217391304347826,
+          "acc_std": 0.022352215892712832,
+          "n": 299
+        },
+        "periodic": {
+          "acc_mean": 0.6666666666666666,
+          "acc_std": 0.04285495643554835,
+          "n": 11
+        },
+        "play": {
+          "acc_mean": 0.46710526315789475,
+          "acc_std": 0.008952813387365423,
+          "n": 456
+        }
+      }
+    },
+    "dcn_v2": {
+      "grid": [
+        {
+          "config": {
+            "lr": 0.001,
+            "wd": 1e-05,
+            "epochs": 40,
+            "patience": 5,
+            "batch": 128
+          },
+          "val_acc": 0.5282522996057819,
+          "best_epoch": 1
+        },
+        {
+          "config": {
+            "lr": 0.0003,
+            "wd": 1e-05,
+            "epochs": 40,
+            "patience": 5,
+            "batch": 128
+          },
+          "val_acc": 0.5374507227332457,
+          "best_epoch": 3
+        }
+      ],
+      "best": {
+        "config": {
+          "lr": 0.0003,
+          "wd": 1e-05,
+          "epochs": 40,
+          "patience": 5,
+          "batch": 128
+        },
+        "seeds": [
+          0,
+          1,
+          2
+        ],
+        "val_acc": [
+          0.5374507227332457,
+          0.507227332457293,
+          0.533508541392904
+        ],
+        "test_acc": [
+          0.40339425587467365,
+          0.402088772845953,
+          0.4308093994778068
+        ]
+      },
+      "val_acc_mean": 0.5260621988611476,
+      "val_acc_std": 0.013415149216919444,
+      "test_acc_mean": 0.4120974760661445,
+      "test_acc_std": 0.013242057488862424,
+      "test_by_kind": {
+        "key": {
+          "acc_mean": 0.443701226309922,
+          "acc_std": 0.015039841207616561,
+          "n": 299
+        },
+        "periodic": {
+          "acc_mean": 0.393939393939394,
+          "acc_std": 0.15451574283614497,
+          "n": 11
+        },
+        "play": {
+          "acc_mean": 0.39181286549707606,
+          "acc_std": 0.012576498928424886,
+          "n": 456
+        }
+      }
+    }
+  },
+  "ablation": {
+    "full": {
+      "n_features": 783,
+      "val_acc": 0.5650459921156373,
+      "test_acc": 0.48172323759791125
+    },
+    "no_kg_counter": {
+      "n_features": 782,
+      "val_acc": 0.533508541392904,
+      "test_acc": 0.4804177545691906
+    },
+    "no_popularity": {
+      "n_features": 780,
+      "val_acc": 0.5505913272010512,
+      "test_acc": 0.5039164490861618
+    },
+    "no_state_block": {
+      "n_features": 139,
+      "val_acc": 0.5387647831800263,
+      "test_acc": 0.48172323759791125
+    },
+    "no_train_stats": {
+      "n_features": 779,
+      "val_acc": 0.5387647831800263,
+      "test_acc": 0.52088772845953
+    }
+  },
+  "reference": {
+    "random_expected": {
+      "val_acc": 0.25,
+      "test_acc": 0.25,
+      "test_by_kind": {
+        "key": 0.25,
+        "periodic": 0.25,
+        "play": 0.25
+      },
+      "source": "copied from ranker/baselines.json (full val/test files)"
+    },
+    "placement_prior": {
+      "val_acc": 0.4928,
+      "test_acc": 0.3838,
+      "test_by_kind": {
+        "key": 0.4281,
+        "periodic": 0.3636,
+        "play": 0.3553
+      },
+      "source": "copied from ranker/baselines.json (full val/test files)"
+    },
+    "popularity": {
+      "val_acc": 0.4678,
+      "test_acc": 0.3251,
+      "test_by_kind": {
+        "key": 0.3244,
+        "periodic": 0.3636,
+        "play": 0.3246
+      },
+      "source": "copied from ranker/baselines.json (full val/test files)"
+    },
+    "option_set_shortcut": {
+      "val_acc": 0.25,
+      "test_acc": 0.25,
+      "test_by_kind": {
+        "key": 0.25,
+        "periodic": 0.25,
+        "play": 0.25
+      },
+      "note": "not a valid model: scores an option by how many other options share its card / (lane, zone); shows the option-set leak"
+    }
+  },
+  "importance": [
+    {
+      "feature": "opt:log_pop_key",
+      "gain": 11016.326953530312,
+      "gain_frac": 0.1781727666388577
+    },
+    {
+      "feature": "opt:p_zone_given_card",
+      "gain": 7665.614229798317,
+      "gain_frac": 0.12397995276199338
+    },
+    {
+      "feature": "opt:log_pop_card",
+      "gain": 5394.898522377014,
+      "gain_frac": 0.08725449049601441
+    },
+    {
+      "feature": "opt:log_pop_key_phase",
+      "gain": 3133.1004930734634,
+      "gain_frac": 0.05067325846112218
+    },
+    {
+      "feature": "state:scalars:own_elixir",
+      "gain": 1530.8253054618835,
+      "gain_frac": 0.024758831238892366
+    },
+    {
+      "feature": "state:towers:enemy_right",
+      "gain": 1417.4491074085236,
+      "gain_frac": 0.022925139214012083
+    },
+    {
+      "feature": "opt:elixir_after",
+      "gain": 1376.4083096981049,
+      "gain_frac": 0.02226136511725766
+    },
+    {
+      "feature": "state:towers:own_left",
+      "gain": 1329.3521828651428,
+      "gain_frac": 0.021500301984282013
+    },
+    {
+      "feature": "state:towers:own_king",
+      "gain": 1106.6360329389572,
+      "gain_frac": 0.017898198236372957
+    },
+    {
+      "feature": "state:scalars:match_progress",
+      "gain": 1101.1877698898315,
+      "gain_frac": 0.017810080653721878
+    },
+    {
+      "feature": "state:towers:enemy_left",
+      "gain": 1041.3050351142883,
+      "gain_frac": 0.0168415661412291
+    },
+    {
+      "feature": "state:towers:own_right",
+      "gain": 969.3937327861786,
+      "gain_frac": 0.015678507370147813
+    },
+    {
+      "feature": "state:scalars:opp_elixir",
+      "gain": 942.8773515224457,
+      "gain_frac": 0.015249644189984478
+    },
+    {
+      "feature": "state:towers:enemy_king",
+      "gain": 809.5741708278656,
+      "gain_frac": 0.013093662744780401
+    },
+    {
+      "feature": "opt:lane:middle",
+      "gain": 712.8567795753479,
+      "gain_frac": 0.011529402238148325
+    },
+    {
+      "feature": "opt:in_hand",
+      "gain": 679.567679643631,
+      "gain_frac": 0.010991000368017674
+    },
+    {
+      "feature": "opt:lane:right",
+      "gain": 601.9582009315491,
+      "gain_frac": 0.009735782036366773
+    },
+    {
+      "feature": "opt:cost",
+      "gain": 572.5702900886536,
+      "gain_frac": 0.009260476119730304
+    },
+    {
+      "feature": "opt:zone:mid",
+      "gain": 516.8289844989777,
+      "gain_frac": 0.008358943088360724
+    },
+    {
+      "feature": "opt:lane:left",
+      "gain": 507.9989755153656,
+      "gain_frac": 0.008216130775627762
+    }
+  ],
+  "kg_counter_available": true
+}

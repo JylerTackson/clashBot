@@ -1,0 +1,789 @@
+{
+ "meta": {
+  "git_head": "9ca39a7",
+  "n_calls": 200,
+  "warmup": 5
+ },
+ "h6": {
+  "runs": [
+   "lat_1",
+   "lat_2",
+   "lat_3"
+  ],
+  "stages": {
+   "capture": {
+    "p50": {
+     "n": 3,
+     "mean": 0.7966666666666665,
+     "sd": 0.08736894948054107,
+     "values": [
+      0.82,
+      0.87,
+      0.7
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 4.343333333333333,
+     "sd": 1.4005118112080785,
+     "values": [
+      4.2,
+      3.02,
+      5.81
+     ]
+    }
+   },
+   "perception": {
+    "p50": {
+     "n": 3,
+     "mean": 179.15333333333334,
+     "sd": 7.646086144775857,
+     "values": [
+      170.71,
+      181.14,
+      185.61
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 234.19333333333336,
+     "sd": 29.20710587054688,
+     "values": [
+      207.34,
+      229.95,
+      265.29
+     ]
+    }
+   },
+   "live_state": {
+    "p50": {
+     "n": 3,
+     "mean": 0.22,
+     "sd": 0.010000000000000009,
+     "values": [
+      0.23,
+      0.22,
+      0.21
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 0.52,
+     "sd": 0.11532562594670795,
+     "values": [
+      0.63,
+      0.53,
+      0.4
+     ]
+    }
+   },
+   "trigger": {
+    "p50": {
+     "n": 3,
+     "mean": 2.6799999999999997,
+     "sd": 0.12124355652982154,
+     "values": [
+      2.79,
+      2.7,
+      2.55
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 9.733333333333333,
+     "sd": 3.696137623700359,
+     "values": [
+      10.24,
+      13.15,
+      5.81
+     ]
+    }
+   },
+   "candidates": {
+    "p50": {
+     "n": 3,
+     "mean": 46.72666666666667,
+     "sd": 2.4027969812976986,
+     "values": [
+      45.41,
+      49.5,
+      45.27
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 86.10666666666667,
+     "sd": 12.439699889198828,
+     "values": [
+      84.96,
+      99.08,
+      74.28
+     ]
+    }
+   },
+   "rank": {
+    "p50": {
+     "n": 3,
+     "mean": 87.06,
+     "sd": 10.573916020093975,
+     "values": [
+      76.14,
+      97.25,
+      87.79
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 190.95666666666668,
+     "sd": 21.1816296193974,
+     "values": [
+      170.68,
+      212.94,
+      189.25
+     ]
+    }
+   },
+   "execute": {
+    "p50": {
+     "n": 3,
+     "mean": 0.016666666666666666,
+     "sd": 0.005773502691896258,
+     "values": [
+      0.01,
+      0.02,
+      0.02
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 0.06333333333333334,
+     "sd": 0.015275252316519466,
+     "values": [
+      0.05,
+      0.06,
+      0.08
+     ]
+    }
+   },
+   "total": {
+    "p50": {
+     "n": 3,
+     "mean": 271.68666666666667,
+     "sd": 20.136693704114723,
+     "values": [
+      260.61,
+      294.93,
+      259.52
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 455.15333333333336,
+     "sd": 41.178968337408996,
+     "values": [
+      410.18,
+      491.01,
+      464.27
+     ]
+    }
+   }
+  },
+  "frame_stages": {
+   "capture": {
+    "p50": {
+     "n": 3,
+     "mean": 0.9933333333333333,
+     "sd": 0.07767453465154031,
+     "values": [
+      0.93,
+      1.08,
+      0.97
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 8.336666666666666,
+     "sd": 0.29022979401387006,
+     "values": [
+      8.4,
+      8.59,
+      8.02
+     ]
+    }
+   },
+   "perception": {
+    "p50": {
+     "n": 3,
+     "mean": 103.17666666666666,
+     "sd": 0.8409716602438749,
+     "values": [
+      102.36,
+      104.04,
+      103.13
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 236.98666666666668,
+     "sd": 12.273794577608555,
+     "values": [
+      223.99,
+      248.38,
+      238.59
+     ]
+    }
+   },
+   "live_state": {
+    "p50": {
+     "n": 3,
+     "mean": 0.18333333333333335,
+     "sd": 0.005773502691896263,
+     "values": [
+      0.18,
+      0.19,
+      0.18
+     ]
+    },
+    "p95": {
+     "n": 3,
+     "mean": 0.48,
+     "sd": 0.017320508075688787,
+     "values": [
+      0.47,
+      0.5,
+      0.47
+     ]
+    }
+   }
+  },
+  "decisions": [
+   45,
+   45,
+   45
+  ],
+  "target_met": 0
+ },
+ "runs": [
+  {
+   "run": "20261103-192225",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "score",
+   "policy": null,
+   "seconds": 60.0,
+   "decisions": 28,
+   "frames": 221,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 20.75,
+     "p95": 24.82
+    },
+    "perception": {
+     "p50": 94.21,
+     "p95": 545.09
+    },
+    "live_state": {
+     "p50": 0.07,
+     "p95": 0.13
+    },
+    "trigger": {
+     "p50": 0.01,
+     "p95": 0.01
+    },
+    "candidates": {
+     "p50": 16.28,
+     "p95": 30.21
+    },
+    "rank": {
+     "p50": 0.01,
+     "p95": 0.02
+    },
+    "execute": {
+     "p50": 393.32,
+     "p95": 399.61
+    },
+    "total": {
+     "p50": 526.53,
+     "p95": 849.9
+    }
+   }
+  },
+  {
+   "run": "20261103-192709",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "score",
+   "policy": null,
+   "seconds": 200.0,
+   "decisions": 25,
+   "frames": 1817,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 21.69,
+     "p95": 32.28
+    },
+    "perception": {
+     "p50": 93.08,
+     "p95": 215.58
+    },
+    "live_state": {
+     "p50": 0.12,
+     "p95": 0.33
+    },
+    "trigger": {
+     "p50": 0.01,
+     "p95": 0.02
+    },
+    "candidates": {
+     "p50": 23.91,
+     "p95": 49.59
+    },
+    "rank": {
+     "p50": 0.02,
+     "p95": 0.02
+    },
+    "execute": {
+     "p50": 383.1,
+     "p95": 397.71
+    },
+    "total": {
+     "p50": 441.04,
+     "p95": 624.1
+    }
+   }
+  },
+  {
+   "run": "20261105-194101",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "d1",
+   "policy": "reactive",
+   "seconds": 200.0,
+   "decisions": 80,
+   "frames": 1409,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 21.46,
+     "p95": 44.01
+    },
+    "perception": {
+     "p50": 106.96,
+     "p95": 223.49
+    },
+    "live_state": {
+     "p50": 0.11,
+     "p95": 0.19
+    },
+    "trigger": {
+     "p50": 0.02,
+     "p95": 0.03
+    },
+    "candidates": {
+     "p50": 30.09,
+     "p95": 45.08
+    },
+    "rank": {
+     "p50": 55.65,
+     "p95": 145.62
+    },
+    "execute": {
+     "p50": 182.8,
+     "p95": 189.17
+    },
+    "total": {
+     "p50": 392.88,
+     "p95": 576.97
+    }
+   }
+  },
+  {
+   "run": "20261105-205720",
+   "mode": "dry",
+   "source": "mirroring",
+   "ranker": "d1",
+   "policy": "reactive",
+   "seconds": 15.0,
+   "decisions": 0,
+   "frames": 150,
+   "target_met": null,
+   "stages": {}
+  },
+  {
+   "run": "20261105-205934",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "d1",
+   "policy": "reactive",
+   "seconds": 300.0,
+   "decisions": 61,
+   "frames": 2533,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 20.6,
+     "p95": 45.73
+    },
+    "perception": {
+     "p50": 96.03,
+     "p95": 201.59
+    },
+    "live_state": {
+     "p50": 0.12,
+     "p95": 0.16
+    },
+    "trigger": {
+     "p50": 0.18,
+     "p95": 0.41
+    },
+    "candidates": {
+     "p50": 30.93,
+     "p95": 38.68
+    },
+    "rank": {
+     "p50": 0.0,
+     "p95": 77.19
+    },
+    "execute": {
+     "p50": 183.46,
+     "p95": 188.91
+    },
+    "total": {
+     "p50": 330.66,
+     "p95": 491.67
+    }
+   }
+  },
+  {
+   "run": "20261106-133529",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "d1",
+   "policy": "fast",
+   "seconds": 900.0,
+   "decisions": 181,
+   "frames": 6885,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 22.02,
+     "p95": 62.06
+    },
+    "perception": {
+     "p50": 106.88,
+     "p95": 311.58
+    },
+    "live_state": {
+     "p50": 0.13,
+     "p95": 0.31
+    },
+    "trigger": {
+     "p50": 0.24,
+     "p95": 0.58
+    },
+    "candidates": {
+     "p50": 31.26,
+     "p95": 59.96
+    },
+    "rank": {
+     "p50": 65.47,
+     "p95": 315.1
+    },
+    "execute": {
+     "p50": 183.32,
+     "p95": 191.61
+    },
+    "total": {
+     "p50": 371.35,
+     "p95": 791.08
+    }
+   }
+  },
+  {
+   "run": "20261106-135724",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "d1",
+   "policy": "fast",
+   "seconds": 900.0,
+   "decisions": 61,
+   "frames": 8341,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 20.36,
+     "p95": 32.99
+    },
+    "perception": {
+     "p50": 44.73,
+     "p95": 224.57
+    },
+    "live_state": {
+     "p50": 0.13,
+     "p95": 0.31
+    },
+    "trigger": {
+     "p50": 0.29,
+     "p95": 0.71
+    },
+    "candidates": {
+     "p50": 24.89,
+     "p95": 48.61
+    },
+    "rank": {
+     "p50": 0.0,
+     "p95": 142.45
+    },
+    "execute": {
+     "p50": 181.56,
+     "p95": 186.3
+    },
+    "total": {
+     "p50": 263.4,
+     "p95": 571.6
+    }
+   }
+  },
+  {
+   "run": "20261106-170722",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "d1",
+   "policy": "fast",
+   "seconds": 900.0,
+   "decisions": 56,
+   "frames": 8376,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 20.96,
+     "p95": 46.62
+    },
+    "perception": {
+     "p50": 94.05,
+     "p95": 198.29
+    },
+    "live_state": {
+     "p50": 0.12,
+     "p95": 0.28
+    },
+    "trigger": {
+     "p50": 0.34,
+     "p95": 1.37
+    },
+    "candidates": {
+     "p50": 22.52,
+     "p95": 52.26
+    },
+    "rank": {
+     "p50": 0.0,
+     "p95": 74.06
+    },
+    "execute": {
+     "p50": 183.0,
+     "p95": 186.44
+    },
+    "total": {
+     "p50": 303.24,
+     "p95": 486.2
+    }
+   }
+  },
+  {
+   "run": "20261106-233907",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "d1",
+   "policy": "fast",
+   "seconds": 900.0,
+   "decisions": 116,
+   "frames": 7151,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 21.24,
+     "p95": 37.61
+    },
+    "perception": {
+     "p50": 96.64,
+     "p95": 224.63
+    },
+    "live_state": {
+     "p50": 0.13,
+     "p95": 0.23
+    },
+    "trigger": {
+     "p50": 1.44,
+     "p95": 4.31
+    },
+    "candidates": {
+     "p50": 24.87,
+     "p95": 44.03
+    },
+    "rank": {
+     "p50": 0.0,
+     "p95": 119.98
+    },
+    "execute": {
+     "p50": 183.52,
+     "p95": 186.04
+    },
+    "total": {
+     "p50": 336.5,
+     "p95": 506.22
+    }
+   }
+  },
+  {
+   "run": "20261107-111554",
+   "mode": "live",
+   "source": "mirroring",
+   "ranker": "d1",
+   "policy": "fast",
+   "seconds": 900.0,
+   "decisions": 125,
+   "frames": 7169,
+   "target_met": false,
+   "stages": {
+    "capture": {
+     "p50": 21.2,
+     "p95": 32.05
+    },
+    "perception": {
+     "p50": 102.44,
+     "p95": 229.96
+    },
+    "live_state": {
+     "p50": 0.13,
+     "p95": 0.33
+    },
+    "trigger": {
+     "p50": 1.5,
+     "p95": 8.69
+    },
+    "candidates": {
+     "p50": 26.08,
+     "p95": 56.86
+    },
+    "rank": {
+     "p50": 0.0,
+     "p95": 136.7
+    },
+    "execute": {
+     "p50": 183.25,
+     "p95": 188.06
+    },
+    "total": {
+     "p50": 338.86,
+     "p95": 571.8
+    }
+   }
+  }
+ ],
+ "micro": {
+  "katacr": {
+   "frame": "data/videos/Z8-4VhLjrGU/Z8-4VhLjrGU.mp4 t=90 s, content 566x1195, arena crop 566x839, imgsz 640",
+   "mps": {
+    "n": 200,
+    "mean_ms": 105.305,
+    "p50_ms": 106.075,
+    "p95_ms": 110.216,
+    "min_ms": 95.714,
+    "max_ms": 119.456,
+    "detections": 7
+   },
+   "cpu": {
+    "n": 200,
+    "mean_ms": 471.406,
+    "p50_ms": 465.644,
+    "p95_ms": 498.104,
+    "min_ms": 440.014,
+    "max_ms": 549.411,
+    "detections": 7
+   },
+   "bench_wall_s": 122.7
+  },
+  "d1": {
+   "n": 200,
+   "mean_ms": 75.105,
+   "p50_ms": 68.127,
+   "p95_ms": 110.293,
+   "min_ms": 49.164,
+   "max_ms": 178.147,
+   "cold_first_call_ms": 3017.4,
+   "note": "each call = ranker.probabilities on one joint_tac_v2 line (4 options); 50 distinct lines cycled",
+   "bench_wall_s": 18.3
+  },
+  "act": {
+   "p_act": {
+    "n": 200,
+    "mean_ms": 0.025,
+    "p50_ms": 0.025,
+    "p95_ms": 0.031,
+    "min_ms": 0.016,
+    "max_ms": 0.04
+   },
+   "features_only": {
+    "n": 200,
+    "mean_ms": 0.015,
+    "p50_ms": 0.014,
+    "p95_ms": 0.021,
+    "min_ms": 0.008,
+    "max_ms": 0.028
+   },
+   "horizon_s": 2.0,
+   "bench_wall_s": 0.2
+  },
+  "knn": {
+   "n_vectors": 10923,
+   "dim": 644,
+   "ef": 40,
+   "StateIndex.knn exact (k=10)": {
+    "n": 200,
+    "mean_ms": 1.496,
+    "p50_ms": 1.535,
+    "p95_ms": 2.039,
+    "min_ms": 1.061,
+    "max_ms": 2.33
+   },
+   "StateIndex.knn hnsw (k=10)": {
+    "n": 200,
+    "mean_ms": 0.668,
+    "p50_ms": 0.671,
+    "p95_ms": 0.83,
+    "min_ms": 0.405,
+    "max_ms": 1.077
+   },
+   "raw exact (matmul + top-10)": {
+    "n": 200,
+    "mean_ms": 1.707,
+    "p50_ms": 1.539,
+    "p95_ms": 2.365,
+    "min_ms": 1.364,
+    "max_ms": 2.691
+   },
+   "raw hnswlib knn_query (k=10)": {
+    "n": 200,
+    "mean_ms": 0.325,
+    "p50_ms": 0.327,
+    "p95_ms": 0.41,
+    "min_ms": 0.213,
+    "max_ms": 0.638
+   },
+   "hnsw_recall_at_10_vs_exact": 0.986,
+   "bench_wall_s": 1.8
+  },
+  "candidates": {
+   "n": 200,
+   "mean_ms": 28.791,
+   "p50_ms": 29.761,
+   "p95_ms": 40.896,
+   "min_ms": 13.38,
+   "max_ms": 54.667,
+   "note": "50 distinct val states cycled 4x; no tactics report, no exclude_game filter (as in the live stack)",
+   "bench_wall_s": 6.4
+  }
+ }
+}
