@@ -276,4 +276,15 @@ Training the LLM on the tactics context gains +1.6 / +1.4 points over the no-tac
   - deck co-occurrence including Training Camp decks, and an opponent-deck model (recall 2–3× the popularity baseline);
   - stat-based role transfer and ability nodes.
 - **How decisions use the graph.** The engine takes a prior from `answers_for`; pro-offset placement applies when n ≥ 5; elixir is reserved for predicted air cards; `KG:` facts lines go into the LLM context. `build_d1_tac` renders training states identically to live (shared `build_engine` / `rank_context`).
-- **Retrain.** `runs/overnight/NEXT4.sh` (started 20:34) rebuilds `joint_tac` with the K4b engine and KG facts, fine-tunes `d1-ft-joint-kg` from `d1-ft-joint-tac` (2 epochs) and evaluates both. Next: recorded Training Camp matches with `--d1-model db/models/d1-ft-joint-kg`.
+- **Retrain.** `runs/overnight/NEXT4.sh` (20:34–22:04) rebuilt `joint_tac` with the K4b engine and KG facts (3,641 train / 761 val / 766 test lines; 0 context mismatches), fine-tuned `d1-ft-joint-kg` from `d1-ft-joint-tac` (2 epochs, ~83 min, peak MPS 19.2 GiB) and evaluated both models on the same data:
+
+  | model | val | test | ms p50 |
+  |---|---|---|---|
+  | d1-ft-joint-kg (new) | 0.531 | 0.475 | 76 / 65 |
+  | **d1-ft-joint-tac** (not trained on KG lines) | **0.536** | **0.507** | 77 / 67 |
+  | placement prior (baseline) | 0.493 | 0.384 | |
+
+  - The retrain did not help. Epoch 1 was best (val play 0.531). In epoch 2, train loss fell 0.82 → 0.43 while val loss rose 1.19 → 1.67: it overfit.
+  - A likely cause, not yet verified: the `KG:` lines on train lines are built from the same pro games (the K-series leakage note), so they fit train better than val.
+  - **Live keeps `d1-ft-joint-tac`.** It reads the new `KG:` and `tactics:` context at least as well as the retrained model. Reports: `docs/data/d1_finetune_joint_kg_{train,eval}_v1.json` and `d1_finetune_joint_tac_on_kg_eval_v1.json`.
+  - Next: recorded Training Camp matches with `--d1-model db/models/d1-ft-joint-tac`.

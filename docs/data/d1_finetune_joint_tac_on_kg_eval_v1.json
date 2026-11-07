@@ -1,0 +1,99 @@
+{
+ "backend": "transformers",
+ "model_id": "db/models/d1-ft-joint-tac",
+ "variants": {
+  "joint": {
+   "val": {
+    "n": 761,
+    "acc": 0.5361,
+    "acc_by_kind": {
+     "key": {
+      "acc": 0.5247,
+      "n": 263
+     },
+     "periodic": {
+      "acc": 0.5714,
+      "n": 7
+     },
+     "play": {
+      "acc": 0.5418,
+      "n": 491
+     }
+    },
+    "mean_gold_prob": 0.4223,
+    "pred_position_counts": [
+     150,
+     177,
+     237,
+     197
+    ],
+    "gold_position_counts": [
+     198,
+     194,
+     205,
+     164
+    ],
+    "option_set_shortcut": 0.25,
+    "d1_agrees_with_shortcut": 1.0,
+    "ms_p50": 76.58,
+    "ms_p95": 105.54
+   },
+   "test": {
+    "n": 766,
+    "acc": 0.5065,
+    "acc_by_kind": {
+     "key": {
+      "acc": 0.5351,
+      "n": 299
+     },
+     "periodic": {
+      "acc": 0.7273,
+      "n": 11
+     },
+     "play": {
+      "acc": 0.4825,
+      "n": 456
+     }
+    },
+    "mean_gold_prob": 0.3753,
+    "pred_position_counts": [
+     183,
+     202,
+     196,
+     185
+    ],
+    "gold_position_counts": [
+     191,
+     182,
+     203,
+     190
+    ],
+    "option_set_shortcut": 0.25,
+    "d1_agrees_with_shortcut": 1.0,
+    "ms_p50": 66.61,
+    "ms_p95": 100.59
+   }
+  }
+ },
+ "baselines": {
+  "val": {
+   "random_expected": 0.25,
+   "popularity": 0.4678,
+   "popularity_by_phase": 0.4481,
+   "card_popularity_in_deck": 0.2326,
+   "placement_prior": 0.4928,
+   "option_set_shortcut": 0.25
+  },
+  "test": {
+   "random_expected": 0.25,
+   "popularity": 0.3251,
+   "popularity_by_phase": 0.299,
+   "card_popularity_in_deck": 0.2428,
+   "placement_prior": 0.3838,
+   "option_set_shortcut": 0.25
+  }
+ },
+ "limit": null,
+ "model_path": "db/models/d1-ft-joint-tac",
+ "dtype": "auto"
+}

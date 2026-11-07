@@ -1,0 +1,76 @@
+{
+ "args": {
+  "variant": "joint",
+  "data": "dataset/v1/d1/joint_tac",
+  "out": "db/models/d1-ft-joint-kg",
+  "init": "db/models/d1-ft-joint-tac",
+  "epochs": 2,
+  "lr": 2e-05,
+  "weight_decay": 0.01,
+  "warmup": 0.05,
+  "max_tokens": 3072,
+  "accum": 8,
+  "train_layers": 16,
+  "balance": false,
+  "limit": null,
+  "val_limit": null,
+  "device": "mps",
+  "seed": 0,
+  "fp32": false,
+  "grad_ckpt": false,
+  "max_gb": 26.0,
+  "head_rows": true,
+  "estimate_only": false
+ },
+ "arch": "d1_omni",
+ "max_tokens": 3072,
+ "memory_estimate": null,
+ "rows": {
+  "train": 3641,
+  "val": 761,
+  "train_lines": 3641,
+  "val_lines": 761
+ },
+ "trainable_params": 313623297,
+ "primary_metric": "play",
+ "epochs": [
+  {
+   "epoch": 1,
+   "train_loss": 0.8219904905485398,
+   "val_loss": 1.1916470765362588,
+   "val_metrics": {
+    "play": 0.5308804204993429,
+    "n_rows": 761,
+    "n_lines": 761
+   },
+   "train_rows_per_s": 1.5747766897178133,
+   "seconds": 2480.2937881946564,
+   "train_seconds": 2312.9145562648773
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.42571998241684506,
+   "val_loss": 1.670840768622046,
+   "val_metrics": {
+    "play": 0.5137976346911958,
+    "n_rows": 761,
+    "n_lines": 761
+   },
+   "train_rows_per_s": 1.56897081964856,
+   "seconds": 2487.7373702526093,
+   "train_seconds": 2321.540867090225
+  }
+ ],
+ "best_epoch": 1,
+ "temperatures": {
+  "choice:3-5": 1.95
+ },
+ "reload_ok": true,
+ "reload_max_abs_diff": 8.344650268554688e-07,
+ "peak_mps_bytes": 20592656384,
+ "optimizer_steps": 188,
+ "warm_train_rows_per_s": 1.572567211884302,
+ "warm_train_tokens_per_s": 860.8218659105393,
+ "loop_seconds": 4972.978858947754,
+ "total_seconds": 4984.315320014954
+}
