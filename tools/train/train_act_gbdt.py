@@ -122,7 +122,7 @@ def fast_predictions(decisions: list, probs: np.ndarray, threshold: float) -> li
     for r, p in zip(decisions, probs):
         if r.mode == "none":
             out.append(False)
-        elif r.act and r.mode in ("defend", "counter", "leak"):
+        elif r.act and r.mode in ("defend", "counter", "spell", "leak"):
             out.append(True)
         else:
             out.append(bool(p >= threshold))

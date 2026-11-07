@@ -179,8 +179,11 @@ def test_other_modes_delegate_to_the_rules():
     cands = _cands("knight|right|mid", "knight|left|mid", "giant|left|back", "zap|left|back")
     assert policy.filter_candidates(cands, d, state) == RULES.filter_candidates(cands, d, state)
     # MAC-AC: defend narrows to the cards the tactics engine calls an adequate answer. The giant only attacks
-    # buildings, so it is not a defender (the zap is a blind spell here): only the knight survives.
-    assert [c.key for c in policy.filter_candidates(cands, d, state)] == ["knight|left|mid"]
+    # buildings, so it is not a defender (the zap is a blind spell here): only the knight survives of the generator's
+    # candidates; the other cards the policy allowed come as the engine's own (MAC-AL P3.7: the LLM always sees them).
+    out = policy.filter_candidates(cands, d, state)
+    assert out[0].key == "knight|left|mid" and all(c.sources == {"tac": 0.0} for c in out[1:])
+    assert {c.key.split("|")[0] for c in out} == set(d.allowed_cards)
 
 
 def test_live_loop_runs_the_learned_policy_with_the_context_text():

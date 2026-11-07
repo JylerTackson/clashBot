@@ -8,12 +8,12 @@ fixed-interval `should_decide`. The loop plays only cards it can see in the hand
 policy for a spell's aim point (`target_tile`) when it has one. With a `TacticalEngine` (default; `--no-tactics` turns
 it off, MAC-Z3) the candidates start with the engine's concrete moves, every candidate carries a note, and the ranker
 sees the engine's lines after the context; `--ranker tactics` plays the engine's own pick without any model.
-While the hero ability button is visible and affordable and her Musketeer is on the field, a candidate
-`ability:musketeer|lane|zone` (MAC-AI) joins the ranker's options; when the ranker picks it, `executor.tap_ability`
-taps the button instead of a card (no hand check) and the 3 elixir enter the state builder's accounting. When the engine
-proposes it (MAC-AI part 2: the turret simulated at its spawn tile makes a push adequate or prevents 400+ tower HP) the
-candidate carries the engine's reason, and when the policy lists `ability:musketeer` among the decision's allowed cards
-it is offered even when no card candidate survives.
+The hero ability is used sparingly (D-049, MAC-AL P4): a candidate `ability:musketeer|lane|zone` (MAC-AI) joins the
+ranker's options only when the engine proposes it (the turret simulated at its spawn tile prevents 1,000+ tower HP) AND
+the policy lists `ability:musketeer` among the decision's allowed cards, at most once per `ABILITY_MIN_GAP_S` game
+seconds; its note carries the engine's reason and "3 elixir, use rarely", and it is offered even when no card candidate
+survives. When the ranker picks it, `executor.tap_ability` taps the button instead of a card (no hand check) and the 3
+elixir enter the state builder's accounting.
 The knowledge graph v2 (`db/kg2.sqlite`, MAC-AK K4b; `--no-kg2` turns it off) gives the engine its pro answers and
 placement offsets, the policy its reserve for predicted cards, and the ranker up to 3 `KG:` fact lines after the
 tactics lines (the act policy's context is unchanged).
@@ -44,9 +44,10 @@ from pathlib import Path
 
 import numpy as np
 
-from clashbot.actions import ABILITY_COST, ABILITY_KEY, is_ability_key, load_placement_prior, option_text, placement_tile
+from clashbot.actions import (ABILITY_COST, ABILITY_KEY, ABILITY_MIN_GAP_S, ABILITY_USE_RARELY, is_ability_key,
+                              load_placement_prior, option_text, placement_tile)
 from clashbot.arbiter import ArbiterConfig, RuleArbiter, urgent_from_report
-from clashbot.candidates import AbilityMove, CandidateGenerator, hero_ability_move
+from clashbot.candidates import AbilityMove, CandidateGenerator
 from clashbot.config import HOLD_KEY
 from clashbot.game_rules import load_cards
 from clashbot.kg import KnowledgeGraph
@@ -65,8 +66,8 @@ COACH_QUIET_ETA_S = 10.0      # the coach starts no job while a push is this clo
 COACH_BUSY_MODES = ("defend", "save")
 _TOWER_ETA_RE = re.compile(r"tower in (\d+(?:\.\d+)?)s")      # the tactics engine's push line: "..., tower in 6.2s; ..."
 FALLBACK_MIN_ELIXIR = 9.5     # a "fallback" candidate (no knn/kg support) is only played from a (nearly) full bar
-FALLBACK_OK_MODES = ("counter", "leak", "punish", "learned", "defend")     # modes whose fallback candidates may be played
-ABILITY_RETRY_S = 10.0        # after an ability tap no ability option is offered for this long (the turret lives 10 s)
+FALLBACK_OK_MODES = ("counter", "spell", "leak", "punish", "learned", "defend")     # modes whose fallback candidates may be played
+ABILITY_RETRY_S = 10.0        # the turret lives this long after a tap; the gap between two taps is ABILITY_MIN_GAP_S (D-049)
 TOS_NOTE = ("Live runs only in Training Camp or friendly battles "
             "(Supercell terms of service prohibit bots in normal play).")
 
@@ -506,8 +507,8 @@ class LiveLoop:
         state, ctx = built
         if (state["own"].get("hero_ability") or {}).get("visible"):
             self.ability_frames += 1
-        if t - self._ability_t < ABILITY_RETRY_S:
-            state = ability_cooling(state)           # the turret is out: neither the engine nor the policy asks for it
+        if t - self._ability_t < ABILITY_MIN_GAP_S:
+            state = ability_cooling(state)           # one tap per ABILITY_MIN_GAP_S (D-049): neither the engine nor the policy asks for it
         d = clock()
         if self.last_decision_t is not None and t - self.last_decision_t < self.min_gap_s:
             self.skipped_min_gap += 1           # `should_decide` stays true for seconds; never tap twice this close
@@ -531,16 +532,16 @@ class LiveLoop:
         kg_lines = self._kg_lines(state)
         rank_ctx = rank_context(ctx, report, kg_lines)    # ctx, the tactics lines, then the graph's facts (the act policy keeps `ctx`)
         extra = dict(self.filters)
-        ability, proposed = None, False
-        if t - self._ability_t >= ABILITY_RETRY_S:
+        ability = None
+        if t - self._ability_t >= ABILITY_MIN_GAP_S:
             engine_move = next(iter(getattr(report, "abilities", None) or []), None)
-            if engine_move is not None:              # MAC-AI part 2: the engine says the turret is worth it, and why
-                ability = AbilityMove(engine_move.key, list(engine_move.tile), f"hero ability: {engine_move.reason}",
-                                      engine_move.score)
-                proposed = True
-            else:                                    # else it is one more option while it is usable (part 1)
-                ability = hero_ability_move(state)
-        if ability is not None:                      # the button is visible + affordable and her Musketeer is on the field
+            if engine_move is not None and ABILITY_KEY in (getattr(verdict, "allowed_cards", None) or ()):
+                # D-049: the ability is an option only when the engine proposed it (a simulated saving of 1,000+ tower HP)
+                # AND the policy listed it among the allowed cards; the note says what it costs
+                reason = engine_move.reason.removesuffix(f", {ABILITY_COST} elixir")
+                ability = AbilityMove(engine_move.key, list(engine_move.tile),
+                                      f"hero ability: {reason}; {ABILITY_USE_RARELY}", engine_move.score)
+        if ability is not None:
             extra["ability_moves"] = [ability]
         if report is None:
             cands = generated = self.generator.generate(state, t, ctx, n=4, **extra)
@@ -550,9 +551,9 @@ class LiveLoop:
         cands = [x for x in generated if not is_ability_key(x.key)]      # the policy and the hand check judge cards only
         if self.policy is not None:
             cands = self.policy.filter_candidates(cands, verdict, state)
-        # the ability is the only option only when the engine proposed it AND the policy listed it among the allowed
-        # cards (the adequate answer, MAC-AI part 2); a moment with nothing else to play never turns into an ability tap
-        ability_alone = bool(ability_cands) and proposed and ABILITY_KEY in (getattr(verdict, "allowed_cards", None) or ())
+        # the ability is offered only when the engine proposed it AND the policy listed it among the allowed cards (D-049),
+        # so it may be the only option; a moment with nothing else to play and no such offer never turns into an ability tap
+        ability_alone = bool(ability_cands)
         policy_hold = self.policy is not None and not cands and not ability_alone   # wants to act, but nothing fits
         hand_hold = False
         if self.require_hand and cands:

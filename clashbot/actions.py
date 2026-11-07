@@ -15,6 +15,10 @@ ABILITY_PREFIX = "ability:"
 ABILITY_KEY = "ability:musketeer"              # the card slot of the ability in own plays / elixir accounting
 ABILITY_COST = 3                               # elixir
 ABILITY_TURRET_TILES = 3                       # the turret spawns this many tiles ahead of the Musketeer (row + 3)
+ABILITY_MIN_GAP_S = 30.0                       # game seconds between two ability taps (D-049: used sparingly)
+ABILITY_USE_RARELY = "3 elixir, use rarely"    # the tail of the option note the ranker reads (D-049)
+ABILITY_VS_CARD_RATIO = 1.5                    # the policy lists the ability next to an open card answer only when it
+                                               # prevents this many times what that card prevents (D-049)
 ABILITY_TEXT = ("activate Hero Musketeer's Trusty Turret (3 elixir): a turret 3 tiles in front of her, range 4, "
                 "pulls win conditions, 10 s")
 

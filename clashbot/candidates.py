@@ -35,9 +35,10 @@ class Candidate:
 @dataclass
 class AbilityMove:
     """A hero-ability option the caller offers to the ranker (MAC-AI). `key` is "ability:musketeer|lane|zone" (where
-    the turret lands), `tile` that spawn tile; `score` only orders the options. Part 2: the tactics engine proposes it
-    (`TacticalReport.abilities`, its `note` quotes the simulation: "hero ability: turret pulls balloon right, saves
-    ~3,200 tower HP, 3 elixir"); while the button is merely usable the live loop passes `hero_ability_move`'s plain one."""
+    the turret lands), `tile` that spawn tile; `score` only orders the options. The live loop builds it only from a move
+    the tactics engine proposed (`TacticalReport.abilities`, a simulated saving of 1,000+ tower HP) that the policy listed
+    among the allowed cards, at most once per `ABILITY_MIN_GAP_S` (D-049, MAC-AL P4); its `note` quotes the simulation and
+    the cost: "hero ability: turret pulls balloon right, saves ~3,200 tower HP; 3 elixir, use rarely"."""
     key: str
     tile: list[float] | None = None
     note: str = ABILITY_NOTE
@@ -45,9 +46,11 @@ class AbilityMove:
 
 
 def hero_ability_move(state: dict, cost: float = ABILITY_COST) -> AbilityMove | None:
-    """The Trusty Turret option for a clean live `state`, or None: the button is visible and affordable (and the own
-    elixir, when known, covers `cost`), and an ally Musketeer is on the field. The turret lands ABILITY_TURRET_TILES
-    rows toward the enemy from the (first) ally Musketeer, clamped to the arena; its lane and zone make the key."""
+    """The plain Trusty Turret option for a clean live `state` (MAC-AI part 1), or None. Unused by the live loop since
+    D-049 / MAC-AL P4 (the ability is offered only when the engine proposes it); kept for tests and tools. The button is
+    visible and affordable (and the own elixir, when known, covers `cost`), and an ally Musketeer is on the field. The
+    turret lands ABILITY_TURRET_TILES rows toward the enemy from the (first) ally Musketeer, clamped to the arena; its
+    lane and zone make the key."""
     own = state.get("own") or {}
     ab = own.get("hero_ability")
     if not isinstance(ab, dict) or not ab.get("visible") or not ab.get("affordable"):

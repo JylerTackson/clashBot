@@ -800,3 +800,44 @@ def test_cli_fast_with_a_bad_model_dir_exits_3(monkeypatch, tmp_path, capsys):
     _patch_main(monkeypatch, seen)
     assert _run_main(tmp_path, "--policy", "fast", "--act-model", str(tmp_path / "nope")) == 3
     assert "error" in capsys.readouterr().err and "policy" not in seen
+
+
+# MAC-AL P3.6: a `spell` act is passed through like a counter ------------------------------------------------------------
+def test_al_the_fast_policy_passes_a_spell_decision_through_without_asking_the_model():
+    spell = ActDecision(True, "spell", "left", "spell: fireball night-witch + e-wizard: kills 4, ~9 elixir",
+                        allowed_cards=frozenset({"fireball"}), engine_tiles={"fireball": [4.0, 20.5]},
+                        tile_sources={"fireball": "spell"})
+
+    class Rules:
+        cards = CARDS
+
+        def decide(self, state, t, context_text=None):
+            return spell
+
+    model = FakeModel(0.0)                                  # the model would wait
+    policy = FastActPolicy(model, CARDS, rules=Rules())
+    d = policy.decide(_with(), 10.0)
+    assert d is spell and d.mode == "spell" and model.calls == []
+    # the learned (d1 act-head) policy as well
+    from clashbot.policy import LearnedActPolicy
+
+    class Scorer:
+        calls = 0
+
+        def probabilities(self, state, questions):
+            Scorer.calls += 1
+            return {"act": [1.0, 0.0]}
+
+    learned = LearnedActPolicy(Scorer(), CARDS, rules=Rules())
+    assert learned.decide(_with(), 10.0, "CTX") is spell and Scorer.calls == 0
+
+
+def test_al_a_spell_act_is_a_rule_act_for_the_trainer_and_is_counted_by_the_act_policy_eval():
+    spell = ActDecision(True, "spell", "left", "spell: x", allowed_cards=frozenset({"fireball"}))
+    counter = ActDecision(True, "counter", "left", "counter: x", allowed_cards=frozenset({"ram-rider"}))
+    wait = ActDecision(False, "hold", None, "x")
+    # whatever the model says (p = 0), a spell act is an act - like a counter; a hold follows the model
+    assert tag.fast_predictions([spell, counter, wait], np.array([0.0, 0.0, 0.0]), 0.5) == [True, True, False]
+    assert tag.fast_predictions([wait], np.array([0.9]), 0.5) == [True]
+    from tools.eval import eval_act_policy
+    assert "spell" in eval_act_policy.MODES and "counter" in eval_act_policy.MODES
