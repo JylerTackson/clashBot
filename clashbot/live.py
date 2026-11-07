@@ -10,7 +10,13 @@ it off, MAC-Z3) the candidates start with the engine's concrete moves, every can
 sees the engine's lines after the context; `--ranker tactics` plays the engine's own pick without any model.
 While the hero ability button is visible and affordable and her Musketeer is on the field, a candidate
 `ability:musketeer|lane|zone` (MAC-AI) joins the ranker's options; when the ranker picks it, `executor.tap_ability`
-taps the button instead of a card (no hand check) and the 3 elixir enter the state builder's accounting.
+taps the button instead of a card (no hand check) and the 3 elixir enter the state builder's accounting. When the engine
+proposes it (MAC-AI part 2: the turret simulated at its spawn tile makes a push adequate or prevents 400+ tower HP) the
+candidate carries the engine's reason, and when the policy lists `ability:musketeer` among the decision's allowed cards
+it is offered even when no card candidate survives.
+The knowledge graph v2 (`db/kg2.sqlite`, MAC-AK K4b; `--no-kg2` turns it off) gives the engine its pro answers and
+placement offsets, the policy its reserve for predicted cards, and the ranker up to 3 `KG:` fact lines after the
+tactics lines (the act policy's context is unchanged).
 `--record-shots` (MAC-AF, off by default) saves what the bot saw and tapped: an annotated screenshot per decision and
 the frames 0.5 s / 1.5 s after a tap, written by a background thread (`clashbot.recorder_shots`, review with
 tools/eval/review_shots.py); `step` only queues them.
@@ -40,7 +46,7 @@ import numpy as np
 
 from clashbot.actions import ABILITY_COST, ABILITY_KEY, is_ability_key, load_placement_prior, option_text, placement_tile
 from clashbot.arbiter import ArbiterConfig, RuleArbiter, urgent_from_report
-from clashbot.candidates import CandidateGenerator, hero_ability_move
+from clashbot.candidates import AbilityMove, CandidateGenerator, hero_ability_move
 from clashbot.config import HOLD_KEY
 from clashbot.game_rules import load_cards
 from clashbot.kg import KnowledgeGraph
@@ -49,7 +55,7 @@ from clashbot.planner import (COACH_MODEL_ID, COACH_PERIOD_S, COACH_PREFILL_STEP
                               Plan, lookup_summary, should_update)
 from clashbot.policy import ActDecision, ReactivePolicy
 from clashbot.retrieval import StateIndex
-from clashbot.tactics import TacticalEngine
+from clashbot.tactics import build_engine, kg_fact_lines, rank_context
 
 STAGES = ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")
 FRAME_STAGES = ("capture", "perception", "live_state")
@@ -82,7 +88,8 @@ class LiveDecision:
     arbiter_subset: list | None = None                     # [{"key", "p"}]: the options d1 chose among, renormalised
     plan_t: float | None = None                            # game time of the coach plan d1 read (None: the pregame plan)
     plan_age_s: float | None = None                        # decision time minus plan_t
-    tile_source: str | None = None                         # where the tile came from: spell | engine | candidate | prior | ability
+    tile_source: str | None = None                         # where the tile came from: spell | pro_offset | engine | candidate | prior | ability
+    kg_lines: list = field(default_factory=list)          # the knowledge graph's fact lines shown to the ranker ([] without KG2)
 
 
 def _accepts_notes(fn) -> bool:
@@ -117,6 +124,15 @@ def _json_default(o):
     if isinstance(o, np.ndarray):
         return o.tolist()
     return str(o)
+
+
+def ability_cooling(state: dict) -> dict:
+    """`state` with the hero ability marked unaffordable (a shallow copy): after a tap the engine and the policy must not
+    ask for it again while the turret lives; a state without an affordable ability button comes back as it is."""
+    ab = (state.get("own") or {}).get("hero_ability")
+    if not isinstance(ab, dict) or not ab.get("affordable"):
+        return state
+    return {**state, "own": {**state["own"], "hero_ability": {**ab, "affordable": False}}}
 
 
 def _roles_of(tactics) -> dict:
@@ -356,7 +372,7 @@ class LiveLoop:
     def __init__(self, source, perception, builder, generator, ranker, executor, cards: dict, prior: dict,
                  plan_text: str | None = None, out_dir: Path | None = None, filters: dict | None = None,
                  clock=time.perf_counter, min_gap_s: float = 1.0, policy=None, require_hand: bool = True,
-                 tactics=None, arbiter=None, coach=None, shots=None):
+                 tactics=None, arbiter=None, coach=None, shots=None, kg2=None):
         self.source = source
         self.perception = perception
         self.builder = builder
@@ -372,8 +388,15 @@ class LiveLoop:
         self.min_gap_s = min_gap_s
         # None / "reactive" -> ReactivePolicy(cards); "trigger" -> the old should_decide path (self.policy stays None)
         if policy is None or policy == "reactive":
-            policy = ReactivePolicy(cards)
+            policy = ReactivePolicy(cards, kg=kg2)
         self.policy = None if policy == "trigger" else policy
+        self.kg2 = kg2                               # a KG2 (MAC-AK K4b) or None: the policy, the engine and the fact lines use it
+        if kg2 is not None:
+            attach = getattr(getattr(self.policy, "rules", self.policy), "attach_kg", None)
+            if callable(attach) and getattr(getattr(self.policy, "rules", self.policy), "kg", None) is None:
+                attach(kg2)
+            if getattr(tactics, "kg2", False) is None:
+                tactics.kg2 = kg2
         self.require_hand = require_hand             # never tap a card the hand read does not show (FIX_LIST #27)
         self.tactics = tactics                       # a TacticalEngine (MAC-Z3) or None = lookup candidates only
         self.arbiter = arbiter                       # a RuleArbiter (MAC-AB A4) narrowing d1's options when unsure, or None
@@ -443,6 +466,11 @@ class LiveLoop:
             report = self.tactics.analyse(state, t)
         self.coach.submit(state, ctx, list(report.lines) if report is not None else [], None, t, mode=mode)
 
+    def _kg_lines(self, state: dict) -> list[str]:
+        """Up to 3 `KG:` lines (the pro answers to the threats on the board, the opponent cards still to come) for the
+        ranker's context; [] without a graph or when it fails."""
+        return kg_fact_lines(self.kg2, state)               # (the dataset builder renders them through the same helper)
+
     def _plan_at(self, t: float) -> tuple[str | None, float | None, float | None]:
         """(text, plan_t, plan_age_s) of the plan the ranker reads now: the coach's latest, else the pregame plan."""
         plan = self.coach.latest_plan if self.coach is not None else None
@@ -478,6 +506,8 @@ class LiveLoop:
         state, ctx = built
         if (state["own"].get("hero_ability") or {}).get("visible"):
             self.ability_frames += 1
+        if t - self._ability_t < ABILITY_RETRY_S:
+            state = ability_cooling(state)           # the turret is out: neither the engine nor the policy asks for it
         d = clock()
         if self.last_decision_t is not None and t - self.last_decision_t < self.min_gap_s:
             self.skipped_min_gap += 1           # `should_decide` stays true for seconds; never tap twice this close
@@ -498,9 +528,18 @@ class LiveLoop:
         report = self.tactics.analyse(state, t) if self.tactics is not None else None
         self._coach_tick(state, ctx, t, verdict.mode, report)
         plan_text, plan_t, plan_age_s = self._plan_at(t)
-        rank_ctx = ctx if report is None else ctx + "\n" + "\n".join(report.lines)   # the act policy keeps `ctx`
+        kg_lines = self._kg_lines(state)
+        rank_ctx = rank_context(ctx, report, kg_lines)    # ctx, the tactics lines, then the graph's facts (the act policy keeps `ctx`)
         extra = dict(self.filters)
-        ability = hero_ability_move(state) if t - self._ability_t >= ABILITY_RETRY_S else None
+        ability, proposed = None, False
+        if t - self._ability_t >= ABILITY_RETRY_S:
+            engine_move = next(iter(getattr(report, "abilities", None) or []), None)
+            if engine_move is not None:              # MAC-AI part 2: the engine says the turret is worth it, and why
+                ability = AbilityMove(engine_move.key, list(engine_move.tile), f"hero ability: {engine_move.reason}",
+                                      engine_move.score)
+                proposed = True
+            else:                                    # else it is one more option while it is usable (part 1)
+                ability = hero_ability_move(state)
         if ability is not None:                      # the button is visible + affordable and her Musketeer is on the field
             extra["ability_moves"] = [ability]
         if report is None:
@@ -511,15 +550,17 @@ class LiveLoop:
         cands = [x for x in generated if not is_ability_key(x.key)]      # the policy and the hand check judge cards only
         if self.policy is not None:
             cands = self.policy.filter_candidates(cands, verdict, state)
-        policy_hold = self.policy is not None and not cands      # wants to act, but no candidate fits (blind spells...)
+        # the ability is the only option only when the engine proposed it AND the policy listed it among the allowed
+        # cards (the adequate answer, MAC-AI part 2); a moment with nothing else to play never turns into an ability tap
+        ability_alone = bool(ability_cands) and proposed and ABILITY_KEY in (getattr(verdict, "allowed_cards", None) or ())
+        policy_hold = self.policy is not None and not cands and not ability_alone   # wants to act, but nothing fits
         hand_hold = False
         if self.require_hand and cands:
             in_hand = {c for c in state["own"]["hand"] if c}
             cands = [x for x in cands if x.key.split("|")[0] in in_hand]
-            hand_hold = not cands                                # every candidate is a card we cannot see in the hand
-        if cands and ability_cands:
-            # the ability is one more option for the ranker (it has no card to be in the hand), never the only one:
-            # D-045, the model decides, so a moment with nothing else to play does not turn into an ability tap
+            hand_hold = not cands and not ability_alone          # every candidate is a card we cannot see in the hand
+        if ability_cands and (cands or ability_alone):
+            # the ability is one more option for the ranker (it has no card to be in the hand)
             order = {x.key: j for j, x in enumerate(generated)}
             cands = sorted(cands + ability_cands, key=lambda x: order.get(x.key, len(order)))
             self.ability_offered += 1
@@ -590,11 +631,17 @@ class LiveLoop:
             tile = aim(key, state) if callable(aim) else None
             tile_source = "spell" if tile is not None else None
             if tile is None:
-                engine_tile = (getattr(verdict, "engine_tiles", None) or {}).get(key.split("|")[0])
+                card = key.split("|")[0]
+                engine_tile = (getattr(verdict, "engine_tiles", None) or {}).get(card)
                 if engine_tile is not None:
-                    tile, tile_source = list(engine_tile), "engine"
+                    tile = list(engine_tile)
+                    pro = (getattr(verdict, "tile_sources", None) or {}).get(card) == "pro_offset"
+                    tile_source = "pro_offset" if pro else "engine"
             if tile is None and getattr(chosen, "tile", None) is not None:
                 tile, tile_source = list(chosen.tile), "candidate"  # a tactical candidate carries its own tile
+                if any(m.key == key and getattr(m, "tile_source", None) == "pro_offset"
+                       for m in getattr(report, "moves", None) or []):
+                    tile_source = "pro_offset"
             if tile is None:
                 tile, tile_source = placement_tile(key, self.prior), "prior"
             entry = self.executor.execute(key, tile, t, hand=state["own"]["hand"])
@@ -617,7 +664,8 @@ class LiveLoop:
                          "note": getattr(x, "note", None)} for x in cands],
             probs=list(probs), executor=entry, timings_ms=timings, mode=verdict.mode, reason=verdict.reason,
             tactics_lines=list(report.lines) if report is not None else [], arbiter_reason=arbiter_reason,
-            arbiter_subset=arbiter_subset, plan_t=plan_t, plan_age_s=plan_age_s, tile_source=tile_source)
+            arbiter_subset=arbiter_subset, plan_t=plan_t, plan_age_s=plan_age_s, tile_source=tile_source,
+            kg_lines=list(kg_lines))
         self.decisions.append(decision)
         if self.shots is not None:
             s0 = clock()
@@ -740,6 +788,8 @@ def build_parser() -> argparse.ArgumentParser:
                     help="tactics = the tactics engine's own pick (needs the engine, i.e. no --no-tactics)")
     ap.add_argument("--no-tactics", action="store_true",
                     help="no tactics engine: lookup candidates only, no notes (the pre-MAC-Z3 behaviour)")
+    ap.add_argument("--no-kg2", action="store_true",
+                    help="do not load db/kg2.sqlite (MAC-AK K4b): no pro answers / offsets, air reserve or KG: fact lines")
     ap.add_argument("--d1-backend", choices=("mlx", "transformers"), default="mlx")
     ap.add_argument("--d1-model", default=None, help="d1 model path / repo id (e.g. a fine-tuned checkpoint)")
     ap.add_argument("--planner", choices=("rules", "llm", "coach", "none"), default="rules",
@@ -851,6 +901,18 @@ def _build_policy(args, cards: dict):
     return LearnedActPolicy(scorer, cards, args.act_threshold)
 
 
+def _load_kg2(args):
+    """The knowledge graph v2 (`db/kg2.sqlite`), or None with `--no-kg2` or when it is missing / unreadable."""
+    if getattr(args, "no_kg2", False):
+        return None
+    try:
+        from clashbot.kg2 import KG2
+        return KG2()
+    except Exception as exc:                                 # noqa: BLE001  the bot runs without the graph
+        print(f"note: knowledge graph v2 not loaded ({exc}); running without it", file=sys.stderr)
+        return None
+
+
 def _build_plan_text(args, deck: list[str]) -> str | None:
     if args.planner == "rules":
         from clashbot.planner import RuleBasedPlanner
@@ -957,9 +1019,10 @@ def main(argv: list[str] | None = None) -> int:
                                               opp_evidence=True, strict_units=True))
         cards = load_cards()
         kg = KnowledgeGraph()
+        kg2 = _load_kg2(args)
         index = StateIndex()
         generator = CandidateGenerator(index, kg, cards)
-        tactics = None if args.no_tactics else TacticalEngine(cards, kg=kg)
+        tactics = None if args.no_tactics else build_engine(cards, kg, kg2)
         ranker = _build_ranker(args)
         policy = _build_policy(args, cards)
         coach = _build_coach(args, deck, index, kg) if args.planner == "coach" else None
@@ -986,10 +1049,11 @@ def main(argv: list[str] | None = None) -> int:
         shots = ShotRecorder(out_dir / "shots", calib=args.calib, max_decisions=args.shots_max)
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
                     plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy, tactics=tactics,
-                    arbiter=arbiter, coach=coach, shots=shots)
+                    arbiter=arbiter, coach=coach, shots=shots, kg2=kg2)
     mode = "LIVE" if args.live else "dry run"
     print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} policy={args.policy} "
-          f"tactics={'off' if args.no_tactics else 'on'} arbiter={'rules' if arbiter else 'none'} "
+          f"tactics={'off' if args.no_tactics else 'on'} kg2={'on' if kg2 is not None else 'off'} "
+          f"arbiter={'rules' if arbiter else 'none'} "
           f"shots={'on' if shots else 'off'} out={out_dir}")
     summary = loop.run(max_seconds=args.seconds, max_decisions=args.max_decisions)
     print(f"frames={summary['frames']} decisions={summary['decisions']} "

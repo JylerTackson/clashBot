@@ -311,7 +311,8 @@ def simulate_lane(enemy_units: list[dict], own_defenders: list[dict], tower: str
     buildings (a proposed card: every unit of it is simulated, at our level or `level`, acting after `ready_s` seconds -
     default the card's deploy time + the tap latency, 0 when `placed` is true; `single` true = one detected unit of the
     card, as an ally seen on the field), or a damage spell (a spell card: cast at the tile, lands after its travel
-    time). `tower` is "left" / "right" or {"lane", "hp"} (the hitpoints now; default full at the tower level)."""
+    time), or {"stat", "tile", "ready_s"} for a building that is not a card (the hero turret). `tower` is "left" / "right" or
+    {"lane", "hp"} (the hitpoints now; default full at the tower level)."""
     if isinstance(tower, dict):
         lane, hp_now = tower.get("lane", "left"), tower.get("hp")
     else:
@@ -334,6 +335,11 @@ def simulate_lane(enemy_units: list[dict], own_defenders: list[dict], tower: str
     spells: list[tuple[float, dict]] = []      # (cast time, spell stat + tile)
     for d in own_defenders:
         card, tile = d.get("card"), d.get("tile")
+        if d.get("stat") and isinstance(tile, (list, tuple)) and len(tile) >= 2:
+            # an explicit building that is not a card (MAC-AK K4b: the hero Musketeer's Trusty Turret): `stat` is a unit
+            # stat dict as `stat_at` returns, it acts after `ready_s` seconds and expires with its `lifetime_s`
+            O.append(_mk(d["stat"], 0, float(tile[0]), float(tile[1]), float(d.get("ready_s") or 0.0), True, card or ""))
+            continue
         if not card or not (isinstance(tile, (list, tuple)) and len(tile) >= 2):
             continue
         st = stat_at(card, d.get("level") if d.get("level") is not None else own_level(card))

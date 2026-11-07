@@ -1261,3 +1261,189 @@ def test_ah_a_move_without_a_simulation_verdict_keeps_the_role_rule():
     d = ReactivePolicy(CARDS, engine=FakeEngine(moves, 2.0, lane="left", heavy=True)).decide(
         _state(elixir=5.0, units=[_enemy((4, 10), eta=2.0)]), 10.0)
     assert d.act and d.allowed_cards == frozenset({"ice-spirit"})
+
+
+# MAC-AK K4b: the graph's placement reaches the live loop, the hero ability is an answer, the reserve for predicted cards ----
+from clashbot.actions import ABILITY_KEY  # noqa: E402
+from tests.test_tactics import GIANT_BRIDGE, FakeKG2, _ability_state, _ally, _ans, _kg_engine, _off  # noqa: E402
+from tests.test_tactics import _enemy as _t_enemy  # noqa: E402
+
+
+class FakeDeckKG:
+    """The opponent-deck side of a KG2: `predict_opp_deck(seen, top)` from a fixed list (seen cards left out)."""
+
+    def __init__(self, preds=(), boom=False):
+        self.preds, self.boom, self.calls = list(preds), boom, []
+
+    def predict_opp_deck(self, seen, top=8):
+        self.calls.append(list(seen))
+        if self.boom:
+            raise RuntimeError("model down")
+        return [(c, p) for c, p in self.preds if c not in seen][:top]
+
+
+def _air_state(elixir=6.5, hand=("musketeer", "knight", "ice-spirit", "giant"), seen=("miner", "valkyrie"),
+                  opp_elixir=2.0):
+    st = _state(elixir=elixir, opp_elixir=opp_elixir, hand=list(hand))
+    st["opponent"]["deck_known"] = list(seen)
+    return st
+
+
+def _reserve_policy(preds=(("balloon", 0.62), ("miner", 0.4)), **kw):
+    kg = FakeDeckKG(preds, **kw)
+    return ReactivePolicy(CARDS, engine=ENGINE, price_spells=False, kg=kg), kg
+
+
+def test_k4b_a_predicted_balloon_keeps_the_air_answer_out_of_a_punish():
+    policy, kg = _reserve_policy()
+    state = _air_state()
+    assert policy.air_reserve(state) == (4.0, "musketeer", "balloon", 0.62)         # the ground cards in hand are no answer
+    d = policy.decide(state, 100.0)
+    assert d.act and d.mode == "punish"                                            # a cheap card still fits the punish
+    cands = _cands("knight|left|bridge", "ice-spirit|left|bridge", "giant|left|bridge", "musketeer|left|bridge")
+    assert _keys(policy.filter_candidates(cands, d, state)) == ["ice-spirit|left|bridge"]    # 6.5 - 1 >= 4; knight leaves 3.5
+    plain = ReactivePolicy(CARDS, engine=ENGINE, price_spells=False)                # the same without a graph
+    assert plain.air_reserve(state) is None and _keys(plain.filter_candidates(cands, d, state)) == _keys(cands)
+    # nothing leaves the elixir of the answer: the punish waits
+    tight = _air_state(elixir=6.0, hand=("musketeer", "knight", "giant", "mini-p-e-k-k-a"))
+    d = policy.decide(tight, 100.0)
+    assert not d.act and d.mode == "save"
+    assert d.reason == "keep 4 elixir for musketeer: opponent likely has balloon 0.62, no punish"
+    assert plain.decide(tight, 100.0).mode == "punish"
+
+
+def test_k4b_the_reserve_follows_the_prediction_and_the_hand():
+    state = _air_state()
+    low, _ = _reserve_policy(preds=(("balloon", 0.45),))
+    assert low.air_reserve(state) is None                                          # under 0.5
+    edge, _ = _reserve_policy(preds=(("bats", 0.5), ("balloon", 0.3)))
+    assert edge.air_reserve(state)[2:] == ("bats", 0.5)                            # the likeliest air card counts
+    for card in ("minions", "minion-horde", "lava-hound", "mega-minion"):
+        assert _reserve_policy(preds=((card, 0.7),))[0].air_reserve(state)[2] == card
+    ground, _ = _reserve_policy(preds=(("miner", 0.9), ("skeletons", 0.8)))
+    assert ground.air_reserve(state) is None                                       # a likely miner is no air threat
+    policy, kg = _reserve_policy()
+    assert policy.air_reserve(_air_state(hand=("knight", "giant", "zap", "mini-p-e-k-k-a"))) is None   # no air answer
+    cheap = policy.air_reserve(_air_state(hand=("electro-dragon", "tesla", "knight", "zap")))
+    assert cheap[:2] == (4.0, "tesla")                                             # the cheapest answer sets the reserve
+    assert policy.air_reserve(_air_state(hand=("electro-dragon", "knight", "zap", "giant")))[:2] == (5.0, "electro-dragon")
+    assert policy.air_reserve(_air_state(hand=("ram-rider", "knight", "zap", "giant"))) is None   # a win condition is no answer
+    # the balloon was already seen: the model does not predict a card it has seen
+    assert _reserve_policy()[0].air_reserve(_air_state(seen=("miner", "balloon"))) is None
+    # nothing seen yet: the model is not asked
+    quiet, kg2 = _reserve_policy()
+    assert quiet.air_reserve(_air_state(seen=())) is None and kg2.calls == []
+    # the prediction is cached per set of seen cards
+    policy.air_reserve(state)
+    policy.air_reserve(state)
+    assert kg.calls == [["miner", "valkyrie"]]
+    # a failing model means no reserve, not a crash
+    broken, _ = _reserve_policy(boom=True)
+    assert broken.air_reserve(state) is None and broken.decide(state, 100.0).mode == "punish"
+
+
+def test_k4b_the_reserve_is_for_non_urgent_plays_only():
+    policy, _ = _reserve_policy()
+    # a full bar leaks whatever it likes (counter and leak are excepted)
+    full = _air_state(elixir=10.0, opp_elixir=6.0, hand=("musketeer", "knight", "mini-p-e-k-k-a", "zap"))
+    leak = policy.decide(full, 100.0)
+    assert leak.act and leak.mode == "leak" and policy.air_reserve(full) is not None
+    cands = _cands("knight|left|back", "mini-p-e-k-k-a|left|bridge", "musketeer|left|back")
+    assert _keys(policy.filter_candidates(cands, leak, full)) == _keys(cands)
+    # an answer to a push is never held back by it: the musketeer itself may defend
+    giant = _state(elixir=6.0, units=[_enemy((14, 15), eta=3.0, tower="own_right", card="giant")],
+                   hand=["musketeer", "knight", "giant", "mini-p-e-k-k-a"])
+    giant["opponent"]["deck_known"] = ["miner", "valkyrie"]
+    d = policy.decide(giant, 100.0)
+    assert d.act and d.mode == "defend"
+    # a counter is not held either
+    counter = policy.decide(_counter_scene(), 100.0)
+    assert counter.mode == "counter" and policy.filter_candidates(
+        _cands("ram-rider|left|bridge"), counter, _counter_scene()) != []
+
+
+def test_k4b_a_learned_play_keeps_the_reserve_too():
+    class Scorer:
+        def probabilities(self, state, questions):
+            return {"act": [0.0, 1.0]}
+
+    policy, _ = _reserve_policy()
+    learned = LearnedActPolicy(Scorer(), CARDS, rules=policy)
+    state = _air_state(elixir=5.0, opp_elixir=6.0, hand=("musketeer", "knight", "ice-spirit", "giant"))
+    d = learned.decide(state, 100.0, "CTX")
+    assert d.act and d.mode == "learned"
+    cands = _cands("knight|left|mid", "ice-spirit|left|mid", "musketeer|left|back")
+    assert _keys(learned.filter_candidates(cands, d, state)) == ["ice-spirit|left|mid"]      # 5 - 1 >= 4 only
+    assert _keys(policy.no_blind_spells(cands, state)) == ["ice-spirit|left|mid"]
+    assert _keys(ReactivePolicy(CARDS, engine=ENGINE, price_spells=False).no_blind_spells(cands, state)) == _keys(cands)
+
+
+def test_k4b_the_pro_offset_source_reaches_the_decision():
+    table = {"giant": [_ans("knight", 0.5, pro=0.6, support=9, held=0.8, offset=_off(2.0, -3.0))]}
+    engine = _kg_engine(table)
+    policy = ReactivePolicy(CARDS, engine=engine)
+    state = _state(elixir=9.0, units=[_enemy((15, 13), eta=3.0, tower="own_right", card="giant")],
+                   hand=["knight", "tesla", "musketeer", "zap"])
+    d = policy.decide(state, 100.0)
+    assert d.act and d.mode == "defend"
+    assert d.engine_tiles["knight"] == [13.0, 10.0] and d.tile_sources["knight"] == "pro_offset"
+    assert d.tile_sources["tesla"] == "geometric"
+    # without the graph every source is geometric; a counter carries its move's source
+    plain = ReactivePolicy(CARDS, engine=ENGINE).decide(state, 100.0)
+    assert set(plain.tile_sources.values()) == {"geometric"} and set(plain.tile_sources) == set(plain.engine_tiles)
+    c = ReactivePolicy(CARDS, engine=ENGINE).decide(_counter_scene(), 100.0)
+    assert c.tile_sources == {"ram-rider": "geometric"}
+
+
+def test_k4b_a_policy_without_an_engine_gives_the_one_it_builds_the_graph():
+    kg = FakeKG2({})
+    policy = ReactivePolicy(CARDS, kg=kg)
+    assert policy._get_engine().kg2 is kg
+    late = ReactivePolicy(CARDS)
+    late.attach_kg(kg)
+    assert late.kg is kg and late._get_engine().kg2 is kg
+    built = ReactivePolicy(CARDS, engine=TacticalEngine(CARDS))
+    built.attach_kg(kg)
+    assert built.engine.kg2 is kg
+
+
+# the hero ability as an answer -----------------------------------------------------------------------------------------
+def test_k4b_the_ability_is_offered_to_the_llm_as_an_allowed_card_when_it_is_the_answer():
+    state = _ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")])
+    d = _sim().decide(state, 100.0)
+    assert d.act and d.mode == "defend" and d.lane == "right"
+    assert ABILITY_KEY in d.allowed_cards
+    assert d.engine_tiles[ABILITY_KEY] == [14.0, 8.0] and d.tile_sources[ABILITY_KEY] == "ability"
+    # no button, no ability: the decision is the card one
+    for kw in ({"visible": None}, {"visible": False}, {"affordable": False}, {"elixir": 2.5}):
+        d = _sim().decide(_ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")], **kw), 100.0)
+        assert ABILITY_KEY not in (d.allowed_cards or ()), kw
+    assert ABILITY_KEY not in (_sim().decide(_ability_state([GIANT_BRIDGE]), 100.0).allowed_cards or ())   # not her
+    # the ability counts for what it costs (3), and the candidate with its key passes the defend filter
+    assert _sim()._cost(ABILITY_KEY) == 3.0
+    d = _sim().decide(state, 100.0)
+    cand = Candidate("ability:musketeer|right|mid", 0.0, {"ability": 1.0}, [14.0, 8.0], "hero ability")
+    assert _sim().filter_candidates([cand], d, state) == [cand]
+    assert _sim().filter_candidates([cand], ActDecision(True, "defend", "right", "x", allowed_cards=frozenset({"tesla"})),
+                                    state) == []
+
+
+def test_k4b_the_ability_can_be_the_only_adequate_answer_and_is_always_listed_with_the_cards():
+    # the hand holds nothing that stops a giant: the turret is the answer
+    state = _ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")], hand=("zap", "fireball", "ram-rider", "electro-dragon"),
+                           elixir=5.0)
+    d = _sim().decide(state, 100.0)
+    assert d.act and ABILITY_KEY in d.allowed_cards
+    # the hand holds the tesla: both are on offer
+    rich = _ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")], hand=("tesla", "knight", "zap", "fireball"), elixir=8.0)
+    d = _sim().decide(rich, 100.0)
+    assert d.act and {"tesla", ABILITY_KEY} <= d.allowed_cards
+    # a giant already on its tower cannot be pulled: the turret is no adequate answer there (like any building), it is
+    # only the best card at hand in the last second
+    late = _ability_state([_heading(_t_enemy((14, 5.5), "giant", eta=0.5, tower="own_right"), "advancing right lane"),
+                           _ally((14, 4), "musketeer")], hand=("zap", "fireball", "ram-rider", "electro-dragon"), elixir=8.0)
+    policy = _sim()
+    report = policy._analyse(late, 100.0)
+    assert report.abilities and not policy._adequate(report.abilities[0], report.pushes[0])
+    d = policy.decide(late, 100.0)
+    assert not d.act or "(emergency)" in d.reason or ABILITY_KEY not in d.allowed_cards

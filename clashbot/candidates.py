@@ -35,7 +35,9 @@ class Candidate:
 @dataclass
 class AbilityMove:
     """A hero-ability option the caller offers to the ranker (MAC-AI). `key` is "ability:musketeer|lane|zone" (where
-    the turret lands), `tile` that spawn tile; `score` only orders the options. Part 2 (the engine) will produce these."""
+    the turret lands), `tile` that spawn tile; `score` only orders the options. Part 2: the tactics engine proposes it
+    (`TacticalReport.abilities`, its `note` quotes the simulation: "hero ability: turret pulls balloon right, saves
+    ~3,200 tower HP, 3 elixir"); while the button is merely usable the live loop passes `hero_ability_move`'s plain one."""
     key: str
     tile: list[float] | None = None
     note: str = ABILITY_NOTE

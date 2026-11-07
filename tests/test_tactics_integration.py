@@ -721,17 +721,35 @@ def test_eval_tactics_without_a_knowledge_graph_still_runs(synthetic, monkeypatc
     assert json.loads((ds / "o.json").read_text())["kg"] is False
 
 
+class GraphFake:
+    """A KG2 stand-in for the engine (`answers_for`: no pro answers) and for the context (`facts_lines`)."""
+    LINES = ["KG: giant L15 2630hp 211/hit; answers tesla (wiki)", "KG: opp likely also has night-witch 0.62"]
+
+    def __init__(self):
+        self.facts_calls = []
+
+    def answers_for(self, threat, our_cards, k=5):
+        return []
+
+    def facts_lines(self, state, our_deck, max_lines=3):
+        self.facts_calls.append((list(our_deck), max_lines))
+        return list(self.LINES)
+
+
 def test_build_d1_tac_main_writes_validated_lines_with_notes_and_stats(synthetic, monkeypatch):
     ds, best, joint = synthetic
     index = FakeIndex([(best.key, 0.02)])
+    graph = GraphFake()
     monkeypatch.setattr(build_d1_tac, "StateIndex", lambda: index)
     monkeypatch.setattr(build_d1_tac, "KnowledgeGraph", lambda: FakeKG())
+    monkeypatch.setattr(build_d1_tac, "KG2", lambda: graph)
     out = ds / "d1" / "joint_tac"
     assert build_d1_tac.main(["--dataset", str(ds), "--out", str(out)]) == 0
     stats = json.loads((out / "stats.json").read_text())
     assert set(stats) == {"train", "val", "test"}
     assert {c["exclude_game"] for c in index.calls} == {"g1", "g2", "g3"}
     assert all(c["splits"] == ("train",) for c in index.calls)
+    assert len(graph.facts_calls) == 3 and all(c[1] == 3 and len(c[0]) == 8 for c in graph.facts_calls)   # the game's own deck
     for split in ("train", "val", "test"):
         [new] = [json.loads(x) for x in (out / f"{split}.jsonl").read_text().splitlines()]
         [old] = joint[split]
@@ -740,6 +758,8 @@ def test_build_d1_tac_main_writes_validated_lines_with_notes_and_stats(synthetic
         d1_format.validate(new["state"], new["questions"], new["answers"])
         assert new["state"].startswith(old["state"] + "\ntactics: push right")
         assert "\ntactics: best " in new["state"]
+        assert new["state"].endswith("\n" + "\n".join(GraphFake.LINES))             # the KG: lines come after the tactics lines
+        assert stats[split]["lines_with_facts"] == 1.0
         crit = new["questions"]["play"]["criteria"]
         assert list(crit) == list(old["questions"]["play"]["criteria"])
         assert crit[best.key].startswith(d1_format.option_description(best.key) + " — tactics: ")
@@ -750,6 +770,95 @@ def test_build_d1_tac_main_writes_validated_lines_with_notes_and_stats(synthetic
         assert s["answer_has_tactics_card_note"] == 1.0                           # exact counts as card-level too
         assert s["context_mismatches"] == 0 and s["skipped_no_state"] == 0 and s["lines_with_push"] == 1.0
         assert s["any_lookup_note"] == 0.0 and s["mean_state_chars"] == len(new["state"])
+
+
+def test_build_d1_tac_without_kg_facts_is_the_pre_k4b_export(synthetic, monkeypatch):
+    ds, best, joint = synthetic
+    monkeypatch.setattr(build_d1_tac, "StateIndex", lambda: FakeIndex([]))
+    monkeypatch.setattr(build_d1_tac, "KnowledgeGraph", lambda: FakeKG())
+
+    def boom():
+        raise AssertionError("--no-kg-facts must not open the graph")
+
+    monkeypatch.setattr(build_d1_tac, "KG2", boom)
+    out = ds / "d1" / "joint_tac"
+    assert build_d1_tac.main(["--dataset", str(ds), "--out", str(out), "--no-kg-facts"]) == 0
+    stats = json.loads((out / "stats.json").read_text())
+    for split in ("train", "val", "test"):
+        [new] = [json.loads(x) for x in (out / f"{split}.jsonl").read_text().splitlines()]
+        assert "KG:" not in new["state"] and stats[split]["lines_with_facts"] == 0.0
+        assert new["state"].startswith(joint[split][0]["state"] + "\ntactics: ")
+
+
+def test_build_d1_tac_needs_the_graph_unless_told_not_to(synthetic, monkeypatch, capsys):
+    ds, _, _ = synthetic
+    monkeypatch.setattr(build_d1_tac, "StateIndex", lambda: FakeIndex([]))
+    monkeypatch.setattr(build_d1_tac, "KnowledgeGraph", lambda: FakeKG())
+
+    def missing():
+        raise FileNotFoundError("knowledge graph v2 not built")
+
+    monkeypatch.setattr(build_d1_tac, "KG2", missing)
+    out = ds / "d1" / "joint_tac"
+    assert build_d1_tac.main(["--dataset", str(ds), "--out", str(out)]) == 2
+    assert "--no-kg-facts" in capsys.readouterr().err and not out.exists()
+
+
+def test_build_d1_tac_renders_exactly_the_context_the_live_loop_ranks(synthetic):
+    """The d1 training line and the live ranking context for the same recorded state are the same string: one engine
+    factory (`build_engine`), one rendering (`rank_context`), one fact-line helper (`kg_fact_lines`)."""
+    import clashbot.live as live_mod
+    import clashbot.tactics as tactics_mod
+    from clashbot.tactics import DEFAULT_WEIGHTS, build_engine
+    from tests.test_live_loop import StaticPolicy
+    ds, best, joint = synthetic
+    cards = load_cards()
+    graph = GraphFake()
+    rec = json.loads((ds / "states.jsonl").read_text().splitlines()[0])
+    line = joint["train"][0]
+    context = render_context(rec["state"], rec["t"])
+    assert context == line["state"]
+
+    engine = build_engine(cards, FakeKG(), graph, weights=DEFAULT_WEIGHTS)
+    new, facts = build_d1_tac.build_line(line, rec, engine, CandidateGenerator(FakeIndex([]), FakeKG(), cards), None, graph)
+    assert facts["has_facts"] is True and facts["mismatch"] is False
+
+    class RecordedBuilder(FakeBuilder):
+        def build(self, gs):
+            return self.state, context
+
+    ranker = FakeKeyRanker()
+    lp = _loop(builder=RecordedBuilder(state=rec["state"], warmup=0), ranker=ranker, executor=FakeExecutor(),
+               generator=FakeGenerator(keys=["tesla|right|mid", "knight|right|mid"]),
+               policy=StaticPolicy(ActDecision(True, "defend", None, "x")), tactics=build_engine(cards, FakeKG(), graph, weights=DEFAULT_WEIGHTS),
+               kg2=graph)
+    lp.step("f", rec["t"], 0, 1.0)
+    assert ranker.calls[0][0] == new["state"]
+    assert new["state"] == tactics_mod.rank_context(context, engine.analyse(rec["state"], rec["t"]), GraphFake.LINES)
+    assert new["state"].endswith("\n" + "\n".join(GraphFake.LINES)) and "\ntactics: best " in new["state"]
+    # the same callables on both sides
+    assert live_mod.build_engine is build_d1_tac.build_engine is tactics_mod.build_engine
+    assert live_mod.rank_context is build_d1_tac.rank_context is tactics_mod.rank_context
+    assert live_mod.kg_fact_lines is build_d1_tac.kg_fact_lines is tactics_mod.kg_fact_lines
+    # a plan goes after the facts, in the dataset as live's d1 prompt does (`state_string`)
+    with_plan, _ = build_d1_tac.build_line(line, rec, engine, CandidateGenerator(FakeIndex([]), FakeKG(), cards),
+                                           {"g1": ([0.0], ["hold the left"])}, graph)
+    assert with_plan["state"] == new["state"] + "\n[plan] hold the left"
+
+
+def test_rank_context_helpers():
+    from clashbot.tactics import build_engine, kg_fact_lines, rank_context
+    report = _report([], lines=("tactics: a", "tactics: b"))
+    assert rank_context("CTX", None) == "CTX" and rank_context("CTX", report) == "CTX\ntactics: a\ntactics: b"
+    assert rank_context("CTX", None, ["KG: x"]) == "CTX\nKG: x"
+    assert rank_context("CTX", report, ["KG: x", "KG: y"]) == "CTX\ntactics: a\ntactics: b\nKG: x\nKG: y"
+    assert rank_context("CTX", report, []) == rank_context("CTX", report)
+    graph = GraphFake()
+    assert kg_fact_lines(graph, {"own": {"deck": ["a", None, "b"]}}) == GraphFake.LINES
+    assert graph.facts_calls == [(["a", "b"], 3)]
+    assert kg_fact_lines(None, {}) == [] and kg_fact_lines(types.SimpleNamespace(facts_lines=None), {}) == []
+    e = build_engine(CARDS, FakeKG(), graph)
+    assert e.kg2 is graph and e.kg.__class__ is FakeKG and build_engine(CARDS).kg2 is None
 
 
 def test_build_line_uses_the_lines_own_text_when_the_context_differs(synthetic):

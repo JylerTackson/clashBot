@@ -652,3 +652,110 @@ def test_live_loop_without_the_button_is_what_it_was():
     assert gen.calls == [{}] and d.key == "giant|left|back" and d.tile_source == "prior" and ex.taps == []
     assert d.tile == placement_tile("giant|left|back", PRIOR)
     assert "hero_ability" not in lp.summary()                                      # no button seen: no new summary key
+
+
+# -- part 2 (MAC-AK K4b): the engine proposes the ability, the policy lists it, the loop may offer it alone ------------------
+from clashbot.policy import ActDecision  # noqa: E402
+from clashbot.tactics import TacticalMove, TacticalReport  # noqa: E402
+
+ENGINE_NOTE = "turret pulls giant right, saves ~1,100 tower HP, 3 elixir"
+
+
+def _ability_move(key="ability:musketeer|middle|bridge", tile=(8.0, 12.0), reason=ENGINE_NOTE):
+    return TacticalMove(ABILITY_KEY, key, list(tile), "ability", reason, 0.8, None, stop="turret", adequate=True,
+                        prevented=1110.0, tile_source="ability", push_lane="right")
+
+
+class AbilityTactics:
+    """An engine stand-in whose report proposes the ability (or not) and records the states it was asked about."""
+
+    roles = {}
+
+    def __init__(self, propose=True):
+        self.propose, self.states = propose, []
+
+    def analyse(self, state, t=None):
+        self.states.append(state)
+        moves = [_ability_move()] if self.propose else []
+        return TacticalReport([], moves, moves[0] if moves else None, None, ["tactics: best ability:musketeer @[8,12] x"],
+                              abilities=moves)
+
+
+class VerdictPolicy:
+    """Hands out one decision; candidates pass the filter unchanged. Records the states it decides on."""
+
+    def __init__(self, verdict):
+        self.verdict, self.states = verdict, []
+
+    def decide(self, state, t, context_text=None):
+        self.states.append(state)
+        return self.verdict
+
+    def filter_candidates(self, candidates, decision, state):
+        return candidates
+
+
+ALLOW_ABILITY = ActDecision(True, "defend", "middle", "defend giant right: ability:musketeer (turret)",
+                            allowed_cards=frozenset({ABILITY_KEY}))
+NOT_IN_HAND = ("fireball|left|mid", "valkyrie|left|mid")           # card candidates the hand cannot play
+
+
+def _part2_loop(propose=True, verdict=ALLOW_ABILITY, keys=NOT_IN_HAND, executor=None, ranker=None, state=None):
+    ex = executor or AbilityExecutor()
+    tac = AbilityTactics(propose)
+    pol = VerdictPolicy(verdict)
+    lp = _loop(builder=RecordingBuilder(state or _ability_state()), generator=AbilityGenerator(keys=keys),
+               ranker=ranker or PickKey(), executor=ex, policy=pol, tactics=tac)
+    return lp, ex, tac, pol
+
+
+def test_part2_an_engine_proposed_ability_the_policy_allowed_is_offered_even_when_no_card_survives():
+    lp, ex, tac, pol = _part2_loop()
+    d = lp.step("f", 1.0, 0, 1.0)
+    assert d.key == "ability:musketeer|middle|bridge" and ex.taps == [("right", 1.0)] and ex.calls == []
+    assert d.executor["status"] == "planned_ability" and d.tile_source == "ability" and d.mode == "defend"
+    cand = d.candidates[-1]
+    assert cand["key"] == d.key and cand["sources"] == {"ability": 1.0}
+    assert cand["note"] == f"hero ability: {ENGINE_NOTE}" and cand["score"] == 0.8     # the engine's reason and score
+    assert lp.summary()["hero_ability"] == {"button_frames": 1, "offered": 1, "taps": 1}
+    assert lp.summary()["decisions_by_source"] == {"ability": 1}
+
+
+def test_part2_the_part_one_rule_stays_unless_the_engine_proposed_and_the_policy_allowed_it():
+    # the engine proposes it but the policy does not list it, and no card can be played: held, as in part 1
+    other = ActDecision(True, "defend", "middle", "x", allowed_cards=frozenset({"fireball"}))
+    for lp, ex, *_ in (_part2_loop(verdict=other), _part2_loop(propose=False),
+                       _part2_loop(propose=False, verdict=ALLOW_ABILITY)):
+        d = lp.step("f", 1.0, 0, 1.0)
+        assert d.key == HOLD_KEY and d.executor["status"] == "hold_hand_unknown" and ex.taps == []
+    # allowed without allowed_cards (an old-style decision): not the only option either
+    plain = ActDecision(True, "defend", "middle", "x")
+    lp, ex, *_ = _part2_loop(verdict=plain)
+    assert lp.step("f", 1.0, 0, 1.0).key == HOLD_KEY and ex.taps == []
+
+
+def test_part2_with_card_options_the_ability_is_one_more_and_the_model_decides():
+    ex = AbilityExecutor()
+    lp, ex, *_ = _part2_loop(keys=("zap|left|mid", "giant|left|back"), executor=ex, ranker=PickKey(prefix="zap"))
+    d = lp.step("f", 1.0, 0, 1.0)
+    assert d.key == "zap|left|mid" and ex.taps == [] and [c["key"] for c in d.candidates][-1].startswith("ability:")
+    assert d.candidates[-1]["note"] == f"hero ability: {ENGINE_NOTE}"                 # the model reads the simulation's reason
+    lp, ex, *_ = _part2_loop(keys=("zap|left|mid", "giant|left|back"))
+    assert lp.step("f", 1.0, 0, 1.0).key.startswith("ability:")
+
+
+def test_part2_the_ability_falls_back_to_the_plain_option_without_a_proposal():
+    lp, ex, *_ = _part2_loop(propose=False, keys=("zap|left|mid", "giant|left|back"))
+    d = lp.step("f", 1.0, 0, 1.0)
+    assert d.key.startswith("ability:") and d.candidates[-1]["note"] == ABILITY_NOTE       # part 1's candidate
+
+
+def test_part2_after_a_tap_neither_the_engine_nor_the_policy_is_offered_the_button_for_ten_seconds():
+    lp, ex, tac, pol = _part2_loop(keys=("zap|left|mid", "giant|left|back"))
+    lp.step("f", 1.0, 0, 1.0)
+    assert ex.taps == [("right", 1.0)]
+    lp.step("f", 4.0, 1, 1.0)
+    assert pol.states[1]["own"]["hero_ability"]["affordable"] is False and tac.states[1]["own"]["hero_ability"]["affordable"] is False
+    assert pol.states[0]["own"]["hero_ability"]["affordable"] is True               # (the first look was before the tap)
+    d = lp.step("f", 12.0, 2, 1.0)
+    assert pol.states[2]["own"]["hero_ability"]["affordable"] is True and d.key.startswith("ability:")

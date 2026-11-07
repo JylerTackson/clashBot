@@ -432,7 +432,8 @@ def test_cli_arbiter_flags(monkeypatch, tmp_path, capsys):
     monkeypatch.setattr(live_mod, "StateIndex", lambda: None)
     monkeypatch.setattr(live_mod, "KnowledgeGraph", lambda: kg)
     monkeypatch.setattr(live_mod, "CandidateGenerator", lambda index, k, cards: FakeGenerator())
-    monkeypatch.setattr(live_mod, "TacticalEngine", lambda cards, kg=None: None)
+    monkeypatch.setattr(live_mod, "build_engine", lambda cards, kg=None, kg2=None: None)   # (K4b: live builds it via build_engine)
+    monkeypatch.setattr(live_mod, "_load_kg2", lambda args: None)
     monkeypatch.setattr(live_mod, "LiveLoop", StubLoop)
     base = ("--source", "video", "--video", "x.mp4", "--device", "cpu")
     assert main(_argv(*base, "--out", str(tmp_path / "a"))) == 0

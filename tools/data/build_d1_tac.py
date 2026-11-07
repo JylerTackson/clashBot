@@ -1,6 +1,6 @@
 """Build the d1 joint training export with tactics (MAC-Z3): the joint questions of WP6 plus the engine's lines and notes.
 
-  python3 tools/data/build_d1_tac.py [--dataset DIR] [--out DIR] [--plans FILE]
+  python3 tools/data/build_d1_tac.py [--dataset DIR] [--out DIR] [--plans FILE] [--no-kg-facts]
 
 Reads <dataset>/d1/joint/{train,val,test}.jsonl and <dataset>/states.jsonl. For every line the tactics engine analyses
 the state; the new line's state is the context followed by the engine's `tactics: ...` lines, and every option carries
@@ -12,6 +12,15 @@ and <out>/stats.json. CPU only; no model is loaded.
 `--plans FILE` (coach_plans.jsonl of build_coach_plans.py, D-046) adds to each line's state the newest coach plan of its
 game made at or before the line's time, as `[plan] ...` after the tactics lines (`d1_format.state_string`), the way
 the live loop shows it. Lines with no such plan stay as they are. Without `--plans` the output is unchanged.
+
+Knowledge graph (MAC-AK K4b, `--kg-facts`, on by default; `--no-kg-facts` gives the old lines): the new line's state is
+rendered by `clashbot.tactics.rank_context`, the very function the live loop renders its ranking context with - the
+context, the engine's `tactics:` lines, then the `KG:` fact lines (`KG2.facts_lines(state, the game's own deck)`) - and the
+engine is built by `clashbot.tactics.build_engine`, as `clashbot.live.main` builds it, with the same KG2: same weights file,
+threat model, graph prior and pro offsets. So the d1 model trains on the context it will read live.
+Leakage: the graph's mined pro answers (`answers.jsonl`, hence its prior, evidence and the `KG:` lines) were aggregated over
+the TRAIN split, which includes the events of the train line's own game; for a train line the graph has seen the game it
+renders. The aggregate cannot be taken apart afterwards, so this is not corrected here (val and test lines are clean).
 """
 from __future__ import annotations
 
@@ -29,9 +38,10 @@ from clashbot.config import DATASET_DIR  # noqa: E402
 from clashbot.d1_format import JOINT_NAME, joint_request, validate  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.kg import KnowledgeGraph  # noqa: E402
+from clashbot.kg2 import KG2  # noqa: E402
 from clashbot.retrieval import StateIndex  # noqa: E402
 from clashbot.state_text import render_context  # noqa: E402
-from clashbot.tactics import TacticalEngine  # noqa: E402
+from clashbot.tactics import TacticalEngine, build_engine, kg_fact_lines, rank_context  # noqa: E402
 
 SPLITS = ("train", "val", "test")
 TAC_PREFIX = "tactics:"
@@ -72,8 +82,9 @@ def latest_plan(plans: dict | None, game_id: str, t: float) -> str | None:
 
 
 def build_line(line: dict, rec: dict, engine: TacticalEngine, generator: CandidateGenerator,
-               plans: dict | None = None) -> tuple[dict, dict]:
-    """(new line, facts about it) for one joint line and its state record; `plans` as `load_plans`, or None."""
+               plans: dict | None = None, kg2=None) -> tuple[dict, dict]:
+    """(new line, facts about it) for one joint line and its state record; `plans` as `load_plans`, or None. With a
+    `kg2` the state also carries the graph's `KG:` fact lines (the game's own deck from the state), as live shows them."""
     report = engine.analyse(rec["state"], rec["t"])
     context = render_context(rec["state"], rec["t"])
     mismatch = context != line["state"]
@@ -83,7 +94,8 @@ def build_line(line: dict, rec: dict, engine: TacticalEngine, generator: Candida
     notes = generator.option_notes(rec["state"], rec["t"], context, keys, report, splits=("train",),
                                    exclude_game=rec["game_id"])
     plan = latest_plan(plans, rec["game_id"], rec["t"])
-    state, questions = joint_request(context + "\n" + "\n".join(report.lines), keys, plan=plan, notes=notes)
+    kg_lines = kg_fact_lines(kg2, rec["state"])
+    state, questions = joint_request(rank_context(context, report, kg_lines), keys, plan=plan, notes=notes)
     new = {**line, "state": state, "questions": questions}
     validate(new["state"], new["questions"], new["answers"])
     answer = line["answers"][JOINT_NAME]
@@ -93,7 +105,7 @@ def build_line(line: dict, rec: dict, engine: TacticalEngine, generator: Candida
              "answer_tactics_card_note": answer_note.startswith(TAC_PREFIX) or TAC_CARD_NOTE in answer_note,
              "top_is_answer": report.best is not None and report.best.key == answer,
              "any_lookup_note": any(n.startswith(LOOKUP_PREFIXES) for n in notes.values()),
-             "has_plan": plan is not None, "chars": len(state)}
+             "has_plan": plan is not None, "has_facts": bool(kg_lines), "chars": len(state)}
     return new, facts
 
 
@@ -106,6 +118,7 @@ def split_stats(facts: list[dict], missing: int, plans: bool = False) -> dict:
             "tactics_top_is_answer": _share(sum(f["top_is_answer"] for f in facts), n),
             "any_lookup_note": _share(sum(f["any_lookup_note"] for f in facts), n),
             "lines_with_push": _share(sum(f["has_push"] for f in facts), n),
+            "lines_with_facts": _share(sum(f["has_facts"] for f in facts), n),
             "mean_state_chars": round(sum(f["chars"] for f in facts) / n, 1) if n else None,
             "context_mismatches": sum(f["mismatch"] for f in facts),
             "skipped_no_state": missing}
@@ -117,6 +130,9 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--out", type=Path, default=None, help="output dir (default <dataset>/d1/joint_tac)")
     ap.add_argument("--plans", type=Path, default=None,
                     help="coach_plans.jsonl: add the newest coach plan at or before each line as '[plan] ...'")
+    ap.add_argument("--kg-facts", action=argparse.BooleanOptionalAction, default=True,
+                    help="add the knowledge graph's KG: fact lines after the tactics lines and build the engine with the "
+                         "graph, exactly as the live loop does (default on; --no-kg-facts = the pre-K4b lines)")
     args = ap.parse_args(argv)
     dataset = Path(args.dataset)
     out_dir = Path(args.out) if args.out else dataset / "d1" / "joint_tac"
@@ -124,8 +140,15 @@ def main(argv: list[str] | None = None) -> int:
     # built exactly as clashbot/live.py::main builds them
     cards = load_cards()
     kg = KnowledgeGraph()
+    kg2 = None
+    if args.kg_facts:
+        try:
+            kg2 = KG2()
+        except Exception as exc:                                   # noqa: BLE001
+            print(f"error: knowledge graph v2 not loaded ({exc}); build it or pass --no-kg-facts", file=sys.stderr)
+            return 2
     generator = CandidateGenerator(StateIndex(), kg, cards)
-    engine = TacticalEngine(cards, kg=kg)
+    engine = build_engine(cards, kg, kg2)
     states = {r["id"]: r for r in read_jsonl(dataset / "states.jsonl")}
     plans = load_plans(Path(args.plans)) if args.plans else None
 
@@ -141,7 +164,7 @@ def main(argv: list[str] | None = None) -> int:
             if rec is None:
                 missing += 1
                 continue
-            new, fact = build_line(line, rec, engine, generator, plans)
+            new, fact = build_line(line, rec, engine, generator, plans, kg2)
             built.append(new)
             facts.append(fact)
             if i % PROGRESS_EVERY == 0:

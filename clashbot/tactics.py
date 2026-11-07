@@ -25,6 +25,16 @@ pushes already; a push worth under `tower_ok_damage` gets no defend moves ("towe
 too (`prevented`, `efficiency`, `adequate`: the damage left is <= max(tower_ok_damage, adequate_frac x the push's)) and the
 score gets `prevent` x the share it prevents, the role terms staying as a tie-break at `role_scale`. Our units already in
 the lane are simulated as well (a push they hold counts as answered). Weight `threat_model` = 0 switches all of it off.
+Knowledge graph (MAC-AK K4b, `clashbot.kg2.KG2` as `kg=` / `kg2=`): for the costliest card of each push the graph says
+how our hand cards answered it in the pro games (`answers_for`: pro held-rate, role transfer, wiki, sim); the defend
+score gets `kg_prior` x that answer's score (the simulation's adequacy stays the gate), the reason quotes the strongest
+evidence ("pros 70% held n=23", "role of cannon"), and a card whose pro answer has an offset from >= 5 events is placed
+at the threat's lead tile + that offset (mirrored back to the lane, clamped; a building only where it still pulls;
+`tile_source` "pro_offset", else "geometric" = the MAC-AG rule) unless the simulation likes the geometric tile better.
+Hero ability (MAC-AI part 2): with the button ready and her Musketeer on the field, the Trusty Turret (KB stats at the
+musketeer's level) is simulated at the spawn tile (her tile + 3 rows toward the enemy) against each push; when it makes a
+push adequate or prevents `ability_min_prevent` tower HP the engine proposes an `ability` move (`TacticalReport.abilities`,
+key `ability:musketeer|lane|zone`). Without a graph, nothing of this changes.
 """
 from __future__ import annotations
 
@@ -34,6 +44,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from clashbot import unit_stats as ustats
+from clashbot.actions import ABILITY_COST, ABILITY_KEY, ABILITY_TURRET_TILES, ability_key
 from clashbot.card_roles import GROUND_ONLY_SPELLS, hits_air, load_roles
 from clashbot.config import ANYWHERE_CARDS
 from clashbot.game_rules import action_key, lane_of, legal_cards, load_cards, zone_of
@@ -52,6 +63,10 @@ MAX_REASON = 60
 MAX_REASON_SAVES = 72           # ... a reason that quotes what the move saves (MAC-AH) may be this long
 TRADE_SUFFIX_ROOM = 12          # characters kept free for ", trade +N" in a reason
 SAVES_SUFFIX_ROOM = 22          # ... and for ", saves ~3,100 tower HP" (MAC-AH)
+MAX_REASON_KG = 96              # ... a reason that also quotes the graph's evidence ("pros 70% held n=23") may run to this
+PRO_OFFSET_MIN_N = 5            # a pro offset is used for placement when it comes from this many events (K4b)
+PRO_OFFSET_MAX_IQR = 8.0        # ... and when its spread (IQR of dx / dy, tiles) is no wider than this
+KG_EVIDENCE_MIN_SCORE = 0.05    # an answer scoring less is not quoted
 LEAD_S = 1.0                 # the threat's position is led by this many seconds along `predicted_tile_2s`
 PUNISH_OPP_ELIXIR = 3.0
 LEAK_ELIXIR = 9.5
@@ -109,7 +124,8 @@ DEFAULT_WEIGHTS: dict[str, float] = {
     "targeter_building_bonus": 0.5,         # building-targeter push: a building
     "targeter_swarm_bonus": 0.3,            # ... a swarm or kamikaze card
     "targeter_mini_tank_bonus": 0.3,        # ... a mini tank
-    "kg_factor": 0.2,                       # x the normalised KG counter score of the most urgent unit
+    "kg_factor": 0.2,                       # x the normalised v1 KG counter score of the most urgent unit (no KG2 attached)
+    "kg_prior": 0.25,                       # x the KG2 answer score of the card against the push's costliest card (K4b)
     "trade_overpay_per_elixir": 0.15,       # per elixir of over-payment beyond the slack
     "trade_overpay_slack": 1.0,
     "trade_good_min": 1.0,                  # a trade of at least this many elixir ...
@@ -132,6 +148,9 @@ DEFAULT_WEIGHTS: dict[str, float] = {
     "tower_ok_damage": 300.0,               # a push that would do less than this to the tower: the tower handles it
     "adequate_frac": 0.35,                  # a move is adequate when the tower damage left is <= max(tower_ok_damage,
                                             # this x the push's damage) or no unit reaches the tower
+    # hero ability (MAC-AI part 2): the Trusty Turret, simulated at the Musketeer's spawn tile
+    "ability": 0.5,                         # base score of the `ability` move (+ `prevent` x the share it prevents)
+    "ability_min_prevent": 400.0,           # proposed when it makes a push adequate or prevents at least this much tower HP
     # offence intent scores
     "counter_push": 0.6,
     "split": 0.7,                           # an answered push worth 5+ elixir: the win condition goes to the other lane
@@ -220,6 +239,10 @@ class TacticalMove:
     prevented: float | None = None       # tower damage the move removes (damage_if_unanswered - damage with it)
     efficiency: float | None = None      # prevented / elixir cost
     damage_with: float | None = None     # tower damage with the move (and our units already there)
+    # K4b: where the tile came from - "pro_offset" (the threat's lead tile + a pro offset of the knowledge graph, from
+    # >= PRO_OFFSET_MIN_N events), "geometric" (the MAC-AG rule) or "ability" (the turret's spawn tile)
+    tile_source: str = "geometric"
+    push_lane: str | None = None         # ability: the lane of the push the turret is judged against
 
 
 @dataclass
@@ -231,6 +254,7 @@ class TacticalReport:
     lines: list[str]             # 1..4 lines, each starting with "tactics: "
     defence: list[TacticalMove] = field(default_factory=list)   # every defend move, best first (`moves` keeps 6 of all)
     offence: list[TacticalMove] = field(default_factory=list)   # every offence move, best first (`moves` keeps 6 of all)
+    abilities: list[TacticalMove] = field(default_factory=list)   # the hero ability, when it is worth it (MAC-AI part 2)
 
 
 @dataclass
@@ -254,6 +278,9 @@ class _PushCtx:
     kite: bool = False           # a ground troop-targeter and nobody fights it yet: the first melee defender kites it
     tower: dict | None = None    # the tower the lane simulation attacks: {"lane", "hp"}
     allies: list = field(default_factory=list)   # our units in the lane (simulation defenders, already on the field)
+    kg_threat: str | None = None         # K4b: the costliest card of the push, the one the graph is asked about
+    kg_pos: list | None = None           # ... and where its unit will be (tile led by LEAD_S): pro offsets start there
+    kg_answers: dict = field(default_factory=dict)   # card in hand -> kg2.Answer against `kg_threat`
 
 
 def _tile(unit: dict) -> list | None:
@@ -306,12 +333,30 @@ def _with_trade(base: str, trade: float, saves: float | None = None) -> str:
     return base[:max(0, limit - len(suffix))] + suffix
 
 
+def _with_evidence(base: str, trade: float, saves: float | None, evidence: tuple[str, ...]) -> str:
+    """`_with_trade` that also quotes the graph's evidence ("pros 70% held n=23"): `evidence` lists the clause variants,
+    richest first; the first variant that fits MAX_REASON_KG together with ", saves ~N tower HP" (or its short form)
+    and ", trade +N" is used, else the reason is the plain `_with_trade` one."""
+    suffix = f", trade {'+' if trade >= 0 else '-'}{fmt_num(abs(trade))}"
+    saves_clauses = [""]
+    if saves is not None and saves >= 100:
+        n = f"{int(round(saves, -2)):,}"
+        saves_clauses = [f", saves ~{n} tower HP", f", saves ~{n} HP"]
+    for ev in evidence:
+        for sv in saves_clauses:
+            text = f"{base}{sv}, {ev}{suffix}"
+            if len(text) <= MAX_REASON_KG:
+                return text
+    return _with_trade(base, trade, saves)
+
+
 def _clip(text: str) -> str:
     return text[:MAX_REASON]
 
 
 class TacticalEngine:
-    def __init__(self, cards: dict | None = None, roles: dict | None = None, kg=None, weights: dict | None = None):
+    def __init__(self, cards: dict | None = None, roles: dict | None = None, kg=None, weights: dict | None = None,
+                 kg2=None):
         self.cards = cards if cards is not None else load_cards()
         # the scoring numbers: defaults < tactics_weights.json < the explicit dict (read as `self.w[key]` at use time)
         self.w = resolve_weights(weights)
@@ -319,12 +364,21 @@ class TacticalEngine:
             roles = load_roles()
         # accept both the file layout ({"version", "cards": {...}}) and the plain card -> role mapping
         self.roles = roles["cards"] if isinstance(roles.get("cards"), dict) else roles
+        # `kg` is the v1 graph (`counter_scores`) or a KG2 (`answers_for`, MAC-AK K4b); `kg2` names the KG2 explicitly
+        # when both are given. With a KG2 its answers replace the v1 counter term (they include the wiki counters).
+        if kg2 is None and callable(getattr(kg, "answers_for", None)):
+            kg2 = kg
+            kg = kg if callable(getattr(kg, "counter_scores", None)) else None
         self.kg = kg
+        self.kg2 = kg2
         self.policy = ReactivePolicy(self.cards)
         self._fallback: dict[str, dict] = {}
+        self._kg_cache: dict[tuple, dict] = {}
 
     # -- cards and roles -----------------------------------------------------------------------------------------------
     def _cost(self, card: str) -> float:
+        if card == ABILITY_KEY:
+            return float(ABILITY_COST)
         return float((self.cards.get(card) or {}).get("elixir_cost") or 0.0)
 
     def _role(self, card: str | None) -> dict:
@@ -589,14 +643,42 @@ class TacticalEngine:
                          if p.get("card") and p.get("t") is not None and 0 <= t - p["t"] <= KAMIKAZE_REPEAT_S
                          and self._has(self._role(p["card"]), "kamikaze"))
 
-    def _ctx(self, push: Push, state: dict, t: float | None = None) -> _PushCtx:
+    def _kg_threat(self, push: Push) -> tuple[str | None, dict | None]:
+        """(card, unit) the graph is asked about: the costliest known card of the push (the first of them in the push's
+        order of urgency), which is its lead in almost every real push; (None, None) for a push of unknown units."""
+        best: tuple[float, str, dict] | None = None
+        for u in push.units:
+            card = u.get("card")
+            if not card or self._role(card).get("type") == "spell":
+                continue
+            cost = self._cost(card)
+            if best is None or cost > best[0]:
+                best = (cost, card, u)
+        return (best[1], best[2]) if best else (None, None)
+
+    def _kg_answers(self, threat: str, hand: list[str]) -> dict:
+        """card -> `kg2.Answer` for the cards of `hand` against `threat` (cached: the graph is static). {} when the
+        graph fails."""
+        key = (threat, tuple(sorted(hand)))
+        got = self._kg_cache.get(key)
+        if got is None:
+            try:
+                got = {a.card: a for a in self.kg2.answers_for(threat, list(hand), k=max(len(hand), 1))}
+            except Exception:                                        # noqa: BLE001  the graph never breaks the engine
+                got = {}
+            if len(self._kg_cache) > 512:
+                self._kg_cache.clear()
+            self._kg_cache[key] = got
+        return got
+
+    def _ctx(self, push: Push, state: dict, t: float | None = None, hand: list[str] | None = None) -> _PushCtx:
         """The defence context of the push; `t` is the clock of the play times (our recent plays that answer the push,
-        the kamikaze cards we played a moment ago)."""
+        the kamikaze cards we played a moment ago), `hand` the cards the graph is asked about (default: the legal ones)."""
         unit = push.units[0]
         pos = _lead_tile(unit, LEAD_S) or list(_tile(unit))
         card = unit.get("card")
         norm: dict[str, float] = {}
-        if self.kg is not None and card:
+        if self.kg is not None and self.kg2 is None and card:
             scores = self.kg.counter_scores(card) or {}
             top = max(scores.values(), default=0.0)
             if top > 0:
@@ -611,7 +693,7 @@ class TacticalEngine:
             # our units on the field now, simulated against the push, already stop it (even when the plain "elixir
             # near the lead unit" check of `_answered_by` does not see it)
             answered_by = tuple(dict.fromkeys(a["card"] for a in allies))
-        return _PushCtx(push, unit, pos, OWN_TOWER_X[push.lane], 1 if push.lane == "left" else -1, _name(unit),
+        ctx = _PushCtx(push, unit, pos, OWN_TOWER_X[push.lane], 1 if push.lane == "left" else -1, _name(unit),
                         all(r.get("flying") for r in roles), norm,
                         heavy=any(r.get("hp_class") in ("medium", "tank") for r in roles),
                         swarm_only=all(r.get("hp_class") == "swarm" or u.get("card") in SWARM_SPELL_UNITS
@@ -623,6 +705,13 @@ class TacticalEngine:
                         kite=(not lead_role.get("flying") and lead_role.get("targets") != "buildings"
                               and not answered_by),
                         tower=tower, allies=allies)
+        if self.kg2 is not None:
+            threat, tunit = self._kg_threat(push)
+            if threat is not None:
+                ctx.kg_threat = threat
+                ctx.kg_pos = _lead_tile(tunit, LEAD_S) or list(_tile(tunit))
+                ctx.kg_answers = self._kg_answers(threat, hand if hand is not None else legal_cards(state, self.cards))
+        return ctx
 
     # -- pulling a building targeter -----------------------------------------------------------------------------------
     @staticmethod
@@ -762,6 +851,9 @@ class TacticalEngine:
             score += rs
         else:
             score += w["role_scale"] * rs + w["prevent"] * prevent
+        ans = ctx.kg_answers.get(card)
+        if ans is not None:
+            score += w["kg_prior"] * ans.score                               # how the pros (and the wiki) answered it
         trade = push.elixir - cost
         score -= w["trade_overpay_per_elixir"] * max(0.0, -trade - w["trade_overpay_slack"])
         if trade >= w["trade_good_min"] and self._claims_trade(role, ctx):
@@ -814,6 +906,81 @@ class TacticalEngine:
         return (_clamp_tile(ctx.tower_x + 1.5 * ctx.toward_centre, 2.5),
                 f"kills {threat} from behind the tower")
 
+    # -- pro offsets (K4b) ---------------------------------------------------------------------------------------------
+    def _pro_tile(self, card: str, role: dict, ans, ctx: _PushCtx) -> tuple[list[float], str] | None:
+        """(tile, reason without the suffixes) from the pro offset of `ans` (the card's, or its `via` card's, offset
+        against the push's costliest card), or None. The offset is stored in the canonical lane (positive dx = toward the
+        centre): it is mirrored back for a threat at x >= 9, added to the threat's lead tile and clamped to our half. It
+        needs >= PRO_OFFSET_MIN_N events and a spread of at most PRO_OFFSET_MAX_IQR; a spell keeps its aim, and a
+        building against a building targeter is placed there only where it still pulls (a pull tile, threat not yet
+        locked on its tower)."""
+        off = getattr(ans, "offset", None)
+        if role.get("type") == "spell" or not isinstance(off, dict) or ctx.kg_pos is None:
+            return None
+        n = off.get("n")
+        n = getattr(ans, "support", 0) if n is None else n
+        nums = [off.get(k) for k in ("dx_med", "dy_med")]
+        if not (isinstance(n, (int, float)) and n >= PRO_OFFSET_MIN_N
+                and all(isinstance(v, (int, float)) and not isinstance(v, bool) for v in nums)):
+            return None
+        if any(isinstance(off.get(k), (int, float)) and off[k] > PRO_OFFSET_MAX_IQR for k in ("dx_iqr", "dy_iqr")):
+            return None
+        pos = ctx.kg_pos
+        dx = -nums[0] if pos[0] >= 9.0 else nums[0]
+        tile = _clamp_tile(pos[0] + dx, pos[1] + nums[1])
+        if role.get("type") == "building" and "building_targeter" in ctx.push.needs:
+            if ctx.pull_tile is None or ctx.pull_unit is None:
+                return None
+            at = _lead_tile(ctx.pull_unit, PULL_LEAD_S) or list(_tile(ctx.pull_unit))
+            if not PULL_MIN_DIST <= math.dist(tile, at) <= nearest_own_tower_dist(at) - PULL_CLOSER_TILES:
+                return None
+            return tile, f"pulls {_name(ctx.pull_unit)} to the centre"
+        return tile, f"{card} at the pro spot vs {ctx.kg_threat}"
+
+    def _sim_adequate(self, sim, push: Push) -> bool:
+        """The simulated tower damage left is small (see `adequate_frac`) or nothing reaches the tower."""
+        return bool(sim.tower_damage <= self._ok_limit(push) or sim.eta_s is None)
+
+    def _choose_tile(self, card: str, role: dict, ctx: _PushCtx, aim, state: dict):
+        """(tile, reason, simulation, tile_source) of a defend move: the geometric rule of MAC-AG, or the pro offset when
+        the graph has one - unless the simulation finds the pro tile inadequate and the geometric one adequate."""
+        tile, why = self._defence_place(card, role, ctx, aim, state)
+        sim = self._simulate_move(card, tile, ctx)
+        ans = ctx.kg_answers.get(card)
+        pro = None if ans is None else self._pro_tile(card, role, ans, ctx)
+        if pro is None:
+            return tile, why, sim, "geometric"
+        psim = self._simulate_move(card, pro[0], ctx)
+        if sim is None or psim is None or self._sim_adequate(psim, ctx.push) or not self._sim_adequate(sim, ctx.push):
+            return pro[0], pro[1], psim, "pro_offset"
+        return tile, why, sim, "geometric"
+
+    @staticmethod
+    def _kg_evidence(ans, pro_spot: bool = False) -> tuple[str, ...]:
+        """The strongest evidence of the graph for `ans` as reason clauses, richest first: "pros 70% held n=23",
+        "role of cannon", "wiki counter" (+ ", pro spot" when the tile is the pros'); () when it says nothing worth
+        quoting (a weak score, or only the simulation's STOPS edge, which the reason's "saves ~N" already quotes)."""
+        if ans is None or ans.score < KG_EVIDENCE_MIN_SCORE:
+            return ()
+        from clashbot.kg2 import SOURCE_WEIGHTS                  # the graph's own weights: what really carried the score
+        contrib = {k: SOURCE_WEIGHTS.get(k, 0.0) * float(ans.sources.get(k) or 0.0)
+                   for k in ("pro", "role_transfer", "wiki", "sim")}
+        top = max(contrib, key=lambda k: contrib[k])
+        if contrib[top] <= 0 or top == "sim":
+            return ()
+        if top == "pro":
+            held = "" if ans.held_rate is None else f" {ans.held_rate * 100:.0f}% held"
+            full, short = f"pros{held} n={ans.support}", f"pros n={ans.support}"
+        elif top == "role_transfer":
+            full = short = f"role of {ans.via}"
+        else:
+            full = short = "wiki counter"
+        spot = f"pro spot via {ans.via}" if ans.via and top != "role_transfer" else "pro spot"   # (a transferred offset is the via card's)
+        out = [f"{full}, {spot}", full] if pro_spot else [full]
+        if short != full:
+            out.append(short)
+        return tuple(out)
+
     def _simulate_move(self, card: str, tile, ctx: _PushCtx):
         """The lane simulation of the push with `card` played at `tile` on top of our units already there; None when
         the push or the card has no stats (the move is then judged by the roles alone)."""
@@ -837,8 +1004,7 @@ class TacticalEngine:
                 aim = self._spell_aim(card, ctx, state)
                 if aim is None:
                     continue
-            tile, why = self._defence_place(card, role, ctx, aim, state)
-            sim = self._simulate_move(card, tile, ctx)
+            tile, why, sim, source = self._choose_tile(card, role, ctx, aim, state)
             prevented = None if sim is None else max(0.0, base - sim.tower_damage)
             scored = self._defence_score(card, role, ctx, aim,
                                          None if prevented is None else prevented / max(unanswered, PREVENT_REF))
@@ -846,17 +1012,22 @@ class TacticalEngine:
                 continue
             score, trade = scored
             key = action_key(card, lane_of(tile), zone_of(tile))
-            reason = (_with_trade(why, trade, prevented) if self._claims_trade(role, ctx)
-                      else _clip(f"slows {ctx.threat}"))
+            evidence = self._kg_evidence(ctx.kg_answers.get(card), source == "pro_offset")
+            if not self._claims_trade(role, ctx):
+                reason = _clip(f"slows {ctx.threat}")
+            elif evidence:
+                reason = _with_evidence(why, trade, prevented, evidence)
+            else:
+                reason = _with_trade(why, trade, prevented)
             cost = self._cost(card)
             moves.append(TacticalMove(card, key, tile, "defend", reason, score, trade,
                                       stop=self._stop_class(role, ctx) or "spell",
                                       value=None if aim is None else float(aim[1]),
-                                      adequate=None if sim is None else bool(
-                                          sim.tower_damage <= self._ok_limit(ctx.push) or sim.eta_s is None),
+                                      adequate=None if sim is None else self._sim_adequate(sim, ctx.push),
                                       prevented=None if sim is None else round(prevented, 1),
                                       efficiency=None if sim is None or cost <= 0 else round(prevented / cost, 1),
-                                      damage_with=None if sim is None else float(sim.tower_damage)))
+                                      damage_with=None if sim is None else float(sim.tower_damage),
+                                      tile_source=source))
         return moves
 
     # -- offence -------------------------------------------------------------------------------------------------------
@@ -1125,6 +1296,87 @@ class TacticalEngine:
         moves += self._cycle_moves(state, hand, elixir, moves)
         return moves
 
+    # -- hero ability (MAC-AI part 2) ----------------------------------------------------------------------------------
+    @staticmethod
+    def _turret_spot(state: dict) -> list[float] | None:
+        """Where Trusty Turret lands, or None when the ability is not usable: the button is visible and affordable, the
+        own elixir (when known) covers its cost and an ally Musketeer is on the field. The spot is her tile
+        ABILITY_TURRET_TILES rows toward the enemy, clamped to the arena - the same tile (so the same key) as
+        `candidates.hero_ability_move`."""
+        own = state.get("own") or {}
+        ab = own.get("hero_ability")
+        if not isinstance(ab, dict) or not ab.get("visible") or not ab.get("affordable"):
+            return None
+        elixir = own.get("elixir")
+        if isinstance(elixir, (int, float)) and not isinstance(elixir, bool) and elixir < ABILITY_COST:
+            return None
+        for u in state.get("units") or []:
+            tile = _tile(u)
+            if u.get("side") == "ally" and u.get("card") == "musketeer" and tile is not None:
+                return [min(max(float(tile[0]), 0.0), 17.0), min(max(float(tile[1]) + ABILITY_TURRET_TILES, 0.0), 31.0)]
+        return None
+
+    @staticmethod
+    def _turret_defender(spot: list[float]) -> dict | None:
+        """The simulation defender of the turret: the KB stats of the hero Musketeer's Trusty Turret at her level (a
+        building that hits air and ground, acts one deploy time + the tap latency after the decision, lives 10 s); None
+        when the table has no hero ability."""
+        st = ustats.stat_at("musketeer", ustats.own_level("musketeer"), "hero")
+        tur = (((st or {}).get("abilities") or {}).get("trusty-turret") or {}).get("turret")
+        if not tur or not tur.get("hitpoints") or not tur.get("damage"):
+            return None
+        dmg = float(tur["damage"])
+        hit = dmg / float(tur["damage_per_second"]) if tur.get("damage_per_second") else 1.0
+        deploy = float(tur.get("deploy_s") or 1.0)
+        stat = {"name": "Trusty Turret", "count": 1, "hp": int(tur["hitpoints"]), "damage": int(dmg),
+                "dps": float(tur.get("damage_per_second") or dmg / hit), "hit_speed_s": hit, "first_hit_s": hit,
+                "range_tiles": float(tur.get("range_tiles") or 4.0), "speed_tiles_s": 0.0,
+                "targets": tur.get("targets") or "air_ground", "flying": False, "kamikaze": False,
+                "splash_radius_tiles": 0.0, "death_damage": 0, "death_radius_tiles": 0.0, "death_delay_s": 0.0,
+                "death_spawn": None, "spawn": None, "deploy_s": deploy, "lifetime_s": float(tur.get("lifetime_s") or 10.0)}
+        return {"card": "musketeer-turret", "stat": stat, "tile": list(spot), "ready_s": ustats.DEPLOY_LATENCY_S + deploy}
+
+    def _ability_moves(self, state: dict, ctxs: list[_PushCtx]) -> list[TacticalMove]:
+        """The `ability` move (at most one): the turret simulated at its spawn tile against each push on top of our units
+        already in the lane. It is proposed for the push where it prevents the most when that makes the push adequate
+        (the damage left is within `adequate_frac`, the push not already held by our units) or it prevents at least
+        `ability_min_prevent` tower HP; a push the tower handles never asks for it. Needs the threat model."""
+        if not self._sim_on():
+            return []
+        spot = self._turret_spot(state)
+        turret = self._turret_defender(spot) if spot is not None else None
+        if turret is None:
+            return []
+        w = self.w
+        best: tuple[float, _PushCtx, ustats.SimResult] | None = None
+        for ctx in ctxs:
+            push = ctx.push
+            if push.tower_ok or push.damage_if_unanswered is None:
+                continue
+            base = push.damage_if_unanswered if push.damage_with_allies is None else push.damage_with_allies
+            res = ustats.simulate_lane(push.units, ctx.allies + [turret], ctx.tower)
+            prevented = max(0.0, base - res.tower_damage)
+            worth = prevented >= w["ability_min_prevent"] or (
+                prevented > 0 and self._sim_adequate(res, push) and not push.allies_hold)
+            if worth and (best is None or prevented > best[0]):
+                best = (prevented, ctx, res)
+        if best is None:
+            return []
+        prevented, ctx, res = best
+        push = ctx.push
+        pulls = "building_targeter" in push.needs and ctx.pull_unit is not None
+        n = f"{int(round(prevented, -2)):,}"
+        why = f"turret {'pulls' if pulls else 'holds'} {_name(ctx.pull_unit) if pulls else ctx.threat} {push.lane}"
+        for clause in (f", saves ~{n} tower HP, 3 elixir", f", saves ~{n} HP, 3 elixir", ", 3 elixir"):
+            if len(why) + len(clause) <= MAX_REASON_SAVES:
+                why += clause
+                break
+        score = round(w["ability"] + w["prevent"] * prevented / max(push.damage_if_unanswered, PREVENT_REF), 3)
+        return [TacticalMove(ABILITY_KEY, ability_key(lane_of(spot), zone_of(spot)), list(spot), "ability", why, score,
+                             None, stop="turret", adequate=self._sim_adequate(res, push), prevented=round(prevented, 1),
+                             efficiency=round(prevented / ABILITY_COST, 1), damage_with=float(res.tower_damage),
+                             tile_source="ability", push_lane=push.lane)]
+
     # -- report --------------------------------------------------------------------------------------------------------
     def _rank(self, moves: list[TacticalMove], limit: int | None = MAX_MOVES) -> list[TacticalMove]:
         """Best first (ties: lower cost, then card name), the first move per key, at most `limit`."""
@@ -1170,17 +1422,20 @@ class TacticalEngine:
         hand = legal_cards(state, self.cards)
         pushes = self._pushes(state, t)
         moves: list[TacticalMove] = []
+        ctxs: list[_PushCtx] = []
         for push in pushes:
-            ctx = self._ctx(push, state, t)
+            ctx = self._ctx(push, state, t, hand)
+            ctxs.append(ctx)
             push.answered, push.answered_by = bool(ctx.answered_by), list(ctx.answered_by)
             moves += self._defence_moves(ctx, hand, state)
         defence = self._rank(moves, None)
         offence = self._offence_moves(state, hand, t, pushes)
-        moves = self._rank(moves + offence)
+        abilities = self._ability_moves(state, ctxs)
+        moves = self._rank(moves + offence + abilities)
         best = moves[0] if moves else None
         hold = None if best else self._hold_reason(state, pushes, hand)
         return TacticalReport(pushes, moves, best, hold, self._lines(pushes, moves, hold), defence,
-                              self._rank(offence, None))
+                              self._rank(offence, None), abilities)
 
     def score_key(self, key: str, state: dict, report: TacticalReport | None = None) -> float | None:
         """The engine's preference for the action key: the score of the first proposed move with that key, else the
@@ -1204,8 +1459,39 @@ class TacticalEngine:
         unanswered = push.damage_if_unanswered
         base = unanswered if push.damage_with_allies is None else push.damage_with_allies
         if aim is not None or role.get("type") != "spell":
-            tile, _ = self._defence_place(card, role, ctx, aim, state)
-            sim = self._simulate_move(card, tile, ctx)
+            sim = self._choose_tile(card, role, ctx, aim, state)[2]
         prevent = None if sim is None else max(0.0, base - sim.tower_damage) / max(unanswered, PREVENT_REF)
         scored = self._defence_score(card, role, ctx, aim, prevent)
         return None if scored is None else scored[0]
+
+
+# -- one rendering and one factory for the live loop and the d1 dataset builder (MAC-AK K4b) -------------------------------
+def build_engine(cards: dict | None = None, kg_v1=None, kg2=None, weights: dict | None = None) -> TacticalEngine:
+    """The engine as the live loop runs it (`clashbot.live.main`) and `tools/data/build_d1_tac.py` builds the training
+    lines with it: the committed weights file (plus `weights`), the threat model, the v1 graph's counter scores (only
+    while there is no `kg2`) and the KG2 (the pro-answer prior, the pro offsets). Same arguments, same lines."""
+    return TacticalEngine(cards, kg=kg_v1, kg2=kg2, weights=weights)
+
+
+def kg_fact_lines(kg2, state: dict, max_lines: int = 3) -> list[str]:
+    """The `KG:` fact lines of the state for the LLM context (`KG2.facts_lines` with the state's own deck); [] without a
+    graph or when it fails - the graph never stops a decision."""
+    if kg2 is None:
+        return []
+    try:
+        deck = [c for c in ((state.get("own") or {}).get("deck") or []) if c]
+        return [str(x) for x in kg2.facts_lines(state, deck, max_lines=max_lines)]
+    except Exception:                                        # noqa: BLE001
+        return []
+
+
+def rank_context(ctx: str, report, facts_lines=()) -> str:
+    """The text the ranker reads: `ctx` (the state's context), then the engine's `tactics:` lines (when there is a
+    report), then the graph's `KG:` fact lines, newline-joined. The live loop and `build_d1_tac` both render it here, so
+    the training lines and the live ranking context are the same string."""
+    text = ctx
+    if report is not None:
+        text += "\n" + "\n".join(report.lines)
+    if facts_lines:
+        text += "\n" + "\n".join(facts_lines)
+    return text

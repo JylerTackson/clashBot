@@ -1317,3 +1317,150 @@ def test_ag_end_to_end_the_tesla_goes_to_the_pull_tile_and_knight_waits_for_a_fl
     assert d2.mode == "defend" and d2.reason == "defend bats left: zap (spell)"
     assert [c["key"] for c in d2.candidates] == ["zap|left|bridge"]               # the knight candidate was filtered out
     assert d2.key == "zap|left|bridge" and [c[0] for c in lp2.executor.calls] == ["zap|left|bridge"]
+
+
+# MAC-AK K4b: the knowledge graph's fact lines in the ranker's context, the pro-offset tile source, the graph reaches the
+# policy and the engine ------------------------------------------------------------------------------------------------
+class FactsKG:
+    """A KG2 stand-in for the loop: `facts_lines` only (the pieces of KG2 the live loop calls)."""
+
+    def __init__(self, lines=("KG: balloon L15 2458hp 937/drop; answers musketeer (pros 31% n=48 held 70%)",
+                              "KG: opp likely also has night-witch 0.62"), boom=False):
+        self.lines, self.boom, self.calls = list(lines), boom, []
+
+    def facts_lines(self, state, our_deck, max_lines=3):
+        self.calls.append((list(our_deck), max_lines))
+        if self.boom:
+            raise RuntimeError("graph down")
+        return list(self.lines)[:max_lines]
+
+
+class ContextPolicy(StaticPolicy):
+    """StaticPolicy that remembers the context text it was given (the act policy's)."""
+
+    def __init__(self, verdict, aim=None):
+        super().__init__(verdict, aim)
+        self.contexts = []
+
+    def decide(self, state, t, context_text=None):
+        self.contexts.append(context_text)
+        return self.verdict
+
+
+def _kg_loop(kg2, tactics=None, tmp_path=None, verdict=None, **kw):
+    from clashbot.tactics import DEFAULT_WEIGHTS, TacticalEngine
+    ranker = FakeKeyRanker()
+    policy = ContextPolicy(verdict or ActDecision(True, "defend", None, "x"))
+    lp = _loop(tmp_path=tmp_path, builder=FakeBuilder(state=_state(elixir=5.0), warmup=0), ranker=ranker, policy=policy,
+               tactics=TacticalEngine(load_cards(), weights=DEFAULT_WEIGHTS) if tactics is True else tactics, kg2=kg2, **kw)
+    return lp, ranker, policy
+
+
+def test_k4b_the_graphs_fact_lines_follow_the_tactics_lines_in_the_rankers_context(tmp_path):
+    kg = FactsKG()
+    lp, ranker, policy = _kg_loop(kg, tactics=True, tmp_path=tmp_path)
+    d = lp.step("f", 1.0, 0, 2.0)
+    context = ranker.calls[0][0]
+    head, *rest = context.split("\n")
+    assert head == "CTX" and rest[-2:] == kg.lines                        # tactics lines first, the graph's two after them
+    assert rest[0].startswith("tactics: ") and all(ln.startswith("tactics: ") for ln in rest[:-2])
+    assert policy.contexts == ["CTX"]                                     # the act policy's context is unchanged
+    assert kg.calls == [(["zap", "archers", "knight", "giant"], 3)]       # the own deck of the state, at most 3 lines
+    assert d.kg_lines == kg.lines
+    row = json.loads((tmp_path / "decisions.jsonl").read_text().splitlines()[0])
+    assert row["kg_lines"] == kg.lines and row["context_text"] == "CTX"
+
+
+def test_k4b_fact_lines_without_a_tactics_engine_and_without_a_graph():
+    kg = FactsKG()
+    lp, ranker, _ = _kg_loop(kg, tactics=None)
+    lp.step("f", 1.0, 0, 2.0)
+    assert ranker.calls[0][0] == "CTX\n" + "\n".join(kg.lines)
+    lp, ranker, _ = _kg_loop(None, tactics=True)                          # no graph: exactly what it was
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert ranker.calls[0][0].startswith("CTX\ntactics: ") and "KG:" not in ranker.calls[0][0] and d.kg_lines == []
+    lp, ranker, _ = _kg_loop(None, tactics=None)
+    lp.step("f", 1.0, 0, 2.0)
+    assert ranker.calls[0][0] == "CTX"
+    lp, ranker, _ = _kg_loop(FactsKG(lines=()), tactics=None)             # a graph with nothing to say adds nothing
+    lp.step("f", 1.0, 0, 2.0)
+    assert ranker.calls[0][0] == "CTX"
+
+
+def test_k4b_a_failing_graph_never_stops_a_decision():
+    lp, ranker, _ = _kg_loop(FactsKG(boom=True), tactics=None)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == "giant|left|back" and ranker.calls[0][0] == "CTX" and d.kg_lines == []
+
+
+def test_k4b_the_pro_offset_tile_source_is_logged():
+    verdict = ActDecision(True, "defend", "left", "x", allowed_cards=frozenset({"giant"}),
+                          engine_tiles={"giant": [5.0, 10.0]}, tile_sources={"giant": "pro_offset"})
+    d = _loop(builder=FakeBuilder(warmup=0), executor=SlotExecutor(), policy=StaticPolicy(verdict)).step("f", 1.0, 0, 2.0)
+    assert d.key == "giant|left|back" and d.tile == [5.0, 10.0] and d.tile_source == "pro_offset"
+    geo = ActDecision(True, "defend", "left", "x", engine_tiles={"giant": [5.0, 10.5]}, tile_sources={"giant": "geometric"})
+    d = _loop(builder=FakeBuilder(warmup=0), executor=SlotExecutor(), policy=StaticPolicy(geo)).step("f", 1.0, 0, 2.0)
+    assert d.tile == [5.0, 10.5] and d.tile_source == "engine"
+    old = ActDecision(True, "defend", "left", "x", engine_tiles={"giant": [5.0, 10.5]})        # a decision without sources
+    d = _loop(builder=FakeBuilder(warmup=0), executor=SlotExecutor(), policy=StaticPolicy(old)).step("f", 1.0, 0, 2.0)
+    assert d.tile_source == "engine"
+
+
+def test_k4b_a_tactical_candidate_with_a_pro_tile_is_logged_as_one():
+    from clashbot.tactics import TacticalMove, TacticalReport
+    move = TacticalMove("giant", "giant|left|back", [4.0, 2.5], "defend", "x", 1.0, 1.0, tile_source="pro_offset")
+    report = TacticalReport([], [move], move, None, ["tactics: best giant @[4,2.5] defend: x"])
+    stub = types.SimpleNamespace(analyse=lambda state, t: report, roles={})
+    verdict = ActDecision(True, "defend", None, "x")
+
+    class TacGen(FakeGenerator):
+        def generate(self, state, t, ctx, n=4, **filters):
+            return [Candidate("zap|left|mid", 0.5, {"knn": 1.0}), Candidate("giant|left|back", 1.0, {"tac": 1.0}, [4.0, 2.5])]
+
+    d = _loop(builder=FakeBuilder(warmup=0), generator=TacGen(), executor=SlotExecutor(), policy=StaticPolicy(verdict),
+              tactics=stub).step("f", 1.0, 0, 2.0)
+    assert d.key == "giant|left|back" and d.tile == [4.0, 2.5] and d.tile_source == "pro_offset"
+
+
+def test_k4b_the_graph_reaches_the_policy_and_the_engine():
+    from clashbot.policy import LearnedActPolicy, ReactivePolicy
+    from clashbot.tactics import TacticalEngine
+    kg = FactsKG()
+    engine = TacticalEngine(load_cards())
+    lp = _loop(policy="reactive", tactics=engine, kg2=kg)
+    assert isinstance(lp.policy, ReactivePolicy) and lp.policy.kg is kg and engine.kg2 is kg
+    learned = LearnedActPolicy(types.SimpleNamespace(), load_cards())
+    lp = _loop(policy=learned, kg2=kg)
+    assert learned.rules.kg is kg
+    mine = ReactivePolicy(load_cards(), kg="mine")                         # a graph the policy already has is kept
+    _loop(policy=mine, kg2=kg)
+    assert mine.kg == "mine"
+    assert _loop(policy="reactive").policy.kg is None and _loop(policy="trigger", kg2=kg).policy is None
+
+
+def test_k4b_the_cli_loads_the_graph_unless_told_not_to(capsys, tmp_path):
+    from clashbot.live import _load_kg2
+    ns = types.SimpleNamespace
+    assert _load_kg2(ns(no_kg2=True)) is None
+    assert build_parser().parse_args(["--calib", "c", "--deck", "d", "--no-kg2"]).no_kg2 is True
+    assert build_parser().parse_args(["--calib", "c", "--deck", "d"]).no_kg2 is False
+    import clashbot.kg2 as kg2_mod
+    real = kg2_mod.KG2
+    try:
+        kg2_mod.KG2 = lambda *a, **k: (_ for _ in ()).throw(FileNotFoundError("knowledge graph v2 not built"))
+        assert _load_kg2(ns(no_kg2=False)) is None
+        assert "running without it" in capsys.readouterr().err
+    finally:
+        kg2_mod.KG2 = real
+
+
+def test_k4b_ability_cooling_marks_the_button_unaffordable_without_touching_the_state():
+    from clashbot.live import ability_cooling
+    st = _state()
+    assert ability_cooling(st) is st                                       # no button: as it is
+    st["own"]["hero_ability"] = {"hero": "musketeer", "visible": True, "affordable": True, "cost": 3}
+    cool = ability_cooling(st)
+    assert cool["own"]["hero_ability"]["affordable"] is False and st["own"]["hero_ability"]["affordable"] is True
+    assert cool["units"] is st["units"] and cool["own"]["hand"] is st["own"]["hand"]
+    grey = {**st, "own": {**st["own"], "hero_ability": {"visible": True, "affordable": False}}}
+    assert ability_cooling(grey) is grey
