@@ -21,7 +21,9 @@ from pathlib import Path
 from clashbot.config import DB_PATH, KG2_PATH, ROOT
 
 RUNS_DIR = ROOT / "runs"
-RUN_PARENTS = ("demo", "poc", "smoke")          # listed by /api/runs, in this order
+RUN_PARENTS = ("demo", "poc", "smoke", "eval/vs_pro")   # listed by /api/runs, in this order (eval/vs_pro: MAC-AQ, the bot on pro videos)
+PRO_FILE = "pro_plays.jsonl"                    # MAC-AQ: the pro's plays of a run made on a pro video (t in run time)
+PRO_WINDOW_S = 3.0                              # a decision shows the nearest pro play within this many seconds
 LIVE_WINDOW_S = 15.0                            # a run without summary.json is live while a file changed this recently
 MAX_OPEN_RUNS = 8                               # runs whose rows are kept in memory
 SHOT_NAME_RE = re.compile(r"^d(\d+)_t([0-9.]+)_([abc])\.jpg$")
@@ -139,6 +141,38 @@ class Tail:
         return rows[n:], len(rows)
 
 
+def nearest_pro(row: dict, plays: list[dict], window: float = PRO_WINDOW_S) -> dict | None:
+    """The pro play nearest in time to a decision row (within `window` s) with a match badge: `same card` (the bot's card
+    is the pro's), else `same lane`, else `different`; `bot held` when the decision is a hold, `pro card unknown` when the
+    dataset could not name the pro's card (and the lane is not shared). `dt` = bot time minus pro
+    time (negative = the bot was earlier). None when no pro play is that close."""
+    best = None
+    for p in plays:
+        d = abs(float(p["t"]) - float(row.get("t", 0.0)))
+        if d <= window and (best is None or d < best[0]):
+            best = (d, p)
+    if best is None:
+        return None
+    p = best[1]
+    key = row.get("key")
+    status = str((row.get("executor") or {}).get("status", "dry_run"))
+    parts = key.split("|") if isinstance(key, str) else []
+    held = key in (None, "hold") or status.startswith("hold")
+    card = parts[0] if len(parts) == 3 else None
+    lane = parts[1] if len(parts) == 3 else None
+    same_card = bool(card and card == p.get("card"))
+    same_lane = bool(lane and lane == p.get("lane"))
+    tile, ptile = row.get("tile"), p.get("tile")
+    dist = None
+    if isinstance(tile, (list, tuple)) and isinstance(ptile, (list, tuple)) and len(tile) >= 2 and len(ptile) >= 2:
+        dist = round(((float(tile[0]) - float(ptile[0])) ** 2 + (float(tile[1]) - float(ptile[1])) ** 2) ** 0.5, 2)
+    badge = ("bot held" if held else "pro card unknown" if not p.get("card") and not same_lane else "same card" if same_card
+             else "same lane" if same_lane else "different")
+    return {**{k: p.get(k) for k in ("t", "card", "tile", "lane", "zone", "key", "confidence")},
+            "dt": round(float(row.get("t", 0.0)) - float(p["t"]), 2), "badge": badge, "same_card": same_card,
+            "same_lane": same_lane, "tile_dist": dist}
+
+
 class Run:
     """One run directory, read incrementally."""
 
@@ -155,6 +189,8 @@ class Run:
         self._taps = 0
         self._buckets: dict[str, int] = {}
         self._buckets_n = 0
+        self._pro: list[dict] | None = None                     # pro_plays.jsonl (MAC-AQ), re-read when the file changed
+        self._pro_mark: tuple | None = None
         self._lock = threading.RLock()                          # one request at a time per run (the caches above)
 
     # ---------------------------------------------------------------------------------- small files
@@ -209,12 +245,33 @@ class Run:
             return None
         return path
 
+    # ---------------------------------------------------------------------------------- the pro (MAC-AQ)
+    def has_pro(self) -> bool:
+        return (self.path / PRO_FILE).is_file()
+
+    def pro_plays(self) -> list[dict]:
+        """The plays of pro_plays.jsonl sorted by time ([] for a run without the file); re-read when the file changed."""
+        path = self.path / PRO_FILE
+        try:
+            st = path.stat()
+        except OSError:
+            self._pro, self._pro_mark = None, None
+            return []
+        mark = (st.st_mtime_ns, st.st_size)
+        if self._pro is None or mark != self._pro_mark:
+            rows = Tail(path).poll()
+            self._pro = sorted((r for r in rows if isinstance(r.get("t"), (int, float))), key=lambda r: r["t"])
+            self._pro_mark = mark
+        return self._pro
+
     # ---------------------------------------------------------------------------------- rows
     def _enrich(self, i: int, row: dict) -> dict:
         out = dict(row)
         out["i"] = i
         out["shots"] = self.shot_files(row)
         out["parsed"] = parse_context(row.get("context_text"))
+        if self.has_pro():                                      # only runs made on a pro video carry the comparison
+            out["pro"] = nearest_pro(row, self.pro_plays())
         return out
 
     def _stats(self) -> dict:
@@ -273,6 +330,7 @@ class Run:
             "deck": [{"slug": s, "name": (cards.get(s) or {}).get("name") or s, "hero": s in heroes, "evo": s in evos}
                      for s in deck],
             "has_shots": (self.path / "shots").is_dir(), "stats": self._stats(),
+            "has_pro": self.has_pro(),
         }
 
 
@@ -446,7 +504,7 @@ class Store:
         _, count, has_retrieval = cached
         return {"id": run_id, "name": p.name, "parent": p.parent.name, "start": run_start(p), "decisions": count,
                 "has_retrieval": has_retrieval, "has_shots": (p / "shots").is_dir(),
-                "has_summary": (p / "summary.json").exists(), "live": run_is_live(p)}
+                "has_summary": (p / "summary.json").exists(), "live": run_is_live(p), "has_pro": (p / PRO_FILE).is_file()}
 
 
 # -------------------------------------------------------------------------------------- reference data
