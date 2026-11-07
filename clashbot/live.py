@@ -22,6 +22,12 @@ the frames 0.5 s / 1.5 s after a tap, written by a background thread (`clashbot.
 tools/eval/review_shots.py); `step` only queues them.
 `--planner coach` adds the Qwen3-14B coach (D-046): a `CoachWorker` thread rewrites a short plan every
 `--coach-period` game seconds and the loop hands the latest one to the ranker; `step` never waits for it.
+Why the bot waits (MAC-AM M4): `holds.jsonl` in the run dir has one line whenever the policy verdict's (mode, act, reason)
+changes and at most one per second while it stays the same - t, mode, act, reason, elixir, hand and up to 3 of the engine's
+pushes (lane, lead, eta_s, eta_source, damage, answered); `summary.json` has `holds_by_reason` (hold verdicts counted by the
+first 3 words of their reason) and `holds_log` (lines, per-frame cost). A frame source that raises (the mirrored window
+closed, the capture failed) ends the run like the time limit does: summary and shots index written, files closed,
+`source ended: <error>` printed, exit code 0 (MAC-AM M5).
 Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
 """
 from __future__ import annotations
@@ -61,6 +67,9 @@ from clashbot.tactics import build_engine, kg_fact_lines, rank_context
 STAGES = ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")
 FRAME_STAGES = ("capture", "perception", "live_state")
 TARGET_P95_MS = 300.0
+HOLD_LOG_GAP_S = 1.0          # holds.jsonl: an unchanged (mode, act, reason) is logged at most this often (game seconds)
+HOLD_LOG_PUSHES = 3           # ... with up to this many of the engine's pushes
+HOLD_REASON_WORDS = 3         # summary `holds_by_reason`: counted by the first words of the reason
 COACH_TICK_S = 1.0            # the loop offers the coach worker a job at most once per game second
 COACH_QUIET_ETA_S = 10.0      # the coach starts no job while a push is this close to a tower (or we defend / save)
 COACH_BUSY_MODES = ("defend", "save")
@@ -407,6 +416,12 @@ class LiveLoop:
         self._coach_tick_t = float("-inf")           # game time of the last offer to the coach
         self.hand_unknown_holds = 0                  # decisions held because no candidate card was in the read hand
         self.policy_holds: Counter = Counter()       # reactive hold decisions by mode (one per evaluated frame)
+        self.holds_by_reason: Counter = Counter()    # ... and by the first words of their reason (MAC-AM M4)
+        self._hold_key: tuple | None = None          # (mode, act, reason) of the last line of holds.jsonl
+        self._hold_t = float("-inf")                 # game time of that line
+        self.hold_lines = 0
+        self._hold_ms: list[float] = []              # per evaluated frame: time spent on the log
+        self.source_error: str | None = None         # set when the frame source raised and ended the run (MAC-AM M5)
         self.last_decision_t: float | None = None
         self._ability_t = float("-inf")              # game time of the last ability tap
         self.ability_frames = 0                      # frames whose state showed the hero ability button
@@ -420,7 +435,7 @@ class LiveLoop:
         self._fh: dict[str, object] = {}
         if self.out_dir is not None:
             self.out_dir.mkdir(parents=True, exist_ok=True)
-            for name in ("frames.jsonl", "decisions.jsonl"):
+            for name in ("frames.jsonl", "decisions.jsonl", "holds.jsonl"):
                 (self.out_dir / name).write_text("")
             if self.coach is not None:
                 self.coach.attach(self.out_dir)
@@ -433,6 +448,33 @@ class LiveLoop:
             fh = self._fh[name] = open(self.out_dir / name, "a")
         fh.write(json.dumps(obj, default=_json_default) + "\n")
         fh.flush()
+
+    def _push_rows(self) -> list[dict]:
+        """Up to HOLD_LOG_PUSHES of the engine's pushes in the last policy report ([] without one)."""
+        rules = getattr(self.policy, "rules", self.policy)
+        report = getattr(rules, "last_report", None)
+        rows = []
+        for push in (getattr(report, "pushes", None) or [])[:HOLD_LOG_PUSHES]:
+            lead = push.units[0] if push.units else {}
+            damage = getattr(push, "damage_if_unanswered", None)
+            rows.append({"lane": push.lane, "lead": lead.get("card") or lead.get("unit_class"),
+                         "eta_s": round(float(push.eta_s), 1), "eta_source": getattr(push, "eta_source", None),
+                         "damage": None if damage is None else int(round(damage)), "answered": bool(push.answered)})
+        return rows
+
+    def _log_hold(self, verdict, state: dict, t: float) -> None:
+        """Count a hold verdict by its reason and write a line of holds.jsonl when the verdict's (mode, act, reason)
+        changed or HOLD_LOG_GAP_S passed since the last line (MAC-AM M4)."""
+        if not verdict.act:
+            self.holds_by_reason[" ".join(str(verdict.reason).split()[:HOLD_REASON_WORDS])] += 1
+        key = (verdict.mode, bool(verdict.act), verdict.reason)
+        if key == self._hold_key and t - self._hold_t < HOLD_LOG_GAP_S:
+            return
+        self._hold_key, self._hold_t = key, t
+        self.hold_lines += 1
+        self._write("holds.jsonl", {"t": t, "mode": verdict.mode, "act": bool(verdict.act), "reason": verdict.reason,
+                                    "elixir": state["own"].get("elixir"), "hand": state["own"].get("hand"),
+                                    "pushes": self._push_rows()})
 
     def _close_files(self) -> None:
         for fh in self._fh.values():
@@ -520,6 +562,9 @@ class LiveLoop:
             verdict = self.policy.decide(state, t, context_text=ctx)
         e = clock()
         trigger_ms = (e - d) * 1000.0
+        h0 = time.perf_counter()                     # (real time, not `clock`: the log must not shift the stage timings)
+        self._log_hold(verdict, state, t)
+        self._hold_ms.append((time.perf_counter() - h0) * 1000.0)
         if not verdict.act:
             if self.policy is not None:
                 self.policy_holds[verdict.mode] += 1
@@ -695,6 +740,10 @@ class LiveLoop:
                     frame, t, idx = next(it)
                 except StopIteration:
                     break
+                except Exception as exc:                 # noqa: BLE001  the window closed / the capture failed: end cleanly (M5)
+                    self.source_error = f"{type(exc).__name__}: {exc}"
+                    print(f"source ended: {self.source_error}")
+                    break
                 measured_ms = (self.clock() - g0) * 1000.0
                 grab_ms = getattr(self.source, "last_grab_ms", None)
                 capture_ms = grab_ms if grab_ms is not None else measured_ms
@@ -708,10 +757,15 @@ class LiveLoop:
             pass
         finally:
             try:
-                close_it = getattr(it, "close", None)
-                if close_it is not None:
-                    close_it()
-                self.source.close()
+                try:
+                    close_it = getattr(it, "close", None)
+                    if close_it is not None:
+                        close_it()
+                    self.source.close()
+                except Exception as exc:                 # noqa: BLE001  a source that failed may not close either
+                    if self.source_error is None:
+                        raise
+                    print(f"source close failed: {type(exc).__name__}: {exc}")
             finally:
                 try:
                     close_perception = getattr(self.perception, "close", None)      # drains the async OCR worker
@@ -750,6 +804,9 @@ class LiveLoop:
             "decisions_by_mode": dict(Counter(d.mode for d in self.decisions)),
             "decisions_by_source": dict(Counter(decision_source(d) for d in self.decisions)),
             "policy_holds": dict(self.policy_holds),
+            "holds_by_reason": dict(self.holds_by_reason.most_common()),
+            "holds_log": {"lines": self.hold_lines, "ms": _pcts(self._hold_ms)},
+            **({"source_ended": self.source_error} if self.source_error else {}),
             "hand_unknown_holds": self.hand_unknown_holds,
             "rect_updates": sum(1 for r in self.frames if r.get("rect_changed")),
             "skipped_min_gap": self.skipped_min_gap,

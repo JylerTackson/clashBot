@@ -712,7 +712,11 @@ def test_punish_keeps_the_rules_mode_and_lane_when_the_model_says_act():
 
 def test_learned_mode_drops_blind_spells_and_other_modes_use_the_rules():
     # one enemy far away on their half: ETA <= 10 s is a push now (MAC-AD PUSH_ETA_S), so the knight is 12 s out
-    state = _with(units=[_enemy((5, 25), eta=12.0, card="bats")])      # bats: a zap kills them (MAC-AH prices spells by kills)
+    # a whole play of bats and a spear goblin: a zap kills six, 2.7 elixir (MAC-AM M2: a zap needs 2 kills and 2.5 of value;
+    # not 2x its cost, so no `spell` act)
+    swarm = ([_enemy((5 + 0.3 * i, 25), eta=12.0, card="bats") for i in range(5)]
+             + [_enemy((4.5, 24.5), eta=12.0, card="spear-goblins")])
+    state = _with(units=swarm)
     policy = FastActPolicy(FakeModel(0.9), CARDS)
     d = policy.decide(state, 10.0)
     assert d.mode == "learned"

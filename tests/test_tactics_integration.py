@@ -400,8 +400,10 @@ def test_policy_still_drops_a_tactical_spell_without_a_worthwhile_target():
     assert pol.filter_candidates([fireball, tesla], decision, state) == [tesla]
     assert pol.no_blind_spells([fireball, tesla], state) == [tesla]
     # ... and a spell with a target in the threat's reach is kept
-    swarm = [{"unit_class": "bat", "card": "bats", "side": "enemy", "tile": [15, 9 + i * 0.3],     # MAC-AH: a zap must
-              "eta_tower": {"tower": "own_right", "s": 2.0}} for i in range(3)]                      # kill 2 elixir of them
+    swarm = [{"unit_class": "bat", "card": "bats", "side": "enemy", "tile": [15, 9 + i * 0.3],     # MAC-AM M2: a zap needs 2
+              "eta_tower": {"tower": "own_right", "s": 2.0}} for i in range(5)]                      # kills and 2.5 of value: a
+    swarm += [{"unit_class": "spear-goblin", "card": "spear-goblins", "side": "enemy", "tile": [14.5 + i * 0.5, 9.5],   # whole
+               "eta_tower": {"tower": "own_right", "s": 2.0}} for i in range(3)]                     # play of bats and of goblins
     state2 = _threat_state(units=swarm, elixir=5.0)
     zap = Candidate("zap|right|mid", 0.9, {"tac": 0.9}, [15.0, 9.3])
     assert pol.filter_candidates([zap], pol.decide(state2, 10.0), state2) == [zap]
