@@ -639,6 +639,206 @@ def test_dashboard_is_not_imported_and_only_started_when_installed(monkeypatch):
     assert "clashbot.viz" not in sys.modules
 
 
+# ------------------------------------------------------------------------------------------------ end-of-battle frames (S4)
+class IdSource(ScriptSource):
+    """ScriptSource whose frames also carry their index as "id" (to see which frames were kept)."""
+
+    def frames(self):
+        for i, (ready, banner, t) in enumerate(self.items):
+            yield {"ready": ready, "banner": banner, "id": i}, t, i
+        if self.end is not None:
+            raise self.end
+
+
+class RecordingWriter:
+    """EndFrameWriter's `writer`: records (relative name, frame id) instead of encoding."""
+
+    def __init__(self):
+        self.calls = []
+
+    def __call__(self, path, frame):
+        self.calls.append((f"{path.parent.name}/{path.name}", frame["id"]))
+        return True
+
+
+def end_session(tmp_path, **kw):
+    writer = RecordingWriter()
+    session, out, ex, loop, resets = make_session(tmp_path, **kw)
+    session.end_frames = demo.EndFrameWriter(tmp_path, writer=writer)
+    return session, writer, loop
+
+
+def test_a_battle_row_lists_the_last_three_frames_after_the_screen_left_the_match(tmp_path):
+    session, writer, loop = end_session(tmp_path)
+    # match frames 0..11 (t 0..5.5), then not a match; the battle is over 3 s later, at frame 17 (t 8.5): frames 15, 16, 17
+    session.watch(lambda: IdSource(timeline((True, "Trainer X", 12), (False, "", 8))))
+    session.finish("done")
+    b = rows(tmp_path / "battles.jsonl")[0]
+    assert b["end_frames"] == ["battles/1_end_0.jpg", "battles/1_end_1.jpg", "battles/1_end_2.jpg"]
+    assert writer.calls == [("battles/1_end_0.jpg", 15), ("battles/1_end_1.jpg", 16), ("battles/1_end_2.jpg", 17)]
+    s = json.loads((tmp_path / "summary.json").read_text())["demo"]
+    assert s["end_frames_written"] == 3 and s["end_frames_errors"] == 0
+
+
+def test_a_battle_that_ends_in_the_match_saves_its_last_match_frame(tmp_path):
+    session, writer, loop = end_session(tmp_path)
+    session.watch(lambda: IdSource(timeline((True, "Trainer X", 12))))              # the video ends mid-match
+    session.finish("done")
+    assert rows(tmp_path / "battles.jsonl")[0]["end_frames"] == ["battles/1_end_0.jpg"]
+    assert writer.calls == [("battles/1_end_0.jpg", 11)]
+    # one or two frames after the match: just those, not the match frame
+    session, writer, loop = end_session(tmp_path / "two")
+    session.watch(lambda: IdSource(timeline((True, "Trainer X", 12), (False, "", 2))))
+    session.finish("done")
+    assert writer.calls == [("battles/1_end_0.jpg", 12), ("battles/1_end_1.jpg", 13)]
+
+
+def test_a_short_gap_inside_a_battle_does_not_leak_into_its_end_frames(tmp_path):
+    session, writer, loop = end_session(tmp_path)
+    items = timeline((True, "Trainer X", 10), (False, "", 4), (True, "Trainer X", 10), (False, "", 8))
+    session.watch(lambda: IdSource(items))                    # frames 10..13 are the gap; the battle is over at frame 29 (3 s on)
+    session.finish("done")
+    assert [i for _, i in writer.calls] == [27, 28, 29]
+    assert len(rows(tmp_path / "battles.jsonl")) == 1
+
+
+def test_every_battle_gets_its_own_frames_gated_ones_and_a_closed_window_included(tmp_path):
+    session, writer, loop = end_session(tmp_path)
+    src1 = IdSource(timeline((True, "Trainer X", 12), (False, "", 8), (True, "Tyler", 14)), end=OSError("gone"))
+    queue_ = [src1, IdSource([], end=KeyboardInterrupt())]                   # the window closes in battle 2, then Ctrl-C
+    session.watch(lambda: queue_.pop(0), sleep=lambda s: None)
+    session.finish("done")
+    b = rows(tmp_path / "battles.jsonl")
+    assert [(r["n"], r["verdict"], r["ended"]) for r in b] == [
+        (1, "TRAINING_CAMP", "battle over"), (2, "NOT_TRAINING_CAMP", "window closed")]
+    assert b[1]["end_frames"] == ["battles/2_end_0.jpg"]                             # the last match frame (id 33)
+    assert writer.calls[-1] == ("battles/2_end_0.jpg", 33)
+    assert [n for n, _ in writer.calls[:3]] == [f"battles/1_end_{k}.jpg" for k in range(3)]
+
+
+def test_only_three_frames_and_the_last_match_frame_are_ever_held(tmp_path):
+    session, writer, loop = end_session(tmp_path)
+    held = []
+    real = session.on_frame
+
+    def watch_memory(frame, t, idx, capture_ms=0.0):
+        out = real(frame, t, idx, capture_ms)
+        held.append(len(session._tail))
+        return out
+
+    session.on_frame = watch_memory
+    session.watch(lambda: IdSource(timeline((False, "", 100), (True, "Trainer X", 20), (False, "", 2), (True, "Trainer X", 4),
+                                            (False, "", 12), (False, "", 100))))
+    assert max(held) <= demo.END_FRAMES
+    assert len(session._tail) == 0 and session._last_match_frame is None        # nothing is held outside a battle
+    session.finish("done")
+
+
+def test_watching_with_no_battle_holds_no_frame(tmp_path):
+    session, writer, loop = end_session(tmp_path)
+    session.watch(lambda: IdSource(timeline((False, "", 200))))
+    assert len(session._tail) == 0 and session._last_match_frame is None
+    session.finish("done")
+    assert writer.calls == [] and not (tmp_path / "battles.jsonl").exists()
+
+
+def test_a_battle_adds_less_than_a_millisecond_per_frame_for_the_end_frames(tmp_path):
+    session, out, ex, loop, _ = make_session(tmp_path, assume=True)
+    session.watch(lambda: ScriptSource(timeline((True, "", 300), (False, "", 100))))
+    summary = session.finish("done")
+    assert summary["demo"]["watch_overhead_ms"] < 1.0
+
+
+def test_the_loop_does_not_wait_for_the_writer_and_finish_flushes_it(tmp_path):
+    import threading
+    entered, release, calls = threading.Event(), threading.Event(), []
+
+    def slow_writer(path, frame):
+        entered.set()
+        release.wait(10)
+        calls.append(path.name)
+        return True
+
+    session, out, ex, loop, _ = make_session(tmp_path)
+    session.end_frames = demo.EndFrameWriter(tmp_path, writer=slow_writer)
+    session.watch(lambda: ScriptSource(timeline((True, "Trainer X", 12), (False, "", 8))))     # returns while the writer is stuck
+    assert entered.wait(5) and calls == []
+    assert rows(tmp_path / "battles.jsonl")[0]["end_frames"] == [f"battles/1_end_{k}.jpg" for k in range(3)]
+    release.set()
+    session.finish("done")
+    assert calls == ["1_end_0.jpg", "1_end_1.jpg", "1_end_2.jpg"]
+    assert json.loads((tmp_path / "summary.json").read_text())["demo"]["end_frames_written"] == 3
+
+
+def test_a_writer_that_fails_is_counted_and_never_stops_the_session(tmp_path):
+    def broken(path, frame):
+        raise OSError("disk full")
+
+    session, out, ex, loop, _ = make_session(tmp_path)
+    session.end_frames = demo.EndFrameWriter(tmp_path, writer=broken)
+    session.watch(lambda: ScriptSource(timeline((True, "Trainer X", 12), (False, "", 8), (True, "Trainer X", 12), (False, "", 8))))
+    session.finish("done")
+    s = json.loads((tmp_path / "summary.json").read_text())["demo"]
+    assert s["battles"] == 2 and s["end_frames_written"] == 0 and s["end_frames_errors"] == 6
+
+
+def test_a_full_queue_drops_the_job_instead_of_blocking(tmp_path):
+    import threading
+    entered, release = threading.Event(), threading.Event()
+
+    def stuck(path, frame):
+        entered.set()
+        release.wait(10)
+        return True
+
+    w = demo.EndFrameWriter(tmp_path, writer=stuck, queue_size=1)
+    assert w.submit(1, ["f"]) == ["battles/1_end_0.jpg"]
+    assert entered.wait(5)                                                 # the thread holds job 1, the queue is empty
+    assert w.submit(2, ["f", "g"]) == ["battles/2_end_0.jpg", "battles/2_end_1.jpg"]      # queued
+    assert w.submit(3, ["f"]) == [] and w.dropped == 1                     # full: dropped, nothing blocks
+    assert w.submit(4, []) == []
+    release.set()
+    w.close()
+    assert w.written == 3 and w.errors == 0
+
+
+def test_end_frames_are_real_jpegs_at_quality_85_and_full_size(tmp_path):
+    import cv2
+    import numpy as np
+
+    class ImgFrame(np.ndarray):
+        """A real image that also answers frame["ready"] / frame["banner"] for the fake perception and reader."""
+
+        def __new__(cls, ready, banner, k):
+            obj = np.full((60, 40, 3), 20 + 10 * k, np.uint8).view(cls)
+            obj.meta = {"ready": ready, "banner": banner}
+            obj[5:25, 5:15] = (255, 0, 0)                                  # something to compress
+            return obj
+
+        def __getitem__(self, key):
+            return self.meta[key] if isinstance(key, str) else super().__getitem__(key)
+
+    class ImgSource(ScriptSource):
+        def frames(self):
+            for i, (ready, banner, t) in enumerate(self.items):
+                yield ImgFrame(ready, banner, i), t, i
+
+    session, out, ex, loop, _ = make_session(tmp_path)
+    session.watch(lambda: ImgSource(timeline((True, "Trainer X", 12), (False, "", 8))))
+    session.finish("done")
+    b = rows(tmp_path / "battles.jsonl")[0]
+    assert b["end_frames"] == [f"battles/1_end_{k}.jpg" for k in range(3)]
+    for k, name in enumerate(b["end_frames"]):
+        data = (tmp_path / name).read_bytes()
+        assert data[:2] == b"\xff\xd8"
+        img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_COLOR)
+        assert img.shape == (60, 40, 3)                                    # not scaled
+        assert abs(int(img[50, 30, 0]) - (20 + 10 * (15 + k))) <= 4        # frames 15, 16, 17, oldest first
+        want = cv2.imencode(".jpg", np.asarray(ImgFrame(False, "", 15 + k)), [cv2.IMWRITE_JPEG_QUALITY, 85])[1].tobytes()
+        assert data == want                                                # JPEG quality 85
+    assert json.loads((tmp_path / "summary.json").read_text())["demo"]["end_frames_written"] == 3
+
+
 # ------------------------------------------------------------------------------------------------ main (everything faked)
 class NoShots:
     def __init__(self, *a, **k):

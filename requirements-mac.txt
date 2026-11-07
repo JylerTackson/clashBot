@@ -24,6 +24,7 @@ mlx==0.32.4
 mlx-lm==0.32.2               # Qwen3-4B-Instruct-2507 4-bit planner
 mlx-vlm==0.7.11              # d1-omni-600M MLX fp16 (default ranker backend)
 transformers==5.22.1         # d1-omni-600M reference backend (trust_remote_code)
+huggingface_hub==2.4.0       # imported directly (clashbot/ranker.py, tools/train/train_d1.py); also a dependency of transformers
 soundfile==0.14.0            # imported by d1's remote code
 sentence-transformers==6.2.0 # bge-small text-embedding channel (R1)
 pykeen==1.11.1               # KG embeddings (R2)
