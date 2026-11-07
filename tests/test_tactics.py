@@ -821,8 +821,9 @@ def test_default_weights_cover_every_scoring_number_and_the_committed_file_is_va
     assert all(isinstance(v, float) for v in DEFAULT_WEIGHTS.values())
     data = json.loads(WEIGHTS_PATH.read_text())                               # committed by tools/train/tune_tactics.py
     # the file may lack a weight added after the last tuning run (it falls back to the default): MAC-AG `split`, and the
-    # MAC-AH threat-model weights (the tuner does not know them yet, see the report)
-    added_after_tuning = {"split", "threat_model", "prevent", "role_scale", "tower_ok_damage", "adequate_frac"}
+    # MAC-AH threat-model weights and the MAC-AK K4b graph / hero-ability weights (the tuner does not know them yet)
+    added_after_tuning = {"split", "threat_model", "prevent", "role_scale", "tower_ok_damage", "adequate_frac",
+                          "kg_prior", "ability", "ability_min_prevent"}
     assert set(data["weights"]) <= set(DEFAULT_WEIGHTS) and set(DEFAULT_WEIGHTS) - set(data["weights"]) <= added_after_tuning
     assert all(isinstance(v, float) for v in data["weights"].values())
 
@@ -1426,3 +1427,340 @@ def test_ah_the_engine_with_the_threat_model_stays_fast():
         REAL.analyse(state)
         runs.append(time.perf_counter() - t0)
     assert min(runs) < 0.015, f"{min(runs) * 1000:.2f} ms"
+
+
+# MAC-AK K4b: the knowledge graph in the defence (prior, evidence, pro-offset placement) and the hero ability -----------------
+from types import SimpleNamespace  # noqa: E402
+
+from clashbot.actions import ABILITY_COST, ABILITY_KEY  # noqa: E402
+from clashbot.kg2 import KG2, Answer  # noqa: E402
+from clashbot.tactics import MAX_REASON_KG  # noqa: E402
+
+KG2_DB = ROOT / "db" / "kg2.sqlite"
+
+
+class FakeKG2:
+    """`answers_for` from a table {threat: [Answer, ...]} (only the cards asked for), nothing else: no counter_scores."""
+
+    def __init__(self, table=None, boom=False):
+        self.table, self.boom, self.calls = table or {}, boom, []
+
+    def answers_for(self, threat, our_cards, k=5):
+        self.calls.append((threat, list(our_cards)))
+        if self.boom:
+            raise RuntimeError("graph down")
+        got = [a for a in self.table.get(threat, []) if a.card in our_cards]
+        return sorted(got, key=lambda a: (-a.score, a.card))[:k]
+
+
+def _ans(card, score=0.5, pro=0.0, rt=0.0, wiki=0.0, support=0, held=None, offset=None, via=None):
+    return Answer(card, score, {"pro": pro, "role_transfer": rt, "wiki": wiki, "sim": 0.0}, support=support,
+                  held_rate=held, offset=offset, via=via)
+
+
+def _off(dx, dy, n=8, dx_iqr=1.0, dy_iqr=1.0):
+    return {"dx_med": dx, "dy_med": dy, "dx_iqr": dx_iqr, "dy_iqr": dy_iqr, "n": n}
+
+
+def _kg_engine(table, **kw):
+    return TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS, kg=FakeKG2(table, **kw))
+
+
+def _ability_state(units, hand=("knight", "zap", "fireball", "ram-rider"), elixir=5.0, visible=True, affordable=True):
+    st = _state(elixir=elixir, units=units, hand=list(hand), deck=DECK47)
+    st["own"]["towers"] = {"king": None, "left": 4082, "right": 4424}
+    if visible is not None:
+        st["own"]["hero_ability"] = {"hero": "musketeer", "visible": visible, "side": "right",
+                                     "affordable": affordable, "cost": 3, "conf": 0.9}
+    return st
+
+
+GIANT_BRIDGE = _heading(_enemy((15, 13), "giant", eta=7.0, tower="own_right"), "advancing right lane")
+
+
+def test_k4b_without_answers_the_graph_changes_nothing():
+    state = _scenario()
+    plain = [(m.card, m.tile, m.score, m.reason, m.tile_source) for m in REAL.analyse(state).defence]
+    empty = _kg_engine({})
+    assert [(m.card, m.tile, m.score, m.reason, m.tile_source) for m in empty.analyse(state).defence] == plain
+    assert all(m.tile_source == "geometric" for m in REAL.analyse(state).defence)
+    assert empty.kg2 is not None and empty.kg is None                    # a KG2 given as `kg` lands in the kg2 slot
+
+
+def test_k4b_the_graph_slots_and_the_v1_counter_term():
+    kg2 = FakeKG2({})
+    assert TacticalEngine(CARDS, kg=kg2).kg2 is kg2 and TacticalEngine(CARDS, kg=kg2).kg is None
+    assert TacticalEngine(CARDS, kg2=kg2).kg2 is kg2
+
+    class V1:
+        def counter_scores(self, card):
+            raise AssertionError("the v1 counter term is replaced by the KG2 prior")
+
+    both = TacticalEngine(CARDS, kg=V1(), kg2=kg2)
+    assert both.kg2 is kg2 and both.analyse(_giant_right()).pushes                      # v1 not asked
+    assert TacticalEngine(CARDS, kg=None, kg2=None).kg2 is None
+
+
+def test_k4b_the_prior_is_kg_prior_times_the_answer_score_and_the_reason_quotes_the_evidence():
+    balloon = _heading(_enemy((16, 15), "balloon", eta=9.0, tower="own_right"), "advancing right lane")
+    state = _state(units=[balloon], hand=["tesla", "knight", "musketeer", "zap"], elixir=9.0)
+    table = {"balloon": [_ans("tesla", 0.6, pro=0.8, wiki=0.2, support=23, held=0.7),
+                         _ans("musketeer", 0.4, rt=0.5, support=22, via="cannon")]}
+    eng = _kg_engine(table)
+    got = {m.card: m for m in eng.analyse(state).defence}
+    base = {m.card: m for m in REAL.analyse(state).defence}
+    assert got["tesla"].score == pytest.approx(base["tesla"].score + 0.25 * 0.6, abs=0.002)
+    assert got["musketeer"].score == pytest.approx(base["musketeer"].score + 0.25 * 0.4, abs=0.002)
+    assert got["tesla"].reason == "pulls balloon to the centre, saves ~3,200 tower HP, pros 70% held n=23, trade +1"
+    assert got["musketeer"].reason == "kills balloon from behind the tower, saves ~2,800 tower HP, role of cannon, trade +1"
+    assert all(len(m.reason) <= MAX_REASON_KG for m in got.values())
+    assert eng.kg2.calls and eng.kg2.calls[0][0] == "balloon"
+    # the weight is the knob; the simulation's adequacy is untouched
+    heavy = TacticalEngine(CARDS, weights={**DEFAULT_WEIGHTS, "kg_prior": 1.0}, kg=FakeKG2(table))
+    assert {m.card: m.adequate for m in heavy.analyse(state).defence} == {c: m.adequate for c, m in base.items()}
+    assert {m.card: m for m in heavy.analyse(state).defence}["tesla"].score == pytest.approx(base["tesla"].score + 0.6, abs=0.002)
+    # a wiki-only answer says so; a weak answer is not quoted; a spell keeps its plain reason
+    wiki = _kg_engine({"balloon": [_ans("musketeer", 0.5, wiki=0.5), _ans("tesla", 0.03, pro=0.1, support=3)]})
+    by = {m.card: m for m in wiki.analyse(state).defence}
+    assert "wiki counter" in by["musketeer"].reason and "pros" not in by["tesla"].reason
+
+
+def test_k4b_the_graph_is_asked_about_the_costliest_card_of_the_push():
+    left = _scenario(allies=False, balloon=False, hand=("zap", "knight", "fireball", "musketeer"))
+    eng = _kg_engine({})
+    eng.analyse(left)
+    assert {c[0] for c in eng.kg2.calls} == {"night-witch"}                        # bats (2) and the e-wizard (4, later)
+    ctx_threat = [c for c in eng.kg2.calls if c[0] == "night-witch"][0]
+    assert set(ctx_threat[1]) == {"zap", "knight", "fireball", "musketeer"}
+
+
+def test_k4b_a_failing_graph_never_breaks_the_engine():
+    state = _scenario()
+    broken = _kg_engine({}, boom=True)
+    assert [(m.card, m.tile, m.score) for m in broken.analyse(state).defence] == \
+        [(m.card, m.tile, m.score) for m in REAL.analyse(state).defence]
+
+
+def test_k4b_pro_offset_places_the_card_at_the_threat_plus_the_mirrored_offset():
+    table = {"giant": [_ans("knight", 0.5, pro=0.6, support=9, held=0.8, offset=_off(2.0, -3.0))]}
+    eng = _kg_engine(table)
+    right = _state(units=[_enemy((15, 13), "giant", eta=8.0, tower="own_right")], hand=["knight", "tesla", "musketeer"],
+                   elixir=9.0)
+    knight = next(m for m in eng.analyse(right).defence if m.card == "knight")
+    assert knight.tile == [13.0, 10.0] and knight.tile_source == "pro_offset"          # right lane: dx 2 toward the centre = -2
+    assert knight.reason.startswith("knight at the pro spot vs giant") and "pros 80% held n=9, pro spot" in knight.reason
+    assert knight.key.startswith("knight|")
+    left = _state(units=[_enemy((3, 13), "giant", eta=8.0)], hand=["knight", "tesla", "musketeer"], elixir=9.0)
+    knight = next(m for m in eng.analyse(left).defence if m.card == "knight")
+    assert knight.tile == [5.0, 10.0] and knight.tile_source == "pro_offset"           # left lane: dx stays +2
+    # the other cards keep the MAC-AG rule
+    assert {m.card: m.tile_source for m in eng.analyse(right).defence}["tesla"] == "geometric"
+    # clamped to our half, rounded to 0.5
+    far = _kg_engine({"giant": [_ans("knight", 0.5, pro=0.6, support=9, offset=_off(-9.0, 7.0))]})
+    assert next(m for m in far.analyse(right).defence if m.card == "knight").tile == [17.5, 14.0]
+    odd = _kg_engine({"giant": [_ans("knight", 0.5, pro=0.6, support=9, offset=_off(1.3, -2.6))]})
+    assert next(m for m in odd.analyse(right).defence if m.card == "knight").tile == [13.5, 10.5]
+
+
+def test_k4b_pro_offset_needs_five_events_and_a_tight_spread_else_the_geometric_rule():
+    right = _state(units=[_enemy((15, 13), "giant", eta=8.0, tower="own_right")], hand=["knight", "tesla"], elixir=9.0)
+
+    def knight(offset, support=9):
+        eng = _kg_engine({"giant": [_ans("knight", 0.5, pro=0.6, support=support, offset=offset)]})
+        return next(m for m in eng.analyse(right).defence if m.card == "knight")
+
+    assert knight(_off(2.0, -3.0, n=5)).tile_source == "pro_offset"
+    for weak in (_off(2.0, -3.0, n=4), _off(2.0, -3.0, dx_iqr=9.0), _off(2.0, -3.0, dy_iqr=8.5), None):
+        m = knight(weak)
+        assert m.tile_source == "geometric" and m.tile == [15.0, 10.5] and "pro spot" not in m.reason
+    no_n = {"dx_med": 2.0, "dy_med": -3.0, "dx_iqr": 1.0, "dy_iqr": 1.0}                 # an offset without `n`: the support counts
+    assert knight(no_n, support=6).tile_source == "pro_offset" and knight(no_n, support=4).tile_source == "geometric"
+
+
+def test_k4b_role_transfer_uses_the_via_cards_offset_and_a_spell_keeps_its_aim():
+    balloon = _heading(_enemy((3, 14), "balloon", eta=6.0, tower="own_left"), "advancing left lane")
+    state = _state(units=[balloon], hand=["musketeer", "zap", "knight", "tesla"], elixir=9.0)
+    table = {"balloon": [_ans("musketeer", 0.4, rt=0.5, support=12, held=0.6, via="cannon", offset=_off(3.0, -6.0)),
+                         _ans("zap", 0.4, pro=0.5, support=12, held=0.6, offset=_off(3.0, -6.0))]}
+    got = {m.card: m for m in _kg_engine(table).analyse(state).defence}
+    mus = got["musketeer"]
+    assert mus.tile_source == "pro_offset" and mus.tile == [6.0, 8.0] and "role of cannon, pro spot" in mus.reason
+    assert "zap" not in got                                                              # (nothing worth zapping: no aim)
+    witch = _scenario(allies=False, balloon=False, hand=("zap", "knight", "fireball", "musketeer"), elixir=7.0)
+    zap_table = {"night-witch": [_ans("zap", 0.4, pro=0.5, support=12, held=0.6, offset=_off(3.0, -6.0))]}
+    zap = next(m for m in _kg_engine(zap_table).analyse(witch).defence if m.card == "zap")
+    assert zap.tile_source == "geometric" and zap.tile == [3.0, 10.0]                   # a spell's tile is its aim
+    assert "pros 60% held n=12" in zap.reason and "pro spot" not in zap.reason
+
+
+def test_k4b_a_building_follows_the_pro_offset_only_where_it_still_pulls():
+    giant = _heading(_enemy((14, 15), "giant", eta=9.0, tower="own_right"), "advancing right lane")
+    state = _state(units=[giant], hand=["tesla", "knight", "musketeer", "mini-p-e-k-k-a"], elixir=9.0)
+    good = _kg_engine({"giant": [_ans("tesla", 0.6, pro=0.7, support=12, held=0.9, offset=_off(4.0, -5.0))]})
+    tesla = next(m for m in good.analyse(state).defence if m.card == "tesla")
+    assert tesla.tile == [10.0, 10.0] and tesla.tile_source == "pro_offset" and tesla.reason.startswith("pulls giant")
+    assert tesla.stop == "high" and tesla.adequate
+    # an offset that puts it on top of the giant (no pull) falls back to the geometric pull tile
+    bad = _kg_engine({"giant": [_ans("tesla", 0.6, pro=0.7, support=12, held=0.9, offset=_off(0.0, 0.0))]})
+    tesla = next(m for m in bad.analyse(state).defence if m.card == "tesla")
+    plain = next(m for m in REAL.analyse(state).defence if m.card == "tesla")
+    assert tesla.tile_source == "geometric" and tesla.tile == plain.tile and tesla.reason.startswith("pulls giant")
+    # the giant is already attacking its tower: nothing pulls it, so no pro offset for a building
+    attacking = _enemy((14, 5.5), "giant", eta=0.5, tower="own_right")
+    late = next(m for m in good.analyse(_state(units=[attacking], hand=["tesla", "knight"], elixir=9.0)).defence
+                if m.card == "tesla")
+    assert late.tile_source == "geometric" and late.stop == "low"
+
+
+def test_k4b_the_simulation_gates_the_pro_tile():
+    class Gate(TacticalEngine):
+        """Simulation stub: a tile at x == 13 (the pro tile) leaves `pro_dmg` tower damage, any other tile `geo_dmg`."""
+        pro_dmg, geo_dmg = 3000, 0
+
+        def _simulate_move(self, card, tile, ctx):
+            if ctx.push.damage_if_unanswered is None:
+                return None
+            return SimpleNamespace(tower_damage=self.pro_dmg if tile[0] == 13.0 else self.geo_dmg, eta_s=1.0)
+
+    table = {"giant": [_ans("knight", 0.5, pro=0.6, support=9, held=0.8, offset=_off(2.0, -3.0))]}
+    state = _state(units=[_enemy((15, 13), "giant", eta=8.0, tower="own_right")], hand=["knight"], elixir=9.0)
+
+    def knight(pro_dmg, geo_dmg):
+        eng = Gate(CARDS, weights=DEFAULT_WEIGHTS, kg=FakeKG2(table))
+        eng.pro_dmg, eng.geo_dmg = pro_dmg, geo_dmg
+        return next(m for m in eng.analyse(state).defence if m.card == "knight")
+
+    assert knight(0, 0).tile_source == "pro_offset"                  # both fine: the pros' spot
+    assert knight(3000, 3000).tile_source == "pro_offset"            # neither works: the evidence leads
+    m = knight(3000, 0)                                              # the pros' tile fails, the geometric one holds
+    assert m.tile_source == "geometric" and m.tile == [15.0, 10.5] and m.adequate
+    assert knight(0, 3000).tile_source == "pro_offset"
+
+
+def test_k4b_score_key_follows_the_graph_too():
+    table = {"giant": [_ans("knight", 0.5, pro=0.6, support=9, offset=_off(2.0, -3.0))]}
+    eng = _kg_engine(table)
+    state = _state(units=[_enemy((15, 13), "giant", eta=8.0, tower="own_right")], hand=["knight", "tesla"], elixir=9.0)
+    key_score = eng.score_key("knight|right|bridge", state)           # not a report move key: scored as a defence
+    plain = REAL.score_key("knight|right|bridge", state)
+    assert key_score is not None and plain is not None and key_score >= plain
+
+
+@pytest.mark.skipif(not KG2_DB.exists(), reason="db/kg2.sqlite is not built")
+def test_k4b_the_real_graph_in_the_engine():
+    eng = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS, kg=KG2())
+    rep = eng.analyse(_state(units=[GIANT_BRIDGE], hand=["tesla", "knight", "musketeer", "mini-p-e-k-k-a"], elixir=9.0))
+    assert rep.best.card == "tesla" and rep.best.tile == [11.0, 7.0] and rep.best.tile_source == "geometric"
+    assert all(len(m.reason) <= MAX_REASON_KG for m in rep.moves)
+    answers = {a.card: a for a in eng.kg2.answers_for("giant", ["tesla", "knight", "musketeer", "mini-p-e-k-k-a"], k=4)}
+    assert answers                                                       # (whatever the build: wiki / pros / sim evidence)
+    for m in rep.defence:                                                # the reason quotes what the graph's answer says
+        want = TacticalEngine._kg_evidence(answers.get(m.card))
+        quoted = [c for c in ("wiki counter", "pros", "role of") if c in m.reason]
+        assert (want[0].split(" ")[0] in " ".join(quoted + [m.reason]) and quoted) if want else not quoted, (m.card, m.reason)
+    plain = REAL.analyse(_state(units=[GIANT_BRIDGE], hand=["tesla", "knight", "musketeer", "mini-p-e-k-k-a"], elixir=9.0))
+    assert rep.best.score > plain.best.score
+    # the user's scenario is the same with the graph: the balloon first, the answer on the balloon
+    scen = eng.analyse(_scenario())
+    assert [p.lane for p in scen.pushes] == ["right", "left"] and scen.best.card in {"tesla", "musketeer"}
+    assert "knight" not in {m.card for m in scen.defence if "balloon" in m.reason}
+
+
+def test_k4b_the_engine_with_the_graph_stays_fast():
+    eng = _kg_engine({"balloon": [_ans("tesla", 0.6, pro=0.8, support=23, held=0.7, offset=_off(1.0, -2.0))]})
+    state = _scenario()
+    eng.analyse(state)
+    runs = []
+    for _ in range(20):
+        t0 = time.perf_counter()
+        eng.analyse(state)
+        runs.append(time.perf_counter() - t0)
+    assert min(runs) < 0.02, f"{min(runs) * 1000:.2f} ms"
+
+
+# the hero ability (MAC-AI part 2) --------------------------------------------------------------------------------------
+def test_k4b_the_ability_is_proposed_when_it_is_the_adequate_answer():
+    state = _ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")])
+    rep = REAL.analyse(state)
+    assert len(rep.abilities) == 1
+    ab = rep.abilities[0]
+    assert (ab.card, ab.intent, ab.tile_source, ab.push_lane) == (ABILITY_KEY, "ability", "ability", "right")
+    assert ab.key == "ability:musketeer|right|mid" and ab.tile == [14.0, 8.0]          # her tile + 3 rows
+    assert ab.adequate is True and ab.prevented == 1110.0 and ab.damage_with == 0.0 and ab.efficiency == 370.0
+    assert ab.reason == "turret pulls giant right, saves ~1,100 tower HP, 3 elixir"
+    assert ab in rep.moves and rep.abilities == [ab]
+    assert REAL._cost(ABILITY_KEY) == ABILITY_COST == 3
+    # the same key and tile as the live candidate generator builds for the button
+    from clashbot.candidates import hero_ability_move
+    move = hero_ability_move(state)
+    assert (move.key, move.tile) == (ab.key, ab.tile)
+    # the card moves are the ones they were; the ability sits next to them
+    assert [m.card for m in rep.defence] == [m.card for m in REAL.analyse(_ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")], visible=None)).defence]
+
+
+def test_k4b_the_ability_needs_a_ready_button_her_musketeer_and_three_elixir():
+    units = [GIANT_BRIDGE, _ally((14, 5), "musketeer")]
+    assert REAL.analyse(_ability_state(units)).abilities
+    assert not REAL.analyse(_ability_state(units, visible=False)).abilities
+    assert not REAL.analyse(_ability_state(units, affordable=False)).abilities
+    assert not REAL.analyse(_ability_state(units, visible=None)).abilities                 # no hero_ability in the state
+    assert not REAL.analyse(_ability_state(units, elixir=2.9)).abilities
+    assert REAL.analyse(_ability_state(units, elixir=3.0)).abilities
+    assert not REAL.analyse(_ability_state([GIANT_BRIDGE])).abilities                       # her Musketeer is not on the field
+    assert not REAL.analyse(_ability_state([GIANT_BRIDGE, _ally((14, 5), "knight")])).abilities
+    enemy_musk = _enemy((14, 5), "musketeer", eta=None)
+    assert not REAL.analyse(_ability_state([GIANT_BRIDGE, enemy_musk])).abilities           # an enemy Musketeer is not hers
+    off = TacticalEngine(CARDS, weights={**DEFAULT_WEIGHTS, "threat_model": 0.0})
+    assert not off.analyse(_ability_state(units)).abilities                                 # it is judged by the simulation
+
+
+def test_k4b_the_ability_is_for_pushes_that_need_it():
+    # a push the tower handles, and a push our units already hold, do not ask for the turret
+    bats = [_enemy((3, 14), "bats", eta=2.0, unit_class="bat"), _enemy((4, 14), "bats", eta=2.0, unit_class="bat")]
+    assert not REAL.analyse(_ability_state(bats + [_ally((4, 5), "musketeer")])).abilities
+    balloon = _heading(_enemy((16, 15), "balloon", eta=9.0, tower="own_right"), "advancing right lane")
+    held = REAL.analyse(_ability_state([balloon, _ally((14, 5), "musketeer")]))
+    assert held.pushes[0].allies_hold and not held.abilities
+    # no push at all
+    assert not REAL.analyse(_ability_state([_ally((14, 5), "musketeer")])).abilities
+    # a push so small that the turret only matters if it makes it adequate: a knight, with nothing of ours there
+    knight = _enemy((15, 12), "knight", eta=5.0, tower="own_right")
+    rep = REAL.analyse(_ability_state([knight, _ally((14, 4), "musketeer")]))
+    for m in rep.abilities:
+        assert m.adequate or m.prevented >= DEFAULT_WEIGHTS["ability_min_prevent"]
+
+
+def test_k4b_the_ability_is_judged_against_the_push_where_it_prevents_most_and_names_the_targeter():
+    units = [_enemy((15, 12), "giant", eta=6.0, tower="own_right"),
+             _enemy((14, 12), "bats", eta=4.0, tower="own_right", unit_class="bat"),
+             _enemy((15, 12), "bats", eta=4.0, tower="own_right", unit_class="bat"), _ally((13, 3), "musketeer")]
+    rep = REAL.analyse(_ability_state(units))
+    assert [m.push_lane for m in rep.abilities] == ["right"]
+    assert rep.abilities[0].reason.startswith("turret pulls giant right")           # the pulled unit, not the lead (bats)
+    two = units + [_enemy((3, 13), "hog-rider", eta=3.0)]
+    both = REAL.analyse(_ability_state(two + [_ally((4, 8), "knight")]))
+    assert len(both.abilities) <= 1                                                  # one move, whichever push it serves
+
+
+def test_k4b_the_turret_stands_in_the_simulation_with_its_kb_numbers():
+    from clashbot import unit_stats as ustats
+    spot = [14.0, 8.0]
+    turret = TacticalEngine._turret_defender(spot)
+    st = turret["stat"]
+    assert (st["hp"], st["damage"], st["range_tiles"], st["lifetime_s"]) == (2249, 205, 4.0, 10.0)   # musketeer L15, hero table
+    assert st["dps"] == 410.0 and st["targets"] == "air_ground" and turret["ready_s"] == pytest.approx(1.5)
+    balloon = [_enemy((14, 12), "balloon")]
+    alone = ustats.simulate_lane(balloon, [], {"lane": "right", "hp": None})
+    with_turret = ustats.simulate_lane(balloon, [turret], {"lane": "right", "hp": None})
+    assert alone.tower_damage > 3000 and with_turret.tower_damage < 400 and with_turret.enemy_killed == 1
+
+
+def test_k4b_the_ability_analysis_stays_fast():
+    state = _ability_state([GIANT_BRIDGE, _ally((14, 5), "musketeer")])
+    REAL.analyse(state)
+    runs = []
+    for _ in range(20):
+        t0 = time.perf_counter()
+        REAL.analyse(state)
+        runs.append(time.perf_counter() - t0)
+    assert min(runs) < 0.02, f"{min(runs) * 1000:.2f} ms"

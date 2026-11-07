@@ -32,6 +32,14 @@ hold (mode `save`, "tower handles ..."); a move is adequate when the engine's si
 fallback for cards without stats); a smaller push may not spend the elixir of the best adequate answer to a bigger one
 that reaches us within `RESERVE_WINDOW_S`; a damage spell is worth casting when what it kills and damages pays its cost
 (`price_spells=False` brings back the elixir-sum rule).
+Knowledge graph (MAC-AK K4b, `kg=` a `clashbot.kg2.KG2`): the engine's defend scores carry the graph's prior (see
+`clashbot.tactics`); an act carries `tile_sources` (card -> "pro_offset" | "geometric") next to `engine_tiles`; the hero
+ability (`ability:musketeer`, MAC-AI part 2) is one more defend move when the engine proposes it - adequate for the push
+it is judged against - and joins `allowed_cards` when its window is open; and a reserve for predicted cards: when the
+opponent deck model (`kg.predict_opp_deck` of the cards seen) puts a balloon / minions / minion horde / lava hound /
+bats / mega minion at `AIR_RESERVE_P` or more and we hold an air answer, the cost of the cheapest one is kept back from
+every non-urgent play (punish, learned; a defend, counter or leak is not held by it) - the way the MAC-AH reserve keeps
+the elixir of the answer to a bigger push.
 """
 from __future__ import annotations
 
@@ -40,6 +48,7 @@ from dataclasses import dataclass, field
 from typing import Any, NamedTuple
 
 from clashbot import d1_format
+from clashbot.actions import ABILITY_COST, ABILITY_KEY
 from clashbot.card_roles import hits_air, load_roles
 from clashbot.game_rules import action_key, lane_of, legal_cards, load_cards, zone_of
 from clashbot.unit_stats import spell_stat, spell_value
@@ -80,6 +89,11 @@ COUNTER_MIN_SCORE = 0.5     # the engine's best offence move needs this score fo
 COUNTER_CALM_ETA_S = 5.0    # a push that is not answered and this close blocks a counter (it is a defend matter)
 COUNTER_INTENTS = ("counter_push", "split", "punish", "leak")
 
+# reserve for predicted cards (MAC-AK K4b)
+AIR_THREATS = ("balloon", "minions", "minion-horde", "lava-hound", "bats", "mega-minion")
+AIR_RESERVE_P = 0.5         # the opponent deck model gives one of them at least this probability: keep an air answer paid for
+PREDICT_TOP = 24            # predicted cards asked of the deck model (the air cards may be low in its ranking)
+
 # placement geometry (MAC-AG): our tower tiles (the perception's TOWER_TILES), pulls, flyers
 OWN_TOWER_TILES = {"own_left": (3.5, 4.3), "own_right": (14.5, 4.3), "own_king": (9.0, 0.5)}
 PULL_LEAD_S = 1.0           # a threat is judged where it will be this many seconds ahead
@@ -111,6 +125,7 @@ class ActDecision:
     threat: dict | None = None   # the enemy unit being answered (defend) or waited for (save)
     allowed_cards: frozenset[str] | None = None   # defend / counter: only these cards fit the decision (None = any)
     engine_tiles: dict[str, list[float]] = field(default_factory=dict)   # card -> the engine's tile for it (MAC-AG)
+    tile_sources: dict[str, str] = field(default_factory=dict)   # card -> where that tile came from: pro_offset | geometric | ability (K4b)
 
 
 def seconds_per_elixir(phase) -> float:
@@ -217,8 +232,10 @@ class ReactivePolicy:
                  emergency_eta_s: float = EMERGENCY_ETA_S, adequate_margin: float = ADEQUATE_MARGIN,
                  building_window_s: float = BUILDING_WINDOW_S, commit_s: float = COMMIT_S,
                  counter_min_score: float = COUNTER_MIN_SCORE, counter_eta_s: float = COUNTER_CALM_ETA_S,
-                 price_spells: bool = True):
+                 price_spells: bool = True, kg=None):
         self.cards = cards if cards is not None else load_cards()
+        self.kg = kg                            # MAC-AK K4b: a KG2 (predict_opp_deck for the air reserve; the engine's answers)
+        self._air_cache: dict[tuple, list] = {}
         self.price_spells = price_spells        # MAC-AH: a damage spell is valued by what it kills (False: elixir sum)
         self.defend_eta_s = defend_eta_s
         self.leak_elixir = leak_elixir
@@ -284,10 +301,16 @@ class ReactivePolicy:
         if self.engine is None and not self._engine_failed:
             try:
                 from clashbot.tactics import TacticalEngine        # tactics imports this module: no top-level import
-                self.engine = TacticalEngine(self.cards)
+                self.engine = TacticalEngine(self.cards, kg2=self.kg)
             except Exception:                                      # noqa: BLE001  any failure -> old behaviour
                 self._engine_failed = True
         return self.engine
+
+    def attach_kg(self, kg) -> None:
+        """Give the policy (and an engine that has none yet) the knowledge graph v2 after the fact."""
+        self.kg = kg
+        if getattr(self.engine, "kg2", False) is None:
+            self.engine.kg2 = kg
 
     def _need_s(self, card: str, state: dict) -> float:
         """Seconds until the bar holds the cost of `card`."""
@@ -295,6 +318,8 @@ class ReactivePolicy:
         return max(0.0, self._cost(card) - elixir) * seconds_per_elixir(state.get("phase"))
 
     def _cost(self, card: str) -> float:
+        if card == ABILITY_KEY:
+            return float(ABILITY_COST)
         return float((self.cards.get(card) or {}).get("elixir_cost") or 0.0)
 
     @staticmethod
@@ -330,6 +355,8 @@ class ReactivePolicy:
         return self._roles().get(card) or {}
 
     def _ctype(self, card: str) -> str:
+        if card == ABILITY_KEY:
+            return "building"                                   # the turret is a building that pulls the win conditions
         role = self._role_of(card)
         return role.get("type") or ("spell" if self._is_spell(card) else
                                     "building" if (self.cards.get(card) or {}).get("card_type") == "Building" else "troop")
@@ -400,10 +427,16 @@ class ReactivePolicy:
         moves = getattr(report, "defence", None) or report.moves
         return [m for m in moves if m.intent == "defend"]
 
+    @staticmethod
+    def _ability_moves(report, push) -> list:
+        """The hero ability move of `report` when it is judged against `push` (MAC-AI part 2), else []."""
+        return [m for m in getattr(report, "abilities", None) or []
+                if getattr(m, "push_lane", None) in (None, push.lane)]
+
     def _push_moves(self, engine, state: dict, report, push, t: float) -> tuple[list, list]:
-        """(now, full): the defend moves for `push` with the elixir we have, and as if the bar were full. With several
-        pushes the analysis is repeated on that push alone, so the moves of another lane can neither crowd out nor
-        stand in for its answers."""
+        """(now, full): the defend moves for `push` with the elixir we have, and as if the bar were full (the hero
+        ability, when the engine proposes it for the push, is one of them). With several pushes the analysis is
+        repeated on that push alone, so the moves of another lane can neither crowd out nor stand in for its answers."""
         base = state
         if len(report.pushes) > 1:
             base = {**state, "units": [u for u in state.get("units", [])
@@ -411,8 +444,13 @@ class ReactivePolicy:
             now_report = engine.analyse(base, t)
         else:
             now_report = report
-        full_report = engine.analyse({**base, "own": {**base["own"], "elixir": FULL_ELIXIR}}, t)
-        return self._defence_moves(now_report), self._defence_moves(full_report)
+        own = {**base["own"], "elixir": FULL_ELIXIR}
+        ab = own.get("hero_ability")
+        if isinstance(ab, dict) and ab.get("visible"):
+            own["hero_ability"] = {**ab, "affordable": True}          # (a full bar pays for the ability as well)
+        full_report = engine.analyse({**base, "own": own}, t)
+        return (self._defence_moves(now_report) + self._ability_moves(now_report, push),
+                self._defence_moves(full_report) + self._ability_moves(full_report, push))
 
     def _answered_names(self, engine, push, t: float) -> list[str]:
         """The cards that answer the push: the engine's (`push.answered_by`), plus the card we chose against it in the
@@ -438,6 +476,14 @@ class ReactivePolicy:
         for m in moves:
             tiles.setdefault(m.card, [float(v) for v in m.tile])
         return tiles
+
+    @staticmethod
+    def _tile_sources(moves: list) -> dict[str, str]:
+        """card -> where the tile of the engine's best move for it came from (`moves` best first)."""
+        out: dict[str, str] = {}
+        for m in moves:
+            out.setdefault(m.card, getattr(m, "tile_source", None) or "geometric")
+        return out
 
     def _role_class(self, card: str) -> str:
         """building / spell / kamikaze / swarm / melee (incl. mini tank, tank killer) / ranged: what a card does against
@@ -474,14 +520,15 @@ class ReactivePolicy:
         lane = lane_of(lead) or push.lane
         what = f"{self._name(unit)} {lane}"
         margin = self.adequate_margin
-        tiles = self._engine_tiles(now)
+        tiles, sources = self._engine_tiles(now), self._tile_sources(now)
         adequate_now = [m for m in now if self._adequate(m, push)]
         open_now = [m for m in adequate_now if push.eta_s <= self._window_s(m.card, push)]
         if open_now:
             best = max(open_now, key=lambda m: m.score)
             allowed = frozenset(m.card for m in open_now if m.score >= best.score - margin)
+            allowed |= frozenset(m.card for m in open_now if m.card == ABILITY_KEY)   # the ability is always on offer
             return ActDecision(True, "defend", lane, f"defend {what}: {best.card} ({best.stop})", threat=unit,
-                               allowed_cards=allowed, engine_tiles=tiles), best.card
+                               allowed_cards=allowed, engine_tiles=tiles, tile_sources=sources), best.card
         adequate_full = [m for m in full if self._adequate(m, push)]
         best_full = max(adequate_full, key=lambda m: m.score, default=None)
         if best_full is not None and best_full.card not in {m.card for m in now}:
@@ -494,12 +541,13 @@ class ReactivePolicy:
         if best_now is not None:
             if push.eta_s <= self.emergency_eta_s:
                 return ActDecision(True, "defend", lane, f"defend {what}: {best_now.card} (emergency)", threat=unit,
-                                   allowed_cards=frozenset({best_now.card}), engine_tiles=tiles), best_now.card
+                                   allowed_cards=frozenset({best_now.card}), engine_tiles=tiles,
+                                   tile_sources=sources), best_now.card
             if not adequate_full and push.eta_s <= NO_ADEQUATE_ETA_S:
                 return ActDecision(True, "defend", lane,
                                    f"defend {what}: {best_now.card} ({best_now.stop}, nothing adequate in hand)",
                                    threat=unit, allowed_cards=frozenset({best_now.card}),
-                                   engine_tiles=tiles), best_now.card
+                                   engine_tiles=tiles, tile_sources=sources), best_now.card
         waiting = max(adequate_now, key=lambda m: m.score, default=None)
         if waiting is not None:
             return ActDecision(False, "save", None, f"waiting for the {waiting.card} window vs {what}: "
@@ -579,8 +627,8 @@ class ReactivePolicy:
             best = max((m for m in now if m.card in allowed), key=lambda m: m.score)
             what = f"{self._name(push.units[0])} {decision.lane}"
             return ActDecision(True, "defend", decision.lane, f"defend {what}: {best.card} ({best.stop})",
-                               threat=decision.threat, allowed_cards=allowed, engine_tiles=decision.engine_tiles), \
-                best.card
+                               threat=decision.threat, allowed_cards=allowed, engine_tiles=decision.engine_tiles,
+                               tile_sources=decision.tile_sources), best.card
         return ActDecision(False, "save", None, f"keep {keep:g} elixir for the {name}, not for {push.lane}",
                            threat=decision.threat), None
 
@@ -609,6 +657,57 @@ class ReactivePolicy:
 
     def _is_win_condition(self, card: str) -> bool:
         return "win_condition" in (self._role_of(card).get("roles") or [])
+
+    # -- reserve for predicted cards (MAC-AK K4b) ---------------------------------------------------------------------
+    def _air_answers(self, state: dict) -> list[str]:
+        """The cards of the hand that answer air: a troop or building with the `air_defense` role (musketeer, electro
+        dragon, tesla ...) that hits air and is not a win condition. A cheap card that merely hits air (ice spirit, bats)
+        is no answer to a balloon, so it reserves nothing."""
+        out = []
+        for card in state["own"].get("hand") or []:
+            role = self._role_of(card) if card else {}
+            tags = role.get("roles") or []
+            if (role and role.get("type") != "spell" and role.get("targets") != "buildings"
+                    and "air_defense" in tags and "win_condition" not in tags and hits_air(role)):
+                out.append(card)
+        return out
+
+    def air_reserve(self, state: dict) -> tuple[float, str, str, float] | None:
+        """(elixir to keep, our cheapest air answer in hand, the predicted air card, its probability), or None. The deck
+        model (`kg.predict_opp_deck` of the opponent cards seen so far; nothing seen = no prediction) gives one of
+        AIR_THREATS (balloon, minions, minion horde, lava hound, bats, mega minion) at AIR_RESERVE_P or more - the highest of
+        them counts - and the hand holds an air answer (musketeer, electro dragon, tesla ...): the cost of the cheapest
+        answer is kept back from every non-urgent play (see `_keeps_air_reserve`)."""
+        if self.kg is None:
+            return None
+        seen = [c for c in (state.get("opponent") or {}).get("deck_known") or [] if c]
+        answers = self._air_answers(state) if seen else []
+        if not answers:
+            return None
+        key = tuple(seen)
+        preds = self._air_cache.get(key)
+        if preds is None:
+            try:
+                preds = list(self.kg.predict_opp_deck(seen, top=PREDICT_TOP))
+            except Exception:                                   # noqa: BLE001  no model, no reserve
+                preds = []
+            if len(self._air_cache) > 64:
+                self._air_cache.clear()
+            self._air_cache[key] = preds
+        air = [(c, p) for c, p in preds if c in AIR_THREATS and c not in seen]
+        if not air:
+            return None
+        card, p = max(air, key=lambda cp: (cp[1], cp[0]))
+        if p < AIR_RESERVE_P:
+            return None
+        answer = min(answers, key=lambda c: (self._cost(c), c))
+        return self._cost(answer), answer, card, float(p)
+
+    def _keeps_air_reserve(self, card: str | None, state: dict, air: tuple | None) -> bool:
+        """Playing `card` leaves the elixir of the reserved air answer (always true without a reserve)."""
+        if air is None or card is None:
+            return True
+        return (state["own"].get("elixir") or 0.0) - self._cost(card) >= air[0] - 1e-9
 
     def decide(self, state: dict, t: float, context_text: str | None = None) -> ActDecision:
         """`context_text` is accepted for the policy interface of the live loop and ignored here. Order: the pushes
@@ -646,24 +745,31 @@ class ReactivePolicy:
                 lane = lane_of(offence.tile)
                 return ActDecision(True, "counter", lane, f"counter: {offence.intent} {offence.card} {lane}",
                                    allowed_cards=frozenset({offence.card}),
-                                   engine_tiles={offence.card: [float(v) for v in offence.tile]})
+                                   engine_tiles={offence.card: [float(v) for v in offence.tile]},
+                                   tile_sources={offence.card: getattr(offence, "tile_source", None) or "geometric"})
 
         if leak_due:
             lanes = {lane_of(_tile(u)) for u in _enemy_units(state) if _tile(u)}
             lane = OPPOSITE_LANE.get(next(iter(lanes))) if len(lanes) == 1 else None
-            allowed, tiles = None, {}
+            allowed, tiles, sources = None, {}, {}
             if offence is not None and offence.intent == "leak":
                 tiles = {offence.card: [float(v) for v in offence.tile]}
+                sources = {offence.card: getattr(offence, "tile_source", None) or "geometric"}
                 if self._is_win_condition(offence.card):            # the full bar goes into the win condition
                     allowed = frozenset({offence.card})
             return ActDecision(True, "leak", lane, f"elixir {elixir:.1f} near full, lane {lane or 'any'}",
-                               allowed_cards=allowed, engine_tiles=tiles)
+                               allowed_cards=allowed, engine_tiles=tiles, tile_sources=sources)
 
         if punish_due:
             reserve = plan.reserve if plan is not None else None
             if reserve is not None and elixir - reserve[0] < 0:
                 return ActDecision(False, "save", None,
                                    f"keep {reserve[0]:g} elixir for the answer to {reserve[1]}, no punish")
+            air = self.air_reserve(state)
+            if air is not None and not any(self._keeps_air_reserve(c, state, air)
+                                           for c in legal_cards(state, self.cards)):
+                return ActDecision(False, "save", None, f"keep {air[0]:g} elixir for {air[1]}: opponent likely has "
+                                   f"{air[2]} {air[3]:.2f}, no punish")
             plays = [p for p in opp.get("recent_plays", []) if _tile(p)]
             last = max(reversed(plays), key=lambda p: p["t"] if p.get("t") is not None else float("-inf")) \
                 if plays else None                      # newest play with a tile (later in the list wins a tie)
@@ -762,8 +868,12 @@ class ReactivePolicy:
         return out
 
     def no_blind_spells(self, candidates: list, state: dict) -> list:
-        """`candidates` without the spells that have nothing worth hitting in their lane and zone, order kept."""
-        return [p.obj for p in self._unblind([_parse(c) for c in candidates], state)]
+        """`candidates` without the spells that have nothing worth hitting in their lane and zone, order kept - and, with
+        a knowledge graph attached, without the plays that would spend the elixir of an air answer the opponent is
+        likely to need (`air_reserve`; this is the filter of a `learned` play, which is never urgent)."""
+        kept = self._unblind([_parse(c) for c in candidates], state)
+        air = self.air_reserve(state)
+        return [p.obj for p in kept if self._keeps_air_reserve(p.card, state, air)]
 
     @staticmethod
     def _engine_candidates(decision: ActDecision) -> list:
@@ -786,7 +896,7 @@ class ReactivePolicy:
         kept = self._unblind([_parse(c) for c in candidates], state, decision)
         spell_filtered = [p.obj for p in kept]
         lane = decision.lane
-        tac = lambda p: "tac" in p.sources          # noqa: E731  tactical candidates: placed on purpose, no lane / zone rule
+        tac = lambda p: "tac" in p.sources or "ability" in p.sources    # noqa: E731  placed on purpose (the engine's tactical moves, the hero ability): no lane / zone rule
 
         if decision.mode == "defend":
             if decision.allowed_cards is not None:         # only the adequate answers; tactical candidates too
@@ -809,9 +919,10 @@ class ReactivePolicy:
             fits = [p.obj for p in kept if tac(p) or (p.zone in LEAK_ZONES and (lane is None or p.lane == lane))]
             return fits or spell_filtered
         if decision.mode == "punish":
+            air = self.air_reserve(state)
             return [p.obj for p in kept
-                    if tac(p) or (not self._is_spell(p.card) and (lane is None or p.lane == lane)
-                                  and p.zone in PUNISH_ZONES)]
+                    if (tac(p) or (not self._is_spell(p.card) and (lane is None or p.lane == lane)
+                                   and p.zone in PUNISH_ZONES)) and self._keeps_air_reserve(p.card, state, air)]
         return spell_filtered
 
 
