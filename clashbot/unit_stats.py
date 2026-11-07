@@ -216,13 +216,23 @@ def spell_stat(card: str, level: int | None = None) -> dict | None:
     return sp if sp and sp.get("damage") else None
 
 
+def card_unit_count(card: str | None) -> int:
+    """Units one play of `card` puts on the field (bats 5, skeletons 3, minions 3, a troop 1; the spawned units of a
+    spawner, count 0, are not counted)."""
+    st = stat_at(card) if card else None
+    return max(1, sum(int(u.get("count") or 0) for u in (st or {}).get("units") or []))
+
+
 def spell_value(card: str, members: list[dict], cards: dict | None = None, level: int | None = None,
                 opp_level: int | None = None) -> tuple[float, int] | None:
     """(elixir value, units killed) of casting the damage spell `card` on `members`, the enemy unit dicts inside its
     radius, by what it does. Per distinct card among them: the units it kills count the card's elixir times their share
-    of that card's units seen in the radius (perception may miss some of a swarm, so the units seen stand for the card);
-    a survivor counts 0.5 x elixir x damage / its hitpoints (at most 0.5 x elixir). The spell's damage is at our level,
-    the units' hitpoints at the opponent's. None when the spell has no damage stats (the caller keeps its old rule)."""
+    of that card's units - the units one play of it puts on the field (`card_unit_count`), or the units seen in the
+    radius when there are more: killing all 5 bats of a play is worth the bats' 2 elixir, one bat of five 0.4, never
+    more than the card's elixir (MAC-AM M2.3; before, the units seen stood for the card and a lone bat was priced as the
+    whole card); a survivor counts 0.5 x elixir x damage / its hitpoints (at most 0.5 x elixir). The spell's damage is at
+    our level, the units' hitpoints at the opponent's. None when the spell has no damage stats (the caller keeps its
+    old rule)."""
     sp = spell_stat(card, level)
     if sp is None:
         return None
@@ -236,7 +246,7 @@ def spell_value(card: str, members: list[dict], cards: dict | None = None, level
         elixir = float(((cards or {}).get(c) or {}).get("elixir_cost") or (stat_at(c) or {}).get("elixir") or 0.0)
         if elixir <= 0:
             continue
-        n = len(units)
+        n = max(len(units), card_unit_count(c))          # (a swarm card is paid for by all its units: 1 bat of 5 = 1/5)
         share = 0.0
         for u in units:
             hp = unit_stat(u, opp_level)["hp"]

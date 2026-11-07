@@ -365,14 +365,16 @@ def test_spell_cluster_counts_units_of_other_lanes_and_spells_and_picks_the_best
 
 
 def test_spell_target_leads_the_moving_unit_and_stays_in_the_arena():
-    ahead = _state(units=[_enemy((5, 9), card="musketeer", pred=(5, 11))])               # 2 tiles ahead in 2 s
-    assert POLICY.target_tile("fireball|left|mid", ahead) == [5.0, 10.0]                  # lead 1.0 s -> 1.0 tile
-    assert POLICY.target_tile("zap|left|mid", ahead) == [5.0, 9.3]                        # lead 0.3 s -> 0.3 tile
-    assert POLICY.target_tile("arrows|left|mid", ahead) == [5.0, 9.8]                     # lead 0.8 s -> 0.8 tile
-    edge = _state(units=[_enemy((17, 31), card="musketeer", pred=(17, 40))])
+    # (MAC-AM M1: the lead is the spell's real delay - 0.5 s latency + the flight from our king tower at the KB's projectile
+    # speed - at the unit's speed; the unit is out of reach of our towers, else it would stand and fight)
+    ahead = _state(units=[_enemy((5, 13), card="musketeer", pred=(5, 15))])              # 1 tile/s toward their side
+    assert POLICY.target_tile("fireball|left|bridge", ahead) == [5.0, 15.0]               # 0.5 + 15.1 / 10 = 2.0 s -> 2 tiles
+    assert POLICY.target_tile("zap|left|bridge", ahead) == [5.0, 13.5]                    # an instant spell: 0.5 s -> 0.5 tile
+    assert POLICY.target_tile("arrows|left|bridge", ahead) == [5.0, 14.3]                 # 0.5 + 14.9 / 18.3 = 1.3 s
+    edge = _state(units=[_enemy((17, 30), card="musketeer", pred=(17, 40))])
     assert POLICY.target_tile("fireball|right|enemy_half", edge) == [17.0, 31.0]
     # the key still names the lane and zone of the unit's current tile
-    assert POLICY.target_tile("fireball|left|bridge", ahead) is None
+    assert POLICY.target_tile("fireball|left|mid", ahead) is None
 
 
 def test_target_tile_is_none_for_everything_but_damage_spells():
@@ -791,7 +793,7 @@ def test_ad_giant_on_the_bridge_is_answered_by_the_bomb_tower_not_a_spirit(weigh
     assert "bomb-tower" in d.allowed_cards and "ice-spirit" not in d.allowed_cards
     assert d.reason == "defend giant right: bomb-tower (high)"
     best = next(m for m in policy.engine.analyse(state, 100.0).defence if m.card == "bomb-tower")
-    assert best.tile == [10.5, 6.5] and best.stop == "high" and best.reason.startswith("pulls giant to the centre")
+    assert best.tile == [10.0, 10.0] and best.stop == "high" and best.reason.startswith("pulls giant to the centre")
     assert d.engine_tiles["bomb-tower"] == best.tile                              # the live loop places it there
     cands = [Candidate("bomb-tower|middle|mid", 1.0, {"tac": 1.0}),
              Candidate("ice-spirit|right|bridge", 0.9, {"tac": 1.0})]
@@ -943,11 +945,15 @@ def test_ad_melee_card_waits_for_its_window():
 
 
 def test_ad_building_window_opens_at_the_river_and_closes_when_the_threat_locks_on():
-    # MAC-AG: the window is geometric. Row 17 is still their side of the river, whatever the ETA says
-    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=9.5, tile=(14, 17))],
+    # MAC-AG: the window is geometric. MAC-AM M3.3: it opens at the bridge approach - the targeter at row 20 or nearer,
+    # heading to our side - not only after the river. Row 21 is not there yet, whatever the ETA says
+    d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=9.5, tile=(14, 21))],
                                            hand=AD_HAND), 100.0)
     assert not d.act and d.reason.startswith("waiting for the bomb-tower window")
-    for row in (16, 15, 13):                                                         # across the river: pull it now
+    # a giant that walks away (retreating) is not pulled
+    back = _giant(eta=9.5, tile=(14, 18), heading="retreating")
+    assert not _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[back], hand=AD_HAND), 100.0).act
+    for row in (20, 17, 16, 15, 13):                                                 # at the approach / across the river: pull it
         d = _ad(DEFAULT_WEIGHTS).decide(_state(elixir=5.0, units=[_bridge_giant(eta=9.5, tile=(14, row))],
                                                hand=AD_HAND), 100.0)
         assert d.act and "bomb-tower" in d.allowed_cards, row
@@ -1085,7 +1091,7 @@ def test_ag_decisions_carry_the_engines_tile_for_every_card_they_may_pick():
     d = policy.decide(_state(elixir=5.0, units=[giant], hand=["tesla", "knight", "musketeer", "zap"]), 100.0)
     assert d.act and d.allowed_cards == frozenset({"tesla"}) and d.reason == "defend giant right: tesla (high)"
     assert set(d.engine_tiles) == {"tesla", "knight", "musketeer"}              # the zap has nothing to hit
-    assert d.engine_tiles["tesla"] == [11.0, 6.5] and d.engine_tiles["musketeer"] == [13.0, 2.5]
+    assert d.engine_tiles["tesla"] == [10.0, 10.0] and d.engine_tiles["musketeer"] == [13.0, 2.5]     # (the centre box, MAC-AM M3)
     assert _ad(DEFAULT_WEIGHTS).decide(_state(), 100.0).engine_tiles == {}          # holds carry no tiles
 
 
@@ -1179,7 +1185,7 @@ def _sim(**kw):
 def test_ah_the_balloon_is_answered_with_the_tesla_pull_and_the_covered_left_lane_waits():
     d = _sim().decide(_scenario(), 100.0)
     assert d.act and d.mode == "defend" and d.lane == "right" and d.reason == "defend balloon right: tesla (high)"
-    assert d.allowed_cards == frozenset({"tesla"}) and d.engine_tiles["tesla"] == [11.0, 11.0]
+    assert d.allowed_cards == frozenset({"tesla"}) and d.engine_tiles["tesla"] == [10.0, 10.0]
     assert d.threat["card"] == "balloon"
     # without the balloon the left push (a night witch pack) is held by our electro dragon and musketeer: no card is spent
     d = _sim().decide(_scenario(balloon=False), 100.0)
@@ -1205,11 +1211,11 @@ def test_ah_a_push_the_tower_handles_is_a_hold_with_that_reason():
 
 def test_ah_a_smaller_push_may_not_spend_the_elixir_of_the_bigger_pushs_answer():
     hand = ("tesla", "knight", "musketeer", "zap")
-    # the balloon is still on their side of the river (row 19, simulated ETA 13.25 s: the musketeer's 9 s air window and
-    # the tesla's pull are not open yet, the 20 s reserve window is); a knight pushes the left. The answer kept for it is
-    # the tesla (4 elixir, the better of the two 4-elixir answers): its pull opens when the balloon crosses the river,
-    # 3 s from now, less the 0.5 s latency; the double-elixir bar regenerates 2.5 / 1.4 = 1.79 by then: keep 4 - 1.79 = 2.21
-    balloon = _heading(_enemy((16, 19), eta=15.0, tower="own_right", card="balloon"), "advancing right lane")
+    # the balloon is still far on their side (row 23, simulated ETA 17.25 s: the musketeer's 9 s air window and the tesla's
+    # pull are not open yet, the 20 s reserve window is); a knight pushes the left. The answer kept for it is the tesla
+    # (4 elixir, the better of the two 4-elixir answers): its pull opens when the balloon reaches row 20 (MAC-AM M3.3), 3 s
+    # from now, less the 0.5 s latency; the double-elixir bar regenerates 2.5 / 1.4 = 1.79 by then: keep 4 - 1.79 = 2.21
+    balloon = _heading(_enemy((16, 23), eta=15.0, tower="own_right", card="balloon"), "advancing right lane")
     knight = _heading(_enemy((4, 11), eta=4.0, card="knight"), "advancing left lane")
 
     def state(elixir):
@@ -1247,17 +1253,24 @@ def test_ah_zap_on_a_lone_balloon_is_not_worth_it_and_the_filter_drops_it():
 
 def test_ah_spells_are_valued_by_what_they_kill():
     policy = _sim()
+    # (MAC-AM M2: a 2-elixir zap needs 2 kills and 2.5 of value; a bat is 1/5 of its card's 2 elixir)
     bats = [_enemy((3, 8), card="bats"), _enemy((4, 10), card="bats")]
-    target = policy.spell_target("zap", "left", "mid", _state(units=bats))
-    assert target is not None and target[1] == 2.0 and target[2] == 2           # both bats die: their full 2 elixir
+    assert policy.spell_target("zap", "left", "mid", _state(units=bats)) is None             # 2 kills, but worth 0.8
     witch = _state(units=[*bats, _enemy((4, 9), card="night-witch"), _enemy((3, 9), card="electro-wizard")])
-    value = policy.spell_target("zap", "left", "mid", witch)[1]
-    assert 2.9 < value < 3.0                                                  # bats dead + a bit of the witch and the wizard
-    # a fireball on a pair of archers is not worth its 4 elixir (they are worth 3); with a musketeer next to them it is
+    assert policy.spell_target("zap", "left", "mid", witch) is None                           # + a bit of the pair: 1.76
+    five = [_enemy((3 + 0.3 * i, 8 + 0.4 * i), card="bats") for i in range(5)]
+    assert policy.spell_target("zap", "left", "mid", _state(units=five)) is None             # a whole play of bats: 2.0 < 2.5
+    goblins = [_enemy((3 + 0.3 * i, 9), card="spear-goblins") for i in range(3)]
+    target = policy.spell_target("zap", "left", "mid", _state(units=five + goblins))        # + a whole play of goblins: 4.0
+    assert target is not None and target[1] == pytest.approx(4.0) and target[2] == 8
+    # a fireball on a pair of archers is not worth its 4 elixir (they are worth 3); with a musketeer next to them (4.9) it
+    # is still short of the 5 a fireball must clear; with a night witch (a bit of it) as well it clears it
     archers = [_enemy((3, 8), card="archers"), _enemy((4, 9), card="archers")]
     assert policy.spell_target("fireball", "left", "mid", _state(units=archers)) is None
     mixed = _state(units=[*archers, _enemy((3, 9), card="musketeer")])
-    assert policy.spell_target("fireball", "left", "mid", mixed)[1] == pytest.approx(3.0 + 0.5 * 4 * 1007 / 1056, abs=0.01)
+    assert policy.spell_target("fireball", "left", "mid", mixed) is None
+    mixed = _state(units=[*archers, _enemy((3, 9), card="musketeer"), _enemy((4, 8), card="night-witch")])
+    assert policy.spell_target("fireball", "left", "mid", mixed)[1] == pytest.approx(6.43, abs=0.01)   # 3 + 1.91 + 1.52
     # three skeletons (1 elixir) are not worth a zap (2), a lone giant never is
     assert policy.spell_target("zap", "left", "mid", _state(units=[_enemy((3, 8 + i * 0.3), card="skeletons")
                                                                    for i in range(3)])) is None
@@ -1592,9 +1605,10 @@ def test_al_the_whole_price_is_kept_once_the_answers_window_is_open():
     assert policy._bound_reserve(plan, knight, later) == 0.0
 
 
-def test_al_a_buildings_window_counts_from_the_river_and_a_lost_pull_keeps_the_whole_price():
-    # the tesla (4) is the answer: a balloon at row 19 crosses the river (row 16) in 3 s, the window opens 0.5 s sooner
-    balloon = _heading(_t_enemy((16, 19), "balloon", tower="own_right"), "advancing right lane")
+def test_al_a_buildings_window_counts_from_the_bridge_approach_and_a_lost_pull_keeps_the_whole_price():
+    # the tesla (4) is the answer: a balloon at row 23 reaches the bridge approach (row 20, MAC-AM M3.3) in 3 s, the window
+    # opens 0.5 s sooner
+    balloon = _heading(_t_enemy((16, 23), "balloon", tower="own_right"), "advancing right lane")
     state = _al([balloon], ["tesla", "knight", "zap", "fireball"], 3.0)
     state["phase"] = "single_elixir"
     policy = _sim()
@@ -1701,14 +1715,18 @@ def test_al_a_defensive_building_is_not_placed_with_no_push_on_the_field():
     assert _keys(policy.filter_candidates(_cands("tesla|left|bridge", "knight|left|bridge"), punish, state)) == ["knight|left|bridge"]
     learned = LearnedActPolicy(None, CARDS, rules=policy)
     assert _keys(learned.filter_candidates(cands, ActDecision(True, "learned", None, "x"), state)) == _keys(kept)
-    # with an enemy push on the field it is a pull and stays
+    # with an enemy push on the field it is a pull and stays - when its tile is in the centre box (MAC-AM M3.5: a
+    # candidate without a tile, or with one next to a tower, is dropped)
     giant = _heading(_t_enemy((14, 15), "giant", eta=9.0, tower="own_right"), "advancing right lane")
-    assert _keys(policy.no_blind_spells(cands, _al([giant], hand, 6.0))) == _keys(cands)
+    assert _keys(policy.no_blind_spells(cands, _al([giant], hand, 6.0))) == ["knight|left|mid", "musketeer|right|back"]
+    centred = [Candidate("tesla|middle|mid", 0.9, {"tac": 0.9}, [10.0, 10.0]), *cands[1:]]
+    assert _keys(policy.no_blind_spells(centred, _al([giant], hand, 6.0))) == [
+        "tesla|middle|mid", "knight|left|mid", "musketeer|right|back"]
     # a unit on their half that is no flyer and no targeter, and a retreating one, are no push
     for far in (_t_enemy((9, 26), "knight"), _heading(_t_enemy((9, 12), "knight"), "retreating")):
         assert "tesla|middle|mid" not in _keys(policy.no_blind_spells(cands, _al([far], hand, 6.0)))
     # a flyer or building targeter anywhere is one
-    assert "tesla|middle|mid" in _keys(policy.no_blind_spells(cands, _al([_t_enemy((16, 26), "balloon")], hand, 6.0)))
+    assert "tesla|middle|mid" in _keys(policy.no_blind_spells(centred, _al([_t_enemy((16, 26), "balloon")], hand, 6.0)))
 
 
 # 7 -----------------------------------------------------------------------------------------------------------------
@@ -1869,3 +1887,326 @@ def test_al_the_air_reserve_covers_a_counter_and_a_leak_too():
     assert d.mode == "leak" and d.allowed_cards == frozenset({"ram-rider"})              # 10 - 5 = 5 >= 4
     policy.air_reserve = lambda state: (6.0, "musketeer", "balloon", 0.6)                 # a dearer reserve: 5 would leave < 6
     assert policy.decide(wc, 100.0).allowed_cards is None
+
+
+# =================================================================================================================
+# MAC-AM: spells lead their targets by the real delay, are cast only for value, and a tesla stands in the centre
+# =================================================================================================================
+from clashbot.policy import (CENTER_BOX, GROUP_TILE_SOURCE, LANE_ANCHOR, PULL_LEAD_S, PULL_OPEN_ROW,  # noqa: E402
+                             ZAP_GROUP_MIN_PREVENT, _lead_tile, in_center_box, lead_tile_s, projectile_speeds,
+                             spell_delay_s, spell_flight_s, spell_worth)
+from clashbot import unit_stats as _us  # noqa: E402
+
+KING = (9.0, 0.5)
+
+
+def _mover(tile, pred, card="knight", kalman=0.7, heading="advancing left lane", **kw):
+    """An enemy walking toward our side: the tracker's velocity (`kalman` tiles/s) and the tile it will be in 2 s."""
+    return {**_enemy(tile, card=card, pred=pred), "speed_tiles_s": kalman, "heading": heading, **kw}
+
+
+def test_am_constants_and_the_kb_projectile_speeds():
+    speeds = projectile_speeds()
+    assert speeds["fireball"] == 10.0 and speeds["rocket"] == pytest.approx(350 / 60) and speeds["arrows"] == pytest.approx(1100 / 60)
+    assert "zap" in speeds and speeds["zap"] is None                      # a card with no projectile column: instant
+    assert PULL_LEAD_S == 1.5 and PULL_OPEN_ROW == 20 and ZAP_GROUP_MIN_PREVENT == 300.0
+    assert CENTER_BOX == ((7.0, 11.0), (8.5, 11.5))
+    assert LANE_ANCHOR == {"left": (8.0, 10.0), "right": (10.0, 10.0), "middle": (9.0, 10.0)}
+    assert in_center_box((8.0, 10.0)) and in_center_box((7.0, 8.5)) and in_center_box((11.0, 11.5))
+    assert not in_center_box((5.5, 6.5)) and not in_center_box((9.0, 12.0)) and not in_center_box(None)
+    # the coordinate frame: our princess towers at row 4.3, the river at rows 15-16: the box is the middle of our half
+    from clashbot.policy import OWN_TOWER_TILES
+    assert OWN_TOWER_TILES["own_left"][1] < CENTER_BOX[1][0] < CENTER_BOX[1][1] < 15
+
+
+# 1 (lead) --------------------------------------------------------------------------------------------------------
+def test_am_a_fireball_is_led_by_the_latency_plus_the_flight_from_the_king_tower():
+    unit = _mover((4, 16), (4, 14.6))                 # walks down at the knight's 1.0 tiles/s; the filter says 0.7
+    # the unit's speed is max(0.7, 0.9 x 1.0) = 0.9: after the delay it has walked delay x 0.9 tiles
+    aim = lead_tile_s(unit, 0.0)
+    assert aim == [4.0, 16.0]
+    delay = spell_delay_s("fireball", aim)
+    for _ in range(2):                                # the policy's two rounds
+        aim = lead_tile_s(unit, delay)
+        delay = spell_delay_s("fireball", aim)
+    assert delay == pytest.approx(0.5 + math.dist(KING, aim) / 10.0, abs=0.02) and delay == pytest.approx(1.95, abs=0.03)
+    assert aim == pytest.approx([4.0, 14.25], abs=0.05)                  # (the old lead: [4, 15.3])
+    assert _lead_tile(unit, 1.0) == pytest.approx([4.0, 15.3])
+    # a zap lands 0.5 s after the decision, whatever the distance
+    assert spell_delay_s("zap", (4, 14.25)) == 0.5 and spell_delay_s("zap", (17, 31)) == 0.5
+    assert lead_tile_s(unit, 0.5) == pytest.approx([4.0, 15.55])
+    # rocket and arrows use their own speeds
+    assert spell_flight_s("rocket", (4, 14)) == pytest.approx(math.dist(KING, (4, 14)) / (350 / 60))
+    assert spell_flight_s("arrows", (4, 14)) == pytest.approx(math.dist(KING, (4, 14)) / (1100 / 60))
+    # a card the KB does not know keeps the old flat lead
+    assert spell_flight_s("not-a-card", (4, 14)) == 0.3 and spell_flight_s("lightning", (4, 14)) == 0.0   # (KB: no projectile)
+
+
+def test_am_a_unit_that_stands_or_fights_is_not_led():
+    still = _mover((3.5, 22.0), (3.5, 20.6), heading="stationary")        # at their tower
+    assert lead_tile_s(still, 2.0) == [3.5, 22.0]
+    at_tower = _mover((3.5, 6.0), (3.5, 4.6))                              # within a knight's reach of our left tower
+    assert lead_tile_s(at_tower, 2.0) == [3.5, 6.0]
+    free = _mover((3.5, 9.0), (3.5, 7.6))
+    assert lead_tile_s(free, 2.0)[1] == pytest.approx(9.0 - 1.8)
+    # ... or of one of our units: a knight of ours next to it stops it, one 4 tiles away does not
+    state = {"units": [_ally((3.5, 8.0))]}
+    assert lead_tile_s(free, 2.0, state) == [3.5, 9.0]
+    state = {"units": [_ally((3.5, 5.0))]}
+    assert lead_tile_s(free, 2.0, state)[1] == pytest.approx(7.2)
+    # a unit with no velocity information, a unit moving away at the filter's speed, a lead past the arena edge
+    assert lead_tile_s(_enemy((4, 12), card="knight"), 2.0) == [4.0, 12.0]
+    away = _mover((4, 20), (4, 21.4), heading="retreating")
+    assert lead_tile_s(away, 2.0) == pytest.approx([4.0, 21.4])
+    edge = _mover((17, 30), (17, 40), card="musketeer", kalman=5.0)
+    assert lead_tile_s(edge, 2.0) == [17.0, 31.0]
+
+
+def test_am_the_spell_aim_uses_the_lead_and_the_defend_check_uses_it_too():
+    policy = _sim()
+    # a worthwhile cluster walking down toward the bridge: the aim is where the units will be when the fireball lands
+    pack = [_mover((4 + 0.6 * i, 16 + 0.3 * i), (4 + 0.6 * i, 14.6 + 0.3 * i), card=c)
+            for i, c in enumerate(("archers", "archers", "firecracker"))]
+    state = _al(pack, ["fireball", "knight", "zap", "musketeer"], 9.0)
+    aim, value, members, kills = policy.spell_best("fireball", state)
+    assert kills == 3 and len(members) == 3 and value >= 6.0
+    still = [dict(u, heading="stationary") for u in pack]
+    aim0 = policy.spell_best("fireball", _al(still, ["fireball", "knight", "zap", "musketeer"], 9.0))[0]
+    assert aim0[1] - aim[1] > 1.2                                          # ~1.8 tiles further down than where they stand
+    assert math.dist(aim, aim0) < 3.0
+    assert policy.target_tile("fireball|left|bridge", state) == aim
+    # the defend check: the push units at their lead tiles must be in the circle of the aim
+    assert policy._aims_at_threat("fireball", aim, pack[0], tuple(pack), state)
+    assert not policy._aims_at_threat("fireball", [aim[0], aim[1] + 6], pack[0], tuple(pack), state)
+
+
+# 2 (worth) -------------------------------------------------------------------------------------------------------
+@pytest.mark.parametrize("card, value, kills, expected", [
+    ("zap", 2.4, 2, False), ("zap", 2.5, 2, True), ("zap", 5.0, 1, False), ("zap", 6.0, 0, False), ("zap", 4.0, 8, True),
+    ("fireball", 4.0, 1, False), ("fireball", 4.99, 1, False), ("fireball", 5.0, 1, True), ("fireball", 7.0, 2, True),
+    ("fireball", 5.9, 0, False), ("fireball", 6.0, 0, True), ("fireball", 3.9, None, False), ("fireball", 4.0, None, True),
+    ("arrows", 3.9, 1, False), ("arrows", 4.0, 1, True), ("rocket", 6.5, 2, False), ("rocket", 7.0, 2, True),
+])
+def test_am_spell_worth_is_one_bar_for_every_spell(card, value, kills, expected):
+    assert spell_worth(card, value, kills) is expected
+
+
+def test_am_a_lone_firecracker_with_the_tower_bonus_is_not_worth_a_fireball_in_any_mode():
+    policy = _sim()
+    lone = _al([dict(_enemy((4.5, 22.0), card="firecracker"), heading="stationary")], ["fireball", "knight", "zap", "musketeer"], 9.0)
+    assert policy.spell_best("fireball", lone) is None                    # 3 + the +1 tower bonus = 4 < 5 (t = 325.5)
+    assert policy.target_tile("fireball|left|enemy_half", lone) is None
+    assert policy._analyse(lone, 100.0).spells == []
+    cand = Candidate("fireball|left|enemy_half", 0.9, {"tac": 0.9}, [4.5, 22.0])
+    for mode in ("learned", "leak", "punish", "counter", "spell"):
+        assert policy.filter_candidates([cand], ActDecision(True, mode, "left", "x"), lone) == [], mode
+    # the same bar in an emergency: the engine's move would be a fireball worth 4 with one kill, a push at the tower
+    firecracker = _enemy((4, 6), eta=0.5, card="firecracker")
+    weak = TacticalMove("fireball", "fireball|left|mid", [4.0, 6.0], "defend", "x", 0.9, 1.0, stop="spell", value=4.0,
+                        members=(firecracker,), kills=1)
+    d = ReactivePolicy(CARDS, engine=FakeEngine([weak], 0.5, lane="left", heavy=False, needs=())).decide(
+        _state(elixir=5.0, units=[firecracker], hand=["fireball", "knight", "zap", "giant"]), 100.0)
+    assert not d.act and "fireball" not in (d.allowed_cards or ()) and d.reason.startswith("no worthwhile card at hand")
+    # ... and a fireball worth 5 with a kill is taken in the same situation
+    good = TacticalMove("fireball", "fireball|left|mid", [4.0, 6.0], "defend", "x", 0.9, 1.0, stop="spell", value=5.0,
+                        members=(firecracker,), kills=1)
+    d = ReactivePolicy(CARDS, engine=FakeEngine([good], 0.5, lane="left", heavy=False, needs=())).decide(
+        _state(elixir=5.0, units=[firecracker], hand=["fireball", "knight", "zap", "giant"]), 100.0)
+    assert d.act and d.allowed_cards == frozenset({"fireball"})
+
+
+def test_am_archers_and_a_firecracker_next_to_their_tower_are_worth_a_fireball():
+    policy = _sim()
+    pack = [dict(_enemy(t, card=c), heading="stationary") for t, c in
+            (((4, 20), "archers"), ((4.5, 20.5), "archers"), ((5, 21), "firecracker"))]
+    state = _al(pack, ["fireball", "knight", "zap", "musketeer"], 9.0)
+    aim, value, members, kills = policy.spell_best("fireball", state)
+    assert kills == 3 and value == pytest.approx(7.0) and len(members) == 3        # archers 3 + firecracker 3 + the tower 1
+    report = policy._analyse(state, 100.0)
+    assert [m.card for m in report.spells] == ["fireball"] and report.spells[0].value == pytest.approx(7.0)
+
+
+def test_am_zaps_are_cast_for_two_kills_and_value_never_for_nothing():
+    policy = _sim()
+    zap_hand = ["zap", "knight", "fireball", "musketeer"]
+    def at(units): return _al([dict(u, heading="stationary") for u in units], zap_hand, 9.0)
+    bats = lambda n, x=4.0, y=28.0: [{**_enemy((x + 0.3 * i, y), card="bats"), "unit_class": "bat"} for i in range(n)]    # noqa: E731
+    # one bat of five (0.4), three bats (1.2), a whole play of bats (2.0): none clears the 2.5 a zap needs on its own
+    for n in (1, 3, 5):
+        assert policy.spell_best("zap", at(bats(n))) is None, n
+    # kills 0 never: a lone balloon, a musketeer, a night witch and an e-wizard (they only get scratched)
+    for card in ("balloon", "musketeer", "night-witch", "electro-wizard", "giant"):
+        assert policy.spell_best("zap", at([_enemy((4, 28), card=card)])) is None, card
+    # a whole play of bats + a spear goblin (2.67, six kills) is worth it; with a whole play of goblins, 4.0 (a great spell)
+    best = policy.spell_best("zap", at(bats(5) + [_enemy((4.5, 28.5), card="spear-goblins")]))
+    assert best is not None and best[1] == pytest.approx(2.0 + 2 / 3, abs=0.01) and best[3] == 6
+    goblins = [_enemy((4 + 0.4 * i, 28.5), card="spear-goblins") for i in range(3)]
+    best = policy.spell_best("zap", at(bats(5) + goblins))
+    assert best is not None and best[1] == pytest.approx(4.0, abs=0.01) and best[3] == 8
+    # next to their tower the +1 of the crown-tower damage counts: a whole play of bats is then worth 3.0
+    assert policy.spell_best("zap", at(bats(5, y=24.0)))[1] == pytest.approx(3.0)
+    assert policy.spell_best("zap", at(bats(3, y=24.0))) is None                                      # 1.2 + 1 = 2.2 < 2.5
+
+
+# 2.1b (the group zap, the user's amendment) --------------------------------------------------------------------------
+def _group(cards, ys=9.0, eta=2.0, lane_x=3.5, heading="advancing left lane"):
+    offsets = ((0, 0), (0.5, 0.5), (-0.5, 0.5), (0, 1.0), (1.0, 0.0), (-1.0, 0.0))
+    return [_heading(_enemy((lane_x + dx, ys + dy), card=c, eta=eta), heading) for (dx, dy), c in zip(offsets, cards)]
+
+
+def test_am_a_zap_on_a_group_the_tower_finishes_is_worth_it_when_it_saves_300_tower_hp():
+    engine = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)
+    state = _al(_group(["archers", "archers", "firecracker"]), ["zap", "knight", "fireball", "musketeer"], 9.0)
+    rep = engine.analyse(state, 100.0)
+    zap = next(m for m in rep.defence if m.card == "zap")
+    # no kills (the archers and the firecracker have 490 hp, a zap does 281): rule (a) fails, rule (b) holds
+    assert zap.kills == 0 and not spell_worth("zap", zap.value, zap.kills)
+    assert zap.group and zap.tile_source == GROUP_TILE_SOURCE and len(zap.members) == 3
+    assert zap.prevented >= ZAP_GROUP_MIN_PREVENT and zap.prevented == pytest.approx(1126.0, abs=1.0)
+    assert zap.reason == "zap archers x2 + firecracker: tower finishes them, saves ~1,100 HP"
+    # a group of two is no group; three units far on their side that are not coming are no push
+    assert not [m for m in engine.analyse(_al(_group(["archers", "firecracker"]), ["zap", "knight"], 9.0), 100.0).defence
+                if m.card == "zap"]
+    away = _group(["archers", "archers", "firecracker"], ys=26.0, eta=None, heading="stationary")
+    rep = engine.analyse(_al(away, ["zap", "knight", "fireball", "musketeer"], 9.0), 100.0)
+    assert rep.pushes == [] and not [m for m in rep.defence if m.card == "zap"]
+    back = _group(["archers", "archers", "firecracker"], ys=26.0, eta=None, heading="retreating")
+    assert not [m for m in engine.analyse(_al(back, ["zap", "knight"], 9.0), 100.0).defence if m.card == "zap"]
+
+
+def test_am_the_group_zap_passes_the_policys_filter_and_a_kill_zap_is_still_a_kill_zap():
+    policy = _sim()
+    # archers x2 + minions: the sim says the zap alone stops this push (prevented 1,633, adequate): the policy allows it
+    state = _al(_group(["archers", "archers", "minions"]), ["zap", "knight", "tesla", "musketeer"], 9.0)
+    report = policy._analyse(state, 100.0)
+    zap = next(m for m in report.defence if m.card == "zap")
+    assert zap.group and zap.adequate
+    d = policy.decide(state, 100.0)
+    assert d.act and d.mode == "defend" and d.allowed_cards == frozenset({"zap"})
+    assert d.tile_sources["zap"] == GROUP_TILE_SOURCE and d.engine_tiles["zap"] == [3.5, 9.5]
+    cand = Candidate("zap|left|mid", 0.9, {"knn": 1.0})
+    assert _keys(policy.filter_candidates([cand], d, state)) == ["zap|left|mid"]       # (spell_target knows no such cluster)
+    assert policy.spell_target("zap", "left", "mid", state) is None
+    # with spear goblins in the group the zap kills three of them: rule (a) takes it (not flagged as a group zap) ...
+    kills = _group(["archers", "archers", "firecracker", "spear-goblins", "spear-goblins", "spear-goblins"])
+    mixed = _al(kills, ["zap", "knight", "fireball", "musketeer"], 9.0)
+    rep = policy._analyse(mixed, 100.0)
+    zap = next(m for m in rep.defence if m.card == "zap")
+    assert not zap.group and zap.kills == 3 and spell_worth("zap", zap.value, zap.kills)
+    assert zap.prevented >= 2000
+    # ... and rule (b) holds there too (the amendment's example): 6 units of the push in the circle, 2,568 tower HP saved
+    engine = policy.engine
+    push = engine._pushes(mixed, 100.0)[0]
+    ctx = engine._ctx(push, mixed, 100.0, ["zap", "knight", "fireball", "musketeer"])
+    aim = engine._group_aim("zap", ctx, mixed)
+    assert aim is not None and aim.group and len(aim.members) == 6 and aim.kills == 3
+    # three units of a push that retreat on their side of the river (eta given) are not a group the tower finishes
+    gone = _al(_group(["archers", "archers", "firecracker"], ys=18.0, eta=5.0, heading="retreating"), ["zap", "knight"], 9.0)
+    push = engine._pushes(gone, 100.0)[0]
+    assert engine._group_aim("zap", engine._ctx(push, gone, 100.0, ["zap", "knight"]), gone) is None
+
+
+# 3 (tesla) -------------------------------------------------------------------------------------------------------------
+def _tesla_scene(units, hand=("tesla", "knight", "musketeer", "zap"), elixir=9.0):
+    return _al(units, hand, elixir)
+
+
+def _tesla_move(units, **kw):
+    rep = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS).analyse(_tesla_scene(units, **kw), 100.0)
+    return next((m for m in rep.defence if m.card == "tesla"), None), rep
+
+
+def test_am_a_giant_at_the_left_bridge_is_pulled_to_the_centre_box_anchor():
+    giant = _mover((3.5, 15.0), (3.5, 13.5), card="giant", kalman=0.75)
+    giant["eta_tower"] = {"tower": "own_left", "s": 9.0}
+    tesla, rep = _tesla_move([giant])
+    assert tesla is not None and tesla.tile == [8.0, 10.0] and in_center_box(tesla.tile)
+    assert tesla.reason.startswith("pulls giant to the centre") and tesla.adequate
+    # the right bridge: the right anchor
+    giant_r = _mover((14.5, 15.0), (14.5, 13.5), card="giant", kalman=0.75, heading="advancing right lane")
+    giant_r["eta_tower"] = {"tower": "own_right", "s": 9.0}
+    assert _tesla_move([giant_r])[0].tile == [10.0, 10.0]
+    # every box tile that qualifies is in the box; the anchor itself is the pick whenever it qualifies
+    engine = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS)
+    for y in (13.0, 15.0, 18.0, 20.0):
+        tile = engine._pull_tile([3.5, y], anchor=LANE_ANCHOR["left"])
+        assert tile is not None and in_center_box(tile)
+        assert tile == [8.0, 10.0]
+    # near the tower there is no pull tile at all (a tile must be 3 tiles from the giant and 1.5 closer than the tower)
+    assert engine._pull_tile([3.5, 6.5]) is None and engine._pull_tile([4, 8]) is None
+
+
+def test_am_a_giant_that_is_already_deep_gets_no_tesla():
+    deep = _mover((4, 8), (4, 6.5), card="giant", kalman=0.75)
+    deep["eta_tower"] = {"tower": "own_left", "s": 3.0}
+    tesla, rep = _tesla_move([deep])
+    assert tesla is None and [p.lane for p in rep.pushes] == ["left"]
+    assert "tesla" not in {m.card for m in rep.moves}
+    # the policy does not ask for one either
+    d = _sim().decide(_tesla_scene([deep]), 100.0)
+    assert "tesla" not in (d.allowed_cards or ()) and "tesla" not in d.engine_tiles
+
+
+def test_am_a_troop_push_is_kited_to_the_anchor_while_the_lead_is_above_it():
+    cracker = _mover((14.5, 15.0), (14.5, 12.0), card="firecracker", kalman=1.5, heading="advancing right lane")
+    cracker["eta_tower"] = {"tower": "own_right", "s": 7.0}
+    tesla, _ = _tesla_move([cracker])
+    assert tesla is not None and tesla.tile == [10.0, 10.0] and tesla.reason.startswith("kites firecracker to the centre")
+    # the lead unit is already below the anchor's row + 1: no tesla (it would stand behind the unit)
+    low = _mover((14.5, 10.0), (14.5, 7.0), card="firecracker", kalman=1.5, heading="advancing right lane")
+    low["eta_tower"] = {"tower": "own_right", "s": 4.0}
+    assert _tesla_move([low])[0] is None
+    # ... and a lead within 3 tiles of the anchor: no tesla either
+    near = _mover((9.0, 12.5), (9.0, 10.0), card="firecracker", kalman=1.5, heading="advancing left lane")
+    near["eta_tower"] = {"tower": "own_left", "s": 4.0}
+    assert _tesla_move([near])[0] is None                                    # 3 tiles from the middle lane's anchor (9, 10)? no: 2.5
+
+
+def test_am_a_balloon_at_the_tower_may_get_the_old_tower_tile_when_nothing_else_hits_air():
+    balloon = _mover((3.5, 6.0), (3.5, 5.0), card="balloon", kalman=1.0)
+    balloon["eta_tower"] = {"tower": "own_left", "s": 1.0}
+    tesla, _ = _tesla_move([balloon], hand=("tesla", "knight", "zap", "fireball"))
+    assert tesla is not None and tesla.tile == [5.5, 6.5] and tesla.reason.startswith("air dps at the tower")
+    assert not in_center_box(tesla.tile)
+    # ... not when another card in the hand hits air (a musketeer)
+    assert _tesla_move([balloon], hand=("tesla", "knight", "zap", "musketeer"))[0] is None
+    # a giant (no air) locked on the tower: no exception
+    giant = _mover((3.5, 6.0), (3.5, 5.0), card="giant", kalman=0.75)
+    giant["eta_tower"] = {"tower": "own_left", "s": 1.0}
+    assert _tesla_move([giant], hand=("tesla", "knight", "zap", "fireball"))[0] is None
+
+
+def test_am_a_tesla_candidate_outside_the_centre_box_is_dropped_unless_it_is_the_engines_tile():
+    policy = _sim()
+    giant = _heading(_t_enemy((3.5, 15.0), "giant", eta=9.0), "advancing left lane")
+    state = _al([giant], ["tesla", "knight", "zap", "musketeer"], 9.0)
+    leak = Candidate("tesla|left|back", 0.8, {"knn": 1.0}, [5.0, 2.5])        # the full-bar leak tesla of the run
+    centre = Candidate("tesla|middle|mid", 0.7, {"tac": 0.7}, [8.0, 10.0])
+    knight = Candidate("knight|left|mid", 0.6, {"knn": 1.0})
+    for mode in ("leak", "punish", "learned", "counter"):
+        decision = ActDecision(True, mode, "left", "x")
+        out = policy.filter_candidates([leak, centre, knight], decision, state)
+        assert leak not in out and centre in out, mode
+    assert _keys(policy.no_blind_spells([leak, centre, knight], state)) == ["tesla|middle|mid", "knight|left|mid"]
+    # a defend decision whose engine places the tesla keeps it (the live loop puts it at the engine's tile)
+    d = policy.decide(state, 100.0)
+    assert d.act and "tesla" in d.allowed_cards and d.engine_tiles["tesla"] == [8.0, 10.0]
+    assert _keys(policy.filter_candidates([leak, knight], d, state)) == ["tesla|left|back"]
+    # the air exception tile is the engine's too
+    balloon = _mover((3.5, 6.0), (3.5, 5.0), card="balloon", kalman=1.0, eta_tower={"tower": "own_left", "s": 0.25})
+    st = _al([balloon], ["tesla", "knight", "zap", "fireball"], 9.0)
+    d = policy.decide(st, 100.0)
+    if d.act and "tesla" in (d.allowed_cards or ()):
+        assert d.engine_tiles["tesla"] == [5.5, 6.5]
+        assert _keys(policy.filter_candidates([Candidate("tesla|left|back", 0.8, {"tac": 0.8}, [5.5, 6.5])], d, st))
+
+
+def test_am_a_building_window_opens_at_the_bridge_approach_and_not_for_a_giant_that_walks_away():
+    policy = _sim()
+    hand = ("tesla", "knight", "zap", "fireball")
+    for row, acts in ((22, False), (20, True), (18, True), (16, True)):
+        giant = _heading(_enemy((3.5, row), card="giant", eta=9.0, pred=(3.5, row - 1.5)), "advancing left lane")
+        d = _sim().decide(_al([giant], hand, 6.0), 100.0)
+        assert d.act is acts and (not acts or "tesla" in d.allowed_cards), row
+    giant = _heading(_enemy((3.5, 18), card="giant", eta=9.0), "retreating")
+    assert not _sim().decide(_al([giant], hand, 6.0), 100.0).act

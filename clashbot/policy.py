@@ -52,18 +52,30 @@ cluster anywhere (`spell_best`: tanks are damaged survivors, their tower +1 elix
 `GREAT_SPELL_RATIO` x its cost is the only allowed card, one worth that with no push is a `spell` act; the allowed cards
 the generator left out reach the LLM as the engine's candidates. The hero ability joins `allowed_cards` only when no
 adequate card answer has its window open or it prevents `ABILITY_VS_CARD_RATIO` x what the best such card prevents.
+Spell lead, spell bar, tesla in the centre (MAC-AM): a spell lands `spell_delay_s` after the decision - the tap latency plus the
+flight from our king tower at the KB's "Projectile Speed" (fireball 10 tiles/s; a zap has none) - and every unit is moved that
+long along its velocity at max(tracker speed, 0.9 x its card's speed) (`lead_tile_s`; a unit that stands or fights does not move);
+`spell_worth` is the one bar for a damage spell (a cheap one: 2 kills and 0.5 over its cost; another: a kill and 1.0 over, or no
+kill and 2.0 over; the tower bonus counts), used by `spell_target` / `spell_best`, `_adequate`, `_window_s`, the emergency
+and "nothing adequate" rules; a cheap spell on a group of one push the tower finishes (the engine's simulation, rule b) is the
+one other way. A defensive building stands in `CENTER_BOX` (x 7..11, y 8.5..11.5) at the lane's anchor: its window opens at the
+bridge approach (the targeter at row <= `PULL_OPEN_ROW` heading to us), and a building candidate off the box is dropped unless
+the engine places it. `last_report` keeps the engine's report of the last `decide` for the live loop's hold log.
 """
 from __future__ import annotations
 
 import math
+import re
 from dataclasses import dataclass, field
+from functools import lru_cache
 from typing import Any, NamedTuple
 
 from clashbot import d1_format
 from clashbot.actions import ABILITY_COST, ABILITY_KEY, ABILITY_VS_CARD_RATIO
 from clashbot.card_roles import hits_air, load_roles
+from clashbot.config import KB
 from clashbot.game_rules import action_key, lane_of, legal_cards, load_cards, zone_of
-from clashbot.unit_stats import spell_stat, spell_value, unit_stat
+from clashbot.unit_stats import has_stats, spell_stat, spell_value, unit_stat
 
 DEFEND_ETA_S = 4.0          # an enemy unit this close (seconds) to one of our towers must be answered now
 LEAK_ELIXIR = 9.5           # at (near) full elixir, waiting wastes elixir
@@ -118,8 +130,14 @@ PREDICT_TOP = 24            # predicted cards asked of the deck model (the air c
 
 # placement geometry (MAC-AG): our tower tiles (the perception's TOWER_TILES), pulls, flyers
 OWN_TOWER_TILES = {"own_left": (3.5, 4.3), "own_right": (14.5, 4.3), "own_king": (9.0, 0.5)}
-PULL_LEAD_S = 1.0           # a threat is judged where it will be this many seconds ahead
+PULL_LEAD_S = DECISION_LATENCY_S + 1.0   # a threat is judged where it will be when a building tapped now has deployed (MAC-AM M3)
 RIVER_CROSSED_ROW = 16      # a threat at or beyond this row (towards our side) has crossed the river
+PULL_OPEN_ROW = 20          # a building may pull a building targeter from the bridge approach: it is at this row or nearer ours
+                            # and heads to our side (MAC-AM M3.3)
+# MAC-AM M3: a defensive building (tesla ...) stands in the centre of our half, where it kites the push to both towers and the
+# king: x 7..11, y 8.5..11.5 on the 0.5 grid (our towers are at row 4.3, the river at rows 15-16); one anchor per lane
+CENTER_BOX = ((7.0, 11.0), (8.5, 11.5))
+LANE_ANCHOR = {"left": (8.0, 10.0), "right": (10.0, 10.0), "middle": (9.0, 10.0)}
 LOCK_ON_MARGIN = 1.0        # a building targeter locks on its tower once it is within its attack range + this many tiles
 ATTACK_RANGE_TILES = {"melee": 1.0, "short": 3.0, "long": 5.0}
 AIR_GROUND_NEAR_TILES = 2.0     # a ground unit this close to a flying lead is part of the same group (a ground card helps)
@@ -129,8 +147,26 @@ SPELL_RADIUS = {"zap": 2.5, "fireball": 2.5, "arrows": 4.0, "poison": 3.5, "ligh
                 "the-log": 2.0, "barbarian-barrel": 2.0, "giant-snowball": 2.5, "earthquake": 3.5, "tornado": 5.5,
                 "freeze": 3.0, "void": 2.5, "goblin-curse": 3.0, "royal-delivery": 3.0, "vines": 2.5}
 DEFAULT_SPELL_RADIUS = 2.5
-SPELL_LEAD_S = {"fireball": 1.0, "rocket": 1.5, "arrows": 0.8, "poison": 0.5, "lightning": 0.6}   # travel time
+SPELL_LEAD_S = {"fireball": 1.0, "rocket": 1.5, "arrows": 0.8, "poison": 0.5, "lightning": 0.6}   # fallback only: a card with no KB table
 DEFAULT_SPELL_LEAD_S = 0.3
+# spell delay and lead (MAC-AM M1): the tap lands DECISION_LATENCY_S after the decision, a projectile then flies from our king
+# tower at the KB's "Projectile Speed" (60 = 1 tile/s, the scale of the troop speeds); a unit walks at its card's speed
+KING_TILE = OWN_TOWER_TILES["own_king"]
+KB_SPEED_SCALE = 60.0
+CARD_SPEED_FRAC = 0.9       # a unit that heads to our side walks at least this much of its card's speed (the filter lags, MAC-AL T1)
+TOWARD_COS = 0.5            # ... "heads to our side" = the cosine of its velocity to the direction of our nearest tower is this or more
+ENGAGE_MIN_REACH = 1.0      # a unit stands still when it is within max(its range, this) of a target: a tower + TOWER_EDGE_TILES,
+TOWER_EDGE_TILES = 1.5      # ... one of our buildings / troops + TROOP_EDGE_TILES
+TROOP_EDGE_TILES = 0.5
+# a spell is cast only for value (MAC-AM M2): the bar over the spell's cost
+SMALL_SPELL_COST = 2.0      # a spell this cheap (zap) needs two kills ...
+SMALL_SPELL_MIN_KILLS = 2
+SMALL_SPELL_MARGIN = 0.5    # ... and its value this much over its cost
+SPELL_MARGIN = 1.0          # any other damage spell needs a kill and this much over its cost ...
+SPELL_NO_KILL_MARGIN = 2.0  # ... or, killing nothing, this much
+ZAP_GROUP_MIN_UNITS = 3     # a cheap spell that kills too little is still worth it on a group of this many units of one push ...
+ZAP_GROUP_MIN_PREVENT = 300.0   # ... when the tower finishing them saves at least this much tower HP (simulated, MAC-AM M2.1b)
+GROUP_TILE_SOURCE = "spell_group"   # `tile_sources` value of such a zap: the engine's verdict, `spell_target` does not know it
 TANK_CARDS = {"giant", "royal-giant", "golem", "p-e-k-k-a", "mega-knight", "lava-hound", "electro-giant",
               "goblin-giant", "giant-skeleton", "elixir-golem", "goblinstein", "rune-giant"}
 NON_DAMAGE_SPELLS = {"rage", "clone", "mirror", "goblin-barrel", "graveyard"}   # keep the old lane+zone rule
@@ -175,6 +211,160 @@ def _lead_tile(unit: dict, lead_s: float) -> list[float] | None:
         k = lead_s / 2.0
         return [tile[0] + (pred[0] - tile[0]) * k, tile[1] + (pred[1] - tile[1]) * k]
     return [float(tile[0]), float(tile[1])]
+
+
+def heads_toward_us(unit: dict, tile) -> bool:
+    """An enemy unit at `tile` walks toward our side: its heading says advancing, else its velocity / the tile it will be in
+    2 s says its row falls; a retreating or stationary one is not; with no information it is."""
+    heading = str(unit.get("heading") or "").lower()
+    if "retreat" in heading or "stationary" in heading:
+        return False
+    if "advanc" in heading:
+        return True
+    vel = unit.get("vel") or unit.get("velocity")
+    if isinstance(vel, (list, tuple)) and len(vel) >= 2 and isinstance(vel[1], (int, float)):
+        return vel[1] < 0
+    pred = unit.get("predicted_tile_2s")
+    if isinstance(pred, (list, tuple)) and len(pred) >= 2 and isinstance(pred[1], (int, float)):
+        return pred[1] < tile[1]
+    return True
+
+
+# -- spell delay and lead (MAC-AM M1) ----------------------------------------------------------------------------------
+@lru_cache(maxsize=1)
+def projectile_speeds() -> dict[str, float | None]:
+    """card slug -> projectile speed in tiles/s from the KB's card tables (`knowledge_base/cards/<slug>.md`, the
+    "Projectile Speed" column, 60 = 1 tile/s like the troop speeds: fireball 600 = 10 tiles/s, rocket 350, arrows 1100);
+    None for a card whose table has no such column (zap, poison ...: the effect is instant). A card with no file is not in
+    the dict. Read once."""
+    out: dict[str, float | None] = {}
+    try:
+        files = sorted((KB / "cards").glob("*.md"))
+    except OSError:
+        return out
+    for path in files:
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        out[path.stem] = None
+        for head_row, data_row in re.findall(r"(\|[^\n]*\bProjectile Speed\b[^\n]*\|)\n\|[-| ]+\|\n(\|[^\n]*\|)", text):
+            head = [h.strip().lower() for h in head_row.strip("|").split("|")]
+            row = [c.strip() for c in data_row.strip("|").split("|")]
+            if "projectile speed" in head and len(row) == len(head):
+                m = re.match(r"\d+(?:\.\d+)?", row[head.index("projectile speed")])
+                if m and float(m.group()) > 0:
+                    out[path.stem] = float(m.group()) / KB_SPEED_SCALE
+                break
+    return out
+
+
+def spell_flight_s(card: str, target) -> float:
+    """Seconds the spell `card` flies from our king tower to `target`: distance / the KB's projectile speed; 0 for an instant
+    spell (zap: the table has no projectile speed); SPELL_LEAD_S / DEFAULT_SPELL_LEAD_S only for a card the KB does not know."""
+    table = projectile_speeds()
+    if card in table:
+        speed = table[card]
+        return math.dist(KING_TILE, target) / speed if speed else 0.0
+    return SPELL_LEAD_S.get(card, DEFAULT_SPELL_LEAD_S)
+
+
+def spell_delay_s(card: str, target_tile) -> float:
+    """Seconds from the decision to the spell `card` landing on `target_tile`: DECISION_LATENCY_S + the flight from our
+    king tower (1.8-2.7 s for a fireball, from the bridge to their tower); a zap lands 0.5 s after the decision."""
+    return DECISION_LATENCY_S + spell_flight_s(card, target_tile)
+
+
+def _engaged(unit: dict, tile, stat: dict | None, state: dict | None) -> bool:
+    """The unit is within its attack range of one of our towers, or of one of our units / buildings in `state`: it stands there
+    and fights instead of walking (a unit that goes for buildings only notices our buildings and towers)."""
+    reach = max(float(stat["range_tiles"]) if stat else 0.0, ENGAGE_MIN_REACH)
+    if any(math.dist(tile, xy) <= reach + TOWER_EDGE_TILES for xy in OWN_TOWER_TILES.values()):
+        return True
+    buildings_only = bool(stat) and stat.get("targets") == "buildings"
+    for a in (state or {}).get("units") or []:
+        t = _tile(a)
+        if a.get("side") != "ally" or t is None or math.dist(tile, t) > reach + TROOP_EDGE_TILES:
+            continue
+        if not buildings_only or (has_stats(a.get("card")) and unit_stat(a)["speed_tiles_s"] == 0.0):
+            return True
+    return False
+
+
+def _unit_motion(unit: dict, state: dict | None = None) -> tuple[float, float, float] | None:
+    """(direction x, direction y, speed in tiles/s) of an enemy unit's walk, or None when it stands still (it reads
+    stationary, it has no velocity, or it is within its attack range of one of our units or towers). The direction is the
+    tracker's (the tile it will be in 2 s); the speed is the tracker's, and for a unit that heads to our side at least
+    CARD_SPEED_FRAC x its card's speed - units walk at their card's speed, the filter lags (MAC-AL T1)."""
+    tile = _tile(unit)
+    pred = unit.get("predicted_tile_2s")
+    if (tile is None or "stationary" in str(unit.get("heading") or "").lower() or not isinstance(pred, (list, tuple))
+            or len(pred) != 2 or not all(isinstance(v, (int, float)) and not isinstance(v, bool) for v in pred)):
+        return None
+    dx, dy = pred[0] - tile[0], pred[1] - tile[1]
+    n = math.hypot(dx, dy)
+    if n < 1e-6:
+        return None
+    speed = unit.get("speed_tiles_s")
+    speed = n / 2.0 if not isinstance(speed, (int, float)) or isinstance(speed, bool) else float(speed)
+    card = unit.get("card")
+    stat = unit_stat(unit) if has_stats(card) else None
+    if stat is not None and stat["speed_tiles_s"] > 0:
+        tower = min(OWN_TOWER_TILES.values(), key=lambda xy: math.dist(tile, xy))
+        gap = math.dist(tile, tower)
+        if gap > 0 and (dx * (tower[0] - tile[0]) + dy * (tower[1] - tile[1])) / (n * gap) >= TOWARD_COS:
+            speed = max(speed, CARD_SPEED_FRAC * stat["speed_tiles_s"])
+    if speed <= 0 or _engaged(unit, tile, stat, state):
+        return None
+    return dx / n, dy / n, speed
+
+
+def _moved(tile, motion, s: float) -> list[float]:
+    """`tile` moved `s` seconds along `motion` (None: not at all), clamped to the arena."""
+    if motion is None or s <= 0:
+        return [float(tile[0]), float(tile[1])]
+    ux, uy, speed = motion
+    return [min(max(tile[0] + ux * speed * s, 0.0), ARENA_COLS - 1.0), min(max(tile[1] + uy * speed * s, 0.0), ARENA_ROWS - 1.0)]
+
+
+def lead_tile_s(unit: dict, s: float, state: dict | None = None) -> list[float] | None:
+    """The unit's tile moved `s` seconds along its velocity direction at its real speed (`_unit_motion`), clamped to the
+    arena; its own tile when it stands still; None when it has no tile (MAC-AM M1.2)."""
+    tile = _tile(unit)
+    return None if tile is None else _moved(tile, _unit_motion(unit, state), s)
+
+
+@lru_cache(maxsize=1)
+def _card_costs() -> dict[str, dict]:
+    return load_cards()
+
+
+def spell_worth(card: str, value: float | None, kills: int | None = None, cost: float | None = None) -> bool:
+    """A damage spell is cast only for value (MAC-AM M2.1): a cheap one (cost <= 2, the zap) needs at least 2 kills and its
+    value 0.5 over its cost; any other needs a kill and 1.0 over its cost, or - killing nothing - 2.0 over. The tower bonus
+    counts in `value`. One bar for every mode (emergency and "nothing adequate" included). `kills` None (an engine without
+    the simulation, spells priced by elixir) keeps the old rule `value >= cost`. `cost`: the spell's elixir cost (default
+    the card index's)."""
+    if value is None:
+        return False
+    if cost is None:
+        cost = float((_card_costs().get(card) or {}).get("elixir_cost") or 0.0)
+    if kills is None:
+        return value >= cost
+    if cost <= SMALL_SPELL_COST:
+        return kills >= SMALL_SPELL_MIN_KILLS and value >= cost + SMALL_SPELL_MARGIN
+    return value >= cost + (SPELL_MARGIN if kills >= 1 else SPELL_NO_KILL_MARGIN)
+
+
+def in_center_box(tile) -> bool:
+    """`tile` is inside CENTER_BOX (borders included)."""
+    (x0, x1), (y0, y1) = CENTER_BOX
+    return tile is not None and x0 - 1e-9 <= tile[0] <= x1 + 1e-9 and y0 - 1e-9 <= tile[1] <= y1 + 1e-9
+
+
+def lane_anchor(tile, fallback: str | None = None) -> tuple[float, float]:
+    """The anchor of the lane `tile` stands in (left / middle / right by `lane_of`; `fallback`: that lane when no tile)."""
+    return LANE_ANCHOR[lane_of(tile) or fallback or "middle"]
 
 
 def _enemy_units(state: dict) -> list[dict]:
@@ -282,6 +472,7 @@ class ReactivePolicy:
         self._role_table: dict | None = None    # card_roles, when the engine has none of its own
         self._acted: dict[tuple, tuple[float, str]] = {}      # (push lane, lead card) -> (t, card) of our last answer
         self._commits: dict[tuple, list[tuple[float, str]]] = {}   # (push lane, lead card) -> every (t, card) we chose
+        self.last_report = None                 # the engine's report of the last `decide` (the live loop logs its pushes, MAC-AM M4)
 
     # -- decide --------------------------------------------------------------------------------------------------------
     def _ignored(self, unit: dict) -> bool:
@@ -396,7 +587,7 @@ class ReactivePolicy:
         if self._ctype(card) != "building" or not self._traits(push)[1]:
             return False
         unit = targeter_of(push.units, self._role_of)
-        tile = _lead_tile(unit, PULL_LEAD_S) if unit is not None else None
+        tile = lead_tile_s(unit, PULL_LEAD_S) if unit is not None else None
         return tile is not None and locked_on(tile, self._role_of(unit.get("card")))
 
     def _air_blocked(self, card: str, push) -> bool:
@@ -415,8 +606,9 @@ class ReactivePolicy:
 
     def _window_s(self, card: str, push, move=None) -> float:
         """Seconds of the push's ETA within which `card` may be deployed against it (inf = always, -inf = never): a
-        building vs a building targeter (giant, balloon, hog ...) from the moment the targeter has crossed the river
-        (row <= RIVER_CROSSED_ROW) until it locks on its tower (MAC-AG: pulling is geometric, not a clock); a ranged
+        building vs a building targeter (giant, balloon, hog ...) from the bridge approach (the targeter at row
+        <= PULL_OPEN_ROW heading to our side, MAC-AM M3.3) until it locks on its tower (MAC-AG: pulling is geometric, not
+        a clock); a ranged
         troop, a building vs another push and any card vs a flying push 6 s - a ranged troop that hits air vs a big
         flying push AIR_WINDOW_S (it must stand behind the tower when the balloon arrives, MAC-AL); a melee / mini tank
         / tank killer card 4.5 s; a kamikaze card 2.5 s; a damage spell is in window whenever its target exists when the
@@ -430,13 +622,13 @@ class ReactivePolicy:
             if not targeter:
                 return RANGED_WINDOW_S
             unit = targeter_of(push.units, self._role_of) or (push.units[0] if push.units else None)
-            tile = _lead_tile(unit, PULL_LEAD_S) if unit is not None else None
+            tile = lead_tile_s(unit, PULL_LEAD_S) if unit is not None else None
             if tile is None:
                 return math.inf
-            return math.inf if tile[1] <= RIVER_CROSSED_ROW and not self._pull_lost(card, push) else -math.inf
+            return (math.inf if tile[1] <= PULL_OPEN_ROW and heads_toward_us(unit, tile)
+                    and not self._pull_lost(card, push) else -math.inf)
         if ctype == "spell" and card not in NON_DAMAGE_SPELLS and self.price_spells:
-            value = getattr(move, "value", None)           # (valued by what it kills; the elixir-sum rule does not open it)
-            if value is not None and value >= self._cost(card):
+            if move is not None and self._spell_ok(move):  # (valued by what it kills; the elixir-sum rule does not open it)
                 return math.inf
         if air:
             if (role.get("range") in ("short", "long") and ctype != "spell" and hits_air(role)
@@ -456,8 +648,8 @@ class ReactivePolicy:
         cannot hit the flyer leading the push does not (MAC-AG), and a building does not once the building targeter
         has locked on its tower. MAC-AH: when the engine simulated the move (`adequate` is not None) its verdict stands -
         the tower damage left is small, or nothing reaches the tower - and the role rule above is only the fallback."""
-        if self._air_blocked(move.card, push) or self._pull_lost(move.card, push):
-            return False
+        if self._air_blocked(move.card, push) or self._pull_lost(move.card, push) or not self._spell_allowed(move):
+            return False                                         # (a spell that is not worth casting is no answer, MAC-AM M2.1)
         verdict = getattr(move, "adequate", None)
         if verdict is not None:
             return bool(verdict)
@@ -466,7 +658,7 @@ class ReactivePolicy:
         if move.stop == "low":
             return False
         if move.stop == "spell":
-            return move.value is not None and move.value >= self._cost(move.card)
+            return move.value is not None and self._spell_allowed(move)
         return True
 
     @staticmethod
@@ -575,13 +767,30 @@ class ReactivePolicy:
         """Units a spell move hits (its members, else the kills the engine counted)."""
         return len(getattr(move, "members", None) or ()) or int(getattr(move, "kills", 0) or 0)
 
+    def _spell_ok(self, move) -> bool:
+        """The damage-spell move is worth casting by `spell_worth` (MAC-AM M2): what it kills against its cost. A move
+        without members (a stand-in engine, the elixir-sum role model) carries no kill count: the old `value >= cost`.
+        The group zap (rule b) is the engine's own verdict (`move.group`) and has its own check."""
+        value = getattr(move, "value", None)
+        kills = int(getattr(move, "kills", 0) or 0) if getattr(move, "members", None) else None
+        return spell_worth(move.card, value, kills, self._cost(move.card))
+
+    def _spell_allowed(self, move) -> bool:
+        """Any move that is not a priced damage spell, else the spell is worth it (rule a) or the engine's group zap (rule b).
+        A move that carries no value (a stand-in engine) is judged by the roles alone."""
+        if self._ctype(move.card) != "spell" or move.card in NON_DAMAGE_SPELLS or not self.price_spells:
+            return True
+        if getattr(move, "value", None) is None or getattr(move, "group", False):
+            return True
+        return self._spell_ok(move)
+
     def _is_great_spell(self, move) -> bool:
-        """A damage spell move worth at least GREAT_SPELL_RATIO x its cost, valued by what it kills (with the old
-        elixir-sum rule, `price_spells` off, no spell is "great")."""
+        """A damage spell move worth at least GREAT_SPELL_RATIO x its cost, valued by what it kills, and worth casting at
+        all (`spell_worth`); with the old elixir-sum rule (`price_spells` off) no spell is "great"."""
         value = getattr(move, "value", None)
         card = move.card
         return (self.price_spells and value is not None and self._ctype(card) == "spell" and card not in NON_DAMAGE_SPELLS
-                and self._cost(card) > 0 and value >= GREAT_SPELL_RATIO * self._cost(card))
+                and self._cost(card) > 0 and value >= GREAT_SPELL_RATIO * self._cost(card) and self._spell_ok(move))
 
     def _judge(self, state: dict, push, now: list, full: list) -> tuple[ActDecision, str | None]:
         """(decision, committed card) for one push that is not answered. First that applies: an open damage spell worth
@@ -640,11 +849,14 @@ class ReactivePolicy:
         urgent = push.eta_s <= self.emergency_eta_s
         if cards_now and (urgent or (not adequate_full and push.eta_s <= NO_ADEQUATE_ETA_S)):
             misses = {m.card: self._misses_air_targeter(m.card, push) for m in cards_now}
-            usable = [m for m in cards_now if not self._air_blocked(m.card, push) and not misses[m.card][0]]
+            usable = [m for m in cards_now if not self._air_blocked(m.card, push) and not misses[m.card][0]
+                      and self._spell_allowed(m)]       # the same spell bar as everywhere (MAC-AM M2.1)
             if not usable:                                   # a ground card against a balloon is no answer (MAC-AL P2)
                 flyer = next((name for miss, name in misses.values() if miss), None)
-                air_what = f"{flyer} {lane}" if flyer else what
-                return ActDecision(False, "save", None, f"no air answer at hand vs {air_what}", threat=unit), None
+                if flyer or any(self._air_blocked(m.card, push) for m in cards_now):
+                    air_what = f"{flyer} {lane}" if flyer else what
+                    return ActDecision(False, "save", None, f"no air answer at hand vs {air_what}", threat=unit), None
+                return ActDecision(False, "save", None, f"no worthwhile card at hand vs {what}", threat=unit), None
             best_now = max(usable, key=lambda m: m.score)
             if urgent:
                 return ActDecision(True, "defend", lane, f"defend {what}: {best_now.card} (emergency)", threat=unit,
@@ -692,11 +904,11 @@ class ReactivePolicy:
             return 0.0
         if w == -math.inf:
             unit = targeter_of(big.units, self._role_of)
-            tile = _lead_tile(unit, PULL_LEAD_S) if unit is not None else None
+            tile = lead_tile_s(unit, PULL_LEAD_S) if unit is not None else None
             speed = unit_stat(unit)["speed_tiles_s"] if unit is not None else 0.0
-            if tile is None or speed <= 0 or tile[1] <= RIVER_CROSSED_ROW or self._pull_lost(card, big):
+            if tile is None or speed <= 0 or tile[1] <= PULL_OPEN_ROW or self._pull_lost(card, big):
                 return 0.0
-            return max(0.0, (tile[1] - RIVER_CROSSED_ROW) / speed - DECISION_LATENCY_S)
+            return max(0.0, (tile[1] - PULL_OPEN_ROW) / speed - DECISION_LATENCY_S)
         return max(0.0, big.eta_s - DECISION_LATENCY_S - w)
 
     def _keep_now(self, plan: _Plan, state: dict) -> float:
@@ -953,11 +1165,12 @@ class ReactivePolicy:
         of the engine (act when one must be answered now), a great spell with nothing to answer (`spell`), the counter
         (an offence window while the pushes are answered or far), at a full bar the pre-placed answer to a push (else the
         leak), the punish; else the first push's hold."""
+        self.last_report = None
         if not legal_cards(state, self.cards):
             return ActDecision(False, "none", None, "no affordable card")
 
         threats, watch = self._classify(state)
-        report = self._analyse(state, t)
+        report = self.last_report = self._analyse(state, t)
         early = report is not None and any(getattr(p, "early", False) for p in report.pushes)
         plan = self._plan(state, t, report, threats, watch) if (threats or watch or early) else None
         if plan is not None and plan.act is not None:
@@ -1049,25 +1262,33 @@ class ReactivePolicy:
 
     def _spell_pick(self, card: str, state: dict, cell: tuple | None = None, anywhere: bool = False):
         """The best centre for the damage spell `card` as (aim tile, value, members, kills, counted members), or None
-        when no counted enemy unit is a centre or the best cluster is not worth the spell (value below its cost and
-        fewer than SWARM_MIN_UNITS units). Centres are the lead tiles (`SPELL_LEAD_S` ahead) of the counted units - in
-        `cell` (lane, zone) only, unless `anywhere`; the members of a centre are the units within the spell radius at
-        their lead tiles: the counted ones, and with `anywhere` (and spells priced by what they kill) the tanks too, which
-        survive and only lose a little. The value is `unit_stats.spell_value` of the members (priced), plus
+        when no counted enemy unit is a centre or no cluster is worth the spell (`spell_worth` on what it kills; the old
+        rule - value below its cost and fewer than SWARM_MIN_UNITS units - when spells are not priced). Centres are the
+        lead tiles of the counted units - in `cell` (lane, zone) only, unless `anywhere`. The lead is the real delay
+        (MAC-AM M1): the spell lands `spell_delay_s` after the decision (the tap latency plus the flight from our king
+        tower, which depends on where it lands: two rounds settle it) and every unit is moved that long along its
+        velocity at its real speed (`lead_tile_s`). The members of a centre are the units within the spell radius at
+        their lead tiles: the counted ones, and with `anywhere` (and spells priced by what they kill) the tanks too,
+        which survive and only lose a little. The value is `unit_stats.spell_value` of the members (priced), plus
         TOWER_SPELL_BONUS with `anywhere` when the circle hits an enemy princess tower; the old elixir-sum rule when
         `price_spells` is off. The aim is the mean of the counted members' lead tiles."""
         r = SPELL_RADIUS.get(card, DEFAULT_SPELL_RADIUS)
-        lead = SPELL_LEAD_S.get(card, DEFAULT_SPELL_LEAD_S)
         priced = self.price_spells and spell_stat(card) is not None   # MAC-AH: valued by what it kills, if it has numbers
-        counted = [(u, _lead_tile(u, lead)) for u in _enemy_units(state) if self._counted(u)]
+        cost = (self.cards.get(card) or {}).get("elixir_cost")
+        counted = [u for u in _enemy_units(state) if self._counted(u)]
         field_units = counted
         if anywhere and priced:
-            field_units = [(u, _lead_tile(u, lead)) for u in _enemy_units(state)
-                           if _tile(u) is not None and not self._is_spell(u.get("card"))]
-        centres = [lt for u, lt in counted if cell is None or (lane_of(_tile(u)), zone_of(_tile(u))) == cell]
+            field_units = [u for u in _enemy_units(state) if _tile(u) is not None and not self._is_spell(u.get("card"))]
+        motion = {id(u): _unit_motion(u, state) for u in field_units}
+        centres = [u for u in counted if cell is None or (lane_of(_tile(u)), zone_of(_tile(u))) == cell]
         best = None
-        for c in centres:
-            members = [(u, lt) for u, lt in field_units if math.dist(c, lt) <= r]
+        for cu in centres:
+            c, delay = _tile(cu), 0.0
+            for _ in range(2):                           # flight depends on the target, the target on the flight
+                delay = spell_delay_s(card, c)
+                c = _moved(_tile(cu), motion[id(cu)], delay)
+            members = [(u, lt) for u in field_units for lt in (_moved(_tile(u), motion[id(u)], delay),)
+                       if math.dist(c, lt) <= r]
             hit = [(u, lt) for u, lt in members if self._counted(u)]
             kills = 0
             if priced:
@@ -1082,17 +1303,15 @@ class ReactivePolicy:
             aim = [round(x, 1), round(y, 1)]
             if anywhere and priced and self._hits_tower(card, aim):
                 value += TOWER_SPELL_BONUS
+            if priced and cost is not None and not spell_worth(card, value, kills, float(cost)):
+                continue                                 # kills and damage must pay for the spell (MAC-AM M2.1)
             rank = (value, kills if anywhere else len(members), -c[1])     # ties: more kills / units, then our side
             if best is None or rank > best[0]:
                 best = (rank, aim, value, [u for u, _ in members], kills, n)
         if best is None:
             return None
         _, aim, value, members, kills, n = best
-        cost = (self.cards.get(card) or {}).get("elixir_cost")
-        if priced:
-            if cost is not None and value < float(cost):    # kills and damage must pay for the spell (no swarm escape)
-                return None
-        elif not (cost is not None and value >= float(cost)) and n < SWARM_MIN_UNITS:
+        if not priced and not (cost is not None and value >= float(cost)) and n < SWARM_MIN_UNITS:
             return None
         return aim, value, members, kills, n
 
@@ -1137,19 +1356,27 @@ class ReactivePolicy:
                 return best[0]
         return target[0] if target else None
 
-    def _aims_at_threat(self, card: str, target: list[float], threat: dict | None, push_units: tuple = ()) -> bool:
+    def _aims_at_threat(self, card: str, target: list[float], threat: dict | None, push_units: tuple = (),
+                        state: dict | None = None) -> bool:
         """defend: where the spell lands, within the spell radius of the aim, is a unit of the push (`push_units`, MAC-AL:
         a giant-led push can be fireballed on its support troops); with no push units the threat itself, which must be
-        a counted unit."""
+        a counted unit. The units are where they will be when the spell lands (`spell_delay_s` at the aim)."""
         r = SPELL_RADIUS.get(card, DEFAULT_SPELL_RADIUS)
-        lead = SPELL_LEAD_S.get(card, DEFAULT_SPELL_LEAD_S)
+        delay = spell_delay_s(card, target)
         if push_units:
             return any(hit is not None and not self._is_spell(u.get("card")) and math.dist(hit, target) <= r
-                       for u in push_units for hit in (_lead_tile(u, lead),))
+                       for u in push_units for hit in (lead_tile_s(u, delay, state),))
         if threat is None or not self._counted(threat):
             return False
-        hit = _lead_tile(threat, lead)
+        hit = lead_tile_s(threat, delay, state)
         return hit is not None and math.dist(hit, target) <= r
+
+    @staticmethod
+    def _group_zap(card: str, decision: ActDecision) -> bool:
+        """The decision allows `card` as the engine's group zap (rule b: the engine simulated the tower finishing a group
+        of units of the push; its tile is `engine_tiles[card]`)."""
+        return (decision.tile_sources.get(card) == GROUP_TILE_SOURCE and card in decision.engine_tiles
+                and (decision.allowed_cards is None or card in decision.allowed_cards))
 
     def _unblind(self, parsed: list[_Cand], state: dict, decision: ActDecision | None = None) -> list[_Cand]:
         """No blind or wasted spells. A damage spell needs a worthwhile target (`spell_target`), and in defend mode that
@@ -1166,10 +1393,12 @@ class ReactivePolicy:
                     out.append(p)
             else:
                 target = self._spell_for(p, state)
+                if target is None and decision is not None and self._group_zap(p.card, decision):
+                    target = (decision.engine_tiles[p.card], 0.0, 0)     # the engine's group zap (MAC-AM M2.1b)
                 if target is None:
                     continue
                 if (decision is not None and decision.mode == "defend"
-                        and not self._aims_at_threat(p.card, target[0], decision.threat, decision.push_units)):
+                        and not self._aims_at_threat(p.card, target[0], decision.threat, decision.push_units, state)):
                     continue
                 out.append(p)
         return out
@@ -1201,12 +1430,34 @@ class ReactivePolicy:
             return parsed
         return [p for p in parsed if not self._is_blind_building(p.card)]
 
+    @staticmethod
+    def _cand_tile(obj) -> list | None:
+        tile = obj.get("tile") if isinstance(obj, dict) else getattr(obj, "tile", None)
+        return list(tile) if isinstance(tile, (list, tuple)) and len(tile) >= 2 else None
+
+    def _without_off_centre_buildings(self, parsed: list[_Cand], decision: ActDecision | None = None) -> list[_Cand]:
+        """`parsed` without the defensive buildings (a tesla ...) that would be placed outside CENTER_BOX (MAC-AM M3.5): a
+        candidate whose own tile is outside the box (a lookup / prior / leak / learned candidate near a tower), or that has
+        no tile and so would get the pro-median one. Kept: a tile inside the box, and any card the decision places at the
+        engine's tile (`engine_tiles`: the engine's building tiles follow M3.2-M3.4, the air exception included)."""
+        out = []
+        for p in parsed:
+            if p.card != ABILITY_KEY and self._is_blind_building(p.card):
+                if decision is not None and p.card in decision.engine_tiles:
+                    out.append(p)
+                    continue
+                if not in_center_box(self._cand_tile(p.obj)):
+                    continue
+            out.append(p)
+        return out
+
     def no_blind_spells(self, candidates: list, state: dict) -> list:
         """`candidates` without the spells that have nothing worth hitting in their lane and zone and without the
         defensive buildings placed with no push on the field, order kept - and, with a knowledge graph attached, without
         the plays that would spend the elixir of an air answer the opponent is likely to need (`air_reserve`; this is the
         filter of a `learned` play, which is never urgent)."""
-        kept = self._without_blind_buildings(self._unblind([_parse(c) for c in candidates], state), state)
+        kept = self._without_blind_buildings(
+            self._without_off_centre_buildings(self._unblind([_parse(c) for c in candidates], state)), state)
         air = self.air_reserve(state)
         return [p.obj for p in kept if self._keeps_air_reserve(p.card, state, air)]
 
@@ -1230,7 +1481,7 @@ class ReactivePolicy:
         or every candidate was a blind spell). A counter / spell keeps the candidates of its card, a leak that plays a
         win condition likewise; every allowed card of a defend / counter / leak / spell that no candidate plays is added
         as the engine's own candidate (it has the engine's tile), so the LLM always sees the cards the policy allowed."""
-        kept = self._unblind([_parse(c) for c in candidates], state, decision)
+        kept = self._without_off_centre_buildings(self._unblind([_parse(c) for c in candidates], state, decision), decision)
         if decision.mode in ("leak", "punish"):
             kept = self._without_blind_buildings(kept, state)
         spell_filtered = [p.obj for p in kept]

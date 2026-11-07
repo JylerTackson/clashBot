@@ -118,7 +118,9 @@ def _value(spell, *cards):
 
 
 def test_spell_values_by_kills_and_damage():
-    assert _value("zap", "bats", "bats") == (2.0, 2)                      # kills both: bats' full 2 elixir
+    # (MAC-AM M2.3: a swarm card is paid for by all its units - bats 5, skeletons 3, minions 3 - not by the ones seen: two
+    # bats are 2/5 of the bats' 2 elixir; before, the units seen stood for the card and two bats were priced as five)
+    assert _value("zap", "bats", "bats") == (0.8, 2)
     assert _value("zap", "bats", "bats", "bats", "bats", "bats") == (2.0, 5)
     value, killed = _value("zap", "balloon")                              # a lone balloon: damaged, not killed
     assert killed == 0 and value == pytest.approx(0.5 * 5 * 281 / 2458, abs=0.001) and value < 2.0
@@ -126,13 +128,31 @@ def test_spell_values_by_kills_and_damage():
     value, killed = _value("fireball", "musketeer")
     assert killed == 0 and value == pytest.approx(0.5 * 4 * 1007 / 1056, abs=0.001)
     value, killed = _value("fireball", "bats", "bats", "archers", "archers")
-    assert killed == 4 and value == 5.0                                   # 2 + 3 elixir
+    assert killed == 4 and value == 3.8                                   # 0.8 (2 of 5 bats) + 3 elixir (the archers' pair)
     value, killed = _value("zap", "bats", "bats", "night-witch", "electro-wizard")
-    assert killed == 2 and 2.9 < value < 3.0                              # bats dead (2) + a bit of witch and e-wizard
+    assert killed == 2 and 1.7 < value < 1.8                              # 2 of 5 bats dead (0.8) + a bit of witch and e-wizard
     value, _ = _value("fireball", "giant")
     assert value == pytest.approx(0.5 * 5 * 1007 / 5810, abs=0.001)       # nowhere near the spell's cost
     assert us.spell_value("clone", [_enemy("bats", (5, 9))], CARDS) is None
     assert _value("zap") == (0.0, 0)
+
+
+def test_killing_every_unit_of_a_swarm_play_never_beats_its_elixir_and_one_bat_of_five_is_two_fifths():
+    """MAC-AM M2.3: the units one play of a card puts on the field are what pays for its elixir."""
+    assert [us.card_unit_count(c) for c in ("bats", "skeletons", "minions", "minion-horde", "knight", "night-witch")] == [
+        5, 3, 3, 6, 1, 1]
+    for card, n in (("bats", 5), ("skeletons", 3), ("minions", 3), ("spear-goblins", 3), ("skeleton-army", 15)):
+        value, killed = _value("fireball", *[card] * n)                       # a fireball kills every unit of them
+        assert killed == n and value == pytest.approx(CARDS[card]["elixir_cost"])
+        assert _value("zap", *[card] * n)[0] <= CARDS[card]["elixir_cost"] + 1e-9
+    assert _value("zap", "bats") == (0.4, 1)                                  # one bat of five: not the whole card (was 2.0)
+    assert _value("fireball", "skeletons") == (pytest.approx(1 / 3, abs=0.001), 1)
+    # more units seen than one play brings (two plays, or a night witch's bats) are shared out, never above the card
+    value, killed = _value("zap", *["bats"] * 8)
+    assert killed == 8 and value == pytest.approx(2.0)
+    # a lone survivor of a swarm card is worth its share, too (a zap does not kill minions: 370 hp)
+    value, killed = _value("zap", "minions")
+    assert killed == 0 and value < 0.5 * CARDS["minions"]["elixir_cost"] / 3
 
 
 def test_the_spell_value_table_for_the_report():

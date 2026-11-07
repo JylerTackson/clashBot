@@ -1322,8 +1322,9 @@ def test_ag_end_to_end_the_tesla_goes_to_the_pull_tile_and_knight_waits_for_a_fl
     d = lp.step("f", 1.0, 0, 2.0)
     assert d.mode == "defend" and d.reason == "defend giant right: tesla (high)" and d.key == "tesla|middle|bridge"
     pull = engine.analyse(s1, 1.0).defence[0]
-    assert pull.card == "tesla" and d.tile == pull.tile == [11.0, 6.5] and d.tile_source == "engine"
-    assert ex.calls[0][:2] == ("tesla|middle|bridge", [11.0, 6.5])             # not the pro median [9, 13]
+    # (MAC-AM M3: the pull tile is the right lane's anchor in the centre box)
+    assert pull.card == "tesla" and d.tile == pull.tile == [10.0, 10.0] and d.tile_source == "engine"
+    assert ex.calls[0][:2] == ("tesla|middle|bridge", [10.0, 10.0])            # not the pro median [9, 13]
     # bats on the left with one elixir: nothing is affordable, so the bot holds (no knight)
     assert lp.step("f", 2.0, 1, 2.0) is None and len(ex.calls) == 1
     # and with the elixir for it, the knight is not offered against the bats either
@@ -1482,3 +1483,165 @@ def test_k4b_ability_cooling_marks_the_button_unaffordable_without_touching_the_
     assert cool["units"] is st["units"] and cool["own"]["hand"] is st["own"]["hand"]
     grey = {**st, "own": {**st["own"], "hero_ability": {"visible": True, "affordable": False}}}
     assert ability_cooling(grey) is grey
+
+
+# =================================================================================================================
+# MAC-AM M4 / M5: holds.jsonl (why the bot waits) and a frame source that fails ends the run cleanly
+# =================================================================================================================
+class QuarterSource(FakeSource):
+    """Frames every 0.25 s (exact in binary, so the 1 s rate limit of the hold log is exact too)."""
+
+    def frames(self):
+        for i in range(self.n):
+            yield f"frame{i}", i * 0.25, i
+
+
+class ScriptedPolicy:
+    """decide() hands out the scripted verdicts in turn (the last one for good); candidates pass the filter unchanged."""
+
+    def __init__(self, script):
+        self.script, self.calls = list(script), 0
+
+    def decide(self, state, t, context_text=None):
+        verdict = self.script[min(self.calls, len(self.script) - 1)]
+        self.calls += 1
+        return verdict
+
+    def filter_candidates(self, candidates, decision, state):
+        return candidates
+
+    def target_tile(self, key, state):
+        return None
+
+
+def _hold_lines(path):
+    return [json.loads(x) for x in (path / "holds.jsonl").read_text().splitlines() if x.strip()]
+
+
+def test_am_the_hold_log_has_a_line_per_change_and_one_a_second_while_the_verdict_stays(tmp_path):
+    wait = ActDecision(False, "save", None, "waiting for the knight window vs giant left: eta 5.0s")
+    act = ActDecision(True, "defend", "left", "defend giant left: knight (medium)")
+    idle = ActDecision(False, "hold", None, "save elixir: no threat, not full, opponent not overspent")
+    lp = _loop(tmp_path, source=QuarterSource(20), builder=FakeBuilder(_state(elixir=7.0), warmup=0),
+               policy=ScriptedPolicy([wait] * 9 + [act] + [idle] * 10))
+    summary = lp.run()
+    lines = _hold_lines(tmp_path)
+    # hold (t 0 .. 2.0: a line at 0, 1, 2) -> act (2.25) -> hold (2.5 .. 4.75: a line at 2.5, 3.5, 4.5)
+    assert [(x["t"], x["mode"], x["act"]) for x in lines] == [
+        (0.0, "save", False), (1.0, "save", False), (2.0, "save", False), (2.25, "defend", True),
+        (2.5, "hold", False), (3.5, "hold", False), (4.5, "hold", False)]
+    assert set(lines[0]) == {"t", "mode", "act", "reason", "elixir", "hand", "pushes"}
+    assert lines[0]["reason"] == wait.reason and lines[0]["elixir"] == 7.0
+    assert lines[0]["hand"] == ["zap", "archers", "knight", "giant"]
+    assert all(x["pushes"] == [] for x in lines)                 # (a policy with no engine report)
+    assert lines[3]["reason"] == act.reason and lines[4]["reason"] == idle.reason
+    # the summary counts the hold verdicts (not the act) by the first three words of their reason
+    assert summary["holds_by_reason"] == {"waiting for the": 9, "save elixir: no": 10}
+    assert summary["holds_log"]["lines"] == 7 and len(lines) == 7
+    assert summary["holds_log"]["ms"]["p95"] < 1.0               # the log costs well under 1 ms per frame
+    assert summary == json.loads((tmp_path / "summary.json").read_text())
+    assert (tmp_path / "decisions.jsonl").read_text().count("\n") == 1          # the one act
+
+
+def test_am_a_reason_that_changes_every_frame_is_logged_every_frame(tmp_path):
+    ticking = [ActDecision(False, "save", None, f"waiting for the knight window: eta {5.0 - 0.25 * i:.2f}s") for i in range(8)]
+    lp = _loop(tmp_path, source=QuarterSource(8), builder=FakeBuilder(_state(elixir=7.0), warmup=0),
+               policy=ScriptedPolicy(ticking))
+    lp.run()
+    assert len(_hold_lines(tmp_path)) == 8
+
+
+def test_am_the_hold_log_carries_the_engines_pushes(tmp_path):
+    from clashbot.policy import ReactivePolicy
+    from clashbot.tactics import DEFAULT_WEIGHTS, TacticalEngine
+
+    cards = load_cards()
+    policy = ReactivePolicy(cards, engine=TacticalEngine(cards, weights=DEFAULT_WEIGHTS))
+    giant = {"unit_class": "giant", "card": "giant", "side": "enemy", "tile": [14, 15], "predicted_tile_2s": [14, 13.5],
+             "heading": "advancing right lane", "eta_tower": {"tower": "own_right", "s": 9.0}}
+    state = {**_state(elixir=2.5), "units": [giant]}                # only the zap is affordable: nothing answers a giant
+    lp = _loop(tmp_path, source=QuarterSource(5), builder=FakeBuilder(state, warmup=0), policy=policy)
+    lp.run()
+    first = _hold_lines(tmp_path)[0]
+    assert first["act"] is False and first["mode"] == "save" and first["elixir"] == 2.5
+    push = first["pushes"][0]
+    assert set(push) == {"lane", "lead", "eta_s", "eta_source", "damage", "answered"}
+    assert push["lane"] == "right" and push["lead"] == "giant" and push["eta_source"] in ("sim", "tracker")
+    assert isinstance(push["eta_s"], float) and isinstance(push["damage"], int) and push["damage"] > 1000
+    assert push["answered"] is False and len(first["pushes"]) <= 3
+
+
+class RaisingSource(FakeSource):
+    """The mirrored window closes: the capture raises after `n` frames."""
+
+    def frames(self):
+        yield from super().frames()
+        raise RuntimeError("window capture failed")
+
+
+class ClosingShots:
+    """A shot recorder stub: only the hooks the loop calls."""
+
+    def __init__(self):
+        self.closed = 0
+
+    def on_frame(self, *a):
+        pass
+
+    def on_decision(self, *a):
+        pass
+
+    def close(self):
+        self.closed += 1
+
+    def summary(self):
+        return {"decisions": 0}
+
+
+def test_am_a_source_that_raises_ends_the_run_like_the_time_limit(tmp_path, capsys):
+    src, shots = RaisingSource(6), ClosingShots()
+    lp = _loop(tmp_path, source=src, builder=FakeBuilder(_state(elixir=9.5), warmup=0), shots=shots)
+    summary = lp.run()                                           # does not raise
+    assert summary["frames"] == 6 and summary["source_ended"] == "RuntimeError: window capture failed"
+    assert src.closed == 1 and shots.closed == 1                 # the source closed, the shots index flushed
+    assert summary == json.loads((tmp_path / "summary.json").read_text())
+    assert (tmp_path / "holds.jsonl").exists() and all(fh.closed for fh in lp._fh.values())
+    assert "source ended: RuntimeError: window capture failed" in capsys.readouterr().out
+    # a clean end has no such key
+    assert "source_ended" not in _loop(tmp_path / "clean", source=FakeSource(3), builder=FakeBuilder(warmup=0)).run()
+
+
+def test_am_a_source_that_cannot_even_close_after_failing_still_finalises(tmp_path, capsys):
+    class Broken(RaisingSource):
+        def close(self):
+            raise OSError("window gone")
+
+    lp = _loop(tmp_path, source=Broken(2), builder=FakeBuilder(warmup=0))
+    summary = lp.run()
+    assert summary["frames"] == 2 and summary["source_ended"].startswith("RuntimeError")
+    assert (tmp_path / "summary.json").exists() and "source close failed" in capsys.readouterr().out
+
+
+def test_am_main_exits_0_when_the_window_closes(monkeypatch, tmp_path, capsys):
+    import clashbot.live as live_mod
+
+    real_loop = live_mod.LiveLoop
+
+    def loop(source, perception, builder, generator, ranker, executor, cards, prior, **kw):
+        return real_loop(source, perception, FakeBuilder(_state(elixir=9.5), warmup=0), generator, ranker, executor,
+                         load_cards(), prior, **{**kw, "clock": FakeClock(), "policy": "trigger"})
+
+    monkeypatch.setattr(live_mod, "_build_source", lambda args: RaisingSource(4))
+    monkeypatch.setattr(live_mod, "_build_perception", lambda args, source: FakePerception())
+    monkeypatch.setattr(live_mod, "_build_ranker", lambda args: FakeKeyRanker())
+    monkeypatch.setattr(live_mod, "_build_plan_text", lambda args, deck: None)
+    monkeypatch.setattr(live_mod, "load_cards", lambda: {})
+    monkeypatch.setattr(live_mod, "load_placement_prior", lambda: PRIOR)
+    monkeypatch.setattr(live_mod, "StateIndex", lambda: None)
+    monkeypatch.setattr(live_mod, "KnowledgeGraph", lambda: None)
+    monkeypatch.setattr(live_mod, "CandidateGenerator", lambda *a: FakeGenerator())
+    monkeypatch.setattr(live_mod, "LiveLoop", loop)
+    out = tmp_path / "run"
+    assert main(_argv("--source", "video", "--video", "x.mp4", "--device", "cpu", "--out", str(out))) == 0
+    assert "source ended: RuntimeError: window capture failed" in capsys.readouterr().out
+    assert json.loads((out / "summary.json").read_text())["frames"] == 4 and (out / "holds.jsonl").exists()

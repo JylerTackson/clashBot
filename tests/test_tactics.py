@@ -128,7 +128,7 @@ def test_giant_right_lane_tesla_pulls_it_to_the_centre():
     assert isinstance(rep, TacticalReport) and isinstance(rep.best, TacticalMove)
     best = rep.best
     assert best.card == "tesla" and best.intent == "defend" and best.trade == 1.0
-    assert best.tile == [11.0, 7.0] and best.key == "tesla|middle|mid"           # MAC-AG: the geometric pull tile
+    assert best.tile == [10.0, 10.0] and best.key == "tesla|middle|mid"          # MAC-AM: the right lane's anchor in the centre box
     assert best.reason == "pulls giant to the centre, trade +1"
     assert rep.hold_reason is None
     push = rep.pushes[0]
@@ -395,12 +395,13 @@ def test_two_pushes_two_lanes_and_at_most_four_lines():
 
 # defence rules -----------------------------------------------------------------------------------------------------
 def test_placement_rules():
-    # building vs a non-targeter goes beside the tower; vs a building-targeter it pulls to the centre
+    # MAC-AM M3: a building vs a non-targeter kites it to the lane's anchor in the centre box (no more tile next to the
+    # tower); vs a building-targeter it pulls to the box tile nearest to the anchor
     knight_left = _state(units=[_enemy((3, 12), "knight", eta=4.0)], hand=["cannon", "tesla"])
     by_card = {m.card: m for m in ENGINE.analyse(knight_left).moves}
-    assert by_card["cannon"].tile == [5.5, 6.5]
+    assert by_card["cannon"].tile == [8.0, 10.0] and by_card["cannon"].reason.startswith("kites knight to the centre")
     giant_left = _state(units=[_enemy((3, 12), "giant", eta=4.0)], hand=["cannon"])
-    assert ENGINE.analyse(giant_left).best.tile == [7.0, 11.0]
+    assert ENGINE.analyse(giant_left).best.tile == [8.0, 10.0]
     # melee on our side in front; deep in our half just in front of the unit
     deep = _state(units=[_enemy((3, 7), "giant", eta=2.0)], hand=["mini-p-e-k-k-a"])
     assert ENGINE.analyse(deep).best.tile == [3.0, 6.0]
@@ -549,7 +550,8 @@ def test_spell_aim_uses_the_current_cell_of_the_threat():
     rep = ENGINE.analyse(state)
     assert rep.pushes[0].needs == ["building_targeter"]
     assert rep.best is not None and rep.best.card == "royal-delivery", rep.lines          # value 4 >= cost 3
-    assert rep.best.key == "royal-delivery|left|bridge" and rep.best.tile == [5.0, 13.0]
+    # (MAC-AM M1: the aim is led by the real delay, 0.5 s for a spell with no projectile: 14 - 3 tiles/s x 0.5 s)
+    assert rep.best.key == "royal-delivery|left|bridge" and rep.best.tile == [5.0, 12.5]
     assert "tornado" not in [m.card for m in rep.moves]                         # utility spell
     assert ENGINE.score_key("royal-delivery|left|bridge", state, rep) == rep.best.score
 
@@ -735,7 +737,7 @@ def test_a_balloon_is_not_answered_by_an_ice_spirit():
         assert spirit.reason == "slows balloon" and spirit.trade == 4.0           # no trade claimed for a low-stopping card
         assert "ice-spirit" not in rep.lines[1]                                   # the best line names the real answer
     # the stopping terms: building / tank_killer high, medium dps, kamikaze low (vs a push with a medium unit)
-    knight_push = _state(units=[_enemy((3, 10), "knight", eta=4.0)], elixir=9.0,
+    knight_push = _state(units=[_enemy((3, 12), "knight", eta=4.0)], elixir=9.0,       # (row 12: above the tesla's anchor, MAC-AM M3)
                          hand=["tesla", "mini-p-e-k-k-a", "musketeer", "ice-spirit"])
     scores = {m.card: m.score for m in ENGINE.analyse(knight_push).moves}
     assert scores["tesla"] == pytest.approx(0.5 + 0.3) and scores["mini-p-e-k-k-a"] == pytest.approx(0.5 + 0.3)
@@ -873,7 +875,7 @@ def _tuning_fixtures():
     engine = TacticalEngine(CARDS, ROLES, kg=kg, weights=DEFAULT_WEIGHTS)
 
     def state():
-        return _state(units=[_enemy((3, 10), "knight", eta=4.0)], hand=["knight", "zap", "musketeer", "tesla"])
+        return _state(units=[_enemy((3, 12), "knight", eta=4.0)], hand=["knight", "zap", "musketeer", "tesla"])
 
     moves = {m.card: m for m in engine.analyse(state()).moves}
     assert engine.analyse(state()).best.card == "knight" and "tesla" in moves
@@ -991,7 +993,7 @@ def test_the_tuner_main_writes_the_weights_and_the_report(tmp_path, monkeypatch)
 def test_defend_moves_carry_their_stopping_class_and_offence_moves_do_not():
     stops = {m.card: m.stop for m in ENGINE.analyse(_giant_right(elixir=9.0)).defence}
     assert stops == {"tesla": "high", "knight": "medium", "musketeer": "medium"}
-    knight_push = _state(units=[_enemy((3, 10), "knight", eta=4.0)], elixir=9.0,
+    knight_push = _state(units=[_enemy((3, 12), "knight", eta=4.0)], elixir=9.0,
                          hand=["tesla", "mini-p-e-k-k-a", "musketeer", "ice-spirit"])
     stops = {m.card: m.stop for m in ENGINE.analyse(knight_push).defence}
     assert stops == {"tesla": "high", "mini-p-e-k-k-a": "high", "musketeer": "medium", "ice-spirit": "low"}
@@ -1010,8 +1012,9 @@ def test_defend_moves_carry_their_stopping_class_and_offence_moves_do_not():
 def test_the_defence_list_keeps_every_defend_move_while_moves_keeps_six():
     units = [_enemy((3, 12), "knight", eta=4.0), _enemy((15, 12), "knight", eta=4.5, tower="own_right")]
     rep = ENGINE.analyse(_state(units=units, elixir=10.0, hand=["tesla", "knight", "musketeer", "ice-spirit"]))
-    # eight defend moves, but the two kiting knights stand at the same key (both lanes, x 7.5 / 10.5 = "middle")
-    assert len(rep.moves) <= 6 and len(rep.defence) == 7 and {m.intent for m in rep.defence} == {"defend"}
+    # eight defend moves, but the two kiting knights stand at the same key (both lanes, x 7.5 / 10.5 = "middle") and so do
+    # the two teslas (the anchors (8, 10) / (10, 10), MAC-AM M3)
+    assert len(rep.moves) <= 6 and len(rep.defence) == 6 and {m.intent for m in rep.defence} == {"defend"}
     assert [m.score for m in rep.defence] == sorted((m.score for m in rep.defence), reverse=True)
     assert [m for m in rep.moves if m.intent == "defend"] == rep.defence[:len(rep.moves)] or len(rep.moves) == 6
 
@@ -1019,7 +1022,7 @@ def test_the_defence_list_keeps_every_defend_move_while_moves_keeps_six():
 def test_a_unit_ten_seconds_out_is_listed_but_a_later_one_is_not():
     near = _state(units=[_enemy((15, 15), "giant", eta=9.5, tower="own_right")], elixir=6.0)
     rep = ENGINE.analyse(near)
-    assert rep.pushes[0].eta_s == 9.5 and rep.best.card == "tesla" and rep.best.tile == [11.0, 7.0]
+    assert rep.pushes[0].eta_s == 9.5 and rep.best.card == "tesla" and rep.best.tile == [10.0, 10.0]
     assert ENGINE.analyse(_state(units=[_enemy((15, 15), "giant", eta=10.5, tower="own_right")])).pushes == []
     assert rep.pushes[0].heavy is True
     assert ENGINE.analyse(_bats_left()).pushes[0].heavy is False          # a swarm push is not heavy
@@ -1100,7 +1103,8 @@ def test_ag_a_flyer_is_never_answered_with_a_ground_only_card():
     rep = REAL.analyse(_state(units=bats + [witch], hand=hand, elixir=7.0))
     assert rep.pushes[0].units[0]["card"] == "bats"
     cards = _defence_cards(rep)
-    assert "knight" not in cards and {"zap", "electro-dragon", "musketeer"} <= set(cards)
+    # (no zap: three bats are worth 3/5 of the bats' 2 elixir, 1.2 < the 2.5 a zap must clear, MAC-AM M2)
+    assert "knight" not in cards and {"electro-dragon", "musketeer"} <= set(cards) and "zap" not in cards
     # the same hand against bats alone: no knight either
     assert "knight" not in _defence_cards(REAL.analyse(_state(units=bats, hand=hand, elixir=7.0)))
     # a ground unit within 2 tiles of the lead is part of the same group: the knight still helps against it
@@ -1122,14 +1126,15 @@ def test_ag_a_building_pulls_a_giant_only_at_a_pull_tile_and_only_before_it_lock
     d_giant = ((tesla.tile[0] - 14) ** 2 + (tesla.tile[1] - 15) ** 2) ** 0.5
     d_tower = ((OWN_TOWERS["right"][0] - 14) ** 2 + (OWN_TOWERS["right"][1] - 15) ** 2) ** 0.5
     assert tesla.stop == "high" and tesla.reason.startswith("pulls giant to the centre")
-    assert 7.0 <= tesla.tile[0] <= 11.0 and 4.0 <= tesla.tile[1] <= 11.0         # the centre band of our half
+    assert 7.0 <= tesla.tile[0] <= 11.0 and 8.5 <= tesla.tile[1] <= 11.5         # the centre box of our half (MAC-AM M3)
     assert d_giant <= d_tower - 1.5 and d_giant >= 3.0                           # nearer to it than the tower, not on it
     assert rep.best.card == "tesla"
-    # the giant has reached its tower: nothing pulls it, the building is a block and the tank killer is preferred
+    # the giant has reached its tower: nothing pulls it, so no building is proposed (MAC-AM M3: no more block next to the
+    # tower) and the tank killer is the answer
     attacking = _enemy((14, 5.5), "giant", eta=0.5, tower="own_right")
     rep = REAL.analyse(_state(units=[attacking], hand=["tesla", "mini-p-e-k-k-a", "musketeer", "knight"], elixir=8.0))
     by_card = {m.card: m for m in rep.defence}
-    assert rep.best.card == "mini-p-e-k-k-a" and by_card["tesla"].stop == "low" and by_card["tesla"].reason == "slows giant"
+    assert rep.best.card == "mini-p-e-k-k-a" and "tesla" not in by_card
     assert REAL._pull(rep.pushes[0])[1] is None
     # between the lock-on distance and the nearest pull tile there is no pull either (the tower is only 3.7 tiles away)
     close = _enemy((14, 8), "giant", eta=3.0, tower="own_right")
@@ -1308,6 +1313,21 @@ def test_ah_river_units_walking_toward_us_count_and_a_unit_without_information_d
     assert REAL.analyse(_state(units=[_enemy((15, 19), "knight")])).pushes == []     # row 19: not at the river yet
 
 
+ZAP_PACK_TILE = [3.5, 10.0]
+
+
+def _swarm_pack(hand=("zap", "knight", "fireball", "musketeer"), elixir=7.0):
+    """A night witch, a whole play of bats (5) and a whole play of spear goblins (3) at our left tower: a zap kills eight
+    units there (the bats' 2 and the goblins' 2 elixir, a bit of the witch)."""
+    left = "advancing left lane"
+    units = [_heading(_enemy((4, 10), "night-witch", eta=5.1), left)]
+    units += [_heading(_enemy((3 + 0.5 * i, 10 + 0.2 * i), "bats", eta=2.0, unit_class="bat"), left) for i in range(5)]
+    units += [_heading(_enemy((2.5 + 0.6 * i, 9.5), "spear-goblins", eta=3.0, unit_class="spear-goblin"), left) for i in range(3)]
+    state = _state(elixir=elixir, units=units, hand=list(hand), deck=DECK47)
+    state["own"]["towers"] = {"king": None, "left": 4082, "right": 4424}
+    return state
+
+
 def test_ah_the_user_scenario_the_balloon_comes_first_and_the_left_lane_gets_nothing_that_spends_its_answer():
     rep = REAL.analyse(_scenario())
     assert [p.lane for p in rep.pushes] == ["right", "left"]
@@ -1315,7 +1335,7 @@ def test_ah_the_user_scenario_the_balloon_comes_first_and_the_left_lane_gets_not
     assert balloon.damage_if_unanswered == 3162.0 and not balloon.answered
     assert left.damage_if_unanswered > 4000 and left.destroys_tower          # unanswered the left would fall ...
     assert left.damage_with_allies < 300 and left.answered and left.answered_by == ["electro-dragon", "musketeer"]   # ... ours hold it
-    assert rep.best.card == "tesla" and rep.best.tile == [11.0, 11.0]
+    assert rep.best.card == "tesla" and rep.best.tile == [10.0, 10.0]
     right_moves = [m for m in rep.defence if "balloon" in m.reason]
     assert {m.card for m in right_moves} == {"tesla", "musketeer"} and all(m.adequate for m in right_moves)
     assert "knight" not in {m.card for m in right_moves} and "zap" not in {m.card for m in right_moves}
@@ -1392,10 +1412,14 @@ def test_ah_zap_on_a_lone_balloon_is_not_proposed_and_zap_on_bats_with_support_i
     balloon = _heading(_enemy((3, 14), "balloon", eta=6.0, tower="own_left"), "advancing left lane")
     rep = REAL.analyse(_state(units=[balloon], hand=["zap", "musketeer", "tesla", "knight"], elixir=9.0))
     assert "zap" not in [m.card for m in rep.moves]
+    # MAC-AM M2: the old pack (a night witch, an electro wizard, two bats) is worth 1.4 elixir to a zap (the bats are 2/5 of
+    # their 2 elixir, a bit of the pair): not the 2.5 a 2-elixir spell must clear
     witch = _scenario(allies=False, balloon=False, hand=("zap", "knight", "fireball", "musketeer"), elixir=7.0)
-    zap = next(m for m in REAL.analyse(witch).defence if m.card == "zap")
-    assert zap.value == pytest.approx(2.962, abs=0.001) and zap.value >= 2.0           # bats dead + a bit of the witch pair
-    assert zap.tile == [3.0, 10.0]
+    assert "zap" not in [m.card for m in REAL.analyse(witch).defence]
+    # a whole play of bats and of spear goblins beside the witch is: eight kills, 4 elixir and a bit of the witch
+    zap = next(m for m in REAL.analyse(_swarm_pack()).defence if m.card == "zap")
+    assert zap.value == pytest.approx(4.35, abs=0.1) and zap.kills == 8 and not zap.group
+    assert zap.tile == ZAP_PACK_TILE
 
 
 def test_ah_the_threat_model_switch_restores_the_mac_ag_engine():
@@ -1594,10 +1618,10 @@ def test_k4b_role_transfer_uses_the_via_cards_offset_and_a_spell_keeps_its_aim()
     mus = got["musketeer"]
     assert mus.tile_source == "pro_offset" and mus.tile == [6.0, 8.0] and "role of cannon, pro spot" in mus.reason
     assert "zap" not in got                                                              # (nothing worth zapping: no aim)
-    witch = _scenario(allies=False, balloon=False, hand=("zap", "knight", "fireball", "musketeer"), elixir=7.0)
+    witch = _swarm_pack()
     zap_table = {"night-witch": [_ans("zap", 0.4, pro=0.5, support=12, held=0.6, offset=_off(3.0, -6.0))]}
     zap = next(m for m in _kg_engine(zap_table).analyse(witch).defence if m.card == "zap")
-    assert zap.tile_source == "geometric" and zap.tile == [3.0, 10.0]                   # a spell's tile is its aim
+    assert zap.tile_source == "geometric" and zap.tile == ZAP_PACK_TILE                 # a spell's tile is its aim
     assert "pros 60% held n=12" in zap.reason and "pro spot" not in zap.reason
 
 
@@ -1613,11 +1637,10 @@ def test_k4b_a_building_follows_the_pro_offset_only_where_it_still_pulls():
     tesla = next(m for m in bad.analyse(state).defence if m.card == "tesla")
     plain = next(m for m in REAL.analyse(state).defence if m.card == "tesla")
     assert tesla.tile_source == "geometric" and tesla.tile == plain.tile and tesla.reason.startswith("pulls giant")
-    # the giant is already attacking its tower: nothing pulls it, so no pro offset for a building
+    # the giant is already attacking its tower: nothing pulls it, so no building at all (MAC-AM M3)
     attacking = _enemy((14, 5.5), "giant", eta=0.5, tower="own_right")
-    late = next(m for m in good.analyse(_state(units=[attacking], hand=["tesla", "knight"], elixir=9.0)).defence
-                if m.card == "tesla")
-    assert late.tile_source == "geometric" and late.stop == "low"
+    assert not [m for m in good.analyse(_state(units=[attacking], hand=["tesla", "knight"], elixir=9.0)).defence
+                if m.card == "tesla"]
 
 
 def test_k4b_the_simulation_gates_the_pro_tile():
@@ -1658,7 +1681,7 @@ def test_k4b_score_key_follows_the_graph_too():
 def test_k4b_the_real_graph_in_the_engine():
     eng = TacticalEngine(CARDS, weights=DEFAULT_WEIGHTS, kg=KG2())
     rep = eng.analyse(_state(units=[GIANT_BRIDGE], hand=["tesla", "knight", "musketeer", "mini-p-e-k-k-a"], elixir=9.0))
-    assert rep.best.card == "tesla" and rep.best.tile == [11.0, 7.0] and rep.best.tile_source == "geometric"
+    assert rep.best.card == "tesla" and rep.best.tile == [10.0, 10.0] and rep.best.tile_source == "geometric"
     assert all(len(m.reason) <= MAX_REASON_KG for m in rep.moves)
     answers = {a.card: a for a in eng.kg2.answers_for("giant", ["tesla", "knight", "musketeer", "mini-p-e-k-k-a"], k=4)}
     assert answers                                                       # (whatever the build: wiki / pros / sim evidence)
@@ -1818,8 +1841,9 @@ def _cluster_scene(units, hand=("fireball", "electro-dragon", "knight", "zap"), 
 
 
 def _support_pack(y=15.0, eta=True):
-    """A night witch, an electro wizard, three bats and three minions in a clump around [4.3, y + 1] (`eta`: the tracker
-    gives them ETAs of 6-8.5 s, else none)."""
+    """A night witch, an electro wizard, five bats and three minions in a clump around [4.3, y + 1] (`eta`: the tracker
+    gives them ETAs of 6-8.5 s, else none). The bats are a whole play of the card (5): a bat is worth 1/5 of its 2 elixir
+    (MAC-AM M2.3)."""
     heading = "advancing left lane"
 
     def at(s):
@@ -1828,7 +1852,7 @@ def _support_pack(y=15.0, eta=True):
     pack = [_heading(_enemy((4, y + 0.5), "night-witch", eta=at(8.0)), heading),
             _heading(_enemy((5, y + 1), "electro-wizard", eta=at(8.5)), heading)]
     pack += [_heading(_enemy((4 + dx, y + ddy), "bats", eta=at(6.0), unit_class="bat"), heading)
-             for dx, ddy in ((0, 0), (0.5, 0.4), (-0.5, 0.4))]
+             for dx, ddy in ((0, 0), (0.5, 0.4), (-0.5, 0.4), (0.9, 0.0), (-0.9, 0.0))]
     pack += [_heading(_enemy((4.5 + dx, y + 0.8 + ddy), "minions", eta=at(6.5), unit_class="minion"), heading)
              for dx, ddy in ((0, 0), (0.4, 0.3), (-0.4, 0.3))]
     return pack
