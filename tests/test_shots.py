@@ -19,8 +19,9 @@ from clashbot.executor import ScreenMap, card_slot_points  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 from clashbot.live import LiveLoop, build_parser  # noqa: E402
 from clashbot.policy import ActDecision  # noqa: E402
-from clashbot.recorder_shots import ShotRecorder, annotate_decision, readings  # noqa: E402
+from clashbot.recorder_shots import TAP_STATUSES, ShotRecorder, annotate_decision, readings  # noqa: E402
 from tools.eval.review_shots import classify, landing_verdict, main as review_main, read_index, review  # noqa: E402
+from tools.eval.review_shots import is_tap, tap_cost  # noqa: E402
 
 HAND = ["zap", "archers", "knight", "giant"]
 PRIOR = {"by_key": {"giant|left|back": {"median_tile": [3.0, 2.0]}}, "by_lane_zone": {}}
@@ -341,3 +342,82 @@ def test_review_cli_needs_an_index(tmp_path, capsys):
     assert review_main([str(run), "--only", "failed"]) == 0
     assert (run / "shots" / "sheets" / "review.md").is_file()
     assert "Landing rate by card" in capsys.readouterr().out
+
+
+# 5 (FIX #40: hero ability taps) ------------------------------------------------------------------------------------------
+def _ability_decision(idx=7, t=1.0, sent=True):
+    entry = {"t": t, "key": "ability:musketeer", "tile": None, "side": "right", "status": "planned_ability", "slot": None,
+             "clicks": [[250.0, 420.0]], "sent": sent}
+    return types.SimpleNamespace(idx=idx, t=t, key="ability:musketeer", tile=None, mode="defend", reason="turret",
+                                 executor=entry)
+
+
+def _ability_state(elixir):
+    return {"own": {"elixir": elixir, "hand": HAND}}
+
+
+def test_ability_taps_are_followed_like_card_taps(tmp_path):
+    assert "planned_ability" in TAP_STATUSES and {"planned", "dry_run"} <= set(TAP_STATUSES)
+    shots = ShotRecorder(tmp_path / "shots", writer=lambda job: True)
+    frame = np.full((H, W, 3), 100, np.uint8)
+    shots.on_decision(frame, _ability_decision(), _ability_state(6.0), executor=types.SimpleNamespace(screen_map=SMAP))
+    assert shots.taps == 1                                           # a tap: it waits for its +0.5 s / +1.5 s frames
+    shots.on_frame(frame, 1.2, 10, _ability_state(5.5))              # too early for the first frame
+    shots.on_frame(frame, 1.6, 11, _ability_state(3.4))
+    shots.on_frame(frame, 2.6, 12, _ability_state(3.9))
+    shots.close()
+    row = read_rows(tmp_path / "shots")[0]
+    assert row["key"] == "ability:musketeer" and row["status"] == "planned_ability" and row["sent"] is True
+    assert row["files"] == ["d0007_t1.0_a.jpg", "d0007_t1.0_b.jpg", "d0007_t1.0_c.jpg"]
+    assert row["elixir_before"] == 6.0 and row["elixir_after_0.5"] == 3.4 and row["elixir_after_1.5"] == 3.9
+    assert row["slot"] is None and len(row["clicks_image"]) == 1     # the button tap point
+
+
+def test_an_ability_entry_without_a_planned_tap_is_not_followed(tmp_path):
+    shots = ShotRecorder(tmp_path / "shots", writer=lambda job: True)
+    dec = _ability_decision()
+    dec.executor["status"] = "no_ability_tap"
+    shots.on_decision(np.full((H, W, 3), 100, np.uint8), dec, _ability_state(6.0),
+                      executor=types.SimpleNamespace(screen_map=SMAP))
+    shots.close()
+    assert shots.taps == 0 and read_rows(tmp_path / "shots")[0]["files"][1:] == [None, None]
+
+
+def _ability_row(idx, before, a05, a15, sent=True, status="planned_ability"):
+    return {"idx": idx, "t": idx / 10, "key": "ability:musketeer", "mode": "defend", "reason": "turret", "status": status,
+            "sent": sent, "slot": None, "clicks_screen": [], "clicks_image": [], "tile": None, "elixir_before": before,
+            "elixir_state_before": before, "hand_before": HAND, "hand_raw_before": HAND, "hand_conf": 0.9,
+            "files": [None, None, None], "elixir_after_0.5": a05, "elixir_after_1.5": a15, "hand_after_1.5": HAND,
+            "hand_raw_after_0.5": None, "hand_raw_after_1.5": HAND}
+
+
+def _verdict(row):
+    return classify([row], load_cards())[0]["verdict"]
+
+
+def test_ability_taps_are_judged_by_an_elixir_drop_of_at_least_2_4():
+    cards = load_cards()
+    assert is_tap(_ability_row(1, 6.0, 3.0, 3.0)) and tap_cost(_ability_row(1, 6.0, 3.0, 3.0), cards) == 3.0
+    assert _verdict(_ability_row(1, 6.0, 3.5, 3.6)) == "landed"      # fell by 2.5 >= 2.4
+    assert _verdict(_ability_row(2, 6.0, 4.0, 3.5)) == "landed"      # the lowest of the two readings counts
+    assert _verdict(_ability_row(3, 6.0, 4.0, 3.9)) == "failed"      # 2.1 only, with a reading at +1.5 s
+    assert _verdict(_ability_row(4, 6.0, 5.8, 5.9)) == "failed"      # nothing spent
+    assert _verdict(_ability_row(5, 6.0, None, None)) == "unknown"   # no readings at all
+    assert _verdict(_ability_row(6, 6.0, 3.0, None)) == "landed"     # the +0.5 s reading alone shows the drop
+    assert _verdict(_ability_row(7, None, 3.0, 3.0)) == "unknown"    # no elixir before
+    # a planned_ability that was not sent is a dry-run tap: judged only with include_dry
+    dry = classify([_ability_row(8, 6.0, 3.5, 3.5, sent=False)], cards)[0]
+    assert dry["kind"] == "dry" and "verdict" not in dry
+    assert classify([_ability_row(8, 6.0, 3.5, 3.5, sent=False)], cards, include_dry=True)[0]["verdict"] == "landed"
+    # a card tap is still judged by its own cost (zap 2: fell by 2.0 >= 2 - 0.6)
+    assert _verdict(_row(9, "zap|left|mid", 0, 5.0, 3.0, 3.0, HAND)) == "landed"
+
+
+def test_review_covers_ability_taps_in_its_tables(tmp_path):
+    run = tmp_path / "run"
+    (run / "shots").mkdir(parents=True)
+    rows = [_ability_row(1, 6.0, 3.5, 3.6), _ability_row(2, 6.0, 5.8, 5.9)]
+    (run / "shots" / "index.jsonl").write_text("".join(json.dumps(r) + "\n" for r in rows))
+    res = review(run, "all")
+    assert "sent taps 2" in res["text"] and "landed 1, failed 1, unknown 0" in res["text"]
+    assert "| ability:musketeer | 2 | 1 | 1 | 0 | 50% |" in res["text"]

@@ -195,6 +195,120 @@ def test_builder_main_writes_a_loadable_file(tmp_path):
     assert {c for c, _ in model.predict(["giant", "balloon"], top=6)} == set(DECK_A) - {"giant", "balloon"}
 
 
+# ---------------------------------------------------------------- live Training Camp decks (K4a, FIX #42 d)
+def write_run(runs: Path, name: str, contexts: list[str | None], frames: list[dict] | None = None) -> Path:
+    run = runs / name
+    run.mkdir(parents=True)
+    lines = [json.dumps({"t": float(i), "idx": i, "key": "hold", "context_text": c}) for i, c in enumerate(contexts)]
+    (run / "decisions.jsonl").write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+    if frames is not None:
+        (run / "frames.jsonl").write_text("\n".join(json.dumps(f) for f in frames) + "\n", encoding="utf-8")
+    return run
+
+
+def ctx(opp: str) -> str:
+    return f"[single_elixir|2:00] elixir 5 (opp ~4). hand: a, b, c, d (next e). deck: x. opp deck: {opp}\nfield: nothing"
+
+
+def test_deck_weights_and_tags_and_training_camp_share():
+    model = OppDeckModel(DECKS, deck_weights=[3, 1, 1, 1], deck_tags=[["training_camp"], [], [], []])
+    assert model.total_weight() == pytest.approx(6.0)             # count_power 0: each deck once, deck A thrice
+    assert model.training_camp_share() == pytest.approx(0.5) and model.training_camp_decks() == 1
+    assert model.card_counts["giant"] == 3 and model.card_counts["fireball"] == 2     # weighted counts
+    assert model.pair_counts["giant"]["balloon"] == 3
+    assert fixture_model().training_camp_share() == 0.0 and fixture_model().total_weight() == 4.0
+    # the heavier deck pulls the prediction: with one card both A and C-like decks share, A wins at weight 3
+    heavy = OppDeckModel([DECK_A, DECK_D], deck_weights=[3, 1])
+    light = OppDeckModel([DECK_A, DECK_D], deck_weights=[1, 1])
+    assert dict(heavy.predict(["zap"], top=20))["giant"] > dict(light.predict(["zap"], top=20))["giant"]
+    with pytest.raises(ValueError):
+        OppDeckModel(DECKS, deck_weights=[1, 1])
+
+
+def test_weights_and_tags_survive_save_load(tmp_path):
+    model = OppDeckModel(DECKS, deck_weights=[3, 1, 1, 1], deck_tags=[["training_camp"], [], [], []])
+    path = tmp_path / "deck_cooc.json"
+    model.save(path)
+    data = json.loads(path.read_text())
+    assert data["deck_weights"] == [3, 1, 1, 1] and data["total_weight"] == 6 and data["deck_tags"][0] == ["training_camp"]
+    again = OppDeckModel.load(path)
+    assert again.training_camp_share() == pytest.approx(0.5) and again.predict(["zap"]) == model.predict(["zap"])
+    # a file written before K4a has no weights / tags
+    for k in ("deck_weights", "deck_tags", "total_weight"):
+        data.pop(k)
+    old = OppDeckModel.from_dict(data)
+    assert old.training_camp_share() == 0.0 and old.deck_weights == [1.0] * 4
+
+
+def test_live_run_deck_reads_the_last_context_with_an_opp_deck_line(tmp_path):
+    assert bdc.deck_from_context(ctx("giant, balloon, night-witch")) == ["giant", "balloon", "night-witch"]
+    assert bdc.deck_from_context(ctx("unknown")) == [] and bdc.deck_from_context(None) == []
+    assert bdc.deck_from_context("no such line") == []
+    r1 = write_run(tmp_path, "r1", [ctx("giant"), ctx("giant, balloon"), ctx("giant, balloon, bats, zap")])
+    r2 = write_run(tmp_path, "r2", [ctx("giant, zap"), ctx("unknown"), None])           # the last context has none: use the previous
+    r3 = write_run(tmp_path, "r3", [], frames=[{"idx": 1, "live_state": 1.0},
+                                                {"idx": 2, "perception": {"opponent": {"deck_known": ["miner", "bats"]}}}])
+    assert bdc.live_run_deck(r1) == ["giant", "balloon", "bats", "zap"]
+    assert bdc.live_run_deck(r2) == ["giant", "zap"]
+    assert bdc.live_run_deck(r3) == ["miner", "bats"]                                    # frames' perception when no decision
+    assert bdc.live_run_deck(tmp_path / "missing") == []
+
+
+def test_collect_live_entries_weights_tags_and_drops(tmp_path):
+    runs = tmp_path / "runs"
+    write_run(runs, "full", [ctx(", ".join(DECK_A))])
+    write_run(runs, "four", [ctx("giant, balloon, bats, zap")])
+    write_run(runs, "small", [ctx("giant, balloon")])
+    write_run(runs, "empty", [ctx("unknown")])
+    write_run(runs, "odd", [ctx("giant, balloon, bats, zap, not-a-card")])
+    vid = write_run(runs, "vid", [ctx(", ".join(DECK_B))])                               # a replayed video: a human, not a bot
+    (vid / "config.json").write_text(json.dumps({"source": "video", "video": "data/videos/x.mp4"}), encoding="utf-8")
+    mir = write_run(runs, "mirror-dry", [ctx(", ".join(DECK_C))])                         # a dry run on the live mirror: kept
+    (mir / "config.json").write_text(json.dumps({"source": "mirroring", "video": None, "dry_run": True}), encoding="utf-8")
+    (runs / "notes").mkdir()                                                             # not a run directory
+    stats = Counter()
+    got = bdc.collect_live_entries(runs, card_slugs=set(DECK_A) | set(DECK_C) | {"bats"}, stats=stats)
+    assert [e["game_id"] for e in got] == ["four", "full", "mirror-dry", "odd"]
+    assert all(e["source"] == "live" and e["weight"] == 3.0 and e["tags"] == ("training_camp",) for e in got)
+    assert got[3]["cards"] == ("balloon", "bats", "giant", "zap")                        # the unknown card is dropped
+    assert stats["live_runs"] == 7 and stats["live_too_small"] == 1 and stats["live_no_deck"] == 1
+    assert stats["live_unknown_card"] == 1 and stats["live_video"] == 1
+    assert bdc.is_video_run(vid) and not bdc.is_video_run(mir) and not bdc.is_video_run(runs / "full")
+    assert len(bdc.collect_live_entries(runs, None, min_cards=2)) == 5                   # 'small' now counts, 'empty' never
+    assert bdc.collect_live_entries(runs, None, weight=5.0)[0]["weight"] == 5.0
+
+
+def test_builder_with_live_runs_adds_weighted_tagged_decks(tmp_path):
+    kb, ds, runs, out = tmp_path / "kb", tmp_path / "ds", tmp_path / "runs", tmp_path / "out" / "deck_cooc.json"
+    write_kb(kb, {"deck-c": ("siege", DECK_C)})
+    write_games(ds, [game("g0", DECK_A, DECK_B)])
+    write_run(runs, "r1", [ctx(", ".join(DECK_D))])
+    write_run(runs, "r2", [ctx(", ".join(DECK_D))])                                       # the same deck twice: merged
+    base = bdc.main(["--dataset", str(ds), "--kb", str(kb), "--out", str(out)])
+    assert base["training_camp_share"] == 0.0 and base["live_decks"] == 0
+    info = bdc.main(["--dataset", str(ds), "--kb", str(kb), "--out", str(out), "--live-runs", str(runs)])
+    assert info["total_decks"] == base["total_decks"] + 2 and info["unique_decks"] == base["unique_decks"] + 1
+    assert info["live_decks"] == 1 and info["training_camp_decks"] == 1
+    assert info["total_weight"] == pytest.approx(base["total_weight"] + 3.0)              # count_power 0: one deck, weight 3
+    assert info["training_camp_share"] == pytest.approx(3.0 / (base["total_weight"] + 3.0), abs=1e-3)
+    model = OppDeckModel.load(out)
+    assert model.training_camp_share() == pytest.approx(info["training_camp_share"], abs=1e-3)
+    assert info["dropped"].get("live_runs") == 2
+    # a deck that is also a pro deck keeps its KB archetype and gains the tag and the weight
+    write_run(runs, "r3", [ctx(", ".join(DECK_C))])
+    entries = bdc.collect_entries(ds, kb, live_runs=runs)
+    decks, counts, archetypes, weights, tags = bdc.aggregate_full(entries)
+    i = decks.index(tuple(sorted(DECK_C)))
+    assert counts[i] == 2 and archetypes[i] == "siege" and weights[i] == 3.0 and tags[i] == ("training_camp",)
+    assert bdc.aggregate(entries) == (decks, counts, archetypes)                          # the old 3-tuple still works
+
+
+@pytest.mark.skipif(not (ROOT / "runs" / "poc").exists(), reason="runs/poc missing")
+def test_real_live_runs_give_a_few_decks():
+    got = bdc.collect_live_entries(ROOT / "runs" / "poc", bdc.known_card_slugs())
+    assert got and all(4 <= len(e["cards"]) <= 8 and e["weight"] == 3.0 for e in got)
+
+
 # ---------------------------------------------------------------- evaluation
 def test_reveal_orders_sorts_by_play_time_and_drops_cards_outside_the_deck(tmp_path):
     def rec(gid, plays):

@@ -5,8 +5,11 @@
 Steps: (1) v1 nodes / edges (ANSWERED_BY dropped; K2 supersedes it); (2) per-card / unit stats at every level, from
 clashbot/resources/unit_stats.json through `clashbot.unit_stats.stat_at` when MAC-AH's module is there, else parsed
 from the KB "Stats by level" tables; (3) hero ability nodes + HAS_ABILITY; (4) SIMILAR_ROLE from card_roles;
-(5) K2 (answers / situations / sequences) and K3 (deck_cooc) files from <dataset>/kg2/ when present; (6) meta counts.
-Missing K2 / K3 files are logged and skipped. Only the output database is written.
+(5) K2 (answers / situations / sequences) and K3 (deck_cooc) files from <dataset>/kg2/ when present; (6) mechanics edges
+(K4a, source `sim`): STOPS / KILLS / PULLS from `clashbot.unit_stats.simulate_lane` / `stat_at`; (7) meta counts.
+Role vectors carry numeric bins from the stats (range, hp and dps at level 15, speed, flying, targets) so a knight is no
+longer identical to a prince or a monk (FIX #42 c). Missing K2 / K3 files are logged and skipped. Only the output
+database is written.
 """
 from __future__ import annotations
 
@@ -39,6 +42,17 @@ NODE_PREFIX_RENAME = {"evo:": "evolution:"}                      # v1 used `evo:
 STAT_LEVELS = range(1, 17)
 SIM_TOP = 3
 SIM_MIN = 0.6
+STAT_LEVEL = 15                      # role vectors read the stats at the opponent level
+
+# mechanics edges (K4a): a canonical push in the left lane against our princess tower (see `canonical_defence`)
+SIM_HORIZON_S = 30.0                 # long enough that a defence that kills the push late still shows
+SIM_THREAT_TILE = (3.5, 12.5)        # where the threat is when we answer: just across the river, in the left lane
+SIM_BEHIND_TILE = (5.0, 2.5)         # a ranged troop stands behind the tower (tactics `_defence_place`)
+SIM_FRONT_TILE = (3.5, 10.0)         # a melee troop meets the threat 2.5 rows in front of it
+SIM_BLOCK_TILE = (5.5, 6.5)          # a building next to the tower blocks a non-targeter
+SIM_PULL_TILE = (7.0, 7.0)           # a building in the centre band pulls a building-targeter (tactics `_pull_tile`)
+SIM_MIN_PREVENTED = 100.0            # a STOPS edge needs at least this much tower damage prevented
+STOPS_EFFICIENCY_REF = 1500.0        # prevented tower damage per elixir that maps to weight 1.0 (~5 % of edges reach it)
 
 
 def read_jsonl(path: Path) -> list[dict]:
@@ -303,13 +317,87 @@ _HP = ("swarm", "light", "medium", "tank")
 _DPS = ("low", "medium", "high")
 _RANGE = ("melee", "short", "long")
 ROLE_W = {"kind": 1.0, "targets": 1.0, "flying": 1.0, "splash": 1.0, "hp": 0.5, "dps": 0.5, "range": 0.7,
-          "role": 1.0, "spell": 1.0}
+          "role": 1.0, "spell": 1.0, "num": 0.8}
+# Soft bins (centres on the stat's own scale; a value between two centres is shared linearly between them), so two
+# cards of one coarse class still differ by how much hp / dps / range / speed they really have (FIX #42 c).
+NUM_BINS = {
+    "hp": (150.0, 400.0, 900.0, 1500.0, 2200.0, 3200.0, 4500.0, 6500.0),      # total hitpoints at level 15 (units x count)
+    "dps": (30.0, 80.0, 140.0, 200.0, 280.0, 400.0, 600.0),                    # total damage per second
+    "range": (0.8, 1.5, 3.5, 5.5, 7.5),                                         # tiles
+    "speed": (0.7, 1.0, 1.5, 2.2),                                              # tiles per second
+    "spell_dmg": (100.0, 250.0, 500.0, 800.0, 1200.0),                          # damage at level 15
+    "spell_radius": (2.0, 3.0, 4.0, 5.0),                                       # tiles
+}
+LOG_BINS = {"hp", "dps", "spell_dmg"}
 
 
-def role_vector(role: dict) -> dict[str, float]:
+def soft_bin(name: str, value: float) -> dict[str, float]:
+    """Linear share of `value` between its two neighbouring bin centres (log scale for hp / dps / damage):
+    {`name~<centre>`: weight}, the weights summing to 1."""
+    centres = NUM_BINS[name]
+    if value <= 0:
+        return {}
+    v = math.log(value) if name in LOG_BINS else value
+    cs = [math.log(c) if name in LOG_BINS else c for c in centres]
+    if v <= cs[0]:
+        return {f"{name}~{centres[0]:g}": 1.0}
+    if v >= cs[-1]:
+        return {f"{name}~{centres[-1]:g}": 1.0}
+    for i in range(len(cs) - 1):
+        if cs[i] <= v <= cs[i + 1]:
+            hi = (v - cs[i]) / (cs[i + 1] - cs[i])
+            return {f"{name}~{centres[i]:g}": 1.0 - hi, f"{name}~{centres[i + 1]:g}": hi}
+    return {}
+
+
+def numeric_stats(rows: list[tuple[str, int, str, dict]], level: int = STAT_LEVEL) -> dict[str, dict]:
+    """{card: {hp, dps, range, speed, spell_dmg, spell_radius}} at `level` (the nearest level the card's rows hold) from
+    the stats rows. hp and dps are totals over the card's units (units x count, units that exist at deploy: count >= 1);
+    range / speed are the main unit's. A key is missing when the rows do not carry it (the KB-table path has no range
+    or speed)."""
+    by_card: dict[str, dict[int, list[tuple[str, dict]]]] = {}
+    for card, lv, unit, props in rows:
+        by_card.setdefault(card, {}).setdefault(lv, []).append((unit, props))
+    out: dict[str, dict] = {}
+    for card, levels in by_card.items():
+        lv = min(levels, key=lambda x: (abs(x - level), x))
+        units = levels[lv]
+        main = next((p for u, p in units if u == card), units[0][1])
+        num: dict[str, float] = {}
+        hp = dps = 0.0
+        for _, p in units:
+            n = p.get("count", 1)
+            if n is None or n < 1:
+                continue
+            hp += float(p.get("hp") or 0) * n
+            d = p.get("dps")
+            if d is None and p.get("damage") and p.get("hit_speed_s"):
+                d = p["damage"] / p["hit_speed_s"]
+            dps += float(d or 0) * n
+        if hp > 0:
+            num["hp"] = hp
+        if dps > 0:
+            num["dps"] = dps
+        if main.get("range_tiles") is not None and main.get("damage"):
+            num["range"] = float(main["range_tiles"])
+        if main.get("speed_tiles_s"):
+            num["speed"] = float(main["speed_tiles_s"])
+        dmg = main.get("spell_damage") or main.get("area_damage")
+        if dmg and not hp:
+            num["spell_dmg"] = float(dmg)
+        radius = main.get("spell_radius_tiles") or main.get("radius_tiles")
+        if radius and not hp:
+            num["spell_radius"] = float(radius)
+        out[card] = num
+    return out
+
+
+def role_vector(role: dict, num: dict | None = None) -> dict[str, float]:
     """Sparse feature vector of a card_roles entry: kind (troop / building / spell), targets, flying, splash, the
     ordinal hp_class / dps_class (thermometer coded, so medium is nearer tank than swarm), range, every role in the
-    roles set, and for spells the spell class, whether they hit air and which hp classes they kill."""
+    roles set, and for spells the spell class, whether they hit air and which hp classes they kill. `num` (from
+    `numeric_stats`) adds soft bins of the real hp / dps / range / speed (spells: damage and radius), which tell apart
+    cards that share every coarse class."""
     w = ROLE_W
     f: dict[str, float] = {"kind:" + str(role.get("type")): w["kind"]}
     if role.get("targets"):
@@ -332,6 +420,10 @@ def role_vector(role: dict) -> dict[str, float]:
             f["hits_air"] = w["spell"]
         for hp in role.get("kills") or []:
             f["kills:" + hp] = w["spell"]
+    for name, value in (num or {}).items():
+        if name in NUM_BINS and value:
+            for k, share in soft_bin(name, float(value)).items():
+                f[k] = share * w["num"]
     return f
 
 
@@ -342,11 +434,11 @@ def cosine(a: dict[str, float], b: dict[str, float]) -> float:
 
 
 def similar_role_edges(roles: dict[str, dict], card_nodes: dict[str, dict], top: int = SIM_TOP,
-                       min_sim: float = SIM_MIN) -> list[tuple]:
+                       min_sim: float = SIM_MIN, numeric: dict[str, dict] | None = None) -> list[tuple]:
     """SIMILAR_ROLE edges: for every card with a node, its `top` most similar cards (cosine >= `min_sim`), weight =
     similarity; ties go to the nearer elixir cost, then the slug. Two cards that pick each other share a weight."""
     slugs = sorted(s for s in roles if f"card:{s}" in card_nodes)
-    vecs = {s: role_vector(roles[s]) for s in slugs}
+    vecs = {s: role_vector(roles[s], (numeric or {}).get(s)) for s in slugs}
 
     def cost(s: str):
         return (card_nodes[f"card:{s}"].get("props") or {}).get("elixir_cost")
@@ -413,7 +505,9 @@ def k3_edges(path: Path, card_nodes: dict[str, dict]) -> tuple[list[tuple], dict
     data = json.loads(path.read_text(encoding="utf-8"))
     pairs, counts = data.get("pair_counts") or {}, data.get("card_counts") or {}
     # card_counts count each deck in `decks` once (K3, count_power 0); without the list, estimate from 8 cards a deck
-    n_decks = float(len(data.get("decks") or [])) or (sum(counts.values()) / 8.0 if counts else 0.0)
+    # (K4a: live Training Camp decks weigh 3, so the weighted `total_weight` is what the counts are out of)
+    n_decks = (float(data.get("total_weight") or 0) or float(len(data.get("decks") or []))
+               or (sum(counts.values()) / 8.0 if counts else 0.0))
     names = sorted(set(pairs) | {b for d in pairs.values() for b in d})
     edges = []
     for a in names:
@@ -431,10 +525,157 @@ def k3_edges(path: Path, card_nodes: dict[str, dict]) -> tuple[list[tuple], dict
     return edges, {"deck_cooc_file": True}
 
 
+# ------------------------------------------------------------------------------------------ 6. mechanics (K4a)
+def _singular(slug: str) -> str:
+    return slug[:-1] if slug.endswith("s") and len(slug) > 3 else slug
+
+
+def threat_units(stat: dict, tile=SIM_THREAT_TILE) -> list[dict]:
+    """The enemy state-unit dicts of one opponent card for `simulate_lane`: one per unit that exists on deploy
+    (units x count); spawned units (night witch bats, golemites) come from the simulation itself."""
+    out = []
+    for u in stat.get("units") or []:
+        for _ in range(max(int(u.get("count") or 0), 0)):
+            out.append({"card": stat["card"], "unit_class": u["name"], "tile": list(tile)})
+    return out
+
+
+def is_building_targeter(stat: dict) -> bool:
+    units = [u for u in stat.get("units") or [] if (u.get("count") or 0) >= 1]
+    return bool(units) and units[0].get("targets") == "buildings"
+
+
+def canonical_defence(stat: dict, vs_targeter: bool) -> list[float]:
+    """Where the engine would put the card in the canonical left-lane push: a spell on the threat; a building at the pull
+    tile against a building-targeter, else blocking next to the tower; a ranged troop (range >= 3.5 tiles) behind the
+    tower; any other troop meeting the threat in front of it."""
+    if stat["type"] == "spell":
+        return list(SIM_FRONT_TILE)
+    if stat["type"] == "building":
+        return list(SIM_PULL_TILE if vs_targeter else SIM_BLOCK_TILE)
+    main = (stat.get("units") or [{}])[0]
+    return list(SIM_BEHIND_TILE if (main.get("range_tiles") or 0) >= 3.5 else SIM_FRONT_TILE)
+
+
+def resolve_unit_node(card: str, unit_name: str, unit_ids: set[str]) -> str | None:
+    """The `unit:<class>` node of a card's unit (`unit:bat` for the Bats of bats, `unit:balloon` for the balloon)."""
+    s = slugify(unit_name)
+    for cand in (s, _singular(s), card, _singular(card)):
+        if f"unit:{cand}" in unit_ids:
+            return f"unit:{cand}"
+    return None
+
+
+def mechanics_edges(card_nodes: dict[str, dict], unit_nodes: dict[str, dict], ustats,
+                    horizon_s: float = SIM_HORIZON_S) -> tuple[list[tuple], dict]:
+    """K4a edges from the lane simulation (`ustats` = clashbot.unit_stats), all with source `sim`:
+
+      STOPS  our card -> their card   one canonical push of the card at the opponent level (15) against our left princess
+             tower (full hitpoints), alone and with the card played at its canonical tile at our level (levels.json
+             `own`, default 14). prevented = damage without - with; weight = min(1, prevented per elixir /
+             STOPS_EFFICIENCY_REF); props prevented, damage_with, damage_without, adequate (damage left <= max(300, 35 %
+             of the push's) or no unit reaches the tower), efficiency, elixir, level, tile. Edges below SIM_MIN_PREVENTED
+             are not written. Every card with stats is a candidate defender, so a different deck still has evidence.
+      KILLS  spell -> unit:<class>    the spell's damage at our level >= the unit's hitpoints at the opponent level.
+      PULLS  building -> card         a building against a building-targeter: always possible; props hold the pull
+             window (walk from the canonical threat tile to the pull tile, in seconds) and whether the building lives
+             through it."""
+    cards = {s[5:]: ustats.stat_at(s[5:], ustats.opponent_level(s[5:])) for s in card_nodes}
+    cards = {c: st for c, st in cards.items() if st}
+    unit_ids = set(unit_nodes)
+    edges: list[tuple] = []
+
+    # threats: every card that puts units on the field
+    threats = {c: st for c, st in cards.items() if threat_units(st)}
+    defenders = {}
+    for c in cards:
+        lv = ustats.own_level(c)
+        st = ustats.stat_at(c, lv)
+        if st and (st["type"] != "spell" or (st.get("spell") or {}).get("damage")):
+            defenders[c] = (lv, st)
+    n_stops = n_adequate = 0
+    for t, tst in sorted(threats.items()):
+        enemy = threat_units(tst)
+        base = ustats.simulate_lane(enemy, [], "left", horizon_s=horizon_s)
+        without = float(base.tower_damage)
+        targeter = is_building_targeter(tst)
+        for c, (lv, dst_) in sorted(defenders.items()):
+            elixir = float(dst_.get("elixir") or 0.0)
+            if elixir <= 0:
+                continue
+            tile = canonical_defence(dst_, targeter)
+            res = ustats.simulate_lane(enemy, [{"card": c, "tile": tile, "level": lv}], "left", horizon_s=horizon_s)
+            with_c = float(res.tower_damage)
+            prevented = without - with_c
+            if prevented < SIM_MIN_PREVENTED:
+                continue
+            eff = prevented / elixir
+            adequate = with_c <= max(300.0, 0.35 * without) or res.eta_s is None
+            edges.append(edge_row(f"card:{c}", "STOPS", f"card:{t}", min(1.0, eff / STOPS_EFFICIENCY_REF), 0, "sim", {
+                "prevented": round(prevented), "damage_with": round(with_c), "damage_without": round(without),
+                "adequate": bool(adequate), "efficiency": round(eff, 1), "elixir": elixir, "level": lv,
+                "opp_level": tst["level"], "tile": tile}))
+            n_stops += 1
+            n_adequate += bool(adequate)
+
+    # KILLS: damage spells vs units (hp at the opponent level)
+    best_unit: dict[str, tuple[int, str, dict]] = {}
+    for t, tst in cards.items():
+        for u in tst.get("units") or []:
+            if not u.get("hp"):
+                continue
+            node = resolve_unit_node(t, u["name"], unit_ids)
+            if node is None:
+                continue
+            primary = (unit_nodes[node].get("props") or {}).get("primary")
+            rank = (0 if primary == t else 1, u["hp"])
+            if node not in best_unit or rank < best_unit[node][:2]:
+                best_unit[node] = (rank[0], rank[1], {"card": t, "hp": u["hp"], "count": u.get("count"),
+                                                        "flying": bool(u.get("flying"))})
+    n_kills = 0
+    for c, (lv, st) in sorted(defenders.items()):
+        sp = st.get("spell")
+        if st["type"] != "spell" or not sp or not sp.get("damage"):
+            continue
+        for node, (_, hp, info) in sorted(best_unit.items()):
+            if sp["damage"] >= hp:
+                edges.append(edge_row(f"card:{c}", "KILLS", node, 1.0, 0, "sim", {
+                    "damage": sp["damage"], "hp": hp, "level": lv, "opp_level": ustats.opponent_level(info["card"]),
+                    "radius_tiles": sp.get("radius_tiles"), **info}))
+                n_kills += 1
+
+    # PULLS: a building against a building-targeter
+    n_pulls = 0
+    walk = math.dist(SIM_THREAT_TILE, SIM_PULL_TILE)
+    for b, bst in sorted(cards.items()):
+        if bst["type"] != "building":
+            continue
+        for t, tst in sorted(threats.items()):
+            if not is_building_targeter(tst):
+                continue
+            main = next(u for u in tst["units"] if (u.get("count") or 0) >= 1)
+            speed = main.get("speed_tiles_s") or 0.0
+            window = walk / speed if speed else None
+            life = bst.get("lifetime_s")
+            edges.append(edge_row(f"card:{b}", "PULLS", f"card:{t}", 1.0, 0, "sim", {
+                "pull_tile": list(SIM_PULL_TILE), "walk_tiles": round(walk, 2),
+                "window_s": None if window is None else round(window, 2), "speed_tiles_s": speed,
+                "flying": bool(main.get("flying")), "lifetime_s": life,
+                "survives_window": None if life is None or window is None else bool(life >= window)}))
+            n_pulls += 1
+    info = {"mechanics": True, "mechanics_threats": len(threats), "mechanics_defenders": len(defenders),
+            "stops_edges": n_stops, "stops_adequate": n_adequate, "kills_edges": n_kills, "pulls_edges": n_pulls,
+            "sim_horizon_s": horizon_s, "stops_efficiency_ref": STOPS_EFFICIENCY_REF}
+    return edges, info
+
+
 # ------------------------------------------------------------------------------------------ build
 def build(dataset: Path, out: Path, kb: Path = KB, roles: dict | None = None,
-          unit_stats_json: Path = UNIT_STATS_JSON, stat_at=None, kg2_dir: Path | None = None) -> dict:
-    """Write `out` (atomically) and return the summary that is also stored in `meta`."""
+          unit_stats_json: Path = UNIT_STATS_JSON, stat_at=None, kg2_dir: Path | None = None,
+          mechanics: bool | None = None, ustats=None) -> dict:
+    """Write `out` (atomically) and return the summary that is also stored in `meta`. `mechanics` (default: on when
+    the stats come from the real `clashbot.unit_stats`, i.e. `stat_at` is not injected) adds the K4a STOPS / KILLS /
+    PULLS edges, simulated with `ustats` (default `clashbot.unit_stats`)."""
     t0 = time.time()
     kg2_dir = kg2_dir or dataset / "kg2"
     if roles is None:
@@ -449,8 +690,9 @@ def build(dataset: Path, out: Path, kb: Path = KB, roles: dict | None = None,
         node_by_id[n["id"]] = n
     edges += ab_edges
 
+    stat_rows, stats_path = load_stats(kb, unit_stats_json, stat_at)
     card_nodes = {i: n for i, n in node_by_id.items() if n["type"] == "card"}
-    edges += similar_role_edges(roles, card_nodes)
+    edges += similar_role_edges(roles, card_nodes, numeric=numeric_stats(stat_rows))
 
     k2_nodes, k2_edges, k2_info = k2_graph(kg2_dir, card_nodes)
     for n in k2_nodes:
@@ -459,7 +701,16 @@ def build(dataset: Path, out: Path, kb: Path = KB, roles: dict | None = None,
     k3, k3_info = k3_edges(kg2_dir / "deck_cooc.json", card_nodes)
     edges += k3
 
-    stat_rows, stats_path = load_stats(kb, unit_stats_json, stat_at)
+    if mechanics is None:
+        mechanics = stats_path == "unit_stats" and stat_at is None
+    mech_info: dict = {"mechanics": False}
+    if mechanics:
+        if ustats is None:
+            from clashbot import unit_stats as ustats
+        unit_nodes = {i: n for i, n in node_by_id.items() if n["type"] == "unit"}
+        mech, mech_info = mechanics_edges(card_nodes, unit_nodes, ustats)
+        edges += mech
+        log.info("mechanics: %s", mech_info)
 
     out.parent.mkdir(parents=True, exist_ok=True)
     tmp = out.with_name(out.name + ".tmp")
@@ -483,7 +734,7 @@ def build(dataset: Path, out: Path, kb: Path = KB, roles: dict | None = None,
             "build_seconds": round(time.time() - t0, 2), "stats_path": stats_path,
             "nodes": dict(sorted(by_type.items())), "edges_by_rel": dict(sorted(by_rel.items())),
             "edges_by_source": dict(sorted(by_source.items())), "stats_rows": len(stat_rows),
-            "stats_cards": n_stat_cards, **k2_info, **k3_info,
+            "stats_cards": n_stat_cards, **k2_info, **k3_info, **mech_info,
         }
         meta = {k: json.dumps(v) if isinstance(v, (dict, list)) else str(v) for k, v in summary.items()}
         for rel, n in by_rel.items():
@@ -512,6 +763,8 @@ def main(argv=None) -> int:
     print(f"stats: {s['stats_rows']} rows, {s['stats_cards']} cards, path={s['stats_path']}")
     print("K2 files:", {k: s[k] for k in ("answers_file", "situations_file", "sequences_file")},
           "K3 file:", s["deck_cooc_file"])
+    print("mechanics:", {k: s[k] for k in ("mechanics", "stops_edges", "stops_adequate", "kills_edges", "pulls_edges")
+                         if k in s})
     print("wrote", args.out)
     return 0
 

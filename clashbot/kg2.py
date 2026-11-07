@@ -33,6 +33,7 @@ CREATE INDEX idx_stats_card ON stats(card);
 
 SOURCES = ("wiki", "pro_mined", "deck_cooc", "role_transfer", "sim", "kb_table")
 SOURCE_WEIGHTS = {"pro": 0.45, "role_transfer": 0.30, "wiki": 0.10, "sim": 0.15}
+WIKI_WEIGHT_WITH_SIM = 0.05          # FIX #42 b: once the graph holds simulated STOPS edges the noisy wiki bullets count half
 ROLE_TRANSFER_DISCOUNT = 0.7
 SUPPORT_SHRINK = 5.0                 # pro score is shrunk by support / (support + SUPPORT_SHRINK)
 NEUTRAL_HELD_RATE = 0.5              # a pro answer whose held rate is unknown (null tower HP)
@@ -55,6 +56,8 @@ class Answer:
     eta_at_answer: float | None = None
     via: str | None = None            # the pro card whose role this card shares (role transfer)
     share: float | None = None        # support / all pro support against this threat
+    prevented: float | None = None    # K4a STOPS: tower damage the simulation says this card prevents (None = no STOPS edge)
+    adequate: bool | None = None      # ... and whether the damage left is within what the tower tolerates
 
 
 # ---------------------------------------------------------------------------------- situation keys
@@ -112,6 +115,9 @@ class KG2:
         self._counters: dict[str, dict[str, float]] = defaultdict(dict)   # threat -> counter -> wiki bullet count
         self._sim: dict[str, dict[str, float]] = defaultdict(dict)        # SIMILAR_ROLE, both directions
         self._stops: dict[str, dict[str, float]] = defaultdict(dict)      # threat -> our card -> weight (K4)
+        self._stops_props: dict[str, dict[str, dict]] = defaultdict(dict)  # ... and the edge props (prevented, adequate)
+        self._damage_without: dict[str, float] = {}                       # threat -> simulated tower damage unanswered
+        self.source_weights = dict(SOURCE_WEIGHTS)                        # wiki drops to 0.05 when STOPS edges exist
         self._cooc: dict[str, dict[str, float]] = defaultdict(dict)       # a -> b -> P(b | a)
         self._elixir: dict[str, float] = {}
         self._situations: list[dict] = []
@@ -140,7 +146,11 @@ class KG2:
                 for a, b in ((src, dst), (dst, src)):
                     self._sim[a][b] = max(self._sim[a].get(b, 0.0), weight)
             elif rel == "STOPS":                         # our card src stops opponent card dst
+                if weight >= self._stops[dst].get(src, 0.0):
+                    self._stops_props[dst][src] = props
                 self._stops[dst][src] = max(self._stops[dst].get(src, 0.0), weight)
+                if props.get("damage_without") is not None:
+                    self._damage_without[dst] = max(self._damage_without.get(dst, 0.0), float(props["damage_without"]))
             elif rel == "CO_OCCURS":
                 self._cooc[src][dst] = weight
         for r in self._conn.execute("SELECT id, type, props FROM nodes WHERE type IN ('card', 'situation')"):
@@ -149,6 +159,8 @@ class KG2:
                 self._elixir[_slug(r["id"])] = float(props["elixir_cost"])
             elif r["type"] == "situation":
                 self._situations.append(props)
+        if any(self._stops.values()):
+            self.source_weights["wiki"] = WIKI_WEIGHT_WITH_SIM
 
     def close(self) -> None:
         self._conn.close()
@@ -219,9 +231,11 @@ class KG2:
 
         Four sources, each 0..1 per card: pro = held rate x support / (support + 5) from the mined ANSWERED_BY edge;
         role_transfer = SIMILAR_ROLE(Y, Z) x pro(Y) x 0.7 for a pro answer Y that is not in our cards (best Y, kept in
-        `via`); wiki = 1 - 0.5 ** (wiki bullets saying Z beats the threat); sim = K4 STOPS weight (0 until K4).
+        `via`); wiki = 1 - 0.5 ** (wiki bullets saying Z beats the threat); sim = the K4a STOPS weight (damage the lane
+        simulation says Z prevents per elixir, 0..1; `prevented` / `adequate` come with it).
         score = 0.45 pro + 0.30 role_transfer + 0.10 wiki + 0.15 sim, renormalised over the sources that have any
-        evidence for this threat among our cards. Cards with no evidence at all are not returned."""
+        evidence for this threat among our cards; once the graph has STOPS edges the wiki weight is 0.05 (FIX #42 b).
+        Cards with no evidence at all are not returned."""
         threat = _slug(threat)
         ours = list(dict.fromkeys(_slug(c) for c in our_cards))
         ours_set = set(ours)
@@ -251,11 +265,12 @@ class KG2:
         active = [s for s, d in per_source.items() if any(v > 0 for v in d.values())]
         if not active:
             return []
-        norm = sum(SOURCE_WEIGHTS[s] for s in active)
+        sw = self.source_weights
+        norm = sum(sw[s] for s in active)
         out: list[Answer] = []
         for z in ours:
             parts = {s: float(per_source[s].get(z, 0.0)) for s in SOURCE_WEIGHTS}
-            score = sum(SOURCE_WEIGHTS[s] * parts[s] for s in active) / norm
+            score = sum(sw[s] * parts[s] for s in active) / norm
             if score <= 0:
                 continue
             via = None
@@ -266,12 +281,15 @@ class KG2:
                 via = transfer[z][1]
                 props = pro_edges[via]
             support = int(props.get("support") or 0) if props else 0
+            stop = self._stops_props.get(threat, {}).get(z) if parts["sim"] > 0 else None
             out.append(Answer(
                 card=z, score=round(score, 4), sources={s: round(v, 4) for s, v in parts.items()},
                 support=support, held_rate=props.get("held_rate") if props else None,
                 offset=props.get("offset") if props else None,
                 eta_at_answer=props.get("eta_at_answer_med") if props else None, via=via,
-                share=round(support / total_support, 4) if props and total_support else None))
+                share=round(support / total_support, 4) if props and total_support else None,
+                prevented=float(stop["prevented"]) if stop and stop.get("prevented") is not None else None,
+                adequate=bool(stop["adequate"]) if stop and stop.get("adequate") is not None else None))
         out.sort(key=lambda a: (-a.score, a.card))
         return out[:k]
 
@@ -385,8 +403,10 @@ class KG2:
         return [(c, v[1]) for c, v in sorted(best.items(), key=lambda kv: kv[1][0])]
 
     def _magnitude(self, card: str) -> float:
-        """Rough damage a unit does to a tower: hit damage x count, tripled for building-targeters; elixir x 50 when
-        the card has no stats."""
+        """Damage a unit does to a tower: the lane simulation's figure when the graph has STOPS edges for it (K4a), else
+        a rough one: hit damage x count, tripled for building-targeters; elixir x 50 when the card has no stats."""
+        if card in self._damage_without:
+            return self._damage_without[card]
         st = self.stats_near(card, OPP_LEVEL)
         role = self.roles().get(card) or {}
         dmg = _hit_damage(st) if st else 0
@@ -472,4 +492,6 @@ def _answer_text(a: Answer, detail: bool) -> str:
         if a.held_rate is not None:
             bits.append(f"held {a.held_rate * 100:.0f}%")
         return f"{a.card} ({' '.join(bits)})"
+    if a.sources.get("sim") and a.prevented:
+        return f"{a.card} (sim saves {int(round(a.prevented, -1)):,})" if detail else f"{a.card} (sim)"
     return f"{a.card} (wiki)" if a.sources.get("wiki") else f"{a.card} (sim)"
