@@ -1675,3 +1675,252 @@ def test_am_main_exits_0_when_the_window_closes(monkeypatch, tmp_path, capsys):
     assert main(_argv("--source", "video", "--video", "x.mp4", "--device", "cpu", "--out", str(out))) == 0
     assert "source ended: RuntimeError: window capture failed" in capsys.readouterr().out
     assert json.loads((out / "summary.json").read_text())["frames"] == 4 and (out / "holds.jsonl").exists()
+
+
+# MAC-AN: the demo launcher's hooks (tap gate, battle tags, reset, match-start hook, finish, build_stack) -------------
+class Gate:
+    """A tap gate: closed unless `is_open`; `reason` is what a gated entry reports."""
+
+    def __init__(self, is_open=False, reason="not Training Camp"):
+        self.is_open, self.reason = is_open, reason
+
+    def __call__(self):
+        return self.is_open
+
+
+def test_an_closed_tap_gate_decides_and_logs_but_never_calls_the_executor(tmp_path):
+    lp = _ram_loop(ActDecision(True, "defend", None, "x"), tap_gate=Gate(), tmp_path=tmp_path)
+    d = lp.step("f", 1.0, 0, 2.0)
+    assert d.key == "ram-rider|left|bridge" and lp.executor.calls == []
+    assert d.executor == {"t": 1.0, "key": "ram-rider|left|bridge", "tile": d.tile, "status": "gated",
+                          "gate": "not Training Camp", "slot": None, "clicks": [], "sent": False}
+    assert lp.gated == 1 and lp.summary()["decisions_by_status"] == {"gated": 1}
+    row = json.loads((tmp_path / "decisions.jsonl").read_text().splitlines()[0])
+    assert row["executor"]["status"] == "gated" and row["key"] == d.key and "battle" not in row
+
+
+def test_an_open_tap_gate_and_no_gate_leave_the_executor_call_unchanged():
+    for kw in ({}, {"tap_gate": Gate(is_open=True)}, {"tap_gate": lambda: True}):
+        lp = _ram_loop(ActDecision(True, "defend", None, "x"), **kw)
+        d = lp.step("f", 1.0, 0, 2.0)
+        assert [c[0] for c in lp.executor.calls] == ["ram-rider|left|bridge"] and "gate" not in d.executor
+        assert lp.gated == 0
+    gate = Gate()
+    lp = _ram_loop(ActDecision(True, "defend", None, "x"), tap_gate=gate)
+    gate.is_open = True                                              # the gate is asked at every tap, not once
+    lp.step("f", 1.0, 0, 2.0)
+    assert len(lp.executor.calls) == 1
+
+
+def test_a_gate_without_a_reason_says_gate_closed_and_a_callable_reason_is_called():
+    lp = _ram_loop(ActDecision(True, "defend", None, "x"), tap_gate=lambda: False)
+    assert lp.step("f", 1.0, 0, 2.0).executor["gate"] == "gate closed"
+    g = Gate()
+    g.reason = lambda: "why now"
+    assert _ram_loop(ActDecision(True, "defend", None, "x"), tap_gate=g).step("f", 1.0, 0, 2.0).executor["gate"] == "why now"
+
+
+def test_a_closed_tap_gate_also_holds_back_the_hero_ability_tap():
+    from tests.test_hero_ability import AbilityExecutor, RecordingBuilder, _ability_loop, _ability_state, _allowing
+    ex, bld = AbilityExecutor(), RecordingBuilder(_ability_state())
+    lp = _ability_loop(executor=ex, builder=bld, tap_gate=Gate(), **_allowing())
+    d = lp.step("f", 1.0, 0, 1.0)
+    assert d.key.startswith("ability:") and ex.taps == [] and ex.calls == []
+    assert d.executor["status"] == "gated" and d.executor["sent"] is False and bld.plays == []
+    assert lp._ability_t == float("-inf")                             # no tap happened: the 30 s timer did not start
+    ex2 = AbilityExecutor()
+    _ability_loop(executor=ex2, tap_gate=Gate(is_open=True), **_allowing()).step("f", 1.0, 0, 1.0)
+    assert ex2.taps == [("right", 1.0)]
+
+
+def test_tag_battle_adds_the_battle_number_to_frames_and_decisions(tmp_path):
+    lp = _ram_loop(ActDecision(True, "defend", None, "x"), tag_battle=True, tmp_path=tmp_path)
+    lp.step("f", 1.0, 0, 2.0)                                         # outside a battle: "battle": null
+    lp.battle = 3
+    lp.step("f", 2.0, 1, 2.0)
+    for name in ("frames.jsonl", "decisions.jsonl"):
+        rows = [json.loads(x) for x in (tmp_path / name).read_text().splitlines()]
+        assert [r["battle"] for r in rows] == [None, 3], name
+    plain = _ram_loop(ActDecision(True, "defend", None, "x"), tmp_path=tmp_path / "plain")
+    plain.step("f", 1.0, 0, 2.0)
+    assert "battle" not in json.loads((tmp_path / "plain" / "frames.jsonl").read_text().splitlines()[0])
+
+
+def test_hold_rows_carry_the_battle_number_too(tmp_path):
+    lp = _loop(tmp_path, builder=FakeBuilder(warmup=0), policy=StaticPolicy(ActDecision(False, "hold", None, "wait")),
+               tag_battle=True)
+    lp.battle = 2
+    lp.step("f", 1.0, 0, 2.0)
+    assert [json.loads(x)["battle"] for x in (tmp_path / "holds.jsonl").read_text().splitlines()] == [2]
+
+
+class SwitchPerception(FakePerception):
+    """readiness from the frame: a frame is "m" (match) or anything else (menu)."""
+
+    def process(self, frame, t, idx):
+        return types.SimpleNamespace(readiness="match" if frame == "m" else "menu")
+
+
+class ResetBuilder(FakeBuilder):
+    def __init__(self, *a, **k):
+        super().__init__(*a, **k)
+        self.resets = 0
+        self.order = []
+
+    def reset(self):
+        self.resets += 1
+        self.order.append("reset")
+
+    def build(self, gs):
+        self.order.append("build")
+        return super().build(gs)
+
+
+def test_on_match_start_fires_when_the_readiness_turns_match_before_the_build():
+    bld = ResetBuilder(_state(elixir=9.5), warmup=0)
+    calls = []
+    lp = _loop(builder=bld, perception=SwitchPerception(), on_match_start=lambda loop: calls.append(len(loop.frames)))
+    for i, f in enumerate(["x", "m", "m", "x", "x", "m"]):
+        lp.step(f, i * 0.1, i, 1.0)
+    assert calls == [1, 5] and bld.order.count("build") == 6        # once per entry into "match", not per frame
+    lp2 = _loop(builder=ResetBuilder(warmup=0), perception=SwitchPerception())
+    lp2.on_match_start = lambda loop: loop.reset_battle(7)
+    lp2.step("m", 0.0, 0, 1.0)
+    assert lp2.battle == 7 and lp2.builder.order == ["reset", "build"]       # reset before the frame is built
+
+
+def test_no_hook_without_on_match_start():
+    lp = _loop(builder=FakeBuilder(warmup=0), perception=SwitchPerception())
+    lp.step("m", 0.0, 0, 1.0)                                         # nothing to call: no error
+    assert lp.on_match_start is None and lp.tap_gate is None and lp.tag_battle is False and lp.battle is None
+
+
+def test_reset_battle_clears_the_per_battle_state():
+    class Rules:
+        def __init__(self):
+            self._acted = {("left", "giant"): (1.0, "knight")}
+            self._commits = {("left", "giant"): [(1.0, "knight")]}
+            self.last_report = "report"
+
+    class Pol(StaticPolicy):
+        def __init__(self):
+            super().__init__(ActDecision(True, "defend", None, "x"))
+            self.rules = Rules()
+            self._last_t, self._last_p = 5.0, 0.9
+
+    class Coach:
+        resets = 0
+
+        def reset_battle(self):
+            Coach.resets += 1
+
+        def attach(self, out_dir):
+            pass
+
+    pol = Pol()
+    lp = _loop(builder=ResetBuilder(warmup=0), policy=pol, coach=Coach())
+    lp.last_decision_t, lp._ability_t, lp._handled_opp_t, lp._coach_tick_t = 5.0, 5.0, 5.0, 5.0
+    lp._hold_key, lp._hold_t = ("hold", False, "x"), 5.0
+    lp.reset_battle(4)
+    assert lp.battle == 4 and lp.builder.resets == 1 and Coach.resets == 1
+    assert lp.last_decision_t is None and lp._ability_t == lp._handled_opp_t == lp._coach_tick_t == float("-inf")
+    assert lp._hold_key is None and lp._hold_t == float("-inf")
+    assert pol.rules._acted == {} and pol.rules._commits == {} and pol.rules.last_report is None
+    assert pol._last_t is None and pol._last_p == 0.0
+    lp2 = _loop(builder=FakeBuilder(warmup=0), policy="trigger")           # no reset on the builder, a name as policy
+    lp2.reset_battle()
+    assert lp2.battle is None
+
+
+def test_coach_worker_reset_battle_makes_the_next_job_due_and_drops_the_plan():
+    from clashbot.live import CoachPlan, CoachWorker
+    w = CoachWorker(object())
+    w.latest_plan, w._last_t = CoachPlan("plan", 12.0, 0.4), 12.0
+    w._seen.update({"giant"})
+    w.reset_battle()
+    assert w.latest_plan is None and w._last_t is None and w._seen == set()
+
+
+def test_finish_writes_the_summary_closes_everything_but_the_source(tmp_path):
+    class Perc(FakePerception):
+        closed = 0
+
+        def close(self):
+            Perc.closed += 1
+
+    src = FakeSource()
+    lp = _loop(tmp_path, source=src, perception=Perc(), builder=FakeBuilder(warmup=0))
+    lp.step("f", 1.0, 0, 2.0)
+    summary = lp.finish({"demo": {"battles": 1}})
+    assert summary["frames"] == 1 and summary["demo"] == {"battles": 1} and Perc.closed == 1 and src.closed == 0
+    assert json.loads((tmp_path / "summary.json").read_text())["demo"] == {"battles": 1}
+    assert all(fh.closed for fh in lp._fh.values())
+
+
+def _patch_stack(monkeypatch, live_mod, source=None):
+    monkeypatch.setattr(live_mod, "_build_source", lambda args: source or FakeSource())
+    monkeypatch.setattr(live_mod, "_build_perception", lambda args, src: FakePerception())
+    monkeypatch.setattr(live_mod, "_build_ranker", lambda args: FakeKeyRanker())
+    monkeypatch.setattr(live_mod, "_build_plan_text", lambda args, deck: "PLAN")
+    monkeypatch.setattr(live_mod, "_load_kg2", lambda args: None)
+    monkeypatch.setattr(live_mod, "build_engine", lambda *a: None)
+    monkeypatch.setattr(live_mod, "load_cards", lambda: {})
+    monkeypatch.setattr(live_mod, "StateIndex", lambda: None)
+    monkeypatch.setattr(live_mod, "KnowledgeGraph", lambda: None)
+    monkeypatch.setattr(live_mod, "CandidateGenerator", lambda *a: FakeGenerator())
+
+
+def test_build_stack_builds_every_part_and_times_the_stages(monkeypatch):
+    import clashbot.live as live_mod
+    _patch_stack(monkeypatch, live_mod)
+    args = build_parser().parse_args(_argv("--source", "video", "--video", "x.mp4", "--hero-cards", "musketeer"))
+    args.evo_cards = "knight"
+    stages = []
+    st = live_mod.build_stack(args, on_stage=lambda name, s: stages.append(name))
+    assert isinstance(st.source, FakeSource) and st.executor is not None and st.plan_text == "PLAN"
+    assert st.builder.config.hero_cards == ["musketeer"] and st.builder.config.evo_cards == ["knight"]
+    assert st.kg2 is None and st.tactics is None and st.coach is None and st.policy == "reactive"
+    assert stages == ["perception + detector", "state builder", "knowledge graphs + state index",
+                      "candidates + tactics", "ranker + act model", "planner"] and list(st.load_s) == stages
+    bare = live_mod.build_stack(build_parser().parse_args(_argv("--source", "video", "--video", "x.mp4")),
+                                with_source=False)
+    assert bare.source is None and bare.executor is None and bare.builder.config.evo_cards == []     # no evo flag
+
+
+def test_build_stack_closes_what_it_built_when_a_stage_fails(monkeypatch):
+    import clashbot.live as live_mod
+    _patch_stack(monkeypatch, live_mod)
+    src, closed = FakeSource(), []
+
+    class Perc(FakePerception):
+        def close(self):
+            closed.append("perception")
+
+    def no_model(args):
+        raise ValueError("no model")
+
+    monkeypatch.setattr(live_mod, "_build_source", lambda args: src)
+    monkeypatch.setattr(live_mod, "_build_perception", lambda args, s: Perc())
+    monkeypatch.setattr(live_mod, "_build_ranker", no_model)
+    args = build_parser().parse_args(_argv("--source", "video", "--video", "x.mp4"))
+    with pytest.raises(ValueError, match="no model"):
+        live_mod.build_stack(args)
+    assert closed == ["perception"] and src.closed == 1
+    mine = FakeSource()                                              # a source the caller passed in is the caller's to close
+    with pytest.raises(ValueError):
+        live_mod.build_stack(args, source=mine)
+    assert mine.closed == 0
+
+
+def test_main_exits_5_when_the_executor_refuses_and_closes_the_source(monkeypatch, capsys):
+    import clashbot.live as live_mod
+    _patch_stack(monkeypatch, live_mod)
+    src = FakeSource()
+
+    def refuse(args, source):
+        raise PermissionError("live taps are disabled")
+
+    monkeypatch.setattr(live_mod, "_build_source", lambda args: src)
+    monkeypatch.setattr(live_mod, "_build_executor", refuse)
+    assert main(_argv("--source", "video", "--video", "x.mp4", "--device", "cpu")) == 5
+    assert "error: live taps are disabled" in capsys.readouterr().err and src.closed == 1
