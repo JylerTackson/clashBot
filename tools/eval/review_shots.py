@@ -9,7 +9,9 @@ Reads RUN_DIR/shots/index.jsonl (clashbot.recorder_shots, `--record-shots`). Lan
   failed   neither, with a reading (elixir or slot) at +1.5 s;
   unknown  no elixir reading and no slot reading, or nothing read at +1.5 s (the run ended first).
 A hero ability tap (key `ability:musketeer`, status `planned_ability`) has no card slot: it is judged by the elixir drop
-alone, landed when it fell by >= 3 - 0.6 = 2.4 at the +0.5 s or +1.5 s reading (FIX #40).
+alone (FIX #40), landed when it fell by >= cost - 1.5 = 1.5 at the +0.5 s or +1.5 s reading (MAC-AL T3: at 2x / 3x
+elixir the bar refills 0.7-1.1 elixir/s, so a tap that worked often shows less than the full 3). The index does not
+record the ability button after the tap, so the button state is not used.
 Elixir and hand are the raw perception readings when the index has them (`elixir_*`, `hand_raw_*`), else the tracked ones.
 A tap that was not sent (dry run) has no verdict unless `--include-dry` (a video dry run: the elixir then follows the
 human who played the video). Writes sheet_NNN.png (3 images a / b / c per decision, 6 decisions per sheet, a caption per
@@ -36,6 +38,7 @@ from clashbot.config import HOLD_KEY  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 
 DROP_TOL = 0.6                 # a tap landed when the elixir fell by at least cost - DROP_TOL
+ABILITY_DROP_TOL = 1.5         # ... for a hero ability tap cost - 1.5: the bar refills 0.7-1.1 elixir/s at 2x / 3x (MAC-AL T3)
 TAP_STATUSES = ("planned", "dry_run", "planned_ability")     # (the ability tap is judged by its elixir drop, FIX #40)
 VERDICTS = ("landed", "failed", "unknown")
 ROW_BANDS = ((0, 8, "rows 0-7 (own back)"), (8, 16, "rows 8-15 (own front)"),
@@ -101,7 +104,8 @@ def elixir_drop(row: dict) -> float | None:
 def landing_verdict(row: dict, cost: float | None) -> str:
     drop = elixir_drop(row)
     reads = slot_reads(row)
-    if drop is not None and cost is not None and drop >= cost - DROP_TOL:
+    tol = ABILITY_DROP_TOL if is_ability_key(row.get("key")) else DROP_TOL
+    if drop is not None and cost is not None and drop >= cost - tol:
         return "landed"
     card = row_card(row)
     if any(c != card for c in reads):
@@ -198,8 +202,8 @@ def build_review(run_dir: Path, rows: list[dict], include_dry: bool, only: str, 
              f"- verdicts over {'sent and dry-run taps' if include_dry else 'sent taps'} ({len(taps)}): "
              f"landed {counts['landed']}, failed {counts['failed']}, unknown {counts['unknown']}; "
              f"landing rate {rate(counts['landed'], counts['failed'])} (unknown left out)",
-             f"- landed = elixir fell by >= cost - {DROP_TOL:g} at +0.5 s or +1.5 s, or the tapped slot reads another card; "
-             "elixir and hand are the raw perception readings when recorded",
+             f"- landed = elixir fell by >= cost - {DROP_TOL:g} at +0.5 s or +1.5 s (hero ability: cost - {ABILITY_DROP_TOL:g}), "
+             "or the tapped slot reads another card; elixir and hand are the raw perception readings when recorded",
              f"- sheets: {len(sheets)} written ({only} taps) in {sheets[0].rsplit('/', 1)[0] if sheets else '-'}", ""]
     if not taps:
         lines += [f"No judged taps ({len(sent)} sent). A dry run needs `--include-dry`.", ""]

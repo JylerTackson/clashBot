@@ -37,7 +37,7 @@ import cv2
 from .hud import (AbilityButtonReader, CardMatcher, DigitReader, DigitTemplates, ElixirBarReader, HandReader, OcrReader,
                   TowerHpReader, crop_roi, parse_clock)
 from .labels import DeployLabelReader, label_ground_point
-from .tracking import TOWER_TILES, UnitTracker, load_speed_priors
+from .tracking import TOWER_TILES, UnitTracker, load_range_priors, load_speed_priors
 from .clock import ClockTracker
 from .screen import ContentRect, MatchGate, assess, detect_content_rect
 from .sources import FrameSource
@@ -142,7 +142,9 @@ class Perception:
         self.deck = OpponentDeckTracker(load_kb_decks(self.kb))
         cats = {c["slug"]: ("building" if c["card_type"] == "Building" else "spell" if c["card_type"] == "Spell" else "unit")
                 for c in _idx["cards"]}
-        self.tracker = UnitTracker(speed_priors=load_speed_priors(self.kb), categories=cats)
+        # attack ranges for the tower ETA (MAC-AL T1); a missing unit_stats.json gives {} = the old tower-edge ETA
+        self.tracker = UnitTracker(speed_priors=load_speed_priors(self.kb), categories=cats,
+                                   range_priors=load_range_priors())
         self.towers = g.TowerState()
         self.last_good: dict = {}
         self.last_good_t: dict = {}
