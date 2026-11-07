@@ -14,13 +14,17 @@ Domain priors (Clash Royale):
     screen, enemies down) instead of zero velocity;
   * buildings and spells do not move (static model, tiny process noise);
   * units follow lanes toward towers, so heading is reported relative to
-    the field (toward enemy left/right tower, king tower, or retreating).
+    the field (toward enemy left/right tower, king tower, or retreating);
+  * a unit attacks a tower from its attack range, so the tower ETA (MAC-AL T1)
+    is the time to get within range of the tower edge, at the card's speed
+    (the filter lags behind a unit that walks at a fixed speed).
 
 State x = [col, row, v_col, v_row] in tiles and tiles/s; measurement z =
 [col, row] of the bounding-box bottom-centre mapped through the homography.
 """
 from __future__ import annotations
 
+import json
 import math
 import re
 from dataclasses import dataclass, field
@@ -36,6 +40,10 @@ STATIC_TYPES = {"building", "tower", "spell"}
 
 TOWER_TILES = {"enemy_left": (3.5, 23.3), "enemy_right": (14.5, 23.3), "enemy_king": (9.0, 26.3),
                "own_left": (3.5, 4.3), "own_right": (14.5, 4.3), "own_king": (9.0, 0.5)}
+TOWER_EDGE = 1.5             # tiles from a tower's centre to its edge (a melee unit stops here)
+TOWARD_COS = 0.5             # moving toward a tower: cosine of the velocity to the tower direction at least this
+PRIOR_SPEED_FRAC = 0.9       # a track walking toward the tower is at least this share of its card's speed
+UNIT_STATS_PATH = Path(__file__).resolve().parents[1] / "clashbot" / "resources" / "unit_stats.json"
 
 
 def load_speed_priors(kb: Path) -> dict[str, float]:
@@ -63,6 +71,51 @@ def load_speed_priors(kb: Path) -> dict[str, float]:
     return out
 
 
+def load_range_priors(path: Path | None = None) -> dict[str, float]:
+    """slug -> attack range in tiles of the card's first unit (`units[0].range_tiles`, 0.0 when missing), from
+    `clashbot/resources/unit_stats.json`. Keyed by card slug like `load_speed_priors`, so a track finds both with
+    `to_card_slug(cls)`. A missing or unreadable file gives {} (no range: the old tower-edge rule)."""
+    try:
+        cards = json.loads(Path(path or UNIT_STATS_PATH).read_text(encoding="utf-8")).get("cards") or {}
+    except (OSError, ValueError, AttributeError):
+        return {}
+    out: dict[str, float] = {}
+    for slug, card in cards.items():
+        units = (card or {}).get("units") or []
+        r = units[0].get("range_tiles") if units and isinstance(units[0], dict) else None
+        out[slug] = float(r) if isinstance(r, (int, float)) and not isinstance(r, bool) else 0.0
+    return out
+
+
+def eta_to_tower(pos, vel, side: str, speed_prior: float | None = None,
+                 range_prior: float = 0.0) -> tuple[str, float] | None:
+    """(tower name, seconds) until a unit at `pos` (tiles) moving with `vel` (tiles/s) is within attack range of the
+    closest tower on the opposing side (allies go for the enemy's towers, enemies for ours). Pure; no priors gives the
+    old rule (straight-line distance to the tower edge at the filter's speed).
+      * d = distance to the tower centre - TOWER_EDGE - range, floored at 0; d == 0 is ETA 0.0 whatever the speed
+        (a unit in reach of a tower is at it, even when it reads stationary);
+      * the filter lags behind a unit that walks at its card's speed: when the velocity points at the tower
+        (cosine >= TOWARD_COS) and the card's speed is known, the speed is max(filter speed, 0.9 x card speed);
+      * filter speed < 0.1 and d > 0 is None (not going anywhere)."""
+    names = ("enemy_left", "enemy_right", "enemy_king") if side == "ally" else ("own_left", "own_right", "own_king")
+    best = None
+    for nm in names:
+        tc, tr = TOWER_TILES[nm]
+        dist = math.hypot(tc - pos[0], tr - pos[1])
+        d = max(0.0, dist - TOWER_EDGE - range_prior)
+        if best is None or (d, dist) < (best[1], best[2]):
+            best = (nm, d, dist, tc, tr)
+    nm, d, dist, tc, tr = best
+    if d <= 0.0:
+        return nm, 0.0
+    sp = math.hypot(vel[0], vel[1])
+    if sp < 0.1:
+        return None
+    if speed_prior and dist > 0 and (vel[0] * (tc - pos[0]) + vel[1] * (tr - pos[1])) / (sp * dist) >= TOWARD_COS:
+        sp = max(sp, PRIOR_SPEED_FRAC * speed_prior)
+    return nm, round(d / sp, 1)
+
+
 @dataclass
 class KalmanTrack:
     id: int
@@ -79,6 +132,8 @@ class KalmanTrack:
     bbox: tuple[int, int, int, int] | None = None
     conf: float = 0.0
     history: list[tuple[float, float, float]] = field(default_factory=list)   # (t, c, r) measurements
+    speed_prior: float | None = None   # the card's tiles/s (None: unknown card)
+    range_prior: float = 0.0           # the card's attack range in tiles (0: unknown card)
 
     # --- model -----------------------------------------------------------
     @property
@@ -184,19 +239,12 @@ class KalmanTrack:
         return round(dt, 1) if dt > 0 else None
 
     def eta_to_nearest_enemy_tower(self) -> tuple[str, float] | None:
-        """(tower name, seconds) using straight-line speed toward the closest
-        tower on the opposing side (from this track's point of view)."""
-        sp = self.speed()
-        if sp < 0.1:
+        """(tower name, seconds) until the track is within attack range of the closest tower on the opposing side
+        (from this track's point of view); see `eta_to_tower`. Buildings and spells never arrive: None."""
+        if self.static:
             return None
-        names = ("enemy_left", "enemy_right", "enemy_king") if self.side == "ally" else ("own_left", "own_right", "own_king")
-        best = None
-        for nm in names:
-            tc, tr = TOWER_TILES[nm]
-            d = math.hypot(tc - self.x[0], tr - self.x[1]) - 1.5   # stop at tower edge
-            if best is None or d < best[1]:
-                best = (nm, max(0.0, d))
-        return (best[0], round(best[1] / sp, 1)) if best else None
+        return eta_to_tower((float(self.x[0]), float(self.x[1])), self.velocity(), self.side,
+                            self.speed_prior, self.range_prior)
 
     def summary(self) -> dict:
         c, r = self.position()
@@ -211,7 +259,8 @@ class KalmanTrack:
                 "since_seen": round(self.t - self.last_meas_t, 2), "hits": self.hits,
                 "pred_1s": [round(p1[0], 1), round(p1[1], 1)], "pred_2s": [round(p2[0], 1), round(p2[1], 1)],
                 "eta_river": self.eta_to_row(15.5 if self.side == "ally" else 15.5),
-                "eta_tower": {"tower": eta[0], "s": eta[1]} if eta else None, "conf": round(self.conf, 2)}
+                "eta_tower": {"tower": eta[0], "s": eta[1], "range": round(self.range_prior, 2)} if eta else None,
+                "conf": round(self.conf, 2)}
 
 
 @dataclass
@@ -226,6 +275,13 @@ class UnitTracker:
     tracks: dict[int, KalmanTrack] = field(default_factory=dict)
     next_id: int = 1
     t: float = 0.0
+    range_priors: dict[str, float] = field(default_factory=dict)   # slug -> attack range in tiles (`load_range_priors`)
+
+    def _priors(self, cls: str) -> tuple[float | None, float]:
+        """(speed prior or None, range prior or 0.0) of a track's class."""
+        from .detect import to_card_slug
+        slug = to_card_slug(cls)
+        return self.speed_priors.get(slug), float(self.range_priors.get(slug, 0.0))
 
     def _prior_velocity(self, cls: str, side: str, category: str) -> tuple[float, float]:
         if category in STATIC_TYPES:
@@ -278,6 +334,7 @@ class UnitTracker:
                 tr = self.tracks[assigned[i]]
                 if tr.cls == "unknown_unit" and d.cls != "unknown_unit":
                     tr.cls = d.cls          # a later, better read of the same unit
+                    tr.speed_prior, tr.range_prior = self._priors(d.cls)
                 tr.update(z, t, self.meas_noise, self.process_noise, d.bbox, d.conf)
             else:
                 unmatched.append(d)
@@ -287,6 +344,7 @@ class UnitTracker:
             x = np.array([d.pos_f[0], d.pos_f[1], v[0], v[1]], dtype=float)
             P = np.diag([self.meas_noise ** 2, self.meas_noise ** 2, 0.5 ** 2, 0.5 ** 2])
             tr = KalmanTrack(self.next_id, d.cls, d.side, cat, x, P, t, 1, 0, t, t, d.bbox, d.conf)
+            tr.speed_prior, tr.range_prior = self._priors(d.cls)
             tr.history.append((t, float(d.pos_f[0]), float(d.pos_f[1])))
             self.tracks[self.next_id] = tr
             self.next_id += 1

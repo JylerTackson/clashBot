@@ -395,12 +395,15 @@ def _verdict(row):
     return classify([row], load_cards())[0]["verdict"]
 
 
-def test_ability_taps_are_judged_by_an_elixir_drop_of_at_least_2_4():
+def test_ability_taps_are_judged_by_an_elixir_drop_of_at_least_1_5():
+    """MAC-AL T3: cost 3 - 1.5 = 1.5 (at 2x / 3x elixir the bar refills 0.7-1.1 elixir/s before the +1.5 s reading)."""
     cards = load_cards()
     assert is_tap(_ability_row(1, 6.0, 3.0, 3.0)) and tap_cost(_ability_row(1, 6.0, 3.0, 3.0), cards) == 3.0
-    assert _verdict(_ability_row(1, 6.0, 3.5, 3.6)) == "landed"      # fell by 2.5 >= 2.4
+    assert _verdict(_ability_row(1, 6.0, 3.5, 3.6)) == "landed"      # fell by 2.5 >= 1.5
     assert _verdict(_ability_row(2, 6.0, 4.0, 3.5)) == "landed"      # the lowest of the two readings counts
-    assert _verdict(_ability_row(3, 6.0, 4.0, 3.9)) == "failed"      # 2.1 only, with a reading at +1.5 s
+    assert _verdict(_ability_row(3, 6.0, 4.0, 3.9)) == "landed"      # 2.0 (was `failed` at the old 2.4 threshold)
+    assert _verdict(_ability_row(3, 6.0, 4.5, 4.9)) == "landed"      # exactly 1.5
+    assert _verdict(_ability_row(3, 6.0, 4.6, 4.7)) == "failed"      # 1.4 only, with a reading at +1.5 s
     assert _verdict(_ability_row(4, 6.0, 5.8, 5.9)) == "failed"      # nothing spent
     assert _verdict(_ability_row(5, 6.0, None, None)) == "unknown"   # no readings at all
     assert _verdict(_ability_row(6, 6.0, 3.0, None)) == "landed"     # the +0.5 s reading alone shows the drop
@@ -411,6 +414,17 @@ def test_ability_taps_are_judged_by_an_elixir_drop_of_at_least_2_4():
     assert classify([_ability_row(8, 6.0, 3.5, 3.5, sent=False)], cards, include_dry=True)[0]["verdict"] == "landed"
     # a card tap is still judged by its own cost (zap 2: fell by 2.0 >= 2 - 0.6)
     assert _verdict(_row(9, "zap|left|mid", 0, 5.0, 3.0, 3.0, HAND)) == "landed"
+
+
+def test_ability_tap_that_fires_while_the_bar_refills_is_landed():
+    """The run of 2026-11-06: 3 -> 1 at +0.5 s (then 2 at +1.5 s) is a landed ability tap; 3 -> 3 is a failed one."""
+    assert _verdict(_ability_row(1, 3.0, 1.0, 2.0)) == "landed"
+    assert _verdict(_ability_row(2, 4.0, 2.0, 2.0)) == "landed"      # t = 407.9: 4 -> 2
+    assert _verdict(_ability_row(3, 3.0, 1.0, None)) == "landed"     # the +0.5 s reading alone
+    assert _verdict(_ability_row(4, 3.0, 3.0, 3.0)) == "failed"
+    assert _verdict(_ability_row(5, 3.0, 2.0, 2.1)) == "failed"      # fell by 1.0: below cost - 1.5
+    # a card tap keeps the strict tolerance: a 4-elixir card whose elixir fell by only 2.0 did not land
+    assert _verdict(_row(6, "musketeer|left|mid", 0, 6.0, 4.0, 4.0, ["musketeer", "archers", "knight", "giant"])) == "failed"
 
 
 def test_review_covers_ability_taps_in_its_tables(tmp_path):
