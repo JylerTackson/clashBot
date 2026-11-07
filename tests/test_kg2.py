@@ -13,10 +13,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from clashbot.card_roles import load_roles  # noqa: E402
-from clashbot.kg2 import KG2, SOURCE_WEIGHTS, elixir_band, eta_band, situation_key  # noqa: E402
+from clashbot.kg2 import KG2, SOURCE_WEIGHTS, WIKI_WEIGHT_WITH_SIM, elixir_band, eta_band, situation_key  # noqa: E402
 from tools.data import build_kg_v2 as B  # noqa: E402
 
 REAL_DB = ROOT / "db" / "kg2.sqlite"
+REAL_KB = ROOT / "knowledge_base"
+REAL_UNIT_STATS = ROOT / "clashbot" / "resources" / "unit_stats.json"
+HAVE_UNIT_STATS = REAL_UNIT_STATS.exists() and (REAL_KB / "cards").exists()
 CARDS = {"balloon": 5, "musketeer": 4, "cannon": 3, "tesla": 4, "inferno-tower": 5, "knight": 3, "valkyrie": 4,
          "zap": 2, "fireball": 4, "golem": 8, "bats": 2, "arrows": 3, "night-witch": 4, "lightning": 6, "giant": 5}
 OUR = ["musketeer", "tesla", "zap", "knight"]
@@ -424,9 +427,11 @@ def test_answers_for_sim_source_uses_stops_edges(tmp_path):
     assert kn.sources["sim"] == pytest.approx(0.8) and kn.sources["wiki"] == pytest.approx(0.5)
     # pro is absent (inferno-tower, the pro answer, is not ours) so its weight drops out; role transfer reaches tesla
     assert ans["tesla"].sources["role_transfer"] > 0 and ans["tesla"].via == "inferno-tower"
-    w = SOURCE_WEIGHTS
+    w = dict(SOURCE_WEIGHTS, wiki=WIKI_WEIGHT_WITH_SIM)                # a STOPS edge exists: the wiki weight halves
+    assert k.source_weights["wiki"] == 0.05
     assert kn.score == pytest.approx((w["wiki"] * 0.5 + w["sim"] * 0.8) / (w["role_transfer"] + w["wiki"] + w["sim"]),
                                      abs=1e-3)
+    assert kn.prevented is None and kn.adequate is None                # '{}' props: nothing to quote
     k.close()
 
 
@@ -518,6 +523,155 @@ def test_facts_lines_shrink_to_fit(kg, monkeypatch):
     assert kg.facts_lines(_state([_unit("no-such-card", [9, 10], 4.0)]), OUR) == []
 
 
+# ------------------------------------------------------------------------------------------ K4a: numeric role vectors
+def test_soft_bins_share_between_neighbours_and_sum_to_one():
+    mid = B.soft_bin("hp", 1000.0)                                   # between the 900 and 1500 centres, nearer 900
+    assert set(mid) == {"hp~900", "hp~1500"} and sum(mid.values()) == pytest.approx(1.0)
+    assert mid["hp~900"] > mid["hp~1500"]
+    assert B.soft_bin("hp", 10.0) == {"hp~150": 1.0} and B.soft_bin("hp", 1e6) == {"hp~6500": 1.0}
+    assert B.soft_bin("range", 1.5)["range~1.5"] == 1.0                    # exactly on a centre
+    assert B.soft_bin("speed", 0.0) == {}
+
+
+def test_numeric_stats_totals_and_levels():
+    rows_ = [("swarm", 14, "swarm", {"hp": 100, "dps": 10, "count": 4}),
+             ("swarm", 15, "swarm", {"hp": 110, "dps": 11, "count": 4, "range_tiles": 1.2, "damage": 20,
+                                     "speed_tiles_s": 2.0}),
+             ("swarm", 15, "spawned", {"hp": 50, "dps": 5, "count": 0}),
+             ("fireball", 15, "fireball", {"damage": 1000, "area_damage": 1000, "radius_tiles": 2.5})]
+    num = B.numeric_stats(rows_)
+    assert num["swarm"] == {"hp": 440.0, "dps": 44.0, "range": 1.2, "speed": 2.0}      # level 15, units x count, count 0 skipped
+    assert num["fireball"] == {"spell_dmg": 1000.0, "spell_radius": 2.5}
+    assert B.numeric_stats(rows_, level=16)["swarm"]["hp"] == 440.0                    # nearest level
+
+
+def test_numeric_bins_tell_apart_cards_that_share_every_coarse_class():
+    roles = {"a": {"type": "troop", "targets": "ground", "hp_class": "medium", "dps_class": "medium", "range": "melee",
+                   "roles": ["mini_tank"]}}
+    base = B.role_vector(roles["a"])
+    big = B.role_vector(roles["a"], {"hp": 2200.0, "dps": 200.0, "range": 1.0, "speed": 1.5})
+    small = B.role_vector(roles["a"], {"hp": 1500.0, "dps": 140.0, "range": 1.0, "speed": 1.5})
+    assert B.cosine(base, base) == pytest.approx(1.0)
+    assert B.cosine(big, small) < 1.0 and B.cosine(big, big) == pytest.approx(1.0)
+    assert B.cosine(big, base) > 0.6                                                    # still the same class
+
+
+@pytest.mark.skipif(not HAVE_UNIT_STATS, reason="unit_stats.json / knowledge_base missing")
+def test_knight_is_no_longer_identical_to_prince_and_monk():
+    roles = load_roles()
+    stat_rows, path = B.load_stats(REAL_KB, REAL_UNIT_STATS)
+    assert path == "unit_stats"
+    num = B.numeric_stats(stat_rows)
+    v = {s: B.role_vector(roles[s], num.get(s)) for s in ("knight", "prince", "monk", "tesla", "inferno-tower", "zap")}
+    coarse = {s: B.role_vector(roles[s]) for s in ("knight", "prince", "monk")}
+    assert B.cosine(coarse["knight"], coarse["prince"]) == pytest.approx(1.0)           # (the old vectors: identical)
+    assert B.cosine(v["knight"], v["prince"]) < 0.97 and B.cosine(v["knight"], v["monk"]) < 0.99
+    assert B.cosine(v["tesla"], v["inferno-tower"]) > 0.7 and B.cosine(v["tesla"], v["zap"]) < 0.3
+
+
+# ------------------------------------------------------------------------------------------ K4a: mechanics edges
+UNIT_NODES = [("unit:bat", "bat", "bats"), ("unit:balloon", "balloon", "balloon"), ("unit:giant", "giant", "giant"),
+              ("unit:knight", "knight", "knight")]
+
+
+def build_sim(tmp: Path, **kw) -> Path:
+    """The fixture graph built with the real unit_stats.json: mechanics edges (STOPS / KILLS / PULLS) are on."""
+    ds = make_dataset(tmp)
+    with (ds / "kg" / "nodes.jsonl").open("a", encoding="utf-8") as fh:
+        for nid, name, primary in UNIT_NODES:
+            fh.write(json.dumps({"id": nid, "type": "unit", "name": name,
+                                 "props": {"kind": "card", "primary": primary, "is_evo": False}}) + "\n")
+    out = tmp / "kg2_sim.sqlite"
+    B.build(ds, out, kb=make_kb(tmp), roles=make_roles(), unit_stats_json=REAL_UNIT_STATS, **kw)
+    return out
+
+
+def _stops(path: Path, src: str, dst: str):
+    r = rows(path, "SELECT weight, support, source, props FROM edges WHERE src = ? AND dst = ? AND rel = 'STOPS'",
+             f"card:{src}", f"card:{dst}")
+    if not r:
+        return None
+    w, support, source, props = r[0]
+    return {"weight": w, "support": support, "source": source, **json.loads(props)}
+
+
+@pytest.fixture(scope="module")
+def sim_db(tmp_path_factory):
+    if not HAVE_UNIT_STATS:
+        pytest.skip("unit_stats.json / knowledge_base missing")
+    return build_sim(tmp_path_factory.mktemp("sim"))
+
+
+def test_without_unit_stats_there_are_no_mechanics_edges(db):
+    assert not rows(db, "SELECT 1 FROM edges WHERE rel IN ('STOPS', 'KILLS', 'PULLS') OR source = 'sim'")
+    meta = dict(rows(db, "SELECT key, value FROM meta"))
+    assert meta["mechanics"] == "False"
+
+
+def test_stops_edges_follow_the_lane_simulation(sim_db):
+    meta = dict(rows(sim_db, "SELECT key, value FROM meta"))
+    assert meta["stats_path"] == "unit_stats" and meta["mechanics"] == "True"
+    assert int(meta["count.rel.STOPS"]) > 50
+    assert int(meta["count.source.sim"]) == sum(int(meta.get(f"count.rel.{r}", 0)) for r in ("STOPS", "KILLS", "PULLS"))
+    musk = _stops(sim_db, "musketeer", "balloon")
+    tesla = _stops(sim_db, "tesla", "balloon")
+    assert musk["source"] == "sim" and musk["support"] == 0
+    assert 0.0 < musk["weight"] <= 1.0 and musk["prevented"] >= 1500 and musk["adequate"] is True
+    assert musk["damage_without"] > 2000 and musk["damage_with"] < 600                    # a lone L15 balloon vs the tower
+    assert tesla["adequate"] is True and tesla["prevented"] >= 1500 and tesla["level"] == 15
+    # a knight cannot touch a flyer; a zap only delays the balloon's first hit (not adequate)
+    assert _stops(sim_db, "knight", "balloon") is None
+    zap = _stops(sim_db, "zap", "balloon")
+    assert zap is None or zap["adequate"] is False
+    # weight = prevented per elixir / the reference, so the cheaper equal answer weighs more
+    assert musk["weight"] == pytest.approx(min(1.0, musk["prevented"] / musk["elixir"] / B.STOPS_EFFICIENCY_REF), abs=1e-3)
+    # a building stops a giant; the knight alone does not stop it in time
+    assert _stops(sim_db, "tesla", "giant")["adequate"] is True
+    kn = _stops(sim_db, "knight", "giant")
+    assert kn["prevented"] > 1000 and kn["adequate"] is False
+
+
+def test_kills_edges_compare_spell_damage_with_unit_hitpoints(sim_db):
+    kills = {(s, d) for s, d in rows(sim_db, "SELECT src, dst FROM edges WHERE rel = 'KILLS'")}
+    assert ("card:zap", "unit:bat") in kills and ("card:fireball", "unit:bat") in kills       # L15 bats have 119 hp
+    assert ("card:zap", "unit:balloon") not in kills and ("card:fireball", "unit:giant") not in kills
+    assert not any(s not in ("card:zap", "card:fireball", "card:arrows", "card:lightning") for s, _ in kills)
+    props = json.loads(rows(sim_db, "SELECT props FROM edges WHERE src = 'card:zap' AND dst = 'unit:bat'")[0][0])
+    assert props["damage"] >= props["hp"] and props["card"] == "bats" and props["opp_level"] == 15
+
+
+def test_pulls_edges_building_vs_building_targeter(sim_db):
+    pulls = {(s, d) for s, d in rows(sim_db, "SELECT src, dst FROM edges WHERE rel = 'PULLS'")}
+    assert ("card:tesla", "card:balloon") in pulls and ("card:cannon", "card:giant") in pulls
+    assert not any(d in ("card:knight", "card:bats", "card:musketeer") for _, d in pulls)
+    assert not any(s in ("card:knight", "card:balloon") for s, _ in pulls)                # only buildings pull
+    q = "SELECT props FROM edges WHERE rel = 'PULLS' AND src = 'card:tesla' AND dst = ?"
+    p = json.loads(rows(sim_db, q, "card:giant")[0][0])
+    assert p["pull_tile"] == list(B.SIM_PULL_TILE) and p["window_s"] > 2 and p["survives_window"] is True
+    assert json.loads(rows(sim_db, q, "card:balloon")[0][0])["flying"] is True
+
+
+def test_answers_for_uses_stops_and_the_lower_wiki_weight(sim_db, tmp_path):
+    k = KG2(sim_db, deck_cooc_path=tmp_path / "missing.json")
+    assert k.source_weights["wiki"] == WIKI_WEIGHT_WITH_SIM
+    ans = {a.card: a for a in k.answers_for("night-witch", OUR)}                        # no pro, no wiki: the sim carries it
+    assert ans and all(a.support == 0 and a.sources["sim"] > 0 for a in ans.values())
+    best = next(iter(ans.values()))
+    assert best.prevented and best.prevented >= 1000 and best.adequate is True
+    assert best.score == pytest.approx(best.sources["sim"])                             # renormalised over the one source
+    bal = {a.card: a for a in k.answers_for("balloon", OUR)}
+    assert bal["musketeer"].sources["sim"] > 0 and bal["musketeer"].sources["pro"] > 0
+    assert bal["musketeer"].prevented >= 1500
+    state = _state([_unit("night-witch", [5, 12], 3.0)])
+    line = k.facts_lines(state, OUR)[0]
+    assert len(line) <= 160 and "sim saves" in line
+    # threats are ranked by the simulated tower damage: 5 bats (~120) rank below a night witch (~2,200)
+    both = k.facts_lines(_state([_unit("bats", [5, 12], 3.0), _unit("night-witch", [5, 13], 3.0)]), OUR)
+    assert both[0].startswith("KG: night-witch") and both[1].startswith("KG: bats")
+    assert k._magnitude("night-witch") > k._magnitude("bats") and k._magnitude("balloon") > 2000
+    k.close()
+
+
 # ------------------------------------------------------------------------------------------ real build
 @pytest.mark.skipif(not REAL_DB.exists(), reason="db/kg2.sqlite not built")
 def test_real_db_balloon_l15():
@@ -528,4 +682,10 @@ def test_real_db_balloon_l15():
     meta = k.meta()
     assert int(meta["count.rel.SIMILAR_ROLE"]) > 100 and int(meta["count.rel.COUNTERS"]) > 1000
     assert meta["stats_path"] in ("kb_tables", "unit_stats")
+    if meta.get("mechanics") == "True":                                   # built after K4a: STOPS / KILLS / PULLS are in
+        assert int(meta["count.rel.STOPS"]) > 1000 and int(meta["count.rel.KILLS"]) > 50
+        assert int(meta["count.rel.PULLS"]) > 50 and int(meta["count.source.sim"]) > 1000
+        top = k.answers_for("giant", ["tesla", "mini-p-e-k-k-a", "zap", "musketeer"])[0]
+        assert top.card in ("tesla", "mini-p-e-k-k-a") and top.prevented > 2000 and top.adequate is True
+        assert k.source_weights["wiki"] == 0.05
     k.close()

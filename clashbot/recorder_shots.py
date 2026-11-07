@@ -37,7 +37,10 @@ AFTER_S = (0.5, 1.5)           # a tap is followed by the first frame >= each de
 TAGS = ("a", "b", "c")
 QUEUE_SIZE = 8                 # images waiting for the thread; a full queue drops
 SHOTS_MAX = 400                # decisions recorded per run (about 60 KB per image)
-TAP_STATUSES = ("planned", "dry_run")      # executor statuses that mean "a tap was (or would have been) made"
+# executor statuses that mean "a tap was (or would have been) made". `planned_ability` is the hero ability button tap
+# (MAC-AI): both the dry run and the live executor log it with that status (live adds `sent`), so ability taps get the
+# +0.5 s / +1.5 s frames like a card tap (FIX #40).
+TAP_STATUSES = ("planned", "dry_run", "planned_ability")
 
 CYAN, MAGENTA, GREEN, WHITE, BLACK = (255, 255, 0), (255, 0, 255), (0, 220, 0), (255, 255, 255), (0, 0, 0)
 FONT = cv2.FONT_HERSHEY_SIMPLEX

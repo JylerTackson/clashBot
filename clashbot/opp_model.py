@@ -10,6 +10,10 @@ scores every unseen card by mixing two views of the same evidence:
 Both are normalised to sum to 1 over the unseen cards, mixed 0.6 (a) + 0.4 (b), and scaled so the probabilities sum to
 (8 - |seen|), the number of hidden slots (each capped at 1). `dataset/v1/kg2/deck_cooc.json` is written by
 `tools/data/build_deck_cooc.py` through `OppDeckModel.save` and read back by `OppDeckModel.load`.
+
+Decks can carry a `weight` (a multiplier of their prior weight, default 1) and `tags`. The live Training Camp opponents
+(MAC-AK K4a, FIX #42 d) are added with weight 3 and the tag `training_camp`; `training_camp_share()` says how much of the
+model's total weight they hold, so a reader knows how far it leans on a bot that repeats its decks.
 """
 from __future__ import annotations
 
@@ -24,6 +28,7 @@ W_NEAREST, W_COOC = 0.6, 0.4
 DEFAULT_TEMPERATURE = 0.05       # softmax temperature on Jaccard similarity (a)
 DEFAULT_COUNT_POWER = 0.0        # a deck seen n times weighs n ** count_power (0 = each distinct deck once)
 NO_ARCHETYPE = {None, "", "none", "null"}
+TRAINING_CAMP = "training_camp"  # tag of the decks observed in live Training Camp matches
 
 
 def _num(x: float) -> int | float:
@@ -61,17 +66,23 @@ class OppDeckModel:
 
     def __init__(self, decks: Sequence[Sequence[str]], counts: Sequence[float] | None = None,
                  archetypes: Sequence[str | None] | None = None, cards: Sequence[str] | None = None,
-                 temperature: float = DEFAULT_TEMPERATURE, count_power: float = DEFAULT_COUNT_POWER) -> None:
+                 temperature: float = DEFAULT_TEMPERATURE, count_power: float = DEFAULT_COUNT_POWER,
+                 deck_weights: Sequence[float] | None = None, deck_tags: Sequence[Sequence[str]] | None = None) -> None:
         self.decks: list[tuple[str, ...]] = [tuple(sorted(set(d))) for d in decks]
         self.counts: list[float] = list(counts) if counts is not None else [1] * len(self.decks)
         self.archetypes: list[str | None] = (
             [None if a in NO_ARCHETYPE else a for a in archetypes] if archetypes is not None else [None] * len(self.decks))
-        if not (len(self.decks) == len(self.counts) == len(self.archetypes)):
-            raise ValueError("decks, counts and archetypes must have the same length")
+        self.deck_weights: list[float] = [float(w) for w in deck_weights] if deck_weights is not None else [1.0] * len(self.decks)
+        self.deck_tags: list[tuple[str, ...]] = ([tuple(sorted(set(t))) for t in deck_tags] if deck_tags is not None
+                                                 else [()] * len(self.decks))
+        if not (len(self.decks) == len(self.counts) == len(self.archetypes) == len(self.deck_weights)
+                == len(self.deck_tags)):
+            raise ValueError("decks, counts, archetypes, deck_weights and deck_tags must have the same length")
         self.temperature = float(temperature)
         self.count_power = float(count_power)
         self._sets = [frozenset(d) for d in self.decks]
-        self._weights = [float(c) ** self.count_power for c in self.counts]       # prior weight of each known deck
+        # prior weight of each known deck: n ** count_power, times its own weight (live decks: 3)
+        self._weights = [float(c) ** self.count_power * w for c, w in zip(self.counts, self.deck_weights)]
         raw_cards = {c for d in self.decks for c in d}
         self.cards: list[str] = sorted(set(cards) | raw_cards) if cards is not None else sorted(raw_cards)
         card_counts: Counter = Counter()
@@ -92,7 +103,8 @@ class OppDeckModel:
     def to_dict(self, meta: dict | None = None) -> dict:
         data = {"cards": self.cards, "pair_counts": self.pair_counts, "card_counts": self.card_counts,
                 "decks": [list(d) for d in self.decks], "deck_counts": [_num(c) for c in self.counts],
-                "deck_archetypes": self.archetypes,
+                "deck_archetypes": self.archetypes, "deck_weights": [_num(w) for w in self.deck_weights],
+                "deck_tags": [list(t) for t in self.deck_tags], "total_weight": _num(self.total_weight()),
                 "params": {"temperature": self.temperature, "count_power": self.count_power,
                            "w_nearest": W_NEAREST, "w_cooc": W_COOC}}
         if meta:
@@ -110,7 +122,28 @@ class OppDeckModel:
         kw = {"temperature": params.get("temperature", DEFAULT_TEMPERATURE),
               "count_power": params.get("count_power", DEFAULT_COUNT_POWER)}
         kw.update(overrides)
+        kw.setdefault("deck_weights", data.get("deck_weights"))
+        kw.setdefault("deck_tags", data.get("deck_tags"))
         return cls(data["decks"], data.get("deck_counts"), data.get("deck_archetypes"), data.get("cards"), **kw)
+
+    # ------------------------------------------------------------------ live (Training Camp) decks
+    def total_weight(self) -> float:
+        """Sum of the prior weights of the known decks (what `card_counts` are counted out of)."""
+        return float(sum(self._weights))
+
+    def tagged_share(self, tag: str) -> float:
+        """Share (0..1) of the total prior weight held by the decks carrying `tag`."""
+        total = self.total_weight()
+        if total <= 0:
+            return 0.0
+        return sum(w for w, t in zip(self._weights, self.deck_tags) if tag in t) / total
+
+    def training_camp_share(self) -> float:
+        """Share of the model's weight that comes from decks observed in live Training Camp matches."""
+        return self.tagged_share(TRAINING_CAMP)
+
+    def training_camp_decks(self) -> int:
+        return sum(TRAINING_CAMP in t for t in self.deck_tags)
 
     @classmethod
     def load(cls, path: str | Path, **overrides) -> "OppDeckModel":

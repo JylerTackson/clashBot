@@ -8,6 +8,8 @@ Reads RUN_DIR/shots/index.jsonl (clashbot.recorder_shots, `--record-shots`). Lan
            another card at +0.5 s / +1.5 s;
   failed   neither, with a reading (elixir or slot) at +1.5 s;
   unknown  no elixir reading and no slot reading, or nothing read at +1.5 s (the run ended first).
+A hero ability tap (key `ability:musketeer`, status `planned_ability`) has no card slot: it is judged by the elixir drop
+alone, landed when it fell by >= 3 - 0.6 = 2.4 at the +0.5 s or +1.5 s reading (FIX #40).
 Elixir and hand are the raw perception readings when the index has them (`elixir_*`, `hand_raw_*`), else the tracked ones.
 A tap that was not sent (dry run) has no verdict unless `--include-dry` (a video dry run: the elixir then follows the
 human who played the video). Writes sheet_NNN.png (3 images a / b / c per decision, 6 decisions per sheet, a caption per
@@ -29,10 +31,12 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
+from clashbot.actions import ABILITY_COST, is_ability_key  # noqa: E402
 from clashbot.config import HOLD_KEY  # noqa: E402
 from clashbot.game_rules import load_cards  # noqa: E402
 
 DROP_TOL = 0.6                 # a tap landed when the elixir fell by at least cost - DROP_TOL
+TAP_STATUSES = ("planned", "dry_run", "planned_ability")     # (the ability tap is judged by its elixir drop, FIX #40)
 VERDICTS = ("landed", "failed", "unknown")
 ROW_BANDS = ((0, 8, "rows 0-7 (own back)"), (8, 16, "rows 8-15 (own front)"),
              (16, 24, "rows 16-23 (enemy front)"), (24, 32, "rows 24-31 (enemy back)"))
@@ -53,7 +57,14 @@ def row_card(row: dict) -> str:
 
 def is_tap(row: dict) -> bool:
     """A decision that tapped (or, in a dry run, would have): it has a card and was not held or skipped."""
-    return row.get("key") != HOLD_KEY and row.get("status") in ("planned", "dry_run")
+    return row.get("key") != HOLD_KEY and row.get("status") in TAP_STATUSES
+
+
+def tap_cost(row: dict, cards: dict) -> float | None:
+    """Elixir the tap costs: the card's cost, or ABILITY_COST (3) for the hero ability button; None for an unknown card."""
+    if is_ability_key(row.get("key")):
+        return float(ABILITY_COST)
+    return (cards.get(row_card(row)) or {}).get("elixir_cost")
 
 
 def slot_reads(row: dict) -> list[str]:
@@ -113,7 +124,7 @@ def classify(rows: list[dict], cards: dict, include_dry: bool = False) -> list[d
             r["kind"] = "skipped"
         elif r.get("sent") or include_dry:
             r["kind"] = "tap" if r.get("sent") else "dry"
-            cost = (cards.get(row_card(r)) or {}).get("elixir_cost")
+            cost = tap_cost(r, cards)
             r["cost"] = cost
             r["drop"] = elixir_drop(r)
             r["verdict"] = landing_verdict(r, cost)
