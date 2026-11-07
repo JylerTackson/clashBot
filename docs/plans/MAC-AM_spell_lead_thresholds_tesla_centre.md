@@ -50,7 +50,13 @@ Pin engine weights in tests (`DEFAULT_WEIGHTS`). Keep public APIs compatible; ne
 
 ## M2. A spell is cast only for value (`policy.py`, `tactics.py`)
 1. **One rule.** `spell_worth(card, value, kills) -> bool`, used everywhere `value ≥ cost` is used today: `_adequate`, `_window_s`, `_unblind`, `spell_target` / `spell_best`, the engine's spell moves.
-   - **Zap** (and any spell of cost ≤ 2): `kills ≥ 2` and `value ≥ cost + 0.5`.
+   - **Zap** (and any spell of cost ≤ 2) is worth it on either of two grounds (amendment, user: *"zaps can also be used to damage enemies if it's a large group, it doesn't have to just be used to kill … zap them to bring them all very low and the tower could finish them off"*):
+     - **kills:** `kills ≥ 2` and `value ≥ cost + 0.5`;
+     - **group damage, the tower finishes them:**
+       - the zap's members include ≥ 3 enemy units of one push that is on our half or heading to us;
+       - and the lane simulation with the zap added as a defender prevents at least `ZAP_GROUP_MIN_PREVENT = 300` tower HP more than without it, or no unit reaches the tower with it. `unit_stats.simulate_lane` already takes a damage spell as a defender (cast at the tile, lands after its travel time), alongside our allies in the lane;
+       - reason `zap {names}: tower finishes them, saves ~{N} HP`.
+     - Perception does not read enemy HP bars, so the simulation starts units at full HP. That is conservative for units already worn down by the tower; see FIX_LIST #57.
    - **Other damage spells:** `value ≥ cost + 1.0` and `kills ≥ 1`; or `kills == 0` with `value ≥ cost + 2.0`.
    - The `+ tower` bonus counts in `value`.
    - The same bar in `emergency` and `nothing adequate` (no exception).
@@ -107,6 +113,7 @@ When the frame source raises (window closed / capture failed / end of stream), s
    - zap kills 0 → no;
    - zap on 3 bats → yes;
    - zap on 1 bat of 5 → no;
+   - **group damage** (amendment): archers ×2 + firecracker + spear-goblins ×3 entering our tower's range, zap kills only the goblins or none → the group-damage rule says yes when the simulation's prevented damage is ≥ 300 (state the numbers); the same group far on their side (not heading to us) → no;
    - swarm valuation per M2.3.
 3. **Tesla.**
    - giant at the left bridge [3.5, 15], heading down → tesla tile in `CENTER_BOX`, nearest (8, 10), reason `pulls giant to the centre`;
