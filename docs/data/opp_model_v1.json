@@ -1,0 +1,907 @@
+{
+  "params": {
+    "temperature": 0.05,
+    "count_power": 0.0
+  },
+  "deck_pool": {
+    "total_decks": 407,
+    "unique_decks": 216,
+    "cards": 119
+  },
+  "sections_logo": {
+    "all": {
+      "games": 155,
+      "by_k": {
+        "1": {
+          "n": 155,
+          "model": {
+            "recall": 0.2344,
+            "precision3": 0.2667
+          },
+          "popularity": {
+            "recall": 0.1295,
+            "precision3": 0.1699
+          },
+          "random": {
+            "recall": 0.0591,
+            "precision3": 0.0564
+          }
+        },
+        "2": {
+          "n": 152,
+          "model": {
+            "recall": 0.2912,
+            "precision3": 0.3092
+          },
+          "popularity": {
+            "recall": 0.1237,
+            "precision3": 0.1447
+          },
+          "random": {
+            "recall": 0.0511,
+            "precision3": 0.0484
+          }
+        },
+        "3": {
+          "n": 138,
+          "model": {
+            "recall": 0.3268,
+            "precision3": 0.343
+          },
+          "popularity": {
+            "recall": 0.1181,
+            "precision3": 0.1256
+          },
+          "random": {
+            "recall": 0.0429,
+            "precision3": 0.0405
+          }
+        },
+        "4": {
+          "n": 111,
+          "model": {
+            "recall": 0.2643,
+            "precision3": 0.2372
+          },
+          "popularity": {
+            "recall": 0.0871,
+            "precision3": 0.0991
+          },
+          "random": {
+            "recall": 0.0346,
+            "precision3": 0.0327
+          }
+        },
+        "5": {
+          "n": 76,
+          "model": {
+            "recall": 0.25,
+            "precision3": 0.2325
+          },
+          "popularity": {
+            "recall": 0.0943,
+            "precision3": 0.0877
+          },
+          "random": {
+            "recall": 0.0262,
+            "precision3": 0.0244
+          }
+        }
+      }
+    },
+    "full8": {
+      "games": 106,
+      "by_k": {
+        "1": {
+          "n": 106,
+          "model": {
+            "recall": 0.2358,
+            "precision3": 0.2642
+          },
+          "popularity": {
+            "recall": 0.1375,
+            "precision3": 0.1635
+          },
+          "random": {
+            "recall": 0.059,
+            "precision3": 0.059
+          }
+        },
+        "2": {
+          "n": 104,
+          "model": {
+            "recall": 0.2756,
+            "precision3": 0.3141
+          },
+          "popularity": {
+            "recall": 0.125,
+            "precision3": 0.1378
+          },
+          "random": {
+            "recall": 0.051,
+            "precision3": 0.051
+          }
+        },
+        "3": {
+          "n": 100,
+          "model": {
+            "recall": 0.316,
+            "precision3": 0.3533
+          },
+          "popularity": {
+            "recall": 0.118,
+            "precision3": 0.1233
+          },
+          "random": {
+            "recall": 0.0428,
+            "precision3": 0.0428
+          }
+        },
+        "4": {
+          "n": 87,
+          "model": {
+            "recall": 0.2644,
+            "precision3": 0.2567
+          },
+          "popularity": {
+            "recall": 0.092,
+            "precision3": 0.1073
+          },
+          "random": {
+            "recall": 0.0345,
+            "precision3": 0.0345
+          }
+        },
+        "5": {
+          "n": 60,
+          "model": {
+            "recall": 0.25,
+            "precision3": 0.25
+          },
+          "popularity": {
+            "recall": 0.0944,
+            "precision3": 0.0944
+          },
+          "random": {
+            "recall": 0.0262,
+            "precision3": 0.0262
+          }
+        }
+      }
+    },
+    "split_train": {
+      "games": 115,
+      "by_k": {
+        "1": {
+          "n": 115,
+          "model": {
+            "recall": 0.2317,
+            "precision3": 0.2638
+          },
+          "popularity": {
+            "recall": 0.1284,
+            "precision3": 0.1681
+          },
+          "random": {
+            "recall": 0.0591,
+            "precision3": 0.0566
+          }
+        },
+        "2": {
+          "n": 112,
+          "model": {
+            "recall": 0.2759,
+            "precision3": 0.2946
+          },
+          "popularity": {
+            "recall": 0.1196,
+            "precision3": 0.1399
+          },
+          "random": {
+            "recall": 0.0511,
+            "precision3": 0.0485
+          }
+        },
+        "3": {
+          "n": 100,
+          "model": {
+            "recall": 0.3165,
+            "precision3": 0.3267
+          },
+          "popularity": {
+            "recall": 0.12,
+            "precision3": 0.1267
+          },
+          "random": {
+            "recall": 0.0429,
+            "precision3": 0.0407
+          }
+        },
+        "4": {
+          "n": 84,
+          "model": {
+            "recall": 0.2708,
+            "precision3": 0.246
+          },
+          "popularity": {
+            "recall": 0.0933,
+            "precision3": 0.1032
+          },
+          "random": {
+            "recall": 0.0346,
+            "precision3": 0.0328
+          }
+        },
+        "5": {
+          "n": 57,
+          "model": {
+            "recall": 0.2485,
+            "precision3": 0.2281
+          },
+          "popularity": {
+            "recall": 0.0965,
+            "precision3": 0.0877
+          },
+          "random": {
+            "recall": 0.0262,
+            "precision3": 0.0243
+          }
+        }
+      }
+    },
+    "split_val": {
+      "games": 20,
+      "by_k": {
+        "1": {
+          "n": 20,
+          "model": {
+            "recall": 0.1667,
+            "precision3": 0.1667
+          },
+          "popularity": {
+            "recall": 0.1369,
+            "precision3": 0.2
+          },
+          "random": {
+            "recall": 0.0589,
+            "precision3": 0.056
+          }
+        },
+        "2": {
+          "n": 20,
+          "model": {
+            "recall": 0.3183,
+            "precision3": 0.3
+          },
+          "popularity": {
+            "recall": 0.1533,
+            "precision3": 0.1833
+          },
+          "random": {
+            "recall": 0.0509,
+            "precision3": 0.0479
+          }
+        },
+        "3": {
+          "n": 19,
+          "model": {
+            "recall": 0.4026,
+            "precision3": 0.4035
+          },
+          "popularity": {
+            "recall": 0.1263,
+            "precision3": 0.1579
+          },
+          "random": {
+            "recall": 0.0427,
+            "precision3": 0.0399
+          }
+        },
+        "4": {
+          "n": 14,
+          "model": {
+            "recall": 0.256,
+            "precision3": 0.2143
+          },
+          "popularity": {
+            "recall": 0.0714,
+            "precision3": 0.0952
+          },
+          "random": {
+            "recall": 0.0342,
+            "precision3": 0.0323
+          }
+        },
+        "5": {
+          "n": 12,
+          "model": {
+            "recall": 0.3472,
+            "precision3": 0.3333
+          },
+          "popularity": {
+            "recall": 0.0833,
+            "precision3": 0.0833
+          },
+          "random": {
+            "recall": 0.0263,
+            "precision3": 0.0241
+          }
+        }
+      }
+    },
+    "split_test": {
+      "games": 20,
+      "by_k": {
+        "1": {
+          "n": 20,
+          "model": {
+            "recall": 0.3179,
+            "precision3": 0.3833
+          },
+          "popularity": {
+            "recall": 0.1286,
+            "precision3": 0.15
+          },
+          "random": {
+            "recall": 0.0593,
+            "precision3": 0.0559
+          }
+        },
+        "2": {
+          "n": 20,
+          "model": {
+            "recall": 0.35,
+            "precision3": 0.4
+          },
+          "popularity": {
+            "recall": 0.1167,
+            "precision3": 0.1333
+          },
+          "random": {
+            "recall": 0.0513,
+            "precision3": 0.0479
+          }
+        },
+        "3": {
+          "n": 19,
+          "model": {
+            "recall": 0.3053,
+            "precision3": 0.3684
+          },
+          "popularity": {
+            "recall": 0.1,
+            "precision3": 0.0877
+          },
+          "random": {
+            "recall": 0.0431,
+            "precision3": 0.0399
+          }
+        },
+        "4": {
+          "n": 13,
+          "model": {
+            "recall": 0.2308,
+            "precision3": 0.2051
+          },
+          "popularity": {
+            "recall": 0.0641,
+            "precision3": 0.0769
+          },
+          "random": {
+            "recall": 0.0348,
+            "precision3": 0.0321
+          }
+        },
+        "5": {
+          "n": 7,
+          "model": {
+            "recall": 0.0952,
+            "precision3": 0.0952
+          },
+          "popularity": {
+            "recall": 0.0952,
+            "precision3": 0.0952
+          },
+          "random": {
+            "recall": 0.0263,
+            "precision3": 0.0251
+          }
+        }
+      }
+    }
+  },
+  "sections_lodo": {
+    "all": {
+      "games": 155,
+      "by_k": {
+        "1": {
+          "n": 155,
+          "model": {
+            "recall": 0.2307,
+            "precision3": 0.2538
+          },
+          "popularity": {
+            "recall": 0.1295,
+            "precision3": 0.1699
+          },
+          "random": {
+            "recall": 0.0591,
+            "precision3": 0.0564
+          }
+        },
+        "2": {
+          "n": 152,
+          "model": {
+            "recall": 0.2825,
+            "precision3": 0.2895
+          },
+          "popularity": {
+            "recall": 0.1237,
+            "precision3": 0.1447
+          },
+          "random": {
+            "recall": 0.0511,
+            "precision3": 0.0484
+          }
+        },
+        "3": {
+          "n": 138,
+          "model": {
+            "recall": 0.3094,
+            "precision3": 0.3237
+          },
+          "popularity": {
+            "recall": 0.1123,
+            "precision3": 0.1256
+          },
+          "random": {
+            "recall": 0.0429,
+            "precision3": 0.0405
+          }
+        },
+        "4": {
+          "n": 111,
+          "model": {
+            "recall": 0.2598,
+            "precision3": 0.2312
+          },
+          "popularity": {
+            "recall": 0.0848,
+            "precision3": 0.0991
+          },
+          "random": {
+            "recall": 0.0346,
+            "precision3": 0.0327
+          }
+        },
+        "5": {
+          "n": 76,
+          "model": {
+            "recall": 0.2456,
+            "precision3": 0.2281
+          },
+          "popularity": {
+            "recall": 0.0943,
+            "precision3": 0.0877
+          },
+          "random": {
+            "recall": 0.0262,
+            "precision3": 0.0244
+          }
+        }
+      }
+    },
+    "full8": {
+      "games": 106,
+      "by_k": {
+        "1": {
+          "n": 106,
+          "model": {
+            "recall": 0.2305,
+            "precision3": 0.2453
+          },
+          "popularity": {
+            "recall": 0.1375,
+            "precision3": 0.1635
+          },
+          "random": {
+            "recall": 0.059,
+            "precision3": 0.059
+          }
+        },
+        "2": {
+          "n": 104,
+          "model": {
+            "recall": 0.2628,
+            "precision3": 0.2853
+          },
+          "popularity": {
+            "recall": 0.125,
+            "precision3": 0.1378
+          },
+          "random": {
+            "recall": 0.051,
+            "precision3": 0.051
+          }
+        },
+        "3": {
+          "n": 100,
+          "model": {
+            "recall": 0.292,
+            "precision3": 0.3267
+          },
+          "popularity": {
+            "recall": 0.11,
+            "precision3": 0.1233
+          },
+          "random": {
+            "recall": 0.0428,
+            "precision3": 0.0428
+          }
+        },
+        "4": {
+          "n": 87,
+          "model": {
+            "recall": 0.2586,
+            "precision3": 0.249
+          },
+          "popularity": {
+            "recall": 0.0891,
+            "precision3": 0.1073
+          },
+          "random": {
+            "recall": 0.0345,
+            "precision3": 0.0345
+          }
+        },
+        "5": {
+          "n": 60,
+          "model": {
+            "recall": 0.2444,
+            "precision3": 0.2444
+          },
+          "popularity": {
+            "recall": 0.0944,
+            "precision3": 0.0944
+          },
+          "random": {
+            "recall": 0.0262,
+            "precision3": 0.0262
+          }
+        }
+      }
+    },
+    "split_train": {
+      "games": 115,
+      "by_k": {
+        "1": {
+          "n": 115,
+          "model": {
+            "recall": 0.2267,
+            "precision3": 0.2493
+          },
+          "popularity": {
+            "recall": 0.1284,
+            "precision3": 0.1681
+          },
+          "random": {
+            "recall": 0.0591,
+            "precision3": 0.0566
+          }
+        },
+        "2": {
+          "n": 112,
+          "model": {
+            "recall": 0.2685,
+            "precision3": 0.2768
+          },
+          "popularity": {
+            "recall": 0.1196,
+            "precision3": 0.1399
+          },
+          "random": {
+            "recall": 0.0511,
+            "precision3": 0.0485
+          }
+        },
+        "3": {
+          "n": 100,
+          "model": {
+            "recall": 0.3025,
+            "precision3": 0.31
+          },
+          "popularity": {
+            "recall": 0.114,
+            "precision3": 0.1267
+          },
+          "random": {
+            "recall": 0.0429,
+            "precision3": 0.0407
+          }
+        },
+        "4": {
+          "n": 84,
+          "model": {
+            "recall": 0.2649,
+            "precision3": 0.2381
+          },
+          "popularity": {
+            "recall": 0.0903,
+            "precision3": 0.1032
+          },
+          "random": {
+            "recall": 0.0346,
+            "precision3": 0.0328
+          }
+        },
+        "5": {
+          "n": 57,
+          "model": {
+            "recall": 0.2427,
+            "precision3": 0.2222
+          },
+          "popularity": {
+            "recall": 0.0965,
+            "precision3": 0.0877
+          },
+          "random": {
+            "recall": 0.0262,
+            "precision3": 0.0243
+          }
+        }
+      }
+    },
+    "split_val": {
+      "games": 20,
+      "by_k": {
+        "1": {
+          "n": 20,
+          "model": {
+            "recall": 0.1667,
+            "precision3": 0.1667
+          },
+          "popularity": {
+            "recall": 0.1369,
+            "precision3": 0.2
+          },
+          "random": {
+            "recall": 0.0589,
+            "precision3": 0.056
+          }
+        },
+        "2": {
+          "n": 20,
+          "model": {
+            "recall": 0.3017,
+            "precision3": 0.2667
+          },
+          "popularity": {
+            "recall": 0.1533,
+            "precision3": 0.1833
+          },
+          "random": {
+            "recall": 0.0509,
+            "precision3": 0.0479
+          }
+        },
+        "3": {
+          "n": 19,
+          "model": {
+            "recall": 0.3605,
+            "precision3": 0.3509
+          },
+          "popularity": {
+            "recall": 0.1158,
+            "precision3": 0.1579
+          },
+          "random": {
+            "recall": 0.0427,
+            "precision3": 0.0399
+          }
+        },
+        "4": {
+          "n": 14,
+          "model": {
+            "recall": 0.256,
+            "precision3": 0.2143
+          },
+          "popularity": {
+            "recall": 0.0714,
+            "precision3": 0.0952
+          },
+          "random": {
+            "recall": 0.0342,
+            "precision3": 0.0323
+          }
+        },
+        "5": {
+          "n": 12,
+          "model": {
+            "recall": 0.3472,
+            "precision3": 0.3333
+          },
+          "popularity": {
+            "recall": 0.0833,
+            "precision3": 0.0833
+          },
+          "random": {
+            "recall": 0.0263,
+            "precision3": 0.0241
+          }
+        }
+      }
+    },
+    "split_test": {
+      "games": 20,
+      "by_k": {
+        "1": {
+          "n": 20,
+          "model": {
+            "recall": 0.3179,
+            "precision3": 0.3667
+          },
+          "popularity": {
+            "recall": 0.1286,
+            "precision3": 0.15
+          },
+          "random": {
+            "recall": 0.0593,
+            "precision3": 0.0559
+          }
+        },
+        "2": {
+          "n": 20,
+          "model": {
+            "recall": 0.3417,
+            "precision3": 0.3833
+          },
+          "popularity": {
+            "recall": 0.1167,
+            "precision3": 0.1333
+          },
+          "random": {
+            "recall": 0.0513,
+            "precision3": 0.0479
+          }
+        },
+        "3": {
+          "n": 19,
+          "model": {
+            "recall": 0.2947,
+            "precision3": 0.3684
+          },
+          "popularity": {
+            "recall": 0.1,
+            "precision3": 0.0877
+          },
+          "random": {
+            "recall": 0.0431,
+            "precision3": 0.0399
+          }
+        },
+        "4": {
+          "n": 13,
+          "model": {
+            "recall": 0.2308,
+            "precision3": 0.2051
+          },
+          "popularity": {
+            "recall": 0.0641,
+            "precision3": 0.0769
+          },
+          "random": {
+            "recall": 0.0348,
+            "precision3": 0.0321
+          }
+        },
+        "5": {
+          "n": 7,
+          "model": {
+            "recall": 0.0952,
+            "precision3": 0.0952
+          },
+          "popularity": {
+            "recall": 0.0952,
+            "precision3": 0.0952
+          },
+          "random": {
+            "recall": 0.0263,
+            "precision3": 0.0251
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "seen": [
+        "giant",
+        "balloon"
+      ],
+      "predict": [
+        [
+          "bowler",
+          0.266
+        ],
+        [
+          "miner",
+          0.214
+        ],
+        [
+          "tornado",
+          0.168
+        ],
+        [
+          "zap",
+          0.158
+        ],
+        [
+          "barbarians",
+          0.158
+        ],
+        [
+          "minions",
+          0.156
+        ],
+        [
+          "graveyard",
+          0.145
+        ],
+        [
+          "skeletons",
+          0.142
+        ]
+      ],
+      "archetype": [
+        "beatdown",
+        0.4267
+      ],
+      "sum_all": 6.0
+    },
+    {
+      "seen": [
+        "bats",
+        "night-witch"
+      ],
+      "predict": [
+        [
+          "arrows",
+          0.423
+        ],
+        [
+          "miner",
+          0.352
+        ],
+        [
+          "the-log",
+          0.282
+        ],
+        [
+          "spear-goblins",
+          0.242
+        ],
+        [
+          "elite-barbarians",
+          0.204
+        ],
+        [
+          "barbarian-barrel",
+          0.19
+        ],
+        [
+          "goblins",
+          0.189
+        ],
+        [
+          "mortar",
+          0.187
+        ]
+      ],
+      "archetype": [
+        "beatdown",
+        0.385
+      ],
+      "sum_all": 6.0
+    }
+  ]
+}

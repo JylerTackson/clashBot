@@ -416,8 +416,9 @@ def summarise(name: str, grid: list[dict], best: int, runs: dict[int, dict], d: 
                              for kd, v in sorted(per_kind.items())}}
 
 
-def run_model(name: str, d: dict, seeds: list[int], quick: bool) -> tuple[dict, dict]:
-    """Choose the config on val accuracy (seed 0), then train the chosen config on every seed."""
+def run_model(name: str, d: dict, seeds: list[int], quick: bool, collect: dict | None = None) -> tuple[dict, dict]:
+    """Choose the config on val accuracy (seed 0), then train the chosen config on every seed. `collect`, when given,
+    receives {name: {seed: {"val": scores, "test": scores}}} for `--dump-preds`."""
     t0 = time.time()
     cache: dict[tuple[int, int], dict] = {}
     grid = []
@@ -435,6 +436,8 @@ def run_model(name: str, d: dict, seeds: list[int], quick: bool) -> tuple[dict, 
         runs[s] = cache[(best, s)]
     print(f"[{name}] grid val acc {[round(g['val_acc'], 4) for g in grid]} -> config {best} "
           f"({time.time() - t0:.0f}s)", file=sys.stderr)
+    if collect is not None:
+        collect[name] = {s: {"val": runs[s]["val_scores"], "test": runs[s]["test_scores"]} for s in seeds}
     return summarise(name, grid, best, runs, d), cache[(best, 0)]
 
 
@@ -519,6 +522,19 @@ def render_markdown(res: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
+def dump_preds(path: Path, examples: dict[str, list[dict]], collected: dict, args_seeds: list[int]) -> None:
+    """Per-line option scores of every model and seed (val and test), for tools/eval/eval_stats.py. Options are in the
+    order of ranker/<split>.jsonl; `label` is the gold option index."""
+    out: dict = {"seeds": args_seeds, "note": "raw option scores (logreg / LambdaRank / DCN-V2 logits); argmax = the pick",
+                 "lines": {sp: [{"id": ex["id"], "game_id": ex["game_id"], "kind": ex["kind"], "label": ex["label"],
+                                 "keys": [o["key"] for o in ex["options"]]} for ex in examples[sp]]
+                           for sp in ("val", "test")},
+                 "models": {name: {str(s): {sp: np.round(v[sp], 6).tolist() for sp in ("val", "test")}
+                                   for s, v in runs.items()} for name, runs in collected.items()}}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, separators=(",", ":")) + "\n")
+
+
 # ----------------------------------------------------------------------------------------------------------------
 # CLI
 # ----------------------------------------------------------------------------------------------------------------
@@ -531,6 +547,8 @@ def main(argv: list[str] | None = None) -> dict:
     ap.add_argument("--limit", type=int, default=None, help="first N examples per split")
     ap.add_argument("--quick", action="store_true", help="one config per model, one seed, 5 epochs")
     ap.add_argument("--out", type=Path, default=None)
+    ap.add_argument("--dump-preds", type=Path, default=None,
+                    help="also write the per-line option scores of every model and seed (val, test) to this JSON")
     args = ap.parse_args(argv)
     dataset = Path(args.dataset)
     out = args.out if args.out is not None else dataset / "eval" / "feature_ranker.json"
@@ -557,12 +575,15 @@ def main(argv: list[str] | None = None) -> dict:
     res: dict = {"n": {sp: len(examples[sp]) for sp in SPLITS}, "features": int(data["Xtr"].shape[-1]),
                  "models": {}, "ablation": {}, "reference": build_reference(dataset, examples["val"], examples["test"]),
                  "importance": [], "kg_counter_available": kg is not None}
+    collected: dict = {}
     for name in models:
-        res["models"][name], first = run_model(name, data, seeds, args.quick)
+        res["models"][name], first = run_model(name, data, seeds, args.quick, collected if args.dump_preds else None)
         if name == "lgbm_lambdarank":
             res["importance"] = top_importance(first["gain"])
             res["ablation"] = run_ablation(res["models"][name]["best"]["config"], data)
 
+    if args.dump_preds:
+        dump_preds(Path(args.dump_preds), examples, collected, seeds)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(res, indent=2) + "\n")
     md = render_markdown(res)
