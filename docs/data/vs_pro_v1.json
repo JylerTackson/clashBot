@@ -1,0 +1,2558 @@
+{
+ "meta": {
+  "generated_at": "2026-11-07T23:50:59+00:00",
+  "head": "1bb98a4b7de9bd4e095c6ed8461862289fe0f342,54243d78bc1fc155e65be53f7d0d6a4dc0ea41cf",
+  "frozen_commit": "66917e7",
+  "decision_code_changed": [],
+  "pro_minutes": 30.573999999999998,
+  "runs_dir": "runs/eval/vs_pro",
+  "games": [
+   {
+    "game_id": "5nOaTBlYLlg-m0.0",
+    "minutes": 4.963,
+    "wall_s": 373.6,
+    "frames": 2975,
+    "decisions": 137,
+    "calib": "runs/videos/5nOaTBlYLlg/match_0/calib.json",
+    "hero_cards": [],
+    "evo_cards": [
+     "archers",
+     "royal-hogs"
+    ],
+    "load_s": {
+     "perception + detector": 5.367,
+     "state builder": 0.003,
+     "knowledge graphs + state index": 0.283,
+     "candidates + tactics": 0.001,
+     "ranker + act model": 0.004,
+     "planner": 0.0
+    }
+   },
+   {
+    "game_id": "5nOaTBlYLlg-m0.1",
+    "minutes": 8.998,
+    "wall_s": 621.1,
+    "frames": 5394,
+    "decisions": 223,
+    "calib": "runs/videos/5nOaTBlYLlg/match_0/calib.json",
+    "hero_cards": [
+     "valkyrie"
+    ],
+    "evo_cards": [],
+    "load_s": {
+     "perception + detector": 5.427,
+     "state builder": 0.002,
+     "knowledge graphs + state index": 0.587,
+     "candidates + tactics": 0.001,
+     "ranker + act model": 0.005,
+     "planner": 0.0
+    }
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.0",
+    "minutes": 2.848,
+    "wall_s": 196.6,
+    "frames": 1708,
+    "decisions": 75,
+    "calib": "runs/videos/6qYQNJ1Uaeg/match_0/calib.json",
+    "hero_cards": [
+     "berserker"
+    ],
+    "evo_cards": [],
+    "load_s": {
+     "perception + detector": 5.48,
+     "state builder": 0.003,
+     "knowledge graphs + state index": 0.279,
+     "candidates + tactics": 0.001,
+     "ranker + act model": 0.004,
+     "planner": 0.001
+    }
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.1",
+    "minutes": 2.952,
+    "wall_s": 195.6,
+    "frames": 1770,
+    "decisions": 78,
+    "calib": "runs/videos/6qYQNJ1Uaeg/match_0/calib.json",
+    "hero_cards": [
+     "berserker"
+    ],
+    "evo_cards": [],
+    "load_s": {
+     "perception + detector": 5.626,
+     "state builder": 0.004,
+     "knowledge graphs + state index": 0.346,
+     "candidates + tactics": 0.001,
+     "ranker + act model": 0.004,
+     "planner": 0.0
+    }
+   },
+   {
+    "game_id": "SsOmbv1PfUg-m0.0",
+    "minutes": 2.878,
+    "wall_s": 201.6,
+    "frames": 1728,
+    "decisions": 64,
+    "calib": "runs/videos/SsOmbv1PfUg/match_0/calib.json",
+    "hero_cards": [
+     "berserker"
+    ],
+    "evo_cards": [],
+    "load_s": {
+     "perception + detector": 4.803,
+     "state builder": 0.002,
+     "knowledge graphs + state index": 0.264,
+     "candidates + tactics": 0.0,
+     "ranker + act model": 0.004,
+     "planner": 0.0
+    }
+   },
+   {
+    "game_id": "SsOmbv1PfUg-m0.1",
+    "minutes": 2.13,
+    "wall_s": 133.9,
+    "frames": 1279,
+    "decisions": 49,
+    "calib": "runs/videos/SsOmbv1PfUg/match_0/calib.json",
+    "hero_cards": [
+     "berserker"
+    ],
+    "evo_cards": [],
+    "load_s": {
+     "perception + detector": 5.468,
+     "state builder": 0.002,
+     "knowledge graphs + state index": 0.58,
+     "candidates + tactics": 0.001,
+     "ranker + act model": 0.005,
+     "planner": 0.0
+    }
+   },
+   {
+    "game_id": "Zt6Onn89EVk-m0.0",
+    "minutes": 4.533,
+    "wall_s": 326.0,
+    "frames": 2718,
+    "decisions": 117,
+    "calib": "runs/videos/Zt6Onn89EVk/match_0/calib.json",
+    "hero_cards": [
+     "valkyrie"
+    ],
+    "evo_cards": [],
+    "load_s": {
+     "perception + detector": 5.284,
+     "state builder": 0.003,
+     "knowledge graphs + state index": 0.632,
+     "candidates + tactics": 0.001,
+     "ranker + act model": 0.005,
+     "planner": 0.0
+    }
+   },
+   {
+    "game_id": "Zt6Onn89EVk-m1.0",
+    "minutes": 1.272,
+    "wall_s": 99.1,
+    "frames": 763,
+    "decisions": 56,
+    "calib": "runs/videos/Zt6Onn89EVk/match_0/calib.json",
+    "hero_cards": [
+     "valkyrie"
+    ],
+    "evo_cards": [
+     "goblin-barrel",
+     "skeleton-army"
+    ],
+    "load_s": {
+     "perception + detector": 5.178,
+     "state builder": 0.007,
+     "knowledge graphs + state index": 0.255,
+     "candidates + tactics": 0.001,
+     "ranker + act model": 0.008,
+     "planner": 0.0
+    }
+   }
+  ],
+  "window_s": 2.0,
+  "windows_s": [
+   1.0,
+   2.0,
+   3.0
+  ],
+  "pro_shift_s": -0.5,
+  "skipped": [
+   {
+    "game_id": "CInrqMTlVkg-m0.0",
+    "skip_reason": "deck incomplete (7 cards): the stack needs the 8-card deck"
+   },
+   {
+    "game_id": "CInrqMTlVkg-m0.1",
+    "skip_reason": "deck incomplete (7 cards): the stack needs the 8-card deck"
+   },
+   {
+    "game_id": "CInrqMTlVkg-m0.2",
+    "skip_reason": "deck invalid (5 cards): the stack needs the 8-card deck"
+   },
+   {
+    "game_id": "CInrqMTlVkg-m0.3",
+    "skip_reason": "deck incomplete (7 cards): the stack needs the 8-card deck"
+   },
+   {
+    "game_id": "Zt6Onn89EVk-m0.1",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "5nOaTBlYLlg-m0.2",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.2",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "SsOmbv1PfUg-m0.2",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "Zt6Onn89EVk-m0.2",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "5nOaTBlYLlg-m0.3",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.3",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "SsOmbv1PfUg-m0.3",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "5nOaTBlYLlg-m0.4",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.4",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "SsOmbv1PfUg-m0.4",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "Zt6Onn89EVk-m1.1",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "5nOaTBlYLlg-m0.5",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.5",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "SsOmbv1PfUg-m0.5",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.6",
+    "skip_reason": "not run yet: queued behind the shared heavy lock; `--split test` resumes, `--score` rewrites this report"
+   }
+  ]
+ },
+ "aggregate": {
+  "n_games": 8,
+  "totals": {
+   "games": 8,
+   "minutes": 30.574,
+   "n_pro": 516,
+   "n_bot": 717,
+   "n_ability": 0,
+   "n_pro_card_ok": 354,
+   "n_pro_unknown_card": 130,
+   "n_pro_card_not_in_deck": 32,
+   "pair_dt_sum_abs": 206.351
+  },
+  "metrics": {
+   "recall_1s": {
+    "label": "recall +-1 s",
+    "value": 0.6201550387596899,
+    "ci95": [
+     0.5783132530120482,
+     0.692063492063492
+    ],
+    "n": 516,
+    "kind": "rate"
+   },
+   "recall_2s": {
+    "label": "recall +-2 s",
+    "value": 0.7751937984496124,
+    "ci95": [
+     0.7329545454545454,
+     0.8498583569405099
+    ],
+    "n": 516,
+    "kind": "rate"
+   },
+   "recall_3s": {
+    "label": "recall +-3 s",
+    "value": 0.8643410852713178,
+    "ci95": [
+     0.826530612244898,
+     0.9273182957393483
+    ],
+    "n": 516,
+    "kind": "rate"
+   },
+   "precision_1s": {
+    "label": "precision +-1 s",
+    "value": 0.4881450488145049,
+    "ci95": [
+     0.4514003294892916,
+     0.5360230547550432
+    ],
+    "n": 717,
+    "kind": "rate"
+   },
+   "precision_2s": {
+    "label": "precision +-2 s",
+    "value": 0.7405857740585774,
+    "ci95": [
+     0.701062215477997,
+     0.7940199335548173
+    ],
+    "n": 717,
+    "kind": "rate"
+   },
+   "precision_3s": {
+    "label": "precision +-3 s",
+    "value": 0.8605299860529986,
+    "ci95": [
+     0.8258488499452354,
+     0.90625
+    ],
+    "n": 717,
+    "kind": "rate"
+   },
+   "same_card": {
+    "label": "same card (matched pairs)",
+    "value": 0.1652892561983471,
+    "ci95": [
+     0.12320916905444126,
+     0.21212121212121213
+    ],
+    "n": 242,
+    "kind": "rate"
+   },
+   "same_lane": {
+    "label": "same lane (matched pairs)",
+    "value": 0.4263157894736842,
+    "ci95": [
+     0.3456221198156682,
+     0.535031847133758
+    ],
+    "n": 190,
+    "kind": "rate"
+   },
+   "same_zone": {
+    "label": "same zone (matched pairs)",
+    "value": 0.3473684210526316,
+    "ci95": [
+     0.2839506172839506,
+     0.40828402366863903
+    ],
+    "n": 190,
+    "kind": "rate"
+   },
+   "same_key": {
+    "label": "same key (matched pairs)",
+    "value": 0.031578947368421054,
+    "ci95": [
+     0.010416666666666666,
+     0.05806451612903226
+    ],
+    "n": 190,
+    "kind": "rate"
+   },
+   "same_lane_given_card": {
+    "label": "same lane given same card",
+    "value": 0.36363636363636365,
+    "ci95": [
+     0.20454545454545456,
+     0.6
+    ],
+    "n": 33,
+    "kind": "rate"
+   },
+   "same_zone_given_card": {
+    "label": "same zone given same card",
+    "value": 0.5151515151515151,
+    "ci95": [
+     0.3888888888888889,
+     0.6470588235294118
+    ],
+    "n": 33,
+    "kind": "rate"
+   },
+   "same_key_given_card": {
+    "label": "same key given same card",
+    "value": 0.18181818181818182,
+    "ci95": [
+     0.06382978723404255,
+     0.36
+    ],
+    "n": 33,
+    "kind": "rate"
+   },
+   "tile_dist_given_card": {
+    "label": "mean tile distance, same card",
+    "value": 7.977324462343743,
+    "ci95": [
+     5.237181120950788,
+     9.622769760014975
+    ],
+    "n": 33,
+    "kind": "mean"
+   },
+   "within_2_tiles_given_card": {
+    "label": "within 2 tiles, same card",
+    "value": 0.09090909090909091,
+    "ci95": [
+     0.02127659574468085,
+     0.22727272727272727
+    ],
+    "n": 33,
+    "kind": "rate"
+   },
+   "bot_earlier": {
+    "label": "bot acts earlier than the pro",
+    "value": 0.5454545454545454,
+    "ci95": [
+     0.49557522123893805,
+     0.6
+    ],
+    "n": 341,
+    "kind": "rate"
+   },
+   "bot_on_kg_subset": {
+    "label": "same card, on the pairs where a KG threat exists",
+    "value": 0.17073170731707318,
+    "ci95": [
+     0.07142857142857142,
+     0.2962962962962963
+    ],
+    "n": 41.0,
+    "kind": "rate"
+   },
+   "pro_in_bot_hand": {
+    "label": "the pro's card is in the hand the bot perceived",
+    "value": 0.403954802259887,
+    "ci95": [
+     0.3634361233480176,
+     0.4609053497942387
+    ],
+    "n": 354,
+    "kind": "rate"
+   },
+   "pro_in_dataset_hand": {
+    "label": "the pro's card is in the hand the dataset read",
+    "value": 0.5253623188405797,
+    "ci95": [
+     0.4534005037783375,
+     0.6376146788990825
+    ],
+    "n": 276,
+    "kind": "rate"
+   },
+   "bot_acts_per_min": {
+    "label": "bot taps per minute",
+    "value": 23.451298488912148,
+    "ci95": [
+     20.717855520218084,
+     27.482576244377437
+    ],
+    "n": 30.573999999999998,
+    "kind": "mean"
+   },
+   "pro_plays_per_min": {
+    "label": "pro plays per minute",
+    "value": 16.87708510499117,
+    "ci95": [
+     15.441443623592104,
+     18.656716417910445
+    ],
+    "n": 30.573999999999998,
+    "kind": "mean"
+   },
+   "bot_elixir_per_min": {
+    "label": "bot elixir per minute",
+    "value": 58.93896775037614,
+    "ci95": [
+     52.590403337969406,
+     68.25162097599818
+    ],
+    "n": 30.573999999999998,
+    "kind": "mean"
+   },
+   "pro_elixir_per_min": {
+    "label": "pro elixir per minute",
+    "value": 32.51128409759927,
+    "ci95": [
+     25.38026176158472,
+     41.89317853742437
+    ],
+    "n": 30.573999999999998,
+    "kind": "mean"
+   },
+   "null_recall_2s": {
+    "label": "null recall +-2 s (the bot's taps shifted 20-60 s)",
+    "value": 0.7041343669250646,
+    "ci95": [
+     0.6597408400357462,
+     0.7627551020408163
+    ],
+    "n": 516,
+    "kind": "rate"
+   },
+   "null_precision_2s": {
+    "label": "null precision +-2 s (the bot's taps shifted 20-60 s)",
+    "value": 0.6664342166434217,
+    "ci95": [
+     0.6270949720670391,
+     0.712627669452182
+    ],
+    "n": 717,
+    "kind": "rate"
+   },
+   "recall_2s_pro_shift": {
+    "label": "recall +-2 s, pro stamp shifted -0.5 s",
+    "value": 0.7771317829457365,
+    "ci95": [
+     0.7236641221374046,
+     0.8603351955307262
+    ],
+    "n": 516,
+    "kind": "rate"
+   },
+   "precision_2s_pro_shift": {
+    "label": "precision +-2 s, pro stamp shifted -0.5 s",
+    "value": 0.7336122733612274,
+    "ci95": [
+     0.6929510155316607,
+     0.7888748419721872
+    ],
+    "n": 717,
+    "kind": "rate"
+   }
+  },
+  "median_abs_dt_s": {
+   "value": 0.5,
+   "ci95": [
+    0.43,
+    0.5
+   ],
+   "n": 341
+  },
+  "median_dt_s": {
+   "value": -0.1,
+   "ci95": [
+    -0.2,
+    0.0
+   ]
+  },
+  "baselines": {
+   "pair": {
+    "rand_hand": {
+     "value": 0.1256887052341598,
+     "ci95": [
+      0.10416666666666667,
+      0.15520282186948853
+     ],
+     "n": 242
+    },
+    "kg_first": {
+     "value": 0.2073170731707317,
+     "ci95": [
+      0.05263157894736842,
+      0.37777777777777777
+     ],
+     "n": 41.0
+    },
+    "rand_hand_ds": {
+     "value": 0.20350877192982456,
+     "ci95": [
+      0.18197278911564624,
+      0.23471400394477315
+     ],
+     "n": 190
+    },
+    "kg_first_ds": {
+     "value": 0.2571428571428571,
+     "ci95": [
+      0.10344827586206896,
+      0.40540540540540543
+     ],
+     "n": 35.0
+    },
+    "prior_global_key": {
+     "value": 0.005263157894736842,
+     "ci95": [
+      0.0,
+      0.019230769230769232
+     ],
+     "n": 190
+    },
+    "prior_lane": {
+     "value": 0.4810810810810811,
+     "ci95": [
+      0.38461538461538464,
+      0.58
+     ],
+     "n": 185
+    },
+    "prior_zone": {
+     "value": 0.5837837837837838,
+     "ci95": [
+      0.5024630541871922,
+      0.6666666666666666
+     ],
+     "n": 185
+    },
+    "prior_key": {
+     "value": 0.3027027027027027,
+     "ci95": [
+      0.23636363636363636,
+      0.38509316770186336
+     ],
+     "n": 185
+    }
+   },
+   "cov": {
+    "rand_hand": {
+     "value": 0.1248517200474496,
+     "ci95": [
+      0.10335073977371628,
+      0.1523809523809524
+     ],
+     "n": 281
+    },
+    "kg_first": {
+     "value": 0.19767441860465115,
+     "ci95": [
+      0.04878048780487805,
+      0.35555555555555557
+     ],
+     "n": 43.0
+    },
+    "rand_hand_ds": {
+     "value": 0.1945736434108527,
+     "ci95": [
+      0.17738589211618258,
+      0.22587719298245612
+     ],
+     "n": 215
+    },
+    "kg_first_ds": {
+     "value": 0.24324324324324326,
+     "ci95": [
+      0.09523809523809523,
+      0.38461538461538464
+     ],
+     "n": 37.0
+    },
+    "prior_global_key": {
+     "value": 0.004545454545454545,
+     "ci95": [
+      0.0,
+      0.016666666666666666
+     ],
+     "n": 220
+    },
+    "prior_lane": {
+     "value": 0.46511627906976744,
+     "ci95": [
+      0.37339055793991416,
+      0.5595238095238095
+     ],
+     "n": 215
+    },
+    "prior_zone": {
+     "value": 0.5767441860465117,
+     "ci95": [
+      0.49557522123893805,
+      0.6551724137931034
+     ],
+     "n": 215
+    },
+    "prior_key": {
+     "value": 0.2837209302325581,
+     "ci95": [
+      0.21794871794871795,
+      0.3595505617977528
+     ],
+     "n": 215
+    }
+   },
+   "all": {
+    "rand_hand": {
+     "value": 0.12429378531073447,
+     "ci95": [
+      0.10948905109489052,
+      0.14308785529715762
+     ],
+     "n": 354
+    },
+    "kg_first": {
+     "value": 0.19791666666666666,
+     "ci95": [
+      0.07547169811320754,
+      0.3333333333333333
+     ],
+     "n": 48
+    },
+    "rand_hand_ds": {
+     "value": 0.1814613526570048,
+     "ci95": [
+      0.16117764471057885,
+      0.21475953565505804
+     ],
+     "n": 276
+    },
+    "kg_first_ds": {
+     "value": 0.2520325203252033,
+     "ci95": [
+      0.13768115942028986,
+      0.3768115942028985
+     ],
+     "n": 41
+    },
+    "prior_global_key": {
+     "value": 0.0035971223021582736,
+     "ci95": [
+      0.0,
+      0.013636363636363636
+     ],
+     "n": 278
+    },
+    "prior_lane": {
+     "value": 0.46886446886446886,
+     "ci95": [
+      0.38636363636363635,
+      0.5566502463054187
+     ],
+     "n": 273
+    },
+    "prior_zone": {
+     "value": 0.5860805860805861,
+     "ci95": [
+      0.5232558139534884,
+      0.6504424778761062
+     ],
+     "n": 273
+    },
+    "prior_key": {
+     "value": 0.29304029304029305,
+     "ci95": [
+      0.23170731707317074,
+      0.36923076923076925
+     ],
+     "n": 273
+    }
+   },
+   "pair_given_card": {
+    "prior_lane": {
+     "value": 0.3939393939393939,
+     "n": 33
+    },
+    "prior_zone": {
+     "value": 0.5151515151515151,
+     "n": 33
+    },
+    "prior_key": {
+     "value": 0.24242424242424243,
+     "n": 33
+    }
+   },
+   "bot_on_kg_subset_same_card": 0.17073170731707318
+  },
+  "by_mode": {
+   "counter": {
+    "acts": 134,
+    "precision_2s": 0.6044776119402985,
+    "pairs": 52,
+    "same_card": 0.25,
+    "same_card_n": 40
+   },
+   "defend": {
+    "acts": 449,
+    "precision_2s": 0.7728285077951003,
+    "pairs": 217,
+    "same_card": 0.14102564102564102,
+    "same_card_n": 156
+   },
+   "leak": {
+    "acts": 13,
+    "precision_2s": 0.5384615384615384,
+    "pairs": 4,
+    "same_card": 0.3333333333333333,
+    "same_card_n": 3
+   },
+   "learned": {
+    "acts": 105,
+    "precision_2s": 0.7904761904761904,
+    "pairs": 59,
+    "same_card": 0.1388888888888889,
+    "same_card_n": 36
+   },
+   "punish": {
+    "acts": 16,
+    "precision_2s": 0.8125,
+    "pairs": 9,
+    "same_card": 0.2857142857142857,
+    "same_card_n": 7
+   }
+  },
+  "by_pro_confidence": {
+   "high": {
+    "pro_plays": 229,
+    "recall_2s": 0.777292576419214,
+    "pairs": 149,
+    "same_card": 0.11578947368421053,
+    "same_card_n": 95
+   },
+   "low": {
+    "pro_plays": 32,
+    "recall_2s": 0.84375,
+    "pairs": 23,
+    "same_card": null,
+    "same_card_n": 0
+   },
+   "medium": {
+    "pro_plays": 255,
+    "recall_2s": 0.7647058823529411,
+    "pairs": 169,
+    "same_card": 0.19727891156462585,
+    "same_card_n": 147
+   }
+  },
+  "miss_reasons": [
+   {
+    "reason": "save: the tower handles it",
+    "n": 26,
+    "share": 0.22413793103448276
+   },
+   {
+    "reason": "hold: act model: wait (p below threshold)",
+    "n": 22,
+    "share": 0.1896551724137931
+   },
+   {
+    "reason": "decision held: hold_policy",
+    "n": 19,
+    "share": 0.16379310344827586
+   },
+   {
+    "reason": "none: no affordable card",
+    "n": 17,
+    "share": 0.14655172413793102
+   },
+   {
+    "reason": "save: no adequate answer in hand",
+    "n": 10,
+    "share": 0.08620689655172414
+   },
+   {
+    "reason": "decision held: hold_fallback",
+    "n": 8,
+    "share": 0.06896551724137931
+   },
+   {
+    "reason": "save: waiting for a card's window",
+    "n": 8,
+    "share": 0.06896551724137931
+   },
+   {
+    "reason": "save: push already answered",
+    "n": 4,
+    "share": 0.034482758620689655
+   },
+   {
+    "reason": "not in a match frame (readiness menu)",
+    "n": 1,
+    "share": 0.008620689655172414
+   },
+   {
+    "reason": "save: saving for a card",
+    "n": 1,
+    "share": 0.008620689655172414
+   }
+  ],
+  "n_missed_pro_plays": 116,
+  "per_game": [
+   {
+    "game_id": "5nOaTBlYLlg-m0.0",
+    "result": "win",
+    "minutes": 4.96,
+    "pro_plays": 95,
+    "bot_acts": 130,
+    "recall_2s": 0.7473684210526316,
+    "precision_2s": 0.8384615384615385,
+    "same_card": 0.0784313725490196,
+    "pairs": 63
+   },
+   {
+    "game_id": "5nOaTBlYLlg-m0.1",
+    "result": "win",
+    "minutes": 9.0,
+    "pro_plays": 136,
+    "bot_acts": 170,
+    "recall_2s": 0.7058823529411765,
+    "precision_2s": 0.7,
+    "same_card": 0.17073170731707318,
+    "pairs": 81
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.0",
+    "result": "win",
+    "minutes": 2.85,
+    "pro_plays": 46,
+    "bot_acts": 72,
+    "recall_2s": 0.8478260869565217,
+    "precision_2s": 0.6944444444444444,
+    "same_card": 0.125,
+    "pairs": 33
+   },
+   {
+    "game_id": "6qYQNJ1Uaeg-m0.1",
+    "result": "win",
+    "minutes": 2.95,
+    "pro_plays": 42,
+    "bot_acts": 71,
+    "recall_2s": 0.8571428571428571,
+    "precision_2s": 0.6901408450704225,
+    "same_card": 0.16666666666666666,
+    "pairs": 32
+   },
+   {
+    "game_id": "SsOmbv1PfUg-m0.0",
+    "result": "win",
+    "minutes": 2.88,
+    "pro_plays": 47,
+    "bot_acts": 57,
+    "recall_2s": 0.8723404255319149,
+    "precision_2s": 0.7543859649122807,
+    "same_card": 0.23076923076923078,
+    "pairs": 32
+   },
+   {
+    "game_id": "SsOmbv1PfUg-m0.1",
+    "result": "win",
+    "minutes": 2.13,
+    "pro_plays": 32,
+    "bot_acts": 48,
+    "recall_2s": 0.78125,
+    "precision_2s": 0.8125,
+    "same_card": 0.17647058823529413,
+    "pairs": 22
+   },
+   {
+    "game_id": "Zt6Onn89EVk-m0.0",
+    "result": "win",
+    "minutes": 4.53,
+    "pro_plays": 89,
+    "bot_acts": 113,
+    "recall_2s": 0.7191011235955056,
+    "precision_2s": 0.6814159292035398,
+    "same_card": 0.1794871794871795,
+    "pairs": 52
+   },
+   {
+    "game_id": "Zt6Onn89EVk-m1.0",
+    "result": "win",
+    "minutes": 1.27,
+    "pro_plays": 29,
+    "bot_acts": 56,
+    "recall_2s": 0.9655172413793104,
+    "precision_2s": 0.8035714285714286,
+    "same_card": 0.3,
+    "pairs": 26
+   }
+  ]
+ },
+ "examples": [
+  {
+   "game_id": "6qYQNJ1Uaeg-m0.1",
+   "bot_t": 221.75,
+   "pro_t": 222.22,
+   "dt": -0.47,
+   "bot_key": "bomb-tower|middle|mid",
+   "pro_key": "bomb-tower|middle|mid",
+   "bot_card": "bomb-tower",
+   "pro_card": "bomb-tower",
+   "bot_tile": [
+    8.0,
+    10.0
+   ],
+   "pro_tile": [
+    8,
+    9
+   ],
+   "tile_dist": 1.0,
+   "same_card": true,
+   "card_known": true,
+   "mode": "defend",
+   "reason": "defend monk left: bomb-tower (high)",
+   "pro_conf": "medium",
+   "cands": [
+    [
+     "bomb-tower|middle|mid",
+     1.0
+    ]
+   ],
+   "bot_idx": 6646,
+   "shots": [
+    "d6646_t221.8_a.jpg",
+    "d6646_t221.8_b.jpg",
+    "d6646_t221.8_c.jpg"
+   ],
+   "verdict": "agree"
+  },
+  {
+   "game_id": "SsOmbv1PfUg-m0.1",
+   "bot_t": 271.5,
+   "pro_t": 272.0,
+   "dt": -0.5,
+   "bot_key": "skeletons|middle|mid",
+   "pro_key": "skeletons|middle|bridge",
+   "bot_card": "skeletons",
+   "pro_card": "skeletons",
+   "bot_tile": [
+    11.5,
+    14.0
+   ],
+   "pro_tile": [
+    11,
+    14
+   ],
+   "tile_dist": 0.5,
+   "same_card": true,
+   "card_known": true,
+   "mode": "defend",
+   "reason": "defend electro-wizard middle: skeletons (medium)",
+   "pro_conf": "medium",
+   "cands": [
+    [
+     "skeletons|middle|bridge",
+     0.3138803541660309
+    ],
+    [
+     "skeletons|middle|mid",
+     0.6861197352409363
+    ]
+   ],
+   "bot_idx": 8145,
+   "shots": [
+    "d8145_t271.5_a.jpg",
+    "d8145_t271.5_b.jpg",
+    "d8145_t271.5_c.jpg"
+   ],
+   "verdict": "agree"
+  },
+  {
+   "game_id": "6qYQNJ1Uaeg-m0.0",
+   "bot_t": 34.53,
+   "pro_t": 35.04,
+   "dt": -0.51,
+   "bot_key": "wall-breakers|right|bridge",
+   "pro_key": "wall-breakers|right|bridge",
+   "bot_card": "wall-breakers",
+   "pro_card": "wall-breakers",
+   "bot_tile": [
+    14,
+    14
+   ],
+   "pro_tile": [
+    13,
+    14
+   ],
+   "tile_dist": 1.0,
+   "same_card": true,
+   "card_known": true,
+   "mode": "punish",
+   "reason": "fast act p=0.61 h=2s",
+   "pro_conf": "medium",
+   "cands": [
+    [
+     "wall-breakers|right|bridge",
+     1.0
+    ]
+   ],
+   "bot_idx": 1035,
+   "shots": [
+    "d1035_t34.5_a.jpg",
+    "d1035_t34.5_b.jpg",
+    "d1035_t34.5_c.jpg"
+   ],
+   "verdict": "agree"
+  },
+  {
+   "game_id": "Zt6Onn89EVk-m0.0",
+   "bot_t": 55.46,
+   "pro_t": 56.06,
+   "dt": -0.6,
+   "bot_key": "magic-archer|middle|back",
+   "pro_key": "valkyrie|middle|mid",
+   "bot_card": "magic-archer",
+   "pro_card": "valkyrie",
+   "bot_tile": [
+    8.0,
+    1.0
+   ],
+   "pro_tile": [
+    8,
+    10
+   ],
+   "tile_dist": 9.0,
+   "same_card": false,
+   "card_known": true,
+   "mode": "learned",
+   "reason": "fast act p=0.61 h=2s",
+   "pro_conf": "medium",
+   "cands": [
+    [
+     "magic-archer|middle|mid",
+     0.23017308115959167
+    ],
+    [
+     "magic-archer|middle|back",
+     0.4344996213912964
+    ],
+    [
+     "valkyrie|left|mid",
+     0.33532729744911194
+    ]
+   ],
+   "bot_idx": 1662,
+   "shots": [
+    "d1662_t55.5_a.jpg",
+    "d1662_t55.5_b.jpg",
+    "d1662_t55.5_c.jpg"
+   ],
+   "verdict": "disagree"
+  },
+  {
+   "game_id": "5nOaTBlYLlg-m0.0",
+   "bot_t": 51.35,
+   "pro_t": 51.38,
+   "dt": -0.03,
+   "bot_key": "bomb-tower|middle|mid",
+   "pro_key": "electro-spirit|right|bridge",
+   "bot_card": "bomb-tower",
+   "pro_card": "electro-spirit",
+   "bot_tile": [
+    10.0,
+    10.0
+   ],
+   "pro_tile": [
+    12,
+    14
+   ],
+   "tile_dist": 4.47,
+   "same_card": false,
+   "card_known": true,
+   "mode": "defend",
+   "reason": "defend mother-witch right: bomb-tower (high)",
+   "pro_conf": "high",
+   "cands": [
+    [
+     "bomb-tower|middle|mid",
+     1.0
+    ]
+   ],
+   "bot_idx": 1539,
+   "shots": [
+    "d1539_t51.4_a.jpg",
+    "d1539_t51.4_b.jpg",
+    "d1539_t51.4_c.jpg"
+   ],
+   "verdict": "disagree"
+  },
+  {
+   "game_id": "SsOmbv1PfUg-m0.0",
+   "bot_t": 21.7,
+   "pro_t": 22.33,
+   "dt": -0.63,
+   "bot_key": "electro-spirit|left|mid",
+   "pro_key": "electro-spirit|middle|bridge",
+   "bot_card": "electro-spirit",
+   "pro_card": "electro-spirit",
+   "bot_tile": [
+    10.5,
+    5.0
+   ],
+   "pro_tile": [
+    7,
+    12
+   ],
+   "tile_dist": 7.83,
+   "same_card": true,
+   "card_known": true,
+   "mode": "defend",
+   "reason": "defend inferno-dragon left: electro-spirit (emergency)",
+   "pro_conf": "high",
+   "cands": [
+    [
+     "electro-spirit|middle|mid",
+     0.34925100207328796
+    ],
+    [
+     "electro-spirit|left|mid",
+     0.6507490277290344
+    ]
+   ],
+   "bot_idx": 651,
+   "shots": [
+    "d0651_t21.7_a.jpg",
+    "d0651_t21.7_b.jpg",
+    "d0651_t21.7_c.jpg"
+   ],
+   "verdict": "disagree"
+  }
+ ],
+ "records": [
+  {
+   "game_id": "5nOaTBlYLlg-m0.0",
+   "video_id": "5nOaTBlYLlg",
+   "minutes": 4.963,
+   "result": "win",
+   "counts": {
+    "games": 1,
+    "minutes": 4.963,
+    "n_pro": 95,
+    "n_bot": 130,
+    "n_ability": 0,
+    "n_pro_card_ok": 73,
+    "n_pro_unknown_card": 20,
+    "n_pro_card_not_in_deck": 2,
+    "recall_1s.num": 58,
+    "recall_1s.den": 95,
+    "precision_1s.num": 72,
+    "precision_1s.den": 130,
+    "recall_2s.num": 71,
+    "recall_2s.den": 95,
+    "precision_2s.num": 109,
+    "precision_2s.den": 130,
+    "recall_3s.num": 81,
+    "recall_3s.den": 95,
+    "precision_3s.num": 123,
+    "precision_3s.den": 130,
+    "recall_2s_pro_shift.num": 72,
+    "recall_2s_pro_shift.den": 95,
+    "precision_2s_pro_shift.num": 107,
+    "precision_2s_pro_shift.den": 130,
+    "null_recall_2s.num": 72.16666666666667,
+    "null_recall_2s.den": 95,
+    "null_precision_2s.num": 98.33333333333334,
+    "null_precision_2s.den": 130,
+    "bot_acts_per_min.num": 130,
+    "bot_acts_per_min.den": 4.963,
+    "pro_plays_per_min.num": 95,
+    "pro_plays_per_min.den": 4.963,
+    "bot_elixir_per_min.num": 289.0,
+    "bot_elixir_per_min.den": 4.963,
+    "pro_elixir_per_min.num": 244.0,
+    "pro_elixir_per_min.den": 4.963,
+    "pro_in_bot_hand.num": 27.0,
+    "pro_in_bot_hand.den": 73,
+    "pro_in_dataset_hand.num": 27.0,
+    "pro_in_dataset_hand.den": 59,
+    "base_all.rand_hand.num": 7.916666666666666,
+    "base_all.rand_hand.den": 73,
+    "base_cov.rand_hand.num": 4.916666666666667,
+    "base_cov.rand_hand.den": 55,
+    "base_all.prior_global_key.num": 0.0,
+    "base_all.prior_global_key.den": 57,
+    "base_cov.prior_global_key.num": 0.0,
+    "base_cov.prior_global_key.den": 42,
+    "base_all.prior_lane.num": 25.0,
+    "base_all.prior_lane.den": 57,
+    "base_cov.prior_lane.num": 18.0,
+    "base_cov.prior_lane.den": 42,
+    "base_all.prior_zone.num": 35.0,
+    "base_all.prior_zone.den": 57,
+    "base_cov.prior_zone.num": 28.0,
+    "base_cov.prior_zone.den": 42,
+    "base_all.prior_key.num": 13.0,
+    "base_all.prior_key.den": 57,
+    "base_cov.prior_key.num": 11.0,
+    "base_cov.prior_key.den": 42,
+    "base_all.rand_hand_ds.num": 9.75,
+    "base_all.rand_hand_ds.den": 59,
+    "base_cov.rand_hand_ds.num": 7.416666666666666,
+    "base_cov.rand_hand_ds.den": 44,
+    "base_all.kg_first.num": 3.0,
+    "base_all.kg_first.den": 9,
+    "base_cov.kg_first.num": 3.0,
+    "base_cov.kg_first.den": 8,
+    "base_all.kg_first_ds.num": 3.0,
+    "base_all.kg_first_ds.den": 7,
+    "base_cov.kg_first_ds.num": 3.0,
+    "base_cov.kg_first_ds.den": 7,
+    "pair_dt_sum_abs": 34.552000000000206,
+    "bot_earlier.num": 36.0,
+    "bot_earlier.den": 63,
+    "same_card.num": 4.0,
+    "same_card.den": 51,
+    "same_lane.num": 11.0,
+    "same_lane.den": 38,
+    "same_zone.num": 13.0,
+    "same_zone.den": 38,
+    "same_key.num": 0.0,
+    "same_key.den": 38,
+    "tile_dist_all_pairs.num": 348.94231754758704,
+    "tile_dist_all_pairs.den": 38,
+    "base_pair.rand_hand.num": 4.583333333333333,
+    "base_pair.rand_hand.den": 51,
+    "base_pair.prior_global_key.num": 0.0,
+    "base_pair.prior_global_key.den": 38,
+    "base_pair.prior_lane.num": 17.0,
+    "base_pair.prior_lane.den": 38,
+    "base_pair.prior_zone.num": 25.0,
+    "base_pair.prior_zone.den": 38,
+    "base_pair.prior_key.num": 11.0,
+    "base_pair.prior_key.den": 38,
+    "base_pair.rand_hand_ds.num": 6.916666666666666,
+    "base_pair.rand_hand_ds.den": 41,
+    "mode.defend.same_card.num": 2.0,
+    "mode.defend.same_card.den": 35,
+    "mode.defend.pairs": 41,
+    "conf.high.same_card.num": 1.0,
+    "conf.high.same_card.den": 21,
+    "conf.high.pairs": 28,
+    "conf.medium.same_card.num": 3.0,
+    "conf.medium.same_card.den": 30,
+    "conf.medium.pairs": 30,
+    "base_pair.kg_first.num": 3.0,
+    "base_pair.kg_first.den": 8,
+    "bot_on_kg_subset.num": 0.0,
+    "bot_on_kg_subset.den": 8,
+    "base_pair.kg_first_ds.num": 3.0,
+    "base_pair.kg_first_ds.den": 7,
+    "mode.punish.same_card.num": 0.0,
+    "mode.punish.same_card.den": 1,
+    "mode.punish.pairs": 1,
+    "conf.low.same_card.num": 0.0,
+    "conf.low.same_card.den": 0,
+    "conf.low.pairs": 5,
+    "same_lane_given_card.num": 0.0,
+    "same_lane_given_card.den": 4,
+    "same_zone_given_card.num": 1.0,
+    "same_zone_given_card.den": 4,
+    "same_key_given_card.num": 0.0,
+    "same_key_given_card.den": 4,
+    "tile_dist_given_card.num": 37.668465687417495,
+    "tile_dist_given_card.den": 4,
+    "within_2_tiles_given_card.num": 0.0,
+    "within_2_tiles_given_card.den": 4,
+    "base_pair_given_card.prior_lane.num": 1.0,
+    "base_pair_given_card.prior_lane.den": 4,
+    "base_pair_given_card.prior_zone.num": 2.0,
+    "base_pair_given_card.prior_zone.den": 4,
+    "base_pair_given_card.prior_key.num": 1.0,
+    "base_pair_given_card.prior_key.den": 4,
+    "mode.counter.same_card.num": 1.0,
+    "mode.counter.same_card.den": 2,
+    "mode.counter.pairs": 3,
+    "mode.learned.same_card.num": 1.0,
+    "mode.learned.same_card.den": 13,
+    "mode.learned.pairs": 18,
+    "mode.defend.acts": 87,
+    "mode.defend.precise": 73,
+    "mode.punish.acts": 6,
+    "mode.punish.precise": 4,
+    "mode.counter.acts": 3,
+    "mode.counter.precise": 3,
+    "mode.learned.acts": 34,
+    "mode.learned.precise": 29,
+    "conf.medium.pro": 49,
+    "conf.medium.recalled": 34,
+    "conf.high.pro": 39,
+    "conf.high.recalled": 30,
+    "conf.low.pro": 7,
+    "conf.low.recalled": 7
+   },
+   "miss_reasons": {
+    "save: the tower handles it": 5,
+    "hold: act model: wait (p below threshold)": 7,
+    "decision held: hold_policy": 7,
+    "save: no adequate answer in hand": 1,
+    "save: push already answered": 2,
+    "none: no affordable card": 2
+   }
+  },
+  {
+   "game_id": "5nOaTBlYLlg-m0.1",
+   "video_id": "5nOaTBlYLlg",
+   "minutes": 8.998,
+   "result": "win",
+   "counts": {
+    "games": 1,
+    "minutes": 8.998,
+    "n_pro": 136,
+    "n_bot": 170,
+    "n_ability": 0,
+    "n_pro_card_ok": 62,
+    "n_pro_unknown_card": 47,
+    "n_pro_card_not_in_deck": 27,
+    "recall_1s.num": 74,
+    "recall_1s.den": 136,
+    "precision_1s.num": 74,
+    "precision_1s.den": 170,
+    "recall_2s.num": 96,
+    "recall_2s.den": 136,
+    "precision_2s.num": 119,
+    "precision_2s.den": 170,
+    "recall_3s.num": 109,
+    "recall_3s.den": 136,
+    "precision_3s.num": 140,
+    "precision_3s.den": 170,
+    "recall_2s_pro_shift.num": 92,
+    "recall_2s_pro_shift.den": 136,
+    "precision_2s_pro_shift.num": 116,
+    "precision_2s_pro_shift.den": 170,
+    "null_recall_2s.num": 86.0,
+    "null_recall_2s.den": 136,
+    "null_precision_2s.num": 106.83333333333334,
+    "null_precision_2s.den": 170,
+    "bot_acts_per_min.num": 170,
+    "bot_acts_per_min.den": 8.998,
+    "pro_plays_per_min.num": 136,
+    "pro_plays_per_min.den": 8.998,
+    "bot_elixir_per_min.num": 450.0,
+    "bot_elixir_per_min.den": 8.998,
+    "pro_elixir_per_min.num": 201.0,
+    "pro_elixir_per_min.den": 8.998,
+    "pro_in_bot_hand.num": 24.0,
+    "pro_in_bot_hand.den": 62,
+    "pro_in_dataset_hand.num": 21.0,
+    "pro_in_dataset_hand.den": 56,
+    "base_all.rand_hand.num": 7.916666666666666,
+    "base_all.rand_hand.den": 62,
+    "base_all.prior_global_key.num": 0.0,
+    "base_all.prior_global_key.den": 47,
+    "base_all.prior_lane.num": 10.0,
+    "base_all.prior_lane.den": 42,
+    "base_all.prior_zone.num": 28.0,
+    "base_all.prior_zone.den": 42,
+    "base_all.prior_key.num": 6.0,
+    "base_all.prior_key.den": 42,
+    "base_all.rand_hand_ds.num": 8.25,
+    "base_all.rand_hand_ds.den": 56,
+    "base_cov.rand_hand.num": 5.916666666666666,
+    "base_cov.rand_hand.den": 48,
+    "base_all.kg_first.num": 1.0,
+    "base_all.kg_first.den": 12,
+    "base_cov.kg_first.num": 1.0,
+    "base_cov.kg_first.den": 11,
+    "base_cov.prior_global_key.num": 0.0,
+    "base_cov.prior_global_key.den": 37,
+    "base_cov.rand_hand_ds.num": 7.416666666666666,
+    "base_cov.rand_hand_ds.den": 43,
+    "base_all.kg_first_ds.num": 1.0,
+    "base_all.kg_first_ds.den": 8,
+    "base_cov.kg_first_ds.num": 1.0,
+    "base_cov.kg_first_ds.den": 7,
+    "base_cov.prior_lane.num": 7.0,
+    "base_cov.prior_lane.den": 32,
+    "base_cov.prior_zone.num": 20.0,
+    "base_cov.prior_zone.den": 32,
+    "base_cov.prior_key.num": 4.0,
+    "base_cov.prior_key.den": 32,
+    "pair_dt_sum_abs": 51.72619999999978,
+    "bot_earlier.num": 40.0,
+    "bot_earlier.den": 81,
+    "same_card.num": 7.0,
+    "same_card.den": 41,
+    "same_lane.num": 11.0,
+    "same_lane.den": 32,
+    "same_zone.num": 8.0,
+    "same_zone.den": 32,
+    "same_key.num": 0.0,
+    "same_key.den": 32,
+    "tile_dist_all_pairs.num": 330.77162166303737,
+    "tile_dist_all_pairs.den": 32,
+    "base_pair.rand_hand.num": 4.916666666666666,
+    "base_pair.rand_hand.den": 41,
+    "base_pair.kg_first.num": 1.0,
+    "base_pair.kg_first.den": 11,
+    "bot_on_kg_subset.num": 1.0,
+    "bot_on_kg_subset.den": 11,
+    "base_pair.prior_global_key.num": 0.0,
+    "base_pair.prior_global_key.den": 32,
+    "base_pair.rand_hand_ds.num": 7.083333333333333,
+    "base_pair.rand_hand_ds.den": 37,
+    "base_pair.kg_first_ds.num": 1.0,
+    "base_pair.kg_first_ds.den": 7,
+    "mode.defend.same_card.num": 4.0,
+    "mode.defend.same_card.den": 30,
+    "mode.defend.pairs": 57,
+    "conf.high.same_card.num": 0.0,
+    "conf.high.same_card.den": 18,
+    "conf.high.pairs": 34,
+    "same_lane_given_card.num": 1.0,
+    "same_lane_given_card.den": 7,
+    "same_zone_given_card.num": 3.0,
+    "same_zone_given_card.den": 7,
+    "same_key_given_card.num": 0.0,
+    "same_key_given_card.den": 7,
+    "tile_dist_given_card.num": 77.59257037391997,
+    "tile_dist_given_card.den": 7,
+    "within_2_tiles_given_card.num": 0.0,
+    "within_2_tiles_given_card.den": 7,
+    "base_pair.prior_lane.num": 6.0,
+    "base_pair.prior_lane.den": 27,
+    "base_pair_given_card.prior_lane.num": 3.0,
+    "base_pair_given_card.prior_lane.den": 7,
+    "base_pair.prior_zone.num": 17.0,
+    "base_pair.prior_zone.den": 27,
+    "base_pair_given_card.prior_zone.num": 4.0,
+    "base_pair_given_card.prior_zone.den": 7,
+    "base_pair.prior_key.num": 4.0,
+    "base_pair.prior_key.den": 27,
+    "base_pair_given_card.prior_key.num": 1.0,
+    "base_pair_given_card.prior_key.den": 7,
+    "mode.punish.same_card.num": 1.0,
+    "mode.punish.same_card.den": 3,
+    "mode.punish.pairs": 4,
+    "conf.medium.same_card.num": 7.0,
+    "conf.medium.same_card.den": 23,
+    "conf.medium.pairs": 41,
+    "mode.learned.same_card.num": 1.0,
+    "mode.learned.same_card.den": 4,
+    "mode.learned.pairs": 14,
+    "mode.counter.same_card.num": 0.0,
+    "mode.counter.same_card.den": 2,
+    "mode.counter.pairs": 4,
+    "conf.low.same_card.num": 0.0,
+    "conf.low.same_card.den": 0,
+    "conf.low.pairs": 6,
+    "mode.leak.same_card.num": 1.0,
+    "mode.leak.same_card.den": 2,
+    "mode.leak.pairs": 2,
+    "mode.defend.acts": 119,
+    "mode.defend.precise": 87,
+    "mode.punish.acts": 5,
+    "mode.punish.precise": 4,
+    "mode.learned.acts": 28,
+    "mode.learned.precise": 20,
+    "mode.counter.acts": 10,
+    "mode.counter.precise": 5,
+    "mode.leak.acts": 8,
+    "mode.leak.precise": 3,
+    "conf.high.pro": 62,
+    "conf.high.recalled": 42,
+    "conf.medium.pro": 63,
+    "conf.medium.recalled": 48,
+    "conf.low.pro": 11,
+    "conf.low.recalled": 6
+   },
+   "miss_reasons": {
+    "not in a match frame (readiness menu)": 1,
+    "hold: act model: wait (p below threshold)": 2,
+    "decision held: hold_policy": 9,
+    "save: the tower handles it": 15,
+    "save: no adequate answer in hand": 2,
+    "none: no affordable card": 7,
+    "decision held: hold_fallback": 3,
+    "save: waiting for a card's window": 1
+   }
+  },
+  {
+   "game_id": "6qYQNJ1Uaeg-m0.0",
+   "video_id": "6qYQNJ1Uaeg",
+   "minutes": 2.848,
+   "result": "win",
+   "counts": {
+    "games": 1,
+    "minutes": 2.848,
+    "n_pro": 46,
+    "n_bot": 72,
+    "n_ability": 0,
+    "n_pro_card_ok": 33,
+    "n_pro_unknown_card": 12,
+    "n_pro_card_not_in_deck": 1,
+    "recall_1s.num": 30,
+    "recall_1s.den": 46,
+    "precision_1s.num": 33,
+    "precision_1s.den": 72,
+    "recall_2s.num": 39,
+    "recall_2s.den": 46,
+    "precision_2s.num": 50,
+    "precision_2s.den": 72,
+    "recall_3s.num": 44,
+    "recall_3s.den": 46,
+    "precision_3s.num": 60,
+    "precision_3s.den": 72,
+    "recall_2s_pro_shift.num": 40,
+    "recall_2s_pro_shift.den": 46,
+    "precision_2s_pro_shift.num": 48,
+    "precision_2s_pro_shift.den": 72,
+    "null_recall_2s.num": 32.666666666666664,
+    "null_recall_2s.den": 46,
+    "null_precision_2s.num": 48.50000000000001,
+    "null_precision_2s.den": 72,
+    "bot_acts_per_min.num": 72,
+    "bot_acts_per_min.den": 2.848,
+    "pro_plays_per_min.num": 46,
+    "pro_plays_per_min.den": 2.848,
+    "bot_elixir_per_min.num": 187.0,
+    "bot_elixir_per_min.den": 2.848,
+    "pro_elixir_per_min.num": 72.0,
+    "pro_elixir_per_min.den": 2.848,
+    "pro_in_bot_hand.num": 14.0,
+    "pro_in_bot_hand.den": 33,
+    "pro_in_dataset_hand.num": 13.0,
+    "pro_in_dataset_hand.den": 22,
+    "base_all.rand_hand.num": 4.583333333333333,
+    "base_all.rand_hand.den": 33,
+    "base_cov.rand_hand.num": 3.75,
+    "base_cov.rand_hand.den": 29,
+    "base_all.prior_global_key.num": 0.0,
+    "base_all.prior_global_key.den": 27,
+    "base_cov.prior_global_key.num": 0.0,
+    "base_cov.prior_global_key.den": 23,
+    "base_all.prior_lane.num": 15.0,
+    "base_all.prior_lane.den": 27,
+    "base_cov.prior_lane.num": 13.0,
+    "base_cov.prior_lane.den": 23,
+    "base_all.prior_zone.num": 16.0,
+    "base_all.prior_zone.den": 27,
+    "base_cov.prior_zone.num": 14.0,
+    "base_cov.prior_zone.den": 23,
+    "base_all.prior_key.num": 9.0,
+    "base_all.prior_key.den": 27,
+    "base_cov.prior_key.num": 8.0,
+    "base_cov.prior_key.den": 23,
+    "base_all.rand_hand_ds.num": 5.083333333333333,
+    "base_all.rand_hand_ds.den": 22,
+    "base_cov.rand_hand_ds.num": 3.583333333333333,
+    "base_cov.rand_hand_ds.den": 20,
+    "base_all.kg_first.num": 1.0,
+    "base_all.kg_first.den": 8,
+    "base_cov.kg_first.num": 0.0,
+    "base_cov.kg_first.den": 7,
+    "base_all.kg_first_ds.num": 1.0,
+    "base_all.kg_first_ds.den": 8,
+    "base_cov.kg_first_ds.num": 0.0,
+    "base_cov.kg_first_ds.den": 7,
+    "pair_dt_sum_abs": 19.752899999999926,
+    "bot_earlier.num": 21.0,
+    "bot_earlier.den": 33,
+    "same_card.num": 3.0,
+    "same_card.den": 24,
+    "same_lane.num": 15.0,
+    "same_lane.den": 20,
+    "same_zone.num": 5.0,
+    "same_zone.den": 20,
+    "same_key.num": 2.0,
+    "same_key.den": 20,
+    "tile_dist_all_pairs.num": 192.49254336212206,
+    "tile_dist_all_pairs.den": 20,
+    "base_pair.rand_hand.num": 3.1666666666666665,
+    "base_pair.rand_hand.den": 24,
+    "base_pair.prior_global_key.num": 0.0,
+    "base_pair.prior_global_key.den": 20,
+    "base_pair.prior_lane.num": 12.0,
+    "base_pair.prior_lane.den": 20,
+    "base_pair.prior_zone.num": 12.0,
+    "base_pair.prior_zone.den": 20,
+    "base_pair.prior_key.num": 7.0,
+    "base_pair.prior_key.den": 20,
+    "base_pair.rand_hand_ds.num": 2.583333333333333,
+    "base_pair.rand_hand_ds.den": 16,
+    "mode.learned.same_card.num": 0.0,
+    "mode.learned.same_card.den": 1,
+    "mode.learned.pairs": 3,
+    "conf.medium.same_card.num": 3.0,
+    "conf.medium.same_card.den": 18,
+    "conf.medium.pairs": 20,
+    "mode.counter.same_card.num": 1.0,
+    "mode.counter.same_card.den": 11,
+    "mode.counter.pairs": 15,
+    "conf.high.same_card.num": 0.0,
+    "conf.high.same_card.den": 6,
+    "conf.high.pairs": 13,
+    "mode.defend.same_card.num": 1.0,
+    "mode.defend.same_card.den": 11,
+    "mode.defend.pairs": 14,
+    "same_lane_given_card.num": 3.0,
+    "same_lane_given_card.den": 3,
+    "same_zone_given_card.num": 2.0,
+    "same_zone_given_card.den": 3,
+    "same_key_given_card.num": 2.0,
+    "same_key_given_card.den": 3,
+    "tile_dist_given_card.num": 10.567344180605492,
+    "tile_dist_given_card.den": 3,
+    "within_2_tiles_given_card.num": 1.0,
+    "within_2_tiles_given_card.den": 3,
+    "base_pair.kg_first.num": 0.0,
+    "base_pair.kg_first.den": 6,
+    "bot_on_kg_subset.num": 2.0,
+    "bot_on_kg_subset.den": 6,
+    "base_pair_given_card.prior_lane.num": 2.0,
+    "base_pair_given_card.prior_lane.den": 3,
+    "base_pair_given_card.prior_zone.num": 1.0,
+    "base_pair_given_card.prior_zone.den": 3,
+    "base_pair_given_card.prior_key.num": 1.0,
+    "base_pair_given_card.prior_key.den": 3,
+    "base_pair.kg_first_ds.num": 0.0,
+    "base_pair.kg_first_ds.den": 6,
+    "mode.punish.same_card.num": 1.0,
+    "mode.punish.same_card.den": 1,
+    "mode.punish.pairs": 1,
+    "mode.learned.acts": 6,
+    "mode.learned.precise": 3,
+    "mode.counter.acts": 37,
+    "mode.counter.precise": 24,
+    "mode.defend.acts": 28,
+    "mode.defend.precise": 22,
+    "mode.punish.acts": 1,
+    "mode.punish.precise": 1,
+    "conf.medium.pro": 25,
+    "conf.medium.recalled": 21,
+    "conf.high.pro": 21,
+    "conf.high.recalled": 18
+   },
+   "miss_reasons": {
+    "save: the tower handles it": 1,
+    "hold: act model: wait (p below threshold)": 1,
+    "decision held: hold_fallback": 3,
+    "save: waiting for a card's window": 1,
+    "none: no affordable card": 1
+   }
+  },
+  {
+   "game_id": "6qYQNJ1Uaeg-m0.1",
+   "video_id": "6qYQNJ1Uaeg",
+   "minutes": 2.952,
+   "result": "win",
+   "counts": {
+    "games": 1,
+    "minutes": 2.952,
+    "n_pro": 42,
+    "n_bot": 71,
+    "n_ability": 0,
+    "n_pro_card_ok": 33,
+    "n_pro_unknown_card": 8,
+    "n_pro_card_not_in_deck": 1,
+    "recall_1s.num": 28,
+    "recall_1s.den": 42,
+    "precision_1s.num": 30,
+    "precision_1s.den": 71,
+    "recall_2s.num": 36,
+    "recall_2s.den": 42,
+    "precision_2s.num": 49,
+    "precision_2s.den": 71,
+    "recall_3s.num": 37,
+    "recall_3s.den": 42,
+    "precision_3s.num": 59,
+    "precision_3s.den": 71,
+    "recall_2s_pro_shift.num": 36,
+    "recall_2s_pro_shift.den": 42,
+    "precision_2s_pro_shift.num": 52,
+    "precision_2s_pro_shift.den": 71,
+    "null_recall_2s.num": 30.166666666666664,
+    "null_recall_2s.den": 42,
+    "null_precision_2s.num": 41.5,
+    "null_precision_2s.den": 71,
+    "bot_acts_per_min.num": 71,
+    "bot_acts_per_min.den": 2.952,
+    "pro_plays_per_min.num": 42,
+    "pro_plays_per_min.den": 2.952,
+    "bot_elixir_per_min.num": 173.0,
+    "bot_elixir_per_min.den": 2.952,
+    "pro_elixir_per_min.num": 83.0,
+    "pro_elixir_per_min.den": 2.952,
+    "pro_in_bot_hand.num": 14.0,
+    "pro_in_bot_hand.den": 33,
+    "pro_in_dataset_hand.num": 18.0,
+    "pro_in_dataset_hand.den": 26,
+    "base_all.rand_hand.num": 4.166666666666667,
+    "base_all.rand_hand.den": 33,
+    "base_cov.rand_hand.num": 3.666666666666667,
+    "base_cov.rand_hand.den": 28,
+    "base_all.prior_global_key.num": 0.0,
+    "base_all.prior_global_key.den": 24,
+    "base_cov.prior_global_key.num": 0.0,
+    "base_cov.prior_global_key.den": 22,
+    "base_all.prior_lane.num": 14.0,
+    "base_all.prior_lane.den": 24,
+    "base_cov.prior_lane.num": 14.0,
+    "base_cov.prior_lane.den": 22,
+    "base_all.prior_zone.num": 13.0,
+    "base_all.prior_zone.den": 24,
+    "base_cov.prior_zone.num": 12.0,
+    "base_cov.prior_zone.den": 22,
+    "base_all.prior_key.num": 9.0,
+    "base_all.prior_key.den": 24,
+    "base_cov.prior_key.num": 9.0,
+    "base_cov.prior_key.den": 22,
+    "base_all.rand_hand_ds.num": 5.25,
+    "base_all.rand_hand_ds.den": 26,
+    "base_cov.rand_hand_ds.num": 4.5,
+    "base_cov.rand_hand_ds.den": 21,
+    "base_all.kg_first.num": 1.0,
+    "base_all.kg_first.den": 3,
+    "base_cov.kg_first.num": 1.0,
+    "base_cov.kg_first.den": 3,
+    "base_all.kg_first_ds.num": 1.0,
+    "base_all.kg_first_ds.den": 2,
+    "base_cov.kg_first_ds.num": 1.0,
+    "base_cov.kg_first_ds.den": 2,
+    "pair_dt_sum_abs": 22.775899999999865,
+    "bot_earlier.num": 13.0,
+    "bot_earlier.den": 32,
+    "same_card.num": 4.0,
+    "same_card.den": 24,
+    "same_lane.num": 8.0,
+    "same_lane.den": 19,
+    "same_zone.num": 5.0,
+    "same_zone.den": 19,
+    "same_key.num": 1.0,
+    "same_key.den": 19,
+    "tile_dist_all_pairs.num": 151.563506707852,
+    "tile_dist_all_pairs.den": 19,
+    "base_pair.rand_hand.num": 3.0833333333333335,
+    "base_pair.rand_hand.den": 24,
+    "base_pair.prior_global_key.num": 0.0,
+    "base_pair.prior_global_key.den": 19,
+    "base_pair.prior_lane.num": 12.0,
+    "base_pair.prior_lane.den": 19,
+    "base_pair.prior_zone.num": 11.0,
+    "base_pair.prior_zone.den": 19,
+    "base_pair.prior_key.num": 8.0,
+    "base_pair.prior_key.den": 19,
+    "base_pair.rand_hand_ds.num": 4.25,
+    "base_pair.rand_hand_ds.den": 19,
+    "mode.counter.same_card.num": 0.0,
+    "mode.counter.same_card.den": 3,
+    "mode.counter.pairs": 4,
+    "conf.high.same_card.num": 1.0,
+    "conf.high.same_card.den": 12,
+    "conf.high.pairs": 18,
+    "mode.defend.same_card.num": 3.0,
+    "mode.defend.same_card.den": 16,
+    "mode.defend.pairs": 21,
+    "conf.medium.same_card.num": 3.0,
+    "conf.medium.same_card.den": 12,
+    "conf.medium.pairs": 12,
+    "mode.punish.same_card.num": 0.0,
+    "mode.punish.same_card.den": 1,
+    "mode.punish.pairs": 1,
+    "same_lane_given_card.num": 2.0,
+    "same_lane_given_card.den": 3,
+    "same_zone_given_card.num": 2.0,
+    "same_zone_given_card.den": 3,
+    "same_key_given_card.num": 1.0,
+    "same_key_given_card.den": 3,
+    "tile_dist_given_card.num": 9.582762530298218,
+    "tile_dist_given_card.den": 3,
+    "within_2_tiles_given_card.num": 1.0,
+    "within_2_tiles_given_card.den": 3,
+    "base_pair_given_card.prior_lane.num": 1.0,
+    "base_pair_given_card.prior_lane.den": 3,
+    "base_pair_given_card.prior_zone.num": 2.0,
+    "base_pair_given_card.prior_zone.den": 3,
+    "base_pair_given_card.prior_key.num": 1.0,
+    "base_pair_given_card.prior_key.den": 3,
+    "conf.low.same_card.num": 0.0,
+    "conf.low.same_card.den": 0,
+    "conf.low.pairs": 2,
+    "base_pair.kg_first.num": 1.0,
+    "base_pair.kg_first.den": 3,
+    "bot_on_kg_subset.num": 1.0,
+    "bot_on_kg_subset.den": 3,
+    "base_pair.kg_first_ds.num": 1.0,
+    "base_pair.kg_first_ds.den": 2,
+    "mode.learned.same_card.num": 1.0,
+    "mode.learned.same_card.den": 4,
+    "mode.learned.pairs": 6,
+    "mode.learned.acts": 10,
+    "mode.learned.precise": 9,
+    "mode.counter.acts": 12,
+    "mode.counter.precise": 7,
+    "mode.defend.acts": 47,
+    "mode.defend.precise": 32,
+    "mode.punish.acts": 1,
+    "mode.punish.precise": 1,
+    "mode.leak.acts": 1,
+    "mode.leak.precise": 0,
+    "conf.high.pro": 23,
+    "conf.high.recalled": 19,
+    "conf.medium.pro": 17,
+    "conf.medium.recalled": 15,
+    "conf.low.pro": 2,
+    "conf.low.recalled": 2
+   },
+   "miss_reasons": {
+    "hold: act model: wait (p below threshold)": 5,
+    "decision held: hold_policy": 1
+   }
+  },
+  {
+   "game_id": "SsOmbv1PfUg-m0.0",
+   "video_id": "SsOmbv1PfUg",
+   "minutes": 2.878,
+   "result": "win",
+   "counts": {
+    "games": 1,
+    "minutes": 2.878,
+    "n_pro": 47,
+    "n_bot": 57,
+    "n_ability": 0,
+    "n_pro_card_ok": 38,
+    "n_pro_unknown_card": 9,
+    "n_pro_card_not_in_deck": 0,
+    "recall_1s.num": 30,
+    "recall_1s.den": 47,
+    "precision_1s.num": 32,
+    "precision_1s.den": 57,
+    "recall_2s.num": 41,
+    "recall_2s.den": 47,
+    "precision_2s.num": 43,
+    "precision_2s.den": 57,
+    "recall_3s.num": 45,
+    "recall_3s.den": 47,
+    "precision_3s.num": 48,
+    "precision_3s.den": 57,
+    "recall_2s_pro_shift.num": 42,
+    "recall_2s_pro_shift.den": 47,
+    "precision_2s_pro_shift.num": 44,
+    "precision_2s_pro_shift.den": 57,
+    "null_recall_2s.num": 33.33333333333333,
+    "null_recall_2s.den": 47,
+    "null_precision_2s.num": 34.666666666666664,
+    "null_precision_2s.den": 57,
+    "bot_acts_per_min.num": 57,
+    "bot_acts_per_min.den": 2.878,
+    "pro_plays_per_min.num": 47,
+    "pro_plays_per_min.den": 2.878,
+    "bot_elixir_per_min.num": 119.0,
+    "bot_elixir_per_min.den": 2.878,
+    "pro_elixir_per_min.num": 90.0,
+    "pro_elixir_per_min.den": 2.878,
+    "pro_in_bot_hand.num": 17.0,
+    "pro_in_bot_hand.den": 38,
+    "pro_in_dataset_hand.num": 18.0,
+    "pro_in_dataset_hand.den": 25,
+    "base_all.rand_hand.num": 5.416666666666667,
+    "base_all.rand_hand.den": 38,
+    "base_cov.rand_hand.num": 5.166666666666667,
+    "base_cov.rand_hand.den": 33,
+    "base_all.prior_global_key.num": 0.0,
+    "base_all.prior_global_key.den": 33,
+    "base_cov.prior_global_key.num": 0.0,
+    "base_cov.prior_global_key.den": 28,
+    "base_all.prior_lane.num": 18.0,
+    "base_all.prior_lane.den": 33,
+    "base_cov.prior_lane.num": 15.0,
+    "base_cov.prior_lane.den": 28,
+    "base_all.prior_zone.num": 18.0,
+    "base_all.prior_zone.den": 33,
+    "base_cov.prior_zone.num": 14.0,
+    "base_cov.prior_zone.den": 28,
+    "base_all.prior_key.num": 8.0,
+    "base_all.prior_key.den": 33,
+    "base_cov.prior_key.num": 5.0,
+    "base_cov.prior_key.den": 28,
+    "base_all.rand_hand_ds.num": 4.916666666666666,
+    "base_all.rand_hand_ds.den": 25,
+    "base_cov.rand_hand_ds.num": 4.166666666666667,
+    "base_cov.rand_hand_ds.den": 21,
+    "base_all.kg_first.num": 0.0,
+    "base_all.kg_first.den": 1,
+    "base_all.kg_first_ds.num": 0.3333333333333333,
+    "base_all.kg_first_ds.den": 1,
+    "pair_dt_sum_abs": 18.69699999999993,
+    "bot_earlier.num": 15.0,
+    "bot_earlier.den": 32,
+    "same_card.num": 6.0,
+    "same_card.den": 26,
+    "same_lane.num": 13.0,
+    "same_lane.den": 23,
+    "same_zone.num": 10.0,
+    "same_zone.den": 23,
+    "same_key.num": 1.0,
+    "same_key.den": 23,
+    "tile_dist_all_pairs.num": 159.51703534130277,
+    "tile_dist_all_pairs.den": 23,
+    "base_pair.rand_hand.num": 3.8333333333333335,
+    "base_pair.rand_hand.den": 26,
+    "base_pair.prior_global_key.num": 0.0,
+    "base_pair.prior_global_key.den": 23,
+    "base_pair.prior_lane.num": 12.0,
+    "base_pair.prior_lane.den": 23,
+    "base_pair.prior_zone.num": 11.0,
+    "base_pair.prior_zone.den": 23,
+    "base_pair.prior_key.num": 4.0,
+    "base_pair.prior_key.den": 23,
+    "base_pair.rand_hand_ds.num": 3.916666666666667,
+    "base_pair.rand_hand_ds.den": 19,
+    "mode.leak.same_card.num": 0.0,
+    "mode.leak.same_card.den": 1,
+    "mode.leak.pairs": 1,
+    "conf.high.same_card.num": 2.0,
+    "conf.high.same_card.den": 12,
+    "conf.high.pairs": 15,
+    "same_lane_given_card.num": 2.0,
+    "same_lane_given_card.den": 5,
+    "same_zone_given_card.num": 2.0,
+    "same_zone_given_card.den": 5,
+    "same_key_given_card.num": 1.0,
+    "same_key_given_card.den": 5,
+    "tile_dist_given_card.num": 41.94812877064125,
+    "tile_dist_given_card.den": 5,
+    "within_2_tiles_given_card.num": 0.0,
+    "within_2_tiles_given_card.den": 5,
+    "base_pair_given_card.prior_lane.num": 2.0,
+    "base_pair_given_card.prior_lane.den": 5,
+    "base_pair_given_card.prior_zone.num": 2.0,
+    "base_pair_given_card.prior_zone.den": 5,
+    "base_pair_given_card.prior_key.num": 0.0,
+    "base_pair_given_card.prior_key.den": 5,
+    "mode.learned.same_card.num": 2.0,
+    "mode.learned.same_card.den": 6,
+    "mode.learned.pairs": 7,
+    "conf.medium.same_card.num": 4.0,
+    "conf.medium.same_card.den": 14,
+    "conf.medium.pairs": 14,
+    "mode.defend.same_card.num": 4.0,
+    "mode.defend.same_card.den": 19,
+    "mode.defend.pairs": 24,
+    "conf.low.same_card.num": 0.0,
+    "conf.low.same_card.den": 0,
+    "conf.low.pairs": 3,
+    "mode.leak.acts": 2,
+    "mode.leak.precise": 2,
+    "mode.learned.acts": 12,
+    "mode.learned.precise": 8,
+    "mode.defend.acts": 43,
+    "mode.defend.precise": 33,
+    "conf.high.pro": 21,
+    "conf.high.recalled": 20,
+    "conf.medium.pro": 23,
+    "conf.medium.recalled": 18,
+    "conf.low.pro": 3,
+    "conf.low.recalled": 3
+   },
+   "miss_reasons": {
+    "save: waiting for a card's window": 1,
+    "save: no adequate answer in hand": 3,
+    "decision held: hold_policy": 1,
+    "hold: act model: wait (p below threshold)": 1
+   }
+  },
+  {
+   "game_id": "SsOmbv1PfUg-m0.1",
+   "video_id": "SsOmbv1PfUg",
+   "minutes": 2.13,
+   "result": "win",
+   "counts": {
+    "games": 1,
+    "minutes": 2.13,
+    "n_pro": 32,
+    "n_bot": 48,
+    "n_ability": 0,
+    "n_pro_card_ok": 25,
+    "n_pro_unknown_card": 7,
+    "n_pro_card_not_in_deck": 0,
+    "recall_1s.num": 20,
+    "recall_1s.den": 32,
+    "precision_1s.num": 24,
+    "precision_1s.den": 48,
+    "recall_2s.num": 25,
+    "recall_2s.den": 32,
+    "precision_2s.num": 39,
+    "precision_2s.den": 48,
+    "recall_3s.num": 29,
+    "recall_3s.den": 32,
+    "precision_3s.num": 44,
+    "precision_3s.den": 48,
+    "recall_2s_pro_shift.num": 25,
+    "recall_2s_pro_shift.den": 32,
+    "precision_2s_pro_shift.num": 39,
+    "precision_2s_pro_shift.den": 48,
+    "null_recall_2s.num": 21.166666666666664,
+    "null_recall_2s.den": 32,
+    "null_precision_2s.num": 29.5,
+    "null_precision_2s.den": 48,
+    "bot_acts_per_min.num": 48,
+    "bot_acts_per_min.den": 2.13,
+    "pro_plays_per_min.num": 32,
+    "pro_plays_per_min.den": 2.13,
+    "bot_elixir_per_min.num": 137.0,
+    "bot_elixir_per_min.den": 2.13,
+    "pro_elixir_per_min.num": 59.0,
+    "pro_elixir_per_min.den": 2.13,
+    "pro_in_bot_hand.num": 13.0,
+    "pro_in_bot_hand.den": 25,
+    "pro_in_dataset_hand.num": 13.0,
+    "pro_in_dataset_hand.den": 19,
+    "base_all.rand_hand.num": 3.4166666666666665,
+    "base_all.rand_hand.den": 25,
+    "base_all.prior_global_key.num": 0.0,
+    "base_all.prior_global_key.den": 22,
+    "base_all.prior_lane.num": 14.0,
+    "base_all.prior_lane.den": 22,
+    "base_all.prior_zone.num": 14.0,
+    "base_all.prior_zone.den": 22,
+    "base_all.prior_key.num": 10.0,
+    "base_all.prior_key.den": 22,
+    "base_all.rand_hand_ds.num": 3.5833333333333335,
+    "base_all.rand_hand_ds.den": 19,
+    "base_cov.rand_hand.num": 3.083333333333333,
+    "base_cov.rand_hand.den": 18,
+    "base_cov.prior_global_key.num": 0.0,
+    "base_cov.prior_global_key.den": 15,
+    "base_cov.prior_lane.num": 9.0,
+    "base_cov.prior_lane.den": 15,
+    "base_cov.prior_zone.num": 9.0,
+    "base_cov.prior_zone.den": 15,
+    "base_cov.prior_key.num": 6.0,
+    "base_cov.prior_key.den": 15,
+    "base_cov.rand_hand_ds.num": 2.6666666666666665,
+    "base_cov.rand_hand_ds.den": 13,
+    "base_all.kg_first.num": 0.0,
+    "base_all.kg_first.den": 3,
+    "base_cov.kg_first.num": 0.0,
+    "base_cov.kg_first.den": 3,
+    "base_all.kg_first_ds.num": 0.0,
+    "base_all.kg_first_ds.den": 3,
+    "base_cov.kg_first_ds.num": 0.0,
+    "base_cov.kg_first_ds.den": 3,
+    "pair_dt_sum_abs": 13.663000000000011,
+    "bot_earlier.num": 15.0,
+    "bot_earlier.den": 22,
+    "same_card.num": 3.0,
+    "same_card.den": 17,
+    "base_pair.rand_hand.num": 2.833333333333333,
+    "base_pair.rand_hand.den": 17,
+    "mode.defend.same_card.num": 3.0,
+    "mode.defend.same_card.den": 13,
+    "mode.defend.pairs": 16,
+    "conf.high.same_card.num": 0.0,
+    "conf.high.same_card.den": 6,
+    "conf.high.pairs": 9,
+    "same_lane.num": 5.0,
+    "same_lane.den": 14,
+    "same_zone.num": 7.0,
+    "same_zone.den": 14,
+    "same_key.num": 0.0,
+    "same_key.den": 14,
+    "tile_dist_all_pairs.num": 90.36513951288381,
+    "tile_dist_all_pairs.den": 14,
+    "base_pair.prior_global_key.num": 0.0,
+    "base_pair.prior_global_key.den": 14,
+    "base_pair.prior_lane.num": 9.0,
+    "base_pair.prior_lane.den": 14,
+    "base_pair.prior_zone.num": 9.0,
+    "base_pair.prior_zone.den": 14,
+    "base_pair.prior_key.num": 6.0,
+    "base_pair.prior_key.den": 14,
+    "base_pair.rand_hand_ds.num": 2.6666666666666665,
+    "base_pair.rand_hand_ds.den": 13,
+    "conf.medium.same_card.num": 3.0,
+    "conf.medium.same_card.den": 11,
+    "conf.medium.pairs": 11,
+    "mode.punish.same_card.num": 0.0,
+    "mode.punish.same_card.den": 0,
+    "mode.punish.pairs": 1,
+    "conf.low.same_card.num": 0.0,
+    "conf.low.same_card.den": 0,
+    "conf.low.pairs": 2,
+    "same_lane_given_card.num": 1.0,
+    "same_lane_given_card.den": 3,
+    "same_zone_given_card.num": 1.0,
+    "same_zone_given_card.den": 3,
+    "same_key_given_card.num": 0.0,
+    "same_key_given_card.den": 3,
+    "tile_dist_given_card.num": 15.720059041885053,
+    "tile_dist_given_card.den": 3,
+    "within_2_tiles_given_card.num": 1.0,
+    "within_2_tiles_given_card.den": 3,
+    "base_pair_given_card.prior_lane.num": 1.0,
+    "base_pair_given_card.prior_lane.den": 3,
+    "base_pair_given_card.prior_zone.num": 3.0,
+    "base_pair_given_card.prior_zone.den": 3,
+    "base_pair_given_card.prior_key.num": 1.0,
+    "base_pair_given_card.prior_key.den": 3,
+    "base_pair.kg_first.num": 0.0,
+    "base_pair.kg_first.den": 3,
+    "bot_on_kg_subset.num": 0.0,
+    "bot_on_kg_subset.den": 3,
+    "base_pair.kg_first_ds.num": 0.0,
+    "base_pair.kg_first_ds.den": 3,
+    "mode.leak.same_card.num": 0.0,
+    "mode.leak.same_card.den": 0,
+    "mode.leak.pairs": 1,
+    "mode.learned.same_card.num": 0.0,
+    "mode.learned.same_card.den": 4,
+    "mode.learned.pairs": 4,
+    "mode.defend.acts": 38,
+    "mode.defend.precise": 30,
+    "mode.punish.acts": 2,
+    "mode.punish.precise": 2,
+    "mode.leak.acts": 2,
+    "mode.leak.precise": 2,
+    "mode.learned.acts": 6,
+    "mode.learned.precise": 5,
+    "conf.medium.pro": 17,
+    "conf.medium.recalled": 12,
+    "conf.high.pro": 11,
+    "conf.high.recalled": 9,
+    "conf.low.pro": 4,
+    "conf.low.recalled": 4
+   },
+   "miss_reasons": {
+    "save: no adequate answer in hand": 2,
+    "hold: act model: wait (p below threshold)": 1,
+    "save: waiting for a card's window": 3,
+    "save: saving for a card": 1
+   }
+  },
+  {
+   "game_id": "Zt6Onn89EVk-m0.0",
+   "video_id": "Zt6Onn89EVk",
+   "minutes": 4.533,
+   "result": "win",
+   "counts": {
+    "games": 1,
+    "minutes": 4.533,
+    "n_pro": 89,
+    "n_bot": 113,
+    "n_ability": 0,
+    "n_pro_card_ok": 67,
+    "n_pro_unknown_card": 22,
+    "n_pro_card_not_in_deck": 0,
+    "recall_1s.num": 54,
+    "recall_1s.den": 89,
+    "precision_1s.num": 52,
+    "precision_1s.den": 113,
+    "recall_2s.num": 64,
+    "recall_2s.den": 89,
+    "precision_2s.num": 77,
+    "precision_2s.den": 113,
+    "recall_3s.num": 72,
+    "recall_3s.den": 89,
+    "precision_3s.num": 91,
+    "precision_3s.den": 113,
+    "recall_2s_pro_shift.num": 66,
+    "recall_2s_pro_shift.den": 89,
+    "precision_2s_pro_shift.num": 76,
+    "precision_2s_pro_shift.den": 113,
+    "null_recall_2s.num": 60.666666666666664,
+    "null_recall_2s.den": 89,
+    "null_precision_2s.num": 75.83333333333334,
+    "null_precision_2s.den": 113,
+    "bot_acts_per_min.num": 113,
+    "bot_acts_per_min.den": 4.533,
+    "pro_plays_per_min.num": 89,
+    "pro_plays_per_min.den": 4.533,
+    "bot_elixir_per_min.num": 326.0,
+    "bot_elixir_per_min.den": 4.533,
+    "pro_elixir_per_min.num": 190.0,
+    "pro_elixir_per_min.den": 4.533,
+    "pro_in_bot_hand.num": 21.0,
+    "pro_in_bot_hand.den": 67,
+    "pro_in_dataset_hand.num": 23.0,
+    "pro_in_dataset_hand.den": 50,
+    "base_all.rand_hand.num": 6.249999999999999,
+    "base_all.rand_hand.den": 67,
+    "base_cov.rand_hand.num": 4.25,
+    "base_cov.rand_hand.den": 48,
+    "base_all.kg_first.num": 0.0,
+    "base_all.kg_first.den": 5,
+    "base_cov.kg_first.num": 0.0,
+    "base_cov.kg_first.den": 4,
+    "base_all.prior_global_key.num": 0.0,
+    "base_all.prior_global_key.den": 52,
+    "base_cov.prior_global_key.num": 0.0,
+    "base_cov.prior_global_key.den": 38,
+    "base_all.prior_lane.num": 23.0,
+    "base_all.prior_lane.den": 52,
+    "base_cov.prior_lane.num": 16.0,
+    "base_cov.prior_lane.den": 38,
+    "base_all.prior_zone.num": 23.0,
+    "base_all.prior_zone.den": 52,
+    "base_cov.prior_zone.num": 15.0,
+    "base_cov.prior_zone.den": 38,
+    "base_all.prior_key.num": 17.0,
+    "base_all.prior_key.den": 52,
+    "base_cov.prior_key.num": 11.0,
+    "base_cov.prior_key.den": 38,
+    "base_all.rand_hand_ds.num": 7.75,
+    "base_all.rand_hand_ds.den": 50,
+    "base_cov.rand_hand_ds.num": 6.583333333333333,
+    "base_cov.rand_hand_ds.den": 35,
+    "base_all.kg_first_ds.num": 1.0,
+    "base_all.kg_first_ds.den": 5,
+    "base_cov.kg_first_ds.num": 1.0,
+    "base_cov.kg_first_ds.den": 4,
+    "pair_dt_sum_abs": 31.31009999999998,
+    "bot_earlier.num": 33.0,
+    "bot_earlier.den": 52,
+    "mode.defend.same_card.num": 1.0,
+    "mode.defend.same_card.den": 19,
+    "mode.defend.pairs": 26,
+    "conf.low.same_card.num": 0.0,
+    "conf.low.same_card.den": 0,
+    "conf.low.pairs": 3,
+    "same_card.num": 7.0,
+    "same_card.den": 39,
+    "same_lane.num": 13.0,
+    "same_lane.den": 31,
+    "same_lane_given_card.num": 2.0,
+    "same_lane_given_card.den": 7,
+    "same_zone.num": 14.0,
+    "same_zone.den": 31,
+    "same_zone_given_card.num": 5.0,
+    "same_zone_given_card.den": 7,
+    "same_key.num": 1.0,
+    "same_key.den": 31,
+    "same_key_given_card.num": 1.0,
+    "same_key_given_card.den": 7,
+    "tile_dist_all_pairs.num": 257.1690375266567,
+    "tile_dist_all_pairs.den": 31,
+    "tile_dist_given_card.num": 67.93630869507624,
+    "tile_dist_given_card.den": 7,
+    "within_2_tiles_given_card.num": 0.0,
+    "within_2_tiles_given_card.den": 7,
+    "base_pair.rand_hand.num": 3.666666666666667,
+    "base_pair.rand_hand.den": 39,
+    "base_pair.kg_first.num": 0.0,
+    "base_pair.kg_first.den": 4,
+    "bot_on_kg_subset.num": 1.0,
+    "bot_on_kg_subset.den": 4,
+    "base_pair.prior_global_key.num": 0.0,
+    "base_pair.prior_global_key.den": 31,
+    "base_pair.prior_lane.num": 13.0,
+    "base_pair.prior_lane.den": 31,
+    "base_pair_given_card.prior_lane.num": 2.0,
+    "base_pair_given_card.prior_lane.den": 7,
+    "base_pair.prior_zone.num": 12.0,
+    "base_pair.prior_zone.den": 31,
+    "base_pair_given_card.prior_zone.num": 2.0,
+    "base_pair_given_card.prior_zone.den": 7,
+    "base_pair.prior_key.num": 9.0,
+    "base_pair.prior_key.den": 31,
+    "base_pair_given_card.prior_key.num": 2.0,
+    "base_pair_given_card.prior_key.den": 7,
+    "base_pair.rand_hand_ds.num": 6.0,
+    "base_pair.rand_hand_ds.den": 28,
+    "base_pair.kg_first_ds.num": 1.0,
+    "base_pair.kg_first_ds.den": 4,
+    "mode.counter.same_card.num": 6.0,
+    "mode.counter.same_card.den": 17,
+    "mode.counter.pairs": 21,
+    "conf.high.same_card.num": 1.0,
+    "conf.high.same_card.den": 11,
+    "conf.high.pairs": 21,
+    "conf.medium.same_card.num": 6.0,
+    "conf.medium.same_card.den": 28,
+    "conf.medium.pairs": 28,
+    "mode.learned.same_card.num": 0.0,
+    "mode.learned.same_card.den": 3,
+    "mode.learned.pairs": 5,
+    "mode.counter.acts": 58,
+    "mode.counter.precise": 30,
+    "mode.defend.acts": 48,
+    "mode.defend.precise": 40,
+    "mode.learned.acts": 7,
+    "mode.learned.precise": 7,
+    "conf.low.pro": 3,
+    "conf.low.recalled": 3,
+    "conf.high.pro": 41,
+    "conf.high.recalled": 29,
+    "conf.medium.pro": 45,
+    "conf.medium.recalled": 32
+   },
+   "miss_reasons": {
+    "save: the tower handles it": 5,
+    "save: waiting for a card's window": 2,
+    "hold: act model: wait (p below threshold)": 5,
+    "save: no adequate answer in hand": 2,
+    "none: no affordable card": 6,
+    "save: push already answered": 2,
+    "decision held: hold_policy": 1,
+    "decision held: hold_fallback": 2
+   }
+  },
+  {
+   "game_id": "Zt6Onn89EVk-m1.0",
+   "video_id": "Zt6Onn89EVk",
+   "minutes": 1.272,
+   "result": "win",
+   "counts": {
+    "games": 1,
+    "minutes": 1.272,
+    "n_pro": 29,
+    "n_bot": 56,
+    "n_ability": 0,
+    "n_pro_card_ok": 23,
+    "n_pro_unknown_card": 5,
+    "n_pro_card_not_in_deck": 1,
+    "recall_1s.num": 26,
+    "recall_1s.den": 29,
+    "precision_1s.num": 33,
+    "precision_1s.den": 56,
+    "recall_2s.num": 28,
+    "recall_2s.den": 29,
+    "precision_2s.num": 45,
+    "precision_2s.den": 56,
+    "recall_3s.num": 29,
+    "recall_3s.den": 29,
+    "precision_3s.num": 52,
+    "precision_3s.den": 56,
+    "recall_2s_pro_shift.num": 28,
+    "recall_2s_pro_shift.den": 29,
+    "precision_2s_pro_shift.num": 44,
+    "precision_2s_pro_shift.den": 56,
+    "null_recall_2s.num": 27.166666666666668,
+    "null_recall_2s.den": 29,
+    "null_precision_2s.num": 42.666666666666664,
+    "null_precision_2s.den": 56,
+    "bot_acts_per_min.num": 56,
+    "bot_acts_per_min.den": 1.272,
+    "pro_plays_per_min.num": 29,
+    "pro_plays_per_min.den": 1.272,
+    "bot_elixir_per_min.num": 121.0,
+    "bot_elixir_per_min.den": 1.272,
+    "pro_elixir_per_min.num": 55.0,
+    "pro_elixir_per_min.den": 1.272,
+    "pro_in_bot_hand.num": 13.0,
+    "pro_in_bot_hand.den": 23,
+    "pro_in_dataset_hand.num": 12.0,
+    "pro_in_dataset_hand.den": 19,
+    "base_all.rand_hand.num": 4.333333333333334,
+    "base_all.rand_hand.den": 23,
+    "base_all.prior_global_key.num": 1.0,
+    "base_all.prior_global_key.den": 16,
+    "base_all.prior_lane.num": 9.0,
+    "base_all.prior_lane.den": 16,
+    "base_all.prior_zone.num": 13.0,
+    "base_all.prior_zone.den": 16,
+    "base_all.prior_key.num": 8.0,
+    "base_all.prior_key.den": 16,
+    "base_all.rand_hand_ds.num": 5.499999999999999,
+    "base_all.rand_hand_ds.den": 19,
+    "base_cov.rand_hand.num": 4.333333333333334,
+    "base_cov.rand_hand.den": 22,
+    "base_cov.prior_global_key.num": 1.0,
+    "base_cov.prior_global_key.den": 15,
+    "base_cov.prior_lane.num": 8.0,
+    "base_cov.prior_lane.den": 15,
+    "base_cov.prior_zone.num": 12.0,
+    "base_cov.prior_zone.den": 15,
+    "base_cov.prior_key.num": 7.0,
+    "base_cov.prior_key.den": 15,
+    "base_cov.rand_hand_ds.num": 5.499999999999999,
+    "base_cov.rand_hand_ds.den": 18,
+    "base_all.kg_first.num": 3.5,
+    "base_all.kg_first.den": 7,
+    "base_cov.kg_first.num": 3.5,
+    "base_cov.kg_first.den": 7,
+    "base_all.kg_first_ds.num": 3.0,
+    "base_all.kg_first_ds.den": 7,
+    "base_cov.kg_first_ds.num": 3.0,
+    "base_cov.kg_first_ds.den": 7,
+    "pair_dt_sum_abs": 13.873699999999872,
+    "bot_earlier.num": 13.0,
+    "bot_earlier.den": 26,
+    "mode.defend.same_card.num": 4.0,
+    "mode.defend.same_card.den": 13,
+    "mode.defend.pairs": 18,
+    "conf.medium.same_card.num": 0.0,
+    "conf.medium.same_card.den": 11,
+    "conf.medium.pairs": 13,
+    "same_card.num": 6.0,
+    "same_card.den": 20,
+    "same_lane.num": 5.0,
+    "same_lane.den": 13,
+    "same_zone.num": 4.0,
+    "same_zone.den": 13,
+    "same_key.num": 1.0,
+    "same_key.den": 13,
+    "tile_dist_all_pairs.num": 104.9004346085174,
+    "tile_dist_all_pairs.den": 13,
+    "base_pair.rand_hand.num": 4.333333333333334,
+    "base_pair.rand_hand.den": 20,
+    "base_pair.prior_global_key.num": 1.0,
+    "base_pair.prior_global_key.den": 13,
+    "base_pair.prior_lane.num": 8.0,
+    "base_pair.prior_lane.den": 13,
+    "base_pair.prior_zone.num": 11.0,
+    "base_pair.prior_zone.den": 13,
+    "base_pair.prior_key.num": 7.0,
+    "base_pair.prior_key.den": 13,
+    "base_pair.rand_hand_ds.num": 5.249999999999999,
+    "base_pair.rand_hand_ds.den": 17,
+    "conf.high.same_card.num": 6.0,
+    "conf.high.same_card.den": 9,
+    "conf.high.pairs": 11,
+    "mode.counter.same_card.num": 2.0,
+    "mode.counter.same_card.den": 5,
+    "mode.counter.pairs": 5,
+    "mode.learned.same_card.num": 0.0,
+    "mode.learned.same_card.den": 1,
+    "mode.learned.pairs": 2,
+    "base_pair.kg_first.num": 3.5,
+    "base_pair.kg_first.den": 6,
+    "bot_on_kg_subset.num": 2.0,
+    "bot_on_kg_subset.den": 6,
+    "base_pair.kg_first_ds.num": 3.0,
+    "base_pair.kg_first_ds.den": 6,
+    "mode.punish.same_card.num": 0.0,
+    "mode.punish.same_card.den": 1,
+    "mode.punish.pairs": 1,
+    "conf.low.same_card.num": 0.0,
+    "conf.low.same_card.den": 0,
+    "conf.low.pairs": 2,
+    "same_lane_given_card.num": 1.0,
+    "same_lane_given_card.den": 1,
+    "same_zone_given_card.num": 1.0,
+    "same_zone_given_card.den": 1,
+    "same_key_given_card.num": 1.0,
+    "same_key_given_card.den": 1,
+    "tile_dist_given_card.num": 2.23606797749979,
+    "tile_dist_given_card.den": 1,
+    "within_2_tiles_given_card.num": 0.0,
+    "within_2_tiles_given_card.den": 1,
+    "base_pair_given_card.prior_lane.num": 1.0,
+    "base_pair_given_card.prior_lane.den": 1,
+    "base_pair_given_card.prior_zone.num": 1.0,
+    "base_pair_given_card.prior_zone.den": 1,
+    "base_pair_given_card.prior_key.num": 1.0,
+    "base_pair_given_card.prior_key.den": 1,
+    "mode.defend.acts": 39,
+    "mode.defend.precise": 30,
+    "mode.counter.acts": 14,
+    "mode.counter.precise": 12,
+    "mode.learned.acts": 2,
+    "mode.learned.precise": 2,
+    "mode.punish.acts": 1,
+    "mode.punish.precise": 1,
+    "conf.medium.pro": 16,
+    "conf.medium.recalled": 15,
+    "conf.high.pro": 11,
+    "conf.high.recalled": 11,
+    "conf.low.pro": 2,
+    "conf.low.recalled": 2
+   },
+   "miss_reasons": {
+    "none: no affordable card": 1
+   }
+  }
+ ]
+}

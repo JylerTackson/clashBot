@@ -9,6 +9,7 @@ db/ or to the screen, and sends no input. Routes (all GET):
   /api/run/<id>/meta                 config, summary, battles, deck marks, counts
   /api/run/<id>/decisions?since=N    decision rows from index N, each with its shot files and parsed context
   /api/run/<id>/holds?since=N        hold rows from index N (+ reason buckets, digits replaced by "#")
+  /api/run/<id>/pro                  the pro's plays of a run made on a pro video (pro_plays.jsonl, MAC-AQ)
   /api/shot/<id>/<file>              a jpg from that run's shots/
   /api/state/<state id>              one retrieved pro state
   /api/kg?cards=a,b&own=..&enemy=..&focus=x&deck=..   the knowledge-graph subgraph
@@ -100,6 +101,8 @@ class Api:
             return self._json(run.decisions_since(self._int(q, "since"), limit))
         if what == "holds":
             return self._json(run.holds_since(self._int(q, "since")))
+        if what == "pro":
+            return self._json({"has_pro": run.has_pro(), "plays": run.pro_plays()})
         return self._err(404, "not found")
 
     def shot(self, run_id: str, name: str) -> tuple[int, str, bytes]:

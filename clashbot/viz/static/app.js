@@ -17,11 +17,14 @@ const REL_STYLE = {
   SYNERGY: { color: "#69db7c", dash: "7 5", arrow: false, label: "SYNERGY" },
 };
 const GOLD = "#ffd43b";
+const PRO_COLORS = { same: "#69db7c", other: "#ffa94d", none: "#ff6b6b" };
+const PRO_LABELS = { same: "bot tapped the same card within 2 s", other: "bot tapped another card", none: "bot did not tap" };
 
 const S = {
   gen: 0, current: null, pinned: null, runId: null, meta: null, stats: null, live: false,
   decisions: [], holds: [], buckets: {}, sel: null, auto: null, shot: "a",
   detail: null, stateCache: {}, kgCache: {}, kgKey: null, runs: [], runsAt: 0, runsKey: "", view: {},
+  pro: null,                            // MAC-AQ: the pro's plays of a run made on a pro video (null = not asked yet)
 };
 
 async function getJSON(url) {
@@ -34,7 +37,7 @@ async function getJSON(url) {
 function resetRun(id) {
   S.gen += 1;
   Object.assign(S, { runId: id, meta: null, stats: null, decisions: [], holds: [], buckets: {}, sel: null, auto: null,
-                     shot: "a", detail: null, kgKey: null, view: {} });
+                     shot: "a", detail: null, kgKey: null, view: {}, pro: null });
 }
 
 async function loadRuns() {
@@ -87,6 +90,10 @@ async function tick() {
         getJSON(`/api/run/${id}/holds?since=${S.holds.length}`),
       ]);
       if (gen !== S.gen) return;
+      if (meta.has_pro && S.pro === null) {          // a run made on a pro video: fetch the pro's plays once
+        try { S.pro = (await getJSON(`/api/run/${id}/pro`)).plays || []; } catch (e) { S.pro = []; }
+        if (gen !== S.gen) return;
+      }
       applyData(meta, dec, hold);
     }
     if (Date.now() - S.runsAt > RUNS_REFRESH_MS) await loadRuns();
@@ -115,6 +122,7 @@ const gameClock = (row) => {
   return m ? m[1] : null;
 };
 const modeColor = (m) => MODE_COLORS[m] || "#f1f3f5";
+const isTap = (row) => row.key !== HOLD && ["dry_run", "sent"].includes(execClass(row));   // a decision that taps (or would)
 const execClass = (row) => {
   const ex = row.executor || {};
   const status = ex.status || "dry_run";
@@ -188,7 +196,7 @@ function buildRunSelect() {
   const auto = S.current && S.current.follow ? `auto: newest run under ${S.current.parent}` : "the run this server was started with";
   const opts = [`<option value="">${esc(auto)}</option>`];
   for (const r of S.runs) {
-    const tail = r.has_retrieval ? "" : " (no retrieval log)";
+    const tail = (r.has_retrieval ? "" : " (no retrieval log)") + (r.has_pro ? " (vs pro)" : "");
     opts.push(`<option value="${esc(r.id)}">${esc(r.parent)}/${esc(r.name)} - ${r.decisions} decisions${tail}</option>`);
   }
   sel.innerHTML = opts.join("");
@@ -212,7 +220,8 @@ function holdRuns() {
 function renderTimeline() {
   const el = $("timeline");
   const W = Math.max(el.clientWidth, 640);
-  const sig = [S.runId, S.decisions.length, S.holds.length, S.sel, W].join("|");
+  const PRO = S.pro || [];                                      // MAC-AQ: a second row of marks, only on runs with pro_plays.jsonl
+  const sig = [S.runId, S.decisions.length, S.holds.length, S.sel, W, PRO.length].join("|");
   if (S.view.timeline === sig) return;
   S.view.timeline = sig;
   const D = S.decisions;
@@ -224,8 +233,11 @@ function renderTimeline() {
   let t0 = Infinity, t1 = -Infinity;
   for (const r of D) { t0 = Math.min(t0, r.t); t1 = Math.max(t1, r.t); }
   for (const r of S.holds) { t0 = Math.min(t0, r.t); t1 = Math.max(t1, r.t + 1); }
+  for (const p of PRO) { t0 = Math.min(t0, p.t); t1 = Math.max(t1, p.t); }
   if (!(t1 > t0)) t1 = t0 + 1;
-  const padL = 14, padR = 14, H = 130;
+  const hasPro = PRO.length > 0;
+  const proY = 80, holdY = hasPro ? 110 : 76;
+  const padL = 14, padR = 14, H = hasPro ? 164 : 130;
   const x = (t) => padL + ((t - t0) / (t1 - t0)) * (W - padL - padR);
   const names = Object.keys(S.buckets);
   const color = {};
@@ -246,10 +258,24 @@ function renderTimeline() {
   }
   for (const r of holdRuns()) {
     const w = Math.max(x(r.t1) - x(r.t0), 1.5);
-    parts.push(`<rect x="${x(r.t0)}" y="76" width="${w}" height="26" fill="${color[r.bucket] || "#5c6b7f"}"><title>${esc(r.bucket)}</title></rect>`);
+    parts.push(`<rect x="${x(r.t0)}" y="${holdY}" width="${w}" height="26" fill="${color[r.bucket] || "#5c6b7f"}"><title>${esc(r.bucket)}</title></rect>`);
   }
-  parts.push(`<text x="${padL}" y="70">why it waited</text>`);
+  parts.push(`<text x="${padL}" y="${holdY - 6}">why it waited</text>`);
   parts.push(`<text x="${padL}" y="30">decisions</text>`);
+  if (hasPro) {
+    parts.push(`<text x="${padL}" y="${proY - 16}">pro</text>`);
+    const taps = D.filter(isTap);
+    PRO.forEach((p, k) => {
+      const near = taps.filter((r) => Math.abs(r.t - p.t) <= 2);
+      const kind = near.some((r) => cardOf(r.key) === p.card) ? "same" : near.length ? "other" : "none";
+      const c = PRO_COLORS[kind];
+      const px = x(p.t);
+      const tip = `pro ${fmtT(p.t)}: ${pretty(p.key || p.card || "unknown card")} (${p.confidence || "?"}) - bot ` +
+        (kind === "same" ? "tapped the same card" : kind === "other" ? "tapped another card" : "did not tap within 2 s");
+      parts.push(`<path data-pro="${k}" d="M${px} ${proY - 8} L${px + 8} ${proY} L${px} ${proY + 8} L${px - 8} ${proY} Z" ` +
+        `fill="${kind === "none" ? "none" : c}" stroke="${c}" stroke-width="2.5"><title>${esc(tip)}</title></path>`);
+    });
+  }
   D.forEach((r, i) => {
     const hollow = r.key === HOLD;
     const c = modeColor(r.mode);
@@ -258,7 +284,7 @@ function renderTimeline() {
   });
   if (S.sel !== null && D[S.sel]) {
     const sx = x(D[S.sel].t);
-    parts.push(`<line x1="${sx}" y1="30" x2="${sx}" y2="104" stroke="#fff" stroke-width="1.5"/>`);
+    parts.push(`<line x1="${sx}" y1="30" x2="${sx}" y2="${holdY + 28}" stroke="#fff" stroke-width="1.5"/>`);
     parts.push(`<circle cx="${sx}" cy="46" r="12" fill="none" stroke="#fff" stroke-width="2.5" pointer-events="none"/>`);
   }
   el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">${parts.join("")}</svg>`;
@@ -268,7 +294,11 @@ function renderTimeline() {
     `<span class="dot" style="background:${modeColor(m)}"></span>${esc(m)} ${n}`).join(" ");
   const holdHtml = names.slice(0, 8).map((b) =>
     `<span class="sw" style="border-color:${color[b]}"></span>${esc(b)} <span class="dim">${S.buckets[b]}</span>`).join(" ");
-  $("timeline-legend").innerHTML = `<div>${modeHtml}</div><div>${holdHtml}${names.length > 8 ? ` <span class="dim">+${names.length - 8} more</span>` : ""}</div>`;
+  const proHtml = hasPro
+    ? `<div>pro plays: ${Object.entries(PRO_LABELS).map(([k, l]) =>
+        `<span class="dot sq" style="background:${k === "none" ? "transparent" : PRO_COLORS[k]};border:2px solid ${PRO_COLORS[k]}"></span>${esc(l)}`).join(" ")}</div>`
+    : "";
+  $("timeline-legend").innerHTML = `<div>${modeHtml}</div>${proHtml}<div>${holdHtml}${names.length > 8 ? ` <span class="dim">+${names.length - 8} more</span>` : ""}</div>`;
 }
 
 function select(i, byUser) {
@@ -303,6 +333,19 @@ function renderScreen(row) {
 }
 
 // ------------------------------------------------------------------------------------------------ decision
+function proBox(row) {
+  // MAC-AQ: only a run with pro_plays.jsonl has `row.pro` (null = no pro play within 3 s); other runs show nothing new
+  if (row.pro === undefined) return "";
+  const p = row.pro;
+  if (!p) return '<div class="pro-box"><b>pro</b> <span class="dim">no pro play within 3 s of this decision</span></div>';
+  const where = Array.isArray(p.tile) ? ` @[${fmt(p.tile[0], 1)}, ${fmt(p.tile[1], 1)}]` : "";
+  const dt = `${p.dt > 0 ? "+" : ""}${fmt(p.dt, 1)}`;
+  const apart = typeof p.tile_dist === "number" ? ` &middot; ${fmt(p.tile_dist, 1)} tiles apart` : "";
+  return `<div class="pro-box"><b>pro</b> played <b>${esc(pretty(p.key || p.card || "an unknown card"))}</b>${where} at ${fmt(p.t, 1)} s ` +
+    `<span class="dim">(&Delta;t = ${dt} s, bot minus pro; detection ${esc(p.confidence || "?")}${apart})</span> ` +
+    `<span class="match ${esc(String(p.badge).replace(/ /g, "-"))}">${esc(p.badge)}</span></div>`;
+}
+
 function renderDecision(row) {
   const el = $("decision");
   if (!row) { el.innerHTML = '<div class="empty">no decision yet</div>'; $("decision-sub").textContent = ""; return; }
@@ -340,6 +383,7 @@ function renderDecision(row) {
   el.innerHTML =
     `<div class="reason"><span class="chip" style="border-color:${modeColor(row.mode)};color:${modeColor(row.mode)}">${esc(row.mode)}</span> ${esc(row.reason)}</div>` +
     `<div class="chosen">${held ? "HOLD (no tap)" : esc(pretty(row.key))}<span class="status ${cls}">${esc(ex.status || "dry_run")}${ex.sent ? " / sent" : ""}${ex.gate ? " / " + esc(ex.gate) : ""}</span></div>` +
+    proBox(row) +
     `<div class="kv">${kv.map(([k, v]) => `<div>${k}</div><div>${v}</div>`).join("")}</div>` +
     (cands.length ? `<h2>Candidates <span class="sub">${haveP ? "bar = d1 ranker probability" : "no ranker probabilities logged for this decision"}</span></h2>${candHtml}`
                   : '<div class="empty">no candidates survived the policy</div>');
@@ -579,7 +623,14 @@ function renderAll() {
 document.addEventListener("click", (ev) => {
   const t = ev.target;
   if (t.dataset && t.dataset.i !== undefined && t.closest("#timeline")) select(parseInt(t.dataset.i, 10), true);
-  else if (t.dataset && t.dataset.shot) { S.shot = t.dataset.shot; renderAll(); }
+  else if (t.dataset && t.dataset.pro !== undefined && t.closest("#timeline")) {       // a pro mark: the nearest decision in time
+    const p = (S.pro || [])[parseInt(t.dataset.pro, 10)];
+    if (p && S.decisions.length) {
+      let best = 0;
+      S.decisions.forEach((r, i) => { if (Math.abs(r.t - p.t) < Math.abs(S.decisions[best].t - p.t)) best = i; });
+      select(best, true);
+    }
+  } else if (t.dataset && t.dataset.shot) { S.shot = t.dataset.shot; renderAll(); }
   else {
     const tr = t.closest && t.closest("tr.hit");
     if (tr) showState(tr.dataset.id);

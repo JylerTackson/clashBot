@@ -105,3 +105,12 @@ tr.hit.cand td:first-child { box-shadow: inset 4px 0 0 var(--gold); }
 #timeline svg { width: 100%; display: block; }
 #timeline text { font: 14px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--dim); }
 #timeline circle { cursor: pointer; }
+
+/* the pro (MAC-AQ): shown only on runs that have pro_plays.jsonl */
+.pro-box { margin: 4px 0 8px; padding: 6px 10px; border: 2px solid #8c9bb0; border-radius: 7px; background: #0d131b; font-size: 18px; }
+.match { display: inline-block; font-size: 16px; font-weight: 700; padding: 1px 10px; border-radius: 5px; margin-left: 4px; vertical-align: 2px; color: #fff; }
+.match.same-card { background: #2b8a3e; }
+.match.same-lane { background: #e67700; }
+.match.different { background: #c92a2a; }
+.match.bot-held, .match.pro-card-unknown { background: #495057; }
+.legend span.dot.sq { border-radius: 2px; width: 11px; height: 11px; transform: rotate(45deg); }

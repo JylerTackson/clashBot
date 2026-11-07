@@ -353,3 +353,76 @@ def test_kg_without_enemy_param_counts_every_card_as_a_threat_and_empty_enemy_me
     api = Api(Store(follow=ROOT / "runs" / "nope"))
     assert set(get(api, "/api/kg?cards=bats,zap")[1]["top_counters"]) == {"bats", "zap"}
     assert get(api, "/api/kg?cards=bats,zap&own=zap&enemy=")[1]["top_counters"] == {}
+
+
+# -- MAC-AQ: a run made on a pro video shows the pro's plays ----------------------------------------------------------
+@pytest.fixture
+def pro_run_dir(tmp_path):
+    """A run dir with pro_plays.jsonl (t in run time): decisions at 10 (zap|left|mid), 12.5, 15, 30 and 60 (a hold)."""
+    d = tmp_path / "runs" / "eval" / "vs_pro" / "game-m0.0"
+    (d / "shots").mkdir(parents=True)
+    (d / "config.json").write_text(json.dumps({"deck": "zap,archers,knight,giant", "ranker": "d1", "policy": "fast", "source": "video"}))
+    _write(d / "decisions.jsonl", [_row(0, 10.0), _row(1, 12.5, key="archers|right|mid"), _row(2, 15.0, key="knight|middle|back"),
+                                   _row(3, 30.0), _row(4, 60.0, key="hold", status="hold_policy")])
+    _write(d / "pro_plays.jsonl", [
+        {"t": 10.8, "card": "zap", "tile": [3, 9], "lane": "left", "zone": "mid", "key": "zap|left|mid", "confidence": "high"},
+        {"t": 13.0, "card": "giant", "tile": [4, 12], "lane": "left", "zone": "bridge", "key": "giant|left|bridge", "confidence": "medium"},
+        {"t": 17.2, "card": "bats", "tile": [14, 4], "lane": "right", "zone": "back", "key": "bats|right|back", "confidence": "low"},
+        {"t": 59.0, "card": None, "tile": None, "lane": None, "zone": None, "key": None, "confidence": "high"}])
+    return d
+
+
+def test_decisions_of_a_pro_run_carry_the_nearest_pro_play_and_a_badge(pro_run_dir):
+    api = Api(Store(run=pro_run_dir), Reference(db_path=pro_run_dir / "no.sqlite"), cards={})
+    rows = get(api, f"/api/run/{rid(pro_run_dir)}/decisions?since=0")[1]["rows"]
+    p0, p1, p2, p3, p4 = (r["pro"] for r in rows)
+    assert (p0["card"], p0["t"], p0["dt"], p0["badge"], p0["same_card"], p0["same_lane"]) == ("zap", 10.8, -0.8, "same card", True, True)
+    assert p0["tile_dist"] == pytest.approx(0.5)                          # bot tile [3.5, 9.0] vs pro [3, 9]
+    assert (p1["card"], p1["dt"], p1["badge"]) == ("giant", -0.5, "different")      # archers|right vs giant|left
+    assert (p2["card"], p2["dt"], p2["badge"]) == ("giant", 2.0, "different")       # 13.0 is nearer (2.0 s) than 17.2 (2.2 s)
+    assert p3 is None                                                    # nothing within 3 s of t = 30
+    assert p4["badge"] == "bot held" and p4["card"] is None              # a hold decision is not judged
+
+
+def test_nearest_pro_badges_and_window():
+    from clashbot.viz.data import nearest_pro
+    row = {"t": 20.0, "key": "zap|left|mid", "tile": [1, 1], "executor": {}}
+    assert nearest_pro(row, [{"t": 23.5, "card": "zap"}]) is None
+    best = nearest_pro(row, [{"t": 18.0, "card": "a"}, {"t": 20.9, "card": "zap", "lane": "left"}, {"t": 22.5, "card": "c"}])
+    assert best["card"] == "zap" and best["dt"] == -0.9 and best["badge"] == "same card"
+    lane = nearest_pro({"t": 5.0, "key": "knight|left|back", "tile": None, "executor": {}}, [{"t": 5.5, "card": "zap", "lane": "left", "tile": None}])
+    assert lane["badge"] == "same lane" and lane["tile_dist"] is None
+    unknown = nearest_pro({"t": 5.0, "key": "knight|left|back", "tile": None, "executor": {}}, [{"t": 5.5, "card": None, "lane": None}])
+    assert unknown["badge"] == "pro card unknown" and not unknown["same_card"]
+
+
+def test_pro_endpoint_meta_listing_and_timeline_data(pro_run_dir):
+    api = Api(Store(run=pro_run_dir, runs_dir=pro_run_dir.parents[2]), Reference(db_path=pro_run_dir / "no.sqlite"), cards={})
+    status, out = get(api, f"/api/run/{rid(pro_run_dir)}/pro")
+    assert status == 200 and out["has_pro"] is True and [p["t"] for p in out["plays"]] == [10.8, 13.0, 17.2, 59.0]
+    assert get(api, f"/api/run/{rid(pro_run_dir)}/meta")[1]["has_pro"] is True
+    runs = json.loads(api.handle("/api/runs")[2])["runs"]                 # runs/eval/vs_pro is a listed parent
+    assert [r["id"] for r in runs] == ["vs_pro:game-m0.0"] and runs[0]["has_pro"] is True
+
+
+def test_runs_without_pro_plays_are_unchanged(api, run_dir):
+    rows = get(api, f"/api/run/{rid(run_dir)}/decisions?since=0")[1]["rows"]
+    assert all("pro" not in r for r in rows)
+    assert get(api, f"/api/run/{rid(run_dir)}/meta")[1]["has_pro"] is False
+    assert get(api, f"/api/run/{rid(run_dir)}/pro")[1] == {"has_pro": False, "plays": []}
+
+
+def test_pro_plays_are_reread_when_the_file_changes(pro_run_dir):
+    run = Run("vs_pro:game-m0.0", pro_run_dir)
+    assert len(run.pro_plays()) == 4
+    with open(pro_run_dir / "pro_plays.jsonl", "a") as fh:
+        fh.write(json.dumps({"t": 5.0, "card": "zap", "confidence": "high"}) + "\n")
+    plays = run.pro_plays()
+    assert len(plays) == 5 and plays[0]["t"] == 5.0                       # sorted by time
+
+
+def test_page_draws_the_pro_row_and_the_match_badge():
+    js = (ROOT / "clashbot" / "viz" / "static" / "app.js").read_text()
+    css = (ROOT / "clashbot" / "viz" / "static" / "style.css").read_text()
+    assert "/pro`" in js and "data-pro" in js and "proBox" in js and "bot minus pro" in js
+    assert ".match.same-card" in css and ".match.same-lane" in css and ".match.different" in css
