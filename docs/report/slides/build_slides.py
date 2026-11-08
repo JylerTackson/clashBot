@@ -42,36 +42,62 @@ from pptx.util import Emu, Inches, Pt
 #    just drop the result file into docs/data/ (loaders below pick it up on the next run).
 # ======================================================================================
 PENDING = {
-    # live Training Camp trials (user is playing them): set TRIALS below when done
+    # live Training Camp trials: set TRIALS below when done
     "trials_score": "n/10",
     "trials_n": "10",
     "trials_ci": "95% CI pending",
-    # bot vs pros on their own videos  <- docs/data/vs_pro_v1.json (MAC-AQ)
+    # bot vs pros on their own videos  <- docs/data/vs_pro_v1.json (MAC-AQ); PRELIMINARY, the file is rewritten as more games finish
     "vs_pro_games": "N",
-    "vs_pro_recall": "xx%",
-    "vs_pro_precision": "xx%",
-    "vs_pro_card_bot": "xx%",
-    "vs_pro_card_random": "xx%",
-    "vs_pro_card_placement": "xx%",
-    "vs_pro_card_kg": "xx%",
-    "vs_pro_lane_bot": "xx%",
-    "vs_pro_lane_random": "xx%",
-    "vs_pro_lane_placement": "xx%",
-    "vs_pro_lane_kg": "n/a",
+    "vs_pro_games_total": "all",
+    "vs_pro_recall": "xx% (xx-xx)",
+    "vs_pro_recall_null": "xx% (xx-xx)",
+    "vs_pro_precision": "xx% (xx-xx)",
+    "vs_pro_precision_null": "xx% (xx-xx)",
+    "vs_pro_card_bot": "xx% (xx-xx)",
+    "vs_pro_card_random": "xx% (xx-xx)",
+    "vs_pro_card_n": "n",
+    "vs_pro_taps_bot": "xx.x",
+    "vs_pro_taps_pro": "xx.x",
+    "vs_pro_ceiling": "xx%",
+    "vs_pro_ceiling_ci": "xx-xx%",
+    "vs_pro_ex_agree_head": "AGREE: example pending",
+    "vs_pro_ex_agree_pro": "pro: pending",
+    "vs_pro_ex_agree_bot": "bot: pending",
+    "vs_pro_ex_agree_why": "bot's reason: pending",
+    "vs_pro_ex_disagree_head": "DISAGREE: example pending",
+    "vs_pro_ex_disagree_pro": "pro: pending",
+    "vs_pro_ex_disagree_bot": "bot: pending",
+    "vs_pro_ex_disagree_why": "bot's reason: pending",
     # held-out mined answer rules  <- docs/data/answer_rules_v1.json (MAC-AR, E6)
-    "rules_hit3": "0.xx",
-    "rules_hit3_wiki": "0.xx",
-    "rules_hit3_pop": "0.xx",
+    "rules_t_full": "0.xx [0.xx, 0.xx]",
+    "rules_t_pop": "0.xx [0.xx, 0.xx]",
+    "rules_t_rand": "0.xx [0.xx, 0.xx]",
+    "rules_p_full": "0.xx [0.xx, 0.xx]",
+    "rules_p_pop": "0.xx [0.xx, 0.xx]",
+    "rules_p_rand": "0.xx [0.xx, 0.xx]",
+    "rules_t_n": "n",
+    "rules_p_n": "n",
+    "rules_p_full_pt": "0.xx",
+    "rules_p_rand_pt": "0.xx",
+    "rules_p_vs_rand": "+x.x pts, p = x",
+    "rules_p_vs_pop": "-x.x pts, p = x",
+    "rules_t_vs_rand": "+x.x pts, p = x",
     # context-conflict test of d1  <- docs/data/context_conflict_v1.json (MAC-AR, E2)
     "cc_c0_acc": "0.xx",
+    "cc_c1_acc": "0.xx",
     "cc_c2_acc": "0.xx",
     "cc_c3_acc": "0.xx",
     "cc_c2_follow": "xx%",
     "cc_c3_follow": "xx%",
     # CIs on the ranker bar chart  <- docs/data/stats_audit_v1.json (MAC-AP, E1)
     "ci_note": "95% CI whiskers pending (stats_audit_v1)",
+    "ci_vs_lgbm": "p = x",
+    "ci_vs_prior": "+x.x pts, p < x",
     # per-stage latency, mean over 3 runs  <- docs/data/latency_v2.json (MAC-AP)
     "latency_note": "3-run mean (latency_v2) pending",
+    # tap landing, two newest live runs  <- docs/data/tap_landing_*.md
+    "tap_runs": "k/n = xx% and k/n = xx%",
+    "tap_rates": "xx% / xx%",
 }
 # Numbers confirmed by hand (rendered black, win over PENDING, lose to data files):
 FINAL: dict[str, str] = {}
@@ -189,56 +215,149 @@ def pct(x, nd=0):
     return f"{100 * x:.{nd}f}%"
 
 
-def load_value_overrides(stats_path: Path | None):
-    """Fill VALUES from result files that are still pending. Strict: ambiguous -> stays red."""
-    # --- vs pro (MAC-AQ). Paths are guesses against the spec; adjust the regexes when the file lands.
+DATA_ROWS: dict = {}  # structured data for charts / tables (context conflict, vs-pro examples, tap landing, latency)
+
+
+def dget(d, *path):
+    for k in path:
+        d = d[k]
+    return d
+
+
+def fmt_p(p: float) -> str:
+    return "p < 0.001" if p < 0.0005 else f"p = {p:.2f}"
+
+
+def ci_text(v, lo, hi, nd=0) -> str:
+    return f"{100 * v:.{nd}f}% ({100 * lo:.{nd}f}-{100 * hi:.{nd}f}%)"
+
+
+def _ex_line(ex: dict) -> tuple[str, str, str, str]:
+    head = f"video {ex['game_id'].split('-m')[0]}, t = {ex['pro_t']:.0f} s"
+    pro = "pro: " + ex["pro_key"].replace("|", ", ")
+    bot = "bot: " + ex["bot_key"].replace("|", ", ")
+    why = str(ex.get("reason", ""))
+    mode = str(ex.get("mode", "?"))
+    return head, pro, bot, "bot's reason: " + (why if why.startswith(mode) else f"{mode}: {why}")
+
+
+def load_vs_pro():
+    """docs/data/vs_pro_v1.json (aggregate.metrics.<name>.{value,ci95,n}); PRELIMINARY until all test games ran."""
     d = jload("vs_pro_v1.json")
-    if d:
-        f = flatten(d)
-        n = flat_find(f, r"n_games$") or flat_find(f, r"^games$")
-        if n is not None:
-            VALUES["vs_pro_games"] = str(int(n))
-        for key, pats in {
-            "vs_pro_recall": [r"recall", r"(2s|pm2|2\.0)", r"(est|mean|value)$"],
-            "vs_pro_precision": [r"precision", r"(2s|pm2|2\.0)", r"(est|mean|value)$"],
-            "vs_pro_card_bot": [r"same_card", r"bot", r"(est|mean|value)$"],
-            "vs_pro_card_random": [r"same_card", r"random", r"(est|mean|value)$"],
-            "vs_pro_card_placement": [r"same_card", r"placement", r"(est|mean|value)$"],
-            "vs_pro_card_kg": [r"same_card", r"(kg|counter)", r"(est|mean|value)$"],
-            "vs_pro_lane_bot": [r"same_lane", r"bot", r"(est|mean|value)$"],
-            "vs_pro_lane_random": [r"same_lane", r"random", r"(est|mean|value)$"],
-            "vs_pro_lane_placement": [r"same_lane", r"placement", r"(est|mean|value)$"],
-            "vs_pro_lane_kg": [r"same_lane", r"(kg|counter)", r"(est|mean|value)$"],
-        }.items():
-            v = flat_find(f, *pats)
-            if v is not None:
-                VALUES[key] = pct(v) if v <= 1.0 else f"{v:.0f}%"
-    # --- held-out answer rules (MAC-AR E6)
+    if not d:
+        return
+    try:
+        a = d["aggregate"]
+        m = a["metrics"]
+        VALUES["vs_pro_games"] = str(int(a["n_games"]))
+        skipped = d["meta"].get("skipped", [])
+        waiting = sum(1 for x in skipped if str(x.get("skip_reason", "")).startswith("not run yet"))
+        VALUES["vs_pro_games_total"] = str(int(a["n_games"]) + waiting)
+        DATA_ROWS["vs_pro_prelim"] = waiting > 0
+        for key, mk in (("vs_pro_recall", "recall_2s"), ("vs_pro_recall_null", "null_recall_2s"),
+                        ("vs_pro_precision", "precision_2s"), ("vs_pro_precision_null", "null_precision_2s"),
+                        ("vs_pro_card_bot", "same_card")):
+            x = m[mk]
+            VALUES[key] = ci_text(x["value"], *x["ci95"])
+        VALUES["vs_pro_card_n"] = str(int(m["same_card"]["n"]))
+        r = a["baselines"]["pair"]["rand_hand"]
+        VALUES["vs_pro_card_random"] = ci_text(r["value"], *r["ci95"])
+        VALUES["vs_pro_taps_bot"] = f"{m['bot_acts_per_min']['value']:.1f}"
+        VALUES["vs_pro_taps_pro"] = f"{m['pro_plays_per_min']['value']:.1f}"
+        c = m["pro_in_bot_hand"]
+        VALUES["vs_pro_ceiling"] = f"{100 * c['value']:.0f}%"
+        VALUES["vs_pro_ceiling_ci"] = f"{100 * c['ci95'][0]:.0f}-{100 * c['ci95'][1]:.0f}%"
+        exs = d.get("examples", [])
+        for verdict in ("agree", "disagree"):
+            pick = next((e for e in exs if e.get("verdict") == verdict), None)
+            if pick is None:
+                warn(f"vs_pro_v1.json: no '{verdict}' example")
+                continue
+            head, pro, bot, why = _ex_line(pick)
+            VALUES[f"vs_pro_ex_{verdict}_head"] = f"{verdict.upper()}: {head}"
+            VALUES[f"vs_pro_ex_{verdict}_pro"] = pro
+            VALUES[f"vs_pro_ex_{verdict}_bot"] = bot
+            VALUES[f"vs_pro_ex_{verdict}_why"] = why
+    except (KeyError, TypeError, IndexError) as e:
+        warn(f"vs_pro_v1.json schema not recognised ({e!r}); vs-pro numbers stay PENDING")
+
+
+def load_answer_rules():
+    """docs/data/answer_rules_v1.json: headline.splits.<split>.methods.<m>.hit@1.{mean,lo,hi}, paired['a - b']."""
     d = jload("answer_rules_v1.json")
-    if d:
-        f = flatten(d)
-        for key, pats in {
-            "rules_hit3": [r"test", r"full", r"hit@?3", r"(est|mean|value)$"],
-            "rules_hit3_wiki": [r"test", r"wiki", r"hit@?3", r"(est|mean|value)$"],
-            "rules_hit3_pop": [r"test", r"pop", r"hit@?3", r"(est|mean|value)$"],
-        }.items():
-            v = flat_find(f, *pats)
-            if v is not None:
-                VALUES[key] = f"{v:.2f}"
-    # --- context conflict (MAC-AR E2)
+    if not d:
+        return
+    try:
+        sp = d["headline"]["splits"]
+        for tag, split in (("t", "test"), ("p", "val+test")):
+            S = sp[split]
+            for key, mk in (("full", "full"), ("pop", "popularity"), ("rand", "random")):
+                h = S["methods"][mk]["hit@1"]
+                VALUES[f"rules_{tag}_{key}"] = f"{h['mean']:.2f} [{h['lo']:.2f}, {h['hi']:.2f}]"
+                if tag == "p" and key in ("full", "rand"):
+                    VALUES[f"rules_p_{key}_pt"] = f"{h['mean']:.2f}"
+            VALUES[f"rules_{tag}_n"] = f"{int(S['methods']['full']['hit@1']['n']):,}"
+        for tag, split, pair, key in (("p", "val+test", "full - random", "rules_p_vs_rand"),
+                                      ("p", "val+test", "full - popularity", "rules_p_vs_pop"),
+                                      ("t", "test", "full - random", "rules_t_vs_rand")):
+            h = sp[split]["paired"][pair]["hit@1"]
+            VALUES[key] = f"{100 * h['mean']:+.1f} pts, {fmt_p(h['p'])}"
+    except (KeyError, TypeError) as e:
+        warn(f"answer_rules_v1.json schema not recognised ({e!r}); rule numbers stay PENDING")
+
+
+def load_context_conflict():
+    """docs/data/context_conflict_v1.json: splits.test.conditions.C0..C4.acc.{mean,lo,hi}, splits.test.follow.C2/C3."""
     d = jload("context_conflict_v1.json")
-    if d:
-        f = flatten(d)
-        for key, pats in {
-            "cc_c0_acc": [r"test", r"c0", r"acc", r"(est|mean|value)$"],
-            "cc_c2_acc": [r"test", r"c2", r"acc", r"(est|mean|value)$"],
-            "cc_c3_acc": [r"test", r"c3", r"acc", r"(est|mean|value)$"],
-            "cc_c2_follow": [r"test", r"c2", r"follow", r"(est|mean|value)$"],
-            "cc_c3_follow": [r"test", r"c3", r"follow", r"(est|mean|value)$"],
-        }.items():
-            v = flat_find(f, *pats)
-            if v is not None:
-                VALUES[key] = f"{v:.2f}" if key.endswith("acc") else pct(v)
+    if not d:
+        return
+    try:
+        T = d["splits"]["test"]
+        rows = []
+        for c in ("C0", "C1", "C2", "C3", "C4"):
+            a = T["conditions"][c]["acc"]
+            rows.append((c, a["mean"], a["lo"], a["hi"]))
+            if c in ("C0", "C1", "C2", "C3"):
+                VALUES[f"cc_{c.lower()}_acc"] = f"{a['mean']:.2f}"
+        DATA_ROWS["cc"] = rows
+        DATA_ROWS["cc_n"] = int(T["conditions"]["C0"]["n"])
+        for c in ("C2", "C3"):
+            VALUES[f"cc_{c.lower()}_follow"] = pct(T["follow"][c]["follow_rate"])
+    except (KeyError, TypeError) as e:
+        warn(f"context_conflict_v1.json schema not recognised ({e!r}); context-conflict numbers stay PENDING")
+
+
+def load_tap_landing():
+    """docs/data/tap_landing_<run>_v{1,2}.md: 'verdicts over sent taps (N): landed K'. The two newest runs, oldest first."""
+    runs: dict[str, tuple[int, int, str]] = {}
+    for f in sorted(DATA.glob("tap_landing_*.md")):
+        t = f.read_text()
+        m1 = re.search(r"^# Shots review: runs/\w+/([0-9-]+)", t, re.M)
+        m2 = re.search(r"verdicts over sent taps \((\d+)\): landed (\d+)", t)
+        if not (m1 and m2):
+            warn(f"{f.name}: tap-landing line not recognised")
+            continue
+        run, n, k = m1.group(1), int(m2.group(1)), int(m2.group(2))
+        if run not in runs or f.name.endswith("_v2.md"):
+            runs[run] = (k, n, f.name)
+    if len(runs) < 2:
+        return
+    order = sorted(runs)  # run ids are timestamps
+    newest = order[-2:]
+    VALUES["tap_rates"] = " / ".join(f"{round(100 * runs[r][0] / runs[r][1])}%" for r in newest)
+    VALUES["tap_runs"] = " and ".join(f"{runs[r][0]}/{runs[r][1]} = {round(100 * runs[r][0] / runs[r][1])}%" for r in newest)
+    DATA_ROWS["tap_new"] = [(r,) + runs[r] for r in newest]
+    if len(order) >= 3:
+        r = order[-3]
+        DATA_ROWS["tap_old"] = (r, runs[r][0], runs[r][1])
+
+
+def load_value_overrides(stats_path: Path | None):
+    """Fill VALUES / DATA_ROWS from result files that are still pending. Strict: a missing key -> stays red."""
+    load_vs_pro()
+    load_answer_rules()
+    load_context_conflict()
+    load_tap_landing()
 
 
 def load_stats_audit(path: Path | None) -> dict | None:
@@ -251,34 +370,49 @@ def load_stats_audit(path: Path | None) -> dict | None:
         acc = d["accuracy"]["test"]
         for k in ("random", "popularity", "placement_prior", "lgbm", "d1_zero_shot", "d1_joint", "d1_tac", "d1_kg"):
             acc[k]["est"], acc[k]["lo"], acc[k]["hi"]
+        pr = {(r["a"], r["b"]): r for r in d["paired"]["test"] if r.get("why") == "spec"}
+        r1 = pr[("d1_tac", "lgbm")]
+        VALUES["ci_vs_lgbm"] = ("not significant" if r1["mcnemar_p"] >= 0.05 else "significant") + f" ({fmt_p(r1['mcnemar_p'])})"
+        r2 = pr[("d1_tac", "placement_prior")]
+        VALUES["ci_vs_prior"] = f"{100 * r2['est']:+.1f} pts, {fmt_p(r2['mcnemar_p'])}"
         return d
     except Exception as e:
         warn(f"{p.name} found but schema not recognised ({e!r}); using v1 numbers without CIs")
         return None
 
 
-def latency_stages() -> tuple[list[tuple[str, float, float]], str, bool]:
-    """Per-stage (p50, p95) ms. Prefers docs/data/latency_v2.json, else a recorded run's summary.json."""
+LAT_STAGES = ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")
+LIVE_RUN = "20261107-111554"
+
+
+def latency_stages() -> tuple[list[tuple], str, bool, dict]:
+    """Rows (stage, p50, p95, p50_sd, p95_sd) in ms. Prefers docs/data/latency_v2.json (h6 = 3 repeated dry runs,
+    mean and sd of each run's p50 / p95), else a recorded run's summary.json (sd None).
+    Last element: extras (live-run total p50/p95, runs, target_met)."""
+    extras: dict = {"live_p50": 338.9, "live_p95": 571.8, "n_runs": None, "target_met": None, "decisions": None}
     d = jload("latency_v2.json")
     if d:
-        try:  # expected: stages -> name -> {p50, p95} (strict; adjust if the real schema differs)
-            st = d["stages"]
-            rows = [(k, float(st[k]["p50"]), float(st[k]["p95"])) for k in
-                    ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")]
-            return rows, "docs/data/latency_v2.json", True
-        except Exception as e:
-            warn(f"latency_v2.json schema not recognised ({e!r}); using run 20261107-111554")
-    run = DOCS.parent / "runs" / "poc" / "20261107-111554" / "summary.json"
+        try:
+            st = d["h6"]["stages"]
+            rows = [(k, float(st[k]["p50"]["mean"]), float(st[k]["p95"]["mean"]),
+                     float(st[k]["p50"]["sd"]), float(st[k]["p95"]["sd"])) for k in LAT_STAGES]
+            live = next(r for r in d["runs"] if r["run"] == LIVE_RUN)
+            extras.update(live_p50=float(live["stages"]["total"]["p50"]), live_p95=float(live["stages"]["total"]["p95"]),
+                          live_exec=float(live["stages"]["execute"]["p50"]),
+                          n_runs=len(d["h6"]["runs"]), target_met=int(d["h6"]["target_met"]),
+                          decisions=d["h6"]["decisions"])
+            return rows, "docs/data/latency_v2.json", True, extras
+        except (KeyError, TypeError, StopIteration, ValueError) as e:
+            warn(f"latency_v2.json schema not recognised ({e!r}); using run {LIVE_RUN}")
+    run = DOCS.parent / "runs" / "poc" / LIVE_RUN / "summary.json"
     if run.exists():
-        s = json.loads(run.read_text())["decision_ms"]
-        rows = [(k, s[k]["p50"], s[k]["p95"]) for k in
-                ("capture", "perception", "live_state", "trigger", "candidates", "rank", "execute", "total")]
-        return rows, "run 20261107-111554 summary.json", False
-    # copied from docs/research/course_mapping_audit.md section C7 (same run)
-    rows = [("capture", 21.2, 32.1), ("perception", 102.4, 230.0), ("live_state", 0.13, 0.33),
-            ("trigger", 1.5, 8.7), ("candidates", 26.1, 56.9), ("rank", 0.0, 136.7),
-            ("execute", 183.3, 188.1), ("total", 338.9, 571.8)]
-    return rows, "course_mapping_audit.md C7 (run 20261107-111554)", False
+        sm = json.loads(run.read_text())["decision_ms"]
+        rows = [(k, sm[k]["p50"], sm[k]["p95"], None, None) for k in LAT_STAGES]
+        return rows, f"run {LIVE_RUN} summary.json", False, extras
+    rows = [("capture", 21.2, 32.1, None, None), ("perception", 102.4, 230.0, None, None), ("live_state", 0.13, 0.33, None, None),
+            ("trigger", 1.5, 8.7, None, None), ("candidates", 26.1, 56.9, None, None), ("rank", 0.0, 136.7, None, None),
+            ("execute", 183.3, 188.1, None, None), ("total", 338.9, 571.8, None, None)]
+    return rows, f"course_mapping_audit.md C7 (run {LIVE_RUN})", False, extras
 
 
 def clopper_pearson(k: int, n: int, alpha: float = 0.05) -> tuple[float, float]:
@@ -936,31 +1070,74 @@ def chart_kg(w, h) -> Path:
     return _save(fig, "kg_relations.png")
 
 
-def chart_latency(rows, w, h, note: str) -> Path:
+def chart_latency(rows, w, h, final: bool, live_click: float) -> Path:
+    """Per-stage p50 (gold) and p95 (black) bars; whiskers = sd over the 3 repeated runs (latency_v2 h6)."""
     names = {"capture": "Capture", "perception": "Perception", "live_state": "Live state", "trigger": "When to act",
              "candidates": "Candidates", "rank": "d1 ranker", "execute": "Taps (2 clicks)", "total": "Total"}
     fig, ax = plt.subplots(figsize=(w, h))
     n = len(rows)
     bh = 0.36
-    for i, (k, p50, p95) in enumerate(rows):
+
+    def lab(v, sd):
+        base = f"{v:.0f}" if v >= 10 else f"{v:.1f}"
+        if sd is None:
+            return base
+        return base + (f" \u00b1 {sd:.0f}" if v >= 10 else f" \u00b1 {sd:.1f}")
+
+    ys = []
+    for i, (k, p50, p95, s50, s95) in enumerate(rows):
         y = n - 1 - i - (0.35 if k == "total" else 0)
+        ys.append(y)
         ax.barh(y + bh / 2, p50, height=bh, color=C_GOLD, edgecolor=C_BLACK, lw=1.0)
         ax.barh(y - bh / 2, p95, height=bh, color=C_BLACK, edgecolor=C_BLACK, lw=1.0)
-        ax.text(p50 + 8, y + bh / 2, f"{p50:.0f}" if p50 >= 10 else f"{p50:.1f}", va="center", fontsize=12)
-        ax.text(p95 + 8, y - bh / 2, f"{p95:.0f}" if p95 >= 10 else f"{p95:.1f}", va="center", fontsize=12, fontweight="bold")
-    ys = [n - 1 - i - (0.35 if r[0] == "total" else 0) for i, r in enumerate(rows)]
+        if k == "execute" and final:
+            ax.text(8, y, f"0: dry runs do not click (live: {live_click:.0f})", va="center", fontsize=12, color=C_GRAY, style="italic")
+            continue
+        if p95 < 40 and s50 is not None:  # tiny stage: one label line instead of two overlapping ones
+            ax.text(max(p50, p95) + 10, y, f"p50 {lab(p50, s50)},  p95 {lab(p95, s95)}", va="center", fontsize=12)
+            continue
+        e50 = e95 = 0
+        if s50 is not None:
+            ax.errorbar(p50, y + bh / 2, xerr=s50, color=C_BLACK, capsize=3, lw=1.4, capthick=1.4)
+            ax.errorbar(p95, y - bh / 2, xerr=s95, color="#9A9A9A", capsize=3, lw=1.4, capthick=1.4)
+            e50, e95 = s50, s95
+        ax.text(p50 + e50 + 8, y + bh / 2, lab(p50, s50), va="center", fontsize=12)
+        ax.text(p95 + e95 + 8, y - bh / 2, lab(p95, s95), va="center", fontsize=12, fontweight="bold")
     ax.set_yticks(ys)
     ax.set_yticklabels([names[r[0]] for r in rows], fontsize=14)
     ax.axvline(300, color=C_GRAY, ls="--", lw=1.5)
     ax.text(305, n - 0.25, "p95 target 300 ms", fontsize=12, color=C_GRAY, va="top")
-    ax.set_xlim(0, 680)
-    ax.set_xlabel("ms per decision", fontsize=14)
+    ax.set_xlim(0, 690)
+    ax.set_xlabel("ms per decision" + (" (mean \u00b1 sd over 3 runs)" if final else ""), fontsize=14)
     from matplotlib.patches import Patch
     ax.legend(handles=[Patch(fc=C_GOLD, ec=C_BLACK, label="p50"), Patch(fc=C_BLACK, ec=C_BLACK, label="p95")],
-              frameon=False, fontsize=13, loc="center right", bbox_to_anchor=(1.0, 0.45))
+              frameon=False, fontsize=13, loc="center right", bbox_to_anchor=(1.0, 0.62))
     ax.tick_params(axis="x", labelsize=13)
     fig.tight_layout(pad=0.4)
     return _save(fig, "latency_by_stage.png")
+
+
+CC_H = 1.75  # context-conflict chart height on the slide (in)
+
+
+def chart_cc(rows, w, h) -> Path:
+    """Context-conflict test: test-split 4-way accuracy of d1-ft-joint-tac under C0..C4 with 95% CI whiskers."""
+    labels = {"C0": "C0\nas is", "C1": "C1\nremoved", "C2": "C2\nshuffled", "C3": "C3\npoisoned", "C4": "C4\nswapped"}
+    fig, ax = plt.subplots(figsize=(w, h))
+    for i, (c, est, lo, hi) in enumerate(rows):
+        ax.bar(i, est, width=0.62, color=C_GOLD if c == "C0" else C_PGOLD, edgecolor=C_BLACK, lw=1.2)
+        ax.errorbar(i, est, yerr=[[est - lo], [hi - est]], color=C_BLACK, capsize=4, lw=1.6, capthick=1.6)
+        ax.text(i, 0.02, f"{est:.2f}", ha="center", va="bottom", fontsize=13, fontweight="bold")
+    ax.axhline(0.25, color=C_GRAY, ls="--", lw=1.3)
+    ax.text(5.28, 0.265, "chance", fontsize=12, color=C_GRAY, ha="right", va="bottom")
+    ax.set_xticks(range(len(rows)))
+    ax.set_xticklabels([labels[r[0]] for r in rows], fontsize=13, linespacing=0.95)
+    ax.set_ylim(0, 0.7)
+    ax.set_yticks([0, 0.25, 0.5])
+    ax.set_yticklabels(["0", ".25", ".50"], fontsize=13)
+    ax.set_xlim(-0.55, 5.3)
+    fig.tight_layout(pad=0.3)
+    return _save(fig, "context_conflict.png")
 
 
 # ---- screenshot crops -----------------------------------------------------------------
@@ -1002,7 +1179,7 @@ SCRIPT: dict[int, tuple[int, str]] = {
             "pro games come in. A general LLM does not have that knowledge: the d1 model scores <<d1_zs>> on a four-way pick, below "
             "chance. Scope: Training Camp against the built-in trainer only, never ranked, in line with the game's terms of "
             "service; the executor needs two explicit switches and checks that the banner reads Trainer."),
-    3: (100, "Here is the whole system. Top row is the fast loop, running on every frame at about ten frames per second. "
+    3: (90, "Here is the whole system. Top row is the fast loop, running on every frame at about ten frames per second. "
              "Capture grabs the mirrored window; perception is two YOLOv8 detectors from KataCR plus OCR and a Kalman tracker; "
              "that becomes a live state, the same representation we built the dataset with. A small gate decides whether to act "
              "at all: reactive rules plus a LightGBM model, because pros wait about 80 percent of the seconds. If we act, a "
@@ -1027,60 +1204,68 @@ SCRIPT: dict[int, tuple[int, str]] = {
             "use HNSW live. Right chart: filtering. A deck filter applied before the search leaves an empty pool for 89 "
             "percent of queries, and filtering after the ANN search at top-10 returns nothing for half of the deck queries "
             "and 87 percent of the phase queries; that is why the live path filters by legality, not by deck."),
-    6: (60, "Knowledge graph, lectures 5 to 7. For link prediction I held out COUNTERS triples and compared four "
-            "embedding models with equal tuning and three seeds. RotatE is the only one clearly above the popularity "
-            "baseline: MRR 0.159 against 0.110; random is 0.022. DistMult is symmetric by construction, so it cannot "
-            "represent a directed counter. Neuro-symbolic part: the lane simulation, right, gives the engine a number to "
-            "reason with: a lone level-15 balloon deals 3,162 tower hit points if unanswered, 351 with a musketeer behind "
-            "the tower, zero with a Tesla pulling it. Hard constraints filter options: card in hand, elixir, legal tile, "
-            "no blind spells. And the mined answer rules, held out: " "[read the red numbers from the slide when the "
-            "E6 result lands]. Perceived legality is noisy: the pros' own move passes our legality check only 54 to 60 "
-            "percent of the time."),
+    6: (65, "Knowledge graph, lectures 5 to 7. For link prediction I held out COUNTERS triples and compared four "
+          "embedding models, equal tuning, three seeds. RotatE is the only one clearly above the popularity baseline: "
+          "MRR 0.159 against 0.110; random is 0.022. Neuro-symbolic part: the lane simulation, top right, gives the "
+          "engine a number to reason with: a lone level-15 balloon deals 3,162 tower hit points unanswered, 351 with a "
+          "musketeer behind the tower, zero with a Tesla pull. Hard constraints then filter the options. Bottom left, "
+          "the mined answer rules, held out by game: given an opponent play, rank the pro's deck for the answer. "
+          "Pooled, <<rules_p_n>> events, hit at one is <<rules_p_full_pt>> against <<rules_p_rand_pt>> for random, "
+          "significant (<<rules_p_vs_rand>>), but not better than plain train popularity (<<rules_p_vs_pop>>). A little"
+          " real knowledge, but a popularity prior is as good. Perceived legality is noisy: the pros' own move passes "
+          "our check only 54 to 60 percent of the time."),
     7: (100, "RAG plus recommendation, lectures 11 to 14, is the heart of the decision. It is a two-stage recommender: "
-             "stage one retrieves at most four candidate plays, stage two is the language model picking one. To train and "
-             "test it, each example is the pro's real play plus three hard negatives in a two-by-two grid: same card other "
-             "placement, other card same placement, other card other placement. An earlier version of the negatives leaked "
-             "the answer: a rule that looked only at the option keys scored 0.85. We found it, rebuilt the grid, and that rule "
-             "is now 0.25 by construction. The chart is four-way accuracy on the test split, chance 0.25. Zero-shot d1 is at "
-             "chance, <<d1_zs>>. Fine-tuned it reaches <<d1_ft>>, with the tactics notes <<d1_tac>>. A tuned LightGBM feature ranker reaches <<lgbm>>: "
-             "the RecSys lesson that tuned simple baselines are competitive, measured on our data. With 766 test lines the "
-             "standard error is 1.8 points, so these three are not separable. [If the CI whiskers are on the chart, say "
-             "so.] The d1 variant with KG lines trained in was worse, it overfit: its KG lines on the train split came "
-             "from the same pro games."),
-    8: (65, "Agents, lectures 15 to 18. The language model is the decision maker, and the things around it act like tools "
-            "that have already been called: the engine's tactics lines, a few KG facts, and notes from retrieved pro states, "
-            "all rendered into d1's context. I built typed read-only tools and a ReAct planner too, but the Qwen planner made "
-            "zero tool calls, so in the final system the tool results are precomputed. Execution is separate and guarded: two "
-            "switches, a command-line flag plus an environment variable, the banner must read Trainer, the hand must be read, "
-            "and failed taps are detected with a cooldown. Right top: knowledge editing, with a synthetic plus-one-elixir change "
-            "on five cards: the versioned fact store updates answers and leaves unrelated ones alone; it shows the mechanism "
-            "works, not that it generalises to a real patch. Right bottom: the context-conflict test, does d1 follow a wrong "
-            "note? [Read the red numbers when E2 lands.]"),
-    9: (50, "To measure decisions without playing, I run the full live stack on test-split pro videos, open loop, with a "
-            "dry-run executor, and match the bot's would-be plays to what the pro did within plus or minus two seconds. "
-            "Timing: how many pro plays did the bot also play near that moment, and how many of the bot's plays had a pro "
-            "play nearby. Choice: on matched pairs, same card, same lane, against three baselines at the pros' play times: "
-            "a random card from the perceived hand, the placement prior, and the KG's top counter. [Fill the red numbers "
-            "from the slide.] Caveat: open loop and the pros' hidden information, so this is agreement, not quality."),
-    10: (65, "Live results, Training Camp. The latency chart is one recorded run: perception is the biggest software stage, "
-             "about 100 ms median; the two clicks take 183 ms by themselves; the decision totals 339 ms median and 572 ms at "
-             "the 95th percentile. We miss our 300 ms p95 target once the click is counted, and I would rather say so. The "
-             "bot has landed taps reliably, 95 of 100 in the best-documented run. Trial results: [Training Camp record "
-             "from the red tile]. The first win came in overtime in game three of one run, and I will not call that a win "
-             "rate: with ten games the 95 percent interval is very wide."),
+          "stage one retrieves at most four candidate plays, stage two is the language model picking one. To train and "
+          "test it, each example is the pro's real play plus three hard negatives in a two-by-two grid: same card other"
+          " placement, other card same placement, other card other placement. An earlier version of the negatives "
+          "leaked the answer: a rule that looked only at the option keys scored 0.85. We found it, rebuilt the grid, "
+          "and that rule is now 0.25 by construction. The chart is four-way accuracy on the test split, chance 0.25, "
+          "with 95 percent confidence whiskers from a bootstrap over whole games. Zero-shot d1 is at chance, <<d1_zs>>."
+          " Fine-tuned it reaches <<d1_ft>>, with the tactics notes <<d1_tac>>. A tuned LightGBM feature ranker reaches"
+          " <<lgbm>>: the RecSys lesson that tuned simple baselines are competitive, measured on our data. The paired "
+          "test says d1 with tactics against LightGBM is <<ci_vs_lgbm>>; the whiskers overlap. Against the placement "
+          "prior, d1 is ahead by <<ci_vs_prior>>, which is real. The d1 variant with KG lines trained in was no better,"
+          " it overfit: its KG lines on the train split came from the same pro games."),
+    8: (70, "Agents, lectures 15 to 18. The language model is the decision maker; the things around it act like tools "
+          "already called: tactics lines, a few KG facts, notes from retrieved pro states, all rendered into d1's "
+          "context. I also built typed read-only tools and a ReAct planner, but the Qwen planner made zero tool calls, "
+          "so the results are precomputed. Execution is separate and guarded: two switches, the Trainer banner, a read "
+          "hand, and a cooldown after failed taps. Taps landed <<tap_runs>> in the two newest live runs. Top right, "
+          "knowledge editing: a synthetic plus-one-elixir change on five cards; the fact store updates answers and "
+          "leaves unrelated ones alone. That shows the mechanism, not a real patch. Bottom right, the context-conflict "
+          "test: I corrupt the notes in d1's context, test split. Accuracy stays between <<cc_min>> and <<cc_max>> in "
+          "every condition, and d1 follows a poisoned note only <<cc_c3_follow>> of the time. The fine-tuned d1 barely "
+          "reads its context: wrong notes do not hurt, and right ones add little."),
+    9: (60, "To measure decisions without playing, I run the full live stack on test-split pro videos, open loop: "
+          "<<vs_pro_games>> of <<vs_pro_games_total>> games so far, so these numbers are preliminary. Bot taps are "
+          "matched to pro plays within two seconds. Timing: <<vs_pro_recall>> of pro plays have a bot tap nearby, and "
+          "<<vs_pro_precision>> of bot taps have a pro play nearby. Read that against the null, the same taps shifted "
+          "twenty to sixty seconds: <<vs_pro_recall_null>> and <<vs_pro_precision_null>>. The bot simply taps more, "
+          "<<vs_pro_taps_bot>> against <<vs_pro_taps_pro>> a minute. Choice: same card as the pro <<vs_pro_card_bot>>, "
+          "against <<vs_pro_card_random>> for a random card from its perceived hand. The ceiling explains why: the "
+          "pro's card is in the perceived hand only <<vs_pro_ceiling>> of the time. Left, an agreement; right, the bot "
+          "defends with another card. Open loop and hidden information: this is agreement, not quality."),
+    10: (60, "Live results, Training Camp. The latency chart is three repeated dry runs on one pro video, mean and "
+          "standard deviation: perception is the biggest stage, then the d1 ranker. The decision totals "
+          "<<lat_total_p50>> milliseconds median and <<lat_total_p95>> at the 95th percentile, so the 300 millisecond "
+          "p95 target is missed in all three runs. Dry runs do not click; live, the two clicks add 183 milliseconds, "
+          "and capture to click was 339 median, 572 at the 95th. Taps land mostly, not perfectly: <<tap_runs>> in the "
+          "two newest live runs, failures concentrate on Tesla and fireball; an older run landed <<tap_old>>. Trial "
+          "results: [Training Camp record from the red tile]. The first win came in overtime in game three of one run; "
+          "with ten games the 95 percent interval is very wide, so I will not call it a win rate."),
     11: (50, "Two prior systems. KataCR, Wu et al., is an offline-RL transformer imitating one human, reporting five percent, "
              "1 of 20, against the built-in AI for its headline model and zero to ten percent across nine models; "
              "we reuse its detector weights. Claude Royale is a Claude agent that plays screenshots through a vision model on "
              "the ladder, about seven seconds per decision and no built-in-AI win rate. Ours differs by design: it carries "
              "a pro-play database, a knowledge graph and a simulation engine, and takes 0.34 seconds. The protocols differ in "
              "deck, opponent version and sample size, so read the win-rate row as context, not as a benchmark."),
-    12: (105, "[Play the 60-second demo clip or switch to the live screen share.] While it plays, point at the dashboard "
+    12: (100, "[Play the 60-second demo clip or switch to the live screen share.] While it plays, point at the dashboard "
               "numbers. One: the ten pro states most like this situation. Two: up to four candidate plays with d1's probability "
               "as the bar, here 88 against 12 percent. Three: the reason, from the tactics engine, here that a Tesla pull "
               "to the centre saves about 500 tower hit points. Four: the knowledge graph, the counters the candidate "
               "generator used and the facts given to d1. If anything breaks live, the recorded clip is the fallback."),
     13: (40, "What worked: knowledge plus fine-tuning moved a chance-level LLM to about <<d1_tac>>, and the guarded executor lands "
-             "its taps. What I would be honest about: simple baselines match the LLM; perception noise caps everything, the pro's "
+             "most of its taps. What I would be honest about: simple baselines match the LLM; perception noise caps everything, the pro's "
              "own move passes our legality check only 54 to 60 percent of the time and the hand is fully read in about a third "
              "of moments; and n is small, wins are counted in tens. Next: elixir management, since in the last run about a "
              "third of match frames had no affordable card; retrain with the KG-leak fixed; more Training Camp games with "
@@ -1092,7 +1277,15 @@ assert sum(v[0] for v in SCRIPT.values()) == 840
 
 def script_text(n: int) -> str:
     """Talk text with <<key>> replaced by the current headline numbers (so the notes follow the data)."""
-    return re.sub(r"<<(\w+)>>", lambda m: NUM.get(m.group(1), "?"), SCRIPT[n][1])
+    def sub(m):
+        k = m.group(1)
+        if k in NUM:
+            return NUM[k]
+        if k in VALUES:
+            return VALUES[k]
+        return "[" + PENDING.get(k, k) + " - pending]"  # still red on the slide; fill from the slide
+
+    return re.sub(r"<<(\w+)>>", sub, SCRIPT[n][1])
 
 
 # ======================================================================================
@@ -1261,24 +1454,34 @@ def slide_kg(prs, n, kge_rows, charts):
     s = new_slide(prs, n, "Knowledge graph and rules (L5-7)", SCRIPT[n][1])
     caption(s, 0.5, 1.28, 6.4, "Held-out COUNTERS link prediction (test, filtered)", bold=True, color=INK)
     rows = [["Model", "MRR", "Hits@10"]] + kge_rows
-    table(s, 0.5, 1.68, [3.2, 1.5, 1.7], rows, size=15, row_min=0.42, name="KGE table",
+    table(s, 0.5, 1.66, [3.2, 1.5, 1.7], rows, size=15, row_min=0.36, pad=0.03, name="KGE table",
           aligns=[PP_ALIGN.LEFT, PP_ALIGN.RIGHT, PP_ALIGN.RIGHT], hl_rows=(1,))
     caption(s, 7.2, 1.28, 5.65, "Lane simulation: what an answer saves", bold=True, color=INK)
     picture(s, charts["lane"], 7.2, 1.66, w=5.65, name="Chart lane simulation")
-    text(s, 0.5, 4.85, 12.35, 1.8, [
-        {"t": "**Mined rules** (opponent plays X, pro answers Y), held-out hit@3: {p:rules_hit3} full vs {p:rules_hit3_wiki} wiki COUNTERS vs {p:rules_hit3_pop} popularity.", "bullet": True, "after": 5},
-        {"t": "**Hard constraints** filter the LLM's options (card in hand, elixir, legal tile, no blind spells); perceived legality is noisy: the pros' own move passes only 54-60%.", "bullet": True, "after": 5},
-        {"t": "RotatE is the only embedding clearly above popularity; DistMult is symmetric by construction (asymmetry 0.0).", "bullet": True, "after": 0},
-    ], size=16, name="KG bullets")
+    caption(s, 0.5, 4.3, 6.2, "Mined answer rules, held-out hit@1 [95% CI]", bold=True, color=INK)
+    rrows = [["Method", "Test ({p:rules_t_n})", "Pooled ({p:rules_p_n})"],
+             ["Mined rules (KG v2)", "{p:rules_t_full}", "{p:rules_p_full}"],
+             ["Train popularity", "{p:rules_t_pop}", "{p:rules_p_pop}"],
+             ["Random in deck", "{p:rules_t_rand}", "{p:rules_p_rand}"]]
+    table(s, 0.5, 4.66, [2.1, 2.0, 2.05], rrows, size=14, row_min=0.36, pad=0.03, name="Rules table",
+          aligns=[PP_ALIGN.LEFT, PP_ALIGN.CENTER, PP_ALIGN.CENTER], hl_rows=(1,))
+    text(s, 6.95, 4.3, 5.9, 2.35, [
+        {"t": "**Mined rules beat random** when pooled ({p:rules_p_vs_rand}) **but not train popularity** ({p:rules_p_vs_pop}); on test alone the gap to random is {p:rules_t_vs_rand}.", "bullet": True, "after": 4},
+        {"t": "**Hard constraints** filter the LLM's options (card in hand, elixir, legal tile, no blind spells); the pros' own move passes only 54-60%.", "bullet": True, "after": 4},
+        {"t": "RotatE is the only embedding clearly above popularity; DistMult is symmetric by construction.", "bullet": True, "after": 0},
+    ], size=14, name="KG bullets")
     return s
 
 
 def slide_ranker(prs, n, ranker_chart, stats):
     s = new_slide(prs, n, "The ranker: RAG + recommendation (L11-14)", SCRIPT[n][1])
     picture(s, ranker_chart, 0.5, 1.3, w=7.55, name="Chart ranker accuracy")
-    note = "Whiskers: 95% game-cluster bootstrap CI (stats_audit_v1)." if stats else "{p:ci_note}"
+    if stats:
+        note = f"Whiskers: 95% CI, bootstrap over the {stats['n_games']['test']} test games (stats_audit_v1)."
+    else:
+        note = "{p:ci_note}"
     text(s, 0.5, 5.3, 7.55, 1.3, [
-        {"t": f"Fine-tuned d1 ({NUM['d1_tac']}) is not separable from a tuned LightGBM ({NUM['lgbm']}): n = 766, standard error 1.8 points.", "size": 15, "after": 4},
+        {"t": f"d1 + tactics ({NUM['d1_tac']}) vs LightGBM ({NUM['lgbm']}): {{p:ci_vs_lgbm}}; vs placement prior {{p:ci_vs_prior}}.", "size": 15, "after": 4},
         {"t": note, "size": 14, "color": GRAY, "after": 0},
     ], name="Ranker takeaway")
     # right column
@@ -1303,7 +1506,7 @@ def slide_ranker(prs, n, ranker_chart, stats):
     return s
 
 
-def slide_agents(prs, n, edit):
+def slide_agents(prs, n, edit, charts):
     s = new_slide(prs, n, "Agents (L15-18): an LLM over tools, behind guards", SCRIPT[n][1])
     # left: flow
     cw, cg = 2.0, 0.1
@@ -1319,74 +1522,91 @@ def slide_agents(prs, n, edit):
                          {"t": "reads the state + context, picks 1 of up to 4 plays", "size": 15, "after": 0}],
          align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE, shape=b, inset=(0.1, 0.04))
     arrow(s, 3.7, 3.92, 3.7, 4.3)
-    ex = box(s, 0.5, 4.32, 6.4, 2.3, fill=BLACK, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.06, name="Executor box")
+    ex = box(s, 0.5, 4.32, 6.4, 1.85, fill=BLACK, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.06, name="Executor box")
     text(s, 0, 0, 0, 0, [
-        {"t": "Executor: separate, guarded", "size": 16, "bold": True, "color": GOLD, "after": 4},
+        {"t": "Executor: separate, guarded", "size": 16, "bold": True, "color": GOLD, "after": 3},
         {"t": "--live + CLASHBOT_ALLOW_LIVE=1, checked before each tap", "size": 14, "color": WHITE, "bullet": True, "after": 2},
         {"t": "taps only when the banner reads \"Trainer\"", "size": 14, "color": WHITE, "bullet": True, "after": 2},
         {"t": "no tap from an unread hand; failed taps get a 2 s cooldown", "size": 14, "color": WHITE, "bullet": True, "after": 2},
-        {"t": "95/100 taps landed (best-documented run)", "size": 14, "color": WHITE, "bullet": True, "after": 0},
-    ], anchor=MSO_ANCHOR.MIDDLE, shape=ex, inset=(0.2, 0.06))
-    # right: tables
+        {"t": "taps landed: {p:tap_runs} (two newest runs)", "size": 14, "color": WHITE, "bullet": True, "after": 0},
+    ], anchor=MSO_ANCHOR.MIDDLE, shape=ex, inset=(0.2, 0.05))
+    text(s, 0.5, 6.22, 6.4, 0.4, [{"t": "The Qwen planner made 0 tool calls: context is precomputed.", "size": 14, "color": GRAY, "after": 0}],
+         name="Agents note")
+    # right: knowledge editing table, then the context-conflict chart
     x = 7.2
     caption(s, x, 1.28, 5.65, "Knowledge editing (synthetic +1 elixir, 5 cards)", bold=True, color=INK)
     rows = [["Criterion", "Edited", "No edit"]] + edit
-    _, bot = table(s, x, 1.66, [3.05, 1.3, 1.3], rows, size=14, row_min=0.36, name="Edit table",
+    _, bot = table(s, x, 1.64, [3.05, 1.3, 1.3], rows, size=14, row_min=0.33, pad=0.025, name="Edit table",
                    aligns=[PP_ALIGN.LEFT, PP_ALIGN.RIGHT, PP_ALIGN.RIGHT])
-    caption(s, x, bot + 0.1, 5.65, "Context conflict: does d1 follow a wrong note?", bold=True, color=INK)
-    cc = [["Condition", "4-way acc.", "Follows"],
-          ["C0 as exported", "{p:cc_c0_acc}", "-"],
-          ["C2 notes shuffled", "{p:cc_c2_acc}", "{p:cc_c2_follow}"],
-          ["C3 gold note poisoned", "{p:cc_c3_acc}", "{p:cc_c3_follow}"]]
-    _, bot2 = table(s, x, bot + 0.48, [3.05, 1.3, 1.3], cc, size=14, row_min=0.36, name="Context conflict table",
-                    aligns=[PP_ALIGN.LEFT, PP_ALIGN.RIGHT, PP_ALIGN.RIGHT])
-    text(s, x, bot2 + 0.12, 5.65, 6.62 - bot2 - 0.12, [
-        {"t": "Synthetic edits show the mechanism, not a real patch.", "bullet": True, "size": 14, "after": 3},
-        {"t": "Qwen planner made 0 tool calls: context is precomputed.", "bullet": True, "size": 14, "after": 0},
-    ], name="Agents notes")
+    caption(s, x, bot + 0.06, 5.65, "Context conflict: d1 accuracy under corrupted notes (test)", bold=True, color=INK)
+    if "cc" in charts:
+        picture(s, charts["cc"], x, bot + 0.4, w=5.65, name="Chart context conflict")
+        ytxt = bot + 0.4 + 5.65 * CC_H / 5.65 + 0.04
+    else:
+        ytxt = bot + 0.44
+    text(s, x, ytxt, 5.65, 6.64 - ytxt, [
+        {"t": "d1 barely reads its context: poisoned notes (C3) leave accuracy at {p:cc_c3_acc} vs {p:cc_c0_acc}; it follows them only {p:cc_c3_follow} of the time.", "size": 14, "after": 0},
+    ], name="Context conflict result")
     return s
 
 
 def slide_vs_pro(prs, n):
     s = new_slide(prs, n, "Bot vs pros on their own videos", SCRIPT[n][1])
-    steps = [("Pro video", "test split, N = {p:vs_pro_games} games"), ("Full live stack", "open loop, dry-run executor"),
-             ("Match by time", "bot act vs pro play, +/- 2 s"), ("Score", "timing + choice, vs baselines")]
+    prelim = DATA_ROWS.get("vs_pro_prelim", True)
+    games = "{p:vs_pro_games} of {p:vs_pro_games_total} test games, preliminary" if prelim else "{p:vs_pro_games} test games"
+    steps = [("Pro video", games), ("Full live stack", "open loop, dry-run executor"),
+             ("Match by time", "bot tap vs pro play, +/- 2 s"), ("Score", "timing + choice, vs baselines")]
     bw, gap = 2.85, 0.32
     for i, (t, d) in enumerate(steps):
         x = 0.5 + i * (bw + gap)
-        b = box(s, x, 1.4, bw, 1.05, fill=(GOLD if i in (1,) else LIGHT), line=BLACK, lw=1.5, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.1, name=f"Step {t}")
-        text(s, 0, 0, 0, 0, [{"t": t, "size": 16, "bold": True, "after": 2}, {"t": d, "size": 14, "after": 0}], align=PP_ALIGN.CENTER,
+        b = box(s, x, 1.3, bw, 0.95, fill=(GOLD if i in (1,) else LIGHT), line=BLACK, lw=1.5, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.1, name=f"Step {t}")
+        text(s, 0, 0, 0, 0, [{"t": t, "size": 16, "bold": True, "after": 1}, {"t": d, "size": 14, "after": 0}], align=PP_ALIGN.CENTER,
              anchor=MSO_ANCHOR.MIDDLE, shape=b, inset=(0.05, 0.03))
         if i < 3:
-            arrow(s, x + bw + 0.02, 1.92, x + bw + gap - 0.02, 1.92)
-    rows = [["Metric", "Clashbot", "Random (hand)", "Placement prior", "KG counter"],
-            ["Pro-play recall (+/- 2 s)", "{p:vs_pro_recall}", "n/a", "n/a", "n/a"],
-            ["Bot-act precision (+/- 2 s)", "{p:vs_pro_precision}", "n/a", "n/a", "n/a"],
-            ["Same card (matched pairs)", "{p:vs_pro_card_bot}", "{p:vs_pro_card_random}", "{p:vs_pro_card_placement}", "{p:vs_pro_card_kg}"],
-            ["Same lane (matched pairs)", "{p:vs_pro_lane_bot}", "{p:vs_pro_lane_random}", "{p:vs_pro_lane_placement}", "{p:vs_pro_lane_kg}"]]
-    table(s, 0.5, 2.85, [3.75, 2.0, 2.2, 2.2, 2.2], rows, size=16, row_min=0.5, name="Vs pro table",
-          aligns=[PP_ALIGN.LEFT] + [PP_ALIGN.CENTER] * 4)
-    text(s, 0.5, 5.55, 12.35, 1.1, [
-        {"t": "Open loop: the bot's plays do not change the video, so this measures what it would do in the pro's situation (agreement, not quality).", "bullet": True, "after": 5},
-        {"t": "Baselines are scored at the pros' play times on the same games; CIs resample whole games.", "bullet": True, "after": 0},
-    ], size=15, name="Vs pro bullets")
+            arrow(s, x + bw + 0.02, 1.775, x + bw + gap - 0.02, 1.775)
+    rows = [["Metric", "Clashbot (95% CI)", "Baseline", "Baseline value (95% CI)"],
+            ["Pro-play recall, +/- 2 s", "{p:vs_pro_recall}", "same taps shifted 20-60 s", "{p:vs_pro_recall_null}"],
+            ["Bot-tap precision, +/- 2 s", "{p:vs_pro_precision}", "same taps shifted 20-60 s", "{p:vs_pro_precision_null}"],
+            ["Same card (n = {p:vs_pro_card_n} pairs)", "{p:vs_pro_card_bot}", "random card in perceived hand", "{p:vs_pro_card_random}"],
+            ["Taps per minute", "{p:vs_pro_taps_bot}", "the pros' plays per minute", "{p:vs_pro_taps_pro}"]]
+    _, bot = table(s, 0.5, 2.42, [3.3, 2.5, 3.65, 2.9], rows, size=14, row_min=0.38, pad=0.03, name="Vs pro table",
+                   aligns=[PP_ALIGN.LEFT, PP_ALIGN.CENTER, PP_ALIGN.LEFT, PP_ALIGN.CENTER], hl_rows=())
+    text(s, 0.5, bot + 0.1, 12.35, 0.55, [
+        {"t": "**Perception ceiling:** the pro's card is in the hand the bot perceived only {p:vs_pro_ceiling} of the time ({p:vs_pro_ceiling_ci}), so same-card agreement cannot be high.", "size": 15, "after": 0},
+    ], name="Ceiling sentence")
+    ey = bot + 0.74
+    eh = 6.62 - ey
+    for k, (verdict, hfill, hcol) in enumerate((("agree", GOLD, BLACK), ("disagree", BLACK, GOLD))):
+        ex_ = 0.5 + k * 6.25
+        box(s, ex_, ey, 6.1, eh, fill=WHITE, line=BLACK, lw=1.5, name=f"Example {verdict} box")
+        box(s, ex_, ey, 6.1, 0.34, fill=hfill, name=f"Example {verdict} head")
+        text(s, ex_, ey, 6.1, 0.34, [{"t": f"{{p:vs_pro_ex_{verdict}_head}}", "size": 14, "bold": True, "color": hcol, "after": 0}],
+             anchor=MSO_ANCHOR.MIDDLE, inset=(0.12, 0.02), name=f"Example {verdict} title")
+        text(s, ex_ + 0.05, ey + 0.38, 6.0, eh - 0.42, [
+            {"t": f"{{p:vs_pro_ex_{verdict}_pro}}", "size": 14, "after": 2},
+            {"t": f"{{p:vs_pro_ex_{verdict}_bot}}", "size": 14, "after": 2},
+            {"t": f"{{p:vs_pro_ex_{verdict}_why}}", "size": 14, "color": GRAY, "after": 0},
+        ], inset=(0.1, 0.03), name=f"Example {verdict} text")
     return s
 
 
-def slide_live(prs, n, lat_rows, lat_note, lat_final, charts):
+def slide_live(prs, n, lat_rows, lat_note, lat_final, lat_x, charts):
     s = new_slide(prs, n, "Live results: Training Camp", SCRIPT[n][1])
     picture(s, charts["latency"], 0.5, 1.62, w=7.2, name="Chart latency")
-    caption(s, 0.5, 1.28, 7.2, "Decision latency by stage (" + ("3-run mean" if lat_final else "run 20261107-111554") + ")", bold=True, color=INK)
-    p50 = [r for r in lat_rows if r[0] == "total"][0]
+    caption(s, 0.5, 1.28, 7.2, "Decision latency by stage (" + ("3 dry runs, mean \u00b1 sd" if lat_final else f"run {LIVE_RUN}") + ")", bold=True, color=INK)
+    tot = [r for r in lat_rows if r[0] == "total"][0]
     x, w, th = 8.0, 4.85, 1.12
     tile(s, x, 1.4, w, th, "{p:trials_score}", "Training Camp games won ({p:trials_ci})", big_size=28, name="Tile trials")
     tile(s, x, 1.4 + (th + 0.12), w, th, "First win", "game 3 of run 20261107-013441, in overtime", big_size=28, name="Tile first win")
-    tile(s, x, 1.4 + 2 * (th + 0.12), w, th, "95 / 100 taps", "landed in run 20261106-233907 (6/6 ability taps)", big_size=28, name="Tile taps")
-    tile(s, x, 1.4 + 3 * (th + 0.12), w, th, f"{p50[1]:.0f} / {p50[2]:.0f} ms", "capture to click, p50 / p95 (183 ms of it = 2 clicks)", big_size=28, name="Tile latency")
+    tile(s, x, 1.4 + 2 * (th + 0.12), w, th, "{p:tap_runs}", "taps landed in the two newest live runs" + (f" (older run: {DATA_ROWS['tap_old'][1]}/{DATA_ROWS['tap_old'][2]})" if "tap_old" in DATA_ROWS else ""),
+         big_size=22, name="Tile taps")
+    tile(s, x, 1.4 + 3 * (th + 0.12), w, th, f"{lat_x['live_p50']:.0f} / {lat_x['live_p95']:.0f} ms", f"live run {LIVE_RUN}: capture to click, p50 / p95 (183 ms = 2 clicks)",
+         big_size=28, name="Tile latency")
     if not lat_final:
         text(s, 0.5, 6.1, 7.2, 0.5, [{"t": "{p:latency_note}", "size": 14, "after": 0}], name="Latency note")
     else:
-        text(s, 0.5, 6.1, 7.2, 0.5, [{"t": "p95 target 300 ms is missed once the click time counts.", "size": 14, "color": GRAY, "after": 0}], name="Latency note")
+        text(s, 0.5, 6.1, 7.2, 0.5, [{"t": f"Total {tot[1]:.0f} \u00b1 {tot[3]:.0f} / {tot[2]:.0f} \u00b1 {tot[4]:.0f} ms (p50 / p95, no clicks); p95 target 300 ms met in {lat_x['target_met']} of {lat_x['n_runs']} runs.",
+                                      "size": 14, "color": GRAY, "after": 0}], name="Latency note")
     return s
 
 
@@ -1454,7 +1674,7 @@ def slide_lessons(prs, n):
     cols = [
         ("What worked", GOLD, BLACK, [
             f"Knowledge + fine-tuning lift a chance-level LLM ({NUM['d1_zs']}) to {NUM['d1_tac']} on pick-the-pro-move.",
-            "A separate, guarded executor: 95/100 taps landed, first Training Camp win in overtime."]),
+            "A separate, guarded executor: taps landed {p:tap_runs} in the two newest runs; first Training Camp win in overtime."]),
         ("What to be honest about", BLACK, GOLD, [
             f"Simple baselines match the LLM: tuned LightGBM {NUM['lgbm']} vs d1 {NUM['d1_tac']}, inside the noise (n = 766).",
             "Perception caps everything (pros' own move passes our legality check only 54-60%); n is small, wins are counted in tens."]),
@@ -1484,10 +1704,10 @@ def slide_backup(prs, n):
         ["L8-10", "BM25 + dense + RRF", "kNN over 644-d vector + FTS5, k = 60", "hit@10 0.16 (test), 26 ms"],
         ["L8-10", "HNSW, pre/post filter", "exact live; HNSW + filters offline", "recall 0.978 @ 0.31 ms; 89% empty"],
         ["L5-7", "KG + KGE link prediction", "KG v2 840 / 27,112; RotatE", "MRR 0.159 vs 0.110 popularity"],
-        ["L5-7", "Rule mining, neuro-symbolic", "mined answers; legality filter", "held-out: {p:rules_hit3} hit@3"],
+        ["L5-7", "Rule mining, neuro-symbolic", "mined answers; legality filter", "hit@1 {p:rules_p_full_pt} vs {p:rules_p_rand_pt} random"],
         ["L11-14", "Two-stage RAG / recsys", "candidates, then d1 picks 1 of 4", f"{NUM['d1_tac']} vs {NUM['prior']} placement prior"],
         ["L11-14", "Hard negatives, baselines", "2x2 grid; LightGBM", f"shortcut 0.85 to 0.25; LGBM {NUM['lgbm']}"],
-        ["L15-18", "Typed tools, executor split", "engine + KG context; guarded taps", "95/100 taps; 0 planner tool calls"],
+        ["L15-18", "Typed tools, executor split", "engine + KG context; guarded taps", "taps {p:tap_rates}; 0 planner calls"],
         ["L15-18", "Knowledge editing, conflicts", "versioned fact store; re-weighting", "reliability 1.00 vs 0.00"],
         ["L2-4", "Dense representation", "644-d vector; bge-small text channel", "text channel: no gain, off"],
     ]
@@ -1587,8 +1807,8 @@ def write_notes(used_slides: dict[str, set[int]], stats_found: bool, lat_final: 
     for n_, (sec, _) in SCRIPT.items():
         cum += sec
         L.append(f"| {n_} | {titles[n_]} | {sec // 60}:{sec % 60:02d} | {cum // 60}:{cum % 60:02d} |")
-    L.append("\nDemo: slide 12 has a placeholder where the video goes (or switch to a live screen share of the dashboard, "
-             "`python -m clashbot.viz --follow runs/demo --open`). The 105 s budget includes a ~60 s clip.\n")
+    L.append(f"\nDemo: slide 12 has a placeholder where the video goes (or switch to a live screen share of the dashboard, "
+             f"`python -m clashbot.viz --follow runs/demo --open`). The {SCRIPT[12][0]} s budget includes a ~60 s clip.\n")
     L.append("## Script\n")
     for n_, (sec, _t) in SCRIPT.items():
         L.append(f"### {n_}. {titles[n_]} ({sec} s)\n\n{script_text(n_)}\n")
@@ -1604,17 +1824,26 @@ def write_notes(used_slides: dict[str, set[int]], stats_found: bool, lat_final: 
         for k in sorted(used_slides):
             origin = src.get(k) or ("`docs/data/vs_pro_v1.json` (MAC-AQ)" if k.startswith("vs_pro") else
                                     "`docs/data/answer_rules_v1.json` (MAC-AR, E6)" if k.startswith("rules") else
-                                    "`docs/data/context_conflict_v1.json` (MAC-AR, E2)" if k.startswith("cc_") else "?")
+                                    "`docs/data/context_conflict_v1.json` (MAC-AR, E2)" if k.startswith("cc_") else
+                                    "`docs/data/stats_audit_v1.json`" if k.startswith("ci_") else
+                                    "`docs/data/tap_landing_*.md`" if k.startswith("tap_") else "?")
             L.append(f"| `{k}` | {PENDING.get(k)} | {', '.join(str(x) for x in sorted(used_slides[k]))} | {origin} |")
         L.append("")
     else:
         L.append("None: every number is final.\n")
-    L.append("Data-file loaders in `build_slides.py` (`load_value_overrides`, `load_stats_audit`, `latency_stages`) fill these automatically "
-             "when the file exists in `docs/data/`; the vs_pro / answer_rules / context_conflict / latency_v2 loaders were written against the "
-             "specs (`docs/plans/MAC-AP..AR`) before those files existed, so check the printed WARNING lines on the first run and adjust the "
-             "regexes if a number stays red although the file is there.\n")
-    L.append(f"Status at build time: stats_audit_v1.json {'FOUND (CIs on the chart)' if stats_found else 'not found (chart without CIs, red note)'}; "
-             f"latency_v2.json {'FOUND' if lat_final else 'not found (chart uses run 20261107-111554 summary.json)'}.\n")
+    L.append("Data-file loaders in `build_slides.py` (`load_vs_pro`, `load_answer_rules`, `load_context_conflict`, `load_tap_landing`, "
+             "`load_stats_audit`, `latency_stages`) read exact JSON paths / markdown lines from `docs/data/`; if a file changes shape the "
+             "loader prints a WARNING and the number stays red. Re-run `build_slides.py` after `vs_pro_v1.json` is rewritten: the games "
+             "count, every number in the slide-9 table, the two example boxes and the script text follow the file.\n")
+    L.append("Where the numbers on slides 6-10 come from:\n\n"
+             "| slide | numbers | file |\n|---|---|---|\n"
+             "| 6 | held-out mined-rule hit@1 (test, val+test) vs random vs popularity | `answer_rules_v1.json` (`headline.splits.*.methods`, `.paired`) |\n"
+             "| 7 | ranker accuracy and 95% CI whiskers; d1+tactics vs LightGBM p, vs placement prior | `stats_audit_v1.json` (`accuracy.test`, `paired.test`) |\n"
+             "| 8 | context-conflict accuracy C0-C4 (test) and follow rate | `context_conflict_v1.json` (`splits.test`) |\n"
+             "| 9 | recall / precision +-2 s vs shifted null, same card vs random hand, taps per minute, ceiling, examples | `vs_pro_v1.json` (`aggregate.metrics`, `examples`); PRELIMINARY while games are still running |\n"
+             "| 10 | per-stage latency, mean +- sd of p50 / p95 over 3 dry runs; live-run total; tap landing | `latency_v2.json` (`h6.stages`, `runs`), `tap_landing_*_v2.md` |\n")
+    L.append("Status at build time: " + ("stats_audit_v1.json FOUND (CIs on the chart)" if stats_found else "stats_audit_v1.json not found (chart without CIs, red note)")
+             + "; latency_v2.json " + ("FOUND (3-run mean +- sd chart)" if lat_final else "not found (chart uses run 20261107-111554 summary.json)") + ".\n")
     L.append("## Logos\n")
     for u in LOGO_SOURCES:
         L.append(f"- {u}")
@@ -1688,20 +1917,30 @@ def main():
         ["Portability (n = %d)" % p["portability"]["n"], f"{p['portability']['edited']:.2f}", f"{p['portability']['no_edit']:.2f}"],
         ["Stale-card hit share", f"{cf['after']:.3f}", f"{cf['before']:.3f}"],
     ]
-    lat_rows, lat_src, lat_final = latency_stages()
+    lat_rows, lat_src, lat_final, lat_x = latency_stages()
 
     # --- charts
     charts = {
         "hnsw": chart_hnsw(ret["hnsw"], 6.1, 3.45),
         "filters": chart_filters(ret["filtering"], 6.0, 3.45),
-        "lane": chart_lanesim(5.65, 3.0),
+        "lane": chart_lanesim(5.65, 2.5),
         "kg": chart_kg(6.2, 5.0),
-        "latency": chart_latency(lat_rows, 7.2, 4.4, lat_src),
+        "latency": chart_latency(lat_rows, 7.2, 4.4, lat_final, lat_x.get("live_exec", 183.0)),
     }
+    if "cc" in DATA_ROWS:
+        charts["cc"] = chart_cc(DATA_ROWS["cc"], 5.65, CC_H)
     rrows = ranker_rows(stats)
     byk = {r["key"]: r["est"] for r in rrows}
     NUM.update({"d1_zs": f"{byk['d1_zero_shot']:.2f}", "d1_ft": f"{byk['d1_joint']:.2f}", "d1_tac": f"{byk['d1_tac']:.2f}",
                 "lgbm": f"{byk['lgbm']:.2f}", "prior": f"{byk['placement_prior']:.2f}", "d1_kg": f"{byk['d1_kg']:.2f}"})
+    if "cc" in DATA_ROWS:
+        accs = [r[1] for r in DATA_ROWS["cc"]]
+        NUM.update({"cc_min": f"{min(accs):.2f}", "cc_max": f"{max(accs):.2f}"})
+    if "tap_old" in DATA_ROWS:
+        NUM["tap_old"] = f"{DATA_ROWS['tap_old'][1]} of {DATA_ROWS['tap_old'][2]}"
+    tot = [r for r in lat_rows if r[0] == "total"][0]
+    NUM.update({"lat_total_p50": f"{tot[1]:.0f}" + (f" plus or minus {tot[3]:.0f}" if tot[3] is not None else ""),
+                "lat_total_p95": f"{tot[2]:.0f}" + (f" plus or minus {tot[4]:.0f}" if tot[4] is not None else "")})
     charts["ranker"] = chart_ranker(rrows, 7.55, 3.95)
     crops = make_crops()
 
@@ -1714,9 +1953,9 @@ def main():
     slide_retrieval(prs, 5, charts)
     slide_kg(prs, 6, kge_rows, charts)
     slide_ranker(prs, 7, charts["ranker"], stats)
-    slide_agents(prs, 8, edit_rows)
+    slide_agents(prs, 8, edit_rows, charts)
     slide_vs_pro(prs, 9)
-    slide_live(prs, 10, lat_rows, lat_src, lat_final, charts)
+    slide_live(prs, 10, lat_rows, lat_src, lat_final, lat_x, charts)
     slide_compare(prs, 11)
     slide_demo(prs, 12, crops)
     slide_lessons(prs, 13)
