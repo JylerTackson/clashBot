@@ -9,9 +9,11 @@
 %   VP = docs/data/vs_pro_v1.md   LAT = docs/data/latency_v2.md
 % Revision 2 (2026-11-07): every number once tagged [pre-merge] was re-checked against the merged docs/data
 % files (MAC-AP, MAC-AR) and the tag removed.
-% VS_PRO_PRELIM marks every number from vs_pro_v1 (8 of 24 usable test games at writing); the file is rewritten
-% when the overnight games finish: update those numbers (and re-run make_figures.py), the wording needs no change.
-% Placeholders for results that do not exist yet use \pending{...} (red); all are listed in PENDING.md.
+% Revision 3 (2026-11-07 night): vs_pro_v1 is final (all 24 usable test games, generated 2026-11-08T02:31:35Z); the
+% Training Camp trial is filled. TRIAL = the user's recorded results of the 10 trial battles (2026-11-07 evening,
+% scripts/demo.sh --live, frozen code D-051) as relayed for revision 3; LOG = session log runs/demo/20261107-213709
+% (battles.jsonl, decisions.jsonl; 9 of 10 battles logged); BL = docs/plans/BACKLOG_post_showcase.md (W1-W12).
+% No placeholders remain.
 
 \documentclass[conference]{IEEEtran}
 \usepackage{iftex}
@@ -35,7 +37,6 @@
 \usetikzlibrary{arrows.meta}
 \usepackage[hidelinks]{hyperref}
 
-\newcommand{\pending}[1]{\textcolor{red}{[#1]}}
 \newcommand{\cb}{\textsc{clashbot}}
 \newcommand{\tw}[1]{\texttt{#1}}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
@@ -51,9 +52,9 @@ Instructor: Dr.\ Ser Nam Lim}}
 \maketitle
 
 \begin{abstract}
-% src: CMA C1 (197 games, 10,923 states), C2 (KG v2 840/27,112), C7 (339 ms); SA sec. 1 (0.507, 0.482, 0.384); CC (E2); AR (E6); STATUS 2026-11-07 night (first win)
-We present \cb{}, a non-embedded agent that plays the real-time card game Clash Royale on an iPhone through macOS screen mirroring, with pixels in and taps out and every model running on one laptop. A fast loop runs YOLOv8 detection, OCR and tracking, a learned play/wait gate, and a candidate generator built from a tactical lane simulator, hybrid retrieval over 10,923 states from 197 pro games, and a knowledge graph of 840 nodes and 27,112 edges. A 600M-parameter decision LLM, fine-tuned on the pro games, chooses one of at most four candidates and remains the decision maker. On held-out games it picks the pro's play 50.7\% of the time (95\% CI 47.2--54.0) among four hard options, against 25\% chance and 38.4\% for a placement prior. Three negative results are findings in their own right: a tuned LightGBM ranker (48.2\%) is statistically indistinguishable from the LLM; removing, shuffling or poisoning the tool notes in the LLM's context leaves its accuracy unchanged; and answer rules mined from the pro games beat random but not card popularity. Run open loop on held-out pro videos, the bot acts within 2\,s of 77.5\% of the pro's plays but picks the pro's card on only 16.5\% of them, largely because the pro's card is in its perceived hand only 40\% of the time. % VS_PRO_PRELIM (77.5, 16.5, 40); src: VP headline
-Live, a decision takes 339\,ms from capture to click at the median, and the agent won its first Training Camp battle; in a trial of \pending{TBD: 10} battles it won \pending{TBD: k}.
+% src: CMA C1 (197 games, 10,923 states), C2 (KG v2 840/27,112), LOG (323 ms trial-session p50); SA sec. 1 (0.507, 0.482, 0.384); CC (E2); AR (E6); STATUS 2026-11-07 night (first win)
+We present \cb{}, a non-embedded agent that plays the real-time card game Clash Royale on an iPhone through macOS screen mirroring, with pixels in and taps out and every model running on one laptop. A fast loop runs YOLOv8 detection, OCR and tracking, a learned play/wait gate, and a candidate generator built from a tactical lane simulator, hybrid retrieval over 10,923 states from 197 pro games, and a knowledge graph of 840 nodes and 27,112 edges. A 600M-parameter decision LLM, fine-tuned on the pro games, chooses one of at most four candidates and remains the decision maker. On held-out games it picks the pro's play 50.7\% of the time (95\% CI 47.2--54.0) among four hard options, against 25\% chance and 38.4\% for a placement prior. Three negative results are findings in their own right: a tuned LightGBM ranker (48.2\%) is statistically indistinguishable from the LLM; removing, shuffling or poisoning the tool notes in the LLM's context leaves its accuracy unchanged; and answer rules mined from the pro games beat random but not card popularity. Run open loop on 24 held-out pro games, the bot acts within 2\,s of 77.1\% of the pro's plays but picks the pro's card on only 17.1\% of them, largely because the pro's card is in its perceived hand only 40\% of the time. % src: VP headline (77.1, 17.1, 40.1)
+In the live trial session a decision takes 323\,ms from capture to click at the median. The agent won one Training Camp battle in an early session but lost all ten battles of a trial on the frozen code (95\% CI for the win rate 0--30.8\%, no different from the prior agent KataCR's 1/20), so it does not yet beat Training Camp reliably; its logs trace the losses to unstable tower-HP reading, no committed target tower, weak spell valuation and over-playing. % src: TRIAL; STATUS 2026-11-07 night (win in run 013441); BL W1, W2, W5, W8
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -66,7 +67,7 @@ game agents, knowledge graphs, retrieval-augmented decision making, LLM ranking,
 Clash Royale is a real-time, two-player card game played on phones. Each player brings a hidden deck of eight cards, holds four of them, and spends elixir, which regenerates up to ten, to place troops, buildings and spells on an 18$\times$32-tile arena; a match lasts three minutes plus up to two minutes of overtime~\cite{wu2025nonembedded}. % src: PBC sec. 1.1 (deck 8, hand 4, 3 + 2 min, 18 x 32 grid)
 \cb{} is a \emph{non-embedded} agent~\cite{wu2025nonembedded}: it has no game API, reads the screen of an iPhone mirrored onto a Mac, and acts by clicking the mirrored window, the interface a human uses.
 
-The task is hard for five measurable reasons. (i)~\emph{Real time}: perception runs on a stream with a 10\,fps target (7.97\,fps reached in our latest run) and the whole capture-to-click pipeline takes 338.9\,ms at the median. % src: CMA C7 (run 20261107-111554)
+The task is hard for five measurable reasons. (i)~\emph{Real time}: perception runs on a stream with a 10\,fps target (7.97\,fps reached in live run 111554) and capture to click takes 323\,ms at the median in the live trial session. % src: LOG (323 ms); CMA C7 (7.97 fps, run 20261107-111554)
 (ii)~\emph{Partial, noisy observation}: the opponent's deck, hand and elixir are hidden, and our own reading of the board is imperfect; the pro's recorded move passes our perceived-legality check on only 0.542--0.597 of states. % src: CMA A3 neuro-symbolic row (ranker_stats_v1.json pos_in_legal_rate)
 (iii)~\emph{A structured action space plus a timing decision}: an action is card $\times$ lane $\times$ zone or hold (D-010), and pros deploy within the next second on about a fifth of seconds (dense act rate 0.204). % src: CMA B dense wait/act row
 (iv)~\emph{Sparse supervision}: the expert data are 197 pro games (about 12 match-hours, one creator) with no reward and no simulator, and the Training Camp opponent plays level-15 cards. % src: CMA C1; D-047
@@ -77,7 +78,7 @@ The design follows the course's retrieve-then-rank and agent-with-tools patterns
 \item A non-embedded, two-speed agent that plays live through iPhone Mirroring with all models local (Sec.~\ref{sec:system}).
 \item A knowledge layer: retrieval over 10,923 pro states (644-d structured vector and BM25, fused by RRF), a two-version knowledge graph with lane-simulation edges and 3,620 mined pro answers, and a tactical engine, all rendered as context for a fine-tuned setwise LLM ranker. % src: CMA C1, C2, A1
 \item A leakage-checked benchmark suite. Our first multiple-choice options leaked the answer (a rule reading only option keys scored 0.852 on test); we rebuilt them as a 2$\times$2 card$\times$placement grid and compare ten rankers with cluster-bootstrap CIs, plus ablations for retrieval, KG embeddings, mined rules, context conflict, timing, next-card prediction and knowledge editing, and an open-loop comparison with the pro on held-out videos, negative results included (Sec.~\ref{sec:exp}). % src: D-037 (0.852 test)
-\item Live evaluation in Training Camp: 13 recorded runs with 931 logged decisions, a first win on 2026-11-07, and a trial of \pending{TBD: 10} battles compared with KataCR's 1/20 (Sec.~\ref{sec:live}). % src: CMA C6; STATUS 2026-11-07 night; PBC sec. 0
+\item Live evaluation in Training Camp: 13 recorded runs (931 logged decisions) with one win, then a 10-battle trial on the frozen code that the bot lost 0--10 (95\% CI 0--30.8\%; KataCR 1/20, Fisher $p=1.0$), and a diagnosis of the losses from the logs (Sec.~\ref{sec:live}, \ref{sec:disc}). % src: CMA C6; STATUS 2026-11-07 night; TRIAL; BL
 \item Demo tooling: a launcher that taps only when the opponent banner reads ``Trainer'', behind a two-switch live guard, and a decision dashboard (Fig.~\ref{fig:dashboard}).
 \end{enumerate}
 The bot plays only Training Camp and friendly battles, never ranked matches against people (D-031, D-050).
@@ -143,18 +144,17 @@ The bot plays only Training Camp and friendly battles, never ranked matches agai
 \draw[arr] (idxb) -- (idx);
 \draw[arr] ([xshift=-3mm]tr.north) -- node[lab, pos=0.5] {weights} ([xshift=-3mm]d1.south);
 \end{tikzpicture}}
-\caption{Two-speed architecture (D-007). The fast loop runs on every decision (338.9\,ms p50 capture to click); tools in the knowledge layer only propose candidates and write notes, the fine-tuned d1 LLM picks the move (D-045). The coach is optional and off by default. Every decision is logged and can be replayed in the dashboard (Fig.~\ref{fig:dashboard}).}
+\caption{Two-speed architecture (D-007). The fast loop runs on every decision (323\,ms p50 capture to click in the live trial); tools in the knowledge layer only propose candidates and write notes, the fine-tuned d1 LLM picks the move (D-045). The coach is optional and off by default. Every decision is logged and can be replayed in the dashboard (Fig.~\ref{fig:dashboard}).}
 \label{fig:pipeline}
 \end{figure*}
-% src (figure numbers): CMA C7 (338.9 ms), C2 (840 / 27,112), C1 (197 games, 33 videos, 10,923 x 644), C3/B (Qwen3-14B coach, 20 s period), act_gbdt_v1.md (29 features), CMA C2 extras (3,620 answers)
+% src (figure numbers): LOG (323 ms), C2 (840 / 27,112), C1 (197 games, 33 videos, 10,923 x 644), C3/B (Qwen3-14B coach, 20 s period), act_gbdt_v1.md (29 features), CMA C2 extras (3,620 answers)
 
 % ---------------------------------------------------------------------------------------------
 \section{Related Work}
 
-\emph{Game agents.} AlphaStar~\cite{vinyals2019alphastar} and OpenAI Five~\cite{berner2019dota} reached expert level through game APIs and large-scale self-play, which a phone game without an API does not offer. KataCR~\cite{wu2025nonembedded} is the closest work: a non-embedded Clash Royale agent with YOLOv8 detectors trained on synthetic composites, OCR, and an offline-RL StARformer policy in the Decision Transformer formulation~\cite{chen2021dt}, trained on 105 episodes (113,981 frames) of one human against the built-in AI. Over 20 Training Camp games per checkpoint, its headline model won one (5\%) and nine models ranged from 0 to 10\%. We reuse its published detector weights~\cite{wu2024katacr} and its Training Camp protocol. % src: PBC sec. 1.3, Table 3 copy
-Claude Royale~\cite{houseworth2025claudeRoyale} puts an LLM in the loop: Claude Haiku sub-agents read screenshots and click through BlueStacks at about 7\,s per decision per agent, on the human ladder (1,723 trophies reported), so it has no built-in-AI win rate to compare with. % src: PBC sec. 2.1, 2.2
+\emph{Game agents.} AlphaStar~\cite{vinyals2019alphastar} and OpenAI Five~\cite{berner2019dota} reached expert level through game APIs and large-scale self-play, which a phone game without an API does not offer. KataCR~\cite{wu2025nonembedded} is the closest work: a non-embedded Clash Royale agent with YOLOv8 detectors, OCR and an offline-RL StARformer policy in the Decision Transformer formulation~\cite{chen2021dt}, which won 1 of 20 Training Camp games (Table~\ref{tab:prior}). We reuse its detector weights~\cite{wu2024katacr} and its Training Camp protocol. Claude Royale~\cite{houseworth2025claudeRoyale} puts Claude Haiku agents in the loop at about 7\,s per decision, on the human ladder. % src: PBC sec. 1.3, 2.1, 2.2
 
-\emph{LLM agents and ranking.} ReAct interleaves reasoning with tool calls~\cite{yao2023react}, Reflexion adds verbal self-feedback~\cite{shinn2023reflexion} and LATS adds tree search~\cite{zhou2024lats}; each step costs seconds. A real-time budget rules out generation in the fast loop, so our LLM acts as a setwise reranker~\cite{zhuang2024setwise,sun2023rankgpt} over tool proposals, as in two-stage recommender serving, where a cheap stage retrieves and an expensive stage ranks~\cite{yi2019twotower,lim2026l13}. Fine-tuning an LM to choose among items follows TALLRec and P5~\cite{bao2023tallrec,geng2022p5}; putting graph facts in the context follows GraphRAG~\cite{edge2024graphrag}; deciding when to consult the model follows adaptive retrieval~\cite{jiang2023flare,jeong2024adaptiverag}.
+\emph{LLM agents and ranking.} ReAct, Reflexion and LATS~\cite{yao2023react,shinn2023reflexion,zhou2024lats} spend seconds per step on reasoning, reflection or search. A real-time budget rules out generation in the fast loop, so our LLM acts as a setwise reranker~\cite{zhuang2024setwise,sun2023rankgpt} over tool proposals, as in two-stage recommender serving~\cite{yi2019twotower,lim2026l13}. Fine-tuning an LM to choose among items follows TALLRec and P5~\cite{bao2023tallrec,geng2022p5}; putting graph facts in the context follows GraphRAG~\cite{edge2024graphrag}; deciding when to consult the model follows adaptive retrieval~\cite{jiang2023flare,jeong2024adaptiverag}.
 
 % ---------------------------------------------------------------------------------------------
 \section{System}
@@ -170,8 +170,7 @@ The live-state builder turns detections into own and opponent elixir, hand, towe
 The same builder produced the dense training data (D-040), so the play/wait model sees the same features live and offline.
 
 \subsection{Data pipeline}
-A scraper first built a knowledge base of card, deck and match pages from the Clash Royale wiki. % src: README.md (Phase 1)
-Then 197 games from 33 videos of one professional creator were perceived and cleaned into 10,923 states (6,901 plays, 3,539 key moments, 483 periodic samples). Bad fields are repaired and flagged, never deleted (D-011); for example, 2,165 states have an unknown placement. % src: CMA C1 (MANIFEST, CLEANING_REPORT_v1.md)
+A scraper built a knowledge base from the Clash Royale wiki; then 197 games from 33 videos of one professional creator were perceived and cleaned into 10,923 states (6,901 plays, 3,539 key moments, 483 periodic samples). Bad fields are repaired and flagged, never deleted (D-011); for example, 2,165 states have an unknown placement. % src: README.md (Phase 1, scraper); CMA C1 (MANIFEST, CLEANING_REPORT_v1.md)
 Splits are by video (SHA-1 order, 70/15/15), so no game appears in two splits, the contamination concern raised for RETRO~\cite{borgeaud2022retro}. A second pass re-perceived all 33 videos at one state per second (about 17\,h on the M5) for play/wait labels: does the pro deploy within the next second? % src: CMA C1, A2 RETRO row; PBA 1.2 (17 h)
 Table~\ref{tab:data} gives the sizes.
 
@@ -216,13 +215,13 @@ A reactive policy (modes defend, leak, punish, counter, spell, save and none; D-
 \subsection{Candidates and the d1 ranker}
 The generator returns at most four plays: up to two engine moves, then retrieval votes, KG v1 counter scores (weight 0.5) and legal fallbacks; the policy, the read hand and a hold rule for fallbacks below 9.5 elixir filter them. % src: CMA sec. 0 (candidates, filters)
 d1 is Liquid AI's d1-omni-600M~\cite{liquidai2026d1omni}, a 16-layer transformer trunk with a head that emits one logit per option marker, so one forward pass scores all options (setwise ranking~\cite{zhuang2024setwise}). Zero-shot it is at chance (Sec.~\ref{sec:ranker}), so we fine-tuned the full text path (313,623,297 parameters, fp32 on MPS) with a softmax cross-entropy over the four options: \tw{d1-ft-joint} on states alone (3 epochs, 13,241\,s), then \tw{d1-ft-joint-tac} on states with tactics lines and option notes (2 epochs, 4,554\,s, peak 22.75\,GB), the live model. % src: docs/plans/MAC-T_d1_finetune.md sec. 0 (16 layers, logit per option marker); CMA C4, A2 TALLRec row
-Live, d1 takes 92.7/174.7\,ms (p50/p95) and is called only when two or more candidates survive, which happened on 119 of 279 executed plays in the three latest runs. % src: CMA C6, sec. 0
+Live, d1 takes 92.7/174.7\,ms (p50/p95) and is called only when two or more candidates survive, which happened on 119 of 279 executed plays in the three runs before the trial. % src: CMA C6, sec. 0
 
-\emph{The option-set shortcut (D-037).} Our first training set built three negatives around each pro play: a neighbour's play, the same card elsewhere, and another card at the same spot. The positive was then always the option that shares its card with one option and its placement with another, and a rule that reads only the four option keys scored 0.848/0.853/0.852 on train/val/test. A model trained on it would learn the construction, not the game. We rebuilt every example as a 2$\times$2 grid \{pro card, second possible card\} $\times$ \{pro placement, second legal placement\}: each option shares its card with exactly one other option and its placement with exactly one other, so the key-only rule scores 0.25 by construction while the negatives stay hard, in the spirit of RAFT's distractors~\cite{zhang2024raft}. A second, smaller tell (a fixed lane order; lane-only rule 0.31) was removed by randomising the second placement (lane-only rule now 0.272 on test). % src: D-037; ranker_stats_v1.json via CMA A2 (lane-only 0.2722 test)
+\emph{The option-set shortcut (D-037).} Our first training set built three negatives around each pro play: a neighbour's play, the same card elsewhere, and another card at the same spot. The positive was then always the option that shares its card with one option and its placement with another, and a rule that reads only the four option keys scored 0.848/0.853/0.852 on train/val/test. A model trained on it would learn the construction, not the game. We rebuilt every example as a 2$\times$2 grid \{pro card, second possible card\} $\times$ \{pro placement, second legal placement\}: each option shares its card with exactly one other option and its placement with exactly one other, so the key-only rule scores 0.25 by construction while the negatives stay hard, in the spirit of RAFT's distractors~\cite{zhang2024raft}. A second tell, a fixed lane order (lane-only rule 0.31), was removed by randomising the second placement (now 0.272). % src: D-037; ranker_stats_v1.json via CMA A2 (lane-only 0.2722 test)
 
 \subsection{Executor, safety and demo tooling}
-The executor maps a tile to screen points through the calibration and sends two Quartz clicks (card slot, then tile) 50\,ms apart; the execute stage takes 183.3\,ms at the median. It tracks own elixir after taps, detects failed taps and cools a failed card down for 2\,s. Two independent switches gate every tap, the \tw{--live} flag and \tw{CLASHBOT\_ALLOW\_LIVE=1}, checked at construction and before every action (D-031). % src: CMA C7 (execute 183.3); STATUS 2026-11-05 night (MAC-AC C2); D-031
-The demo launcher loads in about 10\,s, watches the mirrored screen until stopped, and taps only in battles whose opponent banner reads ``Trainer''; an unreadable banner counts as not Training Camp (D-050). It read 411 of 412 recorded banners and 5 of 5 battles correctly. The dashboard (Fig.~\ref{fig:dashboard}) replays or follows a run: a timeline with hold reasons, the decision frame, candidates with d1 probabilities and sources, the ten retrieved pro states, the KG subgraph of the counters used, and the KG and tactics lines given to d1; logging them costs about 0.03\,ms per decision. % src: STATUS 2026-11-07 showcase prep (MAC-AN, MAC-AO)
+The executor maps a tile to screen points through the calibration and sends two Quartz clicks (card slot, then tile) 50\,ms apart; the execute stage takes 181\,ms at the median (trial session). It tracks own elixir after taps, detects failed taps and cools a failed card down for 2\,s. Two independent switches gate every tap, the \tw{--live} flag and \tw{CLASHBOT\_ALLOW\_LIVE=1}, checked at construction and before every action (D-031). % src: CMA C7 (execute 183.3); STATUS 2026-11-05 night (MAC-AC C2); D-031
+The demo launcher loads in about 10\,s, watches the mirrored screen until stopped, and taps only in battles whose opponent banner reads ``Trainer''; an unreadable banner counts as not Training Camp (D-050). It read 411 of 412 recorded banners and 5 of 5 battles correctly. The dashboard (Fig.~\ref{fig:dashboard}) replays or follows a run decision by decision; logging costs about 0.03\,ms per decision. % src: STATUS 2026-11-07 showcase prep (MAC-AN, MAC-AO)
 
 \begin{figure}[t]
 \centering
@@ -235,7 +234,7 @@ The demo launcher loads in about 10\,s, watches the mirrored screen until stoppe
 \section{Course Concepts in the System}
 \label{sec:course}
 
-Table~\ref{tab:course} maps each course block to what is built, where it runs and the number that tests it. Only built components are listed; techniques we cite but did not build (e.g.\ Matryoshka embeddings, ROME/MEMIT, Reflexion) are left out. Four course lessons recur in the results and are drawn together in Sec.~\ref{sec:disc}: tuned simple baselines are hard to beat~\cite{rendle2020ncfvsmf}; whether a model uses the knowledge in its context must be tested, not assumed~\cite{wu2024clasheval,ru2024ragchecker}; the evaluation protocol matters as much as the method (D-037, the equal-budget KGE audit~\cite{ruffinelli2020olddog}); and perception errors bound what the decision layer can do~\cite{huang2025esca}.
+Table~\ref{tab:course} maps each course block to what is built, where it runs and the number that tests it. Four course lessons recur in the results and are drawn together in Sec.~\ref{sec:disc}: tuned simple baselines are hard to beat~\cite{rendle2020ncfvsmf}; whether a model uses the knowledge in its context must be tested, not assumed~\cite{wu2024clasheval,ru2024ragchecker}; the evaluation protocol matters as much as the method (D-037, the equal-budget KGE audit~\cite{ruffinelli2020olddog}); and perception errors bound what the decision layer can do~\cite{huang2025esca}.
 
 \begin{table*}[t]
 \caption{Course techniques built into \cb{}. ``Live'' = on the default live path; ``off'' = offline evaluation or a flag only. Test split unless noted.}
@@ -272,7 +271,7 @@ KG\newline L5--7~\cite{cap6938L05,cap6938L06C,cap6938L07}
  & Neuro-symbolic hard constraints (L7) & legality filter, safety rules, lane simulation & pros' own play legal on 0.542--0.597 of states & live\\
 Agents\newline L15--16~\cite{lim2026l15,lim2026l16}
  & Agent with tools~\cite{yao2023react}; one decision LLM & engine, retrieval, KG propose, d1 decides (D-045) & 13 runs, 931 logged decisions, 746 taps & live\\
- & Guarded execution; trajectory-level evaluation~\cite{yao2025taubench} & two-switch guard, banner gate, per-decision logs; open loop vs the pro & taps landed 75/84, 78/95; win rate \pending{TBD: k/10}; pro plays met $\pm$2\,s 77.5\% (null 70.4\%) & live\\ % VS_PRO_PRELIM (77.5, 70.4)
+ & Guarded execution; trajectory-level evaluation~\cite{yao2025taubench} & two-switch guard, banner gate, per-decision logs; open loop vs the pro & taps landed 75/84, 78/95; trial 0/10 wins; pro plays met $\pm$2\,s 77.1\% (null 68.9\%) & live\\
 Knowledge upd.\newline L17--18~\cite{lim2026l17,lim2026l18}
  & Editing criteria~\cite{yao2023editingsurvey}; non-parametric edit~\cite{mitchell2022serac} & patch-versioned fact store & reliability 1.000; portability 1.000 vs 0.067 & off\\
  & Knowledge conflicts~\cite{wu2024clasheval,xie2024chameleon}; CAD/AdaCAD~\cite{shi2024cad,wang2025adacad} & down-weight pre-patch hits; corrupted notes (E2); contrastive decoding & 0.124 $\rightarrow$ 0.002; poisoned-note follow-rate 0.044, accuracy $-$0.4 pts; CAD no gain & off\\
@@ -282,7 +281,7 @@ Knowledge upd.\newline L17--18~\cite{lim2026l17,lim2026l18}
 % src (Table course): retrieval_ablation_v1.md (0.160, 0.136, 0.978, 0.31, 1.51, 88.9%, 50%/87%, 0.143); SA sec. 1/2/4 (0.507, 0.221, 0.547, -2.2, +2.5, 0.104/0.013); D-037 (0.852);
 %   act_gbdt_v2.md (0.607 vs 0.509); CMA A2 (313.6M), A3 (0.542-0.597), C2, C6; next_card_v1.md (0.222, 0.243); opp_model_v1.md (0.234 vs 0.130);
 %   kge_link_prediction_v1.md (0.159, 0.110); answer_rules_v1.md (0.154, 0.169, 0.128); BM sec. 11 (75/84, 78/95); edit_eval_v2.md = edit_eval_v1.md;
-%   CC replicate joint_tac_v2, test (C3 follow-rate 0.044, delta -0.004; CAD a tuned on val = 0); VP headline (77.5%, null 70.4%) % VS_PRO_PRELIM
+%   CC replicate joint_tac_v2, test (C3 follow-rate 0.044, delta -0.004; CAD a tuned on val = 0); VP headline (77.1%, null 68.9%); TRIAL (0/10)
 
 % ---------------------------------------------------------------------------------------------
 \section{Experiments}
@@ -337,7 +336,7 @@ Table~\ref{tab:ranker} gives the main result. (1)~Zero-shot d1 is at chance (0.2
 
 Fig.~\ref{fig:popularity} splits test accuracy by how often the gold key occurs in training. Popularity alone is the best model on head keys (0.696) and the worst on the tail (0.103); d1-ft-joint-tac and LightGBM stay level across the two lower terciles (0.468/0.473 and 0.457/0.458), so both generalise beyond memorised keys. A share of 0.14 of test gold keys never occurs in training. % src: SA sec. 5
 
-d1 is well calibrated (test ECE 0.048 over 15 bins; Brier 0.616), so its probability can drive abstention. Holding when the top probability is below 0.483 (chosen on val) answers 0.402 of test lines at 0.630 accuracy and raises the +1/0/$-$1 utility of CRAG-style scoring~\cite{yang2024cragbench} from 0.013 [$-$0.056, 0.079] to 0.104 [0.060, 0.147] (Fig.~\ref{fig:retsel}b). An ensemble of d1 and LightGBM (d1 weight 0.35, fitted on val) scores 0.505 [0.472, 0.535] on test, no better than d1 alone ($-$0.1 points); with LightGBM's other two seeds it gains +2.1 and +3.9 points, so the effect depends on the seed and we do not claim it. A rule arbiter that narrows d1's options when d1 is unsure also gives no gain (test 0.506 for d1 alone, 0.509 with the arbiter), so it stays off. % src: SA sec. 3, 4, 6; arbiter_v2.md (50.6% / 50.9%)
+d1 is well calibrated (test ECE 0.048 over 15 bins; Brier 0.616), so its probability can drive abstention. Holding when the top probability is below 0.483 (chosen on val) answers 0.402 of test lines at 0.630 accuracy and raises the +1/0/$-$1 utility of CRAG-style scoring~\cite{yang2024cragbench} from 0.013 [$-$0.056, 0.079] to 0.104 [0.060, 0.147] (Fig.~\ref{fig:retsel}b). A d1+LightGBM ensemble fitted on val changes test accuracy by $-$0.1, +2.1 or +3.9 points depending on LightGBM's seed, so we do not claim it; a rule arbiter that narrows d1's options when d1 is unsure gives no gain either (0.509 vs 0.506), so it stays off. % src: SA sec. 3, 4, 6; arbiter_v2.md (50.6% / 50.9%)
 
 \subsection{Retrieval}
 \label{sec:retr}
@@ -361,13 +360,13 @@ all three, RRF & 0.156 / 0.170 & 0.461 / 0.514 & 49.6\\
 \end{table}
 % src (Table retrieval): docs/data/retrieval_ablation_v1.md (kept current per BM sec. 3)
 
-Table~\ref{tab:retrieval}: the channels are within noise of each other (test hit@10 0.136--0.170), and BM25 beats the structured channel on test (0.159 vs 0.136) but not on val. The text channel adds about 20\,ms per query for no clear gain, so the live list is structured plus BM25. Retrieval alone is a weak candidate source: at the exact-key level, kNN voting reaches recall@10 0.3172 on test against 0.4021 for popularity, and wins only at the card level (0.6514 vs 0.6070). % src: CMA A1 (ranker_baselines_v1.json candidate_recall)
+Table~\ref{tab:retrieval}: the channels are within noise of each other (test hit@10 0.136--0.170), and BM25 beats the structured channel on test (0.159 vs 0.136) but not on val. The text channel adds about 20\,ms per query for no clear gain, so the live list is structured plus BM25. As a candidate source alone, kNN voting loses to popularity on exact keys (test recall@10 0.317 vs 0.402) and wins only on cards (0.651 vs 0.607). % src: CMA A1 (ranker_baselines_v1.json candidate_recall)
 HNSW at ef 40 keeps recall@10 at 0.978 in 0.31\,ms against 1.51\,ms for exact search (Fig.~\ref{fig:retsel}a); at 10.9k vectors exact search is affordable, so the live path uses it. Filtering shows the pre- versus post-filter trade-off from the indexing lecture~\cite{cap6938L09}: a deck pre-filter leaves an empty pool for 88.9\% of queries (their decks never occur in training), and post-filtering the top 10 returns nothing for 50.0\% (deck) and 87.3\% (phase) of queries; post-filtering the top 200 brings this down to 0.5\% and 0.1\%. % src: retrieval_ablation_v1.md (HNSW table, filtering table)
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{figs/fig_retrieval_selective.pdf}
-\caption{(a) HNSW recall@10 against exact kNN versus query time (10,923 vectors, $k{=}10$). (b) Risk--coverage of d1-ft-joint-tac: accuracy on the lines it answers when it holds below a probability threshold; dots mark the threshold 0.483 chosen on val. Data: \tw{retrieval\_ablation\_v1.json}, \tw{stats\_audit\_v1\_risk\_coverage.csv}.}
+\caption{(a) HNSW recall@10 against exact kNN versus query time (10,923 vectors, $k{=}10$). (b) Risk--coverage of d1-ft-joint-tac when it holds below a probability threshold; dots: 0.483, chosen on val.}
 \label{fig:retsel}
 \end{figure}
 
@@ -413,7 +412,7 @@ random card in deck (expected) & 0.126 & 0.128 & 0.345\\
 
 Following ClashEval and the knowledge-conflict lecture~\cite{wu2024clasheval,xie2024chameleon,lim2026l17}, we corrupt d1-ft-joint-tac's context without changing the gold label: C1 removes the notes and the \tw{tactics:}/\tw{KG:} lines, C2 shuffles the notes across options, C3 swaps the gold option's informative note with a distractor's and names a wrong card in the \tw{tactics:} line (relevant but misleading), and C4 transplants the tactics/KG block of another line (irrelevant). Follow-rate is the share of movable lines (the corruption favours an option d1 did not already pick) whose pick moves to the favoured option.
 
-Table~\ref{tab:conflict}: no condition moves accuracy by more than 1.2 points (all McNemar $p\ge0.27$). Removing the whole context changes 21\% of picks, but gains and losses cancel (57 vs 56 lines); poisoned notes move 4.4\% [2.1, 6.8] of movable picks. Lines whose gold option carries the informative note are easier than lines where a distractor's does (0.564 vs 0.371), but the gap persists with no notes at all (0.599 vs 0.401), so it reflects which states are easy, not d1 reading the notes. Context-aware decoding~\cite{shi2024cad}, which contrasts the scores with and without context, selects weight $a=0$ on val in every condition, and each $a>0$ lowers test accuracy on C0 by 1.7 to 2.9 points; AdaCAD's adaptive weight~\cite{wang2025adacad} averages 0.014 and changes accuracy by $-$0.1 points. The earlier (11-06) export of the lines gives the same picture (val+test pooled: C0 0.521, C1 0.522, C3 0.521). % src: CC replicate joint_tac_v2 (test tables, strata, CAD C0); CC main run joint_tac (val+test)
+Table~\ref{tab:conflict}: no condition moves accuracy by more than 1.2 points (all McNemar $p\ge0.27$). Removing the whole context changes 21\% of picks, but gains and losses cancel (57 vs 56 lines); poisoned notes move 4.4\% [2.1, 6.8] of movable picks. Lines whose gold option carries the informative note are easier than lines where a distractor's does (0.564 vs 0.371), but the gap persists with no notes at all (0.599 vs 0.401), so it reflects which states are easy, not d1 reading the notes. Context-aware decoding~\cite{shi2024cad}, which contrasts the scores with and without context, selects weight $a=0$ on val in every condition, and each $a>0$ lowers test accuracy on C0 by 1.7 to 2.9 points; AdaCAD's adaptive weight~\cite{wang2025adacad} averages 0.014 and changes accuracy by $-$0.1 points. % src: CC replicate joint_tac_v2 (test tables, strata, CAD C0)
 d1 thus avoids both failures the course warns about, adopting wrong context over its prior (ClashEval~\cite{wu2024clasheval}) and greater sensitivity to relevant-but-misleading than to irrelevant noise (RAGChecker~\cite{ru2024ragchecker}), because it barely reads its notes. One plausible reason is in the data: the notes favour the gold option on only 30\% of test lines and a distractor on 22\% (49\% have none), so discounting them costs little. The result makes d1 robust to wrong tool output and explains why retraining on \tw{KG:} lines did not help (Sec.~\ref{sec:ranker}). % src: CC replicate test note status (227 right, 167 wrong, 372 none of 766)
 
 \begin{table}[t]
@@ -450,30 +449,26 @@ hand-written rules & 0.506 & 0.509 & 0.510\\
 LightGBM, 29 features & 0.594 & \textbf{0.607} & 0.613\\
 \quad AUC & 0.632 & 0.659 & 0.672\\
 rules + LightGBM (live \emph{fast}) & 0.571 & 0.584 & 0.593\\
-\midrule
-\multicolumn{4}{@{}l}{\emph{Balanced act-head subset, $h$ = 1\,s (n = 3,221)}}\\
-d1 act head (fine-tuned LLM) & 0.558 & & \\
-LightGBM, same subset & 0.598 & & \\
 \bottomrule
 \end{tabular}
 \end{table}
 % src (Table timing): docs/data/act_gbdt_v2.md overview + apples-to-apples test table; act_head_v2.md (0.558, unchanged from v1)
 
-Table~\ref{tab:timing}: LightGBM reaches balanced accuracy 0.607 (AUC 0.659) at $h=2$\,s against 0.509 for the hand-written rules, and the live combination, in which rules override the model in four modes, sits between them (0.584). On the balanced subset used to train a d1 act head (top 8 layers, 168.9M trainable parameters), LightGBM scores 0.598 against the head's 0.558, at 0.05\,ms instead of about 70\,ms per call: a second case where the tuned simple model beats the LLM. Offline on pro states, the reactive rules act on 0.220 of moments against a pro play rate of 0.941 on those play-biased samples (balanced accuracy 0.545). % src: act_gbdt_v2.md; CMA B (act head 168.9M, ~70 ms), C4; act_policy_v2.md
+Table~\ref{tab:timing}: LightGBM reaches balanced accuracy 0.607 (AUC 0.659) at $h=2$\,s against 0.509 for the hand-written rules, and the live combination, in which rules override the model in four modes, sits between them (0.584). On the balanced subset ($h=1$\,s, n = 3,221) used to train a d1 act head (top 8 layers, 168.9M trainable parameters), LightGBM scores 0.598 against the head's 0.558, at 0.05\,ms instead of about 70\,ms per call: a second case where the tuned simple model beats the LLM. % src: act_gbdt_v2.md (apples-to-apples test table); act_head_v2.md (0.558); CMA B (act head 168.9M, ~70 ms), C4
 
 \subsection{Next card, opponent deck and knowledge editing}
 
 Opponent next-card prediction is a sequential recommendation task~\cite{kang2018sasrec,lim2026l14}. SASRec (3 seeds) reaches acc@1 0.129/0.222 on val/test and loses to a copy-frequency rule (0.207/0.243), the copy intuition of CyGNet~\cite{zhu2021cygnet,cap6938L06C}; popularity is near zero (0.000/0.002) because opponents vary, and the ceiling set by cards already seen is 0.678/0.644. The KG-based opponent-deck model recovers hidden cards with recall 0.234/0.291/0.327 after 1/2/3 seen cards, against 0.130/0.124/0.118 for popularity (leave-one-game-out, 155 games). % src: next_card_v1.md; opp_model_v1.md (BM sec. 7)
-For knowledge editing~\cite{yao2023editingsurvey,lim2026l17} we apply a synthetic +1-elixir patch to five cards in a patch-versioned fact store, the non-parametric route of SERAC~\cite{mitchell2022serac}: reliability (n=15), generalisation (n=465) and portability (n=465) are 1.000, against 0.000, 0.000 and 0.067 without the edit; locality is 1.000 on 2,500 cards and 1,500 states; versioning and rollback pass; and re-weighting cuts the share of retrieved hits that use an edited card from 0.124 to 0.002. The store is deterministic, so these scores show that the mechanism works, not that it generalises to a real balance patch~\cite{yang2025mirage}. % src: edit_eval_v2.md (identical to edit_eval_v1.md)
+For knowledge editing~\cite{yao2023editingsurvey,lim2026l17} we apply a synthetic +1-elixir patch to five cards in a patch-versioned fact store, the non-parametric route of SERAC~\cite{mitchell2022serac}: reliability, generalisation and portability are 1.000 (0.000, 0.000 and 0.067 without the edit), locality is 1.000, rollback passes, and re-weighting cuts retrieved hits that use an edited card from 0.124 to 0.002. The store is deterministic, so this shows that the mechanism works, not that it generalises to a real balance patch~\cite{yang2025mirage}. % src: edit_eval_v2.md (identical to edit_eval_v1.md)
 
 \subsection{Bot versus pro on the pros' own videos}
 
-We run the full live stack open loop on held-out (test-split) pro videos with the pro's deck and a dry-run executor, and match the bot's would-be taps to the pro's plays within $\pm$2\,s. Open loop means the bot's taps do not change the video: this measures what the bot would do in the pro's situation, not whether it would win, and its hand memory is never told that a card left the hand. Retrieval uses only train and val games; the KG answers and placement prior come from train games. The results cover 8 of the 24 usable test games so far (31\,min of video, 516 pro plays, 717 bot taps); the rest are still running. % VS_PRO_PRELIM (8, 24, 31, 516, 717); src: VP header and "Not run" list (4 games have an incomplete deck)
+We run the full live stack open loop on held-out (test-split) pro videos with the pro's deck and a dry-run executor, and match the bot's would-be taps to the pro's plays within $\pm$2\,s. Open loop means the bot's taps do not change the video: this measures what the bot would do in the pro's situation, not whether it would win, and its hand memory is never told that a card left the hand. Retrieval uses only train and val games; the KG answers and placement prior come from train games. The results cover all 24 usable test games (90\,min of video, 1,561 pro plays, 2,042 bot taps); four more have an incomplete deck. % src: VP header and "Not run" list
 
-Table~\ref{tab:vspro}. \emph{Timing:} 77.5\% of pro plays have a bot tap within 2\,s (a median 0.50\,s away), against 70.4\% for a null that shifts the bot's own taps by 20--60\,s, which matters because the bot taps more often than the pro (23.5 vs 16.9 times per minute). \emph{Choice:} the bot picks the pro's card on 16.5\% of matched pairs, against 12.6\% for a random card of its perceived hand and 20.7\% for the KG v1 counter rule where a threat exists. The ceiling explains most of the gap: the pro's card is in the bot's perceived hand on only 40.4\% of plays (52.5\% in the offline read), and the bot cannot pick a card it does not see. Missed pro plays were most often held because the engine judged that the tower handles the push (22.4\%) or the act model waited (19.0\%). % VS_PRO_PRELIM (all numbers in this paragraph); src: VP Headline, Timing, When the bot held
+Table~\ref{tab:vspro}. \emph{Timing:} 77.1\% of pro plays have a bot tap within 2\,s (a median 0.47\,s away), against 68.9\% for a null that shifts the bot's own taps by 20--60\,s, which matters because the bot taps more often than the pro (22.8 vs 17.4 times per minute) and spends more elixir (58.7 vs 33.6 per minute). \emph{Choice:} the bot picks the pro's card on 17.1\% of matched pairs, against 12.8\% for a random card of its perceived hand; where a KG threat exists it scores 19.8\% against 15.6\% for the KG v1 counter rule. The ceiling bounds the gap: the pro's card is in the bot's perceived hand on only 40.1\% of plays (53.0\% in the offline read), and the bot cannot pick a card it does not see. Missed pro plays were most often held because no card was affordable (23.0\%), the engine judged that the tower handles the push (22.7\%) or the act model waited (18.8\%). % src: VP Headline, Timing (0.47 s; elixir/min 58.72, 33.58), When the bot held
 
 \begin{table}[t]
-\caption{Bot vs pro on held-out pro videos, open loop: 8 test games, 516 pro plays. Percent; window $\pm$2\,s; 95\% CIs by game bootstrap. Null: the bot's own taps shifted by 20--60\,s. Baselines use the same plays; the placement prior is given the pro's card.} % VS_PRO_PRELIM (8, 516)
+\caption{Bot vs pro on held-out pro videos, open loop: 24 test games, 1,561 pro plays. Percent; window $\pm$2\,s; 95\% CIs by game bootstrap. Null: the bot's own taps shifted by 20--60\,s. Baselines use the same plays; the placement prior is given the pro's card.}
 \label{tab:vspro}
 \centering\scriptsize
 \setlength{\tabcolsep}{3pt}
@@ -481,60 +476,60 @@ Table~\ref{tab:vspro}. \emph{Timing:} 77.5\% of pro plays have a bot tap within 
 \toprule
 Measure & Bot [95\% CI] & Baseline\\
 \midrule
-pro plays met by a bot tap & 77.5 [73.3, 85.0] & 70.4 (null)\\ % VS_PRO_PRELIM
-bot taps met by a pro play & 74.1 [70.1, 79.4] & 66.6 (null)\\ % VS_PRO_PRELIM
-taps (bot) / plays (pro) per min & 23.5 [20.7, 27.5] & 16.9 [15.4, 18.7]\\ % VS_PRO_PRELIM
-same card, matched pairs & 16.5 [12.3, 21.2] & 12.6 (random in hand)\\ % VS_PRO_PRELIM
-same card, KG threat exists (41) & 17.1 [7.1, 29.6] & 20.7 (KG v1 counter)\\ % VS_PRO_PRELIM
-pro's card in perceived hand & 40.4 [36.3, 46.1] & 52.5 (dataset's hand)\\ % VS_PRO_PRELIM
-same lane $\mid$ same card (33) & 36.4 [20.5, 60.0] & 39.4 (placement prior)\\ % VS_PRO_PRELIM
-same key $\mid$ same card (33) & 18.2 [6.4, 36.0] & 24.2 (placement prior)\\ % VS_PRO_PRELIM
+pro plays met by a bot tap & 77.1 [71.8, 83.0] & 68.9 (null)\\
+bot taps met by a pro play & 72.6 [69.3, 76.2] & 67.9 (null)\\
+taps (bot) / plays (pro) per min & 22.8 [20.2, 25.9] & 17.4 [16.5, 18.4]\\
+same card, matched pairs & 17.1 [14.6, 20.2] & 12.8 (random in hand)\\
+same card, KG threat exists (126) & 19.8 [13.3, 26.9] & 15.6 (KG v1 counter)\\
+pro's card in perceived hand & 40.1 [37.3, 43.2] & 53.0 (dataset's hand)\\
+same lane $\mid$ same card (103) & 42.7 [31.6, 53.5] & 44.6 (placement prior)\\
+same key $\mid$ same card (103) & 26.2 [16.8, 36.0] & 29.7 (placement prior)\\
 \bottomrule
 \end{tabular}
 \end{table}
-% src (Table vspro): docs/data/vs_pro_v1.md (MAC-AQ, generated 2026-11-07T23:50:59Z, 8 games) Headline table and Timing table. VS_PRO_PRELIM: every cell, the caption counts (8, 516) and the subset sizes (41, 33).
+% src (Table vspro): docs/data/vs_pro_v1.md (MAC-AQ, generated 2026-11-08T02:31:35Z, all 24 usable test games) Headline table (every cell, subset sizes 126 and 103) and Timing table.
 
 \subsection{Live play and comparison with prior bots}
 \label{sec:live}
 
 \begin{table}[t]
-\caption{(a) Decision latency by stage, ms p50 / p95: the latest live run, and the mean over 3 repeated video dry runs ($\pm$ sd for the total; a shared Mac, so upper bounds). (b) Live record in Training Camp.}
+\caption{(a) Decision latency by stage, ms p50 / p95: the live trial session (363 decisions), and the mean over 3 repeated video dry runs ($\pm$ sd for the total; a shared Mac, so upper bounds). (b) Live record in Training Camp.}
 \label{tab:live}
 \centering\scriptsize
 \setlength{\tabcolsep}{3.5pt}
 \begin{tabular}{@{}lcc@{}}
 \toprule
-\multicolumn{3}{@{}l}{(a) Stage \hfill live run 111554 \quad dry run, 3 reps}\\
+\multicolumn{3}{@{}l}{(a) Stage \hfill trial session \quad dry run, 3 reps}\\
 \midrule
-capture & 21.2 / 32.1 & 0.8 / 4.3\\
-perception (detector, OCR, hand) & 102.4 / 230.0 & 179.2 / 234.2\\
-live state & 0.13 / 0.33 & 0.2 / 0.5\\
-trigger (rules + LightGBM) & 1.5 / 8.7 & 2.7 / 9.7\\
-candidates (engine, retrieval, KG) & 26.1 / 56.9 & 46.7 / 86.1\\
-rank (d1; 0 when one candidate) & 0.0 / 136.7 & 87.1 / 191.0\\
-execute (two clicks) & 183.3 / 188.1 & no clicks\\
-\textbf{total} & \textbf{338.9 / 571.8} & 271.7$\pm$20.1 / 455.2$\pm$41.2\\
+capture & 22.0 / 44.8 & 0.8 / 4.3\\
+perception (detector, OCR, hand) & 108.0 / 266.4 & 179.2 / 234.2\\
+live state & 0.13 / 0.31 & 0.2 / 0.5\\
+trigger (rules + LightGBM) & 1.1 / 9.2 & 2.7 / 9.7\\
+candidates (engine, retrieval, KG) & 26.8 / 57.9 & 46.7 / 86.1\\
+rank (d1; 0 when one candidate) & 0.0 / 140.9 & 87.1 / 191.0\\
+execute (two clicks) & 181.0 / 188.8 & no clicks\\
+\textbf{total} & \textbf{322.7 / 601.6} & 271.7$\pm$20.1 / 455.2$\pm$41.2\\
 \midrule
 \multicolumn{3}{@{}l}{(b) Live record}\\
 \midrule
-recorded runs 11-03 to 11-07 & \multicolumn{2}{l}{13 (12 live), 931 decisions, 746 taps}\\
-taps landed, two newest runs & \multicolumn{2}{l}{75/84, 78/95 (older run 233907: 95/100)}\\
+runs before the trial, 11-03 to 11-07 & \multicolumn{2}{l}{13 (12 live), 931 decisions, 746 taps}\\
+taps landed, two newest of them & \multicolumn{2}{l}{75/84, 78/95 (older run 233907: 95/100)}\\
 run 013441 (3 battles) & \multicolumn{2}{l}{tower taken; 3-crown loss; \textbf{win in overtime}}\\
-trial battles / wins & \multicolumn{2}{l}{\pending{TBD: 10} / \pending{TBD: k}}\\
-win rate, exact 95\% CI & \multicolumn{2}{l}{\pending{TBD: k/10 [lo, hi]}}\\
-crowns for / against per battle & \multicolumn{2}{l}{\pending{TBD: x / y}}\\
-decisions / taps per battle & \multicolumn{2}{l}{\pending{TBD: d / t}}\\
+\textbf{trial}: wins / battles, exact CI & \multicolumn{2}{l}{\textbf{0 / 10}, 95\% CI 0--30.8\%}\\
+\quad crowns for / against (10 battles) & \multicolumn{2}{l}{3 / 18; a tower taken in 3; 2 in overtime}\\
+\quad per logged battle (9 of 10) & \multicolumn{2}{l}{40.3 decisions, 27.0 taps; median 213\,s}\\
 \bottomrule
 \end{tabular}
 \end{table}
-% src (Table live): (a) live column: CMA C7 = LAT "Every recorded run" row 20261107-111554 (latency_v2.json runs[].stages, same decimals);
+% src (Table live): (a) trial-session column: LOG decisions.jsonl timings_ms, all 363 rows, nearest-rank p50 / p95 (total 322.7 / 601.6);
 %   dry-run column: LAT "Whole stack, 3 repeated dry runs" (video Z8-4VhLjrGU 60-180 s, runs/rerun/lat_{1,2,3}), mean of p50 / p95, sd for total
 %   (b) CMA C6 = BM sec. 13 (12 live runs, 931, 746) + LAT (dry run 20261105-205720); BM sec. 11 (tap_landing_20261107-013441_v2.md 75/84,
-%   tap_landing_20261107-111554_v2.md 78/95, tap_landing_233907_v1.md 95/100); STATUS 2026-11-07 night (run 013441); trials pending
+%   tap_landing_20261107-111554_v2.md 78/95, tap_landing_233907_v1.md 95/100); STATUS 2026-11-07 night (run 013441);
+%   trial rows: TRIAL (0/10, scores, crowns 3/18, 2 OT, 3 with a tower; Clopper-Pearson 0-30.8%, checked with scipy beta.ppf(0.975,1,10) = 0.3085);
+%   LOG battles.jsonl (9 TRAINING_CAMP rows: 363 decisions, 243 taps, median duration 212.6 s) and decisions.jsonl timings_ms (total 323/602)
 
-Thirteen recorded runs between 2026-11-03 and 2026-11-07 (12 live, one dry) logged 931 decisions, of which 746 sent a tap. In the latest live run (Table~\ref{tab:live}a) perception (102.4\,ms p50) and the two-click execute stage (183.3\,ms) dominate; d1 adds nothing at the median, because most decisions have a single candidate, and 136.7\,ms at p95. The 300\,ms p95 target was missed in every live run and in all three dry runs. Over all 931 decisions the total is 347/613\,ms. Isolated (200 calls), the detector takes 106\,ms on the GPU (466\,ms on the CPU), a d1 call 68/110\,ms (p50/p95), the act model 0.03\,ms, a $k{=}10$ index query 1.5\,ms exact (0.67\,ms HNSW) and candidate generation 30\,ms. % src: CMA C6, C7 (347/613); LAT (dry runs: 0 of 3 meet the target; micro-benchmarks); BM header (shared Mac)
-Taps landed on 75 of 84 (89\%) and 78 of 95 (82\%) in the two newest runs, 20261107-013441 and 20261107-111554, and on 95 of 100 in an older run, 20261106-233907; in 111554 the failures concentrate on Tesla (11 of 19 landed) and Fireball (3 of 7). In run 20261107-013441 the bot took a tower in game~1, lost game~2 by three crowns and won game~3 in overtime, its first win. % src: BM sec. 11 (tap_landing_*); tap_landing_20261107-111554_v2.md (tesla 11/19, fireball 3/7); STATUS 2026-11-07 night
-\emph{Trial.} \pending{TBD: n = 10 Training Camp battles through the launcher on the frozen code: k wins, exact 95\% CI, crowns, tap landing; one-sided Fisher test against KataCR's 1/20: p}. With ten battles, at least four wins are needed for that test to reach $p<0.05$ ($p=0.031$ at 4/10, $0.095$ at 3/10). % src: PBC sec. 5 (Fisher k=3 0.095, k=4 0.031)
+Before the trial, thirteen recorded runs between 2026-11-03 and 2026-11-07 (12 live, one dry) logged 931 decisions, of which 746 sent a tap. Their total latency is 347/613\,ms p50/p95 (339/572\,ms in run 111554). In the trial session (Table~\ref{tab:live}a) perception (108\,ms p50) and the two-click execute stage (181\,ms) dominate; d1 adds nothing at the median, because most decisions have a single candidate, and 141\,ms at p95. The 300\,ms p95 target was missed in every live run and in all three dry runs. Failed taps concentrate on Tesla (11 of 19 landed in run 111554) and Fireball (3 of 7); run 013441 brought the first win, in overtime. % src: CMA C6, C7 (347/613; 338.9/571.8 run 111554); LOG (trial session); LAT (dry runs: 0 of 3 meet the target); BM header (shared Mac); tap_landing_20261107-111554_v2.md (tesla 11/19, fireball 3/7); STATUS 2026-11-07 night
+\emph{Trial.} On 2026-11-07 ten Training Camp battles were played through the launcher (\tw{scripts/demo.sh --live}) on the frozen code (D-051), with results recorded by hand. The bot lost all ten (Table~\ref{tab:live}b): 0--1 five times (once in overtime), 0--2, 0--3, 1--2 and 1--3 twice (once in overtime), 3 crowns for and 18 against. The exact 95\% CI for its win rate is 0--30.8\%, and against KataCR's 1/20 a two-sided Fisher exact test gives $p=1.0$: no detectable difference. The session log holds 9 of the 10 battles (one battle start was missed), and the banner gate correctly refused two non-battle screens whose banner read ``2618''. % src: TRIAL (scores, Fisher p = 1.0 checked with scipy fisher_exact [[0,10],[1,19]]); LOG (decisions.jsonl timings_ms; battles.jsonl n = 2, 3 banner "2618" NOT_TRAINING_CAMP)
 
 \begin{table}[t]
 \caption{Prior Clash Royale agents and \cb{}. R = reported by the authors, M = measured by us. Protocols differ; see text.}
@@ -550,17 +545,16 @@ Perception & YOLOv8-l$\times$2 (mAP 67.4), OCR, ResNet classifiers & Claude visi
 Decision maker & offline-RL StARformer & Claude Haiku, 3 player agents & gate + engine + retrieval + KG; fine-tuned 600M LLM picks\\
 Knowledge used at inference & none (in weights) & hand-written prompts and notes & 10,923 pro states, KG v1/v2, tactics engine\\
 Training data & 105 episodes, 113,981 frames, one player vs AI & none (prompting) & 197 pro games, 33 videos\\
-Latency & 120\,ms decision + 240\,ms fusion (R) & $\sim$7\,s per agent (R) & 339 / 572\,ms p50 / p95, capture to click (M)\\
+Latency & 120\,ms decision + 240\,ms fusion (R) & $\sim$7\,s per agent (R) & 323 / 602\,ms p50 / p95, capture to click, trial session (M)\\
 Offline decision metric & none & card choice 11/25 on labelled screenshots (R) & 4-way test accuracy 0.507 (M)\\
 Opponent & built-in AI, Training Camp & human ladder & built-in AI, Training Camp\\
-Win rate vs built-in AI & 1/20 = 5\% headline; 0--10\% over 9 models (R) & not reported & \pending{TBD: k/10}; first win on 2026-11-07 (M)\\
-95\% CI & 0.1--24.9\% & -- & \pending{TBD: lo--hi}\\
+Win rate vs built-in AI, 95\% CI & 1/20 = 5\% [0.1, 24.9]; 0--10\% over 9 models (R) & none (ladder; not comparable) & trial 0/10 [0, 30.8]; one earlier win (M)\\
 \bottomrule
 \end{tabular}
 \end{table}
-% src (Table prior): PBC sec. 0, 1.2-1.4, 2.1-2.2, 4, 5 (Clopper-Pearson 1/20: 0.1-24.9%); ours CMA C7, SA sec. 1
+% src (Table prior): PBC sec. 0, 1.2-1.4, 2.1-2.2, 4, 5 (Clopper-Pearson 1/20: 0.1-24.9%); ours CMA C7, SA sec. 1; TRIAL (0/10, CI, Fisher); STATUS 2026-11-07 night (earlier win)
 
-Table~\ref{tab:prior} compares the three agents. Only KataCR and \cb{} share a ``versus built-in AI'' row, and even there protocols differ: KataCR played the 2024 game (Season 59) and today's Training Camp opponent may not be its ``8000-rated'' AI, the decks differ, and its reported row is the best of ten epochs selected on the same 20 games, an optimistic estimate. Latency definitions also differ: about 0.36\,s for KataCR if its two stages run in series (actuation excluded), 0.34\,s p50 for ours (actuation included), and about 7\,s per agent for Claude Royale. We reuse KataCR's detector and do not claim a better one. % src: PBC sec. 5, 6
+Table~\ref{tab:prior}: only KataCR and \cb{} report a win rate against the built-in AI, and even there protocols differ: KataCR played the 2024 game (Season 59) with another deck, and its 1/20 is the best of ten epochs selected on the same 20 games, an optimistic estimate. KataCR's latency excludes actuation; ours includes it. We reuse KataCR's detector and do not claim a better one. % src: PBC sec. 5, 6
 
 % ---------------------------------------------------------------------------------------------
 \section{Discussion and Limitations}
@@ -571,14 +565,16 @@ Four results are negative for the system we set out to build; each repeats a les
 \emph{Tuned simple baselines match the LLM.} LightGBM is within 2.5 points of d1 (not separable); on timing it beats a fine-tuned d1 act head (0.598 vs 0.558) at 0.05 instead of about 70\,ms; and copy-frequency beats SASRec. Well-tuned simple models often match neural ones~\cite{rendle2020ncfvsmf,lim2026l13}, and 197 games from one creator leave a 600M model little to learn beyond the priors a GBDT reads directly. % src: SA sec. 2; feature_ranker_v2.md; act_gbdt_v2.md; next_card_v1.md
 \emph{d1 does not read its context} (Sec.~\ref{sec:conflict}). ClashEval and RAGChecker study models that follow their context too readily~\cite{wu2024clasheval,ru2024ragchecker}; d1 sits at the other extreme. With the engine near chance as a ranker (4-way 0.293/0.265 val/test), the tools contribute by proposing candidates, not by writing notes~\cite{lim2026l13}. % src: CC replicate; tactics_eval_v2.md
 \emph{Mined rules approximate popularity} (Sec.~\ref{sec:kg}). The evaluation audits the course teaches~\cite{ruffinelli2020olddog,sun2020reevaluation} ask for exactly this baseline; the same habit caught the option-set leak before d1 was fine-tuned on it (D-037). % src: D-037 (2026-11-02) precedes D-039 (fine-tune go-ahead, 2026-11-03)
-\emph{Perception caps agreement with the pro.} The pro's card is in the bot's perceived hand for only 40.4\% of plays; the pro's own move is legal under our reading on only 0.542--0.597 of states; in an older parity check the live hand slots matched the dataset on 0.57 of records; and in an early live run 14 of 27 decisions were skipped because the hand read as unknown. As the ESCA lecture argues, perception errors dominate embodied-agent failures~\cite{huang2025esca,cap6938L06C}: no ranker can choose a card the bot does not see. % VS_PRO_PRELIM (40.4); src: VP headline; CMA A3 (0.542-0.597; hand slots 0.57 from live_state_parity_v1.json, stale per PBA row 18); BM sec. 13 and PBA 2.2 (14 of 27; CMA A3 says 15 of 27)
+\emph{Perception caps agreement with the pro.} The pro's card is in the bot's perceived hand for only 40.1\% of plays; the pro's own move is legal under our reading on only 0.542--0.597 of states; and in an early live run 14 of 27 decisions were skipped because the hand read as unknown. As the ESCA lecture argues, perception errors dominate embodied-agent failures~\cite{huang2025esca,cap6938L06C}: no ranker can choose a card the bot does not see. % src: VP headline (40.1); CMA A3 (0.542-0.597); BM sec. 13 and PBA 2.2 (14 of 27; CMA A3 says 15 of 27)
 
-\emph{Limitations.} d1 ranks only when two or more candidates survive (119 of 279 executed plays), and its serve-time context carries a \tw{[plan]} line that no training line contains, a train/serve mismatch we have not measured. In the latest live run about a third of match frames had no affordable card and 23 emergency plays were made at 2--6 elixir; in run 013441 the median response came 5.4\,s after the opponent's play. Every offline number rests on 26--27 held-out games (CIs about $\pm$3.5 points) from one creator, the vs-pro numbers on 8 test games so far, and three of our eight cards have no pro plays at all, so the engine and role transfer carry them. Video evaluation is open loop, the perception does not read enemy health bars (units are simulated at full HP), and a larger d1-2B fine-tune (val 0.4192) was never tested because its checkpoint failed to load. % VS_PRO_PRELIM (8); src: CMA sec. 0 (119/279, [plan]); STATUS 2026-11-07 showcase prep and night; SA sec. 1 (26/27 games); CGA sec. 7.3 E1 and PBA 2.4 (about +/-3.5 pts at n = 766); D-047 (ram-rider, electro-dragon, mini-pekka have no pro plays); STATUS MAC-AM merged (#57 full HP); CMA C4 (d1-2B 0.4192, load crash)
+\emph{Why the trial was lost (limitations and future work).} The trial log shows decisions built on bad perception, the ESCA pattern again~\cite{huang2025esca}. (1)~\emph{Tower HP.} OCR drops digits, so one tower read 4424$\leftrightarrow$424 seven times in 30\,s, and a fallen tower reads unknown, not 0, so the larger deploy area it opens was never used, although a tower fell in 3 battles. (2)~\emph{No committed target.} Counter-pushes follow the lane of the defended push, so damage is split (one battle ended with the enemy towers at 1,663 and 1,824 HP, neither taken), and after a tower fell ram riders kept taking its lane, i.e.\ went at the king. (3)~\emph{No support} troop is ever offered behind a surviving defence or a ram rider. (4)~\emph{Spell value.} Fireball is valued by elixir destroyed, not tower damage prevented, so none was proposed against a bunched Giant, Balloon and Bats push, and the Zap group rule counts tanks. (5)~\emph{Over-playing:} 27 taps per battle, 40 emergency defends at 2--5 elixir and 30 tap pairs under 1.6\,s apart; on video the bot taps 22.8 times per minute to the pro's 17.4, and ``no affordable card'' is its top reason for missing a pro play. (6)~\emph{Phantom threats:} a stationary ``Graveyard'', a card the trainer's deck lacks, triggered defences six times. All six sit in the hand-written engine and policy, the components our benchmarks rate lowest (rules 0.509 balanced accuracy on timing, the engine 0.265 as a ranker): the untuned-baseline lesson~\cite{rendle2020ncfvsmf}. d1 cannot repair them, as it ranks only when two or more candidates survive (119 of 279 executed plays) and does not read the notes. The fixes (a monotone HP filter, a per-battle target tower, pocket placements, support moves, spell value from prevented damage, an elixir budget at the pro's rate) are specified for a re-run against this 0/10 baseline. % src: BL W1 (B1 4424/424 x7, t 41-70), W3 (legal_zones needs 0), W2 (B4 1663/1824; B8 ram riders right after the right tower fell), W4, W5 (B9 giant+balloon+bats, value by elixir), W6 (group rule counts the giant), W8 (243 taps / 9 battles; 40 emergency defends 2-5 elixir), W9 (30 pairs < 1.6 s), W10 (graveyard x6, not in Trainer Cheddar's deck); VP (22.8 vs 17.4; "no affordable card" 23.0%); act_gbdt_v2.md (0.509); tactics_eval_v2.md (0.265); CMA sec. 0 (119/279)
+
+\emph{Other limitations.} d1's serve-time context carries a \tw{[plan]} line that no training line contains, a train/serve mismatch we have not measured. Every offline number rests on 26--27 held-out games (CIs about $\pm$3.5 points) from one creator, and three of our eight cards have no pro plays at all, so the engine and role transfer carry them. Video evaluation is open loop, the perception does not read enemy health bars (units are simulated at full HP), and a larger d1-2B fine-tune (val 0.4192) was never tested because its checkpoint failed to load. Trial results were recorded by hand: the end-of-battle frames missed the result screen in 5 of 9 battles. % src: CMA sec. 0 ([plan]); SA sec. 1 (26/27 games); CGA sec. 7.3 E1 and PBA 2.4 (about +/-3.5 pts at n = 766); D-047 (ram-rider, electro-dragon, mini-pekka have no pro plays); STATUS MAC-AM merged (#57 full HP); CMA C4 (d1-2B 0.4192, load crash); BL W11 (5 of 9)
 
 % ---------------------------------------------------------------------------------------------
 \section{Conclusion}
 
-\cb{} shows that a non-embedded agent can play Clash Royale live on a laptop, with knowledge-graph, retrieval and simulation tools feeding a fine-tuned LLM that keeps the final say, at 339\,ms from capture to click. It won a Training Camp battle, \pending{TBD: and k of 10 in the trial}. The benchmarks give a clear, partly negative picture: fine-tuning turned a chance-level LLM into one that picks the pro's play half the time, but tuned simple models (LightGBM, placement prior, copy-frequency) match or beat it at most sub-tasks, it does not read the notes the tools write for it, the mined rules re-encode popularity, and on held-out pro video its timing is close to the pro's while its card choice is capped by perception. Next steps: perception accuracy against labelled frames, training d1 on lines where notes and leak-free KG facts carry signal the state lines do not, and a larger live trial. Code, tests, benchmark files (\tw{docs/data/BENCHMARKS.md}) and the decision log are in the project repository. % src: CMA C7; SA sec. 1; CC; AR; VP; PBA 2.5
+\cb{} shows that a non-embedded agent can play Clash Royale live on a laptop, with knowledge-graph, retrieval and simulation tools feeding a fine-tuned LLM that keeps the final say, at 323\,ms from capture to click (trial session). It does not yet beat Training Camp reliably: it won one battle in an early session and lost all ten battles of the trial (95\% CI 0--30.8\%, no different from KataCR's 1/20), because it misreads tower HP, commits to no target tower, values spells by elixir and over-plays. The benchmarks give a partly negative picture: fine-tuning turned a chance-level LLM into one that picks the pro's play half the time, but tuned simple models match or beat it at most sub-tasks, it does not read the notes the tools write for it, the mined rules re-encode popularity, and on pro video its card choice is capped by perception. Next steps: fix those four failures and re-run the 10-battle trial with automatic result logging, measure perception against labelled frames, and train d1 on lines where notes and leak-free KG facts carry signal the state lines do not. Code, tests, benchmark files (\tw{docs/data/BENCHMARKS.md}) and the decision log are in the project repository. % src: CMA C7; SA sec. 1; CC; AR; VP; PBA 2.5; TRIAL; BL (suggested order, W11)
 
 \bibliographystyle{IEEEtran}
 \bibliography{refs}

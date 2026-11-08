@@ -189,15 +189,61 @@ Battle outcomes (win / loss / crowns) are not logged by the bot; the only wins o
 
 ## 14. Bot vs pro on video (MAC-AQ)
 
-_To be filled by Opus from the MAC-AQ output._
+These are open-loop runs of the live stack on the pro's own POV video, with the pro's deck. Source: `docs/data/vs_pro_v1.{json,md}`.
+- Coverage: 24 usable test games, 90 min of video, 1,561 pro plays, 2,042 bot taps.
+- Retrieval is filtered to the train and val splits.
+- CIs are 95%, from a bootstrap over games.
+
+| metric | bot | baseline |
+|---|---|---|
+| recall ±1 / ±2 / ±3 s | 58.9% / **77.1%** [71.8, 83.0] / 84.5% | ±2 s: 68.9% (the same taps shifted 20–60 s) |
+| precision ±2 s | 72.6% [69.3, 76.2] | |
+| same card, matched pairs (n 725) | **17.1%** [14.6, 20.2] | 12.8% [11.6, 14.1] (random card of the perceived hand) |
+| same card, pairs with a KG threat (n 126) | 19.8% [13.3, 26.9] | 15.6% [8.8, 23.1] (KG v1 counter first in hand) |
+| taps per minute | 22.8 | 17.4 (pro) |
+
+The pro's card is in the bot's perceived hand for about 40% of plays, which caps card agreement (see the md).
 
 ## 15. Rule mining / context conflict (MAC-AR)
 
-_To be filled by Opus from the MAC-AR output._
+Source: `docs/data/answer_rules_v1.{json,md}` and `docs/data/context_conflict_v1.{json,md}`, at HEAD `54243d7`.
+
+**E6: held-out mined answer rules.**
+- Setup: rules come from train events only; each event ranks the pro's own deck; 1,042 val+test events in 53 games.
+- hit@1 pooled: full rules .170 vs random .127. That is +.044 [+.020, +.068].
+- Against train popularity of the answer: −.006 [−.035, +.020], so no gain.
+- Test alone: hit@1 .154 and MRR .374, against random .128 / .345 and popularity .169 / .384.
+- Sweeping support (n ≥ 1/3/5/10) and the answer window (2/4/8 s) gives test MRR .368–.393 in every cell.
+
+**E2: context conflict, d1-ft-joint-tac on `joint_tac`, 1,527 lines.**
+
+| condition | pooled accuracy | McNemar p vs C0 | follow-rate |
+|---|---|---|---|
+| C0 as exported | .521 [.494, .548] | – | – |
+| C1 notes, tactics and KG lines removed | .522 | 1.00 | – |
+| C2 notes shuffled | .532 | .07 | 9.2% |
+| C3 poisoned | .521 | 1.00 | 2.8% |
+| C4 transplanted block | .511 | .34 | 9.1% |
+
+CAD and AdaCAD give no gain. The replicate on `joint_tac_v2` shows the same picture: C0 .527, C1 .522, C3 .522.
 
 ## 16. Live trials
 
-_To be filled by Opus from the Training Camp trials (D-050)._
+**Trial 2026-11-07** (D-052, frozen code D-051).
+- Setup: 10 Training Camp battles through `scripts/demo.sh --live`. The user recorded the results. Session log: `runs/demo/20261107-213709`, with 9 Training Camp battles logged (one battle start was missed).
+- **Wins: 0 / 10**, 95% Clopper–Pearson CI [0, 30.8%].
+- **Against KataCR's 1/20** in Training Camp: Fisher exact p = 1.0.
+- Scores (us–them): 0-1, 0-1 (OT), 0-1, 1-2, 0-2, 1-3, 1-3 (OT), 0-3, 0-1, 0-1.
+  - Crowns: 3 for, 18 against.
+  - A tower was taken in 3 battles.
+  - 2 battles went to overtime.
+- Per logged battle: 40.3 decisions and 27.0 taps; median length 213 s.
+- Decision latency (session): total p50 323 ms, p95 602 ms. Perception 108/266, candidates 27/58, rank 0/141, execute 181/189.
+- The Training Camp gate rejected two non-battle screens (banner "2618").
+
+**Earlier sessions:** one recorded win, in run 20261107-013441 (game 3, overtime).
+
+**Failure analysis:** `docs/plans/BACKLOG_post_showcase.md` (W1–W12).
 
 ## Appendix A. Re-run ledger (command, wall time, verdict)
 
