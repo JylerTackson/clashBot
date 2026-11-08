@@ -351,3 +351,22 @@ Training the LLM on the tactics context gains +1.6 / +1.4 points over the no-tac
 - **MAC-AO merged (e1168c5):** `python -m clashbot.viz [--run DIR | --follow runs/demo] --open`. A local dashboard with timeline, screenshot, candidates with d1 probabilities and sources, top-10 retrieved pro states, KG subgraph with the counters used, KG v2 and tactics lines. Decision rows now log `retrieval` (top 10) and `kg_used`, at about 0.03 ms per decision; candidates identical on 60/60 states.
 - **MAC-AN merged:** `CLASHBOT_ALLOW_LIVE=1 scripts/demo.sh --live [--dashboard]`. It prompts for deck, evos and heroes, loads (about 10 s) and prints READY. It then watches until Ctrl-C and survives a closed window. It taps only when the opponent banner reads "Trainer" (D-050): 411 of 412 shots and 5 of 5 battles read correctly; a pro video read "2866" and was watch-only. Per-battle reset audit is in the MAC-AN report.
 - **Suite after both merges:** 1 failed (#61, test isolation), 1417 passed; fix in progress.
+
+## 2026-11-07 (evening) — showcase evaluation merged: MAC-AP, MAC-AQ, MAC-AR, MAC-AS; report and deck drafts
+- **MAC-AP (32ebb77):** clean `_v2` re-runs on the frozen code (D-051), the E1 statistics audit and latency, all in `docs/data/BENCHMARKS.md`.
+  - Test results: d1-tac 0.507 [0.472, 0.540]. It beats the placement prior by +12.3 points (p < 0.001); it is not separable from LightGBM 0.482 (+2.5, p 0.26).
+  - Selective prediction: 40% coverage at 0.63 accuracy.
+  - Whole-stack latency: p50 272 ± 20 ms, p95 455 ± 41 ms over 3 runs.
+  - Tap landing in the two newest runs: 89% and 82%.
+  - One H3 attempt hung and held the heavy lock for 3.1 h (`lockf` has no FIFO ordering).
+- **MAC-AQ (1757831):** bot vs pros, open loop, 8 of 24 usable test games (516 pro plays).
+  - Timing: recall ±2 s 77.5% vs 70.4% for a shifted-tap null; precision 74.1% vs 66.6%.
+  - Same card 16.5% vs 12.6% for a random card in hand. The pro's card is in the perceived hand only 40% of the time.
+  - The bot taps 23.5 times per minute vs the pro's 16.9. The remaining games are resuming in the background.
+- **MAC-AR:**
+  - E6, mined answer rules on held-out games: hit@1 .170 vs random .127 pooled, but no gain over popularity.
+  - E2, context conflict: removing, shuffling or poisoning the notes does not change d1-tac accuracy (C0 .521, C1 .522, C3 .521). d1 barely reads its context, and CAD/AdaCAD give no gain.
+- **MAC-AS:** README for graders, QUICKSTART (about 6 min), zip builder and checker (53 MB, 1,147 files, clean), end-of-battle frames in the launcher.
+- **Report draft 1** (`docs/report/clashbot_report.tex`): tectonic compiles it to about 7.3 content pages. **Deck draft** (`docs/report/slides/clashbot_showcase.pptx`): 14 slides in UCF style; it opens in Keynote.
+- **Prior bots** (`docs/research/prior_bots_comparison.md`): KataCR won 1/20 (5%) in Training Camp; Claude Royale plays the ladder and takes about 7 s per decision.
+- **Next:** the user's ~10 Training Camp trial battles tonight (the queue pauses at 20:45), the remaining vs-pro games overnight, then a report and deck revision.
