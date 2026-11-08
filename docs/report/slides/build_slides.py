@@ -46,9 +46,9 @@ PENDING = {
     "trials_score": "n/10",
     "trials_n": "10",
     "trials_ci": "95% CI pending",
-    # bot vs pros on their own videos  <- docs/data/vs_pro_v1.json (MAC-AQ); PRELIMINARY, the file is rewritten as more games finish
+    # bot vs pros on their own videos  <- docs/data/vs_pro_v1.json (MAC-AQ); FINAL on 24 test games
     "vs_pro_games": "N",
-    "vs_pro_games_total": "all",
+    "vs_pro_plays": "N",
     "vs_pro_recall": "xx% (xx-xx)",
     "vs_pro_recall_null": "xx% (xx-xx)",
     "vs_pro_precision": "xx% (xx-xx)",
@@ -101,8 +101,24 @@ PENDING = {
 }
 # Numbers confirmed by hand (rendered black, win over PENDING, lose to data files):
 FINAL: dict[str, str] = {}
-# Training Camp trials: set wins and n when the trials are done -> "k/n (95% CI a-b%)" everywhere.
-TRIALS = {"wins": None, "n": None}
+# Training Camp trial (user-recorded, 2026-11-07, demo launcher, frozen code) -> "k/n (95% CI a-b%)" everywhere.
+TRIALS = {"wins": 0, "n": 10}
+# Per-battle scores us-them and overtime flag, in the order played (user-recorded).
+TRIAL = {
+    "date": "2026-11-07",
+    "scores": [(0, 1, False), (0, 1, True), (0, 1, False), (1, 2, False), (0, 2, False),
+               (1, 3, False), (1, 3, True), (0, 3, False), (0, 1, False), (0, 1, False)],
+    "decisions_per_battle": 40, "taps_per_battle": 27,
+    "lat_p50": 323, "lat_p95": 602,           # capture to click over the whole session (ms)
+    "earlier_wins": 1,                         # one earlier recorded win (2026-11-07, overtime)
+    "katacr": (1, 20),
+}
+TRIAL["crowns_for"] = sum(a for a, _, _ in TRIAL["scores"])
+TRIAL["crowns_against"] = sum(b for _, b, _ in TRIAL["scores"])
+TRIAL["tower_battles"] = sum(1 for a, _, _ in TRIAL["scores"] if a > 0)
+TRIAL["overtime"] = sum(1 for *_, o in TRIAL["scores"] if o)
+assert (TRIAL["crowns_for"], TRIAL["crowns_against"], TRIAL["tower_battles"], TRIAL["overtime"]) == (3, 18, 3, 2)
+assert TRIALS["n"] == len(TRIAL["scores"]) and TRIALS["wins"] == sum(1 for a, b, _ in TRIAL["scores"] if a > b)
 
 DECK_DATE = "2026-11-09"
 PRESENTER = "David Tyler Jackson"
@@ -234,15 +250,15 @@ def ci_text(v, lo, hi, nd=0) -> str:
 
 def _ex_line(ex: dict) -> tuple[str, str, str, str]:
     head = f"video {ex['game_id'].split('-m')[0]}, t = {ex['pro_t']:.0f} s"
-    pro = "pro: " + ex["pro_key"].replace("|", ", ")
-    bot = "bot: " + ex["bot_key"].replace("|", ", ")
+    pro = "pro: " + str(ex.get("pro_key") or f"{ex.get('pro_card')} (placement not read)").replace("|", ", ")
+    bot = "bot: " + str(ex.get("bot_key") or ex.get("bot_card")).replace("|", ", ")
     why = str(ex.get("reason", ""))
     mode = str(ex.get("mode", "?"))
     return head, pro, bot, "bot's reason: " + (why if why.startswith(mode) else f"{mode}: {why}")
 
 
 def load_vs_pro():
-    """docs/data/vs_pro_v1.json (aggregate.metrics.<name>.{value,ci95,n}); PRELIMINARY until all test games ran."""
+    """docs/data/vs_pro_v1.json (aggregate.metrics.<name>.{value,ci95,n}); final on 24 test games (1561 pro plays)."""
     d = jload("vs_pro_v1.json")
     if not d:
         return
@@ -250,10 +266,7 @@ def load_vs_pro():
         a = d["aggregate"]
         m = a["metrics"]
         VALUES["vs_pro_games"] = str(int(a["n_games"]))
-        skipped = d["meta"].get("skipped", [])
-        waiting = sum(1 for x in skipped if str(x.get("skip_reason", "")).startswith("not run yet"))
-        VALUES["vs_pro_games_total"] = str(int(a["n_games"]) + waiting)
-        DATA_ROWS["vs_pro_prelim"] = waiting > 0
+        VALUES["vs_pro_plays"] = f"{int(a['totals']['n_pro']):,}"
         for key, mk in (("vs_pro_recall", "recall_2s"), ("vs_pro_recall_null", "null_recall_2s"),
                         ("vs_pro_precision", "precision_2s"), ("vs_pro_precision_null", "null_precision_2s"),
                         ("vs_pro_card_bot", "same_card")):
@@ -269,7 +282,8 @@ def load_vs_pro():
         VALUES["vs_pro_ceiling_ci"] = f"{100 * c['ci95'][0]:.0f}-{100 * c['ci95'][1]:.0f}%"
         exs = d.get("examples", [])
         for verdict in ("agree", "disagree"):
-            pick = next((e for e in exs if e.get("verdict") == verdict), None)
+            ofv = [e for e in exs if e.get("verdict") == verdict]
+            pick = next((e for e in ofv if e.get("pro_key") and e.get("bot_key")), ofv[0] if ofv else None)
             if pick is None:
                 warn(f"vs_pro_v1.json: no '{verdict}' example")
                 continue
@@ -438,13 +452,32 @@ def clopper_pearson(k: int, n: int, alpha: float = 0.05) -> tuple[float, float]:
     return lo, hi
 
 
+def _pc1(x: float) -> str:
+    return f"{100 * x:.1f}".rstrip("0").rstrip(".")
+
+
+def trials_ci_text() -> str:
+    lo, hi = clopper_pearson(int(TRIALS["wins"]), int(TRIALS["n"]))
+    return f"95% CI {_pc1(lo)}-{_pc1(hi)}%"
+
+
 def trials_text() -> tuple[str, bool]:
     """('k/n (95% CI a-b%)', pending?)"""
     k, n = TRIALS["wins"], TRIALS["n"]
     if k is None or n is None:
         return PENDING["trials_score"], True
-    lo, hi = clopper_pearson(int(k), int(n))
-    return f"{k}/{n} (95% CI {100 * lo:.0f}-{100 * hi:.0f}%)", False
+    return f"{k}/{n} ({trials_ci_text()})", False
+
+
+def fisher_two_sided(a: int, b: int, c: int, d: int) -> float:
+    """Two-sided Fisher exact test on [[a, b], [c, d]] (a, c = wins; b, d = losses)."""
+    n, r1, c1 = a + b + c + d, a + b, a + c
+
+    def pr(x):
+        return math.comb(r1, x) * math.comb(n - r1, c1 - x) / math.comb(n, c1)
+
+    p0 = pr(a)
+    return min(1.0, sum(pr(x) for x in range(max(0, c1 - (n - r1)), min(r1, c1) + 1) if pr(x) <= p0 * (1 + 1e-9)))
 
 
 def resolve(key: str) -> tuple[str, bool]:
@@ -455,8 +488,7 @@ def resolve(key: str) -> tuple[str, bool]:
         txt, pend = (str(TRIALS["n"]), False) if TRIALS["n"] is not None else (PENDING["trials_n"], True)
     elif key == "trials_ci":
         if TRIALS["wins"] is not None and TRIALS["n"] is not None:
-            lo, hi = clopper_pearson(int(TRIALS["wins"]), int(TRIALS["n"]))
-            txt, pend = f"95% CI {100 * lo:.0f}-{100 * hi:.0f}%", False
+            txt, pend = trials_ci_text(), False
         else:
             txt, pend = PENDING[key], True
     elif key in VALUES:
@@ -517,7 +549,7 @@ def _peek(key: str) -> str:
     if key == "trials_n":
         return str(TRIALS["n"]) if TRIALS["n"] is not None else PENDING["trials_n"]
     if key == "trials_ci":
-        return PENDING[key] if TRIALS["wins"] is None else "95% CI 00-00%"
+        return PENDING[key] if TRIALS["wins"] is None else trials_ci_text()
     return VALUES.get(key) or FINAL.get(key) or PENDING.get(key, "?")
 
 
@@ -1173,7 +1205,7 @@ SCRIPT: dict[int, tuple[int, str]] = {
             "where a simple baseline matches the LLM, and a short demo."),
     2: (60, "The setting is deliberately hard. There is no game API: the iPhone is mirrored to a Mac, the bot sees only that "
             "window and acts only by clicking in it. A match is three minutes, elixir regenerates all the time, every play is "
-            "irreversible, so decisions must come in well under a second; we are at 0.34 seconds median from frame to click. "
+            "irreversible, so decisions must come in well under a second; we are at 0.32 seconds median from frame to click. "
             "Perception is noisy: greyed cards read as unknown, and our live state agrees with the dataset builder at a feature "
             "cosine of only 0.67. The opponent's deck and hand are hidden, so we need prior knowledge, and that is where 197 "
             "pro games come in. A general LLM does not have that knowledge: the d1 model scores <<d1_zs>> on a four-way pick, below "
@@ -1236,40 +1268,42 @@ SCRIPT: dict[int, tuple[int, str]] = {
           "test: I corrupt the notes in d1's context, test split. Accuracy stays between <<cc_min>> and <<cc_max>> in "
           "every condition, and d1 follows a poisoned note only <<cc_c3_follow>> of the time. The fine-tuned d1 barely "
           "reads its context: wrong notes do not hurt, and right ones add little."),
-    9: (60, "To measure decisions without playing, I run the full live stack on test-split pro videos, open loop: "
-          "<<vs_pro_games>> of <<vs_pro_games_total>> games so far, so these numbers are preliminary. Bot taps are "
-          "matched to pro plays within two seconds. Timing: <<vs_pro_recall>> of pro plays have a bot tap nearby, and "
-          "<<vs_pro_precision>> of bot taps have a pro play nearby. Read that against the null, the same taps shifted "
-          "twenty to sixty seconds: <<vs_pro_recall_null>> and <<vs_pro_precision_null>>. The bot simply taps more, "
-          "<<vs_pro_taps_bot>> against <<vs_pro_taps_pro>> a minute. Choice: same card as the pro <<vs_pro_card_bot>>, "
-          "against <<vs_pro_card_random>> for a random card from its perceived hand. The ceiling explains why: the "
-          "pro's card is in the perceived hand only <<vs_pro_ceiling>> of the time. Left, an agreement; right, the bot "
-          "defends with another card. Open loop and hidden information: this is agreement, not quality."),
-    10: (60, "Live results, Training Camp. The latency chart is three repeated dry runs on one pro video, mean and "
-          "standard deviation: perception is the biggest stage, then the d1 ranker. The decision totals "
-          "<<lat_total_p50>> milliseconds median and <<lat_total_p95>> at the 95th percentile, so the 300 millisecond "
-          "p95 target is missed in all three runs. Dry runs do not click; live, the two clicks add 183 milliseconds, "
-          "and capture to click was 339 median, 572 at the 95th. Taps land mostly, not perfectly: <<tap_runs>> in the "
-          "two newest live runs, failures concentrate on Tesla and fireball; an older run landed <<tap_old>>. Trial "
-          "results: [Training Camp record from the red tile]. The first win came in overtime in game three of one run; "
-          "with ten games the 95 percent interval is very wide, so I will not call it a win rate."),
-    11: (50, "Two prior systems. KataCR, Wu et al., is an offline-RL transformer imitating one human, reporting five percent, "
-             "1 of 20, against the built-in AI for its headline model and zero to ten percent across nine models; "
-             "we reuse its detector weights. Claude Royale is a Claude agent that plays screenshots through a vision model on "
-             "the ladder, about seven seconds per decision and no built-in-AI win rate. Ours differs by design: it carries "
-             "a pro-play database, a knowledge graph and a simulation engine, and takes 0.34 seconds. The protocols differ in "
-             "deck, opponent version and sample size, so read the win-rate row as context, not as a benchmark."),
+    9: (55, "To measure decisions without playing, I run the full live stack on <<vs_pro_games>> test-split pro games, open loop: "
+          "<<vs_pro_plays>> pro plays in all. Bot taps are matched to pro plays within two seconds. Timing: <<vs_pro_recall>> "
+          "of pro plays have a bot tap nearby, and <<vs_pro_precision>> of bot taps have a pro play nearby. Read that "
+          "against the null, the same taps shifted twenty to sixty seconds: <<vs_pro_recall_null>> and "
+          "<<vs_pro_precision_null>>. The bot simply taps more, <<vs_pro_taps_bot>> against <<vs_pro_taps_pro>> a minute. "
+          "Choice: same card as the pro <<vs_pro_card_bot>>, against <<vs_pro_card_random>> for a random card from its "
+          "perceived hand; the pro's card is in that hand only <<vs_pro_ceiling>> of the time. Open loop and hidden "
+          "information: this is agreement, not quality."),
+    10: (60, "Live results, Training Camp, 7 November, demo launcher, code frozen. Zero wins in ten battles, recorded by "
+           "hand. Scores, us against them: 0-1, 0-1 in overtime, 0-1, 1-2, 0-2, 1-3, 1-3 in overtime, 0-3, 0-1, 0-1. "
+           "Crowns: three for, eighteen against; a tower taken in three battles, two overtimes. The 95 percent interval "
+           "for zero of ten is zero to 30.8 percent: the bot is not good yet, and ten battles cannot say how bad. One "
+           "earlier win was recorded, in overtime. Per battle, 40 decisions and 27 taps. The loop itself holds up: 323 "
+           "milliseconds median and 602 at the 95th percentile from capture to click. The chart is three dry runs; "
+           "perception is the biggest stage and the 300 millisecond p95 target is missed in all three. Taps landed "
+           "<<tap_runs>> in the two newest runs."),
+    11: (45, "Two prior systems. KataCR, Wu et al., is an offline-RL transformer imitating one human; its headline model "
+             "won 1 of 20 against the built-in AI, and nine models range from zero to ten percent. We reuse its detector "
+             "weights. Claude Royale is a Claude agent reading screenshots on the ladder, about seven seconds per decision, "
+             "with no built-in-AI win rate. Ours adds a pro-play database, a knowledge graph and a simulation engine, and "
+             "takes 0.32 seconds. Our 0 of 10 against KataCR's 1 of 20 gives a Fisher p of 1.0: no detectable "
+             "difference, and with samples this small none could show. Decks and opponent versions differ, so this is "
+             "context, not a benchmark."),
     12: (100, "[Play the 60-second demo clip or switch to the live screen share.] While it plays, point at the dashboard "
               "numbers. One: the ten pro states most like this situation. Two: up to four candidate plays with d1's probability "
               "as the bar, here 88 against 12 percent. Three: the reason, from the tactics engine, here that a Tesla pull "
               "to the centre saves about 500 tower hit points. Four: the knowledge graph, the counters the candidate "
               "generator used and the facts given to d1. If anything breaks live, the recorded clip is the fallback."),
-    13: (40, "What worked: knowledge plus fine-tuning moved a chance-level LLM to about <<d1_tac>>, and the guarded executor lands "
-             "most of its taps. What I would be honest about: simple baselines match the LLM; perception noise caps everything, the pro's "
-             "own move passes our legality check only 54 to 60 percent of the time and the hand is fully read in about a third "
-             "of moments; and n is small, wins are counted in tens. Next: elixir management, since in the last run about a "
-             "third of match frames had no affordable card; retrain with the KG-leak fixed; more Training Camp games with "
-             "intervals. Thank you; questions."),
+    13: (50, "Why does it lose? The trial and its logs give six reasons. Tower hit points flicker, so there is no committed "
+             "target tower: damage is split between lanes, and ram riders followed a fallen tower's lane on to the king. "
+             "The bigger deploy area after a tower falls is never used, because a destroyed tower never reads as zero. "
+             "There is no support behind counter-pushes. Fireball is valued by elixir destroyed, not damage prevented, "
+             "and zap counts tanks as a group. And the bot over-plays: 27 taps a battle, 40 emergency defends at two to "
+             "five elixir. Next: fixes W1 to W6 from the backlog, then re-run the ten-battle trial with automatic result "
+             "logging. The system and the measurement are the contribution; the trial shows where it fails. Thank you; "
+             "questions."),
     14: (0, "Backup: concept map from the course to the system, with the numbers. Not presented."),
 }
 assert sum(v[0] for v in SCRIPT.values()) == 840
@@ -1333,7 +1367,7 @@ def slide_problem(prs, n):
     s = new_slide(prs, n, "The problem: real-time play from pixels", SCRIPT[n][1])
     text(s, 0.5, 1.35, 6.9, 5.2, [
         {"t": "**Non-embedded.** No game API: the only input is a mirrored iPhone screen, the only output is a mouse click.", "bullet": True, "after": 9},
-        {"t": "**Real time.** 3-minute match, elixir regenerates, every play is irreversible: frame to click in 0.34 s (p50).", "bullet": True, "after": 9},
+        {"t": "**Real time.** 3-minute match, elixir regenerates, every play is irreversible: frame to click in 0.32 s (p50).", "bullet": True, "after": 9},
         {"t": "**Noisy perception.** Greyed hand cards read as unknown; live state vs dataset builder: feature cosine 0.67.", "bullet": True, "after": 9},
         {"t": "**Hidden information.** The opponent's deck and hand are unknown: fill the gap with 197 pro games.", "bullet": True, "after": 9},
         {"t": f"**LLM alone is not enough.** Zero-shot d1 scores {NUM['d1_zs']} on a 4-way pick (chance 0.25).", "bullet": True, "after": 0},
@@ -1383,7 +1417,7 @@ def slide_system(prs, n):
     tag = box(s, 0.5, 1.26, 5.6, 0.34, fill=BLACK, name="Fast loop tag")
     text(s, 0.5, 1.26, 5.6, 0.34, [{"t": "FAST LOOP  |  every frame, ~10 fps", "size": 14, "bold": True, "color": GOLD, "after": 0}],
          anchor=MSO_ANCHOR.MIDDLE, inset=(0.12, 0.02), name="Fast loop label")
-    text(s, 6.3, 1.26, 6.5, 0.34, [{"t": "capture to click: 339 ms p50, 572 ms p95", "size": 14, "color": GRAY, "after": 0}],
+    text(s, 6.3, 1.26, 6.5, 0.34, [{"t": f"capture to click: {TRIAL['lat_p50']} ms p50, {TRIAL['lat_p95']} ms p95 (live trial)", "size": 14, "color": GRAY, "after": 0}],
          anchor=MSO_ANCHOR.MIDDLE, align=PP_ALIGN.RIGHT, name="Fast loop latency")
     node(xs[0], y1, bw, h1, "Capture", "iPhone Mirroring window, Quartz grab", "gray")
     node(xs[1], y1, bw, h1, "Perception", "YOLOv8 x2 (KataCR), OCR, Kalman tracker", "gray")
@@ -1552,8 +1586,7 @@ def slide_agents(prs, n, edit, charts):
 
 def slide_vs_pro(prs, n):
     s = new_slide(prs, n, "Bot vs pros on their own videos", SCRIPT[n][1])
-    prelim = DATA_ROWS.get("vs_pro_prelim", True)
-    games = "{p:vs_pro_games} of {p:vs_pro_games_total} test games, preliminary" if prelim else "{p:vs_pro_games} test games"
+    games = "{p:vs_pro_games} test games"
     steps = [("Pro video", games), ("Full live stack", "open loop, dry-run executor"),
              ("Match by time", "bot tap vs pro play, +/- 2 s"), ("Score", "timing + choice, vs baselines")]
     bw, gap = 2.85, 0.32
@@ -1595,17 +1628,30 @@ def slide_live(prs, n, lat_rows, lat_note, lat_final, lat_x, charts):
     picture(s, charts["latency"], 0.5, 1.62, w=7.2, name="Chart latency")
     caption(s, 0.5, 1.28, 7.2, "Decision latency by stage (" + ("3 dry runs, mean \u00b1 sd" if lat_final else f"run {LIVE_RUN}") + ")", bold=True, color=INK)
     tot = [r for r in lat_rows if r[0] == "total"][0]
-    x, w, th = 8.0, 4.85, 1.12
-    tile(s, x, 1.4, w, th, "{p:trials_score}", "Training Camp games won ({p:trials_ci})", big_size=28, name="Tile trials")
-    tile(s, x, 1.4 + (th + 0.12), w, th, "First win", "game 3 of run 20261107-013441, in overtime", big_size=28, name="Tile first win")
-    tile(s, x, 1.4 + 2 * (th + 0.12), w, th, "{p:tap_runs}", "taps landed in the two newest live runs" + (f" (older run: {DATA_ROWS['tap_old'][1]}/{DATA_ROWS['tap_old'][2]})" if "tap_old" in DATA_ROWS else ""),
-         big_size=22, name="Tile taps")
-    tile(s, x, 1.4 + 3 * (th + 0.12), w, th, f"{lat_x['live_p50']:.0f} / {lat_x['live_p95']:.0f} ms", f"live run {LIVE_RUN}: capture to click, p50 / p95 (183 ms = 2 clicks)",
-         big_size=28, name="Tile latency")
+    x, w, th, gap = 8.0, 4.85, 1.05, 0.1
+    y = 1.3
+    tile(s, x, y, w, th, "{p:trials_score}", "battles won, demo launcher, frozen code; one earlier win (overtime)", big_size=24, name="Tile trials")
+    y += th + gap
+    # per-battle scores (us-them), gold = we took a tower
+    caption(s, x, y - 0.02, w, "Scores us-them; OT = overtime; gold = took a tower", size=14, color=GRAY)
+    cw_, cg_ = (w - 4 * 0.07) / 5, 0.07
+    for i, (a, b, ot) in enumerate(TRIAL["scores"]):
+        cx = x + (i % 5) * (cw_ + cg_)
+        cy = y + 0.34 + (i // 5) * 0.52
+        cell = box(s, cx, cy, cw_, 0.46, fill=(GOLD if a > 0 else LIGHT), line=BLACK, lw=1.0, name=f"Score {i + 1}")
+        text(s, 0, 0, 0, 0, [{"t": f"{a}-{b}" + (" OT" if ot else ""), "size": 16, "bold": True, "after": 0}], align=PP_ALIGN.CENTER,
+             anchor=MSO_ANCHOR.MIDDLE, shape=cell, inset=(0.03, 0.02))
+    y += 0.34 + 2 * 0.52 + 0.02
+    tile(s, x, y, w, th, f"{TRIAL['crowns_for']} for / {TRIAL['crowns_against']} against",
+         f"crowns; a tower taken in {TRIAL['tower_battles']} of {TRIALS['n']} battles, {TRIAL['overtime']} went to overtime", big_size=24, name="Tile crowns")
+    y += th + gap
+    tile(s, x, y, w, th, f"{TRIAL['lat_p50']} / {TRIAL['lat_p95']} ms",
+         f"capture to click, p50 / p95, whole session; per battle {TRIAL['decisions_per_battle']} decisions, {TRIAL['taps_per_battle']} taps",
+         big_size=24, name="Tile latency")
     if not lat_final:
         text(s, 0.5, 6.1, 7.2, 0.5, [{"t": "{p:latency_note}", "size": 14, "after": 0}], name="Latency note")
     else:
-        text(s, 0.5, 6.1, 7.2, 0.5, [{"t": f"Total {tot[1]:.0f} \u00b1 {tot[3]:.0f} / {tot[2]:.0f} \u00b1 {tot[4]:.0f} ms (p50 / p95, no clicks); p95 target 300 ms met in {lat_x['target_met']} of {lat_x['n_runs']} runs.",
+        text(s, 0.5, 6.08, 7.2, 0.54, [{"t": f"Dry runs: total {tot[1]:.0f} \u00b1 {tot[3]:.0f} / {tot[2]:.0f} \u00b1 {tot[4]:.0f} ms (p50 / p95, no clicks); p95 target 300 ms met in {lat_x['target_met']} of {lat_x['n_runs']} runs. Taps landed {{p:tap_rates}} in the two newest runs.",
                                       "size": 14, "color": GRAY, "after": 0}], name="Latency note")
     return s
 
@@ -1617,12 +1663,12 @@ def slide_compare(prs, n):
         ["Setting", "phone video + ADB taps; Training Camp built-in AI", "BlueStacks on a Mac; ladder vs humans", "iPhone Mirroring on a Mac; Training Camp only"],
         ["Perception", "YOLOv8-l x2 (mAP 67.4), OCR, ResNets", "Claude vision reads screenshots", "same KataCR YOLOv8 weights, OCR, Kalman tracker"],
         ["Decision", "offline-RL transformer imitating 1 human", "Claude Haiku + hand-written prompts", "rules + LightGBM gate, engine, KG, retrieval, d1 picks 1 of 4"],
-        ["Latency", "120 ms decide + 240 ms fusion", "~7 s per agent", "339 ms p50 / 572 ms p95, capture to click"],
-        ["Win rate vs built-in AI", "5% (1/20); 0-10% over 9 models", "not reported (plays humans)", "{p:trials_score} (n = {p:trials_n}); one win in game 3 of one run"],
+        ["Latency", "120 ms decide + 240 ms fusion", "~7 s per agent", f"{TRIAL['lat_p50']} ms p50 / {TRIAL['lat_p95']} ms p95, capture to click"],
+        ["Win rate vs built-in AI", "5% (1/20); 0-10% over 9 models", "not reported (plays humans)", "{p:trials_score}; one earlier win (overtime)"],
     ]
     _, bot = table(s, 0.5, 1.4, [2.15, 3.35, 3.35, 3.5], rows, size=16, row_min=0.6, name="Comparison table", first_col_bold=True, hl_rows=(5,))
     text(s, 0.5, bot + 0.18, 12.35, 6.65 - bot - 0.18, [
-        {"t": "KataCR 1/20 has a 95% CI of 0.1-24.9%. Decks, opponent versions and n differ: read win rates as context, not a benchmark.", "size": 14, "color": GRAY, "after": 0},
+        {"t": f"KataCR 1/20 has a 95% CI of 0.1-24.9%. Ours {TRIALS['wins']}/{TRIALS['n']} vs 1/20: Fisher exact p = {fisher_two_sided(TRIALS['wins'], TRIALS['n'] - TRIALS['wins'], *TRIAL['katacr'][:1], TRIAL['katacr'][1] - TRIAL['katacr'][0]):.1f}, no detectable difference. Decks, opponent versions and n differ: read win rates as context, not a benchmark.", "size": 14, "color": GRAY, "after": 0},
     ], name="Comparison footnote")
     return s
 
@@ -1670,29 +1716,27 @@ def slide_demo(prs, n, crops):
 
 
 def slide_lessons(prs, n):
-    s = new_slide(prs, n, "Lessons, limitations, future work", SCRIPT[n][1])
-    cols = [
-        ("What worked", GOLD, BLACK, [
-            f"Knowledge + fine-tuning lift a chance-level LLM ({NUM['d1_zs']}) to {NUM['d1_tac']} on pick-the-pro-move.",
-            "A separate, guarded executor: taps landed {p:tap_runs} in the two newest runs; first Training Camp win in overtime."]),
-        ("What to be honest about", BLACK, GOLD, [
-            f"Simple baselines match the LLM: tuned LightGBM {NUM['lgbm']} vs d1 {NUM['d1_tac']}, inside the noise (n = 766).",
-            "Perception caps everything (pros' own move passes our legality check only 54-60%); n is small, wins are counted in tens."]),
-        ("Next", LIGHT, BLACK, [
-            "Elixir management: no affordable card on ~1/3 of match frames in the last run; save for the answer.",
-            "Retrain with the KG-lines leak fixed, own detector, 10+ Training Camp games with intervals."]),
+    s = new_slide(prs, n, "Why the bot loses, and what is next", SCRIPT[n][1])
+    rows = [
+        ("W1-2", "**No committed target tower.** Tower HP reads flicker (4424 to 424 and back), so damage is split between lanes and ram riders follow a fallen tower's lane on to the king."),
+        ("W3", "**The bigger deploy area is never used.** It opens when a princess tower reads exactly 0; perception never reports 0, so the pocket is never legal."),
+        ("W4", "**No support behind counter-pushes.** The win condition goes alone and dies to a witch: no musketeer behind it, no knight in front as a shield."),
+        ("W5", "**Fireball is valued by elixir, not by damage prevented.** A giant + balloon + bats push counts 3.3 elixir against a 5-elixir spell, so no fireball was proposed."),
+        ("W6", "**Zap counts tanks as group members.** It is cast on a giant plus 1-2 bats; it should need 3-4 troops it really hurts."),
+        ("W8", f"**Over-playing.** {TRIAL['taps_per_battle']} taps per battle, 40 emergency defends at 2-5 elixir, and {{p:vs_pro_taps_bot}} vs {{p:vs_pro_taps_pro}} taps per minute against the pro."),
     ]
-    cw, gap = 4.0, 0.175
-    for i, (hd, hfill, hcol, bl) in enumerate(cols):
-        x = 0.5 + i * (cw + gap)
-        box(s, x, 1.4, cw, 0.6, fill=hfill, line=BLACK, lw=1.5, name=f"Lessons head {i + 1}")
-        text(s, x, 1.4, cw, 0.6, [{"t": hd, "size": 18, "bold": True, "color": hcol, "after": 0}], anchor=MSO_ANCHOR.MIDDLE,
-             inset=(0.15, 0.03), name=f"Lessons title {i + 1}")
-        box(s, x, 2.0, cw, 3.45, fill=WHITE, line=BLACK, lw=1.5, name=f"Lessons card {i + 1}")
-        text(s, x + 0.05, 2.1, cw - 0.1, 3.3, [{"t": b, "size": 18, "bullet": True, "after": 12} for b in bl], name=f"Lessons text {i + 1}",
-             inset=(0.12, 0.05))
-    bn = box(s, 0.5, 5.75, 12.35, 0.85, fill=BLACK, name="Takeaway banner")
-    text(s, 0, 0, 0, 0, [{"t": "Take-away: knowledge made a chance-level LLM useful; honest baselines show how much of the gain is the LLM.",
+    rh, y0, tw = 0.74, 1.35, 0.95
+    for i, (tag, t) in enumerate(rows):
+        y = y0 + i * rh
+        tb = box(s, 0.5, y, tw, rh - 0.08, fill=GOLD, line=BLACK, lw=1.5, name=f"Reason tag {i + 1}")
+        text(s, 0, 0, 0, 0, [{"t": tag, "size": 16, "bold": True, "after": 0}], align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE,
+             shape=tb, inset=(0.03, 0.02))
+        box(s, 0.5 + tw, y, 12.35 - tw, rh - 0.08, fill=WHITE, line=BLACK, lw=1.5, name=f"Reason card {i + 1}")
+        text(s, 0.5 + tw + 0.05, y, 12.35 - tw - 0.1, rh - 0.08, [{"t": t, "size": 16, "after": 0}], anchor=MSO_ANCHOR.MIDDLE,
+             inset=(0.1, 0.03), name=f"Reason text {i + 1}")
+    by = y0 + len(rows) * rh + 0.08
+    bn = box(s, 0.5, by, 12.35, 6.6 - by, fill=BLACK, name="Next banner")
+    text(s, 0, 0, 0, 0, [{"t": "next: W1\u2013W6, then re-run the 10-battle trial with automatic result logging",
                           "size": 18, "bold": True, "color": GOLD, "after": 0}], anchor=MSO_ANCHOR.MIDDLE, shape=bn, inset=(0.2, 0.05))
     return s
 
@@ -1801,7 +1845,7 @@ def write_notes(used_slides: dict[str, set[int]], stats_found: bool, lat_final: 
     L.append("| # | slide | time | cumulative |\n|---|---|---|---|")
     titles = {1: "Title", 2: "The problem", 3: "System overview", 4: "Data and knowledge", 5: "Retrieval (L8-10)",
               6: "Knowledge graph and rules (L5-7)", 7: "The ranker (L11-14)", 8: "Agents (L15-18)", 9: "Bot vs pros on videos",
-              10: "Live results", 11: "Comparison with prior bots", 12: "Demo (clip or screen share)", 13: "Lessons and future work",
+              10: "Live results", 11: "Comparison with prior bots", 12: "Demo (clip or screen share)", 13: "Why it loses, and what is next",
               14: "Backup: concept map (not presented)"}
     cum = 0
     for n_, (sec, _) in SCRIPT.items():
@@ -1835,13 +1879,14 @@ def write_notes(used_slides: dict[str, set[int]], stats_found: bool, lat_final: 
              "`load_stats_audit`, `latency_stages`) read exact JSON paths / markdown lines from `docs/data/`; if a file changes shape the "
              "loader prints a WARNING and the number stays red. Re-run `build_slides.py` after `vs_pro_v1.json` is rewritten: the games "
              "count, every number in the slide-9 table, the two example boxes and the script text follow the file.\n")
-    L.append("Where the numbers on slides 6-10 come from:\n\n"
+    L.append("Where the numbers on slides 6-11 come from:\n\n"
              "| slide | numbers | file |\n|---|---|---|\n"
              "| 6 | held-out mined-rule hit@1 (test, val+test) vs random vs popularity | `answer_rules_v1.json` (`headline.splits.*.methods`, `.paired`) |\n"
              "| 7 | ranker accuracy and 95% CI whiskers; d1+tactics vs LightGBM p, vs placement prior | `stats_audit_v1.json` (`accuracy.test`, `paired.test`) |\n"
              "| 8 | context-conflict accuracy C0-C4 (test) and follow rate | `context_conflict_v1.json` (`splits.test`) |\n"
-             "| 9 | recall / precision +-2 s vs shifted null, same card vs random hand, taps per minute, ceiling, examples | `vs_pro_v1.json` (`aggregate.metrics`, `examples`); PRELIMINARY while games are still running |\n"
-             "| 10 | per-stage latency, mean +- sd of p50 / p95 over 3 dry runs; live-run total; tap landing | `latency_v2.json` (`h6.stages`, `runs`), `tap_landing_*_v2.md` |\n")
+             "| 9 | recall / precision +-2 s vs shifted null, same card vs random hand, taps per minute, ceiling, examples | `vs_pro_v1.json` (`aggregate.metrics`, `examples`); final on 24 test games |\n"
+             "| 10 | per-stage latency, mean +- sd of p50 / p95 over 3 dry runs; tap landing | `latency_v2.json` (`h6.stages`), `tap_landing_*_v2.md` |\n"
+             "| 10-11 | Training Camp trial 2026-11-07 (demo launcher, frozen code): wins, scores, crowns, overtime, decisions and taps per battle, session latency p50 / p95; Clopper-Pearson CI; Fisher exact vs KataCR 1/20 | `TRIALS` / `TRIAL` in `build_slides.py` (user-recorded; session log `runs/demo/20261107-213709`) |\n")
     L.append("Status at build time: " + ("stats_audit_v1.json FOUND (CIs on the chart)" if stats_found else "stats_audit_v1.json not found (chart without CIs, red note)")
              + "; latency_v2.json " + ("FOUND (3-run mean +- sd chart)" if lat_final else "not found (chart uses run 20261107-111554 summary.json)") + ".\n")
     L.append("## Logos\n")

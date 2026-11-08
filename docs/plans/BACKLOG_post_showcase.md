@@ -107,7 +107,7 @@ The other games map in order with one gap. B1, B4, B5, B6, B7 and B10 are games 
 - The trial had 243 taps in 9 battles: 27 per battle, 40 decisions per battle.
 - 40 emergency defends at 2–5 elixir.
 - Tesla was played 43 times (18% of taps); knight 56.
-- Bot vs pro on video: the bot taps 23.5 times per minute vs the pro's 16.9, and spends 59 elixir per minute vs 33 (`docs/data/vs_pro_v1.md`).
+- Bot vs pro on video (24 test games): the bot taps 22.8 times per minute vs the pro's 17.4 (`docs/data/vs_pro_v1.md`).
 
 **Fix.** An elixir budget per minute, set from the pro rate. Tesla only against a building-targeter that will cross, or with spare elixir. The "act model p below threshold" holds should be trusted more.
 
