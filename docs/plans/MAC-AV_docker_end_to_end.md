@@ -78,3 +78,33 @@ Rules:
 - Image size, build times (arm64 / amd64), run time and decisions.
 - What the grader sees.
 - Deviations.
+
+## Amendment 1 (user, 2026-11-09 ~01:30): d1 from Hugging Face at build time; a native live path for a Mac grader
+**User:**
+- *"we will host it on my hugging face account … just make it part of the build to use the weights so when he builds the images he also downloads the weights."*
+- *"In the case that they do have a mac and the game downloaded ready to test we also need to make sure we are giving them the option to play the game live on the agent."*
+
+**d1 weights.** Public repo `Jyler/clashbot-d1-ft-joint-tac`, pinned revision `5b984f0cce7c6db6e8a768cc0df2d6836022a3e2`, fp16 safetensors, 1.17 GB. It holds the code files, tokenizer, LFM license and model card. It picks the same option as the fp32 original on 100 of 100 check lines.
+- In the Dockerfile, download it at **build time** into `/app/artifacts/d1-ft-joint-tac`:
+  ```
+  RUN python -c "from huggingface_hub import snapshot_download; snapshot_download('Jyler/clashbot-d1-ft-joint-tac', revision='5b984f0cce7c6db6e8a768cc0df2d6836022a3e2', local_dir='/app/artifacts/d1-ft-joint-tac')"
+  ```
+  Do it in its own layer, after the deps and before the code, so code edits don't re-download it. No token is needed. Keep `HF_HUB_OFFLINE=1` for runtime only, set after this layer.
+- Drop the `--with-d1` zip variant: the zip never contains d1.
+- Keep the tactics fallback only for a failed download, with the banner.
+
+**Native live path (macOS + iPhone Mirroring + Clash Royale).** Docker cannot reach the macOS window server, so add `scripts/setup_mac.sh` to the zip. It must be idempotent and must not touch any existing `.venv` unless asked. It:
+1. Checks for macOS on Apple Silicon or Intel, and Python 3.12.
+2. Creates `.venv` in the unzipped folder and installs `requirements-mac.txt`.
+3. Downloads d1 from the same HF revision into `db/models/d1-ft-joint-tac`.
+4. Copies the zip's artefacts (db subset, kg2, act-gbdt, KataCR weights and source) into the paths the code expects, or sets the env vars: `CR_SCRATCH`, `CLASHBOT_KATACR_ROOT`, `CLASHBOT_KATACR_WEIGHTS`.
+5. Copies `configs/mirror_calib.example.json` to `runs/poc/mirror_calib.json`, or uses FIX_LIST #64's fallback.
+6. Runs `scripts/check_env.py`.
+7. Prints the live command: `CLASHBOT_ALLOW_LIVE=1 scripts/demo.sh --live --dashboard`, plus the two macOS permissions it needs (Screen Recording, Accessibility).
+
+The README's "Live play on a Mac (optional)" section explains:
+- what is needed: iPhone Mirroring with an iPhone that has Clash Royale;
+- Training Camp only (D-050), and the double live guard (D-031);
+- recalibrating with `tools/calibrate.py` if the mirrored window differs.
+
+Test `setup_mac.sh` on this Mac from a clean unzip into a temp dir, with a fresh venv. Do NOT run `--live`. Run `check_env` and a 20 s video dry run from that venv instead.
