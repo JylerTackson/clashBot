@@ -1,0 +1,1478 @@
+{
+ "spec": "MAC-AU Part B (Amendment 1: all test lines)",
+ "generated": "2026-11-09T05:07:33+00:00",
+ "lines": {
+  "n": 766,
+  "n_games": 27,
+  "by_game": {
+   "5nOaTBlYLlg-m0.0": 39,
+   "5nOaTBlYLlg-m0.1": 39,
+   "5nOaTBlYLlg-m0.2": 27,
+   "5nOaTBlYLlg-m0.3": 53,
+   "5nOaTBlYLlg-m0.4": 31,
+   "5nOaTBlYLlg-m0.5": 8,
+   "6qYQNJ1Uaeg-m0.0": 23,
+   "6qYQNJ1Uaeg-m0.1": 23,
+   "6qYQNJ1Uaeg-m0.2": 18,
+   "6qYQNJ1Uaeg-m0.3": 37,
+   "6qYQNJ1Uaeg-m0.4": 56,
+   "6qYQNJ1Uaeg-m0.5": 18,
+   "6qYQNJ1Uaeg-m0.6": 27,
+   "CInrqMTlVkg-m0.0": 29,
+   "CInrqMTlVkg-m0.1": 19,
+   "CInrqMTlVkg-m0.3": 24,
+   "SsOmbv1PfUg-m0.0": 23,
+   "SsOmbv1PfUg-m0.1": 17,
+   "SsOmbv1PfUg-m0.2": 36,
+   "SsOmbv1PfUg-m0.3": 14,
+   "SsOmbv1PfUg-m0.4": 36,
+   "SsOmbv1PfUg-m0.5": 41,
+   "Zt6Onn89EVk-m0.0": 43,
+   "Zt6Onn89EVk-m0.1": 16,
+   "Zt6Onn89EVk-m0.2": 23,
+   "Zt6Onn89EVk-m1.0": 12,
+   "Zt6Onn89EVk-m1.1": 34
+  }
+ },
+ "reference": "d1-ft-joint-tac",
+ "bootstrap": {
+  "n_boot": 10000,
+  "seed": 0,
+  "unit": "game (cluster)"
+ },
+ "models": {
+  "d1-ft-joint-tac": {
+   "label": "d1-ft-joint-tac (live)",
+   "type": "600M, fine-tuned",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.5065,
+    "lo": 0.4729,
+    "hi": 0.5385
+   },
+   "card_acc": {
+    "est": 0.6919,
+    "lo": 0.6492,
+    "hi": 0.7297
+   },
+   "latency_ms": {
+    "p50": 74.86,
+    "p95": 116.92,
+    "mean": 79.518,
+    "n": 766
+   },
+   "cost_usd_per_decision": 0.0,
+   "in_tokens_mean": null,
+   "out_tokens_mean": null,
+   "parse_failures": {
+    "n": 0,
+    "rate": 0.0
+   },
+   "errors": 0,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.6154
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.3846
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.3704
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.5472
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.4516
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.25
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.4783
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.6957
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.6667
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.4865
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.5893
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.6111
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.4815
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.5172
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.5263
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.5417
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.3913
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.5294
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.3889
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.6429
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.5
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.4878
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.5581
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.5625
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.4783
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.4167
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.4118
+    }
+   }
+  },
+  "d1-zero-shot": {
+   "label": "d1-omni-600M zero-shot",
+   "type": "600M, zero-shot",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.2598,
+    "lo": 0.235,
+    "hi": 0.2834
+   },
+   "card_acc": {
+    "est": 0.5131,
+    "lo": 0.4838,
+    "hi": 0.5438
+   },
+   "latency_ms": {
+    "p50": 73.338,
+    "p95": 112.63,
+    "mean": 79.015,
+    "n": 766
+   },
+   "cost_usd_per_decision": 0.0,
+   "in_tokens_mean": null,
+   "out_tokens_mean": null,
+   "parse_failures": {
+    "n": 0,
+    "rate": 0.0
+   },
+   "errors": 0,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.2051
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.3077
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.2593
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.2453
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.3871
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.5
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.2609
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.2174
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.2222
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.2162
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.25
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.2778
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.3333
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.2069
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.2632
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.3333
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.087
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.1765
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.1667
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.2143
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.3333
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.2927
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.3023
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.125
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.2609
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.3333
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.2941
+    }
+   },
+   "vs_reference": {
+    "n_common": 766,
+    "model_only": 86,
+    "reference_only": 275,
+    "mcnemar_p": 0.0,
+    "diff": {
+     "est": -0.2467,
+     "lo": -0.2894,
+     "hi": -0.2016,
+     "p_boot": 0.0002
+    }
+   }
+  },
+  "d1-2b-ft-joint-tac": {
+   "label": "d1-2B fine-tuned",
+   "type": "1.9B, fine-tuned",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.4295,
+    "lo": 0.3939,
+    "hi": 0.4659
+   },
+   "card_acc": {
+    "est": 0.6136,
+    "lo": 0.5705,
+    "hi": 0.6533
+   },
+   "latency_ms": {
+    "p50": 294.816,
+    "p95": 464.821,
+    "mean": 319.34,
+    "n": 766
+   },
+   "cost_usd_per_decision": 0.0,
+   "in_tokens_mean": null,
+   "out_tokens_mean": null,
+   "parse_failures": {
+    "n": 0,
+    "rate": 0.0
+   },
+   "errors": 0,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.359
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.359
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.4074
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.5849
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.4516
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.25
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.5217
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.3043
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.5556
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.2703
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.4464
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.5
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.5556
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.3793
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.3684
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.5417
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.3913
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.4706
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.4444
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.2857
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.3333
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.439
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.4651
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.375
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.5652
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.5
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.3529
+    }
+   },
+   "vs_reference": {
+    "n_common": 766,
+    "model_only": 111,
+    "reference_only": 170,
+    "mcnemar_p": 0.000518,
+    "diff": {
+     "est": -0.077,
+     "lo": -0.1218,
+     "hi": -0.0341,
+     "p_boot": 0.0002
+    }
+   }
+  },
+  "qwen3-4b": {
+   "label": "Qwen3-4B-Instruct-2507 zero-shot",
+   "type": "4B LLM, 4-bit",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.2859,
+    "lo": 0.2438,
+    "hi": 0.3309
+   },
+   "card_acc": {
+    "est": 0.5274,
+    "lo": 0.496,
+    "hi": 0.5634
+   },
+   "latency_ms": {
+    "p50": 802.4,
+    "p95": 1118.55,
+    "mean": 823.277,
+    "n": 766
+   },
+   "cost_usd_per_decision": 0.0,
+   "in_tokens_mean": 639.9,
+   "out_tokens_mean": 2.0,
+   "parse_failures": {
+    "n": 5,
+    "rate": 0.0065
+   },
+   "errors": 5,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.1282
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.2564
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.2593
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.3962
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.3871
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.625
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.3478
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.3043
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.2222
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.2432
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.3571
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.2778
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.5926
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.3448
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.1579
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.375
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.1304
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.3529
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.25
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.3571
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.1667
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.1707
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.186
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.3125
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.3913
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.3333
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.1765
+    }
+   },
+   "vs_reference": {
+    "n_common": 766,
+    "model_only": 98,
+    "reference_only": 267,
+    "mcnemar_p": 0.0,
+    "diff": {
+     "est": -0.2206,
+     "lo": -0.2721,
+     "hi": -0.1664,
+     "p_boot": 0.0002
+    }
+   }
+  },
+  "claude-haiku-5-5": {
+   "label": "Claude Haiku 5.5",
+   "type": "API",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.2794,
+    "lo": 0.2497,
+    "hi": 0.3101
+   },
+   "card_acc": {
+    "est": 0.4987,
+    "lo": 0.4616,
+    "hi": 0.5324
+   },
+   "latency_ms": {
+    "p50": 675.55,
+    "p95": 822.875,
+    "mean": 688.56,
+    "n": 766
+   },
+   "cost_usd_per_decision": 8.6e-05,
+   "in_tokens_mean": 839.7,
+   "out_tokens_mean": 3.5,
+   "parse_failures": {
+    "n": 29,
+    "rate": 0.0379
+   },
+   "errors": 29,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.2051
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.1538
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.2963
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.283
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.3226
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.625
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.3043
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.4348
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.2778
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.3514
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.2857
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.2222
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.3704
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.2069
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.1579
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.3333
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.3043
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.2941
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.3611
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.2143
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.1667
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.1951
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.2791
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.3125
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.4348
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.3333
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.2059
+    }
+   },
+   "vs_reference": {
+    "n_common": 766,
+    "model_only": 90,
+    "reference_only": 264,
+    "mcnemar_p": 0.0,
+    "diff": {
+     "est": -0.2272,
+     "lo": -0.2688,
+     "hi": -0.181,
+     "p_boot": 0.0002
+    }
+   }
+  },
+  "random": {
+   "label": "random (one seeded draw)",
+   "type": "baseline",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.2689,
+    "lo": 0.2373,
+    "hi": 0.3012
+   },
+   "card_acc": {
+    "est": 0.5392,
+    "lo": 0.5038,
+    "hi": 0.572
+   },
+   "latency_ms": {
+    "p50": 0.001,
+    "p95": 0.001,
+    "mean": 0.001,
+    "n": 766
+   },
+   "cost_usd_per_decision": 0.0,
+   "in_tokens_mean": null,
+   "out_tokens_mean": null,
+   "parse_failures": {
+    "n": 0,
+    "rate": 0.0
+   },
+   "errors": 0,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.2564
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.2308
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.4444
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.2075
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.1613
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.25
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.3913
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.1304
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.1667
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.1892
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.3393
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.3889
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.4074
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.3793
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.2105
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.3333
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.3043
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.2941
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.1667
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.1429
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.25
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.2195
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.3023
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.1875
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.2609
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.3333
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.3235
+    }
+   },
+   "vs_reference": {
+    "n_common": 766,
+    "model_only": 100,
+    "reference_only": 282,
+    "mcnemar_p": 0.0,
+    "diff": {
+     "est": -0.2376,
+     "lo": -0.2822,
+     "hi": -0.1905,
+     "p_boot": 0.0002
+    }
+   }
+  },
+  "popularity": {
+   "label": "popularity",
+   "type": "baseline",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.3251,
+    "lo": 0.2795,
+    "hi": 0.3735
+   },
+   "card_acc": {
+    "est": 0.453,
+    "lo": 0.3983,
+    "hi": 0.5107
+   },
+   "latency_ms": {
+    "p50": 0.001,
+    "p95": 0.002,
+    "mean": 0.001,
+    "n": 766
+   },
+   "cost_usd_per_decision": 0.0,
+   "in_tokens_mean": null,
+   "out_tokens_mean": null,
+   "parse_failures": {
+    "n": 0,
+    "rate": 0.0
+   },
+   "errors": 0,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.3077
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.1538
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.3333
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.3962
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.4516
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.5
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.4348
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.3043
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.3333
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.1351
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.25
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.3333
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.3704
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.4138
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.4211
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.3333
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.6087
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.4118
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.3889
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.2857
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.3333
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.2439
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.1628
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.1875
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.5217
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.6667
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.1765
+    }
+   },
+   "vs_reference": {
+    "n_common": 766,
+    "model_only": 88,
+    "reference_only": 227,
+    "mcnemar_p": 0.0,
+    "diff": {
+     "est": -0.1815,
+     "lo": -0.2391,
+     "hi": -0.1187,
+     "p_boot": 0.0002
+    }
+   }
+  },
+  "placement-prior": {
+   "label": "placement prior",
+   "type": "baseline",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.3838,
+    "lo": 0.3362,
+    "hi": 0.4306
+   },
+   "card_acc": {
+    "est": 0.6136,
+    "lo": 0.5683,
+    "hi": 0.657
+   },
+   "latency_ms": {
+    "p50": 0.003,
+    "p95": 0.003,
+    "mean": 0.003,
+    "n": 766
+   },
+   "cost_usd_per_decision": 0.0,
+   "in_tokens_mean": null,
+   "out_tokens_mean": null,
+   "parse_failures": {
+    "n": 0,
+    "rate": 0.0
+   },
+   "errors": 0,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.6154
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.2051
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.3704
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.3019
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.4194
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.375
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.3913
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.4348
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.3333
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.4054
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.5
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.5
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.4074
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.4828
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.3684
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.2083
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.3043
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.5294
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.3333
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.4286
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.4722
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.4634
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.2558
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.25
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.3913
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.5
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.1765
+    }
+   },
+   "vs_reference": {
+    "n_common": 766,
+    "model_only": 102,
+    "reference_only": 196,
+    "mcnemar_p": 0.0,
+    "diff": {
+     "est": -0.1227,
+     "lo": -0.1665,
+     "hi": -0.0803,
+     "p_boot": 0.0002
+    }
+   }
+  },
+  "lightgbm": {
+   "label": "LightGBM LambdaRank (seed 0)",
+   "type": "baseline, feature ranker",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.4817,
+    "lo": 0.4475,
+    "hi": 0.5141
+   },
+   "card_acc": {
+    "est": 0.6775,
+    "lo": 0.6482,
+    "hi": 0.7081
+   },
+   "latency_ms": {
+    "p50": 0.441,
+    "p95": 0.484,
+    "mean": 0.447,
+    "n": 766
+   },
+   "cost_usd_per_decision": 0.0,
+   "in_tokens_mean": null,
+   "out_tokens_mean": null,
+   "parse_failures": {
+    "n": 0,
+    "rate": 0.0
+   },
+   "errors": 0,
+   "per_game": {
+    "5nOaTBlYLlg-m0.0": {
+     "n": 39,
+     "acc": 0.4872
+    },
+    "5nOaTBlYLlg-m0.1": {
+     "n": 39,
+     "acc": 0.3077
+    },
+    "5nOaTBlYLlg-m0.2": {
+     "n": 27,
+     "acc": 0.4815
+    },
+    "5nOaTBlYLlg-m0.3": {
+     "n": 53,
+     "acc": 0.434
+    },
+    "5nOaTBlYLlg-m0.4": {
+     "n": 31,
+     "acc": 0.6129
+    },
+    "5nOaTBlYLlg-m0.5": {
+     "n": 8,
+     "acc": 0.25
+    },
+    "6qYQNJ1Uaeg-m0.0": {
+     "n": 23,
+     "acc": 0.4783
+    },
+    "6qYQNJ1Uaeg-m0.1": {
+     "n": 23,
+     "acc": 0.5652
+    },
+    "6qYQNJ1Uaeg-m0.2": {
+     "n": 18,
+     "acc": 0.5
+    },
+    "6qYQNJ1Uaeg-m0.3": {
+     "n": 37,
+     "acc": 0.5946
+    },
+    "6qYQNJ1Uaeg-m0.4": {
+     "n": 56,
+     "acc": 0.5179
+    },
+    "6qYQNJ1Uaeg-m0.5": {
+     "n": 18,
+     "acc": 0.5
+    },
+    "6qYQNJ1Uaeg-m0.6": {
+     "n": 27,
+     "acc": 0.5556
+    },
+    "CInrqMTlVkg-m0.0": {
+     "n": 29,
+     "acc": 0.4828
+    },
+    "CInrqMTlVkg-m0.1": {
+     "n": 19,
+     "acc": 0.4211
+    },
+    "CInrqMTlVkg-m0.3": {
+     "n": 24,
+     "acc": 0.5417
+    },
+    "SsOmbv1PfUg-m0.0": {
+     "n": 23,
+     "acc": 0.4783
+    },
+    "SsOmbv1PfUg-m0.1": {
+     "n": 17,
+     "acc": 0.3529
+    },
+    "SsOmbv1PfUg-m0.2": {
+     "n": 36,
+     "acc": 0.5
+    },
+    "SsOmbv1PfUg-m0.3": {
+     "n": 14,
+     "acc": 0.5714
+    },
+    "SsOmbv1PfUg-m0.4": {
+     "n": 36,
+     "acc": 0.4167
+    },
+    "SsOmbv1PfUg-m0.5": {
+     "n": 41,
+     "acc": 0.4146
+    },
+    "Zt6Onn89EVk-m0.0": {
+     "n": 43,
+     "acc": 0.5581
+    },
+    "Zt6Onn89EVk-m0.1": {
+     "n": 16,
+     "acc": 0.625
+    },
+    "Zt6Onn89EVk-m0.2": {
+     "n": 23,
+     "acc": 0.4783
+    },
+    "Zt6Onn89EVk-m1.0": {
+     "n": 12,
+     "acc": 0.5833
+    },
+    "Zt6Onn89EVk-m1.1": {
+     "n": 34,
+     "acc": 0.3235
+    }
+   },
+   "vs_reference": {
+    "n_common": 766,
+    "model_only": 120,
+    "reference_only": 139,
+    "mcnemar_p": 0.26333,
+    "diff": {
+     "est": -0.0248,
+     "lo": -0.0592,
+     "hi": 0.014,
+     "p_boot": 0.2048
+    }
+   }
+  },
+  "random-expected": {
+   "label": "random (expected)",
+   "type": "baseline, analytic",
+   "n": 766,
+   "n_games": 27,
+   "acc": {
+    "est": 0.25,
+    "lo": null,
+    "hi": null
+   },
+   "card_acc": {
+    "est": 0.5,
+    "lo": null,
+    "hi": null
+   },
+   "latency_ms": {
+    "p50": null,
+    "p95": null,
+    "mean": null,
+    "n": 0
+   },
+   "cost_usd_per_decision": 0.0,
+   "parse_failures": {
+    "n": 0,
+    "rate": 0.0
+   },
+   "errors": 0,
+   "analytic": true
+  }
+ },
+ "pending": [
+  "qwen3-4b-rag3",
+  "qwen3-14b",
+  "claude-sonnet-5-5"
+ ],
+ "warnings": [],
+ "runs": {
+  "d1-2b-ft-joint-tac": {
+   "backend": "transformers",
+   "dtype": "auto",
+   "mps": true,
+   "torch": "2.15.0",
+   "transformers": "5.22.1",
+   "load_and_warmup_s": 5.48,
+   "loader_note": "loader fix: AutoConfig -> native_lfm3_vl.Lfm3VlConfig in a mirror at runs/bench/au/d1-2b-loadable",
+   "finished": "2026-11-09T04:50:25+00:00"
+  },
+  "d1-ft-joint-tac": {
+   "backend": "transformers",
+   "dtype": "auto",
+   "mps": true,
+   "torch": "2.15.0",
+   "transformers": "5.22.1",
+   "load_and_warmup_s": 4.0,
+   "finished": "2026-11-09T04:51:56+00:00"
+  },
+  "d1-zero-shot": {
+   "backend": "transformers",
+   "dtype": "auto",
+   "mps": true,
+   "torch": "2.15.0",
+   "transformers": "5.22.1",
+   "load_and_warmup_s": 3.95,
+   "finished": "2026-11-09T04:53:36+00:00"
+  },
+  "lightgbm": {
+   "note": "LightGBM LambdaRank seed 0, predictions from docs/data/feature_ranker_preds_v2.json; latency = build_features + predict per line of a model retrained with the same config and seed (its picks match the dump on 766/766 lines)"
+  },
+  "placement-prior": {
+   "note": "argmax of the share of the card's placements in the key's zone, first maximum on ties"
+  },
+  "popularity": {
+   "note": "argmax of the key's train-split play count, first maximum on ties"
+  },
+  "random": {
+   "note": "one seeded draw (numpy default_rng(0)); expected accuracy 0.25"
+  }
+ }
+}
