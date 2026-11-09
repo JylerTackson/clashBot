@@ -6,13 +6,13 @@ Clash Royale is a real-time, two-player phone card game: each player brings a hi
 
 The task is hard for five measurable reasons. (i)~\emph{Real time}: perception targets 10\,fps (7.97\,fps in live run 111554); capture to click takes 323\,ms (median, live trial). % src: LOG (323 ms); CMA C7 (7.97 fps, run 20261107-111554)
 (ii)~\emph{Partial, noisy observation}: the opponent's deck, hand and elixir are hidden, and the pro's recorded move passes our perceived-legality check on only 0.542--0.597 of states. % src: CMA A3 neuro-symbolic row (ranker_stats_v1.json pos_in_legal_rate)
-(iii)~\emph{Structured actions plus timing}: card $\times$ lane $\times$ zone or hold (D-010), and pros deploy within the next second on about a fifth of seconds (dense act rate 0.204). % src: CMA B dense wait/act row
-(iv)~\emph{Sparse supervision}: 197 pro games (about 12 match-hours, one creator), no reward or simulator, and an opponent with level-15 cards. % src: CMA C1; D-047
-(v)~\emph{Consumer hardware}: one Apple M5 laptop with 32\,GB and no paid API. % src: CMA C3 (hardware); PBC sec. 4 (cost per game)
+(iii)~\emph{Structured actions plus timing}: card $\times$ lane $\times$ zone or hold (D-010), and pros deploy within 1\,s on about a fifth of seconds (dense act rate 0.204). % src: CMA B dense wait/act row
+(iv)~\emph{Sparse supervision}: 197 pro games (about 12 match-hours, one creator), no reward or simulator, an opponent with level-15 cards. % src: CMA C1; D-047
+(v)~\emph{Consumer hardware}: an Apple M5 laptop (32\,GB), no paid API. % src: CMA C3 (hardware); PBC sec. 4 (cost per game)
 
-Following the course's retrieve-then-rank and agent-with-tools patterns~\cite{lim2026l11,lim2026l13,lim2026l15}, deterministic tools (a tactical engine with a lane simulator, hybrid retrieval over pro states and a knowledge graph) propose at most four candidate plays with short text notes, and a decision LLM fine-tuned on the pro games picks one; no tool picks the move (D-045; design decisions are logged as D-001 to D-053). Contributions:
+Following the course's retrieve-then-rank and agent-with-tools patterns~\cite{lim2026l11,lim2026l13,lim2026l15}, deterministic tools (a tactical engine with a lane simulator, hybrid retrieval over pro states and a knowledge graph) propose at most four candidate plays with short text notes, and a decision LLM fine-tuned on the pro games picks one; no tool picks the move (D-045; decision log D-001 to D-053). Contributions:
 \begin{enumerate}
-\item A non-embedded, two-speed agent playing live through iPhone Mirroring with all models local and guarded demo tooling (Sec.~\ref{sec:system}).
+\item A non-embedded, two-speed agent live on iPhone Mirroring, all models local, with guarded demo tools (Sec.~\ref{sec:system}).
 \item A knowledge layer (hybrid retrieval over 10,923 pro states, a two-version KG with lane-simulation edges and 3,620 mined pro answers, a tactical engine) rendered as context for a fine-tuned setwise LLM ranker. % src: CMA C1, C2, A1
 \item A leakage-checked benchmark suite (Sec.~\ref{sec:exp}): options rebuilt after a leak (an option-key rule scored 0.852 on test), ten rankers with cluster-bootstrap CIs, ablations from retrieval to knowledge editing, and an open-loop comparison with the pro, negative results included. % src: D-037 (0.852 test)
 \item Live Training Camp evaluation: 13 recorded runs (931 logged decisions) with one win, then a 0--10 trial on frozen code, diagnosed from the logs (Sec.~\ref{sec:live}, \ref{sec:disc}). % src: CMA C6; STATUS 2026-11-07 night; TRIAL; BL

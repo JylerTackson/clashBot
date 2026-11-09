@@ -49,38 +49,51 @@ Table~\ref{tab:ranker} gives the main result. (1)~Zero-shot d1 is at chance: the
 
 By training frequency of the gold key (Fig.~\ref{fig:popularity}), popularity is the best model on head keys (0.696) and the worst on the tail (0.103), while d1-ft-joint-tac and LightGBM stay level across the two lower terciles (0.468/0.473, 0.457/0.458), generalising beyond memorised keys; a share of 0.14 of test gold keys never occurs in training. % src: SA sec. 5
 
-d1 is well calibrated (test ECE 0.048 over 15 bins; Brier 0.616): holding when its top probability is below 0.483 (chosen on val) answers 0.402 of test lines at 0.630 accuracy and raises the +1/0/$-$1 CRAG-style utility~\cite{yang2024cragbench} from 0.013 [$-$0.056, 0.079] to 0.104 [0.060, 0.147] (Fig.~\ref{fig:retsel}b). A d1+LightGBM ensemble fitted on val changes test accuracy by $-$0.1, +2.1 or +3.9 points depending on LightGBM's seed, so we do not claim it; a rule arbiter that narrows d1's options when d1 is unsure gives no gain (0.509 vs 0.506) and stays off. % src: SA sec. 3, 4, 6; arbiter_v2.md (50.6% / 50.9%)
+d1 is well calibrated (test ECE 0.048 over 15 bins; Brier 0.616): holding when its top probability is below 0.483 (chosen on val) answers 0.402 of test lines at 0.630 accuracy and raises the +1/0/$-$1 CRAG-style utility~\cite{yang2024cragbench} from 0.013 [$-$0.056, 0.079] to 0.104 [0.060, 0.147] (Fig.~\ref{fig:retsel}b). A d1+LightGBM ensemble changes test accuracy by $-$0.1, +2.1 or +3.9 points depending on LightGBM's seed, so we do not claim it; a rule arbiter narrowing d1's options when it is unsure gives no gain (0.509 vs 0.506) and stays off. % src: SA sec. 3, 4, 6; arbiter_v2.md (50.6% / 50.9%)
 
-% =============================================================================================
-% PLACEHOLDER (a): decision-model benchmark, to be filled after the CVPR port. Reserved ~0.35 page.
-% =============================================================================================
-% To fill: ~12 decision models scored on the same held-out lines against the pro: accuracy with 95% cluster-bootstrap
-% CI, card accuracy, exact McNemar p against d1-ft-joint-tac, latency p50/p95, cost per decision (Table tab:decmodels,
-% ~12 rows x 6 columns) and one paragraph of findings.
 \subsection{Decision models}
 \label{sec:decmodels}
-\TODO{fill Table~\ref{tab:decmodels} ($\sim$12 rows) and one paragraph.}
 
 \begin{table}[t]
-\caption{\TODO{caption} Decision models.}
+\caption{Decision models on the 766 test lines of Table~\ref{tab:ranker} (game-bootstrap CIs, seed 0; d1's 0.5065 shows there as 0.507); middle block zero-shot. All differ from d1-ft-joint-tac at McNemar $p<0.001$ but LightGBM ($p=0.263$). $^\dagger$Thinking \tw{between\_tools}, $\le$2,000 output tokens, answer parsed from the end; with the 16-token cap of the other API runs 62.8\% of Sonnet replies were cut off (accuracy 0.144), 3.8\% of Haiku's (counted wrong).}
 \label{tab:decmodels}
 \centering\scriptsize
-\setlength{\tabcolsep}{2.5pt}
-\begin{tabular}{@{}lccccc@{}}
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{@{}llccc@{}}
 \toprule
-Model & Acc.\ vs pro & Card & McNemar & Latency (ms) & Cost /\\
- & [95\% CI] & acc. & $p$ vs d1 & p50 / p95 & decision\\
+Model & Accuracy [95\% CI] & Card & ms p50/p95 & US\$/dec.\\
 \midrule
-\TODO{$\sim$12 rows} & -- & -- & -- & -- & --\\
+\textbf{d1-ft-joint-tac}, 600M (live) & \textbf{0.506} [0.473, 0.538] & 0.692 & 75/117 & 0\\
+d1-2B fine-tuned, 1.9B & 0.429 [0.394, 0.466] & 0.614 & 295/465 & 0\\
+\midrule
+d1-omni-600M zero-shot & 0.260 [0.235, 0.283] & 0.513 & 73/113 & 0\\
+Qwen3-4B-Instruct-2507 & 0.286 [0.244, 0.331] & 0.527 & 802/1119 & 0\\
+\quad + 3 retrieved pro states & 0.283 [0.251, 0.316] & 0.516 & 1535/1958 & 0\\
+Qwen3-14B & 0.304 [0.264, 0.345] & 0.523 & 2721/3866 & 0\\
+Claude Haiku 5.5 & 0.279 [0.250, 0.310] & 0.499 & 676/823 & 0.00009\\
+Claude Sonnet 5.5$^\dagger$ & 0.364 [0.325, 0.403] & 0.585 & 2467/4824 & 0.00369\\
+\midrule
+LightGBM LambdaRank & 0.482 [0.448, 0.514] & 0.677 & 0.4/0.5 & 0\\
+placement prior & 0.384 [0.336, 0.431] & 0.614 & 0.003/0.003 & 0\\
+popularity & 0.325 [0.280, 0.373] & 0.453 & 0.001/0.002 & 0\\
+random, one draw (exp.\ 0.250) & 0.269 [0.237, 0.301] & 0.539 & 0.001/0.001 & 0\\
 \bottomrule
 \end{tabular}
 \end{table}
+% src (Table decmodels): docs/data/decision_models_v1.md "Accuracy and latency" (every cell; Sonnet row = claude-sonnet-5-5-long,
+%   the claude-sonnet-5-5 row gives 0.144 and 481/766 = 62.8% parse failures; Haiku 29/766 = 3.8%; random (expected) 0.250 / 0.500);
+%   decision_models_v1.json models.d1-ft-joint-tac.acc.est = 0.5065, models.lightgbm.vs_reference.mcnemar_p = 0.26333;
+%   Sonnet settings and "max_tokens" errors: tools/eval/bench_claude_rankers.py VARIANTS, runs/bench/au/preds/claude-*.jsonl
+
+\emph{Protocol} (MAC-AU). The LLMs share one prompt: d1's input (state text with \tw{tactics:} and \tw{KG:} lines, options A--D with notes) and a request for the pro's choice. Qwen3~\cite{qwen2025qwen3} decodes greedily, Claude Haiku with 16 output tokens, both thinking off (Sonnet: $^\dagger$); the RAG variant prepends the 3 nearest train-split pro states (600 characters each, plus the pro's play). Latency is wall time per decision after a warm-up (M5: d1 on MPS, Qwen in MLX 4-bit, one model at a time; API: with the network); cost is usage times list price. % src: docs/plans/MAC-AU_decision_models_retrieval_benchmark.md (Part A prompt, Qwen, RAG, Claude, GPU discipline, Amendment 1); tools/eval/bench_llm_rankers.py (greedy, 8 new tokens, enable_thinking False); decision_models_v1.md header (latency definition)
+
+\emph{Findings.} Fine-tuning dominates. Zero-shot, d1-omni-600M, both Qwen3 models and Claude Haiku 5.5 stay within 5.4 points of chance, the parametric-memory limit~\cite{mallen2023popqa,lim2026l11} (d1: 0.260 with notes, 0.221 without, Table~\ref{tab:ranker}). Claude Sonnet 5.5, the best zero-shot model, is 14.2 points [$-$19.1, $-$9.3] below the fine-tuned 600M at 33$\times$ its median latency and a per-decision cost: RankGPT-style zero-shot ranking~\cite{sun2023rankgpt,cap6938L10} falls short in this domain and budget. Three retrieved pro examples (RAG few-shot~\cite{lim2026l11}) do not help Qwen3-4B (0.283 vs 0.286) and nearly double its latency. The larger fine-tune is worse: d1-2B (top 8 layers trained, val 0.4192) loses 7.7 points [$-$12.2, $-$3.4] at 4$\times$ latency. LightGBM, a tuned baseline~\cite{rendle2020ncfvsmf,lim2026l13}, is on par at 0.4\,ms. % src: decision_models_v1.md (accuracies; diff column: Sonnet-long -0.142 [-0.191, -0.093], d1-2B -0.077 [-0.122, -0.034], LightGBM -0.025 [-0.059, +0.014]; latency p50 2467 / 75 = 33x, 295 / 75 = 3.9x, 1535 / 802 = 1.9x); 0.304 - 0.25 = 5.4 pts (Qwen3-14B, largest of the four); CMA C4 (d1-2B top 8 layers, val 0.4192); SA sec. 1 (0.221); CMA A2 parametric-memory row (d1_zero_shot_v1.json joint = plain lines, 0.2206 test)
 
 \subsection{Retrieval}
 \label{sec:retr}
 
 \begin{table}[t]
-\caption{Retrieval channels (val n = 916 / test n = 902 queries, train pool, depth 50). Hit@10: the pro's exact play is among the top-10 neighbours' plays.}
+\caption{Retrieval channels (916/902 val/test queries, train pool, depth 50). Hit@10: the pro's exact play is among the top-10 neighbours' plays.}
 \label{tab:retrieval}
 \centering\scriptsize
 \setlength{\tabcolsep}{3pt}
@@ -98,13 +111,13 @@ all three, RRF & 0.156 / 0.170 & 0.461 / 0.514 & 49.6\\
 \end{table}
 % src (Table retrieval): docs/data/retrieval_ablation_v1.md (kept current per BM sec. 3)
 
-Table~\ref{tab:retrieval}: the channels are within noise of each other (test hit@10 0.136--0.170); BM25 beats the structured channel on test (0.159 vs 0.136) but not on val, and the text channel adds about 20\,ms per query for no clear gain, so the live list is structured plus BM25. As a lone candidate source, kNN voting loses to popularity on exact keys (test recall@10 0.317 vs 0.402) and wins only on cards (0.651 vs 0.607). % src: CMA A1 (ranker_baselines_v1.json candidate_recall)
-HNSW at ef 40 keeps recall@10 at 0.978 in 0.31 vs 1.51\,ms for exact search (Fig.~\ref{fig:retsel}a), but at 10.9k vectors exact search is affordable and stays live. In the pre- vs post-filter trade-off of the indexing lecture~\cite{cap6938L09}, a deck pre-filter leaves an empty pool for 88.9\% of queries (their decks never occur in training), and post-filtering the top 10 returns nothing for 50.0\% (deck) and 87.3\% (phase) of queries, the top 200 for 0.5\% and 0.1\%. % src: retrieval_ablation_v1.md (HNSW table, filtering table)
+Table~\ref{tab:retrieval}: the channels are within noise (test hit@10 0.136--0.170); BM25 beats the structured channel on test (0.159 vs 0.136) but not on val, and the text channel adds about 20\,ms for no clear gain, so the live list is structured plus BM25. As a lone candidate source, kNN voting loses to popularity on exact keys (test recall@10 0.317 vs 0.402) and wins only on cards (0.651 vs 0.607). % src: CMA A1 (ranker_baselines_v1.json candidate_recall)
+HNSW at ef 40 keeps recall@10 at 0.978 in 0.31 vs 1.51\,ms for exact search (Fig.~\ref{fig:retsel}a), but at 10.9k vectors exact search stays live. For pre- vs post-filtering~\cite{cap6938L09}, a deck pre-filter empties the pool for 88.9\% of queries (decks unseen in training); post-filtering the top 10 returns nothing for 50.0\% (deck) and 87.3\% (phase) of queries, the top 200 for 0.5\% and 0.1\%. % src: retrieval_ablation_v1.md (HNSW table, filtering table)
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{figs/fig_retrieval_selective.pdf}
-\caption{(a) HNSW recall@10 against exact kNN versus query time (10,923 vectors, $k{=}10$). (b) Risk--coverage of d1-ft-joint-tac when it holds below a probability threshold; dots: 0.483, chosen on val.}
+\caption{(a) HNSW recall@10 against exact kNN versus query time (10,923 vectors, $k{=}10$). (b) Risk--coverage of d1-ft-joint-tac holding below a probability threshold (dots: 0.483, set on val).}
 \label{fig:retsel}
 \end{figure}
 
@@ -112,13 +125,12 @@ HNSW at ef 40 keeps recall@10 at 0.978 in 0.31 vs 1.51\,ms for exact search (Fig
 \label{sec:kg}
 
 \begin{table}[t]
-\caption{(a) Held-out COUNTERS link prediction, test (762 queries, filtered, 3 seeds). (b) Ranking the pro's own deck for a held-out threat (E6); rules mined from training games only.}
+\caption{Held-out COUNTERS link prediction, test (762 queries, filtered, 3 seeds).}
 \label{tab:kg}
 \centering\scriptsize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{@{}lccc@{}}
 \toprule
-\multicolumn{4}{@{}l}{(a) KG embeddings} \\
 Method & MRR & H@1 & H@10\\
 \midrule
 random & 0.0223 & 0.0113 & 0.1129\\
@@ -127,49 +139,60 @@ TransE & 0.0819 $\pm$ 0.0046 & 0.0000 & 0.2380\\
 DistMult & 0.0907 $\pm$ 0.0083 & 0.0232 & 0.1986\\
 ComplEx & 0.1162 $\pm$ 0.0074 & 0.0367 & 0.2616\\
 RotatE & \textbf{0.1588} $\pm$ 0.0020 & 0.0713 & 0.3259\\
-\midrule
-\multicolumn{4}{@{}l}{(b) Mined answer rules (609 val / 433 test events)} \\
-Score & hit@1 val & hit@1 test & MRR test\\
-\midrule
-full \tw{KG2.answers\_for} & 0.182 & 0.154 & 0.374\\
-pro-mined rules only & 0.191 & 0.129 & 0.350\\
-wiki COUNTERS only & 0.117 & 0.141 & 0.359\\
-train popularity of the answer card & 0.182 & 0.169 & 0.384\\
-random card in deck (expected) & 0.126 & 0.128 & 0.345\\
 \bottomrule
 \end{tabular}
 \end{table}
-% src (Table kg): (a) docs/data/kge_link_prediction_v1.md (setting full); (b) docs/data/answer_rules_v1.md headline val/test tables
+% src (Table kg): docs/data/kge_link_prediction_v1.md (setting full). The former part (b), E6 test hit@1 / MRR, is identical to Table retrmethods (b)
+%   rows v2 full / pro only / v1 wiki COUNTERS / popularity / random (answer_rules_v1.md test table = retrieval_methods_v1.md KG table)
 
-\emph{Link prediction} (Table~\ref{tab:kg}a). We hold out wiki COUNTERS triples (3,043/380/381) and rank 126 candidate cards (filtered, tie-aware); all four PyKEEN~\cite{ali2021pykeen} models get the same grid (dimension 32 or 64, learning rate 0.01 or 0.001; chosen on val MRR) and three seeds, per the course's evaluation-audit protocol~\cite{ruffinelli2020olddog,sun2020reevaluation,cap6938L05}. RotatE~\cite{sun2019rotate} is best and beats popularity; TransE and DistMult do not, DistMult being symmetric by construction (asymmetry score 0.0) while only 940 of 3,804 counter pairs have a reverse edge. % src: CMA A3 (triples, grid, asymmetry, 940 / 3,804); kge_link_prediction_v1.md
+\emph{Link prediction} (Table~\ref{tab:kg}). We hold out wiki COUNTERS triples (3,043/380/381) and rank 126 candidate cards (filtered, tie-aware); all four PyKEEN~\cite{ali2021pykeen} models get the same grid (dimension 32 or 64, learning rate 0.01 or 0.001; chosen on val MRR) and three seeds, per the course's evaluation-audit protocol~\cite{ruffinelli2020olddog,sun2020reevaluation,cap6938L05}. RotatE~\cite{sun2019rotate} is best and beats popularity; TransE and DistMult do not, DistMult being symmetric by construction (asymmetry score 0.0) while only 940 of 3,804 counter pairs have a reverse edge. % src: CMA A3 (triples, grid, asymmetry, 940 / 3,804); kge_link_prediction_v1.md
 
-\emph{Mined answer rules} (E6, Table~\ref{tab:kg}b). For each held-out event we rank the pro's own deck (7.96/7.83 cards on average) with rules mined from training games (support $\ge3$, 8\,s window). Pooled over val and test, the full score beats random (+0.044 hit@1 [+0.020, +0.068]) and the wiki counters (+0.043 [+0.011, +0.074]) but not the training popularity of the answer card ($-$0.006 [$-$0.035, +0.020]); on test the pro-mined source alone falls below popularity ($-$0.040 hit@1, $p=0.022$). The score barely predicts whether the answer held the tower (AUROC 0.543), few rules have large support (10 or more for 63 of 1,042 events), and 8\,s is the best window of 2, 4 and 8\,s on val (MRR 0.409). Unlike AMIE and TLogic, which score rules on their mining data~\cite{lajus2020amie3,liu2022tlogic}, this held-out test against the popularity baseline the audit protocol asks for~\cite{ruffinelli2020olddog} shows that the 287 rules mostly re-encode how often the pro plays each card: a weak prior~\cite{cap6938L07}. % src: answer_rules_v1.md (paired val+test, test paired, AUROC, strata, sweep)
+\emph{Mined answer rules} (E6; test in Table~\ref{tab:retrmethods}b). For each of 609/433 held-out val/test events we rank the pro's own deck (7.96/7.83 cards on average) with rules mined from training games (support $\ge3$, 8\,s window); val hit@1: full 0.182, pro-mined only 0.191, wiki COUNTERS 0.117, train popularity 0.182, random 0.126. Pooled over val and test, the full score beats random (+0.044 hit@1 [+0.020, +0.068]) and the wiki counters (+0.043 [+0.011, +0.074]) but not the training popularity of the answer card ($-$0.006 [$-$0.035, +0.020]); on test the pro-mined source alone falls below popularity ($-$0.040 hit@1, $p=0.022$). The score barely predicts whether the answer held the tower (AUROC 0.543), few rules have large support (10 or more for 63 of 1,042 events), and 8\,s is the best window of 2, 4 and 8\,s on val (MRR 0.409). Unlike AMIE and TLogic, which score rules on their mining data~\cite{lajus2020amie3,liu2022tlogic}, this held-out test against popularity~\cite{ruffinelli2020olddog} shows the 287 rules mostly re-encode the pro's card frequencies, a weak prior~\cite{cap6938L07}. % src: answer_rules_v1.md (headline val table: 0.182, 0.191, 0.117, 0.182, 0.126; 609 / 433 events; paired val+test, test paired, AUROC, strata, sweep)
 
-% =============================================================================================
-% PLACEHOLDER (b): retrieval-method benchmark for the KB and the KG, to be filled after the CVPR port.
-% Reserved ~0.35 page.
-% =============================================================================================
-% To fill: ~16 retrieval methods over the knowledge base (pro states, wiki) and the knowledge graph: hit@10 or hit@1,
-% MRR, 4-way accuracy when the method is used as a decision model, coverage, latency (Table tab:retrmethods, one
-% combined table or two compact ones) and one paragraph of findings.
 \subsection{Retrieval methods for the KB and the KG}
 \label{sec:retrmethods}
-\TODO{fill Table~\ref{tab:retrmethods} ($\sim$16 rows) and one paragraph.}
 
 \begin{table}[t]
-\caption{\TODO{caption} KB and KG retrieval methods.}
+\caption{KB and KG methods on the 766 test lines, retrieving from train games. (a)~KB, top 20: a hit's pro play has the gold key (hit@10, MRR) or card (card@10); rec.\ = overlap with exact top 20. (b)~KG: 433 held-out threat$\rightarrow$answer events, ranked over the pro's deck. 4-way: accuracy as a decision model (unsupported lines tied); Cov.: share of lines supported; ms: query p50. Two options share each card: a card-level score is capped at 0.5 4-way.}
 \label{tab:retrmethods}
 \centering\scriptsize
-\setlength{\tabcolsep}{2.5pt}
-\begin{tabular}{@{}lccccc@{}}
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{@{}lcccccc@{}}
 \toprule
-Method & hit@10 / hit@1 & MRR & 4-way acc. & Coverage & ms p50\\
+(a) KB method & hit@10 & card@10 & MRR & 4-way & Cov. & ms\\
 \midrule
-(a) KB \TODO{8 rows} & -- & -- & -- & -- & --\\
-(b) KG \TODO{8 rows} & -- & -- & -- & -- & --\\
+dense exact (644-d, dot) & 0.144 & 0.423 & 0.067 & 0.284 & 0.53 & 1.16\\
+BM25 (FTS5) & 0.166 & 0.491 & 0.060 & \textbf{0.318} & 0.53 & 22.14\\
+RRF dense + BM25 (live) & 0.175 & 0.501 & 0.074 & 0.305 & 0.58 & 24.19\\
+bge-small text (cosine) & 0.155 & 0.450 & 0.067 & 0.307 & 0.46 & 13.64\\
+RRF all three & \textbf{0.184} & \textbf{0.530} & \textbf{0.082} & 0.314 & 0.54 & 45.16\\
+HNSW ef 10 (rec.\ 0.977) & 0.141 & 0.418 & 0.067 & 0.287 & 0.52 & 0.84\\
+HNSW ef 40 (rec.\ 0.990) & 0.141 & 0.419 & 0.067 & 0.286 & 0.53 & 1.11\\
+HNSW ef 160 (rec.\ 0.998) & 0.142 & 0.422 & 0.067 & 0.286 & 0.53 & 2.24\\
+deck pre-filter, then dense & 0.076 & 0.157 & 0.041 & 0.286 & 0.16 & 0.82\\
+\midrule
+(b) KG method & hit@1 & hit@3 & MRR & 4-way & Cov. & ms\\
+\midrule
+v1 \tw{counter\_scores} & 0.143 & 0.409 & 0.360 & 0.249 & 0.31 & 0.01\\
+v1 wiki COUNTERS only & 0.141 & 0.406 & 0.359 & 0.250 & 0.29 & 0.01\\
+v2 \tw{answers\_for}, full & 0.154 & 0.422 & 0.374 & 0.239 & 0.45 & 0.05\\
+\quad pro source only & 0.129 & 0.399 & 0.350 & 0.236 & 0.20 & 0.04\\
+\quad role transfer only & 0.145 & 0.398 & 0.356 & 0.241 & 0.24 & 0.04\\
+\quad wiki only & 0.147 & 0.407 & 0.362 & 0.249 & 0.29 & 0.04\\
+\quad simulation (STOPS) only & 0.157 & \textbf{0.440} & 0.376 & \textbf{0.258} & 0.31 & 0.04\\
+KGE RotatE & 0.125 & 0.400 & 0.340 & 0.253 & 0.49 & 0.18\\
+KGE TransE & 0.118 & 0.353 & 0.335 & 0.245 & 0.49 & 0.13\\
+train popularity of the answer & \textbf{0.169} & 0.433 & \textbf{0.384} & 0.217 & 0.49 & 0.00\\
+random (expected) & 0.128 & 0.384 & 0.345 & 0.250 & -- & --\\
 \bottomrule
 \end{tabular}
 \end{table}
+% src (Table retrmethods): docs/data/retrieval_methods_v1.md, "KB: the pro-state database" (hit@10, card_hit@10, MRR, 4-way acc,
+%   coverage, recall@20 vs exact, ms p50) and "KG: threat to answer" (hit@1, hit@3, MRR, 4-way acc, line coverage, query ms p50);
+%   433 events / 374 lines with a threat, train-only pool and leak check, card-level cap 0.5: same file, "Setup and leakage"
+
+As retrievers (Table~\ref{tab:retrmethods}a) the hybrids lead (\cf Sec.~\ref{sec:retr} and~\cite{cap6938L08,cap6938L09,cap6938L10}): RRF of all three lists has the best hit@10, card@10 and MRR, and the live dense+BM25 fusion beats both its lists (hit@10 0.175 vs 0.144, 0.166), with overlapping CIs. HNSW keeps 0.977--0.998 of the exact top 20, but over 4,997 train states exact search takes only 1.16\,ms (ef 10 saves 0.3\,ms). The deck pre-filter returns nothing for 78.3\% of lines (decks unseen in train; the pre-filter risk of~\cite{cap6938L09}), though on the 16\% it supports it is the most accurate KB rule (0.475). % src: retrieval_methods_v1.md KB table (recall@20, ms, empty 0.783, acc if supported 0.475 [0.312, 0.587]) and Setup (4,997 train states with an action); 1.16 - 0.84 = 0.32 ms
+No method alone is a usable decision maker: the best, BM25, reaches 0.318 [0.283, 0.351], 18.9 points below d1, other KB methods 19--22 and the KG methods 25--29 points below (all McNemar $p<10^{-12}$), as a card-level score cannot place and finds a threat on 374 of 766 lines; no KG method beats train popularity on hit@1 or MRR (0.169, 0.384). Their value is as candidate sources and ranker context (Sec.~\ref{sec:disc}). % src: retrieval_methods_v1.md "Retrieval as a decision model" (delta vs d1: KB -0.189 to -0.222, KG -0.248 to -0.289; largest McNemar p 2.28e-13), Headline (BM25 0.318 [0.283, 0.351]; popularity MRR 0.384)
 
 \subsection{Context conflict: does d1 follow notes? (E2)}
 \label{sec:conflict}
@@ -196,7 +219,7 @@ C4 block transplanted & 0.495 [0.459, 0.530] & $-$1.2 (0.45) & 19\% & 0.083\\
 % src (Table conflict): docs/data/context_conflict_v1.md, replicate on joint_tac_v2 (HEAD notes, same lines as Table III), "Accuracy by condition - test" and "Follow-rate - test"; p = exact McNemar
 
 Table~\ref{tab:conflict}: no condition moves accuracy by more than 1.2 points. Removing the whole context changes 21\% of picks, but gains and losses cancel (57 vs 56 lines); poisoned notes move 4.4\% [2.1, 6.8] of movable picks. Lines whose gold option carries the informative note are easier than lines where a distractor's does (0.564 vs 0.371), but the gap persists with no notes (0.599 vs 0.401), so it reflects which states are easy. Context-aware decoding~\cite{shi2024cad} selects weight $a=0$ on val in every condition, and each $a>0$ lowers C0 test accuracy by 1.7 to 2.9 points; AdaCAD's adaptive weight~\cite{wang2025adacad} averages 0.014 and changes accuracy by $-$0.1 points. % src: CC replicate joint_tac_v2 (test tables, strata, CAD C0)
-d1 thus avoids both failures the course warns about, adopting wrong context over its prior (ClashEval~\cite{wu2024clasheval}) and greater sensitivity to relevant-but-misleading than to irrelevant noise (RAGChecker~\cite{ru2024ragchecker}), because it barely reads its notes, plausibly as they favour the gold option on only 30\% of test lines and a distractor on 22\% (49\% have none). This makes d1 robust to wrong tool output and explains why retraining on \tw{KG:} lines did not help. % src: CC replicate test note status (227 right, 167 wrong, 372 none of 766)
+d1 thus avoids both failures the course warns about, adopting wrong context over its prior (ClashEval~\cite{wu2024clasheval}) and greater sensitivity to relevant-but-misleading than to irrelevant noise (RAGChecker~\cite{ru2024ragchecker}), because it barely reads its notes, plausibly as they favour the gold option on only 30\% of test lines and a distractor on 22\% (49\% have none), so it is robust to wrong tool output. % src: CC replicate test note status (227 right, 167 wrong, 372 none of 766)
 
 \subsection{When to act}
 \label{sec:timing}
@@ -207,11 +230,11 @@ On the balanced subset ($h=1$\,s, n = 3,221) used to train a d1 act head (top 8 
 \subsection{Next card, opponent deck, knowledge editing}
 
 For opponent next-card prediction, a sequential recommendation task~\cite{kang2018sasrec,lim2026l14}, SASRec (3 seeds) reaches acc@1 0.129/0.222 on val/test and loses to a copy-frequency rule (0.207/0.243), the copy intuition of CyGNet~\cite{zhu2021cygnet,cap6938L06C}; popularity is near zero (0.000/0.002) because opponents vary, and the ceiling set by cards already seen is 0.678/0.644. The KG opponent-deck model recovers hidden cards with recall 0.234/0.291/0.327 after 1/2/3 seen cards, against 0.130/0.124/0.118 for popularity (leave-one-game-out, 155 games). % src: next_card_v1.md; opp_model_v1.md (BM sec. 7)
-For knowledge editing~\cite{yao2023editingsurvey,lim2026l17} we apply a synthetic +1-elixir patch to five cards in a patch-versioned fact store, SERAC's non-parametric route~\cite{mitchell2022serac}: reliability, generalisation and portability are 1.000 (0.000, 0.000, 0.067 without the edit), locality 1.000, rollback passes, and re-weighting cuts retrieved hits using an edited card from 0.124 to 0.002; the store is deterministic, so this shows the mechanism works, not that it generalises to a real balance patch~\cite{yang2025mirage}. % src: edit_eval_v2.md (identical to edit_eval_v1.md)
+For knowledge editing~\cite{yao2023editingsurvey,lim2026l17} we apply a synthetic +1-elixir patch to five cards in a patch-versioned fact store, SERAC's non-parametric route~\cite{mitchell2022serac}: reliability, generalisation and portability are 1.000 (0.000, 0.000, 0.067 without the edit), locality 1.000, rollback passes, and re-weighting cuts retrieved hits using an edited card from 0.124 to 0.002; the store is deterministic, so this shows the mechanism, not that it generalises to a real patch~\cite{yang2025mirage}. % src: edit_eval_v2.md (identical to edit_eval_v1.md)
 
 \subsection{Bot versus pro on held-out videos}
 
-We run the full live stack open loop on held-out (test-split) pro videos with the pro's deck and a dry-run executor, matching the bot's would-be taps to the pro's plays within $\pm$2\,s. As the taps do not change the video, this measures what the bot would do in the pro's situation, not whether it would win (its hand memory is never told a card left the hand). Retrieval uses only train and val games, the KG answers and placement prior only train games. Results cover all 24 usable test games (90\,min, 1,561 pro plays, 2,042 bot taps); four more have an incomplete deck. % src: VP header and "Not run" list
+We run the live stack open loop on held-out test videos with the pro's deck and a dry-run executor, matching its would-be taps to the pro's plays within $\pm$2\,s. As taps do not change the video, this measures what the bot would do in the pro's place, not whether it would win (its hand memory never learns a card left the hand). Retrieval uses only train and val games, the KG answers and placement prior only train games. Results cover the 24 usable test games (90\,min, 1,561 pro plays, 2,042 bot taps); 4 more lack a full deck. % src: VP header and "Not run" list
 
 \begin{table}[t]
 \caption{Bot vs pro on held-out pro videos, open loop: 24 test games, 1,561 pro plays. Percent; window $\pm$2\,s; 95\% CIs by game bootstrap. Null: the bot's own taps shifted by 20--60\,s. Baselines use the same plays; the placement prior is given the pro's card.}
@@ -235,13 +258,13 @@ same key $\mid$ same card (103) & 26.2 [16.8, 36.0] & 29.7 (placement prior)\\
 \end{table}
 % src (Table vspro): docs/data/vs_pro_v1.md (MAC-AQ, generated 2026-11-08T02:31:35Z, all 24 usable test games) Headline table (every cell, subset sizes 126 and 103) and Timing table.
 
-Table~\ref{tab:vspro}: the bot's timing beats the null (matched taps a median 0.47\,s from the pro's play), which matters because it taps more often and spends more elixir than the pro (58.7 vs 33.6 per minute). Its card choice beats a random card of its hand and, where a KG threat exists, the KG v1 counter rule, but the ceiling is low: the pro's card is in the perceived hand on only 40.1\% of plays, and the bot cannot pick a card it does not see. Missed pro plays were most often held because no card was affordable (23.0\%), the engine judged that the tower handles the push (22.7\%) or the act model waited (18.8\%). % src: VP Headline, Timing (0.47 s; elixir/min 58.72, 33.58), When the bot held
+Table~\ref{tab:vspro}: the bot's timing beats the null (matched taps a median 0.47\,s from the pro's play), which matters because it taps more often and spends more elixir than the pro (58.7 vs 33.6 per minute). Its card choice beats a random card of its hand and, where a KG threat exists, the KG v1 counter rule, but the ceiling is low: the pro's card is in the perceived hand on only 40.1\% of plays, and the bot cannot pick a card it does not see. Missed pro plays were mostly held because no card was affordable (23.0\%), the engine left the push to the tower (22.7\%) or the act model waited (18.8\%). % src: VP Headline, Timing (0.47 s; elixir/min 58.72, 33.58), When the bot held
 
 \subsection{Live play and prior bots}
 \label{sec:live}
 
 \begin{table}[t]
-\caption{(a) Latency by stage, ms p50 / p95: live trial session (363 decisions) and mean of 3 repeated video dry runs ($\pm$ sd for the total; a shared Mac, so upper bounds). (b) Live record in Training Camp.}
+\caption{(a) Latency by stage, ms p50 / p95: live trial session (363 decisions) and mean of 3 video dry runs ($\pm$ sd for the total; a shared Mac, so upper bounds). (b) Live record in Training Camp.}
 \label{tab:live}
 \centering\scriptsize
 \setlength{\tabcolsep}{3pt}
@@ -302,4 +325,4 @@ Win rate, 95\% CI & 1/20 = 5\% [0.1, 24.9]; 0--10\% over 9 models (R) & none (la
 \end{table}
 % src (Table prior): PBC sec. 0, 1.2-1.4, 2.1-2.2, 4, 5 (Clopper-Pearson 1/20: 0.1-24.9%); ours CMA C7, SA sec. 1; TRIAL (0/10, CI, Fisher); STATUS 2026-11-07 night (earlier win)
 
-Table~\ref{tab:prior}: only KataCR and \cb{} report a win rate against the built-in AI, under different protocols: KataCR played the 2024 game (Season 59) with another deck, and its 1/20 is the best of ten epochs selected on the same 20 games, an optimistic estimate; its latency excludes actuation, ours includes it. We reuse its detector and claim no better one. % src: PBC sec. 5, 6
+Table~\ref{tab:prior}: only KataCR and \cb{} report a win rate against the built-in AI, under different protocols: KataCR played the 2024 game (Season 59) with another deck, and its 1/20 is the best of ten epochs selected on the same 20 games (optimistic); its latency excludes actuation, ours includes it. We reuse its detector and claim no better one. % src: PBC sec. 5, 6

@@ -245,6 +245,78 @@ CAD and AdaCAD give no gain. The replicate on `joint_tac_v2` shows the same pict
 
 **Failure analysis:** `docs/plans/BACKLOG_post_showcase.md` (W1–W12).
 
+## 17. Decision models (MAC-AU)
+
+Source: `docs/data/decision_models_v1.{json,md}` (generated 2026-11-09T06:26:17+00:00 by `tools/eval/score_decision_models.py` from `runs/bench/au/preds/*.jsonl`). Protocol: `docs/plans/MAC-AU_decision_models_retrieval_benchmark.md` (Amendment 1: all test lines, thinking off). Report: Sec. 5.2 and Table 3 of `docs/clashbot_report_cvpr`.
+- Lines: all 766 4-way lines of `dataset/v1/d1/joint_tac_v2/test.jsonl`, 27 test games. Accuracy = the picked option is the pro's play; card accuracy = it has the pro's card. A null prediction (unparseable reply or error) counts as wrong.
+- CIs: cluster bootstrap over the 27 games (10,000 resamples, seed 0). `diff` is paired against d1-ft-joint-tac; McNemar is exact and treats lines as independent.
+- Latency is wall time per decision. Local models ran on the M5 under the heavy lock after a warm-up (d1 with transformers on MPS; Qwen with MLX 4-bit). API latency includes the network round trip.
+- All LLMs share one prompt (`tools/eval/decision_prompt.py`): d1's state text with its `tactics:` / `KG:` lines and the options A-D with their notes.
+
+| model | size / type | n | accuracy [95% CI] | card accuracy [95% CI] | diff vs d1-ft-joint-tac [95% CI] | McNemar p | latency p50 / p95 (ms) | cost / decision | parse failures |
+|---|---|---|---|---|---|---|---|---|---|
+| d1-ft-joint-tac (live) | 600M, fine-tuned | 766 | 0.506 [0.473, 0.538] | 0.692 [0.649, 0.730] | (reference) | (reference) | 75 / 117 | 0 (local) | 0/766 (0.0%) |
+| d1-omni-600M zero-shot | 600M, zero-shot | 766 | 0.260 [0.235, 0.283] | 0.513 [0.484, 0.544] | -0.247 [-0.289, -0.202] | <0.001 | 73 / 113 | 0 (local) | 0/766 (0.0%) |
+| d1-2B fine-tuned | 1.9B, fine-tuned | 766 | 0.429 [0.394, 0.466] | 0.614 [0.571, 0.653] | -0.077 [-0.122, -0.034] | <0.001 | 295 / 465 | 0 (local) | 0/766 (0.0%) |
+| Qwen3-4B-Instruct-2507 zero-shot | 4B LLM, 4-bit | 766 | 0.286 [0.244, 0.331] | 0.527 [0.496, 0.563] | -0.221 [-0.272, -0.166] | <0.001 | 802 / 1119 | 0 (local) | 5/766 (0.7%) |
+| Qwen3-4B + 3 retrieved pro states | 4B LLM, 4-bit, RAG few-shot | 766 | 0.283 [0.251, 0.316] | 0.516 [0.479, 0.554] | -0.223 [-0.266, -0.178] | <0.001 | 1535 / 1958 | 0 (local) | 1/766 (0.1%) |
+| Qwen3-14B zero-shot | 14B LLM, 4-bit | 766 | 0.304 [0.264, 0.345] | 0.523 [0.486, 0.568] | -0.202 [-0.251, -0.155] | <0.001 | 2721 / 3866 | 0 (local) | 0/766 (0.0%) |
+| Claude Haiku 5.5 | API | 766 | 0.279 [0.250, 0.310] | 0.499 [0.462, 0.532] | -0.227 [-0.269, -0.181] | <0.001 | 676 / 823 | $0.00009 | 29/766 (3.8%) |
+| Claude Sonnet 5.5 (thinking between_tools, max 2,000 output tokens, answer parsed from the end of the reply) | API | 766 | 0.364 [0.325, 0.403] | 0.585 [0.543, 0.628] | -0.142 [-0.191, -0.093] | <0.001 | 2467 / 4824 | $0.00369 | 1/766 (0.1%) |
+| random (one seeded draw) | baseline | 766 | 0.269 [0.237, 0.301] | 0.539 [0.504, 0.572] | -0.238 [-0.282, -0.191] | <0.001 | 0.001 / 0.001 | 0 (local) | 0/766 (0.0%) |
+| popularity | baseline | 766 | 0.325 [0.280, 0.373] | 0.453 [0.398, 0.511] | -0.181 [-0.239, -0.119] | <0.001 | 0.001 / 0.002 | 0 (local) | 0/766 (0.0%) |
+| placement prior | baseline | 766 | 0.384 [0.336, 0.431] | 0.614 [0.568, 0.657] | -0.123 [-0.167, -0.080] | <0.001 | 0.003 / 0.003 | 0 (local) | 0/766 (0.0%) |
+| LightGBM LambdaRank (seed 0) | baseline, feature ranker | 766 | 0.482 [0.448, 0.514] | 0.677 [0.648, 0.708] | -0.025 [-0.059, +0.014] | 0.263 | 0.4 / 0.5 | 0 (local) | 0/766 (0.0%) |
+| random (expected) | baseline, analytic | 766 | 0.250 | 0.500 | - | - | - | - | - |
+
+- **Sonnet row.** The Sonnet row above is `claude-sonnet-5-5-long` (settings in `tools/eval/bench_claude_rankers.py`). With the 16-token cap of the other API runs (row `Claude Sonnet 5.5` in the md), 481 of 766 Sonnet replies (62.8%) were cut off (`stop_reason` max_tokens), for accuracy 0.144 [0.112, 0.175]. Haiku with the same cap had 29 of 766 replies (3.8%) cut off; they count as wrong.
+- d1-ft-joint-tac is 0.5065 here (shown as 0.506); section 1 and `stats_audit_v1` show the same lines at 0.507 (bootstrap seed 20261107).
+- d1 zero-shot scores 0.260 on these note-carrying lines, against 0.221 on the plain `joint` lines (section 1).
+- d1-2B fine-tune (top 8 layers trained, val 0.4192, `docs/research/course_mapping_audit.md` C4). It loads after a loader fix (AutoConfig -> native `Lfm3VlConfig`, in a mirror at `runs/bench/au/d1-2b-loadable`). This closes H8 of Appendix A.
+
+## 18. Retrieval methods for the KB and the KG (MAC-AU)
+
+Source: `docs/data/retrieval_methods_v1.{json,md}` (run at HEAD `5bb8048ccb`). Report: Sec. 5.5 and Table 6 of `docs/clashbot_report_cvpr`.
+- Lines and events: the same 766 test lines and 27 games as section 17 (5 videos). CIs are a cluster bootstrap over games (10,000 resamples, seed 0).
+- **Train-only pool.** KB retrieval is restricted to train games: 4,997 of 10,923 indexed states. 125,599 hits were checked and none violated this. KG rules and popularity come from train events only.
+- **Decision rule.** KB: an option's score is the sum of its top-20 hits with the same action key. KG: the option card's score against the line's recent threats. Unsupported lines tie (0.25).
+- **Card-level cap.** The 2x2 grid gives two options per card, so a card-level KG score is capped at 0.5 4-way accuracy.
+- Latency is measured under the heavy lock; read it as an upper bound.
+
+**KB: the pro-state database (top-20 hits per query).**
+
+| method | hit@10 | card_hit@10 | MRR | 4-way acc | card acc | coverage | acc if supported | empty | recall@20 vs exact | ms p50 / p95 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| dense exact (644-d structured, dot) | 0.144 [0.093, 0.200] | 0.423 [0.347, 0.513] | 0.067 [0.038, 0.102] | 0.284 [0.243, 0.331] | 0.476 [0.442, 0.513] | 0.53 [0.46, 0.60] | 0.314 [0.235, 0.391] | 0.000 | - | 1.16 / 1.22 |
+| BM25 (FTS5 over context_text) | 0.166 [0.126, 0.205] | 0.491 [0.399, 0.580] | 0.060 [0.045, 0.075] | 0.318 [0.283, 0.351] | 0.526 [0.495, 0.556] | 0.53 [0.46, 0.59] | 0.379 [0.313, 0.440] | 0.000 | - | 22.14 / 31.97 |
+| RRF dense + BM25 (live bot) | 0.175 [0.125, 0.229] | 0.501 [0.425, 0.586] | 0.074 [0.053, 0.097] | 0.305 [0.268, 0.347] | 0.495 [0.462, 0.529] | 0.58 [0.51, 0.64] | 0.346 [0.282, 0.412] | 0.000 | - | 24.19 / 33.84 |
+| bge-small text embeddings (cosine) | 0.155 [0.103, 0.214] | 0.450 [0.382, 0.521] | 0.067 [0.041, 0.097] | 0.307 [0.265, 0.351] | 0.504 [0.464, 0.544] | 0.46 [0.39, 0.53] | 0.373 [0.285, 0.455] | 0.000 | - | 13.64 / 16.34 |
+| RRF dense + BM25 + bge | 0.184 [0.137, 0.234] | 0.530 [0.455, 0.609] | 0.082 [0.056, 0.112] | 0.314 [0.279, 0.351] | 0.505 [0.473, 0.537] | 0.54 [0.47, 0.61] | 0.367 [0.306, 0.427] | 0.000 | - | 45.16 / 63.27 |
+| HNSW ef 10 (dense, train-filtered) | 0.141 [0.089, 0.198] | 0.418 [0.341, 0.510] | 0.067 [0.038, 0.102] | 0.287 [0.245, 0.333] | 0.479 [0.446, 0.516] | 0.52 [0.46, 0.59] | 0.321 [0.241, 0.398] | 0.000 | 0.977 | 0.84 / 1.31 |
+| HNSW ef 40 (dense, train-filtered) | 0.141 [0.089, 0.198] | 0.419 [0.342, 0.511] | 0.067 [0.038, 0.102] | 0.286 [0.244, 0.332] | 0.476 [0.443, 0.513] | 0.53 [0.46, 0.60] | 0.317 [0.239, 0.393] | 0.000 | 0.990 | 1.11 / 1.65 |
+| HNSW ef 160 (dense, train-filtered) | 0.142 [0.091, 0.199] | 0.422 [0.346, 0.512] | 0.067 [0.038, 0.102] | 0.286 [0.244, 0.332] | 0.477 [0.444, 0.514] | 0.53 [0.46, 0.60] | 0.317 [0.237, 0.394] | 0.000 | 0.998 | 2.24 / 3.07 |
+| deck pre-filter, then dense | 0.076 [0.016, 0.144] | 0.157 [0.035, 0.300] | 0.041 [0.007, 0.080] | 0.286 [0.253, 0.326] | 0.516 [0.494, 0.542] | 0.16 [0.04, 0.29] | 0.475 [0.312, 0.587] | 0.783 | - | 0.82 / 0.87 |
+
+**KG: threat to answer.** 433 events, ranked over the pro's deck. The decision columns use all 766 lines; 374 of them have a threat.
+
+| method | hit@1 | hit@3 | MRR | event coverage | 4-way acc | card acc | line coverage | query ms p50 / p95 | decision ms p50 / p95 |
+|---|---|---|---|---|---|---|---|---|---|
+| KG v1 counter_scores (wiki COUNTERS + mined ANSWERED_BY) | 0.143 [0.122, 0.167] | 0.409 [0.372, 0.447] | 0.360 [0.339, 0.381] | 0.97 [0.94, 0.99] | 0.249 [0.241, 0.257] | 0.499 [0.482, 0.515] | 0.31 [0.26, 0.37] | 0.01 / 0.02 | 0.02 / 0.05 |
+| KG v1 wiki COUNTERS only | 0.141 [0.121, 0.163] | 0.406 [0.369, 0.444] | 0.359 [0.339, 0.379] | 0.97 [0.93, 0.99] | 0.250 [0.242, 0.258] | 0.501 [0.485, 0.516] | 0.29 [0.24, 0.34] | 0.01 / 0.01 | 0.02 / 0.04 |
+| KG v2 answers_for (full) | 0.154 [0.117, 0.196] | 0.422 [0.372, 0.480] | 0.374 [0.343, 0.410] | 0.99 [0.97, 1.00] | 0.239 [0.229, 0.249] | 0.477 [0.457, 0.498] | 0.45 [0.39, 0.51] | 0.05 / 0.07 | 0.02 / 0.13 |
+| KG v2 pro source only | 0.129 [0.096, 0.168] | 0.399 [0.367, 0.438] | 0.350 [0.325, 0.381] | 0.63 [0.50, 0.75] | 0.236 [0.228, 0.244] | 0.472 [0.456, 0.487] | 0.20 [0.15, 0.26] | 0.04 / 0.06 | 0.02 / 0.12 |
+| KG v2 role transfer only | 0.145 [0.118, 0.172] | 0.398 [0.366, 0.430] | 0.356 [0.335, 0.376] | 0.67 [0.55, 0.77] | 0.241 [0.231, 0.252] | 0.482 [0.462, 0.505] | 0.24 [0.18, 0.28] | 0.04 / 0.06 | 0.02 / 0.12 |
+| KG v2 wiki only | 0.147 [0.123, 0.173] | 0.407 [0.371, 0.442] | 0.362 [0.341, 0.383] | 0.97 [0.93, 0.99] | 0.249 [0.241, 0.256] | 0.498 [0.482, 0.512] | 0.29 [0.24, 0.34] | 0.04 / 0.06 | 0.02 / 0.12 |
+| KG v2 simulation (STOPS) only | 0.157 [0.140, 0.176] | 0.440 [0.410, 0.473] | 0.376 [0.359, 0.395] | 0.77 [0.66, 0.86] | 0.258 [0.250, 0.267] | 0.517 [0.501, 0.534] | 0.31 [0.25, 0.37] | 0.04 / 0.06 | 0.02 / 0.12 |
+| KGE RotatE (card COUNTERS threat) | 0.125 [0.095, 0.158] | 0.400 [0.352, 0.448] | 0.340 [0.315, 0.367] | 1.00 [1.00, 1.00] | 0.253 [0.239, 0.265] | 0.505 [0.477, 0.530] | 0.49 [0.43, 0.54] | 0.18 / 0.18 | 0.02 / 0.39 |
+| KGE TransE (card COUNTERS threat) | 0.118 [0.081, 0.152] | 0.353 [0.318, 0.389] | 0.335 [0.309, 0.360] | 1.00 [1.00, 1.00] | 0.245 [0.231, 0.257] | 0.491 [0.462, 0.515] | 0.49 [0.43, 0.54] | 0.13 / 0.14 | 0.02 / 0.30 |
+| train popularity of the answer card | 0.169 [0.124, 0.223] | 0.433 [0.374, 0.492] | 0.384 [0.349, 0.427] | 1.00 [1.00, 1.00] | 0.217 [0.205, 0.231] | 0.435 [0.410, 0.462] | 0.49 [0.43, 0.54] | 0.00 / 0.00 | 0.02 / 0.03 |
+| random (expected) | 0.128 [0.125, 0.132] | 0.384 [0.375, 0.395] | 0.345 [0.340, 0.351] | - | 0.250 [0.250, 0.250] | 0.500 [0.500, 0.500] | - | - | - |
+
+- **As decision models**, every method is far below d1-ft-joint-tac (0.507 [0.473, 0.539] on these lines). The best KB method, BM25, reaches 0.318 [0.283, 0.351]. Deltas vs d1 are -0.189 to -0.222 for the KB and -0.248 to -0.289 for the KG. Every McNemar p is ≤ 2.28e-13. The per-method table is in the md, under "Retrieval as a decision model".
+- The deck pre-filter returns nothing for 78.3% of lines, whose decks never occur in train. On the lines it supports it is the most accurate KB rule (0.475).
+- HNSW keeps 0.977-0.998 of the exact top 20. Exact dense search over the train pool takes only 1.16 ms p50.
+
 ## Appendix A. Re-run ledger (command, wall time, verdict)
 
 All commands from the worktree root, `PY=.venv/bin/python`, HEAD `54243d7`, `HF_HUB_OFFLINE=1`. Heavy steps ran one at a time under the shared lock; the wall time of a heavy step is the time with the lock held. Not run: H4 (live-state parity), H5 (coach bench), H8 (d1-2B fine-tune evaluation: still blocked by the checkpoint loader `KeyError: 'lfm3'`).
