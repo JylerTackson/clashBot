@@ -132,3 +132,11 @@ Metrics per method:
 - Full suite green under the heavy lock: `../.venv/bin/python -m pytest -q --deselect tests/test_perception_latency.py -p no:cacheprovider`.
 - Commit your own files on your worktree branch. Commit messages end with the two attribution lines. Do not push.
 - Report: branch, commit, the headline table, wall time and (Part A) the total API cost.
+
+## Amendment 1 (user, 2026-11-08 23:45): all 766 test decisions, thinking off only
+User: *"can we just leave thinking off and do all 766 decisions"*
+- **Lines:** every row of `dataset/v1/d1/joint_tac_v2/test.jsonl`: 766 lines, 27 test games, the same set as the 50.7% headline. This replaces the 5-game filter. `runs/bench/au/lines.jsonl` is rewritten with all 766 lines, in the file order, with the same fields.
+- **No thinking variants:** drop `qwen3-14b-think60`, `claude-haiku-5-5-think60`, `claude-sonnet-5-5-think60` and the 60-line subset table. Qwen3-14B runs with thinking off. Claude runs with Haiku `{"type": "disabled"}` and Sonnet 5.5 `{"type": "between_tools"}`.
+- **CIs:** cluster bootstrap over the 27 games (10,000 resamples, seed 0), as in `docs/data/stats_audit_v1`. Also report the exact McNemar test against d1-ft-joint-tac.
+- **Part C:** all 766 lines, and the threat → answer events of all 27 test games.
+- **Claude budget:** about $3–4 projected; the $15 stop stays.
