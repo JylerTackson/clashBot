@@ -5,6 +5,7 @@ inside the image (it carries the code, not docker/ or scripts/)."""
 from __future__ import annotations
 
 import importlib.util
+import json
 import re
 import shutil
 import sqlite3
@@ -86,6 +87,7 @@ def test_entrypoint_is_a_dry_run_only_and_syntactically_valid():
     assert "--live" not in code and "CLASHBOT_ALLOW_LIVE" not in code
     assert "--dry-run" in text and "--source video" in text and "--host 0.0.0.0" in text
     assert "--follow" in text and "--record-shots" in text and "--policy fast" in text
+    assert "--stride 3" in text and "DEMO_SECONDS:-60" in text                     # 10 fps (the live rate), 60 s of the clip
     assert "d1 weights not present - the tactics engine is choosing moves" in text
     assert "D1_URL" not in text and "d1-ft-joint-tac" in text
     assert no_secrets(text)                       # no secrets
@@ -117,6 +119,7 @@ def test_compose_file_shape():
     assert "clashbot-runs" in doc["volumes"]
     assert "mem_limit" not in svc and "deploy" not in svc
     assert svc["command"] == ["demo"]
+    assert svc["environment"]["DEMO_SECONDS"] == "${DEMO_SECONDS:-60}"
     assert "CLASHBOT_ALLOW_LIVE" not in str(svc.get("environment", {}))
 
 
@@ -124,7 +127,8 @@ def test_compose_file_shape():
 def test_make_docker_submission_script():
     path = ROOT / "scripts" / "make_docker_submission.sh"
     text = path.read_text()
-    assert "git archive" in text and "slim-db" in text and "scripts/setup_mac.sh" in text
+    assert "git archive" in text and "scripts/setup_mac.sh" in text
+    assert "slim-pool" in text and "--exclude-video Z8-4VhLjrGU" in text         # no self-retrieval from the clip's source video
     assert "--with-d1" not in text and "d1-fp16" not in text and "model.safetensors" not in text   # the zip never holds d1
     assert no_secrets(text)
     assert "knowledge_base/states" in text                                           # the pro-state markdown stays out
@@ -265,6 +269,123 @@ def test_slim_db_keeps_what_the_runtime_reads(tmp_path, artifacts):
     assert ro.execute("SELECT context_text FROM states WHERE id = 's3'").fetchone()[0] == "context"
     assert ro.execute("SELECT COUNT(*) FROM states_fts WHERE states_fts MATCH 'knight'").fetchone()[0] == 20
     ro.close()
+
+
+VIDEO = "Z8-4VhLjrGU"
+
+
+def make_pool(folder: Path) -> list[str]:
+    """A small pool in the real layout (schema.sql, FTS rowid = vec_row + 1, one feature row per state): four videos, the one to
+    exclude in the middle and in two games. Returns the state ids in vec_row order."""
+    np = pytest.importorskip("numpy")
+    from clashbot.db import create_schema
+    folder.mkdir(parents=True)
+    conn = sqlite3.connect(str(folder / "clashbot.sqlite"))
+    create_schema(conn)
+    plan = [("AAAAAAAAAAA-m0.0", "AAAAAAAAAAA", 5), (f"{VIDEO}-m0.0", VIDEO, 4), ("BBBBBBBBBBB-m0.0", "BBBBBBBBBBB", 3),
+            (f"{VIDEO}-m0.1", VIDEO, 6), ("CCCCCCCCCCC-m0.0", "CCCCCCCCCCC", 2)]
+    ids = []
+    for game, video, n in plan:
+        conn.execute("INSERT INTO games(game_id, split) VALUES (?, 'train')", (game,))
+        conn.execute("INSERT INTO provenance(game_id, video_id) VALUES (?, ?)", (game, video))
+        ids += [f"{game}#{k}.0" for k in range(n)]
+    for row, sid in enumerate(ids):
+        text = f"knight bridge {sid.split('-')[0]} number{row}"
+        conn.execute("INSERT INTO states(vec_row, id, game_id, split, kind, context_text, record) VALUES (?,?,?,?,?,?,?)",
+                     (row, sid, sid.split("#")[0], "train", "play", text, "x" * 3000))
+        conn.execute("INSERT INTO states_fts(rowid, id, context_text) VALUES (?,?,?)", (row + 1, sid, text))
+    conn.execute("INSERT INTO meta VALUES ('n_states', ?)", (str(len(ids)),))
+    conn.commit()
+    conn.close()
+    np.save(folder / "state_features.npy", np.stack([np.full(8, i, np.float32) for i in range(len(ids))]))
+    (folder / "state_features.meta.json").write_text(json.dumps({"feature_version": 1, "dim": 8, "n": len(ids)}))
+    return ids
+
+
+def pool_problems(folder: Path, video: str) -> list[str]:
+    """What is wrong with a pool folder: states of `video` left, rows and feature rows that differ in number or order."""
+    import numpy as np
+    problems = []
+    ro = sqlite3.connect(f"file:{folder / 'clashbot.sqlite'}?mode=ro", uri=True)
+    try:
+        rows = ro.execute("SELECT vec_row, id, game_id FROM states ORDER BY vec_row").fetchall()
+        fts = dict(ro.execute("SELECT rowid, id FROM states_fts"))
+        games = [r[0] for r in ro.execute("SELECT game_id FROM games")] + [r[0] for r in ro.execute("SELECT game_id FROM provenance")]
+        videos = [r[0] for r in ro.execute("SELECT video_id FROM provenance")]
+    finally:
+        ro.close()
+    feats = np.load(folder / "state_features.npy", mmap_mode="r")
+    meta = json.loads((folder / "state_features.meta.json").read_text())
+    if any(i.startswith(video) or str(g).startswith(video) for _, i, g in rows):
+        problems.append(f"states of {video} are still in the pool")
+    if any(str(g).startswith(video) for g in games) or video in videos:
+        problems.append(f"games or provenance of {video} are still there")
+    if [r[0] for r in rows] != list(range(len(rows))):
+        problems.append("vec_row is not 0..n-1")
+    if feats.shape[0] != len(rows) or meta["n"] != len(rows):
+        problems.append(f"{len(rows)} rows, {feats.shape[0]} feature rows, meta n {meta['n']}")
+    if fts != {vec_row + 1: sid for vec_row, sid, _ in rows}:
+        problems.append("the FTS rowids are not vec_row + 1 of the same ids")
+    return problems
+
+
+def test_slim_pool_drops_the_source_video_and_keeps_rows_features_and_fts_aligned(tmp_path, artifacts):
+    np = pytest.importorskip("numpy")
+    src, dst = tmp_path / "db", tmp_path / "out"
+    ids = make_pool(src)
+    assert pool_problems(src, "no-such-video") == []                           # the fake source is itself consistent
+    before = {p.name: p.read_bytes() for p in src.iterdir()}
+    info = artifacts.slim_pool(src, dst, exclude_video=VIDEO)
+    assert {p.name: p.read_bytes() for p in src.iterdir()} == before            # the source folder is untouched
+    kept = [i for i in ids if not i.startswith(VIDEO)]
+    assert (info["before"], info["after"], info["removed"]) == (len(ids), len(kept), len(ids) - len(kept))
+    assert pool_problems(dst, VIDEO) == []
+    # the survivors keep their order and their own feature rows
+    ro = sqlite3.connect(f"file:{dst / 'clashbot.sqlite'}?mode=ro", uri=True)
+    assert [r[0] for r in ro.execute("SELECT id FROM states ORDER BY vec_row")] == kept
+    assert ro.execute("SELECT COUNT(*) FROM states_fts WHERE states_fts MATCH ?", ("number7",)).fetchone()[0] == 0   # a removed row
+    assert ro.execute("SELECT COUNT(*) FROM states_fts WHERE states_fts MATCH 'knight'").fetchone()[0] == len(kept)
+    assert ro.execute("SELECT value FROM meta WHERE key = 'n_states'").fetchone()[0] == str(len(kept))
+    assert ro.execute("SELECT COUNT(*) FROM games").fetchone()[0] == 3
+    ro.close()
+    feats = np.load(dst / "state_features.npy")
+    assert feats.shape == (len(kept), 8) and feats.dtype == np.float32
+    assert [int(f[0]) for f in feats] == [ids.index(i) for i in kept]
+    assert json.loads((dst / "state_features.meta.json").read_text())["excluded_video"] == VIDEO
+    # no exclusion: the pool is only slimmed
+    artifacts.slim_pool(src, tmp_path / "all", exclude_video=None)
+    assert pool_problems(tmp_path / "all", "no-such-video") == []
+    assert len(np.load(tmp_path / "all" / "state_features.npy")) == len(ids)
+
+
+REAL_DB = ROOT / "db"
+real_pool = pytest.mark.skipif(not (REAL_DB / "clashbot.sqlite").exists() or not (REAL_DB / "state_features.npy").exists(),
+                               reason="the built pool (db/) is missing")
+
+
+@real_pool
+def test_the_real_pool_without_the_clip_video_loads_in_state_index(tmp_path, artifacts):
+    from clashbot.retrieval import StateIndex
+    ro = sqlite3.connect(f"file:{REAL_DB / 'clashbot.sqlite'}?mode=ro", uri=True)
+    total = ro.execute("SELECT COUNT(*) FROM states").fetchone()[0]
+    own = ro.execute("SELECT COUNT(*) FROM states WHERE game_id LIKE ?", (VIDEO + "-%",)).fetchone()[0]
+    ro.close()
+    info = artifacts.slim_pool(REAL_DB, tmp_path / "pool", exclude_video=VIDEO)
+    assert own > 0 and info["before"] == total and info["after"] == total - own
+    assert pool_problems(tmp_path / "pool", VIDEO) == []
+    index = StateIndex(tmp_path / "pool" / "clashbot.sqlite")                  # the loader's own consistency checks
+    assert index.n == info["after"] == index.M.shape[0]
+    assert not any(str(i).startswith(VIDEO) for i in index.id) and not any(str(g).startswith(VIDEO) for g in index.game_id)
+    hits = index.bm25("double elixir defend skeletons left bridge", 5)
+    assert hits and all(not index.id[row].startswith(VIDEO) for row, _ in hits)
+
+
+SHIPPED = ROOT / "artifacts" / "db"
+
+
+@pytest.mark.skipif(not (SHIPPED / "clashbot.sqlite").exists(), reason="the Docker artefacts are not part of this tree")
+def test_the_shipped_pool_has_no_state_of_the_clip_video_and_is_aligned():
+    assert pool_problems(SHIPPED, VIDEO) == []
 
 
 def test_cut_clip_keeps_the_frame_size(tmp_path, artifacts):

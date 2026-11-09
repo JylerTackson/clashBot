@@ -3,8 +3,8 @@
 #   demo   (default)  start the dashboard, run the live stack in dry run on the bundled clip, keep the dashboard up
 #   tests             a small CPU test subset
 #   <anything else>   run that command (e.g. `bash`)
-# Environment knobs (all optional): RANKER (d1|tactics), DEMO_SECONDS (video seconds to process, default the whole
-# clip), VIZ_PORT (default 8765), KEEP_SERVING (default 1; 0 = exit when the run ends).
+# Environment knobs (all optional): RANKER (d1|tactics), DEMO_SECONDS (video seconds to process, default 60 of the
+# 90 s clip), VIZ_PORT (default 8765), KEEP_SERVING (default 1; 0 = exit when the run ends).
 # Nothing here sends input anywhere: the executor is the dry-run one and `--live` is never passed.
 set -eu
 
@@ -66,12 +66,13 @@ banner "Dashboard:  http://localhost:$VIZ_PORT   (open it now; decisions appear 
        "Ranker:     $RANKER" \
        "Dry run:    no taps are ever sent"
 
-# ---- the live stack in dry run on the clip (the clip is 90 s; --seconds is video time) ----
+# ---- the live stack in dry run on the clip. --stride 3 turns the 30 fps video into 10 fps, the rate of the live capture and of the
+# vs-pro runs; --seconds is video time (the clip is 90 s long, the default 60 s keeps the run short) ----
 status=0
 # shellcheck disable=SC2086
 python -m clashbot.live --dry-run --source video --video "$ART/clip.mp4" --calib "$ART/calib.json" \
     --deck "$DECK" $RANKER_ARGS --policy fast --act-model "$ART/act-gbdt" --device cpu \
-    --record-shots --seconds "${DEMO_SECONDS:-95}" --out "$OUT" &
+    --record-shots --stride 3 --seconds "${DEMO_SECONDS:-60}" --out "$OUT" &
 LIVE_PID=$!
 wait "$LIVE_PID" || status=$?
 
@@ -81,7 +82,7 @@ if [ "$status" -ne 0 ]; then
   exit "$status"
 fi
 
-banner "The clip has ended. Run summary: $OUT/summary.json" \
+banner "The demo run has finished. Run summary: $OUT/summary.json" \
        "The dashboard keeps serving the finished run at http://localhost:$VIZ_PORT  (Ctrl-C to stop)"
 if [ "${KEEP_SERVING:-1}" = "0" ]; then
   kill "$VIZ_PID" 2>/dev/null || true

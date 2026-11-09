@@ -17,7 +17,7 @@ services:
       - "8765:8765"                    # the decision dashboard
     environment:
       RANKER: ${RANKER:-d1}            # d1 (default; falls back to tactics when the weights were not downloaded) or tactics
-      DEMO_SECONDS: ${DEMO_SECONDS:-95}  # seconds of the 90 s clip to process (a short smoke run: 20)
+      DEMO_SECONDS: ${DEMO_SECONDS:-60}  # seconds of the 90 s clip to process (the whole clip: 90; a short smoke run: 20)
       KEEP_SERVING: ${KEEP_SERVING:-1}   # 0: exit when the clip ends instead of serving the dashboard
     volumes:
       - clashbot-runs:/data/runs       # every run (decisions, screenshots, summary) persists between starts

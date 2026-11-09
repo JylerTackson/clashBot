@@ -3,13 +3,15 @@
 
     python scripts/docker_artifacts.py clip   SRC.mp4 DST.mp4 [--start 60] [--seconds 90]
     python scripts/docker_artifacts.py slim-db SRC.sqlite DST.sqlite
+    python scripts/docker_artifacts.py slim-pool SRC_DB_DIR DST_DIR [--exclude-video Z8-4VhLjrGU]
 
-Each one only reads its source (the sqlite file is opened read-only) and writes a new file. No network, no model load, no
+Each one only reads its source (the sqlite file is opened read-only) and writes new files. No network, no model load, no
 input sent anywhere. (The d1 weights are not packaged: the image downloads them from Hugging Face at build time.)
 """
 from __future__ import annotations
 
 import argparse
+import json
 import sqlite3
 import sys
 from pathlib import Path
@@ -68,12 +70,65 @@ def slim_db(src: Path, dst: Path) -> dict:
         if "record" in cols:
             out.execute("UPDATE states SET record = NULL")
         out.commit()
+        out.execute("PRAGMA journal_mode = DELETE")        # no -wal / -shm files next to the shipped file
         out.execute("VACUUM")
         counts = {t: out.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
                   for t in ("states", "games", "provenance", "kg_edges") if t in names}
     finally:
         out.close()
     return {"bytes": dst.stat().st_size, "rows": counts}
+
+
+def slim_pool(src_dir: Path, dst_dir: Path, exclude_video: str | None = None) -> dict:
+    """The retrieval pool of the image: `clashbot.sqlite` (slimmed as `slim_db`), `state_features.npy` and
+    `state_features.meta.json` in `dst_dir`, from the `db/` folder `src_dir`. With `exclude_video`, every state of that source
+    video (all its games) leaves the pool, so the demo clip never retrieves the pro's own play from the same match. The three
+    files stay consistent the way `StateIndex` expects: the surviving states are renumbered 0..n-1 in their old order
+    (`states.vec_row`), the FTS5 index is rebuilt with rowid = vec_row + 1, and the feature matrix keeps exactly those rows.
+    The games and provenance rows of the excluded video go too. Nothing under `src_dir` is modified."""
+    import numpy as np
+    src_dir, dst_dir = Path(src_dir), Path(dst_dir)
+    dst_dir.mkdir(parents=True, exist_ok=True)
+    db = dst_dir / "clashbot.sqlite"
+    info = slim_db(src_dir / "clashbot.sqlite", db)
+    features = np.load(src_dir / "state_features.npy", mmap_mode="r")
+    meta = json.loads((src_dir / "state_features.meta.json").read_text())
+    conn = sqlite3.connect(str(db))
+    try:
+        old_rows = [r[0] for r in conn.execute("SELECT vec_row FROM states ORDER BY vec_row")]
+        if old_rows != list(range(len(old_rows))) or features.shape[0] != len(old_rows):
+            raise ValueError(f"the source pool is not aligned: {len(old_rows)} states, {features.shape[0]} feature rows")
+        before = len(old_rows)
+        if exclude_video:
+            games = {r[0] for r in conn.execute("SELECT game_id FROM provenance WHERE video_id = ?", (exclude_video,))}
+            games |= {r[0] for r in conn.execute("SELECT game_id FROM games WHERE game_id LIKE ?", (exclude_video + "-%",))}
+            games |= {r[0] for r in conn.execute("SELECT DISTINCT game_id FROM states WHERE game_id LIKE ?", (exclude_video + "-%",))}
+            marks = ",".join("?" * len(games))
+            if games:
+                conn.execute(f"DELETE FROM states WHERE game_id IN ({marks})", sorted(games))
+                conn.execute(f"DELETE FROM games WHERE game_id IN ({marks})", sorted(games))
+                conn.execute(f"DELETE FROM provenance WHERE game_id IN ({marks})", sorted(games))
+            conn.execute("DELETE FROM provenance WHERE video_id = ?", (exclude_video,))
+        kept = [r[0] for r in conn.execute("SELECT vec_row FROM states ORDER BY vec_row")]
+        # renumber in ascending order: every new number is <= the old one and already free, so the primary key never collides
+        conn.executemany("UPDATE states SET vec_row = ? WHERE vec_row = ?", [(new, old) for new, old in enumerate(kept) if new != old])
+        conn.execute("DELETE FROM states_fts")
+        conn.execute("INSERT INTO states_fts(rowid, id, context_text) SELECT vec_row + 1, id, context_text FROM states ORDER BY vec_row")
+        conn.execute("INSERT INTO states_fts(states_fts) VALUES ('optimize')")
+        conn.execute("UPDATE meta SET value = ? WHERE key = 'n_states'", (str(len(kept)),))
+        conn.commit()
+        conn.execute("PRAGMA journal_mode = DELETE")
+        conn.execute("VACUUM")
+        counts = {t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0] for t in ("states", "states_fts", "games", "provenance")}
+    finally:
+        conn.close()
+    np.save(dst_dir / "state_features.npy", np.ascontiguousarray(features[kept], dtype=np.float32))
+    meta["n"] = len(kept)
+    if exclude_video:
+        meta["excluded_video"] = exclude_video
+    (dst_dir / "state_features.meta.json").write_text(json.dumps(meta, indent=2))
+    return {"before": before, "after": len(kept), "removed": before - len(kept), "rows": counts,
+            "db_bytes": db.stat().st_size, "features_bytes": (dst_dir / "state_features.npy").stat().st_size, "slim": info}
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -87,9 +142,15 @@ def main(argv: list[str] | None = None) -> int:
     s = sub.add_parser("slim-db")
     s.add_argument("src", type=Path)
     s.add_argument("dst", type=Path)
+    q = sub.add_parser("slim-pool")
+    q.add_argument("src", type=Path, help="the db/ folder: clashbot.sqlite, state_features.npy, state_features.meta.json")
+    q.add_argument("dst", type=Path)
+    q.add_argument("--exclude-video", default=None, help="drop every state of this source video id from the pool")
     args = ap.parse_args(argv)
     if args.cmd == "clip":
         info = cut_clip(args.src, args.dst, args.start, args.seconds)
+    elif args.cmd == "slim-pool":
+        info = slim_pool(args.src, args.dst, args.exclude_video)
     else:
         info = slim_db(args.src, args.dst)
     print(args.cmd, info)

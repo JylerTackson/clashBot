@@ -20,6 +20,22 @@ every decision is logged (decisions.jsonl, screenshots) and shown in the dashboa
 Fast path for a grader without the iPhone or the model weights: [docs/QUICKSTART.md](docs/QUICKSTART.md) (environment check, tests, one eval,
 a 60 s video dry run, the dashboard on it; about 10 minutes on an M-series Mac).
 
+## Run with Docker (any OS)
+
+The Docker submission (`dist/clashbot_docker_submission.zip`, built by `scripts/make_docker_submission.sh`) needs only Docker on Linux,
+Windows or macOS, Intel or ARM: `unzip`, `cd clashbot_docker`, `docker compose up --build`, then open http://localhost:8765. It builds the
+image for your CPU (PyTorch CPU wheels, the d1 weights downloaded from Hugging Face at build time), runs the whole live stack in dry run on a
+bundled clip of a pro match and shows every decision in the dashboard. Nothing is tapped. Details, timings and settings:
+[docs/DOCKER.md](docs/DOCKER.md) (it is the README of that zip).
+
+## Live play on a Mac
+
+Playing for real (Training Camp, through iPhone Mirroring) runs natively, because Docker cannot reach the macOS window server. On a Mac
+with iPhone Mirroring and Clash Royale, run [scripts/setup_mac.sh](scripts/setup_mac.sh) once from the unzipped Docker package (it makes a
+`.venv`, downloads d1, puts the data in place, runs the environment check and prints the live command and the two permissions it needs).
+Taps still need `--live` and `CLASHBOT_ALLOW_LIVE=1` (D-031) and happen only in Training Camp (D-050); see the section "Live play on a
+Mac (optional)" of [docs/DOCKER.md](docs/DOCKER.md) and "Run the demo" below.
+
 ## What is in the zip, and what is not
 
 The zip is `git archive` of the repository: code, tests, docs, the card knowledge base (with the card art the perception matches
