@@ -1,0 +1,86 @@
+\section{Introduction}
+\label{sec:intro}
+
+Clash Royale is a real-time, two-player phone card game: each player brings a hidden eight-card deck, holds four cards, and spends elixir (regenerating up to ten) to place troops, buildings and spells on an 18$\times$32-tile arena, for three minutes plus up to two of overtime~\cite{wu2025nonembedded}. % src: PBC sec. 1.1 (deck 8, hand 4, 3 + 2 min, 18 x 32 grid)
+\cb{} is a \emph{non-embedded} agent~\cite{wu2025nonembedded}: with no game API, it reads the screen of an iPhone mirrored onto a Mac and clicks the mirrored window, the interface a human uses.
+
+The task is hard for five measurable reasons. (i)~\emph{Real time}: perception targets 10\,fps (7.97\,fps in live run 111554); capture to click takes 323\,ms (median, live trial). % src: LOG (323 ms); CMA C7 (7.97 fps, run 20261107-111554)
+(ii)~\emph{Partial, noisy observation}: the opponent's deck, hand and elixir are hidden, and the pro's recorded move passes our perceived-legality check on only 0.542--0.597 of states. % src: CMA A3 neuro-symbolic row (ranker_stats_v1.json pos_in_legal_rate)
+(iii)~\emph{Structured actions plus timing}: card $\times$ lane $\times$ zone or hold (D-010), and pros deploy within the next second on about a fifth of seconds (dense act rate 0.204). % src: CMA B dense wait/act row
+(iv)~\emph{Sparse supervision}: 197 pro games (about 12 match-hours, one creator), no reward or simulator, and an opponent with level-15 cards. % src: CMA C1; D-047
+(v)~\emph{Consumer hardware}: one Apple M5 laptop with 32\,GB and no paid API. % src: CMA C3 (hardware); PBC sec. 4 (cost per game)
+
+Following the course's retrieve-then-rank and agent-with-tools patterns~\cite{lim2026l11,lim2026l13,lim2026l15}, deterministic tools (a tactical engine with a lane simulator, hybrid retrieval over pro states and a knowledge graph) propose at most four candidate plays with short text notes, and a decision LLM fine-tuned on the pro games picks one; no tool picks the move (D-045; design decisions are logged as D-001 to D-053). Contributions:
+\begin{enumerate}
+\item A non-embedded, two-speed agent playing live through iPhone Mirroring with all models local and guarded demo tooling (Sec.~\ref{sec:system}).
+\item A knowledge layer (hybrid retrieval over 10,923 pro states, a two-version KG with lane-simulation edges and 3,620 mined pro answers, a tactical engine) rendered as context for a fine-tuned setwise LLM ranker. % src: CMA C1, C2, A1
+\item A leakage-checked benchmark suite (Sec.~\ref{sec:exp}): options rebuilt after a leak (an option-key rule scored 0.852 on test), ten rankers with cluster-bootstrap CIs, ablations from retrieval to knowledge editing, and an open-loop comparison with the pro, negative results included. % src: D-037 (0.852 test)
+\item Live Training Camp evaluation: 13 recorded runs (931 logged decisions) with one win, then a 0--10 trial on frozen code, diagnosed from the logs (Sec.~\ref{sec:live}, \ref{sec:disc}). % src: CMA C6; STATUS 2026-11-07 night; TRIAL; BL
+\end{enumerate}
+The bot plays only Training Camp and friendly battles, never ranked matches against people (D-031, D-050).
+
+% ---------------------------------------------------------------------------------------------
+\begin{figure*}[t]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  box/.style={draw=black!70, rounded corners=2pt, align=center, font=\scriptsize,
+              text width=2.05cm, minimum height=1.0cm, inner sep=2pt, fill=white},
+  fast/.style={box, fill=blue!6},
+  know/.style={box, fill=orange!8},
+  off/.style={box, fill=black!4},
+  arr/.style={-{Stealth[length=1.6mm]}, thick, draw=black!70},
+  lab/.style={font=\tiny, text=black!75, fill=white, inner sep=1pt}]
+% row 1: fast loop
+\node[fast] (phone) at (0,0)     {\textbf{iPhone}\\Training Camp only\\(iPhone Mirroring)};
+\node[fast] (cap)   at (2.45,0)  {\textbf{Capture}\\Quartz window\\10 fps target};
+\node[fast] (per)   at (4.9,0)   {\textbf{Perception}\\YOLOv8 $\times$2, OCR,\\Kalman tracker};
+\node[fast] (st)    at (7.35,0)  {\textbf{Live state}\\hand, elixir, towers,\\units + ETA};
+\node[fast] (gate)  at (9.8,0)   {\textbf{When to act}\\rules + LightGBM\\gate (29 features)};
+\node[fast] (cand)  at (12.25,0) {\textbf{Candidates} ($\le$4)\\engine, kNN+BM25,\\KG, fallback};
+\node[fast] (d1)    at (14.7,0)  {\textbf{d1 ranker}\\fine-tuned 600M\\LLM picks one};
+\node[fast] (ex)    at (17.15,0) {\textbf{Executor}\\two clicks; live\\guard + banner gate};
+% row 2: knowledge layer
+\node[know] (eng)   at (7.35,-1.95)  {\textbf{Tactical engine}\\lane simulation,\\ETA, spell value};
+\node[know] (kg)    at (9.8,-1.95)   {\textbf{Knowledge graph}\\v1 + v2: 840 nodes,\\27,112 edges};
+\node[know] (idx)   at (12.25,-1.95) {\textbf{Pro-state index}\\10,923 states,\\644-d + FTS5 BM25};
+\node[know, dashed] (coach) at (17.15,-1.95) {\textbf{Coach} (optional)\\Qwen3-14B 4-bit,\\plan every 20 s};
+% row 3: offline
+\node[off] (vid)    at (2.45,-3.7)  {\textbf{197 pro games}\\33 videos,\\one creator};
+\node[off] (ds)     at (4.9,-3.7)   {\textbf{Dataset v1}\\perception + cleaning,\\split by video};
+\node[off] (kgb)    at (9.8,-3.7)   {\textbf{KG build}\\wiki, KB tables, sim,\\3,620 mined answers};
+\node[off] (idxb)   at (12.25,-3.7) {\textbf{Index build}\\features, FTS5,\\HNSW (offline)};
+\node[off] (tr)     at (14.7,-3.7)  {\textbf{Training}\\d1 on 2$\times$2 grid,\\LightGBM act model};
+% row labels
+\node[font=\scriptsize\bfseries, rotate=90] at (-1.45,0)     {fast loop};
+\node[font=\scriptsize\bfseries, rotate=90] at (-1.45,-1.95)  {knowledge};
+\node[font=\scriptsize\bfseries, rotate=90] at (-1.45,-3.7) {offline};
+% fast-loop arrows
+\draw[arr] (phone) -- (cap);
+\draw[arr] (cap) -- (per);
+\draw[arr] (per) -- (st);
+\draw[arr] (st) -- (gate);
+\draw[arr] (gate) -- node[lab, above=1pt] {act?} (cand);
+\draw[arr] (cand) -- node[lab, above=1pt] {notes} (d1);
+\draw[arr] (d1) -- (ex);
+\draw[arr] (ex.north) -- ++(0,0.42) -| node[lab, pos=0.25, above=1pt] {taps (Quartz clicks into the mirrored window)} (phone.north);
+% knowledge-layer arrows
+\draw[arr] (st.south) -- (eng.north);
+\draw[arr] (kg.west) -- (eng.east);
+\draw[thick, draw=black!70] (kg.north) -- (9.8,-1.0);
+\draw[arr] ([xshift=4mm]eng.north) |- (11.65,-1.0) -- node[lab, pos=0.0, left=6pt] {moves, counters} (11.65,-0.5);
+\draw[arr] (idx.north) -- node[lab, right=1pt, pos=0.45] {RRF} (cand.south);
+\draw[arr, dashed] (coach.north) |- (15.1,-1.0) -- node[lab, pos=0.5, right=1pt] {[plan]} (15.1,-0.5);
+% offline arrows
+\draw[arr] (vid) -- (ds);
+\draw[arr] (ds) -- (kgb);
+\draw[arr] (kgb) -- (idxb);
+\draw[arr] (idxb) -- (tr);
+\draw[arr] (kgb) -- (kg);
+\draw[arr] (idxb) -- (idx);
+\draw[arr] ([xshift=-3mm]tr.north) -- node[lab, pos=0.5] {weights} ([xshift=-3mm]d1.south);
+\end{tikzpicture}}
+\caption{Two-speed architecture (D-007). The fast loop runs on every decision (323\,ms p50 capture to click in the live trial); tools in the knowledge layer only propose candidates and write notes, and the fine-tuned d1 LLM picks the move (D-045). The coach is optional and off by default. Every decision is logged and can be replayed in the dashboard (Fig.~\ref{fig:dashboard}).}
+\label{fig:pipeline}
+\end{figure*}
+% src (figure numbers): LOG (323 ms), C2 (840 / 27,112), C1 (197 games, 33 videos, 10,923 x 644), C3/B (Qwen3-14B coach, 20 s period), act_gbdt_v1.md (29 features), CMA C2 extras (3,620 answers)

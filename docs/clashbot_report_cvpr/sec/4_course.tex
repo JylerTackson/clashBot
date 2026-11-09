@@ -1,0 +1,60 @@
+\section{Course Concepts in the System}
+\label{sec:course}
+
+Table~\ref{tab:course} maps each course block to what is built, where it runs and the number that tests it; Sec.~\ref{sec:disc} draws together the four course lessons that recur in the results.
+
+\begin{table*}[t]
+\caption{Course techniques in \cb{}. Use: live = default live path; off = offline evaluation or a flag only. Test split unless noted; numbers from Sec.~\ref{sec:exp}.}
+\label{tab:course}
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}L{1.8cm}L{4.55cm}L{4.55cm}L{5.0cm}l@{}}
+\toprule
+Block & Technique & Where in \cb{} & Evidence & Use\\
+\midrule
+Retrieval
+ & BM25~\cite{robertson2009bm25} + RRF ($k{=}60$)~\cite{cormack2009rrf} & FTS5 channel fused with structured kNN & hit@10 0.160 fused vs 0.136 kNN alone & live\\
+L8--10~\cite{cap6938L08,cap6938L09,cap6938L10}
+ & HNSW~\cite{malkov2020hnsw} vs exact search & index over 10,923 state vectors & ef 40: recall@10 0.978, 0.31 vs 1.51\,ms & off\\
+ & Pre- vs post-filtering & deck and phase filters & pre-filter pool empty 88.9\%; post@10 50\%/87\% & off\\
+ & Setwise LLM reranking~\cite{zhuang2024setwise,sun2023rankgpt} & d1 scores all ($\le$4) options in one pass & 0.507 fine-tuned vs 0.221 zero-shot (chance 0.25) & live\\
+Dense repr.
+ & Fixed-length state vectors & 644-d hand-built vector & structured kNN hit@10 0.136 & live\\
+L2--4~\cite{lim2026l02,lim2026l03}
+ & Small text embedder~\cite{xiao2023cpack} & 384-d bge-small channel & adds $\sim$20\,ms, hit@10 0.143: not integrated & off\\
+RAG
+ & Parametric-memory limit~\cite{mallen2023popqa} & engine, retrieval and KG notes in context & zero-shot d1 at chance; by key popularity: Fig.~\ref{fig:popularity} & live\\
+L11--12~\cite{lim2026l11,lim2026l12}
+ & Distractor training (RAFT)~\cite{zhang2024raft} & 1 gold + 3 hard options on a 2$\times$2 grid & option-key shortcut 0.852 $\rightarrow$ 0.250 & train\\
+ & Graph facts in context (GraphRAG)~\cite{edge2024graphrag} & up to 3 \tw{KG:} lines per decision & retrain on them: $-$2.2 pts [$-$4.7, +0.5] & live\\
+ & Adaptive trigger~\cite{jiang2023flare,jeong2024adaptiverag} & play/wait gate decides when d1 is called & bal.\ acc.\ 0.607 LightGBM vs 0.509 rules ($h{=}2$\,s) & live\\
+ & Abstention scoring (CRAG)~\cite{yang2024cragbench} & hold when d1's top probability $<$ 0.483 & utility 0.104 vs 0.013 answering all & off\\
+Rec.\ systems
+ & LM as recommender, full fine-tune~\cite{bao2023tallrec,geng2022p5} & d1-omni-600M, 313.6M trained parameters & val/test 0.547/0.507 & live\\
+L13--14~\cite{lim2026l13,lim2026l14}
+ & Feature rankers~\cite{wang2021dcnv2,burges2010lambdamart}; tuned baselines~\cite{rendle2020ncfvsmf} & logreg, LambdaRank, DCN-V2; 783 features & d1 $-$ LightGBM: +2.5 pts [$-$1.4, +5.9] & off\\
+ & Sequential rec.\ (SASRec)~\cite{kang2018sasrec} & opponent next-card prediction & acc@1 0.222 vs copy-frequency 0.243 & off\\
+KG
+ & Typed KG feeding decisions & v1 590/12,030; v2 840/27,112, 19 relations & opp.-deck recall 0.234 vs popularity 0.130 ($k{=}1$) & live\\
+L5--7~\cite{cap6938L05,cap6938L06C,cap6938L07}
+ & KGE~\cite{bordes2013transe,yang2015distmult,trouillon2016complex,sun2019rotate}, audit protocol~\cite{ruffinelli2020olddog,sun2020reevaluation} & held-out COUNTERS triples, PyKEEN~\cite{ali2021pykeen} & RotatE MRR 0.159 vs popularity 0.110 & off\\
+ & Rule mining with support~\cite{lajus2020amie3,liu2022tlogic} & 287 threat $\rightarrow$ pro-answer rules (8\,s) & hit@1 0.154; popularity 0.169, random 0.128 & live\\
+ & Temporal copy mechanism~\cite{zhu2021cygnet} & copy-frequency over PLAYED\_AFTER & acc@1 0.243, beats SASRec & off\\
+ & Neuro-symbolic hard constraints (L7) & legality filter, safety rules, lane simulation & pros' own play legal on 0.542--0.597 of states & live\\
+Agents
+ & Agent with tools~\cite{yao2023react}; one decision LLM & engine, retrieval, KG propose; d1 decides & 13 runs, 931 logged decisions, 746 taps & live\\
+L15--16~\cite{lim2026l15,lim2026l16}
+ & Guarded execution & two-switch guard, banner gate, decision logs & taps landed 75/84, 78/95; trial 0/10 wins & live\\
+ & Trajectory-level evaluation~\cite{yao2025taubench} & open loop vs the pro on held-out videos & pro plays met $\pm$2\,s 77.1\% (null 68.9\%) & off\\
+Knowl.\ updating
+ & Editing criteria~\cite{yao2023editingsurvey}; non-parametric edit~\cite{mitchell2022serac} & patch-versioned fact store & reliability 1.000; portability 1.000 vs 0.067 & off\\
+L17--18~\cite{lim2026l17,lim2026l18}
+ & Knowledge conflicts~\cite{wu2024clasheval,xie2024chameleon} & corrupted tool notes (E2) & poisoned-note follow-rate 0.044; $-$0.4 pts & off\\
+ & CAD/AdaCAD~\cite{shi2024cad,wang2025adacad}; stale facts & contrastive decoding; pre-patch down-weight & CAD no gain; stale hits 0.124 $\rightarrow$ 0.002 & off\\
+\bottomrule
+\end{tabular}
+\end{table*}
+% src (Table course): retrieval_ablation_v1.md (0.160, 0.136, 0.978, 0.31, 1.51, 88.9%, 50%/87%, 0.143); SA sec. 1/2/4 (0.507, 0.221, 0.547, -2.2, +2.5, 0.104/0.013); D-037 (0.852);
+%   act_gbdt_v2.md (0.607 vs 0.509); CMA A2 (313.6M), A3 (0.542-0.597), C2, C6; next_card_v1.md (0.222, 0.243); opp_model_v1.md (0.234 vs 0.130);
+%   kge_link_prediction_v1.md (0.159, 0.110); answer_rules_v1.md (0.154, 0.169, 0.128); BM sec. 11 (75/84, 78/95); edit_eval_v2.md = edit_eval_v1.md;
+%   CC replicate joint_tac_v2, test (C3 follow-rate 0.044, delta -0.004; CAD a tuned on val = 0); VP headline (77.1%, null 68.9%); TRIAL (0/10)

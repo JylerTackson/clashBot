@@ -1,0 +1,76 @@
+% CVPR 2026 Paper Template; see https://github.com/cvpr-org/author-kit
+%
+% clashbot final report, CAP 6938 AI Knowledge Systems (UCF), ported from the IEEE version
+% (docs/report/clashbot_report.tex) to the CVPR 2026 author kit required by the instructor.
+% Compile: pdfLaTeX + BibTeX on Overleaf (root file main.tex), or locally: tectonic -X compile main.tex
+% Page rule (CVPR): at most eight pages excluding references.
+%
+% Source convention: every number carries a "% src:" comment naming the file it was copied from.
+%   CMA = docs/research/course_mapping_audit.md       PBA = docs/research/packaging_and_benchmarks_audit.md
+%   PBC = docs/research/prior_bots_comparison.md      CGA = docs/research/course_gap_analysis.md
+%   BM  = docs/data/BENCHMARKS.md   SA = docs/data/stats_audit_v1.md   STATUS = docs/mac/STATUS.md
+%   D-nnn = docs/decisions/DECISIONS.md   CC = docs/data/context_conflict_v1.md   AR = docs/data/answer_rules_v1.md
+%   VP = docs/data/vs_pro_v1.md   LAT = docs/data/latency_v2.md
+% Revision 2 (2026-11-07): every number once tagged [pre-merge] was re-checked against the merged docs/data
+% files (MAC-AP, MAC-AR) and the tag removed.
+% Revision 3 (2026-11-07 night): vs_pro_v1 is final (all 24 usable test games, generated 2026-11-08T02:31:35Z); the
+% Training Camp trial is filled. TRIAL = the user's recorded results of the 10 trial battles (2026-11-07 evening,
+% scripts/demo.sh --live, frozen code D-051) as relayed for revision 3; LOG = session log runs/demo/20261107-213709
+% (battles.jsonl, decisions.jsonl; 9 of 10 battles logged); BL = docs/plans/BACKLOG_post_showcase.md (W1-W12).
+% Revision 4 (2026-11-09): CVPR port. Two benchmark subsections are reserved as \TODO placeholders in
+% sec/5_experiments.tex (Decision models; Retrieval methods for the KB and the KG).
+
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+%%%%%%%%% PAPER TYPE  - PLEASE UPDATE FOR FINAL VERSION
+\usepackage{cvpr}              % To produce the CAMERA-READY version (shows the author; no line numbers)
+% \usepackage[review]{cvpr}      % To produce the REVIEW version
+% \usepackage[pagenumbers]{cvpr} % To force page numbers, e.g. for an arXiv version
+
+% Import additional packages in the preamble file, before hyperref
+\input{preamble}
+
+% It is strongly recommended to use hyperref, especially for the review version.
+% hyperref with option pagebackref eases the reviewers' job.
+% Please disable hyperref *only* if you encounter grave issues,
+% e.g. with the file validation for the camera-ready version.
+%
+% If you comment hyperref and then uncomment it, you should delete *.aux before re-running LaTeX.
+% (Or just hit 'q' on the first LaTeX run, let it finish, and you should be clear).
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+
+%%%%%%%%% PAPER ID
+% Not a CVPR submission (course report): no paper ID, no conference header.
+% \paperID and \confName are used by cvpr.sty only in review/rebuttal mode.
+% \def\paperID{*****}
+% \def\confName{CVPR}
+% \def\confYear{2026}
+
+%%%%%%%%% TITLE
+\title{\cb{}: A Knowledge-Grounded LLM Agent That Plays Clash Royale\\in Real Time from Pixels}
+
+%%%%%%%%% AUTHORS
+\author{David Tyler Jackson (5298477)\\
+University of Central Florida\\
+{\normalsize CAP 6938 AI Knowledge Systems}\\
+{\normalsize Instructor: Dr.\ Ser Nam Lim}
+}
+
+\begin{document}
+\maketitle
+\input{sec/0_abstract}
+\input{sec/1_intro}
+\input{sec/2_related}
+\input{sec/3_system}
+\input{sec/4_course}
+\input{sec/5_experiments}
+\input{sec/6_discussion}
+\input{sec/7_conclusion}
+{
+    \small
+    \bibliographystyle{ieeenat_fullname}
+    \bibliography{main}
+}
+
+\end{document}

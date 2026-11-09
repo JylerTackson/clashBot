@@ -1,0 +1,72 @@
+%% This file contains a number of tweaks that are typically applied to the main document.
+%% They are not enabled by default, but can be enabled by uncommenting the relevant lines.
+
+%%
+%% Inline annotations; for predefined colors, refer to "dvipsnames" in the xcolor package:
+%% https://tinyurl.com/overleaf-colors
+%%
+\newcommand{\red}[1]{{\color{red}#1}}
+\newcommand{\todo}[1]{{\color{red}#1}}
+\newcommand{\TODO}[1]{\textbf{\color{red}[TODO: #1]}}
+%%
+%% disable for camera ready / submission by uncommenting these lines  
+%%
+% \renewcommand{\TODO}[1]{}
+% \renewcommand{\todo}[1]{#1}
+
+%%
+%% work harder in optimizing text layout. Typically shrinks text by 1/6 of page, enable
+%% it at the very end of the writing process, when you are just above the page limit
+%%
+% \usepackage{microtype}
+
+%%
+%% fine-tune paragraph spacing
+%%
+% \renewcommand{\paragraph}[1]{\vspace{.5em}\noindent\textbf{#1.}}
+
+%%
+%% globally adjusts space between figure and caption
+%%
+% \setlength{\abovecaptionskip}{.5em}
+
+
+%%
+%% Allows "the use of \paper to refer to the project name"
+%% with automatic management of space at the end of the word
+%%
+% \usepackage{xspace}
+% \newcommand{\paper}{ProjectName\xspace}
+
+%%
+%% Commonly used math definitions
+%%
+% \DeclareMathOperator*{\argmin}{arg\,min}
+% \DeclareMathOperator*{\argmax}{arg\,max}
+
+%%
+%% Tigthen underline
+%%
+% \usepackage{soul}
+% \setuldepth{foobar}
+%% =====================================================================================
+%% clashbot report additions (everything above this line is the unchanged CVPR 2026 kit file)
+%% cvpr.sty already loads times, xcolor[dvipsnames], graphicx, amsmath, amssymb, booktabs,
+%% natbib[numbers,sort&compress], caption, subcaption, url, enumitem and (at end of preamble)
+%% cleveref, so none of them is loaded again here (no option clashes).
+%% =====================================================================================
+\usepackage{iftex}
+\ifXeTeX % local tectonic builds only (Overleaf's pdfLaTeX skips this): XeTeX's default TU encoding has no
+  % Times, so cvpr.sty's times package would silently fall back to Latin Modern. OT1 makes XeTeX use the same
+  % Type 1 Times metrics as pdfLaTeX, so the local page count matches Overleaf.
+  \usepackage[OT1]{fontenc}
+\fi
+\usepackage{array}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+
+\newcommand{\cb}{\textup{\textsc{clashbot}}}
+\newcommand{\tw}[1]{\texttt{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+% Tweak offered (commented out) by the kit above: tighter space between float and caption.
+\setlength{\abovecaptionskip}{.5em}

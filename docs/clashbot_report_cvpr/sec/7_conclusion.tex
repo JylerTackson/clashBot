@@ -1,0 +1,5 @@
+\section{Conclusion}
+\label{sec:concl}
+
+\cb{} shows that a non-embedded agent can play Clash Royale live on a laptop, with knowledge-graph, retrieval and simulation tools feeding a fine-tuned LLM that keeps the final say, at 323\,ms from capture to click. Fine-tuning turned a chance-level LLM into one that picks the pro's play half the time, but tuned simple models match it, it ignores the tools' notes, and the agent does not yet beat Training Camp reliably (one early win, then 0/10). Next steps: fix the four trial failures of Sec.~\ref{sec:disc} (tower HP, target tower, spell value, over-playing) and re-run the 10-battle trial with automatic result logging, measure perception against labelled frames, and train d1 on lines where notes and leak-free KG facts carry signal the state lines do not. Code, tests, benchmark files (\tw{docs/data/BENCHMARKS.md}) and the decision log are in the project repository. % src: CMA C7; SA sec. 1; CC; AR; VP; PBA 2.5; TRIAL; BL (suggested order, W11)
+
