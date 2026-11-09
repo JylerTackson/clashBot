@@ -1,6 +1,6 @@
 # Decision models vs the pro: accuracy and latency on the held-out test games (MAC-AU)
 
-Generated 2026-11-09T05:07:33+00:00 by `tools/eval/score_decision_models.py` from `runs/bench/au/preds/*.jsonl`; re-run it when predictions change.
+Generated 2026-11-09T06:26:17+00:00 by `tools/eval/score_decision_models.py` from `runs/bench/au/preds/*.jsonl`; re-run it when predictions change.
 
 **Lines:** all 766 4-way lines of `dataset/v1/d1/joint_tac_v2/test.jsonl`, 27 games (Amendment 1; the first plan was the 5 largest games).
 
@@ -14,16 +14,16 @@ Generated 2026-11-09T05:07:33+00:00 by `tools/eval/score_decision_models.py` fro
 | d1-omni-600M zero-shot | 600M, zero-shot | 766 | 0.260 [0.235, 0.283] | 0.513 [0.484, 0.544] | -0.247 [-0.289, -0.202] | <0.001 | 73 / 113 | 0 (local) | 0/766 (0.0%) |
 | d1-2B fine-tuned | 1.9B, fine-tuned | 766 | 0.429 [0.394, 0.466] | 0.614 [0.571, 0.653] | -0.077 [-0.122, -0.034] | <0.001 | 295 / 465 | 0 (local) | 0/766 (0.0%) |
 | Qwen3-4B-Instruct-2507 zero-shot | 4B LLM, 4-bit | 766 | 0.286 [0.244, 0.331] | 0.527 [0.496, 0.563] | -0.221 [-0.272, -0.166] | <0.001 | 802 / 1119 | 0 (local) | 5/766 (0.7%) |
+| Qwen3-4B + 3 retrieved pro states | 4B LLM, 4-bit, RAG few-shot | 766 | 0.283 [0.251, 0.316] | 0.516 [0.479, 0.554] | -0.223 [-0.266, -0.178] | <0.001 | 1535 / 1958 | 0 (local) | 1/766 (0.1%) |
+| Qwen3-14B zero-shot | 14B LLM, 4-bit | 766 | 0.304 [0.264, 0.345] | 0.523 [0.486, 0.568] | -0.202 [-0.251, -0.155] | <0.001 | 2721 / 3866 | 0 (local) | 0/766 (0.0%) |
 | Claude Haiku 5.5 | API | 766 | 0.279 [0.250, 0.310] | 0.499 [0.462, 0.532] | -0.227 [-0.269, -0.181] | <0.001 | 676 / 823 | $0.00009 | 29/766 (3.8%) |
+| Claude Sonnet 5.5 | API | 766 | 0.144 [0.112, 0.175] | 0.215 [0.184, 0.249] | -0.363 [-0.400, -0.325] | <0.001 | 1130 / 1458 | $0.00179 | 481/766 (62.8%) |
 | random (one seeded draw) | baseline | 766 | 0.269 [0.237, 0.301] | 0.539 [0.504, 0.572] | -0.238 [-0.282, -0.191] | <0.001 | 0.001 / 0.001 | 0 (local) | 0/766 (0.0%) |
 | popularity | baseline | 766 | 0.325 [0.280, 0.373] | 0.453 [0.398, 0.511] | -0.181 [-0.239, -0.119] | <0.001 | 0.001 / 0.002 | 0 (local) | 0/766 (0.0%) |
 | placement prior | baseline | 766 | 0.384 [0.336, 0.431] | 0.614 [0.568, 0.657] | -0.123 [-0.167, -0.080] | <0.001 | 0.003 / 0.003 | 0 (local) | 0/766 (0.0%) |
 | LightGBM LambdaRank (seed 0) | baseline, feature ranker | 766 | 0.482 [0.448, 0.514] | 0.677 [0.648, 0.708] | -0.025 [-0.059, +0.014] | 0.263 | 0.4 / 0.5 | 0 (local) | 0/766 (0.0%) |
+| claude-sonnet-5-5-long | ? | 766 | 0.364 [0.325, 0.403] | 0.585 [0.543, 0.628] | -0.142 [-0.191, -0.093] | <0.001 | 2467 / 4824 | $0.00369 | 1/766 (0.1%) |
 | random (expected) | baseline, analytic | 766 | 0.250 | 0.500 | - | - | - | - | - |
-
-## Pending
-
-No predictions file yet for: `qwen3-4b-rag3`, `qwen3-14b`, `claude-sonnet-5-5`.
 
 ## How the local runs were made
 
