@@ -1,6 +1,6 @@
 # clashBot in Docker: one command, the agent end to end
 
-clashBot is a Clash Royale playing agent. This package runs its **whole decision stack on a bundled 90 second clip of a pro match**
+clashBot is a Clash Royale playing agent. This package runs its **whole decision stack on a bundled clip of a pro match** (60 seconds of it by default)
 and shows every decision in a live dashboard in your browser. Nothing is tapped or sent anywhere: the executor is the dry-run one.
 (Playing for real through macOS iPhone Mirroring cannot run in a container; for a Mac see "Live play on a Mac (optional)" below.)
 
@@ -21,11 +21,14 @@ Then open **http://localhost:8765**. Stop with Ctrl-C.
   a normal connection (longer on a machine that has to emulate another CPU architecture); later starts reuse the cache.
 - **Resources:** give Docker at least **6 GB of RAM** (Docker Desktop: Settings, Resources; the models need about 5 GB while
   the run is in progress) and about 12 GB of disk.
-- **Run time:** the 90 second clip is processed on the CPU, which is slow: **about 35 to 40 minutes** on a 10-core Apple-silicon
-  Docker VM (measured; fewer cores or emulation take longer). Loading the models takes about a minute and the first decisions
-  appear on the page about two minutes after the start, so you can watch it fill from the beginning.
-  `DEMO_SECONDS=30 docker compose up` processes only the first 30 seconds of the clip (about 12 minutes).
-- **When the clip ends** the container prints the run summary (frames, decisions, a per-stage latency table) and the dashboard
+- **Run time:** the demo plays the first **60 seconds** of the clip at 10 frames per second (the rate of the live capture; every
+  third video frame) on the CPU. Measured from a clean unzip with the image already built, on a 10-core Apple-silicon Docker VM:
+  **about 3 minutes** from `docker compose up` to the end of the run (180 s and 193 s in two runs, 13 decisions each), and the
+  **first decision on the page after 15 to 22 seconds**. Expect it to be **about 2 to 4 times slower on an emulated or low-end CPU** (not measured on such a machine; an amd64
+  image emulated on that same Mac took 93 seconds for a 20 second run). The model loading and the first frames are the slow
+  part, so the page may stay empty for the first minute on a slow machine. `DEMO_SECONDS=90` plays the whole clip,
+  `DEMO_SECONDS=20` is a quick smoke run.
+- **When the run ends** the container prints the run summary (frames, decisions, a per-stage latency table) and the dashboard
   keeps serving the finished run until you press Ctrl-C. Runs are kept in the volume `clashbot-runs`
   (`docker compose down -v` deletes them).
 
@@ -38,7 +41,7 @@ The bot "plays" the left side of a recorded pro game (the deck of the creator in
 2. **Live state and policy**: one clean game state per frame, then the act policy (rules plus a LightGBM model) decides *when* to
    act or to save elixir.
 3. **Candidates**: a tactics engine (lane simulation, knowledge-graph pro answers) proposes moves; kNN / BM25 retrieval over
-   10,923 pro game states (reciprocal rank fusion) and knowledge-graph counters add more; four options go to the ranker.
+   10,650 pro game states (reciprocal rank fusion; the 10,923 of the full database minus the clip's own video) and knowledge-graph counters add more; four options go to the ranker.
 4. **Ranker**: the fine-tuned d1 language model (600M parameters) gives a probability per option and picks one.
 5. **Executor** in dry run: it logs the two taps it *would* make. Nothing is sent.
 
@@ -46,9 +49,9 @@ On the page, pick a decision on the timeline to see its annotated screenshot, ev
 sources, the retrieved pro states (click one for its context), the knowledge-graph neighbourhood, the facts given to the model and
 the reason the bot waited whenever it held back.
 
-One thing to know when reading the retrieved pro states: the clip comes from a game that is part of the retrieval database
-(the database holds all 197 extracted pro games), so a retrieved state can be the pro's own play from the same match. The
-held-out evaluations in the report exclude the game being evaluated; this demo does not.
+The retrieved pro states come from **other** games: the clip's own source video (all four of its games, 273 states) is removed
+from the retrieval pool in this package, so the bot cannot look up the pro's own play from the same match. (The aggregate
+knowledge-graph statistics, such as how often pros answered a card, are still mined from all 197 games.)
 
 ## If the d1 download fails
 
@@ -67,8 +70,8 @@ docker compose run --rm clashbot tests     # a small CPU test subset (about 500 
 docker compose run --rm clashbot bash      # a shell inside the image
 ```
 
-Settings, in a `.env` file next to `docker-compose.yml` or in the shell: `DEMO_SECONDS` (video seconds to process, default the
-whole clip), `RANKER=tactics` (skip d1), `KEEP_SERVING=0` (exit when the clip ends instead of serving the dashboard),
+Settings, in a `.env` file next to `docker-compose.yml` or in the shell: `DEMO_SECONDS` (video seconds to process, default 60 of the 90 s
+clip), `RANKER=tactics` (skip d1), `KEEP_SERVING=0` (exit when the clip ends instead of serving the dashboard),
 `D1_RETRY` (above). If port 8765 is taken, change the left number of `"8765:8765"` in `docker-compose.yml`.
 
 ## What is in this package

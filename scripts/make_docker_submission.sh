@@ -78,8 +78,9 @@ rm -rf "$ROOT_DIR/docs"
 echo "== artefacts"
 "$PY" scripts/docker_artifacts.py clip "$VIDEO" "$ART/clip.mp4" --start 60 --seconds 90
 cp configs/mirror_calib.example.json "$ART/calib.json"
-"$PY" scripts/docker_artifacts.py slim-db db/clashbot.sqlite "$ART/db/clashbot.sqlite"
-cp db/kg2.sqlite db/state_features.npy db/state_features.meta.json "$ART/db/"
+# the retrieval pool without any state of the clip's source video (the demo must not retrieve the pro's own play from the same match)
+"$PY" scripts/docker_artifacts.py slim-pool db "$ART/db" --exclude-video Z8-4VhLjrGU
+cp db/kg2.sqlite "$ART/db/"
 cp dataset/v1/placement_prior.json "$ART/dataset/v1/"
 cp dataset/v1/kg2/deck_cooc.json "$ART/dataset/v1/kg2/"
 cp db/models/act-gbdt/meta.json db/models/act-gbdt/model_h*.json "$ART/act-gbdt/"
