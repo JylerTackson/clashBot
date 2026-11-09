@@ -1,6 +1,6 @@
 """HTTP server of the decision dashboard (MAC-AO): a JSON API over a run directory plus the static page.
 
-Standard library only (`http.server.ThreadingHTTPServer`), bound to 127.0.0.1, read-only: it never writes to a run, to
+Standard library only (`http.server.ThreadingHTTPServer`), bound to 127.0.0.1 (`--host` changes it), read-only: it never writes to a run, to
 db/ or to the screen, and sends no input. Routes (all GET):
 
   /                                  the page (static/index.html, app.js, style.css)

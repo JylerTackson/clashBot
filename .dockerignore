@@ -1,0 +1,9 @@
+# Build context of docker/Dockerfile (the root of the Docker submission zip, MAC-AV): keep editor, git and run debris out of it.
+.git
+.gitignore
+.env
+**/__pycache__
+**/*.pyc
+.pytest_cache
+runs
+dist
