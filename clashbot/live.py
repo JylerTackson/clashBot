@@ -1250,6 +1250,10 @@ def main(argv: list[str] | None = None) -> int:
     if args.live and args.source != "mirroring":
         print("error: --live needs --source mirroring", file=sys.stderr)
         return 2
+    if sys.platform != "darwin" and (args.live or args.source == "mirroring"):      # the Docker image (MAC-AV) is Linux
+        print("error: iPhone Mirroring capture and live taps need macOS; on this platform use a recorded video and the "
+              "dry run: --source video --video PATH", file=sys.stderr)
+        return 2
     if args.rect and len(_split(args.rect)) != 4:
         print("error: --rect needs l,t,w,h", file=sys.stderr)
         return 2

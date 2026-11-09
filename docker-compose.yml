@@ -1,0 +1,27 @@
+# clashBot demo (MAC-AV). One command:  docker compose up --build
+# Then open http://localhost:8765 . Stop with Ctrl-C. Other commands:
+#   docker compose run --rm clashbot tests       a small CPU test subset
+#   docker compose run --rm clashbot bash        a shell in the image
+# Optional settings go in a file named .env next to this one (see README.md): RANKER, DEMO_SECONDS, KEEP_SERVING, D1_RETRY.
+services:
+  clashbot:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        D1_RETRY: ${D1_RETRY:-0}       # change it to download the d1 weights again after a failed download (D1_RETRY=1 docker compose up --build)
+    image: clashbot-demo
+    init: true                         # tini as PID 1: Ctrl-C / docker stop reach the entrypoint and stop the run and the dashboard
+    command: ["demo"]                  # "tests" runs the test subset instead
+    ports:
+      - "8765:8765"                    # the decision dashboard
+    environment:
+      RANKER: ${RANKER:-d1}            # d1 (default; falls back to tactics when the weights were not downloaded) or tactics
+      DEMO_SECONDS: ${DEMO_SECONDS:-95}  # seconds of the 90 s clip to process (a short smoke run: 20)
+      KEEP_SERVING: ${KEEP_SERVING:-1}   # 0: exit when the clip ends instead of serving the dashboard
+    volumes:
+      - clashbot-runs:/data/runs       # every run (decisions, screenshots, summary) persists between starts
+    # no mem_limit: the d1 model and KataCR need about 5 GB; give Docker at least 6 GB of RAM
+
+volumes:
+  clashbot-runs:
