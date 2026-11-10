@@ -235,3 +235,10 @@ def test_last_row_reads_the_tail_of_a_growing_file(tmp_path):
     assert livemeta.last_row(p)["t"] == pytest.approx(19.9)                        # the half-written last line is skipped
     p.write_text(json.dumps({"t": 1.0}) + "\n")
     assert livemeta.last_row(p) == {"t": 1.0}
+
+
+def test_the_docker_entrypoint_plays_the_clip_in_real_time_and_still_cannot_tap():
+    text = (ROOT / "docker" / "entrypoint.sh").read_text()
+    code = "\n".join(line for line in text.splitlines() if not line.lstrip().startswith("#"))
+    assert "--realtime" in code and "--stride 3" in code and "DEMO_SECONDS:-60" in code and "--source video" in code
+    assert "--live" not in code and "CLASHBOT_ALLOW_LIVE" not in code

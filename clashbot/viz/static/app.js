@@ -198,7 +198,7 @@ function buildRunSelect() {
   const opts = [`<option value="">${esc(auto)}</option>`];
   for (const r of S.runs) {
     const tail = (r.has_retrieval ? "" : " (no retrieval log)") + (r.has_pro ? " (vs pro)" : "");
-    opts.push(`<option value="${esc(r.id)}">${esc(r.parent)}/${esc(r.name)} - ${r.decisions} decisions${tail}</option>`);
+    opts.push(`<option value="${esc(r.id)}">${esc(r.label || r.parent + "/" + r.name)} - ${r.decisions} decisions${tail}</option>`);
   }
   sel.innerHTML = opts.join("");
   sel.value = S.pinned || "";

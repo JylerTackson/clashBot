@@ -631,6 +631,7 @@ def test_page_has_the_recording_panel(run_dir):
     assert "/livemeta`" in js and "/video`" in js and "/player`" in js and "data-speed" in js and "[1, 2, 3, 4]" in js
     assert "homography" in js and "tile[0] + 0.5" in js and "currentTime" in js and "pro: " in js
     assert "Rec.poll" in app and "Rec.render" in app and "Rec.onSelect" in app
+    assert 'r.label || r.parent + "/" + r.name' in app                          # the run picker shows Part P's readable names
     assert ".rec-banner" in css and ".rec-stage" in css and ".rec-feed" in css
     assert "http://" not in js and "https://" not in js and "eval(" not in js
     status, ctype, body = Api(Store(run=run_dir)).handle("/recording.js")

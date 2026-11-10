@@ -14,20 +14,23 @@ unzip clashbot_docker_submission.zip && cd clashbot_docker
 docker compose up --build
 ```
 
-Then open **http://localhost:8765**. Stop with Ctrl-C.
+Then open **http://localhost:8765**: the Recording panel plays the clip in real time and the agent's taps appear as it makes them.
+Stop with Ctrl-C.
 
 - **The build downloads** PyTorch (CPU) and the Python packages, and the fine-tuned d1 ranker (1.17 GB) from Hugging Face
   (`Jyler/clashbot-d1-ft-joint-tac`, public, pinned to one revision, no account or token). First build: about 5 to 10 minutes on
   a normal connection (longer on a machine that has to emulate another CPU architecture); later starts reuse the cache.
 - **Resources:** give Docker at least **6 GB of RAM** (Docker Desktop: Settings, Resources; the models need about 5 GB while
   the run is in progress) and about 12 GB of disk.
-- **Run time:** the demo plays the first **60 seconds** of the clip at 10 frames per second (the rate of the live capture; every
-  third video frame) on the CPU. Measured from a clean unzip with the image already built, on a 10-core Apple-silicon Docker VM:
-  **about 3 minutes** from `docker compose up` to the end of the run (180 s and 193 s in two runs, 13 decisions each), and the
-  **first decision on the page after 15 to 22 seconds**. Expect it to be **about 2 to 4 times slower on an emulated or low-end CPU** (not measured on such a machine; an amd64
-  image emulated on that same Mac took 93 seconds for a 20 second run). The model loading and the first frames are the slow
-  part, so the page may stay empty for the first minute on a slow machine. `DEMO_SECONDS=90` plays the whole clip,
-  `DEMO_SECONDS=20` is a quick smoke run.
+- **Run time:** the demo plays the first **60 seconds** of the clip **in real time** (the agent is shown it like a live stream: a
+  frame is never handed over before its time, and the frames the agent is too slow for are skipped, as a live capture drops them),
+  at most 10 frames per second (the rate of the live capture; every third video frame). So the run takes **about 60 seconds plus the
+  model loading** (longer to load on a slower machine). Measured with the image already built, on a 10-core Apple-silicon Docker VM (CPU only):
+  **66 seconds** from `docker compose up` to the end of the run (about 5 seconds of loading), 10 decisions; the agent processed 145 of
+  the 607 frames of the 10 fps grid and skipped the rest, and its newest processed frame was a median of 1.1 seconds behind the
+  playhead (up to 7.6 seconds while the d1 ranker was thinking). The first decision is on the page about 12 seconds into the clip. On a slower or emulated
+  CPU (not measured) the run still ends after about 60 seconds, but the agent processes fewer frames, decides less often and lags
+  further behind. `DEMO_SECONDS=90` plays the whole clip, `DEMO_SECONDS=20` is a quick smoke run.
 - **When the run ends** the container prints the run summary (frames, decisions, a per-stage latency table) and the dashboard
   keeps serving the finished run until you press Ctrl-C. Runs are kept in the volume `clashbot-runs`
   (`docker compose down -v` deletes them).
@@ -48,6 +51,15 @@ The bot "plays" the left side of a recorded pro game (the deck of the creator in
 On the page, pick a decision on the timeline to see its annotated screenshot, every candidate with its probability and its
 sources, the retrieved pro states (click one for its context), the knowledge-graph neighbourhood, the facts given to the model and
 the reason the bot waited whenever it held back.
+
+At the top of the page the **Recording** panel plays the clip itself, in step with the agent. The agent watches the recording the way it
+would watch a live stream (`--realtime`): it never gets a frame before its time and skips the frames it is too slow for, so the run takes
+about as long as the part of the clip it plays. Each decision is drawn on the video the moment the agent makes it: a ring at the tile it
+would tap with the card's name, a fading trail of its recent taps, a banner with the mode, the card, the lane and the reason, and a strip
+with the reason it is holding back whenever it waits. A badge says "LIVE: the agent is watching this recording now" and shows the agent's
+lag (how far behind the playhead its newest processed frame is). When the run is over the same panel replays it with normal video controls,
+and clicking a decision in the timeline seeks the video there. For a run without a video (the prior live games below) the panel is a
+screenshot player: play, pause and 1x to 4x speed through the decision screenshots in game time.
 
 The retrieved pro states come from **other** games: the clip's own source video (all four of its games, 273 states) is removed
 from the retrieval pool in this package, so the bot cannot look up the pro's own play from the same match. (The aggregate
