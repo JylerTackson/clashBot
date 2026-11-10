@@ -1,13 +1,15 @@
 #!/bin/sh
 # Build the Docker submission zip (MAC-AV): the code from `git archive HEAD` plus the runtime artefacts, so a grader can unzip it and
 # run `docker compose up --build` on any machine (amd64 or arm64), or set up the native Mac path with scripts/setup_mac.sh.
-# No docs/report, no benchmarks, no runs/: the clip and its config only.
+# No docs/report, no benchmarks and no runs/ except the clip and its config and, under prior_runs/, a small copy of every prior game
+# (scripts/pack_prior_runs.py, MAC-AW) so the dashboard can browse them.
 #   scripts/make_docker_submission.sh [OUT]
 #     OUT defaults to dist/clashbot_docker_submission.zip (dist/ is gitignored)
 # The zip never contains the d1 weights: the Dockerfile downloads them from Hugging Face (Jyler/clashbot-d1-ft-joint-tac, pinned
 # revision) while the image is built, and scripts/setup_mac.sh downloads the same revision for the native Mac path.
 # Environment (all optional): PY (python with cv2), BUILD_DIR (staging, default dist/docker_build),
-#   VIDEO (default data/videos/Z8-4VhLjrGU/Z8-4VhLjrGU.mp4), CR_SCRATCH (default ~/cr_scratch: katacr/ clone and katacr_d{1,2}.pt).
+#   VIDEO (default data/videos/Z8-4VhLjrGU/Z8-4VhLjrGU.mp4), CR_SCRATCH (default ~/cr_scratch: katacr/ clone and katacr_d{1,2}.pt),
+#   PRIOR_RUNS (default 1; 0 leaves the prior games out), PRIOR_DIR (where the pack is built, default $BUILD_DIR/prior_runs).
 # Only committed files are archived: commit first. Built data (db/, dataset/) and the video are read from this checkout.
 set -eu
 cd "$(dirname "$0")/.."
@@ -15,7 +17,7 @@ cd "$(dirname "$0")/.."
 OUT=""
 for arg in "$@"; do
   case "$arg" in
-    -h|--help) sed -n '2,10p' "$0"; exit 0 ;;
+    -h|--help) sed -n '2,13p' "$0"; exit 0 ;;
     -*) echo "error: unknown option $arg" >&2; exit 2 ;;
     *) OUT="$arg" ;;
   esac
@@ -27,6 +29,8 @@ BUILD_DIR="${BUILD_DIR:-dist/docker_build}"
 VIDEO="${VIDEO:-data/videos/Z8-4VhLjrGU/Z8-4VhLjrGU.mp4}"
 CR_SCRATCH="${CR_SCRATCH:-$HOME/cr_scratch}"
 TOP="clashbot_docker"
+PRIOR_RUNS="${PRIOR_RUNS:-1}"
+PRIOR_DIR="${PRIOR_DIR:-$BUILD_DIR/prior_runs}"
 # the pro deck of the clip is fixed in docker/entrypoint.sh (game Z8-4VhLjrGU-m0.0); the clip is 60 s .. 150 s of that video
 
 # what the zip carries from git: the code, the reference data the runtime reads (card tables and art), the packaging files, the
@@ -60,6 +64,10 @@ need "$CR_SCRATCH/katacr_d1.pt" "KataCR weights; set CR_SCRATCH"
 need "$CR_SCRATCH/katacr_d2.pt" "KataCR weights; set CR_SCRATCH"
 need "$CR_SCRATCH/katacr/katacr/yolov8/custom_model.py" "KataCR source clone at commit 36ceb9f"
 need "$CR_SCRATCH/katacr/LICENSE" "KataCR license"
+if [ "$PRIOR_RUNS" != "0" ]; then
+  need runs/poc "the prior runs (set PRIOR_RUNS=0 to build the zip without them)"
+  need runs/eval/vs_pro "the bot-vs-pro runs (set PRIOR_RUNS=0 to build the zip without them)"
+fi
 
 STAGE="$BUILD_DIR/stage"
 ROOT_DIR="$STAGE/$TOP"
@@ -93,6 +101,17 @@ katacr/yolov8/custom_model.py is the one source file the checkpoints katacr_d1.p
 same project) need in order to unpickle. katacr/ and katacr/yolov8/ are namespace packages (no __init__.py in the original).
 EOF
 
+if [ "$PRIOR_RUNS" != "0" ]; then
+  # every live game, the 24 bot-vs-pro runs and two smoke dry runs, at prior_runs/<group>/<run>/ with screenshots re-encoded smaller
+  # (the Dockerfile copies it to /app/prior_runs and the dashboard lists it; scripts/setup_mac.sh copies it into runs/)
+  echo "== prior runs (scripts/pack_prior_runs.py)"
+  "$PY" scripts/pack_prior_runs.py --runs runs --out "$PRIOR_DIR"
+  cp -Rp "$PRIOR_DIR" "$ROOT_DIR/prior_runs"
+else
+  mkdir -p "$ROOT_DIR/prior_runs"       # the Dockerfile copies this folder: an empty one keeps the build working (the picker lists nothing from it)
+  echo "no prior runs in this build (PRIOR_RUNS=0)" > "$ROOT_DIR/prior_runs/NOTE.txt"
+fi
+
 echo "== zip"
 OUT_ABS="$(cd "$(dirname "$OUT")" 2>/dev/null && pwd || true)"
 [ -n "$OUT_ABS" ] || { mkdir -p "$(dirname "$OUT")"; OUT_ABS="$(cd "$(dirname "$OUT")" && pwd)"; }
@@ -107,4 +126,7 @@ echo "size:    $(wc -c < "$OUT_ABS" | tr -d ' ') bytes ($(du -h "$OUT_ABS" | cut
 echo "files:   $(unzip -Z1 "$OUT_ABS" | grep -vc '/$' || true)"
 echo "artefacts (unzipped sizes):"
 (cd "$ART" && du -sh clip.mp4 calib.json db/* dataset act-gbdt katacr_d1.pt katacr_d2.pt katacr | sed 's/^/  /')
+if [ -d "$ROOT_DIR/prior_runs" ]; then
+  echo "prior runs (unzipped): $(du -sh "$ROOT_DIR/prior_runs" | cut -f1 | tr -d ' ') in $(ls -d "$ROOT_DIR"/prior_runs/*/* | wc -l | tr -d ' ') run folders (prior_runs/<group>/<run>)"
+fi
 echo "code (unzipped): $(du -sh "$ROOT_DIR" | cut -f1 | tr -d ' ') in total, $(du -sh "$ROOT_DIR/knowledge_base" | cut -f1 | tr -d ' ') of it knowledge_base/"
