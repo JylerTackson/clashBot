@@ -53,6 +53,25 @@ The retrieved pro states come from **other** games: the clip's own source video 
 from the retrieval pool in this package, so the bot cannot look up the pro's own play from the same match. (The aggregate
 knowledge-graph statistics, such as how often pros answered a card, are still mined from all 197 games.)
 
+## Browse every prior game
+
+The image also carries **every game the agent has played so far**, so you can open them in the same dashboard. The run you just
+started is the one shown; the run picker at the top of the page lists the others, grouped by folder (41 runs, about 170 MB):
+
+- `poc/` and `demo/`: the **live games** played through iPhone Mirroring on a Mac against Training Camp: 15 sessions between
+  2026-11-03 and 2026-11-09, for example "Live 2026-11-07 01:34 (first win)" and "Live trial 2026-11-07 (10 battles)". Sessions with
+  no decision logged (empty or aborted starts) are left out.
+- `vs_pro/`: the 24 runs of the bot on recorded pro matches ("Bot vs pro: 6qYQNJ1Uaeg m0.3"), each with the pro's own plays next to
+  the bot's decisions.
+- `smoke/`: two dry runs on the test clip (the same clip this demo plays).
+
+Each of these keeps what the page shows: every decision (candidates, probabilities, retrieved pro states, reasons), the hold
+reasons, the run summary and the annotated screenshots. The screenshots are re-encoded at 60% of their size (JPEG quality 70) to keep the
+package small; the decision data is exactly what the bot wrote. The per-frame logs, videos and review sheets are not included.
+They are read-only and separate from the demo run: starting or removing the demo does not touch them.
+
+On a Mac, `scripts/setup_mac.sh` (see below) copies them into `runs/`, and `python -m clashbot.viz --open` lists them there too.
+
 ## If the d1 download fails
 
 The build does not fail when the Hugging Face download does (no internet access to huggingface.co, a proxy, ...). The image then
@@ -83,6 +102,8 @@ clip), `RANKER=tactics` (skip d1), `KEEP_SERVING=0` (exit when the clip ends ins
   github.com/wty-yy/katacr, commit 36ceb9f; licence in `artifacts/katacr/`), the pro-state database and the knowledge graph the
   retrieval reads, the LightGBM act model, the calibration and the clip. The d1 weights are not in the zip (LFM Open License v1.0,
   included in the Hugging Face repo; the image downloads them while it is built).
+- `prior_runs/`: the packed prior games (`prior_runs/<group>/<run>/`, see "Browse every prior game"); the image keeps them in
+  `/app/prior_runs` and the dashboard lists them.
 - `scripts/setup_mac.sh`, `scripts/demo.sh`, `requirements-mac.txt`: the native Mac path below.
 - The clip is 90 seconds (1:00 to 2:30) of a public YouTube video by the creator ryleycr1 (video id Z8-4VhLjrGU), re-encoded; it is
   included only so this demo can run, for course grading.

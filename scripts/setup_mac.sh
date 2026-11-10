@@ -8,7 +8,7 @@
 #     --no-d1        skip the 1.17 GB d1 download (the live command then needs it: db/models/d1-ft-joint-tac)
 # It: (1) checks macOS and Python 3.12, (2) creates the venv and installs requirements-mac.txt, (3) downloads d1 from Hugging Face
 # (public repo Jyler/clashbot-d1-ft-joint-tac, pinned revision), (4) copies the zip's artefacts (databases, act model, KataCR
-# weights and source) to the paths the code expects, (5) copies the calibration, (6) runs scripts/check_env.py, (7) prints the
+# weights and source, and the prior games) to the paths the code expects, (5) copies the calibration, (6) runs scripts/check_env.py, (7) prints the
 # live command and the two macOS permissions it needs. It never sends input and never starts a battle: live play is a separate
 # command that needs --live AND CLASHBOT_ALLOW_LIVE=1 (D-031). No account, token or secret is read or written.
 set -eu
@@ -132,6 +132,30 @@ copy_missing artifacts/katacr cr_scratch/katacr
 CRS="$ROOT/cr_scratch"
 [ -d "$CRS" ] || CRS="${CR_SCRATCH:-$HOME/cr_scratch}"      # a full checkout keeps KataCR in ~/cr_scratch
 
+# the prior games (MAC-AW): prior_runs/<group>/<run> of the zip into the runs/ folders the dashboard lists. Run folders that are
+# already there are left alone (a full checkout keeps its own, full-size ones); file times are kept, so the newest stays the newest.
+PRIOR_COPIED=0
+copy_prior() {              # copy_prior GROUP DEST_PARENT
+  [ -d "prior_runs/$1" ] || return 0
+  for d in prior_runs/"$1"/*/; do
+    d="${d%/}"
+    [ -d "$d" ] || continue
+    if [ ! -e "$2/$(basename "$d")" ]; then
+      mkdir -p "$2"
+      cp -Rp "$d" "$2/$(basename "$d")"
+      chmod -R u+w "$2/$(basename "$d")"
+      PRIOR_COPIED=$((PRIOR_COPIED + 1))
+    fi
+  done
+}
+copy_prior poc runs/poc
+copy_prior demo runs/demo
+copy_prior vs_pro runs/eval/vs_pro
+copy_prior smoke runs/smoke
+if [ -d prior_runs ]; then
+  echo "prior games: $PRIOR_COPIED run folder(s) copied into runs/poc, runs/demo, runs/eval/vs_pro, runs/smoke (python -m clashbot.viz --open lists them)"
+fi
+
 # ---------------------------------------------------------------- 5. calibration
 say "5. calibration"
 mkdir -p runs/poc
@@ -161,6 +185,9 @@ macOS permissions for the terminal app you run it from (System Settings > Privac
   - Accessibility      (to post the two taps per card)
 Restart the terminal after granting them. If the mirrored window is not the size the calibration was made for, recalibrate:
   python tools/calibrate.py --help
+
+Browse every prior game (live sessions, bot vs pro, test-clip dry runs) in the dashboard, no phone needed:
+  python -m clashbot.viz --open
 
 A dry run of the same stack on a recorded video (no phone):
   python -m clashbot.live --dry-run --source video --video artifacts/clip.mp4 --calib runs/poc/mirror_calib.json \\

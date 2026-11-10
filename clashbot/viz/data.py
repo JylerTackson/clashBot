@@ -22,6 +22,8 @@ from clashbot.config import DB_PATH, KG2_PATH, ROOT
 
 RUNS_DIR = ROOT / "runs"
 RUN_PARENTS = ("demo", "poc", "smoke", "eval/vs_pro")   # listed by /api/runs, in this order (eval/vs_pro: MAC-AQ, the bot on pro videos)
+LABEL_FILE = "label.txt"                        # MAC-AW: an optional one-line readable name of a run (written by scripts/pack_prior_runs.py)
+MAX_LABEL = 160
 PRO_FILE = "pro_plays.jsonl"                    # MAC-AQ: the pro's plays of a run made on a pro video (t in run time)
 PRO_WINDOW_S = 3.0                              # a decision shows the nearest pro play within this many seconds
 LIVE_WINDOW_S = 15.0                            # a run without summary.json is live while a file changed this recently
@@ -347,6 +349,12 @@ def run_is_live(path: Path) -> bool:
     return newest > 0 and time.time() - newest < LIVE_WINDOW_S
 
 
+def run_label(path: Path) -> str | None:
+    """The readable name in `label.txt` of a run folder (first line, trimmed), or None when there is none."""
+    text = _first_line(Path(path) / LABEL_FILE, MAX_LABEL * 4).decode("utf-8", "replace").strip()
+    return text[:MAX_LABEL] or None
+
+
 def _slugs(value) -> list[str]:
     if isinstance(value, str):
         return [s.strip() for s in value.split(",") if s.strip()]
@@ -380,12 +388,13 @@ class Store:
     """The runs the dashboard can show: `follow` (always the newest run dir under a parent) or a fixed `run`."""
 
     def __init__(self, run: Path | None = None, follow: Path | None = None, runs_dir: Path = RUNS_DIR,
-                 cards: dict | None = None):
+                 cards: dict | None = None, parents: list[Path] | None = None):
         if (run is None) == (follow is None):
             raise ValueError("give exactly one of run / follow")
         self.fixed = Path(run).resolve() if run is not None else None
         self.follow = Path(follow).resolve() if follow is not None else None
         self.runs_dir = Path(runs_dir)
+        self.parents = [Path(p) for p in parents or []]          # MAC-AW: extra run parents (the prior-runs pack), listed after the others
         self.cards = cards or {}
         self._runs: OrderedDict[str, Run] = OrderedDict()
         self._known: dict[str, Path] = {}
@@ -399,7 +408,8 @@ class Store:
 
     def _roots(self) -> list[Path]:
         roots: list[Path] = []
-        for r in [self.runs_dir / p for p in RUN_PARENTS] + [self.follow, self.fixed.parent if self.fixed else None]:
+        for r in ([self.runs_dir / p for p in RUN_PARENTS] + [self.follow, self.fixed.parent if self.fixed else None]
+                  + self.parents):
             if r is not None and r.resolve() not in [x.resolve() for x in roots]:
                 roots.append(r)
         return roots
@@ -464,6 +474,7 @@ class Store:
 
     def list_runs(self) -> list[dict]:
         out = []
+        seen: set[str] = set()                                   # one row per id: the first root that has it wins (as in resolve)
         for root in self._roots():
             if not root.is_dir():
                 continue
@@ -473,6 +484,9 @@ class Store:
                 if not ((p / "decisions.jsonl").exists() or (p / "config.json").exists()):
                     continue
                 run_id = self.run_id(p)
+                if run_id in seen:
+                    continue
+                seen.add(run_id)
                 with self._lock:
                     self._known[run_id] = p
                 out.append(self._summary_row(run_id, p))
@@ -504,7 +518,8 @@ class Store:
         _, count, has_retrieval = cached
         return {"id": run_id, "name": p.name, "parent": p.parent.name, "start": run_start(p), "decisions": count,
                 "has_retrieval": has_retrieval, "has_shots": (p / "shots").is_dir(),
-                "has_summary": (p / "summary.json").exists(), "live": run_is_live(p), "has_pro": (p / PRO_FILE).is_file()}
+                "has_summary": (p / "summary.json").exists(), "live": run_is_live(p), "has_pro": (p / PRO_FILE).is_file(),
+                "label": run_label(p)}
 
 
 # -------------------------------------------------------------------------------------- reference data

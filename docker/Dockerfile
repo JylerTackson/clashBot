@@ -1,7 +1,8 @@
 # clashBot demo image (MAC-AV): the live stack in dry run on a bundled clip, plus the decision dashboard.
 #
 # Build context = the root of the Docker submission zip (scripts/make_docker_submission.sh): clashbot/, cr_perception/,
-# configs/, knowledge_base/, tools/, tests/, docker/ and artifacts/ (KataCR weights, databases, the clip). Multi-arch: the same
+# configs/, knowledge_base/, tools/, tests/, docker/, artifacts/ (KataCR weights, databases, the clip) and prior_runs/ (the
+# prior games the dashboard can browse). Multi-arch: the same
 # file builds linux/amd64 and linux/arm64 natively on the grader's machine. The d1 ranker (1.17 GB) is downloaded from
 # Hugging Face during the build (needs internet); everything else is in the zip.
 #
@@ -62,6 +63,12 @@ ENV HF_HUB_OFFLINE=1 \
 # db/ and dataset/ next to the code, hence the two links.
 COPY artifacts/ /app/artifacts/
 RUN ln -s /app/artifacts/db /app/db && ln -s /app/artifacts/dataset /app/dataset
+
+# Prior games (MAC-AW): every live game, the bot-vs-pro runs and two dry runs on the test clip, screenshots re-encoded smaller
+# (scripts/pack_prior_runs.py), at prior_runs/<group>/<run>/ in the zip. The files are read-only (0444) and nothing writes here;
+# the dashboard lists them in its run picker beside the demo run (env CLASHBOT_VIZ_PARENTS is read by `python -m clashbot.viz`).
+COPY prior_runs/ /app/prior_runs/
+ENV CLASHBOT_VIZ_PARENTS=/app/prior_runs/poc,/app/prior_runs/demo,/app/prior_runs/vs_pro,/app/prior_runs/smoke
 
 # Code and the reference data the runtime reads (card tables and art, hero index)
 COPY configs/ /app/configs/
