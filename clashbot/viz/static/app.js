@@ -95,6 +95,7 @@ async function tick() {
         if (gen !== S.gen) return;
       }
       applyData(meta, dec, hold);
+      if (typeof Rec !== "undefined") await Rec.poll();       // MAC-AW: the Recording panel's own data (recording.js)
     }
     if (Date.now() - S.runsAt > RUNS_REFRESH_MS) await loadRuns();
     renderAll();
@@ -197,7 +198,7 @@ function buildRunSelect() {
   const opts = [`<option value="">${esc(auto)}</option>`];
   for (const r of S.runs) {
     const tail = (r.has_retrieval ? "" : " (no retrieval log)") + (r.has_pro ? " (vs pro)" : "");
-    opts.push(`<option value="${esc(r.id)}">${esc(r.parent)}/${esc(r.name)} - ${r.decisions} decisions${tail}</option>`);
+    opts.push(`<option value="${esc(r.id)}">${esc(r.label || r.parent + "/" + r.name)} - ${r.decisions} decisions${tail}</option>`);
   }
   sel.innerHTML = opts.join("");
   sel.value = S.pinned || "";
@@ -306,6 +307,7 @@ function select(i, byUser) {
   S.sel = i;
   if (byUser) S.auto = false;
   S.view = {};
+  if (typeof Rec !== "undefined") Rec.onSelect(i, byUser);     // replay: a click on a decision seeks the recording there
   renderAll();
 }
 
@@ -618,6 +620,7 @@ function renderAll() {
     renderRetrieval(row);
     renderKG(row);
   }
+  if (typeof Rec !== "undefined") Rec.render();
 }
 
 document.addEventListener("click", (ev) => {

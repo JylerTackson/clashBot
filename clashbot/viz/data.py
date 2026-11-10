@@ -19,6 +19,7 @@ from collections import OrderedDict
 from pathlib import Path
 
 from clashbot.config import DB_PATH, KG2_PATH, ROOT
+from clashbot.viz import livemeta
 
 RUNS_DIR = ROOT / "runs"
 RUN_PARENTS = ("demo", "poc", "smoke", "eval/vs_pro")   # listed by /api/runs, in this order (eval/vs_pro: MAC-AQ, the bot on pro videos)
@@ -265,6 +266,54 @@ class Run:
             self._pro = sorted((r for r in rows if isinstance(r.get("t"), (int, float))), key=lambda r: r["t"])
             self._pro_mark = mark
         return self._pro
+
+    # ---------------------------------------------------------------------------------- the recording (MAC-AW)
+    def video_file(self) -> Path | None:
+        """The source video named in this run's config.json (an existing .mp4): the only file /video serves for the run."""
+        return livemeta.video_path(self.config())
+
+    def recording(self) -> dict:
+        """What the Recording panel needs: live_meta.json (or the same fields derived from config.json), whether the run has a
+        playable video, whether it is live / finished, the server's clock (`now`, epoch s) and how far the agent has got
+        (`progress.latest_t`: the video time of the newest processed frame; `lag_s`: the wall-clock playhead minus that)."""
+        with self._lock:
+            cfg = self.config()
+            video = livemeta.video_path(cfg)
+            meta, derived = livemeta.read(self.path), False
+            if meta is None:
+                meta = livemeta.derive(cfg)
+                derived = meta is not None
+            finished = (self.path / "summary.json").exists()
+            live = self.is_live()
+            now = time.time()
+            last = livemeta.last_row(self.path / "frames.jsonl")
+            latest = last.get("t") if last and isinstance(last.get("t"), (int, float)) else None
+            wall0, t0 = (meta or {}).get("wall_start"), (meta or {}).get("video_t0")
+            lag = None
+            if live and latest is not None and isinstance(wall0, (int, float)) and isinstance(t0, (int, float)):
+                lag = round(now - wall0 + t0 - latest, 2)
+            return {**(meta or {}), "run": self.id, "has_video": video is not None, "video_name": video.name if video else None,
+                    "derived": derived, "live": live, "finished": finished, "now": now,
+                    "progress": {"latest_t": latest, "lag_s": lag}}
+
+    def player_frames(self) -> dict:
+        """The frames of the screenshot player (runs without a video): one per decision that has its `a` screenshot, ordered by
+        time (ties by decision index). `until` is the time of the next frame, when the player moves on (None for the last)."""
+        with self._lock:
+            rows = self.decisions.poll()
+            frames = []
+            for i, row in enumerate(rows):
+                shot = self.shot_files(row).get("a")
+                if shot is None or not isinstance(row.get("t"), (int, float)):
+                    continue
+                ex = row.get("executor") or {}
+                frames.append({"i": i, "t": float(row["t"]), "file": shot, "key": row.get("key"), "mode": row.get("mode"),
+                               "reason": row.get("reason"), "tile": row.get("tile"), "status": ex.get("status", "dry_run"),
+                               "sent": bool(ex.get("sent"))})
+            frames.sort(key=lambda f: (f["t"], f["i"]))
+            for k, f in enumerate(frames):
+                f["until"] = frames[k + 1]["t"] if k + 1 < len(frames) else None
+            return {"frames": frames, "total": len(rows), "live": self.is_live()}
 
     # ---------------------------------------------------------------------------------- rows
     def _enrich(self, i: int, row: dict) -> dict:
