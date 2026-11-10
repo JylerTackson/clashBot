@@ -95,6 +95,7 @@ async function tick() {
         if (gen !== S.gen) return;
       }
       applyData(meta, dec, hold);
+      if (typeof Rec !== "undefined") await Rec.poll();       // MAC-AW: the Recording panel's own data (recording.js)
     }
     if (Date.now() - S.runsAt > RUNS_REFRESH_MS) await loadRuns();
     renderAll();
@@ -306,6 +307,7 @@ function select(i, byUser) {
   S.sel = i;
   if (byUser) S.auto = false;
   S.view = {};
+  if (typeof Rec !== "undefined") Rec.onSelect(i, byUser);     // replay: a click on a decision seeks the recording there
   renderAll();
 }
 
@@ -618,6 +620,7 @@ function renderAll() {
     renderRetrieval(row);
     renderKG(row);
   }
+  if (typeof Rec !== "undefined") Rec.render();
 }
 
 document.addEventListener("click", (ev) => {

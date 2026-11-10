@@ -33,6 +33,11 @@ waits for the window) and drives `LiveLoop.step` from its own frame loop: a `tap
 loop decide and log but never calls the executor (entry status "gated"), `on_match_start` / `reset_battle` clear the per-
 battle state, `tag_battle` adds `"battle": n` to the rows of frames / decisions / holds .jsonl, `finish` closes the loop
 without closing the source. All of them are off by default, so `main` is unchanged.
+`--realtime` (MAC-AW, only with `--source video`, off by default) plays the recording like a live stream: a frame is never handed
+over before its time on the wall clock and a loop that falls behind skips to the newest frame whose time has passed (frames are
+dropped, never queued; `--stride` still caps the rate; `summary.json` `source_stats.dropped` counts them). The run dir then also
+gets `live_meta.json` at the first frame (wall-clock start, video, first-frame video time, fps, stride, arena geometry) so the
+dashboard can play the clip in step with the run and draw the bot's taps on it (`clashbot.viz.livemeta`).
 Usage: python3 -m clashbot.live --calib CALIB --deck c1,...,c8 [--source video --video PATH]
 """
 from __future__ import annotations
@@ -463,6 +468,7 @@ class LiveLoop:
         self._hold_ms: list[float] = []              # per evaluated frame: time spent on the log
         self.source_error: str | None = None         # set when the frame source raised and ended the run (MAC-AM M5)
         self.last_decision_t: float | None = None
+        self.on_first_frame = None                   # f(t, idx), called once when `run` gets its first frame (MAC-AW: live_meta.json)
         self._ability_t = float("-inf")              # game time of the last ability tap
         self.ability_frames = 0                      # frames whose state showed the hero ability button
         self.ability_offered = 0                     # decisions that had the ability among the ranker's options
@@ -864,6 +870,8 @@ class LiveLoop:
                 capture_ms = grab_ms if grab_ms is not None else measured_ms
                 if t_first is None:
                     t_first = t
+                    if self.on_first_frame is not None:
+                        self.on_first_frame(t, idx)
                 if max_seconds is not None and t - t_first >= max_seconds:
                     break
                 n_frames += 1
@@ -950,6 +958,10 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--start", type=float, default=0.0)
     ap.add_argument("--end", type=float, default=None)
     ap.add_argument("--stride", type=int, default=1)
+    ap.add_argument("--realtime", action="store_true",
+                    help="with --source video: play the recording in real time like a live stream (frames the loop is too slow "
+                         "for are dropped, not queued; --stride still caps the rate) and write live_meta.json for the "
+                         "dashboard's Recording panel (MAC-AW)")
     ap.add_argument("--rect", default=None, help="manual window rect in points: l,t,w,h")
     ap.add_argument("--fps", type=float, default=10.0)
     ap.add_argument("--detector", choices=("katacr", "none"), default="katacr")
@@ -1016,7 +1028,8 @@ def _split(text: str | None) -> list[str]:
 def _build_source(args):
     if args.source == "video":
         from cr_perception.sources import VideoFrameSource
-        return VideoFrameSource(args.video, start=args.start, end=args.end, stride=args.stride)
+        return VideoFrameSource(args.video, start=args.start, end=args.end, stride=args.stride,
+                                realtime=bool(getattr(args, "realtime", False)))
     from cr_perception.sources import MirroringSource, WindowRect
     rect = None
     if args.rect:
@@ -1236,6 +1249,17 @@ def resolve_device(device: str | None) -> str:
         return "cpu"
 
 
+def write_live_meta(out_dir: Path, args, source, t: float, idx: int) -> Path:
+    """`live_meta.json` of a `--realtime` video run, written when the first frame is handed over (MAC-AW): the wall-clock start
+    the source recorded, the video and the video time of that frame, the frame rate and stride, and the arena geometry of the
+    calibration. Only the dashboard reads it."""
+    from clashbot.viz import livemeta
+    wall_start = getattr(source, "wall_start", None)
+    meta = livemeta.build(Path(args.video), t, time.time() if wall_start is None else wall_start, source.fps, args.stride, True,
+                          args.calib, frame_size=(source.width, source.height), first_idx=idx)
+    return livemeta.write(out_dir, meta)
+
+
 def main(argv: list[str] | None = None) -> int:
     print(TOS_NOTE)
     args = build_parser().parse_args(argv)
@@ -1249,6 +1273,9 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     if args.live and args.source != "mirroring":
         print("error: --live needs --source mirroring", file=sys.stderr)
+        return 2
+    if args.realtime and args.source != "video":
+        print("error: --realtime needs --source video (the iPhone capture is real time already)", file=sys.stderr)
         return 2
     if sys.platform != "darwin" and (args.live or args.source == "mirroring"):      # the Docker image (MAC-AV) is Linux
         print("error: iPhone Mirroring capture and live taps need macOS; on this platform use a recorded video and the "
@@ -1300,6 +1327,8 @@ def main(argv: list[str] | None = None) -> int:
     loop = LiveLoop(source, perception, builder, generator, ranker, executor, cards, load_placement_prior(),
                     plan_text=plan_text, out_dir=out_dir, min_gap_s=args.min_gap, policy=policy, tactics=tactics,
                     arbiter=arbiter, coach=coach, shots=shots, kg2=kg2)
+    if args.realtime:
+        loop.on_first_frame = lambda t, idx: write_live_meta(out_dir, args, source, t, idx)
     mode = "LIVE" if args.live else "dry run"
     print(f"{mode}: source={args.source} ranker={args.ranker} planner={args.planner} policy={args.policy} "
           f"tactics={'off' if args.no_tactics else 'on'} kg2={'on' if kg2 is not None else 'off'} "

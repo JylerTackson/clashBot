@@ -1,7 +1,10 @@
 """Frame sources. Every source yields (frame_bgr: np.ndarray, t_seconds: float,
 frame_index: int). Perception is READ-ONLY: nothing here can send input.
 
-  VideoFrameSource   - a recorded match (mp4); the primary source right now.
+  VideoFrameSource   - a recorded match (mp4); the primary source right now. With `realtime=True` (MAC-AW) it plays the
+                       recording like a live stream: a frame is never delivered before its time on the wall clock and a
+                       consumer that falls behind skips to the newest frame whose time has passed (frames are dropped,
+                       never queued), as the iPhone capture does.
   ImageDirSource     - a folder of frames (for labelled evaluation).
   ScreenSource       - live capture of an emulator window on macOS via mss,
                        locating the window through Quartz; includes the
@@ -33,7 +36,14 @@ class FrameSource:
 
 
 class VideoFrameSource(FrameSource):
-    def __init__(self, path: str | Path, start: float = 0.0, end: float | None = None, stride: int = 1):
+    """A recorded match. `realtime=True` (MAC-AW, default off) paces `frames()` on the wall clock: frame k, whose video
+    time is t_k, is delivered no earlier than `wall_start + (t_k - t_0)` (t_0 = the first frame's time, wall_start = the
+    moment the first frame was delivered), and when the consumer is late the source skips to the newest frame whose time has
+    passed instead of queueing the frames it missed (`dropped` counts them). `stride` still caps the rate: only every
+    stride-th frame is ever delivered. `clock` / `sleep` / `wall` are injectable for tests."""
+
+    def __init__(self, path: str | Path, start: float = 0.0, end: float | None = None, stride: int = 1,
+                 realtime: bool = False, clock=time.perf_counter, sleep=time.sleep, wall=time.time):
         self.path = str(path)
         self.cap = cv2.VideoCapture(self.path)
         if not self.cap.isOpened():
@@ -45,8 +55,22 @@ class VideoFrameSource(FrameSource):
         self.start, self.end, self.stride = start, end, max(1, stride)
         if start > 0:
             self.cap.set(cv2.CAP_PROP_POS_MSEC, start * 1000.0)
+        self.realtime = bool(realtime)
+        if self.realtime:
+            self._clock, self._sleep, self._wall = clock, sleep, wall
+            self.wall_start: float | None = None      # epoch seconds at which the first frame was delivered
+            self.video_t0: float | None = None        # video time of that first frame
+            self.frames_out = 0
+            self.dropped = 0                          # stride-grid frames skipped because the consumer was late
+            self.last_grab_ms = 0.0                   # decode time of the last frame (the loop's "capture"), without the pacing wait
+            self._late_ms: list[float] = []           # per delivered frame: how long after its time it was handed over
+            self._elapsed_s = 0.0
+            self.stats = self._realtime_stats         # `source_stats` of the run summary (a plain source has none)
 
     def frames(self):
+        return self._realtime_frames() if self.realtime else self._plain_frames()
+
+    def _plain_frames(self):
         while True:
             idx = int(self.cap.get(cv2.CAP_PROP_POS_FRAMES))
             ok, frame = self.cap.read()
@@ -60,6 +84,59 @@ class VideoFrameSource(FrameSource):
                 for _ in range(self.stride - 1):
                     if not self.cap.grab():
                         return
+
+    def _realtime_frames(self):
+        clock, cap, fps, stride = self._clock, self.cap, self.fps, self.stride
+        pos = int(cap.get(cv2.CAP_PROP_POS_FRAMES))        # index of the next frame the capture would decode
+        first = pos                                        # the stride grid is first, first + stride, ...
+        nxt = 0                                            # grid slot of the next frame this consumer can still get
+        wall0 = t0 = None
+        while True:
+            was = nxt
+            if wall0 is not None:
+                behind = int((t0 + (clock() - wall0)) * fps - first + 1e-6) // stride     # newest slot whose time has passed
+                nxt = max(nxt, behind)
+            g0 = clock()
+            target = first + nxt * stride
+            while pos < target:                            # decode and discard the frames the consumer was too late for
+                if not cap.grab():
+                    self._count_dropped(first, stride, was, nxt, pos)
+                    return
+                pos += 1
+            ok, frame = cap.read()
+            if not ok:
+                self._count_dropped(first, stride, was, nxt, pos)
+                return
+            idx, pos = pos, pos + 1
+            self.dropped += nxt - was
+            t = idx / fps
+            if self.end is not None and t > self.end:
+                return
+            self.last_grab_ms = (clock() - g0) * 1000.0
+            if wall0 is None:                              # the first frame starts the clock
+                wall0, t0 = clock(), t
+                self.wall_start, self.video_t0 = self._wall(), t
+            due = wall0 + (t - t0)
+            now = clock()
+            while now < due:                               # never ahead of the recording, even after an early wake-up
+                self._sleep(due - now)
+                now = clock()
+            self._late_ms.append(max(now - due, 0.0) * 1000.0)
+            self._elapsed_s = now - wall0
+            yield frame, t, idx
+            self.frames_out += 1
+            nxt += 1
+
+    def _count_dropped(self, first: int, stride: int, was: int, nxt: int, pos: int) -> None:
+        """The recording ended while skipping slots `was`..`nxt`-1: only those whose frame exists (index < pos) were dropped."""
+        self.dropped += min(max(-(-(pos - (first + was * stride)) // stride), 0), nxt - was)
+
+    def _realtime_stats(self) -> dict:
+        late = sorted(self._late_ms)
+        return {"realtime": True, "frames": self.frames_out, "dropped": self.dropped, "stride": self.stride,
+                "elapsed_s": round(self._elapsed_s, 3), "wall_start": self.wall_start, "video_t0": self.video_t0,
+                "late_ms_p50": round(late[len(late) // 2], 1) if late else None,
+                "late_ms_max": round(late[-1], 1) if late else None}
 
     def frame_at(self, t: float) -> np.ndarray | None:
         self.cap.set(cv2.CAP_PROP_POS_MSEC, t * 1000.0)

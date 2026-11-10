@@ -426,3 +426,212 @@ def test_page_draws_the_pro_row_and_the_match_badge():
     css = (ROOT / "clashbot" / "viz" / "static" / "style.css").read_text()
     assert "/pro`" in js and "data-pro" in js and "proBox" in js and "bot minus pro" in js
     assert ".match.same-card" in css and ".match.same-lane" in css and ".match.different" in css
+
+
+# -- MAC-AW: the Recording panel's endpoints ------------------------------------------------------------------------
+from clashbot.viz import livemeta  # noqa: E402
+from clashbot.viz.server import parse_range  # noqa: E402
+
+CLIP_BYTES = bytes(range(256)) * 40                                          # 10,240 bytes: every byte tells its own offset
+
+
+@pytest.fixture
+def video_run(run_dir, tmp_path):
+    """The fixture run with `video` in its config.json naming a stand-in .mp4 (and a secret file next to it)."""
+    media = tmp_path / "media"
+    media.mkdir()
+    clip = media / "clip.mp4"
+    clip.write_bytes(CLIP_BYTES)
+    (media / "secret.txt").write_text("not for the browser")
+    cfg = json.loads((run_dir / "config.json").read_text())
+    cfg.update(video=str(clip), start=0.0, stride=3, source="video", realtime=True)
+    (run_dir / "config.json").write_text(json.dumps(cfg))
+    return run_dir, clip
+
+
+@pytest.fixture
+def vapi(video_run):
+    return Api(Store(run=video_run[0]), Reference(db_path=video_run[0] / "no.sqlite"), cards={"zap": {"name": "Zap"}})
+
+
+def vget(api, run_dir, rng=None):
+    status, ctype, body = api.handle(f"/api/run/{rid(run_dir)}/video", {"Range": rng} if rng else {})
+    return status, ctype, body
+
+
+def test_parse_range():
+    assert parse_range(None, 100) is None and parse_range("", 100) is None
+    assert parse_range("bytes=0-9", 100) == (0, 9) and parse_range("bytes=90-", 100) == (90, 99) and parse_range("bytes=-10", 100) == (90, 99)
+    assert parse_range("bytes=50-5000", 100) == (50, 99) and parse_range("bytes=-500", 100) == (0, 99)
+    assert parse_range("BYTES = 5 - 6", 100) == (5, 6)
+    assert parse_range("bytes=100-", 100) == "unsatisfiable" and parse_range("bytes=500-600", 100) == "unsatisfiable"
+    assert parse_range("bytes=-0", 100) == "unsatisfiable" and parse_range("bytes=0-0", 0) == "unsatisfiable"
+    for ignored in ("bytes=9-3", "bytes=0-1,5-6", "items=0-5", "bytes=-", "bytes=x-y", "garbage"):
+        assert parse_range(ignored, 100) is None, ignored                       # not a usable single range: the whole file is sent
+
+
+def test_video_without_a_range_is_the_whole_file(vapi, video_run):
+    status, ctype, body = vget(vapi, video_run[0])
+    assert (status, ctype) == (200, "video/mp4") and body.read() == CLIP_BYTES
+    assert body.headers == {"Accept-Ranges": "bytes"} and body.length == len(CLIP_BYTES)
+
+
+def test_video_range_gives_206_with_the_right_bytes_and_headers(vapi, video_run):
+    n = len(CLIP_BYTES)
+    for rng, lo, hi in (("bytes=0-99", 0, 99), ("bytes=1000-1999", 1000, 1999), ("bytes=10000-", 10000, n - 1), ("bytes=-100", n - 100, n - 1),
+                        ("bytes=10000-99999999", 10000, n - 1), ("bytes=0-0", 0, 0)):
+        status, ctype, body = vget(vapi, video_run[0], rng)
+        assert (status, ctype) == (206, "video/mp4"), rng
+        assert body.read() == CLIP_BYTES[lo:hi + 1], rng
+        assert body.headers["Content-Range"] == f"bytes {lo}-{hi}/{n}" and body.headers["Accept-Ranges"] == "bytes" and body.length == hi - lo + 1
+
+
+def test_video_range_outside_the_file_is_416(vapi, video_run):
+    n = len(CLIP_BYTES)
+    for rng in (f"bytes={n}-", f"bytes={n + 5}-{n + 50}", "bytes=-0"):
+        status, ctype, body = vget(vapi, video_run[0], rng)
+        assert status == 416 and json.loads(body)["size"] == n, rng
+
+
+def test_video_serves_only_the_mp4_named_in_that_runs_config(vapi, video_run, tmp_path):
+    run, clip = video_run
+    assert vget(vapi, run)[0] == 200
+    cfg_path = run / "config.json"
+    cfg = json.loads(cfg_path.read_text())
+    for bad in (str(tmp_path / "media" / "secret.txt"),              # an existing file that is not an mp4
+                str(tmp_path / "media" / "missing.mp4"),             # an mp4 that is not there
+                "", None, 5):
+        cfg["video"] = bad
+        cfg_path.write_text(json.dumps(cfg))
+        assert vget(vapi, run)[0] == 404, bad
+    cfg.pop("video")
+    cfg_path.write_text(json.dumps(cfg))
+    assert vget(vapi, run)[0] == 404                                  # no video in the config: nothing to serve
+    # the URL names no file: anything appended is an unknown route, a query string cannot choose the file
+    assert vapi.handle(f"/api/run/{rid(run)}/video/../x", {})[0] == 404 and vapi.handle("/api/run/smoke:nope/video", {})[0] == 404
+    assert vapi.handle(f"/api/run/{rid(run)}/video/clip.mp4", {})[0] == 404
+    assert vapi.handle(f"/api/run/{rid(run)}/video?file=/etc/passwd", {})[0] == 404          # (still no video in the config)
+
+
+def test_video_over_http_has_range_semantics(video_run, tmp_path):
+    run, clip = video_run
+    server = make_server(Store(run=run), port=0, reference=Reference(db_path=tmp_path / "no"), cards={})
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    try:
+        port = server.server_address[1]
+
+        def fetch(method, path, headers=None):
+            conn = http.client.HTTPConnection("127.0.0.1", port, timeout=5)
+            conn.request(method, path, headers=headers or {})
+            resp = conn.getresponse()
+            data = resp.read()
+            heads = {k.lower(): v for k, v in resp.getheaders()}
+            conn.close()
+            return resp.status, heads, data
+
+        url = f"/api/run/{rid(run)}/video"
+        status, heads, data = fetch("GET", url, {"Range": "bytes=256-511"})
+        assert status == 206 and data == CLIP_BYTES[256:512] and heads["content-range"] == f"bytes 256-511/{len(CLIP_BYTES)}"
+        assert heads["content-length"] == "256" and heads["accept-ranges"] == "bytes" and heads["content-type"] == "video/mp4"
+        status, heads, data = fetch("GET", url, {"Range": "bytes=-16"})                  # Safari asks for the end of the file first
+        assert status == 206 and data == CLIP_BYTES[-16:]
+        status, heads, data = fetch("GET", url)
+        assert status == 200 and data == CLIP_BYTES and heads["accept-ranges"] == "bytes"
+        status, heads, data = fetch("GET", url, {"Range": f"bytes={len(CLIP_BYTES)}-"})
+        assert status == 416 and heads["content-range"] == f"bytes */{len(CLIP_BYTES)}"
+        status, heads, data = fetch("HEAD", url)
+        assert status == 200 and data == b"" and heads["content-length"] == str(len(CLIP_BYTES)) and heads["accept-ranges"] == "bytes"
+        assert fetch("GET", url + "/..%2F..%2Fsecret.txt")[0] == 404
+    finally:
+        server.shutdown()
+        server.server_close()
+
+
+def lget(api, run_dir):
+    status, out = get(api, f"/api/run/{rid(run_dir)}/livemeta")
+    assert status == 200
+    return out
+
+
+def test_livemeta_passes_live_meta_json_through_with_the_servers_clock(vapi, video_run):
+    run, clip = video_run
+    geo = {"grid": {"cols": 18, "rows": 32}, "rect": [0.1, 0.1, 0.9, 0.8], "corners": [], "homography": [[1, 0, 0], [0, 1, 0], [0, 0, 1]], "slots": []}
+    wall0 = time.time() - 10.0
+    livemeta.write(run, {**livemeta.build(clip, 0.0, wall0, 30.0, 3, True, None, frame_size=(596, 1280), first_idx=0), "arena": geo})
+    (run / "frames.jsonl").write_text("".join(json.dumps({"t": t, "idx": int(t * 30)}) + "\n" for t in (5.0, 6.5, 7.5)))
+    out = lget(vapi, run)
+    assert out["has_video"] is True and out["video_name"] == "clip.mp4" and out["derived"] is False
+    assert out["wall_start"] == wall0 and out["video"] == str(clip) and out["video_t0"] == 0.0 and out["fps"] == 30.0 and out["stride"] == 3
+    assert out["realtime"] is True and out["arena"] == geo and out["frame_size"] == [596, 1280]
+    assert out["live"] is True and out["finished"] is False and abs(out["now"] - time.time()) < 5
+    assert out["progress"]["latest_t"] == 7.5 and out["progress"]["lag_s"] == pytest.approx(2.5, abs=0.5)      # playhead ~10 s, agent at 7.5 s
+    (run / "summary.json").write_text("{}")
+    out = lget(vapi, run)
+    assert out["finished"] is True and out["live"] is False and out["progress"]["lag_s"] is None
+
+
+def test_livemeta_is_derived_from_the_config_for_a_run_without_the_file(vapi, video_run):
+    run, clip = video_run
+    out = lget(vapi, run)
+    assert out["derived"] is True and out["has_video"] is True and out["wall_start"] is None and out["video"] == str(clip)
+    assert out["stride"] == 3 and out["video_t0"] == 0.0 and out["progress"]["latest_t"] is None
+
+
+def test_livemeta_of_a_run_without_a_video_says_so(api, run_dir):
+    out = get(api, f"/api/run/{rid(run_dir)}/livemeta")[1]
+    assert out["has_video"] is False and out["video_name"] is None and out["derived"] is False and "wall_start" not in out
+    assert get(api, "/api/run/smoke:zzz/livemeta")[0] == 404
+
+
+def test_livemeta_tolerates_a_broken_file(vapi, video_run):
+    run, _clip = video_run
+    (run / "live_meta.json").write_text("{not json")
+    assert lget(vapi, run)["derived"] is True                       # an unreadable file counts as absent
+    (run / "live_meta.json").write_text("[1, 2]")
+    assert lget(vapi, run)["derived"] is True
+
+
+def test_screenshot_player_frames_are_ordered_by_time(tmp_path):
+    d = tmp_path / "runs" / "poc" / "20261101-120000"
+    (d / "shots").mkdir(parents=True)
+    (d / "config.json").write_text(json.dumps({"deck": "zap,archers,knight,giant", "source": "mirroring"}))
+    # the rows are not in time order, and two share a time: the player must still step through game time
+    rows = [_row(0, 30.0, retrieval=False), _row(1, 12.5, retrieval=False), _row(2, 12.5, retrieval=False, key="hold", status="hold_policy"),
+            _row(3, 50.0, retrieval=False), _row(4, 41.0, retrieval=False)]
+    for k, r in enumerate(rows):
+        r["idx"] = 10 + k
+    _write(d / "decisions.jsonl", rows)
+    for name in ("d0010_t30.0_a.jpg", "d0011_t12.5_a.jpg", "d0011_t12.5_b.jpg", "d0012_t12.5_a.jpg", "d0014_t41.0_a.jpg"):       # row 3 (t=50) has no shot
+        (d / "shots" / name).write_bytes(b"\xff\xd8\xff")
+    api = Api(Store(run=d), Reference(db_path=d / "no.sqlite"), cards={})
+    status, out = get(api, f"/api/run/{rid(d)}/player")
+    assert status == 200 and out["total"] == 5
+    fr = out["frames"]
+    assert [(f["t"], f["i"]) for f in fr] == [(12.5, 1), (12.5, 2), (30.0, 0), (41.0, 4)]          # by time, then by decision index
+    assert [f["file"] for f in fr] == ["d0011_t12.5_a.jpg", "d0012_t12.5_a.jpg", "d0010_t30.0_a.jpg", "d0014_t41.0_a.jpg"]
+    assert [f["until"] for f in fr] == [12.5, 30.0, 41.0, None]                                      # the player holds a frame until the next one
+    assert fr[1]["key"] == "hold" and fr[1]["status"] == "hold_policy" and fr[0]["mode"] == "defend" and fr[0]["tile"] == [3.5, 9.0]
+    # the files the player asks for are served by the shot endpoint
+    assert api.handle(f"/api/shot/{rid(d)}/{fr[0]['file']}")[0] == 200
+
+
+def test_screenshot_player_of_a_run_without_shots_is_empty(api, run_dir):
+    (run_dir / "shots" / "d0100_t10.0_a.jpg").unlink()
+    (run_dir / "shots" / "d0101_t12.5_a.jpg").unlink()
+    out = get(api, f"/api/run/{rid(run_dir)}/player")[1]
+    assert out["frames"] == [] and out["total"] == 3
+
+
+def test_page_has_the_recording_panel(run_dir):
+    static = ROOT / "clashbot" / "viz" / "static"
+    html, js, css, app = ((static / n).read_text() for n in ("index.html", "recording.js", "style.css", "app.js"))
+    assert 'id="rec-panel"' in html and "recording.js" in html and "<video" in html and "<canvas" in html and 'id="grid"' in html
+    assert "LIVE — the agent is watching this recording now" in js and "agent lag" in js
+    assert "/livemeta`" in js and "/video`" in js and "/player`" in js and "data-speed" in js and "[1, 2, 3, 4]" in js
+    assert "homography" in js and "tile[0] + 0.5" in js and "currentTime" in js and "pro: " in js
+    assert "Rec.poll" in app and "Rec.render" in app and "Rec.onSelect" in app
+    assert ".rec-banner" in css and ".rec-stage" in css and ".rec-feed" in css
+    assert "http://" not in js and "https://" not in js and "eval(" not in js
+    status, ctype, body = Api(Store(run=run_dir)).handle("/recording.js")
+    assert status == 200 and "javascript" in ctype and b"Rec" in body

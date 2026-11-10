@@ -67,12 +67,15 @@ banner "Dashboard:  http://localhost:$VIZ_PORT   (open it now; decisions appear 
        "Dry run:    no taps are ever sent"
 
 # ---- the live stack in dry run on the clip. --stride 3 turns the 30 fps video into 10 fps, the rate of the live capture and of the
-# vs-pro runs; --seconds is video time (the clip is 90 s long, the default 60 s keeps the run short) ----
+# vs-pro runs; --seconds is video time (the clip is 90 s long, the default 60 s keeps the run short). --realtime (MAC-AW) plays the
+# clip like a live stream: the agent sees each frame no earlier than its time on the wall clock and skips the frames it is too slow
+# for, so the run takes about DEMO_SECONDS of wall time (plus the model load) and the dashboard's Recording panel plays the clip in
+# step with it, the agent's taps drawn on it as it makes them ----
 status=0
 # shellcheck disable=SC2086
 python -m clashbot.live --dry-run --source video --video "$ART/clip.mp4" --calib "$ART/calib.json" \
     --deck "$DECK" $RANKER_ARGS --policy fast --act-model "$ART/act-gbdt" --device cpu \
-    --record-shots --stride 3 --seconds "${DEMO_SECONDS:-60}" --out "$OUT" &
+    --record-shots --stride 3 --realtime --seconds "${DEMO_SECONDS:-60}" --out "$OUT" &
 LIVE_PID=$!
 wait "$LIVE_PID" || status=$?
 

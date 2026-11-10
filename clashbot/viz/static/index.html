@@ -21,13 +21,35 @@
   <div class="row small" id="models"></div>
 </header>
 
+<section id="rec-panel" class="panel" hidden>
+  <h2>Recording <span id="rec-badge" class="badge"></span> <span class="sub" id="rec-sub"></span></h2>
+  <div id="rec-banner" class="rec-banner"></div>
+  <div class="rec-body">
+    <div class="rec-left">
+      <div id="rec-stage" class="rec-stage">
+        <video id="rec-video" muted playsinline preload="auto" hidden></video>
+        <img id="rec-img" alt="decision screenshot" hidden>
+        <canvas id="rec-canvas" hidden></canvas>
+        <button id="rec-click" class="rec-click" type="button" hidden>click to play the recording</button>
+      </div>
+      <div id="rec-controls" class="rec-controls"></div>
+    </div>
+    <div class="rec-side">
+      <div id="rec-lag" class="rec-lag"></div>
+      <div id="rec-hold" class="rec-hold"></div>
+      <div id="rec-legend" class="legend"></div>
+      <div id="rec-feed" class="rec-feed"></div>
+    </div>
+  </div>
+</section>
+
 <section id="timeline-panel" class="panel">
   <h2>Timeline <span class="sub">decisions (dot = a decision, hollow = it ended in a hold) over run time; band = why the policy held</span></h2>
   <div id="timeline"></div>
   <div id="timeline-legend" class="legend"></div>
 </section>
 
-<main class="grid">
+<main class="grid" id="grid">
   <section id="screen-panel" class="panel">
     <h2>Screen <span class="sub" id="screen-sub"></span></h2>
     <div id="screen"></div>
@@ -56,5 +78,6 @@
   </section>
 </main>
 <script src="app.js"></script>
+<script src="recording.js"></script>
 </body>
 </html>
