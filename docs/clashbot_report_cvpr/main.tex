@@ -23,6 +23,10 @@
 % docs/data/retrieval_methods_v1.{md,json} (the only sources of the new numbers; Sonnet row = claude-sonnet-5-5-long).
 % The former Table kg part (b) (E6 test) is folded into Table retrmethods (b), which repeats its test numbers exactly;
 % its val column moved to the E6 text. Older text condensed to stay within eight pages; no result dropped.
+% Revision 6 (2026-11-09): every confidence interval and +/- sd removed (point estimates and p-values kept unchanged);
+% the leak-check / simple-baseline block of Table ranker removed (those numbers remain in the text and Table decmodels);
+% Sec. 4 (course-concepts table, sec/4_course.tex) removed: each technique and its lecture citation now sits where it is
+% introduced in sec/3_system.tex or sec/5_experiments.tex.
 
 \documentclass[10pt,twocolumn,letterpaper]{article}
 
@@ -67,7 +71,6 @@ University of Central Florida\\
 \input{sec/1_intro}
 \input{sec/2_related}
 \input{sec/3_system}
-\input{sec/4_course}
 \input{sec/5_experiments}
 \input{sec/6_discussion}
 \input{sec/7_conclusion}

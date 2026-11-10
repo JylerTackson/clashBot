@@ -10,11 +10,11 @@ The task is hard for five measurable reasons. (i)~\emph{Real time}: perception t
 (iv)~\emph{Sparse supervision}: 197 pro games (about 12 match-hours, one creator), no reward or simulator, an opponent with level-15 cards. % src: CMA C1; D-047
 (v)~\emph{Consumer hardware}: an Apple M5 laptop (32\,GB), no paid API. % src: CMA C3 (hardware); PBC sec. 4 (cost per game)
 
-Following the course's retrieve-then-rank and agent-with-tools patterns~\cite{lim2026l11,lim2026l13,lim2026l15}, deterministic tools (a tactical engine with a lane simulator, hybrid retrieval over pro states and a knowledge graph) propose at most four candidate plays with short text notes, and a decision LLM fine-tuned on the pro games picks one; no tool picks the move (D-045; decision log D-001 to D-053). Contributions:
+The design draws on the course's retrieval, knowledge-graph, RAG, recommendation and agent material~\cite{cap6938L08,cap6938L05,lim2026l11,lim2026l13,lim2026l15} and follows a retrieve-then-rank, agent-with-tools pattern: deterministic tools (a tactical engine with a lane simulator, hybrid retrieval over pro states and a knowledge graph) propose at most four candidate plays with short text notes, and a decision LLM fine-tuned on the pro games picks one; no tool picks the move (D-045; decision log D-001 to D-053). Contributions:
 \begin{enumerate}
 \item A non-embedded, two-speed agent live on iPhone Mirroring, all models local, with guarded demo tools (Sec.~\ref{sec:system}).
 \item A knowledge layer (hybrid retrieval over 10,923 pro states, a two-version KG with lane-simulation edges and 3,620 mined pro answers, a tactical engine) rendered as context for a fine-tuned setwise LLM ranker. % src: CMA C1, C2, A1
-\item A leakage-checked benchmark suite (Sec.~\ref{sec:exp}): options rebuilt after a leak (an option-key rule scored 0.852 on test), ten rankers with cluster-bootstrap CIs, ablations from retrieval to knowledge editing, and an open-loop comparison with the pro, negative results included. % src: D-037 (0.852 test)
+\item A leakage-checked benchmark suite (Sec.~\ref{sec:exp}): options rebuilt after a leak (an option-key rule scored 0.852 on test), ten rankers compared with paired significance tests, ablations from retrieval to knowledge editing, and an open-loop comparison with the pro, negative results included. % src: D-037 (0.852 test)
 \item Live Training Camp evaluation: 13 recorded runs (931 logged decisions) with one win, then a 0--10 trial on frozen code, diagnosed from the logs (Sec.~\ref{sec:live}, \ref{sec:disc}). % src: CMA C6; STATUS 2026-11-07 night; TRIAL; BL
 \end{enumerate}
 The bot plays only Training Camp and friendly battles, never ranked matches against people (D-031, D-050).
