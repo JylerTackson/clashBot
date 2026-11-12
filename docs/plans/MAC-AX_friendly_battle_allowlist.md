@@ -1,4 +1,4 @@
-# MAC-AX — play friendly battles against named friends; everyone else stays watch-only (spec for one Sonnet implementer)
+# MAC-AX — SUPERSEDED by D-055 (opponent check removed). Original: play friendly battles against named friends; everyone else stays watch-only (spec for one Sonnet implementer)
 
 Author: Opus · 2026-11-12 · Decision D-054 (widens D-050). Read `docs/plans/MAC-00_common.md` first.
 

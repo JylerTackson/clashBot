@@ -241,3 +241,11 @@ D-045 holds: when offered, the LLM decides.
 - Any other opponent is watch-only. That covers the ladder, strangers and an unreadable banner (fail closed).
 - D-031 (`--live` + `CLASHBOT_ALLOW_LIVE=1`) is unchanged.
 - D-051, the showcase code freeze, has ended: the showcase was 2026-11-09.
+
+### D-055 · The opponent check is removed · decided (user) · 2026-11-12
+**User:** "no I kinda just want to completely remove it."
+
+This supersedes D-050 and D-054; the MAC-AX allowlist was not built.
+- The launcher no longer gates by opponent: once live taps are enabled it plays any battle. It still reads the opponent banner, only to record it.
+- D-031 is unchanged: taps need `--live` and `CLASHBOT_ALLOW_LIVE=1`, and the executor checks again.
+- The docs recommend Training Camp and friendly battles. Ranked play violates Supercell's terms and risks a ban.
