@@ -170,15 +170,16 @@ echo " needed for the evaluations; this folder's clip is artifacts/clip.mp4 and 
 # ---------------------------------------------------------------- 7. what to run
 say "7. done. Live play"
 cat <<EOF
-Open iPhone Mirroring with your iPhone showing Clash Royale (Training Camp), then in a terminal:
+Open iPhone Mirroring with your iPhone showing Clash Royale (Training Camp or a friendly battle recommended), then in a terminal:
 
   cd "$ROOT"
   source $VENV/bin/activate
   export CR_SCRATCH="$CRS"
   CLASHBOT_ALLOW_LIVE=1 scripts/demo.sh --live --dashboard
 
-Leave out CLASHBOT_ALLOW_LIVE=1 and --live to only watch (the bot decides and logs, nothing is tapped). It taps only in a battle whose
-opponent banner reads "Trainer ..." (Training Camp). Ctrl-C stops it.
+Leave out CLASHBOT_ALLOW_LIVE=1 and --live to only watch (the bot decides and logs, nothing is tapped). With both on it plays any battle
+(the opponent banner is only recorded, not checked). Training Camp or friendly battles are recommended; ranked play violates
+Supercell's terms and risks a ban. Ctrl-C stops it.
 
 macOS permissions for the terminal app you run it from (System Settings > Privacy & Security):
   - Screen Recording   (to read the mirrored window)
