@@ -1,5 +1,5 @@
-"""One-command demo launcher (MAC-AN, D-050): asks the deck, loads, says READY, watches iPhone Mirroring and plays
-Training Camp battles until Ctrl-C.
+"""One-command demo launcher (MAC-AN; D-055 removed the opponent gate of D-050): asks the deck, loads, says READY, watches
+iPhone Mirroring and plays every battle it sees until Ctrl-C.
 
     CLASHBOT_ALLOW_LIVE=1 scripts/demo.sh --live        # taps ON (both D-031 switches); without them: watch only
     scripts/demo.sh                                     # watch only: the bot decides and logs, nothing is tapped
@@ -7,12 +7,14 @@ Training Camp battles until Ctrl-C.
 1. Prompts: the 8 cards, which are evolutions, which are heroes (names are resolved against the card index, with typo
    tolerance). Everything else is today's live command, fixed (d1-ft-joint-tac + act-gbdt, `--policy fast`, shots on).
 2. Load every model before looking for the window, warm up the detector and d1, print READY.
-3. Watch loop (`DemoSession`): WAITING_WINDOW -> WATCHING -> CHECKING (read the opponent banner on up to 10 frames over
-   5 s) -> PLAYING (banner "Trainer ...": Training Camp) or NOT_TRAINING_CAMP (watch and log, never tap). Unknown counts
-   as not Training Camp. A battle ends when the screen is not a match for 3 s; a closed window goes back to
-   WAITING_WINDOW. Frames are driven through `LiveLoop.step`; its `tap_gate` is closed outside Training Camp, so the
-   executor is not even called there. D-031 is unchanged: taps need `--live` AND CLASHBOT_ALLOW_LIVE=1, else the
-   launcher says so and watches only.
+3. Watch loop (`DemoSession`): WAITING_WINDOW -> WATCHING -> CHECKING (a battle started: it is played from its first
+   frame; the opponent banner is read on up to 10 frames over 5 s, only to record it) -> PLAYING ("battle vs <banner> -
+   playing"). The banner decides nothing: any battle is played once taps are ON, whoever the opponent is. The verdict kept in
+   battles.jsonl (TRAINING_CAMP when two reads say "Trainer ...", else NOT_TRAINING_CAMP, UNKNOWN when the battle ended
+   first) is a record, not a gate. A battle ends when the screen is not a match for 3 s; a closed window goes back to
+   WAITING_WINDOW. Frames are driven through `LiveLoop.step`; its `tap_gate` is open for the whole of a battle and closed
+   between battles. D-031 is unchanged: taps need `--live` AND CLASHBOT_ALLOW_LIVE=1, else the launcher says so and
+   watches only (the executor then plans the clicks and sends none). Use it in Training Camp or friendly battles.
 Session files: runs/demo/<timestamp>/ (frames / decisions / holds .jsonl with a `battle` field, battles.jsonl,
 summary.json, config.json, shots/, battles/). `battles/<n>_end_<k>.jpg` are the last (up to) 3 frames of battle n seen
 after the screen left "match" (k = 0 oldest ... 2 newest; the last match frame when there are none): the result screen,
@@ -40,7 +42,7 @@ from pathlib import Path
 from clashbot.config import HOLD_KEY
 from clashbot.executor import LIVE_ENV
 from clashbot.game_rules import is_playable, load_cards
-from clashbot.live import (TOS_NOTE, LiveLoop, Stack, _build_executor, _build_source, build_parser as live_parser, build_stack,
+from clashbot.live import (LiveLoop, Stack, _build_executor, _build_source, build_parser as live_parser, build_stack,
                            resolve_device)
 
 DEMO_DIR = Path("runs") / "demo"
@@ -50,15 +52,16 @@ CALIB = "runs/poc/mirror_calib.json"
 FIXED_FLAGS = ["--calib", CALIB, "--ranker", "d1", "--d1-backend", "transformers", "--d1-model",
                "db/models/d1-ft-joint-tac", "--policy", "fast", "--act-model", "db/models/act-gbdt", "--record-shots"]
 
-WAITING_WINDOW, WATCHING, CHECKING, PLAYING, NOT_TRAINING_CAMP = (
-    "WAITING_WINDOW", "WATCHING", "CHECKING", "PLAYING", "NOT_TRAINING_CAMP")
+TOS_NOTE = ("With live taps enabled (--live and CLASHBOT_ALLOW_LIVE=1) this plays every battle it sees and does not check the "
+            "opponent. Use it in Training Camp or friendly battles: playing ranked matches with a bot violates Supercell's "
+            "terms of service and risks a ban.")
+WAITING_WINDOW, WATCHING, CHECKING, PLAYING = "WAITING_WINDOW", "WATCHING", "CHECKING", "PLAYING"
 WINDOW_RETRY_S = 2.0              # try to open the mirroring window this often
 CHECK_FRAMES = 10                 # banner reads per battle ...
 CHECK_WINDOW_S = 5.0              # ... within this many seconds of the battle start
 CHECK_GAP_S = 0.5                 # ... at most one every this many seconds (OCR runs only while CHECKING)
 BATTLE_END_S = 3.0                # the screen is not a match for this long: the battle is over
 FRAMES_KEEP = 20000               # `loop.frames` is trimmed to the newest half of this when it grows past it
-GATE_CHECKING = "checking the opponent banner"
 END_FRAMES = 3                    # frames kept for the result screen of each battle ...
 END_JPEG_QUALITY = 85             # ... saved as battles/<n>_end_<k>.jpg
 
@@ -238,11 +241,13 @@ def tap_status(live: bool, environ=None) -> tuple[bool, str]:
 
 
 D031_MESSAGE = (f"live taps are disabled; the user enables them with --live and {LIVE_ENV}=1 "
-                "(Training Camp / friendly battles only). Continuing watch-only.")
+                "(for Training Camp or friendly battles). Continuing watch-only.")
+TAPS_ON_NOTE = "Taps are ON: it plays every battle it sees, so start only Training Camp or friendly battles."
 
 
 class TapGate:
-    """`LiveLoop.tap_gate`: open only in a battle whose banner read "Trainer ..." (D-050). `reason` says why it is closed."""
+    """`LiveLoop.tap_gate`: open for the whole of a battle (any battle, D-055), closed between battles. `reason` says why it is
+    closed. Whether a tap is really sent is the executor's business (D-031)."""
 
     def __init__(self):
         self.open = False
@@ -330,7 +335,7 @@ class Battle:
     t_start: float
     wall_start: float
     decisions_at: int
-    verdict: str = "CHECKING"
+    verdict: str = "CHECKING"                       # a record, not a gate: CHECKING, TRAINING_CAMP, NOT_TRAINING_CAMP
     banner: str = ""
     reads: list = field(default_factory=list)       # [(t, text, is_trainer)]
     check_t0: float = 0.0
@@ -339,15 +344,14 @@ class Battle:
 
 class DemoSession:
     """The watch loop's state machine over a `LiveLoop` (see the module docstring). `reader(frame) -> str` reads the
-    opponent banner (`trainer_banner.read_banner` on the real OCR); `is_trainer` judges it. `assume_training_camp` is the
-    test-only switch that skips the check. Everything printed goes through `say`; `clock` is wall time (battle rows)."""
+    opponent banner (`trainer_banner.read_banner` on the real OCR) and `is_trainer` labels it, both only for the record: the
+    tap gate opens at the start of every battle. Everything printed goes through `say`; `clock` is wall time (battle rows)."""
 
     def __init__(self, loop: LiveLoop, out_dir: Path, reader, gate: TapGate, taps_on: bool, say=print,
-                 assume_training_camp: bool = False, executor_factory=None, reset_perception=None, clock=time.time,
-                 end_frames: EndFrameWriter | None = None):
+                 executor_factory=None, reset_perception=None, clock=time.time, end_frames: EndFrameWriter | None = None):
         from cr_perception.trainer_banner import is_trainer, verdict
         self.loop, self.out_dir, self.reader, self.gate, self.taps_on = loop, Path(out_dir), reader, gate, taps_on
-        self.say, self.assume, self.clock = say, assume_training_camp, clock
+        self.say, self.clock = say, clock
         self.executor_factory = executor_factory
         self.reset_perception = reset_perception
         self.end_frames = end_frames or EndFrameWriter(self.out_dir)
@@ -394,27 +398,19 @@ class DemoSession:
         self.battle = Battle(self.n_battles, self._cur_t, self.clock(), len(loop.decisions))
         self.battle.check_t0 = self._cur_t
         loop.reset_battle(self.n_battles)
-        if self.assume:
-            self.battle.verdict, self.battle.banner = "TRAINING_CAMP", "(assumed)"
-            self._playing()
-        else:
-            self.gate.close(GATE_CHECKING)
-            self.set_state(CHECKING, "match started — reading the opponent banner…")
+        self.gate.allow()                                  # every battle is played (D-055); the banner is only recorded
+        self.set_state(CHECKING, "match started — reading the opponent banner…")
 
     def _playing(self) -> None:
-        self.gate.allow()
-        who = self.battle.banner or "Trainer"
+        """The banner check is settled (its text and verdict are recorded): say who the battle is against."""
+        who = self.battle.banner.strip() or "(banner not read)"
         how = "playing" if self.taps_on else "watch only (taps OFF)"
-        self.set_state(PLAYING, f"Training Camp battle vs {who} — {how}")
-
-    def _not_training_camp(self, text: str) -> None:
-        self.gate.close(f"not Training Camp (banner: {text!r})")
-        self.battle.verdict = "NOT_TRAINING_CAMP"
-        self.set_state(NOT_TRAINING_CAMP, "this battle is not Training Camp — watching only (Supercell ToS)")
+        self.set_state(PLAYING, f"battle vs {who} — {how}")
 
     def _check_banner(self, frame, t: float) -> None:
-        """One banner read (at most every CHECK_GAP_S), then the verdict as soon as it is settled: two trainer reads =
-        Training Camp; the limit (CHECK_FRAMES reads, CHECK_WINDOW_S seconds) or too few reads left = not."""
+        """One banner read (at most every CHECK_GAP_S), then the record as soon as it is settled: two trainer reads =
+        Training Camp; the limit (CHECK_FRAMES reads, CHECK_WINDOW_S seconds) or too few reads left = not. Neither
+        outcome gates anything."""
         b = self.battle
         if t - b.last_read_t >= CHECK_GAP_S:
             b.last_read_t = t
@@ -432,7 +428,8 @@ class DemoSession:
               or hits + CHECK_FRAMES - len(b.reads) < 2):
             texts = [r[1] for r in b.reads if r[1]]
             b.banner = b.banner or (texts[0] if texts else "")
-            self._not_training_camp(b.banner)
+            b.verdict = "NOT_TRAINING_CAMP"
+            self._playing()
 
     def _end_battle(self, t: float, why: str) -> None:
         b, loop = self.battle, self.loop
@@ -499,7 +496,7 @@ class DemoSession:
                 self._last_match_frame = frame
                 if self._tail:
                     self._tail.clear()                  # the screen came back: only the last gap before the end counts
-                if self.battle.verdict == "CHECKING" and not self.assume:
+                if self.battle.verdict == "CHECKING":
                     self._check_banner(frame, t)
                     read = True
         elif self.battle is not None:
@@ -607,7 +604,7 @@ class DemoSession:
                                     if self._overhead_frames else None)       # mean per frame outside the banner check
         tot["check_ms_total"] = round(1000.0 * (self._overhead_s - self._overhead_watch_s), 1)   # frames that read the banner
         summary = self.loop.finish({"demo": {**tot, "stopped_by": reason, **(extra or {})}})
-        self.say(f"session: {tot['battles']} battles ({tot['training_camp']} Training Camp, {tot['not_training_camp']} not), "
+        self.say(f"session: {tot['battles']} battles ({tot['training_camp']} Training Camp, {tot['not_training_camp']} other), "
                  f"{tot['decisions']} decisions, {tot['taps']} taps, {tot['gated']} gated, {tot['frames']} frames, "
                  f"{tot['runtime_s']:.0f} s — files in {self.out_dir}")
         return summary
@@ -685,7 +682,7 @@ def start_dashboard(follow: Path, say=print):
 def build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(prog="python -m clashbot.demo", description=TOS_NOTE)
     ap.add_argument("--live", action="store_true",
-                    help=f"send real taps in Training Camp (also needs {LIVE_ENV}=1); without both the demo only watches")
+                    help=f"send real taps in every battle it sees (also needs {LIVE_ENV}=1); without both the demo only watches")
     ap.add_argument("--deck", default=None, help="the 8 cards, names or slugs, comma-separated (skips the question)")
     ap.add_argument("--evo-cards", default=None, help="evolution cards of the deck (skips the question; '' = none)")
     ap.add_argument("--hero-cards", default=None, help="hero cards of the deck (skips the question; '' = none)")
@@ -697,7 +694,6 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--video", default=None, help=argparse.SUPPRESS)
     ap.add_argument("--start", type=float, default=0.0, help=argparse.SUPPRESS)
     ap.add_argument("--seconds", type=float, default=None, help=argparse.SUPPRESS)
-    ap.add_argument("--assume-training-camp", action="store_true", help=argparse.SUPPRESS)
     ap.add_argument("--setup-file", default=str(SETUP_FILE), help=argparse.SUPPRESS)
     return ap
 
@@ -722,9 +718,6 @@ def main(argv: list[str] | None = None, ask=input, say=print, environ=None) -> i
     demo = build_parser().parse_args(argv)
     if demo.live and demo.source != "mirroring":
         print("error: --live needs --source mirroring", file=sys.stderr)
-        return 2
-    if demo.assume_training_camp and demo.live:
-        print("error: --assume-training-camp is a test flag and is refused together with --live", file=sys.stderr)
         return 2
     if demo.source == "video" and not demo.video:
         print("error: --source video needs --video PATH", file=sys.stderr)
@@ -792,8 +785,8 @@ def main(argv: list[str] | None = None, ask=input, say=print, environ=None) -> i
     loop = LiveLoop(None, stack.perception, stack.builder, stack.generator, stack.ranker, None, stack.cards,
                     load_placement_prior(), plan_text=stack.plan_text, out_dir=out_dir, min_gap_s=args.min_gap,
                     policy=stack.policy, tactics=stack.tactics, coach=stack.coach, shots=shots, kg2=stack.kg2)
-    session = DemoSession(loop, out_dir, reader, gate, taps_on, say=say, assume_training_camp=demo.assume_training_camp,
-                          executor_factory=executor_for, reset_perception=reset_perception)
+    session = DemoSession(loop, out_dir, reader, gate, taps_on, say=say, executor_factory=executor_for,
+                          reset_perception=reset_perception)
 
     def on_sigint(signum, frame):                        # the first Ctrl-C stops cleanly, a second one exits at once
         if session.stop:
@@ -804,6 +797,8 @@ def main(argv: list[str] | None = None, ask=input, say=print, environ=None) -> i
     previous = signal.signal(signal.SIGINT, on_sigint)
     dashboard = None
     try:
+        if taps_on:
+            say(TAPS_ON_NOTE)
         say(f"READY — open iPhone Mirroring and start a Training Camp battle. Taps: {'ON' if taps_on else 'OFF'} "
             f"({why}). Ctrl-C to stop.")
         if demo.dashboard:

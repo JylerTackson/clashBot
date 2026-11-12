@@ -10,8 +10,8 @@ export HF_HUB_OFFLINE=1
 ```
 
 **Without this Mac:** the Docker submission runs the same stack on a bundled clip on any OS and shows the dashboard: `docker compose up --build`
-in the unzipped `clashbot_docker/`, then http://localhost:8765 (see [DOCKER.md](DOCKER.md)). **Live play on a Mac** (iPhone Mirroring, Training
-Camp only, behind `--live` and `CLASHBOT_ALLOW_LIVE=1`): run [scripts/setup_mac.sh](../scripts/setup_mac.sh) once; it prepares the venv, the
+in the unzipped `clashbot_docker/`, then http://localhost:8765 (see [DOCKER.md](DOCKER.md)). **Live play on a Mac** (iPhone Mirroring, behind
+`--live` and `CLASHBOT_ALLOW_LIVE=1`; it plays any battle on screen, so use Training Camp or friendly battles): run [scripts/setup_mac.sh](../scripts/setup_mac.sh) once; it prepares the venv, the
 weights and the data and prints the live command ([DOCKER.md](DOCKER.md), "Live play on a Mac (optional)").
 
 Times were measured on this Mac (Apple M5, 32 GB) on 2026-11-07, while other jobs were running on it (load average 3 to 6, the wall times below are upper bounds; the suite took
