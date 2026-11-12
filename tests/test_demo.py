@@ -1,5 +1,6 @@
-"""Demo launcher (MAC-AN, D-050): card-name resolution, the prompts, the tap guard, and the watch loop's state machine with
-a fake source / perception / builder / executor around a real LiveLoop. No model is loaded and nothing is ever sent."""
+"""Demo launcher (MAC-AN; D-055 removed the opponent gate): card-name resolution, the prompts, the tap guard, and the watch
+loop's state machine (every battle is played once taps are ON, the banner is only recorded) with a fake source / perception /
+builder / executor around a real LiveLoop. No model is loaded and nothing is ever sent."""
 import json
 import sys
 import types
@@ -192,20 +193,36 @@ def test_tap_status_is_off_away_from_macos(monkeypatch):
     assert demo.tap_status(True, {"CLASHBOT_ALLOW_LIVE": "1"})[0] is False
 
 
-def test_the_gate_is_closed_until_a_trainer_battle_opens_it():
+def test_the_gate_is_closed_between_battles_and_opens_for_a_battle():
     gate = demo.TapGate()
     assert gate() is False and gate.reason == "no battle"
     gate.allow()
     assert gate() is True
-    gate.close("not Training Camp (banner: 'Tyler')")
-    assert gate() is False and "Tyler" in gate.reason
+    gate.close("no battle")
+    assert gate() is False and gate.reason == "no battle"
 
 
-def test_the_test_flag_is_refused_together_with_live(capsys):
-    assert demo.main(["--assume-training-camp", "--live", "--yes", "--deck", ",".join(DECK)]) == 2
-    assert "refused together with --live" in capsys.readouterr().err
+def test_live_needs_the_mirroring_source_and_a_video_source_needs_a_path(capsys):
     assert demo.main(["--live", "--source", "video", "--video", "x.mp4"]) == 2
+    assert "--live needs --source mirroring" in capsys.readouterr().err
     assert demo.main(["--source", "video"]) == 2
+    assert "needs --video PATH" in capsys.readouterr().err
+
+
+def test_the_assume_training_camp_flag_is_gone():
+    with pytest.raises(SystemExit):
+        demo.build_parser().parse_args(["--assume-training-camp"])
+
+
+def test_the_demo_note_and_help_say_it_plays_every_battle_and_recommend_training_camp_and_friendlies(capsys):
+    note = " ".join(demo.TOS_NOTE.split())
+    assert "plays every battle it sees" in note and "does not check the opponent" in note
+    assert "Training Camp or friendly battles" in note and "ranked" in note and "ban" in note
+    assert "Training Camp" in demo.D031_MESSAGE and "CLASHBOT_ALLOW_LIVE=1" in demo.D031_MESSAGE
+    with pytest.raises(SystemExit):
+        demo.build_parser().parse_args(["--help"])
+    text = " ".join(capsys.readouterr().out.split())                      # argparse wraps the lines
+    assert "plays every battle it sees" in text and "send real taps in every battle it sees" in text
 
 
 def test_the_only_place_that_sends_input_is_still_the_executor():
@@ -288,12 +305,15 @@ class Policy:
 
 
 class FakeExecutor:
+    """Records every call; `sent` follows `live` (the real executor sends only when it was built live, D-031)."""
+
     def __init__(self):
         self.calls = []
+        self.live = True
 
     def execute(self, key, tile, t, hand=None):
         self.calls.append((key, t))
-        return {"t": t, "key": key, "tile": tile, "status": "planned", "slot": 0, "clicks": [], "sent": True}
+        return {"t": t, "key": key, "tile": tile, "status": "planned", "slot": 0, "clicks": [], "sent": self.live}
 
 
 class ScriptSource:
@@ -327,7 +347,7 @@ def timeline(*parts):
     return items
 
 
-def make_session(tmp_path, taps_on=True, assume=False, executor=None):
+def make_session(tmp_path, taps_on=True, executor=None):
     ex = executor or FakeExecutor()
     perception, builder = FakePerception(), FakeBuilder()
     loop = LiveLoop(None, perception, builder, FakeGenerator(), FirstKey(), None, load_cards(), PRIOR, plan_text="P",
@@ -336,8 +356,7 @@ def make_session(tmp_path, taps_on=True, assume=False, executor=None):
     gate = demo.TapGate()
     resets = []
     session = demo.DemoSession(loop, tmp_path, lambda frame: frame["banner"], gate, taps_on, say=out.append,
-                               assume_training_camp=assume, executor_factory=lambda source: ex,
-                               reset_perception=lambda p: resets.append(p))
+                               executor_factory=lambda source: ex, reset_perception=lambda p: resets.append(p))
     return session, out, ex, loop, resets
 
 
@@ -348,13 +367,12 @@ def rows(path):
 
 
 def tags(lines):
-    """One letter per printed state line: W waiting, S watching, R reading the banner, P playing, N not Training Camp,
+    """One letter per printed state line: W waiting, S watching, R reading the banner, P playing ("battle vs ..."),
     O battle over, T session totals (anything else is shown as is)."""
     out = []
     for x in lines:
         for prefix, tag in (("waiting for the iPhone", "W"), ("watching (no battle)", "S"), ("match started", "R"),
-                            ("Training Camp battle", "P"), ("this battle is not Training Camp", "N"),
-                            ("battle over", "O"), ("session:", "T")):
+                            ("battle vs", "P"), ("battle over", "O"), ("session:", "T")):
             if x.startswith(prefix):
                 out.append(tag)
                 break
@@ -364,7 +382,7 @@ def tags(lines):
 
 
 # ------------------------------------------------------------------------------------------------ the state machine
-def test_the_whole_session_waits_plays_training_camp_gates_the_rest_survives_the_window_and_stops_on_ctrl_c(tmp_path):
+def test_the_whole_session_waits_plays_every_battle_records_the_banner_survives_the_window_and_stops_on_ctrl_c(tmp_path):
     src1 = ScriptSource(timeline((False, "", 4), (True, "Trainer Cheddar II", 24), (False, "", 10),
                                  (True, "Tyler", 24), (False, "", 10)), end=RuntimeError("window capture failed"))
     src2 = ScriptSource(timeline((False, "", 3), (True, "TraiNeR Bob", 16)), end=KeyboardInterrupt())
@@ -384,37 +402,33 @@ def test_the_whole_session_waits_plays_training_camp_gates_the_rest_survives_the
     summary = session.finish(reason, {"load": {"total_s": 1.0}})
 
     # the one line printed on each change of state (nothing per frame)
-    assert tags(out) == ["W", "S", "R", "P", "O", "S", "R", "N", "O", "S", "W", "S", "R", "P", "O", "T"]
-    assert out[3] == "Training Camp battle vs Trainer Cheddar II — playing"
-    assert out[7] == "this battle is not Training Camp — watching only (Supercell ToS)"
-    assert out[4].startswith("battle over: 0:") and "24 decisions, 22 taps" in out[4]
+    assert tags(out) == ["W", "S", "R", "P", "O", "S", "R", "P", "O", "S", "W", "S", "R", "P", "O", "T"]
+    assert out[3] == "battle vs Trainer Cheddar II — playing"
+    assert out[7] == "battle vs Tyler — playing"                              # a stranger is played too: the banner decides nothing
+    assert out[4].startswith("battle over: 0:") and "24 decisions, 24 taps" in out[4]
     assert out[10] == "waiting for the iPhone Mirroring window… (RuntimeError: window capture failed)"
-    assert out[13] == "Training Camp battle vs TraiNeR Bob — playing" and out[14].endswith("16 decisions, 14 taps [Ctrl-C]")
-    assert out[15].startswith("session: 3 battles (2 Training Camp, 1 not)")
+    assert out[13] == "battle vs TraiNeR Bob — playing" and out[14].endswith("16 decisions, 16 taps [Ctrl-C]")
+    assert out[15].startswith("session: 3 battles (2 Training Camp, 1 other)")
 
     # battles.jsonl: one row per battle, with the banner, the verdict and the counts
     b = rows(tmp_path / "battles.jsonl")
     assert [r["n"] for r in b] == [1, 2, 3] and [r["verdict"] for r in b] == ["TRAINING_CAMP", "NOT_TRAINING_CAMP", "TRAINING_CAMP"]
     assert [r["banner"] for r in b] == ["Trainer Cheddar II", "Tyler", "TraiNeR Bob"]
     assert [r["ended"] for r in b] == ["battle over", "battle over", "Ctrl-C"]
-    assert (b[0]["decisions"], b[0]["gated"], b[0]["taps"]) == (24, 2, 22)             # the first 2 frames are the check
-    assert (b[1]["decisions"], b[1]["gated"], b[1]["taps"]) == (24, 24, 0)
-    assert (b[2]["decisions"], b[2]["gated"], b[2]["taps"]) == (16, 2, 14)
+    assert (b[0]["decisions"], b[0]["gated"], b[0]["taps"]) == (24, 0, 24)             # played from the first frame
+    assert (b[1]["decisions"], b[1]["gated"], b[1]["taps"]) == (24, 0, 24)             # the stranger too
+    assert (b[2]["decisions"], b[2]["gated"], b[2]["taps"]) == (16, 0, 16)
     assert len(b[0]["banner_reads"]) == 2 and len(b[1]["banner_reads"]) == 9          # two hits settle it; 9 reads rule it out
     assert all(not r[2] for r in b[1]["banner_reads"]) and all(set(r) >= {"t_start", "t_end", "duration_s"} for r in b)
 
-    # the executor was called only in the Training Camp battles, never in the gated one
-    assert len(ex.calls) == 22 + 14
-    assert not any(b[1]["t_start"] <= t <= b[1]["t_end"] for _, t in ex.calls)
+    # the executor was called in every battle (the banner is only recorded)
+    assert len(ex.calls) == 24 + 24 + 16
+    assert any(b[1]["t_start"] <= t <= b[1]["t_end"] for _, t in ex.calls)
 
     # every row carries its battle number; None outside a battle
     decisions = rows(tmp_path / "decisions.jsonl")
     assert sorted({r["battle"] for r in decisions}) == [1, 2, 3] and len(decisions) == 64
-    assert {r["executor"]["gate"] for r in decisions if r["battle"] == 2} == {
-        "checking the opponent banner", "not Training Camp (banner: 'Tyler')"}
-    assert {r["executor"]["status"] for r in decisions if r["battle"] == 2} == {"gated"}
-    assert [r["executor"]["status"] for r in decisions if r["battle"] == 1][:3] == ["gated", "gated", "planned"]
-    assert decisions[0]["executor"]["gate"] == "checking the opponent banner"
+    assert {r["executor"]["status"] for r in decisions} == {"planned"} and not any("gate" in r["executor"] for r in decisions)
     frames = rows(tmp_path / "frames.jsonl")
     assert {r["battle"] for r in frames} == {None, 1, 2, 3} and frames[0]["battle"] is None
     assert [r["battle"] for r in frames if r["readiness"] == "match"][:1] == [1]
@@ -427,12 +441,13 @@ def test_the_whole_session_waits_plays_training_camp_gates_the_rest_survives_the
     # summary.json: the loop's summary plus the demo block
     s = json.loads((tmp_path / "summary.json").read_text())
     assert s["demo"]["battles"] == 3 and s["demo"]["training_camp"] == 2 and s["demo"]["not_training_camp"] == 1
-    assert s["demo"]["taps"] == 36 and s["demo"]["gated"] == 28 and s["demo"]["stopped_by"] == "Ctrl-C"
+    assert s["demo"]["taps"] == 64 and s["demo"]["gated"] == 0 and s["demo"]["stopped_by"] == "Ctrl-C"
     assert s["demo"]["window_losses"] == 1 and s["demo"]["load"] == {"total_s": 1.0}
-    assert s["decisions_by_status"] == {"gated": 28, "planned": 36} and summary["demo"] == s["demo"]
+    assert s["decisions_by_status"] == {"planned": 64} and summary["demo"] == s["demo"]
+    assert session.gate() is False and session.gate.reason == "no battle"             # closed again between battles
 
 
-def test_with_taps_off_a_training_camp_battle_is_watched_and_planned_not_sent(tmp_path):
+def test_with_taps_off_a_battle_is_watched_and_planned_not_sent(tmp_path):
     session, out, ex, loop, _ = make_session(tmp_path, taps_on=False)
 
     class DryExecutor(FakeExecutor):
@@ -444,33 +459,46 @@ def test_with_taps_off_a_training_camp_battle_is_watched_and_planned_not_sent(tm
     session.executor_factory = lambda source: dry
     session.watch(lambda: ScriptSource(timeline((True, "Trainer Cheddar", 12), (False, "", 8))))
     session.finish("done")
-    assert "Training Camp battle vs Trainer Cheddar — watch only (taps OFF)" in out
+    assert "battle vs Trainer Cheddar — watch only (taps OFF)" in out
     b = rows(tmp_path / "battles.jsonl")[0]
-    assert b["taps"] == 0 and b["planned"] == 10 and b["gated"] == 2 and len(dry.calls) == 10
-    assert any("12 decisions, 0 taps (10 planned)" in line for line in out)
+    assert b["taps"] == 0 and b["planned"] == 12 and b["gated"] == 0 and len(dry.calls) == 12
+    assert any("12 decisions, 0 taps (12 planned)" in line for line in out)
 
 
-def test_unknown_banner_is_not_training_camp(tmp_path):
-    for i, banner in enumerate(("", "  ", "Tra", "garbled ###")):
+def test_any_banner_is_played_and_recorded_the_verdict_gates_nothing(tmp_path):
+    cases = [("Trainer Cheddar II", "TRAINING_CAMP", "Trainer Cheddar II"), ("Tyler", "NOT_TRAINING_CAMP", "Tyler"),
+             ("", "NOT_TRAINING_CAMP", ""), ("  ", "NOT_TRAINING_CAMP", "  "), ("Tra", "NOT_TRAINING_CAMP", "Tra"),
+             ("garbled ###", "NOT_TRAINING_CAMP", "garbled ###"), ("2618", "NOT_TRAINING_CAMP", "2618")]
+    for i, (banner, verdict, recorded) in enumerate(cases):
         d = tmp_path / str(i)
         session, out, ex, loop, _ = make_session(d)
         session.watch(lambda: ScriptSource(timeline((True, banner, 14), (False, "", 8))))
         session.finish("done")
-        assert "this battle is not Training Camp — watching only (Supercell ToS)" in out and ex.calls == []
-        assert rows(d / "battles.jsonl")[0]["verdict"] == "NOT_TRAINING_CAMP"
+        b = rows(d / "battles.jsonl")[0]
+        assert len(ex.calls) == 14, banner                              # every frame of the battle reached the executor
+        assert b["verdict"] == verdict and b["banner"] == recorded and (b["taps"], b["gated"]) == (14, 0), banner
+        assert f"battle vs {recorded.strip() or '(banner not read)'} — playing" in out, banner
+        assert not any("not Training Camp" in x or "watching only" in x for x in out)
 
 
-def test_one_trainer_read_is_not_enough(tmp_path):
+def test_a_battle_with_no_banner_text_says_so(tmp_path):
+    session, out, ex, loop, _ = make_session(tmp_path)
+    session.watch(lambda: ScriptSource(timeline((True, "", 14), (False, "", 8))))
+    session.finish("done")
+    assert "battle vs (banner not read) — playing" in out and rows(tmp_path / "battles.jsonl")[0]["banner"] == ""
+
+
+def test_one_trainer_read_is_not_enough_to_label_it_training_camp_and_it_is_played_anyway(tmp_path):
     session, out, ex, loop, _ = make_session(tmp_path)
     items = [(True, "Trainer Cheddar" if k == 0 else "Tyler", k * 0.5) for k in range(14)] + run_of("", 8, 7.0, ready=False)
     session.watch(lambda: ScriptSource(items))
     session.finish("done")
     b = rows(tmp_path / "battles.jsonl")[0]
-    assert ex.calls == [] and b["verdict"] == "NOT_TRAINING_CAMP" and len(b["banner_reads"]) == 10
+    assert len(ex.calls) == 14 and b["verdict"] == "NOT_TRAINING_CAMP" and len(b["banner_reads"]) == 10
     assert b["banner"] == "Trainer Cheddar"                              # the text that was read is kept for the log
 
 
-def test_two_trainer_reads_anywhere_in_the_check_make_it_training_camp(tmp_path):
+def test_two_trainer_reads_anywhere_in_the_check_label_it_training_camp(tmp_path):
     session, out, ex, loop, _ = make_session(tmp_path)
     names = ["", "Tyler", "Trainer Cheddar", "", "TRAINER Cheddar"] + ["Trainer Cheddar"] * 9
     items = [(True, n, k * 0.5) for k, n in enumerate(names)] + run_of("", 8, 7.0, ready=False)
@@ -478,7 +506,26 @@ def test_two_trainer_reads_anywhere_in_the_check_make_it_training_camp(tmp_path)
     session.finish("done")
     b = rows(tmp_path / "battles.jsonl")[0]
     assert b["verdict"] == "TRAINING_CAMP" and len(b["banner_reads"]) == 5 and b["banner"] == "Trainer Cheddar"
-    assert len(ex.calls) == 14 - 5                                      # the decisions of frames 0..4 were gated
+    assert len(ex.calls) == 14                                          # the decisions of frames 0..4 were not held back
+
+
+def test_the_first_frame_of_a_battle_is_already_played_and_the_gate_is_closed_between_battles(tmp_path):
+    session, out, ex, loop, _ = make_session(tmp_path)
+    states = []
+    real = session.on_frame
+
+    def watch_gate(frame, t, idx, capture_ms=0.0):
+        decision = real(frame, t, idx, capture_ms)
+        states.append((frame["ready"], session.gate()))
+        return decision
+
+    session.on_frame = watch_gate
+    session.watch(lambda: ScriptSource(timeline((False, "", 4), (True, "Tyler", 6), (False, "", 10))))
+    session.finish("done")
+    assert [g for ready, g in states if ready] == [True] * 6                     # open from the first match frame
+    assert [g for ready, g in states[:4]] == [False] * 4 and states[-1] == (False, False)    # closed before and after
+    d = rows(tmp_path / "decisions.jsonl")
+    assert len(d) == 6 and {r["executor"]["status"] for r in d} == {"planned"} and len(ex.calls) == 6
 
 
 def test_banner_ocr_runs_only_while_checking_and_at_most_every_half_second(tmp_path):
@@ -509,15 +556,6 @@ def test_battle_ends_after_three_seconds_without_a_match_and_a_short_gap_is_the_
     session.watch(lambda: ScriptSource(items))                           # a 4 s gap: two battles
     session.finish("done")
     assert [r["n"] for r in rows(tmp_path / "two" / "battles.jsonl")] == [1, 2] and loop.builder.resets == 2
-
-
-def test_assume_training_camp_skips_the_banner_and_plays(tmp_path):
-    session, out, ex, loop, _ = make_session(tmp_path, assume=True)
-    session.reader = lambda frame: pytest.fail("the banner must not be read")
-    session.watch(lambda: ScriptSource(timeline((True, "Tyler", 10), (False, "", 8))))
-    session.finish("done")
-    assert "Training Camp battle vs (assumed) — playing" in out and len(ex.calls) == 10
-    assert rows(tmp_path / "battles.jsonl")[0]["verdict"] == "TRAINING_CAMP"
 
 
 def test_a_video_that_ends_finishes_the_session_and_so_does_the_time_limit(tmp_path):
@@ -743,7 +781,7 @@ def test_watching_with_no_battle_holds_no_frame(tmp_path):
 
 
 def test_a_battle_adds_less_than_a_millisecond_per_frame_for_the_end_frames(tmp_path):
-    session, out, ex, loop, _ = make_session(tmp_path, assume=True)
+    session, out, ex, loop, _ = make_session(tmp_path)
     session.watch(lambda: ScriptSource(timeline((True, "", 300), (False, "", 100))))
     summary = session.finish("done")
     assert summary["demo"]["watch_overhead_ms"] < 1.0
@@ -877,6 +915,7 @@ def _fake_main(monkeypatch, tmp_path, src, *argv, environ=None):
 
     def build_executor(args, source):
         built.append(args.live)
+        ex.live = args.live                                             # like the real one: it sends only when built live
         return ex
 
     monkeypatch.setattr(demo, "build_stack", build_stack)
@@ -906,8 +945,11 @@ def test_main_without_the_env_switch_prints_the_d031_message_and_watches_only(mo
     ready = "READY — open iPhone Mirroring and start a Training Camp battle. Taps: OFF (--live without CLASHBOT_ALLOW_LIVE=1). Ctrl-C to stop."
     assert ready in lines
     assert built == [False]                                              # the executor was built dry: no live switch
-    assert "Training Camp battle vs Trainer Cheddar — watch only (taps OFF)" in lines
+    assert "battle vs Trainer Cheddar — watch only (taps OFF)" in lines
     assert lines.index("  warm-up faked") < lines.index(ready)                    # warm-up, then READY
+    assert demo.TAPS_ON_NOTE not in lines                                         # no "taps are ON" reminder
+    assert ex.calls and not any(r["executor"]["sent"] for r in rows(out / "decisions.jsonl"))     # planned, never sent
+    assert rows(out / "battles.jsonl")[0]["taps"] == 0
     cfg = json.loads((out / "config.json").read_text())
     assert cfg["taps_on"] is False and cfg["live"] is False and cfg["evo_cards"] == "tesla,electro-dragon"
     assert cfg["hero_cards"] == "musketeer" and cfg["hero_cards_list"] == ["musketeer"]
@@ -932,16 +974,38 @@ def test_main_with_both_switches_builds_the_executor_live_and_says_taps_on(monke
     src = ScriptSource(timeline((True, "Trainer Cheddar", 12), (False, "", 8)), end=KeyboardInterrupt())
     rc, lines, ex, built, out = _fake_main(monkeypatch, tmp_path, src, "--live", environ={"CLASHBOT_ALLOW_LIVE": "1"})
     assert rc == 0 and built == [True]
-    assert "READY — open iPhone Mirroring and start a Training Camp battle. Taps: ON (live). Ctrl-C to stop." in lines
-    assert "Training Camp battle vs Trainer Cheddar — playing" in lines
-    assert len(ex.calls) == 5                                            # (the real min-gap of 1 s: t = 1 .. 5)
+    ready = "READY — open iPhone Mirroring and start a Training Camp battle. Taps: ON (live). Ctrl-C to stop."
+    assert ready in lines and "battle vs Trainer Cheddar — playing" in lines
+    assert demo.TAPS_ON_NOTE in lines and lines.index(demo.TAPS_ON_NOTE) == lines.index(ready) - 1
+    assert len(ex.calls) == 6                                            # (the real min-gap of 1 s: t = 0 .. 5, from the first frame)
 
 
-def test_main_a_ladder_battle_never_reaches_the_executor(monkeypatch, tmp_path):
-    src = ScriptSource(timeline((True, "Tyler", 14), (False, "", 8)), end=KeyboardInterrupt())
+@pytest.mark.parametrize("banner, verdict", [("Trainer Cheddar", "TRAINING_CAMP"), ("Tyler", "NOT_TRAINING_CAMP"),
+                                             ("", "NOT_TRAINING_CAMP"), ("2618", "NOT_TRAINING_CAMP")])
+def test_main_with_both_switches_any_banner_is_played_and_recorded(monkeypatch, tmp_path, banner, verdict):
+    src = ScriptSource(timeline((True, banner, 14), (False, "", 8)), end=KeyboardInterrupt())
     rc, lines, ex, built, out = _fake_main(monkeypatch, tmp_path, src, "--live", environ={"CLASHBOT_ALLOW_LIVE": "1"})
-    assert rc == 0 and ex.calls == [] and "this battle is not Training Camp — watching only (Supercell ToS)" in lines
-    assert {r["executor"]["status"] for r in rows(out / "decisions.jsonl")} == {"gated"}
+    assert rc == 0 and built == [True] and len(ex.calls) == 7            # (real min-gap of 1 s: t = 0 .. 6) every banner is played
+    d = rows(out / "decisions.jsonl")
+    assert {r["executor"]["status"] for r in d} == {"planned"} and any(r["executor"]["sent"] for r in d)
+    b = rows(out / "battles.jsonl")[0]
+    assert (b["banner"], b["verdict"]) == (banner, verdict) and b["taps"] == 7
+    assert f"battle vs {banner or '(banner not read)'} — playing" in lines
+    assert not any("watching only" in x or "not Training Camp" in x for x in lines)
+
+
+@pytest.mark.parametrize("flags, environ", [([], {}), ([], {"CLASHBOT_ALLOW_LIVE": "1"}), (["--live"], {}),
+                                            (["--live"], {"CLASHBOT_ALLOW_LIVE": "0"})])
+@pytest.mark.parametrize("banner", ["Trainer Cheddar", "Tyler", ""])
+def test_main_without_both_switches_nothing_is_ever_sent_whatever_the_banner(monkeypatch, tmp_path, flags, environ, banner):
+    monkeypatch.delenv("CLASHBOT_ALLOW_LIVE", raising=False)
+    src = ScriptSource(timeline((True, banner, 14), (False, "", 8)), end=KeyboardInterrupt())
+    rc, lines, ex, built, out = _fake_main(monkeypatch, tmp_path, src, *flags, environ=environ)
+    assert rc == 0 and built == [False]                                  # the executor is built dry (D-031 is untouched)
+    assert ex.calls and not any(r["executor"]["sent"] for r in rows(out / "decisions.jsonl"))
+    b = rows(out / "battles.jsonl")[0]
+    assert b["taps"] == 0 and b["banner"] == banner and demo.TAPS_ON_NOTE not in lines
+    assert f"battle vs {banner or '(banner not read)'} — watch only (taps OFF)" in lines
 
 
 def test_main_waits_for_a_missing_window_and_stops_on_the_time_limit(monkeypatch, tmp_path):

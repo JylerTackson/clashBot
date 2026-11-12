@@ -2,8 +2,9 @@
 
 A Clash Royale playing agent for Apple-silicon Macs. It reads the game from an iPhone Mirroring window (or a recorded video), decides
 what to play with retrieval over 10,923 pro game states, a knowledge graph, a tactics engine and a fine-tuned 600M-parameter LLM, and
-taps through iPhone Mirroring. It plays Training Camp battles only (see "Data provenance and terms of service"). Course project; the
-agent, the evaluations and the demo tooling are all in this repository.
+taps through iPhone Mirroring. With live taps enabled it plays whatever battle is on screen, so start only Training Camp or friendly
+battles (see "Data provenance and terms of service"). Course project; the agent, the evaluations and the demo tooling are all in this
+repository.
 
 ```
 iPhone Mirroring window  (or a recorded video)
@@ -30,11 +31,11 @@ bundled clip of a pro match and shows every decision in the dashboard. Nothing i
 
 ## Live play on a Mac
 
-Playing for real (Training Camp, through iPhone Mirroring) runs natively, because Docker cannot reach the macOS window server. On a Mac
+Playing for real (through iPhone Mirroring; Training Camp or friendly battles) runs natively, because Docker cannot reach the macOS window server. On a Mac
 with iPhone Mirroring and Clash Royale, run [scripts/setup_mac.sh](scripts/setup_mac.sh) once from the unzipped Docker package (it makes a
 `.venv`, downloads d1, puts the data in place, runs the environment check and prints the live command and the two permissions it needs).
-Taps still need `--live` and `CLASHBOT_ALLOW_LIVE=1` (D-031) and happen only in Training Camp (D-050); see the section "Live play on a
-Mac (optional)" of [docs/DOCKER.md](docs/DOCKER.md) and "Run the demo" below.
+Taps still need `--live` and `CLASHBOT_ALLOW_LIVE=1` (D-031); with both set the launcher plays every battle it sees (D-055); see the
+section "Live play on a Mac (optional)" of [docs/DOCKER.md](docs/DOCKER.md) and "Run the demo" below.
 
 ## What is in the zip, and what is not
 
@@ -117,7 +118,7 @@ Known limits of a plain unzipped checkout (checked on one, after the rebuild abo
 `db/kg2.sqlite`, and `tests/test_opp_model.py::test_real_live_runs_give_a_few_decks` expects recorded runs whenever a `runs/poc` folder exists
 (so copy the calibration there only after the tests). None of the three touches the agent's behaviour.
 
-## Run the demo (iPhone Mirroring, Training Camp)
+## Run the demo (iPhone Mirroring)
 
 Needs macOS 15+ with iPhone Mirroring and a paired iPhone showing Clash Royale, Screen Recording and Accessibility permission for the
 terminal, the calibration JSON above, KataCR, `db/` and the weights. From the repository root:
@@ -127,14 +128,14 @@ CLASHBOT_ALLOW_LIVE=1 scripts/demo.sh --live --dashboard
 ```
 
 The launcher asks for the 8 cards (names are matched loosely: "mini pekka", "e dragon"), which are evolutions and which heroes, loads every
-model, prints `READY`, then watches the mirrored window until Ctrl-C. When it sees a Training Camp battle (the opponent banner reads
-"Trainer ...") it plays it; any other battle is watched and logged, never tapped. Taps need both `--live` and `CLASHBOT_ALLOW_LIVE=1`
-(D-031, D-050); without them it only watches and says so. `--dashboard` opens the browser dashboard on the session. The session lives in
+model, prints `READY`, then watches the mirrored window until Ctrl-C. It plays every battle it sees and only records the opponent
+banner it reads (`battles.jsonl`); it does not check who the opponent is (D-055), so start only Training Camp or friendly battles:
+playing ranked matches with a bot violates Supercell's terms of service and risks a ban. Taps need both `--live` and
+`CLASHBOT_ALLOW_LIVE=1` (D-031); without them it only watches and says so. `--dashboard` opens the browser dashboard on the session. The session lives in
 `runs/demo/<timestamp>/`: `decisions.jsonl`, `holds.jsonl`, `frames.jsonl`, `battles.jsonl` (one row per battle), `summary.json`,
 `shots/`, and `battles/<n>_end_{0,1,2}.jpg`, the last three frames of each battle (the result screen), listed in the battle's `end_frames`.
 
-No phone: the same launcher runs on a recorded video, watch only. A pro ladder game has no "Trainer" banner, so it reports "not Training
-Camp" and taps nothing:
+No phone: the same launcher runs on a recorded video, watch only (nothing is tapped):
 
 ```bash
 scripts/demo.sh --deck "electro dragon, musketeer, tesla, fireball, knight, zap, ram rider, mini pekka" --evo-cards "tesla, electro dragon" \
@@ -207,7 +208,8 @@ output in `dataset/v1/eval/`), `eval_eta.py`, `live_state_parity.py` (KataCR + a
 - The 197 games (10,923 states) were extracted by this repository's own perception from 33 public YouTube videos by one creator
   (@ryleycr1, downloaded with yt-dlp for research). The videos are not redistributed; the extracted states and the creator's insights are
   in `knowledge_base/states` and `knowledge_base/matches`. Splits are by video, so no game appears in two splits.
-- Supercell's terms prohibit bots in normal play. The agent therefore taps only in Training Camp battles (the launcher detects the
-  "Trainer" banner and fails closed), only with `--live` and `CLASHBOT_ALLOW_LIVE=1` together (D-031, D-050), and nothing in the test
-  suite or the evals sends input. Everything else (evals, dry runs, dashboards) is read-only.
+- Supercell's terms prohibit bots in normal play. The launcher does not check the opponent (D-055): with `--live` and
+  `CLASHBOT_ALLOW_LIVE=1` together (D-031) it plays any battle on screen, so run it only in Training Camp or friendly battles; ranked
+  play with a bot violates the terms and risks a ban. Nothing in the test suite or the evals sends input. Everything else (evals, dry
+  runs, dashboards) is read-only.
 - No credentials are used or stored. `data/cookies.txt` (an optional yt-dlp export) is gitignored; `scripts/check_submission.sh` scans the zip.

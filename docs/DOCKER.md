@@ -124,7 +124,7 @@ The full repository (all evaluations, the report) is the other submission file.
 
 ## Live play on a Mac (optional)
 
-The real agent plays **Training Camp** battles on a Mac through iPhone Mirroring. Docker cannot reach the macOS window server, so
+The real agent plays battles on a Mac through iPhone Mirroring (use Training Camp or friendly battles). Docker cannot reach the macOS window server, so
 this runs natively, outside the container. Skip this section if you only want to see the stack work.
 
 **You need:** a Mac (macOS 15 or newer; Apple silicon recommended), an iPhone paired with iPhone Mirroring and showing Clash Royale,
@@ -137,16 +137,16 @@ scripts/setup_mac.sh                    # once: a .venv here, the packages, d1 f
 source .venv/bin/activate
 export CR_SCRATCH="$PWD/cr_scratch"     # where setup put the KataCR weights and source
 scripts/demo.sh                         # asks for your 8 cards, then watches only: the bot decides and logs, nothing is tapped
-CLASHBOT_ALLOW_LIVE=1 scripts/demo.sh --live --dashboard    # taps ON, Training Camp only
+CLASHBOT_ALLOW_LIVE=1 scripts/demo.sh --live --dashboard    # taps ON: plays every battle it sees
 ```
 
 - `setup_mac.sh` is safe to re-run. It leaves an existing `.venv` alone unless you pass `--reinstall`, never overwrites files that
   are already in place, and does not touch anything outside this folder. It ends by printing the live command above.
 - **Permissions:** the terminal app you launch it from needs **Screen Recording** (to read the mirrored window) and
   **Accessibility** (to post the taps) in System Settings, Privacy & Security. Restart the terminal after granting them.
-- **Training Camp only (D-050).** The launcher asks for your 8 cards, reads the opponent banner at the start of every battle and
-  taps only when it reads "Trainer ..." (Training Camp). Any other battle is watched and logged, never tapped; an unreadable
-  banner counts as "not Training Camp".
+- **Any battle (D-055).** The launcher asks for your 8 cards, plays every battle it sees once taps are ON and only records the
+  opponent banner it reads in `battles.jsonl`; it does not check the opponent. Start only Training Camp or friendly battles: playing
+  ranked matches with a bot violates Supercell's terms of service and risks a ban.
 - **Double guard (D-031).** Taps need both `--live` on the command line **and** `CLASHBOT_ALLOW_LIVE=1` in the environment, checked when
   the executor is built and again before every tap. Without both the launcher says so and only watches.
 - **The calibration** (`runs/poc/mirror_calib.json`, copied from `configs/mirror_calib.example.json`) holds the geometry of the
