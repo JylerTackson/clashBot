@@ -232,3 +232,12 @@ D-045 holds: when offered, the LLM decides.
 - **Slides:** `.pptx`, 15-minute talk over Zoom. UCF style: a gold/yellow footer bar with the UCF logo and the CECS logo in the footer corners.
 - **Demo:** the user records the end-to-end demo (Zoom screen share from the Mac) and plays the ~10 Training Camp trial battles tonight, after the job queue clears.
 - **Prior bots:** compared against their published numbers; no re-implemented baseline.
+
+### D-054 · Friendly battles against named friends · decided (user request; design by Opus) · 2026-11-12
+**User:** "I want to remove this TOS guard because I want to vs some of my friends with clashbot in private matches."
+
+**Rule (MAC-AX).**
+- D-050's gate is widened, not removed. The launcher taps in a battle when the opponent banner reads "Trainer …" (Training Camp), or when it matches a name on the user's **friends allowlist** (`--friends`, or the launcher prompt; saved with the deck setup).
+- Any other opponent is watch-only. That covers the ladder, strangers and an unreadable banner (fail closed).
+- D-031 (`--live` + `CLASHBOT_ALLOW_LIVE=1`) is unchanged.
+- D-051, the showcase code freeze, has ended: the showcase was 2026-11-09.
